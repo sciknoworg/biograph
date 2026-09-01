@@ -643,28 +643,37 @@
   }
 
   // ================= MAP =================
+  // Country geometry zooms/pans normally (its own group gets the zoom transform).
+  // Markers, their labels, and the journey line live in a SEPARATE, un-scaled
+  // layer whose screen position is recomputed from the zoom transform on every
+  // tick — so pins and text stay a constant, readable size while zooming, and a
+  // tight cluster (e.g. the Finnish cities) visibly spreads apart in screen
+  // space as you zoom in, which is what actually lets crowded labels resolve.
   const mapSvg = d3.select("#map");
-  const mapG = mapSvg.append("g");
-  const countryLayer = mapG.append("g").attr("class","countries");
-  const journeyLayer = mapG.append("g").attr("class","journeys");
-  const markerLayer = mapG.append("g").attr("class","markers");
+  const countryG = mapSvg.append("g").attr("class","countries-g");
+  const countryLayer = countryG.append("g").attr("class","countries");
+  const journeyLayer = mapSvg.append("g").attr("class","journeys");
+  const markerLayer = mapSvg.append("g").attr("class","markers");
   const worldCountries = (WORLD_COUNTRIES && WORLD_COUNTRIES.features) ? WORLD_COUNTRIES : null;
-  const mapZoom = d3.zoom().scaleExtent([1, 8]).on("zoom", (event) => mapG.attr("transform", event.transform));
+  let mapTransform = d3.zoomIdentity;
+  let placeMarks = [];
+
+  const mapZoom = d3.zoom().scaleExtent([1, 10]).on("zoom", (event) => {
+    mapTransform = event.transform;
+    countryG.attr("transform", mapTransform);
+    positionMapOverlays();
+  });
   mapSvg.call(mapZoom);
   mapSvg.on("click", () => selectNone());
-  let mapDrawn = false;
 
   function drawMap(){
     const r = document.getElementById("map-wrap").getBoundingClientRect();
     const mw = r.width, mh = r.height;
     if(mw < 10 || mh < 10) return;
 
-    let projection;
-    if(worldCountries){
-      projection = d3.geoNaturalEarth1().fitExtent([[16,16],[mw-16,mh-16]], worldCountries);
-    } else {
-      projection = d3.geoNaturalEarth1().scale(mw/6.3).translate([mw/2, mh/2]);
-    }
+    const projection = worldCountries
+      ? d3.geoNaturalEarth1().fitExtent([[16,16],[mw-16,mh-16]], worldCountries)
+      : d3.geoNaturalEarth1().scale(mw/6.3).translate([mw/2, mh/2]);
     const geoPath = d3.geoPath(projection);
 
     if(worldCountries){
@@ -675,30 +684,16 @@
         .attr("d", geoPath);
     }
 
-    const placeMarks = placeNodes.map(p => {
+    placeMarks = placeNodes.map(p => {
       const evs = eventsAtPlace.get(p.id) || [];
       const deg = degree.get(p.id) || 0;
-      const xy = projection([p.attributes.lng, p.attributes.lat]);
+      const baseXY = projection([p.attributes.lng, p.attributes.lat]);
       const earliest = evs.length ? evs.reduce((a,b)=> a.date.sort_start < b.date.sort_start ? a : b) : null;
       return Object.assign({}, p, {
-        xy, evs, r: 6 + Math.min(16, evs.length*3 + deg),
+        baseXY, evs, r: 6 + Math.min(16, evs.length*3 + deg),
         earliestSort: earliest ? earliest.date.sort_start : null,
       });
-    }).filter(p => p.xy);
-
-    // Same declutter principle as the network graph: only label a marker by default
-    // when nothing else sits close enough on screen to collide with it; clustered
-    // markers (e.g. several Finnish cities) reveal their name on hover instead.
-    placeMarks.forEach(p => {
-      p.hub = !placeMarks.some(o => o!==p && Math.hypot(o.xy[0]-p.xy[0], o.xy[1]-p.xy[1]) < 56);
-    });
-
-    // faint chronological "journey" line through the places that have dated events,
-    // in the order Suntola's story visits them
-    const journeyPts = placeMarks.filter(p=>p.earliestSort).sort((a,b)=>a.earliestSort.localeCompare(b.earliestSort));
-    const line = d3.line().x(d=>d.xy[0]).y(d=>d.xy[1]).curve(d3.curveCatmullRom.alpha(0.6));
-    journeyLayer.selectAll("path.journey-path").data(journeyPts.length>1 ? [journeyPts] : [])
-      .join("path").attr("class","journey-path").attr("d", line);
+    }).filter(p => p.baseXY);
 
     const markSel = markerLayer.selectAll("g.place-marker")
       .data(placeMarks, d=>d.id)
@@ -709,8 +704,6 @@
         return g;
       });
     markSel
-      .attr("class", d => "place-marker" + (d.hub ? " hub" : ""))
-      .attr("transform", d => `translate(${d.xy[0]},${d.xy[1]})`)
       .on("click", (event,d) => { event.stopPropagation(); selectEntity(d.id); })
       .on("mouseover", (event,d) => {
         const info = d.evs.length ? `${d.evs.length} event${d.evs.length>1?"s":""} here` : "on the map";
@@ -721,7 +714,36 @@
     markSel.select("circle.fill").attr("r", d=>d.r);
     markSel.select("text").attr("x", d=>d.r+5).attr("y", 3).text(d=>d.name);
 
-    mapDrawn = true;
+    mapTransform = d3.zoomIdentity;
+    mapSvg.call(mapZoom.transform, d3.zoomIdentity);
+    positionMapOverlays();
+  }
+
+  function positionMapOverlays(){
+    if(!placeMarks.length) return;
+    placeMarks.forEach(p => {
+      const [sx, sy] = mapTransform.apply(p.baseXY);
+      p.sx = sx; p.sy = sy;
+    });
+
+    // Same declutter principle as the network graph: only label a marker by
+    // default when nothing else sits close enough on screen to collide with it —
+    // recomputed on every zoom tick, so labels progressively reveal as a
+    // crowded cluster (e.g. the Finnish cities) is zoomed apart.
+    placeMarks.forEach(p => {
+      p.hub = !placeMarks.some(o => o!==p && Math.hypot(o.sx-p.sx, o.sy-p.sy) < 56);
+    });
+
+    // faint chronological "journey" line through the places that have dated
+    // events, in the order Suntola's story visits them
+    const journeyPts = placeMarks.filter(p=>p.earliestSort).sort((a,b)=>a.earliestSort.localeCompare(b.earliestSort));
+    const line = d3.line().x(d=>d.sx).y(d=>d.sy).curve(d3.curveCatmullRom.alpha(0.6));
+    journeyLayer.selectAll("path.journey-path").data(journeyPts.length>1 ? [journeyPts] : [])
+      .join("path").attr("class","journey-path").attr("d", line);
+
+    markerLayer.selectAll("g.place-marker")
+      .classed("hub", d=>d.hub)
+      .attr("transform", d => `translate(${d.sx},${d.sy})`);
   }
 
   // ================= MILESTONES =================
