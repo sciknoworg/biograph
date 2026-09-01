@@ -71,7 +71,7 @@
   #side .date-badge{display:inline-block;background:var(--surface-2);border-radius:999px;
     padding:4px 12px;font-size:11.5px;color:var(--ink);font-weight:700;margin-bottom:10px;}
 
-  #timeline-wrap{height:258px;background:var(--surface);box-shadow:0 -1px 0 var(--hairline), var(--shadow-md);
+  #timeline-wrap{height:270px;background:var(--surface);box-shadow:0 -1px 0 var(--hairline), var(--shadow-md);
     position:relative;flex-shrink:0;z-index:3;}
   svg#timeline{width:100%;height:100%;display:block;}
   #tl-hint{position:absolute;top:8px;right:16px;font-size:10.5px;color:var(--muted);pointer-events:none;}
@@ -109,7 +109,7 @@
   .ev-mark:hover rect{filter:brightness(1.12);}
   .ev-mark.dim{opacity:.16;}
   .ev-mark.selected rect{stroke:var(--ink);stroke-width:2px;}
-  #axis text{fill:var(--muted);font-size:10.5px;}
+  #axis text{fill:var(--ink-2);font-size:14px;font-weight:600;}
   #axis path{stroke:none;}
   #axis line{stroke:none;}
   #axis .domain{stroke:none;}
@@ -449,7 +449,7 @@
 
   // ================= TIMELINE =================
   const tlSvg = d3.select("#timeline");
-  const tlMargin = {top:10, right:24, bottom:28, left:150};
+  const tlMargin = {top:10, right:24, bottom:36, left:150};
   let tlWidth=0, tlHeight=0;
   const parsed = events.map(ev => Object.assign({}, ev,
     {_start: new Date(ev.date.sort_start+"T00:00:00"), _end: new Date(ev.date.sort_end+"T00:00:00")}));
@@ -520,7 +520,7 @@
   function drawTimeline(){
     tlMeasure();
     const zx = currentTransform.rescaleX(xScale);
-    const tickCount = Math.max(3, (tlWidth-tlMargin.left)/110);
+    const tickCount = Math.max(3, (tlWidth-tlMargin.left)/135);
 
     const axis = d3.axisBottom(zx).ticks(tickCount).tickSizeOuter(0);
     axisG.attr("transform", `translate(0,${tlHeight-tlMargin.bottom+6})`).call(axis);
