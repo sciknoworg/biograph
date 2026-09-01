@@ -9,8 +9,11 @@ Reads a source PDF straight through and asks an OpenAI-compatible chat
 completion endpoint to draft entities.json / events.json / relations.json
 / sources.json / subject.json for it, against this repo's own
 schema/*.schema.json (fed to the model verbatim, so the prompt can never
-drift from the data model). Writes them to subjects/<slug>/, validates
-them, and — if they pass — builds dist/<slug>.html, exactly like
+drift from the data model). If a reply gets cut off at the token limit
+mid-subject, it automatically asks the model to continue and stitches the
+pieces back together (bounded — see MAX_CONTINUATIONS), rather than
+failing or silently losing data. Writes the result to subjects/<slug>/,
+validates it, and — if it passes — builds dist/<slug>.html, exactly like
 scripts/build_site.py does.
 
 Works with any OpenAI-compatible endpoint: OpenAI itself, OpenRouter,
@@ -108,33 +111,55 @@ def build_prompt(slug, name, text):
     return system, user
 
 
+MAX_CONTINUATIONS = 8  # hard cap on continuation round-trips, so a stuck model can't loop forever
+
+
 def call_llm(system, user, model, base_url, api_key, max_tokens):
     from openai import OpenAI
     client = OpenAI(base_url=base_url, api_key=api_key)
-    kwargs = dict(model=model, temperature=0.2, max_tokens=max_tokens,
-                  messages=[{"role": "system", "content": system},
-                            {"role": "user", "content": user}])
-    try:
-        resp = client.chat.completions.create(response_format={"type": "json_object"}, **kwargs)
-    except Exception:
+    messages = [{"role": "system", "content": system}, {"role": "user", "content": user}]
+
+    def request(use_json_mode):
+        kwargs = dict(model=model, temperature=0.2, max_tokens=max_tokens, messages=messages)
+        if use_json_mode:
+            kwargs["response_format"] = {"type": "json_object"}
+        return client.chat.completions.create(**kwargs)
+
+    full_content, rounds = "", 0
+    while True:
         try:
-            resp = client.chat.completions.create(**kwargs)  # endpoint may not support response_format
-        except Exception as e:
-            sys.exit(f"Request to {base_url} failed for model '{model}': {e}\n\n"
-                      f"Check that name is exactly what your provider lists for chat completions "
-                      f"(this is usually a wrong/misspelled model name, a model your key can't access, "
-                      f"or one that isn't a chat model on this endpoint) and try again.")
-    choice = resp.choices[0]
-    content = re.sub(r"^```(json)?|```$", "", choice.message.content.strip(), flags=re.M).strip()
+            resp = request(use_json_mode=(rounds == 0))  # only ask for strict JSON mode on the
+        except Exception:                                # first call — a mid-JSON continuation
+            try:                                          # chunk isn't a complete object on its own,
+                resp = request(use_json_mode=False)        # and some providers reject that in JSON mode.
+            except Exception as e:
+                sys.exit(f"Request to {base_url} failed for model '{model}': {e}\n\n"
+                          f"Check that name is exactly what your provider lists for chat completions "
+                          f"(this is usually a wrong/misspelled model name, a model your key can't access, "
+                          f"or one that isn't a chat model on this endpoint) and try again.")
+        choice = resp.choices[0]
+        full_content += choice.message.content
+        if getattr(choice, "finish_reason", None) != "length":
+            break
+        rounds += 1
+        if rounds > MAX_CONTINUATIONS:
+            sys.exit(f"Model's reply hit the {max_tokens}-token limit {MAX_CONTINUATIONS} times in a "
+                      f"row and still isn't finished — that's an unusually large subject, a model "
+                      f"that won't stop elaborating, or a --max-chars input too long for it to digest "
+                      f"in one draft. Try a smaller --max-chars, or a higher --max-tokens per round.")
+        print(f"  (reply hit the {max_tokens}-token limit — asking the model to continue, part {rounds + 1})")
+        messages = messages + [{"role": "assistant", "content": choice.message.content},
+                                {"role": "user", "content": "Continue the JSON exactly where you left "
+                                 "off, character for character — no repetition of anything already "
+                                 "written, no restarting, no markdown fences, no commentary."}]
+
+    content = re.sub(r"^```(json)?|```$", "", full_content.strip(), flags=re.M).strip()
     try:
         data = json.loads(content)
     except json.JSONDecodeError as e:
-        if getattr(choice, "finish_reason", None) == "length":
-            sys.exit(f"The model's reply was cut off before it finished (hit the {max_tokens}-token "
-                      f"reply limit) — that's what broke the JSON, not a real formatting error. "
-                      f"Re-run with a higher --max-tokens (e.g. --max-tokens {max_tokens * 2}), "
-                      f"or a smaller --max-chars to shrink the input.")
-        sys.exit(f"Model did not return valid JSON ({e}). First 500 chars:\n{content[:500]}")
+        sys.exit(f"Model's assembled reply still wasn't valid JSON after {rounds} continuation(s) "
+                  f"({e}). This usually means a continuation didn't pick up exactly where the last "
+                  f"one left off. First 500 chars:\n{content[:500]}")
     if isinstance(data, str):  # some models double-encode: a JSON string containing JSON
         try:
             data = json.loads(data)
