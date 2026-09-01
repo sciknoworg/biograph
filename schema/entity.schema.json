@@ -34,6 +34,25 @@
       "type": "object",
       "description": "Optional structured extras (e.g. { \"country\": \"Finland\" } for a place).",
       "additionalProperties": true
+    },
+    "portrait": {
+      "type": "object",
+      "description": "A verified photo, only for entity_type 'person'. Never hand-picked from an image search — see schema/README.md § Portraits for the required verification steps before adding one.",
+      "additionalProperties": false,
+      "required": ["image_url", "source_url", "license", "confidence"],
+      "properties": {
+        "image_url": { "type": "string", "description": "Direct, hotlinkable image URL (e.g. a Wikimedia Commons Special:FilePath link). Loaded live by the viewer's browser at render time — never embedded as a data URI." },
+        "source_url": { "type": "string", "description": "Page a reader can open to verify the photo and its licensing (e.g. the Commons file page)." },
+        "wikidata_qid": { "type": "string", "description": "Wikidata item id the photo and identity claims were verified against, if applicable." },
+        "license": { "type": "string", "description": "Short license name, e.g. 'CC BY-SA 4.0'." },
+        "license_url": { "type": "string" },
+        "artist": { "type": "string" },
+        "confidence": {
+          "type": "string",
+          "enum": ["birth_year_verified", "description_verified", "unverified"],
+          "description": "How identity was confirmed: 'birth_year_verified' = the candidate's Wikidata birth date matches a birth event already in this subject's events.json; 'description_verified' = no independent date to check, but the Wikidata description/occupation is specific enough to match this entity's role in the source (e.g. exact nationality + profession + era); 'unverified' must not be used to add a portrait — treat it as 'no match' instead."
+        }
+      }
     }
   }
 }

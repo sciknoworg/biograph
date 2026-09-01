@@ -7,76 +7,108 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <style>
   :root{
-    --bg:#0f1218; --panel:#161b24; --panel2:#1c2230; --border:#2a3242;
-    --text:#e7ebf3; --muted:#8b93a7; --accent:#5ec8f8;
-    --person:#5ec8f8; --place:#5fd39c; --organization:#f5a856; --artifact:#c48cf0;
-    --edge:#3a4358; --edge-active:#e7ebf3;
+    /* validated light palette (dataviz skill reference palette) */
+    --page:#f9f9f7; --surface:#ffffff; --surface-2:#f3f2ee;
+    --ink:#0b0b0b; --ink-2:#52514e; --muted:#8b8a83;
+    --gridline:#e7e5de; --hairline:rgba(11,11,11,.09); --ring:rgba(11,11,11,.06);
+    --accent:#2a78d6;
+    --c-person:#2a78d6; --c-place:#1baf7a; --c-organization:#eb6834; --c-artifact:#4a3aa7;
+    --c-award:#eda100;
+    --edge:#d8d6cd; --edge-active:#0b0b0b;
+    --shadow-sm:0 1px 2px rgba(30,26,14,.06), 0 1px 1px rgba(30,26,14,.04);
+    --shadow-md:0 6px 20px rgba(30,26,14,.10), 0 2px 6px rgba(30,26,14,.06);
+    --shadow-lg:0 16px 40px rgba(30,26,14,.16), 0 4px 12px rgba(30,26,14,.08);
   }
   *{box-sizing:border-box;}
-  html,body{margin:0;padding:0;height:100%;background:var(--bg);color:var(--text);
+  html,body{margin:0;padding:0;height:100%;background:var(--page);color:var(--ink);
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;overflow:hidden;}
   #app{display:flex;flex-direction:column;height:100vh;width:100vw;}
 
-  header{padding:10px 18px;border-bottom:1px solid var(--border);display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;background:var(--panel);z-index:5;}
-  header h1{font-size:16px;margin:0;font-weight:600;letter-spacing:.2px;}
-  header .sub{color:var(--muted);font-size:12px;}
+  header{padding:12px 20px;display:flex;align-items:center;gap:14px;flex-wrap:wrap;
+    background:var(--surface);box-shadow:var(--shadow-sm);z-index:6;position:relative;}
+  header h1{font-size:17px;margin:0;font-weight:700;letter-spacing:.1px;color:var(--ink);}
+  header .sub{color:var(--ink-2);font-size:12px;max-width:480px;line-height:1.35;}
   header .spacer{flex:1;}
-  #search{background:var(--panel2);border:1px solid var(--border);color:var(--text);border-radius:6px;padding:6px 10px;font-size:12px;width:200px;outline:none;}
-  #search:focus{border-color:var(--accent);}
-  .legend{display:flex;gap:10px;font-size:11px;color:var(--muted);flex-wrap:wrap;align-items:center;}
-  .legend .item{display:flex;align-items:center;gap:5px;cursor:pointer;user-select:none;padding:2px 6px;border-radius:10px;transition:background .15s;}
-  .legend .item.off{opacity:.35;}
-  .legend .item:hover{background:var(--panel2);}
-  .dot{width:9px;height:9px;border-radius:50%;display:inline-block;}
+  #search{background:var(--surface-2);border:1.5px solid transparent;color:var(--ink);border-radius:999px;
+    padding:8px 14px;font-size:12.5px;width:220px;outline:none;transition:border-color .15s, background .15s;}
+  #search::placeholder{color:var(--muted);}
+  #search:focus{border-color:var(--accent);background:var(--surface);}
+  .legend{display:flex;gap:6px;font-size:11.5px;color:var(--ink-2);flex-wrap:wrap;align-items:center;}
+  .legend .item{display:flex;align-items:center;gap:6px;cursor:pointer;user-select:none;
+    padding:5px 11px 5px 9px;border-radius:999px;transition:transform .12s, background .12s, box-shadow .12s;
+    background:var(--surface-2);font-weight:600;}
+  .legend .item:hover{transform:translateY(-1px);box-shadow:var(--shadow-sm);}
+  .legend .item.off{opacity:.4;}
+  .dot{width:9px;height:9px;border-radius:50%;display:inline-block;flex:none;}
+  button.reset{background:var(--surface-2);border:none;color:var(--ink);
+    border-radius:999px;padding:8px 15px;font-size:12px;font-weight:600;cursor:pointer;transition:transform .12s, box-shadow .12s;}
+  button.reset:hover{transform:translateY(-1px);box-shadow:var(--shadow-sm);}
 
   #main{flex:1;display:flex;min-height:0;}
-  #graph-wrap{flex:1;position:relative;min-width:0;}
+  #graph-wrap{flex:1;position:relative;min-width:0;background:
+    radial-gradient(circle, var(--gridline) 1px, transparent 1.2px) 0 0/22px 22px, var(--page);}
   svg#graph{width:100%;height:100%;display:block;cursor:grab;}
   svg#graph:active{cursor:grabbing;}
 
-  #side{width:320px;border-left:1px solid var(--border);background:var(--panel);
-    display:flex;flex-direction:column;min-height:0;}
-  #side .side-scroll{overflow-y:auto;flex:1;padding:16px;}
-  #side h2{font-size:14px;margin:0 0 4px;}
-  #side .kind{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.6px;margin-bottom:10px;}
-  #side p.summary{font-size:12.5px;line-height:1.5;color:#c9cfdb;}
-  #side .section-title{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.6px;margin:16px 0 6px;}
-  #side .rel-row{font-size:12.5px;padding:6px 8px;border-radius:6px;cursor:pointer;line-height:1.4;border:1px solid transparent;}
-  #side .rel-row:hover{background:var(--panel2);border-color:var(--border);}
-  #side .rel-row .t{color:var(--muted);font-size:11px;}
-  #side .cite{font-size:11px;color:var(--muted);margin-top:3px;font-style:italic;}
-  #side .empty{color:var(--muted);font-size:12.5px;padding-top:40px;text-align:center;}
-  #side .date-badge{display:inline-block;background:var(--panel2);border:1px solid var(--border);border-radius:5px;padding:2px 7px;font-size:11px;color:var(--muted);margin-bottom:8px;}
+  #side{width:330px;background:var(--surface);box-shadow:var(--shadow-md);
+    display:flex;flex-direction:column;min-height:0;z-index:4;}
+  #side .side-scroll{overflow-y:auto;flex:1;padding:20px;}
+  #side .portrait-wrap{display:flex;align-items:center;gap:12px;margin-bottom:12px;}
+  #side .portrait-wrap img{width:64px;height:64px;border-radius:50%;object-fit:cover;flex:none;
+    box-shadow:var(--shadow-sm);}
+  #side h2{font-size:16px;margin:0 0 4px;font-weight:700;}
+  #side .kind{font-size:11px;color:var(--ink-2);text-transform:uppercase;letter-spacing:.6px;margin-bottom:12px;font-weight:700;}
+  #side p.summary{font-size:13px;line-height:1.55;color:var(--ink-2);margin:0 0 4px;}
+  #side .section-title{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.6px;margin:18px 0 8px;font-weight:700;}
+  #side .rel-row{font-size:12.5px;padding:8px 10px;border-radius:10px;cursor:pointer;line-height:1.4;
+    transition:background .12s, transform .12s;}
+  #side .rel-row:hover{background:var(--surface-2);transform:translateX(2px);}
+  #side .rel-row .t{color:var(--muted);font-size:11px;margin-top:1px;}
+  #side .cite{font-size:11.5px;color:var(--ink-2);margin-top:4px;font-style:italic;line-height:1.4;}
+  #side .portrait-credit{font-size:10.5px;color:var(--muted);margin:-8px 0 14px;}
+  #side .portrait-credit a{color:var(--muted);}
+  #side .empty{color:var(--muted);font-size:13px;padding-top:60px;text-align:center;line-height:1.6;}
+  #side .date-badge{display:inline-block;background:var(--surface-2);border-radius:999px;
+    padding:4px 12px;font-size:11.5px;color:var(--ink);font-weight:700;margin-bottom:10px;}
 
-  #timeline-wrap{height:190px;border-top:1px solid var(--border);background:var(--panel);position:relative;flex-shrink:0;}
+  #timeline-wrap{height:190px;background:var(--surface);box-shadow:0 -1px 0 var(--hairline), var(--shadow-md);
+    position:relative;flex-shrink:0;z-index:3;}
   svg#timeline{width:100%;height:100%;display:block;}
-  #tl-hint{position:absolute;top:6px;right:14px;font-size:10.5px;color:var(--muted);pointer-events:none;}
+  #tl-hint{position:absolute;top:8px;right:16px;font-size:10.5px;color:var(--muted);pointer-events:none;}
 
-  .node circle{stroke:#0f1218;stroke-width:1.5px;cursor:pointer;}
-  .node text{fill:var(--text);font-size:10px;pointer-events:none;paint-order:stroke;stroke:#0f1218;stroke-width:3px;}
-  .node.dim{opacity:.15;}
-  .link{stroke:var(--edge);stroke-width:1.2px;fill:none;}
+  .node{cursor:pointer;}
+  .node circle.fill{stroke:var(--surface);stroke-width:2px;transition:filter .12s;}
+  .node circle.ring{fill:none;stroke-width:2.5px;}
+  .node:hover circle.fill{filter:brightness(1.08);}
+  .node:hover{transform-box:fill-box;}
+  .node text.label{fill:var(--ink);font-size:10.5px;font-weight:600;pointer-events:none;
+    paint-order:stroke;stroke:var(--page);stroke-width:3px;stroke-linejoin:round;
+    opacity:0;transition:opacity .15s;}
+  .node.hub text.label{opacity:1;}
+  .node:hover text.label{opacity:1;}
+  .node.show-label text.label{opacity:1;}
+  .node.dim{opacity:.14;}
+  .link{stroke:var(--edge);stroke-width:1.4px;fill:none;transition:stroke .15s, opacity .15s;}
   .link.active{stroke:var(--edge-active);stroke-width:2px;}
   .link.dim{opacity:.08;}
-  .link-label{font-size:9px;fill:var(--muted);pointer-events:none;}
 
-  .tooltip{position:fixed;pointer-events:none;background:#0b0e14;border:1px solid var(--border);
-    border-radius:6px;padding:6px 10px;font-size:12px;color:var(--text);z-index:50;max-width:240px;
-    box-shadow:0 6px 18px rgba(0,0,0,.4);opacity:0;transition:opacity .1s;}
+  .tooltip{position:fixed;pointer-events:none;background:var(--ink);border:none;
+    border-radius:10px;padding:7px 11px;font-size:12px;color:#fff;z-index:50;max-width:240px;
+    box-shadow:var(--shadow-lg);opacity:0;transition:opacity .1s;}
+  .tooltip b{font-weight:700;}
+  .tooltip span{color:#c9c8c2;}
 
   .ev-mark{cursor:pointer;}
+  .ev-mark rect{transition:opacity .12s;}
   .ev-mark.dim{opacity:.18;}
-  .ev-mark rect{fill-opacity:.85;}
-  .ev-mark.selected rect, .ev-mark.selected circle{stroke:#fff;stroke-width:1.5px;}
+  .ev-mark.selected rect, .ev-mark.selected circle{stroke:var(--ink);stroke-width:2px;}
   #axis text{fill:var(--muted);font-size:10px;}
-  #axis path,#axis line{stroke:var(--border);}
-
-  button.reset{background:var(--panel2);border:1px solid var(--border);color:var(--text);
-    border-radius:6px;padding:5px 10px;font-size:11.5px;cursor:pointer;}
-  button.reset:hover{border-color:var(--accent);}
+  #axis path{stroke:none;}
+  #axis line{stroke:var(--gridline);}
+  #axis .domain{stroke:var(--gridline);}
 
   ::-webkit-scrollbar{width:8px;}
-  ::-webkit-scrollbar-thumb{background:var(--border);border-radius:4px;}
+  ::-webkit-scrollbar-thumb{background:var(--gridline);border-radius:4px;}
 </style>
 </head>
 <body>
@@ -98,7 +130,7 @@
     </div>
   </div>
   <div id="timeline-wrap">
-    <div id="tl-hint">scroll / drag to zoom &amp; pan · drag on the axis to select a range</div>
+    <div id="tl-hint">scroll / drag to zoom &amp; pan</div>
     <svg id="timeline"></svg>
   </div>
 </div>
@@ -115,8 +147,8 @@
   const srcById = new Map(sources.map(s => [s.id, s]));
   const eventsById = new Map(events.map(e => [e.id, e]));
 
-  const TYPE_COLOR = {person:"var(--person)", place:"var(--place)", organization:"var(--organization)", artifact:"var(--artifact)"};
-  const TYPE_COLOR_HEX = {person:"#5ec8f8", place:"#5fd39c", organization:"#f5a856", artifact:"#c48cf0"};
+  const TYPE_COLOR = {person:"var(--c-person)", place:"var(--c-place)", organization:"var(--c-organization)", artifact:"var(--c-artifact)"};
+  const TYPE_COLOR_HEX = {person:"#2a78d6", place:"#1baf7a", organization:"#eb6834", artifact:"#4a3aa7"};
 
   // ---- build graph edges: dedupe parallel relation edges into one visual link per (source,target) unordered pair, keep list of relations
   const pairKey = (a,b) => a < b ? a+"|"+b : b+"|"+a;
@@ -139,6 +171,7 @@
 
   // ================= GRAPH =================
   const graphSvg = d3.select("#graph");
+  const defs = graphSvg.append("defs");
   const graphG = graphSvg.append("g");
   const linkLayer = graphG.append("g").attr("class","links");
   const nodeLayer = graphG.append("g").attr("class","nodes");
@@ -150,14 +183,19 @@
   }
   measure();
 
-  const nodes = entities.map(e => Object.assign({}, e, {r: 7 + Math.min(14, (degree.get(e.id)||0)*1.6)}));
+  const nodes = entities.map(e => {
+    const deg = degree.get(e.id) || 0;
+    const hasPortrait = !!e.portrait;
+    const r = hasPortrait ? 19 : 7 + Math.min(14, deg*1.6);
+    return Object.assign({}, e, {r, deg, hasPortrait, hub: deg >= 2 || hasPortrait});
+  });
   const nodeById = new Map(nodes.map(n => [n.id, n]));
 
   const sim = d3.forceSimulation(nodes)
-    .force("charge", d3.forceManyBody().strength(-220))
-    .force("link", d3.forceLink(links).id(d=>d.id).distance(70).strength(0.5))
+    .force("charge", d3.forceManyBody().strength(-340))
+    .force("link", d3.forceLink(links).id(d=>d.id).distance(92).strength(0.5))
     .force("center", d3.forceCenter(width/2, height/2))
-    .force("collide", d3.forceCollide().radius(d=>d.r+14))
+    .force("collide", d3.forceCollide().radius(d=>d.r + (d.hub? 34 : 14)))
     .force("x", d3.forceX(width/2).strength(0.03))
     .force("y", d3.forceY(height/2).strength(0.03));
 
@@ -166,29 +204,49 @@
     .attr("class","link")
     .on("mouseover", (event,d) => {
       const types = [...new Set(d.rels.map(r=>r.type))].join(", ");
-      showTooltip(event, `<b>${entById.get(d.source.id||d.source).name}</b> → <b>${entById.get(d.target.id||d.target).name}</b><br><span style="color:var(--muted)">${types}</span>`);
+      showTooltip(event, `<b>${entById.get(d.source.id||d.source).name}</b> → <b>${entById.get(d.target.id||d.target).name}</b><br><span>${types}</span>`);
     })
     .on("mousemove", moveTooltip)
     .on("mouseout", hideTooltip);
 
   const nodeSel = nodeLayer.selectAll("g.node")
     .data(nodes).join("g")
-    .attr("class","node")
+    .attr("class", d => "node" + (d.hub ? " hub" : ""))
     .call(d3.drag()
       .on("start", (event,d)=>{ if(!event.active) sim.alphaTarget(0.25).restart(); d.fx=d.x; d.fy=d.y; })
       .on("drag", (event,d)=>{ d.fx=event.x; d.fy=event.y; })
       .on("end", (event,d)=>{ if(!event.active) sim.alphaTarget(0); d.fx=null; d.fy=null; }));
 
+  // fallback colored circle (always present, hidden if a portrait loads)
   nodeSel.append("circle")
+    .attr("class","fill")
     .attr("r", d=>d.r)
     .attr("fill", d=>TYPE_COLOR[d.entity_type]);
 
+  // portrait image + colored ring, for verified photos only
+  nodeSel.filter(d=>d.hasPortrait).each(function(d){
+    const g = d3.select(this);
+    const clipId = "clip-"+d.id;
+    defs.append("clipPath").attr("id", clipId).append("circle").attr("r", d.r-2);
+    const img = g.append("image")
+      .attr("x", -(d.r-2)).attr("y", -(d.r-2))
+      .attr("width", (d.r-2)*2).attr("height", (d.r-2)*2)
+      .attr("preserveAspectRatio","xMidYMid slice")
+      .attr("clip-path", `url(#${clipId})`)
+      .attr("href", d.portrait.image_url)
+      .style("opacity", 0);
+    img.on("load", function(){ d3.select(this).style("opacity", 1); g.select("circle.fill").style("opacity", 0); });
+    img.on("error", function(){ d3.select(this).remove(); }); // fallback circle stays visible
+    g.append("circle").attr("class","ring").attr("r", d.r-1.25).attr("stroke", TYPE_COLOR[d.entity_type]);
+  });
+
   nodeSel.append("text")
-    .attr("x", d=>d.r+4).attr("y", 3)
+    .attr("class","label")
+    .attr("x", d=>d.r+5).attr("y", 3)
     .text(d=>d.name);
 
   nodeSel.on("click", (event,d) => { event.stopPropagation(); selectEntity(d.id); })
-    .on("mouseover", (event,d) => showTooltip(event, `<b>${d.name}</b><br><span style="color:var(--muted)">${d.entity_type}${d.subtype? " · "+d.subtype:""}</span>`))
+    .on("mouseover", (event,d) => showTooltip(event, `<b>${d.name}</b><br><span>${d.entity_type}${d.subtype? " · "+d.subtype:""}</span>`))
     .on("mousemove", moveTooltip)
     .on("mouseout", hideTooltip);
 
@@ -243,7 +301,7 @@
 
   function selectNone(){
     selected = null;
-    nodeSel.classed("dim", false);
+    nodeSel.classed("dim", false).classed("show-label", false);
     linkSel.classed("dim", false).classed("active", false);
     d3.selectAll(".ev-mark").classed("dim", false).classed("selected", false);
     document.getElementById("side-content").innerHTML = '<div class="empty">Click a person, place, organization, invention — or an event on the timeline below — to explore.</div>';
@@ -257,7 +315,8 @@
       if(sId===id) connected.add(tId);
       if(tId===id) connected.add(sId);
     });
-    nodeSel.classed("dim", d => !connected.has(d.id));
+    nodeSel.classed("dim", d => !connected.has(d.id))
+           .classed("show-label", d => connected.has(d.id));
     linkSel.classed("dim", d => !(((d.source.id||d.source)===id) || ((d.target.id||d.target)===id)))
            .classed("active", d => ((d.source.id||d.source)===id) || ((d.target.id||d.target)===id));
 
@@ -273,7 +332,7 @@
     selected = {kind:"event", id};
     const ev = eventsById.get(id);
     const partIds = new Set(ev.participants.map(p=>p.entity_id).concat(ev.location?[ev.location]:[]));
-    nodeSel.classed("dim", d => !partIds.has(d.id));
+    nodeSel.classed("dim", d => !partIds.has(d.id)).classed("show-label", d => partIds.has(d.id));
     linkSel.classed("dim", true).classed("active", false);
     d3.selectAll(".ev-mark").classed("selected", d => d.id===id).classed("dim", d => d.id!==id);
     renderEventPanel(ev);
@@ -294,7 +353,15 @@
     const evRows = evIds.map(id=>eventsById.get(id)).sort((a,b)=>a.date.sort_start.localeCompare(b.date.sort_start))
       .map(ev => `<div class="rel-row" data-goto-event="${ev.id}"><div>${ev.label}</div><div class="t">${ev.date.display}</div></div>`).join("");
 
+    const portrait = e.portrait ? `
+      <div class="portrait-block">
+        <div class="portrait-wrap"><img src="${e.portrait.image_url}" alt="${e.name}" onerror="this.closest('.portrait-block').style.display='none'"></div>
+        <div class="portrait-credit">Photo: <a href="${e.portrait.source_url}" target="_blank" rel="noopener">Wikimedia Commons</a>${e.portrait.artist? ", "+e.portrait.artist:""} · ${e.portrait.license}</div>
+      </div>
+    ` : "";
+
     document.getElementById("side-content").innerHTML = `
+      ${portrait}
       <h2>${e.name}</h2>
       <div class="kind" style="color:${TYPE_COLOR_HEX[e.entity_type]}">${e.entity_type}${e.subtype? " · "+e.subtype:""}</div>
       ${e.summary?`<p class="summary">${e.summary}</p>`:""}
@@ -354,8 +421,9 @@
   const searchBox = document.getElementById("search");
   searchBox.addEventListener("input", () => {
     const q = searchBox.value.trim().toLowerCase();
-    if(!q){ nodeSel.classed("dim", false); return; }
-    nodeSel.classed("dim", d => !d.name.toLowerCase().includes(q));
+    if(!q){ nodeSel.classed("dim", false).classed("show-label", false); return; }
+    nodeSel.classed("dim", d => !d.name.toLowerCase().includes(q))
+           .classed("show-label", d => d.name.toLowerCase().includes(q));
   });
   searchBox.addEventListener("keydown", (e) => {
     if(e.key==="Enter"){
@@ -389,22 +457,24 @@
   const axisG = tlG.append("g").attr("id","axis");
   const laneG = tlG.append("g");
 
-  const rowFor = d3.scaleOrdinal()
-    .domain(["birth","death","education","employment_start","employment_end","role_change",
+  const EVENT_TYPES = ["birth","death","education","employment_start","employment_end","role_change",
       "invention","patent_filed","patent_granted","publication","product_launch","public_demonstration",
       "conference","visit","meeting","relocation","award","company_founded","company_sold","company_renamed",
-      "retirement","other"])
+      "retirement","other"];
+
+  const rowFor = d3.scaleOrdinal()
+    .domain(EVENT_TYPES)
     .range([0,1,0,1,1,1, 2,2,2,3,3,4, 4,1,1,1, 3,2,2,2, 1,4]);
 
+  // event colors reuse the same validated categorical hues as the graph, grouped by
+  // which kind of node the event is really "about" (person/org/artifact/place),
+  // plus a dedicated accent for the rare, special "award" case.
   const EV_COLOR = d3.scaleOrdinal()
-    .domain(["birth","death","education","employment_start","employment_end","role_change",
-      "invention","patent_filed","patent_granted","publication","product_launch","public_demonstration",
-      "conference","visit","meeting","relocation","award","company_founded","company_sold","company_renamed",
-      "retirement","other"])
-    .range(["#5ec8f8","#5ec8f8","#5fd39c","#f5a856","#f5a856","#f5a856",
-      "#c48cf0","#c48cf0","#c48cf0","#e7ebf3","#f5a856","#c48cf0",
-      "#5fd39c","#5fd39c","#5fd39c","#5fd39c","#ffd166","#f5a856","#f5a856","#f5a856",
-      "#f5a856","#8b93a7"]);
+    .domain(EVENT_TYPES)
+    .range(["#2a78d6","#2a78d6","#eb6834","#eb6834","#eb6834","#eb6834",
+      "#4a3aa7","#4a3aa7","#4a3aa7","#4a3aa7","#4a3aa7","#4a3aa7",
+      "#1baf7a","#1baf7a","#1baf7a","#1baf7a","#eda100","#eb6834","#eb6834","#eb6834",
+      "#eb6834","#8b8a83"]);
 
   function tlMeasure(){
     const r = document.getElementById("timeline-wrap").getBoundingClientRect();
@@ -416,35 +486,30 @@
   function drawTimeline(){
     tlMeasure();
     const zx = currentTransform.rescaleX(xScale);
-    const axis = d3.axisBottom(zx).ticks(Math.max(3, tlWidth/110));
+    const axis = d3.axisBottom(zx).ticks(Math.max(3, tlWidth/110)).tickSizeOuter(0);
     axisG.attr("transform", `translate(0,${tlHeight-tlMargin.bottom})`).call(axis);
+    axisG.select(".domain").remove();
 
     const rows = 5, rowH = (tlHeight-tlMargin.top-tlMargin.bottom-8)/rows;
     const marks = laneG.selectAll("g.ev-mark").data(parsed, d=>d.id);
     const marksEnter = marks.enter().append("g").attr("class","ev-mark")
       .on("click", (event,d) => { event.stopPropagation(); selectEvent(d.id); })
-      .on("mouseover", (event,d) => showTooltip(event, `<b>${d.label}</b><br><span style="color:var(--muted)">${d.date.display} · ${d.event_type.replace(/_/g," ")}</span>`))
+      .on("mouseover", (event,d) => showTooltip(event, `<b>${d.label}</b><br><span>${d.date.display} · ${d.event_type.replace(/_/g," ")}</span>`))
       .on("mousemove", moveTooltip)
       .on("mouseout", hideTooltip);
     marksEnter.append("rect");
-    marksEnter.append("circle");
 
     const merged = marksEnter.merge(marks);
     merged.each(function(d){
       const g = d3.select(this);
       const x1 = zx(d._start), x2 = zx(d._end);
       const y = tlMargin.top + rowFor(d.event_type)*rowH + rowH/2;
-      const isRange = (x2-x1) > 5;
+      const w = Math.max(9, x2-x1);
       g.select("rect")
-        .attr("x", isRange? x1 : x1-4).attr("y", isRange? y-4 : y-4)
-        .attr("width", isRange? Math.max(4,x2-x1) : 8).attr("height", 8)
-        .attr("rx", 3)
-        .attr("fill", EV_COLOR(d.event_type))
-        .style("display", isRange? null : "none");
-      g.select("circle")
-        .attr("cx", x1).attr("cy", y).attr("r", 4.5)
-        .attr("fill", EV_COLOR(d.event_type))
-        .style("display", isRange? "none" : null);
+        .attr("x", x1 - (w<=9? 4.5 : 0)).attr("y", y-4.5)
+        .attr("width", w).attr("height", 9)
+        .attr("rx", 4.5)
+        .attr("fill", EV_COLOR(d.event_type));
     });
     marks.exit().remove();
   }

@@ -101,6 +101,42 @@ stable once assigned (other files reference them). Prefer human-legible
 ids (`tuomo_suntola`, `ale_1974_patent`) over generated hashes — this data
 is meant to be hand-editable.
 
+## Portraits
+
+A `person` entity may carry an optional `portrait` — a photo, hotlinked (not
+embedded) from its source, so the file stays small and the credit stays
+live and checkable. Never add one from an image search or by eyeballing a
+"looks about right" photo. The required procedure:
+
+1. Find the candidate's Wikidata item (`wbsearchentities`, or a web search
+   for `"<name>" wikidata`).
+2. Verify identity before trusting anything else about that item:
+   - **`birth_year_verified`**: this subject's own `events.json` already
+     has a `birth` event for the person, and the Wikidata item's P569
+     matches it. Strongest signal — a coincidence at this specificity is
+     very unlikely.
+   - **`description_verified`**: no birth event to check against, but the
+     Wikidata description/occupation is specific enough that it couldn't
+     plausibly be a namesake (e.g. "Japanese physicist (1926–2018)" for a
+     Japanese physicist the source discusses in that era — not just
+     "researcher" or "academic", which are too generic to rule out a
+     different person entirely).
+   - Anything weaker (name matches but the description is generic, or
+     contradicts known facts like nationality/era) is **not verified** —
+     leave the entity without a portrait rather than guessing. A wrong
+     photo is worse than none.
+3. Only if verified, and the item has a P18 image: resolve the actual file
+   and its license via the Commons API
+   (`action=query&prop=imageinfo&iiprop=url|extmetadata`), not by
+   guessing a filename. Use the **Special:FilePath** stable link
+   (`https://commons.wikimedia.org/wiki/Special:FilePath/<file>?width=200`)
+   as `portrait.image_url` so it keeps resolving even if the underlying
+   file is renamed, and record the Commons file page as `source_url` so a
+   reader can check the license and original themselves.
+4. Fetching Wikidata/Commons requires a real browser context (fetch calls
+   from a sandboxed shell are typically blocked) — use whatever browser
+   tooling is available, not raw `curl`.
+
 ## Extending the vocabularies
 
 `event_type` and relation `type` are closed enums on purpose — that's what
