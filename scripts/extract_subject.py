@@ -117,7 +117,13 @@ def call_llm(system, user, model, base_url, api_key, max_tokens):
     try:
         resp = client.chat.completions.create(response_format={"type": "json_object"}, **kwargs)
     except Exception:
-        resp = client.chat.completions.create(**kwargs)  # endpoint may not support response_format
+        try:
+            resp = client.chat.completions.create(**kwargs)  # endpoint may not support response_format
+        except Exception as e:
+            sys.exit(f"Request to {base_url} failed for model '{model}': {e}\n\n"
+                      f"Check that name is exactly what your provider lists for chat completions "
+                      f"(this is usually a wrong/misspelled model name, a model your key can't access, "
+                      f"or one that isn't a chat model on this endpoint) and try again.")
     content = re.sub(r"^```(json)?|```$", "", resp.choices[0].message.content.strip(), flags=re.M).strip()
     try:
         data = json.loads(content)
