@@ -124,10 +124,16 @@ def call_llm(system, user, model, base_url, api_key, max_tokens):
                       f"Check that name is exactly what your provider lists for chat completions "
                       f"(this is usually a wrong/misspelled model name, a model your key can't access, "
                       f"or one that isn't a chat model on this endpoint) and try again.")
-    content = re.sub(r"^```(json)?|```$", "", resp.choices[0].message.content.strip(), flags=re.M).strip()
+    choice = resp.choices[0]
+    content = re.sub(r"^```(json)?|```$", "", choice.message.content.strip(), flags=re.M).strip()
     try:
         data = json.loads(content)
     except json.JSONDecodeError as e:
+        if getattr(choice, "finish_reason", None) == "length":
+            sys.exit(f"The model's reply was cut off before it finished (hit the {max_tokens}-token "
+                      f"reply limit) — that's what broke the JSON, not a real formatting error. "
+                      f"Re-run with a higher --max-tokens (e.g. --max-tokens {max_tokens * 2}), "
+                      f"or a smaller --max-chars to shrink the input.")
         sys.exit(f"Model did not return valid JSON ({e}). First 500 chars:\n{content[:500]}")
     if isinstance(data, str):  # some models double-encode: a JSON string containing JSON
         try:
@@ -199,7 +205,9 @@ def main():
                      help="provider API base URL; prompted for (provider, then base URL) if unset")
     ap.add_argument("--api-key", default=os.environ.get("BIOGRAPH_API_KEY") or os.environ.get("OPENAI_API_KEY"))
     ap.add_argument("--max-chars", type=int, default=180_000, help="truncate source text beyond this many chars")
-    ap.add_argument("--max-tokens", type=int, default=16_000, help="max tokens for the model's reply")
+    ap.add_argument("--max-tokens", type=int, default=32_000,
+                     help="max tokens for the model's reply — raise this if extraction fails with "
+                          "a truncated-JSON error on a long/eventful source")
     ap.add_argument("--no-build", action="store_true", help="skip building dist/<slug>.html afterward")
     args = ap.parse_args()
 
