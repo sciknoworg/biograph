@@ -234,6 +234,9 @@ def main():
                      help="max tokens for the model's reply — raise this if extraction fails with "
                           "a truncated-JSON error on a long/eventful source")
     ap.add_argument("--no-build", action="store_true", help="skip building dist/<slug>.html afterward")
+    ap.add_argument("--portraits", action="store_true",
+                     help="also run scripts/find_portraits.py on the new subject afterward "
+                          "(Wikidata/Commons photo lookup — see that script's own --help)")
     args = ap.parse_args()
 
     if not re.match(r"^[a-z][a-z0-9_]*$", args.slug):
@@ -271,6 +274,12 @@ def main():
 
     if not args.no_build:
         build_site.build(args.slug)
+
+    if args.portraits:
+        print(f"\nLooking for verified portraits...")
+        import find_portraits
+        find_portraits.run(args.slug, base_url=base_url, model=model, api_key=api_key,
+                            rebuild=not args.no_build)
 
     print(f"\nTreat this as a first-pass draft — review subjects/{args.slug}/*.json "
           f"against {args.pdf_path} before trusting it.")

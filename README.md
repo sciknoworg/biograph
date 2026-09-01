@@ -48,6 +48,21 @@ against the PDF, by hand, before trusting it — same as any extraction.
 checklist the script follows and what to check the draft against (also
 useful for extracting or correcting a subject by hand instead).
 
+## Find portraits
+
+```bash
+python3 scripts/find_portraits.py <slug>
+# or as one more step right after extraction:
+python3 scripts/extract_subject.py data/<paper>.pdf <slug> --portraits
+```
+
+For each person without a photo, searches Wikidata and — only if
+identity is confirmed (an exact birth-year match to this subject's own
+data, or an LLM judging the description specific enough to rule out a
+namesake) — attaches a licensed photo from Wikimedia Commons. A wrong
+photo is worse than none, so anything short of that is left blank rather
+than guessed. Full explanation: [Data Accuracy & Provenance § Portraits](https://biograph.readthedocs.io/en/latest/data-accuracy/#portraits).
+
 ## Structure
 
 ```
@@ -59,6 +74,7 @@ extraction/     Guide for authoring a new subject's data + its own
 frontend/       template.html — D3 explorer; reads subject JSON only
 scripts/        build_site.py — validates and builds dist/<slug>.html.
                 extract_subject.py — LLM-drafts a new subject from a PDF.
+                find_portraits.py — attaches verified Wikidata/Commons photos.
 dist/           Generated, self-contained HTML output
 data/           Source PDFs
 docs/           Full documentation source (MkDocs + Material)

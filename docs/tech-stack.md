@@ -41,6 +41,8 @@ one that already exists, which is why these live in their own
 | [`pypdf`](https://pypi.org/project/pypdf/) (Python) | Extracts page-numbered text from the source PDF (`[pdf page N]` markers, so the model can cite real pages). |
 | [`openai`](https://pypi.org/project/openai/) (Python SDK) | Talks to whatever OpenAI-compatible chat-completions endpoint you point it at — OpenAI, OpenRouter, KISSKI, or any other gateway speaking the same API. Base URL, model, and key are all chosen at runtime, never hardcoded. |
 | `scripts/extract_subject.py` | Reads the PDF, embeds `schema/*.schema.json` directly in the prompt (so it can't drift from the data model), asks the model to draft the four subject JSON files, auto-continues a reply that gets cut off at the token limit, validates the result, and builds `dist/<slug>.html` — same validate/build code as `build_site.py`, imported rather than duplicated. |
+| [Wikidata](https://www.wikidata.org/) & [Wikimedia Commons](https://commons.wikimedia.org/) APIs (stdlib `urllib`, no extra dependency) | Looked up by `scripts/find_portraits.py` — see below — to find and verify a person's photo. |
+| `scripts/find_portraits.py` | Optional next step (`--portraits` on `extract_subject.py`, or run on its own): for each `person` entity without a portrait, searches Wikidata, and — only if identity is confirmed, either by an exact birth-year match to this subject's own `events.json` or, failing that, an LLM judging the Wikidata description specific enough to rule out a namesake — attaches a Commons photo with its license and source. Never guesses; see [Data Accuracy & Provenance § Portraits](data-accuracy.md#portraits). |
 
 No LLM call is required to use Biograph at all — it's the fast path for
 producing a first draft, not a dependency of the viewer or the build. See
@@ -53,7 +55,7 @@ itself, but nothing here ships in the final output:
 
 | Tool | Used for |
 |---|---|
-| Wikidata & Wikimedia Commons APIs | Verifying and sourcing portrait photos and place coordinates (see [Data Accuracy & Provenance](data-accuracy.md)). |
+| Wikidata & Wikimedia Commons APIs (manual lookup) | Sourcing place coordinates (`attributes.lat`/`lng`) — portraits are now `find_portraits.py`'s job (above), but coordinates are still verified by hand the same way; see [Data Accuracy & Provenance](data-accuracy.md). |
 | [Playwright](https://playwright.dev/) + headless Chromium | Screenshot-based visual QA during frontend development. |
 | Git / GitHub | Version control for the whole repository. |
 | [MkDocs](https://www.mkdocs.org/) + [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) | This documentation site. |

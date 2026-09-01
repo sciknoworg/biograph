@@ -57,43 +57,61 @@ attached, rather than being added on a "looks about right" basis.
 A `person` entity may carry an optional `portrait` (see
 [Data model reference](data-model.md#entities)) — a photo, **hotlinked**
 from Wikimedia Commons, not embedded, so the file stays small and the
-credit stays live and checkable. The required procedure, before adding
-one:
+credit stays live and checkable.
 
-1. Find the candidate's Wikidata item (`wbsearchentities`, or a web
-   search for `"<name>" wikidata`).
-2. **Verify identity** before trusting anything else about that item.
+```bash
+python3 scripts/find_portraits.py <slug>                      # on its own
+python3 scripts/extract_subject.py <pdf> <slug> --portraits   # or as one more step
+```
+
+[`scripts/find_portraits.py`](https://github.com/sciknoworg/biograph/blob/main/scripts/find_portraits.py)
+automates the procedure below for every `person` entity without a
+portrait, using the same rule it's always been: a wrong photo is worse
+than none, so an entity is left without one rather than guessed at.
+
+1. Search Wikidata for the person's name (and aliases).
+2. **Verify identity** before trusting anything else about the match.
    `portrait.confidence` records which tier was cleared:
     - **`birth_year_verified`** — this subject's own `events.json`
-      already has a `birth` event for the person, and the Wikidata item's
-      P569 (date of birth) matches it. The strongest signal: a
-      coincidence at this specificity is very unlikely.
-    - **`description_verified`** — no birth event to check against, but
-      the Wikidata description/occupation is specific enough that it
-      couldn't plausibly be a namesake (e.g. "Japanese physicist
-      (1926–2018)" for a Japanese physicist the source discusses in that
-      era — not just "researcher," which is too generic to rule out a
-      different person).
-    - Anything weaker — a name match with a generic description, or one
-      that contradicts a known fact like nationality or era — is **not
-      verified**. `confidence: "unverified"` must never actually be used
-      to add a portrait; the entity is left without one instead. A wrong
-      photo is worse than none.
-3. Only if verified, and the Wikidata item has a P18 image: resolve the
-   actual file and its license via the Commons API
-   (`action=query&prop=imageinfo&iiprop=url|extmetadata`), never by
-   guessing a filename. The stable **Special:FilePath** link
+      already has a `birth` event for the person, and it matches exactly
+      one candidate's Wikidata P569 (date of birth). Purely mechanical —
+      the script does this with no LLM call at all, the strongest signal
+      since a coincidence at this specificity is very unlikely.
+    - **`description_verified`** — no birth event to check against (or
+      more than one same-named candidate shares that birth year), so an
+      LLM judges whether a candidate's Wikidata description is specific
+      enough that it couldn't plausibly be a namesake (e.g. "Japanese
+      physicist (1926–2018)" for a Japanese physicist the source
+      discusses in that era — not just "researcher," too generic to rule
+      out a different person). This is the same judgment call a human
+      would make reading the same two facts side by side; the script
+      just asks the model to make it, using whatever provider/model was
+      already configured for extraction (or prompting for one, the first
+      time it's actually needed).
+    - Anything weaker is **not verified**: the entity is left without a
+      portrait. `confidence: "unverified"` is never actually written to a
+      file — it's not a value that means "attach it anyway."
+3. Only once verified, and only if that candidate has a Wikidata P18
+   image: resolve the actual file and its license via the Commons API
+   (`action=query&prop=imageinfo&iiprop=extmetadata`), never by guessing
+   a filename — and never attach one if Commons can't report a license
+   for it. The stable **Special:FilePath** link
    (`https://commons.wikimedia.org/wiki/Special:FilePath/<file>?width=200`)
    becomes `portrait.image_url`, so it keeps resolving even if the
    underlying file is renamed; the Commons file page becomes
    `portrait.source_url`, so a reader can check the license and original
    themselves.
-4. Fetching Wikidata/Commons data requires a real browser context — a
-   sandboxed shell's `fetch`/`curl` calls to those hosts are typically
-   blocked. Use whatever browser tooling is available, not raw `curl`.
 
-The Suntola example has three verified portraits (Tuomo Suntola, Jun-ichi
-Nishizawa, Markku Leskelä), each carrying its `wikidata_qid`, `license`,
+Every Wikidata/Commons lookup is wrapped individually — a network hiccup
+or an unreachable host (e.g. a restrictive proxy) skips just that one
+person with a printed reason, rather than failing the whole run. Pass
+`--no-llm` to disable the description-tier check entirely (birth-year
+matches only, no API key ever needed), or `--force` to re-check people
+who already have a portrait.
+
+The Suntola example has three verified portraits (Tuomo Suntola —
+`birth_year_verified`; Jun-ichi Nishizawa and Markku Leskelä — both
+`description_verified`), each carrying its `wikidata_qid`, `license`,
 and `source_url` for anyone to re-check.
 
 ### Place coordinates

@@ -165,3 +165,32 @@ reference, a wrong enum value) — it can't catch a wrong date or a
 misattributed quote. Review the draft against the PDF before trusting
 it; see [Sanity-checking a build](#sanity-checking-a-build) above and
 [Data Accuracy & Provenance](data-accuracy.md).
+
+## Finding portraits with `find_portraits.py`
+
+```bash
+python3 scripts/find_portraits.py <slug> [options]
+```
+
+Full explanation of what it does and why: [Data Accuracy & Provenance §
+Portraits](data-accuracy.md#portraits). Flags:
+
+| Flag | Default | What it does |
+|---|---|---|
+| `--force` | off | Re-check entities that already have a portrait, instead of skipping them. |
+| `--no-llm` | off | Birth-year matches only — never makes an LLM call, so no API key is needed at all. |
+| `--no-build` | off | Skip rebuilding `dist/<slug>.html` afterward (only runs if a portrait was actually attached). |
+| `--model`, `--base-url`, `--api-key` | *(prompted, only if needed)* | Same as `extract_subject.py`. Only asked for the first time a `description_verified` judgment call actually comes up — never if every match resolves by exact birth year, or `--no-llm` is passed. |
+
+Also available as `--portraits` on `extract_subject.py` itself, run
+immediately after extraction using the same provider/model/key already
+entered — so it's one command instead of two when you want both:
+
+```bash
+python3 scripts/extract_subject.py data/<paper>.pdf <slug> --portraits
+```
+
+Every Wikidata/Commons lookup fails independently and prints why (a
+network error, no match, no image, an unresolvable license) rather than
+stopping the whole run — so a restrictive network only costs you that one
+person's photo, not the rest.
