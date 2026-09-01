@@ -71,10 +71,16 @@
   #side .date-badge{display:inline-block;background:var(--surface-2);border-radius:999px;
     padding:4px 12px;font-size:11.5px;color:var(--ink);font-weight:700;margin-bottom:10px;}
 
-  #timeline-wrap{height:190px;background:var(--surface);box-shadow:0 -1px 0 var(--hairline), var(--shadow-md);
+  #timeline-wrap{height:258px;background:var(--surface);box-shadow:0 -1px 0 var(--hairline), var(--shadow-md);
     position:relative;flex-shrink:0;z-index:3;}
   svg#timeline{width:100%;height:100%;display:block;}
   #tl-hint{position:absolute;top:8px;right:16px;font-size:10.5px;color:var(--muted);pointer-events:none;}
+  .lane-band{fill:var(--page);}
+  .lane-band.alt{fill:var(--surface);}
+  .lane-sep{stroke:var(--hairline);stroke-width:1px;}
+  .lane-label{font-size:11px;font-weight:700;fill:var(--ink-2);}
+  .lane-dot{stroke:none;}
+  .tl-gridline{stroke:var(--gridline);stroke-width:1px;}
 
   .node{cursor:pointer;}
   .node circle.fill{stroke:var(--surface);stroke-width:2px;transition:filter .12s;}
@@ -99,13 +105,14 @@
   .tooltip span{color:#c9c8c2;}
 
   .ev-mark{cursor:pointer;}
-  .ev-mark rect{transition:opacity .12s;}
-  .ev-mark.dim{opacity:.18;}
-  .ev-mark.selected rect, .ev-mark.selected circle{stroke:var(--ink);stroke-width:2px;}
-  #axis text{fill:var(--muted);font-size:10px;}
+  .ev-mark rect{transition:opacity .12s, filter .12s;stroke:var(--surface);stroke-width:1.5px;}
+  .ev-mark:hover rect{filter:brightness(1.12);}
+  .ev-mark.dim{opacity:.16;}
+  .ev-mark.selected rect{stroke:var(--ink);stroke-width:2px;}
+  #axis text{fill:var(--muted);font-size:10.5px;}
   #axis path{stroke:none;}
-  #axis line{stroke:var(--gridline);}
-  #axis .domain{stroke:var(--gridline);}
+  #axis line{stroke:none;}
+  #axis .domain{stroke:none;}
 
   ::-webkit-scrollbar{width:8px;}
   ::-webkit-scrollbar-thumb{background:var(--gridline);border-radius:4px;}
@@ -265,7 +272,7 @@
     sim.force("x", d3.forceX(width/2).strength(0.03));
     sim.force("y", d3.forceY(height/2).strength(0.03));
     sim.alpha(0.3).restart();
-    drawTimeline();
+    tlMeasure(); drawLanes(); drawTimeline();
   });
 
   // ================= TOOLTIP =================
@@ -442,7 +449,7 @@
 
   // ================= TIMELINE =================
   const tlSvg = d3.select("#timeline");
-  const tlMargin = {top:14, right:24, bottom:26, left:24};
+  const tlMargin = {top:10, right:24, bottom:28, left:150};
   let tlWidth=0, tlHeight=0;
   const parsed = events.map(ev => Object.assign({}, ev,
     {_start: new Date(ev.date.sort_start+"T00:00:00"), _end: new Date(ev.date.sort_end+"T00:00:00")}));
@@ -453,28 +460,26 @@
   let xScale = d3.scaleTime().domain(fullDomain);
   let currentTransform = d3.zoomIdentity;
 
+  // Semantic swimlanes: every event type belongs to exactly one lane, and a lane's
+  // color IS the color of every mark in it — row position and color reinforce the
+  // same grouping instead of being two separate, harder-to-read encodings.
+  const LANES = [
+    { label:"Life",                       color:"#2a78d6", types:["birth","death","education","retirement"] },
+    { label:"Career & organizations",     color:"#eb6834", types:["employment_start","employment_end","role_change","company_founded","company_sold","company_renamed"] },
+    { label:"Inventions & process",       color:"#4a3aa7", types:["invention","patent_filed","patent_granted","product_launch","other"] },
+    { label:"Travel & gatherings",        color:"#1baf7a", types:["visit","meeting","relocation","conference","public_demonstration"] },
+    { label:"Publications & recognition", color:"#eda100", types:["publication","award"] },
+  ];
+  const laneOf = new Map();
+  LANES.forEach((lane, i) => lane.types.forEach(t => laneOf.set(t, i)));
+  const rows = LANES.length;
+
   const tlG = tlSvg.append("g");
+  const bandG = tlG.append("g").attr("class","lane-bands");
+  const gridG = tlG.append("g").attr("class","tl-grid");
   const axisG = tlG.append("g").attr("id","axis");
   const laneG = tlG.append("g");
-
-  const EVENT_TYPES = ["birth","death","education","employment_start","employment_end","role_change",
-      "invention","patent_filed","patent_granted","publication","product_launch","public_demonstration",
-      "conference","visit","meeting","relocation","award","company_founded","company_sold","company_renamed",
-      "retirement","other"];
-
-  const rowFor = d3.scaleOrdinal()
-    .domain(EVENT_TYPES)
-    .range([0,1,0,1,1,1, 2,2,2,3,3,4, 4,1,1,1, 3,2,2,2, 1,4]);
-
-  // event colors reuse the same validated categorical hues as the graph, grouped by
-  // which kind of node the event is really "about" (person/org/artifact/place),
-  // plus a dedicated accent for the rare, special "award" case.
-  const EV_COLOR = d3.scaleOrdinal()
-    .domain(EVENT_TYPES)
-    .range(["#2a78d6","#2a78d6","#eb6834","#eb6834","#eb6834","#eb6834",
-      "#4a3aa7","#4a3aa7","#4a3aa7","#4a3aa7","#4a3aa7","#4a3aa7",
-      "#1baf7a","#1baf7a","#1baf7a","#1baf7a","#eda100","#eb6834","#eb6834","#eb6834",
-      "#eb6834","#8b8a83"]);
+  const labelG = tlG.append("g").attr("class","lane-labels");
 
   function tlMeasure(){
     const r = document.getElementById("timeline-wrap").getBoundingClientRect();
@@ -483,14 +488,52 @@
   }
   tlMeasure();
 
+  function rowH(){ return (tlHeight-tlMargin.top-tlMargin.bottom)/rows; }
+
+  // Lane background bands, separators, and left-hand labels don't depend on zoom —
+  // draw them once (and again on resize) rather than every zoom tick.
+  function drawLanes(){
+    const rh = rowH();
+    const bands = bandG.selectAll("rect.lane-band").data(LANES);
+    bands.join("rect")
+      .attr("class", (d,i) => "lane-band" + (i%2? " alt" : ""))
+      .attr("x", tlMargin.left).attr("width", tlWidth-tlMargin.left-tlMargin.right)
+      .attr("y", (d,i) => tlMargin.top + i*rh).attr("height", rh);
+
+    const sepRows = d3.range(rows+1); // one separator above each lane, plus a closing one below the last
+    const seps = bandG.selectAll("line.lane-sep").data(sepRows);
+    seps.join("line")
+      .attr("class","lane-sep")
+      .attr("x1", tlMargin.left).attr("x2", tlWidth-tlMargin.right)
+      .attr("y1", i => tlMargin.top + i*rh).attr("y2", i => tlMargin.top + i*rh);
+
+    const labels = labelG.selectAll("g.lane-label-g").data(LANES);
+    const labelsEnter = labels.enter().append("g").attr("class","lane-label-g");
+    labelsEnter.append("circle").attr("class","lane-dot").attr("r", 4).attr("cx", 10);
+    labelsEnter.append("text").attr("class","lane-label").attr("x", 20);
+    const labelsMerged = labelsEnter.merge(labels);
+    labelsMerged.attr("transform", (d,i) => `translate(0, ${tlMargin.top + i*rh + rh/2})`);
+    labelsMerged.select("circle.lane-dot").attr("fill", d=>d.color).attr("cy", -4);
+    labelsMerged.select("text.lane-label").attr("y", 0).text(d=>d.label);
+  }
+
   function drawTimeline(){
     tlMeasure();
     const zx = currentTransform.rescaleX(xScale);
-    const axis = d3.axisBottom(zx).ticks(Math.max(3, tlWidth/110)).tickSizeOuter(0);
-    axisG.attr("transform", `translate(0,${tlHeight-tlMargin.bottom})`).call(axis);
+    const tickCount = Math.max(3, (tlWidth-tlMargin.left)/110);
+
+    const axis = d3.axisBottom(zx).ticks(tickCount).tickSizeOuter(0);
+    axisG.attr("transform", `translate(0,${tlHeight-tlMargin.bottom+6})`).call(axis);
     axisG.select(".domain").remove();
 
-    const rows = 5, rowH = (tlHeight-tlMargin.top-tlMargin.bottom-8)/rows;
+    const gridTicks = zx.ticks(tickCount);
+    const grid = gridG.selectAll("line.tl-gridline").data(gridTicks, d=>+d);
+    grid.join("line")
+      .attr("class","tl-gridline")
+      .attr("x1", d=>zx(d)).attr("x2", d=>zx(d))
+      .attr("y1", tlMargin.top).attr("y2", tlHeight-tlMargin.bottom);
+
+    const rh = rowH();
     const marks = laneG.selectAll("g.ev-mark").data(parsed, d=>d.id);
     const marksEnter = marks.enter().append("g").attr("class","ev-mark")
       .on("click", (event,d) => { event.stopPropagation(); selectEvent(d.id); })
@@ -503,13 +546,15 @@
     merged.each(function(d){
       const g = d3.select(this);
       const x1 = zx(d._start), x2 = zx(d._end);
-      const y = tlMargin.top + rowFor(d.event_type)*rowH + rowH/2;
-      const w = Math.max(9, x2-x1);
+      const lane = laneOf.get(d.event_type) ?? (LANES.length-1);
+      const y = tlMargin.top + lane*rh + rh/2;
+      const markH = Math.min(15, rh*0.42);
+      const w = Math.max(markH, x2-x1);
       g.select("rect")
-        .attr("x", x1 - (w<=9? 4.5 : 0)).attr("y", y-4.5)
-        .attr("width", w).attr("height", 9)
-        .attr("rx", 4.5)
-        .attr("fill", EV_COLOR(d.event_type));
+        .attr("x", x1 - (w<=markH? markH/2 : 0)).attr("y", y-markH/2)
+        .attr("width", w).attr("height", markH)
+        .attr("rx", markH/2)
+        .attr("fill", LANES[lane].color);
     });
     marks.exit().remove();
   }
@@ -530,8 +575,8 @@
     if(cx < tlMargin.left || cx > tlWidth-tlMargin.right){ resetTimelineZoom(); }
   }
 
+  drawLanes();
   drawTimeline();
-  window.addEventListener("resize", drawTimeline);
 })();
 </script>
 </body>
