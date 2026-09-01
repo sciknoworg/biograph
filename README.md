@@ -33,11 +33,14 @@ pip install -r extraction/requirements.txt
 python3 scripts/extract_subject.py data/<paper>.pdf <slug>
 ```
 
-Reads the PDF, asks an OpenAI-compatible LLM (OpenAI, OpenRouter, KISSKI,
-etc. — set `--base-url`/`--model`/`--api-key` or the matching
-`BIOGRAPH_*` env vars; prompts for the key if none is set) to draft the
-four subject JSON files against this repo's own `schema/`, validates the
-result, and builds `dist/<slug>.html` — one command, PDF in, graph out.
+Prompts you for a provider (OpenAI, OpenRouter, or paste any other
+OpenAI-compatible base URL — e.g. KISSKI), then a model name, then an API
+key — or skip the prompts with `--base-url`/`--model`/`--api-key` (or the
+matching `BIOGRAPH_*` env vars) for scripted use. No model is hardcoded,
+since lineups change; type whatever your provider currently offers. It
+then drafts the four subject JSON files against this repo's own
+`schema/`, validates the result, and builds `dist/<slug>.html` — one
+command, PDF in, graph out.
 
 Treat the output as a first-pass draft, not ground truth: review it
 against the PDF, by hand, before trusting it — same as any extraction.

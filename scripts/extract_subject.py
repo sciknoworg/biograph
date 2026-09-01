@@ -14,12 +14,15 @@ them, and — if they pass — builds dist/<slug>.html, exactly like
 scripts/build_site.py does.
 
 Works with any OpenAI-compatible endpoint: OpenAI itself, OpenRouter,
-KISSKI, or anything else that speaks the same chat-completions API.
-Configure via flags or environment variables:
+KISSKI, or anything else that speaks the same chat-completions API. No
+provider or model is hardcoded — pick a provider, then type the exact
+model name your provider currently offers (whatever that is today; model
+lineups move fast and a baked-in default goes stale). Configure via flags
+or environment variables to skip the prompts (e.g. in a script):
 
     BIOGRAPH_API_KEY / OPENAI_API_KEY   API key (prompted for if unset)
-    BIOGRAPH_BASE_URL                   default: https://api.openai.com/v1
-    BIOGRAPH_MODEL                      default: gpt-4o
+    BIOGRAPH_BASE_URL                   provider endpoint (prompted for if unset)
+    BIOGRAPH_MODEL                      model name (prompted for if unset)
 
 Treat the result as a first-pass draft, not ground truth — review it
 against the PDF before trusting it. See extraction/EXTRACTION_GUIDE.md.
@@ -32,6 +35,14 @@ SCHEMA_DIR = os.path.join(ROOT, "schema")
 SUBJECTS_DIR = os.path.join(ROOT, "subjects")
 DATA_DIR = os.path.join(ROOT, "data")
 SCHEMA_FILES = ["date", "entity", "event", "relation", "source"]
+
+# (label, base_url) — base_url None means "ask the user to paste one" (e.g.
+# KISSKI, or any other gateway, whose URL we don't want to guess and hardcode).
+PROVIDERS = [
+    ("OpenAI", "https://api.openai.com/v1"),
+    ("OpenRouter", "https://openrouter.ai/api/v1"),
+    ("Other (paste a base URL)", None),
+]
 
 RULES = """\
 Rules, non-negotiable:
@@ -109,9 +120,25 @@ def call_llm(system, user, model, base_url, api_key, max_tokens):
         resp = client.chat.completions.create(**kwargs)  # endpoint may not support response_format
     content = re.sub(r"^```(json)?|```$", "", resp.choices[0].message.content.strip(), flags=re.M).strip()
     try:
-        return json.loads(content)
+        data = json.loads(content)
     except json.JSONDecodeError as e:
         sys.exit(f"Model did not return valid JSON ({e}). First 500 chars:\n{content[:500]}")
+    if isinstance(data, str):  # some models double-encode: a JSON string containing JSON
+        try:
+            data = json.loads(data)
+        except json.JSONDecodeError:
+            pass
+    if not isinstance(data, dict):
+        sys.exit(f"Model's JSON wasn't an object at the top level (got {type(data).__name__}). "
+                  f"First 500 chars:\n{content[:500]}")
+    # Coerce each expected field to its right shape rather than trusting the model —
+    # a wrong shape here should become an empty default, not a crash three lines later.
+    if not isinstance(data.get("subject"), dict):
+        data["subject"] = {}
+    for key in ("entities", "events", "relations", "sources"):
+        if not isinstance(data.get(key), list):
+            data[key] = []
+    return data
 
 
 def stage_pdf(pdf_path, slug):
@@ -137,13 +164,33 @@ def write_subject(slug, data):
             f.write("\n")
 
 
+def choose_base_url():
+    print("Model provider:")
+    for i, (label, _) in enumerate(PROVIDERS, 1):
+        print(f"  {i}. {label}")
+    choice = input(f"Choose [1-{len(PROVIDERS)}]: ").strip()
+    try:
+        label, url = PROVIDERS[int(choice) - 1]
+    except (ValueError, IndexError):
+        sys.exit(f"Invalid choice: {choice!r}")
+    return url or input("Base URL: ").strip()
+
+
+def choose_model():
+    model = input("Model name, exactly as your provider lists it "
+                   "(e.g. gpt-5.5, anthropic/claude-opus-4.6, meta-llama/llama-4-maverick): ").strip()
+    return model or sys.exit("a model name is required")
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("pdf_path")
     ap.add_argument("slug")
     ap.add_argument("--name", help="Display name (default: slug, title-cased)")
-    ap.add_argument("--model", default=os.environ.get("BIOGRAPH_MODEL", "gpt-4o"))
-    ap.add_argument("--base-url", default=os.environ.get("BIOGRAPH_BASE_URL", "https://api.openai.com/v1"))
+    ap.add_argument("--model", default=os.environ.get("BIOGRAPH_MODEL"),
+                     help="model name; prompted for if unset (no hardcoded default — pick current, not stale)")
+    ap.add_argument("--base-url", default=os.environ.get("BIOGRAPH_BASE_URL"),
+                     help="provider API base URL; prompted for (provider, then base URL) if unset")
     ap.add_argument("--api-key", default=os.environ.get("BIOGRAPH_API_KEY") or os.environ.get("OPENAI_API_KEY"))
     ap.add_argument("--max-chars", type=int, default=180_000, help="truncate source text beyond this many chars")
     ap.add_argument("--max-tokens", type=int, default=16_000, help="max tokens for the model's reply")
@@ -152,16 +199,17 @@ def main():
 
     if not re.match(r"^[a-z][a-z0-9_]*$", args.slug):
         sys.exit(f"slug must match ^[a-z][a-z0-9_]*$, got '{args.slug}'")
-    api_key = args.api_key or getpass.getpass(f"API key for {args.base_url}: ")
+    base_url = args.base_url or choose_base_url()
+    model = args.model or choose_model()
+    api_key = args.api_key or getpass.getpass(f"API key for {base_url}: ")
     name = args.name or args.slug.replace("_", " ").title()
 
     print(f"Reading {args.pdf_path}...")
     text = pdf_text(args.pdf_path, args.max_chars)
     system, user = build_prompt(args.slug, name, text)
 
-    print(f"Asking {args.model} to draft the graph ({len(text):,} chars of source text)...")
-    data = call_llm(system, user, args.model, args.base_url, api_key, args.max_tokens)
-    data.setdefault("subject", {})
+    print(f"Asking {model} to draft the graph ({len(text):,} chars of source text)...")
+    data = call_llm(system, user, model, base_url, api_key, args.max_tokens)
     data["subject"]["slug"] = args.slug
     data["subject"].setdefault("name", name)
     file_rel = stage_pdf(args.pdf_path, args.slug)

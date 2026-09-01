@@ -10,9 +10,11 @@ version of this checklist lives in `extraction/EXTRACTION_GUIDE.md`.
     pip install -r extraction/requirements.txt
     python3 scripts/extract_subject.py data/<paper>.pdf <slug>
     ```
-    Runs an OpenAI-compatible model (OpenAI, OpenRouter, KISSKI, or
-    anything else on the same API — set `--base-url`/`--model`/
-    `--api-key`, or the matching `BIOGRAPH_*` env vars) through this exact
+    Prompts for a provider (OpenAI, OpenRouter, or any other
+    OpenAI-compatible base URL — e.g. KISSKI), then a model name, then an
+    API key — or skip the prompts with `--base-url`/`--model`/`--api-key`
+    or the matching `BIOGRAPH_*` env vars. No model is hardcoded; type
+    whatever your provider currently offers. Runs through this exact
     process and writes the result. Still a first-pass draft — step 7 below
     still applies to it.
 
