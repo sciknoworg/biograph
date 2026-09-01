@@ -1,0 +1,1258 @@
+[
+  {
+    "id": "suntola_born",
+    "event_type": "birth",
+    "label": "Tuomo Suntola born in Tampere",
+    "description": "Tuomo Suntola was born in Tampere, Finland.",
+    "date": {
+      "display": "1943",
+      "precision": "year",
+      "sort_start": "1943-01-01",
+      "sort_end": "1943-12-31"
+    },
+    "location": "tampere",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 333
+      }
+    ]
+  },
+  {
+    "id": "suntola_matriculation",
+    "event_type": "education",
+    "label": "Suntola completes matriculation examinations",
+    "description": "Suntola went to school in Turku and completed his matriculation examinations (nation-wide examinations qualifying for university studies).",
+    "date": {
+      "display": "1962",
+      "precision": "year",
+      "sort_start": "1962-01-01",
+      "sort_end": "1962-12-31"
+    },
+    "location": "turku",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 333
+      }
+    ]
+  },
+  {
+    "id": "suntola_starts_ee_studies",
+    "event_type": "education",
+    "label": "Suntola starts electrical engineering studies at HUT",
+    "description": "Suntola started his studies on electrical engineering at Helsinki University of Technology (HUT-Teknillinen korkeakoulu, TKK).",
+    "date": {
+      "display": "1963",
+      "precision": "year",
+      "sort_start": "1963-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "hut",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 333
+      }
+    ]
+  },
+  {
+    "id": "suntola_masters_thesis",
+    "event_type": "education",
+    "label": "Suntola completes Master's thesis on Schottky diodes",
+    "description": "Suntola completed his Master's thesis ('diplomityö') on Schottky diodes for radar detectors (metal-semiconductor diodes for microwave frequencies).",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "hut",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 333
+      }
+    ]
+  },
+  {
+    "id": "vtt_semiconductor_lab_established",
+    "event_type": "company_founded",
+    "label": "VTT Semiconductor Laboratory established",
+    "description": "VTT Semiconductor Laboratory was established as an integral part of Professor Thor Stubb's Electron Physics laboratory in HUT.",
+    "date": {
+      "display": "1964",
+      "precision": "year",
+      "sort_start": "1964-01-01",
+      "sort_end": "1964-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "vtt_semiconductor_lab",
+        "role": "organization_founded"
+      },
+      {
+        "entity_id": "thor_stubb",
+        "role": "founder"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 333
+      }
+    ]
+  },
+  {
+    "id": "suntola_picosecond_switches",
+    "event_type": "other",
+    "label": "Suntola investigates picosecond switches for Prof. Stubb",
+    "description": "Being an assistant teacher at HUT, Suntola proposed to Prof. Thor Stubb to investigate picosecond switches (amorphous chalcogenide compound thin films), a hot research topic of the time.",
+    "date": {
+      "display": "late 1960s",
+      "precision": "decade",
+      "sort_start": "1968-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "thor_stubb",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 333
+      }
+    ]
+  },
+  {
+    "id": "suntola_licentiate_thesis",
+    "event_type": "education",
+    "label": "Suntola finishes licentiate's thesis",
+    "description": "Suntola finished a licentiate's thesis, 'On the mechanism of switching effect in chalcogenide thin films', on the picosecond-switch work.",
+    "date": {
+      "display": "1971",
+      "precision": "year",
+      "sort_start": "1971-01-01",
+      "sort_end": "1971-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "hut",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 334
+      }
+    ]
+  },
+  {
+    "id": "suntola_doctoral_thesis",
+    "event_type": "education",
+    "label": "Suntola becomes youngest Doctor of Science in Technology at HUT",
+    "description": "Suntola finished a doctoral thesis on switching in chalcogenide thin films. In December 1971, at age 28, he became the youngest Doctor of Science in Technology from the Electrical Engineering department of HUT.",
+    "date": {
+      "display": "December 1971",
+      "precision": "month",
+      "sort_start": "1971-12-01",
+      "sort_end": "1971-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "hut",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 334
+      }
+    ]
+  },
+  {
+    "id": "vtt_first_industrial_order",
+    "event_type": "other",
+    "label": "VTT Semiconductor Laboratory receives its first industrial order",
+    "description": "In the autumn of 1971, the Semiconductor Laboratory received its first industrial order: a task to develop a miniature solid-state humidity sensor for Vaisala Oy. Prof. Stubb assigned the challenge to Suntola a few months later, once he had finished his thesis.",
+    "date": {
+      "display": "autumn 1971",
+      "precision": "circa",
+      "sort_start": "1971-09-01",
+      "sort_end": "1971-11-30"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "thor_stubb",
+        "role": "assigner"
+      },
+      {
+        "entity_id": "vaisala",
+        "role": "client"
+      },
+      {
+        "entity_id": "vtt_semiconductor_lab",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 334
+      }
+    ]
+  },
+  {
+    "id": "humicap_developed",
+    "event_type": "invention",
+    "label": "Humicap thin polymer film humidity sensor completed",
+    "description": "Tapio Wiik made a pre-study of the state of the art in humidity sensing. Suntola started work on polymers instead of foils, dissolving the polymer material to create a thin film on a solid substrate. Jorma Antson completed the development by the end of 1973.",
+    "date": {
+      "display": "1973",
+      "precision": "year",
+      "sort_start": "1973-01-01",
+      "sort_end": "1973-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "jorma_antson",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "tapio_wiik",
+        "role": "contributor"
+      },
+      {
+        "entity_id": "humicap_sensor",
+        "role": "invention"
+      },
+      {
+        "entity_id": "vaisala",
+        "role": "client"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 333,
+        "quote": "Sentola started to work on polymers; ... Jorma Antson completed the development by the end of 1973."
+      }
+    ]
+  },
+  {
+    "id": "suntola_joins_instrumentarium",
+    "event_type": "employment_start",
+    "label": "Suntola invited to establish a research group at Instrumentarium",
+    "description": "Late in 1973, Suntola was contacted by the top management of Instrumentarium Oy. When the key technical team of its subsidiary Datex Oy left the company, Suntola was invited to establish a research group directly under Instrumentarium's management, with an open request to 'suggest and find out something'.",
+    "date": {
+      "display": "late 1973",
+      "precision": "circa",
+      "sort_start": "1973-10-01",
+      "sort_end": "1973-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "instrumentarium",
+        "role": "employer"
+      },
+      {
+        "entity_id": "datex",
+        "role": "former_employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 333
+      }
+    ]
+  },
+  {
+    "id": "team_moves_to_instrumentarium",
+    "event_type": "relocation",
+    "label": "Suntola's team moves from VTT to Instrumentarium",
+    "description": "In the beginning of 1974, Suntola and the small humidity-sensor team moved from VTT to Instrumentarium (Ahertajantie 3, Tapiola, Espoo).",
+    "date": {
+      "display": "early 1974",
+      "precision": "circa",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-02-28"
+    },
+    "location": "espoo",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "instrumentarium",
+        "role": "employer"
+      },
+      {
+        "entity_id": "vtt_semiconductor_lab",
+        "role": "former_employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 334
+      }
+    ]
+  },
+  {
+    "id": "ale_invented",
+    "event_type": "invention",
+    "label": "Suntola conceives Atomic Layer Epitaxy",
+    "description": "'We had still an empty laboratory with just tables and chairs and a Periodic Table of the Elements hanging on the wall. Looking at the Periodic Table, and thinking of the overall symmetry in nature, to me came the idea of serving the complementary elements of a compound sequentially, one at a time, onto a surface.' The actual invention of ALE matured in early June 1974.",
+    "date": {
+      "display": "early June 1974",
+      "precision": "month",
+      "sort_start": "1974-06-01",
+      "sort_end": "1974-06-15"
+    },
+    "location": "espoo",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "ale_invention",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 334,
+        "quote": "The actual invention of ALE matured in early June 1974."
+      }
+    ]
+  },
+  {
+    "id": "first_ale_growth_experiments",
+    "event_type": "other",
+    "label": "First ALE growth experiments performed",
+    "description": "The first growth experiments with the hybrid ALE-PVD reactor were made in August-September 1974. The very first experiment was successful: a film was observed to grow, though at a third of the expected monolayer-per-cycle rate.",
+    "date": {
+      "display": "August-September 1974",
+      "precision": "range",
+      "sort_start": "1974-08-01",
+      "sort_end": "1974-09-30"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ale_invention",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 335
+      }
+    ]
+  },
+  {
+    "id": "ale_patent_1974_filed",
+    "event_type": "patent_filed",
+    "label": "First ALE patent filed (priority Nov 29, 1974)",
+    "description": "The ALE invention was protected by an international patent. The priority date comes from the Finnish application, filed on November 29, 1974. The patent was applied for, and granted, in more than twenty countries, including the United States, Japan, and the Soviet Union.",
+    "date": {
+      "display": "November 29, 1974",
+      "precision": "day",
+      "sort_start": "1974-11-29",
+      "sort_end": "1974-11-29"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "ale_patent_1974",
+        "role": "patent"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 335
+      }
+    ]
+  },
+  {
+    "id": "moscow_patent_hearing",
+    "event_type": "meeting",
+    "label": "ALE patent hearing in Moscow",
+    "description": "Hearings related to the patent were organized in several countries, including the United States, Japan, and the Soviet Union. The patent hearing in Moscow, which Suntola describes as memorable, took about two hours; Suntola went there alone, assisted by two local attorneys. The patent was granted as applied.",
+    "date": {
+      "display": "1977 or 1978",
+      "precision": "circa",
+      "sort_start": "1977-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ale_patent_1974",
+        "role": "patent"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 335
+      }
+    ]
+  },
+  {
+    "id": "ale_el_sold_to_lohja",
+    "event_type": "company_sold",
+    "label": "ALE-EL project sold to Lohja Oy",
+    "description": "It was realized that the basic work needed had limited motivation in a small research team within a medical instrumentation trading company. In 1978, the ALE-EL project, with the personnel and the facility, was sold to Lohja Oy.",
+    "date": {
+      "display": "1978",
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "instrumentarium",
+        "role": "seller"
+      },
+      {
+        "entity_id": "lohja_oy",
+        "role": "buyer"
+      },
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "transferred_personnel"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 335
+      }
+    ]
+  },
+  {
+    "id": "zncl2_h2s_process_demonstrated",
+    "event_type": "other",
+    "label": "ZnCl2 + H2S chloride ALE process demonstrated",
+    "description": "An abrupt change occurred when a H2S gas bottle was acquired and coupled to the reactor, enabling the real ZnCl2 + H2S process. In the memorable first run the reactor tube walls were evenly covered with a strictly uniform film. Sven Lindfors is pictured next to the reactor; Arto Pakkala's reaction was 'That's it!'",
+    "date": {
+      "display": "1978",
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "sven_lindfors",
+        "role": "researcher"
+      },
+      {
+        "entity_id": "arto_pakkala",
+        "role": "researcher"
+      },
+      {
+        "entity_id": "lohja_oy",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 336
+      }
+    ]
+  },
+  {
+    "id": "ale_patent_1979_filed",
+    "event_type": "patent_filed",
+    "label": "Second ALE patent filed (priority Feb 28, 1979)",
+    "description": "The inert gas reactor and the basic processes for the ALE-produced EL displays were protected by the second international ALE patent, with the priority date Feb 28, 1979 of the Finnish application. This patent also documented the ALE dielectric layers, and mentioned the option of using compound reactants (H2S).",
+    "date": {
+      "display": "February 28, 1979",
+      "precision": "day",
+      "sort_start": "1979-02-28",
+      "sort_end": "1979-02-28"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "ale_patent_1979",
+        "role": "patent"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 335
+      }
+    ]
+  },
+  {
+    "id": "sid_1980_disclosure",
+    "event_type": "public_demonstration",
+    "label": "First public disclosure of ALE-EL thin film display at SID",
+    "description": "The first disclosure of the ALE-EL work happened at the Society for Information Display (SID) conference in San Diego, California, April 29 to May 1, 1980, in front of about 1000 people. Suntola, from an unknown company in an unknown country, gave the presentation; the demo had such high contrast that the EL light was well visible even in bright projector light.",
+    "date": {
+      "display": "April 29 - May 1, 1980",
+      "precision": "range",
+      "sort_start": "1980-04-29",
+      "sort_end": "1980-05-01"
+    },
+    "location": "san_diego",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "presenter"
+      },
+      {
+        "entity_id": "ale_el_display",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 337
+      }
+    ]
+  },
+  {
+    "id": "san_diego_1981_conference",
+    "event_type": "conference",
+    "label": "Suntola presents ALE at Vapor Growth and Epitaxy 5",
+    "description": "Suntola gave a presentation on ALE at the International Conference on Vapor Growth and Epitaxy 5 in San Diego, California, in 1981. The presentation was not a big success; there was very little scientific information available, and use of the term 'epitaxy' for non-single-crystal films offended some in the audience. Jun-ichi Nishizawa from Japan was among the participants and realized the significance of ALE.",
+    "date": {
+      "display": "1981",
+      "precision": "year",
+      "sort_start": "1981-01-01",
+      "sort_end": "1981-12-31"
+    },
+    "location": "san_diego",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "presenter"
+      },
+      {
+        "entity_id": "jun_ichi_nishizawa",
+        "role": "attendee"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 341
+      }
+    ]
+  },
+  {
+    "id": "lohja_tfel_pilot_production",
+    "event_type": "product_launch",
+    "label": "Pilot production of TF-EL displays starts at Lohja",
+    "description": "In 1983, the pilot production of TF-EL displays started in Lohja, at the Kunnarla plant. The first real proof-of-concept of the ALE-EL displays was the large information boards installed at Helsinki-Vantaa airport's departure hall in 1983.",
+    "date": {
+      "display": "1983",
+      "precision": "year",
+      "sort_start": "1983-01-01",
+      "sort_end": "1983-12-31"
+    },
+    "location": "lohja_city",
+    "participants": [
+      {
+        "entity_id": "lohja_oy",
+        "role": "producer"
+      },
+      {
+        "entity_id": "ale_el_display",
+        "role": "product"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 337
+      }
+    ]
+  },
+  {
+    "id": "cge_license_1983",
+    "event_type": "other",
+    "label": "ALE-EL technology licensed to France (CGE)",
+    "description": "In the early 1980s the ALE-EL technology was licensed to France. First contacts were made at the 1980 SID conference; the big French state-owned company CGE became interested, and an ALE-EL license was granted in 1983 (to local arrangements between French state-owned companies, now Sintra Alcatel).",
+    "date": {
+      "display": "1983",
+      "precision": "year",
+      "sort_start": "1983-01-01",
+      "sort_end": "1983-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lohja_oy",
+        "role": "licensor"
+      },
+      {
+        "entity_id": "cge",
+        "role": "licensee"
+      },
+      {
+        "entity_id": "ale_el_display",
+        "role": "product"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 343
+      }
+    ]
+  },
+  {
+    "id": "ale1_symposium_1984",
+    "event_type": "conference",
+    "label": "First Symposium on Atomic Layer Epitaxy held in Espoo",
+    "description": "The first specific ALE conference, the 'First Symposium on Atomic Layer Epitaxy', was organized in Espoo, Finland, on December 13-14, 1984, by VTT Semiconductor Laboratory upon the initiation of Professor Lauri Niinistö.",
+    "date": {
+      "display": "December 13-14, 1984",
+      "precision": "range",
+      "sort_start": "1984-12-13",
+      "sort_end": "1984-12-14"
+    },
+    "location": "espoo",
+    "participants": [
+      {
+        "entity_id": "lauri_niinisto",
+        "role": "organizer"
+      },
+      {
+        "entity_id": "vtt_semiconductor_lab",
+        "role": "organizer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 342
+      }
+    ]
+  },
+  {
+    "id": "nishizawa_kobe_1984",
+    "event_type": "conference",
+    "label": "Nishizawa introduces MLE-grown GaAs in Kobe; Suntola gives general ALE talk",
+    "description": "Nishizawa introduced his MLE-grown GaAs at the 16th International Conference on Solid State Devices and Materials, in Kobe, Japan, 1984. Suntola was invited to give a general talk on ALE at the conference; it was successful, given to an overfull room, and Suntola was interviewed about ALE on Japanese TV.",
+    "date": {
+      "display": "1984",
+      "precision": "year",
+      "sort_start": "1984-01-01",
+      "sort_end": "1984-12-31"
+    },
+    "location": "kobe",
+    "participants": [
+      {
+        "entity_id": "jun_ichi_nishizawa",
+        "role": "presenter"
+      },
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "presenter"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 341
+      }
+    ]
+  },
+  {
+    "id": "lcd_patent_filed",
+    "event_type": "patent_filed",
+    "label": "Suntola's LCD color patent applied for",
+    "description": "Suntola also had a patent on Liquid Crystal Displays (LCDs): 'Method for generating electronically controllable color elements and color display based on the method', applied for in 1985.",
+    "date": {
+      "display": "1985",
+      "precision": "year",
+      "sort_start": "1985-01-01",
+      "sort_end": "1985-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "lcd_patent",
+        "role": "patent"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 343
+      }
+    ]
+  },
+  {
+    "id": "olarinluoma_production_starts",
+    "event_type": "product_launch",
+    "label": "Data module production starts at Olarinluoma facility",
+    "description": "Year 1983 was financially favorable for Lohja; a large EL production facility with high-level cleanrooms was built in Espoo, Olarinluoma, finished on time. Production of the data display module started gradually in the Olarinluoma facility in 1985, and distribution channels opened in the USA and other major industrialized countries.",
+    "date": {
+      "display": "1985",
+      "precision": "year",
+      "sort_start": "1985-01-01",
+      "sort_end": "1985-12-31"
+    },
+    "location": "espoo",
+    "participants": [
+      {
+        "entity_id": "lohja_oy",
+        "role": "producer"
+      },
+      {
+        "entity_id": "ale_el_display",
+        "role": "product"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 337
+      }
+    ]
+  },
+  {
+    "id": "lohja_el_sold_to_planar",
+    "event_type": "company_sold",
+    "label": "Lohja's EL business sold to Planar Inc.",
+    "description": "In 1990, Lohja's EL business was sold to its American competitor, Planar Inc. Following Sharp in Japan and Planar in the US, Lohja became the third EL manufacturer in the world; Planar International became a subsidiary of the US Planar, and ALE production was concentrated in the Olarinluoma plant.",
+    "date": {
+      "display": "1990",
+      "precision": "year",
+      "sort_start": "1990-01-01",
+      "sort_end": "1990-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lohja_oy",
+        "role": "seller"
+      },
+      {
+        "entity_id": "planar",
+        "role": "buyer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 338
+      }
+    ]
+  },
+  {
+    "id": "microchemistry_founded",
+    "event_type": "company_founded",
+    "label": "Microchemistry Ltd. founded; Suntola steps aside from EL",
+    "description": "In the mid-1980s, Neste's venture unit NAPS, headed by Tapio Alvesalo, saw the potential of applying ALE to manufacturing thin film solar panels. In 1987, Tuomo Suntola was offered the chance to set up Microchemistry Ltd, a subsidiary of Neste, for the development of ALE-based solar panels; he also saw the possibility of applying ALE to heterogeneous catalysis.",
+    "date": {
+      "display": "1987",
+      "precision": "year",
+      "sort_start": "1987-01-01",
+      "sort_end": "1987-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "founder"
+      },
+      {
+        "entity_id": "microchemistry",
+        "role": "organization_founded"
+      },
+      {
+        "entity_id": "neste",
+        "role": "parent_company"
+      },
+      {
+        "entity_id": "tapio_alvesalo",
+        "role": "instigator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 338
+      }
+    ]
+  },
+  {
+    "id": "f120_reactor_built",
+    "event_type": "other",
+    "label": "F-120 photovoltaic research reactor built",
+    "description": "As the first task in Microchemistry, Tuomo Suntola and Sven Lindfors designed a quick, compact research reactor for photovoltaic (CdTe) development: the F-120, which also became the first commercial ALD reactor.",
+    "date": {
+      "display": "late 1980s",
+      "precision": "decade",
+      "sort_start": "1987-01-01",
+      "sort_end": "1989-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "designer"
+      },
+      {
+        "entity_id": "sven_lindfors",
+        "role": "designer"
+      },
+      {
+        "entity_id": "f120_reactor",
+        "role": "product"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 339
+      }
+    ]
+  },
+  {
+    "id": "cdte_cell_14pct",
+    "event_type": "other",
+    "label": "Microchemistry CdTe test cell reaches 14% conversion efficiency",
+    "description": "The top achievement in the ALE-CdTe cell development in Microchemistry was a test cell with 14% conversion efficiency, which in the early 1990s was among the highest efficiencies reported for thin film cells; the advantage of ALE was marginal, however, over less expensive technologies, and a decision was made not to enter production scale with ALE-CdTe cells.",
+    "date": {
+      "display": "early 1990s",
+      "precision": "decade",
+      "sort_start": "1990-01-01",
+      "sort_end": "1992-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "microchemistry",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 339
+      }
+    ]
+  },
+  {
+    "id": "ale1_symposium_1990",
+    "event_type": "conference",
+    "label": "First International Symposium on Atomic Layer Epitaxy (ALE-1)",
+    "description": "The first International Symposium on Atomic Layer Epitaxy was held in Espoo, June 11-13, 1990; the conference chair was Professor Lauri Niinistö.",
+    "date": {
+      "display": "June 11-13, 1990",
+      "precision": "range",
+      "sort_start": "1990-06-11",
+      "sort_end": "1990-06-13"
+    },
+    "location": "espoo",
+    "participants": [
+      {
+        "entity_id": "lauri_niinisto",
+        "role": "organizer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 342
+      }
+    ]
+  },
+  {
+    "id": "suntola_visits_leningrad",
+    "event_type": "visit",
+    "label": "Suntola visits Leningrad to meet Prof. Aleskovskii",
+    "description": "At the 1990 ALE-1 conference, Dr. Victor Drozd invited Suntola to visit the University of Leningrad (present St. Petersburg) to meet Prof. Aleskovskii. Suntola travelled to Leningrad in August 1990, where Aleskovskii presented his works on oxide layer build-up based on saturated surface reactions, just as in the ALE process; the discussion confirmed that the essence of ALE had been independently discovered by the Aleskovskii group.",
+    "date": {
+      "display": "August 1990",
+      "precision": "month",
+      "sort_start": "1990-08-01",
+      "sort_end": "1990-08-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "visitor"
+      },
+      {
+        "entity_id": "v_b_aleskovskii",
+        "role": "host"
+      },
+      {
+        "entity_id": "victor_drozd",
+        "role": "inviter"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 342
+      }
+    ]
+  },
+  {
+    "id": "mrs_boston_1994",
+    "event_type": "conference",
+    "label": "Suntola gives ALE semiconductor talk at MRS Boston; Microchemistry exhibits",
+    "description": "Since the 1980 SID conference, Suntola had contacts with key people in the display and semiconductor fields. Microchemistry was offered the possibility of a visible introduction of ALE at the MRS 1994 Annual Meeting in Boston; the talk 'ALE for Semiconductor Applications' was complemented by Microchemistry's exhibition booth.",
+    "date": {
+      "display": "1994",
+      "precision": "year",
+      "sort_start": "1994-01-01",
+      "sort_end": "1994-12-31"
+    },
+    "location": "boston",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "presenter"
+      },
+      {
+        "entity_id": "microchemistry",
+        "role": "exhibitor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 340
+      }
+    ]
+  },
+  {
+    "id": "microchemistry_refocuses_1997",
+    "event_type": "role_change",
+    "label": "Microchemistry refocused on ALE; Suntola offered Research Fellow position",
+    "description": "In 1997, as part of a larger rearrangement in Neste Oy, Microchemistry was devoted to ALE technology and the reactor business only, and the PV and catalyst research activities were taken under Neste's Central Research. Suntola was offered a Research Fellow's position in Neste, and a business-oriented managing director, Matti Ervasti, was invited to take care of Microchemistry and further ALE business development.",
+    "date": {
+      "display": "1997",
+      "precision": "year",
+      "sort_start": "1997-01-01",
+      "sort_end": "1997-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "neste",
+        "role": "employer"
+      },
+      {
+        "entity_id": "matti_ervasti",
+        "role": "new_managing_director"
+      },
+      {
+        "entity_id": "microchemistry",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 340
+      }
+    ]
+  },
+  {
+    "id": "suntola_hands_over_microchemistry",
+    "event_type": "retirement",
+    "label": "Suntola hands Microchemistry over to Matti Ervasti",
+    "description": "When handing Microchemistry Ltd. over to his successor, Matti Ervasti, in the beginning of 1998, Suntola left behind his active role in ALE, now renamed ALD. As a research fellow in Fortum Oyj (after the fusion of Neste and IVO), Suntola worked for long-term research and global energy issues.",
+    "date": {
+      "display": "early 1998",
+      "precision": "circa",
+      "sort_start": "1998-01-01",
+      "sort_end": "1998-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "matti_ervasti",
+        "role": "successor"
+      },
+      {
+        "entity_id": "microchemistry",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 343
+      }
+    ]
+  },
+  {
+    "id": "microchemistry_sold_to_asm",
+    "event_type": "company_sold",
+    "label": "Microchemistry sold to ASM",
+    "description": "In 1999, Microchemistry with all its personnel, ALE expertise, and the patent portfolio was sold to the Dutch company ASM. The ALE activity continued as ASM Microchemistry in Finland.",
+    "date": {
+      "display": "1999",
+      "precision": "year",
+      "sort_start": "1999-01-01",
+      "sort_end": "1999-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "neste",
+        "role": "seller"
+      },
+      {
+        "entity_id": "asm_microchemistry",
+        "role": "buyer_entity"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 341
+      }
+    ]
+  },
+  {
+    "id": "picosun_founded",
+    "event_type": "company_founded",
+    "label": "Picosun Oy founded",
+    "description": "Sven Lindfors, Suntola's closest co-worker in ALE reactor design since 1975, set up Picosun Oy with Kustaa Poutiainen in 2004.",
+    "date": {
+      "display": "2004",
+      "precision": "year",
+      "sort_start": "2004-01-01",
+      "sort_end": "2004-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "sven_lindfors",
+        "role": "founder"
+      },
+      {
+        "entity_id": "kustaa_poutiainen",
+        "role": "founder"
+      },
+      {
+        "entity_id": "picosun",
+        "role": "organization_founded"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 341
+      }
+    ]
+  },
+  {
+    "id": "suntola_semi_award",
+    "event_type": "award",
+    "label": "Suntola receives European SEMI Award 2004",
+    "description": "Suntola received the delightful surprise of the European SEMI Award 2004, 'Honoring the Pioneer in Atomic Layer Deposition Techniques ... that paved the way for the development of nanoscale semiconductor devices.' The award was handed to Suntola at the Munich Electronics Show 2004 by Stanley Myers, President and CEO of SEMI (USA); Sven Lindfors and Kustaa Poutiainen of Picosun accompanied him.",
+    "date": {
+      "display": "2004",
+      "precision": "year",
+      "sort_start": "2004-01-01",
+      "sort_end": "2004-12-31"
+    },
+    "location": "munich",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "recipient"
+      },
+      {
+        "entity_id": "stanley_myers",
+        "role": "presenter"
+      },
+      {
+        "entity_id": "semi_award_2004",
+        "role": "award"
+      },
+      {
+        "entity_id": "semi",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 343
+      }
+    ]
+  },
+  {
+    "id": "beneq_founded",
+    "event_type": "company_founded",
+    "label": "Beneq Oy founded",
+    "description": "In 2005, Beneq Oy was founded, and Pekka Soininen started the ALE reactor activity in the company.",
+    "date": {
+      "display": "2005",
+      "precision": "year",
+      "sort_start": "2005-01-01",
+      "sort_end": "2005-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pekka_soininen",
+        "role": "founder"
+      },
+      {
+        "entity_id": "beneq",
+        "role": "organization_founded"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 341
+      }
+    ]
+  },
+  {
+    "id": "dynamic_universe_published",
+    "event_type": "publication",
+    "label": "Suntola publishes 'The Dynamic Universe' (3rd ed.)",
+    "description": "Since the mid-1990s, with early roots extending to the late 1960s, Suntola worked on a holistic picture of reality, published in the book 'The Dynamic Universe - toward a unified picture of physical reality.'",
+    "date": {
+      "display": "April 2011",
+      "precision": "month",
+      "sort_start": "2011-04-01",
+      "sort_end": "2011-04-30"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "author"
+      },
+      {
+        "entity_id": "dynamic_universe_book",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 343
+      }
+    ]
+  },
+  {
+    "id": "short_history_science_published",
+    "event_type": "publication",
+    "label": "Suntola publishes 'The Short History of Science'",
+    "description": "Linking his philosophical and theoretical considerations to the historical development, Suntola worked on the book 'The Short History of Science - or the long path to the union of metaphysics and empiricism', published in September 2012.",
+    "date": {
+      "display": "September 2012",
+      "precision": "month",
+      "sort_start": "2012-09-01",
+      "sort_end": "2012-09-30"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "author"
+      },
+      {
+        "entity_id": "short_history_science_book",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 343
+      }
+    ]
+  }
+]

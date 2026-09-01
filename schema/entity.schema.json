@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://biograph/schema/entity.schema.json",
+  "title": "Entity",
+  "description": "A node in the biographical graph: a person, place, organization, or named artifact (invention/patent/product/publication).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "entity_type", "name"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]*$",
+      "description": "Stable snake_case id, unique within entities.json."
+    },
+    "entity_type": {
+      "type": "string",
+      "enum": ["person", "place", "organization", "artifact"]
+    },
+    "name": { "type": "string" },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Other names/spellings this entity is referred to by in sources."
+    },
+    "summary": {
+      "type": "string",
+      "description": "1–3 sentence static description. Facts here are NOT events — no dates, no 'in 1974...' clauses."
+    },
+    "subtype": {
+      "type": "string",
+      "description": "Free-text refinement, e.g. person: 'researcher'; place: 'city'/'country'/'facility'; organization: 'company'/'university'/'lab'; artifact: 'invention'/'patent'/'product'/'publication'/'award'."
+    },
+    "attributes": {
+      "type": "object",
+      "description": "Optional structured extras (e.g. { \"country\": \"Finland\" } for a place).",
+      "additionalProperties": true
+    }
+  }
+}

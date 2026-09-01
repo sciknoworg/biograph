@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://biograph/schema/source.schema.json",
+  "title": "Source",
+  "description": "A cited document (paper, interview, archive) that events/relations reference by id.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "title"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" },
+    "title": { "type": "string" },
+    "authors": { "type": "array", "items": { "type": "string" } },
+    "year": { "type": "integer" },
+    "publication": { "type": "string" },
+    "file": { "type": "string", "description": "Relative path to the source file under data/." },
+    "doi": { "type": "string" },
+    "url": { "type": "string" }
+  }
+}

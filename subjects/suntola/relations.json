@@ -1,0 +1,658 @@
+[
+  {
+    "id": "tuomo_suntola__born_in__tampere",
+    "source": "tuomo_suntola",
+    "type": "born_in",
+    "target": "tampere",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 333
+      }
+    ],
+    "event_id": "suntola_born"
+  },
+  {
+    "id": "tuomo_suntola__studied_at__hut",
+    "source": "tuomo_suntola",
+    "type": "studied_at",
+    "target": "hut",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 333
+      }
+    ],
+    "event_id": "suntola_starts_ee_studies"
+  },
+  {
+    "id": "tuomo_suntola__educated_by__thor_stubb",
+    "source": "tuomo_suntola",
+    "type": "educated_by",
+    "target": "thor_stubb",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 333,
+        "quote": "Prof. Stubb gave him the green light for the study."
+      }
+    ],
+    "event_id": "suntola_picosecond_switches"
+  },
+  {
+    "id": "tuomo_suntola__employed_by__vtt_semiconductor_lab",
+    "source": "tuomo_suntola",
+    "type": "employed_by",
+    "target": "vtt_semiconductor_lab",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 333
+      }
+    ],
+    "event_id": "vtt_first_industrial_order"
+  },
+  {
+    "id": "tuomo_suntola__invented__humicap_sensor",
+    "source": "tuomo_suntola",
+    "type": "invented",
+    "target": "humicap_sensor",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 333
+      }
+    ],
+    "event_id": "humicap_developed"
+  },
+  {
+    "id": "jorma_antson__invented__humicap_sensor",
+    "source": "jorma_antson",
+    "type": "invented",
+    "target": "humicap_sensor",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 333
+      }
+    ],
+    "event_id": "humicap_developed"
+  },
+  {
+    "id": "tuomo_suntola__employed_by__instrumentarium",
+    "source": "tuomo_suntola",
+    "type": "employed_by",
+    "target": "instrumentarium",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 333
+      }
+    ],
+    "event_id": "suntola_joins_instrumentarium"
+  },
+  {
+    "id": "tuomo_suntola__lived_in__espoo",
+    "source": "tuomo_suntola",
+    "type": "lived_in",
+    "target": "espoo",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 334
+      }
+    ],
+    "event_id": "team_moves_to_instrumentarium",
+    "note": "Instrumentarium's Ahertajantie 3, Tapiola, Espoo, where ALE was invented."
+  },
+  {
+    "id": "tuomo_suntola__invented__ale_invention",
+    "source": "tuomo_suntola",
+    "type": "invented",
+    "target": "ale_invention",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 334,
+        "quote": "The actual invention of ALE matured in early June 1974."
+      }
+    ],
+    "event_id": "ale_invented"
+  },
+  {
+    "id": "tuomo_suntola__patented__ale_patent_1974",
+    "source": "tuomo_suntola",
+    "type": "patented",
+    "target": "ale_patent_1974",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 335
+      }
+    ],
+    "event_id": "ale_patent_1974_filed"
+  },
+  {
+    "id": "tuomo_suntola__patented__ale_patent_1979",
+    "source": "tuomo_suntola",
+    "type": "patented",
+    "target": "ale_patent_1979",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 335
+      }
+    ],
+    "event_id": "ale_patent_1979_filed"
+  },
+  {
+    "id": "tuomo_suntola__patented__lcd_patent",
+    "source": "tuomo_suntola",
+    "type": "patented",
+    "target": "lcd_patent",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 343
+      }
+    ],
+    "event_id": "lcd_patent_filed"
+  },
+  {
+    "id": "instrumentarium__sold_to__lohja_oy",
+    "source": "instrumentarium",
+    "type": "sold_to",
+    "target": "lohja_oy",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 335
+      }
+    ],
+    "event_id": "ale_el_sold_to_lohja",
+    "note": "Sold the ALE-EL project, personnel and facility."
+  },
+  {
+    "id": "sven_lindfors__employed_by__lohja_oy",
+    "source": "sven_lindfors",
+    "type": "employed_by",
+    "target": "lohja_oy",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 336
+      }
+    ],
+    "event_id": "zncl2_h2s_process_demonstrated"
+  },
+  {
+    "id": "arto_pakkala__employed_by__lohja_oy",
+    "source": "arto_pakkala",
+    "type": "employed_by",
+    "target": "lohja_oy",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 336
+      }
+    ],
+    "event_id": "zncl2_h2s_process_demonstrated"
+  },
+  {
+    "id": "sven_lindfors__collaborated_with__tuomo_suntola",
+    "source": "sven_lindfors",
+    "type": "collaborated_with",
+    "target": "tuomo_suntola",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 341,
+        "quote": "Sven Lindfors, the closest co-worker to Suntola in ALE reactor design since 1975."
+      }
+    ]
+  },
+  {
+    "id": "lohja_oy__developed__ale_el_display",
+    "source": "lohja_oy",
+    "type": "developed",
+    "target": "ale_el_display",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 337
+      }
+    ],
+    "event_id": "lohja_tfel_pilot_production"
+  },
+  {
+    "id": "lohja_oy__licensed_to__cge",
+    "source": "lohja_oy",
+    "type": "licensed_to",
+    "target": "cge",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 343
+      }
+    ],
+    "event_id": "cge_license_1983"
+  },
+  {
+    "id": "lauri_niinisto__collaborated_with__tuomo_suntola",
+    "source": "lauri_niinisto",
+    "type": "collaborated_with",
+    "target": "tuomo_suntola",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 342,
+        "quote": "Suntola had contacted Lauri Niinistö ... asking for scientific consultation on ALE chemistry and luminescent materials."
+      }
+    ]
+  },
+  {
+    "id": "jun_ichi_nishizawa__collaborated_with__tuomo_suntola",
+    "source": "jun_ichi_nishizawa",
+    "type": "collaborated_with",
+    "target": "tuomo_suntola",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 341
+      }
+    ],
+    "event_id": "nishizawa_kobe_1984",
+    "note": "Nishizawa initially renamed ALE 'Molecular Layer Epitaxy' before recognizing it as the same technique."
+  },
+  {
+    "id": "lohja_oy__sold_to__planar",
+    "source": "lohja_oy",
+    "type": "sold_to",
+    "target": "planar",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 338
+      }
+    ],
+    "event_id": "lohja_el_sold_to_planar"
+  },
+  {
+    "id": "planar__acquired_by__beneq",
+    "source": "planar",
+    "type": "acquired_by",
+    "target": "beneq",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 338
+      }
+    ],
+    "note": "Planar's Olarinluoma EL plant was acquired by Beneq Oy in 2012."
+  },
+  {
+    "id": "tapio_alvesalo__collaborated_with__tuomo_suntola",
+    "source": "tapio_alvesalo",
+    "type": "collaborated_with",
+    "target": "tuomo_suntola",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 338
+      }
+    ],
+    "event_id": "microchemistry_founded"
+  },
+  {
+    "id": "tuomo_suntola__founded__microchemistry",
+    "source": "tuomo_suntola",
+    "type": "founded",
+    "target": "microchemistry",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 338
+      }
+    ],
+    "event_id": "microchemistry_founded"
+  },
+  {
+    "id": "microchemistry__member_of__neste",
+    "source": "microchemistry",
+    "type": "member_of",
+    "target": "neste",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 338
+      }
+    ],
+    "note": "Microchemistry Ltd. was a subsidiary of Neste."
+  },
+  {
+    "id": "naps__member_of__neste",
+    "source": "naps",
+    "type": "member_of",
+    "target": "neste",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 339
+      }
+    ],
+    "note": "NAPS was Neste's corporate venture unit."
+  },
+  {
+    "id": "tuomo_suntola__developed__f120_reactor",
+    "source": "tuomo_suntola",
+    "type": "developed",
+    "target": "f120_reactor",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 339
+      }
+    ],
+    "event_id": "f120_reactor_built"
+  },
+  {
+    "id": "sven_lindfors__developed__f120_reactor",
+    "source": "sven_lindfors",
+    "type": "developed",
+    "target": "f120_reactor",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 339
+      }
+    ],
+    "event_id": "f120_reactor_built"
+  },
+  {
+    "id": "tuomo_suntola__visited__leningrad",
+    "source": "tuomo_suntola",
+    "type": "visited",
+    "target": "leningrad",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 342
+      }
+    ],
+    "event_id": "suntola_visits_leningrad"
+  },
+  {
+    "id": "tuomo_suntola__met__v_b_aleskovskii",
+    "source": "tuomo_suntola",
+    "type": "met",
+    "target": "v_b_aleskovskii",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 342
+      }
+    ],
+    "event_id": "suntola_visits_leningrad"
+  },
+  {
+    "id": "victor_drozd__collaborated_with__tuomo_suntola",
+    "source": "victor_drozd",
+    "type": "collaborated_with",
+    "target": "tuomo_suntola",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 342
+      }
+    ],
+    "event_id": "suntola_visits_leningrad"
+  },
+  {
+    "id": "v_b_aleskovskii__invented__ale_invention",
+    "source": "v_b_aleskovskii",
+    "type": "invented",
+    "target": "ale_invention",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 342,
+        "quote": "The discussion confirmed that the essence of ALE had been independently discovered by the Aleskovskii group."
+      }
+    ],
+    "note": "Independently discovered the essence of ALE in the 1960s in the USSR, under the name 'molecular layering'."
+  },
+  {
+    "id": "tuomo_suntola__employed_by__neste",
+    "source": "tuomo_suntola",
+    "type": "employed_by",
+    "target": "neste",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 340
+      }
+    ],
+    "event_id": "microchemistry_refocuses_1997"
+  },
+  {
+    "id": "matti_ervasti__employed_by__microchemistry",
+    "source": "matti_ervasti",
+    "type": "employed_by",
+    "target": "microchemistry",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 340
+      }
+    ],
+    "event_id": "microchemistry_refocuses_1997"
+  },
+  {
+    "id": "neste__sold_to__asm_microchemistry",
+    "source": "neste",
+    "type": "sold_to",
+    "target": "asm_microchemistry",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 341
+      }
+    ],
+    "event_id": "microchemistry_sold_to_asm"
+  },
+  {
+    "id": "sven_lindfors__founded__picosun",
+    "source": "sven_lindfors",
+    "type": "founded",
+    "target": "picosun",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 341
+      }
+    ],
+    "event_id": "picosun_founded"
+  },
+  {
+    "id": "kustaa_poutiainen__founded__picosun",
+    "source": "kustaa_poutiainen",
+    "type": "founded",
+    "target": "picosun",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 341
+      }
+    ],
+    "event_id": "picosun_founded"
+  },
+  {
+    "id": "tuomo_suntola__employed_by__picosun",
+    "source": "tuomo_suntola",
+    "type": "employed_by",
+    "target": "picosun",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 341,
+        "quote": "In 2004, Suntola joined Picosun Oy, first as the scientific adviser and, since 2007, as a board member."
+      }
+    ]
+  },
+  {
+    "id": "tuomo_suntola__awarded__semi_award_2004",
+    "source": "tuomo_suntola",
+    "type": "awarded",
+    "target": "semi_award_2004",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 343
+      }
+    ],
+    "event_id": "suntola_semi_award"
+  },
+  {
+    "id": "stanley_myers__collaborated_with__tuomo_suntola",
+    "source": "stanley_myers",
+    "type": "collaborated_with",
+    "target": "tuomo_suntola",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 343
+      }
+    ],
+    "event_id": "suntola_semi_award"
+  },
+  {
+    "id": "pekka_soininen__founded__beneq",
+    "source": "pekka_soininen",
+    "type": "founded",
+    "target": "beneq",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 341
+      }
+    ],
+    "event_id": "beneq_founded"
+  },
+  {
+    "id": "tuomo_suntola__published__dynamic_universe_book",
+    "source": "tuomo_suntola",
+    "type": "published",
+    "target": "dynamic_universe_book",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 343
+      }
+    ],
+    "event_id": "dynamic_universe_published"
+  },
+  {
+    "id": "tuomo_suntola__published__short_history_science_book",
+    "source": "tuomo_suntola",
+    "type": "published",
+    "target": "short_history_science_book",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 343
+      }
+    ],
+    "event_id": "short_history_science_published"
+  },
+  {
+    "id": "salah_bedair__collaborated_with__ncsu",
+    "source": "salah_bedair",
+    "type": "collaborated_with",
+    "target": "ncsu",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 341
+      }
+    ],
+    "note": "Bedair's group demonstrated ALE of GaAs in a CVD system at NCSU."
+  },
+  {
+    "id": "markku_leskela__collaborated_with__mikko_ritala",
+    "source": "markku_leskela",
+    "type": "collaborated_with",
+    "target": "mikko_ritala",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 341
+      }
+    ],
+    "note": "Co-head the Finnish Centre of Excellence in Atomic Layer Deposition."
+  },
+  {
+    "id": "tuomo_suntola__member_of__tut",
+    "source": "tuomo_suntola",
+    "type": "member_of",
+    "target": "tut",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 342,
+        "quote": "Suntola was nominated as a docent in TUT, and he continued to give the lectures every second Friday for a couple of years."
+      }
+    ],
+    "note": "Docent at Tampere University of Technology from 1975."
+  },
+  {
+    "id": "antti_piippo__founded__elcoteq",
+    "source": "antti_piippo",
+    "type": "founded",
+    "target": "elcoteq",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 338
+      }
+    ],
+    "note": "Bought Elcoteq Oy with close colleagues in 1991."
+  },
+  {
+    "id": "ahti_aintila__employed_by__lohja_oy",
+    "source": "ahti_aintila",
+    "type": "employed_by",
+    "target": "lohja_oy",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 338
+      }
+    ],
+    "note": "Led major EL panel driving-circuitry developments; left the microelectronics division in late 1984."
+  },
+  {
+    "id": "ulf_strom__employed_by__finlux",
+    "source": "ulf_strom",
+    "type": "employed_by",
+    "target": "finlux",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 338
+      }
+    ],
+    "note": "Managing director of Finlux Inc., which marketed ALE-EL panels in the USA (photo caption)."
+  },
+  {
+    "id": "ulf_strom__collaborated_with__tuomo_suntola",
+    "source": "ulf_strom",
+    "type": "collaborated_with",
+    "target": "tuomo_suntola",
+    "sources": [
+      {
+        "source_id": "puurunen2014",
+        "page": 338
+      }
+    ]
+  }
+]

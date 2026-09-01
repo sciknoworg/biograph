@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://biograph/schema/date.schema.json",
+  "title": "FuzzyDate",
+  "description": "A dateable point or span with explicit precision, used by events and relation time-bounds.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["precision", "sort_start", "sort_end"],
+  "properties": {
+    "display": {
+      "type": "string",
+      "description": "Human-readable form to render, e.g. '1963', 'August–September 1974', 'c. 1958', 'early 1970s'. Required on events; optional on relation time-bounds."
+    },
+    "precision": {
+      "type": "string",
+      "enum": ["day", "month", "year", "decade", "circa", "range"]
+    },
+    "sort_start": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+      "description": "Earliest plausible ISO date (YYYY-MM-DD). Sort key only — not an assertion of exactness. Use day/month = 01 to represent an unknown day/month within the earliest bound."
+    },
+    "sort_end": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+      "description": "Latest plausible ISO date (YYYY-MM-DD). Equal to sort_start for a single fuzzy point."
+    }
+  }
+}

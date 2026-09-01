@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://biograph/schema/relation.schema.json",
+  "title": "Relation",
+  "description": "A directed, typed edge between two entities. May summarize an event (via event_id) or stand alone for an undated stated fact.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "source", "type", "target", "sources"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]*$"
+    },
+    "source": { "type": "string", "description": "Entity id this relation points from." },
+    "type": {
+      "type": "string",
+      "enum": [
+        "born_in", "died_in", "lived_in", "visited", "relocated_to",
+        "worked_at", "employed_by", "founded", "member_of", "supervised_by",
+        "mentored", "collaborated_with", "met", "married_to", "family_of",
+        "studied_at", "educated_by",
+        "invented", "patented", "published", "developed",
+        "awarded", "licensed_to", "acquired_by", "sold_to", "renamed_to",
+        "corresponded_with"
+      ]
+    },
+    "target": { "type": "string", "description": "Entity id this relation points to." },
+    "event_id": {
+      "type": "string",
+      "description": "Optional link to the events.json entry that established this relation."
+    },
+    "start": { "$ref": "date.schema.json" },
+    "end": { "$ref": "date.schema.json" },
+    "note": { "type": "string" },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["source_id"],
+        "properties": {
+          "source_id": { "type": "string" },
+          "page": { "type": "integer" },
+          "quote": { "type": "string" }
+        }
+      }
+    }
+  }
+}

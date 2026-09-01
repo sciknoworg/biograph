@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>__SUBJECT_NAME__ — Biograph</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<style>
+  :root{
+    --bg:#0f1218; --panel:#161b24; --panel2:#1c2230; --border:#2a3242;
+    --text:#e7ebf3; --muted:#8b93a7; --accent:#5ec8f8;
+    --person:#5ec8f8; --place:#5fd39c; --organization:#f5a856; --artifact:#c48cf0;
+    --edge:#3a4358; --edge-active:#e7ebf3;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;height:100%;background:var(--bg);color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;overflow:hidden;}
+  #app{display:flex;flex-direction:column;height:100vh;width:100vw;}
+
+  header{padding:10px 18px;border-bottom:1px solid var(--border);display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;background:var(--panel);z-index:5;}
+  header h1{font-size:16px;margin:0;font-weight:600;letter-spacing:.2px;}
+  header .sub{color:var(--muted);font-size:12px;}
+  header .spacer{flex:1;}
+  #search{background:var(--panel2);border:1px solid var(--border);color:var(--text);border-radius:6px;padding:6px 10px;font-size:12px;width:200px;outline:none;}
+  #search:focus{border-color:var(--accent);}
+  .legend{display:flex;gap:10px;font-size:11px;color:var(--muted);flex-wrap:wrap;align-items:center;}
+  .legend .item{display:flex;align-items:center;gap:5px;cursor:pointer;user-select:none;padding:2px 6px;border-radius:10px;transition:background .15s;}
+  .legend .item.off{opacity:.35;}
+  .legend .item:hover{background:var(--panel2);}
+  .dot{width:9px;height:9px;border-radius:50%;display:inline-block;}
+
+  #main{flex:1;display:flex;min-height:0;}
+  #graph-wrap{flex:1;position:relative;min-width:0;}
+  svg#graph{width:100%;height:100%;display:block;cursor:grab;}
+  svg#graph:active{cursor:grabbing;}
+
+  #side{width:320px;border-left:1px solid var(--border);background:var(--panel);
+    display:flex;flex-direction:column;min-height:0;}
+  #side .side-scroll{overflow-y:auto;flex:1;padding:16px;}
+  #side h2{font-size:14px;margin:0 0 4px;}
+  #side .kind{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.6px;margin-bottom:10px;}
+  #side p.summary{font-size:12.5px;line-height:1.5;color:#c9cfdb;}
+  #side .section-title{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.6px;margin:16px 0 6px;}
+  #side .rel-row{font-size:12.5px;padding:6px 8px;border-radius:6px;cursor:pointer;line-height:1.4;border:1px solid transparent;}
+  #side .rel-row:hover{background:var(--panel2);border-color:var(--border);}
+  #side .rel-row .t{color:var(--muted);font-size:11px;}
+  #side .cite{font-size:11px;color:var(--muted);margin-top:3px;font-style:italic;}
+  #side .empty{color:var(--muted);font-size:12.5px;padding-top:40px;text-align:center;}
+  #side .date-badge{display:inline-block;background:var(--panel2);border:1px solid var(--border);border-radius:5px;padding:2px 7px;font-size:11px;color:var(--muted);margin-bottom:8px;}
+
+  #timeline-wrap{height:190px;border-top:1px solid var(--border);background:var(--panel);position:relative;flex-shrink:0;}
+  svg#timeline{width:100%;height:100%;display:block;}
+  #tl-hint{position:absolute;top:6px;right:14px;font-size:10.5px;color:var(--muted);pointer-events:none;}
+
+  .node circle{stroke:#0f1218;stroke-width:1.5px;cursor:pointer;}
+  .node text{fill:var(--text);font-size:10px;pointer-events:none;paint-order:stroke;stroke:#0f1218;stroke-width:3px;}
+  .node.dim{opacity:.15;}
+  .link{stroke:var(--edge);stroke-width:1.2px;fill:none;}
+  .link.active{stroke:var(--edge-active);stroke-width:2px;}
+  .link.dim{opacity:.08;}
+  .link-label{font-size:9px;fill:var(--muted);pointer-events:none;}
+
+  .tooltip{position:fixed;pointer-events:none;background:#0b0e14;border:1px solid var(--border);
+    border-radius:6px;padding:6px 10px;font-size:12px;color:var(--text);z-index:50;max-width:240px;
+    box-shadow:0 6px 18px rgba(0,0,0,.4);opacity:0;transition:opacity .1s;}
+
+  .ev-mark{cursor:pointer;}
+  .ev-mark.dim{opacity:.18;}
+  .ev-mark rect{fill-opacity:.85;}
+  .ev-mark.selected rect, .ev-mark.selected circle{stroke:#fff;stroke-width:1.5px;}
+  #axis text{fill:var(--muted);font-size:10px;}
+  #axis path,#axis line{stroke:var(--border);}
+
+  button.reset{background:var(--panel2);border:1px solid var(--border);color:var(--text);
+    border-radius:6px;padding:5px 10px;font-size:11.5px;cursor:pointer;}
+  button.reset:hover{border-color:var(--accent);}
+
+  ::-webkit-scrollbar{width:8px;}
+  ::-webkit-scrollbar-thumb{background:var(--border);border-radius:4px;}
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <h1>__SUBJECT_NAME__</h1>
+    <div class="sub">__SUBJECT_SUMMARY__</div>
+    <div class="spacer"></div>
+    <div class="legend" id="legend"></div>
+    <input id="search" type="text" placeholder="Search people, places, events…" autocomplete="off" />
+    <button class="reset" id="reset-btn">Reset view</button>
+  </header>
+  <div id="main">
+    <div id="graph-wrap"><svg id="graph"></svg></div>
+    <div id="side">
+      <div class="side-scroll" id="side-content">
+        <div class="empty">Click a person, place, organization, invention — or an event on the timeline below — to explore.</div>
+      </div>
+    </div>
+  </div>
+  <div id="timeline-wrap">
+    <div id="tl-hint">scroll / drag to zoom &amp; pan · drag on the axis to select a range</div>
+    <svg id="timeline"></svg>
+  </div>
+</div>
+<div class="tooltip" id="tooltip"></div>
+
+<script id="graph-data" type="application/json">__GRAPH_DATA_JSON__</script>
+<script>
+(function(){
+  "use strict";
+  const DATA = JSON.parse(document.getElementById("graph-data").textContent);
+  const entities = DATA.entities, events = DATA.events, relations = DATA.relations, sources = DATA.sources;
+
+  const entById = new Map(entities.map(e => [e.id, e]));
+  const srcById = new Map(sources.map(s => [s.id, s]));
+  const eventsById = new Map(events.map(e => [e.id, e]));
+
+  const TYPE_COLOR = {person:"var(--person)", place:"var(--place)", organization:"var(--organization)", artifact:"var(--artifact)"};
+  const TYPE_COLOR_HEX = {person:"#5ec8f8", place:"#5fd39c", organization:"#f5a856", artifact:"#c48cf0"};
+
+  // ---- build graph edges: dedupe parallel relation edges into one visual link per (source,target) unordered pair, keep list of relations
+  const pairKey = (a,b) => a < b ? a+"|"+b : b+"|"+a;
+  const linkMap = new Map();
+  relations.forEach(r => {
+    if(!entById.has(r.source) || !entById.has(r.target)) return;
+    const k = pairKey(r.source, r.target);
+    if(!linkMap.has(k)) linkMap.set(k, {source:r.source, target:r.target, rels:[]});
+    linkMap.get(k).rels.push(r);
+  });
+  const links = Array.from(linkMap.values());
+
+  // degree for node sizing
+  const degree = new Map(entities.map(e => [e.id, 0]));
+  links.forEach(l => { degree.set(l.source, (degree.get(l.source)||0)+1); degree.set(l.target, (degree.get(l.target)||0)+1); });
+
+  // entity -> event ids it participates in
+  const entEvents = new Map(entities.map(e => [e.id, []]));
+  events.forEach(ev => ev.participants.forEach(p => { if(entEvents.has(p.entity_id)) entEvents.get(p.entity_id).push(ev.id); }));
+
+  // ================= GRAPH =================
+  const graphSvg = d3.select("#graph");
+  const graphG = graphSvg.append("g");
+  const linkLayer = graphG.append("g").attr("class","links");
+  const nodeLayer = graphG.append("g").attr("class","nodes");
+
+  let width = 0, height = 0;
+  function measure(){
+    const r = document.getElementById("graph-wrap").getBoundingClientRect();
+    width = r.width; height = r.height;
+  }
+  measure();
+
+  const nodes = entities.map(e => Object.assign({}, e, {r: 7 + Math.min(14, (degree.get(e.id)||0)*1.6)}));
+  const nodeById = new Map(nodes.map(n => [n.id, n]));
+
+  const sim = d3.forceSimulation(nodes)
+    .force("charge", d3.forceManyBody().strength(-220))
+    .force("link", d3.forceLink(links).id(d=>d.id).distance(70).strength(0.5))
+    .force("center", d3.forceCenter(width/2, height/2))
+    .force("collide", d3.forceCollide().radius(d=>d.r+14))
+    .force("x", d3.forceX(width/2).strength(0.03))
+    .force("y", d3.forceY(height/2).strength(0.03));
+
+  const linkSel = linkLayer.selectAll("line.link")
+    .data(links).join("line")
+    .attr("class","link")
+    .on("mouseover", (event,d) => {
+      const types = [...new Set(d.rels.map(r=>r.type))].join(", ");
+      showTooltip(event, `<b>${entById.get(d.source.id||d.source).name}</b> → <b>${entById.get(d.target.id||d.target).name}</b><br><span style="color:var(--muted)">${types}</span>`);
+    })
+    .on("mousemove", moveTooltip)
+    .on("mouseout", hideTooltip);
+
+  const nodeSel = nodeLayer.selectAll("g.node")
+    .data(nodes).join("g")
+    .attr("class","node")
+    .call(d3.drag()
+      .on("start", (event,d)=>{ if(!event.active) sim.alphaTarget(0.25).restart(); d.fx=d.x; d.fy=d.y; })
+      .on("drag", (event,d)=>{ d.fx=event.x; d.fy=event.y; })
+      .on("end", (event,d)=>{ if(!event.active) sim.alphaTarget(0); d.fx=null; d.fy=null; }));
+
+  nodeSel.append("circle")
+    .attr("r", d=>d.r)
+    .attr("fill", d=>TYPE_COLOR[d.entity_type]);
+
+  nodeSel.append("text")
+    .attr("x", d=>d.r+4).attr("y", 3)
+    .text(d=>d.name);
+
+  nodeSel.on("click", (event,d) => { event.stopPropagation(); selectEntity(d.id); })
+    .on("mouseover", (event,d) => showTooltip(event, `<b>${d.name}</b><br><span style="color:var(--muted)">${d.entity_type}${d.subtype? " · "+d.subtype:""}</span>`))
+    .on("mousemove", moveTooltip)
+    .on("mouseout", hideTooltip);
+
+  sim.on("tick", () => {
+    linkSel.attr("x1",d=>d.source.x).attr("y1",d=>d.source.y).attr("x2",d=>d.target.x).attr("y2",d=>d.target.y);
+    nodeSel.attr("transform", d=>`translate(${d.x},${d.y})`);
+  });
+
+  const zoom = d3.zoom().scaleExtent([0.25, 4]).on("zoom", (event) => graphG.attr("transform", event.transform));
+  graphSvg.call(zoom);
+  graphSvg.on("click", () => { selectNone(); });
+
+  window.addEventListener("resize", () => {
+    measure();
+    sim.force("center", d3.forceCenter(width/2, height/2));
+    sim.force("x", d3.forceX(width/2).strength(0.03));
+    sim.force("y", d3.forceY(height/2).strength(0.03));
+    sim.alpha(0.3).restart();
+    drawTimeline();
+  });
+
+  // ================= TOOLTIP =================
+  const tip = document.getElementById("tooltip");
+  function showTooltip(event, html){ tip.innerHTML = html; tip.style.opacity = 1; moveTooltip(event); }
+  function moveTooltip(event){ tip.style.left=(event.clientX+14)+"px"; tip.style.top=(event.clientY+10)+"px"; }
+  function hideTooltip(){ tip.style.opacity = 0; }
+
+  // ================= LEGEND =================
+  const legend = d3.select("#legend");
+  const typeVisible = {person:true, place:true, organization:true, artifact:true};
+  const legendItems = legend.selectAll(".item")
+    .data(["person","place","organization","artifact"]).join("div")
+    .attr("class","item")
+    .on("click", function(event,t){
+      typeVisible[t] = !typeVisible[t];
+      d3.select(this).classed("off", !typeVisible[t]);
+      applyTypeFilter();
+    });
+  legendItems.append("span").attr("class","dot").style("background", d=>TYPE_COLOR[d]);
+  legendItems.append("span").text(d=>d[0].toUpperCase()+d.slice(1)+"s");
+
+  function applyTypeFilter(){
+    nodeSel.style("display", d => typeVisible[d.entity_type] ? null : "none");
+    linkSel.style("display", d => {
+      const s = entById.get(d.source.id||d.source), t = entById.get(d.target.id||d.target);
+      return (typeVisible[s.entity_type] && typeVisible[t.entity_type]) ? null : "none";
+    });
+  }
+
+  // ================= SELECTION / SIDE PANEL =================
+  let selected = null; // {kind:'entity'|'event', id}
+
+  function selectNone(){
+    selected = null;
+    nodeSel.classed("dim", false);
+    linkSel.classed("dim", false).classed("active", false);
+    d3.selectAll(".ev-mark").classed("dim", false).classed("selected", false);
+    document.getElementById("side-content").innerHTML = '<div class="empty">Click a person, place, organization, invention — or an event on the timeline below — to explore.</div>';
+  }
+
+  function selectEntity(id){
+    selected = {kind:"entity", id};
+    const connected = new Set([id]);
+    links.forEach(l => {
+      const sId = l.source.id||l.source, tId = l.target.id||l.target;
+      if(sId===id) connected.add(tId);
+      if(tId===id) connected.add(sId);
+    });
+    nodeSel.classed("dim", d => !connected.has(d.id));
+    linkSel.classed("dim", d => !(((d.source.id||d.source)===id) || ((d.target.id||d.target)===id)))
+           .classed("active", d => ((d.source.id||d.source)===id) || ((d.target.id||d.target)===id));
+
+    const relatedEventIds = new Set(entEvents.get(id)||[]);
+    d3.selectAll(".ev-mark")
+      .classed("dim", d => !relatedEventIds.has(d.id))
+      .classed("selected", false);
+
+    renderEntityPanel(entById.get(id), links.filter(l => (l.source.id||l.source)===id || (l.target.id||l.target)===id));
+  }
+
+  function selectEvent(id){
+    selected = {kind:"event", id};
+    const ev = eventsById.get(id);
+    const partIds = new Set(ev.participants.map(p=>p.entity_id).concat(ev.location?[ev.location]:[]));
+    nodeSel.classed("dim", d => !partIds.has(d.id));
+    linkSel.classed("dim", true).classed("active", false);
+    d3.selectAll(".ev-mark").classed("selected", d => d.id===id).classed("dim", d => d.id!==id);
+    renderEventPanel(ev);
+  }
+
+  function renderEntityPanel(e, connLinks){
+    const rows = connLinks.map(l => {
+      const otherId = (l.source.id||l.source)===e.id ? (l.target.id||l.target) : (l.source.id||l.source);
+      const other = entById.get(otherId);
+      const types = l.rels.map(r => {
+        const dirTxt = (r.source===e.id) ? `${r.type} →` : `← ${r.type}`;
+        return dirTxt;
+      }).join(", ");
+      const cites = l.rels.flatMap(r=>r.sources).map(s => citeText(s)).join("; ");
+      return `<div class="rel-row" data-goto="${other.id}"><div>${other.name}</div><div class="t">${types}</div>${cites?`<div class="cite">${cites}</div>`:""}</div>`;
+    }).join("");
+    const evIds = entEvents.get(e.id)||[];
+    const evRows = evIds.map(id=>eventsById.get(id)).sort((a,b)=>a.date.sort_start.localeCompare(b.date.sort_start))
+      .map(ev => `<div class="rel-row" data-goto-event="${ev.id}"><div>${ev.label}</div><div class="t">${ev.date.display}</div></div>`).join("");
+
+    document.getElementById("side-content").innerHTML = `
+      <h2>${e.name}</h2>
+      <div class="kind" style="color:${TYPE_COLOR_HEX[e.entity_type]}">${e.entity_type}${e.subtype? " · "+e.subtype:""}</div>
+      ${e.summary?`<p class="summary">${e.summary}</p>`:""}
+      ${evRows?`<div class="section-title">Timeline (${evIds.length})</div>${evRows}`:""}
+      ${rows?`<div class="section-title">Connections (${connLinks.length})</div>${rows}`:""}
+    `;
+    bindPanelClicks();
+  }
+
+  function citeText(s){
+    const src = srcById.get(s.source_id);
+    const title = src ? src.title : s.source_id;
+    return `${title}${s.page?", p. "+s.page:""}${s.quote? " — “"+s.quote+"”":""}`;
+  }
+
+  function renderEventPanel(ev){
+    const parts = ev.participants.map(p => {
+      const e = entById.get(p.entity_id);
+      return `<div class="rel-row" data-goto="${e.id}"><div>${e.name}</div><div class="t">${p.role}</div></div>`;
+    }).join("");
+    const loc = ev.location ? entById.get(ev.location) : null;
+    const cites = ev.sources.map(citeText).join("<br>");
+    document.getElementById("side-content").innerHTML = `
+      <h2>${ev.label}</h2>
+      <div class="date-badge">${ev.date.display}</div>
+      <div class="kind">${ev.event_type.replace(/_/g," ")}${loc? " · "+loc.name:""}</div>
+      ${ev.description?`<p class="summary">${ev.description}</p>`:""}
+      <div class="section-title">Participants (${ev.participants.length})</div>
+      ${parts}
+      <div class="section-title">Source${ev.sources.length>1?"s":""}</div>
+      <div class="cite">${cites}</div>
+    `;
+    bindPanelClicks();
+  }
+
+  function bindPanelClicks(){
+    document.querySelectorAll("[data-goto]").forEach(el => el.addEventListener("click", () => {
+      selectEntity(el.getAttribute("data-goto"));
+      centerOn(el.getAttribute("data-goto"));
+    }));
+    document.querySelectorAll("[data-goto-event]").forEach(el => el.addEventListener("click", () => {
+      const id = el.getAttribute("data-goto-event");
+      selectEvent(id);
+      flashTimelineEvent(id);
+    }));
+  }
+
+  function centerOn(id){
+    const n = nodeById.get(id);
+    if(!n) return;
+    const t = d3.zoomTransform(graphSvg.node());
+    const target = d3.zoomIdentity.translate(width/2 - n.x*t.k, height/2 - n.y*t.k).scale(t.k);
+    graphSvg.transition().duration(500).call(zoom.transform, target);
+  }
+
+  // ================= SEARCH =================
+  const searchBox = document.getElementById("search");
+  searchBox.addEventListener("input", () => {
+    const q = searchBox.value.trim().toLowerCase();
+    if(!q){ nodeSel.classed("dim", false); return; }
+    nodeSel.classed("dim", d => !d.name.toLowerCase().includes(q));
+  });
+  searchBox.addEventListener("keydown", (e) => {
+    if(e.key==="Enter"){
+      const q = searchBox.value.trim().toLowerCase();
+      const hit = nodes.find(n=>n.name.toLowerCase().includes(q));
+      if(hit){ selectEntity(hit.id); centerOn(hit.id); }
+    }
+  });
+
+  document.getElementById("reset-btn").addEventListener("click", () => {
+    selectNone();
+    searchBox.value = "";
+    graphSvg.transition().duration(400).call(zoom.transform, d3.zoomIdentity);
+    resetTimelineZoom();
+  });
+
+  // ================= TIMELINE =================
+  const tlSvg = d3.select("#timeline");
+  const tlMargin = {top:14, right:24, bottom:26, left:24};
+  let tlWidth=0, tlHeight=0;
+  const parsed = events.map(ev => Object.assign({}, ev,
+    {_start: new Date(ev.date.sort_start+"T00:00:00"), _end: new Date(ev.date.sort_end+"T00:00:00")}));
+  const timeExtent = d3.extent(parsed.flatMap(e=>[e._start,e._end]));
+  // pad extent
+  const pad = (timeExtent[1]-timeExtent[0])*0.04;
+  const fullDomain = [new Date(+timeExtent[0]-pad), new Date(+timeExtent[1]+pad)];
+  let xScale = d3.scaleTime().domain(fullDomain);
+  let currentTransform = d3.zoomIdentity;
+
+  const tlG = tlSvg.append("g");
+  const axisG = tlG.append("g").attr("id","axis");
+  const laneG = tlG.append("g");
+
+  const rowFor = d3.scaleOrdinal()
+    .domain(["birth","death","education","employment_start","employment_end","role_change",
+      "invention","patent_filed","patent_granted","publication","product_launch","public_demonstration",
+      "conference","visit","meeting","relocation","award","company_founded","company_sold","company_renamed",
+      "retirement","other"])
+    .range([0,1,0,1,1,1, 2,2,2,3,3,4, 4,1,1,1, 3,2,2,2, 1,4]);
+
+  const EV_COLOR = d3.scaleOrdinal()
+    .domain(["birth","death","education","employment_start","employment_end","role_change",
+      "invention","patent_filed","patent_granted","publication","product_launch","public_demonstration",
+      "conference","visit","meeting","relocation","award","company_founded","company_sold","company_renamed",
+      "retirement","other"])
+    .range(["#5ec8f8","#5ec8f8","#5fd39c","#f5a856","#f5a856","#f5a856",
+      "#c48cf0","#c48cf0","#c48cf0","#e7ebf3","#f5a856","#c48cf0",
+      "#5fd39c","#5fd39c","#5fd39c","#5fd39c","#ffd166","#f5a856","#f5a856","#f5a856",
+      "#f5a856","#8b93a7"]);
+
+  function tlMeasure(){
+    const r = document.getElementById("timeline-wrap").getBoundingClientRect();
+    tlWidth = r.width; tlHeight = r.height;
+    xScale.range([tlMargin.left, tlWidth-tlMargin.right]);
+  }
+  tlMeasure();
+
+  function drawTimeline(){
+    tlMeasure();
+    const zx = currentTransform.rescaleX(xScale);
+    const axis = d3.axisBottom(zx).ticks(Math.max(3, tlWidth/110));
+    axisG.attr("transform", `translate(0,${tlHeight-tlMargin.bottom})`).call(axis);
+
+    const rows = 5, rowH = (tlHeight-tlMargin.top-tlMargin.bottom-8)/rows;
+    const marks = laneG.selectAll("g.ev-mark").data(parsed, d=>d.id);
+    const marksEnter = marks.enter().append("g").attr("class","ev-mark")
+      .on("click", (event,d) => { event.stopPropagation(); selectEvent(d.id); })
+      .on("mouseover", (event,d) => showTooltip(event, `<b>${d.label}</b><br><span style="color:var(--muted)">${d.date.display} · ${d.event_type.replace(/_/g," ")}</span>`))
+      .on("mousemove", moveTooltip)
+      .on("mouseout", hideTooltip);
+    marksEnter.append("rect");
+    marksEnter.append("circle");
+
+    const merged = marksEnter.merge(marks);
+    merged.each(function(d){
+      const g = d3.select(this);
+      const x1 = zx(d._start), x2 = zx(d._end);
+      const y = tlMargin.top + rowFor(d.event_type)*rowH + rowH/2;
+      const isRange = (x2-x1) > 5;
+      g.select("rect")
+        .attr("x", isRange? x1 : x1-4).attr("y", isRange? y-4 : y-4)
+        .attr("width", isRange? Math.max(4,x2-x1) : 8).attr("height", 8)
+        .attr("rx", 3)
+        .attr("fill", EV_COLOR(d.event_type))
+        .style("display", isRange? null : "none");
+      g.select("circle")
+        .attr("cx", x1).attr("cy", y).attr("r", 4.5)
+        .attr("fill", EV_COLOR(d.event_type))
+        .style("display", isRange? "none" : null);
+    });
+    marks.exit().remove();
+  }
+
+  const tlZoom = d3.zoom().scaleExtent([1,60])
+    .translateExtent([[tlMargin.left,0],[tlWidth-tlMargin.right,0]])
+    .extent([[tlMargin.left,0],[tlWidth-tlMargin.right,0]])
+    .on("zoom", (event) => { currentTransform = event.transform; drawTimeline(); });
+  tlSvg.call(tlZoom);
+  tlSvg.on("click", () => selectNone());
+
+  function resetTimelineZoom(){ tlSvg.transition().duration(400).call(tlZoom.transform, d3.zoomIdentity); }
+  function flashTimelineEvent(id){
+    const d = parsed.find(e=>e.id===id);
+    if(!d) return;
+    const zx = currentTransform.rescaleX(xScale);
+    const cx = zx(d._start);
+    if(cx < tlMargin.left || cx > tlWidth-tlMargin.right){ resetTimelineZoom(); }
+  }
+
+  drawTimeline();
+  window.addEventListener("resize", drawTimeline);
+})();
+</script>
+</body>
+</html>
