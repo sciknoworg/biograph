@@ -5,6 +5,8 @@ explorable knowledge graph + chronological timeline: a graph of people,
 places, organizations, and inventions, connected by simple typed relations
 and grounded in dated, cited events.
 
+Full documentation (usage guide, data model reference, frontend architecture, provenance discipline) lives under `docs/` and builds with [MkDocs](https://www.mkdocs.org/) + Material — see `mkdocs.yml`. Import this repo at readthedocs.org to host it there (a `.readthedocs.yaml` is already set up), or run `pip install -r docs/requirements.txt && mkdocs serve` to preview it locally.
+
 ## Layout
 
 ```

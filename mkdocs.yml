@@ -1,0 +1,69 @@
+site_name: Biograph
+site_description: A small toolchain for turning a biographical source paper into an explorable knowledge graph and chronological timeline.
+repo_url: https://github.com/sciknoworg/biograph
+repo_name: sciknoworg/biograph
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - content.code.copy
+    - content.action.edit
+    - toc.follow
+    - search.suggest
+    - search.highlight
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Introduction:
+      - Overview: index.md
+      - Tech stack: tech-stack.md
+  - Getting Started:
+      - Installation & quick start: getting-started.md
+  - Usage Guide:
+      - Building & validating a subject: usage.md
+      - Adding a new subject: adding-a-subject.md
+  - Architecture:
+      - Data model reference: data-model.md
+      - Frontend guide: frontend-guide.md
+  - Data Accuracy & Provenance: data-accuracy.md
+  - Extending & Contributing: extending.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/sciknoworg/biograph
