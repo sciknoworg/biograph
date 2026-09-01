@@ -168,63 +168,113 @@
     "id": "tampere",
     "entity_type": "place",
     "name": "Tampere, Finland",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 61.498056,
+      "lng": 23.76,
+      "wikidata_qid": "Q40840"
+    }
   },
   {
     "id": "turku",
     "entity_type": "place",
     "name": "Turku, Finland",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 60.451667,
+      "lng": 22.266944,
+      "wikidata_qid": "Q38511"
+    }
   },
   {
     "id": "espoo",
     "entity_type": "place",
     "name": "Espoo, Finland",
     "subtype": "city",
-    "summary": "Location of Otaniemi (HUT), Tapiola (Instrumentarium), and Olarinluoma (Lohja's EL production facility)."
+    "summary": "Location of Otaniemi (HUT), Tapiola (Instrumentarium), and Olarinluoma (Lohja's EL production facility).",
+    "attributes": {
+      "lat": 60.205556,
+      "lng": 24.655556,
+      "wikidata_qid": "Q47034"
+    }
   },
   {
     "id": "leningrad",
     "entity_type": "place",
     "name": "Leningrad (present-day St. Petersburg)",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 59.95,
+      "lng": 30.316667,
+      "wikidata_qid": "Q656"
+    }
   },
   {
     "id": "san_diego",
     "entity_type": "place",
     "name": "San Diego, California, USA",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 32.715,
+      "lng": -117.1625,
+      "wikidata_qid": "Q16552"
+    }
   },
   {
     "id": "boston",
     "entity_type": "place",
     "name": "Boston, Massachusetts, USA",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 42.360278,
+      "lng": -71.057778,
+      "wikidata_qid": "Q100"
+    }
   },
   {
     "id": "munich",
     "entity_type": "place",
     "name": "Munich, Germany",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 48.1375,
+      "lng": 11.575,
+      "wikidata_qid": "Q1726"
+    }
   },
   {
     "id": "kobe",
     "entity_type": "place",
     "name": "Kobe, Japan",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 34.690167,
+      "lng": 135.195444,
+      "wikidata_qid": "Q48320"
+    }
   },
   {
     "id": "lohja_city",
     "entity_type": "place",
     "name": "Lohja, Finland",
     "subtype": "city",
-    "summary": "Site of Lohja Oy's Kunnarla TF-EL pilot production plant."
+    "summary": "Site of Lohja Oy's Kunnarla TF-EL pilot production plant.",
+    "attributes": {
+      "lat": 60.25,
+      "lng": 24.066667,
+      "wikidata_qid": "Q214777"
+    }
   },
   {
     "id": "finland",
     "entity_type": "place",
     "name": "Finland",
-    "subtype": "country"
+    "subtype": "country",
+    "attributes": {
+      "lat": 65,
+      "lng": 27,
+      "wikidata_qid": "Q33"
+    }
   },
   {
     "id": "vtt_semiconductor_lab",

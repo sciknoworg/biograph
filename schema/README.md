@@ -85,6 +85,15 @@ entities (not just event descriptions) lets the graph show, e.g., one
 invention connected to every person who worked on it and every event in
 its history.
 
+**Coordinates for the map view**: a `place` entity that should appear on
+the frontend's map view carries `attributes.lat` / `attributes.lng`
+(decimal degrees) and, for provenance, `attributes.wikidata_qid`. Get
+these from Wikidata's P625 (coordinate location) the same way as a
+portrait (see "Portraits" below) — verify the candidate is the right
+place (country/description match) before trusting its coordinates. A
+`place` entity without `lat`/`lng` simply doesn't appear on the map; it
+still works everywhere else (graph, timeline).
+
 ## Relations
 
 A relation is `{ source, type, target }` plus optional time bounds

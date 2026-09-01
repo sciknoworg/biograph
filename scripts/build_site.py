@@ -19,6 +19,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SCHEMA_DIR = os.path.join(ROOT, "schema")
 SUBJECTS_DIR = os.path.join(ROOT, "subjects")
 TEMPLATE = os.path.join(ROOT, "frontend", "template.html")
+WORLD_TOPOJSON = os.path.join(ROOT, "frontend", "world-110m.json")
 DIST_DIR = os.path.join(ROOT, "dist")
 
 
@@ -112,11 +113,17 @@ def build(slug):
     # the JSON text can never prematurely close the surrounding <script> tag.
     data_json_safe = data_json.replace("</", "<\\/")
 
+    # Shared (not per-subject) world topojson that powers the map view. Embedded
+    # rather than fetched at runtime so the built page stays a single offline file.
+    with open(WORLD_TOPOJSON, encoding="utf-8") as f:
+        world_json_safe = f.read().replace("</", "<\\/")
+
     tpl = open(TEMPLATE, encoding="utf-8").read()
     out = (tpl
            .replace("__SUBJECT_NAME__", html.escape(subject["name"]))
            .replace("__SUBJECT_SUMMARY__", html.escape(subject.get("summary", "")))
-           .replace("__GRAPH_DATA_JSON__", data_json_safe))
+           .replace("__GRAPH_DATA_JSON__", data_json_safe)
+           .replace("__WORLD_TOPOJSON_JSON__", world_json_safe))
 
     os.makedirs(DIST_DIR, exist_ok=True)
     out_path = os.path.join(DIST_DIR, f"{slug}.html")
