@@ -63,10 +63,10 @@
   .place-marker circle.fill{fill:var(--c-place);stroke:var(--surface);stroke-width:2px;transition:filter .12s;}
   .place-marker:hover circle.fill{filter:brightness(1.1);}
   .place-marker text{fill:var(--ink);font-size:11px;font-weight:700;pointer-events:none;user-select:none;
-    paint-order:stroke;stroke:var(--page);stroke-width:3px;stroke-linejoin:round;opacity:0;transition:opacity .15s;}
-  .place-marker.hub text{opacity:1;}
-  .place-marker:hover text{opacity:1;}
+    paint-order:stroke;stroke:var(--page);stroke-width:3px;stroke-linejoin:round;}
   .place-marker.dim{opacity:.2;}
+  .leader-line{stroke:var(--muted);stroke-width:1px;opacity:.55;pointer-events:none;transition:opacity .12s;}
+  .leader-line.dim{opacity:.1;}
   .journey-path{fill:none;stroke:var(--c-place);stroke-width:1.6px;stroke-dasharray:1 6;stroke-linecap:round;opacity:.6;}
   #map-hint{position:absolute;top:10px;right:16px;font-size:10.5px;color:var(--muted);pointer-events:none;}
 
@@ -369,6 +369,7 @@
     linkSel.classed("dim", false).classed("active", false);
     d3.selectAll(".ev-mark").classed("dim", false).classed("selected", false);
     d3.selectAll(".place-marker").classed("dim", false);
+    d3.selectAll(".leader-line").classed("dim", false);
     document.querySelectorAll(".mile-card").forEach(el => el.classList.remove("dim"));
     document.getElementById("side-content").innerHTML = '<div class="empty">Click a person, place, organization, invention — or an event on the timeline below — to explore.</div>';
   }
@@ -391,6 +392,7 @@
       .classed("dim", d => !relatedEventIds.has(d.id))
       .classed("selected", false);
     d3.selectAll(".place-marker").classed("dim", d => !connected.has(d.id));
+    d3.selectAll(".leader-line").classed("dim", d => !connected.has(d.id));
     document.querySelectorAll(".mile-card").forEach(el => {
       el.classList.toggle("dim", !relatedEventIds.has(el.getAttribute("data-mile")));
     });
@@ -406,6 +408,7 @@
     linkSel.classed("dim", true).classed("active", false);
     d3.selectAll(".ev-mark").classed("selected", d => d.id===id).classed("dim", d => d.id!==id);
     d3.selectAll(".place-marker").classed("dim", d => !(ev.location && d.id===ev.location));
+    d3.selectAll(".leader-line").classed("dim", d => !(ev.location && d.id===ev.location));
     document.querySelectorAll(".mile-card").forEach(el => {
       el.classList.toggle("dim", el.getAttribute("data-mile")!==id);
     });
@@ -653,6 +656,7 @@
   const countryG = mapSvg.append("g").attr("class","countries-g");
   const countryLayer = countryG.append("g").attr("class","countries");
   const journeyLayer = mapSvg.append("g").attr("class","journeys");
+  const leaderLayer = mapSvg.append("g").attr("class","leaders");
   const markerLayer = mapSvg.append("g").attr("class","markers");
   const worldCountries = (WORLD_COUNTRIES && WORLD_COUNTRIES.features) ? WORLD_COUNTRIES : null;
   let mapTransform = d3.zoomIdentity;
@@ -712,11 +716,67 @@
       .on("mousemove", moveTooltip)
       .on("mouseout", hideTooltip);
     markSel.select("circle.fill").attr("r", d=>d.r);
-    markSel.select("text").attr("x", d=>d.r+5).attr("y", 3).text(d=>d.name);
+    markSel.select("text").text(d=>d.name);
 
     mapTransform = d3.zoomIdentity;
     mapSvg.call(mapZoom.transform, d3.zoomIdentity);
     positionMapOverlays();
+  }
+
+  // Every place gets a permanently-visible label — none are hover-only. When
+  // markers sit close together (the Finnish cluster), each label is nudged to
+  // one of 8 compass positions around its marker, trying progressively larger
+  // rings until it finds a spot that doesn't collide with an already-placed
+  // label or another marker; a thin leader line is drawn whenever a label had
+  // to move away from its default (east-of-marker) slot, so it's still
+  // obvious which pin it belongs to.
+  const LABEL_H = 14, LABEL_CHAR_W = 6.3, LABEL_PAD = 6;
+  const LABEL_DIRS = [
+    {dx:1,  dy:0,   anchor:"start"},  // E  (default)
+    {dx:0.7,dy:-0.7,anchor:"start"},  // NE
+    {dx:-0.7,dy:-0.7,anchor:"end"},   // NW
+    {dx:0.7,dy:0.7, anchor:"start"},  // SE
+    {dx:-0.7,dy:0.7,anchor:"end"},    // SW
+    {dx:0,  dy:-1,  anchor:"middle"}, // N
+    {dx:0,  dy:1,   anchor:"middle"}, // S
+    {dx:-1, dy:0,   anchor:"end"},    // W
+  ];
+  function labelBox(cx, cy, w, anchor){
+    const x0 = anchor==="start" ? cx : anchor==="end" ? cx-w : cx-w/2;
+    return [x0-2, cy-LABEL_H*0.75, x0+w+2, cy+LABEL_H*0.4];
+  }
+  function boxesOverlap(a,b){
+    return !(a[2]<b[0] || b[2]<a[0] || a[3]<b[1] || b[3]<a[1]);
+  }
+  function layoutLabels(points){
+    const placedBoxes = [];
+    const markerBoxes = points.map(p => [p.sx-p.r, p.sy-p.r, p.sx+p.r, p.sy+p.r]);
+    // biggest / most-connected markers claim their preferred spot first
+    const order = points.slice().sort((a,b)=> b.r-a.r);
+    const out = new Map();
+    order.forEach(p => {
+      const w = p.name.length*LABEL_CHAR_W + LABEL_PAD;
+      let chosen = null;
+      for(let ring=0; ring<3 && !chosen; ring++){
+        const radius = p.r + 7 + ring*15;
+        for(const d of LABEL_DIRS){
+          const cx = p.sx + d.dx*radius, cy = p.sy + d.dy*radius + 3;
+          const box = labelBox(cx, cy, w, d.anchor);
+          const hitsLabel = placedBoxes.some(o => boxesOverlap(box, o));
+          const hitsMarker = markerBoxes.some((mb,i) => points[i]!==p && boxesOverlap(box, mb));
+          if(!hitsLabel && !hitsMarker){ chosen = {cx, cy, anchor:d.anchor, box, offset: ring>0 || d!==LABEL_DIRS[0]}; break; }
+        }
+      }
+      if(!chosen){
+        // nothing fully clear — fall back to the default east slot rather than hide it
+        const radius = p.r + 7;
+        const cx = p.sx+radius, cy = p.sy+3;
+        chosen = {cx, cy, anchor:"start", box: labelBox(cx,cy,w,"start"), offset:false};
+      }
+      placedBoxes.push(chosen.box);
+      out.set(p.id, chosen);
+    });
+    return out;
   }
 
   function positionMapOverlays(){
@@ -726,13 +786,7 @@
       p.sx = sx; p.sy = sy;
     });
 
-    // Same declutter principle as the network graph: only label a marker by
-    // default when nothing else sits close enough on screen to collide with it —
-    // recomputed on every zoom tick, so labels progressively reveal as a
-    // crowded cluster (e.g. the Finnish cities) is zoomed apart.
-    placeMarks.forEach(p => {
-      p.hub = !placeMarks.some(o => o!==p && Math.hypot(o.sx-p.sx, o.sy-p.sy) < 56);
-    });
+    const labels = layoutLabels(placeMarks);
 
     // faint chronological "journey" line through the places that have dated
     // events, in the order Suntola's story visits them
@@ -742,8 +796,23 @@
       .join("path").attr("class","journey-path").attr("d", line);
 
     markerLayer.selectAll("g.place-marker")
-      .classed("hub", d=>d.hub)
-      .attr("transform", d => `translate(${d.sx},${d.sy})`);
+      .attr("transform", d => `translate(${d.sx},${d.sy})`)
+      .each(function(d){
+        const L = labels.get(d.id);
+        const g = d3.select(this);
+        g.select("text")
+          .attr("text-anchor", L.anchor)
+          .attr("x", L.cx - d.sx).attr("y", L.cy - d.sy);
+      });
+
+    const leaderData = placeMarks.filter(d => labels.get(d.id).offset).map(d => {
+      const L = labels.get(d.id);
+      const ang = Math.atan2(L.cy-3-d.sy, L.cx-d.sx); // aim at the label's marker-side edge, not its text baseline
+      return {id:d.id, x1:d.sx+Math.cos(ang)*d.r, y1:d.sy+Math.sin(ang)*d.r, x2:L.cx-(L.anchor==="start"?4:L.anchor==="end"?-4:0), y2:L.cy-4};
+    });
+    leaderLayer.selectAll("line.leader-line").data(leaderData, d=>d.id)
+      .join("line").attr("class","leader-line")
+      .attr("x1",d=>d.x1).attr("y1",d=>d.y1).attr("x2",d=>d.x2).attr("y2",d=>d.y2);
   }
 
   // ================= MILESTONES =================
