@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>__SUBJECT_NAME__ — Biograph</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson-client/3.1.0/topojson-client.min.js"></script>
 <style>
   :root{
     /* validated light palette (dataviz skill reference palette) */
@@ -59,7 +58,7 @@
 
   #map-wrap{flex:1;position:relative;min-width:0;background:var(--page);display:none;}
   svg#map{width:100%;height:100%;display:block;}
-  .country{fill:var(--surface-2);stroke:var(--gridline);stroke-width:.7px;}
+  .country{fill:#e9e6da;stroke:#cfcbba;stroke-width:.8px;}
   .place-marker{cursor:pointer;}
   .place-marker circle.fill{fill:var(--c-place);stroke:var(--surface);stroke-width:2px;transition:filter .12s;}
   .place-marker:hover circle.fill{filter:brightness(1.1);}
@@ -192,7 +191,10 @@
   "use strict";
   const DATA = JSON.parse(document.getElementById("graph-data").textContent);
   const entities = DATA.entities, events = DATA.events, relations = DATA.relations, sources = DATA.sources;
-  const WORLD = JSON.parse(document.getElementById("world-data").textContent);
+  // Plain GeoJSON (converted from world-atlas topojson at build time) — no
+  // runtime topojson-client dependency, so the map has no external script
+  // beyond D3 itself.
+  const WORLD_COUNTRIES = JSON.parse(document.getElementById("world-data").textContent);
 
   const entById = new Map(entities.map(e => [e.id, e]));
   const srcById = new Map(sources.map(s => [s.id, s]));
@@ -646,8 +648,7 @@
   const countryLayer = mapG.append("g").attr("class","countries");
   const journeyLayer = mapG.append("g").attr("class","journeys");
   const markerLayer = mapG.append("g").attr("class","markers");
-  const worldCountries = (typeof topojson !== "undefined" && WORLD.objects && WORLD.objects.countries)
-    ? topojson.feature(WORLD, WORLD.objects.countries) : null;
+  const worldCountries = (WORLD_COUNTRIES && WORLD_COUNTRIES.features) ? WORLD_COUNTRIES : null;
   const mapZoom = d3.zoom().scaleExtent([1, 8]).on("zoom", (event) => mapG.attr("transform", event.transform));
   mapSvg.call(mapZoom);
   mapSvg.on("click", () => selectNone());

@@ -19,7 +19,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SCHEMA_DIR = os.path.join(ROOT, "schema")
 SUBJECTS_DIR = os.path.join(ROOT, "subjects")
 TEMPLATE = os.path.join(ROOT, "frontend", "template.html")
-WORLD_TOPOJSON = os.path.join(ROOT, "frontend", "world-110m.json")
+WORLD_GEOJSON = os.path.join(ROOT, "frontend", "world-countries.geo.json")
 DIST_DIR = os.path.join(ROOT, "dist")
 
 
@@ -113,9 +113,11 @@ def build(slug):
     # the JSON text can never prematurely close the surrounding <script> tag.
     data_json_safe = data_json.replace("</", "<\\/")
 
-    # Shared (not per-subject) world topojson that powers the map view. Embedded
-    # rather than fetched at runtime so the built page stays a single offline file.
-    with open(WORLD_TOPOJSON, encoding="utf-8") as f:
+    # Shared (not per-subject) world country outlines that power the map view, as
+    # plain GeoJSON — pre-converted once from a topojson world-atlas so the page
+    # has no runtime dependency beyond D3 itself. Embedded rather than fetched at
+    # runtime so the built page stays a single offline file.
+    with open(WORLD_GEOJSON, encoding="utf-8") as f:
         world_json_safe = f.read().replace("</", "<\\/")
 
     tpl = open(TEMPLATE, encoding="utf-8").read()
