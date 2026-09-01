@@ -52,7 +52,8 @@ useful for extracting or correcting a subject by hand instead).
 
 ```
 schema/         JSON Schema data model (entities, events, relations, sources)
-subjects/<slug>/ One subject's hand-authored data (extraction output)
+subjects/<slug>/ One subject's data (extraction output — by hand or by
+                extract_subject.py, reviewed either way)
 extraction/     Guide for authoring a new subject's data + its own
                 requirements.txt (openai, pypdf — not needed just to view)
 frontend/       template.html — D3 explorer; reads subject JSON only

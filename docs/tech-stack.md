@@ -30,6 +30,22 @@ There is no framework here either — the build script is a few hundred
 lines of plain Python, run from the command line. See
 [Usage Guide](usage.md) for the exact commands.
 
+## Extraction (optional)
+
+Only needed to draft a *new* subject from a PDF — not to view or build
+one that already exists, which is why these live in their own
+`extraction/requirements.txt` rather than the root one.
+
+| Piece | What it does |
+|---|---|
+| [`pypdf`](https://pypi.org/project/pypdf/) (Python) | Extracts page-numbered text from the source PDF (`[pdf page N]` markers, so the model can cite real pages). |
+| [`openai`](https://pypi.org/project/openai/) (Python SDK) | Talks to whatever OpenAI-compatible chat-completions endpoint you point it at — OpenAI, OpenRouter, KISSKI, or any other gateway speaking the same API. Base URL, model, and key are all chosen at runtime, never hardcoded. |
+| `scripts/extract_subject.py` | Reads the PDF, embeds `schema/*.schema.json` directly in the prompt (so it can't drift from the data model), asks the model to draft the four subject JSON files, auto-continues a reply that gets cut off at the token limit, validates the result, and builds `dist/<slug>.html` — same validate/build code as `build_site.py`, imported rather than duplicated. |
+
+No LLM call is required to use Biograph at all — it's the fast path for
+producing a first draft, not a dependency of the viewer or the build. See
+[Adding a new subject](adding-a-subject.md) for the full walkthrough.
+
 ## Development-time tools
 
 These were used to build and verify the Suntola example and the frontend

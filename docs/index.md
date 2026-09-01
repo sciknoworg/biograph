@@ -44,13 +44,14 @@ See [Getting Started](getting-started.md) for the full walkthrough.
 
 ## What's in this documentation
 
-- **[Tech stack](tech-stack.md)** — what Biograph is built from, front end
-  and build side.
+- **[Tech stack](tech-stack.md)** — what Biograph is built from: frontend,
+  build side, and the optional LLM-based extraction path.
 - **[Getting Started](getting-started.md)** — install the one dependency,
   build the example subject, open it.
-- **[Usage Guide](usage.md)** — the build/validate CLI, and the full
-  step-by-step process for [adding a new subject](adding-a-subject.md)
-  from a source paper.
+- **[Usage Guide](usage.md)** — the build/validate CLI, the
+  `extract_subject.py` flag reference, and the full step-by-step process
+  for [adding a new subject](adding-a-subject.md) from a source paper —
+  by hand, or drafted by an LLM in one command.
 - **[Architecture](data-model.md)** — the [data model](data-model.md) (the
   four JSON files, the controlled vocabularies, the fuzzy-date chronology
   mechanism) and the [frontend](frontend-guide.md) (the three views, how

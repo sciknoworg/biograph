@@ -14,9 +14,11 @@ version of this checklist lives in `extraction/EXTRACTION_GUIDE.md`.
     OpenAI-compatible base URL — e.g. KISSKI), then a model name, then an
     API key — or skip the prompts with `--base-url`/`--model`/`--api-key`
     or the matching `BIOGRAPH_*` env vars. No model is hardcoded; type
-    whatever your provider currently offers. Runs through this exact
-    process and writes the result. Still a first-pass draft — step 7 below
-    still applies to it.
+    whatever your provider currently offers. If a reply is cut off before
+    it finishes, it automatically continues the request rather than
+    failing. Runs through this exact process and writes the result. Still
+    a first-pass draft — step 7 below still applies to it. Full flag
+    reference: [Usage Guide § Drafting a new subject](usage.md#drafting-a-new-subject-with-extract_subjectpy).
 
 !!! tip "Read the data model first"
     Before extracting anything, read

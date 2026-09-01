@@ -5,6 +5,14 @@ cross-verifies every claim. Accuracy instead comes from several layers of
 discipline stacked together — this page documents each one, and is honest
 about where the layers stop.
 
+That's true whether a subject's first draft was written by hand or by
+[`scripts/extract_subject.py`](usage.md#drafting-a-new-subject-with-extract_subjectpy)
+(an LLM reading the PDF). The script is a faster way to *produce* a
+draft, not a different accuracy standard — the same layers below apply to
+its output, starting with the fact that it can't skip schema validation
+(layer 2) and ends the same way any extraction should: a human checking
+the draft against the source (layer 5) before it's trusted.
+
 ## 1. Source-grounded extraction
 
 Every event and relation is **required** to cite a source (`sources.json`
