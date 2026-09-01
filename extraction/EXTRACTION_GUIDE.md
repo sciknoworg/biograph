@@ -4,6 +4,11 @@ This is the repeatable process for turning a new biographical source (e.g.
 the Malygin paper on Aleskovskii) into a subject folder under `subjects/`.
 Follow it in order — each step depends on the one before.
 
+> **Faster path:** `python3 scripts/extract_subject.py <pdf> <slug>` runs
+> an LLM through exactly this process and writes the result for you (see
+> the repo README). This document is what it follows internally, and what
+> to check its draft against — step 8 below still applies to its output.
+
 ## 0. Read `schema/README.md` first
 
 It defines what counts as an event, the chronology mechanism (fuzzy dates

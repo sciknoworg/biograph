@@ -28,24 +28,33 @@ Open `dist/<subject>.html` — self-contained, no server needed.
 
 ## Add a subject
 
-There is no automated pipeline here — no PDF parser, no LLM call baked
-into the code. A subject's data is hand-authored: someone (or an AI
-assistant, working manually) reads the source paper and writes four JSON
-files — `entities.json`, `events.json`, `relations.json`, `sources.json`
-— under `subjects/<slug>/`, following
-[`extraction/EXTRACTION_GUIDE.md`](extraction/EXTRACTION_GUIDE.md) and
-validated against [`schema/`](schema/) at build time. That guide is what
-keeps different extractions consistent with each other, in place of a
-script.
+```bash
+pip install -r extraction/requirements.txt
+python3 scripts/extract_subject.py data/<paper>.pdf <slug>
+```
+
+Reads the PDF, asks an OpenAI-compatible LLM (OpenAI, OpenRouter, KISSKI,
+etc. — set `--base-url`/`--model`/`--api-key` or the matching
+`BIOGRAPH_*` env vars; prompts for the key if none is set) to draft the
+four subject JSON files against this repo's own `schema/`, validates the
+result, and builds `dist/<slug>.html` — one command, PDF in, graph out.
+
+Treat the output as a first-pass draft, not ground truth: review it
+against the PDF, by hand, before trusting it — same as any extraction.
+[`extraction/EXTRACTION_GUIDE.md`](extraction/EXTRACTION_GUIDE.md) is the
+checklist the script follows and what to check the draft against (also
+useful for extracting or correcting a subject by hand instead).
 
 ## Structure
 
 ```
 schema/         JSON Schema data model (entities, events, relations, sources)
 subjects/<slug>/ One subject's hand-authored data (extraction output)
-extraction/     Guide for authoring a new subject's data
+extraction/     Guide for authoring a new subject's data + its own
+                requirements.txt (openai, pypdf — not needed just to view)
 frontend/       template.html — D3 explorer; reads subject JSON only
-scripts/        build_site.py — validates and builds dist/<slug>.html
+scripts/        build_site.py — validates and builds dist/<slug>.html.
+                extract_subject.py — LLM-drafts a new subject from a PDF.
 dist/           Generated, self-contained HTML output
 data/           Source PDFs
 docs/           Full documentation source (MkDocs + Material)

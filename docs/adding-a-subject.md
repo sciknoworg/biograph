@@ -5,6 +5,17 @@ paper, an oral history, an archive) into a new `subjects/<slug>/` folder.
 Follow it in order — each step depends on the one before. The live
 version of this checklist lives in `extraction/EXTRACTION_GUIDE.md`.
 
+!!! tip "Faster path: let an LLM draft it"
+    ```bash
+    pip install -r extraction/requirements.txt
+    python3 scripts/extract_subject.py data/<paper>.pdf <slug>
+    ```
+    Runs an OpenAI-compatible model (OpenAI, OpenRouter, KISSKI, or
+    anything else on the same API — set `--base-url`/`--model`/
+    `--api-key`, or the matching `BIOGRAPH_*` env vars) through this exact
+    process and writes the result. Still a first-pass draft — step 7 below
+    still applies to it.
+
 !!! tip "Read the data model first"
     Before extracting anything, read
     [Data model reference](data-model.md) — in particular what counts as
