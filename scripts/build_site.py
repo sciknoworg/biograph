@@ -69,6 +69,12 @@ Rules, non-negotiable:
   explaining why. Save extra context for description -- at most one tight sentence, and only
   if the label doesn't already say it.
 - ids: snake_case, derived from the name/label, unique within their file.
+- Entity resolution: one entities[] object per real-world person/place/organization/artifact,
+  no matter how many name forms the source uses for them (full name, surname alone, initials,
+  a title, a nickname, an abbreviated org name, an alternate transliteration). Never create a
+  second entity for a name variant of someone/something already listed -- record every other
+  form you saw for them in that entity's aliases array instead, and use its one id everywhere
+  it's referenced in participants/relations.
 - entities[].summary is static facts only -- a sentence with a "when" is an event, not a summary.
 - Capture connective-tissue events too (an organization founded/sold, a collaborator's
   milestone), not just the subject's own life events. Don't split one episode into many

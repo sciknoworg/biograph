@@ -197,7 +197,11 @@ for a worked example of diagnosing one.
 Click through a handful of entities and events. Things to look for: nodes
 with no connections at all (probably a relation is missing), events
 clustered at implausible dates (probably a `sort_start`/`sort_end` typo),
-and any name that renders as `undefined` (a broken id reference).
+any name that renders as `undefined` (a broken id reference), and two
+nodes that are actually the same real person under different name forms
+(a missed entity-resolution case -- check `entities[].aliases` got used
+instead of a duplicate `entities[]` object; nothing downstream catches
+this automatically, only referential integrity is validated).
 
 ## 8. Once both subjects exist: cross-subject bridges
 

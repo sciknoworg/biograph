@@ -128,8 +128,12 @@ validation failure by deleting the offending field.
 Click through a handful of entities and events. Things to look for: nodes
 with no connections at all (probably a relation is missing), events
 clustered at implausible dates (probably a `sort_start`/`sort_end` typo),
-and any name that renders as `undefined` (a broken id reference that
-somehow passed validation, e.g. a stale copy of the schema).
+any name that renders as `undefined` (a broken id reference that
+somehow passed validation, e.g. a stale copy of the schema), and two
+nodes that are actually the same real person under different name forms
+(a missed entity-resolution case -- check `entities[].aliases` got used
+instead of a duplicate `entities[]` object; nothing downstream catches
+this automatically, only referential integrity is validated).
 
 ## 9. Once both subjects exist: cross-subject bridges
 
