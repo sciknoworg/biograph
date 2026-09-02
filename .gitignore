@@ -6,3 +6,10 @@ site/
 # Source PDFs are not redistributed -- see data/README.md. Citations
 # (including DOIs) live in subjects/<slug>/sources.json instead.
 data/*.pdf
+
+# Source-discovery tool: kept private/local for now (unproven, and
+# specifically about finding copyright-adjacent material) -- see
+# the "Visibility" decision in the sourcing-plan discussion.
+scripts/find_sources.py
+candidates.json
+.find_sources_cache.json
