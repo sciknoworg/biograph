@@ -8,6 +8,11 @@ Follow it in order — each step depends on the one before.
 > an LLM through exactly this process and writes the result for you (see
 > the repo README). This document is what it follows internally, and what
 > to check its draft against — step 8 below still applies to its output.
+> The same call also judges whether the PDF fits this project's scope at
+> all (a biographical/historical essay, not just any paper that mentions
+> the person); if it doesn't, nothing is written and the PDF is deleted
+> automatically (`--keep-rejected` to keep it) — see `SCOPE_DEFINITION` in
+> `scripts/build_site.py`.
 
 ## 0. Read `schema/README.md` first
 

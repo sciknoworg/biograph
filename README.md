@@ -30,7 +30,11 @@ since lineups change; type whatever your provider currently offers.
 
 Reads the PDF and drafts a dated, cited biography against this repo's own
 `schema/` (so it can't drift from the data model) — every event and
-relation is required to cite the page it came from. Writes
+relation is required to cite the page it came from. The same call also
+judges whether the PDF fits this project's scope in the first place (a
+biographical/historical essay, not just any paper that mentions the
+person); if it doesn't, nothing is written and the PDF is deleted
+automatically (`--keep-rejected` to keep it instead). Otherwise writes
 `subjects/<slug>/`:
 
 | File | Contents |

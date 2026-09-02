@@ -24,6 +24,7 @@ reference. `<slug>` becomes the directory name under `subjects/`.
 | `--api-key` | *(prompted, hidden input)* | `BIOGRAPH_API_KEY` also skips the prompt. |
 | `--max-chars` | `180000` | Truncates the extracted PDF text beyond this many characters, for very long sources. |
 | `--max-tokens` | `32000` | Reply budget per request. If the model hits this mid-subject, the script automatically asks it to continue and stitches the pieces together (up to 8 rounds) rather than failing — see below. |
+| `--keep-rejected` | off | When the model judges the source out of scope (see step 3 below), the PDF passed via `--pdf` is deleted automatically. Pass this to leave it in place instead. |
 
 ### What it does, in order
 
@@ -33,11 +34,20 @@ reference. `<slug>` becomes the directory name under `subjects/`.
    the model sees the exact field names, enums, and provenance/terseness
    requirements, not a paraphrase, so the prompt can't drift out of sync
    with the data model.
-3. **Asks the model** for a single JSON object with five keys (`subject`,
-   `entities`, `events`, `relations`, `sources`). If a reply is cut off
-   at the `--max-tokens` limit before finishing, it automatically sends
-   the partial reply back and asks the model to continue exactly where
-   it left off, repeating until the reply finishes or it's asked to
+3. **Asks the model** for a single JSON object with six keys: `scope`
+   (`{"fits": <bool>, "reason": "<one sentence>"}`, judging whether the
+   document is even a biographical/historical retrospective essay in
+   this project's sense — see `SCOPE_DEFINITION` in
+   `scripts/build_site.py`) plus the usual `subject`, `entities`,
+   `events`, `relations`, `sources`. If `scope.fits` comes back `false`,
+   nothing is written under `subjects/`: the PDF passed via `--pdf` is
+   deleted (unless `--keep-rejected`) and the script exits, printing the
+   model's reason. A missing or malformed `scope` (an older prompt, a
+   model that ignored the instruction) is treated as unknown, not as a
+   rejection — extraction proceeds rather than guessing. If a reply is
+   cut off at the `--max-tokens` limit before finishing, it automatically
+   sends the partial reply back and asks the model to continue exactly
+   where it left off, repeating until the reply finishes or it's asked to
    continue 8 times in a row (at which point it stops and tells you to
    try a smaller `--max-chars` or a larger `--max-tokens`).
 4. **Writes** `subjects/<slug>/`, forcing the source's `file` field to

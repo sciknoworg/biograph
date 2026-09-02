@@ -16,6 +16,17 @@ Prompts for provider, model, and API key (or set
 skip the prompts). A reply that hits the token limit is automatically
 continued rather than left truncated.
 
+The same call also judges whether the document even fits this project's
+scope (a biographical/historical essay about a person's life intertwined
+with a technology's development, not just any paper that mentions them)
+-- since the model is already reading the whole thing to extract the
+graph, asking it this too is nearly free, and it's a much stronger
+signal than a title/abstract guess made before download. A document
+judged out of scope is not drafted: nothing is written under subjects/,
+and the source PDF passed via --pdf is deleted automatically (pass
+--keep-rejected to leave it in place instead) so it doesn't sit around
+looking like something worth another look.
+
 Either way, the result is validated against schema/ (structure and
 referential integrity) before it's inlined into frontend/template.html.
 
@@ -81,14 +92,31 @@ def pdf_text(path, max_chars):
     return text
 
 
+SCOPE_DEFINITION = """\
+This project only covers biographical or historical retrospective essays that follow a
+specific person's life intertwined with a specific technology's development -- written by a
+historian or domain scientist about that person, long and detailed enough to extract real
+dated life events from. A tribute, obituary, festschrift, or memoir written about them by
+someone else counts. Out of scope: an ordinary technical/research paper that merely credits
+or cites the person, a general survey of a technology with no biographical arc, a document
+that happens to share a name with the intended subject but is about someone else, or a paper
+*by* the person about their own technical work with no biographical retrospective content.
+"""
+
+
 def build_prompt(slug, name, text):
     schemas = {fn: json.load(open(os.path.join(SCHEMA_DIR, f"{fn}.schema.json"), encoding="utf-8"))
                for fn in SCHEMA_FILES}
     system = (
-        "You are extracting a biographical knowledge graph from a source document.\n"
-        "Output a single JSON object with exactly five top-level keys: subject, entities, "
-        "events, relations, sources. Every object in entities/events/relations/sources must "
-        "validate against the matching JSON Schema below (draft 2020-12).\n\n"
+        "You are extracting a biographical knowledge graph from a source document.\n\n"
+        "First, judge whether the document itself fits this project's scope:\n\n"
+        + SCOPE_DEFINITION + "\n"
+        "Output a single JSON object with exactly six top-level keys: scope, subject, "
+        'entities, events, relations, sources. scope is {"fits": <bool>, "reason": '
+        '"<one short sentence>"} -- fits must be a real JSON boolean, not a string. If '
+        "scope.fits is false, the other five keys are not used and may be left empty. "
+        "Every object in entities/events/relations/sources must validate against the "
+        "matching JSON Schema below (draft 2020-12).\n\n"
         + "\n\n".join(f"{fn}.schema.json:\n{json.dumps(schemas[fn])}" for fn in SCHEMA_FILES)
         + "\n\n" + RULES
     )
@@ -154,6 +182,18 @@ def call_llm(system, user, model, base_url, api_key, max_tokens, max_continuatio
     return data
 
 
+def parse_scope(data):
+    """Normalize the model's `scope` verdict. Anything that isn't a clean
+    {"fits": <real bool>, ...} -- missing, malformed, "fits" as a string -- is treated as
+    unknown (None), not guessed at: deleting the user's PDF is not something to do on a shaky
+    signal, so extract() fails open (proceeds) on None, same as everywhere else in this repo
+    that degrades an LLM judgment rather than trusting a malformed reply."""
+    scope = data.get("scope")
+    if not isinstance(scope, dict) or not isinstance(scope.get("fits"), bool):
+        return None
+    return {"fits": scope["fits"], "reason": (scope.get("reason") or "").strip()}
+
+
 def stage_pdf(pdf_path, slug):
     """Ensure the PDF lives under data/; return its path relative to the repo root."""
     os.makedirs(DATA_DIR, exist_ok=True)
@@ -182,12 +222,29 @@ def choose_model():
     return model or sys.exit("a model name is required")
 
 
-def extract(pdf_path, slug, name, model, base_url, api_key, max_chars, max_tokens):
+def extract(pdf_path, slug, name, model, base_url, api_key, max_chars, max_tokens,
+            delete_out_of_scope=True):
     print(f"Reading {pdf_path}...")
     text = pdf_text(pdf_path, max_chars)
     system, user = build_prompt(slug, name, text)
     print(f"Asking {model} to draft the graph ({len(text):,} chars of source text)...")
     data = call_llm(system, user, model, base_url, api_key, max_tokens)
+
+    scope = parse_scope(data)
+    if scope is not None and not scope["fits"]:
+        print(f"\nOut of scope: {scope['reason'] or '(the model gave no reason)'}")
+        if delete_out_of_scope:
+            try:
+                os.remove(pdf_path)
+                print(f"  deleted {pdf_path} (pass --keep-rejected to leave a rejected PDF in place instead)")
+            except OSError as e:
+                print(f"  (couldn't delete {pdf_path}: {e})")
+        else:
+            print(f"  leaving {pdf_path} in place (--keep-rejected)")
+        sys.exit(f"'{slug}' was not drafted -- {os.path.basename(pdf_path)} doesn't fit this "
+                 f"project's scope. See SCOPE_DEFINITION in scripts/build_site.py, or "
+                 f"extraction/EXTRACTION_GUIDE.md, for what does.")
+
     data["subject"]["slug"] = slug
     data["subject"].setdefault("name", name)
     file_rel = stage_pdf(pdf_path, slug)
@@ -361,6 +418,9 @@ def main():
     ap.add_argument("--api-key", default=os.environ.get("BIOGRAPH_API_KEY"))
     ap.add_argument("--max-chars", type=int, default=180_000, help="for --pdf: truncate source text beyond this")
     ap.add_argument("--max-tokens", type=int, default=32_000, help="for --pdf: reply budget per request")
+    ap.add_argument("--keep-rejected", action="store_true",
+                     help="for --pdf: don't delete the source PDF when the model judges it out of "
+                          "scope -- leave it in place for a closer look instead")
     args = ap.parse_args()
 
     if args.all:
@@ -379,7 +439,8 @@ def main():
         model = args.model or choose_model()
         api_key = args.api_key or getpass.getpass(f"API key for {base_url}: ")
         name = args.name or args.slug.replace("_", " ").title()
-        extract(args.pdf, args.slug, name, model, base_url, api_key, args.max_chars, args.max_tokens)
+        extract(args.pdf, args.slug, name, model, base_url, api_key, args.max_chars, args.max_tokens,
+                delete_out_of_scope=not args.keep_rejected)
 
     try:
         build(args.slug)

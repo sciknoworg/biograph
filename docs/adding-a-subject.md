@@ -16,9 +16,12 @@ version of this checklist lives in `extraction/EXTRACTION_GUIDE.md`.
     or the matching `BIOGRAPH_*` env vars. No model is hardcoded; type
     whatever your provider currently offers. If a reply is cut off before
     it finishes, it automatically continues the request rather than
-    failing. Runs through this exact process and writes the result. Still
-    a first-pass draft — step 7 below still applies to it. Full flag
-    reference: [Usage Guide § Drafting a new subject](usage.md#1-drafting-a-new-subject-with-pdf).
+    failing. The same call also judges whether the PDF fits this
+    project's scope at all — if it doesn't, nothing is written and the
+    PDF is deleted automatically (`--keep-rejected` to keep it instead).
+    Otherwise runs through this exact process and writes the result.
+    Still a first-pass draft — step 7 below still applies to it. Full
+    flag reference: [Usage Guide § Drafting a new subject](usage.md#1-drafting-a-new-subject-with-pdf).
 
 !!! tip "Read the data model first"
     Before extracting anything, read
