@@ -6,7 +6,7 @@ discipline stacked together — this page documents each one, and is honest
 about where the layers stop.
 
 That's true whether a subject's first draft was written by hand or by
-[`scripts/build_site.py --pdf`](usage.md#drafting-a-new-subject-with-pdf)
+[`scripts/build_site.py --pdf`](usage.md#1-drafting-a-new-subject-with-pdf)
 (an LLM reading the PDF). That flag is a faster way to *produce* a
 draft, not a different accuracy standard — the same layers below apply to
 its output, starting with the fact that it can't skip schema validation

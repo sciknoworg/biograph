@@ -46,9 +46,12 @@ Every event must have:
 3. **At least one participant** — the entity or entities the event is
    about. A "company founded" event participates the founder(s) and the
    organization founded (with `roles` distinguishing them).
-4. **At least one source citation** — `source_id` plus, where possible, a
-   `page` and a short supporting `quote`. No event is entered on inference
-   or general knowledge; if the paper doesn't say it, it doesn't go in.
+4. **At least one source citation** — `source_id` and a `page` are both
+   required: provenance means a reader can turn to exactly where in the
+   text this came from. A short supporting `quote` is optional, reserved
+   for pivotal events rather than added everywhere. No event is entered on
+   inference or general knowledge; if the paper doesn't say it, it doesn't
+   go in.
 
 Events are the join between the graph and the timeline: the timeline is
 just `events.json` sorted by date; the graph is `entities.json` +

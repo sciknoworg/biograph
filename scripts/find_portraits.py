@@ -252,7 +252,7 @@ def main():
     ap.add_argument("--no-build", action="store_true", help="skip rebuilding dist/<slug>.html afterward")
     ap.add_argument("--model", default=os.environ.get("BIOGRAPH_MODEL"))
     ap.add_argument("--base-url", default=os.environ.get("BIOGRAPH_BASE_URL"))
-    ap.add_argument("--api-key", default=os.environ.get("BIOGRAPH_API_KEY") or os.environ.get("OPENAI_API_KEY"))
+    ap.add_argument("--api-key", default=os.environ.get("BIOGRAPH_API_KEY"))
     args = ap.parse_args()
     run(args.slug, base_url=args.base_url, model=args.model, api_key=args.api_key,
         no_llm=args.no_llm, force=args.force, rebuild=not args.no_build)

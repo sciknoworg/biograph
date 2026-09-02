@@ -36,8 +36,10 @@ unless it will anchor a relation or event.
 
 - `id`: snake_case, derived from the name (`v_b_aleskovskii`, not `person_1`).
 - `entity_type`: `person | place | organization | artifact`.
-- `summary`: 1-3 sentences, static facts only — no dates, no "in 1974 ...".
-  If a sentence has a "when," it belongs in an event instead, not here.
+- `summary`: one terse sentence, static facts only — no dates, no
+  "in 1974 ...". If a sentence has a "when," it belongs in an event
+  instead, not here. A domain expert should be able to scan it and
+  immediately place the entity — not a paragraph.
 - Watch for id collisions between a place and an organization that share a
   name (e.g. a company town) — suffix one (`_city` / `_oy`) if needed.
 
@@ -57,13 +59,18 @@ participants, source citation). Practical rules:
 - **Every event date must trace to something the text actually says.**
   If the text says "in the early 1970s," the event's `date.display` is
   `"early 1970s"` with `precision: "decade"` — not a guessed exact year.
-- **Quote sparingly, but quote the load-bearing sentence** in
-  `sources[].quote` for pivotal events (the actual invention moment, the
-  first public disclosure) so a reader can verify the claim without
-  re-opening the PDF.
-- **Page numbers**: use the PDF's printed page number (bottom of page),
+- **`sources[].page` is required, on every event, not just pivotal
+  ones.** This is the provenance: exactly where in the text a reader can
+  go to check the claim — the PDF's printed page number (bottom of page),
   not the PDF viewer's page index, so citations match what a human reader
-  sees.
+  sees; fall back to the nearest `[pdf page N]` marker if unprinted.
+- **Quote sparingly** — `sources[].quote` is optional, reserved for the
+  load-bearing sentence of a genuinely pivotal event (the actual
+  invention moment, the first public disclosure), not added everywhere.
+- **Keep `label` terse and scannable** — an expert should read it alone
+  and know what happened ("Moved to Texas Instruments"), not a full
+  sentence. Put extra context in `description`, at most one tight
+  sentence, only if `label` doesn't already say it.
 - **Don't split one sentence into five events.** A paragraph describing
   one coherent episode (e.g. "the first successful reactor run") is one
   event with a fuller description, not one event per clause.

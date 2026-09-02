@@ -7,13 +7,14 @@ validate it and render dist/<slug>.html.
     python3 scripts/build_site.py --all                       build every subject
     python3 scripts/build_site.py <slug> --pdf <paper.pdf>    draft from a PDF first, then build
 
-With --pdf: reads the PDF and asks an OpenAI-compatible chat model (OpenAI,
-OpenRouter, KISSKI, or any other gateway on the same API) to draft
-entities/events/relations/sources against schema/*.schema.json, embedded
-in the prompt verbatim so it can't drift from the data model. Prompts for
-provider, model, and API key (or set --base-url/--model/--api-key, or the
-matching BIOGRAPH_* env vars, to skip the prompts). A reply that hits the
-token limit is automatically continued rather than left truncated.
+With --pdf: reads the PDF and asks a chat model, via an OpenAI-compatible
+API (OpenRouter, KISSKI, or any other gateway speaking that format), to
+draft entities/events/relations/sources against schema/*.schema.json,
+embedded in the prompt verbatim so it can't drift from the data model.
+Prompts for provider, model, and API key (or set
+--base-url/--model/--api-key, or the matching BIOGRAPH_* env vars, to
+skip the prompts). A reply that hits the token limit is automatically
+continued rather than left truncated.
 
 Either way, the result is validated against schema/ (structure and
 referential integrity) before it's inlined into frontend/template.html.
@@ -38,7 +39,6 @@ SCHEMA_FILES = ["date", "entity", "event", "relation", "source"]
 # ---------------------------------------------------------------- extraction
 
 PROVIDERS = [  # (label, base_url) -- None means "ask the user to paste one" (e.g. KISSKI)
-    ("OpenAI", "https://api.openai.com/v1"),
     ("OpenRouter", "https://openrouter.ai/api/v1"),
     ("Other (paste a base URL)", None),
 ]
@@ -46,12 +46,17 @@ PROVIDERS = [  # (label, base_url) -- None means "ask the user to paste one" (e.
 RULES = """\
 Rules, non-negotiable:
 - Every fact must trace to the text: no inference from general knowledge, no filling gaps.
-- An event needs a date (however fuzzy), an event_type, >=1 participant, >=1 source citation.
-  date.display should quote the source's own wording ("early 1970s"); precision and
-  sort_start/sort_end encode that same fuzziness as an ISO range -- never a false-precise
-  exact date for a vague one.
-- Quote sparingly, but quote the load-bearing sentence for pivotal events in sources[].quote,
-  with the printed page number if shown, else the nearest "[pdf page N]" marker.
+- An event needs a date (however fuzzy), an event_type, >=1 participant, >=1 source citation --
+  and every citation needs a page number (sources[].page: the source's own printed page if
+  shown, else the nearest "[pdf page N]" marker). Provenance is exactly where in the text this
+  came from, and it is not optional. date.display should quote the source's own wording
+  ("early 1970s"); precision and sort_start/sort_end encode that same fuzziness as an ISO
+  range -- never a false-precise exact date for a vague one.
+- Quote sparingly -- only the load-bearing sentence for pivotal events, in sources[].quote.
+- Keep entities[].summary and events[].label terse and scannable: an expert should read a
+  label alone and know what happened ("Moved to Texas Instruments"), not a full sentence
+  explaining why. Save extra context for description -- at most one tight sentence, and only
+  if the label doesn't already say it.
 - ids: snake_case, derived from the name/label, unique within their file.
 - entities[].summary is static facts only -- a sentence with a "when" is an event, not a summary.
 - Capture connective-tissue events too (an organization founded/sold, a collaborator's
@@ -308,7 +313,7 @@ def main():
     ap.add_argument("--name", help="display name for --pdf (default: slug, title-cased)")
     ap.add_argument("--model", default=os.environ.get("BIOGRAPH_MODEL"), help="for --pdf; prompted if unset")
     ap.add_argument("--base-url", default=os.environ.get("BIOGRAPH_BASE_URL"), help="for --pdf; prompted if unset")
-    ap.add_argument("--api-key", default=os.environ.get("BIOGRAPH_API_KEY") or os.environ.get("OPENAI_API_KEY"))
+    ap.add_argument("--api-key", default=os.environ.get("BIOGRAPH_API_KEY"))
     ap.add_argument("--max-chars", type=int, default=180_000, help="for --pdf: truncate source text beyond this")
     ap.add_argument("--max-tokens", type=int, default=32_000, help="for --pdf: reply budget per request")
     args = ap.parse_args()

@@ -26,9 +26,11 @@ Every event must have, and `event.schema.json` enforces:
 3. **At least one participant** — the entity or entities the event is
    about, each with a `role` (e.g. `"subject"`, `"employer"`,
    `"invention"`, `"awarding_body"`).
-4. **At least one source citation** — a `source_id` plus, where possible,
-   a `page` and a short supporting `quote`. No event is entered on
-   inference or general knowledge.
+4. **At least one source citation** — `source_id` and `page` are both
+   required: provenance means a reader can turn to exactly where in the
+   text this came from. A short supporting `quote` is optional, reserved
+   for pivotal events rather than added everywhere. No event is entered
+   on inference or general knowledge.
 
 Events are the join between the graph and the timeline: the timeline is
 `events.json` sorted by date; the graph is `entities.json` +
@@ -63,7 +65,7 @@ renders as a bar on the timeline instead of a point.
 |---|---|
 | `entity_type` | `person \| place \| organization \| artifact`. `artifact` covers inventions, patents, products, publications, and companies-as-founded-things. |
 | `aliases` | Other names/spellings this entity is referred to by in sources. |
-| `summary` | 1–3 sentences, static facts only — no dates. |
+| `summary` | One terse sentence, static facts only — no dates. A domain expert should be able to scan it and immediately place the entity. |
 | `subtype` | Free text, e.g. person: `"researcher"`; place: `"city"`/`"country"`; organization: `"company"`/`"university"`/`"lab"`; artifact: `"invention"`/`"patent"`/`"product"`/`"publication"`/`"award"`. |
 | `attributes` | Open `{}` for structured extras. Two conventions the frontend reads directly: a `place` entity carries `attributes.lat` / `attributes.lng` (decimal degrees) plus `attributes.wikidata_qid` for provenance, to appear on the [Map view](frontend-guide.md#map-view) — see [Data Accuracy & Provenance](data-accuracy.md#place-coordinates). |
 | `portrait` | Optional, `person` only — a verified photo. See [Data Accuracy & Provenance](data-accuracy.md#portraits) for the required verification procedure before adding one. |
@@ -76,13 +78,13 @@ above for the model. `event.schema.json` fields:
 | Field | Notes |
 |---|---|
 | `event_type` | Closed vocabulary of 22 values — see below. |
-| `label` | Short title, e.g. `"Invention of Atomic Layer Epitaxy"`. |
-| `description` | 1–3 sentences, close to the source's own account. |
+| `label` | Terse, scannable title an expert could read at a glance, e.g. `"Moved to Texas Instruments"` — not a full sentence. |
+| `description` | Optional, at most 1 tight sentence, close to the source's own wording — only when `label` alone doesn't capture it. |
 | `date` | The fuzzy-date object above. |
 | `location` | Optional entity id of a `place`, if the source specifies where. Drives the [Map view](frontend-guide.md#map-view). |
 | `participants` | Array of `{entity_id, role}`, minimum 1. |
 | `certainty` | `certain` (default) \| `approximate` (source itself hedges) \| `disputed` (sources disagree). |
-| `sources` | Array of `{source_id, page?, quote?}`, minimum 1. |
+| `sources` | Array of `{source_id, page, quote?}`, minimum 1. `page` is required — the provenance for where in the text this came from; `quote` is optional, reserved for pivotal events. |
 
 **`event_type` values:** `birth`, `death`, `education`,
 `employment_start`, `employment_end`, `role_change`, `invention`,
@@ -103,7 +105,7 @@ above for the model. `event.schema.json` fields:
 | `event_id` | Optional link back to the `events.json` entry that established this relation (e.g. an `employment_start` event implies a `worked_at` relation). |
 | `start` / `end` | Optional fuzzy-date bounds (precision-only; no `display` needed since relations aren't independently plotted). |
 | `note` | Free text. |
-| `sources` | Array of `{source_id, page?, quote?}`, minimum 1. |
+| `sources` | Array of `{source_id, page, quote?}`, minimum 1. `page` is required, same as on events. |
 
 Some relations just durably summarize an event; others stand alone when
 the source states a fact without a datable event behind it (e.g. "they

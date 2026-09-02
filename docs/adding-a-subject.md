@@ -10,7 +10,7 @@ version of this checklist lives in `extraction/EXTRACTION_GUIDE.md`.
     pip install -r extraction/requirements.txt
     python3 scripts/build_site.py <slug> --pdf data/<paper>.pdf
     ```
-    Prompts for a provider (OpenAI, OpenRouter, or any other
+    Prompts for a provider (OpenRouter, or any other
     OpenAI-compatible base URL — e.g. KISSKI), then a model name, then an
     API key — or skip the prompts with `--base-url`/`--model`/`--api-key`
     or the matching `BIOGRAPH_*` env vars. No model is hardcoded; type
@@ -18,7 +18,7 @@ version of this checklist lives in `extraction/EXTRACTION_GUIDE.md`.
     it finishes, it automatically continues the request rather than
     failing. Runs through this exact process and writes the result. Still
     a first-pass draft — step 7 below still applies to it. Full flag
-    reference: [Usage Guide § Drafting a new subject](usage.md#drafting-a-new-subject-with-pdf).
+    reference: [Usage Guide § Drafting a new subject](usage.md#1-drafting-a-new-subject-with-pdf).
 
 !!! tip "Read the data model first"
     Before extracting anything, read
@@ -57,6 +57,8 @@ anything else, unless it will anchor a relation or event.
 - `id`: snake_case, derived from the name (`v_b_aleskovskii`, not `person_1`).
 - `summary`: static facts only — no dates, no "in 1974...". If a sentence
   has a "when," it belongs in an event instead.
+- **Keep it terse.** One sentence a domain expert could scan and
+  immediately place the entity — not a paragraph.
 - Watch for id collisions between a place and an organization that share
   a name (e.g. a company town) — suffix one (`_city` / `_oy`) if needed,
   the way `subjects/suntola/entities.json` distinguishes `lohja_city`
@@ -111,11 +113,19 @@ Practical rules:
 - **Every event date must trace to something the text actually says.** If
   the text says "in the early 1970s," `date.display` is `"early 1970s"`
   with `precision: "decade"` — not a guessed exact year.
-- **Quote sparingly, but quote the load-bearing sentence** for pivotal
-  events (the invention moment, the first public disclosure) so a reader
-  can verify the claim without re-opening the source.
-- **Page numbers** are the PDF's *printed* page number, not the PDF
-  viewer's page index, so citations match what a human reader sees.
+- **`sources[].page` is required, on every event, not just pivotal
+  ones.** This is the provenance: exactly where in the text a reader can
+  go to check the claim. It's the PDF's *printed* page number, not the
+  PDF viewer's page index, so citations match what a human reader sees;
+  fall back to the nearest `[pdf page N]` marker if the source has none
+  printed.
+- **Quote sparingly** — `sources[].quote` is optional, reserved for the
+  load-bearing sentence of a genuinely pivotal event (the invention
+  moment, the first public disclosure), not added to every citation.
+- **Keep `label` terse and scannable** — an expert should read it alone
+  and know what happened ("Moved to Texas Instruments"), not a full
+  sentence. Put any extra context in `description`, at most one tight
+  sentence, and only if `label` doesn't already say it.
 - **Don't split one sentence into five events.** A paragraph describing
   one coherent episode is one event with a fuller description.
 - **Capture connective-tissue events too** — an organization founded,

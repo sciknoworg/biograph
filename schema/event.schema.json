@@ -26,11 +26,11 @@
     },
     "label": {
       "type": "string",
-      "description": "Short title, e.g. 'Invention of Atomic Layer Epitaxy'."
+      "description": "Terse, scannable title an expert could read at a glance and know what happened, e.g. 'Moved to Texas Instruments' -- not a full sentence."
     },
     "description": {
       "type": "string",
-      "description": "1–3 sentences, close to the source's own account."
+      "description": "Optional, at most 1 tight sentence, close to the source's own wording -- only when the label alone doesn't capture it. Never padded."
     },
     "date": { "$ref": "date.schema.json" },
     "location": {
@@ -65,11 +65,11 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["source_id"],
+        "required": ["source_id", "page"],
         "properties": {
           "source_id": { "type": "string" },
-          "page": { "type": "integer" },
-          "quote": { "type": "string" }
+          "page": { "type": "integer", "description": "Provenance: where in the text this came from -- the source's own printed page number, or the nearest '[pdf page N]' marker if unprinted. Not optional." },
+          "quote": { "type": "string", "description": "Optional. The load-bearing sentence, quoted -- only for pivotal events, not every one." }
         }
       }
     }
