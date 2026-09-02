@@ -6,8 +6,8 @@ discipline stacked together — this page documents each one, and is honest
 about where the layers stop.
 
 That's true whether a subject's first draft was written by hand or by
-[`scripts/extract_subject.py`](usage.md#drafting-a-new-subject-with-extract_subjectpy)
-(an LLM reading the PDF). The script is a faster way to *produce* a
+[`scripts/build_site.py --pdf`](usage.md#drafting-a-new-subject-with-pdf)
+(an LLM reading the PDF). That flag is a faster way to *produce* a
 draft, not a different accuracy standard — the same layers below apply to
 its output, starting with the fact that it can't skip schema validation
 (layer 2) and ends the same way any extraction should: a human checking
@@ -60,8 +60,7 @@ from Wikimedia Commons, not embedded, so the file stays small and the
 credit stays live and checkable.
 
 ```bash
-python3 scripts/find_portraits.py <slug>                      # on its own
-python3 scripts/extract_subject.py <pdf> <slug> --portraits   # or as one more step
+python3 scripts/find_portraits.py <slug>
 ```
 
 [`scripts/find_portraits.py`](https://github.com/sciknoworg/biograph/blob/main/scripts/find_portraits.py)

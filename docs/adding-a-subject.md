@@ -8,7 +8,7 @@ version of this checklist lives in `extraction/EXTRACTION_GUIDE.md`.
 !!! tip "Faster path: let an LLM draft it"
     ```bash
     pip install -r extraction/requirements.txt
-    python3 scripts/extract_subject.py data/<paper>.pdf <slug>
+    python3 scripts/build_site.py <slug> --pdf data/<paper>.pdf
     ```
     Prompts for a provider (OpenAI, OpenRouter, or any other
     OpenAI-compatible base URL — e.g. KISSKI), then a model name, then an
@@ -18,7 +18,7 @@ version of this checklist lives in `extraction/EXTRACTION_GUIDE.md`.
     it finishes, it automatically continues the request rather than
     failing. Runs through this exact process and writes the result. Still
     a first-pass draft — step 7 below still applies to it. Full flag
-    reference: [Usage Guide § Drafting a new subject](usage.md#drafting-a-new-subject-with-extract_subjectpy).
+    reference: [Usage Guide § Drafting a new subject](usage.md#drafting-a-new-subject-with-pdf).
 
 !!! tip "Read the data model first"
     Before extracting anything, read

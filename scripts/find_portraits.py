@@ -1,46 +1,35 @@
 #!/usr/bin/env python3
 """
-Find and attach verified Wikidata/Commons portraits for a subject's people.
+Attach verified Wikidata/Commons portraits to a subject's person entities.
 
-Usage:
     python3 scripts/find_portraits.py <slug> [--force] [--no-llm] [--no-build]
 
-For every `person` entity in subjects/<slug>/entities.json that doesn't
-already have a portrait, searches Wikidata for a matching item and — only
-if identity can be confirmed — attaches a photo sourced from Wikimedia
-Commons (a stable Special:FilePath link, never embedded). This is the
-same check described in Data Accuracy & Provenance, done the same way it
-was done for the Suntola example: a wrong photo is worse than none, so an
-entity is left without one rather than guessed at.
+For every `person` entity without a portrait, searches Wikidata and — only
+if identity can be confirmed — attaches a photo from Wikimedia Commons (a
+stable Special:FilePath link, never embedded). A wrong photo is worse than
+none, so anything short of confirmed is left blank.
 
-Two ways an identity gets confirmed (schema/entity.schema.json's
+Two ways identity gets confirmed (schema/entity.schema.json's
 portrait.confidence):
 
   birth_year_verified   this subject's own events.json has a birth event
-                         for the person, and it matches Wikidata's P569
-                         (date of birth) for exactly one candidate. Purely
-                         mechanical — no LLM call.
-  description_verified  no birth event to check against, or more than one
-                         same-named candidate shares that birth year —
-                         so an LLM judges whether a candidate's Wikidata
-                         description (occupation + era) is specific
-                         enough to confidently be this person and not a
-                         namesake, the same judgment call a human would
-                         make. Uses whatever provider/model/key the
-                         extraction step already used, or prompts for
-                         them (see extract_subject.py) the first time
-                         it's actually needed — never if every match
-                         resolves by birth year alone.
+                         that matches Wikidata's P569 for exactly one
+                         candidate. Purely mechanical, no LLM call.
+  description_verified  no birth-year match to check against, so an LLM
+                         judges whether a candidate's Wikidata description
+                         is specific enough to confidently be this person
+                         and not a namesake -- using whatever provider/
+                         model/key build_site.py's --pdf mode already
+                         uses, prompted for the first time it's actually
+                         needed. Never if birth year alone settles it.
 
-Anything weaker than these two is left unverified: no portrait attached.
-Pass --no-llm to disable the description-tier check entirely (birth-year
-matches only, no API key ever needed). Re-run with --force to re-check
-entities that already have a portrait.
+Pass --no-llm to skip the description tier entirely (no API key needed).
+--force re-checks entities that already have a portrait.
 """
 import argparse, getpass, json, os, re, sys, time, urllib.error, urllib.parse, urllib.request
+import build_site as bs
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.insert(0, os.path.join(ROOT, "scripts"))
 SUBJECTS_DIR = os.path.join(ROOT, "subjects")
 UA = "biograph-portrait-finder/1.0 (https://github.com/sciknoworg/biograph)"
 CANDIDATE_LIMIT = 3  # top N Wikidata search results considered per person
@@ -215,11 +204,10 @@ def run(slug, base_url=None, model=None, api_key=None, no_llm=False, force=False
 
     if needs_llm:
         if not (base_url and model and api_key):
-            import extract_subject as ex
             print(f"\n{len(needs_llm)} entit{'y needs' if len(needs_llm) == 1 else 'ies need'} an LLM "
                   f"judgment call to confirm identity:")
-            base_url = base_url or ex.choose_base_url()
-            model = model or ex.choose_model()
+            base_url = base_url or bs.choose_base_url()
+            model = model or bs.choose_model()
             api_key = api_key or getpass.getpass(f"API key for {base_url}: ")
         for entity_id, (entity, candidates, ref_year) in needs_llm.items():
             qid, reason = judge_candidates(entity, candidates, ref_year, model, base_url, api_key)
@@ -253,9 +241,7 @@ def run(slug, base_url=None, model=None, api_key=None, no_llm=False, force=False
     print(f"\n{attached} portrait(s) attached, {len(people) - attached} left unverified.")
 
     if attached and rebuild:
-        import build_site
-        build_site.validate_subject(slug)
-        build_site.build(slug)
+        bs.build(slug)
 
 
 def main():

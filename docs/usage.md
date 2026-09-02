@@ -1,16 +1,17 @@
 # Usage Guide: Building & Validating a Subject
 
 The tool surface is two scripts, both run from the repository root:
-`scripts/build_site.py` (validate and build a subject that already has
-data — covered on this page) and `scripts/extract_subject.py` (draft a
-*new* subject from a PDF using an LLM — covered below, and in full in
-[Adding a new subject](adding-a-subject.md)).
+`scripts/build_site.py` (draft a subject from a PDF with `--pdf`, and
+either way validate and build it — covered on this page, and in full in
+[Adding a new subject](adding-a-subject.md)) and `scripts/find_portraits.py`
+(attach verified Wikidata/Commons photos — covered below).
 
 ## Command reference
 
 ```bash
-python3 scripts/build_site.py <slug>     # build one subject
-python3 scripts/build_site.py --all      # build every subject under subjects/
+python3 scripts/build_site.py <slug>                    # build one subject
+python3 scripts/build_site.py --all                     # build every subject under subjects/
+python3 scripts/build_site.py <slug> --pdf <paper.pdf>   # draft from a PDF, then build
 ```
 
 `<slug>` is the directory name under `subjects/` — for the shipped
@@ -111,7 +112,7 @@ After a successful build, open `dist/<slug>.html` and look for:
 - Any name rendering as **`undefined`** — a broken id reference that
   somehow passed validation (e.g. a stale copy of a schema file).
 
-## Drafting a new subject with `extract_subject.py`
+## Drafting a new subject with `--pdf`
 
 Everything above assumes `subjects/<slug>/` already has data. To draft
 one from a PDF instead of writing it by hand, see
@@ -120,7 +121,7 @@ this section is the command/flag reference.
 
 ```bash
 pip install -r extraction/requirements.txt
-python3 scripts/extract_subject.py data/<paper>.pdf <slug> [options]
+python3 scripts/build_site.py <slug> --pdf data/<paper>.pdf [options]
 ```
 
 | Flag | Default | What it does |
@@ -131,7 +132,6 @@ python3 scripts/extract_subject.py data/<paper>.pdf <slug> [options]
 | `--api-key` | *(prompted, hidden input)* | `BIOGRAPH_API_KEY` or `OPENAI_API_KEY` also skip the prompt. |
 | `--max-chars` | `180000` | Truncates the extracted PDF text beyond this many characters, for very long sources. |
 | `--max-tokens` | `32000` | Reply budget per request. If the model hits this mid-subject, the script automatically asks it to continue and stitches the pieces together (up to 8 rounds) rather than failing — see below. |
-| `--no-build` | off | Write and validate `subjects/<slug>/`, but skip building `dist/<slug>.html`. |
 
 ### What it does, in order
 
@@ -151,10 +151,10 @@ python3 scripts/extract_subject.py data/<paper>.pdf <slug> [options]
    forcing the source's `file` field to point at the actual PDF (copied
    into `data/<slug>.pdf` if it wasn't already under `data/`) rather than
    trusting whatever path the model guessed.
-5. **Validates and builds**, reusing `build_site.validate_subject()` and
-   `build_site.build()` directly rather than duplicating that logic — a
+5. **Validates and builds** — the exact same `validate_subject()`/`build()`
+   used for a hand-written subject (see above), no separate code path — a
    validation failure is reported exactly like a hand-written subject's
-   would be (see above), pointing at `subjects/<slug>/*.json` to fix.
+   would be, pointing at `subjects/<slug>/*.json` to fix.
 
 ### Treat the result as a first-pass draft
 
@@ -180,14 +180,14 @@ Portraits](data-accuracy.md#portraits). Flags:
 | `--force` | off | Re-check entities that already have a portrait, instead of skipping them. |
 | `--no-llm` | off | Birth-year matches only — never makes an LLM call, so no API key is needed at all. |
 | `--no-build` | off | Skip rebuilding `dist/<slug>.html` afterward (only runs if a portrait was actually attached). |
-| `--model`, `--base-url`, `--api-key` | *(prompted, only if needed)* | Same as `extract_subject.py`. Only asked for the first time a `description_verified` judgment call actually comes up — never if every match resolves by exact birth year, or `--no-llm` is passed. |
+| `--model`, `--base-url`, `--api-key` | *(prompted, only if needed)* | Same as `build_site.py --pdf`. Only asked for the first time a `description_verified` judgment call actually comes up — never if every match resolves by exact birth year, or `--no-llm` is passed. |
 
-Also available as `--portraits` on `extract_subject.py` itself, run
-immediately after extraction using the same provider/model/key already
-entered — so it's one command instead of two when you want both:
+Run it any time after a subject has data — right after drafting it with
+`build_site.py --pdf`, or later, or repeatedly with `--force`:
 
 ```bash
-python3 scripts/extract_subject.py data/<paper>.pdf <slug> --portraits
+python3 scripts/build_site.py aleskovskii --pdf data/malygin2015.pdf
+python3 scripts/find_portraits.py aleskovskii
 ```
 
 Every Wikidata/Commons lookup fails independently and prints why (a

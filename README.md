@@ -30,7 +30,7 @@ Open `dist/<subject>.html` — self-contained, no server needed.
 
 ```bash
 pip install -r extraction/requirements.txt
-python3 scripts/extract_subject.py data/<paper>.pdf <slug>
+python3 scripts/build_site.py <slug> --pdf data/<paper>.pdf
 ```
 
 Prompts you for a provider (OpenAI, OpenRouter, or paste any other
@@ -52,8 +52,6 @@ useful for extracting or correcting a subject by hand instead).
 
 ```bash
 python3 scripts/find_portraits.py <slug>
-# or as one more step right after extraction:
-python3 scripts/extract_subject.py data/<paper>.pdf <slug> --portraits
 ```
 
 For each person without a photo, searches Wikidata and — only if
@@ -68,12 +66,13 @@ than guessed. Full explanation: [Data Accuracy & Provenance § Portraits](https:
 ```
 schema/         JSON Schema data model (entities, events, relations, sources)
 subjects/<slug>/ One subject's data (extraction output — by hand or by
-                extract_subject.py, reviewed either way)
+                build_site.py --pdf, reviewed either way)
 extraction/     Guide for authoring a new subject's data + its own
                 requirements.txt (openai, pypdf — not needed just to view)
 frontend/       template.html — D3 explorer; reads subject JSON only
-scripts/        build_site.py — validates and builds dist/<slug>.html.
-                extract_subject.py — LLM-drafts a new subject from a PDF.
+scripts/        build_site.py — the whole knowledge-graph pipeline: with
+                --pdf, LLM-drafts a subject from a PDF; either way,
+                validates and builds dist/<slug>.html.
                 find_portraits.py — attaches verified Wikidata/Commons photos.
 dist/           Generated, self-contained HTML output
 data/           Source PDFs
