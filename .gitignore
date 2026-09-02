@@ -13,3 +13,8 @@ data/*.pdf
 scripts/find_sources.py
 candidates.json
 .find_sources_cache.json
+.find_sources_dismissed.json
+
+# Local-only API keys/email for find_sources.py (BIOGRAPH_* KEY=value lines)
+# -- never committed, this is where a secret would end up if it were.
+.find_sources_env
