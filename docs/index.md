@@ -54,8 +54,10 @@ See [Getting Started](getting-started.md) for the full walkthrough.
   hand, or drafted by an LLM in one command.
 - **[Architecture](data-model.md)** — the [data model](data-model.md) (the
   four JSON files, the controlled vocabularies, the fuzzy-date chronology
-  mechanism) and the [frontend](frontend-guide.md) (the three views, how
-  selection state stays in sync across them).
+  mechanism), the [frontend](frontend-guide.md) (the three views, how
+  selection state stays in sync across them), and [ontology
+  alignment](ontology-alignment.md) (how the taxonomy maps onto CIDOC-CRM,
+  schema.org, PROV-O, and other prior art).
 - **[Data Accuracy & Provenance](data-accuracy.md)** — the citation
   discipline, schema validation, and the verification tiers used before
   any portrait or map coordinate is added.

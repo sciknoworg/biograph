@@ -163,3 +163,7 @@ accumulate across subjects. For a new relation `type`, also add its
 `(source_types, target_types)` entry to `RELATION_DIRECTIONS` in
 `scripts/build_site.py` — a type missing from that table silently skips
 the direction check instead of enforcing it.
+
+For where these vocabularies do (and don't) already exist in authoritative
+semantic-web ontologies — CIDOC-CRM, schema.org, PROV-O, and others — see
+[Ontology alignment](../docs/ontology-alignment.md).
