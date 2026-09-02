@@ -12,7 +12,7 @@
     "authors": { "type": "array", "items": { "type": "string" } },
     "year": { "type": "integer" },
     "publication": { "type": "string" },
-    "file": { "type": "string", "description": "Relative path to the source file under data/." },
+    "file": { "type": "string", "description": "Relative path to the source file under data/ -- a local convention, not a guarantee the file is present in the repository. Source PDFs are gitignored and not redistributed; see data/README.md." },
     "doi": { "type": "string" },
     "url": { "type": "string" }
   }

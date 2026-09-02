@@ -2,3 +2,7 @@ __pycache__/
 *.pyc
 site/
 .DS_Store
+
+# Source PDFs are not redistributed -- see data/README.md. Citations
+# (including DOIs) live in subjects/<slug>/sources.json instead.
+data/*.pdf

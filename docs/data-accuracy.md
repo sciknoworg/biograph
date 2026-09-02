@@ -23,6 +23,14 @@ structurally: `event.schema.json` and `relation.schema.json` both require
 a non-empty `sources` array (`minItems: 1`), so an uncited event or
 relation fails validation and the build refuses to produce a page.
 
+The source PDF itself is not what's committed, though — `data/*.pdf` is
+gitignored, since these are publisher-hosted papers we don't have
+redistribution rights to. What's committed instead is the citation
+(title, authors, year, DOI, URL — `sources.json`) plus the page-level
+provenance on every claim, which is what actually lets a reader verify a
+fact without needing the PDF to be sitting in this repo. See
+`data/README.md` for the running index of sources handled this way.
+
 ## 2. Schema validation at build time
 
 `scripts/build_site.py` validates every subject file against its JSON

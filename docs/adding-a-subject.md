@@ -82,6 +82,11 @@ At minimum, one entry for the source paper itself:
 Add more entries only if the paper itself cites another primary source
 you're drawing directly from (an autobiography, an interview transcript).
 
+Add a `doi` and `url` if you have them — that's the part of this record
+that actually gets shared. The PDF at `file` stays local: `data/*.pdf`
+is gitignored, since these are typically publisher-hosted papers without
+redistribution rights. See `data/README.md` and add a row there too.
+
 ## 3. Draft `events.json`
 
 Walk the source again, this time pulling out every dateable occurrence

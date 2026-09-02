@@ -53,6 +53,9 @@ reference. `<slug>` becomes the directory name under `subjects/`.
    | `relations.json` | Durable connections between entities (`worked_at`, `invented`, ...). |
    | `sources.json` | The source paper(s), for citation. |
 
+   The PDF copied into `data/<slug>.pdf` isn't itself committed — see
+   `data/README.md`.
+
 5. **Validates and builds** — the exact same `validate_subject()`/`build()`
    used for a hand-written subject (see below), no separate code path — a
    validation failure is reported exactly like a hand-written subject's

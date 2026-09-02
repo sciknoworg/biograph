@@ -50,6 +50,10 @@ year, publication, `file` pointing at the PDF under `data/`). Add more
 entries if the paper itself cites another primary source you're drawing
 directly from (e.g. an autobiography, an interview transcript).
 
+Include `doi`/`url` when available -- `data/*.pdf` is gitignored (not
+redistributed), so the citation fields are what actually ship. Add a row
+to `data/README.md` for the new source too.
+
 ## 4. Draft `subjects/<slug>/events.json`
 
 Walk the source again, this time pulling out every dateable occurrence

@@ -47,6 +47,10 @@ against the PDF, by hand, before trusting it — same as any extraction.
 checklist the script follows and what to check the draft against (also
 useful for extracting or correcting a subject by hand instead).
 
+The PDF itself isn't committed to this repo — only its citation (title,
+authors, DOI, ...) and the page-level provenance drawn from it are. See
+[`data/README.md`](data/README.md).
+
 ## 2. Build the timeline visualization
 
 ```bash
@@ -89,6 +93,7 @@ scripts/        build_site.py — the whole knowledge-graph pipeline: with
                 validates and builds dist/<slug>.html.
                 find_portraits.py — attaches verified Wikidata/Commons photos.
 dist/           Generated, self-contained HTML output
-data/           Source PDFs
+data/           Source PDFs (gitignored, not committed -- see data/README.md;
+                citations live in each subject's sources.json)
 docs/           Full documentation source (MkDocs + Material)
 ```

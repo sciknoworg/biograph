@@ -124,7 +124,9 @@ were lifelong friends").
 from. Every event and relation cites at least one entry here.
 `source.schema.json` requires only `id` and `title`; `authors`, `year`,
 `publication`, `file` (relative path under `data/`), `doi`, and `url` are
-all optional.
+all optional. The PDF itself is not committed to the repo (`data/*.pdf`
+is gitignored) — the citation fields here, especially `doi`, are the
+part that's actually shared; see `data/README.md`.
 
 ## IDs
 
