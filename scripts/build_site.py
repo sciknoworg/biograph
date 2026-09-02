@@ -215,7 +215,7 @@ RELATION_DIRECTIONS = {
     "born_in": (("person",), ("place",)),
     "died_in": (("person",), ("place",)),
     "lived_in": (("person",), ("place",)),
-    "visited": (("person",), ("place",)),
+    "visited": (("person",), ("place", "organization")),
     "relocated_to": (("person",), ("place",)),
     "worked_at": (("person",), ("organization",)),
     "employed_by": (("person",), ("organization",)),
