@@ -158,7 +158,9 @@ rest of their lives") — these stand alone, with no `event_id`.
 
 Keep relations directed per the vocabulary's defined reading direction —
 e.g. `worked_at` always reads person → organization, never the reverse.
-See [Data model reference](data-model.md#relations) for the full list.
+This is build-enforced, not just a convention: get it backwards and step
+6 rejects it with exactly which `entity_type` it expected. See
+[Data model reference](data-model.md#relations) for the full list.
 
 ## 5. Write `subject.json`
 

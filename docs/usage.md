@@ -91,7 +91,11 @@ build.
 3. **Checks referential integrity** — every event's `participants[].entity_id`
    and `location`, every relation's `source`/`target`/`event_id`, and
    every `sources[].source_id` (on both events and relations) must point
-   to something that actually exists in this subject's files.
+   to something that actually exists in this subject's files. For
+   relations, this also checks the vocabulary's fixed reading direction —
+   a `worked_at` relation's `source` must actually be a `person` entity
+   and its `target` an `organization`, for all 27 relation types, not
+   just that the ids resolve.
 4. **Sorts** events by `date.sort_start` (ties broken by `sort_end`).
 5. **Inlines** the subject's data — plus the shared, pre-converted world
    map GeoJSON — into `frontend/template.html`, producing
@@ -148,6 +152,35 @@ The fix is either to correct the typo (`puurunen2014`) or to add the
 missing entry to `sources.json` — never to remove the citation to make
 the error go away, since every event requires at least one source (see
 [Data model reference](data-model.md#events)).
+
+### Example: a reversed relation direction and its fix
+
+Say a relation gets written backwards — `worked_at` with the organization
+as `source` instead of the person:
+
+```json
+{
+  "id": "suntola_worked_at_instrumentarium",
+  "source": "instrumentarium",
+  "type": "worked_at",
+  "target": "tuomo_suntola",
+  "sources": [{ "source_id": "puurunen2014", "page": 20 }]
+}
+```
+
+Both ids exist, so referential integrity alone wouldn't catch this — but
+the build does, because `worked_at` requires a `person` source and an
+`organization` target:
+
+```
+Validation failed for subject 'suntola':
+  relation suntola_worked_at_instrumentarium: 'worked_at' expects source entity_type person, but 'instrumentarium' is 'organization'
+  relation suntola_worked_at_instrumentarium: 'worked_at' expects target entity_type organization, but 'tuomo_suntola' is 'person'
+```
+
+The fix is to swap `source` and `target` — never to change the relation's
+`type` to something that happens to accept the wrong direction just to
+silence the error.
 
 ### Building without `jsonschema` installed
 

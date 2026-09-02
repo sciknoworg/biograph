@@ -104,7 +104,12 @@ A relation is `{ source, type, target }` plus optional time bounds
 `display`/sort split needed since relations aren't independently plotted)
 and source citations. `type` is drawn from the controlled vocabulary in
 `relation.schema.json`. Relations are directed; the vocabulary defines the
-reading direction (e.g. `worked_at`: person → organization).
+reading direction (e.g. `worked_at`: person → organization) — and
+`scripts/build_site.py`'s `RELATION_DIRECTIONS` table enforces it at
+build time, checking that `source`/`target` actually have the expected
+`entity_type` for that relation `type`, not just that the ids resolve.
+Keep that table in sync with this vocabulary the same way as
+`event_type` (see "Extending the vocabularies" below).
 
 ## IDs
 
@@ -154,4 +159,7 @@ live and checkable. Never add one from an image search or by eyeballing a
 `event_type` and relation `type` are closed enums on purpose — that's what
 keeps extraction consistent. To add a value, edit the schema file and add
 one line to this README's list rather than letting free-text types
-accumulate across subjects.
+accumulate across subjects. For a new relation `type`, also add its
+`(source_types, target_types)` entry to `RELATION_DIRECTIONS` in
+`scripts/build_site.py` — a type missing from that table silently skips
+the direction check instead of enforcing it.

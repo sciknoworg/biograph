@@ -31,8 +31,18 @@ integrity**: every event participant, every event's `location`, every
 relation's `source`/`target`/`event_id`, and every `sources[].source_id`
 must point to something that actually exists in that subject's files. See
 [Usage Guide](usage.md#example-a-referential-integrity-failure-and-its-fix)
-for a worked example of the build catching a broken reference. Closed
-vocabularies for `entity_type`, `event_type`, and relation `type` (see
+for a worked example of the build catching a broken reference.
+
+The same pass also enforces each relation type's **fixed reading
+direction** — `worked_at` always checks that `source` is a `person` and
+`target` is an `organization`, never the reverse, for all 27 relation
+types in `relation.schema.json`. This used to be convention only (stated
+in the extraction prompt and `schema/README.md`, but not code-enforced);
+a reversed or mistyped direction now fails the build with exactly which
+entity_type was expected, the same way an unknown id does, instead of
+building cleanly and only looking wrong once you inspect the graph.
+
+Closed vocabularies for `entity_type`, `event_type`, and relation `type` (see
 [Data model reference](data-model.md)) mean nothing free-text can drift
 into an inconsistent category across subjects.
 

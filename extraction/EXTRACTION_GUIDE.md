@@ -91,7 +91,9 @@ lives") — these stand alone, no `event_id`.
 
 Keep relations directed per the vocabulary's defined reading direction
 (see schema/README.md § Relations) — e.g. `worked_at` always reads
-person → organization, never the reverse.
+person → organization, never the reverse. This is build-enforced, not
+just a convention: get it backwards and step 7 rejects it with exactly
+which `entity_type` it expected.
 
 ## 6. Write `subjects/<slug>/subject.json`
 

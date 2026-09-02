@@ -100,7 +100,7 @@ above for the model. `event.schema.json` fields:
 
 | Field | Notes |
 |---|---|
-| `source` / `target` | Entity ids. Direction follows the vocabulary's defined reading — e.g. `worked_at` always reads person → organization. |
+| `source` / `target` | Entity ids. Direction follows the vocabulary's defined reading — e.g. `worked_at` always reads person → organization — and the build enforces it: `source`/`target` must actually have the expected `entity_type` for that relation `type`, not just resolve to *some* entity. |
 | `type` | Closed vocabulary of 27 values — see below. |
 | `event_id` | Optional link back to the `events.json` entry that established this relation (e.g. an `employment_start` event implies a `worked_at` relation). |
 | `start` / `end` | Optional fuzzy-date bounds (precision-only; no `display` needed since relations aren't independently plotted). |

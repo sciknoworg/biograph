@@ -208,6 +208,40 @@ def extract(pdf_path, slug, name, model, base_url, api_key, max_chars, max_token
 
 # ---------------------------------------------------------------- validate + build
 
+# Fixed reading direction for every relation.schema.json type: (allowed source
+# entity_types, allowed target entity_types). Keep in sync with that enum --
+# see schema/README.md "Extending the vocabularies".
+RELATION_DIRECTIONS = {
+    "born_in": (("person",), ("place",)),
+    "died_in": (("person",), ("place",)),
+    "lived_in": (("person",), ("place",)),
+    "visited": (("person",), ("place",)),
+    "relocated_to": (("person",), ("place",)),
+    "worked_at": (("person",), ("organization",)),
+    "employed_by": (("person",), ("organization",)),
+    "founded": (("person", "organization"), ("organization",)),
+    "member_of": (("person", "organization"), ("organization",)),
+    "supervised_by": (("person",), ("person",)),
+    "mentored": (("person",), ("person",)),
+    "collaborated_with": (("person",), ("person", "organization")),
+    "met": (("person",), ("person",)),
+    "married_to": (("person",), ("person",)),
+    "family_of": (("person",), ("person",)),
+    "studied_at": (("person",), ("organization",)),
+    "educated_by": (("person",), ("person",)),
+    "invented": (("person", "organization"), ("artifact",)),
+    "patented": (("person", "organization"), ("artifact",)),
+    "published": (("person", "organization"), ("artifact",)),
+    "developed": (("person", "organization"), ("artifact",)),
+    "awarded": (("person", "organization"), ("artifact",)),
+    "licensed_to": (("organization",), ("organization",)),
+    "acquired_by": (("organization",), ("organization",)),
+    "sold_to": (("organization",), ("organization",)),
+    "renamed_to": (("organization",), ("organization",)),
+    "corresponded_with": (("person",), ("person",)),
+}
+
+
 def load(path):
     with open(path, encoding="utf-8") as f:
         return json.load(f)
@@ -250,6 +284,7 @@ def validate_subject(slug):
         check("source", sources)
 
         ent_ids = {e["id"] for e in entities}
+        ent_type = {e["id"]: e["entity_type"] for e in entities}
         src_ids = {s["id"] for s in sources}
         event_ids = {e["id"] for e in events}
         for ev in events:
@@ -262,10 +297,20 @@ def validate_subject(slug):
                 if s["source_id"] not in src_ids:
                     errors.append(f"event {ev['id']}: unknown source '{s['source_id']}'")
         for r in relations:
-            if r["source"] not in ent_ids:
+            src_ok, tgt_ok = r["source"] in ent_ids, r["target"] in ent_ids
+            if not src_ok:
                 errors.append(f"relation {r['id']}: unknown source entity '{r['source']}'")
-            if r["target"] not in ent_ids:
+            if not tgt_ok:
                 errors.append(f"relation {r['id']}: unknown target entity '{r['target']}'")
+            if src_ok and tgt_ok:  # both resolve -- check the vocabulary's fixed reading direction
+                exp_src, exp_tgt = RELATION_DIRECTIONS.get(r["type"], ((), ()))
+                got_src, got_tgt = ent_type[r["source"]], ent_type[r["target"]]
+                if exp_src and got_src not in exp_src:
+                    errors.append(f"relation {r['id']}: '{r['type']}' expects source entity_type "
+                                  f"{'/'.join(exp_src)}, but '{r['source']}' is '{got_src}'")
+                if exp_tgt and got_tgt not in exp_tgt:
+                    errors.append(f"relation {r['id']}: '{r['type']}' expects target entity_type "
+                                  f"{'/'.join(exp_tgt)}, but '{r['target']}' is '{got_tgt}'")
             if r.get("event_id") and r["event_id"] not in event_ids:
                 errors.append(f"relation {r['id']}: unknown event_id '{r['event_id']}'")
             for s in r["sources"]:
