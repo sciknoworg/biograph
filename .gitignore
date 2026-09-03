@@ -14,3 +14,17 @@ scripts/find_sources.py
 candidates.json
 .find_sources_cache.json
 .find_sources_dismissed.json
+
+# Same discovery pipeline, extended to download PDFs and run continuously
+# and unattended (see source-discovery-plan.md) -- same private/local
+# reasoning as find_sources.py above; only build_site.py's writes into
+# subjects/ are the public, committed output of any of this.
+scripts/download_sources.py
+scripts/run_pipeline.py
+materials_taxonomy.json
+pipeline_state.json
+pipeline_log.txt
+.pipeline_manifest.json
+candidates_bootstrap.json
+candidates_autoseed.json
+data/_pending/
