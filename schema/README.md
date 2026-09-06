@@ -147,14 +147,41 @@ build time, checking that `source`/`target` actually have the expected
 Keep that table in sync with this vocabulary the same way as
 `event_type` (see "Extending the vocabularies" below).
 
-A target slot may legitimately allow more than one `entity_type`. `visited`
-and `lived_in` both accept `place` **or** `organization`, because an
-institution is honestly both a body and somewhere you can be: a college, a
-monastery, a hospital. That is not a loophole for sloppy typing — it
-reflects that `Gresham College` typed as an `organization` and "Hooke lived
-there" are each correct, and a validator that rejected the pair discarded an
-otherwise sound extraction over one edge. When adding a relation type, ask
-whether its target is genuinely single-typed before constraining it to one.
+A slot may legitimately allow more than one `entity_type`. `visited` and
+`lived_in` accept `place` **or** `organization`, because an institution is
+honestly both a body and somewhere you can be: a college, a monastery, a
+hospital. `employed_by`, `licensed_to`, `acquired_by` and `sold_to` accept a
+person at either end — an apprentice is employed by a master, and individuals
+really did hold licences and buy businesses, especially before incorporation
+was common. `founded` accepts an `artifact` target, since founding a journal
+is a real act.
+
+None of that is a loophole for sloppy typing. Each was widened from a real
+observed case, not from guesswork: `Gresham College` typed as an
+`organization` and "Hooke lived there" are each correct, and a validator that
+rejected the pair discarded an otherwise sound extraction over one edge. When
+adding a relation type, ask whether its ends are genuinely single-typed before
+constraining them.
+
+`worked_at` is deliberately **not** widened to accept a `place`. Sources
+routinely write "he went to Uppsala" meaning the university, but "worked at
+Uppsala the city" and "worked at Uppsala University" are different claims, and
+collapsing them would erode the person → organization guarantee that makes the
+graph queryable. Such relations are set aside instead (below).
+
+### Set-aside relations
+
+A relation that fails the direction check, or names an entity that doesn't
+exist, is dropped from the build and written to
+`subjects/<slug>/<doc>/relations.rejected.json` with its reason and citations
+— rather than failing the whole subject. A relation is a leaf: nothing else
+references it, so removing one leaves nothing else inconsistent. Dangling
+references in *events* stay fatal, since events carry the timeline the rest of
+the graph hangs off.
+
+The parked files are worth reading periodically. A set-aside relation is often
+a variant reading rather than a mistake, so they are the evidence base for
+deciding which entries here are still too narrow.
 
 ## IDs
 

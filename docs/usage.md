@@ -127,7 +127,9 @@ build.
    relations, this also checks the vocabulary's fixed reading direction —
    a `worked_at` relation's `source` must actually be a `person` entity
    and its `target` an `organization`, for all 27 relation types, not
-   just that the ids resolve.
+   just that the ids resolve. A relation that fails this check, or whose
+   `source`/`target` names an entity that doesn't exist, is **set aside
+   rather than fatal** — see "Set-aside relations" below.
 4. **Sorts** events by `date.sort_start` (ties broken by `sort_end`).
 5. **Inlines** the subject's data — plus the shared, pre-converted world
    map GeoJSON — into `frontend/template.html`, producing
@@ -205,14 +207,37 @@ the build does, because `worked_at` requires a `person` source and an
 `organization` target:
 
 ```
-Validation failed for subject 'suntola':
-  relation suntola_worked_at_instrumentarium: 'worked_at' expects source entity_type person, but 'instrumentarium' is 'organization'
-  relation suntola_worked_at_instrumentarium: 'worked_at' expects target entity_type organization, but 'tuomo_suntola' is 'person'
+  (1 relation(s) set aside -- unexpected entity_type for the relation type; the rest of the extraction is kept)
+    suntola_worked_at_instrumentarium: 'worked_at' expects source entity_type person, but 'instrumentarium' is 'organization'
+    -> parked in subjects/suntola/puurunen2014/relations.rejected.json
 ```
 
 The fix is to swap `source` and `target` — never to change the relation's
 `type` to something that happens to accept the wrong direction just to
 silence the error.
+
+### Set-aside relations
+
+A relation whose ends resolve to real entities but carry an unexpected
+`entity_type`, or which points at an entity that was never defined, is
+**dropped from the build and written to
+`subjects/<slug>/<doc>/relations.rejected.json`** — with the reason and its
+full source citation — instead of failing the whole subject.
+
+This is reported, not enforced, for the same reason as the grounding check:
+it is a first-pass draft either way, and a hard gate threw away far more than
+it protected. Measured across this project's automated runs, **23 complete
+extractions were discarded over 26 offending relations** — roughly one bad
+edge each, costing about 20 entities, 15 events and 12 relations every time.
+
+Nothing is lost. A set-aside relation is often a *variant reading* rather than
+an error — "employed by" a person (an apprentice and his master) is real
+history that the vocabulary simply didn't allow — so the parked file doubles as
+evidence for which `RELATION_DIRECTIONS` entries are too narrow. Review it, fix
+the entity's type or the relation's direction, and rebuild.
+
+Errors that really do indicate corruption — a schema violation, an event
+pointing at a missing participant, a missing source citation — remain fatal.
 
 ### Building without `jsonschema` installed
 

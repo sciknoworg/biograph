@@ -1,0 +1,274 @@
+[
+  {
+    "id": "wedgwood_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1730",
+      "precision": "year",
+      "sort_start": "1730-01-01",
+      "sort_end": "1730-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "josiah_wedgwood",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chaldecott_1975",
+        "page": 1,
+        "quote": "JOSIAH WEDGWOOD (1730-95)—SCIENTIST"
+      }
+    ]
+  },
+  {
+    "id": "wedgwood_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1795",
+      "precision": "year",
+      "sort_start": "1795-01-01",
+      "sort_end": "1795-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "josiah_wedgwood",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chaldecott_1975",
+        "page": 1,
+        "quote": "JOSIAH WEDGWOOD (1730-95)—SCIENTIST"
+      }
+    ]
+  },
+  {
+    "id": "interest_in_temperature",
+    "event_type": "other",
+    "label": "Interest in temperature measurement began",
+    "description": "Wedgwood's recorded interest in the problem of temperature measurement dates from this period.",
+    "date": {
+      "display": "late 1770s",
+      "precision": "decade",
+      "sort_start": "1775-01-01",
+      "sort_end": "1779-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "josiah_wedgwood",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chaldecott_1975",
+        "page": 2,
+        "quote": "Wedgwood's recorded interest in the problem of temperature measurement dates from the late 1770s"
+      }
+    ]
+  },
+  {
+    "id": "ceramic_pyrometer_idea",
+    "event_type": "invention",
+    "label": "Conceived ceramic pyrometer idea",
+    "description": "First record of his idea for making a ceramic pyrometer found in Common place book no. 1.",
+    "date": {
+      "display": "19 May 1781",
+      "precision": "day",
+      "sort_start": "1781-05-19",
+      "sort_end": "1781-05-19"
+    },
+    "participants": [
+      {
+        "entity_id": "josiah_wedgwood",
+        "role": "subject"
+      },
+      {
+        "entity_id": "wedgwood_pyrometer",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chaldecott_1975",
+        "page": 3,
+        "quote": "An entry in Wedgwood's 'Common place book no. 1', dated 19 May 1781, is the first record we have of his idea for making a ceramic pyrometer."
+      }
+    ]
+  },
+  {
+    "id": "philosophic_society_paper",
+    "event_type": "conference",
+    "label": "Read paper at Philosophic Society",
+    "description": "Wedgwood read a paper on this subject at a meeting of the Philosophic Society.",
+    "date": {
+      "display": "29 June 1781",
+      "precision": "day",
+      "sort_start": "1781-06-29",
+      "sort_end": "1781-06-29"
+    },
+    "participants": [
+      {
+        "entity_id": "josiah_wedgwood",
+        "role": "subject"
+      },
+      {
+        "entity_id": "philosophic_society",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chaldecott_1975",
+        "page": 3,
+        "quote": "Wedgwood read a paper on this subject at a meeting of the Philosophic Society on 29 June 1781"
+      }
+    ]
+  },
+  {
+    "id": "banks_greville_reading",
+    "event_type": "meeting",
+    "label": "Read revised paper to Banks and Greville",
+    "description": "A revised version of this paper was read to Sir Joseph Banks and the Hon. Charles Greville at Wedgwood's house in London.",
+    "date": {
+      "display": "2 December 1781",
+      "precision": "day",
+      "sort_start": "1781-12-02",
+      "sort_end": "1781-12-02"
+    },
+    "participants": [
+      {
+        "entity_id": "josiah_wedgwood",
+        "role": "subject"
+      },
+      {
+        "entity_id": "joseph_banks",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chaldecott_1975",
+        "page": 3,
+        "quote": "A revised version of this paper was read to Sir Joseph Banks and the Hon. Charles Greville at Wedgwood's house in London on 2 December 1781"
+      }
+    ]
+  },
+  {
+    "id": "investigations_begun",
+    "event_type": "other",
+    "label": "Pyrometer investigations begun",
+    "description": "Investigations into burning shrinkage of clay for the pyrometer were begun.",
+    "date": {
+      "display": "1 January 1782",
+      "precision": "day",
+      "sort_start": "1782-01-01",
+      "sort_end": "1782-01-01"
+    },
+    "participants": [
+      {
+        "entity_id": "josiah_wedgwood",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chaldecott_1975",
+        "page": 4,
+        "quote": "These investigations were begun on 1 January 1782."
+      }
+    ]
+  },
+  {
+    "id": "royal_society_paper_1782",
+    "event_type": "publication",
+    "label": "Read paper at Royal Society",
+    "description": "Wedgwood's first paper on the ceramic pyrometer, read at the Royal Society.",
+    "date": {
+      "display": "9 May 1782",
+      "precision": "day",
+      "sort_start": "1782-05-09",
+      "sort_end": "1782-05-09"
+    },
+    "participants": [
+      {
+        "entity_id": "josiah_wedgwood",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_society_of_london",
+        "role": "employer"
+      },
+      {
+        "entity_id": "philosophical_transactions",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chaldecott_1975",
+        "page": 6,
+        "quote": "Wedgwood's first paper on the ceramic pyrometer, read at the Royal Society on 9 May 1782"
+      }
+    ]
+  },
+  {
+    "id": "pamphlet_published",
+    "event_type": "publication",
+    "label": "Published pyrometer pamphlet",
+    "description": "Wedgwood published a pamphlet revealing he would supply pyrometer sets.",
+    "date": {
+      "display": "1784",
+      "precision": "year",
+      "sort_start": "1784-01-01",
+      "sort_end": "1784-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "josiah_wedgwood",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chaldecott_1975",
+        "page": 13,
+        "quote": "In a pamphlet that Wedgwood published two years later, however, he revealed that he would after all be prepared to meet requests for the supply of pyrometer sets."
+      }
+    ]
+  },
+  {
+    "id": "pyrometer_sales",
+    "event_type": "product_launch",
+    "label": "Pyrometer sets sold",
+    "description": "Ledger-books record the sale of forty pyrometer sets between June 1786 and February 1787.",
+    "date": {
+      "display": "June 1786–February 1787",
+      "precision": "range",
+      "sort_start": "1786-06-01",
+      "sort_end": "1787-02-28"
+    },
+    "participants": [
+      {
+        "entity_id": "josiah_wedgwood",
+        "role": "subject"
+      },
+      {
+        "entity_id": "wedgwood_pyrometer",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chaldecott_1975",
+        "page": 14,
+        "quote": "One of his ledger-books has a record of the sale of forty pyrometer sets between June 1786 and February 1787"
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "wedgwood_worked_etruria",
+    "source": "josiah_wedgwood",
+    "type": "worked_at",
+    "target": "etruria",
+    "sources": [
+      {
+        "source_id": "chaldecott_1975",
+        "page": 13,
+        "quote": "some perhaps for use at the factory at Etruria"
+      }
+    ],
+    "_rejected_because": "'worked_at' expects target entity_type organization, but 'etruria' is 'place'"
+  }
+]

@@ -1,0 +1,226 @@
+[
+  {
+    "id": "barthlott_phd_heidelberg",
+    "event_type": "education",
+    "label": "Started Ph.D. at University of Heidelberg",
+    "description": "Began his scientific career as a young Ph.D. student at the Institute for Botany.",
+    "date": {
+      "display": "1970s",
+      "precision": "decade",
+      "sort_start": "1970-01-01",
+      "sort_end": "1979-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wilhelm_barthlott",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_heidelberg",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "neinhuis_2017",
+        "page": 5,
+        "quote": "In the 1970th, a new era began for the young Ph.D. student Wilhelm Barthlott at the Institute for Botany of the University of Heidelberg."
+      }
+    ]
+  },
+  {
+    "id": "barthlott_sem_study",
+    "event_type": "other",
+    "label": "Started using scanning electron microscopy",
+    "description": "Received one of the first scanning electron microscopes in German botany to study micro- and nanostructures.",
+    "date": {
+      "display": "1970s",
+      "precision": "decade",
+      "sort_start": "1970-01-01",
+      "sort_end": "1979-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wilhelm_barthlott",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "neinhuis_2017",
+        "page": 5,
+        "quote": "He received one of the first scanning electron microscopes in German botany and started to intensively study the fascinating world of micro- and nanostructures of leaves, flowers, seeds or pollen grains."
+      }
+    ]
+  },
+  {
+    "id": "barthlott_hypothesis",
+    "event_type": "invention",
+    "label": "Formulated self-cleaning hypothesis",
+    "description": "Hypothesized that self-cleaning might be one of the most important functions of rough water-repellent leaf surfaces.",
+    "date": {
+      "display": "1977",
+      "precision": "year",
+      "sort_start": "1977-01-01",
+      "sort_end": "1977-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wilhelm_barthlott",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "neinhuis_2017",
+        "page": 5,
+        "quote": "Wilhelm Barthlott formulated the hypothesis very early that \"self-cleaning\" might be one of the most important functions of rough water-repellent leaf surfaces [12]"
+      }
+    ]
+  },
+  {
+    "id": "barthlott_professor_bonn",
+    "event_type": "employment_start",
+    "label": "Appointed professor at University of Bonn",
+    "description": "Resumed research on self-cleaning surfaces after appointment as professor for botany.",
+    "date": {
+      "display": "1980s",
+      "precision": "decade",
+      "sort_start": "1980-01-01",
+      "sort_end": "1989-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wilhelm_barthlott",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_bonn",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "neinhuis_2017",
+        "page": 5,
+        "quote": "Some years later, now appointed as professor for botany at the University of Bonn, Wilhelm Barthlott resumed this research."
+      }
+    ]
+  },
+  {
+    "id": "barthlott_self_cleaning_proof",
+    "event_type": "invention",
+    "label": "Proved self-cleaning properties",
+    "description": "Proved the astonishing self-cleaning properties of rough water-repellent surfaces by the end of the 1980s.",
+    "date": {
+      "display": "end of the 1980s",
+      "precision": "decade",
+      "sort_start": "1985-01-01",
+      "sort_end": "1989-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wilhelm_barthlott",
+        "role": "subject"
+      },
+      {
+        "entity_id": "christoph_neinhuis",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "neinhuis_2017",
+        "page": 5,
+        "quote": "we were able to prove the astonishing self-cleaning properties of rough water-repellent surfaces by the end of the 1980s"
+      }
+    ]
+  },
+  {
+    "id": "barthlott_internal_report",
+    "event_type": "publication",
+    "label": "Published internal report at University of Bonn",
+    "description": "Released an internal report on self-cleaning ability of plant surfaces.",
+    "date": {
+      "display": "1992",
+      "precision": "year",
+      "sort_start": "1992-01-01",
+      "sort_end": "1992-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wilhelm_barthlott",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_bonn",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "neinhuis_2017",
+        "page": 6,
+        "quote": "Apart from an internal report of the University of Bonn [39] several attempts to publish the results failed."
+      }
+    ]
+  },
+  {
+    "id": "barthlott_planta_paper",
+    "event_type": "publication",
+    "label": "Published paper in Planta",
+    "description": "Paper appeared in Planta five years after the first submission with help from Andreas Sievers.",
+    "date": {
+      "display": "1997",
+      "precision": "year",
+      "sort_start": "1997-01-01",
+      "sort_end": "1997-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wilhelm_barthlott",
+        "role": "subject"
+      },
+      {
+        "entity_id": "planta_journal",
+        "role": "publication"
+      },
+      {
+        "entity_id": "andreas_sievers",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "neinhuis_2017",
+        "page": 6,
+        "quote": "Finally, with the help of the former editor Andreas Sievers, the paper appeared in \"Planta\" five years after the first submission [40]"
+      }
+    ]
+  },
+  {
+    "id": "barthlott_ann_bot_paper",
+    "event_type": "publication",
+    "label": "Published survey in Annals of Botany",
+    "description": "Followed by a survey about the characterisation and distribution of self-cleaning surfaces among plants.",
+    "date": {
+      "display": "1997",
+      "precision": "year",
+      "sort_start": "1997-01-01",
+      "sort_end": "1997-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wilhelm_barthlott",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "neinhuis_2017",
+        "page": 6,
+        "quote": "followed by a survey about the characterisation and distribution of self-cleaning surfaces among plants [41]."
+      }
+    ]
+  }
+]

@@ -1,0 +1,468 @@
+[
+  {
+    "id": "birth_1924",
+    "event_type": "birth",
+    "label": "Born in Ranchi",
+    "date": {
+      "display": "July 1924",
+      "precision": "month",
+      "sort_start": "1924-07-01",
+      "sort_end": "1924-07-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rustum_roy",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "somiya_ikuma_2011",
+        "page": 1,
+        "quote": "July 1924~August 2010"
+      }
+    ]
+  },
+  {
+    "id": "education_bsc_1942",
+    "event_type": "education",
+    "label": "Received B.Sc. in Physical Chemistry",
+    "date": {
+      "display": "1942",
+      "precision": "year",
+      "sort_start": "1942-01-01",
+      "sort_end": "1942-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rustum_roy",
+        "role": "subject"
+      },
+      {
+        "entity_id": "patna_university",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "somiya_ikuma_2011",
+        "page": 1,
+        "quote": "In 1942 he received B. Sc. in Physical Chemistry from Patna University"
+      }
+    ]
+  },
+  {
+    "id": "education_msc_1944",
+    "event_type": "education",
+    "label": "Received M.Sc.",
+    "date": {
+      "display": "1944",
+      "precision": "year",
+      "sort_start": "1944-01-01",
+      "sort_end": "1944-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rustum_roy",
+        "role": "subject"
+      },
+      {
+        "entity_id": "patna_university",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "somiya_ikuma_2011",
+        "page": 1,
+        "quote": "and 1944 M. Sc. from the same university."
+      }
+    ]
+  },
+  {
+    "id": "relocation_usa_1945",
+    "event_type": "relocation",
+    "label": "Moved to U.S.A.",
+    "date": {
+      "display": "1945",
+      "precision": "year",
+      "sort_start": "1945-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rustum_roy",
+        "role": "subject"
+      },
+      {
+        "entity_id": "usa",
+        "role": "destination"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "somiya_ikuma_2011",
+        "page": 1,
+        "quote": "He went to U. S. A. in 1945."
+      }
+    ]
+  },
+  {
+    "id": "education_phd_1948",
+    "event_type": "education",
+    "label": "Earned Ph.D. in ceramics",
+    "date": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rustum_roy",
+        "role": "subject"
+      },
+      {
+        "entity_id": "pennsylvania_state_university",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "somiya_ikuma_2011",
+        "page": 1,
+        "quote": "He earned a Ph. D. in ceramics at Pennsylvania State University in 1948"
+      }
+    ]
+  },
+  {
+    "id": "citizenship_1961",
+    "event_type": "other",
+    "label": "Became American citizen",
+    "date": {
+      "display": "1961",
+      "precision": "year",
+      "sort_start": "1961-01-01",
+      "sort_end": "1961-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rustum_roy",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "somiya_ikuma_2011",
+        "page": 1,
+        "quote": "and became A merican citizen in 1961."
+      }
+    ]
+  },
+  {
+    "id": "employment_start_asst_prof_1951",
+    "event_type": "employment_start",
+    "label": "Appointed Assistant Professor",
+    "date": {
+      "display": "1951",
+      "precision": "year",
+      "sort_start": "1951-01-01",
+      "sort_end": "1951-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rustum_roy",
+        "role": "subject"
+      },
+      {
+        "entity_id": "pennsylvania_state_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "somiya_ikuma_2011",
+        "page": 1,
+        "quote": "In 1951, he was appointed to Assistant Professor at Pennsylvania State University."
+      }
+    ]
+  },
+  {
+    "id": "role_change_prof_1957",
+    "event_type": "role_change",
+    "label": "Promoted to professor",
+    "date": {
+      "display": "1957",
+      "precision": "year",
+      "sort_start": "1957-01-01",
+      "sort_end": "1957-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rustum_roy",
+        "role": "subject"
+      },
+      {
+        "entity_id": "pennsylvania_state_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "somiya_ikuma_2011",
+        "page": 1,
+        "quote": "In 1957 he was promoted to professor"
+      }
+    ]
+  },
+  {
+    "id": "employment_start_director_mrl_1962",
+    "event_type": "employment_start",
+    "label": "Appointed director of Materials Research Laboratory",
+    "date": {
+      "display": "1962",
+      "precision": "year",
+      "sort_start": "1962-01-01",
+      "sort_end": "1962-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rustum_roy",
+        "role": "subject"
+      },
+      {
+        "entity_id": "materials_research_laboratory",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "somiya_ikuma_2011",
+        "page": 1,
+        "quote": "He was appointed as the first director of an independent interdisciplinary Materials Research Laboratory at Pennsylvania State University in 1962"
+      }
+    ]
+  },
+  {
+    "id": "employment_end_director_mrl_1985",
+    "event_type": "employment_end",
+    "label": "Ended directorship of Materials Research Laboratory",
+    "description": "Served the position for 23 years.",
+    "date": {
+      "display": "1985",
+      "precision": "year",
+      "sort_start": "1985-01-01",
+      "sort_end": "1985-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rustum_roy",
+        "role": "subject"
+      },
+      {
+        "entity_id": "materials_research_laboratory",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "somiya_ikuma_2011",
+        "page": 1,
+        "quote": "and served the position for 23 years."
+      }
+    ]
+  },
+  {
+    "id": "role_change_evan_pugh_1981",
+    "event_type": "role_change",
+    "label": "Appointed Evan Pugh Professor",
+    "date": {
+      "display": "1981",
+      "precision": "year",
+      "sort_start": "1981-01-01",
+      "sort_end": "1981-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rustum_roy",
+        "role": "subject"
+      },
+      {
+        "entity_id": "pennsylvania_state_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "somiya_ikuma_2011",
+        "page": 1,
+        "quote": "and in 1981 he was appointed to Evan Pugh Professor"
+      }
+    ]
+  },
+  {
+    "id": "organization_founded_mrs_1973",
+    "event_type": "company_founded",
+    "label": "Co-founded Materials Research Society",
+    "date": {
+      "display": "1973",
+      "precision": "year",
+      "sort_start": "1973-01-01",
+      "sort_end": "1973-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rustum_roy",
+        "role": "founder"
+      },
+      {
+        "entity_id": "materials_research_society",
+        "role": "founded_entity"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "somiya_ikuma_2011",
+        "page": 1,
+        "quote": "In 1973 he co -founded the pioneering interdisciplinary scientific society  the Materials Researc h Society (MRS)"
+      }
+    ]
+  },
+  {
+    "id": "organization_founded_mrs_japan_1989",
+    "event_type": "company_founded",
+    "label": "Materials Research Society of Japan established",
+    "date": {
+      "display": "1989",
+      "precision": "year",
+      "sort_start": "1989-01-01",
+      "sort_end": "1989-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "materials_research_society_of_japan",
+        "role": "founded_entity"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "somiya_ikuma_2011",
+        "page": 1,
+        "quote": "Materials Research Society of Japan established in 1989 is one of these MRSs."
+      }
+    ]
+  },
+  {
+    "id": "organization_founded_iumrs_1991",
+    "event_type": "company_founded",
+    "label": "International Union of Materials Research Society established",
+    "date": {
+      "display": "1991",
+      "precision": "year",
+      "sort_start": "1991-01-01",
+      "sort_end": "1991-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "international_union_of_materials_research_society",
+        "role": "founded_entity"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "somiya_ikuma_2011",
+        "page": 1,
+        "quote": "In 1991 International Unio n of Materials Research Society (IUMRS) was established."
+      }
+    ]
+  },
+  {
+    "id": "award_2000",
+    "event_type": "award",
+    "label": "Received Commendation for Meritorious Service",
+    "date": {
+      "display": "2000",
+      "precision": "year",
+      "sort_start": "2000-01-01",
+      "sort_end": "2000-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rustum_roy",
+        "role": "recipient"
+      },
+      {
+        "entity_id": "ministry_of_education_culture_sports_science_and_technology_japan",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "commendation_for_meritorious_service",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "somiya_ikuma_2011",
+        "page": 1,
+        "quote": "Commendation for Meritorious Service in the Field of International Exchange in 2000 from Ministry of Education, Culture, Sports, Science and Technology, Japan."
+      }
+    ]
+  },
+  {
+    "id": "award_2002",
+    "event_type": "award",
+    "label": "Received Order of the Rising Sun",
+    "date": {
+      "display": "2002",
+      "precision": "year",
+      "sort_start": "2002-01-01",
+      "sort_end": "2002-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rustum_roy",
+        "role": "recipient"
+      },
+      {
+        "entity_id": "emperor_of_japan",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "order_of_the_rising_sun_3rd_class",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "somiya_ikuma_2011",
+        "page": 1,
+        "quote": "He received Order of the Rising Sun, 3rd Class, Gold Rays with Neck Ribbo n in 2002 from Emperor of Japan"
+      }
+    ]
+  },
+  {
+    "id": "death_2010",
+    "event_type": "death",
+    "label": "Passed away in State College",
+    "date": {
+      "display": "August 26, 2010",
+      "precision": "day",
+      "sort_start": "2010-08-26",
+      "sort_end": "2010-08-26"
+    },
+    "location": "state_college_pennsylvania",
+    "participants": [
+      {
+        "entity_id": "rustum_roy",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "somiya_ikuma_2011",
+        "page": 1,
+        "quote": "Professor Rustum Roy, 86, passed away on August 26, 2010 at State College, Pennsylvania, U. S. A."
+      }
+    ]
+  }
+]

@@ -21,7 +21,7 @@ data/*.txt
 # the "Visibility" decision in the sourcing-plan discussion.
 scripts/find_sources.py
 candidates.json
-.find_sources_cache.json
+.find_sources_cache.json*
 .find_sources_dismissed.json
 
 # Same discovery pipeline, extended to download PDFs and run continuously
@@ -50,3 +50,5 @@ scripts/pipeline_status.py
 # reasons; a .bak of an ignored file is still that file.
 materials_taxonomy.json.*
 pipeline_state.json.*
+.openalex_backlog.json
+scripts/backup_evidence.py

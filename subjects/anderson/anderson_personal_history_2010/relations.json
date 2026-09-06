@@ -1,0 +1,123 @@
+[
+  {
+    "id": "anderson_studied_harvard",
+    "source": "philip_w_anderson",
+    "type": "studied_at",
+    "target": "harvard_university",
+    "event_id": "anderson_harvard_entry",
+    "sources": [
+      {
+        "source_id": "anderson_personal_history_2010",
+        "page": 2,
+        "quote": "sent off to Harvard in 1940 at 16"
+      }
+    ]
+  },
+  {
+    "id": "anderson_supervised_van_vleck",
+    "source": "philip_w_anderson",
+    "type": "supervised_by",
+    "target": "john_van_vleck",
+    "sources": [
+      {
+        "source_id": "anderson_personal_history_2010",
+        "page": 2,
+        "quote": "I was fortunate enough to study theoretical physics under a marvelous man named John van Vleck"
+      }
+    ]
+  },
+  {
+    "id": "anderson_worked_bell_labs",
+    "source": "philip_w_anderson",
+    "type": "employed_by",
+    "target": "bell_labs",
+    "event_id": "anderson_bell_labs_start",
+    "sources": [
+      {
+        "source_id": "anderson_personal_history_2010",
+        "page": 2,
+        "quote": "after my degree in '49, to industry --Bell Labs"
+      }
+    ]
+  },
+  {
+    "id": "anderson_worked_princeton",
+    "source": "philip_w_anderson",
+    "type": "employed_by",
+    "target": "princeton_university",
+    "event_id": "anderson_princeton_professor",
+    "sources": [
+      {
+        "source_id": "anderson_personal_history_2010",
+        "page": 2,
+        "quote": "After leaving Bell, I became a full-time professor at the last of these [Princeton]"
+      }
+    ]
+  },
+  {
+    "id": "anderson_awarded_nobel",
+    "source": "philip_w_anderson",
+    "type": "awarded",
+    "target": "nobel_prize_physics_1977",
+    "event_id": "anderson_nobel_prize",
+    "sources": [
+      {
+        "source_id": "anderson_personal_history_2010",
+        "page": 2,
+        "quote": "In 1977, I was --honestly--surprized to be chosen for the Nobel Prize"
+      }
+    ]
+  },
+  {
+    "id": "anderson_collaborated_baskaran",
+    "source": "philip_w_anderson",
+    "type": "collaborated_with",
+    "target": "g_baskaran",
+    "sources": [
+      {
+        "source_id": "anderson_personal_history_2010",
+        "page": 5,
+        "quote": "Baskaran will play a big role in what follows."
+      }
+    ]
+  },
+  {
+    "id": "anderson_collaborated_rice",
+    "source": "philip_w_anderson",
+    "type": "collaborated_with",
+    "target": "maurice_rice",
+    "sources": [
+      {
+        "source_id": "anderson_personal_history_2010",
+        "page": 9,
+        "quote": "Certainly my old friend Maurice Rice... would see it as I did."
+      }
+    ]
+  },
+  {
+    "id": "anderson_collaborated_ong",
+    "source": "philip_w_anderson",
+    "type": "collaborated_with",
+    "target": "phuan_ong",
+    "sources": [
+      {
+        "source_id": "anderson_personal_history_2010",
+        "page": 50,
+        "quote": "The only colleague who has stayed with me essentially through the whole period has been Phuan Ong"
+      }
+    ]
+  },
+  {
+    "id": "anderson_developed_cuprates",
+    "source": "philip_w_anderson",
+    "type": "developed",
+    "target": "cuprate_superconductors",
+    "sources": [
+      {
+        "source_id": "anderson_personal_history_2010",
+        "page": 1,
+        "quote": "PERSONAL HISTORY OF MY ENGAGEMENT WITH CUPRATE SUPERCONDUCTIVITY"
+      }
+    ]
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "id": "wilhelm_barthlott",
+    "entity_type": "person",
+    "name": "Wilhelm Barthlott",
+    "aliases": [
+      "Barthlott",
+      "W. Barthlott"
+    ],
+    "summary": "German botanist known for discovering the self-cleaning properties of lotus leaves and coining the Lotus-Effect.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "christoph_neinhuis",
+    "entity_type": "person",
+    "name": "Christoph Neinhuis",
+    "aliases": [
+      "Neinhuis",
+      "C. Neinhuis"
+    ],
+    "summary": "Botanist and author of the commentary, former student assistant in Barthlott's group.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "university_of_heidelberg",
+    "entity_type": "organization",
+    "name": "University of Heidelberg",
+    "aliases": [
+      "Institute for Botany of the University of Heidelberg",
+      "Heidelberg"
+    ],
+    "summary": "German university where Barthlott began his Ph.D. studies in the 1970s.",
+    "subtype": "university"
+  },
+  {
+    "id": "university_of_bonn",
+    "entity_type": "organization",
+    "name": "University of Bonn",
+    "aliases": [
+      "Rheinische Friedrich-Wilhelms-Universität",
+      "Bonn"
+    ],
+    "summary": "German university where Barthlott was appointed professor for botany.",
+    "subtype": "university"
+  },
+  {
+    "id": "lotus_effect",
+    "entity_type": "artifact",
+    "name": "Lotus-Effect",
+    "aliases": [
+      "Lotus Effect",
+      "self-cleaning surfaces"
+    ],
+    "summary": "Trademark and concept describing self-cleaning properties of rough hydrophobic surfaces inspired by lotus leaves.",
+    "subtype": "trademark"
+  },
+  {
+    "id": "planta_journal",
+    "entity_type": "artifact",
+    "name": "Planta",
+    "aliases": [
+      "Planta journal"
+    ],
+    "summary": "Scientific journal where the seminal paper on self-cleaning surfaces was published in 1997.",
+    "subtype": "publication"
+  },
+  {
+    "id": "andreas_sievers",
+    "entity_type": "person",
+    "name": "Andreas Sievers",
+    "aliases": [
+      "Sievers",
+      "former editor Andreas Sievers"
+    ],
+    "summary": "Former editor who helped publish Barthlott's paper in Planta.",
+    "subtype": "editor"
+  },
+  {
+    "id": "nelumbo_nucifera",
+    "entity_type": "artifact",
+    "name": "Nelumbo nucifera",
+    "aliases": [
+      "sacred lotus",
+      "lotus"
+    ],
+    "summary": "Plant species whose leaves exhibited the self-cleaning properties studied by Barthlott.",
+    "subtype": "plant species"
+  },
+  {
+    "id": "ptfe",
+    "entity_type": "artifact",
+    "name": "PTFE",
+    "aliases": [
+      "polytetrafluoroethylene",
+      "microscopic particles of PTFE"
+    ],
+    "summary": "Material used in early technical demonstrators to replicate lotus surface roughness.",
+    "subtype": "material"
+  }
+]

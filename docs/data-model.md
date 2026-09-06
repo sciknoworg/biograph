@@ -147,10 +147,20 @@ the source states a fact without a datable event behind it (e.g. "they
 were lifelong friends").
 
 Relations are directed, and each type fixes the `entity_type` of its two
-ends (`worked_at`: person → organization). A couple of types accept two
-kinds of target: `visited` and `lived_in` both take a `place` *or* an
-`organization`, since a college or hospital is genuinely both a body and a
-location. See `schema/README.md` for the full reasoning.
+ends (`worked_at`: person → organization). Several types accept more than
+one kind of end, because historical biography genuinely needs it: `visited`
+and `lived_in` take a `place` *or* an `organization` (a college is both a
+body and a location); `employed_by`, `licensed_to`, `acquired_by` and
+`sold_to` accept a person at either end (an apprentice is employed by a
+master; individuals hold licences and buy businesses); `founded` accepts an
+`artifact` target (a journal is founded, not just a company). See
+`schema/README.md` for the full reasoning.
+
+A relation that still doesn't fit — or that points at an entity nobody
+defined — doesn't fail the build. It is set aside into
+`subjects/<slug>/<doc>/relations.rejected.json` with its reason and
+citations, and the rest of the extraction is kept. See
+[usage.md](usage.md) → "Set-aside relations".
 
 **`type` values:** `born_in`, `died_in`, `lived_in`, `visited`,
 `relocated_to`, `worked_at`, `employed_by`, `founded`, `member_of`,

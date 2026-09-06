@@ -114,7 +114,10 @@ Full explanation: [Data Accuracy & Provenance § Portraits](https://biograph.rea
 schema/          JSON Schema data model (entities, events, relations, sources)
 subjects/<slug>/ One person. subject.json + one folder per source document
                  (extraction output — by hand or by build_site.py, reviewed
-                 either way)
+                 either way). A document folder may also hold
+                 relations.rejected.json: relations set aside at build time
+                 because their ends carry an unexpected entity_type, kept with
+                 their reason and citations rather than discarded (docs/usage.md)
 extraction/      Guide for authoring a subject's data by hand + its own
                  requirements.txt (openai, pypdf — not needed just to view)
 frontend/        template.html — D3 explorer; reads subject JSON only

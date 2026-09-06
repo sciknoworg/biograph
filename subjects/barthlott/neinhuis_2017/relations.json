@@ -1,0 +1,72 @@
+[
+  {
+    "id": "barthlott_worked_heidelberg",
+    "source": "wilhelm_barthlott",
+    "type": "worked_at",
+    "target": "university_of_heidelberg",
+    "event_id": "barthlott_phd_heidelberg",
+    "sources": [
+      {
+        "source_id": "neinhuis_2017",
+        "page": 5,
+        "quote": "In the 1970th, a new era began for the young Ph.D. student Wilhelm Barthlott at the Institute for Botany of the University of Heidelberg."
+      }
+    ]
+  },
+  {
+    "id": "barthlott_worked_bonn",
+    "source": "wilhelm_barthlott",
+    "type": "worked_at",
+    "target": "university_of_bonn",
+    "event_id": "barthlott_professor_bonn",
+    "sources": [
+      {
+        "source_id": "neinhuis_2017",
+        "page": 5,
+        "quote": "Some years later, now appointed as professor for botany at the University of Bonn, Wilhelm Barthlott resumed this research."
+      }
+    ]
+  },
+  {
+    "id": "barthlott_mentored_neinhuis",
+    "source": "wilhelm_barthlott",
+    "type": "mentored",
+    "target": "christoph_neinhuis",
+    "note": "Neinhuis entered Barthlott's group as student assistant when Barthlott was at Bonn.",
+    "sources": [
+      {
+        "source_id": "neinhuis_2017",
+        "page": 5,
+        "quote": "This was the time when I entered his group as student assistant."
+      }
+    ]
+  },
+  {
+    "id": "barthlott_invented_lotus_effect",
+    "source": "wilhelm_barthlott",
+    "type": "invented",
+    "target": "lotus_effect",
+    "event_id": "barthlott_self_cleaning_proof",
+    "sources": [
+      {
+        "source_id": "neinhuis_2017",
+        "page": 6,
+        "quote": "the trademark \"Lotus-Effect\" has become a kind of synonym for functional water-repellent or even only hydrophobic surfaces."
+      }
+    ]
+  },
+  {
+    "id": "sievers_helped_barthlott",
+    "source": "andreas_sievers",
+    "type": "collaborated_with",
+    "target": "wilhelm_barthlott",
+    "event_id": "barthlott_planta_paper",
+    "sources": [
+      {
+        "source_id": "neinhuis_2017",
+        "page": 6,
+        "quote": "Finally, with the help of the former editor Andreas Sievers, the paper appeared in \"Planta\" five years after the first submission [40]"
+      }
+    ]
+  }
+]

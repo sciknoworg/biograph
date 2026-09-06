@@ -1,0 +1,153 @@
+[
+  {
+    "id": "siegbahn_worked_stockholm",
+    "source": "kai_siegbahn",
+    "type": "worked_at",
+    "target": "stockholm",
+    "sources": [
+      {
+        "source_id": "baer_sherwood_2025",
+        "page": 3,
+        "quote": "He started building the instrument in Stockholm and continued the work in Upsala where he moved in 1954."
+      }
+    ]
+  },
+  {
+    "id": "siegbahn_worked_uppsala",
+    "source": "kai_siegbahn",
+    "type": "worked_at",
+    "target": "uppsala_university",
+    "event_id": "siegbahn_moved_uppsala_1954",
+    "sources": [
+      {
+        "source_id": "baer_sherwood_2025",
+        "page": 3,
+        "quote": "He started building the instrument in Stockholm and continued the work in Upsala where he moved in 1954."
+      }
+    ]
+  },
+  {
+    "id": "siegbahn_mentored_nordling",
+    "source": "kai_siegbahn",
+    "type": "mentored",
+    "target": "carl_nordling",
+    "sources": [
+      {
+        "source_id": "baer_sherwood_2025",
+        "page": 4,
+        "quote": "Students Evelyn Sokolowski and Carl Nordling were co-authors on the first paper on a chemical shift in BE in 1958, and later close associates."
+      }
+    ]
+  },
+  {
+    "id": "siegbahn_mentored_sokolowski",
+    "source": "kai_siegbahn",
+    "type": "mentored",
+    "target": "evelyn_sokolowski",
+    "sources": [
+      {
+        "source_id": "baer_sherwood_2025",
+        "page": 4,
+        "quote": "Students Evelyn Sokolowski and Carl Nordling were co-authors on the first paper on a chemical shift in BE in 1958, and later close associates."
+      }
+    ]
+  },
+  {
+    "id": "siegbahn_collaborated_shirley",
+    "source": "kai_siegbahn",
+    "type": "collaborated_with",
+    "target": "david_shirley",
+    "event_id": "siegbahn_sabbatical_berkeley_1961",
+    "sources": [
+      {
+        "source_id": "baer_sherwood_2025",
+        "page": 5,
+        "quote": "Siegbahn (who spent a sabbatical year in 1961 in Shirley's laboratory)"
+      }
+    ]
+  },
+  {
+    "id": "siegbahn_visited_berkeley",
+    "source": "kai_siegbahn",
+    "type": "visited",
+    "target": "university_of_california_berkeley",
+    "event_id": "siegbahn_sabbatical_berkeley_1961",
+    "sources": [
+      {
+        "source_id": "baer_sherwood_2025",
+        "page": 5,
+        "quote": "Siegbahn (who spent a sabbatical year in 1961 in Shirley's laboratory)"
+      }
+    ]
+  },
+  {
+    "id": "siegbahn_awarded_nobel",
+    "source": "kai_siegbahn",
+    "type": "awarded",
+    "target": "nobel_prize_physics_1981",
+    "event_id": "siegbahn_nobel_prize_1981",
+    "sources": [
+      {
+        "source_id": "baer_sherwood_2025",
+        "page": 4,
+        "quote": "Kai Siegbahn, who received the 1981 Nobel Prize in Physics, refers to Robinson's work and his spectrum ( Figure 1) in his Nobel Prize lecture ( Siegbahn, 1981 )."
+      }
+    ]
+  },
+  {
+    "id": "siegbahn_published_solids_book",
+    "source": "kai_siegbahn",
+    "type": "published",
+    "target": "esca_book_solids_1967",
+    "event_id": "siegbahn_published_esca_solids_1967",
+    "sources": [
+      {
+        "source_id": "baer_sherwood_2025",
+        "page": 4,
+        "quote": "the 1967 book ( Siegbahn et al., 1967 ) focused on solids and the 1969 book ( Siegbahn et al., 1969) concerned with gas phase ESCA."
+      }
+    ]
+  },
+  {
+    "id": "siegbahn_published_gases_book",
+    "source": "kai_siegbahn",
+    "type": "published",
+    "target": "esca_book_gases_1969",
+    "event_id": "siegbahn_published_esca_gases_1969",
+    "sources": [
+      {
+        "source_id": "baer_sherwood_2025",
+        "page": 4,
+        "quote": "the 1967 book ( Siegbahn et al., 1967 ) focused on solids and the 1969 book ( Siegbahn et al., 1969) concerned with gas phase ESCA."
+      }
+    ]
+  },
+  {
+    "id": "siegbahn_interviewed_briggs",
+    "source": "kai_siegbahn",
+    "type": "corresponded_with",
+    "target": "david_briggs",
+    "event_id": "siegbahn_interview_briggs_1982",
+    "sources": [
+      {
+        "source_id": "baer_sherwood_2025",
+        "page": 2,
+        "quote": "a delightful interview of Siegbahn by David Briggs, ( Briggs, 1982 )"
+      }
+    ]
+  },
+  {
+    "id": "siegbahn_visited_air_force",
+    "source": "kai_siegbahn",
+    "type": "visited",
+    "target": "us_air_force_materials_laboratory",
+    "note": "Hosted as a visitor; US Air Force was an early sponsor.",
+    "sources": [
+      {
+        "source_id": "baer_sherwood_2025",
+        "page": 6,
+        "quote": "Walter Haas at the U.S. Air Force Materials Laboratory, which hosted Siegbahn as a visitor, joined by John Grant conducted pioneering work in materials research for the Air Force."
+      }
+    ]
+  }
+]

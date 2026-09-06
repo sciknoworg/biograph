@@ -1,0 +1,16 @@
+[
+  {
+    "id": "siegbahn_worked_stockholm",
+    "source": "kai_siegbahn",
+    "type": "worked_at",
+    "target": "stockholm",
+    "sources": [
+      {
+        "source_id": "baer_sherwood_2025",
+        "page": 3,
+        "quote": "He started building the instrument in Stockholm and continued the work in Upsala where he moved in 1954."
+      }
+    ],
+    "_rejected_because": "'worked_at' expects target entity_type organization, but 'stockholm' is 'place'"
+  }
+]

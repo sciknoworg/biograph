@@ -1,0 +1,243 @@
+[
+  {
+    "id": "david_briggs_born_in_pennines",
+    "source": "david_briggs",
+    "type": "born_in",
+    "target": "pennines",
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 1,
+        "quote": "David was born in 1948 in the Pennines near the Lancashire-Yorkshire borders."
+      }
+    ]
+  },
+  {
+    "id": "david_briggs_studied_at_durham",
+    "source": "david_briggs",
+    "type": "studied_at",
+    "target": "durham_university",
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 1,
+        "quote": "Then, having recently married a fellow Durham student Jill, he moved to ICI Corporate Laboratory (Runcorn)."
+      }
+    ]
+  },
+  {
+    "id": "david_briggs_supervised_by_dave_clark",
+    "source": "david_briggs",
+    "type": "supervised_by",
+    "target": "dave_clark",
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 1,
+        "quote": "His interest in surface analysis was fired by his ICI-sponsored PhD research with Dave Clark (1970 –73) exploring inorganic and catalytic systems using ESCA (now XPS)."
+      }
+    ]
+  },
+  {
+    "id": "david_briggs_married_to_jill",
+    "source": "david_briggs",
+    "type": "married_to",
+    "target": "jill_briggs",
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 1,
+        "quote": "Then, having recently married a fellow Durham student Jill, he moved to ICI Corporate Laboratory (Runcorn)."
+      }
+    ]
+  },
+  {
+    "id": "david_briggs_family_of_cherry",
+    "source": "david_briggs",
+    "type": "family_of",
+    "target": "cherry_briggs",
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 2,
+        "quote": "He moved with Jill and his beloved daughter Cherry to Malvern and became a Professor in The School of Pharmacy at Nottingham University."
+      }
+    ]
+  },
+  {
+    "id": "david_briggs_family_of_gilbert",
+    "source": "david_briggs",
+    "type": "family_of",
+    "target": "gilbert_briggs",
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 2,
+        "quote": "Simultaneously, he researched the life and achievements of Gilbert Briggs, a relative who was the father of hi-fi sound and developed the Wharfedale loudspeakers."
+      }
+    ]
+  },
+  {
+    "id": "david_briggs_worked_at_ici",
+    "source": "david_briggs",
+    "type": "worked_at",
+    "target": "ici",
+    "event_id": "employment_start_ici",
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 1,
+        "quote": "Then, having recently married a fellow Durham student Jill, he moved to ICI Corporate Laboratory (Runcorn)."
+      }
+    ]
+  },
+  {
+    "id": "david_briggs_worked_at_nottingham",
+    "source": "david_briggs",
+    "type": "worked_at",
+    "target": "nottingham_university",
+    "event_id": "employment_nottingham",
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 2,
+        "quote": "He moved with Jill and his beloved daughter Cherry to Malvern and became a Professor in The School of Pharmacy at Nottingham University."
+      }
+    ]
+  },
+  {
+    "id": "david_briggs_collaborated_with_vickerman",
+    "source": "david_briggs",
+    "type": "collaborated_with",
+    "target": "john_vickerman",
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 2,
+        "quote": "David joined with John Vickerman and Alex Henderson in 1997 to establish SurfaceSpectra Ltd"
+      }
+    ]
+  },
+  {
+    "id": "david_briggs_collaborated_with_seah",
+    "source": "david_briggs",
+    "type": "collaborated_with",
+    "target": "martin_seah",
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 1,
+        "quote": "David is also renowned for his launching of the Journal Surface and Interface Analysis (SIA) and his publication of many books used to teach generations of surface scientists, 1–7) particularly \"Practical Surface Analysis, Parts 1 and 2 \" with Martin Seah"
+      }
+    ]
+  },
+  {
+    "id": "david_briggs_collaborated_with_manchester",
+    "source": "david_briggs",
+    "type": "collaborated_with",
+    "target": "university_of_manchester",
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 1,
+        "quote": "With Manchester he collaborated with VG to develop, in 1986, the VG ToFSIMS."
+      }
+    ]
+  },
+  {
+    "id": "david_briggs_founded_sia",
+    "source": "david_briggs",
+    "type": "founded",
+    "target": "journal_sia",
+    "event_id": "sia_founding",
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 2,
+        "quote": "In February 1979 (less than 6 years after PhD graduation) he founded the journal SIA."
+      }
+    ]
+  },
+  {
+    "id": "david_briggs_founded_surfacespectra",
+    "source": "david_briggs",
+    "type": "founded",
+    "target": "surface_spectra_ltd",
+    "event_id": "surfacespectra_founding",
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 2,
+        "quote": "David joined with John Vickerman and Alex Henderson in 1997 to establish SurfaceSpectra Ltd"
+      }
+    ]
+  },
+  {
+    "id": "david_briggs_developed_simslab",
+    "source": "david_briggs",
+    "type": "developed",
+    "target": "vg_simslab",
+    "event_id": "vg_simslab_development",
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 1,
+        "quote": "In the early 1980s, he stimulated VG to build the VG SIMSlab."
+      }
+    ]
+  },
+  {
+    "id": "david_briggs_developed_tofsims",
+    "source": "david_briggs",
+    "type": "developed",
+    "target": "vg_tofsims",
+    "event_id": "vg_tofsims_development",
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 1,
+        "quote": "With Manchester he collaborated with VG to develop, in 1986, the VG ToFSIMS."
+      }
+    ]
+  },
+  {
+    "id": "david_briggs_published_practical_surface",
+    "source": "david_briggs",
+    "type": "published",
+    "target": "practical_surface_analysis",
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 1,
+        "quote": "David is also renowned for his launching of the Journal Surface and Interface Analysis (SIA) and his publication of many books used to teach generations of surface scientists, 1–7) particularly \"Practical Surface Analysis, Parts 1 and 2 \" with Martin Seah"
+      }
+    ]
+  },
+  {
+    "id": "david_briggs_published_polymers",
+    "source": "david_briggs",
+    "type": "published",
+    "target": "surface_analysis_of_polymers",
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 1,
+        "quote": "David is also renowned for his launching of the Journal Surface and Interface Analysis (SIA) and his publication of many books used to teach generations of surface scientists, 1–7) particularly \"Practical Surface Analysis, Parts 1 and 2 \" with Martin Seah, and \"Surface Analysis of Polymers by XPS and SIMS \"."
+      }
+    ]
+  },
+  {
+    "id": "david_briggs_published_wharfedales",
+    "source": "david_briggs",
+    "type": "published",
+    "target": "a_pair_of_wharfedales",
+    "event_id": "book_wharfedales_publication",
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 2,
+        "quote": "This led to another book in 2012 –\" A Pair of Wharfedales – The story of Gilbert Briggs and his Loudspeakers\", a fascinating story of the hi-fi age."
+      }
+    ]
+  }
+]

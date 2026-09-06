@@ -98,6 +98,12 @@ Rules, non-negotiable:
 - relations[] follow the schema's fixed reading direction (e.g. worked_at always reads
   person -> organization). Add one for every event implying a durable connection, linked
   via event_id; add standalone ones (no event_id) for facts stated without a specific date.
+- An institution referred to by its town's name is an "organization", not a "place". Sources
+  routinely write "he went to Uppsala" or "the Etruria works" meaning the university or the
+  factory, not the town. When the sentence is about employing, studying, founding or running,
+  the entity is the institution: name it fully ("Uppsala University") with the bare form in
+  aliases. Only use "place" when the text really means the geography -- born in, died in,
+  travelled to.
 - If nothing in an enum fits, use "other" and explain in the description.
 - Output ONLY the JSON object -- no markdown fences, no commentary.
 """
@@ -801,6 +807,32 @@ def normalize_extraction(data):
     if dropped:
         notes.append(f"dropped {dropped} null-valued optional field(s)")
 
+    # --- 3. fields the schema doesn't declare -------------------------------------------
+    # Every schema here sets additionalProperties: false, so one helpfully-invented key fails the
+    # whole extraction. Seen live: a "description" on a relation (relations carry their meaning in
+    # `type`, so there is nowhere for prose to go) discarded 16 entities and 12 events. The key
+    # carries no information the schema has a home for, and inventing one would be guesswork, so
+    # drop it and say so -- the same mechanical repair as the null-valued fields above.
+    extra = 0
+    for kind, schema_name in (("entities", "entity"), ("events", "event"),
+                              ("relations", "relation"), ("sources", "source")):
+        try:
+            with open(os.path.join(SCHEMA_DIR, f"{schema_name}.schema.json"), encoding="utf-8") as f:
+                allowed = set((json.load(f).get("properties") or {}).keys())
+        except (OSError, ValueError):
+            continue
+        if not allowed:
+            continue
+        for item in data.get(kind) or []:
+            if not isinstance(item, dict):
+                continue
+            for key in [k for k in item if k not in allowed and not k.startswith("_")]:
+                del item[key]
+                extra += 1
+                notes.append(f"dropped undeclared field {key!r} from a {schema_name}")
+    if extra:
+        notes.append(f"dropped {extra} field(s) the schema does not declare")
+
     return notes
 
 
@@ -1124,8 +1156,15 @@ RELATION_DIRECTIONS = {
     "visited": (("person",), ("place", "organization")),
     "relocated_to": (("person",), ("place",)),
     "worked_at": (("person",), ("organization",)),
-    "employed_by": (("person",), ("organization",)),
-    "founded": (("person", "organization"), ("organization",)),
+    # A person as employer is ordinary history, not an error: an apprentice is employed by a
+    # master, a technician by a professor. Same for licensed_to/acquired_by/sold_to below --
+    # individuals really do hold licences and buy businesses, especially before incorporation was
+    # common. These were widened from evidence, not guesswork: each showed up as a set-aside
+    # relation in a real extraction (see _write_rejected_relations).
+    "employed_by": (("person", "organization"), ("person", "organization")),
+    # A journal, a product line or a school of thought is an artifact here, and founding one is
+    # a real act. Observed: David Briggs founding the SIA journal.
+    "founded": (("person", "organization"), ("organization", "artifact")),
     "member_of": (("person", "organization"), ("organization",)),
     "supervised_by": (("person",), ("person",)),
     "mentored": (("person",), ("person",)),
@@ -1140,9 +1179,9 @@ RELATION_DIRECTIONS = {
     "published": (("person", "organization"), ("artifact",)),
     "developed": (("person", "organization"), ("artifact",)),
     "awarded": (("person", "organization"), ("artifact",)),
-    "licensed_to": (("organization",), ("organization",)),
-    "acquired_by": (("organization",), ("organization",)),
-    "sold_to": (("organization",), ("organization",)),
+    "licensed_to": (("person", "organization"), ("person", "organization")),
+    "acquired_by": (("person", "organization"), ("person", "organization")),
+    "sold_to": (("person", "organization"), ("person", "organization")),
     "renamed_to": (("organization",), ("organization",)),
     "corresponded_with": (("person",), ("person",)),
 }
@@ -1198,21 +1237,50 @@ def validate_subject(slug):
             for s in ev["sources"]:
                 if s["source_id"] not in src_ids:
                     errors.append(f"event {ev['id']}: unknown source '{s['source_id']}'")
+        # Relation-direction mismatches are collected here rather than added to `errors`, and are
+        # reported-not-enforced in the same spirit as check_grounding().
+        #
+        # Measured over every run so far: 23 complete extractions were discarded by validation on
+        # account of 26 offending relations -- about one bad edge each. Each discard threw away
+        # roughly 20 entities, 15 events and 12 relations plus a 2-4 minute call from the heavy
+        # model, and was then retried up to three times. Losing ~250 entities to reject 26 edges is
+        # a straightforwardly bad trade, and the violations are a long tail across nine different
+        # rule types, so no amount of widening the vocabulary rule-by-rule would have caught them.
+        #
+        # Nothing is thrown away: the set-aside relations are written to relations.rejected.json
+        # beside the document they came from, with the reason, so they can be repaired by hand or
+        # used as evidence for widening RELATION_DIRECTIONS later. Structural errors -- an id that
+        # resolves to nothing, a missing source citation, a schema violation -- remain fatal,
+        # because those really are corruption rather than a variant reading.
+        direction_issues = []
         for r in relations:
             src_ok, tgt_ok = r["source"] in ent_ids, r["target"] in ent_ids
+            # A relation is a leaf: nothing else in the graph references it, so one with a
+            # dangling end can be set aside without leaving anything else inconsistent. Same
+            # trade as the direction mismatches below -- an extraction was being discarded whole
+            # because the model named a target ("Philosophical Transactions") it then forgot to
+            # define as an entity. Dangling references in *events* stay fatal, since events carry
+            # the timeline and participants that the rest of the graph is built around.
             if not src_ok:
-                errors.append(f"relation {r['id']}: unknown source entity '{r['source']}'")
-            if not tgt_ok:
-                errors.append(f"relation {r['id']}: unknown target entity '{r['target']}'")
+                direction_issues.append((r, f"unknown source entity '{r['source']}'"))
+            elif not tgt_ok:
+                direction_issues.append((r, f"unknown target entity '{r['target']}'"))
             if src_ok and tgt_ok:  # both resolve -- check the vocabulary's fixed reading direction
                 exp_src, exp_tgt = RELATION_DIRECTIONS.get(r["type"], ((), ()))
                 got_src, got_tgt = ent_type[r["source"]], ent_type[r["target"]]
+                # Set aside, not fatal -- see the note above `direction_issues`. A relation whose
+                # ends resolve to real entities but carry an unexpected entity_type is a variant
+                # reading, not corruption: "employed_by a person" (an apprentice and his master)
+                # or "licensed_to a person" are perfectly good history that this vocabulary
+                # happens not to allow yet.
                 if exp_src and got_src not in exp_src:
-                    errors.append(f"relation {r['id']}: '{r['type']}' expects source entity_type "
-                                  f"{'/'.join(exp_src)}, but '{r['source']}' is '{got_src}'")
-                if exp_tgt and got_tgt not in exp_tgt:
-                    errors.append(f"relation {r['id']}: '{r['type']}' expects target entity_type "
-                                  f"{'/'.join(exp_tgt)}, but '{r['target']}' is '{got_tgt}'")
+                    direction_issues.append((r, f"'{r['type']}' expects source entity_type "
+                                                f"{'/'.join(exp_src)}, but '{r['source']}' is "
+                                                f"'{got_src}'"))
+                elif exp_tgt and got_tgt not in exp_tgt:
+                    direction_issues.append((r, f"'{r['type']}' expects target entity_type "
+                                                f"{'/'.join(exp_tgt)}, but '{r['target']}' is "
+                                                f"'{got_tgt}'"))
             if r.get("event_id") and r["event_id"] not in event_ids:
                 errors.append(f"relation {r['id']}: unknown event_id '{r['event_id']}'")
             for s in r["sources"]:
@@ -1222,7 +1290,41 @@ def validate_subject(slug):
         if errors:
             raise SystemExit("Validation failed for subject '%s':\n  " % slug + "\n  ".join(errors))
 
+        if direction_issues:
+            set_aside = {id(r) for r, _ in direction_issues}
+            relations = [r for r in relations if id(r) not in set_aside]
+            print(f"  ({len(direction_issues)} relation(s) set aside -- unexpected entity_type for "
+                  f"the relation type; the rest of the extraction is kept)")
+            for r, why in direction_issues:
+                print(f"    {r['id']}: {why}")
+            _write_rejected_relations(slug, direction_issues)
+
     return entities, events, relations, sources
+
+
+def _write_rejected_relations(slug, issues):
+    """Park set-aside relations next to the document they came from, so a variant reading is
+    recoverable rather than lost -- and so the accumulated file is real evidence about which
+    RELATION_DIRECTIONS entries are too narrow for historical biography, instead of a guess.
+
+    One file per document folder, overwritten each build (a rebuild re-derives the same set)."""
+    by_doc = {}
+    for r, why in issues:
+        rec = dict(r)
+        rec["_rejected_because"] = why
+        by_doc.setdefault(r.get("_document_key") or "", []).append(rec)
+    docs = dict(subject_documents(slug))
+    for doc_key, recs in by_doc.items():
+        ddir = docs.get(doc_key) or (list(docs.values())[0] if docs else None)
+        if not ddir:
+            continue
+        path = os.path.join(ddir, "relations.rejected.json")
+        try:
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(recs, f, indent=2, ensure_ascii=False)
+            print(f"    -> parked in {os.path.relpath(path, ROOT).replace(os.sep, '/')}")
+        except OSError as e:
+            print(f"    (couldn't write {path}: {e})")
 
 
 def build(slug):

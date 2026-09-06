@@ -1,0 +1,139 @@
+[
+  {
+    "aliases": [
+      "Kai Siegbahn",
+      "Professor Siegbahn",
+      "Siegbahn"
+    ],
+    "entity_type": "person",
+    "id": "kai_siegbahn",
+    "name": "Kai M. Siegbahn",
+    "subtype": "researcher",
+    "summary": "Swedish physicist who developed X-ray photoelectron spectroscopy (XPS/ESCA) and won the Nobel Prize in Physics."
+  },
+  {
+    "aliases": [
+      "Upsala",
+      "Uppsala"
+    ],
+    "attributes": {
+      "country": "Sweden"
+    },
+    "entity_type": "organization",
+    "id": "uppsala_university",
+    "name": "Uppsala University",
+    "subtype": "university",
+    "summary": "Swedish university where Siegbahn conducted seminal XPS work."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Sweden"
+    },
+    "entity_type": "place",
+    "id": "stockholm",
+    "name": "Stockholm",
+    "subtype": "city",
+    "summary": "Capital city of Sweden where Siegbahn started building his instrument."
+  },
+  {
+    "aliases": [
+      "Nordling"
+    ],
+    "entity_type": "person",
+    "id": "carl_nordling",
+    "name": "Carl Nordling",
+    "subtype": "researcher",
+    "summary": "Graduate student and co-author with Siegbahn on the first accurate XPS spectrum."
+  },
+  {
+    "aliases": [
+      "Sokolowski"
+    ],
+    "entity_type": "person",
+    "id": "evelyn_sokolowski",
+    "name": "Evelyn Sokolowski",
+    "subtype": "researcher",
+    "summary": "Graduate student and co-author with Siegbahn on the first chemical shift report."
+  },
+  {
+    "aliases": [
+      "Shirley",
+      "D.A. Shirley"
+    ],
+    "entity_type": "person",
+    "id": "david_shirley",
+    "name": "David Shirley",
+    "subtype": "researcher",
+    "summary": "Pioneer in photoelectron spectroscopy who hosted Siegbahn for a sabbatical."
+  },
+  {
+    "aliases": [
+      "Berkeley"
+    ],
+    "attributes": {
+      "country": "United States"
+    },
+    "entity_type": "organization",
+    "id": "university_of_california_berkeley",
+    "name": "University of California, Berkeley",
+    "subtype": "university",
+    "summary": "University where Shirley's laboratory was located."
+  },
+  {
+    "aliases": [
+      "Briggs",
+      "Dave Briggs"
+    ],
+    "entity_type": "person",
+    "id": "david_briggs",
+    "name": "David Briggs",
+    "subtype": "researcher",
+    "summary": "Researcher who conducted a notable interview with Siegbahn."
+  },
+  {
+    "aliases": [
+      "Nobel Prize"
+    ],
+    "entity_type": "artifact",
+    "id": "nobel_prize_physics_1981",
+    "name": "Nobel Prize in Physics",
+    "subtype": "award",
+    "summary": "Prestigious award received by Siegbahn for his work on electron spectroscopy."
+  },
+  {
+    "aliases": [
+      "ESCA book 1967",
+      "1967 book"
+    ],
+    "entity_type": "artifact",
+    "id": "esca_book_solids_1967",
+    "name": "ESCA: Atomic, Molecular and Solid State Structure Studied by means of Electron Spectroscopy",
+    "subtype": "publication",
+    "summary": "Seminal book by Siegbahn et al. focused on solids that marketed ESCA technique."
+  },
+  {
+    "aliases": [
+      "ESCA book 1969",
+      "1969 book"
+    ],
+    "entity_type": "artifact",
+    "id": "esca_book_gases_1969",
+    "name": "ESCA applied to free molecules",
+    "subtype": "publication",
+    "summary": "Book by Siegbahn et al. concerned with gas phase ESCA."
+  },
+  {
+    "aliases": [
+      "Air Force Materials Laboratory"
+    ],
+    "attributes": {
+      "country": "United States"
+    },
+    "entity_type": "organization",
+    "id": "us_air_force_materials_laboratory",
+    "name": "U.S. Air Force Materials Laboratory",
+    "subtype": "lab",
+    "summary": "Laboratory that hosted Siegbahn as a visitor and sponsored his work."
+  }
+]

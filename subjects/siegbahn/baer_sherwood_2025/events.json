@@ -1,0 +1,267 @@
+[
+  {
+    "id": "siegbahn_moved_uppsala_1954",
+    "event_type": "relocation",
+    "label": "Moved to Uppsala",
+    "description": "Siegbahn continued his instrument work in Uppsala after starting in Stockholm.",
+    "date": {
+      "display": "1954",
+      "precision": "year",
+      "sort_start": "1954-01-01",
+      "sort_end": "1954-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kai_siegbahn",
+        "role": "subject"
+      },
+      {
+        "entity_id": "uppsala_university",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baer_sherwood_2025",
+        "page": 3,
+        "quote": "He started building the instrument in Stockholm and continued the work in Upsala where he moved in 1954."
+      }
+    ]
+  },
+  {
+    "id": "siegbahn_published_first_xps_1957",
+    "event_type": "publication",
+    "label": "Published first accurate XPS spectrum",
+    "description": "First X-ray photoelectron spectrum providing accurate atomic binding energies published with Nordling and Sokolowski.",
+    "date": {
+      "display": "1957",
+      "precision": "year",
+      "sort_start": "1957-01-01",
+      "sort_end": "1957-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kai_siegbahn",
+        "role": "subject"
+      },
+      {
+        "entity_id": "carl_nordling",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "evelyn_sokolowski",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baer_sherwood_2025",
+        "page": 3,
+        "quote": "The first X-ray photoelectron spectrum that could provide accurate atomic binding energies was published in 1957 ( Nordling et al., 1957 ) using an X-ray tube rather than a radioactive source."
+      }
+    ]
+  },
+  {
+    "id": "siegbahn_reported_chemical_shift_1958",
+    "event_type": "publication",
+    "label": "Reported first chemical shift",
+    "description": "First report of a chemical shift between metallic copper and CuO made by Siegbahn and colleagues.",
+    "date": {
+      "display": "1958",
+      "precision": "year",
+      "sort_start": "1958-01-01",
+      "sort_end": "1958-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kai_siegbahn",
+        "role": "subject"
+      },
+      {
+        "entity_id": "evelyn_sokolowski",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baer_sherwood_2025",
+        "page": 3,
+        "quote": "In 1958 (Sokolowski et al., 1958) the first report of a chemical shift was made by Siegbahn and colleagues reporting a shift between metallic copper and CuO."
+      }
+    ]
+  },
+  {
+    "id": "siegbahn_sabbatical_berkeley_1961",
+    "event_type": "visit",
+    "label": "Sabbatical at Berkeley",
+    "description": "Siegbahn spent a sabbatical year in Shirley's laboratory.",
+    "date": {
+      "display": "1961",
+      "precision": "year",
+      "sort_start": "1961-01-01",
+      "sort_end": "1961-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kai_siegbahn",
+        "role": "subject"
+      },
+      {
+        "entity_id": "david_shirley",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "university_of_california_berkeley",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baer_sherwood_2025",
+        "page": 5,
+        "quote": "Siegbahn (who spent a sabbatical year in 1961 in Shirley's laboratory)"
+      }
+    ]
+  },
+  {
+    "id": "siegbahn_published_esca_solids_1967",
+    "event_type": "publication",
+    "label": "Published ESCA book on solids",
+    "description": "Major impact book focused on solids published.",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kai_siegbahn",
+        "role": "subject"
+      },
+      {
+        "entity_id": "esca_book_solids_1967",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baer_sherwood_2025",
+        "page": 4,
+        "quote": "the 1967 book ( Siegbahn et al., 1967 ) focused on solids and the 1969 book ( Siegbahn et al., 1969) concerned with gas phase ESCA."
+      }
+    ]
+  },
+  {
+    "id": "siegbahn_published_esca_gases_1969",
+    "event_type": "publication",
+    "label": "Published ESCA book on gases",
+    "description": "Major impact book concerned with gas phase ESCA published.",
+    "date": {
+      "display": "1969",
+      "precision": "year",
+      "sort_start": "1969-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kai_siegbahn",
+        "role": "subject"
+      },
+      {
+        "entity_id": "esca_book_gases_1969",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baer_sherwood_2025",
+        "page": 4,
+        "quote": "the 1967 book ( Siegbahn et al., 1967 ) focused on solids and the 1969 book ( Siegbahn et al., 1969) concerned with gas phase ESCA."
+      }
+    ]
+  },
+  {
+    "id": "siegbahn_nobel_prize_1981",
+    "event_type": "award",
+    "label": "Received Nobel Prize in Physics",
+    "description": "Siegbahn received the Nobel Prize in Physics.",
+    "date": {
+      "display": "1981",
+      "precision": "year",
+      "sort_start": "1981-01-01",
+      "sort_end": "1981-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kai_siegbahn",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize_physics_1981",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baer_sherwood_2025",
+        "page": 4,
+        "quote": "Kai Siegbahn, who received the 1981 Nobel Prize in Physics, refers to Robinson's work and his spectrum ( Figure 1) in his Nobel Prize lecture ( Siegbahn, 1981 )."
+      }
+    ]
+  },
+  {
+    "id": "siegbahn_nobel_lecture_1981",
+    "event_type": "conference",
+    "label": "Delivered Nobel Lecture",
+    "description": "Siegbahn gave his Nobel Prize lecture.",
+    "date": {
+      "display": "1981",
+      "precision": "year",
+      "sort_start": "1981-01-01",
+      "sort_end": "1981-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kai_siegbahn",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baer_sherwood_2025",
+        "page": 4,
+        "quote": "Kai Siegbahn, who received the 1981 Nobel Prize in Physics, refers to Robinson's work and his spectrum ( Figure 1) in his Nobel Prize lecture ( Siegbahn, 1981 )."
+      }
+    ]
+  },
+  {
+    "id": "siegbahn_interview_briggs_1982",
+    "event_type": "meeting",
+    "label": "Interviewed by David Briggs",
+    "description": "Siegbahn participated in an interview with David Briggs.",
+    "date": {
+      "display": "1982",
+      "precision": "year",
+      "sort_start": "1982-01-01",
+      "sort_end": "1982-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kai_siegbahn",
+        "role": "subject"
+      },
+      {
+        "entity_id": "david_briggs",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baer_sherwood_2025",
+        "page": 2,
+        "quote": "a delightful interview of Siegbahn by David Briggs, ( Briggs, 1982 )"
+      }
+    ]
+  }
+]

@@ -1,0 +1,526 @@
+[
+  {
+    "id": "birth_david_briggs",
+    "event_type": "birth",
+    "label": "Born in the Pennines",
+    "date": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "david_briggs",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 1,
+        "quote": "David was born in 1948 in the Pennines near the Lancashire-Yorkshire borders."
+      }
+    ]
+  },
+  {
+    "id": "phd_research_david_briggs",
+    "event_type": "education",
+    "label": "ICI-sponsored PhD research",
+    "date": {
+      "display": "1970–73",
+      "precision": "range",
+      "sort_start": "1970-01-01",
+      "sort_end": "1973-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "david_briggs",
+        "role": "subject"
+      },
+      {
+        "entity_id": "dave_clark",
+        "role": "supervisor"
+      },
+      {
+        "entity_id": "ici",
+        "role": "sponsor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 1,
+        "quote": "His interest in surface analysis was fired by his ICI-sponsored PhD research with Dave Clark (1970 –73) exploring inorganic and catalytic systems using ESCA (now XPS)."
+      }
+    ]
+  },
+  {
+    "id": "marriage_david_briggs",
+    "event_type": "other",
+    "label": "Married Jill",
+    "date": {
+      "display": "c. 1973",
+      "precision": "circa",
+      "sort_start": "1973-01-01",
+      "sort_end": "1973-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "david_briggs",
+        "role": "subject"
+      },
+      {
+        "entity_id": "jill_briggs",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 1,
+        "quote": "Then, having recently married a fellow Durham student Jill, he moved to ICI Corporate Laboratory (Runcorn)."
+      }
+    ]
+  },
+  {
+    "id": "employment_start_ici",
+    "event_type": "employment_start",
+    "label": "Moved to ICI Corporate Laboratory",
+    "date": {
+      "display": "c. 1973",
+      "precision": "circa",
+      "sort_start": "1973-01-01",
+      "sort_end": "1973-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "david_briggs",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ici",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 1,
+        "quote": "Then, having recently married a fellow Durham student Jill, he moved to ICI Corporate Laboratory (Runcorn)."
+      }
+    ]
+  },
+  {
+    "id": "visit_manchester",
+    "event_type": "visit",
+    "label": "Visited Manchester",
+    "date": {
+      "display": "late 1970s",
+      "precision": "decade",
+      "sort_start": "1975-01-01",
+      "sort_end": "1979-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "david_briggs",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_manchester",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 1,
+        "quote": "In the late 1970s, came SIMS. He visited Manchester and a life-long collaboration developed."
+      }
+    ]
+  },
+  {
+    "id": "vg_simslab_development",
+    "event_type": "invention",
+    "label": "Stimulated VG to build VG SIMSlab",
+    "date": {
+      "display": "early 1980s",
+      "precision": "decade",
+      "sort_start": "1980-01-01",
+      "sort_end": "1984-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "david_briggs",
+        "role": "subject"
+      },
+      {
+        "entity_id": "vg_instruments",
+        "role": "manufacturer"
+      },
+      {
+        "entity_id": "vg_simslab",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 1,
+        "quote": "In the early 1980s, he stimulated VG to build the VG SIMSlab."
+      }
+    ]
+  },
+  {
+    "id": "vg_tofsims_development",
+    "event_type": "invention",
+    "label": "Developed VG ToFSIMS",
+    "date": {
+      "display": "1986",
+      "precision": "year",
+      "sort_start": "1986-01-01",
+      "sort_end": "1986-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "david_briggs",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_manchester",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "vg_instruments",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "vg_tofsims",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 1,
+        "quote": "With Manchester he collaborated with VG to develop, in 1986, the VG ToFSIMS."
+      }
+    ]
+  },
+  {
+    "id": "phi_7200_acquisition",
+    "event_type": "other",
+    "label": "Obtained PHI 7200",
+    "date": {
+      "display": "1994",
+      "precision": "year",
+      "sort_start": "1994-01-01",
+      "sort_end": "1994-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "david_briggs",
+        "role": "subject"
+      },
+      {
+        "entity_id": "phi_7200",
+        "role": "artifact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 1,
+        "quote": "Then, in 1994, he obtained a PHI 7200."
+      }
+    ]
+  },
+  {
+    "id": "uk_user_groups_founding",
+    "event_type": "company_founded",
+    "label": "Established UK ESCA and SIMS User groups",
+    "date": {
+      "display": "1970s",
+      "precision": "decade",
+      "sort_start": "1970-01-01",
+      "sort_end": "1979-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "david_briggs",
+        "role": "subject"
+      },
+      {
+        "entity_id": "uk_esca_users_group",
+        "role": "organization"
+      },
+      {
+        "entity_id": "uk_sims_users_forum",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 2,
+        "quote": "In the 1970s he was one of the prime movers in establishing both the UK ESCA User's group and the UK SIMS User's Forum, now merged into the UK Surface Analysis Forum."
+      }
+    ]
+  },
+  {
+    "id": "ecasia_founding",
+    "event_type": "conference",
+    "label": "Involved in ECASIA establishment",
+    "date": {
+      "display": "1980s",
+      "precision": "decade",
+      "sort_start": "1980-01-01",
+      "sort_end": "1989-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "david_briggs",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ecasia",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 2,
+        "quote": "He was also much involved the establishment of the ECASIA conference series in the 1980s."
+      }
+    ]
+  },
+  {
+    "id": "sia_founding",
+    "event_type": "publication",
+    "label": "Founded journal SIA",
+    "date": {
+      "display": "February 1979",
+      "precision": "month",
+      "sort_start": "1979-02-01",
+      "sort_end": "1979-02-28"
+    },
+    "participants": [
+      {
+        "entity_id": "david_briggs",
+        "role": "subject"
+      },
+      {
+        "entity_id": "journal_sia",
+        "role": "artifact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 2,
+        "quote": "In February 1979 (less than 6 years after PhD graduation) he founded the journal SIA."
+      }
+    ]
+  },
+  {
+    "id": "sia_editorship_end",
+    "event_type": "role_change",
+    "label": "Ended Editor-in-Chief role at SIA",
+    "date": {
+      "display": "2000",
+      "precision": "year",
+      "sort_start": "2000-01-01",
+      "sort_end": "2000-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "david_briggs",
+        "role": "subject"
+      },
+      {
+        "entity_id": "journal_sia",
+        "role": "artifact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 2,
+        "quote": "He was Editor-in-Chief until 2000."
+      }
+    ]
+  },
+  {
+    "id": "surfacespectra_founding",
+    "event_type": "company_founded",
+    "label": "Established SurfaceSpectra Ltd",
+    "date": {
+      "display": "1997",
+      "precision": "year",
+      "sort_start": "1997-01-01",
+      "sort_end": "1997-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "david_briggs",
+        "role": "subject"
+      },
+      {
+        "entity_id": "john_vickerman",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "alex_henderson",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "surface_spectra_ltd",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 2,
+        "quote": "David joined with John Vickerman and Alex Henderson in 1997 to establish SurfaceSpectra Ltd to deliver an enhanced version of the XPS Polymer Database previously published by Wiley and also a SIMS spectral database, followed by two books on the application of XPS and ToFSIMS."
+      }
+    ]
+  },
+  {
+    "id": "retirement_ici",
+    "event_type": "retirement",
+    "label": "Retired from ICI",
+    "date": {
+      "display": "1997",
+      "precision": "year",
+      "sort_start": "1997-01-01",
+      "sort_end": "1997-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "david_briggs",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ici",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 2,
+        "quote": "In 1997, when ICI restructured, he retired."
+      }
+    ]
+  },
+  {
+    "id": "relocation_malvern",
+    "event_type": "relocation",
+    "label": "Moved to Malvern",
+    "date": {
+      "display": "1997",
+      "precision": "year",
+      "sort_start": "1997-01-01",
+      "sort_end": "1997-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "david_briggs",
+        "role": "subject"
+      },
+      {
+        "entity_id": "malvern",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 2,
+        "quote": "He moved with Jill and his beloved daughter Cherry to Malvern and became a Professor in The School of Pharmacy at Nottingham University."
+      }
+    ]
+  },
+  {
+    "id": "employment_nottingham",
+    "event_type": "employment_start",
+    "label": "Became Professor at Nottingham University",
+    "date": {
+      "display": "1997",
+      "precision": "year",
+      "sort_start": "1997-01-01",
+      "sort_end": "1997-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "david_briggs",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nottingham_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 2,
+        "quote": "He moved with Jill and his beloved daughter Cherry to Malvern and became a Professor in The School of Pharmacy at Nottingham University."
+      }
+    ]
+  },
+  {
+    "id": "book_wharfedales_publication",
+    "event_type": "publication",
+    "label": "Published A Pair of Wharfedales",
+    "date": {
+      "display": "2012",
+      "precision": "year",
+      "sort_start": "2012-01-01",
+      "sort_end": "2012-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "david_briggs",
+        "role": "subject"
+      },
+      {
+        "entity_id": "a_pair_of_wharfedales",
+        "role": "artifact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 2,
+        "quote": "This led to another book in 2012 –\" A Pair of Wharfedales – The story of Gilbert Briggs and his Loudspeakers\", a fascinating story of the hi-fi age."
+      }
+    ]
+  },
+  {
+    "id": "death_david_briggs",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "January 9 2018",
+      "precision": "day",
+      "sort_start": "2018-01-09",
+      "sort_end": "2018-01-09"
+    },
+    "participants": [
+      {
+        "entity_id": "david_briggs",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "vickerman_seah_2018",
+        "page": 1,
+        "quote": "On January 9 2018, we lost a dear and much respected colleague – David Briggs"
+      }
+    ]
+  }
+]

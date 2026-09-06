@@ -1,0 +1,114 @@
+[
+  {
+    "id": "wedgwood_born_1730",
+    "source": "josiah_wedgwood",
+    "type": "born_in",
+    "target": "etruria",
+    "start": {
+      "display": "1730",
+      "precision": "year",
+      "sort_start": "1730-01-01",
+      "sort_end": "1730-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "chaldecott_1975",
+        "page": 1,
+        "quote": "JOSIAH WEDGWOOD (1730-95)—SCIENTIST"
+      }
+    ]
+  },
+  {
+    "id": "wedgwood_worked_etruria",
+    "source": "josiah_wedgwood",
+    "type": "worked_at",
+    "target": "etruria",
+    "sources": [
+      {
+        "source_id": "chaldecott_1975",
+        "page": 13,
+        "quote": "some perhaps for use at the factory at Etruria"
+      }
+    ]
+  },
+  {
+    "id": "wedgwood_member_lunar",
+    "source": "josiah_wedgwood",
+    "type": "member_of",
+    "target": "lunar_society_of_birmingham",
+    "sources": [
+      {
+        "source_id": "chaldecott_1975",
+        "page": 5,
+        "quote": "possibly at a meeting of the Lunar Society of Birmingham"
+      }
+    ]
+  },
+  {
+    "id": "wedgwood_invented_pyrometer",
+    "source": "josiah_wedgwood",
+    "type": "invented",
+    "target": "wedgwood_pyrometer",
+    "event_id": "ceramic_pyrometer_idea",
+    "sources": [
+      {
+        "source_id": "chaldecott_1975",
+        "page": 3,
+        "quote": "his idea for making a ceramic pyrometer"
+      }
+    ]
+  },
+  {
+    "id": "wedgwood_published_transactions",
+    "source": "josiah_wedgwood",
+    "type": "published",
+    "target": "philosophical_transactions",
+    "event_id": "royal_society_paper_1782",
+    "sources": [
+      {
+        "source_id": "chaldecott_1975",
+        "page": 6,
+        "quote": "Wedgwood's first paper on the ceramic pyrometer, read at the Royal Society on 9 May 1782, included values on his arbitrary scale of temperature"
+      }
+    ]
+  },
+  {
+    "id": "wedgwood_collaborated_priestley",
+    "source": "josiah_wedgwood",
+    "type": "collaborated_with",
+    "target": "joseph_priestley",
+    "sources": [
+      {
+        "source_id": "chaldecott_1975",
+        "page": 5,
+        "quote": "Joseph Priestley, who later visited Wedgwood and approved of the instrument"
+      }
+    ]
+  },
+  {
+    "id": "wedgwood_collaborated_banks",
+    "source": "josiah_wedgwood",
+    "type": "collaborated_with",
+    "target": "joseph_banks",
+    "sources": [
+      {
+        "source_id": "chaldecott_1975",
+        "page": 3,
+        "quote": "A revised version of this paper was read to Sir Joseph Banks"
+      }
+    ]
+  },
+  {
+    "id": "wedgwood_supplied_george_iii",
+    "source": "josiah_wedgwood",
+    "type": "sold_to",
+    "target": "george_iii",
+    "sources": [
+      {
+        "source_id": "chaldecott_1975",
+        "page": 4,
+        "quote": "An example of a pyrometer set of this type, made by Wedgwood for George III"
+      }
+    ]
+  }
+]

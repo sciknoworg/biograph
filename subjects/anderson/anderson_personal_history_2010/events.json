@@ -1,0 +1,296 @@
+[
+  {
+    "id": "anderson_harvard_entry",
+    "event_type": "education",
+    "label": "Entered Harvard University",
+    "description": "Sent to Harvard at 16 on a National Scholarship.",
+    "date": {
+      "display": "1940",
+      "precision": "year",
+      "sort_start": "1940-01-01",
+      "sort_end": "1940-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "philip_w_anderson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "harvard_university",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "anderson_personal_history_2010",
+        "page": 2,
+        "quote": "sent off to Harvard in 1940 at 16 to take one of Harvard's extraordinarily liberal National Scholarships"
+      }
+    ]
+  },
+  {
+    "id": "anderson_harvard_degree",
+    "event_type": "education",
+    "label": "Received degree from Harvard",
+    "description": "Completed graduate degree after returning to grad school post-war.",
+    "date": {
+      "display": "1949",
+      "precision": "year",
+      "sort_start": "1949-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "philip_w_anderson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "harvard_university",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "anderson_personal_history_2010",
+        "page": 2,
+        "quote": "after my degree in '49, to industry --Bell Labs"
+      }
+    ]
+  },
+  {
+    "id": "anderson_bell_labs_start",
+    "event_type": "employment_start",
+    "label": "Joined Bell Labs",
+    "description": "Started career at Bell Labs after Harvard degree.",
+    "date": {
+      "display": "1949",
+      "precision": "year",
+      "sort_start": "1949-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "philip_w_anderson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "bell_labs",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "anderson_personal_history_2010",
+        "page": 2,
+        "quote": "after my degree in '49, to industry --Bell Labs"
+      }
+    ]
+  },
+  {
+    "id": "anderson_nobel_prize",
+    "event_type": "award",
+    "label": "Awarded Nobel Prize",
+    "description": "Chosen for the Nobel Prize along with Van Vleck and Mott.",
+    "date": {
+      "display": "1977",
+      "precision": "year",
+      "sort_start": "1977-01-01",
+      "sort_end": "1977-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "philip_w_anderson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize_physics_1977",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "anderson_personal_history_2010",
+        "page": 2,
+        "quote": "In 1977, I was --honestly--surprized to be chosen for the Nobel Prize along with my beloved Van and another patron and senior colleague, Sir Neville Mott of Cambridge."
+      }
+    ]
+  },
+  {
+    "id": "anderson_bell_labs_end",
+    "event_type": "employment_end",
+    "label": "Left Bell Labs",
+    "description": "Left Bell Labs after 35 years to become full-time professor at Princeton.",
+    "date": {
+      "display": "c. 1984",
+      "precision": "circa",
+      "sort_start": "1984-01-01",
+      "sort_end": "1984-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "philip_w_anderson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "bell_labs",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "anderson_personal_history_2010",
+        "page": 2,
+        "quote": "It was 35 years before I left Bell, coincidentally with the fateful, idiotic decision of our government to smash into bits the greatest technological institution the world has ever seen."
+      }
+    ]
+  },
+  {
+    "id": "anderson_princeton_professor",
+    "event_type": "employment_start",
+    "label": "Became Professor at Princeton",
+    "description": "Became a full-time professor at Princeton after leaving Bell.",
+    "date": {
+      "display": "c. 1984",
+      "precision": "circa",
+      "sort_start": "1984-01-01",
+      "sort_end": "1984-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "philip_w_anderson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "princeton_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "anderson_personal_history_2010",
+        "page": 2,
+        "quote": "After leaving Bell, I became a full-time professor at the last of these [Princeton]"
+      }
+    ]
+  },
+  {
+    "id": "anderson_cuprate_engagement_start",
+    "event_type": "other",
+    "label": "Engagement with Cuprates Began",
+    "description": "Learned of cuprate superconductivity discovery from Ted Geballe at Bell Labs.",
+    "date": {
+      "display": "December 1986",
+      "precision": "month",
+      "sort_start": "1986-12-01",
+      "sort_end": "1986-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "philip_w_anderson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ted_geballe",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "cuprate_superconductors",
+        "role": "topic"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "anderson_personal_history_2010",
+        "page": 4,
+        "quote": "This first attempt dates to December 1986 and January 1987."
+      }
+    ]
+  },
+  {
+    "id": "anderson_rvb_proposal",
+    "event_type": "publication",
+    "label": "Proposed RVB Theory",
+    "description": "Gave talk proposing RVB state for cuprates at Bangalore meeting.",
+    "date": {
+      "display": "January 1987",
+      "precision": "month",
+      "sort_start": "1987-01-01",
+      "sort_end": "1987-01-31"
+    },
+    "participants": [
+      {
+        "entity_id": "philip_w_anderson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cuprate_superconductors",
+        "role": "topic"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "anderson_personal_history_2010",
+        "page": 3,
+        "quote": "2. JANUARY 1987: THE CUPRATES CHANGE MY LIFE, TOO"
+      }
+    ]
+  },
+  {
+    "id": "anderson_plain_vanilla_paper",
+    "event_type": "publication",
+    "label": "Plain Vanilla Paper Submitted",
+    "description": "Co-authored consensus view paper on cuprate physics.",
+    "date": {
+      "display": "2004",
+      "precision": "year",
+      "sort_start": "2004-01-01",
+      "sort_end": "2004-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "philip_w_anderson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "maurice_rice",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "phuan_ong",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "anderson_personal_history_2010",
+        "page": 21,
+        "quote": "This is the genesis of the \"plain vanilla\" paper co-authored by myself, P A Lee, T M Rice, M Randeria, N Trivedi, and F C Zhang"
+      }
+    ]
+  },
+  {
+    "id": "document_publication",
+    "event_type": "publication",
+    "label": "Personal History Document Written",
+    "description": "Document dated November 12th, 2010.",
+    "date": {
+      "display": "November 12th, 2010",
+      "precision": "day",
+      "sort_start": "2010-11-12",
+      "sort_end": "2010-11-12"
+    },
+    "participants": [
+      {
+        "entity_id": "philip_w_anderson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "anderson_personal_history_2010",
+        "page": 1,
+        "quote": "November 12th, 2010"
+      }
+    ]
+  }
+]
