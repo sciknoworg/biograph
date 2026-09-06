@@ -152,8 +152,32 @@ that happens to share a name with the intended subject but is about someone else
 """
 
 
-STRICT_SCOPE_RULES = """\
-Four additional requirements, for this automated collection. Reject (fits: false) if ANY fails:
+#: Requirement 4 is the only domain-specific part of the scope rules, and it comes from the
+#: taxonomy being run rather than being hardcoded here -- see taxonomy_meta() in run_pipeline.py
+#: and the --scope-domain flag. This pipeline is not a materials-science tool that happens to be
+#: pointed at a materials taxonomy; it is a biography-extraction tool whose domain IS whichever
+#: taxonomy it is given. Collecting chemistry, computer science or the life sciences should need a
+#: new taxonomy file, not an edit here.
+#:
+#: This value is the fallback when a taxonomy declares no domain of its own, and is what every
+#: subject collected before the generalization was judged against.
+DEFAULT_SCOPE_DOMAIN = """Materials science, or an immediately adjacent physical science or engineering field. Their
+significant contribution must be to the creation, processing, characterisation or understanding
+of materials and the devices built from them -- metallurgy, ceramics, glass, polymers,
+semiconductors and electronics, crystallography and crystal growth, thin films and deposition,
+composites, magnetic/superconducting/electronic materials, corrosion, fracture and mechanical
+behaviour, or the instruments used to study these. Reject anyone whose significance lies outside
+that: medicine and clinical practice, surgery and anatomy, biology, pharmacology, geology and
+earth science, palaeontology, archaeology, architecture, mathematics, economics, philosophy,
+literature, politics and rulers, general history."""
+
+
+def strict_scope_rules(domain=None):
+    """The four automated-collection requirements, with the field supplied by the caller.
+
+    Requirements 1-3 -- English, one central figure, substantial -- are properties of a
+    biographical document and hold whatever the field. Only requirement 4 names a domain."""
+    return """Four additional requirements, for this automated collection. Reject (fits: false) if ANY fails:
 
 1. English. Judge from the actual text, not from metadata.
 
@@ -169,20 +193,13 @@ that person unambiguously who it is about?
 3. Substantial. That person must be a genuinely prolific, significant contributor, and the
 document detailed enough to draw a real dated timeline from -- not merely someone with a write-up.
 
-4. Materials science, or an immediately adjacent physical science or engineering field. Their
-significant contribution must be to the creation, processing, characterisation or understanding
-of materials and the devices built from them -- metallurgy, ceramics, glass, polymers,
-semiconductors and electronics, crystallography and crystal growth, thin films and deposition,
-composites, magnetic/superconducting/electronic materials, corrosion, fracture and mechanical
-behaviour, or the instruments used to study these. Reject anyone whose significance lies outside
-that: medicine and clinical practice, surgery and anatomy, biology, pharmacology, geology and
-earth science, palaeontology, archaeology, architecture, mathematics, economics, philosophy,
-literature, politics and rulers, general history. Judge this from what the DOCUMENT says their
-work was, not from what you happen to know about the name -- a person is not in scope merely
-because their work involved some technique or apparatus. Ask what field their reputation is IN:
-a metallurgist who studied steel is in scope; a surgeon who wrote an anatomy textbook, a monarch,
-a glaciologist, a mathematician and a physician who discovered a drug are not, however
-distinguished.
+4. """ + (domain or DEFAULT_SCOPE_DOMAIN).strip() + """
+
+Judge requirement 4 from what the DOCUMENT says their work was, not from what you happen to know
+about the name -- a person is not in scope merely because their work involved some technique or
+apparatus. Ask what field their reputation is IN: someone whose reputation lies squarely in the
+field described above is in scope; someone eminent in a neighbouring field this collection does
+not cover is not, however distinguished.
 
 """
 
@@ -1046,11 +1063,11 @@ def choose_model():
 
 def extract(pdf_path, slug, name, model, base_url, api_key, max_chars, max_tokens,
             delete_out_of_scope=True, related_fields_out=None, keep_source_pdf=False,
-            strict_scope=False, scope_out=None):
+            strict_scope=False, scope_out=None, scope_domain=None):
     print(f"Reading {pdf_path}...")
     text = source_text(pdf_path, max_chars)
     system, user = build_prompt(slug, name, text,
-                                 strict_scope=STRICT_SCOPE_RULES if strict_scope else None)
+                                 strict_scope=strict_scope_rules(scope_domain) if strict_scope else None)
     print(f"Asking {model} to draft the graph ({len(text):,} chars of source text)...")
     start = time.perf_counter()
     data = call_llm(system, user, model, base_url, api_key, max_tokens)
@@ -1367,6 +1384,12 @@ def main():
                           "English, one central figure, substantial, and materials science or an "
                           "adjacent field. For automated bulk collection -- a person choosing one "
                           "document by hand is not second-guessed by them")
+    ap.add_argument("--scope-domain",
+                     help="the field this collection covers, as a sentence or two, used as "
+                          "requirement 4 of --strict-scope. Supplied by run_pipeline.py from the "
+                          "taxonomy's own _meta.domain, so the same pipeline collects chemistry or "
+                          "computer science by being pointed at a different taxonomy file. "
+                          "Defaults to DEFAULT_SCOPE_DOMAIN (materials science).")
     ap.add_argument("--scope-out",
                      help="write the scope verdict as JSON to this path: {fits, reason, "
                           "subject_name}. subject_name is who the document is actually about, "
@@ -1447,7 +1470,8 @@ def main():
                     delete_out_of_scope=not args.keep_rejected,
                     related_fields_out=args.related_fields_out,
                     keep_source_pdf=args.keep_source_pdf,
-                    strict_scope=args.strict_scope, scope_out=args.scope_out)
+                    strict_scope=args.strict_scope, scope_out=args.scope_out,
+                    scope_domain=args.scope_domain)
         except Exception as e:  # anything not already a deliberate sys.exit() inside extract()
             sys.exit(f"Extraction failed unexpectedly ({type(e).__name__}: {e}) -- the source "
                       f"document may be corrupt, unreadable, or empty.")
