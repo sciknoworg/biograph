@@ -128,3 +128,17 @@ data/            Archived source text (gitignored — see data/README.md;
                  citations live in each subject's sources.json)
 docs/            Full documentation source (MkDocs + Material)
 ```
+
+## License
+
+MIT (see [`LICENSE`](LICENSE)) — covering this repository's own work: the
+schemas, the scripts, the frontend, and the extracted knowledge-graph JSON
+under `subjects/`.
+
+It does not extend to the source documents those subjects are drawn from.
+Each paper stays under its own publisher's or author's terms, which is why
+`data/*.pdf` and `data/*.txt` are gitignored rather than published — a
+license chosen here cannot grant rights over someone else's work. What is
+shared instead is the citation: every source is fully described in its
+subject's `sources.json`, with a DOI wherever one exists. See
+[`data/README.md`](data/README.md).
