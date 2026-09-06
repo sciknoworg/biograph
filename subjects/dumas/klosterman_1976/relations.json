@@ -1,0 +1,259 @@
+[
+  {
+    "id": "dumas_born_alais",
+    "source": "jean_baptiste_andre_dumas",
+    "type": "born_in",
+    "target": "alais",
+    "event_id": "birth_of_dumas",
+    "sources": [
+      {
+        "source_id": "klosterman_1976",
+        "page": 3,
+        "quote": "Jean Baptiste Andre was born on 16 July 1800"
+      }
+    ]
+  },
+  {
+    "id": "dumas_lived_geneva",
+    "source": "jean_baptiste_andre_dumas",
+    "type": "lived_in",
+    "target": "geneva",
+    "start": {
+      "display": "1817",
+      "precision": "year",
+      "sort_start": "1817-01-01",
+      "sort_end": "1817-12-31"
+    },
+    "end": {
+      "display": "1822",
+      "precision": "year",
+      "sort_start": "1822-01-01",
+      "sort_end": "1822-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "klosterman_1976",
+        "page": 11,
+        "quote": "My second son is leaving for Geneva on 26 April 1817"
+      }
+    ]
+  },
+  {
+    "id": "dumas_worked_le_royer",
+    "source": "jean_baptiste_andre_dumas",
+    "type": "worked_at",
+    "target": "le_royer_pharmacy",
+    "start": {
+      "display": "1817",
+      "precision": "year",
+      "sort_start": "1817-01-01",
+      "sort_end": "1817-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "klosterman_1976",
+        "page": 11,
+        "quote": "Dumas began his scientific career."
+      }
+    ]
+  },
+  {
+    "id": "dumas_member_sphn",
+    "source": "jean_baptiste_andre_dumas",
+    "type": "member_of",
+    "target": "sphn_geneve",
+    "event_id": "sphn_membership",
+    "sources": [
+      {
+        "source_id": "klosterman_1976",
+        "page": 42,
+        "quote": "They were elected on 14 June 1821"
+      }
+    ]
+  },
+  {
+    "id": "dumas_collaborated_prevost",
+    "source": "jean_baptiste_andre_dumas",
+    "type": "collaborated_with",
+    "target": "jean_louis_prevost",
+    "sources": [
+      {
+        "source_id": "klosterman_1976",
+        "page": 47,
+        "quote": "Within a short time he invited Dumas to join him in pharmaco-physiological research"
+      }
+    ]
+  },
+  {
+    "id": "dumas_educated_candolle",
+    "source": "jean_baptiste_andre_dumas",
+    "type": "educated_by",
+    "target": "augustin_pyramus_de_candolle",
+    "sources": [
+      {
+        "source_id": "klosterman_1976",
+        "page": 25,
+        "quote": "Dumas attended De Candolle's new course in natural history"
+      }
+    ]
+  },
+  {
+    "id": "dumas_educated_la_rive",
+    "source": "jean_baptiste_andre_dumas",
+    "type": "educated_by",
+    "target": "gaspard_de_la_rive",
+    "sources": [
+      {
+        "source_id": "klosterman_1976",
+        "page": 26,
+        "quote": "In his second year, Dumas certainly attended De la Rive's lectures."
+      }
+    ]
+  },
+  {
+    "id": "dumas_educated_saussure",
+    "source": "jean_baptiste_andre_dumas",
+    "type": "educated_by",
+    "target": "nicolas_theodore_de_saussure",
+    "sources": [
+      {
+        "source_id": "klosterman_1976",
+        "page": 36,
+        "quote": "Dumas' interest in organic chemistry came through his pharmacy studies, but it was encouraged and directed by Nicolas Theodore de Saussure"
+      }
+    ]
+  },
+  {
+    "id": "dumas_worked_polytechnique",
+    "source": "jean_baptiste_andre_dumas",
+    "type": "worked_at",
+    "target": "ecole_polytechnique",
+    "sources": [
+      {
+        "source_id": "klosterman_1976",
+        "page": 2,
+        "quote": "appointments at the Ecole Polytechnique"
+      }
+    ]
+  },
+  {
+    "id": "dumas_worked_athenee",
+    "source": "jean_baptiste_andre_dumas",
+    "type": "worked_at",
+    "target": "athenee_royale",
+    "sources": [
+      {
+        "source_id": "klosterman_1976",
+        "page": 2,
+        "quote": "appointments at the... Athenee."
+      }
+    ]
+  },
+  {
+    "id": "dumas_worked_college_france",
+    "source": "jean_baptiste_andre_dumas",
+    "type": "worked_at",
+    "target": "college_de_france",
+    "event_id": "college_de_france_lectures",
+    "sources": [
+      {
+        "source_id": "klosterman_1976",
+        "page": 2,
+        "quote": "In the College de France he gave an influential course on chemical philosophy."
+      }
+    ]
+  },
+  {
+    "id": "dumas_member_academy",
+    "source": "jean_baptiste_andre_dumas",
+    "type": "member_of",
+    "target": "academy_of_sciences_paris",
+    "event_id": "academy_election",
+    "sources": [
+      {
+        "source_id": "klosterman_1976",
+        "page": 2,
+        "quote": "His election to the Academy in 1832"
+      }
+    ]
+  },
+  {
+    "id": "dumas_worked_faculty_sciences",
+    "source": "jean_baptiste_andre_dumas",
+    "type": "worked_at",
+    "target": "faculty_of_sciences_paris",
+    "sources": [
+      {
+        "source_id": "klosterman_1976",
+        "page": 2,
+        "quote": "appointments to the Faculty of Sciences"
+      }
+    ]
+  },
+  {
+    "id": "dumas_worked_faculty_medicine",
+    "source": "jean_baptiste_andre_dumas",
+    "type": "worked_at",
+    "target": "faculty_of_medicine_paris",
+    "sources": [
+      {
+        "source_id": "klosterman_1976",
+        "page": 2,
+        "quote": "and the Faculty of Medicine"
+      }
+    ]
+  },
+  {
+    "id": "dumas_founded_ecole_centrale",
+    "source": "jean_baptiste_andre_dumas",
+    "type": "founded",
+    "target": "ecole_centrale",
+    "sources": [
+      {
+        "source_id": "klosterman_1976",
+        "page": 2,
+        "quote": "founding of an industrial journal and school."
+      }
+    ]
+  },
+  {
+    "id": "dumas_invented_substitution",
+    "source": "jean_baptiste_andre_dumas",
+    "type": "invented",
+    "target": "substitution_theory",
+    "sources": [
+      {
+        "source_id": "klosterman_1976",
+        "page": 2,
+        "quote": "seminal contributions to the theory of organic chemistry: ethers, amides, substitution, types"
+      }
+    ]
+  },
+  {
+    "id": "dumas_invented_type",
+    "source": "jean_baptiste_andre_dumas",
+    "type": "invented",
+    "target": "type_theory",
+    "sources": [
+      {
+        "source_id": "klosterman_1976",
+        "page": 2,
+        "quote": "seminal contributions to the theory of organic chemistry: ethers, amides, substitution, types"
+      }
+    ]
+  },
+  {
+    "id": "dumas_published_traite",
+    "source": "jean_baptiste_andre_dumas",
+    "type": "published",
+    "target": "traite_de_chimie",
+    "event_id": "traite_publication",
+    "sources": [
+      {
+        "source_id": "klosterman_1976",
+        "page": 29,
+        "quote": "Traité de Chimie appliquée aux Arts, 8 vols., Paris, 1828-46"
+      }
+    ]
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "sorby_educated_by_mitchell",
+    "source": "henry_clifton_sorby",
+    "type": "educated_by",
+    "target": "walter_mitchell",
+    "sources": [
+      {
+        "source_id": "sorby_obituary_1908",
+        "page": 1,
+        "quote": "This tutor, the Rev. Walter Mitchell, author of the treatise on Crystallography in Orr's ' Circle of the Sciences' and of some original papers on the same subject, had been a medical student, and was able to instruct Sorby in chemistry and anatomy as well as in various branches of physics,"
+      }
+    ]
+  },
+  {
+    "id": "sorby_collaborated_williamson",
+    "source": "henry_clifton_sorby",
+    "type": "collaborated_with",
+    "target": "william_crawford_williamson",
+    "sources": [
+      {
+        "source_id": "sorby_obituary_1908",
+        "page": 1,
+        "quote": "In the year 1849 Sorby, having learned the art of making thin sections of hard materials from his friend William Crawford Williamson, conceived the idea of applying the method to the study of the small, mineral particles building up rocks."
+      }
+    ]
+  },
+  {
+    "id": "sorby_mentored_forbes",
+    "source": "henry_clifton_sorby",
+    "type": "mentored",
+    "target": "david_forbes",
+    "sources": [
+      {
+        "source_id": "sorby_obituary_1908",
+        "page": 2,
+        "quote": "Zirkel, Renard, and David Forbes soon becoming conspicuous among the friends and disciples of Sorby who were prepared to follow and were always ready to defend his method."
+      }
+    ]
+  },
+  {
+    "id": "sorby_lived_in_sheffield",
+    "source": "henry_clifton_sorby",
+    "type": "lived_in",
+    "target": "sheffield",
+    "sources": [
+      {
+        "source_id": "sorby_obituary_1908",
+        "page": 5,
+        "quote": "He was devotedly attached to his native town of Sheffield, where so much of his life was spent."
+      }
+    ]
+  },
+  {
+    "id": "sorby_member_geological_society",
+    "source": "henry_clifton_sorby",
+    "type": "member_of",
+    "target": "geological_society",
+    "event_id": "sorby_geo_soc_president",
+    "sources": [
+      {
+        "source_id": "sorby_obituary_1908",
+        "page": 4,
+        "quote": "from 1878 to 1880 he was president of the Geological Society;"
+      }
+    ]
+  },
+  {
+    "id": "sorby_member_royal_microscopical_society",
+    "source": "henry_clifton_sorby",
+    "type": "member_of",
+    "target": "royal_microscopical_society",
+    "event_id": "sorby_micro_soc_president",
+    "sources": [
+      {
+        "source_id": "sorby_obituary_1908",
+        "page": 4,
+        "quote": "from 1875 to 1877 he presided over the Royal Microscopical Society."
+      }
+    ]
+  },
+  {
+    "id": "sorby_member_sheffield_lit_phil",
+    "source": "henry_clifton_sorby",
+    "type": "member_of",
+    "target": "sheffield_literary_and_philosophical_society",
+    "sources": [
+      {
+        "source_id": "sorby_obituary_1908",
+        "page": 5,
+        "quote": "Of the Literary and Philosophical Society and other institutions in Sheffield he was a warm and constant sup- porter,"
+      }
+    ]
+  },
+  {
+    "id": "sorby_founded_firth_college",
+    "source": "henry_clifton_sorby",
+    "type": "founded",
+    "target": "firth_college",
+    "sources": [
+      {
+        "source_id": "sorby_obituary_1908",
+        "page": 5,
+        "quote": "in the foundation of Firth College and the guiding of its evolution, first into a University College, and finally into the University of Sheffield, he was the leading spirit."
+      }
+    ]
+  },
+  {
+    "id": "sorby_invented_microscopical_petrography",
+    "source": "henry_clifton_sorby",
+    "type": "invented",
+    "target": "mineralogical_magazine",
+    "note": "Relation to the method described in the journal.",
+    "sources": [
+      {
+        "source_id": "sorby_obituary_1908",
+        "page": 2,
+        "quote": "laid the foundation of microscopical petrography"
+      }
+    ]
+  }
+]

@@ -1,0 +1,521 @@
+[
+  {
+    "id": "birth",
+    "event_type": "birth",
+    "label": "Born in Florence",
+    "date": {
+      "display": "25 March 1921",
+      "precision": "day",
+      "sort_start": "1921-03-25",
+      "sort_end": "1921-03-25"
+    },
+    "participants": [
+      {
+        "entity_id": "enzo_ferroni",
+        "role": "subject"
+      }
+    ],
+    "location": "florence",
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 1,
+        "quote": "Enzo Ferroni (Florence, 25 March 1921 – 9 April 2007) was an Italian chemist"
+      }
+    ]
+  },
+  {
+    "id": "graduation",
+    "event_type": "education",
+    "label": "Graduated magnum cum laude",
+    "date": {
+      "display": "1945",
+      "precision": "year",
+      "sort_start": "1945-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "enzo_ferroni",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_florence",
+        "role": "employer"
+      },
+      {
+        "entity_id": "giorgio_piccardi",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 3,
+        "quote": "Enzo Ferroni defended his chemistry master's thesis (from now on, it will be used for this title the verb to graduate) in 1945 magnum cum laude, under the supervision of Giorgio Piccardi."
+      }
+    ]
+  },
+  {
+    "id": "patent_filed_1948",
+    "event_type": "patent_filed",
+    "label": "Deposited first patent",
+    "date": {
+      "display": "27 February 1948",
+      "precision": "day",
+      "sort_start": "1948-02-27",
+      "sort_end": "1948-02-27"
+    },
+    "participants": [
+      {
+        "entity_id": "enzo_ferroni",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 12,
+        "quote": "The first mention in the Chemical Abstract of Enzo Ferroni as an author is relative to an Italian patent deposited on 27 February 1948 aimed to formulate a thermosetting powder."
+      }
+    ]
+  },
+  {
+    "id": "employment_start_cagliari",
+    "event_type": "employment_start",
+    "label": "Appointed full professor at Cagliari",
+    "date": {
+      "display": "1961",
+      "precision": "year",
+      "sort_start": "1961-01-01",
+      "sort_end": "1961-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "enzo_ferroni",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_cagliari",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 5,
+        "quote": "allowed him to gain the chair – full professor in physical chemistry – at the University of Cagliari in 1961"
+      }
+    ]
+  },
+  {
+    "id": "employment_start_florence",
+    "event_type": "employment_start",
+    "label": "Appointed full professor at Florence",
+    "date": {
+      "display": "1965",
+      "precision": "year",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "enzo_ferroni",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_florence",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 5,
+        "quote": "In 1965, he succeeded in gaining the same chair at the University of Florence, Faculty of Mathematical, Physical, and Natural Sciences"
+      }
+    ]
+  },
+  {
+    "id": "role_change_director",
+    "event_type": "role_change",
+    "label": "Became Director of Institute of Physical Chemistry",
+    "date": {
+      "display": "1965 – 1968",
+      "precision": "range",
+      "sort_start": "1965-01-01",
+      "sort_end": "1968-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "enzo_ferroni",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_florence",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 5,
+        "quote": "During the years spent at the University of Florence, he was Director of the Institute of Physical Chemistry (1965 – 1968)"
+      }
+    ]
+  },
+  {
+    "id": "role_change_dean",
+    "event_type": "role_change",
+    "label": "Became Dean of Faculty",
+    "date": {
+      "display": "1968 – 1971",
+      "precision": "range",
+      "sort_start": "1968-01-01",
+      "sort_end": "1971-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "enzo_ferroni",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_florence",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 5,
+        "quote": "Dean of the Faculty of Mathematical, Physical, and Natural Sciences (1968 – 1971)"
+      }
+    ]
+  },
+  {
+    "id": "florence_flood",
+    "event_type": "other",
+    "label": "Florence flood occurred",
+    "date": {
+      "display": "4 November 1966",
+      "precision": "day",
+      "sort_start": "1966-11-04",
+      "sort_end": "1966-11-04"
+    },
+    "participants": [
+      {
+        "entity_id": "enzo_ferroni",
+        "role": "subject"
+      }
+    ],
+    "location": "florence",
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 8,
+        "quote": "the dramatic event of the Florence flood on 4 November 1966"
+      }
+    ]
+  },
+  {
+    "id": "fresco_rescue",
+    "event_type": "other",
+    "label": "Rescued Taddeo Gaddi fresco",
+    "description": "Developed and applied chemical method to detach and save fresco damaged by flood.",
+    "date": {
+      "display": "1966",
+      "precision": "year",
+      "sort_start": "1966-01-01",
+      "sort_end": "1966-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "enzo_ferroni",
+        "role": "subject"
+      },
+      {
+        "entity_id": "dino_dini",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 9,
+        "quote": "The whole fresco by Gaddi was then subjected to the same treatment, detached, and repositioned in the same place onto appropriate support."
+      }
+    ]
+  },
+  {
+    "id": "leed_installation",
+    "event_type": "product_launch",
+    "label": "LEED instrument installed",
+    "date": {
+      "display": "spring 1967",
+      "precision": "range",
+      "sort_start": "1967-03-01",
+      "sort_end": "1967-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "enzo_ferroni",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_florence",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 8,
+        "quote": "Finally, during the spring of 1967, the LEED instrument arrived, was installed"
+      }
+    ]
+  },
+  {
+    "id": "role_change_rector",
+    "event_type": "role_change",
+    "label": "Served as Rector",
+    "date": {
+      "display": "1976 – 1979",
+      "precision": "range",
+      "sort_start": "1976-01-01",
+      "sort_end": "1979-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "enzo_ferroni",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_florence",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 1,
+        "quote": "where he served as Rector from 1976 to 1979"
+      }
+    ]
+  },
+  {
+    "id": "role_change_head_dept",
+    "event_type": "role_change",
+    "label": "Became Head of Chemistry Department",
+    "date": {
+      "display": "1983 – 1985",
+      "precision": "range",
+      "sort_start": "1983-01-01",
+      "sort_end": "1985-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "enzo_ferroni",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_florence",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 5,
+        "quote": "Head of the Chemistry Department (1983 – 1985)"
+      }
+    ]
+  },
+  {
+    "id": "csgi_founded",
+    "event_type": "company_founded",
+    "label": "CSGI founded",
+    "date": {
+      "display": "end of 1993",
+      "precision": "year",
+      "sort_start": "1993-01-01",
+      "sort_end": "1993-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "enzo_ferroni",
+        "role": "subject"
+      },
+      {
+        "entity_id": "csgi",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 12,
+        "quote": "at the end of 1993, the Consorzio interuniversitario per lo sviluppo dei Sistemi a Grande Interfase, CSGI – as was called the National Centre for Colloids and Surfaces – was born"
+      }
+    ]
+  },
+  {
+    "id": "retirement",
+    "event_type": "retirement",
+    "label": "Retired from University of Florence",
+    "date": {
+      "display": "1996",
+      "precision": "year",
+      "sort_start": "1996-01-01",
+      "sort_end": "1996-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "enzo_ferroni",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_florence",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 5,
+        "quote": "where he remained until his retirement in 1996"
+      }
+    ]
+  },
+  {
+    "id": "role_change_emeritus",
+    "event_type": "role_change",
+    "label": "Became Emeritus",
+    "date": {
+      "display": "1997",
+      "precision": "year",
+      "sort_start": "1997-01-01",
+      "sort_end": "1997-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "enzo_ferroni",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 5,
+        "quote": "becoming Emeritus the subsequent year"
+      }
+    ]
+  },
+  {
+    "id": "death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "9 April 2007",
+      "precision": "day",
+      "sort_start": "2007-04-09",
+      "sort_end": "2007-04-09"
+    },
+    "participants": [
+      {
+        "entity_id": "enzo_ferroni",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 1,
+        "quote": "Enzo Ferroni (Florence, 25 March 1921 – 9 April 2007)"
+      }
+    ]
+  },
+  {
+    "id": "award_gold_medal",
+    "event_type": "award",
+    "label": "Received Gold Medal",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "enzo_ferroni",
+        "role": "subject"
+      },
+      {
+        "entity_id": "gold_medal_1967",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 14,
+        "quote": "the Gold Medal by the Italian Ministry of the Public Education (1967)"
+      }
+    ]
+  },
+  {
+    "id": "award_grande_ufficiale",
+    "event_type": "award",
+    "label": "Designated Grande Ufficiale",
+    "date": {
+      "display": "1977",
+      "precision": "year",
+      "sort_start": "1977-01-01",
+      "sort_end": "1977-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "enzo_ferroni",
+        "role": "subject"
+      },
+      {
+        "entity_id": "grande_ufficiale_1977",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 14,
+        "quote": "the designation of Grande Ufficiale dell'Ordine (1977)"
+      }
+    ]
+  },
+  {
+    "id": "award_officier",
+    "event_type": "award",
+    "label": "Granted Officier title",
+    "date": {
+      "display": "1979",
+      "precision": "year",
+      "sort_start": "1979-01-01",
+      "sort_end": "1979-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "enzo_ferroni",
+        "role": "subject"
+      },
+      {
+        "entity_id": "officier_1979",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 14,
+        "quote": "the granting of the title Officier de l'Ordre National du Mérite (1979)"
+      }
+    ]
+  }
+]

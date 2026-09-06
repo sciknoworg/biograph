@@ -1,7 +1,9 @@
 # Usage Guide: Adding a New Subject
 
 This is the repeatable process for turning a new biographical source (a
-paper, an oral history, an archive) into a new `subjects/<slug>/` folder.
+paper, an oral history, an archive) into a new
+`subjects/<slug>/<citation-key>/` folder — one folder per source
+document, under a folder named for the person.
 Follow it in order — each step depends on the one before. The live
 version of this checklist lives in `extraction/EXTRACTION_GUIDE.md`.
 
@@ -127,7 +129,12 @@ Practical rules:
   PDF viewer's page index, so citations match what a human reader sees;
   fall back to the nearest `[pdf page N]` marker if the source has none
   printed.
-- **Quote sparingly** — `sources[].quote` is optional, reserved for the
+- **Always quote** — `sources[].quote` is required: the span of the
+  document that states the fact, copied verbatim. It is checked
+  mechanically against the source afterwards
+  ([Data Accuracy § Grounding](data-accuracy.md#2-grounding-the-hallucination-check)),
+  so a quote you cannot copy exactly is a fact you should not state.
+  Reserve the *longest* quotes for the
   load-bearing sentence of a genuinely pivotal event (the invention
   moment, the first public disclosure), not added to every citation.
 - **Keep `label` terse and scannable** — an expert should read it alone

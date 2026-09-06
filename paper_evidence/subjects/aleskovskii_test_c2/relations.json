@@ -1,0 +1,117 @@
+[
+  {
+    "id": "born_in",
+    "source": "valentin_borisovich_aleskovskii",
+    "type": "born_in",
+    "target": "mary_turkmenistan",
+    "event_id": "birth",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "studied_at_lti",
+    "source": "valentin_borisovich_aleskovskii",
+    "type": "studied_at",
+    "target": "leningrad_technological_institute_by_lensovet",
+    "event_id": "admission_lti",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "worked_at_naval",
+    "source": "valentin_borisovich_aleskovskii",
+    "type": "worked_at",
+    "target": "naval_research_institute",
+    "event_id": "employment_naval",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "worked_at_lti",
+    "source": "valentin_borisovich_aleskovskii",
+    "type": "worked_at",
+    "target": "leningrad_technological_institute_by_lensovet",
+    "event_id": "head_analytical_chem",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "supervised_koltsov",
+    "source": "valentin_borisovich_aleskovskii",
+    "type": "supervised_by",
+    "target": "stanislav_ivanovich_koltsov",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "elected_to_academy",
+    "source": "valentin_borisovich_aleskovskii",
+    "type": "member_of",
+    "target": "academy_of_sciences_of_ussr",
+    "event_id": "corresponding_member",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "worked_at_lsu",
+    "source": "valentin_borisovich_aleskovskii",
+    "type": "worked_at",
+    "target": "leningrad_state_university",
+    "event_id": "rector_lsu",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "invented_framework",
+    "source": "valentin_borisovich_aleskovskii",
+    "type": "invented",
+    "target": "framework_hypothesis",
+    "event_id": "doctoral_degree",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "developed_ml",
+    "source": "valentin_borisovich_aleskovskii",
+    "type": "developed",
+    "target": "molecular_layering_method",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 2
+      }
+    ]
+  }
+]

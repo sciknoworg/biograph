@@ -1,0 +1,136 @@
+[
+  {
+    "aliases": [
+      "G. Lippmann",
+      "M. Lippmann",
+      "Professor Lippmann"
+    ],
+    "attributes": {
+      "birth_year": 1845,
+      "death_year": 1921,
+      "nationality": "French"
+    },
+    "entity_type": "person",
+    "id": "gabriel_lippmann",
+    "name": "Gabriel Lippmann",
+    "subtype": "researcher",
+    "summary": "French physicist and inventor of interference colour photography, Nobel laureate in Physics 1908."
+  },
+  {
+    "aliases": [
+      "Lumière Brothers",
+      "Messieurs Lumière"
+    ],
+    "attributes": {
+      "birth_year": 1862,
+      "death_year": 1954
+    },
+    "entity_type": "person",
+    "id": "auguste_lumiere",
+    "name": "Auguste Lumière",
+    "subtype": "researcher",
+    "summary": "French manufacturer and inventor who assisted Lippmann with photographic emulsions."
+  },
+  {
+    "aliases": [
+      "Lumière Brothers",
+      "Messieurs Lumière"
+    ],
+    "attributes": {
+      "birth_year": 1864,
+      "death_year": 1948
+    },
+    "entity_type": "person",
+    "id": "louis_lumiere",
+    "name": "Louis Lumière",
+    "subtype": "researcher",
+    "summary": "French manufacturer and inventor who assisted Lippmann with photographic emulsions."
+  },
+  {
+    "aliases": [
+      "University of Paris"
+    ],
+    "attributes": {
+      "country": "France"
+    },
+    "entity_type": "organization",
+    "id": "sorbonne",
+    "name": "Sorbonne",
+    "subtype": "university",
+    "summary": "University in Paris where Lippmann was Professor of Mathematical Physics."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "France"
+    },
+    "entity_type": "organization",
+    "id": "bureau_of_longitude",
+    "name": "Bureau of Longitude",
+    "subtype": "organization",
+    "summary": "French scientific institution of which Lippmann was a member."
+  },
+  {
+    "aliases": [
+      "Académie des Sciences",
+      "Paris Academy"
+    ],
+    "attributes": {
+      "country": "France"
+    },
+    "entity_type": "organization",
+    "id": "paris_academie_des_sciences",
+    "name": "Paris Académie des Sciences",
+    "subtype": "organization",
+    "summary": "French scientific academy where Lippmann presented his 1891 paper."
+  },
+  {
+    "aliases": [
+      "The Royal Society of London"
+    ],
+    "attributes": {
+      "country": "United Kingdom"
+    },
+    "entity_type": "organization",
+    "id": "royal_society",
+    "name": "Royal Society",
+    "subtype": "organization",
+    "summary": "British scientific academy where Lippmann's spectra were displayed in 1891."
+  },
+  {
+    "aliases": [
+      "Nobel Prize"
+    ],
+    "attributes": {
+      "year": 1908
+    },
+    "entity_type": "artifact",
+    "id": "nobel_prize_physics_1908",
+    "name": "Nobel Prize in Physics 1908",
+    "subtype": "award",
+    "summary": "Physics Nobel Prize awarded to Lippmann for colour photography."
+  },
+  {
+    "aliases": [
+      "Interferential Photographie",
+      "Lippmann plate"
+    ],
+    "attributes": {},
+    "entity_type": "artifact",
+    "id": "lippmann_photograph",
+    "name": "Lippmann photograph",
+    "subtype": "invention",
+    "summary": "Colour photograph produced using interference method invented by Lippmann."
+  },
+  {
+    "aliases": [
+      "Lippmann photographic emulsion"
+    ],
+    "attributes": {},
+    "entity_type": "artifact",
+    "id": "lippmann_emulsion",
+    "name": "Lippmann emulsion",
+    "subtype": "product",
+    "summary": "Photographic emulsion receptive to recording interference, used in Lippmann photography."
+  }
+]

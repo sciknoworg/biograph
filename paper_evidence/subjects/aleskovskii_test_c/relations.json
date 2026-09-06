@@ -1,0 +1,193 @@
+[
+  {
+    "id": "aleskovskii_born_in_mary",
+    "source": "aleskovskii_valentin",
+    "type": "born_in",
+    "target": "mary_city",
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_studied_at_lti",
+    "source": "aleskovskii_valentin",
+    "type": "studied_at",
+    "target": "lti_lensovet",
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_worked_at_lti",
+    "source": "aleskovskii_valentin",
+    "type": "worked_at",
+    "target": "lti_lensovet",
+    "start": {
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_worked_at_lsu",
+    "source": "aleskovskii_valentin",
+    "type": "worked_at",
+    "target": "lsu",
+    "start": {
+      "precision": "year",
+      "sort_start": "1975-01-01",
+      "sort_end": "2006-01-29"
+    },
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_mentored_koltsov",
+    "source": "aleskovskii_valentin",
+    "type": "mentored",
+    "target": "koltsov_stanislav",
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_collaborated_with_koltsov",
+    "source": "aleskovskii_valentin",
+    "type": "collaborated_with",
+    "target": "koltsov_stanislav",
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_invented_framework",
+    "source": "aleskovskii_valentin",
+    "type": "invented",
+    "target": "framework_hypothesis",
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_invented_ml",
+    "source": "aleskovskii_valentin",
+    "type": "invented",
+    "target": "ml_method",
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_founded_chemistry_school",
+    "source": "aleskovskii_valentin",
+    "type": "founded",
+    "target": "chemistry_highly_organized",
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_supervised_program",
+    "source": "aleskovskii_valentin",
+    "type": "supervised_by",
+    "target": "chemical_assembly_program",
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "koltsov_studied_at_lti",
+    "source": "koltsov_stanislav",
+    "type": "studied_at",
+    "target": "lti_lensovet",
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "koltsov_worked_at_lti",
+    "source": "koltsov_stanislav",
+    "type": "worked_at",
+    "target": "lti_lensovet",
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "koltsov_invented_ml",
+    "source": "koltsov_stanislav",
+    "type": "invented",
+    "target": "ml_method",
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "suntola_invented_ale",
+    "source": "suntola_tuomo",
+    "type": "invented",
+    "target": "ale_method",
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_meet_suntola",
+    "source": "aleskovskii_valentin",
+    "type": "met",
+    "target": "suntola_tuomo",
+    "event_id": "aleskovskii_suntola_meeting",
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 18
+      }
+    ]
+  }
+]

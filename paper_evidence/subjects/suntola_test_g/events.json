@@ -1,0 +1,1797 @@
+[
+  {
+    "id": "suntola_birth_1943",
+    "event_type": "birth",
+    "label": "Born in Tampere, Finland",
+    "date": {
+      "display": "1943",
+      "precision": "year",
+      "sort_start": "1943-01-01",
+      "sort_end": "1943-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "tampere",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "suntola_matriculation_1962",
+    "event_type": "education",
+    "label": "Completed matriculation examinations in Turku",
+    "date": {
+      "display": "1962",
+      "precision": "year",
+      "sort_start": "1962-01-01",
+      "sort_end": "1962-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "turku",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "suntola_studies_start_1963",
+    "event_type": "education",
+    "label": "Started electrical engineering studies at Helsinki University of Technology",
+    "date": {
+      "display": "1963",
+      "precision": "year",
+      "sort_start": "1963-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "helsinki_university_of_technology",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "suntola_masters_thesis_1967",
+    "event_type": "education",
+    "label": "Completed Master’s thesis on Schottky diodes for radar detectors",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "helsinki_university_of_technology",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "suntola_licentiate_thesis_1971",
+    "event_type": "education",
+    "label": "Completed licentiate’s thesis on chalcogenide thin-film switching",
+    "date": {
+      "display": "1971",
+      "precision": "year",
+      "sort_start": "1971-01-01",
+      "sort_end": "1971-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "helsinki_university_of_technology",
+        "role": "educator"
+      },
+      {
+        "entity_id": "thor_stubb",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "suntola_phd_1971",
+    "event_type": "education",
+    "label": "Awarded Doctor of Science in Technology at age 28",
+    "date": {
+      "display": "December 1971",
+      "precision": "month",
+      "sort_start": "1971-12-01",
+      "sort_end": "1971-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "helsinki_university_of_technology",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "vtt_semiconductor_lab_established_1964",
+    "event_type": "other",
+    "label": "VTT Semiconductor Laboratory established",
+    "date": {
+      "display": "1964",
+      "precision": "year",
+      "sort_start": "1964-01-01",
+      "sort_end": "1964-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "vtt_semiconductor_laboratory",
+        "role": "subject"
+      },
+      {
+        "entity_id": "thor_stubb",
+        "role": "founder"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "vaisala_humidity_sensor_project_1971",
+    "event_type": "employment_start",
+    "label": "Assigned to develop humidity sensor for Vaisala Oy",
+    "date": {
+      "display": "autumn 1971",
+      "precision": "month",
+      "sort_start": "1971-09-01",
+      "sort_end": "1971-11-30"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "vtt_semiconductor_laboratory",
+        "role": "employer"
+      },
+      {
+        "entity_id": "vaisala_oy",
+        "role": "client"
+      },
+      {
+        "entity_id": "thor_stubb",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "humicap_1_development_1973",
+    "event_type": "invention",
+    "label": "Developed Humicap 1 humidity sensor with Jorma Antson",
+    "date": {
+      "display": "end of 1973",
+      "precision": "month",
+      "sort_start": "1973-11-01",
+      "sort_end": "1973-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "jorma_antson",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "humicap_1",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "humicap_1_patent_filed_1972",
+    "event_type": "patent_filed",
+    "label": "Filed patent for Humicap 1 humidity sensor",
+    "date": {
+      "display": "October 12, 1972",
+      "precision": "day",
+      "sort_start": "1972-10-12",
+      "sort_end": "1972-10-12"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "humicap_1",
+        "role": "invention"
+      },
+      {
+        "entity_id": "lcd_patent_1985",
+        "role": "patent"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 13,
+        "quote": "International patent, US 4 164 868, priority Oct 12, 1972, publication Aug 21, 1979."
+      }
+    ]
+  },
+  {
+    "id": "suntola_joins_instrumentarium_1974",
+    "event_type": "employment_start",
+    "label": "Moved to Instrumentarium Oy to establish research group",
+    "date": {
+      "display": "beginning of 1974",
+      "precision": "month",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "instrumentarium_oy",
+        "role": "employer"
+      },
+      {
+        "entity_id": "jorma_antson",
+        "role": "collaborator"
+      }
+    ],
+    "location": "espoo",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "ale_invention_1974",
+    "event_type": "invention",
+    "label": "Invented Atomic Layer Epitaxy (ALE)",
+    "date": {
+      "display": "early June 1974",
+      "precision": "month",
+      "sort_start": "1974-06-01",
+      "sort_end": "1974-06-15"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "atomic_layer_epitaxy",
+        "role": "invention"
+      }
+    ],
+    "description": "Conceived the idea of sequentially serving complementary elements of a compound onto a surface to grow monoatomic layers.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 3,
+        "quote": "The actual invention of ALE matured in early June 1974... came the idea of 'serving' the complementary elements of a compound sequentially, one at a time, onto a surface."
+      }
+    ]
+  },
+  {
+    "id": "first_ale_reactor_design_1974",
+    "event_type": "invention",
+    "label": "Designed first ALE reactor prototype",
+    "date": {
+      "display": "June 1974",
+      "precision": "month",
+      "sort_start": "1974-06-01",
+      "sort_end": "1974-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "atomic_layer_epitaxy",
+        "role": "invention"
+      }
+    ],
+    "description": "Built using a 12” T-piece chamber with rotating carousel for substrates.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "first_ale_experiments_1974",
+    "event_type": "public_demonstration",
+    "label": "Conducted first ALE growth experiments",
+    "date": {
+      "display": "August–September 1974",
+      "precision": "month",
+      "sort_start": "1974-08-01",
+      "sort_end": "1974-09-30"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "atomic_layer_epitaxy",
+        "role": "invention"
+      }
+    ],
+    "description": "First successful ZnS film growth observed, though at a slower-than-expected rate (1/3 monolayer per cycle).",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "ale_patent_1974_filed",
+    "event_type": "patent_filed",
+    "label": "Filed international patent for ALE",
+    "date": {
+      "display": "November 29, 1974",
+      "precision": "day",
+      "sort_start": "1974-11-29",
+      "sort_end": "1974-11-29"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "jorma_antson",
+        "role": "co-inventor"
+      },
+      {
+        "entity_id": "ale_patent_1974",
+        "role": "patent"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 4,
+        "quote": "The priority date of the patent comes from the Finnish application, filed on November 29, 1974."
+      }
+    ]
+  },
+  {
+    "id": "ale_patent_granted_1977",
+    "event_type": "patent_granted",
+    "label": "ALE patent granted in multiple countries",
+    "date": {
+      "display": "November 15, 1977",
+      "precision": "day",
+      "sort_start": "1977-11-15",
+      "sort_end": "1977-11-15"
+    },
+    "participants": [
+      {
+        "entity_id": "ale_patent_1974",
+        "role": "patent"
+      }
+    ],
+    "description": "Patent granted in over 20 countries, including the US, Japan, and the Soviet Union.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "moscow_patent_hearing_1977_1978",
+    "event_type": "meeting",
+    "label": "Patent hearing in Moscow",
+    "date": {
+      "display": "1977 or 1978",
+      "precision": "year",
+      "sort_start": "1977-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "location": "leningrad",
+    "description": "Suntola defended the ALE patent with local attorneys; granted as applied.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "ale_el_project_sold_to_lohja_1978",
+    "event_type": "company_sold",
+    "label": "ALE-EL project sold to Lohja Oy",
+    "date": {
+      "display": "1978",
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "instrumentarium_oy",
+        "role": "seller"
+      },
+      {
+        "entity_id": "lohja_oy",
+        "role": "buyer"
+      },
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "switch_to_chloride_process_1978",
+    "event_type": "invention",
+    "label": "Switched ALE process from elemental to compound reactants (ZnCl2/H2S)",
+    "date": {
+      "display": "1978",
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "sven_lindfors",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "arto_pakkala",
+        "role": "collaborator"
+      }
+    ],
+    "description": "First successful ZnCl2/H2S process demonstrated, leading to uniform film growth.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 4,
+        "quote": "An abrupt change occurred when a H2S gas bottle was acquired... the walls of the reactor tube were evenly covered with a strictly uniform film."
+      }
+    ]
+  },
+  {
+    "id": "ale_patent_1979_filed",
+    "event_type": "patent_filed",
+    "label": "Filed second ALE patent for inert gas reactors",
+    "date": {
+      "display": "February 28, 1979",
+      "precision": "day",
+      "sort_start": "1979-02-28",
+      "sort_end": "1979-02-28"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "arto_pakkala",
+        "role": "co-inventor"
+      },
+      {
+        "entity_id": "sven_lindfors",
+        "role": "co-inventor"
+      },
+      {
+        "entity_id": "ale_patent_1979",
+        "role": "patent"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 4,
+        "quote": "The ALE dielectric layers are documented in the patent."
+      }
+    ]
+  },
+  {
+    "id": "sid_1980_conference_presentation",
+    "event_type": "conference",
+    "label": "First public disclosure of ALE-EL displays at SID 1980",
+    "date": {
+      "display": "April 29 – May 1, 1980",
+      "precision": "day",
+      "sort_start": "1980-04-29",
+      "sort_end": "1980-05-01"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "presenter"
+      },
+      {
+        "entity_id": "jorma_antson",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "sven_lindfors",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "arto_pakkala",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "society_for_information_display",
+        "role": "organizer"
+      }
+    ],
+    "location": "san_diego",
+    "description": "Presented ALE-EL displays to ~1000 attendees; won 1980 SID Outstanding Paper Award (awarded in 1981).",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 5,
+        "quote": "The presentation of the revolutionary EL display was given by an unknown person (Suntola), coming from an unknown country (Finland)."
+      }
+    ]
+  },
+  {
+    "id": "sid_award_1981",
+    "event_type": "award",
+    "label": "Received 1980 SID Outstanding Paper Award",
+    "date": {
+      "display": "1981",
+      "precision": "year",
+      "sort_start": "1981-01-01",
+      "sort_end": "1981-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "recipient"
+      },
+      {
+        "entity_id": "jorma_antson",
+        "role": "recipient"
+      },
+      {
+        "entity_id": "sven_lindfors",
+        "role": "recipient"
+      },
+      {
+        "entity_id": "arto_pakkala",
+        "role": "recipient"
+      },
+      {
+        "entity_id": "society_for_information_display",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 5
+      }
+    ]
+  },
+  {
+    "id": "helsinki_airport_displays_1983",
+    "event_type": "product_launch",
+    "label": "Installed first ALE-EL information boards at Helsinki-Vantaa Airport",
+    "date": {
+      "display": "1983",
+      "precision": "year",
+      "sort_start": "1983-01-01",
+      "sort_end": "1983-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lohja_oy",
+        "role": "manufacturer"
+      },
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "location": "helsinki_vantaa_airport",
+    "description": "Test modules with ATO dielectrics showed best performance; panels ran continuously for 15 years.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "olarinluoma_plant_construction_1984",
+    "event_type": "company_founded",
+    "label": "Olarinluoma EL production facility built",
+    "date": {
+      "display": "1984",
+      "precision": "year",
+      "sort_start": "1984-01-01",
+      "sort_end": "1984-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lohja_oy",
+        "role": "subject"
+      }
+    ],
+    "location": "olarinluoma_plant",
+    "description": "Large facility with high-level cleanrooms, completed by summer 1984 to meet tax incentives.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "el_production_start_1985",
+    "event_type": "product_launch",
+    "label": "Started production of EL data display modules",
+    "date": {
+      "display": "1985",
+      "precision": "year",
+      "sort_start": "1985-01-01",
+      "sort_end": "1985-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lohja_oy",
+        "role": "manufacturer"
+      },
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "chief_scientist"
+      }
+    ],
+    "location": "olarinluoma_plant",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "suntola_stepped_aside_1987",
+    "event_type": "role_change",
+    "label": "Stepped aside from EL business to focus on ALE applications",
+    "date": {
+      "display": "1987",
+      "precision": "year",
+      "sort_start": "1987-01-01",
+      "sort_end": "1987-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lohja_oy",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "microchemistry_founded_1987",
+    "event_type": "company_founded",
+    "label": "Founded Microchemistry Ltd. under Neste Oy",
+    "date": {
+      "display": "1987",
+      "precision": "year",
+      "sort_start": "1987-01-01",
+      "sort_end": "1987-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "founder"
+      },
+      {
+        "entity_id": "neste_oy",
+        "role": "parent_organization"
+      },
+      {
+        "entity_id": "microchemistry_ltd",
+        "role": "subject"
+      }
+    ],
+    "description": "Focused on ALE for solar panels and catalysis; ownership split 80% Neste / 20% Lohja.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "f_120_reactor_developed",
+    "event_type": "invention",
+    "label": "Developed F-120 ALD reactor for photovoltaic research",
+    "date": {
+      "display": "1987",
+      "precision": "year",
+      "sort_start": "1987-01-01",
+      "sort_end": "1987-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "sven_lindfors",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "f_120_reactor",
+        "role": "invention"
+      }
+    ],
+    "description": "First commercial ALD reactor, optimized for fast cycling and easy operation.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "lohja_el_sold_to_planar_1990",
+    "event_type": "company_sold",
+    "label": "Lohja’s EL business sold to Planar Inc.",
+    "date": {
+      "display": "1990",
+      "precision": "year",
+      "sort_start": "1990-01-01",
+      "sort_end": "1990-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lohja_oy",
+        "role": "seller"
+      },
+      {
+        "entity_id": "planar_inc",
+        "role": "buyer"
+      }
+    ],
+    "description": "Neste bought Lohja’s share of Microchemistry; ALE license extended to cover all non-EL applications.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "ale_1_conference_1990",
+    "event_type": "conference",
+    "label": "First International Symposium on Atomic Layer Epitaxy (ALE-1)",
+    "date": {
+      "display": "June 11–13, 1990",
+      "precision": "day",
+      "sort_start": "1990-06-11",
+      "sort_end": "1990-06-13"
+    },
+    "participants": [
+      {
+        "entity_id": "lauri_niinisto",
+        "role": "organizer"
+      },
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "attendee"
+      }
+    ],
+    "location": "espoo",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 10
+      }
+    ]
+  },
+  {
+    "id": "suntola_visits_aleskovskii_1990",
+    "event_type": "meeting",
+    "label": "Visited Prof. Aleskovskii in Leningrad to discuss Molecular Layering",
+    "date": {
+      "display": "August 1990",
+      "precision": "month",
+      "sort_start": "1990-08-01",
+      "sort_end": "1990-08-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "aleskovskii",
+        "role": "host"
+      },
+      {
+        "entity_id": "victor_drozd",
+        "role": "facilitator"
+      }
+    ],
+    "location": "leningrad",
+    "description": "Confirmed independent discovery of ALE/ML by Aleskovskii’s group in the 1960s.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 11
+      }
+    ]
+  },
+  {
+    "id": "microchemistry_focuses_on_ald_1997",
+    "event_type": "role_change",
+    "label": "Microchemistry Ltd. devoted to ALD technology and reactor business",
+    "date": {
+      "display": "1997",
+      "precision": "year",
+      "sort_start": "1997-01-01",
+      "sort_end": "1997-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "microchemistry_ltd",
+        "role": "subject"
+      },
+      {
+        "entity_id": "neste_oy",
+        "role": "parent_organization"
+      },
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "research_fellow"
+      },
+      {
+        "entity_id": "matti_ervasti",
+        "role": "managing_director"
+      }
+    ],
+    "description": "PV and catalyst research transferred to Neste’s Central Research; Suntola became a Research Fellow.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "id": "mrs_1994_presentation",
+    "event_type": "conference",
+    "label": "Presented ALE for Semiconductor Applications at MRS 1994",
+    "date": {
+      "display": "November 28 – December 2, 1994",
+      "precision": "day",
+      "sort_start": "1994-11-28",
+      "sort_end": "1994-12-02"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "presenter"
+      },
+      {
+        "entity_id": "heli_vaara",
+        "role": "attendee"
+      }
+    ],
+    "location": "boston",
+    "description": "Demonstrated ALD’s uniformity, conformality, and high-density films; first major semiconductor-focused introduction.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 8,
+        "quote": "The talk 'ALE for Semiconductor Applications' was complemented by Microchemistry’s ALE booth."
+      }
+    ]
+  },
+  {
+    "id": "microchemistry_sold_to_asm_1999",
+    "event_type": "company_sold",
+    "label": "Microchemistry Ltd. sold to ASM",
+    "date": {
+      "display": "1999",
+      "precision": "year",
+      "sort_start": "1999-01-01",
+      "sort_end": "1999-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "microchemistry_ltd",
+        "role": "subject"
+      },
+      {
+        "entity_id": "asm_microchemistry",
+        "role": "successor"
+      },
+      {
+        "entity_id": "neste_oy",
+        "role": "seller"
+      }
+    ],
+    "description": "ASM moved reactor manufacturing to Phoenix, Arizona; Finnish operations focused on ALD research.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "id": "suntola_retires_from_ald_1998",
+    "event_type": "retirement",
+    "label": "Stepped aside from active role in ALD",
+    "date": {
+      "display": "beginning of 1998",
+      "precision": "month",
+      "sort_start": "1998-01-01",
+      "sort_end": "1998-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "matti_ervasti",
+        "role": "successor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 11
+      }
+    ]
+  },
+  {
+    "id": "picosun_founded_2004",
+    "event_type": "company_founded",
+    "label": "Picosun Oy founded by Sven Lindfors and Kustaa Poutiainen",
+    "date": {
+      "display": "2004",
+      "precision": "year",
+      "sort_start": "2004-01-01",
+      "sort_end": "2004-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "sven_lindfors",
+        "role": "founder"
+      },
+      {
+        "entity_id": "kustaa_poutiainen",
+        "role": "founder"
+      },
+      {
+        "entity_id": "picosun_oy",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "id": "beneq_founded_2005",
+    "event_type": "company_founded",
+    "label": "Beneq Oy founded; Pekka Soininen started ALD reactor activity",
+    "date": {
+      "display": "2005",
+      "precision": "year",
+      "sort_start": "2005-01-01",
+      "sort_end": "2005-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pekkka_soininen",
+        "role": "founder"
+      },
+      {
+        "entity_id": "beneq_oy",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "id": "beneq_acquires_planar_plant_2012",
+    "event_type": "acquired_by",
+    "label": "Beneq Oy acquired Planar’s EL plant in Olarinluoma",
+    "date": {
+      "display": "2012",
+      "precision": "year",
+      "sort_start": "2012-01-01",
+      "sort_end": "2012-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "beneq_oy",
+        "role": "acquirer"
+      },
+      {
+        "entity_id": "planar_inc",
+        "role": "seller"
+      },
+      {
+        "entity_id": "olarinluoma_plant",
+        "role": "asset"
+      }
+    ],
+    "description": "Beneq continues as the only commercial manufacturer of ALE-EL panels (as of 2014).",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "suntola_joins_picosun_2004",
+    "event_type": "employment_start",
+    "label": "Joined Picosun Oy as scientific adviser",
+    "date": {
+      "display": "2004",
+      "precision": "year",
+      "sort_start": "2004-01-01",
+      "sort_end": "2004-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "picosun_oy",
+        "role": "employer"
+      }
+    ],
+    "description": "Became board member in 2007.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 11
+      }
+    ]
+  },
+  {
+    "id": "semi_award_2004",
+    "event_type": "award",
+    "label": "Received European SEMI Award 2004",
+    "date": {
+      "display": "2004",
+      "precision": "year",
+      "sort_start": "2004-01-01",
+      "sort_end": "2004-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "recipient"
+      },
+      {
+        "entity_id": "european_semi_award_2004",
+        "role": "award"
+      }
+    ],
+    "location": "munich",
+    "description": "Awarded for pioneering ALD techniques; accompanied by Picosun founders.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 11,
+        "quote": "The European SEMI Award 2004 'Honoring the Pioneer in Atomic Layer Deposition Techniques...' was handed to Suntola at the Munich Electronics Show 2004."
+      }
+    ]
+  },
+  {
+    "id": "suntola_lectures_at_tut_1973_1975",
+    "event_type": "employment_start",
+    "label": "Lectured on semiconductor physics at Tampere University of Technology",
+    "date": {
+      "display": "1973–1975",
+      "precision": "range",
+      "sort_start": "1973-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "tampere_university_of_technology",
+        "role": "employer"
+      }
+    ],
+    "description": "Nominated as docent; encouraged TUT group to work on ALE of group III-V semiconductors.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 10
+      }
+    ]
+  },
+  {
+    "id": "markus_pessa_appointed_1978",
+    "event_type": "employment_start",
+    "label": "Markus Pessa appointed professor at TUT",
+    "date": {
+      "display": "1978",
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "markus_pessa",
+        "role": "subject"
+      },
+      {
+        "entity_id": "tampere_university_of_technology",
+        "role": "employer"
+      }
+    ],
+    "description": "Took over semiconductor physics lectures and led MBE-based GaAs laser research.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 10
+      }
+    ]
+  },
+  {
+    "id": "ale_licensed_to_france_1983",
+    "event_type": "licensed_to",
+    "label": "ALE-EL technology licensed to CGE (France)",
+    "date": {
+      "display": "1983",
+      "precision": "year",
+      "sort_start": "1983-01-01",
+      "sort_end": "1983-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lohja_oy",
+        "role": "licensor"
+      },
+      {
+        "entity_id": "cge",
+        "role": "licensee"
+      }
+    ],
+    "description": "F-450 reactor delivered to France as part of the license.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 11
+      }
+    ]
+  },
+  {
+    "id": "elcoteq_founded_1990",
+    "event_type": "company_founded",
+    "label": "Elcoteq Oy founded as spin-off from Lohja’s microelectronics division",
+    "date": {
+      "display": "1990",
+      "precision": "year",
+      "sort_start": "1990-01-01",
+      "sort_end": "1990-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "antti_piippo",
+        "role": "founder"
+      },
+      {
+        "entity_id": "elcoteq_oy",
+        "role": "subject"
+      }
+    ],
+    "description": "Became a major contract manufacturer for Nokia; bankrupt in 2011.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "picopack_founded_1991",
+    "event_type": "company_founded",
+    "label": "Picopack Oy founded by Ahti Aintila",
+    "date": {
+      "display": "1991",
+      "precision": "year",
+      "sort_start": "1991-01-01",
+      "sort_end": "1991-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ahti_aintila",
+        "role": "founder"
+      },
+      {
+        "entity_id": "picopack_oy",
+        "role": "subject"
+      }
+    ],
+    "description": "Produced smart cards and products using TAB technology.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "endeas_founded",
+    "event_type": "company_founded",
+    "label": "Endeas Oy founded by Jaakko Hyvärinen",
+    "date": {
+      "display": "1990s",
+      "precision": "decade",
+      "sort_start": "1990-01-01",
+      "sort_end": "1999-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jaakko_hyvarinen",
+        "role": "founder"
+      },
+      {
+        "entity_id": "endeas_oy",
+        "role": "subject"
+      }
+    ],
+    "description": "Produced and sold Quicksun solar simulators.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "suntola_retires_2004",
+    "event_type": "retirement",
+    "label": "Full retirement from Fortum Oyj",
+    "date": {
+      "display": "beginning of 2004",
+      "precision": "month",
+      "sort_start": "2004-01-01",
+      "sort_end": "2004-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "fortum_oyj",
+        "role": "employer"
+      }
+    ],
+    "description": "Continued as board member of Picosun Oy and other organizations.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 11
+      }
+    ]
+  },
+  {
+    "id": "dynamic_universe_published_2011",
+    "event_type": "publication",
+    "label": "Published 'The Dynamic Universe'",
+    "date": {
+      "display": "2011",
+      "precision": "year",
+      "sort_start": "2011-01-01",
+      "sort_end": "2011-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "author"
+      },
+      {
+        "entity_id": "the_dynamic_universe",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 11
+      }
+    ]
+  },
+  {
+    "id": "short_history_of_science_published_2012",
+    "event_type": "publication",
+    "label": "Published 'The Short History of Science'",
+    "date": {
+      "display": "2012",
+      "precision": "year",
+      "sort_start": "2012-01-01",
+      "sort_end": "2012-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "author"
+      },
+      {
+        "entity_id": "short_history_of_science",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 11
+      }
+    ]
+  },
+  {
+    "id": "lcd_patent_filed_1985",
+    "event_type": "patent_filed",
+    "label": "Filed patent on Liquid Crystal Displays (LCDs)",
+    "date": {
+      "display": "March 5, 1985",
+      "precision": "day",
+      "sort_start": "1985-03-05",
+      "sort_end": "1985-03-05"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "lcd_patent_1985",
+        "role": "patent"
+      }
+    ],
+    "description": "Patent for sequential color concept in LCDs, granted in 1990.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 11,
+        "quote": "International patent, US 4 907 862, priority Mar 5, 1985, publication March 13, 1990."
+      }
+    ]
+  },
+  {
+    "id": "first_ale_conference_1984",
+    "event_type": "conference",
+    "label": "First Symposium on Atomic Layer Epitaxy",
+    "date": {
+      "display": "December 13–14, 1984",
+      "precision": "day",
+      "sort_start": "1984-12-13",
+      "sort_end": "1984-12-14"
+    },
+    "participants": [
+      {
+        "entity_id": "lauri_niinisto",
+        "role": "organizer"
+      },
+      {
+        "entity_id": "vtt_semiconductor_laboratory",
+        "role": "host"
+      }
+    ],
+    "location": "espoo",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 10
+      }
+    ]
+  },
+  {
+    "id": "ale_reactor_to_hut_early_1980s",
+    "event_type": "other",
+    "label": "First ALE reactor supplied to HUT (locked room)",
+    "date": {
+      "display": "early 1980s",
+      "precision": "year",
+      "sort_start": "1980-01-01",
+      "sort_end": "1981-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "microchemistry_ltd",
+        "role": "supplier"
+      },
+      {
+        "entity_id": "helsinki_university_of_technology",
+        "role": "recipient"
+      },
+      {
+        "entity_id": "lauri_niinisto",
+        "role": "recipient"
+      }
+    ],
+    "description": "Placed in a locked room due to confidentiality; seeded ALD research at HUT.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 10
+      }
+    ]
+  },
+  {
+    "id": "ale_research_at_vtt_1980s",
+    "event_type": "other",
+    "label": "ALE activities initiated at VTT Semiconductor Laboratory",
+    "date": {
+      "display": "mid-1980s",
+      "precision": "year",
+      "sort_start": "1985-01-01",
+      "sort_end": "1986-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "vtt_semiconductor_laboratory",
+        "role": "subject"
+      }
+    ],
+    "description": "Initial focus on group III-V materials.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 10
+      }
+    ]
+  },
+  {
+    "id": "ale_theoretical_work_joensuu",
+    "event_type": "other",
+    "label": "Quantum chemical analysis of ZnS growth at University of Joensuu",
+    "date": {
+      "display": "1980s–1992",
+      "precision": "range",
+      "sort_start": "1980-01-01",
+      "sort_end": "1992-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tapani_pakkanen",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "marina_lindblad",
+        "role": "researcher"
+      },
+      {
+        "entity_id": "university_of_joensuu",
+        "role": "host"
+      }
+    ],
+    "description": "Completed by Marina Lindblad’s doctoral thesis in 1992.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 10
+      }
+    ]
+  },
+  {
+    "id": "ale_in_japan_1981",
+    "event_type": "conference",
+    "label": "Suntola presented ALE at ICVGE-5 in San Diego",
+    "date": {
+      "display": "July 19–24, 1981",
+      "precision": "day",
+      "sort_start": "1981-07-19",
+      "sort_end": "1981-07-24"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "presenter"
+      },
+      {
+        "entity_id": "jun_ichi_nishizawa",
+        "role": "attendee"
+      }
+    ],
+    "location": "san_diego",
+    "description": "Presentation was not well-received due to lack of scientific data and use of 'epitaxy' for non-single-crystal films.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "id": "nishizawa_ale_research_1980s",
+    "event_type": "other",
+    "label": "Jun-ichi Nishizawa started ALE (as MLE) research on GaAs",
+    "date": {
+      "display": "early 1980s",
+      "precision": "year",
+      "sort_start": "1980-01-01",
+      "sort_end": "1982-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jun_ichi_nishizawa",
+        "role": "subject"
+      }
+    ],
+    "description": "Initially renamed as Molecular Layer Epitaxy (MLE); later acknowledged as the same technique.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "id": "nishizawa_presented_mle_1984",
+    "event_type": "conference",
+    "label": "Nishizawa introduced MLE-grown GaAs at Kobe conference",
+    "date": {
+      "display": "1984",
+      "precision": "year",
+      "sort_start": "1984-01-01",
+      "sort_end": "1984-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jun_ichi_nishizawa",
+        "role": "presenter"
+      },
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "attendee"
+      }
+    ],
+    "location": "kobe",
+    "description": "Suntola gave a general talk on ALE to an overfull room; interviewed by Japanese TV.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "id": "nec_ale_demonstration_1980s",
+    "event_type": "public_demonstration",
+    "label": "NEC demonstrated InGaP-GaAs-InGaP superlattice using ALE",
+    "date": {
+      "display": "mid-1980s",
+      "precision": "year",
+      "sort_start": "1984-01-01",
+      "sort_end": "1986-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nepon_electric_company",
+        "role": "subject"
+      }
+    ],
+    "description": "GaAs layer obtained by applying 11 ALE cycles.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 9,
+        "quote": "One of the most impressive demonstrations... where the GaAs layer is obtained by applying 11 ALE cycles."
+      }
+    ]
+  },
+  {
+    "id": "ale_in_usa_1980s",
+    "event_type": "other",
+    "label": "ALE of GaAs demonstrated in the USA",
+    "date": {
+      "display": "1980s",
+      "precision": "decade",
+      "sort_start": "1980-01-01",
+      "sort_end": "1989-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "salah_bedair",
+        "role": "researcher"
+      },
+      {
+        "entity_id": "north_carolina_state_university",
+        "role": "host"
+      },
+      {
+        "entity_id": "denbaars",
+        "role": "researcher"
+      },
+      {
+        "entity_id": "university_of_southern_california",
+        "role": "host"
+      }
+    ],
+    "description": "Bedair used fast-rotating disk CVD; DenBaars used atmospheric MO-CVD.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "id": "suntola_lectures_insko",
+    "event_type": "other",
+    "label": "Suntola gave lectures on display technologies for INSKO",
+    "date": {
+      "display": "late 1960s–1970s",
+      "precision": "range",
+      "sort_start": "1968-01-01",
+      "sort_end": "1979-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "insko",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "suntola_philosophy_interests",
+    "event_type": "other",
+    "label": "Began studying philosophy of science, eastern philosophy, and metaphysics",
+    "date": {
+      "display": "late 1960s",
+      "precision": "decade",
+      "sort_start": "1968-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "description": "These interests influenced his later career and technological developments.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_essay",
+        "page": 2,
+        "quote": "Since the late 1960s, beside his main work on technology, Suntola has been interested in the basis of physics, including antique metaphysics, eastern philosophy, and the philosophy of science in general."
+      }
+    ]
+  }
+]

@@ -1,0 +1,108 @@
+[
+  {
+    "id": "davy_born_in_penzance",
+    "source": "humphry_davy",
+    "type": "born_in",
+    "target": "penzance",
+    "sources": [
+      {
+        "source_id": "marshall_2015_hexagon",
+        "page": 25,
+        "quote": "Humphry Davy (Figure 4) was born in Penzance in Cornwall (Figure 5)."
+      }
+    ]
+  },
+  {
+    "id": "davy_worked_at_ri",
+    "source": "humphry_davy",
+    "type": "worked_at",
+    "target": "royal_institution",
+    "event_id": "davy_joined_ri",
+    "sources": [
+      {
+        "source_id": "marshall_2015_hexagon",
+        "page": 24,
+        "quote": "Davy joined the Royal Institution in 1801."
+      }
+    ]
+  },
+  {
+    "id": "davy_invented_safety_lamp",
+    "source": "humphry_davy",
+    "type": "invented",
+    "target": "safety_lamp",
+    "sources": [
+      {
+        "source_id": "marshall_2015_hexagon",
+        "page": 27,
+        "quote": "the most important invention was the safety miner's lamp."
+      }
+    ]
+  },
+  {
+    "id": "davy_mentored_faraday",
+    "source": "humphry_davy",
+    "type": "mentored",
+    "target": "michael_faraday",
+    "sources": [
+      {
+        "source_id": "marshall_2015_hexagon",
+        "page": 27,
+        "quote": "Davy's devoted attendant was Michael Faraday, whom some people have described as Davy's greatest discovery."
+      }
+    ]
+  },
+  {
+    "id": "faraday_worked_at_ri",
+    "source": "michael_faraday",
+    "type": "worked_at",
+    "target": "royal_institution",
+    "sources": [
+      {
+        "source_id": "marshall_2015_hexagon",
+        "page": 27,
+        "quote": "rose to fame at the Royal Institution."
+      }
+    ]
+  },
+  {
+    "id": "volta_invented_pile",
+    "source": "alessandro_volta",
+    "type": "invented",
+    "target": "voltaic_pile",
+    "sources": [
+      {
+        "source_id": "marshall_2015_hexagon",
+        "page": 26,
+        "quote": "Alessandro Volta (1745-1827) in 1799 invented the voltaic pile or galvanic pile-the first electric battery"
+      }
+    ]
+  },
+  {
+    "id": "davy_rival_gay_lussac",
+    "source": "humphry_davy",
+    "type": "collaborated_with",
+    "target": "joseph_gay_lussac",
+    "note": "Rivalry described in text.",
+    "sources": [
+      {
+        "source_id": "marshall_2015_hexagon",
+        "page": 26,
+        "quote": "The rivalry between Davy and Gay-Lussac was intense."
+      }
+    ]
+  },
+  {
+    "id": "rumford_founded_ri",
+    "source": "count_rumford",
+    "type": "founded",
+    "target": "royal_institution",
+    "sources": [
+      {
+        "source_id": "marshall_2015_hexagon",
+        "page": 24,
+        "quote": "The Institution was founded by Sir Benjamin Thompson, Count Rumford (1753-1814)"
+      }
+    ]
+  }
+]

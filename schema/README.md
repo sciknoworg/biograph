@@ -7,7 +7,40 @@ against a JSON Schema in this folder. The goal is a model tight enough that
 two different people extracting from the same paper would produce
 essentially the same data.
 
-## The four files (per subject, under `subjects/<slug>/`)
+## Layout: one folder per person, one subfolder per document
+
+A subject is a **person**. Each source document about them gets its own
+folder beneath, named by that source's citation key (`sources[].id`):
+
+```
+subjects/suntola/
+  subject.json                  the person: canonical name + slug, one place
+  puurunen_2014/                one document's extraction -- the four files below
+    entities.json
+    events.json
+    relations.json
+    sources.json
+  aris_2019/                    a second account of the same life
+    ...
+```
+
+Each document folder is extracted independently and kept whole. Two papers
+about the same person are two accounts, not one merged truth — reconciling
+them (same human, different entity ids, the same episode described
+differently) happens when a subject is *read*, so a wrong reconciliation is
+a rendering bug you re-run rather than extraction you have destroyed. Where
+two accounts disagree, both survive with their own citations, and which
+document asserted what stays answerable.
+
+On read, entities sharing an id are treated as the same thing and their
+aliases unioned; events and relations are never merged, and an id colliding
+across documents is prefixed with its document key.
+
+`subject.json` carries exactly one canonical name for the person — the
+fullest form seen — with every other form recorded in that person's
+`aliases`, so the same scientist never appears under several spellings.
+
+## The four files (per document, under `subjects/<slug>/<citation-key>/`)
 
 - `entities.json` — the nouns: people, places, organizations, and named
   "artifacts" (inventions, patents, products, publications, companies-as-
@@ -26,7 +59,10 @@ A subject is self-contained: nothing in `subjects/suntola/` refers to an id
 in `subjects/aleskovskii/`. Cross-subject connections (the whole reason for
 having two biographies) get their own bridge file once both subjects exist:
 `subjects/_bridges/<a>-<b>.json`, using the same relation shape but with
-entity ids qualified as `subject:id` (e.g. `suntola:tuomo_suntola`).
+entity ids qualified as `subject:id` (e.g. `suntola:tuomo_suntola`). Bridge
+ids stay subject-scoped, not document-scoped: they connect two *people*, and
+which document happened to mention the link is already recorded in that
+relation's own `sources[]`.
 
 ## What counts as an "event"
 
@@ -110,6 +146,15 @@ build time, checking that `source`/`target` actually have the expected
 `entity_type` for that relation `type`, not just that the ids resolve.
 Keep that table in sync with this vocabulary the same way as
 `event_type` (see "Extending the vocabularies" below).
+
+A target slot may legitimately allow more than one `entity_type`. `visited`
+and `lived_in` both accept `place` **or** `organization`, because an
+institution is honestly both a body and somewhere you can be: a college, a
+monastery, a hospital. That is not a loophole for sloppy typing — it
+reflects that `Gresham College` typed as an `organization` and "Hooke lived
+there" are each correct, and a validator that rejected the pair discarded an
+otherwise sound extraction over one edge. When adding a relation type, ask
+whether its target is genuinely single-typed before constraining it to one.
 
 ## IDs
 

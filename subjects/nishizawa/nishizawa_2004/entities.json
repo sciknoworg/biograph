@@ -1,0 +1,213 @@
+[
+  {
+    "aliases": [
+      "J. Nishizawa",
+      "Jun-ichi NISHIZAWA",
+      "the author"
+    ],
+    "entity_type": "person",
+    "id": "jun_ichi_nishizawa",
+    "name": "Jun-ichi Nishizawa",
+    "subtype": "researcher",
+    "summary": "Japanese researcher known for semiconductor laser and THz wave proposals."
+  },
+  {
+    "aliases": [
+      "Prof. K. Okabe"
+    ],
+    "entity_type": "person",
+    "id": "k_okabe",
+    "name": "K. Okabe",
+    "subtype": "researcher",
+    "summary": "Professor at Tohoku University who invented anode split type magnetron."
+  },
+  {
+    "aliases": [
+      "J. P. Wittke"
+    ],
+    "entity_type": "person",
+    "id": "wittke",
+    "name": "Wittke",
+    "subtype": "researcher",
+    "summary": "Author of 1957 paper on molecular amplification."
+  },
+  {
+    "aliases": [
+      "editor, Yasuo Hirano"
+    ],
+    "entity_type": "person",
+    "id": "yasuo_hirano",
+    "name": "Yasuo Hirano",
+    "subtype": "editor",
+    "summary": "Editor of Electronic Science magazine."
+  },
+  {
+    "aliases": [
+      "Dr. Kawakami"
+    ],
+    "entity_type": "person",
+    "id": "s_kawakami",
+    "name": "S. Kawakami",
+    "subtype": "researcher",
+    "summary": "Researcher who wrote analytical paper on optical fiber propagation."
+  },
+  {
+    "aliases": [
+      "Prof. K. Suto",
+      "Dr. Suto"
+    ],
+    "entity_type": "person",
+    "id": "k_suto",
+    "name": "K. Suto",
+    "subtype": "researcher",
+    "summary": "Collaborator who realized Raman effect laser and THz waves with Nishizawa."
+  },
+  {
+    "aliases": [
+      "Dr. Kawase"
+    ],
+    "entity_type": "person",
+    "id": "k_kawase",
+    "name": "K. Kawase",
+    "subtype": "researcher",
+    "summary": "Researcher invited to RIKEN to realize THz wave concept using dielectrics."
+  },
+  {
+    "aliases": [
+      "Prof. H. Ito"
+    ],
+    "entity_type": "person",
+    "id": "h_ito",
+    "name": "H. Ito",
+    "subtype": "researcher",
+    "summary": "Researcher invited to RIKEN to realize THz wave concept using dielectrics."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "i_sasaki",
+    "name": "I. Sasaki",
+    "subtype": "researcher",
+    "summary": "Collaborator on optical fiber communication proposal."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "j_madey",
+    "name": "J. Madey",
+    "subtype": "researcher",
+    "summary": "Researcher at Stanford University who generated 30 THz oscillator."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "tohoku_university",
+    "name": "Tohoku University",
+    "subtype": "university",
+    "summary": "University where Nishizawa conducted early electronics research."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "semiconductor_research_institute",
+    "name": "Semiconductor Research Institute",
+    "subtype": "institute",
+    "summary": "Institute affiliated with Nishizawa in Sendai."
+  },
+  {
+    "aliases": [
+      "Sendai Branch of RIKEN"
+    ],
+    "entity_type": "organization",
+    "id": "photodynamics_research_center",
+    "name": "Photodynamics Research Center",
+    "subtype": "lab",
+    "summary": "RIKEN branch in Sendai where THz research was conducted."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "riken",
+    "name": "RIKEN",
+    "subtype": "institute",
+    "summary": "Japanese research institute with a Sendai branch."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "stanford_university",
+    "name": "Stanford University",
+    "subtype": "university",
+    "summary": "University where J. Madey developed free electron laser."
+  },
+  {
+    "aliases": [
+      "Electronic Science magazine"
+    ],
+    "entity_type": "artifact",
+    "id": "electronic_science",
+    "name": "Electronic Science",
+    "subtype": "publication",
+    "summary": "Japanese magazine where Nishizawa published an article on semiconductor lasers."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "semiconductor_laser",
+    "name": "semiconductor laser",
+    "subtype": "invention",
+    "summary": "Device proposed by Nishizawa in 1957."
+  },
+  {
+    "aliases": [
+      "terahertz wave generator",
+      "sweep generator",
+      "sweep oscillator"
+    ],
+    "entity_type": "artifact",
+    "id": "thz_wave_generator",
+    "name": "THz wave generator",
+    "subtype": "invention",
+    "summary": "Device for generating terahertz waves proposed by Nishizawa."
+  },
+  {
+    "aliases": [
+      "glass fiber",
+      "focusing optical fiber"
+    ],
+    "entity_type": "artifact",
+    "id": "optical_fiber",
+    "name": "optical fiber",
+    "subtype": "invention",
+    "summary": "Technology for optical communication proposed by Nishizawa."
+  },
+  {
+    "aliases": [
+      "Ideal Static Induction Transistor",
+      "scattering free SIT"
+    ],
+    "entity_type": "artifact",
+    "id": "ballistic_sit",
+    "name": "Ballistic SIT",
+    "subtype": "invention",
+    "summary": "Transistor proposed by Nishizawa for terahertz operation."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "tunnett_diode",
+    "name": "TUNNETT diode",
+    "subtype": "invention",
+    "summary": "Diode oscillating at 0.33 THz realized by Nishizawa."
+  },
+  {
+    "aliases": [
+      "Raman effect laser"
+    ],
+    "entity_type": "artifact",
+    "id": "raman_laser",
+    "name": "semiconductor Raman laser",
+    "subtype": "invention",
+    "summary": "Laser utilizing Raman effect realized by Suto and Nishizawa."
+  }
+]

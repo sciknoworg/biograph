@@ -1,0 +1,172 @@
+[
+  {
+    "id": "aleskovskii_born_in_mary",
+    "source": "valentin_borisovich_aleskovskii",
+    "type": "born_in",
+    "target": "mary_turkmenistan",
+    "event_id": "birth_aleskovskii",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_studied_at_lti",
+    "source": "valentin_borisovich_aleskovskii",
+    "type": "studied_at",
+    "target": "lti_lensovet",
+    "event_id": "admission_lti_aleskovskii",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_worked_at_naval",
+    "source": "valentin_borisovich_aleskovskii",
+    "type": "worked_at",
+    "target": "naval_research_institute",
+    "event_id": "work_naval_institute",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_worked_at_lti",
+    "source": "valentin_borisovich_aleskovskii",
+    "type": "worked_at",
+    "target": "lti_lensovet",
+    "start": {
+      "display": "1937",
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1937-12-31"
+    },
+    "end": {
+      "display": "1975",
+      "precision": "year",
+      "sort_start": "1975-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_worked_at_lsu",
+    "source": "valentin_borisovich_aleskovskii",
+    "type": "worked_at",
+    "target": "lsu",
+    "start": {
+      "display": "1975",
+      "precision": "year",
+      "sort_start": "1975-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_mentored_koltsov",
+    "source": "valentin_borisovich_aleskovskii",
+    "type": "mentored",
+    "target": "stanislav_ivanovich_koltsov",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_invented_ml",
+    "source": "valentin_borisovich_aleskovskii",
+    "type": "invented",
+    "target": "molecular_layering_method",
+    "event_id": "framework_hypothesis_outlined",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "koltsov_studied_at_lti",
+    "source": "stanislav_ivanovich_koltsov",
+    "type": "studied_at",
+    "target": "lti_lensovet",
+    "event_id": "koltsov_admission_lti",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "koltsov_invented_ml",
+    "source": "stanislav_ivanovich_koltsov",
+    "type": "invented",
+    "target": "molecular_layering_method",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_member_of_academy",
+    "source": "valentin_borisovich_aleskovskii",
+    "type": "member_of",
+    "target": "academy_of_sciences_ussr",
+    "event_id": "academy_member_aleskovskii",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_founded_dept_lti",
+    "source": "valentin_borisovich_aleskovskii",
+    "type": "founded",
+    "target": "dept_chemistry_solids_lti",
+    "event_id": "founded_dept_chemistry_solids",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_founded_dept_lsu",
+    "source": "valentin_borisovich_aleskovskii",
+    "type": "founded",
+    "target": "dept_solid_state_chemistry_lsu",
+    "event_id": "founded_dept_solid_state_lsu",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 6
+      }
+    ]
+  }
+]

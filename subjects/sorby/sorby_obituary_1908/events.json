@@ -1,0 +1,481 @@
+[
+  {
+    "id": "sorby_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1826",
+      "precision": "year",
+      "sort_start": "1826-01-01",
+      "sort_end": "1826-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_clifton_sorby",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sorby_obituary_1908",
+        "page": 1,
+        "quote": "H~.~RY CLIFTO~ SO~BX (1826-1908)."
+      }
+    ]
+  },
+  {
+    "id": "sorby_first_memoir",
+    "event_type": "publication",
+    "label": "Published first scientific memoir",
+    "description": "Published when only twenty years of age.",
+    "date": {
+      "display": "c. 1846",
+      "precision": "circa",
+      "sort_start": "1846-01-01",
+      "sort_end": "1846-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_clifton_sorby",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sorby_obituary_1908",
+        "page": 1,
+        "quote": "when only twenty years of age Sorby published his first scientific memoir."
+      }
+    ]
+  },
+  {
+    "id": "sorby_learned_thin_sections",
+    "event_type": "education",
+    "label": "Learned art of making thin sections",
+    "description": "Learned from his friend William Crawford Williamson.",
+    "date": {
+      "display": "1849",
+      "precision": "year",
+      "sort_start": "1849-01-01",
+      "sort_end": "1849-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_clifton_sorby",
+        "role": "subject"
+      },
+      {
+        "entity_id": "william_crawford_williamson",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sorby_obituary_1908",
+        "page": 1,
+        "quote": "In the year 1849 Sorby, having learned the art of making thin sections of hard materials from his friend William Crawford Williamson, conceived the idea of applying the method to the study of the small, mineral particles building up rocks."
+      }
+    ]
+  },
+  {
+    "id": "sorby_calcareous_grit_paper",
+    "event_type": "publication",
+    "label": "Wrote paper on calcareous grit",
+    "description": "Paper on 'The calcareous grit of the Yorkshire coast'.",
+    "date": {
+      "display": "1850",
+      "precision": "year",
+      "sort_start": "1850-01-01",
+      "sort_end": "1850-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_clifton_sorby",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sorby_obituary_1908",
+        "page": 1,
+        "quote": "In 1850, a paper which he wrote on ' The calcareous grit of the Yorkshire coast' afforded him the opportunity of showing the value of the method."
+      }
+    ]
+  },
+  {
+    "id": "sorby_pseudomorphism_memoirs",
+    "event_type": "publication",
+    "label": "Wrote memoirs on pseudomorphism",
+    "description": "Showed origin of Magnesian Limestone and Cleveland ironstone.",
+    "date": {
+      "display": "1856",
+      "precision": "year",
+      "sort_start": "1856-01-01",
+      "sort_end": "1856-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_clifton_sorby",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sorby_obituary_1908",
+        "page": 2,
+        "quote": "Important memoirs written by him in 1856 showed that great rock-masses Iike the Magnesian Limestone and the Cleveland ironstone owed their origin to pseudomorphous conversion of the calcite of ordinary limestones into dolomite and chalybite respectively."
+      }
+    ]
+  },
+  {
+    "id": "sorby_crystals_memoir",
+    "event_type": "publication",
+    "label": "Presented memoir on microscopical structure of crystals",
+    "description": "Brought before the Geological Society; laid foundation of microscopical petrography.",
+    "date": {
+      "display": "December 16, 1857",
+      "precision": "day",
+      "sort_start": "1857-12-16",
+      "sort_end": "1857-12-16"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_clifton_sorby",
+        "role": "subject"
+      },
+      {
+        "entity_id": "geological_society",
+        "role": "venue"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sorby_obituary_1908",
+        "page": 2,
+        "quote": "On December 16, 1857, he brought before the Geological Society his epoch-making memoir ' On the microscopical structure of crystals '---a memoir which, though neglected, and even ridiculed at the time, laid the foundation of microscopical petrography"
+      }
+    ]
+  },
+  {
+    "id": "sorby_meteorite_study",
+    "event_type": "other",
+    "label": "Applied method to study of meteorites",
+    "description": "Investigated nature of iron-nickel alloys by examining etched surfaces.",
+    "date": {
+      "display": "1863",
+      "precision": "year",
+      "sort_start": "1863-01-01",
+      "sort_end": "1863-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_clifton_sorby",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sorby_obituary_1908",
+        "page": 4,
+        "quote": "In 1863 the application of his method to the study of meteorites led Sorby to investigate the nature of the iron-nickel alloys in them, by examining etched surfaces under the microscope."
+      }
+    ]
+  },
+  {
+    "id": "sorby_cavities_return",
+    "event_type": "other",
+    "label": "Returned to study of mineral cavities",
+    "description": "Showed liquid carbon dioxide present in crystals.",
+    "date": {
+      "display": "1869",
+      "precision": "year",
+      "sort_start": "1869-01-01",
+      "sort_end": "1869-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_clifton_sorby",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sorby_obituary_1908",
+        "page": 3,
+        "quote": "Thus in 1869, returning to the study of the cavities of minerals and the nature of their liquid contents, he was able to show that in many minerals, including gems, carbon dioxide in a liquid state is frequently present in ' the sealed flasks of crystals ', as Julien has so aptly styled these cavities."
+      }
+    ]
+  },
+  {
+    "id": "sorby_spectroscope_investigations",
+    "event_type": "other",
+    "label": "Commenced spectroscope investigations",
+    "description": "Adaptation of spectroscope to microscopic work.",
+    "date": {
+      "display": "1865",
+      "precision": "year",
+      "sort_start": "1865-01-01",
+      "sort_end": "1865-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_clifton_sorby",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sorby_obituary_1908",
+        "page": 4,
+        "quote": "In 1865 Sorby commenced his interesting investigations based on the adaptation of the spectroscope to microscopic work, among which we must notice his studies of the sl0ectra of jargoon and other gems and eoloured transparent minerals."
+      }
+    ]
+  },
+  {
+    "id": "sorby_bought_yacht",
+    "event_type": "other",
+    "label": "Bought yacht 'Glimpse'",
+    "date": {
+      "display": "1875",
+      "precision": "year",
+      "sort_start": "1875-01-01",
+      "sort_end": "1875-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_clifton_sorby",
+        "role": "subject"
+      },
+      {
+        "entity_id": "glimpse_yacht",
+        "role": "artifact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sorby_obituary_1908",
+        "page": 4,
+        "quote": "In 1875 he bought a yacht--the ' Glimpse '--and during the summer months pursued his researches on board this vessel."
+      }
+    ]
+  },
+  {
+    "id": "sorby_micro_soc_president",
+    "event_type": "role_change",
+    "label": "Presided over Royal Microscopical Society",
+    "date": {
+      "display": "1875 to 1877",
+      "precision": "range",
+      "sort_start": "1875-01-01",
+      "sort_end": "1877-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_clifton_sorby",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_microscopical_society",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sorby_obituary_1908",
+        "page": 4,
+        "quote": "from 1875 to 1877 he presided over the Royal Microscopical Society."
+      }
+    ]
+  },
+  {
+    "id": "sorby_min_soc_president",
+    "event_type": "role_change",
+    "label": "First president of the Society",
+    "description": "Presided from 1876 to 1879 (implied Mineralogical Society via journal context).",
+    "date": {
+      "display": "1876 to 1879",
+      "precision": "range",
+      "sort_start": "1876-01-01",
+      "sort_end": "1879-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_clifton_sorby",
+        "role": "subject"
+      },
+      {
+        "entity_id": "mineralogical_magazine",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sorby_obituary_1908",
+        "page": 4,
+        "quote": "~'rom 1876 to 1879 he was our first president;"
+      }
+    ]
+  },
+  {
+    "id": "sorby_forbes_obituary",
+    "event_type": "publication",
+    "label": "Wrote obituary of David Forbes",
+    "date": {
+      "display": "1877",
+      "precision": "year",
+      "sort_start": "1877-01-01",
+      "sort_end": "1877-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_clifton_sorby",
+        "role": "subject"
+      },
+      {
+        "entity_id": "david_forbes",
+        "role": "subject_of_obituary"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sorby_obituary_1908",
+        "page": 2,
+        "quote": "In 1877 Sorby wrote for this journal an interesting obituary of his friend David Forbes,"
+      }
+    ]
+  },
+  {
+    "id": "sorby_optical_constants",
+    "event_type": "publication",
+    "label": "Returned to optical constants methods",
+    "date": {
+      "display": "between 1877 and 1879",
+      "precision": "range",
+      "sort_start": "1877-01-01",
+      "sort_end": "1879-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_clifton_sorby",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sorby_obituary_1908",
+        "page": 3,
+        "quote": "Our own journal shows how, especially between 1877 and 1879, Sorby returned to the consideration of methods of determining the optical constants of minerals in thin sections."
+      }
+    ]
+  },
+  {
+    "id": "sorby_geo_soc_president",
+    "event_type": "role_change",
+    "label": "President of the Geological Society",
+    "date": {
+      "display": "1878 to 1880",
+      "precision": "range",
+      "sort_start": "1878-01-01",
+      "sort_end": "1880-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_clifton_sorby",
+        "role": "subject"
+      },
+      {
+        "entity_id": "geological_society",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sorby_obituary_1908",
+        "page": 4,
+        "quote": "from 1878 to 1880 he was president of the Geological Society;"
+      }
+    ]
+  },
+  {
+    "id": "sorby_portrait_presented",
+    "event_type": "award",
+    "label": "Portrait presented by Sheffield Literary and Philosophical Society",
+    "description": "In commemoration of his fifty years of connexion with the Society.",
+    "date": {
+      "display": "1906",
+      "precision": "year",
+      "sort_start": "1906-01-01",
+      "sort_end": "1906-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_clifton_sorby",
+        "role": "recipient"
+      },
+      {
+        "entity_id": "sheffield_literary_and_philosophical_society",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "mrs_m_e_waller",
+        "role": "artist"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sorby_obituary_1908",
+        "page": 1,
+        "quote": "The accompanying plate (Plate u is reproduced from a portrait, painted by Mrs. M. ]5. Waller~ which was presente d to Dr. Sorby by the Sheffield ]siterary and Philosophical Society in commemoration of his fifty years of connexion with the Society."
+      }
+    ]
+  },
+  {
+    "id": "sorby_accident",
+    "event_type": "other",
+    "label": "Active career closed by accident",
+    "description": "Occasioned partial paralysis.",
+    "date": {
+      "display": "1908",
+      "precision": "year",
+      "sort_start": "1908-01-01",
+      "sort_end": "1908-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_clifton_sorby",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sorby_obituary_1908",
+        "page": 4,
+        "quote": "In 1908 his active career was brought to a close by an accident which occasioned partial paralysis,"
+      }
+    ]
+  },
+  {
+    "id": "sorby_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1908",
+      "precision": "year",
+      "sort_start": "1908-01-01",
+      "sort_end": "1908-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_clifton_sorby",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sorby_obituary_1908",
+        "page": 1,
+        "quote": "H~.~RY CLIFTO~ SO~BX (1826-1908)."
+      }
+    ]
+  }
+]

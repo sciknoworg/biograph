@@ -1,0 +1,476 @@
+[
+  {
+    "id": "suntola_birth",
+    "event_type": "birth",
+    "label": "Born in Tampere",
+    "date": {
+      "precision": "year",
+      "sort_start": "1943-01-01",
+      "sort_end": "1943-12-31",
+      "display": "1943"
+    },
+    "location": "tampere",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "suntola_matriculation",
+    "event_type": "education",
+    "label": "Completed Matriculation Examinations",
+    "date": {
+      "precision": "year",
+      "sort_start": "1962-01-01",
+      "sort_end": "1962-12-31",
+      "display": "1962"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "student"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "suntola_master",
+    "event_type": "education",
+    "label": "Completed Master's Thesis on Schottky Diodes",
+    "date": {
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31",
+      "display": "1967"
+    },
+    "location": "helsinki_university_of_technology",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "student"
+      },
+      {
+        "entity_id": "helsinki_university_of_technology",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "suntola_doctorate",
+    "event_type": "education",
+    "label": "Earned Doctor of Science in Technology",
+    "date": {
+      "precision": "month",
+      "sort_start": "1971-12-01",
+      "sort_end": "1971-12-31",
+      "display": "December 1971"
+    },
+    "location": "helsinki_university_of_technology",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "student"
+      },
+      {
+        "entity_id": "helsinki_university_of_technology",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "suntola_vtt_start",
+    "event_type": "employment_start",
+    "label": "Joined VTT Semiconductor Laboratory",
+    "date": {
+      "precision": "range",
+      "sort_start": "1971-09-01",
+      "sort_end": "1971-11-30",
+      "display": "Autumn 1971"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "employee"
+      },
+      {
+        "entity_id": "vtt_technical_research_centre",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "suntola_relocation_instrumentarium",
+    "event_type": "relocation",
+    "label": "Moved Research Group to Instrumentarium",
+    "date": {
+      "precision": "range",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-03-31",
+      "display": "Beginning of 1974"
+    },
+    "location": " espoo",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "instrumentarium_oy",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "ale_invention",
+    "event_type": "invention",
+    "label": "Invented Atomic Layer Epitaxy",
+    "date": {
+      "precision": "month",
+      "sort_start": "1974-06-01",
+      "sort_end": "1974-06-30",
+      "display": "Early June 1974"
+    },
+    "location": " espoo",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "atomic_layer_epitaxy",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "ale_patent_filed",
+    "event_type": "patent_filed",
+    "label": "Filed First ALE Patent Application",
+    "date": {
+      "precision": "day",
+      "sort_start": "1974-11-29",
+      "sort_end": "1974-11-29",
+      "display": "November 29, 1974"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "atomic_layer_epitaxy",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "sid_presentation",
+    "event_type": "public_demonstration",
+    "label": "Presented ALE at SID Conference",
+    "date": {
+      "precision": "range",
+      "sort_start": "1980-04-29",
+      "sort_end": "1980-05-01",
+      "display": "April 29 – May 1, 1980"
+    },
+    "location": "san_diego",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "presenter"
+      },
+      {
+        "entity_id": "atomic_layer_epitaxy",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "microchemistry_founded",
+    "event_type": "company_founded",
+    "label": "Founded Microchemistry Ltd.",
+    "date": {
+      "precision": "year",
+      "sort_start": "1987-01-01",
+      "sort_end": "1987-12-31",
+      "display": "1987"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "founder"
+      },
+      {
+        "entity_id": "microchemistry_ltd",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "id": "leningrad_visit",
+    "event_type": "visit",
+    "label": "Visited University of Leningrad",
+    "date": {
+      "precision": "month",
+      "sort_start": "1990-08-01",
+      "sort_end": "1990-08-31",
+      "display": "August 1990"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "visitor"
+      },
+      {
+        "entity_id": "victor_drozd",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 12
+      }
+    ]
+  },
+  {
+    "id": "lohja_el_sold",
+    "event_type": "company_sold",
+    "label": "Lohja Sold EL Business to Planar",
+    "date": {
+      "precision": "year",
+      "sort_start": "1990-01-01",
+      "sort_end": "1990-12-31",
+      "display": "1990"
+    },
+    "participants": [
+      {
+        "entity_id": "lohja_oy",
+        "role": "seller"
+      },
+      {
+        "entity_id": "planar_inc",
+        "role": "buyer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "microchemistry_sold",
+    "event_type": "company_sold",
+    "label": "Sold Microchemistry to ASM",
+    "date": {
+      "precision": "year",
+      "sort_start": "1999-01-01",
+      "sort_end": "1999-12-31",
+      "display": "1999"
+    },
+    "participants": [
+      {
+        "entity_id": "microchemistry_ltd",
+        "role": "seller"
+      },
+      {
+        "entity_id": "asm_microchemistry",
+        "role": "buyer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 10
+      }
+    ]
+  },
+  {
+    "id": "semi_award",
+    "event_type": "award",
+    "label": "Received European SEMI Award",
+    "date": {
+      "precision": "year",
+      "sort_start": "2004-01-01",
+      "sort_end": "2004-12-31",
+      "display": "2004"
+    },
+    "location": "munich",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "recipient"
+      },
+      {
+        "entity_id": "european_semi_award_2004",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 13
+      }
+    ]
+  },
+  {
+    "id": "suntola_retirement",
+    "event_type": "retirement",
+    "label": "Took Full Retirement",
+    "date": {
+      "precision": "year",
+      "sort_start": "2004-01-01",
+      "sort_end": "2004-12-31",
+      "display": "2004"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 13
+      }
+    ]
+  },
+  {
+    "id": "picosun_join",
+    "event_type": "employment_start",
+    "label": "Joined Picosun Oy as Scientific Adviser",
+    "date": {
+      "precision": "year",
+      "sort_start": "2004-01-01",
+      "sort_end": "2004-12-31",
+      "display": "2004"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "employee"
+      },
+      {
+        "entity_id": "picosun_oy",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 13
+      }
+    ]
+  },
+  {
+    "id": "dynamic_universe_pub",
+    "event_type": "publication",
+    "label": "Published The Dynamic Universe",
+    "date": {
+      "precision": "year",
+      "sort_start": "2011-01-01",
+      "sort_end": "2011-12-31",
+      "display": "2011"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 13
+      }
+    ]
+  },
+  {
+    "id": "short_history_science_pub",
+    "event_type": "publication",
+    "label": "Published The Short History of Science",
+    "date": {
+      "precision": "year",
+      "sort_start": "2012-01-01",
+      "sort_end": "2012-12-31",
+      "display": "2012"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 13
+      }
+    ]
+  }
+]

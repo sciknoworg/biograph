@@ -1,0 +1,53 @@
+[
+  {
+    "id": "rel_birthplace",
+    "source": "valentin_aleskovskii",
+    "type": "born_in",
+    "target": "mary_turkmenistan",
+    "sources": [
+      {
+        "source_id": "source1",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "rel_work_nri",
+    "source": "valentin_aleskovskii",
+    "type": "worked_at",
+    "target": "naval_research_institute",
+    "event_id": "employment_nri_1937",
+    "sources": [
+      {
+        "source_id": "source1",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "rel_work_lti",
+    "source": "valentin_aleskovskii",
+    "type": "worked_at",
+    "target": "lti_lensovet",
+    "event_id": "education_lti_1931_1937",
+    "sources": [
+      {
+        "source_id": "source1",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "rel_founded_dept",
+    "source": "valentin_aleskovskii",
+    "type": "founded",
+    "target": "department_chem_solids",
+    "event_id": "found_department_1967",
+    "sources": [
+      {
+        "source_id": "source1",
+        "page": 6
+      }
+    ]
+  }
+]

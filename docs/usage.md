@@ -10,6 +10,7 @@ in this order: `scripts/build_site.py` (draft a subject from a PDF with
 ```bash
 pip install -r extraction/requirements.txt
 python3 scripts/build_site.py <slug> --pdf data/<paper>.pdf [options]
+python3 scripts/build_site.py <slug> --text data/<paper>.txt [options]
 ```
 
 See [Adding a new subject](adding-a-subject.md) for the full walkthrough
@@ -24,7 +25,9 @@ reference. `<slug>` becomes the directory name under `subjects/`.
 | `--api-key` | *(prompted, hidden input)* | `BIOGRAPH_API_KEY` also skips the prompt. |
 | `--max-chars` | `180000` | Truncates the extracted PDF text beyond this many characters, for very long sources. |
 | `--max-tokens` | `32000` | Reply budget per request. If the model hits this mid-subject, the script automatically asks it to continue and stitches the pieces together (up to 8 rounds) rather than failing — see below. |
-| `--keep-rejected` | off | When the model judges the source out of scope (see step 3 below), the PDF passed via `--pdf` is deleted automatically. Pass this to leave it in place instead. |
+| `--text` | — | Same as `--pdf`, named for clarity when the source is already-extracted text rather than a PDF. Pass one or the other, not both. |
+| `--keep-rejected` | off | When the model judges the source out of scope (see step 3 below), the source passed via `--pdf`/`--text` is deleted automatically. Pass this to leave it in place instead. |
+| `--keep-source-pdf` | off | Also archive the original PDF beside the extracted text. Off by default: the text is what the model read and what `--check-grounding` verifies against, at ~3% of the size, and `sources.json` already carries the citation needed to fetch the original again. |
 
 ### What it does, in order
 
@@ -50,23 +53,33 @@ reference. `<slug>` becomes the directory name under `subjects/`.
    where it left off, repeating until the reply finishes or it's asked to
    continue 8 times in a row (at which point it stops and tells you to
    try a smaller `--max-chars` or a larger `--max-tokens`).
-4. **Writes** `subjects/<slug>/`, forcing the source's `file` field to
-   point at the actual PDF (copied into `data/<slug>.pdf` if it wasn't
-   already under `data/`) rather than trusting whatever path the model
-   guessed:
+4. **Checks grounding** — every `sources[].quote` is searched for in the
+   source text, and every entity name too. Anything not found verbatim is
+   reported, separating a misquote from something not in the document at
+   all. See [Data Accuracy § Grounding](data-accuracy.md#2-grounding-the-hallucination-check).
 
-   | File | Contents |
-   |---|---|
-   | `subject.json` | Identity: slug, name, one-line summary. |
-   | `entities.json` | People, places, organizations, artifacts mentioned. |
-   | `events.json` | Dated occurrences, each cited to a source page — the timeline's raw material. |
-   | `relations.json` | Durable connections between entities (`worked_at`, `invented`, ...). |
-   | `sources.json` | The source paper(s), for citation. |
+5. **Writes** the document's four files into
+   `subjects/<slug>/<citation-key>/`, where the citation key is the
+   source's own `sources[0].id` (e.g. `puurunen_2014`), and
+   `subject.json` into `subjects/<slug>/` above them:
 
-   The PDF copied into `data/<slug>.pdf` isn't itself committed — see
+   ```
+   subjects/suntola/
+     subject.json              canonical name + slug — the person
+     puurunen_2014/
+       entities.json           people, places, organizations, artifacts
+       events.json             dated occurrences, each cited — the timeline
+       relations.json          durable links (worked_at, invented, ...)
+       sources.json            the document, for citation
+   ```
+
+   A second paper about the same person lands beside the first rather
+   than overwriting it. The source's `file` field is forced to point at
+   the archived extracted text (`data/<slug>.txt`) rather than whatever
+   path the model guessed; that text isn't committed — see
    `data/README.md`.
 
-5. **Validates and builds** — the exact same `validate_subject()`/`build()`
+6. **Validates and builds** — the exact same `validate_subject()`/`build()`
    used for a hand-written subject (see below), no separate code path — a
    validation failure is reported exactly like a hand-written subject's
    would be, pointing at `subjects/<slug>/*.json` to fix.
@@ -85,6 +98,7 @@ below and [Data Accuracy & Provenance](data-accuracy.md).
 ```bash
 python3 scripts/build_site.py <slug>     # build one subject
 python3 scripts/build_site.py --all      # build every subject under subjects/
+python3 scripts/build_site.py <slug> --check-grounding   # audit against the source
 ```
 
 Everything in this section assumes `subjects/<slug>/` already has data —
@@ -94,7 +108,12 @@ build.
 
 ### What a build does, in order
 
-1. **Loads** `subjects/<slug>/{subject,entities,events,relations,sources}.json`.
+1. **Loads** `subjects/<slug>/subject.json` plus every document folder
+   beneath it, merging them into one graph: entities sharing an id are the
+   same thing and their `aliases` are unioned, while events and relations
+   are never merged — two papers describing one episode are two accounts,
+   not one claim, and an id colliding across documents is prefixed with
+   its document key.
 2. **Validates** each file against its schema in `schema/` (entity, event,
    relation, source — dates are validated inline via `$ref`), using
    [`jsonschema`](https://pypi.org/project/jsonschema/)'s

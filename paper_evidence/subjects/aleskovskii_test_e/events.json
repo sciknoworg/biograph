@@ -1,0 +1,181 @@
+[
+  {
+    "id": "birth_aleskovskii_1912",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "June 3, 1912",
+      "precision": "day",
+      "sort_start": "1912-06-03",
+      "sort_end": "1912-06-03"
+    },
+    "participants": [
+      {
+        "entity_id": "valentin_aleskovskii",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source1",
+        "page": 2,
+        "quote": "Valentin Borisovich Aleskovskii was born on June 3 th 1912 in the city of Mary (Turkmenistan)."
+      }
+    ]
+  },
+  {
+    "id": "death_aleskovskii_2006",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "January 29, 2006",
+      "precision": "day",
+      "sort_start": "2006-01-29",
+      "sort_end": "2006-01-29"
+    },
+    "participants": [
+      {
+        "entity_id": "valentin_aleskovskii",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source1",
+        "page": 8,
+        "quote": "V. B. Aleskovskii (passed away January 29, 2006)."
+      }
+    ]
+  },
+  {
+    "id": "education_lti_1931_1937",
+    "event_type": "education",
+    "label": "Studied at LTI",
+    "date": {
+      "display": "1931–1937",
+      "precision": "range",
+      "sort_start": "1931-01-01",
+      "sort_end": "1937-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "valentin_aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source1",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "employment_nri_1937",
+    "event_type": "employment_start",
+    "label": "Research fellow at Naval Research Institute",
+    "date": {
+      "display": "1937",
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1937-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "valentin_aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "naval_research_institute",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source1",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "defense_phd_1952",
+    "event_type": "other",
+    "label": "Defended doctoral dissertation",
+    "date": {
+      "display": "1952",
+      "precision": "year",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "valentin_aleskovskii",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source1",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "rector_lti_1965",
+    "event_type": "employment_start",
+    "label": "Acting rector of LTI",
+    "date": {
+      "display": "1965–1975",
+      "precision": "range",
+      "sort_start": "1965-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "valentin_aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source1",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "found_department_1967",
+    "event_type": "other",
+    "label": "Founded Department of Chemistry of Solids",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "valentin_aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source1",
+        "page": 6
+      }
+    ]
+  }
+]

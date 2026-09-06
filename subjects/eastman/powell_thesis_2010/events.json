@@ -1,0 +1,269 @@
+[
+  {
+    "id": "eastman_birth",
+    "event_type": "birth",
+    "label": "Born in Waterville",
+    "description": "George Eastman was born in Waterville, New York.",
+    "date": {
+      "display": "July 12, 1854",
+      "precision": "day",
+      "sort_start": "1854-07-12",
+      "sort_end": "1854-07-12"
+    },
+    "location": "waterville_ny",
+    "participants": [
+      {
+        "entity_id": "george_eastman",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "powell_thesis_2010",
+        "page": 2,
+        "quote": "George Eastman (July 12, 1854 – March 14, 1932), the founder of Kodak and remarkable benefactor of Rochester."
+      }
+    ]
+  },
+  {
+    "id": "eastman_move_rochester",
+    "event_type": "relocation",
+    "label": "Moved to Rochester",
+    "description": "Eastman's father moved the family to Rochester.",
+    "date": {
+      "display": "1860",
+      "precision": "year",
+      "sort_start": "1860-01-01",
+      "sort_end": "1860-12-31"
+    },
+    "location": "rochester_ny",
+    "participants": [
+      {
+        "entity_id": "george_eastman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "george_eastman_sr",
+        "role": "family_of"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "powell_thesis_2010",
+        "page": 9,
+        "quote": "In 1860, approaching the outbreak of the Civil War, Eastman's father moved his family to the growing city of Rochester, so they could all be together."
+      }
+    ]
+  },
+  {
+    "id": "eastman_father_death",
+    "event_type": "death",
+    "label": "Father's death",
+    "description": "Eastman's father died soon after the move to Rochester.",
+    "date": {
+      "display": "1860",
+      "precision": "year",
+      "sort_start": "1860-01-01",
+      "sort_end": "1860-12-31"
+    },
+    "location": "rochester_ny",
+    "participants": [
+      {
+        "entity_id": "george_eastman_sr",
+        "role": "subject"
+      },
+      {
+        "entity_id": "george_eastman",
+        "role": "family_of"
+      }
+    ],
+    "certainty": "approximate",
+    "sources": [
+      {
+        "source_id": "powell_thesis_2010",
+        "page": 9,
+        "quote": "Soon after, Eastman's life changed abruptly with his father's death."
+      }
+    ]
+  },
+  {
+    "id": "eastman_start_work",
+    "event_type": "employment_start",
+    "label": "Started working",
+    "description": "Eastman gave up school and began working to support his family.",
+    "date": {
+      "display": "1868",
+      "precision": "year",
+      "sort_start": "1868-01-01",
+      "sort_end": "1868-12-31"
+    },
+    "location": "rochester_ny",
+    "participants": [
+      {
+        "entity_id": "george_eastman",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "powell_thesis_2010",
+        "page": 9,
+        "quote": "At the age of fourteen, Eastman gave up school and began working to help support his mother and sisters."
+      }
+    ]
+  },
+  {
+    "id": "eastman_bank_clerk",
+    "event_type": "employment_start",
+    "label": "Clerk at Rochester Savings Bank",
+    "description": "Eastman worked as a clerk at Rochester Savings Bank.",
+    "date": {
+      "display": "c. 1868",
+      "precision": "circa",
+      "sort_start": "1868-01-01",
+      "sort_end": "1877-12-31"
+    },
+    "location": "rochester_ny",
+    "participants": [
+      {
+        "entity_id": "george_eastman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "rochester_savings_bank",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "powell_thesis_2010",
+        "page": 9,
+        "quote": "He worked for an insurance company and then moved up to the position of clerk at Rochester Savings Bank."
+      }
+    ]
+  },
+  {
+    "id": "eastman_photography_interest",
+    "event_type": "other",
+    "label": "Interest in photography",
+    "description": "Eastman planned a trip and learned the wet plate collodion process.",
+    "date": {
+      "display": "1877",
+      "precision": "year",
+      "sort_start": "1877-01-01",
+      "sort_end": "1877-12-31"
+    },
+    "location": "rochester_ny",
+    "participants": [
+      {
+        "entity_id": "george_eastman",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "powell_thesis_2010",
+        "page": 9,
+        "quote": "When planning a trip to Santa Domingo in 1877, someone suggested that he take a camera with him."
+      }
+    ]
+  },
+  {
+    "id": "eastman_company_founded",
+    "event_type": "company_founded",
+    "label": "Eastman Dry Plate Company founded",
+    "description": "Eastman founded the Eastman Dry Plate Company with Henry A. Strong.",
+    "date": {
+      "display": "1881",
+      "precision": "year",
+      "sort_start": "1881-01-01",
+      "sort_end": "1881-12-31"
+    },
+    "location": "rochester_ny",
+    "participants": [
+      {
+        "entity_id": "george_eastman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "henry_a_strong",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "kodak",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "powell_thesis_2010",
+        "page": 17,
+        "quote": "In 1881, with the help of Henry A. Strong, a friend who was also a buggy whip manufacturer, the Eastman Dry Plate Company was founded."
+      }
+    ]
+  },
+  {
+    "id": "eastman_dental_dispensary_open",
+    "event_type": "product_launch",
+    "label": "Eastman Dental Dispensary opened",
+    "description": "The first Eastman Dental Dispensary opened in Rochester.",
+    "date": {
+      "display": "1917",
+      "precision": "year",
+      "sort_start": "1917-01-01",
+      "sort_end": "1917-12-31"
+    },
+    "location": "rochester_ny",
+    "participants": [
+      {
+        "entity_id": "george_eastman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "eastman_dental_dispensary",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "powell_thesis_2010",
+        "page": 23,
+        "quote": "The first Eastman Dental Dispensary opened in Rochester in 1917."
+      }
+    ]
+  },
+  {
+    "id": "eastman_death",
+    "event_type": "death",
+    "label": "Suicide",
+    "description": "Eastman shot himself in the heart.",
+    "date": {
+      "display": "March 14, 1932",
+      "precision": "day",
+      "sort_start": "1932-03-14",
+      "sort_end": "1932-03-14"
+    },
+    "location": "rochester_ny",
+    "participants": [
+      {
+        "entity_id": "george_eastman",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "powell_thesis_2010",
+        "page": 36,
+        "quote": "On March 14, 1932, Eastman excused his servants and shot himself in the heart."
+      }
+    ]
+  }
+]

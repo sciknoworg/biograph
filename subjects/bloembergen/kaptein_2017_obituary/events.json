@@ -1,0 +1,510 @@
+[
+  {
+    "id": "bloembergen_birth",
+    "event_type": "birth",
+    "label": "Born in The Netherlands",
+    "date": {
+      "display": "1920",
+      "precision": "year",
+      "sort_start": "1920-01-01",
+      "sort_end": "1920-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaas_bloembergen",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaptein_2017_obituary",
+        "page": 181,
+        "quote": "Nico Bloembergen was born in 1920 in The Netherlands."
+      }
+    ]
+  },
+  {
+    "id": "bloembergen_study_utrecht",
+    "event_type": "education",
+    "label": "Started study of physics at Utrecht University",
+    "date": {
+      "display": "1938",
+      "precision": "year",
+      "sort_start": "1938-01-01",
+      "sort_end": "1938-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaas_bloembergen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "utrecht_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaptein_2017_obituary",
+        "page": 181,
+        "quote": "He started his study of physics in 1938 at Utrecht University"
+      }
+    ]
+  },
+  {
+    "id": "bloembergen_masters",
+    "event_type": "education",
+    "label": "Passed master's exam",
+    "date": {
+      "display": "1943",
+      "precision": "year",
+      "sort_start": "1943-01-01",
+      "sort_end": "1943-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaas_bloembergen",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaptein_2017_obituary",
+        "page": 181,
+        "quote": "He passed his master's exam in 1943"
+      }
+    ]
+  },
+  {
+    "id": "bloembergen_move_harvard",
+    "event_type": "relocation",
+    "label": "Moved to Harvard University",
+    "date": {
+      "display": "1946",
+      "precision": "year",
+      "sort_start": "1946-01-01",
+      "sort_end": "1946-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaas_bloembergen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "harvard_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaptein_2017_obituary",
+        "page": 181,
+        "quote": "he moved in 1946 to Harvard University"
+      }
+    ]
+  },
+  {
+    "id": "bloembergen_phd_start",
+    "event_type": "education",
+    "label": "Accepted as PhD student of Edward Purcell",
+    "date": {
+      "display": "1946",
+      "precision": "year",
+      "sort_start": "1946-01-01",
+      "sort_end": "1946-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaas_bloembergen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "edward_purcell",
+        "role": "supervised_by"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaptein_2017_obituary",
+        "page": 181,
+        "quote": "where he was accepted as the first PhD student of Edward Purcell"
+      }
+    ]
+  },
+  {
+    "id": "bloembergen_meet_gorter",
+    "event_type": "meeting",
+    "label": "Met Prof. C.J. Gorter at Harvard",
+    "date": {
+      "display": "1947",
+      "precision": "year",
+      "sort_start": "1947-01-01",
+      "sort_end": "1947-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaas_bloembergen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "c_j_gorter",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaptein_2017_obituary",
+        "page": 181,
+        "quote": "In 1947 Bloembergen met Prof. C.J. Gorter during a visit at Harvard"
+      }
+    ]
+  },
+  {
+    "id": "bloembergen_phd_leiden",
+    "event_type": "education",
+    "label": "Defended doctoral thesis at Leiden University",
+    "date": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaas_bloembergen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "leiden_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaptein_2017_obituary",
+        "page": 182,
+        "quote": "So he defended his doctoral thesis, which was largely based on the research done at Harvard, in 1948 at Leiden University."
+      }
+    ]
+  },
+  {
+    "id": "bloembergen_bpp_publication",
+    "event_type": "publication",
+    "label": "Published BPP theory paper",
+    "date": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaas_bloembergen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "bpp_theory",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaptein_2017_obituary",
+        "page": 181,
+        "quote": "The Phys Rev paper of 1948 is a citation classic and was for many years the most cited paper in physics (Bloembergen et al. 1948)."
+      }
+    ]
+  },
+  {
+    "id": "bloembergen_return_harvard",
+    "event_type": "employment_start",
+    "label": "Returned to Harvard as Junior Fellow",
+    "date": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaas_bloembergen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "harvard_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaptein_2017_obituary",
+        "page": 182,
+        "quote": "Shortly after, he accepted an offer to return to Harvard."
+      }
+    ]
+  },
+  {
+    "id": "bloembergen_professor_harvard",
+    "event_type": "employment_start",
+    "label": "Appointed Professor of Applied Physics at Harvard",
+    "date": {
+      "display": "1951",
+      "precision": "year",
+      "sort_start": "1951-01-01",
+      "sort_end": "1951-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaas_bloembergen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "harvard_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaptein_2017_obituary",
+        "page": 182,
+        "quote": "In 1951 he was appointed Professor of Applied Physics"
+      }
+    ]
+  },
+  {
+    "id": "bloembergen_solomon_publication",
+    "event_type": "publication",
+    "label": "Published paper on Fermi contact relaxation with Solomon",
+    "date": {
+      "display": "1956",
+      "precision": "year",
+      "sort_start": "1956-01-01",
+      "sort_end": "1956-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaas_bloembergen",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaptein_2017_obituary",
+        "page": 182,
+        "quote": "the treatment of the so-called Fermi contact—or scalar—relaxation between nuclei (Solomon and Bloembergen 1956), published together with Solomon"
+      }
+    ]
+  },
+  {
+    "id": "bloembergen_paramagnetic_publication",
+    "event_type": "publication",
+    "label": "Published work on nuclear relaxation in paramagnetic solutions",
+    "date": {
+      "display": "1957",
+      "precision": "year",
+      "sort_start": "1957-01-01",
+      "sort_end": "1957-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaas_bloembergen",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaptein_2017_obituary",
+        "page": 182,
+        "quote": "his work on nuclear relaxation in paramagnetic solutions (Bloembergen 1957)"
+      }
+    ]
+  },
+  {
+    "id": "bloembergen_maser_construction",
+    "event_type": "invention",
+    "label": "Constructed a maser operating at 21 cm wavelength",
+    "date": {
+      "display": "1957",
+      "precision": "year",
+      "sort_start": "1957-01-01",
+      "sort_end": "1957-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaas_bloembergen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "maser",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaptein_2017_obituary",
+        "page": 182,
+        "quote": "Bloembergen constructed a maser operating at a 21 cm wavelength, to detect the interstellar hydrogen line (Artman et al. 1957)."
+      }
+    ]
+  },
+  {
+    "id": "bloembergen_morgan_publication",
+    "event_type": "publication",
+    "label": "Published theory of field-dependent electron relaxation with Morgan",
+    "date": {
+      "display": "1961",
+      "precision": "year",
+      "sort_start": "1961-01-01",
+      "sort_end": "1961-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaas_bloembergen",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaptein_2017_obituary",
+        "page": 182,
+        "quote": "at the beginning of the 1960s, together with L. O. Morgan, the theory of field-dependent electron relaxation (Bloembergen and Morgan 1961)"
+      }
+    ]
+  },
+  {
+    "id": "bloembergen_nobel",
+    "event_type": "award",
+    "label": "Earned Nobel Prize in Physics",
+    "date": {
+      "display": "1981",
+      "precision": "year",
+      "sort_start": "1981-01-01",
+      "sort_end": "1981-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaas_bloembergen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize_physics_1981",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaptein_2017_obituary",
+        "page": 181,
+        "quote": "In particular his work on nonlinear optics earned him the Nobel Prize in Physics in 1981"
+      }
+    ]
+  },
+  {
+    "id": "bloembergen_retirement_harvard",
+    "event_type": "retirement",
+    "label": "Retired from Harvard",
+    "date": {
+      "display": "1990",
+      "precision": "year",
+      "sort_start": "1990-01-01",
+      "sort_end": "1990-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaas_bloembergen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "harvard_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaptein_2017_obituary",
+        "page": 182,
+        "quote": "Nico Bloembergen retired from Harvard in 1990."
+      }
+    ]
+  },
+  {
+    "id": "bloembergen_arizona",
+    "event_type": "employment_start",
+    "label": "Took position as Professor at University of Arizona",
+    "date": {
+      "display": "1990",
+      "precision": "year",
+      "sort_start": "1990-01-01",
+      "sort_end": "1990-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaas_bloembergen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_arizona",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaptein_2017_obituary",
+        "page": 182,
+        "quote": "But far from resting on his laurels he took a new position as Professor at the University of Arizona in Tucson"
+      }
+    ]
+  },
+  {
+    "id": "bloembergen_death",
+    "event_type": "death",
+    "label": "Died in Tucson, Arizona",
+    "date": {
+      "display": "September 5, 2017",
+      "precision": "day",
+      "sort_start": "2017-09-05",
+      "sort_end": "2017-09-05"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaas_bloembergen",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaptein_2017_obituary",
+        "page": 181,
+        "quote": "Nicolaas Bloembergen, Nobel laureate, died on September 5 at the age of 97 in Tucson, Arizona."
+      }
+    ]
+  },
+  {
+    "id": "utrecht_building_named",
+    "event_type": "other",
+    "label": "Utrecht NMR group building named after Bloembergen",
+    "date": {
+      "display": "2001",
+      "precision": "year",
+      "sort_start": "2001-01-01",
+      "sort_end": "2001-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaas_bloembergen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "utrecht_nmr_building",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaptein_2017_obituary",
+        "page": 182,
+        "quote": "In honor of his pioneering work in NMR the building of the Utrecht NMR group was named after Nicolaas Bloembergen in 2001."
+      }
+    ]
+  }
+]

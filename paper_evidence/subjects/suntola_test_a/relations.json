@@ -1,0 +1,327 @@
+[
+  {
+    "id": "suntola_born_in_tampere",
+    "source": "tuomo_suntola",
+    "type": "born_in",
+    "target": "tampere",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "suntola_studied_at_hut",
+    "source": "tuomo_suntola",
+    "type": "studied_at",
+    "target": "helsinki_university_of_technology",
+    "start": {
+      "display": "1963",
+      "precision": "year",
+      "sort_start": "1963-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "suntola_supervised_by_stubb",
+    "source": "tuomo_suntola",
+    "type": "supervised_by",
+    "target": "thor_stubb",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "suntola_worked_at_vtt",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "vtt_semiconductor_laboratory",
+    "start": {
+      "display": "late 1960s",
+      "precision": "decade",
+      "sort_start": "1960-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "end": {
+      "display": "beginning of 1974",
+      "precision": "month",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-01-31"
+    },
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "suntola_worked_at_instrumentarium",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "instrumentarium_oy",
+    "start": {
+      "display": "beginning of 1974",
+      "precision": "month",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-01-31"
+    },
+    "end": {
+      "display": "1978",
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "suntola_worked_at_lohja",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "lohja_oy",
+    "start": {
+      "display": "1978",
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "end": {
+      "display": "1987",
+      "precision": "year",
+      "sort_start": "1987-01-01",
+      "sort_end": "1987-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "suntola_founded_microchemistry",
+    "source": "tuomo_suntola",
+    "type": "founded",
+    "target": "microchemistry_ltd",
+    "event_id": "microchemistry_founded",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "id": "suntola_worked_at_neste",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "neste_oy",
+    "start": {
+      "display": "1987",
+      "precision": "year",
+      "sort_start": "1987-01-01",
+      "sort_end": "1987-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "id": "suntola_worked_at_fortum",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "fortum_oyj",
+    "start": {
+      "display": "1998",
+      "precision": "year",
+      "sort_start": "1998-01-01",
+      "sort_end": "1998-12-31"
+    },
+    "end": {
+      "display": "2004",
+      "precision": "year",
+      "sort_start": "2004-01-01",
+      "sort_end": "2004-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 12
+      }
+    ]
+  },
+  {
+    "id": "suntola_worked_at_picosun",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "picosun_oy",
+    "start": {
+      "display": "2004",
+      "precision": "year",
+      "sort_start": "2004-01-01",
+      "sort_end": "2004-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 12
+      }
+    ]
+  },
+  {
+    "id": "suntola_invented_ale",
+    "source": "tuomo_suntola",
+    "type": "invented",
+    "target": "atomic_layer_epitaxy",
+    "event_id": "ale_invention",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "suntola_invented_humicap",
+    "source": "tuomo_suntola",
+    "type": "invented",
+    "target": "humicap_sensor",
+    "event_id": "humicap_development",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "suntola_collaborated_with_antson",
+    "source": "tuomo_suntola",
+    "type": "collaborated_with",
+    "target": "jorma_antson",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "suntola_collaborated_with_lindfors",
+    "source": "tuomo_suntola",
+    "type": "collaborated_with",
+    "target": "sven_lindfors",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 5
+      }
+    ]
+  },
+  {
+    "id": "suntola_collaborated_with_pakkala",
+    "source": "tuomo_suntola",
+    "type": "collaborated_with",
+    "target": "arto_pakkala",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 5
+      }
+    ]
+  },
+  {
+    "id": "suntola_collaborated_with_alvesalo",
+    "source": "tuomo_suntola",
+    "type": "collaborated_with",
+    "target": "tapio_alvesalo",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "id": "suntola_collaborated_with_niinisto",
+    "source": "tuomo_suntola",
+    "type": "collaborated_with",
+    "target": "lauri_niinisto",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 11
+      }
+    ]
+  },
+  {
+    "id": "suntola_visited_leningrad",
+    "source": "tuomo_suntola",
+    "type": "visited",
+    "target": "university_of_leningrad",
+    "event_id": "leningrad_visit",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 12
+      }
+    ]
+  },
+  {
+    "id": "suntola_awarded_semi_award",
+    "source": "tuomo_suntola",
+    "type": "awarded",
+    "target": "european_semi_award_2004",
+    "event_id": "semi_award_2004",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 12
+      }
+    ]
+  },
+  {
+    "id": "lohja_sold_to_planar",
+    "source": "lohja_oy",
+    "type": "sold_to",
+    "target": "planar_inc",
+    "event_id": "el_sold_to_planar",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "microchemistry_sold_to_asm",
+    "source": "microchemistry_ltd",
+    "type": "sold_to",
+    "target": "asm",
+    "event_id": "microchemistry_sold_to_asm",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 10
+      }
+    ]
+  }
+]

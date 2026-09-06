@@ -1,0 +1,168 @@
+[
+  {
+    "aliases": [
+      "Davy",
+      "Sir Humphry Davy"
+    ],
+    "entity_type": "person",
+    "id": "humphry_davy",
+    "name": "Humphry Davy",
+    "subtype": "researcher",
+    "summary": "British chemist who isolated alkali and alkaline earth metals using electrolysis."
+  },
+  {
+    "aliases": [
+      "Royal Institution in London",
+      "The Institution"
+    ],
+    "entity_type": "organization",
+    "id": "royal_institution",
+    "name": "Royal Institution",
+    "subtype": "lab",
+    "summary": "London-based organization dedicated to scientific education and research."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "England",
+      "region": "Cornwall"
+    },
+    "entity_type": "place",
+    "id": "penzance",
+    "name": "Penzance",
+    "subtype": "city",
+    "summary": "Town in Cornwall, England, birthplace of Humphry Davy."
+  },
+  {
+    "aliases": [
+      "Cornish"
+    ],
+    "attributes": {
+      "country": "England"
+    },
+    "entity_type": "place",
+    "id": "cornwall",
+    "name": "Cornwall",
+    "subtype": "region",
+    "summary": "County in southwestern England known for tin mining."
+  },
+  {
+    "aliases": [
+      "Faraday"
+    ],
+    "entity_type": "person",
+    "id": "michael_faraday",
+    "name": "Michael Faraday",
+    "subtype": "researcher",
+    "summary": "English scientist who succeeded Davy at the Royal Institution and developed electromagnetism."
+  },
+  {
+    "aliases": [
+      "Gay-Lussac"
+    ],
+    "entity_type": "person",
+    "id": "joseph_gay_lussac",
+    "name": "Joseph Louis Gay-Lussac",
+    "subtype": "researcher",
+    "summary": "French chemist known for gas laws and rivalry with Davy over iodine."
+  },
+  {
+    "aliases": [
+      "Volta"
+    ],
+    "entity_type": "person",
+    "id": "alessandro_volta",
+    "name": "Alessandro Volta",
+    "subtype": "researcher",
+    "summary": "Italian physicist who invented the voltaic pile battery."
+  },
+  {
+    "aliases": [
+      "Berzelius"
+    ],
+    "entity_type": "person",
+    "id": "jons_berzelius",
+    "name": "Jöns Jacob Berzelius",
+    "subtype": "researcher",
+    "summary": "Swedish chemist who refined atomic masses and chemical symbols."
+  },
+  {
+    "aliases": [
+      "safety miner's lamp",
+      "Cambrian lamp",
+      "Clancy lamp"
+    ],
+    "entity_type": "artifact",
+    "id": "safety_lamp",
+    "name": "Davy safety lamp",
+    "subtype": "invention",
+    "summary": "Miner's lamp designed by Davy with wire gauze to prevent ignition of firedamp."
+  },
+  {
+    "aliases": [
+      "galvanic pile",
+      "electric battery"
+    ],
+    "entity_type": "artifact",
+    "id": "voltaic_pile",
+    "name": "voltaic pile",
+    "subtype": "invention",
+    "summary": "First electric battery invented by Volta, used by Davy for electrolysis."
+  },
+  {
+    "aliases": [
+      "Napoleon Bonaparte"
+    ],
+    "entity_type": "person",
+    "id": "napoleon_bonaparte",
+    "name": "Napoleon",
+    "subtype": "ruler",
+    "summary": "French emperor who awarded Davy a prize for electrochemical work."
+  },
+  {
+    "aliases": [
+      "Sir Benjamin Thompson"
+    ],
+    "entity_type": "person",
+    "id": "count_rumford",
+    "name": "Count Rumford",
+    "subtype": "researcher",
+    "summary": "American-born British scientist who founded the Royal Institution."
+  },
+  {
+    "aliases": [
+      "l' cole polytechnique"
+    ],
+    "entity_type": "organization",
+    "id": "ecole_polytechnique",
+    "name": "École Polytechnique",
+    "subtype": "university",
+    "summary": "French engineering school where Gay-Lussac and Thénard worked."
+  },
+  {
+    "aliases": [
+      "UNT"
+    ],
+    "entity_type": "organization",
+    "id": "university_of_north_texas",
+    "name": "University of North Texas",
+    "subtype": "university",
+    "summary": "University where the authors James L. and Virginia R. Marshall are affiliated."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "camborne_school_of_mines",
+    "name": "Camborne School of Mines",
+    "subtype": "university",
+    "summary": "Mining school in Cornwall associated with the University of Exeter."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "university_of_exeter",
+    "name": "University of Exeter",
+    "subtype": "university",
+    "summary": "University associated with the Camborne School of Mines."
+  }
+]

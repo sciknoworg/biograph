@@ -1,0 +1,138 @@
+[
+  {
+    "id": "ito_bs_grad",
+    "event_type": "education",
+    "label": "Graduated with B.S. in chemistry",
+    "date": {
+      "display": "1970",
+      "precision": "year",
+      "sort_start": "1970-01-01",
+      "sort_end": "1970-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "hiroshi_ito",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_tokyo",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ueda_2009_memorial",
+        "page": 1,
+        "quote": "HegraduatedfromdleUniversityofTbkyo，Witha B．S．inchemistryin1970"
+      }
+    ]
+  },
+  {
+    "id": "ito_phd_grad",
+    "event_type": "education",
+    "label": "Earned Ph.D.",
+    "date": {
+      "display": "1976",
+      "precision": "year",
+      "sort_start": "1976-01-01",
+      "sort_end": "1976-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "hiroshi_ito",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_tokyo",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ueda_2009_memorial",
+        "page": 1,
+        "quote": "andeamedaPh．D．in1976 from the same university．"
+      }
+    ]
+  },
+  {
+    "id": "ito_ibm_join",
+    "event_type": "employment_start",
+    "label": "Joined IBM Research Center",
+    "date": {
+      "display": "1980",
+      "precision": "year",
+      "sort_start": "1980-01-01",
+      "sort_end": "1980-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "hiroshi_ito",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ibm_research_center",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ueda_2009_memorial",
+        "page": 1,
+        "quote": "Hiroshi joinedIBM ResearCh Centerin1980"
+      }
+    ]
+  },
+  {
+    "id": "ito_invention",
+    "event_type": "invention",
+    "label": "Invented chemically amplified resist",
+    "date": {
+      "display": "1982",
+      "precision": "year",
+      "sort_start": "1982-01-01",
+      "sort_end": "1982-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "hiroshi_ito",
+        "role": "subject"
+      },
+      {
+        "entity_id": "chemical_amplification_resist",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ueda_2009_memorial",
+        "page": 1,
+        "quote": "hismainachievementwastheinvention Ofthechemicallyamplifiedresistin1982．"
+      }
+    ]
+  },
+  {
+    "id": "ito_death",
+    "event_type": "death",
+    "label": "Passed away",
+    "date": {
+      "display": "June 19, 2009",
+      "precision": "day",
+      "sort_start": "2009-06-19",
+      "sort_end": "2009-06-19"
+    },
+    "participants": [
+      {
+        "entity_id": "hiroshi_ito",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ueda_2009_memorial",
+        "page": 1,
+        "quote": "PaSSed awayonJune19，2009・"
+      }
+    ]
+  }
+]

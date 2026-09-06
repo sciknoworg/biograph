@@ -1,0 +1,150 @@
+[
+  {
+    "id": "nishizawa_worked_tohoku",
+    "source": "jun_ichi_nishizawa",
+    "type": "worked_at",
+    "target": "tohoku_university",
+    "sources": [
+      {
+        "source_id": "nishizawa_2004",
+        "page": 74,
+        "quote": "researchers in electronics at Tohoku University were inclined to be interested in generating higher frequencies"
+      }
+    ]
+  },
+  {
+    "id": "nishizawa_worked_semi_inst",
+    "source": "jun_ichi_nishizawa",
+    "type": "worked_at",
+    "target": "semiconductor_research_institute",
+    "sources": [
+      {
+        "source_id": "nishizawa_2004",
+        "page": 74,
+        "quote": "*) Semiconductor Research Institute, Kawauchi, Aoba-ku, Sendai, Miyagi 980-0862, Japan."
+      }
+    ]
+  },
+  {
+    "id": "nishizawa_worked_prc",
+    "source": "jun_ichi_nishizawa",
+    "type": "worked_at",
+    "target": "photodynamics_research_center",
+    "sources": [
+      {
+        "source_id": "nishizawa_2004",
+        "page": 74,
+        "quote": "**) Photodynamics Research Center, Sendai Branch of RIKEN, 519-1399, Aoba, Aramaki, Aoba-ku, Sendai, Miyagi 980-0845, Japan."
+      }
+    ]
+  },
+  {
+    "id": "nishizawa_collab_suto",
+    "source": "jun_ichi_nishizawa",
+    "type": "collaborated_with",
+    "target": "k_suto",
+    "sources": [
+      {
+        "source_id": "nishizawa_2004",
+        "page": 74,
+        "quote": "succeeded with K. Suto to generate a 12 THz wave in 1983."
+      }
+    ]
+  },
+  {
+    "id": "nishizawa_collab_kawase",
+    "source": "jun_ichi_nishizawa",
+    "type": "collaborated_with",
+    "target": "k_kawase",
+    "sources": [
+      {
+        "source_id": "nishizawa_2004",
+        "page": 74,
+        "quote": "In 1999, the author invited K. Kawase and H. Ito to Sendai RIKEN"
+      }
+    ]
+  },
+  {
+    "id": "nishizawa_collab_ito",
+    "source": "jun_ichi_nishizawa",
+    "type": "collaborated_with",
+    "target": "h_ito",
+    "sources": [
+      {
+        "source_id": "nishizawa_2004",
+        "page": 74,
+        "quote": "In 1999, the author invited K. Kawase and H. Ito to Sendai RIKEN"
+      }
+    ]
+  },
+  {
+    "id": "nishizawa_invented_semiconductor_laser",
+    "source": "jun_ichi_nishizawa",
+    "type": "invented",
+    "target": "semiconductor_laser",
+    "event_id": "nishizawa_proposed_laser_1957",
+    "sources": [
+      {
+        "source_id": "nishizawa_2004",
+        "page": 75,
+        "quote": "1957 J. Nishizawa Proposal of laser, in particular, semiconductor laser"
+      }
+    ]
+  },
+  {
+    "id": "nishizawa_invented_thz_generator",
+    "source": "jun_ichi_nishizawa",
+    "type": "invented",
+    "target": "thz_wave_generator",
+    "event_id": "nishizawa_proposed_thz_1963",
+    "sources": [
+      {
+        "source_id": "nishizawa_2004",
+        "page": 75,
+        "quote": "1963 April J. Nishizawa Proposal of terahertz wave generation via molecular and lattice vibrations (Denshikagaku p. 17, p. 30)"
+      }
+    ]
+  },
+  {
+    "id": "nishizawa_invented_optical_fiber",
+    "source": "jun_ichi_nishizawa",
+    "type": "invented",
+    "target": "optical_fiber",
+    "event_id": "nishizawa_proposed_fiber_1964",
+    "sources": [
+      {
+        "source_id": "nishizawa_2004",
+        "page": 75,
+        "quote": "1964 J. Nishizawa & I. Sasaki Proposal of optical fiber communication and focusing optical fiber (Diminu- tion of Leakage Loss)"
+      }
+    ]
+  },
+  {
+    "id": "nishizawa_invented_ballistic_sit",
+    "source": "jun_ichi_nishizawa",
+    "type": "invented",
+    "target": "ballistic_sit",
+    "event_id": "nishizawa_proposed_sit_1973",
+    "sources": [
+      {
+        "source_id": "nishizawa_2004",
+        "page": 75,
+        "quote": "1973 J. Nishizawa Proposal of Ideal Static Induction Transistor (Ballistic SIT) as terahertz operating devices"
+      }
+    ]
+  },
+  {
+    "id": "nishizawa_invented_tunnett_diode",
+    "source": "jun_ichi_nishizawa",
+    "type": "invented",
+    "target": "tunnett_diode",
+    "event_id": "nishizawa_realized_tunnett_1979",
+    "sources": [
+      {
+        "source_id": "nishizawa_2004",
+        "page": 75,
+        "quote": "1979 J. Nishizawa Realization of TUNNETT diode oscillating at 0.33 THz"
+      }
+    ]
+  }
+]

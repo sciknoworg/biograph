@@ -1,0 +1,113 @@
+[
+  {
+    "id": "emile_galle",
+    "entity_type": "person",
+    "name": "Émile Gallé",
+    "aliases": [
+      "Gallé",
+      "Émile Gallé (1846-1904)"
+    ],
+    "summary": "19th-century French designer and manufacturer known for works in glass, wood, and ceramics.",
+    "subtype": "designer"
+  },
+  {
+    "id": "charles_galle",
+    "entity_type": "person",
+    "name": "Charles Gallé",
+    "aliases": [
+      "Charles Gallé-Reinemer"
+    ],
+    "summary": "Father of Émile Gallé, a porcelain painter and manufacturer.",
+    "subtype": "manufacturer"
+  },
+  {
+    "id": "fanny_reinemer",
+    "entity_type": "person",
+    "name": "Fanny Reinemer",
+    "summary": "Mother of Émile Gallé, daughter of a ceramics and glassware shop owner.",
+    "subtype": "business_owner"
+  },
+  {
+    "id": "victor_prouve",
+    "entity_type": "person",
+    "name": "Victor Prouvé",
+    "aliases": [
+      "V. Prouvé",
+      "Prouvé"
+    ],
+    "summary": "French painter and sculptor who collaborated with Gallé on designs.",
+    "subtype": "artist"
+  },
+  {
+    "id": "louis_hestaux",
+    "entity_type": "person",
+    "name": "Louis Hestaux",
+    "summary": "Head of Gallé's design studio and collaborator on works like Le Rhin.",
+    "subtype": "designer"
+  },
+  {
+    "id": "nancy",
+    "entity_type": "place",
+    "name": "Nancy",
+    "summary": "City in the province of Lorraine, France, where Gallé was born and worked.",
+    "subtype": "city",
+    "attributes": {
+      "country": "France",
+      "province": "Lorraine"
+    }
+  },
+  {
+    "id": "france",
+    "entity_type": "place",
+    "name": "France",
+    "summary": "Nation where Gallé lived and worked.",
+    "subtype": "country"
+  },
+  {
+    "id": "germany",
+    "entity_type": "place",
+    "name": "Germany",
+    "summary": "Neighboring nation and economic rival to France during Gallé's career.",
+    "subtype": "country"
+  },
+  {
+    "id": "galle_reinemer",
+    "entity_type": "organization",
+    "name": "Gallé-Reinemer",
+    "summary": "Family business manufacturing glass and porcelain, later managed by Émile Gallé.",
+    "subtype": "company"
+  },
+  {
+    "id": "ecole_de_nancy",
+    "entity_type": "organization",
+    "name": "École de Nancy",
+    "summary": "Regional group of artists and industrialists founded by Gallé.",
+    "subtype": "art_group"
+  },
+  {
+    "id": "le_rhin",
+    "entity_type": "artifact",
+    "name": "Le Rhin",
+    "aliases": [
+      "The Rhine",
+      "Histoire ancienne",
+      "Chardon lorrain"
+    ],
+    "summary": "Monumental marquetry table created by Gallé for the Exposition universelle of 1889.",
+    "subtype": "furniture"
+  },
+  {
+    "id": "lycee_imperial_nancy",
+    "entity_type": "organization",
+    "name": "Lycée impérial",
+    "summary": "Secondary school in Nancy where Gallé studied beginning in 1858.",
+    "subtype": "school"
+  },
+  {
+    "id": "academie_de_nancy",
+    "entity_type": "organization",
+    "name": "Académie de Nancy",
+    "summary": "Art academy in Nancy where Gallé studied starting in 1865.",
+    "subtype": "school"
+  }
+]

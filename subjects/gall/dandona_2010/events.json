@@ -1,0 +1,271 @@
+[
+  {
+    "id": "galle_birth",
+    "event_type": "birth",
+    "label": "Born in Nancy",
+    "date": {
+      "display": "1846",
+      "precision": "year",
+      "sort_start": "1846-01-01",
+      "sort_end": "1846-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emile_galle",
+        "role": "subject"
+      }
+    ],
+    "location": "nancy",
+    "sources": [
+      {
+        "source_id": "dandona_2010",
+        "page": 1,
+        "quote": "Gallé was born in Nancy, in the province of Lorraine, in 1846."
+      }
+    ]
+  },
+  {
+    "id": "galle_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1904",
+      "precision": "year",
+      "sort_start": "1904-01-01",
+      "sort_end": "1904-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emile_galle",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dandona_2010",
+        "page": 1,
+        "quote": "For Émile Gallé (1846-1904), the glass he holds is life itself"
+      }
+    ]
+  },
+  {
+    "id": "galle_education_lycee",
+    "event_type": "education",
+    "label": "Studied at Lycée impérial",
+    "date": {
+      "display": "beginning in 1858",
+      "precision": "year",
+      "sort_start": "1858-01-01",
+      "sort_end": "1858-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emile_galle",
+        "role": "student"
+      },
+      {
+        "entity_id": "lycee_imperial_nancy",
+        "role": "school"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dandona_2010",
+        "page": 1,
+        "quote": "The young Émile Gallé studied at the Lycée impérial in Nancy beginning in 1858"
+      }
+    ]
+  },
+  {
+    "id": "galle_education_academie",
+    "event_type": "education",
+    "label": "Studied at Académie de Nancy",
+    "date": {
+      "display": "starting in 1865",
+      "precision": "year",
+      "sort_start": "1865-01-01",
+      "sort_end": "1865-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emile_galle",
+        "role": "student"
+      },
+      {
+        "entity_id": "academie_de_nancy",
+        "role": "school"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dandona_2010",
+        "page": 1,
+        "quote": "and then at the Académie de Nancy starting in 1865."
+      }
+    ]
+  },
+  {
+    "id": "galle_employment_director",
+    "event_type": "employment_start",
+    "label": "Made artistic director of father's workshops",
+    "date": {
+      "display": "1866",
+      "precision": "year",
+      "sort_start": "1866-01-01",
+      "sort_end": "1866-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emile_galle",
+        "role": "employee"
+      },
+      {
+        "entity_id": "galle_reinemer",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dandona_2010",
+        "page": 1,
+        "quote": "Upon his return to France in 1866, Gallé was made artistic director of his father's workshops in Nancy, Saint-Clément, and Meisenthal."
+      }
+    ]
+  },
+  {
+    "id": "galle_employment_sole",
+    "event_type": "role_change",
+    "label": "Took over sole management of enterprise",
+    "date": {
+      "display": "1877 or 1878",
+      "precision": "year",
+      "sort_start": "1877-01-01",
+      "sort_end": "1878-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emile_galle",
+        "role": "manager"
+      },
+      {
+        "entity_id": "galle_reinemer",
+        "role": "enterprise"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dandona_2010",
+        "page": 1,
+        "quote": "In 1877 or 1878, Gallé took over sole management of his father's enterprise."
+      }
+    ]
+  },
+  {
+    "id": "galle_war_service",
+    "event_type": "other",
+    "label": "Served in French army during Franco-Prussian War",
+    "date": {
+      "display": "1870-1871",
+      "precision": "range",
+      "sort_start": "1870-01-01",
+      "sort_end": "1871-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emile_galle",
+        "role": "soldier"
+      },
+      {
+        "entity_id": "france",
+        "role": "army"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dandona_2010",
+        "page": 3,
+        "quote": "Gallé served as a French lance corporal in the Franco-Prussian War"
+      }
+    ]
+  },
+  {
+    "id": "galle_le_rhin_creation",
+    "event_type": "invention",
+    "label": "Created Le Rhin table",
+    "date": {
+      "display": "1889",
+      "precision": "year",
+      "sort_start": "1889-01-01",
+      "sort_end": "1889-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emile_galle",
+        "role": "creator"
+      },
+      {
+        "entity_id": "le_rhin",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dandona_2010",
+        "page": 1,
+        "quote": "This wound was Émile Gallé's monumental table Le Rhin (The Rhine, 1889)"
+      }
+    ]
+  },
+  {
+    "id": "galle_exposition_1889",
+    "event_type": "conference",
+    "label": "Exhibited at Exposition universelle",
+    "date": {
+      "display": "1889",
+      "precision": "year",
+      "sort_start": "1889-01-01",
+      "sort_end": "1889-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emile_galle",
+        "role": "exhibitor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dandona_2010",
+        "page": 1,
+        "quote": "Gallé's works produced for the Exposition Universelle of 1889"
+      }
+    ]
+  },
+  {
+    "id": "galle_founded_ecole",
+    "event_type": "company_founded",
+    "label": "Founded École de Nancy",
+    "date": {
+      "display": "late career",
+      "precision": "decade",
+      "sort_start": "1890-01-01",
+      "sort_end": "1904-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emile_galle",
+        "role": "founder"
+      },
+      {
+        "entity_id": "ecole_de_nancy",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dandona_2010",
+        "page": 1,
+        "quote": "Gallé's role as the founder of the École de Nancy"
+      }
+    ]
+  }
+]

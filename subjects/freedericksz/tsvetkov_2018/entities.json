@@ -1,0 +1,196 @@
+[
+  {
+    "id": "freedericksz_vk",
+    "entity_type": "person",
+    "name": "Vsevolod Konstantinovich Freedericksz",
+    "aliases": [
+      "V.K. Freedericksz",
+      "Vsevolod Freedericksz",
+      "В. К. Фредерикс",
+      "Всеволод Константинович Фредерикс"
+    ],
+    "summary": "Russian physicist who founded the Russian school of liquid crystal physics and discovered the Freedericksz transition.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "guye_charles",
+    "entity_type": "person",
+    "name": "Charles Guye",
+    "aliases": [
+      "C. Guye",
+      "Ш. Гюи"
+    ],
+    "summary": "Swiss physicist known for work on electron mass and special relativity.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "voigt_woldemar",
+    "entity_type": "person",
+    "name": "Woldemar Voigt",
+    "aliases": [
+      "W. Voigt",
+      "В. Фойгта"
+    ],
+    "summary": "German physicist who studied magnetic and electric fields on crystal structure.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "hilbert_david",
+    "entity_type": "person",
+    "name": "David Hilbert",
+    "aliases": [
+      "D. Hilbert",
+      "Д. Гильберта"
+    ],
+    "summary": "German mathematician interested in physics and general theory of relativity.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "repieva_an",
+    "entity_type": "person",
+    "name": "Alexandra Nikolaevna Repieva",
+    "aliases": [
+      "A. Repieva",
+      "А. Н. Репьёвой"
+    ],
+    "summary": "Collaborator of Freedericksz on liquid crystal magnetic field studies.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "zolina_vv",
+    "entity_type": "person",
+    "name": "Valentina Vasil'evna Zolina",
+    "aliases": [
+      "V. Zolina",
+      "В. В. Золиной"
+    ],
+    "summary": "Collaborator of Freedericksz on Freedericksz equation derivation.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "tsvetkov_vn",
+    "entity_type": "person",
+    "name": "Victor Nikolaevich Tsvetkov",
+    "aliases": [
+      "V.N. Tsvetkov",
+      "В.Н. Цветков",
+      "N. V. Tsvetkov"
+    ],
+    "summary": "Graduate student of Freedericksz and author of this biographical essay.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "shostakovich_md",
+    "entity_type": "person",
+    "name": "Maria Dmitrievna Shostakovich",
+    "aliases": [
+      "Maria Shostakovich",
+      "Мария Дмитриевна Шостакович"
+    ],
+    "summary": "Wife of Freedericksz and elder sister of composer Dmitri Shostakovich.",
+    "subtype": "family"
+  },
+  {
+    "id": "friedmann_aa",
+    "entity_type": "person",
+    "name": "Alexander Aleksandrovich Friedmann",
+    "aliases": [
+      "A.A. Friedmann",
+      "А.А. Фридман"
+    ],
+    "summary": "Russian physicist and author of the theory of an expanding universe.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "university_geneva",
+    "entity_type": "organization",
+    "name": "University of Geneva",
+    "aliases": [
+      "Geneva University"
+    ],
+    "summary": "Swiss university where Freedericksz obtained his doctoral degree.",
+    "subtype": "university"
+  },
+  {
+    "id": "university_gottingen",
+    "entity_type": "organization",
+    "name": "University of Göttingen",
+    "aliases": [
+      "Göttingen University",
+      "Геттингенском университете"
+    ],
+    "summary": "German university where Freedericksz worked with Voigt and Hilbert.",
+    "subtype": "university"
+  },
+  {
+    "id": "lsu",
+    "entity_type": "organization",
+    "name": "Leningrad State University",
+    "aliases": [
+      "LSU",
+      "SPbU",
+      "Saint-Petersburg University",
+      "ЛГУ",
+      "СПбГУ"
+    ],
+    "summary": "Russian university where Freedericksz worked as assistant professor and continued LC studies.",
+    "subtype": "university"
+  },
+  {
+    "id": "itp",
+    "entity_type": "organization",
+    "name": "Institute of Technical Physics",
+    "aliases": [
+      "ITP",
+      "Physico-Technical Institute",
+      "ФТИ",
+      "Физико-техническом институте"
+    ],
+    "summary": "Research institute where Freedericksz started liquid crystal studies in 1923.",
+    "subtype": "lab"
+  },
+  {
+    "id": "warsaw",
+    "entity_type": "place",
+    "name": "Warsaw",
+    "summary": "City in Poland where Freedericksz was born.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Poland"
+    }
+  },
+  {
+    "id": "leningrad",
+    "entity_type": "place",
+    "name": "Leningrad",
+    "aliases": [
+      "St. Petersburg",
+      "Petrograd",
+      "Санкт-Петербург",
+      "Ленинград",
+      "Петроград"
+    ],
+    "summary": "City in Russia where Freedericksz worked for most of his career.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Russia"
+    }
+  },
+  {
+    "id": "freedericksz_equation",
+    "entity_type": "artifact",
+    "name": "Freedericksz's equation",
+    "aliases": [
+      "Freedericksz formula"
+    ],
+    "summary": "Equation describing the threshold magnetic field for nematic liquid crystal reorientation.",
+    "subtype": "invention"
+  },
+  {
+    "id": "freedericksz_medal",
+    "entity_type": "artifact",
+    "name": "Freedericksz medal",
+    "summary": "Prize instituted by the Russian Liquid Crystal Society for achievements in LC science.",
+    "subtype": "award"
+  }
+]

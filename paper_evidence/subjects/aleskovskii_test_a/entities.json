@@ -1,0 +1,114 @@
+[
+  {
+    "id": "valentin_borisovich_aleskovskii",
+    "entity_type": "person",
+    "name": "Valentin Borisovich Aleskovskii",
+    "aliases": [
+      "V. B. Aleskovskii",
+      "Valentin Borisovich"
+    ],
+    "summary": "Soviet chemist and professor known for the 'framework' hypothesis and molecular layering method.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "stanislav_ivanovich_koltsov",
+    "entity_type": "person",
+    "name": "Stanislav Ivanovich Kol'tsov",
+    "aliases": [
+      "S. I. Kol'tsov",
+      "Stanislav Ivanovich"
+    ],
+    "summary": "Soviet chemist and graduate student of Aleskovskii who co-developed the molecular layering method.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "tuomo_suntola",
+    "entity_type": "person",
+    "name": "T. Suntola",
+    "aliases": [
+      "Tuomo Suntola"
+    ],
+    "summary": "Finnish physicist and inventor of atomic layer epitaxy (ALE).",
+    "subtype": "researcher"
+  },
+  {
+    "id": "lti_lensovet",
+    "entity_type": "organization",
+    "name": "Leningrad Technological Institute by Lensovet",
+    "aliases": [
+      "LTI by Lensovet",
+      "St. Petersburg State Technological Institute",
+      "SPbSTI"
+    ],
+    "summary": "Technical university in Leningrad where Aleskovskii studied and worked.",
+    "subtype": "university"
+  },
+  {
+    "id": "lsu",
+    "entity_type": "organization",
+    "name": "Leningrad State University",
+    "aliases": [
+      "LSU",
+      "St. Petersburg State University",
+      "SPbSU"
+    ],
+    "summary": "Major university in Leningrad where Aleskovskii served as rector.",
+    "subtype": "university"
+  },
+  {
+    "id": "academy_of_sciences_ussr",
+    "entity_type": "organization",
+    "name": "Academy of Sciences of the USSR",
+    "aliases": [
+      "Academy of Sciences"
+    ],
+    "summary": "Premier scientific institution of the Soviet Union.",
+    "subtype": "academy"
+  },
+  {
+    "id": "molecular_layering",
+    "entity_type": "artifact",
+    "name": "Molecular Layering",
+    "aliases": [
+      "ML",
+      "Atomic Layer Deposition",
+      "ALD"
+    ],
+    "summary": "Gas-phase deposition technique developed in the Soviet Union.",
+    "subtype": "invention"
+  },
+  {
+    "id": "framework_hypothesis",
+    "entity_type": "artifact",
+    "name": "Framework Hypothesis",
+    "aliases": [
+      "Framework hypothesis"
+    ],
+    "summary": "Theoretical model of solid structure proposed by Aleskovskii.",
+    "subtype": "theory"
+  },
+  {
+    "id": "mary_turkmenistan",
+    "entity_type": "place",
+    "name": "Mary",
+    "aliases": [],
+    "summary": "City in Turkmenistan where Aleskovskii was born.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Turkmenistan"
+    }
+  },
+  {
+    "id": "leningrad",
+    "entity_type": "place",
+    "name": "Leningrad",
+    "aliases": [
+      "St. Petersburg"
+    ],
+    "summary": "City in Russia where Aleskovskii worked.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Russia"
+    }
+  }
+]

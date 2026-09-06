@@ -1,0 +1,286 @@
+[
+  {
+    "id": "lippmann_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "description": "Gabriel Lippmann was born in 1845.",
+    "date": {
+      "display": "1845",
+      "precision": "year",
+      "sort_start": "1845-01-01",
+      "sort_end": "1845-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gabriel_lippmann",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "gamble_2004",
+        "page": 1,
+        "quote": "Gabriel Lippmann (1845-1921)"
+      }
+    ]
+  },
+  {
+    "id": "lippmann_education_heidelberg",
+    "event_type": "education",
+    "label": "Studied in Heidelberg",
+    "description": "Lippmann was a student in Heidelberg working with spectroscopists Kühne and Kirchoff.",
+    "date": {
+      "display": "c. 1870s",
+      "precision": "decade",
+      "sort_start": "1870-01-01",
+      "sort_end": "1879-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gabriel_lippmann",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "gamble_2004",
+        "page": 29,
+        "quote": "Since a student in Heidelberg working with spectroscopists Kühne and Kirchoff"
+      }
+    ]
+  },
+  {
+    "id": "lippmann_education_berlin",
+    "event_type": "education",
+    "label": "Studied in Berlin",
+    "description": "Lippmann worked in Berlin under Helmholtz in 1874-5.",
+    "date": {
+      "display": "1874-5",
+      "precision": "range",
+      "sort_start": "1874-01-01",
+      "sort_end": "1875-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gabriel_lippmann",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "gamble_2004",
+        "page": 29,
+        "quote": "later in 1874-5 working in Berlin under the physicist and physiologist Helmholtz"
+      }
+    ]
+  },
+  {
+    "id": "lippmann_professor_sorbonne",
+    "event_type": "employment_start",
+    "label": "Appointed Professor at Sorbonne",
+    "description": "Lippmann became Professor of Mathematical Physics at the Sorbonne.",
+    "date": {
+      "display": "1883",
+      "precision": "year",
+      "sort_start": "1883-01-01",
+      "sort_end": "1883-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gabriel_lippmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "sorbonne",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "gamble_2004",
+        "page": 29,
+        "quote": "Lippmann, Professor of Mathematical Physics at the Sorbonne, from 1883"
+      }
+    ]
+  },
+  {
+    "id": "lippmann_member_bureau_longitude",
+    "event_type": "role_change",
+    "label": "Member of Bureau of Longitude",
+    "description": "Lippmann was a member of the Bureau of Longitude.",
+    "date": {
+      "display": "c. 1883",
+      "precision": "year",
+      "sort_start": "1883-01-01",
+      "sort_end": "1883-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gabriel_lippmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "bureau_of_longitude",
+        "role": "organization"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "gamble_2004",
+        "page": 29,
+        "quote": "member of the Bureau of Longitude"
+      }
+    ]
+  },
+  {
+    "id": "lippmann_invention_colour_photography",
+    "event_type": "invention",
+    "label": "Invented colour photography",
+    "description": "Lippmann presented his paper on La photographie des couleurs.",
+    "date": {
+      "display": "1891",
+      "precision": "year",
+      "sort_start": "1891-01-01",
+      "sort_end": "1891-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gabriel_lippmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lippmann_photograph",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "gamble_2004",
+        "page": 29,
+        "quote": "Lippmann presented his 1891 paper on La photographie des couleurs to the Paris Académie des Sciences"
+      }
+    ]
+  },
+  {
+    "id": "lippmann_presentation_academie_1891",
+    "event_type": "conference",
+    "label": "Presented to Paris Académie des Sciences",
+    "description": "Lippmann presented his 1891 paper to the Paris Académie des Sciences.",
+    "date": {
+      "display": "1891",
+      "precision": "year",
+      "sort_start": "1891-01-01",
+      "sort_end": "1891-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gabriel_lippmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "paris_academie_des_sciences",
+        "role": "organization"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "gamble_2004",
+        "page": 29,
+        "quote": "Lippmann presented his 1891 paper on La photographie des couleurs to the Paris Académie des Sciences"
+      }
+    ]
+  },
+  {
+    "id": "lippmann_display_royal_society_1891",
+    "event_type": "public_demonstration",
+    "label": "Displayed spectra at Royal Society",
+    "description": "Lippmann's spectra were on display in The Royal Society, London.",
+    "date": {
+      "display": "May 1891",
+      "precision": "month",
+      "sort_start": "1891-05-01",
+      "sort_end": "1891-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gabriel_lippmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_society",
+        "role": "organization"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "gamble_2004",
+        "page": 37,
+        "quote": "were on display in The Royal Society, London"
+      }
+    ]
+  },
+  {
+    "id": "lippmann_nobel_prize_1908",
+    "event_type": "award",
+    "label": "Awarded Nobel Prize in Physics",
+    "description": "Lippmann won the Nobel Prize in Physics in 1908.",
+    "date": {
+      "display": "1908",
+      "precision": "year",
+      "sort_start": "1908-01-01",
+      "sort_end": "1908-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gabriel_lippmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize_physics_1908",
+        "role": "award"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "gamble_2004",
+        "page": 7,
+        "quote": "Lippmann in 1908"
+      }
+    ]
+  },
+  {
+    "id": "lippmann_death",
+    "event_type": "death",
+    "label": "Died",
+    "description": "Gabriel Lippmann died in 1921.",
+    "date": {
+      "display": "1921",
+      "precision": "year",
+      "sort_start": "1921-01-01",
+      "sort_end": "1921-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gabriel_lippmann",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "gamble_2004",
+        "page": 30,
+        "quote": "Funeral of Gabriel Lippmann (Paris: Institute de France Académie de Sciences, 1921)"
+      }
+    ]
+  }
+]

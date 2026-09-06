@@ -1,0 +1,82 @@
+[
+  {
+    "id": "dowson_collaborated_higginson",
+    "source": "duncan_dowson",
+    "type": "collaborated_with",
+    "target": "gordon_higginson",
+    "sources": [
+      {
+        "source_id": "evans_snidle_2021_dowson",
+        "page": 4,
+        "quote": "In 1959 two young lecturers of mechanical engineering at Leeds University, Duncan Dowson and Gordon Higginson, published their breakthrough paper on a full numerical treatment of the \"elastohydrodynamic lubrication\" problem [4]."
+      }
+    ]
+  },
+  {
+    "id": "dowson_worked_leeds",
+    "source": "duncan_dowson",
+    "type": "worked_at",
+    "target": "leeds_university",
+    "sources": [
+      {
+        "source_id": "evans_snidle_2021_dowson",
+        "page": 4,
+        "quote": "In 1959 two young lecturers of mechanical engineering at Leeds University, Duncan Dowson and Gordon Higginson, published their breakthrough paper on a full numerical treatment of the \"elastohydrodynamic lubrication\" problem [4]."
+      }
+    ]
+  },
+  {
+    "id": "dowson_published_1959_paper",
+    "source": "duncan_dowson",
+    "type": "published",
+    "target": "dowson_higginson_1959_paper",
+    "event_id": "dowson_higginson_1959_paper_pub",
+    "sources": [
+      {
+        "source_id": "evans_snidle_2021_dowson",
+        "page": 4,
+        "quote": "In 1959 two young lecturers of mechanical engineering at Leeds University, Duncan Dowson and Gordon Higginson, published their breakthrough paper on a full numerical treatment of the \"elastohydrodynamic lubrication\" problem [4]."
+      }
+    ]
+  },
+  {
+    "id": "dowson_published_1966_book",
+    "source": "duncan_dowson",
+    "type": "published",
+    "target": "dowson_higginson_1966_book",
+    "event_id": "dowson_higginson_1966_book_pub",
+    "sources": [
+      {
+        "source_id": "evans_snidle_2021_dowson",
+        "page": 5,
+        "quote": "In 1966 Dowson and Higginson published their well-known book on elastohydrodynamic lubrication [10]"
+      }
+    ]
+  },
+  {
+    "id": "evans_worked_cardiff",
+    "source": "h_p_evans",
+    "type": "worked_at",
+    "target": "cardiff_university",
+    "sources": [
+      {
+        "source_id": "evans_snidle_2021_dowson",
+        "page": 1,
+        "quote": "School of Engineering, Cardiff University, Cardiff, UK"
+      }
+    ]
+  },
+  {
+    "id": "snidle_worked_cardiff",
+    "source": "r_w_snidle",
+    "type": "worked_at",
+    "target": "cardiff_university",
+    "sources": [
+      {
+        "source_id": "evans_snidle_2021_dowson",
+        "page": 1,
+        "quote": "School of Engineering, Cardiff University, Cardiff, UK"
+      }
+    ]
+  }
+]

@@ -1,0 +1,233 @@
+[
+  {
+    "id": "lippmann_born_hollerich",
+    "source": "gabriel_lippmann",
+    "type": "born_in",
+    "target": "hollerich",
+    "event_id": "lippmann_birth",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 904,
+        "quote": "Lippmann was born on 16 August 1845 in Hollerich, in Hollerich, in the Grand Duchy of Luxembourg."
+      }
+    ]
+  },
+  {
+    "id": "lippmann_lived_paris",
+    "source": "gabriel_lippmann",
+    "type": "lived_in",
+    "target": "paris",
+    "event_id": "lippmann_move_paris",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 904,
+        "quote": "Later, the entire family moved to Paris, where Gabriel received his early education."
+      }
+    ]
+  },
+  {
+    "id": "lippmann_studied_lycee",
+    "source": "gabriel_lippmann",
+    "type": "studied_at",
+    "target": "lycee_henri_iv",
+    "event_id": "lippmann_lycee",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 904,
+        "quote": "In 1858, Lippmann followed the \"Lycée Napoléon\" (today known as Henri-IV)."
+      }
+    ]
+  },
+  {
+    "id": "lippmann_studied_ecole",
+    "source": "gabriel_lippmann",
+    "type": "studied_at",
+    "target": "ecole_normale",
+    "event_id": "lippmann_ecole_normale",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 904,
+        "quote": "Under the influence of Almeida, Lippmann headed the scientific section of the \"École normale\" (normal school), which he entered in 1868 at the age of 23."
+      }
+    ]
+  },
+  {
+    "id": "lippmann_worked_sorbonne",
+    "source": "gabriel_lippmann",
+    "type": "worked_at",
+    "target": "sorbonne",
+    "event_id": "lippmann_professor",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 904,
+        "quote": "Lippmann was then named a professor at the Sorbonne University and head of the laboratory of physics."
+      }
+    ]
+  },
+  {
+    "id": "lippmann_member_academy",
+    "source": "gabriel_lippmann",
+    "type": "member_of",
+    "target": "french_academy_of_sciences",
+    "event_id": "lippmann_academy_member",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 903,
+        "quote": "The inventor of color photography was a member of the French Academy of Sciences in 1886 and was elected as its president in 1912."
+      }
+    ]
+  },
+  {
+    "id": "lippmann_member_societe",
+    "source": "gabriel_lippmann",
+    "type": "member_of",
+    "target": "societe_francaise_de_photographie",
+    "event_id": "lippmann_societe_member",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 905,
+        "quote": "He was a member of the \"Société francaise de photographie\" (1892) and its president (1896e1899)."
+      }
+    ]
+  },
+  {
+    "id": "lippmann_founded_institut",
+    "source": "gabriel_lippmann",
+    "type": "founded",
+    "target": "institut_d_optique",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 905,
+        "quote": "Lippmann was one of the founders of the \"Institut d'optique théorique et appliquée\" in France."
+      }
+    ]
+  },
+  {
+    "id": "lippmann_invented_electrometer",
+    "source": "gabriel_lippmann",
+    "type": "invented",
+    "target": "lippmann_electrometer",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 903,
+        "quote": "He was also known for his discovery of heliochromes, microscopic analyses, and of the Lippmann electrometer."
+      }
+    ]
+  },
+  {
+    "id": "lippmann_invented_process",
+    "source": "gabriel_lippmann",
+    "type": "invented",
+    "target": "lippmann_process",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 903,
+        "quote": "Jonas Ferdinand Gabriel Lippmann, a Luxembourgish-French physicist, is known for the innovation he brought to the color reproduction method in photography and for having produced the first color photographic plate."
+      }
+    ]
+  },
+  {
+    "id": "lippmann_awarded_nobel",
+    "source": "gabriel_lippmann",
+    "type": "awarded",
+    "target": "nobel_prize_physics_1908",
+    "event_id": "lippmann_nobel",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 903,
+        "quote": "For this work, he was the Nobel laureate in physics in 1908."
+      }
+    ]
+  },
+  {
+    "id": "lippmann_married_cherbuliez",
+    "source": "gabriel_lippmann",
+    "type": "married_to",
+    "target": "madame_lippmann",
+    "event_id": "lippmann_marriage",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 905,
+        "quote": "The high culture of Lippmann was further refined in the circles that he frequented after his marriage (1888) to the daughter of Victor Cherbuliez (novelist and author)."
+      }
+    ]
+  },
+  {
+    "id": "lippmann_collab_curie",
+    "source": "gabriel_lippmann",
+    "type": "collaborated_with",
+    "target": "marie_curie",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 904,
+        "quote": "One of his more interesting collaborations was with the young Polish student Marie Skłodowska (Curie), as well as with Maurice Couette and Pierre Curie."
+      }
+    ]
+  },
+  {
+    "id": "lippmann_collab_pcurie",
+    "source": "gabriel_lippmann",
+    "type": "collaborated_with",
+    "target": "pierre_curie",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 904,
+        "quote": "One of his more interesting collaborations was with the young Polish student Marie Skłodowska (Curie), as well as with Maurice Couette and Pierre Curie."
+      }
+    ]
+  },
+  {
+    "id": "lippmann_supervised_kirchhoff",
+    "source": "gabriel_lippmann",
+    "type": "supervised_by",
+    "target": "kirchhoff",
+    "event_id": "lippmann_thesis",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 904,
+        "quote": "His thesis was entitled Relations entre les phénomènes électriques et capillaires, and Kirchoff served as the doctoral advisor."
+      }
+    ]
+  },
+  {
+    "id": "lippmann_supervised_helmholtz",
+    "source": "gabriel_lippmann",
+    "type": "supervised_by",
+    "target": "helmholtz",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 904,
+        "quote": "It must be mentioned that Herman von Helmholtz was also an academic advisor."
+      }
+    ]
+  },
+  {
+    "id": "prc_lippmann_named",
+    "source": "public_research_centre_gabriel_lippmann",
+    "type": "renamed_to",
+    "target": "list",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 905,
+        "quote": "However, the Public Research Centree Gabriel Lippmann later merged with the Public Research Centre e Henri Tudor on 1 January 2015, and formed the Luxembourg Institute of Science and Technology (LIST)."
+      }
+    ]
+  }
+]

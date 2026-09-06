@@ -1,0 +1,813 @@
+[
+  {
+    "id": "aleskovskii_born_in_mary",
+    "source": "valentin_b_aleskovskii",
+    "type": "born_in",
+    "target": "mary_turkmenistan",
+    "event_id": "aleskovskii_birth",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "koltsov_born_in_proletarskaya",
+    "source": "stanislav_i_koltsov",
+    "type": "born_in",
+    "target": "proletarskaya_rostov",
+    "event_id": "koltsov_birth",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_studied_at_lti",
+    "source": "valentin_b_aleskovskii",
+    "type": "studied_at",
+    "target": "leningrad_technological_institute",
+    "start": {
+      "display": "1931-1937",
+      "precision": "range",
+      "sort_start": "1931-01-01",
+      "sort_end": "1937-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_worked_at_naval_research_institute",
+    "source": "valentin_b_aleskovskii",
+    "type": "worked_at",
+    "target": "naval_research_institute_leningrad",
+    "start": {
+      "display": "1937",
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1937-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_worked_at_lti",
+    "source": "valentin_b_aleskovskii",
+    "type": "worked_at",
+    "target": "leningrad_technological_institute",
+    "start": {
+      "display": "circa 1945-1975",
+      "precision": "range",
+      "sort_start": "1945-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_head_of_analytical_chemistry_dept",
+    "source": "valentin_b_aleskovskii",
+    "type": "worked_at",
+    "target": "leningrad_technological_institute",
+    "start": {
+      "display": "1949",
+      "precision": "year",
+      "sort_start": "1949-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "note": "Head of Department of Analytical Chemistry",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_founded_department_of_chemistry_of_solids",
+    "source": "valentin_b_aleskovskii",
+    "type": "founded",
+    "target": "department_of_chemistry_of_solids",
+    "event_id": "aleskovskii_founded_department_of_chemistry_of_solids",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_acting_rector_lti",
+    "source": "valentin_b_aleskovskii",
+    "type": "worked_at",
+    "target": "leningrad_technological_institute",
+    "start": {
+      "display": "1965-1975",
+      "precision": "range",
+      "sort_start": "1965-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "note": "Acting rector",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_rector_lsu",
+    "source": "valentin_b_aleskovskii",
+    "type": "worked_at",
+    "target": "leningrad_state_university",
+    "start": {
+      "display": "1975",
+      "precision": "year",
+      "sort_start": "1975-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "note": "Rector",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_founded_department_of_solid_state_chemistry",
+    "source": "valentin_b_aleskovskii",
+    "type": "founded",
+    "target": "department_of_solid_state_chemistry",
+    "event_id": "aleskovskii_founded_department_of_solid_state_chemistry",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "koltsov_studied_at_lti",
+    "source": "stanislav_i_koltsov",
+    "type": "studied_at",
+    "target": "leningrad_technological_institute",
+    "start": {
+      "display": "1950-1955",
+      "precision": "range",
+      "sort_start": "1950-01-01",
+      "sort_end": "1955-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "koltsov_supervised_by_aleskovskii",
+    "source": "stanislav_i_koltsov",
+    "type": "supervised_by",
+    "target": "valentin_b_aleskovskii",
+    "start": {
+      "display": "1955",
+      "precision": "year",
+      "sort_start": "1955-01-01",
+      "sort_end": "1955-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "koltsov_worked_at_lti",
+    "source": "stanislav_i_koltsov",
+    "type": "worked_at",
+    "target": "leningrad_technological_institute",
+    "start": {
+      "display": "1955-2003",
+      "precision": "range",
+      "sort_start": "1955-01-01",
+      "sort_end": "2003-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "koltsov_head_of_department_of_chemistry_of_solids",
+    "source": "stanislav_i_koltsov",
+    "type": "worked_at",
+    "target": "department_of_chemistry_of_solids",
+    "start": {
+      "display": "1976-1982",
+      "precision": "range",
+      "sort_start": "1976-01-01",
+      "sort_end": "1982-12-31"
+    },
+    "note": "Department Head",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_invented_framework_hypothesis",
+    "source": "valentin_b_aleskovskii",
+    "type": "invented",
+    "target": "framework_hypothesis",
+    "start": {
+      "display": "1940",
+      "precision": "year",
+      "sort_start": "1940-01-01",
+      "sort_end": "1940-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_developed_ml_method",
+    "source": "valentin_b_aleskovskii",
+    "type": "developed",
+    "target": "molecular_layering_method",
+    "start": {
+      "display": "1950s to late 1960s",
+      "precision": "range",
+      "sort_start": "1950-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "koltsov_developed_ml_method",
+    "source": "stanislav_i_koltsov",
+    "type": "developed",
+    "target": "molecular_layering_method",
+    "start": {
+      "display": "1950s to late 1960s",
+      "precision": "range",
+      "sort_start": "1950-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_collaborated_with_koltsov",
+    "source": "valentin_b_aleskovskii",
+    "type": "collaborated_with",
+    "target": "stanislav_i_koltsov",
+    "start": {
+      "display": "1950s-2003",
+      "precision": "range",
+      "sort_start": "1950-01-01",
+      "sort_end": "2003-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_member_academy_of_sciences",
+    "source": "valentin_b_aleskovskii",
+    "type": "member_of",
+    "target": "academy_of_sciences_ussr",
+    "start": {
+      "display": "1972",
+      "precision": "year",
+      "sort_start": "1972-01-01",
+      "sort_end": "1972-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_member_supreme_soviet",
+    "source": "valentin_b_aleskovskii",
+    "type": "member_of",
+    "target": "supreme_soviet_russian_federation",
+    "start": {
+      "display": "circa 1970s-1980s",
+      "precision": "range",
+      "sort_start": "1970-01-01",
+      "sort_end": "1989-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_chairman_council_of_rectors",
+    "source": "valentin_b_aleskovskii",
+    "type": "member_of",
+    "target": "supreme_soviet_russian_federation",
+    "note": "Chairman of the Council of Rectors of Leningrad",
+    "start": {
+      "display": "circa 1970s-1980s",
+      "precision": "range",
+      "sort_start": "1970-01-01",
+      "sort_end": "1989-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_cofounded_leningrad_scientific_center",
+    "source": "valentin_b_aleskovskii",
+    "type": "founded",
+    "target": "leningrad_scientific_center",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_founded_chemistry_of_highly_organized_substances",
+    "source": "valentin_b_aleskovskii",
+    "type": "founded",
+    "target": "chemistry_of_highly_organized_substances",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_founded_inter_university_program",
+    "source": "valentin_b_aleskovskii",
+    "type": "founded",
+    "target": "inter_university_program_chemical_assembly",
+    "event_id": "inter_university_program_chemical_assembly_founded",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "suntola_invented_ale",
+    "source": "suntola_tuomo",
+    "type": "invented",
+    "target": "suntola_patent_1974",
+    "event_id": "suntola_patent_1974_filed",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_died_in_st_petersburg",
+    "source": "valentin_b_aleskovskii",
+    "type": "died_in",
+    "target": "st_petersburg_russia",
+    "event_id": "aleskovskii_death",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "id": "koltsov_died",
+    "source": "stanislav_i_koltsov",
+    "type": "died_in",
+    "target": "st_petersburg_russia",
+    "event_id": "koltsov_death",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "id": "drozd_worked_at_lti",
+    "source": "v_e_drozd",
+    "type": "worked_at",
+    "target": "leningrad_technological_institute",
+    "start": {
+      "display": "1974",
+      "precision": "year",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 12
+      }
+    ]
+  },
+  {
+    "id": "drozd_developed_vacuum_ml_reactor",
+    "source": "v_e_drozd",
+    "type": "developed",
+    "target": "molecular_layering_method",
+    "event_id": "drozd_first_vacuum_ml_reactor",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 12
+      }
+    ]
+  },
+  {
+    "id": "drozd_presented_at_first_ald_symposium",
+    "source": "v_e_drozd",
+    "type": "collaborated_with",
+    "target": "suntola_tuomo",
+    "event_id": "first_ald_symposium_1990",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 18
+      }
+    ]
+  },
+  {
+    "id": "suntola_presented_at_lsu",
+    "source": "suntola_tuomo",
+    "type": "met",
+    "target": "valentin_b_aleskovskii",
+    "event_id": "suntola_presentation_at_lsu",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 18
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_published_450_publications",
+    "source": "valentin_b_aleskovskii",
+    "type": "published",
+    "target": "stoichiometry_and_synthesis_of_solid_compounds",
+    "event_id": "aleskovskii_450_publications",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_published_chemistry_of_solids",
+    "source": "valentin_b_aleskovskii",
+    "type": "published",
+    "target": "chemistry_of_solids_textbook",
+    "event_id": "aleskovskii_chemistry_of_solids_textbook",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_published_chemistry_of_supramolecular_compounds",
+    "source": "valentin_b_aleskovskii",
+    "type": "published",
+    "target": "chemistry_of_supramolecular_compounds",
+    "event_id": "aleskovskii_chemistry_of_supramolecular_compounds",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_published_chemical_informational_synthesis",
+    "source": "valentin_b_aleskovskii",
+    "type": "published",
+    "target": "chemical_informational_synthesis",
+    "event_id": "aleskovskii_chemical_informational_synthesis",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "koltsov_published_silica_gel_monograph",
+    "source": "stanislav_i_koltsov",
+    "type": "published",
+    "target": "silica_gel_structure_and_chemical_properties",
+    "event_id": "koltsov_monograph_1963",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "koltsov_published_ml_dissertation",
+    "source": "stanislav_i_koltsov",
+    "type": "published",
+    "target": "synthesis_of_solids_by_ml_method",
+    "event_id": "koltsov_doctoral_dissertation_defense",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "koltsov_defined_ml_principles",
+    "source": "stanislav_i_koltsov",
+    "type": "developed",
+    "target": "molecular_layering_method",
+    "event_id": "ml_method_principles_defined",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 10
+      }
+    ]
+  },
+  {
+    "id": "smirnov_discovered_monolayer_effect",
+    "source": "v_m_smirnov",
+    "type": "invented",
+    "target": "molecular_layering_method",
+    "event_id": "monolayer_effect_discovered",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 13
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_worked_at_svetlana",
+    "source": "valentin_b_aleskovskii",
+    "type": "collaborated_with",
+    "target": "svetlana_organization",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 15
+      }
+    ]
+  },
+  {
+    "id": "drozd_developed_automated_ml_setup",
+    "source": "v_e_drozd",
+    "type": "developed",
+    "target": "molecular_layering_method",
+    "event_id": "drozd_automated_vacuum_ml_setup",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 16
+      }
+    ]
+  },
+  {
+    "id": "tolstoy_developed_ml_reactor_for_large_objects",
+    "source": "v_p_tolstoy",
+    "type": "developed",
+    "target": "molecular_layering_method",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 17
+      }
+    ]
+  },
+  {
+    "id": "dergachev_developed_fluidized_bed_ml_apparatus",
+    "source": "v_f_dergachev",
+    "type": "developed",
+    "target": "molecular_layering_method",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 17
+      }
+    ]
+  },
+  {
+    "id": "damyanov_collaborated_with_aleskovskii",
+    "source": "d_damyanov",
+    "type": "collaborated_with",
+    "target": "valentin_b_aleskovskii",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 18
+      }
+    ]
+  },
+  {
+    "id": "merrifield_parallel_work_on_solid_phase_synthesis",
+    "source": "r_b_merrifield",
+    "type": "developed",
+    "target": "molecular_layering_method",
+    "note": "Parallel work on solid-phase peptide synthesis",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 10
+      }
+    ]
+  },
+  {
+    "id": "keldysh_supported_ml_for_microelectronics",
+    "source": "m_v_keldysh",
+    "type": "collaborated_with",
+    "target": "valentin_b_aleskovskii",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 15
+      }
+    ]
+  },
+  {
+    "id": "kosygin_established_committee_for_ml",
+    "source": "n_a_kosygin",
+    "type": "collaborated_with",
+    "target": "valentin_b_aleskovskii",
+    "event_id": "kosygin_interest_in_ml",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "pravda_published_aleskovskii_article",
+    "source": "pravda_newspaper",
+    "type": "published",
+    "target": "valentin_b_aleskovskii",
+    "event_id": "aleskovskii_pravda_article_1977",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "alferov_headed_leningrad_scientific_center",
+    "source": "zhores_i_alferov",
+    "type": "worked_at",
+    "target": "leningrad_scientific_center",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "malygin_headed_cneem_department",
+    "source": "a_a_malygin",
+    "type": "worked_at",
+    "target": "department_of_chemistry_of_solids",
+    "note": "Head of Department of Chemical Nanotechnology and Electronics Engineering Materials",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 20
+      }
+    ]
+  },
+  {
+    "id": "smirnov_worked_at_spbsu",
+    "source": "v_m_smirnov",
+    "type": "worked_at",
+    "target": "leningrad_state_university",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 21
+      }
+    ]
+  },
+  {
+    "id": "malkov_worked_at_spbsti",
+    "source": "a_a_malkov",
+    "type": "worked_at",
+    "target": "leningrad_technological_institute",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 21
+      }
+    ]
+  },
+  {
+    "id": "alekhin_directed_ripp",
+    "source": "a_p_alekhin",
+    "type": "worked_at",
+    "target": "mipt",
+    "note": "Director of Research Institute of Physical Problems by N.F. Lukin",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 20
+      }
+    ]
+  },
+  {
+    "id": "ferry_watt_developed_ald_equipment",
+    "source": "ferry_watt_llc",
+    "type": "developed",
+    "target": "molecular_layering_method",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 20
+      }
+    ]
+  },
+  {
+    "id": "chemical_assembly_of_nanomaterials_produced_ml_materials",
+    "source": "chemical_assembly_of_nanomaterials_llc",
+    "type": "developed",
+    "target": "molecular_layering_method",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 20
+      }
+    ]
+  },
+  {
+    "id": "suntola_patent_related_to_ale",
+    "source": "suntola_patent_1974",
+    "type": "renamed_to",
+    "target": "molecular_layering_method",
+    "note": "ALE is a variant of ML",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 2
+      }
+    ]
+  }
+]

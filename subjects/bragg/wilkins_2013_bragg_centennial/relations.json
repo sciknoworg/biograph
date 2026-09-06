@@ -1,0 +1,108 @@
+[
+  {
+    "id": "bragg_worked_cavendish",
+    "source": "lawrence_bragg",
+    "type": "worked_at",
+    "target": "cavendish_laboratory",
+    "sources": [
+      {
+        "source_id": "wilkins_2013_bragg_centennial",
+        "page": 1,
+        "quote": "still a research student in the Cavendish Laboratory."
+      }
+    ]
+  },
+  {
+    "id": "bragg_collaborated_father",
+    "source": "lawrence_bragg",
+    "type": "collaborated_with",
+    "target": "william_henry_bragg",
+    "sources": [
+      {
+        "source_id": "wilkins_2013_bragg_centennial",
+        "page": 3,
+        "quote": "on which we worked together during the Xmas holidays of 1912–13."
+      }
+    ]
+  },
+  {
+    "id": "bragg_awarded_nobel",
+    "source": "lawrence_bragg",
+    "type": "awarded",
+    "target": "nobel_prize_physics",
+    "event_id": "bragg_nobel_1915",
+    "sources": [
+      {
+        "source_id": "wilkins_2013_bragg_centennial",
+        "page": 2,
+        "quote": "In 1915, Lawrence and his father were awarded the Nobel Prize for Physics."
+      }
+    ]
+  },
+  {
+    "id": "whb_awarded_nobel",
+    "source": "william_henry_bragg",
+    "type": "awarded",
+    "target": "nobel_prize_physics",
+    "event_id": "bragg_nobel_1915",
+    "sources": [
+      {
+        "source_id": "wilkins_2013_bragg_centennial",
+        "page": 2,
+        "quote": "In 1915, Lawrence and his father were awarded the Nobel Prize for Physics."
+      }
+    ]
+  },
+  {
+    "id": "bragg_member_iucr",
+    "source": "lawrence_bragg",
+    "type": "member_of",
+    "target": "international_union_of_crystallography",
+    "sources": [
+      {
+        "source_id": "wilkins_2013_bragg_centennial",
+        "page": 1,
+        "quote": "Lawrence Bragg also served as the inaugural President of the IUCr Executive Committee."
+      }
+    ]
+  },
+  {
+    "id": "whb_employed_leeds",
+    "source": "william_henry_bragg",
+    "type": "employed_by",
+    "target": "university_of_leeds",
+    "sources": [
+      {
+        "source_id": "wilkins_2013_bragg_centennial",
+        "page": 1,
+        "quote": "his father, William Henry Bragg (WHB), then Professor of Physics at Leeds"
+      }
+    ]
+  },
+  {
+    "id": "bragg_lived_adelaide",
+    "source": "lawrence_bragg",
+    "type": "lived_in",
+    "target": "adelaide",
+    "sources": [
+      {
+        "source_id": "wilkins_2013_bragg_centennial",
+        "page": 3,
+        "quote": "Adelaide (home to W . H. Bragg and family from 1886 to 1909)"
+      }
+    ]
+  },
+  {
+    "id": "whb_lived_adelaide",
+    "source": "william_henry_bragg",
+    "type": "lived_in",
+    "target": "adelaide",
+    "sources": [
+      {
+        "source_id": "wilkins_2013_bragg_centennial",
+        "page": 3,
+        "quote": "Adelaide (home to W . H. Bragg and family from 1886 to 1909)"
+      }
+    ]
+  }
+]

@@ -1,0 +1,455 @@
+[
+  {
+    "id": "aleskovskii_birth",
+    "event_type": "birth",
+    "label": "Born in Mary, Turkmenistan",
+    "date": {
+      "display": "June 3, 1912",
+      "precision": "day",
+      "sort_start": "1912-06-03",
+      "sort_end": "1912-06-03"
+    },
+    "location": "mary_turkmenistan",
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_admission_to_lti",
+    "event_type": "education",
+    "label": "Admitted to LTI by Lensovet",
+    "date": {
+      "display": "1931",
+      "precision": "year",
+      "sort_start": "1931-01-01",
+      "sort_end": "1931-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "student"
+      },
+      {
+        "entity_id": "lti_by_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_graduation_from_lti",
+    "event_type": "education",
+    "label": "Graduated from LTI by Lensovet",
+    "date": {
+      "display": "1937",
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1937-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "student"
+      },
+      {
+        "entity_id": "lti_by_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_employment_at_naval_institute",
+    "event_type": "employment_start",
+    "label": "Joined Naval Research Institute",
+    "date": {
+      "display": "1937",
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1937-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "research_fellow"
+      },
+      {
+        "entity_id": "naval_research_institute",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_graduate_studies_start",
+    "event_type": "education",
+    "label": "Started graduate studies at LTI",
+    "date": {
+      "display": "1938",
+      "precision": "year",
+      "sort_start": "1938-01-01",
+      "sort_end": "1938-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "student"
+      },
+      {
+        "entity_id": "lti_by_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_candidate_degree",
+    "event_type": "education",
+    "label": "Defended Candidate of Chemical Sciences degree",
+    "date": {
+      "display": "1940",
+      "precision": "year",
+      "sort_start": "1940-01-01",
+      "sort_end": "1940-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "student"
+      },
+      {
+        "entity_id": "lti_by_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_wwii_volunteer",
+    "event_type": "other",
+    "label": "Volunteered for World War II",
+    "date": {
+      "display": "June 1941",
+      "precision": "month",
+      "sort_start": "1941-06-01",
+      "sort_end": "1941-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_dept_head_analytical_chemistry",
+    "event_type": "employment_start",
+    "label": "Appointed Head of Analytical Chemistry Department",
+    "date": {
+      "display": "1949",
+      "precision": "year",
+      "sort_start": "1949-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "head"
+      },
+      {
+        "entity_id": "lti_by_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_doctoral_dissertation",
+    "event_type": "education",
+    "label": "Defended Doctoral Dissertation",
+    "date": {
+      "display": "1952",
+      "precision": "year",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "student"
+      },
+      {
+        "entity_id": "lti_by_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_acting_rector_lti",
+    "event_type": "employment_start",
+    "label": "Appointed Acting Rector of LTI",
+    "date": {
+      "display": "1965",
+      "precision": "year",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "rector"
+      },
+      {
+        "entity_id": "lti_by_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_founded_dept_chemistry_solids",
+    "event_type": "other",
+    "label": "Founded Department of Chemistry of Solids",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "founder"
+      },
+      {
+        "entity_id": "lti_by_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_elected_corresponding_member",
+    "event_type": "award",
+    "label": "Elected Corresponding Member of Academy of Sciences",
+    "date": {
+      "display": "1972",
+      "precision": "year",
+      "sort_start": "1972-01-01",
+      "sort_end": "1972-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "recipient"
+      },
+      {
+        "entity_id": "academy_of_sciences_of_the_ussr",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "ml_patent_application_declined",
+    "event_type": "patent_filed",
+    "label": "ML Patent Application Declined",
+    "date": {
+      "display": "April 07, 1971",
+      "precision": "day",
+      "sort_start": "1971-04-07",
+      "sort_end": "1971-04-07"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "koltsov_stanislav_ivanovich",
+        "role": "inventor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_appointed_rector_lsu",
+    "event_type": "employment_start",
+    "label": "Appointed Rector of Leningrad State University",
+    "date": {
+      "display": "1975",
+      "precision": "year",
+      "sort_start": "1975-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "rector"
+      },
+      {
+        "entity_id": "leningrad_state_university",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_organized_dept_solid_state_chemistry_lsu",
+    "event_type": "other",
+    "label": "Organized Department of Solid State Chemistry at LSU",
+    "date": {
+      "display": "1977",
+      "precision": "year",
+      "sort_start": "1977-01-01",
+      "sort_end": "1977-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "organizer"
+      },
+      {
+        "entity_id": "leningrad_state_university",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "chemical_assembly_program_founded",
+    "event_type": "other",
+    "label": "Founded Chemical Assembly of Materials Program",
+    "date": {
+      "display": "1978",
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "supervisor"
+      },
+      {
+        "entity_id": "leningrad_state_university",
+        "role": "institution"
+      },
+      {
+        "entity_id": "lti_by_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_death",
+    "event_type": "death",
+    "label": "Died in St. Petersburg",
+    "date": {
+      "display": "January 29, 2006",
+      "precision": "day",
+      "sort_start": "2006-01-29",
+      "sort_end": "2006-01-29"
+    },
+    "location": "st_petersburg",
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 6
+      }
+    ]
+  }
+]

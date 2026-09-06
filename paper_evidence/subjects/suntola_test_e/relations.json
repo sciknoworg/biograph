@@ -1,0 +1,93 @@
+[
+  {
+    "id": "born_in_tampere",
+    "source": "tuomo_suntola",
+    "type": "born_in",
+    "target": "tampere",
+    "event_id": "birth_1943",
+    "sources": [
+      {
+        "source_id": "essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "educated_at_hut",
+    "source": "tuomo_suntola",
+    "type": "studied_at",
+    "target": "helsinki_university_of_technology",
+    "event_id": "studies_start_1963",
+    "sources": [
+      {
+        "source_id": "essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "worked_at_instrumentarium",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "instrumentarium_oy",
+    "event_id": "ale_invention_june_1974",
+    "sources": [
+      {
+        "source_id": "essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "founded_microchemistry",
+    "source": "tuomo_suntola",
+    "type": "founded",
+    "target": "microchemistry_ltd",
+    "event_id": "microchemistry_founded_1987",
+    "sources": [
+      {
+        "source_id": "essay",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "id": "sold_to_asm",
+    "source": "microchemistry_ltd",
+    "type": "sold_to",
+    "target": "asm_microchemistry",
+    "event_id": "asm_acquisition_1999",
+    "sources": [
+      {
+        "source_id": "essay",
+        "page": 10
+      }
+    ]
+  },
+  {
+    "id": "invented_f120",
+    "source": "tuomo_suntola",
+    "type": "invented",
+    "target": "f120_reactor",
+    "event_id": "f120_developed_early_1990s",
+    "sources": [
+      {
+        "source_id": "essay",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "id": "awarded_semi_2004",
+    "source": "tuomo_suntola",
+    "type": "awarded",
+    "target": "semi_award_2004",
+    "event_id": "semi_award_2004",
+    "sources": [
+      {
+        "source_id": "essay",
+        "page": 13
+      }
+    ]
+  }
+]

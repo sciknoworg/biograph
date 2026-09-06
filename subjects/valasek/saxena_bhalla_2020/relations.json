@@ -1,0 +1,44 @@
+[
+  {
+    "id": "valasek_supervised_by_swann",
+    "source": "joseph_valasek",
+    "type": "supervised_by",
+    "target": "w_f_g_swann",
+    "event_id": "valasek_graduate_student_1920",
+    "sources": [
+      {
+        "source_id": "saxena_bhalla_2020",
+        "page": 3,
+        "quote": "by then a graduate student Joseph Valasek working under the supervision of Prof. W. F. G. Swann."
+      }
+    ]
+  },
+  {
+    "id": "valasek_studied_at_minnesota",
+    "source": "joseph_valasek",
+    "type": "studied_at",
+    "target": "university_of_minnesota",
+    "event_id": "valasek_graduate_student_1920",
+    "sources": [
+      {
+        "source_id": "saxena_bhalla_2020",
+        "page": 3,
+        "quote": "at the University of Minnesota, MN, USA; by then a graduate student Joseph Valasek"
+      }
+    ]
+  },
+  {
+    "id": "valasek_published_physical_review",
+    "source": "joseph_valasek",
+    "type": "published",
+    "target": "physical_review",
+    "event_id": "valasek_paper_publication_1921",
+    "sources": [
+      {
+        "source_id": "saxena_bhalla_2020",
+        "page": 3,
+        "quote": "and that appeared in April 1921 (Piezoelectric and allied phenomena in Rochelle salt, Phys. Rev. 17, 475-481, 1921)."
+      }
+    ]
+  }
+]

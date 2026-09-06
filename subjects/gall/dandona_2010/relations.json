@@ -1,0 +1,93 @@
+[
+  {
+    "id": "galle_born_nancy",
+    "source": "emile_galle",
+    "type": "born_in",
+    "target": "nancy",
+    "sources": [
+      {
+        "source_id": "dandona_2010",
+        "page": 1,
+        "quote": "Gallé was born in Nancy, in the province of Lorraine, in 1846."
+      }
+    ]
+  },
+  {
+    "id": "galle_worked_galle_reinemer",
+    "source": "emile_galle",
+    "type": "worked_at",
+    "target": "galle_reinemer",
+    "sources": [
+      {
+        "source_id": "dandona_2010",
+        "page": 1,
+        "quote": "Gallé was made artistic director of his father's workshops"
+      }
+    ]
+  },
+  {
+    "id": "galle_collaborated_prouve",
+    "source": "emile_galle",
+    "type": "collaborated_with",
+    "target": "victor_prouve",
+    "sources": [
+      {
+        "source_id": "dandona_2010",
+        "page": 8,
+        "quote": "Prouvé's friendship with Gallé was of long standing."
+      }
+    ]
+  },
+  {
+    "id": "galle_founded_ecole",
+    "source": "emile_galle",
+    "type": "founded",
+    "target": "ecole_de_nancy",
+    "sources": [
+      {
+        "source_id": "dandona_2010",
+        "page": 1,
+        "quote": "Gallé's role as the founder of the École de Nancy"
+      }
+    ]
+  },
+  {
+    "id": "galle_invented_le_rhin",
+    "source": "emile_galle",
+    "type": "invented",
+    "target": "le_rhin",
+    "sources": [
+      {
+        "source_id": "dandona_2010",
+        "page": 1,
+        "quote": "This wound was Émile Gallé's monumental table Le Rhin"
+      }
+    ]
+  },
+  {
+    "id": "galle_studied_lycee",
+    "source": "emile_galle",
+    "type": "studied_at",
+    "target": "lycee_imperial_nancy",
+    "sources": [
+      {
+        "source_id": "dandona_2010",
+        "page": 1,
+        "quote": "The young Émile Gallé studied at the Lycée impérial in Nancy beginning in 1858"
+      }
+    ]
+  },
+  {
+    "id": "galle_studied_academie",
+    "source": "emile_galle",
+    "type": "studied_at",
+    "target": "academie_de_nancy",
+    "sources": [
+      {
+        "source_id": "dandona_2010",
+        "page": 1,
+        "quote": "and then at the Académie de Nancy starting in 1865."
+      }
+    ]
+  }
+]

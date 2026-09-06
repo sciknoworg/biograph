@@ -1,0 +1,248 @@
+[
+  {
+    "id": "enzo_ferroni",
+    "entity_type": "person",
+    "name": "Enzo Ferroni",
+    "aliases": [
+      "Ferroni"
+    ],
+    "summary": "Italian physical chemist known for founding the school of colloids and surfaces in Italy and developing chemistry for cultural heritage conservation.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "luigi_dei",
+    "entity_type": "person",
+    "name": "Luigi Dei",
+    "aliases": [
+      "Dei"
+    ],
+    "summary": "Author of the source document and chemist at the University of Florence.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "giorgio_piccardi",
+    "entity_type": "person",
+    "name": "Giorgio Piccardi",
+    "aliases": [
+      "Piccardi"
+    ],
+    "summary": "Italian scientist and holder of the chair of physical chemistry at the University of Florence.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "raymond_defay",
+    "entity_type": "person",
+    "name": "Raymond Defay",
+    "aliases": [
+      "Defay"
+    ],
+    "summary": "Scientist at the Université Libre de Bruxelles who collaborated with Ferroni on surface tensions.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "ilya_prigogine",
+    "entity_type": "person",
+    "name": "Ilya Prigogine",
+    "aliases": [
+      "Prigogine"
+    ],
+    "summary": "Nobel laureate and scientist at the Université Libre de Bruxelles who collaborated with Ferroni.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "giulio_natta",
+    "entity_type": "person",
+    "name": "Giulio Natta",
+    "aliases": [
+      "Natta"
+    ],
+    "summary": "Nobel laureate in chemistry who corresponded and collaborated with Ferroni on polymers.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "enzo_tiezzi",
+    "entity_type": "person",
+    "name": "Enzo Tiezzi",
+    "aliases": [
+      "Tiezzi"
+    ],
+    "summary": "Pupil of Ferroni who became a full professor in physical chemistry at the University of Siena.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "gianfranco_rovida",
+    "entity_type": "person",
+    "name": "Gianfranco Rovida",
+    "aliases": [
+      "Rovida"
+    ],
+    "summary": "Pupil of Ferroni who worked on surface diffraction techniques.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "piero_baglioni",
+    "entity_type": "person",
+    "name": "Piero Baglioni",
+    "aliases": [
+      "Baglioni"
+    ],
+    "summary": "Pupil of Ferroni and long-time director of the CSGI.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "leo_burlamacchi",
+    "entity_type": "person",
+    "name": "Leo Burlamacchi",
+    "aliases": [
+      "Burlamacchi"
+    ],
+    "summary": "Researcher hired by Ferroni to pioneer EPR/ESR techniques in Florence.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "dino_dini",
+    "entity_type": "person",
+    "name": "Dino Dini",
+    "aliases": [
+      "Dini"
+    ],
+    "summary": "Restorer who applied Ferroni's chemical methods to rescue frescoes.",
+    "subtype": "conservator"
+  },
+  {
+    "id": "university_of_florence",
+    "entity_type": "organization",
+    "name": "University of Florence",
+    "aliases": [
+      "Università degli Studi di Firenze"
+    ],
+    "summary": "Italian university where Ferroni studied and later served as professor and Rector.",
+    "subtype": "university"
+  },
+  {
+    "id": "university_of_cagliari",
+    "entity_type": "organization",
+    "name": "University of Cagliari",
+    "aliases": [],
+    "summary": "Italian university where Ferroni held the chair of physical chemistry from 1961 to 1965.",
+    "subtype": "university"
+  },
+  {
+    "id": "universite_libre_de_bruxelles",
+    "entity_type": "organization",
+    "name": "Université Libre de Bruxelles",
+    "aliases": [],
+    "summary": "Belgian university where Defay and Prigogine worked and collaborated with Ferroni.",
+    "subtype": "university"
+  },
+  {
+    "id": "csgi",
+    "entity_type": "organization",
+    "name": "Consorzio interuniversitario per lo sviluppo dei Sistemi a Grande Interfase",
+    "aliases": [
+      "CSGI",
+      "Italian Centre for Colloids and Surfaces"
+    ],
+    "summary": "National Centre for Colloids and Surfaces founded in 1993 with Ferroni as President.",
+    "subtype": "consortium"
+  },
+  {
+    "id": "snamprogetti",
+    "entity_type": "organization",
+    "name": "SnamProgetti",
+    "aliases": [],
+    "summary": "Italian entity operating in fuels and energy that partnered with Ferroni on coal slurries.",
+    "subtype": "company"
+  },
+  {
+    "id": "tecnotessile",
+    "entity_type": "organization",
+    "name": "Tecnotessile",
+    "aliases": [],
+    "summary": "Technology Centre in Prato where Ferroni served as President from its inception in 1972.",
+    "subtype": "company"
+  },
+  {
+    "id": "florence",
+    "entity_type": "place",
+    "name": "Florence",
+    "aliases": [
+      "Firenze"
+    ],
+    "summary": "Italian city where Ferroni was born and spent most of his career.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Italy"
+    }
+  },
+  {
+    "id": "cagliari",
+    "entity_type": "place",
+    "name": "Cagliari",
+    "aliases": [],
+    "summary": "Italian city where Ferroni worked as a professor from 1961 to 1965.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Italy"
+    }
+  },
+  {
+    "id": "brussels",
+    "entity_type": "place",
+    "name": "Brussels",
+    "aliases": [],
+    "summary": "City where Ferroni spent time at laboratories of Defay and Prigogine.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Belgium"
+    }
+  },
+  {
+    "id": "ferroni_dini_method",
+    "entity_type": "artifact",
+    "name": "Ferroni-Dini method",
+    "aliases": [],
+    "summary": "Chemical treatment for wall painting conservation developed by Ferroni and Dini.",
+    "subtype": "method"
+  },
+  {
+    "id": "thesis_1945",
+    "entity_type": "artifact",
+    "name": "Recent advances and opinions on chemical kinetics",
+    "aliases": [],
+    "summary": "Title of Ferroni's chemistry master's thesis defended in 1945.",
+    "subtype": "publication"
+  },
+  {
+    "id": "patent_1948",
+    "entity_type": "artifact",
+    "name": "Italian Patent 431,736",
+    "aliases": [],
+    "summary": "Patent deposited by Ferroni in 1948 for a thermosetting powder.",
+    "subtype": "patent"
+  },
+  {
+    "id": "gold_medal_1967",
+    "entity_type": "artifact",
+    "name": "Gold Medal by the Italian Ministry of the Public Education",
+    "aliases": [],
+    "summary": "Award received by Ferroni in 1967 for collaboration in preservation of artistic heritage.",
+    "subtype": "award"
+  },
+  {
+    "id": "grande_ufficiale_1977",
+    "entity_type": "artifact",
+    "name": "Grande Ufficiale dell'Ordine",
+    "aliases": [],
+    "summary": "Title designated to Ferroni in 1977 by the President of the Italian Republic.",
+    "subtype": "award"
+  },
+  {
+    "id": "officier_1979",
+    "entity_type": "artifact",
+    "name": "Officier de l'Ordre National du Mérite",
+    "aliases": [],
+    "summary": "Title granted to Ferroni in 1979 by the President of the French Republic.",
+    "subtype": "award"
+  }
+]

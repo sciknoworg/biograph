@@ -1,0 +1,94 @@
+[
+  {
+    "id": "tuomo_suntola",
+    "entity_type": "person",
+    "name": "Tuomo Suntola",
+    "aliases": [
+      "Dr. Tuomo Suntola"
+    ],
+    "summary": "Finnish inventor and pioneer of atomic layer epitaxy (later atomic layer deposition).",
+    "subtype": "researcher"
+  },
+  {
+    "id": "thor_stubb",
+    "entity_type": "person",
+    "name": "Thor Stubb",
+    "summary": "Professor at Helsinki University of Technology who supervised Suntola’s early work.",
+    "subtype": "professor"
+  },
+  {
+    "id": "instrumentarium_oy",
+    "entity_type": "organization",
+    "name": "Instrumentarium Oy",
+    "summary": "Finnish medical‑instrument company that funded the early ALE research.",
+    "subtype": "company"
+  },
+  {
+    "id": "lohja_oy",
+    "entity_type": "organization",
+    "name": "Lohja Oy",
+    "summary": "Building‑material company that took over the ALE‑EL project in 1978.",
+    "subtype": "company"
+  },
+  {
+    "id": "microchemistry_ltd",
+    "entity_type": "organization",
+    "name": "Microchemistry Ltd.",
+    "summary": "Spin‑off company founded in 1987 to develop ALE for solar cells and catalysis.",
+    "subtype": "company"
+  },
+  {
+    "id": "asm_microchemistry",
+    "entity_type": "organization",
+    "name": "ASM Microchemistry",
+    "summary": "Dutch company that acquired Microchemistry Ltd. in 1999.",
+    "subtype": "company"
+  },
+  {
+    "id": "picosun_oy",
+    "entity_type": "organization",
+    "name": "Picosun Oy",
+    "summary": "Finnish ALE‑reactor company co‑founded by former Microchemistry staff.",
+    "subtype": "company"
+  },
+  {
+    "id": "beneq_oy",
+    "entity_type": "organization",
+    "name": "Beneq Oy",
+    "summary": "Company that continued ALE‑EL production after Planar’s acquisition.",
+    "subtype": "company"
+  },
+  {
+    "id": "ale_patent_1974",
+    "entity_type": "artifact",
+    "name": "International patent FIN 52359 (ALE)",
+    "summary": "First patent covering atomic layer epitaxy, filed 29 Nov 1974.",
+    "subtype": "patent"
+  },
+  {
+    "id": "f120_reactor",
+    "entity_type": "artifact",
+    "name": "F‑120 reactor",
+    "summary": "Compact ALE reactor developed in the early 1990s, the first commercial ALD reactor.",
+    "subtype": "reactor"
+  },
+  {
+    "id": "tampere",
+    "entity_type": "place",
+    "name": "Tampere, Finland",
+    "summary": "Birthplace of Tuomo Suntola."
+  },
+  {
+    "id": "helsinki_university_of_technology",
+    "entity_type": "organization",
+    "name": "Helsinki University of Technology",
+    "summary": "University where Suntola studied electrical engineering and earned his doctorate.",
+    "subtype": "university"
+  },
+  {
+    "id": "sid_conference_1980",
+    "entity_type": "event",
+    "name": "SID conference, San Diego 1980",
+    "summary": "First public demonstration of ALE‑EL displays."
+  }
+]

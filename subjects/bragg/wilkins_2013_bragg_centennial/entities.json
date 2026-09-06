@@ -1,0 +1,108 @@
+[
+  {
+    "id": "lawrence_bragg",
+    "entity_type": "person",
+    "name": "William Lawrence Bragg",
+    "aliases": [
+      "WLB",
+      "Lawrence Bragg",
+      "Sir Lawrence Bragg"
+    ],
+    "summary": "British physicist and X-ray crystallography pioneer.",
+    "subtype": "physicist"
+  },
+  {
+    "id": "william_henry_bragg",
+    "entity_type": "person",
+    "name": "William Henry Bragg",
+    "aliases": [
+      "WHB",
+      "William Bragg"
+    ],
+    "summary": "British physicist and father of Lawrence Bragg.",
+    "subtype": "physicist"
+  },
+  {
+    "id": "cavendish_laboratory",
+    "entity_type": "organization",
+    "name": "Cavendish Laboratory",
+    "summary": "Physics laboratory at the University of Cambridge.",
+    "subtype": "lab"
+  },
+  {
+    "id": "university_of_leeds",
+    "entity_type": "organization",
+    "name": "University of Leeds",
+    "summary": "University where William Henry Bragg was Professor of Physics.",
+    "subtype": "university"
+  },
+  {
+    "id": "cambridge_philosophical_society",
+    "entity_type": "organization",
+    "name": "Cambridge Philosophical Society",
+    "summary": "Scientific society at the University of Cambridge.",
+    "subtype": "society"
+  },
+  {
+    "id": "international_union_of_crystallography",
+    "entity_type": "organization",
+    "name": "International Union of Crystallography",
+    "aliases": [
+      "IUCr"
+    ],
+    "summary": "International scientific union for crystallography.",
+    "subtype": "society"
+  },
+  {
+    "id": "acta_crystallographica",
+    "entity_type": "artifact",
+    "name": "Acta Crystallographica",
+    "summary": "Scientific journal published by the IUCr.",
+    "subtype": "publication"
+  },
+  {
+    "id": "nobel_prize_physics",
+    "entity_type": "artifact",
+    "name": "Nobel Prize for Physics",
+    "summary": "Prestigious international award for physics.",
+    "subtype": "award"
+  },
+  {
+    "id": "adelaide",
+    "entity_type": "place",
+    "name": "Adelaide",
+    "summary": "City in Australia where the Bragg family lived from 1886 to 1909.",
+    "subtype": "city"
+  },
+  {
+    "id": "yorkshire",
+    "entity_type": "place",
+    "name": "Yorkshire",
+    "summary": "Coastal region in England where the Braggs vacationed.",
+    "subtype": "region"
+  },
+  {
+    "id": "zinc_blende",
+    "entity_type": "artifact",
+    "name": "zinc blende",
+    "summary": "Crystal structure solved by Lawrence Bragg in 1912.",
+    "subtype": "material"
+  },
+  {
+    "id": "scanz",
+    "entity_type": "organization",
+    "name": "Society of Crystallographers in Australia and New Zealand",
+    "aliases": [
+      "SCANZ"
+    ],
+    "summary": "Professional society for crystallographers in Australia and New Zealand.",
+    "subtype": "society"
+  },
+  {
+    "id": "lawrence_bragg_medal",
+    "entity_type": "artifact",
+    "name": "Lawrence Bragg Medal",
+    "summary": "Medal awarded by SCANZ for outstanding achievements in crystallography.",
+    "subtype": "award"
+  }
+]

@@ -1,0 +1,1246 @@
+[
+  {
+    "id": "suntola_born_in_tampere",
+    "source": "tuomo_suntola",
+    "type": "born_in",
+    "target": "tampere",
+    "event_id": "suntola_born_1943",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 333
+      }
+    ]
+  },
+  {
+    "id": "suntola_studied_at_hut",
+    "source": "tuomo_suntola",
+    "type": "studied_at",
+    "target": "hut",
+    "event_id": "hut_studies_start_1963",
+    "start": {
+      "precision": "year",
+      "sort_start": "1963-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "end": {
+      "precision": "month",
+      "sort_start": "1971-12-01",
+      "sort_end": "1971-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 333
+      }
+    ]
+  },
+  {
+    "id": "suntola_supervised_by_stubb",
+    "source": "tuomo_suntola",
+    "type": "supervised_by",
+    "target": "thor_stubb",
+    "event_id": "doctorate_dec_1971",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 333
+      }
+    ]
+  },
+  {
+    "id": "suntola_worked_at_vtt_semiconductor_lab",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "vtt_semiconductor_laboratory",
+    "event_id": "vaisala_humidity_sensor_assignment_1971",
+    "end": {
+      "precision": "range",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-03-31"
+    },
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 333
+      }
+    ]
+  },
+  {
+    "id": "suntola_collaborated_with_antson",
+    "source": "tuomo_suntola",
+    "type": "collaborated_with",
+    "target": "jorma_antson",
+    "event_id": "humidity_sensor_completed_1973",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 333
+      }
+    ]
+  },
+  {
+    "id": "suntola_invented_humicap",
+    "source": "tuomo_suntola",
+    "type": "invented",
+    "target": "humicap",
+    "event_id": "humidity_sensor_completed_1973",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 333
+      }
+    ]
+  },
+  {
+    "id": "suntola_patented_humidity_sensor",
+    "source": "tuomo_suntola",
+    "type": "patented",
+    "target": "humidity_sensor_patent",
+    "event_id": "humidity_patent_filed_1972",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 344
+      }
+    ]
+  },
+  {
+    "id": "humicap_licensed_to_vaisala",
+    "source": "humicap",
+    "type": "licensed_to",
+    "target": "vaisala",
+    "note": "Vaisala's instruments using the Humicap sensor are based on Suntola's original patent.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 333
+      }
+    ]
+  },
+  {
+    "id": "suntola_worked_at_tut",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "tut",
+    "event_id": "tut_docent_lectures_1973",
+    "note": "Docent lecturing on semiconductor physics.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 342
+      }
+    ]
+  },
+  {
+    "id": "suntola_worked_at_insko",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "insko",
+    "note": "Active lecturer on display technologies.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 333
+      }
+    ]
+  },
+  {
+    "id": "suntola_worked_at_instrumentarium",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "instrumentarium",
+    "event_id": "move_to_instrumentarium_1974",
+    "start": {
+      "precision": "range",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-03-31"
+    },
+    "end": {
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 334
+      }
+    ]
+  },
+  {
+    "id": "datex_founded_by_instrumentarium",
+    "source": "instrumentarium",
+    "type": "founded",
+    "target": "datex",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 333
+      }
+    ]
+  },
+  {
+    "id": "suntola_invented_ale",
+    "source": "tuomo_suntola",
+    "type": "invented",
+    "target": "ale",
+    "event_id": "ale_invention_june_1974",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 334
+      }
+    ]
+  },
+  {
+    "id": "suntola_developed_first_reactor",
+    "source": "tuomo_suntola",
+    "type": "developed",
+    "target": "first_ale_reactor",
+    "event_id": "first_reactor_design_1974",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 335
+      }
+    ]
+  },
+  {
+    "id": "suntola_patented_ale_1974",
+    "source": "tuomo_suntola",
+    "type": "patented",
+    "target": "ale_patent_1974",
+    "event_id": "ale_patent_filed_1974",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 335
+      }
+    ]
+  },
+  {
+    "id": "antson_patented_ale_1974",
+    "source": "jorma_antson",
+    "type": "patented",
+    "target": "ale_patent_1974",
+    "event_id": "ale_patent_filed_1974",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 344
+      }
+    ]
+  },
+  {
+    "id": "suntola_worked_at_lohja",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "lohja_oy",
+    "event_id": "ale_el_project_sold_to_lohja_1978",
+    "start": {
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "end": {
+      "precision": "year",
+      "sort_start": "1987-01-01",
+      "sort_end": "1987-12-31"
+    },
+    "note": "Later Chief Scientist with mandate to find new ALE applications.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 335
+      },
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 337
+      }
+    ]
+  },
+  {
+    "id": "suntola_collaborated_with_lindfors",
+    "source": "tuomo_suntola",
+    "type": "collaborated_with",
+    "target": "sven_lindfors",
+    "start": {
+      "precision": "year",
+      "sort_start": "1975-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "note": "Closest co-worker in ALE reactor design since 1975.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 341
+      }
+    ]
+  },
+  {
+    "id": "suntola_collaborated_with_pakkala",
+    "source": "tuomo_suntola",
+    "type": "collaborated_with",
+    "target": "arto_pakkala",
+    "event_id": "zncl2_h2s_process_success_1978",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 336
+      }
+    ]
+  },
+  {
+    "id": "suntola_developed_inert_gas_reactor",
+    "source": "tuomo_suntola",
+    "type": "developed",
+    "target": "inert_gas_reactor",
+    "event_id": "second_ale_patent_filed_1979",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 336
+      }
+    ]
+  },
+  {
+    "id": "suntola_patented_ale_1979",
+    "source": "tuomo_suntola",
+    "type": "patented",
+    "target": "ale_patent_1979",
+    "event_id": "second_ale_patent_filed_1979",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 336
+      }
+    ]
+  },
+  {
+    "id": "pakkala_patented_ale_1979",
+    "source": "arto_pakkala",
+    "type": "patented",
+    "target": "ale_patent_1979",
+    "event_id": "second_ale_patent_filed_1979",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 344
+      }
+    ]
+  },
+  {
+    "id": "lindfors_patented_ale_1979",
+    "source": "sven_lindfors",
+    "type": "patented",
+    "target": "ale_patent_1979",
+    "event_id": "second_ale_patent_filed_1979",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 344
+      }
+    ]
+  },
+  {
+    "id": "suntola_published_sid_1980",
+    "source": "tuomo_suntola",
+    "type": "published",
+    "target": "sid_1980_paper",
+    "event_id": "sid_conference_1980",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 344
+      }
+    ]
+  },
+  {
+    "id": "suntola_awarded_sid_paper_award",
+    "source": "tuomo_suntola",
+    "type": "awarded",
+    "target": "sid_outstanding_paper_award",
+    "event_id": "sid_outstanding_paper_award_1981",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 337
+      }
+    ]
+  },
+  {
+    "id": "suntola_collaborated_with_niinisto",
+    "source": "tuomo_suntola",
+    "type": "collaborated_with",
+    "target": "lauri_niinisto",
+    "event_id": "niinisto_contact_late_1970s",
+    "note": "Fruitful, long-lasting co-operation on ALE chemistry and luminescent materials.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 342
+      }
+    ]
+  },
+  {
+    "id": "suntola_collaborated_with_pakkanen",
+    "source": "tuomo_suntola",
+    "type": "collaborated_with",
+    "target": "tapani_pakkanen",
+    "note": "Quantum chemical analysis of ZnS ALE growth with University of Joensuu.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 342
+      }
+    ]
+  },
+  {
+    "id": "pakkanen_worked_at_joensuu",
+    "source": "tapani_pakkanen",
+    "type": "worked_at",
+    "target": "university_of_joensuu",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 342
+      }
+    ]
+  },
+  {
+    "id": "niinisto_worked_at_hut",
+    "source": "lauri_niinisto",
+    "type": "worked_at",
+    "target": "hut",
+    "note": "Professor of inorganic and analytical chemistry.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 342
+      }
+    ]
+  },
+  {
+    "id": "pessa_worked_at_tut",
+    "source": "markus_pessa",
+    "type": "worked_at",
+    "target": "tut",
+    "event_id": "pessa_tut_professor_1978",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 342
+      }
+    ]
+  },
+  {
+    "id": "suntola_met_nishizawa",
+    "source": "tuomo_suntola",
+    "type": "met",
+    "target": "jun_ichi_nishizawa",
+    "event_id": "icvge5_1981",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 341
+      }
+    ]
+  },
+  {
+    "id": "nishizawa_developed_mle",
+    "source": "jun_ichi_nishizawa",
+    "type": "developed",
+    "target": "mle",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 341
+      }
+    ]
+  },
+  {
+    "id": "bedair_worked_at_ncsu",
+    "source": "salah_bedair",
+    "type": "worked_at",
+    "target": "ncsu",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 341
+      }
+    ]
+  },
+  {
+    "id": "denbaars_worked_at_usc",
+    "source": "denbaars",
+    "type": "worked_at",
+    "target": "usc",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 342
+      }
+    ]
+  },
+  {
+    "id": "suntola_patented_lcd",
+    "source": "tuomo_suntola",
+    "type": "patented",
+    "target": "lcd_patent",
+    "event_id": "lcd_patent_filed_1985",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 343
+      }
+    ]
+  },
+  {
+    "id": "piippo_worked_at_lohja",
+    "source": "antti_piippo",
+    "type": "worked_at",
+    "target": "lohja_oy",
+    "event_id": "piippo_joins_lohja_1985",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 337
+      }
+    ]
+  },
+  {
+    "id": "aintila_worked_at_lohja",
+    "source": "ahti_aintila",
+    "type": "worked_at",
+    "target": "lohja_oy",
+    "event_id": "aintila_left_lohja_1984",
+    "end": {
+      "precision": "range",
+      "sort_start": "1984-09-01",
+      "sort_end": "1984-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 338
+      }
+    ]
+  },
+  {
+    "id": "aintila_founded_picopack",
+    "source": "ahti_aintila",
+    "type": "founded",
+    "target": "picopack",
+    "event_id": "picopack_founded_1991",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 338
+      }
+    ]
+  },
+  {
+    "id": "strom_worked_at_finlux",
+    "source": "ulf_strom",
+    "type": "worked_at",
+    "target": "finlux",
+    "note": "Managing director.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 338
+      }
+    ]
+  },
+  {
+    "id": "ale_el_licensed_to_sintra_alcatel",
+    "source": "ale_el_display",
+    "type": "licensed_to",
+    "target": "sintra_alcatel",
+    "event_id": "france_license_1983",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 343
+      }
+    ]
+  },
+  {
+    "id": "lohja_el_sold_to_planar",
+    "source": "lohja_oy",
+    "type": "sold_to",
+    "target": "planar",
+    "event_id": "lohja_el_sold_to_planar_1990",
+    "note": "EL business only.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 338
+      }
+    ]
+  },
+  {
+    "id": "elcoteq_founded_from_lohja",
+    "source": "lohja_oy",
+    "type": "founded",
+    "target": "elcoteq",
+    "event_id": "elcoteq_separated_1990",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 338
+      }
+    ]
+  },
+  {
+    "id": "alvesalo_worked_at_naps",
+    "source": "tapio_alvesalo",
+    "type": "worked_at",
+    "target": "naps",
+    "note": "Head of the venture team.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 339
+      }
+    ]
+  },
+  {
+    "id": "neste_founded_naps",
+    "source": "neste",
+    "type": "founded",
+    "target": "naps",
+    "start": {
+      "display": "mid-1980s",
+      "precision": "range",
+      "sort_start": "1984-01-01",
+      "sort_end": "1986-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 338
+      }
+    ]
+  },
+  {
+    "id": "suntola_founded_microchemistry",
+    "source": "tuomo_suntola",
+    "type": "founded",
+    "target": "microchemistry",
+    "event_id": "microchemistry_founded_1987",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 339
+      }
+    ]
+  },
+  {
+    "id": "suntola_worked_at_microchemistry",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "microchemistry",
+    "event_id": "microchemistry_founded_1987",
+    "start": {
+      "precision": "year",
+      "sort_start": "1987-01-01",
+      "sort_end": "1987-12-31"
+    },
+    "end": {
+      "precision": "range",
+      "sort_start": "1998-01-01",
+      "sort_end": "1998-03-31"
+    },
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 339
+      },
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 343
+      }
+    ]
+  },
+  {
+    "id": "microchemistry_member_of_neste",
+    "source": "microchemistry",
+    "type": "member_of",
+    "target": "neste",
+    "note": "Subsidiary; 80% Neste / 20% Lohja at founding, fully Neste from 1990.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 339
+      }
+    ]
+  },
+  {
+    "id": "ale_patents_licensed_to_microchemistry",
+    "source": "ale_patent_1979",
+    "type": "licensed_to",
+    "target": "microchemistry",
+    "note": "Lohja's ALE patents licensed for PV and catalyst applications, extended in 1990 to ALE reactors and non-EL uses.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 339
+      }
+    ]
+  },
+  {
+    "id": "suntola_developed_f120",
+    "source": "tuomo_suntola",
+    "type": "developed",
+    "target": "f120_reactor",
+    "event_id": "f120_reactor_designed",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 339
+      }
+    ]
+  },
+  {
+    "id": "lindfors_developed_f120",
+    "source": "sven_lindfors",
+    "type": "developed",
+    "target": "f120_reactor",
+    "event_id": "f120_reactor_designed",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 339
+      }
+    ]
+  },
+  {
+    "id": "microchemistry_developed_f450",
+    "source": "microchemistry",
+    "type": "developed",
+    "target": "f450_reactor",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 340
+      }
+    ]
+  },
+  {
+    "id": "microchemistry_developed_f1000",
+    "source": "microchemistry",
+    "type": "developed",
+    "target": "f1000_reactor",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 341
+      }
+    ]
+  },
+  {
+    "id": "hyvarinen_worked_at_microchemistry",
+    "source": "jaakko_hyvarinen",
+    "type": "worked_at",
+    "target": "microchemistry",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 339
+      }
+    ]
+  },
+  {
+    "id": "hyvarinen_developed_quicksun",
+    "source": "jaakko_hyvarinen",
+    "type": "developed",
+    "target": "quicksun",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 339
+      }
+    ]
+  },
+  {
+    "id": "hyvarinen_founded_endeas",
+    "source": "jaakko_hyvarinen",
+    "type": "founded",
+    "target": "endeas",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 339
+      }
+    ]
+  },
+  {
+    "id": "rautiainen_worked_at_microchemistry",
+    "source": "aimo_rautiainen",
+    "type": "worked_at",
+    "target": "microchemistry",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 339
+      }
+    ]
+  },
+  {
+    "id": "lakomaa_worked_at_microchemistry",
+    "source": "eeva_liisa_lakomaa",
+    "type": "worked_at",
+    "target": "microchemistry",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 339
+      }
+    ]
+  },
+  {
+    "id": "lindblad_worked_at_microchemistry",
+    "source": "marina_lindblad",
+    "type": "worked_at",
+    "target": "microchemistry",
+    "event_id": "lindblad_thesis_1992",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 342
+      }
+    ]
+  },
+  {
+    "id": "suntola_published_review_1989",
+    "source": "tuomo_suntola",
+    "type": "published",
+    "target": "review_1989",
+    "event_id": "review_paper_1989",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 344
+      }
+    ]
+  },
+  {
+    "id": "suntola_visited_leningrad",
+    "source": "tuomo_suntola",
+    "type": "visited",
+    "target": "leningrad",
+    "event_id": "leningrad_visit_1990",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 342
+      }
+    ]
+  },
+  {
+    "id": "suntola_met_aleskovskii",
+    "source": "tuomo_suntola",
+    "type": "met",
+    "target": "aleskovskii",
+    "event_id": "leningrad_visit_1990",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 342
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_worked_at_leningrad",
+    "source": "aleskovskii",
+    "type": "worked_at",
+    "target": "university_of_leningrad",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 342
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_developed_ml",
+    "source": "aleskovskii",
+    "type": "developed",
+    "target": "molecular_layering",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 332
+      }
+    ]
+  },
+  {
+    "id": "koltsov_developed_ml",
+    "source": "koltsov",
+    "type": "developed",
+    "target": "molecular_layering",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 332
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_published_ml_1965",
+    "source": "aleskovskii",
+    "type": "published",
+    "target": "ml_1965_abstract",
+    "start": {
+      "precision": "year",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 344
+      }
+    ]
+  },
+  {
+    "id": "suntola_worked_at_neste",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "neste",
+    "event_id": "microchemistry_refocus_1997",
+    "note": "Research Fellow; continued in Fortum after Neste–IVO fusion.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 340
+      },
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 343
+      }
+    ]
+  },
+  {
+    "id": "neste_renamed_to_fortum",
+    "source": "neste",
+    "type": "renamed_to",
+    "target": "fortum",
+    "note": "Fusion of state oil company Neste and electric utility IVO.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 343
+      }
+    ]
+  },
+  {
+    "id": "suntola_worked_at_fortum",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "fortum",
+    "end": {
+      "precision": "range",
+      "sort_start": "2004-01-01",
+      "sort_end": "2004-03-31"
+    },
+    "note": "Research fellow on long-term research and global energy issues.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 343
+      }
+    ]
+  },
+  {
+    "id": "suntola_member_of_wec",
+    "source": "tuomo_suntola",
+    "type": "member_of",
+    "target": "world_energy_council",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 343
+      }
+    ]
+  },
+  {
+    "id": "suntola_worked_at_fortum_foundation",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "fortum_foundation",
+    "note": "Served as attorney until part-time retirement.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 343
+      }
+    ]
+  },
+  {
+    "id": "ervasti_worked_at_microchemistry",
+    "source": "matti_ervasti",
+    "type": "worked_at",
+    "target": "microchemistry",
+    "event_id": "microchemistry_refocus_1997",
+    "note": "Managing director.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 340
+      }
+    ]
+  },
+  {
+    "id": "microchemistry_acquired_by_asm",
+    "source": "microchemistry",
+    "type": "acquired_by",
+    "target": "asm",
+    "event_id": "microchemistry_sold_asm_1999",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 341
+      }
+    ]
+  },
+  {
+    "id": "microchemistry_renamed_asm_microchemistry",
+    "source": "microchemistry",
+    "type": "renamed_to",
+    "target": "asm_microchemistry",
+    "event_id": "microchemistry_sold_asm_1999",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 341
+      }
+    ]
+  },
+  {
+    "id": "asm_microchemistry_collaborated_with_uh",
+    "source": "asm_microchemistry",
+    "type": "collaborated_with",
+    "target": "university_of_helsinki",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 341
+      }
+    ]
+  },
+  {
+    "id": "leskela_worked_at_uh",
+    "source": "markku_leskela",
+    "type": "worked_at",
+    "target": "university_of_helsinki",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 342
+      }
+    ]
+  },
+  {
+    "id": "ritala_worked_at_uh",
+    "source": "mikko_ritala",
+    "type": "worked_at",
+    "target": "university_of_helsinki",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 342
+      }
+    ]
+  },
+  {
+    "id": "lindfors_founded_picosun",
+    "source": "sven_lindfors",
+    "type": "founded",
+    "target": "picosun",
+    "event_id": "picosun_founded_2004",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 341
+      }
+    ]
+  },
+  {
+    "id": "poutiainen_founded_picosun",
+    "source": "kustaa_poutiainen",
+    "type": "founded",
+    "target": "picosun",
+    "event_id": "picosun_founded_2004",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 341
+      }
+    ]
+  },
+  {
+    "id": "soininen_worked_at_beneq",
+    "source": "pekka_soininen",
+    "type": "worked_at",
+    "target": "beneq",
+    "event_id": "beneq_founded_2005",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 341
+      }
+    ]
+  },
+  {
+    "id": "suntola_worked_at_picosun",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "picosun",
+    "event_id": "joins_picosun_2004",
+    "start": {
+      "precision": "year",
+      "sort_start": "2004-01-01",
+      "sort_end": "2004-12-31"
+    },
+    "note": "Scientific adviser, board member since 2007.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 343
+      }
+    ]
+  },
+  {
+    "id": "suntola_awarded_semi_2004",
+    "source": "tuomo_suntola",
+    "type": "awarded",
+    "target": "european_semi_award_2004",
+    "event_id": "semi_award_2004",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 343
+      }
+    ]
+  },
+  {
+    "id": "myers_worked_at_semi",
+    "source": "stanley_myers",
+    "type": "worked_at",
+    "target": "semi",
+    "note": "President & CEO.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 343
+      }
+    ]
+  },
+  {
+    "id": "suntola_published_dynamic_universe",
+    "source": "tuomo_suntola",
+    "type": "published",
+    "target": "dynamic_universe_book",
+    "event_id": "dynamic_universe_published_2011",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 344
+      }
+    ]
+  },
+  {
+    "id": "suntola_published_short_history",
+    "source": "tuomo_suntola",
+    "type": "published",
+    "target": "short_history_of_science_book",
+    "event_id": "short_history_science_published_2012",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 344
+      }
+    ]
+  },
+  {
+    "id": "suntola_member_of_pfs",
+    "source": "tuomo_suntola",
+    "type": "member_of",
+    "target": "physics_foundations_society",
+    "note": "Chairman as of 2014.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 344
+      }
+    ]
+  },
+  {
+    "id": "suntola_member_of_fsnp",
+    "source": "tuomo_suntola",
+    "type": "member_of",
+    "target": "finnish_society_for_natural_philosophy",
+    "note": "Board member and frequent lecturer.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 344
+      }
+    ]
+  },
+  {
+    "id": "puurunen_worked_at_vtt",
+    "source": "riikka_puurunen",
+    "type": "worked_at",
+    "target": "vtt",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 332
+      }
+    ]
+  },
+  {
+    "id": "puurunen_collaborated_with_suntola",
+    "source": "riikka_puurunen",
+    "type": "collaborated_with",
+    "target": "tuomo_suntola",
+    "note": "Essay written in close collaboration with Suntola.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 332
+      }
+    ]
+  },
+  {
+    "id": "beneq_acquired_olarinluoma",
+    "source": "planar",
+    "type": "sold_to",
+    "target": "beneq",
+    "event_id": "beneq_acquires_olarinluoma_2012",
+    "note": "Olarinluoma EL plant only.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 338
+      }
+    ]
+  },
+  {
+    "id": "elcoteq_collaborated_with_nokia",
+    "source": "elcoteq",
+    "type": "collaborated_with",
+    "target": "nokia",
+    "note": "Contract manufacturer during mobile phone market growth.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 338
+      }
+    ]
+  }
+]

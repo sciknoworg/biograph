@@ -1,0 +1,327 @@
+[
+  {
+    "id": "birth_freedericksz",
+    "event_type": "birth",
+    "label": "Born in Warsaw",
+    "date": {
+      "display": "April 29, 1885",
+      "precision": "day",
+      "sort_start": "1885-04-29",
+      "sort_end": "1885-04-29"
+    },
+    "location": "warsaw",
+    "participants": [
+      {
+        "entity_id": "freedericksz_vk",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tsvetkov_2018",
+        "page": 2,
+        "quote": "V.K. Freedericksz was born on the 29 of April 1885 in Warsaw, where his father was a special government official at the time."
+      }
+    ]
+  },
+  {
+    "id": "phd_geneva",
+    "event_type": "education",
+    "label": "Obtained doctoral degree at University of Geneva",
+    "date": {
+      "display": "1909",
+      "precision": "year",
+      "sort_start": "1909-01-01",
+      "sort_end": "1909-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "freedericksz_vk",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_geneva",
+        "role": "employer"
+      },
+      {
+        "entity_id": "guye_charles",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tsvetkov_2018",
+        "page": 3,
+        "quote": "Freedericksz defended his thesis [2] under supervision of Guye and obtained doctoral degree of the University of Geneva in 1909"
+      }
+    ]
+  },
+  {
+    "id": "work_gottingen_start",
+    "event_type": "employment_start",
+    "label": "Started work at University of Göttingen",
+    "date": {
+      "display": "September 1, 1911",
+      "precision": "day",
+      "sort_start": "1911-09-01",
+      "sort_end": "1911-09-01"
+    },
+    "participants": [
+      {
+        "entity_id": "freedericksz_vk",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_gottingen",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tsvetkov_2018",
+        "page": 4,
+        "quote": "On the first of September 1911 Freedericksz was taken on as a junior assistant in the Department of Theoretical Physics of the Institute of Physics."
+      }
+    ]
+  },
+  {
+    "id": "return_russia",
+    "event_type": "relocation",
+    "label": "Returned to Russia",
+    "date": {
+      "display": "summer of 1918",
+      "precision": "range",
+      "sort_start": "1918-06-01",
+      "sort_end": "1918-08-31"
+    },
+    "participants": [
+      {
+        "entity_id": "freedericksz_vk",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tsvetkov_2018",
+        "page": 4,
+        "quote": "After the Treaty of Brest-Litovsk was signed in the summer of 1918, Freedericksz returned to Russia."
+      }
+    ]
+  },
+  {
+    "id": "work_lsu_start",
+    "event_type": "employment_start",
+    "label": "Started work at Leningrad State University",
+    "date": {
+      "display": "1919",
+      "precision": "year",
+      "sort_start": "1919-01-01",
+      "sort_end": "1919-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "freedericksz_vk",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lsu",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tsvetkov_2018",
+        "page": 4,
+        "quote": "Freedericksz came to Petrograd in 1919 and obtained a position of assistant professor at Physico-Mathematical Department of the University."
+      }
+    ]
+  },
+  {
+    "id": "lc_studies_start",
+    "event_type": "other",
+    "label": "Began liquid crystal studies",
+    "date": {
+      "display": "1923",
+      "precision": "year",
+      "sort_start": "1923-01-01",
+      "sort_end": "1923-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "freedericksz_vk",
+        "role": "subject"
+      },
+      {
+        "entity_id": "itp",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tsvetkov_2018",
+        "page": 6,
+        "quote": "These works were started in 1923 at the Physico-Technical Institute."
+      }
+    ]
+  },
+  {
+    "id": "marriage_shostakovich",
+    "event_type": "other",
+    "label": "Married Maria Dmitrievna Shostakovich",
+    "date": {
+      "display": "autumn of 1927",
+      "precision": "range",
+      "sort_start": "1927-09-01",
+      "sort_end": "1927-11-30"
+    },
+    "participants": [
+      {
+        "entity_id": "freedericksz_vk",
+        "role": "subject"
+      },
+      {
+        "entity_id": "shostakovich_md",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tsvetkov_2018",
+        "page": 4,
+        "quote": "In the autumn of 1927 Freedericksz married Maria Dmitrievna Shostakovich"
+      }
+    ]
+  },
+  {
+    "id": "first_lc_article",
+    "event_type": "publication",
+    "label": "Published first LC article with Repieva",
+    "date": {
+      "display": "1927",
+      "precision": "year",
+      "sort_start": "1927-01-01",
+      "sort_end": "1927-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "freedericksz_vk",
+        "role": "subject"
+      },
+      {
+        "entity_id": "repieva_an",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tsvetkov_2018",
+        "page": 1,
+        "quote": "The first article written together with A. Repieva was published in 1927."
+      }
+    ]
+  },
+  {
+    "id": "freedericksz_equation_derived",
+    "event_type": "invention",
+    "label": "Derived Freedericksz's equation",
+    "date": {
+      "display": "1929",
+      "precision": "year",
+      "sort_start": "1929-01-01",
+      "sort_end": "1929-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "freedericksz_vk",
+        "role": "subject"
+      },
+      {
+        "entity_id": "zolina_vv",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "freedericksz_equation",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tsvetkov_2018",
+        "page": 1,
+        "quote": "In 1929 t ogether with V. Zolina Freedericksz derived and experimentally proved the «Freedericksz's equation»"
+      }
+    ]
+  },
+  {
+    "id": "arrest_freedericksz",
+    "event_type": "other",
+    "label": "Arrested by Soviet authorities",
+    "date": {
+      "display": "October 21, 1936",
+      "precision": "day",
+      "sort_start": "1936-10-21",
+      "sort_end": "1936-10-21"
+    },
+    "participants": [
+      {
+        "entity_id": "freedericksz_vk",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tsvetkov_2018",
+        "page": 11,
+        "quote": "In the night of the twenty first of October 1936 he was arrested."
+      }
+    ]
+  },
+  {
+    "id": "death_freedericksz",
+    "event_type": "death",
+    "label": "Died in Nizhny Novgorod",
+    "date": {
+      "display": "January 6, 1943",
+      "precision": "day",
+      "sort_start": "1943-01-06",
+      "sort_end": "1943-01-06"
+    },
+    "participants": [
+      {
+        "entity_id": "freedericksz_vk",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tsvetkov_2018",
+        "page": 11,
+        "quote": "Along the way he fell ill with pneumonia and died on the 6 th of January in a hospital in Nizhny Novgorod."
+      }
+    ]
+  },
+  {
+    "id": "rehabilitation_freedericksz",
+    "event_type": "other",
+    "label": "Rehabilitated by Supreme Court",
+    "date": {
+      "display": "1956",
+      "precision": "year",
+      "sort_start": "1956-01-01",
+      "sort_end": "1956-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "freedericksz_vk",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tsvetkov_2018",
+        "page": 11,
+        "quote": "In 1956 the Military Board of the Supreme Court of the USSR completely rehabilitated Freedericksz."
+      }
+    ]
+  }
+]

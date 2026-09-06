@@ -1,13 +1,45 @@
 # Architecture: Data Model Reference
 
-Every subject is four JSON files under `subjects/<slug>/`, each validated
-against a schema in `schema/`, plus a small `subject.json` manifest. This
-page is the field-level reference; [Adding a new subject](adding-a-subject.md)
+A subject is a **person**. Each source document about them gets its own
+folder beneath, named by that source's citation key, holding the four
+JSON files validated against `schema/`. `subject.json` sits above them
+and describes the person, not any one paper:
+
+```
+subjects/suntola/
+  subject.json                  canonical name + slug
+  puurunen_2014/                one document's extraction
+    entities.json  events.json  relations.json  sources.json
+  aris_2019/                    a second account of the same life
+```
+
+This page is the field-level reference; [Adding a new subject](adding-a-subject.md)
 walks through producing them from a source paper.
+
+### Several documents, one person
+
+Each document folder is extracted independently and kept whole. Two
+papers about the same person are two *accounts*, not one merged truth —
+reconciling them (same human, different entity ids, one episode described
+two ways) happens when the subject is **read**, so a wrong reconciliation
+is a rendering bug you re-run rather than extraction you have destroyed.
+Where two accounts disagree, both survive with their own citations, and
+which document asserted what stays answerable.
+
+On read: entities sharing an id are treated as the same thing and their
+`aliases` unioned; **events and relations are never merged**, and an id
+colliding across documents is prefixed with its document key.
+
+`subject.json` carries exactly one canonical name for the person — the
+fullest form seen — with every other form recorded in that person's
+`aliases`, so one scientist never appears under several spellings.
 
 A subject is self-contained: nothing in `subjects/suntola/` refers to an
 id in `subjects/aleskovskii/`. Cross-subject connections get their own
-[bridge file](adding-a-subject.md#8-once-both-subjects-exist-cross-subject-bridges).
+[bridge file](adding-a-subject.md#8-once-both-subjects-exist-cross-subject-bridges),
+with ids qualified as `subject:id` — subject-scoped, not document-scoped,
+since a bridge connects two *people* and the document that mentioned the
+link is already in that relation's own `sources[]`.
 
 ## What counts as an "event"
 
@@ -28,9 +60,12 @@ Every event must have, and `event.schema.json` enforces:
    `"invention"`, `"awarding_body"`).
 4. **At least one source citation** — `source_id` and `page` are both
    required: provenance means a reader can turn to exactly where in the
-   text this came from. A short supporting `quote` is optional, reserved
-   for pivotal events rather than added everywhere. No event is entered
-   on inference or general knowledge.
+   text this came from — and a `quote`: the span of the document that
+   states this fact, copied verbatim. Quotes are checked mechanically
+   against the source afterwards (see
+   [Data Accuracy § Grounding](data-accuracy.md#2-grounding-the-hallucination-check)), so a quote that cannot
+   be copied exactly is a fact that should not be stated. No event is
+   entered on inference or general knowledge.
 
 Events are the join between the graph and the timeline: the timeline is
 `events.json` sorted by date; the graph is `entities.json` +
@@ -84,7 +119,7 @@ above for the model. `event.schema.json` fields:
 | `location` | Optional entity id of a `place`, if the source specifies where. Drives the [Map view](frontend-guide.md#map-view). |
 | `participants` | Array of `{entity_id, role}`, minimum 1. |
 | `certainty` | `certain` (default) \| `approximate` (source itself hedges) \| `disputed` (sources disagree). |
-| `sources` | Array of `{source_id, page, quote?}`, minimum 1. `page` is required — the provenance for where in the text this came from; `quote` is optional, reserved for pivotal events. |
+| `sources` | Array of `{source_id, page, quote}`, minimum 1. `page` locates the claim; `quote` is the document's own words for it, copied verbatim and checked against the source afterwards. |
 
 **`event_type` values:** `birth`, `death`, `education`,
 `employment_start`, `employment_end`, `role_change`, `invention`,
@@ -105,11 +140,17 @@ above for the model. `event.schema.json` fields:
 | `event_id` | Optional link back to the `events.json` entry that established this relation (e.g. an `employment_start` event implies a `worked_at` relation). |
 | `start` / `end` | Optional fuzzy-date bounds (precision-only; no `display` needed since relations aren't independently plotted). |
 | `note` | Free text. |
-| `sources` | Array of `{source_id, page, quote?}`, minimum 1. `page` is required, same as on events. |
+| `sources` | Array of `{source_id, page, quote}`, minimum 1. Same requirement as on events, and checked the same way. |
 
 Some relations just durably summarize an event; others stand alone when
 the source states a fact without a datable event behind it (e.g. "they
 were lifelong friends").
+
+Relations are directed, and each type fixes the `entity_type` of its two
+ends (`worked_at`: person → organization). A couple of types accept two
+kinds of target: `visited` and `lived_in` both take a `place` *or* an
+`organization`, since a college or hospital is genuinely both a body and a
+location. See `schema/README.md` for the full reasoning.
 
 **`type` values:** `born_in`, `died_in`, `lived_in`, `visited`,
 `relocated_to`, `worked_at`, `employed_by`, `founded`, `member_of`,
@@ -124,9 +165,12 @@ were lifelong friends").
 from. Every event and relation cites at least one entry here.
 `source.schema.json` requires only `id` and `title`; `authors`, `year`,
 `publication`, `file` (relative path under `data/`), `doi`, and `url` are
-all optional. The PDF itself is not committed to the repo (`data/*.pdf`
-is gitignored) — the citation fields here, especially `doi`, are the
-part that's actually shared; see `data/README.md`.
+all optional. `file` points at the archived extracted text
+(`data/<slug>.txt`) — what the model actually read, and what the
+grounding check verifies against. Neither it nor the original PDF is
+committed to the repo (`data/*.txt` and `data/*.pdf` are both gitignored)
+— the citation fields here, especially `doi`, are the part that's actually
+shared; see `data/README.md`.
 
 ## IDs
 

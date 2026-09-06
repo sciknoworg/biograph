@@ -1,0 +1,198 @@
+[
+  {
+    "id": "rel_born_in_mary",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "born_in",
+    "target": "mary",
+    "event_id": "birth_aleskovskii",
+    "start": {
+      "precision": "day",
+      "sort_start": "1912-06-03",
+      "sort_end": "1912-06-03"
+    },
+    "sources": [
+      {
+        "source_id": "source_01",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "rel_studied_at_lti",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "studied_at",
+    "target": "lti_by_lensovet",
+    "event_id": "education_aleskovskii_lti_1931",
+    "start": {
+      "precision": "year",
+      "sort_start": "1931-01-01",
+      "sort_end": "1931-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "source_01",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "rel_worked_at_naval",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "worked_at",
+    "target": "naval_research_institute",
+    "event_id": "employment_aleskovskii_naval_1937",
+    "start": {
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1937-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "source_01",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "rel_worked_at_lti",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "worked_at",
+    "target": "lti_by_lensovet",
+    "event_id": "employment_aleskovskii_sorption_1940",
+    "start": {
+      "precision": "year",
+      "sort_start": "1940-01-01",
+      "sort_end": "1940-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "source_01",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "rel_worked_at_lsu",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "worked_at",
+    "target": "lsu",
+    "event_id": "role_aleskovskii_rector_lsu_1975",
+    "start": {
+      "precision": "year",
+      "sort_start": "1975-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "source_01",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "rel_awarded_academy",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "awarded",
+    "target": "academy_of_sciences_of_the_ussr",
+    "event_id": "award_aleskovskii_academy_1972",
+    "start": {
+      "precision": "year",
+      "sort_start": "1972-01-01",
+      "sort_end": "1972-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "source_01",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "rel_collaborated_with_koltsov",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "collaborated_with",
+    "target": "koltsov_stanislav_ivanovich",
+    "start": {
+      "precision": "year",
+      "sort_start": "1955-01-01",
+      "sort_end": "1955-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "source_01",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "rel_invented_ml",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "invented",
+    "target": "molecular_layering",
+    "event_id": "invention_framework_hypothesis_1940",
+    "start": {
+      "precision": "year",
+      "sort_start": "1940-01-01",
+      "sort_end": "1940-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "source_01",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "rel_founded_school",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "founded",
+    "target": "chemistry_of_highly_organized_substances",
+    "start": {
+      "precision": "decade",
+      "sort_start": "1950-01-01",
+      "sort_end": "1959-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "source_01",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "rel_founded_program",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "founded",
+    "target": "chemical_assembly_of_materials",
+    "event_id": "program_chemical_assembly_1978",
+    "start": {
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "source_01",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "id": "rel_died_in_leningrad",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "died_in",
+    "target": "leningrad",
+    "event_id": "death_aleskovskii_2006",
+    "start": {
+      "precision": "day",
+      "sort_start": "2006-01-29",
+      "sort_end": "2006-01-29"
+    },
+    "sources": [
+      {
+        "source_id": "source_01",
+        "page": 8
+      }
+    ]
+  }
+]

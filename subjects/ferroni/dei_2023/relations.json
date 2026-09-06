@@ -1,0 +1,244 @@
+[
+  {
+    "id": "born_in",
+    "source": "enzo_ferroni",
+    "type": "born_in",
+    "target": "florence",
+    "event_id": "birth",
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 1,
+        "quote": "Enzo Ferroni (Florence, 25 March 1921 – 9 April 2007)"
+      }
+    ]
+  },
+  {
+    "id": "studied_at",
+    "source": "enzo_ferroni",
+    "type": "studied_at",
+    "target": "university_of_florence",
+    "event_id": "graduation",
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 3,
+        "quote": "Enzo Ferroni defended his chemistry master's thesis ... in 1945 magnum cum laude"
+      }
+    ]
+  },
+  {
+    "id": "supervised_by",
+    "source": "enzo_ferroni",
+    "type": "supervised_by",
+    "target": "giorgio_piccardi",
+    "event_id": "graduation",
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 3,
+        "quote": "under the supervision of Giorgio Piccardi"
+      }
+    ]
+  },
+  {
+    "id": "worked_at_cagliari",
+    "source": "enzo_ferroni",
+    "type": "worked_at",
+    "target": "university_of_cagliari",
+    "start": {
+      "display": "1961",
+      "precision": "year",
+      "sort_start": "1961-01-01",
+      "sort_end": "1961-12-31"
+    },
+    "end": {
+      "display": "1965",
+      "precision": "year",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31"
+    },
+    "event_id": "employment_start_cagliari",
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 5,
+        "quote": "gain the chair – full professor in physical chemistry – at the University of Cagliari in 1961"
+      }
+    ]
+  },
+  {
+    "id": "worked_at_florence",
+    "source": "enzo_ferroni",
+    "type": "worked_at",
+    "target": "university_of_florence",
+    "start": {
+      "display": "1965",
+      "precision": "year",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31"
+    },
+    "end": {
+      "display": "1996",
+      "precision": "year",
+      "sort_start": "1996-01-01",
+      "sort_end": "1996-12-31"
+    },
+    "event_id": "employment_start_florence",
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 5,
+        "quote": "In 1965, he succeeded in gaining the same chair at the University of Florence"
+      }
+    ]
+  },
+  {
+    "id": "collaborated_defay",
+    "source": "enzo_ferroni",
+    "type": "collaborated_with",
+    "target": "raymond_defay",
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 4,
+        "quote": "These first studies were also the result of the interaction with the group of Raymond Defay"
+      }
+    ]
+  },
+  {
+    "id": "collaborated_prigogine",
+    "source": "enzo_ferroni",
+    "type": "collaborated_with",
+    "target": "ilya_prigogine",
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 4,
+        "quote": "and Ilya Prigogine ... at the Université Libre de Bruxelles with whom Ferroni had collaborations"
+      }
+    ]
+  },
+  {
+    "id": "collaborated_natta",
+    "source": "enzo_ferroni",
+    "type": "collaborated_with",
+    "target": "giulio_natta",
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 12,
+        "quote": "the ten years of correspondence between Ferroni and Natta from 1958 until 1968"
+      }
+    ]
+  },
+  {
+    "id": "mentored_tiezzi",
+    "source": "enzo_ferroni",
+    "type": "mentored",
+    "target": "enzo_tiezzi",
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 5,
+        "quote": "cultivating his pupils Enzo Tiezzi"
+      }
+    ]
+  },
+  {
+    "id": "mentored_rovida",
+    "source": "enzo_ferroni",
+    "type": "mentored",
+    "target": "gianfranco_rovida",
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 5,
+        "quote": "and Gianfranco Rovida"
+      }
+    ]
+  },
+  {
+    "id": "mentored_baglioni",
+    "source": "enzo_ferroni",
+    "type": "mentored",
+    "target": "piero_baglioni",
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 6,
+        "quote": "Piero Baglioni (Florence, 1952), who graduated in chemistry under the supervision of Ferroni in 1977"
+      }
+    ]
+  },
+  {
+    "id": "invented_method",
+    "source": "enzo_ferroni",
+    "type": "invented",
+    "target": "ferroni_dini_method",
+    "event_id": "fresco_rescue",
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 10,
+        "quote": "It was named the Ferroni-Dini method after the chemist inventor and the conservator who devised and applied the procedure."
+      }
+    ]
+  },
+  {
+    "id": "founded_csgi",
+    "source": "enzo_ferroni",
+    "type": "founded",
+    "target": "csgi",
+    "event_id": "csgi_founded",
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 12,
+        "quote": "Ferroni was appointed President"
+      }
+    ]
+  },
+  {
+    "id": "awarded_gold",
+    "source": "enzo_ferroni",
+    "type": "awarded",
+    "target": "gold_medal_1967",
+    "event_id": "award_gold_medal",
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 14,
+        "quote": "the Gold Medal by the Italian Ministry of the Public Education (1967)"
+      }
+    ]
+  },
+  {
+    "id": "awarded_grande",
+    "source": "enzo_ferroni",
+    "type": "awarded",
+    "target": "grande_ufficiale_1977",
+    "event_id": "award_grande_ufficiale",
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 14,
+        "quote": "the designation of Grande Ufficiale dell'Ordine (1977)"
+      }
+    ]
+  },
+  {
+    "id": "awarded_officier",
+    "source": "enzo_ferroni",
+    "type": "awarded",
+    "target": "officier_1979",
+    "event_id": "award_officier",
+    "sources": [
+      {
+        "source_id": "dei_2023",
+        "page": 14,
+        "quote": "the granting of the title Officier de l'Ordre National du Mérite (1979)"
+      }
+    ]
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "dowson_higginson_1959_paper_pub",
+    "event_type": "publication",
+    "label": "Published breakthrough EHL paper",
+    "description": "Published breakthrough paper on a full numerical treatment of the elastohydrodynamic lubrication problem.",
+    "date": {
+      "display": "1959",
+      "precision": "year",
+      "sort_start": "1959-01-01",
+      "sort_end": "1959-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "duncan_dowson",
+        "role": "author"
+      },
+      {
+        "entity_id": "gordon_higginson",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "evans_snidle_2021_dowson",
+        "page": 4,
+        "quote": "In 1959 two young lecturers of mechanical engineering at Leeds University, Duncan Dowson and Gordon Higginson, published their breakthrough paper on a full numerical treatment of the \"elastohydrodynamic lubrication\" problem [4]."
+      }
+    ]
+  },
+  {
+    "id": "dowson_higginson_1966_book_pub",
+    "event_type": "publication",
+    "label": "Published EHL book",
+    "description": "Published well-known book on elastohydrodynamic lubrication.",
+    "date": {
+      "display": "1966",
+      "precision": "year",
+      "sort_start": "1966-01-01",
+      "sort_end": "1966-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "duncan_dowson",
+        "role": "author"
+      },
+      {
+        "entity_id": "gordon_higginson",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "evans_snidle_2021_dowson",
+        "page": 5,
+        "quote": "In 1966 Dowson and Higginson published their well-known book on elastohydrodynamic lubrication [10]"
+      }
+    ]
+  },
+  {
+    "id": "dowson_higginson_leeds_1959",
+    "event_type": "employment_start",
+    "label": "Worked as lecturers at Leeds University",
+    "description": "Dowson and Higginson were young lecturers of mechanical engineering at Leeds University.",
+    "date": {
+      "display": "1959",
+      "precision": "year",
+      "sort_start": "1959-01-01",
+      "sort_end": "1959-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "duncan_dowson",
+        "role": "employee"
+      },
+      {
+        "entity_id": "gordon_higginson",
+        "role": "employee"
+      },
+      {
+        "entity_id": "leeds_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "evans_snidle_2021_dowson",
+        "page": 4,
+        "quote": "In 1959 two young lecturers of mechanical engineering at Leeds University, Duncan Dowson and Gordon Higginson, published their breakthrough paper on a full numerical treatment of the \"elastohydrodynamic lubrication\" problem [4]."
+      }
+    ]
+  }
+]

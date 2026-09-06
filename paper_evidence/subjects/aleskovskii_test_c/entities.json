@@ -1,0 +1,136 @@
+[
+  {
+    "id": "aleskovskii_valentin",
+    "entity_type": "person",
+    "name": "Valentin Borisovich Aleskovskii",
+    "aliases": [
+      "V. B. Aleskovskii",
+      "Valentin Borisovich"
+    ],
+    "summary": "Soviet and Russian chemist, founder of the Molecular Layering method and the 'Chemistry of highly organized substances' school.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "koltsov_stanislav",
+    "entity_type": "person",
+    "name": "Stanislav Ivanovich Kol'tsov",
+    "aliases": [
+      "S. I. Kol'tsov"
+    ],
+    "summary": "Chemist and graduate student of Aleskovskii, co-founder of the Molecular Layering method.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "malygin_anatolii",
+    "entity_type": "person",
+    "name": "Anatolii A. Malygin",
+    "summary": "Chemist, student of Aleskovskii, author of the essay.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "drozd_victor",
+    "entity_type": "person",
+    "name": "Victor E. Drozd",
+    "summary": "Physicist and student of Aleskovskii, developed vacuum ML equipment.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "suntola_tuomo",
+    "entity_type": "person",
+    "name": "Tuomo Suntola",
+    "summary": "Finnish physicist, inventor of Atomic Layer Epitaxy (ALE).",
+    "subtype": "researcher"
+  },
+  {
+    "id": "lti_lensovet",
+    "entity_type": "organization",
+    "name": "Leningrad Technological Institute by Lensovet",
+    "aliases": [
+      "LTI by Lensovet",
+      "St. Petersburg State Technological Institute (Technical University)",
+      "SPbSTI"
+    ],
+    "summary": "Educational and research institute where Aleskovskii and Kol'tsov developed ML.",
+    "subtype": "university"
+  },
+  {
+    "id": "lsu",
+    "entity_type": "organization",
+    "name": "Leningrad State University",
+    "aliases": [
+      "LSU",
+      "St. Petersburg State University",
+      "SPbSU"
+    ],
+    "summary": "University where Aleskovskii served as rector and founded the Solid State Chemistry Department.",
+    "subtype": "university"
+  },
+  {
+    "id": "academy_sciences_ussr",
+    "entity_type": "organization",
+    "name": "Academy of Sciences of the USSR",
+    "summary": "Highest scientific body in the Soviet Union.",
+    "subtype": "research_institute"
+  },
+  {
+    "id": "framework_hypothesis",
+    "entity_type": "artifact",
+    "name": "Framework Hypothesis",
+    "summary": "Theory proposed by Aleskovskii in 1952 describing solids as supramolecules with a core and functional groups.",
+    "subtype": "theory"
+  },
+  {
+    "id": "ml_method",
+    "entity_type": "artifact",
+    "name": "Molecular Layering Method",
+    "aliases": [
+      "ML"
+    ],
+    "summary": "Gas-phase layer-by-layer deposition technique developed in the Soviet Union.",
+    "subtype": "invention"
+  },
+  {
+    "id": "ale_method",
+    "entity_type": "artifact",
+    "name": "Atomic Layer Epitaxy",
+    "aliases": [
+      "ALE"
+    ],
+    "summary": "Thin-film deposition method invented by Suntola in Finland.",
+    "subtype": "invention"
+  },
+  {
+    "id": "chemistry_highly_organized",
+    "entity_type": "artifact",
+    "name": "Chemistry of highly organized substances",
+    "summary": "Scientific school founded and supervised by Aleskovskii.",
+    "subtype": "scientific_school"
+  },
+  {
+    "id": "chemical_assembly_program",
+    "entity_type": "artifact",
+    "name": "Chemical assembly of materials",
+    "summary": "Inter-university program founded in 1978 under Aleskovskii's supervision.",
+    "subtype": "program"
+  },
+  {
+    "id": "mary_city",
+    "entity_type": "place",
+    "name": "Mary",
+    "attributes": {
+      "country": "Turkmenistan"
+    },
+    "summary": "City in Turkmenistan where Aleskovskii was born.",
+    "subtype": "city"
+  },
+  {
+    "id": "leningrad",
+    "entity_type": "place",
+    "name": "Leningrad",
+    "aliases": [
+      "St. Petersburg"
+    ],
+    "summary": "City where Aleskovskii worked and studied.",
+    "subtype": "city"
+  }
+]

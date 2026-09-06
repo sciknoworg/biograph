@@ -1,0 +1,117 @@
+[
+  {
+    "id": "nicolaas_bloembergen",
+    "entity_type": "person",
+    "name": "Nicolaas Bloembergen",
+    "aliases": [
+      "Nico Bloembergen"
+    ],
+    "summary": "Nobel laureate pioneer in magnetic resonance, maser, and laser physics.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "edward_purcell",
+    "entity_type": "person",
+    "name": "Edward Purcell",
+    "summary": "Physicist who co-discovered NMR and supervised Bloembergen's PhD.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "c_j_gorter",
+    "entity_type": "person",
+    "name": "C.J. Gorter",
+    "summary": "Expert on paramagnetic relaxation at Leiden University.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "utrecht_university",
+    "entity_type": "organization",
+    "name": "Utrecht University",
+    "summary": "University in the Netherlands where Bloembergen started his studies.",
+    "subtype": "university"
+  },
+  {
+    "id": "harvard_university",
+    "entity_type": "organization",
+    "name": "Harvard University",
+    "summary": "University where Bloembergen completed his PhD and served as professor.",
+    "subtype": "university"
+  },
+  {
+    "id": "leiden_university",
+    "entity_type": "organization",
+    "name": "Leiden University",
+    "summary": "University where Bloembergen defended his doctoral thesis.",
+    "subtype": "university"
+  },
+  {
+    "id": "university_of_arizona",
+    "entity_type": "organization",
+    "name": "University of Arizona",
+    "summary": "University where Bloembergen worked after retirement from Harvard.",
+    "subtype": "university"
+  },
+  {
+    "id": "netherlands",
+    "entity_type": "place",
+    "name": "The Netherlands",
+    "summary": "Country where Bloembergen was born.",
+    "subtype": "country"
+  },
+  {
+    "id": "bilthoven",
+    "entity_type": "place",
+    "name": "Bilthoven",
+    "summary": "Town in the Netherlands where Bloembergen lived.",
+    "subtype": "city"
+  },
+  {
+    "id": "tucson",
+    "entity_type": "place",
+    "name": "Tucson",
+    "summary": "City in Arizona where Bloembergen died.",
+    "subtype": "city"
+  },
+  {
+    "id": "arizona",
+    "entity_type": "place",
+    "name": "Arizona",
+    "summary": "US state where Tucson is located.",
+    "subtype": "state"
+  },
+  {
+    "id": "nobel_prize_physics_1981",
+    "entity_type": "artifact",
+    "name": "Nobel Prize in Physics 1981",
+    "summary": "Award earned by Bloembergen for work on nonlinear optics.",
+    "subtype": "award"
+  },
+  {
+    "id": "bpp_theory",
+    "entity_type": "artifact",
+    "name": "BPP theory",
+    "summary": "Theory of nuclear spin relaxation developed by Bloembergen, Purcell, and Pound.",
+    "subtype": "invention"
+  },
+  {
+    "id": "sbm_model",
+    "entity_type": "artifact",
+    "name": "Solomon–Bloembergen–Morgan model",
+    "summary": "Model for inter-atomic distance measurements and paramagnetic relaxation.",
+    "subtype": "invention"
+  },
+  {
+    "id": "maser",
+    "entity_type": "artifact",
+    "name": "maser",
+    "summary": "Microwave amplifier device Bloembergen constructed using 3-level systems.",
+    "subtype": "product"
+  },
+  {
+    "id": "utrecht_nmr_building",
+    "entity_type": "place",
+    "name": "Utrecht NMR group building",
+    "summary": "Building named after Bloembergen in honor of his NMR work.",
+    "subtype": "facility"
+  }
+]

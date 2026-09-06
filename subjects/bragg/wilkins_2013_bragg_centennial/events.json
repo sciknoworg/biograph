@@ -1,0 +1,222 @@
+[
+  {
+    "id": "bragg_presentation_1912",
+    "event_type": "conference",
+    "label": "Read paper to Cambridge Philosophical Society",
+    "date": {
+      "display": "11 November 1912",
+      "precision": "day",
+      "sort_start": "1912-11-11",
+      "sort_end": "1912-11-11"
+    },
+    "participants": [
+      {
+        "entity_id": "lawrence_bragg",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cambridge_philosophical_society",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wilkins_2013_bragg_centennial",
+        "page": 1,
+        "quote": "11 November 2012 marks the centenary of the reading of the paper by William Lawrence Bragg (WLB) to the Cambridge Philosophical Society outlining the foundations of X-ray crystallography."
+      }
+    ]
+  },
+  {
+    "id": "bragg_vacation_1912",
+    "event_type": "visit",
+    "label": "Vacationed on Yorkshire coast",
+    "date": {
+      "display": "summer of 1912",
+      "precision": "range",
+      "sort_start": "1912-06-01",
+      "sort_end": "1912-08-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lawrence_bragg",
+        "role": "subject"
+      },
+      {
+        "entity_id": "yorkshire",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wilkins_2013_bragg_centennial",
+        "page": 1,
+        "quote": "in the summer of 1912 he joined the family for a vacation on the Yorkshire coast."
+      }
+    ]
+  },
+  {
+    "id": "bragg_insight_1912",
+    "event_type": "invention",
+    "label": "Conceived explanation for zinc blende diffraction",
+    "date": {
+      "display": "late autumn of 1912",
+      "precision": "range",
+      "sort_start": "1912-10-01",
+      "sort_end": "1912-11-30"
+    },
+    "participants": [
+      {
+        "entity_id": "lawrence_bragg",
+        "role": "subject"
+      },
+      {
+        "entity_id": "zinc_blende",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wilkins_2013_bragg_centennial",
+        "page": 2,
+        "quote": "while Lawrence was walking along the Backs in Cambridge one day in the late autumn of 1912, in a flash of insight he conceived of the relatively simple explanation that the diffraction patterns from zinc blende observed by Laue and colleagues could be ascribed to the reflection of electromagnetic waves of short wavelength from planes of atoms in the crystal."
+      }
+    ]
+  },
+  {
+    "id": "bragg_nobel_1915",
+    "event_type": "award",
+    "label": "Awarded Nobel Prize for Physics",
+    "date": {
+      "display": "1915",
+      "precision": "year",
+      "sort_start": "1915-01-01",
+      "sort_end": "1915-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lawrence_bragg",
+        "role": "subject"
+      },
+      {
+        "entity_id": "william_henry_bragg",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize_physics",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wilkins_2013_bragg_centennial",
+        "page": 2,
+        "quote": "In 1915, Lawrence and his father were awarded the Nobel Prize for Physics."
+      }
+    ]
+  },
+  {
+    "id": "bragg_letter_1962",
+    "event_type": "other",
+    "label": "Wrote letter to P. P. Ewald",
+    "date": {
+      "display": "5 February 1962",
+      "precision": "day",
+      "sort_start": "1962-02-05",
+      "sort_end": "1962-02-05"
+    },
+    "participants": [
+      {
+        "entity_id": "lawrence_bragg",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wilkins_2013_bragg_centennial",
+        "page": 4,
+        "quote": "Letter to P . P . Ewald dated 5 February"
+      }
+    ]
+  },
+  {
+    "id": "iucr_formation",
+    "event_type": "company_founded",
+    "label": "Influenced formation of IUCr",
+    "date": {
+      "display": "more than six decades ago",
+      "precision": "range",
+      "sort_start": "1940-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lawrence_bragg",
+        "role": "subject"
+      },
+      {
+        "entity_id": "international_union_of_crystallography",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wilkins_2013_bragg_centennial",
+        "page": 1,
+        "quote": "it was Lawrence Bragg who was a major inﬂuence behind the formation of the International Union of Crystallography (IUCr) and Acta Crystallographica more than six decades ago."
+      }
+    ]
+  },
+  {
+    "id": "bragg_symposium_2012",
+    "event_type": "conference",
+    "label": "Bragg Centennial Symposium held",
+    "date": {
+      "display": "6 December 2012",
+      "precision": "day",
+      "sort_start": "2012-12-06",
+      "sort_end": "2012-12-06"
+    },
+    "participants": [
+      {
+        "entity_id": "adelaide",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wilkins_2013_bragg_centennial",
+        "page": 3,
+        "quote": "Bragg Centennial Symposium held in Adelaide (home to W . H. Bragg and family from 1886 to 1909) on 6 December 2012."
+      }
+    ]
+  },
+  {
+    "id": "bragg_medal_first_2012",
+    "event_type": "award",
+    "label": "First Lawrence Bragg Medal awarded",
+    "date": {
+      "display": "2012",
+      "precision": "year",
+      "sort_start": "2012-01-01",
+      "sort_end": "2012-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "scanz",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "lawrence_bragg_medal",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wilkins_2013_bragg_centennial",
+        "page": 3,
+        "quote": "The ﬁrst Lawrence Bragg Medal of SCANZ was awarded at the AsCA 12/CRYSTAL 28 Conference in Adelaide that immediately preceded the Bragg Centennial Symposium."
+      }
+    ]
+  }
+]

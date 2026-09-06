@@ -1,0 +1,127 @@
+[
+  {
+    "id": "coolidge_born_hudson",
+    "source": "william_david_coolidge",
+    "type": "born_in",
+    "target": "hudson_massachusetts",
+    "event_id": "birth_1873",
+    "sources": [
+      {
+        "source_id": "mould_2017",
+        "page": 273,
+        "quote": "He was born in Hudson, Massachusetts"
+      }
+    ]
+  },
+  {
+    "id": "coolidge_studied_mit",
+    "source": "william_david_coolidge",
+    "type": "studied_at",
+    "target": "massachusetts_institute_of_technology",
+    "event_id": "mit_start_1891",
+    "sources": [
+      {
+        "source_id": "mould_2017",
+        "page": 274,
+        "quote": "in the fall of 1891 started his studies at MIT"
+      }
+    ]
+  },
+  {
+    "id": "coolidge_studied_leipzig",
+    "source": "william_david_coolidge",
+    "type": "studied_at",
+    "target": "university_of_leipzig",
+    "event_id": "leipzig_phd_1899",
+    "sources": [
+      {
+        "source_id": "mould_2017",
+        "page": 276,
+        "quote": "In July 1899 he received high marks in all examinations and was awarded his doctorate summa cum laude."
+      }
+    ]
+  },
+  {
+    "id": "coolidge_worked_ge",
+    "source": "william_david_coolidge",
+    "type": "worked_at",
+    "target": "general_electric_company",
+    "event_id": "ge_start_1905",
+    "sources": [
+      {
+        "source_id": "mould_2017",
+        "page": 276,
+        "quote": "William started at the GE Research Laboratory in 1905."
+      }
+    ]
+  },
+  {
+    "id": "coolidge_invented_tube",
+    "source": "william_david_coolidge",
+    "type": "invented",
+    "target": "coolidge_x_ray_tube",
+    "event_id": "coolidge_tube_invention_1913",
+    "sources": [
+      {
+        "source_id": "mould_2017",
+        "page": 273,
+        "quote": "in 1913 invented the Coolidge X-ray tube"
+      }
+    ]
+  },
+  {
+    "id": "coolidge_developed_tungsten",
+    "source": "william_david_coolidge",
+    "type": "developed",
+    "target": "ductile_tungsten_filament",
+    "event_id": "ductile_tungsten_market_1911",
+    "sources": [
+      {
+        "source_id": "mould_2017",
+        "page": 277,
+        "quote": "GE lamps with ductile tungsten filaments appeared on the market in 1911"
+      }
+    ]
+  },
+  {
+    "id": "coolidge_married_esther",
+    "source": "william_david_coolidge",
+    "type": "married_to",
+    "target": "esther_westcott_woodward",
+    "event_id": "marriage_esther_1908",
+    "sources": [
+      {
+        "source_id": "mould_2017",
+        "page": 278,
+        "quote": "mar. 1908"
+      }
+    ]
+  },
+  {
+    "id": "coolidge_married_dorothy",
+    "source": "william_david_coolidge",
+    "type": "married_to",
+    "target": "dorothy_elizabeth_machaffie",
+    "event_id": "marriage_dorothy_1916",
+    "sources": [
+      {
+        "source_id": "mould_2017",
+        "page": 278,
+        "quote": "mar. 1916"
+      }
+    ]
+  },
+  {
+    "id": "whitney_mentored_coolidge",
+    "source": "willis_rodney_whitney",
+    "type": "mentored",
+    "target": "william_david_coolidge",
+    "sources": [
+      {
+        "source_id": "mould_2017",
+        "page": 275,
+        "quote": "In the chemistry course he was instructed by Willis Rodney Whitney (1868–1958) who was to have a major effect on his future professional life."
+      }
+    ]
+  }
+]

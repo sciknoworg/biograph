@@ -1,0 +1,64 @@
+[
+  {
+    "id": "joseph_valasek",
+    "entity_type": "person",
+    "name": "Joseph Valasek",
+    "aliases": [
+      "Josef Valasek"
+    ],
+    "summary": "Graduate student who discovered ferroelectricity in Rochelle salt.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "w_f_g_swann",
+    "entity_type": "person",
+    "name": "W. F. G. Swann",
+    "aliases": [
+      "Prof. W. F. G. Swann",
+      "Swann"
+    ],
+    "summary": "Professor at University of Minnesota who supervised Valasek.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "university_of_minnesota",
+    "entity_type": "organization",
+    "name": "University of Minnesota",
+    "aliases": [
+      "University of Minnesota, MN, USA"
+    ],
+    "summary": "University where Valasek was a graduate student.",
+    "subtype": "university",
+    "attributes": {
+      "location": "Minnesota, USA"
+    }
+  },
+  {
+    "id": "american_physical_society",
+    "entity_type": "organization",
+    "name": "American Physical Society",
+    "aliases": [
+      "APS"
+    ],
+    "summary": "Professional organization where Valasek's discovery was presented.",
+    "subtype": "society"
+  },
+  {
+    "id": "physical_review",
+    "entity_type": "artifact",
+    "name": "Physical Review",
+    "aliases": [
+      "Phys. Rev."
+    ],
+    "summary": "Journal where Valasek's discovery paper was published.",
+    "subtype": "publication"
+  },
+  {
+    "id": "rochelle_salt",
+    "entity_type": "artifact",
+    "name": "Rochelle salt",
+    "aliases": [],
+    "summary": "Material in which ferroelectricity was first observed.",
+    "subtype": "material"
+  }
+]

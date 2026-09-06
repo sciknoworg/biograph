@@ -1,0 +1,410 @@
+[
+  {
+    "id": "birth_1943",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1943",
+      "precision": "year",
+      "sort_start": "1943-01-01",
+      "sort_end": "1943-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "tampere",
+        "role": "birth_place"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "matriculation_1962",
+    "event_type": "education",
+    "label": "Completed matriculation",
+    "date": {
+      "display": "1962",
+      "precision": "year",
+      "sort_start": "1962-01-01",
+      "sort_end": "1962-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "studies_start_1963",
+    "event_type": "education",
+    "label": "Started electrical engineering studies",
+    "date": {
+      "display": "1963",
+      "precision": "year",
+      "sort_start": "1963-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "helsinki_university_of_technology",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "master_thesis_1967",
+    "event_type": "education",
+    "label": "Completed Master’s thesis on Schottky diodes",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "helsinki_university_of_technology",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "doctorate_dec_1971",
+    "event_type": "education",
+    "label": "Earned Doctor of Science in Technology",
+    "date": {
+      "display": "December 1971",
+      "precision": "month",
+      "sort_start": "1971-12-01",
+      "sort_end": "1971-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "helsinki_university_of_technology",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "ale_invention_june_1974",
+    "event_type": "invention",
+    "label": "Invention of atomic layer epitaxy",
+    "date": {
+      "display": "June 1974",
+      "precision": "month",
+      "sort_start": "1974-06-01",
+      "sort_end": "1974-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "inventor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "patent_filed_nov_1974",
+    "event_type": "patent_filed",
+    "label": "Filed Finnish ALE patent (FIN 52359)",
+    "date": {
+      "display": "29 November 1974",
+      "precision": "day",
+      "sort_start": "1974-11-29",
+      "sort_end": "1974-11-29"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "ale_patent_1974",
+        "role": "artifact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "essay",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "first_growth_aug_sep_1974",
+    "event_type": "publication",
+    "label": "First ALE growth experiments",
+    "date": {
+      "display": "August–September 1974",
+      "precision": "range",
+      "sort_start": "1974-08-01",
+      "sort_end": "1974-09-30"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "researcher"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "essay",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "patent_hearing_moscow_1977_78",
+    "event_type": "other",
+    "label": "Patent hearing in Moscow",
+    "date": {
+      "display": "1977–1978",
+      "precision": "range",
+      "sort_start": "1977-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "essay",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "sid_demo_april_may_1980",
+    "event_type": "public_demonstration",
+    "label": "SID conference EL display demonstration",
+    "date": {
+      "display": "April–May 1980",
+      "precision": "range",
+      "sort_start": "1980-04-01",
+      "sort_end": "1980-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "presenter"
+      },
+      {
+        "entity_id": "sid_conference_1980",
+        "role": "event"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "essay",
+        "page": 5
+      }
+    ]
+  },
+  {
+    "id": "pilot_production_1983",
+    "event_type": "product_launch",
+    "label": "Pilot production of TF‑EL displays at Lohja",
+    "date": {
+      "display": "1983",
+      "precision": "year",
+      "sort_start": "1983-01-01",
+      "sort_end": "1983-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "chief_scientist"
+      },
+      {
+        "entity_id": "lohja_oy",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "essay",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "microchemistry_founded_1987",
+    "event_type": "company_founded",
+    "label": "Founded Microchemistry Ltd.",
+    "date": {
+      "display": "1987",
+      "precision": "year",
+      "sort_start": "1987-01-01",
+      "sort_end": "1987-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "founder"
+      },
+      {
+        "entity_id": "microchemistry_ltd",
+        "role": "company"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "essay",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "id": "f120_developed_early_1990s",
+    "event_type": "invention",
+    "label": "Developed F‑120 ALE reactor",
+    "date": {
+      "display": "early 1990s",
+      "precision": "decade",
+      "sort_start": "1990-01-01",
+      "sort_end": "1999-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "designer"
+      },
+      {
+        "entity_id": "f120_reactor",
+        "role": "artifact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "essay",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "id": "asm_acquisition_1999",
+    "event_type": "company_sold",
+    "label": "Microchemistry sold to ASM",
+    "date": {
+      "display": "1999",
+      "precision": "year",
+      "sort_start": "1999-01-01",
+      "sort_end": "1999-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "microchemistry_ltd",
+        "role": "seller"
+      },
+      {
+        "entity_id": "asm_microchemistry",
+        "role": "buyer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "essay",
+        "page": 10
+      }
+    ]
+  },
+  {
+    "id": "semi_award_2004",
+    "event_type": "award",
+    "label": "Received European SEMI Award",
+    "date": {
+      "display": "2004",
+      "precision": "year",
+      "sort_start": "2004-01-01",
+      "sort_end": "2004-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "recipient"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "essay",
+        "page": 13
+      }
+    ]
+  },
+  {
+    "id": "full_retirement_2004",
+    "event_type": "retirement",
+    "label": "Full retirement",
+    "date": {
+      "display": "2004",
+      "precision": "year",
+      "sort_start": "2004-01-01",
+      "sort_end": "2004-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "essay",
+        "page": 13
+      }
+    ]
+  }
+]

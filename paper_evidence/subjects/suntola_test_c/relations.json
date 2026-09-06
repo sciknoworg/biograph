@@ -1,0 +1,300 @@
+[
+  {
+    "id": "suntola_born_in_tampere",
+    "source": "tuomo_suntola",
+    "type": "born_in",
+    "target": "tampere",
+    "event_id": "birth_1943",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "suntola_studied_at_hut",
+    "source": "tuomo_suntola",
+    "type": "studied_at",
+    "target": "helsinki_university_of_technology",
+    "start": {
+      "precision": "year",
+      "sort_start": "1963-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "end": {
+      "precision": "year",
+      "sort_start": "1971-12-01",
+      "sort_end": "1971-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "suntola_supervised_by_stubb",
+    "source": "tuomo_suntola",
+    "type": "supervised_by",
+    "target": "thor_stubb",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "suntola_worked_at_vtt",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "vtt_technical_research_centre",
+    "start": {
+      "precision": "range",
+      "sort_start": "1971-09-01",
+      "sort_end": "1971-11-30"
+    },
+    "end": {
+      "precision": "year",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "suntola_worked_at_instrumentarium",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "instrumentarium_oy",
+    "start": {
+      "precision": "year",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-12-31"
+    },
+    "end": {
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "suntola_worked_at_lohja",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "lohja_oy",
+    "start": {
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "end": {
+      "precision": "year",
+      "sort_start": "1987-01-01",
+      "sort_end": "1987-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "suntola_founded_microchemistry",
+    "source": "tuomo_suntola",
+    "type": "founded",
+    "target": "microchemistry_ltd",
+    "event_id": "microchemistry_founded_1987",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "id": "suntola_worked_at_microchemistry",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "microchemistry_ltd",
+    "start": {
+      "precision": "year",
+      "sort_start": "1987-01-01",
+      "sort_end": "1987-12-31"
+    },
+    "end": {
+      "precision": "year",
+      "sort_start": "1998-01-01",
+      "sort_end": "1998-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "id": "suntola_invented_ale",
+    "source": "tuomo_suntola",
+    "type": "invented",
+    "target": "atomic_layer_epitaxy",
+    "event_id": "ale_invention_1974",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "suntola_patented_ale",
+    "source": "tuomo_suntola",
+    "type": "patented",
+    "target": "us_4058430_patent",
+    "event_id": "ale_patent_filed_1974",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "microchemistry_sold_to_asm",
+    "source": "microchemistry_ltd",
+    "type": "sold_to",
+    "target": "asm",
+    "event_id": "microchemistry_sold_1999",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 10
+      }
+    ]
+  },
+  {
+    "id": "lohja_el_sold_to_planar",
+    "source": "lohja_oy",
+    "type": "sold_to",
+    "target": "planar_inc",
+    "event_id": "lohja_el_sold_1990",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "planar_el_acquired_by_beneq",
+    "source": "planar_inc",
+    "type": "acquired_by",
+    "target": "beneq_oy",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "lindfors_founded_picosun",
+    "source": "sven_lindfors",
+    "type": "founded",
+    "target": "picosun_oy",
+    "event_id": "picosun_founded_2004",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 10
+      }
+    ]
+  },
+  {
+    "id": "suntola_collaborated_with_antson",
+    "source": "tuomo_suntola",
+    "type": "collaborated_with",
+    "target": "jorma_antson",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "suntola_collaborated_with_lindfors",
+    "source": "tuomo_suntola",
+    "type": "collaborated_with",
+    "target": "sven_lindfors",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 5
+      }
+    ]
+  },
+  {
+    "id": "suntola_collaborated_with_pakkala",
+    "source": "tuomo_suntola",
+    "type": "collaborated_with",
+    "target": "arto_pakkala",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 5
+      }
+    ]
+  },
+  {
+    "id": "suntola_collaborated_with_niinisto",
+    "source": "tuomo_suntola",
+    "type": "collaborated_with",
+    "target": "lauri_niinisto",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 11
+      }
+    ]
+  },
+  {
+    "id": "suntola_met_nishizawa",
+    "source": "tuomo_suntola",
+    "type": "met",
+    "target": "jun_ichi_nishizawa",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 11
+      }
+    ]
+  },
+  {
+    "id": "suntola_met_aleskovskii",
+    "source": "tuomo_suntola",
+    "type": "met",
+    "target": "aleskovskii",
+    "event_id": "leningrad_visit_1990",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 12
+      }
+    ]
+  }
+]

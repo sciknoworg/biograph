@@ -1,0 +1,259 @@
+[
+  {
+    "id": "davy_birth",
+    "event_type": "birth",
+    "label": "Born in Penzance",
+    "date": {
+      "display": "1778",
+      "precision": "year",
+      "sort_start": "1778-01-01",
+      "sort_end": "1778-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "humphry_davy",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "marshall_2015_hexagon",
+        "page": 25,
+        "quote": "Humphry Davy (1778-1829)."
+      }
+    ]
+  },
+  {
+    "id": "davy_joined_ri",
+    "event_type": "employment_start",
+    "label": "Joined Royal Institution",
+    "date": {
+      "display": "1801",
+      "precision": "year",
+      "sort_start": "1801-01-01",
+      "sort_end": "1801-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "humphry_davy",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_institution",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "marshall_2015_hexagon",
+        "page": 24,
+        "quote": "Davy joined the Royal Institution in 1801."
+      }
+    ]
+  },
+  {
+    "id": "davy_first_lecture",
+    "event_type": "conference",
+    "label": "First lecture at Royal Institution",
+    "description": "Lecture on 'The New Branch of Philosophy; Galvanism'.",
+    "date": {
+      "display": "1801",
+      "precision": "year",
+      "sort_start": "1801-01-01",
+      "sort_end": "1801-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "humphry_davy",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_institution",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "marshall_2015_hexagon",
+        "page": 27,
+        "quote": "his first lecture was given in 1801 on \"The New Branch of Philosophy; Galvanism [chemically produced direct-current phenomena].\""
+      }
+    ]
+  },
+  {
+    "id": "davy_discovered_k_na",
+    "event_type": "invention",
+    "label": "Prepared elemental potassium and sodium",
+    "date": {
+      "display": "1807",
+      "precision": "year",
+      "sort_start": "1807-01-01",
+      "sort_end": "1807-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "humphry_davy",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "marshall_2015_hexagon",
+        "page": 24,
+        "quote": "first to prepare elemental potassium and sodium here in 1807."
+      }
+    ]
+  },
+  {
+    "id": "davy_discovered_ca_sr_ba_mg",
+    "event_type": "invention",
+    "label": "Prepared elemental calcium, strontium, barium, and magnesium",
+    "date": {
+      "display": "1808",
+      "precision": "year",
+      "sort_start": "1808-01-01",
+      "sort_end": "1808-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "humphry_davy",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "marshall_2015_hexagon",
+        "page": 26,
+        "quote": "allowed the production in 1808 of elemental calcium, strontium, barium, and magnesium."
+      }
+    ]
+  },
+  {
+    "id": "davy_discovered_boron",
+    "event_type": "invention",
+    "label": "Produced elemental boron",
+    "date": {
+      "display": "1808",
+      "precision": "year",
+      "sort_start": "1808-01-01",
+      "sort_end": "1808-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "humphry_davy",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "marshall_2015_hexagon",
+        "page": 26,
+        "quote": "In Davy's laboratory, elemental boron (Figures 9-11) was produced the same year"
+      }
+    ]
+  },
+  {
+    "id": "davy_paris_visit",
+    "event_type": "visit",
+    "label": "Visited Paris",
+    "date": {
+      "display": "1813",
+      "precision": "year",
+      "sort_start": "1813-01-01",
+      "sort_end": "1813-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "humphry_davy",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "marshall_2015_hexagon",
+        "page": 26,
+        "quote": "When Davy visited Paris in 1813"
+      }
+    ]
+  },
+  {
+    "id": "faraday_assistant",
+    "event_type": "employment_start",
+    "label": "Faraday became Davy's assistant",
+    "date": {
+      "display": "1813",
+      "precision": "year",
+      "sort_start": "1813-01-01",
+      "sort_end": "1813-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "michael_faraday",
+        "role": "subject"
+      },
+      {
+        "entity_id": "humphry_davy",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "marshall_2015_hexagon",
+        "page": 27,
+        "quote": "the next year became Davy's assistant-just in time for the two-year journey to the Continent."
+      }
+    ]
+  },
+  {
+    "id": "faraday_christmas_lectures",
+    "event_type": "other",
+    "label": "Instituted Christmas lectures",
+    "date": {
+      "display": "1825",
+      "precision": "year",
+      "sort_start": "1825-01-01",
+      "sort_end": "1825-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "michael_faraday",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_institution",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "marshall_2015_hexagon",
+        "page": 27,
+        "quote": "In 1825 Faraday instituted the Christmas lectures at the Royal Institution"
+      }
+    ]
+  },
+  {
+    "id": "davy_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1829",
+      "precision": "year",
+      "sort_start": "1829-01-01",
+      "sort_end": "1829-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "humphry_davy",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "marshall_2015_hexagon",
+        "page": 25,
+        "quote": "Humphry Davy (1778-1829)."
+      }
+    ]
+  }
+]

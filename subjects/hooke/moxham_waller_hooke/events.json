@@ -1,0 +1,327 @@
+[
+  {
+    "id": "hooke_air_pump_invention",
+    "event_type": "invention",
+    "label": "Contrived and perfected the air pump",
+    "description": "Hooke claimed to have perfected the air pump for Boyle, printed in 1660.",
+    "date": {
+      "display": "1658, or the following year",
+      "precision": "range",
+      "sort_start": "1658-01-01",
+      "sort_end": "1659-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_hooke",
+        "role": "invention"
+      },
+      {
+        "entity_id": "robert_boyle",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "moxham_waller_hooke",
+        "page": 1,
+        "quote": "Our author tells us that in 1658, or the following year, he contrived and perfected the air pump for Mr Boyle, as it was printed in 1660"
+      }
+    ]
+  },
+  {
+    "id": "hooke_gresham_residence",
+    "event_type": "relocation",
+    "label": "Moved to Gresham College",
+    "description": "Hooke had lived at Gresham College since 1664, where the Society held its meetings.",
+    "date": {
+      "display": "1664",
+      "precision": "year",
+      "sort_start": "1664-01-01",
+      "sort_end": "1664-12-31"
+    },
+    "location": "gresham_college",
+    "participants": [
+      {
+        "entity_id": "robert_hooke",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "moxham_waller_hooke",
+        "page": 1,
+        "quote": "Hooke had lived since 1664 in Gresham College, where the Society held its meetings"
+      }
+    ]
+  },
+  {
+    "id": "hooke_micrographia_publication",
+    "event_type": "publication",
+    "label": "Published Micrographia",
+    "description": "Hooke's preface to Micrographia praised Christopher Wren.",
+    "date": {
+      "display": "1665",
+      "precision": "year",
+      "sort_start": "1665-01-01",
+      "sort_end": "1665-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_hooke",
+        "role": "subject"
+      },
+      {
+        "entity_id": "micrographia",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "moxham_waller_hooke",
+        "page": 1,
+        "quote": "Hooke's praise of Christopher Wren in the preface to Micrographia, which holds Wren up as exemplary for uniting 'such a mechanical hand, and so philosophical a mind.'"
+      }
+    ]
+  },
+  {
+    "id": "hooke_cutlerian_lectureship",
+    "event_type": "employment_start",
+    "label": "Endowment of Cutlerian Lectureship",
+    "description": "Sir John Cutler endowed a lectureship on the history of trades in 1665.",
+    "date": {
+      "display": "1665",
+      "precision": "year",
+      "sort_start": "1665-01-01",
+      "sort_end": "1665-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_hooke",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "moxham_waller_hooke",
+        "page": 1,
+        "quote": "lectures he gave under the terms of Sir John Cutler's 1665 endowment of a lectureship on the history of trades"
+      }
+    ]
+  },
+  {
+    "id": "hooke_oldenburg_breach",
+    "event_type": "other",
+    "label": "Breakdown of relationship with Oldenburg",
+    "description": "Working relationship between Hooke and Henry Oldenburg broke down.",
+    "date": {
+      "display": "1675",
+      "precision": "year",
+      "sort_start": "1775-01-01",
+      "sort_end": "1675-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_hooke",
+        "role": "subject"
+      },
+      {
+        "entity_id": "henry_oldenburg",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "moxham_waller_hooke",
+        "page": 1,
+        "quote": "the problem engendered by the breakdown of the working relationship between Hooke and Henry Oldenburg in 1675"
+      }
+    ]
+  },
+  {
+    "id": "hooke_philosophical_collections",
+    "event_type": "publication",
+    "label": "Published Philosophical Collections",
+    "description": "Hooke published his own journal in 7 issues.",
+    "date": {
+      "display": "1679-82",
+      "precision": "range",
+      "sort_start": "1679-01-01",
+      "sort_end": "1682-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_hooke",
+        "role": "subject"
+      },
+      {
+        "entity_id": "philosophical_transactions",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "moxham_waller_hooke",
+        "page": 1,
+        "quote": "endeavoured to replace them with his own sporadically appearing journal, the Philosophical Collections (7 issues, 1679-82)."
+      }
+    ]
+  },
+  {
+    "id": "hooke_diary_entry",
+    "event_type": "other",
+    "label": "Began writing History of his own Life",
+    "description": "Hooke began writing his autobiography in his diary.",
+    "date": {
+      "display": "Saturday April the 10th 1697",
+      "precision": "day",
+      "sort_start": "1697-04-10",
+      "sort_end": "1697-04-10"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_hooke",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "moxham_waller_hooke",
+        "page": 1,
+        "quote": "\"Saturday April the 10th 1697.  I began this day to write the History of my own Life"
+      }
+    ]
+  },
+  {
+    "id": "hooke_death",
+    "event_type": "death",
+    "label": "Died",
+    "description": "Hooke died intestate in March 1703.",
+    "date": {
+      "display": "March 1703",
+      "precision": "month",
+      "sort_start": "1703-03-01",
+      "sort_end": "1703-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_hooke",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "moxham_waller_hooke",
+        "page": 1,
+        "quote": "When he died, in March 1703, his death wasn't simply an intellectual loss to the Society"
+      }
+    ]
+  },
+  {
+    "id": "newton_president",
+    "event_type": "role_change",
+    "label": "Newton became President of Royal Society",
+    "description": "Newton rose to the Presidency eight months after Hooke's death.",
+    "date": {
+      "display": "late 1703",
+      "precision": "year",
+      "sort_start": "1703-11-01",
+      "sort_end": "1703-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "isaac_newton",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_society",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "moxham_waller_hooke",
+        "page": 1,
+        "quote": "Newton rose to pre-eminence in reputation and to the Presidency of the Royal Society... eight months after Hooke's death."
+      }
+    ]
+  },
+  {
+    "id": "newton_knighted",
+    "event_type": "award",
+    "label": "Newton knighted",
+    "description": "Newton was knighted in April 1705.",
+    "date": {
+      "display": "April 1705",
+      "precision": "month",
+      "sort_start": "1705-04-01",
+      "sort_end": "1705-04-30"
+    },
+    "participants": [
+      {
+        "entity_id": "isaac_newton",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "moxham_waller_hooke",
+        "page": 1,
+        "quote": "Newton was knighted in April 1705, fully two years after Hooke's death."
+      }
+    ]
+  },
+  {
+    "id": "waller_posthumous_works",
+    "event_type": "publication",
+    "label": "Published Posthumous Works",
+    "description": "Waller published Hooke's Posthumous Works with the 'Life' prefixed.",
+    "date": {
+      "display": "1705",
+      "precision": "year",
+      "sort_start": "1705-01-01",
+      "sort_end": "1705-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "richard_waller",
+        "role": "subject"
+      },
+      {
+        "entity_id": "posthumous_works",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "moxham_waller_hooke",
+        "page": 1,
+        "quote": "Richard Waller's 'Life of Dr Robert Hooke', prefixed to his edition of Hooke's Posthumous Works (1705)"
+      }
+    ]
+  },
+  {
+    "id": "waller_received_papers",
+    "event_type": "other",
+    "label": "Waller received fresh papers",
+    "description": "Waller received more of Hooke's papers in 1707.",
+    "date": {
+      "display": "1707",
+      "precision": "year",
+      "sort_start": "1707-01-01",
+      "sort_end": "1707-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "richard_waller",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "moxham_waller_hooke",
+        "page": 1,
+        "quote": "we can determine that some fresh papers of Hooke's came to Waller's hands in or about 1707"
+      }
+    ]
+  }
+]

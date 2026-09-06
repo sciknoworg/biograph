@@ -1,0 +1,168 @@
+[
+  {
+    "id": "valasek_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "April 27, 1897",
+      "precision": "day",
+      "sort_start": "1897-04-27",
+      "sort_end": "1897-04-27"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_valasek",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saxena_bhalla_2020",
+        "page": 9,
+        "quote": "Fig. 1 Josef Valasek (April 27, 1897 – October 4, 1993)."
+      }
+    ]
+  },
+  {
+    "id": "valasek_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "October 4, 1993",
+      "precision": "day",
+      "sort_start": "1993-10-04",
+      "sort_end": "1993-10-04"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_valasek",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saxena_bhalla_2020",
+        "page": 9,
+        "quote": "Fig. 1 Josef Valasek (April 27, 1897 – October 4, 1993)."
+      }
+    ]
+  },
+  {
+    "id": "valasek_graduate_student_1920",
+    "event_type": "education",
+    "label": "Graduate student at University of Minnesota",
+    "date": {
+      "display": "1920",
+      "precision": "year",
+      "sort_start": "1920-01-01",
+      "sort_end": "1920-12-31"
+    },
+    "location": "university_of_minnesota",
+    "participants": [
+      {
+        "entity_id": "joseph_valasek",
+        "role": "subject"
+      },
+      {
+        "entity_id": "w_f_g_swann",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saxena_bhalla_2020",
+        "page": 3,
+        "quote": "by then a graduate student Joseph Valasek working under the supervision of Prof. W. F. G. Swann."
+      }
+    ]
+  },
+  {
+    "id": "valasek_aps_presentation_1920",
+    "event_type": "conference",
+    "label": "Discovery presented at APS Meeting",
+    "description": "Paper presented by Swann as Valasek was not present.",
+    "date": {
+      "display": "April 1920",
+      "precision": "month",
+      "sort_start": "1920-04-01",
+      "sort_end": "1920-04-30"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_valasek",
+        "role": "subject"
+      },
+      {
+        "entity_id": "w_f_g_swann",
+        "role": "presenter"
+      },
+      {
+        "entity_id": "american_physical_society",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saxena_bhalla_2020",
+        "page": 3,
+        "quote": "paper presented at the American Physical Society (APS) Meeting in Washington, DC, April 1920"
+      }
+    ]
+  },
+  {
+    "id": "valasek_paper_submission_1920",
+    "event_type": "publication",
+    "label": "Paper submitted to Physical Review",
+    "date": {
+      "display": "late 1920",
+      "precision": "year",
+      "sort_start": "1920-07-01",
+      "sort_end": "1920-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_valasek",
+        "role": "subject"
+      },
+      {
+        "entity_id": "physical_review",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saxena_bhalla_2020",
+        "page": 3,
+        "quote": "In late 1920, Valasek's paper was submitted to Physical Review"
+      }
+    ]
+  },
+  {
+    "id": "valasek_paper_publication_1921",
+    "event_type": "publication",
+    "label": "Paper published in Physical Review",
+    "date": {
+      "display": "April 1921",
+      "precision": "month",
+      "sort_start": "1921-04-01",
+      "sort_end": "1921-04-30"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_valasek",
+        "role": "subject"
+      },
+      {
+        "entity_id": "physical_review",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saxena_bhalla_2020",
+        "page": 3,
+        "quote": "and that appeared in April 1921 (Piezoelectric and allied phenomena in Rochelle salt, Phys. Rev. 17, 475-481, 1921)."
+      }
+    ]
+  }
+]

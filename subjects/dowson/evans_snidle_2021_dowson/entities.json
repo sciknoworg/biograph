@@ -1,0 +1,66 @@
+[
+  {
+    "id": "duncan_dowson",
+    "entity_type": "person",
+    "name": "Duncan Dowson",
+    "aliases": [],
+    "summary": "British mechanical engineer and pioneer of elastohydrodynamic lubrication theory.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "gordon_higginson",
+    "entity_type": "person",
+    "name": "Gordon Higginson",
+    "aliases": [],
+    "summary": "Mechanical engineer and collaborator of Duncan Dowson on EHL theory.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "leeds_university",
+    "entity_type": "organization",
+    "name": "Leeds University",
+    "aliases": [],
+    "summary": "University where Dowson and Higginson were lecturers in 1959.",
+    "subtype": "university"
+  },
+  {
+    "id": "cardiff_university",
+    "entity_type": "organization",
+    "name": "Cardiff University",
+    "aliases": [],
+    "summary": "University where authors Evans and Snidle work.",
+    "subtype": "university"
+  },
+  {
+    "id": "h_p_evans",
+    "entity_type": "person",
+    "name": "H P Evans",
+    "aliases": [],
+    "summary": "Author of this review and researcher at Cardiff University.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "r_w_snidle",
+    "entity_type": "person",
+    "name": "R W Snidle",
+    "aliases": [],
+    "summary": "Author of this review and researcher at Cardiff University.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "dowson_higginson_1959_paper",
+    "entity_type": "artifact",
+    "name": "A numerical solution to the elastohydrodynamic lubrication problem",
+    "aliases": [],
+    "summary": "Breakthrough 1959 paper on EHL numerical treatment.",
+    "subtype": "publication"
+  },
+  {
+    "id": "dowson_higginson_1966_book",
+    "entity_type": "artifact",
+    "name": "Elastohydrodynamic Lubrication",
+    "aliases": [],
+    "summary": "Well-known 1966 book on EHL.",
+    "subtype": "publication"
+  }
+]

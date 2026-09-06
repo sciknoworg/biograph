@@ -1,10 +1,23 @@
 # data/
 
-Source PDFs are **not committed** to this repository (`data/*.pdf` is
-gitignored). Both papers handled so far are publisher-hosted (Wiley, in
-both current cases) — we don't have redistribution rights to the PDF
-itself, only the right to read and extract from a copy legitimately
-obtained.
+Source documents are **not committed** to this repository — neither the
+original PDFs (`data/*.pdf`) nor the extracted text the pipeline archives
+alongside them (`data/*.txt`). Both are gitignored. We don't have
+redistribution rights to the source itself, only the right to read and
+extract from a copy legitimately obtained.
+
+This holds for automatically discovered open-access sources too, and the
+distinction is worth stating plainly: extracting text changes the format,
+not the copyright. "Open access" spans everything from CC-BY (redistributable
+with attribution) through to free-to-read-only (not redistributable), and
+this pipeline records no per-source license field — `sources.json` carries
+title, authors, year, publication, DOI and URL, but nothing about
+redistribution rights. Publishing the text would need that evidence
+per source; until it's collected, the text stays local.
+
+Keeping it locally is not incidental — `data/<slug>.txt` is what the
+grounding check re-verifies quotes against, so it has to survive after the
+PDF is deleted.
 
 What *is* committed, and what actually matters for reproducibility, is
 the citation: every source a subject draws from is fully described in

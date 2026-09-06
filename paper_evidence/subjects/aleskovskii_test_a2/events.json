@@ -1,0 +1,617 @@
+[
+  {
+    "id": "birth_aleskovskii",
+    "event_type": "birth",
+    "label": "Born in Mary, Turkmenistan",
+    "date": {
+      "display": "June 3, 1912",
+      "precision": "day",
+      "sort_start": "1912-06-03",
+      "sort_end": "1912-06-03"
+    },
+    "location": "mary_turkmenistan",
+    "participants": [
+      {
+        "entity_id": "valentin_borisovich_aleskovskii",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 2,
+        "quote": "Valentin Borisovich Aleskovskii was born on June 3rd 1912 in the city of Mary (Turkmenistan)."
+      }
+    ]
+  },
+  {
+    "id": "admission_lti_aleskovskii",
+    "event_type": "education",
+    "label": "Admitted to LTI by Lensovet",
+    "date": {
+      "display": "1931",
+      "precision": "year",
+      "sort_start": "1931-01-01",
+      "sort_end": "1931-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "valentin_borisovich_aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "graduation_lti_aleskovskii",
+    "event_type": "education",
+    "label": "Graduated from LTI by Lensovet",
+    "date": {
+      "display": "1937",
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1937-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "valentin_borisovich_aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "work_naval_institute",
+    "event_type": "employment_start",
+    "label": "Started work at Naval Research Institute",
+    "date": {
+      "display": "1937",
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1937-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "valentin_borisovich_aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "naval_research_institute",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "grad_studies_lti_aleskovskii",
+    "event_type": "education",
+    "label": "Started graduate studies at LTI by Lensovet",
+    "date": {
+      "display": "1938",
+      "precision": "year",
+      "sort_start": "1938-01-01",
+      "sort_end": "1938-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "valentin_borisovich_aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "candidate_degree_aleskovskii",
+    "event_type": "education",
+    "label": "Defended candidate of chemical sciences degree",
+    "date": {
+      "display": "1940",
+      "precision": "year",
+      "sort_start": "1940-01-01",
+      "sort_end": "1940-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "valentin_borisovich_aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "war_volunteer_aleskovskii",
+    "event_type": "other",
+    "label": "Volunteered for the war",
+    "date": {
+      "display": "June 1941",
+      "precision": "month",
+      "sort_start": "1941-06-01",
+      "sort_end": "1941-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "valentin_borisovich_aleskovskii",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "head_analytical_chem_lti",
+    "event_type": "role_change",
+    "label": "Appointed head of Department of Analytical Chemistry",
+    "date": {
+      "display": "1949",
+      "precision": "year",
+      "sort_start": "1949-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "valentin_borisovich_aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "doctoral_dissertation_aleskovskii",
+    "event_type": "education",
+    "label": "Defended doctoral dissertation",
+    "description": "Became Doctor of Chemical Sciences and Professor; thesis included the 'framework' hypothesis.",
+    "date": {
+      "display": "1952",
+      "precision": "year",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "valentin_borisovich_aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "framework_hypothesis_outlined",
+    "event_type": "invention",
+    "label": "Outlined 'framework' hypothesis",
+    "description": "Original idea outlined in 1940, noted in 1952 doctoral dissertation.",
+    "date": {
+      "display": "1940",
+      "precision": "year",
+      "sort_start": "1940-01-01",
+      "sort_end": "1940-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "valentin_borisovich_aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "molecular_layering_method",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3,
+        "quote": "In his doctoral dissertation on page 98 V. B. Aleskovskii notes that the original idea of 'framework' hypothesis was outlined by him in 1940."
+      }
+    ]
+  },
+  {
+    "id": "koltsov_admission_lti",
+    "event_type": "education",
+    "label": "Kol'tsov admitted to LTI by Lensovet",
+    "date": {
+      "display": "1950",
+      "precision": "year",
+      "sort_start": "1950-01-01",
+      "sort_end": "1950-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stanislav_ivanovich_koltsov",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "koltsov_graduation_lti",
+    "event_type": "education",
+    "label": "Kol'tsov graduated from LTI by Lensovet",
+    "date": {
+      "display": "1955",
+      "precision": "year",
+      "sort_start": "1955-01-01",
+      "sort_end": "1955-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stanislav_ivanovich_koltsov",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "koltsov_grad_studies",
+    "event_type": "education",
+    "label": "Kol'tsov enrolled as graduate student",
+    "date": {
+      "display": "1955",
+      "precision": "year",
+      "sort_start": "1955-01-01",
+      "sort_end": "1955-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stanislav_ivanovich_koltsov",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "koltsov_candidate_degree",
+    "event_type": "education",
+    "label": "Kol'tsov defended candidate degree thesis",
+    "date": {
+      "display": "1963",
+      "precision": "year",
+      "sort_start": "1963-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stanislav_ivanovich_koltsov",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "rector_lti_aleskovskii",
+    "event_type": "role_change",
+    "label": "Acting rector of LTI by Lensovet",
+    "date": {
+      "display": "1965–1975",
+      "precision": "range",
+      "sort_start": "1965-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "valentin_borisovich_aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "founded_dept_chemistry_solids",
+    "event_type": "company_founded",
+    "label": "Founded Department of Chemistry of Solids",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "valentin_borisovich_aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "dept_chemistry_solids_lti",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "academy_member_aleskovskii",
+    "event_type": "award",
+    "label": "Elected corresponding member of Academy of Sciences",
+    "date": {
+      "display": "1972",
+      "precision": "year",
+      "sort_start": "1972-01-01",
+      "sort_end": "1972-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "valentin_borisovich_aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "academy_of_sciences_ussr",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "patent_application_ml",
+    "event_type": "patent_filed",
+    "label": "Filed patent application for ML process",
+    "description": "Application declined by patent office.",
+    "date": {
+      "display": "April 07, 1971",
+      "precision": "day",
+      "sort_start": "1971-04-07",
+      "sort_end": "1971-04-07"
+    },
+    "participants": [
+      {
+        "entity_id": "valentin_borisovich_aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "stanislav_ivanovich_koltsov",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "molecular_layering_method",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "rector_lsu_aleskovskii",
+    "event_type": "role_change",
+    "label": "Appointed rector of Leningrad State University",
+    "date": {
+      "display": "1975",
+      "precision": "year",
+      "sort_start": "1975-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "valentin_borisovich_aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lsu",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "founded_dept_solid_state_lsu",
+    "event_type": "company_founded",
+    "label": "Organized Department of Solid State Chemistry at LSU",
+    "date": {
+      "display": "1977",
+      "precision": "year",
+      "sort_start": "1977-01-01",
+      "sort_end": "1977-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "valentin_borisovich_aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "dept_solid_state_chemistry_lsu",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "inter_university_program",
+    "event_type": "other",
+    "label": "Founded 'Chemical assembly of materials' program",
+    "date": {
+      "display": "1978",
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "valentin_borisovich_aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lsu",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "death_koltsov",
+    "event_type": "death",
+    "label": "Kol'tsov passed away",
+    "date": {
+      "display": "May 25, 2003",
+      "precision": "day",
+      "sort_start": "2003-05-25",
+      "sort_end": "2003-05-25"
+    },
+    "participants": [
+      {
+        "entity_id": "stanislav_ivanovich_koltsov",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "id": "death_aleskovskii",
+    "event_type": "death",
+    "label": "Aleskovskii passed away",
+    "date": {
+      "display": "January 29, 2006",
+      "precision": "day",
+      "sort_start": "2006-01-29",
+      "sort_end": "2006-01-29"
+    },
+    "participants": [
+      {
+        "entity_id": "valentin_borisovich_aleskovskii",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 8
+      }
+    ]
+  }
+]

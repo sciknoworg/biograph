@@ -1,0 +1,535 @@
+[
+  {
+    "id": "nishizawa_received_hint_1957",
+    "event_type": "other",
+    "label": "Received hint for semiconductor laser",
+    "description": "Received a hint for creating a semiconductor laser from a paper published by Wittke.",
+    "date": {
+      "display": "1957",
+      "precision": "year",
+      "sort_start": "1957-01-01",
+      "sort_end": "1957-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jun_ichi_nishizawa",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nishizawa_2004",
+        "page": 74,
+        "quote": "In 1957, the author received a hint for creating a semiconductor laser from a paper published by Wittke 1) in IRE Proceedings"
+      }
+    ]
+  },
+  {
+    "id": "nishizawa_proposed_laser_1957",
+    "event_type": "invention",
+    "label": "Proposed semiconductor laser",
+    "date": {
+      "display": "1957",
+      "precision": "year",
+      "sort_start": "1957-01-01",
+      "sort_end": "1957-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jun_ichi_nishizawa",
+        "role": "subject"
+      },
+      {
+        "entity_id": "semiconductor_laser",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nishizawa_2004",
+        "page": 75,
+        "quote": "1957 J. Nishizawa Proposal of laser, in particular, semiconductor laser"
+      }
+    ]
+  },
+  {
+    "id": "groups_realized_laser_1962",
+    "event_type": "product_launch",
+    "label": "Five groups realized semiconductor lasers",
+    "description": "Five research groups published their successes in realizing semiconductor lasers, including IBM, Lincoln Laboratories, RCA, and General Electric.",
+    "date": {
+      "display": "1962",
+      "precision": "year",
+      "sort_start": "1962-01-01",
+      "sort_end": "1962-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jun_ichi_nishizawa",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nishizawa_2004",
+        "page": 74,
+        "quote": "Then after 5 years, five research groups published their successes in realizing semiconductor lasers."
+      }
+    ]
+  },
+  {
+    "id": "nishizawa_wrote_article_1963",
+    "event_type": "publication",
+    "label": "Wrote article on semiconductor lasers",
+    "description": "Asked by editor Yasuo Hirano to write an article explaining semiconductor lasers including future projects.",
+    "date": {
+      "display": "1963",
+      "precision": "year",
+      "sort_start": "1963-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jun_ichi_nishizawa",
+        "role": "subject"
+      },
+      {
+        "entity_id": "yasuo_hirano",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "electronic_science",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nishizawa_2004",
+        "page": 74,
+        "quote": "However, the editor, Yasuo Hirano, of a Japanese magazine Electronic Science asked the author to write an article explaining semiconductor lasers including future projects to be pursued."
+      }
+    ]
+  },
+  {
+    "id": "nishizawa_proposed_thz_1963",
+    "event_type": "invention",
+    "label": "Proposed terahertz wave generation",
+    "date": {
+      "display": "April 1963",
+      "precision": "month",
+      "sort_start": "1963-04-01",
+      "sort_end": "1963-04-30"
+    },
+    "participants": [
+      {
+        "entity_id": "jun_ichi_nishizawa",
+        "role": "subject"
+      },
+      {
+        "entity_id": "thz_wave_generator",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nishizawa_2004",
+        "page": 75,
+        "quote": "1963 April J. Nishizawa Proposal of terahertz wave generation via molecular and lattice vibrations (Denshikagaku p. 17, p. 30)"
+      }
+    ]
+  },
+  {
+    "id": "nishizawa_proposed_fiber_1964",
+    "event_type": "invention",
+    "label": "Proposed optical fiber communication",
+    "date": {
+      "display": "1964",
+      "precision": "year",
+      "sort_start": "1964-01-01",
+      "sort_end": "1964-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jun_ichi_nishizawa",
+        "role": "subject"
+      },
+      {
+        "entity_id": "i_sasaki",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "optical_fiber",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nishizawa_2004",
+        "page": 75,
+        "quote": "1964 J. Nishizawa & I. Sasaki Proposal of optical fiber communication and focusing optical fiber (Diminu- tion of Leakage Loss)"
+      }
+    ]
+  },
+  {
+    "id": "kawakami_wrote_paper_1965",
+    "event_type": "publication",
+    "label": "Kawakami wrote analytical paper on fiber",
+    "description": "The author had S. Kawakami write an analytical paper on glass fiber propagation.",
+    "date": {
+      "display": "1965",
+      "precision": "year",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "s_kawakami",
+        "role": "subject"
+      },
+      {
+        "entity_id": "jun_ichi_nishizawa",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nishizawa_2004",
+        "page": 75,
+        "quote": "The work ended on a theoretical note with the author having S. Kawakami write an analytical paper, 9)"
+      }
+    ]
+  },
+  {
+    "id": "nishizawa_proposed_raman_thz_1971",
+    "event_type": "invention",
+    "label": "Proposed THz generation via Raman effect",
+    "date": {
+      "display": "1971",
+      "precision": "year",
+      "sort_start": "1971-01-01",
+      "sort_end": "1971-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jun_ichi_nishizawa",
+        "role": "subject"
+      },
+      {
+        "entity_id": "thz_wave_generator",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nishizawa_2004",
+        "page": 75,
+        "quote": "1971 J. Nishizawa Proposal of generation of terahertz wave as a result of mixing of original wave with the wave induced by Raman effect"
+      }
+    ]
+  },
+  {
+    "id": "nishizawa_proposed_sit_1973",
+    "event_type": "invention",
+    "label": "Proposed Ballistic SIT",
+    "date": {
+      "display": "1973",
+      "precision": "year",
+      "sort_start": "1973-01-01",
+      "sort_end": "1973-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jun_ichi_nishizawa",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ballistic_sit",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nishizawa_2004",
+        "page": 75,
+        "quote": "1973 J. Nishizawa Proposal of Ideal Static Induction Transistor (Ballistic SIT) as terahertz operating devices"
+      }
+    ]
+  },
+  {
+    "id": "madey_generated_thz_1976",
+    "event_type": "public_demonstration",
+    "label": "Madey generated 30 THz oscillator",
+    "description": "Experiments by J. Madey at Stanford University generated about 30 THz oscillator.",
+    "date": {
+      "display": "1976",
+      "precision": "year",
+      "sort_start": "1976-01-01",
+      "sort_end": "1976-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "j_madey",
+        "role": "subject"
+      },
+      {
+        "entity_id": "stanford_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nishizawa_2004",
+        "page": 76,
+        "quote": "in 1976, experiments by J. Madey at Stanford University generated about 30 THz oscillator using linear of 24 MeV."
+      }
+    ]
+  },
+  {
+    "id": "nishizawa_suto_realized_raman_1979",
+    "event_type": "invention",
+    "label": "Realized semiconductor Raman laser",
+    "date": {
+      "display": "1979",
+      "precision": "year",
+      "sort_start": "1979-01-01",
+      "sort_end": "1979-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jun_ichi_nishizawa",
+        "role": "subject"
+      },
+      {
+        "entity_id": "k_suto",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "raman_laser",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nishizawa_2004",
+        "page": 75,
+        "quote": "1979 J. Nishizawa & K. Suto Realization of semiconductor Raman laser with lattice vibration"
+      }
+    ]
+  },
+  {
+    "id": "nishizawa_realized_tunnett_1979",
+    "event_type": "invention",
+    "label": "Realized TUNNETT diode",
+    "date": {
+      "display": "1979",
+      "precision": "year",
+      "sort_start": "1979-01-01",
+      "sort_end": "1979-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jun_ichi_nishizawa",
+        "role": "subject"
+      },
+      {
+        "entity_id": "tunnett_diode",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nishizawa_2004",
+        "page": 75,
+        "quote": "1979 J. Nishizawa Realization of TUNNETT diode oscillating at 0.33 THz"
+      }
+    ]
+  },
+  {
+    "id": "suto_nishizawa_generated_12thz_1983",
+    "event_type": "invention",
+    "label": "Generated 12 THz wave",
+    "date": {
+      "display": "1983",
+      "precision": "year",
+      "sort_start": "1983-01-01",
+      "sort_end": "1983-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "k_suto",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "jun_ichi_nishizawa",
+        "role": "subject"
+      },
+      {
+        "entity_id": "thz_wave_generator",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nishizawa_2004",
+        "page": 74,
+        "quote": "succeeded with K. Suto to generate a 12 THz wave in 1983."
+      }
+    ]
+  },
+  {
+    "id": "nishizawa_realized_ballistic_sit_1997",
+    "event_type": "invention",
+    "label": "Realized Ballistic SIT",
+    "date": {
+      "display": "1997",
+      "precision": "year",
+      "sort_start": "1997-01-01",
+      "sort_end": "1997-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jun_ichi_nishizawa",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ballistic_sit",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nishizawa_2004",
+        "page": 75,
+        "quote": "1997 J. Nishizawa , P . Plotka & T. Kurabayashi Realization of Ballistic SIT (scattering free SIT)"
+      }
+    ]
+  },
+  {
+    "id": "kawase_ito_joined_prc_1998",
+    "event_type": "employment_start",
+    "label": "Kawase and Ito joined Photodynamics Research Center",
+    "date": {
+      "display": "1998",
+      "precision": "year",
+      "sort_start": "1998-01-01",
+      "sort_end": "1998-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "k_kawase",
+        "role": "subject"
+      },
+      {
+        "entity_id": "h_ito",
+        "role": "subject"
+      },
+      {
+        "entity_id": "photodynamics_research_center",
+        "role": "employer"
+      },
+      {
+        "entity_id": "jun_ichi_nishizawa",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nishizawa_2004",
+        "page": 76,
+        "quote": "In 1998, K. Kawase and H. Ito were asked by the author to join the Photodynamics Research Center"
+      }
+    ]
+  },
+  {
+    "id": "nishizawa_invited_kawase_ito_1999",
+    "event_type": "meeting",
+    "label": "Invited Kawase and Ito to Sendai RIKEN",
+    "date": {
+      "display": "1999",
+      "precision": "year",
+      "sort_start": "1999-01-01",
+      "sort_end": "1999-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jun_ichi_nishizawa",
+        "role": "subject"
+      },
+      {
+        "entity_id": "k_kawase",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "h_ito",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "riken",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nishizawa_2004",
+        "page": 74,
+        "quote": "In 1999, the author invited K. Kawase and H. Ito to Sendai RIKEN to realize the concept by use of dielectrics"
+      }
+    ]
+  },
+  {
+    "id": "kawase_ito_realized_sweep_2000",
+    "event_type": "invention",
+    "label": "Realized sweep generator",
+    "date": {
+      "display": "2000",
+      "precision": "year",
+      "sort_start": "2000-01-01",
+      "sort_end": "2000-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "k_kawase",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "h_ito",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "thz_wave_generator",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nishizawa_2004",
+        "page": 74,
+        "quote": "in 2000, they succeeded in realizing a sweep generator."
+      }
+    ]
+  },
+  {
+    "id": "nishizawa_proposed_cancer_app_2000",
+    "event_type": "other",
+    "label": "Proposed THz application to cancer diagnosis",
+    "date": {
+      "display": "2000",
+      "precision": "year",
+      "sort_start": "2000-01-01",
+      "sort_end": "2000-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jun_ichi_nishizawa",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nishizawa_2004",
+        "page": 74,
+        "quote": "In the same year, the author suggested the idea of applying the THz wave to cancer diagnosis and treatment"
+      }
+    ]
+  }
+]

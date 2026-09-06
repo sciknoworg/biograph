@@ -1,0 +1,261 @@
+[
+  {
+    "id": "tuomo_suntola",
+    "entity_type": "person",
+    "name": "Tuomo Suntola",
+    "summary": "Finnish inventor and pioneer of atomic layer deposition (ALD) and electroluminescent display technology.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "riikka_puurunen",
+    "entity_type": "person",
+    "name": "Riikka L. Puurunen",
+    "summary": "Materials scientist and historian who authored the retrospective essay on ALD history.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "helsinki_university_of_technology",
+    "entity_type": "organization",
+    "name": "Helsinki University of Technology",
+    "summary": "Finnish university where Suntola completed his master's and doctoral studies in electrical engineering.",
+    "subtype": "university"
+  },
+  {
+    "id": "vtt_technical_research_centre",
+    "entity_type": "organization",
+    "name": "VTT Technical Research Centre of Finland",
+    "summary": "Finnish research institute where Suntola developed the Humicap humidity sensor.",
+    "subtype": "lab"
+  },
+  {
+    "id": "instrumentarium_oy",
+    "entity_type": "organization",
+    "name": "Instrumentarium Oy",
+    "summary": "Finnish medical instrumentation company where Suntola led an independent R&D group.",
+    "subtype": "company"
+  },
+  {
+    "id": "lohja_oy",
+    "entity_type": "organization",
+    "name": "Lohja Oy",
+    "summary": "Finnish building materials and electronics company that acquired Suntola's EL display project.",
+    "subtype": "company"
+  },
+  {
+    "id": "microchemistry_ltd",
+    "entity_type": "organization",
+    "name": "Microchemistry Ltd.",
+    "summary": "Finnish company founded by Suntola to commercialize ALE technology for solar and catalysis applications.",
+    "subtype": "company"
+  },
+  {
+    "id": "asm_microchemistry",
+    "entity_type": "organization",
+    "name": "ASM Microchemistry",
+    "summary": "Dutch semiconductor equipment manufacturer that acquired Microchemistry Ltd.",
+    "subtype": "company"
+  },
+  {
+    "id": "atomic_layer_epitaxy",
+    "entity_type": "artifact",
+    "name": "Atomic Layer Epitaxy",
+    "summary": "Thin-film growth technique invented by Suntola, later renamed atomic layer deposition.",
+    "subtype": "invention"
+  },
+  {
+    "id": "atomic_layer_deposition",
+    "entity_type": "artifact",
+    "name": "Atomic Layer Deposition",
+    "summary": "Modern name for the ALE thin-film growth technique, widely used in semiconductor manufacturing.",
+    "subtype": "invention"
+  },
+  {
+    "id": "humicap_1",
+    "entity_type": "artifact",
+    "name": "Humicap 1",
+    "summary": "Capacitive humidity sensor developed by Suntola using thin polymer films.",
+    "subtype": "product"
+  },
+  {
+    "id": "f_120_reactor",
+    "entity_type": "artifact",
+    "name": "F-120 Reactor",
+    "summary": "First commercial ALD reactor designed by Suntola for photovoltaic research.",
+    "subtype": "product"
+  },
+  {
+    "id": "european_semi_award_2004",
+    "entity_type": "artifact",
+    "name": "European SEMI Award 2004",
+    "summary": "Prestigious industry award recognizing Suntola as a pioneer in atomic layer deposition.",
+    "subtype": "award"
+  },
+  {
+    "id": "tampere",
+    "entity_type": "place",
+    "name": "Tampere",
+    "summary": "City in Finland where Tuomo Suntola was born.",
+    "subtype": "city"
+  },
+  {
+    "id": " espoo",
+    "entity_type": "place",
+    "name": "Espoo",
+    "summary": "City in Finland where Suntola established his research labs and where VTT and Microchemistry were located.",
+    "subtype": "city"
+  },
+  {
+    "id": "san_diego",
+    "entity_type": "place",
+    "name": "San Diego",
+    "summary": "City in California where Suntola first publicly presented ALE technology.",
+    "subtype": "city"
+  },
+  {
+    "id": "boston",
+    "entity_type": "place",
+    "name": "Boston",
+    "summary": "City in Massachusetts where Suntola demonstrated ALE for semiconductor applications.",
+    "subtype": "city"
+  },
+  {
+    "id": "munich",
+    "entity_type": "place",
+    "name": "Munich",
+    "summary": "City in Germany where Suntola received the European SEMI Award.",
+    "subtype": "city"
+  },
+  {
+    "id": "leningrad",
+    "entity_type": "place",
+    "name": "Leningrad",
+    "summary": "City in the Soviet Union (now St. Petersburg) visited by Suntola to meet molecular layering inventors.",
+    "subtype": "city"
+  },
+  {
+    "id": "thor_stubb",
+    "entity_type": "person",
+    "name": "Thor Stubb",
+    "summary": "Professor at HUT who supervised Suntola's doctoral research and assigned him the humidity sensor project.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "tapio_alvesalo",
+    "entity_type": "person",
+    "name": "Tapio Alvesalo",
+    "summary": "Head of Neste Advanced Power Systems who suggested applying ALE to solar panels.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "sven_lindfors",
+    "entity_type": "person",
+    "name": "Sven Lindfors",
+    "summary": "Close collaborator of Suntola in ALE reactor design and photovoltaic research.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "arto_pakkala",
+    "entity_type": "person",
+    "name": "Arto Pakkala",
+    "summary": "Colleague who reacted to the successful demonstration of the ZnCl2/H2S ALE process.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "antti_piippo",
+    "entity_type": "person",
+    "name": "Antti Piippo",
+    "summary": "Business manager who reorganized Lohja's electronics division and later bought Elcoteq.",
+    "subtype": "business"
+  },
+  {
+    "id": "ahti_aintila",
+    "entity_type": "person",
+    "name": "Ahti Aintila",
+    "summary": "Developer of driving circuitries and fine-line PCB technology for ALE-EL displays.",
+    "subtype": "engineer"
+  },
+  {
+    "id": "matti_ervasti",
+    "entity_type": "person",
+    "name": "Matti Ervasti",
+    "summary": "Business-oriented managing director who took over Microchemistry from Suntola.",
+    "subtype": "business"
+  },
+  {
+    "id": "jun_ichi_nishizawa",
+    "entity_type": "person",
+    "name": "Jun-ichi Nishizawa",
+    "summary": "Japanese professor who independently researched and promoted ALE/MLE in Japan.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "salih_bedair",
+    "entity_type": "person",
+    "name": "Salah Bedair",
+    "summary": "US professor who demonstrated ALE of GaAs at North Carolina State University.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "lauri_niinisto",
+    "entity_type": "person",
+    "name": "Lauri Niinistö",
+    "summary": "Finnish professor who co-operated with Suntola on ALE chemistry and organized early ALE conferences.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "victor_drozd",
+    "entity_type": "person",
+    "name": "Victor Drozd",
+    "summary": "Soviet scientist who invited Suntola to Leningrad to connect the ALE and molecular layering histories.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "aleskovskii",
+    "entity_type": "person",
+    "name": "Aleskovskii",
+    "summary": "Soviet professor who independently invented molecular layering in the 1960s.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "marina_lindblad",
+    "entity_type": "person",
+    "name": "Marina Lindblad",
+    "summary": "Doctoral student who worked on ALE catalysts and quantum chemical analysis of ZnS growth.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "jaakko_hyvarinen",
+    "entity_type": "person",
+    "name": "Jaakko Hyvärinen",
+    "summary": "Developer of the Quicksun solar simulator and founder of Endeas Oy.",
+    "subtype": "engineer"
+  },
+  {
+    "id": "picosun_oy",
+    "entity_type": "organization",
+    "name": "Picosun Oy",
+    "summary": "Finnish company founded by Lindfors and Poutiainen to manufacture ALE reactors.",
+    "subtype": "company"
+  },
+  {
+    "id": "beneq_oy",
+    "entity_type": "organization",
+    "name": "Beneq Oy",
+    "summary": "Finnish company that acquired Planar's EL plant and continues commercial ALE-EL production.",
+    "subtype": "company"
+  },
+  {
+    "id": "fortum_oyj",
+    "entity_type": "organization",
+    "name": "Fortum Oyj",
+    "summary": "Finnish energy company where Suntola worked as a research fellow after Neste merged with IVO.",
+    "subtype": "company"
+  },
+  {
+    "id": "planar_inc",
+    "entity_type": "organization",
+    "name": "Planar Inc.",
+    "summary": "American competitor that acquired Lohja's EL business in 1990.",
+    "subtype": "company"
+  }
+]

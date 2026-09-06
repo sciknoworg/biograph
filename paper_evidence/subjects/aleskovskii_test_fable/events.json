@@ -1,0 +1,2344 @@
+[
+  {
+    "id": "aleskovskii_born",
+    "event_type": "birth",
+    "label": "Born in Mary, Turkmenistan",
+    "date": {
+      "display": "June 3, 1912",
+      "precision": "day",
+      "sort_start": "1912-06-03",
+      "sort_end": "1912-06-03"
+    },
+    "location": "mary_turkmenistan",
+    "participants": [
+      {
+        "entity_id": "aleskovskii",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 217,
+        "quote": "Valentin Borisovich Aleskovskii was born on June 3th 1912 in the city of Mary (Turkmenistan)."
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_admitted_lti",
+    "event_type": "education",
+    "label": "Admitted to LTI by Lensovet",
+    "date": {
+      "display": "1931",
+      "precision": "year",
+      "sort_start": "1931-01-01",
+      "sort_end": "1931-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 217
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_graduated_lti",
+    "event_type": "education",
+    "label": "Graduated from LTI by Lensovet",
+    "date": {
+      "display": "1937",
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1937-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 217
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_naval_institute",
+    "event_type": "employment_start",
+    "label": "Research fellow at Naval Research Institute, Leningrad",
+    "date": {
+      "display": "1937",
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1937-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "naval_research_institute_leningrad",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 217
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_graduate_studies",
+    "event_type": "education",
+    "label": "Began graduate studies at LTI by Lensovet",
+    "date": {
+      "display": "1938",
+      "precision": "year",
+      "sort_start": "1938-01-01",
+      "sort_end": "1938-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 217
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_candidate_thesis",
+    "event_type": "education",
+    "label": "Defended candidate thesis 'Active silica'",
+    "description": "Candidate of chemical sciences degree, roughly equivalent to a Ph.D.; the original idea of the 'framework' hypothesis was outlined the same year.",
+    "date": {
+      "display": "1940",
+      "precision": "year",
+      "sort_start": "1940-01-01",
+      "sort_end": "1940-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "active_silica_thesis",
+        "role": "publication"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 217
+      },
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 218
+      }
+    ]
+  },
+  {
+    "id": "framework_idea_outlined",
+    "event_type": "other",
+    "label": "Original idea of 'framework' hypothesis outlined",
+    "description": "Aleskovskii notes on page 98 of his doctoral dissertation that the original idea was outlined by him in 1940.",
+    "date": {
+      "display": "1940",
+      "precision": "year",
+      "sort_start": "1940-01-01",
+      "sort_end": "1940-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "framework_hypothesis",
+        "role": "concept"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 218
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_senior_researcher_sorption",
+    "event_type": "role_change",
+    "label": "Senior researcher, Department of Sorption Technology, LTI",
+    "date": {
+      "display": "before the Second World War (after 1940)",
+      "precision": "range",
+      "sort_start": "1940-01-01",
+      "sort_end": "1941-06-30"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "employer"
+      }
+    ],
+    "certainty": "approximate",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 218
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_volunteered_war",
+    "event_type": "other",
+    "label": "Volunteered for the war",
+    "description": "After returning to the institute he worked as a research assistant in the Department of Physical Chemistry and received government awards for WWII participation.",
+    "date": {
+      "display": "June 1941",
+      "precision": "month",
+      "sort_start": "1941-06-01",
+      "sort_end": "1941-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 218
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_head_analytical_chemistry",
+    "event_type": "role_change",
+    "label": "Appointed head of Department of Analytical Chemistry, LTI",
+    "date": {
+      "display": "1949",
+      "precision": "year",
+      "sort_start": "1949-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 218
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_doctoral_defense",
+    "event_type": "education",
+    "label": "Defended doctoral dissertation formulating the 'framework' hypothesis",
+    "description": "Became Doctor of Chemical Sciences and Professor; the dissertation proposed a new solid state concept of a 'core' surrounded by surface functional groups.",
+    "date": {
+      "display": "1952",
+      "precision": "year",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "aleskovskii_doctoral_dissertation",
+        "role": "publication"
+      },
+      {
+        "entity_id": "framework_hypothesis",
+        "role": "concept"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 218,
+        "quote": "In 1952 he defended his doctoral dissertation (Table 1) and became a Doctor of Chemical Sciences and a Professor."
+      },
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 223
+      }
+    ]
+  },
+  {
+    "id": "ml_method_created",
+    "event_type": "invention",
+    "label": "Principles of the molecular layering method created at LTI",
+    "description": "Aleskovskii and Kol'tsov created and experimentally substantiated the ML principles within LTI by Lensovet.",
+    "date": {
+      "display": "1950 – late 1960s",
+      "precision": "range",
+      "sort_start": "1950-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "aleskovskii",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "koltsov",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "molecular_layering_method",
+        "role": "invention"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 217,
+        "quote": "In the walls of this institute between 1950 and the late 1960s they created and experimentally substantiated the principles of the ML method."
+      }
+    ]
+  },
+  {
+    "id": "koltsov_born",
+    "event_type": "birth",
+    "label": "Kol'tsov born at Proletarskaya station, Rostov region",
+    "date": {
+      "display": "August 30, 1931",
+      "precision": "day",
+      "sort_start": "1931-08-30",
+      "sort_end": "1931-08-30"
+    },
+    "location": "proletarskaya_station",
+    "participants": [
+      {
+        "entity_id": "koltsov",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 218
+      }
+    ]
+  },
+  {
+    "id": "koltsov_admitted_lti",
+    "event_type": "education",
+    "label": "Kol'tsov admitted to LTI by Lensovet",
+    "date": {
+      "display": "1950",
+      "precision": "year",
+      "sort_start": "1950-01-01",
+      "sort_end": "1950-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "koltsov",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 218
+      }
+    ]
+  },
+  {
+    "id": "koltsov_graduated_enrolled_graduate",
+    "event_type": "education",
+    "label": "Kol'tsov graduated LTI and enrolled as Aleskovskii's graduate student",
+    "description": "Graduated with a chemical engineering degree and the same year enrolled at the Department of Analytical Chemistry under Aleskovskii.",
+    "date": {
+      "display": "1955",
+      "precision": "year",
+      "sort_start": "1955-01-01",
+      "sort_end": "1955-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "koltsov",
+        "role": "subject"
+      },
+      {
+        "entity_id": "aleskovskii",
+        "role": "supervisor"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 218
+      }
+    ]
+  },
+  {
+    "id": "koltsov_candidate_defense",
+    "event_type": "education",
+    "label": "Kol'tsov defended candidate thesis on CCl4 interaction with silica gel",
+    "description": "Ended the first phase of research under Aleskovskii; the thesis reported molecular layering at atmospheric pressure.",
+    "date": {
+      "display": "1963",
+      "precision": "year",
+      "sort_start": "1963-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "koltsov",
+        "role": "subject"
+      },
+      {
+        "entity_id": "aleskovskii",
+        "role": "supervisor"
+      },
+      {
+        "entity_id": "koltsov_candidate_thesis",
+        "role": "publication"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 218
+      },
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 224
+      }
+    ]
+  },
+  {
+    "id": "silica_gel_monograph_published",
+    "event_type": "publication",
+    "label": "Monograph 'Silica Gel: Its Structure and Chemical Properties' published",
+    "date": {
+      "display": "1963",
+      "precision": "year",
+      "sort_start": "1963-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "koltsov",
+        "role": "author"
+      },
+      {
+        "entity_id": "aleskovskii",
+        "role": "author"
+      },
+      {
+        "entity_id": "silica_gel_monograph_1963",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 218
+      },
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 238
+      }
+    ]
+  },
+  {
+    "id": "koltsov_first_ml_article",
+    "event_type": "publication",
+    "label": "First full article on the ML method published",
+    "date": {
+      "display": "1965",
+      "precision": "year",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "koltsov",
+        "role": "author"
+      },
+      {
+        "entity_id": "koltsov_1965_article",
+        "role": "publication"
+      },
+      {
+        "entity_id": "molecular_layering_method",
+        "role": "subject_matter"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 216,
+        "quote": "The first full article on the ML method appeared in 1965."
+      }
+    ]
+  },
+  {
+    "id": "kuznetsova_candidate_defense",
+    "event_type": "education",
+    "label": "Kuznetsova defended candidate thesis (IR study of hydrated silica reactions)",
+    "description": "Advisors were Aleskovskii and IR specialist A. M. Shevyakov; she adopted Kol'tsov's method for HSiCl3, TiCl4 and GeCl4 reactions.",
+    "date": {
+      "display": "1965",
+      "precision": "year",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "kuznetsova",
+        "role": "subject"
+      },
+      {
+        "entity_id": "aleskovskii",
+        "role": "advisor"
+      },
+      {
+        "entity_id": "shevyakov",
+        "role": "advisor"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 218
+      },
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 225
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_rector_lti",
+    "event_type": "role_change",
+    "label": "Became acting rector of LTI by Lensovet",
+    "date": {
+      "display": "1965",
+      "precision": "year",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 221,
+        "quote": "From 1965 to 1975 V. B. Aleskovskii was acting rector of the LTI by Lensovet."
+      }
+    ]
+  },
+  {
+    "id": "dept_chemistry_of_solids_founded",
+    "event_type": "company_founded",
+    "label": "Founded Department of Chemistry of Solids at LTI and became its chair",
+    "description": "One of the first such departments in the USSR.",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "aleskovskii",
+        "role": "founder"
+      },
+      {
+        "entity_id": "dept_chemistry_of_solids_lti",
+        "role": "organization"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "parent_institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 221
+      }
+    ]
+  },
+  {
+    "id": "volkova_candidate_defense",
+    "event_type": "education",
+    "label": "Volkova defended candidate thesis on chloride reactions with silica gel",
+    "date": {
+      "display": "1969",
+      "precision": "year",
+      "sort_start": "1969-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "volkova",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 218
+      },
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 219
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_academy_report_1970",
+    "event_type": "conference",
+    "label": "Report 'Obtaining materials with desired properties' to USSR Academy of Sciences",
+    "description": "Given at the General meeting of the branch of physical chemistry and technology of inorganic materials.",
+    "date": {
+      "display": "November 1970",
+      "precision": "month",
+      "sort_start": "1970-11-01",
+      "sort_end": "1970-11-30"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii",
+        "role": "speaker"
+      },
+      {
+        "entity_id": "academy_of_sciences_ussr",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 222
+      }
+    ]
+  },
+  {
+    "id": "koltsov_doctoral_defense",
+    "event_type": "education",
+    "label": "Kol'tsov defended doctoral dissertation 'Synthesis of solids by the Molecular Layering Method'",
+    "description": "Final stage of ML method development, laying out its key principles, classification of ML reactions and the term 'chemical assembly'.",
+    "date": {
+      "display": "January 20, 1971",
+      "precision": "day",
+      "sort_start": "1971-01-20",
+      "sort_end": "1971-01-20"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "koltsov",
+        "role": "subject"
+      },
+      {
+        "entity_id": "koltsov_doctoral_dissertation",
+        "role": "publication"
+      },
+      {
+        "entity_id": "molecular_layering_method",
+        "role": "subject_matter"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 218,
+        "quote": "The final stage of development of the ML method was S. I. Kol'tsov's doctoral dissertation (Defended on January 20, 1971, Table 1)"
+      },
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 225
+      }
+    ]
+  },
+  {
+    "id": "ml_patent_application_declined",
+    "event_type": "patent_filed",
+    "label": "Attempted to patent ML process; application declined",
+    "description": "Application 1642785/23-26 'The principles of synthesis of solids' was declined by the patent office.",
+    "date": {
+      "display": "April 07, 1971",
+      "precision": "day",
+      "sort_start": "1971-04-07",
+      "sort_end": "1971-04-07"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii",
+        "role": "applicant"
+      },
+      {
+        "entity_id": "koltsov",
+        "role": "applicant"
+      },
+      {
+        "entity_id": "ml_patent_application_1971",
+        "role": "patent_application"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 222,
+        "quote": "In 1971, V. B. Aleskovskii and S. I. Kol'tsov attempted to patent the ML process (application № 1642785/23-26, April 07, 1971)."
+      }
+    ]
+  },
+  {
+    "id": "sveshnikova_candidate_defense",
+    "event_type": "education",
+    "label": "Sveshnikova defended candidate thesis on thin oxide layers on silicon",
+    "date": {
+      "display": "1971",
+      "precision": "year",
+      "sort_start": "1971-01-01",
+      "sort_end": "1971-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "sveshnikova",
+        "role": "subject"
+      },
+      {
+        "entity_id": "koltsov",
+        "role": "mentor"
+      },
+      {
+        "entity_id": "aleskovskii",
+        "role": "mentor"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 226
+      }
+    ]
+  },
+  {
+    "id": "rachkovskii_candidate_defense",
+    "event_type": "education",
+    "label": "Rachkovskii defended candidate thesis on oxide layers on single-crystal silicon",
+    "date": {
+      "display": "1972",
+      "precision": "year",
+      "sort_start": "1972-01-01",
+      "sort_end": "1972-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "rachkovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "koltsov",
+        "role": "mentor"
+      },
+      {
+        "entity_id": "aleskovskii",
+        "role": "mentor"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 226
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_corresponding_member",
+    "event_type": "award",
+    "label": "Elected corresponding member of the USSR Academy of Sciences",
+    "date": {
+      "display": "1972",
+      "precision": "year",
+      "sort_start": "1972-01-01",
+      "sort_end": "1972-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "academy_of_sciences_ussr",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 221
+      }
+    ]
+  },
+  {
+    "id": "malygin_candidate_defense",
+    "event_type": "education",
+    "label": "Malygin defended candidate thesis on V, Cr, P oxychlorides with silica gel",
+    "date": {
+      "display": "1973",
+      "precision": "year",
+      "sort_start": "1973-01-01",
+      "sort_end": "1973-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "malygin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "koltsov",
+        "role": "mentor"
+      },
+      {
+        "entity_id": "aleskovskii",
+        "role": "mentor"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 219
+      },
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 226
+      }
+    ]
+  },
+  {
+    "id": "smirnov_vm_candidate_defense",
+    "event_type": "education",
+    "label": "V. M. Smirnov defended candidate thesis; first mention of 'monolayer effect'",
+    "description": "Observed a two-orders-of-magnitude increase in catalytic activity of silica gel after one ML monolayer of titanium oxide.",
+    "date": {
+      "display": "1973",
+      "precision": "year",
+      "sort_start": "1973-01-01",
+      "sort_end": "1973-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "smirnov_vm",
+        "role": "subject"
+      },
+      {
+        "entity_id": "koltsov",
+        "role": "mentor"
+      },
+      {
+        "entity_id": "aleskovskii",
+        "role": "mentor"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 226
+      },
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 228
+      }
+    ]
+  },
+  {
+    "id": "tuz_candidate_defense",
+    "event_type": "education",
+    "label": "Tuz defended candidate thesis on stability of thin oxide layers on silica gel",
+    "date": {
+      "display": "1974",
+      "precision": "year",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "tuz",
+        "role": "subject"
+      },
+      {
+        "entity_id": "koltsov",
+        "role": "mentor"
+      },
+      {
+        "entity_id": "aleskovskii",
+        "role": "mentor"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 226
+      }
+    ]
+  },
+  {
+    "id": "smirnov_ep_candidate_defense",
+    "event_type": "education",
+    "label": "E. P. Smirnov defended candidate thesis on carbon and TiO2 layers on carbon by ML",
+    "date": {
+      "display": "1974",
+      "precision": "year",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "smirnov_ep",
+        "role": "subject"
+      },
+      {
+        "entity_id": "koltsov",
+        "role": "mentor"
+      },
+      {
+        "entity_id": "aleskovskii",
+        "role": "mentor"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 226
+      }
+    ]
+  },
+  {
+    "id": "drozd_joined_ml_group",
+    "event_type": "employment_start",
+    "label": "Drozd joined ML group as graduate student at Department of Chemistry of Solids",
+    "description": "A Leningrad Electrotechnical Institute graduate, one of the few physicists in the ML group.",
+    "date": {
+      "display": "January 1974",
+      "precision": "month",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-01-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "drozd",
+        "role": "subject"
+      },
+      {
+        "entity_id": "dept_chemistry_of_solids_lti",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 227
+      }
+    ]
+  },
+  {
+    "id": "suntola_ale_patent_priority",
+    "event_type": "patent_filed",
+    "label": "Suntola's first ALE patent filed (priority date)",
+    "date": {
+      "display": "November 29, 1974",
+      "precision": "day",
+      "sort_start": "1974-11-29",
+      "sort_end": "1974-11-29"
+    },
+    "participants": [
+      {
+        "entity_id": "suntola",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "suntola_ale_patent_1977",
+        "role": "patent"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 216
+      },
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 238
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_rector_lsu",
+    "event_type": "role_change",
+    "label": "Appointed rector of Leningrad State University",
+    "date": {
+      "display": "1975",
+      "precision": "year",
+      "sort_start": "1975-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lsu",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 221,
+        "quote": "Since 1975, educational, scientific and organizational activities of V. B. Aleskovskii were associated with the Leningrad State University (LSU) since he was appointment as rector of this university."
+      }
+    ]
+  },
+  {
+    "id": "drozd_vacuum_reactor_1975",
+    "event_type": "invention",
+    "label": "Drozd built first ML system with in situ ellipsometric thickness monitoring",
+    "date": {
+      "display": "1975",
+      "precision": "year",
+      "sort_start": "1975-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "drozd",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "drozd_vacuum_ml_reactor_1975",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 231
+      }
+    ]
+  },
+  {
+    "id": "svetlana_mos_demonstration",
+    "event_type": "public_demonstration",
+    "label": "ML dielectric films for MOS structures demonstrated with 'Svetlana'",
+    "description": "High-k oxides of Cr, Ti, V, Hf, Zr, Ta, Nb and Mo made by ML for MOS structures, in cooperation with the electronics organization Svetlana.",
+    "date": {
+      "display": "mid-1970s",
+      "precision": "circa",
+      "sort_start": "1973-01-01",
+      "sort_end": "1977-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "svetlana",
+        "role": "industrial_partner"
+      },
+      {
+        "entity_id": "dept_chemistry_of_solids_lti",
+        "role": "research_group"
+      }
+    ],
+    "certainty": "approximate",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 230
+      }
+    ]
+  },
+  {
+    "id": "koltsov_head_solid_state_dept",
+    "event_type": "role_change",
+    "label": "Kol'tsov became head of Solid State Chemistry Department at LTI",
+    "date": {
+      "display": "1976",
+      "precision": "year",
+      "sort_start": "1976-01-01",
+      "sort_end": "1976-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "koltsov",
+        "role": "subject"
+      },
+      {
+        "entity_id": "dept_chemistry_of_solids_lti",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 221
+      }
+    ]
+  },
+  {
+    "id": "stoichiometry_monograph_published",
+    "event_type": "publication",
+    "label": "Monograph 'The stoichiometry and synthesis of solid compounds' published",
+    "date": {
+      "display": "1976",
+      "precision": "year",
+      "sort_start": "1976-01-01",
+      "sort_end": "1976-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii",
+        "role": "author"
+      },
+      {
+        "entity_id": "stoichiometry_monograph_1976",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 222
+      },
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 238
+      }
+    ]
+  },
+  {
+    "id": "dept_solid_state_chemistry_lsu_founded",
+    "event_type": "company_founded",
+    "label": "Organized Department of Solid State Chemistry at LSU",
+    "description": "Aleskovskii supervised the department until 1986 and then worked there as a professor.",
+    "date": {
+      "display": "1977",
+      "precision": "year",
+      "sort_start": "1977-01-01",
+      "sort_end": "1977-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "aleskovskii",
+        "role": "founder"
+      },
+      {
+        "entity_id": "dept_solid_state_chemistry_lsu",
+        "role": "organization"
+      },
+      {
+        "entity_id": "lsu",
+        "role": "parent_institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 221
+      }
+    ]
+  },
+  {
+    "id": "suntola_ale_patent_published",
+    "event_type": "patent_granted",
+    "label": "Suntola's first atomic layer epitaxy patent published",
+    "description": "Published in the USSR on February 28, 1981.",
+    "date": {
+      "display": "November 15, 1977",
+      "precision": "day",
+      "sort_start": "1977-11-15",
+      "sort_end": "1977-11-15"
+    },
+    "participants": [
+      {
+        "entity_id": "suntola",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "suntola_ale_patent_1977",
+        "role": "patent"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 217
+      }
+    ]
+  },
+  {
+    "id": "pravda_article_published",
+    "event_type": "publication",
+    "label": "Article on chemical assembly published in Pravda; Kosygin takes interest",
+    "description": "Prime Minister Kosygin then ordered a committee from the Academy of Sciences, the Ministry of Education and the State Committee on Science and Technology.",
+    "date": {
+      "display": "1977",
+      "precision": "year",
+      "sort_start": "1977-01-01",
+      "sort_end": "1977-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii",
+        "role": "author"
+      },
+      {
+        "entity_id": "pravda",
+        "role": "publisher"
+      },
+      {
+        "entity_id": "pravda_article_1977",
+        "role": "publication"
+      },
+      {
+        "entity_id": "kosygin",
+        "role": "reader"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 222
+      }
+    ]
+  },
+  {
+    "id": "committee_meeting_institute_rejected",
+    "event_type": "meeting",
+    "label": "Committee rejected proposed Institute of Chemical Assembly of Materials",
+    "description": "Aleskovskii, Kol'tsov, Malygin and Shevyakov attended; Deputy Minister Kalinin proposed an inter-university program as compromise.",
+    "date": {
+      "display": "1977–1978",
+      "precision": "range",
+      "sort_start": "1977-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii",
+        "role": "proposer"
+      },
+      {
+        "entity_id": "koltsov",
+        "role": "attendee"
+      },
+      {
+        "entity_id": "malygin",
+        "role": "attendee"
+      },
+      {
+        "entity_id": "shevyakov",
+        "role": "attendee"
+      },
+      {
+        "entity_id": "kalinin_ek",
+        "role": "official"
+      },
+      {
+        "entity_id": "academy_of_sciences_ussr",
+        "role": "committee_member_body"
+      }
+    ],
+    "certainty": "approximate",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 222,
+        "quote": "He added that, without the proposed Institute of Chemical Assembly of Materials, the Soviet Union would be forced to purchase ML-based technologies from abroad in the near future."
+      }
+    ]
+  },
+  {
+    "id": "drozd_automated_ml_setup_1977",
+    "event_type": "invention",
+    "label": "Drozd produced automated vacuum ML setup with analog control",
+    "date": {
+      "display": "1977",
+      "precision": "year",
+      "sort_start": "1977-01-01",
+      "sort_end": "1977-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "drozd",
+        "role": "inventor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 232
+      }
+    ]
+  },
+  {
+    "id": "malkov_candidate_defense",
+    "event_type": "education",
+    "label": "Malkov defended candidate thesis on ML metal oxide layers on carbon fibers",
+    "date": {
+      "display": "1977",
+      "precision": "year",
+      "sort_start": "1977-01-01",
+      "sort_end": "1977-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "malkov",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 219
+      }
+    ]
+  },
+  {
+    "id": "chemical_assembly_program_founded",
+    "event_type": "company_founded",
+    "label": "'Chemical assembly of materials' inter-university program founded under Aleskovskii",
+    "description": "Founded by the Ministry of Higher Education of the RSFSR, led by LSU and LTI by Lensovet; ran 1978–1982.",
+    "date": {
+      "display": "1978",
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii",
+        "role": "head"
+      },
+      {
+        "entity_id": "chemical_assembly_program",
+        "role": "organization"
+      },
+      {
+        "entity_id": "ministry_higher_education_rsfsr",
+        "role": "founder"
+      },
+      {
+        "entity_id": "lsu",
+        "role": "lead_institution"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "lead_institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 222
+      },
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 223
+      }
+    ]
+  },
+  {
+    "id": "chemistry_of_solids_textbook_published",
+    "event_type": "publication",
+    "label": "Textbook 'Chemistry of solids' published",
+    "date": {
+      "display": "1978",
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii",
+        "role": "author"
+      },
+      {
+        "entity_id": "chemistry_of_solids_textbook_1978",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 222
+      }
+    ]
+  },
+  {
+    "id": "drozd_candidate_defense",
+    "event_type": "education",
+    "label": "Drozd defended candidate thesis on ML oxide coatings on semiconductors",
+    "date": {
+      "display": "1978",
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "drozd",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 219
+      }
+    ]
+  },
+  {
+    "id": "suntola_zns_patent_filed",
+    "event_type": "patent_filed",
+    "label": "Suntola's second ALE patent (ZnS from ZnCl2/H2S) filed",
+    "date": {
+      "display": "February 28, 1979",
+      "precision": "day",
+      "sort_start": "1979-02-28",
+      "sort_end": "1979-02-28"
+    },
+    "participants": [
+      {
+        "entity_id": "suntola",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "suntola_zns_patent_1983",
+        "role": "patent"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 229
+      },
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 238
+      }
+    ]
+  },
+  {
+    "id": "pak_doctoral_defense",
+    "event_type": "education",
+    "label": "Pak defended first ML doctoral thesis since Kol'tsov's (quantum-chemical study of oxide coatings)",
+    "date": {
+      "display": "1982",
+      "precision": "year",
+      "sort_start": "1982-01-01",
+      "sort_end": "1982-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "pak_vn",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 234
+      }
+    ]
+  },
+  {
+    "id": "ivs1_pilot_installation",
+    "event_type": "public_demonstration",
+    "label": "First experiments on pilot-scale column flow unit for IVS-1 production",
+    "description": "Conducted by Dergachev under Malygin's supervision.",
+    "date": {
+      "display": "1982",
+      "precision": "year",
+      "sort_start": "1982-01-01",
+      "sort_end": "1982-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "dergachev",
+        "role": "experimenter"
+      },
+      {
+        "entity_id": "malygin",
+        "role": "supervisor"
+      },
+      {
+        "entity_id": "ivs1_sorbent",
+        "role": "product"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 232
+      },
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 233
+      }
+    ]
+  },
+  {
+    "id": "suntola_zns_patent_granted",
+    "event_type": "patent_granted",
+    "label": "Suntola's second ALE patent published",
+    "date": {
+      "display": "November 1, 1983",
+      "precision": "day",
+      "sort_start": "1983-11-01",
+      "sort_end": "1983-11-01"
+    },
+    "participants": [
+      {
+        "entity_id": "suntola",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "suntola_zns_patent_1983",
+        "role": "patent"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 238
+      }
+    ]
+  },
+  {
+    "id": "ml_industrial_products_launched",
+    "event_type": "product_launch",
+    "label": "First Soviet industrial ML products: sorbents FS-1-3 and IVS-1",
+    "date": {
+      "display": "mid-1980s",
+      "precision": "circa",
+      "sort_start": "1983-01-01",
+      "sort_end": "1987-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ivs1_sorbent",
+        "role": "product"
+      },
+      {
+        "entity_id": "fs13_sorbent",
+        "role": "product"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "developer"
+      }
+    ],
+    "certainty": "approximate",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 231,
+        "quote": "In the USSR, these were the first industrial products made by the ML method."
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_ends_dept_supervision_lsu",
+    "event_type": "role_change",
+    "label": "Ceased supervising LSU Department of Solid State Chemistry; continued as professor",
+    "date": {
+      "display": "1986",
+      "precision": "year",
+      "sort_start": "1986-01-01",
+      "sort_end": "1986-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "dept_solid_state_chemistry_lsu",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 221
+      }
+    ]
+  },
+  {
+    "id": "damyanov_doctoral_defense",
+    "event_type": "education",
+    "label": "Damyanov defended doctoral thesis on ML catalysts in Bulgaria",
+    "date": {
+      "display": "1988",
+      "precision": "year",
+      "sort_start": "1988-01-01",
+      "sort_end": "1988-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "damyanov",
+        "role": "subject"
+      },
+      {
+        "entity_id": "burgas_institute_technology",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 220
+      },
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 234
+      }
+    ]
+  },
+  {
+    "id": "damyanov_visit_lti",
+    "event_type": "visit",
+    "label": "Damyanov visited Department of Chemistry of Solids, LTI",
+    "date": {
+      "display": "1970s",
+      "precision": "decade",
+      "sort_start": "1970-01-01",
+      "sort_end": "1979-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "damyanov",
+        "role": "visitor"
+      },
+      {
+        "entity_id": "dept_chemistry_of_solids_lti",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 233
+      }
+    ]
+  },
+  {
+    "id": "dept_renamed_1989",
+    "event_type": "company_renamed",
+    "label": "Department renamed Chemical Engineering of Materials and Electronics Products",
+    "date": {
+      "display": "1989",
+      "precision": "year",
+      "sort_start": "1989-01-01",
+      "sort_end": "1989-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "dept_chemistry_of_solids_lti",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 221
+      }
+    ]
+  },
+  {
+    "id": "ale_symposium_1990",
+    "event_type": "conference",
+    "label": "First Soviet ML report at 1st International Symposium on ALE, Espoo/Helsinki",
+    "description": "Drozd presented the report co-authored with Aleskovskii and handed Suntola an invitation from Aleskovskii to visit LSU.",
+    "date": {
+      "display": "June 13–15, 1990",
+      "precision": "range",
+      "sort_start": "1990-06-13",
+      "sort_end": "1990-06-15"
+    },
+    "location": "helsinki",
+    "participants": [
+      {
+        "entity_id": "drozd",
+        "role": "presenter"
+      },
+      {
+        "entity_id": "aleskovskii",
+        "role": "co_author"
+      },
+      {
+        "entity_id": "suntola",
+        "role": "attendee"
+      },
+      {
+        "entity_id": "pessa",
+        "role": "facilitator"
+      },
+      {
+        "entity_id": "niinisto",
+        "role": "supporter"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 233
+      }
+    ]
+  },
+  {
+    "id": "suntola_visit_lsu_1990",
+    "event_type": "visit",
+    "label": "Suntola lectured at LSU Solid State Chemistry Department; met Aleskovskii",
+    "description": "Aleskovskii told Suntola that his team had developed the ML method, which Suntola called ALE, more than 20 years earlier.",
+    "date": {
+      "display": "1990",
+      "precision": "year",
+      "sort_start": "1990-01-01",
+      "sort_end": "1990-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "suntola",
+        "role": "visitor"
+      },
+      {
+        "entity_id": "aleskovskii",
+        "role": "host"
+      },
+      {
+        "entity_id": "drozd",
+        "role": "organizer"
+      },
+      {
+        "entity_id": "dept_solid_state_chemistry_lsu",
+        "role": "host_organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 233,
+        "quote": "To this, V.B. Aleskovskii answered that he and his team had developed the ML method more than 20 years ago, which Suntola called ALE in his talk."
+      }
+    ]
+  },
+  {
+    "id": "malygin_doctoral_defense",
+    "event_type": "education",
+    "label": "Malygin defended doctoral thesis on ML surface modification of dispersed and porous materials",
+    "date": {
+      "display": "1991",
+      "precision": "year",
+      "sort_start": "1991-01-01",
+      "sort_end": "1991-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "malygin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lti_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 220
+      },
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 234
+      }
+    ]
+  },
+  {
+    "id": "smirnov_vm_doctoral_defense",
+    "event_type": "education",
+    "label": "V. M. Smirnov defended doctoral thesis on surface compounds of silica gel",
+    "date": {
+      "display": "1994",
+      "precision": "year",
+      "sort_start": "1994-01-01",
+      "sort_end": "1994-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "smirnov_vm",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lsu",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 220
+      }
+    ]
+  },
+  {
+    "id": "supramolecular_monograph_published",
+    "event_type": "publication",
+    "label": "Monograph 'Chemistry of supramolecular compounds' published",
+    "description": "Based on lecture notes from his 1990 course 'Course of chemistry of supramolecular compounds'.",
+    "date": {
+      "display": "1996",
+      "precision": "year",
+      "sort_start": "1996-01-01",
+      "sort_end": "1996-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii",
+        "role": "author"
+      },
+      {
+        "entity_id": "supramolecular_monograph_1996",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 222
+      }
+    ]
+  },
+  {
+    "id": "chemical_informational_synthesis_published",
+    "event_type": "publication",
+    "label": "Last textbook 'Chemical-informational synthesis' published",
+    "date": {
+      "display": "1997",
+      "precision": "year",
+      "sort_start": "1997-01-01",
+      "sort_end": "1997-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii",
+        "role": "author"
+      },
+      {
+        "entity_id": "chemical_informational_synthesis_1997",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 222
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_sulimov_patent_filed",
+    "event_type": "patent_filed",
+    "label": "Russian patent application with Sulimov filed",
+    "description": "Patent RU 2172731, application 2000119621/04, published 27.08.2001.",
+    "date": {
+      "display": "July 13, 2000",
+      "precision": "day",
+      "sort_start": "2000-07-13",
+      "sort_end": "2000-07-13"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "sulimov",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "aleskovskii_sulimov_patent",
+        "role": "patent"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 238
+      }
+    ]
+  },
+  {
+    "id": "koltsov_death",
+    "event_type": "death",
+    "label": "Kol'tsov died",
+    "date": {
+      "display": "May 25, 2003",
+      "precision": "day",
+      "sort_start": "2003-05-25",
+      "sort_end": "2003-05-25"
+    },
+    "participants": [
+      {
+        "entity_id": "koltsov",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 223
+      }
+    ]
+  },
+  {
+    "id": "lsu_dept_25th_anniversary",
+    "event_type": "other",
+    "label": "25th anniversary of LSU Department of Solid State Chemistry",
+    "description": "Aleskovskii attended; a collection of departmental research articles was published.",
+    "date": {
+      "display": "October 2003",
+      "precision": "month",
+      "sort_start": "2003-10-01",
+      "sort_end": "2003-10-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "dept_solid_state_chemistry_lsu",
+        "role": "organization"
+      },
+      {
+        "entity_id": "aleskovskii",
+        "role": "attendee"
+      },
+      {
+        "entity_id": "smirnov_vm",
+        "role": "attendee"
+      },
+      {
+        "entity_id": "drozd",
+        "role": "attendee"
+      },
+      {
+        "entity_id": "tolstoy_vp",
+        "role": "attendee"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 221
+      },
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 237
+      }
+    ]
+  },
+  {
+    "id": "malygin_aleskovskii_conversation_2004",
+    "event_type": "meeting",
+    "label": "Malygin asked Aleskovskii why his ideas were not supported in the 1970s",
+    "description": "At the 2004 conference at SPbSU Aleskovskii replied that his ideas often begin to be understood 20-30 years after they are conceived.",
+    "date": {
+      "display": "2004",
+      "precision": "year",
+      "sort_start": "2004-01-01",
+      "sort_end": "2004-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "malygin",
+        "role": "interlocutor"
+      },
+      {
+        "entity_id": "aleskovskii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lsu",
+        "role": "venue"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 237
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "January 29, 2006",
+      "precision": "day",
+      "sort_start": "2006-01-29",
+      "sort_end": "2006-01-29"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 223,
+        "quote": "S. I. Kol'tsov (passed away May 25, 2003) and V. B. Aleskovskii (passed away January 29, 2006) continued to work in what are among the oldest Russian universities"
+      }
+    ]
+  },
+  {
+    "id": "posthumous_quantum_synthesis_article",
+    "event_type": "publication",
+    "label": "Posthumous article on quantum chemical technologies published",
+    "date": {
+      "display": "2007",
+      "precision": "year",
+      "sort_start": "2007-01-01",
+      "sort_end": "2007-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii",
+        "role": "author"
+      },
+      {
+        "entity_id": "quantum_synthesis_article_2007",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 223
+      },
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 238
+      }
+    ]
+  },
+  {
+    "id": "cneem_40th_anniversary",
+    "event_type": "other",
+    "label": "CNEEM department celebrated 40th anniversary with collected papers",
+    "date": {
+      "display": "2007",
+      "precision": "year",
+      "sort_start": "2007-01-01",
+      "sort_end": "2007-12-31"
+    },
+    "location": "leningrad",
+    "participants": [
+      {
+        "entity_id": "dept_chemistry_of_solids_lti",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 236
+      }
+    ]
+  },
+  {
+    "id": "dept_renamed_2008",
+    "event_type": "company_renamed",
+    "label": "Department renamed Chemical Nanotechnology and Electronics Engineering Materials (CNEEM)",
+    "date": {
+      "display": "2008",
+      "precision": "year",
+      "sort_start": "2008-01-01",
+      "sort_end": "2008-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "dept_chemistry_of_solids_lti",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 221
+      }
+    ]
+  },
+  {
+    "id": "vpha_initiated",
+    "event_type": "company_founded",
+    "label": "Virtual Project on the History of ALD initiated",
+    "date": {
+      "display": "2013",
+      "precision": "year",
+      "sort_start": "2013-01-01",
+      "sort_end": "2013-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "vpha",
+        "role": "organization"
+      },
+      {
+        "entity_id": "puurunen",
+        "role": "initiator"
+      },
+      {
+        "entity_id": "sundqvist",
+        "role": "initiator"
+      },
+      {
+        "entity_id": "abdulagatov",
+        "role": "initiator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 216
+      },
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 217
+      }
+    ]
+  },
+  {
+    "id": "vpha_helsinki_2014",
+    "event_type": "conference",
+    "label": "VPHA conclusions on early ML/ALD history presented at Baltic ALD, Helsinki",
+    "date": {
+      "display": "May 12–13, 2014",
+      "precision": "range",
+      "sort_start": "2014-05-12",
+      "sort_end": "2014-05-13"
+    },
+    "location": "helsinki",
+    "participants": [
+      {
+        "entity_id": "puurunen",
+        "role": "presenter"
+      },
+      {
+        "entity_id": "vpha",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 217
+      },
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 238
+      }
+    ]
+  },
+  {
+    "id": "vpha_kyoto_2014",
+    "event_type": "conference",
+    "label": "'On the Early History of ALD: Molecular Layering' presented at AVS ALD, Kyoto",
+    "date": {
+      "display": "June 15–18, 2014",
+      "precision": "range",
+      "sort_start": "2014-06-15",
+      "sort_end": "2014-06-18"
+    },
+    "location": "kyoto",
+    "participants": [
+      {
+        "entity_id": "puurunen",
+        "role": "presenter"
+      },
+      {
+        "entity_id": "vpha",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 217
+      },
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 238
+      }
+    ]
+  }
+]

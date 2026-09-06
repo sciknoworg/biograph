@@ -1,0 +1,267 @@
+[
+  {
+    "id": "tuomo_suntola",
+    "entity_type": "person",
+    "name": "Tuomo Suntola",
+    "aliases": [
+      "Dr. Tuomo Suntola",
+      "Suntola"
+    ],
+    "summary": "Finnish physicist and inventor of Atomic Layer Deposition technology.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "riikka_l_puurunen",
+    "entity_type": "person",
+    "name": "Riikka L. Puurunen",
+    "aliases": [
+      "Dr. R. L. Puurunen",
+      "Puurunen"
+    ],
+    "summary": "Researcher at VTT Technical Research Centre of Finland and author of this historical essay.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "helsinki_university_of_technology",
+    "entity_type": "organization",
+    "name": "Helsinki University of Technology",
+    "aliases": [
+      "HUT",
+      "Teknillinen korkeakoulu",
+      "TKK",
+      "Aalto University"
+    ],
+    "summary": "Finnish university where Suntola studied and later worked as an assistant teacher.",
+    "subtype": "university"
+  },
+  {
+    "id": "vtt_technical_research_centre",
+    "entity_type": "organization",
+    "name": "VTT Technical Research Centre of Finland",
+    "aliases": [
+      "VTT",
+      "VTT Semiconductor Laboratory"
+    ],
+    "summary": "Finnish research organization where Suntola worked on humidity sensors before moving to industry.",
+    "subtype": "lab"
+  },
+  {
+    "id": "instrumentarium_oy",
+    "entity_type": "organization",
+    "name": "Instrumentarium Oy",
+    "aliases": [
+      "Instrumentarium"
+    ],
+    "summary": "Finnish medical instrumentation company where Suntola invented Atomic Layer Epitaxy.",
+    "subtype": "company"
+  },
+  {
+    "id": "lohja_oy",
+    "entity_type": "organization",
+    "name": "Lohja Oy",
+    "aliases": [
+      "Lohja"
+    ],
+    "summary": "Finnish building material and electronics company that acquired the ALE-EL project from Instrumentarium.",
+    "subtype": "company"
+  },
+  {
+    "id": "microchemistry_ltd",
+    "entity_type": "organization",
+    "name": "Microchemistry Ltd.",
+    "aliases": [
+      "Microchemistry",
+      "ASM Microchemistry"
+    ],
+    "summary": "Company founded by Suntola to develop ALE technology for solar and semiconductor applications.",
+    "subtype": "company"
+  },
+  {
+    "id": "planar_inc",
+    "entity_type": "organization",
+    "name": "Planar Inc.",
+    "aliases": [
+      "Planar",
+      "Planar International"
+    ],
+    "summary": "American competitor that acquired Lohja's EL business in 1990.",
+    "subtype": "company"
+  },
+  {
+    "id": "neste_oy",
+    "entity_type": "organization",
+    "name": "Neste Oy",
+    "aliases": [
+      "Neste",
+      "Fortum Oyj"
+    ],
+    "summary": "Finnish national oil company that established Microchemistry as a subsidiary.",
+    "subtype": "company"
+  },
+  {
+    "id": "asm_international",
+    "entity_type": "organization",
+    "name": "ASM",
+    "aliases": [
+      "ASM International"
+    ],
+    "summary": "Dutch company that acquired Microchemistry in 1999.",
+    "subtype": "company"
+  },
+  {
+    "id": "picosun_oy",
+    "entity_type": "organization",
+    "name": "Picosun Oy",
+    "aliases": [
+      "Picosun"
+    ],
+    "summary": "Company founded by former Microchemistry reactor designers, which Suntola joined after retirement.",
+    "subtype": "company"
+  },
+  {
+    "id": "beneq_oy",
+    "entity_type": "organization",
+    "name": "Beneq Oy",
+    "aliases": [
+      "Beneq"
+    ],
+    "summary": "Company that acquired Planar's EL plant in Olarinluoma in 2012.",
+    "subtype": "company"
+  },
+  {
+    "id": "atomic_layer_deposition",
+    "entity_type": "artifact",
+    "name": "Atomic Layer Deposition",
+    "aliases": [
+      "ALD",
+      "Atomic Layer Epitaxy",
+      "ALE"
+    ],
+    "summary": "Thin film growth technique based on repeated saturating gas-solid reactions invented by Suntola.",
+    "subtype": "invention"
+  },
+  {
+    "id": "humicap_sensor",
+    "entity_type": "artifact",
+    "name": "Humicap sensor",
+    "aliases": [
+      "Humicap 1"
+    ],
+    "summary": "Humidity sensor developed by Suntola and Antson at VTT before the ALE invention.",
+    "subtype": "product"
+  },
+  {
+    "id": "thor_stubb",
+    "entity_type": "person",
+    "name": "Thor Stubb",
+    "aliases": [
+      "Prof. Thor Stubb",
+      "Stubb"
+    ],
+    "summary": "Professor at HUT who supervised Suntola's doctoral thesis and assigned the humidity sensor task.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "jorma_antson",
+    "entity_type": "person",
+    "name": "Jorma Antson",
+    "aliases": [
+      "Antson"
+    ],
+    "summary": "Colleague of Suntola who co-developed the Humicap sensor and co-invented ALE.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "sven_lindfors",
+    "entity_type": "person",
+    "name": "Sven Lindfors",
+    "aliases": [
+      "Lindfors"
+    ],
+    "summary": "Close co-worker to Suntola in ALE reactor design since 1975 and co-founder of Picosun.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "arto_pakkala",
+    "entity_type": "person",
+    "name": "Arto Pakkala",
+    "aliases": [
+      "Pakkala"
+    ],
+    "summary": "Colleague involved in the successful demonstration of the ZnCl2/H2S process.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "tampere",
+    "entity_type": "place",
+    "name": "Tampere",
+    "aliases": [],
+    "summary": "City in Finland where Tuomo Suntola was born.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Finland"
+    }
+  },
+  {
+    "id": "finland",
+    "entity_type": "place",
+    "name": "Finland",
+    "aliases": [],
+    "summary": "Country where Suntola lived and developed ALE technology.",
+    "subtype": "country"
+  },
+  {
+    "id": "espoo",
+    "entity_type": "place",
+    "name": "Espoo",
+    "aliases": [
+      "Olarinluoma"
+    ],
+    "summary": "City in Finland where the ALE production facility was built.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Finland"
+    }
+  },
+  {
+    "id": "lohja",
+    "entity_type": "place",
+    "name": "Lohja",
+    "aliases": [
+      "Kunnarla"
+    ],
+    "summary": "City in Finland where pilot production of TF-EL displays started.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Finland"
+    }
+  },
+  {
+    "id": "university_of_leningrad",
+    "entity_type": "organization",
+    "name": "University of Leningrad",
+    "aliases": [
+      "St. Petersburg"
+    ],
+    "summary": "Soviet university where Suntola visited Prof. Aleskovskii in 1990.",
+    "subtype": "university"
+  },
+  {
+    "id": "aleskovskii",
+    "entity_type": "person",
+    "name": "Aleskovskii",
+    "aliases": [
+      "Prof. Aleskovskii"
+    ],
+    "summary": "Soviet researcher who independently discovered molecular layering in the 1960s.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "semi",
+    "entity_type": "organization",
+    "name": "SEMI",
+    "aliases": [],
+    "summary": "Industry association that awarded Suntola the European SEMI Award in 2004.",
+    "subtype": "organization"
+  }
+]

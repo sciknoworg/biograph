@@ -1,0 +1,398 @@
+[
+  {
+    "id": "rel_born_tampere",
+    "source": "tuomo_suntola",
+    "type": "born_in",
+    "target": "tampere",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "rel_studied_hut",
+    "source": "tuomo_suntola",
+    "type": "studied_at",
+    "target": "helsinki_university_of_technology",
+    "event_id": "suntola_master",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "rel_worked_vtt",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "vtt_technical_research_centre",
+    "event_id": "suntola_vtt_start",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "rel_worked_instrumentarium",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "instrumentarium_oy",
+    "event_id": "suntola_relocation_instrumentarium",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "rel_worked_lohja",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "lohja_oy",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 5
+      }
+    ]
+  },
+  {
+    "id": "rel_founded_microchemistry",
+    "source": "tuomo_suntola",
+    "type": "founded",
+    "target": "microchemistry_ltd",
+    "event_id": "microchemistry_founded",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "id": "rel_worked_microchemistry",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "microchemistry_ltd",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "id": "rel_worked_fortum",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "fortum_oyj",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 13
+      }
+    ]
+  },
+  {
+    "id": "rel_worked_picosun",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "picosun_oy",
+    "event_id": "picosun_join",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 13
+      }
+    ]
+  },
+  {
+    "id": "rel_invented_ale",
+    "source": "tuomo_suntola",
+    "type": "invented",
+    "target": "atomic_layer_epitaxy",
+    "event_id": "ale_invention",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "rel_invented_humicap",
+    "source": "tuomo_suntola",
+    "type": "invented",
+    "target": "humicap_1",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "rel_developed_f120",
+    "source": "tuomo_suntola",
+    "type": "developed",
+    "target": "f_120_reactor",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "id": "rel_awarded_semi",
+    "source": "tuomo_suntola",
+    "type": "awarded",
+    "target": "european_semi_award_2004",
+    "event_id": "semi_award",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 13
+      }
+    ]
+  },
+  {
+    "id": "rel_visited_leningrad",
+    "source": "tuomo_suntola",
+    "type": "visited",
+    "target": "leningrad",
+    "event_id": "leningrad_visit",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 12
+      }
+    ]
+  },
+  {
+    "id": "rel_collab_stubb",
+    "source": "tuomo_suntola",
+    "type": "collaborated_with",
+    "target": "thor_stubb",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "rel_collab_lindfors",
+    "source": "tuomo_suntola",
+    "type": "collaborated_with",
+    "target": "sven_lindfors",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 5
+      }
+    ]
+  },
+  {
+    "id": "rel_collab_pakkala",
+    "source": "tuomo_suntola",
+    "type": "collaborated_with",
+    "target": "arto_pakkala",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 5
+      }
+    ]
+  },
+  {
+    "id": "rel_collab_niinisto",
+    "source": "tuomo_suntola",
+    "type": "collaborated_with",
+    "target": "lauri_niinisto",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 11
+      }
+    ]
+  },
+  {
+    "id": "rel_collab_lindblad",
+    "source": "tuomo_suntola",
+    "type": "collaborated_with",
+    "target": "marina_lindblad",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "id": "rel_collab_hyvarinen",
+    "source": "tuomo_suntola",
+    "type": "collaborated_with",
+    "target": "jaakko_hyvarinen",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "id": "rel_met_drozd",
+    "source": "tuomo_suntola",
+    "type": "met",
+    "target": "victor_drozd",
+    "event_id": "leningrad_visit",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 12
+      }
+    ]
+  },
+  {
+    "id": "rel_met_aleskovskii",
+    "source": "tuomo_suntola",
+    "type": "met",
+    "target": "aleskovskii",
+    "event_id": "leningrad_visit",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 12
+      }
+    ]
+  },
+  {
+    "id": "rel_collab_alvesalo",
+    "source": "tuomo_suntola",
+    "type": "collaborated_with",
+    "target": "tapio_alvesalo",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "id": "rel_collab_piippo",
+    "source": "tuomo_suntola",
+    "type": "collaborated_with",
+    "target": "antti_piippo",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "rel_collab_aintila",
+    "source": "tuomo_suntola",
+    "type": "collaborated_with",
+    "target": "ahti_aintila",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "rel_collab_ervasti",
+    "source": "tuomo_suntola",
+    "type": "collaborated_with",
+    "target": "matti_ervasti",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 10
+      }
+    ]
+  },
+  {
+    "id": "rel_collab_nishizawa",
+    "source": "tuomo_suntola",
+    "type": "collaborated_with",
+    "target": "jun_ichi_nishizawa",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 10
+      }
+    ]
+  },
+  {
+    "id": "rel_collab_bedair",
+    "source": "tuomo_suntola",
+    "type": "collaborated_with",
+    "target": "salih_bedair",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 11
+      }
+    ]
+  },
+  {
+    "id": "rel_collab_puurunen",
+    "source": "tuomo_suntola",
+    "type": "collaborated_with",
+    "target": "riikka_puurunen",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "id": "rel_acquired_asm",
+    "source": "microchemistry_ltd",
+    "type": "acquired_by",
+    "target": "asm_microchemistry",
+    "event_id": "microchemistry_sold",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 10
+      }
+    ]
+  },
+  {
+    "id": "rel_sold_planar",
+    "source": "lohja_oy",
+    "type": "sold_to",
+    "target": "planar_inc",
+    "event_id": "lohja_el_sold",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "rel_renamed_ald",
+    "source": "atomic_layer_epitaxy",
+    "type": "renamed_to",
+    "target": "atomic_layer_deposition",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 10
+      }
+    ]
+  }
+]

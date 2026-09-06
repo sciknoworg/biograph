@@ -1,0 +1,142 @@
+[
+  {
+    "id": "freedericksz_born_warsaw",
+    "source": "freedericksz_vk",
+    "type": "born_in",
+    "target": "warsaw",
+    "event_id": "birth_freedericksz",
+    "sources": [
+      {
+        "source_id": "tsvetkov_2018",
+        "page": 2,
+        "quote": "V.K. Freedericksz was born on the 29 of April 1885 in Warsaw, where his father was a special government official at the time."
+      }
+    ]
+  },
+  {
+    "id": "freedericksz_studied_geneva",
+    "source": "freedericksz_vk",
+    "type": "studied_at",
+    "target": "university_geneva",
+    "event_id": "phd_geneva",
+    "sources": [
+      {
+        "source_id": "tsvetkov_2018",
+        "page": 3,
+        "quote": "Freedericksz defended his thesis [2] under supervision of Guye and obtained doctoral degree of the University of Geneva in 1909"
+      }
+    ]
+  },
+  {
+    "id": "freedericksz_worked_gottingen",
+    "source": "freedericksz_vk",
+    "type": "worked_at",
+    "target": "university_gottingen",
+    "event_id": "work_gottingen_start",
+    "sources": [
+      {
+        "source_id": "tsvetkov_2018",
+        "page": 4,
+        "quote": "On the first of September 1911 Freedericksz was taken on as a junior assistant in the Department of Theoretical Physics of the Institute of Physics."
+      }
+    ]
+  },
+  {
+    "id": "freedericksz_worked_lsu",
+    "source": "freedericksz_vk",
+    "type": "worked_at",
+    "target": "lsu",
+    "event_id": "work_lsu_start",
+    "sources": [
+      {
+        "source_id": "tsvetkov_2018",
+        "page": 4,
+        "quote": "Freedericksz came to Petrograd in 1919 and obtained a position of assistant professor at Physico-Mathematical Department of the University."
+      }
+    ]
+  },
+  {
+    "id": "freedericksz_worked_itp",
+    "source": "freedericksz_vk",
+    "type": "worked_at",
+    "target": "itp",
+    "event_id": "lc_studies_start",
+    "sources": [
+      {
+        "source_id": "tsvetkov_2018",
+        "page": 6,
+        "quote": "These works were started in 1923 at the Physico-Technical Institute."
+      }
+    ]
+  },
+  {
+    "id": "freedericksz_collab_repieva",
+    "source": "freedericksz_vk",
+    "type": "collaborated_with",
+    "target": "repieva_an",
+    "event_id": "first_lc_article",
+    "sources": [
+      {
+        "source_id": "tsvetkov_2018",
+        "page": 1,
+        "quote": "The first article written together with A. Repieva was published in 1927."
+      }
+    ]
+  },
+  {
+    "id": "freedericksz_collab_zolina",
+    "source": "freedericksz_vk",
+    "type": "collaborated_with",
+    "target": "zolina_vv",
+    "event_id": "freedericksz_equation_derived",
+    "sources": [
+      {
+        "source_id": "tsvetkov_2018",
+        "page": 1,
+        "quote": "In 1929 t ogether with V. Zolina Freedericksz derived and experimentally proved the «Freedericksz's equation»"
+      }
+    ]
+  },
+  {
+    "id": "freedericksz_married_shostakovich",
+    "source": "freedericksz_vk",
+    "type": "married_to",
+    "target": "shostakovich_md",
+    "event_id": "marriage_shostakovich",
+    "sources": [
+      {
+        "source_id": "tsvetkov_2018",
+        "page": 4,
+        "quote": "In the autumn of 1927 Freedericksz married Maria Dmitrievna Shostakovich"
+      }
+    ]
+  },
+  {
+    "id": "freedericksz_supervised_tsvetkov",
+    "source": "freedericksz_vk",
+    "type": "supervised_by",
+    "target": "tsvetkov_vn",
+    "note": "Freedericksz engaged Tsvetkov as a graduate student.",
+    "sources": [
+      {
+        "source_id": "tsvetkov_2018",
+        "page": 8,
+        "quote": "Freedericksz engaged a new graduate student (Victor Nikolaevich Tsvetkov (Fig. 19), who was a graduate of the Pedagogical Institute)."
+      }
+    ]
+  },
+  {
+    "id": "freedericksz_invented_equation",
+    "source": "freedericksz_vk",
+    "type": "invented",
+    "target": "freedericksz_equation",
+    "event_id": "freedericksz_equation_derived",
+    "sources": [
+      {
+        "source_id": "tsvetkov_2018",
+        "page": 1,
+        "quote": "In 1929 t ogether with V. Zolina Freedericksz derived and experimentally proved the «Freedericksz's equation»"
+      }
+    ]
+  }
+]

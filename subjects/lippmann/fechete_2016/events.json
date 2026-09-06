@@ -1,0 +1,418 @@
+[
+  {
+    "id": "lippmann_birth",
+    "event_type": "birth",
+    "label": "Born in Hollerich",
+    "description": "Lippmann was born on 16 August 1845 in Hollerich, in the Grand Duchy of Luxembourg.",
+    "date": {
+      "display": "16 August 1845",
+      "precision": "day",
+      "sort_start": "1845-08-16",
+      "sort_end": "1845-08-16"
+    },
+    "location": "hollerich",
+    "participants": [
+      {
+        "entity_id": "gabriel_lippmann",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 904,
+        "quote": "Lippmann was born on 16 August 1845 in Hollerich, in Hollerich, in the Grand Duchy of Luxembourg."
+      }
+    ]
+  },
+  {
+    "id": "lippmann_move_paris",
+    "event_type": "relocation",
+    "label": "Family moved to Paris",
+    "description": "The entire family moved to Paris, where Gabriel received his early education.",
+    "date": {
+      "display": "after 1845",
+      "precision": "circa",
+      "sort_start": "1845-08-17",
+      "sort_end": "1858-01-01"
+    },
+    "location": "paris",
+    "participants": [
+      {
+        "entity_id": "gabriel_lippmann",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 904,
+        "quote": "Later, the entire family moved to Paris, where Gabriel received his early education."
+      }
+    ]
+  },
+  {
+    "id": "lippmann_lycee",
+    "event_type": "education",
+    "label": "Entered Lycée Napoléon",
+    "description": "In 1858, Lippmann followed the \"Lycée Napoléon\" (today known as Henri-IV).",
+    "date": {
+      "display": "1858",
+      "precision": "year",
+      "sort_start": "1858-01-01",
+      "sort_end": "1858-12-31"
+    },
+    "location": "paris",
+    "participants": [
+      {
+        "entity_id": "gabriel_lippmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lycee_henri_iv",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 904,
+        "quote": "In 1858, Lippmann followed the \"Lycée Napoléon\" (today known as Henri-IV)."
+      }
+    ]
+  },
+  {
+    "id": "lippmann_ecole_normale",
+    "event_type": "education",
+    "label": "Entered École normale",
+    "description": "Lippmann entered the École normale in 1868 at the age of 23.",
+    "date": {
+      "display": "1868",
+      "precision": "year",
+      "sort_start": "1868-01-01",
+      "sort_end": "1868-12-31"
+    },
+    "location": "paris",
+    "participants": [
+      {
+        "entity_id": "gabriel_lippmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ecole_normale",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 904,
+        "quote": "Under the influence of Almeida, Lippmann headed the scientific section of the \"École normale\" (normal school), which he entered in 1868 at the age of 23."
+      }
+    ]
+  },
+  {
+    "id": "lippmann_germany_mission",
+    "event_type": "visit",
+    "label": "Missions to Germany",
+    "description": "Between 1872 and 1875, Lippmann was charged by the French Government with several missions to visit Germany to study methods for teaching science.",
+    "date": {
+      "display": "1872–1875",
+      "precision": "range",
+      "sort_start": "1872-01-01",
+      "sort_end": "1875-12-31"
+    },
+    "location": "heidelberg",
+    "participants": [
+      {
+        "entity_id": "gabriel_lippmann",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 904,
+        "quote": "Between 1872 and 1875, Lippmann was charged by the French Government with several missions to visit Germany to study methods for teaching science, and he chose to work with Kühne and Kirchhoff in Heidelberg, and with Helmholtz in Berlin."
+      }
+    ]
+  },
+  {
+    "id": "lippmann_thesis",
+    "event_type": "education",
+    "label": "Defended thesis",
+    "description": "He completed his thesis on electrocapillarity and defended it on 24 July 1875, achieving \"summa cum laude\" distinction.",
+    "date": {
+      "display": "24 July 1875",
+      "precision": "day",
+      "sort_start": "1875-07-24",
+      "sort_end": "1875-07-24"
+    },
+    "location": "paris",
+    "participants": [
+      {
+        "entity_id": "gabriel_lippmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "sorbonne",
+        "role": "employer"
+      },
+      {
+        "entity_id": "kirchhoff",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 904,
+        "quote": "He completed his thesis on electrocapillarity and defended it on 24 July 1875, achieving \"summa cum laude\" distinction."
+      }
+    ]
+  },
+  {
+    "id": "lippmann_mdc_start",
+    "event_type": "employment_start",
+    "label": "Appointed maître de conferences",
+    "description": "After this beginning, as a \"maître de conferences\" (MdC), he was attached to the lab JAMIN until the end of 1878.",
+    "date": {
+      "display": "1875",
+      "precision": "year",
+      "sort_start": "1875-07-25",
+      "sort_end": "1875-12-31"
+    },
+    "location": "paris",
+    "participants": [
+      {
+        "entity_id": "gabriel_lippmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "sorbonne",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 904,
+        "quote": "After this beginning, as a \"maître de conferences\" (MdC), he was attached to the lab JAMIN until the end of 1878, when \"maître de conferences\" positions were created in the science faculties."
+      }
+    ]
+  },
+  {
+    "id": "lippmann_professor",
+    "event_type": "role_change",
+    "label": "Named Professor at Sorbonne",
+    "description": "Lippmann was then named a professor at the Sorbonne University and head of the laboratory of physics.",
+    "date": {
+      "display": "1883",
+      "precision": "year",
+      "sort_start": "1883-01-01",
+      "sort_end": "1883-12-31"
+    },
+    "location": "paris",
+    "participants": [
+      {
+        "entity_id": "gabriel_lippmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "sorbonne",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 904,
+        "quote": "Lippmann was then named a professor at the Sorbonne University and head of the laboratory of physics."
+      }
+    ]
+  },
+  {
+    "id": "lippmann_academy_member",
+    "event_type": "award",
+    "label": "Elected to French Academy of Sciences",
+    "description": "The inventor of color photography was a member of the French Academy of Sciences in 1886.",
+    "date": {
+      "display": "1886",
+      "precision": "year",
+      "sort_start": "1886-01-01",
+      "sort_end": "1886-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gabriel_lippmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "french_academy_of_sciences",
+        "role": "awarding_body"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 903,
+        "quote": "The inventor of color photography was a member of the French Academy of Sciences in 1886 and was elected as its president in 1912."
+      }
+    ]
+  },
+  {
+    "id": "lippmann_marriage",
+    "event_type": "other",
+    "label": "Married Miss Cherbuliez",
+    "description": "The high culture of Lippmann was further refined in the circles that he frequented after his marriage (1888) to the daughter of Victor Cherbuliez.",
+    "date": {
+      "display": "1888",
+      "precision": "year",
+      "sort_start": "1888-01-01",
+      "sort_end": "1888-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gabriel_lippmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "madame_lippmann",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 905,
+        "quote": "The high culture of Lippmann was further refined in the circles that he frequented after his marriage (1888) to the daughter of Victor Cherbuliez (novelist and author)."
+      }
+    ]
+  },
+  {
+    "id": "lippmann_societe_member",
+    "event_type": "award",
+    "label": "Joined Société francaise de photographie",
+    "description": "He was a member of the \"Société francaise de photographie\" (1892).",
+    "date": {
+      "display": "1892",
+      "precision": "year",
+      "sort_start": "1892-01-01",
+      "sort_end": "1892-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gabriel_lippmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "societe_francaise_de_photographie",
+        "role": "awarding_body"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 905,
+        "quote": "He was a member of the \"Société francaise de photographie\" (1892) and its president (1896e1899)."
+      }
+    ]
+  },
+  {
+    "id": "lippmann_nobel",
+    "event_type": "award",
+    "label": "Awarded Nobel Prize in Physics",
+    "description": "For this work, he was the Nobel laureate in physics in 1908.",
+    "date": {
+      "display": "1908",
+      "precision": "year",
+      "sort_start": "1908-01-01",
+      "sort_end": "1908-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gabriel_lippmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize_physics_1908",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 903,
+        "quote": "For this work, he was the Nobel laureate in physics in 1908."
+      }
+    ]
+  },
+  {
+    "id": "lippmann_academy_president",
+    "event_type": "role_change",
+    "label": "Elected President of French Academy of Sciences",
+    "description": "He was elected as its president in 1912.",
+    "date": {
+      "display": "1912",
+      "precision": "year",
+      "sort_start": "1912-01-01",
+      "sort_end": "1912-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gabriel_lippmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "french_academy_of_sciences",
+        "role": "awarding_body"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 903,
+        "quote": "The inventor of color photography was a member of the French Academy of Sciences in 1886 and was elected as its president in 1912."
+      }
+    ]
+  },
+  {
+    "id": "lippmann_death",
+    "event_type": "death",
+    "label": "Died returning from Canada",
+    "description": "He died on 13 July 1921while returning from a voyage to Canada.",
+    "date": {
+      "display": "13 July 1921",
+      "precision": "day",
+      "sort_start": "1921-07-13",
+      "sort_end": "1921-07-13"
+    },
+    "participants": [
+      {
+        "entity_id": "gabriel_lippmann",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "fechete_2016",
+        "page": 905,
+        "quote": "He died on 13 July 1921while returning from a voyage to Canada."
+      }
+    ]
+  }
+]

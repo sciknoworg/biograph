@@ -16,22 +16,70 @@ the draft against the source (layer 5) before it's trusted.
 ## 1. Source-grounded extraction
 
 Every event and relation is **required** to cite a source (`sources.json`
-entry id, plus where possible a page number and a supporting quote) — see
+entry id, a page number, and a verbatim quote of the sentence that states
+it) — see
 the `sources` field in [Data model reference](data-model.md#events). If
 the paper doesn't say it, it doesn't go in the graph. This is enforced
 structurally: `event.schema.json` and `relation.schema.json` both require
 a non-empty `sources` array (`minItems: 1`), so an uncited event or
 relation fails validation and the build refuses to produce a page.
 
-The source PDF itself is not what's committed, though — `data/*.pdf` is
+The source itself is not what's committed, though — `data/` is
 gitignored, since these are publisher-hosted papers we don't have
 redistribution rights to. What's committed instead is the citation
 (title, authors, year, DOI, URL — `sources.json`) plus the page-level
 provenance on every claim, which is what actually lets a reader verify a
-fact without needing the PDF to be sitting in this repo. See
+fact without needing the paper sitting in this repo. See
 `data/README.md` for the running index of sources handled this way.
 
-## 2. Schema validation at build time
+Locally, what is kept beside a subject is the **extracted text**
+(`data/<slug>.txt`) rather than the PDF: it is exactly what the model was
+shown, it is what the grounding check below reads, and it is roughly 3%
+of the size. `--keep-source-pdf` keeps the original too.
+
+## 2. Grounding: the hallucination check
+
+Requiring a quote is only half of it — the other half is checking the
+quote is real:
+
+```bash
+python3 scripts/build_site.py <slug> --check-grounding
+```
+
+This also runs automatically on every `--pdf`/`--text` extraction. It
+verifies two things against the source text, and is deliberately
+**mechanical rather than a second LLM call**: a model asked to grade its
+own output shares the priors that produced it, whereas "does this string
+occur in the document" cannot be talked round.
+
+- **Quotes** — every `sources[].quote` must occur in the document.
+- **Entity names** — every entity's `name`, or one of its `aliases`, must
+  appear. A missing surname means the entity came from the model's
+  memory rather than the page.
+
+Findings are separated by severity, because "off by one word" and
+"invented outright" are different problems. Overlap is measured in
+five-word windows: a misquote keeps nearly all of them, a fabrication
+shares almost none.
+
+```
+bragg   : 16/16 quotes found verbatim, 13/13 entity names present
+suntola : 4/9 quotes verbatim, 62/67 entity names present
+    event humicap_developed: misquoted (50% of it is in the source, but not verbatim)
+    relation wilp_owned_futuro: NOT IN SOURCE (46% overlap)
+```
+
+Comparison is normalised for exactly the noise PDF extraction
+introduces — reflowed lines, hyphenation across line breaks, smart
+quotes, and typographic ligatures (`ﬁ` for `fi`) — and nothing else, so a
+quote naming a date or a person the document never mentions still fails.
+Quotes may elide with `...`; each fragment is checked separately.
+
+It **reports rather than blocks**. Extraction is a first-pass draft
+either way, and a strict gate would discard good work over PDF-extraction
+artefacts. A high unverified count is the signal to distrust a draft.
+
+## 3. Schema validation at build time
 
 `scripts/build_site.py` validates every subject file against its JSON
 Schema before building anything, and separately checks **referential
@@ -54,7 +102,7 @@ Closed vocabularies for `entity_type`, `event_type`, and relation `type` (see
 [Data model reference](data-model.md)) mean nothing free-text can drift
 into an inconsistent category across subjects.
 
-## 3. Honest uncertainty in dates
+## 4. Honest uncertainty in dates
 
 The [fuzzy-date chronology mechanism](data-model.md#chronology-fuzzy-dates)
 exists specifically so an approximate date ("early 1970s") never gets
@@ -64,7 +112,7 @@ carry an optional `certainty` field (`certain` / `approximate` /
 `disputed`) for cases where the source itself hedges or where sources
 disagree.
 
-## 4. Verified provenance for portraits and coordinates
+## 5. Verified provenance for portraits and coordinates
 
 Anything visual that could be flatly wrong — a person's photo, a place's
 map coordinates — goes through an explicit verification step before it's
@@ -141,7 +189,7 @@ candidate is the right place (country/description match) before trusting
 its coordinates. A `place` entity without `lat`/`lng` simply doesn't
 appear on the map — it still works everywhere else (graph, timeline).
 
-## 5. Human review, iterated
+## 6. Human review, iterated
 
 The Suntola extraction has been reviewed and corrected multiple times
 against the source paper during development — a transcription typo

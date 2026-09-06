@@ -1,0 +1,122 @@
+[
+  {
+    "id": "robert_hooke",
+    "entity_type": "person",
+    "name": "Robert Hooke",
+    "aliases": [
+      "Dr Robert Hooke",
+      "Dr Hook",
+      "Hooke"
+    ],
+    "summary": "Seventeenth-century English natural philosopher, instrument designer, and Curator of Experiments for the Royal Society.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "richard_waller",
+    "entity_type": "person",
+    "name": "Richard Waller",
+    "aliases": [
+      "Waller"
+    ],
+    "summary": "Secretary of the Royal Society and editor of Hooke's Posthumous Works.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "royal_society",
+    "entity_type": "organization",
+    "name": "Royal Society",
+    "aliases": [
+      "the Society",
+      "Fellowship"
+    ],
+    "summary": "English learned society for science, founded in 1660.",
+    "subtype": "organization"
+  },
+  {
+    "id": "gresham_college",
+    "entity_type": "organization",
+    "name": "Gresham College",
+    "aliases": [],
+    "summary": "Institution in London where the Royal Society held meetings and where Hooke lived.",
+    "subtype": "university"
+  },
+  {
+    "id": "isaac_newton",
+    "entity_type": "person",
+    "name": "Isaac Newton",
+    "aliases": [
+      "Sr Isaak Newton",
+      "Mr. Newton",
+      "Newton"
+    ],
+    "summary": "English mathematician and physicist, President of the Royal Society from late 1703.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "robert_boyle",
+    "entity_type": "person",
+    "name": "Robert Boyle",
+    "aliases": [
+      "Boyle",
+      "Mr Boyle"
+    ],
+    "summary": "Anglo-Irish natural philosopher and chemist, prominent early Fellow of the Royal Society.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "henry_oldenburg",
+    "entity_type": "person",
+    "name": "Henry Oldenburg",
+    "aliases": [
+      "Oldenburg"
+    ],
+    "summary": "First Secretary of the Royal Society and founding editor of Philosophical Transactions.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "micrographia",
+    "entity_type": "artifact",
+    "name": "Micrographia",
+    "aliases": [],
+    "summary": "Hooke's 1665 book on microscopic observations.",
+    "subtype": "publication"
+  },
+  {
+    "id": "posthumous_works",
+    "entity_type": "artifact",
+    "name": "Posthumous Works of Dr Robert Hooke",
+    "aliases": [
+      "Posthumous Works"
+    ],
+    "summary": "1705 collection of Hooke's unpublished papers edited by Richard Waller.",
+    "subtype": "publication"
+  },
+  {
+    "id": "air_pump",
+    "entity_type": "artifact",
+    "name": "Air pump",
+    "aliases": [
+      "air-pump"
+    ],
+    "summary": "Experimental apparatus perfected by Hooke for Boyle's experiments.",
+    "subtype": "invention"
+  },
+  {
+    "id": "philosophical_transactions",
+    "entity_type": "artifact",
+    "name": "Philosophical Transactions",
+    "aliases": [
+      "Transactions"
+    ],
+    "summary": "Scientific journal published by the Royal Society.",
+    "subtype": "publication"
+  },
+  {
+    "id": "trinity_college_library",
+    "entity_type": "organization",
+    "name": "Trinity College Library",
+    "aliases": [],
+    "summary": "Library at Cambridge University holding Hooke manuscripts.",
+    "subtype": "organization"
+  }
+]

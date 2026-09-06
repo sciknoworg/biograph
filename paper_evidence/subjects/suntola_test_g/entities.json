@@ -1,0 +1,717 @@
+[
+  {
+    "id": "tuomo_suntola",
+    "name": "Tuomo Suntola",
+    "entity_type": "person",
+    "summary": "Finnish inventor of Atomic Layer Epitaxy (ALE/ALD), pioneer in thin-film technology for electroluminescent displays and semiconductor applications.",
+    "subtype": "researcher",
+    "aliases": [
+      "Dr. Tuomo Suntola"
+    ]
+  },
+  {
+    "id": "riikka_puurunen",
+    "name": "Riikka L. Puurunen",
+    "entity_type": "person",
+    "summary": "Author of the essay, researcher at VTT Technical Research Centre of Finland, historian of ALD.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "tampere",
+    "name": "Tampere",
+    "entity_type": "place",
+    "summary": "City in Finland where Tuomo Suntola was born.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Finland"
+    }
+  },
+  {
+    "id": "turku",
+    "name": "Turku",
+    "entity_type": "place",
+    "summary": "City in Finland where Suntola completed his matriculation examinations.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Finland"
+    }
+  },
+  {
+    "id": "helsinki_university_of_technology",
+    "name": "Helsinki University of Technology",
+    "entity_type": "organization",
+    "summary": "Institution (now Aalto University) where Suntola studied electrical engineering and completed his doctoral thesis.",
+    "subtype": "university",
+    "aliases": [
+      "HUT",
+      "TKK",
+      "Aalto University"
+    ]
+  },
+  {
+    "id": "thor_stubb",
+    "name": "Thor Stubb",
+    "entity_type": "person",
+    "summary": "Professor at HUT who supervised Suntola’s doctoral thesis on chalcogenide thin films.",
+    "subtype": "academic"
+  },
+  {
+    "id": "vtt_semiconductor_laboratory",
+    "name": "VTT Semiconductor Laboratory",
+    "entity_type": "organization",
+    "summary": "Research laboratory in Finland where Suntola worked on humidity sensors and early ALE development.",
+    "subtype": "lab"
+  },
+  {
+    "id": "vaisala_oy",
+    "name": "Vaisala Oy",
+    "entity_type": "organization",
+    "summary": "Finnish company specializing in meteorological instrumentation; commissioned Suntola’s humidity sensor development.",
+    "subtype": "company"
+  },
+  {
+    "id": "humicap_1",
+    "name": "Humicap 1",
+    "entity_type": "artifact",
+    "summary": "World-leading humidity sensor developed by Suntola and Jorma Antson, patented in 1972.",
+    "subtype": "product"
+  },
+  {
+    "id": "instrumentarium_oy",
+    "name": "Instrumentarium Oy",
+    "entity_type": "organization",
+    "summary": "Finnish medical instrumentation company where Suntola established an ALE research group in 1974.",
+    "subtype": "company"
+  },
+  {
+    "id": "datex_oy",
+    "name": "Datex Oy",
+    "entity_type": "organization",
+    "summary": "Subsidiary of Instrumentarium Oy focused on medical technology.",
+    "subtype": "company"
+  },
+  {
+    "id": "atomic_layer_epitaxy",
+    "name": "Atomic Layer Epitaxy",
+    "entity_type": "artifact",
+    "summary": "Thin-film growth technique invented by Suntola in 1974, later renamed Atomic Layer Deposition (ALD).",
+    "subtype": "invention",
+    "aliases": [
+      "ALE",
+      "ALD",
+      "Atomic Layer Deposition"
+    ]
+  },
+  {
+    "id": "ale_patent_1974",
+    "name": "ALE Patent (1974)",
+    "entity_type": "artifact",
+    "summary": "International patent for ALE filed by Suntola on November 29, 1974 (Finnish priority date).",
+    "subtype": "patent",
+    "aliases": [
+      "FIN 52359",
+      "US 4058430"
+    ]
+  },
+  {
+    "id": "jorma_antson",
+    "name": "Jorma Antson",
+    "entity_type": "person",
+    "summary": "Collaborator of Suntola in humidity sensor and early ALE development.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "tapio_wiik",
+    "name": "Tapio Wiik",
+    "entity_type": "person",
+    "summary": "Colleague of Suntola who conducted a pre-study on humidity sensing.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "sven_lindfors",
+    "name": "Sven Lindfors",
+    "entity_type": "person",
+    "summary": "Longtime collaborator of Suntola in ALE reactor design and development.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "arto_pakkala",
+    "name": "Arto Pakkala",
+    "entity_type": "person",
+    "summary": "Key collaborator in ALE development, notably involved in the ZnCl2/H2S process breakthrough.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "lohja_oy",
+    "name": "Lohja Oy",
+    "entity_type": "organization",
+    "summary": "Finnish building materials company that acquired the ALE-EL project from Instrumentarium in 1978.",
+    "subtype": "company"
+  },
+  {
+    "id": "ale_patent_1979",
+    "name": "ALE Patent (1979)",
+    "entity_type": "artifact",
+    "summary": "Second international ALE patent for inert gas reactors and dielectric layers, filed February 28, 1979.",
+    "subtype": "patent",
+    "aliases": [
+      "FIN 57975",
+      "US 4413022"
+    ]
+  },
+  {
+    "id": "helsinki_vantaa_airport",
+    "name": "Helsinki-Vantaa Airport",
+    "entity_type": "place",
+    "summary": "Site of the first public ALE-EL display installations in 1983.",
+    "subtype": "facility",
+    "attributes": {
+      "country": "Finland"
+    }
+  },
+  {
+    "id": "olarinluoma_plant",
+    "name": "Olarinluoma Plant",
+    "entity_type": "place",
+    "summary": "EL production facility built by Lohja in Espoo, Finland, in 1984.",
+    "subtype": "facility",
+    "attributes": {
+      "country": "Finland"
+    }
+  },
+  {
+    "id": "planar_inc",
+    "name": "Planar Inc.",
+    "entity_type": "organization",
+    "summary": "American competitor that acquired Lohja’s EL business in 1990.",
+    "subtype": "company"
+  },
+  {
+    "id": "microchemistry_ltd",
+    "name": "Microchemistry Ltd.",
+    "entity_type": "organization",
+    "summary": "Company founded by Suntola in 1987 under Neste Oy to develop ALE for solar panels and catalysis.",
+    "subtype": "company"
+  },
+  {
+    "id": "neste_oy",
+    "name": "Neste Oy",
+    "entity_type": "organization",
+    "summary": "Finnish national oil company that established Microchemistry Ltd. in 1987.",
+    "subtype": "company"
+  },
+  {
+    "id": "f_120_reactor",
+    "name": "F-120 Reactor",
+    "entity_type": "artifact",
+    "summary": "First commercial ALD reactor designed by Suntola and Sven Lindfors for photovoltaic research.",
+    "subtype": "product"
+  },
+  {
+    "id": "asm_microchemistry",
+    "name": "ASM Microchemistry",
+    "entity_type": "organization",
+    "summary": "Dutch-owned successor to Microchemistry Ltd. after its acquisition by ASM in 1999.",
+    "subtype": "company"
+  },
+  {
+    "id": "picosun_oy",
+    "name": "Picosun Oy",
+    "entity_type": "organization",
+    "summary": "ALD equipment company founded in 2004 by Sven Lindfors and Kustaa Poutiainen.",
+    "subtype": "company"
+  },
+  {
+    "id": "beneq_oy",
+    "name": "Beneq Oy",
+    "entity_type": "organization",
+    "summary": "Company that acquired Planar’s EL plant in Olarinluoma in 2012.",
+    "subtype": "company"
+  },
+  {
+    "id": "society_for_information_display",
+    "name": "Society for Information Display",
+    "entity_type": "organization",
+    "summary": "Organization that hosted the 1980 SID conference where Suntola first publicly disclosed ALE-EL displays.",
+    "subtype": "organization",
+    "aliases": [
+      "SID"
+    ]
+  },
+  {
+    "id": "sid_1980_conference",
+    "name": "SID 1980 Conference",
+    "entity_type": "artifact",
+    "summary": "Conference in San Diego where Suntola presented ALE-EL displays, winning the 1980 SID Outstanding Paper Award.",
+    "subtype": "conference"
+  },
+  {
+    "id": "ale_1_conference",
+    "name": "1st International Symposium on Atomic Layer Epitaxy (ALE-1)",
+    "entity_type": "artifact",
+    "summary": "First international ALE conference held in Espoo, Finland, in June 1990.",
+    "subtype": "conference"
+  },
+  {
+    "id": "lauri_niinisto",
+    "name": "Lauri Niinistö",
+    "entity_type": "person",
+    "summary": "Professor of inorganic and analytical chemistry at HUT; organized early ALE conferences and collaborated with Suntola.",
+    "subtype": "academic"
+  },
+  {
+    "id": "jun_ichi_nishizawa",
+    "name": "Jun-ichi Nishizawa",
+    "entity_type": "person",
+    "summary": "Japanese professor who independently explored ALE (as Molecular Layer Epitaxy) for GaAs growth.",
+    "subtype": "academic"
+  },
+  {
+    "id": "aleskovskii",
+    "name": "Valentin B. Aleskovskii",
+    "entity_type": "person",
+    "summary": "Soviet professor who co-developed the Molecular Layering (ML) technique in the 1960s.",
+    "subtype": "academic"
+  },
+  {
+    "id": "victor_drozd",
+    "name": "Victor Drozd",
+    "entity_type": "person",
+    "summary": "Russian scientist who facilitated Suntola’s 1990 visit to Leningrad to meet Aleskovskii.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "salah_bedair",
+    "name": "Salah Bedair",
+    "entity_type": "person",
+    "summary": "Professor at North Carolina State University who demonstrated ALE of GaAs in the 1980s.",
+    "subtype": "academic"
+  },
+  {
+    "id": "markku_leskela",
+    "name": "Markku Leskelä",
+    "entity_type": "person",
+    "summary": "Professor at the University of Helsinki, key figure in Finnish ALD research.",
+    "subtype": "academic"
+  },
+  {
+    "id": "mikko_ritala",
+    "name": "Mikko Ritala",
+    "entity_type": "person",
+    "summary": "Professor at the University of Helsinki, collaborator in ALD research.",
+    "subtype": "academic"
+  },
+  {
+    "id": "elcoteq_oy",
+    "name": "Elcoteq Oy",
+    "entity_type": "organization",
+    "summary": "Contract manufacturer spun off from Lohja’s microelectronics division in 1990.",
+    "subtype": "company"
+  },
+  {
+    "id": "fortum_oyj",
+    "name": "Fortum Oyj",
+    "entity_type": "organization",
+    "summary": "Finnish energy company formed by the merger of Neste and IVO, where Suntola worked post-retirement.",
+    "subtype": "company"
+  },
+  {
+    "id": "physics_foundations_society",
+    "name": "Physics Foundations Society",
+    "entity_type": "organization",
+    "summary": "Organization chaired by Suntola, focused on philosophical and theoretical physics.",
+    "subtype": "organization"
+  },
+  {
+    "id": "european_semi_award_2004",
+    "name": "European SEMI Award 2004",
+    "entity_type": "artifact",
+    "summary": "Award given to Suntola for pioneering ALD techniques, presented at the Munich Electronics Show 2004.",
+    "subtype": "award"
+  },
+  {
+    "id": "the_dynamic_universe",
+    "name": "The Dynamic Universe",
+    "entity_type": "artifact",
+    "summary": "Book by Suntola (2011) presenting a holistic picture of physical reality.",
+    "subtype": "publication"
+  },
+  {
+    "id": "short_history_of_science",
+    "name": "The Short History of Science",
+    "entity_type": "artifact",
+    "summary": "Book by Suntola (2012) linking philosophy and empirical science.",
+    "subtype": "publication"
+  },
+  {
+    "id": "lcd_patent_1985",
+    "name": "LCD Patent (1985)",
+    "entity_type": "artifact",
+    "summary": "Suntola’s patent on Liquid Crystal Displays (LCDs) filed in 1985, granted in 1990.",
+    "subtype": "patent",
+    "aliases": [
+      "US 4907862"
+    ]
+  },
+  {
+    "id": "tampere_university_of_technology",
+    "name": "Tampere University of Technology",
+    "entity_type": "organization",
+    "summary": "Institution where Suntola lectured on semiconductor physics in the 1970s.",
+    "subtype": "university",
+    "aliases": [
+      "TUT"
+    ]
+  },
+  {
+    "id": "markus_pessa",
+    "name": "Markus Pessa",
+    "entity_type": "person",
+    "summary": "Professor at TUT who led research on group III-V semiconductors using MBE.",
+    "subtype": "academic"
+  },
+  {
+    "id": "naps",
+    "name": "Neste Advanced Power Systems",
+    "entity_type": "organization",
+    "summary": "Corporate venture unit of Neste Oy focused on renewable energy, including ALE-based solar panels.",
+    "subtype": "organization",
+    "aliases": [
+      "NAPS"
+    ]
+  },
+  {
+    "id": "endeas_oy",
+    "name": "Endeas Oy",
+    "entity_type": "organization",
+    "summary": "Company founded by Jaakko Hyvärinen to produce Quicksun solar simulators.",
+    "subtype": "company"
+  },
+  {
+    "id": "picopack_oy",
+    "name": "Picopack Oy",
+    "entity_type": "organization",
+    "summary": "Company founded by Ahti Aintila in 1991 for smart card production using TAB technology.",
+    "subtype": "company"
+  },
+  {
+    "id": "ahti_aintila",
+    "name": "Ahti Aintila",
+    "entity_type": "person",
+    "summary": "Engineer who developed driving circuitries and TAB technology for EL panels at Lohja.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "antti_piippo",
+    "name": "Antti Piippo",
+    "entity_type": "person",
+    "summary": "Business-oriented manager of Lohja’s Display Electronics division, later co-founder of Elcoteq Oy.",
+    "subtype": "manager"
+  },
+  {
+    "id": "matti_ervasti",
+    "name": "Matti Ervasti",
+    "entity_type": "person",
+    "summary": "Managing director of Microchemistry Ltd. after Suntola stepped aside in 1998.",
+    "subtype": "manager"
+  },
+  {
+    "id": "pekkka_soininen",
+    "name": "Pekka Soininen",
+    "entity_type": "person",
+    "summary": "Founder of Beneq Oy’s ALD reactor activity in 2005.",
+    "subtype": "entrepreneur"
+  },
+  {
+    "id": "kustaa_poutiainen",
+    "name": "Kustaa Poutiainen",
+    "entity_type": "person",
+    "summary": "Co-founder of Picosun Oy in 2004.",
+    "subtype": "entrepreneur"
+  },
+  {
+    "id": "jaakko_hyvarinen",
+    "name": "Jaakko Hyvärinen",
+    "entity_type": "person",
+    "summary": "Developer of the Quicksun solar simulator at Microchemistry Ltd.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "aimo_rautiainen",
+    "name": "Aimo Rautiainen",
+    "entity_type": "person",
+    "summary": "Chemist at Microchemistry Ltd. who worked on ALD catalysts.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "eeva_liisa_lakomaa",
+    "name": "Eeva-Liisa Lakomaa",
+    "entity_type": "person",
+    "summary": "Chemist at Microchemistry Ltd. involved in ALD catalyst research.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "marina_lindblad",
+    "name": "Marina Lindblad",
+    "entity_type": "person",
+    "summary": "Researcher at Microchemistry Ltd. who completed a doctoral thesis on ZnS growth in 1992.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "suvi_haukka",
+    "name": "Suvi Haukka",
+    "entity_type": "person",
+    "summary": "Researcher who completed a doctoral thesis on ALD in 1993.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "arla_kytokivi",
+    "name": "Arla Kytökivi",
+    "entity_type": "person",
+    "summary": "Researcher who completed a doctoral thesis on ALD in 1997.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "tapani_pakkanen",
+    "name": "Tapani Pakkanen",
+    "entity_type": "person",
+    "summary": "Professor at the University of Joensuu who collaborated on quantum chemical analysis of ZnS growth.",
+    "subtype": "academic"
+  },
+  {
+    "id": "heli_vaara",
+    "name": "Heli Vaara",
+    "entity_type": "person",
+    "summary": "Assistant to Tuomo Suntola at Microchemistry Ltd.",
+    "subtype": "staff"
+  },
+  {
+    "id": "ulf_strom",
+    "name": "Ulf Ström",
+    "entity_type": "person",
+    "summary": "Managing director of Finlux Inc., responsible for marketing ALE-EL panels in the USA.",
+    "subtype": "manager"
+  },
+  {
+    "id": "finlux_inc",
+    "name": "Finlux Inc.",
+    "entity_type": "organization",
+    "summary": "Company involved in marketing ALE-EL panels in the USA.",
+    "subtype": "company"
+  },
+  {
+    "id": "ralf_graeffe",
+    "name": "Ralf Graeffe",
+    "entity_type": "person",
+    "summary": "Researcher who inspected display modules in Helsinki-Vantaa Airport’s underground test assembly.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "tapio_alvesalo",
+    "name": "Tapio Alvesalo",
+    "entity_type": "person",
+    "summary": "Head of Neste’s venture team (NAPS) who initiated ALE-based solar panel research.",
+    "subtype": "manager"
+  },
+  {
+    "id": "yukihiro_shimogaki",
+    "name": "Yukihiro Shimogaki",
+    "entity_type": "person",
+    "summary": "Professor who helped identify participants in the ALE-1 photograph.",
+    "subtype": "academic"
+  },
+  {
+    "id": "david_cameron",
+    "name": "David Cameron",
+    "entity_type": "person",
+    "summary": "Professor who polished the language of Puurunen’s essay.",
+    "subtype": "academic"
+  },
+  {
+    "id": "academy_of_finland_aldcoe",
+    "name": "Academy of Finland’s Centre of Excellence in Atomic Layer Deposition",
+    "entity_type": "organization",
+    "summary": "Funding body for ALD research in Finland, acknowledged in Puurunen’s essay.",
+    "subtype": "organization",
+    "aliases": [
+      "ALDCoE"
+    ]
+  },
+  {
+    "id": "virtual_project_on_history_of_ald",
+    "name": "Virtual Project on the History of ALD",
+    "entity_type": "organization",
+    "summary": "Worldwide open voluntary effort to document the history of ALD, mentioned in the essay.",
+    "subtype": "project",
+    "aliases": [
+      "VPHA"
+    ]
+  },
+  {
+    "id": "40_years_of_ald_exhibition",
+    "name": "40 Years of ALD in Finland – Photos, Stories",
+    "entity_type": "artifact",
+    "summary": "Exhibition organized in 2014 to celebrate the 40th anniversary of ALD in Finland.",
+    "subtype": "exhibition"
+  },
+  {
+    "id": "mrs_1994_annual_meeting",
+    "name": "MRS 1994 Annual Meeting",
+    "entity_type": "artifact",
+    "summary": "Conference in Boston where Suntola introduced ALE for semiconductor applications.",
+    "subtype": "conference"
+  },
+  {
+    "id": "f_450_reactor",
+    "name": "F-450 Reactor",
+    "entity_type": "artifact",
+    "summary": "ALD reactor designed by Microchemistry Ltd. for processing silicon wafers and large glass substrates.",
+    "subtype": "product"
+  },
+  {
+    "id": "f_1000_reactor",
+    "name": "F-1000 Reactor",
+    "entity_type": "artifact",
+    "summary": "Large ALD reactor by Microchemistry Ltd. for coating 500 mm × 500 mm substrate batches.",
+    "subtype": "product"
+  },
+  {
+    "id": "quicksun_simulator",
+    "name": "Quicksun Simulator",
+    "entity_type": "artifact",
+    "summary": "Solar simulator developed by Jaakko Hyvärinen for testing PV panels.",
+    "subtype": "product"
+  },
+  {
+    "id": "insko",
+    "name": "INSKO",
+    "entity_type": "organization",
+    "summary": "Finnish organization where Suntola gave lectures on display technologies.",
+    "subtype": "organization",
+    "aliases": [
+      "Insinöörijärjestöjen Koulutuskeskus"
+    ]
+  },
+  {
+    "id": "san_diego",
+    "name": "San Diego",
+    "entity_type": "place",
+    "summary": "Location of the SID 1980 conference and ICVGE-5 (1981).",
+    "subtype": "city",
+    "attributes": {
+      "country": "USA"
+    }
+  },
+  {
+    "id": "kobe",
+    "name": "Kobe",
+    "entity_type": "place",
+    "summary": "Location of the 16th International Conference on Solid State Devices and Materials (1984).",
+    "subtype": "city",
+    "attributes": {
+      "country": "Japan"
+    }
+  },
+  {
+    "id": "leningrad",
+    "name": "Leningrad",
+    "entity_type": "place",
+    "summary": "Soviet city (now St. Petersburg) where Suntola met Aleskovskii in 1990.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Soviet Union"
+    }
+  },
+  {
+    "id": "boston",
+    "name": "Boston",
+    "entity_type": "place",
+    "summary": "Location of the MRS 1994 Annual Meeting.",
+    "subtype": "city",
+    "attributes": {
+      "country": "USA"
+    }
+  },
+  {
+    "id": "munich",
+    "name": "Munich",
+    "entity_type": "place",
+    "summary": "Location of the Munich Electronics Show 2004 where Suntola received the SEMI Award.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Germany"
+    }
+  },
+  {
+    "id": "espoo",
+    "name": "Espoo",
+    "entity_type": "place",
+    "summary": "Finnish city where Suntola worked and where key ALE conferences were held.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Finland"
+    }
+  },
+  {
+    "id": "joensuu",
+    "name": "Joensuu",
+    "entity_type": "place",
+    "summary": "Finnish city home to the University of Joensuu, where Tapani Pakkanen collaborated on ALE research.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Finland"
+    }
+  },
+  {
+    "id": "north_carolina_state_university",
+    "name": "North Carolina State University",
+    "entity_type": "organization",
+    "summary": "Institution where Professor Bedair demonstrated ALE of GaAs in the 1980s.",
+    "subtype": "university"
+  },
+  {
+    "id": "university_of_southern_california",
+    "name": "University of Southern California",
+    "entity_type": "organization",
+    "summary": "Institution where Professor DenBaars demonstrated ALD of GaAs in MO-CVD systems.",
+    "subtype": "university"
+  },
+  {
+    "id": "nepon_electric_company",
+    "name": "Nippon Electric Company",
+    "entity_type": "organization",
+    "summary": "Japanese company (NEC) that demonstrated ALE-grown InGaP-GaAs-InGaP superlattices.",
+    "subtype": "company",
+    "aliases": [
+      "NEC"
+    ]
+  },
+  {
+    "id": "cge",
+    "name": "CGE",
+    "entity_type": "organization",
+    "summary": "French state-owned company that licensed ALE-EL technology from Lohja in 1983.",
+    "subtype": "company"
+  },
+  {
+    "id": "sintra_alcatel",
+    "name": "Sintra Alcatel",
+    "entity_type": "organization",
+    "summary": "French company that inherited the ALE-EL license from CGE.",
+    "subtype": "company"
+  },
+  {
+    "id": "riken",
+    "name": "RIKEN",
+    "entity_type": "organization",
+    "summary": "Japanese research institute where Yoshinobu Aoyagi worked.",
+    "subtype": "organization"
+  },
+  {
+    "id": "yoshinobu_aoyagi",
+    "name": "Yoshinobu Aoyagi",
+    "entity_type": "person",
+    "summary": "Researcher at RIKEN who attended the ALE-1 conference.",
+    "subtype": "researcher"
+  }
+]

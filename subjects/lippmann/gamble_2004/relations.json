@@ -1,0 +1,92 @@
+[
+  {
+    "id": "lippmann_worked_sorbonne",
+    "source": "gabriel_lippmann",
+    "type": "worked_at",
+    "target": "sorbonne",
+    "event_id": "lippmann_professor_sorbonne",
+    "start": {
+      "display": "1883",
+      "precision": "year",
+      "sort_start": "1883-01-01",
+      "sort_end": "1883-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "gamble_2004",
+        "page": 29,
+        "quote": "Lippmann, Professor of Mathematical Physics at the Sorbonne, from 1883"
+      }
+    ]
+  },
+  {
+    "id": "lippmann_member_bureau",
+    "source": "gabriel_lippmann",
+    "type": "member_of",
+    "target": "bureau_of_longitude",
+    "event_id": "lippmann_member_bureau_longitude",
+    "sources": [
+      {
+        "source_id": "gamble_2004",
+        "page": 29,
+        "quote": "member of the Bureau of Longitude"
+      }
+    ]
+  },
+  {
+    "id": "lippmann_invented_photograph",
+    "source": "gabriel_lippmann",
+    "type": "invented",
+    "target": "lippmann_photograph",
+    "event_id": "lippmann_invention_colour_photography",
+    "sources": [
+      {
+        "source_id": "gamble_2004",
+        "page": 29,
+        "quote": "Lippmann presented his 1891 paper on La photographie des couleurs"
+      }
+    ]
+  },
+  {
+    "id": "lippmann_awarded_nobel",
+    "source": "gabriel_lippmann",
+    "type": "awarded",
+    "target": "nobel_prize_physics_1908",
+    "event_id": "lippmann_nobel_prize_1908",
+    "sources": [
+      {
+        "source_id": "gamble_2004",
+        "page": 7,
+        "quote": "Lippmann in 1908"
+      }
+    ]
+  },
+  {
+    "id": "lippmann_collaborated_lumiere",
+    "source": "gabriel_lippmann",
+    "type": "collaborated_with",
+    "target": "auguste_lumiere",
+    "note": "Lumière Brothers assisted Lippmann with emulsions.",
+    "sources": [
+      {
+        "source_id": "gamble_2004",
+        "page": 46,
+        "quote": "The Lippmann spectrum was replicated and distributed for Lippmann by the Lumière Brothers"
+      }
+    ]
+  },
+  {
+    "id": "lippmann_collaborated_lumiere_louis",
+    "source": "gabriel_lippmann",
+    "type": "collaborated_with",
+    "target": "louis_lumiere",
+    "note": "Lumière Brothers assisted Lippmann with emulsions.",
+    "sources": [
+      {
+        "source_id": "gamble_2004",
+        "page": 46,
+        "quote": "The Lippmann spectrum was replicated and distributed for Lippmann by the Lumière Brothers"
+      }
+    ]
+  }
+]

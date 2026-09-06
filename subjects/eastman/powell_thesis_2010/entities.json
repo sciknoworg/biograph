@@ -1,0 +1,110 @@
+[
+  {
+    "id": "george_eastman",
+    "entity_type": "person",
+    "name": "George Eastman",
+    "aliases": [
+      "GE",
+      "George Eastman Sr."
+    ],
+    "summary": "Founder of Kodak and entrepreneur who democratized photography.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "george_eastman_sr",
+    "entity_type": "person",
+    "name": "George Eastman Sr.",
+    "aliases": [
+      "Eastman's father"
+    ],
+    "summary": "Father of George Eastman who ran a commercial college.",
+    "subtype": "educator"
+  },
+  {
+    "id": "maria_eastman",
+    "entity_type": "person",
+    "name": "Maria Eastman",
+    "aliases": [
+      "Eastman's mother"
+    ],
+    "summary": "Mother of George Eastman who suffered from spinal disease.",
+    "subtype": "family_member"
+  },
+  {
+    "id": "emma_kate_eastman",
+    "entity_type": "person",
+    "name": "Emma Kate Eastman",
+    "aliases": [
+      "Emma Kate",
+      "Eastman's sister"
+    ],
+    "summary": "Sister of George Eastman who had polio.",
+    "subtype": "family_member"
+  },
+  {
+    "id": "henry_a_strong",
+    "entity_type": "person",
+    "name": "Henry A. Strong",
+    "aliases": [
+      "Henry Strong"
+    ],
+    "summary": "Buggy whip manufacturer and co-founder of Eastman Dry Plate Company.",
+    "subtype": "business_partner"
+  },
+  {
+    "id": "kodak",
+    "entity_type": "organization",
+    "name": "Kodak",
+    "aliases": [
+      "Eastman Kodak Co.",
+      "Eastman Dry Plate Company"
+    ],
+    "summary": "Photography company founded by George Eastman.",
+    "subtype": "company"
+  },
+  {
+    "id": "rochester_savings_bank",
+    "entity_type": "organization",
+    "name": "Rochester Savings Bank",
+    "aliases": [],
+    "summary": "Bank where George Eastman worked as a clerk.",
+    "subtype": "company"
+  },
+  {
+    "id": "eastman_dental_dispensary",
+    "entity_type": "organization",
+    "name": "Eastman Dental Dispensary",
+    "aliases": [],
+    "summary": "Dental clinic funded by George Eastman.",
+    "subtype": "clinic"
+  },
+  {
+    "id": "waterville_ny",
+    "entity_type": "place",
+    "name": "Waterville",
+    "aliases": [
+      "Waterville, NY"
+    ],
+    "summary": "Town in New York where George Eastman was born.",
+    "subtype": "city",
+    "attributes": {
+      "country": "United States",
+      "state": "New York"
+    }
+  },
+  {
+    "id": "rochester_ny",
+    "entity_type": "place",
+    "name": "Rochester",
+    "aliases": [
+      "Rochester, NY",
+      "Rochester, New York"
+    ],
+    "summary": "City in New York where Eastman lived and built his company.",
+    "subtype": "city",
+    "attributes": {
+      "country": "United States",
+      "state": "New York"
+    }
+  }
+]

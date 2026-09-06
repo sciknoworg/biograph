@@ -1,0 +1,726 @@
+[
+  {
+    "id": "birth_tuomo_suntola",
+    "event_type": "birth",
+    "label": "Born in Tampere",
+    "date": {
+      "display": "1943",
+      "precision": "year",
+      "sort_start": "1943-01-01",
+      "sort_end": "1943-12-31"
+    },
+    "location": "tampere",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "matriculation_tuomo_suntola",
+    "event_type": "education",
+    "label": "Completed Matriculation examinations",
+    "date": {
+      "display": "1962",
+      "precision": "year",
+      "sort_start": "1962-01-01",
+      "sort_end": "1962-12-31"
+    },
+    "location": "turku",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "studies_start_hut",
+    "event_type": "education",
+    "label": "Started studies at Helsinki University of Technology",
+    "date": {
+      "display": "1963",
+      "precision": "year",
+      "sort_start": "1963-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "location": "espoo",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "master_thesis_tuomo_suntola",
+    "event_type": "education",
+    "label": "Completed Master's thesis",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "location": "espoo",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "doctoral_thesis_tuomo_suntola",
+    "event_type": "education",
+    "label": "Became Doctor of Science in Technology",
+    "date": {
+      "display": "December 1971",
+      "precision": "month",
+      "sort_start": "1971-12-01",
+      "sort_end": "1971-12-31"
+    },
+    "location": "espoo",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "employment_vtt",
+    "event_type": "employment_start",
+    "label": "Started work at VTT Semiconductor Laboratory",
+    "date": {
+      "display": "early 1970s",
+      "precision": "decade",
+      "sort_start": "1970-01-01",
+      "sort_end": "1979-12-31"
+    },
+    "location": "espoo",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "vtt_technical_research_centre",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "invention_humiap",
+    "event_type": "invention",
+    "label": "Completed Humicap 1 sensor development",
+    "date": {
+      "display": "end of 1973",
+      "precision": "year",
+      "sort_start": "1973-01-01",
+      "sort_end": "1973-12-31"
+    },
+    "location": "espoo",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "humicap_1",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "employment_instrumentarium",
+    "event_type": "employment_start",
+    "label": "Moved to Instrumentarium Oy",
+    "date": {
+      "display": "beginning of 1974",
+      "precision": "year",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-12-31"
+    },
+    "location": "espoo",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "instrumentarium_oy",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "invention_ale_concept",
+    "event_type": "invention",
+    "label": "Invented Atomic Layer Epitaxy concept",
+    "date": {
+      "display": "early June 1974",
+      "precision": "month",
+      "sort_start": "1974-06-01",
+      "sort_end": "1974-06-30"
+    },
+    "location": "espoo",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ale_technology",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "patent_ale_filed",
+    "event_type": "patent_filed",
+    "label": "Filed ALE patent",
+    "date": {
+      "display": "November 29, 1974",
+      "precision": "day",
+      "sort_start": "1974-11-29",
+      "sort_end": "1974-11-29"
+    },
+    "location": "espoo",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "experiment_first_growth",
+    "event_type": "other",
+    "label": "First ALE growth experiments",
+    "date": {
+      "display": "August-September 1974",
+      "precision": "range",
+      "sort_start": "1974-08-01",
+      "sort_end": "1974-09-30"
+    },
+    "location": "espoo",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "patent_ale_granted",
+    "event_type": "patent_granted",
+    "label": "ALE patent granted in Moscow",
+    "date": {
+      "display": "1977 or 1978",
+      "precision": "range",
+      "sort_start": "1977-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "location": "st_petersburg",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "project_sold_lohja",
+    "event_type": "company_sold",
+    "label": "ALE-EL project sold to Lohja Oy",
+    "date": {
+      "display": "1978",
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "location": "espoo",
+    "participants": [
+      {
+        "entity_id": "lohja_oy",
+        "role": "acquirer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "sid_conference_1980",
+    "event_type": "conference",
+    "label": "Presented ALE at SID conference",
+    "date": {
+      "display": "April 29 to May 1, 1980",
+      "precision": "range",
+      "sort_start": "1980-04-29",
+      "sort_end": "1980-05-01"
+    },
+    "location": "san_diego",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "pilot_production_lohja",
+    "event_type": "product_launch",
+    "label": "Started pilot production of TF-EL displays",
+    "date": {
+      "display": "1983",
+      "precision": "year",
+      "sort_start": "1983-01-01",
+      "sort_end": "1983-12-31"
+    },
+    "location": "lohja_city",
+    "participants": [
+      {
+        "entity_id": "lohja_oy",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "airport_installation",
+    "event_type": "product_launch",
+    "label": "Installed EL displays at Helsinki-Vantaa airport",
+    "date": {
+      "display": "1983",
+      "precision": "year",
+      "sort_start": "1983-01-01",
+      "sort_end": "1983-12-31"
+    },
+    "location": "espoo",
+    "participants": [
+      {
+        "entity_id": "lohja_oy",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "production_olarinluoma",
+    "event_type": "product_launch",
+    "label": "Started production at Olarinluoma facility",
+    "date": {
+      "display": "1985",
+      "precision": "year",
+      "sort_start": "1985-01-01",
+      "sort_end": "1985-12-31"
+    },
+    "location": "espoo",
+    "participants": [
+      {
+        "entity_id": "lohja_oy",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "el_business_sold_planar",
+    "event_type": "company_sold",
+    "label": "Lohja EL business sold to Planar Inc.",
+    "date": {
+      "display": "1990",
+      "precision": "year",
+      "sort_start": "1990-01-01",
+      "sort_end": "1990-12-31"
+    },
+    "location": "espoo",
+    "participants": [
+      {
+        "entity_id": "planar_inc",
+        "role": "acquirer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "microchemistry_founded",
+    "event_type": "company_founded",
+    "label": "Founded Microchemistry Ltd.",
+    "date": {
+      "display": "1987",
+      "precision": "year",
+      "sort_start": "1987-01-01",
+      "sort_end": "1987-12-31"
+    },
+    "location": "espoo",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "microchemistry_ltd",
+        "role": "founder"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "id": "ale1_conference",
+    "event_type": "conference",
+    "label": "First International Symposium on Atomic Layer Epitaxy",
+    "date": {
+      "display": "June 11-13, 1990",
+      "precision": "range",
+      "sort_start": "1990-06-11",
+      "sort_end": "1990-06-13"
+    },
+    "location": "espoo",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 11
+      }
+    ]
+  },
+  {
+    "id": "mrs_conference_1994",
+    "event_type": "conference",
+    "label": "Presented ALE at MRS Annual Meeting",
+    "date": {
+      "display": "Nov 28 - Dec 2, 1994",
+      "precision": "range",
+      "sort_start": "1994-11-28",
+      "sort_end": "1994-12-02"
+    },
+    "location": "boston",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 9
+      }
+    ]
+  },
+  {
+    "id": "microchemistry_sold_asm",
+    "event_type": "company_sold",
+    "label": "Microchemistry sold to ASM",
+    "date": {
+      "display": "1999",
+      "precision": "year",
+      "sort_start": "1999-01-01",
+      "sort_end": "1999-12-31"
+    },
+    "location": "espoo",
+    "participants": [
+      {
+        "entity_id": "asm",
+        "role": "acquirer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 10
+      }
+    ]
+  },
+  {
+    "id": "retirement_part_time",
+    "event_type": "retirement",
+    "label": "Part-time retirement",
+    "date": {
+      "display": "2000",
+      "precision": "year",
+      "sort_start": "2000-01-01",
+      "sort_end": "2000-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 12
+      }
+    ]
+  },
+  {
+    "id": "retirement_full",
+    "event_type": "retirement",
+    "label": "Full retirement",
+    "date": {
+      "display": "beginning of 2004",
+      "precision": "year",
+      "sort_start": "2004-01-01",
+      "sort_end": "2004-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 12
+      }
+    ]
+  },
+  {
+    "id": "semi_award",
+    "event_type": "award",
+    "label": "Received European SEMI Award 2004",
+    "date": {
+      "display": "2004",
+      "precision": "year",
+      "sort_start": "2004-01-01",
+      "sort_end": "2004-12-31"
+    },
+    "location": "munich",
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "semi_award_2004",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 12
+      }
+    ]
+  },
+  {
+    "id": "picosun_founded",
+    "event_type": "company_founded",
+    "label": "Picosun Oy founded",
+    "date": {
+      "display": "2004",
+      "precision": "year",
+      "sort_start": "2004-01-01",
+      "sort_end": "2004-12-31"
+    },
+    "location": "espoo",
+    "participants": [
+      {
+        "entity_id": "picosun_oy",
+        "role": "founder"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 10
+      }
+    ]
+  },
+  {
+    "id": "beneq_founded",
+    "event_type": "company_founded",
+    "label": "Beneq Oy founded",
+    "date": {
+      "display": "2005",
+      "precision": "year",
+      "sort_start": "2005-01-01",
+      "sort_end": "2005-12-31"
+    },
+    "location": "espoo",
+    "participants": [
+      {
+        "entity_id": "beneq_oy",
+        "role": "founder"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 10
+      }
+    ]
+  },
+  {
+    "id": "book_dynamic_universe",
+    "event_type": "publication",
+    "label": "Published 'The Dynamic Universe'",
+    "date": {
+      "display": "2011",
+      "precision": "year",
+      "sort_start": "2011-01-01",
+      "sort_end": "2011-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "dynamic_universe_book",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 13
+      }
+    ]
+  },
+  {
+    "id": "book_short_history",
+    "event_type": "publication",
+    "label": "Published 'The Short History of Science'",
+    "date": {
+      "display": "2012",
+      "precision": "year",
+      "sort_start": "2012-01-01",
+      "sort_end": "2012-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "short_history_of_science_book",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 13
+      }
+    ]
+  }
+]

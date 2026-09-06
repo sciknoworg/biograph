@@ -3,9 +3,18 @@ __pycache__/
 site/
 .DS_Store
 
-# Source PDFs are not redistributed -- see data/README.md. Citations
+# Source documents are not redistributed -- see data/README.md. Citations
 # (including DOIs) live in subjects/<slug>/sources.json instead.
+#
+# Both formats, for the same reason. data/<slug>.txt is the text extracted
+# from a source we obtained legitimately, but extraction changes the format,
+# not the copyright: "open access" spans everything from CC-BY (redistributable
+# with attribution) to free-to-read-only (not redistributable), and this
+# pipeline records no license field to tell them apart. Keeping the text
+# locally is what makes grounding re-checkable; publishing it is a separate
+# act needing per-source license evidence we do not currently collect.
 data/*.pdf
+data/*.txt
 
 # Source-discovery tool: kept private/local for now (unproven, and
 # specifically about finding copyright-adjacent material) -- see
@@ -22,6 +31,7 @@ candidates.json
 scripts/download_sources.py
 scripts/run_pipeline.py
 scripts/test_api_access.py
+scripts/check_scope.py
 HANDOFF.md
 PIPELINE_GUIDE.md
 materials_taxonomy.json
@@ -30,4 +40,13 @@ pipeline_log.txt
 .pipeline_manifest.json
 candidates_bootstrap.json
 candidates_autoseed.json
+.related_fields_scratch.json
 data/_pending/
+.scope_verdict_scratch.json
+data/_additional/
+scripts/pipeline_status.py
+
+# Local backups of the gitignored pipeline files above -- same contents, same
+# reasons; a .bak of an ignored file is still that file.
+materials_taxonomy.json.*
+pipeline_state.json.*

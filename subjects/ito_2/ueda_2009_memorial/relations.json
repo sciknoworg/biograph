@@ -1,0 +1,120 @@
+[
+  {
+    "id": "ito_studied_tokyo",
+    "source": "hiroshi_ito",
+    "type": "studied_at",
+    "target": "university_of_tokyo",
+    "sources": [
+      {
+        "source_id": "ueda_2009_memorial",
+        "page": 1,
+        "quote": "HegraduatedfromdleUniversityofTbkyo，Witha B．S．inchemistryin1970"
+      }
+    ]
+  },
+  {
+    "id": "ito_worked_ibm",
+    "source": "hiroshi_ito",
+    "type": "employed_by",
+    "target": "ibm_research_center",
+    "sources": [
+      {
+        "source_id": "ueda_2009_memorial",
+        "page": 1,
+        "quote": "Hiroshi joinedIBM ResearCh Centerin1980"
+      }
+    ]
+  },
+  {
+    "id": "ito_postdoc_suny",
+    "source": "hiroshi_ito",
+    "type": "worked_at",
+    "target": "state_university_of_new_york",
+    "note": "Postdoctoral work before joining IBM in 1980",
+    "sources": [
+      {
+        "source_id": "ueda_2009_memorial",
+        "page": 1,
+        "quote": "aRer doing apostdoctoral WO止attheStateUniversityofNewYb止"
+      }
+    ]
+  },
+  {
+    "id": "ito_collab_willson",
+    "source": "hiroshi_ito",
+    "type": "collaborated_with",
+    "target": "willson",
+    "sources": [
+      {
+        "source_id": "ueda_2009_memorial",
+        "page": 1,
+        "quote": "Thiswasthe resultofjolntreSearChwithProf Willsonand Prof Frechet．"
+      }
+    ]
+  },
+  {
+    "id": "ito_collab_frechet",
+    "source": "hiroshi_ito",
+    "type": "collaborated_with",
+    "target": "frechet",
+    "sources": [
+      {
+        "source_id": "ueda_2009_memorial",
+        "page": 1,
+        "quote": "Thiswasthe resultofjolntreSearChwithProf Willsonand Prof Frechet．"
+      }
+    ]
+  },
+  {
+    "id": "ito_invented_resist",
+    "source": "hiroshi_ito",
+    "type": "invented",
+    "target": "chemical_amplification_resist",
+    "sources": [
+      {
+        "source_id": "ueda_2009_memorial",
+        "page": 1,
+        "quote": "hismainachievementwastheinvention Ofthechemicallyamplifiedresistin1982．"
+      }
+    ]
+  },
+  {
+    "id": "ito_fellow_acs",
+    "source": "hiroshi_ito",
+    "type": "member_of",
+    "target": "american_chemical_society",
+    "sources": [
+      {
+        "source_id": "ueda_2009_memorial",
+        "page": 1,
+        "quote": "hewaselectedtobeaPMSEfbllowofthe AmeriCan Chemical Society"
+      }
+    ]
+  },
+  {
+    "id": "ito_fellow_tokyo",
+    "source": "hiroshi_ito",
+    "type": "member_of",
+    "target": "university_of_tokyo",
+    "sources": [
+      {
+        "source_id": "ueda_2009_memorial",
+        "page": 1,
+        "quote": "fbllow at the Universityof Tokyo"
+      }
+    ]
+  },
+  {
+    "id": "ito_fellow_kyushu",
+    "source": "hiroshi_ito",
+    "type": "member_of",
+    "target": "kyushu_university",
+    "sources": [
+      {
+        "source_id": "ueda_2009_memorial",
+        "page": 1,
+        "quote": "and fbllow at the Universityof Tokyo and町ushu University．"
+      }
+    ]
+  }
+]

@@ -1,0 +1,324 @@
+[
+  {
+    "id": "cailletet_birth",
+    "event_type": "birth",
+    "label": "Born in France",
+    "date": {
+      "display": "1832",
+      "precision": "year",
+      "sort_start": "1832-01-01",
+      "sort_end": "1832-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "louis_paul_cailletet",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "reif_acherman_2010",
+        "page": 2,
+        "quote": "One incidental figure in this whole research program and the mentioned controversy was the French physicist Louis Paul Cailletet (1832-1913) (Figure 1)."
+      }
+    ]
+  },
+  {
+    "id": "cailletet_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1913",
+      "precision": "year",
+      "sort_start": "1913-01-01",
+      "sort_end": "1913-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "louis_paul_cailletet",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "reif_acherman_2010",
+        "page": 2,
+        "quote": "One incidental figure in this whole research program and the mentioned controversy was the French physicist Louis Paul Cailletet (1832-1913) (Figure 1)."
+      }
+    ]
+  },
+  {
+    "id": "mathias_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1861",
+      "precision": "year",
+      "sort_start": "1861-01-01",
+      "sort_end": "1861-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emile_ovide_joseph_mathias",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "reif_acherman_2010",
+        "page": 2,
+        "quote": "It is there when he met the physicist of the Faculty of Sciences of Paris, Émile Ovide Joseph Mathias (1861-1942) (Figure 2), who became Préparateur in the Laboratory of Education of Physics at the Sorbonne."
+      }
+    ]
+  },
+  {
+    "id": "mathias_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1942",
+      "precision": "year",
+      "sort_start": "1942-01-01",
+      "sort_end": "1942-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emile_ovide_joseph_mathias",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "reif_acherman_2010",
+        "page": 2,
+        "quote": "It is there when he met the physicist of the Faculty of Sciences of Paris, Émile Ovide Joseph Mathias (1861-1942) (Figure 2), who became Préparateur in the Laboratory of Education of Physics at the Sorbonne."
+      }
+    ]
+  },
+  {
+    "id": "young_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1857",
+      "precision": "year",
+      "sort_start": "1857-01-01",
+      "sort_end": "1857-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "sidney_young",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "reif_acherman_2010",
+        "page": 3,
+        "quote": "Nevertheless, other person simultaneously appeared in the scene: the British chemist Sidney Young (1857-1937) (Figure 5)."
+      }
+    ]
+  },
+  {
+    "id": "young_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1937",
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1937-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "sidney_young",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "reif_acherman_2010",
+        "page": 3,
+        "quote": "Nevertheless, other person simultaneously appeared in the scene: the British chemist Sidney Young (1857-1937) (Figure 5)."
+      }
+    ]
+  },
+  {
+    "id": "cailletet_oxygen_liquefaction",
+    "event_type": "invention",
+    "label": "Liquefied oxygen",
+    "description": "First liquefaction of oxygen using high compression and sudden pressure decrease.",
+    "date": {
+      "display": "1877",
+      "precision": "year",
+      "sort_start": "1877-01-01",
+      "sort_end": "1877-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "louis_paul_cailletet",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "reif_acherman_2010",
+        "page": 2,
+        "quote": "His most widely known achievement is the first liquefaction - almost simultaneously with Raoul-Pierre Pictet (1846-1929) - of oxygen in 1877, using a method that involved high compression, mild cooling and finally a sudden decrease in pressure."
+      }
+    ]
+  },
+  {
+    "id": "cailletet_mathias_research_start",
+    "event_type": "other",
+    "label": "Began research on densities",
+    "description": "Started research on densities of liquefied gases and saturated vapours.",
+    "date": {
+      "display": "1886",
+      "precision": "year",
+      "sort_start": "1886-01-01",
+      "sort_end": "1886-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "louis_paul_cailletet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "emile_ovide_joseph_mathias",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "reif_acherman_2010",
+        "page": 2,
+        "quote": "Cailletet and Mathias began in 1886 their research on the densities of liquefied gases and their saturated vapours."
+      }
+    ]
+  },
+  {
+    "id": "cailletet_mathias_first_report",
+    "event_type": "publication",
+    "label": "Published first report on rectilinear diameter",
+    "description": "Reported experimental results for three compounds and referenced the possibility for determining density in the critical point.",
+    "date": {
+      "display": "1886",
+      "precision": "year",
+      "sort_start": "1886-01-01",
+      "sort_end": "1886-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "louis_paul_cailletet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "emile_ovide_joseph_mathias",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "law_of_rectilinear_diameter",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "reif_acherman_2010",
+        "page": 3,
+        "quote": "Cailletet and Mathias reported experimental results for only three compounds in their first report."
+      }
+    ]
+  },
+  {
+    "id": "mathias_leiden_funding_1909",
+    "event_type": "award",
+    "label": "Received funding for Leiden journey",
+    "description": "Received 2000 francs from the French Academy of Sciences for journey and stay at The Netherlands.",
+    "date": {
+      "display": "1909",
+      "precision": "year",
+      "sort_start": "1909-01-01",
+      "sort_end": "1909-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emile_ovide_joseph_mathias",
+        "role": "subject"
+      },
+      {
+        "entity_id": "french_academy_of_sciences",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "reif_acherman_2010",
+        "page": 5,
+        "quote": "Mathias received financial support from the French Academy of Sciences for his journey and stay at The Netherlands in at least two opportunities, 2000 francs in 1909, and 4000 francs in 1920."
+      }
+    ]
+  },
+  {
+    "id": "mathias_leiden_funding_1920",
+    "event_type": "award",
+    "label": "Received funding for Leiden journey",
+    "description": "Received 4000 francs from the French Academy of Sciences for journey and stay at The Netherlands.",
+    "date": {
+      "display": "1920",
+      "precision": "year",
+      "sort_start": "1920-01-01",
+      "sort_end": "1920-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emile_ovide_joseph_mathias",
+        "role": "subject"
+      },
+      {
+        "entity_id": "french_academy_of_sciences",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "reif_acherman_2010",
+        "page": 5,
+        "quote": "Mathias received financial support from the French Academy of Sciences for his journey and stay at The Netherlands in at least two opportunities, 2000 francs in 1909, and 4000 francs in 1920."
+      }
+    ]
+  },
+  {
+    "id": "mathias_leiden_guest_period",
+    "event_type": "visit",
+    "label": "Summer guest at Leiden",
+    "description": "Was summer guest at Leyden initially between 1910 and 1923 with Kamerlingh Onnes as host.",
+    "date": {
+      "display": "1910–1923",
+      "precision": "range",
+      "sort_start": "1910-01-01",
+      "sort_end": "1923-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emile_ovide_joseph_mathias",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_leiden",
+        "role": "employer"
+      },
+      {
+        "entity_id": "heike_kamerlingh_onnes",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "reif_acherman_2010",
+        "page": 5,
+        "quote": "During the periods Mathias was summer guest at Leyden, initially between 1910 and 1923 with Kamerlingh Onnes as host, and until 1932 with the also Dutch physicist Claude August Crommelin (1878-1965) as the new director of the laboratory, he collaborated with the measurement of the coexistence curves and the estimation of the parameters of the mathematical expression of the rectilinear diameter of many fluids such as oxygen, argon, nitrogen, hydrogen, neon, helium, ethylene, carbon monoxide, and krypton."
+      }
+    ]
+  }
+]

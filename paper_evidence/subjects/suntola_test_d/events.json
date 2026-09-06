@@ -1,0 +1,524 @@
+[
+  {
+    "id": "birth_tuomo_suntola",
+    "event_type": "birth",
+    "label": "Born in Tampere",
+    "date": {
+      "display": "1943",
+      "precision": "year",
+      "sort_start": "1943-01-01",
+      "sort_end": "1943-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "matriculation",
+    "event_type": "education",
+    "label": "Completed Matriculation examinations",
+    "date": {
+      "display": "1962",
+      "precision": "year",
+      "sort_start": "1962-01-01",
+      "sort_end": "1962-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "start_hut_studies",
+    "event_type": "education",
+    "label": "Started electrical engineering studies at HUT",
+    "date": {
+      "display": "1963",
+      "precision": "year",
+      "sort_start": "1963-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "master_thesis",
+    "event_type": "education",
+    "label": "Completed Master's thesis on Schottky diodes",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "licentiate_thesis",
+    "event_type": "education",
+    "label": "Completed licentiate thesis on amorphous switches",
+    "date": {
+      "display": "1971",
+      "precision": "year",
+      "sort_start": "1971-01-01",
+      "sort_end": "1971-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "doctoral_thesis",
+    "event_type": "education",
+    "label": "Defended doctoral thesis, becoming youngest Dr. Sci. Tech. in EE",
+    "date": {
+      "display": "December 1971",
+      "precision": "month",
+      "sort_start": "1971-12-01",
+      "sort_end": "1971-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "move_to_instrumentarium",
+    "event_type": "relocation",
+    "label": "Moved research group from VTT to Instrumentarium",
+    "date": {
+      "display": "early 1974",
+      "precision": "month",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-01-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "ale_invention",
+    "event_type": "invention",
+    "label": "Invented Atomic Layer Epitaxy (ALE)",
+    "date": {
+      "display": "June 1974",
+      "precision": "month",
+      "sort_start": "1974-06-01",
+      "sort_end": "1974-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "inventor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "ale_patent_filed",
+    "event_type": "patent_filed",
+    "label": "Filed first ALE patent in Finland",
+    "date": {
+      "display": "November 29, 1974",
+      "precision": "day",
+      "sort_start": "1974-11-29",
+      "sort_end": "1974-11-29"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "inventor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "ale_project_sold_to_lohja",
+    "event_type": "company_sold",
+    "label": "Sold ALE-EL project and facility to Lohja Oy",
+    "date": {
+      "display": "1978",
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lohja",
+        "role": "buyer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 5
+      }
+    ]
+  },
+  {
+    "id": "ale_patent_2_filed",
+    "event_type": "patent_filed",
+    "label": "Filed second international ALE patent for chloride processes",
+    "date": {
+      "display": "February 28, 1979",
+      "precision": "day",
+      "sort_start": "1979-02-28",
+      "sort_end": "1979-02-28"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "inventor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 5
+      }
+    ]
+  },
+  {
+    "id": "sid_presentation",
+    "event_type": "public_demonstration",
+    "label": "Presented ALE-EL display at SID conference",
+    "date": {
+      "display": "April 29–May 1, 1980",
+      "precision": "range",
+      "sort_start": "1980-04-29",
+      "sort_end": "1980-05-01"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "presenter"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "pilot_production_lohja",
+    "event_type": "product_launch",
+    "label": "Started pilot production of TF-EL displays in Lohja",
+    "date": {
+      "display": "1983",
+      "precision": "year",
+      "sort_start": "1983-01-01",
+      "sort_end": "1983-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lohja",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "microchemistry_founded",
+    "event_type": "company_founded",
+    "label": "Founded Microchemistry Ltd. as Neste subsidiary",
+    "date": {
+      "display": "1987",
+      "precision": "year",
+      "sort_start": "1987-01-01",
+      "sort_end": "1987-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "founder"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "id": "first_ale_symposium",
+    "event_type": "conference",
+    "label": "Organized First Symposium on ALE in Espoo",
+    "date": {
+      "display": "December 13–14, 1984",
+      "precision": "range",
+      "sort_start": "1984-12-13",
+      "sort_end": "1984-12-14"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "attendee"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 11
+      }
+    ]
+  },
+  {
+    "id": "first_international_ale_symposium",
+    "event_type": "conference",
+    "label": "Attended First International Symposium on ALE in Espoo",
+    "date": {
+      "display": "June 11–13, 1990",
+      "precision": "range",
+      "sort_start": "1990-06-11",
+      "sort_end": "1990-06-13"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "attendee"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 11
+      }
+    ]
+  },
+  {
+    "id": "lohja_el_sold_to_planar",
+    "event_type": "company_sold",
+    "label": "Lohja sold EL business to Planar Inc.",
+    "date": {
+      "display": "1990",
+      "precision": "year",
+      "sort_start": "1990-01-01",
+      "sort_end": "1990-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lohja",
+        "role": "seller"
+      },
+      {
+        "entity_id": "planar",
+        "role": "buyer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "elcoteq_founded",
+    "event_type": "company_founded",
+    "label": "Elcoteq Oy established as independent company",
+    "date": {
+      "display": "1991",
+      "precision": "year",
+      "sort_start": "1991-01-01",
+      "sort_end": "1991-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "antti_piippo",
+        "role": "founder"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "microchemistry_sold_to_asm",
+    "event_type": "company_sold",
+    "label": "Sold Microchemistry to ASM",
+    "date": {
+      "display": "1999",
+      "precision": "year",
+      "sort_start": "1999-01-01",
+      "sort_end": "1999-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "microchemistry",
+        "role": "seller"
+      },
+      {
+        "entity_id": "asm",
+        "role": "buyer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 10
+      }
+    ]
+  },
+  {
+    "id": "retirement_from_ale",
+    "event_type": "role_change",
+    "label": "Stepped aside from active role in ALE/ALD",
+    "date": {
+      "display": "beginning of 1998",
+      "precision": "month",
+      "sort_start": "1998-01-01",
+      "sort_end": "1998-01-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 10
+      }
+    ]
+  },
+  {
+    "id": "semi_award",
+    "event_type": "award",
+    "label": "Received European SEMI Award for ALD pioneer",
+    "date": {
+      "display": "2004",
+      "precision": "year",
+      "sort_start": "2004-01-01",
+      "sort_end": "2004-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "recipient"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 12
+      }
+    ]
+  },
+  {
+    "id": "full_retirement",
+    "event_type": "retirement",
+    "label": "Entered full retirement",
+    "date": {
+      "display": "beginning of 2004",
+      "precision": "month",
+      "sort_start": "2004-01-01",
+      "sort_end": "2004-01-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ald_history",
+        "page": 12
+      }
+    ]
+  }
+]

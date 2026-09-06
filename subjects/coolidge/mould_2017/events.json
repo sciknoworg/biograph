@@ -1,0 +1,350 @@
+[
+  {
+    "id": "birth_1873",
+    "event_type": "birth",
+    "label": "Born in Hudson, Massachusetts",
+    "date": {
+      "display": "1873",
+      "precision": "year",
+      "sort_start": "1873-01-01",
+      "sort_end": "1873-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "william_david_coolidge",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2017",
+        "page": 273,
+        "quote": "He was born in Hudson, Massachusetts"
+      }
+    ]
+  },
+  {
+    "id": "mit_start_1891",
+    "event_type": "education",
+    "label": "Started studies at MIT",
+    "date": {
+      "display": "fall of 1891",
+      "precision": "month",
+      "sort_start": "1891-09-01",
+      "sort_end": "1891-11-30"
+    },
+    "participants": [
+      {
+        "entity_id": "william_david_coolidge",
+        "role": "subject"
+      },
+      {
+        "entity_id": "massachusetts_institute_of_technology",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2017",
+        "page": 274,
+        "quote": "in the fall of 1891 started his studies at MIT"
+      }
+    ]
+  },
+  {
+    "id": "mit_graduation_1896",
+    "event_type": "education",
+    "label": "Graduated from MIT",
+    "date": {
+      "display": "1896",
+      "precision": "year",
+      "sort_start": "1896-01-01",
+      "sort_end": "1896-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "william_david_coolidge",
+        "role": "subject"
+      },
+      {
+        "entity_id": "massachusetts_institute_of_technology",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2017",
+        "page": 275,
+        "quote": "he graduated in 1896"
+      }
+    ]
+  },
+  {
+    "id": "leipzig_phd_1899",
+    "event_type": "education",
+    "label": "Awarded doctorate at Leipzig",
+    "date": {
+      "display": "July 1899",
+      "precision": "month",
+      "sort_start": "1899-07-01",
+      "sort_end": "1899-07-31"
+    },
+    "participants": [
+      {
+        "entity_id": "william_david_coolidge",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_leipzig",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2017",
+        "page": 276,
+        "quote": "In July 1899 he received high marks in all examinations and was awarded his doctorate summa cum laude."
+      }
+    ]
+  },
+  {
+    "id": "ge_start_1905",
+    "event_type": "employment_start",
+    "label": "Joined GE Research Laboratory",
+    "date": {
+      "display": "1905",
+      "precision": "year",
+      "sort_start": "1905-01-01",
+      "sort_end": "1905-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "william_david_coolidge",
+        "role": "subject"
+      },
+      {
+        "entity_id": "general_electric_company",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2017",
+        "page": 276,
+        "quote": "William started at the GE Research Laboratory in 1905."
+      }
+    ]
+  },
+  {
+    "id": "ductile_tungsten_market_1911",
+    "event_type": "product_launch",
+    "label": "Ductile tungsten lamps marketed",
+    "date": {
+      "display": "1911",
+      "precision": "year",
+      "sort_start": "1911-01-01",
+      "sort_end": "1911-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "william_david_coolidge",
+        "role": "subject"
+      },
+      {
+        "entity_id": "general_electric_company",
+        "role": "employer"
+      },
+      {
+        "entity_id": "ductile_tungsten_filament",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2017",
+        "page": 277,
+        "quote": "GE lamps with ductile tungsten filaments appeared on the market in 1911"
+      }
+    ]
+  },
+  {
+    "id": "coolidge_tube_invention_1913",
+    "event_type": "invention",
+    "label": "Invented Coolidge X-ray tube",
+    "date": {
+      "display": "1913",
+      "precision": "year",
+      "sort_start": "1913-01-01",
+      "sort_end": "1913-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "william_david_coolidge",
+        "role": "subject"
+      },
+      {
+        "entity_id": "coolidge_x_ray_tube",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2017",
+        "page": 273,
+        "quote": "in 1913 invented the Coolidge X-ray tube"
+      }
+    ]
+  },
+  {
+    "id": "marriage_esther_1908",
+    "event_type": "other",
+    "label": "Married Esther Westcott Woodward",
+    "date": {
+      "display": "1908",
+      "precision": "year",
+      "sort_start": "1908-01-01",
+      "sort_end": "1908-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "william_david_coolidge",
+        "role": "subject"
+      },
+      {
+        "entity_id": "esther_westcott_woodward",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2017",
+        "page": 278,
+        "quote": "mar. 1908"
+      }
+    ]
+  },
+  {
+    "id": "marriage_dorothy_1916",
+    "event_type": "other",
+    "label": "Married Dorothy Elizabeth MacHaffie",
+    "date": {
+      "display": "1916",
+      "precision": "year",
+      "sort_start": "1916-01-01",
+      "sort_end": "1916-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "william_david_coolidge",
+        "role": "subject"
+      },
+      {
+        "entity_id": "dorothy_elizabeth_machaffie",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2017",
+        "page": 278,
+        "quote": "mar. 1916"
+      }
+    ]
+  },
+  {
+    "id": "rumford_medal_1914",
+    "event_type": "award",
+    "label": "Awarded Rumford Medal",
+    "date": {
+      "display": "1914",
+      "precision": "year",
+      "sort_start": "1914-01-01",
+      "sort_end": "1914-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "william_david_coolidge",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2017",
+        "page": 273,
+        "quote": "Rumford Medal of the American Academy of Arts and Sciences (1914)"
+      }
+    ]
+  },
+  {
+    "id": "hughes_medal_1927",
+    "event_type": "award",
+    "label": "Awarded Hughes Medal",
+    "date": {
+      "display": "1927",
+      "precision": "year",
+      "sort_start": "1927-01-01",
+      "sort_end": "1927-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "william_david_coolidge",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2017",
+        "page": 273,
+        "quote": "Hughes Medal of the Royal Society (1927)"
+      }
+    ]
+  },
+  {
+    "id": "faraday_medal_1939",
+    "event_type": "award",
+    "label": "Awarded Faraday Medal",
+    "date": {
+      "display": "1939",
+      "precision": "year",
+      "sort_start": "1939-01-01",
+      "sort_end": "1939-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "william_david_coolidge",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2017",
+        "page": 273,
+        "quote": "Faraday Medal of the Institute of Electrical Engineers, England (1939)"
+      }
+    ]
+  },
+  {
+    "id": "death_1975",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1975",
+      "precision": "year",
+      "sort_start": "1975-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "william_david_coolidge",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2017",
+        "page": 273,
+        "quote": "William David Coolidge (1873–1975)"
+      }
+    ]
+  }
+]

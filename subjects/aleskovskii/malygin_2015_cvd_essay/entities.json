@@ -1,0 +1,604 @@
+[
+  {
+    "id": "aleskovskii",
+    "entity_type": "person",
+    "name": "Valentin Borisovich Aleskovskii",
+    "aliases": [
+      "V. B. Aleskovskii",
+      "V. B. Aleskovsky",
+      "Valentin Borisovich",
+      "V. B. Aleskvoskii"
+    ],
+    "summary": "Chemist by education, graduate of the Leningrad Technological Institute by Lensovet; author of the 'framework' hypothesis and co-founder, with his student S. I. Kol'tsov, of the molecular layering (ML) method. Organizer and permanent head of the scientific school 'Chemistry of highly organized substances'; author of over 450 scientific publications including 12 books and monographs and more than 150 inventions.",
+    "subtype": "chemist",
+    "attributes": {
+      "publications": "over 450",
+      "books_and_monographs": 12,
+      "inventions": "more than 150"
+    }
+  },
+  {
+    "id": "koltsov",
+    "entity_type": "person",
+    "name": "Stanislav Ivanovich Kol'tsov",
+    "aliases": [
+      "S. I. Kol'tsov",
+      "S. I. Koltsov",
+      "Stanislav Ivanovich"
+    ],
+    "summary": "Chemical engineer, graduate student and lifelong collaborator of V. B. Aleskovskii at the LTI by Lensovet; co-inventor of the molecular layering method, whose doctoral dissertation laid out the key principles of ML and introduced the term 'chemical assembly'.",
+    "subtype": "chemist"
+  },
+  {
+    "id": "suntola",
+    "entity_type": "person",
+    "name": "T. Suntola",
+    "aliases": [
+      "Tuomo Suntola",
+      "Dr. T. Suntola"
+    ],
+    "summary": "Finnish physicist by education, inventor of atomic layer epitaxy (ALE), holder of the first Finnish patents on the method, whose work led to industrial production of electroluminescent displays.",
+    "subtype": "physicist"
+  },
+  {
+    "id": "malygin",
+    "entity_type": "person",
+    "name": "Anatolii A. Malygin",
+    "aliases": [
+      "A. A. Malygin",
+      "Anatoly Malygin"
+    ],
+    "summary": "Student of Aleskovskii and Kol'tsov; professor and head of the Department of Chemical Nanotechnology and Electronics Engineering Materials at St. Petersburg State Technological Institute; lead author of the essay.",
+    "subtype": "chemist"
+  },
+  {
+    "id": "drozd",
+    "entity_type": "person",
+    "name": "Victor E. Drozd",
+    "aliases": [
+      "V. E. Drozd",
+      "V. Drozd"
+    ],
+    "summary": "Physicist, graduate of the Leningrad Electrotechnical Institute, one of the few physicists in the ML group; builder of the first manually controlled vacuum ML reactor and later automated vacuum ML equipment; at St. Petersburg State University, Department of Solid State Chemistry.",
+    "subtype": "physicist"
+  },
+  {
+    "id": "smirnov_vm",
+    "entity_type": "person",
+    "name": "Vladimir M. Smirnov",
+    "aliases": [
+      "V. M. Smirnov"
+    ],
+    "summary": "Student of Aleskovskii and Kol'tsov; professor at St. Petersburg State University, Department of Solid State Chemistry; first to describe the 'monolayer effect' in ML-synthesized oxide monolayers.",
+    "subtype": "chemist"
+  },
+  {
+    "id": "malkov",
+    "entity_type": "person",
+    "name": "Anatolii A. Malkov",
+    "aliases": [
+      "A. A. Malkov",
+      "Anatoly Malkov"
+    ],
+    "summary": "Student of Aleskovskii and Kol'tsov at LTI by Lensovet; researcher at St. Petersburg State Technological Institute and main developer of nanodoped blends for ceramic insulators.",
+    "subtype": "chemist"
+  },
+  {
+    "id": "kuznetsova",
+    "entity_type": "person",
+    "name": "G. N. Kuznetsova",
+    "summary": "Graduate student at LTI by Lensovet advised by V. B. Aleskovskii and A. M. Shevyakov; her candidate thesis on IR spectroscopy of hydrated silica adopted Kol'tsov's method.",
+    "subtype": "chemist"
+  },
+  {
+    "id": "volkova",
+    "entity_type": "person",
+    "name": "A. N. Volkova",
+    "summary": "Student of Aleskovskii and Kol'tsov at LTI by Lensovet whose candidate thesis dealt with molecular layering reactions of chlorides with silica gel.",
+    "subtype": "chemist"
+  },
+  {
+    "id": "sveshnikova",
+    "entity_type": "person",
+    "name": "G. V. Sveshnikova",
+    "summary": "Student jointly mentored by Kol'tsov and Aleskovskii; studied thin oxide layers on silicon surfaces by ML, including ellipsometry of TiO2/SiO2 nanolaminates.",
+    "subtype": "chemist"
+  },
+  {
+    "id": "dushina",
+    "entity_type": "person",
+    "name": "Augusta Petrovna Dushina",
+    "aliases": [
+      "A. P. Dushina"
+    ],
+    "summary": "Graduate student of V. B. Aleskovskii who developed the method of destructive-epitaxial transformations (DET) for modifying the core atoms of solids.",
+    "subtype": "chemist"
+  },
+  {
+    "id": "shevyakov",
+    "entity_type": "person",
+    "name": "A. M. Shevyakov",
+    "aliases": [
+      "A. M. Shevjakov"
+    ],
+    "summary": "Specialist in infrared spectroscopy at LTI by Lensovet, co-advisor of G. N. Kuznetsova and student of Aleskovskii.",
+    "subtype": "chemist"
+  },
+  {
+    "id": "puurunen",
+    "entity_type": "person",
+    "name": "Riikka Puurunen",
+    "aliases": [
+      "R. Puurunen",
+      "R. L. Puurunen"
+    ],
+    "summary": "Senior Scientist at VTT Technical Research Centre of Finland; co-initiator of the Virtual Project on the History of ALD and author of reviews and an essay on the history of ALD in Finland.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "sundqvist",
+    "entity_type": "person",
+    "name": "Jonas Sundqvist",
+    "summary": "Group Leader High-k Devices at Fraunhofer IPMS-CNT, Germany; co-initiator of the Virtual Project on the History of ALD.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "abdulagatov",
+    "entity_type": "person",
+    "name": "Aziz Abdulagatov",
+    "aliases": [
+      "A. Abdulagatov",
+      "A. I. Abdulagatov"
+    ],
+    "summary": "Postdoctoral Fellow at NIST Boulder, USA; co-initiator of the Virtual Project on the History of ALD and assisted in creating an ALD group at Dagestan State University.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "kosygin",
+    "entity_type": "person",
+    "name": "N. A. Kosygin",
+    "summary": "Prime Minister of the USSR who became interested in molecular layering and ordered the establishment of a committee on the subject.",
+    "subtype": "politician"
+  },
+  {
+    "id": "kalinin",
+    "entity_type": "person",
+    "name": "E. K. Kalinin",
+    "summary": "Deputy Minister of Education who proposed an inter-university program under Aleskovskii's supervision as a compromise to the proposed Institute of Chemical Assembly of Materials.",
+    "subtype": "official"
+  },
+  {
+    "id": "damyanov",
+    "entity_type": "person",
+    "name": "D. Damyanov",
+    "summary": "Bulgarian scientist from the Burgas Institute of Technology engaged in ML studies of catalysts.",
+    "subtype": "chemist"
+  },
+  {
+    "id": "pak",
+    "entity_type": "person",
+    "name": "V. N. Pak",
+    "summary": "Ph.D. student of Aleskovskii; author of the first ML doctoral thesis after Kol'tsov's, on quantum-chemical studies of oxide coatings; later supervisor at St. Petersburg State Pedagogical University.",
+    "subtype": "chemist"
+  },
+  {
+    "id": "dergachev",
+    "entity_type": "person",
+    "name": "V. F. Dergachev",
+    "summary": "Researcher who developed an automated multi-sectional fluidized-bed ML apparatus for powder coating used to produce the IVS-1 indicator.",
+    "subtype": "engineer"
+  },
+  {
+    "id": "sulimov",
+    "entity_type": "person",
+    "name": "O. K. Sulimov",
+    "summary": "Co-author with Aleskovskii of a Russian patent related to chemical-informational synthesis.",
+    "subtype": "chemist"
+  },
+  {
+    "id": "nicholas_i",
+    "entity_type": "person",
+    "name": "Emperor Nicholas I",
+    "summary": "Russian emperor whose decree established the practical institute of technology in Leningrad (St. Petersburg).",
+    "subtype": "monarch"
+  },
+  {
+    "id": "niinisto",
+    "entity_type": "person",
+    "name": "L. Niinisto",
+    "summary": "Finnish ALE scientist who supported the presentation of the first Soviet ML report at the 1st International Symposium on Atomic Layer Epitaxy.",
+    "subtype": "chemist"
+  },
+  {
+    "id": "pessa",
+    "entity_type": "person",
+    "name": "M. Pessa",
+    "summary": "Professor who provided information enabling V. E. Drozd's first ML report at the ALE symposium.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "mary_turkmenistan",
+    "entity_type": "place",
+    "name": "Mary",
+    "summary": "City in Turkmenistan, birthplace of V. B. Aleskovskii.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Turkmenistan"
+    }
+  },
+  {
+    "id": "proletarskaya_station",
+    "entity_type": "place",
+    "name": "Proletarskaya station, Rostov region",
+    "summary": "Station in the Rostov region of the USSR, birthplace of S. I. Kol'tsov.",
+    "subtype": "settlement",
+    "attributes": {
+      "country": "USSR"
+    }
+  },
+  {
+    "id": "leningrad",
+    "entity_type": "place",
+    "name": "Leningrad",
+    "aliases": [
+      "St. Petersburg",
+      "Saint Petersburg"
+    ],
+    "summary": "City in Russia (USSR), home of the LTI by Lensovet and Leningrad State University.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Russia"
+    }
+  },
+  {
+    "id": "helsinki_espoo",
+    "entity_type": "place",
+    "name": "Espoo/Helsinki",
+    "aliases": [
+      "Helsinki"
+    ],
+    "summary": "Finnish capital region, site of the 1st International Symposium on Atomic Layer Epitaxy and the 12th Baltic ALD conference.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Finland"
+    }
+  },
+  {
+    "id": "kyoto",
+    "entity_type": "place",
+    "name": "Kyoto",
+    "summary": "Japanese city, site of the AVS 14th International Conference on Atomic Layer Deposition.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Japan"
+    }
+  },
+  {
+    "id": "lti_lensovet",
+    "entity_type": "organization",
+    "name": "Leningrad Technological Institute by Lensovet",
+    "aliases": [
+      "LTI by Lensovet",
+      "LTI",
+      "St. Petersburg State Technological Institute (Technical University)",
+      "SPbSTI",
+      "Saint Petersburg State Technological Institute"
+    ],
+    "summary": "Oldest chemical engineering institute in Russia, established as a 'practical institute of technology'; the institute where Aleskovskii and Kol'tsov created and experimentally substantiated the molecular layering method.",
+    "subtype": "university",
+    "attributes": {
+      "city": "Leningrad / St. Petersburg"
+    }
+  },
+  {
+    "id": "naval_research_institute_leningrad",
+    "entity_type": "organization",
+    "name": "Naval Research Institute in Leningrad",
+    "summary": "Research institute in Leningrad where Aleskovskii worked as a research fellow after graduating.",
+    "subtype": "research_institute"
+  },
+  {
+    "id": "lsu",
+    "entity_type": "organization",
+    "name": "Leningrad State University",
+    "aliases": [
+      "LSU",
+      "St. Petersburg State University",
+      "SPbSU",
+      "Saint Petersburg State University"
+    ],
+    "summary": "Classical university in Leningrad/St. Petersburg where Aleskovskii served as rector and organized the Department of Solid State Chemistry.",
+    "subtype": "university"
+  },
+  {
+    "id": "dept_analytical_chemistry_lti",
+    "entity_type": "organization",
+    "name": "Department of Analytical Chemistry, LTI by Lensovet",
+    "summary": "Department at LTI by Lensovet headed by Aleskovskii where Kol'tsov enrolled as a graduate student.",
+    "subtype": "department"
+  },
+  {
+    "id": "dept_chemistry_of_solids_lti",
+    "entity_type": "organization",
+    "name": "Department of Chemistry of Solids, LTI by Lensovet",
+    "aliases": [
+      "Solid State Chemistry Department at LTI by Lensovet",
+      "Department of Chemical Engineering of Materials and Electronics Products",
+      "Department of Chemical Nanotechnology and Electronics Engineering Materials",
+      "CNEEM",
+      "CNME"
+    ],
+    "summary": "One of the first departments of chemistry of solids in the USSR, founded and first chaired by Aleskovskii at LTI by Lensovet; home of the molecular layering research group.",
+    "subtype": "department"
+  },
+  {
+    "id": "dept_solid_state_chemistry_lsu",
+    "entity_type": "organization",
+    "name": "Department of Solid State Chemistry, Leningrad State University",
+    "aliases": [
+      "Solid State Chemistry Department, SPbSU"
+    ],
+    "summary": "Department at Leningrad (St. Petersburg) State University organized and supervised by Aleskovskii, where ML research continues under his and Kol'tsov's students.",
+    "subtype": "department"
+  },
+  {
+    "id": "academy_of_sciences_ussr",
+    "entity_type": "organization",
+    "name": "Academy of Sciences of the USSR",
+    "aliases": [
+      "USSR Academy of Sciences"
+    ],
+    "summary": "Soviet national academy of sciences, of which Aleskovskii was a corresponding member.",
+    "subtype": "academy"
+  },
+  {
+    "id": "scientific_school_highly_organized_substances",
+    "entity_type": "organization",
+    "name": "Scientific school 'Chemistry of highly organized substances'",
+    "summary": "Leading Soviet/Russian scientific school organized and permanently headed by V. B. Aleskovskii, which regularly held international and Russian conferences.",
+    "subtype": "scientific_school"
+  },
+  {
+    "id": "chemical_assembly_program",
+    "entity_type": "organization",
+    "name": "'Chemical assembly of materials' inter-university program",
+    "summary": "Inter-university scientific and technical program headed by Aleskovskii and led by LSU and LTI by Lensovet, founded by the Ministry of Higher Education of the RSFSR.",
+    "subtype": "research_program"
+  },
+  {
+    "id": "ministry_higher_education_rsfsr",
+    "entity_type": "organization",
+    "name": "Ministry of Higher Education of the RSFSR",
+    "summary": "Ministry of the Russian Soviet Federative Socialist Republic that founded the 'Chemical assembly of materials' inter-university program.",
+    "subtype": "government_ministry"
+  },
+  {
+    "id": "svetlana",
+    "entity_type": "organization",
+    "name": "Svetlana",
+    "aliases": [
+      "Svetlana-Roentgen"
+    ],
+    "summary": "One of the leading USSR electronics engineering organizations, partner in demonstrating ML-made dielectric thin films for MOS structures and later in ceramic insulators for X-ray tubes.",
+    "subtype": "company"
+  },
+  {
+    "id": "burgas_institute_of_technology",
+    "entity_type": "organization",
+    "name": "Burgas Institute of Technology",
+    "summary": "Bulgarian institute where D. Damyanov worked and defended his doctoral dissertation on ML.",
+    "subtype": "university",
+    "attributes": {
+      "country": "Bulgaria"
+    }
+  },
+  {
+    "id": "vpha",
+    "entity_type": "organization",
+    "name": "Virtual Project on the History of ALD",
+    "aliases": [
+      "VPHA"
+    ],
+    "summary": "International project in which early Russian ML publications were presented and discussed by more than 30 scientists from 10 countries.",
+    "subtype": "project"
+  },
+  {
+    "id": "leningrad_scientific_center",
+    "entity_type": "organization",
+    "name": "Leningrad Scientific Center of the USSR Academy of Sciences",
+    "summary": "Regional center of the USSR Academy of Sciences, of which Aleskovskii was one of the leading organizers; currently headed by Nobel laureate Zhores I. Alferov.",
+    "subtype": "research_center"
+  },
+  {
+    "id": "council_of_rectors_leningrad",
+    "entity_type": "organization",
+    "name": "Council of Rectors of Leningrad",
+    "summary": "Body of Leningrad university rectors chaired for many years by Aleskovskii.",
+    "subtype": "council"
+  },
+  {
+    "id": "supreme_soviet_rsfsr",
+    "entity_type": "organization",
+    "name": "Supreme Soviet of the Russian Federation (SFSR)",
+    "summary": "Legislature of the RSFSR, in which Aleskovskii served as a member and headed Commissions on Education, Youth and others.",
+    "subtype": "legislature"
+  },
+  {
+    "id": "pravda",
+    "entity_type": "organization",
+    "name": "Pravda",
+    "summary": "Leading Soviet newspaper.",
+    "subtype": "newspaper"
+  },
+  {
+    "id": "leningrad_electrotechnical_institute",
+    "entity_type": "organization",
+    "name": "Leningrad Electrotechnical Institute",
+    "aliases": [
+      "LEI"
+    ],
+    "summary": "Institute from which V. E. Drozd graduated before joining the ML group.",
+    "subtype": "university"
+  },
+  {
+    "id": "framework_hypothesis",
+    "entity_type": "artifact",
+    "name": "'Framework' hypothesis",
+    "summary": "Solid-state concept proposed by Aleskovskii according to which the chemical structure of any solid contains a 'core' (superpolyatomic radical) surrounded by surface functional groups; solids are treated as gigantic molecules ('supramolecules') obeying classical chemistry, opening two routes of transformation (surface functional groups or core).",
+    "subtype": "scientific_hypothesis"
+  },
+  {
+    "id": "molecular_layering_method",
+    "entity_type": "artifact",
+    "name": "Molecular layering method",
+    "aliases": [
+      "ML",
+      "molecular layering",
+      "atomic layer deposition",
+      "ALD",
+      "chemical assembly"
+    ],
+    "summary": "Method of sequentially building monolayers of structural units with given composition on a solid surface by irreversible, alternating gas-phase reactions with surface functional groups; the Soviet counterpart of ALD/ALE.",
+    "subtype": "invention"
+  },
+  {
+    "id": "aleskovskii_doctoral_dissertation",
+    "entity_type": "artifact",
+    "name": "Framework hypothesis and experience the preparation of certain active catalysts",
+    "summary": "Doctoral dissertation of V. B. Aleskovskii at LTI by Lensovet in which the 'framework' hypothesis was originally formulated.",
+    "subtype": "dissertation"
+  },
+  {
+    "id": "active_silica_thesis",
+    "entity_type": "artifact",
+    "name": "Active silica",
+    "summary": "Candidate of chemical sciences thesis of V. B. Aleskovskii.",
+    "subtype": "dissertation"
+  },
+  {
+    "id": "silica_gel_monograph",
+    "entity_type": "artifact",
+    "name": "Silica Gel: Its Structure and Chemical Properties",
+    "summary": "Monograph by S. I. Kol'tsov and V. B. Aleskovskii (Goskhimizdat, Leningrad) based on Kol'tsov's candidate work, serving as a basis for subsequent ML research.",
+    "subtype": "publication"
+  },
+  {
+    "id": "koltsov_candidate_dissertation",
+    "entity_type": "artifact",
+    "name": "The study of interaction of carbon tetrachloride with silica gel",
+    "summary": "Candidate dissertation of S. I. Kol'tsov at LTI by Lensovet, in which molecular layering at atmospheric pressure was reported, including a diagram of the first flow-type ML setup.",
+    "subtype": "dissertation"
+  },
+  {
+    "id": "koltsov_doctoral_dissertation",
+    "entity_type": "artifact",
+    "name": "Synthesis of solids by the Molecular Layering Method",
+    "summary": "Doctoral dissertation of S. I. Kol'tsov (383 pp., LTI by Lensovet) defining the ML method, formulating its principles, classifying ML reactions and introducing the term 'chemical assembly'.",
+    "subtype": "dissertation"
+  },
+  {
+    "id": "ml_patent_application_1971",
+    "entity_type": "artifact",
+    "name": "The principles of synthesis of solids (patent application № 1642785/23-26)",
+    "summary": "Patent application by Aleskovskii and Kol'tsov attempting to patent the ML process; declined by the patent office.",
+    "subtype": "patent_application"
+  },
+  {
+    "id": "suntola_patent_1977",
+    "entity_type": "artifact",
+    "name": "US 4 058 430 (atomic layer epitaxy patent)",
+    "aliases": [
+      "SU 810085",
+      "first Finnish patent"
+    ],
+    "summary": "First patent of T. Suntola and J. Antson on thin-film deposition named 'atomic layer epitaxy (ALE)', describing alternate deposition of thin monolayers under high vacuum using elemental precursors.",
+    "subtype": "patent"
+  },
+  {
+    "id": "suntola_patent_1983",
+    "entity_type": "artifact",
+    "name": "US 4 413 022 / FIN 57975 (zinc sulfide ALE patent)",
+    "aliases": [
+      "SU 1085510",
+      "second Finnish patent"
+    ],
+    "summary": "Patent by T. Suntola, A. Pakkala and S. Lindfors on zinc sulfide film deposition by ALE using alternating doses of zinc chloride and hydrogen sulfide molecular precursors on glass.",
+    "subtype": "patent"
+  },
+  {
+    "id": "stoichiometry_book",
+    "entity_type": "artifact",
+    "name": "The stoichiometry and synthesis of solid compounds",
+    "aliases": [
+      "Stoichiometry and Synthesis of Solid Compounds"
+    ],
+    "summary": "Monograph by V. B. Aleskovskii (Nauka, Leningrad, 142 pp.) analyzing the history of solid-state chemistry and presenting the framework hypothesis and supramolecular chemistry of compounds.",
+    "subtype": "publication"
+  },
+  {
+    "id": "chemistry_of_solids_textbook",
+    "entity_type": "artifact",
+    "name": "Chemistry of solids",
+    "summary": "Textbook for high schools by V. B. Aleskovskii (Higher School, Moscow, 256 pp.), prepared on the basis of his stoichiometry monograph.",
+    "subtype": "publication"
+  },
+  {
+    "id": "chemistry_supramolecular_compounds_book",
+    "entity_type": "artifact",
+    "name": "Chemistry of supramolecular compounds",
+    "summary": "Monograph by V. B. Aleskovskii (St. Petersburg University Publishing House, 253 pp.) based on his lecture course on the chemistry of supramolecular compounds.",
+    "subtype": "publication"
+  },
+  {
+    "id": "chemical_informational_synthesis_book",
+    "entity_type": "artifact",
+    "name": "Chemical-informational synthesis",
+    "aliases": [
+      "Chemical and information synthesis. The beginnings of the theory. Methods"
+    ],
+    "summary": "Last released textbook by V. B. Aleskovskii (St. Petersburg University Publishing House, 72 pp.), part of the new concept of the chemistry of highly organized substances.",
+    "subtype": "publication"
+  },
+  {
+    "id": "det_method",
+    "entity_type": "artifact",
+    "name": "Method of destructive-epitaxial transformations (DET)",
+    "summary": "Method developed by A. P. Dushina for transforming the 'core' of a solid by substitution of bulk atoms, typically by adding the solid to a liquid reactant.",
+    "subtype": "invention"
+  },
+  {
+    "id": "ivs_1_sorbent",
+    "entity_type": "artifact",
+    "name": "IVS-1 sorbent-indicator",
+    "summary": "Silica gel with a vanadium oxide monolayer produced by ML, used industrially as a high-sensitivity gas-phase humidity indicator.",
+    "subtype": "product"
+  },
+  {
+    "id": "fs_1_3_sorbent",
+    "entity_type": "artifact",
+    "name": "FS-1-3 sorbent",
+    "summary": "Silica gel modified with phosphorus oxide layers by ML, an industrial sorbent for water vapor, amines and organic compounds.",
+    "subtype": "product"
+  },
+  {
+    "id": "vacuum_ml_reactor_ellipsometer",
+    "entity_type": "artifact",
+    "name": "Vacuum ML reactor combined with an ellipsometer",
+    "summary": "First ML system with in situ film thickness monitoring during deposition on polished silicon, combining an ellipsometer and a Peltier element, built by V. E. Drozd.",
+    "subtype": "invention"
+  },
+  {
+    "id": "aleskovskii_sulimov_patent",
+    "entity_type": "artifact",
+    "name": "Patent Rus. 2172731",
+    "summary": "Russian patent by V. B. Aleskovskii and O. K. Sulimov associated with the theory of quantum chemical technologies and synthesis of nano-sized active carbon.",
+    "subtype": "patent"
+  },
+  {
+    "id": "pravda_article_chemical_assembly",
+    "entity_type": "artifact",
+    "name": "Pravda article on chemical assembly",
+    "summary": "Article by V. B. Aleskovskii on chemical assembly in the newspaper Pravda that drew the interest of Prime Minister N. A. Kosygin.",
+    "subtype": "publication"
+  }
+]

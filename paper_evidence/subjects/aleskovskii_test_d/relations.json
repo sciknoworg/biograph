@@ -1,0 +1,141 @@
+[
+  {
+    "id": "aleskovskii_born_in_mary",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "born_in",
+    "target": "mary_turkmenistan",
+    "event_id": "aleskovskii_birth",
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_studied_at_lti",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "studied_at",
+    "target": "lti_by_lensovet",
+    "event_id": "aleskovskii_admission_to_lti",
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_employed_by_naval",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "employed_by",
+    "target": "naval_research_institute",
+    "event_id": "aleskovskii_employment_at_naval_institute",
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_worked_at_lti",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "worked_at",
+    "target": "lti_by_lensovet",
+    "event_id": "aleskovskii_dept_head_analytical_chemistry",
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_worked_at_lsu",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "worked_at",
+    "target": "leningrad_state_university",
+    "event_id": "aleskovskii_appointed_rector_lsu",
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_member_of_academy",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "member_of",
+    "target": "academy_of_sciences_of_the_ussr",
+    "event_id": "aleskovskii_elected_corresponding_member",
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_collaborated_with_koltsov",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "collaborated_with",
+    "target": "koltsov_stanislav_ivanovich",
+    "event_id": "ml_patent_application_declined",
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_supervised_koltsov",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "supervised",
+    "target": "koltsov_stanislav_ivanovich",
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "koltsov_studied_at_lti",
+    "source": "koltsov_stanislav_ivanovich",
+    "type": "studied_at",
+    "target": "lti_by_lensovet",
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "koltsov_employed_by_lti",
+    "source": "koltsov_stanislav_ivanovich",
+    "type": "employed_by",
+    "target": "lti_by_lensovet",
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "koltsov_supervised_by_aleskovskii",
+    "source": "koltsov_stanislav_ivanovich",
+    "type": "supervised_by",
+    "target": "aleskovskii_valentin_borisovich",
+    "sources": [
+      {
+        "source_id": "malygin_2015",
+        "page": 2
+      }
+    ]
+  }
+]

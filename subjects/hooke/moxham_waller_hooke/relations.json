@@ -1,0 +1,98 @@
+[
+  {
+    "id": "hooke_worked_royal_society",
+    "source": "robert_hooke",
+    "type": "worked_at",
+    "target": "royal_society",
+    "start": {
+      "display": "1662",
+      "precision": "year",
+      "sort_start": "1662-01-01",
+      "sort_end": "1662-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "moxham_waller_hooke",
+        "page": 1,
+        "quote": "He was at different times an employee, a Fellow, a member of its governing Council, and one of its honorary officers."
+      }
+    ]
+  },
+  {
+    "id": "hooke_lived_gresham",
+    "source": "robert_hooke",
+    "type": "lived_in",
+    "target": "gresham_college",
+    "start": {
+      "display": "1664",
+      "precision": "year",
+      "sort_start": "1664-01-01",
+      "sort_end": "1664-12-31"
+    },
+    "end": {
+      "display": "1703",
+      "precision": "year",
+      "sort_start": "1703-01-01",
+      "sort_end": "1703-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "moxham_waller_hooke",
+        "page": 1,
+        "quote": "Hooke had lived since 1664 in Gresham College"
+      }
+    ]
+  },
+  {
+    "id": "waller_edited_posthumous",
+    "source": "richard_waller",
+    "type": "published",
+    "target": "posthumous_works",
+    "start": {
+      "display": "1705",
+      "precision": "year",
+      "sort_start": "1705-01-01",
+      "sort_end": "1705-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "moxham_waller_hooke",
+        "page": 1,
+        "quote": "Richard Waller's 'Life of Dr Robert Hooke', prefixed to his edition of Hooke's Posthumous Works (1705)"
+      }
+    ]
+  },
+  {
+    "id": "hooke_invented_air_pump",
+    "source": "robert_hooke",
+    "type": "invented",
+    "target": "air_pump",
+    "start": {
+      "display": "1658",
+      "precision": "year",
+      "sort_start": "1658-01-01",
+      "sort_end": "1658-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "moxham_waller_hooke",
+        "page": 1,
+        "quote": "he contrived and perfected the air pump for Mr Boyle"
+      }
+    ]
+  },
+  {
+    "id": "hooke_disputed_newton",
+    "source": "robert_hooke",
+    "type": "collaborated_with",
+    "target": "isaac_newton",
+    "note": "Disputed priority on inverse square law",
+    "sources": [
+      {
+        "source_id": "moxham_waller_hooke",
+        "page": 1,
+        "quote": "the enmity between Hooke and Newton once the latter became president of the Royal Society."
+      }
+    ]
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "id": "aleskovskii_valentin_borisovich",
+    "entity_type": "person",
+    "name": "Valentin Borisovich Aleskovskii",
+    "aliases": [
+      "V. B. Aleskovskii",
+      "Valentin Borisovich"
+    ],
+    "summary": "Soviet chemist who proposed the framework hypothesis and co-developed molecular layering.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "koltsov_stanislav_ivanovich",
+    "entity_type": "person",
+    "name": "Stanislav Ivanovich Kol'tsov",
+    "aliases": [
+      "S. I. Kol'tsov",
+      "Stanislav Ivanovich"
+    ],
+    "summary": "Soviet chemist and graduate student of Aleskovskii who experimentally established the molecular layering method.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "lti_by_lensovet",
+    "entity_type": "organization",
+    "name": "Leningrad Technological Institute by Lensovet",
+    "aliases": [
+      "LTI by Lensovet",
+      "St. Petersburg State Technological Institute"
+    ],
+    "summary": "Russia's oldest chemical engineering institute, now known as St. Petersburg State Technological Institute.",
+    "subtype": "university"
+  },
+  {
+    "id": "leningrad_state_university",
+    "entity_type": "organization",
+    "name": "Leningrad State University",
+    "aliases": [
+      "LSU",
+      "Saint Petersburg State University"
+    ],
+    "summary": "Major Russian university where Aleskovskii served as rector and founded a solid state chemistry department.",
+    "subtype": "university"
+  },
+  {
+    "id": "naval_research_institute",
+    "entity_type": "organization",
+    "name": "Naval Research Institute",
+    "aliases": [],
+    "summary": "Leningrad institution where Aleskovskii worked as a research fellow after graduating in 1937.",
+    "subtype": "research_institute"
+  },
+  {
+    "id": "academy_of_sciences_of_the_ussr",
+    "entity_type": "organization",
+    "name": "Academy of Sciences of the USSR",
+    "aliases": [],
+    "summary": "Premier scientific academy in the Soviet Union.",
+    "subtype": "academy"
+  },
+  {
+    "id": "suntola_tapani",
+    "entity_type": "person",
+    "name": "Tapani Suntola",
+    "aliases": [
+      "T. Suntola"
+    ],
+    "summary": "Finnish physicist who independently developed atomic layer epitaxy and patented it in 1974.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "virtual_project_on_the_history_of_ald",
+    "entity_type": "organization",
+    "name": "Virtual Project on the History of ALD",
+    "aliases": [
+      "VPHA"
+    ],
+    "summary": "International collaborative initiative launched in 2013 to document the history of ALD/ML.",
+    "subtype": "project"
+  },
+  {
+    "id": "mary_turkmenistan",
+    "entity_type": "place",
+    "name": "Mary",
+    "aliases": [],
+    "summary": "City in Turkmenistan where Aleskovskii was born.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Turkmenistan"
+    }
+  },
+  {
+    "id": "st_petersburg",
+    "entity_type": "place",
+    "name": "St. Petersburg",
+    "aliases": [
+      "Leningrad"
+    ],
+    "summary": "Russian city where Aleskovskii conducted most of his research and lived.",
+    "subtype": "city"
+  }
+]

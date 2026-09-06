@@ -1,0 +1,179 @@
+[
+  {
+    "id": "jean_baptiste_andre_dumas",
+    "entity_type": "person",
+    "name": "Jean Baptiste Andre Dumas",
+    "aliases": [
+      "Jean-Baptiste Dumas",
+      "J. B. A. Dumas",
+      "Dumas"
+    ],
+    "summary": "Outstanding experimental chemist who directed the study of organic chemistry in the second quarter of the 19th century.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "alais",
+    "entity_type": "place",
+    "name": "Alais",
+    "summary": "Industrial city in France's Departement du Gard where Dumas was born.",
+    "subtype": "city",
+    "attributes": {
+      "country": "France"
+    }
+  },
+  {
+    "id": "geneva",
+    "entity_type": "place",
+    "name": "Geneva",
+    "summary": "Swiss city where Dumas studied pharmacy and began his scientific career.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Switzerland"
+    }
+  },
+  {
+    "id": "paris",
+    "entity_type": "place",
+    "name": "Paris",
+    "summary": "French capital where Dumas established his career in chemistry and academia.",
+    "subtype": "city",
+    "attributes": {
+      "country": "France"
+    }
+  },
+  {
+    "id": "le_royer_pharmacy",
+    "entity_type": "organization",
+    "name": "Le Royer and Tingry",
+    "aliases": [
+      "Le Royer pharmacy"
+    ],
+    "summary": "Pharmacy in Geneva where Dumas was apprenticed and conducted early research.",
+    "subtype": "company"
+  },
+  {
+    "id": "sphn_geneve",
+    "entity_type": "organization",
+    "name": "Société de Physique et d'Histoire Naturelle de Genève",
+    "aliases": [
+      "S.P.H.N. de Genève",
+      "Society of Physics and Natural History of Geneva"
+    ],
+    "summary": "Scientific society in Geneva where Dumas became a member and presented memoirs.",
+    "subtype": "organization"
+  },
+  {
+    "id": "ecole_polytechnique",
+    "entity_type": "organization",
+    "name": "Ecole Polytechnique",
+    "summary": "Engineering school in Paris where Dumas served as Répétiteur.",
+    "subtype": "university"
+  },
+  {
+    "id": "athenee_royale",
+    "entity_type": "organization",
+    "name": "Athénée Royale de Paris",
+    "aliases": [
+      "Athénée"
+    ],
+    "summary": "Educational institution in Paris where Dumas worked as Préparateur and Professor.",
+    "subtype": "university"
+  },
+  {
+    "id": "college_de_france",
+    "entity_type": "organization",
+    "name": "College de France",
+    "summary": "Higher education institution in Paris where Dumas gave influential courses on chemical philosophy.",
+    "subtype": "university"
+  },
+  {
+    "id": "academy_of_sciences_paris",
+    "entity_type": "organization",
+    "name": "Academy of Sciences",
+    "aliases": [
+      "Académie des Sciences"
+    ],
+    "summary": "Prestigious French scientific academy to which Dumas was elected in 1832.",
+    "subtype": "organization"
+  },
+  {
+    "id": "faculty_of_sciences_paris",
+    "entity_type": "organization",
+    "name": "Faculty of Sciences",
+    "summary": "Paris faculty where Dumas was appointed professor of chemistry.",
+    "subtype": "university"
+  },
+  {
+    "id": "faculty_of_medicine_paris",
+    "entity_type": "organization",
+    "name": "Faculty of Medicine",
+    "summary": "Paris faculty where Dumas was appointed professor of organic chemistry and pharmacy.",
+    "subtype": "university"
+  },
+  {
+    "id": "ecole_centrale",
+    "entity_type": "organization",
+    "name": "Ecole Centrale des Arts et Manufactures",
+    "aliases": [
+      "Ecole Centrale"
+    ],
+    "summary": "Industrial school founded with Dumas's predominant role.",
+    "subtype": "university"
+  },
+  {
+    "id": "jean_louis_prevost",
+    "entity_type": "person",
+    "name": "Jean Louis Prévost",
+    "summary": "Genevan physician and physiologist who collaborated with Dumas on blood and generation research.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "augustin_pyramus_de_candolle",
+    "entity_type": "person",
+    "name": "Augustin Pyramus De Candolle",
+    "summary": "Botanist and teacher in Geneva who influenced Dumas's approach to classification.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "gaspard_de_la_rive",
+    "entity_type": "person",
+    "name": "Gaspard De la Rive",
+    "summary": "Chemist and teacher in Geneva who popularized atomic theory to Dumas.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "nicolas_theodore_de_saussure",
+    "entity_type": "person",
+    "name": "Nicolas Théodore de Saussure",
+    "summary": "Plant physiologist and mentor who guided Dumas's interest in organic chemistry.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "montyon_prize",
+    "entity_type": "artifact",
+    "name": "Montyon Prize",
+    "summary": "Annual prize in experimental physiology awarded by the Royal Academy of Sciences.",
+    "subtype": "award"
+  },
+  {
+    "id": "traite_de_chimie",
+    "entity_type": "artifact",
+    "name": "Traité de Chimie appliquée aux Arts",
+    "summary": "Dumas's textbook in applied chemistry published in eight volumes.",
+    "subtype": "publication"
+  },
+  {
+    "id": "substitution_theory",
+    "entity_type": "artifact",
+    "name": "Law of Substitution",
+    "summary": "Chemical theory developed by Dumas regarding the chlorination of organic compounds.",
+    "subtype": "invention"
+  },
+  {
+    "id": "type_theory",
+    "entity_type": "artifact",
+    "name": "Type Theory",
+    "summary": "Chemical classification theory developed by Dumas replacing the Ether Theory.",
+    "subtype": "invention"
+  }
+]

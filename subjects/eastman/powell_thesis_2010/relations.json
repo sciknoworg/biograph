@@ -1,0 +1,125 @@
+[
+  {
+    "id": "eastman_born_waterville",
+    "source": "george_eastman",
+    "type": "born_in",
+    "target": "waterville_ny",
+    "event_id": "eastman_birth",
+    "sources": [
+      {
+        "source_id": "powell_thesis_2010",
+        "page": 6,
+        "quote": "Eastman was born in the small New York town of Waterville, in 1854."
+      }
+    ]
+  },
+  {
+    "id": "eastman_lived_rochester",
+    "source": "george_eastman",
+    "type": "lived_in",
+    "target": "rochester_ny",
+    "event_id": "eastman_move_rochester",
+    "sources": [
+      {
+        "source_id": "powell_thesis_2010",
+        "page": 6,
+        "quote": "Eastman's father moved his family to the growing city of Rochester, so they could all be together."
+      }
+    ]
+  },
+  {
+    "id": "eastman_son_george_sr",
+    "source": "george_eastman",
+    "type": "family_of",
+    "target": "george_eastman_sr",
+    "sources": [
+      {
+        "source_id": "powell_thesis_2010",
+        "page": 6,
+        "quote": "Eastman's father moved his family to the growing city of Rochester"
+      }
+    ]
+  },
+  {
+    "id": "eastman_son_maria",
+    "source": "george_eastman",
+    "type": "family_of",
+    "target": "maria_eastman",
+    "sources": [
+      {
+        "source_id": "powell_thesis_2010",
+        "page": 7,
+        "quote": "He was raised by his mother and sisters."
+      }
+    ]
+  },
+  {
+    "id": "eastman_brother_emma",
+    "source": "george_eastman",
+    "type": "family_of",
+    "target": "emma_kate_eastman",
+    "sources": [
+      {
+        "source_id": "powell_thesis_2010",
+        "page": 7,
+        "quote": "He was raised by his mother and sisters."
+      }
+    ]
+  },
+  {
+    "id": "eastman_worked_bank",
+    "source": "george_eastman",
+    "type": "worked_at",
+    "target": "rochester_savings_bank",
+    "event_id": "eastman_bank_clerk",
+    "sources": [
+      {
+        "source_id": "powell_thesis_2010",
+        "page": 9,
+        "quote": "He worked for an insurance company and then moved up to the position of clerk at Rochester Savings Bank."
+      }
+    ]
+  },
+  {
+    "id": "eastman_founded_kodak",
+    "source": "george_eastman",
+    "type": "founded",
+    "target": "kodak",
+    "event_id": "eastman_company_founded",
+    "sources": [
+      {
+        "source_id": "powell_thesis_2010",
+        "page": 17,
+        "quote": "In 1881, with the help of Henry A. Strong, a friend who was also a buggy whip manufacturer, the Eastman Dry Plate Company was founded."
+      }
+    ]
+  },
+  {
+    "id": "eastman_collab_strong",
+    "source": "george_eastman",
+    "type": "collaborated_with",
+    "target": "henry_a_strong",
+    "event_id": "eastman_company_founded",
+    "sources": [
+      {
+        "source_id": "powell_thesis_2010",
+        "page": 17,
+        "quote": "In 1881, with the help of Henry A. Strong, a friend who was also a buggy whip manufacturer, the Eastman Dry Plate Company was founded."
+      }
+    ]
+  },
+  {
+    "id": "eastman_died_rochester",
+    "source": "george_eastman",
+    "type": "died_in",
+    "target": "rochester_ny",
+    "event_id": "eastman_death",
+    "sources": [
+      {
+        "source_id": "powell_thesis_2010",
+        "page": 36,
+        "quote": "On March 14, 1932, Eastman excused his servants and shot himself in the heart."
+      }
+    ]
+  }
+]

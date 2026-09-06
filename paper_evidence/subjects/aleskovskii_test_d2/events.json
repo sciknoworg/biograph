@@ -1,0 +1,495 @@
+[
+  {
+    "id": "birth_aleskovskii",
+    "event_type": "birth",
+    "label": "Born in Mary",
+    "date": {
+      "precision": "day",
+      "sort_start": "1912-06-03",
+      "sort_end": "1912-06-03",
+      "display": "June 3, 1912"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_01",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "education_aleskovskii_lti_1931",
+    "event_type": "education",
+    "label": "Admitted to LTI by Lensovet",
+    "date": {
+      "precision": "year",
+      "sort_start": "1931-01-01",
+      "sort_end": "1931-12-31",
+      "display": "1931"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "student"
+      },
+      {
+        "entity_id": "lti_by_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_01",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "employment_aleskovskii_naval_1937",
+    "event_type": "employment_start",
+    "label": "Joined Naval Research Institute",
+    "date": {
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1937-12-31",
+      "display": "1937"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "employee"
+      },
+      {
+        "entity_id": "naval_research_institute",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_01",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "education_aleskovskii_grad_1938",
+    "event_type": "education",
+    "label": "Enrolled in Graduate Studies at LTI",
+    "date": {
+      "precision": "year",
+      "sort_start": "1938-01-01",
+      "sort_end": "1938-12-31",
+      "display": "1938"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "student"
+      },
+      {
+        "entity_id": "lti_by_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_01",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "id": "education_aleskovskii_candidate_1940",
+    "event_type": "education",
+    "label": "Defended Candidate Degree",
+    "date": {
+      "precision": "year",
+      "sort_start": "1940-01-01",
+      "sort_end": "1940-12-31",
+      "display": "1940"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_01",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "employment_aleskovskii_sorption_1940",
+    "event_type": "employment_start",
+    "label": "Appointed Senior Researcher",
+    "date": {
+      "precision": "year",
+      "sort_start": "1940-01-01",
+      "sort_end": "1940-12-31",
+      "display": "1940"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "employee"
+      },
+      {
+        "entity_id": "lti_by_lensovet",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_01",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "military_aleskovskii_1941",
+    "event_type": "other",
+    "label": "Volunteered for Military Service",
+    "date": {
+      "precision": "month",
+      "sort_start": "1941-06-01",
+      "sort_end": "1941-06-30",
+      "display": "June 1941"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_01",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "employment_aleskovskii_physchem_1945",
+    "event_type": "employment_start",
+    "label": "Appointed Research Assistant",
+    "date": {
+      "precision": "year",
+      "sort_start": "1945-01-01",
+      "sort_end": "1945-12-31",
+      "display": "1945"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "employee"
+      },
+      {
+        "entity_id": "lti_by_lensovet",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_01",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "employment_aleskovskii_dept_head_1949",
+    "event_type": "role_change",
+    "label": "Appointed Head of Analytical Chemistry Department",
+    "date": {
+      "precision": "year",
+      "sort_start": "1949-01-01",
+      "sort_end": "1949-12-31",
+      "display": "1949"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "employee"
+      },
+      {
+        "entity_id": "lti_by_lensovet",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_01",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "education_aleskovskii_doctoral_1952",
+    "event_type": "education",
+    "label": "Defended Doctoral Dissertation",
+    "date": {
+      "precision": "year",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-12-31",
+      "display": "1952"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_01",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "invention_framework_hypothesis_1940",
+    "event_type": "other",
+    "label": "Proposed Framework Hypothesis",
+    "date": {
+      "precision": "year",
+      "sort_start": "1940-01-01",
+      "sort_end": "1940-12-31",
+      "display": "1940"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "framework_hypothesis",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_01",
+        "page": 3
+      }
+    ]
+  },
+  {
+    "id": "role_aleskovskii_rector_lti_1965",
+    "event_type": "role_change",
+    "label": "Appointed Acting Rector of LTI",
+    "date": {
+      "precision": "year",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31",
+      "display": "1965"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "employee"
+      },
+      {
+        "entity_id": "lti_by_lensovet",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_01",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "organization_dept_chemistry_solids_1967",
+    "event_type": "other",
+    "label": "Founded Department of Chemistry of Solids",
+    "date": {
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31",
+      "display": "1967"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "founder"
+      },
+      {
+        "entity_id": "lti_by_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_01",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "award_aleskovskii_academy_1972",
+    "event_type": "award",
+    "label": "Elected Corresponding Member of Academy of Sciences",
+    "date": {
+      "precision": "year",
+      "sort_start": "1972-01-01",
+      "sort_end": "1972-12-31",
+      "display": "1972"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "recipient"
+      },
+      {
+        "entity_id": "academy_of_sciences_of_the_ussr",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_01",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "role_aleskovskii_rector_lsu_1975",
+    "event_type": "role_change",
+    "label": "Appointed Rector of Leningrad State University",
+    "date": {
+      "precision": "year",
+      "sort_start": "1975-01-01",
+      "sort_end": "1975-12-31",
+      "display": "1975"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "employee"
+      },
+      {
+        "entity_id": "lsu",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_01",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "id": "patent_application_ml_1971",
+    "event_type": "patent_filed",
+    "label": "Filed Patent Application for ML Process",
+    "date": {
+      "precision": "day",
+      "sort_start": "1971-04-07",
+      "sort_end": "1971-04-07",
+      "display": "April 7, 1971"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "koltsov_stanislav_ivanovich",
+        "role": "inventor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_01",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "report_materials_1970",
+    "event_type": "conference",
+    "label": "Presented Report on Materials Synthesis",
+    "date": {
+      "precision": "month",
+      "sort_start": "1970-11-01",
+      "sort_end": "1970-11-30",
+      "display": "November 1970"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "speaker"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_01",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "program_chemical_assembly_1978",
+    "event_type": "other",
+    "label": "Established Chemical Assembly Program",
+    "date": {
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31",
+      "display": "1978"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "director"
+      },
+      {
+        "entity_id": "lsu",
+        "role": "institution"
+      },
+      {
+        "entity_id": "lti_by_lensovet",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_01",
+        "page": 8
+      }
+    ]
+  },
+  {
+    "id": "death_aleskovskii_2006",
+    "event_type": "death",
+    "label": "Passed Away",
+    "date": {
+      "precision": "day",
+      "sort_start": "2006-01-29",
+      "sort_end": "2006-01-29",
+      "display": "January 29, 2006"
+    },
+    "participants": [
+      {
+        "entity_id": "aleskovskii_valentin_borisovich",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "source_01",
+        "page": 8
+      }
+    ]
+  }
+]

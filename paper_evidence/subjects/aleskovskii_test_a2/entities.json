@@ -1,0 +1,119 @@
+[
+  {
+    "id": "valentin_borisovich_aleskovskii",
+    "entity_type": "person",
+    "name": "Valentin Borisovich Aleskovskii",
+    "aliases": [
+      "V. B. Aleskovskii",
+      "Valentin Aleskovskii"
+    ],
+    "summary": "Soviet chemist and professor who proposed the 'framework' hypothesis and founded the molecular layering method.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "stanislav_ivanovich_koltsov",
+    "entity_type": "person",
+    "name": "Stanislav Ivanovich Kol'tsov",
+    "aliases": [
+      "S. I. Kol'tsov",
+      "Stanislav Kol'tsov"
+    ],
+    "summary": "Soviet chemist and graduate student of Aleskovskii who co-developed the molecular layering method.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "lti_lensovet",
+    "entity_type": "organization",
+    "name": "Leningrad Technological Institute by Lensovet",
+    "aliases": [
+      "LTI by Lensovet",
+      "St. Petersburg State Technological Institute",
+      "SPbSTI"
+    ],
+    "summary": "Technical university in Leningrad/St. Petersburg where Aleskovskii studied and worked.",
+    "subtype": "university"
+  },
+  {
+    "id": "lsu",
+    "entity_type": "organization",
+    "name": "Leningrad State University",
+    "aliases": [
+      "LSU",
+      "St. Petersburg State University",
+      "SPbSU"
+    ],
+    "summary": "University in Leningrad/St. Petersburg where Aleskovskii served as rector and professor.",
+    "subtype": "university"
+  },
+  {
+    "id": "naval_research_institute",
+    "entity_type": "organization",
+    "name": "Naval Research Institute",
+    "aliases": [],
+    "summary": "Research institute in Leningrad where Aleskovskii worked as a research fellow.",
+    "subtype": "lab"
+  },
+  {
+    "id": "academy_of_sciences_ussr",
+    "entity_type": "organization",
+    "name": "Academy of Sciences of the USSR",
+    "aliases": [],
+    "summary": "National academy of sciences of the Soviet Union.",
+    "subtype": "organization"
+  },
+  {
+    "id": "molecular_layering_method",
+    "entity_type": "artifact",
+    "name": "Molecular Layering",
+    "aliases": [
+      "ML",
+      "Atomic Layer Deposition",
+      "ALD"
+    ],
+    "summary": "Gas-phase layer by layer deposition technology developed by Aleskovskii and Kol'tsov.",
+    "subtype": "method"
+  },
+  {
+    "id": "mary_turkmenistan",
+    "entity_type": "place",
+    "name": "Mary",
+    "aliases": [],
+    "summary": "City in Turkmenistan where Aleskovskii was born.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Turkmenistan"
+    }
+  },
+  {
+    "id": "leningrad",
+    "entity_type": "place",
+    "name": "Leningrad",
+    "aliases": [
+      "St. Petersburg"
+    ],
+    "summary": "City in Russia where Aleskovskii studied and worked.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Russia"
+    }
+  },
+  {
+    "id": "dept_chemistry_solids_lti",
+    "entity_type": "organization",
+    "name": "Department of Chemistry of Solids",
+    "aliases": [
+      "Department of Chemical Engineering of Materials and Electronics Products",
+      "CNEEM"
+    ],
+    "summary": "Department at LTI founded by Aleskovskii in 1967.",
+    "subtype": "department"
+  },
+  {
+    "id": "dept_solid_state_chemistry_lsu",
+    "entity_type": "organization",
+    "name": "Department of Solid State Chemistry",
+    "aliases": [],
+    "summary": "Department at LSU organized by Aleskovskii in 1977.",
+    "subtype": "department"
+  }
+]

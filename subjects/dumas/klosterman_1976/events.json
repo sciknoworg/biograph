@@ -1,0 +1,275 @@
+[
+  {
+    "id": "birth_of_dumas",
+    "event_type": "birth",
+    "label": "Born in Alais",
+    "date": {
+      "display": "16 July 1800",
+      "precision": "day",
+      "sort_start": "1800-07-16",
+      "sort_end": "1800-07-16"
+    },
+    "location": "alais",
+    "participants": [
+      {
+        "entity_id": "jean_baptiste_andre_dumas",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "klosterman_1976",
+        "page": 3,
+        "quote": "Jean Baptiste Andre was born on 16 July 1800"
+      }
+    ]
+  },
+  {
+    "id": "move_to_geneva",
+    "event_type": "relocation",
+    "label": "Moved to Geneva",
+    "date": {
+      "display": "26 April 1817",
+      "precision": "day",
+      "sort_start": "1817-04-26",
+      "sort_end": "1817-04-26"
+    },
+    "location": "geneva",
+    "participants": [
+      {
+        "entity_id": "jean_baptiste_andre_dumas",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "klosterman_1976",
+        "page": 11,
+        "quote": "My second son is leaving for Geneva on 26 April 1817"
+      }
+    ]
+  },
+  {
+    "id": "iodine_research",
+    "event_type": "other",
+    "label": "Iodine research with Le Royer",
+    "description": "Experimented with iodine for 15 months and published results on iodides.",
+    "date": {
+      "display": "1819-1820",
+      "precision": "range",
+      "sort_start": "1819-01-01",
+      "sort_end": "1820-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jean_baptiste_andre_dumas",
+        "role": "subject"
+      },
+      {
+        "entity_id": "le_royer_pharmacy",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "klosterman_1976",
+        "page": 15,
+        "quote": "Le Royer and Dumas indicated, moreover, that they had experimented with iodine for 15 months"
+      }
+    ]
+  },
+  {
+    "id": "sphn_membership",
+    "event_type": "other",
+    "label": "Elected to S.P.H.N. de Genève",
+    "date": {
+      "display": "14 June 1821",
+      "precision": "day",
+      "sort_start": "1821-06-14",
+      "sort_end": "1821-06-14"
+    },
+    "participants": [
+      {
+        "entity_id": "jean_baptiste_andre_dumas",
+        "role": "subject"
+      },
+      {
+        "entity_id": "sphn_geneve",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "klosterman_1976",
+        "page": 42,
+        "quote": "They were elected on 14 June 1821"
+      }
+    ]
+  },
+  {
+    "id": "visit_paris_1822",
+    "event_type": "visit",
+    "label": "First visit to Paris",
+    "date": {
+      "display": "4 March 1822",
+      "precision": "day",
+      "sort_start": "1822-03-04",
+      "sort_end": "1822-03-04"
+    },
+    "location": "paris",
+    "participants": [
+      {
+        "entity_id": "jean_baptiste_andre_dumas",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "klosterman_1976",
+        "page": 74,
+        "quote": "Dumas set out for Paris on 4 March 1822"
+      }
+    ]
+  },
+  {
+    "id": "move_to_paris",
+    "event_type": "relocation",
+    "label": "Moved to Paris permanently",
+    "date": {
+      "display": "End of summer 1822",
+      "precision": "month",
+      "sort_start": "1822-08-01",
+      "sort_end": "1822-09-30"
+    },
+    "location": "paris",
+    "participants": [
+      {
+        "entity_id": "jean_baptiste_andre_dumas",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "klosterman_1976",
+        "page": 71,
+        "quote": "I will probably remain here until the end of the summer, and not leave until then to spend a longer time in Paris."
+      }
+    ]
+  },
+  {
+    "id": "montyon_prize_1824",
+    "event_type": "award",
+    "label": "Awarded Montyon Prize",
+    "date": {
+      "display": "1824",
+      "precision": "year",
+      "sort_start": "1824-01-01",
+      "sort_end": "1824-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jean_baptiste_andre_dumas",
+        "role": "subject"
+      },
+      {
+        "entity_id": "jean_louis_prevost",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "montyon_prize",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "klosterman_1976",
+        "page": 67,
+        "quote": "MM. Prévost and Dumas... are the authors of the new observations on generation."
+      }
+    ]
+  },
+  {
+    "id": "academy_election",
+    "event_type": "other",
+    "label": "Elected to Academy of Sciences",
+    "date": {
+      "display": "1832",
+      "precision": "year",
+      "sort_start": "1832-01-01",
+      "sort_end": "1832-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jean_baptiste_andre_dumas",
+        "role": "subject"
+      },
+      {
+        "entity_id": "academy_of_sciences_paris",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "klosterman_1976",
+        "page": 2,
+        "quote": "His election to the Academy in 1832"
+      }
+    ]
+  },
+  {
+    "id": "college_de_france_lectures",
+    "event_type": "employment_start",
+    "label": "Lectures at College de France",
+    "date": {
+      "display": "1836",
+      "precision": "year",
+      "sort_start": "1836-01-01",
+      "sort_end": "1836-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jean_baptiste_andre_dumas",
+        "role": "subject"
+      },
+      {
+        "entity_id": "college_de_france",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "klosterman_1976",
+        "page": 165,
+        "quote": "Dumas' Lectures in the College de France in 1836"
+      }
+    ]
+  },
+  {
+    "id": "traite_publication",
+    "event_type": "publication",
+    "label": "Published Traité de Chimie",
+    "date": {
+      "display": "1828-1846",
+      "precision": "range",
+      "sort_start": "1828-01-01",
+      "sort_end": "1846-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jean_baptiste_andre_dumas",
+        "role": "subject"
+      },
+      {
+        "entity_id": "traite_de_chimie",
+        "role": "artifact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "klosterman_1976",
+        "page": 29,
+        "quote": "Traité de Chimie appliquée aux Arts, 8 vols., Paris, 1828-46"
+      }
+    ]
+  }
+]

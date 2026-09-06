@@ -1,0 +1,240 @@
+[
+  {
+    "id": "gabriel_lippmann",
+    "entity_type": "person",
+    "name": "Jonas Ferdinand Gabriel Lippmann",
+    "aliases": [
+      "Gabriel Lippmann",
+      "Lippmann",
+      "Jonas Ferdinand Gabriel Lippmann"
+    ],
+    "summary": "Luxembourgish-French physicist and Nobel laureate known for the Lippmann process of color photography and the capillary electrometer.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "hollerich",
+    "entity_type": "place",
+    "name": "Hollerich",
+    "aliases": [],
+    "summary": "Location in the Grand Duchy of Luxembourg where Lippmann was born.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Luxembourg"
+    }
+  },
+  {
+    "id": "luxembourg",
+    "entity_type": "place",
+    "name": "Grand Duchy of Luxembourg",
+    "aliases": [
+      "Luxembourg"
+    ],
+    "summary": "Country of Lippmann's birth.",
+    "subtype": "country"
+  },
+  {
+    "id": "paris",
+    "entity_type": "place",
+    "name": "Paris",
+    "aliases": [],
+    "summary": "City where Lippmann's family moved and where he received his education and worked.",
+    "subtype": "city",
+    "attributes": {
+      "country": "France"
+    }
+  },
+  {
+    "id": "lycee_henri_iv",
+    "entity_type": "organization",
+    "name": "Lycée Napoléon",
+    "aliases": [
+      "Henri-IV",
+      "Lycée Henri-IV"
+    ],
+    "summary": "Secondary school in Paris where Lippmann received his early education.",
+    "subtype": "university"
+  },
+  {
+    "id": "ecole_normale",
+    "entity_type": "organization",
+    "name": "École normale",
+    "aliases": [
+      "normal school",
+      "École normale supérieure"
+    ],
+    "summary": "Higher education institution in Paris where Lippmann entered in 1868.",
+    "subtype": "university"
+  },
+  {
+    "id": "sorbonne",
+    "entity_type": "organization",
+    "name": "Sorbonne University",
+    "aliases": [
+      "Sorbonne",
+      "Faculty of Science"
+    ],
+    "summary": "University in Paris where Lippmann defended his thesis and later became professor.",
+    "subtype": "university"
+  },
+  {
+    "id": "heidelberg",
+    "entity_type": "place",
+    "name": "Heidelberg",
+    "aliases": [],
+    "summary": "German city where Lippmann worked with Kühne and Kirchhoff.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Germany"
+    }
+  },
+  {
+    "id": "berlin",
+    "entity_type": "place",
+    "name": "Berlin",
+    "aliases": [],
+    "summary": "German city where Lippmann worked with Helmholtz.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Germany"
+    }
+  },
+  {
+    "id": "french_academy_of_sciences",
+    "entity_type": "organization",
+    "name": "French Academy of Sciences",
+    "aliases": [
+      "Academy of Sciences",
+      "Académie des sciences"
+    ],
+    "summary": "Scientific academy of which Lippmann became a member in 1886 and president in 1912.",
+    "subtype": "organization"
+  },
+  {
+    "id": "societe_francaise_de_photographie",
+    "entity_type": "organization",
+    "name": "Société francaise de photographie",
+    "aliases": [
+      "SFP"
+    ],
+    "summary": "Photography society of which Lippmann was a member and president.",
+    "subtype": "organization"
+  },
+  {
+    "id": "institut_d_optique",
+    "entity_type": "organization",
+    "name": "Institut d'optique théorique et appliquée",
+    "aliases": [],
+    "summary": "Institute in France of which Lippmann was one of the founders.",
+    "subtype": "organization"
+  },
+  {
+    "id": "lippmann_electrometer",
+    "entity_type": "artifact",
+    "name": "Lippmann electrometer",
+    "aliases": [
+      "capillary electrometer"
+    ],
+    "summary": "Instrument developed by Lippmann based on electrocapillarity.",
+    "subtype": "invention"
+  },
+  {
+    "id": "lippmann_process",
+    "entity_type": "artifact",
+    "name": "Lippmann process",
+    "aliases": [
+      "color photography method",
+      "Lippmann method"
+    ],
+    "summary": "Method for producing colored photographs without dyes using interference.",
+    "subtype": "invention"
+  },
+  {
+    "id": "nobel_prize_physics_1908",
+    "entity_type": "artifact",
+    "name": "Nobel Prize in Physics 1908",
+    "aliases": [
+      "Nobel laureate in physics in 1908"
+    ],
+    "summary": "Award received by Lippmann for his work on color reproduction.",
+    "subtype": "award"
+  },
+  {
+    "id": "victor_cherbuliez",
+    "entity_type": "person",
+    "name": "Victor Cherbuliez",
+    "aliases": [],
+    "summary": "Novelist and author, father of Lippmann's wife.",
+    "subtype": "writer"
+  },
+  {
+    "id": "madame_lippmann",
+    "entity_type": "person",
+    "name": "Miss Cherbuliez",
+    "aliases": [
+      "daughter of Victor Cherbuliez",
+      "Mrs. Lippmann"
+    ],
+    "summary": "Lippmann's wife and research associate in the study of colors.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "marie_curie",
+    "entity_type": "person",
+    "name": "Marie Skłodowska",
+    "aliases": [
+      "Marie Curie",
+      "Curie"
+    ],
+    "summary": "Polish student and collaborator of Lippmann.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "pierre_curie",
+    "entity_type": "person",
+    "name": "Pierre Curie",
+    "aliases": [],
+    "summary": "Collaborator of Lippmann.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "kirchhoff",
+    "entity_type": "person",
+    "name": "Kirchhoff",
+    "aliases": [
+      "Kirchoff"
+    ],
+    "summary": "German researcher and doctoral advisor to Lippmann.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "helmholtz",
+    "entity_type": "person",
+    "name": "Helmholtz",
+    "aliases": [
+      "Herman von Helmholtz"
+    ],
+    "summary": "German researcher and academic advisor to Lippmann.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "public_research_centre_gabriel_lippmann",
+    "entity_type": "organization",
+    "name": "Public Research Centre Gabriel Lippmann",
+    "aliases": [
+      "Centre for Public Research e University Center",
+      "CRP Gabriel Lippmann"
+    ],
+    "summary": "Research center in Luxembourg named after Lippmann.",
+    "subtype": "organization"
+  },
+  {
+    "id": "list",
+    "entity_type": "organization",
+    "name": "Luxembourg Institute of Science and Technology",
+    "aliases": [
+      "LIST"
+    ],
+    "summary": "Institute formed by the merger of Public Research Centre Gabriel Lippmann and Public Research Centre Henri Tudor.",
+    "subtype": "organization"
+  }
+]

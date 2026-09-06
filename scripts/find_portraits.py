@@ -155,7 +155,25 @@ def resolve_portrait(chosen, confidence):
 
 
 def run(slug, base_url=None, model=None, api_key=None, no_llm=False, force=False, rebuild=True):
-    sdir = os.path.join(SUBJECTS_DIR, slug)
+    """Attach portraits for every document folder belonging to this subject.
+
+    A subject holds one folder per source document (see bs.subject_documents), each with its own
+    entities.json, so portraits are resolved per document and written back where they were read
+    -- the same person appearing in two papers gets a portrait in each, and neither file is
+    rewritten from the other's data."""
+    docs = bs.subject_documents(slug, SUBJECTS_DIR)
+    if not docs:
+        sys.exit(f"subjects/{slug}/ has no document folders to attach portraits to.")
+    for i, (doc_key, ddir) in enumerate(docs):
+        if doc_key and len(docs) > 1:
+            print(f"\n-- {slug}/{doc_key} --")
+        run_document(slug, ddir, base_url=base_url, model=model, api_key=api_key,
+                     no_llm=no_llm, force=force,
+                     rebuild=rebuild and i == len(docs) - 1)  # render once, after the last one
+
+
+def run_document(slug, sdir, base_url=None, model=None, api_key=None, no_llm=False,
+                 force=False, rebuild=True):
     with open(os.path.join(sdir, "entities.json"), encoding="utf-8") as f:
         entities = json.load(f)
     with open(os.path.join(sdir, "events.json"), encoding="utf-8") as f:

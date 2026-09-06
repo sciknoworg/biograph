@@ -1,0 +1,111 @@
+[
+  {
+    "id": "cailletet_worked_ens",
+    "source": "louis_paul_cailletet",
+    "type": "worked_at",
+    "target": "ecole_normale_superieure",
+    "sources": [
+      {
+        "source_id": "reif_acherman_2010",
+        "page": 2,
+        "quote": "Cailletet carried out great part of his whole research on liquefaction of gases at the École Normale Supérieure in the laboratory of the French chemist Henri Etienne Sainte-Claire Deville (1818-1881)."
+      }
+    ]
+  },
+  {
+    "id": "mathias_worked_sorbonne",
+    "source": "emile_ovide_joseph_mathias",
+    "type": "worked_at",
+    "target": "sorbonne",
+    "sources": [
+      {
+        "source_id": "reif_acherman_2010",
+        "page": 2,
+        "quote": "It is there when he met the physicist of the Faculty of Sciences of Paris, Émile Ovide Joseph Mathias (1861-1942) (Figure 2), who became Préparateur in the Laboratory of Education of Physics at the Sorbonne."
+      }
+    ]
+  },
+  {
+    "id": "cailletet_collaborated_mathias",
+    "source": "louis_paul_cailletet",
+    "type": "collaborated_with",
+    "target": "emile_ovide_joseph_mathias",
+    "event_id": "cailletet_mathias_research_start",
+    "sources": [
+      {
+        "source_id": "reif_acherman_2010",
+        "page": 2,
+        "quote": "Cailletet and Mathias began in 1886 their research on the densities of liquefied gases and their saturated vapours."
+      }
+    ]
+  },
+  {
+    "id": "cailletet_mathias_developed_law",
+    "source": "louis_paul_cailletet",
+    "type": "developed",
+    "target": "law_of_rectilinear_diameter",
+    "event_id": "cailletet_mathias_first_report",
+    "sources": [
+      {
+        "source_id": "reif_acherman_2010",
+        "page": 3,
+        "quote": "Cailletet and Mathias reported experimental results for only three compounds in their first report."
+      }
+    ]
+  },
+  {
+    "id": "mathias_developed_law",
+    "source": "emile_ovide_joseph_mathias",
+    "type": "developed",
+    "target": "law_of_rectilinear_diameter",
+    "event_id": "cailletet_mathias_first_report",
+    "sources": [
+      {
+        "source_id": "reif_acherman_2010",
+        "page": 3,
+        "quote": "Cailletet and Mathias reported experimental results for only three compounds in their first report."
+      }
+    ]
+  },
+  {
+    "id": "mathias_visited_leiden",
+    "source": "emile_ovide_joseph_mathias",
+    "type": "visited",
+    "target": "university_of_leiden",
+    "event_id": "mathias_leiden_guest_period",
+    "sources": [
+      {
+        "source_id": "reif_acherman_2010",
+        "page": 5,
+        "quote": "During the periods Mathias was summer guest at Leyden, initially between 1910 and 1923 with Kamerlingh Onnes as host, and until 1932 with the also Dutch physicist Claude August Crommelin (1878-1965) as the new director of the laboratory, he collaborated with the measurement of the coexistence curves and the estimation of the parameters of the mathematical expression of the rectilinear diameter of many fluids such as oxygen, argon, nitrogen, hydrogen, neon, helium, ethylene, carbon monoxide, and krypton."
+      }
+    ]
+  },
+  {
+    "id": "mathias_collaborated_onnes",
+    "source": "emile_ovide_joseph_mathias",
+    "type": "collaborated_with",
+    "target": "heike_kamerlingh_onnes",
+    "event_id": "mathias_leiden_guest_period",
+    "sources": [
+      {
+        "source_id": "reif_acherman_2010",
+        "page": 5,
+        "quote": "During the periods Mathias was summer guest at Leyden, initially between 1910 and 1923 with Kamerlingh Onnes as host, and until 1932 with the also Dutch physicist Claude August Crommelin (1878-1965) as the new director of the laboratory, he collaborated with the measurement of the coexistence curves and the estimation of the parameters of the mathematical expression of the rectilinear diameter of many fluids such as oxygen, argon, nitrogen, hydrogen, neon, helium, ethylene, carbon monoxide, and krypton."
+      }
+    ]
+  },
+  {
+    "id": "young_verified_law",
+    "source": "sidney_young",
+    "type": "developed",
+    "target": "law_of_rectilinear_diameter",
+    "sources": [
+      {
+        "source_id": "reif_acherman_2010",
+        "page": 3,
+        "quote": "Young was conscious of the technical difficulties for directly determining the critical density and after to suggest different experimental procedures and some analytical relations he finally decided to proceed with the method of Cailletet and Mathias and verify its accuracy."
+      }
+    ]
+  }
+]

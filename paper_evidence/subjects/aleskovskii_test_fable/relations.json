@@ -1,0 +1,1032 @@
+[
+  {
+    "id": "aleskovskii_born_in_mary",
+    "source": "aleskovskii",
+    "type": "born_in",
+    "target": "mary_turkmenistan",
+    "event_id": "aleskovskii_born",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 217
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_studied_at_lti",
+    "source": "aleskovskii",
+    "type": "studied_at",
+    "target": "lti_lensovet",
+    "event_id": "aleskovskii_admitted_lti",
+    "start": {
+      "precision": "year",
+      "sort_start": "1931-01-01",
+      "sort_end": "1931-12-31"
+    },
+    "end": {
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1937-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 217
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_worked_at_naval",
+    "source": "aleskovskii",
+    "type": "worked_at",
+    "target": "naval_research_institute_leningrad",
+    "event_id": "aleskovskii_naval_institute",
+    "start": {
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1937-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 217
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_worked_at_lti",
+    "source": "aleskovskii",
+    "type": "worked_at",
+    "target": "lti_lensovet",
+    "event_id": "aleskovskii_head_analytical_chemistry",
+    "note": "Head of Analytical Chemistry (1949), acting rector 1965-1975, founder of Department of Chemistry of Solids.",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 218
+      },
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 221
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_worked_at_lsu",
+    "source": "aleskovskii",
+    "type": "worked_at",
+    "target": "lsu",
+    "event_id": "aleskovskii_rector_lsu",
+    "start": {
+      "display": "1975",
+      "precision": "year",
+      "sort_start": "1975-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "end": {
+      "display": "2006",
+      "precision": "year",
+      "sort_start": "2006-01-01",
+      "sort_end": "2006-01-29"
+    },
+    "note": "Rector of LSU; later professor in Department of Solid State Chemistry until his death.",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 221
+      },
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 223
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_founded_dept_chem_solids",
+    "source": "aleskovskii",
+    "type": "founded",
+    "target": "dept_chemistry_of_solids_lti",
+    "event_id": "dept_chemistry_of_solids_founded",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 221
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_founded_dept_ssc_lsu",
+    "source": "aleskovskii",
+    "type": "founded",
+    "target": "dept_solid_state_chemistry_lsu",
+    "event_id": "dept_solid_state_chemistry_lsu_founded",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 221
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_founded_school",
+    "source": "aleskovskii",
+    "type": "founded",
+    "target": "scientific_school_chos",
+    "note": "Organizer and permanent head of the school until the last days of his life.",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 221
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_member_academy",
+    "source": "aleskovskii",
+    "type": "member_of",
+    "target": "academy_of_sciences_ussr",
+    "event_id": "aleskovskii_corresponding_member",
+    "start": {
+      "precision": "year",
+      "sort_start": "1972-01-01",
+      "sort_end": "1972-12-31"
+    },
+    "note": "Corresponding member.",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 221
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_member_supreme_soviet",
+    "source": "aleskovskii",
+    "type": "member_of",
+    "target": "supreme_soviet_rsfsr",
+    "note": "Headed Commissions on Education, Youth and others at various times.",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 222
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_member_council_rectors",
+    "source": "aleskovskii",
+    "type": "member_of",
+    "target": "council_of_rectors_leningrad",
+    "note": "Chairman for many years.",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 222
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_founded_leningrad_center",
+    "source": "aleskovskii",
+    "type": "founded",
+    "target": "leningrad_scientific_center",
+    "note": "One of the leading organizers.",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 222
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_head_chemical_assembly_program",
+    "source": "aleskovskii",
+    "type": "member_of",
+    "target": "chemical_assembly_program",
+    "event_id": "chemical_assembly_program_founded",
+    "start": {
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "end": {
+      "precision": "year",
+      "sort_start": "1982-01-01",
+      "sort_end": "1982-12-31"
+    },
+    "note": "Head of the program.",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 222
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_developed_framework",
+    "source": "aleskovskii",
+    "type": "developed",
+    "target": "framework_hypothesis",
+    "event_id": "aleskovskii_doctoral_defense",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 218
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_invented_ml",
+    "source": "aleskovskii",
+    "type": "invented",
+    "target": "molecular_layering_method",
+    "event_id": "ml_method_created",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 217
+      }
+    ]
+  },
+  {
+    "id": "koltsov_invented_ml",
+    "source": "koltsov",
+    "type": "invented",
+    "target": "molecular_layering_method",
+    "event_id": "ml_method_created",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 217
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_published_active_silica",
+    "source": "aleskovskii",
+    "type": "published",
+    "target": "active_silica_thesis",
+    "event_id": "aleskovskii_candidate_thesis",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 217
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_published_doctoral",
+    "source": "aleskovskii",
+    "type": "published",
+    "target": "aleskovskii_doctoral_dissertation",
+    "event_id": "aleskovskii_doctoral_defense",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 218
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_published_silica_gel",
+    "source": "aleskovskii",
+    "type": "published",
+    "target": "silica_gel_monograph_1963",
+    "event_id": "silica_gel_monograph_published",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 238
+      }
+    ]
+  },
+  {
+    "id": "koltsov_published_silica_gel",
+    "source": "koltsov",
+    "type": "published",
+    "target": "silica_gel_monograph_1963",
+    "event_id": "silica_gel_monograph_published",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 238
+      }
+    ]
+  },
+  {
+    "id": "koltsov_published_1965_article",
+    "source": "koltsov",
+    "type": "published",
+    "target": "koltsov_1965_article",
+    "event_id": "koltsov_first_ml_article",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 216
+      }
+    ]
+  },
+  {
+    "id": "koltsov_published_candidate",
+    "source": "koltsov",
+    "type": "published",
+    "target": "koltsov_candidate_thesis",
+    "event_id": "koltsov_candidate_defense",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 218
+      }
+    ]
+  },
+  {
+    "id": "koltsov_published_doctoral",
+    "source": "koltsov",
+    "type": "published",
+    "target": "koltsov_doctoral_dissertation",
+    "event_id": "koltsov_doctoral_defense",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 218
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_published_stoichiometry",
+    "source": "aleskovskii",
+    "type": "published",
+    "target": "stoichiometry_monograph_1976",
+    "event_id": "stoichiometry_monograph_published",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 222
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_published_chem_solids",
+    "source": "aleskovskii",
+    "type": "published",
+    "target": "chemistry_of_solids_textbook_1978",
+    "event_id": "chemistry_of_solids_textbook_published",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 222
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_published_supramolecular",
+    "source": "aleskovskii",
+    "type": "published",
+    "target": "supramolecular_monograph_1996",
+    "event_id": "supramolecular_monograph_published",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 222
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_published_chem_info",
+    "source": "aleskovskii",
+    "type": "published",
+    "target": "chemical_informational_synthesis_1997",
+    "event_id": "chemical_informational_synthesis_published",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 222
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_published_pravda",
+    "source": "aleskovskii",
+    "type": "published",
+    "target": "pravda_article_1977",
+    "event_id": "pravda_article_published",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 222
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_published_quantum_2007",
+    "source": "aleskovskii",
+    "type": "published",
+    "target": "quantum_synthesis_article_2007",
+    "event_id": "posthumous_quantum_synthesis_article",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 223
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_patented_ml_application",
+    "source": "aleskovskii",
+    "type": "patented",
+    "target": "ml_patent_application_1971",
+    "event_id": "ml_patent_application_declined",
+    "note": "Application declined by the patent office.",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 222
+      }
+    ]
+  },
+  {
+    "id": "koltsov_patented_ml_application",
+    "source": "koltsov",
+    "type": "patented",
+    "target": "ml_patent_application_1971",
+    "event_id": "ml_patent_application_declined",
+    "note": "Application declined by the patent office.",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 222
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_patented_sulimov",
+    "source": "aleskovskii",
+    "type": "patented",
+    "target": "aleskovskii_sulimov_patent",
+    "event_id": "aleskovskii_sulimov_patent_filed",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 238
+      }
+    ]
+  },
+  {
+    "id": "sulimov_patented_with_aleskovskii",
+    "source": "sulimov",
+    "type": "patented",
+    "target": "aleskovskii_sulimov_patent",
+    "event_id": "aleskovskii_sulimov_patent_filed",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 238
+      }
+    ]
+  },
+  {
+    "id": "koltsov_born_in_proletarskaya",
+    "source": "koltsov",
+    "type": "born_in",
+    "target": "proletarskaya_station",
+    "event_id": "koltsov_born",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 218
+      }
+    ]
+  },
+  {
+    "id": "koltsov_studied_at_lti",
+    "source": "koltsov",
+    "type": "studied_at",
+    "target": "lti_lensovet",
+    "event_id": "koltsov_admitted_lti",
+    "start": {
+      "precision": "year",
+      "sort_start": "1950-01-01",
+      "sort_end": "1950-12-31"
+    },
+    "end": {
+      "precision": "year",
+      "sort_start": "1955-01-01",
+      "sort_end": "1955-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 218
+      }
+    ]
+  },
+  {
+    "id": "koltsov_supervised_by_aleskovskii",
+    "source": "koltsov",
+    "type": "supervised_by",
+    "target": "aleskovskii",
+    "event_id": "koltsov_graduated_enrolled_graduate",
+    "start": {
+      "precision": "year",
+      "sort_start": "1955-01-01",
+      "sort_end": "1955-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 218
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_collaborated_koltsov",
+    "source": "aleskovskii",
+    "type": "collaborated_with",
+    "target": "koltsov",
+    "start": {
+      "display": "1955",
+      "precision": "year",
+      "sort_start": "1955-01-01",
+      "sort_end": "1955-12-31"
+    },
+    "end": {
+      "display": "early 21st century",
+      "precision": "circa",
+      "sort_start": "2000-01-01",
+      "sort_end": "2003-05-25"
+    },
+    "note": "Fruitfully worked together until the early 21st century.",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 218
+      }
+    ]
+  },
+  {
+    "id": "koltsov_worked_at_lti",
+    "source": "koltsov",
+    "type": "worked_at",
+    "target": "lti_lensovet",
+    "note": "Head of Solid State Chemistry Department 1976-1982; worked there until his death.",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 221
+      },
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 223
+      }
+    ]
+  },
+  {
+    "id": "koltsov_head_dept_chem_solids",
+    "source": "koltsov",
+    "type": "worked_at",
+    "target": "dept_chemistry_of_solids_lti",
+    "event_id": "koltsov_head_solid_state_dept",
+    "start": {
+      "precision": "year",
+      "sort_start": "1976-01-01",
+      "sort_end": "1976-12-31"
+    },
+    "end": {
+      "precision": "year",
+      "sort_start": "1982-01-01",
+      "sort_end": "1982-12-31"
+    },
+    "note": "Department head.",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 221
+      }
+    ]
+  },
+  {
+    "id": "dushina_supervised_by_aleskovskii",
+    "source": "dushina",
+    "type": "supervised_by",
+    "target": "aleskovskii",
+    "note": "Graduate student who developed the DET method.",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 224
+      }
+    ]
+  },
+  {
+    "id": "kuznetsova_supervised_by_aleskovskii",
+    "source": "kuznetsova",
+    "type": "supervised_by",
+    "target": "aleskovskii",
+    "event_id": "kuznetsova_candidate_defense",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 225
+      }
+    ]
+  },
+  {
+    "id": "kuznetsova_supervised_by_shevyakov",
+    "source": "kuznetsova",
+    "type": "supervised_by",
+    "target": "shevyakov",
+    "event_id": "kuznetsova_candidate_defense",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 225
+      }
+    ]
+  },
+  {
+    "id": "sveshnikova_supervised_by_koltsov",
+    "source": "sveshnikova",
+    "type": "supervised_by",
+    "target": "koltsov",
+    "event_id": "sveshnikova_candidate_defense",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 226
+      }
+    ]
+  },
+  {
+    "id": "rachkovskii_supervised_by_koltsov",
+    "source": "rachkovskii",
+    "type": "supervised_by",
+    "target": "koltsov",
+    "event_id": "rachkovskii_candidate_defense",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 226
+      }
+    ]
+  },
+  {
+    "id": "malygin_supervised_by_koltsov",
+    "source": "malygin",
+    "type": "supervised_by",
+    "target": "koltsov",
+    "event_id": "malygin_candidate_defense",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 226
+      }
+    ]
+  },
+  {
+    "id": "malygin_supervised_by_aleskovskii",
+    "source": "malygin",
+    "type": "supervised_by",
+    "target": "aleskovskii",
+    "event_id": "malygin_candidate_defense",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 226
+      }
+    ]
+  },
+  {
+    "id": "smirnov_vm_supervised_by_koltsov",
+    "source": "smirnov_vm",
+    "type": "supervised_by",
+    "target": "koltsov",
+    "event_id": "smirnov_vm_candidate_defense",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 226
+      }
+    ]
+  },
+  {
+    "id": "smirnov_vm_supervised_by_aleskovskii",
+    "source": "smirnov_vm",
+    "type": "supervised_by",
+    "target": "aleskovskii",
+    "event_id": "smirnov_vm_candidate_defense",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 226
+      }
+    ]
+  },
+  {
+    "id": "tuz_supervised_by_koltsov",
+    "source": "tuz",
+    "type": "supervised_by",
+    "target": "koltsov",
+    "event_id": "tuz_candidate_defense",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 226
+      }
+    ]
+  },
+  {
+    "id": "smirnov_ep_supervised_by_koltsov",
+    "source": "smirnov_ep",
+    "type": "supervised_by",
+    "target": "koltsov",
+    "event_id": "smirnov_ep_candidate_defense",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 226
+      }
+    ]
+  },
+  {
+    "id": "pak_supervised_by_aleskovskii",
+    "source": "pak_vn",
+    "type": "supervised_by",
+    "target": "aleskovskii",
+    "note": "Described as one of Aleskovskii's Ph.D. students.",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 234
+      }
+    ]
+  },
+  {
+    "id": "drozd_studied_at_lti",
+    "source": "drozd",
+    "type": "studied_at",
+    "target": "lti_lensovet",
+    "event_id": "drozd_joined_ml_group",
+    "start": {
+      "precision": "month",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-01-31"
+    },
+    "end": {
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 227
+      }
+    ]
+  },
+  {
+    "id": "drozd_invented_vacuum_reactor",
+    "source": "drozd",
+    "type": "invented",
+    "target": "drozd_vacuum_ml_reactor_1975",
+    "event_id": "drozd_vacuum_reactor_1975",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 231
+      }
+    ]
+  },
+  {
+    "id": "drozd_worked_at_lsu",
+    "source": "drozd",
+    "type": "worked_at",
+    "target": "dept_solid_state_chemistry_lsu",
+    "note": "Leads a group developing vacuum ML equipment for nanoelectronics.",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 236
+      }
+    ]
+  },
+  {
+    "id": "drozd_collaborated_aleskovskii",
+    "source": "drozd",
+    "type": "collaborated_with",
+    "target": "aleskovskii",
+    "event_id": "ale_symposium_1990",
+    "note": "Co-authored first report on Soviet ML research at the 1990 ALE symposium.",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 233
+      }
+    ]
+  },
+  {
+    "id": "drozd_met_suntola",
+    "source": "drozd",
+    "type": "met",
+    "target": "suntola",
+    "event_id": "ale_symposium_1990",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 233
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_met_suntola",
+    "source": "aleskovskii",
+    "type": "met",
+    "target": "suntola",
+    "event_id": "suntola_visit_lsu_1990",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 233
+      }
+    ]
+  },
+  {
+    "id": "suntola_visited_lsu",
+    "source": "suntola",
+    "type": "visited",
+    "target": "leningrad",
+    "event_id": "suntola_visit_lsu_1990",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 233
+      }
+    ]
+  },
+  {
+    "id": "suntola_patented_ale_1977",
+    "source": "suntola",
+    "type": "patented",
+    "target": "suntola_ale_patent_1977",
+    "event_id": "suntola_ale_patent_published",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 217
+      }
+    ]
+  },
+  {
+    "id": "suntola_patented_zns_1983",
+    "source": "suntola",
+    "type": "patented",
+    "target": "suntola_zns_patent_1983",
+    "event_id": "suntola_zns_patent_granted",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 238
+      }
+    ]
+  },
+  {
+    "id": "smirnov_vm_worked_at_lsu",
+    "source": "smirnov_vm",
+    "type": "worked_at",
+    "target": "dept_solid_state_chemistry_lsu",
+    "note": "Professor; also guides nanostructuring studies at the Institute of Chemistry of SPbSU since 2000.",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 236
+      }
+    ]
+  },
+  {
+    "id": "malygin_worked_at_cneem",
+    "source": "malygin",
+    "type": "worked_at",
+    "target": "dept_chemistry_of_solids_lti",
+    "note": "Director of the CNEEM department at SPbSTI.",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 235
+      }
+    ]
+  },
+  {
+    "id": "malkov_worked_at_cneem",
+    "source": "malkov",
+    "type": "worked_at",
+    "target": "dept_chemistry_of_solids_lti",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 235
+      }
+    ]
+  },
+  {
+    "id": "dergachev_worked_at_cneem",
+    "source": "dergachev",
+    "type": "worked_at",
+    "target": "dept_chemistry_of_solids_lti",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 235
+      }
+    ]
+  },
+  {
+    "id": "dergachev_supervised_by_malygin",
+    "source": "dergachev",
+    "type": "supervised_by",
+    "target": "malygin",
+    "event_id": "ivs1_pilot_installation",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 232
+      }
+    ]
+  },
+  {
+    "id": "damyanov_worked_at_burgas",
+    "source": "damyanov",
+    "type": "worked_at",
+    "target": "burgas_institute_technology",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 233
+      }
+    ]
+  },
+  {
+    "id": "damyanov_visited_lti",
+    "source": "damyanov",
+    "type": "visited",
+    "target": "leningrad",
+    "event_id": "damyanov_visit_lti",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 233
+      }
+    ]
+  },
+  {
+    "id": "puurunen_founded_vpha",
+    "source": "puurunen",
+    "type": "founded",
+    "target": "vpha",
+    "event_id": "vpha_initiated",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 217
+      }
+    ]
+  },
+  {
+    "id": "sundqvist_founded_vpha",
+    "source": "sundqvist",
+    "type": "founded",
+    "target": "vpha",
+    "event_id": "vpha_initiated",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 217
+      }
+    ]
+  },
+  {
+    "id": "abdulagatov_founded_vpha",
+    "source": "abdulagatov",
+    "type": "founded",
+    "target": "vpha",
+    "event_id": "vpha_initiated",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 217
+      }
+    ]
+  },
+  {
+    "id": "dept_lti_renamed_2008",
+    "source": "dept_chemistry_of_solids_lti",
+    "type": "renamed_to",
+    "target": "dept_chemistry_of_solids_lti",
+    "event_id": "dept_renamed_2008",
+    "note": "Same department under successive names: Chemistry of Solids (1967), Chemical Engineering of Materials and Electronics Products (1989), CNEEM (2008).",
+    "sources": [
+      {
+        "source_id": "malygin_2015_framework_to_ml",
+        "page": 221
+      }
+    ]
+  }
+]
