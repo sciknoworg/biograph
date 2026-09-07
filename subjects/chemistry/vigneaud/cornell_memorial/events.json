@@ -1,0 +1,510 @@
+[
+  {
+    "id": "birth",
+    "event_type": "birth",
+    "label": "Born in Chicago",
+    "date": {
+      "display": "May 18, 1901",
+      "precision": "day",
+      "sort_start": "1901-05-18",
+      "sort_end": "1901-05-18"
+    },
+    "participants": [
+      {
+        "entity_id": "vincent_du_vigneaud",
+        "role": "subject"
+      },
+      {
+        "entity_id": "chicago",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "Vincent du Vigneaud was born in Chicago in 1901."
+      }
+    ]
+  },
+  {
+    "id": "ms_degree",
+    "event_type": "education",
+    "label": "Received Master of Science degree",
+    "date": {
+      "display": "1924",
+      "precision": "year",
+      "sort_start": "1924-01-01",
+      "sort_end": "1924-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "vincent_du_vigneaud",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_illinois_at_urbana",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "received the Master of Science degree in 1924."
+      }
+    ]
+  },
+  {
+    "id": "marriage",
+    "event_type": "other",
+    "label": "Married Zella",
+    "date": {
+      "display": "1924",
+      "precision": "year",
+      "sort_start": "1924-01-01",
+      "sort_end": "1924-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "vincent_du_vigneaud",
+        "role": "subject"
+      },
+      {
+        "entity_id": "zella_du_vigneaud",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "whom he had married in 1924"
+      }
+    ]
+  },
+  {
+    "id": "phd_degree",
+    "event_type": "education",
+    "label": "Received Ph.D. degree",
+    "date": {
+      "display": "1927",
+      "precision": "year",
+      "sort_start": "1927-01-01",
+      "sort_end": "1927-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "vincent_du_vigneaud",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_rochester",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "He received his Ph.D. degree in 1927 from the University of Rochester"
+      }
+    ]
+  },
+  {
+    "id": "postdoc_jhu",
+    "event_type": "employment_start",
+    "label": "Postdoctoral work at Johns Hopkins",
+    "date": {
+      "display": "1927",
+      "precision": "year",
+      "sort_start": "1927-01-01",
+      "sort_end": "1927-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "vincent_du_vigneaud",
+        "role": "subject"
+      },
+      {
+        "entity_id": "johns_hopkins",
+        "role": "employer"
+      },
+      {
+        "entity_id": "j_j_abel",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "For his postdoctoral work du Vigneaud moved to Baltimore with his wife, Zella, whom he had married in 1924, to work with J. J. Abel at Johns Hopkins."
+      }
+    ]
+  },
+  {
+    "id": "postdoc_europe",
+    "event_type": "visit",
+    "label": "Postdoctoral fellowship in Europe",
+    "date": {
+      "display": "c. 1929",
+      "precision": "circa",
+      "sort_start": "1928-01-01",
+      "sort_end": "1930-01-01"
+    },
+    "participants": [
+      {
+        "entity_id": "vincent_du_vigneaud",
+        "role": "subject"
+      },
+      {
+        "entity_id": "europe",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "After another year of postdoctoral fellowship in Europe, du Vigneaud returned to Urbana"
+      }
+    ]
+  },
+  {
+    "id": "assistant_professor_urbana",
+    "event_type": "employment_start",
+    "label": "Assistant professor at Urbana",
+    "date": {
+      "display": "1930",
+      "precision": "year",
+      "sort_start": "1930-01-01",
+      "sort_end": "1930-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "vincent_du_vigneaud",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_illinois_at_urbana",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "du Vigneaud returned to Urbana as an assistant professor in physiological chemistry (1930-32)."
+      }
+    ]
+  },
+  {
+    "id": "chair_gwu",
+    "event_type": "employment_start",
+    "label": "Chairman at George Washington University",
+    "date": {
+      "display": "1932",
+      "precision": "year",
+      "sort_start": "1932-01-01",
+      "sort_end": "1932-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "vincent_du_vigneaud",
+        "role": "subject"
+      },
+      {
+        "entity_id": "george_washington_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "In 1932, at age 31, he was appointed chairman of biochemistry at George Washington University School of Medicine"
+      }
+    ]
+  },
+  {
+    "id": "head_cornell_med",
+    "event_type": "employment_start",
+    "label": "Head of biochemistry at Cornell Medical College",
+    "date": {
+      "display": "1938",
+      "precision": "year",
+      "sort_start": "1938-01-01",
+      "sort_end": "1938-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "vincent_du_vigneaud",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cornell_medical_college",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "In 1938 he moved to New York City as the head of biochemistry at Cornell Medical College."
+      }
+    ]
+  },
+  {
+    "id": "wwii_penicillin",
+    "event_type": "other",
+    "label": "Worked on penicillin synthesis",
+    "date": {
+      "display": "World War II",
+      "precision": "range",
+      "sort_start": "1939-09-01",
+      "sort_end": "1945-09-02"
+    },
+    "participants": [
+      {
+        "entity_id": "vincent_du_vigneaud",
+        "role": "subject"
+      },
+      {
+        "entity_id": "penicillin",
+        "role": "research_subject"
+      },
+      {
+        "entity_id": "robert_w_holley",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "During World War II, du Vigneaud worked on the chemistry and synthesis of the sulfur-containing antibiotic penicillin."
+      }
+    ]
+  },
+  {
+    "id": "oxytocin_synthesis",
+    "event_type": "invention",
+    "label": "Chemical synthesis of oxytocin achieved",
+    "date": {
+      "display": "By 1953",
+      "precision": "year",
+      "sort_start": "1953-01-01",
+      "sort_end": "1953-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "vincent_du_vigneaud",
+        "role": "subject"
+      },
+      {
+        "entity_id": "oxytocin",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "By 1953 the chemical synthesis of oxytocin was achieved and its biological potency established."
+      }
+    ]
+  },
+  {
+    "id": "award_lasker",
+    "event_type": "award",
+    "label": "Received Lasker Award",
+    "date": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "vincent_du_vigneaud",
+        "role": "recipient"
+      },
+      {
+        "entity_id": "lasker_award",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "including the Lasker Award in 1948"
+      }
+    ]
+  },
+  {
+    "id": "award_nobel",
+    "event_type": "award",
+    "label": "Received Nobel Prize in Chemistry",
+    "date": {
+      "display": "1955",
+      "precision": "year",
+      "sort_start": "1955-01-01",
+      "sort_end": "1955-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "vincent_du_vigneaud",
+        "role": "recipient"
+      },
+      {
+        "entity_id": "nobel_prize_in_chemistry",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "he received the Nobel Prize in Chemistry in 1955."
+      }
+    ]
+  },
+  {
+    "id": "award_passano",
+    "event_type": "award",
+    "label": "Received Passano Award",
+    "date": {
+      "display": "1955",
+      "precision": "year",
+      "sort_start": "1955-01-01",
+      "sort_end": "1955-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "vincent_du_vigneaud",
+        "role": "recipient"
+      },
+      {
+        "entity_id": "passano_award",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "the Passano Award in 1955"
+      }
+    ]
+  },
+  {
+    "id": "move_ithaca",
+    "event_type": "relocation",
+    "label": "Moved to Ithaca",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "vincent_du_vigneaud",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ithaca",
+        "role": "location"
+      },
+      {
+        "entity_id": "cornell_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "In 1967 he moved to Ithaca where he was warmly welcomed by the chemistry department"
+      }
+    ]
+  },
+  {
+    "id": "retirement_active_end",
+    "event_type": "retirement",
+    "label": "Remained active until summer 1974",
+    "date": {
+      "display": "summer of 1974",
+      "precision": "range",
+      "sort_start": "1974-06-01",
+      "sort_end": "1974-08-31"
+    },
+    "participants": [
+      {
+        "entity_id": "vincent_du_vigneaud",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "remained active until the summer of 1974."
+      }
+    ]
+  },
+  {
+    "id": "wife_death",
+    "event_type": "death",
+    "label": "Zella du Vigneaud died",
+    "date": {
+      "display": "1977",
+      "precision": "year",
+      "sort_start": "1977-01-01",
+      "sort_end": "1977-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "zella_du_vigneaud",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "Zella, his wife, who had attended him with love and devotion during his illness, died in 1977."
+      }
+    ]
+  },
+  {
+    "id": "death",
+    "event_type": "death",
+    "label": "Died in White Plains",
+    "date": {
+      "display": "December 11, 1978",
+      "precision": "day",
+      "sort_start": "1978-12-11",
+      "sort_end": "1978-12-11"
+    },
+    "participants": [
+      {
+        "entity_id": "vincent_du_vigneaud",
+        "role": "subject"
+      },
+      {
+        "entity_id": "st_agnes_hospital",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "death on December 11, 1978, in St. Agnes Hospital in White Plains, New York."
+      }
+    ]
+  }
+]

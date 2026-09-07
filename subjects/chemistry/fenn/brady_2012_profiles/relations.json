@@ -1,0 +1,154 @@
+[
+  {
+    "id": "fenn_born_in_ny",
+    "source": "john_bennett_fenn",
+    "type": "born_in",
+    "target": "new_york_ny",
+    "event_id": "birth",
+    "sources": [
+      {
+        "source_id": "brady_2012_profiles",
+        "page": 3,
+        "quote": "John Bennett Fenn was born on June 15, 1917 in New York, NY to Herbert Bennett Fenn and Jeanette Dingman Fenn (Grayson 2011)."
+      }
+    ]
+  },
+  {
+    "id": "fenn_studied_at_berea",
+    "source": "john_bennett_fenn",
+    "type": "studied_at",
+    "target": "berea_college",
+    "event_id": "education_berea_grad",
+    "sources": [
+      {
+        "source_id": "brady_2012_profiles",
+        "page": 5,
+        "quote": "Although he graduated in the spring 1937 commencement, Fenn completed course requirements at Purdue University during a summer session to receive his degree (Fenn 2002)."
+      }
+    ]
+  },
+  {
+    "id": "fenn_studied_at_yale",
+    "source": "john_bennett_fenn",
+    "type": "studied_at",
+    "target": "yale_university",
+    "event_id": "education_yale_phd",
+    "sources": [
+      {
+        "source_id": "brady_2012_profiles",
+        "page": 8,
+        "quote": "Fenn graduated from Yale in 1940 with a Ph.D. but had a greatly diminished love of or interest in conducting academic research from the experience."
+      }
+    ]
+  },
+  {
+    "id": "fenn_employed_by_monsanto",
+    "source": "john_bennett_fenn",
+    "type": "employed_by",
+    "target": "monsanto_chemical_company",
+    "event_id": "employment_monsanto",
+    "sources": [
+      {
+        "source_id": "brady_2012_profiles",
+        "page": 8,
+        "quote": "This disillusionment led him to look for work in the private sector with the research department of the Phosphate Division of the Monsanto Chemical Company in Anniston, Alabama."
+      }
+    ]
+  },
+  {
+    "id": "fenn_employed_by_experiment",
+    "source": "john_bennett_fenn",
+    "type": "employed_by",
+    "target": "experiment_inc",
+    "event_id": "employment_experiment_inc",
+    "sources": [
+      {
+        "source_id": "brady_2012_profiles",
+        "page": 8,
+        "quote": "Their separation only lasted until June 1945 when Fenn received a letter from Mullen saying he had started a company in Richmond, Virginia and urged Fenn to join him."
+      }
+    ]
+  },
+  {
+    "id": "fenn_employed_by_princeton",
+    "source": "john_bennett_fenn",
+    "type": "employed_by",
+    "target": "princeton_university",
+    "event_id": "employment_princeton",
+    "sources": [
+      {
+        "source_id": "brady_2012_profiles",
+        "page": 9,
+        "quote": "In 1952, his work with the Navy led to a job as director of Project SQUID, a U.S. Navy program based at Princeton."
+      }
+    ]
+  },
+  {
+    "id": "fenn_employed_by_yale",
+    "source": "john_bennett_fenn",
+    "type": "employed_by",
+    "target": "yale_university",
+    "event_id": "employment_yale",
+    "sources": [
+      {
+        "source_id": "brady_2012_profiles",
+        "page": 9,
+        "quote": "Fenn joined the Yale faculty in 1967."
+      }
+    ]
+  },
+  {
+    "id": "fenn_employed_by_vcu",
+    "source": "john_bennett_fenn",
+    "type": "employed_by",
+    "target": "virginia_commonwealth_university",
+    "event_id": "employment_vcu",
+    "sources": [
+      {
+        "source_id": "brady_2012_profiles",
+        "page": 11,
+        "quote": "In 1994 Fenn was appointed as professor of analytical chemistry in VCU's Department of Chemistry."
+      }
+    ]
+  },
+  {
+    "id": "fenn_invented_esi",
+    "source": "john_bennett_fenn",
+    "type": "invented",
+    "target": "electrospray_ionization",
+    "sources": [
+      {
+        "source_id": "brady_2012_profiles",
+        "page": 2,
+        "quote": "He is best known for his award winning work on electrospray mass spectrometry which \"has been used in chemistry laboratories around the world to rapidly and simply reveal what proteins a sample contains, revolutionizing the development of new medicines.\""
+      }
+    ]
+  },
+  {
+    "id": "fenn_awarded_nobel",
+    "source": "john_bennett_fenn",
+    "type": "awarded",
+    "target": "nobel_prize_in_chemistry_2002",
+    "event_id": "award_nobel",
+    "sources": [
+      {
+        "source_id": "brady_2012_profiles",
+        "page": 11,
+        "quote": "While at VCU, Fenn received the Nobel Prize in Chemistry in 2002 based on his work at Yale."
+      }
+    ]
+  },
+  {
+    "id": "fenn_supervised_by_akerlof",
+    "source": "john_bennett_fenn",
+    "type": "supervised_by",
+    "target": "gosta_akerlof",
+    "sources": [
+      {
+        "source_id": "brady_2012_profiles",
+        "page": 7,
+        "quote": "\"Gus\" was Dr. Gosta Akerlof, who became Fenn's advisor and friend during his time at Yale."
+      }
+    ]
+  }
+]

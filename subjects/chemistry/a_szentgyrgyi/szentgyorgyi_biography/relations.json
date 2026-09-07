@@ -1,0 +1,208 @@
+[
+  {
+    "id": "born_in_budapest",
+    "source": "albert_szent_gyorgyi",
+    "type": "born_in",
+    "target": "budapest",
+    "event_id": "birth",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 11,
+        "quote": "Albert Szent-Györgyi was born in Budapest on September 16,1893"
+      }
+    ]
+  },
+  {
+    "id": "studied_at_peter_pazmany",
+    "source": "albert_szent_gyorgyi",
+    "type": "studied_at",
+    "target": "peter_pazmany_university",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 11,
+        "quote": "After graduation he entered the Medical Faculty of Péter Pázmány University of Budapest"
+      }
+    ]
+  },
+  {
+    "id": "married_kornelia",
+    "source": "albert_szent_gyorgyi",
+    "type": "married_to",
+    "target": "kornelia_demeny",
+    "event_id": "first_marriage",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 11,
+        "quote": "On September 19 of the same year he married Kornélia Demény"
+      }
+    ]
+  },
+  {
+    "id": "worked_at_groningen",
+    "source": "albert_szent_gyorgyi",
+    "type": "worked_at",
+    "target": "university_of_groningen",
+    "event_id": "groningen_appointment",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 11,
+        "quote": "Between 1923—26 upon the invitation of professor R. J. Hamburger he was privat-docent at the University of Groningen"
+      }
+    ]
+  },
+  {
+    "id": "worked_at_cambridge",
+    "source": "albert_szent_gyorgyi",
+    "type": "worked_at",
+    "target": "cambridge",
+    "event_id": "cambridge_fellowship",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 11,
+        "quote": "There he was working on a Rockefeller fellowship from 1926 to 1930"
+      }
+    ]
+  },
+  {
+    "id": "worked_at_szeged",
+    "source": "albert_szent_gyorgyi",
+    "type": "worked_at",
+    "target": "ferencz_jozsef_university_szeged",
+    "event_id": "szeged_professorship",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 11,
+        "quote": "decided offer professorship to Albert Szent-Györgyi in May 25,1928"
+      }
+    ]
+  },
+  {
+    "id": "member_of_hungarian_academy",
+    "source": "albert_szent_gyorgyi",
+    "type": "member_of",
+    "target": "hungarian_academy_of_sciences",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 12,
+        "quote": "From May 16,1935 he was corresponding member and from May 6,1938 full member of the Hungarian Academy of Sciences"
+      }
+    ]
+  },
+  {
+    "id": "awarded_nobel",
+    "source": "albert_szent_gyorgyi",
+    "type": "awarded",
+    "target": "nobel_prize",
+    "event_id": "nobel_prize",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 12,
+        "quote": "On October 28, 1937 the Karolinska Institute of Stockholm awarded the medical Nobel Prize to Albert Szent-Györgyi"
+      }
+    ]
+  },
+  {
+    "id": "invented_vitamin_c",
+    "source": "albert_szent_gyorgyi",
+    "type": "invented",
+    "target": "vitamin_c",
+    "event_id": "vitamin_c_identification",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 11,
+        "quote": "From different plants and animal adrenal gland he isolated Vitamin C"
+      }
+    ]
+  },
+  {
+    "id": "married_marta",
+    "source": "albert_szent_gyorgyi",
+    "type": "married_to",
+    "target": "marta_borbiro",
+    "event_id": "second_marriage",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 13,
+        "quote": "married Márta Borbíró"
+      }
+    ]
+  },
+  {
+    "id": "worked_at_muscle_research",
+    "source": "albert_szent_gyorgyi",
+    "type": "worked_at",
+    "target": "institute_for_muscle_research",
+    "event_id": "muscle_research_director",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 13,
+        "quote": "From 1948 he continued his studies on biochemistry of muscle having started in Szeged as the director of the Institute for Muscle Research of the Laboratory of Marine Biology"
+      }
+    ]
+  },
+  {
+    "id": "married_marcia",
+    "source": "albert_szent_gyorgyi",
+    "type": "married_to",
+    "target": "marcia",
+    "event_id": "third_marriage",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 14,
+        "quote": "In 1976 he married Marcia"
+      }
+    ]
+  },
+  {
+    "id": "died_in_woods_hole",
+    "source": "albert_szent_gyorgyi",
+    "type": "died_in",
+    "target": "woods_hole",
+    "event_id": "death",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 15,
+        "quote": "He died on October 22,1986 at age of 93, and was buried on October 26 in Woods Hole"
+      }
+    ]
+  },
+  {
+    "id": "collaborated_with_banga",
+    "source": "albert_szent_gyorgyi",
+    "type": "collaborated_with",
+    "target": "ilona_banga",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 13,
+        "quote": "Results of that research work was reviewed in the Studies from the Institute of Medical Chemistry ( Vol. of1942) in joint publication of Ilona Banga and Albert Szent-Györgyi"
+      }
+    ]
+  },
+  {
+    "id": "worked_at_budapest",
+    "source": "albert_szent_gyorgyi",
+    "type": "worked_at",
+    "target": "university_of_budapest",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 13,
+        "quote": "from April 27 he was appointed Professor of Biochemistry in the Medical School of University of Budapest"
+      }
+    ]
+  }
+]

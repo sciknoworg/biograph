@@ -1,0 +1,265 @@
+[
+  {
+    "id": "born_in_chicago",
+    "source": "vincent_du_vigneaud",
+    "type": "born_in",
+    "target": "chicago",
+    "event_id": "birth",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "Vincent du Vigneaud was born in Chicago in 1901."
+      }
+    ]
+  },
+  {
+    "id": "studied_at_uiuc",
+    "source": "vincent_du_vigneaud",
+    "type": "studied_at",
+    "target": "university_of_illinois_at_urbana",
+    "event_id": "ms_degree",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "He majored in chemistry at the University of Illinois at Urbana and received the Master of Science degree in 1924."
+      }
+    ]
+  },
+  {
+    "id": "studied_at_rochester",
+    "source": "vincent_du_vigneaud",
+    "type": "studied_at",
+    "target": "university_of_rochester",
+    "event_id": "phd_degree",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "He received his Ph.D. degree in 1927 from the University of Rochester"
+      }
+    ]
+  },
+  {
+    "id": "married_zella",
+    "source": "vincent_du_vigneaud",
+    "type": "married_to",
+    "target": "zella_du_vigneaud",
+    "event_id": "marriage",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "whom he had married in 1924"
+      }
+    ]
+  },
+  {
+    "id": "worked_at_jhu",
+    "source": "vincent_du_vigneaud",
+    "type": "worked_at",
+    "target": "johns_hopkins",
+    "event_id": "postdoc_jhu",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "to work with J. J. Abel at Johns Hopkins."
+      }
+    ]
+  },
+  {
+    "id": "supervised_by_abel",
+    "source": "vincent_du_vigneaud",
+    "type": "supervised_by",
+    "target": "j_j_abel",
+    "event_id": "postdoc_jhu",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "to work with J. J. Abel at Johns Hopkins."
+      }
+    ]
+  },
+  {
+    "id": "worked_at_uiuc",
+    "source": "vincent_du_vigneaud",
+    "type": "worked_at",
+    "target": "university_of_illinois_at_urbana",
+    "event_id": "assistant_professor_urbana",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "du Vigneaud returned to Urbana as an assistant professor in physiological chemistry (1930-32)."
+      }
+    ]
+  },
+  {
+    "id": "worked_at_gwu",
+    "source": "vincent_du_vigneaud",
+    "type": "worked_at",
+    "target": "george_washington_university",
+    "event_id": "chair_gwu",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "he was appointed chairman of biochemistry at George Washington University School of Medicine"
+      }
+    ]
+  },
+  {
+    "id": "worked_at_cornell_med",
+    "source": "vincent_du_vigneaud",
+    "type": "worked_at",
+    "target": "cornell_medical_college",
+    "event_id": "head_cornell_med",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "In 1938 he moved to New York City as the head of biochemistry at Cornell Medical College."
+      }
+    ]
+  },
+  {
+    "id": "collaborated_cohn",
+    "source": "vincent_du_vigneaud",
+    "type": "collaborated_with",
+    "target": "mildred_cohn",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "He was helped in these fundamental studies by three collaborators, Mildred Cohn, Sofia Simmonds, and Joseph Chandler"
+      }
+    ]
+  },
+  {
+    "id": "collaborated_simmonds",
+    "source": "vincent_du_vigneaud",
+    "type": "collaborated_with",
+    "target": "sofia_simmonds",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "He was helped in these fundamental studies by three collaborators, Mildred Cohn, Sofia Simmonds, and Joseph Chandler"
+      }
+    ]
+  },
+  {
+    "id": "collaborated_chandler",
+    "source": "vincent_du_vigneaud",
+    "type": "collaborated_with",
+    "target": "joseph_chandler",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "He was helped in these fundamental studies by three collaborators, Mildred Cohn, Sofia Simmonds, and Joseph Chandler"
+      }
+    ]
+  },
+  {
+    "id": "collaborated_holley",
+    "source": "vincent_du_vigneaud",
+    "type": "collaborated_with",
+    "target": "robert_w_holley",
+    "event_id": "wwii_penicillin",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "In this work he was aided by a team that included Robert W. Holley."
+      }
+    ]
+  },
+  {
+    "id": "worked_at_cornell_univ",
+    "source": "vincent_du_vigneaud",
+    "type": "worked_at",
+    "target": "cornell_university",
+    "event_id": "move_ithaca",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "In 1967 he moved to Ithaca where he was warmly welcomed by the chemistry department"
+      }
+    ]
+  },
+  {
+    "id": "died_in_st_agnes",
+    "source": "vincent_du_vigneaud",
+    "type": "died_in",
+    "target": "st_agnes_hospital",
+    "event_id": "death",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "death on December 11, 1978, in St. Agnes Hospital in White Plains, New York."
+      }
+    ]
+  },
+  {
+    "id": "invented_oxytocin_synthesis",
+    "source": "vincent_du_vigneaud",
+    "type": "invented",
+    "target": "oxytocin",
+    "event_id": "oxytocin_synthesis",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "By 1953 the chemical synthesis of oxytocin was achieved"
+      }
+    ]
+  },
+  {
+    "id": "awarded_nobel",
+    "source": "vincent_du_vigneaud",
+    "type": "awarded",
+    "target": "nobel_prize_in_chemistry",
+    "event_id": "award_nobel",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "he received the Nobel Prize in Chemistry in 1955."
+      }
+    ]
+  },
+  {
+    "id": "awarded_lasker",
+    "source": "vincent_du_vigneaud",
+    "type": "awarded",
+    "target": "lasker_award",
+    "event_id": "award_lasker",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "including the Lasker Award in 1948"
+      }
+    ]
+  },
+  {
+    "id": "awarded_passano",
+    "source": "vincent_du_vigneaud",
+    "type": "awarded",
+    "target": "passano_award",
+    "event_id": "award_passano",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "the Passano Award in 1955"
+      }
+    ]
+  }
+]

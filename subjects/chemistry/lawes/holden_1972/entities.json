@@ -1,0 +1,321 @@
+[
+  {
+    "aliases": [
+      "John Bennet Lawes, aged c.45",
+      "Lawes",
+      "Sir John Bennet Lawes"
+    ],
+    "entity_type": "person",
+    "id": "john_bennet_lawes",
+    "name": "John Bennet Lawes",
+    "subtype": "researcher",
+    "summary": "English agricultural scientist and entrepreneur who founded Rothamsted Experimental Station and the artificial fertilizer industry."
+  },
+  {
+    "aliases": [
+      "Sir Henry Gilbert",
+      "Gilbert",
+      "Dr J H Gilbert"
+    ],
+    "entity_type": "person",
+    "id": "j_h_gilbert",
+    "name": "Dr J H Gilbert",
+    "subtype": "researcher",
+    "summary": "Chemist who collaborated with Lawes for 57 years at Rothamsted on agricultural experiments."
+  },
+  {
+    "aliases": [
+      "his mother (Marianne)"
+    ],
+    "entity_type": "person",
+    "id": "marianne_lawes",
+    "name": "Marianne",
+    "subtype": "family",
+    "summary": "Mother of John Bennet Lawes who raised him after his father's death."
+  },
+  {
+    "aliases": [
+      "His father, also called John Bennet Lawes"
+    ],
+    "entity_type": "person",
+    "id": "john_bennet_lawes_sr",
+    "name": "John Bennet Lawes",
+    "subtype": "family",
+    "summary": "Father of John Bennet Lawes who died when the subject was eight."
+  },
+  {
+    "aliases": [
+      "that interesting character Sir John Wittewronge"
+    ],
+    "entity_type": "person",
+    "id": "sir_john_wittewronge",
+    "name": "Sir John Wittewronge",
+    "subtype": "ancestor",
+    "summary": "17th Century ancestor of Lawes who lived at Rothamsted."
+  },
+  {
+    "aliases": [
+      "the manor",
+      "Rothamsted home farm"
+    ],
+    "entity_type": "place",
+    "id": "rothamsted_manor",
+    "name": "Rothamsted Manor",
+    "subtype": "estate",
+    "summary": "Estate owned by Lawes where the experimental station was founded."
+  },
+  {
+    "aliases": [
+      "Eton"
+    ],
+    "entity_type": "organization",
+    "id": "eton_college",
+    "name": "Eton",
+    "subtype": "university",
+    "summary": "School attended by Lawes."
+  },
+  {
+    "aliases": [
+      "Brasenose College, Oxford",
+      "Oxford"
+    ],
+    "entity_type": "organization",
+    "id": "brasenose_college_oxford",
+    "name": "Brasenose College, Oxford",
+    "subtype": "university",
+    "summary": "College attended by Lawes where he left without a degree."
+  },
+  {
+    "aliases": [
+      "Rothamsted",
+      "the Station",
+      "the lab"
+    ],
+    "entity_type": "organization",
+    "id": "rothamsted_experimental_station",
+    "name": "Rothamsted Experimental Station",
+    "subtype": "lab",
+    "summary": "Oldest agricultural research station in the world, founded by Lawes in 1843."
+  },
+  {
+    "aliases": [
+      "factory at Deptford"
+    ],
+    "entity_type": "organization",
+    "id": "deptford_factory",
+    "name": "Deptford factory",
+    "subtype": "company",
+    "summary": "Factory set up by Lawes in 1843 to produce superphosphate."
+  },
+  {
+    "aliases": [
+      "factory was erected at Barking Creek"
+    ],
+    "entity_type": "organization",
+    "id": "barking_creek_factory",
+    "name": "Barking Creek factory",
+    "subtype": "company",
+    "summary": "Larger factory erected later for Lawes' fertilizer business."
+  },
+  {
+    "aliases": [
+      "The Lawes Chemical Company"
+    ],
+    "entity_type": "organization",
+    "id": "lawes_chemical_company",
+    "name": "Lawes Chemical Company",
+    "subtype": "company",
+    "summary": "Company that ran Lawes' fertilizer business until sold."
+  },
+  {
+    "aliases": [
+      "Royal Society",
+      "RS"
+    ],
+    "entity_type": "organization",
+    "id": "royal_society",
+    "name": "Royal Society",
+    "subtype": "organization",
+    "summary": "Scientific society that elected Lawes as Fellow and awarded him medals."
+  },
+  {
+    "aliases": [
+      "Royal Agricultural Society"
+    ],
+    "entity_type": "organization",
+    "id": "royal_agricultural_society",
+    "name": "Royal Agricultural Society",
+    "subtype": "organization",
+    "summary": "Society Lawes was closely connected with from its founding."
+  },
+  {
+    "aliases": [
+      "Chemical Society"
+    ],
+    "entity_type": "organization",
+    "id": "chemical_society",
+    "name": "Chemical Society",
+    "subtype": "organization",
+    "summary": "Society of which Lawes was a Fellow."
+  },
+  {
+    "aliases": [
+      "Woburn",
+      "Woburn Experimental Station"
+    ],
+    "entity_type": "organization",
+    "id": "woburn_experimental_station",
+    "name": "Woburn Experimental Station",
+    "subtype": "lab",
+    "summary": "Experimental station where Lawes started field experiments in 1876."
+  },
+  {
+    "aliases": [
+      "The Lawes Agricultural Trust",
+      "the Trust"
+    ],
+    "entity_type": "organization",
+    "id": "lawes_agricultural_trust",
+    "name": "Lawes Agricultural Trust",
+    "subtype": "organization",
+    "summary": "Trust set up in 1889 to maintain agricultural investigations."
+  },
+  {
+    "aliases": [
+      "Royal Bavarian Academy of Sciences"
+    ],
+    "entity_type": "organization",
+    "id": "royal_bavarian_academy_of_sciences",
+    "name": "Royal Bavarian Academy of Sciences",
+    "subtype": "organization",
+    "summary": "Academy that awarded Lawes and Gilbert the Liebig Silver Medal."
+  },
+  {
+    "aliases": [
+      "parish church",
+      "churchyard of the parish church"
+    ],
+    "entity_type": "place",
+    "id": "st_nicholas_church",
+    "name": "St Nicholas church",
+    "subtype": "place",
+    "summary": "Church where Lawes and Gilbert are buried."
+  },
+  {
+    "aliases": [
+      "acid-treated calcium phosphate",
+      "artificial manures"
+    ],
+    "entity_type": "artifact",
+    "id": "superphosphate",
+    "name": "superphosphate",
+    "subtype": "product",
+    "summary": "Fertilizer manufactured by Lawes from mineral phosphates treated with sulphuric acid."
+  },
+  {
+    "aliases": [
+      "Testimonial Laboratory",
+      "new laboratory"
+    ],
+    "entity_type": "place",
+    "id": "testimonial_laboratory",
+    "name": "Lawes Testimonial Laboratory",
+    "subtype": "facility",
+    "summary": "Laboratory built with funds collected by farmers and opened in 1855."
+  },
+  {
+    "aliases": [
+      "Mason Lab"
+    ],
+    "entity_type": "place",
+    "id": "mason_laboratory",
+    "name": "Mason Laboratory",
+    "subtype": "facility",
+    "summary": "Small building joining the Testimonial Lab and present laboratory."
+  },
+  {
+    "aliases": [
+      "James Mason Laboratory"
+    ],
+    "entity_type": "place",
+    "id": "james_mason_laboratory",
+    "name": "James Mason Laboratory",
+    "subtype": "facility",
+    "summary": "Laboratory opened in 1906/7."
+  },
+  {
+    "aliases": [
+      "Russell building",
+      "North Wing"
+    ],
+    "entity_type": "place",
+    "id": "russell_building",
+    "name": "Russell building",
+    "subtype": "facility",
+    "summary": "Building completed by 1918 replacing the Testimonial Laboratory."
+  },
+  {
+    "aliases": [
+      "Liebig",
+      "distinguished German agricultural chemist"
+    ],
+    "entity_type": "person",
+    "id": "liebig",
+    "name": "Liebig",
+    "subtype": "researcher",
+    "summary": "German agricultural chemist who controversially disagreed with Lawes on nitrogen."
+  },
+  {
+    "aliases": [
+      "Charles",
+      "his two children Charles"
+    ],
+    "entity_type": "person",
+    "id": "charles_lawes",
+    "name": "Charles",
+    "subtype": "family",
+    "summary": "Son of John Bennet Lawes."
+  },
+  {
+    "aliases": [
+      "Caroline",
+      "and Caroline"
+    ],
+    "entity_type": "person",
+    "id": "caroline_lawes",
+    "name": "Caroline",
+    "subtype": "family",
+    "summary": "Daughter of John Bennet Lawes."
+  },
+  {
+    "aliases": [
+      "Edwin Grey"
+    ],
+    "entity_type": "person",
+    "id": "edwin_grey",
+    "name": "Edwin Grey",
+    "subtype": "staff",
+    "summary": "Staff member at Rothamsted from 1872 who wrote reminiscences."
+  },
+  {
+    "aliases": [
+      "Robert Warington"
+    ],
+    "entity_type": "person",
+    "id": "robert_warington",
+    "name": "Robert Warington",
+    "subtype": "researcher",
+    "summary": "Chemist at Rothamsted from 1876 to 1890 who studied nitrification."
+  },
+  {
+    "aliases": [
+      "Duke of Bedford",
+      "the then Duke"
+    ],
+    "entity_type": "person",
+    "id": "duke_of_bedford",
+    "name": "Duke of Bedford",
+    "subtype": "patron",
+    "summary": "Owner of the estate where Woburn experiments were conducted."
+  }
+]

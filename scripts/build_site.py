@@ -50,6 +50,71 @@ for _stream in (sys.stdout, sys.stderr):
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SCHEMA_DIR = os.path.join(ROOT, "schema")
 SUBJECTS_DIR = os.path.join(ROOT, "subjects")
+
+#: Subjects live one folder per domain: subjects/<domain>/<slug>/. The domain is where a person's
+#: files sit; the SLUG remains their identity and stays globally unique, so a person found by two
+#: taxonomies is one subject in one folder, gaining a second document rather than a second home.
+#: Splitting people by domain instead would duplicate the 73 names that appear in both the
+#: materials and chemistry taxonomies -- exactly the bug that put Gabriel Lippmann in two folders.
+#:
+#: The flat subjects/<slug>/ layout is still read, so a hand-made subject or an un-migrated one
+#: keeps working.
+DEFAULT_DOMAIN_DIR = "materials_science"
+
+
+def domain_dir_name(domain):
+    """A taxonomy's _meta.name as a folder name: "materials science and engineering" ->
+    "materials_science_and_engineering"."""
+    if not domain:
+        return DEFAULT_DOMAIN_DIR
+    cleaned = re.sub(r"[^a-z0-9]+", "_", str(domain).strip().lower()).strip("_")
+    return cleaned or DEFAULT_DOMAIN_DIR
+
+
+def iter_subject_dirs():
+    """(slug, path) for every subject, wherever it sits -- under a domain folder or flat.
+
+    A directory is a subject if it holds subject.json, or (for a subject mid-creation) if it holds
+    any document folder. Anything else at that level is a domain folder to descend into."""
+    if not os.path.isdir(SUBJECTS_DIR):
+        return
+    for top in sorted(os.listdir(SUBJECTS_DIR)):
+        if top.startswith("_"):
+            continue
+        tpath = os.path.join(SUBJECTS_DIR, top)
+        if not os.path.isdir(tpath):
+            continue
+        if os.path.isfile(os.path.join(tpath, "subject.json")):
+            yield top, tpath                      # legacy flat subject
+            continue
+        children = [c for c in sorted(os.listdir(tpath))
+                    if os.path.isdir(os.path.join(tpath, c))]
+        looks_like_domain = any(
+            os.path.isfile(os.path.join(tpath, c, "subject.json")) for c in children)
+        if looks_like_domain:
+            for c in children:
+                if not c.startswith("_"):
+                    yield c, os.path.join(tpath, c)
+        else:
+            yield top, tpath                      # flat subject with no subject.json yet
+
+
+def subject_dir(slug):
+    """Where this subject's files are, or None if it doesn't exist yet."""
+    for existing, path in iter_subject_dirs():
+        if existing == slug:
+            return path
+    return None
+
+
+def subject_dir_for(slug, domain=None):
+    """Where this subject's files are, or -- if new -- where they should go. First domain wins:
+    an existing subject keeps its folder no matter which domain's run reached it this time."""
+    return subject_dir(slug) or os.path.join(SUBJECTS_DIR, domain_dir_name(domain), slug)
+
+
+def subject_slugs():
+    return {slug for slug, _ in iter_subject_dirs()}
 DATA_DIR = os.path.join(ROOT, "data")
 TEMPLATE = os.path.join(ROOT, "frontend", "template.html")
 WORLD_GEOJSON = os.path.join(ROOT, "frontend", "world-countries.geo.json")
@@ -600,7 +665,7 @@ def backfill_subject_summary(subject, entities, events=(), relations=()):
     return True
 
 
-def ensure_subject_json(slug, load):
+def ensure_subject_json(slug, load, domain=None, domains=None):
     """subjects/<slug>/subject.json -- the person-level record: canonical name and slug.
 
     It sits beside the document folders rather than inside one because it describes the
@@ -613,9 +678,29 @@ def ensure_subject_json(slug, load):
     slugify_name) against each person's name; failing that, by whoever participates in the most
     events and relations, since a biography's subject is by definition its most connected
     person."""
-    path = os.path.join(SUBJECTS_DIR, slug, "subject.json")
+    path = os.path.join(subject_dir_for(slug, domain), "subject.json")
+
+    def _with_domains(record):
+        """Record every domain that has claimed this person, in the order they did.
+
+        The folder can only express one, and a person is not partitionable: 73 names appear in
+        both the materials and chemistry taxonomies, so the folder is location and this field is
+        the fact. Queries by domain read this, never the path."""
+        listed = [d for d in (record.get("domains") or []) if isinstance(d, str)]
+        for d in [domain] + list(domains or []):
+            tag = domain_dir_name(d) if d else None
+            if tag and tag not in listed:
+                listed.append(tag)
+        if listed and listed != record.get("domains"):
+            record["domains"] = listed
+            try:
+                with open(path, "w", encoding="utf-8") as f:
+                    json.dump(record, f, indent=2, ensure_ascii=False)
+            except OSError:
+                pass
+        return record
     if os.path.isfile(path):
-        return load(path)
+        return _with_domains(load(path))
 
     entities, events, relations, _ = load_subject_documents(slug, load)
     people = [e for e in entities if isinstance(e, dict) and e.get("entity_type") == "person"]
@@ -624,7 +709,11 @@ def ensure_subject_json(slug, load):
                  f"entity found in this subject's document folder(s) to name it after.")
 
     chosen = subject_entity(slug, entities, events, relations)
+    os.makedirs(os.path.dirname(path), exist_ok=True)
     subject = {"slug": slug, "name": chosen.get("name") or slug.replace("_", " ").title()}
+    tag = domain_dir_name(domain) if domain else None
+    if tag:
+        subject["domains"] = [tag]
     backfill_subject_summary(subject, entities, events, relations)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(subject, f, indent=2, ensure_ascii=False)
@@ -742,7 +831,7 @@ def subject_documents(slug, subjects_dir=None):
 
     The older flat layout -- the four files directly under subjects/<slug>/ -- is still read,
     returned as a single unnamed document, so nothing has to migrate before this works."""
-    root = os.path.join(subjects_dir or SUBJECTS_DIR, slug)
+    root = (os.path.join(subjects_dir, slug) if subjects_dir else subject_dir_for(slug))
     if os.path.isfile(os.path.join(root, "entities.json")):
         return [(None, root)]          # legacy flat layout: the subject *is* one document
     if not os.path.isdir(root):
@@ -1063,7 +1152,7 @@ def choose_model():
 
 def extract(pdf_path, slug, name, model, base_url, api_key, max_chars, max_tokens,
             delete_out_of_scope=True, related_fields_out=None, keep_source_pdf=False,
-            strict_scope=False, scope_out=None, scope_domain=None):
+            strict_scope=False, scope_out=None, scope_domain=None, domain=None):
     print(f"Reading {pdf_path}...")
     text = source_text(pdf_path, max_chars)
     system, user = build_prompt(slug, name, text,
@@ -1132,10 +1221,22 @@ def extract(pdf_path, slug, name, model, base_url, api_key, max_chars, max_token
     # in their own folder beneath, named by its citation key (sources[0].id). A second paper
     # about the same person lands beside this one instead of overwriting it -- see
     # subject_documents() for why extractions are kept whole rather than merged on write.
-    sdir = os.path.join(SUBJECTS_DIR, slug)
+    sdir = subject_dir_for(slug, domain)
     doc_key = document_key(data, slug)
     ddir = os.path.join(sdir, doc_key)
     os.makedirs(ddir, exist_ok=True)
+    tag = domain_dir_name(domain) if domain else None
+    if tag:
+        prev = []
+        try:
+            with open(os.path.join(sdir, "subject.json"), encoding="utf-8") as f:
+                prev = (json.load(f) or {}).get("domains") or []
+        except (OSError, ValueError):
+            pass
+        listed = [d for d in prev if isinstance(d, str)]
+        if tag not in listed:
+            listed.append(tag)
+        data["subject"]["domains"] = listed
     with open(os.path.join(sdir, "subject.json"), "w", encoding="utf-8") as f:
         json.dump(data["subject"], f, indent=2, ensure_ascii=False)
         f.write("\n")
@@ -1344,9 +1445,9 @@ def _write_rejected_relations(slug, issues):
             print(f"    (couldn't write {path}: {e})")
 
 
-def build(slug):
+def build(slug, domain=None):
     print(f"Building '{slug}'...")
-    subject = ensure_subject_json(slug, load)
+    subject = ensure_subject_json(slug, load, domain=domain)
     entities, events, relations, sources = validate_subject(slug)
     events_sorted = sorted(events, key=lambda e: (e["date"]["sort_start"], e["date"]["sort_end"]))
 
@@ -1384,6 +1485,13 @@ def main():
                           "English, one central figure, substantial, and materials science or an "
                           "adjacent field. For automated bulk collection -- a person choosing one "
                           "document by hand is not second-guessed by them")
+    ap.add_argument("--domain",
+                     help="the collection this subject belongs to, e.g. \"chemistry\". Decides "
+                          "which subjects/<domain>/ folder a NEW subject is created in, and is "
+                          "recorded in subject.json's domains[]. An existing subject keeps the "
+                          "folder it already has -- first domain wins -- and simply gains this "
+                          "domain in that list. Supplied by run_pipeline.py from the taxonomy's "
+                          "_meta.name.")
     ap.add_argument("--scope-domain",
                      help="the field this collection covers, as a sentence or two, used as "
                           "requirement 4 of --strict-scope. Supplied by run_pipeline.py from the "
@@ -1421,10 +1529,9 @@ def main():
     args = ap.parse_args()
 
     if args.all:
-        slugs = sorted(d for d in os.listdir(SUBJECTS_DIR)
-                        if os.path.isdir(os.path.join(SUBJECTS_DIR, d)) and not d.startswith("_"))
+        slugs = sorted(subject_slugs())
         for slug in slugs:
-            build(slug)
+            build(slug, domain=args.domain)
         return
     if not args.slug:
         ap.error("provide a subject slug, or --all")
@@ -1471,13 +1578,13 @@ def main():
                     related_fields_out=args.related_fields_out,
                     keep_source_pdf=args.keep_source_pdf,
                     strict_scope=args.strict_scope, scope_out=args.scope_out,
-                    scope_domain=args.scope_domain)
+                    scope_domain=args.scope_domain, domain=args.domain)
         except Exception as e:  # anything not already a deliberate sys.exit() inside extract()
             sys.exit(f"Extraction failed unexpectedly ({type(e).__name__}: {e}) -- the source "
                       f"document may be corrupt, unreadable, or empty.")
 
     try:
-        build(args.slug)
+        build(args.slug, domain=args.domain)
     except SystemExit as e:
         if not source:
             raise

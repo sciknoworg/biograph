@@ -1,0 +1,254 @@
+[
+  {
+    "id": "boyle_death",
+    "event_type": "death",
+    "label": "Died in 1691",
+    "description": "Boyle died in 1691, after which his library was dispersed.",
+    "date": {
+      "display": "1691",
+      "precision": "year",
+      "sort_start": "1691-01-01",
+      "sort_end": "1691-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_boyle",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "avramov_hunter_yoshimoto_2010",
+        "page": 7,
+        "quote": "At his death in 1691, we know that his collection of books was large, comprising a total of 3,571 volumes"
+      }
+    ]
+  },
+  {
+    "id": "library_viewing_merrill",
+    "event_type": "visit",
+    "label": "Library viewed by Zachary Merrill",
+    "description": "Zachary Merrill saw the library and recorded the number of books.",
+    "date": {
+      "display": "1 April 1692",
+      "precision": "day",
+      "sort_start": "1692-04-01",
+      "sort_end": "1692-04-01"
+    },
+    "participants": [
+      {
+        "entity_id": "zachary_merrill",
+        "role": "visitor"
+      },
+      {
+        "entity_id": "robert_boyle",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "avramov_hunter_yoshimoto_2010",
+        "page": 8,
+        "quote": "The library was seen by one Zachary Merrill, evidently a nonconformist divine, on 1 April 1692"
+      }
+    ]
+  },
+  {
+    "id": "library_offered_viewing",
+    "event_type": "other",
+    "label": "Library offered for private viewing",
+    "description": "Books were offered for viewing at Boyle's house in Pall Mall.",
+    "date": {
+      "display": "July 1692",
+      "precision": "month",
+      "sort_start": "1692-07-01",
+      "sort_end": "1692-07-31"
+    },
+    "location": "pall_mall",
+    "participants": [
+      {
+        "entity_id": "robert_boyle",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "avramov_hunter_yoshimoto_2010",
+        "page": 8,
+        "quote": "In July 1692 they were offered for private viewing at the house in Pall Mall where Boyle had lived in his later years"
+      }
+    ]
+  },
+  {
+    "id": "library_auction",
+    "event_type": "other",
+    "label": "Library auction",
+    "description": "Part of the library was sold in an auction where books were confused with Sylvanus Morgan's.",
+    "date": {
+      "display": "5 April 1693",
+      "precision": "day",
+      "sort_start": "1693-04-05",
+      "sort_end": "1693-04-05"
+    },
+    "location": "london",
+    "participants": [
+      {
+        "entity_id": "robert_boyle",
+        "role": "subject"
+      },
+      {
+        "entity_id": "sylvanus_morgan",
+        "role": "other"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "avramov_hunter_yoshimoto_2010",
+        "page": 8,
+        "quote": "part of which was sold in an auction on 5 April 1693 in which the books were irrevocably confused with those of the heraldic author, Sylvanus Morgan"
+      }
+    ]
+  },
+  {
+    "id": "boyle_education_eton",
+    "event_type": "education",
+    "label": "Attended Eton College",
+    "description": "Boyle owned a copy of Cicero as a boy at Eton.",
+    "date": {
+      "display": "boyhood",
+      "precision": "decade",
+      "sort_start": "1630-01-01",
+      "sort_end": "1640-01-01"
+    },
+    "location": "eton_college",
+    "participants": [
+      {
+        "entity_id": "robert_boyle",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "avramov_hunter_yoshimoto_2010",
+        "page": 9,
+        "quote": "One is a copy of Cicero which he owned as a boy at Eton."
+      }
+    ]
+  },
+  {
+    "id": "publication_sceptical_chymist",
+    "event_type": "publication",
+    "label": "Published The Sceptical Chymist",
+    "description": "Boyle's work cited in the table of works.",
+    "date": {
+      "display": "1661",
+      "precision": "year",
+      "sort_start": "1661-01-01",
+      "sort_end": "1661-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_boyle",
+        "role": "subject"
+      },
+      {
+        "entity_id": "book_sceptical_chymist",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "avramov_hunter_yoshimoto_2010",
+        "page": 4,
+        "quote": "Sceptical Chymist (1661), Works, vol. 2, 353"
+      }
+    ]
+  },
+  {
+    "id": "publication_cold",
+    "event_type": "publication",
+    "label": "Published New Experiments and Observations touching Cold",
+    "description": "Work which most fully exemplifies Boyle's ethos of exact citation.",
+    "date": {
+      "display": "1665",
+      "precision": "year",
+      "sort_start": "1665-01-01",
+      "sort_end": "1665-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_boyle",
+        "role": "subject"
+      },
+      {
+        "entity_id": "book_cold",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "avramov_hunter_yoshimoto_2010",
+        "page": 19,
+        "quote": "a particularly large number of examples – no less than 118, in other words nearly a third of all such references – occur in his New Experiments and Observations touching Cold  (1665)"
+      }
+    ]
+  },
+  {
+    "id": "receipt_newton_principia",
+    "event_type": "other",
+    "label": "Received Newton's Principia",
+    "description": "Boyle was the recipient of a copy when it was published.",
+    "date": {
+      "display": "1687",
+      "precision": "year",
+      "sort_start": "1687-01-01",
+      "sort_end": "1687-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_boyle",
+        "role": "subject"
+      },
+      {
+        "entity_id": "book_newton_principia",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "avramov_hunter_yoshimoto_2010",
+        "page": 14,
+        "quote": "For instance, Boyle was the recipient of a copy of Newton's Principia when it was published in 1687"
+      }
+    ]
+  },
+  {
+    "id": "receipt_huygens_traite",
+    "event_type": "other",
+    "label": "Received Huygens' Traité de la lumière",
+    "description": "Boyle received a copy in 1690.",
+    "date": {
+      "display": "1690",
+      "precision": "year",
+      "sort_start": "1690-01-01",
+      "sort_end": "1690-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_boyle",
+        "role": "subject"
+      },
+      {
+        "entity_id": "book_huygens_traite",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "avramov_hunter_yoshimoto_2010",
+        "page": 14,
+        "quote": "and of Christiaan Huygens' Traité de la lumière in 1690."
+      }
+    ]
+  }
+]

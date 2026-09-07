@@ -1,0 +1,17 @@
+[
+  {
+    "id": "gadal_awarded_academy",
+    "source": "pierre_gadal",
+    "type": "awarded",
+    "target": "french_academy_of_sciences",
+    "event_id": "gadal_award_1998",
+    "sources": [
+      {
+        "source_id": "chen_et_al_2021",
+        "page": 3,
+        "quote": "w a s   a w a r d e d   a   s t a t e   p r i z e   f r o m   t h e   F r e n c h   A c a d e m y   o f   S c i e n c e s   i n   1 9 9 8"
+      }
+    ],
+    "_rejected_because": "'awarded' expects target entity_type artifact, but 'french_academy_of_sciences' is 'organization'"
+  }
+]

@@ -1,0 +1,365 @@
+[
+  {
+    "id": "roger_guillemin",
+    "entity_type": "person",
+    "name": "Roger Guillemin",
+    "aliases": [
+      "Professor Roger Guillemin"
+    ],
+    "summary": "French-American endocrinologist and Nobel laureate known for isolating hypothalamic peptides.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "christiane_mougin",
+    "entity_type": "person",
+    "name": "Christiane Mougin",
+    "summary": "Author of the tribute article and former member of Guillemin's team.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "jean_rossier",
+    "entity_type": "person",
+    "name": "Jean Rossier",
+    "summary": "Author of the tribute article and former member of Guillemin's team.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "bertrand_bloch",
+    "entity_type": "person",
+    "name": "Bertrand Bloch",
+    "summary": "Author of the tribute article and former member of Guillemin's team.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "maurice_duvernoy",
+    "entity_type": "person",
+    "name": "Maurice Duvernoy",
+    "summary": "Director of the Besançon School of Medicine and Guillemin's anatomy mentor.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "henri_duvernoy",
+    "entity_type": "person",
+    "name": "Henri Duvernoy",
+    "summary": "Neuroanatomist and son of Maurice Duvernoy.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "hans_selye",
+    "entity_type": "person",
+    "name": "Hans Selye",
+    "summary": "Pioneer in stress studies and Guillemin's mentor in Montreal.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "geoffrey_harris",
+    "entity_type": "person",
+    "name": "Geoffrey Harris",
+    "summary": "Pioneer in neuroendocrinology at Oxford University.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "andrew_schally",
+    "entity_type": "person",
+    "name": "Andrew Schally",
+    "summary": "Competitor and co-recipient of the Nobel Prize with Guillemin.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "rosalyn_yalow",
+    "entity_type": "person",
+    "name": "Rosalyn Yalow",
+    "summary": "Co-recipient of the Nobel Prize with Guillemin.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "roger_burgus",
+    "entity_type": "person",
+    "name": "Roger Burgus",
+    "summary": "Student in Guillemin's laboratory.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "wylie_vale",
+    "entity_type": "person",
+    "name": "Wylie Vale",
+    "summary": "Student in Guillemin's laboratory who identified CRF.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "catherine_rivier",
+    "entity_type": "person",
+    "name": "Catherine Rivier",
+    "summary": "Student in Guillemin's laboratory.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "jean_rivier",
+    "entity_type": "person",
+    "name": "Jean Rivier",
+    "summary": "Student in Guillemin's laboratory.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "nicholas_ling",
+    "entity_type": "person",
+    "name": "Nicholas Ling",
+    "summary": "Student in Guillemin's laboratory.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "john_hughes",
+    "entity_type": "person",
+    "name": "John Hughes",
+    "summary": "Discoverer of enkephalins.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "hans_kosterlitz",
+    "entity_type": "person",
+    "name": "Hans Kosterlitz",
+    "summary": "Discoverer of enkephalins.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "etienne_emile_baulieu",
+    "entity_type": "person",
+    "name": "Etienne Emile Baulieu",
+    "summary": "Inventor of RU486 and friend of Guillemin.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "lucienne_guillemin",
+    "entity_type": "person",
+    "name": "Lucienne Guillemin",
+    "summary": "Guillemin's wife, pianist and painter.",
+    "subtype": "artist"
+  },
+  {
+    "id": "nikki_de_saint_phalle",
+    "entity_type": "person",
+    "name": "Nikki de Saint Phalle",
+    "summary": "Artist friend of Guillemin.",
+    "subtype": "artist"
+  },
+  {
+    "id": "dijon",
+    "entity_type": "place",
+    "name": "Dijon",
+    "summary": "City in France where Guillemin was born.",
+    "subtype": "city",
+    "attributes": {
+      "country": "France"
+    }
+  },
+  {
+    "id": "besancon",
+    "entity_type": "place",
+    "name": "Besançon",
+    "summary": "City in France where Guillemin spent his youth and studied.",
+    "subtype": "city",
+    "attributes": {
+      "country": "France"
+    }
+  },
+  {
+    "id": "carnot_high_school",
+    "entity_type": "organization",
+    "name": "Carnot High School",
+    "summary": "High school attended by Guillemin.",
+    "subtype": "school"
+  },
+  {
+    "id": "university_of_franche_comte",
+    "entity_type": "organization",
+    "name": "University of Franche-Comté",
+    "summary": "University that conferred an honorary doctorate on Guillemin.",
+    "subtype": "university"
+  },
+  {
+    "id": "besancon_school_of_medicine",
+    "entity_type": "organization",
+    "name": "Besançon School of Medicine",
+    "summary": "Medical school directed by Maurice Duvernoy.",
+    "subtype": "university"
+  },
+  {
+    "id": "university_of_montreal",
+    "entity_type": "organization",
+    "name": "University of Montreal",
+    "summary": "University where Guillemin worked with Hans Selye and earned his PhD.",
+    "subtype": "university"
+  },
+  {
+    "id": "lyon",
+    "entity_type": "place",
+    "name": "Lyon",
+    "summary": "City where Guillemin defended his medical thesis.",
+    "subtype": "city",
+    "attributes": {
+      "country": "France"
+    }
+  },
+  {
+    "id": "baylor_university_college_of_medicine",
+    "entity_type": "organization",
+    "name": "Baylor University College of Medicine",
+    "summary": "Institution where Guillemin worked in Houston.",
+    "subtype": "university"
+  },
+  {
+    "id": "houston",
+    "entity_type": "place",
+    "name": "Houston",
+    "summary": "City in Texas where Baylor University College of Medicine is located.",
+    "subtype": "city",
+    "attributes": {
+      "country": "USA"
+    }
+  },
+  {
+    "id": "oxford_university",
+    "entity_type": "organization",
+    "name": "Oxford University",
+    "summary": "University where Geoffrey Harris worked.",
+    "subtype": "university"
+  },
+  {
+    "id": "college_de_france",
+    "entity_type": "organization",
+    "name": "Collège de France",
+    "summary": "Institution in Paris where Guillemin worked between 1960 and 1963.",
+    "subtype": "university"
+  },
+  {
+    "id": "paris",
+    "entity_type": "place",
+    "name": "Paris",
+    "summary": "City in France.",
+    "subtype": "city",
+    "attributes": {
+      "country": "France"
+    }
+  },
+  {
+    "id": "salk_institute",
+    "entity_type": "organization",
+    "name": "Salk Institute",
+    "summary": "Institute in San Diego where Guillemin founded the Laboratories for Neuroendocrinology.",
+    "subtype": "lab"
+  },
+  {
+    "id": "san_diego",
+    "entity_type": "place",
+    "name": "San Diego",
+    "summary": "City in California where Guillemin lived and died.",
+    "subtype": "city",
+    "attributes": {
+      "country": "USA"
+    }
+  },
+  {
+    "id": "california",
+    "entity_type": "place",
+    "name": "California",
+    "summary": "State in the USA.",
+    "subtype": "state",
+    "attributes": {
+      "country": "USA"
+    }
+  },
+  {
+    "id": "university_of_burgundy",
+    "entity_type": "organization",
+    "name": "University of Burgundy",
+    "summary": "University that conferred an honorary doctorate on Guillemin.",
+    "subtype": "university"
+  },
+  {
+    "id": "american_academy_of_sciences",
+    "entity_type": "organization",
+    "name": "American Academy of Sciences",
+    "summary": "Academy that elected Guillemin as a member in 1974.",
+    "subtype": "academy"
+  },
+  {
+    "id": "academy_of_arts_and_sciences",
+    "entity_type": "organization",
+    "name": "Academy of Arts and Sciences",
+    "summary": "Academy that elected Guillemin as a member in 1976.",
+    "subtype": "academy"
+  },
+  {
+    "id": "academy_of_sciences_fr",
+    "entity_type": "organization",
+    "name": "Academy of Sciences",
+    "aliases": [
+      "French Academy of Sciences"
+    ],
+    "summary": "French Academy of Sciences that appointed Guillemin as foreign associate member.",
+    "subtype": "academy"
+  },
+  {
+    "id": "legion_d_honneur",
+    "entity_type": "artifact",
+    "name": "Légion d'honneur",
+    "summary": "French order of merit conferred on Guillemin.",
+    "subtype": "award"
+  },
+  {
+    "id": "nobel_prize_physiology_medicine",
+    "entity_type": "artifact",
+    "name": "Nobel Prize in Physiology or Medicine",
+    "summary": "Prize awarded to Guillemin in 1977.",
+    "subtype": "award"
+  },
+  {
+    "id": "trf",
+    "entity_type": "artifact",
+    "name": "TRF",
+    "summary": "Hypothalamic peptide isolated by Guillemin.",
+    "subtype": "product"
+  },
+  {
+    "id": "gnrh",
+    "entity_type": "artifact",
+    "name": "GnRH",
+    "summary": "Gonadotropin-releasing hormone.",
+    "subtype": "product"
+  },
+  {
+    "id": "somatostatin",
+    "entity_type": "artifact",
+    "name": "Somatostatin",
+    "summary": "Peptide inhibiting growth hormone production.",
+    "subtype": "product"
+  },
+  {
+    "id": "grf",
+    "entity_type": "artifact",
+    "name": "GRF",
+    "summary": "Peptide activating growth hormone production.",
+    "subtype": "product"
+  },
+  {
+    "id": "crf",
+    "entity_type": "artifact",
+    "name": "CRF",
+    "summary": "Peptide controlling ACTH release.",
+    "subtype": "product"
+  },
+  {
+    "id": "enkephalins",
+    "entity_type": "artifact",
+    "name": "Enkephalins",
+    "summary": "Endogenous morphines.",
+    "subtype": "product"
+  },
+  {
+    "id": "ru486",
+    "entity_type": "artifact",
+    "name": "RU486",
+    "summary": "Molecule for safe termination of early pregnancy.",
+    "subtype": "product"
+  }
+]

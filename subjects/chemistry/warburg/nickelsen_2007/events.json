@@ -1,0 +1,573 @@
+[
+  {
+    "id": "warburg_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1883",
+      "precision": "year",
+      "sort_start": "1883-01-01",
+      "sort_end": "1883-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 109,
+        "quote": "Otto Warburg (1883–1970)"
+      }
+    ]
+  },
+  {
+    "id": "warburg_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1970",
+      "precision": "year",
+      "sort_start": "1970-01-01",
+      "sort_end": "1970-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 109,
+        "quote": "Otto Warburg (1883–1970)"
+      }
+    ]
+  },
+  {
+    "id": "negelein_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1897",
+      "precision": "year",
+      "sort_start": "1897-01-01",
+      "sort_end": "1897-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "erwin_negelein",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 110,
+        "quote": "Erwin Negelein (1897–1979)"
+      }
+    ]
+  },
+  {
+    "id": "negelein_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1979",
+      "precision": "year",
+      "sort_start": "1979-01-01",
+      "sort_end": "1979-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "erwin_negelein",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 110,
+        "quote": "Erwin Negelein (1897–1979)"
+      }
+    ]
+  },
+  {
+    "id": "blackman_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1866",
+      "precision": "year",
+      "sort_start": "1866-01-01",
+      "sort_end": "1866-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "frederick_blackman",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 109,
+        "quote": "Frederick F. Blackman (1866–1947)"
+      }
+    ]
+  },
+  {
+    "id": "blackman_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1947",
+      "precision": "year",
+      "sort_start": "1947-01-01",
+      "sort_end": "1947-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "frederick_blackman",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 109,
+        "quote": "Frederick F. Blackman (1866–1947)"
+      }
+    ]
+  },
+  {
+    "id": "willstaetter_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1872",
+      "precision": "year",
+      "sort_start": "1872-01-01",
+      "sort_end": "1872-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "richard_willstaetter",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 111,
+        "quote": "Richard Willstätter's (1872–1942)"
+      }
+    ]
+  },
+  {
+    "id": "willstaetter_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1942",
+      "precision": "year",
+      "sort_start": "1942-01-01",
+      "sort_end": "1942-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "richard_willstaetter",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 111,
+        "quote": "Richard Willstätter's (1872–1942)"
+      }
+    ]
+  },
+  {
+    "id": "stoll_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1887",
+      "precision": "year",
+      "sort_start": "1887-01-01",
+      "sort_end": "1887-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_stoll",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 118,
+        "quote": "Arthur Stoll (1887–1971)"
+      }
+    ]
+  },
+  {
+    "id": "stoll_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1971",
+      "precision": "year",
+      "sort_start": "1971-01-01",
+      "sort_end": "1971-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_stoll",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 118,
+        "quote": "Arthur Stoll (1887–1971)"
+      }
+    ]
+  },
+  {
+    "id": "brown_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1848",
+      "precision": "year",
+      "sort_start": "1848-01-01",
+      "sort_end": "1848-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "horace_brown",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 113,
+        "quote": "Horace Brown (1848–1925)"
+      }
+    ]
+  },
+  {
+    "id": "brown_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1925",
+      "precision": "year",
+      "sort_start": "1925-01-01",
+      "sort_end": "1925-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "horace_brown",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 113,
+        "quote": "Horace Brown (1848–1925)"
+      }
+    ]
+  },
+  {
+    "id": "warburg_respiration_research",
+    "event_type": "employment_start",
+    "label": "Respiration research period",
+    "description": "Warburg developed manometric techniques during work on cell respiration.",
+    "date": {
+      "display": "1908 to 1914",
+      "precision": "range",
+      "sort_start": "1908-01-01",
+      "sort_end": "1914-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 111,
+        "quote": "researching the subject from 1908 to 1914"
+      }
+    ]
+  },
+  {
+    "id": "emil_warburg_photolyte_concept",
+    "event_type": "publication",
+    "label": "Photolyte concept introduced",
+    "description": "Emil Warburg introduced the concept of photolyte to science.",
+    "date": {
+      "display": "1917",
+      "precision": "year",
+      "sort_start": "1917-01-01",
+      "sort_end": "1917-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emil_warburg",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 110,
+        "quote": "it was his father, Emil, who introduced this concept to science in 1917"
+      }
+    ]
+  },
+  {
+    "id": "warburg_photosynthesis_paper_1_pub",
+    "event_type": "publication",
+    "label": "First photosynthesis paper published",
+    "date": {
+      "display": "1919",
+      "precision": "year",
+      "sort_start": "1919-01-01",
+      "sort_end": "1919-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      },
+      {
+        "entity_id": "warburg_1919_paper",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 110,
+        "quote": "published in 1919 and 1920, dealing with the general mechanism of photosynthesis"
+      }
+    ]
+  },
+  {
+    "id": "warburg_photosynthesis_paper_2_pub",
+    "event_type": "publication",
+    "label": "Second photosynthesis paper published",
+    "date": {
+      "display": "1920",
+      "precision": "year",
+      "sort_start": "1920-01-01",
+      "sort_end": "1920-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      },
+      {
+        "entity_id": "warburg_1920_paper",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 110,
+        "quote": "published in 1919 and 1920, dealing with the general mechanism of photosynthesis"
+      }
+    ]
+  },
+  {
+    "id": "warburg_photosynthesis_synopsis_pub",
+    "event_type": "publication",
+    "label": "Photosynthesis synopsis published",
+    "date": {
+      "display": "1921",
+      "precision": "year",
+      "sort_start": "1921-01-01",
+      "sort_end": "1921-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      },
+      {
+        "entity_id": "warburg_1921_paper",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 110,
+        "quote": "In 1921, Warburg additionally gave a much shorter synopsis of his findings"
+      }
+    ]
+  },
+  {
+    "id": "warburg_quantum_yield_paper_pub",
+    "event_type": "publication",
+    "label": "Quantum yield paper published",
+    "date": {
+      "display": "1922",
+      "precision": "year",
+      "sort_start": "1922-01-01",
+      "sort_end": "1922-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      },
+      {
+        "entity_id": "erwin_negelein",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "warburg_negelein_1922_paper",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 110,
+        "quote": "It was only in 1922 that Warburg published his first account of the quantum yield of the process"
+      }
+    ]
+  },
+  {
+    "id": "warburg_wavelength_paper_pub",
+    "event_type": "publication",
+    "label": "Wavelength influence paper published",
+    "date": {
+      "display": "1923",
+      "precision": "year",
+      "sort_start": "1923-01-01",
+      "sort_end": "1923-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      },
+      {
+        "entity_id": "erwin_negelein",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "warburg_negelein_1923_paper",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 110,
+        "quote": "this was followed in 1923 by a second paper on the influence of the wavelength of light on photosynthetic efficiency"
+      }
+    ]
+  },
+  {
+    "id": "warburg_nobel_prize_awarded",
+    "event_type": "award",
+    "label": "Nobel Prize awarded",
+    "description": "Awarded for his discovery of the nature and mode of action of the respiratory enzyme.",
+    "date": {
+      "display": "1931",
+      "precision": "year",
+      "sort_start": "1931-01-01",
+      "sort_end": "1931-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize_physiology_medicine",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 109,
+        "quote": "The Nobel Prize in Physiology or Medicine was awarded to Warburg in 1931"
+      }
+    ]
+  },
+  {
+    "id": "willstaetter_stoll_monograph_pub",
+    "event_type": "publication",
+    "label": "Willstätter and Stoll monograph published",
+    "date": {
+      "display": "1918",
+      "precision": "year",
+      "sort_start": "1918-01-01",
+      "sort_end": "1918-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "richard_willstaetter",
+        "role": "subject"
+      },
+      {
+        "entity_id": "arthur_stoll",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 118,
+        "quote": "In 1918, Willstätter and his long-standing collaborator Arthur Stoll (1887–1971) had published a seminal monograph on photosynthetic assimilation"
+      }
+    ]
+  },
+  {
+    "id": "blackman_matthaei_findings_pub",
+    "event_type": "publication",
+    "label": "Blackman and Matthaei findings published",
+    "date": {
+      "display": "1905",
+      "precision": "year",
+      "sort_start": "1905-01-01",
+      "sort_end": "1905-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "frederick_blackman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "gabrielle_matthaei",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 109,
+        "quote": "interpreted for the first time the 1905 findings of Frederick F. Blackman (1866–1947) and Gabrielle L. C. Matthaei"
+      }
+    ]
+  }
+]

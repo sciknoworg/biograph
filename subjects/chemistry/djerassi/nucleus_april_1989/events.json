@@ -1,0 +1,142 @@
+[
+  {
+    "id": "employment_wayne_state",
+    "event_type": "employment_start",
+    "label": "Accepted professorship at Wayne State University",
+    "date": {
+      "display": "1952",
+      "precision": "year",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "carl_djerassi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "wayne_state_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nucleus_april_1989",
+        "page": 5,
+        "quote": "In 1952 he accepted a professorship at Wayne State Univer- sity"
+      }
+    ]
+  },
+  {
+    "id": "employment_stanford",
+    "event_type": "employment_start",
+    "label": "Appointed Professor of Chemistry at Stanford University",
+    "date": {
+      "display": "1959",
+      "precision": "year",
+      "sort_start": "1959-01-01",
+      "sort_end": "1959-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "carl_djerassi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "stanford_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nucleus_april_1989",
+        "page": 5,
+        "quote": "and in 1959 his current position as Professor of Chemistry at Stanford University"
+      }
+    ]
+  },
+  {
+    "id": "company_founded_zoecon",
+    "event_type": "company_founded",
+    "label": "Helped found Zoecon Corporation",
+    "date": {
+      "display": "1968",
+      "precision": "year",
+      "sort_start": "1968-01-01",
+      "sort_end": "1968-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "carl_djerassi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "zoecon_corporation",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nucleus_april_1989",
+        "page": 5,
+        "quote": "In 1968, he helped found Zoecon Corporation-a company dedi- cated to developing novel approaches to insect control"
+      }
+    ]
+  },
+  {
+    "id": "award_esselen",
+    "event_type": "award",
+    "label": "Received Esselen Award for Chemistry in the Public Interest",
+    "date": {
+      "display": "1989",
+      "precision": "year",
+      "sort_start": "1989-01-01",
+      "sort_end": "1989-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "carl_djerassi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "esselen_award",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nucleus_april_1989",
+        "page": 5,
+        "quote": "The Northeastern Section of the American Chemical Society salutes Carl Djerassi, the 1989 winner of the Esselen Award for Chemistry in the Public Interest"
+      }
+    ]
+  },
+  {
+    "id": "publication_cantors_dilemma",
+    "event_type": "publication",
+    "label": "Novel Cantors Dilemma published",
+    "date": {
+      "display": "1989",
+      "precision": "year",
+      "sort_start": "1989-01-01",
+      "sort_end": "1989-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "carl_djerassi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cantors_dilemma",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nucleus_april_1989",
+        "page": 6,
+        "quote": "and a novel, \"Cantors Dilemma,\" will be published in 1989"
+      }
+    ]
+  }
+]

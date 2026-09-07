@@ -1,0 +1,135 @@
+[
+  {
+    "id": "guillemin_born_dijon",
+    "source": "roger_guillemin",
+    "type": "born_in",
+    "target": "dijon",
+    "sources": [
+      {
+        "source_id": "mougin_2024_tribute",
+        "page": 53,
+        "quote": "Roger Guillemin was born in Dijon on January 11, 1924."
+      }
+    ]
+  },
+  {
+    "id": "guillemin_studied_carnot",
+    "source": "roger_guillemin",
+    "type": "studied_at",
+    "target": "carnot_high_school",
+    "sources": [
+      {
+        "source_id": "mougin_2024_tribute",
+        "page": 53,
+        "quote": "He was a student at the Carnot High School"
+      }
+    ]
+  },
+  {
+    "id": "guillemin_worked_montreal",
+    "source": "roger_guillemin",
+    "type": "worked_at",
+    "target": "university_of_montreal",
+    "sources": [
+      {
+        "source_id": "mougin_2024_tribute",
+        "page": 53,
+        "quote": "Roger Guillemin left France to work with him at the University of Montreal."
+      }
+    ]
+  },
+  {
+    "id": "guillemin_worked_bucm",
+    "source": "roger_guillemin",
+    "type": "worked_at",
+    "target": "baylor_university_college_of_medicine",
+    "sources": [
+      {
+        "source_id": "mougin_2024_tribute",
+        "page": 53,
+        "quote": "He then started to work for several years at Baylor University College of Medicine (BUCM) in Houston (Texas)."
+      }
+    ]
+  },
+  {
+    "id": "guillemin_worked_college_france",
+    "source": "roger_guillemin",
+    "type": "worked_at",
+    "target": "college_de_france",
+    "sources": [
+      {
+        "source_id": "mougin_2024_tribute",
+        "page": 54,
+        "quote": "Between 1960 and 1963, he came back to the Collège de France in Paris"
+      }
+    ]
+  },
+  {
+    "id": "guillemin_worked_salk",
+    "source": "roger_guillemin",
+    "type": "worked_at",
+    "target": "salk_institute",
+    "sources": [
+      {
+        "source_id": "mougin_2024_tribute",
+        "page": 55,
+        "quote": "In 1970, Roger Guillemin founded and directed the Laboratories for Neuroendocrinology at the Salk Institute in San Diego (California)"
+      }
+    ]
+  },
+  {
+    "id": "guillemin_collaborated_schally",
+    "source": "roger_guillemin",
+    "type": "collaborated_with",
+    "target": "andrew_schally",
+    "note": "Competitor and co-laureate",
+    "sources": [
+      {
+        "source_id": "mougin_2024_tribute",
+        "page": 56,
+        "quote": "Nobel Prize in Physiology or Medicine in 1977, that he shared with Andrew Schally and Rosalyn Yalow."
+      }
+    ]
+  },
+  {
+    "id": "guillemin_married_lucienne",
+    "source": "roger_guillemin",
+    "type": "married_to",
+    "target": "lucienne_guillemin",
+    "sources": [
+      {
+        "source_id": "mougin_2024_tribute",
+        "page": 57,
+        "quote": "his late wife Lucienne Guillemin, a talented pianist, and accomplished painter, deceased in 2021 at the age of 100."
+      }
+    ]
+  },
+  {
+    "id": "guillemin_awarded_nobel",
+    "source": "roger_guillemin",
+    "type": "awarded",
+    "target": "nobel_prize_physiology_medicine",
+    "event_id": "guillemin_nobel",
+    "sources": [
+      {
+        "source_id": "mougin_2024_tribute",
+        "page": 56,
+        "quote": "His work therefore led him to the Nobel Prize in Physiology or Medicine in 1977"
+      }
+    ]
+  },
+  {
+    "id": "guillemin_invented_trf",
+    "source": "roger_guillemin",
+    "type": "invented",
+    "target": "trf",
+    "event_id": "guillemin_trf_isolation",
+    "sources": [
+      {
+        "source_id": "mougin_2024_tribute",
+        "page": 54,
+        "quote": "obtained 1 mg of the first hypothalamic peptide from 300,000 sheep hypothalamus [2]. This peptide, called TRF"
+      }
+    ]
+  }
+]

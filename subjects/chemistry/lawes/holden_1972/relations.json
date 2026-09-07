@@ -1,0 +1,164 @@
+[
+  {
+    "id": "lawes_born_rothamsted",
+    "source": "john_bennet_lawes",
+    "type": "born_in",
+    "target": "rothamsted_manor",
+    "event_id": "lawes_birth",
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "He was born at Rothamsted Manor on 28 December 1814."
+      }
+    ]
+  },
+  {
+    "id": "lawes_educated_eton",
+    "source": "john_bennet_lawes",
+    "type": "studied_at",
+    "target": "eton_college",
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "He went to Eton"
+      }
+    ]
+  },
+  {
+    "id": "lawes_educated_oxford",
+    "source": "john_bennet_lawes",
+    "type": "studied_at",
+    "target": "brasenose_college_oxford",
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "and then on to Brasenose College, Oxford"
+      }
+    ]
+  },
+  {
+    "id": "lawes_founded_rothamsted",
+    "source": "john_bennet_lawes",
+    "type": "founded",
+    "target": "rothamsted_experimental_station",
+    "event_id": "rothamsted_founded",
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "Founded by John Bennet Lawes with Dr J H Gilbert"
+      }
+    ]
+  },
+  {
+    "id": "lawes_collaborated_gilbert",
+    "source": "john_bennet_lawes",
+    "type": "collaborated_with",
+    "target": "j_h_gilbert",
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "The collaboration between Lawes and Gilbert was to continue for 57 years"
+      }
+    ]
+  },
+  {
+    "id": "lawes_invented_superphosphate",
+    "source": "john_bennet_lawes",
+    "type": "invented",
+    "target": "superphosphate",
+    "event_id": "lawes_superphosphate_patent",
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "In 1842 Lawes took out a patent for the manufacture of superphosphate"
+      }
+    ]
+  },
+  {
+    "id": "lawes_founded_deptford",
+    "source": "john_bennet_lawes",
+    "type": "founded",
+    "target": "deptford_factory",
+    "event_id": "deptford_factory_founded",
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "and in the following year set up a factory at Deptford to produce it"
+      }
+    ]
+  },
+  {
+    "id": "lawes_member_royal_society",
+    "source": "john_bennet_lawes",
+    "type": "member_of",
+    "target": "royal_society",
+    "event_id": "lawes_frs",
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "Lawes was made a Fellow of the Royal Society in 1854"
+      }
+    ]
+  },
+  {
+    "id": "lawes_member_chemical_society",
+    "source": "john_bennet_lawes",
+    "type": "member_of",
+    "target": "chemical_society",
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "Lawes was also a Fellow of the Chemical Society"
+      }
+    ]
+  },
+  {
+    "id": "lawes_founded_trust",
+    "source": "john_bennet_lawes",
+    "type": "founded",
+    "target": "lawes_agricultural_trust",
+    "event_id": "lawes_trust",
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "The Lawes Agricultural Trust was set up in 1889"
+      }
+    ]
+  },
+  {
+    "id": "lawes_buried_st_nicholas",
+    "source": "john_bennet_lawes",
+    "type": "died_in",
+    "target": "st_nicholas_church",
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "They are buried close together in the churchyard of the parish church."
+      }
+    ]
+  },
+  {
+    "id": "gilbert_buried_st_nicholas",
+    "source": "j_h_gilbert",
+    "type": "died_in",
+    "target": "st_nicholas_church",
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "They are buried close together in the churchyard of the parish church."
+      }
+    ]
+  }
+]

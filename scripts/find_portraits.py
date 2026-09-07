@@ -161,7 +161,7 @@ def run(slug, base_url=None, model=None, api_key=None, no_llm=False, force=False
     entities.json, so portraits are resolved per document and written back where they were read
     -- the same person appearing in two papers gets a portrait in each, and neither file is
     rewritten from the other's data."""
-    docs = bs.subject_documents(slug, SUBJECTS_DIR)
+    docs = bs.subject_documents(slug)
     if not docs:
         sys.exit(f"subjects/{slug}/ has no document folders to attach portraits to.")
     for i, (doc_key, ddir) in enumerate(docs):

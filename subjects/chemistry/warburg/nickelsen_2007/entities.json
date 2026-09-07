@@ -1,0 +1,190 @@
+[
+  {
+    "id": "otto_warburg",
+    "entity_type": "person",
+    "name": "Otto Heinrich Warburg",
+    "aliases": [
+      "Otto Warburg",
+      "Warburg"
+    ],
+    "summary": "Nobel Laureate researcher known for work on photosynthesis and cell respiration mechanisms.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "emil_warburg",
+    "entity_type": "person",
+    "name": "Emil Warburg",
+    "aliases": [
+      "Emil"
+    ],
+    "summary": "Physicist and father of Otto Warburg who introduced the concept of photolyte.",
+    "subtype": "physicist"
+  },
+  {
+    "id": "erwin_negelein",
+    "entity_type": "person",
+    "name": "Erwin Negelein",
+    "aliases": [
+      "Negelein"
+    ],
+    "summary": "Long-standing collaborator of Otto Warburg in photosynthesis research.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "frederick_blackman",
+    "entity_type": "person",
+    "name": "Frederick F. Blackman",
+    "aliases": [
+      "Blackman",
+      "F. F. Blackman"
+    ],
+    "summary": "Plant physiologist whose findings on CO2 and light curves Warburg interpreted.",
+    "subtype": "plant physiologist"
+  },
+  {
+    "id": "gabrielle_matthaei",
+    "entity_type": "person",
+    "name": "Gabrielle L. C. Matthaei",
+    "aliases": [
+      "Matthaei",
+      "G. L. C. Matthaei"
+    ],
+    "summary": "Collaborator of Frederick Blackman in vegetable assimilation research.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "richard_willstaetter",
+    "entity_type": "person",
+    "name": "Richard Willstätter",
+    "aliases": [
+      "Willstätter",
+      "Willstaetter"
+    ],
+    "summary": "Researcher who discovered the occurrence of chlorophyll and proposed photosynthesis models.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "arthur_stoll",
+    "entity_type": "person",
+    "name": "Arthur Stoll",
+    "aliases": [
+      "Stoll"
+    ],
+    "summary": "Long-standing collaborator of Richard Willstätter.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "horace_brown",
+    "entity_type": "person",
+    "name": "Horace Brown",
+    "aliases": [
+      "Brown",
+      "H. Brown"
+    ],
+    "summary": "English plant physiologist whose work on intermittent illumination inspired Warburg.",
+    "subtype": "plant physiologist"
+  },
+  {
+    "id": "f_escombe",
+    "entity_type": "person",
+    "name": "F. Escombe",
+    "aliases": [
+      "Escombe"
+    ],
+    "summary": "Collaborator of Horace Brown.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "physikalisch_technische_reichsanstalt",
+    "entity_type": "organization",
+    "name": "Physikalisch-Technische Reichsanstalt",
+    "aliases": [
+      "PTR",
+      "Berlin Physikalisch-Technische Reichsanstalt"
+    ],
+    "summary": "Berlin optical laboratory led by Emil Warburg where Otto Warburg conducted experiments.",
+    "subtype": "laboratory"
+  },
+  {
+    "id": "nobel_prize_physiology_medicine",
+    "entity_type": "artifact",
+    "name": "Nobel Prize in Physiology or Medicine",
+    "aliases": [
+      "Nobel Prize"
+    ],
+    "summary": "Prestigious award given to Warburg for discovery of the nature and mode of action of the respiratory enzyme.",
+    "subtype": "award"
+  },
+  {
+    "id": "warburg_1919_paper",
+    "entity_type": "artifact",
+    "name": "On the rate of photochemical carbonic acid decomposition",
+    "aliases": [
+      "Warburg 1919",
+      "Über die Geschwindigkeit der photochemischen Kohlensäurezersetzung"
+    ],
+    "summary": "Warburg's first paper on photosynthesis introducing manometric methods.",
+    "subtype": "publication"
+  },
+  {
+    "id": "warburg_1920_paper",
+    "entity_type": "artifact",
+    "name": "On the rate of photochemical carbonic acid decomposition II",
+    "aliases": [
+      "Warburg 1920",
+      "Über die Geschwindigkeit der photochemischen Kohlensäurezersetzung II"
+    ],
+    "summary": "Warburg's second article on photosynthesis mechanism.",
+    "subtype": "publication"
+  },
+  {
+    "id": "warburg_1921_paper",
+    "entity_type": "artifact",
+    "name": "Theorie der Kohlensäureassimilation",
+    "aliases": [
+      "Warburg 1921"
+    ],
+    "summary": "Synopsis of Warburg's findings in Die Naturwissenschaften.",
+    "subtype": "publication"
+  },
+  {
+    "id": "warburg_negelein_1922_paper",
+    "entity_type": "artifact",
+    "name": "Über den Energieumsatz bei der Kohlensäureassimilation",
+    "aliases": [
+      "Warburg and Negelein 1922"
+    ],
+    "summary": "First account of the quantum yield of photosynthesis.",
+    "subtype": "publication"
+  },
+  {
+    "id": "warburg_negelein_1923_paper",
+    "entity_type": "artifact",
+    "name": "Über den Einfluss der Wellenlänge auf den Energieumsatz bei der Kohlensäureassimilation",
+    "aliases": [
+      "Warburg and Negelein 1923"
+    ],
+    "summary": "Paper on the influence of wavelength on photosynthetic efficiency.",
+    "subtype": "publication"
+  },
+  {
+    "id": "chlorella",
+    "entity_type": "artifact",
+    "name": "Chlorella",
+    "aliases": [
+      "unicellular green alga"
+    ],
+    "summary": "Model organism substituted by Warburg for leaves and whole plants.",
+    "subtype": "organism"
+  },
+  {
+    "id": "manometer",
+    "entity_type": "artifact",
+    "name": "Manometer",
+    "aliases": [
+      "manometric methods"
+    ],
+    "summary": "Apparatus used by Warburg for measuring the rate of photosynthesis.",
+    "subtype": "apparatus"
+  }
+]

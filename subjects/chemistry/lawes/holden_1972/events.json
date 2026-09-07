@@ -1,0 +1,544 @@
+[
+  {
+    "id": "lawes_birth",
+    "event_type": "birth",
+    "label": "Born at Rothamsted Manor",
+    "date": {
+      "display": "28 December 1814",
+      "precision": "day",
+      "sort_start": "1814-12-28",
+      "sort_end": "1814-12-28"
+    },
+    "participants": [
+      {
+        "entity_id": "john_bennet_lawes",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "He was born at Rothamsted Manor on 28 December 1814."
+      }
+    ]
+  },
+  {
+    "id": "lawes_father_death",
+    "event_type": "death",
+    "label": "Father died",
+    "description": "Lawes' father died when he was eight years old.",
+    "date": {
+      "display": "c. 1822",
+      "precision": "circa",
+      "sort_start": "1822-01-01",
+      "sort_end": "1822-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_bennet_lawes_sr",
+        "role": "subject"
+      },
+      {
+        "entity_id": "john_bennet_lawes",
+        "role": "family_of"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "His father, also called John Bennet Lawes, died when he was only eight"
+      }
+    ]
+  },
+  {
+    "id": "lawes_takes_farm",
+    "event_type": "employment_start",
+    "label": "Took management of Rothamsted home farm",
+    "date": {
+      "display": "1834",
+      "precision": "year",
+      "sort_start": "1834-01-01",
+      "sort_end": "1834-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_bennet_lawes",
+        "role": "subject"
+      },
+      {
+        "entity_id": "rothamsted_manor",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "At the age of 20 in 1834 he took on the management of the Rothamsted home farm"
+      }
+    ]
+  },
+  {
+    "id": "lawes_superphosphate_patent",
+    "event_type": "patent_granted",
+    "label": "Took out patent for superphosphate",
+    "date": {
+      "display": "1842",
+      "precision": "year",
+      "sort_start": "1842-01-01",
+      "sort_end": "1842-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_bennet_lawes",
+        "role": "subject"
+      },
+      {
+        "entity_id": "superphosphate",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "In 1842 Lawes took out a patent for the manufacture of superphosphate"
+      }
+    ]
+  },
+  {
+    "id": "lawes_marriage",
+    "event_type": "other",
+    "label": "Married",
+    "date": {
+      "display": "1842",
+      "precision": "year",
+      "sort_start": "1842-01-01",
+      "sort_end": "1842-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_bennet_lawes",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "Lawes married in 1842"
+      }
+    ]
+  },
+  {
+    "id": "deptford_factory_founded",
+    "event_type": "company_founded",
+    "label": "Set up factory at Deptford",
+    "date": {
+      "display": "1843",
+      "precision": "year",
+      "sort_start": "1843-01-01",
+      "sort_end": "1843-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_bennet_lawes",
+        "role": "founder"
+      },
+      {
+        "entity_id": "deptford_factory",
+        "role": "company"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "and in the following year set up a factory at Deptford to produce it"
+      }
+    ]
+  },
+  {
+    "id": "gilbert_arrival",
+    "event_type": "employment_start",
+    "label": "Gilbert started work at Rothamsted",
+    "date": {
+      "display": "June 1843",
+      "precision": "month",
+      "sort_start": "1843-06-01",
+      "sort_end": "1843-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "j_h_gilbert",
+        "role": "subject"
+      },
+      {
+        "entity_id": "rothamsted_experimental_station",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "then in June 1843 Dr J H Gilbert started work at Rothamsted"
+      }
+    ]
+  },
+  {
+    "id": "rothamsted_founded",
+    "event_type": "company_founded",
+    "label": "Rothamsted Experimental Station founded",
+    "description": "The Station is deemed to have been founded from the time of Gilbert's arrival.",
+    "date": {
+      "display": "1843",
+      "precision": "year",
+      "sort_start": "1843-01-01",
+      "sort_end": "1843-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_bennet_lawes",
+        "role": "founder"
+      },
+      {
+        "entity_id": "j_h_gilbert",
+        "role": "founder"
+      },
+      {
+        "entity_id": "rothamsted_experimental_station",
+        "role": "company"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "The Station is deemed to have been founded from the time of Gilbert's arrival."
+      }
+    ]
+  },
+  {
+    "id": "broadbalk_start",
+    "event_type": "other",
+    "label": "Wheat experiment on Broadbalk started",
+    "date": {
+      "display": "1843",
+      "precision": "year",
+      "sort_start": "1843-01-01",
+      "sort_end": "1843-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_bennet_lawes",
+        "role": "subject"
+      },
+      {
+        "entity_id": "rothamsted_experimental_station",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "The wheat experiment on Broadbalk was started in 1843"
+      }
+    ]
+  },
+  {
+    "id": "lawes_frs",
+    "event_type": "award",
+    "label": "Made Fellow of the Royal Society",
+    "date": {
+      "display": "1854",
+      "precision": "year",
+      "sort_start": "1854-01-01",
+      "sort_end": "1854-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_bennet_lawes",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_society",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "Lawes was made a Fellow of the Royal Society in 1854"
+      }
+    ]
+  },
+  {
+    "id": "testimonial_lab_opened",
+    "event_type": "product_launch",
+    "label": "Testimonial Laboratory opened",
+    "date": {
+      "display": "1855",
+      "precision": "year",
+      "sort_start": "1855-01-01",
+      "sort_end": "1855-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_bennet_lawes",
+        "role": "subject"
+      },
+      {
+        "entity_id": "testimonial_laboratory",
+        "role": "artifact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "this was opened with due pomp and ceremony in 1855"
+      }
+    ]
+  },
+  {
+    "id": "royal_medal",
+    "event_type": "award",
+    "label": "Awarded Royal Medal",
+    "date": {
+      "display": "1867",
+      "precision": "year",
+      "sort_start": "1867-01-01",
+      "sort_end": "1867-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_bennet_lawes",
+        "role": "subject"
+      },
+      {
+        "entity_id": "j_h_gilbert",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_society",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "he and Gilbert were awarded a Royal Medal by the Royal Society in 1867"
+      }
+    ]
+  },
+  {
+    "id": "woburn_experiments_start",
+    "event_type": "other",
+    "label": "Field experiments started at Woburn",
+    "date": {
+      "display": "1876",
+      "precision": "year",
+      "sort_start": "1876-01-01",
+      "sort_end": "1876-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_bennet_lawes",
+        "role": "subject"
+      },
+      {
+        "entity_id": "woburn_experimental_station",
+        "role": "place"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "He took an active part in arranging the start in 1876 of field experiments sponsored by the Society at Woburn."
+      }
+    ]
+  },
+  {
+    "id": "lawes_baronet",
+    "event_type": "award",
+    "label": "Created a Baronet",
+    "date": {
+      "display": "1882",
+      "precision": "year",
+      "sort_start": "1882-01-01",
+      "sort_end": "1882-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_bennet_lawes",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "Lawes was created a Baronet in 1882"
+      }
+    ]
+  },
+  {
+    "id": "lawes_trust",
+    "event_type": "company_founded",
+    "label": "Lawes Agricultural Trust set up",
+    "date": {
+      "display": "1889",
+      "precision": "year",
+      "sort_start": "1889-01-01",
+      "sort_end": "1889-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_bennet_lawes",
+        "role": "founder"
+      },
+      {
+        "entity_id": "lawes_agricultural_trust",
+        "role": "company"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "The Lawes Agricultural Trust was set up in 1889"
+      }
+    ]
+  },
+  {
+    "id": "golden_jubilee",
+    "event_type": "conference",
+    "label": "Golden jubilee of Rothamsted experiment celebrated",
+    "date": {
+      "display": "1893",
+      "precision": "year",
+      "sort_start": "1893-01-01",
+      "sort_end": "1893-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_bennet_lawes",
+        "role": "subject"
+      },
+      {
+        "entity_id": "rothamsted_experimental_station",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "In 1893 the golden jubilee of the Rothamsted experiment was celebrated."
+      }
+    ]
+  },
+  {
+    "id": "lawes_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1900",
+      "precision": "year",
+      "sort_start": "1900-01-01",
+      "sort_end": "1900-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_bennet_lawes",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "Sir John Lawes dying in 1900 at the age of 85"
+      }
+    ]
+  },
+  {
+    "id": "gilbert_death",
+    "event_type": "death",
+    "label": "Gilbert died",
+    "date": {
+      "display": "1901",
+      "precision": "year",
+      "sort_start": "1901-01-01",
+      "sort_end": "1901-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "j_h_gilbert",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "Sir Henry Gilbert dying in 1901 at 84."
+      }
+    ]
+  },
+  {
+    "id": "testimonial_lab_demolished",
+    "event_type": "other",
+    "label": "Testimonial Laboratory pulled down",
+    "date": {
+      "display": "1914",
+      "precision": "year",
+      "sort_start": "1914-01-01",
+      "sort_end": "1914-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "testimonial_laboratory",
+        "role": "artifact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "in 1914 the crumbling old building was pulled down"
+      }
+    ]
+  },
+  {
+    "id": "russell_building_opened",
+    "event_type": "product_launch",
+    "label": "Russell building formally opened",
+    "date": {
+      "display": "1919",
+      "precision": "year",
+      "sort_start": "1919-01-01",
+      "sort_end": "1919-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "russell_building",
+        "role": "artifact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "holden_1972",
+        "page": 1,
+        "quote": "formally opened in 1919"
+      }
+    ]
+  }
+]

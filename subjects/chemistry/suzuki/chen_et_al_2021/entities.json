@@ -1,0 +1,305 @@
+[
+  {
+    "id": "pierre_gadal",
+    "entity_type": "person",
+    "name": "Pierre Gadal",
+    "aliases": [
+      "P. Gadal",
+      "PG",
+      "Pierre"
+    ],
+    "summary": "French plant biochemist known for work on CO2 fixation and nitrogen assimilation enzymes.",
+    "subtype": "researcher",
+    "attributes": {
+      "birth_year": 1938,
+      "death_year": 2019,
+      "nationality": "French"
+    }
+  },
+  {
+    "id": "jean_vidal",
+    "entity_type": "person",
+    "name": "Jean Vidal",
+    "aliases": [
+      "J. Vidal",
+      "Jean"
+    ],
+    "summary": "Plant scientist and long-time collaborator of Pierre Gadal.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "jean_pierre_jacquot",
+    "entity_type": "person",
+    "name": "Jean-Pierre Jacquot",
+    "aliases": [
+      "J-P. Jacquot",
+      "Jean-Pierre"
+    ],
+    "summary": "Plant biochemist and former student of Pierre Gadal.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "bob_buchanan",
+    "entity_type": "person",
+    "name": "Bob Buchanan",
+    "aliases": [
+      "Professor Bob Buchanan",
+      "Bob"
+    ],
+    "summary": "Plant enzyme redox regulation expert at UC Berkeley.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "tatsuo_sugiyama",
+    "entity_type": "person",
+    "name": "Tatsuo Sugiyama",
+    "aliases": [
+      "Professor Tatsuo Sugiyama"
+    ],
+    "summary": "Emeritus Professor of Nagoya University and collaborator.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "claude_cretin",
+    "entity_type": "person",
+    "name": "Claude Cretin",
+    "aliases": [
+      "Claude",
+      "C. Cretin"
+    ],
+    "summary": "Researcher in Gadal's lab who died in 1993.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "michel_droux",
+    "entity_type": "person",
+    "name": "Michel Droux",
+    "aliases": [
+      "M. Droux",
+      "Michel"
+    ],
+    "summary": "PhD student and colleague in Gadal's lab.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "myroslawa_miginia_maslow",
+    "entity_type": "person",
+    "name": "Myroslawa Miginia-Maslow",
+    "aliases": [
+      "Myroslawa",
+      "M. Miginia-Maslow"
+    ],
+    "summary": "Researcher in Gadal's Orsay lab.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "frederic_de_lamotte",
+    "entity_type": "person",
+    "name": "Frederic de Lamotte",
+    "aliases": [
+      "Frederic",
+      "F. de Lamotte"
+    ],
+    "summary": "Former PhD student of Pierre Gadal.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "stephane_lemaire",
+    "entity_type": "person",
+    "name": "Stephane Lemaire",
+    "aliases": [
+      "Stephane",
+      "S. Lemaire"
+    ],
+    "summary": "Former PhD student of Pierre Gadal.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "akira_suzuki",
+    "entity_type": "person",
+    "name": "Akira Suzuki",
+    "aliases": [
+      "A. Suzuki"
+    ],
+    "summary": "Researcher at INRAE and author of the tribute chapter.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "universite_de_nancy_i",
+    "entity_type": "organization",
+    "name": "Université de Nancy I",
+    "aliases": [
+      "University of Nancy I",
+      "Nancy University",
+      "University Henri Poincaré of Nancy"
+    ],
+    "summary": "University in Lorraine where Gadal was professor from 1973 to 1981.",
+    "subtype": "university",
+    "attributes": {
+      "location": "Nancy, France"
+    }
+  },
+  {
+    "id": "universite_de_paris_sud",
+    "entity_type": "organization",
+    "name": "Université de Paris-Sud",
+    "aliases": [
+      "University of Paris-Sud",
+      "Paris-Sud",
+      "Orsay"
+    ],
+    "summary": "University in Orsay where Gadal was professor from 1981 to 2003.",
+    "subtype": "university",
+    "attributes": {
+      "location": "Orsay, France"
+    }
+  },
+  {
+    "id": "cnrs",
+    "entity_type": "organization",
+    "name": "CNRS",
+    "aliases": [
+      "Centre National de la Recherche Scientifique"
+    ],
+    "summary": "French national research organization employing Gadal.",
+    "subtype": "research_organization"
+  },
+  {
+    "id": "institut_de_biotechnologie_des_plantes",
+    "entity_type": "organization",
+    "name": "Institut de Biotechnologie des Plantes",
+    "aliases": [
+      "IBP"
+    ],
+    "summary": "Plant biotechnology institute founded by Gadal in 1994.",
+    "subtype": "research_institute",
+    "attributes": {
+      "location": "Saclay plateau, France"
+    }
+  },
+  {
+    "id": "french_academy_of_sciences",
+    "entity_type": "organization",
+    "name": "French Academy of Sciences",
+    "aliases": [
+      "Académie des Sciences"
+    ],
+    "summary": "Academy that awarded Gadal a state prize in 1998.",
+    "subtype": "academy"
+  },
+  {
+    "id": "american_society_of_plant_biologists",
+    "entity_type": "organization",
+    "name": "American Society of Plant Biologists",
+    "aliases": [
+      "ASPB"
+    ],
+    "summary": "Society that elected Gadal as Corresponding Member in 2000.",
+    "subtype": "professional_society"
+  },
+  {
+    "id": "uc_berkeley",
+    "entity_type": "organization",
+    "name": "UC Berkeley",
+    "aliases": [
+      "University of California at Berkeley",
+      "Berkeley"
+    ],
+    "summary": "University where Bob Buchanan worked and Gadal collaborated.",
+    "subtype": "university",
+    "attributes": {
+      "location": "California, USA"
+    }
+  },
+  {
+    "id": "brittany",
+    "entity_type": "place",
+    "name": "Brittany",
+    "aliases": [],
+    "summary": "Region in France where Pierre Gadal was born.",
+    "subtype": "region",
+    "attributes": {
+      "country": "France"
+    }
+  },
+  {
+    "id": "toulouse",
+    "entity_type": "place",
+    "name": "Toulouse",
+    "aliases": [],
+    "summary": "City in France where Gadal did his PhD and was assistant professor.",
+    "subtype": "city",
+    "attributes": {
+      "country": "France"
+    }
+  },
+  {
+    "id": "nancy",
+    "entity_type": "place",
+    "name": "Nancy",
+    "aliases": [],
+    "summary": "City in Lorraine where Gadal worked from 1973 to 1981.",
+    "subtype": "city",
+    "attributes": {
+      "country": "France"
+    }
+  },
+  {
+    "id": "orsay",
+    "entity_type": "place",
+    "name": "Orsay",
+    "aliases": [],
+    "summary": "City near Paris where Gadal worked from 1981 to 2003.",
+    "subtype": "city",
+    "attributes": {
+      "country": "France"
+    }
+  },
+  {
+    "id": "pep_carboxylase",
+    "entity_type": "artifact",
+    "name": "PEP carboxylase",
+    "aliases": [
+      "PEPC",
+      "phosphoenolpyruvate carboxylase"
+    ],
+    "summary": "Enzyme involved in CO2 fixation studied by Gadal's lab.",
+    "subtype": "enzyme"
+  },
+  {
+    "id": "nadp_malate_dehydrogenase",
+    "entity_type": "artifact",
+    "name": "NADP-malate dehydrogenase",
+    "aliases": [
+      "NADP-MDH"
+    ],
+    "summary": "Enzyme involved in redox regulation studied by Gadal's lab.",
+    "subtype": "enzyme"
+  },
+  {
+    "id": "thioredoxin",
+    "entity_type": "artifact",
+    "name": "thioredoxin",
+    "aliases": [
+      "Trx"
+    ],
+    "summary": "Regulatory protein discovered to have multiple forms in plants by Gadal's lab.",
+    "subtype": "protein"
+  },
+  {
+    "id": "journal_plant_physiology_and_biochemistry",
+    "entity_type": "artifact",
+    "name": "Journal Plant Physiology and Biochemistry",
+    "aliases": [],
+    "summary": "Journal that dedicated a special issue to Gadal in 2003.",
+    "subtype": "publication"
+  },
+  {
+    "id": "advances_in_botanical_research",
+    "entity_type": "artifact",
+    "name": "Advances in Botanical Research",
+    "aliases": [],
+    "summary": "Book series where Gadal served as series editor.",
+    "subtype": "publication"
+  }
+]

@@ -1,0 +1,612 @@
+[
+  {
+    "id": "birth",
+    "event_type": "birth",
+    "label": "Born in Freiburg in Breisgau",
+    "date": {
+      "display": "October 8, 1883",
+      "precision": "day",
+      "sort_start": "1883-10-08",
+      "sort_end": "1883-10-08"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      }
+    ],
+    "location": "freiburg_in_breisgau",
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 2,
+        "quote": "Otto Heinrich Warburg (not to be confused with his uncle Otto Warburg, a botanist) was born on October 8, 1883 in Freiburg in Breisgau"
+      }
+    ]
+  },
+  {
+    "id": "study_freiburg",
+    "event_type": "education",
+    "label": "Enrolled at University of Freiburg",
+    "date": {
+      "display": "1901",
+      "precision": "year",
+      "sort_start": "1901-01-01",
+      "sort_end": "1901-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_freiburg",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 2,
+        "quote": "Otto Warburg decided to study chemistry and left Berlin in 1901 to enroll at the University of Freiburg"
+      }
+    ]
+  },
+  {
+    "id": "study_berlin",
+    "event_type": "education",
+    "label": "Returned to University of Berlin",
+    "date": {
+      "display": "1903",
+      "precision": "year",
+      "sort_start": "1903-01-01",
+      "sort_end": "1903-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_berlin",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 2,
+        "quote": "from where he returned in 1903 to become a student of Emil Fischer"
+      }
+    ]
+  },
+  {
+    "id": "phd_1906",
+    "event_type": "education",
+    "label": "Received doctoral degree",
+    "date": {
+      "display": "1906",
+      "precision": "year",
+      "sort_start": "1906-01-01",
+      "sort_end": "1906-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 2,
+        "quote": "for which he received his doctoral degree in 1906"
+      }
+    ]
+  },
+  {
+    "id": "study_heidelberg",
+    "event_type": "education",
+    "label": "Studied medicine at University of Heidelberg",
+    "date": {
+      "display": "1908",
+      "precision": "year",
+      "sort_start": "1908-01-01",
+      "sort_end": "1908-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_heidelberg",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 2,
+        "quote": "thus went to the University of Heidelberg to study medicine with Ludolf Krehl"
+      }
+    ]
+  },
+  {
+    "id": "second_phd",
+    "event_type": "education",
+    "label": "Completed second doctoral thesis",
+    "date": {
+      "display": "1911",
+      "precision": "year",
+      "sort_start": "1911-01-01",
+      "sort_end": "1911-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 2,
+        "quote": "This work converged into a second doctoral thesis in 1911 on the oxidation of live cells"
+      }
+    ]
+  },
+  {
+    "id": "habilitation",
+    "event_type": "education",
+    "label": "Acquired Habilitation",
+    "date": {
+      "display": "1913",
+      "precision": "year",
+      "sort_start": "1913-01-01",
+      "sort_end": "1913-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 2,
+        "quote": "In 1913, he acquired the qualifications for a professorship in physiology"
+      }
+    ]
+  },
+  {
+    "id": "kwi_appointment",
+    "event_type": "employment_start",
+    "label": "Joined Kaiser Wilhelm Institute",
+    "date": {
+      "display": "1913",
+      "precision": "year",
+      "sort_start": "1913-01-01",
+      "sort_end": "1913-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      },
+      {
+        "entity_id": "kaiser_wilhelm_institute",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 3,
+        "quote": "In 1913, Warburg decided to return to Berlin, where the Kaiser Wilhelm Institute (KWI) had been founded"
+      }
+    ]
+  },
+  {
+    "id": "wwi_service",
+    "event_type": "other",
+    "label": "Volunteered for WWI service",
+    "date": {
+      "display": "1914",
+      "precision": "year",
+      "sort_start": "1914-01-01",
+      "sort_end": "1914-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 3,
+        "quote": "At the outbreak of the First World War in 1914, Warburg felt a traditional and national obligation to serve the country, and he volunteered"
+      }
+    ]
+  },
+  {
+    "id": "return_to_lab",
+    "event_type": "employment_start",
+    "label": "Returned to lab bench",
+    "date": {
+      "display": "1918",
+      "precision": "year",
+      "sort_start": "1918-01-01",
+      "sort_end": "1918-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 3,
+        "quote": "And indeed, upon receiving a letter from Einstein, Warburg returned to Berlin and to the lab bench"
+      }
+    ]
+  },
+  {
+    "id": "tumor_metabolism_obs",
+    "event_type": "invention",
+    "label": "Published first observations on tumor metabolism",
+    "date": {
+      "display": "1923",
+      "precision": "year",
+      "sort_start": "1923-01-01",
+      "sort_end": "1923-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 3,
+        "quote": "In the same year, Otto Warburg and Seigo Minami published the first observations on changes in the metabolism of tumors"
+      }
+    ]
+  },
+  {
+    "id": "visit_usa_1924",
+    "event_type": "visit",
+    "label": "Visited USA and Rockefeller Institute",
+    "date": {
+      "display": "1924",
+      "precision": "year",
+      "sort_start": "1924-01-01",
+      "sort_end": "1924-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 5,
+        "quote": "On the first occasion in 1924, he visited Jacob Loeb, a friend of the Warburg family, at the Rockefeller Institute in New York"
+      }
+    ]
+  },
+  {
+    "id": "nobel_nomination",
+    "event_type": "award",
+    "label": "Nominated for Nobel Prize",
+    "date": {
+      "display": "1926",
+      "precision": "year",
+      "sort_start": "1926-01-01",
+      "sort_end": "1926-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 4,
+        "quote": "Even though Warburg was also nominated for the Nobel Prize in 1926"
+      }
+    ]
+  },
+  {
+    "id": "visit_usa_1929",
+    "event_type": "visit",
+    "label": "Visited Johns Hopkins Medical School",
+    "date": {
+      "display": "1929",
+      "precision": "year",
+      "sort_start": "1929-01-01",
+      "sort_end": "1929-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 5,
+        "quote": "In 1929, he was guest in the laboratory of Barron at Johns Hopkins Medical School"
+      }
+    ]
+  },
+  {
+    "id": "rockefeller_funding",
+    "event_type": "other",
+    "label": "Rockefeller Foundation offered funding",
+    "date": {
+      "display": "1930",
+      "precision": "year",
+      "sort_start": "1930-01-01",
+      "sort_end": "1930-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rockefeller_foundation",
+        "role": "employer"
+      },
+      {
+        "entity_id": "kaiser_wilhelm_institute",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 5,
+        "quote": "In 1930, the Rockefeller Foundation offered US$665,000 to the KWI for building two new institutes in Berlin"
+      }
+    ]
+  },
+  {
+    "id": "institute_inaugurated",
+    "event_type": "company_founded",
+    "label": "Institute of Cell Physiology inaugurated",
+    "date": {
+      "display": "December 1931",
+      "precision": "month",
+      "sort_start": "1931-12-01",
+      "sort_end": "1931-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "institute_of_cell_physiology",
+        "role": "subject"
+      },
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 5,
+        "quote": "The Institute of Cell Physiology was inaugurated in December 1931 and Otto Warburg became to be its one and only director"
+      }
+    ]
+  },
+  {
+    "id": "nobel_prize",
+    "event_type": "award",
+    "label": "Received Nobel Prize",
+    "date": {
+      "display": "1931",
+      "precision": "year",
+      "sort_start": "1931-01-01",
+      "sort_end": "1931-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 1,
+        "quote": "he received the Nobel Prize in 1931"
+      }
+    ]
+  },
+  {
+    "id": "lab_move_1943",
+    "event_type": "relocation",
+    "label": "Moved laboratory to countryside",
+    "date": {
+      "display": "1943",
+      "precision": "year",
+      "sort_start": "1943-01-01",
+      "sort_end": "1943-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 6,
+        "quote": "In 1943, due to the bombings on Berlin, Warburg along with very few remaining coworkers had to move the laboratory to a small location in the countryside northwest of Berlin"
+      }
+    ]
+  },
+  {
+    "id": "visit_usa_1948",
+    "event_type": "visit",
+    "label": "Traveled to USA",
+    "date": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 6,
+        "quote": "Eventually, in 1948, he traveled to the USA"
+      }
+    ]
+  },
+  {
+    "id": "institute_recovery",
+    "event_type": "employment_start",
+    "label": "Recovered institute",
+    "date": {
+      "display": "1950",
+      "precision": "year",
+      "sort_start": "1950-01-01",
+      "sort_end": "1950-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      },
+      {
+        "entity_id": "institute_of_cell_physiology",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 6,
+        "quote": "Returning to Berlin, he recovered \"his\" institute in 1950"
+      }
+    ]
+  },
+  {
+    "id": "max_planck_conversion",
+    "event_type": "company_renamed",
+    "label": "Institute converted to Max Planck Institute",
+    "date": {
+      "display": "1952",
+      "precision": "year",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "max_planck_institute",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 6,
+        "quote": "which in 1952 was converted into a Max Planck institute"
+      }
+    ]
+  },
+  {
+    "id": "science_paper",
+    "event_type": "publication",
+    "label": "Published famous Science paper",
+    "date": {
+      "display": "1956",
+      "precision": "year",
+      "sort_start": "1956-01-01",
+      "sort_end": "1956-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 4,
+        "quote": "This came to be a highly controversial issue climaxing in his famous papers in Science in 1956"
+      }
+    ]
+  },
+  {
+    "id": "lindau_meeting",
+    "event_type": "conference",
+    "label": "Presented at Lindau Nobel Laureates Meeting",
+    "date": {
+      "display": "1966",
+      "precision": "year",
+      "sort_start": "1966-01-01",
+      "sort_end": "1966-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 6,
+        "quote": "He presented these concepts at prestigious meetings, one being the Annual Meeting of the Nobel Laureates in 1966 in Lindau"
+      }
+    ]
+  },
+  {
+    "id": "death",
+    "event_type": "death",
+    "label": "Died in Berlin",
+    "date": {
+      "display": "1970",
+      "precision": "year",
+      "sort_start": "1970-01-01",
+      "sort_end": "1970-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_warburg",
+        "role": "subject"
+      }
+    ],
+    "location": "berlin",
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 1,
+        "quote": "continued until his death in 1970"
+      }
+    ]
+  }
+]

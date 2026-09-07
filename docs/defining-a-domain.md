@@ -166,6 +166,40 @@ Expect roughly 8-12 fields, 30-60 subfields, 100-180 names, and a domain string
 of 800 characters or more. A domain much shorter than that has almost certainly
 skipped the reject-explicitly half.
 
+## Where subjects are stored
+
+Subjects live one folder per domain:
+
+```
+subjects/
+  materials_science/
+    suntola/  subject.json + one folder per source document
+  chemistry/
+    warburg/  ...
+```
+
+The folder name is `_meta.name` slugified. But **the slug is the identity, and the
+folder is only location** — slugs stay unique across every domain, so one person
+is one subject wherever they sit.
+
+That distinction matters because a person is not partitionable. 73 names appear
+in both the materials and chemistry taxonomies — Volta, Nobel, Heeger,
+MacDiarmid — and splitting people by domain would duplicate every one of them.
+So:
+
+- **Domain is assigned at creation**, from the taxonomy that was running. People
+  discovered from a colleague's graph rather than from the taxonomy get the
+  domain of the run that found them, so nothing is left stranded.
+- **First domain wins.** A person already documented keeps their folder. A second
+  domain reaching them adds a *document* to the existing subject, never a second
+  subject.
+- **`subject.json` records `domains`**, e.g. `["chemistry", "materials_science"]`.
+  The folder can only express one; this field is the fact. Query by domain from
+  here, never from the path.
+
+The older flat `subjects/<slug>/` layout is still read, so hand-made subjects
+keep working.
+
 ## Running it
 
 Each domain keeps its own taxonomy and its own state file; subjects from all of

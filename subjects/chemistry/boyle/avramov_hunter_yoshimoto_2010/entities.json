@@ -1,0 +1,310 @@
+[
+  {
+    "id": "robert_boyle",
+    "entity_type": "person",
+    "name": "Robert Boyle",
+    "aliases": [
+      "Boyle",
+      "Mr Boyle",
+      "Rob: Boyle, Esq;",
+      "Roberti Boylii"
+    ],
+    "summary": "Anglo-Irish natural philosopher and chemist, known for Boyle's Law and The Sceptical Chymist.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "richard_boyle_earl_burlington",
+    "entity_type": "person",
+    "name": "Richard Boyle, Earl of Burlington",
+    "aliases": [
+      "Richard",
+      "Earl of Burlington",
+      "Burlington"
+    ],
+    "summary": "Boyle's brother and chief executor of his will.",
+    "subtype": "family"
+  },
+  {
+    "id": "katherine_lady_ranelagh",
+    "entity_type": "person",
+    "name": "Katherine, Lady Ranelagh",
+    "aliases": [
+      "Katherine",
+      "Lady Ranelagh",
+      "his sister"
+    ],
+    "summary": "Boyle's sister with whom he lived in his later years.",
+    "subtype": "family"
+  },
+  {
+    "id": "john_evelyn",
+    "entity_type": "person",
+    "name": "John Evelyn",
+    "aliases": [
+      "Evelyn"
+    ],
+    "summary": "Boyle's friend and diarist who commented on the dispersal of Boyle's library.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "robert_hooke",
+    "entity_type": "person",
+    "name": "Robert Hooke",
+    "aliases": [
+      "Hooke",
+      "R.Hooke"
+    ],
+    "summary": "Contemporary scientist who borrowed books from and lent books to Boyle.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "henry_oldenburg",
+    "entity_type": "person",
+    "name": "Henry Oldenburg",
+    "aliases": [
+      "Oldenburg"
+    ],
+    "summary": "Secretary of the Royal Society who obtained books for Boyle in London.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "zachary_merrill",
+    "entity_type": "person",
+    "name": "Zachary Merrill",
+    "aliases": [
+      "Merrill"
+    ],
+    "summary": "Nonconformist divine who recorded the number of books in Boyle's library in 1692.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "sylvanus_morgan",
+    "entity_type": "person",
+    "name": "Sylvanus Morgan",
+    "aliases": [
+      "Morgan"
+    ],
+    "summary": "Heraldic author whose books were confused with Boyle's in an auction.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "john_warr",
+    "entity_type": "person",
+    "name": "John Warr",
+    "aliases": [
+      "Warr"
+    ],
+    "summary": "Boyle's servant and one of the executors of his will.",
+    "subtype": "assistant"
+  },
+  {
+    "id": "thomas_sydenham",
+    "entity_type": "person",
+    "name": "Thomas Sydenham",
+    "aliases": [
+      "Sydenham"
+    ],
+    "summary": "Physician to whom Boyle perhaps gave a book.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "hans_sloane",
+    "entity_type": "person",
+    "name": "Sir Hans Sloane",
+    "aliases": [
+      "Sloane"
+    ],
+    "summary": "Collector who acquired various volumes from Boyle's dispersed library.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "samuel_colepresse",
+    "entity_type": "person",
+    "name": "Samuel Colepresse",
+    "aliases": [
+      "Colepresse",
+      "S Colepresse"
+    ],
+    "summary": "Boyle's young protégé and medical student at Leiden.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "royal_society",
+    "entity_type": "organization",
+    "name": "Royal Society",
+    "aliases": [
+      "The Royal Society"
+    ],
+    "summary": "Scientific society where Boyle's papers are held.",
+    "subtype": "lab"
+  },
+  {
+    "id": "birkbeck_university_london",
+    "entity_type": "organization",
+    "name": "Birkbeck, University of London",
+    "aliases": [
+      "Birkbeck"
+    ],
+    "summary": "University where the Robert Boyle Project is based.",
+    "subtype": "university"
+  },
+  {
+    "id": "robert_boyle_project",
+    "entity_type": "organization",
+    "name": "Robert Boyle Project",
+    "aliases": [],
+    "summary": "Research project publishing occasional papers on Boyle.",
+    "subtype": "lab"
+  },
+  {
+    "id": "wellcome_library",
+    "entity_type": "organization",
+    "name": "Wellcome Library",
+    "aliases": [
+      "Wellcome Library, London"
+    ],
+    "summary": "Library holding copies of Boyle's works with citations.",
+    "subtype": "organization"
+  },
+  {
+    "id": "british_library",
+    "entity_type": "organization",
+    "name": "British Library",
+    "aliases": [],
+    "summary": "Library holding books with inscriptions linking them to Boyle.",
+    "subtype": "organization"
+  },
+  {
+    "id": "university_of_kent",
+    "entity_type": "organization",
+    "name": "University of Kent",
+    "aliases": [
+      "Templeman Library, University of Kent"
+    ],
+    "summary": "University holding a book from Boyle's library.",
+    "subtype": "university"
+  },
+  {
+    "id": "whipple_museum",
+    "entity_type": "organization",
+    "name": "Whipple Museum",
+    "aliases": [
+      "Whipple Museum, Cambridge"
+    ],
+    "summary": "Museum holding a copy of Huygens' Horologium oscillatorium inscribed to Boyle.",
+    "subtype": "organization"
+  },
+  {
+    "id": "eton_college",
+    "entity_type": "organization",
+    "name": "Eton College",
+    "aliases": [
+      "Eton"
+    ],
+    "summary": "School Boyle attended as a boy.",
+    "subtype": "university"
+  },
+  {
+    "id": "yale_university",
+    "entity_type": "organization",
+    "name": "Yale University",
+    "aliases": [
+      "Medical Historical Library at Yale"
+    ],
+    "summary": "University holding a book Boyle probably owned in his early years.",
+    "subtype": "university"
+  },
+  {
+    "id": "pall_mall",
+    "entity_type": "place",
+    "name": "Pall Mall",
+    "aliases": [],
+    "summary": "Street in London where Boyle lived in his later years.",
+    "subtype": "city"
+  },
+  {
+    "id": "moorfields",
+    "entity_type": "place",
+    "name": "Moorfields",
+    "aliases": [],
+    "summary": "Area in London where some of Boyle's books were exposed on bookstalls.",
+    "subtype": "city"
+  },
+  {
+    "id": "oxford",
+    "entity_type": "place",
+    "name": "Oxford",
+    "aliases": [],
+    "summary": "City where Boyle lived in the 1660s.",
+    "subtype": "city"
+  },
+  {
+    "id": "london",
+    "entity_type": "place",
+    "name": "London",
+    "aliases": [],
+    "summary": "City where Boyle's library was dispersed.",
+    "subtype": "city"
+  },
+  {
+    "id": "book_sceptical_chymist",
+    "entity_type": "artifact",
+    "name": "The Sceptical Chymist",
+    "aliases": [
+      "Sceptical Chymist"
+    ],
+    "summary": "Boyle's influential work on chemistry published in 1661.",
+    "subtype": "publication"
+  },
+  {
+    "id": "book_cold",
+    "entity_type": "artifact",
+    "name": "New Experiments and Observations touching Cold",
+    "aliases": [
+      "Cold",
+      "New Experiments and Observations touching Cold (London, 1665)"
+    ],
+    "summary": "Boyle's work on cold published in 1665 containing many page citations.",
+    "subtype": "publication"
+  },
+  {
+    "id": "book_cicero_eton",
+    "entity_type": "artifact",
+    "name": "Cicero (copy owned at Eton)",
+    "aliases": [
+      "copy of Cicero"
+    ],
+    "summary": "Book Boyle owned as a boy at Eton, still in the college library.",
+    "subtype": "publication"
+  },
+  {
+    "id": "book_horne_1641",
+    "entity_type": "artifact",
+    "name": "ΧΕΙΡΑΓΩΓΙΆ, sive manuductio in ædem palladis (1641)",
+    "aliases": [
+      "Thomas Horne's ΧΕΙΡΑΓΩΓΙΆ"
+    ],
+    "summary": "Book Boyle probably owned in his early years, now at Yale.",
+    "subtype": "publication"
+  },
+  {
+    "id": "book_newton_principia",
+    "entity_type": "artifact",
+    "name": "Newton's Principia",
+    "aliases": [
+      "Principia"
+    ],
+    "summary": "Book Boyle received when published in 1687.",
+    "subtype": "publication"
+  },
+  {
+    "id": "book_huygens_traite",
+    "entity_type": "artifact",
+    "name": "Traité de la lumière",
+    "aliases": [
+      "Huygens' Traité de la lumière"
+    ],
+    "summary": "Book Boyle received in 1690.",
+    "subtype": "publication"
+  }
+]

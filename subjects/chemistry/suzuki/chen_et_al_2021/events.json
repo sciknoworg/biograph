@@ -1,0 +1,357 @@
+[
+  {
+    "id": "gadal_birth",
+    "event_type": "birth",
+    "label": "Born in Brittany",
+    "description": "Pierre Gadal was born in a modest family of farmers in Brittany.",
+    "date": {
+      "display": "1938",
+      "precision": "year",
+      "sort_start": "1938-01-01",
+      "sort_end": "1938-12-31"
+    },
+    "location": "brittany",
+    "participants": [
+      {
+        "entity_id": "pierre_gadal",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "chen_et_al_2021",
+        "page": 3,
+        "quote": "P i e r r e   G a d a l   w a s   b o r n   i n   a   m o d e s t   f a m i l y   o f   f a r m e r s   i n   B r i t t a n y   i n   F r a n c e"
+      }
+    ]
+  },
+  {
+    "id": "gadal_phd_toulouse",
+    "event_type": "education",
+    "label": "Started PhD in Toulouse",
+    "description": "Started a PhD on galls and the metabolism of tannins in plants in the laboratory of Pr A. Brunel.",
+    "date": {
+      "display": "c. 1960s",
+      "precision": "decade",
+      "sort_start": "1960-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "location": "toulouse",
+    "participants": [
+      {
+        "entity_id": "pierre_gadal",
+        "role": "subject"
+      }
+    ],
+    "certainty": "approximate",
+    "sources": [
+      {
+        "source_id": "chen_et_al_2021",
+        "page": 3,
+        "quote": "s t a r t e d   a   P h D   o n   g a l l s   a n d   t h e   m e t a b o l i s m   o f   t a n n i n s   i n   p l a n t s   i n   t h e   l a b o r a t o r y   o f   P r   A .   B r u n e l   i n   T o u l o u s e"
+      }
+    ]
+  },
+  {
+    "id": "gadal_prof_nancy",
+    "event_type": "employment_start",
+    "label": "Became full professor at Nancy",
+    "description": "Became a full professor at Université de Nancy I in Lorraine.",
+    "date": {
+      "display": "1973",
+      "precision": "year",
+      "sort_start": "1973-01-01",
+      "sort_end": "1973-12-31"
+    },
+    "location": "nancy",
+    "participants": [
+      {
+        "entity_id": "pierre_gadal",
+        "role": "subject"
+      },
+      {
+        "entity_id": "universite_de_nancy_i",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "chen_et_al_2021",
+        "page": 3,
+        "quote": "H e   l a t e r   b e c a m e   a   f u l l   p r o f e s s o r   a t   U n i v e r s i t é   d e   N a n c y   I   i n   L o r r a i n e   ( 1 9 7 3 – 1 9 8 1 )"
+      }
+    ]
+  },
+  {
+    "id": "gadal_move_nancy",
+    "event_type": "relocation",
+    "label": "Moved lab to Nancy",
+    "description": "Moved the plant physiology laboratory to Nancy.",
+    "date": {
+      "display": "October 1974",
+      "precision": "month",
+      "sort_start": "1974-10-01",
+      "sort_end": "1974-10-31"
+    },
+    "location": "nancy",
+    "participants": [
+      {
+        "entity_id": "pierre_gadal",
+        "role": "subject"
+      },
+      {
+        "entity_id": "jean_vidal",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "chen_et_al_2021",
+        "page": 4,
+        "quote": "N a n c y ,   O c t o b e r   1 9 7 4"
+      }
+    ]
+  },
+  {
+    "id": "gadal_prof_orsay",
+    "event_type": "employment_start",
+    "label": "Became professor at Paris-Sud",
+    "description": "Became a full professor at Université de Paris-Sud Orsay.",
+    "date": {
+      "display": "1981",
+      "precision": "year",
+      "sort_start": "1981-01-01",
+      "sort_end": "1981-12-31"
+    },
+    "location": "orsay",
+    "participants": [
+      {
+        "entity_id": "pierre_gadal",
+        "role": "subject"
+      },
+      {
+        "entity_id": "universite_de_paris_sud",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "chen_et_al_2021",
+        "page": 3,
+        "quote": "a n d   f i n a l l y   a t   U n i v e r s i t é   d e   P a r i s - S u d   O r s a y   u n t i l   t h e   e n d   o f   h i s   c a r e e r   i n   2 0 0 3"
+      }
+    ]
+  },
+  {
+    "id": "gadal_move_orsay",
+    "event_type": "relocation",
+    "label": "Moved lab to Orsay",
+    "description": "Moved the laboratory from Nancy to Orsay.",
+    "date": {
+      "display": "October 1981",
+      "precision": "month",
+      "sort_start": "1981-10-01",
+      "sort_end": "1981-10-31"
+    },
+    "location": "orsay",
+    "participants": [
+      {
+        "entity_id": "pierre_gadal",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "chen_et_al_2021",
+        "page": 5,
+        "quote": "O r s a y ,   O c t o b e r   1 9 8 1"
+      }
+    ]
+  },
+  {
+    "id": "gadal_founded_ibp",
+    "event_type": "company_founded",
+    "label": "Founded Institut de Biotechnologie des Plantes",
+    "description": "Initiator and first director of the Institut de Biotechnologie des Plantes.",
+    "date": {
+      "display": "1994",
+      "precision": "year",
+      "sort_start": "1994-01-01",
+      "sort_end": "1994-12-31"
+    },
+    "location": "orsay",
+    "participants": [
+      {
+        "entity_id": "pierre_gadal",
+        "role": "subject"
+      },
+      {
+        "entity_id": "institut_de_biotechnologie_des_plantes",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "chen_et_al_2021",
+        "page": 6,
+        "quote": "T h e n   i n   1 9 9 4   c a m e   t h e   m o m e n t   t o   m o v e   f r o m   t h e   b a n k s   o f   t h e   Y v e t t e   r i v e r   t o   t h e   h e i g h t s   o f   t h e   S a c l a y   p l a t e a u   w h e r e   s t o o d   a   m a g n i f i c e n t   n e w   b u i l d i n g   c a l l e d   t h e   \" I n s t i t u t   d e   B i o t e c h n o l o g i e   d e s   P l a n t e s \""
+      }
+    ]
+  },
+  {
+    "id": "gadal_award_1998",
+    "event_type": "award",
+    "label": "Awarded French Academy of Sciences prize",
+    "description": "Awarded a state prize from the French Academy of Sciences.",
+    "date": {
+      "display": "1998",
+      "precision": "year",
+      "sort_start": "1998-01-01",
+      "sort_end": "1998-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pierre_gadal",
+        "role": "subject"
+      },
+      {
+        "entity_id": "french_academy_of_sciences",
+        "role": "awarding_body"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "chen_et_al_2021",
+        "page": 3,
+        "quote": "w a s   a w a r d e d   a   s t a t e   p r i z e   f r o m   t h e   F r e n c h   A c a d e m y   o f   S c i e n c e s   i n   1 9 9 8"
+      }
+    ]
+  },
+  {
+    "id": "gadal_aspb_2000",
+    "event_type": "award",
+    "label": "Elected ASPB Corresponding Member",
+    "description": "Elected as a Corresponding Member of the American Society of Plant Biologists.",
+    "date": {
+      "display": "2000",
+      "precision": "year",
+      "sort_start": "2000-01-01",
+      "sort_end": "2000-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pierre_gadal",
+        "role": "subject"
+      },
+      {
+        "entity_id": "american_society_of_plant_biologists",
+        "role": "awarding_body"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "chen_et_al_2021",
+        "page": 3,
+        "quote": "I n   2 0 0 0   h e   w a s   e l e c t e d   a s   a   C o r r e s p o n d i n g   M e m b e r   o f   t h e   A m e r i c a n   S o c i e t y   o f   P l a n t   B i o l o g i s t s"
+      }
+    ]
+  },
+  {
+    "id": "gadal_retirement",
+    "event_type": "retirement",
+    "label": "Retired from career",
+    "description": "Officially retired from his career.",
+    "date": {
+      "display": "2003",
+      "precision": "year",
+      "sort_start": "2003-01-01",
+      "sort_end": "2003-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pierre_gadal",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "chen_et_al_2021",
+        "page": 3,
+        "quote": "W h e n   h e   o f f i c i a l l y   r e t i r e d   i n   2 0 0 3"
+      }
+    ]
+  },
+  {
+    "id": "gadal_death",
+    "event_type": "death",
+    "label": "Died in October 2019",
+    "description": "Died after fighting a difficult disease.",
+    "date": {
+      "display": "October 2019",
+      "precision": "month",
+      "sort_start": "2019-10-01",
+      "sort_end": "2019-10-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pierre_gadal",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "chen_et_al_2021",
+        "page": 3,
+        "quote": "H e   d i e d   i n   O c t o b e r   2 0 1 9   a f t e r   f i g h t i n g   a   d i f f i c u l t   d i s e a s e"
+      }
+    ]
+  },
+  {
+    "id": "thioredoxin_discovery",
+    "event_type": "invention",
+    "label": "Discovery of thioredoxin heterogeneity",
+    "description": "Evidence obtained that leaves contained two different types of thioredoxin m and one type of thioredoxin f.",
+    "date": {
+      "display": "1978",
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pierre_gadal",
+        "role": "subject"
+      },
+      {
+        "entity_id": "jean_vidal",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "jean_pierre_jacquot",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "thioredoxin",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "chen_et_al_2021",
+        "page": 10,
+        "quote": "I n   s h o r t ,   w e   o b t a i n e d   e v i d e n c e   t h a t   l e a v e s   c o n t a i n e d   t w o   d i f f e r e n t   t y p e s   o f   t h i o r e d o x i n   m   a n d   o n e   t y p e   o f   t h i o r e d o x i n   f"
+      }
+    ]
+  }
+]

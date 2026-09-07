@@ -1,0 +1,205 @@
+[
+  {
+    "id": "gadal_born_brittany",
+    "source": "pierre_gadal",
+    "type": "born_in",
+    "target": "brittany",
+    "sources": [
+      {
+        "source_id": "chen_et_al_2021",
+        "page": 3,
+        "quote": "P i e r r e   G a d a l   w a s   b o r n   i n   a   m o d e s t   f a m i l y   o f   f a r m e r s   i n   B r i t t a n y"
+      }
+    ]
+  },
+  {
+    "id": "gadal_worked_nancy",
+    "source": "pierre_gadal",
+    "type": "worked_at",
+    "target": "universite_de_nancy_i",
+    "start": {
+      "display": "1973",
+      "precision": "year",
+      "sort_start": "1973-01-01",
+      "sort_end": "1973-12-31"
+    },
+    "end": {
+      "display": "1981",
+      "precision": "year",
+      "sort_start": "1981-01-01",
+      "sort_end": "1981-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "chen_et_al_2021",
+        "page": 3,
+        "quote": "H e   l a t e r   b e c a m e   a   f u l l   p r o f e s s o r   a t   U n i v e r s i t é   d e   N a n c y   I   i n   L o r r a i n e   ( 1 9 7 3 – 1 9 8 1 )"
+      }
+    ]
+  },
+  {
+    "id": "gadal_worked_orsay",
+    "source": "pierre_gadal",
+    "type": "worked_at",
+    "target": "universite_de_paris_sud",
+    "start": {
+      "display": "1981",
+      "precision": "year",
+      "sort_start": "1981-01-01",
+      "sort_end": "1981-12-31"
+    },
+    "end": {
+      "display": "2003",
+      "precision": "year",
+      "sort_start": "2003-01-01",
+      "sort_end": "2003-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "chen_et_al_2021",
+        "page": 3,
+        "quote": "a n d   f i n a l l y   a t   U n i v e r s i t é   d e   P a r i s - S u d   O r s a y   u n t i l   t h e   e n d   o f   h i s   c a r e e r   i n   2 0 0 3"
+      }
+    ]
+  },
+  {
+    "id": "gadal_employed_cnrs",
+    "source": "pierre_gadal",
+    "type": "employed_by",
+    "target": "cnrs",
+    "sources": [
+      {
+        "source_id": "chen_et_al_2021",
+        "page": 3,
+        "quote": "H e   h a s   h e a d e d   a   C N R S - a s s o c i a t e d   l a b"
+      }
+    ]
+  },
+  {
+    "id": "gadal_founded_ibp",
+    "source": "pierre_gadal",
+    "type": "founded",
+    "target": "institut_de_biotechnologie_des_plantes",
+    "event_id": "gadal_founded_ibp",
+    "sources": [
+      {
+        "source_id": "chen_et_al_2021",
+        "page": 3,
+        "quote": "b e c o m e   t h e   i n i t i a t o r   a n d   t h e   f i r s t   d i r e c t o r   o f   I n s t i t u t   d e   B i o t e c h n o l o g i e   d e s   P l a n t e s"
+      }
+    ]
+  },
+  {
+    "id": "gadal_awarded_academy",
+    "source": "pierre_gadal",
+    "type": "awarded",
+    "target": "french_academy_of_sciences",
+    "event_id": "gadal_award_1998",
+    "sources": [
+      {
+        "source_id": "chen_et_al_2021",
+        "page": 3,
+        "quote": "w a s   a w a r d e d   a   s t a t e   p r i z e   f r o m   t h e   F r e n c h   A c a d e m y   o f   S c i e n c e s   i n   1 9 9 8"
+      }
+    ]
+  },
+  {
+    "id": "gadal_member_aspb",
+    "source": "pierre_gadal",
+    "type": "member_of",
+    "target": "american_society_of_plant_biologists",
+    "start": {
+      "display": "2000",
+      "precision": "year",
+      "sort_start": "2000-01-01",
+      "sort_end": "2000-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "chen_et_al_2021",
+        "page": 3,
+        "quote": "I n   2 0 0 0   h e   w a s   e l e c t e d   a s   a   C o r r e s p o n d i n g   M e m b e r   o f   t h e   A m e r i c a n   S o c i e t y   o f   P l a n t   B i o l o g i s t s"
+      }
+    ]
+  },
+  {
+    "id": "gadal_collab_buchanan",
+    "source": "pierre_gadal",
+    "type": "collaborated_with",
+    "target": "bob_buchanan",
+    "sources": [
+      {
+        "source_id": "chen_et_al_2021",
+        "page": 11,
+        "quote": "M e a n w h i l e   P i e r r e   G a d a l   h a d   a t t e n d e d   t h e   i n t e r n a t i o n a l   p h o t o s y n t h e s i s   c o n g r e s s   i n   R e a d i n g   i n   1 9 7 7   w h e r e   h e   m e t   B o b   B u c h a n a n   f o r   t h e   f i r s t   t i m e"
+      }
+    ]
+  },
+  {
+    "id": "gadal_supervised_vidal",
+    "source": "pierre_gadal",
+    "type": "supervised_by",
+    "target": "jean_vidal",
+    "note": "Vidal was a student/colleague supervised by Gadal.",
+    "sources": [
+      {
+        "source_id": "chen_et_al_2021",
+        "page": 4,
+        "quote": "P G   a s k e d   t h e   n e w l y   g r a d u a t e d   P h D   s t u d e n t   t h a t   I   w a s"
+      }
+    ]
+  },
+  {
+    "id": "gadal_supervised_jacquot",
+    "source": "pierre_gadal",
+    "type": "supervised_by",
+    "target": "jean_pierre_jacquot",
+    "note": "Jacquot was a student supervised by Gadal.",
+    "sources": [
+      {
+        "source_id": "chen_et_al_2021",
+        "page": 9,
+        "quote": "I   h a d   t w o   s u p e r v i s o r s   a   s e n i o r   p r o f e s s o r   P i e r r e   G a d a l   a n d   a   m o r e   j u n i o r   C N R S   r e s e a r c h e r   J e a n   V i d a l"
+      }
+    ]
+  },
+  {
+    "id": "gadal_developed_pepc",
+    "source": "pierre_gadal",
+    "type": "developed",
+    "target": "pep_carboxylase",
+    "sources": [
+      {
+        "source_id": "chen_et_al_2021",
+        "page": 3,
+        "quote": "H i s   m a j o r   s c i e n t i f i c   c o n t r i b u t i o n s   w e r e   l i n k e d   t o   t h e   e l u c i d a t i o n   o f   t h e   r e g u l a t i o n   o f   C O 2   f i x a t i o n   i n   p l a n t s   t h r o u g h   t h e   s t u d y   o f   P E P   c a r b o x y l a s e"
+      }
+    ]
+  },
+  {
+    "id": "gadal_developed_nadp_mdh",
+    "source": "pierre_gadal",
+    "type": "developed",
+    "target": "nadp_malate_dehydrogenase",
+    "sources": [
+      {
+        "source_id": "chen_et_al_2021",
+        "page": 3,
+        "quote": "a n d   N A D P - m a l a t e   d e h y d r o g e n a s e"
+      }
+    ]
+  },
+  {
+    "id": "gadal_developed_thioredoxin",
+    "source": "pierre_gadal",
+    "type": "developed",
+    "target": "thioredoxin",
+    "sources": [
+      {
+        "source_id": "chen_et_al_2021",
+        "page": 10,
+        "quote": "w e   o b t a i n e d   e v i d e n c e   t h a t   l e a v e s   c o n t a i n e d   t w o   d i f f e r e n t   t y p e s   o f   t h i o r e d o x i n"
+      }
+    ]
+  }
+]

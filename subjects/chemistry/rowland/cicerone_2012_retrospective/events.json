@@ -1,0 +1,298 @@
+[
+  {
+    "id": "rowland_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1927",
+      "precision": "year",
+      "sort_start": "1927-01-01",
+      "sort_end": "1927-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "f_sherwood_rowland",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cicerone_2012_retrospective",
+        "page": 1,
+        "quote": "F. Sherwood Rowland (1927-2012)."
+      }
+    ]
+  },
+  {
+    "id": "rowland_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "10 March 2012",
+      "precision": "day",
+      "sort_start": "2012-03-10",
+      "sort_end": "2012-03-10"
+    },
+    "participants": [
+      {
+        "entity_id": "f_sherwood_rowland",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cicerone_2012_retrospective",
+        "page": 2,
+        "quote": "F. Sherwood (\"Sherry\") Rowland died on 10 March at age 84."
+      }
+    ]
+  },
+  {
+    "id": "aecom_conference_1972",
+    "event_type": "conference",
+    "label": "Attended Atomic Energy Commission conference",
+    "date": {
+      "display": "1972",
+      "precision": "year",
+      "sort_start": "1972-01-01",
+      "sort_end": "1972-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "f_sherwood_rowland",
+        "role": "subject"
+      },
+      {
+        "entity_id": "atomic_energy_commission",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cicerone_2012_retrospective",
+        "page": 2,
+        "quote": "At a 1972 Atomic Energy Commission conference, Rowland heard that James Lovelock had detected CFC-11 in air over the North and South Atlantic Ocean."
+      }
+    ]
+  },
+  {
+    "id": "molina_joins_rowland",
+    "event_type": "employment_start",
+    "label": "Molina joined Rowland at UC Irvine",
+    "date": {
+      "display": "1973",
+      "precision": "year",
+      "sort_start": "1973-01-01",
+      "sort_end": "1973-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mario_j_molina",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "f_sherwood_rowland",
+        "role": "subject"
+      },
+      {
+        "entity_id": "uc_irvine",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cicerone_2012_retrospective",
+        "page": 2,
+        "quote": "In 1973, one of us (M.J.M.) joined Rowland at the University of California (UC) at Irvine."
+      }
+    ]
+  },
+  {
+    "id": "cfc_paper_published",
+    "event_type": "publication",
+    "label": "First paper on CFC ozone depletion published",
+    "date": {
+      "display": "1974",
+      "precision": "year",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "f_sherwood_rowland",
+        "role": "subject"
+      },
+      {
+        "entity_id": "mario_j_molina",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cicerone_2012_retrospective",
+        "page": 2,
+        "quote": "publicized these results at a press conference in September 1974, soon after their first paper on the topic was published."
+      }
+    ]
+  },
+  {
+    "id": "cfc_press_conference",
+    "event_type": "public_demonstration",
+    "label": "Held press conference on CFC results",
+    "date": {
+      "display": "September 1974",
+      "precision": "month",
+      "sort_start": "1974-09-01",
+      "sort_end": "1974-09-30"
+    },
+    "participants": [
+      {
+        "entity_id": "f_sherwood_rowland",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cicerone_2012_retrospective",
+        "page": 2,
+        "quote": "publicized these results at a press conference in September 1974, soon after their first paper on the topic was published."
+      }
+    ]
+  },
+  {
+    "id": "legislative_hearings",
+    "event_type": "meeting",
+    "label": "Testified at legislative hearings",
+    "date": {
+      "display": "1974–1978",
+      "precision": "range",
+      "sort_start": "1974-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "f_sherwood_rowland",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cicerone_2012_retrospective",
+        "page": 2,
+        "quote": "A great deal of media and public attention in CFCs ensued, especially between 1974 and 1978, including hearings in state legislatures, city councils, and the U.S. Congress."
+      }
+    ]
+  },
+  {
+    "id": "senate_hearing_1986",
+    "event_type": "meeting",
+    "label": "Testified at U.S. Senate hearing",
+    "date": {
+      "display": "1986",
+      "precision": "year",
+      "sort_start": "1986-01-01",
+      "sort_end": "1986-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "f_sherwood_rowland",
+        "role": "subject"
+      },
+      {
+        "entity_id": "us_senate",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cicerone_2012_retrospective",
+        "page": 2,
+        "quote": "nowhere more so than in a tense 1986 U.S. Senate hearing."
+      }
+    ]
+  },
+  {
+    "id": "aaas_presidency",
+    "event_type": "role_change",
+    "label": "Served as AAAS President",
+    "date": {
+      "display": "1993 to 1994",
+      "precision": "range",
+      "sort_start": "1993-01-01",
+      "sort_end": "1994-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "f_sherwood_rowland",
+        "role": "subject"
+      },
+      {
+        "entity_id": "aaas",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cicerone_2012_retrospective",
+        "page": 2,
+        "quote": "Along the way, he was President of the American Association for the Advancement of Science (1993 to 1994);"
+      }
+    ]
+  },
+  {
+    "id": "nas_foreign_secretary",
+    "event_type": "role_change",
+    "label": "Served as NAS Foreign Secretary",
+    "date": {
+      "display": "1994 to 2002",
+      "precision": "range",
+      "sort_start": "1994-01-01",
+      "sort_end": "2002-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "f_sherwood_rowland",
+        "role": "subject"
+      },
+      {
+        "entity_id": "us_national_academy_of_sciences",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cicerone_2012_retrospective",
+        "page": 2,
+        "quote": "He also served as foreign secretary of the U.S. National Academy of Sciences (1994 to 2002),"
+      }
+    ]
+  },
+  {
+    "id": "nobel_prize_1995",
+    "event_type": "award",
+    "label": "Awarded Nobel Prize in Chemistry",
+    "date": {
+      "display": "1995",
+      "precision": "year",
+      "sort_start": "1995-01-01",
+      "sort_end": "1995-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "f_sherwood_rowland",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize_in_chemistry",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cicerone_2012_retrospective",
+        "page": 2,
+        "quote": "In 1995, he was awarded the Nobel Prize in Chemistry (with Paul J. Crutzen and Mario J. Molina)."
+      }
+    ]
+  }
+]

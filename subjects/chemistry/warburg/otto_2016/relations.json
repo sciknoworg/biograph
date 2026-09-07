@@ -1,0 +1,194 @@
+[
+  {
+    "id": "otto_born_freiburg",
+    "source": "otto_warburg",
+    "type": "born_in",
+    "target": "freiburg_in_breisgau",
+    "event_id": "birth",
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 2,
+        "quote": "Otto Heinrich Warburg ... was born on October 8, 1883 in Freiburg in Breisgau"
+      }
+    ]
+  },
+  {
+    "id": "otto_studied_freiburg",
+    "source": "otto_warburg",
+    "type": "studied_at",
+    "target": "university_of_freiburg",
+    "event_id": "study_freiburg",
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 2,
+        "quote": "enroll at the University of Freiburg"
+      }
+    ]
+  },
+  {
+    "id": "otto_studied_berlin",
+    "source": "otto_warburg",
+    "type": "studied_at",
+    "target": "university_of_berlin",
+    "event_id": "study_berlin",
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 2,
+        "quote": "returned in 1903 to become a student of Emil Fischer"
+      }
+    ]
+  },
+  {
+    "id": "otto_educated_fischer",
+    "source": "otto_warburg",
+    "type": "educated_by",
+    "target": "emil_fischer",
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 2,
+        "quote": "become a student of Emil Fischer"
+      }
+    ]
+  },
+  {
+    "id": "otto_studied_heidelberg",
+    "source": "otto_warburg",
+    "type": "studied_at",
+    "target": "university_of_heidelberg",
+    "event_id": "study_heidelberg",
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 2,
+        "quote": "went to the University of Heidelberg to study medicine"
+      }
+    ]
+  },
+  {
+    "id": "otto_worked_kwi",
+    "source": "otto_warburg",
+    "type": "worked_at",
+    "target": "kaiser_wilhelm_institute",
+    "event_id": "kwi_appointment",
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 3,
+        "quote": "Otto Warburg came to be a member of the KWI"
+      }
+    ]
+  },
+  {
+    "id": "otto_collaborated_meyerhof",
+    "source": "otto_warburg",
+    "type": "collaborated_with",
+    "target": "otto_meyerhof",
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 2,
+        "quote": "often along with Meyerhof, he visited the Marine Station in Naples"
+      }
+    ]
+  },
+  {
+    "id": "otto_mentored_krebs",
+    "source": "otto_warburg",
+    "type": "mentored",
+    "target": "hans_krebs",
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 3,
+        "quote": "Hans Krebs, who worked in Warburg's lab from 1926 to 1930"
+      }
+    ]
+  },
+  {
+    "id": "otto_worked_cell_phys",
+    "source": "otto_warburg",
+    "type": "worked_at",
+    "target": "institute_of_cell_physiology",
+    "event_id": "institute_inaugurated",
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 5,
+        "quote": "Otto Warburg became to be its one and only director"
+      }
+    ]
+  },
+  {
+    "id": "otto_founded_cell_phys",
+    "source": "otto_warburg",
+    "type": "founded",
+    "target": "institute_of_cell_physiology",
+    "event_id": "institute_inaugurated",
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 5,
+        "quote": "Otto Warburg became to be its one and only director"
+      }
+    ]
+  },
+  {
+    "id": "otto_awarded_nobel",
+    "source": "otto_warburg",
+    "type": "awarded",
+    "target": "nobel_prize",
+    "event_id": "nobel_prize",
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 1,
+        "quote": "he received the Nobel Prize in 1931"
+      }
+    ]
+  },
+  {
+    "id": "otto_invented_warburg_effect",
+    "source": "otto_warburg",
+    "type": "invented",
+    "target": "warburg_effect",
+    "event_id": "tumor_metabolism_obs",
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 1,
+        "quote": "familiar with the \"Warburg effect\", i.e., anaerobic glycolysis in the presence of oxygen in tumor cells"
+      }
+    ]
+  },
+  {
+    "id": "otto_worked_max_planck",
+    "source": "otto_warburg",
+    "type": "worked_at",
+    "target": "max_planck_institute",
+    "event_id": "max_planck_conversion",
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 6,
+        "quote": "where he continued working until his death in 1970"
+      }
+    ]
+  },
+  {
+    "id": "emil_father_otto",
+    "source": "otto_warburg",
+    "type": "family_of",
+    "target": "emil_warburg",
+    "sources": [
+      {
+        "source_id": "otto_2016",
+        "page": 2,
+        "quote": "His father, Emil Warburg"
+      }
+    ]
+  }
+]

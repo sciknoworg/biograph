@@ -1,0 +1,186 @@
+[
+  {
+    "id": "otto_warburg_son_of_emil_warburg",
+    "source": "otto_warburg",
+    "type": "family_of",
+    "target": "emil_warburg",
+    "note": "Emil Warburg was Otto's father.",
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 110,
+        "quote": "it was his father, Emil, who introduced this concept to science in 1917"
+      }
+    ]
+  },
+  {
+    "id": "otto_warburg_collaborated_with_erwin_negelein",
+    "source": "otto_warburg",
+    "type": "collaborated_with",
+    "target": "erwin_negelein",
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 110,
+        "quote": "which he co-authored with his long-standing collaborator Erwin Negelein"
+      }
+    ]
+  },
+  {
+    "id": "otto_warburg_worked_at_ptr",
+    "source": "otto_warburg",
+    "type": "worked_at",
+    "target": "physikalisch_technische_reichsanstalt",
+    "start": {
+      "display": "c. 1919",
+      "precision": "circa",
+      "sort_start": "1919-01-01",
+      "sort_end": "1919-12-31"
+    },
+    "note": "Many photosynthesis experiments were carried out in his father's laboratory at PTR.",
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 113,
+        "quote": "many of his photosynthesis experiments of the time—at the very least, his light intensity measurements—were carried out in his father's laboratory"
+      }
+    ]
+  },
+  {
+    "id": "emil_warburg_led_ptr",
+    "source": "emil_warburg",
+    "type": "employed_by",
+    "target": "physikalisch_technische_reichsanstalt",
+    "note": "PTR was led by Otto Warburg's father Emil Warburg at that time.",
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 113,
+        "quote": "which, at that time, was led by Otto Warburg's father Emil Warburg"
+      }
+    ]
+  },
+  {
+    "id": "otto_warburg_awarded_nobel_prize",
+    "source": "otto_warburg",
+    "type": "awarded",
+    "target": "nobel_prize_physiology_medicine",
+    "event_id": "warburg_nobel_prize_awarded",
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 109,
+        "quote": "The Nobel Prize in Physiology or Medicine was awarded to Warburg in 1931"
+      }
+    ]
+  },
+  {
+    "id": "otto_warburg_published_warburg_1919_paper",
+    "source": "otto_warburg",
+    "type": "published",
+    "target": "warburg_1919_paper",
+    "event_id": "warburg_photosynthesis_paper_1_pub",
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 110,
+        "quote": "Both articles were entitled ''On the rate of photochemical carbonic acid decomposition''"
+      }
+    ]
+  },
+  {
+    "id": "otto_warburg_published_warburg_1920_paper",
+    "source": "otto_warburg",
+    "type": "published",
+    "target": "warburg_1920_paper",
+    "event_id": "warburg_photosynthesis_paper_2_pub",
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 110,
+        "quote": "Both articles were entitled ''On the rate of photochemical carbonic acid decomposition''"
+      }
+    ]
+  },
+  {
+    "id": "otto_warburg_published_warburg_1921_paper",
+    "source": "otto_warburg",
+    "type": "published",
+    "target": "warburg_1921_paper",
+    "event_id": "warburg_photosynthesis_synopsis_pub",
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 110,
+        "quote": "In 1921, Warburg additionally gave a much shorter synopsis of his findings"
+      }
+    ]
+  },
+  {
+    "id": "otto_warburg_published_warburg_negelein_1922_paper",
+    "source": "otto_warburg",
+    "type": "published",
+    "target": "warburg_negelein_1922_paper",
+    "event_id": "warburg_quantum_yield_paper_pub",
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 110,
+        "quote": "It was only in 1922 that Warburg published his first account of the quantum yield of the process"
+      }
+    ]
+  },
+  {
+    "id": "otto_warburg_published_warburg_negelein_1923_paper",
+    "source": "otto_warburg",
+    "type": "published",
+    "target": "warburg_negelein_1923_paper",
+    "event_id": "warburg_wavelength_paper_pub",
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 110,
+        "quote": "this was followed in 1923 by a second paper on the influence of the wavelength of light on photosynthetic efficiency"
+      }
+    ]
+  },
+  {
+    "id": "richard_willstaetter_collaborated_with_arthur_stoll",
+    "source": "richard_willstaetter",
+    "type": "collaborated_with",
+    "target": "arthur_stoll",
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 118,
+        "quote": "Willstätter and his long-standing collaborator Arthur Stoll"
+      }
+    ]
+  },
+  {
+    "id": "frederick_blackman_collaborated_with_gabrielle_matthaei",
+    "source": "frederick_blackman",
+    "type": "collaborated_with",
+    "target": "gabrielle_matthaei",
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 109,
+        "quote": "findings of Frederick F. Blackman (1866–1947) and Gabrielle L. C. Matthaei"
+      }
+    ]
+  },
+  {
+    "id": "horace_brown_collaborated_with_f_escombe",
+    "source": "horace_brown",
+    "type": "collaborated_with",
+    "target": "f_escombe",
+    "sources": [
+      {
+        "source_id": "nickelsen_2007",
+        "page": 113,
+        "quote": "work of the English plant physiologist Horace Brown (1848–1925) and his collaborator F. Escombe"
+      }
+    ]
+  }
+]

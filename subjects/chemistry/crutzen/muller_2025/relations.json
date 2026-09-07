@@ -1,0 +1,125 @@
+[
+  {
+    "id": "paul_born_amsterdam",
+    "source": "paul_crutzen",
+    "type": "born_in",
+    "target": "amsterdam",
+    "event_id": "birth",
+    "sources": [
+      {
+        "source_id": "muller_2025",
+        "page": 32,
+        "quote": "Paul Jozef Crutzen was born in Amsterdam on 3 December 1933."
+      }
+    ]
+  },
+  {
+    "id": "paul_married_terttu",
+    "source": "paul_crutzen",
+    "type": "married_to",
+    "target": "terttu_soininen",
+    "event_id": "marriage",
+    "sources": [
+      {
+        "source_id": "muller_2025",
+        "page": 32,
+        "quote": "On 14 February 1958, in Amsterdam, he married Terttu Soininen."
+      }
+    ]
+  },
+  {
+    "id": "paul_worked_stockholm",
+    "source": "paul_crutzen",
+    "type": "worked_at",
+    "target": "meteorological_institute_stockholm",
+    "sources": [
+      {
+        "source_id": "muller_2025",
+        "page": 32,
+        "quote": "Paul initially took a position at the Meteorological Institute of Stockholm to work in computing."
+      }
+    ]
+  },
+  {
+    "id": "paul_worked_ncar",
+    "source": "paul_crutzen",
+    "type": "worked_at",
+    "target": "ncar",
+    "event_id": "employment_noaa_ncar",
+    "sources": [
+      {
+        "source_id": "muller_2025",
+        "page": 33,
+        "quote": "he first took positions at both NOAA (National Oceanic and Atmospheric Administration) and NCAR (National Center for Atmospheric Research)."
+      }
+    ]
+  },
+  {
+    "id": "paul_worked_mpic",
+    "source": "paul_crutzen",
+    "type": "worked_at",
+    "target": "mpic",
+    "event_id": "employment_mpic",
+    "sources": [
+      {
+        "source_id": "muller_2025",
+        "page": 33,
+        "quote": "In 1980, he moved back to Europe and accepted the position of director of the Air Chemistry Department at the Max Planck Institute for Chemistry (MPIC) in Mainz"
+      }
+    ]
+  },
+  {
+    "id": "paul_awarded_nobel",
+    "source": "paul_crutzen",
+    "type": "awarded",
+    "target": "nobel_prize_chemistry_1995",
+    "event_id": "award_nobel",
+    "sources": [
+      {
+        "source_id": "muller_2025",
+        "page": 32,
+        "quote": "on the occasion of the 1995 Nobel Prize in Chemistry, which he shared with Mario J. Molina and F. Sherwood Rowland"
+      }
+    ]
+  },
+  {
+    "id": "paul_died_mainz",
+    "source": "paul_crutzen",
+    "type": "died_in",
+    "target": "mainz",
+    "event_id": "death",
+    "sources": [
+      {
+        "source_id": "muller_2025",
+        "page": 32,
+        "quote": "Paul passed away in Mainz on 28 January 2021."
+      }
+    ]
+  },
+  {
+    "id": "paul_collaborated_birks",
+    "source": "paul_crutzen",
+    "type": "collaborated_with",
+    "target": "john_birks",
+    "sources": [
+      {
+        "source_id": "muller_2025",
+        "page": 34,
+        "quote": "During this period, Paul, together with John Birks, was busy investigating the impact of a hypothetical nuclear war on the atmosphere"
+      }
+    ]
+  },
+  {
+    "id": "paul_mentored_burrows",
+    "source": "paul_crutzen",
+    "type": "mentored",
+    "target": "john_burrows",
+    "sources": [
+      {
+        "source_id": "muller_2025",
+        "page": 35,
+        "quote": "Paul was a great mentor."
+      }
+    ]
+  }
+]

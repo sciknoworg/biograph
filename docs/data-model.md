@@ -6,12 +6,18 @@ JSON files validated against `schema/`. `subject.json` sits above them
 and describes the person, not any one paper:
 
 ```
-subjects/suntola/
-  subject.json                  canonical name + slug
-  puurunen_2014/                one document's extraction
-    entities.json  events.json  relations.json  sources.json
-  aris_2019/                    a second account of the same life
+subjects/materials_science/       the collection this person was found for
+  suntola/
+    subject.json                  canonical name + slug + domains[]
+    puurunen_2014/                one document's extraction
+      entities.json  events.json  relations.json  sources.json
+    aris_2019/                    a second account of the same life
 ```
+
+The domain folder is *location*; the slug is identity and stays unique across
+domains, so a person reachable from two taxonomies is one subject that gains a
+second document. `subject.json`'s `domains` array records every collection that
+claimed them. See [Defining a domain](defining-a-domain.md).
 
 This page is the field-level reference; [Adding a new subject](adding-a-subject.md)
 walks through producing them from a source paper.

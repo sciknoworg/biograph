@@ -1,0 +1,328 @@
+[
+  {
+    "id": "birth",
+    "event_type": "birth",
+    "label": "Born in Amsterdam",
+    "date": {
+      "display": "3 December 1933",
+      "precision": "day",
+      "sort_start": "1933-12-03",
+      "sort_end": "1933-12-03"
+    },
+    "location": "amsterdam",
+    "participants": [
+      {
+        "entity_id": "paul_crutzen",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "muller_2025",
+        "page": 32,
+        "quote": "Paul Jozef Crutzen was born in Amsterdam on 3 December 1933."
+      }
+    ]
+  },
+  {
+    "id": "marriage",
+    "event_type": "other",
+    "label": "Married Terttu Soininen",
+    "date": {
+      "display": "14 February 1958",
+      "precision": "day",
+      "sort_start": "1958-02-14",
+      "sort_end": "1958-02-14"
+    },
+    "location": "amsterdam",
+    "participants": [
+      {
+        "entity_id": "paul_crutzen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "terttu_soininen",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "muller_2025",
+        "page": 32,
+        "quote": "On 14 February 1958, in Amsterdam, he married Terttu Soininen."
+      }
+    ]
+  },
+  {
+    "id": "relocation_stockholm",
+    "event_type": "relocation",
+    "label": "Moved to Stockholm",
+    "date": {
+      "display": "1 July 1959",
+      "precision": "day",
+      "sort_start": "1959-07-01",
+      "sort_end": "1959-07-01"
+    },
+    "location": "stockholm",
+    "participants": [
+      {
+        "entity_id": "paul_crutzen",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "muller_2025",
+        "page": 32,
+        "quote": "On 1 July 1959, Terttu and Paul moved to Stockholm."
+      }
+    ]
+  },
+  {
+    "id": "education_stockholm",
+    "event_type": "education",
+    "label": "Completed Filosofie doktor",
+    "date": {
+      "display": "1973",
+      "precision": "year",
+      "sort_start": "1973-01-01",
+      "sort_end": "1973-12-31"
+    },
+    "location": "stockholm",
+    "participants": [
+      {
+        "entity_id": "paul_crutzen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "meteorological_institute_stockholm",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "muller_2025",
+        "page": 33,
+        "quote": "In 1973, he completed the \"Filosofie doktor\", which is roughly equivalent to a habilitation"
+      }
+    ]
+  },
+  {
+    "id": "relocation_boulder",
+    "event_type": "relocation",
+    "label": "Moved to Boulder, Colorado",
+    "date": {
+      "display": "1974",
+      "precision": "year",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-12-31"
+    },
+    "location": "boulder",
+    "participants": [
+      {
+        "entity_id": "paul_crutzen",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "muller_2025",
+        "page": 33,
+        "quote": "In 1974, along with his family, Paul moved to Boulder, Colorado (USA)"
+      }
+    ]
+  },
+  {
+    "id": "employment_noaa_ncar",
+    "event_type": "employment_start",
+    "label": "Started at NOAA and NCAR",
+    "date": {
+      "display": "1974",
+      "precision": "year",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-12-31"
+    },
+    "location": "boulder",
+    "participants": [
+      {
+        "entity_id": "paul_crutzen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "noaa",
+        "role": "employer"
+      },
+      {
+        "entity_id": "ncar",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "muller_2025",
+        "page": 33,
+        "quote": "he first took positions at both NOAA (National Oceanic and Atmospheric Administration) and NCAR (National Center for Atmospheric Research)."
+      }
+    ]
+  },
+  {
+    "id": "role_change_ncar",
+    "event_type": "role_change",
+    "label": "Became director at NCAR",
+    "date": {
+      "display": "1977",
+      "precision": "year",
+      "sort_start": "1977-01-01",
+      "sort_end": "1977-12-31"
+    },
+    "location": "boulder",
+    "participants": [
+      {
+        "entity_id": "paul_crutzen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ncar",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "muller_2025",
+        "page": 33,
+        "quote": "Later, in 1977, he became a director at NCAR."
+      }
+    ]
+  },
+  {
+    "id": "relocation_mainz",
+    "event_type": "relocation",
+    "label": "Moved to Mainz",
+    "date": {
+      "display": "1980",
+      "precision": "year",
+      "sort_start": "1980-01-01",
+      "sort_end": "1980-12-31"
+    },
+    "location": "mainz",
+    "participants": [
+      {
+        "entity_id": "paul_crutzen",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "muller_2025",
+        "page": 33,
+        "quote": "In 1980, he moved back to Europe and accepted the position of director of the Air Chemistry Department at the Max Planck Institute for Chemistry (MPIC) in Mainz"
+      }
+    ]
+  },
+  {
+    "id": "employment_mpic",
+    "event_type": "employment_start",
+    "label": "Director at MPIC",
+    "date": {
+      "display": "1980",
+      "precision": "year",
+      "sort_start": "1980-01-01",
+      "sort_end": "1980-12-31"
+    },
+    "location": "mainz",
+    "participants": [
+      {
+        "entity_id": "paul_crutzen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "mpic",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "muller_2025",
+        "page": 33,
+        "quote": "In 1980, he moved back to Europe and accepted the position of director of the Air Chemistry Department at the Max Planck Institute for Chemistry (MPIC) in Mainz"
+      }
+    ]
+  },
+  {
+    "id": "award_nobel",
+    "event_type": "award",
+    "label": "Awarded Nobel Prize in Chemistry",
+    "date": {
+      "display": "1995",
+      "precision": "year",
+      "sort_start": "1995-01-01",
+      "sort_end": "1995-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "paul_crutzen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize_chemistry_1995",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "muller_2025",
+        "page": 32,
+        "quote": "on the occasion of the 1995 Nobel Prize in Chemistry, which he shared with Mario J. Molina and F. Sherwood Rowland"
+      }
+    ]
+  },
+  {
+    "id": "visit_julich",
+    "event_type": "visit",
+    "label": "Visit to Jülich",
+    "date": {
+      "display": "15 February 1996",
+      "precision": "day",
+      "sort_start": "1996-02-15",
+      "sort_end": "1996-02-15"
+    },
+    "participants": [
+      {
+        "entity_id": "paul_crutzen",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "muller_2025",
+        "page": 33,
+        "quote": "On the occasion of his visit to Jülich on 15 February 1996"
+      }
+    ]
+  },
+  {
+    "id": "death",
+    "event_type": "death",
+    "label": "Died in Mainz",
+    "date": {
+      "display": "28 January 2021",
+      "precision": "day",
+      "sort_start": "2021-01-28",
+      "sort_end": "2021-01-28"
+    },
+    "location": "mainz",
+    "participants": [
+      {
+        "entity_id": "paul_crutzen",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "muller_2025",
+        "page": 32,
+        "quote": "Paul passed away in Mainz on 28 January 2021."
+      }
+    ]
+  }
+]

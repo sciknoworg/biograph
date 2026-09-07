@@ -1,0 +1,245 @@
+[
+  {
+    "id": "vincent_du_vigneaud",
+    "entity_type": "person",
+    "name": "Vincent du Vigneaud",
+    "aliases": [
+      "du Vigneaud"
+    ],
+    "summary": "American biochemist known for sulfur chemistry and peptide synthesis.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "chicago",
+    "entity_type": "place",
+    "name": "Chicago",
+    "aliases": [],
+    "summary": "City in Illinois, United States.",
+    "subtype": "city",
+    "attributes": {
+      "country": "United States"
+    }
+  },
+  {
+    "id": "university_of_illinois_at_urbana",
+    "entity_type": "organization",
+    "name": "University of Illinois at Urbana",
+    "aliases": [
+      "Urbana"
+    ],
+    "summary": "Public research university in Illinois.",
+    "subtype": "university"
+  },
+  {
+    "id": "university_of_rochester",
+    "entity_type": "organization",
+    "name": "University of Rochester",
+    "aliases": [],
+    "summary": "Private research university in New York.",
+    "subtype": "university"
+  },
+  {
+    "id": "zella_du_vigneaud",
+    "entity_type": "person",
+    "name": "Zella du Vigneaud",
+    "aliases": [
+      "Zella"
+    ],
+    "summary": "Wife of Vincent du Vigneaud.",
+    "subtype": "family"
+  },
+  {
+    "id": "j_j_abel",
+    "entity_type": "person",
+    "name": "J. J. Abel",
+    "aliases": [],
+    "summary": "Biochemist at Johns Hopkins.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "johns_hopkins",
+    "entity_type": "organization",
+    "name": "Johns Hopkins",
+    "aliases": [],
+    "summary": "University in Baltimore, Maryland.",
+    "subtype": "university"
+  },
+  {
+    "id": "baltimore",
+    "entity_type": "place",
+    "name": "Baltimore",
+    "aliases": [],
+    "summary": "City in Maryland, United States.",
+    "subtype": "city"
+  },
+  {
+    "id": "europe",
+    "entity_type": "place",
+    "name": "Europe",
+    "aliases": [],
+    "summary": "Continent.",
+    "subtype": "continent"
+  },
+  {
+    "id": "george_washington_university",
+    "entity_type": "organization",
+    "name": "George Washington University School of Medicine",
+    "aliases": [
+      "George Washington University"
+    ],
+    "summary": "Medical school in Washington, D.C.",
+    "subtype": "university"
+  },
+  {
+    "id": "cornell_medical_college",
+    "entity_type": "organization",
+    "name": "Cornell Medical College",
+    "aliases": [],
+    "summary": "Medical school of Cornell University in New York City.",
+    "subtype": "university"
+  },
+  {
+    "id": "new_york_city",
+    "entity_type": "place",
+    "name": "New York City",
+    "aliases": [],
+    "summary": "City in New York, United States.",
+    "subtype": "city"
+  },
+  {
+    "id": "mildred_cohn",
+    "entity_type": "person",
+    "name": "Mildred Cohn",
+    "aliases": [],
+    "summary": "Biochemist and collaborator of du Vigneaud.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "sofia_simmonds",
+    "entity_type": "person",
+    "name": "Sofia Simmonds",
+    "aliases": [],
+    "summary": "Biochemist and collaborator of du Vigneaud.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "joseph_chandler",
+    "entity_type": "person",
+    "name": "Joseph Chandler",
+    "aliases": [],
+    "summary": "Biochemist and collaborator of du Vigneaud.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "robert_w_holley",
+    "entity_type": "person",
+    "name": "Robert W. Holley",
+    "aliases": [],
+    "summary": "Scientist who aided du Vigneaud in penicillin work.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "cornell_university",
+    "entity_type": "organization",
+    "name": "Cornell University",
+    "aliases": [],
+    "summary": "Private research university in Ithaca, New York.",
+    "subtype": "university"
+  },
+  {
+    "id": "ithaca",
+    "entity_type": "place",
+    "name": "Ithaca",
+    "aliases": [],
+    "summary": "City in New York, United States.",
+    "subtype": "city"
+  },
+  {
+    "id": "st_agnes_hospital",
+    "entity_type": "organization",
+    "name": "St. Agnes Hospital",
+    "aliases": [],
+    "summary": "Hospital in White Plains, New York.",
+    "subtype": "hospital"
+  },
+  {
+    "id": "white_plains",
+    "entity_type": "place",
+    "name": "White Plains",
+    "aliases": [],
+    "summary": "City in New York, United States.",
+    "subtype": "city"
+  },
+  {
+    "id": "nobel_prize_in_chemistry",
+    "entity_type": "artifact",
+    "name": "Nobel Prize in Chemistry",
+    "aliases": [],
+    "summary": "Prestigious international award in chemistry.",
+    "subtype": "award"
+  },
+  {
+    "id": "lasker_award",
+    "entity_type": "artifact",
+    "name": "Lasker Award",
+    "aliases": [],
+    "summary": "Medical science award.",
+    "subtype": "award"
+  },
+  {
+    "id": "passano_award",
+    "entity_type": "artifact",
+    "name": "Passano Award",
+    "aliases": [],
+    "summary": "Medical research award.",
+    "subtype": "award"
+  },
+  {
+    "id": "oxytocin",
+    "entity_type": "artifact",
+    "name": "oxytocin",
+    "aliases": [],
+    "summary": "Pituitary hormone synthesized by du Vigneaud.",
+    "subtype": "chemical"
+  },
+  {
+    "id": "vasopressin",
+    "entity_type": "artifact",
+    "name": "vasopressin",
+    "aliases": [],
+    "summary": "Pituitary hormone studied by du Vigneaud.",
+    "subtype": "chemical"
+  },
+  {
+    "id": "insulin",
+    "entity_type": "artifact",
+    "name": "insulin",
+    "aliases": [],
+    "summary": "Protein containing sulfur, early research subject.",
+    "subtype": "chemical"
+  },
+  {
+    "id": "penicillin",
+    "entity_type": "artifact",
+    "name": "penicillin",
+    "aliases": [],
+    "summary": "Sulfur-containing antibiotic.",
+    "subtype": "chemical"
+  },
+  {
+    "id": "biotin",
+    "entity_type": "artifact",
+    "name": "biotin",
+    "aliases": [],
+    "summary": "Vitamin studied by du Vigneaud.",
+    "subtype": "chemical"
+  },
+  {
+    "id": "a_trail_of_research",
+    "entity_type": "artifact",
+    "name": "A Trail of Research",
+    "aliases": [],
+    "summary": "Book by du Vigneaud published by Cornell University Press.",
+    "subtype": "publication"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "died_in_st_agnes",
+    "source": "vincent_du_vigneaud",
+    "type": "died_in",
+    "target": "st_agnes_hospital",
+    "event_id": "death",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "death on December 11, 1978, in St. Agnes Hospital in White Plains, New York."
+      }
+    ],
+    "_rejected_because": "'died_in' expects target entity_type place, but 'st_agnes_hospital' is 'organization'"
+  }
+]

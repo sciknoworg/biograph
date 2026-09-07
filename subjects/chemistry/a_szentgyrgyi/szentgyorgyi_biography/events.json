@@ -1,0 +1,549 @@
+[
+  {
+    "id": "birth",
+    "event_type": "birth",
+    "label": "Born in Budapest",
+    "date": {
+      "display": "September 16, 1893",
+      "precision": "day",
+      "sort_start": "1893-09-16",
+      "sort_end": "1893-09-16"
+    },
+    "location": "budapest",
+    "participants": [
+      {
+        "entity_id": "albert_szent_gyorgyi",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 11,
+        "quote": "Albert Szent-Györgyi was born in Budapest on September 16,1893"
+      }
+    ]
+  },
+  {
+    "id": "medical_degree",
+    "event_type": "education",
+    "label": "Conferred degree of doctor",
+    "date": {
+      "display": "June 9, 1917",
+      "precision": "day",
+      "sort_start": "1917-06-09",
+      "sort_end": "1917-06-09"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_szent_gyorgyi",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 11,
+        "quote": "he was conferred the degree of doctor on June 9, 1917"
+      }
+    ]
+  },
+  {
+    "id": "first_marriage",
+    "event_type": "other",
+    "label": "Married Kornélia Demény",
+    "date": {
+      "display": "September 19, 1917",
+      "precision": "day",
+      "sort_start": "1917-09-19",
+      "sort_end": "1917-09-19"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_szent_gyorgyi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "kornelia_demeny",
+        "role": "spouse"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 11,
+        "quote": "On September 19 of the same year he married Kornélia Demény"
+      }
+    ]
+  },
+  {
+    "id": "groningen_appointment",
+    "event_type": "employment_start",
+    "label": "Privat-docent at University of Groningen",
+    "date": {
+      "display": "1923–26",
+      "precision": "range",
+      "sort_start": "1923-01-01",
+      "sort_end": "1926-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_szent_gyorgyi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_groningen",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 11,
+        "quote": "Between 1923—26 upon the invitation of professor R. J. Hamburger he was privat-docent at the University of Groningen"
+      }
+    ]
+  },
+  {
+    "id": "cambridge_fellowship",
+    "event_type": "employment_start",
+    "label": "Rockefeller fellowship at Cambridge",
+    "date": {
+      "display": "1926 to 1930",
+      "precision": "range",
+      "sort_start": "1926-01-01",
+      "sort_end": "1930-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_szent_gyorgyi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cambridge",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 11,
+        "quote": "There he was working on a Rockefeller fellowship from 1926 to 1930"
+      }
+    ]
+  },
+  {
+    "id": "mayo_clinic_visit",
+    "event_type": "visit",
+    "label": "Research at Mayo Clinic",
+    "date": {
+      "display": "1926–27",
+      "precision": "range",
+      "sort_start": "1926-01-01",
+      "sort_end": "1927-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_szent_gyorgyi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "mayo_clinic",
+        "role": "host"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 11,
+        "quote": "He spent one year at Mayo Clinic of Rochester (USA) upon the invitation of professor E. C. Kendall (1926—27)"
+      }
+    ]
+  },
+  {
+    "id": "chemistry_doctorate",
+    "event_type": "education",
+    "label": "Degree of doctor in chemistry conferred",
+    "date": {
+      "display": "1927",
+      "precision": "year",
+      "sort_start": "1927-01-01",
+      "sort_end": "1927-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_szent_gyorgyi",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 11,
+        "quote": "the degree of doctor in chemistry was conferred on him in 1927"
+      }
+    ]
+  },
+  {
+    "id": "szeged_professorship",
+    "event_type": "employment_start",
+    "label": "Offered professorship at Szeged",
+    "date": {
+      "display": "May 25, 1928",
+      "precision": "day",
+      "sort_start": "1928-05-25",
+      "sort_end": "1928-05-25"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_szent_gyorgyi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ferencz_jozsef_university_szeged",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 11,
+        "quote": "decided offer professorship to Albert Szent-Györgyi in May 25,1928"
+      }
+    ]
+  },
+  {
+    "id": "vitamin_c_identification",
+    "event_type": "invention",
+    "label": "Identified hexuronic acid as Vitamin C",
+    "date": {
+      "display": "November 1931",
+      "precision": "month",
+      "sort_start": "1931-11-01",
+      "sort_end": "1931-11-30"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_szent_gyorgyi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "vitamin_c",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 12,
+        "quote": "In November of 1931 it was proved that the substance called ascorbic acid by then, is identical with Vitamin C"
+      }
+    ]
+  },
+  {
+    "id": "nobel_prize",
+    "event_type": "award",
+    "label": "Awarded Nobel Prize",
+    "date": {
+      "display": "October 28, 1937",
+      "precision": "day",
+      "sort_start": "1937-10-28",
+      "sort_end": "1937-10-28"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_szent_gyorgyi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "karolinska_institute",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "nobel_prize",
+        "role": "award"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 12,
+        "quote": "On October 28, 1937 the Karolinska Institute of Stockholm awarded the medical Nobel Prize to Albert Szent-Györgyi"
+      }
+    ]
+  },
+  {
+    "id": "second_marriage",
+    "event_type": "other",
+    "label": "Married Márta Borbíró",
+    "date": {
+      "display": "1941",
+      "precision": "year",
+      "sort_start": "1941-01-01",
+      "sort_end": "1941-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_szent_gyorgyi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "marta_borbiro",
+        "role": "spouse"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 13,
+        "quote": "married Márta Borbíró"
+      }
+    ]
+  },
+  {
+    "id": "move_to_usa",
+    "event_type": "relocation",
+    "label": "Stayed in the USA",
+    "date": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_szent_gyorgyi",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 13,
+        "quote": "He did not return but stayed in the USA"
+      }
+    ]
+  },
+  {
+    "id": "muscle_research_director",
+    "event_type": "employment_start",
+    "label": "Director of Institute for Muscle Research",
+    "date": {
+      "display": "From 1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_szent_gyorgyi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "institute_for_muscle_research",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 13,
+        "quote": "From 1948 he continued his studies on biochemistry of muscle having started in Szeged as the director of the Institute for Muscle Research of the Laboratory of Marine Biology"
+      }
+    ]
+  },
+  {
+    "id": "lasker_prize",
+    "event_type": "award",
+    "label": "Awarded Albert Lasker prize",
+    "date": {
+      "display": "1954",
+      "precision": "year",
+      "sort_start": "1954-01-01",
+      "sort_end": "1954-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_szent_gyorgyi",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 13,
+        "quote": "In 1954 he was awarded with the Albert Lasker prize"
+      }
+    ]
+  },
+  {
+    "id": "us_citizenship",
+    "event_type": "other",
+    "label": "Obtained American citizenship",
+    "date": {
+      "display": "1955",
+      "precision": "year",
+      "sort_start": "1955-01-01",
+      "sort_end": "1955-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_szent_gyorgyi",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 13,
+        "quote": "obtained American citizenship in 1955"
+      }
+    ]
+  },
+  {
+    "id": "cancer_research_start",
+    "event_type": "other",
+    "label": "Started to study thymus and cancer",
+    "date": {
+      "display": "1960",
+      "precision": "year",
+      "sort_start": "1960-01-01",
+      "sort_end": "1960-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_szent_gyorgyi",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 13,
+        "quote": "In 1960 he started to study thymus so as to get better knowledge in regulation of cell division"
+      }
+    ]
+  },
+  {
+    "id": "third_marriage",
+    "event_type": "other",
+    "label": "Married Marcia",
+    "date": {
+      "display": "1976",
+      "precision": "year",
+      "sort_start": "1976-01-01",
+      "sort_end": "1976-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_szent_gyorgyi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "marcia",
+        "role": "spouse"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 14,
+        "quote": "In 1976 he married Marcia"
+      }
+    ]
+  },
+  {
+    "id": "hungary_visit_1973",
+    "event_type": "visit",
+    "label": "Visited Hungary",
+    "date": {
+      "display": "October 7, 1973",
+      "precision": "day",
+      "sort_start": "1973-10-07",
+      "sort_end": "1973-10-07"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_szent_gyorgyi",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 14,
+        "quote": "He visited Hungary after two-and-a-half decade on October 7, 1973"
+      }
+    ]
+  },
+  {
+    "id": "death",
+    "event_type": "death",
+    "label": "Died in Woods Hole",
+    "date": {
+      "display": "October 22, 1986",
+      "precision": "day",
+      "sort_start": "1986-10-22",
+      "sort_end": "1986-10-22"
+    },
+    "location": "woods_hole",
+    "participants": [
+      {
+        "entity_id": "albert_szent_gyorgyi",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 15,
+        "quote": "He died on October 22,1986 at age of 93"
+      }
+    ]
+  },
+  {
+    "id": "burial",
+    "event_type": "other",
+    "label": "Buried in Woods Hole",
+    "date": {
+      "display": "October 26, 1986",
+      "precision": "day",
+      "sort_start": "1986-10-26",
+      "sort_end": "1986-10-26"
+    },
+    "location": "woods_hole",
+    "participants": [
+      {
+        "entity_id": "albert_szent_gyorgyi",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "szentgyorgyi_biography",
+        "page": 15,
+        "quote": "and was buried on October 26 in Woods Hole"
+      }
+    ]
+  }
+]

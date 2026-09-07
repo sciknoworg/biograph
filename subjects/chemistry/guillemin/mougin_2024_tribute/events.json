@@ -1,0 +1,272 @@
+[
+  {
+    "id": "guillemin_birth",
+    "event_type": "birth",
+    "label": "Born in Dijon",
+    "date": {
+      "display": "January 11, 1924",
+      "precision": "day",
+      "sort_start": "1924-01-11",
+      "sort_end": "1924-01-11"
+    },
+    "participants": [
+      {
+        "entity_id": "roger_guillemin",
+        "role": "subject"
+      }
+    ],
+    "location": "dijon",
+    "sources": [
+      {
+        "source_id": "mougin_2024_tribute",
+        "page": 53,
+        "quote": "Roger Guillemin was born in Dijon on January 11, 1924."
+      }
+    ]
+  },
+  {
+    "id": "guillemin_medical_start",
+    "event_type": "education",
+    "label": "Began medical studies",
+    "date": {
+      "display": "1943",
+      "precision": "year",
+      "sort_start": "1943-01-01",
+      "sort_end": "1943-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "roger_guillemin",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mougin_2024_tribute",
+        "page": 53,
+        "quote": "then began his medical studies in 1943."
+      }
+    ]
+  },
+  {
+    "id": "guillemin_phd",
+    "event_type": "education",
+    "label": "Defended PhD in Montreal",
+    "date": {
+      "display": "1953",
+      "precision": "year",
+      "sort_start": "1953-01-01",
+      "sort_end": "1953-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "roger_guillemin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_montreal",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mougin_2024_tribute",
+        "page": 53,
+        "quote": "then subsequently his PhD in 1953 in Montreal."
+      }
+    ]
+  },
+  {
+    "id": "guillemin_college_de_france",
+    "event_type": "employment_start",
+    "label": "Worked at Collège de France",
+    "date": {
+      "display": "Between 1960 and 1963",
+      "precision": "range",
+      "sort_start": "1960-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "roger_guillemin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "college_de_france",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mougin_2024_tribute",
+        "page": 54,
+        "quote": "Between 1960 and 1963, he came back to the Collège de France in Paris where he developed his very first experiments devoted to hypothalamic factors through innovative bioassays [1]."
+      }
+    ]
+  },
+  {
+    "id": "guillemin_return_bucm",
+    "event_type": "employment_start",
+    "label": "Returned to BUCM in Houston",
+    "date": {
+      "display": "1963",
+      "precision": "year",
+      "sort_start": "1963-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "roger_guillemin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "baylor_university_college_of_medicine",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mougin_2024_tribute",
+        "page": 54,
+        "quote": "Roger Guillemin then returned to BUCM in Houston in 1963."
+      }
+    ]
+  },
+  {
+    "id": "guillemin_trf_isolation",
+    "event_type": "invention",
+    "label": "Isolated first hypothalamic peptide (TRF)",
+    "date": {
+      "display": "End of 1968",
+      "precision": "year",
+      "sort_start": "1968-01-01",
+      "sort_end": "1968-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "roger_guillemin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "trf",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mougin_2024_tribute",
+        "page": 54,
+        "quote": "At the end of 1968, Roger Guillemin and his team, including his students Roger Burgus, Wylie Vale, Catherine and Jean Rivier, and Nicholas Ling, obtained 1 mg of the first hypothalamic peptide from 300,000 sheep hypothalamus [2]."
+      }
+    ]
+  },
+  {
+    "id": "guillemin_trf_structure",
+    "event_type": "invention",
+    "label": "Established structure of TRF",
+    "date": {
+      "display": "1969",
+      "precision": "year",
+      "sort_start": "1969-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "roger_guillemin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "trf",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mougin_2024_tribute",
+        "page": 54,
+        "quote": "The structure of this peptide was established in 1969."
+      }
+    ]
+  },
+  {
+    "id": "guillemin_salk_founded",
+    "event_type": "company_founded",
+    "label": "Founded Laboratories for Neuroendocrinology at Salk Institute",
+    "date": {
+      "display": "1970",
+      "precision": "year",
+      "sort_start": "1970-01-01",
+      "sort_end": "1970-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "roger_guillemin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "salk_institute",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mougin_2024_tribute",
+        "page": 55,
+        "quote": "In 1970, Roger Guillemin founded and directed the Laboratories for Neuroendocrinology at the Salk Institute in San Diego (California), and focused his research on the purification, isolation and characterization of the hypothalamic peptide which stimulates the release of hormones acting on the gonads (Gonadotropin-releasing hormone or GnRH)."
+      }
+    ]
+  },
+  {
+    "id": "guillemin_nobel",
+    "event_type": "award",
+    "label": "Awarded Nobel Prize in Physiology or Medicine",
+    "date": {
+      "display": "1977",
+      "precision": "year",
+      "sort_start": "1977-01-01",
+      "sort_end": "1977-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "roger_guillemin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize_physiology_medicine",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mougin_2024_tribute",
+        "page": 56,
+        "quote": "His work therefore led him to the Nobel Prize in Physiology or Medicine in 1977, that he shared with Andrew Schally and Rosalyn Yalow."
+      }
+    ]
+  },
+  {
+    "id": "guillemin_death",
+    "event_type": "death",
+    "label": "Died in San Diego",
+    "date": {
+      "display": "February 21, 2024",
+      "precision": "day",
+      "sort_start": "2024-02-21",
+      "sort_end": "2024-02-21"
+    },
+    "participants": [
+      {
+        "entity_id": "roger_guillemin",
+        "role": "subject"
+      }
+    ],
+    "location": "san_diego",
+    "sources": [
+      {
+        "source_id": "mougin_2024_tribute",
+        "page": 53,
+        "quote": "Roger Guillemin, Nobel Prize in Physiology and Medicine in 1977, died at the age of 100 on February 21, 2024, in San Diego (California) where he was living."
+      }
+    ]
+  }
+]

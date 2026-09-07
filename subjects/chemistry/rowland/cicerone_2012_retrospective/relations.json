@@ -1,0 +1,104 @@
+[
+  {
+    "id": "rowland_worked_uc_irvine",
+    "source": "f_sherwood_rowland",
+    "type": "worked_at",
+    "target": "uc_irvine",
+    "sources": [
+      {
+        "source_id": "cicerone_2012_retrospective",
+        "page": 2,
+        "quote": "was a founding faculty member of UC Irvine."
+      }
+    ]
+  },
+  {
+    "id": "rowland_collaborated_molina",
+    "source": "f_sherwood_rowland",
+    "type": "collaborated_with",
+    "target": "mario_j_molina",
+    "start": {
+      "display": "1973",
+      "precision": "year",
+      "sort_start": "1973-01-01",
+      "sort_end": "1973-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "cicerone_2012_retrospective",
+        "page": 2,
+        "quote": "In 1973, one of us (M.J.M.) joined Rowland at the University of California (UC) at Irvine."
+      }
+    ]
+  },
+  {
+    "id": "rowland_mentored_blake",
+    "source": "f_sherwood_rowland",
+    "type": "mentored",
+    "target": "donald_r_blake",
+    "sources": [
+      {
+        "source_id": "cicerone_2012_retrospective",
+        "page": 2,
+        "quote": "With his students, including one of us (D.R.B.), he published analyses of air samples from all over the word,"
+      }
+    ]
+  },
+  {
+    "id": "rowland_married_joan",
+    "source": "f_sherwood_rowland",
+    "type": "married_to",
+    "target": "joan_rowland",
+    "sources": [
+      {
+        "source_id": "cicerone_2012_retrospective",
+        "page": 2,
+        "quote": "he replied, turning to his wife, Joan:"
+      }
+    ]
+  },
+  {
+    "id": "rowland_awarded_nobel",
+    "source": "f_sherwood_rowland",
+    "type": "awarded",
+    "target": "nobel_prize_in_chemistry",
+    "event_id": "nobel_prize_1995",
+    "sources": [
+      {
+        "source_id": "cicerone_2012_retrospective",
+        "page": 2,
+        "quote": "In 1995, he was awarded the Nobel Prize in Chemistry (with Paul J. Crutzen and Mario J. Molina)."
+      }
+    ]
+  },
+  {
+    "id": "rowland_president_aaas",
+    "source": "f_sherwood_rowland",
+    "type": "member_of",
+    "target": "aaas",
+    "event_id": "aaas_presidency",
+    "note": "Served as President",
+    "sources": [
+      {
+        "source_id": "cicerone_2012_retrospective",
+        "page": 2,
+        "quote": "Along the way, he was President of the American Association for the Advancement of Science (1993 to 1994);"
+      }
+    ]
+  },
+  {
+    "id": "rowland_secretary_nas",
+    "source": "f_sherwood_rowland",
+    "type": "member_of",
+    "target": "us_national_academy_of_sciences",
+    "event_id": "nas_foreign_secretary",
+    "note": "Served as foreign secretary",
+    "sources": [
+      {
+        "source_id": "cicerone_2012_retrospective",
+        "page": 2,
+        "quote": "He also served as foreign secretary of the U.S. National Academy of Sciences (1994 to 2002),"
+      }
+    ]
+  }
+]

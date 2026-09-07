@@ -1,0 +1,147 @@
+[
+  {
+    "id": "boyle_brother_richard",
+    "source": "robert_boyle",
+    "type": "family_of",
+    "target": "richard_boyle_earl_burlington",
+    "sources": [
+      {
+        "source_id": "avramov_hunter_yoshimoto_2010",
+        "page": 8,
+        "quote": "evidently a decision by Boyle's chief executor, his brother Richard, Earl of Burlington."
+      }
+    ]
+  },
+  {
+    "id": "boyle_sister_katherine",
+    "source": "robert_boyle",
+    "type": "family_of",
+    "target": "katherine_lady_ranelagh",
+    "sources": [
+      {
+        "source_id": "avramov_hunter_yoshimoto_2010",
+        "page": 8,
+        "quote": "at the house in Pall Mall where Boyle had lived in his later years with his sister, Katherine, Lady Ranelagh"
+      }
+    ]
+  },
+  {
+    "id": "boyle_lived_pall_mall",
+    "source": "robert_boyle",
+    "type": "lived_in",
+    "target": "pall_mall",
+    "sources": [
+      {
+        "source_id": "avramov_hunter_yoshimoto_2010",
+        "page": 8,
+        "quote": "at the house in Pall Mall where Boyle had lived in his later years"
+      }
+    ]
+  },
+  {
+    "id": "boyle_studied_eton",
+    "source": "robert_boyle",
+    "type": "studied_at",
+    "target": "eton_college",
+    "sources": [
+      {
+        "source_id": "avramov_hunter_yoshimoto_2010",
+        "page": 9,
+        "quote": "One is a copy of Cicero which he owned as a boy at Eton."
+      }
+    ]
+  },
+  {
+    "id": "boyle_collaborated_hooke",
+    "source": "robert_boyle",
+    "type": "collaborated_with",
+    "target": "robert_hooke",
+    "sources": [
+      {
+        "source_id": "avramov_hunter_yoshimoto_2010",
+        "page": 13,
+        "quote": "Later, we learn from the diary of Robert Hooke not only of books which Hooke obtained for Boyle, but also of books that Boyle lent to Hooke"
+      }
+    ]
+  },
+  {
+    "id": "boyle_collaborated_oldenburg",
+    "source": "robert_boyle",
+    "type": "collaborated_with",
+    "target": "henry_oldenburg",
+    "sources": [
+      {
+        "source_id": "avramov_hunter_yoshimoto_2010",
+        "page": 15,
+        "quote": "Further information concerning Boyle's book ownership is available from correspondence, either of Boyle himself or of those associated with him... particularly by Henry Oldenburg in London"
+      }
+    ]
+  },
+  {
+    "id": "boyle_friend_evelyn",
+    "source": "robert_boyle",
+    "type": "collaborated_with",
+    "target": "john_evelyn",
+    "sources": [
+      {
+        "source_id": "avramov_hunter_yoshimoto_2010",
+        "page": 7,
+        "quote": "Indeed in 1692 Boyle's friend John Evelyn professed himself 'much displeas'd' by the dispersal of such a collection"
+      }
+    ]
+  },
+  {
+    "id": "boyle_prot_g_colepresse",
+    "source": "robert_boyle",
+    "type": "mentored",
+    "target": "samuel_colepresse",
+    "sources": [
+      {
+        "source_id": "avramov_hunter_yoshimoto_2010",
+        "page": 12,
+        "quote": "a copy of a 1669 Dutch doctoral dissertation has a manuscript dedication to Boyle by his young protégé, Samuel Colepresse"
+      }
+    ]
+  },
+  {
+    "id": "boyle_papers_royal_society",
+    "source": "robert_boyle",
+    "type": "worked_at",
+    "target": "royal_society",
+    "sources": [
+      {
+        "source_id": "avramov_hunter_yoshimoto_2010",
+        "page": 21,
+        "quote": "within the Boyle Papers at the Royal Society there are two groups of what we have described as Boyle's 'reading notes'."
+      }
+    ]
+  },
+  {
+    "id": "boyle_published_sceptical_chymist",
+    "source": "robert_boyle",
+    "type": "published",
+    "target": "book_sceptical_chymist",
+    "event_id": "publication_sceptical_chymist",
+    "sources": [
+      {
+        "source_id": "avramov_hunter_yoshimoto_2010",
+        "page": 4,
+        "quote": "Sceptical Chymist (1661), Works, vol. 2, 353"
+      }
+    ]
+  },
+  {
+    "id": "boyle_published_cold",
+    "source": "robert_boyle",
+    "type": "published",
+    "target": "book_cold",
+    "event_id": "publication_cold",
+    "sources": [
+      {
+        "source_id": "avramov_hunter_yoshimoto_2010",
+        "page": 19,
+        "quote": "occur in his New Experiments and Observations touching Cold  (1665)"
+      }
+    ]
+  }
+]

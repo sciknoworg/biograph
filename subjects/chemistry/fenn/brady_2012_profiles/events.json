@@ -1,0 +1,332 @@
+[
+  {
+    "id": "birth",
+    "event_type": "birth",
+    "label": "Born in New York, NY",
+    "date": {
+      "display": "June 15, 1917",
+      "precision": "day",
+      "sort_start": "1917-06-15",
+      "sort_end": "1917-06-15"
+    },
+    "participants": [
+      {
+        "entity_id": "john_bennett_fenn",
+        "role": "subject"
+      }
+    ],
+    "location": "new_york_ny",
+    "sources": [
+      {
+        "source_id": "brady_2012_profiles",
+        "page": 3,
+        "quote": "John Bennett Fenn was born on June 15, 1917 in New York, NY to Herbert Bennett Fenn and Jeanette Dingman Fenn (Grayson 2011)."
+      }
+    ]
+  },
+  {
+    "id": "education_berea_grad",
+    "event_type": "education",
+    "label": "Graduated from Berea College",
+    "date": {
+      "display": "1937",
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1937-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_bennett_fenn",
+        "role": "subject"
+      },
+      {
+        "entity_id": "berea_college",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brady_2012_profiles",
+        "page": 5,
+        "quote": "Although he graduated in the spring 1937 commencement, Fenn completed course requirements at Purdue University during a summer session to receive his degree (Fenn 2002)."
+      }
+    ]
+  },
+  {
+    "id": "education_yale_phd",
+    "event_type": "education",
+    "label": "Received Ph.D. from Yale",
+    "date": {
+      "display": "1940",
+      "precision": "year",
+      "sort_start": "1940-01-01",
+      "sort_end": "1940-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_bennett_fenn",
+        "role": "subject"
+      },
+      {
+        "entity_id": "yale_university",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brady_2012_profiles",
+        "page": 8,
+        "quote": "Fenn graduated from Yale in 1940 with a Ph.D. but had a greatly diminished love of or interest in conducting academic research from the experience."
+      }
+    ]
+  },
+  {
+    "id": "employment_monsanto",
+    "event_type": "employment_start",
+    "label": "Started at Monsanto Chemical Company",
+    "date": {
+      "display": "1940",
+      "precision": "year",
+      "sort_start": "1940-01-01",
+      "sort_end": "1940-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_bennett_fenn",
+        "role": "subject"
+      },
+      {
+        "entity_id": "monsanto_chemical_company",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brady_2012_profiles",
+        "page": 8,
+        "quote": "This disillusionment led him to look for work in the private sector with the research department of the Phosphate Division of the Monsanto Chemical Company in Anniston, Alabama."
+      }
+    ]
+  },
+  {
+    "id": "employment_experiment_inc",
+    "event_type": "employment_start",
+    "label": "Joined Experiment, Inc.",
+    "date": {
+      "display": "June 1945",
+      "precision": "month",
+      "sort_start": "1945-06-01",
+      "sort_end": "1945-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "john_bennett_fenn",
+        "role": "subject"
+      },
+      {
+        "entity_id": "experiment_inc",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brady_2012_profiles",
+        "page": 8,
+        "quote": "Their separation only lasted until June 1945 when Fenn received a letter from Mullen saying he had started a company in Richmond, Virginia and urged Fenn to join him."
+      }
+    ]
+  },
+  {
+    "id": "employment_princeton",
+    "event_type": "employment_start",
+    "label": "Started at Princeton University",
+    "date": {
+      "display": "1952",
+      "precision": "year",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_bennett_fenn",
+        "role": "subject"
+      },
+      {
+        "entity_id": "princeton_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brady_2012_profiles",
+        "page": 9,
+        "quote": "In 1952, his work with the Navy led to a job as director of Project SQUID, a U.S. Navy program based at Princeton."
+      }
+    ]
+  },
+  {
+    "id": "employment_yale",
+    "event_type": "employment_start",
+    "label": "Joined Yale Faculty",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_bennett_fenn",
+        "role": "subject"
+      },
+      {
+        "entity_id": "yale_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brady_2012_profiles",
+        "page": 9,
+        "quote": "Fenn joined the Yale faculty in 1967."
+      }
+    ]
+  },
+  {
+    "id": "patent_filed",
+    "event_type": "patent_filed",
+    "label": "Filed Mass Spectrometry Patent",
+    "date": {
+      "display": "1989",
+      "precision": "year",
+      "sort_start": "1989-01-01",
+      "sort_end": "1989-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_bennett_fenn",
+        "role": "subject"
+      },
+      {
+        "entity_id": "us_patent_5130538",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brady_2012_profiles",
+        "page": 9,
+        "quote": "While researching at Yale in 1989, Fenn filed a patent under his name for an invention in the field of mass spectrometry, U.S. Patent No. 5,130,538; it was granted in 1992."
+      }
+    ]
+  },
+  {
+    "id": "patent_granted",
+    "event_type": "patent_granted",
+    "label": "Patent Granted",
+    "date": {
+      "display": "1992",
+      "precision": "year",
+      "sort_start": "1992-01-01",
+      "sort_end": "1992-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_bennett_fenn",
+        "role": "subject"
+      },
+      {
+        "entity_id": "us_patent_5130538",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brady_2012_profiles",
+        "page": 9,
+        "quote": "While researching at Yale in 1989, Fenn filed a patent under his name for an invention in the field of mass spectrometry, U.S. Patent No. 5,130,538; it was granted in 1992."
+      }
+    ]
+  },
+  {
+    "id": "employment_vcu",
+    "event_type": "employment_start",
+    "label": "Appointed Professor at VCU",
+    "date": {
+      "display": "1994",
+      "precision": "year",
+      "sort_start": "1994-01-01",
+      "sort_end": "1994-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_bennett_fenn",
+        "role": "subject"
+      },
+      {
+        "entity_id": "virginia_commonwealth_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brady_2012_profiles",
+        "page": 11,
+        "quote": "In 1994 Fenn was appointed as professor of analytical chemistry in VCU's Department of Chemistry."
+      }
+    ]
+  },
+  {
+    "id": "award_nobel",
+    "event_type": "award",
+    "label": "Received Nobel Prize in Chemistry",
+    "date": {
+      "display": "2002",
+      "precision": "year",
+      "sort_start": "2002-01-01",
+      "sort_end": "2002-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_bennett_fenn",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize_in_chemistry_2002",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brady_2012_profiles",
+        "page": 11,
+        "quote": "While at VCU, Fenn received the Nobel Prize in Chemistry in 2002 based on his work at Yale."
+      }
+    ]
+  },
+  {
+    "id": "death",
+    "event_type": "death",
+    "label": "Died in Richmond, VA",
+    "date": {
+      "display": "December 10, 2010",
+      "precision": "day",
+      "sort_start": "2010-12-10",
+      "sort_end": "2010-12-10"
+    },
+    "participants": [
+      {
+        "entity_id": "john_bennett_fenn",
+        "role": "subject"
+      }
+    ],
+    "location": "richmond_va",
+    "sources": [
+      {
+        "source_id": "brady_2012_profiles",
+        "page": 11,
+        "quote": "Fenn worked at VCU until his death at the age of 93 on December 10, 2010."
+      }
+    ]
+  }
+]
