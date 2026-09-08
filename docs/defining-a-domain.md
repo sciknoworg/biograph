@@ -205,10 +205,16 @@ keep working.
 Each domain keeps its own taxonomy and its own state file; subjects from all of
 them accumulate in the same `subjects/` directory, since the point is one graph.
 
-Domains are run **one at a time**. Beyond the taxonomy and state, the working
-files — candidate lists, staged documents, the scope-verdict scratch file — are
-shared and fixed, so two simultaneous runs would read each other's intermediate
-results.
+Downloads are staged per domain too, in `data/_pending/<domain>/`, so a document
+fetched for one collection can never be extracted against another's scope rule.
+
+Domains are still run **one at a time**. Staging and state are separated, but
+several working files are not: the candidate lists, the scope-verdict and
+related-fields scratch files, the response cache and the download manifest all
+have fixed shared paths. Two simultaneous runs would read each other's
+intermediate results — the scope-verdict file is the sharpest case, since it
+carries "does this document fit, and who is it really about" for whichever
+extraction wrote it last.
 
 ## A note on what this cannot fix
 
