@@ -1,0 +1,95 @@
+[
+  {
+    "id": "hofmann_born_baden",
+    "source": "albert_hofmann",
+    "type": "born_in",
+    "target": "baden_aargau",
+    "sources": [
+      {
+        "source_id": "finney_siegel_2008_chimia",
+        "page": 444,
+        "quote": "Albert Hofmann was born in Baden (Aargau) in 1906"
+      }
+    ]
+  },
+  {
+    "id": "hofmann_studied_uzh",
+    "source": "albert_hofmann",
+    "type": "studied_at",
+    "target": "university_of_zurich",
+    "event_id": "hofmann_study_start",
+    "sources": [
+      {
+        "source_id": "finney_siegel_2008_chimia",
+        "page": 444,
+        "quote": "In 1926 he started to study chemistry with Prof. Paul Karrer at the University of Zurich"
+      }
+    ]
+  },
+  {
+    "id": "hofmann_supervised_karrer",
+    "source": "albert_hofmann",
+    "type": "supervised_by",
+    "target": "paul_karrer",
+    "sources": [
+      {
+        "source_id": "finney_siegel_2008_chimia",
+        "page": 444,
+        "quote": "study chemistry with Prof. Paul Karrer"
+      }
+    ]
+  },
+  {
+    "id": "hofmann_worked_sandoz",
+    "source": "albert_hofmann",
+    "type": "employed_by",
+    "target": "sandoz_laboratories",
+    "event_id": "hofmann_sandoz_start",
+    "sources": [
+      {
+        "source_id": "finney_siegel_2008_chimia",
+        "page": 444,
+        "quote": "In 1929 he took a job with Sandoz Laboratories in Basel"
+      }
+    ]
+  },
+  {
+    "id": "hofmann_invented_lsd",
+    "source": "albert_hofmann",
+    "type": "invented",
+    "target": "lsd",
+    "sources": [
+      {
+        "source_id": "finney_siegel_2008_chimia",
+        "page": 445,
+        "quote": "semisynthesis of new pharmacophores such as LSD"
+      }
+    ]
+  },
+  {
+    "id": "hofmann_characterized_psilocybin",
+    "source": "albert_hofmann",
+    "type": "developed",
+    "target": "psilocybin",
+    "sources": [
+      {
+        "source_id": "finney_siegel_2008_chimia",
+        "page": 445,
+        "quote": "psilocybin (also first characterized by Hofmann et al.)"
+      }
+    ]
+  },
+  {
+    "id": "hofmann_married_anita",
+    "source": "albert_hofmann",
+    "type": "married_to",
+    "target": "anita_hofmann",
+    "sources": [
+      {
+        "source_id": "finney_siegel_2008_chimia",
+        "page": 447,
+        "quote": "He and his wife Anita"
+      }
+    ]
+  }
+]

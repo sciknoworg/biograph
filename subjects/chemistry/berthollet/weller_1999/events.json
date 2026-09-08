@@ -1,0 +1,430 @@
+[
+  {
+    "id": "berthollet_birth",
+    "event_type": "birth",
+    "label": "Born in Savoy",
+    "date": {
+      "display": "1748",
+      "precision": "year",
+      "sort_start": "1748-01-01",
+      "sort_end": "1748-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "weller_1999",
+        "page": 61,
+        "quote": "Claude Louis Berthollet (1748-1822)"
+      }
+    ]
+  },
+  {
+    "id": "ammonia_composition",
+    "event_type": "invention",
+    "label": "Determined composition of ammonia",
+    "date": {
+      "display": "1785",
+      "precision": "year",
+      "sort_start": "1785-01-01",
+      "sort_end": "1785-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "weller_1999",
+        "page": 61,
+        "quote": "he had determined the composition of ammonia in 1785"
+      }
+    ]
+  },
+  {
+    "id": "bleach_utility",
+    "event_type": "invention",
+    "label": "Established utility of chlorine bleach",
+    "date": {
+      "display": "1785",
+      "precision": "year",
+      "sort_start": "1785-01-01",
+      "sort_end": "1785-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "weller_1999",
+        "page": 61,
+        "quote": "in 1785 he established the utility of chlorine and hypochlorites as bleaching agents"
+      }
+    ]
+  },
+  {
+    "id": "lavoisier_support",
+    "event_type": "other",
+    "label": "Supported Lavoisier's theory of combustion",
+    "date": {
+      "display": "1785",
+      "precision": "year",
+      "sort_start": "1785-01-01",
+      "sort_end": "1785-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "antoine_lavoisier",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "weller_1999",
+        "page": 61,
+        "quote": "Berthollet was the first French scientist to support Lavoisier's theory of combustion in 1785"
+      }
+    ]
+  },
+  {
+    "id": "prussic_acid",
+    "event_type": "invention",
+    "label": "Determined composition of prussic acid",
+    "date": {
+      "display": "1787",
+      "precision": "year",
+      "sort_start": "1787-01-01",
+      "sort_end": "1787-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "weller_1999",
+        "page": 61,
+        "quote": "prussic acid in 1787"
+      }
+    ]
+  },
+  {
+    "id": "potassium_chlorate_discovery",
+    "event_type": "invention",
+    "label": "Discovered potassium chlorate",
+    "date": {
+      "display": "1788",
+      "precision": "year",
+      "sort_start": "1788-01-01",
+      "sort_end": "1788-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "weller_1999",
+        "page": 61,
+        "quote": "He discovered potassium chlorate and its explosive properties in 1788"
+      }
+    ]
+  },
+  {
+    "id": "hydrogen_sulfide",
+    "event_type": "invention",
+    "label": "Determined composition of hydrogen sulfide",
+    "date": {
+      "display": "1789",
+      "precision": "year",
+      "sort_start": "1789-01-01",
+      "sort_end": "1789-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "weller_1999",
+        "page": 61,
+        "quote": "hydrogen sulfide in 1789"
+      }
+    ]
+  },
+  {
+    "id": "lavoisier_death",
+    "event_type": "death",
+    "label": "Lavoisier beheaded",
+    "date": {
+      "display": "1794",
+      "precision": "year",
+      "sort_start": "1794-01-01",
+      "sort_end": "1794-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "antoine_lavoisier",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "weller_1999",
+        "page": 61,
+        "quote": "Lavoisier was the leading French chemist until he was beheaded in 1794"
+      }
+    ]
+  },
+  {
+    "id": "italy_visit",
+    "event_type": "visit",
+    "label": "Visited Italy",
+    "date": {
+      "display": "1796",
+      "precision": "year",
+      "sort_start": "1796-01-01",
+      "sort_end": "1796-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "gaspard_monge",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "weller_1999",
+        "page": 62,
+        "quote": "visit Italy in 1796"
+      }
+    ]
+  },
+  {
+    "id": "egypt_expedition",
+    "event_type": "visit",
+    "label": "Joined Napoleon's Egypt campaign",
+    "date": {
+      "display": "1798",
+      "precision": "year",
+      "sort_start": "1798-01-01",
+      "sort_end": "1798-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "napoleon_bonaparte",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "weller_1999",
+        "page": 63,
+        "quote": "in 1798 Napoleon undertook a campaign in Egypt"
+      }
+    ]
+  },
+  {
+    "id": "natron_lakes_visit",
+    "event_type": "visit",
+    "label": "Visited Natron Lakes",
+    "date": {
+      "display": "1798",
+      "precision": "year",
+      "sort_start": "1798-01-01",
+      "sort_end": "1798-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "weller_1999",
+        "page": 65,
+        "quote": "A special assignment in 1798 was to visit and evaluate the Natron Lakes"
+      }
+    ]
+  },
+  {
+    "id": "return_to_france",
+    "event_type": "relocation",
+    "label": "Returned to France",
+    "date": {
+      "display": "1799",
+      "precision": "year",
+      "sort_start": "1799-01-01",
+      "sort_end": "1799-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "weller_1999",
+        "page": 63,
+        "quote": "return to France in 1799"
+      }
+    ]
+  },
+  {
+    "id": "publication_1801",
+    "event_type": "publication",
+    "label": "Published Recherches sur les lois de l'affinité",
+    "date": {
+      "display": "1801",
+      "precision": "year",
+      "sort_start": "1801-01-01",
+      "sort_end": "1801-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "weller_1999",
+        "page": 65,
+        "quote": "in an 1801 volume (11)"
+      }
+    ]
+  },
+  {
+    "id": "count_senate",
+    "event_type": "award",
+    "label": "Made Count and named to Senate",
+    "date": {
+      "display": "1802",
+      "precision": "year",
+      "sort_start": "1802-01-01",
+      "sort_end": "1802-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "napoleon_bonaparte",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "weller_1999",
+        "page": 63,
+        "quote": "Berthollet, Laplace, Lagrange, and Monge were made Counts and were named to the French Senate"
+      }
+    ]
+  },
+  {
+    "id": "senatoriate",
+    "event_type": "role_change",
+    "label": "Appointed to Senatoriate",
+    "date": {
+      "display": "1803",
+      "precision": "year",
+      "sort_start": "1803-01-01",
+      "sort_end": "1803-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "weller_1999",
+        "page": 63,
+        "quote": "In 1803 Napoleon established a system of \"Senatoriates\"... Monge and Berthollet were two of only three scientists selected"
+      }
+    ]
+  },
+  {
+    "id": "debt_cleared",
+    "event_type": "other",
+    "label": "Debt cleared by Napoleon",
+    "date": {
+      "display": "1807",
+      "precision": "year",
+      "sort_start": "1807-01-01",
+      "sort_end": "1807-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "napoleon_bonaparte",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "weller_1999",
+        "page": 63,
+        "quote": "When Berthollet managed to fall into debt in 1807, Napoleon sent him 150,000 francs to clear his record"
+      }
+    ]
+  },
+  {
+    "id": "berthollet_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1822",
+      "precision": "year",
+      "sort_start": "1822-01-01",
+      "sort_end": "1822-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "weller_1999",
+        "page": 61,
+        "quote": "Claude Louis Berthollet (1748-1822)"
+      }
+    ]
+  }
+]

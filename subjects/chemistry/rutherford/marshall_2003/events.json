@@ -1,0 +1,319 @@
+[
+  {
+    "id": "rutherford_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1871",
+      "precision": "year",
+      "sort_start": "1871-01-01",
+      "sort_end": "1871-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ernest_rutherford",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "marshall_2003",
+        "page": 78,
+        "quote": "Ernest Rutherford (1871-1937)"
+      }
+    ]
+  },
+  {
+    "id": "dorn_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1848",
+      "precision": "year",
+      "sort_start": "1848-01-01",
+      "sort_end": "1848-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "friedrich_ernst_dorn",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "marshall_2003",
+        "page": 77,
+        "quote": "Friedrich Ernst Dorn (1848-1916)"
+      }
+    ]
+  },
+  {
+    "id": "rutherford_thorium_emanation",
+    "event_type": "invention",
+    "label": "Discovered thorium emanation",
+    "description": "Rutherford noticed that a sweeping stream of air over thorium has the property of discharging an electroscope.",
+    "date": {
+      "display": "1900",
+      "precision": "year",
+      "sort_start": "1900-01-01",
+      "sort_end": "1900-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ernest_rutherford",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "marshall_2003",
+        "page": 77,
+        "quote": "Rutherford noticed that a sweeping stream of air over thorium or thorium compounds, even after being filtered through cotton, has the property of discharging an electroscope."
+      }
+    ]
+  },
+  {
+    "id": "dorn_radium_emanation_paper",
+    "event_type": "publication",
+    "label": "Published paper on radium emanation",
+    "description": "Dorn published 'Die von Radioaktiven Substanzen Ausgesandte Emanation' observing radium emanation.",
+    "date": {
+      "display": "1900",
+      "precision": "year",
+      "sort_start": "1900-01-01",
+      "sort_end": "1900-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "friedrich_ernst_dorn",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "marshall_2003",
+        "page": 77,
+        "quote": "Radon was discovered in 1900 by the German chemist Friedrich Ernst Dorn."
+      }
+    ]
+  },
+  {
+    "id": "rutherford_soddy_collaboration",
+    "event_type": "employment_start",
+    "label": "Soddy began collaborating with Rutherford",
+    "description": "Soddy was a Demonstrator in the Chemistry Department at McGill University collaborating with Rutherford.",
+    "date": {
+      "display": "1901",
+      "precision": "year",
+      "sort_start": "1901-01-01",
+      "sort_end": "1901-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "frederick_soddy",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "ernest_rutherford",
+        "role": "subject"
+      },
+      {
+        "entity_id": "mcgill_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "marshall_2003",
+        "page": 83,
+        "quote": "then a Demonstrator in the Chemistry Department at McGill University 1900-1902, collaborating with Rutherford, October, 1901-April, 1903"
+      }
+    ]
+  },
+  {
+    "id": "rutherford_soddy_gas_conclusion",
+    "event_type": "invention",
+    "label": "Concluded emanation is a new element",
+    "description": "Rutherford and Soddy concluded the emanation must be a new element in the helium-argon family.",
+    "date": {
+      "display": "1903",
+      "precision": "year",
+      "sort_start": "1903-01-01",
+      "sort_end": "1903-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ernest_rutherford",
+        "role": "subject"
+      },
+      {
+        "entity_id": "frederick_soddy",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "marshall_2003",
+        "page": 78,
+        "quote": "By 1903 they could claim that the emanation must be matter in the gaseous state"
+      }
+    ]
+  },
+  {
+    "id": "rutherford_nobel_prize",
+    "event_type": "award",
+    "label": "Awarded Nobel Prize",
+    "date": {
+      "display": "1908",
+      "precision": "year",
+      "sort_start": "1908-01-01",
+      "sort_end": "1908-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ernest_rutherford",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize_1908",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "marshall_2003",
+        "page": 78,
+        "quote": "led to the Nobel Prize for Rutherford in 1908"
+      }
+    ]
+  },
+  {
+    "id": "rutherford_move_manchester",
+    "event_type": "relocation",
+    "label": "Moved to Manchester University",
+    "date": {
+      "display": "1907",
+      "precision": "year",
+      "sort_start": "1907-01-01",
+      "sort_end": "1907-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ernest_rutherford",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_manchester",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "marshall_2003",
+        "page": 80,
+        "quote": "He had moved on to other work at Manchester University (1907-1918)"
+      }
+    ]
+  },
+  {
+    "id": "rutherford_move_cambridge",
+    "event_type": "relocation",
+    "label": "Moved to Cambridge University",
+    "date": {
+      "display": "1919",
+      "precision": "year",
+      "sort_start": "1919-01-01",
+      "sort_end": "1919-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ernest_rutherford",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cambridge_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "marshall_2003",
+        "page": 80,
+        "quote": "and then on to Cambridge University (1919-1937)"
+      }
+    ]
+  },
+  {
+    "id": "radon_naming",
+    "event_type": "other",
+    "label": "Radon name officially adopted",
+    "description": "International Committee on Chemical Elements modified nomenclature to Radon.",
+    "date": {
+      "display": "1923",
+      "precision": "year",
+      "sort_start": "1923-01-01",
+      "sort_end": "1923-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "radon",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "marshall_2003",
+        "page": 80,
+        "quote": "In 1923 the International Committee on Chemical Elements noted that... Radon replaces the names radium emanation and niton."
+      }
+    ]
+  },
+  {
+    "id": "dorn_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1916",
+      "precision": "year",
+      "sort_start": "1916-01-01",
+      "sort_end": "1916-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "friedrich_ernst_dorn",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "marshall_2003",
+        "page": 77,
+        "quote": "Friedrich Ernst Dorn (1848-1916)"
+      }
+    ]
+  },
+  {
+    "id": "rutherford_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1937",
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1937-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ernest_rutherford",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "marshall_2003",
+        "page": 78,
+        "quote": "Ernest Rutherford (1871-1937)"
+      }
+    ]
+  }
+]

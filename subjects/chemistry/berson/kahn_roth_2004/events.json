@@ -1,0 +1,213 @@
+[
+  {
+    "id": "berson_enrolled_nyu",
+    "event_type": "education",
+    "label": "Enrolled in New York University Medical School",
+    "description": "Berson enrolled after several years and 109 medical school rejections.",
+    "date": {
+      "precision": "year",
+      "sort_start": "1950-01-01",
+      "sort_end": "1955-01-01",
+      "display": "several years after college"
+    },
+    "participants": [
+      {
+        "entity_id": "solomon_berson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "new_york_university_medical_school",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kahn_roth_2004",
+        "page": 1,
+        "quote": "Berson bragged about the several years and 109 medical school rejections that separated his completion of college and his enrollment in New York University Medical School"
+      }
+    ]
+  },
+  {
+    "id": "berson_graduated_nyu",
+    "event_type": "education",
+    "label": "Graduated from New York University Medical School",
+    "description": "Berson graduated near the top of his class.",
+    "date": {
+      "precision": "year",
+      "sort_start": "1950-01-01",
+      "sort_end": "1955-01-01",
+      "display": "after enrollment"
+    },
+    "participants": [
+      {
+        "entity_id": "solomon_berson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "new_york_university_medical_school",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kahn_roth_2004",
+        "page": 1,
+        "quote": "where he eventually graduated near the top of his class"
+      }
+    ]
+  },
+  {
+    "id": "berson_joined_va",
+    "event_type": "employment_start",
+    "label": "Joined Veterans Administration Hospital",
+    "description": "Berson took a part-time job as internist in the Radioisotope Unit.",
+    "date": {
+      "precision": "decade",
+      "sort_start": "1950-01-01",
+      "sort_end": "1959-12-31",
+      "display": "mid-1950s"
+    },
+    "participants": [
+      {
+        "entity_id": "solomon_berson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "veterans_administration_hospital_bronx",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kahn_roth_2004",
+        "page": 1,
+        "quote": "Berson, who was starting an internal medicine practice in the then-new suburbs of Long Island, took a part-time job as internist in the Radioisotope Unit at the hospital"
+      }
+    ]
+  },
+  {
+    "id": "berson_yalow_1956_paper",
+    "event_type": "publication",
+    "label": "Published 1956 JCI paper on insulin metabolism",
+    "description": "Paper accepted on resubmission after 1955 rejection.",
+    "date": {
+      "precision": "year",
+      "sort_start": "1956-01-01",
+      "sort_end": "1956-12-31",
+      "display": "1956"
+    },
+    "participants": [
+      {
+        "entity_id": "solomon_berson",
+        "role": "author"
+      },
+      {
+        "entity_id": "rosalyn_yalow",
+        "role": "author"
+      },
+      {
+        "entity_id": "journal_of_clinical_investigation",
+        "role": "publisher"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kahn_roth_2004",
+        "page": 1,
+        "quote": "the paper did finally get accepted on resubmission and was published in JCI in 1956"
+      }
+    ]
+  },
+  {
+    "id": "berson_yalow_1960_paper",
+    "event_type": "publication",
+    "label": "Published 1960 JCI paper on insulin immunoassay",
+    "description": "Article 'Immunoassay of endogenous plasma insulin in man' holds a record as one of the most-cited articles.",
+    "date": {
+      "precision": "year",
+      "sort_start": "1960-01-01",
+      "sort_end": "1960-12-31",
+      "display": "1960"
+    },
+    "participants": [
+      {
+        "entity_id": "solomon_berson",
+        "role": "author"
+      },
+      {
+        "entity_id": "rosalyn_yalow",
+        "role": "author"
+      },
+      {
+        "entity_id": "journal_of_clinical_investigation",
+        "role": "publisher"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kahn_roth_2004",
+        "page": 1,
+        "quote": "the 1960 article \"Immunoassay of endogenous plasma insulin in man\" (1) by Yalow and Berson"
+      }
+    ]
+  },
+  {
+    "id": "berson_yalow_1965_lecture",
+    "event_type": "conference",
+    "label": "Delivered Banting Award Lecture",
+    "description": "Lecture to the American Diabetes Association.",
+    "date": {
+      "precision": "year",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31",
+      "display": "1965"
+    },
+    "participants": [
+      {
+        "entity_id": "solomon_berson",
+        "role": "speaker"
+      },
+      {
+        "entity_id": "rosalyn_yalow",
+        "role": "speaker"
+      },
+      {
+        "entity_id": "american_diabetes_association",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kahn_roth_2004",
+        "page": 3,
+        "quote": "As Berson and Yalow wrote in the Banting Award Lecture to the American Diabetes Association in 1965"
+      }
+    ]
+  },
+  {
+    "id": "berson_death",
+    "event_type": "death",
+    "label": "Died",
+    "description": "Died five years before Yalow's 1977 Nobel Prize.",
+    "date": {
+      "precision": "year",
+      "sort_start": "1972-01-01",
+      "sort_end": "1972-12-31",
+      "display": "1972"
+    },
+    "participants": [
+      {
+        "entity_id": "solomon_berson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kahn_roth_2004",
+        "page": 1,
+        "quote": "five years after the untimely death of Berson"
+      }
+    ]
+  }
+]

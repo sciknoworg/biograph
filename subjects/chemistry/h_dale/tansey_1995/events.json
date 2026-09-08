@@ -1,0 +1,402 @@
+[
+  {
+    "id": "dale_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1875",
+      "precision": "year",
+      "sort_start": "1875-01-01",
+      "sort_end": "1875-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_dale",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tansey_1995",
+        "page": 1,
+        "quote": "HenryHallettDale 1875-1968"
+      }
+    ]
+  },
+  {
+    "id": "wprl_established",
+    "event_type": "company_founded",
+    "label": "Wellcome Physiological Research Laboratories established",
+    "date": {
+      "display": "1894",
+      "precision": "year",
+      "sort_start": "1894-01-01",
+      "sort_end": "1894-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wprl",
+        "role": "organization"
+      },
+      {
+        "entity_id": "henry_wellcome",
+        "role": "founder"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tansey_1995",
+        "page": 2,
+        "quote": "Theoriginallaboratory,whichbecametheWellcomePhysiologicalResearch Laboratories,wasestablishedin1894"
+      }
+    ]
+  },
+  {
+    "id": "wcrl_established",
+    "event_type": "company_founded",
+    "label": "Wellcome Chemical Research Laboratories founded",
+    "date": {
+      "display": "February 1895",
+      "precision": "month",
+      "sort_start": "1895-02-01",
+      "sort_end": "1895-02-28"
+    },
+    "participants": [
+      {
+        "entity_id": "wcrl",
+        "role": "organization"
+      },
+      {
+        "entity_id": "henry_wellcome",
+        "role": "founder"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tansey_1995",
+        "page": 3,
+        "quote": "TheWellcomeChemicalResearchLaboratorieswerefoundeda yearafterthe PhysiologicalLaboratories,inFebruary1895"
+      }
+    ]
+  },
+  {
+    "id": "wellcome_seeks_starling_advice",
+    "event_type": "meeting",
+    "label": "Wellcome sought advice from Starling",
+    "date": {
+      "display": "1904",
+      "precision": "year",
+      "sort_start": "1904-01-01",
+      "sort_end": "1904-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_wellcome",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ernest_starling",
+        "role": "adviser"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tansey_1995",
+        "page": 4,
+        "quote": "in1904WellcomesoughtadvicefromErnestStarling,Professor ofPhysiologyatUniversityCollegeLondon,aboutasuitablepersontoworkinhislabs"
+      }
+    ]
+  },
+  {
+    "id": "dale_offered_wprl",
+    "event_type": "employment_start",
+    "label": "Dale offered position at WPRL",
+    "date": {
+      "display": "1904",
+      "precision": "year",
+      "sort_start": "1904-01-01",
+      "sort_end": "1904-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_dale",
+        "role": "subject"
+      },
+      {
+        "entity_id": "wprl",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tansey_1995",
+        "page": 5,
+        "quote": "OnStarling'sadvice,WellcomeofferedayoungCambridgetrainedphysiologist,Henry Dale,thepositionofstaffpharmacologistattheWPRL."
+      }
+    ]
+  },
+  {
+    "id": "dale_ergot_paper_prep",
+    "event_type": "publication",
+    "label": "Dale prepared paper on ergot",
+    "date": {
+      "display": "1906",
+      "precision": "year",
+      "sort_start": "1906-01-01",
+      "sort_end": "1906-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_dale",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tansey_1995",
+        "page": 6,
+        "quote": "whenDalepreparedapaperforpublicationin 1906hepassedthemanuscripttohisDirector,WalterDowson,forapproval."
+      }
+    ]
+  },
+  {
+    "id": "dale_requests_adrenaline_use",
+    "event_type": "meeting",
+    "label": "Dale requested to use word adrenaline",
+    "date": {
+      "display": "February 1906",
+      "precision": "month",
+      "sort_start": "1906-02-01",
+      "sort_end": "1906-02-28"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_dale",
+        "role": "subject"
+      },
+      {
+        "entity_id": "walter_dowson",
+        "role": "director"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tansey_1995",
+        "page": 2,
+        "quote": "Thispaperfocusesonjustsixweeksduring1906,followingthetransmissiontothe CompanyheadquartersofDale'srequesttousethewordadrenaline"
+      }
+    ]
+  },
+  {
+    "id": "wellcome_vetoes_adrenaline",
+    "event_type": "other",
+    "label": "Wellcome vetoed use of adrenaline",
+    "date": {
+      "display": "February 1906",
+      "precision": "month",
+      "sort_start": "1906-02-01",
+      "sort_end": "1906-02-28"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_wellcome",
+        "role": "subject"
+      },
+      {
+        "entity_id": "henry_dale",
+        "role": "employee"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tansey_1995",
+        "page": 6,
+        "quote": "Wellcomesuggestedinsteadthatthewordepinephrineshouldbeused...Dalemaintained thatwithintheBritishphysiologicalcommunityadrenalinewasusedtodescribethe physiologicallyactiveprincipleoftheadrenalglands,anddidnotimplyaspecific commercialpreparation."
+      }
+    ]
+  },
+  {
+    "id": "wellcome_grants_permission",
+    "event_type": "publication",
+    "label": "Wellcome granted permission for publication",
+    "date": {
+      "display": "8 March 1906",
+      "precision": "day",
+      "sort_start": "1906-03-08",
+      "sort_end": "1906-03-08"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_wellcome",
+        "role": "approver"
+      },
+      {
+        "entity_id": "henry_dale",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tansey_1995",
+        "page": 13,
+        "quote": "FacedwiththisbarrageWellcomefinallyagreed,on8March,that,subjecttotheinclusion ofanexplanatoryfootnotedifferentiatingthepreparationsused,Dalecouldsubmithis paper."
+      }
+    ]
+  },
+  {
+    "id": "dale_submits_paper",
+    "event_type": "publication",
+    "label": "Dale submitted paper to Journal of Physiology",
+    "date": {
+      "display": "March 1906",
+      "precision": "month",
+      "sort_start": "1906-03-01",
+      "sort_end": "1906-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_dale",
+        "role": "author"
+      },
+      {
+        "entity_id": "journal_of_physiology",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tansey_1995",
+        "page": 13,
+        "quote": "Havinglearnedfromthepreviousshort-liveddispensation,Daleimmediately despatchedhismanuscripttotheJournalofPhysiologyinCambridge"
+      }
+    ]
+  },
+  {
+    "id": "dale_appointed_director",
+    "event_type": "role_change",
+    "label": "Dale appointed Director of WPRL",
+    "date": {
+      "display": "1906",
+      "precision": "year",
+      "sort_start": "1906-01-01",
+      "sort_end": "1906-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_dale",
+        "role": "subject"
+      },
+      {
+        "entity_id": "wprl",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tansey_1995",
+        "page": 15,
+        "quote": "Wellcome'srecognitionofhisabilityledhimto appointDaleasDirectoroftheWPRLlaterin1906 whenDowsonresignedforreasonsunconnectedwith thepresentincident."
+      }
+    ]
+  },
+  {
+    "id": "dale_meets_abel",
+    "event_type": "meeting",
+    "label": "Dale met Abel",
+    "date": {
+      "display": "1909",
+      "precision": "year",
+      "sort_start": "1909-01-01",
+      "sort_end": "1909-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_dale",
+        "role": "subject"
+      },
+      {
+        "entity_id": "john_abel",
+        "role": "colleague"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tansey_1995",
+        "page": 8,
+        "quote": "ManyyearslaterDalerecalledhisfirstmeeting, in1909,withAbel"
+      }
+    ]
+  },
+  {
+    "id": "dale_pharmacopoeia_adviser",
+    "event_type": "role_change",
+    "label": "Dale appointed adviser to British pharmacopoeia",
+    "date": {
+      "display": "1913",
+      "precision": "year",
+      "sort_start": "1913-01-01",
+      "sort_end": "1913-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_dale",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tansey_1995",
+        "page": 18,
+        "quote": "In1913,stillemployedbyWellcome,hewasappointedanofficialadvisertotheBritish pharmacopoeia"
+      }
+    ]
+  },
+  {
+    "id": "dale_nobel_prize",
+    "event_type": "award",
+    "label": "Dale awarded Nobel Prize",
+    "date": {
+      "display": "1936",
+      "precision": "year",
+      "sort_start": "1936-01-01",
+      "sort_end": "1936-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_dale",
+        "role": "recipient"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tansey_1995",
+        "page": 18,
+        "quote": "In1936,thenanemployeeoftheMedical ResearchCouncil,DalewasawardedaNobelPrize"
+      }
+    ]
+  },
+  {
+    "id": "dale_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1968",
+      "precision": "year",
+      "sort_start": "1968-01-01",
+      "sort_end": "1968-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_dale",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tansey_1995",
+        "page": 1,
+        "quote": "HenryHallettDale 1875-1968"
+      }
+    ]
+  }
+]

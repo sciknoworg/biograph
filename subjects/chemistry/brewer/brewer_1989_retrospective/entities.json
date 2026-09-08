@@ -1,0 +1,141 @@
+[
+  {
+    "id": "leo_brewer",
+    "entity_type": "person",
+    "name": "Leo Brewer",
+    "aliases": [
+      "L. Brewer"
+    ],
+    "summary": "American chemist known for work on thermodynamics, metallic bonding, and intermetallic compounds.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "cal_tech",
+    "entity_type": "organization",
+    "name": "California Institute of Technology",
+    "aliases": [
+      "Cal Tech"
+    ],
+    "summary": "Private research university in Pasadena, California.",
+    "subtype": "university"
+  },
+  {
+    "id": "uc_berkeley",
+    "entity_type": "organization",
+    "name": "University of California, Berkeley",
+    "aliases": [
+      "University of California",
+      "Berkeley"
+    ],
+    "summary": "Public research university in Berkeley, California.",
+    "subtype": "university"
+  },
+  {
+    "id": "lbl",
+    "entity_type": "organization",
+    "name": "Lawrence Berkeley Laboratory",
+    "aliases": [
+      "Lawrence Berkeley National Laboratory",
+      "LBL"
+    ],
+    "summary": "United States Department of Energy national laboratory located in the Berkeley Hills.",
+    "subtype": "lab"
+  },
+  {
+    "id": "manhattan_project",
+    "entity_type": "organization",
+    "name": "Manhattan Project",
+    "aliases": [],
+    "summary": "Research and development undertaking during World War II that produced the first nuclear weapons.",
+    "subtype": "project"
+  },
+  {
+    "id": "los_alamos",
+    "entity_type": "place",
+    "name": "Los Alamos",
+    "aliases": [
+      "Los Alamos National Laboratory"
+    ],
+    "summary": "Site of the primary laboratory for the Manhattan Project.",
+    "subtype": "facility"
+  },
+  {
+    "id": "wendell_latimer",
+    "entity_type": "person",
+    "name": "Wendell Latimer",
+    "aliases": [
+      "Professor Latimer"
+    ],
+    "summary": "American chemist and professor at the University of California, Berkeley.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "ermon_eastman",
+    "entity_type": "person",
+    "name": "Ermon Eastman",
+    "aliases": [
+      "Professor Eastman"
+    ],
+    "summary": "American physical chemist and professor at the University of California, Berkeley.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "niels_engel",
+    "entity_type": "person",
+    "name": "Niels Engel",
+    "aliases": [
+      "Danish scientist Niels Engel"
+    ],
+    "summary": "Danish scientist known for his theory of metallic bonding.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "paul_beck",
+    "entity_type": "person",
+    "name": "Paul Beck",
+    "aliases": [
+      "Professor Paul Beck"
+    ],
+    "summary": "Professor at the University of Illinois specializing in alloy chemistry.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "paul_wengert",
+    "entity_type": "person",
+    "name": "Paul Wengert",
+    "aliases": [
+      "Paul R. Wengert"
+    ],
+    "summary": "Undergraduate student in metallurgy who pursued Ph.D. research with Leo Brewer.",
+    "subtype": "student"
+  },
+  {
+    "id": "ces_crucibles",
+    "entity_type": "artifact",
+    "name": "Cerium Sulfide Crucibles",
+    "aliases": [
+      "CeS crucibles",
+      "Impervium crucibles"
+    ],
+    "summary": "Crucibles made from cerium sulfide developed for melting plutonium without contamination.",
+    "subtype": "product"
+  },
+  {
+    "id": "engel_theory",
+    "entity_type": "artifact",
+    "name": "Engel Theory of Metallic Bonding",
+    "aliases": [
+      "Engel's theory"
+    ],
+    "summary": "Theory combining Lewis electron bonding model with electronic configuration and crystal structure relationships.",
+    "subtype": "theory"
+  },
+  {
+    "id": "university_of_illinois",
+    "entity_type": "organization",
+    "name": "University of Illinois",
+    "aliases": [],
+    "summary": "Public research university in Illinois.",
+    "subtype": "university"
+  }
+]

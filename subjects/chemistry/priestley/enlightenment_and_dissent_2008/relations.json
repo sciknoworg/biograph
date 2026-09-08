@@ -1,0 +1,112 @@
+[
+  {
+    "id": "priestley_worked_shelburne",
+    "source": "joseph_priestley",
+    "type": "employed_by",
+    "target": "lord_shelburne",
+    "event_id": "priestley_moved_shelburne_1773",
+    "sources": [
+      {
+        "source_id": "enlightenment_and_dissent_2008",
+        "page": 3,
+        "quote": "In 1773 Priestley moved from Leeds to work with and for Lord Shelburne in Calne and in London, thereby strengthening his national prominence."
+      }
+    ]
+  },
+  {
+    "id": "priestley_member_royal_society_rel",
+    "source": "joseph_priestley",
+    "type": "member_of",
+    "target": "royal_society",
+    "event_id": "priestley_member_royal_society",
+    "sources": [
+      {
+        "source_id": "enlightenment_and_dissent_2008",
+        "page": 3,
+        "quote": "By 1773, he had become an author of college textbooks, a teacher at Warrington Academy, a member of the Royal Society, an admired historian of science, a recipient of an honorary doctorate, a leading political thinker, and a friend of many in both London and provincial scientific and liberal circles."
+      }
+    ]
+  },
+  {
+    "id": "priestley_taught_warrington_rel",
+    "source": "joseph_priestley",
+    "type": "employed_by",
+    "target": "warrington_academy",
+    "event_id": "priestley_taught_warrington",
+    "sources": [
+      {
+        "source_id": "enlightenment_and_dissent_2008",
+        "page": 3,
+        "quote": "By 1773, he had become an author of college textbooks, a teacher at Warrington Academy, a member of the Royal Society, an admired historian of science, a recipient of an honorary doctorate, a leading political thinker, and a friend of many in both London and provincial scientific and liberal circles."
+      }
+    ]
+  },
+  {
+    "id": "priestley_met_lavoisier_rel",
+    "source": "joseph_priestley",
+    "type": "met",
+    "target": "antoine_lavoisier",
+    "event_id": "priestley_met_lavoisier",
+    "sources": [
+      {
+        "source_id": "enlightenment_and_dissent_2008",
+        "page": 3,
+        "quote": "The two had met in Paris in 1774, when he demonstrated his new discovery."
+      }
+    ]
+  },
+  {
+    "id": "priestley_debated_price",
+    "source": "joseph_priestley",
+    "type": "collaborated_with",
+    "target": "richard_price",
+    "note": "Debated on metaphysical grounds, model of good-tempered Enlightenment dialectics.",
+    "sources": [
+      {
+        "source_id": "enlightenment_and_dissent_2008",
+        "page": 4,
+        "quote": "In the subsequent controversies, his antagonists were his friend Richard Price and, more distantly, Thomas Reid."
+      }
+    ]
+  },
+  {
+    "id": "priestley_debated_burke",
+    "source": "joseph_priestley",
+    "type": "collaborated_with",
+    "target": "edmund_burke",
+    "note": "Debated over French Revolution, Priestley published Letters to Burke.",
+    "sources": [
+      {
+        "source_id": "enlightenment_and_dissent_2008",
+        "page": 5,
+        "quote": "Priestley's career of controversies culminated in the great debate over the French Revolution with Edmund Burke, and continued on a much lower plane later in America with the young William Cobbett."
+      }
+    ]
+  },
+  {
+    "id": "priestley_lived_birmingham",
+    "source": "joseph_priestley",
+    "type": "lived_in",
+    "target": "birmingham",
+    "sources": [
+      {
+        "source_id": "enlightenment_and_dissent_2008",
+        "page": 2,
+        "quote": "One of its most'enlightened'cities, Birmingham, rejected him violently, in riots that the Prime Minister, Pitt, called 'an effervescence of the popular mind'."
+      }
+    ]
+  },
+  {
+    "id": "priestley_relocated_america",
+    "source": "joseph_priestley",
+    "type": "relocated_to",
+    "target": "america",
+    "sources": [
+      {
+        "source_id": "enlightenment_and_dissent_2008",
+        "page": 5,
+        "quote": "Priestley's career of controversies culminated in the great debate over the French Revolution with Edmund Burke, and continued on a much lower plane later in America with the young William Cobbett."
+      }
+    ]
+  }
+]

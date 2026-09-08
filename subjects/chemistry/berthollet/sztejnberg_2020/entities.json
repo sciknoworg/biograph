@@ -1,0 +1,334 @@
+[
+  {
+    "id": "claude_louis_berthollet",
+    "entity_type": "person",
+    "name": "Claude-Louis Berthollet",
+    "aliases": [
+      "C.-L. Berthollet",
+      "Claude Louis Berthollet",
+      "Berthollet",
+      "Count Berthollet",
+      "M. Le Comte Berhollet"
+    ],
+    "summary": "Eminent French chemist of the 18th and early 19th centuries known for work on chemical affinities, nomenclature, and dyeing.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "louis_berthollet",
+    "entity_type": "person",
+    "name": "Louis Berthollet",
+    "summary": "Father of Claude-Louis Berthollet, a notary and castellan.",
+    "subtype": "family"
+  },
+  {
+    "id": "philiberte_donier",
+    "entity_type": "person",
+    "name": "Philiberte Donier",
+    "summary": "Mother of Claude-Louis Berthollet.",
+    "subtype": "family"
+  },
+  {
+    "id": "marguerite_marie_baur",
+    "entity_type": "person",
+    "name": "Marguerite-Marie Baur",
+    "summary": "Wife of Claude-Louis Berthollet.",
+    "subtype": "family"
+  },
+  {
+    "id": "amedee_barthelemy_berthollet",
+    "entity_type": "person",
+    "name": "Amédée-Barthélemy Berthollet",
+    "aliases": [
+      "Amédée Berthollet",
+      "A. B. Berthollet"
+    ],
+    "summary": "Son of Claude-Louis Berthollet, collaborated on dyeing research.",
+    "subtype": "family"
+  },
+  {
+    "id": "talloire",
+    "entity_type": "place",
+    "name": "Talloire",
+    "attributes": {
+      "region": "Upper Savoy"
+    },
+    "summary": "Village in Upper Savoy where Berthollet was born.",
+    "subtype": "village"
+  },
+  {
+    "id": "annecy",
+    "entity_type": "place",
+    "name": "Annecy",
+    "summary": "Town where Berthollet first studied at a college.",
+    "subtype": "town"
+  },
+  {
+    "id": "chambery",
+    "entity_type": "place",
+    "name": "Chambery",
+    "summary": "Town where Berthollet attended college.",
+    "subtype": "town"
+  },
+  {
+    "id": "university_of_turin",
+    "entity_type": "organization",
+    "name": "University of Turin",
+    "aliases": [
+      "Turin University"
+    ],
+    "summary": "University where Berthollet studied medicine and graduated in 1770.",
+    "subtype": "university"
+  },
+  {
+    "id": "paris",
+    "entity_type": "place",
+    "name": "Paris",
+    "summary": "City where Berthollet continued education and worked.",
+    "subtype": "city"
+  },
+  {
+    "id": "gobelins_manufactory",
+    "entity_type": "organization",
+    "name": "Gobelins Manufactory",
+    "summary": "Manufactory in Paris where Berthollet was administrator and dyeing director.",
+    "subtype": "company"
+  },
+  {
+    "id": "the_mint",
+    "entity_type": "organization",
+    "name": "The Mint",
+    "summary": "Institution where Berthollet was appointed Commissioner in 1792.",
+    "subtype": "organization"
+  },
+  {
+    "id": "commission_of_agriculture_and_the_arts",
+    "entity_type": "organization",
+    "name": "Commission of Agriculture and the Arts",
+    "summary": "Commission of which Berthollet was named member in 1794.",
+    "subtype": "organization"
+  },
+  {
+    "id": "normal_school",
+    "entity_type": "organization",
+    "name": "Normal School",
+    "aliases": [
+      "École Normale"
+    ],
+    "summary": "School in Paris where Berthollet was Professor of Chemistry.",
+    "subtype": "university"
+  },
+  {
+    "id": "napoleon_bonaparte",
+    "entity_type": "person",
+    "name": "Napoleon Bonaparte",
+    "aliases": [
+      "Napoleon",
+      "Bonaparte"
+    ],
+    "summary": "French leader and friend of Berthollet who took him on the Egyptian campaign.",
+    "subtype": "politician"
+  },
+  {
+    "id": "gaspard_monge",
+    "entity_type": "person",
+    "name": "Gaspard Monge",
+    "summary": "Mathematician and friend of Berthollet who accompanied Napoleon to Egypt.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "linstitut_degypte",
+    "entity_type": "organization",
+    "name": "L'Institut d'Égypte",
+    "aliases": [
+      "The Institute of Egypt"
+    ],
+    "summary": "Institute formed in Cairo during Napoleon's campaign where Berthollet was a member.",
+    "subtype": "organization"
+  },
+  {
+    "id": "french_senate",
+    "entity_type": "organization",
+    "name": "French Senate",
+    "summary": "Legislative body where Berthollet became a senator in 1799.",
+    "subtype": "organization"
+  },
+  {
+    "id": "academie_des_sciences_belles_lettres_et_arts_de_savoie",
+    "entity_type": "organization",
+    "name": "Académie des Sciences, Belles-Lettres et Arts de Savoie",
+    "aliases": [
+      "Academy of Sciences, Belles-Lettres and Arts of Savoy"
+    ],
+    "summary": "Academy that elected Berthollet a member in 1820.",
+    "subtype": "organization"
+  },
+  {
+    "id": "society_of_arcueil",
+    "entity_type": "organization",
+    "name": "Society of Arcueil",
+    "summary": "Scientific society co-founded by Berthollet and Laplace.",
+    "subtype": "organization"
+  },
+  {
+    "id": "pierre_simon_laplace",
+    "entity_type": "person",
+    "name": "Pierre-Simon Laplace",
+    "summary": "Mathematician and co-founder of the Society of Arcueil with Berthollet.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "lacademie_royale_des_sciences",
+    "entity_type": "organization",
+    "name": "L'Académie Royale Des Sciences",
+    "aliases": [
+      "The Royal Academy of Sciences"
+    ],
+    "summary": "Paris academy that elected Berthollet a member in 1780.",
+    "subtype": "organization"
+  },
+  {
+    "id": "la_societe_hollandaise_des_sciences_a_haarlem",
+    "entity_type": "organization",
+    "name": "La Société Hollandaise Des Sciences à Haarlem",
+    "aliases": [
+      "The Dutch Society of Science in Haarlem"
+    ],
+    "summary": "Dutch society that elected Berthollet a foreign member in 1786.",
+    "subtype": "organization"
+  },
+  {
+    "id": "lacademie_royale_des_sciences_de_turin",
+    "entity_type": "organization",
+    "name": "L'Académie Royale Des Sciences De Turin",
+    "aliases": [
+      "The Royal Academy of Sciences of Turin"
+    ],
+    "summary": "Turin academy that elected Berthollet a national member in 1787.",
+    "subtype": "organization"
+  },
+  {
+    "id": "the_royal_society_of_london",
+    "entity_type": "organization",
+    "name": "The Royal Society of London",
+    "summary": "London society that made Berthollet a Fellow in 1789.",
+    "subtype": "organization"
+  },
+  {
+    "id": "the_literary_and_philosophical_society_of_manchester",
+    "entity_type": "organization",
+    "name": "The Literary and Philosophical Society of Manchester",
+    "summary": "Manchester society that elected Berthollet an honorary member in 1790.",
+    "subtype": "organization"
+  },
+  {
+    "id": "essai_de_statique_chimique",
+    "entity_type": "artifact",
+    "name": "Essai De Statique Chimique",
+    "summary": "Two-volume book by Berthollet published in 1803 defining chemical equilibrium.",
+    "subtype": "publication"
+  },
+  {
+    "id": "methode_de_nomenclature_chimique",
+    "entity_type": "artifact",
+    "name": "Méthode De Nomenclature Chimique",
+    "summary": "Book jointly written by Berthollet and others in 1787.",
+    "subtype": "publication"
+  },
+  {
+    "id": "elements_de_lart_de_la_teinture",
+    "entity_type": "artifact",
+    "name": "Éléments De L'Art De La Teinture",
+    "summary": "Book on dyeing revised by Berthollet and his son in 1804.",
+    "subtype": "publication"
+  },
+  {
+    "id": "potassium_chlorate",
+    "entity_type": "artifact",
+    "name": "Potassium Chlorate",
+    "aliases": [
+      "Berthollet salt"
+    ],
+    "summary": "Chemical compound first prepared in pure state by Berthollet in 1787.",
+    "subtype": "product"
+  },
+  {
+    "id": "ammonia",
+    "entity_type": "artifact",
+    "name": "Ammonia",
+    "aliases": [
+      "alkaline gas",
+      "volatile alkali"
+    ],
+    "summary": "Alkaline gas whose composition was determined by Berthollet in 1785.",
+    "subtype": "product"
+  },
+  {
+    "id": "prussic_acid",
+    "entity_type": "artifact",
+    "name": "Prussic Acid",
+    "aliases": [
+      "hydrogen cyanide"
+    ],
+    "summary": "Chemical whose composition was determined by Berthollet in 1787.",
+    "subtype": "product"
+  },
+  {
+    "id": "sulphuretted_hydrogen",
+    "entity_type": "artifact",
+    "name": "Sulphuretted Hydrogen",
+    "aliases": [
+      "hydrogen sulfide"
+    ],
+    "summary": "Chemical whose composition was determined by Berthollet in 1789.",
+    "subtype": "product"
+  },
+  {
+    "id": "bertholletia",
+    "entity_type": "artifact",
+    "name": "Bertholletia",
+    "summary": "Genus of South American plants named after Berthollet in 1808.",
+    "subtype": "product"
+  },
+  {
+    "id": "asteroid_12750_berthollet",
+    "entity_type": "artifact",
+    "name": "12750 Berthollet",
+    "summary": "Asteroid named in Berthollet's honour discovered in 1993.",
+    "subtype": "product"
+  },
+  {
+    "id": "monument_to_berthollet_annecy",
+    "entity_type": "artifact",
+    "name": "Monument to Berthollet",
+    "summary": "Monument erected in Annecy in 1844 honoring Berthollet.",
+    "subtype": "product"
+  },
+  {
+    "id": "arcueil",
+    "entity_type": "place",
+    "name": "Arcueil",
+    "summary": "Village where Berthollet lived and died.",
+    "subtype": "village"
+  },
+  {
+    "id": "legion_of_honour",
+    "entity_type": "artifact",
+    "name": "Legion of Honour",
+    "summary": "French order of merit awarded to Berthollet.",
+    "subtype": "award"
+  },
+  {
+    "id": "order_of_the_reunion",
+    "entity_type": "artifact",
+    "name": "Order of the Reunion",
+    "summary": "Order awarded to Berthollet in 1813.",
+    "subtype": "award"
+  },
+  {
+    "id": "peer_of_france",
+    "entity_type": "artifact",
+    "name": "Peer of France",
+    "summary": "Title created for Berthollet by Louis XVIII in 1814.",
+    "subtype": "award"
+  }
+]

@@ -1,0 +1,150 @@
+[
+  {
+    "id": "paul_ehrlich",
+    "entity_type": "person",
+    "name": "Paul Ehrlich",
+    "aliases": [
+      "Ehrlich"
+    ],
+    "summary": "Nobel Prize-winning pioneer of experimental therapeutics, immunology, and chemotherapy.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "hoechst_ag",
+    "entity_type": "organization",
+    "name": "Hoechst AG",
+    "aliases": [
+      "Hoechst Company",
+      "Farbwerke vorm. Meister Lucius & Brunning",
+      "Hoechst"
+    ],
+    "summary": "German chemical and pharmaceutical company.",
+    "subtype": "company"
+  },
+  {
+    "id": "konigliches_anstalt_fur_experimentelle_therapie",
+    "entity_type": "organization",
+    "name": "Konigliches Anstalt fur experimentelle Therapie",
+    "aliases": [
+      "Paul Ehrlich Institute",
+      "Institute for Serum Research and Serum Testing",
+      "Royal Institute for Experimental Therapy",
+      "Frankfurt Institute"
+    ],
+    "summary": "Government research institute for experimental therapy and serum testing.",
+    "subtype": "lab"
+  },
+  {
+    "id": "georg_speyer_haus",
+    "entity_type": "organization",
+    "name": "Georg Speyer Haus",
+    "aliases": [
+      "Chemotherapeutisches Forschungsinstitut Georg Speyer-Haus"
+    ],
+    "summary": "Research institute devoted to chemotherapeutic research.",
+    "subtype": "lab"
+  },
+  {
+    "id": "emil_von_behring",
+    "entity_type": "person",
+    "name": "Emil von Behring",
+    "aliases": [
+      "Behring",
+      "Emil Behring"
+    ],
+    "summary": "Pioneer of serum therapy and diphtheria antitoxin developer.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "robert_koch",
+    "entity_type": "person",
+    "name": "Robert Koch",
+    "aliases": [
+      "Koch"
+    ],
+    "summary": "Physician and microbiologist, director of Institute for Infectious Diseases.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "franziska_speyer",
+    "entity_type": "person",
+    "name": "Franziska Speyer",
+    "aliases": [
+      "Frau Speyer"
+    ],
+    "summary": "Philanthropist and financier who established the Georg Speyer Foundation.",
+    "subtype": "philanthropist"
+  },
+  {
+    "id": "ludwig_darmstaedter",
+    "entity_type": "person",
+    "name": "Ludwig Darmstaedter",
+    "aliases": [
+      "Darmstaedter"
+    ],
+    "summary": "Berlin chemist and advisor to the Speyer Foundation.",
+    "subtype": "chemist"
+  },
+  {
+    "id": "salvarsan",
+    "entity_type": "artifact",
+    "name": "Salvarsan",
+    "aliases": [
+      "arsphenamine"
+    ],
+    "summary": "Arsenic-based chemotherapeutic agent for syphilis.",
+    "subtype": "product"
+  },
+  {
+    "id": "methylene_blue",
+    "entity_type": "artifact",
+    "name": "Methylene Blue",
+    "aliases": [
+      "methylene blue compounds"
+    ],
+    "summary": "Dye used in early chemotherapeutic experiments.",
+    "subtype": "product"
+  },
+  {
+    "id": "pyramidon",
+    "entity_type": "artifact",
+    "name": "Pyramidon",
+    "aliases": [],
+    "summary": "Fever-reducing alkaloid preparation developed at Hoechst.",
+    "subtype": "product"
+  },
+  {
+    "id": "frankfurt_on_main",
+    "entity_type": "place",
+    "name": "Frankfurt-on-Main",
+    "aliases": [
+      "Frankfurt"
+    ],
+    "summary": "German city where the Royal Institute for Experimental Therapy was established.",
+    "subtype": "city"
+  },
+  {
+    "id": "berlin",
+    "entity_type": "place",
+    "name": "Berlin",
+    "aliases": [],
+    "summary": "German capital where early antitoxin work occurred.",
+    "subtype": "city"
+  },
+  {
+    "id": "steglitz",
+    "entity_type": "place",
+    "name": "Steglitz",
+    "aliases": [],
+    "summary": "Berlin suburb where Ehrlich's laboratory was located.",
+    "subtype": "city"
+  },
+  {
+    "id": "control_station_for_diphtheria_antitoxin",
+    "entity_type": "organization",
+    "name": "Control Station for Diphtheria Antitoxin",
+    "aliases": [],
+    "summary": "Laboratory established to test diphtheria antitoxin potency.",
+    "subtype": "lab"
+  }
+]

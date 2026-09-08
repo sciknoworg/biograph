@@ -1,0 +1,17 @@
+[
+  {
+    "id": "book_awarded_breakthrough",
+    "source": "werner_book",
+    "type": "awarded",
+    "target": "citation_breakthrough",
+    "event_id": "book_breakthrough_award",
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 541,
+        "quote": "This book was recently awarded the 'Citation for Chemical Breakthrough' prize from the Division of the History of Chemistry of the American Chemical Society."
+      }
+    ],
+    "_rejected_because": "'awarded' expects source entity_type person/organization, but 'werner_book' is 'artifact'"
+  }
+]

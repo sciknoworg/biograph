@@ -1,0 +1,702 @@
+[
+  {
+    "id": "ingold_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1893",
+      "precision": "year",
+      "sort_start": "1893-01-01",
+      "sort_end": "1893-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 25,
+        "quote": "Charles W. Shoppee , in his obituary notice for Sir Chris-topher Kelk Ingold (1893-1970), wrote(1):"
+      }
+    ]
+  },
+  {
+    "id": "ingold_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1970",
+      "precision": "year",
+      "sort_start": "1970-01-01",
+      "sort_end": "1970-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 25,
+        "quote": "Charles W. Shoppee , in his obituary notice for Sir Chris-topher Kelk Ingold (1893-1970), wrote(1):"
+      }
+    ]
+  },
+  {
+    "id": "lewis_atom_molecule_pub",
+    "event_type": "publication",
+    "label": "Lewis publishes The Atom and the Molecule",
+    "date": {
+      "display": "1916",
+      "precision": "year",
+      "sort_start": "1916-01-01",
+      "sort_end": "1916-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "g_n_lewis",
+        "role": "subject"
+      },
+      {
+        "entity_id": "the_atom_and_the_molecule",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 25,
+        "quote": "Lewis's pioneering paper \"The Atom and the Mol-ecule(4)\" appeared in 1916;"
+      }
+    ]
+  },
+  {
+    "id": "langmuir_edinburgh_lecture",
+    "event_type": "conference",
+    "label": "Langmuir lectures at British Association meeting",
+    "date": {
+      "display": "192I",
+      "precision": "year",
+      "sort_start": "1921-01-01",
+      "sort_end": "1921-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "irving_langmuir",
+        "role": "subject"
+      },
+      {
+        "entity_id": "british_association",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 26,
+        "quote": "Langmuir lectured on his work at a British Association meeting in Edinburgh in 192I,"
+      }
+    ]
+  },
+  {
+    "id": "ingold_meets_lewis",
+    "event_type": "meeting",
+    "label": "Ingold meets Lewis in London",
+    "date": {
+      "display": "1922",
+      "precision": "year",
+      "sort_start": "1922-01-01",
+      "sort_end": "1922-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      },
+      {
+        "entity_id": "g_n_lewis",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 30,
+        "quote": "Ingold had first met Lewis in 1922 in London, when Ingold was a lecturer at Imperial Col-lege"
+      }
+    ]
+  },
+  {
+    "id": "lewis_faraday_symposium",
+    "event_type": "conference",
+    "label": "Lewis attends Faraday Society symposium",
+    "date": {
+      "display": "1923",
+      "precision": "year",
+      "sort_start": "1923-01-01",
+      "sort_end": "1923-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "g_n_lewis",
+        "role": "subject"
+      },
+      {
+        "entity_id": "faraday_society",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 26,
+        "quote": "and in 1923 Lewis at-tended a symposium sponsored by the Faraday Society at Cambridge"
+      }
+    ]
+  },
+  {
+    "id": "lowry_double_bond_concept",
+    "event_type": "publication",
+    "label": "Lowry introduces concept of double bond",
+    "date": {
+      "display": "1923",
+      "precision": "year",
+      "sort_start": "1923-01-01",
+      "sort_end": "1923-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_martin_lowry",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 26,
+        "quote": "By 1923 Lowry had already introduced a concept of the double bond as one containing both covalent and ionic attributes"
+      }
+    ]
+  },
+  {
+    "id": "ingold_fellow_royal_society",
+    "event_type": "award",
+    "label": "Made Fellow of the Royal Society",
+    "date": {
+      "display": "1924",
+      "precision": "year",
+      "sort_start": "1924-01-01",
+      "sort_end": "1924-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_society",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 27,
+        "quote": "In 1924 Ingold was a rising star in Brit-ish chemistry, having just been made a Fellow of the Royal Society"
+      }
+    ]
+  },
+  {
+    "id": "ingold_professor_leeds",
+    "event_type": "employment_start",
+    "label": "Appointed Professor of Organic Chemistry at Leeds University",
+    "date": {
+      "display": "1924",
+      "precision": "year",
+      "sort_start": "1924-01-01",
+      "sort_end": "1924-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      },
+      {
+        "entity_id": "leeds_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 27,
+        "quote": "and appointed Professor of Organic Chemistry at Leeds University."
+      }
+    ]
+  },
+  {
+    "id": "robinson_electron_mobility",
+    "event_type": "publication",
+    "label": "Robinson introduces concept of mobility of electron pairs",
+    "date": {
+      "display": "1926",
+      "precision": "year",
+      "sort_start": "1926-01-01",
+      "sort_end": "1926-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_robinson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 26,
+        "quote": "Robinson introduced the concept of the mobility of electron pairs in conjugated systems in 1926 (6)."
+      }
+    ]
+  },
+  {
+    "id": "ingold_alternating_effect_part_v",
+    "event_type": "publication",
+    "label": "Publishes The Nature of the Alternating Effect in Carbon Chains, Part V",
+    "date": {
+      "display": "I926",
+      "precision": "year",
+      "sort_start": "1926-01-01",
+      "sort_end": "1926-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      },
+      {
+        "entity_id": "edith_hilda_ingold",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "nature_of_the_alternating_effect_part_v",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 27,
+        "quote": "The I926 paper (10), \"The Nature of the Alter-nating Effect in Carbon Chains, Part V,\" which Ingold published with his wife Edith Hilda (1898-1988) as the co-author,"
+      }
+    ]
+  },
+  {
+    "id": "ingold_dipole_moment_proposal",
+    "event_type": "publication",
+    "label": "Proposes test of hypothesis in Annual Reports",
+    "date": {
+      "display": "I926",
+      "precision": "year",
+      "sort_start": "1926-01-01",
+      "sort_end": "1926-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 28,
+        "quote": "Having presented the possibility of conjugate polar-ization, he proposed in the Annual Reports of the Chemi-cal Society for I926 a test of his hypothesis."
+      }
+    ]
+  },
+  {
+    "id": "ingold_shaw_rate_factors",
+    "event_type": "publication",
+    "label": "Ingold and Shaw derive partial rate factors",
+    "date": {
+      "display": "1927",
+      "precision": "year",
+      "sort_start": "1927-01-01",
+      "sort_end": "1927-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      },
+      {
+        "entity_id": "f_r_shaw",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 28,
+        "quote": "Since such data was not available, Ingold and Shaw in 1927(14) derived partial rate fac-tors for aromatic substitution"
+      }
+    ]
+  },
+  {
+    "id": "ingold_letter_to_lewis_1927",
+    "event_type": "other",
+    "label": "Writes letter to Lewis",
+    "date": {
+      "display": "April 12, 1927",
+      "precision": "day",
+      "sort_start": "1927-04-12",
+      "sort_end": "1927-04-12"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      },
+      {
+        "entity_id": "g_n_lewis",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 30,
+        "quote": "Ingold described this meeting to Lewis in a letter of April 12, 1927,"
+      }
+    ]
+  },
+  {
+    "id": "hogendahl_test_completed",
+    "event_type": "other",
+    "label": "Hogendahl completes first dipole moment test",
+    "date": {
+      "display": "1928",
+      "precision": "year",
+      "sort_start": "1928-01-01",
+      "sort_end": "1928-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "k_hogendahl",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 28,
+        "quote": "The first test of this kind was completed (for the group NH2) in 1928 by K. Hogendahl...with definitely posi-tive results."
+      }
+    ]
+  },
+  {
+    "id": "ingold_vass_inductive_effect",
+    "event_type": "publication",
+    "label": "Ingold and Vass clarify inductive effect",
+    "date": {
+      "display": "1928",
+      "precision": "year",
+      "sort_start": "1928-01-01",
+      "sort_end": "1928-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      },
+      {
+        "entity_id": "c_c_n_vass",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 28,
+        "quote": "Further clarification of the inductive effect in aromatic substitution was made by Ingold and Vass in 1928 (15)."
+      }
+    ]
+  },
+  {
+    "id": "ingold_free_radicals_paper",
+    "event_type": "publication",
+    "label": "Discusses stable free radicals",
+    "date": {
+      "display": "1929",
+      "precision": "year",
+      "sort_start": "1929-01-01",
+      "sort_end": "1929-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 30,
+        "quote": "An anticipation of what would come later can be seen in a 1929 paper in which he discussed the reasons for the existence of stable free radicals."
+      }
+    ]
+  },
+  {
+    "id": "ingold_stanford_leave",
+    "event_type": "visit",
+    "label": "On leave at Stanford University",
+    "date": {
+      "display": "1932",
+      "precision": "year",
+      "sort_start": "1932-01-01",
+      "sort_end": "1932-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      },
+      {
+        "entity_id": "stanford_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 30,
+        "quote": "Ingold possessed the skill to gain an under-standing of the subject which he did in 1932 while on leave at Stanford University,"
+      }
+    ]
+  },
+  {
+    "id": "ingold_letter_to_lewis_1932",
+    "event_type": "other",
+    "label": "Writes letter to Lewis from Stanford",
+    "date": {
+      "display": "April 2, 1932",
+      "precision": "day",
+      "sort_start": "1932-04-02",
+      "sort_end": "1932-04-02"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      },
+      {
+        "entity_id": "g_n_lewis",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 30,
+        "quote": "A letter dated April 2, 1932, from Ingold to Lewis written on Stanford stationery indicates that Ingold was planning to visit Lewis at Berkeley"
+      }
+    ]
+  },
+  {
+    "id": "ingold_mesomerism_paper",
+    "event_type": "publication",
+    "label": "Publishes Significance of Tautomerism introducing mesomerism",
+    "date": {
+      "display": "I933",
+      "precision": "year",
+      "sort_start": "1933-01-01",
+      "sort_end": "1933-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      },
+      {
+        "entity_id": "significance_of_tautomerism",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 30,
+        "quote": "The first significant use of wave mechanics was made by Ingold in 1933. In a paper (21) entitled \"Signifi-cance of Tautomerism and of the Reactions of Aromatic Compounds in the Electronic Theory of Organic Reac-tions\""
+      }
+    ]
+  },
+  {
+    "id": "pauling_resonance_theory",
+    "event_type": "publication",
+    "label": "Pauling and coworkers introduce resonance theory",
+    "date": {
+      "display": "I933",
+      "precision": "year",
+      "sort_start": "1933-01-01",
+      "sort_end": "1933-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "linus_pauling",
+        "role": "subject"
+      },
+      {
+        "entity_id": "george_w_wheland",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "j_sherman",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 30,
+        "quote": "In a series of papers appearing in the premier volume of The Jour-nal of Chemical Physics, Linus Pauling and his cowork-ers George W. Wheland and J. Sherman introduced the resonance theory(22)"
+      }
+    ]
+  },
+  {
+    "id": "ingold_chem_rev_paper",
+    "event_type": "publication",
+    "label": "Publishes Chemical Reviews paper",
+    "date": {
+      "display": "I934",
+      "precision": "year",
+      "sort_start": "1934-01-01",
+      "sort_end": "1934-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      },
+      {
+        "entity_id": "principles_of_an_electron_theory",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 25,
+        "quote": "His Chemical Reviews paper \"Principles of an Electron Theory of Organic Reactions(2)\" published in I934"
+      }
+    ]
+  },
+  {
+    "id": "ingold_nature_mesomerism_paper",
+    "event_type": "publication",
+    "label": "Publishes Mesomerism and Tautomerism in Nature",
+    "date": {
+      "display": "1934",
+      "precision": "year",
+      "sort_start": "1934-01-01",
+      "sort_end": "1934-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      },
+      {
+        "entity_id": "mesomerism_and_tautomerism",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 31,
+        "quote": "Indeed this situation is best seen from a footnote in D. Stanley Tarbell's essay on valence in organic chemistry(24): One of us, as a graduate student in 1934-1937, re-members clearly the reaction of some classical or-ganic chemists to the \"new-fangled theories\" of Ingold and others"
+      }
+    ]
+  },
+  {
+    "id": "structure_mechanism_2nd_ed",
+    "event_type": "publication",
+    "label": "Structure and Mechanism 2nd ed. published",
+    "date": {
+      "display": "1953",
+      "precision": "year",
+      "sort_start": "1953-01-01",
+      "sort_end": "1953-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      },
+      {
+        "entity_id": "structure_and_mechanism",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 31,
+        "quote": "Ingold's presentations improved with time, the 2nd ed. of Structure and Mechanism being the best."
+      }
+    ]
+  },
+  {
+    "id": "shoppee_obituary",
+    "event_type": "publication",
+    "label": "Shoppee writes obituary notice",
+    "date": {
+      "display": "1972",
+      "precision": "year",
+      "sort_start": "1972-01-01",
+      "sort_end": "1972-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "charles_w_shoppee",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 32,
+        "quote": "1. C. W. Shoppee, \"Christopher Kelk Ingold,\" Biogr. Mem. Fellows R. Soc., 1972, 18, 349-410."
+      }
+    ]
+  },
+  {
+    "id": "saltzman_article_pub",
+    "event_type": "publication",
+    "label": "Saltzman article published",
+    "date": {
+      "display": "1996",
+      "precision": "year",
+      "sort_start": "1996-01-01",
+      "sort_end": "1996-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "martin_d_saltzman",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 25,
+        "quote": "Bull. Hist, Chem. 19 (1996)\t 25"
+      }
+    ]
+  }
+]

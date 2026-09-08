@@ -1,0 +1,153 @@
+[
+  {
+    "id": "lowry_born_bradford",
+    "source": "thomas_martin_lowry",
+    "type": "born_in",
+    "target": "bradford_england",
+    "event_id": "lowry_birth",
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 10,
+        "quote": "Lowry was born October 26, 1874, in Bradford, England."
+      }
+    ]
+  },
+  {
+    "id": "lowry_studied_central_tech",
+    "source": "thomas_martin_lowry",
+    "type": "studied_at",
+    "target": "central_technical_college",
+    "event_id": "lowry_enter_college",
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 10,
+        "quote": "In 1893 he entered the Central Technical College of the City and Guilds Institute in London to embark upon his chemical training."
+      }
+    ]
+  },
+  {
+    "id": "lowry_worked_armstrong",
+    "source": "thomas_martin_lowry",
+    "type": "employed_by",
+    "target": "henry_edward_armstrong",
+    "start": {
+      "display": "1896",
+      "precision": "year",
+      "sort_start": "1896-01-01",
+      "sort_end": "1896-12-31"
+    },
+    "end": {
+      "display": "1913",
+      "precision": "year",
+      "sort_start": "1913-01-01",
+      "sort_end": "1913-12-31"
+    },
+    "event_id": "lowry_assistant_armstrong_start",
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 10,
+        "quote": "On his graduation in 1896 Lowry became Armstrong's assistant and remained so until 1913."
+      }
+    ]
+  },
+  {
+    "id": "lowry_worked_guys",
+    "source": "thomas_martin_lowry",
+    "type": "employed_by",
+    "target": "guys_hospital_medical_school",
+    "event_id": "lowry_lectureship_guys",
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 11,
+        "quote": "He held a series of teaching positions in this period which culminated in 1912 in a Lectureship in Chemistry at the Guy's Hospital Medical School."
+      }
+    ]
+  },
+  {
+    "id": "lowry_member_royal_society",
+    "source": "thomas_martin_lowry",
+    "type": "member_of",
+    "target": "royal_society",
+    "event_id": "lowry_frs",
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 11,
+        "quote": "His reputation as an innovative researcher led to his election as a Fellow of the Royal Society (1914)"
+      }
+    ]
+  },
+  {
+    "id": "lowry_worked_cambridge",
+    "source": "thomas_martin_lowry",
+    "type": "employed_by",
+    "target": "cambridge_university",
+    "event_id": "lowry_cambridge_chair",
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 11,
+        "quote": "In 1920 the newly created physical chemistry chair at Cambridge was offered to Lowry, and he spent the rest of his life at Cambridge."
+      }
+    ]
+  },
+  {
+    "id": "lowry_collaborated_waters",
+    "source": "thomas_martin_lowry",
+    "type": "collaborated_with",
+    "target": "william_alec_waters",
+    "event_id": "lowry_waters_book_1935",
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 10,
+        "quote": "With his student William Alec Waters (1903-1985) he produced in 1935 the first book in this area, Physical Aspects of Organic Chemistry."
+      }
+    ]
+  },
+  {
+    "id": "lowry_invented_mixed_bond",
+    "source": "thomas_martin_lowry",
+    "type": "developed",
+    "target": "mixed_double_bond",
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 13,
+        "quote": "The object of this paper is to suggest that, whilst a single bond may be either a covalency or an electrovalency, a double bond in organic chemistry usually reacts as if it contained one covalency and one electrovalency."
+      }
+    ]
+  },
+  {
+    "id": "lowry_corresponded_lewis",
+    "source": "thomas_martin_lowry",
+    "type": "corresponded_with",
+    "target": "g_n_lewis",
+    "event_id": "lowry_letter_lewis_nov1922",
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 12,
+        "quote": "On November 27, 1922, shortly after the Faraday Society meeting paper, Lowry wrote to G.N. Lewis."
+      }
+    ]
+  },
+  {
+    "id": "lowry_corresponded_thomson",
+    "source": "thomas_martin_lowry",
+    "type": "corresponded_with",
+    "target": "j_j_thomson",
+    "event_id": "lowry_letter_thomson_jan1923",
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 13,
+        "quote": "On January 6,1923, Lowry wrote to Thomson the following concerning a lecture Thomson had recently given in which he discussed the electronic nature of unsaturation and conjugation."
+      }
+    ]
+  }
+]

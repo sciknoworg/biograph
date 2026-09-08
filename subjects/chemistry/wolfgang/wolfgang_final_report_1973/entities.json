@@ -1,0 +1,78 @@
+[
+  {
+    "id": "richard_wolfgang",
+    "entity_type": "person",
+    "name": "Richard Wolfgang",
+    "aliases": [
+      "Wolfgang"
+    ],
+    "summary": "Chemist who led research on high-energy chemical reactions and hot atom chemistry.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "yale_university",
+    "entity_type": "organization",
+    "name": "Yale University",
+    "aliases": [
+      "Yale"
+    ],
+    "summary": "University where the Heavy Ion Accelerator and electron accelerator were located.",
+    "subtype": "university"
+  },
+  {
+    "id": "aec",
+    "entity_type": "organization",
+    "name": "United States Atomic Energy Commission",
+    "aliases": [
+      "AEC",
+      "United States Atomic Energy Commission"
+    ],
+    "summary": "United States government agency funding Wolfgang's contract.",
+    "subtype": "government_agency"
+  },
+  {
+    "id": "peder_estrup",
+    "entity_type": "person",
+    "name": "Peder J.Z. Estrup",
+    "aliases": [
+      "Estrupi Peder J.Z.",
+      "P.J. Estrup"
+    ],
+    "summary": "Graduate student who completed PhD on recoil tritium reactions.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "adam_machine",
+    "entity_type": "artifact",
+    "name": "ADAM",
+    "aliases": [],
+    "summary": "Machine built to produce a beam of tritium at known and variable energy.",
+    "subtype": "instrument"
+  },
+  {
+    "id": "eva_machine",
+    "entity_type": "artifact",
+    "name": "EVA",
+    "aliases": [],
+    "summary": "Machine built to study ion-molecule reactions.",
+    "subtype": "instrument"
+  },
+  {
+    "id": "cain_machine",
+    "entity_type": "artifact",
+    "name": "CAIN",
+    "aliases": [],
+    "summary": "Machine built similar to ADAM but designed to accelerate heavier molecules.",
+    "subtype": "instrument"
+  },
+  {
+    "id": "contract_at_11_1_3570",
+    "entity_type": "artifact",
+    "name": "Contract AT(11-1)-3570",
+    "aliases": [
+      "Wolfgang contract"
+    ],
+    "summary": "Research contract funded by AEC covering the Wolfgang years.",
+    "subtype": "contract"
+  }
+]

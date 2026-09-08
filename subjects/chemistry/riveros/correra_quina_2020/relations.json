@@ -1,0 +1,126 @@
+[
+  {
+    "id": "riveros_studied_asuncion",
+    "source": "jose_manuel_riveros",
+    "type": "studied_at",
+    "target": "university_of_asuncion",
+    "event_id": "riveros_entered_univ_asuncion",
+    "sources": [
+      {
+        "source_id": "correra_quina_2020",
+        "page": 2,
+        "quote": "he entered the  School of Chemistry and Pharmacy of the University of Asunción as an undergraduate in 1958."
+      }
+    ]
+  },
+  {
+    "id": "riveros_studied_berkeley",
+    "source": "jose_manuel_riveros",
+    "type": "studied_at",
+    "target": "uc_berkeley",
+    "event_id": "riveros_admitted_uc_berkeley",
+    "sources": [
+      {
+        "source_id": "correra_quina_2020",
+        "page": 2,
+        "quote": "he was admitted as a sophomore in 1959."
+      }
+    ]
+  },
+  {
+    "id": "riveros_educated_by_wilson",
+    "source": "jose_manuel_riveros",
+    "type": "educated_by",
+    "target": "e_bright_wilson_jr",
+    "event_id": "riveros_phd_harvard",
+    "sources": [
+      {
+        "source_id": "correra_quina_2020",
+        "page": 2,
+        "quote": "under the supervision of Professor E. Bright Wilson Jr."
+      }
+    ]
+  },
+  {
+    "id": "riveros_studied_harvard",
+    "source": "jose_manuel_riveros",
+    "type": "studied_at",
+    "target": "harvard_university",
+    "event_id": "riveros_phd_harvard",
+    "sources": [
+      {
+        "source_id": "correra_quina_2020",
+        "page": 2,
+        "quote": "he pursued Ph.D. studies in physical chemistry at Harvard University from 1962-1966"
+      }
+    ]
+  },
+  {
+    "id": "riveros_worked_cornell",
+    "source": "jose_manuel_riveros",
+    "type": "worked_at",
+    "target": "cornell_university",
+    "sources": [
+      {
+        "source_id": "correra_quina_2020",
+        "page": 2,
+        "quote": "After one year at Cornell as a postdoctoral fellow"
+      }
+    ]
+  },
+  {
+    "id": "riveros_married_cutler",
+    "source": "jose_manuel_riveros",
+    "type": "married_to",
+    "target": "deborah_cutler",
+    "event_id": "riveros_married_cutler",
+    "sources": [
+      {
+        "source_id": "correra_quina_2020",
+        "page": 2,
+        "quote": "met the Bostonian Deborah Cutler who was destined to become, in 1967, his wife and lifelong companion."
+      }
+    ]
+  },
+  {
+    "id": "riveros_worked_usp",
+    "source": "jose_manuel_riveros",
+    "type": "worked_at",
+    "target": "university_of_sao_paulo",
+    "event_id": "riveros_arrived_sao_paulo",
+    "sources": [
+      {
+        "source_id": "correra_quina_2020",
+        "page": 2,
+        "quote": "Dr. Riveros and his wife arrived in São Paulo in December, 1967, to begin his career in academia."
+      }
+    ]
+  },
+  {
+    "id": "riveros_member_brazilian_academy",
+    "source": "jose_manuel_riveros",
+    "type": "member_of",
+    "target": "brazilian_academy_of_sciences",
+    "event_id": "riveros_brazilian_academy",
+    "sources": [
+      {
+        "source_id": "correra_quina_2020",
+        "page": 3,
+        "quote": "election to full membership in the Brazilian Academy of Sciences in 1980"
+      }
+    ]
+  },
+  {
+    "id": "riveros_developed_riveros_reaction",
+    "source": "jose_manuel_riveros",
+    "type": "developed",
+    "target": "riveros_reaction",
+    "sources": [
+      {
+        "source_id": "correra_quina_2020",
+        "page": 4,
+        "quote": "Particularly emblematic is the reaction now known in the literature as the Riveros reaction."
+      }
+    ]
+  }
+]

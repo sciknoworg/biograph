@@ -1,0 +1,190 @@
+[
+  {
+    "id": "ingold_worked_ucl",
+    "source": "christopher_kelk_ingold",
+    "type": "worked_at",
+    "target": "university_college_london",
+    "start": {
+      "display": "1930",
+      "precision": "year",
+      "sort_start": "1930-01-01",
+      "sort_end": "1930-12-31"
+    },
+    "end": {
+      "display": "1970",
+      "precision": "year",
+      "sort_start": "1970-01-01",
+      "sort_end": "1970-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "roberts_1996",
+        "page": 2,
+        "quote": "From 1930 until his death, Ingold was attached to a major international centre, the Chemistry Department of University College London."
+      }
+    ]
+  },
+  {
+    "id": "ingold_worked_leeds",
+    "source": "christopher_kelk_ingold",
+    "type": "worked_at",
+    "target": "university_of_leeds",
+    "start": {
+      "display": "1924",
+      "precision": "year",
+      "sort_start": "1924-01-01",
+      "sort_end": "1924-12-31"
+    },
+    "end": {
+      "display": "1930",
+      "precision": "year",
+      "sort_start": "1930-01-01",
+      "sort_end": "1930-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "roberts_1996",
+        "page": 2,
+        "quote": "In that same year, he became Professor of Organic Chemistry at the University of Leeds, a position which he held for six years."
+      }
+    ]
+  },
+  {
+    "id": "ingold_worked_imperial",
+    "source": "christopher_kelk_ingold",
+    "type": "worked_at",
+    "target": "imperial_college_london",
+    "start": {
+      "display": "1920",
+      "precision": "year",
+      "sort_start": "1920-01-01",
+      "sort_end": "1920-12-31"
+    },
+    "end": {
+      "display": "1924",
+      "precision": "year",
+      "sort_start": "1924-01-01",
+      "sort_end": "1924-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "roberts_1996",
+        "page": 2,
+        "quote": "...in 1920, he returned to Imperial College as a demonstrator and subsequently a lecturer..."
+      }
+    ]
+  },
+  {
+    "id": "ingold_collaborated_thorpe",
+    "source": "christopher_kelk_ingold",
+    "type": "collaborated_with",
+    "target": "jocelyn_field_thorpe",
+    "sources": [
+      {
+        "source_id": "roberts_1996",
+        "page": 2,
+        "quote": "While at Imperial, Ingold worked with Jocelyn Field Thorpe (1872-1940)..."
+      }
+    ]
+  },
+  {
+    "id": "ingold_collaborated_hughes",
+    "source": "christopher_kelk_ingold",
+    "type": "collaborated_with",
+    "target": "e_d_hughes",
+    "sources": [
+      {
+        "source_id": "roberts_1996",
+        "page": 4,
+        "quote": "...Ingold extracted a quart of staffing from his pint of resource by appointing his two star researchers (C. L. Wilson and E. D. Hughes)..."
+      }
+    ]
+  },
+  {
+    "id": "ingold_supervised_wilson",
+    "source": "christopher_kelk_ingold",
+    "type": "supervised_by",
+    "target": "christopher_kelk_ingold",
+    "note": "Wilson was a researcher under Ingold",
+    "sources": [
+      {
+        "source_id": "roberts_1996",
+        "page": 4,
+        "quote": "...appointing his two star researchers (C. L. Wilson and E. D. Hughes)..."
+      }
+    ]
+  },
+  {
+    "id": "donnan_preceded_ingold",
+    "source": "frederick_george_donnan",
+    "type": "worked_at",
+    "target": "university_college_london",
+    "end": {
+      "display": "1930",
+      "precision": "year",
+      "sort_start": "1930-01-01",
+      "sort_end": "1930-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "roberts_1996",
+        "page": 2,
+        "quote": "...continuing the policies of his predecessor on chemical education and the organisation of research..."
+      }
+    ]
+  },
+  {
+    "id": "ingold_recruited_lonsdale",
+    "source": "christopher_kelk_ingold",
+    "type": "mentored",
+    "target": "kathleen_lonsdale",
+    "event_id": "ingold_recruits_lonsdale",
+    "sources": [
+      {
+        "source_id": "roberts_1996",
+        "page": 6,
+        "quote": "In 1947, Kathleen Lonsdale, already an FRS, joined the Department as Reader in Crystallography."
+      }
+    ]
+  },
+  {
+    "id": "ingold_recruited_nyholm",
+    "source": "christopher_kelk_ingold",
+    "type": "mentored",
+    "target": "ronald_nyholm",
+    "sources": [
+      {
+        "source_id": "roberts_1996",
+        "page": 7,
+        "quote": "Later, when Ronald Nyholm an established and innovative inorganic chemist, was recruited back to the department as a Professor..."
+      }
+    ]
+  },
+  {
+    "id": "ingold_advised_east_anglia",
+    "source": "christopher_kelk_ingold",
+    "type": "visited",
+    "target": "university_of_east_anglia",
+    "sources": [
+      {
+        "source_id": "roberts_1996",
+        "page": 8,
+        "quote": "...some advice which Ingold gave to the then fledgling University of East Anglia in 1962."
+      }
+    ]
+  },
+  {
+    "id": "ingold_advised_ibadan",
+    "source": "christopher_kelk_ingold",
+    "type": "visited",
+    "target": "university_of_ibadan",
+    "event_id": "ingold_ibadan_lecture",
+    "sources": [
+      {
+        "source_id": "roberts_1996",
+        "page": 8,
+        "quote": "...on the occasion of his visiting the about to be independent University of Ibadan in Nigeria..."
+      }
+    ]
+  }
+]

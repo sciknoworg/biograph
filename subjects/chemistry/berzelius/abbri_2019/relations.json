@@ -1,0 +1,99 @@
+[
+  {
+    "id": "berzelius_worked_uppsala",
+    "source": "jons_jacob_berzelius",
+    "type": "studied_at",
+    "target": "uppsala_university",
+    "sources": [
+      {
+        "source_id": "abbri_2019",
+        "page": 2,
+        "quote": "the portrait of Berzelius as a young, poor student of medicine at Uppsala University"
+      }
+    ]
+  },
+  {
+    "id": "berzelius_worked_academy",
+    "source": "jons_jacob_berzelius",
+    "type": "employed_by",
+    "target": "royal_swedish_academy_of_sciences",
+    "event_id": "elected_secretary_academy",
+    "sources": [
+      {
+        "source_id": "abbri_2019",
+        "page": 2,
+        "quote": "in 1819 he became the permanent Secretary to the Royal Swedish Academy of Sciences"
+      }
+    ]
+  },
+  {
+    "id": "berzelius_wrote_larbok",
+    "source": "jons_jacob_berzelius",
+    "type": "published",
+    "target": "larbok_i_kemien",
+    "event_id": "pub_larbok_vol1",
+    "sources": [
+      {
+        "source_id": "abbri_2019",
+        "page": 4,
+        "quote": "In 1808 in Stockholm the first volume ( Förra Del - len) of Berzelius's Lärbok i kemien appeared."
+      }
+    ]
+  },
+  {
+    "id": "berzelius_wrote_arsberattelse",
+    "source": "jons_jacob_berzelius",
+    "type": "published",
+    "target": "arsberattelse",
+    "event_id": "first_arsberattelse",
+    "sources": [
+      {
+        "source_id": "abbri_2019",
+        "page": 7,
+        "quote": "It is the first volume of Ber - zelius's Årsberättelse om Framstegen i Physik och Kemi , that became a yearly journal"
+      }
+    ]
+  },
+  {
+    "id": "wohler_translated_berzelius",
+    "source": "friedrich_wohler",
+    "type": "collaborated_with",
+    "target": "jons_jacob_berzelius",
+    "event_id": "wohler_translation_1825",
+    "sources": [
+      {
+        "source_id": "abbri_2019",
+        "page": 5,
+        "quote": "Wöhler was the official spokesman for Berzelius in Germany"
+      }
+    ]
+  },
+  {
+    "id": "mulder_corresponded_berzelius",
+    "source": "gerardus_johannes_mulder",
+    "type": "corresponded_with",
+    "target": "jons_jacob_berzelius",
+    "event_id": "mulder_letter_1834",
+    "sources": [
+      {
+        "source_id": "abbri_2019",
+        "page": 7,
+        "quote": "Subsequently, Mulder became one of Berzelius's most faithful correspondents"
+      }
+    ]
+  },
+  {
+    "id": "hisinger_patronized_berzelius",
+    "source": "wilhelm_hisinger",
+    "type": "collaborated_with",
+    "target": "jons_jacob_berzelius",
+    "event_id": "founded_lab_stockholm",
+    "sources": [
+      {
+        "source_id": "abbri_2019",
+        "page": 2,
+        "quote": "From 1812 to 1819 thanks to the patronage of Wilhelm Hisinger, a naturalist and industrialist, Berzelius founded a laboratory of chemistry in Stockholm"
+      }
+    ]
+  }
+]

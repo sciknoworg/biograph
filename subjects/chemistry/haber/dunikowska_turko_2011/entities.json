@@ -1,0 +1,192 @@
+[
+  {
+    "aliases": [
+      "Fritz Haber, the damned scientist",
+      "Germany's Doctor Death"
+    ],
+    "attributes": {
+      "birth_year": 1868,
+      "death_year": 1934,
+      "nationality": "German"
+    },
+    "entity_type": "person",
+    "id": "fritz_haber",
+    "name": "Fritz Haber",
+    "subtype": "researcher",
+    "summary": "German chemist who developed the Haber-Bosch process for ammonia synthesis and pioneered chemical warfare in World War I."
+  },
+  {
+    "aliases": [
+      "Clara Haber"
+    ],
+    "attributes": {
+      "profession": "chemist"
+    },
+    "entity_type": "person",
+    "id": "clara_immerwahr",
+    "name": "Clara Immerwahr",
+    "subtype": "researcher",
+    "summary": "German chemist and Fritz Haber's first wife, known for her suicide in protest of his chemical weapons work."
+  },
+  {
+    "aliases": [
+      "Heidelberg"
+    ],
+    "entity_type": "organization",
+    "id": "university_heidelberg",
+    "name": "University of Heidelberg",
+    "subtype": "university",
+    "summary": "German university where Fritz Haber studied."
+  },
+  {
+    "aliases": [
+      "Berlin University"
+    ],
+    "entity_type": "organization",
+    "id": "university_berlin",
+    "name": "University of Berlin",
+    "subtype": "university",
+    "summary": "German university where Fritz Haber studied and later lectured."
+  },
+  {
+    "aliases": [
+      "Karlsruhe"
+    ],
+    "entity_type": "organization",
+    "id": "technische_hochschule_karlsruhe",
+    "name": "Technische Hochschule Karlsruhe",
+    "subtype": "university",
+    "summary": "German technical university where Fritz Haber lectured and conducted early ammonia synthesis work."
+  },
+  {
+    "aliases": [
+      "Kaiser Wilhelm Institute",
+      "Institute for Physical Chemistry and Electrochemistry"
+    ],
+    "entity_type": "organization",
+    "id": "kaiser_wilhelm_institute",
+    "name": "Kaiser Wilhelm Institute for Physical Chemistry and Electrochemistry",
+    "subtype": "lab",
+    "summary": "Research institute directed by Fritz Haber from 1911."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "basf",
+    "name": "BASF",
+    "subtype": "company",
+    "summary": "German chemical company that collaborated with Haber on industrial-scale ammonia production."
+  },
+  {
+    "aliases": [
+      "Nobel Prize in chemistry in 1919"
+    ],
+    "entity_type": "artifact",
+    "id": "nobel_prize_chemistry_1918",
+    "name": "Nobel Prize in Chemistry 1918",
+    "subtype": "award",
+    "summary": "Nobel Prize awarded to Fritz Haber for ammonia synthesis."
+  },
+  {
+    "aliases": [
+      "Wrocław"
+    ],
+    "attributes": {
+      "country": "Germany"
+    },
+    "entity_type": "place",
+    "id": "breslau",
+    "name": "Breslau",
+    "subtype": "city",
+    "summary": "City in Lower Silesia where Fritz Haber was born."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Switzerland"
+    },
+    "entity_type": "place",
+    "id": "basel",
+    "name": "Basel",
+    "subtype": "city",
+    "summary": "Swiss city where Fritz Haber died in exile."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Belgium"
+    },
+    "entity_type": "place",
+    "id": "ypr",
+    "name": "Ypres",
+    "subtype": "city",
+    "summary": "Belgian town where the first chlorine gas attack was directed by Haber."
+  },
+  {
+    "aliases": [
+      "German fatherland",
+      "Reich"
+    ],
+    "entity_type": "place",
+    "id": "germany",
+    "name": "Germany",
+    "subtype": "country",
+    "summary": "Country where Fritz Haber lived and worked for most of his life."
+  },
+  {
+    "aliases": [
+      "Haber-Bosch process",
+      "bread from air"
+    ],
+    "entity_type": "artifact",
+    "id": "ammonia_synthesis",
+    "name": "Ammonia Synthesis",
+    "subtype": "invention",
+    "summary": "Chemical process for synthesizing ammonia from nitrogen and hydrogen developed by Haber."
+  },
+  {
+    "aliases": [
+      "poison gases",
+      "chemical weapons"
+    ],
+    "entity_type": "artifact",
+    "id": "chlorine_gas",
+    "name": "Chlorine Gas",
+    "subtype": "invention",
+    "summary": "Chemical weapon pioneered by Haber for use in World War I."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "zyklon_b",
+    "name": "Zyklon B",
+    "subtype": "product",
+    "summary": "Insecticide later used in extermination camps, development of which Haber was later involved in."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "max_planck",
+    "name": "Max Planck",
+    "subtype": "researcher",
+    "summary": "German physicist and Nobel Prize winner who spoke at Haber's memorial service."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "robert_le_rossignol",
+    "name": "Robert Le Rossignol",
+    "subtype": "researcher",
+    "summary": "English scientist who collaborated with Haber on ammonia synthesis."
+  },
+  {
+    "aliases": [
+      "Carl Bosch"
+    ],
+    "entity_type": "person",
+    "id": "carl_bosch",
+    "name": "Bosch",
+    "subtype": "researcher",
+    "summary": "German chemist and industrialist who collaborated with Haber on ammonia synthesis."
+  }
+]

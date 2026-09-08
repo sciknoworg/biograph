@@ -1,0 +1,167 @@
+[
+  {
+    "id": "pauling_born_portland",
+    "source": "linus_pauling",
+    "type": "born_in",
+    "target": "portland_oregon",
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 75,
+        "quote": "Linus Pauling, the son of a pharmacist, born in Portland, Or-\n egon in 1901."
+      }
+    ]
+  },
+  {
+    "id": "pauling_studied_oac",
+    "source": "linus_pauling",
+    "type": "studied_at",
+    "target": "oregon_agricultural_college",
+    "event_id": "pauling_enter_oac",
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 75,
+        "quote": "In January 1917 he entered Oregon Agri-\n cultural College, where he quickly attracted the atten-\n tion of his college instructors, who enlisted him to teach\n freshman- and sophomore-level chemistry courses while\n he was still a student (18)."
+      }
+    ]
+  },
+  {
+    "id": "pauling_worked_caltech",
+    "source": "linus_pauling",
+    "type": "worked_at",
+    "target": "california_institute_of_technology",
+    "event_id": "pauling_enter_caltech",
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 75,
+        "quote": "After he arrived at Caltech in the fall of 1922,\n Pauling's coursework included thermodynamic chem-\n istry with Noyes..."
+      }
+    ]
+  },
+  {
+    "id": "pauling_married_ava",
+    "source": "linus_pauling",
+    "type": "married_to",
+    "target": "ava_helen_miller",
+    "event_id": "pauling_proposal",
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 75,
+        "quote": "By\n this time, he had\n proposed mar-\n riage to Ava\n Helen Miller, a\n student in his\n chemistry class\n of the previous\n spring."
+      }
+    ]
+  },
+  {
+    "id": "pauling_awarded_nobel_chem",
+    "source": "linus_pauling",
+    "type": "awarded",
+    "target": "nobel_prize_chemistry",
+    "event_id": "pauling_nobel_chemistry",
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 78,
+        "quote": "In 1951, Life praised the\n accomplishments of Pauling, who would receive the\n Nobel Prize in Chemistry in 1954."
+      }
+    ]
+  },
+  {
+    "id": "pauling_awarded_nobel_peace",
+    "source": "linus_pauling",
+    "type": "awarded",
+    "target": "nobel_peace_prize",
+    "event_id": "pauling_nobel_peace",
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 78,
+        "quote": "In the fall of 1963, when\n it was announced that Linus\n Pauling would receive the\n 1962 Nobel Peace Prize, Life\n magazine, carrying the ex-\n traordinary headline \"A Weird\n Insult from Norway,\" stated..."
+      }
+    ]
+  },
+  {
+    "id": "pauling_published_bond_book",
+    "source": "linus_pauling",
+    "type": "published",
+    "target": "nature_of_the_chemical_bond",
+    "event_id": "pauling_chemical_bond_book",
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 76,
+        "quote": "This\n book is based on lectures he gave at Cornell University,\n and it first appeared in 1939."
+      }
+    ]
+  },
+  {
+    "id": "pauling_published_quantum_book",
+    "source": "linus_pauling",
+    "type": "published",
+    "target": "introduction_to_quantum_mechanics",
+    "event_id": "pauling_quantum_mechanics_book",
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 76,
+        "quote": "In July 1935 Pauling and E. Bright Wilson, Jr. com-\n pleted the highly technical Introduction to Quantum Me-\n chanics with Applications to Chemistry."
+      }
+    ]
+  },
+  {
+    "id": "pauling_published_gen_chem",
+    "source": "linus_pauling",
+    "type": "published",
+    "target": "general_chemistry",
+    "event_id": "pauling_general_chemistry_pub",
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 77,
+        "quote": "Pauling's General\n Chemistry, finally published by William Freeman in\n 1947, included a profusion of illustrations..."
+      }
+    ]
+  },
+  {
+    "id": "pauling_collaborated_corey",
+    "source": "linus_pauling",
+    "type": "collaborated_with",
+    "target": "robert_corey",
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 77,
+        "quote": "The models were designed\n by Pauling, Robert Corey, Verner Schomaker, and J. H.\n Sturdivant (42)."
+      }
+    ]
+  },
+  {
+    "id": "pauling_collaborated_wilson",
+    "source": "linus_pauling",
+    "type": "collaborated_with",
+    "target": "e_bright_wilson_jr",
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 76,
+        "quote": "In July 1935 Pauling and E. Bright Wilson, Jr. com-\n pleted the highly technical Introduction to Quantum Me-\n chanics with Applications to Chemistry."
+      }
+    ]
+  },
+  {
+    "id": "pauling_influenced_langmuir",
+    "source": "linus_pauling",
+    "type": "mentored",
+    "target": "irving_langmuir",
+    "note": "Pauling was influenced by Langmuir, relation direction adjusted to reflect influence source",
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 75,
+        "quote": "While preparing his chemistry lectures in 1920,\n Pauling ran across Irving Langmuir's papers of 1919 on\n the structure of atoms and the new electron theory of\n valence (19)."
+      }
+    ]
+  }
+]

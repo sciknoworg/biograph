@@ -1,0 +1,388 @@
+[
+  {
+    "id": "rutherford_nucleus_discovery",
+    "event_type": "invention",
+    "label": "Discovered the atomic nucleus",
+    "description": "Rutherford made his epoch-making discovery of the atomic nucleus.",
+    "date": {
+      "display": "1911",
+      "precision": "year",
+      "sort_start": "1911-01-01",
+      "sort_end": "1911-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ernest_rutherford",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bohr_1958_rutherford_memorial_lecture",
+        "page": 2,
+        "quote": "only a few months before had led him to his epoch-making discovery of the atomic nucleus"
+      }
+    ]
+  },
+  {
+    "id": "bohr_joins_manchester",
+    "event_type": "employment_start",
+    "label": "Bohr joined Rutherford's group in Manchester",
+    "description": "Bohr joined the group working in Rutherford's laboratory in the early spring of 1912.",
+    "date": {
+      "display": "early spring of 1912",
+      "precision": "range",
+      "sort_start": "1912-03-01",
+      "sort_end": "1912-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "niels_bohr",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ernest_rutherford",
+        "role": "employer"
+      },
+      {
+        "entity_id": "manchester_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bohr_1958_rutherford_memorial_lecture",
+        "page": 3,
+        "quote": "he kindly assented to my wish to join the group working in his laboratory when, in the early spring of 1912, I should have finished my studies in Cambridge"
+      }
+    ]
+  },
+  {
+    "id": "rutherford_book_preparation",
+    "event_type": "publication",
+    "label": "Rutherford prepared Radioactive Substances and Their Radiations",
+    "description": "Rutherford was concentrating on the preparation of his great book.",
+    "date": {
+      "display": "1912",
+      "precision": "year",
+      "sort_start": "1912-01-01",
+      "sort_end": "1912-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ernest_rutherford",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bohr_1958_rutherford_memorial_lecture",
+        "page": 6,
+        "quote": "Although Rutherford just at that time was concentrating on the preparation of his great book, Radioactive Substances and Their Radiations"
+      }
+    ]
+  },
+  {
+    "id": "bohr_paper_draft_1913",
+    "event_type": "publication",
+    "label": "Bohr sent draft of first paper to Rutherford",
+    "description": "Bohr wrote to Rutherford enclosing a draft of his first paper on the quantum theory of atomic constitution.",
+    "date": {
+      "display": "March 1913",
+      "precision": "month",
+      "sort_start": "1913-03-01",
+      "sort_end": "1913-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "niels_bohr",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ernest_rutherford",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bohr_1958_rutherford_memorial_lecture",
+        "page": 9,
+        "quote": "When in March 1913 I wrote to Rutherford, enclosing a draft of my first paper on the quantum theory of atomic constitution"
+      }
+    ]
+  },
+  {
+    "id": "rutherford_cavendish_appointment",
+    "event_type": "role_change",
+    "label": "Rutherford accepted Cavendish professorship",
+    "description": "Rutherford made the decision to accept the offer of the Cavendish professorship in Cambridge.",
+    "date": {
+      "display": "1919",
+      "precision": "year",
+      "sort_start": "1919-01-01",
+      "sort_end": "1919-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ernest_rutherford",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cambridge_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bohr_1958_rutherford_memorial_lecture",
+        "page": 17,
+        "quote": "Rutherford also spoke about the great decision he had had to make in response to the offer of the Cavendish professorship in Cambridge left vacant by the retirement of J. J. Thomson."
+      }
+    ]
+  },
+  {
+    "id": "rutherford_nuclear_transmutation",
+    "event_type": "invention",
+    "label": "Rutherford discovered artificial nuclear transmutations",
+    "description": "Rutherford made his great new discovery of controlled, or so-called artificial, nuclear transmutations.",
+    "date": {
+      "display": "1919",
+      "precision": "year",
+      "sort_start": "1919-01-01",
+      "sort_end": "1919-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ernest_rutherford",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bohr_1958_rutherford_memorial_lecture",
+        "page": 17,
+        "quote": "learned in more detail about his great new discovery of controlled, or so-called artificial, nuclear transmutations, by which he gave birth to what he liked to call ' modern Alchemy '"
+      }
+    ]
+  },
+  {
+    "id": "rutherford_phil_mag_papers",
+    "event_type": "publication",
+    "label": "Rutherford published papers in Philosophical Magazine",
+    "description": "Rutherford's famous papers containing the account of his fundamental discovery of controlled nuclear disintegrations.",
+    "date": {
+      "display": "1919",
+      "precision": "year",
+      "sort_start": "1919-01-01",
+      "sort_end": "1919-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ernest_rutherford",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bohr_1958_rutherford_memorial_lecture",
+        "page": 17,
+        "quote": "In Rutherford's famous papers in the Philosophical Magazine, 1919, containing the account of his fundamental discovery of controlled nuclear disintegrations"
+      }
+    ]
+  },
+  {
+    "id": "rutherford_bakerian_lecture",
+    "event_type": "conference",
+    "label": "Rutherford gave second Bakerian Lecture",
+    "description": "Rutherford pointed out difficulties of interpreting alpha-ray emission in his second Bakerian Lecture.",
+    "date": {
+      "display": "1920",
+      "precision": "year",
+      "sort_start": "1920-01-01",
+      "sort_end": "1920-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ernest_rutherford",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bohr_1958_rutherford_memorial_lecture",
+        "page": 27,
+        "quote": "Rutherford himself had as early as 1920 in his second Bakerian Lecture clearly pointed out the difficulties of interpreting cc-ray emission froin nuclei"
+      }
+    ]
+  },
+  {
+    "id": "rutherford_visits_copenhagen",
+    "event_type": "visit",
+    "label": "Rutherford visited Copenhagen",
+    "description": "Rutherford visited the Copenhagen Institute in the autumn of 1920.",
+    "date": {
+      "display": "autumn of 1920",
+      "precision": "range",
+      "sort_start": "1920-09-01",
+      "sort_end": "1920-11-30"
+    },
+    "participants": [
+      {
+        "entity_id": "ernest_rutherford",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_copenhagen",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bohr_1958_rutherford_memorial_lecture",
+        "page": 19,
+        "quote": "already in the autumn of 1920, when the Institute bullding was nearing completion, Rutherford found time to visit US in Copenhagen"
+      }
+    ]
+  },
+  {
+    "id": "cockcroft_walton_experiment",
+    "event_type": "public_demonstration",
+    "label": "Cockcroft and Walton produced alpha particles by proton impact",
+    "description": "Production of high-speed alpha-particles by proton impact on lithium nuclei was obtained.",
+    "date": {
+      "display": "March 1932",
+      "precision": "month",
+      "sort_start": "1932-03-01",
+      "sort_end": "1932-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_cockcroft",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ernest_rutherford",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bohr_1958_rutherford_memorial_lecture",
+        "page": 28,
+        "quote": "production of high-speed a-particles by proton impact on lithium nuclei was obtained in March 1932."
+      }
+    ]
+  },
+  {
+    "id": "chadwick_neutron_discovery",
+    "event_type": "invention",
+    "label": "Chadwick discovered the neutron",
+    "description": "Chadwick was able to prove that one was faced with momentum and energy exchanges through a neutral particle.",
+    "date": {
+      "display": "1932",
+      "precision": "year",
+      "sort_start": "1932-01-01",
+      "sort_end": "1932-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "james_chadwick",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ernest_rutherford",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bohr_1958_rutherford_memorial_lecture",
+        "page": 29,
+        "quote": "Chadwick was able to prove that one was faced with momentum and energy exchanges through a neutral particle, the mass of which he determined as differing from that of the proton by less than one part in a thousand."
+      }
+    ]
+  },
+  {
+    "id": "rutherford_death",
+    "event_type": "death",
+    "label": "Rutherford died",
+    "description": "Rutherford died in 1937.",
+    "date": {
+      "display": "1937",
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1937-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ernest_rutherford",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bohr_1958_rutherford_memorial_lecture",
+        "page": 31,
+        "quote": "Less than two years after Rutherford's death in 1937"
+      }
+    ]
+  },
+  {
+    "id": "rutherford_burial",
+    "event_type": "other",
+    "label": "Rutherford was buried in Westminster Abbey",
+    "description": "Rutherford was buried in Westminster Abbey, close to the sarcophagus of Newton.",
+    "date": {
+      "display": "1937",
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1937-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ernest_rutherford",
+        "role": "subject"
+      },
+      {
+        "entity_id": "westminster_abbey",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bohr_1958_rutherford_memorial_lecture",
+        "page": 34,
+        "quote": "On one of the following days, Rutherford was buried in Westminster Abbey, close to the sarcophagus of Newton."
+      }
+    ]
+  },
+  {
+    "id": "rutherford_memorial_lecture",
+    "event_type": "conference",
+    "label": "Bohr delivered Rutherford Memorial Lecture",
+    "description": "Bohr delivered the lecture at a meeting of The Physical Society of London.",
+    "date": {
+      "display": "28th November 1958",
+      "precision": "day",
+      "sort_start": "1958-11-28",
+      "sort_end": "1958-11-28"
+    },
+    "participants": [
+      {
+        "entity_id": "niels_bohr",
+        "role": "subject"
+      },
+      {
+        "entity_id": "physical_society",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bohr_1958_rutherford_memorial_lecture",
+        "page": 2,
+        "quote": "lecture delivered @lthout a prepared manuscript at a meeting of The Physical Society of London at the Impend College of Science and Technology on 28th November 1958."
+      }
+    ]
+  }
+]

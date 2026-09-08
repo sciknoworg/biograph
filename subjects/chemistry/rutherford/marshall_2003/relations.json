@@ -1,0 +1,129 @@
+[
+  {
+    "id": "rutherford_worked_mcgill",
+    "source": "ernest_rutherford",
+    "type": "worked_at",
+    "target": "mcgill_university",
+    "start": {
+      "display": "1900",
+      "precision": "year",
+      "sort_start": "1900-01-01",
+      "sort_end": "1900-12-31"
+    },
+    "end": {
+      "display": "1907",
+      "precision": "year",
+      "sort_start": "1907-01-01",
+      "sort_end": "1907-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "marshall_2003",
+        "page": 78,
+        "quote": "Macdonald Professor of McGill University, Montreal, Canada"
+      }
+    ]
+  },
+  {
+    "id": "rutherford_worked_manchester",
+    "source": "ernest_rutherford",
+    "type": "worked_at",
+    "target": "university_of_manchester",
+    "start": {
+      "display": "1907",
+      "precision": "year",
+      "sort_start": "1907-01-01",
+      "sort_end": "1907-12-31"
+    },
+    "end": {
+      "display": "1918",
+      "precision": "year",
+      "sort_start": "1918-01-01",
+      "sort_end": "1918-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "marshall_2003",
+        "page": 80,
+        "quote": "He had moved on to other work at Manchester University (1907-1918)"
+      }
+    ]
+  },
+  {
+    "id": "rutherford_worked_cambridge",
+    "source": "ernest_rutherford",
+    "type": "worked_at",
+    "target": "cambridge_university",
+    "start": {
+      "display": "1919",
+      "precision": "year",
+      "sort_start": "1919-01-01",
+      "sort_end": "1919-12-31"
+    },
+    "end": {
+      "display": "1937",
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1937-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "marshall_2003",
+        "page": 80,
+        "quote": "and then on to Cambridge University (1919-1937)"
+      }
+    ]
+  },
+  {
+    "id": "rutherford_collaborated_soddy",
+    "source": "ernest_rutherford",
+    "type": "collaborated_with",
+    "target": "frederick_soddy",
+    "start": {
+      "display": "1901",
+      "precision": "year",
+      "sort_start": "1901-01-01",
+      "sort_end": "1901-12-31"
+    },
+    "end": {
+      "display": "1903",
+      "precision": "year",
+      "sort_start": "1903-01-01",
+      "sort_end": "1903-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "marshall_2003",
+        "page": 78,
+        "quote": "collaborated with his colleague Frederick Soddy"
+      }
+    ]
+  },
+  {
+    "id": "dorn_worked_halle",
+    "source": "friedrich_ernst_dorn",
+    "type": "worked_at",
+    "target": "friedrichs_universitat_halle",
+    "sources": [
+      {
+        "source_id": "marshall_2003",
+        "page": 77,
+        "quote": "Professor of Friedrichs Universität, Halle (Saale)"
+      }
+    ]
+  },
+  {
+    "id": "rutherford_discovered_radon",
+    "source": "ernest_rutherford",
+    "type": "invented",
+    "target": "radon",
+    "event_id": "rutherford_soddy_gas_conclusion",
+    "sources": [
+      {
+        "source_id": "marshall_2003",
+        "page": 80,
+        "quote": "Rutherford should be given credit for the discovery of radon"
+      }
+    ]
+  }
+]

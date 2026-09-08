@@ -1,0 +1,100 @@
+[
+  {
+    "aliases": [
+      "J. Heyrovský",
+      "Prof. Heyrovský",
+      "Professor Heyrovský"
+    ],
+    "entity_type": "person",
+    "id": "jaroslav_heyrovsky",
+    "name": "Jaroslav Heyrovský",
+    "subtype": "researcher",
+    "summary": "Czech chemist and Nobel laureate who invented the polarographic method of analysis."
+  },
+  {
+    "aliases": [
+      "Prof. RNDr. Jiří Barek, CSc.",
+      "Barek"
+    ],
+    "entity_type": "person",
+    "id": "jiri_barek",
+    "name": "Jiří Barek",
+    "subtype": "researcher",
+    "summary": "Author of the article and head of the Department of Analytical Chemistry at Charles University."
+  },
+  {
+    "aliases": [
+      "Professor Shikata",
+      "Prof. Shikata"
+    ],
+    "entity_type": "person",
+    "id": "m_shikata",
+    "name": "M. Shikata",
+    "subtype": "researcher",
+    "summary": "Collaborator who helped Heyrovský construct the first polarograph."
+  },
+  {
+    "aliases": [
+      "King of Sweden Gustav Adolph VI",
+      "King Gustav Adolph VI"
+    ],
+    "entity_type": "person",
+    "id": "gustav_adolph_vi",
+    "name": "Gustav Adolph VI",
+    "subtype": "monarch",
+    "summary": "King of Sweden who presented the Nobel Prize to Heyrovský."
+  },
+  {
+    "aliases": [
+      "Faculty of Science, Charles University"
+    ],
+    "attributes": {
+      "country": "Czech Republic"
+    },
+    "entity_type": "organization",
+    "id": "charles_university",
+    "name": "Charles University",
+    "subtype": "university",
+    "summary": "University in Prague where Jiří Barek is affiliated."
+  },
+  {
+    "aliases": [
+      "Nobel Prize for Polarography"
+    ],
+    "entity_type": "artifact",
+    "id": "nobel_prize_1959",
+    "name": "Nobel Prize",
+    "subtype": "award",
+    "summary": "Nobel Prize awarded for the discovery of the polarographic method of analysis."
+  },
+  {
+    "aliases": [
+      "first polarograph",
+      "photorecording Polarograph"
+    ],
+    "entity_type": "artifact",
+    "id": "polarograph",
+    "name": "Polarograph",
+    "subtype": "invention",
+    "summary": "Instrument constructed by Heyrovský and Shikata to record current-voltage curves photographically."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Czech Republic"
+    },
+    "entity_type": "place",
+    "id": "prague",
+    "name": "Prague",
+    "subtype": "city",
+    "summary": "City where Heyrovský established a center of polarographic research."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "sweden",
+    "name": "Sweden",
+    "subtype": "country",
+    "summary": "Country of the King who awarded the Nobel Prize."
+  }
+]

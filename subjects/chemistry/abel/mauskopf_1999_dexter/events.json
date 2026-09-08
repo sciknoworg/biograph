@@ -1,0 +1,306 @@
+[
+  {
+    "id": "abel_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1827",
+      "precision": "year",
+      "sort_start": "1827-01-01",
+      "sort_end": "1827-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "frederick_abel",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mauskopf_1999_dexter",
+        "page": 5,
+        "quote": "Frederick Abel (1827-1902)."
+      }
+    ]
+  },
+  {
+    "id": "abel_left_rcc",
+    "event_type": "employment_end",
+    "label": "Left Royal College of Chemistry",
+    "date": {
+      "display": "1851",
+      "precision": "year",
+      "sort_start": "1851-01-01",
+      "sort_end": "1851-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "frederick_abel",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_college_of_chemistry",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mauskopf_1999_dexter",
+        "page": 5,
+        "quote": "Abel left the college in 1851 to take a post as Demonstrator of Chemistry at St. Bartholomew's Hospital, London."
+      }
+    ]
+  },
+  {
+    "id": "abel_st_barts",
+    "event_type": "employment_start",
+    "label": "Demonstrator at St. Bartholomew's Hospital",
+    "date": {
+      "display": "1851",
+      "precision": "year",
+      "sort_start": "1851-01-01",
+      "sort_end": "1851-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "frederick_abel",
+        "role": "subject"
+      },
+      {
+        "entity_id": "st_bartholomews_hospital",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mauskopf_1999_dexter",
+        "page": 5,
+        "quote": "Abel left the college in 1851 to take a post as Demonstrator of Chemistry at St. Bartholomew's Hospital, London."
+      }
+    ]
+  },
+  {
+    "id": "abel_woolwich_lecturer",
+    "event_type": "employment_start",
+    "label": "Lecturer at Royal Military Academy, Woolwich",
+    "date": {
+      "display": "1853",
+      "precision": "year",
+      "sort_start": "1853-01-01",
+      "sort_end": "1853-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "frederick_abel",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_military_academy_woolwich",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mauskopf_1999_dexter",
+        "page": 5,
+        "quote": "Two years later he secured the position of Lecturer in Chemistry at the Royal Military Academy, Woolwich, upon the retirement of Faraday."
+      }
+    ]
+  },
+  {
+    "id": "abel_war_office",
+    "event_type": "employment_start",
+    "label": "Scientific Advisor to the War Office",
+    "date": {
+      "display": "1854",
+      "precision": "year",
+      "sort_start": "1854-01-01",
+      "sort_end": "1854-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "frederick_abel",
+        "role": "subject"
+      },
+      {
+        "entity_id": "war_office",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mauskopf_1999_dexter",
+        "page": 5,
+        "quote": "Scientific Advisor to the War Office (1854), a position soon elevated to 'Chemist of the War Department'."
+      }
+    ]
+  },
+  {
+    "id": "abel_guncotton_investigation",
+    "event_type": "other",
+    "label": "Entered investigation of guncotton",
+    "date": {
+      "display": "Early in 1863",
+      "precision": "year",
+      "sort_start": "1863-01-01",
+      "sort_end": "1863-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "frederick_abel",
+        "role": "subject"
+      },
+      {
+        "entity_id": "guncotton",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mauskopf_1999_dexter",
+        "page": 6,
+        "quote": "Early in 1863, by desire of the Secretary of State for War, I entered upon a detailed investigation of the manufacture of guncotton..."
+      }
+    ]
+  },
+  {
+    "id": "abel_guncotton_stabilized",
+    "event_type": "invention",
+    "label": "Stabilized guncotton",
+    "date": {
+      "display": "by 1865",
+      "precision": "year",
+      "sort_start": "1865-01-01",
+      "sort_end": "1865-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "frederick_abel",
+        "role": "subject"
+      },
+      {
+        "entity_id": "guncotton",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mauskopf_1999_dexter",
+        "page": 3,
+        "quote": "Abel achieved part of this objective by 1865 and appeared to be very optimistic about developing a smokeless military propellant from guncotton..."
+      }
+    ]
+  },
+  {
+    "id": "abel_abandoned_guncotton",
+    "event_type": "other",
+    "label": "Ceased experimentation on guncotton as propellant",
+    "date": {
+      "display": "By 1868",
+      "precision": "year",
+      "sort_start": "1868-01-01",
+      "sort_end": "1868-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "frederick_abel",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mauskopf_1999_dexter",
+        "page": 8,
+        "quote": "By 1868, then, Abel seems effectively to have ceased experimentation on guncotton as a substitute propellant for gunpowder."
+      }
+    ]
+  },
+  {
+    "id": "abel_gunpowder_research",
+    "event_type": "other",
+    "label": "Returned to gunpowder research",
+    "date": {
+      "display": "1868",
+      "precision": "year",
+      "sort_start": "1868-01-01",
+      "sort_end": "1868-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "frederick_abel",
+        "role": "subject"
+      },
+      {
+        "entity_id": "andrew_noble",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "gunpowder",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mauskopf_1999_dexter",
+        "page": 9,
+        "quote": "Over a decade, starting in 1868, in tandem with Andrew Noble, a polymath in gunnery and munitions, Abel pursued research on the function of gunpowder in guns of all calibers..."
+      }
+    ]
+  },
+  {
+    "id": "abel_cordite",
+    "event_type": "invention",
+    "label": "Devised cordite",
+    "date": {
+      "display": "mid-1880s",
+      "precision": "decade",
+      "sort_start": "1885-01-01",
+      "sort_end": "1889-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "frederick_abel",
+        "role": "subject"
+      },
+      {
+        "entity_id": "james_dewar",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "cordite",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mauskopf_1999_dexter",
+        "page": 9,
+        "quote": "Abel himself came out of retirement to devise one of the best, 'cordite,' in collaboration with James Dewar."
+      }
+    ]
+  },
+  {
+    "id": "abel_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1902",
+      "precision": "year",
+      "sort_start": "1902-01-01",
+      "sort_end": "1902-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "frederick_abel",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mauskopf_1999_dexter",
+        "page": 5,
+        "quote": "Frederick Abel (1827-1902)."
+      }
+    ]
+  }
+]

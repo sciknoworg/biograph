@@ -1,0 +1,180 @@
+[
+  {
+    "id": "hughes_born_1906",
+    "source": "edward_david_hughes",
+    "type": "born_in",
+    "target": "edward_david_hughes",
+    "event_id": "hughes_born",
+    "sources": [
+      {
+        "source_id": "saltzman_1994",
+        "page": 40,
+        "quote": "Edward David Hughes (1906-1963)"
+      }
+    ]
+  },
+  {
+    "id": "hughes_studied_wales",
+    "source": "edward_david_hughes",
+    "type": "studied_at",
+    "target": "university_of_wales",
+    "event_id": "hughes_phd",
+    "sources": [
+      {
+        "source_id": "saltzman_1994",
+        "page": 42,
+        "quote": "Hughes had just recently received the Ph.D. degree at the University of Wales under the tutelage of Herbert B. Watson (1894-1975)."
+      }
+    ]
+  },
+  {
+    "id": "hughes_supervised_watson",
+    "source": "edward_david_hughes",
+    "type": "supervised_by",
+    "target": "herbert_b_watson",
+    "event_id": "hughes_phd",
+    "sources": [
+      {
+        "source_id": "saltzman_1994",
+        "page": 42,
+        "quote": "Hughes had just recently received the Ph.D. degree at the University of Wales under the tutelage of Herbert B. Watson (1894-1975)."
+      }
+    ]
+  },
+  {
+    "id": "hughes_worked_ucl",
+    "source": "edward_david_hughes",
+    "type": "worked_at",
+    "target": "university_college_london",
+    "event_id": "hughes_move_to_ucl",
+    "sources": [
+      {
+        "source_id": "saltzman_1994",
+        "page": 42,
+        "quote": "Hughes had come to University College in 1930 to do post-doctoral work with Ingold"
+      }
+    ]
+  },
+  {
+    "id": "hughes_collaborated_ingold",
+    "source": "edward_david_hughes",
+    "type": "collaborated_with",
+    "target": "christopher_k_ingold",
+    "note": "Hughes was a junior member of Ingold's department and acted as a surrogate for Ingold.",
+    "sources": [
+      {
+        "source_id": "saltzman_1994",
+        "page": 42,
+        "quote": "Hughes was a jun- ior member of Ingold's department at University Col- lege, London, and was most likely acting as a surrogate for Ingold."
+      }
+    ]
+  },
+  {
+    "id": "ingold_worked_ucl",
+    "source": "christopher_k_ingold",
+    "type": "worked_at",
+    "target": "university_college_london",
+    "event_id": "ingold_move_to_ucl",
+    "sources": [
+      {
+        "source_id": "saltzman_1994",
+        "page": 42,
+        "quote": "Ingold, who himself had just arrived from a previous post at Leeds University."
+      }
+    ]
+  },
+  {
+    "id": "ingold_worked_leeds",
+    "source": "christopher_k_ingold",
+    "type": "worked_at",
+    "target": "leeds_university",
+    "sources": [
+      {
+        "source_id": "saltzman_1994",
+        "page": 42,
+        "quote": "Ingold, who himself had just arrived from a previous post at Leeds University."
+      }
+    ]
+  },
+  {
+    "id": "ingold_worked_imperial",
+    "source": "christopher_k_ingold",
+    "type": "worked_at",
+    "target": "imperial_college",
+    "sources": [
+      {
+        "source_id": "saltzman_1994",
+        "page": 41,
+        "quote": "Kon was a close associate of C.K. Ingold as both had been at Imperial College during the period that Ingold had been a student and later a junior member of the staff (1913-1924)."
+      }
+    ]
+  },
+  {
+    "id": "wallis_worked_princeton",
+    "source": "everett_s_wallis",
+    "type": "worked_at",
+    "target": "princeton_university",
+    "sources": [
+      {
+        "source_id": "saltzman_1994",
+        "page": 41,
+        "quote": "Everett S. Wallis of Princeton University"
+      }
+    ]
+  },
+  {
+    "id": "watson_worked_bangor",
+    "source": "herbert_b_watson",
+    "type": "worked_at",
+    "target": "university_college_bangor",
+    "sources": [
+      {
+        "source_id": "saltzman_1994",
+        "page": 42,
+        "quote": "Kennedy J.P. Orton (1872-1930), one of the undisputed masters of kinetic analysis in Britain and head of the department at University College, Bangor (Wales) where Hughes stud- ied."
+      }
+    ]
+  },
+  {
+    "id": "hughes_published_hydrolysis",
+    "source": "edward_david_hughes",
+    "type": "published",
+    "target": "hydrolysis_of_secondary_and_tertiary_halides",
+    "event_id": "hughes_paper_published",
+    "sources": [
+      {
+        "source_id": "saltzman_1994",
+        "page": 40,
+        "quote": "Why did Hughes choose to publish this paper entitled \"Hydrolysis of Secondary and Ter- tiary Halides\" in an American journal when all the rest of his publications appeared in British journals?"
+      }
+    ]
+  },
+  {
+    "id": "whitmore_published_common_basis",
+    "source": "frank_c_whitmore",
+    "type": "published",
+    "target": "journal_of_the_american_chemical_society",
+    "event_id": "whitmore_common_basis_paper",
+    "sources": [
+      {
+        "source_id": "saltzman_1994",
+        "page": 40,
+        "quote": "In 1932 there appeared one of the landmark papers in the history of American physical organic chemistry \"The Common Basis of Intramolecular Rearrangements\" (7) by Frank C. Whitmore."
+      }
+    ]
+  },
+  {
+    "id": "wallis_published_carbanion",
+    "source": "everett_s_wallis",
+    "type": "published",
+    "target": "journal_of_the_american_chemical_society",
+    "event_id": "wallis_carbanion_paper",
+    "sources": [
+      {
+        "source_id": "saltzman_1994",
+        "page": 41,
+        "quote": "In a paper which ap- peared in the September, 1933 issue of the Journal of the American Chemical Society, Wallis stated in a footnote \"The above word is here proposed for a negatively charged carbon ion in contrast to the term carbonium which indicates a positively charged ion.\""
+      }
+    ]
+  }
+]

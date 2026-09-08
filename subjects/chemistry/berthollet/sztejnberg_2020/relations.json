@@ -1,0 +1,191 @@
+[
+  {
+    "id": "born_in",
+    "source": "claude_louis_berthollet",
+    "type": "born_in",
+    "target": "talloire",
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 1,
+        "quote": "Claude-Louis Berthollet (1748-1822) (Fig. 1) was born in Talloire (Upper Savoy) on December, 9, 1748"
+      }
+    ]
+  },
+  {
+    "id": "studied_at_turin",
+    "source": "claude_louis_berthollet",
+    "type": "studied_at",
+    "target": "university_of_turin",
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 1,
+        "quote": "To continue with his education, he began medicine studies at the University of Turin."
+      }
+    ]
+  },
+  {
+    "id": "employed_by_gobelins",
+    "source": "claude_louis_berthollet",
+    "type": "employed_by",
+    "target": "gobelins_manufactory",
+    "event_id": "gobelins_administrator",
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 2,
+        "quote": "Since 1784, he, as a well-known chemist, was administrator at the Gobelins Manufactory in Paris."
+      }
+    ]
+  },
+  {
+    "id": "employed_by_normal_school",
+    "source": "claude_louis_berthollet",
+    "type": "employed_by",
+    "target": "normal_school",
+    "event_id": "professor_normal_school",
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 2,
+        "quote": "On November 9, 1794, Berthollet was chosen as Professor of Chemistry at the Normal School in Paris."
+      }
+    ]
+  },
+  {
+    "id": "married_to",
+    "source": "claude_louis_berthollet",
+    "type": "married_to",
+    "target": "marguerite_marie_baur",
+    "event_id": "married",
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 2,
+        "quote": "In the same year he married Marguerite-Marie Baur."
+      }
+    ]
+  },
+  {
+    "id": "family_of_son",
+    "source": "claude_louis_berthollet",
+    "type": "family_of",
+    "target": "amedee_barthelemy_berthollet",
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 2,
+        "quote": "Their only son, Amédée-Barthélemy, was born in 1780."
+      }
+    ]
+  },
+  {
+    "id": "collaborated_with_napoleon",
+    "source": "claude_louis_berthollet",
+    "type": "collaborated_with",
+    "target": "napoleon_bonaparte",
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 2,
+        "quote": "Berthollet was a friend and confident of Napoleon Bonaparte (1769-1821), and he was one of the scientists who went with Napoleon to the Egyptian campaign"
+      }
+    ]
+  },
+  {
+    "id": "collaborated_with_monge",
+    "source": "claude_louis_berthollet",
+    "type": "collaborated_with",
+    "target": "gaspard_monge",
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 2,
+        "quote": "Another person who accompanied Napoleon's army in this campaign was the mathematician Gaspard Monge (1746-1818), a good friend of Berthollet."
+      }
+    ]
+  },
+  {
+    "id": "member_of_academie_paris",
+    "source": "claude_louis_berthollet",
+    "type": "member_of",
+    "target": "lacademie_royale_des_sciences",
+    "event_id": "elected_academie_paris",
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 6,
+        "quote": "He was elected a member of L'Académie Royale Des Sciences (The Royal Academy of Sciences) in Paris on April 21, 1780."
+      }
+    ]
+  },
+  {
+    "id": "member_of_society_arcueil",
+    "source": "claude_louis_berthollet",
+    "type": "member_of",
+    "target": "society_of_arcueil",
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 3,
+        "quote": "Berthollet and the mathematician Pierre-Simon Laplace (1749-1827) were a founding members of the Society of Arcueil."
+      }
+    ]
+  },
+  {
+    "id": "invented_potassium_chlorate",
+    "source": "claude_louis_berthollet",
+    "type": "invented",
+    "target": "potassium_chlorate",
+    "event_id": "prepared_potassium_chlorate",
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 5,
+        "quote": "A year earlier, he the first prepared in a pure state potassium chlorate"
+      }
+    ]
+  },
+  {
+    "id": "published_essai",
+    "source": "claude_louis_berthollet",
+    "type": "published",
+    "target": "essai_de_statique_chimique",
+    "event_id": "published_essai",
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 4,
+        "quote": "He was the author of a two-volume book entitled Essai De Statique Chimique (1803) published in Paris."
+      }
+    ]
+  },
+  {
+    "id": "died_in",
+    "source": "claude_louis_berthollet",
+    "type": "died_in",
+    "target": "arcueil",
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 7,
+        "quote": "DIED AT ARCUEIL, NEAR PARIS, THE VI [6] NOVEMBER MDCCCXXII [1822])."
+      }
+    ]
+  },
+  {
+    "id": "awarded_legion",
+    "source": "claude_louis_berthollet",
+    "type": "awarded",
+    "target": "legion_of_honour",
+    "event_id": "legion_of_honour",
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 3,
+        "quote": "On 14th June 1804, Napoleon made him Grand Officer of the Legion of Honour and Count."
+      }
+    ]
+  }
+]

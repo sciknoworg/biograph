@@ -1,0 +1,410 @@
+[
+  {
+    "id": "corey_joins_harvard",
+    "event_type": "employment_start",
+    "label": "Joined Harvard University",
+    "date": {
+      "display": "1960",
+      "precision": "year",
+      "sort_start": "1960-01-01",
+      "sort_end": "1960-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "e_j_corey",
+        "role": "subject"
+      },
+      {
+        "entity_id": "harvard_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hepler_smith_2018",
+        "page": 312,
+        "quote": "In 1960, Corey joined Harvard's chemistry department, where he was charged with teaching organic synthesis for the first time."
+      }
+    ]
+  },
+  {
+    "id": "corey_longifolene_publication",
+    "event_type": "publication",
+    "label": "Published total synthesis of longifolene",
+    "date": {
+      "display": "1964",
+      "precision": "year",
+      "sort_start": "1964-01-01",
+      "sort_end": "1964-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "e_j_corey",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hepler_smith_2018",
+        "page": 313,
+        "quote": "In a 1964 article, Corey brought his approach to teaching synthetic planning into an account of his research."
+      }
+    ]
+  },
+  {
+    "id": "corey_general_methods_lecture",
+    "event_type": "conference",
+    "label": "Delivered keynote on General Methods",
+    "date": {
+      "display": "1966",
+      "precision": "year",
+      "sort_start": "1966-01-01",
+      "sort_end": "1966-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "e_j_corey",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hepler_smith_2018",
+        "page": 314,
+        "quote": "Corey fleshed out this approach to synthetic design in a 1966 keynote address, in which he presented synthetic planning as a research topic in its own right."
+      }
+    ]
+  },
+  {
+    "id": "lhasa_introduction",
+    "event_type": "product_launch",
+    "label": "Introduced LHASA program",
+    "date": {
+      "display": "1969",
+      "precision": "year",
+      "sort_start": "1969-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "e_j_corey",
+        "role": "subject"
+      },
+      {
+        "entity_id": "todd_wipke",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "lhasa",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hepler_smith_2018",
+        "page": 318,
+        "quote": "Three years later, Corey and postdoctoral fellow Todd Wipke introduced readers of Science to OCSS, ''Organic Chemical Simulation of Synthesis,'' subsequently renamed LHASA, ''Logic and Heuristics Applied to Synthetic Analysis.''"
+      }
+    ]
+  },
+  {
+    "id": "wipke_departs_harvard",
+    "event_type": "employment_end",
+    "label": "Wipke departed for Princeton",
+    "date": {
+      "display": "1969",
+      "precision": "year",
+      "sort_start": "1969-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "todd_wipke",
+        "role": "subject"
+      },
+      {
+        "entity_id": "harvard_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hepler_smith_2018",
+        "page": 319,
+        "quote": "By the time Wipke departed in 1969 for an assistant professorship at Princeton, Corey had begun recruiting a small group of graduate and postdoctoral synthetic organic chemists whose career ambitions lay outside total synthesis."
+      }
+    ]
+  },
+  {
+    "id": "corey_quarterly_review_publication",
+    "event_type": "publication",
+    "label": "Published Computer-Assisted Analysis",
+    "date": {
+      "display": "1971",
+      "precision": "year",
+      "sort_start": "1971-01-01",
+      "sort_end": "1971-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "e_j_corey",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hepler_smith_2018",
+        "page": 318,
+        "quote": "LHASA was not just an application of ''retrosynthetic analysis,'' as Corey christened his method in a 1971 publication on the program."
+      }
+    ]
+  },
+  {
+    "id": "diels_alder_strategy_publication",
+    "event_type": "publication",
+    "label": "Published Diels-Alder strategy methods",
+    "date": {
+      "display": "1974",
+      "precision": "year",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "e_j_corey",
+        "role": "subject"
+      },
+      {
+        "entity_id": "jeff_howe",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "david_pensak",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hepler_smith_2018",
+        "page": 326,
+        "quote": "Corey, Howe, and Pensak estimated that it would take up to a half-dozen chemists several weeks to design flow charts for each strategy."
+      }
+    ]
+  },
+  {
+    "id": "warren_workbook_publication",
+    "event_type": "publication",
+    "label": "Warren published workbook",
+    "date": {
+      "display": "1978",
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stuart_warren",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hepler_smith_2018",
+        "page": 333,
+        "quote": "In 1978, Warren published a workbook based on this course, and in 1982, he published his textbook."
+      }
+    ]
+  },
+  {
+    "id": "warren_textbook_publication",
+    "event_type": "publication",
+    "label": "Warren published textbook",
+    "date": {
+      "display": "1982",
+      "precision": "year",
+      "sort_start": "1982-01-01",
+      "sort_end": "1982-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stuart_warren",
+        "role": "subject"
+      },
+      {
+        "entity_id": "organic_synthesis_disconnection_approach",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hepler_smith_2018",
+        "page": 333,
+        "quote": "In 1978, Warren published a workbook based on this course, and in 1982, he published his textbook."
+      }
+    ]
+  },
+  {
+    "id": "corey_robert_robinson_award",
+    "event_type": "award",
+    "label": "Received Robert Robinson Award",
+    "date": {
+      "display": "1988",
+      "precision": "year",
+      "sort_start": "1988-01-01",
+      "sort_end": "1988-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "e_j_corey",
+        "role": "subject"
+      },
+      {
+        "entity_id": "robert_robinson_award",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hepler_smith_2018",
+        "page": 334,
+        "quote": "In 1988, on his acceptance of the Robert Robinson Award of Britain's Royal Society of Chemistry—another honor whose first recipient had been Woodward—E. J. Corey delivered a lecture on ''retrosynthetic thinking.''"
+      }
+    ]
+  },
+  {
+    "id": "corey_national_medal_of_science",
+    "event_type": "award",
+    "label": "Received National Medal of Science",
+    "date": {
+      "display": "1988",
+      "precision": "year",
+      "sort_start": "1988-01-01",
+      "sort_end": "1988-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "e_j_corey",
+        "role": "subject"
+      },
+      {
+        "entity_id": "national_medal_of_science",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hepler_smith_2018",
+        "page": 336,
+        "quote": "Corey was awarded the medal in 1988."
+      }
+    ]
+  },
+  {
+    "id": "corey_logic_chemical_synthesis_publication",
+    "event_type": "publication",
+    "label": "Published The Logic of Chemical Synthesis",
+    "date": {
+      "display": "1989",
+      "precision": "year",
+      "sort_start": "1989-01-01",
+      "sort_end": "1989-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "e_j_corey",
+        "role": "subject"
+      },
+      {
+        "entity_id": "the_logic_of_chemical_synthesis",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hepler_smith_2018",
+        "page": 333,
+        "quote": "In 1989, Corey published The Logic of Chemical Synthesis, co-written with postdoctoral fellow Xue-Min Cheng."
+      }
+    ]
+  },
+  {
+    "id": "corey_nobel_prize",
+    "event_type": "award",
+    "label": "Received Nobel Prize",
+    "date": {
+      "display": "1990",
+      "precision": "year",
+      "sort_start": "1990-01-01",
+      "sort_end": "1990-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "e_j_corey",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize_chemistry_1990",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hepler_smith_2018",
+        "page": 330,
+        "quote": "Indeed, more than a quarter of the articles addressing total synthesis published in the Journal of the American Chemical Society since 1990 (the year of Corey's Nobel Prize) discuss retrosynthetic analysis."
+      }
+    ]
+  },
+  {
+    "id": "woodward_death",
+    "event_type": "death",
+    "label": "Woodward died",
+    "date": {
+      "display": "1979",
+      "precision": "year",
+      "sort_start": "1979-01-01",
+      "sort_end": "1979-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "r_b_woodward",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hepler_smith_2018",
+        "page": 336,
+        "quote": "A few years before his death in 1979, Woodward proposed Corey for the National Medal of Science."
+      }
+    ]
+  },
+  {
+    "id": "woodward_nominates_corey",
+    "event_type": "other",
+    "label": "Woodward nominated Corey for National Medal of Science",
+    "date": {
+      "display": "c. 1976",
+      "precision": "circa",
+      "sort_start": "1976-01-01",
+      "sort_end": "1976-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "r_b_woodward",
+        "role": "subject"
+      },
+      {
+        "entity_id": "e_j_corey",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hepler_smith_2018",
+        "page": 336,
+        "quote": "A few years before his death in 1979, Woodward proposed Corey for the National Medal of Science."
+      }
+    ]
+  }
+]

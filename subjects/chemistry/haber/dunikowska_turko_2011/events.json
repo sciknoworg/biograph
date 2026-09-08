@@ -1,0 +1,233 @@
+[
+  {
+    "id": "haber_birth",
+    "event_type": "birth",
+    "label": "Born in Breslau",
+    "description": "Fritz Haber was born into a Jewish family in Breslau.",
+    "date": {
+      "display": "1868",
+      "precision": "year",
+      "sort_start": "1868-01-01",
+      "sort_end": "1868-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "fritz_haber",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dunikowska_turko_2011",
+        "page": 1,
+        "quote": "Fritz Haber (1868–1934) ... earned the name of Germany's \"Doctor Death\"."
+      }
+    ]
+  },
+  {
+    "id": "haber_ammonia_synthesis",
+    "event_type": "invention",
+    "label": "First ammonia synthesis",
+    "description": "First millilitres of ammonia from atmospheric nitrogen flowed from laboratory apparatus.",
+    "date": {
+      "display": "July 1909",
+      "precision": "month",
+      "sort_start": "1909-07-01",
+      "sort_end": "1909-07-31"
+    },
+    "participants": [
+      {
+        "entity_id": "fritz_haber",
+        "role": "subject"
+      },
+      {
+        "entity_id": "robert_le_rossignol",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "ammonia_synthesis",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dunikowska_turko_2011",
+        "page": 6,
+        "quote": "In July 1909, the first millilitres of ammonia containing exclusively atmospheric nitrogen, unavailable before, flowed from their tabletop laboratory apparatus."
+      }
+    ]
+  },
+  {
+    "id": "haber_ypres_attack",
+    "event_type": "public_demonstration",
+    "label": "Directed chlorine gas attack at Ypres",
+    "description": "Haber personally directed the first successful chlorine gas attack on French and English lines.",
+    "date": {
+      "display": "22 April 1915",
+      "precision": "day",
+      "sort_start": "1915-04-22",
+      "sort_end": "1915-04-22"
+    },
+    "location": "ypr",
+    "participants": [
+      {
+        "entity_id": "fritz_haber",
+        "role": "subject"
+      },
+      {
+        "entity_id": "chlorine_gas",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dunikowska_turko_2011",
+        "page": 1,
+        "quote": "Less than a year later, on 22 April 1915, Haber personally directed the German chlorine gas attack at Ypres."
+      }
+    ]
+  },
+  {
+    "id": "clara_suicide",
+    "event_type": "death",
+    "label": "Clara Immerwahr committed suicide",
+    "description": "Haber's wife committed suicide in protest at his work on chemical weapons.",
+    "date": {
+      "display": "1 May 1915",
+      "precision": "day",
+      "sort_start": "1915-05-01",
+      "sort_end": "1915-05-01"
+    },
+    "participants": [
+      {
+        "entity_id": "clara_immerwahr",
+        "role": "subject"
+      },
+      {
+        "entity_id": "fritz_haber",
+        "role": "family_of"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dunikowska_turko_2011",
+        "page": 13,
+        "quote": "The marriage had its epilogue on 1 May 1915 at Dahlem"
+      },
+      {
+        "source_id": "dunikowska_turko_2011",
+        "page": 2,
+        "quote": "committed suicide in protest at his work"
+      }
+    ]
+  },
+  {
+    "id": "haber_nobel_prize",
+    "event_type": "award",
+    "label": "Awarded Nobel Prize in Chemistry",
+    "description": "Awarded the Nobel Prize for developing a method for the direct synthesis of ammonia.",
+    "date": {
+      "display": "1919",
+      "precision": "year",
+      "sort_start": "1919-01-01",
+      "sort_end": "1919-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "fritz_haber",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize_chemistry_1918",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dunikowska_turko_2011",
+        "page": 1,
+        "quote": "He was awarded the Nobel Prize in chemistry in 1919 for developing a method for the direct synthesis of ammonia from its elements: hydrogen and nitrogen ."
+      }
+    ]
+  },
+  {
+    "id": "haber_gold_project",
+    "event_type": "other",
+    "label": "Gold from seawater project",
+    "description": "Haber pursued a project to extract gold from sea water to help Germany pay reparations.",
+    "date": {
+      "display": "1920–1926",
+      "precision": "range",
+      "sort_start": "1920-01-01",
+      "sort_end": "1926-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "fritz_haber",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dunikowska_turko_2011",
+        "page": 15,
+        "quote": "Haber's project to extract gold from sea water, pursued from 1920 to 1926, and involving several ocean voyages, ended in failure"
+      }
+    ]
+  },
+  {
+    "id": "haber_exile",
+    "event_type": "relocation",
+    "label": "Left Germany for exile",
+    "description": "Haber left Germany after Hitler's rise to power and went into exile in England.",
+    "date": {
+      "display": "1933",
+      "precision": "year",
+      "sort_start": "1933-01-01",
+      "sort_end": "1933-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "fritz_haber",
+        "role": "subject"
+      },
+      {
+        "entity_id": "germany",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dunikowska_turko_2011",
+        "page": 16,
+        "quote": "In one of his last letters, Haber, already in exile in England, wrote the following to Bosch: ... 28 December 1933"
+      }
+    ]
+  },
+  {
+    "id": "haber_death",
+    "event_type": "death",
+    "label": "Died in Basel",
+    "description": "Haber died in Basel a year after leaving Germany.",
+    "date": {
+      "display": "1934",
+      "precision": "year",
+      "sort_start": "1934-01-01",
+      "sort_end": "1934-12-31"
+    },
+    "location": "basel",
+    "participants": [
+      {
+        "entity_id": "fritz_haber",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dunikowska_turko_2011",
+        "page": 3,
+        "quote": "A year later, having left Germany, he died in Basel."
+      }
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "abel_studied_rcc",
+    "source": "frederick_abel",
+    "type": "studied_at",
+    "target": "royal_college_of_chemistry",
+    "sources": [
+      {
+        "source_id": "mauskopf_1999_dexter",
+        "page": 5,
+        "quote": "A charter student (and one of the most esteemed) of W. A. Hofmann at the Royal College of Chemistry, Abel left the college in 1851..."
+      }
+    ]
+  },
+  {
+    "id": "abel_worked_st_barts",
+    "source": "frederick_abel",
+    "type": "worked_at",
+    "target": "st_bartholomews_hospital",
+    "sources": [
+      {
+        "source_id": "mauskopf_1999_dexter",
+        "page": 5,
+        "quote": "Abel left the college in 1851 to take a post as Demonstrator of Chemistry at St. Bartholomew's Hospital, London."
+      }
+    ]
+  },
+  {
+    "id": "abel_worked_woolwich",
+    "source": "frederick_abel",
+    "type": "worked_at",
+    "target": "royal_military_academy_woolwich",
+    "sources": [
+      {
+        "source_id": "mauskopf_1999_dexter",
+        "page": 5,
+        "quote": "Two years later he secured the position of Lecturer in Chemistry at the Royal Military Academy, Woolwich..."
+      }
+    ]
+  },
+  {
+    "id": "abel_employed_war_office",
+    "source": "frederick_abel",
+    "type": "employed_by",
+    "target": "war_office",
+    "sources": [
+      {
+        "source_id": "mauskopf_1999_dexter",
+        "page": 5,
+        "quote": "Scientific Advisor to the War Office (1854), a position soon elevated to 'Chemist of the War Department'."
+      }
+    ]
+  },
+  {
+    "id": "abel_collab_noble",
+    "source": "frederick_abel",
+    "type": "collaborated_with",
+    "target": "andrew_noble",
+    "sources": [
+      {
+        "source_id": "mauskopf_1999_dexter",
+        "page": 9,
+        "quote": "Over a decade, starting in 1868, in tandem with Andrew Noble, a polymath in gunnery and munitions, Abel pursued research on the function of gunpowder..."
+      }
+    ]
+  },
+  {
+    "id": "abel_collab_dewar",
+    "source": "frederick_abel",
+    "type": "collaborated_with",
+    "target": "james_dewar",
+    "sources": [
+      {
+        "source_id": "mauskopf_1999_dexter",
+        "page": 9,
+        "quote": "Abel himself came out of retirement to devise one of the best, 'cordite,' in collaboration with James Dewar."
+      }
+    ]
+  },
+  {
+    "id": "abel_invented_cordite",
+    "source": "frederick_abel",
+    "type": "invented",
+    "target": "cordite",
+    "sources": [
+      {
+        "source_id": "mauskopf_1999_dexter",
+        "page": 9,
+        "quote": "Abel himself came out of retirement to devise one of the best, 'cordite,' in collaboration with James Dewar."
+      }
+    ]
+  },
+  {
+    "id": "abel_developed_guncotton",
+    "source": "frederick_abel",
+    "type": "developed",
+    "target": "guncotton",
+    "sources": [
+      {
+        "source_id": "mauskopf_1999_dexter",
+        "page": 3,
+        "quote": "What I want to focus on is a part of that story: the work of the English munitions chemist, Frederick Abel, who tried to 'tame' guncotton for use as a military propellant in the 1860s."
+      }
+    ]
+  }
+]

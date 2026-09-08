@@ -1,0 +1,71 @@
+[
+  {
+    "id": "heyrovsky_awarded_nobel",
+    "source": "jaroslav_heyrovsky",
+    "type": "awarded",
+    "target": "nobel_prize_1959",
+    "event_id": "heyrovsky_nobel_award",
+    "sources": [
+      {
+        "source_id": "barek_2009_polarography_lounge",
+        "page": 1,
+        "quote": "On December 10th, 1959 Professor Jaroslav Heyrovský received from the hands of King of Sweden Gustav Adolph VI Nobel Prize"
+      }
+    ]
+  },
+  {
+    "id": "heyrovsky_invented_polarograph",
+    "source": "jaroslav_heyrovsky",
+    "type": "invented",
+    "target": "polarograph",
+    "event_id": "heyrovsky_shikata_polarograph",
+    "sources": [
+      {
+        "source_id": "barek_2009_polarography_lounge",
+        "page": 2,
+        "quote": "together with M. Shikata (see Fig. 5) constructed a new instrument, which was later called polarograph"
+      }
+    ]
+  },
+  {
+    "id": "heyrovsky_collaborated_shikata",
+    "source": "jaroslav_heyrovsky",
+    "type": "collaborated_with",
+    "target": "m_shikata",
+    "event_id": "heyrovsky_shikata_polarograph",
+    "sources": [
+      {
+        "source_id": "barek_2009_polarography_lounge",
+        "page": 2,
+        "quote": "together with M. Shikata (see Fig. 5) constructed a new instrument, which was later called polarograph"
+      }
+    ]
+  },
+  {
+    "id": "heyrovsky_based_prague",
+    "source": "jaroslav_heyrovsky",
+    "type": "lived_in",
+    "target": "prague",
+    "event_id": "heyrovsky_research_center",
+    "sources": [
+      {
+        "source_id": "barek_2009_polarography_lounge",
+        "page": 4,
+        "quote": "He created in Prague a center of polarographic research and created a scientific school"
+      }
+    ]
+  },
+  {
+    "id": "barek_affiliated_charles",
+    "source": "jiri_barek",
+    "type": "employed_by",
+    "target": "charles_university",
+    "sources": [
+      {
+        "source_id": "barek_2009_polarography_lounge",
+        "page": 1,
+        "quote": "Department of Analytical Chemistry, Faculty of Science, Charles University, Prague, Czech Republic"
+      }
+    ]
+  }
+]

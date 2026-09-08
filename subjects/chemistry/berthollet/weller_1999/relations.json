@@ -1,0 +1,136 @@
+[
+  {
+    "id": "berthollet_worked_gobelin",
+    "source": "claude_louis_berthollet",
+    "type": "worked_at",
+    "target": "gobelin_dye_works",
+    "sources": [
+      {
+        "source_id": "weller_1999",
+        "page": 61,
+        "quote": "As director of the Gobelin dye works, Berthollet studied the preparation of pigments and dyes"
+      }
+    ]
+  },
+  {
+    "id": "berthollet_met_napoleon",
+    "source": "claude_louis_berthollet",
+    "type": "met",
+    "target": "napoleon_bonaparte",
+    "sources": [
+      {
+        "source_id": "weller_1999",
+        "page": 62,
+        "quote": "Berthollet met Napoleon through Monge"
+      }
+    ]
+  },
+  {
+    "id": "berthollet_visited_italy",
+    "source": "claude_louis_berthollet",
+    "type": "visited",
+    "target": "italy",
+    "event_id": "italy_visit",
+    "sources": [
+      {
+        "source_id": "weller_1999",
+        "page": 62,
+        "quote": "visit Italy in 1796"
+      }
+    ]
+  },
+  {
+    "id": "berthollet_visited_egypt",
+    "source": "claude_louis_berthollet",
+    "type": "visited",
+    "target": "egypt",
+    "event_id": "egypt_expedition",
+    "sources": [
+      {
+        "source_id": "weller_1999",
+        "page": 63,
+        "quote": "in 1798 Napoleon undertook a campaign in Egypt"
+      }
+    ]
+  },
+  {
+    "id": "berthollet_published_recherches",
+    "source": "claude_louis_berthollet",
+    "type": "published",
+    "target": "recherches_sur_les_lois_de_laffinite",
+    "event_id": "publication_1801",
+    "sources": [
+      {
+        "source_id": "weller_1999",
+        "page": 65,
+        "quote": "in an 1801 volume (11)"
+      }
+    ]
+  },
+  {
+    "id": "berthollet_awarded_legion",
+    "source": "claude_louis_berthollet",
+    "type": "awarded",
+    "target": "order_of_legion_of_honor",
+    "sources": [
+      {
+        "source_id": "weller_1999",
+        "page": 63,
+        "quote": "In 1802 Napoleon created the Order of the Legion of Honor"
+      }
+    ]
+  },
+  {
+    "id": "berthollet_employed_senate",
+    "source": "claude_louis_berthollet",
+    "type": "employed_by",
+    "target": "french_senate",
+    "event_id": "count_senate",
+    "sources": [
+      {
+        "source_id": "weller_1999",
+        "page": 63,
+        "quote": "named to the French Senate"
+      }
+    ]
+  },
+  {
+    "id": "napoleon_founded_institut",
+    "source": "napoleon_bonaparte",
+    "type": "founded",
+    "target": "institut_d_egypte",
+    "sources": [
+      {
+        "source_id": "weller_1999",
+        "page": 63,
+        "quote": "In Egypt Napoleon established the Institut d'Egypte"
+      }
+    ]
+  },
+  {
+    "id": "berthollet_member_institut",
+    "source": "claude_louis_berthollet",
+    "type": "member_of",
+    "target": "institut_d_egypte",
+    "sources": [
+      {
+        "source_id": "weller_1999",
+        "page": 63,
+        "quote": "Berthollet succeeded Monge as the second president"
+      }
+    ]
+  },
+  {
+    "id": "berthollet_collaborated_lavoisier",
+    "source": "claude_louis_berthollet",
+    "type": "collaborated_with",
+    "target": "antoine_lavoisier",
+    "sources": [
+      {
+        "source_id": "weller_1999",
+        "page": 61,
+        "quote": "Berthollet was the first French scientist to support Lavoisier's theory of combustion in 1785"
+      }
+    ]
+  }
+]

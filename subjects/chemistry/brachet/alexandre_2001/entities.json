@@ -1,0 +1,95 @@
+[
+  {
+    "id": "jean_brachet",
+    "entity_type": "person",
+    "name": "Jean Brachet",
+    "aliases": [
+      "J. Brachet",
+      "Jean BRACHET"
+    ],
+    "summary": "Belgian embryologist and founding father of molecular biology known for chemical embryology and RNA research.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "albert_brachet",
+    "entity_type": "person",
+    "name": "Albert Brachet",
+    "aliases": [
+      "A. Brachet",
+      "Albert BRACHET"
+    ],
+    "summary": "Founder of the Brussels school of embryology and father of Jean Brachet.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "albert_dalcq",
+    "entity_type": "person",
+    "name": "Albert Dalcq",
+    "aliases": [
+      "A. Dalcq",
+      "Albert DALCQ"
+    ],
+    "summary": "Successor of Albert Brachet and collaborator with Jean Pasteels on morphogenetic gradients.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "jean_pasteels",
+    "entity_type": "person",
+    "name": "Jean Pasteels",
+    "aliases": [
+      "J. Pasteels",
+      "Jean PASTEELS"
+    ],
+    "summary": "Collaborator of Albert Dalcq known for work on embryonic induction and morphogenetic potential.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "joseph_needham",
+    "entity_type": "person",
+    "name": "Joseph Needham",
+    "aliases": [
+      "J. Needham",
+      "Joseph NEEDHAM"
+    ],
+    "summary": "British biochemist and father of chemical embryology who collaborated with Jean Brachet.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "c_waddington",
+    "entity_type": "person",
+    "name": "C. Waddington",
+    "aliases": [
+      "C.H. Waddington",
+      "Waddington"
+    ],
+    "summary": "British developmental biologist who collaborated on the nature of the amphibian organiser.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "universite_libre_de_bruxelles",
+    "entity_type": "organization",
+    "name": "Université Libre de Bruxelles",
+    "aliases": [
+      "ULB",
+      "Brussels school of embryology"
+    ],
+    "summary": "University where Albert Brachet held the Chair of Anatomy and founded the embryology school.",
+    "subtype": "university"
+  },
+  {
+    "id": "embryologie_chimique",
+    "entity_type": "artifact",
+    "name": "Embryologie Chimique",
+    "aliases": [],
+    "summary": "Book by Jean Brachet published in 1944 on chemical embryology.",
+    "subtype": "publication"
+  },
+  {
+    "id": "the_biochemistry_of_development",
+    "entity_type": "artifact",
+    "name": "The Biochemistry of Development",
+    "aliases": [],
+    "summary": "Book by Jean Brachet published in 1960.",
+    "subtype": "publication"
+  }
+]

@@ -1,0 +1,520 @@
+[
+  {
+    "id": "riveros_entered_univ_asuncion",
+    "event_type": "education",
+    "label": "Entered University of Asunción",
+    "description": "Entered the School of Chemistry and Pharmacy as an undergraduate.",
+    "date": {
+      "display": "1958",
+      "precision": "year",
+      "sort_start": "1958-01-01",
+      "sort_end": "1958-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jose_manuel_riveros",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_asuncion",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "correra_quina_2020",
+        "page": 2,
+        "quote": "he entered the  School of Chemistry and Pharmacy of the University of Asunción as an undergraduate in 1958."
+      }
+    ]
+  },
+  {
+    "id": "riveros_admitted_uc_berkeley",
+    "event_type": "education",
+    "label": "Admitted to UC Berkeley",
+    "description": "Admitted as a sophomore on a one-year scholarship extended to two more years.",
+    "date": {
+      "display": "1959",
+      "precision": "year",
+      "sort_start": "1959-01-01",
+      "sort_end": "1959-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jose_manuel_riveros",
+        "role": "subject"
+      },
+      {
+        "entity_id": "uc_berkeley",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "correra_quina_2020",
+        "page": 2,
+        "quote": "he was admitted as a sophomore in 1959."
+      }
+    ]
+  },
+  {
+    "id": "riveros_graduated_uc_berkeley",
+    "event_type": "education",
+    "label": "Graduated UC Berkeley",
+    "description": "Graduated at the top of the College of Chemistry class with a Bachelor's Degree in Chemistry.",
+    "date": {
+      "display": "1962",
+      "precision": "year",
+      "sort_start": "1962-01-01",
+      "sort_end": "1962-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jose_manuel_riveros",
+        "role": "subject"
+      },
+      {
+        "entity_id": "uc_berkeley",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "correra_quina_2020",
+        "page": 2,
+        "quote": "graduating at the top of the College of Chemi stry class of 1962."
+      }
+    ]
+  },
+  {
+    "id": "riveros_phd_harvard",
+    "event_type": "education",
+    "label": "Ph.D. studies at Harvard",
+    "description": "Pursued Ph.D. studies in physical chemistry under Professor E. Bright Wilson Jr.",
+    "date": {
+      "display": "1962-1966",
+      "precision": "range",
+      "sort_start": "1962-01-01",
+      "sort_end": "1966-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jose_manuel_riveros",
+        "role": "subject"
+      },
+      {
+        "entity_id": "harvard_university",
+        "role": "employer"
+      },
+      {
+        "entity_id": "e_bright_wilson_jr",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "correra_quina_2020",
+        "page": 2,
+        "quote": "he pursued Ph.D. studies in physical chemistry at Harvard University from 1962-1966 as a fellow of the Organization of American States under the supervision of Professor E. Bright Wilson Jr."
+      }
+    ]
+  },
+  {
+    "id": "riveros_married_cutler",
+    "event_type": "other",
+    "label": "Married Deborah Cutler",
+    "description": "Married the Bostonian Deborah Cutler who was destined to become his wife and lifelong companion.",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jose_manuel_riveros",
+        "role": "subject"
+      },
+      {
+        "entity_id": "deborah_cutler",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "correra_quina_2020",
+        "page": 2,
+        "quote": "met the Bostonian Deborah Cutler who was destined to become, in 1967, his wife and lifelong companion."
+      }
+    ]
+  },
+  {
+    "id": "riveros_arrived_sao_paulo",
+    "event_type": "relocation",
+    "label": "Arrived in São Paulo",
+    "description": "Arrived in São Paulo to begin his career in academia at the University of São Paulo.",
+    "date": {
+      "display": "December, 1967",
+      "precision": "month",
+      "sort_start": "1967-12-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jose_manuel_riveros",
+        "role": "subject"
+      },
+      {
+        "entity_id": "sao_paulo",
+        "role": "location"
+      },
+      {
+        "entity_id": "university_of_sao_paulo",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "correra_quina_2020",
+        "page": 2,
+        "quote": "Dr. Riveros and his wife arrived in São Paulo in December, 1967, to begin his career in academia."
+      }
+    ]
+  },
+  {
+    "id": "riveros_founding_member_sp_asademy",
+    "event_type": "award",
+    "label": "Founding Member of São Paulo State Academy of Science",
+    "description": "Recognized as a Founding Member of the São Paulo State Academy of Science.",
+    "date": {
+      "display": "1976",
+      "precision": "year",
+      "sort_start": "1976-01-01",
+      "sort_end": "1976-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jose_manuel_riveros",
+        "role": "subject"
+      },
+      {
+        "entity_id": "sao_paulo_state_academy_of_science",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "correra_quina_2020",
+        "page": 3,
+        "quote": "a Founding Member of the São Paulo State Academy of Science in 1976"
+      }
+    ]
+  },
+  {
+    "id": "riveros_full_professor",
+    "event_type": "role_change",
+    "label": "Rising to Full Professor",
+    "description": "Rose to the rank of Full Professor after acquiring Brazilian citizenship.",
+    "date": {
+      "display": "1977",
+      "precision": "year",
+      "sort_start": "1977-01-01",
+      "sort_end": "1977-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jose_manuel_riveros",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_sao_paulo",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "correra_quina_2020",
+        "page": 2,
+        "quote": "Rising to the rank of Full Professor in 1977 after acquiring Brazilian citizenship"
+      }
+    ]
+  },
+  {
+    "id": "riveros_fulbright",
+    "event_type": "award",
+    "label": "Fulbright fellowship",
+    "description": "Received a Fulbright fellowship.",
+    "date": {
+      "display": "1977",
+      "precision": "year",
+      "sort_start": "1977-01-01",
+      "sort_end": "1977-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jose_manuel_riveros",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "correra_quina_2020",
+        "page": 3,
+        "quote": "Recognition of his career achievements include a Fulbright fellowship in 1977"
+      }
+    ]
+  },
+  {
+    "id": "riveros_brazilian_academy",
+    "event_type": "award",
+    "label": "Election to Brazilian Academy of Sciences",
+    "description": "Election to full membership in the Brazilian Academy of Sciences.",
+    "date": {
+      "display": "1980",
+      "precision": "year",
+      "sort_start": "1980-01-01",
+      "sort_end": "1980-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jose_manuel_riveros",
+        "role": "subject"
+      },
+      {
+        "entity_id": "brazilian_academy_of_sciences",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "correra_quina_2020",
+        "page": 3,
+        "quote": "election to full membership in the Brazilian Academy of Sciences in 1980"
+      }
+    ]
+  },
+  {
+    "id": "riveros_iq_usp_director",
+    "event_type": "role_change",
+    "label": "Director of the IQ-USP",
+    "description": "Served as Director of the IQ-USP, overseeing scientific and administrative activities.",
+    "date": {
+      "display": "1982-1986",
+      "precision": "range",
+      "sort_start": "1982-01-01",
+      "sort_end": "1986-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jose_manuel_riveros",
+        "role": "subject"
+      },
+      {
+        "entity_id": "iq_usp",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "correra_quina_2020",
+        "page": 2,
+        "quote": "from 1982 -1986, as Direct or of the IQ -USP"
+      }
+    ]
+  },
+  {
+    "id": "riveros_rheinboldt_prize",
+    "event_type": "award",
+    "label": "Rheinboldt-Hauptmann Prize",
+    "description": "Awarded the Rheinboldt-Hauptmann Prize, Rhodia/IQ-USP.",
+    "date": {
+      "display": "1998",
+      "precision": "year",
+      "sort_start": "1998-01-01",
+      "sort_end": "1998-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jose_manuel_riveros",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "correra_quina_2020",
+        "page": 3,
+        "quote": "the Rheinboldt -Hauptmann Prize, Rhodia/IQ -USP in 1998"
+      }
+    ]
+  },
+  {
+    "id": "riveros_synchrotron_board",
+    "event_type": "role_change",
+    "label": "Scientific Board of Brazilian National Synchrotron Laboratory",
+    "description": "Served as a member of the Scientific Board of the Brazilian National Synchrotron Laboratory.",
+    "date": {
+      "display": "1999-2015",
+      "precision": "range",
+      "sort_start": "1999-01-01",
+      "sort_end": "2015-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jose_manuel_riveros",
+        "role": "subject"
+      },
+      {
+        "entity_id": "brazilian_national_synchrotron_laboratory",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "correra_quina_2020",
+        "page": 2,
+        "quote": "serving as a member of the Scie ntific Board of the Brazilian National Synchrotron Laboratory (1999 -2015)"
+      }
+    ]
+  },
+  {
+    "id": "riveros_simao_mathias_medal",
+    "event_type": "award",
+    "label": "Simão Mathias Medal",
+    "description": "Awarded the Simão Mathias Medal of the Brazilian Chemical Society.",
+    "date": {
+      "display": "2001",
+      "precision": "year",
+      "sort_start": "2001-01-01",
+      "sort_end": "2001-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jose_manuel_riveros",
+        "role": "subject"
+      },
+      {
+        "entity_id": "brazilian_chemical_society",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "correra_quina_2020",
+        "page": 3,
+        "quote": "the Simão Mathias Medal of the Brazilian Chemical Society in 2001"
+      }
+    ]
+  },
+  {
+    "id": "riveros_bsms_president",
+    "event_type": "role_change",
+    "label": "President of Brazilian Society of Mass Spectrometry",
+    "description": "Served as President of the Brazilian Society of Mass Spectrometry.",
+    "date": {
+      "display": "2005-2013",
+      "precision": "range",
+      "sort_start": "2005-01-01",
+      "sort_end": "2013-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jose_manuel_riveros",
+        "role": "subject"
+      },
+      {
+        "entity_id": "brazilian_society_of_mass_spectrometry",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "correra_quina_2020",
+        "page": 2,
+        "quote": "serving as President of the Brazilian Society of Mass Spectrometry (2005 -2013)"
+      }
+    ]
+  },
+  {
+    "id": "riveros_national_order_merit",
+    "event_type": "award",
+    "label": "National Order of Merit",
+    "description": "Awarded the National Order of Merit, Category Grã Cruz.",
+    "date": {
+      "display": "2005",
+      "precision": "year",
+      "sort_start": "2005-01-01",
+      "sort_end": "2005-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jose_manuel_riveros",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "correra_quina_2020",
+        "page": 3,
+        "quote": "and the National Order of Merit, Category Grã Cruz, in 2005"
+      }
+    ]
+  },
+  {
+    "id": "riveros_retirement",
+    "event_type": "retirement",
+    "label": "Compulsory retirement",
+    "description": "Following compulsory retirement at age 70.",
+    "date": {
+      "display": "2010",
+      "precision": "year",
+      "sort_start": "2010-01-01",
+      "sort_end": "2010-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jose_manuel_riveros",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_sao_paulo",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "correra_quina_2020",
+        "page": 3,
+        "quote": "Following compulsory retirement  in 2010 at age 70"
+      }
+    ]
+  },
+  {
+    "id": "riveros_emeritus",
+    "event_type": "award",
+    "label": "Elevated to Emeritus Professor",
+    "description": "Elevated to the status of Emeritus Professor in appreciation of contributions to the Institute.",
+    "date": {
+      "display": "2015",
+      "precision": "year",
+      "sort_start": "2015-01-01",
+      "sort_end": "2015-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jose_manuel_riveros",
+        "role": "subject"
+      },
+      {
+        "entity_id": "iq_usp",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "correra_quina_2020",
+        "page": 3,
+        "quote": "In 2015, Professor Riveros and two retired colleagues from the Biochemistry Department were the first to be elevated to th e status of Emeritus Professor"
+      }
+    ]
+  }
+]

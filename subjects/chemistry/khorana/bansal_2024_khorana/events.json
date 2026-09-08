@@ -1,0 +1,466 @@
+[
+  {
+    "id": "birth",
+    "event_type": "birth",
+    "label": "Born in Raipur",
+    "description": "Born under British colonial rule.",
+    "date": {
+      "display": "January 9, 1922",
+      "precision": "day",
+      "sort_start": "1922-01-09",
+      "sort_end": "1922-01-09"
+    },
+    "location": "raipur",
+    "participants": [
+      {
+        "entity_id": "har_gobind_khorana",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 1,
+        "quote": "Born on January 9, 1922, under British colonial rule"
+      }
+    ]
+  },
+  {
+    "id": "phd_start_liverpool",
+    "event_type": "education",
+    "label": "Started Ph.D. at University of Liverpool",
+    "description": "Moved to England to pursue a Ph.D. in organic chemistry.",
+    "date": {
+      "display": "1945",
+      "precision": "year",
+      "sort_start": "1945-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "har_gobind_khorana",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_liverpool",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 1,
+        "quote": "In 1945, under a Government of India Fellowship, he moved to England to pursue a Ph.D. in organic chemistry at the University of Liverpool."
+      }
+    ]
+  },
+  {
+    "id": "phd_completed_liverpool",
+    "event_type": "education",
+    "label": "Completed Ph.D.",
+    "description": "Completed Ph.D. working on the chemistry of melanins.",
+    "date": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "har_gobind_khorana",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_liverpool",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 1,
+        "quote": "Following the completion of his Ph.D. in 1948"
+      }
+    ]
+  },
+  {
+    "id": "postdoc_eth",
+    "event_type": "employment_start",
+    "label": "Postdoctoral research at ETH Zurich",
+    "description": "Worked on alkaloid chemistry with Vladimir Prelog.",
+    "date": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "har_gobind_khorana",
+        "role": "subject"
+      },
+      {
+        "entity_id": "eth_zurich",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 1,
+        "quote": "Following the completion of his Ph.D. in 1948, Khorana started his incredible scientific journey... He did his post-doctoral research in Swiss Federal Institute of Technology (ETH) in Zurich."
+      }
+    ]
+  },
+  {
+    "id": "postdoc_cambridge",
+    "event_type": "employment_start",
+    "label": "Moved to University of Cambridge",
+    "description": "Moved to the UK to work with Alexander Todd.",
+    "date": {
+      "display": "1949",
+      "precision": "year",
+      "sort_start": "1949-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "har_gobind_khorana",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_cambridge",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 1,
+        "quote": "In 1949, he moved to the UK to work with Alexander Todd at the University of Cambridge"
+      }
+    ]
+  },
+  {
+    "id": "relocation_canada",
+    "event_type": "relocation",
+    "label": "Immigrated to Canada",
+    "description": "Joined research team at University of British Columbia.",
+    "date": {
+      "display": "1952",
+      "precision": "year",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "har_gobind_khorana",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_british_columbia",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 1,
+        "quote": "In 1952, he immigrated to Canada to join the research team of Dr. Gordon M. Shrum at the University of British Columbia."
+      }
+    ]
+  },
+  {
+    "id": "relocation_wisconsin",
+    "event_type": "relocation",
+    "label": "Joined University of Wisconsin-Madison",
+    "description": "Focused research on the genetic code.",
+    "date": {
+      "display": "1960",
+      "precision": "year",
+      "sort_start": "1960-01-01",
+      "sort_end": "1960-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "har_gobind_khorana",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_wisconsin_madison",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 2,
+        "quote": "In 1960, he joined the University of Wisconsin-Madison"
+      }
+    ]
+  },
+  {
+    "id": "nobel_prize_award",
+    "event_type": "award",
+    "label": "Awarded Nobel Prize",
+    "description": "Nobel Prize in Physiology or Medicine for deciphering the genetic code.",
+    "date": {
+      "display": "1968",
+      "precision": "year",
+      "sort_start": "1968-01-01",
+      "sort_end": "1968-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "har_gobind_khorana",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize_physiology_medicine_1968",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 2,
+        "quote": "During his tenure at the University of Wisconsin, he was awarded the Nobel Prize in 1968"
+      }
+    ]
+  },
+  {
+    "id": "award_lasker",
+    "event_type": "award",
+    "label": "Awarded Albert Lasker Basic Medical Research Award",
+    "date": {
+      "display": "1968",
+      "precision": "year",
+      "sort_start": "1968-01-01",
+      "sort_end": "1968-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "har_gobind_khorana",
+        "role": "subject"
+      },
+      {
+        "entity_id": "albert_lasker_basic_medical_research_award",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 2,
+        "quote": "Khorana also received the Albert Lasker Basic Medical Research Award in 1968"
+      }
+    ]
+  },
+  {
+    "id": "award_padma_vibhushan",
+    "event_type": "award",
+    "label": "Awarded Padma Vibhushan",
+    "date": {
+      "display": "1969",
+      "precision": "year",
+      "sort_start": "1969-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "har_gobind_khorana",
+        "role": "subject"
+      },
+      {
+        "entity_id": "padma_vibhushan",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 2,
+        "quote": "He was also awarded the Padma Vibhushan in 1969"
+      }
+    ]
+  },
+  {
+    "id": "relocation_mit",
+    "event_type": "relocation",
+    "label": "Transitioned to MIT",
+    "description": "Shifted focus to study of membranes and signal transduction.",
+    "date": {
+      "display": "1970",
+      "precision": "year",
+      "sort_start": "1970-01-01",
+      "sort_end": "1970-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "har_gobind_khorana",
+        "role": "subject"
+      },
+      {
+        "entity_id": "massachusetts_institute_of_technology",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 2,
+        "quote": "In 1970, he transitioned to the Massachusetts Institute of Technology in Cambridge"
+      }
+    ]
+  },
+  {
+    "id": "artificial_gene_synthesis",
+    "event_type": "invention",
+    "label": "Synthesized first artificial gene",
+    "description": "Synthesized the first fully functional artificial gene outside of a living organism.",
+    "date": {
+      "display": "1970",
+      "precision": "year",
+      "sort_start": "1970-01-01",
+      "sort_end": "1970-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "har_gobind_khorana",
+        "role": "subject"
+      },
+      {
+        "entity_id": "artificial_gene",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 2,
+        "quote": "One of Khorana's most notable achievements occurred in 1970 when he synthesized the first fully functional artificial gene outside of a living organism."
+      }
+    ]
+  },
+  {
+    "id": "gene_functional_demo",
+    "event_type": "public_demonstration",
+    "label": "Demonstrated gene functionality",
+    "description": "Demonstrated that the synthetic gene was functional in a bacterium.",
+    "date": {
+      "display": "1979",
+      "precision": "year",
+      "sort_start": "1979-01-01",
+      "sort_end": "1979-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "har_gobind_khorana",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 2,
+        "quote": "In 1979, he demonstrated that this gene was functional in a bacterium"
+      }
+    ]
+  },
+  {
+    "id": "award_national_medal",
+    "event_type": "award",
+    "label": "Awarded National Medal of Science",
+    "date": {
+      "display": "1987",
+      "precision": "year",
+      "sort_start": "1987-01-01",
+      "sort_end": "1987-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "har_gobind_khorana",
+        "role": "subject"
+      },
+      {
+        "entity_id": "national_medal_of_science",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 2,
+        "quote": "and the National Medal of Science in 1987"
+      }
+    ]
+  },
+  {
+    "id": "retirement",
+    "event_type": "retirement",
+    "label": "Retired from MIT",
+    "date": {
+      "display": "2007",
+      "precision": "year",
+      "sort_start": "2007-01-01",
+      "sort_end": "2007-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "har_gobind_khorana",
+        "role": "subject"
+      },
+      {
+        "entity_id": "massachusetts_institute_of_technology",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 2,
+        "quote": "until his retirement in 2007"
+      }
+    ]
+  },
+  {
+    "id": "death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "November 9, 2011",
+      "precision": "day",
+      "sort_start": "2011-11-09",
+      "sort_end": "2011-11-09"
+    },
+    "participants": [
+      {
+        "entity_id": "har_gobind_khorana",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 1,
+        "quote": "November 9, 2011"
+      }
+    ]
+  }
+]

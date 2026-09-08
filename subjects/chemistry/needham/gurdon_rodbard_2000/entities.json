@@ -1,0 +1,263 @@
+[
+  {
+    "id": "joseph_needham",
+    "entity_type": "person",
+    "name": "Joseph Needham",
+    "aliases": [
+      "Joseph Needham senior",
+      "Needham"
+    ],
+    "summary": "British biochemist and historian of Chinese science, Fellow of the Royal Society and British Academy.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "dorothy_moyle",
+    "entity_type": "person",
+    "name": "Dorothy Moyle",
+    "aliases": [
+      "Dorothy Moyle Needham"
+    ],
+    "summary": "Biochemist and colleague of Joseph Needham at Cambridge.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "joseph_needham_father",
+    "entity_type": "person",
+    "name": "Dr. Joseph Needham",
+    "aliases": [
+      "Joseph Needham senior"
+    ],
+    "summary": "Harley Street physician specializing in anaesthesia.",
+    "subtype": "physician"
+  },
+  {
+    "id": "alicia_adelaide_montgomery_needham",
+    "entity_type": "person",
+    "name": "Alicia Adelaide Montgomery Needham",
+    "summary": "Mother of Joseph Needham.",
+    "subtype": "parent"
+  },
+  {
+    "id": "ew_barnes",
+    "entity_type": "person",
+    "name": "E.W. Barnes",
+    "aliases": [
+      "Bishop Barnes"
+    ],
+    "summary": "Master of the Temple in London and later radical Bishop of Birmingham.",
+    "subtype": "cleric"
+  },
+  {
+    "id": "frederick_william_sanderson",
+    "entity_type": "person",
+    "name": "Frederick William Sanderson",
+    "summary": "Headmaster of Oundle School.",
+    "subtype": "educator"
+  },
+  {
+    "id": "sir_hugh_anderson",
+    "entity_type": "person",
+    "name": "Sir Hugh Anderson",
+    "summary": "Eminent neurophysiologist and Master of Gonville and Caius College.",
+    "subtype": "academic"
+  },
+  {
+    "id": "sir_william_bate_hardy",
+    "entity_type": "person",
+    "name": "Sir William Bate Hardy",
+    "summary": "First Tutor to Joseph Needham at Gonville and Caius College.",
+    "subtype": "academic"
+  },
+  {
+    "id": "sir_frederick_gowland_hopkins",
+    "entity_type": "person",
+    "name": "Sir Frederick Gowland Hopkins",
+    "summary": "Head of Cambridge Biochemical Laboratory and pioneer of modern biochemistry in England.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "jbs_haldane",
+    "entity_type": "person",
+    "name": "J.B.S. Haldane",
+    "summary": "Predecessor to Joseph Needham as Sir William Dunn Reader in Biochemistry.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "ch_waddington",
+    "entity_type": "person",
+    "name": "C.H. Waddington",
+    "summary": "Embryologist and collaborator of Joseph Needham.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "albert_brachet",
+    "entity_type": "person",
+    "name": "Albert Brachet",
+    "aliases": [
+      "Jean Brachet"
+    ],
+    "summary": "Embryologist whose laboratory Joseph Needham visited in Brussels.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "otto_mangold",
+    "entity_type": "person",
+    "name": "Otto Mangold",
+    "summary": "Director of the Institute in Berlin where Needham worked.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "gonville_and_caius_college",
+    "entity_type": "organization",
+    "name": "Gonville and Caius College",
+    "aliases": [
+      "Caius",
+      "Gonville and Caius"
+    ],
+    "summary": "Cambridge University college where Needham studied and later served as Master.",
+    "subtype": "university"
+  },
+  {
+    "id": "oundle_school",
+    "entity_type": "organization",
+    "name": "Oundle School",
+    "summary": "Public school in Northamptonshire attended by Joseph Needham.",
+    "subtype": "school"
+  },
+  {
+    "id": "cambridge_university",
+    "entity_type": "organization",
+    "name": "Cambridge University",
+    "summary": "University where Needham spent 77 years of his life.",
+    "subtype": "university"
+  },
+  {
+    "id": "cambridge_biochemical_laboratory",
+    "entity_type": "organization",
+    "name": "Cambridge Biochemical Laboratory",
+    "summary": "Research laboratory headed by Sir Frederick Gowland Hopkins.",
+    "subtype": "lab"
+  },
+  {
+    "id": "royal_society",
+    "entity_type": "organization",
+    "name": "Royal Society",
+    "summary": "British Academy of Sciences to which Needham was elected in 1941.",
+    "subtype": "academy"
+  },
+  {
+    "id": "royal_navy",
+    "entity_type": "organization",
+    "name": "Royal Navy",
+    "summary": "Naval service where Needham served as surgeon sub-lieutenant in Volunteer Reserve.",
+    "subtype": "military"
+  },
+  {
+    "id": "oratory_of_the_good_shepherd",
+    "entity_type": "organization",
+    "name": "Oratory of the Good Shepherd",
+    "summary": "Anglican lay brotherhood where Needham lived for three years.",
+    "subtype": "religious_organization"
+  },
+  {
+    "id": "sino_british_science_cooperation_office",
+    "entity_type": "organization",
+    "name": "Sino-British Science co-operation office",
+    "summary": "Office in Chungking where Needham served as Scientific Counsellor.",
+    "subtype": "government_office"
+  },
+  {
+    "id": "unesco",
+    "entity_type": "organization",
+    "name": "United Nations Education, Scientific and Cultural Organisation",
+    "aliases": [
+      "UNESCO"
+    ],
+    "summary": "International organization where Needham built up the natural sciences division.",
+    "subtype": "international_organization"
+  },
+  {
+    "id": "chemical_embryology",
+    "entity_type": "artifact",
+    "name": "Chemical Embryology",
+    "summary": "Three volume treatise published by Joseph Needham in 1931.",
+    "subtype": "publication"
+  },
+  {
+    "id": "biochemistry_and_morphogenesis",
+    "entity_type": "artifact",
+    "name": "Biochemistry and Morphogenesis",
+    "summary": "Major work published by Joseph Needham in 1942.",
+    "subtype": "publication"
+  },
+  {
+    "id": "history_of_embryology",
+    "entity_type": "artifact",
+    "name": "History of Embryology",
+    "summary": "Book published by Joseph Needham in 1959.",
+    "subtype": "publication"
+  },
+  {
+    "id": "science_and_civilisation_in_china",
+    "entity_type": "artifact",
+    "name": "Science and Civilisation in China",
+    "summary": "Multi-volume treatise on Chinese history and culture begun by Needham in 1948.",
+    "subtype": "publication"
+  },
+  {
+    "id": "london",
+    "entity_type": "place",
+    "name": "London",
+    "summary": "City where Joseph Needham was born and attended school.",
+    "subtype": "city"
+  },
+  {
+    "id": "east_london",
+    "entity_type": "place",
+    "name": "East London",
+    "summary": "Area where Joseph Needham's father was born.",
+    "subtype": "district"
+  },
+  {
+    "id": "cambridge",
+    "entity_type": "place",
+    "name": "Cambridge",
+    "summary": "City where Needham studied and worked for most of his life.",
+    "subtype": "city"
+  },
+  {
+    "id": "germany",
+    "entity_type": "place",
+    "name": "Germany",
+    "summary": "Country where Needham conducted post-war research.",
+    "subtype": "country"
+  },
+  {
+    "id": "brussels",
+    "entity_type": "place",
+    "name": "Brussels",
+    "summary": "City where Needham learned embryological micro-operation.",
+    "subtype": "city"
+  },
+  {
+    "id": "berlin",
+    "entity_type": "place",
+    "name": "Berlin",
+    "summary": "City where Needham worked in Otto Mangold's Institute.",
+    "subtype": "city"
+  },
+  {
+    "id": "chungking",
+    "entity_type": "place",
+    "name": "Chungking",
+    "summary": "City where Needham served as Scientific Counsellor.",
+    "subtype": "city"
+  },
+  {
+    "id": "paris",
+    "entity_type": "place",
+    "name": "Paris",
+    "summary": "City where Needham worked for UNESCO.",
+    "subtype": "city"
+  }
+]

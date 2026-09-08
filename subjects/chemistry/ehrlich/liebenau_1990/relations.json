@@ -1,0 +1,84 @@
+[
+  {
+    "id": "ehrlich_worked_at_konigliches_anstalt",
+    "source": "paul_ehrlich",
+    "type": "worked_at",
+    "target": "konigliches_anstalt_fur_experimentelle_therapie",
+    "event_id": "ehrlich_director_steglitz",
+    "sources": [
+      {
+        "source_id": "liebenau_1990",
+        "page": 3,
+        "quote": "PaulEhrlich wasmadedirector"
+      }
+    ]
+  },
+  {
+    "id": "ehrlich_collaborated_with_hoechst",
+    "source": "paul_ehrlich",
+    "type": "collaborated_with",
+    "target": "hoechst_ag",
+    "event_id": "ehrlich_contract_hoechst",
+    "sources": [
+      {
+        "source_id": "liebenau_1990",
+        "page": 6,
+        "quote": "EhrlichagreedacontractwithHoechst,inMarch1894"
+      }
+    ]
+  },
+  {
+    "id": "ehrlich_founded_georg_speyer_haus",
+    "source": "paul_ehrlich",
+    "type": "founded",
+    "target": "georg_speyer_haus",
+    "event_id": "georg_speyer_haus_opened",
+    "sources": [
+      {
+        "source_id": "liebenau_1990",
+        "page": 12,
+        "quote": "GeorgSpeyerHaus,whichopenedin1906"
+      }
+    ]
+  },
+  {
+    "id": "ehrlich_invented_salvarsan",
+    "source": "paul_ehrlich",
+    "type": "invented",
+    "target": "salvarsan",
+    "event_id": "salvarsan_patented",
+    "sources": [
+      {
+        "source_id": "liebenau_1990",
+        "page": 12,
+        "quote": "patentingofSalvarsan,in1909"
+      }
+    ]
+  },
+  {
+    "id": "ehrlich_developed_methylene_blue",
+    "source": "paul_ehrlich",
+    "type": "developed",
+    "target": "methylene_blue",
+    "sources": [
+      {
+        "source_id": "liebenau_1990",
+        "page": 7,
+        "quote": "hisresearchin1891onmethyleneblue"
+      }
+    ]
+  },
+  {
+    "id": "behring_collaborated_with_ehrlich",
+    "source": "emil_von_behring",
+    "type": "collaborated_with",
+    "target": "paul_ehrlich",
+    "sources": [
+      {
+        "source_id": "liebenau_1990",
+        "page": 6,
+        "quote": "collaborationithadhadwithKoch,Behring,andEhrlich"
+      }
+    ]
+  }
+]

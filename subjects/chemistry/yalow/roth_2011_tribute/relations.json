@@ -1,0 +1,109 @@
+[
+  {
+    "id": "yalow_born_bronx",
+    "source": "rosalyn_yalow",
+    "type": "born_in",
+    "target": "bronx",
+    "sources": [
+      {
+        "source_id": "roth_2011_tribute",
+        "page": 1,
+        "quote": "Rosalyn Yalow lived nearly all of her life in the Bronx, where she was born, educated and worked, raised her family and met Solomon Berson, her scientific partner for many years."
+      }
+    ]
+  },
+  {
+    "id": "yalow_studied_hunter",
+    "source": "rosalyn_yalow",
+    "type": "studied_at",
+    "target": "hunter_college",
+    "sources": [
+      {
+        "source_id": "roth_2011_tribute",
+        "page": 1,
+        "quote": "Yalow was a top student at Hunter College, the tuition-free, all-female counterpart of City College, where she majored in physics."
+      }
+    ]
+  },
+  {
+    "id": "yalow_studied_illinois",
+    "source": "rosalyn_yalow",
+    "type": "studied_at",
+    "target": "university_of_illinois",
+    "sources": [
+      {
+        "source_id": "roth_2011_tribute",
+        "page": 1,
+        "quote": "Finally, as a favor to one of her Hunter College professors, the University of Illinois accepted her into their PhD program in nuclear physics with the condition that they bear no responsibility for placing her in a job after graduation."
+      }
+    ]
+  },
+  {
+    "id": "yalow_worked_bronx_va",
+    "source": "rosalyn_yalow",
+    "type": "worked_at",
+    "target": "bronx_va",
+    "event_id": "yalow_bronx_va_start",
+    "sources": [
+      {
+        "source_id": "roth_2011_tribute",
+        "page": 1,
+        "quote": "It was two years before she joined the Veterans Administration Hospital (“Bronx VA”) as a consultant and five years until she was hired as a full-time physicist."
+      }
+    ]
+  },
+  {
+    "id": "yalow_collaborated_berson",
+    "source": "rosalyn_yalow",
+    "type": "collaborated_with",
+    "target": "solomon_berson",
+    "event_id": "yalow_berson_partnership",
+    "sources": [
+      {
+        "source_id": "roth_2011_tribute",
+        "page": 1,
+        "quote": "Rosalyn Yalow lived nearly all of her life in the Bronx, where she was born, educated and worked, raised her family and met Solomon Berson, her scientific partner for many years."
+      }
+    ]
+  },
+  {
+    "id": "yalow_invented_ria",
+    "source": "rosalyn_yalow",
+    "type": "invented",
+    "target": "radioimmunoassay",
+    "sources": [
+      {
+        "source_id": "roth_2011_tribute",
+        "page": 2,
+        "quote": "Yalow and Berson then studied anti-insulin antibodies in great detail, leading them to create the radioimmunoassay only ten years after they first teamed up."
+      }
+    ]
+  },
+  {
+    "id": "yalow_awarded_nobel",
+    "source": "rosalyn_yalow",
+    "type": "awarded",
+    "target": "nobel_prize_physiology_medicine_1977",
+    "event_id": "yalow_nobel",
+    "sources": [
+      {
+        "source_id": "roth_2011_tribute",
+        "page": 2,
+        "quote": "My most vivid image is Ros Yalow (Figure 1), clad in a brilliant blue evening dress, stepping forward to accept her Nobel Prize from Sweden's King Carl XVI Gustaf."
+      }
+    ]
+  },
+  {
+    "id": "yalow_married_aaron",
+    "source": "rosalyn_yalow",
+    "type": "married_to",
+    "target": "aaron_yalow",
+    "sources": [
+      {
+        "source_id": "roth_2011_tribute",
+        "page": 2,
+        "quote": "At each event I was there applauding along with her family (husband Aaron and children Ben and Elanna) and colleagues Eugene Straus, Roger Unger, Harold Rifkin, and Susan Roth."
+      }
+    ]
+  }
+]

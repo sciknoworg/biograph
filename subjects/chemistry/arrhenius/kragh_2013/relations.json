@@ -1,0 +1,158 @@
+[
+  {
+    "id": "arrhenius_born_vik",
+    "source": "svante_arrhenius",
+    "type": "born_in",
+    "target": "vik",
+    "event_id": "arrhenius_birth",
+    "sources": [
+      {
+        "source_id": "kragh_2013",
+        "page": 1,
+        "quote": "born on 19 February 1859 at Vik, near Uppsala"
+      }
+    ]
+  },
+  {
+    "id": "arrhenius_died_stockholm",
+    "source": "svante_arrhenius",
+    "type": "died_in",
+    "target": "stockholm",
+    "event_id": "arrhenius_death",
+    "sources": [
+      {
+        "source_id": "kragh_2013",
+        "page": 1,
+        "quote": "died on 2 October 1927 in Stockholm."
+      }
+    ]
+  },
+  {
+    "id": "arrhenius_studied_uppsala",
+    "source": "svante_arrhenius",
+    "type": "studied_at",
+    "target": "uppsala_university",
+    "event_id": "arrhenius_undergraduate_uppsala",
+    "sources": [
+      {
+        "source_id": "kragh_2013",
+        "page": 3,
+        "quote": "After undergraduate studies at the University of Uppsala"
+      }
+    ]
+  },
+  {
+    "id": "arrhenius_worked_stockholm_college",
+    "source": "svante_arrhenius",
+    "type": "worked_at",
+    "target": "stockholm_college",
+    "start": {
+      "display": "1881",
+      "precision": "year",
+      "sort_start": "1881-01-01",
+      "sort_end": "1881-12-31"
+    },
+    "end": {
+      "display": "1905",
+      "precision": "year",
+      "sort_start": "1905-01-01",
+      "sort_end": "1905-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "kragh_2013",
+        "page": 3,
+        "quote": "in 1881 Arrhenius went to Stockholm College"
+      },
+      {
+        "source_id": "kragh_2013",
+        "page": 7,
+        "quote": "When Arrhenius resigned his physics professorship at Stockholm College in 1905"
+      }
+    ]
+  },
+  {
+    "id": "arrhenius_directed_nobel_institute",
+    "source": "svante_arrhenius",
+    "type": "worked_at",
+    "target": "nobel_institute_physical_chemistry",
+    "event_id": "arrhenius_nobel_institute_1905",
+    "sources": [
+      {
+        "source_id": "kragh_2013",
+        "page": 3,
+        "quote": "In 1905 he became the first director of the Nobel Institute for Physical Chemistry"
+      }
+    ]
+  },
+  {
+    "id": "arrhenius_awarded_nobel",
+    "source": "svante_arrhenius",
+    "type": "awarded",
+    "target": "nobel_prize_chemistry_1903",
+    "event_id": "arrhenius_nobel_1903",
+    "sources": [
+      {
+        "source_id": "kragh_2013",
+        "page": 3,
+        "quote": "earned him a Nobel Prize in chemistry in 1903."
+      }
+    ]
+  },
+  {
+    "id": "arrhenius_published_lehrbuch",
+    "source": "svante_arrhenius",
+    "type": "published",
+    "target": "lehrbuch_der_kosmischen_physik",
+    "event_id": "arrhenius_lehrbuch_1903",
+    "sources": [
+      {
+        "source_id": "kragh_2013",
+        "page": 6,
+        "quote": "Lehrbuch der kosmischen Physik that he published in 1903"
+      }
+    ]
+  },
+  {
+    "id": "arrhenius_published_worlds",
+    "source": "svante_arrhenius",
+    "type": "published",
+    "target": "worlds_in_the_making",
+    "event_id": "arrhenius_worlds_making_1907",
+    "sources": [
+      {
+        "source_id": "kragh_2013",
+        "page": 7,
+        "quote": "Worlds in the Making, a translation of a Swedish book from 1907"
+      }
+    ]
+  },
+  {
+    "id": "arrhenius_member_nobel_committee",
+    "source": "svante_arrhenius",
+    "type": "member_of",
+    "target": "nobel_committee_physics",
+    "event_id": "arrhenius_nobel_committee_1900",
+    "sources": [
+      {
+        "source_id": "kragh_2013",
+        "page": 7,
+        "quote": "member of the Nobel Committee for Physics since its beginning in 1900."
+      }
+    ]
+  },
+  {
+    "id": "arrhenius_founded_physics_society",
+    "source": "svante_arrhenius",
+    "type": "founded",
+    "target": "physics_society",
+    "event_id": "arrhenius_physics_society_1891",
+    "sources": [
+      {
+        "source_id": "kragh_2013",
+        "page": 4,
+        "quote": "he took the initiative to establish a Physics Society (Fysiska Sällskapet)"
+      }
+    ]
+  }
+]

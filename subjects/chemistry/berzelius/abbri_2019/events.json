@@ -1,0 +1,378 @@
+[
+  {
+    "id": "berzelius_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1779",
+      "precision": "year",
+      "sort_start": "1779-01-01",
+      "sort_end": "1779-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jons_jacob_berzelius",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "abbri_2019",
+        "page": 2,
+        "quote": "The history of Swedish chemistry is unavoidably connected to the name of Jöns Jacob Berzelius (1779-1848)"
+      }
+    ]
+  },
+  {
+    "id": "berzelius_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1848",
+      "precision": "year",
+      "sort_start": "1848-01-01",
+      "sort_end": "1848-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jons_jacob_berzelius",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "abbri_2019",
+        "page": 2,
+        "quote": "The history of Swedish chemistry is unavoidably connected to the name of Jöns Jacob Berzelius (1779-1848)"
+      }
+    ]
+  },
+  {
+    "id": "berzelius_studies_uppsala",
+    "event_type": "education",
+    "label": "Studied medicine at Uppsala University",
+    "date": {
+      "display": "late 18th century",
+      "precision": "decade",
+      "sort_start": "1790-01-01",
+      "sort_end": "1799-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jons_jacob_berzelius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "uppsala_university",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "abbri_2019",
+        "page": 2,
+        "quote": "the portrait of Berzelius as a young, poor student of medicine at Uppsala University"
+      }
+    ]
+  },
+  {
+    "id": "pub_afhandling_galvanismen",
+    "event_type": "publication",
+    "label": "Published Afhandling om Galvanismen",
+    "date": {
+      "display": "1802",
+      "precision": "year",
+      "sort_start": "1802-01-01",
+      "sort_end": "1802-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jons_jacob_berzelius",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "abbri_2019",
+        "page": 3,
+        "quote": "The Afhandling om Galvanismen (1802) and the Föreläsningar i djurkemien (1806-1808) mark the beginning of Berzelius's scientific career"
+      }
+    ]
+  },
+  {
+    "id": "pub_larbok_vol1",
+    "event_type": "publication",
+    "label": "Published first volume of Lärbok i kemien",
+    "date": {
+      "display": "1808",
+      "precision": "year",
+      "sort_start": "1808-01-01",
+      "sort_end": "1808-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jons_jacob_berzelius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "larbok_i_kemien",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "abbri_2019",
+        "page": 4,
+        "quote": "In 1808 in Stockholm the first volume ( Förra Del - len) of Berzelius's Lärbok i kemien appeared."
+      }
+    ]
+  },
+  {
+    "id": "pub_essai_nomenclature",
+    "event_type": "publication",
+    "label": "Published Essai sur la Nomenclature chimique",
+    "date": {
+      "display": "1811",
+      "precision": "year",
+      "sort_start": "1811-01-01",
+      "sort_end": "1811-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jons_jacob_berzelius",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "abbri_2019",
+        "page": 3,
+        "quote": "in 1811 Berzelius published in the Paris \"Journal de Physique\" his outstanding Essai sur la Nomenclature chimique"
+      }
+    ]
+  },
+  {
+    "id": "founded_lab_stockholm",
+    "event_type": "company_founded",
+    "label": "Founded laboratory of chemistry in Stockholm",
+    "date": {
+      "display": "1812",
+      "precision": "year",
+      "sort_start": "1812-01-01",
+      "sort_end": "1812-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jons_jacob_berzelius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "wilhelm_hisinger",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "abbri_2019",
+        "page": 2,
+        "quote": "From 1812 to 1819 thanks to the patronage of Wilhelm Hisinger, a naturalist and industrialist, Berzelius founded a laboratory of chemistry in Stockholm"
+      }
+    ]
+  },
+  {
+    "id": "elected_secretary_academy",
+    "event_type": "role_change",
+    "label": "Elected perpetual Secretary to the Royal Swedish Academy of Sciences",
+    "date": {
+      "display": "November 1818",
+      "precision": "month",
+      "sort_start": "1818-11-01",
+      "sort_end": "1818-11-30"
+    },
+    "participants": [
+      {
+        "entity_id": "jons_jacob_berzelius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_swedish_academy_of_sciences",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "abbri_2019",
+        "page": 7,
+        "quote": "At the end of November 1818 Berzelius, who was then in Paris, was elected perpetual Secretary to the Royal Swedish Academy of Sciences."
+      }
+    ]
+  },
+  {
+    "id": "pub_larbok_vol3",
+    "event_type": "publication",
+    "label": "Published third volume of Lärbok i kemien",
+    "date": {
+      "display": "1818",
+      "precision": "year",
+      "sort_start": "1818-01-01",
+      "sort_end": "1818-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jons_jacob_berzelius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "larbok_i_kemien",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "abbri_2019",
+        "page": 4,
+        "quote": "the third one in 1818"
+      }
+    ]
+  },
+  {
+    "id": "first_arsberattelse",
+    "event_type": "publication",
+    "label": "Presented first Årsberättelse report",
+    "date": {
+      "display": "March 1821",
+      "precision": "month",
+      "sort_start": "1821-03-01",
+      "sort_end": "1821-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jons_jacob_berzelius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "arsberattelse",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "abbri_2019",
+        "page": 7,
+        "quote": "In March, 1821, Berzelius presented his first report which came to 150 printed pages."
+      }
+    ]
+  },
+  {
+    "id": "wohler_translation_1825",
+    "event_type": "publication",
+    "label": "Wöhler published new translation of Lehrbuch der Chemie",
+    "date": {
+      "display": "1825",
+      "precision": "year",
+      "sort_start": "1825-01-01",
+      "sort_end": "1825-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "friedrich_wohler",
+        "role": "subject"
+      },
+      {
+        "entity_id": "jons_jacob_berzelius",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "abbri_2019",
+        "page": 5,
+        "quote": "In 1825 in Dresden the first volume of the Lehrbuch der Che - mie was published in a new translation by Wöhler"
+      }
+    ]
+  },
+  {
+    "id": "mulder_letter_1834",
+    "event_type": "meeting",
+    "label": "Mulder wrote to Berzelius about Dutch translation",
+    "date": {
+      "display": "24th of June 1834",
+      "precision": "day",
+      "sort_start": "1834-06-24",
+      "sort_end": "1834-06-24"
+    },
+    "participants": [
+      {
+        "entity_id": "gerardus_johannes_mulder",
+        "role": "subject"
+      },
+      {
+        "entity_id": "jons_jacob_berzelius",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "abbri_2019",
+        "page": 6,
+        "quote": "On the 24th of June 1834 Gerar - dus (Gerit) Johannes (Jan) Mulder (1802-1880) wrote to Berzelius sending him the plan of a Dutch translation of his textbook"
+      }
+    ]
+  },
+  {
+    "id": "pub_leerboek_vol1",
+    "event_type": "publication",
+    "label": "Published first volume of Leerboek der Scheikunde",
+    "date": {
+      "display": "1834",
+      "precision": "year",
+      "sort_start": "1834-01-01",
+      "sort_end": "1834-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gerardus_johannes_mulder",
+        "role": "subject"
+      },
+      {
+        "entity_id": "jons_jacob_berzelius",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "abbri_2019",
+        "page": 7,
+        "quote": "The first volume of the Leerboek der Scheikunde was pubblished in Rotterdam in 1834"
+      }
+    ]
+  },
+  {
+    "id": "arsberattelse_ends",
+    "event_type": "publication",
+    "label": "Second series of Årsberättelse finishes",
+    "date": {
+      "display": "1847",
+      "precision": "year",
+      "sort_start": "1847-01-01",
+      "sort_end": "1847-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jons_jacob_berzelius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "arsberattelse",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "abbri_2019",
+        "page": 7,
+        "quote": "the second series, in seven volumes, finishes in 1847, the year before Berzelius's death."
+      }
+    ]
+  }
+]

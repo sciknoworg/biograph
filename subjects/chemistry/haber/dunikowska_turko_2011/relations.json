@@ -1,0 +1,147 @@
+[
+  {
+    "id": "haber_born_breslau",
+    "source": "fritz_haber",
+    "type": "born_in",
+    "target": "breslau",
+    "sources": [
+      {
+        "source_id": "dunikowska_turko_2011",
+        "page": 3,
+        "quote": "Fritz Haber, a true Breslauer by birth, grew up in a city that was a European microcosm."
+      }
+    ]
+  },
+  {
+    "id": "haber_studied_heidelberg",
+    "source": "fritz_haber",
+    "type": "studied_at",
+    "target": "university_heidelberg",
+    "sources": [
+      {
+        "source_id": "dunikowska_turko_2011",
+        "page": 2,
+        "quote": "Describing a graduate of the University of Heidelberg with a Ph.D. in chemistry from Berlin"
+      }
+    ]
+  },
+  {
+    "id": "haber_worked_karlsruhe",
+    "source": "fritz_haber",
+    "type": "worked_at",
+    "target": "technische_hochschule_karlsruhe",
+    "sources": [
+      {
+        "source_id": "dunikowska_turko_2011",
+        "page": 1,
+        "quote": "he lectured at the Technical Highschool in Karlsruhe before being appointed Professor of Physical Chemistry"
+      }
+    ]
+  },
+  {
+    "id": "haber_worked_kwi",
+    "source": "fritz_haber",
+    "type": "worked_at",
+    "target": "kaiser_wilhelm_institute",
+    "sources": [
+      {
+        "source_id": "dunikowska_turko_2011",
+        "page": 3,
+        "quote": "Kaiser Wilhelm Wilhelm Society, whose Institute for Physical Chemistry and Electrochemistry Haber had directed since 1911"
+      }
+    ]
+  },
+  {
+    "id": "haber_married_clara",
+    "source": "fritz_haber",
+    "type": "married_to",
+    "target": "clara_immerwahr",
+    "sources": [
+      {
+        "source_id": "dunikowska_turko_2011",
+        "page": 1,
+        "quote": "His wife and fellow chemist, Clara Immerwahr"
+      }
+    ]
+  },
+  {
+    "id": "haber_invented_ammonia",
+    "source": "fritz_haber",
+    "type": "invented",
+    "target": "ammonia_synthesis",
+    "sources": [
+      {
+        "source_id": "dunikowska_turko_2011",
+        "page": 1,
+        "quote": "The other one is Fritz Haber, who invented a method for synthesizing ammonia"
+      }
+    ]
+  },
+  {
+    "id": "haber_developed_chlorine",
+    "source": "fritz_haber",
+    "type": "developed",
+    "target": "chlorine_gas",
+    "sources": [
+      {
+        "source_id": "dunikowska_turko_2011",
+        "page": 1,
+        "quote": "later pioneered the use of poison gases on World War I battlefields."
+      }
+    ]
+  },
+  {
+    "id": "haber_awarded_nobel",
+    "source": "fritz_haber",
+    "type": "awarded",
+    "target": "nobel_prize_chemistry_1918",
+    "event_id": "haber_nobel_prize",
+    "sources": [
+      {
+        "source_id": "dunikowska_turko_2011",
+        "page": 1,
+        "quote": "He was awarded the Nobel Prize in chemistry in 1919"
+      }
+    ]
+  },
+  {
+    "id": "haber_died_basel",
+    "source": "fritz_haber",
+    "type": "died_in",
+    "target": "basel",
+    "event_id": "haber_death",
+    "sources": [
+      {
+        "source_id": "dunikowska_turko_2011",
+        "page": 3,
+        "quote": "he died in Basel."
+      }
+    ]
+  },
+  {
+    "id": "haber_collaborated_bosch",
+    "source": "fritz_haber",
+    "type": "collaborated_with",
+    "target": "carl_bosch",
+    "sources": [
+      {
+        "source_id": "dunikowska_turko_2011",
+        "page": 16,
+        "quote": "Haber, already in exile in England, wrote the following to Bosch"
+      }
+    ]
+  },
+  {
+    "id": "haber_collaborated_rossignol",
+    "source": "fritz_haber",
+    "type": "collaborated_with",
+    "target": "robert_le_rossignol",
+    "sources": [
+      {
+        "source_id": "dunikowska_turko_2011",
+        "page": 6,
+        "quote": "Haber and a young English scientist, Robert Le Rossignol, achieved the first promising synthesis"
+      }
+    ]
+  }
+]

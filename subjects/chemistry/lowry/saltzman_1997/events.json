@@ -1,0 +1,562 @@
+[
+  {
+    "id": "lowry_birth",
+    "event_type": "birth",
+    "label": "Born in Bradford, England",
+    "date": {
+      "display": "October 26, 1874",
+      "precision": "day",
+      "sort_start": "1874-10-26",
+      "sort_end": "1874-10-26"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_martin_lowry",
+        "role": "subject"
+      }
+    ],
+    "location": "bradford_england",
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 10,
+        "quote": "Lowry was born October 26, 1874, in Bradford, England."
+      }
+    ]
+  },
+  {
+    "id": "lowry_enter_college",
+    "event_type": "education",
+    "label": "Entered Central Technical College",
+    "date": {
+      "display": "1893",
+      "precision": "year",
+      "sort_start": "1893-01-01",
+      "sort_end": "1893-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_martin_lowry",
+        "role": "subject"
+      },
+      {
+        "entity_id": "central_technical_college",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 10,
+        "quote": "In 1893 he entered the Central Technical College of the City and Guilds Institute in London to embark upon his chemical training."
+      }
+    ]
+  },
+  {
+    "id": "lowry_graduation",
+    "event_type": "education",
+    "label": "Graduated from Central Technical College",
+    "date": {
+      "display": "1896",
+      "precision": "year",
+      "sort_start": "1896-01-01",
+      "sort_end": "1896-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_martin_lowry",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 10,
+        "quote": "On his graduation in 1896 Lowry became Armstrong's assistant and remained so until 1913."
+      }
+    ]
+  },
+  {
+    "id": "lowry_assistant_armstrong_start",
+    "event_type": "employment_start",
+    "label": "Became Armstrong's assistant",
+    "date": {
+      "display": "1896",
+      "precision": "year",
+      "sort_start": "1896-01-01",
+      "sort_end": "1896-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_martin_lowry",
+        "role": "subject"
+      },
+      {
+        "entity_id": "henry_edward_armstrong",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 10,
+        "quote": "On his graduation in 1896 Lowry became Armstrong's assistant and remained so until 1913."
+      }
+    ]
+  },
+  {
+    "id": "lowry_dsc",
+    "event_type": "award",
+    "label": "Obtained D.Sc. degree",
+    "date": {
+      "display": "1899",
+      "precision": "year",
+      "sort_start": "1899-01-01",
+      "sort_end": "1899-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_martin_lowry",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 11,
+        "quote": "During this period he obtained his D.Sc. degree (1899)"
+      }
+    ]
+  },
+  {
+    "id": "lowry_assistant_armstrong_end",
+    "event_type": "employment_end",
+    "label": "Ended assistantship with Armstrong",
+    "date": {
+      "display": "1913",
+      "precision": "year",
+      "sort_start": "1913-01-01",
+      "sort_end": "1913-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_martin_lowry",
+        "role": "subject"
+      },
+      {
+        "entity_id": "henry_edward_armstrong",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 10,
+        "quote": "On his graduation in 1896 Lowry became Armstrong's assistant and remained so until 1913."
+      }
+    ]
+  },
+  {
+    "id": "lowry_lectureship_guys",
+    "event_type": "employment_start",
+    "label": "Appointed Lecturer at Guy's Hospital",
+    "date": {
+      "display": "1912",
+      "precision": "year",
+      "sort_start": "1912-01-01",
+      "sort_end": "1912-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_martin_lowry",
+        "role": "subject"
+      },
+      {
+        "entity_id": "guys_hospital_medical_school",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 11,
+        "quote": "He held a series of teaching positions in this period which culminated in 1912 in a Lectureship in Chemistry at the Guy's Hospital Medical School."
+      }
+    ]
+  },
+  {
+    "id": "lowry_frs",
+    "event_type": "award",
+    "label": "Elected Fellow of the Royal Society",
+    "date": {
+      "display": "1914",
+      "precision": "year",
+      "sort_start": "1914-01-01",
+      "sort_end": "1914-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_martin_lowry",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_society",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 11,
+        "quote": "His reputation as an innovative researcher led to his election as a Fellow of the Royal Society (1914)"
+      }
+    ]
+  },
+  {
+    "id": "lowry_cambridge_chair",
+    "event_type": "employment_start",
+    "label": "Appointed to Physical Chemistry Chair at Cambridge",
+    "date": {
+      "display": "1920",
+      "precision": "year",
+      "sort_start": "1920-01-01",
+      "sort_end": "1920-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_martin_lowry",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cambridge_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 11,
+        "quote": "In 1920 the newly created physical chemistry chair at Cambridge was offered to Lowry, and he spent the rest of his life at Cambridge."
+      }
+    ]
+  },
+  {
+    "id": "lowry_faraday_paper_1922",
+    "event_type": "publication",
+    "label": "Read paper on Electronic Theory at Faraday Society",
+    "date": {
+      "display": "November 20, 1922",
+      "precision": "day",
+      "sort_start": "1922-11-20",
+      "sort_end": "1922-11-20"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_martin_lowry",
+        "role": "subject"
+      },
+      {
+        "entity_id": "faraday_society",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 12,
+        "quote": "Lowry's first contribution to the electronic theory occurred in 1922, when he read a paper before the Faraday Society on November 20, entitled \"The Electronic Theory of Valency. Part I. Intramolecular Ionization\" (8)."
+      }
+    ]
+  },
+  {
+    "id": "lowry_letter_lewis_nov1922",
+    "event_type": "other",
+    "label": "Wrote letter to G.N. Lewis",
+    "description": "Acknowledged reprints and discussed amine oxides.",
+    "date": {
+      "display": "November 27, 1922",
+      "precision": "day",
+      "sort_start": "1922-11-27",
+      "sort_end": "1922-11-27"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_martin_lowry",
+        "role": "subject"
+      },
+      {
+        "entity_id": "g_n_lewis",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 12,
+        "quote": "On November 27, 1922, shortly after the Faraday Society meeting paper, Lowry wrote to G.N. Lewis."
+      }
+    ]
+  },
+  {
+    "id": "lowry_letter_lewis_jan1923",
+    "event_type": "other",
+    "label": "Wrote letter to G.N. Lewis on multiple bonds",
+    "description": "Set forth ideas on the nature of multiple bonds.",
+    "date": {
+      "display": "January 3, 1923",
+      "precision": "day",
+      "sort_start": "1923-01-03",
+      "sort_end": "1923-01-03"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_martin_lowry",
+        "role": "subject"
+      },
+      {
+        "entity_id": "g_n_lewis",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 13,
+        "quote": "In a letter dated January 3, 1923, to Lewis, Lowry set forth his ideas on the nature of these bonds."
+      }
+    ]
+  },
+  {
+    "id": "lowry_letter_thomson_jan1923",
+    "event_type": "other",
+    "label": "Wrote letter to J.J. Thomson",
+    "description": "Discussed electronic nature of unsaturation and conjugation.",
+    "date": {
+      "display": "January 6, 1923",
+      "precision": "day",
+      "sort_start": "1923-01-06",
+      "sort_end": "1923-01-06"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_martin_lowry",
+        "role": "subject"
+      },
+      {
+        "entity_id": "j_j_thomson",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 13,
+        "quote": "On January 6,1923, Lowry wrote to Thomson the following concerning a lecture Thomson had recently given in which he discussed the electronic nature of unsaturation and conjugation."
+      }
+    ]
+  },
+  {
+    "id": "lowry_chem_soc_paper_1923",
+    "event_type": "publication",
+    "label": "Paper on Polarity of Double Bonds received",
+    "date": {
+      "display": "March 14, 1923",
+      "precision": "day",
+      "sort_start": "1923-03-14",
+      "sort_end": "1923-03-14"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_martin_lowry",
+        "role": "subject"
+      },
+      {
+        "entity_id": "chemical_society",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 13,
+        "quote": "In a paper received on March 14, 1923, by the Chemical Society and appearing in the April, 1923 issue, Lowry expanded on his view of the double bond in organic chemistry."
+      }
+    ]
+  },
+  {
+    "id": "sugden_note_1923",
+    "event_type": "publication",
+    "label": "Sugden published note on Electron Valency Theory",
+    "date": {
+      "display": "June 21, 1923",
+      "precision": "day",
+      "sort_start": "1923-06-21",
+      "sort_end": "1923-06-21"
+    },
+    "participants": [
+      {
+        "entity_id": "samuel_sugden",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 14,
+        "quote": "Samuel Sugden (1892-1950) of Birkbeck College, London, almost immediately called Lowry to task in a short note received by the Journal of the Chemical Society on June 21, 1923, entitled \"Electron Valency Theory and Stereochemistry\" (19)."
+      }
+    ]
+  },
+  {
+    "id": "lowry_reply_sugden_1923",
+    "event_type": "publication",
+    "label": "Lowry replied to Sugden",
+    "date": {
+      "display": "July 10, 1923",
+      "precision": "day",
+      "sort_start": "1923-07-10",
+      "sort_end": "1923-07-10"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_martin_lowry",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 14,
+        "quote": "Lowry quickly replied on July 10, 1923 and this followed Sugden's note (20):"
+      }
+    ]
+  },
+  {
+    "id": "faraday_symposium_1923",
+    "event_type": "conference",
+    "label": "Faraday Society Symposium on Electronic Theory",
+    "date": {
+      "display": "July 13-14, 1923",
+      "precision": "day",
+      "sort_start": "1923-07-13",
+      "sort_end": "1923-07-14"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_martin_lowry",
+        "role": "subject"
+      },
+      {
+        "entity_id": "faraday_society",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 14,
+        "quote": "A two-day meeting on July 13-14, 1923 was held at Cambridge under the auspices of The Faraday Society."
+      }
+    ]
+  },
+  {
+    "id": "lowry_origin_acidity_1924",
+    "event_type": "publication",
+    "label": "Published paper on The Origin of Acidity",
+    "date": {
+      "display": "1924",
+      "precision": "year",
+      "sort_start": "1924-01-01",
+      "sort_end": "1924-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_martin_lowry",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 15,
+        "quote": "In a brief paper published in the Philosophical Magazine in 1924 entitled \"The Origin of Acidity,\" he stated his definition of acidity as follows (29):"
+      }
+    ]
+  },
+  {
+    "id": "british_assoc_meeting_1925",
+    "event_type": "conference",
+    "label": "British Association meeting in Southampton",
+    "date": {
+      "display": "September 1, 1925",
+      "precision": "day",
+      "sort_start": "1925-09-01",
+      "sort_end": "1925-09-01"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_martin_lowry",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 16,
+        "quote": "For example, in a discussion at the British Association meeting in Southhampton on September 1, 1925, devoted to \"The Alternating Effect in Carbon Chains,\" Lowry offered what he believed was new evidence for his views (30)."
+      }
+    ]
+  },
+  {
+    "id": "lowry_waters_book_1935",
+    "event_type": "publication",
+    "label": "Published Physical Aspects of Organic Chemistry",
+    "date": {
+      "display": "1935",
+      "precision": "year",
+      "sort_start": "1935-01-01",
+      "sort_end": "1935-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_martin_lowry",
+        "role": "subject"
+      },
+      {
+        "entity_id": "william_alec_waters",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 10,
+        "quote": "With his student William Alec Waters (1903-1985) he produced in 1935 the first book in this area, Physical Aspects of Organic Chemistry."
+      }
+    ]
+  },
+  {
+    "id": "lowry_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1936",
+      "precision": "year",
+      "sort_start": "1936-01-01",
+      "sort_end": "1936-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_martin_lowry",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1997",
+        "page": 10,
+        "quote": "Thomas Martin Lowry (1874-1936) is a name familiar to all chemists primarily for his theory of acids and bases."
+      }
+    ]
+  }
+]

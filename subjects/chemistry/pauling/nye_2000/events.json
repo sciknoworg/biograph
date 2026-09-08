@@ -1,0 +1,534 @@
+[
+  {
+    "id": "pauling_birth",
+    "event_type": "birth",
+    "label": "Born in Portland, Oregon",
+    "date": {
+      "display": "1901",
+      "precision": "year",
+      "sort_start": "1901-01-01",
+      "sort_end": "1901-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "linus_pauling",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 75,
+        "quote": "Linus Pauling, the son of a pharmacist, born in Portland, Or-\n egon in 1901."
+      }
+    ]
+  },
+  {
+    "id": "pauling_enter_oac",
+    "event_type": "education",
+    "label": "Entered Oregon Agricultural College",
+    "date": {
+      "display": "January 1917",
+      "precision": "month",
+      "sort_start": "1917-01-01",
+      "sort_end": "1917-01-31"
+    },
+    "participants": [
+      {
+        "entity_id": "linus_pauling",
+        "role": "subject"
+      },
+      {
+        "entity_id": "oregon_agricultural_college",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 75,
+        "quote": "In January 1917 he entered Oregon Agri-\n cultural College, where he quickly attracted the atten-\n tion of his college instructors, who enlisted him to teach\n freshman- and sophomore-level chemistry courses while\n he was still a student (18)."
+      }
+    ]
+  },
+  {
+    "id": "pauling_proposal",
+    "event_type": "other",
+    "label": "Proposed marriage to Ava Helen Miller",
+    "date": {
+      "display": "spring 1922",
+      "precision": "range",
+      "sort_start": "1922-03-01",
+      "sort_end": "1922-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "linus_pauling",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ava_helen_miller",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 75,
+        "quote": "By\n this time, he had\n proposed mar-\n riage to Ava\n Helen Miller, a\n student in his\n chemistry class\n of the previous\n spring."
+      }
+    ]
+  },
+  {
+    "id": "pauling_enter_caltech",
+    "event_type": "education",
+    "label": "Entered Caltech graduate school",
+    "date": {
+      "display": "fall of 1922",
+      "precision": "range",
+      "sort_start": "1922-09-01",
+      "sort_end": "1922-11-30"
+    },
+    "participants": [
+      {
+        "entity_id": "linus_pauling",
+        "role": "subject"
+      },
+      {
+        "entity_id": "california_institute_of_technology",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 75,
+        "quote": "After he arrived at Caltech in the fall of 1922,\n Pauling's coursework included thermodynamic chem-\n istry with Noyes..."
+      }
+    ]
+  },
+  {
+    "id": "pauling_first_paper",
+    "event_type": "publication",
+    "label": "First paper with Roscoe Dickinson",
+    "date": {
+      "display": "1923",
+      "precision": "year",
+      "sort_start": "1923-01-01",
+      "sort_end": "1923-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "linus_pauling",
+        "role": "subject"
+      },
+      {
+        "entity_id": "roscoe_dictinson",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 76,
+        "quote": "Pauling's first paper with Roscoe Dickinson ap-\n peared in 1923, on the structure of the mineral molyb-\n denite (MoS 2)."
+      }
+    ]
+  },
+  {
+    "id": "pauling_guggenheim",
+    "event_type": "award",
+    "label": "Applied for Guggenheim Fellowship",
+    "date": {
+      "display": "1926",
+      "precision": "year",
+      "sort_start": "1926-01-01",
+      "sort_end": "1926-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "linus_pauling",
+        "role": "subject"
+      },
+      {
+        "entity_id": "guggenheim_foundation",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 76,
+        "quote": "His 1926 application for a Guggenheim Founda-\n tion Fellowship focused on something different, how-\n ever."
+      }
+    ]
+  },
+  {
+    "id": "pauling_return_europe",
+    "event_type": "relocation",
+    "label": "Returned from Europe to Caltech",
+    "date": {
+      "display": "late 1927",
+      "precision": "range",
+      "sort_start": "1927-09-01",
+      "sort_end": "1927-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "linus_pauling",
+        "role": "subject"
+      },
+      {
+        "entity_id": "california_institute_of_technology",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 76,
+        "quote": "Returning in late 1927 from eighteen months in\n Munich, Copenhagen, and Zurich, Pauling became an\n assistant professor in theoretical chemistry."
+      }
+    ]
+  },
+  {
+    "id": "pauling_chemical_bond_papers",
+    "event_type": "publication",
+    "label": "Published series on The Chemical Bond",
+    "date": {
+      "display": "1931 to 1933",
+      "precision": "range",
+      "sort_start": "1931-01-01",
+      "sort_end": "1933-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "linus_pauling",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 76,
+        "quote": "He also began writing a series of papers on \"The Chemi-\n cal Bond,\" published during 1931 to 1933, some of the\n papers being co-authored with Albert Sherman and\n George Wheland (30)."
+      }
+    ]
+  },
+  {
+    "id": "pauling_quantum_mechanics_book",
+    "event_type": "publication",
+    "label": "Completed Introduction to Quantum Mechanics",
+    "date": {
+      "display": "July 1935",
+      "precision": "month",
+      "sort_start": "1935-07-01",
+      "sort_end": "1935-07-31"
+    },
+    "participants": [
+      {
+        "entity_id": "linus_pauling",
+        "role": "subject"
+      },
+      {
+        "entity_id": "e_bright_wilson_jr",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 76,
+        "quote": "In July 1935 Pauling and E. Bright Wilson, Jr. com-\n pleted the highly technical Introduction to Quantum Me-\n chanics with Applications to Chemistry."
+      }
+    ]
+  },
+  {
+    "id": "pauling_chemical_bond_book",
+    "event_type": "publication",
+    "label": "Published The Nature of the Chemical Bond",
+    "date": {
+      "display": "1939",
+      "precision": "year",
+      "sort_start": "1939-01-01",
+      "sort_end": "1939-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "linus_pauling",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 76,
+        "quote": "This\n book is based on lectures he gave at Cornell University,\n and it first appeared in 1939."
+      }
+    ]
+  },
+  {
+    "id": "pauling_general_chemistry_start",
+    "event_type": "publication",
+    "label": "Started General Chemistry textbook",
+    "date": {
+      "display": "1941",
+      "precision": "year",
+      "sort_start": "1941-01-01",
+      "sort_end": "1941-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "linus_pauling",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 77,
+        "quote": "His innovations can be seen in\n the first versions of a general chemistry textbook which\n Pauling began making available in 1941 to freshmen at\n Caltech as a lithographed volume."
+      }
+    ]
+  },
+  {
+    "id": "pauling_general_chemistry_pub",
+    "event_type": "publication",
+    "label": "Published General Chemistry",
+    "date": {
+      "display": "1947",
+      "precision": "year",
+      "sort_start": "1947-01-01",
+      "sort_end": "1947-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "linus_pauling",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 77,
+        "quote": "Pauling's General\n Chemistry, finally published by William Freeman in\n 1947, included a profusion of illustrations..."
+      }
+    ]
+  },
+  {
+    "id": "pauling_alpha_helix",
+    "event_type": "public_demonstration",
+    "label": "Announced alpha helix structure",
+    "date": {
+      "display": "spring of 1951",
+      "precision": "range",
+      "sort_start": "1951-03-01",
+      "sort_end": "1951-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "linus_pauling",
+        "role": "subject"
+      },
+      {
+        "entity_id": "california_institute_of_technology",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 77,
+        "quote": "At Caltech in the spring of 1951, Pauling entered the\n biology lecture room flanked by assistants carrying,\n among other things, something tall wrapped in cloth and\n bound with string, like a piece of statuary."
+      }
+    ]
+  },
+  {
+    "id": "pauling_nobel_chemistry",
+    "event_type": "award",
+    "label": "Received Nobel Prize in Chemistry",
+    "date": {
+      "display": "1954",
+      "precision": "year",
+      "sort_start": "1954-01-01",
+      "sort_end": "1954-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "linus_pauling",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize_chemistry",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 78,
+        "quote": "In 1951, Life praised the\n accomplishments of Pauling, who would receive the\n Nobel Prize in Chemistry in 1954."
+      }
+    ]
+  },
+  {
+    "id": "pauling_passport_denied",
+    "event_type": "other",
+    "label": "Denied US passport",
+    "date": {
+      "display": "1952",
+      "precision": "year",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "linus_pauling",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 78,
+        "quote": "Cleared of any wrongdoing by a\n Caltech committee in December 1950, Pauling was de-\n nied a US passport in 1952, preventing his attending a\n Royal Society discussion on proteins."
+      }
+    ]
+  },
+  {
+    "id": "pauling_un_petition",
+    "event_type": "meeting",
+    "label": "Presented petition to United Nations",
+    "date": {
+      "display": "early 1958",
+      "precision": "range",
+      "sort_start": "1958-01-01",
+      "sort_end": "1958-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "linus_pauling",
+        "role": "subject"
+      },
+      {
+        "entity_id": "united_nations",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 78,
+        "quote": "In early 1958,\n Linus and Ava Helen Pauling presented a petition with\n 9,000 signatures to Dag Hammarskjold at the United\n Nations."
+      }
+    ]
+  },
+  {
+    "id": "pauling_senate_subpoena",
+    "event_type": "meeting",
+    "label": "Subpoenaed by Senate Internal Security Committee",
+    "date": {
+      "display": "1960",
+      "precision": "year",
+      "sort_start": "1960-01-01",
+      "sort_end": "1960-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "linus_pauling",
+        "role": "subject"
+      },
+      {
+        "entity_id": "senate_internal_security_committee",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 78,
+        "quote": "By\n 1960 the Senate Internal Se-\n curity Committee, which had\n branded Pauling a fellow trav-\n eler in 1956, subpoenaed him\n to explain possible communist\n involvement in the nuclear-\n test ban movement (53)."
+      }
+    ]
+  },
+  {
+    "id": "pauling_nobel_peace",
+    "event_type": "award",
+    "label": "Received Nobel Peace Prize",
+    "date": {
+      "display": "1962",
+      "precision": "year",
+      "sort_start": "1962-01-01",
+      "sort_end": "1962-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "linus_pauling",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_peace_prize",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 78,
+        "quote": "In the fall of 1963, when\n it was announced that Linus\n Pauling would receive the\n 1962 Nobel Peace Prize, Life\n magazine, carrying the ex-\n traordinary headline \"A Weird\n Insult from Norway,\" stated..."
+      }
+    ]
+  },
+  {
+    "id": "pauling_resign_caltech",
+    "event_type": "employment_end",
+    "label": "Resigned from Caltech",
+    "date": {
+      "display": "1963",
+      "precision": "year",
+      "sort_start": "1963-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "linus_pauling",
+        "role": "subject"
+      },
+      {
+        "entity_id": "california_institute_of_technology",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 79,
+        "quote": "Pauling resigned from Caltech (55)."
+      }
+    ]
+  },
+  {
+    "id": "nye_dexter_award",
+    "event_type": "award",
+    "label": "Mary Jo Nye received Dexter Award",
+    "date": {
+      "display": "1999",
+      "precision": "year",
+      "sort_start": "1999-01-01",
+      "sort_end": "1999-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "american_chemical_society",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nye_2000",
+        "page": 82,
+        "quote": "She received the 1999 Dexter Award at the San Fran-\n cisco meeting of the American Chemical Society, March\n 28, 2000."
+      }
+    ]
+  }
+]

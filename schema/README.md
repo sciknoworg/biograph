@@ -103,7 +103,11 @@ date is an object with:
 
 - `display` — the human-readable string as it should be shown ("1963",
   "August–September 1974", "c. 1958", "early 1970s").
-- `precision` — one of `day | month | year | decade | circa | range`.
+- `precision` — one of `day | month | year | decade | century | circa | range`.
+  `century` exists because a collection reaching back before modern record-keeping
+  needs it: a document on Jabir ibn Hayyan can date his father's Abbasid patronage
+  to the 8th century and no further, and the alternative was discarding the whole
+  extraction rather than saying so.
 - `sort_start` / `sort_end` — ISO `YYYY-MM-DD` bounds used **only** for
   sorting and for drawing a point-vs-span on the timeline; they are the
   earliest/latest the event could plausibly be, not an implied exact date.

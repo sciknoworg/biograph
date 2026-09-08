@@ -1,0 +1,158 @@
+[
+  {
+    "id": "ludwig_mond_born_in_cassel",
+    "source": "ludwig_mond",
+    "type": "born_in",
+    "target": "cassel",
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 22,
+        "quote": "born in the town of Cassel"
+      }
+    ]
+  },
+  {
+    "id": "ludwig_mond_married_frida",
+    "source": "ludwig_mond",
+    "type": "married_to",
+    "target": "frida_mond",
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 18,
+        "quote": "Lunwm MoND = FRIDA LoWENTIIAL"
+      }
+    ]
+  },
+  {
+    "id": "ludwig_mond_father_robert",
+    "source": "ludwig_mond",
+    "type": "family_of",
+    "target": "robert_mond_son",
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 18,
+        "quote": "Sir Robert Ludwig Mond"
+      }
+    ]
+  },
+  {
+    "id": "ludwig_mond_father_alfred",
+    "source": "ludwig_mond",
+    "type": "family_of",
+    "target": "alfred_mond_son",
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 18,
+        "quote": "Sir Alfred Moritz Mond"
+      }
+    ]
+  },
+  {
+    "id": "ludwig_mond_partner_brunner",
+    "source": "ludwig_mond",
+    "type": "collaborated_with",
+    "target": "john_brunner",
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 22,
+        "quote": "Ludwig and his partner, John Brunner"
+      }
+    ]
+  },
+  {
+    "id": "ludwig_mond_worked_brunner_mond",
+    "source": "ludwig_mond",
+    "type": "worked_at",
+    "target": "brunner_mond",
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 13,
+        "quote": "Brunner, Mond became a part in the merger"
+      }
+    ]
+  },
+  {
+    "id": "ludwig_mond_founded_davy_faraday",
+    "source": "ludwig_mond",
+    "type": "founded",
+    "target": "davy_faraday_lab",
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 23,
+        "quote": "he founded the Davy-Faraday Research Laboratory"
+      }
+    ]
+  },
+  {
+    "id": "ludwig_mond_lived_winnington_hall",
+    "source": "ludwig_mond",
+    "type": "lived_in",
+    "target": "winnington_hall",
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 25,
+        "quote": "Winnington Hall began to acquire a new history"
+      }
+    ]
+  },
+  {
+    "id": "brunner_mond_acquired_ici",
+    "source": "brunner_mond",
+    "type": "acquired_by",
+    "target": "ici",
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 13,
+        "quote": "Brunner, Mond became a part in the merger of I 926"
+      }
+    ]
+  },
+  {
+    "id": "jm_cohen_published_book",
+    "source": "jm_cohen",
+    "type": "published",
+    "target": "the_life_of_ludwig_mond",
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 6,
+        "quote": "The Life of Ludwig Mond by J.M. COHEN"
+      }
+    ]
+  },
+  {
+    "id": "robert_mathias_nephew",
+    "source": "robert_mathias",
+    "type": "family_of",
+    "target": "ludwig_mond",
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 10,
+        "quote": "NOTE BY MR ROBERT MATHIAS, NEPHEW OF DR LUDWIG MOND"
+      }
+    ]
+  },
+  {
+    "id": "alexander_fleck_chairman_ici",
+    "source": "alexander_fleck",
+    "type": "employed_by",
+    "target": "ici",
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 12,
+        "quote": "Chairman of Imperial Chemical Industries Ltd"
+      }
+    ]
+  }
+]

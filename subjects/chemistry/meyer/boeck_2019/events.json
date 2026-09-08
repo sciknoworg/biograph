@@ -1,0 +1,440 @@
+[
+  {
+    "id": "meyer_birth",
+    "event_type": "birth",
+    "label": "Born in Varel",
+    "date": {
+      "display": "19 August 1830",
+      "precision": "day",
+      "sort_start": "1830-08-19",
+      "sort_end": "1830-08-19"
+    },
+    "participants": [
+      {
+        "entity_id": "julius_lothar_meyer",
+        "role": "subject"
+      }
+    ],
+    "location": "varel",
+    "sources": [
+      {
+        "source_id": "boeck_2019",
+        "page": 2,
+        "quote": "Julius Lothar Meyer (Fig. 1) was born in Varel, Germany on 19 August 1830, in the current district of Friesland in Lower Saxony."
+      }
+    ]
+  },
+  {
+    "id": "meyer_enrollment_zurich",
+    "event_type": "education",
+    "label": "Enrolled at University of Zurich",
+    "date": {
+      "display": "8 May 1851",
+      "precision": "day",
+      "sort_start": "1851-05-08",
+      "sort_end": "1851-05-08"
+    },
+    "participants": [
+      {
+        "entity_id": "julius_lothar_meyer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_zurich",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "boeck_2019",
+        "page": 2,
+        "quote": "On 8 May 1851, Lothar Meyer enrolled at the University of Zurich, where he attended lectures in medical subjects, but also in chemistry, physics, mineralogy, geology, botany and zoology, until the end of the winter term 1852/53."
+      }
+    ]
+  },
+  {
+    "id": "meyer_md_wurzburg",
+    "event_type": "education",
+    "label": "Completed Doctor of Medicine",
+    "date": {
+      "display": "February 1854",
+      "precision": "month",
+      "sort_start": "1854-02-01",
+      "sort_end": "1854-02-28"
+    },
+    "participants": [
+      {
+        "entity_id": "julius_lothar_meyer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_wurzburg",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "boeck_2019",
+        "page": 2,
+        "quote": "Around Easter 1853 Meyer traveled to Würzburg, and in February 1854 he completed his Doctor of Medicine with a thesis paper on the pigment cells of frogs."
+      }
+    ]
+  },
+  {
+    "id": "meyer_move_heidelberg",
+    "event_type": "relocation",
+    "label": "Moved to Heidelberg",
+    "date": {
+      "display": "1855",
+      "precision": "year",
+      "sort_start": "1855-01-01",
+      "sort_end": "1855-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julius_lothar_meyer",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "boeck_2019",
+        "page": 2,
+        "quote": "A year later he moved to Heidelberg to work with the famous Robert Bunsen (1811-1899)."
+      }
+    ]
+  },
+  {
+    "id": "meyer_gases_of_blood",
+    "event_type": "publication",
+    "label": "Published The gases of the blood",
+    "date": {
+      "display": "1857",
+      "precision": "year",
+      "sort_start": "1857-01-01",
+      "sort_end": "1857-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julius_lothar_meyer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "the_gases_of_the_blood",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "boeck_2019",
+        "page": 2,
+        "quote": "These results were summarized in the paper The gases of the blood in 1857, which he submitted to the faculty of medicine as a second doctoral thesis."
+      }
+    ]
+  },
+  {
+    "id": "meyer_karlsruhe_conference",
+    "event_type": "conference",
+    "label": "Attended Karlsruhe Conference",
+    "date": {
+      "display": "September 1860",
+      "precision": "month",
+      "sort_start": "1860-09-01",
+      "sort_end": "1860-09-30"
+    },
+    "participants": [
+      {
+        "entity_id": "julius_lothar_meyer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "dmitri_ivanovic_mendeleev",
+        "role": "participant"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "boeck_2019",
+        "page": 3,
+        "quote": "In September 1860 the first International conference of Chemistry took place in Karlsruhe."
+      }
+    ]
+  },
+  {
+    "id": "meyer_moderne_theorien",
+    "event_type": "publication",
+    "label": "Published Die modernen Theorien der Chemie",
+    "date": {
+      "display": "July 1864",
+      "precision": "month",
+      "sort_start": "1864-07-01",
+      "sort_end": "1864-07-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julius_lothar_meyer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "die_modernen_theorien_der_chemie",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "boeck_2019",
+        "page": 3,
+        "quote": "The book was finally published in July 1864; the second edition was issued in 1872, the following editions in 1876, 1883, and 1884."
+      }
+    ]
+  },
+  {
+    "id": "meyer_professor_forest_academy",
+    "event_type": "employment_start",
+    "label": "Appointed Professor at Forest Academy",
+    "date": {
+      "display": "1867",
+      "precision": "year",
+      "sort_start": "1867-01-01",
+      "sort_end": "1867-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julius_lothar_meyer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "forest_academy_neustadt_eberswalde",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "boeck_2019",
+        "page": 3,
+        "quote": "In 1867 he was appointed to be professor of inorganic science at the forest academy, but in 1868 he left the academy and became a professor of chemistry and the director of the chemical laboratory at the Polytechnikum in Karlsruhe."
+      }
+    ]
+  },
+  {
+    "id": "meyer_professor_karlsruhe",
+    "event_type": "employment_start",
+    "label": "Appointed Professor at Polytechnikum Karlsruhe",
+    "date": {
+      "display": "1868",
+      "precision": "year",
+      "sort_start": "1868-01-01",
+      "sort_end": "1868-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julius_lothar_meyer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "polytechnikum_karlsruhe",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "boeck_2019",
+        "page": 3,
+        "quote": "In 1867 he was appointed to be professor of inorganic science at the forest academy, but in 1868 he left the academy and became a professor of chemistry and the director of the chemical laboratory at the Polytechnikum in Karlsruhe."
+      }
+    ]
+  },
+  {
+    "id": "meyer_professor_tubingen",
+    "event_type": "employment_start",
+    "label": "Appointed Professor at University of Tübingen",
+    "date": {
+      "display": "1876",
+      "precision": "year",
+      "sort_start": "1876-01-01",
+      "sort_end": "1876-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julius_lothar_meyer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_tubingen",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "boeck_2019",
+        "page": 3,
+        "quote": "1876, Lothar Meyer received a full professorship in Tübingen as the successor of Rudolph Fittig (1835-1910)."
+      }
+    ]
+  },
+  {
+    "id": "meyer_davy_medal",
+    "event_type": "award",
+    "label": "Awarded Davy Medal",
+    "date": {
+      "display": "2 November 1882",
+      "precision": "day",
+      "sort_start": "1882-11-02",
+      "sort_end": "1882-11-02"
+    },
+    "participants": [
+      {
+        "entity_id": "julius_lothar_meyer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "dmitri_ivanovic_mendeleev",
+        "role": "recipient"
+      },
+      {
+        "entity_id": "davy_medal",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "boeck_2019",
+        "page": 3,
+        "quote": "He received several awards, including the Davy medal given to him and Mendeleev on 2 November 1882, recognizing their research on the classification of elements."
+      }
+    ]
+  },
+  {
+    "id": "meyer_honorary_member_london",
+    "event_type": "award",
+    "label": "Became Honorary Member of Chemical Society London",
+    "date": {
+      "display": "1883",
+      "precision": "year",
+      "sort_start": "1883-01-01",
+      "sort_end": "1883-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julius_lothar_meyer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "chemical_society_london",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "boeck_2019",
+        "page": 4,
+        "quote": "In 1883 Lothar Meyer became an honorary member of the Chemical Society London; in 1887 he joined the Physikalischer Verein (Physical society) in Frankfurt/Main; in 1889 the Manchester Literary and Philosophical Society."
+      }
+    ]
+  },
+  {
+    "id": "meyer_prussian_academy",
+    "event_type": "award",
+    "label": "Appointed Corresponding Member of Prussian Academy",
+    "date": {
+      "display": "1888",
+      "precision": "year",
+      "sort_start": "1888-01-01",
+      "sort_end": "1888-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julius_lothar_meyer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "prussian_academy_of_science",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "boeck_2019",
+        "page": 4,
+        "quote": "A year prior to this, in 1888, Meyer had been appointed corresponding member of the Mathematics and Physics section of the Prussian Academy of Science and in 1891 of the Academy of Science St. Petersburg."
+      }
+    ]
+  },
+  {
+    "id": "meyer_knighted",
+    "event_type": "award",
+    "label": "Knighted with Honorable Cross",
+    "date": {
+      "display": "1892",
+      "precision": "year",
+      "sort_start": "1892-01-01",
+      "sort_end": "1892-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julius_lothar_meyer",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "boeck_2019",
+        "page": 4,
+        "quote": "In 1892 Lothar Meyer was knighted with the decoration of the Honorable Cross of the Royal House of Württemberg."
+      }
+    ]
+  },
+  {
+    "id": "meyer_rector_tubingen",
+    "event_type": "role_change",
+    "label": "Elected Rector of University Tübingen",
+    "date": {
+      "display": "1894/95 academic year",
+      "precision": "year",
+      "sort_start": "1894-01-01",
+      "sort_end": "1895-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julius_lothar_meyer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_tubingen",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "boeck_2019",
+        "page": 4,
+        "quote": "At the start of the 1894/95 academic year, Lothar von Meyer was elected rector of the University Tübingen: shortly after the term, on 11 April 1895, he died."
+      }
+    ]
+  },
+  {
+    "id": "meyer_death",
+    "event_type": "death",
+    "label": "Died in Tübingen",
+    "date": {
+      "display": "11 April 1895",
+      "precision": "day",
+      "sort_start": "1895-04-11",
+      "sort_end": "1895-04-11"
+    },
+    "participants": [
+      {
+        "entity_id": "julius_lothar_meyer",
+        "role": "subject"
+      }
+    ],
+    "location": "tubingen_city",
+    "sources": [
+      {
+        "source_id": "boeck_2019",
+        "page": 4,
+        "quote": "At the start of the 1894/95 academic year, Lothar von Meyer was elected rector of the University Tübingen: shortly after the term, on 11 April 1895, he died."
+      }
+    ]
+  }
+]

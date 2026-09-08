@@ -1,0 +1,244 @@
+[
+  {
+    "id": "hofmann_birth",
+    "event_type": "birth",
+    "label": "Born in Baden (Aargau)",
+    "date": {
+      "display": "1906",
+      "precision": "year",
+      "sort_start": "1906-01-01",
+      "sort_end": "1906-12-31"
+    },
+    "location": "baden_aargau",
+    "participants": [
+      {
+        "entity_id": "albert_hofmann",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "finney_siegel_2008_chimia",
+        "page": 444,
+        "quote": "Albert Hofmann was born in Baden (Aargau) in 1906"
+      }
+    ]
+  },
+  {
+    "id": "hofmann_matura",
+    "event_type": "education",
+    "label": "Completed Matura studies",
+    "date": {
+      "display": "age 20",
+      "precision": "circa",
+      "sort_start": "1926-01-01",
+      "sort_end": "1926-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_hofmann",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "finney_siegel_2008_chimia",
+        "page": 444,
+        "quote": "completed his Matura studies at age 20"
+      }
+    ]
+  },
+  {
+    "id": "hofmann_study_start",
+    "event_type": "education",
+    "label": "Started chemistry studies at University of Zurich",
+    "date": {
+      "display": "1926",
+      "precision": "year",
+      "sort_start": "1926-01-01",
+      "sort_end": "1926-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_hofmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_zurich",
+        "role": "employer"
+      },
+      {
+        "entity_id": "paul_karrer",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "finney_siegel_2008_chimia",
+        "page": 444,
+        "quote": "In 1926 he started to study chemistry with Prof. Paul Karrer at the University of Zurich"
+      }
+    ]
+  },
+  {
+    "id": "hofmann_phd",
+    "event_type": "education",
+    "label": "Earned PhD with distinction",
+    "date": {
+      "display": "1929",
+      "precision": "year",
+      "sort_start": "1929-01-01",
+      "sort_end": "1929-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_hofmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_zurich",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "finney_siegel_2008_chimia",
+        "page": 444,
+        "quote": "earned his PhD with distinction after only four years"
+      }
+    ]
+  },
+  {
+    "id": "hofmann_sandoz_start",
+    "event_type": "employment_start",
+    "label": "Joined Sandoz Laboratories",
+    "date": {
+      "display": "1929",
+      "precision": "year",
+      "sort_start": "1929-01-01",
+      "sort_end": "1929-12-31"
+    },
+    "location": "basel",
+    "participants": [
+      {
+        "entity_id": "albert_hofmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "sandoz_laboratories",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "finney_siegel_2008_chimia",
+        "page": 444,
+        "quote": "In 1929 he took a job with Sandoz Laboratories in Basel"
+      }
+    ]
+  },
+  {
+    "id": "hofmann_retirement",
+    "event_type": "retirement",
+    "label": "Retired from Sandoz",
+    "date": {
+      "display": "1971",
+      "precision": "year",
+      "sort_start": "1971-01-01",
+      "sort_end": "1971-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_hofmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "sandoz_laboratories",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "finney_siegel_2008_chimia",
+        "page": 444,
+        "quote": "retiring in 1971 as then head of the department for natural medicines"
+      }
+    ]
+  },
+  {
+    "id": "hofmann_death",
+    "event_type": "death",
+    "label": "Passed away",
+    "date": {
+      "display": "29 April, 2008",
+      "precision": "day",
+      "sort_start": "2008-04-29",
+      "sort_end": "2008-04-29"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_hofmann",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "finney_siegel_2008_chimia",
+        "page": 445,
+        "quote": "passed away on 29 April, 2008"
+      }
+    ]
+  },
+  {
+    "id": "hofmann_100th",
+    "event_type": "other",
+    "label": "100th birthday celebrations",
+    "date": {
+      "display": "2006",
+      "precision": "year",
+      "sort_start": "2006-01-01",
+      "sort_end": "2006-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_hofmann",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "finney_siegel_2008_chimia",
+        "page": 447,
+        "quote": "In 2006 he became 100 years old and many events took place worldwide to mark the occasion"
+      }
+    ]
+  },
+  {
+    "id": "medal_founded",
+    "event_type": "other",
+    "label": "Hofmann Centennial Medal founded",
+    "date": {
+      "display": "2007",
+      "precision": "year",
+      "sort_start": "2007-01-01",
+      "sort_end": "2007-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_hofmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "hofmann_centennial_medal",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "finney_siegel_2008_chimia",
+        "page": 447,
+        "quote": "When we founded the Hofmann Centennial Medal one year later"
+      }
+    ]
+  }
+]

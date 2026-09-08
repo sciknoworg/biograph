@@ -1,0 +1,98 @@
+[
+  {
+    "id": "perutz_worked_mrc",
+    "source": "max_perutz",
+    "type": "worked_at",
+    "target": "medical_research_council",
+    "sources": [
+      {
+        "source_id": "colman_2013_early_days",
+        "page": 1,
+        "quote": "His Medical Research Council colleagues duly organized a memorable meeting"
+      }
+    ]
+  },
+  {
+    "id": "perutz_worked_cavendish",
+    "source": "max_perutz",
+    "type": "worked_at",
+    "target": "cavendish_laboratory",
+    "sources": [
+      {
+        "source_id": "colman_2013_early_days",
+        "page": 1,
+        "quote": "earliest structural studies of biological materials at the Cavendish Laboratory is remembered."
+      }
+    ]
+  },
+  {
+    "id": "colman_worked_csiro",
+    "source": "peter_colman",
+    "type": "worked_at",
+    "target": "csiro",
+    "event_id": "colman_1978_csiro_move",
+    "sources": [
+      {
+        "source_id": "colman_2013_early_days",
+        "page": 1,
+        "quote": "When I moved to CSIRO in 1978"
+      }
+    ]
+  },
+  {
+    "id": "perutz_published_1976",
+    "source": "max_perutz",
+    "type": "published",
+    "target": "nature_1976_perutz",
+    "event_id": "perutz_1976_publication",
+    "sources": [
+      {
+        "source_id": "colman_2013_early_days",
+        "page": 1,
+        "quote": "Almost twenty years earlier he had written (Perutz, 1976)"
+      }
+    ]
+  },
+  {
+    "id": "perutz_published_1952",
+    "source": "max_perutz",
+    "type": "published",
+    "target": "proc_rsoc_1952_bragg",
+    "event_id": "bragg_perutz_1952_phasing",
+    "sources": [
+      {
+        "source_id": "colman_2013_early_days",
+        "page": 1,
+        "quote": "first seriously contemplated as a phasing tool by Bragg and Perutz (Bragg & Perutz, 1952)."
+      }
+    ]
+  },
+  {
+    "id": "perutz_published_1938",
+    "source": "max_perutz",
+    "type": "published",
+    "target": "nature_1938_bernal",
+    "event_id": "bernal_perutz_1938_publication",
+    "sources": [
+      {
+        "source_id": "colman_2013_early_days",
+        "page": 1,
+        "quote": "raised by Bernal (Bernal et al. , 1938)"
+      }
+    ]
+  },
+  {
+    "id": "colman_met_perutz_1994",
+    "source": "peter_colman",
+    "type": "met",
+    "target": "max_perutz",
+    "event_id": "perutz_1994_birthday_meeting",
+    "sources": [
+      {
+        "source_id": "colman_2013_early_days",
+        "page": 1,
+        "quote": "Left to right: T ony Kossiakoff, Wim Hol, Michael Rossmann, Aaron Klug, Max Perutz, David Blow, Peter Colman, Don Wiley and Wayne Hendrickson."
+      }
+    ]
+  }
+]

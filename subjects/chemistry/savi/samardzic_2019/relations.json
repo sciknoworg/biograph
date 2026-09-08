@@ -1,0 +1,140 @@
+[
+  {
+    "id": "pavle_savic_born_in_thessaloniki",
+    "source": "pavle_savic",
+    "type": "born_in",
+    "target": "thessaloniki",
+    "event_id": "pavle_savic_birth",
+    "sources": [
+      {
+        "source_id": "samardzic_2019",
+        "page": 1,
+        "quote": "He was born in Thessaloniki, Greece, on January 10th, 1909."
+      }
+    ]
+  },
+  {
+    "id": "pavle_savic_studied_at_belgrade",
+    "source": "pavle_savic",
+    "type": "studied_at",
+    "target": "belgrade_university",
+    "event_id": "pavle_savic_university_diploma",
+    "sources": [
+      {
+        "source_id": "samardzic_2019",
+        "page": 1,
+        "quote": "Pavle Savić enrolled the Department of Physics of the Faculty of Philosophy in Belgrade to study physical chemistry."
+      }
+    ]
+  },
+  {
+    "id": "pavle_savic_married_branka",
+    "source": "pavle_savic",
+    "type": "married_to",
+    "target": "branka_savic",
+    "event_id": "pavle_savic_marriage",
+    "sources": [
+      {
+        "source_id": "samardzic_2019",
+        "page": 2,
+        "quote": "he came to Paris with his wife Branka, whom he married in 1934."
+      }
+    ]
+  },
+  {
+    "id": "pavle_savic_worked_at_radium",
+    "source": "pavle_savic",
+    "type": "worked_at",
+    "target": "radium_institute",
+    "event_id": "pavle_savic_joliot_collab_start",
+    "sources": [
+      {
+        "source_id": "samardzic_2019",
+        "page": 2,
+        "quote": "Savić applied to the Radium Institute. He was admitted and assigned to work in a library"
+      }
+    ]
+  },
+  {
+    "id": "pavle_savic_collaborated_irene",
+    "source": "pavle_savic",
+    "type": "collaborated_with",
+    "target": "irene_joliot_curie",
+    "event_id": "pavle_savic_joliot_collab_start",
+    "sources": [
+      {
+        "source_id": "samardzic_2019",
+        "page": 2,
+        "quote": "In 1936 Irène Joliot-Curie invited Savić to work with her on the on the phenomena resulting from bombardment of the uranium with neutrons."
+      }
+    ]
+  },
+  {
+    "id": "pavle_savic_member_of_cp",
+    "source": "pavle_savic",
+    "type": "member_of",
+    "target": "communist_party_yugoslavia",
+    "sources": [
+      {
+        "source_id": "samardzic_2019",
+        "page": 3,
+        "quote": "In June of 1939, just when the difficulties related to the uranium testing on the Radium Institute were at their peak, Savić was admitted to the Communist Party."
+      }
+    ]
+  },
+  {
+    "id": "pavle_savic_worked_at_vinca",
+    "source": "pavle_savic",
+    "type": "worked_at",
+    "target": "institute_vinca",
+    "event_id": "pavle_savic_vinca_construction",
+    "sources": [
+      {
+        "source_id": "samardzic_2019",
+        "page": 5,
+        "quote": "In September 1946, when he came back from the Soviet Union, Pavle Savić started to work on the construction of the Institute of Physics in Vinča"
+      }
+    ]
+  },
+  {
+    "id": "pavle_savic_worked_at_moscow_institute",
+    "source": "pavle_savic",
+    "type": "worked_at",
+    "target": "institute_physical_problems_moscow",
+    "event_id": "pavle_savic_moscow_work",
+    "sources": [
+      {
+        "source_id": "samardzic_2019",
+        "page": 5,
+        "quote": "The Institute for Physical Problems, concerned with low temperature physics phenomena, was one of the first institutes to return to Moscow from evacuation."
+      }
+    ]
+  },
+  {
+    "id": "pavle_savic_collaborated_kapitsa",
+    "source": "pavle_savic",
+    "type": "collaborated_with",
+    "target": "pyotr_kapitsa",
+    "sources": [
+      {
+        "source_id": "samardzic_2019",
+        "page": 5,
+        "quote": "The head of this institute was Pyotr Leonidovich Kapitsa. Savić spent two years working in his institute."
+      }
+    ]
+  },
+  {
+    "id": "pavle_savic_died_in_belgrade",
+    "source": "pavle_savic",
+    "type": "died_in",
+    "target": "belgrade",
+    "event_id": "pavle_savic_death",
+    "sources": [
+      {
+        "source_id": "samardzic_2019",
+        "page": 6,
+        "quote": "He died in Belgrade in 1994 in his home and was buried in the family tomb"
+      }
+    ]
+  }
+]

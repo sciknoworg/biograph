@@ -1,0 +1,497 @@
+[
+  {
+    "id": "birth",
+    "event_type": "birth",
+    "label": "Born in Newbridge, County Kildare",
+    "date": {
+      "display": "28 January 1903",
+      "precision": "day",
+      "sort_start": "1903-01-28",
+      "sort_end": "1903-01-28"
+    },
+    "location": "newbridge_kildare",
+    "participants": [
+      {
+        "entity_id": "kathleen_lonsdale",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 1,
+        "quote": "Kathleen Lonsdale 28 January 1903 - 1 April 1971"
+      },
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 2,
+        "quote": "Born in Ireland at Newbridge, County Kildare on 28 January 1903"
+      }
+    ]
+  },
+  {
+    "id": "education_bedford",
+    "event_type": "education",
+    "label": "Took high honours in physics at Bedford College",
+    "date": {
+      "display": "1922",
+      "precision": "year",
+      "sort_start": "1922-01-01",
+      "sort_end": "1922-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kathleen_lonsdale",
+        "role": "subject"
+      },
+      {
+        "entity_id": "bedford_college",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 2,
+        "quote": "Kathleen Yardley took high honours in physics at Bedford College for Women, University of London, in 1922"
+      }
+    ]
+  },
+  {
+    "id": "employment_bragg_start",
+    "event_type": "employment_start",
+    "label": "Joined W. H. Bragg's research team",
+    "date": {
+      "display": "1922",
+      "precision": "year",
+      "sort_start": "1922-01-01",
+      "sort_end": "1922-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kathleen_lonsdale",
+        "role": "subject"
+      },
+      {
+        "entity_id": "w_h_bragg",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 2,
+        "quote": "and was invited by W. H. Bragg to join his research team, first at University College London and then at the Royal Institution."
+      }
+    ]
+  },
+  {
+    "id": "marriage",
+    "event_type": "other",
+    "label": "Married Thomas Lonsdale",
+    "date": {
+      "display": "1927",
+      "precision": "year",
+      "sort_start": "1927-01-01",
+      "sort_end": "1927-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kathleen_lonsdale",
+        "role": "subject"
+      },
+      {
+        "entity_id": "thomas_lonsdale",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 2,
+        "quote": "For two years after her marriage to a fellow physicist, Thomas Lonsdale, in 1927"
+      }
+    ]
+  },
+  {
+    "id": "employment_leeds",
+    "event_type": "employment_start",
+    "label": "Worked at the University of Leeds",
+    "date": {
+      "display": "1927",
+      "precision": "year",
+      "sort_start": "1927-01-01",
+      "sort_end": "1927-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kathleen_lonsdale",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_leeds",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 2,
+        "quote": "For two years after her marriage to a fellow physicist, Thomas Lonsdale, in 1927, she worked at the University of Leeds"
+      }
+    ]
+  },
+  {
+    "id": "employment_ri_return",
+    "event_type": "employment_start",
+    "label": "Rejoined the Royal Institution",
+    "date": {
+      "display": "1932",
+      "precision": "year",
+      "sort_start": "1932-01-01",
+      "sort_end": "1932-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kathleen_lonsdale",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_institution",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 2,
+        "quote": "but returned with him to London and rejoined the Royal Institution in 1932"
+      }
+    ]
+  },
+  {
+    "id": "imprisonment",
+    "event_type": "other",
+    "label": "Imprisoned in Holloway Gaol",
+    "date": {
+      "display": "1943",
+      "precision": "year",
+      "sort_start": "1943-01-01",
+      "sort_end": "1943-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kathleen_lonsdale",
+        "role": "subject"
+      },
+      {
+        "entity_id": "holloway_gaol",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 1,
+        "quote": "She first attracted public attention by spending a month in Holloway Gaol (1943)"
+      }
+    ]
+  },
+  {
+    "id": "fellowship_rs",
+    "event_type": "award",
+    "label": "Elected Fellow of the Royal Society",
+    "date": {
+      "display": "1945",
+      "precision": "year",
+      "sort_start": "1945-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kathleen_lonsdale",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_society",
+        "role": "awarding_body"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 1,
+        "quote": "and was soon in the public eye again (in 1945) as one of the first two women to be elected to the Fellowship of the Royal Society"
+      }
+    ]
+  },
+  {
+    "id": "employment_ucl",
+    "event_type": "employment_start",
+    "label": "Appointed Professor at University College London",
+    "date": {
+      "display": "1946",
+      "precision": "year",
+      "sort_start": "1946-01-01",
+      "sort_end": "1946-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kathleen_lonsdale",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_college_london",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 1,
+        "quote": "namely the period from 1946 until she retired in 1968 as Professor of Chemistry and Head of the Department of Crystallography in University College London."
+      }
+    ]
+  },
+  {
+    "id": "fellowship_nih",
+    "event_type": "employment_start",
+    "label": "Special research fellow at N.I.H.",
+    "date": {
+      "display": "1947",
+      "precision": "year",
+      "sort_start": "1947-01-01",
+      "sort_end": "1947-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kathleen_lonsdale",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nih",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 3,
+        "quote": "when she was a special research fellow at the N. I. H. in Bethesda in 1947"
+      }
+    ]
+  },
+  {
+    "id": "publication_crystals_xrays",
+    "event_type": "publication",
+    "label": "Published Crystals and X-rays",
+    "date": {
+      "display": "1949",
+      "precision": "year",
+      "sort_start": "1949-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kathleen_lonsdale",
+        "role": "subject"
+      },
+      {
+        "entity_id": "crystals_and_xrays",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 3,
+        "quote": "She gave a series of university extension lectures which she wrote up as a book entitled Crystals and X-rays (1949)"
+      }
+    ]
+  },
+  {
+    "id": "award_davy",
+    "event_type": "award",
+    "label": "Awarded the Davy Medal",
+    "date": {
+      "display": "1957",
+      "precision": "year",
+      "sort_start": "1957-01-01",
+      "sort_end": "1957-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kathleen_lonsdale",
+        "role": "subject"
+      },
+      {
+        "entity_id": "davy_medal",
+        "role": "invention"
+      },
+      {
+        "entity_id": "royal_society",
+        "role": "awarding_body"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 2,
+        "quote": "For this and later work she was awarded the Davy Medal of the Royal Society in 1957."
+      }
+    ]
+  },
+  {
+    "id": "publication_peace",
+    "event_type": "publication",
+    "label": "Published Is Peace Possible?",
+    "date": {
+      "display": "1957",
+      "precision": "year",
+      "sort_start": "1957-01-01",
+      "sort_end": "1957-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kathleen_lonsdale",
+        "role": "subject"
+      },
+      {
+        "entity_id": "is_peace_possible",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 4,
+        "quote": "and wrote a Penguin Special entitled Is Peace Possible? (1957)"
+      }
+    ]
+  },
+  {
+    "id": "role_ba_secretary",
+    "event_type": "role_change",
+    "label": "Served as General Secretary of British Association",
+    "date": {
+      "display": "1960 to 1964",
+      "precision": "range",
+      "sort_start": "1960-01-01",
+      "sort_end": "1964-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kathleen_lonsdale",
+        "role": "subject"
+      },
+      {
+        "entity_id": "british_association",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 4,
+        "quote": "after serving as one of its General Secretaries from 1960 to 1964"
+      }
+    ]
+  },
+  {
+    "id": "role_ba_president",
+    "event_type": "role_change",
+    "label": "Elected President of British Association",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kathleen_lonsdale",
+        "role": "subject"
+      },
+      {
+        "entity_id": "british_association",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 4,
+        "quote": "in 1967, in Leeds, where she had first attended a meeting 40 years earlier, she was elected the first woman President of the B. A."
+      }
+    ]
+  },
+  {
+    "id": "retirement",
+    "event_type": "retirement",
+    "label": "Retired from University College London",
+    "date": {
+      "display": "1968",
+      "precision": "year",
+      "sort_start": "1968-01-01",
+      "sort_end": "1968-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kathleen_lonsdale",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_college_london",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 1,
+        "quote": "until she retired in 1968 as Professor of Chemistry and Head of the Department of Crystallography in University College London."
+      }
+    ]
+  },
+  {
+    "id": "death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1 April 1971",
+      "precision": "day",
+      "sort_start": "1971-04-01",
+      "sort_end": "1971-04-01"
+    },
+    "participants": [
+      {
+        "entity_id": "kathleen_lonsdale",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 1,
+        "quote": "Kathleen Lonsdale 28 January 1903 - 1 April 1971"
+      }
+    ]
+  }
+]

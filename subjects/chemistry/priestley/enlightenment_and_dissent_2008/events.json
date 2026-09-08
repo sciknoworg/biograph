@@ -1,0 +1,315 @@
+[
+  {
+    "id": "priestley_taught_warrington",
+    "event_type": "employment_start",
+    "label": "Became teacher at Warrington Academy",
+    "description": "Priestley was a teacher at Warrington Academy by 1773.",
+    "date": {
+      "display": "by 1773",
+      "precision": "year",
+      "sort_start": "1773-01-01",
+      "sort_end": "1773-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_priestley",
+        "role": "subject"
+      },
+      {
+        "entity_id": "warrington_academy",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "enlightenment_and_dissent_2008",
+        "page": 3,
+        "quote": "By 1773, he had become an author of college textbooks, a teacher at Warrington Academy, a member of the Royal Society, an admired historian of science, a recipient of an honorary doctorate, a leading political thinker, and a friend of many in both London and provincial scientific and liberal circles."
+      }
+    ]
+  },
+  {
+    "id": "priestley_member_royal_society",
+    "event_type": "award",
+    "label": "Became member of Royal Society",
+    "description": "Priestley was a member of the Royal Society by 1773.",
+    "date": {
+      "display": "by 1773",
+      "precision": "year",
+      "sort_start": "1773-01-01",
+      "sort_end": "1773-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_priestley",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_society",
+        "role": "awarding_body"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "enlightenment_and_dissent_2008",
+        "page": 3,
+        "quote": "By 1773, he had become an author of college textbooks, a teacher at Warrington Academy, a member of the Royal Society, an admired historian of science, a recipient of an honorary doctorate, a leading political thinker, and a friend of many in both London and provincial scientific and liberal circles."
+      }
+    ]
+  },
+  {
+    "id": "priestley_moved_shelburne_1773",
+    "event_type": "relocation",
+    "label": "Moved to work for Lord Shelburne",
+    "description": "Priestley moved from Leeds to work with and for Lord Shelburne in Calne and in London.",
+    "date": {
+      "display": "1773",
+      "precision": "year",
+      "sort_start": "1773-01-01",
+      "sort_end": "1773-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_priestley",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lord_shelburne",
+        "role": "employer"
+      },
+      {
+        "entity_id": "leeds",
+        "role": "location"
+      },
+      {
+        "entity_id": "calne",
+        "role": "location"
+      },
+      {
+        "entity_id": "london",
+        "role": "location"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "enlightenment_and_dissent_2008",
+        "page": 3,
+        "quote": "In 1773 Priestley moved from Leeds to work with and for Lord Shelburne in Calne and in London, thereby strengthening his national prominence."
+      }
+    ]
+  },
+  {
+    "id": "priestley_discovered_oxygen",
+    "event_type": "invention",
+    "label": "Discovered oxygen",
+    "description": "Priestley discovered dephlogisticated air (oxygen).",
+    "date": {
+      "display": "1774-75",
+      "precision": "range",
+      "sort_start": "1774-01-01",
+      "sort_end": "1775-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_priestley",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "enlightenment_and_dissent_2008",
+        "page": 3,
+        "quote": "His name is today best-known for his discovery of oxygen in 1774-75, yet even this achievement stands at the centre of what was a very turbulent 'chemical revolution'."
+      }
+    ]
+  },
+  {
+    "id": "priestley_met_lavoisier",
+    "event_type": "meeting",
+    "label": "Met Lavoisier in Paris",
+    "description": "Priestley met Lavoisier in Paris and demonstrated his new discovery.",
+    "date": {
+      "display": "1774",
+      "precision": "year",
+      "sort_start": "1774-01-01",
+      "sort_end": "1774-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_priestley",
+        "role": "subject"
+      },
+      {
+        "entity_id": "antoine_lavoisier",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "paris",
+        "role": "location"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "enlightenment_and_dissent_2008",
+        "page": 3,
+        "quote": "The two had met in Paris in 1774, when he demonstrated his new discovery."
+      }
+    ]
+  },
+  {
+    "id": "priestley_published_essay",
+    "event_type": "publication",
+    "label": "Published Essay on first principles",
+    "description": "Priestley published Essay on the first principles of government.",
+    "date": {
+      "display": "1768",
+      "precision": "year",
+      "sort_start": "1768-01-01",
+      "sort_end": "1768-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_priestley",
+        "role": "subject"
+      },
+      {
+        "entity_id": "essay_on_first_principles",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "enlightenment_and_dissent_2008",
+        "page": 5,
+        "quote": "His Essay on the first principles of government of 1768 had articulated with notable clarity the distinction between civil and political rights, in a very moderate statement of Enlightenment political philosophy."
+      }
+    ]
+  },
+  {
+    "id": "priestley_published_letters",
+    "event_type": "publication",
+    "label": "Published Letters to Burke",
+    "description": "Priestley published Letters to the Right Honourable Edmund Burke.",
+    "date": {
+      "display": "1791",
+      "precision": "year",
+      "sort_start": "1791-01-01",
+      "sort_end": "1791-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_priestley",
+        "role": "subject"
+      },
+      {
+        "entity_id": "letters_to_burke",
+        "role": "invention"
+      },
+      {
+        "entity_id": "edmund_burke",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "enlightenment_and_dissent_2008",
+        "page": 5,
+        "quote": "His Letters to the Right Honourable Edmund Burke of 1791 were admired by one contemporary as 'by many degrees the ablest and most masterly' of the many replies to Burke (278n)."
+      }
+    ]
+  },
+  {
+    "id": "birmingham_riots",
+    "event_type": "other",
+    "label": "Birmingham riots against Priestley",
+    "description": "Birmingham rejected Priestley violently in riots during the 1790s.",
+    "date": {
+      "display": "1790s",
+      "precision": "decade",
+      "sort_start": "1790-01-01",
+      "sort_end": "1799-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_priestley",
+        "role": "subject"
+      },
+      {
+        "entity_id": "birmingham",
+        "role": "location"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "enlightenment_and_dissent_2008",
+        "page": 2,
+        "quote": "One of its most'enlightened'cities, Birmingham, rejected him violently, in riots that the Prime Minister, Pitt, called 'an effervescence of the popular mind'."
+      }
+    ]
+  },
+  {
+    "id": "priestley_death",
+    "event_type": "death",
+    "label": "Died",
+    "description": "Priestley's life and work studied up to 1804, continued to present his side of the argument up to his death.",
+    "date": {
+      "display": "1804",
+      "precision": "year",
+      "sort_start": "1804-01-01",
+      "sort_end": "1804-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_priestley",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "enlightenment_and_dissent_2008",
+        "page": 2,
+        "quote": "Robert E Schofield, The enlightened Joseph Priestley: a study of his life and work from 1773 to 1804, Pennsylvania State University Press University Park, Pennsylvania, 2004, ISBN 0271024593, £40.95; $58.00."
+      },
+      {
+        "source_id": "enlightenment_and_dissent_2008",
+        "page": 3,
+        "quote": "Priestley never accepted the theoretical basis for Lavoisier's redescription, and continued to present his side of the argument up to his death."
+      }
+    ]
+  },
+  {
+    "id": "unitarianism_legalised",
+    "event_type": "other",
+    "label": "Legalisation of Unitarianism",
+    "description": "Unitarianism was legalised, seen as a belated apology for political wrongs against Priestley.",
+    "date": {
+      "display": "1813",
+      "precision": "year",
+      "sort_start": "1813-01-01",
+      "sort_end": "1813-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "unitarianism",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "enlightenment_and_dissent_2008",
+        "page": 7,
+        "quote": "Schofield suggests that the legalisation of Unitarianism in 1813 was 'quite as much a belated apology for a political wrong as an acknowledgment of Priestley's achievement in theological opinion'(263)."
+      }
+    ]
+  }
+]

@@ -1,0 +1,246 @@
+[
+  {
+    "id": "brewer_undergrad_caltech",
+    "event_type": "education",
+    "label": "Undergraduate studies at Cal Tech",
+    "description": "Studied chemistry with Professors Swift, Yost, Pauling, and Lucas.",
+    "date": {
+      "display": "1936-40",
+      "precision": "range",
+      "sort_start": "1936-01-01",
+      "sort_end": "1940-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "leo_brewer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cal_tech",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brewer_1989_retrospective",
+        "page": 1,
+        "quote": "As an undergraduate in 1936-40 at Cal Tech, I was especially stimulated in many directions by Professors Ernest Swift, Don Yost, Linus Pauling and by Howard Lucas with whom I did undergraduate organic chemical research."
+      }
+    ]
+  },
+  {
+    "id": "brewer_phd_berkeley",
+    "event_type": "education",
+    "label": "Ph.D. work at UC Berkeley",
+    "description": "Conducted Ph.D. work on the kinetics of enolization of ketones under Axel Olson.",
+    "date": {
+      "display": "1940s",
+      "precision": "decade",
+      "sort_start": "1940-01-01",
+      "sort_end": "1942-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "leo_brewer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "uc_berkeley",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brewer_1989_retrospective",
+        "page": 1,
+        "quote": "As a graduate student at the University of California, Berkeley, I was pointed in additional directions by Professors Ermon Eastman, Wendell Latimer, Joel Hildebrand, Gilbert Lewis, Gerhard Rollefson, and Axel Olson with whom I did my Ph.D. work on the kinetics of enolization of ketones."
+      }
+    ]
+  },
+  {
+    "id": "brewer_joins_manhattan_project",
+    "event_type": "employment_start",
+    "label": "Joined Manhattan Project",
+    "description": "Approached by Wendell Latimer to predict properties of plutonium metal.",
+    "date": {
+      "display": "December 1942",
+      "precision": "month",
+      "sort_start": "1942-12-01",
+      "sort_end": "1942-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "leo_brewer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "manhattan_project",
+        "role": "employer"
+      },
+      {
+        "entity_id": "wendell_latimer",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brewer_1989_retrospective",
+        "page": 1,
+        "quote": "after completion of my thesis, I was approached by Wendell Latimer in December 1942 to join the Manhattan Project."
+      }
+    ]
+  },
+  {
+    "id": "crucibles_sent_to_los_alamos",
+    "event_type": "product_launch",
+    "label": "Sent CeS crucibles to Los Alamos",
+    "description": "Delivered 564 cerium sulfide crucibles for plutonium metallurgy.",
+    "date": {
+      "display": "end of 1944",
+      "precision": "year",
+      "sort_start": "1944-01-01",
+      "sort_end": "1944-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "leo_brewer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ces_crucibles",
+        "role": "invention"
+      },
+      {
+        "entity_id": "los_alamos",
+        "role": "recipient"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brewer_1989_retrospective",
+        "page": 2,
+        "quote": "we had sent 564 crucibles to Los Alamos by the end of 1944."
+      }
+    ]
+  },
+  {
+    "id": "engel_sabbatical_berkeley",
+    "event_type": "visit",
+    "label": "Niels Engel sabbatical at Berkeley",
+    "description": "Engel introduced Brewer to his theory of metallic bonding.",
+    "date": {
+      "display": "late forties",
+      "precision": "decade",
+      "sort_start": "1945-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "niels_engel",
+        "role": "visitor"
+      },
+      {
+        "entity_id": "uc_berkeley",
+        "role": "host"
+      },
+      {
+        "entity_id": "leo_brewer",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brewer_1989_retrospective",
+        "page": 3,
+        "quote": "In the late forties, the Danish scientist Niels Engel spent a sabbatical at Berkeley and introduced me to his theory of metallic bonding"
+      }
+    ]
+  },
+  {
+    "id": "beck_conference_presentation",
+    "event_type": "conference",
+    "label": "Presentation at Paul Beck's meeting",
+    "description": "Presented chemist's view of metallic bonding and Engel's theory.",
+    "date": {
+      "display": "1962",
+      "precision": "year",
+      "sort_start": "1962-01-01",
+      "sort_end": "1962-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "leo_brewer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "paul_beck",
+        "role": "organizer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brewer_1989_retrospective",
+        "page": 4,
+        "quote": "In 1962, Professor Paul Beck of the University of Illinois asked me if J would give a presentation of the chemist's view of metallic bonding at a meeting at which similar presentations would be made by metallurgists and physicists."
+      }
+    ]
+  },
+  {
+    "id": "brewer_teaching_lab_course",
+    "event_type": "employment_start",
+    "label": "Teaching undergraduate inorganic laboratory",
+    "description": "Taught course where students undertook minor research projects on intermetallics.",
+    "date": {
+      "display": "1966",
+      "precision": "year",
+      "sort_start": "1966-01-01",
+      "sort_end": "1966-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "leo_brewer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "uc_berkeley",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brewer_1989_retrospective",
+        "page": 4,
+        "quote": "in 1966, I was teaching an undergraduate inorganic laboratory course in which the students undertook minor research projects."
+      }
+    ]
+  },
+  {
+    "id": "wengert_letter",
+    "event_type": "meeting",
+    "label": "Received letter from Paul Wengert",
+    "description": "Wengert requested to do Ph.D. research with Brewer despite being a metallurgy student.",
+    "date": {
+      "display": "1969",
+      "precision": "year",
+      "sort_start": "1969-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "leo_brewer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "paul_wengert",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brewer_1989_retrospective",
+        "page": 5,
+        "quote": "In 1969, I received a letter from Paul Wengert, an undergraduate student in metallurgy, who had read my papers and wanted to do Ph.D. research with me even though he was not a chemist."
+      }
+    ]
+  }
+]

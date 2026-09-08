@@ -1,0 +1,426 @@
+[
+  {
+    "id": "kendall_birth",
+    "event_type": "birth",
+    "label": "Born in South Norwalk",
+    "date": {
+      "display": "March 8, 1886",
+      "precision": "day",
+      "sort_start": "1886-03-08",
+      "sort_end": "1886-03-08"
+    },
+    "location": "south_norwalk_connecticut",
+    "participants": [
+      {
+        "entity_id": "edward_calvin_kendall",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaouache_2024",
+        "page": 1,
+        "quote": "Edward Calvin Kendall was born on March 8, 1886, in South Norwalk, Connecticut."
+      }
+    ]
+  },
+  {
+    "id": "kendall_enter_columbia",
+    "event_type": "education",
+    "label": "Entered Columbia University",
+    "date": {
+      "display": "1904",
+      "precision": "year",
+      "sort_start": "1904-01-01",
+      "sort_end": "1904-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "edward_calvin_kendall",
+        "role": "subject"
+      },
+      {
+        "entity_id": "columbia_university",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaouache_2024",
+        "page": 1,
+        "quote": "In 1904, he entered Columbia University, one of the leading institutions of the time."
+      }
+    ]
+  },
+  {
+    "id": "kendall_bs",
+    "event_type": "education",
+    "label": "Earned Bachelor of Science",
+    "date": {
+      "display": "1908",
+      "precision": "year",
+      "sort_start": "1908-01-01",
+      "sort_end": "1908-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "edward_calvin_kendall",
+        "role": "subject"
+      },
+      {
+        "entity_id": "columbia_university",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaouache_2024",
+        "page": 1,
+        "quote": "At Columbia, Kendall earned his Bachelor of Science degree in 1908"
+      }
+    ]
+  },
+  {
+    "id": "kendall_ms",
+    "event_type": "education",
+    "label": "Earned Master of Science",
+    "date": {
+      "display": "1909",
+      "precision": "year",
+      "sort_start": "1909-01-01",
+      "sort_end": "1909-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "edward_calvin_kendall",
+        "role": "subject"
+      },
+      {
+        "entity_id": "columbia_university",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaouache_2024",
+        "page": 1,
+        "quote": "followed by a Master of Science degree in 1909."
+      }
+    ]
+  },
+  {
+    "id": "kendall_phd",
+    "event_type": "education",
+    "label": "Earned PhD",
+    "date": {
+      "display": "1910",
+      "precision": "year",
+      "sort_start": "1910-01-01",
+      "sort_end": "1910-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "edward_calvin_kendall",
+        "role": "subject"
+      },
+      {
+        "entity_id": "columbia_university",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaouache_2024",
+        "page": 1,
+        "quote": "His academic journey culminated in 1910 with a PhD"
+      }
+    ]
+  },
+  {
+    "id": "kendall_start_parke_davis",
+    "event_type": "employment_start",
+    "label": "Started at Parke, Davis & Co.",
+    "date": {
+      "display": "1910",
+      "precision": "year",
+      "sort_start": "1910-01-01",
+      "sort_end": "1910-12-31"
+    },
+    "location": "detroit_michigan",
+    "participants": [
+      {
+        "entity_id": "edward_calvin_kendall",
+        "role": "subject"
+      },
+      {
+        "entity_id": "parke_davis_co",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaouache_2024",
+        "page": 1,
+        "quote": "Kendall's professional career began at Parke, Davis & Co. in Detroit, Michigan"
+      }
+    ]
+  },
+  {
+    "id": "kendall_start_st_lukes",
+    "event_type": "employment_start",
+    "label": "Moved to St. Luke's Hospital",
+    "date": {
+      "display": "1911",
+      "precision": "year",
+      "sort_start": "1911-01-01",
+      "sort_end": "1911-12-31"
+    },
+    "location": "new_york_city",
+    "participants": [
+      {
+        "entity_id": "edward_calvin_kendall",
+        "role": "subject"
+      },
+      {
+        "entity_id": "st_lukes_hospital",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaouache_2024",
+        "page": 1,
+        "quote": "In 1911, Kendall transitioned to St. Luke's Hospital in New York City"
+      }
+    ]
+  },
+  {
+    "id": "kendall_start_mayo",
+    "event_type": "employment_start",
+    "label": "Moved to Mayo Foundation",
+    "date": {
+      "display": "1914",
+      "precision": "year",
+      "sort_start": "1914-01-01",
+      "sort_end": "1914-12-31"
+    },
+    "location": "rochester_minnesota",
+    "participants": [
+      {
+        "entity_id": "edward_calvin_kendall",
+        "role": "subject"
+      },
+      {
+        "entity_id": "mayo_foundation",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaouache_2024",
+        "page": 1,
+        "quote": "move to the Mayo Foundation in Rochester, Minnesota, in 1914"
+      }
+    ]
+  },
+  {
+    "id": "kendall_isolate_thyroxine",
+    "event_type": "invention",
+    "label": "Isolated thyroxine",
+    "date": {
+      "display": "December 1914",
+      "precision": "month",
+      "sort_start": "1914-12-01",
+      "sort_end": "1914-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "edward_calvin_kendall",
+        "role": "subject"
+      },
+      {
+        "entity_id": "thyroxine",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaouache_2024",
+        "page": 1,
+        "quote": "By December 1914, Kendall had succeeded in isolating thyroxine in crystalline form"
+      }
+    ]
+  },
+  {
+    "id": "kendall_identify_corticosteroids",
+    "event_type": "invention",
+    "label": "Identified six corticosteroids",
+    "date": {
+      "display": "1935",
+      "precision": "year",
+      "sort_start": "1935-01-01",
+      "sort_end": "1935-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "edward_calvin_kendall",
+        "role": "subject"
+      },
+      {
+        "entity_id": "h_l_mason",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "cortisone",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaouache_2024",
+        "page": 2,
+        "quote": "By 1935, Kendall's team had identified six distinct corticosteroids"
+      }
+    ]
+  },
+  {
+    "id": "kendall_cortisone_arthritis",
+    "event_type": "public_demonstration",
+    "label": "Discovered cortisone effects on arthritis",
+    "date": {
+      "display": "late 1940s",
+      "precision": "decade",
+      "sort_start": "1945-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "edward_calvin_kendall",
+        "role": "subject"
+      },
+      {
+        "entity_id": "philip_hench",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "cortisone",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaouache_2024",
+        "page": 2,
+        "quote": "The late 1940s saw a breakthrough... discovered the profound effects of cortisone on patients with rheumatoid arthritis."
+      }
+    ]
+  },
+  {
+    "id": "kendall_nobel_prize",
+    "event_type": "award",
+    "label": "Received Nobel Prize",
+    "date": {
+      "display": "1950",
+      "precision": "year",
+      "sort_start": "1950-01-01",
+      "sort_end": "1950-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "edward_calvin_kendall",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize_physiology_medicine_1950",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaouache_2024",
+        "page": 2,
+        "quote": "received the Nobel Prize for Physiology or Medicine in 1950."
+      }
+    ]
+  },
+  {
+    "id": "kendall_retire_mayo",
+    "event_type": "retirement",
+    "label": "Retired from Mayo Clinic",
+    "date": {
+      "display": "1951",
+      "precision": "year",
+      "sort_start": "1951-01-01",
+      "sort_end": "1951-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "edward_calvin_kendall",
+        "role": "subject"
+      },
+      {
+        "entity_id": "mayo_foundation",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaouache_2024",
+        "page": 2,
+        "quote": "After retiring from the Mayo Clinic in 1951"
+      }
+    ]
+  },
+  {
+    "id": "kendall_princeton",
+    "event_type": "employment_start",
+    "label": "Became visiting professor at Princeton",
+    "date": {
+      "display": "1951",
+      "precision": "year",
+      "sort_start": "1951-01-01",
+      "sort_end": "1951-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "edward_calvin_kendall",
+        "role": "subject"
+      },
+      {
+        "entity_id": "princeton_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaouache_2024",
+        "page": 2,
+        "quote": "Kendall continued his research as a visiting professor at Princeton University."
+      }
+    ]
+  },
+  {
+    "id": "kendall_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1972",
+      "precision": "year",
+      "sort_start": "1972-01-01",
+      "sort_end": "1972-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "edward_calvin_kendall",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kaouache_2024",
+        "page": 2,
+        "quote": "until he died in 1972."
+      }
+    ]
+  }
+]

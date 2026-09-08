@@ -1,0 +1,455 @@
+[
+  {
+    "id": "pavle_savic_birth",
+    "event_type": "birth",
+    "label": "Born in Thessaloniki",
+    "date": {
+      "display": "January 10th, 1909",
+      "precision": "day",
+      "sort_start": "1909-01-10",
+      "sort_end": "1909-01-10"
+    },
+    "participants": [
+      {
+        "entity_id": "pavle_savic",
+        "role": "subject"
+      }
+    ],
+    "location": "thessaloniki",
+    "sources": [
+      {
+        "source_id": "samardzic_2019",
+        "page": 1,
+        "quote": "He was born in Thessaloniki, Greece, on January 10th, 1909."
+      }
+    ]
+  },
+  {
+    "id": "pavle_savic_gymnasium_grad",
+    "event_type": "education",
+    "label": "Graduated gymnasium in Požarevac",
+    "date": {
+      "display": "1927",
+      "precision": "year",
+      "sort_start": "1927-01-01",
+      "sort_end": "1927-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pavle_savic",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "samardzic_2019",
+        "page": 1,
+        "quote": "His gymnasium education was completed in Požarevac, where he graduated in 1927."
+      }
+    ]
+  },
+  {
+    "id": "pavle_savic_university_diploma",
+    "event_type": "education",
+    "label": "Received diploma from Belgrade University",
+    "date": {
+      "display": "October 1932",
+      "precision": "month",
+      "sort_start": "1932-10-01",
+      "sort_end": "1932-10-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pavle_savic",
+        "role": "subject"
+      },
+      {
+        "entity_id": "belgrade_university",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "samardzic_2019",
+        "page": 2,
+        "quote": "He graduated in June and received a diploma in October 1932."
+      }
+    ]
+  },
+  {
+    "id": "pavle_savic_marriage",
+    "event_type": "other",
+    "label": "Married Branka",
+    "date": {
+      "display": "1934",
+      "precision": "year",
+      "sort_start": "1934-01-01",
+      "sort_end": "1934-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pavle_savic",
+        "role": "subject"
+      },
+      {
+        "entity_id": "branka_savic",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "samardzic_2019",
+        "page": 2,
+        "quote": "he came to Paris with his wife Branka, whom he married in 1934."
+      }
+    ]
+  },
+  {
+    "id": "pavle_savic_move_paris",
+    "event_type": "relocation",
+    "label": "Moved to Paris",
+    "date": {
+      "display": "end of 1935",
+      "precision": "year",
+      "sort_start": "1935-12-01",
+      "sort_end": "1935-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pavle_savic",
+        "role": "subject"
+      }
+    ],
+    "location": "paris",
+    "sources": [
+      {
+        "source_id": "samardzic_2019",
+        "page": 2,
+        "quote": "at the end of 1935 he came to Paris with his wife Branka"
+      }
+    ]
+  },
+  {
+    "id": "pavle_savic_joliot_collab_start",
+    "event_type": "employment_start",
+    "label": "Started work with Irène Joliot-Curie",
+    "date": {
+      "display": "1936",
+      "precision": "year",
+      "sort_start": "1936-01-01",
+      "sort_end": "1936-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pavle_savic",
+        "role": "subject"
+      },
+      {
+        "entity_id": "irene_joliot_curie",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "radium_institute",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "samardzic_2019",
+        "page": 2,
+        "quote": "In 1936 Irène Joliot-Curie invited Savić to work with her on the on the phenomena resulting from bombardment of the uranium with neutrons."
+      }
+    ]
+  },
+  {
+    "id": "pavle_savic_fission_paper",
+    "event_type": "publication",
+    "label": "Published paper on fission products",
+    "date": {
+      "display": "September of 1937",
+      "precision": "month",
+      "sort_start": "1937-09-01",
+      "sort_end": "1937-09-30"
+    },
+    "participants": [
+      {
+        "entity_id": "pavle_savic",
+        "role": "subject"
+      },
+      {
+        "entity_id": "irene_joliot_curie",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "samardzic_2019",
+        "page": 3,
+        "quote": "Irène Joliot and Pavle Savić published their first paper on this subject in the \"Journal of Physique\" (3), in September of 1937"
+      }
+    ]
+  },
+  {
+    "id": "pavle_savic_expelled_paris",
+    "event_type": "relocation",
+    "label": "Expelled from Paris",
+    "date": {
+      "display": "December 25th, 1939",
+      "precision": "day",
+      "sort_start": "1939-12-25",
+      "sort_end": "1939-12-25"
+    },
+    "participants": [
+      {
+        "entity_id": "pavle_savic",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "samardzic_2019",
+        "page": 3,
+        "quote": "he was expelled from Paris on December 25th, with the deadline to exit the French border within 12 hours"
+      }
+    ]
+  },
+  {
+    "id": "pavle_savic_return_belgrade",
+    "event_type": "relocation",
+    "label": "Returned to Belgrade",
+    "date": {
+      "display": "1939",
+      "precision": "year",
+      "sort_start": "1939-12-26",
+      "sort_end": "1939-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pavle_savic",
+        "role": "subject"
+      }
+    ],
+    "location": "belgrade",
+    "sources": [
+      {
+        "source_id": "samardzic_2019",
+        "page": 3,
+        "quote": "He returned to Belgrade from Paris, where he started to work as the full professor of the Physical Chemistry at the Pharmaceutical Department of the Faculty of Medicine."
+      }
+    ]
+  },
+  {
+    "id": "pavle_savic_partisan_start",
+    "event_type": "employment_start",
+    "label": "Joined Partisan movement",
+    "date": {
+      "display": "July of 1941",
+      "precision": "month",
+      "sort_start": "1941-07-01",
+      "sort_end": "1941-07-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pavle_savic",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "samardzic_2019",
+        "page": 4,
+        "quote": "In July of 1941, Pavle and Branka Savić, following the party assignment, headed towards free territory in western Serbia."
+      }
+    ]
+  },
+  {
+    "id": "pavle_savic_avnoj_role",
+    "event_type": "role_change",
+    "label": "Appointed councillor of AVNOJ",
+    "date": {
+      "display": "end of 1942",
+      "precision": "year",
+      "sort_start": "1942-12-01",
+      "sort_end": "1942-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pavle_savic",
+        "role": "subject"
+      },
+      {
+        "entity_id": "avnoj",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "samardzic_2019",
+        "page": 4,
+        "quote": "At the end of 1942, when he was appointed duties of the councillor and commissioner of AVNOJ"
+      }
+    ]
+  },
+  {
+    "id": "pavle_savic_moscow_mission",
+    "event_type": "visit",
+    "label": "Arrived in Moscow on military mission",
+    "date": {
+      "display": "April 1944",
+      "precision": "month",
+      "sort_start": "1944-04-01",
+      "sort_end": "1944-04-30"
+    },
+    "participants": [
+      {
+        "entity_id": "pavle_savic",
+        "role": "subject"
+      }
+    ],
+    "location": "moscow",
+    "sources": [
+      {
+        "source_id": "samardzic_2019",
+        "page": 4,
+        "quote": "Upon his arrival to Moscow in April 1944, Pavle Savic tried to work on affairs of the military mission"
+      }
+    ]
+  },
+  {
+    "id": "pavle_savic_moscow_work",
+    "event_type": "employment_start",
+    "label": "Worked at Institute for Physical Problems",
+    "date": {
+      "display": "1944",
+      "precision": "year",
+      "sort_start": "1944-05-01",
+      "sort_end": "1944-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pavle_savic",
+        "role": "subject"
+      },
+      {
+        "entity_id": "institute_physical_problems_moscow",
+        "role": "employer"
+      },
+      {
+        "entity_id": "pyotr_kapitsa",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "samardzic_2019",
+        "page": 5,
+        "quote": "Approximately one month upon his arrival to Moscow, Pavle Savić engaged in scientific work and research."
+      }
+    ]
+  },
+  {
+    "id": "pavle_savic_vinca_construction",
+    "event_type": "employment_start",
+    "label": "Started construction of Institute of Physics in Vinča",
+    "date": {
+      "display": "September 1946",
+      "precision": "month",
+      "sort_start": "1946-09-01",
+      "sort_end": "1946-09-30"
+    },
+    "participants": [
+      {
+        "entity_id": "pavle_savic",
+        "role": "subject"
+      },
+      {
+        "entity_id": "institute_vinca",
+        "role": "artifact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "samardzic_2019",
+        "page": 5,
+        "quote": "In September 1946, when he came back from the Soviet Union, Pavle Savić started to work on the construction of the Institute of Physics in Vinča"
+      }
+    ]
+  },
+  {
+    "id": "pavle_savic_vinca_principal",
+    "event_type": "role_change",
+    "label": "Became principal of Institute Vinča",
+    "date": {
+      "display": "1960 – 1966",
+      "precision": "range",
+      "sort_start": "1960-01-01",
+      "sort_end": "1966-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pavle_savic",
+        "role": "subject"
+      },
+      {
+        "entity_id": "institute_vinca",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "samardzic_2019",
+        "page": 6,
+        "quote": "Savić was the principal of the Institute Vinča from 1960 – 1966"
+      }
+    ]
+  },
+  {
+    "id": "pavle_savic_cosmogony_hypothesis",
+    "event_type": "publication",
+    "label": "Presented hypothesis on celestial bodies rotation",
+    "date": {
+      "display": "1960",
+      "precision": "year",
+      "sort_start": "1960-01-01",
+      "sort_end": "1960-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pavle_savic",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "samardzic_2019",
+        "page": 6,
+        "quote": "In 1960, in the Serbian Academy of Sciences and Arts, Savić presented his hypothesis about the origin of the rotation of celestial bodies."
+      }
+    ]
+  },
+  {
+    "id": "pavle_savic_death",
+    "event_type": "death",
+    "label": "Died in Belgrade",
+    "date": {
+      "display": "1994",
+      "precision": "year",
+      "sort_start": "1994-01-01",
+      "sort_end": "1994-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pavle_savic",
+        "role": "subject"
+      }
+    ],
+    "location": "belgrade",
+    "sources": [
+      {
+        "source_id": "samardzic_2019",
+        "page": 6,
+        "quote": "He died in Belgrade in 1994 in his home and was buried in the family tomb"
+      }
+    ]
+  }
+]

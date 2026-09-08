@@ -1,0 +1,174 @@
+[
+  {
+    "id": "corey_studied_mit",
+    "source": "e_j_corey",
+    "type": "studied_at",
+    "target": "mit",
+    "sources": [
+      {
+        "source_id": "hepler_smith_2018",
+        "page": 312,
+        "quote": "Corey received his PhD from MIT (also Woodward's alma mater), where he contributed to John Sheehan's longstanding project to synthesize penicillin."
+      }
+    ]
+  },
+  {
+    "id": "corey_worked_illinois",
+    "source": "e_j_corey",
+    "type": "worked_at",
+    "target": "university_of_illinois",
+    "sources": [
+      {
+        "source_id": "hepler_smith_2018",
+        "page": 302,
+        "quote": "During a decade at the University of Illinois, more than fifty years at Harvard, and a long-standing role as an advisor to the pharmaceutical firm Pfizer, Corey built a wide-ranging research program."
+      }
+    ]
+  },
+  {
+    "id": "corey_worked_harvard",
+    "source": "e_j_corey",
+    "type": "worked_at",
+    "target": "harvard_university",
+    "sources": [
+      {
+        "source_id": "hepler_smith_2018",
+        "page": 302,
+        "quote": "During a decade at the University of Illinois, more than fifty years at Harvard, and a long-standing role as an advisor to the pharmaceutical firm Pfizer, Corey built a wide-ranging research program."
+      }
+    ]
+  },
+  {
+    "id": "corey_advisor_pfizer",
+    "source": "e_j_corey",
+    "type": "employed_by",
+    "target": "pfizer",
+    "sources": [
+      {
+        "source_id": "hepler_smith_2018",
+        "page": 302,
+        "quote": "During a decade at the University of Illinois, more than fifty years at Harvard, and a long-standing role as an advisor to the pharmaceutical firm Pfizer, Corey built a wide-ranging research program."
+      }
+    ]
+  },
+  {
+    "id": "corey_invented_lhasa",
+    "source": "e_j_corey",
+    "type": "invented",
+    "target": "lhasa",
+    "sources": [
+      {
+        "source_id": "hepler_smith_2018",
+        "page": 300,
+        "quote": "The chemist E. J. Corey developed this method and computer program side-by-side, from the early 1960s through the 1990s."
+      }
+    ]
+  },
+  {
+    "id": "corey_invented_retrosynthetic",
+    "source": "e_j_corey",
+    "type": "invented",
+    "target": "retrosynthetic_analysis",
+    "sources": [
+      {
+        "source_id": "hepler_smith_2018",
+        "page": 300,
+        "quote": "The chemist E. J. Corey developed this method and computer program side-by-side, from the early 1960s through the 1990s."
+      }
+    ]
+  },
+  {
+    "id": "corey_awarded_nobel",
+    "source": "e_j_corey",
+    "type": "awarded",
+    "target": "nobel_prize_chemistry_1990",
+    "event_id": "corey_nobel_prize",
+    "sources": [
+      {
+        "source_id": "hepler_smith_2018",
+        "page": 303,
+        "quote": "In numerous reviews and awards, including Corey's 1990 Nobel Prize, Corey's colleagues have recognized retrosynthetic analysis as a transformative approach to the pedagogy and practice of synthetic planning."
+      }
+    ]
+  },
+  {
+    "id": "corey_awarded_national_medal",
+    "source": "e_j_corey",
+    "type": "awarded",
+    "target": "national_medal_of_science",
+    "event_id": "corey_national_medal_of_science",
+    "sources": [
+      {
+        "source_id": "hepler_smith_2018",
+        "page": 336,
+        "quote": "Corey was awarded the medal in 1988."
+      }
+    ]
+  },
+  {
+    "id": "corey_awarded_robinson",
+    "source": "e_j_corey",
+    "type": "awarded",
+    "target": "robert_robinson_award",
+    "event_id": "corey_robert_robinson_award",
+    "sources": [
+      {
+        "source_id": "hepler_smith_2018",
+        "page": 334,
+        "quote": "In 1988, on his acceptance of the Robert Robinson Award of Britain's Royal Society of Chemistry—another honor whose first recipient had been Woodward—E. J. Corey delivered a lecture on ''retrosynthetic thinking.''"
+      }
+    ]
+  },
+  {
+    "id": "corey_collaborated_wipke",
+    "source": "e_j_corey",
+    "type": "collaborated_with",
+    "target": "todd_wipke",
+    "sources": [
+      {
+        "source_id": "hepler_smith_2018",
+        "page": 318,
+        "quote": "Three years later, Corey and postdoctoral fellow Todd Wipke introduced readers of Science to OCSS, ''Organic Chemical Simulation of Synthesis,'' subsequently renamed LHASA, ''Logic and Heuristics Applied to Synthetic Analysis.''"
+      }
+    ]
+  },
+  {
+    "id": "corey_mentored_warren",
+    "source": "e_j_corey",
+    "type": "mentored",
+    "target": "stuart_warren",
+    "sources": [
+      {
+        "source_id": "hepler_smith_2018",
+        "page": 333,
+        "quote": "Warren had encountered retrosynthetic analysis in Chem 115, which he audited during a postdoctoral fellowship at Harvard."
+      }
+    ]
+  },
+  {
+    "id": "woodward_worked_harvard",
+    "source": "r_b_woodward",
+    "type": "worked_at",
+    "target": "harvard_university",
+    "sources": [
+      {
+        "source_id": "hepler_smith_2018",
+        "page": 302,
+        "quote": "In 1960, however, when Corey arrived at Harvard and was tasked with teaching organic synthesis for the first time, the acknowledged master of the field was another Harvard chemist, R. B. Woodward."
+      }
+    ]
+  },
+  {
+    "id": "warren_worked_cambridge",
+    "source": "stuart_warren",
+    "type": "worked_at",
+    "target": "university_of_cambridge",
+    "sources": [
+      {
+        "source_id": "hepler_smith_2018",
+        "page": 333,
+        "quote": "As an instructor at Cambridge, he adapted Corey's rigorous schema into a form he considered accessible to undergraduates."
+      }
+    ]
+  }
+]

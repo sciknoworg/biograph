@@ -1,0 +1,148 @@
+[
+  {
+    "id": "kendall_born_south_norwalk",
+    "source": "edward_calvin_kendall",
+    "type": "born_in",
+    "target": "south_norwalk_connecticut",
+    "sources": [
+      {
+        "source_id": "kaouache_2024",
+        "page": 1,
+        "quote": "Edward Calvin Kendall was born on March 8, 1886, in South Norwalk, Connecticut."
+      }
+    ]
+  },
+  {
+    "id": "kendall_studied_columbia",
+    "source": "edward_calvin_kendall",
+    "type": "studied_at",
+    "target": "columbia_university",
+    "sources": [
+      {
+        "source_id": "kaouache_2024",
+        "page": 1,
+        "quote": "In 1904, he entered Columbia University"
+      }
+    ]
+  },
+  {
+    "id": "kendall_worked_parke_davis",
+    "source": "edward_calvin_kendall",
+    "type": "employed_by",
+    "target": "parke_davis_co",
+    "sources": [
+      {
+        "source_id": "kaouache_2024",
+        "page": 1,
+        "quote": "Kendall's professional career began at Parke, Davis & Co."
+      }
+    ]
+  },
+  {
+    "id": "kendall_worked_st_lukes",
+    "source": "edward_calvin_kendall",
+    "type": "employed_by",
+    "target": "st_lukes_hospital",
+    "sources": [
+      {
+        "source_id": "kaouache_2024",
+        "page": 1,
+        "quote": "In 1911, Kendall transitioned to St. Luke's Hospital"
+      }
+    ]
+  },
+  {
+    "id": "kendall_worked_mayo",
+    "source": "edward_calvin_kendall",
+    "type": "employed_by",
+    "target": "mayo_foundation",
+    "sources": [
+      {
+        "source_id": "kaouache_2024",
+        "page": 1,
+        "quote": "move to the Mayo Foundation in Rochester, Minnesota, in 1914"
+      }
+    ]
+  },
+  {
+    "id": "kendall_collaborated_hench",
+    "source": "edward_calvin_kendall",
+    "type": "collaborated_with",
+    "target": "philip_hench",
+    "sources": [
+      {
+        "source_id": "kaouache_2024",
+        "page": 2,
+        "quote": "collaboration with Philip Hench"
+      }
+    ]
+  },
+  {
+    "id": "kendall_collaborated_mason",
+    "source": "edward_calvin_kendall",
+    "type": "collaborated_with",
+    "target": "h_l_mason",
+    "sources": [
+      {
+        "source_id": "kaouache_2024",
+        "page": 2,
+        "quote": "Collaborating with H. L. Mason and other researchers"
+      }
+    ]
+  },
+  {
+    "id": "kendall_awarded_nobel",
+    "source": "edward_calvin_kendall",
+    "type": "awarded",
+    "target": "nobel_prize_physiology_medicine_1950",
+    "event_id": "kendall_nobel_prize",
+    "sources": [
+      {
+        "source_id": "kaouache_2024",
+        "page": 2,
+        "quote": "received the Nobel Prize for Physiology or Medicine in 1950."
+      }
+    ]
+  },
+  {
+    "id": "kendall_worked_princeton",
+    "source": "edward_calvin_kendall",
+    "type": "employed_by",
+    "target": "princeton_university",
+    "sources": [
+      {
+        "source_id": "kaouache_2024",
+        "page": 2,
+        "quote": "Kendall continued his research as a visiting professor at Princeton University."
+      }
+    ]
+  },
+  {
+    "id": "kendall_isolated_thyroxine",
+    "source": "edward_calvin_kendall",
+    "type": "invented",
+    "target": "thyroxine",
+    "event_id": "kendall_isolate_thyroxine",
+    "sources": [
+      {
+        "source_id": "kaouache_2024",
+        "page": 1,
+        "quote": "Kendall had succeeded in isolating thyroxine in crystalline form"
+      }
+    ]
+  },
+  {
+    "id": "kendall_isolated_cortisone",
+    "source": "edward_calvin_kendall",
+    "type": "invented",
+    "target": "cortisone",
+    "event_id": "kendall_identify_corticosteroids",
+    "sources": [
+      {
+        "source_id": "kaouache_2024",
+        "page": 2,
+        "quote": "Compound E was later renamed cortisone and became central to Kendall's research"
+      }
+    ]
+  }
+]

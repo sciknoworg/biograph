@@ -1,0 +1,574 @@
+[
+  {
+    "id": "needham_birth",
+    "event_type": "birth",
+    "label": "Born in London",
+    "date": {
+      "display": "9th December 1900",
+      "precision": "day",
+      "sort_start": "1900-12-09",
+      "sort_end": "1900-12-09"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_needham",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 1,
+        "quote": "Born on 9th December 1900 to Dr. Joseph and Alicia Adelaide Montgomery Needham"
+      }
+    ]
+  },
+  {
+    "id": "needham_oundle_start",
+    "event_type": "education",
+    "label": "Sent to Oundle School",
+    "date": {
+      "display": "1914",
+      "precision": "year",
+      "sort_start": "1914-01-01",
+      "sort_end": "1914-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_needham",
+        "role": "subject"
+      },
+      {
+        "entity_id": "oundle_school",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 2,
+        "quote": "1914 saw the outbreak of the First World War and the despatch of Joseph Needham to Oundle in Northamptonshire"
+      }
+    ]
+  },
+  {
+    "id": "needham_navy_appointment",
+    "event_type": "employment_start",
+    "label": "Appointed surgeon sub-lieutenant",
+    "date": {
+      "display": "c. 1918",
+      "precision": "circa",
+      "sort_start": "1918-01-01",
+      "sort_end": "1918-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_needham",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_navy",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 2,
+        "quote": "his experience was sufficient for the Royal Navy to appoint him as surgeon sub-lieutenant in their Volunteer Reserve"
+      }
+    ]
+  },
+  {
+    "id": "needham_cambridge_entry",
+    "event_type": "education",
+    "label": "Entered Gonville and Caius College",
+    "date": {
+      "display": "1918",
+      "precision": "year",
+      "sort_start": "1918-01-01",
+      "sort_end": "1918-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_needham",
+        "role": "subject"
+      },
+      {
+        "entity_id": "gonville_and_caius_college",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 2,
+        "quote": "Gonville and Caius College opened its doors in 1918 to Joseph Needham"
+      }
+    ]
+  },
+  {
+    "id": "needham_ba_degree",
+    "event_type": "education",
+    "label": "Obtained BA",
+    "date": {
+      "display": "1921",
+      "precision": "year",
+      "sort_start": "1921-01-01",
+      "sort_end": "1921-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_needham",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 2,
+        "quote": "to obtain his BA in 1921"
+      }
+    ]
+  },
+  {
+    "id": "needham_germany_research",
+    "event_type": "visit",
+    "label": "Research in Germany",
+    "date": {
+      "display": "post-1921",
+      "precision": "range",
+      "sort_start": "1921-01-01",
+      "sort_end": "1924-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_needham",
+        "role": "subject"
+      },
+      {
+        "entity_id": "germany",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 2,
+        "quote": "After a short post-war period of research in Germany"
+      }
+    ]
+  },
+  {
+    "id": "needham_doctorate",
+    "event_type": "education",
+    "label": "Gained doctorate",
+    "date": {
+      "display": "1924",
+      "precision": "year",
+      "sort_start": "1924-01-01",
+      "sort_end": "1924-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_needham",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 2,
+        "quote": "in 1924, having gained his doctorate"
+      }
+    ]
+  },
+  {
+    "id": "needham_marriage",
+    "event_type": "other",
+    "label": "Married Dorothy Moyle",
+    "date": {
+      "display": "1924",
+      "precision": "year",
+      "sort_start": "1924-01-01",
+      "sort_end": "1924-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_needham",
+        "role": "subject"
+      },
+      {
+        "entity_id": "dorothy_moyle",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 2,
+        "quote": "in 1924, having gained his doctorate, Needham abandoned celibacy and married a colleague, Dorothy Moyle"
+      }
+    ]
+  },
+  {
+    "id": "needham_caius_fellowship",
+    "event_type": "employment_start",
+    "label": "Elected Fellowship at Gonville and Caius",
+    "date": {
+      "display": "1924",
+      "precision": "year",
+      "sort_start": "1924-01-01",
+      "sort_end": "1924-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_needham",
+        "role": "subject"
+      },
+      {
+        "entity_id": "gonville_and_caius_college",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 2,
+        "quote": "Facilitated weeks later by election to a Fellowship at Gonville and Caius"
+      }
+    ]
+  },
+  {
+    "id": "needham_demonstrator",
+    "event_type": "employment_start",
+    "label": "Appointed Demonstrator in Biochemistry",
+    "date": {
+      "display": "1928",
+      "precision": "year",
+      "sort_start": "1928-01-01",
+      "sort_end": "1928-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_needham",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cambridge_biochemical_laboratory",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 3,
+        "quote": "Needham progressed from student to Demonstrator in Biochemistry in 1928"
+      }
+    ]
+  },
+  {
+    "id": "needham_chemical_embryology_pub",
+    "event_type": "publication",
+    "label": "Published Chemical Embryology",
+    "date": {
+      "display": "1931",
+      "precision": "year",
+      "sort_start": "1931-01-01",
+      "sort_end": "1931-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_needham",
+        "role": "subject"
+      },
+      {
+        "entity_id": "chemical_embryology",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 3,
+        "quote": "By this time he had published his mammoth Chemical Embryology that gained him an international reputation"
+      }
+    ]
+  },
+  {
+    "id": "needham_reader",
+    "event_type": "employment_start",
+    "label": "Appointed Sir William Dunn Reader in Biochemistry",
+    "date": {
+      "display": "1933",
+      "precision": "year",
+      "sort_start": "1933-01-01",
+      "sort_end": "1933-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_needham",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cambridge_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 3,
+        "quote": "thence to succeed J.B.S. Haldane in 1933 as the Sir William Dunn Reader in Biochemistry"
+      }
+    ]
+  },
+  {
+    "id": "needham_brussels_visit",
+    "event_type": "visit",
+    "label": "Visited Brussels laboratory",
+    "date": {
+      "display": "1930",
+      "precision": "year",
+      "sort_start": "1930-01-01",
+      "sort_end": "1930-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_needham",
+        "role": "subject"
+      },
+      {
+        "entity_id": "brussels",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 4,
+        "quote": "In 1930, Joseph Needham had gone to Brussels to learn the technique of embryological micro-operation"
+      }
+    ]
+  },
+  {
+    "id": "needham_berlin_work",
+    "event_type": "visit",
+    "label": "Worked in Berlin Institute",
+    "date": {
+      "display": "1933",
+      "precision": "year",
+      "sort_start": "1933-01-01",
+      "sort_end": "1933-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_needham",
+        "role": "subject"
+      },
+      {
+        "entity_id": "berlin",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 4,
+        "quote": "Subsequently Joseph Needham, his wife, and C.H. Waddington worked in the Institute of Otto Mangold in Berlin"
+      }
+    ]
+  },
+  {
+    "id": "needham_frs_election",
+    "event_type": "award",
+    "label": "Elected to Royal Society",
+    "date": {
+      "display": "1941",
+      "precision": "year",
+      "sort_start": "1941-01-01",
+      "sort_end": "1941-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_needham",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_society",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 3,
+        "quote": "eight years of research were to follow before his election to the Royal Society in 1941"
+      }
+    ]
+  },
+  {
+    "id": "needham_china_post",
+    "event_type": "employment_start",
+    "label": "Accepted post as Royal Society representative to China",
+    "date": {
+      "display": "1942",
+      "precision": "year",
+      "sort_start": "1942-01-01",
+      "sort_end": "1942-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_needham",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_society",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 3,
+        "quote": "mid-war period in 1942 when he accepted a post as representative of the Royal Society to extend Anglo-Chinese relations"
+      }
+    ]
+  },
+  {
+    "id": "needham_biochem_morphogenesis_pub",
+    "event_type": "publication",
+    "label": "Published Biochemistry and Morphogenesis",
+    "date": {
+      "display": "1942",
+      "precision": "year",
+      "sort_start": "1942-01-01",
+      "sort_end": "1942-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_needham",
+        "role": "subject"
+      },
+      {
+        "entity_id": "biochemistry_and_morphogenesis",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 4,
+        "quote": "Joseph Needham's second major work 'Biochemistry and Morphogenesis' was published in 1942"
+      }
+    ]
+  },
+  {
+    "id": "needham_unesco_post",
+    "event_type": "employment_start",
+    "label": "Asked to build up UNESCO natural sciences division",
+    "date": {
+      "display": "1946",
+      "precision": "year",
+      "sort_start": "1946-01-01",
+      "sort_end": "1946-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_needham",
+        "role": "subject"
+      },
+      {
+        "entity_id": "unesco",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 5,
+        "quote": "He was asked, in 1946, to build up the natural sciences division of the United Nations Education, Scientific and Cultural Organisation in Paris"
+      }
+    ]
+  },
+  {
+    "id": "needham_return_cambridge",
+    "event_type": "relocation",
+    "label": "Returned to Cambridge",
+    "date": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_needham",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cambridge",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 5,
+        "quote": "In 1948, he returned to Cambridge"
+      }
+    ]
+  },
+  {
+    "id": "needham_china_book_start",
+    "event_type": "other",
+    "label": "Began work on Science and Civilisation in China",
+    "date": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_needham",
+        "role": "subject"
+      },
+      {
+        "entity_id": "science_and_civilisation_in_china",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 5,
+        "quote": "In 1948, he returned to Cambridge and began work on his multi-volume treatise on Science and Civilisation in China"
+      }
+    ]
+  },
+  {
+    "id": "needham_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "24th March 1995",
+      "precision": "day",
+      "sort_start": "1995-03-24",
+      "sort_end": "1995-03-24"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_needham",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 1,
+        "quote": "Joseph Needham's death on 24th March 1995"
+      }
+    ]
+  }
+]

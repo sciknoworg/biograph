@@ -1,0 +1,347 @@
+[
+  {
+    "id": "hughes_born",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1906",
+      "precision": "year",
+      "sort_start": "1906-01-01",
+      "sort_end": "1906-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "edward_david_hughes",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1994",
+        "page": 40,
+        "quote": "Edward David Hughes (1906-1963)"
+      }
+    ]
+  },
+  {
+    "id": "hughes_died",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1963",
+      "precision": "year",
+      "sort_start": "1963-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "edward_david_hughes",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1994",
+        "page": 40,
+        "quote": "Edward David Hughes (1906-1963)"
+      }
+    ]
+  },
+  {
+    "id": "hughes_phd",
+    "event_type": "education",
+    "label": "Received Ph.D. degree",
+    "description": "Received the Ph.D. degree at the University of Wales under the tutelage of Herbert B. Watson.",
+    "date": {
+      "display": "before 1930",
+      "precision": "circa",
+      "sort_start": "1925-01-01",
+      "sort_end": "1929-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "edward_david_hughes",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_wales",
+        "role": "institution"
+      },
+      {
+        "entity_id": "herbert_b_watson",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1994",
+        "page": 42,
+        "quote": "Hughes had just recently received the Ph.D. degree at the University of Wales under the tutelage of Herbert B. Watson (1894-1975)."
+      }
+    ]
+  },
+  {
+    "id": "hughes_move_to_ucl",
+    "event_type": "relocation",
+    "label": "Moved to University College",
+    "description": "Hughes had come to University College in 1930 to do post-doctoral work with Ingold.",
+    "date": {
+      "display": "1930",
+      "precision": "year",
+      "sort_start": "1930-01-01",
+      "sort_end": "1930-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "edward_david_hughes",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_college_london",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1994",
+        "page": 42,
+        "quote": "Hughes had come to University College in 1930 to do post-doctoral work with Ingold"
+      }
+    ]
+  },
+  {
+    "id": "ingold_move_to_ucl",
+    "event_type": "employment_start",
+    "label": "Ingold arrived at University College",
+    "description": "Ingold, who himself had just arrived from a previous post at Leeds University.",
+    "date": {
+      "display": "1930",
+      "precision": "year",
+      "sort_start": "1930-01-01",
+      "sort_end": "1930-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_k_ingold",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_college_london",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1994",
+        "page": 42,
+        "quote": "Ingold, who himself had just arrived from a previous post at Leeds University."
+      }
+    ]
+  },
+  {
+    "id": "whitmore_common_basis_paper",
+    "event_type": "publication",
+    "label": "Published The Common Basis of Intramolecular Rearrangements",
+    "date": {
+      "display": "1932",
+      "precision": "year",
+      "sort_start": "1932-01-01",
+      "sort_end": "1932-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "frank_c_whitmore",
+        "role": "author"
+      },
+      {
+        "entity_id": "journal_of_the_american_chemical_society",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1994",
+        "page": 40,
+        "quote": "In 1932 there appeared one of the landmark papers in the history of American physical organic chemistry \"The Common Basis of Intramolecular Rearrangements\" (7) by Frank C. Whitmore."
+      }
+    ]
+  },
+  {
+    "id": "wallis_carbanion_paper",
+    "event_type": "publication",
+    "label": "Proposed term carbanion",
+    "description": "Wallis stated in a footnote \"The above word is here proposed for a negatively charged carbon ion...\"",
+    "date": {
+      "display": "September, 1933",
+      "precision": "month",
+      "sort_start": "1933-09-01",
+      "sort_end": "1933-09-30"
+    },
+    "participants": [
+      {
+        "entity_id": "everett_s_wallis",
+        "role": "author"
+      },
+      {
+        "entity_id": "journal_of_the_american_chemical_society",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1994",
+        "page": 41,
+        "quote": "In a paper which ap- peared in the September, 1933 issue of the Journal of the American Chemical Society, Wallis stated in a footnote \"The above word is here proposed for a negatively charged carbon ion in contrast to the term carbonium which indicates a positively charged ion.\""
+      }
+    ]
+  },
+  {
+    "id": "kon_annual_reports_comment",
+    "event_type": "publication",
+    "label": "Kon commented on Whitmore and Wallis work",
+    "description": "George A. R. Kon, as the reporter for the homocyclic division of the 1933 Annual Reports, commented upon the work of Whitmore and Wallis.",
+    "date": {
+      "display": "1933",
+      "precision": "year",
+      "sort_start": "1933-01-01",
+      "sort_end": "1933-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "george_a_r_kon",
+        "role": "author"
+      },
+      {
+        "entity_id": "annual_reports_on_the_progress_of_chemistry",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1994",
+        "page": 41,
+        "quote": "The next stage occurred when George A. R. Kon (1892-1951), as the reporter for the homocyclic division of the 1933 Annual Reports, commented upon the work of Whitmore and Wallis concerning molecular re- arrangements which had appeared in 1932 (13)."
+      }
+    ]
+  },
+  {
+    "id": "whitmore_wallis_1934_papers",
+    "event_type": "publication",
+    "label": "Whitmore and Wallis published response papers",
+    "description": "There followed in 1934 two short papers... from Whitmore and Flemming... and the second from Whitmore and Wallis.",
+    "date": {
+      "display": "1934",
+      "precision": "year",
+      "sort_start": "1934-01-01",
+      "sort_end": "1934-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "frank_c_whitmore",
+        "role": "author"
+      },
+      {
+        "entity_id": "everett_s_wallis",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1994",
+        "page": 42,
+        "quote": "Whitmore and Wallis reacted to the comments of Kon in the Annual Reports very quickly because there followed in 1934 two short papers, the first from Whitmore and Flemming in the Journal of the Chemi- cal Society entitled \"Electronic versus Ionic Mechanisms for Intramolecular Rearrangement\" (15), and the second from Whitmore and Wallis in the Journal of the Ameri- can Chemical Society entitled \"The Electronic Mecha- nism of Intramolecular Rearrangement\" (16)."
+      }
+    ]
+  },
+  {
+    "id": "hughes_paper_received",
+    "event_type": "publication",
+    "label": "Hughes' paper received",
+    "description": "Hughes' paper on secondary and tertiary halides was received on November 30, 1934.",
+    "date": {
+      "display": "November 30, 1934",
+      "precision": "day",
+      "sort_start": "1934-11-30",
+      "sort_end": "1934-11-30"
+    },
+    "participants": [
+      {
+        "entity_id": "edward_david_hughes",
+        "role": "author"
+      },
+      {
+        "entity_id": "journal_of_the_american_chemical_society",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1994",
+        "page": 42,
+        "quote": "Hughes' paper on secondary and tertiary halides was received on November 30, 1934 and published in April, 1935."
+      }
+    ]
+  },
+  {
+    "id": "hughes_paper_published",
+    "event_type": "publication",
+    "label": "Hughes' paper published",
+    "description": "Published in April, 1935 in the Journal of the American Chemical Society.",
+    "date": {
+      "display": "April, 1935",
+      "precision": "month",
+      "sort_start": "1935-04-01",
+      "sort_end": "1935-04-30"
+    },
+    "participants": [
+      {
+        "entity_id": "edward_david_hughes",
+        "role": "author"
+      },
+      {
+        "entity_id": "journal_of_the_american_chemical_society",
+        "role": "publication"
+      },
+      {
+        "entity_id": "hydrolysis_of_secondary_and_tertiary_halides",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1994",
+        "page": 42,
+        "quote": "Hughes' paper on secondary and tertiary halides was received on November 30, 1934 and published in April, 1935."
+      }
+    ]
+  },
+  {
+    "id": "whitmore_correction",
+    "event_type": "publication",
+    "label": "Whitmore published correction",
+    "description": "A very short note appeared in the August, 1938 Journal of the American Chemical Society, \"The Common Basis of Intramolecu- lar Rearrangements. IV A Correction: The Benzilic Acid Rearrangement.\"",
+    "date": {
+      "display": "August, 1938",
+      "precision": "month",
+      "sort_start": "1938-08-01",
+      "sort_end": "1938-08-31"
+    },
+    "participants": [
+      {
+        "entity_id": "frank_c_whitmore",
+        "role": "author"
+      },
+      {
+        "entity_id": "journal_of_the_american_chemical_society",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "saltzman_1994",
+        "page": 43,
+        "quote": "It should be mentioned that a very short note ap- peared in the August, 1938 Journal of the American Chemical Society, \"The Common Basis of Intramolecu- lar Rearrangements. IV A Correction: The Benzilic Acid Rearrangement.\" (21)"
+      }
+    ]
+  }
+]

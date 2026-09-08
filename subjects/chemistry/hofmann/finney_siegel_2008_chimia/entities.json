@@ -1,0 +1,135 @@
+[
+  {
+    "id": "albert_hofmann",
+    "entity_type": "person",
+    "name": "Albert Hofmann",
+    "aliases": [
+      "Hofmann",
+      "Dr. Albert Hofmann"
+    ],
+    "summary": "Swiss chemist known for discovering LSD and researching ergot alkaloids.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "paul_karrer",
+    "entity_type": "person",
+    "name": "Paul Karrer",
+    "aliases": [
+      "Prof. Paul Karrer",
+      "Professor Paul Karrer"
+    ],
+    "summary": "Professor of chemistry at University of Zurich and Hofmann's PhD supervisor.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "university_of_zurich",
+    "entity_type": "organization",
+    "name": "University of Zurich",
+    "aliases": [
+      "UZH",
+      "University of Zurich"
+    ],
+    "summary": "Swiss university where Hofmann studied and later honored.",
+    "subtype": "university"
+  },
+  {
+    "id": "sandoz_laboratories",
+    "entity_type": "organization",
+    "name": "Sandoz Laboratories",
+    "aliases": [
+      "Sandoz"
+    ],
+    "summary": "Pharmaceutical company in Basel where Hofmann worked for four decades.",
+    "subtype": "company"
+  },
+  {
+    "id": "baden_aargau",
+    "entity_type": "place",
+    "name": "Baden (Aargau)",
+    "aliases": [
+      "Baden"
+    ],
+    "summary": "Swiss town where Albert Hofmann was born.",
+    "subtype": "town",
+    "attributes": {
+      "country": "Switzerland"
+    }
+  },
+  {
+    "id": "basel",
+    "entity_type": "place",
+    "name": "Basel",
+    "aliases": [],
+    "summary": "Swiss city where Sandoz Laboratories is located.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Switzerland"
+    }
+  },
+  {
+    "id": "lsd",
+    "entity_type": "artifact",
+    "name": "LSD",
+    "aliases": [],
+    "summary": "Psychedelic drug semisynthesized by Hofmann from ergot alkaloids.",
+    "subtype": "invention"
+  },
+  {
+    "id": "psilocybin",
+    "entity_type": "artifact",
+    "name": "psilocybin",
+    "aliases": [],
+    "summary": "Psychedelic compound first characterized by Hofmann.",
+    "subtype": "product"
+  },
+  {
+    "id": "anita_hofmann",
+    "entity_type": "person",
+    "name": "Anita",
+    "aliases": [
+      "Anita Hofmann"
+    ],
+    "summary": "Wife of Albert Hofmann.",
+    "subtype": "family"
+  },
+  {
+    "id": "hofmann_centennial_medal",
+    "entity_type": "artifact",
+    "name": "Hofmann Centennial Medal",
+    "aliases": [],
+    "summary": "Medal founded in Hofmann's honor one year after his 100th birthday.",
+    "subtype": "award"
+  },
+  {
+    "id": "leuenberger",
+    "entity_type": "person",
+    "name": "Leuenberger",
+    "aliases": [
+      "Bundespräsident Leuenberger"
+    ],
+    "summary": "Bundespräsident who thanked Hofmann in 2006.",
+    "subtype": "politician"
+  },
+  {
+    "id": "nathaniel_finney",
+    "entity_type": "person",
+    "name": "Nathaniel S. Finney",
+    "aliases": [
+      "Nathaniel Finney",
+      "N. S. Finney"
+    ],
+    "summary": "Co-author of the obituary article.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "jay_siegel",
+    "entity_type": "person",
+    "name": "Jay S. Siegel",
+    "aliases": [
+      "Jay Siegel",
+      "J. S. Siegel"
+    ],
+    "summary": "Co-author of the obituary article.",
+    "subtype": "researcher"
+  }
+]

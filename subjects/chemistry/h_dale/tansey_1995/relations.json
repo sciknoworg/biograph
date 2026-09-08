@@ -1,0 +1,121 @@
+[
+  {
+    "id": "dale_worked_wprl",
+    "source": "henry_dale",
+    "type": "worked_at",
+    "target": "wprl",
+    "event_id": "dale_offered_wprl",
+    "sources": [
+      {
+        "source_id": "tansey_1995",
+        "page": 5,
+        "quote": "WellcomeofferedayoungCambridgetrainedphysiologist,Henry Dale,thepositionofstaffpharmacologistattheWPRL."
+      }
+    ]
+  },
+  {
+    "id": "dale_employed_burroughs",
+    "source": "henry_dale",
+    "type": "employed_by",
+    "target": "burroughs_wellcome",
+    "sources": [
+      {
+        "source_id": "tansey_1995",
+        "page": 5,
+        "quote": "withintheWellcomeorganization,thescientificstaff fromtheresearchlaboratorieswereregardedasordinarycompanyemployees."
+      }
+    ]
+  },
+  {
+    "id": "wellcome_founded_burroughs",
+    "source": "henry_wellcome",
+    "type": "founded",
+    "target": "burroughs_wellcome",
+    "sources": [
+      {
+        "source_id": "tansey_1995",
+        "page": 3,
+        "quote": "Wellcome,atrainedpharmacistfromAmerica,had,withSilasMainvilleBurroughs, foundedapharmaceuticalcompanyinBritain"
+      }
+    ]
+  },
+  {
+    "id": "dowson_director_wprl",
+    "source": "walter_dowson",
+    "type": "worked_at",
+    "target": "wprl",
+    "sources": [
+      {
+        "source_id": "tansey_1995",
+        "page": 6,
+        "quote": "hepassedthemanuscripttohisDirector,WalterDowson,forapproval."
+      }
+    ]
+  },
+  {
+    "id": "jowett_worked_wcrl",
+    "source": "hooper_jowett",
+    "type": "worked_at",
+    "target": "wcrl",
+    "sources": [
+      {
+        "source_id": "tansey_1995",
+        "page": 9,
+        "quote": "HooperJowett,Power'sdeputyattheChemicalLaboratories,wasadistinguished scientistwithseveralpublishedpapersonepinephrine"
+      }
+    ]
+  },
+  {
+    "id": "power_director_wcrl",
+    "source": "frederick_power",
+    "type": "worked_at",
+    "target": "wcrl",
+    "sources": [
+      {
+        "source_id": "tansey_1995",
+        "page": 4,
+        "quote": "theDirector,Power,wasadistinguishedchemistandanoldandvaluedfriend ofWellcome"
+      }
+    ]
+  },
+  {
+    "id": "dale_collaborated_elliott",
+    "source": "henry_dale",
+    "type": "collaborated_with",
+    "target": "tr_elliott",
+    "sources": [
+      {
+        "source_id": "tansey_1995",
+        "page": 10,
+        "quote": "DaleandElliottcollaboratedcloselyintheir complementaryexperimentalwork"
+      }
+    ]
+  },
+  {
+    "id": "dale_supervised_dowson",
+    "source": "henry_dale",
+    "type": "supervised_by",
+    "target": "walter_dowson",
+    "event_id": "dale_offered_wprl",
+    "sources": [
+      {
+        "source_id": "tansey_1995",
+        "page": 6,
+        "quote": "hepassedthemanuscripttohisDirector,WalterDowson,forapproval."
+      }
+    ]
+  },
+  {
+    "id": "wprl_part_of_burroughs",
+    "source": "wprl",
+    "type": "member_of",
+    "target": "burroughs_wellcome",
+    "sources": [
+      {
+        "source_id": "tansey_1995",
+        "page": 3,
+        "quote": "ThelinksbetweentheWPRLandBurroughs,Wellcome&Co.weretherefore close"
+      }
+    ]
+  }
+]

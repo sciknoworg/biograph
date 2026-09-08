@@ -1,0 +1,195 @@
+[
+  {
+    "id": "ingold_worked_leeds",
+    "source": "christopher_kelk_ingold",
+    "type": "worked_at",
+    "target": "leeds_university",
+    "event_id": "ingold_professor_leeds",
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 27,
+        "quote": "and appointed Professor of Organic Chemistry at Leeds University."
+      }
+    ]
+  },
+  {
+    "id": "ingold_worked_imperial",
+    "source": "christopher_kelk_ingold",
+    "type": "worked_at",
+    "target": "imperial_college",
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 30,
+        "quote": "when Ingold was a lecturer at Imperial Col-lege"
+      }
+    ]
+  },
+  {
+    "id": "ingold_visited_stanford",
+    "source": "christopher_kelk_ingold",
+    "type": "visited",
+    "target": "stanford_university",
+    "event_id": "ingold_stanford_leave",
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 30,
+        "quote": "which he did in 1932 while on leave at Stanford University,"
+      }
+    ]
+  },
+  {
+    "id": "ingold_collaborated_edith",
+    "source": "christopher_kelk_ingold",
+    "type": "collaborated_with",
+    "target": "edith_hilda_ingold",
+    "event_id": "ingold_alternating_effect_part_v",
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 27,
+        "quote": "which Ingold published with his wife Edith Hilda (1898-1988) as the co-author,"
+      }
+    ]
+  },
+  {
+    "id": "ingold_collaborated_shaw",
+    "source": "christopher_kelk_ingold",
+    "type": "collaborated_with",
+    "target": "f_r_shaw",
+    "event_id": "ingold_shaw_rate_factors",
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 28,
+        "quote": "Ingold and Shaw in 1927(14) derived partial rate fac-tors"
+      }
+    ]
+  },
+  {
+    "id": "ingold_collaborated_vass",
+    "source": "christopher_kelk_ingold",
+    "type": "collaborated_with",
+    "target": "c_c_n_vass",
+    "event_id": "ingold_vass_inductive_effect",
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 28,
+        "quote": "Further clarification of the inductive effect in aromatic substitution was made by Ingold and Vass in 1928 (15)."
+      }
+    ]
+  },
+  {
+    "id": "ingold_mentored_thorpe",
+    "source": "christopher_kelk_ingold",
+    "type": "supervised_by",
+    "target": "j_f_thorpe",
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 30,
+        "quote": "when Ingold was a lecturer at Imperial Col-lege in the department headed by his mentor J. F. Thorpe"
+      }
+    ]
+  },
+  {
+    "id": "ingold_member_royal_society",
+    "source": "christopher_kelk_ingold",
+    "type": "member_of",
+    "target": "royal_society",
+    "event_id": "ingold_fellow_royal_society",
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 27,
+        "quote": "having just been made a Fellow of the Royal Society"
+      }
+    ]
+  },
+  {
+    "id": "ingold_rival_robinson",
+    "source": "christopher_kelk_ingold",
+    "type": "collaborated_with",
+    "target": "robert_robinson",
+    "note": "Rival and colleague in electronic theory",
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 26,
+        "quote": "because of a bitter polemic with Robinson(5), he easily surpassed his rivals"
+      }
+    ]
+  },
+  {
+    "id": "ingold_influenced_lewis",
+    "source": "christopher_kelk_ingold",
+    "type": "met",
+    "target": "g_n_lewis",
+    "event_id": "ingold_meets_lewis",
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 30,
+        "quote": "Ingold had first met Lewis in 1922 in London,"
+      }
+    ]
+  },
+  {
+    "id": "ingold_influenced_lowry",
+    "source": "christopher_kelk_ingold",
+    "type": "collaborated_with",
+    "target": "thomas_martin_lowry",
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 26,
+        "quote": "Major strides in the use of the Lewis-Langmuir theory were made in the early I920's by Thomas Mar-tin Lowry (1874-I936), Arthur Lapworth (1873-1941), and—most importantly—by Robert Robinson (1886-1973)."
+      }
+    ]
+  },
+  {
+    "id": "ingold_published_principles",
+    "source": "christopher_kelk_ingold",
+    "type": "published",
+    "target": "principles_of_an_electron_theory",
+    "event_id": "ingold_chem_rev_paper",
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 25,
+        "quote": "His Chemical Reviews paper \"Principles of an Electron Theory of Organic Reactions(2)\" published in I934"
+      }
+    ]
+  },
+  {
+    "id": "ingold_published_alternating",
+    "source": "christopher_kelk_ingold",
+    "type": "published",
+    "target": "nature_of_the_alternating_effect_part_v",
+    "event_id": "ingold_alternating_effect_part_v",
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 27,
+        "quote": "The I926 paper (10), \"The Nature of the Alter-nating Effect in Carbon Chains, Part V,\""
+      }
+    ]
+  },
+  {
+    "id": "ingold_published_tautomerism",
+    "source": "christopher_kelk_ingold",
+    "type": "published",
+    "target": "significance_of_tautomerism",
+    "event_id": "ingold_mesomerism_paper",
+    "sources": [
+      {
+        "source_id": "saltzman_1996",
+        "page": 30,
+        "quote": "In a paper (21) entitled \"Signifi-cance of Tautomerism and of the Reactions of Aromatic Compounds in the Electronic Theory of Organic Reac-tions\""
+      }
+    ]
+  }
+]

@@ -1,0 +1,400 @@
+[
+  {
+    "id": "hofmann_birth",
+    "event_type": "birth",
+    "label": "Born in Switzerland",
+    "description": "Dr. Albert Hofmann was born on January 11, 1906.",
+    "date": {
+      "display": "January 11, 1906",
+      "precision": "day",
+      "sort_start": "1906-01-11",
+      "sort_end": "1906-01-11"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_hofmann",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "giger_engel_2006",
+        "page": 1,
+        "quote": "Dr. Albert Hofmann (Fig. 1), born on January 11, 1906, started his extremely successful career in 1929 at Sandoz Pharma in the chemical department directed by Prof. Arthur Stoll."
+      }
+    ]
+  },
+  {
+    "id": "hofmann_career_start",
+    "event_type": "employment_start",
+    "label": "Started career at Sandoz Pharma",
+    "date": {
+      "display": "1929",
+      "precision": "year",
+      "sort_start": "1929-01-01",
+      "sort_end": "1929-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_hofmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "sandoz_pharma",
+        "role": "employer"
+      },
+      {
+        "entity_id": "arthur_stoll",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "giger_engel_2006",
+        "page": 1,
+        "quote": "Dr. Albert Hofmann (Fig. 1), born on January 11, 1906, started his extremely successful career in 1929 at Sandoz Pharma in the chemical department directed by Prof. Arthur Stoll."
+      }
+    ]
+  },
+  {
+    "id": "stoll_ergotamine_isolation",
+    "event_type": "invention",
+    "label": "Isolation of ergotamine by Stoll",
+    "date": {
+      "display": "1918",
+      "precision": "year",
+      "sort_start": "1918-01-01",
+      "sort_end": "1918-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_stoll",
+        "role": "invention"
+      },
+      {
+        "entity_id": "ergotamine",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "giger_engel_2006",
+        "page": 1,
+        "quote": "The scientific research on ergot alkaloids began in 1918 with the isolation of ergotamine (1) by A. Stoll [1], the first chemically pure ergot peptide alkaloid, which exhibits the pharmacological spectrum of action of the drug extracted from Claviceps purpurea, the dark violet sclerotia of the fungus that infects ears of rye (Fig. 2)."
+      }
+    ]
+  },
+  {
+    "id": "hofmann_ergobasin_proposal",
+    "event_type": "other",
+    "label": "Proposed synthesis of ergobasin",
+    "date": {
+      "display": "1935",
+      "precision": "year",
+      "sort_start": "1935-01-01",
+      "sort_end": "1935-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_hofmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "arthur_stoll",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "giger_engel_2006",
+        "page": 2,
+        "quote": "At this time Dr. Hofmann proposed to Prof. Stoll to attempt the partial synthesis of egobasin (2), seeking for a proof of structure and eventually a more effective production of this compound, which was present only in tiny amounts in ergot."
+      }
+    ]
+  },
+  {
+    "id": "hofmann_hydergine_development",
+    "event_type": "invention",
+    "label": "Catalytic hydrogenation of ergotoxine",
+    "description": "Yielded Hydergine, a new medicine.",
+    "date": {
+      "display": "1943",
+      "precision": "year",
+      "sort_start": "1943-01-01",
+      "sort_end": "1943-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_hofmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "hydergine",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "giger_engel_2006",
+        "page": 2,
+        "quote": "In 1943 an important step in ergot research was the catalytic hydrogenation of ergotoxine (7) from natural sources by Hofmann, which was found to be a mixture of the four genuine peptide alkaloids ergocristine (8) (one third), ergocornine (9) (one third), α- and β-ergocryptine (10 and 11) (one third of a 2:1 mixture), and yielded a new medicine with the generic name ergoloid mesylate and the trade name Hydergine® (12) (Fig. 6) which is still widely used today [4][5]."
+      }
+    ]
+  },
+  {
+    "id": "lysergic_acid_stereochemistry",
+    "event_type": "other",
+    "label": "Elucidation of lysergic acid stereochemistry",
+    "date": {
+      "display": "1949",
+      "precision": "year",
+      "sort_start": "1949-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_hofmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "arthur_stoll",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "f_troxler",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "giger_engel_2006",
+        "page": 2,
+        "quote": "It is interesting to note that the structure of lysergic acid (3) was elucidated by Jacobs and his associates [6], its stereochemistry by Stoll, Hofmann and Troxler in 1949, and until the 1950s, i.e. before Stoll, Hofmann and their associates were able to elucidate the structure of the peptide portion of ergotamine [6], the chemical formula of ergot alkaloid merely indicated the degradation products of the peptide portion."
+      }
+    ]
+  },
+  {
+    "id": "hofmann_psilocybin_structure",
+    "event_type": "other",
+    "label": "Elucidated chemical structure of psilocybin",
+    "date": {
+      "display": "1958",
+      "precision": "year",
+      "sort_start": "1958-01-01",
+      "sort_end": "1958-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_hofmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "psilocybin",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "giger_engel_2006",
+        "page": 4,
+        "quote": "In the 1958 Hofman elucidated the chemical structure of psilocybin (25), a psychoactive principle isolated from the mushroom Psilocybe Mexicana which has the indole moiety in common with LSD (6) (Fig. 17)."
+      }
+    ]
+  },
+  {
+    "id": "propranolol_description",
+    "event_type": "publication",
+    "label": "Propranolol described by James Black",
+    "date": {
+      "display": "1960",
+      "precision": "year",
+      "sort_start": "1960-01-01",
+      "sort_end": "1960-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "james_black",
+        "role": "subject"
+      },
+      {
+        "entity_id": "pindolol",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "giger_engel_2006",
+        "page": 5,
+        "quote": "F. Troxler, an associate of A. Hofmann, had succeeded in preparing the psilocybin precursor 4-hydroxy-indole (26) when in 1960 the first potent beta-blocker propranolol (Inderal®) (27) was described by the Britisch pharmacologist James Black."
+      }
+    ]
+  },
+  {
+    "id": "troxler_pindolol_synthesis",
+    "event_type": "invention",
+    "label": "Synthesis of pindolol by Troxler",
+    "date": {
+      "display": "1965",
+      "precision": "year",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "f_troxler",
+        "role": "subject"
+      },
+      {
+        "entity_id": "pindolol",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "giger_engel_2006",
+        "page": 5,
+        "quote": "In 1965 F. Troxler combined the 4-hydroxy-indole with the side chain of propranolol and obtained pindolol (Visken®) (28) (Fig. 18)."
+      }
+    ]
+  },
+  {
+    "id": "stadler_tropisetron_synthesis",
+    "event_type": "invention",
+    "label": "Synthesis of tropisetron by Stadler",
+    "date": {
+      "display": "1982",
+      "precision": "year",
+      "sort_start": "1982-01-01",
+      "sort_end": "1982-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "p_stadler",
+        "role": "subject"
+      },
+      {
+        "entity_id": "tropisetron",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "giger_engel_2006",
+        "page": 5,
+        "quote": "In 1982 P. Stadler, an associate of Hofmann's research group, synthesized tropisetron (29)."
+      }
+    ]
+  },
+  {
+    "id": "tropisetron_introduction",
+    "event_type": "product_launch",
+    "label": "Tropisetron introduced as Navoban",
+    "date": {
+      "display": "1995",
+      "precision": "year",
+      "sort_start": "1995-01-01",
+      "sort_end": "1995-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tropisetron",
+        "role": "invention"
+      },
+      {
+        "entity_id": "sandoz_pharma",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "giger_engel_2006",
+        "page": 5,
+        "quote": "In 1995 tropisetron (29) was introduced as a very potent antiemetic drug for patients with chemotherapy-induced nausea and vomiting under the trade name of Navoban®."
+      }
+    ]
+  },
+  {
+    "id": "buchheit_tegaserod_project",
+    "event_type": "other",
+    "label": "Launched project for serotonin receptor agonists",
+    "date": {
+      "display": "1986",
+      "precision": "year",
+      "sort_start": "1986-01-01",
+      "sort_end": "1986-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "k_h_buchheit",
+        "role": "subject"
+      },
+      {
+        "entity_id": "sandoz_pharma",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "giger_engel_2006",
+        "page": 5,
+        "quote": "In 1986 K.-H. Buchheit launched a project with the aim of discovering non-classical serotonin receptor agonists for curing disorders of the gastro-intestinal tract, in particular gastrointestinal motility disorders."
+      }
+    ]
+  },
+  {
+    "id": "giger_mattes_tegaserod_delivery",
+    "event_type": "invention",
+    "label": "Delivered tegaserod to pharmacologists",
+    "date": {
+      "display": "1988",
+      "precision": "year",
+      "sort_start": "1988-01-01",
+      "sort_end": "1988-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rudolf_giger",
+        "role": "subject"
+      },
+      {
+        "entity_id": "h_mattes",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "tegaserod",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "giger_engel_2006",
+        "page": 5,
+        "quote": "In 1988 R. Giger and H. Mattes achieved the goal by delivering tegaserod (30) (Fig. 20) to the pharmacologists K.-H. Buchheit, R. Gamse and H.-J. Pfannkuche."
+      }
+    ]
+  },
+  {
+    "id": "tegaserod_approval",
+    "event_type": "product_launch",
+    "label": "Tegaserod approved for irritable bowel syndrome",
+    "date": {
+      "display": "2001/02",
+      "precision": "range",
+      "sort_start": "2001-01-01",
+      "sort_end": "2002-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tegaserod",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "giger_engel_2006",
+        "page": 5,
+        "quote": "Tegaserod (30) was approved in 2001/02 for the indication irritable bowel syndrome with the trade name Zelmac®/Zelnorm®."
+      }
+    ]
+  }
+]

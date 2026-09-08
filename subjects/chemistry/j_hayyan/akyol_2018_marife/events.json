@@ -1,0 +1,106 @@
+[
+  {
+    "id": "jabir_birth",
+    "event_type": "birth",
+    "label": "Born in first quarter of VIII Century",
+    "description": "Debated whether born in Kufa or Tus; accepted born in Tus while father was in Khorasan.",
+    "date": {
+      "display": "first quarter of VIII Century",
+      "precision": "range",
+      "sort_start": "0700-01-01",
+      "sort_end": "0725-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jabir_ibn_hayyan",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "akyol_2018_jabir_classification",
+        "page": 3,
+        "quote": "it may be said that Jabir Ibn Hayyan was born in first quarter of VIII Century ."
+      }
+    ]
+  },
+  {
+    "id": "jabir_death",
+    "event_type": "death",
+    "label": "Died 200/815",
+    "description": "Text states 200/815 B.C., context implies A.D.",
+    "date": {
+      "display": "200/815 B . C.",
+      "precision": "year",
+      "sort_start": "0815-01-01",
+      "sort_end": "0815-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jabir_ibn_hayyan",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "akyol_2018_jabir_classification",
+        "page": 2,
+        "quote": "Jabir Ibn Hayyan (200/815 B . C.) is described as a famous chemist and all -rounder Islamic philosopher ."
+      }
+    ]
+  },
+  {
+    "id": "father_abbasid_support",
+    "event_type": "other",
+    "label": "Father supported Abbasids",
+    "description": "Father supported Abbasids in events resulting in collapse of Umayyad Dynasty.",
+    "date": {
+      "display": "VIII Century",
+      "precision": "century",
+      "sort_start": "0700-01-01",
+      "sort_end": "0799-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "hayyan",
+        "role": "subject"
+      },
+      {
+        "entity_id": "abbasids",
+        "role": "beneficiary"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "akyol_2018_jabir_classification",
+        "page": 3,
+        "quote": "he supported Abbasids in the events that were resulted in collapse of Umayyad Dynasty in VIII Century."
+      }
+    ]
+  },
+  {
+    "id": "geber_corpus_west",
+    "event_type": "publication",
+    "label": "Geber corpus emerged in West",
+    "description": "Entire corpus of Geber came up in XIII and XIV centuries in the West.",
+    "date": {
+      "display": "XIII and XIV centuries",
+      "precision": "range",
+      "sort_start": "1200-01-01",
+      "sort_end": "1399-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jabir_ibn_hayyan",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "akyol_2018_jabir_classification",
+        "page": 4,
+        "quote": "It is understood that the entire corpus of Geber came up in XIII and XIV centuries in the West undertook very significant roles in six centuries development of chemistry ."
+      }
+    ]
+  }
+]

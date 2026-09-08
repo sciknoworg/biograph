@@ -1,0 +1,420 @@
+[
+  {
+    "id": "first_uranium_bombardment",
+    "event_type": "other",
+    "label": "First neutron bombardment of uranium",
+    "description": "Seaborg's group irradiated uranium to produce neptunium-239.",
+    "date": {
+      "display": "August 30, 1940",
+      "precision": "day",
+      "sort_start": "1940-08-30",
+      "sort_end": "1940-08-30"
+    },
+    "participants": [
+      {
+        "entity_id": "glenn_t_seaborg",
+        "role": "subject"
+      },
+      {
+        "entity_id": "arthur_c_wahl",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "joseph_w_kennedy",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seaborg_early_history_1940_1942",
+        "page": 1,
+        "quote": "This afternoon we irradiated with neutrons our first sample of uranium to produce the recently discovered isotope 93239 in order to commence a research program to study by the tracer technique the chemical properties of element 93."
+      }
+    ]
+  },
+  {
+    "id": "wahl_joins_group",
+    "event_type": "employment_start",
+    "label": "Arthur Wahl starts graduate work",
+    "description": "Wahl began his second year of graduate work under Seaborg's direction.",
+    "date": {
+      "display": "August 30, 1940",
+      "precision": "day",
+      "sort_start": "1940-08-30",
+      "sort_end": "1940-08-30"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_c_wahl",
+        "role": "subject"
+      },
+      {
+        "entity_id": "glenn_t_seaborg",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seaborg_early_history_1940_1942",
+        "page": 1,
+        "quote": "These chemical investigations are being carried out at my suggestion by one of my graduate students, Arthur C. Wahl, who is starting his second year of graduate work under my direction."
+      }
+    ]
+  },
+  {
+    "id": "gofman_joins_group",
+    "event_type": "employment_start",
+    "label": "John Gofman starts graduate work",
+    "description": "Gofman elected to carry out graduate work under Seaborg's direction.",
+    "date": {
+      "display": "September 23, 1940",
+      "precision": "day",
+      "sort_start": "1940-09-23",
+      "sort_end": "1940-09-23"
+    },
+    "participants": [
+      {
+        "entity_id": "john_w_gofman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "glenn_t_seaborg",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seaborg_early_history_1940_1942",
+        "page": 1,
+        "quote": "John W. Gofman and Spofford G. English, two graduate students who are starting at Berkeley this fall, have elected to carry out their graduate work under my direction."
+      }
+    ]
+  },
+  {
+    "id": "first_alpha_observation",
+    "event_type": "other",
+    "label": "First observation of element 94 alpha activity",
+    "description": "Alpha particles suspected to be element 94 were observed from sample 93-7-1.",
+    "date": {
+      "display": "December 23, 1940",
+      "precision": "day",
+      "sort_start": "1940-12-23",
+      "sort_end": "1940-12-23"
+    },
+    "participants": [
+      {
+        "entity_id": "glenn_t_seaborg",
+        "role": "subject"
+      },
+      {
+        "entity_id": "arthur_c_wahl",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seaborg_early_history_1940_1942",
+        "page": 6,
+        "quote": "Today, however, using another proportional counter built by Kennedy (2-18, similar to 2-15), alpha particles from the sample were observed through the cellophane window of thickness 3.5 mg per sq. cm."
+      }
+    ]
+  },
+  {
+    "id": "fermi_collaboration_start",
+    "event_type": "meeting",
+    "label": "Discussion with Emilio Segrè about Fermi",
+    "description": "Segrè conveyed Fermi's suggestion to produce enough 93239 to test fissionability.",
+    "date": {
+      "display": "January 3, 1941",
+      "precision": "day",
+      "sort_start": "1941-01-03",
+      "sort_end": "1941-01-03"
+    },
+    "participants": [
+      {
+        "entity_id": "glenn_t_seaborg",
+        "role": "subject"
+      },
+      {
+        "entity_id": "emilio_segre",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "enrico_fermi",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seaborg_early_history_1940_1942",
+        "page": 11,
+        "quote": "I had a discussion with hilio Segr'e, a collaborator in many of my previous research problems."
+      }
+    ]
+  },
+  {
+    "id": "element_94_chemical_proof",
+    "event_type": "invention",
+    "label": "Chemical proof of element 94",
+    "description": "Wahl separated the alpha activity from thorium, proving it was element 94.",
+    "date": {
+      "display": "February 25, 1941",
+      "precision": "day",
+      "sort_start": "1941-02-25",
+      "sort_end": "1941-02-25"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_c_wahl",
+        "role": "subject"
+      },
+      {
+        "entity_id": "glenn_t_seaborg",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seaborg_early_history_1940_1942",
+        "page": 20,
+        "quote": "With this final separation from Th, it has been demonstrated that our alpha activity can be separated from all known elements and thus it is now clear that our alpha activity is due to the new element with the atomic number 94 (9423'. 94'jb or 94'jb)."
+      }
+    ]
+  },
+  {
+    "id": "sample_a_production",
+    "event_type": "product_launch",
+    "label": "Production of Sample A",
+    "description": "Final product containing large sample of 93239 and daughter 94239 completed.",
+    "date": {
+      "display": "March 6, 1941",
+      "precision": "day",
+      "sort_start": "1941-03-06",
+      "sort_end": "1941-03-06"
+    },
+    "participants": [
+      {
+        "entity_id": "glenn_t_seaborg",
+        "role": "subject"
+      },
+      {
+        "entity_id": "emilio_segre",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seaborg_early_history_1940_1942",
+        "page": 37,
+        "quote": "This is our final product containing our large sample of 93239 (and some daughter 94239) which we will allow to decay completely to daughter 94239 in order to test the slow neutron fissionability of the l a t t e ~ e call this Sample A."
+      }
+    ]
+  },
+  {
+    "id": "first_fission_test",
+    "event_type": "public_demonstration",
+    "label": "First fissionability test of 94239",
+    "description": "First test for fissionability of 94239 using Sample A at the 37-inch cyclotron.",
+    "date": {
+      "display": "March 28, 1941",
+      "precision": "day",
+      "sort_start": "1941-03-28",
+      "sort_end": "1941-03-28"
+    },
+    "participants": [
+      {
+        "entity_id": "glenn_t_seaborg",
+        "role": "subject"
+      },
+      {
+        "entity_id": "joseph_w_kennedy",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "emilio_segre",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seaborg_early_history_1940_1942",
+        "page": 37,
+        "quote": "This morning Kennedy, Segr2 and I made our first test for the fis-sionability of 94239 using Sample A."
+      }
+    ]
+  },
+  {
+    "id": "ndrc_contract_signed",
+    "event_type": "other",
+    "label": "NDRC contract assigned number",
+    "description": "Contract covering search for elements 93 and 94 in nature assigned number NDCrc-197.",
+    "date": {
+      "display": "June 30, 1941",
+      "precision": "day",
+      "sort_start": "1941-06-30",
+      "sort_end": "1941-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "glenn_t_seaborg",
+        "role": "subject"
+      },
+      {
+        "entity_id": "national_defense_research_committee",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seaborg_early_history_1940_1942",
+        "page": 47,
+        "quote": "Robert Underhill received from Irvin Stewart today a letter dated June 28, 1941 informing him that our contract covering the search for elements 93 and 94 in nature has'been assigned contract number NDCrc-197, Symbol No. 180."
+      }
+    ]
+  },
+  {
+    "id": "wahl_deferment_approved",
+    "event_type": "other",
+    "label": "Wahl transferred to Reserve Pool",
+    "description": "Wahl heard he had been transferred to the War Department Reserve Pool.",
+    "date": {
+      "display": "June 20, 1941",
+      "precision": "day",
+      "sort_start": "1941-06-20",
+      "sort_end": "1941-06-20"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_c_wahl",
+        "role": "subject"
+      },
+      {
+        "entity_id": "glenn_t_seaborg",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seaborg_early_history_1940_1942",
+        "page": 47,
+        "quote": "Wahl has finally heard from the Adjutant General's office of the War Department, in a letter dated June 12, 1941, that he has been transferred to the War Department Reserve Pool; we finally can breathe more easily that he will not be called to active duty with the consequent serious impact on our research program."
+      }
+    ]
+  },
+  {
+    "id": "sample_f_production",
+    "event_type": "product_launch",
+    "label": "Production of Sample F",
+    "description": "Wahl completed isolation of 94239 from 1.9 kg UNH, designated Sample F.",
+    "date": {
+      "display": "July 13, 1941",
+      "precision": "day",
+      "sort_start": "1941-07-13",
+      "sort_end": "1941-07-13"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_c_wahl",
+        "role": "subject"
+      },
+      {
+        "entity_id": "glenn_t_seaborg",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seaborg_early_history_1940_1942",
+        "page": 48,
+        "quote": "Wahl completed his isolation of 94239 from the UNH and fission products which served as his starting solution on Wednesday, having carried out during the intervening days a very rigorous chemical separation procedure."
+      }
+    ]
+  },
+  {
+    "id": "fast_neutron_fission_measurement",
+    "event_type": "other",
+    "label": "Fast neutron fission cross section measured",
+    "description": "Segrè and Seaborg measured fast neutron fission cross section of 94239 using Sample F.",
+    "date": {
+      "display": "July 17, 1941",
+      "precision": "day",
+      "sort_start": "1941-07-17",
+      "sort_end": "1941-07-17"
+    },
+    "participants": [
+      {
+        "entity_id": "glenn_t_seaborg",
+        "role": "subject"
+      },
+      {
+        "entity_id": "emilio_segre",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seaborg_early_history_1940_1942",
+        "page": 48,
+        "quote": "Since July 13, when our larger 94239 sample (Sample F) became avail-able, Segrs and I have been making renewed attempts to measure the fast neutron fission cross section of 94239."
+      }
+    ]
+  },
+  {
+    "id": "osrd_contract_approved",
+    "event_type": "other",
+    "label": "OSRD contract approved",
+    "description": "Contract requested by Seaborg approved by Vannevar Bush for $21,500.",
+    "date": {
+      "display": "August 4, 1941",
+      "precision": "day",
+      "sort_start": "1941-08-04",
+      "sort_end": "1941-08-04"
+    },
+    "participants": [
+      {
+        "entity_id": "glenn_t_seaborg",
+        "role": "subject"
+      },
+      {
+        "entity_id": "vannevar_bush",
+        "role": "official"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seaborg_early_history_1940_1942",
+        "page": 53,
+        "quote": "Professor Lawrence received a letter from Dr. Vannevar Bush, Director, Office of Scientific Research and Development, dated August 1, 1941 informing us that the contract I requested in my letter of July 10, 1941 to Dr. Briggs has been approved in the amount of $21,500; it has been assigned the number OEMsr-206, Symbol No. 319."
+      }
+    ]
+  },
+  {
+    "id": "pitchblende_analysis",
+    "event_type": "other",
+    "label": "Pitchblende ore analysis",
+    "description": "Wahl analyzed pitchblende ore for isotopes of elements 93 and 94.",
+    "date": {
+      "display": "October 15, 1941",
+      "precision": "day",
+      "sort_start": "1941-10-15",
+      "sort_end": "1941-10-15"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_c_wahl",
+        "role": "subject"
+      },
+      {
+        "entity_id": "glenn_t_seaborg",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seaborg_early_history_1940_1942",
+        "page": 61,
+        "quote": "Wahl took 53 grams of the pikchblende ore received from Eldorado Gold Mines Ltd. yesterday and dissolved it by repeated treatment with concentrated HN03, aqua regia, H2S0t+, HC1, and HF."
+      }
+    ]
+  }
+]

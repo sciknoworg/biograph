@@ -1,0 +1,122 @@
+[
+  {
+    "id": "wolfgang_death",
+    "event_type": "death",
+    "label": "Died",
+    "description": "His death caused a major change in the history of the contract.",
+    "date": {
+      "display": "June 1971",
+      "precision": "month",
+      "sort_start": "1971-06-01",
+      "sort_end": "1971-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "richard_wolfgang",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wolfgang_final_report_1973",
+        "page": 1,
+        "quote": "The death of Richard Wolfgang in June 1971 obviously caused a major change in the history of this contract."
+      }
+    ]
+  },
+  {
+    "id": "contract_period",
+    "event_type": "other",
+    "label": "Wolfgang Years Contract Period",
+    "description": "Final report covers the Wolfgang years under the contract.",
+    "date": {
+      "display": "1957-1972",
+      "precision": "range",
+      "sort_start": "1957-01-01",
+      "sort_end": "1972-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "richard_wolfgang",
+        "role": "subject"
+      },
+      {
+        "entity_id": "contract_at_11_1_3570",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wolfgang_final_report_1973",
+        "page": 1,
+        "quote": "Thus it seems reasonable to write a final report on the Wolfgang years, 1957-1972 while the information is still available."
+      }
+    ]
+  },
+  {
+    "id": "estrup_phd",
+    "event_type": "education",
+    "label": "Estrup Completed PhD",
+    "description": "First listed graduate student supported by AEC.",
+    "date": {
+      "display": "1959",
+      "precision": "year",
+      "sort_start": "1959-01-01",
+      "sort_end": "1959-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "peder_estrup",
+        "role": "subject"
+      },
+      {
+        "entity_id": "richard_wolfgang",
+        "role": "supervised_by"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wolfgang_final_report_1973",
+        "page": 9,
+        "quote": "Estrupi Peder J.Z. Reactions of Recoil- ing Tritium with Methane 1959"
+      }
+    ]
+  },
+  {
+    "id": "machines_built",
+    "event_type": "invention",
+    "label": "Molecular Beam Machines Built",
+    "description": "Three machines were built to uncover details of hot reactions.",
+    "date": {
+      "display": "c. 1957-1972",
+      "precision": "range",
+      "sort_start": "1957-01-01",
+      "sort_end": "1972-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "richard_wolfgang",
+        "role": "subject"
+      },
+      {
+        "entity_id": "adam_machine",
+        "role": "invention"
+      },
+      {
+        "entity_id": "eva_machine",
+        "role": "invention"
+      },
+      {
+        "entity_id": "cain_machine",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wolfgang_final_report_1973",
+        "page": 7,
+        "quote": "Three machines were built: ADAM, EVA, and CAIN."
+      }
+    ]
+  }
+]

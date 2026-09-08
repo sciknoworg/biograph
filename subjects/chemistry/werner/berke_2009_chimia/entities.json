@@ -1,0 +1,170 @@
+[
+  {
+    "aliases": [
+      "A. Werner",
+      "Werner"
+    ],
+    "entity_type": "person",
+    "id": "alfred_werner",
+    "name": "Alfred Werner",
+    "subtype": "researcher",
+    "summary": "Founder of coordination chemistry and Nobel laureate."
+  },
+  {
+    "aliases": [
+      "H. Berke",
+      "Berke"
+    ],
+    "entity_type": "person",
+    "id": "heinz_berke",
+    "name": "Heinz Berke",
+    "subtype": "researcher",
+    "summary": "Author of the article and professor at University of Zurich."
+  },
+  {
+    "aliases": [
+      "UZh",
+      "Universität Zürich"
+    ],
+    "entity_type": "organization",
+    "id": "university_of_zurich",
+    "name": "University of Zurich",
+    "subtype": "university",
+    "summary": "Swiss university where Werner worked and founded coordination chemistry."
+  },
+  {
+    "aliases": [
+      "ETH"
+    ],
+    "entity_type": "organization",
+    "id": "eth_zurich",
+    "name": "ETH Zürich",
+    "subtype": "university",
+    "summary": "Swiss federal institute of technology where Werner studied."
+  },
+  {
+    "aliases": [
+      "ACS"
+    ],
+    "entity_type": "organization",
+    "id": "american_chemical_society",
+    "name": "American Chemical Society",
+    "subtype": "society",
+    "summary": "Professional society that awarded Werner's book a breakthrough prize."
+  },
+  {
+    "aliases": [
+      "HIST"
+    ],
+    "entity_type": "organization",
+    "id": "division_history_chemistry",
+    "name": "Division of the History of Chemistry",
+    "subtype": "division",
+    "summary": "Division of the American Chemical Society."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "chemical_society_zurich",
+    "name": "Chemical Society of Zurich",
+    "subtype": "society",
+    "summary": "Society hosting the 2009 symposium."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "France"
+    },
+    "entity_type": "place",
+    "id": "mulhouse",
+    "name": "Mulhouse",
+    "subtype": "city",
+    "summary": "City in France where Werner was born."
+  },
+  {
+    "aliases": [
+      "New Perspectives in Inorganic Chemistry",
+      "Werner's book"
+    ],
+    "entity_type": "artifact",
+    "id": "werner_book",
+    "name": "Neuere Anschauungen auf dem Gebiete der Anorganischen Chemie",
+    "subtype": "publication",
+    "summary": "Werner's 1905 book on inorganic chemistry perspectives."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "nobel_prize",
+    "name": "Nobel Prize",
+    "subtype": "award",
+    "summary": "Prestigious award received by Werner in 1913."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "citation_breakthrough",
+    "name": "Citation for Chemical Breakthrough",
+    "subtype": "award",
+    "summary": "Prize awarded to Werner's book in 2009."
+  },
+  {
+    "aliases": [
+      "Prof. Hantzsch",
+      "Professor Hantzsch"
+    ],
+    "entity_type": "person",
+    "id": "hantzsch",
+    "name": "Hantzsch",
+    "subtype": "researcher",
+    "summary": "Professor and Werner's PhD supervisor at ETH Zürich."
+  },
+  {
+    "aliases": [
+      "Prof. A. Miolati",
+      "Professor A. Miolati"
+    ],
+    "entity_type": "person",
+    "id": "miolati",
+    "name": "A. Miolati",
+    "subtype": "researcher",
+    "summary": "Professor from Turin who taught Werner conductivity measurements."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "v_l_king",
+    "name": "V. L. King",
+    "subtype": "researcher",
+    "summary": "American coworker of Werner who performed optical resolution."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "c_schwenk",
+    "name": "C. Schwenk",
+    "subtype": "researcher",
+    "summary": "Werner's coworker who accomplished chiral separation of inorganic complex."
+  },
+  {
+    "aliases": [
+      "Jørgensen (University of Copenhagen)"
+    ],
+    "entity_type": "person",
+    "id": "jorgensen",
+    "name": "Jørgensen",
+    "subtype": "researcher",
+    "summary": "Werner's chief scientific adversary from University of Copenhagen."
+  },
+  {
+    "aliases": [
+      "Prof. P. Pfeiffer",
+      "Professor P. Pfeiffer"
+    ],
+    "entity_type": "person",
+    "id": "p_pfeiffer",
+    "name": "P. Pfeiffer",
+    "subtype": "researcher",
+    "summary": "Professor who edited the 5th edition of Werner's book."
+  }
+]

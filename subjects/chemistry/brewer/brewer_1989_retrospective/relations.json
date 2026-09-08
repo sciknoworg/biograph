@@ -1,0 +1,112 @@
+[
+  {
+    "id": "brewer_studied_caltech",
+    "source": "leo_brewer",
+    "type": "studied_at",
+    "target": "cal_tech",
+    "event_id": "brewer_undergrad_caltech",
+    "sources": [
+      {
+        "source_id": "brewer_1989_retrospective",
+        "page": 1,
+        "quote": "As an undergraduate in 1936-40 at Cal Tech"
+      }
+    ]
+  },
+  {
+    "id": "brewer_studied_berkeley",
+    "source": "leo_brewer",
+    "type": "studied_at",
+    "target": "uc_berkeley",
+    "event_id": "brewer_phd_berkeley",
+    "sources": [
+      {
+        "source_id": "brewer_1989_retrospective",
+        "page": 1,
+        "quote": "As a graduate student at the University of California, Berkeley"
+      }
+    ]
+  },
+  {
+    "id": "brewer_worked_lbl",
+    "source": "leo_brewer",
+    "type": "worked_at",
+    "target": "lbl",
+    "sources": [
+      {
+        "source_id": "brewer_1989_retrospective",
+        "page": 1,
+        "quote": "Materials and Chemical Sciences Division Lawrence Berkeley Laboratory"
+      }
+    ]
+  },
+  {
+    "id": "brewer_supervised_latimer",
+    "source": "leo_brewer",
+    "type": "supervised_by",
+    "target": "wendell_latimer",
+    "event_id": "brewer_joins_manhattan_project",
+    "sources": [
+      {
+        "source_id": "brewer_1989_retrospective",
+        "page": 1,
+        "quote": "approached by Wendell Latimer in December 1942 to join the Manhattan Project."
+      }
+    ]
+  },
+  {
+    "id": "brewer_supervised_eastman",
+    "source": "leo_brewer",
+    "type": "supervised_by",
+    "target": "ermon_eastman",
+    "sources": [
+      {
+        "source_id": "brewer_1989_retrospective",
+        "page": 1,
+        "quote": "I was under the supervision of Professor Eastman"
+      }
+    ]
+  },
+  {
+    "id": "brewer_developed_ces_crucibles",
+    "source": "leo_brewer",
+    "type": "invented",
+    "target": "ces_crucibles",
+    "event_id": "crucibles_sent_to_los_alamos",
+    "sources": [
+      {
+        "source_id": "brewer_1989_retrospective",
+        "page": 2,
+        "quote": "We were able to prepare the compound and fabricate crucibles that were highly resistant to attack by metals."
+      }
+    ]
+  },
+  {
+    "id": "brewer_promoted_engel_theory",
+    "source": "leo_brewer",
+    "type": "developed",
+    "target": "engel_theory",
+    "event_id": "beck_conference_presentation",
+    "sources": [
+      {
+        "source_id": "brewer_1989_retrospective",
+        "page": 4,
+        "quote": "I did present a summary of his theory, referring to Engel's Danish publications"
+      }
+    ]
+  },
+  {
+    "id": "brewer_mentored_wengert",
+    "source": "leo_brewer",
+    "type": "mentored",
+    "target": "paul_wengert",
+    "event_id": "wengert_letter",
+    "sources": [
+      {
+        "source_id": "brewer_1989_retrospective",
+        "page": 5,
+        "quote": "wanted to do Ph.D. research with me"
+      }
+    ]
+  }
+]

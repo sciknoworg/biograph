@@ -1,0 +1,112 @@
+[
+  {
+    "id": "jons_jacob_berzelius",
+    "entity_type": "person",
+    "name": "Jöns Jacob Berzelius",
+    "aliases": [
+      "Berzelius",
+      "J.J. Berzelius",
+      "Jacob Berzelius"
+    ],
+    "summary": "Swedish chemist, discoverer of elements, theorist of stoichiometry and chemical atomism, and author of influential chemistry textbooks.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "friedrich_wohler",
+    "entity_type": "person",
+    "name": "Friedrich Wöhler",
+    "aliases": [
+      "Wöhler",
+      "F. Wöhler"
+    ],
+    "summary": "German chemist, official spokesman for Berzelius in Germany and translator of his textbook.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "eilhard_mitscherlich",
+    "entity_type": "person",
+    "name": "Eilhard Mitscherlich",
+    "aliases": [
+      "Mitscherlich"
+    ],
+    "summary": "German naturalist and chemist who studied in Stockholm and corresponded with Berzelius.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "gerardus_johannes_mulder",
+    "entity_type": "person",
+    "name": "Gerardus Johannes Mulder",
+    "aliases": [
+      "Mulder",
+      "G.J. Mulder",
+      "Gerit Johannes Jan Mulder"
+    ],
+    "summary": "Dutch physician and chemist who translated Berzelius's textbook and corresponded with him.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "wilhelm_hisinger",
+    "entity_type": "person",
+    "name": "Wilhelm Hisinger",
+    "aliases": [
+      "Hisinger"
+    ],
+    "summary": "Swedish naturalist and industrialist who patronized Berzelius's laboratory.",
+    "subtype": "industrialist"
+  },
+  {
+    "id": "royal_swedish_academy_of_sciences",
+    "entity_type": "organization",
+    "name": "Royal Swedish Academy of Sciences",
+    "aliases": [
+      "Academy",
+      "Stockholm Academy of Sciences"
+    ],
+    "summary": "Swedish academy founded in 1739 where Berzelius served as perpetual Secretary.",
+    "subtype": "academy"
+  },
+  {
+    "id": "uppsala_university",
+    "entity_type": "organization",
+    "name": "Uppsala University",
+    "aliases": [
+      "Uppsala"
+    ],
+    "summary": "Swedish university where Berzelius studied medicine.",
+    "subtype": "university"
+  },
+  {
+    "id": "larbok_i_kemien",
+    "entity_type": "artifact",
+    "name": "Lärbok i Kemien",
+    "aliases": [
+      "Lehrbuch der Chemie",
+      "Traité de chimie",
+      "Berzelius's textbook"
+    ],
+    "summary": "Berzelius's influential chemistry textbook, translated into multiple languages.",
+    "subtype": "publication"
+  },
+  {
+    "id": "arsberattelse",
+    "entity_type": "artifact",
+    "name": "Årsberättelse om Framstegen i Physik och Kemi",
+    "aliases": [
+      "Jahrbericht",
+      "Rapport annuel"
+    ],
+    "summary": "Berzelius's annual reports on the progress of physics and chemistry.",
+    "subtype": "publication"
+  },
+  {
+    "id": "stockholm",
+    "entity_type": "place",
+    "name": "Stockholm",
+    "aliases": [],
+    "summary": "Capital of Sweden, location of Berzelius's laboratory and the Academy.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Sweden"
+    }
+  }
+]

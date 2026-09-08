@@ -1,0 +1,86 @@
+[
+  {
+    "id": "jean_brachet_son_of_albert",
+    "source": "jean_brachet",
+    "type": "family_of",
+    "target": "albert_brachet",
+    "note": "Jean Brachet was the younger son of Albert Brachet.",
+    "sources": [
+      {
+        "source_id": "alexandre_2001",
+        "page": 3,
+        "quote": "Jean Brachet, younger son of Albert Brachet, was convinced of this."
+      }
+    ]
+  },
+  {
+    "id": "jean_brachet_worked_under_dalcq",
+    "source": "jean_brachet",
+    "type": "supervised_by",
+    "target": "albert_dalcq",
+    "note": "First works carried out under A. Dalcq.",
+    "sources": [
+      {
+        "source_id": "alexandre_2001",
+        "page": 3,
+        "quote": "His first works, carried out under A. Dalcq, were devoted to the behaviour and synthesis of thymonucleic acid during ovogenesis in various animal species, and during the development of the sea urchin egg (Brachet, 1929, 1931)."
+      }
+    ]
+  },
+  {
+    "id": "jean_brachet_collaborated_needham",
+    "source": "jean_brachet",
+    "type": "collaborated_with",
+    "target": "joseph_needham",
+    "note": "Co-signed four articles with J. Needham.",
+    "sources": [
+      {
+        "source_id": "alexandre_2001",
+        "page": 4,
+        "quote": "Jean Brachet, who already appeared as one of the most eminent embryologists of his time (Gurdon and Rodbard, 2000), was one of J. Needham's young foreign collaborators, co-signing four articles with him."
+      }
+    ]
+  },
+  {
+    "id": "jean_brachet_collaborated_waddington",
+    "source": "jean_brachet",
+    "type": "collaborated_with",
+    "target": "c_waddington",
+    "note": "In collaboration with C. Waddington and J. Needham, J. Brachet showed methylene blue could induce neurulation.",
+    "sources": [
+      {
+        "source_id": "alexandre_2001",
+        "page": 4,
+        "quote": "In collaboration with C. Waddington and J. Needham, J. Brachet showed for the first time that a molecule of non-biological origin, methylene blue, could induce neurulation of the ventral ectoderm (Waddington et al ., 1935)."
+      }
+    ]
+  },
+  {
+    "id": "jean_brachet_published_embryologie_chimique",
+    "source": "jean_brachet",
+    "type": "published",
+    "target": "embryologie_chimique",
+    "event_id": "jean_brachet_embryologie_chimique_1944",
+    "sources": [
+      {
+        "source_id": "alexandre_2001",
+        "page": 4,
+        "quote": "J. Brachet used this diagram (Fig. 5) in the first edition of his book \"Embryologie chimique\" (Brachet, 1944a, Fig. 117, p 408)."
+      }
+    ]
+  },
+  {
+    "id": "jean_brachet_published_biochem_dev",
+    "source": "jean_brachet",
+    "type": "published",
+    "target": "the_biochemistry_of_development",
+    "event_id": "jean_brachet_biochem_dev_1960",
+    "sources": [
+      {
+        "source_id": "alexandre_2001",
+        "page": 5,
+        "quote": "BRACHET, J. (1960).  The Biochemistry of Development.  Edition Pergamon Press"
+      }
+    ]
+  }
+]

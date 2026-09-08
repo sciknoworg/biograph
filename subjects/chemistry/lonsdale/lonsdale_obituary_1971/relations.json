@@ -1,0 +1,231 @@
+[
+  {
+    "id": "kathleen_born_newbridge",
+    "source": "kathleen_lonsdale",
+    "type": "born_in",
+    "target": "newbridge_kildare",
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 2,
+        "quote": "Born in Ireland at Newbridge, County Kildare on 28 January 1903"
+      }
+    ]
+  },
+  {
+    "id": "kathleen_studied_bedford",
+    "source": "kathleen_lonsdale",
+    "type": "studied_at",
+    "target": "bedford_college",
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 2,
+        "quote": "Kathleen Yardley took high honours in physics at Bedford College for Women, University of London, in 1922"
+      }
+    ]
+  },
+  {
+    "id": "kathleen_married_thomas",
+    "source": "kathleen_lonsdale",
+    "type": "married_to",
+    "target": "thomas_lonsdale",
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 2,
+        "quote": "For two years after her marriage to a fellow physicist, Thomas Lonsdale, in 1927"
+      }
+    ]
+  },
+  {
+    "id": "kathleen_supervised_bragg",
+    "source": "kathleen_lonsdale",
+    "type": "supervised_by",
+    "target": "w_h_bragg",
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 2,
+        "quote": "and was invited by W. H. Bragg to join his research team"
+      }
+    ]
+  },
+  {
+    "id": "kathleen_collaborated_astbury",
+    "source": "kathleen_lonsdale",
+    "type": "collaborated_with",
+    "target": "w_t_astbury",
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 2,
+        "quote": "During this time she worked out the Tables for the Determination of Space Groups with W. T. Astbury"
+      }
+    ]
+  },
+  {
+    "id": "kathleen_worked_ri",
+    "source": "kathleen_lonsdale",
+    "type": "worked_at",
+    "target": "royal_institution",
+    "start": {
+      "display": "1932",
+      "precision": "year",
+      "sort_start": "1932-01-01",
+      "sort_end": "1932-12-31"
+    },
+    "end": {
+      "display": "1946",
+      "precision": "year",
+      "sort_start": "1946-01-01",
+      "sort_end": "1946-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 2,
+        "quote": "rejoined the Royal Institution in 1932, where she remained until 1946."
+      }
+    ]
+  },
+  {
+    "id": "kathleen_worked_ucl",
+    "source": "kathleen_lonsdale",
+    "type": "worked_at",
+    "target": "university_college_london",
+    "start": {
+      "display": "1946",
+      "precision": "year",
+      "sort_start": "1946-01-01",
+      "sort_end": "1946-12-31"
+    },
+    "end": {
+      "display": "1968",
+      "precision": "year",
+      "sort_start": "1968-01-01",
+      "sort_end": "1968-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 1,
+        "quote": "from 1946 until she retired in 1968 as Professor of Chemistry and Head of the Department of Crystallography in University College London."
+      }
+    ]
+  },
+  {
+    "id": "kathleen_member_rs",
+    "source": "kathleen_lonsdale",
+    "type": "member_of",
+    "target": "royal_society",
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 1,
+        "quote": "in 1945) as one of the first two women to be elected to the Fellowship of the Royal Society"
+      }
+    ]
+  },
+  {
+    "id": "kathleen_awarded_davy",
+    "source": "kathleen_lonsdale",
+    "type": "awarded",
+    "target": "davy_medal",
+    "event_id": "award_davy",
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 2,
+        "quote": "For this and later work she was awarded the Davy Medal of the Royal Society in 1957."
+      }
+    ]
+  },
+  {
+    "id": "kathleen_member_quakers",
+    "source": "kathleen_lonsdale",
+    "type": "member_of",
+    "target": "society_of_friends",
+    "start": {
+      "display": "1935",
+      "precision": "year",
+      "sort_start": "1935-01-01",
+      "sort_end": "1935-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 4,
+        "quote": "She was an active member of the Society of Friends (Quakers), which she joined in 1935"
+      }
+    ]
+  },
+  {
+    "id": "kathleen_published_crystals",
+    "source": "kathleen_lonsdale",
+    "type": "published",
+    "target": "crystals_and_xrays",
+    "event_id": "publication_crystals_xrays",
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 3,
+        "quote": "She gave a series of university extension lectures which she wrote up as a book entitled Crystals and X-rays (1949)"
+      }
+    ]
+  },
+  {
+    "id": "kathleen_published_peace",
+    "source": "kathleen_lonsdale",
+    "type": "published",
+    "target": "is_peace_possible",
+    "event_id": "publication_peace",
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 4,
+        "quote": "and wrote a Penguin Special entitled Is Peace Possible? (1957)"
+      }
+    ]
+  },
+  {
+    "id": "kathleen_developed_tables",
+    "source": "kathleen_lonsdale",
+    "type": "developed",
+    "target": "tables_space_groups",
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 2,
+        "quote": "During this time she worked out the Tables for the Determination of Space Groups with W. T. Astbury"
+      }
+    ]
+  },
+  {
+    "id": "kathleen_developed_international_tables",
+    "source": "kathleen_lonsdale",
+    "type": "developed",
+    "target": "international_tables_xray",
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 3,
+        "quote": "The other major activity with which she was concerned during her time at University College was the preparation of International Tables for X-ray Crystallography, having overall responsibility for the production of the first three volumes."
+      }
+    ]
+  },
+  {
+    "id": "lonsdaleite_named_kathleen",
+    "source": "lonsdaleite",
+    "type": "renamed_to",
+    "target": "kathleen_lonsdale",
+    "note": "Mineral named after subject",
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 3,
+        "quote": "her contributions to this field were recognized when the wurtzite form of carbon was named lonsdaleite after it had been discovered as a naturally occurring mineral in meteorites."
+      }
+    ]
+  }
+]

@@ -5,7 +5,11 @@
   "description": "A dateable point or span with explicit precision, used by events and relation time-bounds.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["precision", "sort_start", "sort_end"],
+  "required": [
+    "precision",
+    "sort_start",
+    "sort_end"
+  ],
   "properties": {
     "display": {
       "type": "string",
@@ -13,7 +17,16 @@
     },
     "precision": {
       "type": "string",
-      "enum": ["day", "month", "year", "decade", "circa", "range"]
+      "enum": [
+        "day",
+        "month",
+        "year",
+        "decade",
+        "century",
+        "circa",
+        "range"
+      ],
+      "description": ". \"century\" is for pre-modern subjects, where the source itself can place a life or event no more closely than that -- an 8th-century alchemist's patronage, say. Widening sort_start/sort_end to the century's bounds keeps ordering honest instead of inventing a year nobody claimed."
     },
     "sort_start": {
       "type": "string",

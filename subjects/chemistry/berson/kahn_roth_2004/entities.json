@@ -1,0 +1,92 @@
+[
+  {
+    "aliases": [
+      "Berson",
+      "S.A. Berson",
+      "Solomon Berson"
+    ],
+    "entity_type": "person",
+    "id": "solomon_berson",
+    "name": "Solomon A. Berson",
+    "subtype": "researcher",
+    "summary": "American physician and researcher who co-developed radioimmunoassay."
+  },
+  {
+    "aliases": [
+      "Yalow",
+      "R.S. Yalow",
+      "Rosalyn S. Yalow"
+    ],
+    "entity_type": "person",
+    "id": "rosalyn_yalow",
+    "name": "Rosalyn Yalow",
+    "subtype": "researcher",
+    "summary": "American medical physicist and Nobel laureate who co-developed radioimmunoassay with Berson."
+  },
+  {
+    "aliases": [
+      "NYU Medical School"
+    ],
+    "entity_type": "organization",
+    "id": "new_york_university_medical_school",
+    "name": "New York University Medical School",
+    "subtype": "university",
+    "summary": "Medical school where Berson enrolled and graduated near the top of his class."
+  },
+  {
+    "aliases": [
+      "VA Hospital in the Bronx",
+      "Radioisotope Unit"
+    ],
+    "entity_type": "organization",
+    "id": "veterans_administration_hospital_bronx",
+    "name": "Veterans Administration Hospital in the Bronx",
+    "subtype": "hospital",
+    "summary": "Hospital where Berson worked as an internist in the Radioisotope Unit."
+  },
+  {
+    "aliases": [
+      "JCI"
+    ],
+    "entity_type": "organization",
+    "id": "journal_of_clinical_investigation",
+    "name": "Journal of Clinical Investigation",
+    "subtype": "publication",
+    "summary": "Scientific journal that published Berson and Yalow's key papers."
+  },
+  {
+    "aliases": [
+      "RIA",
+      "Immunoassay"
+    ],
+    "entity_type": "artifact",
+    "id": "radioimmunoassay",
+    "name": "Radioimmunoassay",
+    "subtype": "method",
+    "summary": "Analytical method for quantifying minute quantities of molecules in blood using antibodies and radioisotopes."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "nobel_prize",
+    "name": "Nobel Prize",
+    "subtype": "award",
+    "summary": "Prestigious international award awarded to Yalow in 1977 for the development of immunoassay."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "american_diabetes_association",
+    "name": "American Diabetes Association",
+    "subtype": "organization",
+    "summary": "Organization that hosted the Banting Award Lecture given by Berson and Yalow."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "banting_award",
+    "name": "Banting Award",
+    "subtype": "award",
+    "summary": "Award lecture delivered by Berson and Yalow to the American Diabetes Association."
+  }
+]

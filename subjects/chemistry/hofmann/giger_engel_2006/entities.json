@@ -1,0 +1,217 @@
+[
+  {
+    "aliases": [
+      "A. Hofmann",
+      "Albert Hofmann",
+      "Dr. Hofmann",
+      "Hofman",
+      "Hofmann"
+    ],
+    "entity_type": "person",
+    "id": "albert_hofmann",
+    "name": "Dr. Albert Hofmann",
+    "subtype": "researcher",
+    "summary": "Swiss chemist known for discovering LSD and researching ergot alkaloids."
+  },
+  {
+    "aliases": [
+      "Arthur Stoll",
+      "A. Stoll",
+      "Prof. Stoll",
+      "Stoll"
+    ],
+    "entity_type": "person",
+    "id": "arthur_stoll",
+    "name": "Prof. Arthur Stoll",
+    "subtype": "researcher",
+    "summary": "Professor and director of chemical department at Sandoz."
+  },
+  {
+    "aliases": [
+      "R. Giger",
+      "Dr. R.K.A. Giger",
+      "Giger"
+    ],
+    "entity_type": "person",
+    "id": "rudolf_giger",
+    "name": "Rudolf K.A. Giger",
+    "subtype": "researcher",
+    "summary": "Researcher at Novartis Pharma and author of the tribute."
+  },
+  {
+    "aliases": [
+      "G. Engel",
+      "Engel"
+    ],
+    "entity_type": "person",
+    "id": "guenter_engel",
+    "name": "Günter Engel",
+    "subtype": "researcher",
+    "summary": "Researcher at Novartis Pharma and author of the tribute."
+  },
+  {
+    "aliases": [
+      "Troxler",
+      "F. Troxler"
+    ],
+    "entity_type": "person",
+    "id": "f_troxler",
+    "name": "F. Troxler",
+    "subtype": "researcher",
+    "summary": "Associate of Albert Hofmann."
+  },
+  {
+    "aliases": [
+      "P.A. Stadler",
+      "Stadler"
+    ],
+    "entity_type": "person",
+    "id": "p_stadler",
+    "name": "P. Stadler",
+    "subtype": "researcher",
+    "summary": "Associate of Hofmann's research group."
+  },
+  {
+    "aliases": [
+      "James Black",
+      "Britisch pharmacologist James Black"
+    ],
+    "entity_type": "person",
+    "id": "james_black",
+    "name": "James Black",
+    "subtype": "researcher",
+    "summary": "British pharmacologist who described propranolol."
+  },
+  {
+    "aliases": [
+      "Buchheit"
+    ],
+    "entity_type": "person",
+    "id": "k_h_buchheit",
+    "name": "K.-H. Buchheit",
+    "subtype": "researcher",
+    "summary": "Project lead for serotonin receptor agonists at Sandoz."
+  },
+  {
+    "aliases": [
+      "Mattes"
+    ],
+    "entity_type": "person",
+    "id": "h_mattes",
+    "name": "H. Mattes",
+    "subtype": "researcher",
+    "summary": "Researcher who co-delivered tegaserod."
+  },
+  {
+    "aliases": [
+      "Sandoz",
+      "Sandoz Pharma AG"
+    ],
+    "entity_type": "organization",
+    "id": "sandoz_pharma",
+    "name": "Sandoz Pharma",
+    "subtype": "company",
+    "summary": "Pharmaceutical company where Hofmann worked."
+  },
+  {
+    "aliases": [
+      "Novartis Pharma AG",
+      "Novartis Pharma"
+    ],
+    "entity_type": "organization",
+    "id": "novartis",
+    "name": "Novartis",
+    "subtype": "company",
+    "summary": "Successor company to Sandoz."
+  },
+  {
+    "aliases": [
+      "Lysergic acid diethylamide",
+      "LSD (6)"
+    ],
+    "entity_type": "artifact",
+    "id": "lsd",
+    "name": "LSD",
+    "subtype": "product",
+    "summary": "Hallucinogenic drug synthesized by Hofmann."
+  },
+  {
+    "aliases": [
+      "Ergotamine (1)",
+      "Gynergen"
+    ],
+    "entity_type": "artifact",
+    "id": "ergotamine",
+    "name": "Ergotamine",
+    "subtype": "product",
+    "summary": "First chemically pure ergot peptide alkaloid."
+  },
+  {
+    "aliases": [
+      "Ergoloid mesylate",
+      "Hydergine (12)"
+    ],
+    "entity_type": "artifact",
+    "id": "hydergine",
+    "name": "Hydergine",
+    "subtype": "product",
+    "summary": "Antihypertensive agent derived from ergotoxine."
+  },
+  {
+    "aliases": [
+      "Psilocybin (25)"
+    ],
+    "entity_type": "artifact",
+    "id": "psilocybin",
+    "name": "Psilocybin",
+    "subtype": "product",
+    "summary": "Psychoactive principle from Psilocybe Mexicana."
+  },
+  {
+    "aliases": [
+      "Tegaserod (30)",
+      "Zelmac",
+      "Zelnorm"
+    ],
+    "entity_type": "artifact",
+    "id": "tegaserod",
+    "name": "Tegaserod",
+    "subtype": "product",
+    "summary": "Drug for irritable bowel syndrome."
+  },
+  {
+    "aliases": [
+      "Tropisetron (29)",
+      "Navoban"
+    ],
+    "entity_type": "artifact",
+    "id": "tropisetron",
+    "name": "Tropisetron",
+    "subtype": "product",
+    "summary": "Serotonin receptor antagonist antiemetic drug."
+  },
+  {
+    "aliases": [
+      "Pindolol (28)",
+      "Visken"
+    ],
+    "entity_type": "artifact",
+    "id": "pindolol",
+    "name": "Pindolol",
+    "subtype": "product",
+    "summary": "Beta-blocker synthesized by Troxler."
+  },
+  {
+    "aliases": [
+      "CH-4002 Basel"
+    ],
+    "attributes": {
+      "country": "Switzerland"
+    },
+    "entity_type": "place",
+    "id": "basel",
+    "name": "Basel",
+    "subtype": "city",
+    "summary": "City in Switzerland where Novartis is located."
+  }
+]

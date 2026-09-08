@@ -1,0 +1,171 @@
+[
+  {
+    "id": "jabir_ibn_hayyan",
+    "entity_type": "person",
+    "name": "Jabir Ibn Hayyan",
+    "aliases": [
+      "Cabir b. Hayyan",
+      "Ebu Abdullah Jabir Ibn Hayyan Ibn Abdullah el-Kûfî",
+      "Ebu Musa Jabir b. Hayyan",
+      "Geber"
+    ],
+    "summary": "Famous chemist and all-rounder Islamic philosopher qualified as founder of Alchemy science.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "hayyan",
+    "entity_type": "person",
+    "name": "Hayyan",
+    "aliases": [],
+    "summary": "Father of Jabir Ibn Hayyan, herbalist from the Ezd tribe of Yemen.",
+    "subtype": "herbalist"
+  },
+  {
+    "id": "jafer_al_sadiq",
+    "entity_type": "person",
+    "name": "Jafer al-Sâdıq",
+    "aliases": [
+      "Jafar al-Sadiq"
+    ],
+    "summary": "Islamic scholar from whom Jabir Ibn Hayyan benefited in Kufa.",
+    "subtype": "scholar"
+  },
+  {
+    "id": "ibn_nedim",
+    "entity_type": "person",
+    "name": "Ibn Al-Nadim",
+    "aliases": [
+      "Ibn Nedim"
+    ],
+    "summary": "Scholar who listed Jabir Ibn Hayyan's works in Kitāb al-Fihrist.",
+    "subtype": "scholar"
+  },
+  {
+    "id": "ibn_khaldun",
+    "entity_type": "person",
+    "name": "Ibn Khaldun",
+    "aliases": [],
+    "summary": "Scholar who mentioned Jabir Ibn Hayyan's interest in Chemistry in Muqaddimah.",
+    "subtype": "scholar"
+  },
+  {
+    "id": "kufa",
+    "entity_type": "place",
+    "name": "Kufa",
+    "aliases": [],
+    "summary": "City where Jabir Ibn Hayyan spent a significant part of his life.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Iraq"
+    }
+  },
+  {
+    "id": "tus",
+    "entity_type": "place",
+    "name": "Tus",
+    "aliases": [],
+    "summary": "City accepted as the birthplace of Jabir Ibn Hayyan.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Iran"
+    }
+  },
+  {
+    "id": "khorasan_region",
+    "entity_type": "place",
+    "name": "Khorasan Region",
+    "aliases": [
+      "Khorasan"
+    ],
+    "summary": "Region where Jabir Ibn Hayyan's father was when Jabir was born.",
+    "subtype": "region"
+  },
+  {
+    "id": "yemen",
+    "entity_type": "place",
+    "name": "Yemen",
+    "aliases": [],
+    "summary": "Origin of Jabir Ibn Hayyan's father's tribe.",
+    "subtype": "country"
+  },
+  {
+    "id": "abbasids",
+    "entity_type": "organization",
+    "name": "Abbasids",
+    "aliases": [
+      "Abbasid Dynasty"
+    ],
+    "summary": "Dynasty supported by Jabir Ibn Hayyan's father.",
+    "subtype": "dynasty"
+  },
+  {
+    "id": "umayyad_dynasty",
+    "entity_type": "organization",
+    "name": "Umayyad Dynasty",
+    "aliases": [
+      "Umayyads"
+    ],
+    "summary": "Dynasty that collapsed in the VIII Century.",
+    "subtype": "dynasty"
+  },
+  {
+    "id": "ezd_tribe",
+    "entity_type": "organization",
+    "name": "Ezd tribe",
+    "aliases": [
+      "Ezd"
+    ],
+    "summary": "Tribe of Yemen to which Jabir Ibn Hayyan's father belonged.",
+    "subtype": "tribe"
+  },
+  {
+    "id": "book_of_definitions",
+    "entity_type": "artifact",
+    "name": "Book of Definitions",
+    "aliases": [
+      "Kitabu'l-Hudûd",
+      "Tanımlar Kitabı"
+    ],
+    "summary": "Book by Jabir Ibn Hayyan containing his classification of sciences.",
+    "subtype": "publication"
+  },
+  {
+    "id": "mevazin",
+    "entity_type": "artifact",
+    "name": "Mevazin",
+    "aliases": [
+      "Mevasin"
+    ],
+    "summary": "Collection of one hundred forty-four books by Jabir Ibn Hayyan.",
+    "subtype": "publication"
+  },
+  {
+    "id": "kitab_al_fihrist",
+    "entity_type": "artifact",
+    "name": "Kitāb al-Fihrist",
+    "aliases": [
+      "al-Fihrist"
+    ],
+    "summary": "Work by Ibn Al-Nadim containing lists of Jabir Ibn Hayyan's works.",
+    "subtype": "publication"
+  },
+  {
+    "id": "muqaddimah",
+    "entity_type": "artifact",
+    "name": "Muqaddimah",
+    "aliases": [],
+    "summary": "Work by Ibn Khaldun mentioning Jabir Ibn Hayyan.",
+    "subtype": "publication"
+  },
+  {
+    "id": "alchemy_science",
+    "entity_type": "artifact",
+    "name": "Alchemy science",
+    "aliases": [
+      "Alchemy",
+      "Psychical Chemistry"
+    ],
+    "summary": "Science founded by Jabir Ibn Hayyan involving minerals and chemical structures.",
+    "subtype": "invention"
+  }
+]

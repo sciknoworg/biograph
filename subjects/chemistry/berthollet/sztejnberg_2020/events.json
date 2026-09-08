@@ -1,0 +1,921 @@
+[
+  {
+    "id": "birth",
+    "event_type": "birth",
+    "label": "Born in Talloire",
+    "date": {
+      "display": "December, 9, 1748",
+      "precision": "day",
+      "sort_start": "1748-12-09",
+      "sort_end": "1748-12-09"
+    },
+    "location": "talloire",
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 1,
+        "quote": "Claude-Louis Berthollet (1748-1822) (Fig. 1) was born in Talloire (Upper Savoy) on December, 9, 1748"
+      }
+    ]
+  },
+  {
+    "id": "graduated_turin",
+    "event_type": "education",
+    "label": "Graduated from Turin University",
+    "date": {
+      "display": "1770",
+      "precision": "year",
+      "sort_start": "1770-01-01",
+      "sort_end": "1770-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_turin",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 1,
+        "quote": "He graduated from the Turin University in 1770."
+      }
+    ]
+  },
+  {
+    "id": "moved_to_paris",
+    "event_type": "relocation",
+    "label": "Moved to Paris",
+    "date": {
+      "display": "1772",
+      "precision": "year",
+      "sort_start": "1772-01-01",
+      "sort_end": "1772-12-31"
+    },
+    "location": "paris",
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 1,
+        "quote": "After two years he continued his education in Paris"
+      }
+    ]
+  },
+  {
+    "id": "doctorate_defended",
+    "event_type": "education",
+    "label": "Defended doctorate thesis",
+    "date": {
+      "display": "1779",
+      "precision": "year",
+      "sort_start": "1779-01-01",
+      "sort_end": "1779-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 2,
+        "quote": "In 1779, he successfully defended his doctorate thesis De lacté animalium médicamentose."
+      }
+    ]
+  },
+  {
+    "id": "married",
+    "event_type": "other",
+    "label": "Married Marguerite-Marie Baur",
+    "date": {
+      "display": "1779",
+      "precision": "year",
+      "sort_start": "1779-01-01",
+      "sort_end": "1779-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "marguerite_marie_baur",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 2,
+        "quote": "In the same year he married Marguerite-Marie Baur."
+      }
+    ]
+  },
+  {
+    "id": "son_born",
+    "event_type": "other",
+    "label": "Son Amédée-Barthélemy born",
+    "date": {
+      "display": "1780",
+      "precision": "year",
+      "sort_start": "1780-01-01",
+      "sort_end": "1780-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "amedee_barthelemy_berthollet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "family_of"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 2,
+        "quote": "Their only son, Amédée-Barthélemy, was born in 1780."
+      }
+    ]
+  },
+  {
+    "id": "elected_academie_paris",
+    "event_type": "award",
+    "label": "Elected member of Académie Royale Des Sciences",
+    "date": {
+      "display": "April 21, 1780",
+      "precision": "day",
+      "sort_start": "1780-04-21",
+      "sort_end": "1780-04-21"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lacademie_royale_des_sciences",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 6,
+        "quote": "He was elected a member of L'Académie Royale Des Sciences (The Royal Academy of Sciences) in Paris on April 21, 1780."
+      }
+    ]
+  },
+  {
+    "id": "gobelins_administrator",
+    "event_type": "employment_start",
+    "label": "Appointed administrator at Gobelins Manufactory",
+    "date": {
+      "display": "1784",
+      "precision": "year",
+      "sort_start": "1784-01-01",
+      "sort_end": "1784-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "gobelins_manufactory",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 2,
+        "quote": "Since 1784, he, as a well-known chemist, was administrator at the Gobelins Manufactory in Paris."
+      }
+    ]
+  },
+  {
+    "id": "mint_commissioner",
+    "event_type": "employment_start",
+    "label": "Appointed Mint Commissioner",
+    "date": {
+      "display": "1792",
+      "precision": "year",
+      "sort_start": "1792-01-01",
+      "sort_end": "1792-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "the_mint",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 2,
+        "quote": "In 1792, he was appointed as one of the Mint's Commissioners"
+      }
+    ]
+  },
+  {
+    "id": "professor_normal_school",
+    "event_type": "employment_start",
+    "label": "Chosen Professor of Chemistry at Normal School",
+    "date": {
+      "display": "November 9, 1794",
+      "precision": "day",
+      "sort_start": "1794-11-09",
+      "sort_end": "1794-11-09"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "normal_school",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 2,
+        "quote": "On November 9, 1794, Berthollet was chosen as Professor of Chemistry at the Normal School in Paris."
+      }
+    ]
+  },
+  {
+    "id": "egyptian_campaign_start",
+    "event_type": "visit",
+    "label": "Joined Egyptian campaign",
+    "date": {
+      "display": "July 1, 1798",
+      "precision": "day",
+      "sort_start": "1798-07-01",
+      "sort_end": "1798-07-01"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "napoleon_bonaparte",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 2,
+        "quote": "Egyptian campaign, which began with the landing at night at Marabout on July 1, 1798"
+      }
+    ]
+  },
+  {
+    "id": "institut_degypte_formed",
+    "event_type": "company_founded",
+    "label": "L'Institut d'Égypte formed",
+    "date": {
+      "display": "20th August, 1798",
+      "precision": "day",
+      "sort_start": "1798-08-20",
+      "sort_end": "1798-08-20"
+    },
+    "participants": [
+      {
+        "entity_id": "linstitut_degypte",
+        "role": "subject"
+      },
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "member_of"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 3,
+        "quote": "Napoleon, the commander in chief, formed L'Institut d'Égypte (The Institute of Egypt) on the 3d Fruĉtidor, 6th year (20th August, 1798) in Cairo."
+      }
+    ]
+  },
+  {
+    "id": "natron_lakes_expedition",
+    "event_type": "visit",
+    "label": "Explored Valley of the Natron Lakes",
+    "date": {
+      "display": "January 23, 1799",
+      "precision": "day",
+      "sort_start": "1799-01-23",
+      "sort_end": "1799-01-23"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 3,
+        "quote": "On January 23, 1799, he and the mathematician Joseph Fourier (1769-1830) were the main civilian members who took part in the five-day expedition... to explore the Valley of the Natron Lakes."
+      }
+    ]
+  },
+  {
+    "id": "egyptian_campaign_end",
+    "event_type": "visit",
+    "label": "Egyptian campaign ended",
+    "date": {
+      "display": "August 21, 1799",
+      "precision": "day",
+      "sort_start": "1799-08-21",
+      "sort_end": "1799-08-21"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "napoleon_bonaparte",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 3,
+        "quote": "Bonaparte's Egyptian campaign ended when Napoleon abandonment of his command leaving behind his troops on August 21, 1799."
+      }
+    ]
+  },
+  {
+    "id": "senator_appointed",
+    "event_type": "employment_start",
+    "label": "Became senator in French Senate",
+    "date": {
+      "display": "December 1799",
+      "precision": "month",
+      "sort_start": "1799-12-01",
+      "sort_end": "1799-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "french_senate",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 3,
+        "quote": "After the Egyptian campaign on December 1799, he became a senator in the French Senate"
+      }
+    ]
+  },
+  {
+    "id": "legion_of_honour",
+    "event_type": "award",
+    "label": "Made Grand Officer of the Legion of Honour",
+    "date": {
+      "display": "14th June 1804",
+      "precision": "day",
+      "sort_start": "1804-06-14",
+      "sort_end": "1804-06-14"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "legion_of_honour",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 3,
+        "quote": "On 14th June 1804, Napoleon made him Grand Officer of the Legion of Honour and Count."
+      }
+    ]
+  },
+  {
+    "id": "senatorie_montpellier",
+    "event_type": "role_change",
+    "label": "Became holder of Senatorie of Montpellier",
+    "date": {
+      "display": "May 14, 1806",
+      "precision": "day",
+      "sort_start": "1806-05-14",
+      "sort_end": "1806-05-14"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 3,
+        "quote": "On May 14, 1806 he became titulaire de la sénatorerie de Montpellier"
+      }
+    ]
+  },
+  {
+    "id": "order_of_reunion",
+    "event_type": "award",
+    "label": "Received Great-Croix of the Order of the Reunion",
+    "date": {
+      "display": "April 3, 1813",
+      "precision": "day",
+      "sort_start": "1813-04-03",
+      "sort_end": "1813-04-03"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "order_of_the_reunion",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 3,
+        "quote": "Berthollet received a Great-Croix of the Order of the Reunion on April 3, 1813"
+      }
+    ]
+  },
+  {
+    "id": "peer_of_france",
+    "event_type": "award",
+    "label": "Created peer of France",
+    "date": {
+      "display": "June 4, 1814",
+      "precision": "day",
+      "sort_start": "1814-06-04",
+      "sort_end": "1814-06-04"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "peer_of_france",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 3,
+        "quote": "Louis XVIII created him a peer of France on June 4, 1814."
+      }
+    ]
+  },
+  {
+    "id": "academy_savoie_member",
+    "event_type": "award",
+    "label": "Elected member of Académie des Sciences de Savoie",
+    "date": {
+      "display": "April 23, 1820",
+      "precision": "day",
+      "sort_start": "1820-04-23",
+      "sort_end": "1820-04-23"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "academie_des_sciences_belles_lettres_et_arts_de_savoie",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 3,
+        "quote": "On April 23, 1820, the Académie des Sciences, Belles-Lettres et Arts de Savoie... elected Berthollet its member"
+      }
+    ]
+  },
+  {
+    "id": "son_suicide",
+    "event_type": "death",
+    "label": "Son Amédée committed suicide",
+    "date": {
+      "display": "1811",
+      "precision": "year",
+      "sort_start": "1811-01-01",
+      "sort_end": "1811-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "amedee_barthelemy_berthollet",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 3,
+        "quote": "Hugh Colquhoun in his article On the Life and Writings of Claude-Louis Berthollet briefly described his suicide in 1811."
+      }
+    ]
+  },
+  {
+    "id": "death",
+    "event_type": "death",
+    "label": "Died in Arcueil",
+    "date": {
+      "display": "6th of November, 1822",
+      "precision": "day",
+      "sort_start": "1822-11-06",
+      "sort_end": "1822-11-06"
+    },
+    "location": "arcueil",
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 4,
+        "quote": "Berthollet died on the 6th of November, 1822, at the advanced age of 74 years."
+      }
+    ]
+  },
+  {
+    "id": "monument_erected",
+    "event_type": "other",
+    "label": "Monument erected in Annecy",
+    "date": {
+      "display": "August 25, 1844",
+      "precision": "day",
+      "sort_start": "1844-08-25",
+      "sort_end": "1844-08-25"
+    },
+    "participants": [
+      {
+        "entity_id": "monument_to_berthollet_annecy",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 7,
+        "quote": "On August 25, 1844, a monument was erected by subscription in honor of Berthollet in Annecy"
+      }
+    ]
+  },
+  {
+    "id": "asteroid_discovered",
+    "event_type": "other",
+    "label": "Asteroid 12750 Berthollet discovered",
+    "date": {
+      "display": "February 18, 1993",
+      "precision": "day",
+      "sort_start": "1993-02-18",
+      "sort_end": "1993-02-18"
+    },
+    "participants": [
+      {
+        "entity_id": "asteroid_12750_berthollet",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 7,
+        "quote": "One of the asteroids (12750 Berthollet) discovered by the Belgian astronomer Eric Walter Elst (b. 1936) on February 18, 1993, was named in his honour."
+      }
+    ]
+  },
+  {
+    "id": "published_essai",
+    "event_type": "publication",
+    "label": "Published Essai De Statique Chimique",
+    "date": {
+      "display": "1803",
+      "precision": "year",
+      "sort_start": "1803-01-01",
+      "sort_end": "1803-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "essai_de_statique_chimique",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 4,
+        "quote": "He was the author of a two-volume book entitled Essai De Statique Chimique (1803) published in Paris."
+      }
+    ]
+  },
+  {
+    "id": "published_nomenclature",
+    "event_type": "publication",
+    "label": "Published Méthode De Nomenclature Chimique",
+    "date": {
+      "display": "1787",
+      "precision": "year",
+      "sort_start": "1787-01-01",
+      "sort_end": "1787-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "methode_de_nomenclature_chimique",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 4,
+        "quote": "In 1787, Berthollet jointly wrote Méthode De Nomenclature Chimique"
+      }
+    ]
+  },
+  {
+    "id": "discovered_ammonia_composition",
+    "event_type": "invention",
+    "label": "Determined composition of ammonia",
+    "date": {
+      "display": "May 1785",
+      "precision": "month",
+      "sort_start": "1785-05-01",
+      "sort_end": "1785-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ammonia",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 5,
+        "quote": "Berthollet's paper in this topic appeared in the Journal De Physique... on May 1785."
+      }
+    ]
+  },
+  {
+    "id": "prepared_potassium_chlorate",
+    "event_type": "invention",
+    "label": "Prepared potassium chlorate",
+    "date": {
+      "display": "1787",
+      "precision": "year",
+      "sort_start": "1787-01-01",
+      "sort_end": "1787-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "potassium_chlorate",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 5,
+        "quote": "A year earlier, he the first prepared in a pure state potassium chlorate"
+      }
+    ]
+  },
+  {
+    "id": "determined_prussic_acid",
+    "event_type": "invention",
+    "label": "Determined composition of prussic acid",
+    "date": {
+      "display": "1787",
+      "precision": "year",
+      "sort_start": "1787-01-01",
+      "sort_end": "1787-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "prussic_acid",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 5,
+        "quote": "Berthollet also determined the composition of prussic acid (hydrogen cyanide) in 1787"
+      }
+    ]
+  },
+  {
+    "id": "determined_sulphuretted_hydrogen",
+    "event_type": "invention",
+    "label": "Determined composition of sulphuretted hydrogen",
+    "date": {
+      "display": "1789",
+      "precision": "year",
+      "sort_start": "1789-01-01",
+      "sort_end": "1789-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "sulphuretted_hydrogen",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 5,
+        "quote": "and sulphuretted hydrogen (hydrogen sulfide) in 1789."
+      }
+    ]
+  },
+  {
+    "id": "elected_royal_society",
+    "event_type": "award",
+    "label": "Became Fellow of The Royal Society of London",
+    "date": {
+      "display": "April 30, 1789",
+      "precision": "day",
+      "sort_start": "1789-04-30",
+      "sort_end": "1789-04-30"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "the_royal_society_of_london",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 6,
+        "quote": "On April 30, 1789, he became a Fellow of The Royal Society of London."
+      }
+    ]
+  },
+  {
+    "id": "elected_haarlem",
+    "event_type": "award",
+    "label": "Elected foreign member of Dutch Society of Science",
+    "date": {
+      "display": "1786",
+      "precision": "year",
+      "sort_start": "1786-01-01",
+      "sort_end": "1786-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "la_societe_hollandaise_des_sciences_a_haarlem",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 6,
+        "quote": "La Société Hollandaise Des Sciences à Haarlem (The Dutch Society of Science in Haarlem) elected him a foreign member in 1786."
+      }
+    ]
+  },
+  {
+    "id": "elected_turin",
+    "event_type": "award",
+    "label": "Elected national member of Academy of Sciences of Turin",
+    "date": {
+      "display": "December 17, 1787",
+      "precision": "day",
+      "sort_start": "1787-12-17",
+      "sort_end": "1787-12-17"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lacademie_royale_des_sciences_de_turin",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 6,
+        "quote": "On December 17, 1787, he was elected a national member of L'Académie Royale Des Sciences De Turin"
+      }
+    ]
+  },
+  {
+    "id": "elected_manchester",
+    "event_type": "award",
+    "label": "Elected honorary member of Manchester Society",
+    "date": {
+      "display": "April 30, 1790",
+      "precision": "day",
+      "sort_start": "1790-04-30",
+      "sort_end": "1790-04-30"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_louis_berthollet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "the_literary_and_philosophical_society_of_manchester",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sztejnberg_2020",
+        "page": 6,
+        "quote": "On April 30, 1790, he was elected an honorary member of The Literary and Philosophical Society of Manchester."
+      }
+    ]
+  }
+]

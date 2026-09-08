@@ -1,0 +1,176 @@
+[
+  {
+    "id": "rutherford_worked_manchester",
+    "source": "ernest_rutherford",
+    "type": "worked_at",
+    "target": "manchester_university",
+    "sources": [
+      {
+        "source_id": "bohr_1958_rutherford_memorial_lecture",
+        "page": 3,
+        "quote": "Rutherford came down from Manchester to speak at the annual Cavendish Dinner."
+      }
+    ]
+  },
+  {
+    "id": "rutherford_worked_cavendish",
+    "source": "ernest_rutherford",
+    "type": "worked_at",
+    "target": "cavendish_laboratory",
+    "sources": [
+      {
+        "source_id": "bohr_1958_rutherford_memorial_lecture",
+        "page": 17,
+        "quote": "response to the offer of the Cavendish professorship in Cambridge"
+      }
+    ]
+  },
+  {
+    "id": "bohr_worked_manchester",
+    "source": "niels_bohr",
+    "type": "worked_at",
+    "target": "manchester_university",
+    "event_id": "bohr_joins_manchester",
+    "sources": [
+      {
+        "source_id": "bohr_1958_rutherford_memorial_lecture",
+        "page": 3,
+        "quote": "he kindly assented to my wish to join the group working in his laboratory"
+      }
+    ]
+  },
+  {
+    "id": "bohr_worked_copenhagen",
+    "source": "niels_bohr",
+    "type": "worked_at",
+    "target": "university_of_copenhagen",
+    "sources": [
+      {
+        "source_id": "bohr_1958_rutherford_memorial_lecture",
+        "page": 16,
+        "quote": "I had been appointed to the newly created professorship of theoretical physics in the University of Copenhagen."
+      }
+    ]
+  },
+  {
+    "id": "rutherford_invented_nucleus",
+    "source": "ernest_rutherford",
+    "type": "invented",
+    "target": "atomic_nucleus",
+    "event_id": "rutherford_nucleus_discovery",
+    "sources": [
+      {
+        "source_id": "bohr_1958_rutherford_memorial_lecture",
+        "page": 2,
+        "quote": "epoch-making discovery of the atomic nucleus"
+      }
+    ]
+  },
+  {
+    "id": "rutherford_published_book",
+    "source": "ernest_rutherford",
+    "type": "published",
+    "target": "radioactive_substances_book",
+    "event_id": "rutherford_book_preparation",
+    "sources": [
+      {
+        "source_id": "bohr_1958_rutherford_memorial_lecture",
+        "page": 6,
+        "quote": "preparation of his great book, Radioactive Substances and Their Radiations"
+      }
+    ]
+  },
+  {
+    "id": "rutherford_published_phil_mag",
+    "source": "ernest_rutherford",
+    "type": "published",
+    "target": "philosophical_magazine",
+    "event_id": "rutherford_phil_mag_papers",
+    "sources": [
+      {
+        "source_id": "bohr_1958_rutherford_memorial_lecture",
+        "page": 17,
+        "quote": "Rutherford's famous papers in the Philosophical Magazine, 1919"
+      }
+    ]
+  },
+  {
+    "id": "rutherford_mentored_bohr",
+    "source": "ernest_rutherford",
+    "type": "mentored",
+    "target": "niels_bohr",
+    "sources": [
+      {
+        "source_id": "bohr_1958_rutherford_memorial_lecture",
+        "page": 2,
+        "quote": "As one who in early youth had the good fortune to join the group of physicists working under Rutherford's inspiration"
+      }
+    ]
+  },
+  {
+    "id": "rutherford_mentored_chadwick",
+    "source": "ernest_rutherford",
+    "type": "mentored",
+    "target": "james_chadwick",
+    "sources": [
+      {
+        "source_id": "bohr_1958_rutherford_memorial_lecture",
+        "page": 18,
+        "quote": "James Chadwick from the old Manchester group, who returned from a long detention in Germany"
+      }
+    ]
+  },
+  {
+    "id": "rutherford_mentored_moseley",
+    "source": "ernest_rutherford",
+    "type": "mentored",
+    "target": "henry_moseley",
+    "sources": [
+      {
+        "source_id": "bohr_1958_rutherford_memorial_lecture",
+        "page": 12,
+        "quote": "Moseley's plans to settle this problem by systematic measurements of the high-frequency spectra Of the elements"
+      }
+    ]
+  },
+  {
+    "id": "rutherford_collaborated_cockcroft",
+    "source": "ernest_rutherford",
+    "type": "collaborated_with",
+    "target": "john_cockcroft",
+    "sources": [
+      {
+        "source_id": "bohr_1958_rutherford_memorial_lecture",
+        "page": 18,
+        "quote": "John Cockcroft, who with his singular combination of scientific and technological insight was to become such a prominent collaborator of Rutherford."
+      }
+    ]
+  },
+  {
+    "id": "rutherford_married_mary",
+    "source": "ernest_rutherford",
+    "type": "married_to",
+    "target": "mary_rutherford",
+    "sources": [
+      {
+        "source_id": "bohr_1958_rutherford_memorial_lecture",
+        "page": 33,
+        "quote": "Mary Rutherford again. We talked about Ernest's great life in which from their early youth she had been so faithful a companion"
+      }
+    ]
+  },
+  {
+    "id": "rutherford_succeeded_thomson",
+    "source": "ernest_rutherford",
+    "type": "employed_by",
+    "target": "cambridge_university",
+    "event_id": "rutherford_cavendish_appointment",
+    "sources": [
+      {
+        "source_id": "bohr_1958_rutherford_memorial_lecture",
+        "page": 17,
+        "quote": "succeed the unique series of Cavendish professors."
+      }
+    ]
+  }
+]

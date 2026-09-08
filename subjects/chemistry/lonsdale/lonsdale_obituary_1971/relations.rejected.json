@@ -1,0 +1,17 @@
+[
+  {
+    "id": "lonsdaleite_named_kathleen",
+    "source": "lonsdaleite",
+    "type": "renamed_to",
+    "target": "kathleen_lonsdale",
+    "note": "Mineral named after subject",
+    "sources": [
+      {
+        "source_id": "lonsdale_obituary_1971",
+        "page": 3,
+        "quote": "her contributions to this field were recognized when the wurtzite form of carbon was named lonsdaleite after it had been discovered as a naturally occurring mineral in meteorites."
+      }
+    ],
+    "_rejected_because": "'renamed_to' expects source entity_type organization, but 'lonsdaleite' is 'artifact'"
+  }
+]

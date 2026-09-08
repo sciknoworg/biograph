@@ -1,0 +1,143 @@
+[
+  {
+    "id": "heyrovsky_nobel_award",
+    "event_type": "award",
+    "label": "Received Nobel Prize",
+    "description": "Received Nobel Prize for his discovery of polarographic method of analysis.",
+    "date": {
+      "display": "December 10th, 1959",
+      "precision": "day",
+      "sort_start": "1959-12-10",
+      "sort_end": "1959-12-10"
+    },
+    "participants": [
+      {
+        "entity_id": "jaroslav_heyrovsky",
+        "role": "subject"
+      },
+      {
+        "entity_id": "gustav_adolph_vi",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "nobel_prize_1959",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "barek_2009_polarography_lounge",
+        "page": 1,
+        "quote": "On December 10th, 1959 Professor Jaroslav Heyrovský received from the hands of King of Sweden Gustav Adolph VI Nobel Prize"
+      }
+    ]
+  },
+  {
+    "id": "heyrovsky_notebook_idea",
+    "event_type": "invention",
+    "label": "Formulated polarography idea",
+    "description": "Wrote the sentence 'all must be done with the galvanometer' in laboratory notebook.",
+    "date": {
+      "display": "January 9, 1922",
+      "precision": "day",
+      "sort_start": "1922-01-09",
+      "sort_end": "1922-01-09"
+    },
+    "participants": [
+      {
+        "entity_id": "jaroslav_heyrovsky",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "barek_2009_polarography_lounge",
+        "page": 2,
+        "quote": "On that day professor Heyrovský wrote the sentence \"all must be done with the galvanometer\" clearly formulating his pioneering idea to measure the current flowing through the dropping mercury electrode."
+      }
+    ]
+  },
+  {
+    "id": "heyrovsky_first_polarogram",
+    "event_type": "invention",
+    "label": "Recorded first polarogram",
+    "description": "Measured first dependence of current on applied potential and drew graph in notebook.",
+    "date": {
+      "display": "January 10, 1922",
+      "precision": "day",
+      "sort_start": "1922-01-10",
+      "sort_end": "1922-01-10"
+    },
+    "participants": [
+      {
+        "entity_id": "jaroslav_heyrovsky",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "barek_2009_polarography_lounge",
+        "page": 2,
+        "quote": "The next day he measured the first dependence of the current fl owing through the dropping mercury electrode on the applied potential and drew a corresponding graph in his laboratory notebook which can be considered as the first polarogram"
+      }
+    ]
+  },
+  {
+    "id": "heyrovsky_shikata_polarograph",
+    "event_type": "invention",
+    "label": "Constructed first polarograph",
+    "description": "Constructed a new instrument with M. Shikata that recorded curves photographically.",
+    "date": {
+      "display": "1923",
+      "precision": "year",
+      "sort_start": "1923-01-01",
+      "sort_end": "1923-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jaroslav_heyrovsky",
+        "role": "subject"
+      },
+      {
+        "entity_id": "m_shikata",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "polarograph",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "barek_2009_polarography_lounge",
+        "page": 2,
+        "quote": "together with M. Shikata (see Fig. 5) constructed a new instrument, which was later called polarograph"
+      }
+    ]
+  },
+  {
+    "id": "heyrovsky_research_center",
+    "event_type": "other",
+    "label": "Established polarographic research center",
+    "description": "Created a center of polarographic research and a scientific school in Prague.",
+    "date": {
+      "display": "early 1920s",
+      "precision": "circa",
+      "sort_start": "1920-01-01",
+      "sort_end": "1924-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jaroslav_heyrovsky",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "barek_2009_polarography_lounge",
+        "page": 4,
+        "quote": "He created in Prague a center of polarographic research and created a scientific school"
+      }
+    ]
+  }
+]

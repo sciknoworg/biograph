@@ -1,0 +1,123 @@
+[
+  {
+    "id": "hofmann_born",
+    "source": "albert_hofmann",
+    "type": "born_in",
+    "target": "basel",
+    "event_id": "hofmann_birth",
+    "sources": [
+      {
+        "source_id": "giger_engel_2006",
+        "page": 1,
+        "quote": "Dr. Albert Hofmann (Fig. 1), born on January 11, 1906, started his extremely successful career in 1929 at Sandoz Pharma in the chemical department directed by Prof. Arthur Stoll."
+      }
+    ]
+  },
+  {
+    "id": "hofmann_worked_sandoz",
+    "source": "albert_hofmann",
+    "type": "worked_at",
+    "target": "sandoz_pharma",
+    "event_id": "hofmann_career_start",
+    "sources": [
+      {
+        "source_id": "giger_engel_2006",
+        "page": 1,
+        "quote": "Dr. Albert Hofmann (Fig. 1), born on January 11, 1906, started his extremely successful career in 1929 at Sandoz Pharma in the chemical department directed by Prof. Arthur Stoll."
+      }
+    ]
+  },
+  {
+    "id": "hofmann_supervised_stoll",
+    "source": "albert_hofmann",
+    "type": "supervised_by",
+    "target": "arthur_stoll",
+    "sources": [
+      {
+        "source_id": "giger_engel_2006",
+        "page": 1,
+        "quote": "Dr. Albert Hofmann (Fig. 1), born on January 11, 1906, started his extremely successful career in 1929 at Sandoz Pharma in the chemical department directed by Prof. Arthur Stoll."
+      }
+    ]
+  },
+  {
+    "id": "hofmann_collaborated_troxler",
+    "source": "albert_hofmann",
+    "type": "collaborated_with",
+    "target": "f_troxler",
+    "sources": [
+      {
+        "source_id": "giger_engel_2006",
+        "page": 2,
+        "quote": "It is interesting to note that the structure of lysergic acid (3) was elucidated by Jacobs and his associates [6], its stereochemistry by Stoll, Hofmann and Troxler in 1949, and until the 1950s, i.e. before Stoll, Hofmann and their associates were able to elucidate the structure of the peptide portion of ergotamine [6], the chemical formula of ergot alkaloid merely indicated the degradation products of the peptide portion."
+      }
+    ]
+  },
+  {
+    "id": "hofmann_invented_lsd",
+    "source": "albert_hofmann",
+    "type": "invented",
+    "target": "lsd",
+    "sources": [
+      {
+        "source_id": "giger_engel_2006",
+        "page": 2,
+        "quote": "The success of this preparative method opened the way to the synthesis of novel compounds related to the ergot alkaloids such as methylergometrine (5) and LSD (lysergic acid diethylamide) (6) (Fig. 5)."
+      }
+    ]
+  },
+  {
+    "id": "hofmann_invented_hydergine",
+    "source": "albert_hofmann",
+    "type": "invented",
+    "target": "hydergine",
+    "event_id": "hofmann_hydergine_development",
+    "sources": [
+      {
+        "source_id": "giger_engel_2006",
+        "page": 2,
+        "quote": "In 1943 an important step in ergot research was the catalytic hydrogenation of ergotoxine (7) from natural sources by Hofmann, which was found to be a mixture of the four genuine peptide alkaloids ergocristine (8) (one third), ergocornine (9) (one third), α- and β-ergocryptine (10 and 11) (one third of a 2:1 mixture), and yielded a new medicine with the generic name ergoloid mesylate and the trade name Hydergine® (12) (Fig. 6) which is still widely used today [4][5]."
+      }
+    ]
+  },
+  {
+    "id": "hofmann_elucidated_psilocybin",
+    "source": "albert_hofmann",
+    "type": "developed",
+    "target": "psilocybin",
+    "event_id": "hofmann_psilocybin_structure",
+    "sources": [
+      {
+        "source_id": "giger_engel_2006",
+        "page": 4,
+        "quote": "In the 1958 Hofman elucidated the chemical structure of psilocybin (25), a psychoactive principle isolated from the mushroom Psilocybe Mexicana which has the indole moiety in common with LSD (6) (Fig. 17)."
+      }
+    ]
+  },
+  {
+    "id": "sandoz_predecessor_novartis",
+    "source": "sandoz_pharma",
+    "type": "renamed_to",
+    "target": "novartis",
+    "sources": [
+      {
+        "source_id": "giger_engel_2006",
+        "page": 1,
+        "quote": "Albert Hofmann's Pioneering Work on Ergot Alkaloids and Its Impact on the Search of Novel Drugs at Sandoz, a Predecessor Company of Novartis"
+      }
+    ]
+  },
+  {
+    "id": "giger_worked_novartis",
+    "source": "rudolf_giger",
+    "type": "employed_by",
+    "target": "novartis",
+    "sources": [
+      {
+        "source_id": "giger_engel_2006",
+        "page": 1,
+        "quote": "*Correspondence: Dr. R.K.A. Giger Novartis Pharma AG NIBR Global Discovery Chemistry Lead Synthesis & Chemogenetics WSJ-507.5.51 CH-4002 Basel"
+      }
+    ]
+  }
+]

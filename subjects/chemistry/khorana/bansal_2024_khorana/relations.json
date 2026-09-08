@@ -1,0 +1,248 @@
+[
+  {
+    "id": "khorana_born_raipur",
+    "source": "har_gobind_khorana",
+    "type": "born_in",
+    "target": "raipur",
+    "event_id": "birth",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 1,
+        "quote": "Born on January 9, 1922, under British colonial rule"
+      }
+    ]
+  },
+  {
+    "id": "khorana_studied_punjab",
+    "source": "har_gobind_khorana",
+    "type": "studied_at",
+    "target": "punjab_university_lahore",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 1,
+        "quote": "completed both his bachelor's and master's degrees at Punjab University in Lahore"
+      }
+    ]
+  },
+  {
+    "id": "khorana_studied_liverpool",
+    "source": "har_gobind_khorana",
+    "type": "studied_at",
+    "target": "university_of_liverpool",
+    "event_id": "phd_start_liverpool",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 1,
+        "quote": "In 1945, under a Government of India Fellowship, he moved to England to pursue a Ph.D. in organic chemistry at the University of Liverpool."
+      }
+    ]
+  },
+  {
+    "id": "khorana_supervised_beer",
+    "source": "har_gobind_khorana",
+    "type": "supervised_by",
+    "target": "roger_j_s_beer",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 1,
+        "quote": "pursue studies in organic chemistry under the guidance of Roger J.S. Beer"
+      }
+    ]
+  },
+  {
+    "id": "khorana_worked_eth",
+    "source": "har_gobind_khorana",
+    "type": "worked_at",
+    "target": "eth_zurich",
+    "event_id": "postdoc_eth",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 1,
+        "quote": "He did his post-doctoral research in Swiss Federal Institute of Technology (ETH) in Zurich."
+      }
+    ]
+  },
+  {
+    "id": "khorana_collaborated_prelog",
+    "source": "har_gobind_khorana",
+    "type": "collaborated_with",
+    "target": "vladimir_prelog",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 1,
+        "quote": "He worked on alkaloid chemistry there with Vladimir Prelog."
+      }
+    ]
+  },
+  {
+    "id": "khorana_worked_cambridge",
+    "source": "har_gobind_khorana",
+    "type": "worked_at",
+    "target": "university_of_cambridge",
+    "event_id": "postdoc_cambridge",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 1,
+        "quote": "In 1949, he moved to the UK to work with Alexander Todd at the University of Cambridge"
+      }
+    ]
+  },
+  {
+    "id": "khorana_collaborated_todd",
+    "source": "har_gobind_khorana",
+    "type": "collaborated_with",
+    "target": "alexander_todd",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 1,
+        "quote": "work with Alexander Todd"
+      }
+    ]
+  },
+  {
+    "id": "khorana_worked_ubc",
+    "source": "har_gobind_khorana",
+    "type": "worked_at",
+    "target": "university_of_british_columbia",
+    "event_id": "relocation_canada",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 1,
+        "quote": "join the research team of Dr. Gordon M. Shrum at the University of British Columbia"
+      }
+    ]
+  },
+  {
+    "id": "khorana_collaborated_shrum",
+    "source": "har_gobind_khorana",
+    "type": "collaborated_with",
+    "target": "gordon_m_shrum",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 1,
+        "quote": "research team of Dr. Gordon M. Shrum"
+      }
+    ]
+  },
+  {
+    "id": "khorana_worked_wisconsin",
+    "source": "har_gobind_khorana",
+    "type": "worked_at",
+    "target": "university_of_wisconsin_madison",
+    "event_id": "relocation_wisconsin",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 2,
+        "quote": "In 1960, he joined the University of Wisconsin-Madison"
+      }
+    ]
+  },
+  {
+    "id": "khorana_awarded_nobel",
+    "source": "har_gobind_khorana",
+    "type": "awarded",
+    "target": "nobel_prize_physiology_medicine_1968",
+    "event_id": "nobel_prize_award",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 2,
+        "quote": "he was awarded the Nobel Prize in 1968"
+      }
+    ]
+  },
+  {
+    "id": "khorana_worked_mit",
+    "source": "har_gobind_khorana",
+    "type": "worked_at",
+    "target": "massachusetts_institute_of_technology",
+    "event_id": "relocation_mit",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 2,
+        "quote": "In 1970, he transitioned to the Massachusetts Institute of Technology in Cambridge"
+      }
+    ]
+  },
+  {
+    "id": "khorana_invented_artificial_gene",
+    "source": "har_gobind_khorana",
+    "type": "invented",
+    "target": "artificial_gene",
+    "event_id": "artificial_gene_synthesis",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 2,
+        "quote": "he synthesized the first fully functional artificial gene"
+      }
+    ]
+  },
+  {
+    "id": "khorana_developed_coenzyme_a",
+    "source": "har_gobind_khorana",
+    "type": "developed",
+    "target": "coenzyme_a",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 2,
+        "quote": "synthesize both deoxyribonucleotide and ribonucleotide triphosphates, as well as coenzyme A"
+      }
+    ]
+  },
+  {
+    "id": "khorana_awarded_padma",
+    "source": "har_gobind_khorana",
+    "type": "awarded",
+    "target": "padma_vibhushan",
+    "event_id": "award_padma_vibhushan",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 2,
+        "quote": "He was also awarded the Padma Vibhushan in 1969"
+      }
+    ]
+  },
+  {
+    "id": "khorana_awarded_lasker",
+    "source": "har_gobind_khorana",
+    "type": "awarded",
+    "target": "albert_lasker_basic_medical_research_award",
+    "event_id": "award_lasker",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 2,
+        "quote": "Khorana also received the Albert Lasker Basic Medical Research Award in 1968"
+      }
+    ]
+  },
+  {
+    "id": "khorana_awarded_national_medal",
+    "source": "har_gobind_khorana",
+    "type": "awarded",
+    "target": "national_medal_of_science",
+    "event_id": "award_national_medal",
+    "sources": [
+      {
+        "source_id": "bansal_2024_khorana",
+        "page": 2,
+        "quote": "and the National Medal of Science in 1987"
+      }
+    ]
+  }
+]

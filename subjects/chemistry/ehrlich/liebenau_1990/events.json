@@ -1,0 +1,251 @@
+[
+  {
+    "id": "behring_kitasato_antitoxin_development",
+    "event_type": "invention",
+    "label": "Diphtheria antitoxin developed",
+    "description": "Antitoxin developed by Behring and Kitasato.",
+    "date": {
+      "display": "1890",
+      "precision": "year",
+      "sort_start": "1890-01-01",
+      "sort_end": "1890-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emil_von_behring",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "paul_ehrlich",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "liebenau_1990",
+        "page": 2,
+        "quote": "developedbyEmilvonBehringandShibasaburoKitasatoin1890"
+      }
+    ]
+  },
+  {
+    "id": "control_station_established",
+    "event_type": "company_founded",
+    "label": "Control Station for Diphtheria Antitoxin established",
+    "date": {
+      "display": "1895",
+      "precision": "year",
+      "sort_start": "1895-01-01",
+      "sort_end": "1895-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "control_station_for_diphtheria_antitoxin",
+        "role": "invention"
+      },
+      {
+        "entity_id": "paul_ehrlich",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "liebenau_1990",
+        "page": 3,
+        "quote": "theControlStationforDiphtheriaAntitoxinwasestablishedin 1895"
+      }
+    ]
+  },
+  {
+    "id": "ehrlich_contract_hoechst",
+    "event_type": "employment_start",
+    "label": "Ehrlich agreed contract with Hoechst",
+    "date": {
+      "display": "March 1894",
+      "precision": "month",
+      "sort_start": "1894-03-01",
+      "sort_end": "1894-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "paul_ehrlich",
+        "role": "subject"
+      },
+      {
+        "entity_id": "hoechst_ag",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "liebenau_1990",
+        "page": 6,
+        "quote": "EhrlichagreedacontractwithHoechst,inMarch1894"
+      }
+    ]
+  },
+  {
+    "id": "ehrlich_director_steglitz",
+    "event_type": "employment_start",
+    "label": "Ehrlich made director of Steglitz laboratory",
+    "date": {
+      "display": "1896",
+      "precision": "year",
+      "sort_start": "1896-01-01",
+      "sort_end": "1896-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "paul_ehrlich",
+        "role": "subject"
+      },
+      {
+        "entity_id": "konigliches_anstalt_fur_experimentelle_therapie",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "liebenau_1990",
+        "page": 3,
+        "quote": "alargerfacilitywasprovidedintheBerlinsuburbofSteglitzin1896andPaulEhrlich wasmadedirector"
+      }
+    ]
+  },
+  {
+    "id": "frankfurt_institute_established",
+    "event_type": "company_founded",
+    "label": "Royal Institute for Experimental Therapy established in Frankfurt",
+    "date": {
+      "display": "1899",
+      "precision": "year",
+      "sort_start": "1899-01-01",
+      "sort_end": "1899-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "konigliches_anstalt_fur_experimentelle_therapie",
+        "role": "invention"
+      },
+      {
+        "entity_id": "paul_ehrlich",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "liebenau_1990",
+        "page": 7,
+        "quote": "In1899there-constitutedRoyalInstituteforExperimentalTherapy...wasestablished"
+      }
+    ]
+  },
+  {
+    "id": "cancer_research_section_established",
+    "event_type": "role_change",
+    "label": "Cancer research section established",
+    "date": {
+      "display": "1902",
+      "precision": "year",
+      "sort_start": "1902-01-01",
+      "sort_end": "1902-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "konigliches_anstalt_fur_experimentelle_therapie",
+        "role": "employer"
+      },
+      {
+        "entity_id": "paul_ehrlich",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "liebenau_1990",
+        "page": 9,
+        "quote": "In1902...acancerresearchsectionwasestablished"
+      }
+    ]
+  },
+  {
+    "id": "georg_speyer_haus_opened",
+    "event_type": "company_founded",
+    "label": "Georg Speyer Haus opened",
+    "date": {
+      "display": "1906",
+      "precision": "year",
+      "sort_start": "1906-01-01",
+      "sort_end": "1906-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "georg_speyer_haus",
+        "role": "invention"
+      },
+      {
+        "entity_id": "paul_ehrlich",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "liebenau_1990",
+        "page": 12,
+        "quote": "GeorgSpeyerHaus,whichopenedin1906"
+      }
+    ]
+  },
+  {
+    "id": "salvarsan_patented",
+    "event_type": "patent_granted",
+    "label": "Salvarsan patented",
+    "date": {
+      "display": "1909",
+      "precision": "year",
+      "sort_start": "1909-01-01",
+      "sort_end": "1909-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "salvarsan",
+        "role": "invention"
+      },
+      {
+        "entity_id": "paul_ehrlich",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "liebenau_1990",
+        "page": 12,
+        "quote": "patentingofSalvarsan,in1909"
+      }
+    ]
+  },
+  {
+    "id": "behring_professorship_marburg",
+    "event_type": "employment_start",
+    "label": "Behring offered professorship at Marburg",
+    "date": {
+      "display": "1895",
+      "precision": "year",
+      "sort_start": "1895-01-01",
+      "sort_end": "1895-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emil_von_behring",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "liebenau_1990",
+        "page": 6,
+        "quote": "offeredtheposition...asDirectoroftheHygieneInstituteandProfessorof HygieneatMarburgin1895"
+      }
+    ]
+  }
+]

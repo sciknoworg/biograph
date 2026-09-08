@@ -1,0 +1,448 @@
+[
+  {
+    "id": "arrhenius_birth",
+    "event_type": "birth",
+    "label": "Born at Vik, near Uppsala",
+    "description": "Svante August Arrhenius was born on 19 February 1859.",
+    "date": {
+      "display": "19 February 1859",
+      "precision": "day",
+      "sort_start": "1859-02-19",
+      "sort_end": "1859-02-19"
+    },
+    "location": "vik",
+    "participants": [
+      {
+        "entity_id": "svante_arrhenius",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "kragh_2013",
+        "page": 1,
+        "quote": "The Swedish chemist and physicist Svante August Arrhenius was born on 19 February 1859 at Vik, near Uppsala"
+      }
+    ]
+  },
+  {
+    "id": "arrhenius_death",
+    "event_type": "death",
+    "label": "Died in Stockholm",
+    "description": "Arrhenius died on 2 October 1927 in Stockholm at the age of 67.",
+    "date": {
+      "display": "2 October 1927",
+      "precision": "day",
+      "sort_start": "1927-10-02",
+      "sort_end": "1927-10-02"
+    },
+    "location": "stockholm",
+    "participants": [
+      {
+        "entity_id": "svante_arrhenius",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "kragh_2013",
+        "page": 1,
+        "quote": "and he died on 2 October 1927 in Stockholm."
+      },
+      {
+        "source_id": "kragh_2013",
+        "page": 3,
+        "quote": "shortly before his death in 1927, at the age of 67."
+      }
+    ]
+  },
+  {
+    "id": "arrhenius_undergraduate_uppsala",
+    "event_type": "education",
+    "label": "Undergraduate studies at University of Uppsala",
+    "description": "Arrhenius completed undergraduate studies at the University of Uppsala before 1881.",
+    "date": {
+      "display": "before 1881",
+      "precision": "year",
+      "sort_start": "1875-01-01",
+      "sort_end": "1881-01-01"
+    },
+    "participants": [
+      {
+        "entity_id": "svante_arrhenius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "uppsala_university",
+        "role": "educator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "kragh_2013",
+        "page": 3,
+        "quote": "After undergraduate studies at the University of Uppsala, in 1881 Arrhenius went to Stockholm College"
+      }
+    ]
+  },
+  {
+    "id": "arrhenius_stockholm_college_1881",
+    "event_type": "relocation",
+    "label": "Moved to Stockholm College",
+    "description": "Arrhenius went to Stockholm College to prepare for his doctoral dissertation.",
+    "date": {
+      "display": "1881",
+      "precision": "year",
+      "sort_start": "1881-01-01",
+      "sort_end": "1881-12-31"
+    },
+    "location": "stockholm",
+    "participants": [
+      {
+        "entity_id": "svante_arrhenius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "stockholm_college",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "kragh_2013",
+        "page": 3,
+        "quote": "in 1881 Arrhenius went to Stockholm College (Högskola) to prepare for his doctoral dissertation in Uppsala"
+      }
+    ]
+  },
+  {
+    "id": "arrhenius_dissertation_1884",
+    "event_type": "publication",
+    "label": "Doctoral dissertation on electrical conductivity",
+    "description": "Arrhenius completed his dissertation investigating the electrical conductivity of electrolytes and introduced the ionic theory of dissociation.",
+    "date": {
+      "display": "1884",
+      "precision": "year",
+      "sort_start": "1884-01-01",
+      "sort_end": "1884-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "svante_arrhenius",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "kragh_2013",
+        "page": 3,
+        "quote": "While in Stockholm, Arrhenius investigated the electrical conductivity of electrolytes, which was an important part of his dissertation of 1884."
+      }
+    ]
+  },
+  {
+    "id": "arrhenius_travel_grant_1886",
+    "event_type": "award",
+    "label": "Received travel grant from Royal Swedish Academy",
+    "description": "Arrhenius received a travel grant which he used for extensive studies abroad.",
+    "date": {
+      "display": "1886",
+      "precision": "year",
+      "sort_start": "1886-01-01",
+      "sort_end": "1886-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "svante_arrhenius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_swedish_academy",
+        "role": "awarding_body"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "kragh_2013",
+        "page": 3,
+        "quote": "In 1886 Arrhenius received a travel grant from the Royal Swedish Academy of Sciences"
+      }
+    ]
+  },
+  {
+    "id": "arrhenius_lecturer_1891",
+    "event_type": "employment_start",
+    "label": "Appointed lecturer at Stockholm College",
+    "description": "Arrhenius was appointed lecturer at Stockholm College.",
+    "date": {
+      "display": "1891",
+      "precision": "year",
+      "sort_start": "1891-01-01",
+      "sort_end": "1891-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "svante_arrhenius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "stockholm_college",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "kragh_2013",
+        "page": 3,
+        "quote": "In 1891 he was appointed lecturer at Stockholm College"
+      }
+    ]
+  },
+  {
+    "id": "arrhenius_physics_society_1891",
+    "event_type": "company_founded",
+    "label": "Established Physics Society",
+    "description": "Arrhenius took the initiative to establish a Physics Society with the aim of offering lectures and promoting discussions.",
+    "date": {
+      "display": "1891",
+      "precision": "year",
+      "sort_start": "1891-01-01",
+      "sort_end": "1891-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "svante_arrhenius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "physics_society",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "kragh_2013",
+        "page": 4,
+        "quote": "The same year that Arrhenius started in his position as physics lecturer at Stockholm College, he took the initiative to establish a Physics Society (Fysiska Sällskapet)"
+      }
+    ]
+  },
+  {
+    "id": "arrhenius_professor_1895",
+    "event_type": "role_change",
+    "label": "Promoted to professor of physics",
+    "description": "Arrhenius was promoted to professor of physics at Stockholm College.",
+    "date": {
+      "display": "1895",
+      "precision": "year",
+      "sort_start": "1895-01-01",
+      "sort_end": "1895-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "svante_arrhenius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "stockholm_college",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "kragh_2013",
+        "page": 3,
+        "quote": "and promoted four years later to professor of physics."
+      }
+    ]
+  },
+  {
+    "id": "arrhenius_nobel_1903",
+    "event_type": "award",
+    "label": "Awarded Nobel Prize in Chemistry",
+    "description": "Arrhenius earned a Nobel Prize in chemistry for his ionic theory of dissociation.",
+    "date": {
+      "display": "1903",
+      "precision": "year",
+      "sort_start": "1903-01-01",
+      "sort_end": "1903-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "svante_arrhenius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize_chemistry_1903",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "kragh_2013",
+        "page": 3,
+        "quote": "which turned out to be of such importance that it earned him a Nobel Prize in chemistry in 1903."
+      }
+    ]
+  },
+  {
+    "id": "arrhenius_lehrbuch_1903",
+    "event_type": "publication",
+    "label": "Published Lehrbuch der kosmischen Physik",
+    "description": "Arrhenius published a massive treatise on cosmical physics in two volumes.",
+    "date": {
+      "display": "1903",
+      "precision": "year",
+      "sort_start": "1903-01-01",
+      "sort_end": "1903-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "svante_arrhenius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lehrbuch_der_kosmischen_physik",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "kragh_2013",
+        "page": 6,
+        "quote": "Lehrbuch der kosmischen Physik that he published in 1903"
+      }
+    ]
+  },
+  {
+    "id": "arrhenius_st_louis_1904",
+    "event_type": "conference",
+    "label": "Lectured at Congress of Arts and Science in St. Louis",
+    "description": "Arrhenius gave a much publicized lecture in the section of cosmical physics.",
+    "date": {
+      "display": "1904",
+      "precision": "year",
+      "sort_start": "1904-01-01",
+      "sort_end": "1904-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "svante_arrhenius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "congress_arts_science_st_louis_1904",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "kragh_2013",
+        "page": 1,
+        "quote": "He was one of the European luminaries invited to the 1904 Congress of Arts and Science in St. Louis, where he gave a much publicized lecture"
+      }
+    ]
+  },
+  {
+    "id": "arrhenius_nobel_institute_1905",
+    "event_type": "employment_start",
+    "label": "Became director of Nobel Institute for Physical Chemistry",
+    "description": "Arrhenius became the first director of the Nobel Institute for Physical Chemistry.",
+    "date": {
+      "display": "1905",
+      "precision": "year",
+      "sort_start": "1905-01-01",
+      "sort_end": "1905-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "svante_arrhenius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_institute_physical_chemistry",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "kragh_2013",
+        "page": 3,
+        "quote": "In 1905 he became the first director of the Nobel Institute for Physical Chemistry under the Royal Swedish Academy"
+      }
+    ]
+  },
+  {
+    "id": "arrhenius_worlds_making_1907",
+    "event_type": "publication",
+    "label": "Published Worlds in the Making",
+    "description": "Arrhenius presented qualitative cosmological theory in his best-selling book, translation of a Swedish book from 1907.",
+    "date": {
+      "display": "1907",
+      "precision": "year",
+      "sort_start": "1907-01-01",
+      "sort_end": "1907-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "svante_arrhenius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "worlds_in_the_making",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "kragh_2013",
+        "page": 7,
+        "quote": "Worlds in the Making, a translation of a Swedish book from 1907"
+      }
+    ]
+  },
+  {
+    "id": "arrhenius_nobel_committee_1900",
+    "event_type": "employment_start",
+    "label": "Joined Nobel Committee for Physics",
+    "description": "Arrhenius had been a member of the Nobel Committee for Physics since its beginning in 1900.",
+    "date": {
+      "display": "1900",
+      "precision": "year",
+      "sort_start": "1900-01-01",
+      "sort_end": "1900-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "svante_arrhenius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_committee_physics",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "kragh_2013",
+        "page": 7,
+        "quote": "Arrhenius, who had been a member of the Nobel Committee for Physics since its beginning in 1900."
+      }
+    ]
+  }
+]

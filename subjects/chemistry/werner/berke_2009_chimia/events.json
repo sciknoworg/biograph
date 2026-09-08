@@ -1,0 +1,526 @@
+[
+  {
+    "id": "werner_birth",
+    "event_type": "birth",
+    "label": "Born in Mulhouse",
+    "date": {
+      "display": "1866",
+      "precision": "year",
+      "sort_start": "1866-01-01",
+      "sort_end": "1866-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_werner",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 541,
+        "quote": "Alfred Werner (1866–1919) is regarded as the founder of coordination chemistry."
+      }
+    ]
+  },
+  {
+    "id": "werner_eth_enrollment",
+    "event_type": "education",
+    "label": "Enrollment as student at ETH Zürich",
+    "date": {
+      "display": "1887",
+      "precision": "year",
+      "sort_start": "1887-01-01",
+      "sort_end": "1887-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_werner",
+        "role": "subject"
+      },
+      {
+        "entity_id": "eth_zurich",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 542,
+        "quote": "His main chemistry endeavors started with his enrollment as student at the ETH Zürich in 1887."
+      }
+    ]
+  },
+  {
+    "id": "werner_diploma",
+    "event_type": "education",
+    "label": "Diploma of Chemistry, ETH Zürich",
+    "date": {
+      "display": "1889",
+      "precision": "year",
+      "sort_start": "1889-01-01",
+      "sort_end": "1889-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_werner",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 543,
+        "quote": "1889 Diploma of Chemistry, ETH Zürich"
+      }
+    ]
+  },
+  {
+    "id": "werner_phd",
+    "event_type": "education",
+    "label": "PhD with Prof. Hantzsch at ETH Zürich",
+    "date": {
+      "display": "1890",
+      "precision": "year",
+      "sort_start": "1890-01-01",
+      "sort_end": "1890-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_werner",
+        "role": "subject"
+      },
+      {
+        "entity_id": "hantzsch",
+        "role": "supervised_by"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 543,
+        "quote": "1890 PhD with Prof. Hantzsch at ETH Zürich"
+      }
+    ]
+  },
+  {
+    "id": "werner_habilitation",
+    "event_type": "education",
+    "label": "Habilitation ETH Zürich",
+    "date": {
+      "display": "1892",
+      "precision": "year",
+      "sort_start": "1892-01-01",
+      "sort_end": "1892-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_werner",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 543,
+        "quote": "1892 Habilitation ETH Zürich, unsalaried Privatdozent"
+      }
+    ]
+  },
+  {
+    "id": "werner_flash_of_genius",
+    "event_type": "invention",
+    "label": "Flash of genius for coordination theory",
+    "date": {
+      "display": "late 1892",
+      "precision": "year",
+      "sort_start": "1892-07-01",
+      "sort_end": "1892-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_werner",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 542,
+        "quote": "For one night in late 1892 Alfred Werner awoke at 2 a.m. with the solution of the constitution of 'molecular compounds', which had come to him like a flash of lightning."
+      }
+    ]
+  },
+  {
+    "id": "werner_coordination_paper",
+    "event_type": "publication",
+    "label": "Published 'Contribution to the Constitution of Inorganic Compounds'",
+    "date": {
+      "display": "1893",
+      "precision": "year",
+      "sort_start": "1893-01-01",
+      "sort_end": "1893-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_werner",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 542,
+        "quote": "By 5 p.m. of the following day he had finished his most famous paper titled: 'Contribution to the Constitution of Inorganic Compounds', A. Werner, Zeitschrift für Anorganische Chemie 1893, 2, 267."
+      }
+    ]
+  },
+  {
+    "id": "werner_assoc_prof",
+    "event_type": "employment_start",
+    "label": "Associate Professor, University of Zurich",
+    "date": {
+      "display": "1893",
+      "precision": "year",
+      "sort_start": "1893-01-01",
+      "sort_end": "1893-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_werner",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_zurich",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 543,
+        "quote": "1893 Associate Professor, University of Zurich"
+      }
+    ]
+  },
+  {
+    "id": "werner_met_miolati",
+    "event_type": "meeting",
+    "label": "Met Prof. A. Miolati",
+    "date": {
+      "display": "1892",
+      "precision": "year",
+      "sort_start": "1892-01-01",
+      "sort_end": "1892-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_werner",
+        "role": "subject"
+      },
+      {
+        "entity_id": "miolati",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 543,
+        "quote": "1892 Werner met Prof. A. Miolati"
+      }
+    ]
+  },
+  {
+    "id": "werner_full_prof",
+    "event_type": "role_change",
+    "label": "Full Professor, University of Zurich",
+    "date": {
+      "display": "1895",
+      "precision": "year",
+      "sort_start": "1895-01-01",
+      "sort_end": "1895-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_werner",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_zurich",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 543,
+        "quote": "1895 Full Professor, University of Zurich"
+      }
+    ]
+  },
+  {
+    "id": "werner_marriage_nationality",
+    "event_type": "other",
+    "label": "Marriage and Swiss nationality",
+    "date": {
+      "display": "1895",
+      "precision": "year",
+      "sort_start": "1895-01-01",
+      "sort_end": "1895-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_werner",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 543,
+        "quote": "1895 Marriage and Swiss nationality"
+      }
+    ]
+  },
+  {
+    "id": "werner_book_published",
+    "event_type": "publication",
+    "label": "Book 'Neuere Anschauungen auf dem Gebiete der Anorganischen Chemie'",
+    "date": {
+      "display": "1905",
+      "precision": "year",
+      "sort_start": "1905-01-01",
+      "sort_end": "1905-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_werner",
+        "role": "subject"
+      },
+      {
+        "entity_id": "werner_book",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 543,
+        "quote": "1905 Book 'Neuere Anschauungen auf dem Gebiete der Anorganischen Chemie'"
+      }
+    ]
+  },
+  {
+    "id": "werner_move_building",
+    "event_type": "relocation",
+    "label": "Moved to new chemistry building in Rämistrasse",
+    "date": {
+      "display": "1909",
+      "precision": "year",
+      "sort_start": "1909-01-01",
+      "sort_end": "1909-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_werner",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 542,
+        "quote": "he and his group moved to the new chemistry building in Rämistrasse in 1909"
+      }
+    ]
+  },
+  {
+    "id": "king_optical_resolution",
+    "event_type": "invention",
+    "label": "First optical resolution of complexes by V. L. King",
+    "date": {
+      "display": "1911",
+      "precision": "year",
+      "sort_start": "1911-01-01",
+      "sort_end": "1911-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "v_l_king",
+        "role": "subject"
+      },
+      {
+        "entity_id": "alfred_werner",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 542,
+        "quote": "The first optical resolution of complexes was carried out in 1911 by his American coworker V. L. King"
+      }
+    ]
+  },
+  {
+    "id": "schwenk_chiral_separation",
+    "event_type": "invention",
+    "label": "First chiral separation of inorganic complex by C. Schwenk",
+    "date": {
+      "display": "1913",
+      "precision": "year",
+      "sort_start": "1913-01-01",
+      "sort_end": "1913-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "c_schwenk",
+        "role": "subject"
+      },
+      {
+        "entity_id": "alfred_werner",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 542,
+        "quote": "the first chiral separation of a non-carbon containing purely inorganic complex was accomplished in 1913 by Alfred Werner's coworker C. Schwenk"
+      }
+    ]
+  },
+  {
+    "id": "werner_nobel_prize",
+    "event_type": "award",
+    "label": "Awarded Nobel Prize",
+    "date": {
+      "display": "1913",
+      "precision": "year",
+      "sort_start": "1913-01-01",
+      "sort_end": "1913-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_werner",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 543,
+        "quote": "1913 Nobel Prize"
+      }
+    ]
+  },
+  {
+    "id": "werner_illness",
+    "event_type": "other",
+    "label": "Descent into illness",
+    "date": {
+      "display": "1915",
+      "precision": "year",
+      "sort_start": "1915-01-01",
+      "sort_end": "1915-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_werner",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 543,
+        "quote": "1915 Descent into illness"
+      }
+    ]
+  },
+  {
+    "id": "werner_death",
+    "event_type": "death",
+    "label": "Death",
+    "date": {
+      "display": "1919",
+      "precision": "year",
+      "sort_start": "1919-01-01",
+      "sort_end": "1919-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_werner",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 543,
+        "quote": "1919 Death"
+      }
+    ]
+  },
+  {
+    "id": "book_breakthrough_award",
+    "event_type": "award",
+    "label": "Book awarded 'Citation for Chemical Breakthrough'",
+    "date": {
+      "display": "2009",
+      "precision": "year",
+      "sort_start": "2009-01-01",
+      "sort_end": "2009-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "werner_book",
+        "role": "invention"
+      },
+      {
+        "entity_id": "division_history_chemistry",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 541,
+        "quote": "This book was recently awarded the 'Citation for Chemical Breakthrough' prize from the Division of the History of Chemistry of the American Chemical Society."
+      }
+    ]
+  },
+  {
+    "id": "plaque_presentation",
+    "event_type": "award",
+    "label": "Plaque presentation at Symposium of Chemical Society of Zurich",
+    "date": {
+      "display": "December 3, 2009",
+      "precision": "day",
+      "sort_start": "2009-12-03",
+      "sort_end": "2009-12-03"
+    },
+    "participants": [
+      {
+        "entity_id": "division_history_chemistry",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "chemical_society_zurich",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 542,
+        "quote": "At the occasion of the yearly Symposium of the Chemical Society of Zurich, December 3, 2009, the Division of History of Chemistry of the American Chemical Society honored the Fachbereich Chemie of the University of Zurich with the plaque 'Citation for Chemical Breakthrough'"
+      }
+    ]
+  }
+]

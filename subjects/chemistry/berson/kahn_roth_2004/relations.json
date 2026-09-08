@@ -1,0 +1,55 @@
+[
+  {
+    "id": "berson_collaborated_yalow",
+    "source": "solomon_berson",
+    "type": "collaborated_with",
+    "target": "rosalyn_yalow",
+    "sources": [
+      {
+        "source_id": "kahn_roth_2004",
+        "page": 1,
+        "quote": "Berson and Yalow seemed an unlikely team to make this important discovery"
+      }
+    ]
+  },
+  {
+    "id": "berson_studied_nyu",
+    "source": "solomon_berson",
+    "type": "studied_at",
+    "target": "new_york_university_medical_school",
+    "sources": [
+      {
+        "source_id": "kahn_roth_2004",
+        "page": 1,
+        "quote": "enrollment in New York University Medical School"
+      }
+    ]
+  },
+  {
+    "id": "berson_worked_va",
+    "source": "solomon_berson",
+    "type": "worked_at",
+    "target": "veterans_administration_hospital_bronx",
+    "sources": [
+      {
+        "source_id": "kahn_roth_2004",
+        "page": 1,
+        "quote": "took a part-time job as internist in the Radioisotope Unit at the hospital"
+      }
+    ]
+  },
+  {
+    "id": "berson_developed_ria",
+    "source": "solomon_berson",
+    "type": "developed",
+    "target": "radioimmunoassay",
+    "event_id": "berson_yalow_1960_paper",
+    "sources": [
+      {
+        "source_id": "kahn_roth_2004",
+        "page": 1,
+        "quote": "development of immunoassay by Solomon Berson and Rosalyn Yalow in 1959–1960"
+      }
+    ]
+  }
+]

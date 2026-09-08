@@ -1,0 +1,470 @@
+[
+  {
+    "id": "ingold_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1893",
+      "precision": "year",
+      "sort_start": "1893-01-01",
+      "sort_end": "1893-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "roberts_1996",
+        "page": 2,
+        "quote": "The outstanding scientific work of Christopher Kelk Ingold (1893-1970) was the focus of considerable discussion..."
+      }
+    ]
+  },
+  {
+    "id": "ingold_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1970",
+      "precision": "year",
+      "sort_start": "1970-01-01",
+      "sort_end": "1970-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "roberts_1996",
+        "page": 2,
+        "quote": "The outstanding scientific work of Christopher Kelk Ingold (1893-1970) was the focus of considerable discussion..."
+      }
+    ]
+  },
+  {
+    "id": "ingold_bs_southampton",
+    "event_type": "education",
+    "label": "Took external BSc of University of London",
+    "date": {
+      "display": "1913",
+      "precision": "year",
+      "sort_start": "1913-01-01",
+      "sort_end": "1913-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      },
+      {
+        "entity_id": "hartley_university_college",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "roberts_1996",
+        "page": 2,
+        "quote": "He began his tertiary education at the Hartley University College in Southampton where he took an external BSc of the University of London in I913."
+      }
+    ]
+  },
+  {
+    "id": "ingold_arcs_imperial",
+    "event_type": "education",
+    "label": "Associate of the Royal College of Science",
+    "date": {
+      "display": "1914",
+      "precision": "year",
+      "sort_start": "1914-01-01",
+      "sort_end": "1914-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      },
+      {
+        "entity_id": "imperial_college_london",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "roberts_1996",
+        "page": 2,
+        "quote": "This was followed by a period at Imperial College London (Associate of the Royal College of Science, 1914)..."
+      }
+    ]
+  },
+  {
+    "id": "ingold_msc_london",
+    "event_type": "education",
+    "label": "Gained University of London MSc",
+    "date": {
+      "display": "1919",
+      "precision": "year",
+      "sort_start": "1919-01-01",
+      "sort_end": "1919-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_london",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "roberts_1996",
+        "page": 2,
+        "quote": "He qualified as an Associate of the Institute of Chemistry in I919 and also gained a University of London MSc in that year."
+      }
+    ]
+  },
+  {
+    "id": "ingold_dsc",
+    "event_type": "education",
+    "label": "Gained DSc",
+    "date": {
+      "display": "1921",
+      "precision": "year",
+      "sort_start": "1921-01-01",
+      "sort_end": "1921-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "roberts_1996",
+        "page": 2,
+        "quote": "...gaining his DSc in I921..."
+      }
+    ]
+  },
+  {
+    "id": "ingold_meldola_medal",
+    "event_type": "award",
+    "label": "Awarded Meldola Medal",
+    "date": {
+      "display": "1923",
+      "precision": "year",
+      "sort_start": "1923-01-01",
+      "sort_end": "1923-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      },
+      {
+        "entity_id": "institute_of_chemistry",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "roberts_1996",
+        "page": 2,
+        "quote": "...as well as the first-ever Meldola Medal of the Institute of Chemistry (for a promising young scientist) in 1923..."
+      }
+    ]
+  },
+  {
+    "id": "ingold_frs",
+    "event_type": "award",
+    "label": "Elected FRS",
+    "date": {
+      "display": "1924",
+      "precision": "year",
+      "sort_start": "1924-01-01",
+      "sort_end": "1924-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_society",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "roberts_1996",
+        "page": 2,
+        "quote": "...and, in 1924, he was made an FRS at the very young age of thirty."
+      }
+    ]
+  },
+  {
+    "id": "ingold_professor_leeds",
+    "event_type": "employment_start",
+    "label": "Became Professor of Organic Chemistry at Leeds",
+    "date": {
+      "display": "1924",
+      "precision": "year",
+      "sort_start": "1924-01-01",
+      "sort_end": "1924-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_leeds",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "roberts_1996",
+        "page": 2,
+        "quote": "In that same year, he became Professor of Organic Chemistry at the University of Leeds, a position which he held for six years."
+      }
+    ]
+  },
+  {
+    "id": "ingold_chair_ucl",
+    "event_type": "employment_start",
+    "label": "Took up Chair of Chemistry at UCL",
+    "date": {
+      "display": "1930",
+      "precision": "year",
+      "sort_start": "1930-01-01",
+      "sort_end": "1930-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_college_london",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "roberts_1996",
+        "page": 2,
+        "quote": "From 1930 until his death, Ingold was attached to a major international centre, the Chemistry Department of University College London."
+      }
+    ]
+  },
+  {
+    "id": "ingold_head_ucl",
+    "event_type": "role_change",
+    "label": "Became Head of Department and Director of Laboratories",
+    "date": {
+      "display": "October 1937",
+      "precision": "month",
+      "sort_start": "1937-10-01",
+      "sort_end": "1937-10-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_college_london",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "roberts_1996",
+        "page": 4,
+        "quote": "So when Ingold became Head of Department and Director of the Laboratories by a process of 'natural' succession in October 1937..."
+      }
+    ]
+  },
+  {
+    "id": "ingold_recruits_lonsdale",
+    "event_type": "employment_start",
+    "label": "Kathleen Lonsdale joined Department",
+    "date": {
+      "display": "1947",
+      "precision": "year",
+      "sort_start": "1947-01-01",
+      "sort_end": "1947-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kathleen_lonsdale",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_college_london",
+        "role": "employer"
+      },
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "roberts_1996",
+        "page": 6,
+        "quote": "In 1947, Kathleen Lonsdale, already an FRS, joined the Department as Reader in Crystallography."
+      }
+    ]
+  },
+  {
+    "id": "ingold_bs_reform",
+    "event_type": "other",
+    "label": "BSc Special Degree became three-year course",
+    "date": {
+      "display": "1942-1944",
+      "precision": "range",
+      "sort_start": "1942-01-01",
+      "sort_end": "1944-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "university_of_london",
+        "role": "institution"
+      },
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "roberts_1996",
+        "page": 6,
+        "quote": "The regulations that were to stay in force until after his retirement were put in place. The BSc Special Degree became a three-year course..."
+      }
+    ]
+  },
+  {
+    "id": "ingold_admin_transfer",
+    "event_type": "role_change",
+    "label": "Transferred administrative burdens to Hughes",
+    "date": {
+      "display": "early 1957",
+      "precision": "range",
+      "sort_start": "1957-01-01",
+      "sort_end": "1957-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      },
+      {
+        "entity_id": "e_d_hughes",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "roberts_1996",
+        "page": 8,
+        "quote": "Thinking that he would be retiring in I958, Ingold took steps early in 1957 to create more time for research by easing himself away from some of the administrative burdens of the headship, transferring them to Hughes..."
+      }
+    ]
+  },
+  {
+    "id": "ingold_retirement",
+    "event_type": "retirement",
+    "label": "Retired from Chair and Directorship",
+    "date": {
+      "display": "summer of 1961",
+      "precision": "range",
+      "sort_start": "1961-06-01",
+      "sort_end": "1961-08-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_college_london",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "roberts_1996",
+        "page": 8,
+        "quote": "Ingold retired formally from his Chair of Chemistry and Directorship of the Laboratories in the summer of 1961..."
+      }
+    ]
+  },
+  {
+    "id": "ingold_ibadan_lecture",
+    "event_type": "conference",
+    "label": "Delivered lecture 'The Education of a Scientist'",
+    "date": {
+      "display": "1963",
+      "precision": "year",
+      "sort_start": "1963-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_kelk_ingold",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_ibadan",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "roberts_1996",
+        "page": 8,
+        "quote": "In the early years of his retirement, on the occasion of his visiting the about to be independent University of Ibadan in Nigeria, he delivered a lecture called 'The Education of a Scientist'."
+      }
+    ]
+  },
+  {
+    "id": "ingold_labs_opened",
+    "event_type": "product_launch",
+    "label": "Christopher Ingold Laboratories opened",
+    "date": {
+      "display": "1970",
+      "precision": "year",
+      "sort_start": "1970-01-01",
+      "sort_end": "1970-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_ingold_laboratories",
+        "role": "invention"
+      },
+      {
+        "entity_id": "university_college_london",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "roberts_1996",
+        "page": 8,
+        "quote": "...that which was eventually opened in 1970 as the Christopher Ingold Laboratories."
+      }
+    ]
+  }
+]

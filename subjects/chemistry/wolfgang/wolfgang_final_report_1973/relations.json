@@ -1,0 +1,102 @@
+[
+  {
+    "id": "wolfgang_worked_yale",
+    "source": "richard_wolfgang",
+    "type": "worked_at",
+    "target": "yale_university",
+    "start": {
+      "display": "1957-1972",
+      "precision": "range",
+      "sort_start": "1957-01-01",
+      "sort_end": "1972-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "wolfgang_final_report_1973",
+        "page": 4,
+        "quote": "Studies of nuclear reactions were carried out using the Yale Heavy Ion Accelerator."
+      }
+    ]
+  },
+  {
+    "id": "wolfgang_funded_aec",
+    "source": "richard_wolfgang",
+    "type": "employed_by",
+    "target": "aec",
+    "start": {
+      "display": "1957-1972",
+      "precision": "range",
+      "sort_start": "1957-01-01",
+      "sort_end": "1972-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "wolfgang_final_report_1973",
+        "page": 1,
+        "quote": "Contract AT(11-1)-3570"
+      }
+    ]
+  },
+  {
+    "id": "wolfgang_mentored_estrup",
+    "source": "richard_wolfgang",
+    "type": "mentored",
+    "target": "peder_estrup",
+    "start": {
+      "display": "1959",
+      "precision": "year",
+      "sort_start": "1959-01-01",
+      "sort_end": "1959-12-31"
+    },
+    "event_id": "estrup_phd",
+    "sources": [
+      {
+        "source_id": "wolfgang_final_report_1973",
+        "page": 9,
+        "quote": "Estrupi Peder J.Z. Reactions of Recoil- ing Tritium with Methane 1959"
+      }
+    ]
+  },
+  {
+    "id": "wolfgang_invented_adam",
+    "source": "richard_wolfgang",
+    "type": "invented",
+    "target": "adam_machine",
+    "event_id": "machines_built",
+    "sources": [
+      {
+        "source_id": "wolfgang_final_report_1973",
+        "page": 7,
+        "quote": "Three machines were built: ADAM, EVA, and CAIN."
+      }
+    ]
+  },
+  {
+    "id": "wolfgang_invented_eva",
+    "source": "richard_wolfgang",
+    "type": "invented",
+    "target": "eva_machine",
+    "event_id": "machines_built",
+    "sources": [
+      {
+        "source_id": "wolfgang_final_report_1973",
+        "page": 7,
+        "quote": "Three machines were built: ADAM, EVA, and CAIN."
+      }
+    ]
+  },
+  {
+    "id": "wolfgang_invented_cain",
+    "source": "richard_wolfgang",
+    "type": "invented",
+    "target": "cain_machine",
+    "event_id": "machines_built",
+    "sources": [
+      {
+        "source_id": "wolfgang_final_report_1973",
+        "page": 7,
+        "quote": "Three machines were built: ADAM, EVA, and CAIN."
+      }
+    ]
+  }
+]

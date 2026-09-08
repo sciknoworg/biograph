@@ -1,0 +1,554 @@
+[
+  {
+    "id": "mond_birth",
+    "event_type": "birth",
+    "label": "Born in Cassel",
+    "date": {
+      "display": "1839",
+      "precision": "year",
+      "sort_start": "1839-01-01",
+      "sort_end": "1839-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ludwig_mond",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 18,
+        "quote": "1839-1909"
+      }
+    ]
+  },
+  {
+    "id": "mond_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1909",
+      "precision": "year",
+      "sort_start": "1909-01-01",
+      "sort_end": "1909-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ludwig_mond",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 18,
+        "quote": "1839-1909"
+      }
+    ]
+  },
+  {
+    "id": "frida_death",
+    "event_type": "death",
+    "label": "Frida Mond died",
+    "date": {
+      "display": "1923",
+      "precision": "year",
+      "sort_start": "1923-01-01",
+      "sort_end": "1923-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "frida_mond",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 18,
+        "quote": "d. 1923"
+      }
+    ]
+  },
+  {
+    "id": "robert_mond_birth",
+    "event_type": "birth",
+    "label": "Robert Mond born",
+    "date": {
+      "display": "1867",
+      "precision": "year",
+      "sort_start": "1867-01-01",
+      "sort_end": "1867-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_mond_son",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 18,
+        "quote": "1867-1938"
+      }
+    ]
+  },
+  {
+    "id": "robert_mond_death",
+    "event_type": "death",
+    "label": "Robert Mond died",
+    "date": {
+      "display": "1938",
+      "precision": "year",
+      "sort_start": "1938-01-01",
+      "sort_end": "1938-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_mond_son",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 18,
+        "quote": "1867-1938"
+      }
+    ]
+  },
+  {
+    "id": "alfred_mond_birth",
+    "event_type": "birth",
+    "label": "Alfred Mond born",
+    "date": {
+      "display": "1868",
+      "precision": "year",
+      "sort_start": "1868-01-01",
+      "sort_end": "1868-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_mond_son",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 18,
+        "quote": "1868-1930"
+      }
+    ]
+  },
+  {
+    "id": "alfred_mond_death",
+    "event_type": "death",
+    "label": "Alfred Mond died",
+    "date": {
+      "display": "1930",
+      "precision": "year",
+      "sort_start": "1930-01-01",
+      "sort_end": "1930-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_mond_son",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 18,
+        "quote": "1868-1930"
+      }
+    ]
+  },
+  {
+    "id": "meyer_mond_death",
+    "event_type": "death",
+    "label": "Meyer Bar Mond died",
+    "date": {
+      "display": "1891",
+      "precision": "year",
+      "sort_start": "1891-01-01",
+      "sort_end": "1891-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "meyer_bar_mond",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 18,
+        "quote": "1811-1891"
+      }
+    ]
+  },
+  {
+    "id": "abraham_lowenthal_death",
+    "event_type": "death",
+    "label": "Abraham Lowenthal died",
+    "date": {
+      "display": "1865",
+      "precision": "year",
+      "sort_start": "1865-01-01",
+      "sort_end": "1865-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "abraham_lowenthal",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 18,
+        "quote": "1788-1865"
+      }
+    ]
+  },
+  {
+    "id": "book_pub_1956",
+    "event_type": "publication",
+    "label": "The Life of Ludwig Mond first published",
+    "date": {
+      "display": "1956",
+      "precision": "year",
+      "sort_start": "1956-01-01",
+      "sort_end": "1956-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "the_life_of_ludwig_mond",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 5,
+        "quote": "First published in 1956"
+      }
+    ]
+  },
+  {
+    "id": "book_pub_2025",
+    "event_type": "publication",
+    "label": "The Life of Ludwig Mond edition published",
+    "date": {
+      "display": "2025",
+      "precision": "year",
+      "sort_start": "2025-01-01",
+      "sort_end": "2025-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "the_life_of_ludwig_mond",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 5,
+        "quote": "This edition first published in 2025"
+      }
+    ]
+  },
+  {
+    "id": "ici_merger",
+    "event_type": "company_founded",
+    "label": "Brunner, Mond merged into ICI",
+    "date": {
+      "display": "1926",
+      "precision": "year",
+      "sort_start": "1926-01-01",
+      "sort_end": "1926-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "brunner_mond",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ici",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 13,
+        "quote": "merger of I 926"
+      }
+    ]
+  },
+  {
+    "id": "mathias_note",
+    "event_type": "publication",
+    "label": "Robert Mathias note dated",
+    "date": {
+      "display": "April 1955",
+      "precision": "month",
+      "sort_start": "1955-04-01",
+      "sort_end": "1955-04-30"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_mathias",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 10,
+        "quote": "April r955."
+      }
+    ]
+  },
+  {
+    "id": "fleck_foreword",
+    "event_type": "publication",
+    "label": "Alexander Fleck foreword dated",
+    "date": {
+      "display": "September 1955",
+      "precision": "month",
+      "sort_start": "1955-09-01",
+      "sort_end": "1955-09-30"
+    },
+    "participants": [
+      {
+        "entity_id": "alexander_fleck",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 13,
+        "quote": "September, r955."
+      }
+    ]
+  },
+  {
+    "id": "winnington_plant_built",
+    "event_type": "product_launch",
+    "label": "Winnington soda plant built",
+    "date": {
+      "display": "c. 1875",
+      "precision": "circa",
+      "sort_start": "1870-01-01",
+      "sort_end": "1880-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ludwig_mond",
+        "role": "subject"
+      },
+      {
+        "entity_id": "winnington_works",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 22,
+        "quote": "nearly eighty years ago"
+      }
+    ]
+  },
+  {
+    "id": "winnington_hall_purchased",
+    "event_type": "company_sold",
+    "label": "Winnington Hall purchased",
+    "date": {
+      "display": "unknown",
+      "precision": "circa",
+      "sort_start": "1870-01-01",
+      "sort_end": "1880-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ludwig_mond",
+        "role": "subject"
+      },
+      {
+        "entity_id": "john_brunner",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "winnington_hall",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 22,
+        "quote": "Ludwig and his partner, John Brunner, bought it and built their first works in its orchard."
+      }
+    ]
+  },
+  {
+    "id": "national_gallery_bequest",
+    "event_type": "award",
+    "label": "Mond Bequest given to National Gallery",
+    "date": {
+      "display": "unknown",
+      "precision": "circa",
+      "sort_start": "1900-01-01",
+      "sort_end": "1909-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ludwig_mond",
+        "role": "subject"
+      },
+      {
+        "entity_id": "national_gallery",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 20,
+        "quote": "The Mond Bequest."
+      }
+    ]
+  },
+  {
+    "id": "davy_faraday_founded",
+    "event_type": "company_founded",
+    "label": "Davy-Faraday Research Laboratory founded",
+    "date": {
+      "display": "unknown",
+      "precision": "circa",
+      "sort_start": "1890-01-01",
+      "sort_end": "1909-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ludwig_mond",
+        "role": "subject"
+      },
+      {
+        "entity_id": "davy_faraday_lab",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 23,
+        "quote": "he founded the Davy-Faraday Research Laboratory"
+      }
+    ]
+  },
+  {
+    "id": "armstrong_death",
+    "event_type": "death",
+    "label": "Professor Armstrong died",
+    "date": {
+      "display": "unknown",
+      "precision": "circa",
+      "sort_start": "1910-01-01",
+      "sort_end": "1955-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "prof_armstrong",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 10,
+        "quote": "Unfortunately, soon after he started the task he died."
+      }
+    ]
+  },
+  {
+    "id": "twice_seven_pub",
+    "event_type": "publication",
+    "label": "Twice Seven published",
+    "date": {
+      "display": "1933",
+      "precision": "year",
+      "sort_start": "1933-01-01",
+      "sort_end": "1933-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "twice_seven",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 8,
+        "quote": "Twice Seven (Routledge, 1933)"
+      }
+    ]
+  },
+  {
+    "id": "alfred_mond_bio_pub",
+    "event_type": "publication",
+    "label": "Alfred Mond biography published",
+    "date": {
+      "display": "1933",
+      "precision": "year",
+      "sort_start": "1933-01-01",
+      "sort_end": "1933-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_mond_first_lord_melchett",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 8,
+        "quote": "Alfred Mand: First Lord Melchett by Hector Bolitho (Secker, 1933)"
+      }
+    ]
+  },
+  {
+    "id": "widnes_history_pub",
+    "event_type": "publication",
+    "label": "History of Chemical Industry in Widnes published",
+    "date": {
+      "display": "1950",
+      "precision": "year",
+      "sort_start": "1950-01-01",
+      "sort_end": "1950-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "history_chemical_industry_widnes",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cohen_1956",
+        "page": 8,
+        "quote": "A History of the Chemical Industry in Widnes by D. W. F. Hardie, Ph.D. (LC.I., 1950)"
+      }
+    ]
+  }
+]

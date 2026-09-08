@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hughes_born_1906",
+    "source": "edward_david_hughes",
+    "type": "born_in",
+    "target": "edward_david_hughes",
+    "event_id": "hughes_born",
+    "sources": [
+      {
+        "source_id": "saltzman_1994",
+        "page": 40,
+        "quote": "Edward David Hughes (1906-1963)"
+      }
+    ],
+    "_rejected_because": "'born_in' expects target entity_type place, but 'edward_david_hughes' is 'person'"
+  }
+]

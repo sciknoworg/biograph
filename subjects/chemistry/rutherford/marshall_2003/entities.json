@@ -1,0 +1,121 @@
+[
+  {
+    "id": "ernest_rutherford",
+    "entity_type": "person",
+    "name": "Ernest Rutherford",
+    "aliases": [
+      "Rutherford"
+    ],
+    "summary": "New Zealand-born physicist and chemist, Nobel laureate known for nuclear transmutation and discovery of radon.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "friedrich_ernst_dorn",
+    "entity_type": "person",
+    "name": "Friedrich Ernst Dorn",
+    "aliases": [
+      "Dorn",
+      "Ernst Dorn"
+    ],
+    "summary": "German physicist and professor at Friedrichs Universität, Halle, often credited with radon discovery.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "frederick_soddy",
+    "entity_type": "person",
+    "name": "Frederick Soddy",
+    "aliases": [
+      "Soddy"
+    ],
+    "summary": "English chemist who collaborated with Rutherford at McGill University on radioactive transformations.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "marie_curie",
+    "entity_type": "person",
+    "name": "Marie Curie",
+    "aliases": [
+      "Mme. Curie",
+      "M. Curie"
+    ],
+    "summary": "Polish-French physicist and chemist who researched radioactivity and radium emanation.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "mcgill_university",
+    "entity_type": "organization",
+    "name": "McGill University",
+    "aliases": [
+      "McGill"
+    ],
+    "summary": "Canadian university in Montreal where Rutherford performed his emanation research.",
+    "subtype": "university",
+    "attributes": {
+      "location": "Montreal, Canada"
+    }
+  },
+  {
+    "id": "university_of_manchester",
+    "entity_type": "organization",
+    "name": "Manchester University",
+    "aliases": [
+      "Manchester"
+    ],
+    "summary": "English university where Rutherford worked from 1907 to 1918.",
+    "subtype": "university",
+    "attributes": {
+      "location": "Manchester, England"
+    }
+  },
+  {
+    "id": "cambridge_university",
+    "entity_type": "organization",
+    "name": "Cambridge University",
+    "aliases": [
+      "Cambridge"
+    ],
+    "summary": "English university where Rutherford worked from 1919 to 1937.",
+    "subtype": "university",
+    "attributes": {
+      "location": "Cambridge, England"
+    }
+  },
+  {
+    "id": "friedrichs_universitat_halle",
+    "entity_type": "organization",
+    "name": "Friedrichs Universität",
+    "aliases": [
+      "University of Halle",
+      "Martin-Luther-Universität Halle-Wittenberg"
+    ],
+    "summary": "German university in Halle (Saale) where Dorn conducted his radium emanation studies.",
+    "subtype": "university",
+    "attributes": {
+      "location": "Halle (Saale), Germany"
+    }
+  },
+  {
+    "id": "radon",
+    "entity_type": "artifact",
+    "name": "Radon",
+    "aliases": [
+      "radium emanation",
+      "niton",
+      "emanation",
+      "thoron",
+      "actinon"
+    ],
+    "summary": "Radioactive gaseous element (Rn-222) discovered through emanation studies.",
+    "subtype": "element"
+  },
+  {
+    "id": "nobel_prize_1908",
+    "entity_type": "artifact",
+    "name": "Nobel Prize",
+    "aliases": [
+      "Nobel Prize for Rutherford in 1908"
+    ],
+    "summary": "Chemistry Nobel Prize awarded to Rutherford for investigations into disintegration of elements.",
+    "subtype": "award"
+  }
+]

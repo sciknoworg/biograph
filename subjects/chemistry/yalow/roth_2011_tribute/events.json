@@ -1,0 +1,393 @@
+[
+  {
+    "id": "yalow_birth",
+    "event_type": "birth",
+    "label": "Born in the Bronx",
+    "description": "Born just before her ninetieth birthday relative to her 2011 death.",
+    "date": {
+      "display": "c. 1921",
+      "precision": "circa",
+      "sort_start": "1921-01-01",
+      "sort_end": "1921-12-31"
+    },
+    "location": "bronx",
+    "participants": [
+      {
+        "entity_id": "rosalyn_yalow",
+        "role": "subject"
+      }
+    ],
+    "certainty": "approximate",
+    "sources": [
+      {
+        "source_id": "roth_2011_tribute",
+        "page": 1,
+        "quote": "Rosalyn S. Yalow died, just before her ninetieth birthday."
+      }
+    ]
+  },
+  {
+    "id": "yalow_hunter_college",
+    "event_type": "education",
+    "label": "Studied at Hunter College",
+    "description": "Majored in physics at the tuition-free, all-female counterpart of City College.",
+    "date": {
+      "display": "1940s",
+      "precision": "decade",
+      "sort_start": "1940-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rosalyn_yalow",
+        "role": "subject"
+      },
+      {
+        "entity_id": "hunter_college",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "roth_2011_tribute",
+        "page": 1,
+        "quote": "Yalow was a top student at Hunter College, the tuition-free, all-female counterpart of City College, where she majored in physics."
+      }
+    ]
+  },
+  {
+    "id": "yalow_illinois_phd",
+    "event_type": "education",
+    "label": "Accepted to University of Illinois PhD program",
+    "description": "Accepted into PhD program in nuclear physics with conditions regarding job placement.",
+    "date": {
+      "display": "1940s",
+      "precision": "decade",
+      "sort_start": "1940-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rosalyn_yalow",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_illinois",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "roth_2011_tribute",
+        "page": 1,
+        "quote": "Finally, as a favor to one of her Hunter College professors, the University of Illinois accepted her into their PhD program in nuclear physics with the condition that they bear no responsibility for placing her in a job after graduation."
+      }
+    ]
+  },
+  {
+    "id": "yalow_bronx_va_start",
+    "event_type": "employment_start",
+    "label": "Joined Bronx VA as consultant",
+    "description": "Joined two years after graduation, hired as full-time physicist five years later.",
+    "date": {
+      "display": "late 1940s",
+      "precision": "decade",
+      "sort_start": "1945-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rosalyn_yalow",
+        "role": "subject"
+      },
+      {
+        "entity_id": "bronx_va",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "roth_2011_tribute",
+        "page": 1,
+        "quote": "It was two years before she joined the Veterans Administration Hospital (“Bronx VA”) as a consultant and five years until she was hired as a full-time physicist."
+      }
+    ]
+  },
+  {
+    "id": "yalow_radioisotope_head",
+    "event_type": "role_change",
+    "label": "Became head of radioisotope unit",
+    "description": "Became the fledgling head of the nascent radioisotope unit at the Bronx VA.",
+    "date": {
+      "display": "1950",
+      "precision": "year",
+      "sort_start": "1950-01-01",
+      "sort_end": "1950-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rosalyn_yalow",
+        "role": "subject"
+      },
+      {
+        "entity_id": "bronx_va",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "roth_2011_tribute",
+        "page": 1,
+        "quote": "Through talent, hard work, and good luck, in 1950 Ros became the fledgling head of the nascent radioisotope unit at the Bronx VA."
+      }
+    ]
+  },
+  {
+    "id": "yalow_berson_partnership",
+    "event_type": "meeting",
+    "label": "Met Solomon Berson",
+    "description": "Introduced by Bernard Straus, began scientific partnership.",
+    "date": {
+      "display": "1950",
+      "precision": "year",
+      "sort_start": "1950-01-01",
+      "sort_end": "1950-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rosalyn_yalow",
+        "role": "subject"
+      },
+      {
+        "entity_id": "solomon_berson",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "roth_2011_tribute",
+        "page": 1,
+        "quote": "After the rejection of many candidates, Bernard Straus, the highly regarded chief of the medical service, introduced Ros to the smartest MD he had ever trained."
+      }
+    ]
+  },
+  {
+    "id": "yalow_1956_paper",
+    "event_type": "publication",
+    "label": "Published paper on anti-insulin antibodies",
+    "description": "Paper led to initial rejection by JCI due to use of term 'antibody'.",
+    "date": {
+      "display": "1956",
+      "precision": "year",
+      "sort_start": "1956-01-01",
+      "sort_end": "1956-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rosalyn_yalow",
+        "role": "subject"
+      },
+      {
+        "entity_id": "solomon_berson",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "journal_of_clinical_investigation",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "roth_2011_tribute",
+        "page": 1,
+        "quote": "Use of the term “antibody” in that 1956 paper led to its initial rejection by the JCI."
+      }
+    ]
+  },
+  {
+    "id": "yalow_1960_presentation",
+    "event_type": "public_demonstration",
+    "label": "Presented radioimmunoassay in Atlantic City",
+    "description": "Presented at the 52nd annual meeting of the American Society for Clinical Investigation.",
+    "date": {
+      "display": "May 2, 1960",
+      "precision": "day",
+      "sort_start": "1960-05-02",
+      "sort_end": "1960-05-02"
+    },
+    "location": "atlantic_city",
+    "participants": [
+      {
+        "entity_id": "rosalyn_yalow",
+        "role": "subject"
+      },
+      {
+        "entity_id": "american_society_for_clinical_investigation",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "roth_2011_tribute",
+        "page": 2,
+        "quote": "Late in the afternoon of May 2, 1960, as part of the plenary session of the 52nd annual meeting of the American Society for Clinical Investigation, the most prestigious venue for new biomedical science, Ros strode to the podium, introduced by Society president Robert Berliner."
+      }
+    ]
+  },
+  {
+    "id": "yalow_1960_publication",
+    "event_type": "publication",
+    "label": "Published RIA article in JCI",
+    "description": "19-page article remains one of the journal's most highly cited papers.",
+    "date": {
+      "display": "July 1960",
+      "precision": "month",
+      "sort_start": "1960-07-01",
+      "sort_end": "1960-07-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rosalyn_yalow",
+        "role": "subject"
+      },
+      {
+        "entity_id": "solomon_berson",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "journal_of_clinical_investigation",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "roth_2011_tribute",
+        "page": 2,
+        "quote": "The 19-page article in the JCI of July 1960 with all of the details of the assay remains one of the journal's most highly cited papers."
+      }
+    ]
+  },
+  {
+    "id": "berson_death",
+    "event_type": "death",
+    "label": "Solomon Berson died",
+    "description": "Died of a massive heart attack while attending a FASEB meeting.",
+    "date": {
+      "display": "April 1972",
+      "precision": "month",
+      "sort_start": "1972-04-01",
+      "sort_end": "1972-04-30"
+    },
+    "location": "atlantic_city",
+    "participants": [
+      {
+        "entity_id": "solomon_berson",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "roth_2011_tribute",
+        "page": 2,
+        "quote": "In April 1972, suddenly and unexpectedly, Sol Berson died of a massive heart attack while attending a FASEB meeting in Atlantic City, just a few days before his 54th birthday."
+      }
+    ]
+  },
+  {
+    "id": "yalow_nobel",
+    "event_type": "award",
+    "label": "Accepted Nobel Prize",
+    "description": "Accepted Nobel Prize in Physiology or Medicine from King Carl XVI Gustaf.",
+    "date": {
+      "display": "December 10, 1977",
+      "precision": "day",
+      "sort_start": "1977-12-10",
+      "sort_end": "1977-12-10"
+    },
+    "location": "stockholm",
+    "participants": [
+      {
+        "entity_id": "rosalyn_yalow",
+        "role": "subject"
+      },
+      {
+        "entity_id": "king_carl_xvi_gustaf",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "nobel_prize_physiology_medicine_1977",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "roth_2011_tribute",
+        "page": 1,
+        "quote": "Rosalyn S. Yalow accepting the Nobel Prize in Physiology or Medicine presented by King Carl XVI Gustaf of Sweden on December 10, 1977."
+      }
+    ]
+  },
+  {
+    "id": "yalow_death",
+    "event_type": "death",
+    "label": "Died",
+    "description": "Died after a decade and a half of physical and cognitive decline.",
+    "date": {
+      "display": "May 30, 2011",
+      "precision": "day",
+      "sort_start": "2011-05-30",
+      "sort_end": "2011-05-30"
+    },
+    "participants": [
+      {
+        "entity_id": "rosalyn_yalow",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "roth_2011_tribute",
+        "page": 1,
+        "quote": "On May 30, 2011, after a decade and a half of physical and cognitive decline, Rosalyn S. Yalow died, just before her ninetieth birthday."
+      }
+    ]
+  },
+  {
+    "id": "yalow_burial",
+    "event_type": "other",
+    "label": "Buried in New Jersey",
+    "description": "Buried on a green hillside in New Jersey, a short drive from the Bronx.",
+    "date": {
+      "display": "June 1, 2011",
+      "precision": "day",
+      "sort_start": "2011-06-01",
+      "sort_end": "2011-06-01"
+    },
+    "location": "new_jersey",
+    "participants": [
+      {
+        "entity_id": "rosalyn_yalow",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "roth_2011_tribute",
+        "page": 1,
+        "quote": "Two days later on a green hillside in New Jersey, a short drive from the Bronx, a dozen intimates gathered to bid farewell."
+      }
+    ]
+  }
+]

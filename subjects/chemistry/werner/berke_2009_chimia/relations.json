@@ -1,0 +1,179 @@
+[
+  {
+    "id": "werner_born_mulhouse",
+    "source": "alfred_werner",
+    "type": "born_in",
+    "target": "mulhouse",
+    "event_id": "werner_birth",
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 543,
+        "quote": "1866 Born in Mulhouse"
+      }
+    ]
+  },
+  {
+    "id": "werner_studied_eth",
+    "source": "alfred_werner",
+    "type": "studied_at",
+    "target": "eth_zurich",
+    "event_id": "werner_eth_enrollment",
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 542,
+        "quote": "His main chemistry endeavors started with his enrollment as student at the ETH Zürich in 1887."
+      }
+    ]
+  },
+  {
+    "id": "werner_educated_by_hantzsch",
+    "source": "alfred_werner",
+    "type": "educated_by",
+    "target": "hantzsch",
+    "event_id": "werner_phd",
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 543,
+        "quote": "1890 PhD with Prof. Hantzsch at ETH Zürich"
+      }
+    ]
+  },
+  {
+    "id": "werner_worked_uzh",
+    "source": "alfred_werner",
+    "type": "worked_at",
+    "target": "university_of_zurich",
+    "start": {
+      "display": "1893",
+      "precision": "year",
+      "sort_start": "1893-01-01",
+      "sort_end": "1893-12-31"
+    },
+    "end": {
+      "display": "1919",
+      "precision": "year",
+      "sort_start": "1919-01-01",
+      "sort_end": "1919-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 542,
+        "quote": "Based on this ability and his great chemistry accomplishments at the University of Zurich, he is regarded as the founder of coordination chemistry."
+      }
+    ]
+  },
+  {
+    "id": "werner_collab_miolati",
+    "source": "alfred_werner",
+    "type": "collaborated_with",
+    "target": "miolati",
+    "event_id": "werner_met_miolati",
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 542,
+        "quote": "After he received the 'call' to the University of Zurich as an associate professor in 1893 he made contact with Professor A. Miolati"
+      }
+    ]
+  },
+  {
+    "id": "werner_collab_king",
+    "source": "alfred_werner",
+    "type": "collaborated_with",
+    "target": "v_l_king",
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 542,
+        "quote": "The first optical resolution of complexes was carried out in 1911 by his American coworker V. L. King"
+      }
+    ]
+  },
+  {
+    "id": "werner_collab_schwenk",
+    "source": "alfred_werner",
+    "type": "collaborated_with",
+    "target": "c_schwenk",
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 542,
+        "quote": "the first chiral separation of a non-carbon containing purely inorganic complex was accomplished in 1913 by Alfred Werner's coworker C. Schwenk"
+      }
+    ]
+  },
+  {
+    "id": "werner_met_jorgensen",
+    "source": "alfred_werner",
+    "type": "met",
+    "target": "jorgensen",
+    "note": "chief scientific adversary",
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 542,
+        "quote": "Alfred Werner was never able to reconcile with his chief scientific adversary Jørgensen (University of Copenhagen)."
+      }
+    ]
+  },
+  {
+    "id": "werner_invented_coordination_theory",
+    "source": "alfred_werner",
+    "type": "invented",
+    "target": "werner_book",
+    "event_id": "werner_coordination_paper",
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 541,
+        "quote": "Alfred Werner (1866–1919) is regarded as the founder of coordination chemistry."
+      }
+    ]
+  },
+  {
+    "id": "werner_published_book",
+    "source": "alfred_werner",
+    "type": "published",
+    "target": "werner_book",
+    "event_id": "werner_book_published",
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 541,
+        "quote": "He was the author of the book entitled 'Neuere Anschauungen auf dem Gebiete der Anorganischen Chemie' (New Perspectives in Inorganic Chemistry)"
+      }
+    ]
+  },
+  {
+    "id": "werner_awarded_nobel",
+    "source": "alfred_werner",
+    "type": "awarded",
+    "target": "nobel_prize",
+    "event_id": "werner_nobel_prize",
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 542,
+        "quote": "Alfred Werner's outstanding contributions to coordination chemistry were also honored with the Nobel Prize"
+      }
+    ]
+  },
+  {
+    "id": "book_awarded_breakthrough",
+    "source": "werner_book",
+    "type": "awarded",
+    "target": "citation_breakthrough",
+    "event_id": "book_breakthrough_award",
+    "sources": [
+      {
+        "source_id": "berke_2009_chimia",
+        "page": 541,
+        "quote": "This book was recently awarded the 'Citation for Chemical Breakthrough' prize from the Division of the History of Chemistry of the American Chemical Society."
+      }
+    ]
+  }
+]

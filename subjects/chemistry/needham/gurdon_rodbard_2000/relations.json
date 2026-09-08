@@ -1,0 +1,163 @@
+[
+  {
+    "id": "needham_born_parents",
+    "source": "joseph_needham",
+    "type": "family_of",
+    "target": "joseph_needham_father",
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 1,
+        "quote": "Born on 9th December 1900 to Dr. Joseph and Alicia Adelaide Montgomery Needham"
+      }
+    ]
+  },
+  {
+    "id": "needham_studied_oundle",
+    "source": "joseph_needham",
+    "type": "studied_at",
+    "target": "oundle_school",
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 2,
+        "quote": "despatch of Joseph Needham to Oundle in Northamptonshire"
+      }
+    ]
+  },
+  {
+    "id": "needham_studied_caius",
+    "source": "joseph_needham",
+    "type": "studied_at",
+    "target": "gonville_and_caius_college",
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 2,
+        "quote": "Gonville and Caius College opened its doors in 1918 to Joseph Needham"
+      }
+    ]
+  },
+  {
+    "id": "needham_worked_biochem_lab",
+    "source": "joseph_needham",
+    "type": "worked_at",
+    "target": "cambridge_biochemical_laboratory",
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 2,
+        "quote": "admitted as a graduate student to the Cambridge Biochemical Laboratory"
+      }
+    ]
+  },
+  {
+    "id": "needham_supervised_hopkins",
+    "source": "joseph_needham",
+    "type": "supervised_by",
+    "target": "sir_frederick_gowland_hopkins",
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 2,
+        "quote": "under the aegis of that beloved fundator et primus abbas of modern biochemistry in England, Sir Frederick Gowland Hopkins"
+      }
+    ]
+  },
+  {
+    "id": "needham_married_dorothy",
+    "source": "joseph_needham",
+    "type": "married_to",
+    "target": "dorothy_moyle",
+    "event_id": "needham_marriage",
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 2,
+        "quote": "married a colleague, Dorothy Moyle"
+      }
+    ]
+  },
+  {
+    "id": "needham_collaborated_waddington",
+    "source": "joseph_needham",
+    "type": "collaborated_with",
+    "target": "ch_waddington",
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 4,
+        "quote": "Nearly all of Joseph Needham's work in this field was done in collaboration with C.H. Waddington"
+      }
+    ]
+  },
+  {
+    "id": "needham_collaborated_brachet",
+    "source": "joseph_needham",
+    "type": "collaborated_with",
+    "target": "albert_brachet",
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 4,
+        "quote": "he also had collaborative visits from Jean Brachet"
+      }
+    ]
+  },
+  {
+    "id": "needham_member_royal_society",
+    "source": "joseph_needham",
+    "type": "member_of",
+    "target": "royal_society",
+    "event_id": "needham_frs_election",
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 3,
+        "quote": "election to the Royal Society in 1941"
+      }
+    ]
+  },
+  {
+    "id": "needham_authored_chemical_embryology",
+    "source": "joseph_needham",
+    "type": "published",
+    "target": "chemical_embryology",
+    "event_id": "needham_chemical_embryology_pub",
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 3,
+        "quote": "he had published his mammoth Chemical Embryology"
+      }
+    ]
+  },
+  {
+    "id": "needham_authored_biochem_morphogenesis",
+    "source": "joseph_needham",
+    "type": "published",
+    "target": "biochemistry_and_morphogenesis",
+    "event_id": "needham_biochem_morphogenesis_pub",
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 4,
+        "quote": "Joseph Needham's second major work 'Biochemistry and Morphogenesis' was published in 1942"
+      }
+    ]
+  },
+  {
+    "id": "needham_authored_china_book",
+    "source": "joseph_needham",
+    "type": "published",
+    "target": "science_and_civilisation_in_china",
+    "event_id": "needham_china_book_start",
+    "sources": [
+      {
+        "source_id": "gurdon_rodbard_2000",
+        "page": 5,
+        "quote": "began work on his multi-volume treatise on Science and Civilisation in China"
+      }
+    ]
+  }
+]
