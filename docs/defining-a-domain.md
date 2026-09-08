@@ -122,10 +122,15 @@ belongs in this collection.
   - Open by stating positively what a historically significant part of the
     person's contribution must be TO, naming concrete areas of {{FIELD}} rather
     than gesturing at the field as a whole.
-  - Then write "Reject anyone whose significance lies outside that:" and list the
-    neighbouring fields most easily confused with this one -- at minimum
-    {{NEIGHBOURS_TO_EXCLUDE}}, plus any others you judge necessary. This half
-    matters more than the first: without it, everyone adjacent drifts in.
+  - Then write "Reject anyone whose principal significance lies in any other
+    field." followed by the neighbouring fields most easily CONFUSED with this
+    one -- at minimum {{NEIGHBOURS_TO_EXCLUDE}}, plus any others you judge
+    necessary. This half matters more than the first: without it, everyone
+    adjacent drifts in.
+  - Name those neighbours as intrinsic boundaries of the field itself, NOT as a
+    list of what else is being collected. Physics is confusable with chemistry
+    and astronomy whether or not those are separate collections here, so a
+    statement written this way never needs revising when a domain is added.
   - Address a judge, not a reader. It is an instruction, not a description.
   - Be decisive. Every vague clause admits noise for the lifetime of the
     collection.
@@ -153,7 +158,16 @@ Three placeholders:
 |---|---|---|
 | `{{FIELD}}` | The discipline, as you would say it aloud | `mechanical engineering, including its historical roots in machines, engines and manufacture` |
 | `{{SHORT_NAME}}` | Lowercase name for prompts and log lines | `mechanical engineering` |
-| `{{NEIGHBOURS_TO_EXCLUDE}}` | The confusable neighbours, as a hint | `physics without an engineering contribution; materials science; civil and structural engineering; electrical engineering; mathematics` |
+| `{{NEIGHBOURS_TO_EXCLUDE}}` | The neighbours a judge could plausibly confuse with this field — an intrinsic property of the field, not a list of other collections | `physics without an engineering contribution; materials science; civil and structural engineering; electrical engineering; mathematics` |
+
+### Overlap between domains is expected
+
+Two domains will name some of the same people, and that is fine rather than a
+defect: subjects merge by identity, so the first domain to document someone keeps
+them and a later domain adds a *document* to that subject rather than a duplicate
+(see "Where subjects are stored"). The exclusion clause exists to stop a
+collection filling with people whose reputation lies elsewhere — not to partition
+the sciences, which are not partitionable.
 
 Check the result before running it — a malformed file is refused at load, but a
 thin one merely wastes a run:
