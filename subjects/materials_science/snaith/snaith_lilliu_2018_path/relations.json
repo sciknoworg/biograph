@@ -1,0 +1,107 @@
+[
+  {
+    "id": "snaith_employed_oxford",
+    "source": "henry_j_snaith",
+    "type": "employed_by",
+    "target": "university_of_oxford",
+    "sources": [
+      {
+        "source_id": "snaith_lilliu_2018_path",
+        "page": 1,
+        "quote": "Henry J. Snaith is Professor of Physics in the Clarendon Laboratory at the University of Oxford and Fellow of the Royal Society."
+      }
+    ]
+  },
+  {
+    "id": "snaith_founded_oxford_pv",
+    "source": "henry_j_snaith",
+    "type": "founded",
+    "target": "oxford_photovoltaics",
+    "sources": [
+      {
+        "source_id": "snaith_lilliu_2018_path",
+        "page": 1,
+        "quote": "He is the founder and Chief Scientist Officer of Oxford Photovoltaics, which holds the largest perovskite patent portfolio worldwide and focuses on developing and commercialising perovskite PV technology."
+      }
+    ]
+  },
+  {
+    "id": "snaith_collab_miyasaka",
+    "source": "henry_j_snaith",
+    "type": "collaborated_with",
+    "target": "tsutomu_miyasaka",
+    "sources": [
+      {
+        "source_id": "snaith_lilliu_2018_path",
+        "page": 1,
+        "quote": "I first became aware of metal halide perovskites in 2009, when visiting some colleagues and collaborators in Japan."
+      }
+    ]
+  },
+  {
+    "id": "snaith_collab_murakami",
+    "source": "henry_j_snaith",
+    "type": "collaborated_with",
+    "target": "takurou_murakami",
+    "sources": [
+      {
+        "source_id": "snaith_lilliu_2018_path",
+        "page": 1,
+        "quote": "I subsequently returned to the UK and managed to get a collaborative grant with one of my colleagues Takurou Murakami"
+      }
+    ]
+  },
+  {
+    "id": "snaith_collab_hacke",
+    "source": "henry_j_snaith",
+    "type": "collaborated_with",
+    "target": "peter_hacke",
+    "sources": [
+      {
+        "source_id": "snaith_lilliu_2018_path",
+        "page": 3,
+        "quote": "I have had the pleasure of recently working with Peter Hacke from NREL and writing a paper on stability for perovskite solar cells."
+      }
+    ]
+  },
+  {
+    "id": "oxford_pv_facility_brandenburg",
+    "source": "oxford_photovoltaics",
+    "type": "lived_in",
+    "target": "brandenburg",
+    "note": "Facility location",
+    "sources": [
+      {
+        "source_id": "snaith_lilliu_2018_path",
+        "page": 4,
+        "quote": "made in the Oxford PV facility in Brandenburg (Germany), where we are scaling up to full size."
+      }
+    ]
+  },
+  {
+    "id": "snaith_mentored_wang",
+    "source": "henry_j_snaith",
+    "type": "mentored",
+    "target": "zhiping_wang",
+    "sources": [
+      {
+        "source_id": "snaith_lilliu_2018_path",
+        "page": 3,
+        "quote": "I would have to give some credit to my postdocs Zhiping Wang and Qianqian Lin, who one day showed me some of their results of intensity dependent measurements of perovskite solar cells."
+      }
+    ]
+  },
+  {
+    "id": "snaith_mentored_lin",
+    "source": "henry_j_snaith",
+    "type": "mentored",
+    "target": "qianqian_lin",
+    "sources": [
+      {
+        "source_id": "snaith_lilliu_2018_path",
+        "page": 3,
+        "quote": "I would have to give some credit to my postdocs Zhiping Wang and Qianqian Lin, who one day showed me some of their results of intensity dependent measurements of perovskite solar cells."
+      }
+    ]
+  }
+]

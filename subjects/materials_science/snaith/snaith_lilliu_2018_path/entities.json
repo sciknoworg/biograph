@@ -1,0 +1,174 @@
+[
+  {
+    "aliases": [
+      "HS",
+      "Henry Snaith"
+    ],
+    "entity_type": "person",
+    "id": "henry_j_snaith",
+    "name": "Henry J. Snaith",
+    "subtype": "researcher",
+    "summary": "Professor of Physics at University of Oxford and pioneer of perovskite solar cells."
+  },
+  {
+    "aliases": [
+      "SL"
+    ],
+    "entity_type": "person",
+    "id": "samuele_lilliu",
+    "name": "Samuele Lilliu",
+    "subtype": "researcher",
+    "summary": "Interviewer and co-author of the source document."
+  },
+  {
+    "aliases": [
+      "Tom Miyasaka",
+      "Prof. Tsutomu (Tom) Miyasaka"
+    ],
+    "entity_type": "person",
+    "id": "tsutomu_miyasaka",
+    "name": "Tsutomu Miyasaka",
+    "subtype": "researcher",
+    "summary": "Professor at Toin University of Yokohama who published the first paper on perovskite solar cells."
+  },
+  {
+    "aliases": [
+      "Murakami"
+    ],
+    "entity_type": "person",
+    "id": "takurou_murakami",
+    "name": "Takurou Murakami",
+    "subtype": "researcher",
+    "summary": "Colleague with whom Snaith secured a collaborative grant."
+  },
+  {
+    "aliases": [
+      "Hacke"
+    ],
+    "entity_type": "person",
+    "id": "peter_hacke",
+    "name": "Peter Hacke",
+    "subtype": "researcher",
+    "summary": "Researcher at NREL who co-authored a stability paper with Snaith."
+  },
+  {
+    "aliases": [
+      "Wang"
+    ],
+    "entity_type": "person",
+    "id": "zhiping_wang",
+    "name": "Zhiping Wang",
+    "subtype": "researcher",
+    "summary": "Postdoc in Snaith's lab who worked on concentrator photovoltaics."
+  },
+  {
+    "aliases": [
+      "Lin"
+    ],
+    "entity_type": "person",
+    "id": "qianqian_lin",
+    "name": "Qianqian Lin",
+    "subtype": "researcher",
+    "summary": "Postdoc in Snaith's lab who worked on concentrator photovoltaics."
+  },
+  {
+    "aliases": [
+      "Oxford",
+      "Clarendon Laboratory"
+    ],
+    "attributes": {
+      "country": "UK"
+    },
+    "entity_type": "organization",
+    "id": "university_of_oxford",
+    "name": "University of Oxford",
+    "subtype": "university",
+    "summary": "University where Henry Snaith holds a professorship in the Clarendon Laboratory."
+  },
+  {
+    "aliases": [
+      "Oxford PV"
+    ],
+    "entity_type": "organization",
+    "id": "oxford_photovoltaics",
+    "name": "Oxford Photovoltaics",
+    "subtype": "company",
+    "summary": "Company founded by Henry Snaith focusing on perovskite on silicon technology."
+  },
+  {
+    "aliases": [
+      "Toin University"
+    ],
+    "attributes": {
+      "country": "Japan"
+    },
+    "entity_type": "organization",
+    "id": "toin_university_of_yokohama",
+    "name": "Toin University of Yokohama",
+    "subtype": "university",
+    "summary": "Japanese university where Tsutomu Miyasaka works."
+  },
+  {
+    "aliases": [
+      "National Renewable Energy Laboratory"
+    ],
+    "attributes": {
+      "country": "US"
+    },
+    "entity_type": "organization",
+    "id": "nrel",
+    "name": "NREL",
+    "subtype": "lab",
+    "summary": "Laboratory where Peter Hacke works."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "japan",
+    "name": "Japan",
+    "subtype": "country",
+    "summary": "Country visited by Snaith in 2009."
+  },
+  {
+    "aliases": [
+      "United Kingdom"
+    ],
+    "entity_type": "place",
+    "id": "uk",
+    "name": "UK",
+    "subtype": "country",
+    "summary": "Country where Snaith returned after visiting Japan."
+  },
+  {
+    "aliases": [
+      "Brandenburg (Germany)"
+    ],
+    "attributes": {
+      "country": "Germany"
+    },
+    "entity_type": "place",
+    "id": "brandenburg",
+    "name": "Brandenburg",
+    "subtype": "city",
+    "summary": "Location of the Oxford PV facility."
+  },
+  {
+    "aliases": [
+      "Perovskite PV",
+      "Perovskite devices"
+    ],
+    "entity_type": "artifact",
+    "id": "perovskite_solar_cells",
+    "name": "Perovskite solar cells",
+    "subtype": "technology",
+    "summary": "Photovoltaic technology pioneered by Snaith using metal halide perovskites."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "oxford_pv_facility",
+    "name": "Oxford PV facility",
+    "subtype": "facility",
+    "summary": "Manufacturing facility owned by Oxford Photovoltaics."
+  }
+]

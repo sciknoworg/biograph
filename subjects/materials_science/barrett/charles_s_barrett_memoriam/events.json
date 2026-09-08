@@ -1,0 +1,399 @@
+[
+  {
+    "id": "barrett_birth",
+    "event_type": "birth",
+    "label": "Born in Vermillion, South Dakota",
+    "date": {
+      "display": "1902",
+      "precision": "year",
+      "sort_start": "1902-01-01",
+      "sort_end": "1902-12-31"
+    },
+    "location": "vermillion_south_dakota",
+    "participants": [
+      {
+        "entity_id": "charles_s_barrett",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "charles_s_barrett_memoriam",
+        "page": 1,
+        "quote": "He was born in 1902 at Vermillion, South Dakota."
+      }
+    ]
+  },
+  {
+    "id": "barrett_bs",
+    "event_type": "education",
+    "label": "Obtained B.S. degree in Engineering",
+    "date": {
+      "display": "1925",
+      "precision": "year",
+      "sort_start": "1925-01-01",
+      "sort_end": "1925-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "charles_s_barrett",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_south_dakota",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "charles_s_barrett_memoriam",
+        "page": 1,
+        "quote": "He obtained his B.S. degree in Engi­neering at the University of South Dakota in 1925"
+      }
+    ]
+  },
+  {
+    "id": "barrett_phd",
+    "event_type": "education",
+    "label": "Obtained PhD in Physics",
+    "date": {
+      "display": "1928",
+      "precision": "year",
+      "sort_start": "1928-01-01",
+      "sort_end": "1928-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "charles_s_barrett",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_chicago",
+        "role": "educator"
+      },
+      {
+        "entity_id": "a_h_compton",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "charles_s_barrett_memoriam",
+        "page": 1,
+        "quote": "and his PhD at the University of Chicago in 1928."
+      }
+    ]
+  },
+  {
+    "id": "barrett_nrl_start",
+    "event_type": "employment_start",
+    "label": "Started work at Naval Research Laboratory",
+    "date": {
+      "display": "1928",
+      "precision": "year",
+      "sort_start": "1928-01-01",
+      "sort_end": "1928-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "charles_s_barrett",
+        "role": "subject"
+      },
+      {
+        "entity_id": "naval_research_laboratory",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "charles_s_barrett_memoriam",
+        "page": 1,
+        "quote": "His early professional years were spent at the Naval Research Laboratory"
+      }
+    ]
+  },
+  {
+    "id": "barrett_carnegie_start",
+    "event_type": "employment_start",
+    "label": "Started work at Carnegie Institute of Technology",
+    "date": {
+      "display": "1932",
+      "precision": "year",
+      "sort_start": "1932-01-01",
+      "sort_end": "1932-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "charles_s_barrett",
+        "role": "subject"
+      },
+      {
+        "entity_id": "carnegie_institute_of_technology",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "charles_s_barrett_memoriam",
+        "page": 1,
+        "quote": "The years from 1932 to 1946 were spent at the Carnegie Institute of Technology in Pittsburgh"
+      }
+    ]
+  },
+  {
+    "id": "barrett_carnegie_end",
+    "event_type": "employment_end",
+    "label": "Ended work at Carnegie Institute of Technology",
+    "date": {
+      "display": "1946",
+      "precision": "year",
+      "sort_start": "1946-01-01",
+      "sort_end": "1946-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "charles_s_barrett",
+        "role": "subject"
+      },
+      {
+        "entity_id": "carnegie_institute_of_technology",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "charles_s_barrett_memoriam",
+        "page": 1,
+        "quote": "The years from 1932 to 1946 were spent at the Carnegie Institute of Technology in Pittsburgh"
+      }
+    ]
+  },
+  {
+    "id": "barrett_book_1st",
+    "event_type": "publication",
+    "label": "Published The Structure of Metals (1st edition)",
+    "date": {
+      "display": "1943",
+      "precision": "year",
+      "sort_start": "1943-01-01",
+      "sort_end": "1943-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "charles_s_barrett",
+        "role": "subject"
+      },
+      {
+        "entity_id": "the_structure_of_metals",
+        "role": "publication"
+      },
+      {
+        "entity_id": "mcgraw_hill",
+        "role": "publisher"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "charles_s_barrett_memoriam",
+        "page": 1,
+        "quote": "The resulting book: \"The Structure of Metals,\" published by McGraw Hill, first appeared in 1943."
+      }
+    ]
+  },
+  {
+    "id": "barrett_chicago_start",
+    "event_type": "employment_start",
+    "label": "Started professorship at University of Chicago",
+    "date": {
+      "display": "1946",
+      "precision": "year",
+      "sort_start": "1946-01-01",
+      "sort_end": "1946-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "charles_s_barrett",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_chicago",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "charles_s_barrett_memoriam",
+        "page": 2,
+        "quote": "From 1946 to 1971, Dr. Barrett was a professor in the Institute for the Study of Metals"
+      }
+    ]
+  },
+  {
+    "id": "barrett_book_2nd",
+    "event_type": "publication",
+    "label": "Published The Structure of Metals (2nd edition)",
+    "date": {
+      "display": "1952",
+      "precision": "year",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "charles_s_barrett",
+        "role": "subject"
+      },
+      {
+        "entity_id": "the_structure_of_metals",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "charles_s_barrett_memoriam",
+        "page": 2,
+        "quote": "A second edition appeared in 1952"
+      }
+    ]
+  },
+  {
+    "id": "barrett_nas",
+    "event_type": "award",
+    "label": "Elected to U.S. National Academy of Sciences",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "charles_s_barrett",
+        "role": "subject"
+      },
+      {
+        "entity_id": "us_national_academy_of_sciences",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "charles_s_barrett_memoriam",
+        "page": 2,
+        "quote": "In 1967 he was elected to the U.S. National Academy of Sciences."
+      }
+    ]
+  },
+  {
+    "id": "barrett_book_3rd",
+    "event_type": "publication",
+    "label": "Published The Structure of Metals (3rd edition)",
+    "date": {
+      "display": "1966",
+      "precision": "year",
+      "sort_start": "1966-01-01",
+      "sort_end": "1966-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "charles_s_barrett",
+        "role": "subject"
+      },
+      {
+        "entity_id": "the_structure_of_metals",
+        "role": "publication"
+      },
+      {
+        "entity_id": "t_b_massalski",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "charles_s_barrett_memoriam",
+        "page": 2,
+        "quote": "and a third edition (with T. B. Massalski as co-author) in 1966."
+      }
+    ]
+  },
+  {
+    "id": "barrett_denver_start",
+    "event_type": "employment_start",
+    "label": "Started professorship at University of Denver",
+    "date": {
+      "display": "1971",
+      "precision": "year",
+      "sort_start": "1971-01-01",
+      "sort_end": "1971-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "charles_s_barrett",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_denver",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "charles_s_barrett_memoriam",
+        "page": 2,
+        "quote": "In 1971 after \"retiring\" from the University of Chicago, he moved to the University of Denver as professor"
+      }
+    ]
+  },
+  {
+    "id": "barrett_chicago_end",
+    "event_type": "employment_end",
+    "label": "Retired from University of Chicago",
+    "date": {
+      "display": "1971",
+      "precision": "year",
+      "sort_start": "1971-01-01",
+      "sort_end": "1971-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "charles_s_barrett",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_chicago",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "charles_s_barrett_memoriam",
+        "page": 2,
+        "quote": "In 1971 after \"retiring\" from the University of Chicago"
+      }
+    ]
+  },
+  {
+    "id": "barrett_death",
+    "event_type": "death",
+    "label": "Died in July 1994",
+    "date": {
+      "display": "July, 1994",
+      "precision": "month",
+      "sort_start": "1994-07-01",
+      "sort_end": "1994-07-31"
+    },
+    "participants": [
+      {
+        "entity_id": "charles_s_barrett",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "charles_s_barrett_memoriam",
+        "page": 2,
+        "quote": "From the early 1970's until his death in July, 1994"
+      }
+    ]
+  }
+]

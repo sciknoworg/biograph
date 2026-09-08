@@ -1,0 +1,105 @@
+[
+  {
+    "id": "john_walker",
+    "entity_type": "person",
+    "name": "John Walker",
+    "aliases": [
+      "Rev. Dr John Walker",
+      "Professor John Walker",
+      "John Walker, D.D., F.R.S.E."
+    ],
+    "summary": "Scottish naturalist and Professor of Natural History at the University of Edinburgh known for his chemically-based mineralogical classification system.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "university_of_edinburgh",
+    "entity_type": "organization",
+    "name": "University of Edinburgh",
+    "aliases": [
+      "University of Edinburgh's Medical School",
+      "Medical Faculty"
+    ],
+    "summary": "Scottish university where Walker served as Professor of Natural History.",
+    "subtype": "university"
+  },
+  {
+    "id": "william_cullen",
+    "entity_type": "person",
+    "name": "William Cullen",
+    "aliases": [
+      "Professor William Cullen",
+      "Dr. Cullen"
+    ],
+    "summary": "Edinburgh physician and chemist who instructed Walker during the 1750s.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "joseph_black",
+    "entity_type": "person",
+    "name": "Joseph Black",
+    "aliases": [
+      "Dr. Joseph Black",
+      "Black"
+    ],
+    "summary": "Edinburgh chemist and contemporary of Walker whose lecture notes were published in 1803.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "torbern_olaf_bergman",
+    "entity_type": "person",
+    "name": "Torbern Olaf Bergman",
+    "aliases": [
+      "Bergman",
+      "Torbern Bergman"
+    ],
+    "summary": "Swedish chemist whose Outlines of Mineralogy influenced Walker's system.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "david_pollock",
+    "entity_type": "person",
+    "name": "David Pollock",
+    "aliases": [
+      "Sir David Pollock",
+      "(Sir) David Pollock"
+    ],
+    "summary": "Law student at Edinburgh who took detailed stenographed notes of Walker's 1797 lectures.",
+    "subtype": "student"
+  },
+  {
+    "id": "schediasma_fossilium",
+    "entity_type": "artifact",
+    "name": "Schediasma Fossilium",
+    "aliases": [],
+    "summary": "Walker's first comprehensive mineralogical system created in 1781 consisting of eighteen classes.",
+    "subtype": "publication"
+  },
+  {
+    "id": "classes_fossilium",
+    "entity_type": "artifact",
+    "name": "Classes Fossilium",
+    "aliases": [
+      "Classes Fossilium: Sive, Characteres Naturales et Chymici Classium et Ordinum in Systemate Minerali"
+    ],
+    "summary": "1787 publication containing augmentations of Walker's Schediasma Fossilium.",
+    "subtype": "publication"
+  },
+  {
+    "id": "institutes_of_natural_history",
+    "entity_type": "artifact",
+    "name": "Institutes of Natural History",
+    "aliases": [
+      "Institutes of Natural History; Containing the Heads of Lectures in Natural History"
+    ],
+    "summary": "1792 publication containing the heads of Walker's lectures.",
+    "subtype": "publication"
+  },
+  {
+    "id": "systema_fossilium",
+    "entity_type": "artifact",
+    "name": "Systema Fossilium",
+    "aliases": [],
+    "summary": "Walker's final mineralogical system created around 1795 consisting of nineteen classes.",
+    "subtype": "publication"
+  }
+]

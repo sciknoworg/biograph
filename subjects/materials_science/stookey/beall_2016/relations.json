@@ -1,0 +1,282 @@
+[
+  {
+    "id": "stookey_born_hay_springs",
+    "source": "stookey_s_donald",
+    "type": "born_in",
+    "target": "hay_springs_ne",
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 1,
+        "quote": "Don was born at Hay Springs, Nebraska on May 23, 1915."
+      }
+    ]
+  },
+  {
+    "id": "stookey_lived_cedar_rapids",
+    "source": "stookey_s_donald",
+    "type": "lived_in",
+    "target": "cedar_rapids_ia",
+    "start": {
+      "display": "1921",
+      "precision": "year",
+      "sort_start": "1921-01-01",
+      "sort_end": "1921-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 1,
+        "quote": "His family moved to Cedar Rapids Iowa in 1921."
+      }
+    ]
+  },
+  {
+    "id": "stookey_studied_coe",
+    "source": "stookey_s_donald",
+    "type": "studied_at",
+    "target": "coe_college",
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 1,
+        "quote": "He graduated with a B.A. in Mathematics and Chemistry from Coe College in 1936."
+      }
+    ]
+  },
+  {
+    "id": "stookey_studied_lafayette",
+    "source": "stookey_s_donald",
+    "type": "studied_at",
+    "target": "lafayette_college",
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 1,
+        "quote": "He then received a master's degree in Chemistry from Lafayette College in Easton, PA, USA, in 1938"
+      }
+    ]
+  },
+  {
+    "id": "stookey_studied_mit",
+    "source": "stookey_s_donald",
+    "type": "studied_at",
+    "target": "mit",
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 1,
+        "quote": "and went on to earn a Ph.D. in Physical Chemistry from Massachusetts Institute of Technology in 1940."
+      }
+    ]
+  },
+  {
+    "id": "stookey_married_ruth",
+    "source": "stookey_s_donald",
+    "type": "married_to",
+    "target": "watterson_ruth",
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 1,
+        "quote": "He married his Coe College sweetheart, Ruth Watterson, in the same year."
+      }
+    ]
+  },
+  {
+    "id": "stookey_worked_corning",
+    "source": "stookey_s_donald",
+    "type": "worked_at",
+    "target": "corning_incorporated",
+    "start": {
+      "display": "1940",
+      "precision": "year",
+      "sort_start": "1940-01-01",
+      "sort_end": "1940-12-31"
+    },
+    "end": {
+      "display": "1990",
+      "precision": "year",
+      "sort_start": "1990-01-01",
+      "sort_end": "1990-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 1,
+        "quote": "Don Stookey (Figure 1) was a well-known and highly respected scientist at Corning Incorporated, formerly Corning Glass Works, for 50 years (1940–1990)."
+      }
+    ]
+  },
+  {
+    "id": "stookey_invented_fotalite",
+    "source": "stookey_s_donald",
+    "type": "invented",
+    "target": "fotalite",
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 1,
+        "quote": "His early work on dense opal glasses and photosensitive precipitation of gold and silver in glass led to an amazing series of inventions: Fotalite®, a photosensitive opal"
+      }
+    ]
+  },
+  {
+    "id": "stookey_invented_fotoform",
+    "source": "stookey_s_donald",
+    "type": "invented",
+    "target": "fotoform",
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 3,
+        "quote": "This new photo-etchable material was called Fotoform®"
+      }
+    ]
+  },
+  {
+    "id": "stookey_invented_fotoceram",
+    "source": "stookey_s_donald",
+    "type": "invented",
+    "target": "fotoceram",
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 3,
+        "quote": "This first glass–ceramic, called Fotoceram®, was predominantly crystalline (lithium disilicate) and stronger than Fotoform ®"
+      }
+    ]
+  },
+  {
+    "id": "stookey_invented_pyroceram",
+    "source": "stookey_s_donald",
+    "type": "invented",
+    "target": "pyroceram",
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 1,
+        "quote": "and TiO2-nucleated Pyroceram™ products including missile nosecones and oven-proof cookware."
+      }
+    ]
+  },
+  {
+    "id": "stookey_invented_corningware",
+    "source": "stookey_s_donald",
+    "type": "invented",
+    "target": "corningware",
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 1,
+        "quote": "including Corningware® cookware"
+      }
+    ]
+  },
+  {
+    "id": "stookey_invented_photochromic",
+    "source": "stookey_s_donald",
+    "type": "invented",
+    "target": "photochromic_glass",
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 1,
+        "quote": "Don was able to demonstrate a clear photochromic glass that showed reversible darkening for thousands of cycles."
+      }
+    ]
+  },
+  {
+    "id": "stookey_invented_polychromatic",
+    "source": "stookey_s_donald",
+    "type": "invented",
+    "target": "polychromatic_glass",
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 1,
+        "quote": "He went on to invent a full-color polychromatic glass, capable of yielding a permanent patterned and monolithic stained glass."
+      }
+    ]
+  },
+  {
+    "id": "stookey_mentored_beall",
+    "source": "stookey_s_donald",
+    "type": "mentored",
+    "target": "beall_george_h",
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 7,
+        "quote": "Don mentored many younger scientists, including me"
+      }
+    ]
+  },
+  {
+    "id": "stookey_friend_houghton",
+    "source": "stookey_s_donald",
+    "type": "collaborated_with",
+    "target": "houghton_amory_jr",
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 7,
+        "quote": "He had a great professional relationship with Amory Houghton, Jr. former Chief Executive Officer of Corning Incorporated and multi-term Congressman, and they became lifelong friends."
+      }
+    ]
+  },
+  {
+    "id": "stookey_friend_pierson",
+    "source": "stookey_s_donald",
+    "type": "collaborated_with",
+    "target": "pierson_joe",
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 7,
+        "quote": "He also met regularly with his long-time technician and friend, Joe Pierson."
+      }
+    ]
+  },
+  {
+    "id": "stookey_chaired_dayspring",
+    "source": "stookey_s_donald",
+    "type": "member_of",
+    "target": "dayspring",
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 6,
+        "quote": "He was a member of the First United Methodist Church, and in this capacity, he chaired an interfaith committee that was responsible for the development of Dayspring, a home for the elderly in the city of Corning."
+      }
+    ]
+  },
+  {
+    "id": "stookey_awarded_phoenix",
+    "source": "stookey_s_donald",
+    "type": "awarded",
+    "target": "phoenix_award",
+    "event_id": "stookey_phoenix_award",
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 7,
+        "quote": "10. Phoenix Award of the Glass Industry (1975)."
+      }
+    ]
+  },
+  {
+    "id": "stookey_awarded_national_medal",
+    "source": "stookey_s_donald",
+    "type": "awarded",
+    "target": "national_medal_of_technology",
+    "event_id": "stookey_national_medal_technology",
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 8,
+        "quote": "15. National Medal of Technology presented by President Ronald Reagan (1986)."
+      }
+    ]
+  }
+]

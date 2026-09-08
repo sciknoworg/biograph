@@ -1,0 +1,490 @@
+[
+  {
+    "id": "seeman_birth",
+    "event_type": "birth",
+    "label": "Born in Chicago",
+    "date": {
+      "display": "1945",
+      "precision": "year",
+      "sort_start": "1945-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nadrian_c_seeman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "chicago",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hargittai_2022_obituary",
+        "page": 1,
+        "quote": "Nadrian (Ned) C. Seeman (1945–2021, Figs. 1 and 2) was born in Chicago."
+      }
+    ]
+  },
+  {
+    "id": "seeman_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "2021",
+      "precision": "year",
+      "sort_start": "2021-01-01",
+      "sort_end": "2021-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nadrian_c_seeman",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hargittai_2022_obituary",
+        "page": 1,
+        "quote": "Nadrian C. Seeman (1945–2021): pioneer of DNA nanotechnology"
+      }
+    ]
+  },
+  {
+    "id": "seeman_undergrad_chicago",
+    "event_type": "education",
+    "label": "Medical undergraduate at University of Chicago",
+    "date": {
+      "display": "circa 1960s",
+      "precision": "decade",
+      "sort_start": "1960-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nadrian_c_seeman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_chicago",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hargittai_2022_obituary",
+        "page": 1,
+        "quote": "While being a medical undergraduate at the University of Chicago, he realized that research could also be a profession and decided to pursue such a career."
+      }
+    ]
+  },
+  {
+    "id": "seeman_phd_chicago",
+    "event_type": "education",
+    "label": "Earned PhD in biochemistry at University of Chicago",
+    "date": {
+      "display": "circa 1960s",
+      "precision": "decade",
+      "sort_start": "1960-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nadrian_c_seeman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_chicago",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hargittai_2022_obituary",
+        "page": 1,
+        "quote": "He earned his PhD in biochemistry at the University of Chicago"
+      }
+    ]
+  },
+  {
+    "id": "seeman_postdoc_columbia",
+    "event_type": "employment_start",
+    "label": "Postdoctoral work at Columbia University",
+    "date": {
+      "display": "circa 1970s",
+      "precision": "decade",
+      "sort_start": "1970-01-01",
+      "sort_end": "1979-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nadrian_c_seeman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "columbia_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hargittai_2022_obituary",
+        "page": 2,
+        "quote": "followed by postdoctoral work first at Columbia University"
+      }
+    ]
+  },
+  {
+    "id": "seeman_postdoc_mit",
+    "event_type": "employment_start",
+    "label": "Postdoctoral work with Alexander Rich at MIT",
+    "date": {
+      "display": "circa 1970s",
+      "precision": "decade",
+      "sort_start": "1970-01-01",
+      "sort_end": "1979-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nadrian_c_seeman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "massachusetts_institute_of_technology",
+        "role": "employer"
+      },
+      {
+        "entity_id": "alexander_rich",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hargittai_2022_obituary",
+        "page": 2,
+        "quote": "and, then, with the legendary crystallographer, Alexander Rich, at the Massachusetts Institute of Technology."
+      }
+    ]
+  },
+  {
+    "id": "seeman_appointed_albany",
+    "event_type": "employment_start",
+    "label": "Appointed to Biology Department of SUNY Albany",
+    "date": {
+      "display": "1977",
+      "precision": "year",
+      "sort_start": "1977-01-01",
+      "sort_end": "1977-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nadrian_c_seeman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "state_university_of_new_york_at_albany",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hargittai_2022_obituary",
+        "page": 2,
+        "quote": "In 1977, Seeman was appointed to the Biology Department of the State University of New York at Albany."
+      }
+    ]
+  },
+  {
+    "id": "seeman_holliday_junction_concept",
+    "event_type": "invention",
+    "label": "Stumbled upon concept of Holliday junction",
+    "date": {
+      "display": "after 1977",
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1979-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nadrian_c_seeman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "holliday_junction",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hargittai_2022_obituary",
+        "page": 2,
+        "quote": "There, while not especially successful in various projects, he stumbled upon the concept of the so-called Holliday junction, which caught his imagination."
+      }
+    ]
+  },
+  {
+    "id": "seeman_dna_construction_idea",
+    "event_type": "invention",
+    "label": "Started thinking about using DNA molecules for construction",
+    "date": {
+      "display": "1980",
+      "precision": "year",
+      "sort_start": "1980-01-01",
+      "sort_end": "1980-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nadrian_c_seeman",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hargittai_2022_obituary",
+        "page": 3,
+        "quote": "Seeman started thinking about using DNA molecules for such purpose in 1980 soon after he had come across the concept of Holliday junction mentioned above."
+      }
+    ]
+  },
+  {
+    "id": "seeman_faculty_nyu",
+    "event_type": "employment_start",
+    "label": "Became member of Faculty of Department of Chemistry at NYU",
+    "date": {
+      "display": "early 1980s",
+      "precision": "range",
+      "sort_start": "1980-01-01",
+      "sort_end": "1984-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nadrian_c_seeman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "new_york_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hargittai_2022_obituary",
+        "page": 2,
+        "quote": "By then, he had already become a member of the Faculty of the Department of Chemistry of New York University where he stayed to the end of his life."
+      }
+    ]
+  },
+  {
+    "id": "seeman_pub_chemical_intelligencer",
+    "event_type": "publication",
+    "label": "Published 'Molecular craftwork with DNA'",
+    "date": {
+      "display": "1995",
+      "precision": "year",
+      "sort_start": "1995-01-01",
+      "sort_end": "1995-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nadrian_c_seeman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "molecular_craftwork_with_dna",
+        "role": "invention"
+      },
+      {
+        "entity_id": "the_chemical_intelligencer",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hargittai_2022_obituary",
+        "page": 2,
+        "quote": "Among his many research papers, he published a beautiful article, one of the first features in the fledgling magazine of the culture of chemistry, The Chemical Intelligencer [1]."
+      }
+    ]
+  },
+  {
+    "id": "seeman_guggenheim_fellowship",
+    "event_type": "award",
+    "label": "Awarded John Simon Guggenheim Fellowship",
+    "date": {
+      "display": "2010–2011",
+      "precision": "range",
+      "sort_start": "2010-01-01",
+      "sort_end": "2011-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nadrian_c_seeman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "john_simon_guggenheim_fellowship",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hargittai_2022_obituary",
+        "page": 3,
+        "quote": "He had a John Simon Guggenheim Fellowship for 2010–2011."
+      }
+    ]
+  },
+  {
+    "id": "seeman_norwegian_academy_member",
+    "event_type": "award",
+    "label": "Elected foreign member of Norwegian Academy of Science and Letters",
+    "date": {
+      "display": "2010",
+      "precision": "year",
+      "sort_start": "2010-01-01",
+      "sort_end": "2010-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nadrian_c_seeman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "norwegian_academy_of_science_and_letters",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hargittai_2022_obituary",
+        "page": 3,
+        "quote": "He was elected foreign member of the Norwegian Academy of Science and Letters"
+      }
+    ]
+  },
+  {
+    "id": "seeman_rich_medal",
+    "event_type": "award",
+    "label": "Awarded Alexander Rich Medal from MIT",
+    "date": {
+      "display": "2010",
+      "precision": "year",
+      "sort_start": "2010-01-01",
+      "sort_end": "2010-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nadrian_c_seeman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "alexander_rich_medal",
+        "role": "invention"
+      },
+      {
+        "entity_id": "massachusetts_institute_of_technology",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hargittai_2022_obituary",
+        "page": 3,
+        "quote": "and was awarded the Alexander Rich Medal from the Massachusetts Institute of Technology in the same year."
+      }
+    ]
+  },
+  {
+    "id": "seeman_kavli_prize",
+    "event_type": "award",
+    "label": "Co-recipient of Kavli Prize in Nanoscience",
+    "date": {
+      "display": "2010",
+      "precision": "year",
+      "sort_start": "2010-01-01",
+      "sort_end": "2010-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nadrian_c_seeman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "donald_eigler",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "kavli_prize_in_nanoscience",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hargittai_2022_obituary",
+        "page": 3,
+        "quote": "And, to top it all, he was co-recipient of the Kavli Prize in Nanoscience in 2010, shared with another pioneer of the field, Donald Eigler of IBM Almaden Research Center in San Jose, CA."
+      }
+    ]
+  },
+  {
+    "id": "seeman_aaas_member",
+    "event_type": "award",
+    "label": "Elected to membership of American Academy of Arts and Sciences",
+    "date": {
+      "display": "2017",
+      "precision": "year",
+      "sort_start": "2017-01-01",
+      "sort_end": "2017-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nadrian_c_seeman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "american_academy_of_arts_and_sciences",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hargittai_2022_obituary",
+        "page": 3,
+        "quote": "As far as we know, Seeman's last recognition was his election to membership of the American Academy of Arts and Sciences in 2017."
+      }
+    ]
+  },
+  {
+    "id": "seeman_pub_nanoletters",
+    "event_type": "publication",
+    "label": "Published 'Forty years of DNA nanotechnology'",
+    "date": {
+      "display": "2020",
+      "precision": "year",
+      "sort_start": "2020-01-01",
+      "sort_end": "2020-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nadrian_c_seeman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "forty_years_of_dna_nanotechnology",
+        "role": "invention"
+      },
+      {
+        "entity_id": "nanoletters",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hargittai_2022_obituary",
+        "page": 3,
+        "quote": "One of his last publications appeared in 2020 in which he looked back at 40 years of DNA nanotechnology [2]."
+      }
+    ]
+  }
+]

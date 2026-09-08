@@ -1,0 +1,230 @@
+[
+  {
+    "aliases": [
+      "Prof. v. Mises",
+      "R. v. Mises",
+      "Richard vonMises",
+      "RvM"
+    ],
+    "entity_type": "person",
+    "id": "richard_von_mises",
+    "name": "Richard von Mises",
+    "subtype": "researcher",
+    "summary": "Austrian-American applied mathematician and engineer known for contributions to fluid dynamics, plasticity theory, and probability."
+  },
+  {
+    "aliases": [
+      "Hilda Pollaczek-Geiringer",
+      "Frau Prof. Geiringer"
+    ],
+    "entity_type": "person",
+    "id": "hilda_geiringer",
+    "name": "Hilda Geiringer",
+    "subtype": "researcher",
+    "summary": "Austrian-American mathematician and specialist in probability theory and plasticity, von Mises' wife and collaborator."
+  },
+  {
+    "aliases": [
+      "von Kármán",
+      "T. v. Kármán",
+      "Kármán"
+    ],
+    "entity_type": "person",
+    "id": "theodor_von_karman",
+    "name": "Theodor von Kármán",
+    "subtype": "researcher",
+    "summary": "Hungarian-American aerospace engineer and physicist, colleague and friend of von Mises."
+  },
+  {
+    "aliases": [
+      "Trefftz",
+      "Prof. Erich Trefftz"
+    ],
+    "entity_type": "person",
+    "id": "erich_trefftz",
+    "name": "Erich Trefftz",
+    "subtype": "researcher",
+    "summary": "German mathematician and von Mises' doctoral student who succeeded him as editor of ZAMM."
+  },
+  {
+    "aliases": [
+      "Willers",
+      "F. A. Willers",
+      "Prof. Dr. Friedrich-Adolf Willers"
+    ],
+    "entity_type": "person",
+    "id": "friedrich_adolf_willers",
+    "name": "Friedrich Adolf Willers",
+    "subtype": "researcher",
+    "summary": "German mathematician and successor to Trefftz as editor of ZAMM."
+  },
+  {
+    "aliases": [
+      "Bergmann",
+      "St. Bergmann"
+    ],
+    "entity_type": "person",
+    "id": "stefan_bergmann",
+    "name": "Stefan Bergmann",
+    "subtype": "researcher",
+    "summary": "Polish-born mathematician and von Mises' doctoral student known for the Bergman kernel function."
+  },
+  {
+    "aliases": [
+      "Collatz"
+    ],
+    "entity_type": "person",
+    "id": "lothar_collatz",
+    "name": "Lothar Collatz",
+    "subtype": "researcher",
+    "summary": "German mathematician and von Mises' student known for work in numerical analysis."
+  },
+  {
+    "aliases": [
+      "Prandtl"
+    ],
+    "entity_type": "person",
+    "id": "ludwig_prandtl",
+    "name": "Ludwig Prandtl",
+    "subtype": "researcher",
+    "summary": "German fluid dynamicist and colleague of von Mises in mechanics and ZAMM."
+  },
+  {
+    "aliases": [
+      "Berlin University",
+      "Institute for Applied Mathematics at the University of Berlin"
+    ],
+    "entity_type": "organization",
+    "id": "university_of_berlin",
+    "name": "University of Berlin",
+    "subtype": "university",
+    "summary": "German university where von Mises headed the Institute for Applied Mathematics."
+  },
+  {
+    "aliases": [
+      "Zeitschrift für Angewandte Mathematik und Mechanik",
+      "Journal of Applied Mathematics and Mechanics"
+    ],
+    "entity_type": "organization",
+    "id": "zamm",
+    "name": "ZAMM",
+    "subtype": "journal",
+    "summary": "Scientific journal founded and edited by von Mises from 1921 to 1933."
+  },
+  {
+    "aliases": [
+      "Engineering Department of Harvard University"
+    ],
+    "entity_type": "organization",
+    "id": "harvard_university",
+    "name": "Harvard University",
+    "subtype": "university",
+    "summary": "American university where von Mises held a position after emigrating to the US."
+  },
+  {
+    "aliases": [
+      "VDI",
+      "publisher"
+    ],
+    "entity_type": "organization",
+    "id": "vdi_verlag",
+    "name": "VDI-Verlag",
+    "subtype": "company",
+    "summary": "German publishing house that published ZAMM during von Mises' editorship."
+  },
+  {
+    "aliases": [
+      "Gesellschaft für Angewandte Mathematik und Mechanik",
+      "Society for Applied Mathematics and Mechanics"
+    ],
+    "entity_type": "organization",
+    "id": "gamm",
+    "name": "GAMM",
+    "subtype": "organization",
+    "summary": "Scientific society founded in 1922 with von Mises as managing director."
+  },
+  {
+    "aliases": [
+      "QAMM",
+      "Quarterly"
+    ],
+    "entity_type": "organization",
+    "id": "quarterly_of_applied_mathematics",
+    "name": "Quarterly of Applied Mathematics",
+    "subtype": "journal",
+    "summary": "American journal founded in 1943, inspired by ZAMM."
+  },
+  {
+    "aliases": [
+      "Lviv"
+    ],
+    "attributes": {
+      "country": "Ukraine (today)"
+    },
+    "entity_type": "place",
+    "id": "lemberg",
+    "name": "Lemberg",
+    "subtype": "city",
+    "summary": "City in the Habsburg monarchy where von Mises was born."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "berlin",
+    "name": "Berlin",
+    "subtype": "city",
+    "summary": "German city where von Mises worked until his emigration."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "istanbul",
+    "name": "Istanbul",
+    "subtype": "city",
+    "summary": "Turkish city where von Mises emigrated in 1933."
+  },
+  {
+    "aliases": [
+      "Cambridge (USA)",
+      "Boston"
+    ],
+    "attributes": {
+      "country": "USA"
+    },
+    "entity_type": "place",
+    "id": "cambridge_usa",
+    "name": "Cambridge",
+    "subtype": "city",
+    "summary": "American city where von Mises died."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "new_york",
+    "name": "New York",
+    "subtype": "city",
+    "summary": "American city where von Mises arrived in 1939."
+  },
+  {
+    "aliases": [
+      "plasticity condition",
+      "Mises yield condition",
+      "HMH-yield condition"
+    ],
+    "entity_type": "artifact",
+    "id": "von_mises_yield_criterion",
+    "name": "von Mises yield criterion",
+    "subtype": "invention",
+    "summary": "Yield criterion for the transition from elastic to plastic state in materials."
+  },
+  {
+    "aliases": [
+      "Motorrechnung"
+    ],
+    "entity_type": "artifact",
+    "id": "motor_calculus",
+    "name": "Motor Calculus",
+    "subtype": "invention",
+    "summary": "Theoretical device for mechanics developed by von Mises based on work of Klein and Study."
+  }
+]

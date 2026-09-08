@@ -1,0 +1,363 @@
+[
+  {
+    "id": "born_in_thessaloniki",
+    "source": "mercouri_g_kanatzidis",
+    "type": "born_in",
+    "target": "thessaloniki",
+    "event_id": "birth",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 1,
+        "quote": "Mercouri Kanatzidis was born in Thessaloniki, Greece in 1957."
+      }
+    ]
+  },
+  {
+    "id": "studied_at_aristotle",
+    "source": "mercouri_g_kanatzidis",
+    "type": "studied_at",
+    "target": "aristotle_university",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 1,
+        "quote": "After obtaining a B. Sc. from Aristotle University in Greece"
+      }
+    ]
+  },
+  {
+    "id": "studied_at_iowa",
+    "source": "mercouri_g_kanatzidis",
+    "type": "studied_at",
+    "target": "university_of_iowa",
+    "event_id": "phd_graduation",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 1,
+        "quote": "he received his Ph. D in chemistry from the University of Iowa in 1984."
+      }
+    ]
+  },
+  {
+    "id": "worked_at_michigan",
+    "source": "mercouri_g_kanatzidis",
+    "type": "worked_at",
+    "target": "university_of_michigan",
+    "event_id": "postdoc_start",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 1,
+        "quote": "He was a post-doctoral research associate at the University of Michigan and Northwestern University from 1985 to 1987"
+      }
+    ]
+  },
+  {
+    "id": "worked_at_northwestern_postdoc",
+    "source": "mercouri_g_kanatzidis",
+    "type": "worked_at",
+    "target": "northwestern_university",
+    "event_id": "postdoc_start",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 1,
+        "quote": "He was a post-doctoral research associate at the University of Michigan and Northwestern University from 1985 to 1987"
+      }
+    ]
+  },
+  {
+    "id": "worked_at_msu",
+    "source": "mercouri_g_kanatzidis",
+    "type": "worked_at",
+    "target": "michigan_state_university",
+    "event_id": "msu_start",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 1,
+        "quote": "Mercouri moved to Northwestern in the fall of 2006 from Michigan State University where he was a University Distinguished Professor of Chemistry since 1987."
+      }
+    ]
+  },
+  {
+    "id": "worked_at_northwestern_prof",
+    "source": "mercouri_g_kanatzidis",
+    "type": "worked_at",
+    "target": "northwestern_university",
+    "event_id": "northwestern_start",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 1,
+        "quote": "is currently the Charles E. and Emma H. Morrison Professor of Chemistry at Northwestern University."
+      }
+    ]
+  },
+  {
+    "id": "worked_at_argonne",
+    "source": "mercouri_g_kanatzidis",
+    "type": "worked_at",
+    "target": "argonne_national_laboratory",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 1,
+        "quote": "Mercouri also holds an appointment at Argonne National Laboratory"
+      }
+    ]
+  },
+  {
+    "id": "employed_by_journal",
+    "source": "mercouri_g_kanatzidis",
+    "type": "employed_by",
+    "target": "journal_of_solid_state_chemistry",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 1,
+        "quote": "and is the editor-in-chief of the Journal of Solid-State Chemistry."
+      }
+    ]
+  },
+  {
+    "id": "awarded_by_nsf",
+    "source": "national_science_foundation",
+    "type": "awarded",
+    "target": "mercouri_g_kanatzidis",
+    "event_id": "award_presidential_young_investigator",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 2,
+        "quote": "Presidential Young Investigator Award, National Science Foundation - 1989-1994."
+      }
+    ]
+  },
+  {
+    "id": "awarded_by_mrs",
+    "source": "materials_research_society",
+    "type": "awarded",
+    "target": "mercouri_g_kanatzidis",
+    "event_id": "award_mrs_medal",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 1,
+        "quote": "Materials Research Society (MRS) Medal - 2014"
+      }
+    ]
+  },
+  {
+    "id": "awarded_by_acs",
+    "source": "american_chemical_society",
+    "type": "awarded",
+    "target": "mercouri_g_kanatzidis",
+    "event_id": "award_acs_inorganic_chemistry",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 1,
+        "quote": "American Chemical Society (ACS) Award in Inorganic Chemistry - 2016"
+      }
+    ]
+  },
+  {
+    "id": "awarded_by_aps",
+    "source": "american_physical_society",
+    "type": "awarded",
+    "target": "mercouri_g_kanatzidis",
+    "event_id": "award_aps_mcgroddy",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 1,
+        "quote": "APS James C. McGroddy Prize for New Materials - 2016"
+      }
+    ]
+  },
+  {
+    "id": "mentored_di_wu",
+    "source": "mercouri_g_kanatzidis",
+    "type": "mentored",
+    "target": "di_wu",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 2,
+        "quote": "By Di Wu, Jiaqing He (postdoctoral researcher, 2008-2010)"
+      }
+    ]
+  },
+  {
+    "id": "mentored_jiaqing_he",
+    "source": "mercouri_g_kanatzidis",
+    "type": "mentored",
+    "target": "jiaqing_he",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 2,
+        "quote": "By Di Wu, Jiaqing He (postdoctoral researcher, 2008-2010)"
+      }
+    ]
+  },
+  {
+    "id": "mentored_bingchao_qin",
+    "source": "mercouri_g_kanatzidis",
+    "type": "mentored",
+    "target": "bingchao_qin",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 2,
+        "quote": "By Bingchao Qin, Li-Dong Zhao (postdoctoral researchers, 2011-2014)"
+      }
+    ]
+  },
+  {
+    "id": "mentored_li_dong_zhao",
+    "source": "mercouri_g_kanatzidis",
+    "type": "mentored",
+    "target": "li_dong_zhao",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 2,
+        "quote": "By Bingchao Qin, Li-Dong Zhao (postdoctoral researchers, 2011-2014)"
+      }
+    ]
+  },
+  {
+    "id": "mentored_feng_hao",
+    "source": "mercouri_g_kanatzidis",
+    "type": "mentored",
+    "target": "feng_hao",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 2,
+        "quote": "By Feng Hao, postdoctoral researchers (2012-2016)"
+      }
+    ]
+  },
+  {
+    "id": "mentored_gangjian_tan",
+    "source": "mercouri_g_kanatzidis",
+    "type": "mentored",
+    "target": "gangjian_tan",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 3,
+        "quote": "By Gangjian Tan, postdoctoral researcher (2013-2017)"
+      }
+    ]
+  },
+  {
+    "id": "mentored_peng_li_wang",
+    "source": "mercouri_g_kanatzidis",
+    "type": "mentored",
+    "target": "peng_li_wang",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 3,
+        "quote": "By Peng Li Wang, postdoctoral researcher (2013-2015)"
+      }
+    ]
+  },
+  {
+    "id": "mentored_jian_liu",
+    "source": "mercouri_g_kanatzidis",
+    "type": "mentored",
+    "target": "jian_liu",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 3,
+        "quote": "By Jian Liu, postdoctoral researcher (2014-2017)"
+      }
+    ]
+  },
+  {
+    "id": "mentored_hongyao_xie",
+    "source": "mercouri_g_kanatzidis",
+    "type": "mentored",
+    "target": "hongyao_xie",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 3,
+        "quote": "By Hongyao Xie, postdoctoral researcher (2018-2022)"
+      }
+    ]
+  },
+  {
+    "id": "mentored_yu_xiao",
+    "source": "mercouri_g_kanatzidis",
+    "type": "mentored",
+    "target": "yu_xiao",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 3,
+        "quote": "By Yu Xiao, Visiting researcher (2018)"
+      }
+    ]
+  },
+  {
+    "id": "mentored_cheng_chang",
+    "source": "mercouri_g_kanatzidis",
+    "type": "mentored",
+    "target": "cheng_chang",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 3,
+        "quote": "By Cheng Chang, Visiting researcher (2018)"
+      }
+    ]
+  },
+  {
+    "id": "mentored_kanishka_biswas",
+    "source": "mercouri_g_kanatzidis",
+    "type": "mentored",
+    "target": "kanishka_biswas",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 3,
+        "quote": "Kanishka Biswas, postdoctoral researcher (2009-2012)"
+      }
+    ]
+  },
+  {
+    "id": "mentored_in_chung",
+    "source": "mercouri_g_kanatzidis",
+    "type": "mentored",
+    "target": "in_chung",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 3,
+        "quote": "In Chung, Ph.D. student (2001–2008) and postdoctoral researcher (2008–2012)"
+      }
+    ]
+  },
+  {
+    "id": "mentored_maria_ibanez",
+    "source": "mercouri_g_kanatzidis",
+    "type": "mentored",
+    "target": "maria_ibanez",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 3,
+        "quote": "Maria Ibáñez, visiting researcher (2013)"
+      }
+    ]
+  }
+]

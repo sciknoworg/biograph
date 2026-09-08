@@ -57,8 +57,7 @@ scripts/backup_evidence.py
 # reproducible. A taxonomy is left ignored while its run is still growing it, so a
 # half-grown state never lands in a commit; remove its line here once that run
 # reports "run to completion".
-#   tracked: chemistry_history_taxonomy.json
-materials_taxonomy.json
+#   tracked: chemistry_history_taxonomy.json, materials_taxonomy.json
 physics_taxonomy.json
 
 # Per-domain pipeline state -- bookkeeping, never useful outside this machine.

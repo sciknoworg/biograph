@@ -1,0 +1,231 @@
+[
+  {
+    "id": "richard_von_mises_born_in_lemberg",
+    "source": "richard_von_mises",
+    "type": "born_in",
+    "target": "lemberg",
+    "event_id": "richard_von_mises_birth",
+    "sources": [
+      {
+        "source_id": "siegmund_schultze_2020",
+        "page": 2,
+        "quote": "Richard von Mises (1883–1953)"
+      }
+    ]
+  },
+  {
+    "id": "richard_von_mises_worked_at_university_of_berlin",
+    "source": "richard_von_mises",
+    "type": "worked_at",
+    "target": "university_of_berlin",
+    "event_id": "richard_von_mises_berlin_institute",
+    "sources": [
+      {
+        "source_id": "siegmund_schultze_2020",
+        "page": 19,
+        "quote": "Institute for Applied Mathematics at the University of Berlin, which is headed by Prof. v. Mises"
+      }
+    ]
+  },
+  {
+    "id": "richard_von_mises_employed_by_zamm",
+    "source": "richard_von_mises",
+    "type": "employed_by",
+    "target": "zamm",
+    "event_id": "richard_von_mises_zamm_editor_start",
+    "sources": [
+      {
+        "source_id": "siegmund_schultze_2020",
+        "page": 2,
+        "quote": "activities of the editor Richard von Mises (1883–1953) between 1921 and 1933"
+      }
+    ]
+  },
+  {
+    "id": "richard_von_mises_married_to_hilda_geiringer",
+    "source": "richard_von_mises",
+    "type": "married_to",
+    "target": "hilda_geiringer",
+    "event_id": "richard_von_mises_marriage",
+    "sources": [
+      {
+        "source_id": "siegmund_schultze_2020",
+        "page": 4,
+        "quote": "since 1943 his wife in American emigration"
+      }
+    ]
+  },
+  {
+    "id": "richard_von_mises_collaborated_with_theodor_von_karman",
+    "source": "richard_von_mises",
+    "type": "collaborated_with",
+    "target": "theodor_von_karman",
+    "sources": [
+      {
+        "source_id": "siegmund_schultze_2020",
+        "page": 7,
+        "quote": "Collaboration with von Kármán in the major publication field of mechanics"
+      }
+    ]
+  },
+  {
+    "id": "richard_von_mises_mentored_erich_trefftz",
+    "source": "richard_von_mises",
+    "type": "mentored",
+    "target": "erich_trefftz",
+    "sources": [
+      {
+        "source_id": "siegmund_schultze_2020",
+        "page": 24,
+        "quote": "Erich Trefftz (1888–1937) was RvM's doctoral student at Strasbourg in 1913"
+      }
+    ]
+  },
+  {
+    "id": "richard_von_mises_mentored_stefan_bergmann",
+    "source": "richard_von_mises",
+    "type": "mentored",
+    "target": "stefan_bergmann",
+    "sources": [
+      {
+        "source_id": "siegmund_schultze_2020",
+        "page": 6,
+        "quote": "Stefan Bergmann (1921)"
+      }
+    ]
+  },
+  {
+    "id": "richard_von_mises_mentored_lothar_collatz",
+    "source": "richard_von_mises",
+    "type": "mentored",
+    "target": "lothar_collatz",
+    "sources": [
+      {
+        "source_id": "siegmund_schultze_2020",
+        "page": 6,
+        "quote": "In the doctoral theses of Collatz (difference methods) and Lohan (plasticity theory), whose procedures were not completed until 1935, RvM was no longer an official reviewer, but had suggested the topic in each case"
+      }
+    ]
+  },
+  {
+    "id": "richard_von_mises_relocated_to_istanbul",
+    "source": "richard_von_mises",
+    "type": "relocated_to",
+    "target": "istanbul",
+    "event_id": "richard_von_mises_emigration_istanbul",
+    "sources": [
+      {
+        "source_id": "siegmund_schultze_2020",
+        "page": 22,
+        "quote": "Richard von Mises left Berlin in November 1933 for Istanbul"
+      }
+    ]
+  },
+  {
+    "id": "richard_von_mises_relocated_to_cambridge_usa",
+    "source": "richard_von_mises",
+    "type": "relocated_to",
+    "target": "cambridge_usa",
+    "sources": [
+      {
+        "source_id": "siegmund_schultze_2020",
+        "page": 34,
+        "quote": "he took up his initially unpaid position at the Engineering Department of Harvard University in Cambridge/Boston"
+      }
+    ]
+  },
+  {
+    "id": "richard_von_mises_died_in_cambridge_usa",
+    "source": "richard_von_mises",
+    "type": "died_in",
+    "target": "cambridge_usa",
+    "event_id": "richard_von_mises_death",
+    "sources": [
+      {
+        "source_id": "siegmund_schultze_2020",
+        "page": 2,
+        "quote": "RvM's death in Cambridge (USA) in July 1953"
+      }
+    ]
+  },
+  {
+    "id": "hilda_geiringer_worked_at_university_of_berlin",
+    "source": "hilda_geiringer",
+    "type": "worked_at",
+    "target": "university_of_berlin",
+    "sources": [
+      {
+        "source_id": "siegmund_schultze_2020",
+        "page": 4,
+        "quote": "Hilda Geiringer held the only publicly paid assistant post at RvM's Institute for Applied Mathematics at Berlin University since 1922"
+      }
+    ]
+  },
+  {
+    "id": "erich_trefftz_employed_by_zamm",
+    "source": "erich_trefftz",
+    "type": "employed_by",
+    "target": "zamm",
+    "event_id": "erich_trefftz_zamm_editor",
+    "sources": [
+      {
+        "source_id": "siegmund_schultze_2020",
+        "page": 27,
+        "quote": "Trefftz taking over as editor"
+      }
+    ]
+  },
+  {
+    "id": "friedrich_adolf_willers_employed_by_zamm",
+    "source": "friedrich_adolf_willers",
+    "type": "employed_by",
+    "target": "zamm",
+    "event_id": "friedrich_adolf_willers_zamm_editor",
+    "sources": [
+      {
+        "source_id": "siegmund_schultze_2020",
+        "page": 30,
+        "quote": "Willers was the natural successor as editor of ZAMM"
+      }
+    ]
+  },
+  {
+    "id": "zamm_published_by_vdi_verlag",
+    "source": "zamm",
+    "type": "licensed_to",
+    "target": "vdi_verlag",
+    "sources": [
+      {
+        "source_id": "siegmund_schultze_2020",
+        "page": 6,
+        "quote": "Co-workers without permanent academic positions such as Bergmann, Hencky, Ratzersdorfer and Scherschevsky were undoubtedly also motivated to work for ZAMM by smaller fees from the VDI-Verlag"
+      }
+    ]
+  },
+  {
+    "id": "richard_von_mises_invented_von_mises_yield_criterion",
+    "source": "richard_von_mises",
+    "type": "invented",
+    "target": "von_mises_yield_criterion",
+    "sources": [
+      {
+        "source_id": "siegmund_schultze_2020",
+        "page": 13,
+        "quote": "My condition of plasticity later proved to be in best agreement with the observations and it is still often used today"
+      }
+    ]
+  },
+  {
+    "id": "richard_von_mises_invented_motor_calculus",
+    "source": "richard_von_mises",
+    "type": "invented",
+    "target": "motor_calculus",
+    "sources": [
+      {
+        "source_id": "siegmund_schultze_2020",
+        "page": 11,
+        "quote": "a new 'motor calculus' is developed, which takes its place alongside the three-dimensional vector and tensor calculus"
+      }
+    ]
+  }
+]

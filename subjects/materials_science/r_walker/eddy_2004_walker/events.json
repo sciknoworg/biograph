@@ -1,0 +1,318 @@
+[
+  {
+    "id": "walker_appointed_professor",
+    "event_type": "employment_start",
+    "label": "Appointed Professor of Natural History",
+    "date": {
+      "display": "1779",
+      "precision": "year",
+      "sort_start": "1779-01-01",
+      "sort_end": "1779-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_walker",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_edinburgh",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "eddy_2004_walker",
+        "page": 11,
+        "quote": "Walker was appointed to the Medical Faculty as Professor of Natural History in 1779."
+      }
+    ]
+  },
+  {
+    "id": "walker_created_first_system",
+    "event_type": "invention",
+    "label": "Created first comprehensive mineralogical system",
+    "date": {
+      "display": "1781",
+      "precision": "year",
+      "sort_start": "1781-01-01",
+      "sort_end": "1781-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_walker",
+        "role": "subject"
+      },
+      {
+        "entity_id": "schediasma_fossilium",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "eddy_2004_walker",
+        "page": 6,
+        "quote": "He created his ﬁrst comprehensive system in 1781 – the year before he gave his ﬁrst full natural history course."
+      }
+    ]
+  },
+  {
+    "id": "walker_started_lectures",
+    "event_type": "employment_start",
+    "label": "Began natural history lectures",
+    "date": {
+      "display": "1782",
+      "precision": "year",
+      "sort_start": "1782-01-01",
+      "sort_end": "1782-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_walker",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_edinburgh",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "eddy_2004_walker",
+        "page": 1,
+        "quote": "the hundreds of students who sat in his natural history lectures from 1782 until 1800."
+      }
+    ]
+  },
+  {
+    "id": "walker_published_classes_fossilium",
+    "event_type": "publication",
+    "label": "Published Classes Fossilium",
+    "date": {
+      "display": "1787",
+      "precision": "year",
+      "sort_start": "1787-01-01",
+      "sort_end": "1787-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_walker",
+        "role": "subject"
+      },
+      {
+        "entity_id": "classes_fossilium",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "eddy_2004_walker",
+        "page": 6,
+        "quote": "in 1787 he published these augmentations of Schediasma as Classes Fossilium , Edinburgh, 1787."
+      }
+    ]
+  },
+  {
+    "id": "walker_updated_system_1790",
+    "event_type": "other",
+    "label": "Updated mineralogical system to second version",
+    "date": {
+      "display": "around 1790",
+      "precision": "circa",
+      "sort_start": "1789-01-01",
+      "sort_end": "1791-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_walker",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "eddy_2004_walker",
+        "page": 6,
+        "quote": "The second version of his system appeared around 1790"
+      }
+    ]
+  },
+  {
+    "id": "walker_published_institutes",
+    "event_type": "publication",
+    "label": "Published Institutes of Natural History",
+    "date": {
+      "display": "1792",
+      "precision": "year",
+      "sort_start": "1792-01-01",
+      "sort_end": "1792-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_walker",
+        "role": "subject"
+      },
+      {
+        "entity_id": "institutes_of_natural_history",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "eddy_2004_walker",
+        "page": 5,
+        "quote": "John Walker, Institutes of Natural History; Containing the Heads of Lectures in Natural History ; Delivered by Dr. John Walker, in the University of Edinburgh , Edinburgh, 1792"
+      }
+    ]
+  },
+  {
+    "id": "walker_eyesight_decline",
+    "event_type": "other",
+    "label": "Began to lose eyesight",
+    "date": {
+      "display": "mid-1790s",
+      "precision": "decade",
+      "sort_start": "1794-01-01",
+      "sort_end": "1796-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_walker",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "eddy_2004_walker",
+        "page": 6,
+        "quote": "Although he began to lose his eyesight in the mid-1790s"
+      }
+    ]
+  },
+  {
+    "id": "walker_final_system",
+    "event_type": "invention",
+    "label": "Created final version of mineralogical system",
+    "date": {
+      "display": "around 1795",
+      "precision": "circa",
+      "sort_start": "1794-01-01",
+      "sort_end": "1796-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_walker",
+        "role": "subject"
+      },
+      {
+        "entity_id": "systema_fossilium",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "eddy_2004_walker",
+        "page": 6,
+        "quote": "the ﬁnal version occurred around 1795"
+      }
+    ]
+  },
+  {
+    "id": "walker_systema_fossilium",
+    "event_type": "publication",
+    "label": "Completed Systema Fossilium catalogue",
+    "date": {
+      "display": "c. 1797",
+      "precision": "circa",
+      "sort_start": "1796-01-01",
+      "sort_end": "1798-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_walker",
+        "role": "subject"
+      },
+      {
+        "entity_id": "systema_fossilium",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "eddy_2004_walker",
+        "page": 7,
+        "quote": "John Walker, Systema Fossilium, c. 1797"
+      }
+    ]
+  },
+  {
+    "id": "walker_letter_dirom",
+    "event_type": "publication",
+    "label": "Published letter to Colonel Dirom on coal",
+    "date": {
+      "display": "1800",
+      "precision": "year",
+      "sort_start": "1800-01-01",
+      "sort_end": "1800-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_walker",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "eddy_2004_walker",
+        "page": 23,
+        "quote": "John Walker, Letter to Colonel Dirom, Quarter Master General of Scotland, on the Discovery of Coal , Edinburgh, 1800"
+      }
+    ]
+  },
+  {
+    "id": "walker_essay_peat",
+    "event_type": "publication",
+    "label": "Published essay on peat",
+    "date": {
+      "display": "1803",
+      "precision": "year",
+      "sort_start": "1803-01-01",
+      "sort_end": "1803-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_walker",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "eddy_2004_walker",
+        "page": 23,
+        "quote": "John Walker, ' An essay on peat, containing an account of its origin, of its chymical principles and general properties', Prize Essays and Transactions of the Highland Society of Scotland (1803), 2, 1–137."
+      }
+    ]
+  },
+  {
+    "id": "walker_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1803",
+      "precision": "year",
+      "sort_start": "1803-01-01",
+      "sort_end": "1803-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_walker",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "eddy_2004_walker",
+        "page": 5,
+        "quote": "John Walker, D.D., F.R.S.E. 1731–1803."
+      }
+    ]
+  }
+]

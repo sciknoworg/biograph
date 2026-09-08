@@ -1,0 +1,626 @@
+[
+  {
+    "aliases": [
+      "Don",
+      "Don Stookey",
+      "Dr. S. Donald (Don) Stookey"
+    ],
+    "entity_type": "person",
+    "id": "stookey_s_donald",
+    "name": "S. Donald Stookey",
+    "subtype": "researcher",
+    "summary": "Pioneering researcher and inventor known as the father of glass-ceramics."
+  },
+  {
+    "aliases": [
+      "George H. Beall*",
+      "Beall GH"
+    ],
+    "entity_type": "person",
+    "id": "beall_george_h",
+    "name": "George H. Beall",
+    "subtype": "researcher",
+    "summary": "Author of the source document and Stookey's colleague at Corning Incorporated."
+  },
+  {
+    "aliases": [
+      "Ruth"
+    ],
+    "entity_type": "person",
+    "id": "watterson_ruth",
+    "name": "Ruth Watterson",
+    "subtype": "family",
+    "summary": "Stookey's wife and Coe College sweetheart."
+  },
+  {
+    "aliases": [
+      "Dr. J. T. Littleton"
+    ],
+    "entity_type": "person",
+    "id": "littleton_j_t",
+    "name": "J. T. Littleton",
+    "subtype": "researcher",
+    "summary": "Corning's research director in 1947."
+  },
+  {
+    "aliases": [
+      "Dr. William Armistead",
+      "Bill",
+      "Bill Armistead"
+    ],
+    "entity_type": "person",
+    "id": "armistead_william",
+    "name": "William Armistead",
+    "subtype": "researcher",
+    "summary": "Corning's Director of Research and Development."
+  },
+  {
+    "aliases": [
+      "Amory Houghton, Jr.",
+      "former Corning Chief Executive Officer"
+    ],
+    "entity_type": "person",
+    "id": "houghton_amory_jr",
+    "name": "Amory Houghton, Jr.",
+    "subtype": "executive",
+    "summary": "Former Corning Chief Executive Officer and lifelong friend of Stookey."
+  },
+  {
+    "aliases": [
+      "technician Joe Pierson"
+    ],
+    "entity_type": "person",
+    "id": "pierson_joe",
+    "name": "Joe Pierson",
+    "subtype": "technician",
+    "summary": "Stookey's long-time technician and friend."
+  },
+  {
+    "aliases": [
+      "Dave",
+      "his brother"
+    ],
+    "entity_type": "person",
+    "id": "stookey_dave",
+    "name": "Dave Stookey",
+    "subtype": "family",
+    "summary": "Stookey's brother."
+  },
+  {
+    "aliases": [
+      "Dr. David Morse"
+    ],
+    "entity_type": "person",
+    "id": "morse_david",
+    "name": "David Morse",
+    "subtype": "executive",
+    "summary": "Corning's executive vice president and chief technical officer."
+  },
+  {
+    "aliases": [
+      "President Ronald Reagan"
+    ],
+    "entity_type": "person",
+    "id": "reagan_ronald",
+    "name": "Ronald Reagan",
+    "subtype": "politician",
+    "summary": "U.S. President who presented Stookey with the National Medal of Technology."
+  },
+  {
+    "aliases": [
+      "Corning Glass Works",
+      "Corning"
+    ],
+    "entity_type": "organization",
+    "id": "corning_incorporated",
+    "name": "Corning Incorporated",
+    "subtype": "company",
+    "summary": "Glass and ceramics manufacturer where Stookey worked for 50 years."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "coe_college",
+    "name": "Coe College",
+    "subtype": "university",
+    "summary": "College where Stookey received his B.A."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "lafayette_college",
+    "name": "Lafayette College",
+    "subtype": "university",
+    "summary": "College where Stookey received his master's degree."
+  },
+  {
+    "aliases": [
+      "MIT"
+    ],
+    "entity_type": "organization",
+    "id": "mit",
+    "name": "Massachusetts Institute of Technology",
+    "subtype": "university",
+    "summary": "University where Stookey earned his Ph.D."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "united_nations",
+    "name": "United Nations",
+    "subtype": "organization",
+    "summary": "Organization whose headquarters building features Fotalite glass."
+  },
+  {
+    "aliases": [
+      "Penn State"
+    ],
+    "entity_type": "organization",
+    "id": "penn_state",
+    "name": "Pennsylvania State University",
+    "subtype": "university",
+    "summary": "University where research on lithium aluminosilicates was revealed."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "franklin_institute",
+    "name": "Franklin Institute",
+    "subtype": "organization",
+    "summary": "Institution that awarded Stookey the John Price Wetherill Award."
+  },
+  {
+    "aliases": [
+      "ACerS"
+    ],
+    "entity_type": "organization",
+    "id": "american_ceramic_society",
+    "name": "American Ceramic Society",
+    "subtype": "organization",
+    "summary": "Professional society that awarded Stookey multiple awards."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "george_washington_university",
+    "name": "George Washington University",
+    "subtype": "university",
+    "summary": "University that awarded Stookey the Inventor of the Year Award."
+  },
+  {
+    "aliases": [
+      "ACS"
+    ],
+    "entity_type": "organization",
+    "id": "american_chemical_society",
+    "name": "American Chemical Society",
+    "subtype": "organization",
+    "summary": "Professional society that awarded Stookey multiple awards."
+  },
+  {
+    "aliases": [
+      "IRI"
+    ],
+    "entity_type": "organization",
+    "id": "industrial_research_institute",
+    "name": "Industrial Research Institute",
+    "subtype": "organization",
+    "summary": "Organization that awarded Stookey the Achievement Award."
+  },
+  {
+    "aliases": [
+      "NIHF"
+    ],
+    "entity_type": "organization",
+    "id": "national_inventors_hall_of_fame",
+    "name": "National Inventors Hall of Fame",
+    "subtype": "organization",
+    "summary": "Hall of Fame that inducted Stookey."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "first_united_methodist_church",
+    "name": "First United Methodist Church",
+    "subtype": "organization",
+    "summary": "Church where Stookey was a member."
+  },
+  {
+    "aliases": [
+      "a home for the elderly"
+    ],
+    "entity_type": "organization",
+    "id": "dayspring",
+    "name": "Dayspring",
+    "subtype": "organization",
+    "summary": "Home for the elderly in Corning developed by an interfaith committee chaired by Stookey."
+  },
+  {
+    "aliases": [
+      "Ceramic Centre of Alfred University"
+    ],
+    "entity_type": "organization",
+    "id": "alfred_university",
+    "name": "Alfred University",
+    "subtype": "university",
+    "summary": "University where Stookey spent a year as guest professor."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "white_house_council",
+    "name": "White House Council",
+    "subtype": "organization",
+    "summary": "Council that awarded Stookey the National Medal of Technology."
+  },
+  {
+    "aliases": [
+      "Hay Springs"
+    ],
+    "entity_type": "place",
+    "id": "hay_springs_ne",
+    "name": "Hay Springs, Nebraska",
+    "subtype": "city",
+    "summary": "Birthplace of Stookey."
+  },
+  {
+    "aliases": [
+      "Cedar Rapids"
+    ],
+    "entity_type": "place",
+    "id": "cedar_rapids_ia",
+    "name": "Cedar Rapids, Iowa",
+    "subtype": "city",
+    "summary": "City where Stookey's family moved in 1921."
+  },
+  {
+    "aliases": [
+      "Easton"
+    ],
+    "entity_type": "place",
+    "id": "easton_pa",
+    "name": "Easton, PA",
+    "subtype": "city",
+    "summary": "Location of Lafayette College."
+  },
+  {
+    "aliases": [
+      "Corning"
+    ],
+    "entity_type": "place",
+    "id": "corning_ny",
+    "name": "Corning, NY",
+    "subtype": "city",
+    "summary": "Location of Corning Incorporated and Stookey's home."
+  },
+  {
+    "aliases": [
+      "New Y ork City"
+    ],
+    "entity_type": "place",
+    "id": "new_york_city",
+    "name": "New York City",
+    "subtype": "city",
+    "summary": "Location of the United Nations headquarters."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "great_bear_lake",
+    "name": "Great Bear Lake",
+    "subtype": "facility",
+    "summary": "Location of Stookey's plane crash survival incident."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "camp_minewan",
+    "name": "Camp Minewan",
+    "subtype": "facility",
+    "summary": "Native Cree fishing camp in Northern Quebec."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "chesapeake_bay",
+    "name": "Chesapeake Bay",
+    "subtype": "place",
+    "summary": "Location where Stookey encountered Hurricane Agnes."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "florida",
+    "name": "Florida",
+    "subtype": "place",
+    "summary": "Location where Stookey fished and retired."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "lake_makokibatan",
+    "name": "Lake Makokibatan",
+    "subtype": "place",
+    "summary": "Lake on the Albany River in Northern Ontario where Stookey fished."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "key_west",
+    "name": "Key West",
+    "subtype": "place",
+    "summary": "Location where Stookey caught a 75-pound tarpon."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "nile",
+    "name": "Nile",
+    "subtype": "place",
+    "summary": "River where Stookey caught a giant perch."
+  },
+  {
+    "aliases": [
+      "Patagonian Andes"
+    ],
+    "entity_type": "place",
+    "id": "patagonia",
+    "name": "Patagonia",
+    "subtype": "place",
+    "summary": "Location of Stookey's solo trout-fishing trip in his late 80s."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "lake_ontario",
+    "name": "Lake Ontario",
+    "subtype": "place",
+    "summary": "Lake where Stookey fished in his later years."
+  },
+  {
+    "aliases": [
+      "Fotalite®"
+    ],
+    "entity_type": "artifact",
+    "id": "fotalite",
+    "name": "Fotalite",
+    "subtype": "product",
+    "summary": "Photosensitive opal glass invented by Stookey."
+  },
+  {
+    "aliases": [
+      "Fotoform®"
+    ],
+    "entity_type": "artifact",
+    "id": "fotoform",
+    "name": "Fotoform",
+    "subtype": "product",
+    "summary": "Photo-etchable glass invented by Stookey."
+  },
+  {
+    "aliases": [
+      "Fotoceram®"
+    ],
+    "entity_type": "artifact",
+    "id": "fotoceram",
+    "name": "Fotoceram",
+    "subtype": "product",
+    "summary": "First glass-ceramic invented by Stookey."
+  },
+  {
+    "aliases": [
+      "Pyroceram™"
+    ],
+    "entity_type": "artifact",
+    "id": "pyroceram",
+    "name": "Pyroceram",
+    "subtype": "product",
+    "summary": "TiO2-nucleated glass-ceramic used for missile nosecones and cookware."
+  },
+  {
+    "aliases": [
+      "Corningware®"
+    ],
+    "entity_type": "artifact",
+    "id": "corningware",
+    "name": "Corningware",
+    "subtype": "product",
+    "summary": "Heat-resistant cookware based on glass-ceramics."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "photochromic_glass",
+    "name": "Photochromic glass",
+    "subtype": "product",
+    "summary": "Glass that darkens under sunlight and fades indoors, invented by Stookey."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "polychromatic_glass",
+    "name": "Polychromatic glass",
+    "subtype": "product",
+    "summary": "Full-color photosensitive glass invented by Stookey."
+  },
+  {
+    "aliases": [
+      "Visions®"
+    ],
+    "entity_type": "artifact",
+    "id": "visions",
+    "name": "Visions",
+    "subtype": "product",
+    "summary": "Transparent cookware based on glass-ceramics."
+  },
+  {
+    "aliases": [
+      "Schott Zerodur®"
+    ],
+    "entity_type": "artifact",
+    "id": "zerodur",
+    "name": "Zerodur",
+    "subtype": "product",
+    "summary": "Glass-ceramic used for telescope mirrors."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "counter_that_cooks",
+    "name": "The Counter That Cooks",
+    "subtype": "product",
+    "summary": "First glass-ceramic electric cooktop."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "us_patent_2920971",
+    "name": "U.S. Patent 2,920,971",
+    "subtype": "patent",
+    "summary": "Basic patent on glass-ceramics held by Stookey."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "john_price_wetherill_award",
+    "name": "John Price Wetherill Award",
+    "subtype": "award",
+    "summary": "Award from the Franklin Institute received by Stookey."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "coe_alumni_award",
+    "name": "Coe College Alumni Award of Merit",
+    "subtype": "award",
+    "summary": "Award received by Stookey from Coe College."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "ross_coffin_purdy_award",
+    "name": "Ross Coffin Purdy Award",
+    "subtype": "award",
+    "summary": "Award from the American Ceramic Society received by Stookey."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "coe_honorary_dsc",
+    "name": "Coe College Honorary D.Sc.",
+    "subtype": "award",
+    "summary": "Honorary degree received by Stookey from Coe College."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "toledo_glass_science_award",
+    "name": "Toledo Glass and Science Award",
+    "subtype": "award",
+    "summary": "Award received by Stookey."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "inventor_of_year_award",
+    "name": "Inventor of the Year Award",
+    "subtype": "award",
+    "summary": "Award from George Washington University received by Stookey."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "acs_creative_invention_award",
+    "name": "Award for Creative Invention",
+    "subtype": "award",
+    "summary": "Award from the American Chemical Society received by Stookey."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "eugene_sullivan_award",
+    "name": "Eugene Sullivan Award",
+    "subtype": "award",
+    "summary": "Award from the Corning Section, American Chemical Society received by Stookey."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "myers_achievement_award",
+    "name": "Myers Achievement Award",
+    "subtype": "award",
+    "summary": "Award from Education Foundation in Ophthalmic Optics received by Stookey."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "phoenix_award",
+    "name": "Phoenix Award",
+    "subtype": "award",
+    "summary": "Award from the Glass Industry received by Stookey."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "iri_achievement_award",
+    "name": "Achievement Award",
+    "subtype": "award",
+    "summary": "Award from the Industrial Research Institute received by Stookey."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "samuel_giejbeek_award",
+    "name": "Samuel Giejbeek Award",
+    "subtype": "award",
+    "summary": "Award from the American Ceramic Society received by Stookey."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "distinguished_inventor_award",
+    "name": "Distinguished Inventor Award",
+    "subtype": "award",
+    "summary": "Award from Central New York Patent Law Association received by Stookey."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "alfred_honorary_dsc",
+    "name": "Alfred University Honorary D.Sc.",
+    "subtype": "award",
+    "summary": "Honorary degree received by Stookey from Alfred University."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "national_medal_of_technology",
+    "name": "National Medal of Technology",
+    "subtype": "award",
+    "summary": "Medal presented to Stookey by President Ronald Reagan."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "acers_distinguished_life_member",
+    "name": "Distinguished Life Member",
+    "subtype": "award",
+    "summary": "Status awarded by the American Ceramic Society to Stookey."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "wilhelm_eitel_medallion",
+    "name": "Wilhelm Eitel Medallion",
+    "subtype": "award",
+    "summary": "Medallion for Excellence in Silicate Science received by Stookey."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "nihf_inductee",
+    "name": "Inductee, National Inventors Hall of Fame",
+    "subtype": "award",
+    "summary": "Induction status received by Stookey."
+  }
+]

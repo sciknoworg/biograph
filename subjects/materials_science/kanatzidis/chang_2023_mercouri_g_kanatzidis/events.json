@@ -1,0 +1,327 @@
+[
+  {
+    "id": "birth",
+    "event_type": "birth",
+    "label": "Born in Thessaloniki",
+    "date": {
+      "display": "1957",
+      "precision": "year",
+      "sort_start": "1957-01-01",
+      "sort_end": "1957-12-31"
+    },
+    "location": "thessaloniki",
+    "participants": [
+      {
+        "entity_id": "mercouri_g_kanatzidis",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 1,
+        "quote": "Mercouri Kanatzidis was born in Thessaloniki, Greece in 1957."
+      }
+    ]
+  },
+  {
+    "id": "phd_graduation",
+    "event_type": "education",
+    "label": "Received Ph.D. from University of Iowa",
+    "date": {
+      "display": "1984",
+      "precision": "year",
+      "sort_start": "1984-01-01",
+      "sort_end": "1984-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mercouri_g_kanatzidis",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_iowa",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 1,
+        "quote": "he received his Ph. D in chemistry from the University of Iowa in 1984."
+      }
+    ]
+  },
+  {
+    "id": "postdoc_start",
+    "event_type": "employment_start",
+    "label": "Started post-doctoral research",
+    "date": {
+      "display": "1985",
+      "precision": "year",
+      "sort_start": "1985-01-01",
+      "sort_end": "1985-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mercouri_g_kanatzidis",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_michigan",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 1,
+        "quote": "He was a post-doctoral research associate at the University of Michigan and Northwestern University from 1985 to 1987"
+      }
+    ]
+  },
+  {
+    "id": "postdoc_end",
+    "event_type": "employment_end",
+    "label": "Ended post-doctoral research",
+    "date": {
+      "display": "1987",
+      "precision": "year",
+      "sort_start": "1987-01-01",
+      "sort_end": "1987-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mercouri_g_kanatzidis",
+        "role": "subject"
+      },
+      {
+        "entity_id": "northwestern_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 1,
+        "quote": "He was a post-doctoral research associate at the University of Michigan and Northwestern University from 1985 to 1987"
+      }
+    ]
+  },
+  {
+    "id": "msu_start",
+    "event_type": "employment_start",
+    "label": "Joined Michigan State University",
+    "date": {
+      "display": "1987",
+      "precision": "year",
+      "sort_start": "1987-01-01",
+      "sort_end": "1987-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mercouri_g_kanatzidis",
+        "role": "subject"
+      },
+      {
+        "entity_id": "michigan_state_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 1,
+        "quote": "Mercouri moved to Northwestern in the fall of 2006 from Michigan State University where he was a University Distinguished Professor of Chemistry since 1987."
+      }
+    ]
+  },
+  {
+    "id": "northwestern_start",
+    "event_type": "employment_start",
+    "label": "Moved to Northwestern University",
+    "date": {
+      "display": "fall of 2006",
+      "precision": "month",
+      "sort_start": "2006-09-01",
+      "sort_end": "2006-11-30"
+    },
+    "participants": [
+      {
+        "entity_id": "mercouri_g_kanatzidis",
+        "role": "subject"
+      },
+      {
+        "entity_id": "northwestern_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 1,
+        "quote": "Mercouri moved to Northwestern in the fall of 2006 from Michigan State University"
+      }
+    ]
+  },
+  {
+    "id": "award_presidential_young_investigator",
+    "event_type": "award",
+    "label": "Received Presidential Young Investigator Award",
+    "date": {
+      "display": "1989-1994",
+      "precision": "range",
+      "sort_start": "1989-01-01",
+      "sort_end": "1994-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mercouri_g_kanatzidis",
+        "role": "subject"
+      },
+      {
+        "entity_id": "national_science_foundation",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 2,
+        "quote": "Presidential Young Investigator Award, National Science Foundation - 1989-1994."
+      }
+    ]
+  },
+  {
+    "id": "award_sloan_fellow",
+    "event_type": "award",
+    "label": "Received Alfred P. Sloan Fellow",
+    "date": {
+      "display": "1991-1993",
+      "precision": "range",
+      "sort_start": "1991-01-01",
+      "sort_end": "1993-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mercouri_g_kanatzidis",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 1,
+        "quote": "Alfred P. Sloan Fellow (see Sloan Fellows) - 1991-1993"
+      }
+    ]
+  },
+  {
+    "id": "award_mrs_medal",
+    "event_type": "award",
+    "label": "Received MRS Medal",
+    "date": {
+      "display": "2014",
+      "precision": "year",
+      "sort_start": "2014-01-01",
+      "sort_end": "2014-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mercouri_g_kanatzidis",
+        "role": "subject"
+      },
+      {
+        "entity_id": "materials_research_society",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 1,
+        "quote": "Materials Research Society (MRS) Medal - 2014"
+      }
+    ]
+  },
+  {
+    "id": "award_acs_inorganic_chemistry",
+    "event_type": "award",
+    "label": "Received ACS Award in Inorganic Chemistry",
+    "date": {
+      "display": "2016",
+      "precision": "year",
+      "sort_start": "2016-01-01",
+      "sort_end": "2016-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mercouri_g_kanatzidis",
+        "role": "subject"
+      },
+      {
+        "entity_id": "american_chemical_society",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 1,
+        "quote": "American Chemical Society (ACS) Award in Inorganic Chemistry - 2016"
+      }
+    ]
+  },
+  {
+    "id": "award_aps_mcgroddy",
+    "event_type": "award",
+    "label": "Received APS James C. McGroddy Prize for New Materials",
+    "date": {
+      "display": "2016",
+      "precision": "year",
+      "sort_start": "2016-01-01",
+      "sort_end": "2016-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mercouri_g_kanatzidis",
+        "role": "subject"
+      },
+      {
+        "entity_id": "american_physical_society",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 1,
+        "quote": "APS James C. McGroddy Prize for New Materials - 2016"
+      }
+    ]
+  },
+  {
+    "id": "award_global_energy_prize",
+    "event_type": "award",
+    "label": "Received Global Energy Prize",
+    "date": {
+      "display": "Recently",
+      "precision": "circa",
+      "sort_start": "2022-01-01",
+      "sort_end": "2022-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mercouri_g_kanatzidis",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 1,
+        "quote": "Recently, Mercouri received the Global Energy Prize for \"the major advances made in solar energy conversion with the use of novel perovskite halides\"."
+      }
+    ]
+  }
+]

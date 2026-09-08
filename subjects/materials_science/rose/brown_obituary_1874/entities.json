@@ -1,0 +1,278 @@
+[
+  {
+    "aliases": [
+      "Eose",
+      "GUSTAVE EOSE",
+      "Kose"
+    ],
+    "entity_type": "person",
+    "id": "gustav_rose",
+    "name": "Gustav Rose",
+    "subtype": "researcher",
+    "summary": "German mineralogist and crystallographer known for work on crystalline forms and physical properties of minerals."
+  },
+  {
+    "aliases": [
+      "Valentin Eose"
+    ],
+    "entity_type": "person",
+    "id": "valentin_rose",
+    "name": "Valentin Rose",
+    "subtype": "chemist",
+    "summary": "Pharmaceutical chemist, father of Gustav Rose."
+  },
+  {
+    "aliases": [
+      "Heinrich Eose"
+    ],
+    "entity_type": "person",
+    "id": "heinrich_rose",
+    "name": "Heinrich Rose",
+    "subtype": "chemist",
+    "summary": "Eminent analytical chemist, brother of Gustav Rose."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "weiss",
+    "name": "Weiss",
+    "subtype": "researcher",
+    "summary": "Mineralogy professor at University of Berlin who taught Gustav Rose."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "berzelius",
+    "name": "Berzelius",
+    "subtype": "chemist",
+    "summary": "Greatest and most accurate chemist of his age, taught in Stockholm."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "mitscherlich",
+    "name": "Mitscherlich",
+    "subtype": "chemist",
+    "summary": "Chemist who discovered isomorphism, maintained life-long friendship with Gustav Rose."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "humboldt",
+    "name": "Humboldt",
+    "subtype": "explorer",
+    "summary": "Explorer who selected Gustav Rose as companion for Ural and Altai Mountains examination."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "marbach",
+    "name": "Marbach",
+    "subtype": "researcher",
+    "summary": "Researcher who showed thermo-electric differences in iron pyrites and cobaltine crystals in 1857."
+  },
+  {
+    "aliases": [
+      "Kammelsberg"
+    ],
+    "entity_type": "person",
+    "id": "kammelsberg",
+    "name": "Professor Kammelsberg",
+    "subtype": "researcher",
+    "summary": "Professor who wrote notice of Gustav Rose's life, source for this obituary sketch."
+  },
+  {
+    "aliases": [
+      "Oruin Brown"
+    ],
+    "entity_type": "person",
+    "id": "oruin_brown",
+    "name": "Professor Oruin Brown",
+    "subtype": "author",
+    "summary": "Author of this obituary notice of Gustav Rose."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Germany"
+    },
+    "entity_type": "place",
+    "id": "berlin",
+    "name": "Berlin",
+    "subtype": "city",
+    "summary": "City in Germany where Gustav Rose was born and worked."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "silesia",
+    "name": "Silesia",
+    "subtype": "region",
+    "summary": "Region where Gustav Rose began practical studies and took excursions."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Sweden"
+    },
+    "entity_type": "place",
+    "id": "stockholm",
+    "name": "Stockholm",
+    "subtype": "city",
+    "summary": "City in Sweden where Gustav Rose studied under Berzelius."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "sweden",
+    "name": "Sweden",
+    "subtype": "country",
+    "summary": "Country where Gustav Rose made excursions to study mineralogy."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "england",
+    "name": "England",
+    "subtype": "country",
+    "summary": "Country Gustav Rose visited studying rocks, mines, and museums."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "scotland",
+    "name": "Scotland",
+    "subtype": "country",
+    "summary": "Country Gustav Rose visited studying rocks, mines, and museums."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "scandinavia",
+    "name": "Scandinavia",
+    "subtype": "region",
+    "summary": "Region Gustav Rose visited studying rocks, mines, and museums."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "italy",
+    "name": "Italy",
+    "subtype": "country",
+    "summary": "Country Gustav Rose visited studying rocks, mines, and museums."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "france",
+    "name": "France",
+    "subtype": "country",
+    "summary": "Country Gustav Rose visited studying rocks, mines, and museums."
+  },
+  {
+    "aliases": [
+      "Ural"
+    ],
+    "entity_type": "place",
+    "id": "ural_mountains",
+    "name": "Ural Mountains",
+    "subtype": "mountain_range",
+    "summary": "Mountain range examined by Humboldt and Gustav Rose in 1829."
+  },
+  {
+    "aliases": [
+      "Altai"
+    ],
+    "entity_type": "place",
+    "id": "altai_mountains",
+    "name": "Altai Mountains",
+    "subtype": "mountain_range",
+    "summary": "Mountain range examined by Humboldt and Gustav Rose in 1829."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "harz",
+    "name": "Harz",
+    "subtype": "region",
+    "summary": "Region where Gustav Rose took holiday excursions."
+  },
+  {
+    "aliases": [
+      "Berlin University"
+    ],
+    "entity_type": "organization",
+    "id": "university_of_berlin",
+    "name": "University of Berlin",
+    "subtype": "university",
+    "summary": "University where Gustav Rose studied and later became professor."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "mineralogical_collections",
+    "name": "Mineralogical Collections",
+    "subtype": "collection",
+    "summary": "Collection of which Gustav Rose became Director in 1849."
+  },
+  {
+    "aliases": [
+      "Berlin Eoyal Academy of Sciences"
+    ],
+    "entity_type": "organization",
+    "id": "berlin_royal_academy_of_sciences",
+    "name": "Berlin Royal Academy of Sciences",
+    "subtype": "academy",
+    "summary": "Academy where Gustav Rose published researches."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "german_geological_society",
+    "name": "German Geological Society",
+    "subtype": "society",
+    "summary": "Society whose journal published Gustav Rose's researches."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "poggendorffs_annalen",
+    "name": "Poggendorff's Annalen",
+    "subtype": "publication",
+    "summary": "Journal where most of Gustav Rose's researches were published."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "de_sphenis_atque_titanitae",
+    "name": "De Sphenis atque Titanitae systemate Crystallino",
+    "subtype": "publication",
+    "summary": "Gustav Rose's graduation thesis on crystalline system of sphene and titanite."
+  },
+  {
+    "aliases": [
+      "Eeise nach dem Ural"
+    ],
+    "entity_type": "artifact",
+    "id": "reise_nach_dem_ural",
+    "name": "Reise nach dem Ural",
+    "subtype": "publication",
+    "summary": "Special work by Gustav Rose on mineral wealth of Ural region."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "elements_of_mineralogy",
+    "name": "Elements of Mineralogy",
+    "subtype": "publication",
+    "summary": "Short work by Gustav Rose distinguished by beautifully drawn figures."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "felspar_memoir",
+    "name": "Memoir on Felspar",
+    "subtype": "publication",
+    "summary": "Elaborate memoir on felspar by Gustav Rose."
+  }
+]

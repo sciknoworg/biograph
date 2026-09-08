@@ -1,0 +1,529 @@
+[
+  {
+    "id": "stookey_birth",
+    "event_type": "birth",
+    "label": "Born in Hay Springs, Nebraska",
+    "date": {
+      "display": "May 23, 1915",
+      "precision": "day",
+      "sort_start": "1915-05-23",
+      "sort_end": "1915-05-23"
+    },
+    "participants": [
+      {
+        "entity_id": "stookey_s_donald",
+        "role": "subject"
+      }
+    ],
+    "location": "hay_springs_ne",
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 1,
+        "quote": "Don was born at Hay Springs, Nebraska on May 23, 1915."
+      }
+    ]
+  },
+  {
+    "id": "stookey_family_move",
+    "event_type": "relocation",
+    "label": "Family moved to Cedar Rapids, Iowa",
+    "date": {
+      "display": "1921",
+      "precision": "year",
+      "sort_start": "1921-01-01",
+      "sort_end": "1921-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stookey_s_donald",
+        "role": "subject"
+      }
+    ],
+    "location": "cedar_rapids_ia",
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 1,
+        "quote": "His family moved to Cedar Rapids Iowa in 1921."
+      }
+    ]
+  },
+  {
+    "id": "stookey_ba_coe",
+    "event_type": "education",
+    "label": "Graduated with B.A. from Coe College",
+    "date": {
+      "display": "1936",
+      "precision": "year",
+      "sort_start": "1936-01-01",
+      "sort_end": "1936-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stookey_s_donald",
+        "role": "subject"
+      },
+      {
+        "entity_id": "coe_college",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 1,
+        "quote": "He graduated with a B.A. in Mathematics and Chemistry from Coe College in 1936."
+      }
+    ]
+  },
+  {
+    "id": "stookey_ma_lafayette",
+    "event_type": "education",
+    "label": "Received master's degree from Lafayette College",
+    "date": {
+      "display": "1938",
+      "precision": "year",
+      "sort_start": "1938-01-01",
+      "sort_end": "1938-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stookey_s_donald",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lafayette_college",
+        "role": "educator"
+      }
+    ],
+    "location": "easton_pa",
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 1,
+        "quote": "He then received a master's degree in Chemistry from Lafayette College in Easton, PA, USA, in 1938"
+      }
+    ]
+  },
+  {
+    "id": "stookey_phd_mit",
+    "event_type": "education",
+    "label": "Earned Ph.D. from MIT",
+    "date": {
+      "display": "1940",
+      "precision": "year",
+      "sort_start": "1940-01-01",
+      "sort_end": "1940-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stookey_s_donald",
+        "role": "subject"
+      },
+      {
+        "entity_id": "mit",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 1,
+        "quote": "and went on to earn a Ph.D. in Physical Chemistry from Massachusetts Institute of Technology in 1940."
+      }
+    ]
+  },
+  {
+    "id": "stookey_marriage",
+    "event_type": "other",
+    "label": "Married Ruth Watterson",
+    "date": {
+      "display": "1940",
+      "precision": "year",
+      "sort_start": "1940-01-01",
+      "sort_end": "1940-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stookey_s_donald",
+        "role": "subject"
+      },
+      {
+        "entity_id": "watterson_ruth",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 1,
+        "quote": "He married his Coe College sweetheart, Ruth Watterson, in the same year."
+      }
+    ]
+  },
+  {
+    "id": "stookey_employment_corning",
+    "event_type": "employment_start",
+    "label": "Joined Corning Glass Works",
+    "date": {
+      "display": "1940",
+      "precision": "year",
+      "sort_start": "1940-01-01",
+      "sort_end": "1940-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stookey_s_donald",
+        "role": "subject"
+      },
+      {
+        "entity_id": "corning_incorporated",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 1,
+        "quote": "He joined Corning Glass Works in 1940"
+      }
+    ]
+  },
+  {
+    "id": "stookey_meeting_littleton",
+    "event_type": "meeting",
+    "label": "Meeting with Dr. J. T. Littleton",
+    "date": {
+      "display": "1947",
+      "precision": "year",
+      "sort_start": "1947-01-01",
+      "sort_end": "1947-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stookey_s_donald",
+        "role": "subject"
+      },
+      {
+        "entity_id": "littleton_j_t",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 3,
+        "quote": "Then, at a meeting in 1947, Dr. J. T. Littleton, Corning's research director at that time, wondered if glass could somehow be used to make vital aperture masks guiding the electron beams in colored television"
+      }
+    ]
+  },
+  {
+    "id": "stookey_fotoceram_discovery",
+    "event_type": "invention",
+    "label": "Accidental discovery of Fotoceram",
+    "description": "Furnace temperature controller stuck, converting glass to ceramic.",
+    "date": {
+      "display": "after 1947",
+      "precision": "range",
+      "sort_start": "1948-01-01",
+      "sort_end": "1950-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stookey_s_donald",
+        "role": "subject"
+      },
+      {
+        "entity_id": "fotoceram",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 3,
+        "quote": "One day, as Don was preparing to heat-treat a plate of pre-exposed Fotoform® glass, the temperature controller became stuck in the "
+      }
+    ]
+  },
+  {
+    "id": "stookey_radomes_corningware",
+    "event_type": "product_launch",
+    "label": "Radomes and Corningware products resulted",
+    "date": {
+      "display": "late 1950s",
+      "precision": "decade",
+      "sort_start": "1955-01-01",
+      "sort_end": "1959-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stookey_s_donald",
+        "role": "subject"
+      },
+      {
+        "entity_id": "pyroceram",
+        "role": "invention"
+      },
+      {
+        "entity_id": "corningware",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 3,
+        "quote": "Two successful products resulted from this research in the late 1950s: radomes (nose cones for missiles) based on cordierite (Figure 6) and Corningware® (Figures 7 and 8) heat-resistant cookware based on the crystal β-spodumene"
+      }
+    ]
+  },
+  {
+    "id": "stookey_plane_crash",
+    "event_type": "other",
+    "label": "Survived plane crash on Great Bear Lake",
+    "date": {
+      "display": "1950s",
+      "precision": "decade",
+      "sort_start": "1950-01-01",
+      "sort_end": "1959-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stookey_s_donald",
+        "role": "subject"
+      },
+      {
+        "entity_id": "stookey_dave",
+        "role": "family"
+      }
+    ],
+    "location": "great_bear_lake",
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 6,
+        "quote": "One in the 1950s that nearly took his life took place above the Arctic Circle on Great Bear Lake in the Northwest Territories of Canada."
+      }
+    ]
+  },
+  {
+    "id": "stookey_fishing_minewan",
+    "event_type": "visit",
+    "label": "Fishing trip to Camp Minewan",
+    "date": {
+      "display": "1995",
+      "precision": "year",
+      "sort_start": "1995-01-01",
+      "sort_end": "1995-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stookey_s_donald",
+        "role": "subject"
+      }
+    ],
+    "location": "camp_minewan",
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 6,
+        "quote": "Then there was the time in 1995, when a large group of fishermen including Don... were on a fishing trip to Camp Minewan"
+      }
+    ]
+  },
+  {
+    "id": "stookey_fishing_patagonia",
+    "event_type": "visit",
+    "label": "Solo trout-fishing trip in Patagonia",
+    "date": {
+      "display": "late 80s",
+      "precision": "decade",
+      "sort_start": "1985-01-01",
+      "sort_end": "1989-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stookey_s_donald",
+        "role": "subject"
+      }
+    ],
+    "location": "patagonia",
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 6,
+        "quote": "and more recently took a solo trout-fishing trip in Patagonia when he was in his late 80s."
+      }
+    ]
+  },
+  {
+    "id": "stookey_phoenix_award",
+    "event_type": "award",
+    "label": "Received Phoenix Award",
+    "date": {
+      "display": "1975",
+      "precision": "year",
+      "sort_start": "1975-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stookey_s_donald",
+        "role": "subject"
+      },
+      {
+        "entity_id": "phoenix_award",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 7,
+        "quote": "10. Phoenix Award of the Glass Industry (1975)."
+      }
+    ]
+  },
+  {
+    "id": "stookey_national_medal_technology",
+    "event_type": "award",
+    "label": "Received National Medal of Technology",
+    "date": {
+      "display": "1986",
+      "precision": "year",
+      "sort_start": "1986-01-01",
+      "sort_end": "1986-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stookey_s_donald",
+        "role": "subject"
+      },
+      {
+        "entity_id": "national_medal_of_technology",
+        "role": "award"
+      },
+      {
+        "entity_id": "reagan_ronald",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 8,
+        "quote": "15. National Medal of Technology presented by President Ronald Reagan (1986)."
+      }
+    ]
+  },
+  {
+    "id": "stookey_retirement",
+    "event_type": "retirement",
+    "label": "Retired from Corning",
+    "date": {
+      "display": "1990",
+      "precision": "year",
+      "sort_start": "1990-01-01",
+      "sort_end": "1990-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stookey_s_donald",
+        "role": "subject"
+      },
+      {
+        "entity_id": "corning_incorporated",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 1,
+        "quote": "Don Stookey (Figure 1) was a well-known and highly respected scientist at Corning Incorporated, formerly Corning Glass Works, for 50 years (1940–1990)."
+      }
+    ]
+  },
+  {
+    "id": "stookey_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "2014",
+      "precision": "year",
+      "sort_start": "2014-01-01",
+      "sort_end": "2014-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stookey_s_donald",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 1,
+        "quote": "Dr. S. Donald (Don) Stookey (1915–2014): Pioneering Researcher and Adventurer."
+      }
+    ]
+  },
+  {
+    "id": "stookey_wetherill_award",
+    "event_type": "award",
+    "label": "Received John Price Wetherill Award",
+    "date": {
+      "display": "1953 and 1962",
+      "precision": "year",
+      "sort_start": "1953-01-01",
+      "sort_end": "1962-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stookey_s_donald",
+        "role": "subject"
+      },
+      {
+        "entity_id": "john_price_wetherill_award",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 7,
+        "quote": "1. John Price Wetherill Award to the Franklin Institute (1953 and 1962)."
+      }
+    ]
+  },
+  {
+    "id": "stookey_nihf_induction",
+    "event_type": "award",
+    "label": "Inducted into National Inventors Hall of Fame",
+    "date": {
+      "display": "2010",
+      "precision": "year",
+      "sort_start": "2010-01-01",
+      "sort_end": "2010-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stookey_s_donald",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nihf_inductee",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "beall_2016",
+        "page": 8,
+        "quote": "19. Inductee, National Inventors Hall of Fame (2010)."
+      }
+    ]
+  }
+]

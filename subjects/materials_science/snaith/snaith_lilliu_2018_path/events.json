@@ -1,0 +1,212 @@
+[
+  {
+    "id": "snaith_aware_perovskites_2009",
+    "event_type": "visit",
+    "label": "Became aware of metal halide perovskites",
+    "description": "Snaith visited colleagues in Japan and learned about Miyasaka's work.",
+    "date": {
+      "display": "2009",
+      "precision": "year",
+      "sort_start": "2009-01-01",
+      "sort_end": "2009-12-31"
+    },
+    "location": "japan",
+    "participants": [
+      {
+        "entity_id": "henry_j_snaith",
+        "role": "subject"
+      },
+      {
+        "entity_id": "tsutomu_miyasaka",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "snaith_lilliu_2018_path",
+        "page": 1,
+        "quote": "I first became aware of metal halide perovskites in 2009, when visiting some colleagues and collaborators in Japan."
+      }
+    ]
+  },
+  {
+    "id": "miyasaka_first_paper_2009",
+    "event_type": "publication",
+    "label": "Miyasaka group published first perovskite solar cell paper",
+    "description": "The first paper using metal halide perovskites in solar cells was published.",
+    "date": {
+      "display": "2009",
+      "precision": "year",
+      "sort_start": "2009-01-01",
+      "sort_end": "2009-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tsutomu_miyasaka",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "snaith_lilliu_2018_path",
+        "page": 1,
+        "quote": "The first paper using metal halide perovskites in solar cells had just been published by the group of Prof. Tsutomu (Tom) Miyasaka (Toin University of Yokohama, Japan)."
+      }
+    ]
+  },
+  {
+    "id": "snaith_grant_murakami_2009",
+    "event_type": "other",
+    "label": "Secured collaborative grant with Murakami",
+    "description": "Snaith returned to the UK and got a grant to send a PhD student to Japan.",
+    "date": {
+      "display": "c. 2009",
+      "precision": "circa",
+      "sort_start": "2009-01-01",
+      "sort_end": "2009-12-31"
+    },
+    "location": "uk",
+    "participants": [
+      {
+        "entity_id": "henry_j_snaith",
+        "role": "subject"
+      },
+      {
+        "entity_id": "takurou_murakami",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "approximate",
+    "sources": [
+      {
+        "source_id": "snaith_lilliu_2018_path",
+        "page": 1,
+        "quote": "I subsequently returned to the UK and managed to get a collaborative grant with one of my colleagues Takurou Murakami and I sent a PhD student back to Japan to learn how to make these perovskite materials."
+      }
+    ]
+  },
+  {
+    "id": "snaith_first_publications_2012",
+    "event_type": "publication",
+    "label": "First publications on solid-state perovskite devices",
+    "description": "Snaith's group published work showing 10.9% efficiency.",
+    "date": {
+      "display": "end of 2012",
+      "precision": "year",
+      "sort_start": "2012-01-01",
+      "sort_end": "2012-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_j_snaith",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "snaith_lilliu_2018_path",
+        "page": 2,
+        "quote": "Since those first few publications in the end of 2012, starting from 2013, the research field of perovskite solar cells has absolutely exploded."
+      },
+      {
+        "source_id": "snaith_lilliu_2018_path",
+        "page": 2,
+        "quote": "In our first publication we reported 10.9% efficiency."
+      }
+    ]
+  },
+  {
+    "id": "field_growth_2013",
+    "event_type": "other",
+    "label": "Perovskite research field exploded",
+    "description": "Publications grew from 4 in 2012 to about 60 in 2013.",
+    "date": {
+      "display": "2013",
+      "precision": "year",
+      "sort_start": "2013-01-01",
+      "sort_end": "2013-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_j_snaith",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "snaith_lilliu_2018_path",
+        "page": 2,
+        "quote": "in 2013 there were about sixty"
+      }
+    ]
+  },
+  {
+    "id": "snaith_hacke_stability_paper_2018",
+    "event_type": "publication",
+    "label": "Co-authored stability paper with Hacke",
+    "description": "Snaith worked with Peter Hacke from NREL on stability standards.",
+    "date": {
+      "display": "2018",
+      "precision": "year",
+      "sort_start": "2018-01-01",
+      "sort_end": "2018-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_j_snaith",
+        "role": "subject"
+      },
+      {
+        "entity_id": "peter_hacke",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "snaith_lilliu_2018_path",
+        "page": 3,
+        "quote": "I have had the pleasure of recently working with Peter Hacke from NREL and writing a paper on stability for perovskite solar cells."
+      }
+    ]
+  },
+  {
+    "id": "oxford_pv_world_record_2018",
+    "event_type": "product_launch",
+    "label": "Oxford PV sets world record for perovskite solar cell",
+    "description": "Achieved 27.3% efficiency for perovskite on silicon.",
+    "date": {
+      "display": "2018",
+      "precision": "year",
+      "sort_start": "2018-01-01",
+      "sort_end": "2018-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "oxford_photovoltaics",
+        "role": "subject"
+      },
+      {
+        "entity_id": "henry_j_snaith",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "snaith_lilliu_2018_path",
+        "page": 3,
+        "quote": "The present world record for perovskite on silicon is 27.3% efficiency."
+      },
+      {
+        "source_id": "snaith_lilliu_2018_path",
+        "page": 6,
+        "quote": "Oxford PV sets world record for perovskite solar cell , https://www.oxfordpv.com/news/oxford-pv-sets-world-record-perovskite-solar-cell (2018)."
+      }
+    ]
+  }
+]

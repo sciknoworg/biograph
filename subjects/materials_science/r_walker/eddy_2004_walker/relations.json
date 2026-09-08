@@ -1,0 +1,85 @@
+[
+  {
+    "id": "walker_employed_edinburgh",
+    "source": "john_walker",
+    "type": "employed_by",
+    "target": "university_of_edinburgh",
+    "event_id": "walker_appointed_professor",
+    "sources": [
+      {
+        "source_id": "eddy_2004_walker",
+        "page": 11,
+        "quote": "Walker was appointed to the Medical Faculty as Professor of Natural History in 1779."
+      }
+    ]
+  },
+  {
+    "id": "walker_educated_cullen",
+    "source": "john_walker",
+    "type": "educated_by",
+    "target": "william_cullen",
+    "sources": [
+      {
+        "source_id": "eddy_2004_walker",
+        "page": 10,
+        "quote": "he had learned it in the University of Edinburgh's Medical School under the instruction of William Cullen during the 1750s"
+      }
+    ]
+  },
+  {
+    "id": "walker_invented_schediasma",
+    "source": "john_walker",
+    "type": "invented",
+    "target": "schediasma_fossilium",
+    "event_id": "walker_created_first_system",
+    "sources": [
+      {
+        "source_id": "eddy_2004_walker",
+        "page": 6,
+        "quote": "He created his ﬁrst comprehensive system in 1781 – the year before he gave his ﬁrst full natural history course."
+      }
+    ]
+  },
+  {
+    "id": "walker_published_classes",
+    "source": "john_walker",
+    "type": "published",
+    "target": "classes_fossilium",
+    "event_id": "walker_published_classes_fossilium",
+    "sources": [
+      {
+        "source_id": "eddy_2004_walker",
+        "page": 6,
+        "quote": "in 1787 he published these augmentations of Schediasma as Classes Fossilium , Edinburgh, 1787."
+      }
+    ]
+  },
+  {
+    "id": "walker_published_institutes",
+    "source": "john_walker",
+    "type": "published",
+    "target": "institutes_of_natural_history",
+    "event_id": "walker_published_institutes",
+    "sources": [
+      {
+        "source_id": "eddy_2004_walker",
+        "page": 5,
+        "quote": "John Walker, Institutes of Natural History; Containing the Heads of Lectures in Natural History ; Delivered by Dr. John Walker, in the University of Edinburgh , Edinburgh, 1792"
+      }
+    ]
+  },
+  {
+    "id": "walker_developed_systema",
+    "source": "john_walker",
+    "type": "developed",
+    "target": "systema_fossilium",
+    "event_id": "walker_final_system",
+    "sources": [
+      {
+        "source_id": "eddy_2004_walker",
+        "page": 6,
+        "quote": "the ﬁnal version occurred around 1795"
+      }
+    ]
+  }
+]

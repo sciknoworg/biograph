@@ -1,0 +1,17 @@
+[
+  {
+    "id": "oxford_pv_facility_brandenburg",
+    "source": "oxford_photovoltaics",
+    "type": "lived_in",
+    "target": "brandenburg",
+    "note": "Facility location",
+    "sources": [
+      {
+        "source_id": "snaith_lilliu_2018_path",
+        "page": 4,
+        "quote": "made in the Oxford PV facility in Brandenburg (Germany), where we are scaling up to full size."
+      }
+    ],
+    "_rejected_because": "'lived_in' expects source entity_type person, but 'oxford_photovoltaics' is 'organization'"
+  }
+]

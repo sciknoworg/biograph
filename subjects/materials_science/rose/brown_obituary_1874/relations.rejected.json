@@ -1,0 +1,30 @@
+[
+  {
+    "id": "rose_published_berlin_academy",
+    "source": "gustav_rose",
+    "type": "published",
+    "target": "berlin_royal_academy_of_sciences",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 2,
+        "quote": "in the Transactions of Berlin Eoyal Academy of Sciences"
+      }
+    ],
+    "_rejected_because": "'published' expects target entity_type artifact, but 'berlin_royal_academy_of_sciences' is 'organization'"
+  },
+  {
+    "id": "rose_published_geological_society",
+    "source": "gustav_rose",
+    "type": "published",
+    "target": "german_geological_society",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 2,
+        "quote": "and in the Journal of the German Geological Society"
+      }
+    ],
+    "_rejected_because": "'published' expects target entity_type artifact, but 'german_geological_society' is 'organization'"
+  }
+]

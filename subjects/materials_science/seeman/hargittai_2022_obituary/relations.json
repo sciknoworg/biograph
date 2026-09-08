@@ -1,0 +1,163 @@
+[
+  {
+    "id": "seeman_born_chicago",
+    "source": "nadrian_c_seeman",
+    "type": "born_in",
+    "target": "chicago",
+    "sources": [
+      {
+        "source_id": "hargittai_2022_obituary",
+        "page": 1,
+        "quote": "Nadrian (Ned) C. Seeman (1945–2021, Figs. 1 and 2) was born in Chicago."
+      }
+    ]
+  },
+  {
+    "id": "seeman_studied_chicago",
+    "source": "nadrian_c_seeman",
+    "type": "studied_at",
+    "target": "university_of_chicago",
+    "sources": [
+      {
+        "source_id": "hargittai_2022_obituary",
+        "page": 1,
+        "quote": "While being a medical undergraduate at the University of Chicago, he realized that research could also be a profession and decided to pursue such a career."
+      }
+    ]
+  },
+  {
+    "id": "seeman_worked_columbia",
+    "source": "nadrian_c_seeman",
+    "type": "worked_at",
+    "target": "columbia_university",
+    "sources": [
+      {
+        "source_id": "hargittai_2022_obituary",
+        "page": 2,
+        "quote": "followed by postdoctoral work first at Columbia University"
+      }
+    ]
+  },
+  {
+    "id": "seeman_worked_mit",
+    "source": "nadrian_c_seeman",
+    "type": "worked_at",
+    "target": "massachusetts_institute_of_technology",
+    "sources": [
+      {
+        "source_id": "hargittai_2022_obituary",
+        "page": 2,
+        "quote": "and, then, with the legendary crystallographer, Alexander Rich, at the Massachusetts Institute of Technology."
+      }
+    ]
+  },
+  {
+    "id": "seeman_supervised_rich",
+    "source": "nadrian_c_seeman",
+    "type": "supervised_by",
+    "target": "alexander_rich",
+    "sources": [
+      {
+        "source_id": "hargittai_2022_obituary",
+        "page": 2,
+        "quote": "and, then, with the legendary crystallographer, Alexander Rich, at the Massachusetts Institute of Technology."
+      }
+    ]
+  },
+  {
+    "id": "seeman_worked_albany",
+    "source": "nadrian_c_seeman",
+    "type": "worked_at",
+    "target": "state_university_of_new_york_at_albany",
+    "sources": [
+      {
+        "source_id": "hargittai_2022_obituary",
+        "page": 2,
+        "quote": "In 1977, Seeman was appointed to the Biology Department of the State University of New York at Albany."
+      }
+    ]
+  },
+  {
+    "id": "seeman_worked_nyu",
+    "source": "nadrian_c_seeman",
+    "type": "worked_at",
+    "target": "new_york_university",
+    "sources": [
+      {
+        "source_id": "hargittai_2022_obituary",
+        "page": 2,
+        "quote": "By then, he had already become a member of the Faculty of the Department of Chemistry of New York University where he stayed to the end of his life."
+      }
+    ]
+  },
+  {
+    "id": "seeman_developed_dna_nanotech",
+    "source": "nadrian_c_seeman",
+    "type": "developed",
+    "target": "holliday_junction",
+    "note": "Developed life motif constructing three-dimensional DNA structures based on Holliday junction concept.",
+    "sources": [
+      {
+        "source_id": "hargittai_2022_obituary",
+        "page": 2,
+        "quote": "Playing with its model led Seeman to develop his life motif, constructing three-dimensional DNA structures, and he became a nano-architect."
+      }
+    ]
+  },
+  {
+    "id": "seeman_awarded_kavli",
+    "source": "nadrian_c_seeman",
+    "type": "awarded",
+    "target": "kavli_prize_in_nanoscience",
+    "event_id": "seeman_kavli_prize",
+    "sources": [
+      {
+        "source_id": "hargittai_2022_obituary",
+        "page": 3,
+        "quote": "And, to top it all, he was co-recipient of the Kavli Prize in Nanoscience in 2010, shared with another pioneer of the field, Donald Eigler of IBM Almaden Research Center in San Jose, CA."
+      }
+    ]
+  },
+  {
+    "id": "seeman_collab_eigler",
+    "source": "nadrian_c_seeman",
+    "type": "collaborated_with",
+    "target": "donald_eigler",
+    "note": "Shared Kavli Prize in Nanoscience in 2010.",
+    "sources": [
+      {
+        "source_id": "hargittai_2022_obituary",
+        "page": 3,
+        "quote": "shared with another pioneer of the field, Donald Eigler of IBM Almaden Research Center in San Jose, CA."
+      }
+    ]
+  },
+  {
+    "id": "seeman_pub_1995",
+    "source": "nadrian_c_seeman",
+    "type": "published",
+    "target": "molecular_craftwork_with_dna",
+    "event_id": "seeman_pub_chemical_intelligencer",
+    "sources": [
+      {
+        "source_id": "hargittai_2022_obituary",
+        "page": 2,
+        "quote": "Among his many research papers, he published a beautiful article, one of the first features in the fledgling magazine of the culture of chemistry, The Chemical Intelligencer [1]."
+      }
+    ]
+  },
+  {
+    "id": "seeman_pub_2020",
+    "source": "nadrian_c_seeman",
+    "type": "published",
+    "target": "forty_years_of_dna_nanotechnology",
+    "event_id": "seeman_pub_nanoletters",
+    "sources": [
+      {
+        "source_id": "hargittai_2022_obituary",
+        "page": 3,
+        "quote": "One of his last publications appeared in 2020 in which he looked back at 40 years of DNA nanotechnology [2]."
+      }
+    ]
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "richard_von_mises_birth",
+    "event_type": "birth",
+    "label": "Born in Lemberg",
+    "date": {
+      "display": "1883",
+      "precision": "year",
+      "sort_start": "1883-01-01",
+      "sort_end": "1883-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "richard_von_mises",
+        "role": "subject"
+      }
+    ],
+    "location": "lemberg",
+    "sources": [
+      {
+        "source_id": "siegmund_schultze_2020",
+        "page": 2,
+        "quote": "Richard von Mises (1883–1953)"
+      }
+    ]
+  },
+  {
+    "id": "richard_von_mises_zamm_editor_start",
+    "event_type": "employment_start",
+    "label": "Started editing ZAMM",
+    "date": {
+      "display": "1921",
+      "precision": "year",
+      "sort_start": "1921-01-01",
+      "sort_end": "1921-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "richard_von_mises",
+        "role": "subject"
+      },
+      {
+        "entity_id": "zamm",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "siegmund_schultze_2020",
+        "page": 2,
+        "quote": "activities of the editor Richard von Mises (1883–1953) between 1921 and 1933"
+      }
+    ]
+  },
+  {
+    "id": "richard_von_mises_berlin_institute",
+    "event_type": "employment_start",
+    "label": "Headed Institute for Applied Mathematics at Berlin University",
+    "date": {
+      "display": "1921",
+      "precision": "year",
+      "sort_start": "1921-01-01",
+      "sort_end": "1921-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "richard_von_mises",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_berlin",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "siegmund_schultze_2020",
+        "page": 19,
+        "quote": "Institute for Applied Mathematics at the University of Berlin, which is headed by Prof. v. Mises"
+      }
+    ]
+  },
+  {
+    "id": "richard_von_mises_emigration_istanbul",
+    "event_type": "relocation",
+    "label": "Emigrated to Istanbul",
+    "date": {
+      "display": "November 1933",
+      "precision": "month",
+      "sort_start": "1933-11-01",
+      "sort_end": "1933-11-30"
+    },
+    "participants": [
+      {
+        "entity_id": "richard_von_mises",
+        "role": "subject"
+      }
+    ],
+    "location": "istanbul",
+    "sources": [
+      {
+        "source_id": "siegmund_schultze_2020",
+        "page": 22,
+        "quote": "Richard von Mises left Berlin in November 1933 for Istanbul"
+      }
+    ]
+  },
+  {
+    "id": "richard_von_mises_arrival_usa",
+    "event_type": "relocation",
+    "label": "Arrived in New York",
+    "date": {
+      "display": "August 17, 1939",
+      "precision": "day",
+      "sort_start": "1939-08-17",
+      "sort_end": "1939-08-17"
+    },
+    "participants": [
+      {
+        "entity_id": "richard_von_mises",
+        "role": "subject"
+      }
+    ],
+    "location": "new_york",
+    "sources": [
+      {
+        "source_id": "siegmund_schultze_2020",
+        "page": 34,
+        "quote": "After RvM had arrived in New York from Istanbul on August 17, 1939"
+      }
+    ]
+  },
+  {
+    "id": "richard_von_mises_harvard_position",
+    "event_type": "employment_start",
+    "label": "Took position at Harvard University",
+    "date": {
+      "display": "1939",
+      "precision": "year",
+      "sort_start": "1939-01-01",
+      "sort_end": "1939-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "richard_von_mises",
+        "role": "subject"
+      },
+      {
+        "entity_id": "harvard_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "siegmund_schultze_2020",
+        "page": 34,
+        "quote": "he took up his initially unpaid position at the Engineering Department of Harvard University in Cambridge/Boston"
+      }
+    ]
+  },
+  {
+    "id": "richard_von_mises_marriage",
+    "event_type": "other",
+    "label": "Married Hilda Geiringer",
+    "date": {
+      "display": "1943",
+      "precision": "year",
+      "sort_start": "1943-01-01",
+      "sort_end": "1943-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "richard_von_mises",
+        "role": "subject"
+      },
+      {
+        "entity_id": "hilda_geiringer",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "siegmund_schultze_2020",
+        "page": 4,
+        "quote": "since 1943 his wife in American emigration"
+      }
+    ]
+  },
+  {
+    "id": "richard_von_mises_death",
+    "event_type": "death",
+    "label": "Died in Cambridge (USA)",
+    "date": {
+      "display": "July 1953",
+      "precision": "month",
+      "sort_start": "1953-07-01",
+      "sort_end": "1953-07-31"
+    },
+    "participants": [
+      {
+        "entity_id": "richard_von_mises",
+        "role": "subject"
+      }
+    ],
+    "location": "cambridge_usa",
+    "sources": [
+      {
+        "source_id": "siegmund_schultze_2020",
+        "page": 2,
+        "quote": "RvM's death in Cambridge (USA) in July 1953"
+      }
+    ]
+  },
+  {
+    "id": "erich_trefftz_zamm_editor",
+    "event_type": "employment_start",
+    "label": "Trefftz took over editing ZAMM",
+    "date": {
+      "display": "1933",
+      "precision": "year",
+      "sort_start": "1933-01-01",
+      "sort_end": "1933-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "erich_trefftz",
+        "role": "subject"
+      },
+      {
+        "entity_id": "zamm",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "siegmund_schultze_2020",
+        "page": 27,
+        "quote": "Trefftz taking over as editor"
+      }
+    ]
+  },
+  {
+    "id": "friedrich_adolf_willers_zamm_editor",
+    "event_type": "employment_start",
+    "label": "Willers became editor of ZAMM",
+    "date": {
+      "display": "1937",
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1937-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "friedrich_adolf_willers",
+        "role": "subject"
+      },
+      {
+        "entity_id": "zamm",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "siegmund_schultze_2020",
+        "page": 30,
+        "quote": "Willers was the natural successor as editor of ZAMM"
+      }
+    ]
+  },
+  {
+    "id": "zamm_reappearance",
+    "event_type": "other",
+    "label": "ZAMM reappeared after WWII",
+    "date": {
+      "display": "April 1947",
+      "precision": "month",
+      "sort_start": "1947-04-01",
+      "sort_end": "1947-04-30"
+    },
+    "participants": [
+      {
+        "entity_id": "zamm",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "siegmund_schultze_2020",
+        "page": 36,
+        "quote": "In April 1947, 2 years after the war, ZAMM reappeared"
+      }
+    ]
+  },
+  {
+    "id": "richard_von_mises_70th_birthday_issue",
+    "event_type": "award",
+    "label": "ZAMM birthday issue for von Mises",
+    "date": {
+      "display": "1953",
+      "precision": "year",
+      "sort_start": "1953-01-01",
+      "sort_end": "1953-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "richard_von_mises",
+        "role": "subject"
+      },
+      {
+        "entity_id": "zamm",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "siegmund_schultze_2020",
+        "page": 38,
+        "quote": "The latter paper was part of another birthday issue of ZAMM for RvM, this time on the occasion of his 70th birthday"
+      }
+    ]
+  }
+]

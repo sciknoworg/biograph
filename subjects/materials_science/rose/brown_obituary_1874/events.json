@@ -1,0 +1,478 @@
+[
+  {
+    "id": "rose_birth",
+    "event_type": "birth",
+    "label": "Born in Berlin",
+    "description": "Youngest son of pharmaceutical chemist Valentin Rose.",
+    "date": {
+      "display": "18th of March 1798",
+      "precision": "day",
+      "sort_start": "1798-03-18",
+      "sort_end": "1798-03-18"
+    },
+    "location": "berlin",
+    "participants": [
+      {
+        "entity_id": "gustav_rose",
+        "role": "subject"
+      },
+      {
+        "entity_id": "valentin_rose",
+        "role": "father"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "GUSTAVE EOSE was born in Berlin on the 18th of March 1798."
+      }
+    ]
+  },
+  {
+    "id": "rose_studies_silesia",
+    "event_type": "education",
+    "label": "Began practical studies in Silesia",
+    "description": "Intended to devote himself to mining engineering.",
+    "date": {
+      "display": "early 1820s",
+      "precision": "decade",
+      "sort_start": "1820-01-01",
+      "sort_end": "1829-12-31"
+    },
+    "location": "silesia",
+    "participants": [
+      {
+        "entity_id": "gustav_rose",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "He intended to devote himself to mining engineering, and began his practical studies in Silesia"
+      }
+    ]
+  },
+  {
+    "id": "rose_studies_berlin",
+    "event_type": "education",
+    "label": "Studied mineralogy under Weiss at University of Berlin",
+    "description": "Made a large number of careful measurements of crystals.",
+    "date": {
+      "display": "before 1820",
+      "precision": "year",
+      "sort_start": "1815-01-01",
+      "sort_end": "1820-12-31"
+    },
+    "location": "berlin",
+    "participants": [
+      {
+        "entity_id": "gustav_rose",
+        "role": "subject"
+      },
+      {
+        "entity_id": "weiss",
+        "role": "educator"
+      },
+      {
+        "entity_id": "university_of_berlin",
+        "role": "institution"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "He studied mineralogy under Weiss, in the University of Berlin, and made a large number of careful measurements of crystals."
+      }
+    ]
+  },
+  {
+    "id": "rose_thesis_1820",
+    "event_type": "publication",
+    "label": "Published graduation thesis",
+    "description": "First published work on crystalline system of sphene and titanite.",
+    "date": {
+      "display": "1820",
+      "precision": "year",
+      "sort_start": "1820-01-01",
+      "sort_end": "1820-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gustav_rose",
+        "role": "author"
+      },
+      {
+        "entity_id": "de_sphenis_atque_titanitae",
+        "role": "publication"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "His first published work was his graduation thesis, \"De Sphenis atque Titanitae systemate Crystallino,\" 1820."
+      }
+    ]
+  },
+  {
+    "id": "rose_studies_stockholm",
+    "event_type": "education",
+    "label": "Studied under Berzelius in Stockholm",
+    "description": "Made excursions in Sweden to study mineralogy.",
+    "date": {
+      "display": "between 1820 and 1823",
+      "precision": "range",
+      "sort_start": "1820-01-01",
+      "sort_end": "1823-12-31"
+    },
+    "location": "stockholm",
+    "participants": [
+      {
+        "entity_id": "gustav_rose",
+        "role": "subject"
+      },
+      {
+        "entity_id": "berzelius",
+        "role": "educator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "Like many young chemists of his time, he was attracted to Stockholm, where he studied under the guidance of Berzelius, the greatest and most accurate chemist of that age, and by frequent excursions in Sweden made himself thoroughly acquainted with the varied mineralogy of that country."
+      }
+    ]
+  },
+  {
+    "id": "rose_meets_mitscherlich",
+    "event_type": "meeting",
+    "label": "Met Mitscherlich in Stockholm",
+    "description": "Began life-long friendship with Mitscherlich.",
+    "date": {
+      "display": "between 1820 and 1823",
+      "precision": "range",
+      "sort_start": "1820-01-01",
+      "sort_end": "1823-12-31"
+    },
+    "location": "stockholm",
+    "participants": [
+      {
+        "entity_id": "gustav_rose",
+        "role": "subject"
+      },
+      {
+        "entity_id": "mitscherlich",
+        "role": "colleague"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "In Stockholm he met Mitscherlich, with whom he maintained a life-long friendship."
+      }
+    ]
+  },
+  {
+    "id": "rose_lecturer_1823",
+    "event_type": "employment_start",
+    "label": "Became lecturer on mineralogy at University of Berlin",
+    "date": {
+      "display": "1823",
+      "precision": "year",
+      "sort_start": "1823-01-01",
+      "sort_end": "1823-12-31"
+    },
+    "location": "berlin",
+    "participants": [
+      {
+        "entity_id": "gustav_rose",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_berlin",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "In 1823 he became lecturer on mineralogy in the University of Berlin"
+      }
+    ]
+  },
+  {
+    "id": "rose_felspar_memoir_1823",
+    "event_type": "publication",
+    "label": "Published memoir on felspar",
+    "description": "Elaborate memoir, one of his most important works.",
+    "date": {
+      "display": "1823",
+      "precision": "year",
+      "sort_start": "1823-01-01",
+      "sort_end": "1823-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gustav_rose",
+        "role": "author"
+      },
+      {
+        "entity_id": "felspar_memoir",
+        "role": "publication"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 2,
+        "quote": "His most important works were an elaborate memoir on felspar (1823)"
+      }
+    ]
+  },
+  {
+    "id": "rose_extraordinary_professor_1826",
+    "event_type": "role_change",
+    "label": "Received title of extraordinary Professor",
+    "date": {
+      "display": "1826",
+      "precision": "year",
+      "sort_start": "1826-01-01",
+      "sort_end": "1826-12-31"
+    },
+    "location": "berlin",
+    "participants": [
+      {
+        "entity_id": "gustav_rose",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_berlin",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "in 1826 he received the title of extraordinary Professor"
+      }
+    ]
+  },
+  {
+    "id": "rose_ural_expedition_1829",
+    "event_type": "visit",
+    "label": "Selected by Humboldt for Ural and Altai expedition",
+    "description": "Examined Ural and Altai Mountains, discovered many new minerals.",
+    "date": {
+      "display": "1829",
+      "precision": "year",
+      "sort_start": "1829-01-01",
+      "sort_end": "1829-12-31"
+    },
+    "location": "ural_mountains",
+    "participants": [
+      {
+        "entity_id": "gustav_rose",
+        "role": "subject"
+      },
+      {
+        "entity_id": "humboldt",
+        "role": "expedition_leader"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "and in 1829 was selected by Humboldt as one of his companions in his examination of the Ural and Altai Mountains."
+      }
+    ]
+  },
+  {
+    "id": "rose_reise_ural_1837",
+    "event_type": "publication",
+    "label": "Published Reise nach dem Ural",
+    "description": "Special work on mineral wealth of Ural region, published 1837 and 1842.",
+    "date": {
+      "display": "1837 and 1842",
+      "precision": "range",
+      "sort_start": "1837-01-01",
+      "sort_end": "1842-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gustav_rose",
+        "role": "author"
+      },
+      {
+        "entity_id": "reise_nach_dem_ural",
+        "role": "publication"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "and in a special work, \"Eeise nach dem Ural/\" 1837 and 1842, made known the remarkable mineral wealth of that part of the Eussian empire."
+      }
+    ]
+  },
+  {
+    "id": "rose_ordinary_professor_1849",
+    "event_type": "role_change",
+    "label": "Appointed ordinary Professor of Mineralogy and Director",
+    "description": "Appointed ordinary Professor of Mineralogy and Director of the Mineralogical Collections.",
+    "date": {
+      "display": "1849",
+      "precision": "year",
+      "sort_start": "1849-01-01",
+      "sort_end": "1849-12-31"
+    },
+    "location": "berlin",
+    "participants": [
+      {
+        "entity_id": "gustav_rose",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_berlin",
+        "role": "employer"
+      },
+      {
+        "entity_id": "mineralogical_collections",
+        "role": "institution"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "and in 1849 was appointed ordinary Professor of Mineralogy and Director of the Mineralogical Collections."
+      }
+    ]
+  },
+  {
+    "id": "marbach_pyrites_1857",
+    "event_type": "other",
+    "label": "Marbach showed thermo-electric differences in pyrites and cobaltine",
+    "description": "Marbach showed crystals of iron pyrites and cobaltine could be divided into two sets differing in thermo-electric character.",
+    "date": {
+      "display": "1857",
+      "precision": "year",
+      "sort_start": "1857-01-01",
+      "sort_end": "1857-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "marbach",
+        "role": "researcher"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 2,
+        "quote": "In 1857 Marbach showed that the crystals of iron pyrites and also those of cobaltine, both minerals crystallising in forms belonging to the regular system, could be divided into two sets, differing extremely in thermo-electric character"
+      }
+    ]
+  },
+  {
+    "id": "rose_detects_crystalline_difference",
+    "event_type": "invention",
+    "label": "Detected crystalline difference in pyrites and cobaltine",
+    "description": "Rose saw the difference must be related to crystalline form and succeeded in detecting the difference between right and left handed crystalline characters.",
+    "date": {
+      "display": "after 1857",
+      "precision": "year",
+      "sort_start": "1857-01-01",
+      "sort_end": "1873-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gustav_rose",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 2,
+        "quote": "Eose saw at once that this difference must be related to their crystalline form, and that these two sets must possess crystalline characters of a right and left handed kind, and' at last succeeded in detecting the difference between them."
+      }
+    ]
+  },
+  {
+    "id": "rose_last_lecture",
+    "event_type": "other",
+    "label": "Continued lectures till 11th July 1873",
+    "date": {
+      "display": "11th July 1873",
+      "precision": "day",
+      "sort_start": "1873-07-11",
+      "sort_end": "1873-07-11"
+    },
+    "location": "berlin",
+    "participants": [
+      {
+        "entity_id": "gustav_rose",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 2,
+        "quote": "but continued his lectures till the 11th July 1873"
+      }
+    ]
+  },
+  {
+    "id": "rose_death",
+    "event_type": "death",
+    "label": "Died from inflammation of the lungs",
+    "description": "Attacked with inflammation of the lungs on 11th July, died on 15th July 1873.",
+    "date": {
+      "display": "15th of July 1873",
+      "precision": "day",
+      "sort_start": "1873-07-15",
+      "sort_end": "1873-07-15"
+    },
+    "location": "berlin",
+    "participants": [
+      {
+        "entity_id": "gustav_rose",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 2,
+        "quote": "when he was attacked with inflammation of the lungs, from the effects of which he died on the 15th of July."
+      }
+    ]
+  }
+]

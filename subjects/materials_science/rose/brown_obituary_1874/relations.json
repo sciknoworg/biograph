@@ -1,0 +1,355 @@
+[
+  {
+    "id": "rose_born_berlin",
+    "source": "gustav_rose",
+    "type": "born_in",
+    "target": "berlin",
+    "event_id": "rose_birth",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "GUSTAVE EOSE was born in Berlin on the 18th of March 1798."
+      }
+    ]
+  },
+  {
+    "id": "rose_son_valentin",
+    "source": "gustav_rose",
+    "type": "family_of",
+    "target": "valentin_rose",
+    "note": "youngest son",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "He was the youngest son of the pharmaceutical chemist, Valentin Eose"
+      }
+    ]
+  },
+  {
+    "id": "rose_brother_heinrich",
+    "source": "gustav_rose",
+    "type": "family_of",
+    "target": "heinrich_rose",
+    "note": "brother",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "and the brother of Heinrich Eose, the eminent analytical chemist."
+      }
+    ]
+  },
+  {
+    "id": "rose_educated_weiss",
+    "source": "gustav_rose",
+    "type": "educated_by",
+    "target": "weiss",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "He studied mineralogy under Weiss, in the University of Berlin"
+      }
+    ]
+  },
+  {
+    "id": "rose_studied_berlin",
+    "source": "gustav_rose",
+    "type": "studied_at",
+    "target": "university_of_berlin",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "He studied mineralogy under Weiss, in the University of Berlin"
+      }
+    ]
+  },
+  {
+    "id": "rose_educated_berzelius",
+    "source": "gustav_rose",
+    "type": "educated_by",
+    "target": "berzelius",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "where he studied under the guidance of Berzelius"
+      }
+    ]
+  },
+  {
+    "id": "rose_collaborated_mitscherlich",
+    "source": "gustav_rose",
+    "type": "collaborated_with",
+    "target": "mitscherlich",
+    "note": "life-long friendship",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "In Stockholm he met Mitscherlich, with whom he maintained a life-long friendship."
+      }
+    ]
+  },
+  {
+    "id": "rose_worked_berlin",
+    "source": "gustav_rose",
+    "type": "worked_at",
+    "target": "university_of_berlin",
+    "start": {
+      "display": "1823",
+      "precision": "year",
+      "sort_start": "1823-01-01",
+      "sort_end": "1823-12-31"
+    },
+    "end": {
+      "display": "1873",
+      "precision": "year",
+      "sort_start": "1873-01-01",
+      "sort_end": "1873-12-31"
+    },
+    "event_id": "rose_lecturer_1823",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "In 1823 he became lecturer on mineralogy in the University of Berlin"
+      }
+    ]
+  },
+  {
+    "id": "rose_visited_stockholm",
+    "source": "gustav_rose",
+    "type": "visited",
+    "target": "stockholm",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "he was attracted to Stockholm"
+      }
+    ]
+  },
+  {
+    "id": "rose_visited_england",
+    "source": "gustav_rose",
+    "type": "visited",
+    "target": "england",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "He visited England, Scotland, Scandinavia, Italy, and France"
+      }
+    ]
+  },
+  {
+    "id": "rose_visited_scotland",
+    "source": "gustav_rose",
+    "type": "visited",
+    "target": "scotland",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "He visited England, Scotland, Scandinavia, Italy, and France"
+      }
+    ]
+  },
+  {
+    "id": "rose_visited_scandinavia",
+    "source": "gustav_rose",
+    "type": "visited",
+    "target": "scandinavia",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "He visited England, Scotland, Scandinavia, Italy, and France"
+      }
+    ]
+  },
+  {
+    "id": "rose_visited_italy",
+    "source": "gustav_rose",
+    "type": "visited",
+    "target": "italy",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "He visited England, Scotland, Scandinavia, Italy, and France"
+      }
+    ]
+  },
+  {
+    "id": "rose_visited_france",
+    "source": "gustav_rose",
+    "type": "visited",
+    "target": "france",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "He visited England, Scotland, Scandinavia, Italy, and France"
+      }
+    ]
+  },
+  {
+    "id": "rose_visited_ural",
+    "source": "gustav_rose",
+    "type": "visited",
+    "target": "ural_mountains",
+    "event_id": "rose_ural_expedition_1829",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "in his examination of the Ural and Altai Mountains"
+      }
+    ]
+  },
+  {
+    "id": "rose_visited_altai",
+    "source": "gustav_rose",
+    "type": "visited",
+    "target": "altai_mountains",
+    "event_id": "rose_ural_expedition_1829",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "in his examination of the Ural and Altai Mountains"
+      }
+    ]
+  },
+  {
+    "id": "rose_excursions_silesia",
+    "source": "gustav_rose",
+    "type": "visited",
+    "target": "silesia",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "His holidays were usually occupied by excursions in Silesia or in the Harz"
+      }
+    ]
+  },
+  {
+    "id": "rose_excursions_harz",
+    "source": "gustav_rose",
+    "type": "visited",
+    "target": "harz",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "His holidays were usually occupied by excursions in Silesia or in the Harz"
+      }
+    ]
+  },
+  {
+    "id": "rose_director_collections",
+    "source": "gustav_rose",
+    "type": "worked_at",
+    "target": "mineralogical_collections",
+    "start": {
+      "display": "1849",
+      "precision": "year",
+      "sort_start": "1849-01-01",
+      "sort_end": "1849-12-31"
+    },
+    "event_id": "rose_ordinary_professor_1849",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "and in 1849 was appointed ordinary Professor of Mineralogy and Director of the Mineralogical Collections."
+      }
+    ]
+  },
+  {
+    "id": "rose_published_poggendorff",
+    "source": "gustav_rose",
+    "type": "published",
+    "target": "poggendorffs_annalen",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 2,
+        "quote": "Most of his researches were published in \"Poggendorff's Annalen\""
+      }
+    ]
+  },
+  {
+    "id": "rose_published_berlin_academy",
+    "source": "gustav_rose",
+    "type": "published",
+    "target": "berlin_royal_academy_of_sciences",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 2,
+        "quote": "in the Transactions of Berlin Eoyal Academy of Sciences"
+      }
+    ]
+  },
+  {
+    "id": "rose_published_geological_society",
+    "source": "gustav_rose",
+    "type": "published",
+    "target": "german_geological_society",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 2,
+        "quote": "and in the Journal of the German Geological Society"
+      }
+    ]
+  },
+  {
+    "id": "rose_invented_thesis",
+    "source": "gustav_rose",
+    "type": "published",
+    "target": "de_sphenis_atque_titanitae",
+    "event_id": "rose_thesis_1820",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "His first published work was his graduation thesis, \"De Sphenis atque Titanitae systemate Crystallino,\" 1820."
+      }
+    ]
+  },
+  {
+    "id": "rose_invented_reise",
+    "source": "gustav_rose",
+    "type": "published",
+    "target": "reise_nach_dem_ural",
+    "event_id": "rose_reise_ural_1837",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 1,
+        "quote": "and in a special work, \"Eeise nach dem Ural/\" 1837 and 1842, made known the remarkable mineral wealth"
+      }
+    ]
+  },
+  {
+    "id": "rose_invented_elements",
+    "source": "gustav_rose",
+    "type": "published",
+    "target": "elements_of_mineralogy",
+    "sources": [
+      {
+        "source_id": "brown_obituary_1874",
+        "page": 2,
+        "quote": "he published a short work on the \"Elements of Mineralogy\""
+      }
+    ]
+  }
+]

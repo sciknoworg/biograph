@@ -1,0 +1,62 @@
+[
+  {
+    "id": "awarded_by_nsf",
+    "source": "national_science_foundation",
+    "type": "awarded",
+    "target": "mercouri_g_kanatzidis",
+    "event_id": "award_presidential_young_investigator",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 2,
+        "quote": "Presidential Young Investigator Award, National Science Foundation - 1989-1994."
+      }
+    ],
+    "_rejected_because": "'awarded' expects target entity_type artifact, but 'mercouri_g_kanatzidis' is 'person'"
+  },
+  {
+    "id": "awarded_by_mrs",
+    "source": "materials_research_society",
+    "type": "awarded",
+    "target": "mercouri_g_kanatzidis",
+    "event_id": "award_mrs_medal",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 1,
+        "quote": "Materials Research Society (MRS) Medal - 2014"
+      }
+    ],
+    "_rejected_because": "'awarded' expects target entity_type artifact, but 'mercouri_g_kanatzidis' is 'person'"
+  },
+  {
+    "id": "awarded_by_acs",
+    "source": "american_chemical_society",
+    "type": "awarded",
+    "target": "mercouri_g_kanatzidis",
+    "event_id": "award_acs_inorganic_chemistry",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 1,
+        "quote": "American Chemical Society (ACS) Award in Inorganic Chemistry - 2016"
+      }
+    ],
+    "_rejected_because": "'awarded' expects target entity_type artifact, but 'mercouri_g_kanatzidis' is 'person'"
+  },
+  {
+    "id": "awarded_by_aps",
+    "source": "american_physical_society",
+    "type": "awarded",
+    "target": "mercouri_g_kanatzidis",
+    "event_id": "award_aps_mcgroddy",
+    "sources": [
+      {
+        "source_id": "chang_2023_mercouri_g_kanatzidis",
+        "page": 1,
+        "quote": "APS James C. McGroddy Prize for New Materials - 2016"
+      }
+    ],
+    "_rejected_because": "'awarded' expects target entity_type artifact, but 'mercouri_g_kanatzidis' is 'person'"
+  }
+]
