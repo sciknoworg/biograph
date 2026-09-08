@@ -34,7 +34,6 @@ scripts/test_api_access.py
 scripts/check_scope.py
 HANDOFF.md
 PIPELINE_GUIDE.md
-materials_taxonomy.json
 pipeline_state.json
 pipeline_log.txt
 .pipeline_manifest.json
@@ -52,7 +51,20 @@ materials_taxonomy.json.*
 pipeline_state.json.*
 .openalex_backlog.json
 scripts/backup_evidence.py
-chemistry_history_taxonomy.json
-chemistry_state.json
+
+# Domain taxonomies are tracked once their run has converged -- they are field maps,
+# not credentials or copyrighted text, and they are what makes the corpus
+# reproducible. A taxonomy is left ignored while its run is still growing it, so a
+# half-grown state never lands in a commit; remove its line here once that run
+# reports "run to completion".
+#   tracked: chemistry_history_taxonomy.json
+materials_taxonomy.json
 physics_taxonomy.json
+
+# Per-domain pipeline state -- bookkeeping, never useful outside this machine.
+pipeline_state.json
+chemistry_state.json
 physics_state.json
+
+# Working notes, not a project artifact.
+working-taxonomy-of-science.docx
