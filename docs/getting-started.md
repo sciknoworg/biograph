@@ -28,7 +28,7 @@ warning.
 
 ## Quick start: build the example subject
 
-The repository ships one worked example, `subjects/suntola/`, extracted
+The repository ships one worked example, `subjects/materials_science/suntola/`, extracted
 from a real paper on the invention of Atomic Layer Epitaxy. Build it:
 
 ```bash

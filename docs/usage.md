@@ -59,12 +59,12 @@ reference. `<slug>` becomes the directory name under `subjects/`.
    all. See [Data Accuracy § Grounding](data-accuracy.md#2-grounding-the-hallucination-check).
 
 5. **Writes** the document's four files into
-   `subjects/<slug>/<citation-key>/`, where the citation key is the
+   `subjects/<domain>/<slug>/<citation-key>/`, where the citation key is the
    source's own `sources[0].id` (e.g. `puurunen_2014`), and
-   `subject.json` into `subjects/<slug>/` above them:
+   `subject.json` into `subjects/<domain>/<slug>/` above them:
 
    ```
-   subjects/suntola/
+   subjects/materials_science/suntola/
      subject.json              canonical name + slug — the person
      puurunen_2014/
        entities.json           people, places, organizations, artifacts
@@ -82,7 +82,7 @@ reference. `<slug>` becomes the directory name under `subjects/`.
 6. **Validates and builds** — the exact same `validate_subject()`/`build()`
    used for a hand-written subject (see below), no separate code path — a
    validation failure is reported exactly like a hand-written subject's
-   would be, pointing at `subjects/<slug>/*.json` to fix.
+   would be, pointing at `subjects/<domain>/<slug>/*.json` to fix.
 
 ### Treat the result as a first-pass draft
 
@@ -101,7 +101,7 @@ python3 scripts/build_site.py --all      # build every subject under subjects/
 python3 scripts/build_site.py <slug> --check-grounding   # audit against the source
 ```
 
-Everything in this section assumes `subjects/<slug>/` already has data —
+Everything in this section assumes the subject's folder already has data —
 either just drafted (step 1) or written by hand. For the shipped example
 that's `suntola` (i.e. `subjects/suntola/`), which needs no API key to
 build.

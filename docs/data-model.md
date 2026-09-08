@@ -40,8 +40,8 @@ colliding across documents is prefixed with its document key.
 fullest form seen — with every other form recorded in that person's
 `aliases`, so one scientist never appears under several spellings.
 
-A subject is self-contained: nothing in `subjects/suntola/` refers to an
-id in `subjects/aleskovskii/`. Cross-subject connections get their own
+A subject is self-contained: nothing in `subjects/materials_science/suntola/`
+refers to an id in another subject's files. Cross-subject connections get their own
 [bridge file](adding-a-subject.md#8-once-both-subjects-exist-cross-subject-bridges),
 with ids qualified as `subject:id` — subject-scoped, not document-scoped,
 since a bridge connects two *people* and the document that mentioned the
@@ -164,7 +164,7 @@ master; individuals hold licences and buy businesses); `founded` accepts an
 
 A relation that still doesn't fit — or that points at an entity nobody
 defined — doesn't fail the build. It is set aside into
-`subjects/<slug>/<doc>/relations.rejected.json` with its reason and
+`subjects/<domain>/<slug>/<doc>/relations.rejected.json` with its reason and
 citations, and the rest of the extraction is kept. See
 [usage.md](usage.md) → "Set-aside relations".
 

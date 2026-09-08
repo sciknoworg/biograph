@@ -2,7 +2,7 @@
 
 This is the repeatable process for turning a new biographical source (a
 paper, an oral history, an archive) into a new
-`subjects/<slug>/<citation-key>/` folder — one folder per source
+`subjects/<domain>/<slug>/<citation-key>/` folder — one folder per source
 document, under a folder named for the person.
 Follow it in order — each step depends on the one before. The live
 version of this checklist lives in `extraction/EXTRACTION_GUIDE.md`.
@@ -66,7 +66,7 @@ anything else, unless it will anchor a relation or event.
   immediately place the entity — not a paragraph.
 - Watch for id collisions between a place and an organization that share
   a name (e.g. a company town) — suffix one (`_city` / `_oy`) if needed,
-  the way `subjects/suntola/entities.json` distinguishes `lohja_city`
+  the way Suntola's entities distinguish `lohja_city`
   (place) from `lohja_oy` (organization).
 
 ## 2. Draft `sources.json`
@@ -232,6 +232,6 @@ are qualified as `"<slug>:<entity_id>"`:
 This keeps each subject file self-contained while still letting a later
 combined view draw the edges between them. The Puurunen paper already
 documents one such link — Suntola's 1990 visit to Leningrad to meet
-Aleskovskii (`subjects/suntola/events.json#suntola_visits_leningrad`) —
+Aleskovskii (Suntola's `events.json#suntola_visits_leningrad`) —
 so `aleskovskii-suntola.json` is the first bridge file this project will
-need once `subjects/aleskovskii/` exists.
+need once Aleskovskii's subject exists.

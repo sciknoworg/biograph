@@ -11,7 +11,7 @@ Full docs: **[biograph.readthedocs.io](https://biograph.readthedocs.io/)**
 
 Python 3.8+, a browser.
 
-A worked example ships in `subjects/suntola/`, so you can skip straight
+A worked example ships in `subjects/materials_science/suntola/`, so you can skip straight
 to [step 2](#2-build-the-timeline-visualization) and build/open it
 without an API key.
 
@@ -37,13 +37,23 @@ fits this project's scope at all (a biographical/historical essay, not
 just any paper mentioning the person); if not, nothing is written and the
 source is deleted (`--keep-rejected` to keep it).
 
+Subjects are grouped into **collections** — one per field being documented.
+`--domain "chemistry"` decides which `subjects/<domain>/` folder a *new* subject
+is created in, and is recorded in its `subject.json`. A person who already exists
+keeps the folder they have, whichever collection reaches them next, and simply
+gains that domain in their `domains` list: people are not partitionable, and the
+same scientist found by two collections is one subject with two documents rather
+than a duplicate. Omitted, a new subject lands in `subjects/materials_science/`.
+See [Defining a domain](docs/defining-a-domain.md).
+
 A subject is a **person**; each document about them gets its own folder
 named by its citation key:
 
 ```
-subjects/suntola/
-  subject.json              the person: canonical name + slug
-  puurunen_2014/            one document's extraction
+subjects/materials_science/       a collection; there can be several
+  suntola/
+    subject.json            the person: canonical name, slug, domains[]
+    puurunen_2014/          one document's extraction
     entities.json           people, places, organizations, artifacts
     events.json             dated occurrences, each cited — the timeline
     relations.json          durable links (worked_at, invented, ...)
@@ -88,7 +98,7 @@ graph, validates against `schema/` (structure and referential integrity),
 and inlines the result into `frontend/template.html` — writing
 `dist/<slug>.html`, a single self-contained page (network graph, map,
 timeline). Open it directly in a browser, no server needed. Re-run after
-hand-editing any `subjects/<slug>/<doc>/*.json`.
+hand-editing any `subjects/<domain>/<slug>/<doc>/*.json`.
 
 On merge, entities sharing an id are the same thing and their aliases are
 unioned; events and relations are never merged, since two papers
@@ -112,7 +122,10 @@ Full explanation: [Data Accuracy & Provenance § Portraits](https://biograph.rea
 
 ```
 schema/          JSON Schema data model (entities, events, relations, sources)
-subjects/<slug>/ One person. subject.json + one folder per source document
+subjects/<domain>/<slug>/
+                 One person, inside the collection they were found for. The slug
+                 is the identity and is unique across domains; the domain folder
+                 is only location. subject.json + one folder per source document
                  (extraction output — by hand or by build_site.py, reviewed
                  either way). A document folder may also hold
                  relations.rejected.json: relations set aside at build time

@@ -30,7 +30,7 @@ on that same data — no separate content to maintain.
 
 ## Try it now
 
-The repository ships one worked example: `subjects/suntola/`, extracted
+The repository ships one worked example: `subjects/materials_science/suntola/`, extracted
 from Puurunen (2014)'s history of Tuomo Suntola's invention of Atomic
 Layer Epitaxy — 67 entities, 42 events, 50 relations. Build it and open it:
 

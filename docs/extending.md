@@ -21,7 +21,7 @@ catch-all.
 
 See [Adding a new subject](adding-a-subject.md) for the full, step-by-step
 extraction process. The repository's second planned subject,
-`subjects/aleskovskii/` (from the Malygin 2015 paper on V. B. Aleskovskii,
+Aleskovskii's subject (from the Malygin 2015 paper on V. B. Aleskovskii,
 the Soviet-side counterpart to Suntola's independent discovery), hasn't
 been started yet — it's the natural next example to work through the
 process on.

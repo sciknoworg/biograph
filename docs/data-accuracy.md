@@ -196,7 +196,7 @@ against the source paper during development — a transcription typo
 ("Sentola" → "Suntola"), a duplicate entity id (a place and an
 organization both wanting `lohja`), and a mislabeled timeline category
 were all caught this way, not by an automated check. The `README.md`
-status note for `subjects/suntola/` says it plainly: treat any first-pass
+status note for the Suntola example says it plainly: treat any first-pass
 extraction as a **draft to review against the source, not ground truth**.
 A second pair of eyes checking the JSON against the original PDF is a
 reasonable sanity pass before treating any subject as authoritative — see
