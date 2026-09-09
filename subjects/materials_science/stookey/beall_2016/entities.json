@@ -261,7 +261,13 @@
     "id": "hay_springs_ne",
     "name": "Hay Springs, Nebraska",
     "subtype": "city",
-    "summary": "Birthplace of Stookey."
+    "summary": "Birthplace of Stookey.",
+    "attributes": {
+      "lat": 42.68306,
+      "lng": -102.68944,
+      "wikidata_qid": "Q1976433",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [
@@ -271,7 +277,13 @@
     "id": "cedar_rapids_ia",
     "name": "Cedar Rapids, Iowa",
     "subtype": "city",
-    "summary": "City where Stookey's family moved in 1921."
+    "summary": "City where Stookey's family moved in 1921.",
+    "attributes": {
+      "lat": 41.98333,
+      "lng": -91.66861,
+      "wikidata_qid": "Q486439",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [
@@ -281,7 +293,13 @@
     "id": "easton_pa",
     "name": "Easton, PA",
     "subtype": "city",
-    "summary": "Location of Lafayette College."
+    "summary": "Location of Lafayette College.",
+    "attributes": {
+      "lat": 40.68833,
+      "lng": -75.21639,
+      "wikidata_qid": "Q1056542",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [
@@ -291,7 +309,13 @@
     "id": "corning_ny",
     "name": "Corning, NY",
     "subtype": "city",
-    "summary": "Location of Corning Incorporated and Stookey's home."
+    "summary": "Location of Corning Incorporated and Stookey's home.",
+    "attributes": {
+      "lat": 42.14806,
+      "lng": -77.05694,
+      "wikidata_qid": "Q576395",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [
@@ -301,7 +325,13 @@
     "id": "new_york_city",
     "name": "New York City",
     "subtype": "city",
-    "summary": "Location of the United Nations headquarters."
+    "summary": "Location of the United Nations headquarters.",
+    "attributes": {
+      "lat": 40.71278,
+      "lng": -74.00611,
+      "wikidata_qid": "Q60",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
@@ -309,7 +339,13 @@
     "id": "great_bear_lake",
     "name": "Great Bear Lake",
     "subtype": "facility",
-    "summary": "Location of Stookey's plane crash survival incident."
+    "summary": "Location of Stookey's plane crash survival incident.",
+    "attributes": {
+      "lat": 66.0,
+      "lng": -121.0,
+      "wikidata_qid": "Q5525",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
@@ -317,7 +353,8 @@
     "id": "camp_minewan",
     "name": "Camp Minewan",
     "subtype": "facility",
-    "summary": "Native Cree fishing camp in Northern Quebec."
+    "summary": "Native Cree fishing camp in Northern Quebec.",
+    "attributes": {}
   },
   {
     "aliases": [],
@@ -325,7 +362,13 @@
     "id": "chesapeake_bay",
     "name": "Chesapeake Bay",
     "subtype": "place",
-    "summary": "Location where Stookey encountered Hurricane Agnes."
+    "summary": "Location where Stookey encountered Hurricane Agnes.",
+    "attributes": {
+      "lat": 37.24806,
+      "lng": -76.11944,
+      "wikidata_qid": "Q216868",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
@@ -333,7 +376,13 @@
     "id": "florida",
     "name": "Florida",
     "subtype": "place",
-    "summary": "Location where Stookey fished and retired."
+    "summary": "Location where Stookey fished and retired.",
+    "attributes": {
+      "lat": 28.13333,
+      "lng": -81.63167,
+      "wikidata_qid": "Q812",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
@@ -341,7 +390,8 @@
     "id": "lake_makokibatan",
     "name": "Lake Makokibatan",
     "subtype": "place",
-    "summary": "Lake on the Albany River in Northern Ontario where Stookey fished."
+    "summary": "Lake on the Albany River in Northern Ontario where Stookey fished.",
+    "attributes": {}
   },
   {
     "aliases": [],
@@ -349,7 +399,13 @@
     "id": "key_west",
     "name": "Key West",
     "subtype": "place",
-    "summary": "Location where Stookey caught a 75-pound tarpon."
+    "summary": "Location where Stookey caught a 75-pound tarpon.",
+    "attributes": {
+      "lat": 24.55972,
+      "lng": -81.78361,
+      "wikidata_qid": "Q485186",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
@@ -357,7 +413,13 @@
     "id": "nile",
     "name": "Nile",
     "subtype": "place",
-    "summary": "River where Stookey caught a giant perch."
+    "summary": "River where Stookey caught a giant perch.",
+    "attributes": {
+      "lat": 15.64014,
+      "lng": 32.5055,
+      "wikidata_qid": "Q3392",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [
@@ -367,7 +429,13 @@
     "id": "patagonia",
     "name": "Patagonia",
     "subtype": "place",
-    "summary": "Location of Stookey's solo trout-fishing trip in his late 80s."
+    "summary": "Location of Stookey's solo trout-fishing trip in his late 80s.",
+    "attributes": {
+      "lat": -41.81015,
+      "lng": -68.90627,
+      "wikidata_qid": "Q1507",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
@@ -375,7 +443,13 @@
     "id": "lake_ontario",
     "name": "Lake Ontario",
     "subtype": "place",
-    "summary": "Lake where Stookey fished in his later years."
+    "summary": "Lake where Stookey fished in his later years.",
+    "attributes": {
+      "lat": 43.72889,
+      "lng": -78.10639,
+      "wikidata_qid": "Q1062",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [

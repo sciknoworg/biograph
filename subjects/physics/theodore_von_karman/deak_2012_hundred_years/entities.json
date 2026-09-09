@@ -15,7 +15,11 @@
   {
     "aliases": [],
     "attributes": {
-      "country": "Hungary"
+      "country": "Hungary",
+      "lat": 47.49833,
+      "lng": 19.04083,
+      "wikidata_qid": "Q1781",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "budapest",
@@ -26,7 +30,11 @@
   {
     "aliases": [],
     "attributes": {
-      "country": "Germany"
+      "country": "Germany",
+      "lat": 50.77621,
+      "lng": 6.08379,
+      "wikidata_qid": "Q1017",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "aachen",
@@ -79,7 +87,13 @@
     "id": "usa",
     "name": "United States of America",
     "subtype": "country",
-    "summary": "Country to which von Kármán emigrated in 1930."
+    "summary": "Country to which von Kármán emigrated in 1930.",
+    "attributes": {
+      "lat": 39.82818,
+      "lng": -98.5795,
+      "wikidata_qid": "Q30",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [
@@ -110,7 +124,11 @@
   {
     "aliases": [],
     "attributes": {
-      "country": "Germany"
+      "country": "Germany",
+      "lat": 51.45083,
+      "lng": 7.01306,
+      "wikidata_qid": "Q2066",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "essen",

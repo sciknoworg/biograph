@@ -84,7 +84,11 @@
   {
     "aliases": [],
     "attributes": {
-      "country": "England"
+      "country": "England",
+      "lat": 52.48,
+      "lng": -1.9025,
+      "wikidata_qid": "Q2256",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "birmingham",
@@ -95,7 +99,11 @@
   {
     "aliases": [],
     "attributes": {
-      "country": "England"
+      "country": "England",
+      "lat": 53.7975,
+      "lng": -1.54361,
+      "wikidata_qid": "Q39121",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "leeds",
@@ -106,7 +114,11 @@
   {
     "aliases": [],
     "attributes": {
-      "country": "England"
+      "country": "England",
+      "lat": 51.4353,
+      "lng": -2.00427,
+      "wikidata_qid": "Q1235307",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "calne",
@@ -117,7 +129,11 @@
   {
     "aliases": [],
     "attributes": {
-      "country": "England"
+      "country": "England",
+      "lat": 51.50722,
+      "lng": -0.1275,
+      "wikidata_qid": "Q84",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "london",
@@ -128,7 +144,11 @@
   {
     "aliases": [],
     "attributes": {
-      "country": "France"
+      "country": "France",
+      "lat": 48.85667,
+      "lng": 2.35222,
+      "wikidata_qid": "Q90",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "paris",
@@ -138,7 +158,12 @@
   },
   {
     "aliases": [],
-    "attributes": {},
+    "attributes": {
+      "lat": 19.0,
+      "lng": -96.0,
+      "wikidata_qid": "Q828",
+      "geocode_basis": "most_linked"
+    },
     "entity_type": "place",
     "id": "america",
     "name": "America",
@@ -149,7 +174,12 @@
     "aliases": [
       "Britain"
     ],
-    "attributes": {},
+    "attributes": {
+      "lat": 53.0,
+      "lng": -1.0,
+      "wikidata_qid": "Q21",
+      "geocode_basis": "document"
+    },
     "entity_type": "place",
     "id": "england",
     "name": "England",

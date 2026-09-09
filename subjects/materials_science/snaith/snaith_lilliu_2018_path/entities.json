@@ -127,7 +127,13 @@
     "id": "japan",
     "name": "Japan",
     "subtype": "country",
-    "summary": "Country visited by Snaith in 2009."
+    "summary": "Country visited by Snaith in 2009.",
+    "attributes": {
+      "lat": 35.0,
+      "lng": 136.0,
+      "wikidata_qid": "Q17",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [
@@ -137,14 +143,24 @@
     "id": "uk",
     "name": "UK",
     "subtype": "country",
-    "summary": "Country where Snaith returned after visiting Japan."
+    "summary": "Country where Snaith returned after visiting Japan.",
+    "attributes": {
+      "lat": 30.51111,
+      "lng": 78.95389,
+      "wikidata_qid": "Q1499",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [
       "Brandenburg (Germany)"
     ],
     "attributes": {
-      "country": "Germany"
+      "country": "Germany",
+      "lat": 52.41414,
+      "lng": 12.55408,
+      "wikidata_qid": "Q3931",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "brandenburg",
@@ -169,6 +185,7 @@
     "id": "oxford_pv_facility",
     "name": "Oxford PV facility",
     "subtype": "facility",
-    "summary": "Manufacturing facility owned by Oxford Photovoltaics."
+    "summary": "Manufacturing facility owned by Oxford Photovoltaics.",
+    "attributes": {}
   }
 ]

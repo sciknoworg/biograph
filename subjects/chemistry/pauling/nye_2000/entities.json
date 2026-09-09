@@ -50,7 +50,13 @@
     "id": "portland_oregon",
     "name": "Portland, Oregon",
     "subtype": "city",
-    "summary": "City in Oregon where Linus Pauling was born."
+    "summary": "City in Oregon where Linus Pauling was born.",
+    "attributes": {
+      "lat": 45.515,
+      "lng": -122.67917,
+      "wikidata_qid": "Q6106",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [

@@ -77,21 +77,39 @@
     "id": "copenhagen",
     "name": "Copenhagen",
     "subtype": "city",
-    "summary": "Capital of Denmark, birth and death place of Lehmann."
+    "summary": "Capital of Denmark, birth and death place of Lehmann.",
+    "attributes": {
+      "lat": 55.67611,
+      "lng": 12.56889,
+      "wikidata_qid": "Q1748",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "entity_type": "place",
     "id": "cambridge",
     "name": "Cambridge",
     "subtype": "city",
-    "summary": "City in England where Lehmann studied."
+    "summary": "City in England where Lehmann studied.",
+    "attributes": {
+      "lat": 52.20806,
+      "lng": 0.1225,
+      "wikidata_qid": "Q350",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "entity_type": "place",
     "id": "hamburg",
     "name": "Hamburg",
     "subtype": "city",
-    "summary": "City in Germany where Lehmann studied seismology."
+    "summary": "City in Germany where Lehmann studied seismology.",
+    "attributes": {
+      "lat": 53.55,
+      "lng": 10.0,
+      "wikidata_qid": "Q1055",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "entity_type": "artifact",

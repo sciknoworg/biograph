@@ -77,7 +77,13 @@
     "entity_type": "place",
     "name": "Mexico",
     "summary": "Country of Bekenstein's birth.",
-    "subtype": "country"
+    "subtype": "country",
+    "attributes": {
+      "lat": 39.16583,
+      "lng": -91.88472,
+      "wikidata_qid": "Q178652",
+      "geocode_basis": "document"
+    }
   },
   {
     "id": "helsinki",
@@ -86,7 +92,11 @@
     "summary": "City where Bekenstein died.",
     "subtype": "city",
     "attributes": {
-      "country": "Finland"
+      "country": "Finland",
+      "lat": 60.17083,
+      "lng": 24.9375,
+      "wikidata_qid": "Q1757",
+      "geocode_basis": "country"
     }
   },
   {
@@ -104,7 +114,13 @@
     "entity_type": "place",
     "name": "Israel",
     "summary": "Country Bekenstein immigrated to.",
-    "subtype": "country"
+    "subtype": "country",
+    "attributes": {
+      "lat": 31.0,
+      "lng": 35.0,
+      "wikidata_qid": "Q801",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "texas",
@@ -113,7 +129,11 @@
     "summary": "Location of Bekenstein's post-doctoral work.",
     "subtype": "state",
     "attributes": {
-      "country": "USA"
+      "country": "USA",
+      "lat": 31.0,
+      "lng": -100.0,
+      "wikidata_qid": "Q1439",
+      "geocode_basis": "country"
     }
   }
 ]

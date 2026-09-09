@@ -105,7 +105,13 @@
     "id": "winnington_hall",
     "name": "Winnington Hall",
     "subtype": "facility",
-    "summary": "Residence and later club for senior executives in Hartford, Cheshire."
+    "summary": "Residence and later club for senior executives in Hartford, Cheshire.",
+    "attributes": {
+      "lat": 53.2686,
+      "lng": -2.5336,
+      "wikidata_qid": "Q8025721",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [
@@ -115,7 +121,8 @@
     "id": "winnington_works",
     "name": "Winnington Works",
     "subtype": "facility",
-    "summary": "Chemical works in Winnington where soda ash was produced."
+    "summary": "Chemical works in Winnington where soda ash was produced.",
+    "attributes": {}
   },
   {
     "aliases": [],
@@ -147,7 +154,13 @@
     "id": "cassel",
     "name": "Cassel",
     "subtype": "city",
-    "summary": "Town in Grand Duchy of Hesse, birthplace of Ludwig Mond."
+    "summary": "Town in Grand Duchy of Hesse, birthplace of Ludwig Mond.",
+    "attributes": {
+      "lat": 51.31578,
+      "lng": 9.49792,
+      "wikidata_qid": "Q2865",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
@@ -155,7 +168,13 @@
     "id": "grand_duchy_hesse",
     "name": "Grand Duchy of Hesse",
     "subtype": "country",
-    "summary": "State where Cassel was capital at the time of Mond's birth."
+    "summary": "State where Cassel was capital at the time of Mond's birth.",
+    "attributes": {
+      "lat": 49.8667,
+      "lng": 8.65,
+      "wikidata_qid": "Q20135",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [
@@ -165,7 +184,13 @@
     "id": "hartford",
     "name": "Hartford",
     "subtype": "city",
-    "summary": "Town in Cheshire near Winnington."
+    "summary": "Town in Cheshire near Winnington.",
+    "attributes": {
+      "lat": 41.76333,
+      "lng": -72.685,
+      "wikidata_qid": "Q33486",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
@@ -173,7 +198,13 @@
     "id": "cheshire",
     "name": "Cheshire",
     "subtype": "country",
-    "summary": "English county where Winnington is located."
+    "summary": "English county where Winnington is located.",
+    "attributes": {
+      "lat": 53.16667,
+      "lng": -2.58333,
+      "wikidata_qid": "Q23064",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [

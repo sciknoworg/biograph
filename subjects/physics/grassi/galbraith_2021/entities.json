@@ -76,7 +76,11 @@
   {
     "aliases": [],
     "attributes": {
-      "country": "Germany"
+      "country": "Germany",
+      "lat": 49.89167,
+      "lng": 10.89167,
+      "wikidata_qid": "Q3936",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "bamberg",
@@ -87,7 +91,11 @@
   {
     "aliases": [],
     "attributes": {
-      "country": "Portugal"
+      "country": "Portugal",
+      "lat": 40.21111,
+      "lng": -8.42889,
+      "wikidata_qid": "Q45412",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "coimbra",
@@ -98,7 +106,11 @@
   {
     "aliases": [],
     "attributes": {
-      "country": "Italy"
+      "country": "Italy",
+      "lat": 41.89306,
+      "lng": 12.48278,
+      "wikidata_qid": "Q220",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "rome",

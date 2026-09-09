@@ -241,7 +241,13 @@
     "id": "budapest",
     "name": "Budapest",
     "subtype": "city",
-    "summary": "City where von Karman was born."
+    "summary": "City where von Karman was born.",
+    "attributes": {
+      "lat": 47.49833,
+      "lng": 19.04083,
+      "wikidata_qid": "Q1781",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [
@@ -251,7 +257,13 @@
     "id": "united_states",
     "name": "United States",
     "subtype": "country",
-    "summary": "Country where von Karman spent his American period."
+    "summary": "Country where von Karman spent his American period.",
+    "attributes": {
+      "lat": 39.82818,
+      "lng": -98.5795,
+      "wikidata_qid": "Q30",
+      "geocode_basis": "document"
+    }
   },
   {
     "aliases": [],
@@ -259,7 +271,13 @@
     "id": "pasadena",
     "name": "Pasadena",
     "subtype": "city",
-    "summary": "City where von Karman settled permanently."
+    "summary": "City where von Karman settled permanently.",
+    "attributes": {
+      "lat": 34.1475,
+      "lng": -118.14389,
+      "wikidata_qid": "Q485176",
+      "geocode_basis": "document"
+    }
   },
   {
     "aliases": [],
@@ -267,7 +285,13 @@
     "id": "arroyo_seco",
     "name": "Arroyo Seco",
     "subtype": "location",
-    "summary": "Location where rocket experiments were carried out."
+    "summary": "Location where rocket experiments were carried out.",
+    "attributes": {
+      "lat": 36.516,
+      "lng": -105.569,
+      "wikidata_qid": "Q4796254",
+      "geocode_basis": "document"
+    }
   },
   {
     "aliases": [],
@@ -275,7 +299,13 @@
     "id": "march_field",
     "name": "March Field",
     "subtype": "location",
-    "summary": "Location of the first successful JATO flight."
+    "summary": "Location of the first successful JATO flight.",
+    "attributes": {
+      "lat": 33.89861,
+      "lng": -117.27611,
+      "wikidata_qid": "Q1031829",
+      "geocode_basis": "document"
+    }
   },
   {
     "aliases": [],
@@ -283,7 +313,13 @@
     "id": "washington",
     "name": "Washington",
     "subtype": "city",
-    "summary": "City where von Karman centred his activities during the second phase."
+    "summary": "City where von Karman centred his activities during the second phase.",
+    "attributes": {
+      "lat": 47.5,
+      "lng": -120.5,
+      "wikidata_qid": "Q1223",
+      "geocode_basis": "document"
+    }
   },
   {
     "aliases": [

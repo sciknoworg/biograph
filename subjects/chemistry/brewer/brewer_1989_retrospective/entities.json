@@ -57,7 +57,13 @@
       "Los Alamos National Laboratory"
     ],
     "summary": "Site of the primary laboratory for the Manhattan Project.",
-    "subtype": "facility"
+    "subtype": "facility",
+    "attributes": {
+      "lat": 35.89111,
+      "lng": -106.29778,
+      "wikidata_qid": "Q318637",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "wendell_latimer",

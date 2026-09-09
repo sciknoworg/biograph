@@ -247,7 +247,11 @@
     "summary": "City in Russia (USSR), home of the LTI by Lensovet and Leningrad State University.",
     "subtype": "city",
     "attributes": {
-      "country": "Russia"
+      "country": "Russia",
+      "lat": 59.95,
+      "lng": 30.31667,
+      "wikidata_qid": "Q656",
+      "geocode_basis": "country"
     }
   },
   {
@@ -270,7 +274,11 @@
     "summary": "Japanese city, site of the AVS 14th International Conference on Atomic Layer Deposition.",
     "subtype": "city",
     "attributes": {
-      "country": "Japan"
+      "country": "Japan",
+      "lat": 35.01161,
+      "lng": 135.76811,
+      "wikidata_qid": "Q34600",
+      "geocode_basis": "country"
     }
   },
   {

@@ -184,10 +184,33 @@ and `source_url` for anyone to re-check.
 A `place` entity that should appear on the [Map view](frontend-guide.md#map-view)
 carries `attributes.lat` / `attributes.lng` (decimal degrees) and, for
 provenance, `attributes.wikidata_qid`. These come from Wikidata's P625
-(coordinate location), verified the same way as a portrait: confirm the
-candidate is the right place (country/description match) before trusting
-its coordinates. A `place` entity without `lat`/`lng` simply doesn't
-appear on the map — it still works everywhere else (graph, timeline).
+(coordinate location) — **never from the extraction model**. Coordinates
+recalled from training are precisely the kind of unsourced fact the
+extraction rules forbid everywhere else, and a plausible-looking wrong pin
+is worse than no pin. A `place` entity without `lat`/`lng` simply doesn't
+appear on the map; it still works everywhere else (graph, timeline).
+
+Run `python scripts/geocode_places.py` to fill them in. It is safe to
+re-run — places already carrying coordinates are skipped, and every lookup
+is cached in `.geocode_cache.json`, so each distinct place name costs one
+round-trip for the whole corpus.
+
+The hard part is that "Cambridge" is a real place twice over, so a
+candidate is only accepted when it has a P625 of its own (which discards
+the songs, films and people sharing a place's name) and its label or an
+alias matches the entity's name *exactly* — a substring match would take
+"Maida Vale tube station" for "Maida Vale". Among the survivors, how the
+winner was chosen is recorded on the entity as `attributes.geocode_basis`,
+so the weakest calls are the ones you can go and audit:
+
+| `geocode_basis` | Meaning |
+|---|---|
+| `country` | The entity recorded its own `attributes.country` and exactly that item matched. Strongest. |
+| `document` | The winner's country is one this same document already places the subject in. Berthollet's paper names France, Savoy, Egypt and Italy, so its "Paris" is the French one; a paper about MIT that never mentions England would take Cambridge, Massachusetts. This is the disambiguator that matters most for a biographical corpus, and it costs nothing — the context comes from the extraction itself. |
+| `most_linked` | Nothing in the document distinguished the candidates, so the item with the most Wikipedia editions won. A real guess, which is why it is labelled rather than left invisible. |
+
+A place that matches nothing is reported and left off the map, which is
+the honest rendering of "we don't know where this is."
 
 ## 6. Human review, iterated
 

@@ -106,7 +106,11 @@
     "summary": "Capital of Sweden, location of Berzelius's laboratory and the Academy.",
     "subtype": "city",
     "attributes": {
-      "country": "Sweden"
+      "country": "Sweden",
+      "lat": 59.32944,
+      "lng": 18.06861,
+      "wikidata_qid": "Q1754",
+      "geocode_basis": "country"
     }
   }
 ]

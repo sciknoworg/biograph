@@ -66,7 +66,8 @@
     "id": "erdbebenhaus",
     "name": "Erdbebenhaus",
     "subtype": "facility",
-    "summary": "Building constructed in 1902 in the garden of the Institute of Geophysics to house seismographs."
+    "summary": "Building constructed in 1902 in the garden of the Institute of Geophysics to house seismographs.",
+    "attributes": {}
   },
   {
     "aliases": [
@@ -157,7 +158,11 @@
   {
     "aliases": [],
     "attributes": {
-      "country": "Germany"
+      "country": "Germany",
+      "lat": 51.53389,
+      "lng": 9.93556,
+      "wikidata_qid": "Q3033",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "gottingen",

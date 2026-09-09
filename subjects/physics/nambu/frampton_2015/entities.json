@@ -72,7 +72,13 @@
       "Nagoya"
     ],
     "summary": "City in Japan visited by Frampton and Nambu.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 35.18139,
+      "lng": 136.90639,
+      "wikidata_qid": "Q11751",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "osaka",
@@ -82,7 +88,13 @@
       "Osaka"
     ],
     "summary": "City in Japan where Frampton last met Nambu.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 34.69375,
+      "lng": 135.50211,
+      "wikidata_qid": "Q35765",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "tokyo",
@@ -92,7 +104,13 @@
       "Tokyo"
     ],
     "summary": "City in Japan where Nambu stayed as a boy.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 35.68944,
+      "lng": 139.69167,
+      "wikidata_qid": "Q1490",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "meiji_mura",
@@ -102,7 +120,13 @@
       "Meiji Mura architectural park"
     ],
     "summary": "Architectural park near Nagoya visited by Frampton and Nambu.",
-    "subtype": "facility"
+    "subtype": "facility",
+    "attributes": {
+      "lat": 35.34191,
+      "lng": 136.98927,
+      "wikidata_qid": "Q985290",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "detroit",
@@ -112,7 +136,13 @@
       "Detroit"
     ],
     "summary": "City where Nambu gave a conference talk in 1969.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 42.33167,
+      "lng": -83.0475,
+      "wikidata_qid": "Q12439",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "copenhagen",
@@ -122,7 +152,13 @@
       "Copenhagen"
     ],
     "summary": "Location of the Summer School where Nambu lectured.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 55.67611,
+      "lng": 12.56889,
+      "wikidata_qid": "Q1748",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "jc_taylor",

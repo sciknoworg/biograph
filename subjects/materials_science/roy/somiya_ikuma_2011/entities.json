@@ -187,7 +187,11 @@
       "Ranc hi"
     ],
     "attributes": {
-      "country": "India"
+      "country": "India",
+      "lat": 23.35556,
+      "lng": 85.33472,
+      "wikidata_qid": "Q174461",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "ranchi",
@@ -214,12 +218,22 @@
     "id": "india",
     "name": "India",
     "subtype": "country",
-    "summary": "Country of Roy's birth."
+    "summary": "Country of Roy's birth.",
+    "attributes": {
+      "lat": 22.8,
+      "lng": 83.0,
+      "wikidata_qid": "Q668",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
     "attributes": {
-      "country": "U.S.A."
+      "country": "U.S.A.",
+      "lat": 40.79139,
+      "lng": -77.85861,
+      "wikidata_qid": "Q1187041",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "state_college_pennsylvania",
@@ -235,6 +249,7 @@
     "id": "usa",
     "name": "U.S.A.",
     "subtype": "country",
-    "summary": "Country Roy moved to in 1945 and became a citizen of."
+    "summary": "Country Roy moved to in 1945 and became a citizen of.",
+    "attributes": {}
   }
 ]

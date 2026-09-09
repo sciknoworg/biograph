@@ -56,28 +56,52 @@
     "entity_type": "place",
     "name": "The Netherlands",
     "summary": "Country where Bloembergen was born.",
-    "subtype": "country"
+    "subtype": "country",
+    "attributes": {
+      "lat": 52.31667,
+      "lng": 5.55,
+      "wikidata_qid": "Q55",
+      "geocode_basis": "document"
+    }
   },
   {
     "id": "bilthoven",
     "entity_type": "place",
     "name": "Bilthoven",
     "summary": "Town in the Netherlands where Bloembergen lived.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 52.1283,
+      "lng": 5.1986,
+      "wikidata_qid": "Q1075656",
+      "geocode_basis": "document"
+    }
   },
   {
     "id": "tucson",
     "entity_type": "place",
     "name": "Tucson",
     "summary": "City in Arizona where Bloembergen died.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 32.22167,
+      "lng": -110.92639,
+      "wikidata_qid": "Q18575",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "arizona",
     "entity_type": "place",
     "name": "Arizona",
     "summary": "US state where Tucson is located.",
-    "subtype": "state"
+    "subtype": "state",
+    "attributes": {
+      "lat": 34.28667,
+      "lng": -111.65694,
+      "wikidata_qid": "Q816",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "nobel_prize_physics_1981",
@@ -112,6 +136,7 @@
     "entity_type": "place",
     "name": "Utrecht NMR group building",
     "summary": "Building named after Bloembergen in honor of his NMR work.",
-    "subtype": "facility"
+    "subtype": "facility",
+    "attributes": {}
   }
 ]

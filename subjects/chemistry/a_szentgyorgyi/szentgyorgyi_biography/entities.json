@@ -12,7 +12,11 @@
   },
   {
     "attributes": {
-      "country": "Hungary"
+      "country": "Hungary",
+      "lat": 47.49833,
+      "lng": 19.04083,
+      "wikidata_qid": "Q1781",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "budapest",
@@ -151,7 +155,13 @@
     "id": "woods_hole",
     "name": "Woods Hole",
     "subtype": "town",
-    "summary": "Location where Szent-Györgyi died and was buried."
+    "summary": "Location where Szent-Györgyi died and was buried.",
+    "attributes": {
+      "lat": 41.5267,
+      "lng": -70.6631,
+      "wikidata_qid": "Q747172",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "entity_type": "person",

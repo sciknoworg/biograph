@@ -20,6 +20,18 @@ entity, with edges deduplicated per unordered pair (parallel relations
 between the same two entities collapse into one visual link, listing all
 of them on hover/click).
 
+- **Two kinds of edge.** A solid line is a stated relation from
+  `relations.json`. A faint dashed line is *co-presence*: an event in
+  `events.json` that lists both entities among its participants (or as its
+  location). They are drawn differently on purpose — "the source says he
+  worked at Bletchley Park" and "these two were named in the same event"
+  are not the same claim, and the graph should not pretend otherwise.
+  Co-presence edges connect each participant to the event's principal (the
+  one whose `role` names them its subject, else the first listed) rather
+  than to each other, so a large event adds a star and not a hairball.
+  Without them a median 39% of entities in this corpus rendered as
+  isolated dots while the connection sat unread in `events.json`; with
+  them, 22%.
 - **Node size** scales with graph degree, capped, with a larger fixed
   size for any person with a [verified portrait](data-accuracy.md#portraits).
 - **Node color** follows entity type via the categorical palette:
@@ -39,6 +51,12 @@ Plots every `place` entity that carries `attributes.lat`/`attributes.lng`
 [Data Accuracy & Provenance](data-accuracy.md#place-coordinates)) on a
 world map, using an embedded, pre-converted GeoJSON basemap — no tile
 server, no runtime map-library dependency beyond D3 itself.
+
+**A blank map means no coordinates, not a broken view.** Extraction never
+supplies them; they are filled in afterwards by
+`python scripts/geocode_places.py`, and a subject that has not been
+through that pass has nothing to plot. Run it, rebuild, and the pins
+appear.
 
 - **Marker size** scales with how many events happened at that place plus
   its graph degree — see the formula in

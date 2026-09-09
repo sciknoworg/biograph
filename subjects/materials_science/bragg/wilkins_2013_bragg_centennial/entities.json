@@ -72,14 +72,26 @@
     "entity_type": "place",
     "name": "Adelaide",
     "summary": "City in Australia where the Bragg family lived from 1886 to 1909.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": -34.9275,
+      "lng": 138.6,
+      "wikidata_qid": "Q5112",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "yorkshire",
     "entity_type": "place",
     "name": "Yorkshire",
     "summary": "Coastal region in England where the Braggs vacationed.",
-    "subtype": "region"
+    "subtype": "region",
+    "attributes": {
+      "lat": 53.95833,
+      "lng": -1.08333,
+      "wikidata_qid": "Q163",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "zinc_blende",

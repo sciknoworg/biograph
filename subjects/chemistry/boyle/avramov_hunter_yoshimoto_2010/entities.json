@@ -220,7 +220,13 @@
     "name": "Pall Mall",
     "aliases": [],
     "summary": "Street in London where Boyle lived in his later years.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 51.50694,
+      "lng": -0.13306,
+      "wikidata_qid": "Q925349",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "moorfields",
@@ -228,7 +234,13 @@
     "name": "Moorfields",
     "aliases": [],
     "summary": "Area in London where some of Boyle's books were exposed on bookstalls.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 51.51819,
+      "lng": -0.08861,
+      "wikidata_qid": "Q2572630",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "oxford",
@@ -236,7 +248,13 @@
     "name": "Oxford",
     "aliases": [],
     "summary": "City where Boyle lived in the 1660s.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 51.75194,
+      "lng": -1.25778,
+      "wikidata_qid": "Q34217",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "london",
@@ -244,7 +262,13 @@
     "name": "London",
     "aliases": [],
     "summary": "City where Boyle's library was dispersed.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 51.50722,
+      "lng": -0.1275,
+      "wikidata_qid": "Q84",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "book_sceptical_chymist",

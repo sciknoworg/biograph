@@ -147,7 +147,11 @@
   {
     "aliases": [],
     "attributes": {
-      "country": "Ireland"
+      "country": "Ireland",
+      "lat": 53.34972,
+      "lng": -6.26028,
+      "wikidata_qid": "Q1761",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "dublin",
@@ -161,7 +165,13 @@
     "id": "ireland",
     "name": "Ireland",
     "subtype": "country",
-    "summary": "Country where Hamilton lived."
+    "summary": "Country where Hamilton lived.",
+    "attributes": {
+      "lat": 53.0,
+      "lng": -8.0,
+      "wikidata_qid": "Q27",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
@@ -169,7 +179,13 @@
     "id": "broome_bridge",
     "name": "Broome Bridge",
     "subtype": "facility",
-    "summary": "Bridge on the Royal Canal where Hamilton carved quaternion formulas."
+    "summary": "Bridge on the Royal Canal where Hamilton carved quaternion formulas.",
+    "attributes": {
+      "lat": 53.373,
+      "lng": -6.3,
+      "wikidata_qid": "Q2057981",
+      "geocode_basis": "document"
+    }
   },
   {
     "aliases": [],
@@ -177,7 +193,13 @@
     "id": "royal_canal",
     "name": "Royal Canal",
     "subtype": "place",
-    "summary": "Canal in Dublin along which Hamilton walked when discovering quaternions."
+    "summary": "Canal in Dublin along which Hamilton walked when discovering quaternions.",
+    "attributes": {
+      "lat": 53.35,
+      "lng": -6.23333,
+      "wikidata_qid": "Q1542268",
+      "geocode_basis": "document"
+    }
   },
   {
     "aliases": [],

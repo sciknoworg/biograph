@@ -168,13 +168,25 @@
     "id": "new_york_ny",
     "name": "New York, NY",
     "subtype": "city",
-    "summary": "City in New York State where Fenn was born."
+    "summary": "City in New York State where Fenn was born.",
+    "attributes": {
+      "lat": 40.71278,
+      "lng": -74.00611,
+      "wikidata_qid": "Q60",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "entity_type": "place",
     "id": "richmond_va",
     "name": "Richmond, VA",
     "subtype": "city",
-    "summary": "Capital city of Virginia where VCU is located."
+    "summary": "Capital city of Virginia where VCU is located.",
+    "attributes": {
+      "lat": 37.54083,
+      "lng": -77.43667,
+      "wikidata_qid": "Q43421",
+      "geocode_basis": "most_linked"
+    }
   }
 ]

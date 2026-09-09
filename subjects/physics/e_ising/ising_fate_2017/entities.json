@@ -93,7 +93,11 @@
       "Köln (or Cologne)"
     ],
     "attributes": {
-      "country": "Germany"
+      "country": "Germany",
+      "lat": 50.94222,
+      "lng": 6.95778,
+      "wikidata_qid": "Q365",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "cologne",
@@ -103,7 +107,11 @@
   },
   {
     "attributes": {
-      "country": "USA"
+      "country": "USA",
+      "lat": 40.6925,
+      "lng": -89.59,
+      "wikidata_qid": "Q233129",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "peoria",

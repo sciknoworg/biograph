@@ -100,7 +100,13 @@
     "id": "south_norwalk_connecticut",
     "name": "South Norwalk, Connecticut",
     "subtype": "city",
-    "summary": "Birthplace of Edward Calvin Kendall."
+    "summary": "Birthplace of Edward Calvin Kendall.",
+    "attributes": {
+      "lat": 41.09361,
+      "lng": -73.41861,
+      "wikidata_qid": "Q7568037",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [
@@ -110,7 +116,13 @@
     "id": "detroit_michigan",
     "name": "Detroit, Michigan",
     "subtype": "city",
-    "summary": "City where Parke, Davis & Co. was located."
+    "summary": "City where Parke, Davis & Co. was located.",
+    "attributes": {
+      "lat": 42.33167,
+      "lng": -83.0475,
+      "wikidata_qid": "Q12439",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [
@@ -120,7 +132,13 @@
     "id": "new_york_city",
     "name": "New York City",
     "subtype": "city",
-    "summary": "City where St. Luke's Hospital is located."
+    "summary": "City where St. Luke's Hospital is located.",
+    "attributes": {
+      "lat": 40.71278,
+      "lng": -74.00611,
+      "wikidata_qid": "Q60",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [
@@ -130,7 +148,13 @@
     "id": "rochester_minnesota",
     "name": "Rochester, Minnesota",
     "subtype": "city",
-    "summary": "City where the Mayo Foundation is located."
+    "summary": "City where the Mayo Foundation is located.",
+    "attributes": {
+      "lat": 44.0234,
+      "lng": -92.46295,
+      "wikidata_qid": "Q486479",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [

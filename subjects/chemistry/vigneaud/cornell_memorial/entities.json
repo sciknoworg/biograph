@@ -17,7 +17,11 @@
     "summary": "City in Illinois, United States.",
     "subtype": "city",
     "attributes": {
-      "country": "United States"
+      "country": "United States",
+      "lat": 41.88194,
+      "lng": -87.62778,
+      "wikidata_qid": "Q1297",
+      "geocode_basis": "country"
     }
   },
   {
@@ -70,7 +74,13 @@
     "name": "Baltimore",
     "aliases": [],
     "summary": "City in Maryland, United States.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 39.28639,
+      "lng": -76.615,
+      "wikidata_qid": "Q5092",
+      "geocode_basis": "document"
+    }
   },
   {
     "id": "europe",
@@ -78,7 +88,13 @@
     "name": "Europe",
     "aliases": [],
     "summary": "Continent.",
-    "subtype": "continent"
+    "subtype": "continent",
+    "attributes": {
+      "lat": 48.69096,
+      "lng": 9.14062,
+      "wikidata_qid": "Q46",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "george_washington_university",
@@ -104,7 +120,13 @@
     "name": "New York City",
     "aliases": [],
     "summary": "City in New York, United States.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 40.71278,
+      "lng": -74.00611,
+      "wikidata_qid": "Q60",
+      "geocode_basis": "document"
+    }
   },
   {
     "id": "mildred_cohn",
@@ -152,7 +174,13 @@
     "name": "Ithaca",
     "aliases": [],
     "summary": "City in New York, United States.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 42.44333,
+      "lng": -76.5,
+      "wikidata_qid": "Q217346",
+      "geocode_basis": "document"
+    }
   },
   {
     "id": "st_agnes_hospital",
@@ -168,7 +196,13 @@
     "name": "White Plains",
     "aliases": [],
     "summary": "City in New York, United States.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 41.0325,
+      "lng": -73.76667,
+      "wikidata_qid": "Q462177",
+      "geocode_basis": "document"
+    }
   },
   {
     "id": "nobel_prize_in_chemistry",

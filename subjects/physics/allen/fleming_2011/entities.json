@@ -169,7 +169,13 @@
       "Mount Pleasant"
     ],
     "summary": "Birthplace and hometown of James Van Allen.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 40.96694,
+      "lng": -91.55111,
+      "wikidata_qid": "Q613167",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "cape_canaveral",
@@ -177,7 +183,13 @@
     "name": "Cape Canaveral",
     "aliases": [],
     "summary": "Launch site for the Bumper V-2 and later space missions.",
-    "subtype": "facility"
+    "subtype": "facility",
+    "attributes": {
+      "lat": 28.45556,
+      "lng": -80.52778,
+      "wikidata_qid": "Q193401",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "johnston_island",
@@ -185,7 +197,13 @@
     "name": "Johnston Island",
     "aliases": [],
     "summary": "Location of high-altitude nuclear tests including Starfish Prime.",
-    "subtype": "facility"
+    "subtype": "facility",
+    "attributes": {
+      "lat": 16.75,
+      "lng": -169.51667,
+      "wikidata_qid": "Q131008",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "south_atlantic_ocean",
@@ -195,7 +213,13 @@
       "South Atlantic"
     ],
     "summary": "Location of the Project Argus nuclear tests.",
-    "subtype": "region"
+    "subtype": "region",
+    "attributes": {
+      "lat": -33.73345,
+      "lng": -18.83777,
+      "wikidata_qid": "Q1482804",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "hawaii",
@@ -203,7 +227,13 @@
     "name": "Hawaii",
     "aliases": [],
     "summary": "Location where effects of the Starfish Prime test were observed.",
-    "subtype": "state"
+    "subtype": "state",
+    "attributes": {
+      "lat": 21.5,
+      "lng": -158.0,
+      "wikidata_qid": "Q782",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "soviet_union",
@@ -214,7 +244,13 @@
       "USSR"
     ],
     "summary": "Country Van Allen visited in 1959 and competed with in the space race.",
-    "subtype": "country"
+    "subtype": "country",
+    "attributes": {
+      "lat": 65.0,
+      "lng": 90.0,
+      "wikidata_qid": "Q15180",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "v2_rocket",

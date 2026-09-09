@@ -132,7 +132,13 @@
     "name": "Savona",
     "aliases": [],
     "summary": "Italian city where Orazio Grassi was born.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 44.30806,
+      "lng": 8.48111,
+      "wikidata_qid": "Q13320",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "rome",
@@ -140,6 +146,12 @@
     "name": "Rome",
     "aliases": [],
     "summary": "City where the Collegio Romano was located and where Grassi taught.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 41.89306,
+      "lng": 12.48278,
+      "wikidata_qid": "Q220",
+      "geocode_basis": "most_linked"
+    }
   }
 ]

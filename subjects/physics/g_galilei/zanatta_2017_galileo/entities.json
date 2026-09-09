@@ -195,7 +195,13 @@
     "name": "Pisa",
     "aliases": [],
     "summary": "City in Italy where Galileo was born.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 43.71667,
+      "lng": 10.4,
+      "wikidata_qid": "Q13375",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "florence",
@@ -203,7 +209,13 @@
     "name": "Florence",
     "aliases": [],
     "summary": "City in Italy where Galileo met Ricci and later lived.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 43.77139,
+      "lng": 11.25417,
+      "wikidata_qid": "Q2044",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "padua",
@@ -211,7 +223,13 @@
     "name": "Padua",
     "aliases": [],
     "summary": "City in Italy where Galileo taught for 18 years.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 45.40778,
+      "lng": 11.87333,
+      "wikidata_qid": "Q617",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "venice",
@@ -219,7 +237,13 @@
     "name": "Venice",
     "aliases": [],
     "summary": "City where Galileo presented the telescope.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 45.43972,
+      "lng": 12.33194,
+      "wikidata_qid": "Q641",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "rome",
@@ -227,7 +251,13 @@
     "name": "Rome",
     "aliases": [],
     "summary": "City where Galileo was tried.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 41.89306,
+      "lng": 12.48278,
+      "wikidata_qid": "Q220",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "arcetri",
@@ -235,7 +265,13 @@
     "name": "Arcetri",
     "aliases": [],
     "summary": "Place near Florence where Galileo was confined.",
-    "subtype": "locality"
+    "subtype": "locality",
+    "attributes": {
+      "lat": 43.75485,
+      "lng": 11.2518,
+      "wikidata_qid": "Q2031761",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "telescope",
@@ -294,7 +330,13 @@
     "name": "Santa Croce Church",
     "aliases": [],
     "summary": "Church in Florence where Galileo was buried.",
-    "subtype": "building"
+    "subtype": "building",
+    "attributes": {
+      "lat": 44.23829,
+      "lng": 9.49273,
+      "wikidata_qid": "Q3673009",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "santa_maria_minerva",
@@ -302,6 +344,7 @@
     "name": "Santa Maria Minerva",
     "aliases": [],
     "summary": "Church in Rome where Galileo was tried.",
-    "subtype": "building"
+    "subtype": "building",
+    "attributes": {}
   }
 ]

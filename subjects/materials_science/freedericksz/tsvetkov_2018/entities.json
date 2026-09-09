@@ -156,7 +156,11 @@
     "summary": "City in Poland where Freedericksz was born.",
     "subtype": "city",
     "attributes": {
-      "country": "Poland"
+      "country": "Poland",
+      "lat": 52.23,
+      "lng": 21.01111,
+      "wikidata_qid": "Q270",
+      "geocode_basis": "country"
     }
   },
   {
@@ -173,7 +177,11 @@
     "summary": "City in Russia where Freedericksz worked for most of his career.",
     "subtype": "city",
     "attributes": {
-      "country": "Russia"
+      "country": "Russia",
+      "lat": 59.95,
+      "lng": 30.31667,
+      "wikidata_qid": "Q656",
+      "geocode_basis": "country"
     }
   },
   {

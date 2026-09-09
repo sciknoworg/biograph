@@ -81,7 +81,11 @@
   {
     "aliases": [],
     "attributes": {
-      "country": "Czech Republic"
+      "country": "Czech Republic",
+      "lat": 50.0875,
+      "lng": 14.42139,
+      "wikidata_qid": "Q1085",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "prague",
@@ -95,6 +99,12 @@
     "id": "sweden",
     "name": "Sweden",
     "subtype": "country",
-    "summary": "Country of the King who awarded the Nobel Prize."
+    "summary": "Country of the King who awarded the Nobel Prize.",
+    "attributes": {
+      "lat": 61.0,
+      "lng": 15.0,
+      "wikidata_qid": "Q34",
+      "geocode_basis": "most_linked"
+    }
   }
 ]

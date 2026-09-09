@@ -121,7 +121,8 @@
       "Frankfurt"
     ],
     "summary": "German city where the Royal Institute for Experimental Therapy was established.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {}
   },
   {
     "id": "berlin",
@@ -129,7 +130,13 @@
     "name": "Berlin",
     "aliases": [],
     "summary": "German capital where early antitoxin work occurred.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 52.51667,
+      "lng": 13.38333,
+      "wikidata_qid": "Q64",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "steglitz",
@@ -137,7 +144,13 @@
     "name": "Steglitz",
     "aliases": [],
     "summary": "Berlin suburb where Ehrlich's laboratory was located.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 52.46667,
+      "lng": 13.33333,
+      "wikidata_qid": "Q700211",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "control_station_for_diphtheria_antitoxin",

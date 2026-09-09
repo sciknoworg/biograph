@@ -93,12 +93,22 @@
     "id": "luneburg",
     "name": "Lüneburg",
     "subtype": "city",
-    "summary": "German town where Riemann attended gymnasium."
+    "summary": "German town where Riemann attended gymnasium.",
+    "attributes": {
+      "lat": 53.2525,
+      "lng": 10.41444,
+      "wikidata_qid": "Q3920",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
     "attributes": {
-      "country": "Italy"
+      "country": "Italy",
+      "lat": 45.94333,
+      "lng": 8.59167,
+      "wikidata_qid": "Q3954709",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "selasca",

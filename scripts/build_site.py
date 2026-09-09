@@ -169,6 +169,18 @@ Rules, non-negotiable:
   the entity is the institution: name it fully ("Uppsala University") with the bare form in
   aliases. Only use "place" when the text really means the geography -- born in, died in,
   travelled to.
+- That rule is about which entity a name refers to, NOT a reason to leave geography out.
+  Where the document does name a town, city, region or country as somewhere the subject was
+  born, died, lived, moved to or travelled to, create a "place" entity for it. Give the place
+  its own bare name ("Manchester", "Maida Vale"), and record the containing country -- and the
+  state, region or province where the document gives one -- in attributes, e.g.
+  {"country": "United Kingdom"}. Those attributes are what later distinguishes this place from
+  a same-named one elsewhere, so include them whenever the document supports it.
+- Every id used anywhere -- events[].participants[].entity_id, events[].location,
+  relations[].source, relations[].target -- must be the id of an object that actually appears
+  in entities[]. Writing a relation to a place you never defined loses the fact entirely: the
+  relation is discarded at build time and the place appears nowhere. Before finishing, check
+  that every id you referenced exists.
 - If nothing in an enum fits, use "other" and explain in the description.
 - Output ONLY the JSON object -- no markdown fences, no commentary.
 """
@@ -287,7 +299,7 @@ def build_prompt(slug, name, text, strict_scope=None):
         "scope.fits is false, the other six keys are not used and may be left empty. "
         "Every object in entities/events/relations/sources must validate against the "
         "matching JSON Schema below (draft 2020-12). related_fields is a plain array of short "
-        "strings: other distinct materials-science-history subfields or technology areas this "
+        "strings: other distinct subfields or technology areas, within this collection's field, that this "
         "document discusses as context -- e.g. a related technique it compares against, a "
         "field a mentioned colleague worked in -- beyond the main subject's own field. Empty "
         "array if there's nothing like that. Not validated against a schema; a best-effort list, "

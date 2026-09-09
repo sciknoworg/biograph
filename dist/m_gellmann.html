@@ -129,6 +129,9 @@
   .node.show-label text.label{opacity:1;}
   .node.dim{opacity:.14;}
   .link{stroke:var(--edge);stroke-width:1.4px;fill:none;transition:stroke .15s, opacity .15s;}
+  /* Co-presence at an event, not a stated relation — deliberately fainter and dashed so the
+     two are never read as the same kind of claim. */
+  .link.via-event{stroke-width:1px;stroke-dasharray:2 4;opacity:.45;}
   .link.active{stroke:var(--edge-active);stroke-width:2px;}
   .link.dim{opacity:.08;}
 
@@ -212,7 +215,33 @@
     if(!linkMap.has(k)) linkMap.set(k, {source:r.source, target:r.target, rels:[]});
     linkMap.get(k).rels.push(r);
   });
+  // A relation is not the only evidence two entities are connected: an event records everyone
+  // who was there. Extractions routinely give someone three shared events and no relation, and
+  // drawing only relations left ~39% of entities as isolated dots — the connection was in the
+  // data, just never rendered. So every event also links its participants (and its location)
+  // to that event's principal — the participant whose role names them as the subject, else the
+  // first listed. A star, not a clique: an eight-person event would otherwise add 28 edges and
+  // read as a hairball, and "was present at the same event as the person this event is about"
+  // is the honest claim anyway.
+  // These are drawn dashed and faint, and never overwrite a real relation edge.
+  events.forEach(ev => {
+    const present = (ev.participants||[]).map(p => p.entity_id)
+      .concat(ev.location ? [ev.location] : [])
+      .filter(id => entById.has(id));
+    if(present.length < 2) return;
+    const principal = (ev.participants||[]).find(p =>
+      entById.has(p.entity_id) && /subject|principal/i.test(p.role||""));
+    const hub = principal ? principal.entity_id : present[0];
+    present.forEach(id => {
+      if(id === hub) return;
+      const k = pairKey(hub, id);
+      if(!linkMap.has(k)) linkMap.set(k, {source:hub, target:id, rels:[], evs:[]});
+      const l = linkMap.get(k);
+      if(l.evs && !l.evs.includes(ev.id)) l.evs.push(ev.id);
+    });
+  });
   const links = Array.from(linkMap.values());
+  links.forEach(l => { l.evs = l.evs || []; l.viaEvent = l.rels.length === 0; });
 
   // degree for node sizing
   const degree = new Map(entities.map(e => [e.id, 0]));
@@ -264,10 +293,13 @@
 
   const linkSel = linkLayer.selectAll("line.link")
     .data(links).join("line")
-    .attr("class","link")
+    .attr("class", d => "link" + (d.viaEvent ? " via-event" : ""))
     .on("mouseover", (event,d) => {
-      const types = [...new Set(d.rels.map(r=>r.type))].join(", ");
-      showTooltip(event, `<b>${entById.get(d.source.id||d.source).name}</b> → <b>${entById.get(d.target.id||d.target).name}</b><br><span>${types}</span>`);
+      const n = d.evs.length;
+      const label = d.rels.length
+        ? [...new Set(d.rels.map(r=>r.type))].join(", ")
+        : `${n} shared event${n===1?"":"s"}`;
+      showTooltip(event, `<b>${entById.get(d.source.id||d.source).name}</b> → <b>${entById.get(d.target.id||d.target).name}</b><br><span>${label}</span>`);
     })
     .on("mousemove", moveTooltip)
     .on("mouseout", hideTooltip);
@@ -419,11 +451,14 @@
     const rows = connLinks.map(l => {
       const otherId = (l.source.id||l.source)===e.id ? (l.target.id||l.target) : (l.source.id||l.source);
       const other = entById.get(otherId);
-      const types = l.rels.map(r => {
-        const dirTxt = (r.source===e.id) ? `${r.type} →` : `← ${r.type}`;
-        return dirTxt;
-      }).join(", ");
-      const cites = l.rels.flatMap(r=>r.sources).map(s => citeText(s)).join("; ");
+      const types = l.rels.length
+        ? l.rels.map(r => (r.source===e.id) ? `${r.type} →` : `← ${r.type}`).join(", ")
+        : `together at ${l.evs.length} event${l.evs.length===1?"":"s"}`;
+      // A co-presence link has no citations of its own; the events it came from carry them.
+      const cites = l.rels.length
+        ? l.rels.flatMap(r=>r.sources).map(s => citeText(s)).join("; ")
+        : l.evs.map(id=>eventsById.get(id)).filter(Boolean)
+             .flatMap(ev=>ev.sources).map(s => citeText(s)).join("; ");
       return `<div class="rel-row" data-goto="${other.id}"><div>${other.name}</div><div class="t">${types}</div>${cites?`<div class="cite">${cites}</div>`:""}</div>`;
     }).join("");
     const evIds = entEvents.get(e.id)||[];

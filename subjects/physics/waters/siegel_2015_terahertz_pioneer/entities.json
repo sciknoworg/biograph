@@ -103,7 +103,11 @@
   {
     "attributes": {
       "country": "USA",
-      "state": "Tennessee"
+      "state": "Tennessee",
+      "lat": 33.6111,
+      "lng": -95.0525,
+      "wikidata_qid": "Q981859",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "clarksville_tennessee",
@@ -114,7 +118,11 @@
   {
     "attributes": {
       "country": "USA",
-      "state": "California"
+      "state": "California",
+      "lat": 34.1475,
+      "lng": -118.14389,
+      "wikidata_qid": "Q485176",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "pasadena_california",

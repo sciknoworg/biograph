@@ -153,7 +153,11 @@
       "Freiberg, Saxony"
     ],
     "attributes": {
-      "country": "Germany"
+      "country": "Germany",
+      "lat": 50.91194,
+      "lng": 13.34278,
+      "wikidata_qid": "Q14819",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "freiberg",
@@ -166,7 +170,11 @@
       "Potsdam, Germany"
     ],
     "attributes": {
-      "country": "Germany"
+      "country": "Germany",
+      "lat": 52.40093,
+      "lng": 13.05914,
+      "wikidata_qid": "Q1711",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "potsdam",
@@ -202,6 +210,7 @@
     "id": "helmert_tower",
     "name": "Helmert Tower",
     "subtype": "facility",
-    "summary": "Tower at the Geodetic Institute in Potsdam used for angle measurements and later satellite triangulations."
+    "summary": "Tower at the Geodetic Institute in Potsdam used for angle measurements and later satellite triangulations.",
+    "attributes": {}
   }
 ]

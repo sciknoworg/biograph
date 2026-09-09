@@ -56,7 +56,11 @@
     "summary": "City where Jabir Ibn Hayyan spent a significant part of his life.",
     "subtype": "city",
     "attributes": {
-      "country": "Iraq"
+      "country": "Iraq",
+      "lat": 32.03,
+      "lng": 44.4,
+      "wikidata_qid": "Q186234",
+      "geocode_basis": "country"
     }
   },
   {
@@ -67,7 +71,11 @@
     "summary": "City accepted as the birthplace of Jabir Ibn Hayyan.",
     "subtype": "city",
     "attributes": {
-      "country": "Iran"
+      "country": "Iran",
+      "lat": 36.29749,
+      "lng": 59.60592,
+      "wikidata_qid": "Q121157",
+      "geocode_basis": "country"
     }
   },
   {
@@ -78,7 +86,8 @@
       "Khorasan"
     ],
     "summary": "Region where Jabir Ibn Hayyan's father was when Jabir was born.",
-    "subtype": "region"
+    "subtype": "region",
+    "attributes": {}
   },
   {
     "id": "yemen",
@@ -86,7 +95,13 @@
     "name": "Yemen",
     "aliases": [],
     "summary": "Origin of Jabir Ibn Hayyan's father's tribe.",
-    "subtype": "country"
+    "subtype": "country",
+    "attributes": {
+      "lat": 15.5,
+      "lng": 48.0,
+      "wikidata_qid": "Q805",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "abbasids",

@@ -101,7 +101,11 @@
       "his native town of Sheffield"
     ],
     "attributes": {
-      "country": "England"
+      "country": "England",
+      "lat": 53.38083,
+      "lng": -1.47028,
+      "wikidata_qid": "Q42448",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "sheffield",
@@ -117,7 +121,13 @@
     "id": "yorkshire_coast",
     "name": "Yorkshire coast",
     "subtype": "region",
-    "summary": "Location of the calcareous grit Sorby analyzed in 1850."
+    "summary": "Location of the calcareous grit Sorby analyzed in 1850.",
+    "attributes": {
+      "lat": 54.1515,
+      "lng": -0.174,
+      "wikidata_qid": "Q23582676",
+      "geocode_basis": "document"
+    }
   },
   {
     "aliases": [

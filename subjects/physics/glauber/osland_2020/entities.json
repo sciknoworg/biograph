@@ -162,7 +162,11 @@
     "summary": "Location of the 24th European Few Body Conference.",
     "subtype": "city",
     "attributes": {
-      "country": "UK"
+      "country": "UK",
+      "lat": 51.26946,
+      "lng": -0.3733,
+      "wikidata_qid": "Q67443130",
+      "geocode_basis": "country"
     }
   },
   {
@@ -173,7 +177,11 @@
     "summary": "Location where Osland did his thesis work.",
     "subtype": "city",
     "attributes": {
-      "country": "Norway"
+      "country": "Norway",
+      "lat": 63.44,
+      "lng": 10.4,
+      "wikidata_qid": "Q25804",
+      "geocode_basis": "country"
     }
   }
 ]

@@ -181,7 +181,13 @@
     "id": "varel",
     "name": "Varel",
     "subtype": "city",
-    "summary": "Town in Germany where Meyer was born."
+    "summary": "Town in Germany where Meyer was born.",
+    "attributes": {
+      "lat": 53.39694,
+      "lng": 8.13611,
+      "wikidata_qid": "Q496056",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
@@ -189,7 +195,13 @@
     "id": "tubingen_city",
     "name": "Tübingen",
     "subtype": "city",
-    "summary": "City in Germany where Meyer died and is buried."
+    "summary": "City in Germany where Meyer died and is buried.",
+    "attributes": {
+      "lat": 48.52,
+      "lng": 9.05556,
+      "wikidata_qid": "Q3806",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [

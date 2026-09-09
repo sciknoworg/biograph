@@ -95,7 +95,13 @@
     "id": "halle",
     "name": "Halle",
     "subtype": "city",
-    "summary": "City in Germany, birthplace of Hermann Hankel."
+    "summary": "City in Germany, birthplace of Hermann Hankel.",
+    "attributes": {
+      "lat": 51.48278,
+      "lng": 11.96972,
+      "wikidata_qid": "Q2814",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
@@ -103,7 +109,13 @@
     "id": "leipzig",
     "name": "Leipzig",
     "subtype": "city",
-    "summary": "City in Germany where Hankel studied and worked."
+    "summary": "City in Germany where Hankel studied and worked.",
+    "attributes": {
+      "lat": 51.34063,
+      "lng": 12.37473,
+      "wikidata_qid": "Q2079",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
@@ -111,7 +123,13 @@
     "id": "gottingen",
     "name": "Göttingen",
     "subtype": "city",
-    "summary": "City in Germany where Hankel studied and won a prize."
+    "summary": "City in Germany where Hankel studied and won a prize.",
+    "attributes": {
+      "lat": 51.53389,
+      "lng": 9.93556,
+      "wikidata_qid": "Q3033",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
@@ -119,7 +137,13 @@
     "id": "berlin",
     "name": "Berlin",
     "subtype": "city",
-    "summary": "City in Germany where Hankel attended courses."
+    "summary": "City in Germany where Hankel attended courses.",
+    "attributes": {
+      "lat": 52.51667,
+      "lng": 13.38333,
+      "wikidata_qid": "Q64",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
@@ -127,7 +151,13 @@
     "id": "erlangen",
     "name": "Erlangen",
     "subtype": "city",
-    "summary": "City in Germany where Hankel was a professor."
+    "summary": "City in Germany where Hankel was a professor.",
+    "attributes": {
+      "lat": 49.5925,
+      "lng": 11.005,
+      "wikidata_qid": "Q3126",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
@@ -135,7 +165,13 @@
     "id": "tubingen",
     "name": "Tübingen",
     "subtype": "city",
-    "summary": "City in Germany where Hankel was a professor."
+    "summary": "City in Germany where Hankel was a professor.",
+    "attributes": {
+      "lat": 48.52,
+      "lng": 9.05556,
+      "wikidata_qid": "Q3806",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [

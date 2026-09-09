@@ -19,7 +19,11 @@
     "summary": "Small town in France, birthplace of Siméon-Denis Poisson.",
     "subtype": "town",
     "attributes": {
-      "country": "France"
+      "country": "France",
+      "lat": 48.17194,
+      "lng": 2.25194,
+      "wikidata_qid": "Q217159",
+      "geocode_basis": "country"
     }
   },
   {
@@ -28,7 +32,13 @@
     "name": "France",
     "aliases": [],
     "summary": "Country where Poisson lived and worked.",
-    "subtype": "country"
+    "subtype": "country",
+    "attributes": {
+      "lat": 47.0,
+      "lng": 2.0,
+      "wikidata_qid": "Q142",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "ecole_polytechnique",

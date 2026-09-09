@@ -25,7 +25,11 @@
     "aliases": [],
     "attributes": {
       "country": "England",
-      "region": "Cornwall"
+      "region": "Cornwall",
+      "lat": 50.12139,
+      "lng": -5.53685,
+      "wikidata_qid": "Q208209",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "penzance",
@@ -38,7 +42,11 @@
       "Cornish"
     ],
     "attributes": {
-      "country": "England"
+      "country": "England",
+      "lat": 50.3,
+      "lng": -4.9,
+      "wikidata_qid": "Q23148",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "cornwall",

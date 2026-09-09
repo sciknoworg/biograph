@@ -158,7 +158,13 @@
     "id": "copenhagen",
     "name": "Copenhagen",
     "subtype": "city",
-    "summary": "City in Denmark where Bohr's institute was located."
+    "summary": "City in Denmark where Bohr's institute was located.",
+    "attributes": {
+      "lat": 55.67611,
+      "lng": 12.56889,
+      "wikidata_qid": "Q1748",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
@@ -166,7 +172,13 @@
     "id": "zurich",
     "name": "Zurich",
     "subtype": "city",
-    "summary": "City in Switzerland where Landau wrote his 1931 paper."
+    "summary": "City in Switzerland where Landau wrote his 1931 paper.",
+    "attributes": {
+      "lat": 47.37444,
+      "lng": 8.54111,
+      "wikidata_qid": "Q72",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
@@ -174,7 +186,13 @@
     "id": "kharkov",
     "name": "Kharkov",
     "subtype": "city",
-    "summary": "City in Ukraine where Landau moved after returning from abroad."
+    "summary": "City in Ukraine where Landau moved after returning from abroad.",
+    "attributes": {
+      "lat": 49.9925,
+      "lng": 36.23111,
+      "wikidata_qid": "Q42308",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
@@ -182,7 +200,13 @@
     "id": "moscow",
     "name": "Moscow",
     "subtype": "city",
-    "summary": "Capital of the USSR where Landau was arrested."
+    "summary": "Capital of the USSR where Landau was arrested.",
+    "attributes": {
+      "lat": 55.75056,
+      "lng": 37.6175,
+      "wikidata_qid": "Q649",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [

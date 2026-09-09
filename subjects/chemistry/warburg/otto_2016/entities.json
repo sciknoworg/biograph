@@ -152,7 +152,8 @@
     "id": "freiburg_in_breisgau",
     "name": "Freiburg in Breisgau",
     "subtype": "city",
-    "summary": "German city where Otto Warburg was born."
+    "summary": "German city where Otto Warburg was born.",
+    "attributes": {}
   },
   {
     "aliases": [
@@ -162,6 +163,12 @@
     "id": "berlin",
     "name": "Berlin",
     "subtype": "city",
-    "summary": "German city where Warburg lived and worked for most of his career."
+    "summary": "German city where Warburg lived and worked for most of his career.",
+    "attributes": {
+      "lat": 52.51667,
+      "lng": 13.38333,
+      "wikidata_qid": "Q64",
+      "geocode_basis": "most_linked"
+    }
   }
 ]

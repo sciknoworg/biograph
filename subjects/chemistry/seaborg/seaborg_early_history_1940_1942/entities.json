@@ -213,7 +213,13 @@
     "id": "gilman_hall",
     "name": "Gilman Hall",
     "subtype": "building",
-    "summary": "Chemistry building at Berkeley where Seaborg's lab was located."
+    "summary": "Chemistry building at Berkeley where Seaborg's lab was located.",
+    "attributes": {
+      "lat": 37.87262,
+      "lng": -122.25626,
+      "wikidata_qid": "Q5562471",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [
@@ -223,7 +229,8 @@
     "id": "crocker_laboratory",
     "name": "Crocker Laboratory",
     "subtype": "facility",
-    "summary": "Laboratory at Berkeley housing the cyclotrons."
+    "summary": "Laboratory at Berkeley housing the cyclotrons.",
+    "attributes": {}
   },
   {
     "aliases": [

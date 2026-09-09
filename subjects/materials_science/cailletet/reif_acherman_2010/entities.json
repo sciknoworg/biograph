@@ -104,7 +104,13 @@
     "id": "paris",
     "name": "Paris",
     "subtype": "city",
-    "summary": "Capital city of France where Cailletet and Mathias worked."
+    "summary": "Capital city of France where Cailletet and Mathias worked.",
+    "attributes": {
+      "lat": 48.85667,
+      "lng": 2.35222,
+      "wikidata_qid": "Q90",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [
@@ -114,6 +120,12 @@
     "id": "leiden",
     "name": "Leiden",
     "subtype": "city",
-    "summary": "City in the Netherlands where the Physical Laboratory is located."
+    "summary": "City in the Netherlands where the Physical Laboratory is located.",
+    "attributes": {
+      "lat": 52.16,
+      "lng": 4.49,
+      "wikidata_qid": "Q43631",
+      "geocode_basis": "most_linked"
+    }
   }
 ]

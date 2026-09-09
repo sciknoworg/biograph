@@ -46,7 +46,11 @@
   },
   {
     "attributes": {
-      "country": "Netherlands"
+      "country": "Netherlands",
+      "lat": 52.36667,
+      "lng": 4.88333,
+      "wikidata_qid": "Q727",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "amsterdam",
@@ -56,7 +60,11 @@
   },
   {
     "attributes": {
-      "country": "Sweden"
+      "country": "Sweden",
+      "lat": 59.32944,
+      "lng": 18.06861,
+      "wikidata_qid": "Q1754",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "stockholm",
@@ -66,7 +74,11 @@
   },
   {
     "attributes": {
-      "country": "USA"
+      "country": "USA",
+      "lat": 40.00667,
+      "lng": -105.26722,
+      "wikidata_qid": "Q736674",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "boulder",
@@ -76,7 +88,11 @@
   },
   {
     "attributes": {
-      "country": "Germany"
+      "country": "Germany",
+      "lat": 49.99944,
+      "lng": 8.27361,
+      "wikidata_qid": "Q1720",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "mainz",

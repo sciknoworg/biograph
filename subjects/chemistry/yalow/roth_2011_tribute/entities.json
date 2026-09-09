@@ -121,7 +121,13 @@
     "id": "bronx",
     "name": "the Bronx",
     "subtype": "city",
-    "summary": "Borough of New York City where Yalow was born, educated, and worked."
+    "summary": "Borough of New York City where Yalow was born, educated, and worked.",
+    "attributes": {
+      "lat": 40.84667,
+      "lng": -73.87333,
+      "wikidata_qid": "Q18426",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
@@ -129,7 +135,13 @@
     "id": "new_jersey",
     "name": "New Jersey",
     "subtype": "state",
-    "summary": "State where Yalow was buried."
+    "summary": "State where Yalow was buried.",
+    "attributes": {
+      "lat": 40.0,
+      "lng": -74.5,
+      "wikidata_qid": "Q1408",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
@@ -137,7 +149,13 @@
     "id": "atlantic_city",
     "name": "Atlantic City",
     "subtype": "city",
-    "summary": "City where the 1960 radioimmunoassay presentation occurred and where Berson died."
+    "summary": "City where the 1960 radioimmunoassay presentation occurred and where Berson died.",
+    "attributes": {
+      "lat": 39.3625,
+      "lng": -74.425,
+      "wikidata_qid": "Q139564",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
@@ -145,7 +163,13 @@
     "id": "stockholm",
     "name": "Stockholm",
     "subtype": "city",
-    "summary": "City where Yalow received the Nobel Prize."
+    "summary": "City where Yalow received the Nobel Prize.",
+    "attributes": {
+      "lat": 59.32944,
+      "lng": 18.06861,
+      "wikidata_qid": "Q1754",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],

@@ -173,7 +173,13 @@
     "id": "berlin",
     "name": "Berlin",
     "subtype": "city",
-    "summary": "German city where von Mises worked until his emigration."
+    "summary": "German city where von Mises worked until his emigration.",
+    "attributes": {
+      "lat": 41.61389,
+      "lng": -72.7725,
+      "wikidata_qid": "Q821199",
+      "geocode_basis": "document"
+    }
   },
   {
     "aliases": [],
@@ -181,7 +187,13 @@
     "id": "istanbul",
     "name": "Istanbul",
     "subtype": "city",
-    "summary": "Turkish city where von Mises emigrated in 1933."
+    "summary": "Turkish city where von Mises emigrated in 1933.",
+    "attributes": {
+      "lat": 41.01,
+      "lng": 28.96028,
+      "wikidata_qid": "Q406",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [
@@ -189,7 +201,11 @@
       "Boston"
     ],
     "attributes": {
-      "country": "USA"
+      "country": "USA",
+      "lat": 42.375,
+      "lng": -71.10611,
+      "wikidata_qid": "Q49111",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "cambridge_usa",
@@ -203,7 +219,13 @@
     "id": "new_york",
     "name": "New York",
     "subtype": "city",
-    "summary": "American city where von Mises arrived in 1939."
+    "summary": "American city where von Mises arrived in 1939.",
+    "attributes": {
+      "lat": 43.0,
+      "lng": -75.0,
+      "wikidata_qid": "Q1384",
+      "geocode_basis": "document"
+    }
   },
   {
     "aliases": [

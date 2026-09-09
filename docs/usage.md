@@ -307,3 +307,50 @@ Every Wikidata/Commons lookup fails independently and prints why (a
 network error, no match, no image, an unresolvable license) rather than
 stopping the whole run — so a restrictive network only costs you that one
 person's photo, not the rest.
+
+## 4. Putting places on the map with `geocode_places.py`
+
+```bash
+python3 scripts/geocode_places.py [--subject <slug>] [--domain <name>] [--dry-run]
+```
+
+Extraction never produces coordinates — a `place` entity arrives with a
+name and, usually, a country, and nothing more. This pass fills in
+`attributes.lat` / `lng` / `wikidata_qid` from Wikidata's P625 so the
+[Map view](frontend-guide.md#map-view) has something to plot. **Until you
+run it, a subject's map is empty.** That is the single most common reason
+for a blank map, and it is not a bug in the view.
+
+| Flag | Default | What it does |
+|---|---|---|
+| `--subject` | *(all)* | Only this slug. |
+| `--domain` | *(all)* | Only subjects under this domain folder. |
+| `--dry-run` | off | Look everything up and report, write nothing. |
+| `--refresh` | off | Re-resolve places that already have coordinates. |
+| `--limit` | `0` | Stop after this many *new* place names (0 = no limit). |
+
+Safe to re-run and cheap to resume: places that already have coordinates
+are skipped, and every lookup is cached in `.geocode_cache.json`, so a
+name is fetched once for the whole corpus no matter how many documents
+mention it. Wikidata rate-limits anonymous clients, so the script paces
+itself adaptively and a first full-corpus run takes a while; a second one
+is nearly instant.
+
+How each place was identified is recorded on the entity as
+`attributes.geocode_basis` (`country`, `document`, or `most_linked` — see
+[Data Accuracy § Place coordinates](data-accuracy.md#place-coordinates)),
+so the guesses are labelled rather than silent. Anything it can't pin down
+is reported and left off the map.
+
+Then rebuild to see them:
+
+```bash
+python3 scripts/build_site.py --all
+```
+
+To check the guesses afterwards, `--review` lists every place that was
+resolved by `most_linked` alone, with a Wikidata link for each:
+
+```bash
+python3 scripts/geocode_places.py --review
+```

@@ -201,7 +201,11 @@
     "summary": "City in Italy where Giacconi was born.",
     "subtype": "city",
     "attributes": {
-      "country": "Italy"
+      "country": "Italy",
+      "lat": 44.40722,
+      "lng": 8.93389,
+      "wikidata_qid": "Q1449",
+      "geocode_basis": "country"
     }
   },
   {
@@ -213,7 +217,11 @@
     "subtype": "city",
     "attributes": {
       "country": "United States",
-      "state": "Massachusetts"
+      "state": "Massachusetts",
+      "lat": 42.375,
+      "lng": -71.10611,
+      "wikidata_qid": "Q49111",
+      "geocode_basis": "country"
     }
   }
 ]

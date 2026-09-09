@@ -209,55 +209,103 @@
     "entity_type": "place",
     "name": "London",
     "summary": "City where Joseph Needham was born and attended school.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 51.50722,
+      "lng": -0.1275,
+      "wikidata_qid": "Q84",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "east_london",
     "entity_type": "place",
     "name": "East London",
     "summary": "Area where Joseph Needham's father was born.",
-    "subtype": "district"
+    "subtype": "district",
+    "attributes": {
+      "lat": -33.0175,
+      "lng": 27.90472,
+      "wikidata_qid": "Q209537",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "cambridge",
     "entity_type": "place",
     "name": "Cambridge",
     "summary": "City where Needham studied and worked for most of his life.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 52.20806,
+      "lng": 0.1225,
+      "wikidata_qid": "Q350",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "germany",
     "entity_type": "place",
     "name": "Germany",
     "summary": "Country where Needham conducted post-war research.",
-    "subtype": "country"
+    "subtype": "country",
+    "attributes": {
+      "lat": 51.0,
+      "lng": 10.0,
+      "wikidata_qid": "Q183",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "brussels",
     "entity_type": "place",
     "name": "Brussels",
     "summary": "City where Needham learned embryological micro-operation.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 50.84667,
+      "lng": 4.35167,
+      "wikidata_qid": "Q239",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "berlin",
     "entity_type": "place",
     "name": "Berlin",
     "summary": "City where Needham worked in Otto Mangold's Institute.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 52.51667,
+      "lng": 13.38333,
+      "wikidata_qid": "Q64",
+      "geocode_basis": "document"
+    }
   },
   {
     "id": "chungking",
     "entity_type": "place",
     "name": "Chungking",
     "summary": "City where Needham served as Scientific Counsellor.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 29.55,
+      "lng": 106.55,
+      "wikidata_qid": "Q46451169",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "paris",
     "entity_type": "place",
     "name": "Paris",
     "summary": "City where Needham worked for UNESCO.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 48.85667,
+      "lng": 2.35222,
+      "wikidata_qid": "Q90",
+      "geocode_basis": "most_linked"
+    }
   }
 ]

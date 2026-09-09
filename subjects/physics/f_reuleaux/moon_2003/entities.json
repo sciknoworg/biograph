@@ -84,7 +84,13 @@
     "id": "eschweiler",
     "name": "Eschweiler",
     "subtype": "city",
-    "summary": "Town near Aachen where Reuleaux was born."
+    "summary": "Town near Aachen where Reuleaux was born.",
+    "attributes": {
+      "lat": 50.81667,
+      "lng": 6.28333,
+      "wikidata_qid": "Q4083",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [

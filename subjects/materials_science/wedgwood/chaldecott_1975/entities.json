@@ -74,7 +74,13 @@
     "id": "etruria",
     "name": "Etruria",
     "subtype": "facility",
-    "summary": "Location of Wedgwood's factory and home."
+    "summary": "Location of Wedgwood's factory and home.",
+    "attributes": {
+      "lat": 42.22787,
+      "lng": 11.83891,
+      "wikidata_qid": "Q206730",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [

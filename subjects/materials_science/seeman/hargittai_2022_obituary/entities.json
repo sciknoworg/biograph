@@ -162,7 +162,13 @@
     "id": "chicago",
     "name": "Chicago",
     "subtype": "city",
-    "summary": "City where Seeman was born."
+    "summary": "City where Seeman was born.",
+    "attributes": {
+      "lat": 41.88194,
+      "lng": -87.62778,
+      "wikidata_qid": "Q1297",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
@@ -170,7 +176,13 @@
     "id": "san_jose_ca",
     "name": "San Jose, CA",
     "subtype": "city",
-    "summary": "Location of IBM Almaden Research Center."
+    "summary": "Location of IBM Almaden Research Center.",
+    "attributes": {
+      "lat": 37.30417,
+      "lng": -121.87278,
+      "wikidata_qid": "Q16553",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],

@@ -206,7 +206,11 @@
       "CH-4002 Basel"
     ],
     "attributes": {
-      "country": "Switzerland"
+      "country": "Switzerland",
+      "lat": 47.56056,
+      "lng": 7.59056,
+      "wikidata_qid": "Q78",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "basel",

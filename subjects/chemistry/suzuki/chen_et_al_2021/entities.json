@@ -219,7 +219,11 @@
     "summary": "Region in France where Pierre Gadal was born.",
     "subtype": "region",
     "attributes": {
-      "country": "France"
+      "country": "France",
+      "lat": 48.0,
+      "lng": -3.0,
+      "wikidata_qid": "Q12130",
+      "geocode_basis": "country"
     }
   },
   {
@@ -230,7 +234,11 @@
     "summary": "City in France where Gadal did his PhD and was assistant professor.",
     "subtype": "city",
     "attributes": {
-      "country": "France"
+      "country": "France",
+      "lat": 43.60444,
+      "lng": 1.44333,
+      "wikidata_qid": "Q7880",
+      "geocode_basis": "country"
     }
   },
   {
@@ -241,7 +249,11 @@
     "summary": "City in Lorraine where Gadal worked from 1973 to 1981.",
     "subtype": "city",
     "attributes": {
-      "country": "France"
+      "country": "France",
+      "lat": 48.69278,
+      "lng": 6.18361,
+      "wikidata_qid": "Q40898",
+      "geocode_basis": "country"
     }
   },
   {
@@ -252,7 +264,11 @@
     "summary": "City near Paris where Gadal worked from 1981 to 2003.",
     "subtype": "city",
     "attributes": {
-      "country": "France"
+      "country": "France",
+      "lat": 48.69806,
+      "lng": 2.1875,
+      "wikidata_qid": "Q372281",
+      "geocode_basis": "country"
     }
   },
   {

@@ -113,7 +113,11 @@
     "summary": "City in Austria where Walter Kohn was born.",
     "subtype": "city",
     "attributes": {
-      "country": "Austria"
+      "country": "Austria",
+      "lat": 48.20833,
+      "lng": 16.3725,
+      "wikidata_qid": "Q1741",
+      "geocode_basis": "country"
     }
   },
   {
@@ -123,7 +127,11 @@
     "summary": "City in California where Walter Kohn died.",
     "subtype": "city",
     "attributes": {
-      "country": "USA"
+      "country": "USA",
+      "lat": 34.42583,
+      "lng": -119.71417,
+      "wikidata_qid": "Q159288",
+      "geocode_basis": "country"
     }
   },
   {

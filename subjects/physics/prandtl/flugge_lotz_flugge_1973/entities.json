@@ -123,7 +123,13 @@
     "name": "Tokyo",
     "aliases": [],
     "summary": "City in Japan where Prandtl attended an engineering congress.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 35.68944,
+      "lng": 139.69167,
+      "wikidata_qid": "Q1490",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "mariaspring",
@@ -131,7 +137,13 @@
     "name": "Mariaspring",
     "aliases": [],
     "summary": "Coffee-garden restaurant near Gottingen visited by Prandtl's group.",
-    "subtype": "facility"
+    "subtype": "facility",
+    "attributes": {
+      "lat": 51.5992,
+      "lng": 9.95036,
+      "wikidata_qid": "Q1897028",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "a_nadai",

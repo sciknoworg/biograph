@@ -60,14 +60,26 @@
     "entity_type": "place",
     "name": "Annecy",
     "summary": "Town where Berthollet first studied at a college.",
-    "subtype": "town"
+    "subtype": "town",
+    "attributes": {
+      "lat": 45.89917,
+      "lng": 6.12944,
+      "wikidata_qid": "Q50189",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "chambery",
     "entity_type": "place",
     "name": "Chambery",
     "summary": "Town where Berthollet attended college.",
-    "subtype": "town"
+    "subtype": "town",
+    "attributes": {
+      "lat": 45.56639,
+      "lng": 5.92083,
+      "wikidata_qid": "Q165090",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "university_of_turin",
@@ -84,7 +96,13 @@
     "entity_type": "place",
     "name": "Paris",
     "summary": "City where Berthollet continued education and worked.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 48.85667,
+      "lng": 2.35222,
+      "wikidata_qid": "Q90",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "gobelins_manufactory",
@@ -308,7 +326,13 @@
     "entity_type": "place",
     "name": "Arcueil",
     "summary": "Village where Berthollet lived and died.",
-    "subtype": "village"
+    "subtype": "village",
+    "attributes": {
+      "lat": 48.80667,
+      "lng": 2.33528,
+      "wikidata_qid": "Q467132",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "legion_of_honour",

@@ -193,7 +193,11 @@
       "Thessaloniki, Greece"
     ],
     "attributes": {
-      "country": "Greece"
+      "country": "Greece",
+      "lat": 40.64028,
+      "lng": 22.93556,
+      "wikidata_qid": "Q17151",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "thessaloniki",
@@ -204,7 +208,11 @@
   {
     "aliases": [],
     "attributes": {
-      "country": "Serbia"
+      "country": "Serbia",
+      "lat": 44.81778,
+      "lng": 20.45694,
+      "wikidata_qid": "Q3711",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "belgrade",
@@ -215,7 +223,11 @@
   {
     "aliases": [],
     "attributes": {
-      "country": "France"
+      "country": "France",
+      "lat": 48.85667,
+      "lng": 2.35222,
+      "wikidata_qid": "Q90",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "paris",
@@ -226,7 +238,11 @@
   {
     "aliases": [],
     "attributes": {
-      "country": "USSR"
+      "country": "USSR",
+      "lat": 55.75056,
+      "lng": 37.6175,
+      "wikidata_qid": "Q649",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "moscow",
@@ -239,7 +255,11 @@
       "center of the free territory"
     ],
     "attributes": {
-      "country": "Serbia"
+      "country": "Serbia",
+      "lat": 43.85,
+      "lng": 19.85,
+      "wikidata_qid": "Q59473",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "uzice",

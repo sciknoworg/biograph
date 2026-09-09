@@ -18,7 +18,13 @@
     "id": "vienna_austria",
     "name": "Vienna, Austria",
     "subtype": "city",
-    "summary": "Capital city of Austria."
+    "summary": "Capital city of Austria.",
+    "attributes": {
+      "lat": 48.20833,
+      "lng": 16.3725,
+      "wikidata_qid": "Q1741",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],

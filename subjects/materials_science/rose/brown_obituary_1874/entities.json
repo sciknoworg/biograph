@@ -94,7 +94,11 @@
   {
     "aliases": [],
     "attributes": {
-      "country": "Germany"
+      "country": "Germany",
+      "lat": 52.51667,
+      "lng": 13.38333,
+      "wikidata_qid": "Q64",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "berlin",
@@ -108,12 +112,22 @@
     "id": "silesia",
     "name": "Silesia",
     "subtype": "region",
-    "summary": "Region where Gustav Rose began practical studies and took excursions."
+    "summary": "Region where Gustav Rose began practical studies and took excursions.",
+    "attributes": {
+      "lat": 51.1035,
+      "lng": 17.0396,
+      "wikidata_qid": "Q81720",
+      "geocode_basis": "document"
+    }
   },
   {
     "aliases": [],
     "attributes": {
-      "country": "Sweden"
+      "country": "Sweden",
+      "lat": 59.32944,
+      "lng": 18.06861,
+      "wikidata_qid": "Q1754",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "stockholm",
@@ -127,7 +141,13 @@
     "id": "sweden",
     "name": "Sweden",
     "subtype": "country",
-    "summary": "Country where Gustav Rose made excursions to study mineralogy."
+    "summary": "Country where Gustav Rose made excursions to study mineralogy.",
+    "attributes": {
+      "lat": 61.0,
+      "lng": 15.0,
+      "wikidata_qid": "Q34",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
@@ -135,7 +155,13 @@
     "id": "england",
     "name": "England",
     "subtype": "country",
-    "summary": "Country Gustav Rose visited studying rocks, mines, and museums."
+    "summary": "Country Gustav Rose visited studying rocks, mines, and museums.",
+    "attributes": {
+      "lat": 53.0,
+      "lng": -1.0,
+      "wikidata_qid": "Q21",
+      "geocode_basis": "document"
+    }
   },
   {
     "aliases": [],
@@ -143,7 +169,13 @@
     "id": "scotland",
     "name": "Scotland",
     "subtype": "country",
-    "summary": "Country Gustav Rose visited studying rocks, mines, and museums."
+    "summary": "Country Gustav Rose visited studying rocks, mines, and museums.",
+    "attributes": {
+      "lat": 57.0,
+      "lng": -5.0,
+      "wikidata_qid": "Q22",
+      "geocode_basis": "document"
+    }
   },
   {
     "aliases": [],
@@ -151,7 +183,13 @@
     "id": "scandinavia",
     "name": "Scandinavia",
     "subtype": "region",
-    "summary": "Region Gustav Rose visited studying rocks, mines, and museums."
+    "summary": "Region Gustav Rose visited studying rocks, mines, and museums.",
+    "attributes": {
+      "lat": 64.77964,
+      "lng": 14.76094,
+      "wikidata_qid": "Q21195",
+      "geocode_basis": "document"
+    }
   },
   {
     "aliases": [],
@@ -159,7 +197,13 @@
     "id": "italy",
     "name": "Italy",
     "subtype": "country",
-    "summary": "Country Gustav Rose visited studying rocks, mines, and museums."
+    "summary": "Country Gustav Rose visited studying rocks, mines, and museums.",
+    "attributes": {
+      "lat": 42.5,
+      "lng": 12.5,
+      "wikidata_qid": "Q38",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
@@ -167,7 +211,13 @@
     "id": "france",
     "name": "France",
     "subtype": "country",
-    "summary": "Country Gustav Rose visited studying rocks, mines, and museums."
+    "summary": "Country Gustav Rose visited studying rocks, mines, and museums.",
+    "attributes": {
+      "lat": 47.0,
+      "lng": 2.0,
+      "wikidata_qid": "Q142",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [
@@ -177,7 +227,13 @@
     "id": "ural_mountains",
     "name": "Ural Mountains",
     "subtype": "mountain_range",
-    "summary": "Mountain range examined by Humboldt and Gustav Rose in 1829."
+    "summary": "Mountain range examined by Humboldt and Gustav Rose in 1829.",
+    "attributes": {
+      "lat": 60.0,
+      "lng": 59.0,
+      "wikidata_qid": "Q35600",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [
@@ -187,7 +243,13 @@
     "id": "altai_mountains",
     "name": "Altai Mountains",
     "subtype": "mountain_range",
-    "summary": "Mountain range examined by Humboldt and Gustav Rose in 1829."
+    "summary": "Mountain range examined by Humboldt and Gustav Rose in 1829.",
+    "attributes": {
+      "lat": 49.0,
+      "lng": 89.0,
+      "wikidata_qid": "Q5955",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
@@ -195,7 +257,13 @@
     "id": "harz",
     "name": "Harz",
     "subtype": "region",
-    "summary": "Region where Gustav Rose took holiday excursions."
+    "summary": "Region where Gustav Rose took holiday excursions.",
+    "attributes": {
+      "lat": 51.75,
+      "lng": 10.63333,
+      "wikidata_qid": "Q4186",
+      "geocode_basis": "document"
+    }
   },
   {
     "aliases": [

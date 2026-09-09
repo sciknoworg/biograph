@@ -195,7 +195,11 @@
   {
     "aliases": [],
     "attributes": {
-      "country": "India"
+      "country": "India",
+      "lat": 11.0,
+      "lng": 79.0,
+      "wikidata_qid": "Q1445",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "tamil_nadu",
@@ -206,7 +210,11 @@
   {
     "aliases": [],
     "attributes": {
-      "country": "India"
+      "country": "India",
+      "lat": 13.0825,
+      "lng": 80.275,
+      "wikidata_qid": "Q1352",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "madras",
@@ -217,7 +225,11 @@
   {
     "aliases": [],
     "attributes": {
-      "country": "India"
+      "country": "India",
+      "lat": 22.5675,
+      "lng": 88.37,
+      "wikidata_qid": "Q1348",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "calcutta",
@@ -228,7 +240,11 @@
   {
     "aliases": [],
     "attributes": {
-      "country": "India"
+      "country": "India",
+      "lat": 12.97912,
+      "lng": 77.5913,
+      "wikidata_qid": "Q1355",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "bangalore",
@@ -242,7 +258,13 @@
     "id": "europe",
     "name": "Europe",
     "subtype": "continent",
-    "summary": "Continent Raman visited in 1921, inspiring his work on light scattering."
+    "summary": "Continent Raman visited in 1921, inspiring his work on light scattering.",
+    "attributes": {
+      "lat": 48.69096,
+      "lng": 9.14062,
+      "wikidata_qid": "Q46",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
@@ -250,7 +272,13 @@
     "id": "mediterranean_sea",
     "name": "Mediterranean Sea",
     "subtype": "body_of_water",
-    "summary": "Sea whose blue color inspired Raman's research on light scattering."
+    "summary": "Sea whose blue color inspired Raman's research on light scattering.",
+    "attributes": {
+      "lat": 38.0,
+      "lng": 17.0,
+      "wikidata_qid": "Q4918",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [

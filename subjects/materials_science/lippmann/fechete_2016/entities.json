@@ -19,7 +19,11 @@
     "summary": "Location in the Grand Duchy of Luxembourg where Lippmann was born.",
     "subtype": "city",
     "attributes": {
-      "country": "Luxembourg"
+      "country": "Luxembourg",
+      "lat": 49.599,
+      "lng": 6.12,
+      "wikidata_qid": "Q1624823",
+      "geocode_basis": "country"
     }
   },
   {
@@ -30,7 +34,13 @@
       "Luxembourg"
     ],
     "summary": "Country of Lippmann's birth.",
-    "subtype": "country"
+    "subtype": "country",
+    "attributes": {
+      "lat": 49.77,
+      "lng": 6.13,
+      "wikidata_qid": "Q32",
+      "geocode_basis": "document"
+    }
   },
   {
     "id": "paris",
@@ -40,7 +50,11 @@
     "summary": "City where Lippmann's family moved and where he received his education and worked.",
     "subtype": "city",
     "attributes": {
-      "country": "France"
+      "country": "France",
+      "lat": 48.85667,
+      "lng": 2.35222,
+      "wikidata_qid": "Q90",
+      "geocode_basis": "country"
     }
   },
   {
@@ -84,7 +98,11 @@
     "summary": "German city where Lippmann worked with Kühne and Kirchhoff.",
     "subtype": "city",
     "attributes": {
-      "country": "Germany"
+      "country": "Germany",
+      "lat": 49.40936,
+      "lng": 8.69472,
+      "wikidata_qid": "Q2966",
+      "geocode_basis": "country"
     }
   },
   {
@@ -95,7 +113,11 @@
     "summary": "German city where Lippmann worked with Helmholtz.",
     "subtype": "city",
     "attributes": {
-      "country": "Germany"
+      "country": "Germany",
+      "lat": 52.51667,
+      "lng": 13.38333,
+      "wikidata_qid": "Q64",
+      "geocode_basis": "country"
     }
   },
   {

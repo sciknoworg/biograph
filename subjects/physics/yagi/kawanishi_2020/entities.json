@@ -210,7 +210,13 @@
     "name": "Japan",
     "aliases": [],
     "summary": "Country where Yagi was born and worked.",
-    "subtype": "country"
+    "subtype": "country",
+    "attributes": {
+      "lat": 35.0,
+      "lng": 136.0,
+      "wikidata_qid": "Q17",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "zurich",
@@ -218,7 +224,13 @@
     "name": "Zurich",
     "aliases": [],
     "summary": "City where Yagi was when WWI broke out.",
-    "subtype": "city"
+    "subtype": "city",
+    "attributes": {
+      "lat": 39.2328,
+      "lng": -99.4347,
+      "wikidata_qid": "Q230417",
+      "geocode_basis": "document"
+    }
   },
   {
     "id": "england",
@@ -226,7 +238,13 @@
     "name": "England",
     "aliases": [],
     "summary": "Country where Yagi continued his research during WWI.",
-    "subtype": "country"
+    "subtype": "country",
+    "attributes": {
+      "lat": 53.0,
+      "lng": -1.0,
+      "wikidata_qid": "Q21",
+      "geocode_basis": "document"
+    }
   },
   {
     "id": "united_states",
@@ -237,7 +255,13 @@
       "America"
     ],
     "summary": "Country Yagi visited and witnessed the rise of corporate research.",
-    "subtype": "country"
+    "subtype": "country",
+    "attributes": {
+      "lat": 39.82818,
+      "lng": -98.5795,
+      "wikidata_qid": "Q30",
+      "geocode_basis": "document"
+    }
   },
   {
     "id": "germany",
@@ -245,6 +269,12 @@
     "name": "Germany",
     "aliases": [],
     "summary": "Country where Yagi studied before WWI.",
-    "subtype": "country"
+    "subtype": "country",
+    "attributes": {
+      "lat": 51.0,
+      "lng": 10.0,
+      "wikidata_qid": "Q183",
+      "geocode_basis": "most_linked"
+    }
   }
 ]

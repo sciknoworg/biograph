@@ -300,7 +300,13 @@
     "id": "pennines",
     "name": "Pennines",
     "subtype": "region",
-    "summary": "Region near Lancashire-Yorkshire borders where Briggs was born."
+    "summary": "Region near Lancashire-Yorkshire borders where Briggs was born.",
+    "attributes": {
+      "lat": 54.70278,
+      "lng": -2.48667,
+      "wikidata_qid": "Q35647",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [
@@ -310,7 +316,13 @@
     "id": "runcorn",
     "name": "Runcorn",
     "subtype": "city",
-    "summary": "Location of ICI Corporate Laboratory."
+    "summary": "Location of ICI Corporate Laboratory.",
+    "attributes": {
+      "lat": 53.34194,
+      "lng": -2.73361,
+      "wikidata_qid": "Q1009316",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [
@@ -320,7 +332,13 @@
     "id": "welwyn",
     "name": "Welwyn",
     "subtype": "city",
-    "summary": "Location of ICI group."
+    "summary": "Location of ICI group.",
+    "attributes": {
+      "lat": 51.8062,
+      "lng": -0.1932,
+      "wikidata_qid": "Q19789",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [
@@ -330,7 +348,13 @@
     "id": "wilton",
     "name": "Wilton",
     "subtype": "city",
-    "summary": "Final location of ICI group."
+    "summary": "Final location of ICI group.",
+    "attributes": {
+      "lat": 41.58944,
+      "lng": -91.0175,
+      "wikidata_qid": "Q1917966",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [
@@ -340,6 +364,12 @@
     "id": "malvern",
     "name": "Malvern",
     "subtype": "city",
-    "summary": "Town where Briggs moved after retirement."
+    "summary": "Town where Briggs moved after retirement.",
+    "attributes": {
+      "lat": 34.36389,
+      "lng": -92.81083,
+      "wikidata_qid": "Q79694",
+      "geocode_basis": "most_linked"
+    }
   }
 ]

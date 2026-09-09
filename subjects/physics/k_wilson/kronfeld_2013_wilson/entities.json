@@ -176,7 +176,13 @@
     "id": "waltham_massachusetts",
     "name": "Waltham, Massachusetts",
     "subtype": "city",
-    "summary": "City in Massachusetts where Wilson was born."
+    "summary": "City in Massachusetts where Wilson was born.",
+    "attributes": {
+      "lat": 42.3806,
+      "lng": -71.23501,
+      "wikidata_qid": "Q49190",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [
@@ -186,7 +192,13 @@
     "id": "saco_maine",
     "name": "Saco, Maine",
     "subtype": "city",
-    "summary": "City in Maine where Wilson died."
+    "summary": "City in Maine where Wilson died.",
+    "attributes": {
+      "lat": 43.51056,
+      "lng": -70.445,
+      "wikidata_qid": "Q1001891",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [

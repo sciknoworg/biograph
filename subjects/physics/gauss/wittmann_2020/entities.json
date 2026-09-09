@@ -58,7 +58,11 @@
     "summary": "City in Germany where Gauss was born.",
     "subtype": "city",
     "attributes": {
-      "country": "Germany"
+      "country": "Germany",
+      "lat": 52.26917,
+      "lng": 10.52111,
+      "wikidata_qid": "Q2773",
+      "geocode_basis": "country"
     }
   },
   {
@@ -68,7 +72,11 @@
     "summary": "City in Germany where Gauss received his doctoral degree.",
     "subtype": "city",
     "attributes": {
-      "country": "Germany"
+      "country": "Germany",
+      "lat": 52.22806,
+      "lng": 11.01056,
+      "wikidata_qid": "Q486562",
+      "geocode_basis": "country"
     }
   },
   {
@@ -78,7 +86,11 @@
     "summary": "City in Germany where Gauss studied and worked.",
     "subtype": "city",
     "attributes": {
-      "country": "Germany"
+      "country": "Germany",
+      "lat": 51.53389,
+      "lng": 9.93556,
+      "wikidata_qid": "Q3033",
+      "geocode_basis": "country"
     }
   },
   {

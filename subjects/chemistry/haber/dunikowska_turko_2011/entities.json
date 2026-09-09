@@ -92,7 +92,11 @@
       "Wrocław"
     ],
     "attributes": {
-      "country": "Germany"
+      "country": "Germany",
+      "lat": 51.11083,
+      "lng": 17.04761,
+      "wikidata_qid": "Q830245",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "breslau",
@@ -103,7 +107,11 @@
   {
     "aliases": [],
     "attributes": {
-      "country": "Switzerland"
+      "country": "Switzerland",
+      "lat": 47.56056,
+      "lng": 7.59056,
+      "wikidata_qid": "Q78",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "basel",
@@ -114,7 +122,11 @@
   {
     "aliases": [],
     "attributes": {
-      "country": "Belgium"
+      "country": "Belgium",
+      "lat": 50.85083,
+      "lng": 2.885,
+      "wikidata_qid": "Q102728",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "ypr",
@@ -131,7 +143,13 @@
     "id": "germany",
     "name": "Germany",
     "subtype": "country",
-    "summary": "Country where Fritz Haber lived and worked for most of his life."
+    "summary": "Country where Fritz Haber lived and worked for most of his life.",
+    "attributes": {
+      "lat": 51.0,
+      "lng": 10.0,
+      "wikidata_qid": "Q183",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [

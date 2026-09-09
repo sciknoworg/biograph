@@ -96,7 +96,8 @@
     "name": "Natron Lakes",
     "aliases": [],
     "summary": "Series of small lakes in Egypt bordered by natron crust.",
-    "subtype": "facility"
+    "subtype": "facility",
+    "attributes": {}
   },
   {
     "id": "egypt",
@@ -104,7 +105,13 @@
     "name": "Egypt",
     "aliases": [],
     "summary": "Country where Napoleon campaigned and Berthollet conducted observations.",
-    "subtype": "country"
+    "subtype": "country",
+    "attributes": {
+      "lat": 27.0,
+      "lng": 29.0,
+      "wikidata_qid": "Q79",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "italy",
@@ -112,7 +119,13 @@
     "name": "Italy",
     "aliases": [],
     "summary": "Country visited by Berthollet on a governmental commission.",
-    "subtype": "country"
+    "subtype": "country",
+    "attributes": {
+      "lat": 42.5,
+      "lng": 12.5,
+      "wikidata_qid": "Q38",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "france",
@@ -120,7 +133,13 @@
     "name": "France",
     "aliases": [],
     "summary": "Country where Berthollet lived and worked.",
-    "subtype": "country"
+    "subtype": "country",
+    "attributes": {
+      "lat": 47.0,
+      "lng": 2.0,
+      "wikidata_qid": "Q142",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "savoy",
@@ -128,7 +147,13 @@
     "name": "Savoy",
     "aliases": [],
     "summary": "Birthplace of Berthollet.",
-    "subtype": "region"
+    "subtype": "region",
+    "attributes": {
+      "lat": 45.58333,
+      "lng": 6.33333,
+      "wikidata_qid": "Q12745",
+      "geocode_basis": "document"
+    }
   },
   {
     "id": "order_of_legion_of_honor",

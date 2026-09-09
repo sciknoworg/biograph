@@ -317,7 +317,13 @@
     "id": "philadelphia",
     "name": "Philadelphia",
     "subtype": "city",
-    "summary": "City where Vera Rubin was born and lived in childhood."
+    "summary": "City where Vera Rubin was born and lived in childhood.",
+    "attributes": {
+      "lat": 39.95278,
+      "lng": -75.16361,
+      "wikidata_qid": "Q1345",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [
@@ -327,7 +333,13 @@
     "id": "washington_dc",
     "name": "Washington D.C.",
     "subtype": "city",
-    "summary": "City where Vera Rubin lived and worked for much of her career."
+    "summary": "City where Vera Rubin lived and worked for much of her career.",
+    "attributes": {
+      "lat": 38.895,
+      "lng": -77.03667,
+      "wikidata_qid": "Q61",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
@@ -335,7 +347,13 @@
     "id": "arizona",
     "name": "Arizona",
     "subtype": "state",
-    "summary": "State where Kitt Peak National Observatory is located."
+    "summary": "State where Kitt Peak National Observatory is located.",
+    "attributes": {
+      "lat": 34.28667,
+      "lng": -111.65694,
+      "wikidata_qid": "Q816",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
@@ -343,7 +361,13 @@
     "id": "texas",
     "name": "Texas",
     "subtype": "state",
-    "summary": "State where McDonald Observatory is located."
+    "summary": "State where McDonald Observatory is located.",
+    "attributes": {
+      "lat": 31.0,
+      "lng": -100.0,
+      "wikidata_qid": "Q1439",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
@@ -351,7 +375,13 @@
     "id": "california",
     "name": "California",
     "subtype": "state",
-    "summary": "State where Mount Wilson and UC San Diego are located."
+    "summary": "State where Mount Wilson and UC San Diego are located.",
+    "attributes": {
+      "lat": 37.0,
+      "lng": -120.0,
+      "wikidata_qid": "Q99",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],
@@ -359,7 +389,13 @@
     "id": "new_york",
     "name": "New York",
     "subtype": "state",
-    "summary": "State where Vassar College is located."
+    "summary": "State where Vassar College is located.",
+    "attributes": {
+      "lat": 40.71278,
+      "lng": -74.00611,
+      "wikidata_qid": "Q60",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [],

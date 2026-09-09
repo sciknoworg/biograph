@@ -98,7 +98,13 @@
     "name": "Eskdalemuir",
     "aliases": [],
     "summary": "Location of the Meteorological Office where Richardson worked before WWI.",
-    "subtype": "facility"
+    "subtype": "facility",
+    "attributes": {
+      "lat": 55.269,
+      "lng": -3.177,
+      "wikidata_qid": "Q1309761",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "france",
@@ -106,7 +112,13 @@
     "name": "France",
     "aliases": [],
     "summary": "Country where Richardson served as an ambulance driver during WWI.",
-    "subtype": "country"
+    "subtype": "country",
+    "attributes": {
+      "lat": 47.0,
+      "lng": 2.0,
+      "wikidata_qid": "Q142",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "id": "weather_prediction_by_numerical_process",

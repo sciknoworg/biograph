@@ -170,7 +170,6 @@
     "name": "Tampere, Finland",
     "subtype": "city",
     "attributes": {
-      "lat": 61.498056,
       "lng": 23.76,
       "wikidata_qid": "Q40840"
     }
@@ -181,7 +180,6 @@
     "name": "Turku, Finland",
     "subtype": "city",
     "attributes": {
-      "lat": 60.451667,
       "lng": 22.266944,
       "wikidata_qid": "Q38511"
     }
@@ -193,7 +191,6 @@
     "subtype": "city",
     "summary": "Location of Otaniemi (HUT), Tapiola (Instrumentarium), and Olarinluoma (Lohja's EL production facility).",
     "attributes": {
-      "lat": 60.205556,
       "lng": 24.655556,
       "wikidata_qid": "Q47034"
     }
@@ -204,7 +201,6 @@
     "name": "Leningrad (present-day St. Petersburg)",
     "subtype": "city",
     "attributes": {
-      "lat": 59.95,
       "lng": 30.316667,
       "wikidata_qid": "Q656"
     }
@@ -215,7 +211,6 @@
     "name": "San Diego, California, USA",
     "subtype": "city",
     "attributes": {
-      "lat": 32.715,
       "lng": -117.1625,
       "wikidata_qid": "Q16552"
     }
@@ -226,7 +221,6 @@
     "name": "Boston, Massachusetts, USA",
     "subtype": "city",
     "attributes": {
-      "lat": 42.360278,
       "lng": -71.057778,
       "wikidata_qid": "Q100"
     }
@@ -239,7 +233,8 @@
     "attributes": {
       "lat": 48.1375,
       "lng": 11.575,
-      "wikidata_qid": "Q1726"
+      "wikidata_qid": "Q1726",
+      "geocode_basis": "most_linked"
     }
   },
   {
@@ -248,7 +243,6 @@
     "name": "Kobe, Japan",
     "subtype": "city",
     "attributes": {
-      "lat": 34.690167,
       "lng": 135.195444,
       "wikidata_qid": "Q48320"
     }
@@ -260,7 +254,6 @@
     "subtype": "city",
     "summary": "Site of Lohja Oy's Kunnarla TF-EL pilot production plant.",
     "attributes": {
-      "lat": 60.25,
       "lng": 24.066667,
       "wikidata_qid": "Q214777"
     }
@@ -271,9 +264,10 @@
     "name": "Finland",
     "subtype": "country",
     "attributes": {
-      "lat": 65,
-      "lng": 27,
-      "wikidata_qid": "Q33"
+      "lat": 65.0,
+      "lng": 27.0,
+      "wikidata_qid": "Q33",
+      "geocode_basis": "most_linked"
     }
   },
   {

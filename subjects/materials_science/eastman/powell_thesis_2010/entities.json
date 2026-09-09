@@ -89,7 +89,11 @@
     "subtype": "city",
     "attributes": {
       "country": "United States",
-      "state": "New York"
+      "state": "New York",
+      "lat": 44.55194,
+      "lng": -69.64583,
+      "wikidata_qid": "Q997170",
+      "geocode_basis": "country"
     }
   },
   {
@@ -104,7 +108,11 @@
     "subtype": "city",
     "attributes": {
       "country": "United States",
-      "state": "New York"
+      "state": "New York",
+      "lat": 43.16556,
+      "lng": -77.61139,
+      "wikidata_qid": "Q49218",
+      "geocode_basis": "country"
     }
   }
 ]

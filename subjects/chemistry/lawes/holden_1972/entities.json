@@ -62,7 +62,13 @@
     "id": "rothamsted_manor",
     "name": "Rothamsted Manor",
     "subtype": "estate",
-    "summary": "Estate owned by Lawes where the experimental station was founded."
+    "summary": "Estate owned by Lawes where the experimental station was founded.",
+    "attributes": {
+      "lat": 51.8059,
+      "lng": -0.3693,
+      "wikidata_qid": "Q7370394",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [
@@ -199,7 +205,13 @@
     "id": "st_nicholas_church",
     "name": "St Nicholas church",
     "subtype": "place",
-    "summary": "Church where Lawes and Gilbert are buried."
+    "summary": "Church where Lawes and Gilbert are buried.",
+    "attributes": {
+      "lat": 49.30228,
+      "lng": 20.69014,
+      "wikidata_qid": "Q5117055",
+      "geocode_basis": "most_linked"
+    }
   },
   {
     "aliases": [
@@ -221,7 +233,8 @@
     "id": "testimonial_laboratory",
     "name": "Lawes Testimonial Laboratory",
     "subtype": "facility",
-    "summary": "Laboratory built with funds collected by farmers and opened in 1855."
+    "summary": "Laboratory built with funds collected by farmers and opened in 1855.",
+    "attributes": {}
   },
   {
     "aliases": [
@@ -231,7 +244,8 @@
     "id": "mason_laboratory",
     "name": "Mason Laboratory",
     "subtype": "facility",
-    "summary": "Small building joining the Testimonial Lab and present laboratory."
+    "summary": "Small building joining the Testimonial Lab and present laboratory.",
+    "attributes": {}
   },
   {
     "aliases": [
@@ -241,7 +255,8 @@
     "id": "james_mason_laboratory",
     "name": "James Mason Laboratory",
     "subtype": "facility",
-    "summary": "Laboratory opened in 1906/7."
+    "summary": "Laboratory opened in 1906/7.",
+    "attributes": {}
   },
   {
     "aliases": [
@@ -252,7 +267,8 @@
     "id": "russell_building",
     "name": "Russell building",
     "subtype": "facility",
-    "summary": "Building completed by 1918 replacing the Testimonial Laboratory."
+    "summary": "Building completed by 1918 replacing the Testimonial Laboratory.",
+    "attributes": {}
   },
   {
     "aliases": [
