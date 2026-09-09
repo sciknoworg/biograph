@@ -78,6 +78,18 @@ from what the model happens to know about the name.
   does not need to be complete: the pipeline surveys for new subfields itself
   once the existing names are exhausted, and one collection grew from 49 to 500
   subfields unaided.
+
+    A run stops growing the taxonomy when growth stops paying — after
+    `--survey-patience` consecutive surveys (default 3) produce no new subject.
+    That matters because a field whose biographical literature is thin does not
+    announce itself by running out of names: it keeps happily accepting new
+    subfields whose pioneers turn out to have no retrospective written about
+    them, or none that is open. The computer science run did exactly that, adding
+    five subfields a cycle for eight cycles and producing one subject between
+    them. Once growth latches off, Mode 1 still searches every name already in
+    the taxonomy and Mode 2 still grows the people graph, so subjects keep
+    arriving; the run then converges when those are genuinely exhausted.
+    `--max-subfields` remains only as a backstop.
 - **Every name must be someone a biographical or retrospective essay plausibly
   exists about** — a Nobel laureate, a named-reaction originator, a founder of a
   discipline. The pipeline can only find what has actually been written. A
