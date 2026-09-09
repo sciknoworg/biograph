@@ -1,0 +1,184 @@
+[
+  {
+    "id": "denning_works_nps",
+    "source": "peter_denning",
+    "type": "employed_by",
+    "target": "naval_postgraduate_school",
+    "note": "Current position as Distinguished Professor",
+    "sources": [
+      {
+        "source_id": "nps_denning_bio",
+        "page": 1,
+        "quote": "Peter Denning is a Distinguished  Professor at the  Naval Postgraduate School in Monterey, California."
+      }
+    ]
+  },
+  {
+    "id": "denning_chairs_cs_dept",
+    "source": "peter_denning",
+    "type": "worked_at",
+    "target": "naval_postgraduate_school",
+    "note": "Chairs the Computer Science Department",
+    "sources": [
+      {
+        "source_id": "nps_denning_bio",
+        "page": 1,
+        "quote": "He chairs the Computer Science  Department"
+      }
+    ]
+  },
+  {
+    "id": "denning_directs_cebrowski",
+    "source": "peter_denning",
+    "type": "worked_at",
+    "target": "cebrowski_institute",
+    "note": "Directs the Cebrowski Institute",
+    "sources": [
+      {
+        "source_id": "nps_denning_bio",
+        "page": 1,
+        "quote": "and  d irects the Cebrowski Institute, an interd isciplinary research center for  information innovation."
+      }
+    ]
+  },
+  {
+    "id": "denning_worked_princeton",
+    "source": "peter_denning",
+    "type": "employed_by",
+    "target": "princeton_university",
+    "note": "Previous faculty position",
+    "sources": [
+      {
+        "source_id": "nps_denning_bio",
+        "page": 1,
+        "quote": "He held  previous faculty  positions at Princeton, Purdue, and  George Mason"
+      }
+    ]
+  },
+  {
+    "id": "denning_worked_purdue",
+    "source": "peter_denning",
+    "type": "employed_by",
+    "target": "purdue_university",
+    "note": "Previous faculty position",
+    "sources": [
+      {
+        "source_id": "nps_denning_bio",
+        "page": 1,
+        "quote": "He held  previous faculty  positions at Princeton, Purdue, and  George Mason"
+      }
+    ]
+  },
+  {
+    "id": "denning_worked_gmu",
+    "source": "peter_denning",
+    "type": "employed_by",
+    "target": "george_mason_university",
+    "note": "Previous faculty position",
+    "sources": [
+      {
+        "source_id": "nps_denning_bio",
+        "page": 1,
+        "quote": "He held  previous faculty  positions at Princeton, Purdue, and  George Mason"
+      }
+    ]
+  },
+  {
+    "id": "denning_founded_riacs",
+    "source": "peter_denning",
+    "type": "founded",
+    "target": "riacs",
+    "note": "Founding director for RIACS at NASA Ames",
+    "sources": [
+      {
+        "source_id": "nps_denning_bio",
+        "page": 1,
+        "quote": "and  he was founding d irector for the  computer science research institute RIACS at  NASA Ames."
+      }
+    ]
+  },
+  {
+    "id": "denning_collaborated_csnet",
+    "source": "peter_denning",
+    "type": "collaborated_with",
+    "target": "csnet",
+    "note": "Co-founded CSNET",
+    "sources": [
+      {
+        "source_id": "nps_denning_bio",
+        "page": 1,
+        "quote": "He co-founded CSNET, the computer science network of NSF"
+      }
+    ]
+  },
+  {
+    "id": "denning_member_acm",
+    "source": "peter_denning",
+    "type": "member_of",
+    "target": "acm",
+    "event_id": "denning_acm_leadership_start",
+    "start": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "note": "Active leader since 1967",
+    "sources": [
+      {
+        "source_id": "nps_denning_bio",
+        "page": 1,
+        "quote": "He has been an active leader since 1967 in the Association for Computing  Machinery (ACM)"
+      }
+    ]
+  },
+  {
+    "id": "denning_led_digital_library",
+    "source": "peter_denning",
+    "type": "developed",
+    "target": "acm_digital_library",
+    "note": "Led the ACM Digital Library project",
+    "sources": [
+      {
+        "source_id": "nps_denning_bio",
+        "page": 1,
+        "quote": "He led  the ACM Digital Library project that  made ACM the first professional society with its entire literature on -line."
+      }
+    ]
+  },
+  {
+    "id": "denning_awarded_postel",
+    "source": "peter_denning",
+    "type": "awarded",
+    "target": "postel_award",
+    "event_id": "denning_postel_award",
+    "start": {
+      "display": "2009",
+      "precision": "year",
+      "sort_start": "2009-01-01",
+      "sort_end": "2009-12-31"
+    },
+    "note": "Shared 2009 Internet Society Postel Award for CSNET achievement",
+    "sources": [
+      {
+        "source_id": "nps_denning_bio",
+        "page": 1,
+        "quote": "and  shared  in the  2009 Internet Society Postel Award  for the achievement"
+      }
+    ]
+  },
+  {
+    "id": "denning_collaborated_dunham",
+    "source": "peter_denning",
+    "type": "collaborated_with",
+    "target": "bob_dunham",
+    "note": "Co-authored The Innovator's Way",
+    "sources": [
+      {
+        "source_id": "nps_denning_bio",
+        "page": 1,
+        "quote": "H is most recent book is The Innovator's  Way (with Bob Dunham, MIT Press 2010)"
+      }
+    ]
+  }
+]

@@ -1,0 +1,380 @@
+[
+  {
+    "id": "denning_interview_2013",
+    "event_type": "meeting",
+    "label": "Oral history interview conducted",
+    "description": "Interview conducted by Jeffrey Yost at the Naval Postgraduate School.",
+    "date": {
+      "display": "11 April 2013",
+      "precision": "day",
+      "sort_start": "2013-04-11",
+      "sort_end": "2013-04-11"
+    },
+    "participants": [
+      {
+        "entity_id": "dorothy_denning",
+        "role": "subject"
+      },
+      {
+        "entity_id": "jeffrey_yost",
+        "role": "interviewer"
+      },
+      {
+        "entity_id": "naval_postgraduate_school",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "denning_interview_2013",
+        "page": 3,
+        "quote": "11 April 2013, with Professor Dorothy Denning at the Naval Postgraduate School in Monterey, California."
+      }
+    ]
+  },
+  {
+    "id": "denning_um_ba",
+    "event_type": "education",
+    "label": "Graduated with B.A. in Mathematics",
+    "description": "Received Bachelor of Arts degree from the University of Michigan.",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "dorothy_denning",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_michigan",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "denning_interview_2013",
+        "page": 5,
+        "quote": "And, as I understand it, you graduated in 1967 with a B.A. in Mathematics. Denning: Yes."
+      }
+    ]
+  },
+  {
+    "id": "denning_um_ma",
+    "event_type": "education",
+    "label": "Completed Master's degree",
+    "description": "Completed math master's degree with computer science option at University of Michigan.",
+    "date": {
+      "display": "1969",
+      "precision": "year",
+      "sort_start": "1969-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "dorothy_denning",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_michigan",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "denning_interview_2013",
+        "page": 9,
+        "quote": "And what year did you complete your master's degree? Denning: In 1969."
+      }
+    ]
+  },
+  {
+    "id": "denning_marriage",
+    "event_type": "other",
+    "label": "Married Peter Denning",
+    "description": "Married Peter Denning, who was going to Rochester for a Ph.D.",
+    "date": {
+      "display": "May 1969",
+      "precision": "month",
+      "sort_start": "1969-05-01",
+      "sort_end": "1969-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "dorothy_denning",
+        "role": "subject"
+      },
+      {
+        "entity_id": "peter_denning",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "denning_interview_2013",
+        "page": 9,
+        "quote": "I ended up at Rochester because I got married in May 1969"
+      }
+    ]
+  },
+  {
+    "id": "denning_rochester_employment_start",
+    "event_type": "employment_start",
+    "label": "Started work at University of Rochester",
+    "description": "Began working as a systems programmer at the University of Rochester computing center.",
+    "date": {
+      "display": "1969",
+      "precision": "year",
+      "sort_start": "1969-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "dorothy_denning",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_rochester",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "denning_interview_2013",
+        "page": 9,
+        "quote": "I ended up at Rochester because I got married in May 1969... they came back and said well, apply to us. So... that was where I worked."
+      }
+    ]
+  },
+  {
+    "id": "denning_purdue_phd",
+    "event_type": "education",
+    "label": "Defended PhD thesis",
+    "description": "Defended doctoral thesis at Purdue University on computer security.",
+    "date": {
+      "display": "1975",
+      "precision": "year",
+      "sort_start": "1975-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "dorothy_denning",
+        "role": "subject"
+      },
+      {
+        "entity_id": "purdue_university",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "denning_interview_2013",
+        "page": 21,
+        "quote": "And what year did you defend your thesis? Denning: 1975."
+      }
+    ]
+  },
+  {
+    "id": "denning_purdue_employment_start",
+    "event_type": "employment_start",
+    "label": "Joined Purdue University faculty",
+    "description": "Joined Purdue University as instructor and PhD student in fall 1972.",
+    "date": {
+      "display": "fall 1972",
+      "precision": "season",
+      "sort_start": "1972-09-01",
+      "sort_end": "1972-11-30"
+    },
+    "participants": [
+      {
+        "entity_id": "dorothy_denning",
+        "role": "subject"
+      },
+      {
+        "entity_id": "purdue_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "denning_interview_2013",
+        "page": 12,
+        "quote": "Sam offered me a position as instructor, and also said I could come join the Ph.D. program that fall."
+      }
+    ]
+  },
+  {
+    "id": "denning_sri_employment_start",
+    "event_type": "employment_start",
+    "label": "Started work at SRI International",
+    "description": "Left Purdue to work at SRI International in the computer science lab.",
+    "date": {
+      "display": "1983",
+      "precision": "year",
+      "sort_start": "1983-01-01",
+      "sort_end": "1983-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "dorothy_denning",
+        "role": "subject"
+      },
+      {
+        "entity_id": "sri_international",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "denning_interview_2013",
+        "page": 29,
+        "quote": "What year was it that you left Purdue for SRI? Denning: 1983."
+      }
+    ]
+  },
+  {
+    "id": "denning_dec_employment_start",
+    "event_type": "employment_start",
+    "label": "Started work at Digital Equipment Corporation",
+    "description": "Left SRI to become a principal software engineer at DEC.",
+    "date": {
+      "display": "1987",
+      "precision": "year",
+      "sort_start": "1987-01-01",
+      "sort_end": "1987-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "dorothy_denning",
+        "role": "subject"
+      },
+      {
+        "entity_id": "digital_equipment_corporation",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "denning_interview_2013",
+        "page": 41,
+        "quote": "In 1987, you left SRI to become a principal software engineer for Digital Equipment Corporation."
+      }
+    ]
+  },
+  {
+    "id": "denning_dec_employment_end",
+    "event_type": "employment_end",
+    "label": "Left Digital Equipment Corporation",
+    "description": "Ended employment at DEC to return to academia.",
+    "date": {
+      "display": "1991",
+      "precision": "year",
+      "sort_start": "1991-01-01",
+      "sort_end": "1991-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "dorothy_denning",
+        "role": "subject"
+      },
+      {
+        "entity_id": "digital_equipment_corporation",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "denning_interview_2013",
+        "page": 48,
+        "quote": "Then you were at DEC until 1991. Denning: Yes."
+      }
+    ]
+  },
+  {
+    "id": "denning_georgetown_employment_start",
+    "event_type": "employment_start",
+    "label": "Started work at Georgetown University",
+    "description": "Returned to academia as department chair at Georgetown.",
+    "date": {
+      "display": "1991",
+      "precision": "year",
+      "sort_start": "1991-01-01",
+      "sort_end": "1991-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "dorothy_denning",
+        "role": "subject"
+      },
+      {
+        "entity_id": "georgetown_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "denning_interview_2013",
+        "page": 48,
+        "quote": "And then you returned to academia at Georgetown. Denning: Yes."
+      }
+    ]
+  },
+  {
+    "id": "denning_clipper_testimony",
+    "event_type": "other",
+    "label": "Testified before Congress on Clipper Chip",
+    "description": "Testified before Congress regarding the Clipper Chip encryption proposal.",
+    "date": {
+      "display": "1993",
+      "precision": "year",
+      "sort_start": "1993-01-01",
+      "sort_end": "1993-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "dorothy_denning",
+        "role": "subject"
+      },
+      {
+        "entity_id": "clipper_chip",
+        "role": "topic"
+      }
+    ],
+    "certainty": "approximate",
+    "sources": [
+      {
+        "source_id": "denning_interview_2013",
+        "page": 53,
+        "quote": "When did you first do that, do you recall? Denning: I have this written down somewhere, but maybe the first time was in 1993?"
+      }
+    ]
+  },
+  {
+    "id": "denning_textbook_1982",
+    "event_type": "publication",
+    "label": "Published Cryptography and Database Security",
+    "description": "Published influential textbook on cryptography and database security.",
+    "date": {
+      "display": "1982",
+      "precision": "year",
+      "sort_start": "1982-01-01",
+      "sort_end": "1982-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "dorothy_denning",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "denning_interview_2013",
+        "page": 28,
+        "quote": "In 1982, you published an important and influential textbook, Cryptography and Database Security."
+      }
+    ]
+  }
+]

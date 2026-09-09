@@ -1,0 +1,122 @@
+[
+  {
+    "id": "holland_born",
+    "source": "john_henry_holland",
+    "type": "born_in",
+    "target": "john_henry_holland",
+    "event_id": "holland_birth",
+    "sources": [
+      {
+        "source_id": "niazi_2015_memorial",
+        "page": 1,
+        "quote": "John Henry Holland—a pioneer of complex adaptive systems research (February 2, 1929–August 9, 2015)"
+      }
+    ]
+  },
+  {
+    "id": "holland_died",
+    "source": "john_henry_holland",
+    "type": "died_in",
+    "target": "john_henry_holland",
+    "event_id": "holland_death",
+    "sources": [
+      {
+        "source_id": "niazi_2015_memorial",
+        "page": 1,
+        "quote": "On August 9, 2015, cancer took Prof. John Henry Holland away from us."
+      }
+    ]
+  },
+  {
+    "id": "holland_studied_mit",
+    "source": "john_henry_holland",
+    "type": "studied_at",
+    "target": "mit",
+    "event_id": "holland_mit_undergrad",
+    "sources": [
+      {
+        "source_id": "niazi_2015_memorial",
+        "page": 1,
+        "quote": "He had an undergraduate degree in Physics from MIT (1950)"
+      }
+    ]
+  },
+  {
+    "id": "holland_studied_michigan",
+    "source": "john_henry_holland",
+    "type": "studied_at",
+    "target": "university_of_michigan",
+    "start": {
+      "display": "1954",
+      "precision": "year",
+      "sort_start": "1954-01-01",
+      "sort_end": "1954-12-31"
+    },
+    "end": {
+      "display": "1959",
+      "precision": "year",
+      "sort_start": "1959-01-01",
+      "sort_end": "1959-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "niazi_2015_memorial",
+        "page": 1,
+        "quote": "an M.A. in Mathematics (1954) and possibly the first ever PhD in Computer Science (1959), both from the University of Michigan"
+      }
+    ]
+  },
+  {
+    "id": "holland_worked_michigan",
+    "source": "john_henry_holland",
+    "type": "worked_at",
+    "target": "university_of_michigan",
+    "event_id": "holland_michigan_professor",
+    "sources": [
+      {
+        "source_id": "niazi_2015_memorial",
+        "page": 1,
+        "quote": "a place where he also subsequently served as a Professor of Psychology, Electrical Engineering and Computer Science"
+      }
+    ]
+  },
+  {
+    "id": "holland_invented_genetic_algorithms",
+    "source": "john_henry_holland",
+    "type": "invented",
+    "target": "genetic_algorithms",
+    "sources": [
+      {
+        "source_id": "niazi_2015_memorial",
+        "page": 1,
+        "quote": "but also for his seminal work on adaptation in natural and artificial systems leading to the creation of genetic algorithms"
+      }
+    ]
+  },
+  {
+    "id": "holland_invented_learning_classifier_systems",
+    "source": "john_henry_holland",
+    "type": "invented",
+    "target": "learning_classifier_systems",
+    "sources": [
+      {
+        "source_id": "niazi_2015_memorial",
+        "page": 1,
+        "quote": "and Learning Classifier Systems, Holland and Holyoak (1989)"
+      }
+    ]
+  },
+  {
+    "id": "niazi_affiliated_comsats",
+    "source": "muaz_a_niazi",
+    "type": "worked_at",
+    "target": "comsats_institute_of_it",
+    "sources": [
+      {
+        "source_id": "niazi_2015_memorial",
+        "page": 1,
+        "quote": "Department of Computer Science, COMSATS Institute of IT, Islamabad, Pakistan"
+      }
+    ]
+  }
+]

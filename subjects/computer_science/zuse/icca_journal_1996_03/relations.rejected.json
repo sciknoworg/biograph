@@ -1,0 +1,30 @@
+[
+  {
+    "id": "zuse_awarded_gottingen",
+    "source": "konrad_zuse",
+    "type": "awarded",
+    "target": "university_of_gottingen",
+    "sources": [
+      {
+        "source_id": "icca_journal_1996_03",
+        "page": 2,
+        "quote": "he held no fewer than five Honorary degrees in some of the most reputable Universities of Europe, ranging from Gottingen to Reykjavik."
+      }
+    ],
+    "_rejected_because": "'awarded' expects target entity_type artifact, but 'university_of_gottingen' is 'organization'"
+  },
+  {
+    "id": "zuse_awarded_reykjavik",
+    "source": "konrad_zuse",
+    "type": "awarded",
+    "target": "university_of_reykjavik",
+    "sources": [
+      {
+        "source_id": "icca_journal_1996_03",
+        "page": 2,
+        "quote": "he held no fewer than five Honorary degrees in some of the most reputable Universities of Europe, ranging from Gottingen to Reykjavik."
+      }
+    ],
+    "_rejected_because": "'awarded' expects target entity_type artifact, but 'university_of_reykjavik' is 'organization'"
+  }
+]

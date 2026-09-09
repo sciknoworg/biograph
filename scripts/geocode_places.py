@@ -50,6 +50,7 @@ Usage:
 import argparse
 import json
 import os
+import re
 import sys
 import time
 import unicodedata
@@ -165,6 +166,28 @@ def _country_forms(name):
     """Every folded spelling of a country name worth comparing against a P17 label."""
     folded = _fold(name)
     return {folded, COUNTRY_ALIASES.get(folded, folded)}
+
+
+def split_qualified(name):
+    """('Espoo, Finland') -> ('Espoo', {'finland'}).
+
+    Extractions often name a place the way the document does, with the containing region
+    attached: "Kobe, Japan", "Hoyerswerda, Silesia", "Berlin (Wilmersdorf)",
+    "Leningrad (present-day St. Petersburg)". Wikidata's item is under the bare name, so an
+    exact match on the whole string finds nothing -- 17 of the 46 places this pass could not
+    pin had exactly this shape. The tail is not noise, though: it is the document telling us
+    which Espoo it means, so it comes back as extra context for the ranking rules rather than
+    being thrown away."""
+    head = re.split(r"\s*[(,]", name, maxsplit=1)[0].strip()
+    if not head or _fold(head) == _fold(name):
+        return name, set()
+    tail = name[len(head):]
+    quals = set()
+    for part in re.split(r"[(),]", tail):
+        part = re.sub(r"\b(present-day|now|modern|today)\b", " ", part, flags=re.I).strip()
+        if part:
+            quals |= _country_forms(part)
+    return head, quals
 
 
 def _claim_qids(entity, prop):
@@ -412,19 +435,31 @@ def main():
                     continue
                 name = e.get("name") or ""
                 country = attrs.get("country")
-                key = _fold(name)
-                if key not in places:
-                    if args.limit and looked_up >= args.limit:
-                        continue
-                    try:
-                        places[key] = lookup_candidates(name, labels_cache)
-                    except Exception as err:        # network trouble: leave it for next time
-                        print("  %s: %s -- lookup failed: %s" % (slug, name, err))
-                        continue
-                    looked_up += 1
-                    save_cache(cache)
-                pick, basis = pick_candidate(name, places.get(key) or [], country,
-                                             context - {_fold(name)})
+
+                # Two bites: the name as written, then -- if that finds nothing -- the same name
+                # with its qualifier stripped ("Espoo, Finland" -> "Espoo"), the qualifier
+                # folded into the context so it still decides which Espoo.
+                head, quals = split_qualified(name)
+                pick, basis = None, ""
+                for attempt, (lookup_name, extra) in enumerate(
+                        [(name, set())] + ([(head, quals)] if head != name else [])):
+                    key = _fold(lookup_name)
+                    if key not in places:
+                        if args.limit and looked_up >= args.limit:
+                            break
+                        try:
+                            places[key] = lookup_candidates(lookup_name, labels_cache)
+                        except Exception as err:    # network trouble: leave it for next time
+                            print("  %s: %s -- lookup failed: %s" % (slug, name, err))
+                            break
+                        looked_up += 1
+                        save_cache(cache)
+                    pick, basis = pick_candidate(lookup_name, places.get(key) or [], country,
+                                                 (context | extra) - {_fold(lookup_name)})
+                    if pick:
+                        if attempt:
+                            print("  %s: %s -- matched as %r" % (slug, name, head))
+                        break
                 if not pick:
                     print("  %s: %s -- %s" % (slug, name, basis))
                     skipped += 1

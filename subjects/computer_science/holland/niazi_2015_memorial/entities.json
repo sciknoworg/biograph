@@ -1,0 +1,86 @@
+[
+  {
+    "aliases": [
+      "Holland",
+      "Holland JH",
+      "Prof. Holland",
+      "Prof. John Henry Holland"
+    ],
+    "attributes": {
+      "birth_date": "1929-02-02",
+      "death_date": "2015-08-09"
+    },
+    "entity_type": "person",
+    "id": "john_henry_holland",
+    "name": "John Henry Holland",
+    "subtype": "researcher",
+    "summary": "Pioneer of complex adaptive systems research and creator of genetic algorithms."
+  },
+  {
+    "aliases": [
+      "Massachusetts Institute of Technology"
+    ],
+    "entity_type": "organization",
+    "id": "mit",
+    "name": "MIT",
+    "subtype": "university",
+    "summary": "Technical university in Cambridge, Massachusetts."
+  },
+  {
+    "aliases": [
+      "Michigan",
+      "the University of Michigan"
+    ],
+    "entity_type": "organization",
+    "id": "university_of_michigan",
+    "name": "University of Michigan",
+    "subtype": "university",
+    "summary": "Public research university in Ann Arbor, Michigan."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "genetic_algorithms",
+    "name": "genetic algorithms",
+    "subtype": "invention",
+    "summary": "Search and optimization technique inspired by natural selection."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "learning_classifier_systems",
+    "name": "Learning Classifier Systems",
+    "subtype": "invention",
+    "summary": "Rule-based machine learning system combining evolutionary algorithms with reinforcement learning."
+  },
+  {
+    "aliases": [
+      "CAS",
+      "cas"
+    ],
+    "entity_type": "artifact",
+    "id": "complex_adaptive_systems",
+    "name": "Complex Adaptive Systems",
+    "subtype": "publication",
+    "summary": "Research field studying systems that adapt and evolve through interacting components."
+  },
+  {
+    "aliases": [
+      "Niazi",
+      "Niazi M.A."
+    ],
+    "entity_type": "person",
+    "id": "muaz_a_niazi",
+    "name": "Muaz A. Niazi",
+    "subtype": "researcher",
+    "summary": "Author of this memorial editorial, affiliated with COMSATS Institute of IT, Islamabad."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "comsats_institute_of_it",
+    "name": "COMSATS Institute of IT",
+    "subtype": "university",
+    "summary": "Information technology institute in Islamabad, Pakistan."
+  }
+]

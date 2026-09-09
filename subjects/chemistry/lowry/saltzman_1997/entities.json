@@ -153,7 +153,13 @@
     "id": "bradford_england",
     "name": "Bradford, England",
     "subtype": "city",
-    "summary": "Town in England where Lowry was born."
+    "summary": "Town in England where Lowry was born.",
+    "attributes": {
+      "lat": 53.792,
+      "lng": -1.754,
+      "wikidata_qid": "Q2834810",
+      "geocode_basis": "document"
+    }
   },
   {
     "aliases": [

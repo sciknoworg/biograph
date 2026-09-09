@@ -1,0 +1,202 @@
+[
+  {
+    "aliases": [
+      "Cray",
+      "Seymour Cray"
+    ],
+    "entity_type": "person",
+    "id": "seymour_cray",
+    "name": "Seymour R. Cray",
+    "subtype": "researcher",
+    "summary": "American electrical engineer and supercomputer designer known as the father of the supercomputer."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "john_markoff",
+    "name": "John Markoff",
+    "subtype": "journalist",
+    "summary": "New York Times journalist who wrote Cray's obituary."
+  },
+  {
+    "aliases": [
+      "Rollwagen"
+    ],
+    "entity_type": "person",
+    "id": "john_rollwagen",
+    "name": "John Rollwagen",
+    "subtype": "executive",
+    "summary": "Business executive who worked with Cray at Cray Research Inc."
+  },
+  {
+    "aliases": [
+      "Norris"
+    ],
+    "entity_type": "person",
+    "id": "william_norris",
+    "name": "William C. Norris",
+    "subtype": "executive",
+    "summary": "Founder of Engineering Research Associates and Control Data."
+  },
+  {
+    "aliases": [
+      "Chen"
+    ],
+    "entity_type": "person",
+    "id": "steve_chen",
+    "name": "Steve S. Chen",
+    "subtype": "researcher",
+    "summary": "Computer designer who worked at Cray Research."
+  },
+  {
+    "aliases": [
+      "Geri"
+    ],
+    "entity_type": "person",
+    "id": "geri_harrand",
+    "name": "Geri M. Harrand",
+    "subtype": "family",
+    "summary": "Cray's second wife."
+  },
+  {
+    "aliases": [
+      "Control Data",
+      "CDC"
+    ],
+    "entity_type": "organization",
+    "id": "control_data",
+    "name": "Control Data Corp.",
+    "subtype": "company",
+    "summary": "Computer manufacturer where Cray designed the CDC 6600."
+  },
+  {
+    "aliases": [
+      "Cray Research"
+    ],
+    "entity_type": "organization",
+    "id": "cray_research",
+    "name": "Cray Research Inc.",
+    "subtype": "company",
+    "summary": "Supercomputer company founded by Cray in 1972."
+  },
+  {
+    "aliases": [
+      "Cray Computer"
+    ],
+    "entity_type": "organization",
+    "id": "cray_computer_corp",
+    "name": "Cray Computer Corp.",
+    "subtype": "company",
+    "summary": "Company founded by Cray in 1989 that filed for bankruptcy in 1995."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "src_computers",
+    "name": "SRC Computers",
+    "subtype": "company",
+    "summary": "Company formed by Cray in August 1995."
+  },
+  {
+    "aliases": [
+      "ERA"
+    ],
+    "entity_type": "organization",
+    "id": "engineering_research_associates",
+    "name": "Engineering Research Associates",
+    "subtype": "company",
+    "summary": "Minneapolis company doing contract work for the Navy in cryptography."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "university_of_minnesota",
+    "name": "University of Minnesota",
+    "subtype": "university",
+    "summary": "University where Cray received bachelor's and master's degrees."
+  },
+  {
+    "aliases": [
+      "Los Alamos"
+    ],
+    "entity_type": "organization",
+    "id": "los_alamos_national_laboratory",
+    "name": "Los Alamos National Laboratory",
+    "subtype": "lab",
+    "summary": "National laboratory that purchased the first Cray 1 computer."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "ibm",
+    "name": "IBM",
+    "subtype": "company",
+    "summary": "Computer company whose 7094 was outperformed by the CDC 6600."
+  },
+  {
+    "aliases": [
+      "Chippewa Falls, Wis."
+    ],
+    "entity_type": "place",
+    "id": "chippewa_falls",
+    "name": "Chippewa Falls",
+    "subtype": "city",
+    "summary": "Wisconsin town where Cray was born and relocated his laboratory.",
+    "attributes": {
+      "lat": 44.93333,
+      "lng": -91.4,
+      "wikidata_qid": "Q940349",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "colorado_springs",
+    "name": "Colorado Springs",
+    "subtype": "city",
+    "summary": "Colorado city where Cray died and based Cray Computer Corp.",
+    "attributes": {
+      "lat": 38.86333,
+      "lng": -104.79194,
+      "wikidata_qid": "Q49258",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "aliases": [
+      "Control Data 6600"
+    ],
+    "entity_type": "artifact",
+    "id": "cdc_6600",
+    "name": "CDC 6600",
+    "subtype": "product",
+    "summary": "Supercomputer introduced in 1963, the first to be cooled with Freon."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "cray_1",
+    "name": "Cray 1",
+    "subtype": "product",
+    "summary": "Supercomputer sold to Los Alamos in 1976, folded in on itself like a giant C."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "cray_2",
+    "name": "Cray 2",
+    "subtype": "product",
+    "summary": "Supercomputer finished in 1985 using Flourinert cooling."
+  },
+  {
+    "aliases": [
+      "Control Data 1604"
+    ],
+    "entity_type": "artifact",
+    "id": "cdc_1604",
+    "name": "CDC 1604",
+    "subtype": "product",
+    "summary": "First commercial computer to replace vacuum tubes with individual transistors."
+  }
+]

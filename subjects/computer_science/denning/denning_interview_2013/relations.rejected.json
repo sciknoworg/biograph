@@ -1,0 +1,17 @@
+[
+  {
+    "id": "denning_collaborated_csnet",
+    "source": "peter_denning",
+    "type": "collaborated_with",
+    "target": "csnet",
+    "note": "Co-founded CSNET",
+    "sources": [
+      {
+        "source_id": "nps_denning_bio",
+        "page": 1,
+        "quote": "He co-founded CSNET, the computer science network of NSF"
+      }
+    ],
+    "_rejected_because": "'collaborated_with' expects target entity_type person/organization, but 'csnet' is 'artifact'"
+  }
+]

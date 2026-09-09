@@ -1,0 +1,233 @@
+[
+  {
+    "id": "church_born_washington",
+    "source": "alonzo_church",
+    "type": "born_in",
+    "target": "washington_dc",
+    "event_id": "church_birth",
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 1,
+        "quote": "AlonzoChurchwasbornJune14,1903,inWashington,D.C."
+      }
+    ]
+  },
+  {
+    "id": "church_studied_princeton",
+    "source": "alonzo_church",
+    "type": "studied_at",
+    "target": "princeton_university",
+    "event_id": "church_ab_princeton",
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 1,
+        "quote": "In1924hereceivedhisA.B.degreefromPrinceton."
+      }
+    ]
+  },
+  {
+    "id": "church_worked_princeton",
+    "source": "alonzo_church",
+    "type": "worked_at",
+    "target": "princeton_university",
+    "start": {
+      "display": "1929",
+      "precision": "year",
+      "sort_start": "1929-01-01",
+      "sort_end": "1929-12-31"
+    },
+    "end": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "event_id": "church_asst_prof_princeton",
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 1,
+        "quote": "In1929 hereturnedtoPrincetonasanAssistantProfessorofMathematics."
+      }
+    ]
+  },
+  {
+    "id": "church_worked_ucla",
+    "source": "alonzo_church",
+    "type": "worked_at",
+    "target": "ucla",
+    "start": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "end": {
+      "display": "1990",
+      "precision": "year",
+      "sort_start": "1990-01-01",
+      "sort_end": "1990-12-31"
+    },
+    "event_id": "church_move_ucla",
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 2,
+        "quote": "Churchthenmovedto UCLA,wherehewasKentProfessorofPhilosophyandProfessorofMath- ematics."
+      }
+    ]
+  },
+  {
+    "id": "church_married_mary",
+    "source": "alonzo_church",
+    "type": "married_to",
+    "target": "mary_kuczinski",
+    "note": "Wife of fifty years",
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 2,
+        "quote": "Hiswifeofﬁftyyears,theformerMaryKuczinski,diedin1976."
+      }
+    ]
+  },
+  {
+    "id": "church_father_alonzo_jr",
+    "source": "alonzo_church",
+    "type": "family_of",
+    "target": "alonzo_church_jr",
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 2,
+        "quote": "wherehis son,AlonzoChurch,Jr.,resides."
+      }
+    ]
+  },
+  {
+    "id": "church_father_mary_ann",
+    "source": "alonzo_church",
+    "type": "family_of",
+    "target": "mary_ann_addison",
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 3,
+        "quote": "Inadditiontohisson,heissurvivedbytwodaughters,Mary AnnAddisonandMildredDandridge"
+      }
+    ]
+  },
+  {
+    "id": "church_father_mildred",
+    "source": "alonzo_church",
+    "type": "family_of",
+    "target": "mildred_dandridge",
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 3,
+        "quote": "Inadditiontohisson,heissurvivedbytwodaughters,Mary AnnAddisonandMildredDandridge"
+      }
+    ]
+  },
+  {
+    "id": "church_supervised_turing",
+    "source": "alonzo_church",
+    "type": "supervised_by",
+    "target": "alan_turing",
+    "note": "Turing stayed to complete his Ph.D. under Church",
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 1,
+        "quote": "AlanTuring,whohadbeenthinkingaboutthenotionofeﬀective calculability,cameasavisitinggraduatestudentin1936andstayedtocom- pletehisPh.D.underChurch."
+      }
+    ]
+  },
+  {
+    "id": "church_supervised_kleene",
+    "source": "alonzo_church",
+    "type": "supervised_by",
+    "target": "stephen_kleene",
+    "note": "Doctoral student 1934",
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 3,
+        "quote": "1934 StephenC.Kleene"
+      }
+    ]
+  },
+  {
+    "id": "church_supervised_rosser",
+    "source": "alonzo_church",
+    "type": "supervised_by",
+    "target": "j_barkley_rosser",
+    "note": "Doctoral student 1934",
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 3,
+        "quote": "1934 J.BarkleyRosser"
+      }
+    ]
+  },
+  {
+    "id": "church_founded_asl",
+    "source": "alonzo_church",
+    "type": "founded",
+    "target": "association_for_symbolic_logic",
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 2,
+        "quote": "ChurchwasoneoftheprincipalfoundersoftheAssociationforSymbolic Logic."
+      }
+    ]
+  },
+  {
+    "id": "church_edited_jsl",
+    "source": "alonzo_church",
+    "type": "member_of",
+    "target": "journal_of_symbolic_logic",
+    "note": "Served as editor for reviews and contributed papers",
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 2,
+        "quote": "HeguidedThe journal of symbolic logic fromitsbeginningin1936, servingaseditorforreviewsforitsﬁrstforty-fourvolumes"
+      }
+    ]
+  },
+  {
+    "id": "church_died_hudson",
+    "source": "alonzo_church",
+    "type": "died_in",
+    "target": "hudson_ohio",
+    "event_id": "church_death",
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 3,
+        "quote": "ChurchdiedinHudsononAugust11,1995."
+      }
+    ]
+  },
+  {
+    "id": "church_buried_princeton_cemetery",
+    "source": "alonzo_church",
+    "type": "lived_in",
+    "target": "princeton_cemetery",
+    "note": "Burial place",
+    "event_id": "church_burial",
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 3,
+        "quote": "hewasburiedinthePrinceton Cemetery."
+      }
+    ]
+  }
+]

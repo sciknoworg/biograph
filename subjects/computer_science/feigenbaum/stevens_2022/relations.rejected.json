@@ -1,0 +1,16 @@
+[
+  {
+    "id": "intellicorp_worked_sap",
+    "source": "intellicorp",
+    "type": "worked_at",
+    "target": "sap",
+    "sources": [
+      {
+        "source_id": "stevens_2022",
+        "page": 21,
+        "quote": "In the 1990s, IntelliCorp was hired by the German firm SAP"
+      }
+    ],
+    "_rejected_because": "'worked_at' expects source entity_type person, but 'intellicorp' is 'organization'"
+  }
+]

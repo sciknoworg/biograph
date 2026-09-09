@@ -1,0 +1,595 @@
+[
+  {
+    "id": "church_birth",
+    "event_type": "birth",
+    "label": "Born in Washington, D.C.",
+    "date": {
+      "display": "June 14, 1903",
+      "precision": "day",
+      "sort_start": "1903-06-14",
+      "sort_end": "1903-06-14"
+    },
+    "participants": [
+      {
+        "entity_id": "alonzo_church",
+        "role": "subject"
+      }
+    ],
+    "location": "washington_dc",
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 1,
+        "quote": "AlonzoChurchwasbornJune14,1903,inWashington,D.C."
+      }
+    ]
+  },
+  {
+    "id": "church_ab_princeton",
+    "event_type": "education",
+    "label": "Received A.B. degree from Princeton",
+    "date": {
+      "display": "1924",
+      "precision": "year",
+      "sort_start": "1924-01-01",
+      "sort_end": "1924-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alonzo_church",
+        "role": "subject"
+      },
+      {
+        "entity_id": "princeton_university",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 1,
+        "quote": "In1924hereceivedhisA.B.degreefromPrinceton."
+      }
+    ]
+  },
+  {
+    "id": "church_first_paper",
+    "event_type": "publication",
+    "label": "First published paper appeared",
+    "description": "Uniqueness of the Lorentz transformation in the American mathematical monthly.",
+    "date": {
+      "display": "1924",
+      "precision": "year",
+      "sort_start": "1924-01-01",
+      "sort_end": "1924-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alonzo_church",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 1,
+        "quote": "AlonzoChurch'sﬁrstpublishedpaper, Uniqueness of the Lorentz transfor- mation,appearedinthe American mathematical monthlyin1924."
+      }
+    ]
+  },
+  {
+    "id": "church_phd_princeton",
+    "event_type": "education",
+    "label": "Received Ph.D. from Princeton",
+    "description": "Dissertation title was Alternatives to Zermelo's assumption.",
+    "date": {
+      "display": "1927",
+      "precision": "year",
+      "sort_start": "1927-01-01",
+      "sort_end": "1927-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alonzo_church",
+        "role": "subject"
+      },
+      {
+        "entity_id": "princeton_university",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 1,
+        "quote": "In1927hereceivedhisPh.D.there;thetitleofhisdissertationwas Alternatives to Zermelo's assumption."
+      }
+    ]
+  },
+  {
+    "id": "church_nrf_fellowship",
+    "event_type": "employment_start",
+    "label": "National Research Fellow",
+    "description": "Spent time at Harvard, Göttingen, and Amsterdam.",
+    "date": {
+      "display": "1927–29",
+      "precision": "range",
+      "sort_start": "1927-01-01",
+      "sort_end": "1929-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alonzo_church",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 1,
+        "quote": "Afterreceivinghisdoctorate,ChurchwasaNationalResearchFellowin 1927–29,spendingtimeatHarvard,G ¨ottingen,andAmsterdam."
+      }
+    ]
+  },
+  {
+    "id": "church_asst_prof_princeton",
+    "event_type": "employment_start",
+    "label": "Returned to Princeton as Assistant Professor",
+    "date": {
+      "display": "1929",
+      "precision": "year",
+      "sort_start": "1929-01-01",
+      "sort_end": "1929-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alonzo_church",
+        "role": "subject"
+      },
+      {
+        "entity_id": "princeton_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 1,
+        "quote": "In1929 hereturnedtoPrincetonasanAssistantProfessorofMathematics."
+      }
+    ]
+  },
+  {
+    "id": "church_assoc_prof_princeton",
+    "event_type": "role_change",
+    "label": "Promoted to Associate Professor",
+    "date": {
+      "display": "1939",
+      "precision": "year",
+      "sort_start": "1939-01-01",
+      "sort_end": "1939-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alonzo_church",
+        "role": "subject"
+      },
+      {
+        "entity_id": "princeton_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 1,
+        "quote": "Hewas promotedtoAssociateProfessorin1939"
+      }
+    ]
+  },
+  {
+    "id": "church_prof_princeton",
+    "event_type": "role_change",
+    "label": "Promoted to Professor",
+    "date": {
+      "display": "1947",
+      "precision": "year",
+      "sort_start": "1947-01-01",
+      "sort_end": "1947-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alonzo_church",
+        "role": "subject"
+      },
+      {
+        "entity_id": "princeton_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 1,
+        "quote": "andtoProfessorin1947"
+      }
+    ]
+  },
+  {
+    "id": "church_prof_math_phil_princeton",
+    "event_type": "role_change",
+    "label": "Professor of Mathematics and Philosophy",
+    "date": {
+      "display": "1961",
+      "precision": "year",
+      "sort_start": "1961-01-01",
+      "sort_end": "1961-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alonzo_church",
+        "role": "subject"
+      },
+      {
+        "entity_id": "princeton_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 1,
+        "quote": "from 1961untilleavingPrincetonin1967hewasProfessorofMathematicsand Philosophy."
+      }
+    ]
+  },
+  {
+    "id": "church_thesis_papers",
+    "event_type": "publication",
+    "label": "Published pair of papers on logic",
+    "description": "Formulated Church's Thesis and Church's theorem.",
+    "date": {
+      "display": "1936",
+      "precision": "year",
+      "sort_start": "1936-01-01",
+      "sort_end": "1936-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alonzo_church",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 1,
+        "quote": "In1936apairofpapersbyChurchchangedthecourseoflogic."
+      }
+    ]
+  },
+  {
+    "id": "church_lambda_monograph",
+    "event_type": "publication",
+    "label": "Published The Calculi of Lambda-Conversion",
+    "date": {
+      "display": "1941",
+      "precision": "year",
+      "sort_start": "1941-01-01",
+      "sort_end": "1941-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alonzo_church",
+        "role": "author"
+      },
+      {
+        "entity_id": "calculus_of_lambda_conversion",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 2,
+        "quote": "Hismonograph The calculi of lambda-conversionwaspublishedin1941by PrincetonUniversityPress."
+      }
+    ]
+  },
+  {
+    "id": "church_intro_math_logic",
+    "event_type": "publication",
+    "label": "Published Introduction to Mathematical Logic",
+    "date": {
+      "display": "1956",
+      "precision": "year",
+      "sort_start": "1956-01-01",
+      "sort_end": "1956-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alonzo_church",
+        "role": "author"
+      },
+      {
+        "entity_id": "introduction_to_mathematical_logic",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 2,
+        "quote": "In1956PrincetonUniversityPresspublishedChurch'textbook, Intro- duction to mathematical logic,VolumeI."
+      }
+    ]
+  },
+  {
+    "id": "church_jsl_editor_start",
+    "event_type": "employment_start",
+    "label": "Began guiding The Journal of Symbolic Logic",
+    "date": {
+      "display": "1936",
+      "precision": "year",
+      "sort_start": "1936-01-01",
+      "sort_end": "1936-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alonzo_church",
+        "role": "subject"
+      },
+      {
+        "entity_id": "journal_of_symbolic_logic",
+        "role": "artifact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 2,
+        "quote": "HeguidedThe journal of symbolic logic fromitsbeginningin1936"
+      }
+    ]
+  },
+  {
+    "id": "church_retire_princeton",
+    "event_type": "employment_end",
+    "label": "Retired from Princeton",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alonzo_church",
+        "role": "subject"
+      },
+      {
+        "entity_id": "princeton_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 2,
+        "quote": "In1967ChurchdecidedtoretirefromPrinceton."
+      }
+    ]
+  },
+  {
+    "id": "church_move_ucla",
+    "event_type": "relocation",
+    "label": "Moved to UCLA",
+    "description": "Became Kent Professor of Philosophy and Professor of Mathematics.",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alonzo_church",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ucla",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 2,
+        "quote": "Churchthenmovedto UCLA,wherehewasKentProfessorofPhilosophyandProfessorofMath- ematics."
+      }
+    ]
+  },
+  {
+    "id": "church_wife_death",
+    "event_type": "death",
+    "label": "Wife Mary died",
+    "date": {
+      "display": "1976",
+      "precision": "year",
+      "sort_start": "1976-01-01",
+      "sort_end": "1976-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_kuczinski",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 2,
+        "quote": "Hiswifeofﬁftyyears,theformerMaryKuczinski,diedin1976."
+      }
+    ]
+  },
+  {
+    "id": "church_retire_reviews",
+    "event_type": "employment_end",
+    "label": "Retired from editing reviews section",
+    "date": {
+      "display": "1979",
+      "precision": "year",
+      "sort_start": "1979-01-01",
+      "sort_end": "1979-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alonzo_church",
+        "role": "subject"
+      },
+      {
+        "entity_id": "journal_of_symbolic_logic",
+        "role": "artifact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 2,
+        "quote": "Church retiredfromeditingthereviewssectionin1979."
+      }
+    ]
+  },
+  {
+    "id": "church_nas_election",
+    "event_type": "award",
+    "label": "Elected to National Academy of Sciences",
+    "date": {
+      "display": "1978",
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alonzo_church",
+        "role": "subject"
+      },
+      {
+        "entity_id": "national_academy_of_sciences",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 3,
+        "quote": "ChurhwaselectedtotheNationalAcademyofSciencesin1978."
+      }
+    ]
+  },
+  {
+    "id": "church_retire_teaching",
+    "event_type": "retirement",
+    "label": "Retired from teaching at UCLA",
+    "date": {
+      "display": "1990",
+      "precision": "year",
+      "sort_start": "1990-01-01",
+      "sort_end": "1990-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alonzo_church",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ucla",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 2,
+        "quote": "In1990,Churchretired fromteachingatUCLA."
+      }
+    ]
+  },
+  {
+    "id": "church_move_hudson",
+    "event_type": "relocation",
+    "label": "Moved to Hudson, Ohio",
+    "date": {
+      "display": "1992",
+      "precision": "year",
+      "sort_start": "1992-01-01",
+      "sort_end": "1992-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alonzo_church",
+        "role": "subject"
+      }
+    ],
+    "location": "hudson_ohio",
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 2,
+        "quote": "In1992ChurchmovedfromLosAngelestoHudson,Ohio,wherehis son,AlonzoChurch,Jr.,resides."
+      }
+    ]
+  },
+  {
+    "id": "church_death",
+    "event_type": "death",
+    "label": "Died in Hudson",
+    "date": {
+      "display": "August 11, 1995",
+      "precision": "day",
+      "sort_start": "1995-08-11",
+      "sort_end": "1995-08-11"
+    },
+    "participants": [
+      {
+        "entity_id": "alonzo_church",
+        "role": "subject"
+      }
+    ],
+    "location": "hudson_ohio",
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 3,
+        "quote": "ChurchdiedinHudsononAugust11,1995."
+      }
+    ]
+  },
+  {
+    "id": "church_burial",
+    "event_type": "other",
+    "label": "Buried in Princeton Cemetery",
+    "date": {
+      "display": "1995",
+      "precision": "year",
+      "sort_start": "1995-01-01",
+      "sort_end": "1995-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alonzo_church",
+        "role": "subject"
+      }
+    ],
+    "location": "princeton_cemetery",
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 3,
+        "quote": "Followingservicesatthethe UniversityChapelatPrincetonUnive rsity,hewasburiedinthePrinceton Cemetery."
+      }
+    ]
+  }
+]

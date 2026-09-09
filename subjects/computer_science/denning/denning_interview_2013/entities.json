@@ -1,0 +1,235 @@
+[
+  {
+    "id": "dorothy_denning",
+    "entity_type": "person",
+    "name": "Dorothy E. Denning",
+    "aliases": [
+      "Dorothy Denning",
+      "Professor Dorothy Denning"
+    ],
+    "summary": "Computer security pioneer known for the Lattice Model and work on database security and intrusion detection.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "jeffrey_yost",
+    "entity_type": "person",
+    "name": "Jeffrey R. Yost",
+    "aliases": [
+      "Jeffrey Yost",
+      "Yost"
+    ],
+    "summary": "Historian from the University of Minnesota who conducted this oral history interview.",
+    "subtype": "historian"
+  },
+  {
+    "id": "university_of_michigan",
+    "entity_type": "organization",
+    "name": "University of Michigan",
+    "aliases": [
+      "U of M",
+      "Michigan"
+    ],
+    "summary": "Public research university in Ann Arbor, Michigan, where Denning earned her BA and MA.",
+    "subtype": "university"
+  },
+  {
+    "id": "fred_haddock",
+    "entity_type": "person",
+    "name": "Fred Haddock",
+    "aliases": [],
+    "summary": "Director of Radio Astronomy at the University of Michigan who hired Denning.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "bernie_galler",
+    "entity_type": "person",
+    "name": "Bernie Galler",
+    "aliases": [
+      "Bernie",
+      "Galler"
+    ],
+    "summary": "Computer science professor at the University of Michigan who taught Denning.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "university_of_rochester",
+    "entity_type": "organization",
+    "name": "University of Rochester",
+    "aliases": [
+      "Rochester"
+    ],
+    "summary": "Private research university where Denning worked as a systems programmer for three years.",
+    "subtype": "university"
+  },
+  {
+    "id": "peter_denning",
+    "entity_type": "person",
+    "name": "Peter Denning",
+    "aliases": [
+      "Peter"
+    ],
+    "summary": "Computer scientist and Dorothy Denning's husband, collaborated on security research.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "purdue_university",
+    "entity_type": "organization",
+    "name": "Purdue University",
+    "aliases": [
+      "Purdue"
+    ],
+    "summary": "Public research university where Denning earned her PhD and served as faculty.",
+    "subtype": "university"
+  },
+  {
+    "id": "sam_conte",
+    "entity_type": "person",
+    "name": "Sam Conte",
+    "aliases": [
+      "Conte"
+    ],
+    "summary": "Department chair at Purdue University who offered Denning a position.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "herb_schwetman",
+    "entity_type": "person",
+    "name": "Herb Schwetman",
+    "aliases": [
+      "Schwetman"
+    ],
+    "summary": "Professor at Purdue who served as Denning's PhD advisor.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "sri_international",
+    "entity_type": "organization",
+    "name": "SRI International",
+    "aliases": [
+      "SRI"
+    ],
+    "summary": "Research institute where Denning worked on intrusion detection and database security.",
+    "subtype": "lab"
+  },
+  {
+    "id": "peter_neumann",
+    "entity_type": "person",
+    "name": "Peter Neumann",
+    "aliases": [
+      "Neumann"
+    ],
+    "summary": "Computer scientist at SRI who collaborated with Denning on security projects.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "karl_levitt",
+    "entity_type": "person",
+    "name": "Karl Levitt",
+    "aliases": [
+      "Levitt"
+    ],
+    "summary": "Researcher at SRI who initiated the IDES intrusion detection project.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "digital_equipment_corporation",
+    "entity_type": "organization",
+    "name": "Digital Equipment Corporation",
+    "aliases": [
+      "DEC",
+      "Digital"
+    ],
+    "summary": "Technology company where Denning worked as a principal software engineer.",
+    "subtype": "company"
+  },
+  {
+    "id": "georgetown_university",
+    "entity_type": "organization",
+    "name": "Georgetown University",
+    "aliases": [
+      "Georgetown"
+    ],
+    "summary": "University where Denning returned to academia as department chair.",
+    "subtype": "university"
+  },
+  {
+    "id": "naval_postgraduate_school",
+    "entity_type": "organization",
+    "name": "Naval Postgraduate School",
+    "aliases": [
+      "NPS"
+    ],
+    "summary": "Graduate school of the United States Navy where Denning was a professor in 2013.",
+    "subtype": "university"
+  },
+  {
+    "id": "charles_babbage_institute",
+    "entity_type": "organization",
+    "name": "Charles Babbage Institute",
+    "aliases": [
+      "CBI"
+    ],
+    "summary": "Research center at the University of Minnesota that conducted this oral history.",
+    "subtype": "archive"
+  },
+  {
+    "id": "lattice_model",
+    "entity_type": "artifact",
+    "name": "Lattice Model for Computer Security",
+    "aliases": [
+      "Lattice Model"
+    ],
+    "summary": "Security model based on lattice theory developed by Denning for information flow control.",
+    "subtype": "model"
+  },
+  {
+    "id": "ides",
+    "entity_type": "artifact",
+    "name": "IDES",
+    "aliases": [
+      "Intrusion Detection Expert System"
+    ],
+    "summary": "Intrusion detection project developed at SRI with funding from the Navy.",
+    "subtype": "project"
+  },
+  {
+    "id": "clipper_chip",
+    "entity_type": "artifact",
+    "name": "Clipper Chip",
+    "aliases": [],
+    "summary": "Encryption chip developed by NSA that Denning testified about before Congress.",
+    "subtype": "product"
+  },
+  {
+    "id": "grand_rapids_michigan",
+    "entity_type": "place",
+    "name": "Grand Rapids, Michigan",
+    "aliases": [
+      "Grand Rapids"
+    ],
+    "summary": "City in Michigan where Dorothy Denning was born and grew up.",
+    "subtype": "city",
+    "attributes": {
+      "lat": 42.96333,
+      "lng": -85.66778,
+      "wikidata_qid": "Q184587",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "monterey_ca",
+    "entity_type": "place",
+    "name": "Monterey, California",
+    "aliases": [
+      "Monterey"
+    ],
+    "summary": "City in California where the Naval Postgraduate School is located.",
+    "subtype": "city",
+    "attributes": {
+      "lat": 36.60024,
+      "lng": -121.89468,
+      "wikidata_qid": "Q487315",
+      "geocode_basis": "most_linked"
+    }
+  }
+]

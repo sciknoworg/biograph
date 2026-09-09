@@ -1,0 +1,69 @@
+[
+  {
+    "id": "thompson_employed_by_bell_labs",
+    "source": "ken_thompson",
+    "type": "employed_by",
+    "target": "bell_laboratories",
+    "sources": [
+      {
+        "source_id": "prenger_2025_thesis",
+        "page": 4,
+        "quote": "developed by Ken Thompson at Bell Labs in 1969"
+      }
+    ]
+  },
+  {
+    "id": "thompson_invented_ed_1",
+    "source": "ken_thompson",
+    "type": "invented",
+    "target": "ed_1",
+    "event_id": "thompson_develops_ed_1",
+    "sources": [
+      {
+        "source_id": "prenger_2025_thesis",
+        "page": 4,
+        "quote": "ed(1), the Unix line editor developed by Ken Thompson"
+      }
+    ]
+  },
+  {
+    "id": "thompson_developed_unix",
+    "source": "ken_thompson",
+    "type": "developed",
+    "target": "unix",
+    "event_id": "three_week_sprint",
+    "sources": [
+      {
+        "source_id": "prenger_2025_thesis",
+        "page": 30,
+        "quote": "I was three weeks from an operating system"
+      }
+    ]
+  },
+  {
+    "id": "thompson_collaborated_with_ritchie",
+    "source": "ken_thompson",
+    "type": "collaborated_with",
+    "target": "dennis_ritchie",
+    "sources": [
+      {
+        "source_id": "prenger_2025_thesis",
+        "page": 77,
+        "quote": "Thompson, Ken, and Dennis M. Ritchie. Unix Programmer's Manual"
+      }
+    ]
+  },
+  {
+    "id": "bell_labs_part_of_at_t",
+    "source": "bell_laboratories",
+    "type": "member_of",
+    "target": "at_t",
+    "sources": [
+      {
+        "source_id": "prenger_2025_thesis",
+        "page": 12,
+        "quote": "Bell Labs, a research facility for the American Telegraph and Telephone Company (AT&T)"
+      }
+    ]
+  }
+]

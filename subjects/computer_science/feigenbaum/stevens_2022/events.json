@@ -1,0 +1,346 @@
+[
+  {
+    "id": "feigenbaum_recruited_stanford",
+    "event_type": "employment_start",
+    "label": "Recruited to Stanford University",
+    "date": {
+      "display": "1965",
+      "precision": "year",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "edward_feigenbaum",
+        "role": "subject"
+      },
+      {
+        "entity_id": "stanford_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "stevens_2022",
+        "page": 5,
+        "quote": "Feigenbaum's was recruited to Stanford in 1965."
+      }
+    ]
+  },
+  {
+    "id": "dendral_project_start",
+    "event_type": "invention",
+    "label": "DENDRAL project initiated",
+    "date": {
+      "display": "mid-1960s",
+      "precision": "decade",
+      "sort_start": "1960-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "edward_feigenbaum",
+        "role": "subject"
+      },
+      {
+        "entity_id": "joshua_lederberg",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "dendral",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "stevens_2022",
+        "page": 4,
+        "quote": "In the midst of the 1960s space race, Lederberg obtained funds from NASA to study exobiology"
+      }
+    ]
+  },
+  {
+    "id": "acme_funding",
+    "event_type": "other",
+    "label": "ACME computer funding received",
+    "date": {
+      "display": "1966",
+      "precision": "year",
+      "sort_start": "1966-01-01",
+      "sort_end": "1966-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joshua_lederberg",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nih",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "stevens_2022",
+        "page": 6,
+        "quote": "In 1966, he applied for and received funds from the National Institutes of Health to fund a dedicated computer for the Stanford Medical Center"
+      }
+    ]
+  },
+  {
+    "id": "intelligenetics_founded",
+    "event_type": "company_founded",
+    "label": "IntelliGenetics Inc. founded",
+    "date": {
+      "display": "September 1980",
+      "precision": "month",
+      "sort_start": "1980-09-01",
+      "sort_end": "1980-09-30"
+    },
+    "participants": [
+      {
+        "entity_id": "edward_feigenbaum",
+        "role": "subject"
+      },
+      {
+        "entity_id": "intelligenetics",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "stevens_2022",
+        "page": 10,
+        "quote": "In September 1980, Brutlag, Feigenbaum, Kedes, and Friedland incorporated IntelliGenetics."
+      }
+    ]
+  },
+  {
+    "id": "teknowledge_founded",
+    "event_type": "company_founded",
+    "label": "Teknowledge spun out",
+    "date": {
+      "display": "1981",
+      "precision": "year",
+      "sort_start": "1981-01-01",
+      "sort_end": "1981-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "edward_feigenbaum",
+        "role": "subject"
+      },
+      {
+        "entity_id": "teknowledge",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "stevens_2022",
+        "page": 16,
+        "quote": "in 1981 Feigenbaum spun out another commercial venture: Teknowledge."
+      }
+    ]
+  },
+  {
+    "id": "bionet_contract_awarded",
+    "event_type": "other",
+    "label": "BIONET contract awarded",
+    "date": {
+      "display": "March 1984",
+      "precision": "month",
+      "sort_start": "1984-03-01",
+      "sort_end": "1984-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "intelligenetics",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nih",
+        "role": "employer"
+      },
+      {
+        "entity_id": "bionet",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "stevens_2022",
+        "page": 13,
+        "quote": "In March 1984, the NIH awarded them $5 million to operate BIONET"
+      }
+    ]
+  },
+  {
+    "id": "intelligenetics_renamed_intellicorp",
+    "event_type": "company_renamed",
+    "label": "IntelliGenetics renamed IntelliCorp",
+    "date": {
+      "display": "1984",
+      "precision": "year",
+      "sort_start": "1984-01-01",
+      "sort_end": "1984-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "intelligenetics",
+        "role": "subject"
+      },
+      {
+        "entity_id": "intellicorp",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "stevens_2022",
+        "page": 15,
+        "quote": "In 1984, in recognition of the new direction of their business, the company was renamed IntelliCorp."
+      }
+    ]
+  },
+  {
+    "id": "genbank_contract_awarded_intelligenetics",
+    "event_type": "other",
+    "label": "GenBank contract awarded to IntelliGenetics",
+    "date": {
+      "display": "1987",
+      "precision": "year",
+      "sort_start": "1987-01-01",
+      "sort_end": "1987-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "intelligenetics",
+        "role": "subject"
+      },
+      {
+        "entity_id": "genbank",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "stevens_2022",
+        "page": 19,
+        "quote": "the five-year contract for GenBank (running from 1987 to 1992) was awarded to IntelliGenetics"
+      }
+    ]
+  },
+  {
+    "id": "intelligenetics_sold_amoco",
+    "event_type": "company_sold",
+    "label": "IntelliGenetics sold to Amoco",
+    "date": {
+      "display": "1990",
+      "precision": "year",
+      "sort_start": "1990-01-01",
+      "sort_end": "1990-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "intelligenetics",
+        "role": "subject"
+      },
+      {
+        "entity_id": "amoco_technology_corporation",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "stevens_2022",
+        "page": 20,
+        "quote": "In 1990, IntelliCorp completed its sale of IntelliGenetics to Amoco"
+      }
+    ]
+  },
+  {
+    "id": "ncbi_assumes_genbank",
+    "event_type": "other",
+    "label": "NCBI assumes control of GenBank",
+    "date": {
+      "display": "1992",
+      "precision": "year",
+      "sort_start": "1992-01-01",
+      "sort_end": "1992-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ncbi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "genbank",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "stevens_2022",
+        "page": 20,
+        "quote": "The NCBI would assume control of GenBank in 1992"
+      }
+    ]
+  },
+  {
+    "id": "intelligenetics_acquired_oxford",
+    "event_type": "company_sold",
+    "label": "IntelliGenetics acquired by Oxford Molecular Group",
+    "date": {
+      "display": "1995",
+      "precision": "year",
+      "sort_start": "1995-01-01",
+      "sort_end": "1995-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "intelligenetics",
+        "role": "subject"
+      },
+      {
+        "entity_id": "oxford_molecular_group",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "stevens_2022",
+        "page": 20,
+        "quote": "in 1995 the company was acquired and absorbed into the Oxford Molecular Group."
+      }
+    ]
+  },
+  {
+    "id": "intellicorp_products_sold_tricentis",
+    "event_type": "company_sold",
+    "label": "IntelliCorp products sold to Tricentis",
+    "date": {
+      "display": "2019",
+      "precision": "year",
+      "sort_start": "2019-01-01",
+      "sort_end": "2019-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "intellicorp",
+        "role": "subject"
+      },
+      {
+        "entity_id": "tricentis",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "stevens_2022",
+        "page": 21,
+        "quote": "until 2019 when its core products were sold to Tricentis."
+      }
+    ]
+  }
+]

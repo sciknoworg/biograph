@@ -1,0 +1,159 @@
+[
+  {
+    "id": "turing_born_maida_vale",
+    "source": "alan_turing",
+    "type": "born_in",
+    "target": "maida_vale",
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 6,
+        "quote": "Alan Turing has blue plaques celebrating locations with which he is associated, such as his place of birth in Maida Vale, west London"
+      }
+    ]
+  },
+  {
+    "id": "turing_died_wilmslow",
+    "source": "alan_turing",
+    "type": "died_in",
+    "target": "wilmslow",
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 6,
+        "quote": "and his place of death in Wilmslow, Cheshire"
+      }
+    ]
+  },
+  {
+    "id": "turing_educated_kings",
+    "source": "alan_turing",
+    "type": "studied_at",
+    "target": "kings_college_cambridge",
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 1,
+        "quote": "his second choice of college, King's College, Cambridge, did [award Turing a scholarship]"
+      }
+    ]
+  },
+  {
+    "id": "turing_worked_bletchley",
+    "source": "alan_turing",
+    "type": "worked_at",
+    "target": "bletchley_park",
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 1,
+        "quote": "He is well-known for his connections with... Bletchley Park"
+      }
+    ]
+  },
+  {
+    "id": "turing_collaborated_champernowne",
+    "source": "alan_turing",
+    "type": "collaborated_with",
+    "target": "david_champernowne",
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 2,
+        "quote": "In 1948, they collaborated on an early chess-playing program, Turochamp."
+      }
+    ]
+  },
+  {
+    "id": "turing_engaged_clarke",
+    "source": "alan_turing",
+    "type": "married_to",
+    "target": "joan_clarke",
+    "note": "Briefly engaged",
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 1,
+        "quote": "Joan Clarke (1917–1996), who worked at Bletchley Park and was briefly engaged to Turing"
+      }
+    ]
+  },
+  {
+    "id": "gandy_student_turing",
+    "source": "robin_gandy",
+    "type": "supervised_by",
+    "target": "alan_turing",
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 5,
+        "quote": "Turing's PhD student at Cambridge and friend Robin Gandy"
+      }
+    ]
+  },
+  {
+    "id": "scott_student_church",
+    "source": "dana_scott",
+    "type": "supervised_by",
+    "target": "alonzo_church",
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 5,
+        "quote": "Dana Scott studied for his PhD under the Princeton mathematician Alonzo Church"
+      }
+    ]
+  },
+  {
+    "id": "copeland_student_scott",
+    "source": "jack_copeland",
+    "type": "supervised_by",
+    "target": "dana_scott",
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 5,
+        "quote": "One of Scott's PhD students at Oxford, Jack Copeland"
+      }
+    ]
+  },
+  {
+    "id": "hodges_student_penrose",
+    "source": "andrew_hodges",
+    "type": "supervised_by",
+    "target": "roger_penrose",
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 5,
+        "quote": "His [Penrose's] PhD student and subsequent research collaborator at Oxford, Andrew Hodges"
+      }
+    ]
+  },
+  {
+    "id": "bowen_collaborated_hodges",
+    "source": "jonathan_bowen",
+    "type": "collaborated_with",
+    "target": "andrew_hodges",
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 1,
+        "quote": "We collaborated and even published together on these efforts"
+      }
+    ]
+  },
+  {
+    "id": "strachey_colleague_turing",
+    "source": "christopher_strachey",
+    "type": "collaborated_with",
+    "target": "alan_turing",
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 6,
+        "quote": "Christopher Strachey (1916–1975), a colleague of Turing at Manchester"
+      }
+    ]
+  }
+]

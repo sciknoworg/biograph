@@ -1,0 +1,204 @@
+[
+  {
+    "id": "feigenbaum_worked_stanford",
+    "source": "edward_feigenbaum",
+    "type": "worked_at",
+    "target": "stanford_university",
+    "event_id": "feigenbaum_recruited_stanford",
+    "sources": [
+      {
+        "source_id": "stevens_2022",
+        "page": 5,
+        "quote": "Feigenbaum's was recruited to Stanford in 1965."
+      }
+    ]
+  },
+  {
+    "id": "feigenbaum_worked_berkeley",
+    "source": "edward_feigenbaum",
+    "type": "worked_at",
+    "target": "university_of_california_berkeley",
+    "sources": [
+      {
+        "source_id": "stevens_2022",
+        "page": 5,
+        "quote": "After teaching organization theory at the University of California at Berkeley for five years"
+      }
+    ]
+  },
+  {
+    "id": "feigenbaum_studied_carnegie",
+    "source": "edward_feigenbaum",
+    "type": "studied_at",
+    "target": "carnegie_tech",
+    "sources": [
+      {
+        "source_id": "stevens_2022",
+        "page": 5,
+        "quote": "He had completed his PhD under Herbert Simon at Carnegie Tech"
+      }
+    ]
+  },
+  {
+    "id": "feigenbaum_founded_intelligenetics",
+    "source": "edward_feigenbaum",
+    "type": "founded",
+    "target": "intelligenetics",
+    "event_id": "intelligenetics_founded",
+    "sources": [
+      {
+        "source_id": "stevens_2022",
+        "page": 3,
+        "quote": "In 1980, Feigenbaum, Peter Friedland, Douglas Brutlag, and Laurence Kedes started IntelliGenetics Inc."
+      }
+    ]
+  },
+  {
+    "id": "feigenbaum_founded_teknowledge",
+    "source": "edward_feigenbaum",
+    "type": "founded",
+    "target": "teknowledge",
+    "event_id": "teknowledge_founded",
+    "sources": [
+      {
+        "source_id": "stevens_2022",
+        "page": 16,
+        "quote": "in 1981 Feigenbaum spun out another commercial venture: Teknowledge."
+      }
+    ]
+  },
+  {
+    "id": "feigenbaum_developed_dendral",
+    "source": "edward_feigenbaum",
+    "type": "developed",
+    "target": "dendral",
+    "sources": [
+      {
+        "source_id": "stevens_2022",
+        "page": 5,
+        "quote": "Feigenbaum became part of the team that included Lederberg, Djerassi, and Bruce Buchanan to create DENDRAL"
+      }
+    ]
+  },
+  {
+    "id": "feigenbaum_developed_molgen",
+    "source": "edward_feigenbaum",
+    "type": "developed",
+    "target": "molgen",
+    "sources": [
+      {
+        "source_id": "stevens_2022",
+        "page": 7,
+        "quote": "Feigenbaum and Lederberg thought computer programs might be helpful in reasoning through these new DNA-based problems."
+      }
+    ]
+  },
+  {
+    "id": "feigenbaum_developed_kee",
+    "source": "edward_feigenbaum",
+    "type": "developed",
+    "target": "kee",
+    "sources": [
+      {
+        "source_id": "stevens_2022",
+        "page": 14,
+        "quote": "At IntelliGenetics, they called this a Knowledge Engineering Environment (KEE)."
+      }
+    ]
+  },
+  {
+    "id": "feigenbaum_collaborated_lederberg",
+    "source": "edward_feigenbaum",
+    "type": "collaborated_with",
+    "target": "joshua_lederberg",
+    "sources": [
+      {
+        "source_id": "stevens_2022",
+        "page": 2,
+        "quote": "The geneticist Joshua Lederberg, Nobel Laureate in Medicine, collaborated with Feigenbaum and others to connect AI to the life sciences."
+      }
+    ]
+  },
+  {
+    "id": "feigenbaum_collaborated_brutlag",
+    "source": "edward_feigenbaum",
+    "type": "collaborated_with",
+    "target": "douglas_brutlag",
+    "sources": [
+      {
+        "source_id": "stevens_2022",
+        "page": 3,
+        "quote": "In 1980, Feigenbaum, Peter Friedland, Douglas Brutlag, and Laurence Kedes started IntelliGenetics Inc."
+      }
+    ]
+  },
+  {
+    "id": "intelligenetics_developed_genbank",
+    "source": "intelligenetics",
+    "type": "developed",
+    "target": "genbank",
+    "event_id": "genbank_contract_awarded_intelligenetics",
+    "sources": [
+      {
+        "source_id": "stevens_2022",
+        "page": 19,
+        "quote": "the five-year contract for GenBank (running from 1987 to 1992) was awarded to IntelliGenetics"
+      }
+    ]
+  },
+  {
+    "id": "intelligenetics_sold_amoco",
+    "source": "intelligenetics",
+    "type": "sold_to",
+    "target": "amoco_technology_corporation",
+    "event_id": "intelligenetics_sold_amoco",
+    "sources": [
+      {
+        "source_id": "stevens_2022",
+        "page": 20,
+        "quote": "In 1990, IntelliCorp completed its sale of IntelliGenetics to Amoco"
+      }
+    ]
+  },
+  {
+    "id": "intelligenetics_acquired_oxford",
+    "source": "intelligenetics",
+    "type": "acquired_by",
+    "target": "oxford_molecular_group",
+    "event_id": "intelligenetics_acquired_oxford",
+    "sources": [
+      {
+        "source_id": "stevens_2022",
+        "page": 20,
+        "quote": "in 1995 the company was acquired and absorbed into the Oxford Molecular Group."
+      }
+    ]
+  },
+  {
+    "id": "intellicorp_worked_sap",
+    "source": "intellicorp",
+    "type": "worked_at",
+    "target": "sap",
+    "sources": [
+      {
+        "source_id": "stevens_2022",
+        "page": 21,
+        "quote": "In the 1990s, IntelliCorp was hired by the German firm SAP"
+      }
+    ]
+  },
+  {
+    "id": "intellicorp_sold_tricentis",
+    "source": "intellicorp",
+    "type": "sold_to",
+    "target": "tricentis",
+    "event_id": "intellicorp_products_sold_tricentis",
+    "sources": [
+      {
+        "source_id": "stevens_2022",
+        "page": 21,
+        "quote": "until 2019 when its core products were sold to Tricentis."
+      }
+    ]
+  }
+]

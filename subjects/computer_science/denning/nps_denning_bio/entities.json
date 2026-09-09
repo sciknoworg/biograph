@@ -1,0 +1,204 @@
+[
+  {
+    "id": "peter_denning",
+    "entity_type": "person",
+    "name": "Peter Denning",
+    "aliases": [
+      "Denning, Peter",
+      "Professor Peter Denning"
+    ],
+    "summary": "Distinguished Professor specializing in virtual memory, operating systems, and computer networking.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "naval_postgraduate_school",
+    "entity_type": "organization",
+    "name": "Naval Postgraduate School",
+    "aliases": [
+      "NPS"
+    ],
+    "summary": "Graduate university operated by the United States Navy.",
+    "subtype": "university",
+    "attributes": {
+      "location": "Monterey, California"
+    }
+  },
+  {
+    "id": "cebrowski_institute",
+    "entity_type": "organization",
+    "name": "Cebrowski Institute",
+    "aliases": [],
+    "summary": "Interdisciplinary research center for information innovation at Naval Postgraduate School.",
+    "subtype": "lab"
+  },
+  {
+    "id": "princeton_university",
+    "entity_type": "organization",
+    "name": "Princeton University",
+    "aliases": [
+      "Princeton"
+    ],
+    "summary": "Private Ivy League research university in New Jersey.",
+    "subtype": "university"
+  },
+  {
+    "id": "purdue_university",
+    "entity_type": "organization",
+    "name": "Purdue University",
+    "aliases": [
+      "Purdue"
+    ],
+    "summary": "Public research university in Indiana.",
+    "subtype": "university"
+  },
+  {
+    "id": "george_mason_university",
+    "entity_type": "organization",
+    "name": "George Mason University",
+    "aliases": [
+      "George Mason"
+    ],
+    "summary": "Public research university in Virginia.",
+    "subtype": "university"
+  },
+  {
+    "id": "riacs",
+    "entity_type": "organization",
+    "name": "RIACS",
+    "aliases": [
+      "computer science research institute RIACS"
+    ],
+    "summary": "Computer science research institute at NASA Ames.",
+    "subtype": "lab"
+  },
+  {
+    "id": "nasa_ames",
+    "entity_type": "organization",
+    "name": "NASA Ames",
+    "aliases": [],
+    "summary": "NASA research center located in California.",
+    "subtype": "lab"
+  },
+  {
+    "id": "csnet",
+    "entity_type": "artifact",
+    "name": "CSNET",
+    "aliases": [
+      "computer science network of NSF"
+    ],
+    "summary": "Computer science network that bridged ARPANET to the modern Internet.",
+    "subtype": "product"
+  },
+  {
+    "id": "nsf",
+    "entity_type": "organization",
+    "name": "NSF",
+    "aliases": [
+      "NSF"
+    ],
+    "summary": "United States government agency supporting fundamental research and education.",
+    "subtype": "organization"
+  },
+  {
+    "id": "arpanet",
+    "entity_type": "artifact",
+    "name": "ARPANET",
+    "aliases": [
+      "original ARPANET"
+    ],
+    "summary": "Early packet-switching network and precursor to the Internet.",
+    "subtype": "product"
+  },
+  {
+    "id": "internet_society",
+    "entity_type": "organization",
+    "name": "Internet Society",
+    "aliases": [],
+    "summary": "International nonprofit organization for Internet standards and policy.",
+    "subtype": "organization"
+  },
+  {
+    "id": "acm",
+    "entity_type": "organization",
+    "name": "Association for Computing Machinery",
+    "aliases": [
+      "ACM"
+    ],
+    "summary": "Leading professional society for computing.",
+    "subtype": "organization"
+  },
+  {
+    "id": "acm_digital_library",
+    "entity_type": "artifact",
+    "name": "ACM Digital Library",
+    "aliases": [],
+    "summary": "Online collection of ACM's entire literature.",
+    "subtype": "product"
+  },
+  {
+    "id": "the_invisible_future",
+    "entity_type": "artifact",
+    "name": "The Invisible Future",
+    "aliases": [],
+    "summary": "Book by Peter Denning published by McGraw.",
+    "subtype": "publication"
+  },
+  {
+    "id": "mcgraw",
+    "entity_type": "organization",
+    "name": "McGraw",
+    "aliases": [],
+    "summary": "Publishing company.",
+    "subtype": "company"
+  },
+  {
+    "id": "beyond_calculation",
+    "entity_type": "artifact",
+    "name": "Beyond Calculation",
+    "aliases": [],
+    "summary": "Book by Peter Denning published by Copernicus.",
+    "subtype": "publication"
+  },
+  {
+    "id": "copernicus",
+    "entity_type": "organization",
+    "name": "Copernicus",
+    "aliases": [],
+    "summary": "Publishing company.",
+    "subtype": "company"
+  },
+  {
+    "id": "the_innovators_way",
+    "entity_type": "artifact",
+    "name": "The Innovator's Way",
+    "aliases": [],
+    "summary": "Book by Peter Denning and Bob Dunham published by MIT Press.",
+    "subtype": "publication"
+  },
+  {
+    "id": "bob_dunham",
+    "entity_type": "person",
+    "name": "Bob Dunham",
+    "aliases": [],
+    "summary": "Co-author of The Innovator's Way with Peter Denning.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "mit_press",
+    "entity_type": "organization",
+    "name": "MIT Press",
+    "aliases": [],
+    "summary": "University press of the Massachusetts Institute of Technology.",
+    "subtype": "company"
+  },
+  {
+    "id": "postel_award",
+    "entity_type": "artifact",
+    "name": "Internet Society Postel Award",
+    "aliases": [
+      "2009 Internet Society Postel Award"
+    ],
+    "summary": "Award recognizing exceptional contributions to data communications.",
+    "subtype": "award"
+  }
+]

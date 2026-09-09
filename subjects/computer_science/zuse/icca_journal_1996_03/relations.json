@@ -1,0 +1,148 @@
+[
+  {
+    "id": "zuse_born_berlin",
+    "source": "konrad_zuse",
+    "type": "born_in",
+    "target": "berlin_wilmersdorf",
+    "sources": [
+      {
+        "source_id": "icca_journal_1996_03",
+        "page": 1,
+        "quote": "Born on June 22, 1910, in Berlin (Wilmersdorf)"
+      }
+    ]
+  },
+  {
+    "id": "zuse_studied_thbc",
+    "source": "konrad_zuse",
+    "type": "studied_at",
+    "target": "technische_hochschule_berlin_charlottenburg",
+    "sources": [
+      {
+        "source_id": "icca_journal_1996_03",
+        "page": 1,
+        "quote": "Eight years later he would be granted a degree as an Architectural Engineer from the Technische Hochschule Berlin-Charlottenburg."
+      }
+    ]
+  },
+  {
+    "id": "zuse_invented_z1",
+    "source": "konrad_zuse",
+    "type": "invented",
+    "target": "z1",
+    "event_id": "z1_built",
+    "sources": [
+      {
+        "source_id": "icca_journal_1996_03",
+        "page": 1,
+        "quote": "he cobbled together a first calculator, still working on strictly mechanical principles, in a comer of his parents' Berlin home."
+      }
+    ]
+  },
+  {
+    "id": "zuse_invented_z2",
+    "source": "konrad_zuse",
+    "type": "invented",
+    "target": "z2",
+    "event_id": "z2_built",
+    "sources": [
+      {
+        "source_id": "icca_journal_1996_03",
+        "page": 1,
+        "quote": "Soon thereafter, also in 1938, a successor was built, or, rather, part of the ZI was cannibalized to provide a store for the Z2"
+      }
+    ]
+  },
+  {
+    "id": "zuse_invented_z3",
+    "source": "konrad_zuse",
+    "type": "invented",
+    "target": "z3",
+    "event_id": "z3_operational",
+    "sources": [
+      {
+        "source_id": "icca_journal_1996_03",
+        "page": 1,
+        "quote": "the Z3 engine saw the light in 1941."
+      }
+    ]
+  },
+  {
+    "id": "zuse_invented_z4",
+    "source": "konrad_zuse",
+    "type": "invented",
+    "target": "z4",
+    "sources": [
+      {
+        "source_id": "icca_journal_1996_03",
+        "page": 1,
+        "quote": "The Z4 was transferred in 1945 to Gottingen"
+      }
+    ]
+  },
+  {
+    "id": "zuse_developed_plankalkul",
+    "source": "konrad_zuse",
+    "type": "developed",
+    "target": "plankalkul",
+    "sources": [
+      {
+        "source_id": "icca_journal_1996_03",
+        "page": 1,
+        "quote": "It was only then that it became apparent how much emphasis Zuse (1972) had laid on a language most suitable to write any programs, including chess programs."
+      }
+    ]
+  },
+  {
+    "id": "zuse_died_hunfeld",
+    "source": "konrad_zuse",
+    "type": "died_in",
+    "target": "hunfeld_hesse",
+    "sources": [
+      {
+        "source_id": "icca_journal_1996_03",
+        "page": 1,
+        "quote": "He died in his native Germany, in St. Elisabeth's hospital at Hunfeld, Hesse, on Monday 18 December 1995."
+      }
+    ]
+  },
+  {
+    "id": "zuse_awarded_gottingen",
+    "source": "konrad_zuse",
+    "type": "awarded",
+    "target": "university_of_gottingen",
+    "sources": [
+      {
+        "source_id": "icca_journal_1996_03",
+        "page": 2,
+        "quote": "he held no fewer than five Honorary degrees in some of the most reputable Universities of Europe, ranging from Gottingen to Reykjavik."
+      }
+    ]
+  },
+  {
+    "id": "zuse_awarded_reykjavik",
+    "source": "konrad_zuse",
+    "type": "awarded",
+    "target": "university_of_reykjavik",
+    "sources": [
+      {
+        "source_id": "icca_journal_1996_03",
+        "page": 2,
+        "quote": "he held no fewer than five Honorary degrees in some of the most reputable Universities of Europe, ranging from Gottingen to Reykjavik."
+      }
+    ]
+  },
+  {
+    "id": "herschberg_collaborated_herik",
+    "source": "bob_herschberg",
+    "type": "collaborated_with",
+    "target": "jaap_van_den_herik",
+    "sources": [
+      {
+        "source_id": "icca_journal_1996_03",
+        "page": 1,
+        "quote": "Bob Herschberg 1 and Jaap van den Herik?"
+      }
+    ]
+  }
+]

@@ -1,0 +1,239 @@
+[
+  {
+    "id": "konrad_zuse",
+    "entity_type": "person",
+    "name": "Konrad Zuse",
+    "aliases": [],
+    "summary": "German computer pioneer and inventor of the Z series computers and Plankalkül programming language.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "bob_herschberg",
+    "entity_type": "person",
+    "name": "Bob Herschberg",
+    "aliases": [],
+    "summary": "Co-author of the obituary and researcher at Delft University of Technology.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "jaap_van_den_herik",
+    "entity_type": "person",
+    "name": "Jaap van den Herik",
+    "aliases": [],
+    "summary": "Co-author of the obituary and researcher at University of Limburg.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "g_overhoff",
+    "entity_type": "person",
+    "name": "G. Overhoff",
+    "aliases": [],
+    "summary": "Translator of Zuse's Plankalkül work into English.",
+    "subtype": "translator"
+  },
+  {
+    "id": "technische_hochschule_berlin_charlottenburg",
+    "entity_type": "organization",
+    "name": "Technische Hochschule Berlin-Charlottenburg",
+    "aliases": [],
+    "summary": "University where Zuse obtained his degree in Architectural Engineering.",
+    "subtype": "university"
+  },
+  {
+    "id": "reform_real_gymnasium_hoyerswerda",
+    "entity_type": "organization",
+    "name": "Reform-Real-Gymnasium",
+    "aliases": [
+      "Reform-Real-Gymnasium in Hoyerswerda"
+    ],
+    "summary": "Secondary school in Hoyerswerda, Silesia where Zuse took his final examination.",
+    "subtype": "school"
+  },
+  {
+    "id": "st_elisabeths_hospital",
+    "entity_type": "organization",
+    "name": "St. Elisabeth's hospital",
+    "aliases": [],
+    "summary": "Hospital in Hunfeld, Hesse where Zuse died.",
+    "subtype": "hospital"
+  },
+  {
+    "id": "deutsches_museum",
+    "entity_type": "organization",
+    "name": "Deutsches Museum",
+    "aliases": [],
+    "summary": "Museum in Munich housing a historically faithful copy of the Z3.",
+    "subtype": "museum"
+  },
+  {
+    "id": "swiss_federal_university_of_technology",
+    "entity_type": "organization",
+    "name": "Swiss Federal University of Technology",
+    "aliases": [],
+    "summary": "University in Zurich where the Z4 computer came to rest as a museum piece.",
+    "subtype": "university"
+  },
+  {
+    "id": "university_of_gottingen",
+    "entity_type": "organization",
+    "name": "University of Gottingen",
+    "aliases": [
+      "Gottingen"
+    ],
+    "summary": "University that awarded Zuse an honorary degree.",
+    "subtype": "university"
+  },
+  {
+    "id": "university_of_reykjavik",
+    "entity_type": "organization",
+    "name": "University of Reykjavik",
+    "aliases": [
+      "Reykjavik"
+    ],
+    "summary": "University that awarded Zuse an honorary degree.",
+    "subtype": "university"
+  },
+  {
+    "id": "z1",
+    "entity_type": "artifact",
+    "name": "Z1",
+    "aliases": [
+      "Zl",
+      "ZI"
+    ],
+    "summary": "Zuse's first calculator working on strictly mechanical principles.",
+    "subtype": "invention"
+  },
+  {
+    "id": "z2",
+    "entity_type": "artifact",
+    "name": "Z2",
+    "aliases": [],
+    "summary": "Successor to Z1 with an arithmetic engine comprising electro-magnetic relays.",
+    "subtype": "invention"
+  },
+  {
+    "id": "z3",
+    "entity_type": "artifact",
+    "name": "Z3",
+    "aliases": [],
+    "summary": "First computer in the world to operate satisfactorily.",
+    "subtype": "invention"
+  },
+  {
+    "id": "z4",
+    "entity_type": "artifact",
+    "name": "Z4",
+    "aliases": [],
+    "summary": "Computer transferred to Gottingen and later Zurich.",
+    "subtype": "invention"
+  },
+  {
+    "id": "plankalkul",
+    "entity_type": "artifact",
+    "name": "Plankalkül",
+    "aliases": [
+      "Plankalkiil",
+      "PlankalkUI",
+      "Der Plankalkül"
+    ],
+    "summary": "Programming language developed by Zuse suitable for writing any programs including chess.",
+    "subtype": "publication"
+  },
+  {
+    "id": "algol_60",
+    "entity_type": "artifact",
+    "name": "ALGOL 60",
+    "aliases": [],
+    "summary": "Competing programming language developed by a committee.",
+    "subtype": "publication"
+  },
+  {
+    "id": "berlin_wilmersdorf",
+    "entity_type": "place",
+    "name": "Berlin (Wilmersdorf)",
+    "aliases": [
+      "Berlin"
+    ],
+    "summary": "Birthplace of Konrad Zuse.",
+    "subtype": "city",
+    "attributes": {
+      "lat": 52.51667,
+      "lng": 13.38333,
+      "wikidata_qid": "Q64",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "hoyerswerda_silesia",
+    "entity_type": "place",
+    "name": "Hoyerswerda, Silesia",
+    "aliases": [],
+    "summary": "Location of Zuse's secondary school.",
+    "subtype": "city",
+    "attributes": {
+      "lat": 51.43306,
+      "lng": 14.25,
+      "wikidata_qid": "Q14904",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "hunfeld_hesse",
+    "entity_type": "place",
+    "name": "Hunfeld, Hesse",
+    "aliases": [],
+    "summary": "Location of St. Elisabeth's hospital where Zuse died.",
+    "subtype": "city",
+    "attributes": {
+      "lat": 50.66667,
+      "lng": 9.76667,
+      "wikidata_qid": "Q569692",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "gottingen",
+    "entity_type": "place",
+    "name": "Gottingen",
+    "aliases": [],
+    "summary": "Location where Z4 was transferred in 1945.",
+    "subtype": "city",
+    "attributes": {
+      "lat": 51.53389,
+      "lng": 9.93556,
+      "wikidata_qid": "Q3033",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "zurich",
+    "entity_type": "place",
+    "name": "Zurich",
+    "aliases": [],
+    "summary": "Final location of the Z4 computer.",
+    "subtype": "city",
+    "attributes": {
+      "lat": 47.37444,
+      "lng": 8.54111,
+      "wikidata_qid": "Q72",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "hinterstein_southern_swabia",
+    "entity_type": "place",
+    "name": "Hinterstein, Southern Swabia",
+    "aliases": [
+      "Hinterstein"
+    ],
+    "summary": "Hamlet where Zuse was forced to retire in 1945.",
+    "subtype": "city",
+    "attributes": {
+      "lat": 47.4803,
+      "lng": 10.4064,
+      "wikidata_qid": "Q1619824",
+      "geocode_basis": "most_linked"
+    }
+  }
+]

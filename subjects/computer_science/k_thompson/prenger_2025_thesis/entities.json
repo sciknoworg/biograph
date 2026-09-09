@@ -1,0 +1,108 @@
+[
+  {
+    "aliases": [
+      "Ken",
+      "Thompson"
+    ],
+    "entity_type": "person",
+    "id": "ken_thompson",
+    "name": "Ken Thompson",
+    "subtype": "researcher",
+    "summary": "Computer scientist who developed Unix and the ed(1) text editor at Bell Labs."
+  },
+  {
+    "aliases": [
+      "Bell Labs"
+    ],
+    "entity_type": "organization",
+    "id": "bell_laboratories",
+    "name": "Bell Laboratories",
+    "subtype": "lab",
+    "summary": "Research and development arm of AT&T where Unix was created."
+  },
+  {
+    "aliases": [
+      "AT&T"
+    ],
+    "entity_type": "organization",
+    "id": "at_t",
+    "name": "American Telephone and Telegraph Company",
+    "subtype": "company",
+    "summary": "Telecommunications corporation that owned Bell Laboratories."
+  },
+  {
+    "aliases": [
+      "PDP-7"
+    ],
+    "entity_type": "artifact",
+    "id": "dec_pdp_7",
+    "name": "DEC PDP-7",
+    "subtype": "computer",
+    "summary": "Minicomputer used for the original Unix development."
+  },
+  {
+    "aliases": [
+      "ed"
+    ],
+    "entity_type": "artifact",
+    "id": "ed_1",
+    "name": "ed(1)",
+    "subtype": "software",
+    "summary": "Unix line editor developed by Ken Thompson."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "unix",
+    "name": "Unix",
+    "subtype": "operating_system",
+    "summary": "Operating system developed at Bell Labs."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "qed",
+    "name": "QED",
+    "subtype": "software",
+    "summary": "Earlier text editor that influenced ed(1)."
+  },
+  {
+    "aliases": [
+      "Model 33",
+      "ASR-33"
+    ],
+    "entity_type": "artifact",
+    "id": "teletype_model_33",
+    "name": "Teletype Model 33",
+    "subtype": "hardware",
+    "summary": "Electromechanical terminal used as the primary interface for early Unix."
+  },
+  {
+    "aliases": [
+      "Ritchie"
+    ],
+    "entity_type": "person",
+    "id": "dennis_ritchie",
+    "name": "Dennis Ritchie",
+    "subtype": "researcher",
+    "summary": "Computer scientist who collaborated with Thompson on Unix."
+  },
+  {
+    "aliases": [
+      "Kernighan"
+    ],
+    "entity_type": "person",
+    "id": "brian_kernighan",
+    "name": "Brian Kernighan",
+    "subtype": "researcher",
+    "summary": "Computer scientist and colleague at Bell Labs."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "kai_prenger",
+    "name": "Kai Prenger",
+    "subtype": "author",
+    "summary": "Author of the thesis examining ed(1)."
+  }
+]

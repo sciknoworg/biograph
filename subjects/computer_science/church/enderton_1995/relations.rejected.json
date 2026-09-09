@@ -1,0 +1,17 @@
+[
+  {
+    "id": "church_edited_jsl",
+    "source": "alonzo_church",
+    "type": "member_of",
+    "target": "journal_of_symbolic_logic",
+    "note": "Served as editor for reviews and contributed papers",
+    "sources": [
+      {
+        "source_id": "enderton_1995",
+        "page": 2,
+        "quote": "HeguidedThe journal of symbolic logic fromitsbeginningin1936, servingaseditorforreviewsforitsﬁrstforty-fourvolumes"
+      }
+    ],
+    "_rejected_because": "'member_of' expects target entity_type organization, but 'journal_of_symbolic_logic' is 'artifact'"
+  }
+]

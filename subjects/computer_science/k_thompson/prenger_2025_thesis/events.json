@@ -1,0 +1,206 @@
+[
+  {
+    "id": "thompson_develops_ed_1",
+    "event_type": "invention",
+    "label": "Developed ed(1) at Bell Labs",
+    "description": "Ken Thompson developed the Unix line editor ed(1) during the early Unix development period.",
+    "date": {
+      "display": "1969",
+      "precision": "year",
+      "sort_start": "1969-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ken_thompson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "bell_laboratories",
+        "role": "employer"
+      },
+      {
+        "entity_id": "ed_1",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "prenger_2025_thesis",
+        "page": 4,
+        "quote": "ed(1), the Unix line editor developed by Ken Thompson at Bell Labs in 1969"
+      }
+    ]
+  },
+  {
+    "id": "thompson_discovers_pdp_7",
+    "event_type": "other",
+    "label": "Discovered underutilized PDP-7",
+    "description": "Thompson found a little-used DEC PDP-7 which became the birthplace of Unix.",
+    "date": {
+      "display": "1969",
+      "precision": "year",
+      "sort_start": "1969-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ken_thompson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "dec_pdp_7",
+        "role": "artifact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "prenger_2025_thesis",
+        "page": 29,
+        "quote": "Thompson discovered "
+      },
+      {
+        "source_id": "prenger_2025_thesis",
+        "page": 29,
+        "quote": "a little-used DEC PDP-7"
+      }
+    ]
+  },
+  {
+    "id": "three_week_sprint",
+    "event_type": "other",
+    "label": "Three-week Unix development sprint",
+    "description": "Thompson realized he was three weeks from an operating system and built core components.",
+    "date": {
+      "display": "1969",
+      "precision": "year",
+      "sort_start": "1969-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ken_thompson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "unix",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "prenger_2025_thesis",
+        "page": 30,
+        "quote": "At some point I realized that I was three weeks from an operating system"
+      }
+    ]
+  },
+  {
+    "id": "thompson_patent_filed",
+    "event_type": "patent_filed",
+    "label": "Filed Regular Expression Search Algorithm patent",
+    "description": "Thompson filed a patent for his regular expression search algorithm.",
+    "date": {
+      "display": "Dec. 23, 1969",
+      "precision": "day",
+      "sort_start": "1969-12-23",
+      "sort_end": "1969-12-23"
+    },
+    "participants": [
+      {
+        "entity_id": "ken_thompson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "prenger_2025_thesis",
+        "page": 77,
+        "quote": "Regular Expression Search Algorithm."
+      }
+    ]
+  },
+  {
+    "id": "thompson_patent_granted",
+    "event_type": "patent_granted",
+    "label": "Granted Regular Expression Search Algorithm patent",
+    "description": "Thompson's patent for regular expression search was issued.",
+    "date": {
+      "display": "Mar. 2, 1971",
+      "precision": "day",
+      "sort_start": "1971-03-02",
+      "sort_end": "1971-03-02"
+    },
+    "participants": [
+      {
+        "entity_id": "ken_thompson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "prenger_2025_thesis",
+        "page": 77,
+        "quote": "issued Mar. 2, 1971."
+      }
+    ]
+  },
+  {
+    "id": "unix_manual_published",
+    "event_type": "publication",
+    "label": "Unix Programmer's Manual First Edition published",
+    "description": "The first edition of the Unix Programmer's Manual was published.",
+    "date": {
+      "display": "Nov. 3, 1971",
+      "precision": "day",
+      "sort_start": "1971-11-03",
+      "sort_end": "1971-11-03"
+    },
+    "participants": [
+      {
+        "entity_id": "ken_thompson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "dennis_ritchie",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "prenger_2025_thesis",
+        "page": 77,
+        "quote": "Unix Programmer's Manual, First Edition, Nov. 3, 1971."
+      }
+    ]
+  },
+  {
+    "id": "thompson_interview_2019",
+    "event_type": "other",
+    "label": "Interviewed at Vintage Computer Festival East",
+    "description": "Thompson gave an interview at the Vintage Computer Festival East.",
+    "date": {
+      "display": "May 4 2019",
+      "precision": "day",
+      "sort_start": "2019-05-04",
+      "sort_end": "2019-05-04"
+    },
+    "participants": [
+      {
+        "entity_id": "ken_thompson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "brian_kernighan",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "prenger_2025_thesis",
+        "page": 77,
+        "quote": "Interview by Brian Kernighan. Vintage Computer Festival East, May 4 2019"
+      }
+    ]
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "id": "denning_worked_um",
+    "source": "dorothy_denning",
+    "type": "worked_at",
+    "target": "university_of_michigan",
+    "start": {
+      "display": "1960s",
+      "precision": "decade",
+      "sort_start": "1960-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "denning_interview_2013",
+        "page": 4,
+        "quote": "I went to school at the University of Michigan."
+      }
+    ]
+  },
+  {
+    "id": "denning_studied_um",
+    "source": "dorothy_denning",
+    "type": "studied_at",
+    "target": "university_of_michigan",
+    "event_id": "denning_um_ba",
+    "sources": [
+      {
+        "source_id": "denning_interview_2013",
+        "page": 5,
+        "quote": "And, as I understand it, you graduated in 1967 with a B.A. in Mathematics. Denning: Yes."
+      }
+    ]
+  },
+  {
+    "id": "denning_worked_rochester",
+    "source": "dorothy_denning",
+    "type": "worked_at",
+    "target": "university_of_rochester",
+    "event_id": "denning_rochester_employment_start",
+    "sources": [
+      {
+        "source_id": "denning_interview_2013",
+        "page": 9,
+        "quote": "I ended up at Rochester because I got married in May 1969... that was where I worked."
+      }
+    ]
+  },
+  {
+    "id": "denning_married_peter",
+    "source": "dorothy_denning",
+    "type": "married_to",
+    "target": "peter_denning",
+    "event_id": "denning_marriage",
+    "sources": [
+      {
+        "source_id": "denning_interview_2013",
+        "page": 9,
+        "quote": "I got married in May 1969, and my husband was going to Rochester for a Ph.D."
+      }
+    ]
+  },
+  {
+    "id": "denning_studied_purdue",
+    "source": "dorothy_denning",
+    "type": "studied_at",
+    "target": "purdue_university",
+    "event_id": "denning_purdue_phd",
+    "sources": [
+      {
+        "source_id": "denning_interview_2013",
+        "page": 12,
+        "quote": "Sam offered me a position as instructor, and also said I could come join the Ph.D. program that fall."
+      }
+    ]
+  },
+  {
+    "id": "denning_worked_purdue",
+    "source": "dorothy_denning",
+    "type": "worked_at",
+    "target": "purdue_university",
+    "event_id": "denning_purdue_employment_start",
+    "sources": [
+      {
+        "source_id": "denning_interview_2013",
+        "page": 12,
+        "quote": "Sam offered me a position as instructor, and also said I could come join the Ph.D. program that fall."
+      }
+    ]
+  },
+  {
+    "id": "denning_worked_sri",
+    "source": "dorothy_denning",
+    "type": "worked_at",
+    "target": "sri_international",
+    "event_id": "denning_sri_employment_start",
+    "sources": [
+      {
+        "source_id": "denning_interview_2013",
+        "page": 29,
+        "quote": "What year was it that you left Purdue for SRI? Denning: 1983."
+      }
+    ]
+  },
+  {
+    "id": "denning_collaborated_neumann",
+    "source": "dorothy_denning",
+    "type": "collaborated_with",
+    "target": "peter_neumann",
+    "sources": [
+      {
+        "source_id": "denning_interview_2013",
+        "page": 30,
+        "quote": "Peter Neumann was certainly the person that I knew the best and he was my main point of contact when I was still at Purdue. I worked with him extensively while I was at SRI."
+      }
+    ]
+  },
+  {
+    "id": "denning_worked_dec",
+    "source": "dorothy_denning",
+    "type": "worked_at",
+    "target": "digital_equipment_corporation",
+    "event_id": "denning_dec_employment_start",
+    "sources": [
+      {
+        "source_id": "denning_interview_2013",
+        "page": 41,
+        "quote": "In 1987, you left SRI to become a principal software engineer for Digital Equipment Corporation."
+      }
+    ]
+  },
+  {
+    "id": "denning_worked_georgetown",
+    "source": "dorothy_denning",
+    "type": "worked_at",
+    "target": "georgetown_university",
+    "event_id": "denning_georgetown_employment_start",
+    "sources": [
+      {
+        "source_id": "denning_interview_2013",
+        "page": 48,
+        "quote": "And then you returned to academia at Georgetown. Denning: Yes."
+      }
+    ]
+  },
+  {
+    "id": "denning_worked_nps",
+    "source": "dorothy_denning",
+    "type": "worked_at",
+    "target": "naval_postgraduate_school",
+    "sources": [
+      {
+        "source_id": "denning_interview_2013",
+        "page": 3,
+        "quote": "11 April 2013, with Professor Dorothy Denning at the Naval Postgraduate School in Monterey, California."
+      }
+    ]
+  },
+  {
+    "id": "denning_invented_lattice",
+    "source": "dorothy_denning",
+    "type": "developed",
+    "target": "lattice_model",
+    "sources": [
+      {
+        "source_id": "denning_interview_2013",
+        "page": 2,
+        "quote": "Computer security pioneer Dorothy Denning discusses her career including her Lattice Model for Computer Security"
+      }
+    ]
+  }
+]

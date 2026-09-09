@@ -1,0 +1,216 @@
+[
+  {
+    "aliases": [
+      "Edward Feigenbaum",
+      "Feigenbaum"
+    ],
+    "entity_type": "person",
+    "id": "edward_feigenbaum",
+    "name": "Edward A. Feigenbaum",
+    "subtype": "researcher",
+    "summary": "Pioneer of expert systems and knowledge engineering."
+  },
+  {
+    "aliases": [
+      "Stanford"
+    ],
+    "entity_type": "organization",
+    "id": "stanford_university",
+    "name": "Stanford University",
+    "subtype": "university",
+    "summary": "University where Feigenbaum worked and expert systems were developed."
+  },
+  {
+    "aliases": [
+      "UC Berkeley",
+      "Berkeley"
+    ],
+    "entity_type": "organization",
+    "id": "university_of_california_berkeley",
+    "name": "University of California Berkeley",
+    "subtype": "university",
+    "summary": "University where Feigenbaum taught before Stanford."
+  },
+  {
+    "aliases": [
+      "Carnegie Mellon University"
+    ],
+    "entity_type": "organization",
+    "id": "carnegie_tech",
+    "name": "Carnegie Tech",
+    "subtype": "university",
+    "summary": "Institution where Feigenbaum completed his PhD."
+  },
+  {
+    "aliases": [
+      "IntelliGenetics"
+    ],
+    "entity_type": "organization",
+    "id": "intelligenetics",
+    "name": "IntelliGenetics Inc.",
+    "subtype": "company",
+    "summary": "Early biotechnology start-up focused on computation."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "intellicorp",
+    "name": "IntelliCorp",
+    "subtype": "company",
+    "summary": "Software company renamed from IntelliGenetics."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "teknowledge",
+    "name": "Teknowledge",
+    "subtype": "company",
+    "summary": "Commercial venture spun out by Feigenbaum."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "dendral",
+    "name": "DENDRAL",
+    "subtype": "invention",
+    "summary": "Computer program that stored knowledge of mass spectrometry."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "molgen",
+    "name": "MOLGEN",
+    "subtype": "product",
+    "summary": "Software for molecular genetics planning."
+  },
+  {
+    "aliases": [
+      "Knowledge Engineering Environment"
+    ],
+    "entity_type": "artifact",
+    "id": "kee",
+    "name": "KEE",
+    "subtype": "product",
+    "summary": "Software tool for developing expert systems."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "genbank",
+    "name": "GenBank",
+    "subtype": "database",
+    "summary": "National nucleotide sequence database."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "bionet",
+    "name": "BIONET",
+    "subtype": "product",
+    "summary": "National computer network for molecular biology."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "joshua_lederberg",
+    "name": "Joshua Lederberg",
+    "subtype": "researcher",
+    "summary": "Geneticist and Nobel Laureate who collaborated with Feigenbaum."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "douglas_brutlag",
+    "name": "Douglas Brutlag",
+    "subtype": "researcher",
+    "summary": "Molecular biologist and co-founder of IntelliGenetics."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "peter_friedland",
+    "name": "Peter Friedland",
+    "subtype": "researcher",
+    "summary": "Computer scientist and co-founder of IntelliGenetics."
+  },
+  {
+    "aliases": [
+      "Larry Kedes"
+    ],
+    "entity_type": "person",
+    "id": "laurence_kedes",
+    "name": "Laurence Kedes",
+    "subtype": "researcher",
+    "summary": "Molecular biologist and co-founder of IntelliGenetics."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "herbert_simon",
+    "name": "Herbert Simon",
+    "subtype": "researcher",
+    "summary": "Feigenbaum's PhD supervisor at Carnegie Tech."
+  },
+  {
+    "aliases": [
+      "NIH"
+    ],
+    "entity_type": "organization",
+    "id": "nih",
+    "name": "National Institutes of Health",
+    "subtype": "organization",
+    "summary": "US government agency funding biomedical research."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "nasa",
+    "name": "NASA",
+    "subtype": "organization",
+    "summary": "US space agency that funded exobiology research."
+  },
+  {
+    "aliases": [
+      "Amoco"
+    ],
+    "entity_type": "organization",
+    "id": "amoco_technology_corporation",
+    "name": "Amoco Technology Corporation",
+    "subtype": "company",
+    "summary": "Corporation that purchased IntelliGenetics."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "oxford_molecular_group",
+    "name": "Oxford Molecular Group",
+    "subtype": "company",
+    "summary": "Company that acquired IntelliGenetics."
+  },
+  {
+    "aliases": [
+      "NCBI"
+    ],
+    "entity_type": "organization",
+    "id": "ncbi",
+    "name": "National Center for Biotechnology Information",
+    "subtype": "organization",
+    "summary": "NIH center that assumed control of GenBank."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "sap",
+    "name": "SAP",
+    "subtype": "company",
+    "summary": "German firm that hired IntelliCorp."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "tricentis",
+    "name": "Tricentis",
+    "subtype": "company",
+    "summary": "Company that purchased IntelliCorp's core products."
+  }
+]

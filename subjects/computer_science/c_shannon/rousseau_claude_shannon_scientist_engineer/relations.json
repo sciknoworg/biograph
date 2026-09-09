@@ -1,0 +1,231 @@
+[
+  {
+    "id": "shannon_born_petoskey",
+    "source": "claude_shannon",
+    "type": "born_in",
+    "target": "petoskey_mi",
+    "event_id": "birth",
+    "sources": [
+      {
+        "source_id": "rousseau_claude_shannon_scientist_engineer",
+        "page": 3,
+        "quote": "Shannon was born in Petoskey (Michigan, USA) on April 30, 1916."
+      }
+    ]
+  },
+  {
+    "id": "shannon_studied_michigan",
+    "source": "claude_shannon",
+    "type": "studied_at",
+    "target": "michigan_university",
+    "event_id": "bachelor_degree",
+    "sources": [
+      {
+        "source_id": "rousseau_claude_shannon_scientist_engineer",
+        "page": 3,
+        "quote": "He studied at the Michigan University where he obtained a bachelor's degree in science (mathematics and electrical engineering) in 1936."
+      }
+    ]
+  },
+  {
+    "id": "shannon_studied_mit",
+    "source": "claude_shannon",
+    "type": "studied_at",
+    "target": "mit",
+    "sources": [
+      {
+        "source_id": "rousseau_claude_shannon_scientist_engineer",
+        "page": 3,
+        "quote": "He continued his studies and obtained a Ph.D. at the prestigious MIT with an application of mathematics to genetics."
+      }
+    ]
+  },
+  {
+    "id": "shannon_worked_bell_labs",
+    "source": "claude_shannon",
+    "type": "worked_at",
+    "target": "bell_labs",
+    "start": {
+      "display": "1941",
+      "precision": "year",
+      "sort_start": "1941-01-01",
+      "sort_end": "1941-12-31"
+    },
+    "end": {
+      "display": "1956",
+      "precision": "year",
+      "sort_start": "1956-01-01",
+      "sort_end": "1956-12-31"
+    },
+    "event_id": "bell_labs_start",
+    "sources": [
+      {
+        "source_id": "rousseau_claude_shannon_scientist_engineer",
+        "page": 3,
+        "quote": "Shannon worked at Bell Labs from 1941 until 1956"
+      }
+    ]
+  },
+  {
+    "id": "shannon_member_bell_labs",
+    "source": "claude_shannon",
+    "type": "member_of",
+    "target": "bell_labs",
+    "start": {
+      "display": "1956",
+      "precision": "year",
+      "sort_start": "1956-01-01",
+      "sort_end": "1956-12-31"
+    },
+    "end": {
+      "display": "1972",
+      "precision": "year",
+      "sort_start": "1972-01-01",
+      "sort_end": "1972-12-31"
+    },
+    "event_id": "bell_labs_association_end",
+    "sources": [
+      {
+        "source_id": "rousseau_claude_shannon_scientist_engineer",
+        "page": 3,
+        "quote": "but stayed associated with this research laboratory until 1972."
+      }
+    ]
+  },
+  {
+    "id": "shannon_employed_mit",
+    "source": "claude_shannon",
+    "type": "employed_by",
+    "target": "mit",
+    "start": {
+      "display": "1956",
+      "precision": "year",
+      "sort_start": "1956-01-01",
+      "sort_end": "1956-12-31"
+    },
+    "end": {
+      "display": "1978",
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "event_id": "mit_professor_start",
+    "sources": [
+      {
+        "source_id": "rousseau_claude_shannon_scientist_engineer",
+        "page": 3,
+        "quote": "In 1956 he became a professor at MIT where he stayed until his retirement in 1978."
+      }
+    ]
+  },
+  {
+    "id": "shannon_invented_theseus",
+    "source": "claude_shannon",
+    "type": "invented",
+    "target": "theseus",
+    "sources": [
+      {
+        "source_id": "rousseau_claude_shannon_scientist_engineer",
+        "page": 4,
+        "quote": "he made a mechanical mouse (called Theseus) designed to find its way through a maze."
+      }
+    ]
+  },
+  {
+    "id": "shannon_invented_throbac",
+    "source": "claude_shannon",
+    "type": "invented",
+    "target": "throbac",
+    "sources": [
+      {
+        "source_id": "rousseau_claude_shannon_scientist_engineer",
+        "page": 4,
+        "quote": "He further constructed a computer specially designed to do calculations using Roman numerals (called THROBAC)"
+      }
+    ]
+  },
+  {
+    "id": "shannon_published_1938",
+    "source": "claude_shannon",
+    "type": "published",
+    "target": "shannon_1938_paper",
+    "event_id": "publication_1938",
+    "sources": [
+      {
+        "source_id": "rousseau_claude_shannon_scientist_engineer",
+        "page": 3,
+        "quote": "Shannon applied the ideas of Boole, developed one century earlier (Shannon, 1938)."
+      }
+    ]
+  },
+  {
+    "id": "shannon_published_1948",
+    "source": "claude_shannon",
+    "type": "published",
+    "target": "shannon_1948_paper",
+    "event_id": "publication_1948",
+    "sources": [
+      {
+        "source_id": "rousseau_claude_shannon_scientist_engineer",
+        "page": 3,
+        "quote": "It was there that he wrote in 1948 his most famous article, namely \"A mathematical theory of communication\" (an article in two parts) (Shannon, 1948a,b)."
+      }
+    ]
+  },
+  {
+    "id": "shannon_published_1949",
+    "source": "claude_shannon",
+    "type": "published",
+    "target": "shannon_1949_paper",
+    "event_id": "publication_1949",
+    "sources": [
+      {
+        "source_id": "rousseau_claude_shannon_scientist_engineer",
+        "page": 4,
+        "quote": "His article \"Communication theory of secrecy systems' transformed cryptography from an art form to a science. ... consequently published (Shannon, 1949)."
+      }
+    ]
+  },
+  {
+    "id": "shannon_awarded_ieee",
+    "source": "claude_shannon",
+    "type": "awarded",
+    "target": "ieee_medal_honor",
+    "event_id": "ieee_medal",
+    "sources": [
+      {
+        "source_id": "rousseau_claude_shannon_scientist_engineer",
+        "page": 3,
+        "quote": "He received the IEEE Medal of Honor in 1966"
+      }
+    ]
+  },
+  {
+    "id": "shannon_awarded_national",
+    "source": "claude_shannon",
+    "type": "awarded",
+    "target": "national_medal_science",
+    "event_id": "national_medal",
+    "sources": [
+      {
+        "source_id": "rousseau_claude_shannon_scientist_engineer",
+        "page": 3,
+        "quote": "In 1966 he received the American National Medal of Science (the highest scientific reward in the USA)."
+      }
+    ]
+  },
+  {
+    "id": "shannon_died_medford",
+    "source": "claude_shannon",
+    "type": "died_in",
+    "target": "medford_ma",
+    "event_id": "death",
+    "sources": [
+      {
+        "source_id": "rousseau_claude_shannon_scientist_engineer",
+        "page": 3,
+        "quote": "On Saturday, February 24, 2001, Claude Elwood Shannon died in Medford (MA, USA) at the age of 84."
+      }
+    ]
+  }
+]

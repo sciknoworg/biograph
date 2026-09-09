@@ -1,0 +1,538 @@
+[
+  {
+    "id": "turing_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "23 June 1912",
+      "precision": "day",
+      "sort_start": "1912-06-23",
+      "sort_end": "1912-06-23"
+    },
+    "participants": [
+      {
+        "entity_id": "alan_turing",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 1,
+        "quote": "Alan Turing OBE FRS (23 June 1912 – 7 June 1954)"
+      }
+    ]
+  },
+  {
+    "id": "turing_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "7 June 1954",
+      "precision": "day",
+      "sort_start": "1954-06-07",
+      "sort_end": "1954-06-07"
+    },
+    "participants": [
+      {
+        "entity_id": "alan_turing",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 1,
+        "quote": "Alan Turing OBE FRS (23 June 1912 – 7 June 1954)"
+      }
+    ]
+  },
+  {
+    "id": "turing_family_oxford_1924",
+    "event_type": "visit",
+    "label": "Family stayed in Oxford",
+    "date": {
+      "display": "summer 1924",
+      "precision": "season",
+      "sort_start": "1924-06-01",
+      "sort_end": "1924-08-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alan_turing",
+        "role": "subject"
+      },
+      {
+        "entity_id": "julius_turing",
+        "role": "family"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 1,
+        "quote": "In summer 1924, the Turing family stayed in Oxford"
+      }
+    ]
+  },
+  {
+    "id": "morcom_death",
+    "event_type": "death",
+    "label": "Morcom died",
+    "date": {
+      "display": "1930",
+      "precision": "year",
+      "sort_start": "1930-01-01",
+      "sort_end": "1930-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_morcom",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 1,
+        "quote": "Christopher Morcom (1911–1930)"
+      }
+    ]
+  },
+  {
+    "id": "turing_oxford_visit_1941",
+    "event_type": "visit",
+    "label": "Weekend visit to Oxford with Joan Clarke",
+    "date": {
+      "display": "1941",
+      "precision": "year",
+      "sort_start": "1941-01-01",
+      "sort_end": "1941-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alan_turing",
+        "role": "subject"
+      },
+      {
+        "entity_id": "joan_clarke",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 1,
+        "quote": "Later in 1941, during World War II, Hodges notes a weekend visit to Oxford with Joan Clarke"
+      }
+    ]
+  },
+  {
+    "id": "champernowne_oxford_director",
+    "event_type": "employment_start",
+    "label": "Champernowne Director of Oxford Institute of Statistics",
+    "date": {
+      "display": "1945",
+      "precision": "year",
+      "sort_start": "1945-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "david_champernowne",
+        "role": "subject"
+      },
+      {
+        "entity_id": "oxford_institute_statistics",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 2,
+        "quote": "Director of the Oxford Institute of Statistics from 1945 to 1948"
+      }
+    ]
+  },
+  {
+    "id": "turochamp_collaboration",
+    "event_type": "invention",
+    "label": "Collaborated on Turochamp",
+    "date": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alan_turing",
+        "role": "subject"
+      },
+      {
+        "entity_id": "david_champernowne",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "turochamp",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 2,
+        "quote": "In 1948, they collaborated on an early chess-playing program, Turochamp."
+      }
+    ]
+  },
+  {
+    "id": "turing_us_visit",
+    "event_type": "visit",
+    "label": "Visited the US",
+    "date": {
+      "display": "November 1942 to March 1943",
+      "precision": "range",
+      "sort_start": "1942-11-01",
+      "sort_end": "1943-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alan_turing",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 3,
+        "quote": "Turing visited the US during November 1942 to March 1943"
+      }
+    ]
+  },
+  {
+    "id": "eisenhower_oxford_visit_1942",
+    "event_type": "visit",
+    "label": "Eisenhower visited Oxford",
+    "date": {
+      "display": "October 1, 1942",
+      "precision": "day",
+      "sort_start": "1942-10-01",
+      "sort_end": "1942-10-01"
+    },
+    "participants": [
+      {
+        "entity_id": "dwight_eisenhower",
+        "role": "subject"
+      },
+      {
+        "entity_id": "walter_smith",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 3,
+        "quote": "On October 1, 1942 he visited General Walter Bedell Smith in the hospital in Oxford."
+      }
+    ]
+  },
+  {
+    "id": "eisenhower_oxford_visit_1944",
+    "event_type": "visit",
+    "label": "Eisenhower visited Oxford",
+    "date": {
+      "display": "April 16, 1944",
+      "precision": "day",
+      "sort_start": "1944-04-16",
+      "sort_end": "1944-04-16"
+    },
+    "participants": [
+      {
+        "entity_id": "dwight_eisenhower",
+        "role": "subject"
+      },
+      {
+        "entity_id": "james_gault",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 3,
+        "quote": "On April 16, 1944 he paid a visit to the hospital to see Col. James Gault."
+      }
+    ]
+  },
+  {
+    "id": "hart_oxford_professor",
+    "event_type": "employment_start",
+    "label": "Hart Professor of Jurisprudence at Oxford",
+    "date": {
+      "display": "1952",
+      "precision": "year",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "herbert_hart",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_oxford",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 3,
+        "quote": "Professor of Jurisprudence at Oxford during 1952–68"
+      }
+    ]
+  },
+  {
+    "id": "gandy_oxford_join",
+    "event_type": "employment_start",
+    "label": "Gandy joined Mathematical Institute at Oxford",
+    "date": {
+      "display": "1969",
+      "precision": "year",
+      "sort_start": "1969-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robin_gandy",
+        "role": "subject"
+      },
+      {
+        "entity_id": "mathematical_institute_oxford",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 5,
+        "quote": "Robin Gandy (1919–1995) joined the Mathematical Institute at Oxford in 1969"
+      }
+    ]
+  },
+  {
+    "id": "scott_turing_award",
+    "event_type": "award",
+    "label": "Scott received ACM Turing Award",
+    "date": {
+      "display": "1996",
+      "precision": "year",
+      "sort_start": "1996-01-01",
+      "sort_end": "1996-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "dana_scott",
+        "role": "subject"
+      },
+      {
+        "entity_id": "acm",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 5,
+        "quote": "he received the ACM Turing Award, the highest international award for computer science, in 1996."
+      }
+    ]
+  },
+  {
+    "id": "clarke_oxford_move",
+    "event_type": "relocation",
+    "label": "Clarke moved to Oxford",
+    "date": {
+      "display": "1991",
+      "precision": "year",
+      "sort_start": "1991-01-01",
+      "sort_end": "1991-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joan_clarke",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 6,
+        "quote": "moved to Oxford during her retirement and lived at 7 Lakesfield, Headington Quarry, on the outskirts of Oxford, from 1991 until her death in 1996."
+      }
+    ]
+  },
+  {
+    "id": "clarke_plaque_unveiled",
+    "event_type": "award",
+    "label": "Blue plaque unveiled for Clarke",
+    "date": {
+      "display": "27 July 2019",
+      "precision": "day",
+      "sort_start": "2019-07-27",
+      "sort_end": "2019-07-27"
+    },
+    "participants": [
+      {
+        "entity_id": "joan_clarke",
+        "role": "subject"
+      },
+      {
+        "entity_id": "blue_plaque_clarke",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 6,
+        "quote": "On 27 July 2019, the Oxfordshire Blue Plaques Board unveiled a plaque to record this connection"
+      }
+    ]
+  },
+  {
+    "id": "prg_founded",
+    "event_type": "company_founded",
+    "label": "Programming Research Group founded",
+    "date": {
+      "display": "1965",
+      "precision": "year",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_strachey",
+        "role": "subject"
+      },
+      {
+        "entity_id": "programming_research_group",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 6,
+        "quote": "This was founded in 1965 under the leadership of Christopher Strachey"
+      }
+    ]
+  },
+  {
+    "id": "james_oxford_matriculation",
+    "event_type": "education",
+    "label": "James matriculated at Oxford",
+    "date": {
+      "display": "1946",
+      "precision": "year",
+      "sort_start": "1946-01-01",
+      "sort_end": "1946-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ioan_james",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_oxford",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 7,
+        "quote": "Professor Ioan James FRS, who matriculated at Oxford in 1946"
+      }
+    ]
+  },
+  {
+    "id": "kendall_oxford_tutor",
+    "event_type": "employment_start",
+    "label": "Kendall tutor at Magdalen College",
+    "date": {
+      "display": "1946",
+      "precision": "year",
+      "sort_start": "1946-01-01",
+      "sort_end": "1946-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "david_kendall",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 7,
+        "quote": "David Kendall (1918–2007), from 1946 a tutor at Magdalen College, Oxford"
+      }
+    ]
+  },
+  {
+    "id": "bowen_talk_2020",
+    "event_type": "conference",
+    "label": "Bowen gave online talk",
+    "date": {
+      "display": "2020",
+      "precision": "year",
+      "sort_start": "2020-01-01",
+      "sort_end": "2020-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jonathan_bowen",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 7,
+        "quote": "In 2020 during the Covid pandemic, I gave an online talk based on my research to that point on evidence of Turing having visited Oxford"
+      }
+    ]
+  },
+  {
+    "id": "james_letter_2021",
+    "event_type": "other",
+    "label": "James letter arrived",
+    "date": {
+      "display": "February 2021",
+      "precision": "month",
+      "sort_start": "2021-02-01",
+      "sort_end": "2021-02-28"
+    },
+    "participants": [
+      {
+        "entity_id": "ioan_james",
+        "role": "subject"
+      },
+      {
+        "entity_id": "jonathan_bowen",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 7,
+        "quote": "in February 2021, a hand-written letter arrived at my home"
+      }
+    ]
+  }
+]

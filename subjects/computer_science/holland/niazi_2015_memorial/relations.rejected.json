@@ -1,0 +1,32 @@
+[
+  {
+    "id": "holland_born",
+    "source": "john_henry_holland",
+    "type": "born_in",
+    "target": "john_henry_holland",
+    "event_id": "holland_birth",
+    "sources": [
+      {
+        "source_id": "niazi_2015_memorial",
+        "page": 1,
+        "quote": "John Henry Holland—a pioneer of complex adaptive systems research (February 2, 1929–August 9, 2015)"
+      }
+    ],
+    "_rejected_because": "'born_in' expects target entity_type place, but 'john_henry_holland' is 'person'"
+  },
+  {
+    "id": "holland_died",
+    "source": "john_henry_holland",
+    "type": "died_in",
+    "target": "john_henry_holland",
+    "event_id": "holland_death",
+    "sources": [
+      {
+        "source_id": "niazi_2015_memorial",
+        "page": 1,
+        "quote": "On August 9, 2015, cancer took Prof. John Henry Holland away from us."
+      }
+    ],
+    "_rejected_because": "'died_in' expects target entity_type place, but 'john_henry_holland' is 'person'"
+  }
+]

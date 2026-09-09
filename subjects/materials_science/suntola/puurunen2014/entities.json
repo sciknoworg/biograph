@@ -171,7 +171,9 @@
     "subtype": "city",
     "attributes": {
       "lng": 23.76,
-      "wikidata_qid": "Q40840"
+      "wikidata_qid": "Q40840",
+      "lat": 61.49806,
+      "geocode_basis": "document"
     }
   },
   {
@@ -180,8 +182,10 @@
     "name": "Turku, Finland",
     "subtype": "city",
     "attributes": {
-      "lng": 22.266944,
-      "wikidata_qid": "Q38511"
+      "lng": 22.26694,
+      "wikidata_qid": "Q38511",
+      "lat": 60.45167,
+      "geocode_basis": "document"
     }
   },
   {
@@ -191,8 +195,10 @@
     "subtype": "city",
     "summary": "Location of Otaniemi (HUT), Tapiola (Instrumentarium), and Olarinluoma (Lohja's EL production facility).",
     "attributes": {
-      "lng": 24.655556,
-      "wikidata_qid": "Q47034"
+      "lng": 24.65556,
+      "wikidata_qid": "Q47034",
+      "lat": 60.20556,
+      "geocode_basis": "document"
     }
   },
   {
@@ -201,8 +207,10 @@
     "name": "Leningrad (present-day St. Petersburg)",
     "subtype": "city",
     "attributes": {
-      "lng": 30.316667,
-      "wikidata_qid": "Q656"
+      "lng": 30.31667,
+      "wikidata_qid": "Q656",
+      "lat": 59.95,
+      "geocode_basis": "most_linked"
     }
   },
   {
@@ -212,7 +220,9 @@
     "subtype": "city",
     "attributes": {
       "lng": -117.1625,
-      "wikidata_qid": "Q16552"
+      "wikidata_qid": "Q16552",
+      "lat": 32.715,
+      "geocode_basis": "document"
     }
   },
   {
@@ -221,8 +231,10 @@
     "name": "Boston, Massachusetts, USA",
     "subtype": "city",
     "attributes": {
-      "lng": -71.057778,
-      "wikidata_qid": "Q100"
+      "lng": -71.05778,
+      "wikidata_qid": "Q100",
+      "lat": 42.36028,
+      "geocode_basis": "document"
     }
   },
   {
@@ -243,8 +255,10 @@
     "name": "Kobe, Japan",
     "subtype": "city",
     "attributes": {
-      "lng": 135.195444,
-      "wikidata_qid": "Q48320"
+      "lng": 135.19544,
+      "wikidata_qid": "Q48320",
+      "lat": 34.69017,
+      "geocode_basis": "document"
     }
   },
   {
@@ -254,8 +268,10 @@
     "subtype": "city",
     "summary": "Site of Lohja Oy's Kunnarla TF-EL pilot production plant.",
     "attributes": {
-      "lng": 24.066667,
-      "wikidata_qid": "Q214777"
+      "lng": 24.06667,
+      "wikidata_qid": "Q214777",
+      "lat": 60.25,
+      "geocode_basis": "document"
     }
   },
   {

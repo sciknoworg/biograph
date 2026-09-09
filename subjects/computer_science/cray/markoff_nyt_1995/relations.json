@@ -1,0 +1,154 @@
+[
+  {
+    "id": "born_in_chippewa",
+    "source": "seymour_cray",
+    "type": "born_in",
+    "target": "chippewa_falls",
+    "event_id": "birth",
+    "sources": [
+      {
+        "source_id": "markoff_nyt_1995",
+        "page": 1,
+        "quote": "Cray was born Sept. 28, 1925, in Chippewa Falls, Wis."
+      }
+    ]
+  },
+  {
+    "id": "studied_at_uminn",
+    "source": "seymour_cray",
+    "type": "studied_at",
+    "target": "university_of_minnesota",
+    "event_id": "graduation",
+    "sources": [
+      {
+        "source_id": "markoff_nyt_1995",
+        "page": 1,
+        "quote": "graduation from the University of Minnesota in 1951"
+      }
+    ]
+  },
+  {
+    "id": "worked_at_era",
+    "source": "seymour_cray",
+    "type": "worked_at",
+    "target": "engineering_research_associates",
+    "event_id": "joined_era",
+    "sources": [
+      {
+        "source_id": "markoff_nyt_1995",
+        "page": 1,
+        "quote": "go down the street here to Engineering Research Associates"
+      }
+    ]
+  },
+  {
+    "id": "worked_at_cdc",
+    "source": "seymour_cray",
+    "type": "worked_at",
+    "target": "control_data",
+    "event_id": "joined_cdc",
+    "sources": [
+      {
+        "source_id": "markoff_nyt_1995",
+        "page": 1,
+        "quote": "young electrical engineer at Control Data Corp. in the late 1950s"
+      }
+    ]
+  },
+  {
+    "id": "founded_cray_research_rel",
+    "source": "seymour_cray",
+    "type": "founded",
+    "target": "cray_research",
+    "event_id": "founded_cray_research",
+    "sources": [
+      {
+        "source_id": "markoff_nyt_1995",
+        "page": 1,
+        "quote": "Cray Research, the company he founded in 1972"
+      }
+    ]
+  },
+  {
+    "id": "founded_cray_computer_rel",
+    "source": "seymour_cray",
+    "type": "founded",
+    "target": "cray_computer_corp",
+    "event_id": "founded_cray_computer",
+    "sources": [
+      {
+        "source_id": "markoff_nyt_1995",
+        "page": 1,
+        "quote": "Cray left Cray Research in 1989 to form Cray Computer Corp."
+      }
+    ]
+  },
+  {
+    "id": "founded_src_rel",
+    "source": "seymour_cray",
+    "type": "founded",
+    "target": "src_computers",
+    "event_id": "founded_src",
+    "sources": [
+      {
+        "source_id": "markoff_nyt_1995",
+        "page": 1,
+        "quote": "Cray announced that he had formed a new company, SRC Computers"
+      }
+    ]
+  },
+  {
+    "id": "developed_cdc_6600",
+    "source": "seymour_cray",
+    "type": "developed",
+    "target": "cdc_6600",
+    "event_id": "cdc_6600_intro",
+    "sources": [
+      {
+        "source_id": "markoff_nyt_1995",
+        "page": 1,
+        "quote": "Cray's first supercomputers, notably the Control Data 6600"
+      }
+    ]
+  },
+  {
+    "id": "developed_cray_1",
+    "source": "seymour_cray",
+    "type": "developed",
+    "target": "cray_1",
+    "event_id": "cray_1_sold",
+    "sources": [
+      {
+        "source_id": "markoff_nyt_1995",
+        "page": 1,
+        "quote": "sold its first Cray 1 computer"
+      }
+    ]
+  },
+  {
+    "id": "rollwagen_employed",
+    "source": "john_rollwagen",
+    "type": "employed_by",
+    "target": "cray_research",
+    "sources": [
+      {
+        "source_id": "markoff_nyt_1995",
+        "page": 1,
+        "quote": "John Rollwagen, a business executive who worked with Cray for many years at Cray Research Inc."
+      }
+    ]
+  },
+  {
+    "id": "norris_founded_cdc",
+    "source": "william_norris",
+    "type": "founded",
+    "target": "control_data",
+    "sources": [
+      {
+        "source_id": "markoff_nyt_1995",
+        "page": 1,
+        "quote": "join William C. Norris, ERA's founder, who had started a new company, Control Data."
+      }
+    ]
+  }
+]

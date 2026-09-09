@@ -1,0 +1,448 @@
+[
+  {
+    "id": "birth",
+    "event_type": "birth",
+    "label": "Born in Petoskey",
+    "date": {
+      "display": "April 30, 1916",
+      "precision": "day",
+      "sort_start": "1916-04-30",
+      "sort_end": "1916-04-30"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_shannon",
+        "role": "subject"
+      }
+    ],
+    "location": "petoskey_mi",
+    "sources": [
+      {
+        "source_id": "rousseau_claude_shannon_scientist_engineer",
+        "page": 3,
+        "quote": "Shannon was born in Petoskey (Michigan, USA) on April 30, 1916."
+      }
+    ]
+  },
+  {
+    "id": "bachelor_degree",
+    "event_type": "education",
+    "label": "Obtained bachelor's degree",
+    "date": {
+      "display": "1936",
+      "precision": "year",
+      "sort_start": "1936-01-01",
+      "sort_end": "1936-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_shannon",
+        "role": "subject"
+      },
+      {
+        "entity_id": "michigan_university",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rousseau_claude_shannon_scientist_engineer",
+        "page": 3,
+        "quote": "He studied at the Michigan University where he obtained a bachelor's degree in science (mathematics and electrical engineering) in 1936."
+      }
+    ]
+  },
+  {
+    "id": "bell_labs_start",
+    "event_type": "employment_start",
+    "label": "Started work at Bell Labs",
+    "date": {
+      "display": "1941",
+      "precision": "year",
+      "sort_start": "1941-01-01",
+      "sort_end": "1941-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_shannon",
+        "role": "subject"
+      },
+      {
+        "entity_id": "bell_labs",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rousseau_claude_shannon_scientist_engineer",
+        "page": 3,
+        "quote": "Shannon worked at Bell Labs from 1941 until 1956"
+      }
+    ]
+  },
+  {
+    "id": "publication_1938",
+    "event_type": "publication",
+    "label": "Published switching circuits article",
+    "date": {
+      "display": "1938",
+      "precision": "year",
+      "sort_start": "1938-01-01",
+      "sort_end": "1938-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_shannon",
+        "role": "author"
+      },
+      {
+        "entity_id": "shannon_1938_paper",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rousseau_claude_shannon_scientist_engineer",
+        "page": 3,
+        "quote": "Shannon applied the ideas of Boole, developed one century earlier (Shannon, 1938)."
+      }
+    ]
+  },
+  {
+    "id": "publication_1948",
+    "event_type": "publication",
+    "label": "Published communication theory article",
+    "date": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_shannon",
+        "role": "author"
+      },
+      {
+        "entity_id": "shannon_1948_paper",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rousseau_claude_shannon_scientist_engineer",
+        "page": 3,
+        "quote": "It was there that he wrote in 1948 his most famous article, namely \"A mathematical theory of communication\" (an article in two parts) (Shannon, 1948a,b)."
+      }
+    ]
+  },
+  {
+    "id": "publication_1949",
+    "event_type": "publication",
+    "label": "Published secrecy systems article",
+    "date": {
+      "display": "1949",
+      "precision": "year",
+      "sort_start": "1949-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_shannon",
+        "role": "author"
+      },
+      {
+        "entity_id": "shannon_1949_paper",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rousseau_claude_shannon_scientist_engineer",
+        "page": 4,
+        "quote": "His article \"Communication theory of secrecy systems' transformed cryptography from an art form to a science. ... consequently published (Shannon, 1949)."
+      }
+    ]
+  },
+  {
+    "id": "dartmouth_meeting",
+    "event_type": "conference",
+    "label": "Attended Dartmouth AI meeting",
+    "date": {
+      "display": "summer of 1956",
+      "precision": "season",
+      "sort_start": "1956-06-01",
+      "sort_end": "1956-08-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_shannon",
+        "role": "subject"
+      },
+      {
+        "entity_id": "dartmouth_college",
+        "role": "location"
+      },
+      {
+        "entity_id": "john_mccarthy",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rousseau_claude_shannon_scientist_engineer",
+        "page": 4,
+        "quote": "Shannon was invited among the select little 'club' of scientists that, during the summer of 1956, came together at Dartmouth College under the direction of John McCarthy."
+      }
+    ]
+  },
+  {
+    "id": "mit_professor_start",
+    "event_type": "employment_start",
+    "label": "Became professor at MIT",
+    "date": {
+      "display": "1956",
+      "precision": "year",
+      "sort_start": "1956-01-01",
+      "sort_end": "1956-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_shannon",
+        "role": "subject"
+      },
+      {
+        "entity_id": "mit",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rousseau_claude_shannon_scientist_engineer",
+        "page": 3,
+        "quote": "In 1956 he became a professor at MIT where he stayed until his retirement in 1978."
+      }
+    ]
+  },
+  {
+    "id": "bell_labs_association_end",
+    "event_type": "employment_end",
+    "label": "Ended association with Bell Labs",
+    "date": {
+      "display": "1972",
+      "precision": "year",
+      "sort_start": "1972-01-01",
+      "sort_end": "1972-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_shannon",
+        "role": "subject"
+      },
+      {
+        "entity_id": "bell_labs",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rousseau_claude_shannon_scientist_engineer",
+        "page": 3,
+        "quote": "but stayed associated with this research laboratory until 1972."
+      }
+    ]
+  },
+  {
+    "id": "ieee_medal",
+    "event_type": "award",
+    "label": "Received IEEE Medal of Honor",
+    "date": {
+      "display": "1966",
+      "precision": "year",
+      "sort_start": "1966-01-01",
+      "sort_end": "1966-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_shannon",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ieee_medal_honor",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rousseau_claude_shannon_scientist_engineer",
+        "page": 3,
+        "quote": "He received the IEEE Medal of Honor in 1966"
+      }
+    ]
+  },
+  {
+    "id": "national_medal",
+    "event_type": "award",
+    "label": "Received National Medal of Science",
+    "date": {
+      "display": "1966",
+      "precision": "year",
+      "sort_start": "1966-01-01",
+      "sort_end": "1966-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_shannon",
+        "role": "subject"
+      },
+      {
+        "entity_id": "national_medal_science",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rousseau_claude_shannon_scientist_engineer",
+        "page": 3,
+        "quote": "In 1966 he received the American National Medal of Science (the highest scientific reward in the USA)."
+      }
+    ]
+  },
+  {
+    "id": "retirement",
+    "event_type": "retirement",
+    "label": "Retired from MIT",
+    "date": {
+      "display": "1978",
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_shannon",
+        "role": "subject"
+      },
+      {
+        "entity_id": "mit",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rousseau_claude_shannon_scientist_engineer",
+        "page": 3,
+        "quote": "where he stayed until his retirement in 1978."
+      }
+    ]
+  },
+  {
+    "id": "john_fritz_medal",
+    "event_type": "award",
+    "label": "Received John Fritz Medal",
+    "date": {
+      "display": "1983",
+      "precision": "year",
+      "sort_start": "1983-01-01",
+      "sort_end": "1983-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_shannon",
+        "role": "subject"
+      },
+      {
+        "entity_id": "john_fritz_medal",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rousseau_claude_shannon_scientist_engineer",
+        "page": 3,
+        "quote": "He, moreover, received the John Fritz Medal (in 1983)"
+      }
+    ]
+  },
+  {
+    "id": "kyoto_prize",
+    "event_type": "award",
+    "label": "Received Kyoto Prize",
+    "date": {
+      "display": "1985",
+      "precision": "year",
+      "sort_start": "1985-01-01",
+      "sort_end": "1985-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_shannon",
+        "role": "subject"
+      },
+      {
+        "entity_id": "kyoto_prize",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rousseau_claude_shannon_scientist_engineer",
+        "page": 3,
+        "quote": "and the Kyoto Prize (in 1985)."
+      }
+    ]
+  },
+  {
+    "id": "collected_papers",
+    "event_type": "publication",
+    "label": "Collected papers published",
+    "date": {
+      "display": "1993",
+      "precision": "year",
+      "sort_start": "1993-01-01",
+      "sort_end": "1993-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_shannon",
+        "role": "subject"
+      },
+      {
+        "entity_id": "collected_papers_shannon",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rousseau_claude_shannon_scientist_engineer",
+        "page": 12,
+        "quote": "Finally we like to mention that Sloane and Wyner (1993) edited the collected works of Claude Shannon."
+      }
+    ]
+  },
+  {
+    "id": "death",
+    "event_type": "death",
+    "label": "Died in Medford",
+    "date": {
+      "display": "February 24, 2001",
+      "precision": "day",
+      "sort_start": "2001-02-24",
+      "sort_end": "2001-02-24"
+    },
+    "participants": [
+      {
+        "entity_id": "claude_shannon",
+        "role": "subject"
+      }
+    ],
+    "location": "medford_ma",
+    "sources": [
+      {
+        "source_id": "rousseau_claude_shannon_scientist_engineer",
+        "page": 3,
+        "quote": "On Saturday, February 24, 2001, Claude Elwood Shannon died in Medford (MA, USA) at the age of 84."
+      }
+    ]
+  }
+]

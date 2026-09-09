@@ -1,0 +1,296 @@
+[
+  {
+    "id": "zuse_birth",
+    "event_type": "birth",
+    "label": "Born in Berlin",
+    "date": {
+      "display": "June 22, 1910",
+      "precision": "day",
+      "sort_start": "1910-06-22",
+      "sort_end": "1910-06-22"
+    },
+    "participants": [
+      {
+        "entity_id": "konrad_zuse",
+        "role": "subject"
+      }
+    ],
+    "location": "berlin_wilmersdorf",
+    "sources": [
+      {
+        "source_id": "icca_journal_1996_03",
+        "page": 1,
+        "quote": "Born on June 22, 1910, in Berlin (Wilmersdorf)"
+      }
+    ]
+  },
+  {
+    "id": "zuse_exam_1927",
+    "event_type": "education",
+    "label": "Took final examination",
+    "date": {
+      "display": "1927",
+      "precision": "year",
+      "sort_start": "1927-01-01",
+      "sort_end": "1927-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "konrad_zuse",
+        "role": "subject"
+      },
+      {
+        "entity_id": "reform_real_gymnasium_hoyerswerda",
+        "role": "educator"
+      }
+    ],
+    "location": "hoyerswerda_silesia",
+    "sources": [
+      {
+        "source_id": "icca_journal_1996_03",
+        "page": 1,
+        "quote": "he took his final examination in 1927 in the Reform-Real-Gymnasium in Hoyerswerda, Silesia"
+      }
+    ]
+  },
+  {
+    "id": "zuse_degree_1935",
+    "event_type": "education",
+    "label": "Granted degree as Architectural Engineer",
+    "date": {
+      "display": "1935",
+      "precision": "year",
+      "sort_start": "1935-01-01",
+      "sort_end": "1935-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "konrad_zuse",
+        "role": "subject"
+      },
+      {
+        "entity_id": "technische_hochschule_berlin_charlottenburg",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "icca_journal_1996_03",
+        "page": 1,
+        "quote": "Eight years later he would be granted a degree as an Architectural Engineer from the Technische Hochschule Berlin-Charlottenburg."
+      }
+    ]
+  },
+  {
+    "id": "z1_built",
+    "event_type": "invention",
+    "label": "Built Z1 calculator",
+    "date": {
+      "display": "1936-1938",
+      "precision": "range",
+      "sort_start": "1936-01-01",
+      "sort_end": "1938-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "konrad_zuse",
+        "role": "subject"
+      },
+      {
+        "entity_id": "z1",
+        "role": "invention"
+      }
+    ],
+    "location": "berlin_wilmersdorf",
+    "sources": [
+      {
+        "source_id": "icca_journal_1996_03",
+        "page": 1,
+        "quote": "During the next two years (1936-1938), he revealed himself as a persistent and gifted tinkerer."
+      }
+    ]
+  },
+  {
+    "id": "z2_built",
+    "event_type": "invention",
+    "label": "Built Z2 computer",
+    "date": {
+      "display": "1938",
+      "precision": "year",
+      "sort_start": "1938-01-01",
+      "sort_end": "1938-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "konrad_zuse",
+        "role": "subject"
+      },
+      {
+        "entity_id": "z2",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "icca_journal_1996_03",
+        "page": 1,
+        "quote": "Soon thereafter, also in 1938, a successor was built, or, rather, part of the ZI was cannibalized to provide a store for the Z2"
+      }
+    ]
+  },
+  {
+    "id": "z3_operational",
+    "event_type": "invention",
+    "label": "Z3 engine saw the light",
+    "date": {
+      "display": "1941",
+      "precision": "year",
+      "sort_start": "1941-01-01",
+      "sort_end": "1941-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "konrad_zuse",
+        "role": "subject"
+      },
+      {
+        "entity_id": "z3",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "icca_journal_1996_03",
+        "page": 1,
+        "quote": "the Z3 engine saw the light in 1941."
+      }
+    ]
+  },
+  {
+    "id": "z3_destroyed",
+    "event_type": "other",
+    "label": "Z3 destroyed by bombing",
+    "date": {
+      "display": "1943",
+      "precision": "year",
+      "sort_start": "1943-01-01",
+      "sort_end": "1943-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "z3",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "icca_journal_1996_03",
+        "page": 1,
+        "quote": "The one and only copy was destroyed by bombing in 1943"
+      }
+    ]
+  },
+  {
+    "id": "z4_transferred_gottingen",
+    "event_type": "relocation",
+    "label": "Z4 transferred to Gottingen",
+    "date": {
+      "display": "1945",
+      "precision": "year",
+      "sort_start": "1945-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "z4",
+        "role": "invention"
+      }
+    ],
+    "location": "gottingen",
+    "sources": [
+      {
+        "source_id": "icca_journal_1996_03",
+        "page": 1,
+        "quote": "The Z4 was transferred in 1945 to Gottingen"
+      }
+    ]
+  },
+  {
+    "id": "zuse_retired_hinterstein",
+    "event_type": "relocation",
+    "label": "Retired to Hinterstein",
+    "date": {
+      "display": "1945",
+      "precision": "year",
+      "sort_start": "1945-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "konrad_zuse",
+        "role": "subject"
+      }
+    ],
+    "location": "hinterstein_southern_swabia",
+    "sources": [
+      {
+        "source_id": "icca_journal_1996_03",
+        "page": 1,
+        "quote": "When he was forced to retire in 1945 to the hamlet of Hinterstein in Southern Swabia"
+      }
+    ]
+  },
+  {
+    "id": "plankalkul_published",
+    "event_type": "publication",
+    "label": "Plankalkül paper published",
+    "date": {
+      "display": "1972",
+      "precision": "year",
+      "sort_start": "1972-01-01",
+      "sort_end": "1972-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "konrad_zuse",
+        "role": "subject"
+      },
+      {
+        "entity_id": "plankalkul",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "icca_journal_1996_03",
+        "page": 1,
+        "quote": "the paper was only published in 1972."
+      }
+    ]
+  },
+  {
+    "id": "zuse_death",
+    "event_type": "death",
+    "label": "Died in Hunfeld",
+    "date": {
+      "display": "18 December 1995",
+      "precision": "day",
+      "sort_start": "1995-12-18",
+      "sort_end": "1995-12-18"
+    },
+    "participants": [
+      {
+        "entity_id": "konrad_zuse",
+        "role": "subject"
+      }
+    ],
+    "location": "hunfeld_hesse",
+    "sources": [
+      {
+        "source_id": "icca_journal_1996_03",
+        "page": 1,
+        "quote": "He died in his native Germany, in St. Elisabeth's hospital at Hunfeld, Hesse, on Monday 18 December 1995."
+      }
+    ]
+  }
+]

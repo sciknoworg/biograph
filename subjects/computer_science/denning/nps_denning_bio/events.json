@@ -1,0 +1,198 @@
+[
+  {
+    "id": "denning_acm_leadership_start",
+    "event_type": "role_change",
+    "label": "Began ACM leadership activities",
+    "description": "Started active leadership role in the Association for Computing Machinery.",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "peter_denning",
+        "role": "subject"
+      },
+      {
+        "entity_id": "acm",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "nps_denning_bio",
+        "page": 1,
+        "quote": "He has been an active leader since 1967 in the Association for Computing Machinery (ACM), the leading professional society for computing."
+      }
+    ]
+  },
+  {
+    "id": "denning_acm_president",
+    "event_type": "role_change",
+    "label": "Elected ACM President",
+    "description": "Served as president of the Association for Computing Machinery.",
+    "date": {
+      "display": "1980-82",
+      "precision": "range",
+      "sort_start": "1980-01-01",
+      "sort_end": "1982-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "peter_denning",
+        "role": "subject"
+      },
+      {
+        "entity_id": "acm",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "nps_denning_bio",
+        "page": 1,
+        "quote": "He was president in 1980-82."
+      }
+    ]
+  },
+  {
+    "id": "denning_beyond_calculation_pub",
+    "event_type": "publication",
+    "label": "Published Beyond Calculation",
+    "description": "Book published by Copernicus.",
+    "date": {
+      "display": "1997",
+      "precision": "year",
+      "sort_start": "1997-01-01",
+      "sort_end": "1997-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "peter_denning",
+        "role": "subject"
+      },
+      {
+        "entity_id": "beyond_calculation",
+        "role": "invention"
+      },
+      {
+        "entity_id": "copernicus",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "nps_denning_bio",
+        "page": 1,
+        "quote": "His books include The Invisible Future (McGraw, 2001) and  Beyond Calculation (Copernicus, 1997)."
+      }
+    ]
+  },
+  {
+    "id": "denning_invisible_future_pub",
+    "event_type": "publication",
+    "label": "Published The Invisible Future",
+    "description": "Book published by McGraw.",
+    "date": {
+      "display": "2001",
+      "precision": "year",
+      "sort_start": "2001-01-01",
+      "sort_end": "2001-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "peter_denning",
+        "role": "subject"
+      },
+      {
+        "entity_id": "the_invisible_future",
+        "role": "invention"
+      },
+      {
+        "entity_id": "mcgraw",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "nps_denning_bio",
+        "page": 1,
+        "quote": "His books include The Invisible Future (McGraw, 2001) and  Beyond Calculation (Copernicus, 1997)."
+      }
+    ]
+  },
+  {
+    "id": "denning_postel_award",
+    "event_type": "award",
+    "label": "Received Internet Society Postel Award",
+    "description": "Shared award for CSNET achievement.",
+    "date": {
+      "display": "2009",
+      "precision": "year",
+      "sort_start": "2009-01-01",
+      "sort_end": "2009-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "peter_denning",
+        "role": "subject"
+      },
+      {
+        "entity_id": "postel_award",
+        "role": "invention"
+      },
+      {
+        "entity_id": "internet_society",
+        "role": "awarding_body"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "nps_denning_bio",
+        "page": 1,
+        "quote": "He co-founded CSNET, the computer science network of NSF, and  shared  in the  2009 Internet Society Postel Award  for the achievement"
+      }
+    ]
+  },
+  {
+    "id": "denning_innovators_way_pub",
+    "event_type": "publication",
+    "label": "Published The Innovator's Way",
+    "description": "Book co-authored with Bob Dunham, published by MIT Press.",
+    "date": {
+      "display": "2010",
+      "precision": "year",
+      "sort_start": "2010-01-01",
+      "sort_end": "2010-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "peter_denning",
+        "role": "subject"
+      },
+      {
+        "entity_id": "the_innovators_way",
+        "role": "invention"
+      },
+      {
+        "entity_id": "mit_press",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "nps_denning_bio",
+        "page": 1,
+        "quote": "H is most recent book is The Innovator's  Way (with Bob Dunham, MIT Press 2010), about the essential practices of successful innovation."
+      }
+    ]
+  }
+]

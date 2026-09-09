@@ -1,0 +1,278 @@
+[
+  {
+    "id": "holland_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "description": "John Henry Holland was born on February 2, 1929.",
+    "date": {
+      "display": "February 2, 1929",
+      "precision": "day",
+      "sort_start": "1929-02-02",
+      "sort_end": "1929-02-02"
+    },
+    "participants": [
+      {
+        "entity_id": "john_henry_holland",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "niazi_2015_memorial",
+        "page": 1,
+        "quote": "John Henry Holland—a pioneer of complex adaptive systems research (February 2, 1929–August 9, 2015)"
+      }
+    ]
+  },
+  {
+    "id": "holland_death",
+    "event_type": "death",
+    "label": "Died",
+    "description": "Prof. John Henry Holland died of cancer on August 9, 2015.",
+    "date": {
+      "display": "August 9, 2015",
+      "precision": "day",
+      "sort_start": "2015-08-09",
+      "sort_end": "2015-08-09"
+    },
+    "participants": [
+      {
+        "entity_id": "john_henry_holland",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "niazi_2015_memorial",
+        "page": 1,
+        "quote": "On August 9, 2015, cancer took Prof. John Henry Holland away from us."
+      }
+    ]
+  },
+  {
+    "id": "holland_mit_undergrad",
+    "event_type": "education",
+    "label": "Received undergraduate degree in Physics from MIT",
+    "description": "Holland had an undergraduate degree in Physics from MIT.",
+    "date": {
+      "display": "1950",
+      "precision": "year",
+      "sort_start": "1950-01-01",
+      "sort_end": "1950-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_henry_holland",
+        "role": "subject"
+      },
+      {
+        "entity_id": "mit",
+        "role": "educator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "niazi_2015_memorial",
+        "page": 1,
+        "quote": "He had an undergraduate degree in Physics from MIT (1950)"
+      }
+    ]
+  },
+  {
+    "id": "holland_michigan_ma",
+    "event_type": "education",
+    "label": "Received M.A. in Mathematics from University of Michigan",
+    "description": "Holland received an M.A. in Mathematics from the University of Michigan.",
+    "date": {
+      "display": "1954",
+      "precision": "year",
+      "sort_start": "1954-01-01",
+      "sort_end": "1954-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_henry_holland",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_michigan",
+        "role": "educator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "niazi_2015_memorial",
+        "page": 1,
+        "quote": "an M.A. in Mathematics (1954) and possibly the first ever PhD in Computer Science (1959), both from the University of Michigan"
+      }
+    ]
+  },
+  {
+    "id": "holland_michigan_phd",
+    "event_type": "education",
+    "label": "Received PhD in Computer Science from University of Michigan",
+    "description": "Holland received possibly the first ever PhD in Computer Science from the University of Michigan.",
+    "date": {
+      "display": "1959",
+      "precision": "year",
+      "sort_start": "1959-01-01",
+      "sort_end": "1959-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_henry_holland",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_michigan",
+        "role": "educator"
+      }
+    ],
+    "certainty": "approximate",
+    "sources": [
+      {
+        "source_id": "niazi_2015_memorial",
+        "page": 1,
+        "quote": "an M.A. in Mathematics (1954) and possibly the first ever PhD in Computer Science (1959), both from the University of Michigan"
+      }
+    ]
+  },
+  {
+    "id": "holland_michigan_professor",
+    "event_type": "employment_start",
+    "label": "Became Professor at University of Michigan",
+    "description": "Holland served as a Professor of Psychology, Electrical Engineering and Computer Science at the University of Michigan.",
+    "date": {
+      "display": "after 1959",
+      "precision": "year",
+      "sort_start": "1959-01-01",
+      "sort_end": "2015-08-09"
+    },
+    "participants": [
+      {
+        "entity_id": "john_henry_holland",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_michigan",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "niazi_2015_memorial",
+        "page": 1,
+        "quote": "a place where he also subsequently served as a Professor of Psychology, Electrical Engineering and Computer Science"
+      }
+    ]
+  },
+  {
+    "id": "holland_publication_1962",
+    "event_type": "publication",
+    "label": "Published 'Outline for a logical theory of adaptive systems'",
+    "description": "Holland published work on adaptive systems in J ACM.",
+    "date": {
+      "display": "1962",
+      "precision": "year",
+      "sort_start": "1962-01-01",
+      "sort_end": "1962-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_henry_holland",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "niazi_2015_memorial",
+        "page": 1,
+        "quote": "He is known not only for his work on CAS, Holland (1962, 1992)"
+      }
+    ]
+  },
+  {
+    "id": "holland_publication_1995",
+    "event_type": "publication",
+    "label": "Published 'Hidden order: How adaptation builds complexity'",
+    "description": "Holland published work on adaptation in natural and artificial systems leading to genetic algorithms.",
+    "date": {
+      "display": "1995",
+      "precision": "year",
+      "sort_start": "1995-01-01",
+      "sort_end": "1995-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_henry_holland",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "niazi_2015_memorial",
+        "page": 1,
+        "quote": "but also for his seminal work on adaptation in natural and artificial systems leading to the creation of genetic algorithms and eventually the fields of evolutionary computation, Holland (1995)"
+      }
+    ]
+  },
+  {
+    "id": "holland_publication_2012",
+    "event_type": "publication",
+    "label": "Published 'Signals and boundaries: building blocks for complex adaptive systems'",
+    "description": "One of Holland's recent books summarizing his views on CAS in longer form.",
+    "date": {
+      "display": "2012",
+      "precision": "year",
+      "sort_start": "2012-01-01",
+      "sort_end": "2012-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_henry_holland",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "niazi_2015_memorial",
+        "page": 1,
+        "quote": "Two of his recent books summarize his views on CAS in both a longer, Holland (2012) as well as a shorter form, Holland (2014)."
+      }
+    ]
+  },
+  {
+    "id": "holland_publication_2014",
+    "event_type": "publication",
+    "label": "Published 'Complexity: a very short introduction'",
+    "description": "One of Holland's recent books summarizing his views on CAS in shorter form.",
+    "date": {
+      "display": "2014",
+      "precision": "year",
+      "sort_start": "2014-01-01",
+      "sort_end": "2014-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_henry_holland",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "niazi_2015_memorial",
+        "page": 1,
+        "quote": "Two of his recent books summarize his views on CAS in both a longer, Holland (2012) as well as a shorter form, Holland (2014)."
+      }
+    ]
+  }
+]

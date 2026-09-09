@@ -1,0 +1,30 @@
+[
+  {
+    "id": "turing_born_maida_vale",
+    "source": "alan_turing",
+    "type": "born_in",
+    "target": "maida_vale",
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 6,
+        "quote": "Alan Turing has blue plaques celebrating locations with which he is associated, such as his place of birth in Maida Vale, west London"
+      }
+    ],
+    "_rejected_because": "unknown target entity 'maida_vale'"
+  },
+  {
+    "id": "turing_died_wilmslow",
+    "source": "alan_turing",
+    "type": "died_in",
+    "target": "wilmslow",
+    "sources": [
+      {
+        "source_id": "bowen_2021_alan_turing_and_oxford",
+        "page": 6,
+        "quote": "and his place of death in Wilmslow, Cheshire"
+      }
+    ],
+    "_rejected_because": "unknown target entity 'wilmslow'"
+  }
+]

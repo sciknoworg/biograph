@@ -1,0 +1,336 @@
+[
+  {
+    "id": "birth",
+    "event_type": "birth",
+    "label": "Born in Chippewa Falls",
+    "date": {
+      "display": "Sept. 28, 1925",
+      "precision": "day",
+      "sort_start": "1925-09-28",
+      "sort_end": "1925-09-28"
+    },
+    "participants": [
+      {
+        "entity_id": "seymour_cray",
+        "role": "subject"
+      }
+    ],
+    "location": "chippewa_falls",
+    "sources": [
+      {
+        "source_id": "markoff_nyt_1995",
+        "page": 1,
+        "quote": "Cray was born Sept. 28, 1925, in Chippewa Falls, Wis."
+      }
+    ]
+  },
+  {
+    "id": "death",
+    "event_type": "death",
+    "label": "Died in Colorado Springs",
+    "date": {
+      "display": "October 5, 1995",
+      "precision": "day",
+      "sort_start": "1995-10-05",
+      "sort_end": "1995-10-05"
+    },
+    "participants": [
+      {
+        "entity_id": "seymour_cray",
+        "role": "subject"
+      }
+    ],
+    "location": "colorado_springs",
+    "sources": [
+      {
+        "source_id": "markoff_nyt_1995",
+        "page": 1,
+        "quote": "Seymour R. Cray, a computer industry pioneer and the father of the supercomputer, died October 5, at a hospital near his home in Colorado Springs."
+      }
+    ]
+  },
+  {
+    "id": "graduation",
+    "event_type": "education",
+    "label": "Graduated from University of Minnesota",
+    "date": {
+      "display": "1951",
+      "precision": "year",
+      "sort_start": "1951-01-01",
+      "sort_end": "1951-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "seymour_cray",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_minnesota",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "markoff_nyt_1995",
+        "page": 1,
+        "quote": "graduation from the University of Minnesota in 1951, having received a bachelor's in electrical engineering and a master's in mathematics."
+      }
+    ]
+  },
+  {
+    "id": "joined_era",
+    "event_type": "employment_start",
+    "label": "Joined Engineering Research Associates",
+    "date": {
+      "display": "after 1951",
+      "precision": "year",
+      "sort_start": "1951-01-01",
+      "sort_end": "1955-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "seymour_cray",
+        "role": "subject"
+      },
+      {
+        "entity_id": "engineering_research_associates",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "markoff_nyt_1995",
+        "page": 1,
+        "quote": "when I said, 'What's next?' he said, 'If I were you, I'd just go down the street here to Engineering Research Associates, and I'd think you'd like what they're doing there,'"
+      }
+    ]
+  },
+  {
+    "id": "joined_cdc",
+    "event_type": "employment_start",
+    "label": "Joined Control Data Corp.",
+    "date": {
+      "display": "late 1950s",
+      "precision": "decade",
+      "sort_start": "1955-01-01",
+      "sort_end": "1959-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "seymour_cray",
+        "role": "subject"
+      },
+      {
+        "entity_id": "control_data",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "markoff_nyt_1995",
+        "page": 1,
+        "quote": "Cray, who as a young electrical engineer at Control Data Corp. in the late 1950s led the design of the world's first transistor-based computer"
+      }
+    ]
+  },
+  {
+    "id": "cdc_6600_intro",
+    "event_type": "product_launch",
+    "label": "CDC 6600 Introduced",
+    "date": {
+      "display": "August 1963",
+      "precision": "month",
+      "sort_start": "1963-08-01",
+      "sort_end": "1963-08-31"
+    },
+    "participants": [
+      {
+        "entity_id": "seymour_cray",
+        "role": "invention"
+      },
+      {
+        "entity_id": "control_data",
+        "role": "employer"
+      },
+      {
+        "entity_id": "cdc_6600",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "markoff_nyt_1995",
+        "page": 1,
+        "quote": "Introduced in August 1963, it had a speed of three million instructions per second"
+      }
+    ]
+  },
+  {
+    "id": "founded_cray_research",
+    "event_type": "company_founded",
+    "label": "Founded Cray Research",
+    "date": {
+      "display": "1972",
+      "precision": "year",
+      "sort_start": "1972-01-01",
+      "sort_end": "1972-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "seymour_cray",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cray_research",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "markoff_nyt_1995",
+        "page": 1,
+        "quote": "Cray Research, the company he founded in 1972 after leaving Control Data"
+      }
+    ]
+  },
+  {
+    "id": "cray_1_sold",
+    "event_type": "product_launch",
+    "label": "First Cray 1 Sold",
+    "date": {
+      "display": "1976",
+      "precision": "year",
+      "sort_start": "1976-01-01",
+      "sort_end": "1976-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "seymour_cray",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cray_1",
+        "role": "invention"
+      },
+      {
+        "entity_id": "los_alamos_national_laboratory",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "markoff_nyt_1995",
+        "page": 1,
+        "quote": "raising $10 million only a month before the company sold its first Cray 1 computer to the Los Alamos National Laboratory for $8.8 million."
+      }
+    ]
+  },
+  {
+    "id": "founded_cray_computer",
+    "event_type": "company_founded",
+    "label": "Founded Cray Computer Corp.",
+    "date": {
+      "display": "1989",
+      "precision": "year",
+      "sort_start": "1989-01-01",
+      "sort_end": "1989-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "seymour_cray",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cray_computer_corp",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "markoff_nyt_1995",
+        "page": 1,
+        "quote": "Cray left Cray Research in 1989 to form Cray Computer Corp."
+      }
+    ]
+  },
+  {
+    "id": "bankruptcy",
+    "event_type": "company_sold",
+    "label": "Cray Computer Corp. Bankruptcy",
+    "date": {
+      "display": "March 1995",
+      "precision": "month",
+      "sort_start": "1995-03-01",
+      "sort_end": "1995-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "seymour_cray",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cray_computer_corp",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "markoff_nyt_1995",
+        "page": 1,
+        "quote": "Cray Computer sought Chapter 11 bankruptcy protection in March 1995"
+      }
+    ]
+  },
+  {
+    "id": "founded_src",
+    "event_type": "company_founded",
+    "label": "Formed SRC Computers",
+    "date": {
+      "display": "August 1995",
+      "precision": "month",
+      "sort_start": "1995-08-01",
+      "sort_end": "1995-08-31"
+    },
+    "participants": [
+      {
+        "entity_id": "seymour_cray",
+        "role": "subject"
+      },
+      {
+        "entity_id": "src_computers",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "markoff_nyt_1995",
+        "page": 1,
+        "quote": "In August, Cray announced that he had formed a new company, SRC Computers"
+      }
+    ]
+  },
+  {
+    "id": "accident",
+    "event_type": "other",
+    "label": "Automobile Wreck",
+    "date": {
+      "display": "two weeks before October 5, 1995",
+      "precision": "day",
+      "sort_start": "1995-09-17",
+      "sort_end": "1995-09-25"
+    },
+    "participants": [
+      {
+        "entity_id": "seymour_cray",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "markoff_nyt_1995",
+        "page": 1,
+        "quote": "He was 71 and had been in the hospital since an automobile wreck two weeks ago."
+      }
+    ]
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "id": "claude_shannon",
+    "entity_type": "person",
+    "name": "Claude Elwood Shannon",
+    "aliases": [
+      "Claude Shannon",
+      "Shannon"
+    ],
+    "summary": "American mathematician and electrical engineer known as the father of information theory.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "ronald_rousseau",
+    "entity_type": "person",
+    "name": "Ronald Rousseau",
+    "aliases": [],
+    "summary": "Author of the source document, affiliated with KHBO and Henan Normal University.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "bell_labs",
+    "entity_type": "organization",
+    "name": "Bell Labs",
+    "aliases": [
+      "Bell's Research Lab"
+    ],
+    "summary": "Research laboratory where Shannon worked from 1941 to 1956 and remained associated until 1972.",
+    "subtype": "lab"
+  },
+  {
+    "id": "mit",
+    "entity_type": "organization",
+    "name": "MIT",
+    "aliases": [
+      "Massachusetts Institute of Technology"
+    ],
+    "summary": "University where Shannon obtained his Ph.D. and later became a professor.",
+    "subtype": "university"
+  },
+  {
+    "id": "michigan_university",
+    "entity_type": "organization",
+    "name": "Michigan University",
+    "aliases": [
+      "University of Michigan"
+    ],
+    "summary": "University where Shannon obtained his bachelor's degree in 1936.",
+    "subtype": "university"
+  },
+  {
+    "id": "dartmouth_college",
+    "entity_type": "organization",
+    "name": "Dartmouth College",
+    "aliases": [],
+    "summary": "Location of the 1956 summer meeting considered the beginning of artificial intelligence.",
+    "subtype": "university"
+  },
+  {
+    "id": "ieee",
+    "entity_type": "organization",
+    "name": "IEEE",
+    "aliases": [],
+    "summary": "Organization that awarded Shannon the Medal of Honor in 1966.",
+    "subtype": "professional_society"
+  },
+  {
+    "id": "american_academy_of_sciences",
+    "entity_type": "organization",
+    "name": "American Academy of Sciences",
+    "aliases": [],
+    "summary": "Organization of which Shannon became a member.",
+    "subtype": "academy"
+  },
+  {
+    "id": "london_royal_society",
+    "entity_type": "organization",
+    "name": "London Royal Society",
+    "aliases": [],
+    "summary": "Organization of which Shannon became a member.",
+    "subtype": "academy"
+  },
+  {
+    "id": "medford_ma",
+    "entity_type": "place",
+    "name": "Medford",
+    "aliases": [
+      "Medford (MA, USA)"
+    ],
+    "summary": "City in Massachusetts where Shannon died.",
+    "subtype": "city",
+    "attributes": {
+      "country": "USA",
+      "state": "MA",
+      "lat": 42.41833,
+      "lng": -71.10667,
+      "wikidata_qid": "Q54145",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "petoskey_mi",
+    "entity_type": "place",
+    "name": "Petoskey",
+    "aliases": [
+      "Petoskey (Michigan, USA)"
+    ],
+    "summary": "City in Michigan where Shannon was born.",
+    "subtype": "city",
+    "attributes": {
+      "country": "USA",
+      "state": "Michigan",
+      "lat": 45.37333,
+      "lng": -84.95528,
+      "wikidata_qid": "Q2415663",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "theseus",
+    "entity_type": "artifact",
+    "name": "Theseus",
+    "aliases": [],
+    "summary": "Mechanical mouse designed by Shannon to find its way through a maze.",
+    "subtype": "invention"
+  },
+  {
+    "id": "throbac",
+    "entity_type": "artifact",
+    "name": "THROBAC",
+    "aliases": [],
+    "summary": "Computer constructed by Shannon designed to do calculations using Roman numerals.",
+    "subtype": "invention"
+  },
+  {
+    "id": "shannon_1938_paper",
+    "entity_type": "artifact",
+    "name": "A symbolic analysis of relay and switching circuits",
+    "aliases": [],
+    "summary": "Shannon's 1938 article applying Boolean algebra to switching theory.",
+    "subtype": "publication"
+  },
+  {
+    "id": "shannon_1948_paper",
+    "entity_type": "artifact",
+    "name": "A mathematical theory of communication",
+    "aliases": [],
+    "summary": "Shannon's famous 1948 article in two parts establishing communication theory.",
+    "subtype": "publication"
+  },
+  {
+    "id": "shannon_1949_paper",
+    "entity_type": "artifact",
+    "name": "Communication theory of secrecy systems",
+    "aliases": [],
+    "summary": "Shannon's 1949 article transforming cryptography from an art form to a science.",
+    "subtype": "publication"
+  },
+  {
+    "id": "shannon_1951_paper",
+    "entity_type": "artifact",
+    "name": "Prediction and entropy of printed English",
+    "aliases": [],
+    "summary": "Shannon's 1951 article using frequency tables for bi- and tri-grams.",
+    "subtype": "publication"
+  },
+  {
+    "id": "ieee_medal_honor",
+    "entity_type": "artifact",
+    "name": "IEEE Medal of Honor",
+    "aliases": [],
+    "summary": "Award received by Shannon in 1966.",
+    "subtype": "award"
+  },
+  {
+    "id": "national_medal_science",
+    "entity_type": "artifact",
+    "name": "American National Medal of Science",
+    "aliases": [],
+    "summary": "Highest scientific reward in the USA, received by Shannon in 1966.",
+    "subtype": "award"
+  },
+  {
+    "id": "john_fritz_medal",
+    "entity_type": "artifact",
+    "name": "John Fritz Medal",
+    "aliases": [],
+    "summary": "Award received by Shannon in 1983.",
+    "subtype": "award"
+  },
+  {
+    "id": "kyoto_prize",
+    "entity_type": "artifact",
+    "name": "Kyoto Prize",
+    "aliases": [],
+    "summary": "Award received by Shannon in 1985.",
+    "subtype": "award"
+  },
+  {
+    "id": "collected_papers_shannon",
+    "entity_type": "artifact",
+    "name": "Claude Elwood Shannon: Collected papers",
+    "aliases": [],
+    "summary": "Collected works of Shannon edited by Sloane and Wyner in 1993.",
+    "subtype": "publication"
+  },
+  {
+    "id": "j_w_tukey",
+    "entity_type": "person",
+    "name": "J.W. Tukey",
+    "aliases": [],
+    "summary": "Proposed the term 'bits' for binary digits.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "john_von_neumann",
+    "entity_type": "person",
+    "name": "John von Neumann",
+    "aliases": [],
+    "summary": "Contemporary of Shannon who suggested the term 'entropy'.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "john_mccarthy",
+    "entity_type": "person",
+    "name": "John McCarthy",
+    "aliases": [],
+    "summary": "Director of the 1956 Dartmouth College meeting on artificial intelligence.",
+    "subtype": "researcher"
+  }
+]
