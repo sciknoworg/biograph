@@ -1,0 +1,155 @@
+[
+  {
+    "id": "gauss_born_in_brunswick",
+    "source": "carl_friedrich_gauss",
+    "type": "born_in",
+    "target": "brunswick",
+    "event_id": "gauss_birth",
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 1,
+        "quote": "Gauss was born in Brunswick on 30 April 1777."
+      }
+    ]
+  },
+  {
+    "id": "gauss_studied_at_gottingen",
+    "source": "carl_friedrich_gauss",
+    "type": "studied_at",
+    "target": "university_of_gottingen",
+    "event_id": "gauss_study_gottingen",
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 1,
+        "quote": "he received a stipend which enabled him to study \"abroad\", at the university in Göttingen"
+      }
+    ]
+  },
+  {
+    "id": "gauss_worked_at_observatory",
+    "source": "carl_friedrich_gauss",
+    "type": "worked_at",
+    "target": "gottingen_astronomical_observatory",
+    "event_id": "gauss_appointment",
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 2,
+        "quote": "In 1807 – shortly before Göttingen came under the rule of Jerôme Bonaparte – Gauss was appointed as a professor of astronomy and the director of the Göttingen University Observatory by the Hanoverian government."
+      }
+    ]
+  },
+  {
+    "id": "gauss_married_johanna",
+    "source": "carl_friedrich_gauss",
+    "type": "married_to",
+    "target": "johanna_osthoff",
+    "event_id": "gauss_marriage_1",
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 2,
+        "quote": "In 1805, Gauss married a charming young lady from Brunswick, Johanna Osthoff."
+      }
+    ]
+  },
+  {
+    "id": "gauss_married_wilhelmine",
+    "source": "carl_friedrich_gauss",
+    "type": "married_to",
+    "target": "wilhelmine_waldeck",
+    "event_id": "gauss_marriage_2",
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 2,
+        "quote": "Gauss mourned intensively and then married again, this time to Wilhelmine Waldeck"
+      }
+    ]
+  },
+  {
+    "id": "gauss_collaborated_weber",
+    "source": "carl_friedrich_gauss",
+    "type": "collaborated_with",
+    "target": "wilhelm_weber",
+    "event_id": "telegraph_invention",
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 3,
+        "quote": "And, in April 1833, Gauss and Weber invented the ﬁrst fully operational electromagnetic telegraph in the world."
+      }
+    ]
+  },
+  {
+    "id": "gauss_invented_heliotrope",
+    "source": "carl_friedrich_gauss",
+    "type": "invented",
+    "target": "heliotrope",
+    "event_id": "heliotrope_invention",
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 3,
+        "quote": "On this occasion, he invented the heliotrope, a device used to direct sunlight, with arcsecond accuracy, in any given direction."
+      }
+    ]
+  },
+  {
+    "id": "gauss_invented_telegraph",
+    "source": "carl_friedrich_gauss",
+    "type": "invented",
+    "target": "electromagnetic_telegraph",
+    "event_id": "telegraph_invention",
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 3,
+        "quote": "And, in April 1833, Gauss and Weber invented the ﬁrst fully operational electromagnetic telegraph in the world."
+      }
+    ]
+  },
+  {
+    "id": "gauss_died_in_gottingen",
+    "source": "carl_friedrich_gauss",
+    "type": "died_in",
+    "target": "gottingen",
+    "event_id": "gauss_death",
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 3,
+        "quote": "Gauss died peacefully of heart and lung failure on 23 February 1855 at the age of almost 78."
+      }
+    ]
+  },
+  {
+    "id": "bartels_president_gauss_society",
+    "source": "julius_bartels",
+    "type": "member_of",
+    "target": "gauss_society",
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 3,
+        "quote": "The ﬁrst president of the Gauss Society was the famous geophysicist Julius Bartels"
+      }
+    ]
+  },
+  {
+    "id": "michling_founded_gauss_society",
+    "source": "horst_michling",
+    "type": "founded",
+    "target": "gauss_society",
+    "event_id": "gauss_society_founded",
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 3,
+        "quote": "Michling is considered to be the founder of the Gauss Society."
+      }
+    ]
+  }
+]

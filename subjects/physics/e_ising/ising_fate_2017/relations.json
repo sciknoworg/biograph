@@ -1,0 +1,96 @@
+[
+  {
+    "id": "ernst_ising_born_in_cologne",
+    "source": "ernst_ising",
+    "type": "born_in",
+    "target": "cologne",
+    "sources": [
+      {
+        "source_id": "ising_fate_2017",
+        "page": 2,
+        "quote": "He was born Ernst Ising, at the beginning of the 20th century on May 10th in K oln (or Cologne) near the cathedral."
+      }
+    ]
+  },
+  {
+    "id": "ernst_ising_studied_at_hamburg",
+    "source": "ernst_ising",
+    "type": "studied_at",
+    "target": "hamburg_university",
+    "event_id": "phd_completed_1924",
+    "sources": [
+      {
+        "source_id": "ising_fate_2017",
+        "page": 2,
+        "quote": "In graduate school at Hamburg University in 1922 he came under the tutelage of Professor Wilhelm Lenz"
+      }
+    ]
+  },
+  {
+    "id": "ernst_ising_supervised_by_lenz",
+    "source": "ernst_ising",
+    "type": "supervised_by",
+    "target": "wilhelm_lenz",
+    "sources": [
+      {
+        "source_id": "ising_fate_2017",
+        "page": 2,
+        "quote": "In graduate school at Hamburg University in 1922 he came under the tutelage of Professor Wilhelm Lenz"
+      }
+    ]
+  },
+  {
+    "id": "ernst_ising_employed_by_bradley",
+    "source": "ernst_ising",
+    "type": "employed_by",
+    "target": "bradley_university",
+    "sources": [
+      {
+        "source_id": "ising_fate_2017",
+        "page": 3,
+        "quote": "The next year he became a Physics Professor at Bradley University in Peoria, Illinois."
+      }
+    ]
+  },
+  {
+    "id": "ernst_ising_married_to_jane",
+    "source": "ernst_ising",
+    "type": "married_to",
+    "target": "jane_ising",
+    "event_id": "marriage_1930",
+    "sources": [
+      {
+        "source_id": "ising_fate_2017",
+        "page": 2,
+        "quote": "In 1930, he passed the state exams on higher education and they were married."
+      }
+    ]
+  },
+  {
+    "id": "ernst_ising_invented_ising_model",
+    "source": "ernst_ising",
+    "type": "invented",
+    "target": "ising_model",
+    "sources": [
+      {
+        "source_id": "ising_fate_2017",
+        "page": 1,
+        "quote": "Wilhelm Lenz proposed a model that was solved in one dimension by his PhD student, Ernst Ising in 1924."
+      }
+    ]
+  },
+  {
+    "id": "ernst_ising_died_in_peoria",
+    "source": "ernst_ising",
+    "type": "died_in",
+    "target": "peoria",
+    "event_id": "death_1998",
+    "sources": [
+      {
+        "source_id": "ising_fate_2017",
+        "page": 1,
+        "quote": "Ernst (Ernest) Ising (May 10, 1900 in Cologne, Germany - May 11, 1998 in Peoria, USA)."
+      }
+    ]
+  }
+]

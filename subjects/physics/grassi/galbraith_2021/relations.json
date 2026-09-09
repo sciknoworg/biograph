@@ -1,0 +1,90 @@
+[
+  {
+    "id": "clavius_born_in_bamberg",
+    "source": "christopher_clavius",
+    "type": "born_in",
+    "target": "bamberg",
+    "sources": [
+      {
+        "source_id": "galbraith_2021",
+        "page": 84,
+        "quote": "Clavius was born in Bamberg, Germany"
+      }
+    ]
+  },
+  {
+    "id": "clavius_worked_at_collegio_romano",
+    "source": "christopher_clavius",
+    "type": "worked_at",
+    "target": "collegio_romano",
+    "event_id": "clavius_appointed_professor",
+    "start": {
+      "display": "1560",
+      "precision": "year",
+      "sort_start": "1560-01-01",
+      "sort_end": "1560-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "galbraith_2021",
+        "page": 86,
+        "quote": "Clavius would spend the next forty- five years at the Collegio Romano in Rome, teaching, adapting, promoting and defending mathematics and the natural sciences."
+      }
+    ]
+  },
+  {
+    "id": "clavius_employed_by_society_of_jesus",
+    "source": "christopher_clavius",
+    "type": "employed_by",
+    "target": "society_of_jesus",
+    "event_id": "clavius_joins_jesuits",
+    "sources": [
+      {
+        "source_id": "galbraith_2021",
+        "page": 85,
+        "quote": "Clavius was received into the Society at the hands of Ignatius of Loyola"
+      }
+    ]
+  },
+  {
+    "id": "clavius_developed_gregorian_calendar",
+    "source": "christopher_clavius",
+    "type": "developed",
+    "target": "gregorian_calendar",
+    "event_id": "calendar_reform_appointment",
+    "sources": [
+      {
+        "source_id": "galbraith_2021",
+        "page": 82,
+        "quote": "Christopher Clavius was appointed by Pope Gregory XIII to a papal committee that was tasked with the reform of the Julian calendar."
+      }
+    ]
+  },
+  {
+    "id": "clavius_studied_at_coimbra",
+    "source": "christopher_clavius",
+    "type": "studied_at",
+    "target": "coimbra",
+    "sources": [
+      {
+        "source_id": "galbraith_2021",
+        "page": 85,
+        "quote": "at the age of thirteen was sent to the Jesuit college in Coimbra in Portugal to begin his studies."
+      }
+    ]
+  },
+  {
+    "id": "clavius_supervised_by_ignatius",
+    "source": "christopher_clavius",
+    "type": "supervised_by",
+    "target": "ignatius_of_loyola",
+    "event_id": "clavius_joins_jesuits",
+    "sources": [
+      {
+        "source_id": "galbraith_2021",
+        "page": 85,
+        "quote": "Clavius was received into the Society at the hands of Ignatius of Loyola"
+      }
+    ]
+  }
+]

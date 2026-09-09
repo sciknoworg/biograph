@@ -1,0 +1,363 @@
+[
+  {
+    "id": "grassi_birth",
+    "event_type": "birth",
+    "label": "Born in Savona",
+    "date": {
+      "precision": "year",
+      "sort_start": "1583-01-01",
+      "sort_end": "1583-12-31",
+      "display": "1583"
+    },
+    "participants": [
+      {
+        "entity_id": "orazio_grassi",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bartel_2016_thesis",
+        "page": 21,
+        "quote": "Orazio Grassi was born in Savona in 1583"
+      }
+    ]
+  },
+  {
+    "id": "grassi_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "precision": "year",
+      "sort_start": "1654-01-01",
+      "sort_end": "1654-12-31",
+      "display": "1654"
+    },
+    "participants": [
+      {
+        "entity_id": "orazio_grassi",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bartel_2016_thesis",
+        "page": 6,
+        "quote": "Orazio Grassi (1583-1654)"
+      }
+    ]
+  },
+  {
+    "id": "grassi_study_start",
+    "event_type": "education",
+    "label": "Began studying at Collegio Romano",
+    "date": {
+      "precision": "year",
+      "sort_start": "1600-01-01",
+      "sort_end": "1600-12-31",
+      "display": "1600"
+    },
+    "participants": [
+      {
+        "entity_id": "orazio_grassi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "collegio_romano",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bartel_2016_thesis",
+        "page": 21,
+        "quote": "He began studying at the Collegio Romano in 1600"
+      }
+    ]
+  },
+  {
+    "id": "grassi_employment_start_1",
+    "event_type": "employment_start",
+    "label": "Named Father General of mathematics",
+    "date": {
+      "precision": "year",
+      "sort_start": "1616-01-01",
+      "sort_end": "1616-12-31",
+      "display": "1616"
+    },
+    "participants": [
+      {
+        "entity_id": "orazio_grassi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "collegio_romano",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bartel_2016_thesis",
+        "page": 21,
+        "quote": "Grassi was named the Father General of mathematics at the Roman College in 1616"
+      }
+    ]
+  },
+  {
+    "id": "grassi_employment_end_1",
+    "event_type": "employment_end",
+    "label": "Ended first term teaching mathematics",
+    "date": {
+      "precision": "year",
+      "sort_start": "1624-01-01",
+      "sort_end": "1624-12-31",
+      "display": "1624"
+    },
+    "participants": [
+      {
+        "entity_id": "orazio_grassi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "collegio_romano",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bartel_2016_thesis",
+        "page": 21,
+        "quote": "He held this position for more than 10 years, from 1616-1624 and again in 1626-1628"
+      }
+    ]
+  },
+  {
+    "id": "grassi_lectures_1623",
+    "event_type": "other",
+    "label": "Delivered lectures on the Sphere",
+    "description": "Lectures recorded in the Tractatus de sphaera manuscript.",
+    "date": {
+      "precision": "day",
+      "sort_start": "1623-06-02",
+      "sort_end": "1623-06-02",
+      "display": "2nd day of June, 1623"
+    },
+    "participants": [
+      {
+        "entity_id": "orazio_grassi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "collegio_romano",
+        "role": "location"
+      },
+      {
+        "entity_id": "manuscript_mathematica_1623",
+        "role": "artifact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bartel_2016_thesis",
+        "page": 9,
+        "quote": "in the Collegio Romano by Father Orazio Grassi of the Society of Jesus, on the 2nd day of June, 1623."
+      }
+    ]
+  },
+  {
+    "id": "grassi_employment_start_2",
+    "event_type": "employment_start",
+    "label": "Resumed teaching mathematics",
+    "date": {
+      "precision": "year",
+      "sort_start": "1626-01-01",
+      "sort_end": "1626-12-31",
+      "display": "1626"
+    },
+    "participants": [
+      {
+        "entity_id": "orazio_grassi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "collegio_romano",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bartel_2016_thesis",
+        "page": 56,
+        "quote": "Grassi again taught mathematics at the Collegio Romano from 1626-1628"
+      }
+    ]
+  },
+  {
+    "id": "grassi_employment_end_2",
+    "event_type": "employment_end",
+    "label": "Ended second term teaching mathematics",
+    "date": {
+      "precision": "year",
+      "sort_start": "1628-01-01",
+      "sort_end": "1628-12-31",
+      "display": "1628"
+    },
+    "participants": [
+      {
+        "entity_id": "orazio_grassi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "collegio_romano",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bartel_2016_thesis",
+        "page": 21,
+        "quote": "He held this position for more than 10 years, from 1616-1624 and again in 1626-1628"
+      }
+    ]
+  },
+  {
+    "id": "grassi_publication_de_iride",
+    "event_type": "publication",
+    "label": "Published De iride disputatio optica",
+    "date": {
+      "precision": "year",
+      "sort_start": "1617-01-01",
+      "sort_end": "1617-12-31",
+      "display": "1617"
+    },
+    "participants": [
+      {
+        "entity_id": "orazio_grassi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "de_iride",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bartel_2016_thesis",
+        "page": 27,
+        "quote": "Grassi's first publication, De iride disputatio optico, published in 1617 under the name of his student Galeatio Mariscotto"
+      }
+    ]
+  },
+  {
+    "id": "grassi_publication_disputatio",
+    "event_type": "publication",
+    "label": "Published Disputatio astronomica",
+    "date": {
+      "precision": "month",
+      "sort_start": "1619-03-01",
+      "sort_end": "1619-03-31",
+      "display": "March 1619"
+    },
+    "participants": [
+      {
+        "entity_id": "orazio_grassi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "disputatio_astronomica",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bartel_2016_thesis",
+        "page": 27,
+        "quote": "In March 1619 the Collegio Romano anonymously published one of Grassi's lectures concerning the three comets of 1618, titled Disputatio astronomica de tribus"
+      }
+    ]
+  },
+  {
+    "id": "grassi_publication_libra",
+    "event_type": "publication",
+    "label": "Published Libra astronomica",
+    "date": {
+      "precision": "month",
+      "sort_start": "1619-12-01",
+      "sort_end": "1619-12-31",
+      "display": "December 1619"
+    },
+    "participants": [
+      {
+        "entity_id": "orazio_grassi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "libra_astronomica",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bartel_2016_thesis",
+        "page": 28,
+        "quote": "The Libra was published in December 1619 under the pseudonym Lotario Sarsi."
+      }
+    ]
+  },
+  {
+    "id": "galileo_assayer_published",
+    "event_type": "publication",
+    "label": "Galileo's Assayer printed",
+    "date": {
+      "precision": "month",
+      "sort_start": "1623-10-01",
+      "sort_end": "1623-10-31",
+      "display": "October 1623"
+    },
+    "participants": [
+      {
+        "entity_id": "galileo_galilei",
+        "role": "subject"
+      },
+      {
+        "entity_id": "assayer_galileo",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bartel_2016_thesis",
+        "page": 54,
+        "quote": "In October 1623 Galileo's Assayer was printed in Rome"
+      }
+    ]
+  },
+  {
+    "id": "grassi_publication_ratio_ponderum",
+    "event_type": "publication",
+    "label": "Published Ratio ponderum",
+    "date": {
+      "precision": "year",
+      "sort_start": "1626-01-01",
+      "sort_end": "1626-12-31",
+      "display": "1626"
+    },
+    "participants": [
+      {
+        "entity_id": "orazio_grassi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ratio_ponderum",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bartel_2016_thesis",
+        "page": 55,
+        "quote": "The work, titled Ratio ponderum librae et simbellae again published under the pseudonym of Sarsi, but was printed in Paris rather than Rome."
+      }
+    ]
+  }
+]

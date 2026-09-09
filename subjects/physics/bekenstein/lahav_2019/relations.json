@@ -1,0 +1,124 @@
+[
+  {
+    "id": "bekenstein_born_mexico",
+    "source": "jacob_bekenstein",
+    "type": "born_in",
+    "target": "mexico",
+    "event_id": "birth_bekenstein",
+    "sources": [
+      {
+        "source_id": "lahav_2019",
+        "page": 1,
+        "quote": "Jacob was born in Mexico in 1947."
+      }
+    ]
+  },
+  {
+    "id": "bekenstein_died_helsinki",
+    "source": "jacob_bekenstein",
+    "type": "died_in",
+    "target": "helsinki",
+    "event_id": "death_bekenstein",
+    "sources": [
+      {
+        "source_id": "lahav_2019",
+        "page": 1,
+        "quote": "A sad email arrived that Jacob Bekenstein had passed away unexpectedly the previous day of a heart attack, while visiting Helsinki."
+      }
+    ]
+  },
+  {
+    "id": "bekenstein_studied_princeton",
+    "source": "jacob_bekenstein",
+    "type": "studied_at",
+    "target": "princeton_university",
+    "sources": [
+      {
+        "source_id": "lahav_2019",
+        "page": 1,
+        "quote": "After studying in New-York and Princeton he was a Post-doc in Texas."
+      }
+    ]
+  },
+  {
+    "id": "bekenstein_supervised_wheeler",
+    "source": "jacob_bekenstein",
+    "type": "supervised_by",
+    "target": "john_wheeler",
+    "event_id": "phd_supervision_wheeler",
+    "sources": [
+      {
+        "source_id": "lahav_2019",
+        "page": 3,
+        "quote": "John Wheeler, one day in the early 1970s, allegedly asked his then PhD student Jacob Bekenstein,"
+      }
+    ]
+  },
+  {
+    "id": "bekenstein_worked_ben_gurion",
+    "source": "jacob_bekenstein",
+    "type": "worked_at",
+    "target": "ben_gurion_university",
+    "sources": [
+      {
+        "source_id": "lahav_2019",
+        "page": 1,
+        "quote": "He made an unusual career move to immigrate to Israel, to the Ben-Gurion University in Beer-Sheba"
+      }
+    ]
+  },
+  {
+    "id": "bekenstein_mentored_lahav",
+    "source": "jacob_bekenstein",
+    "type": "mentored",
+    "target": "ofer_lahav",
+    "event_id": "msc_supervision_lahav",
+    "sources": [
+      {
+        "source_id": "lahav_2019",
+        "page": 1,
+        "quote": "I had the privilege to be supervised by him for my MSc degree back in Ben-Gurion University in Beer-Sheva Israel in the early 1980s."
+      }
+    ]
+  },
+  {
+    "id": "bekenstein_invented_teves",
+    "source": "jacob_bekenstein",
+    "type": "invented",
+    "target": "teves",
+    "sources": [
+      {
+        "source_id": "lahav_2019",
+        "page": 4,
+        "quote": "Bekenstein devised TeVeS (Tensor, Vector, Scalar)."
+      }
+    ]
+  },
+  {
+    "id": "bekenstein_relocated_israel",
+    "source": "jacob_bekenstein",
+    "type": "relocated_to",
+    "target": "israel",
+    "sources": [
+      {
+        "source_id": "lahav_2019",
+        "page": 1,
+        "quote": "He made an unusual career move to immigrate to Israel, to the Ben-Gurion University in Beer-Sheba"
+      }
+    ]
+  },
+  {
+    "id": "bekenstein_postdoc_texas",
+    "source": "jacob_bekenstein",
+    "type": "worked_at",
+    "target": "texas",
+    "note": "Text specifies location Texas, organization not named.",
+    "sources": [
+      {
+        "source_id": "lahav_2019",
+        "page": 1,
+        "quote": "After studying in New-York and Princeton he was a Post-doc in Texas."
+      }
+    ]
+  }
+]

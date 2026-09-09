@@ -1,0 +1,325 @@
+[
+  {
+    "id": "hankel_birth",
+    "event_type": "birth",
+    "label": "Born in Halle",
+    "date": {
+      "display": "14th February 1839",
+      "precision": "day",
+      "sort_start": "1839-02-14",
+      "sort_end": "1839-02-14"
+    },
+    "participants": [
+      {
+        "entity_id": "hermann_hankel",
+        "role": "subject"
+      }
+    ],
+    "location": "halle",
+    "sources": [
+      {
+        "source_id": "villone_rampf_2017",
+        "page": 41,
+        "quote": "Hermann Hankel was born in Halle, near Leipzig, on 14th February 1839."
+      }
+    ]
+  },
+  {
+    "id": "hankel_study_leipzig_start",
+    "event_type": "education",
+    "label": "Started studies at Leipzig University",
+    "date": {
+      "display": "1857",
+      "precision": "year",
+      "sort_start": "1857-01-01",
+      "sort_end": "1857-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "hermann_hankel",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_leipzig",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "villone_rampf_2017",
+        "page": 41,
+        "quote": "From 1857, he studied Mathematics at the Leipzig University under the mathematicians Scheibner, Moebius and Drobisch."
+      }
+    ]
+  },
+  {
+    "id": "hankel_arrival_gottingen",
+    "event_type": "relocation",
+    "label": "Arrived in Göttingen",
+    "date": {
+      "display": "Spring 1860",
+      "precision": "range",
+      "sort_start": "1860-03-01",
+      "sort_end": "1860-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "hermann_hankel",
+        "role": "subject"
+      }
+    ],
+    "location": "gottingen",
+    "sources": [
+      {
+        "source_id": "villone_rampf_2017",
+        "page": 1,
+        "quote": "Hankel participated in this prize competition shortly after his arrival in the Spring 1860 in Göttingen as a 21-years old student in Mathematics, from the University of Leipzig."
+      }
+    ]
+  },
+  {
+    "id": "hankel_prize_submission",
+    "event_type": "publication",
+    "label": "Submitted prize manuscript",
+    "date": {
+      "display": "end of March 1861",
+      "precision": "month",
+      "sort_start": "1861-03-01",
+      "sort_end": "1861-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "hermann_hankel",
+        "role": "subject"
+      },
+      {
+        "entity_id": "fluid_motion_manuscript",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "villone_rampf_2017",
+        "page": 1,
+        "quote": "The present is a companion paper to \"A contemporary look at Hermann Hankel's 1861 pioneering work on Lagrangian fluid dynamics\" by Frisch, Grimberg and Villone (2017)."
+      }
+    ]
+  },
+  {
+    "id": "hankel_prize_judgement",
+    "event_type": "award",
+    "label": "Riemann judged manuscript",
+    "date": {
+      "display": "7th Mai 1861",
+      "precision": "day",
+      "sort_start": "1861-05-07",
+      "sort_end": "1861-05-07"
+    },
+    "participants": [
+      {
+        "entity_id": "bernhard_riemann",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "hermann_hankel",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "villone_rampf_2017",
+        "page": 40,
+        "quote": "Göttingen, 7th Mai 1861 B. Riemann"
+      }
+    ]
+  },
+  {
+    "id": "hankel_phd",
+    "event_type": "education",
+    "label": "Obtained Doctor degree",
+    "date": {
+      "display": "1861",
+      "precision": "year",
+      "sort_start": "1861-01-01",
+      "sort_end": "1861-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "hermann_hankel",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_leipzig",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "villone_rampf_2017",
+        "page": 41,
+        "quote": "Also in 1861, he obtained his Doctor degree in Leipzig with the dissertation: \"Über eine besondere Classe der symmetrischen Determinanten\"."
+      }
+    ]
+  },
+  {
+    "id": "hankel_berlin_visit",
+    "event_type": "visit",
+    "label": "Visited Berlin",
+    "date": {
+      "display": "autumn of the same year",
+      "precision": "range",
+      "sort_start": "1861-09-01",
+      "sort_end": "1861-11-30"
+    },
+    "participants": [
+      {
+        "entity_id": "hermann_hankel",
+        "role": "subject"
+      }
+    ],
+    "location": "berlin",
+    "sources": [
+      {
+        "source_id": "villone_rampf_2017",
+        "page": 41,
+        "quote": "Then, in the autumn of the same year, he went to Berlin, where he could attend courses of Weierstrass and Kronecker."
+      }
+    ]
+  },
+  {
+    "id": "hankel_habilitation",
+    "event_type": "education",
+    "label": "Habilitated as Privatdozent",
+    "date": {
+      "display": "1863",
+      "precision": "year",
+      "sort_start": "1863-01-01",
+      "sort_end": "1863-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "hermann_hankel",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_leipzig",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "villone_rampf_2017",
+        "page": 41,
+        "quote": "In 1862 he returned to Leipzig and, in 1863, at the same place, he habilitated as a Privatdozent with a thesis on the Euler integrals with an unlimited variability of the argument."
+      }
+    ]
+  },
+  {
+    "id": "hankel_prof_leipzig",
+    "event_type": "employment_start",
+    "label": "Became extraordinary Professor at Leipzig",
+    "date": {
+      "display": "spring 1867",
+      "precision": "range",
+      "sort_start": "1867-03-01",
+      "sort_end": "1867-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "hermann_hankel",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_leipzig",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "villone_rampf_2017",
+        "page": 42,
+        "quote": "In the spring 1867, he became extraordinary Professor at Leipzig University"
+      }
+    ]
+  },
+  {
+    "id": "hankel_prof_erlangen",
+    "event_type": "employment_start",
+    "label": "Became ordinary Professor in Erlangen",
+    "date": {
+      "display": "1867",
+      "precision": "year",
+      "sort_start": "1867-01-01",
+      "sort_end": "1867-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "hermann_hankel",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_erlangen",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "villone_rampf_2017",
+        "page": 42,
+        "quote": "and, in the same year, ordinary Professor in Erlangen"
+      }
+    ]
+  },
+  {
+    "id": "hankel_prof_tubingen",
+    "event_type": "employment_start",
+    "label": "Became Professor in Tübingen",
+    "date": {
+      "display": "1869",
+      "precision": "year",
+      "sort_start": "1869-01-01",
+      "sort_end": "1869-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "hermann_hankel",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_tubingen",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "villone_rampf_2017",
+        "page": 42,
+        "quote": "then, in Tübingen in 1869."
+      }
+    ]
+  },
+  {
+    "id": "hankel_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "29th August 1873",
+      "precision": "day",
+      "sort_start": "1873-08-29",
+      "sort_end": "1873-08-29"
+    },
+    "participants": [
+      {
+        "entity_id": "hermann_hankel",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "villone_rampf_2017",
+        "page": 42,
+        "quote": "He died prematurely on 29th August 1873."
+      }
+    ]
+  }
+]

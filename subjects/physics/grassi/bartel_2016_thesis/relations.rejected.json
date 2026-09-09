@@ -1,0 +1,16 @@
+[
+  {
+    "id": "clavius_studied_at_coimbra",
+    "source": "christopher_clavius",
+    "type": "studied_at",
+    "target": "coimbra",
+    "sources": [
+      {
+        "source_id": "galbraith_2021",
+        "page": 85,
+        "quote": "at the age of thirteen was sent to the Jesuit college in Coimbra in Portugal to begin his studies."
+      }
+    ],
+    "_rejected_because": "'studied_at' expects target entity_type organization, but 'coimbra' is 'place'"
+  }
+]

@@ -20,13 +20,14 @@
       "enum": [
         "day",
         "month",
+        "season",
         "year",
         "decade",
         "century",
         "circa",
         "range"
       ],
-      "description": ". \"century\" is for pre-modern subjects, where the source itself can place a life or event no more closely than that -- an 8th-century alchemist's patronage, say. Widening sort_start/sort_end to the century's bounds keeps ordering honest instead of inventing a year nobody claimed."
+      "description": ". \"century\" is for pre-modern subjects, where the source itself can place a life or event no more closely than that -- an 8th-century alchemist's patronage, say. Widening sort_start/sort_end to the century's bounds keeps ordering honest instead of inventing a year nobody claimed \"season\" is for a source that dates something to a season rather than a month -- \"summer 1964\", \"the following winter\" -- which is common in recollection and correspondence. Widening sort_start/sort_end to the season's bounds keeps ordering honest; \"month\" would invent a precision the source never gave, and \"range\" loses that it was a named season."
     },
     "sort_start": {
       "type": "string",

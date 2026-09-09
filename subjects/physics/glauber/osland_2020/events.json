@@ -1,0 +1,441 @@
+[
+  {
+    "id": "glauber_manhattan_appointment",
+    "event_type": "employment_start",
+    "label": "Appointed to Manhattan Project",
+    "description": "Glauber's first appointment at 18 years old.",
+    "date": {
+      "display": "1944–1945",
+      "precision": "range",
+      "sort_start": "1944-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "roy_glauber",
+        "role": "subject"
+      },
+      {
+        "entity_id": "manhattan_project",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "osland_2020",
+        "page": 2,
+        "quote": "Anyway , it is listed as his ﬁrst appointment, 18 years old, in the 1997-version of his CV"
+      }
+    ]
+  },
+  {
+    "id": "glauber_phd_completed",
+    "event_type": "education",
+    "label": "Completed PhD with Schwinger",
+    "date": {
+      "display": "1949",
+      "precision": "year",
+      "sort_start": "1949-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "roy_glauber",
+        "role": "subject"
+      },
+      {
+        "entity_id": "julian_schwinger",
+        "role": "supervisor"
+      },
+      {
+        "entity_id": "harvard_university",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "osland_2020",
+        "page": 2,
+        "quote": "completed his PhD with Schwinger in 1949"
+      }
+    ]
+  },
+  {
+    "id": "glauber_princeton_appointment",
+    "event_type": "employment_start",
+    "label": "Worked at Princeton",
+    "date": {
+      "display": "1949–1951",
+      "precision": "range",
+      "sort_start": "1949-01-01",
+      "sort_end": "1951-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "roy_glauber",
+        "role": "subject"
+      },
+      {
+        "entity_id": "princeton_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "osland_2020",
+        "page": 2,
+        "quote": "after a few years at Princeton (1949–1951)"
+      }
+    ]
+  },
+  {
+    "id": "glauber_caltech_appointment",
+    "event_type": "employment_start",
+    "label": "Worked at Caltech",
+    "date": {
+      "display": "1951–1952",
+      "precision": "range",
+      "sort_start": "1951-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "roy_glauber",
+        "role": "subject"
+      },
+      {
+        "entity_id": "caltech",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "osland_2020",
+        "page": 2,
+        "quote": "and Caltech (1951–1952)"
+      }
+    ]
+  },
+  {
+    "id": "glauber_harvard_return",
+    "event_type": "employment_start",
+    "label": "Returned to Harvard",
+    "date": {
+      "display": "1952",
+      "precision": "year",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "roy_glauber",
+        "role": "subject"
+      },
+      {
+        "entity_id": "harvard_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "osland_2020",
+        "page": 2,
+        "quote": "he returned to Harvard in 1952"
+      }
+    ]
+  },
+  {
+    "id": "glauber_full_professor",
+    "event_type": "role_change",
+    "label": "Promoted to full professor",
+    "date": {
+      "display": "1962",
+      "precision": "year",
+      "sort_start": "1962-01-01",
+      "sort_end": "1962-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "roy_glauber",
+        "role": "subject"
+      },
+      {
+        "entity_id": "harvard_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "osland_2020",
+        "page": 2,
+        "quote": "then full professor in 1962"
+      }
+    ]
+  },
+  {
+    "id": "glauber_mallinckrodt_professor",
+    "event_type": "role_change",
+    "label": "Became Mallinckrodt Professor of Physics",
+    "date": {
+      "display": "1976",
+      "precision": "year",
+      "sort_start": "1976-01-01",
+      "sort_end": "1976-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "roy_glauber",
+        "role": "subject"
+      },
+      {
+        "entity_id": "harvard_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "osland_2020",
+        "page": 2,
+        "quote": "and Mallinckrodt Professor of Physics in 1976"
+      }
+    ]
+  },
+  {
+    "id": "glauber_nobel_prize",
+    "event_type": "award",
+    "label": "Awarded Nobel Prize in Physics",
+    "date": {
+      "display": "2005",
+      "precision": "year",
+      "sort_start": "2005-01-01",
+      "sort_end": "2005-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "roy_glauber",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize_physics_2005",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "osland_2020",
+        "page": 1,
+        "quote": "for which he was awarded one half of the 2005 Nobel Prize in Physics"
+      }
+    ]
+  },
+  {
+    "id": "osland_meets_glauber",
+    "event_type": "meeting",
+    "label": "Osland meets Glauber at Summer School",
+    "date": {
+      "display": "1969",
+      "precision": "year",
+      "sort_start": "1969-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "location": "hercegnovi",
+    "participants": [
+      {
+        "entity_id": "per_osland",
+        "role": "subject"
+      },
+      {
+        "entity_id": "roy_glauber",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "osland_2020",
+        "page": 9,
+        "quote": "I ﬁrst met Roy Glauber at a Summer School in Hercegnovi (then Yugoslavia), in 1969."
+      }
+    ]
+  },
+  {
+    "id": "osland_glauber_cern_overlap",
+    "event_type": "meeting",
+    "label": "Osland and Glauber overlap at CERN",
+    "date": {
+      "display": "around 1972",
+      "precision": "circa",
+      "sort_start": "1971-01-01",
+      "sort_end": "1973-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "per_osland",
+        "role": "subject"
+      },
+      {
+        "entity_id": "roy_glauber",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "cern",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "osland_2020",
+        "page": 9,
+        "quote": "I next had a year of overlap with him at CERN, around 1972"
+      }
+    ]
+  },
+  {
+    "id": "osland_harvard_postdoc",
+    "event_type": "employment_start",
+    "label": "Osland invited to Harvard as postdoc",
+    "date": {
+      "display": "1976",
+      "precision": "year",
+      "sort_start": "1976-01-01",
+      "sort_end": "1976-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "per_osland",
+        "role": "subject"
+      },
+      {
+        "entity_id": "harvard_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "osland_2020",
+        "page": 9,
+        "quote": "before being invited to Harvard, as a postdoc, in 1976"
+      }
+    ]
+  },
+  {
+    "id": "osland_glauber_collaboration_start",
+    "event_type": "meeting",
+    "label": "Osland joins Glauber's scattering work",
+    "date": {
+      "display": "1981",
+      "precision": "year",
+      "sort_start": "1981-01-01",
+      "sort_end": "1981-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "per_osland",
+        "role": "subject"
+      },
+      {
+        "entity_id": "roy_glauber",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "marek_bleszynski",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "harvard_university",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "osland_2020",
+        "page": 3,
+        "quote": "Returning to Harvard in 1981, I learned that Roy and Marek Bleszynski had been work- ing on a simpliﬁed description of proton-nucleus scattering, an activity I immediately joined."
+      }
+    ]
+  },
+  {
+    "id": "glauber_visits_bergen",
+    "event_type": "visit",
+    "label": "Glauber visits Bergen",
+    "date": {
+      "display": "early 1990s",
+      "precision": "decade",
+      "sort_start": "1990-01-01",
+      "sort_end": "1993-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "roy_glauber",
+        "role": "subject"
+      },
+      {
+        "entity_id": "per_osland",
+        "role": "host"
+      },
+      {
+        "entity_id": "university_of_bergen",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "osland_2020",
+        "page": 9,
+        "quote": "In the early 1990s Roy brieﬂy visited me in Bergen two summers"
+      }
+    ]
+  },
+  {
+    "id": "collaboration_resumes",
+    "event_type": "meeting",
+    "label": "Collaboration resumes after Nobel",
+    "date": {
+      "display": "2006",
+      "precision": "year",
+      "sort_start": "2006-01-01",
+      "sort_end": "2006-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "roy_glauber",
+        "role": "subject"
+      },
+      {
+        "entity_id": "per_osland",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "osland_2020",
+        "page": 9,
+        "quote": "In the aftermath of the Nobel Prize celebrations, in 2006, Roy suggested we should pick it up again."
+      }
+    ]
+  },
+  {
+    "id": "european_few_body_conference",
+    "event_type": "conference",
+    "label": "24th European Few Body Conference",
+    "date": {
+      "display": "2-6 September 2019",
+      "precision": "day",
+      "sort_start": "2019-09-02",
+      "sort_end": "2019-09-06"
+    },
+    "location": "surrey_uk",
+    "participants": [
+      {
+        "entity_id": "per_osland",
+        "role": "presenter"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "osland_2020",
+        "page": 1,
+        "quote": "Proceedings for the 24th edition of European Few Body Conference, Surrey, UK, 2-6 September 2019"
+      }
+    ]
+  }
+]

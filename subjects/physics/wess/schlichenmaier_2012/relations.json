@@ -1,0 +1,99 @@
+[
+  {
+    "id": "wess_employed_karlsruhe",
+    "source": "julius_wess",
+    "type": "employed_by",
+    "target": "university_of_karlsruhe",
+    "event_id": "wess_taught_karlsruhe",
+    "sources": [
+      {
+        "source_id": "schlichenmaier_2012",
+        "page": 158,
+        "quote": "From 1978 till 1984 I studied mathematics at the University of Karlsruhe."
+      }
+    ]
+  },
+  {
+    "id": "wess_employed_lmu",
+    "source": "julius_wess",
+    "type": "employed_by",
+    "target": "lmu_munich",
+    "event_id": "wess_moved_munich",
+    "sources": [
+      {
+        "source_id": "schlichenmaier_2012",
+        "page": 161,
+        "quote": "Later Julius moved to Munich to the LMU and the MPI (Heisenberg Institute)."
+      }
+    ]
+  },
+  {
+    "id": "wess_employed_mpi",
+    "source": "julius_wess",
+    "type": "employed_by",
+    "target": "mpi_heisenberg_institute",
+    "event_id": "wess_moved_munich",
+    "sources": [
+      {
+        "source_id": "schlichenmaier_2012",
+        "page": 161,
+        "quote": "Later Julius moved to Munich to the LMU and the MPI (Heisenberg Institute)."
+      }
+    ]
+  },
+  {
+    "id": "wess_awarded_leibniz",
+    "source": "julius_wess",
+    "type": "awarded",
+    "target": "leibniz_prize",
+    "event_id": "wess_leibniz_prize",
+    "sources": [
+      {
+        "source_id": "schlichenmaier_2012",
+        "page": 159,
+        "quote": "He had received the Leibniz-Prize in 1986."
+      }
+    ]
+  },
+  {
+    "id": "schlichenmaier_studied_karlsruhe",
+    "source": "martin_schlichenmaier",
+    "type": "studied_at",
+    "target": "university_of_karlsruhe",
+    "event_id": "schlichenmaier_studied_karlsruhe",
+    "sources": [
+      {
+        "source_id": "schlichenmaier_2012",
+        "page": 158,
+        "quote": "From 1978 till 1984 I studied mathematics at the University of Karlsruhe."
+      }
+    ]
+  },
+  {
+    "id": "schlichenmaier_employed_mannheim",
+    "source": "martin_schlichenmaier",
+    "type": "employed_by",
+    "target": "university_of_mannheim",
+    "event_id": "schlichenmaier_returned_germany",
+    "sources": [
+      {
+        "source_id": "schlichenmaier_2012",
+        "page": 159,
+        "quote": "In fall 1985, I returned back to Germany and found a position as wissenschaftlicher Mitarbeiter (assistant) at the Mathematics Department of the University of Mannheim."
+      }
+    ]
+  },
+  {
+    "id": "schlichenmaier_supervised_wess",
+    "source": "martin_schlichenmaier",
+    "type": "supervised_by",
+    "target": "julius_wess",
+    "sources": [
+      {
+        "source_id": "schlichenmaier_2012",
+        "page": 158,
+        "quote": "Our contact begun when he was one of my academic teachers, evolved in time and we became friends up to the moment of his passing away."
+      }
+    ]
+  }
+]

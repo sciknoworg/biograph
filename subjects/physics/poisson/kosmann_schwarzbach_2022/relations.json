@@ -1,0 +1,221 @@
+[
+  {
+    "id": "poisson_born_in_pithiviers",
+    "source": "simeon_denis_poisson",
+    "type": "born_in",
+    "target": "pithiviers",
+    "event_id": "poisson_birth",
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 1,
+        "quote": "It was the birthplace in 1781 of Siméon-Denis Poisson"
+      }
+    ]
+  },
+  {
+    "id": "poisson_studied_at_ecole",
+    "source": "simeon_denis_poisson",
+    "type": "studied_at",
+    "target": "ecole_polytechnique",
+    "event_id": "poisson_enters_ecole",
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 1,
+        "quote": "Poisson sat for the entrance examination in 1798 and took first place."
+      }
+    ]
+  },
+  {
+    "id": "poisson_worked_at_ecole",
+    "source": "simeon_denis_poisson",
+    "type": "worked_at",
+    "target": "ecole_polytechnique",
+    "event_id": "poisson_assistant_appointment",
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 2,
+        "quote": "Upon finishing his studies at the École, Poisson was immediately appointed as an assistant"
+      }
+    ]
+  },
+  {
+    "id": "poisson_member_of_academie",
+    "source": "simeon_denis_poisson",
+    "type": "member_of",
+    "target": "academie_des_sciences",
+    "event_id": "poisson_academie_election",
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 3,
+        "quote": "Poisson was elected to fill it."
+      }
+    ]
+  },
+  {
+    "id": "poisson_worked_at_universite",
+    "source": "simeon_denis_poisson",
+    "type": "worked_at",
+    "target": "universite_imperiale",
+    "event_id": "poisson_mechanics_professor",
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 2,
+        "quote": "Poisson was named its first professor of mechanics."
+      }
+    ]
+  },
+  {
+    "id": "poisson_worked_at_council",
+    "source": "simeon_denis_poisson",
+    "type": "worked_at",
+    "target": "royal_council_of_public_education",
+    "event_id": "poisson_royal_council_member",
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 4,
+        "quote": "From 1820 until his death, Poisson played an important role in the organization of education in France, as a member... of the Royal Council of Public Education."
+      }
+    ]
+  },
+  {
+    "id": "poisson_supervised_by_lagrange",
+    "source": "simeon_denis_poisson",
+    "type": "supervised_by",
+    "target": "joseph_louis_lagrange",
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 2,
+        "quote": "When Poisson entered the École Polytechnique, the professors were the most distinguished scientists of the time, Joseph Louis Lagrange (1736–1813) and Gaspard Monge (1746–1818) taught mathematics"
+      }
+    ]
+  },
+  {
+    "id": "poisson_supervised_by_monge",
+    "source": "simeon_denis_poisson",
+    "type": "supervised_by",
+    "target": "gaspard_monge",
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 2,
+        "quote": "Joseph Louis Lagrange (1736–1813) and Gaspard Monge (1746–1818) taught mathematics"
+      }
+    ]
+  },
+  {
+    "id": "poisson_supervised_by_laplace",
+    "source": "simeon_denis_poisson",
+    "type": "supervised_by",
+    "target": "pierre_simon_laplace",
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 2,
+        "quote": "Pierre-Simon Laplace (1749–1827) was an examiner for mathematics"
+      }
+    ]
+  },
+  {
+    "id": "poisson_collaborated_with_fourier",
+    "source": "simeon_denis_poisson",
+    "type": "collaborated_with",
+    "target": "joseph_fourier",
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 2,
+        "quote": "in 1802 he was called upon to \"take over temporarily the duties of Citizen Fourier\""
+      }
+    ]
+  },
+  {
+    "id": "poisson_invented_equation",
+    "source": "simeon_denis_poisson",
+    "type": "invented",
+    "target": "poissons_equation",
+    "event_id": "poissons_equation_paper",
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 4,
+        "quote": "This case became known as \"Poisson's equation\" in electromagnetism. It was indeed discovered by Poisson."
+      }
+    ]
+  },
+  {
+    "id": "poisson_invented_ratio",
+    "source": "simeon_denis_poisson",
+    "type": "invented",
+    "target": "poissons_ratio",
+    "event_id": "poissons_ratio_note",
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 5,
+        "quote": "Poisson introduced the dimensionless ratio that bears his name"
+      }
+    ]
+  },
+  {
+    "id": "poisson_invented_spot",
+    "source": "simeon_denis_poisson",
+    "type": "invented",
+    "target": "poissons_spot",
+    "event_id": "poisson_spot_experiment",
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 6,
+        "quote": "This phenomenon was then called derisively \"Poisson's spot\"."
+      }
+    ]
+  },
+  {
+    "id": "poisson_invented_distribution",
+    "source": "simeon_denis_poisson",
+    "type": "invented",
+    "target": "poisson_distribution",
+    "event_id": "poisson_distribution_essay",
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 6,
+        "quote": "the Poisson distribution appeared for the first time on page 262 of Poisson's essay of 1829"
+      }
+    ]
+  },
+  {
+    "id": "poisson_invented_brackets",
+    "source": "simeon_denis_poisson",
+    "type": "invented",
+    "target": "poisson_brackets",
+    "event_id": "poisson_brackets_essay",
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 10,
+        "quote": "it was in Poisson's famous essay of 1809... that the Poisson brackets appeared in their own right."
+      }
+    ]
+  },
+  {
+    "id": "poisson_member_of_societe",
+    "source": "simeon_denis_poisson",
+    "type": "member_of",
+    "target": "societe_darcueil",
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 12,
+        "quote": "he left the capital only to visit Laplace at Arcueil, a few miles from the southern edge of Paris, where he joined the other members of the Société d'Arcueil"
+      }
+    ]
+  }
+]

@@ -1,0 +1,109 @@
+[
+  {
+    "aliases": [
+      "Christoph Clavius",
+      "Clavius",
+      "Clavius of Bamberg"
+    ],
+    "entity_type": "person",
+    "id": "christopher_clavius",
+    "name": "Christopher Clavius",
+    "subtype": "researcher",
+    "summary": "Jesuit priest, mathematician, and astronomer."
+  },
+  {
+    "aliases": [
+      "Jesuits",
+      "Society"
+    ],
+    "entity_type": "organization",
+    "id": "society_of_jesus",
+    "name": "Society of Jesus",
+    "subtype": "organization",
+    "summary": "Catholic religious order founded in the sixteenth century."
+  },
+  {
+    "aliases": [
+      "Gregorian University"
+    ],
+    "entity_type": "organization",
+    "id": "collegio_romano",
+    "name": "Collegio Romano",
+    "subtype": "university",
+    "summary": "Jesuit educational institution in Rome."
+  },
+  {
+    "aliases": [
+      "Gregory XIII"
+    ],
+    "entity_type": "person",
+    "id": "pope_gregory_xiii",
+    "name": "Pope Gregory XIII",
+    "subtype": "religious_leader",
+    "summary": "Pope who commissioned the Gregorian calendar reform."
+  },
+  {
+    "aliases": [
+      "Ignatius",
+      "St. Ignatius of Loyola"
+    ],
+    "entity_type": "person",
+    "id": "ignatius_of_loyola",
+    "name": "Ignatius of Loyola",
+    "subtype": "religious_leader",
+    "summary": "Founder of the Society of Jesus."
+  },
+  {
+    "aliases": [
+      "Inter gravissimas"
+    ],
+    "entity_type": "artifact",
+    "id": "gregorian_calendar",
+    "name": "Gregorian Calendar",
+    "subtype": "publication",
+    "summary": "Calendar reform commissioned by Pope Gregory XIII."
+  },
+  {
+    "aliases": [
+      "Jesuit Ratio Studiorum"
+    ],
+    "entity_type": "artifact",
+    "id": "ratio_studiorum",
+    "name": "Ratio Studiorum",
+    "subtype": "publication",
+    "summary": "Jesuit pedagogical plan for schools."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Germany"
+    },
+    "entity_type": "place",
+    "id": "bamberg",
+    "name": "Bamberg",
+    "subtype": "city",
+    "summary": "City in Germany."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Portugal"
+    },
+    "entity_type": "place",
+    "id": "coimbra",
+    "name": "Coimbra",
+    "subtype": "city",
+    "summary": "City in Portugal."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Italy"
+    },
+    "entity_type": "place",
+    "id": "rome",
+    "name": "Rome",
+    "subtype": "city",
+    "summary": "City in Italy."
+  }
+]

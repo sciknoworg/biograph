@@ -1,0 +1,253 @@
+[
+  {
+    "id": "raman_born_in_thiruvanaikkaval",
+    "source": "c_v_raman",
+    "type": "born_in",
+    "target": "thiruvanaikkaval",
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 3,
+        "quote": "Chandrasekhara Venkata Raman (C.V. Raman) was born on 7th November 1888 in Thiruvanaikkaval in Tamil Nadu (a southern state of India), colonial India."
+      }
+    ]
+  },
+  {
+    "id": "raman_studied_at_presidency",
+    "source": "c_v_raman",
+    "type": "studied_at",
+    "target": "presidency_college_madras",
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 3,
+        "quote": "After primary education, Raman, at the age of 13, joined the Presidency College in Madras."
+      }
+    ]
+  },
+  {
+    "id": "raman_employed_by_financial_service",
+    "source": "c_v_raman",
+    "type": "employed_by",
+    "target": "indian_financial_service",
+    "start": {
+      "display": "1907",
+      "precision": "year",
+      "sort_start": "1907-01-01",
+      "sort_end": "1907-12-31"
+    },
+    "end": {
+      "display": "1917",
+      "precision": "year",
+      "sort_start": "1917-01-01",
+      "sort_end": "1917-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 4,
+        "quote": "In 1907, he qualified for the Indian Financial Service and was posted as Assistant Accountant General in Calcutta (eastern part of India)."
+      }
+    ]
+  },
+  {
+    "id": "raman_worked_at_iacs",
+    "source": "c_v_raman",
+    "type": "worked_at",
+    "target": "indian_association_for_cultivation_of_science",
+    "start": {
+      "display": "1907",
+      "precision": "year",
+      "sort_start": "1907-01-01",
+      "sort_end": "1907-12-31"
+    },
+    "end": {
+      "display": "1933",
+      "precision": "year",
+      "sort_start": "1933-01-01",
+      "sort_end": "1933-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 4,
+        "quote": "In the initial decade, he was still employed in the Indian financial service and performed independent research at the Indian Association for the Cultivation of Science (IACS)."
+      }
+    ]
+  },
+  {
+    "id": "raman_employed_by_calcutta_uni",
+    "source": "c_v_raman",
+    "type": "employed_by",
+    "target": "calcutta_university",
+    "start": {
+      "display": "1917",
+      "precision": "year",
+      "sort_start": "1917-01-01",
+      "sort_end": "1917-12-31"
+    },
+    "end": {
+      "display": "1933",
+      "precision": "year",
+      "sort_start": "1933-01-01",
+      "sort_end": "1933-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 4,
+        "quote": "In 1917, he quit the Indian Financial Service and became a professor at Calcutta University and IACS."
+      }
+    ]
+  },
+  {
+    "id": "raman_worked_at_iisc",
+    "source": "c_v_raman",
+    "type": "worked_at",
+    "target": "indian_institute_of_science",
+    "start": {
+      "display": "1933",
+      "precision": "year",
+      "sort_start": "1933-01-01",
+      "sort_end": "1933-12-31"
+    },
+    "end": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 4,
+        "quote": "In 1933, Raman was appointed as Director (the first Indian) of the Indian Institute of Science (IISc) at Bangalore."
+      }
+    ]
+  },
+  {
+    "id": "raman_founded_rri",
+    "source": "c_v_raman",
+    "type": "founded",
+    "target": "raman_research_institute",
+    "start": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 4,
+        "quote": "From 1948 to 1970, Raman was the Director of the Raman Research Institute at Bangalore."
+      }
+    ]
+  },
+  {
+    "id": "raman_collaborated_krishnan",
+    "source": "c_v_raman",
+    "type": "collaborated_with",
+    "target": "k_s_krishnan",
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 9,
+        "quote": "This is evident from the opening lines of the famous paper [16] titled \"A new type of secondary radiation\" by C. V. Raman and K. S. Krishnan, which announced the inelastic scattering process for visible light"
+      }
+    ]
+  },
+  {
+    "id": "raman_collaborated_nath",
+    "source": "c_v_raman",
+    "type": "collaborated_with",
+    "target": "nagendra_nath",
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 16,
+        "quote": "Raman, in collaboration with his student Nagedra Nath, had an important role to play in laying the foundations of the acousto-optic effect."
+      }
+    ]
+  },
+  {
+    "id": "raman_mentored_ramachandran",
+    "source": "c_v_raman",
+    "type": "mentored",
+    "target": "g_n_ramachandran",
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 20,
+        "quote": "In the 1940s, Raman, along with his student Ramachandran, anticipated the speckle phenomenon much before it became a well-studied concept [51,12]."
+      }
+    ]
+  },
+  {
+    "id": "raman_mentored_pancharatnam",
+    "source": "c_v_raman",
+    "type": "mentored",
+    "target": "s_pancharatnam",
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 24,
+        "quote": "One of the few people whom he mentored during this time was Pancharatnam."
+      }
+    ]
+  },
+  {
+    "id": "raman_married_lokasundari",
+    "source": "c_v_raman",
+    "type": "married_to",
+    "target": "lokasundari_ammal",
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 4,
+        "quote": "Before moving to Calcutta, Raman got married to Lokasundari Ammal."
+      }
+    ]
+  },
+  {
+    "id": "raman_invented_raman_effect",
+    "source": "c_v_raman",
+    "type": "invented",
+    "target": "raman_effect",
+    "event_id": "raman_effect_discovery",
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 11,
+        "quote": "The year 1928 is an important one in the context of the discovery of the Raman Effect."
+      }
+    ]
+  },
+  {
+    "id": "raman_awarded_nobel",
+    "source": "c_v_raman",
+    "type": "awarded",
+    "target": "nobel_prize_physics_1930",
+    "event_id": "raman_nobel_prize",
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 4,
+        "quote": "He went on to win a Nobel Prize in Physics in 1930."
+      }
+    ]
+  },
+  {
+    "id": "raman_died_in_bangalore",
+    "source": "c_v_raman",
+    "type": "died_in",
+    "target": "bangalore",
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 4,
+        "quote": "Raman passed away on 21st November 1970 in Bangalore."
+      }
+    ]
+  }
+]

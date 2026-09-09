@@ -1,0 +1,86 @@
+[
+  {
+    "id": "qip_aarhus_1998",
+    "event_type": "conference",
+    "label": "QIP conference in Århus",
+    "description": "Participants at the QIP conferences in (1) Århus in 1998.",
+    "date": {
+      "display": "1998",
+      "precision": "year",
+      "sort_start": "1998-01-01",
+      "sort_end": "1998-12-31"
+    },
+    "participants": [],
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 1,
+        "quote": "Participants at the QIP conferenc es in (1) ˚ Arhus in 1998, (2) Montr´ eal in 2000, (3) Amsterdam in 2001, and (4) at IBM Watson in 2002."
+      }
+    ],
+    "_rejected_because": "[] should be non-empty"
+  },
+  {
+    "id": "qip_montreal_2000",
+    "event_type": "conference",
+    "label": "QIP conference in Montréal",
+    "description": "Participants at the QIP conferences in (2) Montréal in 2000.",
+    "date": {
+      "display": "2000",
+      "precision": "year",
+      "sort_start": "2000-01-01",
+      "sort_end": "2000-12-31"
+    },
+    "participants": [],
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 1,
+        "quote": "Participants at the QIP conferenc es in (1) ˚ Arhus in 1998, (2) Montr´ eal in 2000, (3) Amsterdam in 2001, and (4) at IBM Watson in 2002."
+      }
+    ],
+    "_rejected_because": "[] should be non-empty"
+  },
+  {
+    "id": "qip_amsterdam_2001",
+    "event_type": "conference",
+    "label": "QIP conference in Amsterdam",
+    "description": "Participants at the QIP conferences in (3) Amsterdam in 2001.",
+    "date": {
+      "display": "2001",
+      "precision": "year",
+      "sort_start": "2001-01-01",
+      "sort_end": "2001-12-31"
+    },
+    "participants": [],
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 1,
+        "quote": "Participants at the QIP conferenc es in (1) ˚ Arhus in 1998, (2) Montr´ eal in 2000, (3) Amsterdam in 2001, and (4) at IBM Watson in 2002."
+      }
+    ],
+    "_rejected_because": "[] should be non-empty"
+  },
+  {
+    "id": "qip_ibm_2002",
+    "event_type": "conference",
+    "label": "QIP conference at IBM Watson",
+    "description": "Participants at the QIP conferences in (4) at IBM Watson in 2002.",
+    "date": {
+      "display": "2002",
+      "precision": "year",
+      "sort_start": "2002-01-01",
+      "sort_end": "2002-12-31"
+    },
+    "participants": [],
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 1,
+        "quote": "Participants at the QIP conferenc es in (1) ˚ Arhus in 1998, (2) Montr´ eal in 2000, (3) Amsterdam in 2001, and (4) at IBM Watson in 2002."
+      }
+    ],
+    "_rejected_because": "[] should be non-empty"
+  }
+]

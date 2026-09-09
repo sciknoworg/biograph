@@ -1,0 +1,141 @@
+[
+  {
+    "id": "eotvos_studied_budapest",
+    "source": "lorand_eotvos",
+    "type": "studied_at",
+    "target": "university_of_budapest",
+    "event_id": "eotvos_law_study",
+    "sources": [
+      {
+        "source_id": "kubbinga_2020_tribute",
+        "page": 2,
+        "quote": "Loránd Eötvös studied law at Budapest's University (1865-1867)"
+      }
+    ]
+  },
+  {
+    "id": "eotvos_studied_heidelberg",
+    "source": "lorand_eotvos",
+    "type": "studied_at",
+    "target": "heidelberg_university",
+    "event_id": "eotvos_phd",
+    "sources": [
+      {
+        "source_id": "kubbinga_2020_tribute",
+        "page": 2,
+        "quote": "On 7 July 1870, he passed the PhD under supervision of Gustav Kirchhoff in Heidelberg without a formal dissertation."
+      }
+    ]
+  },
+  {
+    "id": "eotvos_supervised_kirchhoff",
+    "source": "lorand_eotvos",
+    "type": "supervised_by",
+    "target": "gustav_kirchhoff",
+    "event_id": "eotvos_phd",
+    "sources": [
+      {
+        "source_id": "kubbinga_2020_tribute",
+        "page": 2,
+        "quote": "On 7 July 1870, he passed the PhD under supervision of Gustav Kirchhoff in Heidelberg without a formal dissertation."
+      }
+    ]
+  },
+  {
+    "id": "eotvos_employed_budapest",
+    "source": "lorand_eotvos",
+    "type": "employed_by",
+    "target": "university_of_budapest",
+    "event_id": "eotvos_professor_budapest",
+    "sources": [
+      {
+        "source_id": "kubbinga_2020_tribute",
+        "page": 2,
+        "quote": "In 1872 he was nominated Professor of Physics at the University of Budapest"
+      }
+    ]
+  },
+  {
+    "id": "eotvos_invented_torsion_balance",
+    "source": "lorand_eotvos",
+    "type": "invented",
+    "target": "torsion_balance",
+    "event_id": "torsion_balance_invention",
+    "sources": [
+      {
+        "source_id": "kubbinga_2020_tribute",
+        "page": 2,
+        "quote": "Among his new instruments featured the torsion balance of 1891."
+      }
+    ]
+  },
+  {
+    "id": "eotvos_collaborated_pekar",
+    "source": "lorand_eotvos",
+    "type": "collaborated_with",
+    "target": "dezso_pekar",
+    "event_id": "eotvos_prize_awarded",
+    "sources": [
+      {
+        "source_id": "kubbinga_2020_tribute",
+        "page": 4,
+        "quote": "the essay submitted by Eötvös, Pekár and Fekete was nonetheless awarded the 1909 prize"
+      }
+    ]
+  },
+  {
+    "id": "eotvos_collaborated_fekete",
+    "source": "lorand_eotvos",
+    "type": "collaborated_with",
+    "target": "jeno_fekete",
+    "event_id": "eotvos_prize_awarded",
+    "sources": [
+      {
+        "source_id": "kubbinga_2020_tribute",
+        "page": 4,
+        "quote": "the essay submitted by Eötvös, Pekár and Fekete was nonetheless awarded the 1909 prize"
+      }
+    ]
+  },
+  {
+    "id": "eotvos_awarded_prize",
+    "source": "lorand_eotvos",
+    "type": "awarded",
+    "target": "gottingen_prize",
+    "event_id": "eotvos_prize_awarded",
+    "sources": [
+      {
+        "source_id": "kubbinga_2020_tribute",
+        "page": 4,
+        "quote": "the essay submitted by Eötvös, Pekár and Fekete was nonetheless awarded the 1909 prize"
+      }
+    ]
+  },
+  {
+    "id": "budapest_renamed_eotvos",
+    "source": "university_of_budapest",
+    "type": "renamed_to",
+    "target": "eotvos_university",
+    "event_id": "university_rename",
+    "sources": [
+      {
+        "source_id": "kubbinga_2020_tribute",
+        "page": 2,
+        "quote": "the university which, since 1950, carries his name"
+      }
+    ]
+  },
+  {
+    "id": "eotvos_family_jozsef",
+    "source": "lorand_eotvos",
+    "type": "family_of",
+    "target": "jozsef_eotvos",
+    "sources": [
+      {
+        "source_id": "kubbinga_2020_tribute",
+        "page": 2,
+        "quote": "Jo´zsef Eo¨tvo¨s, Hungary's leading intellectual and Cabinet Minister, reorganized science. He sent his son to Heidelberg"
+      }
+    ]
+  }
+]

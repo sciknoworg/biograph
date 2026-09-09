@@ -1,0 +1,140 @@
+[
+  {
+    "id": "reuleaux_born_eschweiler",
+    "source": "franz_reuleaux",
+    "type": "born_in",
+    "target": "eschweiler",
+    "event_id": "reuleaux_birth",
+    "sources": [
+      {
+        "source_id": "moon_2003",
+        "page": 5,
+        "quote": "Franz Reuleaux was born in Eschweiler, a suburb of Aachen in 1829"
+      }
+    ]
+  },
+  {
+    "id": "reuleaux_married_overbeck",
+    "source": "franz_reuleaux",
+    "type": "married_to",
+    "target": "charlotte_overbeck",
+    "event_id": "reuleaux_marriage",
+    "sources": [
+      {
+        "source_id": "moon_2003",
+        "page": 5,
+        "quote": "They were married in 1856."
+      }
+    ]
+  },
+  {
+    "id": "reuleaux_studied_karlsruhe",
+    "source": "franz_reuleaux",
+    "type": "studied_at",
+    "target": "polytechnic_school_karlsruhe",
+    "event_id": "reuleaux_education_karlsruhe",
+    "sources": [
+      {
+        "source_id": "moon_2003",
+        "page": 5,
+        "quote": "Reuleaux received his technical training at the Polytechnic School at Karlsruhe (1850-52)"
+      }
+    ]
+  },
+  {
+    "id": "reuleaux_educated_redtenbacher",
+    "source": "franz_reuleaux",
+    "type": "educated_by",
+    "target": "ferdinand_redtenbacher",
+    "sources": [
+      {
+        "source_id": "moon_2003",
+        "page": 5,
+        "quote": "where he studied with a major machine theorist, Professor Ferdinand Redtenbacher (1809-1869)"
+      }
+    ]
+  },
+  {
+    "id": "reuleaux_worked_zurich",
+    "source": "franz_reuleaux",
+    "type": "worked_at",
+    "target": "eth_zurich",
+    "event_id": "reuleaux_professor_zurich",
+    "sources": [
+      {
+        "source_id": "moon_2003",
+        "page": 5,
+        "quote": "In 1856, at the age of 27, he received an invitation to become a professor of mechanical engineering at the Swiss Federal Institute in Zurich"
+      }
+    ]
+  },
+  {
+    "id": "reuleaux_worked_berlin",
+    "source": "franz_reuleaux",
+    "type": "worked_at",
+    "target": "konigliche_gewerbe_akademie",
+    "event_id": "reuleaux_professor_berlin",
+    "sources": [
+      {
+        "source_id": "moon_2003",
+        "page": 6,
+        "quote": "he was called to Berlin in 1864, to develop a mechanical engineering program at the Königliche Gewerbe Akademie"
+      }
+    ]
+  },
+  {
+    "id": "reuleaux_member_asme",
+    "source": "franz_reuleaux",
+    "type": "member_of",
+    "target": "asme",
+    "event_id": "reuleaux_asme_honorary",
+    "sources": [
+      {
+        "source_id": "moon_2003",
+        "page": 7,
+        "quote": "He was one of the early honorary members of ASME (1882)"
+      }
+    ]
+  },
+  {
+    "id": "reuleaux_published_kinematics",
+    "source": "franz_reuleaux",
+    "type": "published",
+    "target": "kinematics_of_machinery",
+    "event_id": "reuleaux_publication_kinematics_1875",
+    "sources": [
+      {
+        "source_id": "moon_2003",
+        "page": 3,
+        "quote": "Reuleaux's two major books, The Kinematics of Machinery (1875/76) [5,6]"
+      }
+    ]
+  },
+  {
+    "id": "reuleaux_published_constructor",
+    "source": "franz_reuleaux",
+    "type": "published",
+    "target": "the_constructor",
+    "event_id": "reuleaux_publication_constructor_1861",
+    "sources": [
+      {
+        "source_id": "moon_2003",
+        "page": 6,
+        "quote": "After the publication of his 1861 book Der Constructeur [7] (or The Designer)"
+      }
+    ]
+  },
+  {
+    "id": "reuleaux_invented_models",
+    "source": "franz_reuleaux",
+    "type": "invented",
+    "target": "reuleaux_models",
+    "sources": [
+      {
+        "source_id": "moon_2003",
+        "page": 10,
+        "quote": "Reuleaux also created a museum of 800 models of mechanisms"
+      }
+    ]
+  }
+]

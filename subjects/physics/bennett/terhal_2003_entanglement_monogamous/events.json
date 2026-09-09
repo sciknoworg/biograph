@@ -1,0 +1,381 @@
+[
+  {
+    "id": "terhal_paper_2003",
+    "event_type": "publication",
+    "label": "Published Is Entanglement Monogamous?",
+    "description": "Terhal's contribution to Bennett's 60th birthday festivities.",
+    "date": {
+      "display": "17 Jul 2003",
+      "precision": "day",
+      "sort_start": "2003-07-17",
+      "sort_end": "2003-07-17"
+    },
+    "participants": [
+      {
+        "entity_id": "barbara_terhal",
+        "role": "author"
+      },
+      {
+        "entity_id": "charles_bennett",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 1,
+        "quote": "arXiv:quant-ph/0307120v1  17 Jul 2003"
+      }
+    ]
+  },
+  {
+    "id": "bennett_60th_symposium",
+    "event_type": "conference",
+    "label": "Charlie Bennett's 60th birthday symposium",
+    "description": "Scientific festivities around Charlie Bennett's 60th birthday.",
+    "date": {
+      "display": "2003",
+      "precision": "year",
+      "sort_start": "2003-01-01",
+      "sort_end": "2003-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "charles_bennett",
+        "role": "subject"
+      },
+      {
+        "entity_id": "barbara_terhal",
+        "role": "participant"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 1,
+        "quote": "It is a pleasure to contribute to the scientiﬁc festivities a round Charlie Bennett's 60th birthday ."
+      }
+    ]
+  },
+  {
+    "id": "ingarden_paper_1976",
+    "event_type": "publication",
+    "label": "Ingarden published Quantum Information Theory",
+    "description": "Paper written in 1976 by the Polish mathematical physicist Roman Ingarden.",
+    "date": {
+      "display": "1976",
+      "precision": "year",
+      "sort_start": "1976-01-01",
+      "sort_end": "1976-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "roman_ingarden",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 2,
+        "quote": "For example, a few years ago I found a paper on the subject written in 1976 by the Polish mathematical phy sicist Roman Ingarden [1]."
+      }
+    ]
+  },
+  {
+    "id": "holevo_result_1973",
+    "event_type": "publication",
+    "label": "Holevo published qubit information result",
+    "description": "His 1973 result that n quantum bits cannot carry more than n bits of information.",
+    "date": {
+      "display": "1973",
+      "precision": "year",
+      "sort_start": "1973-01-01",
+      "sort_end": "1973-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alexander_holevo",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 2,
+        "quote": "His 1973 resul t that n quantum bits, or qubits for short, cannot carry more than n bits of information is frequently invoked in the modern quantum information theory ."
+      }
+    ]
+  },
+  {
+    "id": "lindblad_paper_1973",
+    "event_type": "publication",
+    "label": "Lindblad published on quantum entropy",
+    "description": "Paper by G. Lindblad in 1973 on expectation in operator algebra.",
+    "date": {
+      "display": "1973",
+      "precision": "year",
+      "sort_start": "1973-01-01",
+      "sort_end": "1973-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gilles_lindblad",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 3,
+        "quote": "In the earlier work we are more likely to see descriptions suc h this one from a paper by G. Lindblad in 1973 [2]"
+      }
+    ]
+  },
+  {
+    "id": "bb84_proposal_1984",
+    "event_type": "invention",
+    "label": "Proposed BB84 quantum key distribution",
+    "description": "In 1984 Bennett and Brassard proposed a protocol for quantum key distribution.",
+    "date": {
+      "display": "1984",
+      "precision": "year",
+      "sort_start": "1984-01-01",
+      "sort_end": "1984-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "charles_bennett",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "gilles_brassard",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "bb84_protocol",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 6,
+        "quote": "As you know, in 1984 Bennett and Brassard proposed a protocol for quantum key dis- tribution, a way of letting two people, Alice and Bob, share a set of random perfectly correlated bits about which no else has any or hardly any info rmation."
+      }
+    ]
+  },
+  {
+    "id": "lo_chau_proof_1999",
+    "event_type": "publication",
+    "label": "Lo and Chau proved QKD security",
+    "description": "Lo and Chau showed in 1999 how Alice and Bob can proceed to obtain entangled states.",
+    "date": {
+      "display": "1999",
+      "precision": "year",
+      "sort_start": "1999-01-01",
+      "sort_end": "1999-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "hk_lo",
+        "role": "author"
+      },
+      {
+        "entity_id": "hf_chau",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 6,
+        "quote": "Following this line of reasoning, Lo and Chau showed in 1999 [ 3] how Alice and Bob can proceed in order to obtain (something close to) a set o f entangled states and in this way they proved the security of an entanglement-base d quantum key distribution scheme."
+      }
+    ]
+  },
+  {
+    "id": "shor_preskill_proof_2000",
+    "event_type": "publication",
+    "label": "Shor and Preskill proved BB84 security",
+    "description": "Shor and Preskill in 2000 built their security proof of Bennett & Brassard's '84 scheme.",
+    "date": {
+      "display": "2000",
+      "precision": "year",
+      "sort_start": "2000-01-01",
+      "sort_end": "2000-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "peter_shor",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 6,
+        "quote": "The work by Lo and Chau was the stepping stone on which Shor and Preskill [4] in 2000 built their security proof of Bennett & Brassard's '84 scheme."
+      }
+    ]
+  },
+  {
+    "id": "bennett_mixed_state_1996",
+    "event_type": "publication",
+    "label": "Published Mixed State Entanglement paper",
+    "description": "1996 paper by Bennett et al. on Mixed State Entanglement and Quantum Error Correction.",
+    "date": {
+      "display": "1996",
+      "precision": "year",
+      "sort_start": "1996-01-01",
+      "sort_end": "1996-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "charles_bennett",
+        "role": "author"
+      },
+      {
+        "entity_id": "mixed_state_paper",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 6,
+        "quote": "A ﬁrst example of a mixed entangled state that is is not monogamous but shareable –the term is from Ben Schumacher–, can be found in the 1996 paper by Bennett et al. "
+      }
+    ]
+  },
+  {
+    "id": "bell_inequality_1964",
+    "event_type": "publication",
+    "label": "Bell formulated inequality",
+    "description": "In the sixties John Bell formulated an inequality that has to be obeyed by any theory that is classical and local.",
+    "date": {
+      "display": "1964",
+      "precision": "year",
+      "sort_start": "1964-01-01",
+      "sort_end": "1964-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_bell",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 7,
+        "quote": "In the sixties John Bell formulated an inequality that has to be obeyed by any theory that is classical and local [9]."
+      }
+    ]
+  },
+  {
+    "id": "werner_states_1989",
+    "event_type": "publication",
+    "label": "Werner published on hidden-variable models",
+    "description": "Work by Reinhard Werner showing that there exist states which are entangled but do not violate Bell inequalities.",
+    "date": {
+      "display": "1989",
+      "precision": "year",
+      "sort_start": "1989-01-01",
+      "sort_end": "1989-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "reinhard_werner",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 7,
+        "quote": "This question has some history , starting with work by Reinhard Werner showing that there exist states, now called Werner st ates which are entangled but do not violate Bell inequalities for any number of local m easurement settings [10]."
+      }
+    ]
+  },
+  {
+    "id": "qip_aarhus_1998",
+    "event_type": "conference",
+    "label": "QIP conference in Århus",
+    "description": "Participants at the QIP conferences in (1) Århus in 1998.",
+    "date": {
+      "display": "1998",
+      "precision": "year",
+      "sort_start": "1998-01-01",
+      "sort_end": "1998-12-31"
+    },
+    "participants": [],
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 1,
+        "quote": "Participants at the QIP conferenc es in (1) ˚ Arhus in 1998, (2) Montr´ eal in 2000, (3) Amsterdam in 2001, and (4) at IBM Watson in 2002."
+      }
+    ]
+  },
+  {
+    "id": "qip_montreal_2000",
+    "event_type": "conference",
+    "label": "QIP conference in Montréal",
+    "description": "Participants at the QIP conferences in (2) Montréal in 2000.",
+    "date": {
+      "display": "2000",
+      "precision": "year",
+      "sort_start": "2000-01-01",
+      "sort_end": "2000-12-31"
+    },
+    "participants": [],
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 1,
+        "quote": "Participants at the QIP conferenc es in (1) ˚ Arhus in 1998, (2) Montr´ eal in 2000, (3) Amsterdam in 2001, and (4) at IBM Watson in 2002."
+      }
+    ]
+  },
+  {
+    "id": "qip_amsterdam_2001",
+    "event_type": "conference",
+    "label": "QIP conference in Amsterdam",
+    "description": "Participants at the QIP conferences in (3) Amsterdam in 2001.",
+    "date": {
+      "display": "2001",
+      "precision": "year",
+      "sort_start": "2001-01-01",
+      "sort_end": "2001-12-31"
+    },
+    "participants": [],
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 1,
+        "quote": "Participants at the QIP conferenc es in (1) ˚ Arhus in 1998, (2) Montr´ eal in 2000, (3) Amsterdam in 2001, and (4) at IBM Watson in 2002."
+      }
+    ]
+  },
+  {
+    "id": "qip_ibm_2002",
+    "event_type": "conference",
+    "label": "QIP conference at IBM Watson",
+    "description": "Participants at the QIP conferences in (4) at IBM Watson in 2002.",
+    "date": {
+      "display": "2002",
+      "precision": "year",
+      "sort_start": "2002-01-01",
+      "sort_end": "2002-12-31"
+    },
+    "participants": [],
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 1,
+        "quote": "Participants at the QIP conferenc es in (1) ˚ Arhus in 1998, (2) Montr´ eal in 2000, (3) Amsterdam in 2001, and (4) at IBM Watson in 2002."
+      }
+    ]
+  }
+]

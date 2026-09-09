@@ -1,0 +1,248 @@
+[
+  {
+    "id": "helmert_birth",
+    "event_type": "birth",
+    "label": "Born in Freiberg",
+    "date": {
+      "display": "31 July 1843",
+      "precision": "day",
+      "sort_start": "1843-07-31",
+      "sort_end": "1843-07-31"
+    },
+    "participants": [
+      {
+        "entity_id": "helmert_friedrich_robert",
+        "role": "subject"
+      }
+    ],
+    "location": "freiberg",
+    "sources": [
+      {
+        "source_id": "ihde_reinhold_2017",
+        "page": 2,
+        "quote": "Friedrich Robert Helmert was born on 31 July 1843 in Freiberg, Saxony."
+      }
+    ]
+  },
+  {
+    "id": "helmert_dresden_enrollment",
+    "event_type": "education",
+    "label": "Enrolled at Polytechnic College of Dresden",
+    "date": {
+      "display": "Easter of 1859",
+      "precision": "month",
+      "sort_start": "1859-04-01",
+      "sort_end": "1859-04-30"
+    },
+    "participants": [
+      {
+        "entity_id": "helmert_friedrich_robert",
+        "role": "subject"
+      },
+      {
+        "entity_id": "dresden_polytechnic",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ihde_reinhold_2017",
+        "page": 2,
+        "quote": "I transferred to the Polytechnic College of Dresden on Easter of 1859, skipping the first year, and immediately succumbed to my penchant for the engineering sciences"
+      }
+    ]
+  },
+  {
+    "id": "helmert_phd",
+    "event_type": "education",
+    "label": "Awarded PhD at University of Leipzig",
+    "date": {
+      "display": "12 May 1868",
+      "precision": "day",
+      "sort_start": "1868-05-12",
+      "sort_end": "1868-05-12"
+    },
+    "participants": [
+      {
+        "entity_id": "helmert_friedrich_robert",
+        "role": "subject"
+      },
+      {
+        "entity_id": "leipzig_university",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ihde_reinhold_2017",
+        "page": 3,
+        "quote": "Helmert was awarded his Ph.D. on 12 May 1868"
+      }
+    ]
+  },
+  {
+    "id": "helmert_hamburg_start",
+    "event_type": "employment_start",
+    "label": "Started post as observer at Hamburg Observatory",
+    "date": {
+      "display": "early 1869",
+      "precision": "year",
+      "sort_start": "1869-01-01",
+      "sort_end": "1869-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "helmert_friedrich_robert",
+        "role": "subject"
+      },
+      {
+        "entity_id": "hamburg_observatory",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ihde_reinhold_2017",
+        "page": 5,
+        "quote": "In early 1869 took up his post as an observer at the Hamburg Observatory."
+      }
+    ]
+  },
+  {
+    "id": "helmert_aachen_start",
+    "event_type": "employment_start",
+    "label": "Appointed professor at Aachen Polytechnic",
+    "date": {
+      "display": "1870–1871 winter semester",
+      "precision": "year",
+      "sort_start": "1870-10-01",
+      "sort_end": "1871-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "helmert_friedrich_robert",
+        "role": "subject"
+      },
+      {
+        "entity_id": "aachen_polytechnic",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ihde_reinhold_2017",
+        "page": 6,
+        "quote": "From the founding of the Royal Rhine-Westphalia Polytechnic College in Aachen in the 1870–1871 winter semester until the end of 1885, Helmert served as an \"Ordinarius\" for Practical Geometry and Geodesy"
+      }
+    ]
+  },
+  {
+    "id": "helmert_rpgi_director_start",
+    "event_type": "employment_start",
+    "label": "Became director of Royal Prussian Geodetic Institute",
+    "date": {
+      "display": "1 January 1886",
+      "precision": "day",
+      "sort_start": "1886-01-01",
+      "sort_end": "1886-01-01"
+    },
+    "participants": [
+      {
+        "entity_id": "helmert_friedrich_robert",
+        "role": "subject"
+      },
+      {
+        "entity_id": "rpgi",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ihde_reinhold_2017",
+        "page": 7,
+        "quote": "He took up this position, initially in a provisional capacity, on 1 January 1886."
+      }
+    ]
+  },
+  {
+    "id": "helmert_academy_election_fail",
+    "event_type": "award",
+    "label": "Failed election to Prussian Academy of Sciences",
+    "date": {
+      "display": "3 March 1892",
+      "precision": "day",
+      "sort_start": "1892-03-03",
+      "sort_end": "1892-03-03"
+    },
+    "participants": [
+      {
+        "entity_id": "helmert_friedrich_robert",
+        "role": "subject"
+      },
+      {
+        "entity_id": "prussian_academy",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ihde_reinhold_2017",
+        "page": 10,
+        "quote": "At the election held during the plenary session of the academy on 3 March 1892, Helmert failed to secure enough votes."
+      }
+    ]
+  },
+  {
+    "id": "helmert_academy_full_member",
+    "event_type": "award",
+    "label": "Elected full member of Prussian Academy of Sciences",
+    "date": {
+      "display": "7 December 1899",
+      "precision": "day",
+      "sort_start": "1899-12-07",
+      "sort_end": "1899-12-07"
+    },
+    "participants": [
+      {
+        "entity_id": "helmert_friedrich_robert",
+        "role": "subject"
+      },
+      {
+        "entity_id": "prussian_academy",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ihde_reinhold_2017",
+        "page": 10,
+        "quote": "At the plenary session held on 7 December 1899, Helmert received white balls from all 30 electors and the approval to join the academy of Sciences as a full member."
+      }
+    ]
+  },
+  {
+    "id": "helmert_death",
+    "event_type": "death",
+    "label": "Died in Potsdam",
+    "date": {
+      "display": "15 June 1917",
+      "precision": "day",
+      "sort_start": "1917-06-15",
+      "sort_end": "1917-06-15"
+    },
+    "participants": [
+      {
+        "entity_id": "helmert_friedrich_robert",
+        "role": "subject"
+      }
+    ],
+    "location": "potsdam",
+    "sources": [
+      {
+        "source_id": "ihde_reinhold_2017",
+        "page": 1,
+        "quote": "Friedrich Robert Helmert died in Potsdam on 15 June 1917."
+      }
+    ]
+  }
+]

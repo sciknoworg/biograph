@@ -1,0 +1,503 @@
+[
+  {
+    "id": "nambu_death",
+    "event_type": "death",
+    "label": "Nambu passed away",
+    "date": {
+      "display": "July 5, 2015",
+      "precision": "day",
+      "sort_start": "2015-07-05",
+      "sort_end": "2015-07-05"
+    },
+    "participants": [
+      {
+        "entity_id": "yoichiro_nambu",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "frampton_2015",
+        "page": 2,
+        "quote": "Professor Yoichiro Nambu who passed away on July 5, 2015."
+      }
+    ]
+  },
+  {
+    "id": "frampton_veneziano_aware",
+    "event_type": "other",
+    "label": "Frampton became aware of Veneziano model",
+    "date": {
+      "display": "Friday September 6 1968",
+      "precision": "day",
+      "sort_start": "1968-09-06",
+      "sort_end": "1968-09-06"
+    },
+    "participants": [
+      {
+        "entity_id": "paul_frampton",
+        "role": "subject"
+      },
+      {
+        "entity_id": "veneziano_model",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "frampton_2015",
+        "page": 2,
+        "quote": "I first became aware of the Veneziano model on Friday September 6 1968."
+      }
+    ]
+  },
+  {
+    "id": "frampton_chicago_start",
+    "event_type": "employment_start",
+    "label": "Frampton started postdoc at Chicago",
+    "date": {
+      "display": "Monday, September 9, 1968",
+      "precision": "day",
+      "sort_start": "1968-09-09",
+      "sort_end": "1968-09-09"
+    },
+    "participants": [
+      {
+        "entity_id": "paul_frampton",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_chicago",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "frampton_2015",
+        "page": 2,
+        "quote": "On Monday, September 9, 1968 I reported to start work as a post doc in the University of Chicago"
+      }
+    ]
+  },
+  {
+    "id": "frampton_meets_nambu",
+    "event_type": "meeting",
+    "label": "Frampton met Nambu",
+    "date": {
+      "display": "Monday, September 9, 1968",
+      "precision": "day",
+      "sort_start": "1968-09-09",
+      "sort_end": "1968-09-09"
+    },
+    "participants": [
+      {
+        "entity_id": "paul_frampton",
+        "role": "subject"
+      },
+      {
+        "entity_id": "yoichiro_nambu",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "frampton_2015",
+        "page": 2,
+        "quote": "there I met for the first time Professor Yoichiro Nambu."
+      }
+    ]
+  },
+  {
+    "id": "frampton_solution",
+    "event_type": "other",
+    "label": "Frampton solved factorization equation",
+    "date": {
+      "display": "Monday September 23, 1968",
+      "precision": "day",
+      "sort_start": "1968-09-23",
+      "sort_end": "1968-09-23"
+    },
+    "participants": [
+      {
+        "entity_id": "paul_frampton",
+        "role": "subject"
+      },
+      {
+        "entity_id": "yoichiro_nambu",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "frampton_2015",
+        "page": 2,
+        "quote": "returned two weeks later on Monday September 23 with an explicit solution."
+      }
+    ]
+  },
+  {
+    "id": "nambu_n_particle",
+    "event_type": "invention",
+    "label": "Nambu calculated N-particle model",
+    "description": "Nambu calculated the generalization from 4 to N particles.",
+    "date": {
+      "display": "1968",
+      "precision": "year",
+      "sort_start": "1968-01-01",
+      "sort_end": "1968-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "yoichiro_nambu",
+        "role": "subject"
+      },
+      {
+        "entity_id": "veneziano_model",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "frampton_2015",
+        "page": 3,
+        "quote": "First he calculated the generalization from 4 to N particles"
+      }
+    ]
+  },
+  {
+    "id": "nambu_degeneracy",
+    "event_type": "invention",
+    "label": "Nambu calculated degeneracy d(N)",
+    "description": "Nambu calculated the degeneracy of the level as the number of partitions of N into integers.",
+    "date": {
+      "display": "1968",
+      "precision": "year",
+      "sort_start": "1968-01-01",
+      "sort_end": "1968-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "yoichiro_nambu",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "frampton_2015",
+        "page": 3,
+        "quote": "Nambu also calculated the degeneracy d(N) of the level α (s) = N as the number of partitions of N into integers"
+      }
+    ]
+  },
+  {
+    "id": "mit_berkeley_papers",
+    "event_type": "publication",
+    "label": "MIT and Berkeley papers arrived",
+    "date": {
+      "display": "April 1969",
+      "precision": "month",
+      "sort_start": "1969-04-01",
+      "sort_end": "1969-04-30"
+    },
+    "participants": [
+      {
+        "entity_id": "mit",
+        "role": "employer"
+      },
+      {
+        "entity_id": "uc_berkeley",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "frampton_2015",
+        "page": 4,
+        "quote": "We waited for what seemed forever, actually until April 1969, until two papers, one from MIT the other from Berkeley, arrived."
+      }
+    ]
+  },
+  {
+    "id": "nambu_detroit_talk",
+    "event_type": "conference",
+    "label": "Nambu gave talk in Detroit",
+    "date": {
+      "display": "June 1969",
+      "precision": "month",
+      "sort_start": "1969-06-01",
+      "sort_end": "1969-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "yoichiro_nambu",
+        "role": "subject"
+      }
+    ],
+    "location": "detroit",
+    "sources": [
+      {
+        "source_id": "frampton_2015",
+        "page": 4,
+        "quote": "Nambu did give a talk in June 1969 at a conference in Detroit"
+      }
+    ]
+  },
+  {
+    "id": "nielsen_susskind_papers",
+    "event_type": "publication",
+    "label": "Nielsen and Susskind papers appeared",
+    "date": {
+      "display": "June 1969",
+      "precision": "month",
+      "sort_start": "1969-06-01",
+      "sort_end": "1969-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "nielsen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "susskind",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "frampton_2015",
+        "page": 4,
+        "quote": "In June 1969 papers appeared by Nielsen and by Susskind saying similar things"
+      }
+    ]
+  },
+  {
+    "id": "nambu_string_action",
+    "event_type": "invention",
+    "label": "Nambu discovered string action",
+    "description": "Nambu told Frampton that the action of the string is the area of its world-sheet.",
+    "date": {
+      "display": "July 1969",
+      "precision": "month",
+      "sort_start": "1969-07-01",
+      "sort_end": "1969-07-31"
+    },
+    "participants": [
+      {
+        "entity_id": "yoichiro_nambu",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nambu_goto_action",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "frampton_2015",
+        "page": 4,
+        "quote": "In July 1969, Nambu came to my office to tell me that the action of the string is the area of its world-sheet."
+      }
+    ]
+  },
+  {
+    "id": "nambu_copenhagen_lectures",
+    "event_type": "conference",
+    "label": "Nambu lectured at Copenhagen Summer School",
+    "date": {
+      "display": "1970",
+      "precision": "year",
+      "sort_start": "1970-01-01",
+      "sort_end": "1970-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "yoichiro_nambu",
+        "role": "subject"
+      }
+    ],
+    "location": "copenhagen",
+    "sources": [
+      {
+        "source_id": "frampton_2015",
+        "page": 4,
+        "quote": "Nambu did not write it up until a year later for lectures at the Copenhagen Summer School in 1970."
+      }
+    ]
+  },
+  {
+    "id": "frampton_cern_move",
+    "event_type": "relocation",
+    "label": "Frampton left Chicago for CERN",
+    "date": {
+      "display": "1970",
+      "precision": "year",
+      "sort_start": "1970-01-01",
+      "sort_end": "1970-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "paul_frampton",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cern",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "frampton_2015",
+        "page": 4,
+        "quote": "After leaving Chicago #2 for CERN in 1970"
+      }
+    ]
+  },
+  {
+    "id": "nambu_frampton_quanta",
+    "event_type": "publication",
+    "label": "Nambu and Frampton published in QUANTA",
+    "date": {
+      "display": "1970",
+      "precision": "year",
+      "sort_start": "1970-01-01",
+      "sort_end": "1970-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "yoichiro_nambu",
+        "role": "subject"
+      },
+      {
+        "entity_id": "paul_frampton",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "quanta_book",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "frampton_2015",
+        "page": 4,
+        "quote": "Y. Nambu and P. Frampton, Asymptotic Behavior of Partial Widths in the Veneziano Model, in QUANTA, A collection of scientific essays dedicated to Gregor Wentzel, University of Chicago Press (1970)."
+      }
+    ]
+  },
+  {
+    "id": "goto_publication",
+    "event_type": "publication",
+    "label": "Goto published string action",
+    "date": {
+      "display": "May 1971",
+      "precision": "month",
+      "sort_start": "1971-05-01",
+      "sort_end": "1971-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "goto",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nambu_goto_action",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "frampton_2015",
+        "page": 4,
+        "quote": "In May 1971, a Japanese physicist named Goto published it"
+      }
+    ]
+  },
+  {
+    "id": "frampton_nambu_meiji_mura",
+    "event_type": "visit",
+    "label": "Frampton and Nambu visited Meiji Mura",
+    "date": {
+      "display": "December 2002",
+      "precision": "month",
+      "sort_start": "2002-12-01",
+      "sort_end": "2002-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "paul_frampton",
+        "role": "subject"
+      },
+      {
+        "entity_id": "yoichiro_nambu",
+        "role": "collaborator"
+      }
+    ],
+    "location": "meiji_mura",
+    "sources": [
+      {
+        "source_id": "frampton_2015",
+        "page": 4,
+        "quote": "in December 2002, he very kindly took me by bus and train from Nagoya to the nearby Meiji Mura architectural park."
+      }
+    ]
+  },
+  {
+    "id": "frampton_nambu_osaka",
+    "event_type": "meeting",
+    "label": "Frampton last met Nambu in Osaka",
+    "date": {
+      "display": "March 2010",
+      "precision": "month",
+      "sort_start": "2010-03-01",
+      "sort_end": "2010-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "paul_frampton",
+        "role": "subject"
+      },
+      {
+        "entity_id": "yoichiro_nambu",
+        "role": "subject"
+      }
+    ],
+    "location": "osaka",
+    "sources": [
+      {
+        "source_id": "frampton_2015",
+        "page": 4,
+        "quote": "The last time I met him was at Osaka in March 2010"
+      }
+    ]
+  },
+  {
+    "id": "nambu_imperial_hotel_stay",
+    "event_type": "visit",
+    "label": "Nambu stayed at Imperial Hotel as boy",
+    "description": "Nambu stayed at the Imperial Hotel as a small boy before the earthquake of 1923.",
+    "date": {
+      "display": "before 1923",
+      "precision": "circa",
+      "sort_start": "1920-01-01",
+      "sort_end": "1923-09-01"
+    },
+    "participants": [
+      {
+        "entity_id": "yoichiro_nambu",
+        "role": "subject"
+      },
+      {
+        "entity_id": "frank_lloyd_wright_imperial_hotel",
+        "role": "invention"
+      }
+    ],
+    "location": "tokyo",
+    "sources": [
+      {
+        "source_id": "frampton_2015",
+        "page": 4,
+        "quote": "Nambu said he had stayed as a small boy before the earthquake of 1923"
+      }
+    ]
+  }
+]

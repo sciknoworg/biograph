@@ -1,0 +1,70 @@
+[
+  {
+    "id": "michelson_invented_interferometer",
+    "source": "albert_a_michelson",
+    "type": "invented",
+    "target": "michelson_interferometer",
+    "event_id": "michelson_visit_europe",
+    "sources": [
+      {
+        "source_id": "haubold_2024",
+        "page": 3,
+        "quote": "Michelson invented during a visit to Europe, beginning at the end of 1880"
+      }
+    ]
+  },
+  {
+    "id": "michelson_collaborated_morley",
+    "source": "albert_a_michelson",
+    "type": "collaborated_with",
+    "target": "e_w_morley",
+    "event_id": "michelson_morley_experiment",
+    "sources": [
+      {
+        "source_id": "haubold_2024",
+        "page": 11,
+        "quote": "in 1887, when Michelson in cooperation with E.W. Morley repeated the aether- drift experiment"
+      }
+    ]
+  },
+  {
+    "id": "michelson_worked_potsdam",
+    "source": "albert_a_michelson",
+    "type": "worked_at",
+    "target": "astrophysical_observatory_potsdam",
+    "event_id": "michelson_experiment_potsdam",
+    "sources": [
+      {
+        "source_id": "haubold_2024",
+        "page": 3,
+        "quote": "in April 1881, Michelson performed for the first time his interferometer experiment to determine the velocity of the Earth relative to the hypothetical luminiferous aether— an experiment which entered history of physics and astronomy"
+      }
+    ]
+  },
+  {
+    "id": "michelson_studied_berlin",
+    "source": "albert_a_michelson",
+    "type": "studied_at",
+    "target": "friedrich_wilhelms_university",
+    "sources": [
+      {
+        "source_id": "haubold_2024",
+        "page": 5,
+        "quote": "He attended the lectures of Hermann von Helmholtz, the world-famous professor of theoretical physics at the University of Berlin, and did some laboratory work there"
+      }
+    ]
+  },
+  {
+    "id": "michelson_awarded_nobel",
+    "source": "albert_a_michelson",
+    "type": "awarded",
+    "target": "nobel_prize_in_physics",
+    "sources": [
+      {
+        "source_id": "haubold_2024",
+        "page": 2,
+        "quote": "first American Nobel laureate Albert Abraham Michelson (1852-1931)"
+      }
+    ]
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "aliases": [
+      "E. Ising",
+      "Ernest Ising"
+    ],
+    "entity_type": "person",
+    "id": "ernst_ising",
+    "name": "Ernst Ising",
+    "subtype": "researcher",
+    "summary": "German-American physicist who solved the one-dimensional Ising model."
+  },
+  {
+    "aliases": [
+      "Tom Ising"
+    ],
+    "entity_type": "person",
+    "id": "thomas_ising",
+    "name": "Thomas Ising",
+    "subtype": "family",
+    "summary": "Son of Ernst Ising and author of the memoir section in the source document."
+  },
+  {
+    "entity_type": "person",
+    "id": "thekla_loewe",
+    "name": "Thekla Loewe",
+    "subtype": "family",
+    "summary": "Mother of Ernst Ising, from a Jewish merchant family in Duisburg."
+  },
+  {
+    "entity_type": "person",
+    "id": "gustav_ising",
+    "name": "Gustav Ising",
+    "subtype": "family",
+    "summary": "Father of Ernst Ising, son of a blacksmith from Rietberg."
+  },
+  {
+    "aliases": [
+      "Hanna Ehmer",
+      "Johanna Ehmer"
+    ],
+    "entity_type": "person",
+    "id": "jane_ising",
+    "name": "Jane (Johanna) Ehmer Ising",
+    "subtype": "family",
+    "summary": "Wife of Ernst Ising, economist and teacher."
+  },
+  {
+    "entity_type": "person",
+    "id": "wilhelm_lenz",
+    "name": "Wilhelm Lenz",
+    "subtype": "researcher",
+    "summary": "Physicist who proposed the model solved by Ernst Ising."
+  },
+  {
+    "entity_type": "person",
+    "id": "wolfgang_pauli",
+    "name": "Wolfgang Pauli",
+    "subtype": "researcher",
+    "summary": "Physicist and fellow student of Ernst Ising at Hamburg University."
+  },
+  {
+    "aliases": [
+      "University in Hamburg"
+    ],
+    "entity_type": "organization",
+    "id": "hamburg_university",
+    "name": "Hamburg University",
+    "subtype": "university",
+    "summary": "German university where Ernst Ising completed his PhD."
+  },
+  {
+    "entity_type": "organization",
+    "id": "bradley_university",
+    "name": "Bradley University",
+    "subtype": "university",
+    "summary": "American university in Peoria, Illinois where Ernst Ising was a professor."
+  },
+  {
+    "aliases": [
+      "Allgemeine Elektrizitätsgesellschaft",
+      "General Electric"
+    ],
+    "entity_type": "organization",
+    "id": "aeg",
+    "name": "AEG",
+    "subtype": "company",
+    "summary": "German electrical engineering company where Ernst Ising worked in the patent office."
+  },
+  {
+    "aliases": [
+      "Köln",
+      "Köln (or Cologne)"
+    ],
+    "attributes": {
+      "country": "Germany"
+    },
+    "entity_type": "place",
+    "id": "cologne",
+    "name": "Cologne",
+    "subtype": "city",
+    "summary": "German city where Ernst Ising was born."
+  },
+  {
+    "attributes": {
+      "country": "USA"
+    },
+    "entity_type": "place",
+    "id": "peoria",
+    "name": "Peoria",
+    "subtype": "city",
+    "summary": "City in Illinois, USA where Ernst Ising died."
+  },
+  {
+    "entity_type": "artifact",
+    "id": "ising_model",
+    "name": "Ising model",
+    "subtype": "theory",
+    "summary": "Mathematical model of ferromagnetism proposed by Wilhelm Lenz and solved by Ernst Ising."
+  },
+  {
+    "entity_type": "artifact",
+    "id": "ising_thesis_1924",
+    "name": "Beitrag zur Theorie des Ferro- und Paramagnetismus",
+    "subtype": "publication",
+    "summary": "Ernst Ising's doctoral thesis completed in 1924."
+  },
+  {
+    "entity_type": "artifact",
+    "id": "ising_paper_1925",
+    "name": "Z. Physik 31, 253 (1925)",
+    "subtype": "publication",
+    "summary": "Short paper published by Ernst Ising containing his thesis results."
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "id": "hawking_phd_thesis",
+    "event_type": "publication",
+    "label": "Stated singularity theory in doctoral thesis",
+    "description": "Hawking stated in his doctoral thesis that in the beginning all matter was condensed into a singularity.",
+    "date": {
+      "display": "1966",
+      "precision": "year",
+      "sort_start": "1966-01-01",
+      "sort_end": "1966-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stephen_hawking",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "fernandes_2021",
+        "page": 3,
+        "quote": "In 1966, Hawking stated in his doctoral thesis that in the beginning all matter was condensed into a singularity, just like black holes (Hawking, 1993)."
+      }
+    ]
+  },
+  {
+    "id": "hawking_radiation_theory",
+    "event_type": "invention",
+    "label": "Theorized black hole radiation",
+    "description": "Hawking theorized that radiation is expelled from black hole nuclei.",
+    "date": {
+      "display": "1974",
+      "precision": "year",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stephen_hawking",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "fernandes_2021",
+        "page": 3,
+        "quote": "Later, in 1974, Hawking made another contribution to the understanding of black holes by theorizing that not everything is confined to them and that radiation is expelled from their nuclei (Hawking, 1975)."
+      }
+    ]
+  },
+  {
+    "id": "brief_history_published",
+    "event_type": "publication",
+    "label": "Published A Brief History of Time",
+    "description": "Hawking's book became a best seller.",
+    "date": {
+      "display": "1988",
+      "precision": "year",
+      "sort_start": "1988-01-01",
+      "sort_end": "1988-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stephen_hawking",
+        "role": "subject"
+      },
+      {
+        "entity_id": "brief_history_of_time",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "fernandes_2021",
+        "page": 3,
+        "quote": "\"A brief history of time\", from 1988, became the biggest best seller in the category, having sold more than 25 million copies until 2007 (McKie, 2007)."
+      }
+    ]
+  },
+  {
+    "id": "penzias_wilson_detection",
+    "event_type": "other",
+    "label": "Detected background radiation",
+    "description": "Penzias and Wilson detected background radiation fundamental for the Big Bang Theory.",
+    "date": {
+      "display": "1965",
+      "precision": "year",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "arno_penzias",
+        "role": "subject"
+      },
+      {
+        "entity_id": "robert_woodrow_wilson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "fernandes_2021",
+        "page": 12,
+        "quote": "The third narrative, in turn, presents an interview with Arno Penzias and Robert Woodrow Wilson, who in 1965 detected background radiation, which was fundamental for the consolidation of the Big Bang Theory."
+      }
+    ]
+  },
+  {
+    "id": "hawking_film_release",
+    "event_type": "product_launch",
+    "label": "Released Hawking film",
+    "description": "BBC produced the biographical film Hawking.",
+    "date": {
+      "display": "2004",
+      "precision": "year",
+      "sort_start": "2004-01-01",
+      "sort_end": "2004-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bbc",
+        "role": "employer"
+      },
+      {
+        "entity_id": "hawking_film",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "fernandes_2021",
+        "page": 9,
+        "quote": "The first film analyzed in this work was \"Hawking\" (Martin, 2004)."
+      }
+    ]
+  },
+  {
+    "id": "theory_everything_film_release",
+    "event_type": "product_launch",
+    "label": "Released The Theory of Everything film",
+    "description": "Universal Studios produced the biographical film The Theory of Everything.",
+    "date": {
+      "display": "2014",
+      "precision": "year",
+      "sort_start": "2014-01-01",
+      "sort_end": "2014-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "universal_studios",
+        "role": "employer"
+      },
+      {
+        "entity_id": "theory_of_everything_film",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "fernandes_2021",
+        "page": 9,
+        "quote": "The second film, \"The theory of everything\" (Marsh, 2014), was produced by Universal Studios."
+      }
+    ]
+  },
+  {
+    "id": "hawking_medical_diagnosis",
+    "event_type": "other",
+    "label": "Taken to doctor for illness symptoms",
+    "description": "Hawking stumbled and was taken to the doctor during his PhD studies.",
+    "date": {
+      "display": "during PhD",
+      "precision": "range",
+      "sort_start": "1960-01-01",
+      "sort_end": "1966-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stephen_hawking",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "fernandes_2021",
+        "page": 13,
+        "quote": "After stumbling and unable to stand during his birthday party, Stephen is taken to the doctor."
+      }
+    ]
+  },
+  {
+    "id": "hawking_marriage",
+    "event_type": "other",
+    "label": "Married Jane Wilde",
+    "description": "Stephen married Jane and defended his doctorate.",
+    "date": {
+      "display": "during PhD",
+      "precision": "range",
+      "sort_start": "1960-01-01",
+      "sort_end": "1966-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stephen_hawking",
+        "role": "subject"
+      },
+      {
+        "entity_id": "jane_wilde",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "fernandes_2021",
+        "page": 22,
+        "quote": "In the course of the plot, Stephen married Jane and defended his doctorate."
+      }
+    ]
+  }
+]

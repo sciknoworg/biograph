@@ -1,0 +1,111 @@
+[
+  {
+    "id": "wiechert_born_tilsit",
+    "source": "emil_wiechert",
+    "type": "born_in",
+    "target": "tilsit",
+    "event_id": "wiechert_birth",
+    "sources": [
+      {
+        "source_id": "steffen_2014",
+        "page": 2,
+        "quote": "Emil Wiechert (Fig.1) was born on 26 December 1861 in Tilsit (today Sovetsk) in the Province of Prussia1 (today Kaliningrad Oblast, Russia)."
+      }
+    ]
+  },
+  {
+    "id": "wiechert_studied_konigsberg",
+    "source": "emil_wiechert",
+    "type": "studied_at",
+    "target": "albertus_university_konigsberg",
+    "sources": [
+      {
+        "source_id": "steffen_2014",
+        "page": 2,
+        "quote": "From 1891 on, he studied sci- ences with special focus on physics at the Albertus Univer- sity in Königsberg (today Kaliningrad), eventually complet- ing his Ph.D. in February 1889"
+      }
+    ]
+  },
+  {
+    "id": "wiechert_worked_gottingen",
+    "source": "emil_wiechert",
+    "type": "worked_at",
+    "target": "university_of_gottingen",
+    "event_id": "wiechert_gottingen_arrival",
+    "sources": [
+      {
+        "source_id": "steffen_2014",
+        "page": 2,
+        "quote": "In 1897, Wiechert was offered a position as a so-called As- sistent in the group for theoretical physics at the Institute of Physics of the University of Göttingen."
+      }
+    ]
+  },
+  {
+    "id": "wiechert_founded_institute",
+    "source": "emil_wiechert",
+    "type": "founded",
+    "target": "institute_of_geophysics_gottingen",
+    "event_id": "institute_renamed",
+    "sources": [
+      {
+        "source_id": "steffen_2014",
+        "page": 2,
+        "quote": "Already a few weeks later on 2 July 1898, the observatory was officially renamed to Institut für Geophysik (Institute of Geophysics), being the first of its kind in the world."
+      }
+    ]
+  },
+  {
+    "id": "wiechert_invented_seismograph",
+    "source": "emil_wiechert",
+    "type": "invented",
+    "target": "wiechert_seismograph",
+    "sources": [
+      {
+        "source_id": "steffen_2014",
+        "page": 1,
+        "quote": "In 1902, the so-called Erdbebenhaus (earthquake house) was built in the garden of the Institute of Geophysics of the University of Göttingen to host and protect the very sensitive and fragile seismographs designed by Emil Wiechert."
+      }
+    ]
+  },
+  {
+    "id": "wiechert_died_gottingen",
+    "source": "emil_wiechert",
+    "type": "died_in",
+    "target": "gottingen",
+    "event_id": "wiechert_death",
+    "sources": [
+      {
+        "source_id": "steffen_2014",
+        "page": 6,
+        "quote": "Wiechert died on 18 March 1928, in Göttingen."
+      }
+    ]
+  },
+  {
+    "id": "mintrop_student_wiechert",
+    "source": "ludger_mintrop",
+    "type": "supervised_by",
+    "target": "emil_wiechert",
+    "sources": [
+      {
+        "source_id": "steffen_2014",
+        "page": 5,
+        "quote": "For this purpose, Ludger Mintrop (1880–1956), since 1907 a student of Wiechert, dropped a steel ball of 4 t weight and 1 m diameter"
+      }
+    ]
+  },
+  {
+    "id": "society_owns_erdbebenhaus",
+    "source": "wiechertsche_erdbebenwarte_gottingen_ev",
+    "type": "acquired_by",
+    "target": "erdbebenhaus",
+    "event_id": "ownership_transfer",
+    "sources": [
+      {
+        "source_id": "steffen_2014",
+        "page": 7,
+        "quote": "Since 30 August 2005, the registered society is the owner."
+      }
+    ]
+  }
+]

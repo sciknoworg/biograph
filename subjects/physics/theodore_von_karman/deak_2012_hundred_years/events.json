@@ -1,0 +1,394 @@
+[
+  {
+    "id": "karman_birth",
+    "event_type": "birth",
+    "label": "Born in Budapest",
+    "date": {
+      "display": "May 11, 1881",
+      "precision": "day",
+      "sort_start": "1881-05-11",
+      "sort_end": "1881-05-11"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "budapest",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "deak_2012_hundred_years",
+        "page": 1,
+        "quote": "Theodore von Kármán (his original Hungarian name: Kármán Tódor) (Budapest, May 11, 1881 – Aachen, May 7, 1963)"
+      }
+    ]
+  },
+  {
+    "id": "karman_graduation",
+    "event_type": "education",
+    "label": "Graduated as mechanical engineer",
+    "date": {
+      "display": "1902",
+      "precision": "year",
+      "sort_start": "1902-01-01",
+      "sort_end": "1902-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_joseph_university",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "deak_2012_hundred_years",
+        "page": 1,
+        "quote": "Kármán graduated as mechanical engineer at the Royal Joseph University (now Budapest University of Technology and Economics) in 1902."
+      }
+    ]
+  },
+  {
+    "id": "karman_gottingen_assistant",
+    "event_type": "employment_start",
+    "label": "Worked as assistant to Ludwig Prandtl",
+    "date": {
+      "display": "after 1902",
+      "precision": "year",
+      "sort_start": "1902-01-01",
+      "sort_end": "1912-01-01"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_gottingen",
+        "role": "employer"
+      },
+      {
+        "entity_id": "ludwig_prandtl",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "deak_2012_hundred_years",
+        "page": 1,
+        "quote": "Later on he worked as a mechanical engineer in Hungary before moving to Germany, where he got a job as an assistant of Ludwig Prandtl at the University of Göttingen."
+      }
+    ]
+  },
+  {
+    "id": "karman_aachen_director",
+    "event_type": "employment_start",
+    "label": "Accepted director position at Aeronautical Institute",
+    "date": {
+      "display": "1912",
+      "precision": "year",
+      "sort_start": "1912-01-01",
+      "sort_end": "1912-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "aeronautical_institute_aachen",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "deak_2012_hundred_years",
+        "page": 1,
+        "quote": "In 1912 he accepted a position as the director of the Aeronautical Institute at Aachen, one of the country's leading universities."
+      }
+    ]
+  },
+  {
+    "id": "karman_military_service",
+    "event_type": "employment_start",
+    "label": "Served in Austro-Hungarian Army",
+    "date": {
+      "display": "1915–1918",
+      "precision": "range",
+      "sort_start": "1915-01-01",
+      "sort_end": "1918-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "austro_hungarian_army",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "deak_2012_hundred_years",
+        "page": 1,
+        "quote": "His time in Aachen was interrupted by military service in the Austro-Hungarian Army 1915–1918"
+      }
+    ]
+  },
+  {
+    "id": "karman_helicopter_design",
+    "event_type": "invention",
+    "label": "Designed an early stage helicopter",
+    "date": {
+      "display": "1915–1918",
+      "precision": "range",
+      "sort_start": "1915-01-01",
+      "sort_end": "1918-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "deak_2012_hundred_years",
+        "page": 1,
+        "quote": "where he designed an early stage helicopter, after this period he turned back to Aachen."
+      }
+    ]
+  },
+  {
+    "id": "karman_tripaxial_presentation_1",
+    "event_type": "conference",
+    "label": "Presented triaxial test results to Hungarian Society",
+    "date": {
+      "display": "October 8, 1910",
+      "precision": "day",
+      "sort_start": "1910-10-08",
+      "sort_end": "1910-10-08"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "hungarian_society_engineers_architects",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "deak_2012_hundred_years",
+        "page": 1,
+        "quote": "He first presented his results at the meeting of the machinery, mining, etc. divisions of the Hungarian Society of Engineers and Architects (Magyar Mérnök- és építész-Egylet), held on October 8, 1910"
+      }
+    ]
+  },
+  {
+    "id": "karman_tripaxial_presentation_2",
+    "event_type": "conference",
+    "label": "Repeated presentation to Hungarian Academy",
+    "date": {
+      "display": "October 17, 1910",
+      "precision": "day",
+      "sort_start": "1910-10-17",
+      "sort_end": "1910-10-17"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "hungarian_academy_sciences",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "deak_2012_hundred_years",
+        "page": 1,
+        "quote": "repeated it at the meeting of the III division of the Hungarian Academy of Sciences nine days later."
+      }
+    ]
+  },
+  {
+    "id": "karman_publication_hungarian",
+    "event_type": "publication",
+    "label": "Published results in Hungarian",
+    "date": {
+      "display": "1910",
+      "precision": "year",
+      "sort_start": "1910-01-01",
+      "sort_end": "1910-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "journal_hungarian_engineers_architects",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "deak_2012_hundred_years",
+        "page": 1,
+        "quote": "First his results were published in Hungarian in the Journal of Hungarian Engineers and Architects in 1910 [8]"
+      }
+    ]
+  },
+  {
+    "id": "karman_publication_german",
+    "event_type": "publication",
+    "label": "Published results in German",
+    "date": {
+      "display": "1911",
+      "precision": "year",
+      "sort_start": "1911-01-01",
+      "sort_end": "1911-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "z_verhandl_deut_ingr",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "deak_2012_hundred_years",
+        "page": 1,
+        "quote": "and a year later it was published in German [9], as well."
+      }
+    ]
+  },
+  {
+    "id": "karman_tripaxial_cell_design",
+    "event_type": "invention",
+    "label": "Designed first triaxial test chamber",
+    "date": {
+      "display": "c. 1910",
+      "precision": "circa",
+      "sort_start": "1909-01-01",
+      "sort_end": "1910-10-08"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "triaxial_cell_bomb",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "deak_2012_hundred_years",
+        "page": 2,
+        "quote": "therefore he designed the first triaxial test chamber (named \"Bomb\", by Kármán)"
+      }
+    ]
+  },
+  {
+    "id": "karman_tripaxial_cell_production",
+    "event_type": "product_launch",
+    "label": "Triaxial cell produced by Krupp",
+    "date": {
+      "display": "c. 1910",
+      "precision": "circa",
+      "sort_start": "1909-01-01",
+      "sort_end": "1910-10-08"
+    },
+    "participants": [
+      {
+        "entity_id": "krupp",
+        "role": "manufacturer"
+      },
+      {
+        "entity_id": "triaxial_cell_bomb",
+        "role": "product"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "deak_2012_hundred_years",
+        "page": 2,
+        "quote": "which has been produced by the company Krupp in Essen."
+      }
+    ]
+  },
+  {
+    "id": "karman_emigration",
+    "event_type": "relocation",
+    "label": "Emigrated to United States",
+    "date": {
+      "display": "1930",
+      "precision": "year",
+      "sort_start": "1930-01-01",
+      "sort_end": "1930-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "usa",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "deak_2012_hundred_years",
+        "page": 1,
+        "quote": "In 1930 he left Europe and had emigrated into the United States of America"
+      }
+    ]
+  },
+  {
+    "id": "karman_death",
+    "event_type": "death",
+    "label": "Died in Aachen",
+    "date": {
+      "display": "May 7, 1963",
+      "precision": "day",
+      "sort_start": "1963-05-07",
+      "sort_end": "1963-05-07"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "aachen",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "deak_2012_hundred_years",
+        "page": 1,
+        "quote": "Theodore von Kármán (his original Hungarian name: Kármán Tódor) (Budapest, May 11, 1881 – Aachen, May 7, 1963)"
+      }
+    ]
+  }
+]

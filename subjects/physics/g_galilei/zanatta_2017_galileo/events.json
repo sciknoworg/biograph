@@ -1,0 +1,866 @@
+[
+  {
+    "id": "galileo_birth",
+    "event_type": "birth",
+    "label": "Born in Pisa",
+    "description": "Born from Giulia Ammannati and Vincenzo Galilei.",
+    "date": {
+      "display": "February 15, 1564",
+      "precision": "day",
+      "sort_start": "1564-02-15",
+      "sort_end": "1564-02-15"
+    },
+    "location": "pisa",
+    "participants": [
+      {
+        "entity_id": "galileo_galilei",
+        "role": "subject"
+      },
+      {
+        "entity_id": "giulia_ammannati",
+        "role": "mother"
+      },
+      {
+        "entity_id": "vincenzo_galilei",
+        "role": "father"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 1,
+        "quote": "Galileo was born in Pisa from Giulia Ammannati (1538–1620) and Vincenzo Galilei (1520–1591), a musician, on February 15, 1564"
+      }
+    ]
+  },
+  {
+    "id": "galileo_registered_pisa",
+    "event_type": "education",
+    "label": "Registered at University of Pisa",
+    "description": "Registered in the faculty of Artists as a student of Medicine.",
+    "date": {
+      "display": "November 5, 1581",
+      "precision": "day",
+      "sort_start": "1581-11-05",
+      "sort_end": "1581-11-05"
+    },
+    "location": "pisa",
+    "participants": [
+      {
+        "entity_id": "galileo_galilei",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_pisa",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 1,
+        "quote": "On November 5, 1581, he was registered in the faculty of Artists at the University of Pisa as a student of Medicine."
+      }
+    ]
+  },
+  {
+    "id": "galileo_met_ricci",
+    "event_type": "meeting",
+    "label": "Met Ostilio Ricci",
+    "description": "Met the mathematician in Florence and took up Mathematics, leaving Medicine.",
+    "date": {
+      "display": "1583",
+      "precision": "year",
+      "sort_start": "1583-01-01",
+      "sort_end": "1583-12-31"
+    },
+    "location": "florence",
+    "participants": [
+      {
+        "entity_id": "galileo_galilei",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ostilio_ricci",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 1,
+        "quote": "In Florence in 1583 he met the mathematician Ostilio Ricci (1540–1603) and took up Mathematics, leaving Medicine, but never graduated."
+      }
+    ]
+  },
+  {
+    "id": "galileo_lecturer_pisa",
+    "event_type": "employment_start",
+    "label": "Became Lecturer at University of Pisa",
+    "description": "Lecturer of Maths with a salary of only 60 ducats/year.",
+    "date": {
+      "display": "1589",
+      "precision": "year",
+      "sort_start": "1589-01-01",
+      "sort_end": "1589-12-31"
+    },
+    "location": "pisa",
+    "participants": [
+      {
+        "entity_id": "galileo_galilei",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_pisa",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 1,
+        "quote": "On 1589, he became Lecturer of Maths at the University of Pisa, with a salary of only 60 ducats/year."
+      }
+    ]
+  },
+  {
+    "id": "galileo_falling_spheres",
+    "event_type": "public_demonstration",
+    "label": "Experiment of falling spheres",
+    "description": "Carried out the famous experiment from the Tower of Pisa.",
+    "date": {
+      "display": "1590",
+      "precision": "year",
+      "sort_start": "1590-01-01",
+      "sort_end": "1590-12-31"
+    },
+    "location": "pisa",
+    "participants": [
+      {
+        "entity_id": "galileo_galilei",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 1,
+        "quote": "It was in 1590 that he carried out the famous experiment of falling spheres from the Tower of Pisa."
+      }
+    ]
+  },
+  {
+    "id": "galileo_appointed_padua",
+    "event_type": "employment_start",
+    "label": "Appointed at University of Padua",
+    "description": "Appointed to take over the vacant chair of Mathematics with a salary of 180 florins/year.",
+    "date": {
+      "display": "September 25, 1592",
+      "precision": "day",
+      "sort_start": "1592-09-25",
+      "sort_end": "1592-09-25"
+    },
+    "location": "padua",
+    "participants": [
+      {
+        "entity_id": "galileo_galilei",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_padua",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 1,
+        "quote": "On September 25, 1592, at the early age of 28 years ( Figure 1) he was appointed at the University of Padua to take over the vacant chair of Mathematics with a better salary (180 florins/year)"
+      }
+    ]
+  },
+  {
+    "id": "galileo_invented_compass",
+    "event_type": "invention",
+    "label": "Invented the compass",
+    "description": "Invented the geometric and military compass during his time in Padua.",
+    "date": {
+      "display": "1592–1610",
+      "precision": "range",
+      "sort_start": "1592-01-01",
+      "sort_end": "1610-12-31"
+    },
+    "location": "padua",
+    "participants": [
+      {
+        "entity_id": "galileo_galilei",
+        "role": "subject"
+      },
+      {
+        "entity_id": "compass",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 2,
+        "quote": "He invented the compass (Figure 2), he wrote books on mechanics and cosmography for students."
+      }
+    ]
+  },
+  {
+    "id": "galileo_invented_telescope",
+    "event_type": "invention",
+    "label": "Invented a telescope",
+    "description": "Invented a telescope with a 18–20 fold magnification.",
+    "date": {
+      "display": "1592–1610",
+      "precision": "range",
+      "sort_start": "1592-01-01",
+      "sort_end": "1610-12-31"
+    },
+    "location": "padua",
+    "participants": [
+      {
+        "entity_id": "galileo_galilei",
+        "role": "subject"
+      },
+      {
+        "entity_id": "telescope",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 2,
+        "quote": "He invented a telescope (Figure 3), with a 18–20 fold magnification"
+      }
+    ]
+  },
+  {
+    "id": "galileo_presented_telescope",
+    "event_type": "public_demonstration",
+    "label": "Presented telescope to Doge",
+    "description": "Presented the telescope to the Doge Leonardo Donato and to the Council of Ten.",
+    "date": {
+      "display": "August 24, 1609",
+      "precision": "day",
+      "sort_start": "1609-08-24",
+      "sort_end": "1609-08-24"
+    },
+    "location": "venice",
+    "participants": [
+      {
+        "entity_id": "galileo_galilei",
+        "role": "subject"
+      },
+      {
+        "entity_id": "leonardo_donato",
+        "role": "audience"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 3,
+        "quote": "On August 24, 1609, he had had the opportunity to present the telescope to the Doge Leonardo Donato and to the Council of Ten of the Serenissima Republic of Venice"
+      }
+    ]
+  },
+  {
+    "id": "galileo_observed_jupiter",
+    "event_type": "other",
+    "label": "Observed Jupiter's moons",
+    "description": "Observed four objects moving around Jupiter during the cold shiny nights of 7-13th January 1610.",
+    "date": {
+      "display": "7-13th January 1610",
+      "precision": "range",
+      "sort_start": "1610-01-07",
+      "sort_end": "1610-01-13"
+    },
+    "location": "padua",
+    "participants": [
+      {
+        "entity_id": "galileo_galilei",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 3,
+        "quote": "The latter observation was made during the cold shiny nights of 7-13th January 1610, when he observed four objects moving around Jupiter"
+      }
+    ]
+  },
+  {
+    "id": "galileo_published_sidereus",
+    "event_type": "publication",
+    "label": "Published Sidereus Nuncius",
+    "description": "Wrote and published quickly the 'Sidereus Nuncius', a book of only 55 pages, dedicated to Cosimo II.",
+    "date": {
+      "display": "1610",
+      "precision": "year",
+      "sort_start": "1610-01-01",
+      "sort_end": "1610-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "galileo_galilei",
+        "role": "subject"
+      },
+      {
+        "entity_id": "sidereus_nuncius",
+        "role": "publication"
+      },
+      {
+        "entity_id": "cosimo_ii_de_medici",
+        "role": "dedicatee"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 3,
+        "quote": "He wrote and published quickly the ''Sidereus Nuncius'' (''celestial announcement''), a book of only 55 pages, dedicated to Cosimo II, and full of notes and drawings proving his observations."
+      }
+    ]
+  },
+  {
+    "id": "galileo_resigned_padua",
+    "event_type": "employment_end",
+    "label": "Resigned from chair in Padua",
+    "description": "Resigned having accepted from Cosimo II de' Medici the offer of a chair at the University of Pisa.",
+    "date": {
+      "display": "June 10, 1610",
+      "precision": "day",
+      "sort_start": "1610-06-10",
+      "sort_end": "1610-06-10"
+    },
+    "location": "padua",
+    "participants": [
+      {
+        "entity_id": "galileo_galilei",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_padua",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 3,
+        "quote": "Nevertheless, on June 10, 1610, he resigned from the chair in Padua, having accepted from Cosimo II de' Medici the offer of a chair at the University of Pisa"
+      }
+    ]
+  },
+  {
+    "id": "galileo_left_padua",
+    "event_type": "relocation",
+    "label": "Left Padua to move to Florence",
+    "date": {
+      "display": "June 15, 1610",
+      "precision": "day",
+      "sort_start": "1610-06-15",
+      "sort_end": "1610-06-15"
+    },
+    "participants": [
+      {
+        "entity_id": "galileo_galilei",
+        "role": "subject"
+      },
+      {
+        "entity_id": "florence",
+        "role": "destination"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 4,
+        "quote": "On June 15, 1610, Galileo left Padua to move to Florence."
+      }
+    ]
+  },
+  {
+    "id": "galileo_nominated_pisa",
+    "event_type": "employment_start",
+    "label": "Nominated Primary Mathematician at Pisa",
+    "description": "Nominated as 'Primary Mathematician' at the University of Pisa and Philosopher by the Tuscan Grand Duke Cosimo II.",
+    "date": {
+      "display": "July 10, 1610",
+      "precision": "day",
+      "sort_start": "1610-07-10",
+      "sort_end": "1610-07-10"
+    },
+    "location": "pisa",
+    "participants": [
+      {
+        "entity_id": "galileo_galilei",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_pisa",
+        "role": "employer"
+      },
+      {
+        "entity_id": "cosimo_ii_de_medici",
+        "role": "patron"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 4,
+        "quote": "On July 10, 1610 Galileo was nominated as ''Primary Mathematician'' at the University of Pisa and Philosopher by the Tuscan Grand Duke Cosimo II"
+      }
+    ]
+  },
+  {
+    "id": "galileo_visited_rome",
+    "event_type": "visit",
+    "label": "Visited Rome",
+    "description": "Visited Rome to meet Pope Paul V and the Roman College of Jesuits.",
+    "date": {
+      "display": "April 1611",
+      "precision": "month",
+      "sort_start": "1611-04-01",
+      "sort_end": "1611-04-30"
+    },
+    "location": "rome",
+    "participants": [
+      {
+        "entity_id": "galileo_galilei",
+        "role": "subject"
+      },
+      {
+        "entity_id": "christopher_clavius",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 4,
+        "quote": "On April 1611, he visited Rome to meet Pope Paul V and the Roman College of Jesuits, the chief of which, Christopher Clavius (1538–1612) ( Figure 6) fascinated by the observation of Jupiter's moons, reserved him a friendly welcome."
+      }
+    ]
+  },
+  {
+    "id": "galileo_enrolled_lincei",
+    "event_type": "award",
+    "label": "Enrolled as member of Lincei Academy",
+    "date": {
+      "display": "April 26, 1611",
+      "precision": "day",
+      "sort_start": "1611-04-26",
+      "sort_end": "1611-04-26"
+    },
+    "participants": [
+      {
+        "entity_id": "galileo_galilei",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lincei_academy",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 4,
+        "quote": "On April 26, 1611 he was enrolled as a member of the Lincei Academy, founded in 1603 by the young Federico Cesi (1585–1630) ( Figure 7)"
+      }
+    ]
+  },
+  {
+    "id": "caccini_blamed_galileo",
+    "event_type": "other",
+    "label": "Caccini blamed Galileo",
+    "description": "Dominican friar Tommaso Caccini violently blamed Galileo from the pulpit of Santa Maria Novella.",
+    "date": {
+      "display": "December 21, 1614",
+      "precision": "day",
+      "sort_start": "1614-12-21",
+      "sort_end": "1614-12-21"
+    },
+    "location": "florence",
+    "participants": [
+      {
+        "entity_id": "tommaso_caccini",
+        "role": "accuser"
+      },
+      {
+        "entity_id": "galileo_galilei",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 5,
+        "quote": "The Dominican friar Tommaso Caccini (1574–1648), on December 21, 1614, violently blamed Galileo from the pulpit of Santa Maria Novella in Florence, strongly defending the literal scriptures, and clearly accusing Galileo of heresy."
+      }
+    ]
+  },
+  {
+    "id": "holy_office_condemned_copernican",
+    "event_type": "other",
+    "label": "Holy Office condemned Copernican Theory",
+    "date": {
+      "display": "February 25, 1616",
+      "precision": "day",
+      "sort_start": "1616-02-25",
+      "sort_end": "1616-02-25"
+    },
+    "participants": [
+      {
+        "entity_id": "holy_office",
+        "role": "authority"
+      },
+      {
+        "entity_id": "galileo_galilei",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 5,
+        "quote": "On February 25, 1616, the Holy Office (Inquisition) officially condemned the Copernican Theory."
+      }
+    ]
+  },
+  {
+    "id": "bellarmino_warned_galileo",
+    "event_type": "meeting",
+    "label": "Bellarmino warned Galileo",
+    "description": "Cardinal Bellarmino met Galileo and gave him a friendly warning not to sustain, teach, or refer to Copernican theory.",
+    "date": {
+      "display": "1616",
+      "precision": "year",
+      "sort_start": "1616-01-01",
+      "sort_end": "1616-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "roberto_bellarmino",
+        "role": "authority"
+      },
+      {
+        "entity_id": "galileo_galilei",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 5,
+        "quote": "Cardinal Bellarmino met Galileo and gave him a friendly warning not to sustain, teach, or refer to Copernican theory, otherwise the risk was to undergo Inquisition."
+      }
+    ]
+  },
+  {
+    "id": "de_revolutionibus_prohibited",
+    "event_type": "other",
+    "label": "De revolutionibus prohibited",
+    "description": "The book by Nicolaus Copernico was prohibited and heliocentric theory was refused.",
+    "date": {
+      "display": "March 5, 1616",
+      "precision": "day",
+      "sort_start": "1616-03-05",
+      "sort_end": "1616-03-05"
+    },
+    "participants": [
+      {
+        "entity_id": "holy_office",
+        "role": "authority"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 6,
+        "quote": "On March 5, 1616, the book ''De revolutionibus orbium coelestium'' by Nicolaus Copernico was prohibited and heliocentric theory was refused"
+      }
+    ]
+  },
+  {
+    "id": "barberini_elected_pope",
+    "event_type": "other",
+    "label": "Barberini elected Pope Urban VIII",
+    "date": {
+      "display": "August 6, 1623",
+      "precision": "day",
+      "sort_start": "1623-08-06",
+      "sort_end": "1623-08-06"
+    },
+    "participants": [
+      {
+        "entity_id": "maffeo_barberini",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 6,
+        "quote": "On August 6, 1623, Cardinal Maffeo Barberini (1568–1644) ( Figure 9), adrmirer of Galileo, was elected Pope with the name of Urban VIII."
+      }
+    ]
+  },
+  {
+    "id": "galileo_published_dialogue",
+    "event_type": "publication",
+    "label": "Published Dialogue",
+    "description": "The book received the 'nihil obstat' authorisation by the Church Office in Florence, and was published in 1632.",
+    "date": {
+      "display": "1632",
+      "precision": "year",
+      "sort_start": "1632-01-01",
+      "sort_end": "1632-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "galileo_galilei",
+        "role": "subject"
+      },
+      {
+        "entity_id": "dialogue_concerning_two_chief_world_system",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 6,
+        "quote": "The book received the ''nihil obstat'' authorisation by the Church Office in Florence, and was published in 1632."
+      }
+    ]
+  },
+  {
+    "id": "galileo_trial",
+    "event_type": "other",
+    "label": "Brought to trial",
+    "description": "Brought to trial in the Church of Santa Maria Minerva and charged with heresy.",
+    "date": {
+      "display": "June 1633",
+      "precision": "month",
+      "sort_start": "1633-06-01",
+      "sort_end": "1633-06-30"
+    },
+    "location": "rome",
+    "participants": [
+      {
+        "entity_id": "galileo_galilei",
+        "role": "subject"
+      },
+      {
+        "entity_id": "holy_office",
+        "role": "authority"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 6,
+        "quote": "He was put into jail and in June 1633, brought to trial in the Church of Santa Maria Minerva (Figure 11)."
+      }
+    ]
+  },
+  {
+    "id": "galileo_condemned",
+    "event_type": "other",
+    "label": "Condemned to home arrest",
+    "description": "Condemned to deny his mistakes and to home arrest for the rest of his life.",
+    "date": {
+      "display": "1633",
+      "precision": "year",
+      "sort_start": "1633-01-01",
+      "sort_end": "1633-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "galileo_galilei",
+        "role": "subject"
+      },
+      {
+        "entity_id": "holy_office",
+        "role": "authority"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 7,
+        "quote": "He was forced not to treat orally or to write any more on the issue, and condemned to home arrest for the rest of his life."
+      }
+    ]
+  },
+  {
+    "id": "virginia_died",
+    "event_type": "death",
+    "label": "Virginia died",
+    "description": "His daughter Virginia died prematurely in 1634.",
+    "date": {
+      "display": "1634",
+      "precision": "year",
+      "sort_start": "1634-01-01",
+      "sort_end": "1634-12-31"
+    },
+    "location": "arcetri",
+    "participants": [
+      {
+        "entity_id": "virginia_galilei",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 7,
+        "quote": "Galileo was confined to his house in Arcetri, not so far from the cloister where his daughter Virginia (1600–1634) (Sister Maria Celeste) was living and where she died prematurely in 1634."
+      }
+    ]
+  },
+  {
+    "id": "galileo_blind",
+    "event_type": "other",
+    "label": "Became blind bilaterally",
+    "date": {
+      "display": "1637",
+      "precision": "year",
+      "sort_start": "1637-01-01",
+      "sort_end": "1637-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "galileo_galilei",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 7,
+        "quote": "In 1637 Galileo became blind bilaterally (Figure 13), most probably as a final complication of a long-standing reactive arthritis"
+      }
+    ]
+  },
+  {
+    "id": "galileo_published_discourses",
+    "event_type": "publication",
+    "label": "Published Discourses",
+    "description": "Published with Elzevier a new version of Dialogue, with a different title 'Discourses and Mathematical Demonstrations Relating Two New Sciences'.",
+    "date": {
+      "display": "1638",
+      "precision": "year",
+      "sort_start": "1638-01-01",
+      "sort_end": "1638-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "galileo_galilei",
+        "role": "subject"
+      },
+      {
+        "entity_id": "discourses_and_mathematical_demonstrations",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 7,
+        "quote": "In 1638 he published with Elzevier a new version of Dialogue, with a different title ''Discourses and Mathematical Demonstrations Relating Two New Sciences'', confirming his views."
+      }
+    ]
+  },
+  {
+    "id": "galileo_died",
+    "event_type": "death",
+    "label": "Died at Arcetri",
+    "description": "Died on the same day of his Jupiter observations by telescope.",
+    "date": {
+      "display": "January 8, 1642",
+      "precision": "day",
+      "sort_start": "1642-01-08",
+      "sort_end": "1642-01-08"
+    },
+    "location": "arcetri",
+    "participants": [
+      {
+        "entity_id": "galileo_galilei",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 8,
+        "quote": "On January 8, 1642, on the same day of his Jupiter observations by telescope, he died at Arcetri and was buried in a hidden Chapel of Santa Croce Church in Florence"
+      }
+    ]
+  },
+  {
+    "id": "galileo_buried",
+    "event_type": "other",
+    "label": "Buried in Santa Croce Church",
+    "description": "Buried in a hidden Chapel of Santa Croce Church in Florence, without any official ceremony.",
+    "date": {
+      "display": "1642",
+      "precision": "year",
+      "sort_start": "1642-01-01",
+      "sort_end": "1642-12-31"
+    },
+    "location": "florence",
+    "participants": [
+      {
+        "entity_id": "galileo_galilei",
+        "role": "subject"
+      },
+      {
+        "entity_id": "santa_croce_church",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 8,
+        "quote": "On January 8, 1642, on the same day of his Jupiter observations by telescope, he died at Arcetri and was buried in a hidden Chapel of Santa Croce Church in Florence"
+      }
+    ]
+  },
+  {
+    "id": "galileo_mausoleum",
+    "event_type": "other",
+    "label": "Mausoleum built",
+    "description": "A mausoleum was built in the same church of Santa Croce and his remains were transferred.",
+    "date": {
+      "display": "1737",
+      "precision": "year",
+      "sort_start": "1737-01-01",
+      "sort_end": "1737-12-31"
+    },
+    "location": "florence",
+    "participants": [
+      {
+        "entity_id": "galileo_galilei",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 8,
+        "quote": "In 1737 , a mausoleum was built in the same church of Santa Croce and his remains were transferred together with those of his daughter Virginia."
+      }
+    ]
+  }
+]

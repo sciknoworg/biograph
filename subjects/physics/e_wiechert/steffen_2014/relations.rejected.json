@@ -1,0 +1,17 @@
+[
+  {
+    "id": "society_owns_erdbebenhaus",
+    "source": "wiechertsche_erdbebenwarte_gottingen_ev",
+    "type": "acquired_by",
+    "target": "erdbebenhaus",
+    "event_id": "ownership_transfer",
+    "sources": [
+      {
+        "source_id": "steffen_2014",
+        "page": 7,
+        "quote": "Since 30 August 2005, the registered society is the owner."
+      }
+    ],
+    "_rejected_because": "'acquired_by' expects target entity_type person/organization, but 'erdbebenhaus' is 'place'"
+  }
+]

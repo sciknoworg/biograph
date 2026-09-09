@@ -1,0 +1,162 @@
+[
+  {
+    "aliases": [
+      "Dick",
+      "R. Arnowitt",
+      "R. L. Arnowitt",
+      "Richard Arnowitt"
+    ],
+    "entity_type": "person",
+    "id": "richard_lewis_arnowitt",
+    "name": "Richard Lewis Arnowitt",
+    "subtype": "researcher",
+    "summary": "Theoretical physicist known for contributions to current algebra, effective Lagrangians, and supergravity grand unification."
+  },
+  {
+    "aliases": [
+      "P. Nath",
+      "PN"
+    ],
+    "entity_type": "person",
+    "id": "pran_nath",
+    "name": "Pran Nath",
+    "subtype": "researcher",
+    "summary": "Theoretical physicist and collaborator of Richard Arnowitt at Northeastern University."
+  },
+  {
+    "aliases": [
+      "M. H. Friedman",
+      "Marvin H. Friedman"
+    ],
+    "entity_type": "person",
+    "id": "marvin_friedman",
+    "name": "Marvin Friedman",
+    "subtype": "researcher",
+    "summary": "Physicist who collaborated with Arnowitt and Nath on effective Lagrangians and current algebra."
+  },
+  {
+    "aliases": [
+      "Ali H. Chamseddine",
+      "A. H. Chamseddine",
+      "Ali"
+    ],
+    "entity_type": "person",
+    "id": "ali_chamseddine",
+    "name": "Ali Chamseddine",
+    "subtype": "researcher",
+    "summary": "Physicist who collaborated on supergravity grand unification and completed a Ph.D. at Imperial College."
+  },
+  {
+    "aliases": [
+      "Northeastern"
+    ],
+    "attributes": {
+      "location": "Boston"
+    },
+    "entity_type": "organization",
+    "id": "northeastern_university",
+    "name": "Northeastern University",
+    "subtype": "university",
+    "summary": "University in Boston where Pran Nath worked and collaborated with Arnowitt."
+  },
+  {
+    "aliases": [
+      "Texas A&M",
+      "Texas A&M, College Station"
+    ],
+    "attributes": {
+      "location": "College Station, Texas"
+    },
+    "entity_type": "organization",
+    "id": "texas_am_university",
+    "name": "Texas A&M University",
+    "subtype": "university",
+    "summary": "University that hosted the Memorial Symposium in honor of Richard Arnowitt."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "cern",
+    "name": "CERN",
+    "subtype": "lab",
+    "summary": "European particle physics laboratory where Pran Nath took sabbatical leave in 1980."
+  },
+  {
+    "aliases": [
+      "Imperial College"
+    ],
+    "attributes": {
+      "location": "London"
+    },
+    "entity_type": "organization",
+    "id": "imperial_college_london",
+    "name": "Imperial College, London",
+    "subtype": "university",
+    "summary": "University where Ali Chamseddine completed his Ph.D. thesis."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "USA"
+    },
+    "entity_type": "place",
+    "id": "boston",
+    "name": "Boston",
+    "subtype": "city",
+    "summary": "City where Northeastern University is located and where Chamseddine arrived in 1981."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "UK"
+    },
+    "entity_type": "place",
+    "id": "london",
+    "name": "London",
+    "subtype": "city",
+    "summary": "City where the XVII ICHEP Conference was held in 1974."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "USA",
+      "state": "Texas"
+    },
+    "entity_type": "place",
+    "id": "college_station",
+    "name": "College Station",
+    "subtype": "city",
+    "summary": "City in Texas where the Memorial Symposium was held."
+  },
+  {
+    "aliases": [
+      "effective Lagrangian technique"
+    ],
+    "entity_type": "artifact",
+    "id": "effective_lagrangian_method",
+    "name": "Effective Lagrangian Method",
+    "subtype": "method",
+    "summary": "Theoretical technique developed by Arnowitt, Friedman, and Nath for mesonic vertices."
+  },
+  {
+    "aliases": [
+      "local supersymmetry"
+    ],
+    "entity_type": "artifact",
+    "id": "gauge_supersymmetry",
+    "name": "Gauge Supersymmetry",
+    "subtype": "theory",
+    "summary": "Theory formulated by Arnowitt and Nath extending Einstein gravity to superspace geometry."
+  },
+  {
+    "aliases": [
+      "SUGRA GUT",
+      "supergravity unified model"
+    ],
+    "entity_type": "artifact",
+    "id": "supergravity_grand_unification",
+    "name": "Supergravity Grand Unification",
+    "subtype": "theory",
+    "summary": "Phenomenologically viable model developed by Arnowitt, Nath, and Chamseddine involving gravity mediated breaking."
+  }
+]

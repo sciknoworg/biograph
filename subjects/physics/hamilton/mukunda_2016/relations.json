@@ -1,0 +1,157 @@
+[
+  {
+    "id": "hamilton_born_dublin",
+    "source": "william_rowan_hamilton",
+    "type": "born_in",
+    "target": "dublin",
+    "event_id": "hamilton_birth",
+    "sources": [
+      {
+        "source_id": "mukunda_2016",
+        "page": 495,
+        "quote": "Hamilton was born at midnight of 3–4 August 1805 in Dublin, Ireland, to Archibald Hamilton, a solicitor by profession, and Sarah Hutton Hamilton."
+      }
+    ]
+  },
+  {
+    "id": "hamilton_worked_trinity",
+    "source": "william_rowan_hamilton",
+    "type": "worked_at",
+    "target": "trinity_college_dublin",
+    "event_id": "appointed_professor",
+    "sources": [
+      {
+        "source_id": "mukunda_2016",
+        "page": 496,
+        "quote": "Already in 1827 he was appointed Andrews Professor of Astronomy at Trinity College, and Director of the Dunsink Observatory, five miles away from the centre of Dublin, where he lived for the rest of his life."
+      }
+    ]
+  },
+  {
+    "id": "hamilton_worked_dunsink",
+    "source": "william_rowan_hamilton",
+    "type": "worked_at",
+    "target": "dunsink_observatory",
+    "event_id": "appointed_professor",
+    "sources": [
+      {
+        "source_id": "mukunda_2016",
+        "page": 496,
+        "quote": "Already in 1827 he was appointed Andrews Professor of Astronomy at Trinity College, and Director of the Dunsink Observatory, five miles away from the centre of Dublin, where he lived for the rest of his life."
+      }
+    ]
+  },
+  {
+    "id": "hamilton_married_bayly",
+    "source": "william_rowan_hamilton",
+    "type": "married_to",
+    "target": "helen_maria_bayly",
+    "event_id": "marriage_bayly",
+    "sources": [
+      {
+        "source_id": "mukunda_2016",
+        "page": 496,
+        "quote": "Finally he married Helen Maria Bayly in 1833."
+      }
+    ]
+  },
+  {
+    "id": "hamilton_invented_quaternions",
+    "source": "william_rowan_hamilton",
+    "type": "invented",
+    "target": "quaternions",
+    "event_id": "quaternions_discovery",
+    "sources": [
+      {
+        "source_id": "mukunda_2016",
+        "page": 508,
+        "quote": "Their essential algebraic or composition properties became suddenly clear to Hamilton during a walk with his wife along the Royal Canal from Dunsink to a meeting of the Royal Irish Academy on 16th October 1843"
+      }
+    ]
+  },
+  {
+    "id": "hamilton_published_rays",
+    "source": "william_rowan_hamilton",
+    "type": "published",
+    "target": "theory_of_systems_of_rays",
+    "event_id": "publish_rays",
+    "sources": [
+      {
+        "source_id": "mukunda_2016",
+        "page": 496,
+        "quote": "After receiving positive suggestions from (of course) a Committee, he revised and enlarged it by 1827, while still in college, to 'A Theory of Systems of Rays'."
+      }
+    ]
+  },
+  {
+    "id": "hamilton_published_quaternions",
+    "source": "william_rowan_hamilton",
+    "type": "published",
+    "target": "lectures_on_quaternions",
+    "event_id": "lectures_quaternions",
+    "sources": [
+      {
+        "source_id": "mukunda_2016",
+        "page": 509,
+        "quote": "Hamilton wrote extensively on quaternions, his Lectures on Quaternions being published in 1853."
+      }
+    ]
+  },
+  {
+    "id": "hamilton_member_ria",
+    "source": "william_rowan_hamilton",
+    "type": "member_of",
+    "target": "royal_irish_academy",
+    "event_id": "presidency_ria",
+    "sources": [
+      {
+        "source_id": "mukunda_2016",
+        "page": 496,
+        "quote": "In 1835 he was knighted, and in 1836 became President of the Royal Irish Academy."
+      }
+    ]
+  },
+  {
+    "id": "hamilton_awarded_knighthood",
+    "source": "william_rowan_hamilton",
+    "type": "awarded",
+    "target": "william_rowan_hamilton",
+    "event_id": "knighthood",
+    "note": "Self-referential for award type",
+    "sources": [
+      {
+        "source_id": "mukunda_2016",
+        "page": 496,
+        "quote": "In 1835 he was knighted, and in 1836 became President of the Royal Irish Academy."
+      }
+    ]
+  },
+  {
+    "id": "hamilton_died_dublin",
+    "source": "william_rowan_hamilton",
+    "type": "died_in",
+    "target": "dublin",
+    "event_id": "hamilton_death",
+    "sources": [
+      {
+        "source_id": "mukunda_2016",
+        "page": 497,
+        "quote": "He died on 2nd September 1865 in Dublin, from a severe attack of gout."
+      }
+    ]
+  },
+  {
+    "id": "hamilton_corresponded_tait",
+    "source": "william_rowan_hamilton",
+    "type": "corresponded_with",
+    "target": "peter_guthrie_tait",
+    "event_id": "letter_tait",
+    "sources": [
+      {
+        "source_id": "mukunda_2016",
+        "page": 508,
+        "quote": "In a letter to Peter Guthrie Tait many years later, on 15th October 1858, he described what had happened in these words"
+      }
+    ]
+  }
+]

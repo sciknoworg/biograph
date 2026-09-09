@@ -1,0 +1,385 @@
+[
+  {
+    "id": "reuleaux_birth",
+    "event_type": "birth",
+    "label": "Born in Eschweiler",
+    "description": "Franz Reuleaux was born in Eschweiler, a suburb of Aachen.",
+    "date": {
+      "display": "1829",
+      "precision": "year",
+      "sort_start": "1829-01-01",
+      "sort_end": "1829-12-31"
+    },
+    "location": "eschweiler",
+    "participants": [
+      {
+        "entity_id": "franz_reuleaux",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "moon_2003",
+        "page": 5,
+        "quote": "Franz Reuleaux was born in Eschweiler, a suburb of Aachen in 1829"
+      }
+    ]
+  },
+  {
+    "id": "reuleaux_education_karlsruhe",
+    "event_type": "education",
+    "label": "Studied at Polytechnic School Karlsruhe",
+    "description": "Reuleaux received his technical training at the Polytechnic School at Karlsruhe.",
+    "date": {
+      "display": "1850-52",
+      "precision": "range",
+      "sort_start": "1850-01-01",
+      "sort_end": "1852-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "franz_reuleaux",
+        "role": "subject"
+      },
+      {
+        "entity_id": "polytechnic_school_karlsruhe",
+        "role": "educator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "moon_2003",
+        "page": 5,
+        "quote": "Reuleaux received his technical training at the Polytechnic School at Karlsruhe (1850-52)"
+      }
+    ]
+  },
+  {
+    "id": "reuleaux_marriage",
+    "event_type": "other",
+    "label": "Married Charlotte Overbeck",
+    "description": "Reuleaux married Charlotte Overbeck from Antwerp Belgium.",
+    "date": {
+      "display": "1856",
+      "precision": "year",
+      "sort_start": "1856-01-01",
+      "sort_end": "1856-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "franz_reuleaux",
+        "role": "subject"
+      },
+      {
+        "entity_id": "charlotte_overbeck",
+        "role": "spouse"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "moon_2003",
+        "page": 5,
+        "quote": "They were married in 1856."
+      }
+    ]
+  },
+  {
+    "id": "reuleaux_publication_moll_1854",
+    "event_type": "publication",
+    "label": "Published Constructionslehre für den Maschinenbau",
+    "description": "Reuleaux began his academic career with the publication of a machine design handbook with Carl L. Moll.",
+    "date": {
+      "display": "1854",
+      "precision": "year",
+      "sort_start": "1854-01-01",
+      "sort_end": "1854-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "franz_reuleaux",
+        "role": "author"
+      },
+      {
+        "entity_id": "carl_l_moll",
+        "role": "author"
+      },
+      {
+        "entity_id": "constructionslehre_fur_den_maschinenbau",
+        "role": "publication"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "moon_2003",
+        "page": 6,
+        "quote": "Franz Reuleaux began his academic career with the publication of a machine design handbook in 1854 book with a former student colleague Carl L. Moll, Constructionslehre für den Maschinenbau"
+      }
+    ]
+  },
+  {
+    "id": "reuleaux_professor_zurich",
+    "event_type": "employment_start",
+    "label": "Became Professor at Zurich",
+    "description": "Reuleaux received an invitation to become a professor of mechanical engineering at the Swiss Federal Institute in Zurich.",
+    "date": {
+      "display": "1856",
+      "precision": "year",
+      "sort_start": "1856-01-01",
+      "sort_end": "1856-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "franz_reuleaux",
+        "role": "subject"
+      },
+      {
+        "entity_id": "eth_zurich",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "moon_2003",
+        "page": 5,
+        "quote": "In 1856, at the age of 27, he received an invitation to become a professor of mechanical engineering at the Swiss Federal Institute in Zurich"
+      }
+    ]
+  },
+  {
+    "id": "reuleaux_publication_constructor_1861",
+    "event_type": "publication",
+    "label": "Published Der Constructeur",
+    "description": "Reuleaux published his book Der Constructeur.",
+    "date": {
+      "display": "1861",
+      "precision": "year",
+      "sort_start": "1861-01-01",
+      "sort_end": "1861-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "franz_reuleaux",
+        "role": "author"
+      },
+      {
+        "entity_id": "the_constructor",
+        "role": "publication"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "moon_2003",
+        "page": 6,
+        "quote": "After the publication of his 1861 book Der Constructeur [7] (or The Designer) and his success at Zurich"
+      }
+    ]
+  },
+  {
+    "id": "reuleaux_professor_berlin",
+    "event_type": "employment_start",
+    "label": "Called to Berlin",
+    "description": "Reuleaux was called to Berlin to develop a mechanical engineering program.",
+    "date": {
+      "display": "1864",
+      "precision": "year",
+      "sort_start": "1864-01-01",
+      "sort_end": "1864-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "franz_reuleaux",
+        "role": "subject"
+      },
+      {
+        "entity_id": "konigliche_gewerbe_akademie",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "moon_2003",
+        "page": 6,
+        "quote": "he was called to Berlin in 1864, to develop a mechanical engineering program at the Königliche Gewerbe Akademie"
+      }
+    ]
+  },
+  {
+    "id": "reuleaux_director_berlin",
+    "event_type": "role_change",
+    "label": "Became Director of Gewerbe Akademie",
+    "description": "Reuleaux served as Director of the Königliche Gewerbe Akademie.",
+    "date": {
+      "display": "1868",
+      "precision": "year",
+      "sort_start": "1868-01-01",
+      "sort_end": "1868-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "franz_reuleaux",
+        "role": "subject"
+      },
+      {
+        "entity_id": "konigliche_gewerbe_akademie",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "moon_2003",
+        "page": 6,
+        "quote": "serving as its Director from 1868 - 1879"
+      }
+    ]
+  },
+  {
+    "id": "reuleaux_publication_kinematics_1875",
+    "event_type": "publication",
+    "label": "Published The Kinematics of Machinery",
+    "description": "Reuleaux published his major book The Kinematics of Machinery.",
+    "date": {
+      "display": "1875/76",
+      "precision": "range",
+      "sort_start": "1875-01-01",
+      "sort_end": "1876-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "franz_reuleaux",
+        "role": "author"
+      },
+      {
+        "entity_id": "kinematics_of_machinery",
+        "role": "publication"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "moon_2003",
+        "page": 3,
+        "quote": "Reuleaux's two major books, The Kinematics of Machinery (1875/76) [5,6]"
+      }
+    ]
+  },
+  {
+    "id": "reuleaux_asme_honorary",
+    "event_type": "award",
+    "label": "Became Honorary Member of ASME",
+    "description": "Reuleaux became one of the early honorary members of ASME.",
+    "date": {
+      "display": "1882",
+      "precision": "year",
+      "sort_start": "1882-01-01",
+      "sort_end": "1882-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "franz_reuleaux",
+        "role": "subject"
+      },
+      {
+        "entity_id": "asme",
+        "role": "awarding_body"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "moon_2003",
+        "page": 7,
+        "quote": "He was one of the early honorary members of ASME (1882)"
+      }
+    ]
+  },
+  {
+    "id": "reuleaux_rector_berlin",
+    "event_type": "role_change",
+    "label": "Elected Rector of Technische Hochschule Berlin",
+    "description": "Reuleaux was elected Rector of the Königs Technischen Hochschule Berlin – Charlottenburg.",
+    "date": {
+      "display": "1890/91",
+      "precision": "range",
+      "sort_start": "1890-01-01",
+      "sort_end": "1891-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "franz_reuleaux",
+        "role": "subject"
+      },
+      {
+        "entity_id": "technische_hochschule_berlin",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "moon_2003",
+        "page": 6,
+        "quote": "Reuleaux was elected Rector of this new institution during 1890/91"
+      }
+    ]
+  },
+  {
+    "id": "reuleaux_retirement",
+    "event_type": "retirement",
+    "label": "Retired",
+    "description": "Reuleaux retired from his position.",
+    "date": {
+      "display": "1896",
+      "precision": "year",
+      "sort_start": "1896-01-01",
+      "sort_end": "1896-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "franz_reuleaux",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "moon_2003",
+        "page": 40,
+        "quote": "After Reuleaux retired in 1896"
+      }
+    ]
+  },
+  {
+    "id": "reuleaux_death",
+    "event_type": "death",
+    "label": "Died",
+    "description": "Franz Reuleaux died.",
+    "date": {
+      "display": "1905",
+      "precision": "year",
+      "sort_start": "1905-01-01",
+      "sort_end": "1905-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "franz_reuleaux",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "moon_2003",
+        "page": 2,
+        "quote": "Franz Reuleaux (1829-1905)"
+      }
+    ]
+  }
+]

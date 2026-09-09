@@ -1,0 +1,148 @@
+[
+  {
+    "id": "nambu_died",
+    "source": "yoichiro_nambu",
+    "type": "died_in",
+    "target": "tokyo",
+    "sources": [
+      {
+        "source_id": "frampton_2015",
+        "page": 2,
+        "quote": "Professor Yoichiro Nambu who passed away on July 5, 2015."
+      }
+    ]
+  },
+  {
+    "id": "frampton_employed_chicago",
+    "source": "paul_frampton",
+    "type": "employed_by",
+    "target": "university_of_chicago",
+    "start": {
+      "display": "September 9, 1968",
+      "precision": "day",
+      "sort_start": "1968-09-09",
+      "sort_end": "1968-09-09"
+    },
+    "end": {
+      "display": "1970",
+      "precision": "year",
+      "sort_start": "1970-01-01",
+      "sort_end": "1970-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "frampton_2015",
+        "page": 2,
+        "quote": "On Monday, September 9, 1968 I reported to start work as a post doc in the University of Chicago"
+      }
+    ]
+  },
+  {
+    "id": "nambu_employed_chicago",
+    "source": "yoichiro_nambu",
+    "type": "worked_at",
+    "target": "university_of_chicago",
+    "sources": [
+      {
+        "source_id": "frampton_2015",
+        "page": 2,
+        "quote": "there I met for the first time Professor Yoichiro Nambu."
+      }
+    ]
+  },
+  {
+    "id": "frampton_supervised_nambu",
+    "source": "paul_frampton",
+    "type": "supervised_by",
+    "target": "yoichiro_nambu",
+    "sources": [
+      {
+        "source_id": "frampton_2015",
+        "page": 2,
+        "quote": "He was my first boss in my first job so I was eager to impress him."
+      }
+    ]
+  },
+  {
+    "id": "nambu_collab_frampton",
+    "source": "yoichiro_nambu",
+    "type": "collaborated_with",
+    "target": "paul_frampton",
+    "sources": [
+      {
+        "source_id": "frampton_2015",
+        "page": 3,
+        "quote": "Nambu seemed pleased and continued to work on the Veneziano model."
+      }
+    ]
+  },
+  {
+    "id": "nambu_invented_string_action",
+    "source": "yoichiro_nambu",
+    "type": "invented",
+    "target": "nambu_goto_action",
+    "event_id": "nambu_string_action",
+    "sources": [
+      {
+        "source_id": "frampton_2015",
+        "page": 4,
+        "quote": "In July 1969, Nambu came to my office to tell me that the action of the string is the area of its world-sheet."
+      }
+    ]
+  },
+  {
+    "id": "goto_published_string_action",
+    "source": "goto",
+    "type": "published",
+    "target": "nambu_goto_action",
+    "event_id": "goto_publication",
+    "sources": [
+      {
+        "source_id": "frampton_2015",
+        "page": 4,
+        "quote": "In May 1971, a Japanese physicist named Goto published it"
+      }
+    ]
+  },
+  {
+    "id": "frampton_relocated_cern",
+    "source": "paul_frampton",
+    "type": "relocated_to",
+    "target": "cern",
+    "event_id": "frampton_cern_move",
+    "sources": [
+      {
+        "source_id": "frampton_2015",
+        "page": 4,
+        "quote": "After leaving Chicago #2 for CERN in 1970"
+      }
+    ]
+  },
+  {
+    "id": "nambu_lived_tokyo",
+    "source": "yoichiro_nambu",
+    "type": "lived_in",
+    "target": "tokyo",
+    "sources": [
+      {
+        "source_id": "frampton_2015",
+        "page": 4,
+        "quote": "Nambu said he had stayed as a small boy before the earthquake of 1923"
+      }
+    ]
+  },
+  {
+    "id": "nambu_frampton_quanta_pub",
+    "source": "yoichiro_nambu",
+    "type": "published",
+    "target": "quanta_book",
+    "event_id": "nambu_frampton_quanta",
+    "sources": [
+      {
+        "source_id": "frampton_2015",
+        "page": 4,
+        "quote": "Y. Nambu and P. Frampton, Asymptotic Behavior of Partial Widths in the Veneziano Model, in QUANTA, A collection of scientific essays dedicated to Gregor Wentzel, University of Chicago Press (1970)."
+      }
+    ]
+  }
+]

@@ -1,0 +1,187 @@
+[
+  {
+    "id": "riemann_born_hannover",
+    "source": "bernhard_riemann",
+    "type": "born_in",
+    "target": "kingdom_of_hannover",
+    "event_id": "birth",
+    "sources": [
+      {
+        "source_id": "elizalde_2013",
+        "page": 2,
+        "quote": "Bernhard Riemann (1826–1866) was born in 1826 in the, at the time, kingdom of Hannover, now Germany."
+      }
+    ]
+  },
+  {
+    "id": "riemann_studied_gottingen",
+    "source": "bernhard_riemann",
+    "type": "studied_at",
+    "target": "gottingen_university",
+    "start": {
+      "display": "1846",
+      "precision": "year",
+      "sort_start": "1846-01-01",
+      "sort_end": "1846-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "elizalde_2013",
+        "page": 2,
+        "quote": "In 1846 Riemann matriculated at Göttingen University"
+      }
+    ]
+  },
+  {
+    "id": "riemann_studied_berlin",
+    "source": "bernhard_riemann",
+    "type": "studied_at",
+    "target": "berlin_university",
+    "start": {
+      "display": "1847",
+      "precision": "year",
+      "sort_start": "1847-01-01",
+      "sort_end": "1847-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "elizalde_2013",
+        "page": 2,
+        "quote": "After 1 year there he moved to Berlin University"
+      }
+    ]
+  },
+  {
+    "id": "riemann_worked_gottingen",
+    "source": "bernhard_riemann",
+    "type": "worked_at",
+    "target": "gottingen_university",
+    "start": {
+      "display": "1850",
+      "precision": "year",
+      "sort_start": "1850-01-01",
+      "sort_end": "1866-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "elizalde_2013",
+        "page": 2,
+        "quote": "In 1850 Riemann returned to Göttingen, where he was to spend the rest of his career."
+      }
+    ]
+  },
+  {
+    "id": "riemann_supervised_gauss",
+    "source": "bernhard_riemann",
+    "type": "supervised_by",
+    "target": "carl_friedrich_gauss",
+    "sources": [
+      {
+        "source_id": "elizalde_2013",
+        "page": 2,
+        "quote": "There, he studied mathematics under Gauss and physics with Wilhelm Weber."
+      }
+    ]
+  },
+  {
+    "id": "riemann_collaborated_dirichlet",
+    "source": "bernhard_riemann",
+    "type": "collaborated_with",
+    "target": "peter_gustav_lejeune_dirichlet",
+    "sources": [
+      {
+        "source_id": "elizalde_2013",
+        "page": 2,
+        "quote": "where Dirichlet's teaching influenced him specially; they later became collaborators."
+      }
+    ]
+  },
+  {
+    "id": "riemann_collaborated_weber",
+    "source": "bernhard_riemann",
+    "type": "collaborated_with",
+    "target": "wilhelm_weber",
+    "sources": [
+      {
+        "source_id": "elizalde_2013",
+        "page": 2,
+        "quote": "Riemann worked with Weber on electromagnetism, which happened starting around 1849."
+      }
+    ]
+  },
+  {
+    "id": "riemann_member_berlin_academy",
+    "source": "bernhard_riemann",
+    "type": "member_of",
+    "target": "berlin_academy_of_sciences",
+    "start": {
+      "display": "1859",
+      "precision": "year",
+      "sort_start": "1859-01-01",
+      "sort_end": "1866-12-31"
+    },
+    "event_id": "elected_berlin_academy",
+    "sources": [
+      {
+        "source_id": "elizalde_2013",
+        "page": 2,
+        "quote": "and was immediately elected to the Berlin Academy of Sciences."
+      }
+    ]
+  },
+  {
+    "id": "riemann_died_selasca",
+    "source": "bernhard_riemann",
+    "type": "died_in",
+    "target": "selasca",
+    "event_id": "death",
+    "sources": [
+      {
+        "source_id": "elizalde_2013",
+        "page": 2,
+        "quote": "Riemann died of tuberculosis in 1866, while trying to recover from it in Selasca (Italy)"
+      }
+    ]
+  },
+  {
+    "id": "riemann_published_geometry",
+    "source": "bernhard_riemann",
+    "type": "published",
+    "target": "riemann_geometry_lecture",
+    "event_id": "pub_geometry_lecture",
+    "sources": [
+      {
+        "source_id": "elizalde_2013",
+        "page": 3,
+        "quote": "13. Ueber die Hypothesen, welche der Geometrie zu Grunde liegen, Habilitationsschrift (1854), Abhandlungen der Königlichen Gesellschaft der Wissenschaften zu Göttingen, 13 (1868)."
+      }
+    ]
+  },
+  {
+    "id": "riemann_published_zeta",
+    "source": "bernhard_riemann",
+    "type": "published",
+    "target": "riemann_zeta_function_paper",
+    "sources": [
+      {
+        "source_id": "elizalde_2013",
+        "page": 3,
+        "quote": "7. Ueber die Anzahl der Primzahlen unter einer gegebenen Grösse, Monatsberichte der Berliner Akademie (November, 1859) 671–680."
+      }
+    ]
+  },
+  {
+    "id": "riemann_published_electrodynamics",
+    "source": "bernhard_riemann",
+    "type": "published",
+    "target": "electrodynamics_paper",
+    "event_id": "pub_electrodynamics",
+    "sources": [
+      {
+        "source_id": "elizalde_2013",
+        "page": 3,
+        "quote": "14. Ein Beitrag zur Elektrodynamik (1858), Annalen der Physik und Chemie, 131 (1867) 237–243."
+      }
+    ]
+  }
+]

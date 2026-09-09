@@ -1,0 +1,682 @@
+[
+  {
+    "id": "landau_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1908",
+      "precision": "year",
+      "sort_start": "1908-01-01",
+      "sort_end": "1908-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lev_landau",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 1,
+        "quote": "Lev D. Landau (1908–1968)"
+      }
+    ]
+  },
+  {
+    "id": "landau_graduation",
+    "event_type": "education",
+    "label": "Graduated from Leningrad State University",
+    "date": {
+      "display": "January 1927",
+      "precision": "month",
+      "sort_start": "1927-01-01",
+      "sort_end": "1927-01-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lev_landau",
+        "role": "subject"
+      },
+      {
+        "entity_id": "leningrad_state_university",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 2,
+        "quote": "Landau graduated from Leningrad State University in January 1927, at the age of 19"
+      }
+    ]
+  },
+  {
+    "id": "landau_appointment",
+    "event_type": "employment_start",
+    "label": "Appointed to Leningrad Physical Technical Institute",
+    "date": {
+      "display": "1927",
+      "precision": "year",
+      "sort_start": "1927-01-01",
+      "sort_end": "1927-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lev_landau",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ioffe_physical_technical_institute",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 2,
+        "quote": "and was appointed to a position, resembling that of a present day graduate student, at Leningrad Physical Technical Institute"
+      }
+    ]
+  },
+  {
+    "id": "landau_trip_abroad",
+    "event_type": "relocation",
+    "label": "Started trip abroad",
+    "date": {
+      "display": "October 1929",
+      "precision": "month",
+      "sort_start": "1929-10-01",
+      "sort_end": "1929-10-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lev_landau",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 3,
+        "quote": "Landau... started his trip in October 1929, visiting numerous physics centers in Europe"
+      }
+    ]
+  },
+  {
+    "id": "landau_visit_copenhagen_1",
+    "event_type": "visit",
+    "label": "Visited Bohr in Copenhagen",
+    "date": {
+      "display": "8 April – 3 May 1930",
+      "precision": "range",
+      "sort_start": "1930-04-08",
+      "sort_end": "1930-05-03"
+    },
+    "participants": [
+      {
+        "entity_id": "lev_landau",
+        "role": "subject"
+      },
+      {
+        "entity_id": "niels_bohr",
+        "role": "host"
+      },
+      {
+        "entity_id": "copenhagen",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 3,
+        "quote": "In particular, he visited Bohr in Copenhagen 8 April – 3 May 1930"
+      }
+    ]
+  },
+  {
+    "id": "landau_visit_copenhagen_2",
+    "event_type": "visit",
+    "label": "Visited Bohr in Copenhagen",
+    "date": {
+      "display": "20 September – 20 November 1930",
+      "precision": "range",
+      "sort_start": "1930-09-20",
+      "sort_end": "1930-11-20"
+    },
+    "participants": [
+      {
+        "entity_id": "lev_landau",
+        "role": "subject"
+      },
+      {
+        "entity_id": "niels_bohr",
+        "role": "host"
+      },
+      {
+        "entity_id": "copenhagen",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 3,
+        "quote": "20 September – 20 November 1930"
+      }
+    ]
+  },
+  {
+    "id": "landau_visit_copenhagen_3",
+    "event_type": "visit",
+    "label": "Visited Bohr in Copenhagen",
+    "date": {
+      "display": "25 February – 19 March 1931",
+      "precision": "range",
+      "sort_start": "1931-02-25",
+      "sort_end": "1931-03-19"
+    },
+    "participants": [
+      {
+        "entity_id": "lev_landau",
+        "role": "subject"
+      },
+      {
+        "entity_id": "niels_bohr",
+        "role": "host"
+      },
+      {
+        "entity_id": "copenhagen",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 3,
+        "quote": "and 25 February – 19 March 1931"
+      }
+    ]
+  },
+  {
+    "id": "landau_paper_written",
+    "event_type": "publication",
+    "label": "Wrote paper 'On the theory of stars'",
+    "date": {
+      "display": "February 1931",
+      "precision": "month",
+      "sort_start": "1931-02-01",
+      "sort_end": "1931-02-28"
+    },
+    "participants": [
+      {
+        "entity_id": "lev_landau",
+        "role": "subject"
+      },
+      {
+        "entity_id": "landau_1932_paper",
+        "role": "artifact"
+      },
+      {
+        "entity_id": "zurich",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 4,
+        "quote": "from which one would conclude that Landau wrote the paper one year before the discovery of the neutron, in Zurich"
+      }
+    ]
+  },
+  {
+    "id": "landau_discussion_copenhagen",
+    "event_type": "meeting",
+    "label": "Discussed paper with Bohr and Rosenfeld",
+    "date": {
+      "display": "28 February – 19 March 1931",
+      "precision": "range",
+      "sort_start": "1931-02-28",
+      "sort_end": "1931-03-19"
+    },
+    "participants": [
+      {
+        "entity_id": "lev_landau",
+        "role": "subject"
+      },
+      {
+        "entity_id": "niels_bohr",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "leon_rosenfeld",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "copenhagen",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 9,
+        "quote": "Landau discussed his paper with Bohr and Rosenfeld in Copenhagen in the period from 28 February to 19 March 1931"
+      }
+    ]
+  },
+  {
+    "id": "landau_paper_submitted",
+    "event_type": "publication",
+    "label": "Submitted paper to Physikalische Zeitschrift der Sowjetunion",
+    "date": {
+      "display": "7 January 1932",
+      "precision": "day",
+      "sort_start": "1932-01-07",
+      "sort_end": "1932-01-07"
+    },
+    "participants": [
+      {
+        "entity_id": "lev_landau",
+        "role": "subject"
+      },
+      {
+        "entity_id": "landau_1932_paper",
+        "role": "artifact"
+      },
+      {
+        "entity_id": "phys_z_sowjetunion",
+        "role": "publisher"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 4,
+        "quote": "On 7 January 1932, more than one month before Chadwick's announcement of the discovery of the neutron... Landau submitted a paper"
+      }
+    ]
+  },
+  {
+    "id": "chadwick_letter_bohr",
+    "event_type": "other",
+    "label": "Chadwick wrote letter to Bohr",
+    "date": {
+      "display": "24 February 1932",
+      "precision": "day",
+      "sort_start": "1932-02-24",
+      "sort_end": "1932-02-24"
+    },
+    "participants": [
+      {
+        "entity_id": "james_chadwick",
+        "role": "subject"
+      },
+      {
+        "entity_id": "niels_bohr",
+        "role": "recipient"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 2,
+        "quote": "James Chadwick, who discovered the neutron in February 1932, reported his finding to Bohr in a letter dated 24 February 1932"
+      }
+    ]
+  },
+  {
+    "id": "landau_paper_published",
+    "event_type": "publication",
+    "label": "Paper published",
+    "date": {
+      "display": "29 February 1932",
+      "precision": "day",
+      "sort_start": "1932-02-29",
+      "sort_end": "1932-02-29"
+    },
+    "participants": [
+      {
+        "entity_id": "lev_landau",
+        "role": "subject"
+      },
+      {
+        "entity_id": "landau_1932_paper",
+        "role": "artifact"
+      },
+      {
+        "entity_id": "phys_z_sowjetunion",
+        "role": "publisher"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 4,
+        "quote": "The paper was published on 29 February 1932"
+      }
+    ]
+  },
+  {
+    "id": "baade_zwicky_talk",
+    "event_type": "conference",
+    "label": "Baade and Zwicky presented neutron star concept",
+    "date": {
+      "display": "15–16 December 1933",
+      "precision": "range",
+      "sort_start": "1933-12-15",
+      "sort_end": "1933-12-16"
+    },
+    "participants": [
+      {
+        "entity_id": "walter_baade",
+        "role": "subject"
+      },
+      {
+        "entity_id": "fritz_zwicky",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 6,
+        "quote": "Reporting their results at the meeting of the American Physical Society at Stanford on 15–16 December 1933"
+      }
+    ]
+  },
+  {
+    "id": "landau_visit_copenhagen_4",
+    "event_type": "visit",
+    "label": "Visited Copenhagen for conference",
+    "date": {
+      "display": "18 September – 3 October 1933",
+      "precision": "range",
+      "sort_start": "1933-09-18",
+      "sort_end": "1933-10-03"
+    },
+    "participants": [
+      {
+        "entity_id": "lev_landau",
+        "role": "subject"
+      },
+      {
+        "entity_id": "niels_bohr",
+        "role": "host"
+      },
+      {
+        "entity_id": "copenhagen",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 3,
+        "quote": "Landau visited Bohr in Copenhagen 18 September – 3 October 1933"
+      }
+    ]
+  },
+  {
+    "id": "landau_visit_copenhagen_5",
+    "event_type": "visit",
+    "label": "Visited Copenhagen for conference",
+    "date": {
+      "display": "1 June – 8 July 1934",
+      "precision": "range",
+      "sort_start": "1934-06-01",
+      "sort_end": "1934-07-08"
+    },
+    "participants": [
+      {
+        "entity_id": "lev_landau",
+        "role": "subject"
+      },
+      {
+        "entity_id": "niels_bohr",
+        "role": "host"
+      },
+      {
+        "entity_id": "copenhagen",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 3,
+        "quote": "and 1 June – 8 July 1934, to attend conferences organized by Bohr"
+      }
+    ]
+  },
+  {
+    "id": "bohr_visit_ussr_1",
+    "event_type": "visit",
+    "label": "Bohr visited USSR",
+    "date": {
+      "display": "May 1934",
+      "precision": "month",
+      "sort_start": "1934-05-01",
+      "sort_end": "1934-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "niels_bohr",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lev_landau",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 3,
+        "quote": "Bohr visited the USSR and met with Landau there three times: in May 1934 (Leningrad, Moscow, Kharkov)"
+      }
+    ]
+  },
+  {
+    "id": "landau_paper_1937",
+    "event_type": "publication",
+    "label": "Published paper on stellar energy",
+    "date": {
+      "display": "1937",
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1937-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lev_landau",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 8,
+        "quote": "Landau, addressed the origin of stellar energy in a paper first published in Russian in the Proceedings of USSR Academy of Sciences [41] in 1937"
+      }
+    ]
+  },
+  {
+    "id": "landau_arrest",
+    "event_type": "other",
+    "label": "Arrested",
+    "date": {
+      "display": "28 April 1938",
+      "precision": "day",
+      "sort_start": "1938-04-28",
+      "sort_end": "1938-04-28"
+    },
+    "participants": [
+      {
+        "entity_id": "lev_landau",
+        "role": "subject"
+      },
+      {
+        "entity_id": "moscow",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 8,
+        "quote": "Curiously, in his first letter to Stalin on 28 April 1938 , the very day of the Landau's arrest"
+      }
+    ]
+  },
+  {
+    "id": "kapitsa_letter_stalin",
+    "event_type": "other",
+    "label": "Kapitsa wrote letter to Stalin",
+    "date": {
+      "display": "28 April 1938",
+      "precision": "day",
+      "sort_start": "1938-04-28",
+      "sort_end": "1938-04-28"
+    },
+    "participants": [
+      {
+        "entity_id": "p_l_kapitsa",
+        "role": "subject"
+      },
+      {
+        "entity_id": "joseph_stalin",
+        "role": "recipient"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 8,
+        "quote": "in his first letter to Stalin on 28 April 1938"
+      }
+    ]
+  },
+  {
+    "id": "landau_release",
+    "event_type": "other",
+    "label": "Released from prison",
+    "date": {
+      "display": "1939",
+      "precision": "year",
+      "sort_start": "1939-01-01",
+      "sort_end": "1939-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lev_landau",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 8,
+        "quote": "Landau was arrested in 1938 in Moscow for 'anti-Soviet activity' and spent one year in prison."
+      }
+    ]
+  },
+  {
+    "id": "landau_car_accident",
+    "event_type": "other",
+    "label": "Car accident",
+    "date": {
+      "display": "7 January 1962",
+      "precision": "day",
+      "sort_start": "1962-01-07",
+      "sort_end": "1962-01-07"
+    },
+    "participants": [
+      {
+        "entity_id": "lev_landau",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 3,
+        "quote": "his terrible car accident on 7 January 1962"
+      }
+    ]
+  },
+  {
+    "id": "landau_medical_treatment",
+    "event_type": "visit",
+    "label": "Medical treatment in Czechoslovakia",
+    "date": {
+      "display": "1963",
+      "precision": "year",
+      "sort_start": "1963-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lev_landau",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 3,
+        "quote": "except for medical treatment in Czechoslovakia in 1963 after his terrible car accident"
+      }
+    ]
+  },
+  {
+    "id": "pulsar_discovery",
+    "event_type": "other",
+    "label": "Discovery of neutron stars announced",
+    "date": {
+      "display": "24 February 1968",
+      "precision": "day",
+      "sort_start": "1968-02-24",
+      "sort_end": "1968-02-24"
+    },
+    "participants": [
+      {
+        "entity_id": "nature_journal",
+        "role": "publisher"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 9,
+        "quote": "just as the discovery of neutron stars as radio pulsars, announced in Nature [1] on 24 February 1968"
+      }
+    ]
+  },
+  {
+    "id": "landau_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1 April 1968",
+      "precision": "day",
+      "sort_start": "1968-04-01",
+      "sort_end": "1968-04-01"
+    },
+    "participants": [
+      {
+        "entity_id": "lev_landau",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 9,
+        "quote": "He died on 1 April 1968"
+      }
+    ]
+  }
+]

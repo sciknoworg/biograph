@@ -1,0 +1,84 @@
+[
+  {
+    "id": "weber_maryland_rel",
+    "source": "joseph_weber",
+    "type": "employed_by",
+    "target": "maryland_university",
+    "sources": [
+      {
+        "source_id": "gottardo_2017",
+        "page": 61,
+        "quote": "Joseph Weber, form Maryland University, was a pioneer in the experimental research of gravitational waves and neutrinos."
+      }
+    ]
+  },
+  {
+    "id": "weber_wheeler_rel",
+    "source": "joseph_weber",
+    "type": "supervised_by",
+    "target": "john_archibald_wheeler",
+    "event_id": "weber_supervised_wheeler",
+    "sources": [
+      {
+        "source_id": "gottardo_2017",
+        "page": 63,
+        "quote": "Forced to change the research field, he went to Princeton University under the supervision of John Archibald Wheeler."
+      }
+    ]
+  },
+  {
+    "id": "weber_bar_rel",
+    "source": "joseph_weber",
+    "type": "invented",
+    "target": "bar_detector",
+    "event_id": "weber_designed_bar_detector",
+    "sources": [
+      {
+        "source_id": "gottardo_2017",
+        "page": 63,
+        "quote": "he decided to design a detector for gravitational waves."
+      }
+    ]
+  },
+  {
+    "id": "weber_torsion_rel",
+    "source": "joseph_weber",
+    "type": "developed",
+    "target": "torsion_balance",
+    "sources": [
+      {
+        "source_id": "gottardo_2017",
+        "page": 66,
+        "quote": "Weber used a torsion balance equipped with single crystal sapphire target."
+      }
+    ]
+  },
+  {
+    "id": "einstein_gw_rel",
+    "source": "albert_einstein",
+    "type": "published",
+    "target": "joseph_weber",
+    "note": "Einstein predicted gravitational waves which Weber researched.",
+    "sources": [
+      {
+        "source_id": "gottardo_2017",
+        "page": 62,
+        "quote": "Gravitational waves were predicted in 1916 by Einstein"
+      }
+    ]
+  },
+  {
+    "id": "thorne_ligo_rel",
+    "source": "kip_thorne",
+    "type": "founded",
+    "target": "ligo",
+    "event_id": "thorne_proposed_ligo",
+    "sources": [
+      {
+        "source_id": "gottardo_2017",
+        "page": 64,
+        "quote": "Kip Thorne, one of the founder of LIGO project"
+      }
+    ]
+  }
+]

@@ -1,0 +1,189 @@
+[
+  {
+    "id": "birth_1900",
+    "event_type": "birth",
+    "label": "Born in Cologne",
+    "date": {
+      "display": "May 10, 1900",
+      "precision": "day",
+      "sort_start": "1900-05-10",
+      "sort_end": "1900-05-10"
+    },
+    "participants": [
+      {
+        "entity_id": "ernst_ising",
+        "role": "subject"
+      }
+    ],
+    "location": "cologne",
+    "sources": [
+      {
+        "source_id": "ising_fate_2017",
+        "page": 1,
+        "quote": "Ernst (Ernest) Ising (May 10, 1900 in Cologne, Germany - May 11, 1998 in Peoria, USA)."
+      }
+    ]
+  },
+  {
+    "id": "phd_completed_1924",
+    "event_type": "education",
+    "label": "Completed PhD thesis",
+    "date": {
+      "display": "1924",
+      "precision": "year",
+      "sort_start": "1924-01-01",
+      "sort_end": "1924-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ernst_ising",
+        "role": "subject"
+      },
+      {
+        "entity_id": "hamburg_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ising_fate_2017",
+        "page": 2,
+        "quote": "The thesis was completed in 1924."
+      }
+    ]
+  },
+  {
+    "id": "publication_1925",
+    "event_type": "publication",
+    "label": "Published thesis results",
+    "date": {
+      "display": "1925",
+      "precision": "year",
+      "sort_start": "1925-01-01",
+      "sort_end": "1925-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ernst_ising",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ising_paper_1925",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ising_fate_2017",
+        "page": 7,
+        "quote": "Ising  nished his thesis in 1924 and published in 1925 a short paper [28] with his results."
+      }
+    ]
+  },
+  {
+    "id": "marriage_1930",
+    "event_type": "other",
+    "label": "Married Jane Ehmer",
+    "date": {
+      "display": "1930",
+      "precision": "year",
+      "sort_start": "1930-01-01",
+      "sort_end": "1930-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ernst_ising",
+        "role": "subject"
+      },
+      {
+        "entity_id": "jane_ising",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ising_fate_2017",
+        "page": 2,
+        "quote": "In 1930, he passed the state exams on higher education and they were married."
+      }
+    ]
+  },
+  {
+    "id": "emigration_1947",
+    "event_type": "relocation",
+    "label": "Arrived in New York",
+    "date": {
+      "display": "April 1947",
+      "precision": "month",
+      "sort_start": "1947-04-01",
+      "sort_end": "1947-04-30"
+    },
+    "participants": [
+      {
+        "entity_id": "ernst_ising",
+        "role": "subject"
+      }
+    ],
+    "location": "peoria",
+    "sources": [
+      {
+        "source_id": "ising_fate_2017",
+        "page": 3,
+        "quote": "In April 1947, we  nally arrived in New York on the freighter  Lipscomb Lykes  ."
+      }
+    ]
+  },
+  {
+    "id": "retirement_1976",
+    "event_type": "retirement",
+    "label": "Retired from Bradley University",
+    "date": {
+      "display": "1976",
+      "precision": "year",
+      "sort_start": "1976-01-01",
+      "sort_end": "1976-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ernst_ising",
+        "role": "subject"
+      },
+      {
+        "entity_id": "bradley_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ising_fate_2017",
+        "page": 4,
+        "quote": "He retired in 1976."
+      }
+    ]
+  },
+  {
+    "id": "death_1998",
+    "event_type": "death",
+    "label": "Died in Peoria",
+    "date": {
+      "display": "May 11, 1998",
+      "precision": "day",
+      "sort_start": "1998-05-11",
+      "sort_end": "1998-05-11"
+    },
+    "participants": [
+      {
+        "entity_id": "ernst_ising",
+        "role": "subject"
+      }
+    ],
+    "location": "peoria",
+    "sources": [
+      {
+        "source_id": "ising_fate_2017",
+        "page": 1,
+        "quote": "Ernst (Ernest) Ising (May 10, 1900 in Cologne, Germany - May 11, 1998 in Peoria, USA)."
+      }
+    ]
+  }
+]

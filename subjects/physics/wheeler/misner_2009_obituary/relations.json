@@ -1,0 +1,181 @@
+[
+  {
+    "id": "wheeler_born",
+    "source": "john_archibald_wheeler",
+    "type": "born_in",
+    "target": "john_archibald_wheeler",
+    "event_id": "wheeler_birth",
+    "sources": [
+      {
+        "source_id": "misner_2009_obituary",
+        "page": 675,
+        "quote": "John Archibald Wheeler (9 July 1911–13 April 2008)"
+      }
+    ]
+  },
+  {
+    "id": "wheeler_died",
+    "source": "john_archibald_wheeler",
+    "type": "died_in",
+    "target": "john_archibald_wheeler",
+    "event_id": "wheeler_death",
+    "sources": [
+      {
+        "source_id": "misner_2009_obituary",
+        "page": 675,
+        "quote": "John Archibald Wheeler (9 July 1911–13 April 2008)"
+      }
+    ]
+  },
+  {
+    "id": "wheeler_worked_princeton",
+    "source": "john_archibald_wheeler",
+    "type": "worked_at",
+    "target": "princeton_university",
+    "event_id": "wheeler_princeton_gr_course",
+    "start": {
+      "display": "spring of 1952",
+      "precision": "month",
+      "sort_start": "1952-03-01",
+      "sort_end": "1952-05-31"
+    },
+    "end": {
+      "display": "1976",
+      "precision": "year",
+      "sort_start": "1976-01-01",
+      "sort_end": "1976-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "misner_2009_obituary",
+        "page": 675,
+        "quote": "from the time he taught his first course in General Relativity at Princeton in the spring of 1952 until his focus changed as he moved to Texas in 1976"
+      }
+    ]
+  },
+  {
+    "id": "wheeler_worked_leiden",
+    "source": "john_archibald_wheeler",
+    "type": "worked_at",
+    "target": "leiden_university",
+    "event_id": "wheeler_lorentz_professor",
+    "start": {
+      "display": "spring and summer terms of 1956",
+      "precision": "range",
+      "sort_start": "1956-03-01",
+      "sort_end": "1956-08-31"
+    },
+    "sources": [
+      {
+        "source_id": "misner_2009_obituary",
+        "page": 676,
+        "quote": "Invited to spend the spring and summer terms of 1956 as Lorentz Professor in Leiden, Holland"
+      }
+    ]
+  },
+  {
+    "id": "wheeler_worked_texas",
+    "source": "john_archibald_wheeler",
+    "type": "worked_at",
+    "target": "university_of_texas",
+    "event_id": "wheeler_move_to_texas",
+    "start": {
+      "display": "1976",
+      "precision": "year",
+      "sort_start": "1976-01-01",
+      "sort_end": "1976-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "misner_2009_obituary",
+        "page": 675,
+        "quote": "until his focus changed as he moved to Texas in 1976"
+      }
+    ]
+  },
+  {
+    "id": "misner_supervised_wheeler",
+    "source": "charles_w_misner",
+    "type": "supervised_by",
+    "target": "john_archibald_wheeler",
+    "event_id": "misner_phd_advicee",
+    "start": {
+      "display": "September 1954",
+      "precision": "month",
+      "sort_start": "1954-09-01",
+      "sort_end": "1954-09-30"
+    },
+    "sources": [
+      {
+        "source_id": "misner_2009_obituary",
+        "page": 676,
+        "quote": "the month that I signed on as his Ph.D. advisee"
+      }
+    ]
+  },
+  {
+    "id": "wheeler_collaborated_weber",
+    "source": "john_archibald_wheeler",
+    "type": "collaborated_with",
+    "target": "joseph_weber",
+    "sources": [
+      {
+        "source_id": "misner_2009_obituary",
+        "page": 676,
+        "quote": "Wheeler brought Joseph Weber and graduate students Peter Putnam and myself with him"
+      }
+    ]
+  },
+  {
+    "id": "wheeler_collaborated_regge",
+    "source": "john_archibald_wheeler",
+    "type": "collaborated_with",
+    "target": "tullio_regge",
+    "sources": [
+      {
+        "source_id": "misner_2009_obituary",
+        "page": 676,
+        "quote": "Another brief but significant activity in Leiden was John's bringing Tullio Regge there for a few weeks, which resulted in their initial development of the perturbation technology for the Schwarzschild metric"
+      }
+    ]
+  },
+  {
+    "id": "wheeler_mentored_everett",
+    "source": "john_archibald_wheeler",
+    "type": "mentored",
+    "target": "hugh_everett_iii",
+    "sources": [
+      {
+        "source_id": "misner_2009_obituary",
+        "page": 675,
+        "quote": "he supported a Ph.D. for Hugh Everett who had daring ideas about believing the Schrödinger equation at macroscopic levels"
+      }
+    ]
+  },
+  {
+    "id": "wheeler_mentored_misner",
+    "source": "john_archibald_wheeler",
+    "type": "mentored",
+    "target": "charles_w_misner",
+    "sources": [
+      {
+        "source_id": "misner_2009_obituary",
+        "page": 675,
+        "quote": "I was among the first of his many students in gravitation"
+      }
+    ]
+  },
+  {
+    "id": "misner_worked_maryland",
+    "source": "charles_w_misner",
+    "type": "worked_at",
+    "target": "university_of_maryland",
+    "sources": [
+      {
+        "source_id": "misner_2009_obituary",
+        "page": 677,
+        "quote": "Misner and Brill at Maryland"
+      }
+    ]
+  }
+]

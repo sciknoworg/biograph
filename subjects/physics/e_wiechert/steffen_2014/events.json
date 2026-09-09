@@ -1,0 +1,380 @@
+[
+  {
+    "id": "wiechert_birth",
+    "event_type": "birth",
+    "label": "Born in Tilsit",
+    "date": {
+      "display": "26 December 1861",
+      "precision": "day",
+      "sort_start": "1861-12-26",
+      "sort_end": "1861-12-26"
+    },
+    "participants": [
+      {
+        "entity_id": "emil_wiechert",
+        "role": "subject"
+      }
+    ],
+    "location": "tilsit",
+    "sources": [
+      {
+        "source_id": "steffen_2014",
+        "page": 2,
+        "quote": "Emil Wiechert (Fig.1) was born on 26 December 1861 in Tilsit (today Sovetsk) in the Province of Prussia1 (today Kaliningrad Oblast, Russia)."
+      }
+    ]
+  },
+  {
+    "id": "wiechert_phd",
+    "event_type": "education",
+    "label": "Completed Ph.D.",
+    "date": {
+      "display": "February 1889",
+      "precision": "month",
+      "sort_start": "1889-02-01",
+      "sort_end": "1889-02-28"
+    },
+    "participants": [
+      {
+        "entity_id": "emil_wiechert",
+        "role": "subject"
+      },
+      {
+        "entity_id": "albertus_university_konigsberg",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "steffen_2014",
+        "page": 2,
+        "quote": "eventually completing his Ph.D. in February 1889 with a thesisÜber elastis- che Nachwirkung(On the elastic aftereffect)."
+      }
+    ]
+  },
+  {
+    "id": "wiechert_habilitation",
+    "event_type": "education",
+    "label": "Completed habilitation",
+    "date": {
+      "display": "October 1890",
+      "precision": "month",
+      "sort_start": "1890-10-01",
+      "sort_end": "1890-10-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emil_wiechert",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "steffen_2014",
+        "page": 2,
+        "quote": "In October 1890, he completed his habilitation (venia legendi) and he received the title Professor of Physics in 1896."
+      }
+    ]
+  },
+  {
+    "id": "wiechert_gottingen_arrival",
+    "event_type": "employment_start",
+    "label": "Offered position at University of Göttingen",
+    "date": {
+      "display": "1897",
+      "precision": "year",
+      "sort_start": "1897-01-01",
+      "sort_end": "1897-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emil_wiechert",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_gottingen",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "steffen_2014",
+        "page": 2,
+        "quote": "In 1897, Wiechert was offered a position as a so-called As- sistent in the group for theoretical physics at the Institute of Physics of the University of Göttingen."
+      }
+    ]
+  },
+  {
+    "id": "wiechert_professor_geophysics",
+    "event_type": "role_change",
+    "label": "Nominated Professor of Geophysics",
+    "date": {
+      "display": "28 January 1898",
+      "precision": "day",
+      "sort_start": "1898-01-28",
+      "sort_end": "1898-01-28"
+    },
+    "participants": [
+      {
+        "entity_id": "emil_wiechert",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_gottingen",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "steffen_2014",
+        "page": 2,
+        "quote": "Wiechert was nominated as Professor of Geophysics on 28 January 1898, which was the second time in the world that the word geophysics was used to name a professorship."
+      }
+    ]
+  },
+  {
+    "id": "institute_renamed",
+    "event_type": "company_renamed",
+    "label": "Observatory renamed to Institute of Geophysics",
+    "date": {
+      "display": "2 July 1898",
+      "precision": "day",
+      "sort_start": "1898-07-02",
+      "sort_end": "1898-07-02"
+    },
+    "participants": [
+      {
+        "entity_id": "institute_of_geophysics_gottingen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "emil_wiechert",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "steffen_2014",
+        "page": 2,
+        "quote": "Already a few weeks later on 2 July 1898, the observatory was officially renamed to Institut für Geophysik (Institute of Geophysics), being the first of its kind in the world."
+      }
+    ]
+  },
+  {
+    "id": "erdbebenhaus_built",
+    "event_type": "product_launch",
+    "label": "Erdbebenhaus built",
+    "date": {
+      "display": "1902",
+      "precision": "year",
+      "sort_start": "1902-01-01",
+      "sort_end": "1902-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "erdbebenhaus",
+        "role": "invention"
+      },
+      {
+        "entity_id": "emil_wiechert",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "steffen_2014",
+        "page": 3,
+        "quote": "It was built in 1902 in the garden in close vicinity of the institute's building, partly hidden in the underground of the surrounding hilly area."
+      }
+    ]
+  },
+  {
+    "id": "observations_start",
+    "event_type": "public_demonstration",
+    "label": "Continuous observations started",
+    "date": {
+      "display": "1 January 1903",
+      "precision": "day",
+      "sort_start": "1903-01-01",
+      "sort_end": "1903-01-01"
+    },
+    "participants": [
+      {
+        "entity_id": "institute_of_geophysics_gottingen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "wiechert_seismograph",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "steffen_2014",
+        "page": 3,
+        "quote": "The official start for continuous observations was 1 January 1903."
+      }
+    ]
+  },
+  {
+    "id": "german_seismological_society_founded",
+    "event_type": "company_founded",
+    "label": "German Seismological Society founded",
+    "date": {
+      "display": "1922",
+      "precision": "year",
+      "sort_start": "1922-01-01",
+      "sort_end": "1922-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "german_geophysical_society",
+        "role": "subject"
+      },
+      {
+        "entity_id": "emil_wiechert",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "steffen_2014",
+        "page": 6,
+        "quote": "Thus, the German Seismological Society was founded in 1922 on the initiative of Wiechert."
+      }
+    ]
+  },
+  {
+    "id": "wiechert_death",
+    "event_type": "death",
+    "label": "Died in Göttingen",
+    "date": {
+      "display": "18 March 1928",
+      "precision": "day",
+      "sort_start": "1928-03-18",
+      "sort_end": "1928-03-18"
+    },
+    "participants": [
+      {
+        "entity_id": "emil_wiechert",
+        "role": "subject"
+      }
+    ],
+    "location": "gottingen",
+    "sources": [
+      {
+        "source_id": "steffen_2014",
+        "page": 6,
+        "quote": "Wiechert died on 18 March 1928, in Göttingen."
+      }
+    ]
+  },
+  {
+    "id": "society_founded",
+    "event_type": "company_founded",
+    "label": "Wiechert'sche Erdbebenwarte Göttingen e.V. founded",
+    "date": {
+      "display": "11 April 2005",
+      "precision": "day",
+      "sort_start": "2005-04-11",
+      "sort_end": "2005-04-11"
+    },
+    "participants": [
+      {
+        "entity_id": "wiechertsche_erdbebenwarte_gottingen_ev",
+        "role": "subject"
+      },
+      {
+        "entity_id": "wolfgang_brunk",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "steffen_2014",
+        "page": 7,
+        "quote": "Therefore, on 11 April 2005 the Wiechert'sche Erdbebenwarte Göttingen e.V. was founded as a registered society (e.V.) by 15 founding members with Wolfgang Brunk as new chairman."
+      }
+    ]
+  },
+  {
+    "id": "ownership_transfer",
+    "event_type": "company_sold",
+    "label": "Society became owner of observatory",
+    "date": {
+      "display": "30 August 2005",
+      "precision": "day",
+      "sort_start": "2005-08-30",
+      "sort_end": "2005-08-30"
+    },
+    "participants": [
+      {
+        "entity_id": "wiechertsche_erdbebenwarte_gottingen_ev",
+        "role": "subject"
+      },
+      {
+        "entity_id": "erdbebenhaus",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "steffen_2014",
+        "page": 7,
+        "quote": "Since 30 August 2005, the registered society is the owner."
+      }
+    ]
+  },
+  {
+    "id": "observations_paused",
+    "event_type": "other",
+    "label": "Continuous observations ended",
+    "date": {
+      "display": "17 June 2005",
+      "precision": "day",
+      "sort_start": "2005-06-17",
+      "sort_end": "2005-06-17"
+    },
+    "participants": [
+      {
+        "entity_id": "institute_of_geophysics_gottingen",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "steffen_2014",
+        "page": 7,
+        "quote": "Thus, on 17 June 2005, more than 100 yr of almost continuous observations ended."
+      }
+    ]
+  },
+  {
+    "id": "observations_resumed",
+    "event_type": "public_demonstration",
+    "label": "Continuous observations resumed",
+    "date": {
+      "display": "16 October 2005",
+      "precision": "day",
+      "sort_start": "2005-10-16",
+      "sort_end": "2005-10-16"
+    },
+    "participants": [
+      {
+        "entity_id": "wiechertsche_erdbebenwarte_gottingen_ev",
+        "role": "subject"
+      },
+      {
+        "entity_id": "wiechert_seismograph",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "steffen_2014",
+        "page": 8,
+        "quote": "It was finally repaired with the help of a local horologist and has been continuously observing again since 16 October 2005."
+      }
+    ]
+  }
+]

@@ -1,0 +1,390 @@
+[
+  {
+    "id": "birth",
+    "event_type": "birth",
+    "label": "Born in Mount Pleasant, Iowa",
+    "date": {
+      "display": "1914",
+      "precision": "year",
+      "sort_start": "1914-01-01",
+      "sort_end": "1914-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "james_van_allen",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 3,
+        "quote": "JAMES ALFRED VAN ALLEN (1914–2006) was born and raised in Mount Pleasant, Iowa"
+      }
+    ]
+  },
+  {
+    "id": "education_iowa_wesleyan",
+    "event_type": "education",
+    "label": "Graduated from Iowa Wesleyan College",
+    "date": {
+      "display": "1935",
+      "precision": "year",
+      "sort_start": "1935-01-01",
+      "sort_end": "1935-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "james_van_allen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "iowa_wesleyan_college",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 3,
+        "quote": "attended Iowa Wesleyan College, where he studied physics, graduating magna cum laude in 1935."
+      }
+    ]
+  },
+  {
+    "id": "education_sui_ms",
+    "event_type": "education",
+    "label": "Earned master's degree at State University of Iowa",
+    "date": {
+      "display": "1936",
+      "precision": "year",
+      "sort_start": "1936-01-01",
+      "sort_end": "1936-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "james_van_allen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "state_university_iowa",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 4,
+        "quote": "earning a master's degree in 1936."
+      }
+    ]
+  },
+  {
+    "id": "education_sui_phd",
+    "event_type": "education",
+    "label": "Earned Ph.D. at State University of Iowa",
+    "date": {
+      "display": "1939",
+      "precision": "year",
+      "sort_start": "1939-01-01",
+      "sort_end": "1939-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "james_van_allen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "state_university_iowa",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 4,
+        "quote": "Ph.D., which he earned in 1939."
+      }
+    ]
+  },
+  {
+    "id": "wwii_service",
+    "event_type": "employment_start",
+    "label": "Commissioned in U.S. Naval Reserve",
+    "date": {
+      "display": "November 1942",
+      "precision": "month",
+      "sort_start": "1942-11-01",
+      "sort_end": "1942-11-30"
+    },
+    "participants": [
+      {
+        "entity_id": "james_van_allen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "us_naval_reserve",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 4,
+        "quote": "Commissioned as a lieutenant in the U.S. Naval Reserve, Van Allen was assigned to the Pacific Fleet in November 1942"
+      }
+    ]
+  },
+  {
+    "id": "chair_sui",
+    "event_type": "role_change",
+    "label": "Accepted chairmanship of physics department at State University of Iowa",
+    "date": {
+      "display": "1951",
+      "precision": "year",
+      "sort_start": "1951-01-01",
+      "sort_end": "1951-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "james_van_allen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "state_university_iowa",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 6,
+        "quote": "In 1951 Van Allen accepted the chairmanship of the State University of Iowa's physics department."
+      }
+    ]
+  },
+  {
+    "id": "explorer_1_launch",
+    "event_type": "product_launch",
+    "label": "Launch of Explorer 1",
+    "date": {
+      "display": "January 31, 1958",
+      "precision": "day",
+      "sort_start": "1958-01-31",
+      "sort_end": "1958-01-31"
+    },
+    "participants": [
+      {
+        "entity_id": "james_van_allen",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "explorer_1",
+        "role": "invention"
+      },
+      {
+        "entity_id": "army_ballistic_missile_agency",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 8,
+        "quote": "launched a four-stage modified Jupiter C military missile, designated Juno 1, on January 31, 1958. It carried the first U.S. satellite, Explorer 1"
+      }
+    ]
+  },
+  {
+    "id": "belts_announcement",
+    "event_type": "publication",
+    "label": "Announced discovery of radiation belts",
+    "date": {
+      "display": "May 1, 1958",
+      "precision": "day",
+      "sort_start": "1958-05-01",
+      "sort_end": "1958-05-01"
+    },
+    "participants": [
+      {
+        "entity_id": "james_van_allen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "van_allen_belts",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 10,
+        "quote": "On May 1, 1958, at the National Academy of Science, Van Allen announced that Geiger-Müller counters aboard Explorers 1 and 3 had been swamped by high radiation levels, indicating that powerful radiation belts, later known as the Van Allen Belts, surround Earth in a donut-shaped torus."
+      }
+    ]
+  },
+  {
+    "id": "argus_agreement",
+    "event_type": "meeting",
+    "label": "Agreed to join Project Argus",
+    "date": {
+      "display": "May 1, 1958",
+      "precision": "day",
+      "sort_start": "1958-05-01",
+      "sort_end": "1958-05-01"
+    },
+    "participants": [
+      {
+        "entity_id": "james_van_allen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "project_argus",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 11,
+        "quote": "ON THE VERY SAME DAY that Van Allen announced his discovery of Earth's radiation belts to the world, he agreed to join Project Argus"
+      }
+    ]
+  },
+  {
+    "id": "explorer_4_launch",
+    "event_type": "product_launch",
+    "label": "Launch of Explorer 4",
+    "date": {
+      "display": "July 26, 1958",
+      "precision": "day",
+      "sort_start": "1958-07-26",
+      "sort_end": "1958-07-26"
+    },
+    "participants": [
+      {
+        "entity_id": "james_van_allen",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "explorer_4",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 15,
+        "quote": "Explorer 4 (satellite 1958 delta), launched on July 26, 1958"
+      }
+    ]
+  },
+  {
+    "id": "argus_shots",
+    "event_type": "public_demonstration",
+    "label": "Project Argus nuclear detonations",
+    "date": {
+      "display": "August–September 1958",
+      "precision": "range",
+      "sort_start": "1958-08-27",
+      "sort_end": "1958-09-06"
+    },
+    "participants": [
+      {
+        "entity_id": "james_van_allen",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "project_argus",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 14,
+        "quote": "The Argus space shots consisted of three atomic bombs, each of 1.7-kiloton yield, detonated at altitudes of 120, 150, and 288 miles above the South Atlantic Ocean on August 27, August 30, and September 6, 1958."
+      }
+    ]
+  },
+  {
+    "id": "soviet_visit",
+    "event_type": "visit",
+    "label": "Visited Soviet Union",
+    "date": {
+      "display": "Summer 1959",
+      "precision": "range",
+      "sort_start": "1959-06-01",
+      "sort_end": "1959-08-31"
+    },
+    "participants": [
+      {
+        "entity_id": "james_van_allen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "soviet_union",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 22,
+        "quote": "When Van Allen visited the Soviet Union in the summer of 1959"
+      }
+    ]
+  },
+  {
+    "id": "starfish_prime",
+    "event_type": "public_demonstration",
+    "label": "Starfish Prime nuclear detonation",
+    "date": {
+      "display": "July 8, 1962",
+      "precision": "day",
+      "sort_start": "1962-07-08",
+      "sort_end": "1962-07-08"
+    },
+    "participants": [
+      {
+        "entity_id": "james_van_allen",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "project_starfish_prime",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 19,
+        "quote": "On July 8, 1962, almost four years after Project Argus, a 1.4-megaton hydrogen bomb designated Starfish Prime was carried aloft by a Thor missile and detonated 240 miles above Johnston Island."
+      }
+    ]
+  },
+  {
+    "id": "death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "2006",
+      "precision": "year",
+      "sort_start": "2006-01-01",
+      "sort_end": "2006-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "james_van_allen",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 3,
+        "quote": "JAMES ALFRED VAN ALLEN (1914–2006)"
+      }
+    ]
+  }
+]

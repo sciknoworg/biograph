@@ -1,0 +1,176 @@
+[
+  {
+    "aliases": [
+      "Kármán",
+      "Kármán Tódor",
+      "Tódor Kármán",
+      "von Kármán"
+    ],
+    "entity_type": "person",
+    "id": "theodore_von_karman",
+    "name": "Theodore von Kármán",
+    "subtype": "researcher",
+    "summary": "Hungarian-American engineer and physicist active in aeronautics, astronautics, and rock mechanics."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Hungary"
+    },
+    "entity_type": "place",
+    "id": "budapest",
+    "name": "Budapest",
+    "subtype": "city",
+    "summary": "Capital city of Hungary, birthplace of von Kármán."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Germany"
+    },
+    "entity_type": "place",
+    "id": "aachen",
+    "name": "Aachen",
+    "subtype": "city",
+    "summary": "City in Germany where von Kármán directed the Aeronautical Institute and died."
+  },
+  {
+    "aliases": [
+      "Budapest University of Technology and Economics"
+    ],
+    "entity_type": "organization",
+    "id": "royal_joseph_university",
+    "name": "Royal Joseph University",
+    "subtype": "university",
+    "summary": "University in Budapest where von Kármán graduated as a mechanical engineer."
+  },
+  {
+    "aliases": [
+      "Göttingen"
+    ],
+    "entity_type": "organization",
+    "id": "university_of_gottingen",
+    "name": "University of Göttingen",
+    "subtype": "university",
+    "summary": "German university where von Kármán worked as an assistant to Ludwig Prandtl."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "aeronautical_institute_aachen",
+    "name": "Aeronautical Institute at Aachen",
+    "subtype": "lab",
+    "summary": "Institute directed by von Kármán starting in 1912."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "austro_hungarian_army",
+    "name": "Austro-Hungarian Army",
+    "subtype": "military",
+    "summary": "Military force in which von Kármán served from 1915 to 1918."
+  },
+  {
+    "aliases": [
+      "USA",
+      "United States"
+    ],
+    "entity_type": "place",
+    "id": "usa",
+    "name": "United States of America",
+    "subtype": "country",
+    "summary": "Country to which von Kármán emigrated in 1930."
+  },
+  {
+    "aliases": [
+      "Magyar Mérnök- és építész-Egylet"
+    ],
+    "entity_type": "organization",
+    "id": "hungarian_society_engineers_architects",
+    "name": "Hungarian Society of Engineers and Architects",
+    "subtype": "society",
+    "summary": "Professional society where von Kármán first presented his triaxial test results."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "hungarian_academy_sciences",
+    "name": "Hungarian Academy of Sciences",
+    "subtype": "academy",
+    "summary": "Academy where von Kármán repeated his triaxial test presentation."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "krupp",
+    "name": "Krupp",
+    "subtype": "company",
+    "summary": "Company in Essen that produced von Kármán's triaxial test chamber."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Germany"
+    },
+    "entity_type": "place",
+    "id": "essen",
+    "name": "Essen",
+    "subtype": "city",
+    "summary": "City in Germany where Krupp produced the triaxial cell."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "ludwig_prandtl",
+    "name": "Ludwig Prandtl",
+    "subtype": "researcher",
+    "summary": "Professor at the University of Göttingen and supervisor of von Kármán."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "franz_joseph",
+    "name": "Franz Joseph",
+    "subtype": "monarch",
+    "summary": "King of Hungary who granted nobility to von Kármán's family."
+  },
+  {
+    "aliases": [
+      "triaxial cell",
+      "triaxial test chamber"
+    ],
+    "entity_type": "artifact",
+    "id": "triaxial_cell_bomb",
+    "name": "The Bomb",
+    "subtype": "invention",
+    "summary": "First triaxial test chamber designed by von Kármán for investigating brittle rock behavior."
+  },
+  {
+    "aliases": [
+      "Magyar Mérnök- és építész-Egylet Közlönye"
+    ],
+    "entity_type": "artifact",
+    "id": "journal_hungarian_engineers_architects",
+    "name": "Journal of Hungarian Engineers and Architects",
+    "subtype": "publication",
+    "summary": "Journal where von Kármán's triaxial test results were first published in Hungarian."
+  },
+  {
+    "aliases": [
+      "Zeitschrift der Vereine Deutscher Ingenieure"
+    ],
+    "entity_type": "artifact",
+    "id": "z_verhandl_deut_ingr",
+    "name": "Z. Verhandl. Deut. Ingr.",
+    "subtype": "publication",
+    "summary": "Journal where von Kármán's triaxial test results were published in German."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "e_heyn",
+    "name": "E. Heyn",
+    "subtype": "researcher",
+    "summary": "Professor of geology in Heidelberg who pointed out plastic deformation in brittle rocks."
+  }
+]

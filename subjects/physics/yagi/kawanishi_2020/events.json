@@ -1,0 +1,366 @@
+[
+  {
+    "id": "yagi_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1886",
+      "precision": "year",
+      "sort_start": "1886-01-01",
+      "sort_end": "1886-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "hidetsugu_yagi",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kawanishi_2020",
+        "page": 4,
+        "quote": "Hidetsugu Yagi (1886–1976), a Japanese electrical engineer, is largely known for his contributions to radio science via his introduction of the ultra-short wave directional antenna (the Yagi-Uda Antenna)."
+      }
+    ]
+  },
+  {
+    "id": "yagi_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1976",
+      "precision": "year",
+      "sort_start": "1976-01-01",
+      "sort_end": "1976-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "hidetsugu_yagi",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kawanishi_2020",
+        "page": 4,
+        "quote": "Hidetsugu Yagi (1886–1976), a Japanese electrical engineer, is largely known for his contributions to radio science via his introduction of the ultra-short wave directional antenna (the Yagi-Uda Antenna)."
+      }
+    ]
+  },
+  {
+    "id": "yagi_enrolled_tokyo",
+    "event_type": "education",
+    "label": "Enrolled at Tokyo Imperial University",
+    "date": {
+      "display": "early 1900s",
+      "precision": "decade",
+      "sort_start": "1900-01-01",
+      "sort_end": "1909-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "hidetsugu_yagi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "tokyo_imperial_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kawanishi_2020",
+        "page": 6,
+        "quote": "He enrolled at Tokyo Imperial University and chose electrical engineering as his major."
+      }
+    ]
+  },
+  {
+    "id": "yagi_studied_abroad",
+    "event_type": "visit",
+    "label": "Studied abroad",
+    "date": {
+      "display": "1913–1916",
+      "precision": "range",
+      "sort_start": "1913-01-01",
+      "sort_end": "1916-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "hidetsugu_yagi",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kawanishi_2020",
+        "page": 8,
+        "quote": "he had studied abroad from 1913 to 1916."
+      }
+    ]
+  },
+  {
+    "id": "yagi_in_zurich",
+    "event_type": "visit",
+    "label": "In Zurich",
+    "date": {
+      "display": "July 1914",
+      "precision": "month",
+      "sort_start": "1914-07-01",
+      "sort_end": "1914-07-31"
+    },
+    "participants": [
+      {
+        "entity_id": "hidetsugu_yagi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "zurich",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kawanishi_2020",
+        "page": 8,
+        "quote": "In July 1914, when WWI broke out, he was in Zurich."
+      }
+    ]
+  },
+  {
+    "id": "yagi_returned_japan",
+    "event_type": "relocation",
+    "label": "Returned to Japan",
+    "date": {
+      "display": "June 1916",
+      "precision": "month",
+      "sort_start": "1916-06-01",
+      "sort_end": "1916-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "hidetsugu_yagi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "japan",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kawanishi_2020",
+        "page": 9,
+        "quote": "Returning to Japan in June 1916, Yagi highlighted the significance of organized research and the close relationship between industry and academia, in an interview with a journalist:"
+      }
+    ]
+  },
+  {
+    "id": "yagi_chair_tohoku",
+    "event_type": "employment_start",
+    "label": "Appointed Chair of Tohoku Department of Electrical Engineering",
+    "date": {
+      "display": "1919",
+      "precision": "year",
+      "sort_start": "1919-01-01",
+      "sort_end": "1919-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "hidetsugu_yagi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "tohoku_imperial_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kawanishi_2020",
+        "page": 9,
+        "quote": "After being appointed as the Chair of the Tohoku Department of Electrical Engineering in 1919, Yagi immediately began to promote what he called engineering research (k¯ogaku kenky¯u) in his department."
+      }
+    ]
+  },
+  {
+    "id": "yagi_head_osaka",
+    "event_type": "employment_start",
+    "label": "Appointed Head of Department of Physics at Osaka Imperial University",
+    "date": {
+      "display": "1931",
+      "precision": "year",
+      "sort_start": "1931-01-01",
+      "sort_end": "1931-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "hidetsugu_yagi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "osaka_imperial_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kawanishi_2020",
+        "page": 6,
+        "quote": "Nagaoka later recruited Yagi as the first Head of the Department of Physics (not Engineering) of Osaka Imperial University, where Nagaoka had served as its first president since 1931."
+      }
+    ]
+  },
+  {
+    "id": "riken_established",
+    "event_type": "company_founded",
+    "label": "Institute of Physical and Chemical Research established",
+    "date": {
+      "display": "1917",
+      "precision": "year",
+      "sort_start": "1917-01-01",
+      "sort_end": "1917-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "riken",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kawanishi_2020",
+        "page": 2,
+        "quote": "The first Japanese institution dedicated to basic research was the Institute of Physical and Chemical Research (Riken), established in 1917."
+      }
+    ]
+  },
+  {
+    "id": "tohoku_engineering_established",
+    "event_type": "company_founded",
+    "label": "Tohoku Faculty of Engineering established",
+    "date": {
+      "display": "1919",
+      "precision": "year",
+      "sort_start": "1919-01-01",
+      "sort_end": "1919-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tohoku_imperial_university",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kawanishi_2020",
+        "page": 5,
+        "quote": "The fourth was the Tohoku Faculty of Engineering established in 1919, while Tohoku Imperial University opened its College of Science in 1911."
+      }
+    ]
+  },
+  {
+    "id": "yagi_traveled_abroad",
+    "event_type": "visit",
+    "label": "Traveled abroad to research institutes",
+    "date": {
+      "display": "1928",
+      "precision": "year",
+      "sort_start": "1928-01-01",
+      "sort_end": "1928-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "hidetsugu_yagi",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kawanishi_2020",
+        "page": 16,
+        "quote": "When he traveled abroad in 1928, he visited almost all of the leading research institutes in Western countries, and reported on the organizational structures and what was carried out in each institution."
+      }
+    ]
+  },
+  {
+    "id": "saito_funding_period",
+    "event_type": "other",
+    "label": "Saito Ho-onkai funding period",
+    "date": {
+      "display": "1923–1945",
+      "precision": "range",
+      "sort_start": "1923-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "saito_ho_onkai",
+        "role": "subject"
+      },
+      {
+        "entity_id": "tohoku_imperial_university",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kawanishi_2020",
+        "page": 19,
+        "quote": "In contrast, the Tohoku Faculty of Engineering acquired a large amount of funding from a foundation, Sait¯o H ¯o'onkai, between 1923 and 1945, which induced first-rate results, including Yagi's own invention of ultra-short wave directional antenna and the research on the ultra high￾frequency oscillation using magnetron."
+      }
+    ]
+  },
+  {
+    "id": "compton_mit_president",
+    "event_type": "role_change",
+    "label": "Karl Compton appointed President of MIT",
+    "date": {
+      "display": "1930",
+      "precision": "year",
+      "sort_start": "1930-01-01",
+      "sort_end": "1930-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "karl_compton",
+        "role": "subject"
+      },
+      {
+        "entity_id": "mit",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kawanishi_2020",
+        "page": 19,
+        "quote": "The appointment of physicist Karl Compton as MIT's President in 1930 heralded its transformation into an institution for basic research and interactions between physics and engineering."
+      }
+    ]
+  },
+  {
+    "id": "watanabe_published",
+    "event_type": "publication",
+    "label": "Yasushi Watanabe published results",
+    "date": {
+      "display": "1941–1943",
+      "precision": "range",
+      "sort_start": "1941-01-01",
+      "sort_end": "1943-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "yasushi_watanabe",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kawanishi_2020",
+        "page": 14,
+        "quote": "With the help of Yoshio Nishina, the leading quantum physicist in Japan in the interwar period, Watanabe published some of his results between 1941 and 1943."
+      }
+    ]
+  }
+]

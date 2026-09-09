@@ -1,0 +1,174 @@
+[
+  {
+    "id": "yagi_born_japan",
+    "source": "hidetsugu_yagi",
+    "type": "born_in",
+    "target": "japan",
+    "sources": [
+      {
+        "source_id": "kawanishi_2020",
+        "page": 4,
+        "quote": "Hidetsugu Yagi (1886–1976), a Japanese electrical engineer, is largely known for his contributions to radio science via his introduction of the ultra-short wave directional antenna (the Yagi-Uda Antenna)."
+      }
+    ]
+  },
+  {
+    "id": "yagi_studied_tokyo",
+    "source": "hidetsugu_yagi",
+    "type": "studied_at",
+    "target": "tokyo_imperial_university",
+    "sources": [
+      {
+        "source_id": "kawanishi_2020",
+        "page": 6,
+        "quote": "He enrolled at Tokyo Imperial University and chose electrical engineering as his major."
+      }
+    ]
+  },
+  {
+    "id": "yagi_worked_tohoku",
+    "source": "hidetsugu_yagi",
+    "type": "worked_at",
+    "target": "tohoku_imperial_university",
+    "event_id": "yagi_chair_tohoku",
+    "sources": [
+      {
+        "source_id": "kawanishi_2020",
+        "page": 9,
+        "quote": "After being appointed as the Chair of the Tohoku Department of Electrical Engineering in 1919, Yagi immediately began to promote what he called engineering research (k¯ogaku kenky¯u) in his department."
+      }
+    ]
+  },
+  {
+    "id": "yagi_worked_osaka",
+    "source": "hidetsugu_yagi",
+    "type": "worked_at",
+    "target": "osaka_imperial_university",
+    "event_id": "yagi_head_osaka",
+    "sources": [
+      {
+        "source_id": "kawanishi_2020",
+        "page": 6,
+        "quote": "Nagaoka later recruited Yagi as the first Head of the Department of Physics (not Engineering) of Osaka Imperial University, where Nagaoka had served as its first president since 1931."
+      }
+    ]
+  },
+  {
+    "id": "yagi_invented_antenna",
+    "source": "hidetsugu_yagi",
+    "type": "invented",
+    "target": "yagi_uda_antenna",
+    "sources": [
+      {
+        "source_id": "kawanishi_2020",
+        "page": 1,
+        "quote": "Hidetsugu Yagi, renowned as one of the inventors of the Yagi-Uda Antenna, acted as a reformer of a Japanese engineering institution during the interwar period."
+      }
+    ]
+  },
+  {
+    "id": "yagi_mentored_nagaoka",
+    "source": "hidetsugu_yagi",
+    "type": "supervised_by",
+    "target": "hantaro_nagaoka",
+    "sources": [
+      {
+        "source_id": "kawanishi_2020",
+        "page": 6,
+        "quote": "As a graduate of Tokyo Imperial University and as one who had attended Nagaoka's physics class, Yagi respected Nagaoka and shared his aspiration to contribute to the advancement of science."
+      }
+    ]
+  },
+  {
+    "id": "yagi_collaborated_honda",
+    "source": "hidetsugu_yagi",
+    "type": "collaborated_with",
+    "target": "kotaro_honda",
+    "sources": [
+      {
+        "source_id": "kawanishi_2020",
+        "page": 6,
+        "quote": "Yagi was especially close to Kotaro Honda, a physicist known for his work for physical metallurgy, and participated in the weekly journal club launched at Honda's laboratory."
+      }
+    ]
+  },
+  {
+    "id": "yagi_supervised_fleming",
+    "source": "hidetsugu_yagi",
+    "type": "supervised_by",
+    "target": "john_ambrose_fleming",
+    "sources": [
+      {
+        "source_id": "kawanishi_2020",
+        "page": 8,
+        "quote": "He then moved to England, where he continued his research under the direction of John Ambrose Fleming."
+      }
+    ]
+  },
+  {
+    "id": "yagi_visited_dresden",
+    "source": "hidetsugu_yagi",
+    "type": "visited",
+    "target": "technische_hochschule_dresden",
+    "sources": [
+      {
+        "source_id": "kawanishi_2020",
+        "page": 8,
+        "quote": "He was then a visiting researcher at Technische Hochschule Dresden, accidentally on vacation in Zurich."
+      }
+    ]
+  },
+  {
+    "id": "yagi_funded_saito",
+    "source": "hidetsugu_yagi",
+    "type": "member_of",
+    "target": "saito_ho_onkai",
+    "sources": [
+      {
+        "source_id": "kawanishi_2020",
+        "page": 19,
+        "quote": "In contrast, the Tohoku Faculty of Engineering acquired a large amount of funding from a foundation, Sait¯o H ¯o'onkai, between 1923 and 1945, which induced first-rate results, including Yagi's own invention of ultra-short wave directional antenna and the research on the ultra high￾frequency oscillation using magnetron."
+      }
+    ]
+  },
+  {
+    "id": "watanabe_colleague_yagi",
+    "source": "yasushi_watanabe",
+    "type": "collaborated_with",
+    "target": "hidetsugu_yagi",
+    "sources": [
+      {
+        "source_id": "kawanishi_2020",
+        "page": 14,
+        "quote": "Indeed, it was Yasushi Watanabe, a colleague of Yagi at Tohoku, who laid the foundations of Japanese semiconductor engineering after the war."
+      }
+    ]
+  },
+  {
+    "id": "nishina_helped_watanabe",
+    "source": "yoshio_nishina",
+    "type": "collaborated_with",
+    "target": "yasushi_watanabe",
+    "sources": [
+      {
+        "source_id": "kawanishi_2020",
+        "page": 14,
+        "quote": "With the help of Yoshio Nishina, the leading quantum physicist in Japan in the interwar period, Watanabe published some of his results between 1941 and 1943."
+      }
+    ]
+  },
+  {
+    "id": "compton_worked_mit",
+    "source": "karl_compton",
+    "type": "worked_at",
+    "target": "mit",
+    "event_id": "compton_mit_president",
+    "sources": [
+      {
+        "source_id": "kawanishi_2020",
+        "page": 19,
+        "quote": "The appointment of physicist Karl Compton as MIT's President in 1930 heralded its transformation into an institution for basic research and interactions between physics and engineering."
+      }
+    ]
+  }
+]

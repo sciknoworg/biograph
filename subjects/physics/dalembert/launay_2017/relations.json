@@ -1,0 +1,100 @@
+[
+  {
+    "id": "dalembert_born_paris",
+    "source": "jean_le_rond_dalembert",
+    "type": "born_in",
+    "target": "paris",
+    "event_id": "dalembert_birth",
+    "sources": [
+      {
+        "source_id": "launay_2017",
+        "page": 1,
+        "quote": "his birth in Paris on November 16, 1717"
+      }
+    ]
+  },
+  {
+    "id": "dalembert_submitted_academie",
+    "source": "jean_le_rond_dalembert",
+    "type": "published",
+    "target": "academie_des_sciences",
+    "event_id": "dalembert_academie_submission",
+    "sources": [
+      {
+        "source_id": "launay_2017",
+        "page": 1,
+        "quote": "in 1739, when he first submitted a work to the Académie des sciences under the name d'Alembert"
+      }
+    ]
+  },
+  {
+    "id": "destouches_guardian",
+    "source": "louis_camus_destouches",
+    "type": "mentored",
+    "target": "jean_le_rond_dalembert",
+    "note": "Acted as d'Alembert's guardian and visited the child frequently.",
+    "sources": [
+      {
+        "source_id": "launay_2017",
+        "page": 1,
+        "quote": "Louis Camus Destouches (1667–1726) – a lieutenant general of French artillery who visited the child frequently and acted as his guardian"
+      }
+    ]
+  },
+  {
+    "id": "dalembert_contact_destouches",
+    "source": "jean_le_rond_dalembert",
+    "type": "corresponded_with",
+    "target": "mme_destouches",
+    "note": "Maintained contact throughout his life.",
+    "sources": [
+      {
+        "source_id": "launay_2017",
+        "page": 1,
+        "quote": "D'Alembert maintained contact with Mme Destouches throughout his life"
+      }
+    ]
+  },
+  {
+    "id": "de_gua_name_suggestion",
+    "source": "jean_paul_de_gua",
+    "type": "met",
+    "target": "jean_le_rond_dalembert",
+    "note": "De Gua claimed it was upon his suggestion that D'Alembert adopted the name Le Rond d'Alembert.",
+    "sources": [
+      {
+        "source_id": "launay_2017",
+        "page": 1,
+        "quote": "De Gua's claim that it was upon his suggestion that D'Alembert adopted the name Le Rond d'Alembert"
+      }
+    ]
+  },
+  {
+    "id": "darenberg_potential_father",
+    "source": "leopold_philippe_charles_joseph_darenberg",
+    "type": "family_of",
+    "target": "jean_le_rond_dalembert",
+    "note": "Hypothesized as potential biological father; was in Paris when the child was conceived.",
+    "sources": [
+      {
+        "source_id": "launay_2017",
+        "page": 2,
+        "quote": "Leopold Philippe Charles Joseph d'Arenberg (1690–1754), Duke of Arenberg, could be a potential candidate for D'Alembert's father"
+      }
+    ]
+  },
+  {
+    "id": "voituret_wetnurse_daughter",
+    "source": "mme_voituret",
+    "type": "family_of",
+    "target": "jean_le_rond_dalembert",
+    "note": "Eldest daughter of d'Alembert's wet-nurse, mentioned in his will.",
+    "sources": [
+      {
+        "source_id": "launay_2017",
+        "page": 1,
+        "quote": "this research led to the identification of \"Mme Voituret\", mentioned in D'Alembert's will, as the eldest daughter of his wet-nurse"
+      }
+    ]
+  }
+]

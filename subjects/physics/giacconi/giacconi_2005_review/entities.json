@@ -1,0 +1,219 @@
+[
+  {
+    "id": "riccardo_giacconi",
+    "entity_type": "person",
+    "name": "Riccardo Giacconi",
+    "aliases": [
+      "Giacconi"
+    ],
+    "summary": "Nobel laureate physicist who founded X-ray astronomy and directed major observatories.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "university_of_milano",
+    "entity_type": "organization",
+    "name": "University of Milano",
+    "aliases": [
+      "University of Milan"
+    ],
+    "summary": "Italian university where Giacconi completed his thesis in elementary particle physics.",
+    "subtype": "university"
+  },
+  {
+    "id": "university_of_indiana",
+    "entity_type": "organization",
+    "name": "University of Indiana",
+    "aliases": [
+      "Indiana University"
+    ],
+    "summary": "US university where Giacconi worked on a Fulbright Fellowship.",
+    "subtype": "university"
+  },
+  {
+    "id": "american_science_and_engineering",
+    "entity_type": "organization",
+    "name": "American Science and Engineering",
+    "aliases": [
+      "ASE"
+    ],
+    "summary": "Research company in Cambridge, Massachusetts where Giacconi started X-ray astronomy.",
+    "subtype": "company"
+  },
+  {
+    "id": "nasa",
+    "entity_type": "organization",
+    "name": "NASA",
+    "aliases": [
+      "National Aeronautics and Space Administration"
+    ],
+    "summary": "US space agency that funded Giacconi's satellite programs.",
+    "subtype": "government_agency"
+  },
+  {
+    "id": "harvard_university",
+    "entity_type": "organization",
+    "name": "Harvard University",
+    "aliases": [
+      "Harvard"
+    ],
+    "summary": "University where Giacconi became a Professor and moved his group.",
+    "subtype": "university"
+  },
+  {
+    "id": "smithsonian_astrophysical_observatory",
+    "entity_type": "organization",
+    "name": "Smithsonian Astrophysical Observatory",
+    "aliases": [
+      "SAO"
+    ],
+    "summary": "Observatory reorganized into the Center for Astrophysics with Harvard.",
+    "subtype": "observatory"
+  },
+  {
+    "id": "space_telescope_science_institute",
+    "entity_type": "organization",
+    "name": "Space Telescope Science Institute",
+    "aliases": [
+      "STScI"
+    ],
+    "summary": "Institute Giacconi directed starting in 1981.",
+    "subtype": "institute"
+  },
+  {
+    "id": "european_southern_observatory",
+    "entity_type": "organization",
+    "name": "European Southern Observatory",
+    "aliases": [
+      "ESO"
+    ],
+    "summary": "Observatory Giacconi directed during VLT construction.",
+    "subtype": "observatory"
+  },
+  {
+    "id": "associated_universities_incorporated",
+    "entity_type": "organization",
+    "name": "Associated Universities, Incorporated",
+    "aliases": [
+      "AUI"
+    ],
+    "summary": "Corporation Giacconi became President of in 1999.",
+    "subtype": "company"
+  },
+  {
+    "id": "bruno_rossi",
+    "entity_type": "person",
+    "name": "Bruno Rossi",
+    "aliases": [],
+    "summary": "Physicist who suggested Giacconi look at X-ray observations of celestial objects.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "herbert_gursky",
+    "entity_type": "person",
+    "name": "Herbert Gursky",
+    "aliases": [],
+    "summary": "Collaborator at ASE responsible for detectors.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "sco_x1",
+    "entity_type": "artifact",
+    "name": "Sco X-1",
+    "aliases": [],
+    "summary": "First extrasolar X-ray source discovered by Giacconi's team.",
+    "subtype": "astronomical_object"
+  },
+  {
+    "id": "uhuru",
+    "entity_type": "artifact",
+    "name": "Uhuru",
+    "aliases": [
+      "Small Astronomy Satellite"
+    ],
+    "summary": "X-ray astronomy satellite launched in 1970.",
+    "subtype": "satellite"
+  },
+  {
+    "id": "einstein_observatory",
+    "entity_type": "artifact",
+    "name": "Einstein Observatory",
+    "aliases": [
+      "HEAO-B"
+    ],
+    "summary": "X-ray telescope launched in 1979.",
+    "subtype": "telescope"
+  },
+  {
+    "id": "chandra",
+    "entity_type": "artifact",
+    "name": "Chandra",
+    "aliases": [
+      "Chandra Observatory",
+      "AXAF"
+    ],
+    "summary": "X-ray telescope launched in 2001.",
+    "subtype": "telescope"
+  },
+  {
+    "id": "hubble_space_telescope",
+    "entity_type": "artifact",
+    "name": "Hubble Space Telescope",
+    "aliases": [
+      "HST",
+      "Hubble"
+    ],
+    "summary": "Space telescope operated by STScI.",
+    "subtype": "telescope"
+  },
+  {
+    "id": "very_large_telescope",
+    "entity_type": "artifact",
+    "name": "Very Large Telescope",
+    "aliases": [
+      "VLT"
+    ],
+    "summary": "Optical ground-based telescope complex at ESO.",
+    "subtype": "telescope"
+  },
+  {
+    "id": "alma",
+    "entity_type": "artifact",
+    "name": "Atacama Large Millimeter Array",
+    "aliases": [
+      "ALMA"
+    ],
+    "summary": "Millimeter array project Giacconi was involved in.",
+    "subtype": "telescope"
+  },
+  {
+    "id": "nobel_prize_physics_2002",
+    "entity_type": "artifact",
+    "name": "Nobel Prize in Physics 2002",
+    "aliases": [],
+    "summary": "Award shared by Giacconi for discovery of cosmic X-ray sources.",
+    "subtype": "award"
+  },
+  {
+    "id": "genoa",
+    "entity_type": "place",
+    "name": "Genoa",
+    "aliases": [],
+    "summary": "City in Italy where Giacconi was born.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Italy"
+    }
+  },
+  {
+    "id": "cambridge_ma",
+    "entity_type": "place",
+    "name": "Cambridge",
+    "aliases": [],
+    "summary": "City in Massachusetts where ASE was located.",
+    "subtype": "city",
+    "attributes": {
+      "country": "United States",
+      "state": "Massachusetts"
+    }
+  }
+]

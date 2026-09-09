@@ -1,0 +1,296 @@
+[
+  {
+    "id": "birth_joe_waters",
+    "event_type": "birth",
+    "label": "Born in Clarksville, Tennessee",
+    "date": {
+      "display": "January 1944",
+      "precision": "month",
+      "sort_start": "1944-01-01",
+      "sort_end": "1944-01-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joe_william_waters",
+        "role": "subject"
+      }
+    ],
+    "location": "clarksville_tennessee",
+    "sources": [
+      {
+        "source_id": "siegel_2015",
+        "page": 1,
+        "quote": "Joe's father Jamie, was late bringing back the midwife on a frigid winter morning in January 1944, and so Joe's mother, Sarah, a local school teacher, handled the delivery of her ﬁrst born son on her own."
+      }
+    ]
+  },
+  {
+    "id": "enrollment_mit",
+    "event_type": "education",
+    "label": "Enrolled at MIT",
+    "date": {
+      "display": "fall of 1962",
+      "precision": "month",
+      "sort_start": "1962-09-01",
+      "sort_end": "1962-11-30"
+    },
+    "participants": [
+      {
+        "entity_id": "joe_william_waters",
+        "role": "subject"
+      },
+      {
+        "entity_id": "massachusetts_institute_of_technology",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "siegel_2015",
+        "page": 2,
+        "quote": "set off on his ﬁrst trip north of Kentucky on board a Greyhound bus bound for Boston (MA, USA) in the fall of 1962."
+      }
+    ]
+  },
+  {
+    "id": "ms_mit",
+    "event_type": "education",
+    "label": "Received MS degree from MIT",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joe_william_waters",
+        "role": "subject"
+      },
+      {
+        "entity_id": "massachusetts_institute_of_technology",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "siegel_2015",
+        "page": 21,
+        "quote": "Joe William Waters received the B.S. and M.S. degrees from the Massachusetts Institute of Technology, Cambridge, Massachusetts, USA, in 1967"
+      }
+    ]
+  },
+  {
+    "id": "phd_mit",
+    "event_type": "education",
+    "label": "Received PhD degree from MIT",
+    "date": {
+      "display": "1970",
+      "precision": "year",
+      "sort_start": "1970-01-01",
+      "sort_end": "1970-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joe_william_waters",
+        "role": "subject"
+      },
+      {
+        "entity_id": "massachusetts_institute_of_technology",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "siegel_2015",
+        "page": 3,
+        "quote": "Joe received his doctoral degree in Electrical Engineering from MIT in 1970."
+      }
+    ]
+  },
+  {
+    "id": "employment_jpl",
+    "event_type": "employment_start",
+    "label": "Started work at JPL",
+    "date": {
+      "display": "November 19, 1973",
+      "precision": "day",
+      "sort_start": "1973-11-19",
+      "sort_end": "1973-11-19"
+    },
+    "participants": [
+      {
+        "entity_id": "joe_william_waters",
+        "role": "subject"
+      },
+      {
+        "entity_id": "jet_propulsion_laboratory",
+        "role": "employer"
+      }
+    ],
+    "location": "pasadena_california",
+    "sources": [
+      {
+        "source_id": "siegel_2015",
+        "page": 4,
+        "quote": "Joe began work at JPL on November 19, 1973."
+      }
+    ]
+  },
+  {
+    "id": "nimbus_5_launch",
+    "event_type": "product_launch",
+    "label": "Nimbus-5 launched",
+    "description": "Waters was responsible for data retrieval algorithm and validation.",
+    "date": {
+      "display": "December 11, 1972",
+      "precision": "day",
+      "sort_start": "1972-12-11",
+      "sort_end": "1972-12-11"
+    },
+    "participants": [
+      {
+        "entity_id": "joe_william_waters",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "nimbus_5",
+        "role": "invention"
+      },
+      {
+        "entity_id": "nasa",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "siegel_2015",
+        "page": 3,
+        "quote": "Nimbus-5 launched on December 11, 1972, with a passive microwave radiometric instrument spanning ﬁve bands between 22 and 59 GHz."
+      }
+    ]
+  },
+  {
+    "id": "balloon_mls_first_flight",
+    "event_type": "public_demonstration",
+    "label": "First Balloon MLS flight",
+    "description": "Definitive detection of ClO and simultaneous measurement of ozone.",
+    "date": {
+      "display": "February 20, 1981",
+      "precision": "day",
+      "sort_start": "1981-02-20",
+      "sort_end": "1981-02-20"
+    },
+    "participants": [
+      {
+        "entity_id": "joe_william_waters",
+        "role": "subject"
+      },
+      {
+        "entity_id": "microwave_limb_sounder",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "siegel_2015",
+        "page": 7,
+        "quote": "The ﬁrst ﬂight was on February 20, 1981 from Palestine, Texas, USA."
+      }
+    ]
+  },
+  {
+    "id": "uars_launch",
+    "event_type": "product_launch",
+    "label": "UARS launched",
+    "description": "Carried the first satellite MLS instrument.",
+    "date": {
+      "display": "September 15, 1991",
+      "precision": "day",
+      "sort_start": "1991-09-15",
+      "sort_end": "1991-09-15"
+    },
+    "participants": [
+      {
+        "entity_id": "joe_william_waters",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "uars",
+        "role": "invention"
+      },
+      {
+        "entity_id": "nasa",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "siegel_2015",
+        "page": 8,
+        "quote": "UARS was launched at 23:11:04 GMT on September 15, 1991, by the Space Shuttle Discovery (STS-48)."
+      }
+    ]
+  },
+  {
+    "id": "eos_aura_launch",
+    "event_type": "product_launch",
+    "label": "EOS Aura launched",
+    "description": "Carried the EOS MLS instrument with 2.5 THz module.",
+    "date": {
+      "display": "July 15, 2004",
+      "precision": "day",
+      "sort_start": "2004-07-15",
+      "sort_end": "2004-07-15"
+    },
+    "participants": [
+      {
+        "entity_id": "joe_william_waters",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "eos_aura",
+        "role": "invention"
+      },
+      {
+        "entity_id": "nasa",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "siegel_2015",
+        "page": 11,
+        "quote": "EOS MLS was launched on the EOS Aura spacecraft on July 15, 2004, from Vandenberg Air Force base, Lompoc, CA, USA, on board a Delta rocket"
+      }
+    ]
+  },
+  {
+    "id": "retirement_joe_waters",
+    "event_type": "retirement",
+    "label": "Retired from JPL",
+    "date": {
+      "display": "2007",
+      "precision": "year",
+      "sort_start": "2007-01-01",
+      "sort_end": "2007-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joe_william_waters",
+        "role": "subject"
+      },
+      {
+        "entity_id": "jet_propulsion_laboratory",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "siegel_2015",
+        "page": 12,
+        "quote": "Joe retired from JPL in 2007 and turned his MLS Principal Investigator position over to Nathaniel, his science group supervisor position over to Michelle Santee, and his engineering group supervisor position over to Paul Stek."
+      }
+    ]
+  }
+]

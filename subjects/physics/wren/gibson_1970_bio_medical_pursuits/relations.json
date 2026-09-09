@@ -1,0 +1,140 @@
+[
+  {
+    "id": "wren_born_windsor",
+    "source": "christopher_wren",
+    "type": "born_in",
+    "target": "windsor",
+    "sources": [
+      {
+        "source_id": "gibson_1970_bio_medical_pursuits",
+        "page": 1,
+        "quote": "for he was a child of six years, at Windsor, when in 1638 his friend and mentor there, the Reverend John Wilkins published his famous Discovery of a World in the Moon."
+      }
+    ]
+  },
+  {
+    "id": "wren_studied_wadham",
+    "source": "christopher_wren",
+    "type": "studied_at",
+    "target": "wadham_college",
+    "event_id": "wren_wadham_entry",
+    "sources": [
+      {
+        "source_id": "gibson_1970_bio_medical_pursuits",
+        "page": 6,
+        "quote": "To return to Oxford we find Christopher Wren, at the age of seventeen, entering Wadham College."
+      }
+    ]
+  },
+  {
+    "id": "wren_worked_all_souls",
+    "source": "christopher_wren",
+    "type": "worked_at",
+    "target": "all_souls_college",
+    "event_id": "wren_all_souls_fellow",
+    "sources": [
+      {
+        "source_id": "gibson_1970_bio_medical_pursuits",
+        "page": 6,
+        "quote": "found Wren a newly-elected Fellow of All Souls"
+      }
+    ]
+  },
+  {
+    "id": "wren_worked_gresham",
+    "source": "christopher_wren",
+    "type": "worked_at",
+    "target": "gresham_college",
+    "event_id": "wren_gresham_professor",
+    "sources": [
+      {
+        "source_id": "gibson_1970_bio_medical_pursuits",
+        "page": 8,
+        "quote": "Wren was being transferred to London as the youthful Gresham Professor of Astronomy."
+      }
+    ]
+  },
+  {
+    "id": "wren_founded_royal_society",
+    "source": "christopher_wren",
+    "type": "founded",
+    "target": "royal_society",
+    "event_id": "royal_society_founding",
+    "sources": [
+      {
+        "source_id": "gibson_1970_bio_medical_pursuits",
+        "page": 8,
+        "quote": "fourteen men, of whom a good proportion were physicians, met to form the Royal Society."
+      }
+    ]
+  },
+  {
+    "id": "wren_worked_oxford",
+    "source": "christopher_wren",
+    "type": "worked_at",
+    "target": "oxford_university",
+    "event_id": "wren_savilian_professor",
+    "sources": [
+      {
+        "source_id": "gibson_1970_bio_medical_pursuits",
+        "page": 8,
+        "quote": "Wren was appointed Savilian Professor of Astronomy at Oxford"
+      }
+    ]
+  },
+  {
+    "id": "wren_collaborated_willis",
+    "source": "christopher_wren",
+    "type": "collaborated_with",
+    "target": "thomas_willis",
+    "event_id": "wren_cerebri_anatome",
+    "sources": [
+      {
+        "source_id": "gibson_1970_bio_medical_pursuits",
+        "page": 9,
+        "quote": "Wren drew the illustrations for much of Willis's great book Cerebri Anatome."
+      }
+    ]
+  },
+  {
+    "id": "wren_collaborated_boyle",
+    "source": "christopher_wren",
+    "type": "collaborated_with",
+    "target": "robert_boyle",
+    "event_id": "wren_iv_injection",
+    "sources": [
+      {
+        "source_id": "gibson_1970_bio_medical_pursuits",
+        "page": 7,
+        "quote": "Having told Wilkins and Boyle of this hope, Wren made the great forward leap"
+      }
+    ]
+  },
+  {
+    "id": "wren_mentored_scarburgh",
+    "source": "charles_scarburgh",
+    "type": "mentored",
+    "target": "christopher_wren",
+    "sources": [
+      {
+        "source_id": "gibson_1970_bio_medical_pursuits",
+        "page": 2,
+        "quote": "Scarburgh suggested that Wren should translate into Latin, the chapter in William Oughtred's Clavis Mathematicae on 'dialing'"
+      }
+    ]
+  },
+  {
+    "id": "wren_invented_iv",
+    "source": "christopher_wren",
+    "type": "invented",
+    "target": "christopher_wren",
+    "note": "Self-relation for invention event, typically mapped to artifact but here kept as event link",
+    "sources": [
+      {
+        "source_id": "gibson_1970_bio_medical_pursuits",
+        "page": 7,
+        "quote": "the invention of intra-venous therapy"
+      }
+    ]
+  }
+]

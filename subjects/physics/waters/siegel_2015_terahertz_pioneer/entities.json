@@ -1,0 +1,162 @@
+[
+  {
+    "aliases": [
+      "Joe",
+      "Joe W. Waters",
+      "Joe Waters"
+    ],
+    "entity_type": "person",
+    "id": "joe_william_waters",
+    "name": "Joe William Waters",
+    "subtype": "researcher",
+    "summary": "Physicist and engineer known for microwave remote sensing of Earth's atmosphere and development of the Microwave Limb Sounder."
+  },
+  {
+    "aliases": [
+      "Peter Siegel",
+      "P. H. Siegel"
+    ],
+    "entity_type": "person",
+    "id": "peter_h_siegel",
+    "name": "Peter H. Siegel",
+    "subtype": "researcher",
+    "summary": "Author of the biographical article and colleague at Caltech/JPL."
+  },
+  {
+    "entity_type": "person",
+    "id": "jamie_waters",
+    "name": "Jamie Waters",
+    "subtype": "family",
+    "summary": "Father of Joe William Waters, a farmer."
+  },
+  {
+    "entity_type": "person",
+    "id": "sarah_waters",
+    "name": "Sarah Waters",
+    "subtype": "family",
+    "summary": "Mother of Joe William Waters, a local school teacher."
+  },
+  {
+    "aliases": [
+      "David Staelin",
+      "D. H. Staelin",
+      "Dave"
+    ],
+    "entity_type": "person",
+    "id": "dave_staelin",
+    "name": "Dave Staelin",
+    "subtype": "researcher",
+    "summary": "MIT professor and Joe Waters' PhD supervisor and lifelong mentor."
+  },
+  {
+    "aliases": [
+      "A. H. Barrett",
+      "Alan H. Barrett"
+    ],
+    "entity_type": "person",
+    "id": "alan_barrett",
+    "name": "Alan Barrett",
+    "subtype": "researcher",
+    "summary": "Founder of the MIT radio astronomy group and Waters' professor."
+  },
+  {
+    "aliases": [
+      "F. T. Barath",
+      "Frank T. Barath"
+    ],
+    "entity_type": "person",
+    "id": "frank_barath",
+    "name": "Frank Barath",
+    "subtype": "researcher",
+    "summary": "Microwave engineer at JPL who led instrument development for Nimbus-5."
+  },
+  {
+    "aliases": [
+      "MIT"
+    ],
+    "entity_type": "organization",
+    "id": "massachusetts_institute_of_technology",
+    "name": "Massachusetts Institute of Technology",
+    "subtype": "university",
+    "summary": "University where Waters earned his BS, MS, and PhD degrees."
+  },
+  {
+    "aliases": [
+      "JPL"
+    ],
+    "entity_type": "organization",
+    "id": "jet_propulsion_laboratory",
+    "name": "Jet Propulsion Laboratory",
+    "subtype": "lab",
+    "summary": "NASA research center where Waters worked from 1973 until retirement."
+  },
+  {
+    "aliases": [
+      "National Aeronautics and Space Administration"
+    ],
+    "entity_type": "organization",
+    "id": "nasa",
+    "name": "NASA",
+    "subtype": "agency",
+    "summary": "US space agency that funded and launched Waters' satellite instruments."
+  },
+  {
+    "attributes": {
+      "country": "USA",
+      "state": "Tennessee"
+    },
+    "entity_type": "place",
+    "id": "clarksville_tennessee",
+    "name": "Clarksville",
+    "subtype": "city",
+    "summary": "Birthplace of Joe William Waters."
+  },
+  {
+    "attributes": {
+      "country": "USA",
+      "state": "California"
+    },
+    "entity_type": "place",
+    "id": "pasadena_california",
+    "name": "Pasadena",
+    "subtype": "city",
+    "summary": "Location of JPL where Waters worked."
+  },
+  {
+    "entity_type": "artifact",
+    "id": "nimbus_5",
+    "name": "Nimbus-5",
+    "subtype": "satellite",
+    "summary": "NASA satellite launched in 1972 carrying a microwave spectrometer Waters worked on."
+  },
+  {
+    "aliases": [
+      "MLS"
+    ],
+    "entity_type": "artifact",
+    "id": "microwave_limb_sounder",
+    "name": "Microwave Limb Sounder",
+    "subtype": "instrument",
+    "summary": "Instrument series developed by Waters for measuring atmospheric composition."
+  },
+  {
+    "aliases": [
+      "UARS"
+    ],
+    "entity_type": "artifact",
+    "id": "uars",
+    "name": "Upper Atmosphere Research Satellite",
+    "subtype": "satellite",
+    "summary": "NASA satellite launched in 1991 carrying the first MLS instrument."
+  },
+  {
+    "aliases": [
+      "Aura"
+    ],
+    "entity_type": "artifact",
+    "id": "eos_aura",
+    "name": "EOS Aura",
+    "subtype": "satellite",
+    "summary": "NASA satellite launched in 2004 carrying the EOS MLS instrument."
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "dalembert_submitted_academie",
+    "source": "jean_le_rond_dalembert",
+    "type": "published",
+    "target": "academie_des_sciences",
+    "event_id": "dalembert_academie_submission",
+    "sources": [
+      {
+        "source_id": "launay_2017",
+        "page": 1,
+        "quote": "in 1739, when he first submitted a work to the Académie des sciences under the name d'Alembert"
+      }
+    ],
+    "_rejected_because": "'published' expects target entity_type artifact, but 'academie_des_sciences' is 'organization'"
+  }
+]

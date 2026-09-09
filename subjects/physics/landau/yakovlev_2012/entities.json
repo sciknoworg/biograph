@@ -1,0 +1,216 @@
+[
+  {
+    "aliases": [
+      "L. Landau",
+      "Landau",
+      "Lev Landau"
+    ],
+    "entity_type": "person",
+    "id": "lev_landau",
+    "name": "Lev D. Landau",
+    "subtype": "researcher",
+    "summary": "Soviet physicist known for contributions to quantum mechanics, condensed matter, and astrophysics."
+  },
+  {
+    "aliases": [
+      "Bohr"
+    ],
+    "entity_type": "person",
+    "id": "niels_bohr",
+    "name": "Niels Bohr",
+    "subtype": "researcher",
+    "summary": "Danish physicist who made foundational contributions to understanding atomic structure and quantum theory."
+  },
+  {
+    "aliases": [
+      "Rosenfeld",
+      "L. Rosenfeld"
+    ],
+    "entity_type": "person",
+    "id": "leon_rosenfeld",
+    "name": "Léon Rosenfeld",
+    "subtype": "researcher",
+    "summary": "Belgian-Danish physicist and collaborator of Niels Bohr."
+  },
+  {
+    "aliases": [
+      "Chadwick"
+    ],
+    "entity_type": "person",
+    "id": "james_chadwick",
+    "name": "James Chadwick",
+    "subtype": "researcher",
+    "summary": "British physicist who discovered the neutron in 1932."
+  },
+  {
+    "aliases": [
+      "Baade"
+    ],
+    "entity_type": "person",
+    "id": "walter_baade",
+    "name": "Walter Baade",
+    "subtype": "researcher",
+    "summary": "German astronomer who worked in the US and contributed to stellar evolution theory."
+  },
+  {
+    "aliases": [
+      "Zwicky",
+      "Prof. Fritz Zwicky"
+    ],
+    "entity_type": "person",
+    "id": "fritz_zwicky",
+    "name": "Fritz Zwicky",
+    "subtype": "researcher",
+    "summary": "Swiss physicist and astronomer who proposed the existence of neutron stars."
+  },
+  {
+    "aliases": [
+      "Frenkel",
+      "Yakov (or Jakob) I. Frenkel"
+    ],
+    "entity_type": "person",
+    "id": "yakov_frenkel",
+    "name": "Yakov I. Frenkel",
+    "subtype": "researcher",
+    "summary": "Soviet physicist and Landau's supervisor at Leningrad Physical Technical Institute."
+  },
+  {
+    "aliases": [
+      "Bronstein"
+    ],
+    "entity_type": "person",
+    "id": "matvei_bronstein",
+    "name": "Matvei P. Bronstein",
+    "subtype": "researcher",
+    "summary": "Soviet theoretical physicist and colleague of Landau."
+  },
+  {
+    "aliases": [
+      "Kapitsa"
+    ],
+    "entity_type": "person",
+    "id": "p_l_kapitsa",
+    "name": "P. L. Kapitsa",
+    "subtype": "researcher",
+    "summary": "Soviet physicist who defended Landau during his arrest."
+  },
+  {
+    "aliases": [
+      "Chandrasekhar"
+    ],
+    "entity_type": "person",
+    "id": "subrahmanyan_chandrasekhar",
+    "name": "Subrahmanyan Chandrasekhar",
+    "subtype": "researcher",
+    "summary": "Astrophysicist known for the Chandrasekhar limit of white dwarf mass."
+  },
+  {
+    "aliases": [
+      "Ivanenko"
+    ],
+    "entity_type": "person",
+    "id": "dmitry_ivanenko",
+    "name": "Dmitry Ivanenko",
+    "subtype": "researcher",
+    "summary": "Soviet physicist who proposed the proton-neutron model of atomic nuclei."
+  },
+  {
+    "aliases": [
+      "Stalin"
+    ],
+    "entity_type": "person",
+    "id": "joseph_stalin",
+    "name": "Joseph Stalin",
+    "subtype": "politician",
+    "summary": "Leader of the Soviet Union during Landau's arrest."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "leningrad_state_university",
+    "name": "Leningrad State University",
+    "subtype": "university",
+    "summary": "University where Landau graduated in 1927."
+  },
+  {
+    "aliases": [
+      "Ioffe Physical Technical Institute"
+    ],
+    "entity_type": "organization",
+    "id": "ioffe_physical_technical_institute",
+    "name": "Leningrad Physical Technical Institute",
+    "subtype": "lab",
+    "summary": "Research institute where Landau was appointed after graduation."
+  },
+  {
+    "aliases": [
+      "Niels Bohr Institute"
+    ],
+    "entity_type": "organization",
+    "id": "institute_for_theoretical_physics_copenhagen",
+    "name": "Institute for Theoretical Physics",
+    "subtype": "lab",
+    "summary": "Institute in Copenhagen where Bohr worked and Landau visited."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "copenhagen",
+    "name": "Copenhagen",
+    "subtype": "city",
+    "summary": "City in Denmark where Bohr's institute was located."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "zurich",
+    "name": "Zurich",
+    "subtype": "city",
+    "summary": "City in Switzerland where Landau wrote his 1931 paper."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "kharkov",
+    "name": "Kharkov",
+    "subtype": "city",
+    "summary": "City in Ukraine where Landau moved after returning from abroad."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "moscow",
+    "name": "Moscow",
+    "subtype": "city",
+    "summary": "Capital of the USSR where Landau was arrested."
+  },
+  {
+    "aliases": [
+      "Landau's 1932 paper",
+      "Phys. Z. Sowjetunion 1 285"
+    ],
+    "entity_type": "artifact",
+    "id": "landau_1932_paper",
+    "name": "On the theory of stars",
+    "subtype": "publication",
+    "summary": "Paper by Landau predicting dense stars and calculating white dwarf mass."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "nature_journal",
+    "name": "Nature",
+    "subtype": "publication",
+    "summary": "Scientific journal where Chadwick's discovery and pulsar discovery were published."
+  },
+  {
+    "aliases": [
+      "Phys. Z. Sowjetunion"
+    ],
+    "entity_type": "organization",
+    "id": "phys_z_sowjetunion",
+    "name": "Physikalische Zeitschrift der Sowjetunion",
+    "subtype": "publication",
+    "summary": "Soviet physical journal where Landau's 1932 paper was published."
+  }
+]

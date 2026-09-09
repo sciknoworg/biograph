@@ -1,0 +1,32 @@
+[
+  {
+    "id": "paczynski_aas",
+    "source": "bohdan_paczynski",
+    "type": "awarded",
+    "target": "american_astronomical_society",
+    "note": "Henry Russell Lectureship",
+    "sources": [
+      {
+        "source_id": "mao_2008_tribute",
+        "page": 2,
+        "quote": "he received many honors, including the Henry Russell Lectureship from the American Astronomical Society"
+      }
+    ],
+    "_rejected_because": "'awarded' expects target entity_type artifact, but 'american_astronomical_society' is 'organization'"
+  },
+  {
+    "id": "paczynski_ras",
+    "source": "bohdan_paczynski",
+    "type": "awarded",
+    "target": "royal_astronomical_society",
+    "note": "Gold medal",
+    "sources": [
+      {
+        "source_id": "mao_2008_tribute",
+        "page": 2,
+        "quote": "and the Gold medal from the Royal Astronomical Society"
+      }
+    ],
+    "_rejected_because": "'awarded' expects target entity_type artifact, but 'royal_astronomical_society' is 'organization'"
+  }
+]

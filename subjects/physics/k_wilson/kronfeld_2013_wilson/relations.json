@@ -1,0 +1,180 @@
+[
+  {
+    "id": "wilson_born_waltham",
+    "source": "kenneth_g_wilson",
+    "type": "born_in",
+    "target": "waltham_massachusetts",
+    "event_id": "wilson_birth",
+    "sources": [
+      {
+        "source_id": "kronfeld_2013",
+        "page": 2,
+        "quote": "Ken was born on June 8, 1936, to E. Bright and Emily (née Buckingham) Wilson in Waltham, Massachusetts."
+      }
+    ]
+  },
+  {
+    "id": "wilson_died_saco",
+    "source": "kenneth_g_wilson",
+    "type": "died_in",
+    "target": "saco_maine",
+    "event_id": "wilson_death",
+    "sources": [
+      {
+        "source_id": "kronfeld_2013",
+        "page": 2,
+        "quote": "Ken succumbed to lymphoma on June 15, 2013, in Saco, Maine [ 1, 2]."
+      }
+    ]
+  },
+  {
+    "id": "wilson_studied_harvard",
+    "source": "kenneth_g_wilson",
+    "type": "studied_at",
+    "target": "harvard_university",
+    "event_id": "wilson_harvard_math",
+    "sources": [
+      {
+        "source_id": "kronfeld_2013",
+        "page": 2,
+        "quote": "Ken went to Harvard, where he majored in mathematics, even though he had decided as a teenager to be a physicist."
+      }
+    ]
+  },
+  {
+    "id": "wilson_studied_caltech",
+    "source": "kenneth_g_wilson",
+    "type": "studied_at",
+    "target": "california_institute_of_technology",
+    "event_id": "wilson_caltech_phd_start",
+    "sources": [
+      {
+        "source_id": "kronfeld_2013",
+        "page": 2,
+        "quote": "In 1956, he went to CalTech to obtain his Ph. D. from Murray Gell-Mann."
+      }
+    ]
+  },
+  {
+    "id": "wilson_supervised_gellmann",
+    "source": "kenneth_g_wilson",
+    "type": "supervised_by",
+    "target": "murray_gell_mann",
+    "event_id": "wilson_caltech_phd_start",
+    "sources": [
+      {
+        "source_id": "kronfeld_2013",
+        "page": 2,
+        "quote": "In 1956, he went to CalTech to obtain his Ph. D. from Murray Gell-Mann."
+      }
+    ]
+  },
+  {
+    "id": "wilson_worked_cornell",
+    "source": "kenneth_g_wilson",
+    "type": "worked_at",
+    "target": "cornell_university",
+    "event_id": "wilson_cornell_faculty",
+    "sources": [
+      {
+        "source_id": "kronfeld_2013",
+        "page": 2,
+        "quote": "in 1963 Cornell offered Ken a faculty position unsolicited."
+      }
+    ]
+  },
+  {
+    "id": "wilson_worked_osu",
+    "source": "kenneth_g_wilson",
+    "type": "worked_at",
+    "target": "ohio_state_university",
+    "event_id": "wilson_osu_move",
+    "sources": [
+      {
+        "source_id": "kronfeld_2013",
+        "page": 6,
+        "quote": "In 1988, Ken moved to the Ohio State University, where he split his research time between light-front QCD [38] and social issues such as science education."
+      }
+    ]
+  },
+  {
+    "id": "wilson_collab_fisher",
+    "source": "kenneth_g_wilson",
+    "type": "collaborated_with",
+    "target": "michael_fisher",
+    "sources": [
+      {
+        "source_id": "kronfeld_2013",
+        "page": 3,
+        "quote": "With Michael Fisher, he introduced an expansion in spatial dimension d around 4 to compute critical exponents [17]."
+      }
+    ]
+  },
+  {
+    "id": "wilson_collab_kadanoff",
+    "source": "kenneth_g_wilson",
+    "type": "collaborated_with",
+    "target": "leo_kadanoff",
+    "sources": [
+      {
+        "source_id": "kronfeld_2013",
+        "page": 5,
+        "quote": "Fisher, Kadanoff, and Wilson had shared the 1980 Wolf Prize, and many just assumed that they would receive the Nobel in due course."
+      }
+    ]
+  },
+  {
+    "id": "wilson_collab_lepage",
+    "source": "kenneth_g_wilson",
+    "type": "collaborated_with",
+    "target": "peter_lepage",
+    "sources": [
+      {
+        "source_id": "kronfeld_2013",
+        "page": 2,
+        "quote": "we collaborated with Peter Lepage and others on algorithms for lattice gauge theory."
+      }
+    ]
+  },
+  {
+    "id": "wilson_awarded_nobel",
+    "source": "kenneth_g_wilson",
+    "type": "awarded",
+    "target": "nobel_prize_physics",
+    "event_id": "wilson_nobel_prize",
+    "sources": [
+      {
+        "source_id": "kronfeld_2013",
+        "page": 3,
+        "quote": "Eight years later, upon receiving the Nobel Prize in physics, Ken referred to the Kondo problem as an important application of the renormalization group beyond critical phenomena [28]."
+      }
+    ]
+  },
+  {
+    "id": "wilson_awarded_wolf",
+    "source": "kenneth_g_wilson",
+    "type": "awarded",
+    "target": "wolf_prize",
+    "event_id": "wilson_wolf_prize",
+    "sources": [
+      {
+        "source_id": "kronfeld_2013",
+        "page": 5,
+        "quote": "Fisher, Kadanoff, and Wilson had shared the 1980 Wolf Prize, and many just assumed that they would receive the Nobel in due course."
+      }
+    ]
+  },
+  {
+    "id": "wilson_invented_wilson_loop",
+    "source": "kenneth_g_wilson",
+    "type": "invented",
+    "target": "wilson_loop",
+    "sources": [
+      {
+        "source_id": "kronfeld_2013",
+        "page": 3,
+        "quote": "The resulting paper is the watershed marking the start of lattice gauge theory [26]: it gave a simple picture of conﬁnement, based on a theoretical tool now known throughout the study of gauge ﬁeld theory as the \"Wilson loop.\""
+      }
+    ]
+  }
+]

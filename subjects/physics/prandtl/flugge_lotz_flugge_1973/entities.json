@@ -1,0 +1,206 @@
+[
+  {
+    "id": "ludwig_prandtl",
+    "entity_type": "person",
+    "name": "Ludwig Prandtl",
+    "aliases": [
+      "L. Prandtl",
+      "Prandtl"
+    ],
+    "summary": "German physicist and engineer, pioneer of modern fluid mechanics and aerodynamics.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "irmgard_flugge_lots",
+    "entity_type": "person",
+    "name": "Irmgard Fliigge-Lotz",
+    "aliases": [
+      "I. F.-L.",
+      "Irmgard Fliigge-Lotz"
+    ],
+    "summary": "German-American mathematician and engineer, author of this reminiscence.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "wilhelm_flugge",
+    "entity_type": "person",
+    "name": "Wilhelm Fliigge",
+    "aliases": [
+      "W. F.",
+      "Wilhelm Fliigge"
+    ],
+    "summary": "German-American engineer and co-author of this reminiscence.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "a_betz",
+    "entity_type": "person",
+    "name": "A. Betz",
+    "aliases": [
+      "Albert Betz",
+      "Professor A. Betz"
+    ],
+    "summary": "German physicist and long-time colleague of Prandtl at Gottingen.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "university_of_gottingen",
+    "entity_type": "organization",
+    "name": "University of Gottingen",
+    "aliases": [
+      "Gottingen",
+      "University"
+    ],
+    "summary": "German university where Prandtl held a professorship.",
+    "subtype": "university"
+  },
+  {
+    "id": "kaiser_wilhelm_institut",
+    "entity_type": "organization",
+    "name": "Kaiser-Wilhelm-Institut",
+    "aliases": [
+      "KWI",
+      "Max-Planck-Institut"
+    ],
+    "summary": "Research institute for fluid dynamics directed by Prandtl.",
+    "subtype": "lab"
+  },
+  {
+    "id": "aerodynamische_versuchsanstalt",
+    "entity_type": "organization",
+    "name": "Aerodynamische Versuchsanstalt",
+    "aliases": [
+      "AVA"
+    ],
+    "summary": "Financially independent wind tunnel facility associated with Prandtl's institute.",
+    "subtype": "lab"
+  },
+  {
+    "id": "institute_for_applied_mechanics",
+    "entity_type": "organization",
+    "name": "Institute for Applied Mechanics",
+    "aliases": [
+      "Applied Mechanics Institute"
+    ],
+    "summary": "University institute where Prandtl started his work in Gottingen.",
+    "subtype": "lab"
+  },
+  {
+    "id": "mathematics_institute_gottingen",
+    "entity_type": "organization",
+    "name": "Mathematics Institute",
+    "aliases": [],
+    "summary": "Institute building where Prandtl's seminars took place.",
+    "subtype": "lab"
+  },
+  {
+    "id": "rockefeller_foundation",
+    "entity_type": "organization",
+    "name": "Rockefeller Foundation",
+    "aliases": [],
+    "summary": "Foundation that provided funding for the Mathematics Institute building.",
+    "subtype": "company"
+  },
+  {
+    "id": "ludwig_foppl",
+    "entity_type": "person",
+    "name": "Ludwig Föppl",
+    "aliases": [],
+    "summary": "Professor of mechanics, father of Mrs. Prandtl.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "mrs_prandtl",
+    "entity_type": "person",
+    "name": "Mrs. Prandtl",
+    "aliases": [],
+    "summary": "Wife of Ludwig Prandtl and daughter of Ludwig Föppl.",
+    "subtype": "person"
+  },
+  {
+    "id": "tokyo",
+    "entity_type": "place",
+    "name": "Tokyo",
+    "aliases": [],
+    "summary": "City in Japan where Prandtl attended an engineering congress.",
+    "subtype": "city"
+  },
+  {
+    "id": "mariaspring",
+    "entity_type": "place",
+    "name": "Mariaspring",
+    "aliases": [],
+    "summary": "Coffee-garden restaurant near Gottingen visited by Prandtl's group.",
+    "subtype": "facility"
+  },
+  {
+    "id": "a_nadai",
+    "entity_type": "person",
+    "name": "A. Nädai",
+    "aliases": [
+      "A. Nlidai"
+    ],
+    "summary": "Authority on plasticity and former assistant at Prandtl's institute.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "w_prager",
+    "entity_type": "person",
+    "name": "W. Prager",
+    "aliases": [],
+    "summary": "Assistant at the Institute for Applied Mechanics in the early 1930s.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "a_busemann",
+    "entity_type": "person",
+    "name": "A. Busemann",
+    "aliases": [],
+    "summary": "Researcher who built the rotating laboratory at Gottingen.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "clark_millikan",
+    "entity_type": "person",
+    "name": "Clark Millikan",
+    "aliases": [],
+    "summary": "American scientist who spent a year at Gottingen before the Nazi years.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "h_reichardt",
+    "entity_type": "person",
+    "name": "H. Reichardt",
+    "aliases": [],
+    "summary": "Researcher who investigated turbulence in a big air channel.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "l_v_seebach",
+    "entity_type": "person",
+    "name": "L. v. Seebach",
+    "aliases": [
+      "Miss L. v. Seebach"
+    ],
+    "summary": "Prandtl's long-time secretary.",
+    "subtype": "person"
+  },
+  {
+    "id": "f_schultz_grunow",
+    "entity_type": "person",
+    "name": "F. Schultz-Grunow",
+    "aliases": [],
+    "summary": "Professor in Aachen who handled consulting billing for Prandtl.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "german_airforce",
+    "entity_type": "organization",
+    "name": "German Airforce",
+    "aliases": [
+      "new German airforce"
+    ],
+    "summary": "Military organization that supported the Fluid Mechanics Institute after 1933.",
+    "subtype": "organization"
+  }
+]

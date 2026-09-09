@@ -1,0 +1,151 @@
+[
+  {
+    "id": "everett_death_1982",
+    "event_type": "death",
+    "label": "Died of heart attack",
+    "description": "Died aged 51, likely contributed to by chain smoking, alcoholism, and depression.",
+    "date": {
+      "display": "1982",
+      "precision": "year",
+      "sort_start": "1982-01-01",
+      "sort_end": "1982-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "hugh_everett_iii",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kent_review_everett",
+        "page": 1,
+        "quote": "He died sadly early, in 1982, aged 51, of a heart attack to which his chain smoking, alcoholism, fondness for rich food and depression most likely contributed"
+      }
+    ]
+  },
+  {
+    "id": "deutsch_everett_austin_1977",
+    "event_type": "meeting",
+    "label": "Deutsch inspired by Everett at Austin",
+    "description": "David Deutsch was directly inspired by Everett through lectures and conversations.",
+    "date": {
+      "display": "1977",
+      "precision": "year",
+      "sort_start": "1977-01-01",
+      "sort_end": "1977-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "david_deutsch",
+        "role": "participant"
+      },
+      {
+        "entity_id": "hugh_everett_iii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_austin",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kent_review_everett",
+        "page": 1,
+        "quote": "David Deutsch, one of the founders of the theory of quantum computing -- and one younger physicist who deﬁnitely was directly inspired by Everett, through lectures and conversations at the University of Austin in 1977"
+      }
+    ]
+  },
+  {
+    "id": "everett_podolsky_conference_1962",
+    "event_type": "conference",
+    "label": "Everett and Podolsky agree on worlds",
+    "description": "Conference transcript recording agreement on uncountably infinite distinct worlds.",
+    "date": {
+      "display": "1962",
+      "precision": "year",
+      "sort_start": "1962-01-01",
+      "sort_end": "1962-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "hugh_everett_iii",
+        "role": "participant"
+      },
+      {
+        "entity_id": "podolsky",
+        "role": "participant"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kent_review_everett",
+        "page": 2,
+        "quote": "Byrne digs out an intriguing 1962 conference transcript recording Everett and Podolsky agreeing that the number of distinct worlds in the universal wave function should be not just inﬁnite, but uncountably inﬁnite."
+      }
+    ]
+  },
+  {
+    "id": "dewitt_graham_book_1973",
+    "event_type": "publication",
+    "label": "DeWitt and Graham volume published",
+    "description": "Everett's personal copy found with annotations.",
+    "date": {
+      "display": "1973",
+      "precision": "year",
+      "sort_start": "1973-01-01",
+      "sort_end": "1973-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bryce_dewitt",
+        "role": "author"
+      },
+      {
+        "entity_id": "the_many_worlds_interpretation_of_quantum_mechanics",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kent_review_everett",
+        "page": 2,
+        "quote": "One of the remarkable discoveries Byrne reports is  Everett's personal copy of DeWitt and Graham's 1973 volume, \"The Many Worlds Interpretation of Quantum Mechanics\", found by a correspondent in a second-hand bookshop."
+      }
+    ]
+  },
+  {
+    "id": "byrne_biography_2010",
+    "event_type": "publication",
+    "label": "Byrne's biography published",
+    "description": "Biography reviewed by Adrian Kent.",
+    "date": {
+      "display": "2010",
+      "precision": "year",
+      "sort_start": "2010-01-01",
+      "sort_end": "2010-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "peter_byrne",
+        "role": "author"
+      },
+      {
+        "entity_id": "the_many_worlds_of_hugh_everett_iii",
+        "role": "invention"
+      },
+      {
+        "entity_id": "oxford_university_press",
+        "role": "publisher"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kent_review_everett",
+        "page": 4,
+        "quote": "References  [1] The Many Worlds of Hugh Everett III: Multiple Universes, Mutual Assured Destruction, and the Meltdown of a Nuclear Family. Peter Byrne.  368 pp. Oxford University Press, (2010)."
+      }
+    ]
+  }
+]

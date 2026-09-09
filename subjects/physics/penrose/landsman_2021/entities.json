@@ -1,0 +1,167 @@
+[
+  {
+    "id": "roger_penrose",
+    "entity_type": "person",
+    "name": "Roger Penrose",
+    "aliases": [
+      "Penrose",
+      "Sir Roger Penrose"
+    ],
+    "summary": "British mathematical physicist known for contributions to general relativity and cosmology.",
+    "subtype": "researcher",
+    "attributes": {
+      "nationality": "British"
+    }
+  },
+  {
+    "id": "klaas_landsman",
+    "entity_type": "person",
+    "name": "Klaas Landsman",
+    "aliases": [
+      "Landsman"
+    ],
+    "summary": "Mathematician and author of the tribute article.",
+    "subtype": "researcher",
+    "attributes": {
+      "affiliation": "Radboud University"
+    }
+  },
+  {
+    "id": "stephen_hawking",
+    "entity_type": "person",
+    "name": "Stephen Hawking",
+    "aliases": [
+      "Hawking"
+    ],
+    "summary": "Theoretical physicist and collaborator of Penrose.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "yvonne_choquet_bruhat",
+    "entity_type": "person",
+    "name": "Yvonne Choquet-Bruhat",
+    "aliases": [
+      "Choquet-Bruhat"
+    ],
+    "summary": "Mathematician noted for work on the Cauchy problem in general relativity.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "erik_curiel",
+    "entity_type": "person",
+    "name": "Erik Curiel",
+    "aliases": [
+      "Curiel"
+    ],
+    "summary": "Philosopher of physics who contributed the appendix on black hole history.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "radboud_university",
+    "entity_type": "organization",
+    "name": "Radboud University",
+    "aliases": [
+      "Radboud University Nijmegen"
+    ],
+    "summary": "University in Nijmegen, Netherlands.",
+    "subtype": "university",
+    "attributes": {
+      "country": "Netherlands"
+    }
+  },
+  {
+    "id": "cambridge_university",
+    "entity_type": "organization",
+    "name": "Cambridge University",
+    "aliases": [
+      "Cambridge"
+    ],
+    "summary": "University in Cambridge, UK, where Penrose studied.",
+    "subtype": "university",
+    "attributes": {
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": "nobel_prize_physics_2020",
+    "entity_type": "artifact",
+    "name": "2020 Nobel Prize in Physics",
+    "aliases": [
+      "Nobel Prize",
+      "Physics Nobel Prize"
+    ],
+    "summary": "Award given for discoveries in physics.",
+    "subtype": "award"
+  },
+  {
+    "id": "penrose_1965_paper",
+    "entity_type": "artifact",
+    "name": "Gravitational collapse and space–time singularities",
+    "aliases": [
+      "Penrose 1965",
+      "1965 singularity theorem"
+    ],
+    "summary": "Paper introducing the singularity theorem.",
+    "subtype": "publication"
+  },
+  {
+    "id": "penrose_1969_paper",
+    "entity_type": "artifact",
+    "name": "Gravitational collapse: the role of general relativity",
+    "aliases": [
+      "Penrose 1969",
+      "Rivista del Nuovo Cimento 1969"
+    ],
+    "summary": "Paper discussing gravitational collapse and cosmic censorship.",
+    "subtype": "publication"
+  },
+  {
+    "id": "penrose_1979_paper",
+    "entity_type": "artifact",
+    "name": "Singularities and time-asymmetry",
+    "aliases": [
+      "Penrose 1979"
+    ],
+    "summary": "Paper formulating cosmic censorship conjectures.",
+    "subtype": "publication"
+  },
+  {
+    "id": "cosmic_censorship_conjecture",
+    "entity_type": "artifact",
+    "name": "Cosmic Censorship Conjecture",
+    "aliases": [
+      "Cosmic Censorship"
+    ],
+    "summary": "Conjecture forbidding naked singularities.",
+    "subtype": "theory"
+  },
+  {
+    "id": "singularity_theorem",
+    "entity_type": "artifact",
+    "name": "Penrose Singularity Theorem",
+    "aliases": [
+      "Singularity Theorem"
+    ],
+    "summary": "Theorem proving existence of singularities in gravitational collapse.",
+    "subtype": "theory"
+  },
+  {
+    "id": "penrose_diagrams",
+    "entity_type": "artifact",
+    "name": "Penrose Diagrams",
+    "aliases": [
+      "Conformal diagrams",
+      "Penrose–Carter diagrams"
+    ],
+    "summary": "Diagrams visualizing causal structure of spacetime.",
+    "subtype": "tool"
+  },
+  {
+    "id": "foundations_of_physics",
+    "entity_type": "artifact",
+    "name": "Foundations of Physics",
+    "aliases": [],
+    "summary": "Journal publishing the tribute article.",
+    "subtype": "publication"
+  }
+]

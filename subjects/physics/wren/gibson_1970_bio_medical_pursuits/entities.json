@@ -1,0 +1,217 @@
+[
+  {
+    "aliases": [
+      "Mr. Christopher Wren",
+      "Sir Christopher Wren",
+      "Wren"
+    ],
+    "entity_type": "person",
+    "id": "christopher_wren",
+    "name": "Christopher Wren",
+    "subtype": "researcher",
+    "summary": "English architect, astronomer, mathematician, and anatomist known for St. Paul's Cathedral and contributions to the Royal Society."
+  },
+  {
+    "aliases": [
+      "Scarburgh",
+      "Sir Charles Scarburgh",
+      "Dr. Scarburgh"
+    ],
+    "entity_type": "person",
+    "id": "charles_scarburgh",
+    "name": "Charles Scarburgh",
+    "subtype": "researcher",
+    "summary": "English physician and anatomist who taught Wren and succeeded Harvey as Lumleian Lecturer."
+  },
+  {
+    "aliases": [
+      "Willis",
+      "Dr. Thomas Willis",
+      "Dr. Willins"
+    ],
+    "entity_type": "person",
+    "id": "thomas_willis",
+    "name": "Thomas Willis",
+    "subtype": "researcher",
+    "summary": "English physician and founding member of the Royal Society known for work on neurology and the Circle of Willis."
+  },
+  {
+    "aliases": [
+      "Boyle"
+    ],
+    "entity_type": "person",
+    "id": "robert_boyle",
+    "name": "Robert Boyle",
+    "subtype": "researcher",
+    "summary": "Anglo-Irish natural philosopher and chemist known for Boyle's Law and foundational work in chemistry and physics."
+  },
+  {
+    "aliases": [
+      "Harvey"
+    ],
+    "entity_type": "person",
+    "id": "william_harvey",
+    "name": "William Harvey",
+    "subtype": "researcher",
+    "summary": "English physician who made seminal contributions in anatomy and physiology, particularly the circulation of blood."
+  },
+  {
+    "aliases": [
+      "Wilkins",
+      "Reverend John Wilkins",
+      "Dr. Wilkins",
+      "Warden Wilkins"
+    ],
+    "entity_type": "person",
+    "id": "john_wilkins",
+    "name": "John Wilkins",
+    "subtype": "researcher",
+    "summary": "English clergyman and natural philosopher, Warden of Wadham College and founder of the Royal Society."
+  },
+  {
+    "aliases": [
+      "Lower",
+      "Dr. Richard Lower"
+    ],
+    "entity_type": "person",
+    "id": "richard_lower",
+    "name": "Richard Lower",
+    "subtype": "researcher",
+    "summary": "English physician who performed the first blood transfusion and worked with Willis on neurology."
+  },
+  {
+    "aliases": [
+      "Hooke",
+      "Dr. Hooke"
+    ],
+    "entity_type": "person",
+    "id": "robert_hooke",
+    "name": "Robert Hooke",
+    "subtype": "researcher",
+    "summary": "English natural philosopher and architect known for Hooke's Law and Micrographia."
+  },
+  {
+    "aliases": [
+      "Wadham"
+    ],
+    "entity_type": "organization",
+    "id": "wadham_college",
+    "name": "Wadham College",
+    "subtype": "university",
+    "summary": "Constituent college of the University of Oxford where Wren studied and Wilkins was Warden."
+  },
+  {
+    "aliases": [
+      "All Souls"
+    ],
+    "entity_type": "organization",
+    "id": "all_souls_college",
+    "name": "All Souls College",
+    "subtype": "university",
+    "summary": "Constituent college of the University of Oxford where Wren was a Fellow."
+  },
+  {
+    "aliases": [
+      "the Royal Society",
+      "the Society"
+    ],
+    "entity_type": "organization",
+    "id": "royal_society",
+    "name": "Royal Society",
+    "subtype": "organization",
+    "summary": "Learned society for science founded in London in 1660, of which Wren was a founder and President."
+  },
+  {
+    "aliases": [
+      "Gresham"
+    ],
+    "entity_type": "organization",
+    "id": "gresham_college",
+    "name": "Gresham College",
+    "subtype": "university",
+    "summary": "Institution of higher learning in London where Wren served as Professor of Astronomy."
+  },
+  {
+    "aliases": [
+      "Oxford"
+    ],
+    "entity_type": "organization",
+    "id": "oxford_university",
+    "name": "Oxford University",
+    "subtype": "university",
+    "summary": "Collegiate research university in Oxford, England, where Wren studied and held professorships."
+  },
+  {
+    "aliases": [
+      "Westminster"
+    ],
+    "entity_type": "organization",
+    "id": "westminster_school",
+    "name": "Westminster School",
+    "subtype": "university",
+    "summary": "Independent boarding school in London where Wren was educated before Oxford."
+  },
+  {
+    "aliases": [
+      "Willis's great book Cerebri Anatome"
+    ],
+    "entity_type": "artifact",
+    "id": "cerebri_anatome",
+    "name": "Cerebri Anatome",
+    "subtype": "publication",
+    "summary": "1664 anatomical work by Thomas Willis featuring illustrations by Christopher Wren."
+  },
+  {
+    "aliases": [
+      "Micrographia, or Physiological Descriptions of Minute Bodies"
+    ],
+    "entity_type": "artifact",
+    "id": "micrographia",
+    "name": "Micrographia",
+    "subtype": "publication",
+    "summary": "1665 book by Robert Hooke on microscopy, acknowledging Wren's pioneer work in the field."
+  },
+  {
+    "aliases": [
+      "the Sheldonian Theatre"
+    ],
+    "entity_type": "artifact",
+    "id": "sheldonian_theatre",
+    "name": "Sheldonian Theatre",
+    "subtype": "product",
+    "summary": "Ceremonial hall of Oxford University designed by Christopher Wren."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "England"
+    },
+    "entity_type": "place",
+    "id": "windsor",
+    "name": "Windsor",
+    "subtype": "city",
+    "summary": "Town in Berkshire, England, where Wren spent his childhood."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "England"
+    },
+    "entity_type": "place",
+    "id": "london",
+    "name": "London",
+    "subtype": "city",
+    "summary": "Capital city of England, where Wren worked as Gresham Professor and built major structures."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "England"
+    },
+    "entity_type": "place",
+    "id": "oxford_city",
+    "name": "Oxford",
+    "subtype": "city",
+    "summary": "City in Oxfordshire, England, home to the university where Wren studied and taught."
+  }
+]

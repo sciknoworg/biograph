@@ -1,0 +1,168 @@
+[
+  {
+    "id": "birth_bekenstein",
+    "event_type": "birth",
+    "label": "Born in Mexico",
+    "date": {
+      "display": "1947",
+      "precision": "year",
+      "sort_start": "1947-01-01",
+      "sort_end": "1947-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jacob_bekenstein",
+        "role": "subject"
+      }
+    ],
+    "location": "mexico",
+    "sources": [
+      {
+        "source_id": "lahav_2019",
+        "page": 1,
+        "quote": "Jacob was born in Mexico in 1947."
+      }
+    ]
+  },
+  {
+    "id": "death_bekenstein",
+    "event_type": "death",
+    "label": "Died in Helsinki",
+    "description": "Passed away unexpectedly of a heart attack while visiting Helsinki.",
+    "date": {
+      "display": "16 August 2015",
+      "precision": "day",
+      "sort_start": "2015-08-16",
+      "sort_end": "2015-08-16"
+    },
+    "participants": [
+      {
+        "entity_id": "jacob_bekenstein",
+        "role": "subject"
+      }
+    ],
+    "location": "helsinki",
+    "sources": [
+      {
+        "source_id": "lahav_2019",
+        "page": 1,
+        "quote": "A sad email arrived that Jacob Bekenstein had passed away unexpectedly the previous day of a heart attack, while visiting Helsinki."
+      }
+    ]
+  },
+  {
+    "id": "msc_supervision_lahav",
+    "event_type": "employment_start",
+    "label": "Supervised Ofer Lahav's MSc",
+    "description": "Supervised Lahav for his MSc degree at Ben-Gurion University.",
+    "date": {
+      "display": "early 1980s",
+      "precision": "decade",
+      "sort_start": "1980-01-01",
+      "sort_end": "1984-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jacob_bekenstein",
+        "role": "employer"
+      },
+      {
+        "entity_id": "ofer_lahav",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ben_gurion_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lahav_2019",
+        "page": 1,
+        "quote": "I had the privilege to be supervised by him for my MSc degree back in Ben-Gurion University in Beer-Sheva Israel in the early 1980s."
+      }
+    ]
+  },
+  {
+    "id": "paper_1973",
+    "event_type": "publication",
+    "label": "Published influential Black Hole Entropy paper",
+    "date": {
+      "display": "1973",
+      "precision": "year",
+      "sort_start": "1973-01-01",
+      "sort_end": "1973-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jacob_bekenstein",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lahav_2019",
+        "page": 3,
+        "quote": "In his inﬂuential 1973 paper 2 Bekenstein wrote,"
+      }
+    ]
+  },
+  {
+    "id": "sabbatical_ucl",
+    "event_type": "visit",
+    "label": "Sabbatical visit to UCL",
+    "description": "Hosted by Ofer Lahav at University College London for four months.",
+    "date": {
+      "display": "2014",
+      "precision": "year",
+      "sort_start": "2014-01-01",
+      "sort_end": "2014-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jacob_bekenstein",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_college_london",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lahav_2019",
+        "page": 5,
+        "quote": "It was a pleasure to host Jacob and his wife Bilha in London for four months in 2014"
+      }
+    ]
+  },
+  {
+    "id": "phd_supervision_wheeler",
+    "event_type": "education",
+    "label": "PhD supervision by John Wheeler",
+    "description": "Wheeler asked his then PhD student Bekenstein about pouring tea into a Black Hole.",
+    "date": {
+      "display": "early 1970s",
+      "precision": "decade",
+      "sort_start": "1970-01-01",
+      "sort_end": "1974-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jacob_bekenstein",
+        "role": "subject"
+      },
+      {
+        "entity_id": "john_wheeler",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lahav_2019",
+        "page": 3,
+        "quote": "John Wheeler, one day in the early 1970s, allegedly asked his then PhD student Jacob Bekenstein,"
+      }
+    ]
+  }
+]

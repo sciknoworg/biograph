@@ -1,0 +1,70 @@
+[
+  {
+    "id": "lighthill_died_in_sark",
+    "source": "james_lighthill",
+    "type": "died_in",
+    "target": "sark",
+    "event_id": "lighthill_death",
+    "sources": [
+      {
+        "source_id": "crighton_1999_jfm_obituary",
+        "page": 1,
+        "quote": "James Lighthill died on 17 July 1998, at the end of a ten-hour swim round the Channel Island of Sark."
+      }
+    ]
+  },
+  {
+    "id": "lighthill_worked_at_jfm",
+    "source": "james_lighthill",
+    "type": "worked_at",
+    "target": "journal_of_fluid_mechanics",
+    "start": {
+      "display": "May 1956",
+      "precision": "month",
+      "sort_start": "1956-05-01",
+      "sort_end": "1956-05-31"
+    },
+    "end": {
+      "display": "June 1979",
+      "precision": "month",
+      "sort_start": "1979-06-01",
+      "sort_end": "1979-06-30"
+    },
+    "note": "Associate Editor",
+    "sources": [
+      {
+        "source_id": "crighton_1999_jfm_obituary",
+        "page": 1,
+        "quote": "Lighthill was an Associate Editor of JFM from its inception in May 1956 to the end of June 1979"
+      }
+    ]
+  },
+  {
+    "id": "lighthill_mentored_by_goldstein",
+    "source": "james_lighthill",
+    "type": "supervised_by",
+    "target": "sydney_goldstein",
+    "note": "Goldstein referred to as 'great mentor'",
+    "sources": [
+      {
+        "source_id": "crighton_1999_jfm_obituary",
+        "page": 2,
+        "quote": "his great mentor Sydney Goldstein"
+      }
+    ]
+  },
+  {
+    "id": "lighthill_collaborated_with_batchelor",
+    "source": "james_lighthill",
+    "type": "collaborated_with",
+    "target": "george_batchelor",
+    "note": "Editorial Team colleagues",
+    "sources": [
+      {
+        "source_id": "crighton_1999_jfm_obituary",
+        "page": 1,
+        "quote": "members of the JFM Editorial Team"
+      }
+    ]
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "id": "jacob_bekenstein",
+    "entity_type": "person",
+    "name": "Jacob Bekenstein",
+    "aliases": [
+      "Bekenstein",
+      "Jacob"
+    ],
+    "summary": "Physicist known for Black Hole Thermodynamics and TeVeS modified gravity theory.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "ofer_lahav",
+    "entity_type": "person",
+    "name": "Ofer Lahav",
+    "aliases": [
+      "Lahav"
+    ],
+    "summary": "Astrophysicist and author of this retrospective, former MSc student of Bekenstein.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "ben_gurion_university",
+    "entity_type": "organization",
+    "name": "Ben-Gurion University",
+    "aliases": [
+      "Ben-Gurion University in Beer-Sheva",
+      "Ben-Gurion University in Beer-Sheba"
+    ],
+    "summary": "University in Beer-Sheva, Israel, where Bekenstein worked and Lahav studied.",
+    "subtype": "university",
+    "attributes": {
+      "country": "Israel",
+      "city": "Beer-Sheva"
+    }
+  },
+  {
+    "id": "university_college_london",
+    "entity_type": "organization",
+    "name": "University College London",
+    "aliases": [
+      "UCL"
+    ],
+    "summary": "University in London where Lahav works and Bekenstein visited on sabbatical.",
+    "subtype": "university",
+    "attributes": {
+      "country": "UK",
+      "city": "London"
+    }
+  },
+  {
+    "id": "princeton_university",
+    "entity_type": "organization",
+    "name": "Princeton University",
+    "aliases": [
+      "Princeton"
+    ],
+    "summary": "University where Bekenstein studied.",
+    "subtype": "university",
+    "attributes": {
+      "country": "USA"
+    }
+  },
+  {
+    "id": "john_wheeler",
+    "entity_type": "person",
+    "name": "John Wheeler",
+    "aliases": [
+      "Wheeler"
+    ],
+    "summary": "Physicist who supervised Bekenstein's PhD.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "mexico",
+    "entity_type": "place",
+    "name": "Mexico",
+    "summary": "Country of Bekenstein's birth.",
+    "subtype": "country"
+  },
+  {
+    "id": "helsinki",
+    "entity_type": "place",
+    "name": "Helsinki",
+    "summary": "City where Bekenstein died.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Finland"
+    }
+  },
+  {
+    "id": "teves",
+    "entity_type": "artifact",
+    "name": "TeVeS",
+    "aliases": [
+      "Tensor, Vector, Scalar"
+    ],
+    "summary": "Modified gravity theory devised by Bekenstein to explain galaxy rotation curves without Dark Matter.",
+    "subtype": "theory"
+  },
+  {
+    "id": "israel",
+    "entity_type": "place",
+    "name": "Israel",
+    "summary": "Country Bekenstein immigrated to.",
+    "subtype": "country"
+  },
+  {
+    "id": "texas",
+    "entity_type": "place",
+    "name": "Texas",
+    "summary": "Location of Bekenstein's post-doctoral work.",
+    "subtype": "state",
+    "attributes": {
+      "country": "USA"
+    }
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "id": "karman_born_budapest",
+    "source": "theodore_von_karman",
+    "type": "born_in",
+    "target": "budapest",
+    "event_id": "karman_birth",
+    "sources": [
+      {
+        "source_id": "deak_2012_hundred_years",
+        "page": 1,
+        "quote": "Theodore von Kármán (his original Hungarian name: Kármán Tódor) (Budapest, May 11, 1881 – Aachen, May 7, 1963)"
+      }
+    ]
+  },
+  {
+    "id": "karman_died_aachen",
+    "source": "theodore_von_karman",
+    "type": "died_in",
+    "target": "aachen",
+    "event_id": "karman_death",
+    "sources": [
+      {
+        "source_id": "deak_2012_hundred_years",
+        "page": 1,
+        "quote": "Theodore von Kármán (his original Hungarian name: Kármán Tódor) (Budapest, May 11, 1881 – Aachen, May 7, 1963)"
+      }
+    ]
+  },
+  {
+    "id": "karman_studied_rju",
+    "source": "theodore_von_karman",
+    "type": "studied_at",
+    "target": "royal_joseph_university",
+    "event_id": "karman_graduation",
+    "sources": [
+      {
+        "source_id": "deak_2012_hundred_years",
+        "page": 1,
+        "quote": "Kármán graduated as mechanical engineer at the Royal Joseph University (now Budapest University of Technology and Economics) in 1902."
+      }
+    ]
+  },
+  {
+    "id": "karman_employed_gottingen",
+    "source": "theodore_von_karman",
+    "type": "employed_by",
+    "target": "university_of_gottingen",
+    "event_id": "karman_gottingen_assistant",
+    "sources": [
+      {
+        "source_id": "deak_2012_hundred_years",
+        "page": 1,
+        "quote": "Later on he worked as a mechanical engineer in Hungary before moving to Germany, where he got a job as an assistant of Ludwig Prandtl at the University of Göttingen."
+      }
+    ]
+  },
+  {
+    "id": "karman_supervised_prandtl",
+    "source": "theodore_von_karman",
+    "type": "supervised_by",
+    "target": "ludwig_prandtl",
+    "event_id": "karman_gottingen_assistant",
+    "sources": [
+      {
+        "source_id": "deak_2012_hundred_years",
+        "page": 1,
+        "quote": "where he got a job as an assistant of Ludwig Prandtl at the University of Göttingen."
+      }
+    ]
+  },
+  {
+    "id": "karman_employed_aachen",
+    "source": "theodore_von_karman",
+    "type": "employed_by",
+    "target": "aeronautical_institute_aachen",
+    "event_id": "karman_aachen_director",
+    "sources": [
+      {
+        "source_id": "deak_2012_hundred_years",
+        "page": 1,
+        "quote": "In 1912 he accepted a position as the director of the Aeronautical Institute at Aachen, one of the country's leading universities."
+      }
+    ]
+  },
+  {
+    "id": "karman_member_army",
+    "source": "theodore_von_karman",
+    "type": "member_of",
+    "target": "austro_hungarian_army",
+    "event_id": "karman_military_service",
+    "sources": [
+      {
+        "source_id": "deak_2012_hundred_years",
+        "page": 1,
+        "quote": "His time in Aachen was interrupted by military service in the Austro-Hungarian Army 1915–1918"
+      }
+    ]
+  },
+  {
+    "id": "karman_relocated_usa",
+    "source": "theodore_von_karman",
+    "type": "relocated_to",
+    "target": "usa",
+    "event_id": "karman_emigration",
+    "sources": [
+      {
+        "source_id": "deak_2012_hundred_years",
+        "page": 1,
+        "quote": "In 1930 he left Europe and had emigrated into the United States of America"
+      }
+    ]
+  },
+  {
+    "id": "karman_invented_bomb",
+    "source": "theodore_von_karman",
+    "type": "invented",
+    "target": "triaxial_cell_bomb",
+    "event_id": "karman_tripaxial_cell_design",
+    "sources": [
+      {
+        "source_id": "deak_2012_hundred_years",
+        "page": 2,
+        "quote": "therefore he designed the first triaxial test chamber (named \"Bomb\", by Kármán)"
+      }
+    ]
+  },
+  {
+    "id": "karman_published_hungarian",
+    "source": "theodore_von_karman",
+    "type": "published",
+    "target": "journal_hungarian_engineers_architects",
+    "event_id": "karman_publication_hungarian",
+    "sources": [
+      {
+        "source_id": "deak_2012_hundred_years",
+        "page": 1,
+        "quote": "First his results were published in Hungarian in the Journal of Hungarian Engineers and Architects in 1910 [8]"
+      }
+    ]
+  },
+  {
+    "id": "karman_published_german",
+    "source": "theodore_von_karman",
+    "type": "published",
+    "target": "z_verhandl_deut_ingr",
+    "event_id": "karman_publication_german",
+    "sources": [
+      {
+        "source_id": "deak_2012_hundred_years",
+        "page": 1,
+        "quote": "and a year later it was published in German [9], as well."
+      }
+    ]
+  },
+  {
+    "id": "karman_family_franz_joseph",
+    "source": "theodore_von_karman",
+    "type": "family_of",
+    "target": "franz_joseph",
+    "note": "Family received nobility from Franz Joseph",
+    "sources": [
+      {
+        "source_id": "deak_2012_hundred_years",
+        "page": 1,
+        "quote": "His family got the nobility from Franz Joseph, king of Hungary."
+      }
+    ]
+  }
+]

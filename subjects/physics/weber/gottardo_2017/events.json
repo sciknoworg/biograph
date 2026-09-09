@@ -1,0 +1,308 @@
+[
+  {
+    "id": "weber_employed_maryland",
+    "event_type": "employment_start",
+    "label": "Employed by Maryland University",
+    "description": "Joseph Weber worked at Maryland University.",
+    "date": {
+      "display": "circa 1960s",
+      "precision": "circa",
+      "sort_start": "1960-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_weber",
+        "role": "subject"
+      },
+      {
+        "entity_id": "maryland_university",
+        "role": "employer"
+      }
+    ],
+    "certainty": "approximate",
+    "sources": [
+      {
+        "source_id": "gottardo_2017",
+        "page": 61,
+        "quote": "Joseph Weber, form Maryland University, was a pioneer in the experimental research of gravitational waves and neutrinos."
+      }
+    ]
+  },
+  {
+    "id": "weber_supervised_wheeler",
+    "event_type": "education",
+    "label": "Studied under John Archibald Wheeler",
+    "description": "Weber went to Princeton University under the supervision of John Archibald Wheeler.",
+    "date": {
+      "display": "early career",
+      "precision": "circa",
+      "sort_start": "1950-01-01",
+      "sort_end": "1959-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_weber",
+        "role": "subject"
+      },
+      {
+        "entity_id": "john_archibald_wheeler",
+        "role": "supervisor"
+      },
+      {
+        "entity_id": "princeton_university",
+        "role": "institution"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "gottardo_2017",
+        "page": 63,
+        "quote": "Forced to change the research field, he went to Princeton University under the supervision of John Archibald Wheeler."
+      }
+    ]
+  },
+  {
+    "id": "weber_designed_bar_detector",
+    "event_type": "invention",
+    "label": "Designed bar detector",
+    "description": "Weber decided to use a bar detector for gravitational waves.",
+    "date": {
+      "display": "early 1960s",
+      "precision": "range",
+      "sort_start": "1960-01-01",
+      "sort_end": "1964-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_weber",
+        "role": "subject"
+      },
+      {
+        "entity_id": "bar_detector",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "gottardo_2017",
+        "page": 63,
+        "quote": "In the early 1960s a clear picture of which astronomical events could emit gravitational waves around 1 kHz was not clear."
+      }
+    ]
+  },
+  {
+    "id": "weber_claimed_gw_detection",
+    "event_type": "publication",
+    "label": "Claimed gravitational wave observation",
+    "description": "Weber claimed to observe gravitational waves.",
+    "date": {
+      "display": "1969",
+      "precision": "year",
+      "sort_start": "1969-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_weber",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "gottardo_2017",
+        "page": 63,
+        "quote": "The first who claimed to observe gravitational waves in 1969 was Joseph Weber."
+      }
+    ]
+  },
+  {
+    "id": "braginsky_quantum_limit",
+    "event_type": "publication",
+    "label": "Braginsky showed quantum limit",
+    "description": "Braginsky showed that resonant bar detectors were affected by the uncertainty principle.",
+    "date": {
+      "display": "1978",
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "v_b_braginsky",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "gottardo_2017",
+        "page": 64,
+        "quote": "In 1978 the Russian physicist Braginsky showed that resonant bar detectors were affected by the uncertainty principle."
+      }
+    ]
+  },
+  {
+    "id": "thorne_proposed_ligo",
+    "event_type": "invention",
+    "label": "Thorne proposed LIGO",
+    "description": "LIGO was proposed by Kip Thorne.",
+    "date": {
+      "display": "1976",
+      "precision": "year",
+      "sort_start": "1976-01-01",
+      "sort_end": "1976-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kip_thorne",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ligo",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "gottardo_2017",
+        "page": 64,
+        "quote": "Proposed in 1976 by Kip Thorne"
+      }
+    ]
+  },
+  {
+    "id": "ligo_first_observation",
+    "event_type": "public_demonstration",
+    "label": "LIGO observed gravitational waves",
+    "description": "LIGO observed for the first time directly the ripples of spacetime.",
+    "date": {
+      "display": "2016",
+      "precision": "year",
+      "sort_start": "2016-01-01",
+      "sort_end": "2016-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ligo",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "gottardo_2017",
+        "page": 64,
+        "quote": "40 years later in 2016 LIGO observed for the first time directly the ripples of spacetime."
+      }
+    ]
+  },
+  {
+    "id": "weber_proposed_neutrino_mechanism",
+    "event_type": "invention",
+    "label": "Proposed neutrino detection mechanism",
+    "description": "Weber proposed a new mechanism to detect neutrinos with a very simple apparatus.",
+    "date": {
+      "display": "1984",
+      "precision": "year",
+      "sort_start": "1984-01-01",
+      "sort_end": "1984-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_weber",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "gottardo_2017",
+        "page": 65,
+        "quote": "In 1984 Weber proposed a new mechanism to detect neutrinos with a very simple apparatus."
+      }
+    ]
+  },
+  {
+    "id": "weber_neutrino_theory",
+    "event_type": "publication",
+    "label": "Published neutrino theory",
+    "description": "Weber published theoretical work on neutrino coherent scattering.",
+    "date": {
+      "display": "1985",
+      "precision": "year",
+      "sort_start": "1985-01-01",
+      "sort_end": "1985-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_weber",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "gottardo_2017",
+        "page": 65,
+        "quote": "The theoretical work of Weber of 1985 was criticized by two papers of 1986 and 1987."
+      }
+    ]
+  },
+  {
+    "id": "weber_neutrino_experiment",
+    "event_type": "publication",
+    "label": "Published neutrino experiment results",
+    "description": "Weber published a detailed paper showing experimentally coherent scattering of neutrinos.",
+    "date": {
+      "display": "1988",
+      "precision": "year",
+      "sort_start": "1988-01-01",
+      "sort_end": "1988-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_weber",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "gottardo_2017",
+        "page": 65,
+        "quote": "Weber in 1988 published a detailed paper where he showed experimentally how \"coherent scattering of neutrinos can give measurable force due to coherent momentum transfer to crystal of cm of dimensions\"."
+      }
+    ]
+  },
+  {
+    "id": "crucero_confirmation",
+    "event_type": "public_demonstration",
+    "label": "Team confirmed Weber's experiment",
+    "description": "A team succeeded to confirm Weber's experiment on solar antineutrinos.",
+    "date": {
+      "display": "2011",
+      "precision": "year",
+      "sort_start": "2011-01-01",
+      "sort_end": "2011-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_weber",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "gottardo_2017",
+        "page": 66,
+        "quote": "But in 2011 a team succeed to confirm Weber's experiment on solar antineutrinos."
+      }
+    ]
+  }
+]

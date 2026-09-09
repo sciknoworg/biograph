@@ -1,0 +1,361 @@
+[
+  {
+    "id": "birth_giacconi",
+    "event_type": "birth",
+    "label": "Born in Genoa",
+    "date": {
+      "display": "October 6, 1931",
+      "precision": "day",
+      "sort_start": "1931-10-06",
+      "sort_end": "1931-10-06"
+    },
+    "participants": [
+      {
+        "entity_id": "riccardo_giacconi",
+        "role": "subject"
+      }
+    ],
+    "location": "genoa",
+    "sources": [
+      {
+        "source_id": "giacconi_2005_review",
+        "page": 2,
+        "quote": "I was born in Genoa, Italy, on October 6, 1931."
+      }
+    ]
+  },
+  {
+    "id": "move_to_us",
+    "event_type": "relocation",
+    "label": "Departed for the United States",
+    "date": {
+      "display": "1956",
+      "precision": "year",
+      "sort_start": "1956-01-01",
+      "sort_end": "1956-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "riccardo_giacconi",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "giacconi_2005_review",
+        "page": 2,
+        "quote": "I lived with my mother in Milano until my departure for the United States in 1956."
+      }
+    ]
+  },
+  {
+    "id": "joined_ase",
+    "event_type": "employment_start",
+    "label": "Joined American Science and Engineering",
+    "date": {
+      "display": "September 1959",
+      "precision": "month",
+      "sort_start": "1959-09-01",
+      "sort_end": "1959-09-30"
+    },
+    "participants": [
+      {
+        "entity_id": "riccardo_giacconi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "american_science_and_engineering",
+        "role": "employer"
+      }
+    ],
+    "location": "cambridge_ma",
+    "sources": [
+      {
+        "source_id": "giacconi_2005_review",
+        "page": 4,
+        "quote": "In September 1959 I joined the staff of American Science and Engineering, a small research company in Cambridge, Massachusetts"
+      }
+    ]
+  },
+  {
+    "id": "discovery_sco_x1",
+    "event_type": "other",
+    "label": "Discovered Sco X-1",
+    "description": "First extrasolar X-ray source discovery.",
+    "date": {
+      "display": "June 18, 1962",
+      "precision": "day",
+      "sort_start": "1962-06-18",
+      "sort_end": "1962-06-18"
+    },
+    "participants": [
+      {
+        "entity_id": "riccardo_giacconi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "sco_x1",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "giacconi_2005_review",
+        "page": 6,
+        "quote": "we had a successful flight on June 18, 1962, when we discovered the first extrasolar X-ray source (Sco X-1)"
+      }
+    ]
+  },
+  {
+    "id": "uhuru_launch",
+    "event_type": "product_launch",
+    "label": "Uhuru satellite launched",
+    "date": {
+      "display": "December 12, 1970",
+      "precision": "day",
+      "sort_start": "1970-12-12",
+      "sort_end": "1970-12-12"
+    },
+    "participants": [
+      {
+        "entity_id": "riccardo_giacconi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "uhuru",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "giacconi_2005_review",
+        "page": 9,
+        "quote": "the launch of the X-ray astronomy satellite Uhuru, which occurred on December 12, 1970"
+      }
+    ]
+  },
+  {
+    "id": "einstein_launch",
+    "event_type": "product_launch",
+    "label": "Einstein Observatory launched",
+    "date": {
+      "display": "1979",
+      "precision": "year",
+      "sort_start": "1979-01-01",
+      "sort_end": "1979-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "riccardo_giacconi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "einstein_observatory",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "giacconi_2005_review",
+        "page": 7,
+        "quote": "It took an intermediate step with the Einstein Observatory, launched in 1979"
+      }
+    ]
+  },
+  {
+    "id": "stsci_director_start",
+    "event_type": "employment_start",
+    "label": "Became Director of STScI",
+    "date": {
+      "display": "1981",
+      "precision": "year",
+      "sort_start": "1981-01-01",
+      "sort_end": "1981-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "riccardo_giacconi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "space_telescope_science_institute",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "giacconi_2005_review",
+        "page": 18,
+        "quote": "STScI was started in 1981"
+      }
+    ]
+  },
+  {
+    "id": "hubble_launch",
+    "event_type": "product_launch",
+    "label": "Hubble Space Telescope launched",
+    "date": {
+      "display": "1990",
+      "precision": "year",
+      "sort_start": "1990-01-01",
+      "sort_end": "1990-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "riccardo_giacconi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "hubble_space_telescope",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "giacconi_2005_review",
+        "page": 18,
+        "quote": "It was launched into orbit by the Shuttle in 1990"
+      }
+    ]
+  },
+  {
+    "id": "eso_director_start",
+    "event_type": "employment_start",
+    "label": "Became Director General of ESO",
+    "date": {
+      "display": "1993",
+      "precision": "year",
+      "sort_start": "1993-01-01",
+      "sort_end": "1993-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "riccardo_giacconi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "european_southern_observatory",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "giacconi_2005_review",
+        "page": 25,
+        "quote": "At the end of my first five-year term at ESO, in January 1998"
+      }
+    ]
+  },
+  {
+    "id": "vlt_first_light",
+    "event_type": "public_demonstration",
+    "label": "VLT achieved first light",
+    "date": {
+      "display": "1998",
+      "precision": "year",
+      "sort_start": "1998-01-01",
+      "sort_end": "1998-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "riccardo_giacconi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "very_large_telescope",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "giacconi_2005_review",
+        "page": 22,
+        "quote": "achievement of first light in 1998"
+      }
+    ]
+  },
+  {
+    "id": "aui_president_start",
+    "event_type": "employment_start",
+    "label": "Became President of AUI",
+    "date": {
+      "display": "July 1999",
+      "precision": "month",
+      "sort_start": "1999-07-01",
+      "sort_end": "1999-07-31"
+    },
+    "participants": [
+      {
+        "entity_id": "riccardo_giacconi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "associated_universities_incorporated",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "giacconi_2005_review",
+        "page": 25,
+        "quote": "became President of AUI in July 1999"
+      }
+    ]
+  },
+  {
+    "id": "chandra_launch",
+    "event_type": "product_launch",
+    "label": "Chandra launched",
+    "date": {
+      "display": "2001",
+      "precision": "year",
+      "sort_start": "2001-01-01",
+      "sort_end": "2001-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "riccardo_giacconi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "chandra",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "giacconi_2005_review",
+        "page": 16,
+        "quote": "to the launch of Chandra in 2001"
+      }
+    ]
+  },
+  {
+    "id": "nobel_prize",
+    "event_type": "award",
+    "label": "Awarded Nobel Prize in Physics",
+    "date": {
+      "display": "2002",
+      "precision": "year",
+      "sort_start": "2002-01-01",
+      "sort_end": "2002-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "riccardo_giacconi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize_physics_2002",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "giacconi_2005_review",
+        "page": 29,
+        "quote": "In 2002 he shared the Nobel Prize for Physics"
+      }
+    ]
+  }
+]

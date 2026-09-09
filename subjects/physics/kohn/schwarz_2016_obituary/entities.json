@@ -1,0 +1,153 @@
+[
+  {
+    "id": "walter_kohn",
+    "entity_type": "person",
+    "name": "Walter Kohn",
+    "aliases": [
+      "Walter"
+    ],
+    "summary": "Theoretical physicist known for density functional theory and solid-state physics.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "karlheinz_schwarz",
+    "entity_type": "person",
+    "name": "Karlheinz Schwarz",
+    "summary": "Co-author of the obituary and researcher at Vienna University of Technology.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "lu_j_sham",
+    "entity_type": "person",
+    "name": "Lu J. Sham",
+    "summary": "Co-author of the obituary and collaborator on Kohn-Sham equations.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "julian_schwinger",
+    "entity_type": "person",
+    "name": "Julian Schwinger",
+    "summary": "Expert in variational methods and Walter Kohn's Ph.D. adviser at Harvard.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "pierre_hohenberg",
+    "entity_type": "person",
+    "name": "Pierre Hohenberg",
+    "summary": "Collaborator with Walter Kohn on the Hohenberg-Kohn theorem.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "joaquin_luttinger",
+    "entity_type": "person",
+    "name": "Joaquin Luttinger",
+    "summary": "Collaborator with Walter Kohn at Bell Telephone Laboratories.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "john_pople",
+    "entity_type": "person",
+    "name": "John Pople",
+    "summary": "Co-recipient of the 1998 Nobel Prize in Chemistry with Walter Kohn.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "harvard_university",
+    "entity_type": "organization",
+    "name": "Harvard University",
+    "summary": "University where Walter Kohn received his Ph.D. in theoretical physics.",
+    "subtype": "university"
+  },
+  {
+    "id": "university_of_california_san_diego",
+    "entity_type": "organization",
+    "name": "University of California, San Diego",
+    "summary": "University where Walter Kohn was a professor and department chairman.",
+    "subtype": "university"
+  },
+  {
+    "id": "university_of_california_santa_barbara",
+    "entity_type": "organization",
+    "name": "University of California, Santa Barbara",
+    "summary": "University where Walter Kohn founded the Institute for Theoretical Physics.",
+    "subtype": "university"
+  },
+  {
+    "id": "carnegie_institute_of_technology",
+    "entity_type": "organization",
+    "name": "Carnegie Institute of Technology",
+    "aliases": [
+      "Carnegie Mellon University"
+    ],
+    "summary": "Institution where Walter Kohn taught and developed the theory of Kohn anomalies.",
+    "subtype": "university"
+  },
+  {
+    "id": "bell_telephone_laboratories",
+    "entity_type": "organization",
+    "name": "Bell Telephone Laboratories",
+    "summary": "Laboratories where Walter Kohn did influential research work as a consultant.",
+    "subtype": "lab"
+  },
+  {
+    "id": "niels_bohr_institute",
+    "entity_type": "organization",
+    "name": "Niels Bohr Institute",
+    "summary": "Institute in Copenhagen where Walter Kohn conducted postdoctoral study.",
+    "subtype": "lab"
+  },
+  {
+    "id": "institute_for_theoretical_physics_ucsb",
+    "entity_type": "organization",
+    "name": "Institute for Theoretical Physics",
+    "aliases": [
+      "Kavli Institute for Theoretical Physics"
+    ],
+    "summary": "Institute at UCSB founded and directed by Walter Kohn.",
+    "subtype": "lab"
+  },
+  {
+    "id": "vienna",
+    "entity_type": "place",
+    "name": "Vienna",
+    "summary": "City in Austria where Walter Kohn was born.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Austria"
+    }
+  },
+  {
+    "id": "santa_barbara_ca",
+    "entity_type": "place",
+    "name": "Santa Barbara, CA",
+    "summary": "City in California where Walter Kohn died.",
+    "subtype": "city",
+    "attributes": {
+      "country": "USA"
+    }
+  },
+  {
+    "id": "density_functional_theory",
+    "entity_type": "artifact",
+    "name": "Density Functional Theory",
+    "aliases": [
+      "DFT"
+    ],
+    "summary": "Quantum mechanical modelling method for electronic structure developed by Kohn and colleagues.",
+    "subtype": "theory"
+  },
+  {
+    "id": "kohn_anomalies",
+    "entity_type": "artifact",
+    "name": "Kohn anomalies",
+    "summary": "Theory on anomalies in the phonon spectra of metals developed by Walter Kohn.",
+    "subtype": "theory"
+  },
+  {
+    "id": "nobel_prize_chemistry_1998",
+    "entity_type": "artifact",
+    "name": "Nobel Prize in Chemistry",
+    "summary": "1998 prize awarded to Walter Kohn and John Pople for pioneering scientific contributions.",
+    "subtype": "award"
+  }
+]

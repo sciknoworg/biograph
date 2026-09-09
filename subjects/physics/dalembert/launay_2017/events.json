@@ -1,0 +1,85 @@
+[
+  {
+    "id": "dalembert_birth",
+    "event_type": "birth",
+    "label": "Born in Paris",
+    "description": "Jean Le Rond d'Alembert was born in Paris on November 16, 1717.",
+    "date": {
+      "display": "November 16, 1717",
+      "precision": "day",
+      "sort_start": "1717-11-16",
+      "sort_end": "1717-11-16"
+    },
+    "location": "paris",
+    "participants": [
+      {
+        "entity_id": "jean_le_rond_dalembert",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "launay_2017",
+        "page": 1,
+        "quote": "The article provides a chronological biography of Jean Le Rond from his birth in Paris on November 16, 1717"
+      }
+    ]
+  },
+  {
+    "id": "dalembert_academie_submission",
+    "event_type": "publication",
+    "label": "Submitted work to Académie des sciences",
+    "description": "First submitted a work to the Académie des sciences under the name d'Alembert.",
+    "date": {
+      "display": "1739",
+      "precision": "year",
+      "sort_start": "1739-01-01",
+      "sort_end": "1739-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jean_le_rond_dalembert",
+        "role": "subject"
+      },
+      {
+        "entity_id": "academie_des_sciences",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "launay_2017",
+        "page": 1,
+        "quote": "to the moment, in 1739, when he first submitted a work to the Académie des sciences under the name d'Alembert"
+      }
+    ]
+  },
+  {
+    "id": "dalembert_death",
+    "event_type": "death",
+    "label": "Died",
+    "description": "Jean Le Rond d'Alembert died in 1783.",
+    "date": {
+      "display": "1783",
+      "precision": "year",
+      "sort_start": "1783-01-01",
+      "sort_end": "1783-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jean_le_rond_dalembert",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "launay_2017",
+        "page": 1,
+        "quote": "Jean Le Rond d'Alembert (1717–1783)"
+      }
+    ]
+  }
+]

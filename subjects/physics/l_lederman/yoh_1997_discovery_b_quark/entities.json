@@ -1,0 +1,131 @@
+[
+  {
+    "id": "leon_lederman",
+    "entity_type": "person",
+    "name": "Leon Lederman",
+    "aliases": [
+      "Leon"
+    ],
+    "summary": "Physicist and Nobel laureate known for dimuon experiments and the discovery of the bottom quark.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "john_yoh",
+    "entity_type": "person",
+    "name": "John Yoh",
+    "aliases": [
+      "JKY",
+      "John"
+    ],
+    "summary": "Physicist and experiment coordinator for the E288 collaboration.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "fermilab",
+    "entity_type": "organization",
+    "name": "Fermi National Accelerator Laboratory",
+    "aliases": [
+      "Fermilab",
+      "National Accelerator Laboratory",
+      "NAL"
+    ],
+    "summary": "United States Department of Energy national laboratory specializing in high-energy particle physics.",
+    "subtype": "lab"
+  },
+  {
+    "id": "brookhaven_national_laboratory",
+    "entity_type": "organization",
+    "name": "Brookhaven National Laboratory",
+    "aliases": [
+      "BNL",
+      "Brookhaven"
+    ],
+    "summary": "United States Department of Energy national laboratory located in Upton, New York.",
+    "subtype": "lab"
+  },
+  {
+    "id": "cern",
+    "entity_type": "organization",
+    "name": "CERN",
+    "aliases": [
+      "European Organization for Nuclear Research"
+    ],
+    "summary": "European particle physics laboratory operating the Large Hadron Collider and other accelerators.",
+    "subtype": "lab"
+  },
+  {
+    "id": "e288_experiment",
+    "entity_type": "artifact",
+    "name": "E288 Experiment",
+    "aliases": [
+      "CFS Experiment",
+      "Columbia-Fermilab-Stony Brook collaboration"
+    ],
+    "summary": "Particle physics experiment at Fermilab that discovered the Upsilon particle.",
+    "subtype": "experiment"
+  },
+  {
+    "id": "upsilon_particle",
+    "entity_type": "artifact",
+    "name": "Upsilon particle",
+    "aliases": [
+      "Upsilon",
+      "b-quark family"
+    ],
+    "summary": "Subatomic particle composed of a bottom quark and its antiparticle.",
+    "subtype": "particle"
+  },
+  {
+    "id": "b_quark",
+    "entity_type": "artifact",
+    "name": "b quark",
+    "aliases": [
+      "bottom quark",
+      "bottom"
+    ],
+    "summary": "Elementary particle of the third generation of quarks.",
+    "subtype": "particle"
+  },
+  {
+    "id": "columbia_university",
+    "entity_type": "organization",
+    "name": "Columbia University",
+    "aliases": [
+      "Columbia"
+    ],
+    "summary": "Private Ivy League research university in New York City.",
+    "subtype": "university"
+  },
+  {
+    "id": "stony_brook_university",
+    "entity_type": "organization",
+    "name": "Stony Brook University",
+    "aliases": [
+      "Stony Brook",
+      "S"
+    ],
+    "summary": "Public research university in Stony Brook, New York.",
+    "subtype": "university"
+  },
+  {
+    "id": "steve_herb",
+    "entity_type": "person",
+    "name": "Steve Herb",
+    "aliases": [
+      "S. W. Herb",
+      "Steve"
+    ],
+    "summary": "Physicist and upgrade manager for the E288 experiment.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "taiji_yamanouchi",
+    "entity_type": "person",
+    "name": "Taiji Yamanouchi",
+    "aliases": [
+      "Taiji"
+    ],
+    "summary": "Physicist and head of the Fermilab contingent for the E288 collaboration.",
+    "subtype": "researcher"
+  }
+]

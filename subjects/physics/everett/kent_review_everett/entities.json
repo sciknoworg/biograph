@@ -1,0 +1,208 @@
+[
+  {
+    "id": "hugh_everett_iii",
+    "entity_type": "person",
+    "name": "Hugh Everett III",
+    "aliases": [
+      "Everett",
+      "Hugh Everett"
+    ],
+    "summary": "Physicist known for the many-worlds interpretation of quantum mechanics.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "john_archibald_wheeler",
+    "entity_type": "person",
+    "name": "John Archibald Wheeler",
+    "aliases": [
+      "Wheeler"
+    ],
+    "summary": "Physicist and Hugh Everett's PhD supervisor.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "nancy_everett",
+    "entity_type": "person",
+    "name": "Nancy",
+    "aliases": [
+      "Nancy Everett"
+    ],
+    "summary": "Hugh Everett's wife.",
+    "subtype": "family"
+  },
+  {
+    "id": "liz_everett",
+    "entity_type": "person",
+    "name": "Liz",
+    "aliases": [
+      "Liz Everett"
+    ],
+    "summary": "Hugh Everett's daughter.",
+    "subtype": "family"
+  },
+  {
+    "id": "mark_oliver_everett",
+    "entity_type": "person",
+    "name": "Mark Oliver Everett",
+    "aliases": [
+      "Mark",
+      "Mark Everett"
+    ],
+    "summary": "Hugh Everett's son.",
+    "subtype": "family"
+  },
+  {
+    "id": "david_deutsch",
+    "entity_type": "person",
+    "name": "David Deutsch",
+    "aliases": [
+      "Deutsch"
+    ],
+    "summary": "Physicist and founder of quantum computing theory.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "bryce_dewitt",
+    "entity_type": "person",
+    "name": "Bryce DeWitt",
+    "aliases": [
+      "DeWitt"
+    ],
+    "summary": "Physicist and supporter of Everett's ideas.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "niels_bohr",
+    "entity_type": "person",
+    "name": "Niels Bohr",
+    "aliases": [
+      "Bohr"
+    ],
+    "summary": "Physicist associated with the Copenhagen school.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "petersen",
+    "entity_type": "person",
+    "name": "Petersen",
+    "aliases": [],
+    "summary": "Physicist approached regarding Everett's ideas.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "podolsky",
+    "entity_type": "person",
+    "name": "Podolsky",
+    "aliases": [],
+    "summary": "Physicist who agreed with Everett on distinct worlds in 1962.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "herman_kahn",
+    "entity_type": "person",
+    "name": "Herman Kahn",
+    "aliases": [
+      "Kahn"
+    ],
+    "summary": "Influential American strategist.",
+    "subtype": "strategist"
+  },
+  {
+    "id": "peter_byrne",
+    "entity_type": "person",
+    "name": "Peter Byrne",
+    "aliases": [
+      "Byrne"
+    ],
+    "summary": "Author of Everett's biography.",
+    "subtype": "author"
+  },
+  {
+    "id": "adrian_kent",
+    "entity_type": "person",
+    "name": "Adrian Kent",
+    "aliases": [
+      "Kent"
+    ],
+    "summary": "Reader in Quantum Physics at University of Cambridge.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "princeton_university",
+    "entity_type": "organization",
+    "name": "Princeton University",
+    "aliases": [
+      "Princeton"
+    ],
+    "summary": "University where Everett completed his PhD and worked on game theory.",
+    "subtype": "university"
+  },
+  {
+    "id": "university_of_austin",
+    "entity_type": "organization",
+    "name": "University of Austin",
+    "aliases": [
+      "Austin"
+    ],
+    "summary": "University where Deutsch encountered Everett's ideas.",
+    "subtype": "university"
+  },
+  {
+    "id": "university_of_cambridge",
+    "entity_type": "organization",
+    "name": "University of Cambridge",
+    "aliases": [
+      "Cambridge"
+    ],
+    "summary": "University where Adrian Kent is a Reader.",
+    "subtype": "university"
+  },
+  {
+    "id": "perimeter_institute",
+    "entity_type": "organization",
+    "name": "Perimeter Institute for Theoretical Physics",
+    "aliases": [
+      "Perimeter Institute"
+    ],
+    "summary": "Institute where Adrian Kent is an Associate Faculty member.",
+    "subtype": "institute"
+  },
+  {
+    "id": "oxford_university_press",
+    "entity_type": "organization",
+    "name": "Oxford University Press",
+    "aliases": [
+      "OUP"
+    ],
+    "summary": "Publisher of Byrne's biography.",
+    "subtype": "publisher"
+  },
+  {
+    "id": "the_many_worlds_of_hugh_everett_iii",
+    "entity_type": "artifact",
+    "name": "The Many Worlds of Hugh Everett III",
+    "aliases": [
+      "Byrne's biography"
+    ],
+    "summary": "Biography of Hugh Everett by Peter Byrne.",
+    "subtype": "publication"
+  },
+  {
+    "id": "the_many_worlds_interpretation_of_quantum_mechanics",
+    "entity_type": "artifact",
+    "name": "The Many Worlds Interpretation of Quantum Mechanics",
+    "aliases": [
+      "DeWitt and Graham's 1973 volume"
+    ],
+    "summary": "1973 volume containing Everett's work and annotations.",
+    "subtype": "publication"
+  },
+  {
+    "id": "american_journal_of_physics",
+    "entity_type": "artifact",
+    "name": "American Journal of Physics",
+    "aliases": [],
+    "summary": "Journal where Adrian Kent's review appears.",
+    "subtype": "publication"
+  }
+]

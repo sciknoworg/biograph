@@ -1,0 +1,17 @@
+[
+  {
+    "id": "wren_invented_iv",
+    "source": "christopher_wren",
+    "type": "invented",
+    "target": "christopher_wren",
+    "note": "Self-relation for invention event, typically mapped to artifact but here kept as event link",
+    "sources": [
+      {
+        "source_id": "gibson_1970_bio_medical_pursuits",
+        "page": 7,
+        "quote": "the invention of intra-venous therapy"
+      }
+    ],
+    "_rejected_because": "'invented' expects target entity_type artifact, but 'christopher_wren' is 'person'"
+  }
+]

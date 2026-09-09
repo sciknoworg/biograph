@@ -1,0 +1,168 @@
+[
+  {
+    "aliases": [
+      "E. Wiechert",
+      "Wiechert"
+    ],
+    "entity_type": "person",
+    "id": "emil_wiechert",
+    "name": "Emil Wiechert",
+    "subtype": "researcher",
+    "summary": "German physicist and geophysicist, director of the first Institute of Geophysics in Göttingen and inventor of the Wiechert seismograph."
+  },
+  {
+    "aliases": [
+      "Sovetsk"
+    ],
+    "attributes": {
+      "country": "Prussia"
+    },
+    "entity_type": "place",
+    "id": "tilsit",
+    "name": "Tilsit",
+    "subtype": "city",
+    "summary": "Town in the Province of Prussia, now Kaliningrad Oblast, Russia."
+  },
+  {
+    "aliases": [
+      "University in Königsberg",
+      "Albertus University"
+    ],
+    "entity_type": "organization",
+    "id": "albertus_university_konigsberg",
+    "name": "Albertus University in Königsberg",
+    "subtype": "university",
+    "summary": "University in Königsberg where Wiechert studied sciences and physics."
+  },
+  {
+    "aliases": [
+      "Georg-August-Universität Göttingen",
+      "University"
+    ],
+    "entity_type": "organization",
+    "id": "university_of_gottingen",
+    "name": "University of Göttingen",
+    "subtype": "university",
+    "summary": "University in Göttingen where Wiechert worked and established the Institute of Geophysics."
+  },
+  {
+    "aliases": [
+      "Institute of Geophysics",
+      "Institute"
+    ],
+    "entity_type": "organization",
+    "id": "institute_of_geophysics_gottingen",
+    "name": "Institut für Geophysik",
+    "subtype": "lab",
+    "summary": "First Institute of Geophysics in the world, founded in Göttingen by Wiechert."
+  },
+  {
+    "aliases": [
+      "earthquake house",
+      "altes Erdbebenhaus",
+      "old earthquake house"
+    ],
+    "entity_type": "place",
+    "id": "erdbebenhaus",
+    "name": "Erdbebenhaus",
+    "subtype": "facility",
+    "summary": "Building constructed in 1902 in the garden of the Institute of Geophysics to house seismographs."
+  },
+  {
+    "aliases": [
+      "Wiechert's",
+      "seismographs designed by Emil Wiechert"
+    ],
+    "entity_type": "artifact",
+    "id": "wiechert_seismograph",
+    "name": "Wiechert seismograph",
+    "subtype": "invention",
+    "summary": "Sensitive mechanical seismometers with air-damped pendulums invented by Wiechert."
+  },
+  {
+    "aliases": [
+      "Mintrop"
+    ],
+    "entity_type": "person",
+    "id": "ludger_mintrop",
+    "name": "Ludger Mintrop",
+    "subtype": "researcher",
+    "summary": "Student of Wiechert who conducted seismic exploration experiments with a steel ball."
+  },
+  {
+    "aliases": [
+      "Mintrop ball",
+      "steel ball"
+    ],
+    "entity_type": "artifact",
+    "id": "mintrop_kugel",
+    "name": "Mintrop-Kugel",
+    "subtype": "product",
+    "summary": "4 ton steel ball used by Mintrop to generate man-made earthquakes for seismic exploration."
+  },
+  {
+    "aliases": [
+      "Deutsche Geophysikalische Gesellschaft",
+      "DGG",
+      "German Seismological Society"
+    ],
+    "entity_type": "organization",
+    "id": "german_geophysical_society",
+    "name": "German Geophysical Society",
+    "subtype": "organization",
+    "summary": "Scientific society founded in 1922 on the initiative of Wiechert."
+  },
+  {
+    "aliases": [
+      "Angenheister"
+    ],
+    "entity_type": "person",
+    "id": "gustav_angenheister",
+    "name": "Gustav Angenheister Sen.",
+    "subtype": "researcher",
+    "summary": "Director of the institute and observatory after Wiechert's death until after World War II."
+  },
+  {
+    "aliases": [
+      "Siebert"
+    ],
+    "entity_type": "person",
+    "id": "manfred_siebert",
+    "name": "Manfred Siebert",
+    "subtype": "researcher",
+    "summary": "Director of the institute from 1964 to 1992 who played an important role in saving the observatory."
+  },
+  {
+    "aliases": [
+      "Brunk"
+    ],
+    "entity_type": "person",
+    "id": "wolfgang_brunk",
+    "name": "Wolfgang Brunk",
+    "subtype": "researcher",
+    "summary": "Chairman of the working group Technology of Measurement Valley and founding chairman of the society."
+  },
+  {
+    "aliases": [
+      "Wiechert's earthquake observatory in Göttingen",
+      "registered society",
+      "society"
+    ],
+    "entity_type": "organization",
+    "id": "wiechertsche_erdbebenwarte_gottingen_ev",
+    "name": "Wiechert'sche Erdbebenwarte Göttingen e.V.",
+    "subtype": "organization",
+    "summary": "Registered society founded in 2005 to own and operate the observatory."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Germany"
+    },
+    "entity_type": "place",
+    "id": "gottingen",
+    "name": "Göttingen",
+    "subtype": "city",
+    "summary": "City in Germany where the Institute of Geophysics and observatory are located."
+  }
+]

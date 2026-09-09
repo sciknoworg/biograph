@@ -1,0 +1,280 @@
+[
+  {
+    "id": "gell_mann_rosenbaum_1957",
+    "event_type": "publication",
+    "label": "Coauthored Elementary Particles article",
+    "description": "Gell-Mann coauthored an article in Scientific American with E.P. Rosenbaum.",
+    "date": {
+      "display": "July 1957",
+      "precision": "month",
+      "sort_start": "1957-07-01",
+      "sort_end": "1957-07-31"
+    },
+    "participants": [
+      {
+        "entity_id": "murray_gell_mann",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zweig_2010_memories",
+        "page": 2,
+        "quote": "In the summer of 1957, after a hard day's work as a\ncounselor at a day camp for children, I came across an article you coauthored\nin Scientiﬁc American"
+      }
+    ]
+  },
+  {
+    "id": "zweig_arrives_caltech_1957",
+    "event_type": "education",
+    "label": "Zweig arrives at Caltech",
+    "description": "Zweig arrived at Caltech for graduate school following advice to study with Feynman and Gell-Mann.",
+    "date": {
+      "display": "1957",
+      "precision": "year",
+      "sort_start": "1957-09-01",
+      "sort_end": "1957-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "george_zweig",
+        "role": "subject"
+      },
+      {
+        "entity_id": "caltech",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zweig_2010_memories",
+        "page": 2,
+        "quote": "There are a couple of young guys\nat Caltech, Feynman and Gell-Mann, why don't you go there."
+      }
+    ]
+  },
+  {
+    "id": "gell_mann_neeman_su3_1961",
+    "event_type": "publication",
+    "label": "Proposed SU(3) classification",
+    "description": "Gell-Mann and Ne'eman independently proposed classifying hadronic resonances according to SU(3) representations.",
+    "date": {
+      "display": "1961",
+      "precision": "year",
+      "sort_start": "1961-01-01",
+      "sort_end": "1961-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "murray_gell_mann",
+        "role": "author"
+      },
+      {
+        "entity_id": "yuval_neeman",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zweig_2010_memories",
+        "page": 3,
+        "quote": "Murray and Yuval Ne'eman independently proposed\nthat these, and other hadronic resonances, be classiﬁed according to the\nrepresentations of SU(3)"
+      }
+    ]
+  },
+  {
+    "id": "serber_lunch_1963",
+    "event_type": "meeting",
+    "label": "Lunch with Bob Serber",
+    "description": "Gell-Mann discussed SU(3) fundamental representations with Serber at Columbia faculty club.",
+    "date": {
+      "display": "spring of 1963",
+      "precision": "range",
+      "sort_start": "1963-03-01",
+      "sort_end": "1963-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "murray_gell_mann",
+        "role": "participant"
+      },
+      {
+        "entity_id": "bob_serber",
+        "role": "participant"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zweig_2010_memories",
+        "page": 12,
+        "quote": "According to Bob Serber, in the spring of 1963\nover lunch at the Columbia faculty club, Serber told Murray about a scheme\nhe had been thinking about"
+      }
+    ]
+  },
+  {
+    "id": "gell_mann_quark_paper_1964",
+    "event_type": "publication",
+    "label": "Published quark paper",
+    "description": "Gell-Mann proposed using fractionally charged objects as fields in a toy field theory.",
+    "date": {
+      "display": "February 1964",
+      "precision": "month",
+      "sort_start": "1964-02-01",
+      "sort_end": "1964-02-29"
+    },
+    "participants": [
+      {
+        "entity_id": "murray_gell_mann",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zweig_2010_memories",
+        "page": 12,
+        "quote": "in February of 1964 Mur-\nray proposed using the three fractionally charged objects in the fundamental\nrepresentation as ﬁelds from which to construct the currents of a toy ﬁeld\ntheory"
+      }
+    ]
+  },
+  {
+    "id": "zweig_explains_aces_1964",
+    "event_type": "meeting",
+    "label": "Zweig explains aces to Gell-Mann",
+    "description": "Zweig explained his concrete quark model (aces) to Gell-Mann, who dismissed it.",
+    "date": {
+      "display": "early fall of 1964",
+      "precision": "range",
+      "sort_start": "1964-09-01",
+      "sort_end": "1964-10-31"
+    },
+    "participants": [
+      {
+        "entity_id": "george_zweig",
+        "role": "participant"
+      },
+      {
+        "entity_id": "murray_gell_mann",
+        "role": "participant"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zweig_2010_memories",
+        "page": 9,
+        "quote": "When I went in to see Murray to\nexplain my ideas after returning from CERN in the early fall of 1964, he\nexclaimed \"Oh, the concrete quark model. That's for blockheads!\""
+      }
+    ]
+  },
+  {
+    "id": "scientific_american_draft_1971",
+    "event_type": "publication",
+    "label": "Attempted Scientific American article",
+    "description": "Gell-Mann and Zweig attempted to write a joint article on quarks but disagreed on meaning.",
+    "date": {
+      "display": "late 1971",
+      "precision": "range",
+      "sort_start": "1971-10-01",
+      "sort_end": "1971-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "murray_gell_mann",
+        "role": "author"
+      },
+      {
+        "entity_id": "george_zweig",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zweig_2010_memories",
+        "page": 14,
+        "quote": "In late 1971 he ﬂew Frank Bello, an associate editor, to Pasadena\nto help Murray and me write an article on quarks"
+      }
+    ]
+  },
+  {
+    "id": "schladming_lectures_1972",
+    "event_type": "conference",
+    "label": "Delivered Schladming lectures",
+    "description": "Gell-Mann delivered lectures titled 'Quarks' in Schladming, Austria.",
+    "date": {
+      "display": "end of February 1972",
+      "precision": "month",
+      "sort_start": "1972-02-20",
+      "sort_end": "1972-02-29"
+    },
+    "participants": [
+      {
+        "entity_id": "murray_gell_mann",
+        "role": "speaker"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zweig_2010_memories",
+        "page": 13,
+        "quote": "At the end of\nFebruary 1972, Murray\ndelivered a set of lectures in Schladming Austria titled \"Quarks\""
+      }
+    ]
+  },
+  {
+    "id": "feynman_nobel_nomination_1977",
+    "event_type": "award",
+    "label": "Feynman nominated Gell-Mann for Nobel",
+    "description": "Feynman nominated both Gell-Mann and Zweig for the Nobel Prize in Physics.",
+    "date": {
+      "display": "1977",
+      "precision": "year",
+      "sort_start": "1977-01-01",
+      "sort_end": "1977-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "richard_feynman",
+        "role": "nominator"
+      },
+      {
+        "entity_id": "murray_gell_mann",
+        "role": "nominee"
+      },
+      {
+        "entity_id": "george_zweig",
+        "role": "nominee"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zweig_2010_memories",
+        "page": 15,
+        "quote": "In 1977 Feynman nominated both of us for\nthe Nobel Prize in Physics."
+      }
+    ]
+  },
+  {
+    "id": "gell_mann_later_work",
+    "event_type": "role_change",
+    "label": "Shifted to complexity and linguistics",
+    "description": "Gell-Mann's work became less concerned with experiment, focusing on foundations, complexity, and linguistics.",
+    "date": {
+      "display": "Over the years",
+      "precision": "range",
+      "sort_start": "1977-01-01",
+      "sort_end": "2010-01-01"
+    },
+    "participants": [
+      {
+        "entity_id": "murray_gell_mann",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "zweig_2010_memories",
+        "page": 17,
+        "quote": "Murray worked on foun-\ndations of quantum theory, then complexity and linguistics."
+      }
+    ]
+  }
+]

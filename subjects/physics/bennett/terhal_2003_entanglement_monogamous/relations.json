@@ -1,0 +1,160 @@
+[
+  {
+    "id": "terhal_worked_at_ibm",
+    "source": "barbara_terhal",
+    "type": "worked_at",
+    "target": "ibm_watson",
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 1,
+        "quote": "IBM Watson Research Center, P .O. Box 218, Y orktown Heights, N Y 10598, USA"
+      }
+    ]
+  },
+  {
+    "id": "bennett_worked_at_ibm",
+    "source": "charles_bennett",
+    "type": "worked_at",
+    "target": "ibm_watson",
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 1,
+        "quote": "Not being at a university , Charlie has never assembled a large group of PhD students."
+      }
+    ]
+  },
+  {
+    "id": "terhal_mentored_by_bennett",
+    "source": "barbara_terhal",
+    "type": "supervised_by",
+    "target": "charles_bennett",
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 1,
+        "quote": "Like John Smolin and Ashish Thapliyal who did also their PhD work at IBM, I can say that Charlie Bennett is my 'scientiﬁc father '."
+      }
+    ]
+  },
+  {
+    "id": "smolin_phd_at_ibm",
+    "source": "john_smolin",
+    "type": "studied_at",
+    "target": "ibm_watson",
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 1,
+        "quote": "Like John Smolin and Ashish Thapliyal who did also their PhD work at IBM, I can say that Charlie Bennett is my 'scientiﬁc father '."
+      }
+    ]
+  },
+  {
+    "id": "thapliyal_phd_at_ibm",
+    "source": "ashish_thapliyal",
+    "type": "studied_at",
+    "target": "ibm_watson",
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 1,
+        "quote": "Like John Smolin and Ashish Thapliyal who did also their PhD work at IBM, I can say that Charlie Bennett is my 'scientiﬁc father '."
+      }
+    ]
+  },
+  {
+    "id": "holevo_worked_at_steklov",
+    "source": "alexander_holevo",
+    "type": "worked_at",
+    "target": "steklov_institute",
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 2,
+        "quote": "The most n otable in this group may be Alexander Holevo from the Steklov Mathematical Institut e in Russia who is still very active in modern quantum information theory ."
+      }
+    ]
+  },
+  {
+    "id": "devetak_worked_at_ibm",
+    "source": "igor_devetak",
+    "type": "worked_at",
+    "target": "ibm_watson",
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 6,
+        "quote": "The relation between establishment of secrecy or 'monogamo us' correlation between parties and the transmission of quantum information or enta nglement has been recently investigated by Igor Devetak at IBM and A. Winter in Bristol."
+      }
+    ]
+  },
+  {
+    "id": "winter_worked_at_bristol",
+    "source": "andrew_winter",
+    "type": "worked_at",
+    "target": "university_bristol",
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 6,
+        "quote": "The relation between establishment of secrecy or 'monogamo us' correlation between parties and the transmission of quantum information or enta nglement has been recently investigated by Igor Devetak at IBM and A. Winter in Bristol."
+      }
+    ]
+  },
+  {
+    "id": "bennett_invented_bb84",
+    "source": "charles_bennett",
+    "type": "invented",
+    "target": "bb84_protocol",
+    "event_id": "bb84_proposal_1984",
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 6,
+        "quote": "As you know, in 1984 Bennett and Brassard proposed a protocol for quantum key dis- tribution, a way of letting two people, Alice and Bob, share a set of random perfectly correlated bits about which no else has any or hardly any info rmation."
+      }
+    ]
+  },
+  {
+    "id": "bennett_published_mixed_state",
+    "source": "charles_bennett",
+    "type": "published",
+    "target": "mixed_state_paper",
+    "event_id": "bennett_mixed_state_1996",
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 6,
+        "quote": "A ﬁrst example of a mixed entangled state that is is not monogamous but shareable –the term is from Ben Schumacher–, can be found in the 1996 paper by Bennett et al. "
+      }
+    ]
+  },
+  {
+    "id": "bennett_invented_teleportation",
+    "source": "charles_bennett",
+    "type": "invented",
+    "target": "quantum_teleportation",
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 1,
+        "quote": "Charlie's inﬂuence in quantum information theory does not l imit itself to the direct ef- fects of his scientiﬁc work, quantum teleportation, quantu m key distribution, the frame- work of entanglement manipulations to name a few."
+      }
+    ]
+  },
+  {
+    "id": "bennett_lectured_tata",
+    "source": "charles_bennett",
+    "type": "visited",
+    "target": "tata_institute",
+    "sources": [
+      {
+        "source_id": "terhal_2003_entanglement_monogamous",
+        "page": 4,
+        "quote": "The ﬁrst quote is taken from a set of lectures that Bennett gav e at the Tata research institute in India."
+      }
+    ]
+  }
+]

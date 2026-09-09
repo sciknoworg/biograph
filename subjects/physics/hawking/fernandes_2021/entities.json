@@ -1,0 +1,130 @@
+[
+  {
+    "id": "stephen_hawking",
+    "entity_type": "person",
+    "name": "Stephen Hawking",
+    "aliases": [
+      "Hawking",
+      "Stephen"
+    ],
+    "summary": "Physicist and cosmologist known for work on black holes and the Big Bang Theory.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "jane_wilde",
+    "entity_type": "person",
+    "name": "Jane Wilde",
+    "aliases": [
+      "Jane",
+      "Jane Hawking"
+    ],
+    "summary": "Stephen Hawking's first wife and author of a memoir about their life.",
+    "subtype": "author"
+  },
+  {
+    "id": "cambridge_university",
+    "entity_type": "organization",
+    "name": "Cambridge University",
+    "aliases": [
+      "Cambridge"
+    ],
+    "summary": "University where Hawking completed his PhD and worked.",
+    "subtype": "university"
+  },
+  {
+    "id": "bbc",
+    "entity_type": "organization",
+    "name": "BBC",
+    "aliases": [],
+    "summary": "British broadcaster that produced the 2004 film Hawking.",
+    "subtype": "company"
+  },
+  {
+    "id": "universal_studios",
+    "entity_type": "organization",
+    "name": "Universal Studios",
+    "aliases": [],
+    "summary": "Film production company that produced The Theory of Everything.",
+    "subtype": "company"
+  },
+  {
+    "id": "fred_hoyle",
+    "entity_type": "person",
+    "name": "Fred Hoyle",
+    "aliases": [
+      "Hoyle"
+    ],
+    "summary": "Cosmologist who defended the Steady-state theory.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "roger_penrose",
+    "entity_type": "person",
+    "name": "Roger Penrose",
+    "aliases": [
+      "Penrose"
+    ],
+    "summary": "Mathematician and physicist who collaborated with Hawking.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "dennis_scama",
+    "entity_type": "person",
+    "name": "Dennis Sciama",
+    "aliases": [
+      "Sciama"
+    ],
+    "summary": "Physicist and Hawking's PhD advisor.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "arno_penzias",
+    "entity_type": "person",
+    "name": "Arno Penzias",
+    "aliases": [],
+    "summary": "Physicist who detected background radiation in 1965.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "robert_woodrow_wilson",
+    "entity_type": "person",
+    "name": "Robert Woodrow Wilson",
+    "aliases": [
+      "Wilson"
+    ],
+    "summary": "Physicist who detected background radiation in 1965.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "royal_society",
+    "entity_type": "organization",
+    "name": "Royal Society",
+    "aliases": [],
+    "summary": "Scientific academy where Hawking presented criticism of Hoyle's work.",
+    "subtype": "organization"
+  },
+  {
+    "id": "hawking_film",
+    "entity_type": "artifact",
+    "name": "Hawking",
+    "aliases": [],
+    "summary": "2004 biographical film produced by BBC.",
+    "subtype": "product"
+  },
+  {
+    "id": "theory_of_everything_film",
+    "entity_type": "artifact",
+    "name": "The Theory of Everything",
+    "aliases": [],
+    "summary": "2014 biographical film produced by Universal Studios.",
+    "subtype": "product"
+  },
+  {
+    "id": "brief_history_of_time",
+    "entity_type": "artifact",
+    "name": "A Brief History of Time",
+    "aliases": [],
+    "summary": "1988 science communication book by Stephen Hawking.",
+    "subtype": "publication"
+  }
+]

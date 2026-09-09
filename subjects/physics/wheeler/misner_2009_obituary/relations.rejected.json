@@ -1,0 +1,32 @@
+[
+  {
+    "id": "wheeler_born",
+    "source": "john_archibald_wheeler",
+    "type": "born_in",
+    "target": "john_archibald_wheeler",
+    "event_id": "wheeler_birth",
+    "sources": [
+      {
+        "source_id": "misner_2009_obituary",
+        "page": 675,
+        "quote": "John Archibald Wheeler (9 July 1911–13 April 2008)"
+      }
+    ],
+    "_rejected_because": "'born_in' expects target entity_type place, but 'john_archibald_wheeler' is 'person'"
+  },
+  {
+    "id": "wheeler_died",
+    "source": "john_archibald_wheeler",
+    "type": "died_in",
+    "target": "john_archibald_wheeler",
+    "event_id": "wheeler_death",
+    "sources": [
+      {
+        "source_id": "misner_2009_obituary",
+        "page": 675,
+        "quote": "John Archibald Wheeler (9 July 1911–13 April 2008)"
+      }
+    ],
+    "_rejected_because": "'died_in' expects target entity_type place, but 'john_archibald_wheeler' is 'person'"
+  }
+]

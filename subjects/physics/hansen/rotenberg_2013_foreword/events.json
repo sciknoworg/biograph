@@ -1,0 +1,82 @@
+[
+  {
+    "id": "hansen_birth",
+    "event_type": "birth",
+    "label": "Born in Luxembourg",
+    "date": {
+      "display": "10th of May 1942",
+      "precision": "day",
+      "sort_start": "1942-05-10",
+      "sort_end": "1942-05-10"
+    },
+    "participants": [
+      {
+        "entity_id": "jean_pierre_hansen",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rotenberg_2013_foreword",
+        "page": 1,
+        "quote": "Jean-Pierre Hansen was born in the Grand Duchy of Luxembourg, a landlocked country bordered by Belgium, Germany, and France, on the 10th of May 1942."
+      }
+    ]
+  },
+  {
+    "id": "hansen_graduated_liege",
+    "event_type": "education",
+    "label": "Graduated from Université de Liège",
+    "date": {
+      "display": "July 1964",
+      "precision": "month",
+      "sort_start": "1964-07-01",
+      "sort_end": "1964-07-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jean_pierre_hansen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "universite_de_liege",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rotenberg_2013_foreword",
+        "page": 1,
+        "quote": "He then switched to physics under the influence of the leading astrophysicist Paul Ledoux, and graduated in July 1964."
+      }
+    ]
+  },
+  {
+    "id": "hansen_phd_thesis",
+    "event_type": "education",
+    "label": "Presented Doctorat d'Etat thesis",
+    "date": {
+      "display": "June 1969",
+      "precision": "month",
+      "sort_start": "1969-06-01",
+      "sort_end": "1969-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "jean_pierre_hansen",
+        "role": "subject"
+      },
+      {
+        "entity_id": "loup_verlet",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rotenberg_2013_foreword",
+        "page": 1,
+        "quote": "Jean-Pierre started his "
+      }
+    ]
+  }
+]

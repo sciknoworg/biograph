@@ -1,0 +1,417 @@
+[
+  {
+    "id": "wren_birth",
+    "event_type": "birth",
+    "label": "Born in 1632",
+    "description": "Christopher Wren was born in the same year as van Leeuwenhoek and Spinoza.",
+    "date": {
+      "display": "1632",
+      "precision": "year",
+      "sort_start": "1632-01-01",
+      "sort_end": "1632-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_wren",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gibson_1970_bio_medical_pursuits",
+        "page": 2,
+        "quote": "His son was born in 1632, as were van Leeuwenhoek and Spinoza."
+      }
+    ]
+  },
+  {
+    "id": "wren_westminster_school",
+    "event_type": "education",
+    "label": "Left Westminster School at age 15",
+    "description": "Wren left Westminster School at fifteen and lived at Bletchington.",
+    "date": {
+      "display": "c. 1647",
+      "precision": "circa",
+      "sort_start": "1647-01-01",
+      "sort_end": "1647-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_wren",
+        "role": "subject"
+      },
+      {
+        "entity_id": "westminster_school",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gibson_1970_bio_medical_pursuits",
+        "page": 2,
+        "quote": "Scarburgh suggested that Wren should translate into Latin, the chapter in William Oughtred's Clavis Mathematicae on 'dialing', or the design of sun-dials."
+      },
+      {
+        "source_id": "gibson_1970_bio_medical_pursuits",
+        "page": 6,
+        "quote": "At the age of fifteen years, Wren wrote to his father that he had been befriended by Scarburgh"
+      }
+    ]
+  },
+  {
+    "id": "wren_wadham_entry",
+    "event_type": "education",
+    "label": "Entered Wadham College",
+    "description": "Wren entered Wadham College at the age of seventeen.",
+    "date": {
+      "display": "c. 1649",
+      "precision": "circa",
+      "sort_start": "1649-01-01",
+      "sort_end": "1649-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_wren",
+        "role": "subject"
+      },
+      {
+        "entity_id": "wadham_college",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gibson_1970_bio_medical_pursuits",
+        "page": 6,
+        "quote": "To return to Oxford we find Christopher Wren, at the age of seventeen, entering Wadham College."
+      }
+    ]
+  },
+  {
+    "id": "wren_all_souls_fellow",
+    "event_type": "employment_start",
+    "label": "Elected Fellow of All Souls",
+    "description": "Wren was elected a Fellow of All Souls College in 1653.",
+    "date": {
+      "display": "1653",
+      "precision": "year",
+      "sort_start": "1653-01-01",
+      "sort_end": "1653-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_wren",
+        "role": "subject"
+      },
+      {
+        "entity_id": "all_souls_college",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gibson_1970_bio_medical_pursuits",
+        "page": 6,
+        "quote": "The year 1653 saw the publishing of the first English edition of Harvey on the circulation, and found Wren a newly-elected Fellow of All Souls"
+      }
+    ]
+  },
+  {
+    "id": "wren_gresham_professor",
+    "event_type": "employment_start",
+    "label": "Appointed Gresham Professor of Astronomy",
+    "description": "Wren was transferred to London as Gresham Professor of Astronomy in 1657.",
+    "date": {
+      "display": "1657",
+      "precision": "year",
+      "sort_start": "1657-01-01",
+      "sort_end": "1657-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_wren",
+        "role": "subject"
+      },
+      {
+        "entity_id": "gresham_college",
+        "role": "employer"
+      },
+      {
+        "entity_id": "london",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gibson_1970_bio_medical_pursuits",
+        "page": 8,
+        "quote": "In 1657, the year of Harvey's death, Wren was being transferred to London as the youthful Gresham Professor of Astronomy."
+      }
+    ]
+  },
+  {
+    "id": "wren_iv_injection",
+    "event_type": "invention",
+    "label": "Invented intravenous therapy",
+    "description": "Wren made the great forward leap - the invention of intra-venous therapy, injecting substances into the bloodstream of animals.",
+    "date": {
+      "display": "c. 1656–1660",
+      "precision": "range",
+      "sort_start": "1656-01-01",
+      "sort_end": "1660-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_wren",
+        "role": "subject"
+      },
+      {
+        "entity_id": "robert_boyle",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gibson_1970_bio_medical_pursuits",
+        "page": 7,
+        "quote": "Wren made the great forward leap - the invention of intra-venous therapy - which has so greatly changed contemporary practice."
+      }
+    ]
+  },
+  {
+    "id": "royal_society_founding",
+    "event_type": "company_founded",
+    "label": "Royal Society founded",
+    "description": "Fourteen men met to form the Royal Society after Wren's lecture at Gresham College.",
+    "date": {
+      "display": "28 November 1660",
+      "precision": "day",
+      "sort_start": "1660-11-28",
+      "sort_end": "1660-11-28"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_wren",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_society",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gibson_1970_bio_medical_pursuits",
+        "page": 8,
+        "quote": "On 28 November 1660, after Wren's 'Wednesday lecture' at Gresham College, fourteen men, of whom a good proportion were physicians, met to form the Royal Society."
+      }
+    ]
+  },
+  {
+    "id": "wren_savilian_professor",
+    "event_type": "employment_start",
+    "label": "Appointed Savilian Professor of Astronomy",
+    "description": "Wren was appointed Savilian Professor of Astronomy at Oxford in 1660.",
+    "date": {
+      "display": "1660",
+      "precision": "year",
+      "sort_start": "1660-01-01",
+      "sort_end": "1660-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_wren",
+        "role": "subject"
+      },
+      {
+        "entity_id": "oxford_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gibson_1970_bio_medical_pursuits",
+        "page": 8,
+        "quote": "In the same year Wren was appointed Savilian Professor of Astronomy at Oxford, succeeding his Wadham friend Seth Ward"
+      }
+    ]
+  },
+  {
+    "id": "wren_cerebri_anatome",
+    "event_type": "publication",
+    "label": "Illustrated Cerebri Anatome",
+    "description": "Wren drew the illustrations for Willis's book Cerebri Anatome in 1663.",
+    "date": {
+      "display": "spring 1663",
+      "precision": "month",
+      "sort_start": "1663-03-01",
+      "sort_end": "1663-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_wren",
+        "role": "subject"
+      },
+      {
+        "entity_id": "thomas_willis",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "cerebri_anatome",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gibson_1970_bio_medical_pursuits",
+        "page": 9,
+        "quote": "During the spring of 1663 Wren drew the illustrations for much of Willis's great book Cerebri Anatome."
+      }
+    ]
+  },
+  {
+    "id": "wren_sheldonian_design",
+    "event_type": "other",
+    "label": "Designed Sheldonian Theatre",
+    "description": "Wren was designing the Sheldonian Theatre at Oxford in 1663.",
+    "date": {
+      "display": "1663",
+      "precision": "year",
+      "sort_start": "1663-01-01",
+      "sort_end": "1663-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_wren",
+        "role": "subject"
+      },
+      {
+        "entity_id": "sheldonian_theatre",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gibson_1970_bio_medical_pursuits",
+        "page": 9,
+        "quote": "While Wren was designing the Sheldonian Theatre at Oxford in 1663 he was doubling as Willis's trusted dissector."
+      }
+    ]
+  },
+  {
+    "id": "wren_micrographia_contribution",
+    "event_type": "publication",
+    "label": "Contributed to Micrographia",
+    "description": "Hooke acknowledged Wren as the first to attempt microscopic drawings in 1665.",
+    "date": {
+      "display": "1665",
+      "precision": "year",
+      "sort_start": "1665-01-01",
+      "sort_end": "1665-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_wren",
+        "role": "subject"
+      },
+      {
+        "entity_id": "robert_hooke",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "micrographia",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gibson_1970_bio_medical_pursuits",
+        "page": 10,
+        "quote": "We learn of the existence of this pioneer work by Wren through the quaint introduction to Micrographia written in 1665 by Robert Hooke"
+      }
+    ]
+  },
+  {
+    "id": "wren_sheldonian_opening",
+    "event_type": "public_demonstration",
+    "label": "Sheldonian Theatre opened",
+    "description": "The Sheldonian Theatre was opened in 1669.",
+    "date": {
+      "display": "1669",
+      "precision": "year",
+      "sort_start": "1669-01-01",
+      "sort_end": "1669-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_wren",
+        "role": "subject"
+      },
+      {
+        "entity_id": "sheldonian_theatre",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gibson_1970_bio_medical_pursuits",
+        "page": 11,
+        "quote": "at the opening of Wren's Sheldonian Theatre, in 1669"
+      }
+    ]
+  },
+  {
+    "id": "wren_royal_society_president",
+    "event_type": "role_change",
+    "label": "President of the Royal Society",
+    "description": "Wren served as President of the Royal Society in the 1680s.",
+    "date": {
+      "display": "1682",
+      "precision": "year",
+      "sort_start": "1682-01-01",
+      "sort_end": "1682-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_wren",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_society",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gibson_1970_bio_medical_pursuits",
+        "page": 10,
+        "quote": "As late as 1682 we find Wren, when President of the Royal Society, commenting on communications concerning the anatomy of the eye"
+      }
+    ]
+  },
+  {
+    "id": "wren_death",
+    "event_type": "death",
+    "label": "Died in ninety-first year",
+    "description": "Wren lived into his ninety-first year.",
+    "date": {
+      "display": "c. 1723",
+      "precision": "circa",
+      "sort_start": "1723-01-01",
+      "sort_end": "1723-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_wren",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gibson_1970_bio_medical_pursuits",
+        "page": 1,
+        "quote": "he nevertheless lived into his ninety-first year"
+      }
+    ]
+  }
+]

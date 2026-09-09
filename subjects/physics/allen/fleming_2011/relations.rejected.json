@@ -1,0 +1,32 @@
+[
+  {
+    "id": "participated_argus",
+    "source": "james_van_allen",
+    "type": "member_of",
+    "target": "project_argus",
+    "event_id": "argus_agreement",
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 11,
+        "quote": "he agreed to join Project Argus"
+      }
+    ],
+    "_rejected_because": "'member_of' expects target entity_type organization, but 'project_argus' is 'artifact'"
+  },
+  {
+    "id": "participated_starfish",
+    "source": "james_van_allen",
+    "type": "member_of",
+    "target": "project_starfish_prime",
+    "event_id": "starfish_prime",
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 11,
+        "quote": "Van Allen eagerly participated in A-bomb and even larger H-bomb detonations in space in Project Argus and Project Starfish Prime"
+      }
+    ],
+    "_rejected_because": "'member_of' expects target entity_type organization, but 'project_starfish_prime' is 'artifact'"
+  }
+]

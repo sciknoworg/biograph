@@ -1,0 +1,179 @@
+[
+  {
+    "id": "roy_glauber",
+    "entity_type": "person",
+    "name": "Roy Glauber",
+    "aliases": [
+      "Professor Roy Glauber",
+      "Roy"
+    ],
+    "summary": "Theoretical physicist known for quantum theory of optical coherence and high-energy collision theory.",
+    "subtype": "researcher",
+    "attributes": {
+      "nationality": "American"
+    }
+  },
+  {
+    "id": "per_osland",
+    "entity_type": "person",
+    "name": "Per Osland",
+    "aliases": [
+      "P. Osland"
+    ],
+    "summary": "Physicist and collaborator of Roy Glauber, based at the University of Bergen.",
+    "subtype": "researcher",
+    "attributes": {
+      "affiliation": "University of Bergen"
+    }
+  },
+  {
+    "id": "julian_schwinger",
+    "entity_type": "person",
+    "name": "Julian Schwinger",
+    "aliases": [
+      "Schwinger"
+    ],
+    "summary": "Theoretical physicist and PhD supervisor of Roy Glauber.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "victor_franco",
+    "entity_type": "person",
+    "name": "Victor Franco",
+    "aliases": [
+      "Franco"
+    ],
+    "summary": "PhD student of Roy Glauber involved in multiple scattering theory.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "marek_bleszynski",
+    "entity_type": "person",
+    "name": "Marek Bleszynski",
+    "aliases": [
+      "Bleszynski"
+    ],
+    "summary": "Physicist and collaborator with Glauber and Osland on asymptotic scattering.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "harvard_university",
+    "entity_type": "organization",
+    "name": "Harvard University",
+    "aliases": [
+      "Harvard"
+    ],
+    "summary": "University where Glauber spent most of his career and Osland was a postdoc.",
+    "subtype": "university",
+    "attributes": {
+      "location": "Cambridge, MA"
+    }
+  },
+  {
+    "id": "princeton_university",
+    "entity_type": "organization",
+    "name": "Princeton University",
+    "aliases": [
+      "Princeton"
+    ],
+    "summary": "University where Glauber worked briefly after his PhD.",
+    "subtype": "university"
+  },
+  {
+    "id": "caltech",
+    "entity_type": "organization",
+    "name": "California Institute of Technology",
+    "aliases": [
+      "Caltech"
+    ],
+    "summary": "Institute where Glauber worked briefly in the early 1950s.",
+    "subtype": "university"
+  },
+  {
+    "id": "los_alamos_national_laboratory",
+    "entity_type": "organization",
+    "name": "Los Alamos National Laboratory",
+    "aliases": [
+      "Los Alamos"
+    ],
+    "summary": "National laboratory where proton scattering experiments were performed.",
+    "subtype": "lab"
+  },
+  {
+    "id": "cern",
+    "entity_type": "organization",
+    "name": "CERN",
+    "aliases": [
+      "European Organization for Nuclear Research"
+    ],
+    "summary": "Research organization where Glauber and Osland overlapped and collaborated.",
+    "subtype": "lab",
+    "attributes": {
+      "location": "Geneva, Switzerland"
+    }
+  },
+  {
+    "id": "university_of_bergen",
+    "entity_type": "organization",
+    "name": "University of Bergen",
+    "aliases": [
+      "Bergen"
+    ],
+    "summary": "University where Per Osland is based and Glauber visited.",
+    "subtype": "university",
+    "attributes": {
+      "location": "Bergen, Norway"
+    }
+  },
+  {
+    "id": "manhattan_project",
+    "entity_type": "organization",
+    "name": "Manhattan Project",
+    "aliases": [],
+    "summary": "WWII research project where Glauber had his first appointment.",
+    "subtype": "project"
+  },
+  {
+    "id": "nobel_prize_physics_2005",
+    "entity_type": "artifact",
+    "name": "Nobel Prize in Physics 2005",
+    "aliases": [
+      "2005 Nobel Prize in Physics"
+    ],
+    "summary": "Award given to Glauber for contribution to quantum theory of optical coherence.",
+    "subtype": "award"
+  },
+  {
+    "id": "hercegnovi",
+    "entity_type": "place",
+    "name": "Hercegnovi",
+    "aliases": [],
+    "summary": "Location of a summer school where Osland first met Glauber.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Yugoslavia"
+    }
+  },
+  {
+    "id": "surrey_uk",
+    "entity_type": "place",
+    "name": "Surrey",
+    "aliases": [],
+    "summary": "Location of the 24th European Few Body Conference.",
+    "subtype": "city",
+    "attributes": {
+      "country": "UK"
+    }
+  },
+  {
+    "id": "trondheim",
+    "entity_type": "place",
+    "name": "Trondheim",
+    "aliases": [],
+    "summary": "Location where Osland did his thesis work.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Norway"
+    }
+  }
+]

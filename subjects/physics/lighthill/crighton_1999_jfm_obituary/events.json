@@ -1,0 +1,352 @@
+[
+  {
+    "id": "lighthill_death",
+    "event_type": "death",
+    "label": "Died during swim around Sark",
+    "description": "Died at the end of a ten-hour swim round the Channel Island of Sark due to a mitral valve weakness.",
+    "date": {
+      "display": "17 July 1998",
+      "precision": "day",
+      "sort_start": "1998-07-17",
+      "sort_end": "1998-07-17"
+    },
+    "location": "sark",
+    "participants": [
+      {
+        "entity_id": "james_lighthill",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "crighton_1999_jfm_obituary",
+        "page": 1,
+        "quote": "James Lighthill died on 17 July 1998, at the end of a ten-hour swim round the Channel Island of Sark."
+      }
+    ]
+  },
+  {
+    "id": "jfm_inception",
+    "event_type": "company_founded",
+    "label": "JFM inception",
+    "description": "Journal of Fluid Mechanics began publication.",
+    "date": {
+      "display": "May 1956",
+      "precision": "month",
+      "sort_start": "1956-05-01",
+      "sort_end": "1956-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "journal_of_fluid_mechanics",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "crighton_1999_jfm_obituary",
+        "page": 1,
+        "quote": "Lighthill was an Associate Editor of JFM from its inception in May 1956 to the end of June 1979"
+      }
+    ]
+  },
+  {
+    "id": "lighthill_ae_start",
+    "event_type": "employment_start",
+    "label": "Started as JFM Associate Editor",
+    "date": {
+      "display": "May 1956",
+      "precision": "month",
+      "sort_start": "1956-05-01",
+      "sort_end": "1956-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "james_lighthill",
+        "role": "subject"
+      },
+      {
+        "entity_id": "journal_of_fluid_mechanics",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "crighton_1999_jfm_obituary",
+        "page": 1,
+        "quote": "Lighthill was an Associate Editor of JFM from its inception in May 1956 to the end of June 1979"
+      }
+    ]
+  },
+  {
+    "id": "lighthill_ae_end",
+    "event_type": "employment_end",
+    "label": "Ended role as JFM Associate Editor",
+    "date": {
+      "display": "June 1979",
+      "precision": "month",
+      "sort_start": "1979-06-01",
+      "sort_end": "1979-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "james_lighthill",
+        "role": "subject"
+      },
+      {
+        "entity_id": "journal_of_fluid_mechanics",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "crighton_1999_jfm_obituary",
+        "page": 1,
+        "quote": "Lighthill was an Associate Editor of JFM from its inception in May 1956 to the end of June 1979"
+      }
+    ]
+  },
+  {
+    "id": "lighthill_first_jfm_paper",
+    "event_type": "publication",
+    "label": "Published first JFM paper",
+    "description": "Published first paper in JFM vol. 1.",
+    "date": {
+      "display": "1956",
+      "precision": "year",
+      "sort_start": "1956-01-01",
+      "sort_end": "1956-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "james_lighthill",
+        "role": "subject"
+      },
+      {
+        "entity_id": "journal_of_fluid_mechanics",
+        "role": "publication"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "crighton_1999_jfm_obituary",
+        "page": 1,
+        "quote": "the first in vol. 1, 1956, pp. 31–53"
+      }
+    ]
+  },
+  {
+    "id": "lighthill_last_jfm_paper",
+    "event_type": "publication",
+    "label": "Published most recent JFM paper",
+    "description": "Published most recent paper in JFM vol. 239.",
+    "date": {
+      "display": "1992",
+      "precision": "year",
+      "sort_start": "1992-01-01",
+      "sort_end": "1992-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "james_lighthill",
+        "role": "subject"
+      },
+      {
+        "entity_id": "journal_of_fluid_mechanics",
+        "role": "publication"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "crighton_1999_jfm_obituary",
+        "page": 1,
+        "quote": "the most recent in vol. 239, 1992, pp. 551–606"
+      }
+    ]
+  },
+  {
+    "id": "lighthill_review_townsend",
+    "event_type": "publication",
+    "label": "Reviewed Townsend book",
+    "description": "Reviewed 'The Structure of Turbulent Shear Flow' by A. A. Townsend.",
+    "date": {
+      "display": "1956",
+      "precision": "year",
+      "sort_start": "1956-01-01",
+      "sort_end": "1956-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "james_lighthill",
+        "role": "subject"
+      },
+      {
+        "entity_id": "a_a_townsend",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "crighton_1999_jfm_obituary",
+        "page": 2,
+        "quote": "of The Structure of Turbulent Shear Flow by A. A. Townsend (vol. 1, 1956, pp. 554–560)"
+      }
+    ]
+  },
+  {
+    "id": "lighthill_review_birkhoff",
+    "event_type": "publication",
+    "label": "Reviewed Birkhoff book",
+    "description": "Reviewed 'Jets, Wakes and Cavities' by Garrett Birkhoff and E. H. Zarantonello.",
+    "date": {
+      "display": "1958",
+      "precision": "year",
+      "sort_start": "1958-01-01",
+      "sort_end": "1958-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "james_lighthill",
+        "role": "subject"
+      },
+      {
+        "entity_id": "garrett_birkhoff",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "crighton_1999_jfm_obituary",
+        "page": 2,
+        "quote": "of Jets, Wakes and Cavities, by Garrett Birkhoff and E. H. Zarantonello (vol. 3, 1958, 437–440)"
+      }
+    ]
+  },
+  {
+    "id": "lighthill_review_goldstein",
+    "event_type": "publication",
+    "label": "Reviewed Goldstein book",
+    "description": "Reviewed 'Lectures on Fluid Mechanics' by S. Goldstein and J. M. Burgers.",
+    "date": {
+      "display": "1961",
+      "precision": "year",
+      "sort_start": "1961-01-01",
+      "sort_end": "1961-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "james_lighthill",
+        "role": "subject"
+      },
+      {
+        "entity_id": "sydney_goldstein",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "crighton_1999_jfm_obituary",
+        "page": 2,
+        "quote": "in a review (vol. 11, 1961, pp. 319–320) of Lectures on Fluid Mechanics by S. Goldstein and J. M. Burgers"
+      }
+    ]
+  },
+  {
+    "id": "lighthill_review_jones",
+    "event_type": "publication",
+    "label": "Reviewed Jones book",
+    "description": "Reviewed 'Collected Works of R. T. Jones'.",
+    "date": {
+      "display": "1978",
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "james_lighthill",
+        "role": "subject"
+      },
+      {
+        "entity_id": "r_t_jones",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "crighton_1999_jfm_obituary",
+        "page": 2,
+        "quote": "of Collected Works of R. T. Jones (vol. 84, 1978, pp. 598–608)"
+      }
+    ]
+  },
+  {
+    "id": "lighthill_review_caro",
+    "event_type": "publication",
+    "label": "Reviewed Caro book",
+    "description": "Reviewed 'The Mechanics of the Circulation' by G. G. Caro et al.",
+    "date": {
+      "display": "1979",
+      "precision": "year",
+      "sort_start": "1979-01-01",
+      "sort_end": "1979-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "james_lighthill",
+        "role": "subject"
+      },
+      {
+        "entity_id": "g_g_caro",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "crighton_1999_jfm_obituary",
+        "page": 2,
+        "quote": "and of The Mechanics of the Circulation ,b yG .G .C a r o , T. J. Pedley, R. C. Schroter and W. A. Seed (vol. 90, 1979, pp. 794–797)"
+      }
+    ]
+  },
+  {
+    "id": "lighthill_interview_bruen",
+    "event_type": "meeting",
+    "label": "Interviewed by Robert Bruen",
+    "date": {
+      "display": "December 1992",
+      "precision": "month",
+      "sort_start": "1992-12-01",
+      "sort_end": "1992-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "james_lighthill",
+        "role": "subject"
+      },
+      {
+        "entity_id": "robert_bruen",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "crighton_1999_jfm_obituary",
+        "page": 3,
+        "quote": "(interview between Lighthill and Mr Robert Bruen, December 1992)"
+      }
+    ]
+  }
+]

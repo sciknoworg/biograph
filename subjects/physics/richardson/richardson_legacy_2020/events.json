@@ -1,0 +1,462 @@
+[
+  {
+    "id": "birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1881",
+      "precision": "year",
+      "sort_start": "1881-01-01",
+      "sort_end": "1881-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lewis_fry_richardson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richardson_legacy_2020",
+        "page": 26,
+        "quote": "Lewis Fry Richardson (1881–1953)"
+      }
+    ]
+  },
+  {
+    "id": "death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1953",
+      "precision": "year",
+      "sort_start": "1953-01-01",
+      "sort_end": "1953-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lewis_fry_richardson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richardson_legacy_2020",
+        "page": 26,
+        "quote": "Lewis Fry Richardson (1881–1953)"
+      }
+    ]
+  },
+  {
+    "id": "join_ambulance_unit",
+    "event_type": "employment_start",
+    "label": "Joined Friends Ambulance Unit",
+    "date": {
+      "display": "1916",
+      "precision": "year",
+      "sort_start": "1916-01-01",
+      "sort_end": "1916-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lewis_fry_richardson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "friends_ambulance_unit",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richardson_legacy_2020",
+        "page": 8,
+        "quote": "he eventually resigned from his position in order to join the ambulance unit in 1916."
+      }
+    ]
+  },
+  {
+    "id": "resign_met_office_wwi",
+    "event_type": "employment_end",
+    "label": "Resigned from Meteorological Office",
+    "date": {
+      "display": "1916",
+      "precision": "year",
+      "sort_start": "1916-01-01",
+      "sort_end": "1916-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lewis_fry_richardson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "meteorological_office",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richardson_legacy_2020",
+        "page": 8,
+        "quote": "he eventually resigned from his position in order to join the ambulance unit in 1916."
+      }
+    ]
+  },
+  {
+    "id": "rejoin_met_office",
+    "event_type": "employment_start",
+    "label": "Rejoined Meteorological Office",
+    "date": {
+      "display": "1919",
+      "precision": "year",
+      "sort_start": "1919-01-01",
+      "sort_end": "1919-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lewis_fry_richardson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "meteorological_office",
+        "role": "employer"
+      },
+      {
+        "entity_id": "benson_observatory",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richardson_legacy_2020",
+        "page": 8,
+        "quote": "He rejoined the Met Office in 1919 at Benson Observatory."
+      }
+    ]
+  },
+  {
+    "id": "resign_met_office_air_ministry",
+    "event_type": "employment_end",
+    "label": "Resigned from Meteorological Office",
+    "date": {
+      "display": "1920",
+      "precision": "year",
+      "sort_start": "1920-01-01",
+      "sort_end": "1920-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lewis_fry_richardson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "meteorological_office",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richardson_legacy_2020",
+        "page": 8,
+        "quote": "However, in 1920 the Met Office was transferred to the Air Ministry, and Richardson resigned."
+      }
+    ]
+  },
+  {
+    "id": "publish_weather_prediction",
+    "event_type": "publication",
+    "label": "Published Weather Prediction by Numerical Process",
+    "date": {
+      "display": "1922",
+      "precision": "year",
+      "sort_start": "1922-01-01",
+      "sort_end": "1922-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lewis_fry_richardson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "weather_prediction_by_numerical_process",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richardson_legacy_2020",
+        "page": 2,
+        "quote": "Richardson's publications in meteorology, notably Weather Prediction by Numerical Process (Richardson, 1922)"
+      }
+    ]
+  },
+  {
+    "id": "publish_atmospheric_diffusion",
+    "event_type": "publication",
+    "label": "Published Atmospheric Diffusion Article",
+    "date": {
+      "display": "1926",
+      "precision": "year",
+      "sort_start": "1926-01-01",
+      "sort_end": "1926-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lewis_fry_richardson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "atmospheric_diffusion_article",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richardson_legacy_2020",
+        "page": 2,
+        "quote": "and a later article on atmospheric diffusion (Richardson, 1926), remain his most frequently cited items."
+      }
+    ]
+  },
+  {
+    "id": "start_paisley",
+    "event_type": "employment_start",
+    "label": "Started Teaching at Paisley Technical College",
+    "date": {
+      "display": "1929",
+      "precision": "year",
+      "sort_start": "1929-01-01",
+      "sort_end": "1929-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lewis_fry_richardson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "paisley_technical_college",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richardson_legacy_2020",
+        "page": 2,
+        "quote": "notably at Paisley Technical College (1929–40)."
+      }
+    ]
+  },
+  {
+    "id": "end_paisley",
+    "event_type": "employment_end",
+    "label": "Ended Teaching at Paisley Technical College",
+    "date": {
+      "display": "1940",
+      "precision": "year",
+      "sort_start": "1940-01-01",
+      "sort_end": "1940-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lewis_fry_richardson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "paisley_technical_college",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richardson_legacy_2020",
+        "page": 2,
+        "quote": "notably at Paisley Technical College (1929–40)."
+      }
+    ]
+  },
+  {
+    "id": "retire",
+    "event_type": "retirement",
+    "label": "Retired",
+    "date": {
+      "display": "c. 1940",
+      "precision": "circa",
+      "sort_start": "1940-01-01",
+      "sort_end": "1940-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lewis_fry_richardson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richardson_legacy_2020",
+        "page": 2,
+        "quote": "It was only after retirement, for the last 13 years of his life, that he was able to devote himself full-time to research."
+      }
+    ]
+  },
+  {
+    "id": "publish_arms_and_insecurity",
+    "event_type": "publication",
+    "label": "Published Arms and Insecurity",
+    "date": {
+      "display": "1960",
+      "precision": "year",
+      "sort_start": "1960-01-01",
+      "sort_end": "1960-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lewis_fry_richardson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "arms_and_insecurity",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richardson_legacy_2020",
+        "page": 3,
+        "quote": "with Arms and Insecurity (Richardson, 1960a) a little ahead of Statistics of Deadly Quarrels (1960b)."
+      }
+    ]
+  },
+  {
+    "id": "publish_statistics_deadly_quarrels",
+    "event_type": "publication",
+    "label": "Published Statistics of Deadly Quarrels",
+    "date": {
+      "display": "1960",
+      "precision": "year",
+      "sort_start": "1960-01-01",
+      "sort_end": "1960-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lewis_fry_richardson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "statistics_of_deadly_quarrels",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richardson_legacy_2020",
+        "page": 3,
+        "quote": "with Arms and Insecurity (Richardson, 1960a) a little ahead of Statistics of Deadly Quarrels (1960b)."
+      }
+    ]
+  },
+  {
+    "id": "richardson_wing_opened",
+    "event_type": "product_launch",
+    "label": "Richardson Wing Opened",
+    "date": {
+      "display": "1972",
+      "precision": "year",
+      "sort_start": "1972-01-01",
+      "sort_end": "1972-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "richardson_wing",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richardson_legacy_2020",
+        "page": 2,
+        "quote": "In 1972, British Prime Minister Edward Heath opened a new wing of the Headquarters Building of the Meteorological Office named the Richardson Wing."
+      }
+    ]
+  },
+  {
+    "id": "lf_richardson_prize_established",
+    "event_type": "award",
+    "label": "LF Richardson Prize Established",
+    "date": {
+      "display": "1960",
+      "precision": "year",
+      "sort_start": "1960-01-01",
+      "sort_end": "1960-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "royal_meteorological_society",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "lf_richardson_prize",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richardson_legacy_2020",
+        "page": 2,
+        "quote": "In 1960, the Royal Meteorological Society established the annual LF Richardson Prize for meritorious papers by young authors in one of the journals of the society."
+      }
+    ]
+  },
+  {
+    "id": "lf_richardson_medal_first_awarded",
+    "event_type": "award",
+    "label": "Lewis Fry Richardson Medal First Awarded",
+    "date": {
+      "display": "1997",
+      "precision": "year",
+      "sort_start": "1997-01-01",
+      "sort_end": "1997-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "european_geosciences_union",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "lewis_fry_richardson_medal",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richardson_legacy_2020",
+        "page": 2,
+        "quote": "Since 1997, The European Geosciences Union has awarded the Lewis Fry Richardson Medal for 'exceptional contributions to nonlinear geophysics in general'."
+      }
+    ]
+  },
+  {
+    "id": "lf_richardson_lifetime_award_first",
+    "event_type": "award",
+    "label": "Lewis F Richardson Lifetime Award First Given",
+    "date": {
+      "display": "2001",
+      "precision": "year",
+      "sort_start": "2001-01-01",
+      "sort_end": "2001-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lewis_f_richardson_lifetime_award",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richardson_legacy_2020",
+        "page": 2,
+        "quote": "And from 2001, scholars who have spent most of their academic life in Europe and who have made exemplary scholarly contributions to the scientific study of militarized conflict, have been honored with the Lewis F Richardson Lifetime Award, with Michael Nicholson as the first recipient."
+      }
+    ]
+  }
+]

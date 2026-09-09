@@ -1,0 +1,192 @@
+[
+  {
+    "aliases": [
+      "Ampère"
+    ],
+    "entity_type": "person",
+    "id": "andre_marie_ampere",
+    "name": "André-Marie Ampère",
+    "subtype": "researcher",
+    "summary": "French physicist and mathematician who founded the branch of physics called electrodynamics."
+  },
+  {
+    "aliases": [
+      "Oersted"
+    ],
+    "entity_type": "person",
+    "id": "hans_christian_oersted",
+    "name": "Hans Christian Oersted",
+    "subtype": "researcher",
+    "summary": "Danish physicist who discovered the interaction between a magnetic needle and an electric current."
+  },
+  {
+    "aliases": [
+      "Julie"
+    ],
+    "entity_type": "person",
+    "id": "julie_carron",
+    "name": "Julie Carron",
+    "subtype": "family",
+    "summary": "First wife of André-Marie Ampère."
+  },
+  {
+    "aliases": [
+      "Jenny Potot",
+      "Jeanne"
+    ],
+    "entity_type": "person",
+    "id": "jeanne_potot",
+    "name": "Jeanne Potot",
+    "subtype": "family",
+    "summary": "Second wife of André-Marie Ampère."
+  },
+  {
+    "aliases": [
+      "Albine Ampère"
+    ],
+    "entity_type": "person",
+    "id": "albine_ampere",
+    "name": "Albine",
+    "subtype": "family",
+    "summary": "Daughter of André-Marie Ampère and Jeanne Potot."
+  },
+  {
+    "aliases": [
+      "Jean-Jacques Ampère"
+    ],
+    "entity_type": "person",
+    "id": "jean_jacques_ampere",
+    "name": "Jean-Jacques",
+    "subtype": "family",
+    "summary": "Son of André-Marie Ampère."
+  },
+  {
+    "aliases": [
+      "Joséphine Ampère"
+    ],
+    "entity_type": "person",
+    "id": "josephine_ampere",
+    "name": "Joséphine",
+    "subtype": "family",
+    "summary": "Unmarried sister of André-Marie Ampère."
+  },
+  {
+    "aliases": [
+      "Bredin"
+    ],
+    "entity_type": "person",
+    "id": "claude_julien_bredin",
+    "name": "Claude-Julien Bredin",
+    "subtype": "friend",
+    "summary": "Friend of André-Marie Ampère in Lyon."
+  },
+  {
+    "aliases": [
+      "Biran"
+    ],
+    "entity_type": "person",
+    "id": "maine_de_biran",
+    "name": "Maine de Biran",
+    "subtype": "philosopher",
+    "summary": "Philosopher friend of André-Marie Ampère."
+  },
+  {
+    "aliases": [
+      "Colladon"
+    ],
+    "entity_type": "person",
+    "id": "jean_daniel_colladon",
+    "name": "Jean-Daniel Colladon",
+    "subtype": "researcher",
+    "summary": "Physicist who collaborated with Ampère on magnetism experiments."
+  },
+  {
+    "aliases": [
+      "Institut",
+      "First Class of the Institut National"
+    ],
+    "entity_type": "organization",
+    "id": "institut_national",
+    "name": "Institut National",
+    "subtype": "academy",
+    "summary": "French learned society where Ampère was elected to the mathematics section."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "college_de_france",
+    "name": "Collège de France",
+    "subtype": "university",
+    "summary": "French research institution where Ampère demonstrated experiments."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "France"
+    },
+    "entity_type": "place",
+    "id": "lyon",
+    "name": "Lyon",
+    "subtype": "city",
+    "summary": "City in France where Ampère lived in his youth."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "France"
+    },
+    "entity_type": "place",
+    "id": "paris",
+    "name": "Paris",
+    "subtype": "city",
+    "summary": "Capital city of France where Ampère worked."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "France"
+    },
+    "entity_type": "place",
+    "id": "poleymieux",
+    "name": "Poleymieux",
+    "subtype": "town",
+    "summary": "Location of Ampère's property before 1818."
+  },
+  {
+    "aliases": [
+      "equilibrium demonstrations",
+      "first equilibrium apparatus"
+    ],
+    "entity_type": "artifact",
+    "id": "equilibrium_apparatus",
+    "name": "Equilibrium apparatus",
+    "subtype": "invention",
+    "summary": "Experimental device invented by Ampère to demonstrate electrodynamic force equilibrium."
+  },
+  {
+    "aliases": [
+      "Théorie des phénomènes électro-dynamiques, uniquement déduite de l'expérience"
+    ],
+    "entity_type": "artifact",
+    "id": "theorie_des_phenomenes_electro_dynamiques",
+    "name": "Théorie des phénomènes électro-dynamiques",
+    "subtype": "publication",
+    "summary": "Ampère's 1826 comprehensive publication on electrodynamics."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "essai_sur_la_philosophie_des_sciences",
+    "name": "Essai sur la Philosophie des sciences",
+    "subtype": "publication",
+    "summary": "Ampère's 1834 work on the classification of sciences."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "annales_de_chimie",
+    "name": "Annales de Chimie",
+    "subtype": "publication",
+    "summary": "Journal where Ampère published a 1814 paper on molecular structure."
+  }
+]

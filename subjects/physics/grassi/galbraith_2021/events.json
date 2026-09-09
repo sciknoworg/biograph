@@ -1,0 +1,227 @@
+[
+  {
+    "id": "clavius_birth",
+    "event_type": "birth",
+    "label": "Born in Bamberg",
+    "description": "Christopher Clavius is born.",
+    "date": {
+      "display": "c. 1538",
+      "precision": "circa",
+      "sort_start": "1538-01-01",
+      "sort_end": "1538-12-31"
+    },
+    "location": "bamberg",
+    "participants": [
+      {
+        "entity_id": "christopher_clavius",
+        "role": "subject"
+      }
+    ],
+    "certainty": "approximate",
+    "sources": [
+      {
+        "source_id": "galbraith_2021",
+        "page": 4,
+        "quote": "1538 (c.) ……... Christopher Clavius is born"
+      },
+      {
+        "source_id": "galbraith_2021",
+        "page": 84,
+        "quote": "Clavius was born in Bamberg, Germany a few years before the Jesuits were founded."
+      }
+    ]
+  },
+  {
+    "id": "clavius_joins_jesuits",
+    "event_type": "employment_start",
+    "label": "Received into Society of Jesus",
+    "description": "Clavius was received into the Society at the hands of Ignatius of Loyola.",
+    "date": {
+      "display": "c. 1551",
+      "precision": "circa",
+      "sort_start": "1551-01-01",
+      "sort_end": "1551-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_clavius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "society_of_jesus",
+        "role": "employer"
+      },
+      {
+        "entity_id": "ignatius_of_loyola",
+        "role": "supervisor"
+      }
+    ],
+    "certainty": "approximate",
+    "sources": [
+      {
+        "source_id": "galbraith_2021",
+        "page": 85,
+        "quote": "Clavius was received into the Society at the hands of Ignatius of Loyola, and at the age of thirteen was sent to the Jesuit college in Coimbra in Portugal to begin his studies."
+      }
+    ]
+  },
+  {
+    "id": "clavius_appointed_professor",
+    "event_type": "employment_start",
+    "label": "Appointed mathematics professor at Collegio Romano",
+    "date": {
+      "display": "1560",
+      "precision": "year",
+      "sort_start": "1560-01-01",
+      "sort_end": "1560-12-31"
+    },
+    "location": "rome",
+    "participants": [
+      {
+        "entity_id": "christopher_clavius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "collegio_romano",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "galbraith_2021",
+        "page": 4,
+        "quote": "1560 …………. Clavius is appointed mathematics professor at the Collegio Romano"
+      }
+    ]
+  },
+  {
+    "id": "clavius_final_vows",
+    "event_type": "role_change",
+    "label": "Made final vows",
+    "description": "Clavius did not make a commitment of final vows until 1575 at the age of thirty-seven.",
+    "date": {
+      "display": "1575",
+      "precision": "year",
+      "sort_start": "1575-01-01",
+      "sort_end": "1575-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_clavius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "society_of_jesus",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "galbraith_2021",
+        "page": 85,
+        "quote": "Clavius was ordained after nine years but did not make a commitment of final vows until 1575 at the age of thirty -seven."
+      }
+    ]
+  },
+  {
+    "id": "calendar_reform_appointment",
+    "event_type": "role_change",
+    "label": "Appointed to calendar reform committee",
+    "description": "Christopher Clavius was appointed by Pope Gregory XIII to a papal committee that was tasked with the reform of the Julian calendar.",
+    "date": {
+      "display": "early 1580s",
+      "precision": "range",
+      "sort_start": "1580-01-01",
+      "sort_end": "1584-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_clavius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "pope_gregory_xiii",
+        "role": "appointer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "galbraith_2021",
+        "page": 82,
+        "quote": "In the early 1580s, Christopher Clavius was appointed by Pope Gregory XIII to a papal committee that was tasked with the reform of the Julian calendar."
+      }
+    ]
+  },
+  {
+    "id": "calendar_promulgation",
+    "event_type": "publication",
+    "label": "Gregorian Calendar promulgated",
+    "description": "One solution, the Gregorian Calendar, was promulgated by the pope in 1582.",
+    "date": {
+      "display": "1582",
+      "precision": "year",
+      "sort_start": "1582-01-01",
+      "sort_end": "1582-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pope_gregory_xiii",
+        "role": "subject"
+      },
+      {
+        "entity_id": "christopher_clavius",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "gregorian_calendar",
+        "role": "publication"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "galbraith_2021",
+        "page": 4,
+        "quote": "1582 …………. Gregorian Calendar Inter gravissimas"
+      },
+      {
+        "source_id": "galbraith_2021",
+        "page": 82,
+        "quote": "One solution, the Gregorian Calendar, was promulgated by the pope in 1582."
+      }
+    ]
+  },
+  {
+    "id": "clavius_death",
+    "event_type": "death",
+    "label": "Death of Clavius",
+    "date": {
+      "display": "1612",
+      "precision": "year",
+      "sort_start": "1612-01-01",
+      "sort_end": "1612-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christopher_clavius",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "galbraith_2021",
+        "page": 4,
+        "quote": "1612 …………. Death of Clavius"
+      },
+      {
+        "source_id": "galbraith_2021",
+        "page": 14,
+        "quote": "Clavius died in 1612"
+      }
+    ]
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "wallis_worked_oxford",
+    "source": "john_wallis",
+    "type": "worked_at",
+    "target": "university_of_oxford",
+    "event_id": "wallis_savilian_appointment",
+    "sources": [
+      {
+        "source_id": "richter_2018",
+        "page": 3,
+        "quote": "During the Civil War period, Wallis was on a trajectory for a clerical career before Parliament installed him as Savilian Professor in 1649 to replace Peter Turner, a Royalist."
+      }
+    ]
+  },
+  {
+    "id": "wallis_studied_cambridge",
+    "source": "john_wallis",
+    "type": "studied_at",
+    "target": "emmanuel_college_cambridge",
+    "event_id": "wallis_matriculation",
+    "sources": [
+      {
+        "source_id": "richter_2018",
+        "page": 3,
+        "quote": "Wallis attended grammar schools in Kent and Essex before matriculating in 1632 at Emmanuel College, Cambridge, which was known for training Puritan ministers."
+      }
+    ]
+  },
+  {
+    "id": "wallis_member_royal_society",
+    "source": "john_wallis",
+    "type": "member_of",
+    "target": "royal_society",
+    "event_id": "wallis_royal_society_founder",
+    "sources": [
+      {
+        "source_id": "richter_2018",
+        "page": 2,
+        "quote": "It is occasions such as the proceedings of the Westminster Assembly of Divines, which Wallis attended as a secretary, and the founding of the Royal Society of London, of which Wallis was one of the original members, that form the bulk of his apologia pro sua vita."
+      }
+    ]
+  },
+  {
+    "id": "wallis_collaborated_wren",
+    "source": "john_wallis",
+    "type": "collaborated_with",
+    "target": "christopher_wren",
+    "event_id": "wallis_laws_of_motion",
+    "sources": [
+      {
+        "source_id": "richter_2018",
+        "page": 63,
+        "quote": "As such, along with Christopher Wren and Christiaan Huygens, Wallis was one of three Fellows who wrote treatises on the laws of motion in 1668 upon request from the Society."
+      }
+    ]
+  },
+  {
+    "id": "wallis_collaborated_huygens",
+    "source": "john_wallis",
+    "type": "collaborated_with",
+    "target": "christiaan_huygens",
+    "event_id": "wallis_laws_of_motion",
+    "sources": [
+      {
+        "source_id": "richter_2018",
+        "page": 63,
+        "quote": "As such, along with Christopher Wren and Christiaan Huygens, Wallis was one of three Fellows who wrote treatises on the laws of motion in 1668 upon request from the Society."
+      }
+    ]
+  },
+  {
+    "id": "wallis_opposed_hobbes",
+    "source": "john_wallis",
+    "type": "met",
+    "target": "thomas_hobbes",
+    "note": "Wallis engaged in mathematical and theological disputes with Hobbes.",
+    "sources": [
+      {
+        "source_id": "richter_2018",
+        "page": 9,
+        "quote": "Wallis, though a cleric, was a prominent member of the intellectual community in which these secular theologians flourished. Furthermore, just like these more famous contemporaries, Wallis sometimes perceived tension between natural and theological knowledge, but this tension was by no means an insurmountable obstacle."
+      }
+    ]
+  },
+  {
+    "id": "wallis_supported_newton",
+    "source": "john_wallis",
+    "type": "collaborated_with",
+    "target": "isaac_newton",
+    "note": "Wallis supported Newton in his priority dispute over calculus with Leibniz.",
+    "sources": [
+      {
+        "source_id": "richter_2018",
+        "page": 13,
+        "quote": "In addition, Wallis's role in supporting Newton in his priority dispute over calculus with Leibniz—he included Newton's letters on the subject in later mathematical publications—has only reinforced the perception of Wallis as a precursor to Newton in mathematics."
+      }
+    ]
+  },
+  {
+    "id": "wallis_presided_oxford_phil",
+    "source": "john_wallis",
+    "type": "worked_at",
+    "target": "oxford_philosophical_society",
+    "note": "Wallis served as president of the Oxford Philosophical Society during the 1680s.",
+    "sources": [
+      {
+        "source_id": "richter_2018",
+        "page": 3,
+        "quote": "During the 1680s, he served as president of the Oxford Philosophical Society, a group modelled on the Royal Society, and according to the minutes he dominated many meetings with reports of interesting natural phenomena."
+      }
+    ]
+  },
+  {
+    "id": "wallis_conformed_anglican",
+    "source": "john_wallis",
+    "type": "member_of",
+    "target": "church_of_england",
+    "note": "Wallis conformed to the Anglican Church after the Restoration.",
+    "sources": [
+      {
+        "source_id": "richter_2018",
+        "page": 3,
+        "quote": "After the Restoration of the monarchy, despite his personal inclination toward Presbyterianism, Wallis conformed to the Anglican Church and also became a royal chaplain."
+      }
+    ]
+  }
+]

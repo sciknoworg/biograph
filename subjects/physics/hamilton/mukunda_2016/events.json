@@ -1,0 +1,531 @@
+[
+  {
+    "id": "hamilton_birth",
+    "event_type": "birth",
+    "label": "Born in Dublin",
+    "description": "Born at midnight of 3–4 August 1805.",
+    "date": {
+      "display": "3–4 August 1805",
+      "precision": "day",
+      "sort_start": "1805-08-03",
+      "sort_end": "1805-08-04"
+    },
+    "location": "dublin",
+    "participants": [
+      {
+        "entity_id": "william_rowan_hamilton",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mukunda_2016",
+        "page": 495,
+        "quote": "Hamilton was born at midnight of 3–4 August 1805 in Dublin, Ireland, to Archibald Hamilton, a solicitor by profession, and Sarah Hutton Hamilton."
+      }
+    ]
+  },
+  {
+    "id": "mother_death",
+    "event_type": "death",
+    "label": "Mother passed away",
+    "date": {
+      "display": "1817",
+      "precision": "year",
+      "sort_start": "1817-01-01",
+      "sort_end": "1817-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "sarah_hutton_hamilton",
+        "role": "subject"
+      },
+      {
+        "entity_id": "william_rowan_hamilton",
+        "role": "family_of"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mukunda_2016",
+        "page": 495,
+        "quote": "While he was still in his teens, Hamilton's mother and father passed away, in 1817 and 1819 respectively."
+      }
+    ]
+  },
+  {
+    "id": "father_death",
+    "event_type": "death",
+    "label": "Father passed away",
+    "date": {
+      "display": "1819",
+      "precision": "year",
+      "sort_start": "1819-01-01",
+      "sort_end": "1819-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "archibald_hamilton",
+        "role": "subject"
+      },
+      {
+        "entity_id": "william_rowan_hamilton",
+        "role": "family_of"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mukunda_2016",
+        "page": 495,
+        "quote": "While he was still in his teens, Hamilton's mother and father passed away, in 1817 and 1819 respectively."
+      }
+    ]
+  },
+  {
+    "id": "enter_trinity",
+    "event_type": "education",
+    "label": "Entered Trinity College",
+    "date": {
+      "display": "1823",
+      "precision": "year",
+      "sort_start": "1823-01-01",
+      "sort_end": "1823-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "william_rowan_hamilton",
+        "role": "subject"
+      },
+      {
+        "entity_id": "trinity_college_dublin",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mukunda_2016",
+        "page": 495,
+        "quote": "In 1823 he entered Trinity College, Dublin, as an undergraduate, completing his studies there in 1827 and excelling in both science and classics."
+      }
+    ]
+  },
+  {
+    "id": "submit_caustics",
+    "event_type": "publication",
+    "label": "Submitted paper 'On Caustics'",
+    "date": {
+      "display": "1824",
+      "precision": "year",
+      "sort_start": "1824-01-01",
+      "sort_end": "1824-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "william_rowan_hamilton",
+        "role": "subject"
+      },
+      {
+        "entity_id": "on_caustics",
+        "role": "invention"
+      },
+      {
+        "entity_id": "royal_irish_academy",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mukunda_2016",
+        "page": 495,
+        "quote": "In 1824 he submitted a paper 'On Caustics' to the Royal Irish Academy."
+      }
+    ]
+  },
+  {
+    "id": "publish_rays",
+    "event_type": "publication",
+    "label": "Published 'A Theory of Systems of Rays'",
+    "date": {
+      "display": "1827",
+      "precision": "year",
+      "sort_start": "1827-01-01",
+      "sort_end": "1827-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "william_rowan_hamilton",
+        "role": "subject"
+      },
+      {
+        "entity_id": "theory_of_systems_of_rays",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mukunda_2016",
+        "page": 496,
+        "quote": "After receiving positive suggestions from (of course) a Committee, he revised and enlarged it by 1827, while still in college, to 'A Theory of Systems of Rays'."
+      }
+    ]
+  },
+  {
+    "id": "appointed_professor",
+    "event_type": "employment_start",
+    "label": "Appointed Andrews Professor of Astronomy",
+    "date": {
+      "display": "1827",
+      "precision": "year",
+      "sort_start": "1827-01-01",
+      "sort_end": "1827-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "william_rowan_hamilton",
+        "role": "subject"
+      },
+      {
+        "entity_id": "trinity_college_dublin",
+        "role": "employer"
+      },
+      {
+        "entity_id": "dunsink_observatory",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mukunda_2016",
+        "page": 496,
+        "quote": "Already in 1827 he was appointed Andrews Professor of Astronomy at Trinity College, and Director of the Dunsink Observatory, five miles away from the centre of Dublin, where he lived for the rest of his life."
+      }
+    ]
+  },
+  {
+    "id": "romance_disney",
+    "event_type": "meeting",
+    "label": "Romantic relationship with Catherine Disney",
+    "date": {
+      "display": "1824",
+      "precision": "year",
+      "sort_start": "1824-01-01",
+      "sort_end": "1824-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "william_rowan_hamilton",
+        "role": "subject"
+      },
+      {
+        "entity_id": "catherine_disney",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mukunda_2016",
+        "page": 496,
+        "quote": "Hamilton experienced two early disappointments in romantic relationships – with Catherine Disney in 1824 who married instead a wealthy clergyman fifteen years her senior, but who retained a relationship and correspondence with Hamilton for many years"
+      }
+    ]
+  },
+  {
+    "id": "romance_vere",
+    "event_type": "meeting",
+    "label": "Romantic relationship with Ellen de Vere",
+    "date": {
+      "display": "around 1830",
+      "precision": "circa",
+      "sort_start": "1829-01-01",
+      "sort_end": "1831-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "william_rowan_hamilton",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ellen_de_vere",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "approximate",
+    "sources": [
+      {
+        "source_id": "mukunda_2016",
+        "page": 496,
+        "quote": "and with Ellen de Vere around 1830, who however felt she could "
+      }
+    ]
+  },
+  {
+    "id": "marriage_bayly",
+    "event_type": "other",
+    "label": "Married Helen Maria Bayly",
+    "date": {
+      "display": "1833",
+      "precision": "year",
+      "sort_start": "1833-01-01",
+      "sort_end": "1833-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "william_rowan_hamilton",
+        "role": "subject"
+      },
+      {
+        "entity_id": "helen_maria_bayly",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mukunda_2016",
+        "page": 496,
+        "quote": "Finally he married Helen Maria Bayly in 1833."
+      }
+    ]
+  },
+  {
+    "id": "knighthood",
+    "event_type": "award",
+    "label": "Knighted",
+    "date": {
+      "display": "1835",
+      "precision": "year",
+      "sort_start": "1835-01-01",
+      "sort_end": "1835-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "william_rowan_hamilton",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mukunda_2016",
+        "page": 496,
+        "quote": "In 1835 he was knighted, and in 1836 became President of the Royal Irish Academy."
+      }
+    ]
+  },
+  {
+    "id": "presidency_ria",
+    "event_type": "role_change",
+    "label": "Became President of the Royal Irish Academy",
+    "date": {
+      "display": "1836",
+      "precision": "year",
+      "sort_start": "1836-01-01",
+      "sort_end": "1836-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "william_rowan_hamilton",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_irish_academy",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mukunda_2016",
+        "page": 496,
+        "quote": "In 1835 he was knighted, and in 1836 became President of the Royal Irish Academy."
+      }
+    ]
+  },
+  {
+    "id": "quaternions_discovery",
+    "event_type": "invention",
+    "label": "Discovered quaternions",
+    "description": "Carved formulas on Broome Bridge during a walk.",
+    "date": {
+      "display": "16th October 1843",
+      "precision": "day",
+      "sort_start": "1843-10-16",
+      "sort_end": "1843-10-16"
+    },
+    "location": "broome_bridge",
+    "participants": [
+      {
+        "entity_id": "william_rowan_hamilton",
+        "role": "subject"
+      },
+      {
+        "entity_id": "quaternions",
+        "role": "invention"
+      },
+      {
+        "entity_id": "helen_maria_bayly",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mukunda_2016",
+        "page": 508,
+        "quote": "Their essential algebraic or composition properties became suddenly clear to Hamilton during a walk with his wife along the Royal Canal from Dunsink to a meeting of the Royal Irish Academy on 16th October 1843"
+      }
+    ]
+  },
+  {
+    "id": "lectures_quaternions",
+    "event_type": "publication",
+    "label": "Published Lectures on Quaternions",
+    "date": {
+      "display": "1853",
+      "precision": "year",
+      "sort_start": "1853-01-01",
+      "sort_end": "1853-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "william_rowan_hamilton",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lectures_on_quaternions",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mukunda_2016",
+        "page": 509,
+        "quote": "Hamilton wrote extensively on quaternions, his Lectures on Quaternions being published in 1853."
+      }
+    ]
+  },
+  {
+    "id": "letter_tait",
+    "event_type": "other",
+    "label": "Wrote letter to Peter Guthrie Tait",
+    "date": {
+      "display": "15th October 1858",
+      "precision": "day",
+      "sort_start": "1858-10-15",
+      "sort_end": "1858-10-15"
+    },
+    "participants": [
+      {
+        "entity_id": "william_rowan_hamilton",
+        "role": "subject"
+      },
+      {
+        "entity_id": "peter_guthrie_tait",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mukunda_2016",
+        "page": 508,
+        "quote": "In a letter to Peter Guthrie Tait many years later, on 15th October 1858, he described what had happened in these words"
+      }
+    ]
+  },
+  {
+    "id": "election_us_nas",
+    "event_type": "award",
+    "label": "Elected Foreign Associate of US National Academy of Science",
+    "description": "Elected shortly before his death.",
+    "date": {
+      "display": "1865",
+      "precision": "year",
+      "sort_start": "1865-01-01",
+      "sort_end": "1865-09-02"
+    },
+    "participants": [
+      {
+        "entity_id": "william_rowan_hamilton",
+        "role": "subject"
+      },
+      {
+        "entity_id": "united_states_national_academy_of_science",
+        "role": "awarding_body"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mukunda_2016",
+        "page": 497,
+        "quote": "Shortly before his death he learned that he had been elected the first Foreign Associate of the newly established United States National Academy of Science."
+      }
+    ]
+  },
+  {
+    "id": "hamilton_death",
+    "event_type": "death",
+    "label": "Died in Dublin",
+    "date": {
+      "display": "2nd September 1865",
+      "precision": "day",
+      "sort_start": "1865-09-02",
+      "sort_end": "1865-09-02"
+    },
+    "location": "dublin",
+    "participants": [
+      {
+        "entity_id": "william_rowan_hamilton",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mukunda_2016",
+        "page": 497,
+        "quote": "He died on 2nd September 1865 in Dublin, from a severe attack of gout."
+      }
+    ]
+  },
+  {
+    "id": "plaque_unveiling",
+    "event_type": "other",
+    "label": "Plaque unveiled at Broome Bridge",
+    "date": {
+      "display": "1958",
+      "precision": "year",
+      "sort_start": "1958-01-01",
+      "sort_end": "1958-12-31"
+    },
+    "location": "broome_bridge",
+    "participants": [
+      {
+        "entity_id": "eamon_de_valera",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_irish_academy",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mukunda_2016",
+        "page": 509,
+        "quote": "In 1958 on behalf of the Royal Irish Academy the Irish mathematician-political leader Eamon de Valera unveiled a plaque under Broome Bridge to commemorate the event."
+      }
+    ]
+  }
+]

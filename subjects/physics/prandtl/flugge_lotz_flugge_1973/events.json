@@ -1,0 +1,208 @@
+[
+  {
+    "id": "flugge_lots_arrival_gottingen",
+    "event_type": "relocation",
+    "label": "Arrived in Gottingen",
+    "description": "Irmgard Fliigge-Lotz arrived in Gottingen shortly before Prandtl returned from his world trip.",
+    "date": {
+      "display": "1929",
+      "precision": "year",
+      "sort_start": "1929-01-01",
+      "sort_end": "1929-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "irmgard_flugge_lots",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_gottingen",
+        "role": "location"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "flugge_lotz_flugge_1973",
+        "page": 2,
+        "quote": "I. F.-L. arrived in Gottingen in 1929"
+      }
+    ]
+  },
+  {
+    "id": "prandtl_trip_return",
+    "event_type": "visit",
+    "label": "Returned from world trip",
+    "description": "Prandtl returned from a trip around the world including an engineering congress in Tokyo.",
+    "date": {
+      "display": "1929",
+      "precision": "year",
+      "sort_start": "1929-01-01",
+      "sort_end": "1929-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ludwig_prandtl",
+        "role": "subject"
+      },
+      {
+        "entity_id": "tokyo",
+        "role": "location"
+      }
+    ],
+    "certainty": "approximate",
+    "sources": [
+      {
+        "source_id": "flugge_lotz_flugge_1973",
+        "page": 2,
+        "quote": "a short time before Prandtl returned from his trip around the world"
+      }
+    ]
+  },
+  {
+    "id": "betz_start_work_prandtl",
+    "event_type": "employment_start",
+    "label": "Started working with Prandtl",
+    "description": "A. Betz began his long collaboration with Ludwig Prandtl.",
+    "date": {
+      "display": "1911",
+      "precision": "year",
+      "sort_start": "1911-01-01",
+      "sort_end": "1911-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "a_betz",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ludwig_prandtl",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "flugge_lotz_flugge_1973",
+        "page": 2,
+        "quote": "Professor A. Betz, who had been working with L. Prandtl since 1911"
+      }
+    ]
+  },
+  {
+    "id": "prandtl_professor_gottingen",
+    "event_type": "employment_start",
+    "label": "Started work in Gottingen",
+    "description": "Prandtl began his work in Gottingen as a full professor of the University.",
+    "date": {
+      "display": "early in the century",
+      "precision": "decade",
+      "sort_start": "1900-01-01",
+      "sort_end": "1909-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ludwig_prandtl",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_gottingen",
+        "role": "employer"
+      }
+    ],
+    "certainty": "approximate",
+    "sources": [
+      {
+        "source_id": "flugge_lotz_flugge_1973",
+        "page": 3,
+        "quote": "Prandtl had started his work in Gottingen early in the century as a full professor of the University"
+      }
+    ]
+  },
+  {
+    "id": "prager_assistantship",
+    "event_type": "employment_start",
+    "label": "Prager held assistantship",
+    "description": "W. Prager held the assistantship at the Institute for Applied Mechanics.",
+    "date": {
+      "display": "early nineteen-thirties",
+      "precision": "range",
+      "sort_start": "1930-01-01",
+      "sort_end": "1934-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "w_prager",
+        "role": "subject"
+      },
+      {
+        "entity_id": "institute_for_applied_mechanics",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "flugge_lotz_flugge_1973",
+        "page": 4,
+        "quote": "In the early nineteen-thirties the assistantship was held by W. Prager"
+      }
+    ]
+  },
+  {
+    "id": "nazi_takeover",
+    "event_type": "other",
+    "label": "Nazi takeover",
+    "description": "Political change in Germany affecting the University and Institutes.",
+    "date": {
+      "display": "1933",
+      "precision": "year",
+      "sort_start": "1933-01-01",
+      "sort_end": "1933-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "university_of_gottingen",
+        "role": "location"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "flugge_lotz_flugge_1973",
+        "page": 7,
+        "quote": "After the Nazi takeover in 1933"
+      }
+    ]
+  },
+  {
+    "id": "authors_exodus",
+    "event_type": "relocation",
+    "label": "Authors left Gottingen",
+    "description": "The authors were part of the general exodus from Germany after WWII.",
+    "date": {
+      "display": "late forties",
+      "precision": "range",
+      "sort_start": "1945-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "irmgard_flugge_lots",
+        "role": "subject"
+      },
+      {
+        "entity_id": "wilhelm_flugge",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "flugge_lotz_flugge_1973",
+        "page": 8,
+        "quote": "The authors of this article were part of the general exodus of the late forties"
+      }
+    ]
+  }
+]

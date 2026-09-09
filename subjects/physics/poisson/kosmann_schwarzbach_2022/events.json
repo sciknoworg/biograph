@@ -1,0 +1,500 @@
+[
+  {
+    "id": "poisson_birth",
+    "event_type": "birth",
+    "label": "Born in Pithiviers",
+    "date": {
+      "display": "1781",
+      "precision": "year",
+      "sort_start": "1781-01-01",
+      "sort_end": "1781-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "simeon_denis_poisson",
+        "role": "subject"
+      }
+    ],
+    "location": "pithiviers",
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 1,
+        "quote": "It was the birthplace in 1781 of Siméon-Denis Poisson"
+      }
+    ]
+  },
+  {
+    "id": "poisson_enters_ecole",
+    "event_type": "education",
+    "label": "Entered École Polytechnique",
+    "date": {
+      "display": "1798",
+      "precision": "year",
+      "sort_start": "1798-01-01",
+      "sort_end": "1798-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "simeon_denis_poisson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ecole_polytechnique",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 1,
+        "quote": "Poisson sat for the entrance examination in 1798 and took first place."
+      }
+    ]
+  },
+  {
+    "id": "poisson_first_papers",
+    "event_type": "publication",
+    "label": "Published first papers as student",
+    "date": {
+      "display": "1799 or early 1800",
+      "precision": "range",
+      "sort_start": "1799-01-01",
+      "sort_end": "1800-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "simeon_denis_poisson",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 2,
+        "quote": "Volume 4 of the Journal de l'École polytechnique, dated 1801–1802, contains three papers written by Poisson in 1799 or early 1800, when he was still a student."
+      }
+    ]
+  },
+  {
+    "id": "legendre_lacroix_report",
+    "event_type": "publication",
+    "label": "Legendre and Lacroix report on Poisson's paper",
+    "date": {
+      "display": "December 8, 1800",
+      "precision": "day",
+      "sort_start": "1800-12-08",
+      "sort_end": "1800-12-08"
+    },
+    "participants": [
+      {
+        "entity_id": "simeon_denis_poisson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "adrien_marie_legendre",
+        "role": "reviewer"
+      },
+      {
+        "entity_id": "sylvestre_francois_lacroix",
+        "role": "reviewer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 2,
+        "quote": "he had read before the Institut National... on the 16th of Frimaire in the year 9 of the French revolutionary calendar, i.e., December 8, 1800."
+      }
+    ]
+  },
+  {
+    "id": "poisson_assistant_appointment",
+    "event_type": "employment_start",
+    "label": "Appointed assistant at École Polytechnique",
+    "date": {
+      "display": "1802",
+      "precision": "year",
+      "sort_start": "1802-01-01",
+      "sort_end": "1802-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "simeon_denis_poisson",
+        "role": "employee"
+      },
+      {
+        "entity_id": "ecole_polytechnique",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 2,
+        "quote": "Upon finishing his studies at the École, Poisson was immediately appointed as an assistant, and in 1802 he was called upon to \"take over temporarily the duties of Citizen Fourier\""
+      }
+    ]
+  },
+  {
+    "id": "poisson_professor_appointment",
+    "event_type": "employment_start",
+    "label": "Appointed Professor of Mathematics at École Polytechnique",
+    "date": {
+      "display": "1806",
+      "precision": "year",
+      "sort_start": "1806-01-01",
+      "sort_end": "1806-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "simeon_denis_poisson",
+        "role": "employee"
+      },
+      {
+        "entity_id": "ecole_polytechnique",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 2,
+        "quote": "Four years later, at the age of 25, he was appointed \"Instituteur d'Analyse\", i.e., full professor of mathematics... dated March 17, 1806"
+      }
+    ]
+  },
+  {
+    "id": "poisson_mechanics_professor",
+    "event_type": "employment_start",
+    "label": "Named first professor of mechanics at Université Impériale",
+    "date": {
+      "display": "1809",
+      "precision": "year",
+      "sort_start": "1809-01-01",
+      "sort_end": "1809-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "simeon_denis_poisson",
+        "role": "employee"
+      },
+      {
+        "entity_id": "universite_imperiale",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 2,
+        "quote": "In 1809, Napoleon decreed the opening of a re-organized \"Université Impériale\", and Poisson was named its first professor of mechanics."
+      }
+    ]
+  },
+  {
+    "id": "poisson_brackets_essay",
+    "event_type": "publication",
+    "label": "Published essay on variation of arbitrary constants",
+    "date": {
+      "display": "1809",
+      "precision": "year",
+      "sort_start": "1809-01-01",
+      "sort_end": "1809-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "simeon_denis_poisson",
+        "role": "author"
+      },
+      {
+        "entity_id": "poisson_brackets",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 10,
+        "quote": "it was in Poisson's famous essay of 1809, \"Essay on the variation of arbitrary constants in questions of mechanics\" [12] that the Poisson brackets appeared in their own right."
+      }
+    ]
+  },
+  {
+    "id": "poisson_academie_election",
+    "event_type": "award",
+    "label": "Elected to Académie des Sciences",
+    "date": {
+      "display": "1812",
+      "precision": "year",
+      "sort_start": "1812-01-01",
+      "sort_end": "1812-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "simeon_denis_poisson",
+        "role": "recipient"
+      },
+      {
+        "entity_id": "academie_des_sciences",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 3,
+        "quote": "When there was finally a vacancy in the Academy of Sciences it was in the physics section in 1812 and Poisson was elected to fill it."
+      }
+    ]
+  },
+  {
+    "id": "poisson_spot_experiment",
+    "event_type": "public_demonstration",
+    "label": "Poisson's spot experiment conducted",
+    "date": {
+      "display": "1817",
+      "precision": "year",
+      "sort_start": "1817-01-01",
+      "sort_end": "1817-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "simeon_denis_poisson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "augustin_fresnel",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "poissons_spot",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 6,
+        "quote": "When, in 1817, submissions for a grand prize for a study of the diffraction of light were being examined by the Academy of Sciences, Poisson was a member of the committee in charge of examining Fresnel's submission."
+      }
+    ]
+  },
+  {
+    "id": "poisson_royal_council_member",
+    "event_type": "employment_start",
+    "label": "Joined Royal Council of Public Education",
+    "date": {
+      "display": "1820",
+      "precision": "year",
+      "sort_start": "1820-01-01",
+      "sort_end": "1820-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "simeon_denis_poisson",
+        "role": "employee"
+      },
+      {
+        "entity_id": "royal_council_of_public_education",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 4,
+        "quote": "From 1820 until his death, Poisson played an important role in the organization of education in France, as a member and then, after 1822, as treasurer of the Royal Council of Public Education."
+      }
+    ]
+  },
+  {
+    "id": "poisson_royal_council_treasurer",
+    "event_type": "role_change",
+    "label": "Became treasurer of Royal Council of Public Education",
+    "date": {
+      "display": "1822",
+      "precision": "year",
+      "sort_start": "1822-01-01",
+      "sort_end": "1822-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "simeon_denis_poisson",
+        "role": "employee"
+      },
+      {
+        "entity_id": "royal_council_of_public_education",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 4,
+        "quote": "From 1820 until his death, Poisson played an important role in the organization of education in France, as a member and then, after 1822, as treasurer of the Royal Council of Public Education."
+      }
+    ]
+  },
+  {
+    "id": "poissons_equation_paper",
+    "event_type": "publication",
+    "label": "Published Essay on the theory of magnetism in motion",
+    "date": {
+      "display": "1823",
+      "precision": "year",
+      "sort_start": "1823-01-01",
+      "sort_end": "1823-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "simeon_denis_poisson",
+        "role": "author"
+      },
+      {
+        "entity_id": "poissons_equation",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 4,
+        "quote": "In his \"Essay on the theory of magnetism in motion\" [16], which appeared in the Mémoires de l'Académie des Sciences of 1823... This case became known as \"Poisson's equation\" in electromagnetism."
+      }
+    ]
+  },
+  {
+    "id": "poissons_ratio_note",
+    "event_type": "publication",
+    "label": "Published note on extension of elastic threads",
+    "date": {
+      "display": "1827",
+      "precision": "year",
+      "sort_start": "1827-01-01",
+      "sort_end": "1827-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "simeon_denis_poisson",
+        "role": "author"
+      },
+      {
+        "entity_id": "poissons_ratio",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 5,
+        "quote": "In a Note in the Annales de chimie et de physique in 1827, \"On the extension of elastic threads and plates\" [18], Poisson introduced the dimensionless ratio that bears his name"
+      }
+    ]
+  },
+  {
+    "id": "poisson_distribution_essay",
+    "event_type": "publication",
+    "label": "Published essay on proportion of new-born females and males",
+    "date": {
+      "display": "1829",
+      "precision": "year",
+      "sort_start": "1829-01-01",
+      "sort_end": "1829-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "simeon_denis_poisson",
+        "role": "author"
+      },
+      {
+        "entity_id": "poisson_distribution",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 6,
+        "quote": "the Poisson distribution appeared for the first time on page 262 of Poisson's essay of 1829, \"Essay on the proportion of new-born females and males\", 20 which was published in the Mémoires de l'Académie des Sciences [19] of 1830"
+      }
+    ]
+  },
+  {
+    "id": "poisson_heat_book",
+    "event_type": "publication",
+    "label": "Published Mathematical Theory of Heat",
+    "date": {
+      "display": "1835",
+      "precision": "year",
+      "sort_start": "1835-01-01",
+      "sort_end": "1835-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "simeon_denis_poisson",
+        "role": "author"
+      },
+      {
+        "entity_id": "mathematical_theory_of_heat",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 3,
+        "quote": "Poisson established the heat equation for the case of variable conductivity in his \"Essay on the distribution of heat in solid bodies\", 8 published in the Journal de l'École polytechnique in 1823, and included it in his 1835 book, \"Mathematical Theory of Heat\" 9 [20]."
+      }
+    ]
+  },
+  {
+    "id": "poisson_death",
+    "event_type": "death",
+    "label": "Died in Paris",
+    "date": {
+      "display": "1840",
+      "precision": "year",
+      "sort_start": "1840-01-01",
+      "sort_end": "1840-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "simeon_denis_poisson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 1,
+        "quote": "he died in 1840 at the age of 58."
+      }
+    ]
+  },
+  {
+    "id": "poisson_statue_installed",
+    "event_type": "other",
+    "label": "Statue installed in Pithiviers",
+    "date": {
+      "display": "c. 1850",
+      "precision": "circa",
+      "sort_start": "1849-01-01",
+      "sort_end": "1851-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "simeon_denis_poisson",
+        "role": "subject"
+      }
+    ],
+    "location": "pithiviers",
+    "sources": [
+      {
+        "source_id": "kosmann_schwarzbach_2022",
+        "page": 1,
+        "quote": "Ten years after his death, a lifesize statue of Poisson was installed in his hometown."
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "osland_studied_trondheim",
+    "source": "per_osland",
+    "type": "studied_at",
+    "target": "trondheim",
+    "sources": [
+      {
+        "source_id": "osland_2020",
+        "page": 9,
+        "quote": "as I had done some multiple- scattering calculations for my thesis work in Trondheim"
+      }
+    ],
+    "_rejected_because": "'studied_at' expects target entity_type organization, but 'trondheim' is 'place'"
+  }
+]

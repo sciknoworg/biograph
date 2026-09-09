@@ -1,0 +1,255 @@
+[
+  {
+    "id": "yoichiro_nambu",
+    "entity_type": "person",
+    "name": "Yoichiro Nambu",
+    "aliases": [
+      "Nambu",
+      "Professor Yoichiro Nambu",
+      "Y. Nambu"
+    ],
+    "summary": "Professor of physics who discovered the string action and factorized the Veneziano model.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "paul_frampton",
+    "entity_type": "person",
+    "name": "Paul H. Frampton",
+    "aliases": [
+      "Frampton",
+      "Paul H. Frampton",
+      "P. Frampton"
+    ],
+    "summary": "Physicist and postdoctoral researcher under Nambu at the University of Chicago.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "university_of_chicago",
+    "entity_type": "organization",
+    "name": "University of Chicago",
+    "aliases": [
+      "Chicago",
+      "University of Chicago Press"
+    ],
+    "summary": "University where Nambu worked and Frampton was a postdoc.",
+    "subtype": "university"
+  },
+  {
+    "id": "mit",
+    "entity_type": "organization",
+    "name": "MIT",
+    "aliases": [
+      "MIT"
+    ],
+    "summary": "Institution where Fubini and Veneziano worked on dual resonance models.",
+    "subtype": "university"
+  },
+  {
+    "id": "uc_berkeley",
+    "entity_type": "organization",
+    "name": "Berkeley",
+    "aliases": [
+      "Berkeley"
+    ],
+    "summary": "Institution where Bardakci and Mandelstam worked on dual resonance models.",
+    "subtype": "university"
+  },
+  {
+    "id": "cern",
+    "entity_type": "organization",
+    "name": "CERN",
+    "aliases": [
+      "CERN"
+    ],
+    "summary": "Research organization where Frampton worked after Chicago.",
+    "subtype": "lab"
+  },
+  {
+    "id": "nagoya",
+    "entity_type": "place",
+    "name": "Nagoya",
+    "aliases": [
+      "Nagoya"
+    ],
+    "summary": "City in Japan visited by Frampton and Nambu.",
+    "subtype": "city"
+  },
+  {
+    "id": "osaka",
+    "entity_type": "place",
+    "name": "Osaka",
+    "aliases": [
+      "Osaka"
+    ],
+    "summary": "City in Japan where Frampton last met Nambu.",
+    "subtype": "city"
+  },
+  {
+    "id": "tokyo",
+    "entity_type": "place",
+    "name": "Tokyo",
+    "aliases": [
+      "Tokyo"
+    ],
+    "summary": "City in Japan where Nambu stayed as a boy.",
+    "subtype": "city"
+  },
+  {
+    "id": "meiji_mura",
+    "entity_type": "place",
+    "name": "Meiji Mura",
+    "aliases": [
+      "Meiji Mura architectural park"
+    ],
+    "summary": "Architectural park near Nagoya visited by Frampton and Nambu.",
+    "subtype": "facility"
+  },
+  {
+    "id": "detroit",
+    "entity_type": "place",
+    "name": "Detroit",
+    "aliases": [
+      "Detroit"
+    ],
+    "summary": "City where Nambu gave a conference talk in 1969.",
+    "subtype": "city"
+  },
+  {
+    "id": "copenhagen",
+    "entity_type": "place",
+    "name": "Copenhagen",
+    "aliases": [
+      "Copenhagen"
+    ],
+    "summary": "Location of the Summer School where Nambu lectured.",
+    "subtype": "city"
+  },
+  {
+    "id": "jc_taylor",
+    "entity_type": "person",
+    "name": "J.C. Taylor",
+    "aliases": [
+      "Taylor",
+      "J.C. Taylor"
+    ],
+    "summary": "Frampton's research supervisor at Oxford.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "nielsen",
+    "entity_type": "person",
+    "name": "Nielsen",
+    "aliases": [
+      "Nielsen"
+    ],
+    "summary": "Physicist who published on string theory in 1969.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "susskind",
+    "entity_type": "person",
+    "name": "Susskind",
+    "aliases": [
+      "Susskind"
+    ],
+    "summary": "Physicist who published on string theory in 1969.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "goto",
+    "entity_type": "person",
+    "name": "Goto",
+    "aliases": [
+      "Goto",
+      "Japanese physicist named Goto"
+    ],
+    "summary": "Physicist who published the string action in 1971.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "hosotani",
+    "entity_type": "person",
+    "name": "Hosotani",
+    "aliases": [
+      "Hosotani"
+    ],
+    "summary": "Physicist who invited Frampton for a seminar in Osaka.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "natsume_soseki",
+    "entity_type": "person",
+    "name": "Natsume Soseki",
+    "aliases": [
+      "Natsume Soseki",
+      "Japanese writer Natsume Soseki"
+    ],
+    "summary": "Japanese writer whose home was reconstructed at Meiji Mura.",
+    "subtype": "writer"
+  },
+  {
+    "id": "wentzel",
+    "entity_type": "person",
+    "name": "Wentzel",
+    "aliases": [
+      "Professor Wentzel",
+      "Gregor Wentzel"
+    ],
+    "summary": "Professor for whom a festschrift was published.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "grass_on_the_wayside",
+    "entity_type": "artifact",
+    "name": "Grass on the Wayside",
+    "aliases": [
+      "Grass on the Wayside"
+    ],
+    "summary": "Autobiographical novel by Natsume Soseki.",
+    "subtype": "publication"
+  },
+  {
+    "id": "frank_lloyd_wright_imperial_hotel",
+    "entity_type": "artifact",
+    "name": "Frank Lloyd Wright Imperial Hotel",
+    "aliases": [
+      "Imperial Hotel",
+      "Frank Lloyd Wright Imperial Hotel in Tokyo"
+    ],
+    "summary": "Hotel in Tokyo reconstructed at Meiji Mura.",
+    "subtype": "building"
+  },
+  {
+    "id": "quanta_book",
+    "entity_type": "artifact",
+    "name": "QUANTA",
+    "aliases": [
+      "QUANTA, A collection of scientific essays dedicated to Gregor Wentzel"
+    ],
+    "summary": "Festschrift collection published by University of Chicago Press.",
+    "subtype": "publication"
+  },
+  {
+    "id": "veneziano_model",
+    "entity_type": "artifact",
+    "name": "Veneziano model",
+    "aliases": [
+      "Veneziano model",
+      "dual resonance model"
+    ],
+    "summary": "Scattering amplitude model factorized by Nambu and Frampton.",
+    "subtype": "theory"
+  },
+  {
+    "id": "nambu_goto_action",
+    "entity_type": "artifact",
+    "name": "Nambu-Goto action",
+    "aliases": [
+      "string action",
+      "action of the string",
+      "Nambu action"
+    ],
+    "summary": "Action of the string defined as the area of its world-sheet.",
+    "subtype": "theory"
+  }
+]

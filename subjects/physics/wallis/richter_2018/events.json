@@ -1,0 +1,388 @@
+[
+  {
+    "id": "wallis_birth",
+    "event_type": "birth",
+    "label": "Born in Ashford, Kent",
+    "description": "John Wallis was born in 1616.",
+    "date": {
+      "display": "1616",
+      "precision": "year",
+      "sort_start": "1616-01-01",
+      "sort_end": "1616-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_wallis",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richter_2018",
+        "page": 1,
+        "quote": "The Mathematical Minister: John Wallis (1616-1703) at the Intersection of Science, Mathematics, and Religion"
+      }
+    ]
+  },
+  {
+    "id": "wallis_death",
+    "event_type": "death",
+    "label": "Died at Oxford",
+    "description": "Wallis died in 1703 at age 87.",
+    "date": {
+      "display": "1703",
+      "precision": "year",
+      "sort_start": "1703-01-01",
+      "sort_end": "1703-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_wallis",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richter_2018",
+        "page": 1,
+        "quote": "When John Wallis, Savilian Professor of Geometry at the University of Oxford, died in 1703 at age 87, he was the subject of an unusual elegy written by the bookseller and author John Dunton."
+      }
+    ]
+  },
+  {
+    "id": "wallis_matriculation",
+    "event_type": "education",
+    "label": "Matriculated at Emmanuel College",
+    "description": "Wallis matriculated at Emmanuel College, Cambridge in 1632.",
+    "date": {
+      "display": "1632",
+      "precision": "year",
+      "sort_start": "1632-01-01",
+      "sort_end": "1632-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_wallis",
+        "role": "subject"
+      },
+      {
+        "entity_id": "emmanuel_college_cambridge",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richter_2018",
+        "page": 3,
+        "quote": "Wallis attended grammar schools in Kent and Essex before matriculating in 1632 at Emmanuel College, Cambridge, which was known for training Puritan ministers."
+      }
+    ]
+  },
+  {
+    "id": "wallis_ordination",
+    "event_type": "employment_start",
+    "label": "Ordained as minister",
+    "description": "Wallis was ordained as a minister in 1640.",
+    "date": {
+      "display": "1640",
+      "precision": "year",
+      "sort_start": "1640-01-01",
+      "sort_end": "1640-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_wallis",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richter_2018",
+        "page": 3,
+        "quote": "He received his BA and MA from Emmanuel and was ordained as a minister in 1640."
+      }
+    ]
+  },
+  {
+    "id": "wallis_savilian_appointment",
+    "event_type": "employment_start",
+    "label": "Installed as Savilian Professor",
+    "description": "Parliament installed Wallis as Savilian Professor of Geometry in 1649.",
+    "date": {
+      "display": "1649",
+      "precision": "year",
+      "sort_start": "1649-01-01",
+      "sort_end": "1649-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_wallis",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_oxford",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richter_2018",
+        "page": 3,
+        "quote": "During the Civil War period, Wallis was on a trajectory for a clerical career before Parliament installed him as Savilian Professor in 1649 to replace Peter Turner, a Royalist."
+      }
+    ]
+  },
+  {
+    "id": "wallis_dd",
+    "event_type": "award",
+    "label": "Received doctorate of divinity",
+    "description": "Wallis received a doctorate of divinity in 1654.",
+    "date": {
+      "display": "1654",
+      "precision": "year",
+      "sort_start": "1654-01-01",
+      "sort_end": "1654-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_wallis",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richter_2018",
+        "page": 3,
+        "quote": "Beginning in 1654, when he received a doctorate of divinity, he was known to his contemporaries as Dr. Wallis, and this remained an important part of his identity for the rest of his life."
+      }
+    ]
+  },
+  {
+    "id": "wallis_arithmetica",
+    "event_type": "publication",
+    "label": "Published Arithmetica infinitorum",
+    "description": "Wallis published his famous algebraic work Arithmetica infinitorum in 1655.",
+    "date": {
+      "display": "1655",
+      "precision": "year",
+      "sort_start": "1655-01-01",
+      "sort_end": "1655-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_wallis",
+        "role": "subject"
+      },
+      {
+        "entity_id": "arithmetica_infinitorum",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richter_2018",
+        "page": 1,
+        "quote": "The poem makes numerous references to Wallis's mathematical and scientific achievements, including his most famous algebraic work, Arithmetica infinitorum (1655)..."
+      }
+    ]
+  },
+  {
+    "id": "wallis_royal_society_founder",
+    "event_type": "company_founded",
+    "label": "Founding of the Royal Society",
+    "description": "Wallis was one of the original members of the Royal Society, officially recognized by Royal Charters in 1660 and 1662.",
+    "date": {
+      "display": "1660",
+      "precision": "year",
+      "sort_start": "1660-01-01",
+      "sort_end": "1660-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_wallis",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_society",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richter_2018",
+        "page": 2,
+        "quote": "It is occasions such as the proceedings of the Westminster Assembly of Divines, which Wallis attended as a secretary, and the founding of the Royal Society of London, of which Wallis was one of the original members, that form the bulk of his apologia pro sua vita."
+      }
+    ]
+  },
+  {
+    "id": "wallis_laws_of_motion",
+    "event_type": "publication",
+    "label": "Submitted treatises on laws of motion",
+    "description": "Wallis was one of three Fellows who wrote treatises on the laws of motion in 1668 upon request from the Society.",
+    "date": {
+      "display": "1668",
+      "precision": "year",
+      "sort_start": "1668-01-01",
+      "sort_end": "1668-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_wallis",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_society",
+        "role": "employer"
+      },
+      {
+        "entity_id": "christopher_wren",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "christiaan_huygens",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richter_2018",
+        "page": 63,
+        "quote": "As such, along with Christopher Wren and Christiaan Huygens, Wallis was one of three Fellows who wrote treatises on the laws of motion in 1668 upon request from the Society."
+      }
+    ]
+  },
+  {
+    "id": "wallis_mechanica",
+    "event_type": "publication",
+    "label": "Published Mechanica",
+    "description": "Wallis published Mechanica in three parts between 1669 and 1671.",
+    "date": {
+      "display": "1669–1671",
+      "precision": "range",
+      "sort_start": "1669-01-01",
+      "sort_end": "1671-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_wallis",
+        "role": "subject"
+      },
+      {
+        "entity_id": "mechanica",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richter_2018",
+        "page": 14,
+        "quote": "Wallis also wrote extensively on mathematical physics, most notably in his Mechanica, published in three parts between 1669 and 1671, which spans nearly five hundred pages."
+      }
+    ]
+  },
+  {
+    "id": "wallis_discourse_gravity",
+    "event_type": "publication",
+    "label": "Published Discourse of Gravity",
+    "description": "Wallis presented A Discourse of Gravity and Gravitation to the Royal Society in 1675.",
+    "date": {
+      "display": "1675",
+      "precision": "year",
+      "sort_start": "1675-01-01",
+      "sort_end": "1675-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_wallis",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richter_2018",
+        "page": 66,
+        "quote": "Figure 3: Wallis's depiction of the Torricellian Experiment (Discourse of Gravitation, 1675)"
+      }
+    ]
+  },
+  {
+    "id": "wallis_institutio_logicae",
+    "event_type": "publication",
+    "label": "Published Institutio logicae",
+    "description": "Wallis's textbook on logic was first published in 1687.",
+    "date": {
+      "display": "1687",
+      "precision": "year",
+      "sort_start": "1687-01-01",
+      "sort_end": "1687-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_wallis",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richter_2018",
+        "page": 58,
+        "quote": "His Institutio logicae was first published in 1687, and five more editions were published during the rest of Wallis's lifetime and beyond, the last appearing in 1763."
+      }
+    ]
+  },
+  {
+    "id": "wallis_theological_discourses",
+    "event_type": "publication",
+    "label": "Published Theological Discourses",
+    "description": "Wallis defended the doctrine of the Trinity in eight letters published together under the title Theological Discourses in 1692.",
+    "date": {
+      "display": "1692",
+      "precision": "year",
+      "sort_start": "1692-01-01",
+      "sort_end": "1692-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_wallis",
+        "role": "subject"
+      },
+      {
+        "entity_id": "theological_discourses",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richter_2018",
+        "page": 21,
+        "quote": "Wallis defended the doctrine of the Trinity in eight letters written in the early 1690s and published together under the title Theological Discourses (1692)."
+      }
+    ]
+  },
+  {
+    "id": "wallis_decipherer",
+    "event_type": "employment_start",
+    "label": "Made official decipherer for the Crown",
+    "description": "Wallis was made an official decipherer for the Crown in 1701.",
+    "date": {
+      "display": "1701",
+      "precision": "year",
+      "sort_start": "1701-01-01",
+      "sort_end": "1701-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_wallis",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "richter_2018",
+        "page": 15,
+        "quote": "For nearly his entire career, Wallis performed this cryptanalytical work in an unofficial capacity, until he was finally made an official decipherer for the Crown in 1701."
+      }
+    ]
+  }
+]

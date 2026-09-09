@@ -1,0 +1,386 @@
+[
+  {
+    "id": "arnowitt_birth_death",
+    "event_type": "birth",
+    "label": "Born and died",
+    "description": "Richard Arnowitt lived from 1928 to 2014.",
+    "date": {
+      "display": "1928-2014",
+      "precision": "year",
+      "sort_start": "1928-01-01",
+      "sort_end": "2014-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "richard_lewis_arnowitt",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nath_reminiscences_2015",
+        "page": 1,
+        "quote": "My collaboration with Richard Arnowitt (1928-2014) 1 started soon after I arrived at Northeastern University in 1966"
+      }
+    ]
+  },
+  {
+    "id": "nath_arrives_northeastern",
+    "event_type": "employment_start",
+    "label": "Arrived at Northeastern University",
+    "description": "Pran Nath arrived at Northeastern University, marking the beginning of the collaboration context.",
+    "date": {
+      "display": "1966",
+      "precision": "year",
+      "sort_start": "1966-01-01",
+      "sort_end": "1966-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pran_nath",
+        "role": "subject"
+      },
+      {
+        "entity_id": "northeastern_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nath_reminiscences_2015",
+        "page": 1,
+        "quote": "My collaboration with Richard Arnowitt (1928-2014) 1 started soon after I arrived at Northeastern University in 1966"
+      }
+    ]
+  },
+  {
+    "id": "collaboration_start",
+    "event_type": "meeting",
+    "label": "Collaboration started",
+    "description": "Collaboration between Nath and Arnowitt began soon after Nath's arrival at Northeastern.",
+    "date": {
+      "display": "soon after 1966",
+      "precision": "year",
+      "sort_start": "1966-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pran_nath",
+        "role": "subject"
+      },
+      {
+        "entity_id": "richard_lewis_arnowitt",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nath_reminiscences_2015",
+        "page": 1,
+        "quote": "My collaboration with Richard Arnowitt (1928-2014) 1 started soon after I arrived at Northeastern University in 1966"
+      }
+    ]
+  },
+  {
+    "id": "effective_lagrangian_work",
+    "event_type": "publication",
+    "label": "Effective Lagrangian work published",
+    "description": "Work with Dick and Marvin Friedman overcame soft pion approximation issues using effective Lagrangian method.",
+    "date": {
+      "display": "around 1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "richard_lewis_arnowitt",
+        "role": "subject"
+      },
+      {
+        "entity_id": "pran_nath",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "marvin_friedman",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nath_reminiscences_2015",
+        "page": 1,
+        "quote": "However, around 1967 an important issue arose which concerned the breakdown of the soft pion approximation... This problem was overcome in work with Dick and Marvin Friedman by giving up the soft pion approximation and using the eﬀective Lagrangian method"
+      }
+    ]
+  },
+  {
+    "id": "axial_anomaly_paper",
+    "event_type": "publication",
+    "label": "Axial current anomaly paper",
+    "description": "Discovered axial current anomaly modifying PCAC condition.",
+    "date": {
+      "display": "1968",
+      "precision": "year",
+      "sort_start": "1968-01-01",
+      "sort_end": "1968-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "richard_lewis_arnowitt",
+        "role": "subject"
+      },
+      {
+        "entity_id": "pran_nath",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nath_reminiscences_2015",
+        "page": 3,
+        "quote": "However, in a paper in 1968 we discovered [26] that hard pion analysis also gave a vanishing π0 → 2γ decay."
+      }
+    ]
+  },
+  {
+    "id": "ichep_conference_london",
+    "event_type": "conference",
+    "label": "XVII ICHEP Conference in London",
+    "description": "Pran Nath attended conference where he became interested in supersymmetry.",
+    "date": {
+      "display": "1974",
+      "precision": "year",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-12-31"
+    },
+    "location": "london",
+    "participants": [
+      {
+        "entity_id": "pran_nath",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nath_reminiscences_2015",
+        "page": 4,
+        "quote": "It was in 1974 when I was at the XVII ICHEP Conference in London that I ﬁrst became interested in supersymmetry."
+      }
+    ]
+  },
+  {
+    "id": "gauge_supersymmetry_formulation",
+    "event_type": "invention",
+    "label": "Formulation of gauge supersymmetry",
+    "description": "Led to the formulation of gauge supersymmetry based on a single tensor superfield in superspace.",
+    "date": {
+      "display": "1975",
+      "precision": "year",
+      "sort_start": "1975-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "richard_lewis_arnowitt",
+        "role": "subject"
+      },
+      {
+        "entity_id": "pran_nath",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nath_reminiscences_2015",
+        "page": 4,
+        "quote": "This lead to the formulation of gauge supersymmetry [52] based on a single tensor superﬁeld gΛΠ (z) in superspace"
+      }
+    ]
+  },
+  {
+    "id": "nath_cern_sabbatical",
+    "event_type": "visit",
+    "label": "Sabbatical leave at CERN",
+    "description": "Pran Nath was on sabbatical leave at CERN where he met Ali Chamseddine.",
+    "date": {
+      "display": "1980",
+      "precision": "year",
+      "sort_start": "1980-01-01",
+      "sort_end": "1980-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pran_nath",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cern",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nath_reminiscences_2015",
+        "page": 5,
+        "quote": "In 1980 I was on sabbatical leave at CERN and it was sheer good luck that I met Ali there."
+      }
+    ]
+  },
+  {
+    "id": "chamseddine_boston_arrival",
+    "event_type": "relocation",
+    "label": "Arrived in Boston",
+    "description": "Ali Chamseddine arrived in Boston to work with Nath and Arnowitt.",
+    "date": {
+      "display": "January of 1981",
+      "precision": "month",
+      "sort_start": "1981-01-01",
+      "sort_end": "1981-01-31"
+    },
+    "location": "boston",
+    "participants": [
+      {
+        "entity_id": "ali_chamseddine",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nath_reminiscences_2015",
+        "page": 5,
+        "quote": "Ali arrived in Boston in January of 1981."
+      }
+    ]
+  },
+  {
+    "id": "sugra_gut_analysis_start",
+    "event_type": "other",
+    "label": "SUGRA GUT analysis started",
+    "description": "Analysis for supergravity grand unified model began in Fall 1981.",
+    "date": {
+      "display": "beginning of the Fall of 1981",
+      "precision": "year",
+      "sort_start": "1981-09-01",
+      "sort_end": "1981-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "richard_lewis_arnowitt",
+        "role": "subject"
+      },
+      {
+        "entity_id": "pran_nath",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "ali_chamseddine",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nath_reminiscences_2015",
+        "page": 6,
+        "quote": "As mentioned our analysis started in the beginning of the Fall of 1981."
+      }
+    ]
+  },
+  {
+    "id": "sugra_gut_analysis_complete",
+    "event_type": "other",
+    "label": "SUGRA GUT analysis completed",
+    "description": "Construction of Lagrangian with arbitrary number of chiral fields completed.",
+    "date": {
+      "display": "early spring of 1982",
+      "precision": "year",
+      "sort_start": "1982-03-01",
+      "sort_end": "1982-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "richard_lewis_arnowitt",
+        "role": "subject"
+      },
+      {
+        "entity_id": "pran_nath",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "ali_chamseddine",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nath_reminiscences_2015",
+        "page": 6,
+        "quote": "This analysis was rather elaborate and took us up to the early spring of 1982 to complete."
+      }
+    ]
+  },
+  {
+    "id": "sugra_gut_publication",
+    "event_type": "publication",
+    "label": "SUGRA GUT published",
+    "description": "Analyses published in Summer and Fall of 1982.",
+    "date": {
+      "display": "Summer and Fall of 1982",
+      "precision": "year",
+      "sort_start": "1982-06-01",
+      "sort_end": "1982-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "richard_lewis_arnowitt",
+        "role": "subject"
+      },
+      {
+        "entity_id": "pran_nath",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "ali_chamseddine",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nath_reminiscences_2015",
+        "page": 6,
+        "quote": "Our analyses to be published later in the Summer and Fall of 1982 [79–81] were based on the supergravity couplings contained in [78]."
+      }
+    ]
+  },
+  {
+    "id": "memorial_symposium",
+    "event_type": "conference",
+    "label": "Memorial Symposium",
+    "description": "Memorial Symposium in honor of Richard Arnowitt at Texas A&M.",
+    "date": {
+      "display": "September 19-20, 2014",
+      "precision": "day",
+      "sort_start": "2014-09-19",
+      "sort_end": "2014-09-20"
+    },
+    "location": "college_station",
+    "participants": [
+      {
+        "entity_id": "richard_lewis_arnowitt",
+        "role": "subject"
+      },
+      {
+        "entity_id": "texas_am_university",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "nath_reminiscences_2015",
+        "page": 1,
+        "quote": "The article is an extended version of my talk at the Memorial Symp osium in honor of Richard Arnowitt at Texas A&M, College Station, Texas, September 19-20, 2014 ."
+      }
+    ]
+  }
+]

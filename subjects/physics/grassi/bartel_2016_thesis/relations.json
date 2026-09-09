@@ -1,0 +1,111 @@
+[
+  {
+    "id": "grassi_mentored_by_clavius",
+    "source": "orazio_grassi",
+    "type": "supervised_by",
+    "target": "christopher_clavius",
+    "sources": [
+      {
+        "source_id": "bartel_2016_thesis",
+        "page": 21,
+        "quote": "It was in the physico-mathematic academy set up by Clavius at the Collegio Romano that Orazio Grassi was educated"
+      }
+    ]
+  },
+  {
+    "id": "grassi_worked_at_collegio",
+    "source": "orazio_grassi",
+    "type": "worked_at",
+    "target": "collegio_romano",
+    "event_id": "grassi_employment_start_1",
+    "sources": [
+      {
+        "source_id": "bartel_2016_thesis",
+        "page": 21,
+        "quote": "Grassi was named the Father General of mathematics at the Roman College in 1616"
+      }
+    ]
+  },
+  {
+    "id": "grassi_member_of_jesuits",
+    "source": "orazio_grassi",
+    "type": "member_of",
+    "target": "society_of_jesus",
+    "sources": [
+      {
+        "source_id": "bartel_2016_thesis",
+        "page": 9,
+        "quote": "Father Orazio Grassi of the Society of Jesus"
+      }
+    ]
+  },
+  {
+    "id": "grassi_debated_galileo",
+    "source": "orazio_grassi",
+    "type": "collaborated_with",
+    "target": "galileo_galilei",
+    "note": "Public controversy and debate over comets.",
+    "sources": [
+      {
+        "source_id": "bartel_2016_thesis",
+        "page": 27,
+        "quote": "The disagreement between Grassi and Galileo supplied the impetus for most of Grassi's publications"
+      }
+    ]
+  },
+  {
+    "id": "grassi_born_in_savona",
+    "source": "orazio_grassi",
+    "type": "born_in",
+    "target": "savona",
+    "event_id": "grassi_birth",
+    "sources": [
+      {
+        "source_id": "bartel_2016_thesis",
+        "page": 21,
+        "quote": "Orazio Grassi was born in Savona in 1583"
+      }
+    ]
+  },
+  {
+    "id": "clavius_worked_at_collegio",
+    "source": "christopher_clavius",
+    "type": "worked_at",
+    "target": "collegio_romano",
+    "sources": [
+      {
+        "source_id": "bartel_2016_thesis",
+        "page": 19,
+        "quote": "During his 37-year term at the Collegio Romano, Clavius placed special emphasis on the instruction of mathematics"
+      }
+    ]
+  },
+  {
+    "id": "grassi_published_libra",
+    "source": "orazio_grassi",
+    "type": "published",
+    "target": "libra_astronomica",
+    "event_id": "grassi_publication_libra",
+    "sources": [
+      {
+        "source_id": "bartel_2016_thesis",
+        "page": 28,
+        "quote": "The Libra was published in December 1619 under the pseudonym Lotario Sarsi."
+      }
+    ]
+  },
+  {
+    "id": "grassi_published_ratio",
+    "source": "orazio_grassi",
+    "type": "published",
+    "target": "ratio_ponderum",
+    "event_id": "grassi_publication_ratio_ponderum",
+    "sources": [
+      {
+        "source_id": "bartel_2016_thesis",
+        "page": 55,
+        "quote": "The work, titled Ratio ponderum librae et simbellae again published under the pseudonym of Sarsi, but was printed in Paris rather than Rome."
+      }
+    ]
+  }
+]

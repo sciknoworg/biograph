@@ -236,8 +236,18 @@ history that the vocabulary simply didn't allow — so the parked file doubles a
 evidence for which `RELATION_DIRECTIONS` entries are too narrow. Review it, fix
 the entity's type or the relation's direction, and rebuild.
 
-Errors that really do indicate corruption — a schema violation, an event
-pointing at a missing participant, a missing source citation — remain fatal.
+Events are treated the same way, narrowly. An event is set aside into
+`events.rejected.json` when a required list came back **empty** — it names nobody,
+or cites nothing, so it can be neither rendered nor verified. A participant or a
+`location` naming an entity nobody defined is simply dropped, keeping the event:
+the reference points at nothing, so removing it corrupts nothing, and one dangling
+name should not sink a thirty-event extraction. An event left with no participants
+at all then joins the set-aside path.
+
+What remains fatal is corruption that would make the rest untrustworthy: a
+malformed date, a missing source citation, a schema violation in an entity or
+source. The rule throughout is that a leaf may be removed and the whole kept, but
+nothing is silently repaired.
 
 ### Building without `jsonschema` installed
 

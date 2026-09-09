@@ -1,0 +1,289 @@
+[
+  {
+    "id": "james_van_allen",
+    "entity_type": "person",
+    "name": "James Alfred Van Allen",
+    "aliases": [
+      "James A. Van Allen",
+      "James Van Allen",
+      "Van Allen"
+    ],
+    "summary": "American space scientist who discovered Earth's radiation belts and contributed to the development of the proximity fuse.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "thomas_poulter",
+    "entity_type": "person",
+    "name": "Thomas Poulter",
+    "aliases": [
+      "Poulter"
+    ],
+    "summary": "Physicist and mentor to James Van Allen at Iowa Wesleyan College.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "abigail_halsey",
+    "entity_type": "person",
+    "name": "Abigail Halsey",
+    "aliases": [
+      "Abigail Van Allen"
+    ],
+    "summary": "Wife of James Van Allen.",
+    "subtype": "family"
+  },
+  {
+    "id": "george_ludwig",
+    "entity_type": "person",
+    "name": "George Ludwig",
+    "aliases": [
+      "George H. Ludwig"
+    ],
+    "summary": "Graduate student and research assistant to James Van Allen.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "carl_mcilwain",
+    "entity_type": "person",
+    "name": "Carl McIlwain",
+    "aliases": [
+      "Carl E. McIlwain"
+    ],
+    "summary": "Research assistant to James Van Allen.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "sydney_chapman",
+    "entity_type": "person",
+    "name": "Sydney Chapman",
+    "aliases": [
+      "Chapman"
+    ],
+    "summary": "Geophysicist and DTM research associate who advised Van Allen.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "lloyd_berkner",
+    "entity_type": "person",
+    "name": "Lloyd V. Berkner",
+    "aliases": [
+      "Berkner"
+    ],
+    "summary": "Geophysicist who proposed the International Geophysical Year.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "nicholas_christofilos",
+    "entity_type": "person",
+    "name": "Nicholas Constantine Christofilos",
+    "aliases": [
+      "Christofilos"
+    ],
+    "summary": "Physicist at Lawrence Berkeley Lab who proposed detonating bombs in space.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "bernard_lovell",
+    "entity_type": "person",
+    "name": "Bernard Lovell",
+    "aliases": [
+      "Lovell"
+    ],
+    "summary": "British radio astronomer who protested nuclear testing in space.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "iowa_wesleyan_college",
+    "entity_type": "organization",
+    "name": "Iowa Wesleyan College",
+    "aliases": [],
+    "summary": "College where James Van Allen studied physics as an undergraduate.",
+    "subtype": "university"
+  },
+  {
+    "id": "carnegie_dtm",
+    "entity_type": "organization",
+    "name": "Carnegie Institution of Washington's Department of Terrestrial Magnetism",
+    "aliases": [
+      "DTM"
+    ],
+    "summary": "Research institution where Van Allen completed a postdoctoral fellowship.",
+    "subtype": "lab"
+  },
+  {
+    "id": "state_university_iowa",
+    "entity_type": "organization",
+    "name": "State University of Iowa",
+    "aliases": [
+      "University of Iowa",
+      "SUI",
+      "Iowa"
+    ],
+    "summary": "University where Van Allen earned his graduate degrees and later chaired the physics department.",
+    "subtype": "university"
+  },
+  {
+    "id": "apl",
+    "entity_type": "organization",
+    "name": "Applied Physics Laboratory",
+    "aliases": [
+      "APL"
+    ],
+    "summary": "Laboratory managed by Johns Hopkins University where Van Allen worked during and after WWII.",
+    "subtype": "lab"
+  },
+  {
+    "id": "us_naval_reserve",
+    "entity_type": "organization",
+    "name": "U.S. Naval Reserve",
+    "aliases": [
+      "Navy"
+    ],
+    "summary": "Military branch in which Van Allen was commissioned during World War II.",
+    "subtype": "military"
+  },
+  {
+    "id": "jpl",
+    "entity_type": "organization",
+    "name": "Jet Propulsion Laboratory",
+    "aliases": [
+      "JPL"
+    ],
+    "summary": "Laboratory that built and operated the Explorer satellites.",
+    "subtype": "lab"
+  },
+  {
+    "id": "army_ballistic_missile_agency",
+    "entity_type": "organization",
+    "name": "Army Ballistic Missile Agency",
+    "aliases": [
+      "ABMA"
+    ],
+    "summary": "Agency that launched the Juno 1 missile carrying Explorer 1.",
+    "subtype": "military"
+  },
+  {
+    "id": "mount_pleasant_iowa",
+    "entity_type": "place",
+    "name": "Mount Pleasant, Iowa",
+    "aliases": [
+      "Mount Pleasant"
+    ],
+    "summary": "Birthplace and hometown of James Van Allen.",
+    "subtype": "city"
+  },
+  {
+    "id": "cape_canaveral",
+    "entity_type": "place",
+    "name": "Cape Canaveral",
+    "aliases": [],
+    "summary": "Launch site for the Bumper V-2 and later space missions.",
+    "subtype": "facility"
+  },
+  {
+    "id": "johnston_island",
+    "entity_type": "place",
+    "name": "Johnston Island",
+    "aliases": [],
+    "summary": "Location of high-altitude nuclear tests including Starfish Prime.",
+    "subtype": "facility"
+  },
+  {
+    "id": "south_atlantic_ocean",
+    "entity_type": "place",
+    "name": "South Atlantic Ocean",
+    "aliases": [
+      "South Atlantic"
+    ],
+    "summary": "Location of the Project Argus nuclear tests.",
+    "subtype": "region"
+  },
+  {
+    "id": "hawaii",
+    "entity_type": "place",
+    "name": "Hawaii",
+    "aliases": [],
+    "summary": "Location where effects of the Starfish Prime test were observed.",
+    "subtype": "state"
+  },
+  {
+    "id": "soviet_union",
+    "entity_type": "place",
+    "name": "Soviet Union",
+    "aliases": [
+      "Russia",
+      "USSR"
+    ],
+    "summary": "Country Van Allen visited in 1959 and competed with in the space race.",
+    "subtype": "country"
+  },
+  {
+    "id": "v2_rocket",
+    "entity_type": "artifact",
+    "name": "V-2 rocket",
+    "aliases": [
+      "V-2"
+    ],
+    "summary": "German rocket used for high-altitude research after World War II.",
+    "subtype": "product"
+  },
+  {
+    "id": "explorer_1",
+    "entity_type": "artifact",
+    "name": "Explorer 1",
+    "aliases": [
+      "satellite 1958 alpha"
+    ],
+    "summary": "First U.S. satellite which carried Van Allen's instrument package.",
+    "subtype": "product"
+  },
+  {
+    "id": "explorer_4",
+    "entity_type": "artifact",
+    "name": "Explorer 4",
+    "aliases": [
+      "satellite 1958 delta"
+    ],
+    "summary": "Satellite purpose-built to monitor the Project Argus nuclear tests.",
+    "subtype": "product"
+  },
+  {
+    "id": "van_allen_belts",
+    "entity_type": "artifact",
+    "name": "Van Allen Belts",
+    "aliases": [
+      "radiation belts"
+    ],
+    "summary": "Zones of energetic charged particles surrounding Earth discovered by Van Allen.",
+    "subtype": "phenomenon"
+  },
+  {
+    "id": "project_argus",
+    "entity_type": "artifact",
+    "name": "Project Argus",
+    "aliases": [
+      "Argus"
+    ],
+    "summary": "Top secret military test to detonate atomic bombs in space.",
+    "subtype": "project"
+  },
+  {
+    "id": "project_starfish_prime",
+    "entity_type": "artifact",
+    "name": "Project Starfish Prime",
+    "aliases": [
+      "Starfish Prime"
+    ],
+    "summary": "1962 high-altitude nuclear test that created an artificial radiation belt.",
+    "subtype": "project"
+  },
+  {
+    "id": "proximity_fuse",
+    "entity_type": "artifact",
+    "name": "radio-proximity fuse",
+    "aliases": [
+      "proximity fuse"
+    ],
+    "summary": "Device designed by Van Allen during World War II to detonate bombs near targets.",
+    "subtype": "invention"
+  }
+]

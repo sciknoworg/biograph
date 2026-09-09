@@ -1,0 +1,344 @@
+[
+  {
+    "id": "walter_kohn_birth",
+    "event_type": "birth",
+    "label": "Born in Vienna",
+    "date": {
+      "display": "9 March 1923",
+      "precision": "day",
+      "sort_start": "1923-03-09",
+      "sort_end": "1923-03-09"
+    },
+    "participants": [
+      {
+        "entity_id": "walter_kohn",
+        "role": "subject"
+      }
+    ],
+    "location": "vienna",
+    "sources": [
+      {
+        "source_id": "computation_2016_4_40",
+        "page": 1,
+        "quote": "Walter was born in Vienna on 9 March 1923 into a Jewish family."
+      }
+    ]
+  },
+  {
+    "id": "walter_kohn_move_uk",
+    "event_type": "relocation",
+    "label": "Sent to Great Britain",
+    "date": {
+      "display": "1939",
+      "precision": "year",
+      "sort_start": "1939-01-01",
+      "sort_end": "1939-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "walter_kohn",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "computation_2016_4_40",
+        "page": 1,
+        "quote": "In 1939, the Kohn parents sent their 16-year-old son to Great Britain with one of the last children's transport rescue missions (Kindertransporte)."
+      }
+    ]
+  },
+  {
+    "id": "walter_kohn_detention",
+    "event_type": "other",
+    "label": "Detained as enemy alien",
+    "date": {
+      "display": "1940",
+      "precision": "year",
+      "sort_start": "1940-01-01",
+      "sort_end": "1940-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "walter_kohn",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "computation_2016_4_40",
+        "page": 1,
+        "quote": "In 1940, when there was a risk of a UK invasion by Germany, he and other men who held German passports were considered to be \"enemy aliens\" and put in detention camps: ﬁrst on the Isle of Man, and then Walter was shipped to Canada, where he worked in a woodcutter camp."
+      }
+    ]
+  },
+  {
+    "id": "walter_kohn_move_harvard",
+    "event_type": "relocation",
+    "label": "Moved to Harvard",
+    "date": {
+      "display": "1946",
+      "precision": "year",
+      "sort_start": "1946-01-01",
+      "sort_end": "1946-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "walter_kohn",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "computation_2016_4_40",
+        "page": 1,
+        "quote": "In 1946, he moved to Harvard."
+      }
+    ]
+  },
+  {
+    "id": "walter_kohn_phd",
+    "event_type": "education",
+    "label": "Received Ph.D. in theoretical physics",
+    "date": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "walter_kohn",
+        "role": "subject"
+      },
+      {
+        "entity_id": "harvard_university",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "computation_2016_4_40",
+        "page": 1,
+        "quote": "In 1948, he received his Ph.D. in theoretical physics."
+      }
+    ]
+  },
+  {
+    "id": "walter_kohn_citizenship",
+    "event_type": "other",
+    "label": "Became American citizen",
+    "date": {
+      "display": "1957",
+      "precision": "year",
+      "sort_start": "1957-01-01",
+      "sort_end": "1957-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "walter_kohn",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "computation_2016_4_40",
+        "page": 1,
+        "quote": "In 1957, he became an American citizen"
+      }
+    ]
+  },
+  {
+    "id": "walter_kohn_professor_ucsd",
+    "event_type": "employment_start",
+    "label": "Professor at UCSD",
+    "date": {
+      "display": "1960",
+      "precision": "year",
+      "sort_start": "1960-01-01",
+      "sort_end": "1960-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "walter_kohn",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_california_san_diego",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "computation_2016_4_40",
+        "page": 1,
+        "quote": "and in 1960, a professor at the University of California, San Diego"
+      }
+    ]
+  },
+  {
+    "id": "walter_kohn_hohenberg_kohn",
+    "event_type": "publication",
+    "label": "Hohenberg-Kohn theorem published",
+    "date": {
+      "display": "1964",
+      "precision": "year",
+      "sort_start": "1964-01-01",
+      "sort_end": "1964-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "walter_kohn",
+        "role": "subject"
+      },
+      {
+        "entity_id": "pierre_hohenberg",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "computation_2016_4_40",
+        "page": 3,
+        "quote": "Such deep enquiries led in 1964 to the establishment of the famous Hohenberg–Kohn theorem basis of DFT"
+      }
+    ]
+  },
+  {
+    "id": "walter_kohn_kohn_sham",
+    "event_type": "publication",
+    "label": "Kohn-Sham equations proposed",
+    "date": {
+      "display": "1965",
+      "precision": "year",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "walter_kohn",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lu_j_sham",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "computation_2016_4_40",
+        "page": 3,
+        "quote": "A year later, Walter returned to San Diego, where he and Lu Jeu Sham proposed a scheme to make DFT calculations feasible, now called Kohn–Sham (KS) equations [2]."
+      }
+    ]
+  },
+  {
+    "id": "walter_kohn_director_itp",
+    "event_type": "employment_start",
+    "label": "Founding director of ITP UCSB",
+    "date": {
+      "display": "1979",
+      "precision": "year",
+      "sort_start": "1979-01-01",
+      "sort_end": "1979-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "walter_kohn",
+        "role": "subject"
+      },
+      {
+        "entity_id": "institute_for_theoretical_physics_ucsb",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "computation_2016_4_40",
+        "page": 1,
+        "quote": "In 1979, Walter became the founding director of the Institute for Theoretical Physics at the University of California, Santa Barbara"
+      }
+    ]
+  },
+  {
+    "id": "walter_kohn_director_end",
+    "event_type": "employment_end",
+    "label": "Directorship ended",
+    "date": {
+      "display": "1984",
+      "precision": "year",
+      "sort_start": "1984-01-01",
+      "sort_end": "1984-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "walter_kohn",
+        "role": "subject"
+      },
+      {
+        "entity_id": "institute_for_theoretical_physics_ucsb",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "computation_2016_4_40",
+        "page": 1,
+        "quote": "where he was director until 1984."
+      }
+    ]
+  },
+  {
+    "id": "walter_kohn_nobel",
+    "event_type": "award",
+    "label": "Awarded Nobel Prize in Chemistry",
+    "date": {
+      "display": "1998",
+      "precision": "year",
+      "sort_start": "1998-01-01",
+      "sort_end": "1998-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "walter_kohn",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize_chemistry_1998",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "computation_2016_4_40",
+        "page": 2,
+        "quote": "In 1998, he (together with John Pople) was awarded the Nobel Prize in Chemistry (not in physics) for his pioneering scientiﬁc contributions."
+      }
+    ]
+  },
+  {
+    "id": "walter_kohn_death",
+    "event_type": "death",
+    "label": "Died in Santa Barbara",
+    "date": {
+      "display": "19 April 2016",
+      "precision": "day",
+      "sort_start": "2016-04-19",
+      "sort_end": "2016-04-19"
+    },
+    "participants": [
+      {
+        "entity_id": "walter_kohn",
+        "role": "subject"
+      }
+    ],
+    "location": "santa_barbara_ca",
+    "sources": [
+      {
+        "source_id": "computation_2016_4_40",
+        "page": 1,
+        "quote": "Walter Kohn (Figure 1) is one of the most cited scientists of our time, who died on 19 April 2016 in Santa Barbara, CA, USA."
+      }
+    ]
+  }
+]

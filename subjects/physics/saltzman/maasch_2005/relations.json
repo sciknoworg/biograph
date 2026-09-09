@@ -1,0 +1,152 @@
+[
+  {
+    "id": "saltzman_educated_bronx",
+    "source": "barry_saltzman",
+    "type": "studied_at",
+    "target": "bronx_high_school_of_science",
+    "event_id": "saltzman_graduated_bronx",
+    "sources": [
+      {
+        "source_id": "maasch_2005",
+        "page": 2,
+        "quote": "Professor Barry Saltzman began his academic career at the highly prestigious Bronx High School of Science, from which he graduated in 1949."
+      }
+    ]
+  },
+  {
+    "id": "saltzman_educated_city_college",
+    "source": "barry_saltzman",
+    "type": "studied_at",
+    "target": "city_college_of_new_york",
+    "event_id": "saltzman_bs_city_college",
+    "sources": [
+      {
+        "source_id": "maasch_2005",
+        "page": 2,
+        "quote": "He then attended the City College (of New York) where he earned a B.S. in physics in 1952."
+      }
+    ]
+  },
+  {
+    "id": "saltzman_educated_mit",
+    "source": "barry_saltzman",
+    "type": "studied_at",
+    "target": "mit",
+    "event_id": "saltzman_phd_mit",
+    "sources": [
+      {
+        "source_id": "maasch_2005",
+        "page": 2,
+        "quote": "Barry did his graduate work at the Massachusetts Institute of Technology (MIT), where he obtained an S.M. in meteorology in 1954 and a Ph.D., also in meteorology, in 1957"
+      }
+    ]
+  },
+  {
+    "id": "saltzman_supervised_by_starr",
+    "source": "barry_saltzman",
+    "type": "supervised_by",
+    "target": "victor_starr",
+    "event_id": "saltzman_phd_mit",
+    "sources": [
+      {
+        "source_id": "maasch_2005",
+        "page": 2,
+        "quote": "the latter under the guidance of Professor Victor Starr."
+      }
+    ]
+  },
+  {
+    "id": "saltzman_worked_at_travelers",
+    "source": "barry_saltzman",
+    "type": "worked_at",
+    "target": "travelers_research_center",
+    "event_id": "saltzman_employed_travelers",
+    "sources": [
+      {
+        "source_id": "maasch_2005",
+        "page": 2,
+        "quote": "In 1961 after very productive years at MIT, Saltzman took a job at the Travelers Research Center in Hartford, Connecticut"
+      }
+    ]
+  },
+  {
+    "id": "saltzman_worked_at_yale",
+    "source": "barry_saltzman",
+    "type": "worked_at",
+    "target": "yale_university",
+    "event_id": "yale_hired_saltzman",
+    "sources": [
+      {
+        "source_id": "maasch_2005",
+        "page": 2,
+        "quote": "Subsequently, Saltzman accepted a position and moved to Yale in 1968, where he served as Professor of Geophysics for the rest of his life."
+      }
+    ]
+  },
+  {
+    "id": "saltzman_collaborated_with_lorenz",
+    "source": "barry_saltzman",
+    "type": "collaborated_with",
+    "target": "edward_lorenz",
+    "sources": [
+      {
+        "source_id": "maasch_2005",
+        "page": 3,
+        "quote": "Around this time, his colleague Ed Lorenz ( Lorenz 1962) had found nonperiodic solutions of a similar quasi-meteorological ODE system of order 12"
+      }
+    ]
+  },
+  {
+    "id": "saltzman_collaborated_with_vernekar",
+    "source": "barry_saltzman",
+    "type": "collaborated_with",
+    "target": "anandu_vernekar",
+    "sources": [
+      {
+        "source_id": "maasch_2005",
+        "page": 4,
+        "quote": "His seminal works in this regard are detailed in two papers written with Vernekar (Saltzman and Vernekar 1971a, 1972)."
+      }
+    ]
+  },
+  {
+    "id": "saltzman_collaborated_with_verbitsky",
+    "source": "barry_saltzman",
+    "type": "collaborated_with",
+    "target": "mikhail_verbitsky",
+    "sources": [
+      {
+        "source_id": "maasch_2005",
+        "page": 7,
+        "quote": "Along with Mikhail Verbitsky, he added bedrock depression as a prognostic variable to his PDM (Saltzman and Verbitsky 1992, 1993)."
+      }
+    ]
+  },
+  {
+    "id": "saltzman_collaborated_with_oglesby",
+    "source": "barry_saltzman",
+    "type": "collaborated_with",
+    "target": "bob_oglesby",
+    "sources": [
+      {
+        "source_id": "maasch_2005",
+        "page": 7,
+        "quote": "Most of this work was done with his then Ph.D. student Bob Oglesby, to whom Saltzman gave as a specific charge the task of learning how to use these models."
+      }
+    ]
+  },
+  {
+    "id": "saltzman_awarded_rossby_medal",
+    "source": "barry_saltzman",
+    "type": "awarded",
+    "target": "carl_gustaf_rossby_medal",
+    "event_id": "saltzman_awarded_rossby_medal",
+    "sources": [
+      {
+        "source_id": "maasch_2005",
+        "page": 1,
+        "quote": "In 1998, he was awarded the Carl-Gustaf Rossby medal, the highest honor of the American Meteorological Society"
+      }
+    ]
+  }
+]

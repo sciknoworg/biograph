@@ -1,0 +1,193 @@
+[
+  {
+    "id": "bibha_chowdhuri",
+    "entity_type": "person",
+    "name": "Bibha Chowdhuri",
+    "aliases": [
+      "Dr. Bibha Chowdhuri",
+      "Bibha Chowdhury",
+      "Biva Chowdhry",
+      "Bibha Chaudhuri"
+    ],
+    "summary": "Indian particle physicist and pioneer in cosmic ray research using photographic nuclear emulsions.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "d_m_bose",
+    "entity_type": "person",
+    "name": "D. M. Bose",
+    "aliases": [
+      "Debendra Mohan Bose",
+      "Prof. D.M. Bose"
+    ],
+    "summary": "Physicist and director of the Bose Institute, mentor and cousin-in-law to Bibha Chowdhuri.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "cecil_powell",
+    "entity_type": "person",
+    "name": "Cecil Powell",
+    "aliases": [
+      "C. Powell"
+    ],
+    "summary": "Nobel laureate physicist who acknowledged Chowdhuri's pioneering efforts in meson research.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "p_m_s_blackett",
+    "entity_type": "person",
+    "name": "P. M. S. Blackett",
+    "aliases": [
+      "Sir Patrick Blackett",
+      "Patrick M.S. Blackett"
+    ],
+    "summary": "Nobel laureate physicist under whom Chowdhuri worked at the University of Manchester.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "homi_bhabha",
+    "entity_type": "person",
+    "name": "Homi Bhabha",
+    "aliases": [
+      "Dr. Homi J. Bhabha",
+      "Homi J. Bhabha"
+    ],
+    "summary": "Physicist who recruited Chowdhuri to the Tata Institute of Fundamental Research.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "vikram_sarabhai",
+    "entity_type": "person",
+    "name": "Vikram Sarabhai",
+    "aliases": [
+      "Dr. Vikram Sarabhai"
+    ],
+    "summary": "Leader of the Physical Research Laboratory where Chowdhuri worked on cosmic-ray research.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "bose_institute",
+    "entity_type": "organization",
+    "name": "Bose Institute",
+    "aliases": [
+      "Bose Research Institute"
+    ],
+    "summary": "Research institute in Kolkata where Chowdhuri began her career.",
+    "subtype": "lab"
+  },
+  {
+    "id": "university_of_calcutta",
+    "entity_type": "organization",
+    "name": "University of Calcutta",
+    "aliases": [
+      "Calcutta University"
+    ],
+    "summary": "University where Chowdhuri completed her B.Sc, M.Sc, and teaching faculty role.",
+    "subtype": "university"
+  },
+  {
+    "id": "university_of_manchester",
+    "entity_type": "organization",
+    "name": "University of Manchester",
+    "aliases": [
+      "Manchester"
+    ],
+    "summary": "University where Chowdhuri completed her PhD under Patrick Blackett.",
+    "subtype": "university"
+  },
+  {
+    "id": "tifr",
+    "entity_type": "organization",
+    "name": "Tata Institute of Fundamental Research",
+    "aliases": [
+      "TIFR"
+    ],
+    "summary": "Research institute where Chowdhuri was the first female researcher.",
+    "subtype": "lab"
+  },
+  {
+    "id": "prl",
+    "entity_type": "organization",
+    "name": "Physical Research Laboratory",
+    "aliases": [
+      "PRL"
+    ],
+    "summary": "Laboratory in Ahmedabad where Chowdhuri worked under Vikram Sarabhai.",
+    "subtype": "lab"
+  },
+  {
+    "id": "saha_institute",
+    "entity_type": "organization",
+    "name": "Saha Institute of Nuclear Physics",
+    "aliases": [
+      "SINP"
+    ],
+    "summary": "Institute where Chowdhuri collaborated in later years.",
+    "subtype": "lab"
+  },
+  {
+    "id": "iau",
+    "entity_type": "organization",
+    "name": "International Astronomical Union",
+    "aliases": [
+      "IAU"
+    ],
+    "summary": "Organization which named a star in Chowdhuri's honour.",
+    "subtype": "organization"
+  },
+  {
+    "id": "kolkata",
+    "entity_type": "place",
+    "name": "Kolkata",
+    "aliases": [
+      "Calcutta"
+    ],
+    "summary": "City in West Bengal, India, where Chowdhuri was born and spent much of her life.",
+    "subtype": "city",
+    "attributes": {
+      "country": "India"
+    }
+  },
+  {
+    "id": "manchester",
+    "entity_type": "place",
+    "name": "Manchester",
+    "summary": "City in England where Chowdhuri pursued her PhD.",
+    "subtype": "city",
+    "attributes": {
+      "country": "England"
+    }
+  },
+  {
+    "id": "ahmedabad",
+    "entity_type": "place",
+    "name": "Ahmedabad",
+    "summary": "City in India where the Physical Research Laboratory is located.",
+    "subtype": "city",
+    "attributes": {
+      "country": "India"
+    }
+  },
+  {
+    "id": "star_bibha",
+    "entity_type": "artifact",
+    "name": "Bibha",
+    "aliases": [
+      "HD 86081",
+      "Star Bibha"
+    ],
+    "summary": "Star named by the IAU in honour of Chowdhuri.",
+    "subtype": "astronomical_object"
+  },
+  {
+    "id": "photographic_emulsions",
+    "entity_type": "artifact",
+    "name": "Photographic nuclear emulsions",
+    "aliases": [
+      "Photographic plate method",
+      "Nuclear emulsions"
+    ],
+    "summary": "Detection technique pioneered by Chowdhuri for identifying mesons.",
+    "subtype": "technique"
+  }
+]

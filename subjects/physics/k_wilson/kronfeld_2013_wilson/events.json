@@ -1,0 +1,366 @@
+[
+  {
+    "id": "wilson_birth",
+    "event_type": "birth",
+    "label": "Born in Waltham, Massachusetts",
+    "date": {
+      "display": "June 8, 1936",
+      "precision": "day",
+      "sort_start": "1936-06-08",
+      "sort_end": "1936-06-08"
+    },
+    "participants": [
+      {
+        "entity_id": "kenneth_g_wilson",
+        "role": "subject"
+      }
+    ],
+    "location": "waltham_massachusetts",
+    "sources": [
+      {
+        "source_id": "kronfeld_2013",
+        "page": 2,
+        "quote": "Ken was born on June 8, 1936, to E. Bright and Emily (née Buckingham) Wilson in Waltham, Massachusetts."
+      }
+    ]
+  },
+  {
+    "id": "wilson_george_school_grad",
+    "event_type": "education",
+    "label": "Graduated from George School",
+    "description": "Graduated at age sixteen from a Quaker boarding school in eastern Pennsylvania.",
+    "date": {
+      "display": "c. 1952",
+      "precision": "circa",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kenneth_g_wilson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "george_school",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kronfeld_2013",
+        "page": 2,
+        "quote": "graduated from the George School, a Quaker boarding school in eastern Pennsylvania, at age sixteen [ 4]."
+      }
+    ]
+  },
+  {
+    "id": "wilson_harvard_math",
+    "event_type": "education",
+    "label": "Majored in mathematics at Harvard",
+    "date": {
+      "display": "1956",
+      "precision": "year",
+      "sort_start": "1956-01-01",
+      "sort_end": "1956-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kenneth_g_wilson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "harvard_university",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kronfeld_2013",
+        "page": 2,
+        "quote": "Ken went to Harvard, where he majored in mathematics, even though he had decided as a teenager to be a physicist."
+      }
+    ]
+  },
+  {
+    "id": "wilson_caltech_phd_start",
+    "event_type": "education",
+    "label": "Went to CalTech for Ph.D.",
+    "date": {
+      "display": "1956",
+      "precision": "year",
+      "sort_start": "1956-01-01",
+      "sort_end": "1956-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kenneth_g_wilson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "california_institute_of_technology",
+        "role": "institution"
+      },
+      {
+        "entity_id": "murray_gell_mann",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kronfeld_2013",
+        "page": 2,
+        "quote": "In 1956, he went to CalTech to obtain his Ph. D. from Murray Gell-Mann."
+      }
+    ]
+  },
+  {
+    "id": "wilson_phd_finished",
+    "event_type": "education",
+    "label": "Finished dissertation",
+    "date": {
+      "display": "1961",
+      "precision": "year",
+      "sort_start": "1961-01-01",
+      "sort_end": "1961-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kenneth_g_wilson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kronfeld_2013",
+        "page": 2,
+        "quote": "ﬁnishing the dissertation in 1961."
+      }
+    ]
+  },
+  {
+    "id": "wilson_society_fellows",
+    "event_type": "employment_start",
+    "label": "Joined Society of Fellows at Harvard",
+    "date": {
+      "display": "1959–1962",
+      "precision": "range",
+      "sort_start": "1959-01-01",
+      "sort_end": "1962-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kenneth_g_wilson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "society_of_fellows",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kronfeld_2013",
+        "page": 2,
+        "quote": "While still a graduate student, he went back to Harvard and the Society of Fellows (1959–1962), ﬁnishing the dissertation in 1961."
+      }
+    ]
+  },
+  {
+    "id": "wilson_cornell_faculty",
+    "event_type": "employment_start",
+    "label": "Offered faculty position at Cornell",
+    "date": {
+      "display": "1963",
+      "precision": "year",
+      "sort_start": "1963-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kenneth_g_wilson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cornell_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kronfeld_2013",
+        "page": 2,
+        "quote": "in 1963 Cornell offered Ken a faculty position unsolicited."
+      }
+    ]
+  },
+  {
+    "id": "wilson_cornell_tenure",
+    "event_type": "role_change",
+    "label": "Received tenure at Cornell",
+    "date": {
+      "display": "1965",
+      "precision": "year",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kenneth_g_wilson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cornell_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kronfeld_2013",
+        "page": 2,
+        "quote": "He received tenure in 1965 on the basis of the ﬁrst (ﬂawed—according to Wilson—and hence unpublished) paper on the operator-product expansion [ 5] and a paper (submitted June 1965) on renormalization [ 6]."
+      }
+    ]
+  },
+  {
+    "id": "wilson_wolf_prize",
+    "event_type": "award",
+    "label": "Shared Wolf Prize",
+    "date": {
+      "display": "1980",
+      "precision": "year",
+      "sort_start": "1980-01-01",
+      "sort_end": "1980-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kenneth_g_wilson",
+        "role": "recipient"
+      },
+      {
+        "entity_id": "michael_fisher",
+        "role": "recipient"
+      },
+      {
+        "entity_id": "leo_kadanoff",
+        "role": "recipient"
+      },
+      {
+        "entity_id": "wolf_prize",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kronfeld_2013",
+        "page": 5,
+        "quote": "Fisher, Kadanoff, and Wilson had shared the 1980 Wolf Prize, and many just assumed that they would receive the Nobel in due course."
+      }
+    ]
+  },
+  {
+    "id": "wilson_nobel_prize",
+    "event_type": "award",
+    "label": "Received Nobel Prize in Physics",
+    "description": "Received eight years after 1974 for theory of critical phenomena.",
+    "date": {
+      "display": "c. 1982",
+      "precision": "circa",
+      "sort_start": "1982-01-01",
+      "sort_end": "1982-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kenneth_g_wilson",
+        "role": "recipient"
+      },
+      {
+        "entity_id": "nobel_prize_physics",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kronfeld_2013",
+        "page": 3,
+        "quote": "Eight years later, upon receiving the Nobel Prize in physics, Ken referred to the Kondo problem as an important application of the renormalization group beyond critical phenomena [28]."
+      }
+    ]
+  },
+  {
+    "id": "wilson_osu_move",
+    "event_type": "relocation",
+    "label": "Moved to Ohio State University",
+    "date": {
+      "display": "1988",
+      "precision": "year",
+      "sort_start": "1988-01-01",
+      "sort_end": "1988-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kenneth_g_wilson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ohio_state_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kronfeld_2013",
+        "page": 6,
+        "quote": "In 1988, Ken moved to the Ohio State University, where he split his research time between light-front QCD [38] and social issues such as science education."
+      }
+    ]
+  },
+  {
+    "id": "wilson_death",
+    "event_type": "death",
+    "label": "Died in Saco, Maine",
+    "date": {
+      "display": "June 15, 2013",
+      "precision": "day",
+      "sort_start": "2013-06-15",
+      "sort_end": "2013-06-15"
+    },
+    "participants": [
+      {
+        "entity_id": "kenneth_g_wilson",
+        "role": "subject"
+      }
+    ],
+    "location": "saco_maine",
+    "sources": [
+      {
+        "source_id": "kronfeld_2013",
+        "page": 2,
+        "quote": "Ken succumbed to lymphoma on June 15, 2013, in Saco, Maine [ 1, 2]."
+      }
+    ]
+  },
+  {
+    "id": "wilson_memorial",
+    "event_type": "conference",
+    "label": "Memorial symposium at Cornell",
+    "date": {
+      "display": "November 16, 2013",
+      "precision": "day",
+      "sort_start": "2013-11-16",
+      "sort_end": "2013-11-16"
+    },
+    "participants": [
+      {
+        "entity_id": "cornell_university",
+        "role": "organizer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kronfeld_2013",
+        "page": 7,
+        "quote": "Cornell University organized a memorial symposium on November 16, 2013, which brought back some memories that I've woven into the narrative presented at the conference."
+      }
+    ]
+  }
+]

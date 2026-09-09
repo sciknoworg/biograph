@@ -1,0 +1,96 @@
+[
+  {
+    "id": "joe_born_clarksville",
+    "source": "joe_william_waters",
+    "type": "born_in",
+    "target": "clarksville_tennessee",
+    "event_id": "birth_joe_waters",
+    "sources": [
+      {
+        "source_id": "siegel_2015",
+        "page": 1,
+        "quote": "Joe Waters was born into a humble, and hard-working, farm family outside of Clarksville 2, Tennessee, in the southeastern United States."
+      }
+    ]
+  },
+  {
+    "id": "joe_studied_mit",
+    "source": "joe_william_waters",
+    "type": "studied_at",
+    "target": "massachusetts_institute_of_technology",
+    "event_id": "enrollment_mit",
+    "sources": [
+      {
+        "source_id": "siegel_2015",
+        "page": 1,
+        "quote": "One of the Nashville students kept boasting about a school called MIT that he planned to attend—at the time Joe didn't even know what the initials meant."
+      }
+    ]
+  },
+  {
+    "id": "joe_supervised_staelin",
+    "source": "joe_william_waters",
+    "type": "supervised_by",
+    "target": "dave_staelin",
+    "sources": [
+      {
+        "source_id": "siegel_2015",
+        "page": 2,
+        "quote": "Staelin ended up becoming a lifelong mentor and the single most important inﬂuence on Joe's career."
+      }
+    ]
+  },
+  {
+    "id": "joe_worked_jpl",
+    "source": "joe_william_waters",
+    "type": "worked_at",
+    "target": "jet_propulsion_laboratory",
+    "event_id": "employment_jpl",
+    "sources": [
+      {
+        "source_id": "siegel_2015",
+        "page": 4,
+        "quote": "Joe began work at JPL on November 19, 1973."
+      }
+    ]
+  },
+  {
+    "id": "joe_developed_mls",
+    "source": "joe_william_waters",
+    "type": "developed",
+    "target": "microwave_limb_sounder",
+    "sources": [
+      {
+        "source_id": "siegel_2015",
+        "page": 4,
+        "quote": "Soon after starting work on SIMS, Joe realized that the antenna size that could be accommodated on the space shuttle could, for the ﬁrst time, enable microwave limb sounding of the stratosphere from orbit."
+      }
+    ]
+  },
+  {
+    "id": "joe_collaborated_barrett",
+    "source": "joe_william_waters",
+    "type": "collaborated_with",
+    "target": "alan_barrett",
+    "sources": [
+      {
+        "source_id": "siegel_2015",
+        "page": 2,
+        "quote": "Staelin was an early Ph.D. student of MIT's Alan Barrett (founder of the MIT radio astronomy group, and himself a student of Nobel Laureate, Charles Townes)."
+      }
+    ]
+  },
+  {
+    "id": "joe_collaborated_barath",
+    "source": "joe_william_waters",
+    "type": "collaborated_with",
+    "target": "frank_barath",
+    "sources": [
+      {
+        "source_id": "siegel_2015",
+        "page": 3,
+        "quote": "Frank Barath led development of the instrument at the Jet Propulsion Laboratory, and Joe was responsible for the data retrieval algorithm and validation of the atmospheric temperature proﬁle measurements."
+      }
+    ]
+  }
+]

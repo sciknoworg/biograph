@@ -1,0 +1,18 @@
+[
+  {
+    "id": "hamilton_awarded_knighthood",
+    "source": "william_rowan_hamilton",
+    "type": "awarded",
+    "target": "william_rowan_hamilton",
+    "event_id": "knighthood",
+    "note": "Self-referential for award type",
+    "sources": [
+      {
+        "source_id": "mukunda_2016",
+        "page": 496,
+        "quote": "In 1835 he was knighted, and in 1836 became President of the Royal Irish Academy."
+      }
+    ],
+    "_rejected_because": "'awarded' expects target entity_type artifact, but 'william_rowan_hamilton' is 'person'"
+  }
+]

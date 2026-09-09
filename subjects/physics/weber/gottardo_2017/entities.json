@@ -1,0 +1,128 @@
+[
+  {
+    "id": "joseph_weber",
+    "entity_type": "person",
+    "name": "Joseph Weber",
+    "aliases": [
+      "Weber"
+    ],
+    "summary": "American physicist pioneer in gravitational waves and neutrinos detection.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "maryland_university",
+    "entity_type": "organization",
+    "name": "Maryland University",
+    "aliases": [
+      "University of Maryland"
+    ],
+    "summary": "University where Joseph Weber worked.",
+    "subtype": "university"
+  },
+  {
+    "id": "princeton_university",
+    "entity_type": "organization",
+    "name": "Princeton University",
+    "aliases": [],
+    "summary": "University where Joseph Weber studied under Wheeler.",
+    "subtype": "university"
+  },
+  {
+    "id": "john_archibald_wheeler",
+    "entity_type": "person",
+    "name": "John Archibald Wheeler",
+    "aliases": [
+      "Wheeler"
+    ],
+    "summary": "Expert of general relativity, Weber's supervisor.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "albert_einstein",
+    "entity_type": "person",
+    "name": "Albert Einstein",
+    "aliases": [
+      "Einstein"
+    ],
+    "summary": "Physicist who predicted gravitational waves.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "kip_thorne",
+    "entity_type": "person",
+    "name": "Kip Thorne",
+    "aliases": [
+      "Thorne"
+    ],
+    "summary": "Founder of LIGO project.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "v_b_braginsky",
+    "entity_type": "person",
+    "name": "V.B. Braginsky",
+    "aliases": [
+      "Braginsky"
+    ],
+    "summary": "Russian physicist who showed quantum limit of bar detectors.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "ligo",
+    "entity_type": "organization",
+    "name": "LIGO",
+    "aliases": [
+      "Laser Interferometer Gravitational wave Observatory"
+    ],
+    "summary": "Gravitational wave observatory proposed by Thorne.",
+    "subtype": "lab"
+  },
+  {
+    "id": "bar_detector",
+    "entity_type": "artifact",
+    "name": "Bar detector",
+    "aliases": [
+      "resonant mass detector"
+    ],
+    "summary": "Resonant mass detector designed by Weber for gravitational waves.",
+    "subtype": "invention"
+  },
+  {
+    "id": "torsion_balance",
+    "entity_type": "artifact",
+    "name": "Torsion balance",
+    "aliases": [],
+    "summary": "Apparatus used by Weber for neutrino detection.",
+    "subtype": "invention"
+  },
+  {
+    "id": "james_franson",
+    "entity_type": "person",
+    "name": "James Franson",
+    "aliases": [
+      "Franson"
+    ],
+    "summary": "Physicist who replicated Weber's neutrino experiment.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "bryan_jacobs",
+    "entity_type": "person",
+    "name": "Bryan Jacobs",
+    "aliases": [
+      "Jacobs"
+    ],
+    "summary": "Physicist who replicated Weber's neutrino experiment.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "substantia_journal",
+    "entity_type": "organization",
+    "name": "Substantia",
+    "aliases": [
+      "Substantia. An International Journal of the History of Chemistry"
+    ],
+    "summary": "Journal publishing the source article.",
+    "subtype": "publication"
+  }
+]

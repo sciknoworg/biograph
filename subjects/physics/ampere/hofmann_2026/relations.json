@@ -1,0 +1,179 @@
+[
+  {
+    "id": "ampere_born_1775",
+    "source": "andre_marie_ampere",
+    "type": "born_in",
+    "target": "andre_marie_ampere",
+    "event_id": "ampere_birth",
+    "sources": [
+      {
+        "source_id": "hofmann_2026",
+        "page": 2,
+        "quote": "The 2025 commemoration of the 250th anniversary of André-Marie Ampère' s birth in 1775"
+      }
+    ]
+  },
+  {
+    "id": "ampere_married_julie",
+    "source": "andre_marie_ampere",
+    "type": "married_to",
+    "target": "julie_carron",
+    "sources": [
+      {
+        "source_id": "hofmann_2026",
+        "page": 3,
+        "quote": "the early death of his beloved wife Julie Carron in 1803"
+      }
+    ]
+  },
+  {
+    "id": "ampere_married_jeanne",
+    "source": "andre_marie_ampere",
+    "type": "married_to",
+    "target": "jeanne_potot",
+    "event_id": "marriage_jeanne",
+    "sources": [
+      {
+        "source_id": "hofmann_2026",
+        "page": 4,
+        "quote": "his rash 1806 marriage to Jeanne Potot"
+      }
+    ]
+  },
+  {
+    "id": "ampere_father_albine",
+    "source": "andre_marie_ampere",
+    "type": "family_of",
+    "target": "albine_ampere",
+    "event_id": "albine_birth",
+    "sources": [
+      {
+        "source_id": "hofmann_2026",
+        "page": 4,
+        "quote": "daughter Albine, born on 6 July 1807"
+      }
+    ]
+  },
+  {
+    "id": "ampere_father_jean_jacques",
+    "source": "andre_marie_ampere",
+    "type": "family_of",
+    "target": "jean_jacques_ampere",
+    "sources": [
+      {
+        "source_id": "hofmann_2026",
+        "page": 5,
+        "quote": "Ampère' s son, Jean-Jacques, recalled that his father often insisted"
+      }
+    ]
+  },
+  {
+    "id": "ampere_sister_josephine",
+    "source": "andre_marie_ampere",
+    "type": "family_of",
+    "target": "josephine_ampere",
+    "sources": [
+      {
+        "source_id": "hofmann_2026",
+        "page": 6,
+        "quote": "His unmarried sister Joséphine took care of his household"
+      }
+    ]
+  },
+  {
+    "id": "ampere_worked_institut",
+    "source": "andre_marie_ampere",
+    "type": "worked_at",
+    "target": "institut_national",
+    "event_id": "institut_election",
+    "sources": [
+      {
+        "source_id": "hofmann_2026",
+        "page": 5,
+        "quote": "elected as a member of the mathematics section on 28 November"
+      }
+    ]
+  },
+  {
+    "id": "ampere_corresponded_bredin",
+    "source": "andre_marie_ampere",
+    "type": "corresponded_with",
+    "target": "claude_julien_bredin",
+    "sources": [
+      {
+        "source_id": "hofmann_2026",
+        "page": 4,
+        "quote": "In a letter to his Lyon friend, Claude-Julien Bredin"
+      }
+    ]
+  },
+  {
+    "id": "ampere_corresponded_biran",
+    "source": "andre_marie_ampere",
+    "type": "corresponded_with",
+    "target": "maine_de_biran",
+    "sources": [
+      {
+        "source_id": "hofmann_2026",
+        "page": 4,
+        "quote": "In his lengthy correspondence with Maine de Biran"
+      }
+    ]
+  },
+  {
+    "id": "ampere_invented_equilibrium",
+    "source": "andre_marie_ampere",
+    "type": "invented",
+    "target": "equilibrium_apparatus",
+    "event_id": "equilibrium_apparatus_design",
+    "sources": [
+      {
+        "source_id": "hofmann_2026",
+        "page": 7,
+        "quote": "Ampère designed the first of these equilibrium demonstrations in December 1820"
+      }
+    ]
+  },
+  {
+    "id": "ampere_published_theorie",
+    "source": "andre_marie_ampere",
+    "type": "published",
+    "target": "theorie_des_phenomenes_electro_dynamiques",
+    "event_id": "theorie_publication",
+    "sources": [
+      {
+        "source_id": "hofmann_2026",
+        "page": 7,
+        "quote": "his 1826 Théorie des phénomènes électro-dynamiques"
+      }
+    ]
+  },
+  {
+    "id": "ampere_published_essai",
+    "source": "andre_marie_ampere",
+    "type": "published",
+    "target": "essai_sur_la_philosophie_des_sciences",
+    "event_id": "essai_publication",
+    "sources": [
+      {
+        "source_id": "hofmann_2026",
+        "page": 6,
+        "quote": "his 1834 Essai sur la Philosophie des sciences"
+      }
+    ]
+  },
+  {
+    "id": "ampere_relocated_paris",
+    "source": "andre_marie_ampere",
+    "type": "relocated_to",
+    "target": "paris",
+    "event_id": "move_to_paris",
+    "sources": [
+      {
+        "source_id": "hofmann_2026",
+        "page": 5,
+        "quote": "probably written in 1805 shortly after his move from Lyon to Paris"
+      }
+    ]
+  }
+]

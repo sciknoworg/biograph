@@ -1,0 +1,205 @@
+[
+  {
+    "id": "born_in",
+    "source": "james_van_allen",
+    "type": "born_in",
+    "target": "mount_pleasant_iowa",
+    "event_id": "birth",
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 3,
+        "quote": "JAMES ALFRED VAN ALLEN (1914–2006) was born and raised in Mount Pleasant, Iowa"
+      }
+    ]
+  },
+  {
+    "id": "studied_at_iowa_wesleyan",
+    "source": "james_van_allen",
+    "type": "studied_at",
+    "target": "iowa_wesleyan_college",
+    "event_id": "education_iowa_wesleyan",
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 3,
+        "quote": "attended Iowa Wesleyan College, where he studied physics, graduating magna cum laude in 1935."
+      }
+    ]
+  },
+  {
+    "id": "mentored_by_poulter",
+    "source": "james_van_allen",
+    "type": "supervised_by",
+    "target": "thomas_poulter",
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 3,
+        "quote": "His mentor there, Thomas Poulter, introduced him to the study of terrestrial magnetism"
+      }
+    ]
+  },
+  {
+    "id": "studied_at_sui",
+    "source": "james_van_allen",
+    "type": "studied_at",
+    "target": "state_university_iowa",
+    "event_id": "education_sui_ms",
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 4,
+        "quote": "In graduate school at the State University of Iowa, Van Allen grew single crystals of pure zinc"
+      }
+    ]
+  },
+  {
+    "id": "worked_at_dtm",
+    "source": "james_van_allen",
+    "type": "worked_at",
+    "target": "carnegie_dtm",
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 4,
+        "quote": "Van Allen accepted a postdoctoral fellowship at the DTM in Washington, D.C."
+      }
+    ]
+  },
+  {
+    "id": "worked_at_apl",
+    "source": "james_van_allen",
+    "type": "worked_at",
+    "target": "apl",
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 4,
+        "quote": "He worked with the DTM and later with the Applied Physics Laboratory (APL)"
+      }
+    ]
+  },
+  {
+    "id": "employed_by_navy",
+    "source": "james_van_allen",
+    "type": "employed_by",
+    "target": "us_naval_reserve",
+    "event_id": "wwii_service",
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 4,
+        "quote": "Commissioned as a lieutenant in the U.S. Naval Reserve, Van Allen was assigned to the Pacific Fleet in November 1942"
+      }
+    ]
+  },
+  {
+    "id": "married_to_abigail",
+    "source": "james_van_allen",
+    "type": "married_to",
+    "target": "abigail_halsey",
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 5,
+        "quote": "After the war, married to Abigail Halsey and with a first child on the way, Van Allen returned to the APL"
+      }
+    ]
+  },
+  {
+    "id": "worked_at_sui",
+    "source": "james_van_allen",
+    "type": "worked_at",
+    "target": "state_university_iowa",
+    "event_id": "chair_sui",
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 6,
+        "quote": "In 1951 Van Allen accepted the chairmanship of the State University of Iowa's physics department."
+      }
+    ]
+  },
+  {
+    "id": "collaborated_with_ludwig",
+    "source": "james_van_allen",
+    "type": "collaborated_with",
+    "target": "george_ludwig",
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 7,
+        "quote": "Van Allen and his graduate student George Ludwig prepared \"A Proposal for Cosmic Ray Observations in Earth Satellites\""
+      }
+    ]
+  },
+  {
+    "id": "collaborated_with_mcilwain",
+    "source": "james_van_allen",
+    "type": "collaborated_with",
+    "target": "carl_mcilwain",
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 10,
+        "quote": "Van Allen and his group — George Ludwig, Carl McIlwain, and Ernie Ray"
+      }
+    ]
+  },
+  {
+    "id": "invented_proximity_fuse",
+    "source": "james_van_allen",
+    "type": "invented",
+    "target": "proximity_fuse",
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 4,
+        "quote": "There he designed radio-proximity fuses that detonated bombs, rockets, and shells when they were close to their targets."
+      }
+    ]
+  },
+  {
+    "id": "developed_belts",
+    "source": "james_van_allen",
+    "type": "developed",
+    "target": "van_allen_belts",
+    "event_id": "belts_announcement",
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 10,
+        "quote": "Van Allen announced that Geiger-Müller counters aboard Explorers 1 and 3 had been swamped by high radiation levels, indicating that powerful radiation belts, later known as the Van Allen Belts, surround Earth in a donut-shaped torus."
+      }
+    ]
+  },
+  {
+    "id": "participated_argus",
+    "source": "james_van_allen",
+    "type": "member_of",
+    "target": "project_argus",
+    "event_id": "argus_agreement",
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 11,
+        "quote": "he agreed to join Project Argus"
+      }
+    ]
+  },
+  {
+    "id": "participated_starfish",
+    "source": "james_van_allen",
+    "type": "member_of",
+    "target": "project_starfish_prime",
+    "event_id": "starfish_prime",
+    "sources": [
+      {
+        "source_id": "fleming_2011",
+        "page": 11,
+        "quote": "Van Allen eagerly participated in A-bomb and even larger H-bomb detonations in space in Project Argus and Project Starfish Prime"
+      }
+    ]
+  }
+]

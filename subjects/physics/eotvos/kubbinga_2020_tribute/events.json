@@ -1,0 +1,258 @@
+[
+  {
+    "id": "eotvos_law_study",
+    "event_type": "education",
+    "label": "Studied law at Budapest's University",
+    "date": {
+      "display": "1865-1867",
+      "precision": "range",
+      "sort_start": "1865-01-01",
+      "sort_end": "1867-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lorand_eotvos",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_budapest",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kubbinga_2020_tribute",
+        "page": 2,
+        "quote": "Loránd Eötvös studied law at Budapest's University (1865-1867)"
+      }
+    ]
+  },
+  {
+    "id": "eotvos_phd",
+    "event_type": "education",
+    "label": "Passed PhD under Kirchhoff in Heidelberg",
+    "date": {
+      "display": "7 July 1870",
+      "precision": "day",
+      "sort_start": "1870-07-07",
+      "sort_end": "1870-07-07"
+    },
+    "participants": [
+      {
+        "entity_id": "lorand_eotvos",
+        "role": "subject"
+      },
+      {
+        "entity_id": "gustav_kirchhoff",
+        "role": "supervised_by"
+      },
+      {
+        "entity_id": "heidelberg_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kubbinga_2020_tribute",
+        "page": 2,
+        "quote": "On 7 July 1870, he passed the PhD under supervision of Gustav Kirchhoff in Heidelberg without a formal dissertation."
+      }
+    ]
+  },
+  {
+    "id": "eotvos_professor_budapest",
+    "event_type": "employment_start",
+    "label": "Nominated Professor of Physics at University of Budapest",
+    "date": {
+      "display": "1872",
+      "precision": "year",
+      "sort_start": "1872-01-01",
+      "sort_end": "1872-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lorand_eotvos",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_budapest",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kubbinga_2020_tribute",
+        "page": 2,
+        "quote": "In 1872 he was nominated Professor of Physics at the University of Budapest"
+      }
+    ]
+  },
+  {
+    "id": "torsion_balance_invention",
+    "event_type": "invention",
+    "label": "Torsion balance featured among new instruments",
+    "date": {
+      "display": "1891",
+      "precision": "year",
+      "sort_start": "1891-01-01",
+      "sort_end": "1891-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lorand_eotvos",
+        "role": "subject"
+      },
+      {
+        "entity_id": "torsion_balance",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kubbinga_2020_tribute",
+        "page": 2,
+        "quote": "Among his new instruments featured the torsion balance of 1891."
+      }
+    ]
+  },
+  {
+    "id": "eotvos_1896_paper",
+    "event_type": "publication",
+    "label": "Summarized research in Annalen der Physik",
+    "date": {
+      "display": "1896",
+      "precision": "year",
+      "sort_start": "1896-01-01",
+      "sort_end": "1896-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lorand_eotvos",
+        "role": "subject"
+      },
+      {
+        "entity_id": "annalen_der_physik",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kubbinga_2020_tribute",
+        "page": 3,
+        "quote": "In 1896 Eötvös summarized his research on gravitation and earth magnetism in a widely read paper in the Annalen der Physik"
+      }
+    ]
+  },
+  {
+    "id": "gottingen_contest",
+    "event_type": "conference",
+    "label": "Prize-contest launched by University of Göttingen",
+    "date": {
+      "display": "1906",
+      "precision": "year",
+      "sort_start": "1906-01-01",
+      "sort_end": "1906-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "university_of_gottingen",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kubbinga_2020_tribute",
+        "page": 3,
+        "quote": "in 1906 a prize-contest was launched by the University of Göttingen"
+      }
+    ]
+  },
+  {
+    "id": "eotvos_prize_awarded",
+    "event_type": "award",
+    "label": "Awarded 1909 prize by University of Göttingen",
+    "date": {
+      "display": "1909",
+      "precision": "year",
+      "sort_start": "1909-01-01",
+      "sort_end": "1909-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lorand_eotvos",
+        "role": "subject"
+      },
+      {
+        "entity_id": "dezso_pekar",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "jeno_fekete",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "gottingen_prize",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kubbinga_2020_tribute",
+        "page": 4,
+        "quote": "the essay submitted by Eötvös, Pekár and Fekete was nonetheless awarded the 1909 prize"
+      }
+    ]
+  },
+  {
+    "id": "university_rename",
+    "event_type": "company_renamed",
+    "label": "University of Budapest renamed to carry Eötvös's name",
+    "date": {
+      "display": "1950",
+      "precision": "year",
+      "sort_start": "1950-01-01",
+      "sort_end": "1950-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "university_of_budapest",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kubbinga_2020_tribute",
+        "page": 2,
+        "quote": "the university which, since 1950, carries his name"
+      }
+    ]
+  },
+  {
+    "id": "eotvos_portrait",
+    "event_type": "other",
+    "label": "Portrait painted by Gyula Éder",
+    "date": {
+      "display": "1941",
+      "precision": "year",
+      "sort_start": "1941-01-01",
+      "sort_end": "1941-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lorand_eotvos",
+        "role": "subject"
+      },
+      {
+        "entity_id": "gyula_eder",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kubbinga_2020_tribute",
+        "page": 2,
+        "quote": "FIG. 1: Loránd Eötvös by Gyula Éder (oil on canvas; 89×73 cm; 1941)"
+      }
+    ]
+  }
+]

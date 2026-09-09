@@ -1,0 +1,135 @@
+[
+  {
+    "id": "murray_gell_mann",
+    "entity_type": "person",
+    "name": "Murray Gell-Mann",
+    "aliases": [
+      "Murray"
+    ],
+    "summary": "Nobel laureate theoretical physicist known for the quark model and Eightfold Way.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "george_zweig",
+    "entity_type": "person",
+    "name": "George Zweig",
+    "aliases": [
+      "Zweig"
+    ],
+    "summary": "Physicist who proposed the ace model (constituent quarks) independently of Gell-Mann.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "richard_feynman",
+    "entity_type": "person",
+    "name": "Richard Feynman",
+    "aliases": [
+      "Feynman",
+      "Dick"
+    ],
+    "summary": "Nobel laureate theoretical physicist and colleague of Gell-Mann at Caltech.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "caltech",
+    "entity_type": "organization",
+    "name": "California Institute of Technology",
+    "aliases": [
+      "Caltech"
+    ],
+    "summary": "University in Pasadena, California where Gell-Mann and Zweig worked in the 1960s.",
+    "subtype": "university"
+  },
+  {
+    "id": "mit",
+    "entity_type": "organization",
+    "name": "Massachusetts Institute of Technology",
+    "aliases": [
+      "MIT"
+    ],
+    "summary": "University in Cambridge, Massachusetts where Zweig was affiliated at the time of writing.",
+    "subtype": "university"
+  },
+  {
+    "id": "university_of_michigan",
+    "entity_type": "organization",
+    "name": "University of Michigan",
+    "aliases": [],
+    "summary": "University where Zweig was an undergraduate math major.",
+    "subtype": "university"
+  },
+  {
+    "id": "cornell_university",
+    "entity_type": "organization",
+    "name": "Cornell University",
+    "aliases": [
+      "Cornell"
+    ],
+    "summary": "University where Hans Bethe worked, suggested to Zweig as a graduate school option.",
+    "subtype": "university"
+  },
+  {
+    "id": "princeton_university",
+    "entity_type": "organization",
+    "name": "Princeton University",
+    "aliases": [
+      "Princeton"
+    ],
+    "summary": "University from which Dan Kevles arrived at Caltech.",
+    "subtype": "university"
+  },
+  {
+    "id": "cern",
+    "entity_type": "organization",
+    "name": "CERN",
+    "aliases": [],
+    "summary": "European particle physics laboratory where Zweig visited before explaining aces to Gell-Mann.",
+    "subtype": "lab"
+  },
+  {
+    "id": "scientific_american",
+    "entity_type": "artifact",
+    "name": "Scientific American",
+    "aliases": [],
+    "summary": "Magazine where Gell-Mann and Zweig published or attempted to publish articles.",
+    "subtype": "publication"
+  },
+  {
+    "id": "nobel_prize",
+    "entity_type": "artifact",
+    "name": "Nobel Prize in Physics",
+    "aliases": [
+      "Nobel Prize"
+    ],
+    "summary": "Prestigious award for which Feynman nominated Gell-Mann and Zweig.",
+    "subtype": "award"
+  },
+  {
+    "id": "dan_kevles",
+    "entity_type": "person",
+    "name": "Dan Kevles",
+    "aliases": [],
+    "summary": "Historian of science and assistant professor at Caltech in 1964.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "bob_serber",
+    "entity_type": "person",
+    "name": "Bob Serber",
+    "aliases": [
+      "Serber"
+    ],
+    "summary": "Physicist who discussed SU(3) representations with Gell-Mann in 1963.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "yuval_neeman",
+    "entity_type": "person",
+    "name": "Yuval Ne'eman",
+    "aliases": [
+      "Ne'eman"
+    ],
+    "summary": "Physicist who independently proposed SU(3) classification with Gell-Mann.",
+    "subtype": "researcher"
+  }
+]

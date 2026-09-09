@@ -1,0 +1,94 @@
+[
+  {
+    "id": "landau_studied_lsu",
+    "source": "lev_landau",
+    "type": "studied_at",
+    "target": "leningrad_state_university",
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 2,
+        "quote": "Landau graduated from Leningrad State University in January 1927"
+      }
+    ]
+  },
+  {
+    "id": "landau_worked_ioffe",
+    "source": "lev_landau",
+    "type": "employed_by",
+    "target": "ioffe_physical_technical_institute",
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 2,
+        "quote": "appointed to a position... at Leningrad Physical Technical Institute"
+      }
+    ]
+  },
+  {
+    "id": "landau_supervised_frenkel",
+    "source": "lev_landau",
+    "type": "supervised_by",
+    "target": "yakov_frenkel",
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 2,
+        "quote": "His supervisor was Yakov (or Jakob) I. Frenkel"
+      }
+    ]
+  },
+  {
+    "id": "landau_collaborated_bohr",
+    "source": "lev_landau",
+    "type": "collaborated_with",
+    "target": "niels_bohr",
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 3,
+        "quote": "Landau liked Bohr and looked upon him as his only teacher; Bohr returned the friendship."
+      }
+    ]
+  },
+  {
+    "id": "landau_wrote_paper",
+    "source": "lev_landau",
+    "type": "published",
+    "target": "landau_1932_paper",
+    "event_id": "landau_paper_submitted",
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 4,
+        "quote": "Landau submitted a paper [10] in English to the Physikalische Zeitschrift der Sowjetunion"
+      }
+    ]
+  },
+  {
+    "id": "landau_lived_kharkov",
+    "source": "lev_landau",
+    "type": "relocated_to",
+    "target": "kharkov",
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 3,
+        "quote": "After the third visit Landau returned to Leningrad and moved to Kharkov the same year."
+      }
+    ]
+  },
+  {
+    "id": "kapitsa_defended_landau",
+    "source": "p_l_kapitsa",
+    "type": "mentored",
+    "target": "lev_landau",
+    "sources": [
+      {
+        "source_id": "yakovlev_2012",
+        "page": 8,
+        "quote": "He was released (and the conditions of his sentence were softened) mainly due to the efforts of Kapitsa who did not fear to write several letters in Landau's defense"
+      }
+    ]
+  }
+]

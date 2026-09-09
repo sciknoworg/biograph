@@ -1,0 +1,125 @@
+[
+  {
+    "id": "rolf_landauer",
+    "entity_type": "person",
+    "name": "Rolf Landauer",
+    "aliases": [
+      "Landauer"
+    ],
+    "summary": "German-born physicist and IBM researcher known for Landauer's Principle.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "leon_brillouin",
+    "entity_type": "person",
+    "name": "Léon Brillouin",
+    "aliases": [
+      "Brillouin"
+    ],
+    "summary": "French-American physicist and Landauer's Ph.D. supervisor at Harvard.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "john_von_neumann",
+    "entity_type": "person",
+    "name": "John von Neumann",
+    "aliases": [
+      "von Neumann"
+    ],
+    "summary": "Hungarian-American mathematician who influenced the connection between logic and thermodynamics.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "john_swanson",
+    "entity_type": "person",
+    "name": "John Swanson",
+    "aliases": [
+      "Swanson"
+    ],
+    "summary": "Computer scientist and physicist, friend and colleague of Landauer at IBM.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "charles_bennett",
+    "entity_type": "person",
+    "name": "Charles Bennett",
+    "aliases": [
+      "Bennett"
+    ],
+    "summary": "IBM researcher and co-worker who popularized Landauer's Principle.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "ibm",
+    "entity_type": "organization",
+    "name": "IBM",
+    "aliases": [
+      "IBM Research Laboratory"
+    ],
+    "summary": "Technology corporation where Landauer worked from 1952.",
+    "subtype": "company"
+  },
+  {
+    "id": "harvard_university",
+    "entity_type": "organization",
+    "name": "Harvard University",
+    "aliases": [
+      "Harvard"
+    ],
+    "summary": "University where Landauer earned his Ph.D. and studied in the late 1940s.",
+    "subtype": "university"
+  },
+  {
+    "id": "ibm_research_lab_poughkeepsie",
+    "entity_type": "organization",
+    "name": "IBM Research Laboratory in Poughkeepsie",
+    "aliases": [
+      "IBM Research Laboratory"
+    ],
+    "summary": "IBM facility in New York where Landauer joined in 1952.",
+    "subtype": "lab",
+    "attributes": {
+      "location": "Poughkeepsie, New York"
+    }
+  },
+  {
+    "id": "landauer_1961_paper",
+    "entity_type": "artifact",
+    "name": "Irreversibility and Heat Generation in the Computing Process",
+    "aliases": [
+      "Landauer 1961"
+    ],
+    "summary": "Groundbreaking paper published by Landauer in the IBM journal in July 1961.",
+    "subtype": "publication"
+  },
+  {
+    "id": "brillouin_1956_book",
+    "entity_type": "artifact",
+    "name": "Science and Information Theory",
+    "aliases": [
+      "Brillouin 1956"
+    ],
+    "summary": "Book by Brillouin summarizing the Negentropy principle and information theory.",
+    "subtype": "publication"
+  },
+  {
+    "id": "swanson_1960_paper",
+    "entity_type": "artifact",
+    "name": "Physical versus Logical Coupling in Memory System",
+    "aliases": [
+      "Swanson 1960"
+    ],
+    "summary": "Paper by Swanson applying information theory to magnetic memories.",
+    "subtype": "publication"
+  },
+  {
+    "id": "bennett_1982_paper",
+    "entity_type": "artifact",
+    "name": "The Thermodynamics of Computation",
+    "aliases": [
+      "Bennett 1982"
+    ],
+    "summary": "Foundational paper by Bennett that popularized Landauer's Principle.",
+    "subtype": "publication"
+  }
+]

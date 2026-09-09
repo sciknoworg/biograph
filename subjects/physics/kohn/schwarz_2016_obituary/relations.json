@@ -1,0 +1,178 @@
+[
+  {
+    "id": "walter_kohn_born_vienna",
+    "source": "walter_kohn",
+    "type": "born_in",
+    "target": "vienna",
+    "event_id": "walter_kohn_birth",
+    "sources": [
+      {
+        "source_id": "computation_2016_4_40",
+        "page": 1,
+        "quote": "Walter was born in Vienna on 9 March 1923 into a Jewish family."
+      }
+    ]
+  },
+  {
+    "id": "walter_kohn_supervised_schwinger",
+    "source": "walter_kohn",
+    "type": "supervised_by",
+    "target": "julian_schwinger",
+    "sources": [
+      {
+        "source_id": "computation_2016_4_40",
+        "page": 1,
+        "quote": "went to the young Julian Schwinger, an expert in variational methods, who became his Ph.D. adviser."
+      }
+    ]
+  },
+  {
+    "id": "walter_kohn_worked_bell",
+    "source": "walter_kohn",
+    "type": "worked_at",
+    "target": "bell_telephone_laboratories",
+    "sources": [
+      {
+        "source_id": "computation_2016_4_40",
+        "page": 1,
+        "quote": "a consultancy for the Bell Telephone Laboratories, where he did most inﬂuential research work with Joaquin Luttinger"
+      }
+    ]
+  },
+  {
+    "id": "walter_kohn_worked_carnegie",
+    "source": "walter_kohn",
+    "type": "worked_at",
+    "target": "carnegie_institute_of_technology",
+    "sources": [
+      {
+        "source_id": "computation_2016_4_40",
+        "page": 1,
+        "quote": "teaching at the Pittsburgh Carnegie Institute of Technology (now Carnegie Mellon University)."
+      }
+    ]
+  },
+  {
+    "id": "walter_kohn_worked_ucsd",
+    "source": "walter_kohn",
+    "type": "worked_at",
+    "target": "university_of_california_san_diego",
+    "event_id": "walter_kohn_professor_ucsd",
+    "sources": [
+      {
+        "source_id": "computation_2016_4_40",
+        "page": 1,
+        "quote": "and in 1960, a professor at the University of California, San Diego"
+      }
+    ]
+  },
+  {
+    "id": "walter_kohn_worked_ucsb",
+    "source": "walter_kohn",
+    "type": "worked_at",
+    "target": "university_of_california_santa_barbara",
+    "event_id": "walter_kohn_director_itp",
+    "sources": [
+      {
+        "source_id": "computation_2016_4_40",
+        "page": 1,
+        "quote": "In 1979, Walter became the founding director of the Institute for Theoretical Physics at the University of California, Santa Barbara"
+      }
+    ]
+  },
+  {
+    "id": "walter_kohn_collab_hohenberg",
+    "source": "walter_kohn",
+    "type": "collaborated_with",
+    "target": "pierre_hohenberg",
+    "event_id": "walter_kohn_hohenberg_kohn",
+    "sources": [
+      {
+        "source_id": "computation_2016_4_40",
+        "page": 3,
+        "quote": "In 1963, Walter spent a sabbatical semester at the École Normale Supérieur in Paris, where he, together with Pierre Hohenberg, laid the basis for DFT"
+      }
+    ]
+  },
+  {
+    "id": "walter_kohn_collab_sham",
+    "source": "walter_kohn",
+    "type": "collaborated_with",
+    "target": "lu_j_sham",
+    "event_id": "walter_kohn_kohn_sham",
+    "sources": [
+      {
+        "source_id": "computation_2016_4_40",
+        "page": 3,
+        "quote": "A year later, Walter returned to San Diego, where he and Lu Jeu Sham proposed a scheme to make DFT calculations feasible, now called Kohn–Sham (KS) equations [2]."
+      }
+    ]
+  },
+  {
+    "id": "walter_kohn_collab_luttinger",
+    "source": "walter_kohn",
+    "type": "collaborated_with",
+    "target": "joaquin_luttinger",
+    "sources": [
+      {
+        "source_id": "computation_2016_4_40",
+        "page": 1,
+        "quote": "a consultancy for the Bell Telephone Laboratories, where he did most inﬂuential research work with Joaquin Luttinger"
+      }
+    ]
+  },
+  {
+    "id": "walter_kohn_invented_dft",
+    "source": "walter_kohn",
+    "type": "developed",
+    "target": "density_functional_theory",
+    "sources": [
+      {
+        "source_id": "computation_2016_4_40",
+        "page": 3,
+        "quote": "Walter received the Nobel Prize for the development of density functional theory (DFT)"
+      }
+    ]
+  },
+  {
+    "id": "walter_kohn_invented_anomalies",
+    "source": "walter_kohn",
+    "type": "developed",
+    "target": "kohn_anomalies",
+    "sources": [
+      {
+        "source_id": "computation_2016_4_40",
+        "page": 1,
+        "quote": "There, he developed his theory on anomalies in the phonon spectra of metals, now known as the Kohn anomalies."
+      }
+    ]
+  },
+  {
+    "id": "walter_kohn_awarded_nobel",
+    "source": "walter_kohn",
+    "type": "awarded",
+    "target": "nobel_prize_chemistry_1998",
+    "event_id": "walter_kohn_nobel",
+    "sources": [
+      {
+        "source_id": "computation_2016_4_40",
+        "page": 2,
+        "quote": "In 1998, he (together with John Pople) was awarded the Nobel Prize in Chemistry (not in physics) for his pioneering scientiﬁc contributions."
+      }
+    ]
+  },
+  {
+    "id": "walter_kohn_died_santa_barbara",
+    "source": "walter_kohn",
+    "type": "died_in",
+    "target": "santa_barbara_ca",
+    "event_id": "walter_kohn_death",
+    "sources": [
+      {
+        "source_id": "computation_2016_4_40",
+        "page": 1,
+        "quote": "Walter Kohn (Figure 1) is one of the most cited scientists of our time, who died on 19 April 2016 in Santa Barbara, CA, USA."
+      }
+    ]
+  }
+]

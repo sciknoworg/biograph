@@ -1,0 +1,152 @@
+[
+  {
+    "id": "hankel_born_halle",
+    "source": "hermann_hankel",
+    "type": "born_in",
+    "target": "halle",
+    "event_id": "hankel_birth",
+    "sources": [
+      {
+        "source_id": "villone_rampf_2017",
+        "page": 41,
+        "quote": "Hermann Hankel was born in Halle, near Leipzig, on 14th February 1839."
+      }
+    ]
+  },
+  {
+    "id": "hankel_studied_leipzig",
+    "source": "hermann_hankel",
+    "type": "studied_at",
+    "target": "university_leipzig",
+    "event_id": "hankel_study_leipzig_start",
+    "sources": [
+      {
+        "source_id": "villone_rampf_2017",
+        "page": 41,
+        "quote": "From 1857, he studied Mathematics at the Leipzig University under the mathematicians Scheibner, Moebius and Drobisch."
+      }
+    ]
+  },
+  {
+    "id": "hankel_studied_gottingen",
+    "source": "hermann_hankel",
+    "type": "studied_at",
+    "target": "university_gottingen",
+    "event_id": "hankel_arrival_gottingen",
+    "sources": [
+      {
+        "source_id": "villone_rampf_2017",
+        "page": 41,
+        "quote": "Then, he continued his studies in Göttingen, where, arriving in April 1860, he could attend, among others, Riemann's lectures."
+      }
+    ]
+  },
+  {
+    "id": "hankel_educated_riemann",
+    "source": "hermann_hankel",
+    "type": "educated_by",
+    "target": "bernhard_riemann",
+    "sources": [
+      {
+        "source_id": "villone_rampf_2017",
+        "page": 41,
+        "quote": "Then, he continued his studies in Göttingen, where, arriving in April 1860, he could attend, among others, Riemann's lectures."
+      }
+    ]
+  },
+  {
+    "id": "hankel_employed_leipzig",
+    "source": "hermann_hankel",
+    "type": "employed_by",
+    "target": "university_leipzig",
+    "event_id": "hankel_prof_leipzig",
+    "sources": [
+      {
+        "source_id": "villone_rampf_2017",
+        "page": 42,
+        "quote": "In the spring 1867, he became extraordinary Professor at Leipzig University"
+      }
+    ]
+  },
+  {
+    "id": "hankel_employed_erlangen",
+    "source": "hermann_hankel",
+    "type": "employed_by",
+    "target": "university_erlangen",
+    "event_id": "hankel_prof_erlangen",
+    "sources": [
+      {
+        "source_id": "villone_rampf_2017",
+        "page": 42,
+        "quote": "and, in the same year, ordinary Professor in Erlangen"
+      }
+    ]
+  },
+  {
+    "id": "hankel_employed_tubingen",
+    "source": "hermann_hankel",
+    "type": "employed_by",
+    "target": "university_tubingen",
+    "event_id": "hankel_prof_tubingen",
+    "sources": [
+      {
+        "source_id": "villone_rampf_2017",
+        "page": 42,
+        "quote": "then, in Tübingen in 1869."
+      }
+    ]
+  },
+  {
+    "id": "hankel_married_dippe",
+    "source": "hermann_hankel",
+    "type": "married_to",
+    "target": "marie_dippe",
+    "sources": [
+      {
+        "source_id": "villone_rampf_2017",
+        "page": 42,
+        "quote": "He was married to Marie Dippe, who much later became a very important Esperantist."
+      }
+    ]
+  },
+  {
+    "id": "hankel_invented_functions",
+    "source": "hermann_hankel",
+    "type": "invented",
+    "target": "fluid_motion_manuscript",
+    "sources": [
+      {
+        "source_id": "villone_rampf_2017",
+        "page": 1,
+        "quote": "Here we present the English translation of the 1861 prize manuscript from Göttingen University \"Zur allgemeinen Theorie der Bewegung der Flüssigkeiten\" (On the general theory of the motion of the fluids) of Hermann Hankel (1839–1873)"
+      }
+    ]
+  },
+  {
+    "id": "riemann_judged_hankel",
+    "source": "bernhard_riemann",
+    "type": "collaborated_with",
+    "target": "hermann_hankel",
+    "event_id": "hankel_prize_judgement",
+    "sources": [
+      {
+        "source_id": "villone_rampf_2017",
+        "page": 2,
+        "quote": "Notably, among all of these letters, the ones from Wilhelm Eduard Weber (1804–1891) and from Bernhard Riemann (1826–1866) have been decisive for the evaluation of the essay."
+      }
+    ]
+  },
+  {
+    "id": "weber_judged_hankel",
+    "source": "wilhelm_eduard_weber",
+    "type": "collaborated_with",
+    "target": "hermann_hankel",
+    "sources": [
+      {
+        "source_id": "villone_rampf_2017",
+        "page": 2,
+        "quote": "Notably, among all of these letters, the ones from Wilhelm Eduard Weber (1804–1891) and from Bernhard Riemann (1826–1866) have been decisive for the evaluation of the essay."
+      }
+    ]
+  }
+]

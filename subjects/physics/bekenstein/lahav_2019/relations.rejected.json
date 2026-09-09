@@ -1,0 +1,17 @@
+[
+  {
+    "id": "bekenstein_postdoc_texas",
+    "source": "jacob_bekenstein",
+    "type": "worked_at",
+    "target": "texas",
+    "note": "Text specifies location Texas, organization not named.",
+    "sources": [
+      {
+        "source_id": "lahav_2019",
+        "page": 1,
+        "quote": "After studying in New-York and Princeton he was a Post-doc in Texas."
+      }
+    ],
+    "_rejected_because": "'worked_at' expects target entity_type organization, but 'texas' is 'place'"
+  }
+]

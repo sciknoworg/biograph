@@ -1329,12 +1329,28 @@ def validate_subject(slug):
             store[schema["$id"]] = schema
         errors = []
 
+        # An event whose required arrays came back EMPTY is set aside rather than fatal. Narrowly
+        # that case only: an event with no participants names nobody, and an event with no sources
+        # has no provenance, which this project's data contract forbids outright -- either way it
+        # cannot be rendered or cited, so removing it costs nothing but itself. Thirteen complete
+        # extractions were discarded over exactly this, typically one conference or publication
+        # event the model listed without attaching anyone to it.
+        #
+        # Deliberately not "any invalid event": events carry the timeline, and a malformed date or
+        # a dangling participant is a different kind of problem that should still stop the build.
+        set_aside_events = []
+
         def check(schema_name, items):
             schema = store[f"https://biograph/schema/{schema_name}.schema.json"]
             resolver = RefResolver.from_schema(schema, store=store)
             v = Draft202012Validator(schema, resolver=resolver)
             for it in items:
-                for e in v.iter_errors(it):
+                errs = list(v.iter_errors(it))
+                if (schema_name == "event" and errs
+                        and all(e.validator == "minItems" for e in errs)):
+                    set_aside_events.append((it, "; ".join(e.message for e in errs)))
+                    continue
+                for e in errs:
                     errors.append(f"{schema_name} {it.get('id')}: {e.message}")
 
         check("entity", entities)
@@ -1342,16 +1358,35 @@ def validate_subject(slug):
         check("relation", relations)
         check("source", sources)
 
+        if set_aside_events:
+            gone = {id(ev) for ev, _ in set_aside_events}
+            events = [ev for ev in events if id(ev) not in gone]
+
         ent_ids = {e["id"] for e in entities}
         ent_type = {e["id"]: e["entity_type"] for e in entities}
         src_ids = {s["id"] for s in sources}
         event_ids = {e["id"] for e in events}
+        dropped_locations, dropped_participants = [], []
+        emptied_by_participants = []
         for ev in events:
-            for p in ev["participants"]:
-                if p["entity_id"] not in ent_ids:
-                    errors.append(f"event {ev['id']}: unknown participant '{p['entity_id']}'")
+            # Drop a participant naming an entity nobody defined, rather than failing. Same
+            # reasoning as the location below: the reference points at nothing, so removing it
+            # corrupts nothing, and an event with three good participants and one dangling should
+            # not sink a thirty-event extraction. If that empties the list, the event joins the
+            # set-aside path with those that arrived empty.
+            for p in [p for p in ev["participants"] if p["entity_id"] not in ent_ids]:
+                dropped_participants.append((ev["id"], p["entity_id"]))
+                ev["participants"].remove(p)
+            if not ev["participants"]:
+                emptied_by_participants.append(
+                    (ev, "every participant named an entity that was never defined"))
             if ev.get("location") and ev["location"] not in ent_ids:
-                errors.append(f"event {ev['id']}: unknown location '{ev['location']}'")
+                # `location` is optional, and it is the model naming a place ("pisa", "florence")
+                # without defining the entity. Dropping the field costs a map pin and keeps a
+                # perfectly good dated, cited, participated event -- ten extractions were being
+                # discarded whole over exactly this.
+                dropped_locations.append((ev["id"], ev["location"]))
+                ev.pop("location", None)
             for s in ev["sources"]:
                 if s["source_id"] not in src_ids:
                     errors.append(f"event {ev['id']}: unknown source '{s['source_id']}'")
@@ -1400,13 +1435,42 @@ def validate_subject(slug):
                                                 f"{'/'.join(exp_tgt)}, but '{r['target']}' is "
                                                 f"'{got_tgt}'"))
             if r.get("event_id") and r["event_id"] not in event_ids:
-                errors.append(f"relation {r['id']}: unknown event_id '{r['event_id']}'")
+                # Set aside for the same reason as a dangling source/target: a relation is a leaf.
+                # This was left fatal by oversight when the others were made non-fatal, and it
+                # matters more now that an unusable event can itself be set aside below -- a
+                # relation pointing at a removed event must not then sink the extraction.
+                direction_issues.append((r, f"unknown event_id '{r['event_id']}'"))
             for s in r["sources"]:
                 if s["source_id"] not in src_ids:
                     errors.append(f"relation {r['id']}: unknown source '{s['source_id']}'")
 
         if errors:
             raise SystemExit("Validation failed for subject '%s':\n  " % slug + "\n  ".join(errors))
+
+        if emptied_by_participants:
+            gone = {id(ev) for ev, _ in emptied_by_participants}
+            events = [ev for ev in events if id(ev) not in gone]
+            set_aside_events.extend(emptied_by_participants)
+
+        if dropped_participants:
+            print(f"  ({len(dropped_participants)} event participant(s) dropped -- the entity was "
+                  f"never defined; the events themselves are kept)")
+            for ev_id, ent in dropped_participants:
+                print(f"    {ev_id}: unknown participant '{ent}'")
+
+        if dropped_locations:
+            print(f"  ({len(dropped_locations)} event location(s) dropped -- the place was never "
+                  f"defined as an entity; the events themselves are kept)")
+            for ev_id, loc in dropped_locations:
+                print(f"    {ev_id}: unknown location '{loc}'")
+
+        if set_aside_events:
+            print(f"  ({len(set_aside_events)} event(s) set aside -- a required list was empty, so "
+                  f"they name nobody or cite nothing; the rest of the extraction is kept)")
+            for ev, why in set_aside_events:
+                print(f"    {ev.get('id')}: {why}")
+            _write_rejected(slug, [(ev, why) for ev, why in set_aside_events],
+                            "events.rejected.json")
 
         if direction_issues:
             set_aside = {id(r) for r, _ in direction_issues}
@@ -1415,15 +1479,15 @@ def validate_subject(slug):
                   f"the relation type; the rest of the extraction is kept)")
             for r, why in direction_issues:
                 print(f"    {r['id']}: {why}")
-            _write_rejected_relations(slug, direction_issues)
+            _write_rejected(slug, direction_issues, "relations.rejected.json")
 
     return entities, events, relations, sources
 
 
-def _write_rejected_relations(slug, issues):
-    """Park set-aside relations next to the document they came from, so a variant reading is
-    recoverable rather than lost -- and so the accumulated file is real evidence about which
-    RELATION_DIRECTIONS entries are too narrow for historical biography, instead of a guess.
+def _write_rejected(slug, issues, filename):
+    """Park set-aside items next to the document they came from, so what was removed is
+    recoverable rather than lost -- and so the accumulated files are real evidence about which
+    parts of the vocabulary are too narrow, instead of a guess.
 
     One file per document folder, overwritten each build (a rebuild re-derives the same set)."""
     by_doc = {}
@@ -1436,7 +1500,7 @@ def _write_rejected_relations(slug, issues):
         ddir = docs.get(doc_key) or (list(docs.values())[0] if docs else None)
         if not ddir:
             continue
-        path = os.path.join(ddir, "relations.rejected.json")
+        path = os.path.join(ddir, filename)
         try:
             with open(path, "w", encoding="utf-8") as f:
                 json.dump(recs, f, indent=2, ensure_ascii=False)

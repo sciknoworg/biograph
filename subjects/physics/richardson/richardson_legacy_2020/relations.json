@@ -1,0 +1,104 @@
+[
+  {
+    "id": "richardson_born",
+    "source": "lewis_fry_richardson",
+    "type": "born_in",
+    "target": "france",
+    "sources": [
+      {
+        "source_id": "richardson_legacy_2020",
+        "page": 26,
+        "quote": "Lewis Fry Richardson (1881–1953)"
+      }
+    ]
+  },
+  {
+    "id": "richardson_worked_met",
+    "source": "lewis_fry_richardson",
+    "type": "worked_at",
+    "target": "meteorological_office",
+    "start": {
+      "display": "1919",
+      "precision": "year",
+      "sort_start": "1919-01-01",
+      "sort_end": "1919-12-31"
+    },
+    "end": {
+      "display": "1920",
+      "precision": "year",
+      "sort_start": "1920-01-01",
+      "sort_end": "1920-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "richardson_legacy_2020",
+        "page": 8,
+        "quote": "He rejoined the Met Office in 1919 at Benson Observatory. However, in 1920 the Met Office was transferred to the Air Ministry, and Richardson resigned."
+      }
+    ]
+  },
+  {
+    "id": "richardson_worked_paisley",
+    "source": "lewis_fry_richardson",
+    "type": "employed_by",
+    "target": "paisley_technical_college",
+    "start": {
+      "display": "1929",
+      "precision": "year",
+      "sort_start": "1929-01-01",
+      "sort_end": "1929-12-31"
+    },
+    "end": {
+      "display": "1940",
+      "precision": "year",
+      "sort_start": "1940-01-01",
+      "sort_end": "1940-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "richardson_legacy_2020",
+        "page": 2,
+        "quote": "notably at Paisley Technical College (1929–40)."
+      }
+    ]
+  },
+  {
+    "id": "richardson_published_weather",
+    "source": "lewis_fry_richardson",
+    "type": "published",
+    "target": "weather_prediction_by_numerical_process",
+    "sources": [
+      {
+        "source_id": "richardson_legacy_2020",
+        "page": 2,
+        "quote": "Richardson's publications in meteorology, notably Weather Prediction by Numerical Process (Richardson, 1922)"
+      }
+    ]
+  },
+  {
+    "id": "richardson_published_arms",
+    "source": "lewis_fry_richardson",
+    "type": "published",
+    "target": "arms_and_insecurity",
+    "sources": [
+      {
+        "source_id": "richardson_legacy_2020",
+        "page": 3,
+        "quote": "with Arms and Insecurity (Richardson, 1960a) a little ahead of Statistics of Deadly Quarrels (1960b)."
+      }
+    ]
+  },
+  {
+    "id": "richardson_published_stats",
+    "source": "lewis_fry_richardson",
+    "type": "published",
+    "target": "statistics_of_deadly_quarrels",
+    "sources": [
+      {
+        "source_id": "richardson_legacy_2020",
+        "page": 3,
+        "quote": "with Arms and Insecurity (Richardson, 1960a) a little ahead of Statistics of Deadly Quarrels (1960b)."
+      }
+    ]
+  }
+]

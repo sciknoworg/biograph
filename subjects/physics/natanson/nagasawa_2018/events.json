@@ -1,0 +1,269 @@
+[
+  {
+    "id": "natanson_birth",
+    "event_type": "birth",
+    "label": "Born circa 1864",
+    "description": "Derived from age 73 at death in 1937 and age 39 in 1903.",
+    "date": {
+      "display": "c. 1864",
+      "precision": "circa",
+      "sort_start": "1864-01-01",
+      "sort_end": "1864-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wladyslaw_natanson",
+        "role": "subject"
+      }
+    ],
+    "certainty": "approximate",
+    "sources": [
+      {
+        "source_id": "nagasawa_2018",
+        "page": 411,
+        "quote": "Natanson passed away on February 26, 1937: he was 73 years old."
+      },
+      {
+        "source_id": "nagasawa_2018",
+        "page": 408,
+        "quote": "For example, in 1903 when Natanson was 39 years old"
+      }
+    ]
+  },
+  {
+    "id": "natanson_paper_1911a",
+    "event_type": "publication",
+    "label": "Published statistical theory of radiation paper",
+    "description": "Published in Bulletin de l'Academie des Sciences de Cracovie.",
+    "date": {
+      "display": "March 6, 1911",
+      "precision": "day",
+      "sort_start": "1911-03-06",
+      "sort_end": "1911-03-06"
+    },
+    "participants": [
+      {
+        "entity_id": "wladyslaw_natanson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "bulletin_de_l_academie",
+        "role": "publication"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "nagasawa_2018",
+        "page": 393,
+        "quote": "published in Bulletin de l'Academie des Sciences de Cracovie, Classe des Scienc- es Mathématiques et Naturelles. Serie A: Sciences Mathématiques on March 6, 1911"
+      }
+    ]
+  },
+  {
+    "id": "natanson_paper_1911b",
+    "event_type": "publication",
+    "label": "Published German translation of radiation paper",
+    "description": "Published in Physikalische Zeitschrift.",
+    "date": {
+      "display": "August 15, 1911",
+      "precision": "day",
+      "sort_start": "1911-08-15",
+      "sort_end": "1911-08-15"
+    },
+    "participants": [
+      {
+        "entity_id": "wladyslaw_natanson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "physikalische_zeitschrift",
+        "role": "publication"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "nagasawa_2018",
+        "page": 393,
+        "quote": "translated into German and published also in Physikalische Zeitschrift on August 15, 1911"
+      }
+    ]
+  },
+  {
+    "id": "sommerfeld_letter_to_natanson",
+    "event_type": "meeting",
+    "label": "Sommerfeld wrote to Natanson",
+    "description": "Letter sent from Munich acknowledging Natanson's works.",
+    "date": {
+      "display": "October 3, 1911",
+      "precision": "day",
+      "sort_start": "1911-10-03",
+      "sort_end": "1911-10-03"
+    },
+    "participants": [
+      {
+        "entity_id": "arnold_sommerfeld",
+        "role": "subject"
+      },
+      {
+        "entity_id": "wladyslaw_natanson",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "nagasawa_2018",
+        "page": 397,
+        "quote": "Sommerfeld sent a letter dated October 3, 1911 to Natan- son from Munich"
+      }
+    ]
+  },
+  {
+    "id": "ehrenfest_letter_to_sommerfeld",
+    "event_type": "meeting",
+    "label": "Ehrenfest wrote to Sommerfeld about Natanson",
+    "description": "Letter sent from St. Petersburg discussing Natanson's paper.",
+    "date": {
+      "display": "October 16, 1911",
+      "precision": "day",
+      "sort_start": "1911-10-16",
+      "sort_end": "1911-10-16"
+    },
+    "participants": [
+      {
+        "entity_id": "paul_ehrenfest",
+        "role": "subject"
+      },
+      {
+        "entity_id": "arnold_sommerfeld",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "nagasawa_2018",
+        "page": 398,
+        "quote": "A letter dated October 16, 1911 and sent from St.Petersburug by Ehrenfest to Sommerfeld"
+      }
+    ]
+  },
+  {
+    "id": "einstein_meets_natanson",
+    "event_type": "meeting",
+    "label": "Einstein met Natanson in Lvov",
+    "description": "Einstein mentioned Natanson's visit in a letter to Besso.",
+    "date": {
+      "display": "February 12, 1915",
+      "precision": "day",
+      "sort_start": "1915-02-12",
+      "sort_end": "1915-02-12"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_einstein",
+        "role": "subject"
+      },
+      {
+        "entity_id": "wladyslaw_natanson",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "michele_besso",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "nagasawa_2018",
+        "page": 404,
+        "quote": "When Einstein finally met Natanson, he sent a letter, dated 12 Feb- ruary 1915"
+      }
+    ]
+  },
+  {
+    "id": "burbury_death",
+    "event_type": "death",
+    "label": "Burbury died",
+    "description": "Passed away shortly after Natanson's 1911 paper publication.",
+    "date": {
+      "display": "August 18, 1911",
+      "precision": "day",
+      "sort_start": "1911-08-18",
+      "sort_end": "1911-08-18"
+    },
+    "participants": [
+      {
+        "entity_id": "samuel_hawksley_burbury",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "nagasawa_2018",
+        "page": 408,
+        "quote": "Burbury passed away at 80 years of age on August 18, 1911"
+      }
+    ]
+  },
+  {
+    "id": "natanson_death",
+    "event_type": "death",
+    "label": "Natanson died",
+    "description": "Passed away in 1937.",
+    "date": {
+      "display": "February 26, 1937",
+      "precision": "day",
+      "sort_start": "1937-02-26",
+      "sort_end": "1937-02-26"
+    },
+    "participants": [
+      {
+        "entity_id": "wladyslaw_natanson",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "nagasawa_2018",
+        "page": 411,
+        "quote": "Natanson passed away on February 26, 1937: he was 73 years old."
+      }
+    ]
+  },
+  {
+    "id": "ishiwara_munich",
+    "event_type": "education",
+    "label": "Ishiwara studied under Sommerfeld",
+    "description": "Studied in Munich during the summer.",
+    "date": {
+      "display": "Summer 1912",
+      "precision": "range",
+      "sort_start": "1912-06-01",
+      "sort_end": "1912-08-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jun_ishiwara",
+        "role": "subject"
+      },
+      {
+        "entity_id": "arnold_sommerfeld",
+        "role": "educator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "nagasawa_2018",
+        "page": 400,
+        "quote": "He stud- ied under Sommerfeld in Munich during the summer of 1912."
+      }
+    ]
+  }
+]

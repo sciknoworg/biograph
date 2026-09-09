@@ -1,0 +1,335 @@
+[
+  {
+    "id": "galileo_born_pisa",
+    "source": "galileo_galilei",
+    "type": "born_in",
+    "target": "pisa",
+    "event_id": "galileo_birth",
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 1,
+        "quote": "Galileo was born in Pisa from Giulia Ammannati (1538–1620) and Vincenzo Galilei (1520–1591), a musician, on February 15, 1564"
+      }
+    ]
+  },
+  {
+    "id": "galileo_family_giulia",
+    "source": "galileo_galilei",
+    "type": "family_of",
+    "target": "giulia_ammannati",
+    "note": "mother",
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 1,
+        "quote": "Galileo was born in Pisa from Giulia Ammannati (1538–1620) and Vincenzo Galilei (1520–1591), a musician, on February 15, 1564"
+      }
+    ]
+  },
+  {
+    "id": "galileo_family_vincenzo",
+    "source": "galileo_galilei",
+    "type": "family_of",
+    "target": "vincenzo_galilei",
+    "note": "father",
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 1,
+        "quote": "Galileo was born in Pisa from Giulia Ammannati (1538–1620) and Vincenzo Galilei (1520–1591), a musician, on February 15, 1564"
+      }
+    ]
+  },
+  {
+    "id": "galileo_studied_pisa",
+    "source": "galileo_galilei",
+    "type": "studied_at",
+    "target": "university_of_pisa",
+    "event_id": "galileo_registered_pisa",
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 1,
+        "quote": "On November 5, 1581, he was registered in the faculty of Artists at the University of Pisa as a student of Medicine."
+      }
+    ]
+  },
+  {
+    "id": "galileo_educated_ricci",
+    "source": "galileo_galilei",
+    "type": "educated_by",
+    "target": "ostilio_ricci",
+    "event_id": "galileo_met_ricci",
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 1,
+        "quote": "In Florence in 1583 he met the mathematician Ostilio Ricci (1540–1603) and took up Mathematics, leaving Medicine, but never graduated."
+      }
+    ]
+  },
+  {
+    "id": "galileo_worked_pisa",
+    "source": "galileo_galilei",
+    "type": "worked_at",
+    "target": "university_of_pisa",
+    "event_id": "galileo_lecturer_pisa",
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 1,
+        "quote": "On 1589, he became Lecturer of Maths at the University of Pisa, with a salary of only 60 ducats/year."
+      }
+    ]
+  },
+  {
+    "id": "galileo_worked_padua",
+    "source": "galileo_galilei",
+    "type": "worked_at",
+    "target": "university_of_padua",
+    "event_id": "galileo_appointed_padua",
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 1,
+        "quote": "On September 25, 1592, at the early age of 28 years ( Figure 1) he was appointed at the University of Padua to take over the vacant chair of Mathematics with a better salary (180 florins/year)"
+      }
+    ]
+  },
+  {
+    "id": "galileo_invented_telescope_rel",
+    "source": "galileo_galilei",
+    "type": "invented",
+    "target": "telescope",
+    "event_id": "galileo_invented_telescope",
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 2,
+        "quote": "He invented a telescope (Figure 3), with a 18–20 fold magnification"
+      }
+    ]
+  },
+  {
+    "id": "galileo_invented_compass_rel",
+    "source": "galileo_galilei",
+    "type": "invented",
+    "target": "compass",
+    "event_id": "galileo_invented_compass",
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 2,
+        "quote": "He invented the compass (Figure 2), he wrote books on mechanics and cosmography for students."
+      }
+    ]
+  },
+  {
+    "id": "galileo_published_sidereus_rel",
+    "source": "galileo_galilei",
+    "type": "published",
+    "target": "sidereus_nuncius",
+    "event_id": "galileo_published_sidereus",
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 3,
+        "quote": "He wrote and published quickly the ''Sidereus Nuncius'' (''celestial announcement''), a book of only 55 pages, dedicated to Cosimo II, and full of notes and drawings proving his observations."
+      }
+    ]
+  },
+  {
+    "id": "galileo_employed_cosimo",
+    "source": "galileo_galilei",
+    "type": "employed_by",
+    "target": "cosimo_ii_de_medici",
+    "event_id": "galileo_nominated_pisa",
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 4,
+        "quote": "On July 10, 1610 Galileo was nominated as ''Primary Mathematician'' at the University of Pisa and Philosopher by the Tuscan Grand Duke Cosimo II"
+      }
+    ]
+  },
+  {
+    "id": "galileo_member_lincei",
+    "source": "galileo_galilei",
+    "type": "member_of",
+    "target": "lincei_academy",
+    "event_id": "galileo_enrolled_lincei",
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 4,
+        "quote": "On April 26, 1611 he was enrolled as a member of the Lincei Academy, founded in 1603 by the young Federico Cesi (1585–1630) ( Figure 7)"
+      }
+    ]
+  },
+  {
+    "id": "galileo_met_clavius",
+    "source": "galileo_galilei",
+    "type": "met",
+    "target": "christopher_clavius",
+    "event_id": "galileo_visited_rome",
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 4,
+        "quote": "On April 1611, he visited Rome to meet Pope Paul V and the Roman College of Jesuits, the chief of which, Christopher Clavius (1538–1612) ( Figure 6) fascinated by the observation of Jupiter's moons, reserved him a friendly welcome."
+      }
+    ]
+  },
+  {
+    "id": "galileo_met_donato",
+    "source": "galileo_galilei",
+    "type": "met",
+    "target": "leonardo_donato",
+    "event_id": "galileo_presented_telescope",
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 3,
+        "quote": "On August 24, 1609, he had had the opportunity to present the telescope to the Doge Leonardo Donato and to the Council of Ten of the Serenissima Republic of Venice"
+      }
+    ]
+  },
+  {
+    "id": "galileo_collaborated_sagredo",
+    "source": "galileo_galilei",
+    "type": "collaborated_with",
+    "target": "giovanni_francesco_sagredo",
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 4,
+        "quote": "His friend Giovanni Francesco Sagredo (1571–1620) wrote a letter to him, which was like a presentiment ''Where you will find the freedom and monarchy of yourself you had in Venice?''"
+      }
+    ]
+  },
+  {
+    "id": "galileo_supervised_holy_office",
+    "source": "galileo_galilei",
+    "type": "supervised_by",
+    "target": "holy_office",
+    "event_id": "galileo_trial",
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 6,
+        "quote": "He was put into jail and in June 1633, brought to trial in the Church of Santa Maria Minerva (Figure 11)."
+      }
+    ]
+  },
+  {
+    "id": "galileo_lived_arcetri",
+    "source": "galileo_galilei",
+    "type": "lived_in",
+    "target": "arcetri",
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 7,
+        "quote": "Galileo was confined to his house in Arcetri, not so far from the cloister where his daughter Virginia (1600–1634) (Sister Maria Celeste) was living and where she died prematurely in 1634."
+      }
+    ]
+  },
+  {
+    "id": "galileo_family_virginia",
+    "source": "galileo_galilei",
+    "type": "family_of",
+    "target": "virginia_galilei",
+    "note": "daughter",
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 7,
+        "quote": "Galileo was confined to his house in Arcetri, not so far from the cloister where his daughter Virginia (1600–1634) (Sister Maria Celeste) was living and where she died prematurely in 1634."
+      }
+    ]
+  },
+  {
+    "id": "galileo_mentored_viviani",
+    "source": "galileo_galilei",
+    "type": "mentored",
+    "target": "vincenzo_viviani",
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 7,
+        "quote": "and was assisted by his pupils Vincenzo Viviani (1622–1703) and Evangelista Torricelli (1608–1647)."
+      }
+    ]
+  },
+  {
+    "id": "galileo_mentored_torricelli",
+    "source": "galileo_galilei",
+    "type": "mentored",
+    "target": "evangelista_torricelli",
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 7,
+        "quote": "and was assisted by his pupils Vincenzo Viviani (1622–1703) and Evangelista Torricelli (1608–1647)."
+      }
+    ]
+  },
+  {
+    "id": "galileo_died_arcetri",
+    "source": "galileo_galilei",
+    "type": "died_in",
+    "target": "arcetri",
+    "event_id": "galileo_died",
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 8,
+        "quote": "On January 8, 1642, on the same day of his Jupiter observations by telescope, he died at Arcetri and was buried in a hidden Chapel of Santa Croce Church in Florence"
+      }
+    ]
+  },
+  {
+    "id": "galileo_buried_santa_croce",
+    "source": "galileo_galilei",
+    "type": "died_in",
+    "target": "santa_croce_church",
+    "note": "buried in",
+    "event_id": "galileo_buried",
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 8,
+        "quote": "On January 8, 1642, on the same day of his Jupiter observations by telescope, he died at Arcetri and was buried in a hidden Chapel of Santa Croce Church in Florence"
+      }
+    ]
+  },
+  {
+    "id": "galileo_published_dialogue_rel",
+    "source": "galileo_galilei",
+    "type": "published",
+    "target": "dialogue_concerning_two_chief_world_system",
+    "event_id": "galileo_published_dialogue",
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 6,
+        "quote": "The book received the ''nihil obstat'' authorisation by the Church Office in Florence, and was published in 1632."
+      }
+    ]
+  },
+  {
+    "id": "galileo_published_discourses_rel",
+    "source": "galileo_galilei",
+    "type": "published",
+    "target": "discourses_and_mathematical_demonstrations",
+    "event_id": "galileo_published_discourses",
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 7,
+        "quote": "In 1638 he published with Elzevier a new version of Dialogue, with a different title ''Discourses and Mathematical Demonstrations Relating Two New Sciences'', confirming his views."
+      }
+    ]
+  }
+]

@@ -1,0 +1,85 @@
+[
+  {
+    "id": "inge_lehmann_born_copenhagen",
+    "source": "inge_lehmann",
+    "type": "born_in",
+    "target": "copenhagen",
+    "event_id": "inge_lehmann_birth",
+    "sources": [
+      {
+        "source_id": "hjortenberg_2009",
+        "page": 680,
+        "quote": "Inge Lehmann was born in Copenhagen, Denmark on May 13, 1888"
+      }
+    ]
+  },
+  {
+    "id": "inge_lehmann_died_copenhagen",
+    "source": "inge_lehmann",
+    "type": "died_in",
+    "target": "copenhagen",
+    "event_id": "inge_lehmann_death",
+    "sources": [
+      {
+        "source_id": "hjortenberg_2009",
+        "page": 680,
+        "quote": "she died on February 21, 1993, also in Copenhagen"
+      }
+    ]
+  },
+  {
+    "id": "inge_lehmann_studied_copenhagen",
+    "source": "inge_lehmann",
+    "type": "studied_at",
+    "target": "university_of_copenhagen",
+    "event_id": "inge_lehmann_copenhagen_math",
+    "sources": [
+      {
+        "source_id": "hjortenberg_2009",
+        "page": 682,
+        "quote": "Inge Lehmann studied mathematics at the University of Copenhagen (1907-1910)"
+      }
+    ]
+  },
+  {
+    "id": "inge_lehmann_worked_dgi",
+    "source": "inge_lehmann",
+    "type": "worked_at",
+    "target": "danish_geodetic_institute",
+    "event_id": "inge_lehmann_chief_seismo",
+    "sources": [
+      {
+        "source_id": "hjortenberg_2009",
+        "page": 682,
+        "quote": "In 1928 Lehmann was appointed statsgeodæt (state geodesist) and made chief of the Seismological Department of the newly formed Danish Geodetic Institute"
+      }
+    ]
+  },
+  {
+    "id": "inge_lehmann_collab_jeffreys",
+    "source": "inge_lehmann",
+    "type": "collaborated_with",
+    "target": "harold_jeffreys",
+    "sources": [
+      {
+        "source_id": "hjortenberg_2009",
+        "page": 692,
+        "quote": "For several years we had quite a correspondence, this was, of course a great encouragement to me"
+      }
+    ]
+  },
+  {
+    "id": "inge_lehmann_invented_inner_core",
+    "source": "inge_lehmann",
+    "type": "developed",
+    "target": "p_prime_paper",
+    "event_id": "inge_lehmann_inner_core_paper",
+    "sources": [
+      {
+        "source_id": "hjortenberg_2009",
+        "page": 684,
+        "quote": "Lehmann (1936) presented the idea, and reflected and refracted rays from the inner core in Lehmann's simple earth model explained the waves"
+      }
+    ]
+  }
+]

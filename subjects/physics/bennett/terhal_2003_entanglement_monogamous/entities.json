@@ -1,0 +1,274 @@
+[
+  {
+    "id": "charles_bennett",
+    "entity_type": "person",
+    "name": "Charles Bennett",
+    "aliases": [
+      "Charlie Bennett",
+      "Charlie"
+    ],
+    "summary": "Physicist at IBM Watson Research Center known for quantum teleportation and quantum key distribution.",
+    "subtype": "researcher",
+    "attributes": {
+      "field": "quantum information theory"
+    }
+  },
+  {
+    "id": "barbara_terhal",
+    "entity_type": "person",
+    "name": "Barbara M. Terhal",
+    "aliases": [
+      "Terhal"
+    ],
+    "summary": "Quantum information theorist and author of the source document.",
+    "subtype": "researcher",
+    "attributes": {
+      "field": "quantum information theory"
+    }
+  },
+  {
+    "id": "ibm_watson",
+    "entity_type": "organization",
+    "name": "IBM Watson Research Center",
+    "aliases": [
+      "IBM",
+      "Watson Research Center"
+    ],
+    "summary": "Research division of IBM located in Yorktown Heights, NY.",
+    "subtype": "lab",
+    "attributes": {
+      "location": "Yorktown Heights, NY"
+    }
+  },
+  {
+    "id": "roman_ingarden",
+    "entity_type": "person",
+    "name": "Roman Ingarden",
+    "aliases": [
+      "Ingarden"
+    ],
+    "summary": "Polish mathematical physicist who wrote early papers on quantum information theory.",
+    "subtype": "researcher",
+    "attributes": {
+      "nationality": "Polish"
+    }
+  },
+  {
+    "id": "alexander_holevo",
+    "entity_type": "person",
+    "name": "Alexander Holevo",
+    "aliases": [
+      "Holevo"
+    ],
+    "summary": "Physicist at Steklov Mathematical Institute known for Holevo's theorem.",
+    "subtype": "researcher",
+    "attributes": {
+      "field": "quantum information theory"
+    }
+  },
+  {
+    "id": "steklov_institute",
+    "entity_type": "organization",
+    "name": "Steklov Mathematical Institute",
+    "aliases": [
+      "Steklov"
+    ],
+    "summary": "Mathematical research institute in Russia.",
+    "subtype": "university",
+    "attributes": {
+      "country": "Russia"
+    }
+  },
+  {
+    "id": "john_smolin",
+    "entity_type": "person",
+    "name": "John Smolin",
+    "aliases": [
+      "Smolin"
+    ],
+    "summary": "Quantum information theorist who did PhD work at IBM.",
+    "subtype": "researcher",
+    "attributes": {}
+  },
+  {
+    "id": "ashish_thapliyal",
+    "entity_type": "person",
+    "name": "Ashish Thapliyal",
+    "aliases": [
+      "Thapliyal"
+    ],
+    "summary": "Quantum information theorist who did PhD work at IBM.",
+    "subtype": "researcher",
+    "attributes": {}
+  },
+  {
+    "id": "gilles_lindblad",
+    "entity_type": "person",
+    "name": "G. Lindblad",
+    "aliases": [
+      "Lindblad"
+    ],
+    "summary": "Physicist who wrote on quantum entropy and measurements in 1973.",
+    "subtype": "researcher",
+    "attributes": {}
+  },
+  {
+    "id": "peter_shor",
+    "entity_type": "person",
+    "name": "Peter Shor",
+    "aliases": [
+      "Shor"
+    ],
+    "summary": "Physicist known for factoring algorithm and security proofs.",
+    "subtype": "researcher",
+    "attributes": {}
+  },
+  {
+    "id": "gilles_brassard",
+    "entity_type": "person",
+    "name": "Gilles Brassard",
+    "aliases": [
+      "Brassard"
+    ],
+    "summary": "Co-proposer of the BB84 quantum key distribution protocol.",
+    "subtype": "researcher",
+    "attributes": {}
+  },
+  {
+    "id": "hk_lo",
+    "entity_type": "person",
+    "name": "H.-K. Lo",
+    "aliases": [
+      "Lo"
+    ],
+    "summary": "Researcher who proved security of entanglement-based QKD.",
+    "subtype": "researcher",
+    "attributes": {}
+  },
+  {
+    "id": "hf_chau",
+    "entity_type": "person",
+    "name": "H. F. Chau",
+    "aliases": [
+      "Chau"
+    ],
+    "summary": "Researcher who proved security of entanglement-based QKD.",
+    "subtype": "researcher",
+    "attributes": {}
+  },
+  {
+    "id": "igor_devetak",
+    "entity_type": "person",
+    "name": "Igor Devetak",
+    "aliases": [
+      "Devetak"
+    ],
+    "summary": "Researcher at IBM working on quantum channel capacity.",
+    "subtype": "researcher",
+    "attributes": {}
+  },
+  {
+    "id": "andrew_winter",
+    "entity_type": "person",
+    "name": "A. Winter",
+    "aliases": [
+      "Winter"
+    ],
+    "summary": "Researcher in Bristol working on quantum information.",
+    "subtype": "researcher",
+    "attributes": {}
+  },
+  {
+    "id": "ben_schumacher",
+    "entity_type": "person",
+    "name": "Ben Schumacher",
+    "aliases": [
+      "Schumacher"
+    ],
+    "summary": "Physicist who coined the term 'shareable' for entanglement.",
+    "subtype": "researcher",
+    "attributes": {}
+  },
+  {
+    "id": "reinhard_werner",
+    "entity_type": "person",
+    "name": "Reinhard Werner",
+    "aliases": [
+      "Werner"
+    ],
+    "summary": "Physicist known for Werner states and entanglement theorems.",
+    "subtype": "researcher",
+    "attributes": {}
+  },
+  {
+    "id": "john_bell",
+    "entity_type": "person",
+    "name": "John Bell",
+    "aliases": [
+      "Bell"
+    ],
+    "summary": "Physicist who formulated Bell's inequality.",
+    "subtype": "researcher",
+    "attributes": {}
+  },
+  {
+    "id": "tata_institute",
+    "entity_type": "organization",
+    "name": "Tata research institute",
+    "aliases": [
+      "Tata"
+    ],
+    "summary": "Research institute in India where Bennett gave lectures.",
+    "subtype": "university",
+    "attributes": {
+      "country": "India"
+    }
+  },
+  {
+    "id": "university_bristol",
+    "entity_type": "organization",
+    "name": "Bristol",
+    "aliases": [
+      "University of Bristol"
+    ],
+    "summary": "University where A. Winter worked.",
+    "subtype": "university",
+    "attributes": {
+      "location": "Bristol"
+    }
+  },
+  {
+    "id": "bb84_protocol",
+    "entity_type": "artifact",
+    "name": "BB84 protocol",
+    "aliases": [
+      "Bennett & Brassard's '84 scheme",
+      "quantum key distribution"
+    ],
+    "summary": "Quantum key distribution protocol proposed in 1984.",
+    "subtype": "invention",
+    "attributes": {}
+  },
+  {
+    "id": "mixed_state_paper",
+    "entity_type": "artifact",
+    "name": "Mixed State Entanglement and Quantum Error Correction",
+    "aliases": [
+      "1996 paper by Bennett et al."
+    ],
+    "summary": "1996 publication on mixed state entanglement.",
+    "subtype": "publication",
+    "attributes": {}
+  },
+  {
+    "id": "quantum_teleportation",
+    "entity_type": "artifact",
+    "name": "quantum teleportation",
+    "aliases": [
+      "teleportation"
+    ],
+    "summary": "Process for transferring quantum states, influenced by Bennett.",
+    "subtype": "invention",
+    "attributes": {}
+  }
+]

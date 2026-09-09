@@ -1,0 +1,140 @@
+[
+  {
+    "id": "glauber_supervised_schwinger",
+    "source": "roy_glauber",
+    "type": "supervised_by",
+    "target": "julian_schwinger",
+    "event_id": "glauber_phd_completed",
+    "sources": [
+      {
+        "source_id": "osland_2020",
+        "page": 2,
+        "quote": "completed his PhD with Schwinger in 1949"
+      }
+    ]
+  },
+  {
+    "id": "glauber_worked_harvard",
+    "source": "roy_glauber",
+    "type": "worked_at",
+    "target": "harvard_university",
+    "event_id": "glauber_harvard_return",
+    "sources": [
+      {
+        "source_id": "osland_2020",
+        "page": 2,
+        "quote": "he returned to Harvard in 1952"
+      }
+    ]
+  },
+  {
+    "id": "glauber_worked_princeton",
+    "source": "roy_glauber",
+    "type": "worked_at",
+    "target": "princeton_university",
+    "event_id": "glauber_princeton_appointment",
+    "sources": [
+      {
+        "source_id": "osland_2020",
+        "page": 2,
+        "quote": "after a few years at Princeton (1949–1951)"
+      }
+    ]
+  },
+  {
+    "id": "glauber_worked_caltech",
+    "source": "roy_glauber",
+    "type": "worked_at",
+    "target": "caltech",
+    "event_id": "glauber_caltech_appointment",
+    "sources": [
+      {
+        "source_id": "osland_2020",
+        "page": 2,
+        "quote": "and Caltech (1951–1952)"
+      }
+    ]
+  },
+  {
+    "id": "glauber_worked_los_alamos",
+    "source": "roy_glauber",
+    "type": "worked_at",
+    "target": "los_alamos_national_laboratory",
+    "event_id": "glauber_manhattan_appointment",
+    "sources": [
+      {
+        "source_id": "osland_2020",
+        "page": 2,
+        "quote": "Anyway , it is listed as his ﬁrst appointment, 18 years old, in the 1997-version of his CV"
+      }
+    ]
+  },
+  {
+    "id": "glauber_collaborated_osland",
+    "source": "roy_glauber",
+    "type": "collaborated_with",
+    "target": "per_osland",
+    "event_id": "osland_glauber_collaboration_start",
+    "sources": [
+      {
+        "source_id": "osland_2020",
+        "page": 3,
+        "quote": "Returning to Harvard in 1981, I learned that Roy and Marek Bleszynski had been work- ing on a simpliﬁed description of proton-nucleus scattering, an activity I immediately joined."
+      }
+    ]
+  },
+  {
+    "id": "glauber_collaborated_bleszynski",
+    "source": "roy_glauber",
+    "type": "collaborated_with",
+    "target": "marek_bleszynski",
+    "event_id": "osland_glauber_collaboration_start",
+    "sources": [
+      {
+        "source_id": "osland_2020",
+        "page": 3,
+        "quote": "Roy and Marek Bleszynski had been work- ing on a simpliﬁed description of proton-nucleus scattering"
+      }
+    ]
+  },
+  {
+    "id": "glauber_awarded_nobel",
+    "source": "roy_glauber",
+    "type": "awarded",
+    "target": "nobel_prize_physics_2005",
+    "event_id": "glauber_nobel_prize",
+    "sources": [
+      {
+        "source_id": "osland_2020",
+        "page": 1,
+        "quote": "for which he was awarded one half of the 2005 Nobel Prize in Physics"
+      }
+    ]
+  },
+  {
+    "id": "osland_worked_bergen",
+    "source": "per_osland",
+    "type": "worked_at",
+    "target": "university_of_bergen",
+    "sources": [
+      {
+        "source_id": "osland_2020",
+        "page": 1,
+        "quote": "Per Osland⋆ Department of Physics and Technology , University of Bergen"
+      }
+    ]
+  },
+  {
+    "id": "osland_studied_trondheim",
+    "source": "per_osland",
+    "type": "studied_at",
+    "target": "trondheim",
+    "sources": [
+      {
+        "source_id": "osland_2020",
+        "page": 9,
+        "quote": "as I had done some multiple- scattering calculations for my thesis work in Trondheim"
+      }
+    ]
+  }
+]

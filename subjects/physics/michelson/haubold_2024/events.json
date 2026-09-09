@@ -1,0 +1,261 @@
+[
+  {
+    "id": "michelson_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1852",
+      "precision": "year",
+      "sort_start": "1852-01-01",
+      "sort_end": "1852-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_a_michelson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "haubold_2024",
+        "page": 2,
+        "quote": "Albert Abraham Michelson (1852-1931)"
+      }
+    ]
+  },
+  {
+    "id": "michelson_visit_europe",
+    "event_type": "visit",
+    "label": "Visited Europe",
+    "description": "Michelson invented the interferometer during a visit to Europe.",
+    "date": {
+      "display": "end of 1880",
+      "precision": "year",
+      "sort_start": "1880-01-01",
+      "sort_end": "1880-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_a_michelson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "haubold_2024",
+        "page": 3,
+        "quote": "Michelson invented during a visit to Europe, beginning at the end of 1880"
+      }
+    ]
+  },
+  {
+    "id": "michelson_experiment_potsdam",
+    "event_type": "public_demonstration",
+    "label": "Performed interferometer experiment in Potsdam",
+    "description": "Michelson performed for the first time his interferometer experiment in the Astrophysical Observatory Potsdam.",
+    "date": {
+      "display": "April 1881",
+      "precision": "month",
+      "sort_start": "1881-04-01",
+      "sort_end": "1881-04-30"
+    },
+    "location": "astrophysical_observatory_potsdam",
+    "participants": [
+      {
+        "entity_id": "albert_a_michelson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "astrophysical_observatory_potsdam",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "haubold_2024",
+        "page": 3,
+        "quote": "in April 1881, Michelson performed for the first time his interferometer experiment"
+      }
+    ]
+  },
+  {
+    "id": "michelson_publication_1881",
+    "event_type": "publication",
+    "label": "Published findings in American Journal of Physics",
+    "date": {
+      "display": "August 1881",
+      "precision": "month",
+      "sort_start": "1881-08-01",
+      "sort_end": "1881-08-31"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_a_michelson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "haubold_2024",
+        "page": 5,
+        "quote": "He recorded his findings in the August 1881 (5) issue of the American Journal of Physics"
+      }
+    ]
+  },
+  {
+    "id": "michelson_morley_experiment",
+    "event_type": "public_demonstration",
+    "label": "Repeated aether-drift experiment with Morley",
+    "description": "Michelson in cooperation with E.W. Morley repeated the aether-drift experiment with higher precision.",
+    "date": {
+      "display": "1887",
+      "precision": "year",
+      "sort_start": "1887-01-01",
+      "sort_end": "1887-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_a_michelson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "e_w_morley",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "haubold_2024",
+        "page": 11,
+        "quote": "in 1887, when Michelson in cooperation with E.W. Morley repeated the aether- drift experiment"
+      }
+    ]
+  },
+  {
+    "id": "michelson_house_chicago",
+    "event_type": "relocation",
+    "label": "Built house in Chicago",
+    "date": {
+      "display": "1923",
+      "precision": "year",
+      "sort_start": "1923-01-01",
+      "sort_end": "1923-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_a_michelson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "haubold_2024",
+        "page": 11,
+        "quote": "After he remarried, he built a house in Chicago in 1923"
+      }
+    ]
+  },
+  {
+    "id": "michelson_exhibition_chicago",
+    "event_type": "other",
+    "label": "Had one-man exhibition at University of Chicago",
+    "date": {
+      "display": "1928",
+      "precision": "year",
+      "sort_start": "1928-01-01",
+      "sort_end": "1928-12-31"
+    },
+    "location": "university_of_chicago",
+    "participants": [
+      {
+        "entity_id": "albert_a_michelson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "haubold_2024",
+        "page": 11,
+        "quote": "In 1928, he had a one-man exhibition at the Renaissance Society of the University of Chicago"
+      }
+    ]
+  },
+  {
+    "id": "michelson_painting_altadena",
+    "event_type": "other",
+    "label": "Painted watercolour in Altadena",
+    "date": {
+      "display": "1929",
+      "precision": "year",
+      "sort_start": "1929-01-01",
+      "sort_end": "1929-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_a_michelson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "haubold_2024",
+        "page": 10,
+        "quote": "Watercolour painted by Albert A. Michelson, Altadena, California, 1929"
+      }
+    ]
+  },
+  {
+    "id": "michelson_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1931",
+      "precision": "year",
+      "sort_start": "1931-01-01",
+      "sort_end": "1931-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "albert_a_michelson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "haubold_2024",
+        "page": 7,
+        "quote": "January 1931, a few months before the death of Michelson"
+      }
+    ]
+  },
+  {
+    "id": "michelson_colloquium",
+    "event_type": "conference",
+    "label": "Michelson Colloquium held in Potsdam",
+    "description": "International colloquium in honour of Michelson and his scientific work.",
+    "date": {
+      "display": "April 27 to April 30, 1981",
+      "precision": "day",
+      "sort_start": "1981-04-27",
+      "sort_end": "1981-04-30"
+    },
+    "location": "astrophysical_observatory_potsdam",
+    "participants": [
+      {
+        "entity_id": "albert_a_michelson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "dorothy_michelson_livingston",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "haubold_2024",
+        "page": 2,
+        "quote": "From April 27 to April 30, 1981, an international colloquium in honour of the physicist and first American Nobel laureate Albert Abraham Michelson (1852-1931) and his scientific work took place in Potsdam, Germany"
+      }
+    ]
+  }
+]

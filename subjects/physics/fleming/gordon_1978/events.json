@@ -1,0 +1,366 @@
+[
+  {
+    "id": "fleming_birth",
+    "event_type": "birth",
+    "label": "Born in Scotland",
+    "date": {
+      "display": "1857",
+      "precision": "year",
+      "sort_start": "1857-01-01",
+      "sort_end": "1857-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "williamina_fleming",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gordon_1978",
+        "page": 24,
+        "quote": "Williamina Paton Fleming (1857-1911)"
+      }
+    ]
+  },
+  {
+    "id": "fleming_marriage",
+    "event_type": "other",
+    "label": "Married at age nineteen",
+    "date": {
+      "display": "c. 1876",
+      "precision": "circa",
+      "sort_start": "1876-01-01",
+      "sort_end": "1876-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "williamina_fleming",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gordon_1978",
+        "page": 26,
+        "quote": "married at age nineteen"
+      }
+    ]
+  },
+  {
+    "id": "fleming_emigration",
+    "event_type": "relocation",
+    "label": "Emigrated to America",
+    "date": {
+      "display": "c. 1876",
+      "precision": "circa",
+      "sort_start": "1876-01-01",
+      "sort_end": "1877-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "williamina_fleming",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gordon_1978",
+        "page": 24,
+        "quote": "after they emigrated to America"
+      }
+    ]
+  },
+  {
+    "id": "husband_abandonment",
+    "event_type": "other",
+    "label": "Abandoned by husband",
+    "date": {
+      "display": "within a year after emigration",
+      "precision": "range",
+      "sort_start": "1876-01-01",
+      "sort_end": "1877-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "williamina_fleming",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gordon_1978",
+        "page": 24,
+        "quote": "Abandoned by her husband within a year after they emigrated to America"
+      }
+    ]
+  },
+  {
+    "id": "fleming_maid_job",
+    "event_type": "employment_start",
+    "label": "Took job as Pickering's maid",
+    "date": {
+      "display": "c. 1877",
+      "precision": "circa",
+      "sort_start": "1877-01-01",
+      "sort_end": "1878-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "williamina_fleming",
+        "role": "subject"
+      },
+      {
+        "entity_id": "edward_pickering",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gordon_1978",
+        "page": 24,
+        "quote": "Fleming had taken a job as the Pickerings' maid"
+      }
+    ]
+  },
+  {
+    "id": "fleming_observatory_start",
+    "event_type": "employment_start",
+    "label": "Offered work at the Observatory",
+    "date": {
+      "display": "c. 1878",
+      "precision": "circa",
+      "sort_start": "1878-01-01",
+      "sort_end": "1885-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "williamina_fleming",
+        "role": "subject"
+      },
+      {
+        "entity_id": "harvard_college_observatory",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gordon_1978",
+        "page": 24,
+        "quote": "offered her work at the Observatory"
+      }
+    ]
+  },
+  {
+    "id": "henry_draper_death",
+    "event_type": "death",
+    "label": "Henry Draper died",
+    "date": {
+      "display": "1882",
+      "precision": "year",
+      "sort_start": "1882-01-01",
+      "sort_end": "1882-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_draper",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gordon_1978",
+        "page": 24,
+        "quote": "Upon the untimely death in 1882 of Dr. Henry Draper"
+      }
+    ]
+  },
+  {
+    "id": "draper_memorial_created",
+    "event_type": "other",
+    "label": "Henry Draper Memorial created",
+    "date": {
+      "display": "1886",
+      "precision": "year",
+      "sort_start": "1886-01-01",
+      "sort_end": "1886-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_draper_memorial",
+        "role": "invention"
+      },
+      {
+        "entity_id": "mary_draper",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gordon_1978",
+        "page": 24,
+        "quote": "Henry Draper Memorial, created in 1886"
+      }
+    ]
+  },
+  {
+    "id": "draper_catalogue_1890",
+    "event_type": "publication",
+    "label": "Draper Catalogue of Stellar Spectra published",
+    "date": {
+      "display": "1890",
+      "precision": "year",
+      "sort_start": "1890-01-01",
+      "sort_end": "1890-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "draper_catalogue_1890",
+        "role": "invention"
+      },
+      {
+        "entity_id": "williamina_fleming",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gordon_1978",
+        "page": 24,
+        "quote": "Draper Catalogue of Stellar Spectra (1890), was prepared by Fleming."
+      }
+    ]
+  },
+  {
+    "id": "fleming_paper_1893",
+    "event_type": "publication",
+    "label": "Published 'A Field for Women's Work in Astronomy'",
+    "date": {
+      "display": "1893",
+      "precision": "year",
+      "sort_start": "1893-01-01",
+      "sort_end": "1893-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "williamina_fleming",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gordon_1978",
+        "page": 26,
+        "quote": "In her paper \"A Field for Women's Work in Astronomy\" (1893"
+      }
+    ]
+  },
+  {
+    "id": "fleming_curator_appointment",
+    "event_type": "role_change",
+    "label": "Appointed Curator of Astronomical Photographs",
+    "date": {
+      "display": "1898",
+      "precision": "year",
+      "sort_start": "1898-01-01",
+      "sort_end": "1898-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "williamina_fleming",
+        "role": "subject"
+      },
+      {
+        "entity_id": "harvard_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gordon_1978",
+        "page": 26,
+        "quote": "Curator of Astronomical Photographs, 1898"
+      }
+    ]
+  },
+  {
+    "id": "harvard_system_adoption",
+    "event_type": "other",
+    "label": "Harvard System adopted by International Solar Union",
+    "date": {
+      "display": "1910",
+      "precision": "year",
+      "sort_start": "1910-01-01",
+      "sort_end": "1910-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "international_solar_union",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "harvard_system",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gordon_1978",
+        "page": 25,
+        "quote": "adopted by the International Solar Union in 1910"
+      }
+    ]
+  },
+  {
+    "id": "fleming_draper_revision",
+    "event_type": "employment_start",
+    "label": "Undertook revision of Draper Catalogue",
+    "date": {
+      "display": "1911",
+      "precision": "year",
+      "sort_start": "1911-01-01",
+      "sort_end": "1911-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "williamina_fleming",
+        "role": "subject"
+      },
+      {
+        "entity_id": "henry_draper_catalogue",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gordon_1978",
+        "page": 25,
+        "quote": "In 1911, she undertook the huge chore of revising and expanding the Draper Catalogue."
+      }
+    ]
+  },
+  {
+    "id": "fleming_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1911",
+      "precision": "year",
+      "sort_start": "1911-01-01",
+      "sort_end": "1911-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "williamina_fleming",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gordon_1978",
+        "page": 24,
+        "quote": "Williamina Paton Fleming (1857-1911)"
+      }
+    ]
+  }
+]

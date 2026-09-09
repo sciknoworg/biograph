@@ -1,0 +1,307 @@
+[
+  {
+    "id": "galileo_galilei",
+    "entity_type": "person",
+    "name": "Galileo Galilei",
+    "aliases": [
+      "Galileo",
+      "Mister Galileo"
+    ],
+    "summary": "Italian astronomer, physicist and engineer who pioneered the experimental method and confirmed heliocentric theory.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "giulia_ammannati",
+    "entity_type": "person",
+    "name": "Giulia Ammannati",
+    "aliases": [],
+    "summary": "Mother of Galileo Galilei.",
+    "subtype": "family"
+  },
+  {
+    "id": "vincenzo_galilei",
+    "entity_type": "person",
+    "name": "Vincenzo Galilei",
+    "aliases": [],
+    "summary": "Musician and father of Galileo Galilei.",
+    "subtype": "family"
+  },
+  {
+    "id": "ostilio_ricci",
+    "entity_type": "person",
+    "name": "Ostilio Ricci",
+    "aliases": [],
+    "summary": "Mathematician who taught Galileo in Florence.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "fabricius_ab_acquapendente",
+    "entity_type": "person",
+    "name": "Fabricius ab Acquapendente",
+    "aliases": [],
+    "summary": "Anatomist and surgeon at the University of Padua.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "cosimo_ii_de_medici",
+    "entity_type": "person",
+    "name": "Cosimo II de' Medici",
+    "aliases": [
+      "Cosimo II"
+    ],
+    "summary": "Grand Duke of Tuscany and patron of Galileo.",
+    "subtype": "patron"
+  },
+  {
+    "id": "leonardo_donato",
+    "entity_type": "person",
+    "name": "Leonardo Donato",
+    "aliases": [],
+    "summary": "Doge of Venice who supported Galileo's appointment at Padua.",
+    "subtype": "politician"
+  },
+  {
+    "id": "giovanni_francesco_sagredo",
+    "entity_type": "person",
+    "name": "Giovanni Francesco Sagredo",
+    "aliases": [],
+    "summary": "Friend of Galileo who corresponded with him.",
+    "subtype": "collaborator"
+  },
+  {
+    "id": "christopher_clavius",
+    "entity_type": "person",
+    "name": "Christopher Clavius",
+    "aliases": [],
+    "summary": "Jesuit of the Roman College who welcomed Galileo.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "federico_cesi",
+    "entity_type": "person",
+    "name": "Federico Cesi",
+    "aliases": [],
+    "summary": "Founder of the Lincei Academy.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "tommaso_caccini",
+    "entity_type": "person",
+    "name": "Tommaso Caccini",
+    "aliases": [],
+    "summary": "Dominican friar who accused Galileo of heresy.",
+    "subtype": "clergy"
+  },
+  {
+    "id": "roberto_bellarmino",
+    "entity_type": "person",
+    "name": "Roberto Bellarmino",
+    "aliases": [
+      "Cardinal Bellarmino"
+    ],
+    "summary": "Cardinal and Jesuit who led the Holy Office and warned Galileo.",
+    "subtype": "clergy"
+  },
+  {
+    "id": "maffeo_barberini",
+    "entity_type": "person",
+    "name": "Maffeo Barberini",
+    "aliases": [
+      "Pope Urban VIII",
+      "Urban VIII"
+    ],
+    "summary": "Pope who initially admired Galileo but later condemned him.",
+    "subtype": "clergy"
+  },
+  {
+    "id": "virginia_galilei",
+    "entity_type": "person",
+    "name": "Virginia Galilei",
+    "aliases": [
+      "Sister Maria Celeste"
+    ],
+    "summary": "Daughter of Galileo who lived in a cloister near Arcetri.",
+    "subtype": "family"
+  },
+  {
+    "id": "vincenzo_viviani",
+    "entity_type": "person",
+    "name": "Vincenzo Viviani",
+    "aliases": [],
+    "summary": "Pupil of Galileo who assisted him when blind.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "evangelista_torricelli",
+    "entity_type": "person",
+    "name": "Evangelista Torricelli",
+    "aliases": [],
+    "summary": "Pupil of Galileo who assisted him when blind.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "university_of_pisa",
+    "entity_type": "organization",
+    "name": "University of Pisa",
+    "aliases": [
+      "Pisa"
+    ],
+    "summary": "Italian university where Galileo studied and later taught.",
+    "subtype": "university"
+  },
+  {
+    "id": "university_of_padua",
+    "entity_type": "organization",
+    "name": "University of Padua",
+    "aliases": [
+      "Padua",
+      "Patavina"
+    ],
+    "summary": "Italian university where Galileo taught for 18 years.",
+    "subtype": "university"
+  },
+  {
+    "id": "serenissima_republic_of_venice",
+    "entity_type": "organization",
+    "name": "Serenissima Republic of Venice",
+    "aliases": [
+      "Venice",
+      "Republic of Venice"
+    ],
+    "summary": "State that employed Galileo at Padua.",
+    "subtype": "government"
+  },
+  {
+    "id": "lincei_academy",
+    "entity_type": "organization",
+    "name": "Lincei Academy",
+    "aliases": [],
+    "summary": "Scientific academy founded by Federico Cesi.",
+    "subtype": "academy"
+  },
+  {
+    "id": "holy_office",
+    "entity_type": "organization",
+    "name": "Holy Office",
+    "aliases": [
+      "Inquisition"
+    ],
+    "summary": "Church institution that tried and condemned Galileo.",
+    "subtype": "religious_body"
+  },
+  {
+    "id": "pisa",
+    "entity_type": "place",
+    "name": "Pisa",
+    "aliases": [],
+    "summary": "City in Italy where Galileo was born.",
+    "subtype": "city"
+  },
+  {
+    "id": "florence",
+    "entity_type": "place",
+    "name": "Florence",
+    "aliases": [],
+    "summary": "City in Italy where Galileo met Ricci and later lived.",
+    "subtype": "city"
+  },
+  {
+    "id": "padua",
+    "entity_type": "place",
+    "name": "Padua",
+    "aliases": [],
+    "summary": "City in Italy where Galileo taught for 18 years.",
+    "subtype": "city"
+  },
+  {
+    "id": "venice",
+    "entity_type": "place",
+    "name": "Venice",
+    "aliases": [],
+    "summary": "City where Galileo presented the telescope.",
+    "subtype": "city"
+  },
+  {
+    "id": "rome",
+    "entity_type": "place",
+    "name": "Rome",
+    "aliases": [],
+    "summary": "City where Galileo was tried.",
+    "subtype": "city"
+  },
+  {
+    "id": "arcetri",
+    "entity_type": "place",
+    "name": "Arcetri",
+    "aliases": [],
+    "summary": "Place near Florence where Galileo was confined.",
+    "subtype": "locality"
+  },
+  {
+    "id": "telescope",
+    "entity_type": "artifact",
+    "name": "Telescope",
+    "aliases": [
+      "Galileo spectacle"
+    ],
+    "summary": "Optical instrument invented by Galileo with 18-20 fold magnification.",
+    "subtype": "invention"
+  },
+  {
+    "id": "compass",
+    "entity_type": "artifact",
+    "name": "Compass",
+    "aliases": [
+      "geometric and military compass"
+    ],
+    "summary": "Instrument invented by Galileo in Padua.",
+    "subtype": "invention"
+  },
+  {
+    "id": "sidereus_nuncius",
+    "entity_type": "artifact",
+    "name": "Sidereus Nuncius",
+    "aliases": [
+      "celestial announcement"
+    ],
+    "summary": "Book published by Galileo in 1610 proving his observations.",
+    "subtype": "publication"
+  },
+  {
+    "id": "dialogue_concerning_two_chief_world_system",
+    "entity_type": "artifact",
+    "name": "Dialogue concerning the Two Chief World System",
+    "aliases": [
+      "Dialogue"
+    ],
+    "summary": "Book published by Galileo in 1632 reporting his theses.",
+    "subtype": "publication"
+  },
+  {
+    "id": "discourses_and_mathematical_demonstrations",
+    "entity_type": "artifact",
+    "name": "Discourses and Mathematical Demonstrations Relating Two New Sciences",
+    "aliases": [
+      "Discourses",
+      "Two New Sciences"
+    ],
+    "summary": "Book published by Galileo in 1638 confirming his views.",
+    "subtype": "publication"
+  },
+  {
+    "id": "santa_croce_church",
+    "entity_type": "place",
+    "name": "Santa Croce Church",
+    "aliases": [],
+    "summary": "Church in Florence where Galileo was buried.",
+    "subtype": "building"
+  },
+  {
+    "id": "santa_maria_minerva",
+    "entity_type": "place",
+    "name": "Santa Maria Minerva",
+    "aliases": [],
+    "summary": "Church in Rome where Galileo was tried.",
+    "subtype": "building"
+  }
+]

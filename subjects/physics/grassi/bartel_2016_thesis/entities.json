@@ -1,0 +1,145 @@
+[
+  {
+    "id": "orazio_grassi",
+    "entity_type": "person",
+    "name": "Orazio Grassi",
+    "aliases": [
+      "Father Orazio Grassi",
+      "Horatio Grassi",
+      "Lotario Sarsi"
+    ],
+    "summary": "Jesuit mathematician and astronomer who taught at the Collegio Romano and engaged in scientific controversy with Galileo Galilei.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "christopher_clavius",
+    "entity_type": "person",
+    "name": "Christopher Clavius",
+    "aliases": [
+      "Christoph Clavius",
+      "Clavius"
+    ],
+    "summary": "Jesuit mathematician and astronomer who institutionalized physico-mathematics in Jesuit education and mentored Grassi.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "galileo_galilei",
+    "entity_type": "person",
+    "name": "Galileo Galilei",
+    "aliases": [
+      "Galileo"
+    ],
+    "summary": "Italian astronomer and physicist who debated Grassi on the nature of comets and published the Assayer.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "tycho_brahe",
+    "entity_type": "person",
+    "name": "Tycho Brahe",
+    "aliases": [
+      "Tycho"
+    ],
+    "summary": "Danish astronomer whose geo-heliocentric cosmology and observations influenced Jesuit science.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "collegio_romano",
+    "entity_type": "organization",
+    "name": "Collegio Romano",
+    "aliases": [
+      "Roman College",
+      "Jesuit Roman College"
+    ],
+    "summary": "Flagship Jesuit university in Rome where Grassi studied and taught mathematics.",
+    "subtype": "university"
+  },
+  {
+    "id": "society_of_jesus",
+    "entity_type": "organization",
+    "name": "Society of Jesus",
+    "aliases": [
+      "Jesuits",
+      "Jesuit order"
+    ],
+    "summary": "Catholic religious order to which Grassi and Clavius belonged.",
+    "subtype": "organization"
+  },
+  {
+    "id": "manuscript_mathematica_1623",
+    "entity_type": "artifact",
+    "name": "Mathematica (1623 manuscript)",
+    "aliases": [
+      "Tractatus de sphaera",
+      "1623 manuscript"
+    ],
+    "summary": "Student notes from Grassi's 1623 lectures on spherical astronomy held at the University of Oklahoma.",
+    "subtype": "publication"
+  },
+  {
+    "id": "libra_astronomica",
+    "entity_type": "artifact",
+    "name": "Libra astronomica ac philosophica",
+    "aliases": [
+      "Libra"
+    ],
+    "summary": "1619 book by Grassi published under the pseudonym Lotario Sarsi debating Galileo on comets.",
+    "subtype": "publication"
+  },
+  {
+    "id": "ratio_ponderum",
+    "entity_type": "artifact",
+    "name": "Ratio ponderum librae et simbellae",
+    "aliases": [
+      "Ratio ponderum"
+    ],
+    "summary": "1626 book by Grassi responding to Galileo's Assayer.",
+    "subtype": "publication"
+  },
+  {
+    "id": "disputatio_astronomica",
+    "entity_type": "artifact",
+    "name": "Disputatio astronomica de tribus cometis anni MDCXVIII",
+    "aliases": [
+      "Disputatio astronomica"
+    ],
+    "summary": "1619 anonymous lecture publication by Grassi on the comets of 1618.",
+    "subtype": "publication"
+  },
+  {
+    "id": "de_iride",
+    "entity_type": "artifact",
+    "name": "De iride disputatio optica",
+    "aliases": [
+      "De iride"
+    ],
+    "summary": "1617 publication by Grassi on optics published under his student's name.",
+    "subtype": "publication"
+  },
+  {
+    "id": "assayer_galileo",
+    "entity_type": "artifact",
+    "name": "The Assayer",
+    "aliases": [
+      "Il saggiatore",
+      "Assayer"
+    ],
+    "summary": "1623 book by Galileo Galilei rebutting Grassi's arguments on comets.",
+    "subtype": "publication"
+  },
+  {
+    "id": "savona",
+    "entity_type": "place",
+    "name": "Savona",
+    "aliases": [],
+    "summary": "Italian city where Orazio Grassi was born.",
+    "subtype": "city"
+  },
+  {
+    "id": "rome",
+    "entity_type": "place",
+    "name": "Rome",
+    "aliases": [],
+    "summary": "City where the Collegio Romano was located and where Grassi taught.",
+    "subtype": "city"
+  }
+]

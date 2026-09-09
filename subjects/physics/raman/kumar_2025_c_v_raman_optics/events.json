@@ -1,0 +1,559 @@
+[
+  {
+    "id": "raman_birth",
+    "event_type": "birth",
+    "label": "Born in Thiruvanaikkaval",
+    "date": {
+      "display": "7th November 1888",
+      "precision": "day",
+      "sort_start": "1888-11-07",
+      "sort_end": "1888-11-07"
+    },
+    "participants": [
+      {
+        "entity_id": "c_v_raman",
+        "role": "subject"
+      }
+    ],
+    "location": "thiruvanaikkaval",
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 3,
+        "quote": "Chandrasekhara Venkata Raman (C.V. Raman) was born on 7th November 1888 in Thiruvanaikkaval in Tamil Nadu (a southern state of India), colonial India."
+      }
+    ]
+  },
+  {
+    "id": "raman_join_presidency",
+    "event_type": "education",
+    "label": "Joined Presidency College",
+    "description": "Joined at the age of 13 after primary education.",
+    "date": {
+      "display": "1901",
+      "precision": "year",
+      "sort_start": "1901-01-01",
+      "sort_end": "1901-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "c_v_raman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "presidency_college_madras",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 3,
+        "quote": "After primary education, Raman, at the age of 13, joined the Presidency College in Madras."
+      }
+    ]
+  },
+  {
+    "id": "raman_ba_degree",
+    "event_type": "education",
+    "label": "Passed BA degree",
+    "description": "Passed with first class at the age of 15.",
+    "date": {
+      "display": "1903",
+      "precision": "year",
+      "sort_start": "1903-01-01",
+      "sort_end": "1903-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "c_v_raman",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 3,
+        "quote": "At the age of 15, he passed the BA degree with first class."
+      }
+    ]
+  },
+  {
+    "id": "raman_ma_degree",
+    "event_type": "education",
+    "label": "Completed MA degree",
+    "date": {
+      "display": "1906",
+      "precision": "year",
+      "sort_start": "1906-01-01",
+      "sort_end": "1906-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "c_v_raman",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 3,
+        "quote": "By 1906, he had completed his MA degree and was contemplating traveling abroad for higher education."
+      }
+    ]
+  },
+  {
+    "id": "raman_first_paper",
+    "event_type": "publication",
+    "label": "Published first paper",
+    "description": "Title: 'Unsymmetrical diffraction bands due to a rectangular aperture', published in Philosophical Magazine.",
+    "date": {
+      "display": "1906",
+      "precision": "year",
+      "sort_start": "1906-01-01",
+      "sort_end": "1906-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "c_v_raman",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 6,
+        "quote": "The very first paper by C. V. Raman was written in the year 1906, and the title of the paper was \"Unsymmetrical diffraction bands due to a rectangular aperture\", published in Philosophical Magazine [11]."
+      }
+    ]
+  },
+  {
+    "id": "raman_marriage",
+    "event_type": "other",
+    "label": "Married Lokasundari Ammal",
+    "description": "Married before moving to Calcutta in 1907.",
+    "date": {
+      "display": "1907",
+      "precision": "year",
+      "sort_start": "1907-01-01",
+      "sort_end": "1907-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "c_v_raman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lokasundari_ammal",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 4,
+        "quote": "Before moving to Calcutta, Raman got married to Lokasundari Ammal."
+      }
+    ]
+  },
+  {
+    "id": "raman_financial_service_start",
+    "event_type": "employment_start",
+    "label": "Joined Indian Financial Service",
+    "description": "Qualified and posted as Assistant Accountant General in Calcutta.",
+    "date": {
+      "display": "1907",
+      "precision": "year",
+      "sort_start": "1907-01-01",
+      "sort_end": "1907-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "c_v_raman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "indian_financial_service",
+        "role": "employer"
+      }
+    ],
+    "location": "calcutta",
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 4,
+        "quote": "In 1907, he qualified for the Indian Financial Service and was posted as Assistant Accountant General in Calcutta (eastern part of India)."
+      }
+    ]
+  },
+  {
+    "id": "raman_professor_calcutta",
+    "event_type": "employment_start",
+    "label": "Became Professor at Calcutta University",
+    "description": "Quit Indian Financial Service and became a professor at Calcutta University and IACS.",
+    "date": {
+      "display": "1917",
+      "precision": "year",
+      "sort_start": "1917-01-01",
+      "sort_end": "1917-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "c_v_raman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "calcutta_university",
+        "role": "employer"
+      },
+      {
+        "entity_id": "indian_association_for_cultivation_of_science",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 4,
+        "quote": "In 1917, he quit the Indian Financial Service and became a professor at Calcutta University and IACS."
+      }
+    ]
+  },
+  {
+    "id": "raman_europe_voyage",
+    "event_type": "visit",
+    "label": "Voyage to Europe",
+    "description": "Observed the blue colour of the Mediterranean Sea, inspiring light scattering research.",
+    "date": {
+      "display": "summer of 1921",
+      "precision": "range",
+      "sort_start": "1921-06-01",
+      "sort_end": "1921-08-31"
+    },
+    "participants": [
+      {
+        "entity_id": "c_v_raman",
+        "role": "subject"
+      }
+    ],
+    "location": "europe",
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 8,
+        "quote": "A voyage to Europe in the summer of 1921 gave me the first opportunity of observing the wonderful blue opalescence of the Mediterranean Sea."
+      }
+    ]
+  },
+  {
+    "id": "raman_amorphous_solids_paper",
+    "event_type": "publication",
+    "label": "Published paper on amorphous solids",
+    "description": "Paper in the Journal of the Optical Society of America on scattering of light in amorphous solids.",
+    "date": {
+      "display": "1927",
+      "precision": "year",
+      "sort_start": "1927-01-01",
+      "sort_end": "1927-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "c_v_raman",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 13,
+        "quote": "In 1927, Raman wrote a research paper in the Journal of the Optical Society of America [33], which was then co-published with Review of Scientific Instruments (see figure 3)."
+      }
+    ]
+  },
+  {
+    "id": "raman_effect_discovery",
+    "event_type": "invention",
+    "label": "Discovery of the Raman Effect",
+    "description": "Announced the inelastic scattering process for visible light.",
+    "date": {
+      "display": "1928",
+      "precision": "year",
+      "sort_start": "1928-01-01",
+      "sort_end": "1928-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "c_v_raman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "k_s_krishnan",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "raman_effect",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 11,
+        "quote": "The year 1928 is an important one in the context of the discovery of the Raman Effect."
+      }
+    ]
+  },
+  {
+    "id": "raman_nobel_prize",
+    "event_type": "award",
+    "label": "Won Nobel Prize in Physics",
+    "date": {
+      "display": "1930",
+      "precision": "year",
+      "sort_start": "1930-01-01",
+      "sort_end": "1930-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "c_v_raman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize_physics_1930",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 4,
+        "quote": "He went on to win a Nobel Prize in Physics in 1930."
+      }
+    ]
+  },
+  {
+    "id": "raman_iisc_director",
+    "event_type": "employment_start",
+    "label": "Appointed Director of IISc",
+    "description": "Appointed as Director (the first Indian) of the Indian Institute of Science at Bangalore.",
+    "date": {
+      "display": "1933",
+      "precision": "year",
+      "sort_start": "1933-01-01",
+      "sort_end": "1933-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "c_v_raman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "indian_institute_of_science",
+        "role": "employer"
+      }
+    ],
+    "location": "bangalore",
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 4,
+        "quote": "In 1933, Raman was appointed as Director (the first Indian) of the Indian Institute of Science (IISc) at Bangalore."
+      }
+    ]
+  },
+  {
+    "id": "raman_quit_iisc_director",
+    "event_type": "role_change",
+    "label": "Quit Directorship of IISc",
+    "description": "Quit the directorship and continued as a professor at the same place.",
+    "date": {
+      "display": "mid-1937",
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1937-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "c_v_raman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "indian_institute_of_science",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 4,
+        "quote": "In mid-1937, he quit the directorship of IISc and continued as a professor at the same place till 1948."
+      }
+    ]
+  },
+  {
+    "id": "raman_acousto_optics_papers",
+    "event_type": "publication",
+    "label": "Published acousto-optics papers",
+    "description": "Series of five papers with Nagendra Nath on diffraction of light by sound.",
+    "date": {
+      "display": "1935-1936",
+      "precision": "range",
+      "sort_start": "1935-01-01",
+      "sort_end": "1936-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "c_v_raman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nagendra_nath",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 18,
+        "quote": "Raman and Nagendra Nath wrote a series of five papers [38–43] mainly discussing the theoretical model of diffraction of light by sound."
+      }
+    ]
+  },
+  {
+    "id": "raman_diamond_paper",
+    "event_type": "publication",
+    "label": "Published paper on diamond physics",
+    "description": "Recorded the famous 1332 cm-1 line of the diamond.",
+    "date": {
+      "display": "1942",
+      "precision": "year",
+      "sort_start": "1942-01-01",
+      "sort_end": "1942-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "c_v_raman",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 18,
+        "quote": "Among the many crystals that he studied, he took special interest in diamond [46]."
+      }
+    ]
+  },
+  {
+    "id": "raman_speckles_observation",
+    "event_type": "other",
+    "label": "Speckle phenomenon observed",
+    "description": "Ramachandran from Raman's group reported on optical fluctuation arising from disordered structures.",
+    "date": {
+      "display": "1943",
+      "precision": "year",
+      "sort_start": "1943-01-01",
+      "sort_end": "1943-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "c_v_raman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "g_n_ramachandran",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 20,
+        "quote": "In the year 1943, Ramachandran from Raman's group at IISc, reported a series of papers [51–53] related to optical fluctuation arising from disordered structures."
+      }
+    ]
+  },
+  {
+    "id": "raman_rri_director",
+    "event_type": "employment_start",
+    "label": "Became Director of Raman Research Institute",
+    "date": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "c_v_raman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "raman_research_institute",
+        "role": "employer"
+      }
+    ],
+    "location": "bangalore",
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 4,
+        "quote": "From 1948 to 1970, Raman was the Director of the Raman Research Institute at Bangalore."
+      }
+    ]
+  },
+  {
+    "id": "raman_vision_monograph",
+    "event_type": "publication",
+    "label": "Published The Physiology of Vision",
+    "description": "Monograph culminating his work on colour and human vision.",
+    "date": {
+      "display": "1968",
+      "precision": "year",
+      "sort_start": "1968-01-01",
+      "sort_end": "1968-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "c_v_raman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "physiology_of_vision_monograph",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 22,
+        "quote": "This led to a series of papers related to this topic and eventually culminated in a monograph titled \"The Physiology of Vision\" [55]."
+      }
+    ]
+  },
+  {
+    "id": "raman_death",
+    "event_type": "death",
+    "label": "Died in Bangalore",
+    "date": {
+      "display": "21st November 1970",
+      "precision": "day",
+      "sort_start": "1970-11-21",
+      "sort_end": "1970-11-21"
+    },
+    "participants": [
+      {
+        "entity_id": "c_v_raman",
+        "role": "subject"
+      }
+    ],
+    "location": "bangalore",
+    "sources": [
+      {
+        "source_id": "kumar_2025_c_v_raman_optics",
+        "page": 4,
+        "quote": "Raman passed away on 21st November 1970 in Bangalore."
+      }
+    ]
+  }
+]

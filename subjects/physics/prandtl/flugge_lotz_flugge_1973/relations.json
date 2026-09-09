@@ -1,0 +1,136 @@
+[
+  {
+    "id": "prandtl_worked_gottingen",
+    "source": "ludwig_prandtl",
+    "type": "worked_at",
+    "target": "university_of_gottingen",
+    "event_id": "prandtl_professor_gottingen",
+    "sources": [
+      {
+        "source_id": "flugge_lotz_flugge_1973",
+        "page": 3,
+        "quote": "Prandtl had started his work in Gottingen early in the century as a full professor of the University"
+      }
+    ]
+  },
+  {
+    "id": "prandtl_directed_kwi",
+    "source": "ludwig_prandtl",
+    "type": "worked_at",
+    "target": "kaiser_wilhelm_institut",
+    "sources": [
+      {
+        "source_id": "flugge_lotz_flugge_1973",
+        "page": 3,
+        "quote": "In the KWI... Prandtl was the only boss"
+      }
+    ]
+  },
+  {
+    "id": "prandtl_directed_ava",
+    "source": "ludwig_prandtl",
+    "type": "worked_at",
+    "target": "aerodynamische_versuchsanstalt",
+    "sources": [
+      {
+        "source_id": "flugge_lotz_flugge_1973",
+        "page": 3,
+        "quote": "The Institute for Fluid Dynamics, where Prandtl did most of his work, consisted of two sem-independent parts: the Kaiser-Wilhelm-Institut (KWI) and the Aerodynamische Versuchsanstalt (AVA)"
+      }
+    ]
+  },
+  {
+    "id": "betz_collaborated_prandtl",
+    "source": "a_betz",
+    "type": "collaborated_with",
+    "target": "ludwig_prandtl",
+    "event_id": "betz_start_work_prandtl",
+    "sources": [
+      {
+        "source_id": "flugge_lotz_flugge_1973",
+        "page": 2,
+        "quote": "Professor A. Betz, who had been working with L. Prandtl since 1911"
+      }
+    ]
+  },
+  {
+    "id": "betz_managed_ava",
+    "source": "a_betz",
+    "type": "worked_at",
+    "target": "aerodynamische_versuchsanstalt",
+    "sources": [
+      {
+        "source_id": "flugge_lotz_flugge_1973",
+        "page": 3,
+        "quote": "he had delegated command to A. Betz"
+      }
+    ]
+  },
+  {
+    "id": "flugge_lots_worked_gottingen",
+    "source": "irmgard_flugge_lots",
+    "type": "worked_at",
+    "target": "university_of_gottingen",
+    "event_id": "flugge_lots_arrival_gottingen",
+    "sources": [
+      {
+        "source_id": "flugge_lotz_flugge_1973",
+        "page": 2,
+        "quote": "I. F.-L. arrived in Gottingen in 1929"
+      }
+    ]
+  },
+  {
+    "id": "prandtl_married_mrs_prandtl",
+    "source": "ludwig_prandtl",
+    "type": "married_to",
+    "target": "mrs_prandtl",
+    "sources": [
+      {
+        "source_id": "flugge_lotz_flugge_1973",
+        "page": 2,
+        "quote": "Mrs. Prandtl, Ludwig FOpp]'Sl daughter"
+      }
+    ]
+  },
+  {
+    "id": "mrs_prandtl_daughter_foppl",
+    "source": "mrs_prandtl",
+    "type": "family_of",
+    "target": "ludwig_foppl",
+    "sources": [
+      {
+        "source_id": "flugge_lotz_flugge_1973",
+        "page": 2,
+        "quote": "Mrs. Prandtl, Ludwig FOpp]'Sl daughter"
+      }
+    ]
+  },
+  {
+    "id": "millikan_visited_gottingen",
+    "source": "clark_millikan",
+    "type": "visited",
+    "target": "university_of_gottingen",
+    "sources": [
+      {
+        "source_id": "flugge_lotz_flugge_1973",
+        "page": 6,
+        "quote": "Among many others, Clark Millikan spent a year at Gottingen"
+      }
+    ]
+  },
+  {
+    "id": "rockefeller_funded_math_institute",
+    "source": "rockefeller_foundation",
+    "type": "licensed_to",
+    "target": "mathematics_institute_gottingen",
+    "note": "Funded the building",
+    "sources": [
+      {
+        "source_id": "flugge_lotz_flugge_1973",
+        "page": 3,
+        "quote": "The seminars took place in the Mathematics Institute, built largely with money given by the Rockefeller Foundation"
+      }
+    ]
+  }
+]

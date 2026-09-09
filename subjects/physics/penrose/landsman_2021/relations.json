@@ -1,0 +1,94 @@
+[
+  {
+    "id": "penrose_awarded_nobel",
+    "source": "roger_penrose",
+    "type": "awarded",
+    "target": "nobel_prize_physics_2020",
+    "event_id": "penrose_nobel_2020",
+    "sources": [
+      {
+        "source_id": "landsman_2021",
+        "page": 2,
+        "quote": "Roger Penrose got half of the 2020 Physics Nobel Prize 'for the discovery that black hole formation is a robust prediction of the general theory of relativity'."
+      }
+    ]
+  },
+  {
+    "id": "penrose_studied_cambridge",
+    "source": "roger_penrose",
+    "type": "studied_at",
+    "target": "cambridge_university",
+    "sources": [
+      {
+        "source_id": "landsman_2021",
+        "page": 11,
+        "quote": "Since Penrose started in algebraic geometry as a PhD student of Hodge in Cambridge, he was undoubtedly influenced by the theory of Riemann surfaces in finding this concept (like Weyl, as mentioned in the historical introduction)."
+      }
+    ]
+  },
+  {
+    "id": "penrose_collaborated_hawking",
+    "source": "roger_penrose",
+    "type": "collaborated_with",
+    "target": "stephen_hawking",
+    "sources": [
+      {
+        "source_id": "landsman_2021",
+        "page": 2,
+        "quote": "This prize was well deserved, since, jointly with Hawking and others, Penrose has shaped our (mathematical) thinking about general relativity ( gr) and black holes since the 1960s–1970s."
+      }
+    ]
+  },
+  {
+    "id": "penrose_developed_censorship",
+    "source": "roger_penrose",
+    "type": "developed",
+    "target": "cosmic_censorship_conjecture",
+    "sources": [
+      {
+        "source_id": "landsman_2021",
+        "page": 2,
+        "quote": "To overcome this, Penrose launched his cosmic censorship conjecture(s), whose evolution we discuss."
+      }
+    ]
+  },
+  {
+    "id": "penrose_developed_theorem",
+    "source": "roger_penrose",
+    "type": "developed",
+    "target": "singularity_theorem",
+    "sources": [
+      {
+        "source_id": "landsman_2021",
+        "page": 2,
+        "quote": "His 1965 singularity theorem (for which he got the prize) does not in fact imply the existence of black holes (even if its assumptions are met)."
+      }
+    ]
+  },
+  {
+    "id": "penrose_developed_diagrams",
+    "source": "roger_penrose",
+    "type": "developed",
+    "target": "penrose_diagrams",
+    "sources": [
+      {
+        "source_id": "landsman_2021",
+        "page": 11,
+        "quote": "The analysis of such space–times is greatly facilitated by Penrose's conformal diagrams, now called Penrose diagrams."
+      }
+    ]
+  },
+  {
+    "id": "landsman_works_radboud",
+    "source": "klaas_landsman",
+    "type": "worked_at",
+    "target": "radboud_university",
+    "sources": [
+      {
+        "source_id": "landsman_2021",
+        "page": 2,
+        "quote": "1 Department of Mathematics, Radboud University, Nijmegen, The Netherlands"
+      }
+    ]
+  }
+]

@@ -1,0 +1,277 @@
+[
+  {
+    "id": "wheeler_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "9 July 1911",
+      "precision": "day",
+      "sort_start": "1911-07-09",
+      "sort_end": "1911-07-09"
+    },
+    "participants": [
+      {
+        "entity_id": "john_archibald_wheeler",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "misner_2009_obituary",
+        "page": 675,
+        "quote": "John Archibald Wheeler (9 July 1911–13 April 2008)"
+      }
+    ]
+  },
+  {
+    "id": "wheeler_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "13 April 2008",
+      "precision": "day",
+      "sort_start": "2008-04-13",
+      "sort_end": "2008-04-13"
+    },
+    "participants": [
+      {
+        "entity_id": "john_archibald_wheeler",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "misner_2009_obituary",
+        "page": 675,
+        "quote": "John Archibald Wheeler (9 July 1911–13 April 2008)"
+      }
+    ]
+  },
+  {
+    "id": "wheeler_princeton_gr_course",
+    "event_type": "employment_start",
+    "label": "Taught first General Relativity course at Princeton",
+    "date": {
+      "display": "spring of 1952",
+      "precision": "month",
+      "sort_start": "1952-03-01",
+      "sort_end": "1952-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_archibald_wheeler",
+        "role": "subject"
+      },
+      {
+        "entity_id": "princeton_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "misner_2009_obituary",
+        "page": 675,
+        "quote": "from the time he taught his first course in General Relativity at Princeton in the spring of 1952"
+      }
+    ]
+  },
+  {
+    "id": "wheeler_wormhole_paper_submitted",
+    "event_type": "publication",
+    "label": "Wormhole sketch paper submitted to Physical Review",
+    "description": "Paper introducing charge without charge concept via non-trivial spacetime topologies.",
+    "date": {
+      "display": "September 1954",
+      "precision": "month",
+      "sort_start": "1954-09-01",
+      "sort_end": "1954-09-30"
+    },
+    "participants": [
+      {
+        "entity_id": "john_archibald_wheeler",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "misner_2009_obituary",
+        "page": 676,
+        "quote": "His \"wormhole\" sketch first appeared in a Phys. Rev. paper (v97, pp 511–536) submitted in September 1954"
+      }
+    ]
+  },
+  {
+    "id": "misner_phd_advicee",
+    "event_type": "other",
+    "label": "Misner signed on as Wheeler's Ph.D. advisee",
+    "date": {
+      "display": "September 1954",
+      "precision": "month",
+      "sort_start": "1954-09-01",
+      "sort_end": "1954-09-30"
+    },
+    "participants": [
+      {
+        "entity_id": "charles_w_misner",
+        "role": "subject"
+      },
+      {
+        "entity_id": "john_archibald_wheeler",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "misner_2009_obituary",
+        "page": 676,
+        "quote": "the month that I signed on as his Ph.D. advisee"
+      }
+    ]
+  },
+  {
+    "id": "wheeler_leiden_visit",
+    "event_type": "visit",
+    "label": "Went to Leiden",
+    "date": {
+      "display": "February 1956",
+      "precision": "month",
+      "sort_start": "1956-02-01",
+      "sort_end": "1956-02-29"
+    },
+    "participants": [
+      {
+        "entity_id": "john_archibald_wheeler",
+        "role": "subject"
+      },
+      {
+        "entity_id": "charles_w_misner",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "joseph_weber",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "peter_putnam",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "leiden_university",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "misner_2009_obituary",
+        "page": 676,
+        "quote": "By the time we went to Leiden in February 1956"
+      }
+    ]
+  },
+  {
+    "id": "wheeler_lorentz_professor",
+    "event_type": "employment_start",
+    "label": "Lorentz Professor in Leiden",
+    "date": {
+      "display": "spring and summer terms of 1956",
+      "precision": "range",
+      "sort_start": "1956-03-01",
+      "sort_end": "1956-08-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_archibald_wheeler",
+        "role": "subject"
+      },
+      {
+        "entity_id": "leiden_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "misner_2009_obituary",
+        "page": 676,
+        "quote": "Invited to spend the spring and summer terms of 1956 as Lorentz Professor in Leiden, Holland"
+      }
+    ]
+  },
+  {
+    "id": "chapel_hill_conference",
+    "event_type": "conference",
+    "label": "Chapel Hill conference (GR1)",
+    "description": "Conference organized by Cecile and Bryce DeWitt that made Wheeler's 1955-1956 activity visible.",
+    "date": {
+      "display": "January 1957",
+      "precision": "month",
+      "sort_start": "1957-01-01",
+      "sort_end": "1957-01-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_archibald_wheeler",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "misner_2009_obituary",
+        "page": 676,
+        "quote": "Following the Chapel Hill conference (\"GR1\", organized by Cecile and Bryce DeWitt) in January 1957"
+      }
+    ]
+  },
+  {
+    "id": "rmp_july_1957",
+    "event_type": "publication",
+    "label": "Reviews of Modern Physics issue with Wheeler group papers",
+    "description": "July 1957 issue containing nine articles from Wheeler's group including papers by Lindquist-Wheeler and Weber-Wheeler.",
+    "date": {
+      "display": "July 1957",
+      "precision": "month",
+      "sort_start": "1957-07-01",
+      "sort_end": "1957-07-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_archibald_wheeler",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "misner_2009_obituary",
+        "page": 676,
+        "quote": "The July 1957 issue of Reviews of Modern Physics (v 29, pp 351–546) contains, among others from this conference, nine articles from Wheeler's group"
+      }
+    ]
+  },
+  {
+    "id": "wheeler_move_to_texas",
+    "event_type": "relocation",
+    "label": "Moved to Texas",
+    "date": {
+      "display": "1976",
+      "precision": "year",
+      "sort_start": "1976-01-01",
+      "sort_end": "1976-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_archibald_wheeler",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_texas",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "misner_2009_obituary",
+        "page": 675,
+        "quote": "until his focus changed as he moved to Texas in 1976"
+      }
+    ]
+  }
+]

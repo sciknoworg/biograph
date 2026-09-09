@@ -1,0 +1,177 @@
+[
+  {
+    "id": "penrose_nobel_2020",
+    "event_type": "award",
+    "label": "Awarded Nobel Prize in Physics",
+    "description": "Received half of the 2020 Physics Nobel Prize for black hole formation discovery.",
+    "date": {
+      "display": "2020",
+      "precision": "year",
+      "sort_start": "2020-01-01",
+      "sort_end": "2020-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "roger_penrose",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize_physics_2020",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "landsman_2021",
+        "page": 2,
+        "quote": "Roger Penrose got half of the 2020 Physics Nobel Prize 'for the discovery that black hole formation is a robust prediction of the general theory of relativity'."
+      }
+    ]
+  },
+  {
+    "id": "penrose_1965_publication",
+    "event_type": "publication",
+    "label": "Published singularity theorem paper",
+    "description": "Published the 1965 singularity theorem paper.",
+    "date": {
+      "display": "1965",
+      "precision": "year",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "roger_penrose",
+        "role": "subject"
+      },
+      {
+        "entity_id": "penrose_1965_paper",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "landsman_2021",
+        "page": 2,
+        "quote": "His 1965 singularity theorem (for which he got the prize) does not in fact imply the existence of black holes (even if its assumptions are met)."
+      }
+    ]
+  },
+  {
+    "id": "penrose_1969_publication",
+    "event_type": "publication",
+    "label": "Published gravitational collapse paper",
+    "description": "Published paper using the term 'black hole' and defining absolute event horizon.",
+    "date": {
+      "display": "1969",
+      "precision": "year",
+      "sort_start": "1969-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "roger_penrose",
+        "role": "subject"
+      },
+      {
+        "entity_id": "penrose_1969_paper",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "landsman_2021",
+        "page": 31,
+        "quote": "Penrose [147] does use the term 'black hole' (the first use of it I know in the general relativity literature, though it reportedly was used in the early 1960s by Dicke in discussion with a popular science writer), but he always encloses it in scare quotes, leading me to believe that the name and the general concept both were still inchoate."
+      }
+    ]
+  },
+  {
+    "id": "penrose_1979_publication",
+    "event_type": "publication",
+    "label": "Published cosmic censorship formulation",
+    "description": "Published precise mathematical version of cosmic censorship.",
+    "date": {
+      "display": "1979",
+      "precision": "year",
+      "sort_start": "1979-01-01",
+      "sort_end": "1979-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "roger_penrose",
+        "role": "subject"
+      },
+      {
+        "entity_id": "penrose_1979_paper",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "landsman_2021",
+        "page": 6,
+        "quote": "Following Penrose [149] we give a precise mathematical version in Sect. 2, but in any case it should be clear that in order to prove the existence of black holes from suitable assumptions one needs both Penrose's singularity theorem (which gives at least some kind of singularity) and the weak cosmic censorship hypothesis (which gives the event horizon): the latter is the missing link between theorem and reality."
+      }
+    ]
+  },
+  {
+    "id": "nijmegen_seminar_2020",
+    "event_type": "conference",
+    "label": "Honorary seminar at Nijmegen",
+    "description": "Seminar in honour of Penrose and his Nobel Prize.",
+    "date": {
+      "display": "October 28th, 2020",
+      "precision": "day",
+      "sort_start": "2020-10-28",
+      "sort_end": "2020-10-28"
+    },
+    "location": "radboud_university",
+    "participants": [
+      {
+        "entity_id": "roger_penrose",
+        "role": "subject"
+      },
+      {
+        "entity_id": "klaas_landsman",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "landsman_2021",
+        "page": 32,
+        "quote": "This paper grew out of a seminar in honour of Roger Penrose and his Nobel Prize at Nijmegen on October 28th, 2020, at the kind invitation of Timothy Budd."
+      }
+    ]
+  },
+  {
+    "id": "landsman_2021_publication",
+    "event_type": "publication",
+    "label": "Published tribute article",
+    "description": "Published the tribute article in Foundations of Physics.",
+    "date": {
+      "display": "2021",
+      "precision": "year",
+      "sort_start": "2021-01-01",
+      "sort_end": "2021-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "klaas_landsman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "foundations_of_physics",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "landsman_2021",
+        "page": 2,
+        "quote": "Foundations of Physics           (2021) 51:42"
+      }
+    ]
+  }
+]

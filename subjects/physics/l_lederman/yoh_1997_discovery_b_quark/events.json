@@ -1,0 +1,234 @@
+[
+  {
+    "id": "lederman_brookhaven_dimuon_1968",
+    "event_type": "invention",
+    "label": "Initiated Brookhaven dimuon experiment",
+    "description": "Leon Lederman and collaborators initiated experiments looking at single muons, then dimuons.",
+    "date": {
+      "display": "1968",
+      "precision": "year",
+      "sort_start": "1968-01-01",
+      "sort_end": "1968-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "leon_lederman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "brookhaven_national_laboratory",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yoh_1997_discovery_b_quark",
+        "page": 1,
+        "quote": "In the mid-sixties, Leon Lederman and his collaborators initiated a series of experiments looking first at single muons, then dimuons."
+      }
+    ]
+  },
+  {
+    "id": "lederman_proposal_e70_1970",
+    "event_type": "publication",
+    "label": "Proposed E70/E288/E494 experiments",
+    "description": "The series of experiments was proposed by Leon and his collaborators.",
+    "date": {
+      "display": "June 17, 1970",
+      "precision": "day",
+      "sort_start": "1970-06-17",
+      "sort_end": "1970-06-17"
+    },
+    "participants": [
+      {
+        "entity_id": "leon_lederman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "fermilab",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yoh_1997_discovery_b_quark",
+        "page": 1,
+        "quote": "The series of experiments E70/E288/E494 was proposed by Leon and his collaborators on June 17, 1970."
+      }
+    ]
+  },
+  {
+    "id": "lederman_proposal_e288_1974",
+    "event_type": "publication",
+    "label": "Proposal #288 to Fermilab management",
+    "description": "Proposal titled 'A Study of Di-Lepton Production in Proton Collisions at NAL'.",
+    "date": {
+      "display": "February of 1974",
+      "precision": "month",
+      "sort_start": "1974-02-01",
+      "sort_end": "1974-02-28"
+    },
+    "participants": [
+      {
+        "entity_id": "leon_lederman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "fermilab",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yoh_1997_discovery_b_quark",
+        "page": 1,
+        "quote": "Proposal # 288 to the Fermilab management, \\A Study of Di-Lepton Production in Proton Collisions at NAL,\" was dated February of 1974."
+      }
+    ]
+  },
+  {
+    "id": "lederman_memo_dimuons_1975",
+    "event_type": "publication",
+    "label": "Memo on dimuons without movable filter",
+    "description": "Leon's memo starting with 'We propose to do dimuons without a movable filter'.",
+    "date": {
+      "display": "2/12/75",
+      "precision": "day",
+      "sort_start": "1975-02-12",
+      "sort_end": "1975-02-12"
+    },
+    "participants": [
+      {
+        "entity_id": "leon_lederman",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yoh_1997_discovery_b_quark",
+        "page": 1,
+        "quote": "Leon's 2/12/75 memo starting with the words \\We propose to do dimuons without a movable filter using fixed beryllium filter to attenuate hadrons.\""
+      }
+    ]
+  },
+  {
+    "id": "lederman_white_paper_1976",
+    "event_type": "publication",
+    "label": "Signed Super 288 White Paper",
+    "description": "White Paper signed by Leon and Taiji.",
+    "date": {
+      "display": "January 28, 1976",
+      "precision": "day",
+      "sort_start": "1976-01-28",
+      "sort_end": "1976-01-28"
+    },
+    "participants": [
+      {
+        "entity_id": "leon_lederman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "taiji_yamanouchi",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yoh_1997_discovery_b_quark",
+        "page": 1,
+        "quote": "The \\Super 288 White Paper,\" signed by Leon and Taiji, dated January 28, 1976."
+      }
+    ]
+  },
+  {
+    "id": "upsilon_hint_1976",
+    "event_type": "other",
+    "label": "First hint of Upsilon",
+    "description": "Clustering of events near 9.5GeV noticed in dielectron data.",
+    "date": {
+      "display": "November 1976",
+      "precision": "month",
+      "sort_start": "1976-11-01",
+      "sort_end": "1976-11-30"
+    },
+    "participants": [
+      {
+        "entity_id": "leon_lederman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "e288_experiment",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yoh_1997_discovery_b_quark",
+        "page": 1,
+        "quote": "We found the first evidence of the in November 1976 in an early phase of E288."
+      }
+    ]
+  },
+  {
+    "id": "upsilon_discovery_1977",
+    "event_type": "invention",
+    "label": "Discovery of Upsilon particle",
+    "description": "Discovery announced at Fermilab, PRL paper submitted.",
+    "date": {
+      "display": "June 30th, 1977",
+      "precision": "day",
+      "sort_start": "1977-06-30",
+      "sort_end": "1977-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "leon_lederman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "steve_herb",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "upsilon_particle",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yoh_1997_discovery_b_quark",
+        "page": 1,
+        "quote": "On June 30th, 1977, Steve Herb announced the discovery at Fermilab."
+      }
+    ]
+  },
+  {
+    "id": "lederman_fermilab_director_1977",
+    "event_type": "role_change",
+    "label": "Offered directorship of Fermilab",
+    "description": "Leon was given an offer he couldn't refuse - directorship of Fermilab.",
+    "date": {
+      "display": "Late 1977",
+      "precision": "year",
+      "sort_start": "1977-09-01",
+      "sort_end": "1977-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "leon_lederman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "fermilab",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yoh_1997_discovery_b_quark",
+        "page": 1,
+        "quote": "Unfortunately, soon after the experiment was approved, Leon was given an offer he couldn't refuse | directorship of Fermilab."
+      }
+    ]
+  }
+]

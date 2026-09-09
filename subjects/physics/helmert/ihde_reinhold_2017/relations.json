@@ -1,0 +1,161 @@
+[
+  {
+    "id": "helmert_born_freiberg",
+    "source": "helmert_friedrich_robert",
+    "type": "born_in",
+    "target": "freiberg",
+    "sources": [
+      {
+        "source_id": "ihde_reinhold_2017",
+        "page": 2,
+        "quote": "Friedrich Robert Helmert was born on 31 July 1843 in Freiberg, Saxony."
+      }
+    ]
+  },
+  {
+    "id": "helmert_studied_dresden",
+    "source": "helmert_friedrich_robert",
+    "type": "studied_at",
+    "target": "dresden_polytechnic",
+    "sources": [
+      {
+        "source_id": "ihde_reinhold_2017",
+        "page": 2,
+        "quote": "I transferred to the Polytechnic College of Dresden on Easter of 1859"
+      }
+    ]
+  },
+  {
+    "id": "helmert_studied_leipzig",
+    "source": "helmert_friedrich_robert",
+    "type": "studied_at",
+    "target": "leipzig_university",
+    "sources": [
+      {
+        "source_id": "ihde_reinhold_2017",
+        "page": 3,
+        "quote": "I departed on Michaelmas day of 1866 to go for one year to Leipzig to further perfect my knowledge of mathematics, astronomy and other disciplines of general interest"
+      }
+    ]
+  },
+  {
+    "id": "helmert_worked_hamburg",
+    "source": "helmert_friedrich_robert",
+    "type": "worked_at",
+    "target": "hamburg_observatory",
+    "sources": [
+      {
+        "source_id": "ihde_reinhold_2017",
+        "page": 5,
+        "quote": "In early 1869 took up his post as an observer at the Hamburg Observatory."
+      }
+    ]
+  },
+  {
+    "id": "helmert_worked_aachen",
+    "source": "helmert_friedrich_robert",
+    "type": "worked_at",
+    "target": "aachen_polytechnic",
+    "sources": [
+      {
+        "source_id": "ihde_reinhold_2017",
+        "page": 6,
+        "quote": "From the founding of the Royal Rhine-Westphalia Polytechnic College in Aachen in the 1870–1871 winter semester until the end of 1885, Helmert served as an \"Ordinarius\""
+      }
+    ]
+  },
+  {
+    "id": "helmert_worked_rpgi",
+    "source": "helmert_friedrich_robert",
+    "type": "worked_at",
+    "target": "rpgi",
+    "event_id": "helmert_rpgi_director_start",
+    "sources": [
+      {
+        "source_id": "ihde_reinhold_2017",
+        "page": 7,
+        "quote": "He took up this position, initially in a provisional capacity, on 1 January 1886."
+      }
+    ]
+  },
+  {
+    "id": "helmert_member_prussian_academy",
+    "source": "helmert_friedrich_robert",
+    "type": "member_of",
+    "target": "prussian_academy",
+    "event_id": "helmert_academy_full_member",
+    "sources": [
+      {
+        "source_id": "ihde_reinhold_2017",
+        "page": 10,
+        "quote": "At the plenary session held on 7 December 1899, Helmert received white balls from all 30 electors and the approval to join the academy of Sciences as a full member."
+      }
+    ]
+  },
+  {
+    "id": "helmert_published_math_physical_theories",
+    "source": "helmert_friedrich_robert",
+    "type": "published",
+    "target": "math_physical_theories_geodesy",
+    "sources": [
+      {
+        "source_id": "ihde_reinhold_2017",
+        "page": 1,
+        "quote": "the two volumes of 1880 and 1884 since translated into English as Mathematical and Physical Theories of Higher Geodesy."
+      }
+    ]
+  },
+  {
+    "id": "helmert_developed_potsdam_gravity_system",
+    "source": "helmert_friedrich_robert",
+    "type": "developed",
+    "target": "potsdam_gravity_system",
+    "sources": [
+      {
+        "source_id": "ihde_reinhold_2017",
+        "page": 11,
+        "quote": "he can still rightfully be called the \"father\" of the Potsdam Gravity System"
+      }
+    ]
+  },
+  {
+    "id": "helmert_died_potsdam",
+    "source": "helmert_friedrich_robert",
+    "type": "died_in",
+    "target": "potsdam",
+    "event_id": "helmert_death",
+    "sources": [
+      {
+        "source_id": "ihde_reinhold_2017",
+        "page": 1,
+        "quote": "Friedrich Robert Helmert died in Potsdam on 15 June 1917."
+      }
+    ]
+  },
+  {
+    "id": "helmert_mentored_nagel",
+    "source": "helmert_friedrich_robert",
+    "type": "supervised_by",
+    "target": "nagel_christian_august",
+    "sources": [
+      {
+        "source_id": "ihde_reinhold_2017",
+        "page": 2,
+        "quote": "an inclination that was recognised and encouraged by his teacher, Prof. Christian August Nagel"
+      }
+    ]
+  },
+  {
+    "id": "helmert_collaborated_bruns",
+    "source": "helmert_friedrich_robert",
+    "type": "collaborated_with",
+    "target": "bruns_ernst_heinrich",
+    "sources": [
+      {
+        "source_id": "ihde_reinhold_2017",
+        "page": 7,
+        "quote": "Helmert was of course familiar with the work of Bruns."
+      }
+    ]
+  }
+]

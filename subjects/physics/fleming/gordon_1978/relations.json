@@ -1,0 +1,136 @@
+[
+  {
+    "id": "fleming_worked_hco",
+    "source": "williamina_fleming",
+    "type": "worked_at",
+    "target": "harvard_college_observatory",
+    "sources": [
+      {
+        "source_id": "gordon_1978",
+        "page": 24,
+        "quote": "devoted the rest of her life to the Harvard College Observatory."
+      }
+    ]
+  },
+  {
+    "id": "fleming_employed_pickering",
+    "source": "williamina_fleming",
+    "type": "employed_by",
+    "target": "edward_pickering",
+    "event_id": "fleming_observatory_start",
+    "sources": [
+      {
+        "source_id": "gordon_1978",
+        "page": 24,
+        "quote": "Professor Pickering recognized her intelligence and offered her work at the Observatory"
+      }
+    ]
+  },
+  {
+    "id": "fleming_supervised_women",
+    "source": "williamina_fleming",
+    "type": "supervised_by",
+    "target": "edward_pickering",
+    "note": "Fleming supervised women working on the Henry Draper Memorial",
+    "sources": [
+      {
+        "source_id": "gordon_1978",
+        "page": 24,
+        "quote": "Fleming supervised the women working on the Henry Draper Memorial"
+      }
+    ]
+  },
+  {
+    "id": "pickering_director_hco",
+    "source": "edward_pickering",
+    "type": "worked_at",
+    "target": "harvard_college_observatory",
+    "sources": [
+      {
+        "source_id": "gordon_1978",
+        "page": 24,
+        "quote": "appointed physicist Edward C. Pickering director of the Harvard College Observatory in 1876."
+      }
+    ]
+  },
+  {
+    "id": "fleming_prepared_catalogue",
+    "source": "williamina_fleming",
+    "type": "published",
+    "target": "draper_catalogue_1890",
+    "event_id": "draper_catalogue_1890",
+    "sources": [
+      {
+        "source_id": "gordon_1978",
+        "page": 24,
+        "quote": "Draper Catalogue of Stellar Spectra (1890), was prepared by Fleming."
+      }
+    ]
+  },
+  {
+    "id": "fleming_fellow_ras",
+    "source": "williamina_fleming",
+    "type": "member_of",
+    "target": "royal_astronomical_society",
+    "sources": [
+      {
+        "source_id": "gordon_1978",
+        "page": 25,
+        "quote": "Williamina Fleming was the first American woman, and sixth woman, to become an honorary fellow of Britain's Royal Astronomical Society"
+      }
+    ]
+  },
+  {
+    "id": "cannon_succeeded_fleming",
+    "source": "annie_jump_cannon",
+    "type": "worked_at",
+    "target": "harvard_college_observatory",
+    "note": "Cannon was Fleming's successor",
+    "sources": [
+      {
+        "source_id": "gordon_1978",
+        "page": 25,
+        "quote": "Annie Jump Cannon (1863-1941), Fleming's successor"
+      }
+    ]
+  },
+  {
+    "id": "maury_worked_hco",
+    "source": "antonia_maury",
+    "type": "worked_at",
+    "target": "harvard_college_observatory",
+    "sources": [
+      {
+        "source_id": "gordon_1978",
+        "page": 24,
+        "quote": "Part of the second catalogue was prepared by Antonia Maury"
+      }
+    ]
+  },
+  {
+    "id": "leavitt_worked_hco",
+    "source": "henrietta_leavitt",
+    "type": "worked_at",
+    "target": "harvard_college_observatory",
+    "sources": [
+      {
+        "source_id": "gordon_1978",
+        "page": 25,
+        "quote": "Henrietta Swann Leavitt (1868-1921) began in 1902 an extensive study of Cepheid (short-period) variables."
+      }
+    ]
+  },
+  {
+    "id": "mary_draper_funded_memorial",
+    "source": "mary_draper",
+    "type": "founded",
+    "target": "henry_draper_memorial",
+    "sources": [
+      {
+        "source_id": "gordon_1978",
+        "page": 24,
+        "quote": "Persuaded by Pickering, she decided instead to establish a memorial at Harvard for work in spectral photography."
+      }
+    ]
+  }
+]

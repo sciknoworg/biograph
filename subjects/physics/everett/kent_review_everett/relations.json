@@ -1,0 +1,133 @@
+[
+  {
+    "id": "everett_supervised_wheeler",
+    "source": "hugh_everett_iii",
+    "type": "supervised_by",
+    "target": "john_archibald_wheeler",
+    "sources": [
+      {
+        "source_id": "kent_review_everett",
+        "page": 1,
+        "quote": "although encouraged and supported by his PhD supervisor, John Archibald Wheeler"
+      }
+    ]
+  },
+  {
+    "id": "everett_married_nancy",
+    "source": "hugh_everett_iii",
+    "type": "married_to",
+    "target": "nancy_everett",
+    "sources": [
+      {
+        "source_id": "kent_review_everett",
+        "page": 1,
+        "quote": "leaving his wife, Nancy"
+      }
+    ]
+  },
+  {
+    "id": "everett_father_liz",
+    "source": "hugh_everett_iii",
+    "type": "family_of",
+    "target": "liz_everett",
+    "sources": [
+      {
+        "source_id": "kent_review_everett",
+        "page": 1,
+        "quote": "and two children, Liz and Mark"
+      }
+    ]
+  },
+  {
+    "id": "everett_father_mark",
+    "source": "hugh_everett_iii",
+    "type": "family_of",
+    "target": "mark_oliver_everett",
+    "sources": [
+      {
+        "source_id": "kent_review_everett",
+        "page": 1,
+        "quote": "and two children, Liz and Mark"
+      }
+    ]
+  },
+  {
+    "id": "everett_studied_princeton",
+    "source": "hugh_everett_iii",
+    "type": "studied_at",
+    "target": "princeton_university",
+    "sources": [
+      {
+        "source_id": "kent_review_everett",
+        "page": 1,
+        "quote": "Everett wanted a PhD thesis from Princeton"
+      }
+    ]
+  },
+  {
+    "id": "everett_worked_consultant",
+    "source": "hugh_everett_iii",
+    "type": "employed_by",
+    "target": "princeton_university",
+    "note": "Text says work began at Princeton on game theory then became military consultant. Using Princeton for start.",
+    "sources": [
+      {
+        "source_id": "kent_review_everett",
+        "page": 2,
+        "quote": "beginning from work on game theory at Princeton and becoming a signiﬁcant player as a military-industrial-governmental Cold War strategist."
+      }
+    ]
+  },
+  {
+    "id": "kent_works_cambridge",
+    "source": "adrian_kent",
+    "type": "employed_by",
+    "target": "university_of_cambridge",
+    "sources": [
+      {
+        "source_id": "kent_review_everett",
+        "page": 1,
+        "quote": "Adrian Kent is Reader in Quantum Physics at the Department of Applied Mathematics and Theoretical Physics, University of Cambridge"
+      }
+    ]
+  },
+  {
+    "id": "kent_works_perimeter",
+    "source": "adrian_kent",
+    "type": "employed_by",
+    "target": "perimeter_institute",
+    "sources": [
+      {
+        "source_id": "kent_review_everett",
+        "page": 1,
+        "quote": "and an Associate Faculty member of Perimeter Institute for Theoretical Physics."
+      }
+    ]
+  },
+  {
+    "id": "byrne_wrote_biography",
+    "source": "peter_byrne",
+    "type": "published",
+    "target": "the_many_worlds_of_hugh_everett_iii",
+    "sources": [
+      {
+        "source_id": "kent_review_everett",
+        "page": 1,
+        "quote": "A review of Peter Byrne's biography [1] of Hugh Everett III"
+      }
+    ]
+  },
+  {
+    "id": "everett_invented_many_worlds",
+    "source": "hugh_everett_iii",
+    "type": "invented",
+    "target": "the_many_worlds_interpretation_of_quantum_mechanics",
+    "sources": [
+      {
+        "source_id": "kent_review_everett",
+        "page": 1,
+        "quote": "famous for his sole contribution, the idea that quantum theory can best be understood as describing many equally real alternative worlds"
+      }
+    ]
+  }
+]

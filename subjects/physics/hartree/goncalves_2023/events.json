@@ -1,0 +1,231 @@
+[
+  {
+    "id": "hartree_npl_committee_meeting",
+    "event_type": "meeting",
+    "label": "Attended NPL Executive Committee meeting",
+    "description": "Hartree commented on Turing's ACE design efficiency compared to ENIAC.",
+    "date": {
+      "display": "March 19, 1946",
+      "precision": "day",
+      "sort_start": "1946-03-19",
+      "sort_end": "1946-03-19"
+    },
+    "participants": [
+      {
+        "entity_id": "douglas_hartree",
+        "role": "participant"
+      },
+      {
+        "entity_id": "national_physical_laboratory",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "goncalves_2023",
+        "page": 2,
+        "quote": "The NPL Executive Committee would meet on March 19, 1946, and Turing was invited to present his report orally."
+      }
+    ]
+  },
+  {
+    "id": "hartree_nature_article",
+    "event_type": "publication",
+    "label": "Published Nature article on ENIAC",
+    "description": "Hartree reported on ENIAC to Nature.",
+    "date": {
+      "display": "October 12, 1946",
+      "precision": "day",
+      "sort_start": "1946-10-12",
+      "sort_end": "1946-10-12"
+    },
+    "participants": [
+      {
+        "entity_id": "douglas_hartree",
+        "role": "author"
+      },
+      {
+        "entity_id": "nature_journal",
+        "role": "publisher"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "goncalves_2023",
+        "page": 3,
+        "quote": "Hartree had made almost the same point in his Nature article published on October 12, 1946 [11, p. 505]."
+      }
+    ]
+  },
+  {
+    "id": "hartree_times_letter",
+    "event_type": "publication",
+    "label": "Sent letter to The Times",
+    "description": "Hartree criticized the term 'electronic brain' in a letter.",
+    "date": {
+      "display": "November 7, 1946",
+      "precision": "day",
+      "sort_start": "1946-11-07",
+      "sort_end": "1946-11-07"
+    },
+    "participants": [
+      {
+        "entity_id": "douglas_hartree",
+        "role": "author"
+      },
+      {
+        "entity_id": "the_times",
+        "role": "publisher"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "goncalves_2023",
+        "page": 3,
+        "quote": "Hartree, who had recently moved from Manchester to Cambridge to take up his Plummer Chair of Mathematical Physics at the Cavendish Laboratory, sent a letter to The Times criticizing the newspaper's headline."
+      }
+    ]
+  },
+  {
+    "id": "hartree_inaugural_lecture",
+    "event_type": "conference",
+    "label": "Delivered inaugural lecture at Cambridge",
+    "description": "Hartree gave his inaugural lecture at the Cavendish Laboratory.",
+    "date": {
+      "display": "November 13, 1946",
+      "precision": "day",
+      "sort_start": "1946-11-13",
+      "sort_end": "1946-11-13"
+    },
+    "location": "cavendish_laboratory",
+    "participants": [
+      {
+        "entity_id": "douglas_hartree",
+        "role": "speaker"
+      },
+      {
+        "entity_id": "cambridge_university",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "goncalves_2023",
+        "page": 3,
+        "quote": "According to the Cambridge University Reporter, October 30, 1946, p. 231, the lecture was scheduled to place on November 13, 1946, at 4.45pm at the Cavendish Laboratory."
+      }
+    ]
+  },
+  {
+    "id": "hartree_move_to_cambridge",
+    "event_type": "relocation",
+    "label": "Moved to Cambridge",
+    "description": "Hartree moved from Manchester to Cambridge to take up his Plummer Chair.",
+    "date": {
+      "display": "1946",
+      "precision": "year",
+      "sort_start": "1946-01-01",
+      "sort_end": "1946-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "douglas_hartree",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "goncalves_2023",
+        "page": 3,
+        "quote": "Hartree, who had recently moved from Manchester to Cambridge to take up his Plummer Chair of Mathematical Physics at the Cavendish Laboratory..."
+      }
+    ]
+  },
+  {
+    "id": "hartree_calculating_machines_pub",
+    "event_type": "publication",
+    "label": "Published Calculating Machines book",
+    "description": "Hartree published his inaugural lecture as a book.",
+    "date": {
+      "display": "1947",
+      "precision": "year",
+      "sort_start": "1947-01-01",
+      "sort_end": "1947-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "douglas_hartree",
+        "role": "author"
+      },
+      {
+        "entity_id": "calculating_machines_book",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "goncalves_2023",
+        "page": 12,
+        "quote": "[13] ——, Calculating Machines: Recent and Prospective Developments and their Impact on Mathematical Physics . Cambridge: University Press, 1947."
+      }
+    ]
+  },
+  {
+    "id": "hartree_calculating_instruments_pub",
+    "event_type": "publication",
+    "label": "Published Calculating Instruments and Machines",
+    "description": "Hartree published a book at the University of Illinois Press.",
+    "date": {
+      "display": "1949",
+      "precision": "year",
+      "sort_start": "1949-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "douglas_hartree",
+        "role": "author"
+      },
+      {
+        "entity_id": "calculating_instruments_book",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "goncalves_2023",
+        "page": 12,
+        "quote": "[15] ——, Calculating Instruments and Machines. Urbana: University of Illinois Press, 1949."
+      }
+    ]
+  },
+  {
+    "id": "hartree_bbc_broadcast",
+    "event_type": "public_demonstration",
+    "label": "Delivered BBC lecture",
+    "description": "Hartree gave a broadcast on automatic calculating machines.",
+    "date": {
+      "display": "May 5, 1951",
+      "precision": "day",
+      "sort_start": "1951-05-05",
+      "sort_end": "1951-05-05"
+    },
+    "participants": [
+      {
+        "entity_id": "douglas_hartree",
+        "role": "speaker"
+      },
+      {
+        "entity_id": "bbc",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "goncalves_2023",
+        "page": 8,
+        "quote": "At the climax of his BBC lecture on May 5, 1951 [19], Hartree admitted that digital computers could play games like chess..."
+      }
+    ]
+  }
+]

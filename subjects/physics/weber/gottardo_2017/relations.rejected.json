@@ -1,0 +1,17 @@
+[
+  {
+    "id": "einstein_gw_rel",
+    "source": "albert_einstein",
+    "type": "published",
+    "target": "joseph_weber",
+    "note": "Einstein predicted gravitational waves which Weber researched.",
+    "sources": [
+      {
+        "source_id": "gottardo_2017",
+        "page": 62,
+        "quote": "Gravitational waves were predicted in 1916 by Einstein"
+      }
+    ],
+    "_rejected_because": "'published' expects target entity_type artifact, but 'joseph_weber' is 'person'"
+  }
+]

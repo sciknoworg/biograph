@@ -1,0 +1,113 @@
+[
+  {
+    "id": "natanson_worked_jagiellonian",
+    "source": "wladyslaw_natanson",
+    "type": "worked_at",
+    "target": "jagiellonian_university",
+    "note": "Director of the Department of Theoretical Physics.",
+    "sources": [
+      {
+        "source_id": "nagasawa_2018",
+        "page": 395,
+        "quote": "Natanson was the director of the Department of The- oretical Physics of the Jagiellonian University"
+      }
+    ]
+  },
+  {
+    "id": "natanson_published_bulletin",
+    "source": "wladyslaw_natanson",
+    "type": "published",
+    "target": "bulletin_de_l_academie",
+    "event_id": "natanson_paper_1911a",
+    "sources": [
+      {
+        "source_id": "nagasawa_2018",
+        "page": 393,
+        "quote": "published in Bulletin de l'Academie des Sciences de Cracovie... on March 6, 1911"
+      }
+    ]
+  },
+  {
+    "id": "natanson_published_physikalische",
+    "source": "wladyslaw_natanson",
+    "type": "published",
+    "target": "physikalische_zeitschrift",
+    "event_id": "natanson_paper_1911b",
+    "sources": [
+      {
+        "source_id": "nagasawa_2018",
+        "page": 393,
+        "quote": "published also in Physikalische Zeitschrift on August 15, 1911"
+      }
+    ]
+  },
+  {
+    "id": "sommerfeld_corresponded_natanson",
+    "source": "arnold_sommerfeld",
+    "type": "corresponded_with",
+    "target": "wladyslaw_natanson",
+    "event_id": "sommerfeld_letter_to_natanson",
+    "sources": [
+      {
+        "source_id": "nagasawa_2018",
+        "page": 397,
+        "quote": "Sommerfeld sent a letter dated October 3, 1911 to Natan- son from Munich"
+      }
+    ]
+  },
+  {
+    "id": "einstein_met_natanson",
+    "source": "albert_einstein",
+    "type": "met",
+    "target": "wladyslaw_natanson",
+    "event_id": "einstein_meets_natanson",
+    "sources": [
+      {
+        "source_id": "nagasawa_2018",
+        "page": 404,
+        "quote": "When Einstein finally met Natanson, he sent a letter, dated 12 Feb- ruary 1915"
+      }
+    ]
+  },
+  {
+    "id": "natanson_supervised_infeld",
+    "source": "wladyslaw_natanson",
+    "type": "supervised_by",
+    "target": "leopold_infeld",
+    "note": "Infeld obtained his doctorate under Natanson's guidance.",
+    "sources": [
+      {
+        "source_id": "nagasawa_2018",
+        "page": 410,
+        "quote": "obtained his doc- torate under Natanson's guidance."
+      }
+    ]
+  },
+  {
+    "id": "burbury_worked_cambridge",
+    "source": "samuel_hawksley_burbury",
+    "type": "worked_at",
+    "target": "cambridge_university",
+    "sources": [
+      {
+        "source_id": "nagasawa_2018",
+        "page": 407,
+        "quote": "He was a professor at the University of Cambridge"
+      }
+    ]
+  },
+  {
+    "id": "ishiwara_studied_sommerfeld",
+    "source": "jun_ishiwara",
+    "type": "educated_by",
+    "target": "arnold_sommerfeld",
+    "event_id": "ishiwara_munich",
+    "sources": [
+      {
+        "source_id": "nagasawa_2018",
+        "page": 400,
+        "quote": "He stud- ied under Sommerfeld in Munich during the summer of 1912."
+      }
+    ]
+  }
+]

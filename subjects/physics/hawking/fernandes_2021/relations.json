@@ -1,0 +1,97 @@
+[
+  {
+    "id": "hawking_studied_cambridge",
+    "source": "stephen_hawking",
+    "type": "studied_at",
+    "target": "cambridge_university",
+    "sources": [
+      {
+        "source_id": "fernandes_2021",
+        "page": 12,
+        "quote": "The film \"Hawking\" portrays the physicist's early years as a PhD student at Cambridge University, during the process of preparing and defending his doctoral thesis."
+      }
+    ]
+  },
+  {
+    "id": "hawking_married_jane",
+    "source": "stephen_hawking",
+    "type": "married_to",
+    "target": "jane_wilde",
+    "event_id": "hawking_marriage",
+    "sources": [
+      {
+        "source_id": "fernandes_2021",
+        "page": 22,
+        "quote": "In the course of the plot, Stephen married Jane and defended his doctorate."
+      }
+    ]
+  },
+  {
+    "id": "hawking_collaborated_penrose",
+    "source": "stephen_hawking",
+    "type": "collaborated_with",
+    "target": "roger_penrose",
+    "sources": [
+      {
+        "source_id": "fernandes_2021",
+        "page": 14,
+        "quote": "During the meal, Hawking, Penrose, Sciama and his wife talked especially about the weather, alternating moments of relaxation."
+      }
+    ]
+  },
+  {
+    "id": "hawking_supervised_scama",
+    "source": "stephen_hawking",
+    "type": "supervised_by",
+    "target": "dennis_scama",
+    "sources": [
+      {
+        "source_id": "fernandes_2021",
+        "page": 14,
+        "quote": "During a recording, possibly an interview or material for science communication with Fred Hoyle, Stephen and Dennis Sciama, his advisor, were watching and discussing possible topics for his research..."
+      }
+    ]
+  },
+  {
+    "id": "hawking_developed_radiation",
+    "source": "stephen_hawking",
+    "type": "developed",
+    "target": "brief_history_of_time",
+    "note": "Relation to book publication",
+    "sources": [
+      {
+        "source_id": "fernandes_2021",
+        "page": 3,
+        "quote": "\"A brief history of time\", from 1988, became the biggest best seller in the category, having sold more than 25 million copies until 2007 (McKie, 2007)."
+      }
+    ]
+  },
+  {
+    "id": "bbc_produced_hawking_film",
+    "source": "bbc",
+    "type": "founded",
+    "target": "hawking_film",
+    "note": "Production relation",
+    "sources": [
+      {
+        "source_id": "fernandes_2021",
+        "page": 9,
+        "quote": "The first film analyzed in this work was \"Hawking\" (Martin, 2004). This feature film was produced by BBC..."
+      }
+    ]
+  },
+  {
+    "id": "universal_produced_theory_film",
+    "source": "universal_studios",
+    "type": "founded",
+    "target": "theory_of_everything_film",
+    "note": "Production relation",
+    "sources": [
+      {
+        "source_id": "fernandes_2021",
+        "page": 9,
+        "quote": "The second film, \"The theory of everything\" (Marsh, 2014), was produced by Universal Studios."
+      }
+    ]
+  }
+]

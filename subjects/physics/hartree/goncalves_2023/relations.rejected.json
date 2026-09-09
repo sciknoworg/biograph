@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hartree_cited_lovelace",
+    "source": "douglas_hartree",
+    "type": "published",
+    "target": "ada_lovelace",
+    "note": "Mobilized Lovelace's notes in his arguments.",
+    "sources": [
+      {
+        "source_id": "goncalves_2023",
+        "page": 7,
+        "quote": "This statement is quoted by Hartree [15, p. 70] who adds: 'This does not imply that it may not be possible to construct electronic equipment which will \"think for itself,\"...'"
+      }
+    ],
+    "_rejected_because": "'published' expects target entity_type artifact, but 'ada_lovelace' is 'person'"
+  }
+]

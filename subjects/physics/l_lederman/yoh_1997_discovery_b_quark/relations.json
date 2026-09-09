@@ -1,0 +1,128 @@
+[
+  {
+    "id": "lederman_worked_brookhaven",
+    "source": "leon_lederman",
+    "type": "worked_at",
+    "target": "brookhaven_national_laboratory",
+    "start": {
+      "display": "mid-sixties",
+      "precision": "decade",
+      "sort_start": "1965-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "yoh_1997_discovery_b_quark",
+        "page": 1,
+        "quote": "In the mid-sixties, Leon Lederman and his collaborators initiated a series of experiments looking first at single muons, then dimuons."
+      }
+    ]
+  },
+  {
+    "id": "lederman_worked_fermilab",
+    "source": "leon_lederman",
+    "type": "worked_at",
+    "target": "fermilab",
+    "start": {
+      "display": "1970",
+      "precision": "year",
+      "sort_start": "1970-01-01",
+      "sort_end": "1970-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "yoh_1997_discovery_b_quark",
+        "page": 1,
+        "quote": "The series of experiments E70/E288/E494 was proposed by Leon and his collaborators on June 17, 1970."
+      }
+    ]
+  },
+  {
+    "id": "lederman_proposed_e288",
+    "source": "leon_lederman",
+    "type": "developed",
+    "target": "e288_experiment",
+    "event_id": "lederman_proposal_e288_1974",
+    "sources": [
+      {
+        "source_id": "yoh_1997_discovery_b_quark",
+        "page": 1,
+        "quote": "Proposal # 288 to the Fermilab management, \\A Study of Di-Lepton Production in Proton Collisions at NAL,\" was dated February of 1974."
+      }
+    ]
+  },
+  {
+    "id": "lederman_led_cfs",
+    "source": "leon_lederman",
+    "type": "member_of",
+    "target": "e288_experiment",
+    "note": "Spokesman and leading light",
+    "sources": [
+      {
+        "source_id": "yoh_1997_discovery_b_quark",
+        "page": 1,
+        "quote": "Leon Lederman, the \\founding father\" and \\leading light\" of the experiment, as well as the collaboration's spokesman."
+      }
+    ]
+  },
+  {
+    "id": "lederman_discovered_upsilon",
+    "source": "leon_lederman",
+    "type": "invented",
+    "target": "upsilon_particle",
+    "event_id": "upsilon_discovery_1977",
+    "sources": [
+      {
+        "source_id": "yoh_1997_discovery_b_quark",
+        "page": 1,
+        "quote": "Most of the credit for this discovery belongs with Leon Lederman"
+      }
+    ]
+  },
+  {
+    "id": "lederman_director_fermilab",
+    "source": "leon_lederman",
+    "type": "employed_by",
+    "target": "fermilab",
+    "start": {
+      "display": "Late 1977",
+      "precision": "year",
+      "sort_start": "1977-09-01",
+      "sort_end": "1977-12-31"
+    },
+    "event_id": "lederman_fermilab_director_1977",
+    "sources": [
+      {
+        "source_id": "yoh_1997_discovery_b_quark",
+        "page": 1,
+        "quote": "Leon was given an offer he couldn't refuse | directorship of Fermilab."
+      }
+    ]
+  },
+  {
+    "id": "lederman_collaborated_yoh",
+    "source": "leon_lederman",
+    "type": "collaborated_with",
+    "target": "john_yoh",
+    "sources": [
+      {
+        "source_id": "yoh_1997_discovery_b_quark",
+        "page": 1,
+        "quote": "As a graduate student working at Brookhaven in the beam line next to Leon's BNL dimuon experiment"
+      }
+    ]
+  },
+  {
+    "id": "lederman_collaborated_herb",
+    "source": "leon_lederman",
+    "type": "collaborated_with",
+    "target": "steve_herb",
+    "sources": [
+      {
+        "source_id": "yoh_1997_discovery_b_quark",
+        "page": 1,
+        "quote": "A detailed analysis of this problem was undertaken by Leon, Steve Herb, myself, and others."
+      }
+    ]
+  }
+]

@@ -1,0 +1,216 @@
+[
+  {
+    "id": "simeon_denis_poisson",
+    "entity_type": "person",
+    "name": "Siméon-Denis Poisson",
+    "aliases": [
+      "Poisson",
+      "Siméon Denis Poisson",
+      "Citizen Poisson"
+    ],
+    "summary": "French mathematician and mathematical physicist known for contributions to electromagnetism, elasticity, optics, and celestial mechanics.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "pithiviers",
+    "entity_type": "place",
+    "name": "Pithiviers",
+    "aliases": [],
+    "summary": "Small town in France, birthplace of Siméon-Denis Poisson.",
+    "subtype": "town",
+    "attributes": {
+      "country": "France"
+    }
+  },
+  {
+    "id": "france",
+    "entity_type": "place",
+    "name": "France",
+    "aliases": [],
+    "summary": "Country where Poisson lived and worked.",
+    "subtype": "country"
+  },
+  {
+    "id": "ecole_polytechnique",
+    "entity_type": "organization",
+    "name": "École Polytechnique",
+    "aliases": [
+      "École centrale des travaux publics",
+      "Polytechnique"
+    ],
+    "summary": "French engineering school where Poisson studied and later taught.",
+    "subtype": "university"
+  },
+  {
+    "id": "academie_des_sciences",
+    "entity_type": "organization",
+    "name": "Paris Académie des Sciences",
+    "aliases": [
+      "Academy of Sciences",
+      "Institut National",
+      "French Institut"
+    ],
+    "summary": "Prestigious French scientific academy where Poisson was elected and served.",
+    "subtype": "academy"
+  },
+  {
+    "id": "universite_imperiale",
+    "entity_type": "organization",
+    "name": "Université Impériale",
+    "aliases": [
+      "Sorbonne"
+    ],
+    "summary": "Reorganized French university system where Poisson was named first professor of mechanics.",
+    "subtype": "university"
+  },
+  {
+    "id": "royal_council_of_public_education",
+    "entity_type": "organization",
+    "name": "Royal Council of Public Education",
+    "aliases": [
+      "Conseil royal de l'instruction publique"
+    ],
+    "summary": "French government body organizing education where Poisson served as member and treasurer.",
+    "subtype": "government_body"
+  },
+  {
+    "id": "joseph_fourier",
+    "entity_type": "person",
+    "name": "Joseph Fourier",
+    "aliases": [
+      "Fourier",
+      "Citizen Fourier"
+    ],
+    "summary": "French mathematician and physicist, predecessor and rival of Poisson at École Polytechnique.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "pierre_simon_laplace",
+    "entity_type": "person",
+    "name": "Pierre-Simon Laplace",
+    "aliases": [
+      "Laplace"
+    ],
+    "summary": "French mathematician and astronomer, examiner for mathematics at École Polytechnique and mentor to Poisson.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "joseph_louis_lagrange",
+    "entity_type": "person",
+    "name": "Joseph Louis Lagrange",
+    "aliases": [
+      "Lagrange"
+    ],
+    "summary": "Italian-French mathematician, professor at École Polytechnique during Poisson's studies.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "gaspard_monge",
+    "entity_type": "person",
+    "name": "Gaspard Monge",
+    "aliases": [
+      "Monge"
+    ],
+    "summary": "French mathematician, professor at École Polytechnique during Poisson's studies.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "adrien_marie_legendre",
+    "entity_type": "person",
+    "name": "Adrien-Marie Legendre",
+    "aliases": [
+      "Legendre"
+    ],
+    "summary": "French mathematician who reported on Poisson's early paper to the Academy.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "sylvestre_francois_lacroix",
+    "entity_type": "person",
+    "name": "Sylvestre François Lacroix",
+    "aliases": [
+      "Lacroix"
+    ],
+    "summary": "French mathematician who reported on Poisson's early paper to the Academy.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "augustin_fresnel",
+    "entity_type": "person",
+    "name": "Augustin Fresnel",
+    "aliases": [
+      "Fresnel"
+    ],
+    "summary": "French physicist whose wave theory of light was tested by Poisson's suggested experiment.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "poissons_equation",
+    "entity_type": "artifact",
+    "name": "Poisson's equation",
+    "aliases": [],
+    "summary": "Partial differential equation in electromagnetism describing potential in charged bodies.",
+    "subtype": "concept"
+  },
+  {
+    "id": "poissons_ratio",
+    "entity_type": "artifact",
+    "name": "Poisson's ratio",
+    "aliases": [],
+    "summary": "Dimensionless ratio in elasticity measuring transverse strain to primary strain.",
+    "subtype": "concept"
+  },
+  {
+    "id": "poissons_spot",
+    "entity_type": "artifact",
+    "name": "Poisson's spot",
+    "aliases": [],
+    "summary": "Bright spot in the center of the shadow of a disk, predicted by Poisson based on Fresnel's theory.",
+    "subtype": "concept"
+  },
+  {
+    "id": "poisson_distribution",
+    "entity_type": "artifact",
+    "name": "Poisson distribution",
+    "aliases": [
+      "Poisson's law",
+      "la loi de Poisson"
+    ],
+    "summary": "Probability distribution function appearing in Poisson's 1829 essay.",
+    "subtype": "concept"
+  },
+  {
+    "id": "poisson_brackets",
+    "entity_type": "artifact",
+    "name": "Poisson brackets",
+    "aliases": [],
+    "summary": "Mathematical operation in celestial mechanics introduced in Poisson's 1809 essay.",
+    "subtype": "concept"
+  },
+  {
+    "id": "mathematical_theory_of_heat",
+    "entity_type": "artifact",
+    "name": "Mathematical Theory of Heat",
+    "aliases": [
+      "Théorie mathématique de la chaleur"
+    ],
+    "summary": "Book by Poisson published in 1835 on heat distribution.",
+    "subtype": "publication"
+  },
+  {
+    "id": "traite_de_mecanique",
+    "entity_type": "artifact",
+    "name": "Traité de Mécanique",
+    "aliases": [],
+    "summary": "Treatise by Poisson first published in 1811 containing early hints of Poisson's ratio.",
+    "subtype": "publication"
+  },
+  {
+    "id": "societe_darcueil",
+    "entity_type": "organization",
+    "name": "Société d'Arcueil",
+    "aliases": [],
+    "summary": "Small circle of renowned scientists meeting in Arcueil where Poisson joined Laplace.",
+    "subtype": "scientific_society"
+  }
+]

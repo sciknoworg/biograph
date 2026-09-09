@@ -1,0 +1,324 @@
+[
+  {
+    "id": "wess_taught_karlsruhe",
+    "event_type": "employment_start",
+    "label": "Wess taught at Karlsruhe",
+    "description": "Wess was an academic teacher at the University of Karlsruhe during Schlichenmaier's studies.",
+    "date": {
+      "display": "1978 till 1984",
+      "precision": "range",
+      "sort_start": "1978-01-01",
+      "sort_end": "1984-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julius_wess",
+        "role": "employer"
+      },
+      {
+        "entity_id": "university_of_karlsruhe",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "schlichenmaier_2012",
+        "page": 158,
+        "quote": "From 1978 till 1984 I studied mathematics at the University of Karlsruhe."
+      }
+    ]
+  },
+  {
+    "id": "schlichenmaier_studied_karlsruhe",
+    "event_type": "education",
+    "label": "Schlichenmaier studied at Karlsruhe",
+    "date": {
+      "display": "1978 till 1984",
+      "precision": "range",
+      "sort_start": "1978-01-01",
+      "sort_end": "1984-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "martin_schlichenmaier",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_karlsruhe",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "schlichenmaier_2012",
+        "page": 158,
+        "quote": "From 1978 till 1984 I studied mathematics at the University of Karlsruhe."
+      }
+    ]
+  },
+  {
+    "id": "schlichenmaier_went_brandeis",
+    "event_type": "relocation",
+    "label": "Schlichenmaier went to Brandeis",
+    "date": {
+      "display": "1984",
+      "precision": "year",
+      "sort_start": "1984-01-01",
+      "sort_end": "1984-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "martin_schlichenmaier",
+        "role": "subject"
+      },
+      {
+        "entity_id": "brandeis_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "schlichenmaier_2012",
+        "page": 159,
+        "quote": "In 1984, roughly one year later, after finishing my diploma thesis and all the exams I went with a fellowship of the DAAD to the Brandeis University, Massachusetts, USA."
+      }
+    ]
+  },
+  {
+    "id": "schlichenmaier_returned_germany",
+    "event_type": "relocation",
+    "label": "Schlichenmaier returned to Germany",
+    "date": {
+      "display": "Fall 1985",
+      "precision": "range",
+      "sort_start": "1985-09-01",
+      "sort_end": "1985-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "martin_schlichenmaier",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "schlichenmaier_2012",
+        "page": 159,
+        "quote": "In fall 1985, I returned back to Germany and found a position as wissenschaftlicher Mitarbeiter (assistant) at the Mathematics Department of the University of Mannheim."
+      }
+    ]
+  },
+  {
+    "id": "wess_leibniz_prize",
+    "event_type": "award",
+    "label": "Wess received Leibniz-Prize",
+    "date": {
+      "display": "1986",
+      "precision": "year",
+      "sort_start": "1986-01-01",
+      "sort_end": "1986-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julius_wess",
+        "role": "subject"
+      },
+      {
+        "entity_id": "leibniz_prize",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "schlichenmaier_2012",
+        "page": 159,
+        "quote": "He had received the Leibniz-Prize in 1986."
+      }
+    ]
+  },
+  {
+    "id": "schlichenmaier_book_published",
+    "event_type": "publication",
+    "label": "Schlichenmaier's book published",
+    "date": {
+      "display": "1989",
+      "precision": "year",
+      "sort_start": "1989-01-01",
+      "sort_end": "1989-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "martin_schlichenmaier",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "schlichenmaier_2012",
+        "page": 159,
+        "quote": "It appeared in 1989, see Ref. 1."
+      }
+    ]
+  },
+  {
+    "id": "schlichenmaier_phd",
+    "event_type": "education",
+    "label": "Schlichenmaier got PhD",
+    "date": {
+      "display": "1990",
+      "precision": "year",
+      "sort_start": "1990-01-01",
+      "sort_end": "1990-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "martin_schlichenmaier",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_mannheim",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "schlichenmaier_2012",
+        "page": 160,
+        "quote": "Finally, in 1990 I got my PhD in mathematics from the University of Mannheim."
+      }
+    ]
+  },
+  {
+    "id": "wess_moved_munich",
+    "event_type": "relocation",
+    "label": "Wess moved to Munich",
+    "description": "Wess moved to the LMU and the MPI (Heisenberg Institute).",
+    "date": {
+      "display": "Later",
+      "precision": "circa",
+      "sort_start": "1990-01-01",
+      "sort_end": "2007-01-01"
+    },
+    "participants": [
+      {
+        "entity_id": "julius_wess",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lmu_munich",
+        "role": "employer"
+      },
+      {
+        "entity_id": "mpi_heisenberg_institute",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "schlichenmaier_2012",
+        "page": 161,
+        "quote": "Later Julius moved to Munich to the LMU and the MPI (Heisenberg Institute)."
+      }
+    ]
+  },
+  {
+    "id": "oberwolfach_workshop_2006",
+    "event_type": "conference",
+    "label": "Oberwolfach workshop organized",
+    "date": {
+      "display": "2006",
+      "precision": "year",
+      "sort_start": "2006-01-01",
+      "sort_end": "2006-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "martin_schlichenmaier",
+        "role": "subject"
+      },
+      {
+        "entity_id": "mfo_oberwolfach",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "schlichenmaier_2012",
+        "page": 161,
+        "quote": "Together with Alice Fialowski, Marc de Montigny, and Sergey Novikov I organized at the Mathematisches Forschungsinstitut Oberwolfach (MFO) in 2006 a workshop on Deformations and Contractions in Mathematics and Physics."
+      }
+    ]
+  },
+  {
+    "id": "wess_stroke",
+    "event_type": "other",
+    "label": "Wess had a stroke",
+    "date": {
+      "display": "July 2007",
+      "precision": "month",
+      "sort_start": "2007-07-01",
+      "sort_end": "2007-07-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julius_wess",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "schlichenmaier_2012",
+        "page": 161,
+        "quote": "first telling me that Julius had a stroke and that was in hospital under very critical conditions"
+      }
+    ]
+  },
+  {
+    "id": "wess_death",
+    "event_type": "death",
+    "label": "Wess died",
+    "date": {
+      "display": "August 8, 2007",
+      "precision": "day",
+      "sort_start": "2007-08-08",
+      "sort_end": "2007-08-08"
+    },
+    "participants": [
+      {
+        "entity_id": "julius_wess",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "schlichenmaier_2012",
+        "page": 161,
+        "quote": "then that he died on August 8, 2007"
+      }
+    ]
+  },
+  {
+    "id": "oberwolfach_workshop_2010",
+    "event_type": "conference",
+    "label": "Follow-up workshop took place",
+    "date": {
+      "display": "2010",
+      "precision": "year",
+      "sort_start": "2010-01-01",
+      "sort_end": "2010-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mfo_oberwolfach",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "schlichenmaier_2012",
+        "page": 161,
+        "quote": "For sure, every participants missed him there, but in thoughts he was with us."
+      }
+    ]
+  }
+]

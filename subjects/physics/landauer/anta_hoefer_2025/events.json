@@ -1,0 +1,206 @@
+[
+  {
+    "id": "landauer_graduate_harvard",
+    "event_type": "education",
+    "label": "Graduate student at Harvard",
+    "description": "Landauer and Swanson were both graduate students at Harvard in the late 1940s.",
+    "date": {
+      "precision": "decade",
+      "display": "late 1940s",
+      "sort_start": "1945-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rolf_landauer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "harvard_university",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "anta_hoefer_2025",
+        "page": 4,
+        "quote": "which went back to when they were both graduate students at Harvard in the late 1940s."
+      }
+    ]
+  },
+  {
+    "id": "landauer_joins_ibm",
+    "event_type": "employment_start",
+    "label": "Joined IBM",
+    "description": "Landauer became a worker at IBM and joined the IBM Research Laboratory in Poughkeepsie.",
+    "date": {
+      "precision": "year",
+      "display": "1952",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rolf_landauer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ibm",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "anta_hoefer_2025",
+        "page": 2,
+        "quote": "worker at IBM since 1952"
+      },
+      {
+        "source_id": "anta_hoefer_2025",
+        "page": 4,
+        "quote": "pivotal for Landauer to join Swanson at the new IBM Research Laboratory in Poughkeepsie (New Y ork) in 1952."
+      }
+    ]
+  },
+  {
+    "id": "von_neumann_1949_talk",
+    "event_type": "conference",
+    "label": "Von Neumann talk on Automata",
+    "description": "Von Neumann gave a talk entitled 'Theory and Organization of Complicated Automata'.",
+    "date": {
+      "precision": "month",
+      "display": "December 1949",
+      "sort_start": "1949-12-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_von_neumann",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "anta_hoefer_2025",
+        "page": 12,
+        "quote": "von Neumann ( 1949)g a v ea talk in December 1949 entitled 'Theory and Organization of Complicated Automata'"
+      }
+    ]
+  },
+  {
+    "id": "brillouin_publishes_1956_book",
+    "event_type": "publication",
+    "label": "Brillouin publishes Science and Information Theory",
+    "description": "Brillouin published his book summarizing the Negentropy principle.",
+    "date": {
+      "precision": "year",
+      "display": "1956",
+      "sort_start": "1956-01-01",
+      "sort_end": "1956-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "leon_brillouin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "brillouin_1956_book",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "anta_hoefer_2025",
+        "page": 7,
+        "quote": "Brillouin in his book, Science and Information Theory"
+      }
+    ]
+  },
+  {
+    "id": "swanson_publishes_1960_paper",
+    "event_type": "publication",
+    "label": "Swanson publishes Physical versus Logical Coupling",
+    "description": "Swanson published his paper on memory systems.",
+    "date": {
+      "precision": "year",
+      "display": "1960",
+      "sort_start": "1960-01-01",
+      "sort_end": "1960-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_swanson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "swanson_1960_paper",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "anta_hoefer_2025",
+        "page": 4,
+        "quote": "Swanson's 1960 paper 'Physical versus Logical Coupling in Memory System' (Swanson 1960)."
+      }
+    ]
+  },
+  {
+    "id": "landauer_publishes_1961_paper",
+    "event_type": "publication",
+    "label": "Landauer publishes Irreversibility and Heat Generation",
+    "description": "Landauer published his groundbreaking paper in the IBM journal.",
+    "date": {
+      "precision": "month",
+      "display": "July 1961",
+      "sort_start": "1961-07-01",
+      "sort_end": "1961-07-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rolf_landauer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "landauer_1961_paper",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "anta_hoefer_2025",
+        "page": 2,
+        "quote": "It was in July 1961 when the German-born Rolf Landauer, Ph.D. from Harvard and worker at IBM since 1952, published a groundbreaking paper entitled 'Irreversibility and Heat Generation in the Computing Process' (Landauer 1961) in the IBM journal."
+      }
+    ]
+  },
+  {
+    "id": "bennett_publishes_1982_paper",
+    "event_type": "publication",
+    "label": "Bennett publishes The Thermodynamics of Computation",
+    "description": "Bennett published his foundational paper popularizing Landauer's Principle.",
+    "date": {
+      "precision": "year",
+      "display": "1982",
+      "sort_start": "1982-01-01",
+      "sort_end": "1982-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "charles_bennett",
+        "role": "subject"
+      },
+      {
+        "entity_id": "bennett_1982_paper",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "anta_hoefer_2025",
+        "page": 3,
+        "quote": "foundational paper 'The Thermodynamics of Computation' (Bennett 1982)."
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "frampton_relocated_cern",
+    "source": "paul_frampton",
+    "type": "relocated_to",
+    "target": "cern",
+    "event_id": "frampton_cern_move",
+    "sources": [
+      {
+        "source_id": "frampton_2015",
+        "page": 4,
+        "quote": "After leaving Chicago #2 for CERN in 1970"
+      }
+    ],
+    "_rejected_because": "'relocated_to' expects target entity_type place, but 'cern' is 'organization'"
+  }
+]

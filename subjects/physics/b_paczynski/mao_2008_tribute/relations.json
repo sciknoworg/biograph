@@ -1,0 +1,83 @@
+[
+  {
+    "id": "paczynski_princeton",
+    "source": "bohdan_paczynski",
+    "type": "worked_at",
+    "target": "princeton_university",
+    "sources": [
+      {
+        "source_id": "mao_2008_tribute",
+        "page": 2,
+        "quote": "I owe a tremendous debt to him (and to many other people at Peyton Hall and Princeton University)"
+      }
+    ]
+  },
+  {
+    "id": "paczynski_mao_mentor",
+    "source": "bohdan_paczynski",
+    "type": "mentored",
+    "target": "shude_mao",
+    "event_id": "mao_phd_period",
+    "sources": [
+      {
+        "source_id": "mao_2008_tribute",
+        "page": 2,
+        "quote": "I was his PhD student from 1990-1992"
+      }
+    ]
+  },
+  {
+    "id": "paczynski_mao_collab",
+    "source": "bohdan_paczynski",
+    "type": "collaborated_with",
+    "target": "shude_mao",
+    "sources": [
+      {
+        "source_id": "mao_2008_tribute",
+        "page": 1,
+        "quote": "I share some personal memories of him as an ex-student and collaborator"
+      }
+    ]
+  },
+  {
+    "id": "paczynski_aas",
+    "source": "bohdan_paczynski",
+    "type": "awarded",
+    "target": "american_astronomical_society",
+    "note": "Henry Russell Lectureship",
+    "sources": [
+      {
+        "source_id": "mao_2008_tribute",
+        "page": 2,
+        "quote": "he received many honors, including the Henry Russell Lectureship from the American Astronomical Society"
+      }
+    ]
+  },
+  {
+    "id": "paczynski_ras",
+    "source": "bohdan_paczynski",
+    "type": "awarded",
+    "target": "royal_astronomical_society",
+    "note": "Gold medal",
+    "sources": [
+      {
+        "source_id": "mao_2008_tribute",
+        "page": 2,
+        "quote": "and the Gold medal from the Royal Astronomical Society"
+      }
+    ]
+  },
+  {
+    "id": "mao_cfa",
+    "source": "shude_mao",
+    "type": "employed_by",
+    "target": "harvard_smithsonian_cfa",
+    "sources": [
+      {
+        "source_id": "mao_2008_tribute",
+        "page": 3,
+        "quote": "this scepticism was widely shared at the Harvard-Smithsonian Center for Astrophysics when I was a postdoc there (1992-1995)"
+      }
+    ]
+  }
+]

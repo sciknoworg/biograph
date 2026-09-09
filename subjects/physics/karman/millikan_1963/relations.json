@@ -1,0 +1,168 @@
+[
+  {
+    "id": "born_in_budapest",
+    "source": "theodore_von_karman",
+    "type": "born_in",
+    "target": "budapest",
+    "event_id": "birth",
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 1,
+        "quote": "He was born in Budapest on 11th May 1881."
+      }
+    ]
+  },
+  {
+    "id": "father_maurice",
+    "source": "theodore_von_karman",
+    "type": "family_of",
+    "target": "maurice_von_karman",
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 1,
+        "quote": "His father, Dr. Maurice von Karman, professor of philosophy and education at the University of Budapest"
+      }
+    ]
+  },
+  {
+    "id": "studied_budapest",
+    "source": "theodore_von_karman",
+    "type": "studied_at",
+    "target": "budapest_royal_technical_university",
+    "event_id": "graduation_budapest",
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 1,
+        "quote": "Graduating with highest honours as a mechanical engineer from the Budapest Royal Technical University in 1902"
+      }
+    ]
+  },
+  {
+    "id": "studied_gottingen",
+    "source": "theodore_von_karman",
+    "type": "studied_at",
+    "target": "university_of_gottingen",
+    "event_id": "enrollment_gottingen",
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 1,
+        "quote": "In 1906 von Karman decided to resume his technical studies and accordingly dropped his engineering work to enroll as an advanced student at the University of Gottingen."
+      }
+    ]
+  },
+  {
+    "id": "worked_aachen",
+    "source": "theodore_von_karman",
+    "type": "worked_at",
+    "target": "university_of_aachen",
+    "event_id": "professor_aachen",
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 1,
+        "quote": "1912, when he was made Professor of Aeronautics and Mechanics and Director of the newly established Aeronautical Institute of the University of Aachen."
+      }
+    ]
+  },
+  {
+    "id": "worked_caltech",
+    "source": "theodore_von_karman",
+    "type": "worked_at",
+    "target": "california_institute_of_technology",
+    "event_id": "research_associate_caltech",
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 1,
+        "quote": "In 1928 von Karman became Research Associate of the California Institute of Technology"
+      }
+    ]
+  },
+  {
+    "id": "directed_galcit",
+    "source": "theodore_von_karman",
+    "type": "worked_at",
+    "target": "galcit",
+    "event_id": "director_galcit",
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 1,
+        "quote": "in 1930 settled permanently in California, becoming Director of the Guggenheim Aeronautical Laboratory at the California Institute of Technology"
+      }
+    ]
+  },
+  {
+    "id": "founded_aerojet",
+    "source": "theodore_von_karman",
+    "type": "founded",
+    "target": "aerojet_engineering_company",
+    "event_id": "aerojet_founded",
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 2,
+        "quote": "von Karman with a few colleagues and friends in 1942 organised the Aerojet Engineering Company"
+      }
+    ]
+  },
+  {
+    "id": "directed_jpl",
+    "source": "theodore_von_karman",
+    "type": "worked_at",
+    "target": "jet_propulsion_laboratory",
+    "event_id": "jpl_established",
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 2,
+        "quote": "Early in 1944 the Army Ordnance Corps arranged to take over the sponsorship of the Laboratory which was then established as the Jet Propulsion Laboratory (JPL) with the mission of conducting a research and development programme on long range missiles, with von Karman as its director."
+      }
+    ]
+  },
+  {
+    "id": "chaired_sab",
+    "source": "theodore_von_karman",
+    "type": "member_of",
+    "target": "air_force_scientific_advisory_board",
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 2,
+        "quote": "von Karman remained active chairman until 1954"
+      }
+    ]
+  },
+  {
+    "id": "chaired_agard",
+    "source": "theodore_von_karman",
+    "type": "member_of",
+    "target": "agard",
+    "event_id": "agard_organized",
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 3,
+        "quote": "In 1951 he undertook the organisation of the NATO Advisory Group for Aeronautical Research and Development (AGARD) of which he was chairman until his death."
+      }
+    ]
+  },
+  {
+    "id": "died_1963",
+    "source": "theodore_von_karman",
+    "type": "died_in",
+    "target": "united_states",
+    "event_id": "death",
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 1,
+        "quote": "death on 7th May 1963."
+      }
+    ]
+  }
+]

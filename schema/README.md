@@ -13,8 +13,9 @@ A subject is a **person**. Each source document about them gets its own
 folder beneath, named by that source's citation key (`sources[].id`):
 
 ```
-subjects/suntola/
-  subject.json                  the person: canonical name + slug, one place
+subjects/materials_science/     the collection this person was found for
+  suntola/
+    subject.json                the person: canonical name, slug, domains[]
   puurunen_2014/                one document's extraction -- the four files below
     entities.json
     events.json
@@ -40,7 +41,7 @@ across documents is prefixed with its document key.
 fullest form seen — with every other form recorded in that person's
 `aliases`, so the same scientist never appears under several spellings.
 
-## The four files (per document, under `subjects/<slug>/<citation-key>/`)
+## The four files (per document, under `subjects/<domain>/<slug>/<citation-key>/`)
 
 - `entities.json` — the nouns: people, places, organizations, and named
   "artifacts" (inventions, patents, products, publications, companies-as-
@@ -55,8 +56,8 @@ fullest form seen — with every other form recorded in that person's
 - `sources.json` — the source document(s) this subject's data was
   extracted from. Every event and relation cites at least one source here.
 
-A subject is self-contained: nothing in `subjects/suntola/` refers to an id
-in `subjects/aleskovskii/`. Cross-subject connections (the whole reason for
+A subject is self-contained: nothing in one subject's folder refers to an id
+in another's. Cross-subject connections (the whole reason for
 having two biographies) get their own bridge file once both subjects exist:
 `subjects/_bridges/<a>-<b>.json`, using the same relation shape but with
 entity ids qualified as `subject:id` (e.g. `suntola:tuomo_suntola`). Bridge
@@ -103,7 +104,10 @@ date is an object with:
 
 - `display` — the human-readable string as it should be shown ("1963",
   "August–September 1974", "c. 1958", "early 1970s").
-- `precision` — one of `day | month | year | decade | century | circa | range`.
+- `precision` — one of `day | month | season | year | decade | century | circa | range`.
+  `season` is for sources that date something to a season rather than a month
+  ("summer 1964"), common in recollection and correspondence; `month` would invent
+  a precision the source never gave.
   `century` exists because a collection reaching back before modern record-keeping
   needs it: a document on Jabir ibn Hayyan can date his father's Abbasid patronage
   to the 8th century and no further, and the alternative was discarding the whole

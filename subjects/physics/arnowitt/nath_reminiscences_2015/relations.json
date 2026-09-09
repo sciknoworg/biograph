@@ -1,0 +1,122 @@
+[
+  {
+    "id": "arnowitt_collaborated_nath",
+    "source": "richard_lewis_arnowitt",
+    "type": "collaborated_with",
+    "target": "pran_nath",
+    "sources": [
+      {
+        "source_id": "nath_reminiscences_2015",
+        "page": 1,
+        "quote": "This article contains reminiscences of the collaborative w ork that Richard Arnowitt and I did together which stretched over many years"
+      }
+    ]
+  },
+  {
+    "id": "arnowitt_collaborated_friedman",
+    "source": "richard_lewis_arnowitt",
+    "type": "collaborated_with",
+    "target": "marvin_friedman",
+    "sources": [
+      {
+        "source_id": "nath_reminiscences_2015",
+        "page": 1,
+        "quote": "This problem was overcome in work with Dick and Marvin Friedman by giving up the soft pion approximation"
+      }
+    ]
+  },
+  {
+    "id": "arnowitt_collaborated_chamseddine",
+    "source": "richard_lewis_arnowitt",
+    "type": "collaborated_with",
+    "target": "ali_chamseddine",
+    "sources": [
+      {
+        "source_id": "nath_reminiscences_2015",
+        "page": 1,
+        "quote": "development of supergravity grand uniﬁcation in collaboration of Ali Chamseddine"
+      }
+    ]
+  },
+  {
+    "id": "nath_worked_northeastern",
+    "source": "pran_nath",
+    "type": "worked_at",
+    "target": "northeastern_university",
+    "sources": [
+      {
+        "source_id": "nath_reminiscences_2015",
+        "page": 1,
+        "quote": "soon after I arrived at Northeastern University in 1966"
+      }
+    ]
+  },
+  {
+    "id": "chamseddine_studied_imperial",
+    "source": "ali_chamseddine",
+    "type": "studied_at",
+    "target": "imperial_college_london",
+    "sources": [
+      {
+        "source_id": "nath_reminiscences_2015",
+        "page": 5,
+        "quote": "which appears as a part of his Ph.D. thesis at Imperial College, London [72, 73]."
+      }
+    ]
+  },
+  {
+    "id": "chamseddine_worked_cern",
+    "source": "ali_chamseddine",
+    "type": "worked_at",
+    "target": "cern",
+    "sources": [
+      {
+        "source_id": "nath_reminiscences_2015",
+        "page": 5,
+        "quote": "after culmination of his Fellowship period at CERN."
+      }
+    ]
+  },
+  {
+    "id": "arnowitt_developed_effective_lagrangian",
+    "source": "richard_lewis_arnowitt",
+    "type": "developed",
+    "target": "effective_lagrangian_method",
+    "event_id": "effective_lagrangian_work",
+    "sources": [
+      {
+        "source_id": "nath_reminiscences_2015",
+        "page": 1,
+        "quote": "using the eﬀective Lagrangian method to compute the mesonic vertices [5–7]."
+      }
+    ]
+  },
+  {
+    "id": "arnowitt_developed_gauge_supersymmetry",
+    "source": "richard_lewis_arnowitt",
+    "type": "developed",
+    "target": "gauge_supersymmetry",
+    "event_id": "gauge_supersymmetry_formulation",
+    "sources": [
+      {
+        "source_id": "nath_reminiscences_2015",
+        "page": 4,
+        "quote": "This lead to the formulation of gauge supersymmetry [52]"
+      }
+    ]
+  },
+  {
+    "id": "arnowitt_developed_sugra_gut",
+    "source": "richard_lewis_arnowitt",
+    "type": "developed",
+    "target": "supergravity_grand_unification",
+    "event_id": "sugra_gut_publication",
+    "sources": [
+      {
+        "source_id": "nath_reminiscences_2015",
+        "page": 6,
+        "quote": "we were able to formulate the ﬁrst phenomenologically viable supergravity grand uniﬁed model with gravity mediated breaking [79–81]"
+      }
+    ]
+  }
+]

@@ -59,11 +59,15 @@ scripts/backup_evidence.py
 # reports "run to completion".
 #   tracked: chemistry_history_taxonomy.json, materials_taxonomy.json
 physics_taxonomy.json
+cs_taxonomy.json
 
 # Per-domain pipeline state -- bookkeeping, never useful outside this machine.
 pipeline_state.json
 chemistry_state.json
 physics_state.json
+cs_state.json
 
 # Working notes, not a project artifact.
 working-taxonomy-of-science.docx
+cs_taxonomy.json
+cs_state.json

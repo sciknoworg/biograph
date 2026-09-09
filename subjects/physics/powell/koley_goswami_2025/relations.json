@@ -1,0 +1,154 @@
+[
+  {
+    "id": "bibha_born_kolkata",
+    "source": "bibha_chowdhuri",
+    "type": "born_in",
+    "target": "kolkata",
+    "event_id": "birth",
+    "sources": [
+      {
+        "source_id": "koley_goswami_2025",
+        "page": 2,
+        "quote": "Dr. Bibha Chowdhuri was born on 3 July 1913 in Kolkata, into a progressive zamindar family from Bhandarhati in Dhaniakhali Block in Hooghly district, West Bengal."
+      }
+    ]
+  },
+  {
+    "id": "bibha_studied_calcutta",
+    "source": "bibha_chowdhuri",
+    "type": "studied_at",
+    "target": "university_of_calcutta",
+    "event_id": "msc_degree",
+    "sources": [
+      {
+        "source_id": "koley_goswami_2025",
+        "page": 2,
+        "quote": "She received M.Sc. degree in Physics under Professor D.M. Bose at University of Calcutta in 1936 (i.e. 1934-36 batch)."
+      }
+    ]
+  },
+  {
+    "id": "bibha_worked_bose_institute",
+    "source": "bibha_chowdhuri",
+    "type": "worked_at",
+    "target": "bose_institute",
+    "event_id": "joined_bose_institute",
+    "sources": [
+      {
+        "source_id": "koley_goswami_2025",
+        "page": 2,
+        "quote": "Following the completion of her M.Sc. degree, Bibha Chowdhury began her professional and research career at the Bose Institute in Kolkata."
+      }
+    ]
+  },
+  {
+    "id": "bibha_supervised_bose",
+    "source": "bibha_chowdhuri",
+    "type": "supervised_by",
+    "target": "d_m_bose",
+    "event_id": "msc_degree",
+    "sources": [
+      {
+        "source_id": "koley_goswami_2025",
+        "page": 2,
+        "quote": "She received M.Sc. degree in Physics under Professor D.M. Bose at University of Calcutta in 1936 (i.e. 1934-36 batch)."
+      }
+    ]
+  },
+  {
+    "id": "bibha_collaborated_bose",
+    "source": "bibha_chowdhuri",
+    "type": "collaborated_with",
+    "target": "d_m_bose",
+    "sources": [
+      {
+        "source_id": "koley_goswami_2025",
+        "page": 1,
+        "quote": "Among her key collaborators were D. M. Bose and A. K. Ganguly, who worked with her for 5 and 8 years, respectively."
+      }
+    ]
+  },
+  {
+    "id": "bibha_worked_manchester",
+    "source": "bibha_chowdhuri",
+    "type": "worked_at",
+    "target": "university_of_manchester",
+    "event_id": "moved_to_manchester",
+    "sources": [
+      {
+        "source_id": "koley_goswami_2025",
+        "page": 3,
+        "quote": "In 1945, Bibha Chowdhury moved to Manchester to work in the laboratory of Sir Patrick Blackett, where she investigated extensive air showers using cloud chambers and Geiger-Müller counters."
+      }
+    ]
+  },
+  {
+    "id": "bibha_supervised_blackett",
+    "source": "bibha_chowdhuri",
+    "type": "supervised_by",
+    "target": "p_m_s_blackett",
+    "event_id": "phd_thesis_submitted",
+    "sources": [
+      {
+        "source_id": "koley_goswami_2025",
+        "page": 3,
+        "quote": "In 1945, Bibha Chowdhury moved to Manchester to work in the laboratory of Sir Patrick Blackett, where she investigated extensive air showers using cloud chambers and Geiger-Müller counters."
+      }
+    ]
+  },
+  {
+    "id": "bibha_worked_tifr",
+    "source": "bibha_chowdhuri",
+    "type": "worked_at",
+    "target": "tifr",
+    "event_id": "joined_tifr",
+    "sources": [
+      {
+        "source_id": "koley_goswami_2025",
+        "page": 3,
+        "quote": "Dr. Bibha returned to India in 1949 and became the first female researcher to work at the prestigious TIFR."
+      }
+    ]
+  },
+  {
+    "id": "bibha_worked_prl",
+    "source": "bibha_chowdhuri",
+    "type": "worked_at",
+    "target": "prl",
+    "event_id": "joined_prl",
+    "sources": [
+      {
+        "source_id": "koley_goswami_2025",
+        "page": 3,
+        "quote": "Bibha Chowdhury later joined the Physical Research Laboratory (PRL) in Ahmedabad, working under the leadership of Dr. Vikram Sarabhai."
+      }
+    ]
+  },
+  {
+    "id": "bibha_collaborated_ganguly",
+    "source": "bibha_chowdhuri",
+    "type": "collaborated_with",
+    "target": "a_k_ganguly",
+    "sources": [
+      {
+        "source_id": "koley_goswami_2025",
+        "page": 1,
+        "quote": "Among her key collaborators were D. M. Bose and A. K. Ganguly, who worked with her for 5 and 8 years, respectively."
+      }
+    ]
+  },
+  {
+    "id": "iau_awarded_star",
+    "source": "iau",
+    "type": "awarded",
+    "target": "star_bibha",
+    "event_id": "star_named",
+    "sources": [
+      {
+        "source_id": "koley_goswami_2025",
+        "page": 4,
+        "quote": "In recognition of her contributions to science, the International Astronomical Union named a star \"Bibha\" in 2019-a white-yellow dwarf located approximately 340 light-years away in the constellation Sextans."
+      }
+    ]
+  }
+]

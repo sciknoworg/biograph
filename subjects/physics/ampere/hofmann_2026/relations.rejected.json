@@ -1,0 +1,17 @@
+[
+  {
+    "id": "ampere_born_1775",
+    "source": "andre_marie_ampere",
+    "type": "born_in",
+    "target": "andre_marie_ampere",
+    "event_id": "ampere_birth",
+    "sources": [
+      {
+        "source_id": "hofmann_2026",
+        "page": 2,
+        "quote": "The 2025 commemoration of the 250th anniversary of André-Marie Ampère' s birth in 1775"
+      }
+    ],
+    "_rejected_because": "'born_in' expects target entity_type place, but 'andre_marie_ampere' is 'person'"
+  }
+]

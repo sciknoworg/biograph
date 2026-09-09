@@ -1,0 +1,76 @@
+[
+  {
+    "id": "landauer_supervised_by_brillouin",
+    "source": "rolf_landauer",
+    "type": "supervised_by",
+    "target": "leon_brillouin",
+    "note": "Brillouin was Landauer's Ph.D. supervisor at Harvard.",
+    "sources": [
+      {
+        "source_id": "anta_hoefer_2025",
+        "page": 7,
+        "quote": "Actually, Brillouin was Landauer's Ph.D. supervisor at Harvard"
+      }
+    ]
+  },
+  {
+    "id": "landauer_employed_by_ibm",
+    "source": "rolf_landauer",
+    "type": "employed_by",
+    "target": "ibm",
+    "start": {
+      "precision": "year",
+      "display": "1952",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "anta_hoefer_2025",
+        "page": 2,
+        "quote": "worker at IBM since 1952"
+      }
+    ]
+  },
+  {
+    "id": "landauer_studied_at_harvard",
+    "source": "rolf_landauer",
+    "type": "studied_at",
+    "target": "harvard_university",
+    "sources": [
+      {
+        "source_id": "anta_hoefer_2025",
+        "page": 2,
+        "quote": "Ph.D. from Harvard"
+      }
+    ]
+  },
+  {
+    "id": "landauer_collaborated_with_swanson",
+    "source": "rolf_landauer",
+    "type": "collaborated_with",
+    "target": "john_swanson",
+    "note": "Friendship and collaboration at IBM starting from their time at Harvard.",
+    "sources": [
+      {
+        "source_id": "anta_hoefer_2025",
+        "page": 4,
+        "quote": "The computer scientists and physicist John Swanson was decisive in Landauer's intellectual formation"
+      }
+    ]
+  },
+  {
+    "id": "landauer_collaborated_with_bennett",
+    "source": "rolf_landauer",
+    "type": "collaborated_with",
+    "target": "charles_bennett",
+    "note": "Bennett was a co-worker within the intellectual context of IBM.",
+    "sources": [
+      {
+        "source_id": "anta_hoefer_2025",
+        "page": 3,
+        "quote": "known only to his co-workers within the intellectual context of IBM, namely: Robert Keyes, James Woo (both collaborated with Landauer in later reformulations of the ideas of 1961), John Swanson and Charles Bennett."
+      }
+    ]
+  }
+]

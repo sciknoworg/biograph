@@ -1,0 +1,17 @@
+[
+  {
+    "id": "lederman_led_cfs",
+    "source": "leon_lederman",
+    "type": "member_of",
+    "target": "e288_experiment",
+    "note": "Spokesman and leading light",
+    "sources": [
+      {
+        "source_id": "yoh_1997_discovery_b_quark",
+        "page": 1,
+        "quote": "Leon Lederman, the \\founding father\" and \\leading light\" of the experiment, as well as the collaboration's spokesman."
+      }
+    ],
+    "_rejected_because": "'member_of' expects target entity_type organization, but 'e288_experiment' is 'artifact'"
+  }
+]

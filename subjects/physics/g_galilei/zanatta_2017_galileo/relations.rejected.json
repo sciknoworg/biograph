@@ -1,0 +1,17 @@
+[
+  {
+    "id": "galileo_supervised_holy_office",
+    "source": "galileo_galilei",
+    "type": "supervised_by",
+    "target": "holy_office",
+    "event_id": "galileo_trial",
+    "sources": [
+      {
+        "source_id": "zanatta_2017",
+        "page": 6,
+        "quote": "He was put into jail and in June 1633, brought to trial in the Church of Santa Maria Minerva (Figure 11)."
+      }
+    ],
+    "_rejected_because": "'supervised_by' expects target entity_type person, but 'holy_office' is 'organization'"
+  }
+]

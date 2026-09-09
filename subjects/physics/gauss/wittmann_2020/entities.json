@@ -1,0 +1,185 @@
+[
+  {
+    "id": "carl_friedrich_gauss",
+    "entity_type": "person",
+    "name": "Carl Friedrich Gauss",
+    "aliases": [
+      "Gauss"
+    ],
+    "summary": "German mathematician, astronomer, and physicist known for contributions to number theory, statistics, analysis, differential geometry, geodesy, geophysics, electrostatics, astronomy, and optics.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "axel_d_wittmann",
+    "entity_type": "person",
+    "name": "Axel D. Wittmann",
+    "summary": "Author of the source document, affiliated with Institut für Astrophysik, University of Göttingen.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "university_of_gottingen",
+    "entity_type": "organization",
+    "name": "University of Göttingen",
+    "aliases": [
+      "university in Göttingen"
+    ],
+    "summary": "University in Göttingen, Germany, where Gauss studied and later worked.",
+    "subtype": "university"
+  },
+  {
+    "id": "gottingen_astronomical_observatory",
+    "entity_type": "organization",
+    "name": "Göttingen Astronomical Observatory",
+    "aliases": [
+      "Göttingen Observatory",
+      "Sternwarte Göttingen",
+      "Historic Observatory"
+    ],
+    "summary": "Astronomical observatory in Göttingen directed by Gauss from 1807.",
+    "subtype": "lab"
+  },
+  {
+    "id": "gauss_society",
+    "entity_type": "organization",
+    "name": "Gauss Society",
+    "aliases": [
+      "Gauss-Gesellschaft e.V."
+    ],
+    "summary": "Registered association founded in Göttingen in 1962 to preserve the memory of Gauss.",
+    "subtype": "organization"
+  },
+  {
+    "id": "brunswick",
+    "entity_type": "place",
+    "name": "Brunswick",
+    "aliases": [
+      "Braunschweig"
+    ],
+    "summary": "City in Germany where Gauss was born.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Germany"
+    }
+  },
+  {
+    "id": "helmstedt",
+    "entity_type": "place",
+    "name": "Helmstedt",
+    "summary": "City in Germany where Gauss received his doctoral degree.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Germany"
+    }
+  },
+  {
+    "id": "gottingen",
+    "entity_type": "place",
+    "name": "Göttingen",
+    "summary": "City in Germany where Gauss studied and worked.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Germany"
+    }
+  },
+  {
+    "id": "johanna_osthoff",
+    "entity_type": "person",
+    "name": "Johanna Osthoff",
+    "summary": "First wife of Carl Friedrich Gauss.",
+    "subtype": "family"
+  },
+  {
+    "id": "wilhelmine_waldeck",
+    "entity_type": "person",
+    "name": "Wilhelmine Waldeck",
+    "summary": "Second wife of Carl Friedrich Gauss.",
+    "subtype": "family"
+  },
+  {
+    "id": "wilhelm_weber",
+    "entity_type": "person",
+    "name": "Wilhelm Weber",
+    "aliases": [
+      "Weber"
+    ],
+    "summary": "Physicist who collaborated with Gauss on magnetism and the electromagnetic telegraph.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "giuseppe_piazzi",
+    "entity_type": "person",
+    "name": "Giuseppe Piazzi",
+    "summary": "Italian astronomer who observed Ceres on 1 January 1801.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "franz_xaver_von_zach",
+    "entity_type": "person",
+    "name": "Franz Xaver von Zach",
+    "summary": "Astronomer who rediscovered Ceres in December 1801 using Gauss's calculations.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "duke_of_brunswick",
+    "entity_type": "person",
+    "name": "Carl Wilhelm Ferdinand",
+    "aliases": [
+      "Duke of Brunswick"
+    ],
+    "summary": "Duke of Brunswick who sponsored Gauss's education.",
+    "subtype": "patron"
+  },
+  {
+    "id": "ceres",
+    "entity_type": "artifact",
+    "name": "Ceres Ferdinandea",
+    "aliases": [
+      "Ceres",
+      "missing planet"
+    ],
+    "summary": "Dwarf planet rediscovered in 1801 using Gauss's orbit calculations.",
+    "subtype": "astronomical_object"
+  },
+  {
+    "id": "disquisitiones_arithmeticae",
+    "entity_type": "artifact",
+    "name": "Disquisitiones arithmeticae",
+    "summary": "Gauss's main mathematical monograph published in 1801.",
+    "subtype": "publication"
+  },
+  {
+    "id": "theoria_motus",
+    "entity_type": "artifact",
+    "name": "Theoria Motus Corporum Coelestium",
+    "summary": "Gauss's important monograph in astronomy published in 1809.",
+    "subtype": "publication"
+  },
+  {
+    "id": "heliotrope",
+    "entity_type": "artifact",
+    "name": "Heliotrope",
+    "summary": "Device invented by Gauss to direct sunlight with arcsecond accuracy for surveying.",
+    "subtype": "invention"
+  },
+  {
+    "id": "electromagnetic_telegraph",
+    "entity_type": "artifact",
+    "name": "Electromagnetic telegraph",
+    "summary": "First fully operational electromagnetic telegraph invented by Gauss and Weber in 1833.",
+    "subtype": "invention"
+  },
+  {
+    "id": "julius_bartels",
+    "entity_type": "person",
+    "name": "Julius Bartels",
+    "summary": "Geophysicist and first president of the Gauss Society.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "horst_michling",
+    "entity_type": "person",
+    "name": "Horst Michling",
+    "summary": "Head of the geodesy department of the Göttingen town administration and founder of the Gauss Society.",
+    "subtype": "administrator"
+  }
+]

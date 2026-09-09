@@ -1,0 +1,636 @@
+[
+  {
+    "id": "birth",
+    "event_type": "birth",
+    "label": "Born in Budapest",
+    "date": {
+      "display": "11th May 1881",
+      "precision": "day",
+      "sort_start": "1881-05-11",
+      "sort_end": "1881-05-11"
+    },
+    "location": "budapest",
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 1,
+        "quote": "He was born in Budapest on 11th May 1881."
+      }
+    ]
+  },
+  {
+    "id": "graduation_budapest",
+    "event_type": "education",
+    "label": "Graduated from Budapest Royal Technical University",
+    "date": {
+      "display": "1902",
+      "precision": "year",
+      "sort_start": "1902-01-01",
+      "sort_end": "1902-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "budapest_royal_technical_university",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 1,
+        "quote": "Graduating with highest honours as a mechanical engineer from the Budapest Royal Technical University in 1902"
+      }
+    ]
+  },
+  {
+    "id": "enrollment_gottingen",
+    "event_type": "education",
+    "label": "Enrolled at University of Gottingen",
+    "date": {
+      "display": "1906",
+      "precision": "year",
+      "sort_start": "1906-01-01",
+      "sort_end": "1906-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_gottingen",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 1,
+        "quote": "In 1906 von Karman decided to resume his technical studies and accordingly dropped his engineering work to enroll as an advanced student at the University of Gottingen."
+      }
+    ]
+  },
+  {
+    "id": "phd_gottingen",
+    "event_type": "education",
+    "label": "Awarded Ph.D. by Gottingen",
+    "date": {
+      "display": "1908",
+      "precision": "year",
+      "sort_start": "1908-01-01",
+      "sort_end": "1908-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_gottingen",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 1,
+        "quote": "Gottingen awarded him the Ph.D. degree in 1908"
+      }
+    ]
+  },
+  {
+    "id": "privatdozent_gottingen",
+    "event_type": "employment_start",
+    "label": "Appointed Privatdozent at Gottingen",
+    "date": {
+      "display": "1909",
+      "precision": "year",
+      "sort_start": "1909-01-01",
+      "sort_end": "1909-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_gottingen",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 1,
+        "quote": "appointed him Privatdozent in 1909"
+      }
+    ]
+  },
+  {
+    "id": "professor_aachen",
+    "event_type": "employment_start",
+    "label": "Made Professor at University of Aachen",
+    "date": {
+      "display": "1912",
+      "precision": "year",
+      "sort_start": "1912-01-01",
+      "sort_end": "1912-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_aachen",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 1,
+        "quote": "1912, when he was made Professor of Aeronautics and Mechanics and Director of the newly established Aeronautical Institute of the University of Aachen."
+      }
+    ]
+  },
+  {
+    "id": "aviation_corps_service_end",
+    "event_type": "employment_end",
+    "label": "Returned to Aachen after war service",
+    "date": {
+      "display": "late 1918",
+      "precision": "year",
+      "sort_start": "1918-01-01",
+      "sort_end": "1918-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "austro_hungarian_aviation_corps",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 1,
+        "quote": "late 1918, when he returned to Aachen."
+      }
+    ]
+  },
+  {
+    "id": "visit_us",
+    "event_type": "visit",
+    "label": "First visit to the United States",
+    "date": {
+      "display": "1926",
+      "precision": "year",
+      "sort_start": "1926-01-01",
+      "sort_end": "1926-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "united_states",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 1,
+        "quote": "In 1926 von Karman made his first visit to the United States"
+      }
+    ]
+  },
+  {
+    "id": "research_associate_caltech",
+    "event_type": "employment_start",
+    "label": "Became Research Associate at Caltech",
+    "date": {
+      "display": "1928",
+      "precision": "year",
+      "sort_start": "1928-01-01",
+      "sort_end": "1928-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "california_institute_of_technology",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 1,
+        "quote": "In 1928 von Karman became Research Associate of the California Institute of Technology"
+      }
+    ]
+  },
+  {
+    "id": "settle_california",
+    "event_type": "relocation",
+    "label": "Settled permanently in California",
+    "date": {
+      "display": "1930",
+      "precision": "year",
+      "sort_start": "1930-01-01",
+      "sort_end": "1930-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "pasadena",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 1,
+        "quote": "in 1930 settled permanently in California, becoming Director of the Guggenheim Aeronautical Laboratory at the California Institute of Technology"
+      }
+    ]
+  },
+  {
+    "id": "director_galcit",
+    "event_type": "employment_start",
+    "label": "Became Director of GALCIT",
+    "date": {
+      "display": "1930",
+      "precision": "year",
+      "sort_start": "1930-01-01",
+      "sort_end": "1930-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "galcit",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 1,
+        "quote": "in 1930 settled permanently in California, becoming Director of the Guggenheim Aeronautical Laboratory at the California Institute of Technology"
+      }
+    ]
+  },
+  {
+    "id": "us_citizenship",
+    "event_type": "other",
+    "label": "Became United States citizen",
+    "date": {
+      "display": "1936",
+      "precision": "year",
+      "sort_start": "1936-01-01",
+      "sort_end": "1936-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 2,
+        "quote": "became a United States citizen in 1936"
+      }
+    ]
+  },
+  {
+    "id": "rocket_funding_nas",
+    "event_type": "other",
+    "label": "Obtained rocket programme support from National Academy of Sciences",
+    "date": {
+      "display": "1939",
+      "precision": "year",
+      "sort_start": "1939-01-01",
+      "sort_end": "1939-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "national_academy_of_sciences",
+        "role": "funder"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 2,
+        "quote": "In 1939 von Karman obtained the first substantial support for the rocket programme from the National Academy of Sciences"
+      }
+    ]
+  },
+  {
+    "id": "aerojet_founded",
+    "event_type": "company_founded",
+    "label": "Organised Aerojet Engineering Company",
+    "date": {
+      "display": "1942",
+      "precision": "year",
+      "sort_start": "1942-01-01",
+      "sort_end": "1942-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "founder"
+      },
+      {
+        "entity_id": "aerojet_engineering_company",
+        "role": "company"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 2,
+        "quote": "von Karman with a few colleagues and friends in 1942 organised the Aerojet Engineering Company"
+      }
+    ]
+  },
+  {
+    "id": "jpl_established",
+    "event_type": "other",
+    "label": "Established Jet Propulsion Laboratory",
+    "date": {
+      "display": "Early 1944",
+      "precision": "year",
+      "sort_start": "1944-01-01",
+      "sort_end": "1944-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "director"
+      },
+      {
+        "entity_id": "jet_propulsion_laboratory",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 2,
+        "quote": "Early in 1944 the Army Ordnance Corps arranged to take over the sponsorship of the Laboratory which was then established as the Jet Propulsion Laboratory (JPL)"
+      }
+    ]
+  },
+  {
+    "id": "jato_flight",
+    "event_type": "public_demonstration",
+    "label": "First successful JATO flight",
+    "date": {
+      "display": "September 1944",
+      "precision": "month",
+      "sort_start": "1944-09-01",
+      "sort_end": "1944-09-30"
+    },
+    "location": "march_field",
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "jato",
+        "role": "artifact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 2,
+        "quote": "in September 1944 the first successful JATO flight in the United States was accomplished"
+      }
+    ]
+  },
+  {
+    "id": "leave_caltech",
+    "event_type": "employment_end",
+    "label": "Granted leave of absence from Caltech",
+    "date": {
+      "display": "fall of 1944",
+      "precision": "year",
+      "sort_start": "1944-01-01",
+      "sort_end": "1944-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "california_institute_of_technology",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 3,
+        "quote": "he was accordingly granted a leave of absence from Caltech in the fall of 1944"
+      }
+    ]
+  },
+  {
+    "id": "professor_emeritus",
+    "event_type": "role_change",
+    "label": "Became Professor Emeritus",
+    "date": {
+      "display": "1949",
+      "precision": "year",
+      "sort_start": "1949-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "california_institute_of_technology",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 3,
+        "quote": "becoming Professor Emeritus in 1949."
+      }
+    ]
+  },
+  {
+    "id": "agard_organized",
+    "event_type": "other",
+    "label": "Organised AGARD",
+    "date": {
+      "display": "1951",
+      "precision": "year",
+      "sort_start": "1951-01-01",
+      "sort_end": "1951-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "organizer"
+      },
+      {
+        "entity_id": "agard",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 3,
+        "quote": "In 1951 he undertook the organisation of the NATO Advisory Group for Aeronautical Research and Development (AGARD)"
+      }
+    ]
+  },
+  {
+    "id": "sab_chairman_emeritus",
+    "event_type": "role_change",
+    "label": "Title changed to Chairman Emeritus of SAB",
+    "date": {
+      "display": "1954",
+      "precision": "year",
+      "sort_start": "1954-01-01",
+      "sort_end": "1954-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "air_force_scientific_advisory_board",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 2,
+        "quote": "until 1954, when his title was changed to Chairman Emeritus."
+      }
+    ]
+  },
+  {
+    "id": "explorer_i_launch",
+    "event_type": "product_launch",
+    "label": "Launched Explorer I",
+    "date": {
+      "display": "31st January 1958",
+      "precision": "day",
+      "sort_start": "1958-01-31",
+      "sort_end": "1958-01-31"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "explorer_i",
+        "role": "artifact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 2,
+        "quote": "On 31st January 1958, with the Army Ballistic Missile Agency furnishing the booster and JPL the upper stages, was launched America's first earth satellite, Explorer I."
+      }
+    ]
+  },
+  {
+    "id": "mariner_ii_flight",
+    "event_type": "other",
+    "label": "Mariner II flight past Venus",
+    "date": {
+      "display": "14th December 1962",
+      "precision": "day",
+      "sort_start": "1962-12-14",
+      "sort_end": "1962-12-14"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "mariner_ii",
+        "role": "artifact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 2,
+        "quote": "Mariner II flight in which a highly instrumented spacecraft, on 14th December 1962, after a 109 day journey from the earth, passed within about 21 000 miles of the planet Venus"
+      }
+    ]
+  },
+  {
+    "id": "death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "7th May 1963",
+      "precision": "day",
+      "sort_start": "1963-05-07",
+      "sort_end": "1963-05-07"
+    },
+    "participants": [
+      {
+        "entity_id": "theodore_von_karman",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "millikan_1963",
+        "page": 1,
+        "quote": "death on 7th May 1963."
+      }
+    ]
+  }
+]

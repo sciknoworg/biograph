@@ -1,0 +1,538 @@
+[
+  {
+    "id": "gauss_birth",
+    "event_type": "birth",
+    "label": "Born in Brunswick",
+    "date": {
+      "display": "30 April 1777",
+      "precision": "day",
+      "sort_start": "1777-04-30",
+      "sort_end": "1777-04-30"
+    },
+    "participants": [
+      {
+        "entity_id": "carl_friedrich_gauss",
+        "role": "subject"
+      }
+    ],
+    "location": "brunswick",
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 1,
+        "quote": "Gauss was born in Brunswick on 30 April 1777."
+      }
+    ]
+  },
+  {
+    "id": "gauss_study_gottingen",
+    "event_type": "education",
+    "label": "Studied at University of Göttingen",
+    "date": {
+      "display": "1795–1798",
+      "precision": "range",
+      "sort_start": "1795-01-01",
+      "sort_end": "1798-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "carl_friedrich_gauss",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_gottingen",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 1,
+        "quote": "he received a stipend which enabled him to study \"abroad\", at the university in Göttingen"
+      }
+    ]
+  },
+  {
+    "id": "heptadecagon_discovery",
+    "event_type": "invention",
+    "label": "Discovered constructibility of the heptadecagon",
+    "date": {
+      "display": "1796",
+      "precision": "year",
+      "sort_start": "1796-01-01",
+      "sort_end": "1796-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "carl_friedrich_gauss",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 1,
+        "quote": "When he was a student in Göttingen in 1796 (and on a short visit to his parents in Brunswick), Gauss made his ﬁrst important discovery in mathematics."
+      }
+    ]
+  },
+  {
+    "id": "gauss_doctorate",
+    "event_type": "education",
+    "label": "Received doctoral degree from Helmstedt",
+    "date": {
+      "display": "September 1798",
+      "precision": "month",
+      "sort_start": "1798-09-01",
+      "sort_end": "1798-09-30"
+    },
+    "participants": [
+      {
+        "entity_id": "carl_friedrich_gauss",
+        "role": "subject"
+      }
+    ],
+    "location": "helmstedt",
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 2,
+        "quote": "In September 1798 Gauss returned to Brunswick and started his doctoral degree, which he received from the Duke of Brunswick's own university in Helmstedt."
+      }
+    ]
+  },
+  {
+    "id": "easter_algorithm_publication",
+    "event_type": "publication",
+    "label": "Published algorithm for calculating Easter date",
+    "date": {
+      "display": "August 1800",
+      "precision": "month",
+      "sort_start": "1800-08-01",
+      "sort_end": "1800-08-31"
+    },
+    "participants": [
+      {
+        "entity_id": "carl_friedrich_gauss",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 2,
+        "quote": "In August 1800, Gauss published a numerical algorithm for calculating the date of Easter."
+      }
+    ]
+  },
+  {
+    "id": "disquisitiones_publication",
+    "event_type": "publication",
+    "label": "Published Disquisitiones arithmeticae",
+    "date": {
+      "display": "1801",
+      "precision": "year",
+      "sort_start": "1801-01-01",
+      "sort_end": "1801-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "carl_friedrich_gauss",
+        "role": "subject"
+      },
+      {
+        "entity_id": "disquisitiones_arithmeticae",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 2,
+        "quote": "In 1801 he published his main mathematical monograph, the Disquisitiones arithmeticae."
+      }
+    ]
+  },
+  {
+    "id": "ceres_observation",
+    "event_type": "other",
+    "label": "Piazzi observed Ceres",
+    "date": {
+      "display": "1 January 1801",
+      "precision": "day",
+      "sort_start": "1801-01-01",
+      "sort_end": "1801-01-01"
+    },
+    "participants": [
+      {
+        "entity_id": "giuseppe_piazzi",
+        "role": "observer"
+      },
+      {
+        "entity_id": "ceres",
+        "role": "object"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 2,
+        "quote": "On 1 January 1801, the Italian astronomer Giuseppe Piazzi observed a small, star-like object of an eighth magnitude"
+      }
+    ]
+  },
+  {
+    "id": "ceres_rediscovery",
+    "event_type": "other",
+    "label": "Ceres rediscovered by von Zach",
+    "date": {
+      "display": "December 1801",
+      "precision": "month",
+      "sort_start": "1801-12-01",
+      "sort_end": "1801-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "franz_xaver_von_zach",
+        "role": "observer"
+      },
+      {
+        "entity_id": "carl_friedrich_gauss",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "ceres",
+        "role": "object"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 2,
+        "quote": "it was not until Gauss published his calculations that Ceres – as the planet was ﬁnally named – was rediscovered in December 1801 by Franz Xaver von Zach."
+      }
+    ]
+  },
+  {
+    "id": "gauss_marriage_1",
+    "event_type": "other",
+    "label": "Married Johanna Osthoff",
+    "date": {
+      "display": "1805",
+      "precision": "year",
+      "sort_start": "1805-01-01",
+      "sort_end": "1805-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "carl_friedrich_gauss",
+        "role": "subject"
+      },
+      {
+        "entity_id": "johanna_osthoff",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 2,
+        "quote": "In 1805, Gauss married a charming young lady from Brunswick, Johanna Osthoff."
+      }
+    ]
+  },
+  {
+    "id": "johanna_death",
+    "event_type": "death",
+    "label": "Johanna Osthoff died",
+    "date": {
+      "display": "1809",
+      "precision": "year",
+      "sort_start": "1809-01-01",
+      "sort_end": "1809-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "johanna_osthoff",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 2,
+        "quote": "She was the great love of his life but, unfortunately, died 4 years later."
+      }
+    ]
+  },
+  {
+    "id": "gauss_appointment",
+    "event_type": "employment_start",
+    "label": "Appointed Professor of Astronomy and Director of Göttingen Observatory",
+    "date": {
+      "display": "1807",
+      "precision": "year",
+      "sort_start": "1807-01-01",
+      "sort_end": "1807-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "carl_friedrich_gauss",
+        "role": "subject"
+      },
+      {
+        "entity_id": "gottingen_astronomical_observatory",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 2,
+        "quote": "In 1807 – shortly before Göttingen came under the rule of Jerôme Bonaparte – Gauss was appointed as a professor of astronomy and the director of the Göttingen University Observatory by the Hanoverian government."
+      }
+    ]
+  },
+  {
+    "id": "gauss_marriage_2",
+    "event_type": "other",
+    "label": "Married Wilhelmine Waldeck",
+    "date": {
+      "display": "c. 1810",
+      "precision": "circa",
+      "sort_start": "1809-01-01",
+      "sort_end": "1810-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "carl_friedrich_gauss",
+        "role": "subject"
+      },
+      {
+        "entity_id": "wilhelmine_waldeck",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 2,
+        "quote": "Following the terrible shock after the loss of his beloved Johanna, Gauss mourned intensively and then married again, this time to Wilhelmine Waldeck"
+      }
+    ]
+  },
+  {
+    "id": "theoria_motus_publication",
+    "event_type": "publication",
+    "label": "Published Theoria Motus Corporum Coelestium",
+    "date": {
+      "display": "1809",
+      "precision": "year",
+      "sort_start": "1809-01-01",
+      "sort_end": "1809-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "carl_friedrich_gauss",
+        "role": "subject"
+      },
+      {
+        "entity_id": "theoria_motus",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 2,
+        "quote": "In 1809, Gauss published his most important monograph in astronomy, the Theoria Motus Corporum Coelestium"
+      }
+    ]
+  },
+  {
+    "id": "land_surveying_project",
+    "event_type": "employment_start",
+    "label": "Conducted land surveying project",
+    "date": {
+      "display": "1821–1824",
+      "precision": "range",
+      "sort_start": "1821-01-01",
+      "sort_end": "1824-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "carl_friedrich_gauss",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 3,
+        "quote": "From 1821 until 1824 he conducted and actively participated in the project of land surveying (\"triangulation\") in northern Germany"
+      }
+    ]
+  },
+  {
+    "id": "heliotrope_invention",
+    "event_type": "invention",
+    "label": "Invented the heliotrope",
+    "date": {
+      "display": "1821–1824",
+      "precision": "range",
+      "sort_start": "1821-01-01",
+      "sort_end": "1824-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "carl_friedrich_gauss",
+        "role": "subject"
+      },
+      {
+        "entity_id": "heliotrope",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 3,
+        "quote": "On this occasion, he invented the heliotrope, a device used to direct sunlight, with arcsecond accuracy, in any given direction."
+      }
+    ]
+  },
+  {
+    "id": "telegraph_invention",
+    "event_type": "invention",
+    "label": "Invented electromagnetic telegraph with Weber",
+    "date": {
+      "display": "April 1833",
+      "precision": "month",
+      "sort_start": "1833-04-01",
+      "sort_end": "1833-04-30"
+    },
+    "participants": [
+      {
+        "entity_id": "carl_friedrich_gauss",
+        "role": "subject"
+      },
+      {
+        "entity_id": "wilhelm_weber",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "electromagnetic_telegraph",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 3,
+        "quote": "And, in April 1833, Gauss and Weber invented the ﬁrst fully operational electromagnetic telegraph in the world."
+      }
+    ]
+  },
+  {
+    "id": "pendulum_invention",
+    "event_type": "invention",
+    "label": "Invented Foucault-type pendulum",
+    "date": {
+      "display": "1854",
+      "precision": "year",
+      "sort_start": "1854-01-01",
+      "sort_end": "1854-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "carl_friedrich_gauss",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 3,
+        "quote": "Gauss's last scientiﬁc achievement was a short, but very sensitive, Foucault-type pendulum, which he invented in 1854."
+      }
+    ]
+  },
+  {
+    "id": "gauss_death",
+    "event_type": "death",
+    "label": "Died in Göttingen",
+    "date": {
+      "display": "23 February 1855",
+      "precision": "day",
+      "sort_start": "1855-02-23",
+      "sort_end": "1855-02-23"
+    },
+    "participants": [
+      {
+        "entity_id": "carl_friedrich_gauss",
+        "role": "subject"
+      }
+    ],
+    "location": "gottingen",
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 3,
+        "quote": "Gauss died peacefully of heart and lung failure on 23 February 1855 at the age of almost 78."
+      }
+    ]
+  },
+  {
+    "id": "gauss_society_founded",
+    "event_type": "company_founded",
+    "label": "Gauss Society founded",
+    "date": {
+      "display": "17 May 1962",
+      "precision": "day",
+      "sort_start": "1962-05-17",
+      "sort_end": "1962-05-17"
+    },
+    "participants": [
+      {
+        "entity_id": "gauss_society",
+        "role": "organization"
+      },
+      {
+        "entity_id": "horst_michling",
+        "role": "founder"
+      }
+    ],
+    "location": "gottingen",
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 3,
+        "quote": "On 17 May 1962 the registered association called the \"Gauss-Gesellschaft\" (Gauss Society) was founded by a group of 14 persons in Göttingen"
+      }
+    ]
+  },
+  {
+    "id": "bartels_death",
+    "event_type": "death",
+    "label": "Julius Bartels died",
+    "date": {
+      "display": "March 1964",
+      "precision": "month",
+      "sort_start": "1964-03-01",
+      "sort_end": "1964-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julius_bartels",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wittmann_2020",
+        "page": 3,
+        "quote": "The ﬁrst president of the Gauss Society was the famous geophysicist Julius Bartels (Fig. 3), who, unfortunately, died in March 1964."
+      }
+    ]
+  }
+]

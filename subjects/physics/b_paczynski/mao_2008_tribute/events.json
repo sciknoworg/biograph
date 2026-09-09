@@ -1,0 +1,211 @@
+[
+  {
+    "id": "birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1940",
+      "precision": "year",
+      "sort_start": "1940-01-01",
+      "sort_end": "1940-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bohdan_paczynski",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mao_2008_tribute",
+        "page": 1,
+        "quote": "A Tribute to Bohdan Paczy´nski (1940-2007)"
+      }
+    ]
+  },
+  {
+    "id": "death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "April 19, 2007",
+      "precision": "day",
+      "sort_start": "2007-04-19",
+      "sort_end": "2007-04-19"
+    },
+    "participants": [
+      {
+        "entity_id": "bohdan_paczynski",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mao_2008_tribute",
+        "page": 2,
+        "quote": "since his death on April 19, 2007"
+      }
+    ]
+  },
+  {
+    "id": "mao_phd_period",
+    "event_type": "education",
+    "label": "Supervised Shude Mao's PhD",
+    "date": {
+      "display": "1990-1992",
+      "precision": "range",
+      "sort_start": "1990-01-01",
+      "sort_end": "1992-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bohdan_paczynski",
+        "role": "supervisor"
+      },
+      {
+        "entity_id": "shude_mao",
+        "role": "student"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mao_2008_tribute",
+        "page": 2,
+        "quote": "I was his PhD student from 1990-1992"
+      }
+    ]
+  },
+  {
+    "id": "microlensing_initiation",
+    "event_type": "publication",
+    "label": "Initiated gravitational microlensing field",
+    "description": "Published seminal work initiating the field of gravitational microlensing.",
+    "date": {
+      "display": "1986",
+      "precision": "year",
+      "sort_start": "1986-01-01",
+      "sort_end": "1986-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bohdan_paczynski",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mao_2008_tribute",
+        "page": 2,
+        "quote": "a field he initiated in 1986 [9]"
+      }
+    ]
+  },
+  {
+    "id": "publication_career_span",
+    "event_type": "publication",
+    "label": "Publication record spans 1965-2006",
+    "description": "His publication record spans for more than four decades.",
+    "date": {
+      "display": "1965-2006",
+      "precision": "range",
+      "sort_start": "1965-01-01",
+      "sort_end": "2006-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bohdan_paczynski",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mao_2008_tribute",
+        "page": 2,
+        "quote": "His publication record spans for more than four decades (from 1965-2006)"
+      }
+    ]
+  },
+  {
+    "id": "alcock_paczynski_test",
+    "event_type": "publication",
+    "label": "Published Alcock-Paczyński test",
+    "description": "Co-authored paper on the Alcock-Paczyński test in cosmology.",
+    "date": {
+      "display": "1979",
+      "precision": "year",
+      "sort_start": "1979-01-01",
+      "sort_end": "1979-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bohdan_paczynski",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mao_2008_tribute",
+        "page": 4,
+        "quote": "[1] Alcock, C., Paczynski, B. 1979, Nature, 281, 358"
+      }
+    ]
+  },
+  {
+    "id": "planet_detection_paper",
+    "event_type": "publication",
+    "label": "Published microlensing planet detection paper",
+    "description": "Co-authored paper proposing microlensing for finding extrasolar planets.",
+    "date": {
+      "display": "1991",
+      "precision": "year",
+      "sort_start": "1991-01-01",
+      "sort_end": "1991-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bohdan_paczynski",
+        "role": "author"
+      },
+      {
+        "entity_id": "shude_mao",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mao_2008_tribute",
+        "page": 3,
+        "quote": "At that time (at the beginning of 1991)... we worked intensively on the paper [3], and finished the work in two or three weeks"
+      }
+    ]
+  },
+  {
+    "id": "grb_paper",
+    "event_type": "publication",
+    "label": "Published gamma-ray burst cosmological origin paper",
+    "description": "Co-authored paper on the cosmological origin of gamma-ray bursts.",
+    "date": {
+      "display": "1992",
+      "precision": "year",
+      "sort_start": "1992-01-01",
+      "sort_end": "1992-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bohdan_paczynski",
+        "role": "author"
+      },
+      {
+        "entity_id": "shude_mao",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mao_2008_tribute",
+        "page": 4,
+        "quote": "[4] Mao, S., Paczy ´nski, B. 1992, 388, L45"
+      }
+    ]
+  }
+]

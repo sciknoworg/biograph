@@ -1,0 +1,438 @@
+[
+  {
+    "id": "vera_rubin_birth",
+    "event_type": "birth",
+    "label": "Born in Philadelphia",
+    "description": "Vera Rubin was born in 1928, just shy of her fifth birthday in 1933.",
+    "date": {
+      "display": "1928",
+      "precision": "year",
+      "sort_start": "1928-01-01",
+      "sort_end": "1928-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "vera_rubin",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yeager_2008_thesis",
+        "page": 1,
+        "quote": "Just shy of Rubin's fifth birthday, in 1933"
+      }
+    ]
+  },
+  {
+    "id": "move_to_washington_dc",
+    "event_type": "relocation",
+    "label": "Moved to Washington D.C.",
+    "description": "Rubin's family moved south to Washington D.C. around 1933.",
+    "date": {
+      "display": "c. 1933",
+      "precision": "circa",
+      "sort_start": "1933-01-01",
+      "sort_end": "1933-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "vera_rubin",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yeager_2008_thesis",
+        "page": 1,
+        "quote": "Around this time, Rubin, her parents, and her older sister moved south to Washington D.C."
+      }
+    ]
+  },
+  {
+    "id": "vassar_enrollment",
+    "event_type": "education",
+    "label": "Enrolled at Vassar College",
+    "description": "Rubin packed her bags and headed for New York's Hudson Valley in the fall of 1945.",
+    "date": {
+      "display": "fall 1945",
+      "precision": "month",
+      "sort_start": "1945-09-01",
+      "sort_end": "1945-11-30"
+    },
+    "participants": [
+      {
+        "entity_id": "vera_rubin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "vassar_college",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yeager_2008_thesis",
+        "page": 1,
+        "quote": "in the fall of 1945, she packed her bags and headed for New York's Hudson Valley."
+      }
+    ]
+  },
+  {
+    "id": "marriage_to_robert_rubin",
+    "event_type": "other",
+    "label": "Married Robert Rubin",
+    "description": "Rubin fell in love with Robert Rubin prior to her final year at Vassar and had a summer wedding in 1948.",
+    "date": {
+      "display": "summer 1948",
+      "precision": "month",
+      "sort_start": "1948-06-01",
+      "sort_end": "1948-08-31"
+    },
+    "participants": [
+      {
+        "entity_id": "vera_rubin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "robert_rubin",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yeager_2008_thesis",
+        "page": 1,
+        "quote": "Prior to her final year, she fell in love with Robert Rubin, and by the fall of 1947 was engaged. Not yet twenty, she was looking forward to a summer wedding"
+      }
+    ]
+  },
+  {
+    "id": "cornell_masters_start",
+    "event_type": "education",
+    "label": "Started Master's at Cornell",
+    "description": "Rubin joined her husband at Cornell University to earn a master's degree in astronomy.",
+    "date": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "vera_rubin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cornell_university",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yeager_2008_thesis",
+        "page": 1,
+        "quote": "Rubin joined her husband at Cornell University, where he was working on his doctoral degree in physics."
+      }
+    ]
+  },
+  {
+    "id": "aas_presentation",
+    "event_type": "conference",
+    "label": "Presented at AAS Meeting",
+    "description": "Rubin presented her research at the 1950 winter meeting of the American Astronomical Society.",
+    "date": {
+      "display": "1950",
+      "precision": "year",
+      "sort_start": "1950-01-01",
+      "sort_end": "1950-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "vera_rubin",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yeager_2008_thesis",
+        "page": 1,
+        "quote": "her thesis advisor, William Shaw, thought the results should be discussed at the 1950 winter meeting of the American Astronomical Society"
+      }
+    ]
+  },
+  {
+    "id": "phd_awarded",
+    "event_type": "award",
+    "label": "Awarded Ph.D.",
+    "description": "Rubin received her Ph.D. from Georgetown University in 1954.",
+    "date": {
+      "display": "1954",
+      "precision": "year",
+      "sort_start": "1954-01-01",
+      "sort_end": "1954-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "vera_rubin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "georgetown_university",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yeager_2008_thesis",
+        "page": 1,
+        "quote": "The avant-garde conclusion earned Rubin her Ph.D. in 1954"
+      }
+    ]
+  },
+  {
+    "id": "move_back_to_dc",
+    "event_type": "relocation",
+    "label": "Moved back to Washington D.C.",
+    "description": "The Rubins moved back to D.C. during the summer of 1960.",
+    "date": {
+      "display": "summer 1960",
+      "precision": "month",
+      "sort_start": "1960-06-01",
+      "sort_end": "1960-08-31"
+    },
+    "participants": [
+      {
+        "entity_id": "vera_rubin",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yeager_2008_thesis",
+        "page": 1,
+        "quote": "During the summer of 1960, the Rubins, now with four children, moved back to D.C."
+      }
+    ]
+  },
+  {
+    "id": "milky_way_rotation_curve",
+    "event_type": "publication",
+    "label": "Published Milky Way Rotation Curve",
+    "description": "Rubin and her students published findings on the Milky Way's rotation curve in 1962.",
+    "date": {
+      "display": "1962",
+      "precision": "year",
+      "sort_start": "1962-01-01",
+      "sort_end": "1962-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "vera_rubin",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yeager_2008_thesis",
+        "page": 1,
+        "quote": "The rotation curve she and her students drew for the Milky Way was unexpectedly, well, flat. ... This was 1962."
+      }
+    ]
+  },
+  {
+    "id": "move_to_san_diego",
+    "event_type": "relocation",
+    "label": "Moved to San Diego",
+    "description": "In 1963, Rubin's husband received a fellowship that took the family to UC San Diego.",
+    "date": {
+      "display": "1963",
+      "precision": "year",
+      "sort_start": "1963-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "vera_rubin",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yeager_2008_thesis",
+        "page": 1,
+        "quote": "In 1963, her husband received a fellowship that took the family to the University of California in San Diego"
+      }
+    ]
+  },
+  {
+    "id": "dtm_job_start",
+    "event_type": "employment_start",
+    "label": "Started at DTM",
+    "description": "Rubin first showed up for work at the Department of Terrestrial Magnetism on April Fools day 1965.",
+    "date": {
+      "display": "April 1, 1965",
+      "precision": "day",
+      "sort_start": "1965-04-01",
+      "sort_end": "1965-04-01"
+    },
+    "participants": [
+      {
+        "entity_id": "vera_rubin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "department_of_terrestrial_magnetism",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yeager_2008_thesis",
+        "page": 1,
+        "quote": "Rubin first showed up for work on April Fools day."
+      }
+    ]
+  },
+  {
+    "id": "andromeda_observation_start",
+    "event_type": "other",
+    "label": "Started Andromeda Observations",
+    "description": "Rubin and Ford set out to Kitt Peak to study Andromeda in 1967.",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "vera_rubin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "kent_ford",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yeager_2008_thesis",
+        "page": 1,
+        "quote": "It was 1967. The observatory had a fairly new 84-inch telescope and the two decided to use it."
+      }
+    ]
+  },
+  {
+    "id": "andromeda_paper_published",
+    "event_type": "publication",
+    "label": "Published Andromeda Paper",
+    "description": "Results were published in the Astrophysical Journal in February 1970.",
+    "date": {
+      "display": "February 1970",
+      "precision": "month",
+      "sort_start": "1970-02-01",
+      "sort_end": "1970-02-28"
+    },
+    "participants": [
+      {
+        "entity_id": "vera_rubin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "rubin_1970_paper",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yeager_2008_thesis",
+        "page": 1,
+        "quote": "the results were published in the Astrophysical Journal in February 1970."
+      }
+    ]
+  },
+  {
+    "id": "ostriker_peebles_proposal",
+    "event_type": "publication",
+    "label": "Dark Matter Halo Proposed",
+    "description": "Princeton theorists proposed the dark matter halo hypothesis in 1973.",
+    "date": {
+      "display": "1973",
+      "precision": "year",
+      "sort_start": "1973-01-01",
+      "sort_end": "1973-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jeremiah_ostriker",
+        "role": "author"
+      },
+      {
+        "entity_id": "p_james_e_peebles",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yeager_2008_thesis",
+        "page": 1,
+        "quote": "in 1973 the theorists officially proposed their striking hypothesis"
+      }
+    ]
+  },
+  {
+    "id": "kitt_peak_4m_telescope",
+    "event_type": "product_launch",
+    "label": "4-Meter Telescope Opened",
+    "description": "A larger telescope opened at Kitt Peak in 1974.",
+    "date": {
+      "display": "1974",
+      "precision": "year",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kitt_peak_national_observatory",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yeager_2008_thesis",
+        "page": 1,
+        "quote": "In 1974, an even larger telescope, one with a mirror four meters or 158 inches wide, opened at Kitt Peak."
+      }
+    ]
+  },
+  {
+    "id": "kitt_peak_observing_run",
+    "event_type": "other",
+    "label": "Kitt Peak Observing Run",
+    "description": "Rubin conducted an observing run at Kitt Peak in November 2007.",
+    "date": {
+      "display": "November 2007",
+      "precision": "month",
+      "sort_start": "2007-11-01",
+      "sort_end": "2007-11-30"
+    },
+    "participants": [
+      {
+        "entity_id": "vera_rubin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "deirdre_hunter",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yeager_2008_thesis",
+        "page": 1,
+        "quote": "Tonight and tomorrow are her last two in the fourteen-night observing run she is doing with Hunter."
+      }
+    ]
+  }
+]

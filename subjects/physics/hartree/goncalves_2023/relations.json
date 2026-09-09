@@ -1,0 +1,81 @@
+[
+  {
+    "id": "hartree_worked_cambridge",
+    "source": "douglas_hartree",
+    "type": "worked_at",
+    "target": "cambridge_university",
+    "start": {
+      "display": "1946",
+      "precision": "year",
+      "sort_start": "1946-01-01",
+      "sort_end": "1946-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "goncalves_2023",
+        "page": 3,
+        "quote": "Hartree, who had recently moved from Manchester to Cambridge to take up his Plummer Chair of Mathematical Physics at the Cavendish Laboratory..."
+      }
+    ]
+  },
+  {
+    "id": "hartree_worked_npl",
+    "source": "douglas_hartree",
+    "type": "member_of",
+    "target": "national_physical_laboratory",
+    "start": {
+      "display": "1946",
+      "precision": "year",
+      "sort_start": "1946-01-01",
+      "sort_end": "1946-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "goncalves_2023",
+        "page": 2,
+        "quote": "Hartree would soon become a member of the NPL Executive Committee."
+      }
+    ]
+  },
+  {
+    "id": "hartree_developed_hartree_fock",
+    "source": "douglas_hartree",
+    "type": "developed",
+    "target": "hartree_fock_method",
+    "sources": [
+      {
+        "source_id": "goncalves_2023",
+        "page": 10,
+        "quote": "Perhaps his most famous scientific contribution is his insight into how to solve the Schrödinger equation for a multielectron atom using a self-consistent field approximation scheme [25]."
+      }
+    ]
+  },
+  {
+    "id": "hartree_collaborated_turing",
+    "source": "douglas_hartree",
+    "type": "collaborated_with",
+    "target": "alan_turing",
+    "note": "Disputed the meaning of digital computers.",
+    "sources": [
+      {
+        "source_id": "goncalves_2023",
+        "page": 1,
+        "quote": "In the postwar years, these questions were debated by Alan Turing and Douglas Hartree, who differed in their interpretations of the digital computer as a new piece of science and technology."
+      }
+    ]
+  },
+  {
+    "id": "hartree_cited_lovelace",
+    "source": "douglas_hartree",
+    "type": "published",
+    "target": "ada_lovelace",
+    "note": "Mobilized Lovelace's notes in his arguments.",
+    "sources": [
+      {
+        "source_id": "goncalves_2023",
+        "page": 7,
+        "quote": "This statement is quoted by Hartree [15, p. 70] who adds: 'This does not imply that it may not be possible to construct electronic equipment which will \"think for itself,\"...'"
+      }
+    ]
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "id": "riccardo_giacconi_born_in_genoa",
+    "source": "riccardo_giacconi",
+    "type": "born_in",
+    "target": "genoa",
+    "event_id": "birth_giacconi",
+    "sources": [
+      {
+        "source_id": "giacconi_2005_review",
+        "page": 2,
+        "quote": "I was born in Genoa, Italy, on October 6, 1931."
+      }
+    ]
+  },
+  {
+    "id": "riccardo_giacconi_educated_at_milano",
+    "source": "riccardo_giacconi",
+    "type": "studied_at",
+    "target": "university_of_milano",
+    "sources": [
+      {
+        "source_id": "giacconi_2005_review",
+        "page": 2,
+        "quote": "My thesis was in elementary particle physics at the University of Milano"
+      }
+    ]
+  },
+  {
+    "id": "riccardo_giacconi_educated_at_indiana",
+    "source": "riccardo_giacconi",
+    "type": "studied_at",
+    "target": "university_of_indiana",
+    "sources": [
+      {
+        "source_id": "giacconi_2005_review",
+        "page": 3,
+        "quote": "I was at the University of Indiana (1956–1958) on a Fulbright Fellowship"
+      }
+    ]
+  },
+  {
+    "id": "riccardo_giacconi_worked_at_ase",
+    "source": "riccardo_giacconi",
+    "type": "worked_at",
+    "target": "american_science_and_engineering",
+    "event_id": "joined_ase",
+    "sources": [
+      {
+        "source_id": "giacconi_2005_review",
+        "page": 4,
+        "quote": "In September 1959 I joined the staff of American Science and Engineering"
+      }
+    ]
+  },
+  {
+    "id": "riccardo_giacconi_collaborated_with_rossi",
+    "source": "riccardo_giacconi",
+    "type": "collaborated_with",
+    "target": "bruno_rossi",
+    "sources": [
+      {
+        "source_id": "giacconi_2005_review",
+        "page": 4,
+        "quote": "I had not seen Bruno Rossi since our first discussion, but he soon visited ASE"
+      }
+    ]
+  },
+  {
+    "id": "riccardo_giacconi_collaborated_with_gursky",
+    "source": "riccardo_giacconi",
+    "type": "collaborated_with",
+    "target": "herbert_gursky",
+    "sources": [
+      {
+        "source_id": "giacconi_2005_review",
+        "page": 6,
+        "quote": "The group now included Frank Paolini and Herbert Gursky in addition to myself."
+      }
+    ]
+  },
+  {
+    "id": "riccardo_giacconi_invented_sco_x1",
+    "source": "riccardo_giacconi",
+    "type": "invented",
+    "target": "sco_x1",
+    "event_id": "discovery_sco_x1",
+    "sources": [
+      {
+        "source_id": "giacconi_2005_review",
+        "page": 6,
+        "quote": "we discovered the first extrasolar X-ray source (Sco X-1)"
+      }
+    ]
+  },
+  {
+    "id": "riccardo_giacconi_worked_at_harvard",
+    "source": "riccardo_giacconi",
+    "type": "worked_at",
+    "target": "harvard_university",
+    "sources": [
+      {
+        "source_id": "giacconi_2005_review",
+        "page": 15,
+        "quote": "I was offered a Professorship at Harvard"
+      }
+    ]
+  },
+  {
+    "id": "riccardo_giacconi_worked_at_sao",
+    "source": "riccardo_giacconi",
+    "type": "worked_at",
+    "target": "smithsonian_astrophysical_observatory",
+    "sources": [
+      {
+        "source_id": "giacconi_2005_review",
+        "page": 15,
+        "quote": "The Harvard Observatory and the Smithsonian Astrophysical Observatory (SAO) were being reorganized"
+      }
+    ]
+  },
+  {
+    "id": "riccardo_giacconi_directed_stsci",
+    "source": "riccardo_giacconi",
+    "type": "worked_at",
+    "target": "space_telescope_science_institute",
+    "event_id": "stsci_director_start",
+    "sources": [
+      {
+        "source_id": "giacconi_2005_review",
+        "page": 18,
+        "quote": "becoming the first director of the STScI"
+      }
+    ]
+  },
+  {
+    "id": "riccardo_giacconi_directed_eso",
+    "source": "riccardo_giacconi",
+    "type": "worked_at",
+    "target": "european_southern_observatory",
+    "event_id": "eso_director_start",
+    "sources": [
+      {
+        "source_id": "giacconi_2005_review",
+        "page": 22,
+        "quote": "I enjoyed very much being the Director General of ESO"
+      }
+    ]
+  },
+  {
+    "id": "riccardo_giacconi_president_aui",
+    "source": "riccardo_giacconi",
+    "type": "worked_at",
+    "target": "associated_universities_incorporated",
+    "event_id": "aui_president_start",
+    "sources": [
+      {
+        "source_id": "giacconi_2005_review",
+        "page": 25,
+        "quote": "became President of AUI in July 1999"
+      }
+    ]
+  },
+  {
+    "id": "riccardo_giacconi_awarded_nobel",
+    "source": "riccardo_giacconi",
+    "type": "awarded",
+    "target": "nobel_prize_physics_2002",
+    "event_id": "nobel_prize",
+    "sources": [
+      {
+        "source_id": "giacconi_2005_review",
+        "page": 29,
+        "quote": "In 2002 he shared the Nobel Prize for Physics"
+      }
+    ]
+  }
+]

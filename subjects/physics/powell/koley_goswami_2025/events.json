@@ -1,0 +1,419 @@
+[
+  {
+    "id": "birth",
+    "event_type": "birth",
+    "label": "Born in Kolkata",
+    "date": {
+      "display": "3 July 1913",
+      "precision": "day",
+      "sort_start": "1913-07-03",
+      "sort_end": "1913-07-03"
+    },
+    "participants": [
+      {
+        "entity_id": "bibha_chowdhuri",
+        "role": "subject"
+      }
+    ],
+    "location": "kolkata",
+    "sources": [
+      {
+        "source_id": "koley_goswami_2025",
+        "page": 2,
+        "quote": "Dr. Bibha Chowdhuri was born on 3 July 1913 in Kolkata, into a progressive zamindar family from Bhandarhati in Dhaniakhali Block in Hooghly district, West Bengal."
+      }
+    ]
+  },
+  {
+    "id": "matriculation",
+    "event_type": "education",
+    "label": "Completed Matriculation",
+    "date": {
+      "display": "1928",
+      "precision": "year",
+      "sort_start": "1928-01-01",
+      "sort_end": "1928-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bibha_chowdhuri",
+        "role": "subject"
+      },
+      {
+        "entity_id": "bethune_school",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "koley_goswami_2025",
+        "page": 2,
+        "quote": "Dr. Bibha Chowdhuri Completed School (matriculation) in 1928 from Bethune School (f. 1849) in Kolkata, one of the oldest girls' schools in India as well as Asia."
+      }
+    ]
+  },
+  {
+    "id": "bsc_degree",
+    "event_type": "education",
+    "label": "Awarded B.Sc. Degree",
+    "date": {
+      "display": "1932",
+      "precision": "year",
+      "sort_start": "1932-01-01",
+      "sort_end": "1932-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bibha_chowdhuri",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_calcutta",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "koley_goswami_2025",
+        "page": 2,
+        "quote": "After that, she obtained B.Sc. degree with Honours in Physics from the same college of the University of Calcutta in 1932 (i.e. 1930-1932 batch) wherein Swami Vivekananda, Netaji Subhas Chandra Bose and many more celebrated persons studied."
+      }
+    ]
+  },
+  {
+    "id": "msc_degree",
+    "event_type": "education",
+    "label": "Awarded M.Sc. Degree",
+    "date": {
+      "display": "1936",
+      "precision": "year",
+      "sort_start": "1936-01-01",
+      "sort_end": "1936-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bibha_chowdhuri",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_calcutta",
+        "role": "institution"
+      },
+      {
+        "entity_id": "d_m_bose",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "koley_goswami_2025",
+        "page": 2,
+        "quote": "She received M.Sc. degree in Physics under Professor D.M. Bose at University of Calcutta in 1936 (i.e. 1934-36 batch)."
+      }
+    ]
+  },
+  {
+    "id": "joined_bose_institute",
+    "event_type": "employment_start",
+    "label": "Joined Bose Institute",
+    "date": {
+      "display": "1936",
+      "precision": "year",
+      "sort_start": "1936-01-01",
+      "sort_end": "1936-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bibha_chowdhuri",
+        "role": "subject"
+      },
+      {
+        "entity_id": "bose_institute",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "koley_goswami_2025",
+        "page": 2,
+        "quote": "Following the completion of her M.Sc. degree, Bibha Chowdhury began her professional and research career at the Bose Institute in Kolkata."
+      }
+    ]
+  },
+  {
+    "id": "first_publication",
+    "event_type": "publication",
+    "label": "First Research Publication",
+    "date": {
+      "display": "1939",
+      "precision": "year",
+      "sort_start": "1939-01-01",
+      "sort_end": "1939-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bibha_chowdhuri",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "koley_goswami_2025",
+        "page": 3,
+        "quote": "Her first research publication, titled “Studies in Nuclear Disintegration by the Photographic Plate Method-I: Disintegration of Samarium Nucleus by Cosmic Rays”, appeared in the Transactions of the Bose Research Institute in 1939 (Roy and Singh, 2021)."
+      }
+    ]
+  },
+  {
+    "id": "moved_to_manchester",
+    "event_type": "relocation",
+    "label": "Moved to Manchester",
+    "date": {
+      "display": "1945",
+      "precision": "year",
+      "sort_start": "1945-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bibha_chowdhuri",
+        "role": "subject"
+      },
+      {
+        "entity_id": "manchester",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "koley_goswami_2025",
+        "page": 3,
+        "quote": "In 1945, Bibha Chowdhury moved to Manchester to work in the laboratory of Sir Patrick Blackett, where she investigated extensive air showers using cloud chambers and Geiger-Müller counters."
+      }
+    ]
+  },
+  {
+    "id": "phd_thesis_submitted",
+    "event_type": "education",
+    "label": "Submitted Doctoral Thesis",
+    "date": {
+      "display": "1949",
+      "precision": "year",
+      "sort_start": "1949-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bibha_chowdhuri",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_manchester",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "koley_goswami_2025",
+        "page": 3,
+        "quote": "She submitted her doctoral thesis, titled “Extensive Air Showers Associated with Penetrating Particles, ” in 1949."
+      }
+    ]
+  },
+  {
+    "id": "phd_awarded",
+    "event_type": "education",
+    "label": "Awarded Ph.D.",
+    "date": {
+      "display": "1952",
+      "precision": "year",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bibha_chowdhuri",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_manchester",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "koley_goswami_2025",
+        "page": 3,
+        "quote": "She was awarded her Ph.D. in 1952."
+      }
+    ]
+  },
+  {
+    "id": "joined_tifr",
+    "event_type": "employment_start",
+    "label": "Joined TIFR",
+    "date": {
+      "display": "1949",
+      "precision": "year",
+      "sort_start": "1949-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bibha_chowdhuri",
+        "role": "subject"
+      },
+      {
+        "entity_id": "tifr",
+        "role": "employer"
+      },
+      {
+        "entity_id": "homi_bhabha",
+        "role": "recruiter"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "koley_goswami_2025",
+        "page": 3,
+        "quote": "Dr. Bibha returned to India in 1949 and became the first female researcher to work at the prestigious TIFR. Dr Homi J. Bhabha recruited her since he was working on cosmic rays too."
+      }
+    ]
+  },
+  {
+    "id": "joined_prl",
+    "event_type": "employment_start",
+    "label": "Joined Physical Research Laboratory",
+    "date": {
+      "display": "1954",
+      "precision": "year",
+      "sort_start": "1954-01-01",
+      "sort_end": "1954-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bibha_chowdhuri",
+        "role": "subject"
+      },
+      {
+        "entity_id": "prl",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "koley_goswami_2025",
+        "page": 3,
+        "quote": "Bibha Chowdhury later joined the Physical Research Laboratory (PRL) in Ahmedabad, working under the leadership of Dr. Vikram Sarabhai."
+      }
+    ]
+  },
+  {
+    "id": "retired_from_prl",
+    "event_type": "retirement",
+    "label": "Retired from PRL",
+    "date": {
+      "display": "early 1970s",
+      "precision": "decade",
+      "sort_start": "1970-01-01",
+      "sort_end": "1974-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bibha_chowdhuri",
+        "role": "subject"
+      },
+      {
+        "entity_id": "prl",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "koley_goswami_2025",
+        "page": 3,
+        "quote": "Eventually, Bibha chose to take voluntary retirement from PRL and returned to Kolkata (Kautilya, 2018; Wikipedia, 2025)."
+      }
+    ]
+  },
+  {
+    "id": "last_publication",
+    "event_type": "publication",
+    "label": "Final Publication",
+    "date": {
+      "display": "1990",
+      "precision": "year",
+      "sort_start": "1990-01-01",
+      "sort_end": "1990-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bibha_chowdhuri",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "koley_goswami_2025",
+        "page": 3,
+        "quote": "Remarkably, she continued publishing scientific research until the end of her life, with her final paper appearing in 1990 (Kautilya, 2018; Wikipedia, 2025; Roy and Sigh, 2018)."
+      }
+    ]
+  },
+  {
+    "id": "death",
+    "event_type": "death",
+    "label": "Passed Away",
+    "date": {
+      "display": "1991",
+      "precision": "year",
+      "sort_start": "1991-01-01",
+      "sort_end": "1991-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bibha_chowdhuri",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "koley_goswami_2025",
+        "page": 5,
+        "quote": "Her final paper was published in 1990, just a year before her passing in 1991."
+      }
+    ]
+  },
+  {
+    "id": "star_named",
+    "event_type": "award",
+    "label": "Star Named in Honour",
+    "date": {
+      "display": "2019",
+      "precision": "year",
+      "sort_start": "2019-01-01",
+      "sort_end": "2019-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bibha_chowdhuri",
+        "role": "honoree"
+      },
+      {
+        "entity_id": "iau",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "star_bibha",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "koley_goswami_2025",
+        "page": 4,
+        "quote": "In recognition of her contributions to science, the International Astronomical Union named a star \"Bibha\" in 2019-a white-yellow dwarf located approximately 340 light-years away in the constellation Sextans."
+      }
+    ]
+  }
+]

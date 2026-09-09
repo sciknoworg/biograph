@@ -1,0 +1,432 @@
+[
+  {
+    "id": "birth",
+    "event_type": "birth",
+    "label": "Born in Kingdom of Hannover",
+    "date": {
+      "display": "1826",
+      "precision": "year",
+      "sort_start": "1826-01-01",
+      "sort_end": "1826-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bernhard_riemann",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "elizalde_2013",
+        "page": 2,
+        "quote": "Bernhard Riemann (1826–1866) was born in 1826 in the, at the time, kingdom of Hannover, now Germany."
+      }
+    ]
+  },
+  {
+    "id": "entered_gymnasium",
+    "event_type": "education",
+    "label": "Entered gymnasium at Lüneburg",
+    "date": {
+      "display": "1840",
+      "precision": "year",
+      "sort_start": "1840-01-01",
+      "sort_end": "1840-12-31"
+    },
+    "location": "luneburg",
+    "participants": [
+      {
+        "entity_id": "bernhard_riemann",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "elizalde_2013",
+        "page": 2,
+        "quote": "His mathematical talent was already noticed at the gymnasium, at Lüneburg, which he entered at the age of 14."
+      }
+    ]
+  },
+  {
+    "id": "matriculated_gottingen",
+    "event_type": "education",
+    "label": "Matriculated at Göttingen University",
+    "date": {
+      "display": "1846",
+      "precision": "year",
+      "sort_start": "1846-01-01",
+      "sort_end": "1846-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bernhard_riemann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "gottingen_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "elizalde_2013",
+        "page": 2,
+        "quote": "In 1846 Riemann matriculated at Göttingen University"
+      }
+    ]
+  },
+  {
+    "id": "moved_to_berlin",
+    "event_type": "relocation",
+    "label": "Moved to Berlin University",
+    "date": {
+      "display": "1847",
+      "precision": "year",
+      "sort_start": "1847-01-01",
+      "sort_end": "1847-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bernhard_riemann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "berlin_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "elizalde_2013",
+        "page": 2,
+        "quote": "After 1 year there he moved to Berlin University"
+      }
+    ]
+  },
+  {
+    "id": "returned_to_gottingen",
+    "event_type": "relocation",
+    "label": "Returned to Göttingen",
+    "date": {
+      "display": "1850",
+      "precision": "year",
+      "sort_start": "1850-01-01",
+      "sort_end": "1850-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bernhard_riemann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "gottingen_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "elizalde_2013",
+        "page": 2,
+        "quote": "In 1850 Riemann returned to Göttingen, where he was to spend the rest of his career."
+      }
+    ]
+  },
+  {
+    "id": "habilitationsschrift_submitted",
+    "event_type": "publication",
+    "label": "Submitted Habilitationsschrift on Fourier series",
+    "date": {
+      "display": "1853",
+      "precision": "year",
+      "sort_start": "1853-01-01",
+      "sort_end": "1853-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bernhard_riemann",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "elizalde_2013",
+        "page": 2,
+        "quote": "He chose for the first the subject of Fourier series, presenting an essay in 1853"
+      }
+    ]
+  },
+  {
+    "id": "habilitationsvortrag_delivered",
+    "event_type": "conference",
+    "label": "Delivered Habilitationsvortrag on geometry",
+    "date": {
+      "display": "1854",
+      "precision": "year",
+      "sort_start": "1854-01-01",
+      "sort_end": "1854-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bernhard_riemann",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "elizalde_2013",
+        "page": 2,
+        "quote": "Riemann delivered his lecture in 1854, On the hypotheses that lie at the foundation of geometry"
+      }
+    ]
+  },
+  {
+    "id": "appointed_chair",
+    "event_type": "employment_start",
+    "label": "Appointed to chair of mathematics at Göttingen",
+    "date": {
+      "display": "1859",
+      "precision": "year",
+      "sort_start": "1859-01-01",
+      "sort_end": "1859-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bernhard_riemann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "gottingen_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "elizalde_2013",
+        "page": 2,
+        "quote": "Dirichlet, who had succeeded Gauss, died in 1859. Riemann was then appointed to the chair of mathematics at Göttingen"
+      }
+    ]
+  },
+  {
+    "id": "elected_berlin_academy",
+    "event_type": "award",
+    "label": "Elected to Berlin Academy of Sciences",
+    "date": {
+      "display": "1859",
+      "precision": "year",
+      "sort_start": "1859-01-01",
+      "sort_end": "1859-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bernhard_riemann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "berlin_academy_of_sciences",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "elizalde_2013",
+        "page": 2,
+        "quote": "and was immediately elected to the Berlin Academy of Sciences."
+      }
+    ]
+  },
+  {
+    "id": "death",
+    "event_type": "death",
+    "label": "Died in Selasca",
+    "date": {
+      "display": "1866",
+      "precision": "year",
+      "sort_start": "1866-01-01",
+      "sort_end": "1866-12-31"
+    },
+    "location": "selasca",
+    "participants": [
+      {
+        "entity_id": "bernhard_riemann",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "elizalde_2013",
+        "page": 2,
+        "quote": "Riemann died of tuberculosis in 1866, while trying to recover from it in Selasca (Italy)"
+      }
+    ]
+  },
+  {
+    "id": "pub_electric_tension",
+    "event_type": "publication",
+    "label": "Published paper on electric tension",
+    "date": {
+      "display": "September, 1854",
+      "precision": "month",
+      "sort_start": "1854-09-01",
+      "sort_end": "1854-09-30"
+    },
+    "participants": [
+      {
+        "entity_id": "bernhard_riemann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "electric_tension_paper",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "elizalde_2013",
+        "page": 3,
+        "quote": "2. Ueber die Gesetze der Vertheilung von Spannungselectricität in ponderabeln Körpern... (im September 1854)."
+      }
+    ]
+  },
+  {
+    "id": "pub_noble_color_rings",
+    "event_type": "publication",
+    "label": "Published paper on noble color rings",
+    "date": {
+      "display": "1855",
+      "precision": "year",
+      "sort_start": "1855-01-01",
+      "sort_end": "1855-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bernhard_riemann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "noble_color_rings_paper",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "elizalde_2013",
+        "page": 3,
+        "quote": "3. Zur Theorie der Nobili'schen Farbenringe, Annalen der Physik und Chemie, 95 (1855) 130–139."
+      }
+    ]
+  },
+  {
+    "id": "pub_airwaves",
+    "event_type": "publication",
+    "label": "Published paper on airwaves",
+    "date": {
+      "display": "1860",
+      "precision": "year",
+      "sort_start": "1860-01-01",
+      "sort_end": "1860-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bernhard_riemann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "airwaves_paper",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "elizalde_2013",
+        "page": 3,
+        "quote": "8. Ueber die Fortpflanzung ebener Luftwellen von endlicher Schwingungsweite, Abhandlungen der Königlichen Gesellschaft der Wissenschaften zu Göttingen, 8 (1860) 43–65."
+      }
+    ]
+  },
+  {
+    "id": "pub_fluid_ellipsoid",
+    "event_type": "publication",
+    "label": "Published paper on fluid ellipsoid",
+    "date": {
+      "display": "1860",
+      "precision": "year",
+      "sort_start": "1860-01-01",
+      "sort_end": "1860-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bernhard_riemann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "fluid_ellipsoid_paper",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "elizalde_2013",
+        "page": 3,
+        "quote": "10. Ein Beitrag zu den Untersuchungen über die Bewegung eines flüssigen gleichartigen Ellipsoides, Abhandlungen der Königlichen Gesellschaft der Wissenschaften zu Göttingen, 9 (1860) 3–36."
+      }
+    ]
+  },
+  {
+    "id": "pub_electrodynamics",
+    "event_type": "publication",
+    "label": "Published paper on electrodynamics (posthumous)",
+    "date": {
+      "display": "1867",
+      "precision": "year",
+      "sort_start": "1867-01-01",
+      "sort_end": "1867-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bernhard_riemann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "electrodynamics_paper",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "elizalde_2013",
+        "page": 3,
+        "quote": "14. Ein Beitrag zur Elektrodynamik (1858), Annalen der Physik und Chemie, 131 (1867) 237–243."
+      }
+    ]
+  },
+  {
+    "id": "pub_geometry_lecture",
+    "event_type": "publication",
+    "label": "Published geometry lecture (posthumous)",
+    "date": {
+      "display": "1868",
+      "precision": "year",
+      "sort_start": "1868-01-01",
+      "sort_end": "1868-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bernhard_riemann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "riemann_geometry_lecture",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "elizalde_2013",
+        "page": 3,
+        "quote": "13. Ueber die Hypothesen, welche der Geometrie zu Grunde liegen, Habilitationsschrift (1854), Abhandlungen der Königlichen Gesellschaft der Wissenschaften zu Göttingen, 13 (1868)."
+      }
+    ]
+  }
+]

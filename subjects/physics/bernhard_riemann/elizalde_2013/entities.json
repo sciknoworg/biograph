@@ -1,0 +1,181 @@
+[
+  {
+    "aliases": [
+      "B. Riemann",
+      "Georg Friedrich Bernhard Riemann",
+      "Riemann"
+    ],
+    "entity_type": "person",
+    "id": "bernhard_riemann",
+    "name": "Bernhard Riemann",
+    "subtype": "researcher",
+    "summary": "German mathematician and physicist known for contributions to analysis, geometry, and physical theory."
+  },
+  {
+    "aliases": [
+      "Gauss"
+    ],
+    "entity_type": "person",
+    "id": "carl_friedrich_gauss",
+    "name": "Carl Friedrich Gauss",
+    "subtype": "researcher",
+    "summary": "German mathematician and physicist who supervised Riemann at Göttingen."
+  },
+  {
+    "aliases": [
+      "Dirichlet"
+    ],
+    "entity_type": "person",
+    "id": "peter_gustav_lejeune_dirichlet",
+    "name": "Peter Gustav Lejeune Dirichlet",
+    "subtype": "researcher",
+    "summary": "German mathematician whose teaching influenced Riemann in Berlin."
+  },
+  {
+    "aliases": [
+      "Weber",
+      "W. Weber"
+    ],
+    "entity_type": "person",
+    "id": "wilhelm_weber",
+    "name": "Wilhelm Weber",
+    "subtype": "researcher",
+    "summary": "German physicist who collaborated with Riemann on electromagnetism."
+  },
+  {
+    "aliases": [
+      "Göttingen",
+      "University of Göttingen"
+    ],
+    "entity_type": "organization",
+    "id": "gottingen_university",
+    "name": "Göttingen University",
+    "subtype": "university",
+    "summary": "German university where Riemann studied and later held a chair."
+  },
+  {
+    "aliases": [
+      "Berlin"
+    ],
+    "entity_type": "organization",
+    "id": "berlin_university",
+    "name": "Berlin University",
+    "subtype": "university",
+    "summary": "German university where Riemann studied for one year."
+  },
+  {
+    "aliases": [
+      "Berlin Academy"
+    ],
+    "entity_type": "organization",
+    "id": "berlin_academy_of_sciences",
+    "name": "Berlin Academy of Sciences",
+    "subtype": "academy",
+    "summary": "Scientific academy to which Riemann was elected."
+  },
+  {
+    "aliases": [
+      "Hannover",
+      "Hanover"
+    ],
+    "attributes": {
+      "modern_location": "Germany"
+    },
+    "entity_type": "place",
+    "id": "kingdom_of_hannover",
+    "name": "Kingdom of Hannover",
+    "subtype": "country",
+    "summary": "Historical kingdom where Riemann was born."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "luneburg",
+    "name": "Lüneburg",
+    "subtype": "city",
+    "summary": "German town where Riemann attended gymnasium."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Italy"
+    },
+    "entity_type": "place",
+    "id": "selasca",
+    "name": "Selasca",
+    "subtype": "city",
+    "summary": "Italian town where Riemann died."
+  },
+  {
+    "aliases": [
+      "Habilitationsvortrag",
+      "1854 lecture"
+    ],
+    "entity_type": "artifact",
+    "id": "riemann_geometry_lecture",
+    "name": "On the hypotheses that lie at the foundation of geometry",
+    "subtype": "publication",
+    "summary": "Riemann's seminal lecture introducing n-dimensional manifold and curvature tensor."
+  },
+  {
+    "aliases": [
+      "1859 report"
+    ],
+    "entity_type": "artifact",
+    "id": "riemann_zeta_function_paper",
+    "name": "On the number of primes less than a given magnitude",
+    "subtype": "publication",
+    "summary": "Paper stating the Riemann hypothesis regarding the zeta function."
+  },
+  {
+    "aliases": [
+      "1858 paper",
+      "1867 publication"
+    ],
+    "entity_type": "artifact",
+    "id": "electrodynamics_paper",
+    "name": "A contribution to Electrodynamics",
+    "subtype": "publication",
+    "summary": "Posthumously published paper on unification of gravity, electricity, magnetism, and heat."
+  },
+  {
+    "aliases": [
+      "1860 paper"
+    ],
+    "entity_type": "artifact",
+    "id": "fluid_ellipsoid_paper",
+    "name": "A contribution to the investigation of the movement of a uniform fluid ellipsoid",
+    "subtype": "publication",
+    "summary": "Paper dealing with the movement of a uniform fluid ellipsoid under gravity."
+  },
+  {
+    "aliases": [
+      "1860 paper"
+    ],
+    "entity_type": "artifact",
+    "id": "airwaves_paper",
+    "name": "About the propagation of plane airwaves of finite oscillation amplitude",
+    "subtype": "publication",
+    "summary": "Paper integrating differential equations for gas movement."
+  },
+  {
+    "aliases": [
+      "1854 report"
+    ],
+    "entity_type": "artifact",
+    "id": "electric_tension_paper",
+    "name": "About the distribution laws of electric tension in ponderable bodies",
+    "subtype": "publication",
+    "summary": "Paper studying electric charge distribution in non-perfect conductors."
+  },
+  {
+    "aliases": [
+      "1855 paper"
+    ],
+    "entity_type": "artifact",
+    "id": "noble_color_rings_paper",
+    "name": "On the theory of noble color rings",
+    "subtype": "publication",
+    "summary": "Experimental study of electrical current distribution producing color rings."
+  }
+]

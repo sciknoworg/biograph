@@ -1,0 +1,95 @@
+[
+  {
+    "id": "julius_wess",
+    "entity_type": "person",
+    "name": "Julius Wess",
+    "aliases": [
+      "Julius"
+    ],
+    "summary": "German theoretical physicist known for contributions to quantum field theory and supersymmetry.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "martin_schlichenmaier",
+    "entity_type": "person",
+    "name": "Martin Schlichenmaier",
+    "aliases": [
+      "author",
+      "M. Schlichenmaier"
+    ],
+    "summary": "Mathematician and author of the recollections, former student of Wess.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "university_of_karlsruhe",
+    "entity_type": "organization",
+    "name": "University of Karlsruhe",
+    "aliases": [
+      "Karlsruhe"
+    ],
+    "summary": "German university where Wess taught and Schlichenmaier studied.",
+    "subtype": "university"
+  },
+  {
+    "id": "university_of_mannheim",
+    "entity_type": "organization",
+    "name": "University of Mannheim",
+    "aliases": [
+      "Mannheim"
+    ],
+    "summary": "German university where Schlichenmaier worked and received his PhD.",
+    "subtype": "university"
+  },
+  {
+    "id": "brandeis_university",
+    "entity_type": "organization",
+    "name": "Brandeis University",
+    "aliases": [],
+    "summary": "University in Massachusetts, USA, where Schlichenmaier had a fellowship.",
+    "subtype": "university",
+    "attributes": {
+      "country": "USA"
+    }
+  },
+  {
+    "id": "leibniz_prize",
+    "entity_type": "artifact",
+    "name": "Leibniz-Prize",
+    "aliases": [],
+    "summary": "Prestigious German research award received by Wess.",
+    "subtype": "award"
+  },
+  {
+    "id": "lmu_munich",
+    "entity_type": "organization",
+    "name": "LMU Munich",
+    "aliases": [
+      "LMU",
+      "Munich"
+    ],
+    "summary": "University in Munich where Wess moved later in his career.",
+    "subtype": "university"
+  },
+  {
+    "id": "mpi_heisenberg_institute",
+    "entity_type": "organization",
+    "name": "MPI Heisenberg Institute",
+    "aliases": [
+      "MPI",
+      "Heisenberg Institute"
+    ],
+    "summary": "Max Planck Institute in Munich associated with Wess.",
+    "subtype": "lab"
+  },
+  {
+    "id": "mfo_oberwolfach",
+    "entity_type": "organization",
+    "name": "Mathematisches Forschungsinstitut Oberwolfach",
+    "aliases": [
+      "MFO",
+      "Oberwolfach"
+    ],
+    "summary": "Mathematical research institute in Oberwolfach where workshops were held.",
+    "subtype": "institute"
+  }
+]

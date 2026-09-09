@@ -1,0 +1,424 @@
+[
+  {
+    "id": "ampere_birth",
+    "event_type": "birth",
+    "label": "Born in 1775",
+    "date": {
+      "display": "1775",
+      "precision": "year",
+      "sort_start": "1775-01-01",
+      "sort_end": "1775-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andre_marie_ampere",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hofmann_2026",
+        "page": 2,
+        "quote": "The 2025 commemoration of the 250th anniversary of André-Marie Ampère' s birth in 1775"
+      }
+    ]
+  },
+  {
+    "id": "father_death",
+    "event_type": "death",
+    "label": "Father executed by guillotine",
+    "date": {
+      "display": "1793",
+      "precision": "year",
+      "sort_start": "1793-01-01",
+      "sort_end": "1793-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andre_marie_ampere",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hofmann_2026",
+        "page": 3,
+        "quote": "The traumatic loss of his father to the guillotine in 1793"
+      }
+    ]
+  },
+  {
+    "id": "julie_death",
+    "event_type": "death",
+    "label": "First wife Julie Carron died",
+    "date": {
+      "display": "1803",
+      "precision": "year",
+      "sort_start": "1803-01-01",
+      "sort_end": "1803-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andre_marie_ampere",
+        "role": "subject"
+      },
+      {
+        "entity_id": "julie_carron",
+        "role": "family"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hofmann_2026",
+        "page": 3,
+        "quote": "the early death of his beloved wife Julie Carron in 1803"
+      }
+    ]
+  },
+  {
+    "id": "move_to_paris",
+    "event_type": "relocation",
+    "label": "Moved from Lyon to Paris",
+    "date": {
+      "display": "c. 1805",
+      "precision": "circa",
+      "sort_start": "1805-01-01",
+      "sort_end": "1805-12-31"
+    },
+    "location": "paris",
+    "participants": [
+      {
+        "entity_id": "andre_marie_ampere",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hofmann_2026",
+        "page": 5,
+        "quote": "probably written in 1805 shortly after his move from Lyon to Paris"
+      }
+    ]
+  },
+  {
+    "id": "marriage_jeanne",
+    "event_type": "other",
+    "label": "Married Jeanne Potot",
+    "date": {
+      "display": "1806",
+      "precision": "year",
+      "sort_start": "1806-01-01",
+      "sort_end": "1806-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andre_marie_ampere",
+        "role": "subject"
+      },
+      {
+        "entity_id": "jeanne_potot",
+        "role": "family"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hofmann_2026",
+        "page": 4,
+        "quote": "his rash 1806 marriage to Jeanne Potot"
+      }
+    ]
+  },
+  {
+    "id": "albine_birth",
+    "event_type": "birth",
+    "label": "Daughter Albine born",
+    "date": {
+      "display": "6 July 1807",
+      "precision": "day",
+      "sort_start": "1807-07-06",
+      "sort_end": "1807-07-06"
+    },
+    "participants": [
+      {
+        "entity_id": "andre_marie_ampere",
+        "role": "subject"
+      },
+      {
+        "entity_id": "albine_ampere",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hofmann_2026",
+        "page": 4,
+        "quote": "daughter Albine, born on 6 July 1807"
+      }
+    ]
+  },
+  {
+    "id": "math_papers_submitted",
+    "event_type": "publication",
+    "label": "Submitted mathematics papers to Institut",
+    "date": {
+      "display": "1814",
+      "precision": "year",
+      "sort_start": "1814-01-01",
+      "sort_end": "1814-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andre_marie_ampere",
+        "role": "subject"
+      },
+      {
+        "entity_id": "institut_national",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hofmann_2026",
+        "page": 5,
+        "quote": "submitted them on 11 July, 12 September, and 17 October 1814"
+      }
+    ]
+  },
+  {
+    "id": "institut_election",
+    "event_type": "award",
+    "label": "Elected to Institut National",
+    "date": {
+      "display": "28 November 1814",
+      "precision": "day",
+      "sort_start": "1814-11-28",
+      "sort_end": "1814-11-28"
+    },
+    "participants": [
+      {
+        "entity_id": "andre_marie_ampere",
+        "role": "subject"
+      },
+      {
+        "entity_id": "institut_national",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hofmann_2026",
+        "page": 5,
+        "quote": "elected as a member of the mathematics section on 28 November"
+      }
+    ]
+  },
+  {
+    "id": "faith_return",
+    "event_type": "other",
+    "label": "Returned to Catholicism",
+    "date": {
+      "display": "1817",
+      "precision": "year",
+      "sort_start": "1817-01-01",
+      "sort_end": "1817-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andre_marie_ampere",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hofmann_2026",
+        "page": 6,
+        "quote": "Although he would return to Catholicism by 1817"
+      }
+    ]
+  },
+  {
+    "id": "property_sold",
+    "event_type": "other",
+    "label": "Sold property in Poleymieux",
+    "date": {
+      "display": "1818",
+      "precision": "year",
+      "sort_start": "1818-01-01",
+      "sort_end": "1818-12-31"
+    },
+    "location": "poleymieux",
+    "participants": [
+      {
+        "entity_id": "andre_marie_ampere",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hofmann_2026",
+        "page": 6,
+        "quote": "In 1818 he reluctantly sold his property in Poleymieux"
+      }
+    ]
+  },
+  {
+    "id": "oersted_discovery",
+    "event_type": "invention",
+    "label": "Oersted discovered current-magnet interaction",
+    "date": {
+      "display": "1820",
+      "precision": "year",
+      "sort_start": "1820-01-01",
+      "sort_end": "1820-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "hans_christian_oersted",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hofmann_2026",
+        "page": 2,
+        "quote": "Hans Christian Oersted' s 1820 discovery of an unexpected interaction between a magnetic needle and an electric current"
+      }
+    ]
+  },
+  {
+    "id": "electrodynamics_research_start",
+    "event_type": "other",
+    "label": "Began electrodynamics research",
+    "date": {
+      "display": "1820",
+      "precision": "year",
+      "sort_start": "1820-01-01",
+      "sort_end": "1820-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andre_marie_ampere",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hofmann_2026",
+        "page": 2,
+        "quote": "Primarily accomplished between 1820 and 1826"
+      }
+    ]
+  },
+  {
+    "id": "equilibrium_apparatus_design",
+    "event_type": "invention",
+    "label": "Designed first equilibrium apparatus",
+    "date": {
+      "display": "December 1820",
+      "precision": "month",
+      "sort_start": "1820-12-01",
+      "sort_end": "1820-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andre_marie_ampere",
+        "role": "subject"
+      },
+      {
+        "entity_id": "equilibrium_apparatus",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hofmann_2026",
+        "page": 7,
+        "quote": "Ampère designed the first of these equilibrium demonstrations in December 1820"
+      }
+    ]
+  },
+  {
+    "id": "theorie_publication",
+    "event_type": "publication",
+    "label": "Published Théorie des phénomènes électro-dynamiques",
+    "date": {
+      "display": "1826",
+      "precision": "year",
+      "sort_start": "1826-01-01",
+      "sort_end": "1826-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andre_marie_ampere",
+        "role": "subject"
+      },
+      {
+        "entity_id": "theorie_des_phenomenes_electro_dynamiques",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hofmann_2026",
+        "page": 7,
+        "quote": "his 1826 Théorie des phénomènes électro-dynamiques"
+      }
+    ]
+  },
+  {
+    "id": "colladon_experiment",
+    "event_type": "meeting",
+    "label": "Colladon visited regarding magnetism experiment",
+    "date": {
+      "display": "1826",
+      "precision": "year",
+      "sort_start": "1826-01-01",
+      "sort_end": "1826-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andre_marie_ampere",
+        "role": "subject"
+      },
+      {
+        "entity_id": "jean_daniel_colladon",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hofmann_2026",
+        "page": 7,
+        "quote": "In 1826 when he was 51 years old, Ampère burst into tears when an experiment he had designed to support his theory of magnetism did not give the result he had predicted."
+      }
+    ]
+  },
+  {
+    "id": "essai_publication",
+    "event_type": "publication",
+    "label": "Published Essai sur la Philosophie des sciences",
+    "date": {
+      "display": "1834",
+      "precision": "year",
+      "sort_start": "1834-01-01",
+      "sort_end": "1834-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andre_marie_ampere",
+        "role": "subject"
+      },
+      {
+        "entity_id": "essai_sur_la_philosophie_des_sciences",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hofmann_2026",
+        "page": 6,
+        "quote": "his 1834 Essai sur la Philosophie des sciences"
+      }
+    ]
+  }
+]

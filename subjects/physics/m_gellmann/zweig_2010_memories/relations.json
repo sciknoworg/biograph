@@ -1,0 +1,80 @@
+[
+  {
+    "id": "gell_mann_worked_caltech",
+    "source": "murray_gell_mann",
+    "type": "worked_at",
+    "target": "caltech",
+    "sources": [
+      {
+        "source_id": "zweig_2010_memories",
+        "page": 2,
+        "quote": "There are a couple of young guys\nat Caltech, Feynman and Gell-Mann, why don't you go there."
+      }
+    ]
+  },
+  {
+    "id": "zweig_worked_caltech",
+    "source": "george_zweig",
+    "type": "worked_at",
+    "target": "caltech",
+    "sources": [
+      {
+        "source_id": "zweig_2010_memories",
+        "page": 2,
+        "quote": "Life at Caltech, the ﬁrst 3 years: It was wonderful to be at Caltech\nin the very early 60's."
+      }
+    ]
+  },
+  {
+    "id": "zweig_worked_mit",
+    "source": "george_zweig",
+    "type": "worked_at",
+    "target": "mit",
+    "sources": [
+      {
+        "source_id": "zweig_2010_memories",
+        "page": 1,
+        "quote": "George Zweig\n26-169, Research Laboratory of Electronics\nMassachusetts Institute of Technology"
+      }
+    ]
+  },
+  {
+    "id": "gell_mann_collaborated_zweig",
+    "source": "murray_gell_mann",
+    "type": "collaborated_with",
+    "target": "george_zweig",
+    "sources": [
+      {
+        "source_id": "zweig_2010_memories",
+        "page": 14,
+        "quote": "to help Murray and me write an article on quarks"
+      }
+    ]
+  },
+  {
+    "id": "gell_mann_collaborated_neeman",
+    "source": "murray_gell_mann",
+    "type": "collaborated_with",
+    "target": "yuval_neeman",
+    "sources": [
+      {
+        "source_id": "zweig_2010_memories",
+        "page": 3,
+        "quote": "Murray and Yuval Ne'eman independently proposed\nthat these, and other hadronic resonances, be classiﬁed according to the\nrepresentations of SU(3)"
+      }
+    ]
+  },
+  {
+    "id": "gell_mann_mentored_zweig",
+    "source": "murray_gell_mann",
+    "type": "mentored",
+    "target": "george_zweig",
+    "sources": [
+      {
+        "source_id": "zweig_2010_memories",
+        "page": 5,
+        "quote": "I switched to theory, and asked Murray to be\nmy thesis advisor."
+      }
+    ]
+  }
+]

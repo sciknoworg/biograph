@@ -1,0 +1,324 @@
+[
+  {
+    "id": "inge_lehmann_birth",
+    "event_type": "birth",
+    "label": "Born in Copenhagen",
+    "date": {
+      "display": "May 13, 1888",
+      "precision": "day",
+      "sort_start": "1888-05-13",
+      "sort_end": "1888-05-13"
+    },
+    "location": "copenhagen",
+    "participants": [
+      {
+        "entity_id": "inge_lehmann",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hjortenberg_2009",
+        "page": 680,
+        "quote": "Inge Lehmann was born in Copenhagen, Denmark on May 13, 1888"
+      }
+    ]
+  },
+  {
+    "id": "inge_lehmann_death",
+    "event_type": "death",
+    "label": "Died in Copenhagen",
+    "date": {
+      "display": "February 21, 1993",
+      "precision": "day",
+      "sort_start": "1993-02-21",
+      "sort_end": "1993-02-21"
+    },
+    "location": "copenhagen",
+    "participants": [
+      {
+        "entity_id": "inge_lehmann",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hjortenberg_2009",
+        "page": 680,
+        "quote": "she died on February 21, 1993, also in Copenhagen"
+      }
+    ]
+  },
+  {
+    "id": "inge_lehmann_copenhagen_math",
+    "event_type": "education",
+    "label": "Studied mathematics at University of Copenhagen",
+    "date": {
+      "display": "1907-1910",
+      "precision": "range",
+      "sort_start": "1907-01-01",
+      "sort_end": "1910-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "inge_lehmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_copenhagen",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hjortenberg_2009",
+        "page": 682,
+        "quote": "Inge Lehmann studied mathematics at the University of Copenhagen (1907-1910)"
+      }
+    ]
+  },
+  {
+    "id": "inge_lehmann_cambridge",
+    "event_type": "education",
+    "label": "Studied at Newnham College, Cambridge",
+    "date": {
+      "display": "1910-1911",
+      "precision": "range",
+      "sort_start": "1910-01-01",
+      "sort_end": "1911-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "inge_lehmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "newnham_college",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hjortenberg_2009",
+        "page": 682,
+        "quote": "continued 1910-1911 at Cambridge, England (Newnham College)"
+      }
+    ]
+  },
+  {
+    "id": "inge_lehmann_actuary",
+    "event_type": "employment_start",
+    "label": "Worked as actuary assistant",
+    "date": {
+      "display": "1912-1918",
+      "precision": "range",
+      "sort_start": "1912-01-01",
+      "sort_end": "1918-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "inge_lehmann",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hjortenberg_2009",
+        "page": 682,
+        "quote": "She became an assistant in an actuary's office (1912-1918 at an insurance company of the name «Danmark»)"
+      }
+    ]
+  },
+  {
+    "id": "inge_lehmann_cand_mag",
+    "event_type": "education",
+    "label": "Graduated cand. mag. from University of Copenhagen",
+    "date": {
+      "display": "1920",
+      "precision": "year",
+      "sort_start": "1920-01-01",
+      "sort_end": "1920-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "inge_lehmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_copenhagen",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hjortenberg_2009",
+        "page": 682,
+        "quote": "She graduated with a cand. mag. degree (candidatus magisterii) from the University of Copenhagen in 1920"
+      }
+    ]
+  },
+  {
+    "id": "inge_lehmann_seismology_study",
+    "event_type": "education",
+    "label": "Studied seismology in Europe",
+    "date": {
+      "display": "summer of 1927",
+      "precision": "year",
+      "sort_start": "1927-01-01",
+      "sort_end": "1927-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "inge_lehmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "beno_gutenberg",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hjortenberg_2009",
+        "page": 682,
+        "quote": "She studied seismology in the summer of 1927 at Hamburg under E. Tams, at Darmstadt under B. Gutenberg"
+      }
+    ]
+  },
+  {
+    "id": "inge_lehmann_chief_seismo",
+    "event_type": "employment_start",
+    "label": "Appointed chief of Seismological Department",
+    "date": {
+      "display": "1928",
+      "precision": "year",
+      "sort_start": "1928-01-01",
+      "sort_end": "1928-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "inge_lehmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "danish_geodetic_institute",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hjortenberg_2009",
+        "page": 682,
+        "quote": "In 1928 Lehmann was appointed statsgeodæt (state geodesist) and made chief of the Seismological Department of the newly formed Danish Geodetic Institute"
+      }
+    ]
+  },
+  {
+    "id": "inge_lehmann_inner_core_paper",
+    "event_type": "publication",
+    "label": "Published paper on inner core discovery",
+    "date": {
+      "display": "1936",
+      "precision": "year",
+      "sort_start": "1936-01-01",
+      "sort_end": "1936-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "inge_lehmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "p_prime_paper",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hjortenberg_2009",
+        "page": 684,
+        "quote": "Lehmann (1936) presented the idea, and reflected and refracted rays from the inner core in Lehmann's simple earth model explained the waves"
+      }
+    ]
+  },
+  {
+    "id": "inge_lehmann_retirement",
+    "event_type": "retirement",
+    "label": "Retired from Danish Geodetic Institute",
+    "date": {
+      "display": "1953",
+      "precision": "year",
+      "sort_start": "1953-01-01",
+      "sort_end": "1953-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "inge_lehmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "danish_geodetic_institute",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hjortenberg_2009",
+        "page": 682,
+        "quote": "In this position, until her retirement in 1953, she supervised the seismological stations in Greenland and Copenhagen"
+      }
+    ]
+  },
+  {
+    "id": "inge_lehmann_lamont_visit",
+    "event_type": "visit",
+    "label": "Visited Lamont-Doherty Earth Observatory",
+    "date": {
+      "display": "1953",
+      "precision": "year",
+      "sort_start": "1953-01-01",
+      "sort_end": "1953-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "inge_lehmann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lamont_doherty_earth_observatory",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hjortenberg_2009",
+        "page": 689,
+        "quote": "While at the Lamont-Doherty Earth Observatory in 1953 Lehmann published studies of three European earthquakes"
+      }
+    ]
+  },
+  {
+    "id": "inge_lehmann_bowie_medal",
+    "event_type": "award",
+    "label": "Received Bowie Medal from AGU",
+    "date": {
+      "display": "1971",
+      "precision": "year",
+      "sort_start": "1971-01-01",
+      "sort_end": "1971-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "inge_lehmann",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hjortenberg_2009",
+        "page": 685,
+        "quote": "1971 American Geophysical Union, Bowie Medal given for outstanding contributions to fundamental geophysics and unselfish cooperation in research"
+      }
+    ]
+  }
+]
