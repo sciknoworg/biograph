@@ -3,161 +3,144 @@
        alt="Biograph — a network of scientists' portraits, places, organizations and inventions linked across a world map above a 1600-2000 timeline, with a legend for people, places, organizations, artifacts and recognition." />
 </h1>
 
-Turns a biographical source paper into an explorable knowledge graph +
-timeline: dated, cited events connecting people, places, organizations,
-and artifacts — rendered as a single self-contained HTML page (network
-graph, map, timeline).
+<p align="center">
+  Turn a biographical paper about a scientist into an explorable knowledge graph —
+  every event dated, cited, and quoted from the source.
+</p>
 
-Full docs: **[biograph.readthedocs.io](https://biograph.readthedocs.io/)**
+<p align="center">
+  <a href="https://biograph.readthedocs.io/">Documentation</a> ·
+  <a href="https://biograph.readthedocs.io/en/latest/data-model/">Data model</a> ·
+  <a href="https://biograph.readthedocs.io/en/latest/access/">Access report</a> ·
+  <a href="LICENSE">MIT</a>
+</p>
 
-## Requirements
+---
 
-Python 3.8+, a browser.
+## Try it in 30 seconds
 
-A worked example ships in `subjects/materials_science/suntola/`, so you can skip straight
-to [step 2](#2-build-the-timeline-visualization) and build/open it
-without an API key.
+A finished subject ships with the repo, so you can see the output before installing anything that talks to a model.
 
-## 1. Extract a biography from a PDF
+```bash
+pip install jsonschema
+python3 scripts/build_site.py suntola
+```
+
+Open `dist/suntola.html` in a browser. One self-contained file, no server:
+
+| View | What it shows |
+|---|---|
+| **Network** | People, places, organizations and inventions, linked by what the source actually says |
+| **Map** | Everywhere the life touched, pinned from Wikidata |
+| **Timeline** | Every dated event, click through to its citation and quote |
+
+## How it works
+
+You give it a paper. It returns four JSON files per document — `entities`, `events`, `relations`, `sources` — validated against [`schema/`](schema/), then rendered into a single HTML page.
+
+The rule that shapes everything: **every event and relation must cite its page and quote the sentence that states it, verbatim.** Quotes are then checked back against the source mechanically, so an invented fact shows up as a quote that isn't there.
+
+→ [Why the model never supplies dates, coordinates or photos it wasn't given](https://biograph.readthedocs.io/en/latest/data-accuracy/)
+
+## Install
+
+Python 3.8+ and a browser. Extraction additionally needs an API key for any OpenAI-compatible provider.
 
 ```bash
 pip install -r extraction/requirements.txt
+```
+
+## Usage
+
+### 1. Draft a subject from a paper
+
+```bash
 python3 scripts/build_site.py <slug> --pdf data/<paper>.pdf
 ```
 
-Prompts you for a provider (OpenRouter, or paste any other
-OpenAI-compatible base URL — e.g. KISSKI), then a model name, then an API
-key — or skip the prompts with `--base-url`/`--model`/`--api-key` (or the
-matching `BIOGRAPH_*` env vars) for scripted use. No model is hardcoded,
-since lineups change; type whatever your provider currently offers.
+Takes a PDF or a `.txt` (`--text`). Prompts for provider, model and key — or pass `--base-url` / `--model` / `--api-key`, or set the matching `BIOGRAPH_*` env vars. No model is hardcoded.
 
-Accepts a PDF, or a `.txt` of already-extracted text (`--text`, same
-thing under a clearer name). Drafts a dated, cited biography against this
-repo's own `schema/` (so it can't drift from the data model): every event
-and relation must cite the page it came from **and quote the sentence
-that states it**, verbatim. The same call judges whether the document
-fits this project's scope at all (a biographical/historical essay, not
-just any paper mentioning the person); if not, nothing is written and the
-source is deleted (`--keep-rejected` to keep it).
+The same call decides whether the document is in scope at all; if it isn't, nothing is written.
 
-Subjects are grouped into **collections** — one per field being documented.
-`--domain "chemistry"` decides which `subjects/<domain>/` folder a *new* subject
-is created in, and is recorded in its `subject.json`. A person who already exists
-keeps the folder they have, whichever collection reaches them next, and simply
-gains that domain in their `domains` list: people are not partitionable, and the
-same scientist found by two collections is one subject with two documents rather
-than a duplicate. Omitted, a new subject lands in `subjects/materials_science/`.
-See [Defining a domain](docs/defining-a-domain.md).
+→ [What counts as in scope](https://biograph.readthedocs.io/en/latest/usage/) · [Authoring a subject by hand](extraction/EXTRACTION_GUIDE.md)
 
-A subject is a **person**; each document about them gets its own folder
-named by its citation key:
-
-```
-subjects/materials_science/       a collection; there can be several
-  suntola/
-    subject.json            the person: canonical name, slug, domains[]
-    puurunen_2014/          one document's extraction
-    entities.json           people, places, organizations, artifacts
-    events.json             dated occurrences, each cited — the timeline
-    relations.json          durable links (worked_at, invented, ...)
-    sources.json            the document, for citation
-  aris_2019/                a second account of the same life
-```
-
-Two papers about one person are two accounts, kept whole and separate.
-They are reconciled when the subject is *read*, so a bad merge is a
-rendering bug you re-run rather than extraction you've destroyed.
-
-Every quote is then checked back against the source, and anything not
-found verbatim is reported — a mechanical hallucination check, no second
-LLM call:
+### 2. Check the quotes
 
 ```bash
 python3 scripts/build_site.py <slug> --check-grounding
 ```
 
-Treat the output as a first-pass draft, not ground truth: review it
-against the source before trusting it.
-[`extraction/EXTRACTION_GUIDE.md`](extraction/EXTRACTION_GUIDE.md) is the
-checklist the script follows, and what to check a draft against.
+Reports any quote not found verbatim in the source. Mechanical, no second model call.
 
-The source's **extracted text** is archived to `data/<slug>.txt` — that
-is what the model actually read and what `--check-grounding` verifies
-against, at roughly 3% of a PDF's size. The PDF is not kept
-(`--keep-source-pdf` to keep it) and neither is committed; `sources.json`
-holds the citation needed to fetch the original again. See
-[`data/README.md`](data/README.md).
+**Treat every draft as a first pass, not ground truth.** Review it against the paper.
 
-## 2. Build the timeline visualization
+### 3. Build the page
 
 ```bash
-pip install jsonschema --break-system-packages
-python3 scripts/build_site.py <slug>       # step 1 already ran this once
-python3 scripts/build_site.py --all        # or rebuild every subject
+python3 scripts/build_site.py <slug>     # one subject
+python3 scripts/build_site.py --all      # rebuild everything
 ```
 
-Reads every document folder under the subject, merges them into one
-graph, validates against `schema/` (structure and referential integrity),
-and inlines the result into `frontend/template.html` — writing
-`dist/<slug>.html`, a single self-contained page (network graph, map,
-timeline). Open it directly in a browser, no server needed. Re-run after
-hand-editing any `subjects/<domain>/<slug>/<doc>/*.json`.
+Merges every document folder for that subject, validates structure and referential integrity, writes `dist/<slug>.html`. Re-run after editing any JSON by hand.
 
-On merge, entities sharing an id are the same thing and their aliases are
-unioned; events and relations are never merged, since two papers
-describing one episode are two accounts, not one claim.
-
-## 3. Find portraits
+### 4. Add portraits and map pins
 
 ```bash
-python3 scripts/find_portraits.py <slug>
+python3 scripts/find_portraits.py <slug>              # verified Wikidata/Commons photos
+python3 scripts/geocode_places.py --subject <slug>   # coordinates for the map
 ```
 
-For each person without a photo, searches Wikidata and — only if
-identity is confirmed (an exact birth-year match to this subject's own
-data, or an LLM judging the description specific enough to rule out a
-namesake) — attaches a licensed photo from Wikimedia Commons to
-`entities.json` and rebuilds `dist/<slug>.html`. A wrong photo is worse
-than none, so anything short of that is left blank rather than guessed.
-Full explanation: [Data Accuracy & Provenance § Portraits](https://biograph.readthedocs.io/en/latest/data-accuracy/#portraits).
+Both refuse to guess: a person whose identity can't be confirmed gets no photo, and a place that can't be pinned down stays off the map.
 
-## Structure
+→ [Portraits](https://biograph.readthedocs.io/en/latest/data-accuracy/#portraits) · [Place coordinates](https://biograph.readthedocs.io/en/latest/data-accuracy/#place-coordinates)
+
+## What's in here
+
+174 subjects across six collections, built by pointing the same code at six different taxonomies — nothing in it names a field.
+
+| Collection | Subjects |
+|---|---:|
+| Physics | 53 |
+| Chemistry | 44 |
+| Materials science | 33 |
+| Life sciences and medicine | 27 |
+| Computer science | 9 |
+| Earth and space sciences | 8 |
+
+A subject is a **person**; each paper about them becomes its own folder, kept whole and separate. Two papers are two accounts, reconciled when the subject is read rather than at write time.
 
 ```
-schema/          JSON Schema data model (entities, events, relations, sources)
-subjects/<domain>/<slug>/
-                 One person, inside the collection they were found for. The slug
-                 is the identity and is unique across domains; the domain folder
-                 is only location. subject.json + one folder per source document
-                 (extraction output — by hand or by build_site.py, reviewed
-                 either way). A document folder may also hold
-                 relations.rejected.json: relations set aside at build time
-                 because their ends carry an unexpected entity_type, kept with
-                 their reason and citations rather than discarded (docs/usage.md)
-extraction/      Guide for authoring a subject's data by hand + its own
-                 requirements.txt (openai, pypdf — not needed just to view)
-frontend/        template.html — D3 explorer; reads subject JSON only
-scripts/         build_site.py — the whole knowledge-graph pipeline: with
-                 --pdf/--text, LLM-drafts a subject from a document; either
-                 way validates and builds dist/<slug>.html. Also
-                 --check-grounding, the hallucination check.
-                 find_portraits.py — attaches verified Wikidata/Commons photos.
-dist/            Generated, self-contained HTML output
-data/            Archived source text (gitignored — see data/README.md;
-                 citations live in each subject's sources.json)
-docs/            Full documentation source (MkDocs + Material)
+subjects/materials_science/suntola/
+  subject.json          the person: canonical name, slug, domains[]
+  puurunen_2014/        one document's extraction
+    entities.json       people, places, organizations, artifacts
+    events.json         dated occurrences, each cited — the timeline
+    relations.json      durable links (worked_at, invented, ...)
+    sources.json        the document, for citation
+  aris_2019/            a second account of the same life
 ```
 
-## License
+→ [Defining your own collection](https://biograph.readthedocs.io/en/latest/defining-a-domain/)
 
-MIT (see [`LICENSE`](LICENSE)) — covering this repository's own work: the
-schemas, the scripts, the frontend, and the extracted knowledge-graph JSON
-under `subjects/`.
+## Repository layout
 
-It does not extend to the source documents those subjects are drawn from.
-Each paper stays under its own publisher's or author's terms, which is why
-`data/*.pdf` and `data/*.txt` are gitignored rather than published — a
-license chosen here cannot grant rights over someone else's work. What is
-shared instead is the citation: every source is fully described in its
-subject's `sources.json`, with a DOI wherever one exists. See
-[`data/README.md`](data/README.md).
+| Path | What it is |
+|---|---|
+| `schema/` | The data model, as JSON Schema |
+| `subjects/<domain>/<slug>/` | One person, in the collection they were found for |
+| `scripts/` | `build_site.py` (extract, validate, build), `find_portraits.py`, `geocode_places.py`, `access_report.py` |
+| `frontend/` | `template.html` — the D3 explorer |
+| `dist/` | Generated self-contained pages |
+| `extraction/` | Hand-authoring guide and its requirements |
+| `docs/` | Documentation source (MkDocs) |
+| `data/` | Archived source text — gitignored, see [`data/README.md`](data/README.md) |
+
+## Sources and licence
+
+The code, schemas and the extracted JSON under `subjects/` are **MIT** ([`LICENSE`](LICENSE)).
+
+That does not extend to the papers the subjects are drawn from — each stays under its own publisher's terms, which is why `data/*.pdf` and `data/*.txt` are gitignored. What's shared instead is the citation: every source is fully described in its `sources.json`, with a DOI wherever one exists.
+
+Building this corpus also produced a measurement of how much of the biographical record a machine is actually allowed to read. Of 3,122 documents attempted, 968 were obtained — and the single journal most precisely on topic, the Royal Society's *Biographical Memoirs*, refused all 22 requests.
+
+→ [Reading the biographical record](https://biograph.readthedocs.io/en/latest/access/)
