@@ -54,6 +54,27 @@ def host_of(url):
     return m.group(1).lower().replace("www.", "") if m else ""
 
 
+def attempts_in(reason):
+    """[(host, kind), ...] for every URL a failed download tried.
+
+    A candidate can carry several URLs -- CORE's copy, Unpaywall's PDF link, OpenAlex's -- and
+    download_sources.py tries them in order, recording all of them in one "; "-joined reason
+    string. Reading only the first URL credits the whole failure to whichever host happened to
+    be tried first and makes the fallbacks invisible. Only 2% of failures here have a fallback,
+    so this changes little, but a report about who refused what should not be counting wrong."""
+    text = str(reason or "")
+    if not text:
+        return []
+    # Split before each URL rather than on "; ", since a reason string may itself contain one.
+    pieces = re.split(r"(?=https?://)", text)
+    out = []
+    for piece in pieces:
+        host = host_of(piece)
+        if host:
+            out.append((host, kind_of(piece)))
+    return out
+
+
 def kind_of(reason):
     r = str(reason or "")
     if "403" in r:
@@ -90,9 +111,10 @@ def collect(manifest):
         if ds == "downloaded":
             obtained[host_of(entry.get("download_url"))] += 1
         elif str(ds).startswith("failed"):
-            # A failure records the URL it failed on inside "reason"; download_url is only
+            # A failure records the URLs it failed on inside "reason"; download_url is only
             # written on success. Reading download_url alone makes every provider look perfect.
-            refused[host_of(entry.get("reason"))][kind_of(entry.get("reason"))] += 1
+            for host, kind in attempts_in(entry.get("reason")):
+                refused[host][kind] += 1
 
         path = str(entry.get("download_path") or "").replace(os.sep, "/")
         m = re.search(r"_pending/([^/]+)/", path)
