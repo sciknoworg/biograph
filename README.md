@@ -1,4 +1,7 @@
-# biograph
+<h1 align="center">
+  <img src="assets/banner-logo.png" width="880"
+       alt="Biograph — a network of scientists' portraits, places, organizations and inventions linked across a world map above a 1600-2000 timeline, with a legend for people, places, organizations, artifacts and recognition." />
+</h1>
 
 Turns a biographical source paper into an explorable knowledge graph +
 timeline: dated, cited events connecting people, places, organizations,
