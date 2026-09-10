@@ -1,0 +1,17 @@
+[
+  {
+    "id": "birkeland_awarded_currents_name",
+    "source": "international_union_geomagnetism_aeronomy",
+    "type": "awarded",
+    "target": "kristian_birkeland",
+    "event_id": "birkeland_currents_named",
+    "sources": [
+      {
+        "source_id": "egeland_burke_2010",
+        "page": 9,
+        "quote": "This recommendation was later ratified by the International Union for Geomagnetism and Aeronomy."
+      }
+    ],
+    "_rejected_because": "'awarded' expects target entity_type artifact, but 'kristian_birkeland' is 'person'"
+  }
+]

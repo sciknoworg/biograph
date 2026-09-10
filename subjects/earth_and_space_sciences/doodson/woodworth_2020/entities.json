@@ -1,0 +1,256 @@
+[
+  {
+    "aliases": [
+      "A. T. Doodson",
+      "Arthur Doodson",
+      "Doodson"
+    ],
+    "entity_type": "person",
+    "id": "arthur_thomas_doodson",
+    "name": "Arthur Thomas Doodson",
+    "subtype": "researcher",
+    "summary": "British tidal scientist and director of the Liverpool Tidal Institute known for tide prediction machines and harmonic analysis."
+  },
+  {
+    "aliases": [
+      "Proudman"
+    ],
+    "entity_type": "person",
+    "id": "joseph_proudman",
+    "name": "Joseph Proudman",
+    "subtype": "researcher",
+    "summary": "Honorary director of the Liverpool Tidal Institute and mentor to Arthur Doodson."
+  },
+  {
+    "aliases": [
+      "Lord Kelvin",
+      "Baron Kelvin of Largs",
+      "Kelvin"
+    ],
+    "entity_type": "person",
+    "id": "william_thomson",
+    "name": "Sir William Thomson",
+    "subtype": "researcher",
+    "summary": "1st Baron Kelvin, inventor of the first tide prediction machine."
+  },
+  {
+    "aliases": [
+      "Roberts"
+    ],
+    "entity_type": "person",
+    "id": "edward_roberts",
+    "name": "Edward Roberts",
+    "subtype": "researcher",
+    "summary": "Designer of the Roberts-Légé tide prediction machine and assistant to Kelvin."
+  },
+  {
+    "aliases": [
+      "PLW",
+      "Woodworth"
+    ],
+    "entity_type": "person",
+    "id": "philip_l_woodworth",
+    "name": "Philip L. Woodworth",
+    "subtype": "researcher",
+    "summary": "Author of the source document and researcher at the National Oceanography Centre."
+  },
+  {
+    "aliases": [
+      "LTI",
+      "Liverpool Observatory and Tidal Institute",
+      "Proudman Oceanographic Laboratory"
+    ],
+    "entity_type": "organization",
+    "id": "liverpool_tidal_institute",
+    "name": "Liverpool Tidal Institute",
+    "subtype": "institute",
+    "summary": "Research institute for tidal science established in 1919, later renamed Liverpool Observatory and Tidal Institute."
+  },
+  {
+    "aliases": [
+      "Bidston"
+    ],
+    "entity_type": "organization",
+    "id": "bidston_observatory",
+    "name": "Bidston Observatory",
+    "subtype": "observatory",
+    "summary": "Observatory where the Liverpool Tidal Institute relocated in 1929."
+  },
+  {
+    "aliases": [
+      "University of Liverpool"
+    ],
+    "entity_type": "organization",
+    "id": "liverpool_university",
+    "name": "Liverpool University",
+    "subtype": "university",
+    "summary": "University where the Liverpool Tidal Institute was initially based."
+  },
+  {
+    "aliases": [
+      "Légé",
+      "Légé & Co.",
+      "L"
+    ],
+    "entity_type": "organization",
+    "id": "alexander_lege_co",
+    "name": "Alexander Légé & Co.",
+    "subtype": "company",
+    "summary": "London scientific equipment company that manufactured tide prediction machines."
+  },
+  {
+    "aliases": [
+      "KBB",
+      "Kelvin and Bottomley and Baird"
+    ],
+    "entity_type": "organization",
+    "id": "kelvin_bottomley_and_baird",
+    "name": "Kelvin, Bottomley and Baird",
+    "subtype": "company",
+    "summary": "Glasgow firm that manufactured the Bidston Kelvin Machine."
+  },
+  {
+    "aliases": [
+      "SHOM"
+    ],
+    "entity_type": "organization",
+    "id": "service_hydrographique_et_oceanographique_de_la_marine",
+    "name": "Service Hydrographique et Océanographique de la Marine",
+    "subtype": "agency",
+    "summary": "French hydrographic service that acquired the Bidston Kelvin Machine."
+  },
+  {
+    "aliases": [
+      "Tidal Branch of the Admiralty"
+    ],
+    "entity_type": "organization",
+    "id": "admiralty",
+    "name": "Admiralty",
+    "subtype": "agency",
+    "summary": "UK naval authority that used tidal predictions from the LTI."
+  },
+  {
+    "aliases": [
+      "TPM-S14",
+      "Kelvin Machine"
+    ],
+    "entity_type": "artifact",
+    "id": "bidston_kelvin_machine",
+    "name": "Bidston Kelvin Machine",
+    "subtype": "instrument",
+    "summary": "29-component tide prediction machine purchased for the LTI in 1925."
+  },
+  {
+    "aliases": [
+      "TPM-S5",
+      "Universal Tide Predictor of 1906",
+      "Légé machine"
+    ],
+    "entity_type": "artifact",
+    "id": "roberts_lege_machine",
+    "name": "Roberts–Légé Machine",
+    "subtype": "instrument",
+    "summary": "40-component tide prediction machine acquired by Doodson in 1929."
+  },
+  {
+    "aliases": [
+      "TPM-S20",
+      "D–L machine"
+    ],
+    "entity_type": "artifact",
+    "id": "bidston_doodson_lege_machine",
+    "name": "Bidston Doodson–Légé Machine",
+    "subtype": "instrument",
+    "summary": "42-component tide prediction machine delivered to the LTI in 1950."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 53.40722,
+      "lng": -2.99167,
+      "wikidata_qid": "Q24826",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "liverpool",
+    "name": "Liverpool",
+    "subtype": "city",
+    "summary": "City in the UK where the Liverpool Tidal Institute was based."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 53.402,
+      "lng": -3.078,
+      "wikidata_qid": "Q4356060",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "bidston",
+    "name": "Bidston",
+    "subtype": "location",
+    "summary": "Location of Bidston Observatory across the river Mersey from Liverpool."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 51.50722,
+      "lng": -0.1275,
+      "wikidata_qid": "Q84",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "london",
+    "name": "London",
+    "subtype": "city",
+    "summary": "City where Alexander Légé & Co. was located."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 55.86111,
+      "lng": -4.25,
+      "wikidata_qid": "Q4093",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "glasgow",
+    "name": "Glasgow",
+    "subtype": "city",
+    "summary": "City where Kelvin, Bottomley and Baird was located."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "France",
+      "lat": 47.0,
+      "lng": 2.0,
+      "wikidata_qid": "Q142",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "france",
+    "name": "France",
+    "subtype": "country",
+    "summary": "Country where SHOM is located."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "France",
+      "lat": 48.39056,
+      "lng": -4.48611,
+      "wikidata_qid": "Q12193",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "brest",
+    "name": "Brest",
+    "subtype": "city",
+    "summary": "City in France where the Bidston Kelvin Machine was operated."
+  }
+]

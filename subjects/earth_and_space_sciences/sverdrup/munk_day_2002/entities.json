@@ -1,0 +1,255 @@
+[
+  {
+    "aliases": [
+      "H.U. Sverdrup",
+      "Harald Sverdrup",
+      "Sverdrup"
+    ],
+    "entity_type": "person",
+    "id": "harald_ulrik_sverdrup",
+    "name": "Harald Ulrik Sverdrup",
+    "subtype": "researcher",
+    "summary": "Norwegian oceanographer and meteorologist who directed Scripps Institution of Oceanography."
+  },
+  {
+    "aliases": [
+      "Scripps",
+      "SIO",
+      "Marine Biological Association of San Diego"
+    ],
+    "entity_type": "organization",
+    "id": "scripps_institution_of_oceanography",
+    "name": "Scripps Institution of Oceanography",
+    "subtype": "university",
+    "summary": "Oceanographic research center at the University of California, San Diego."
+  },
+  {
+    "aliases": [
+      "UC",
+      "University of California Division of War Research"
+    ],
+    "entity_type": "organization",
+    "id": "university_of_california",
+    "name": "University of California",
+    "subtype": "university",
+    "summary": "Public university system in California."
+  },
+  {
+    "aliases": [
+      "Woods Hole"
+    ],
+    "entity_type": "organization",
+    "id": "woods_hole_oceanographic_institution",
+    "name": "Woods Hole Oceanographic Institution",
+    "subtype": "university",
+    "summary": "Oceanographic research center in Massachusetts."
+  },
+  {
+    "aliases": [
+      "R/V Maud"
+    ],
+    "entity_type": "artifact",
+    "id": "maud",
+    "name": "Maud",
+    "subtype": "product",
+    "summary": "Ship used for Roald Amundsen's North Polar Expedition."
+  },
+  {
+    "aliases": [
+      "The Oceans",
+      "The Bible"
+    ],
+    "entity_type": "artifact",
+    "id": "the_oceans",
+    "name": "The Oceans: Their Physics, Chemistry and Marine Biology",
+    "subtype": "publication",
+    "summary": "Comprehensive oceanography textbook co-authored by Sverdrup."
+  },
+  {
+    "aliases": [
+      "Munk"
+    ],
+    "entity_type": "person",
+    "id": "walter_munk",
+    "name": "Walter Munk",
+    "subtype": "researcher",
+    "summary": "Oceanographer and student of Sverdrup at Scripps."
+  },
+  {
+    "aliases": [
+      "Revelle"
+    ],
+    "entity_type": "person",
+    "id": "roger_revelle",
+    "name": "Roger Revelle",
+    "subtype": "researcher",
+    "summary": "Oceanographer and successor to Sverdrup as Scripps Director."
+  },
+  {
+    "aliases": [
+      "Bjerknes"
+    ],
+    "entity_type": "person",
+    "id": "vilhelm_bjerknes",
+    "name": "Vilhelm Bjerknes",
+    "subtype": "researcher",
+    "summary": "Meteorologist and Sverdrup's mentor at the University of Leipzig."
+  },
+  {
+    "aliases": [
+      "Amundsen"
+    ],
+    "entity_type": "person",
+    "id": "roald_amundsen",
+    "name": "Roald Amundsen",
+    "subtype": "explorer",
+    "summary": "Polar explorer who led the Maud expedition."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "norwegian_polar_institute",
+    "name": "Norwegian Polar Institute",
+    "subtype": "organization",
+    "summary": "Norwegian government agency for polar research."
+  },
+  {
+    "aliases": [
+      "Oslo University"
+    ],
+    "entity_type": "organization",
+    "id": "university_of_oslo",
+    "name": "University of Oslo",
+    "subtype": "university",
+    "summary": "University in Norway where Sverdrup earned his degree."
+  },
+  {
+    "aliases": [
+      "Leipzig"
+    ],
+    "entity_type": "organization",
+    "id": "university_of_leipzig",
+    "name": "University of Leipzig",
+    "subtype": "university",
+    "summary": "German university where Bjerknes and Sverdrup worked during WWI."
+  },
+  {
+    "aliases": [
+      "UCDWR",
+      "Navy Radio and Sound Laboratory",
+      "Point Loma Laboratory"
+    ],
+    "entity_type": "organization",
+    "id": "ucdwr",
+    "name": "University of California Division of War Research",
+    "subtype": "lab",
+    "summary": "Wartime research laboratory at Point Loma, San Diego."
+  },
+  {
+    "aliases": [
+      "FBI"
+    ],
+    "entity_type": "organization",
+    "id": "fbi",
+    "name": "Federal Bureau of Investigation",
+    "subtype": "organization",
+    "summary": "US federal law enforcement agency that investigated Sverdrup."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Norway",
+      "lat": 59.93333,
+      "lng": 10.68333,
+      "wikidata_qid": "Q20",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "norway",
+    "name": "Norway",
+    "subtype": "country",
+    "summary": "Country of Sverdrup's birth and later career."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United States",
+      "lat": 32.715,
+      "lng": -117.1625,
+      "wikidata_qid": "Q16552",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "san_diego",
+    "name": "San Diego",
+    "subtype": "city",
+    "summary": "City in California where Scripps is located."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United States",
+      "lat": 32.84,
+      "lng": -117.27694,
+      "wikidata_qid": "Q840668",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "la_jolla",
+    "name": "La Jolla",
+    "subtype": "city",
+    "summary": "Community in San Diego housing Scripps Institution."
+  },
+  {
+    "aliases": [
+      "Washington"
+    ],
+    "attributes": {
+      "country": "United States",
+      "lat": 38.895,
+      "lng": -77.03667,
+      "wikidata_qid": "Q61",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "washington_dc",
+    "name": "Washington, D.C.",
+    "subtype": "city",
+    "summary": "US capital where Sverdrup worked during the war."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Norway",
+      "lat": 59.91333,
+      "lng": 10.73889,
+      "wikidata_qid": "Q585",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "oslo",
+    "name": "Oslo",
+    "subtype": "city",
+    "summary": "Capital of Norway where Sverdrup returned."
+  },
+  {
+    "aliases": [
+      "Fleming"
+    ],
+    "entity_type": "person",
+    "id": "richard_fleming",
+    "name": "Richard Fleming",
+    "subtype": "researcher",
+    "summary": "Oceanographer and co-author of The Oceans."
+  },
+  {
+    "aliases": [
+      "Johnson"
+    ],
+    "entity_type": "person",
+    "id": "martin_johnson",
+    "name": "Martin Johnson",
+    "subtype": "researcher",
+    "summary": "Oceanographer and co-author of The Oceans."
+  }
+]

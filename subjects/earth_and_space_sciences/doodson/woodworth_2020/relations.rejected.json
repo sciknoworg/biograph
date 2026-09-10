@@ -1,0 +1,18 @@
+[
+  {
+    "id": "doodson_published_1928_paper",
+    "source": "arthur_thomas_doodson",
+    "type": "published",
+    "target": "arthur_thomas_doodson",
+    "event_id": "doodson_1928_publication",
+    "note": "Self-relation for publication event",
+    "sources": [
+      {
+        "source_id": "woodworth_2020",
+        "page": 10,
+        "quote": "The method is described in detail in Doodson (1928)"
+      }
+    ],
+    "_rejected_because": "'published' expects target entity_type artifact, but 'arthur_thomas_doodson' is 'person'"
+  }
+]

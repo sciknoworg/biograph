@@ -58,7 +58,7 @@ scripts/backup_evidence.py
 # half-grown state never lands in a commit; remove its line here once that run
 # reports "run to completion".
 #   tracked: chemistry_history_taxonomy.json, materials_taxonomy.json, physics_taxonomy.json,
-#            cs_taxonomy.json
+#            cs_taxonomy.json, earth_space_taxonomy.json
 
 # Per-domain pipeline state -- bookkeeping, never useful outside this machine.
 pipeline_state.json
@@ -69,6 +69,7 @@ cs_state.json
 # Working notes, not a project artifact.
 working-taxonomy-of-science.docx
 cs_state.json
+earth_space_state.json
 
 # Wikidata lookup cache for scripts/geocode_places.py -- rebuildable, and large.
 .geocode_cache.json

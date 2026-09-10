@@ -1,0 +1,266 @@
+[
+  {
+    "id": "knauss_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1925",
+      "precision": "year",
+      "sort_start": "1925-01-01",
+      "sort_end": "1925-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_a_knauss",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lozier_2015_tribute",
+        "page": 2,
+        "quote": "John A. Knauss (1925–2015)"
+      }
+    ]
+  },
+  {
+    "id": "knauss_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "2015",
+      "precision": "year",
+      "sort_start": "2015-01-01",
+      "sort_end": "2015-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_a_knauss",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lozier_2015_tribute",
+        "page": 2,
+        "quote": "John A. Knauss (1925–2015)"
+      }
+    ]
+  },
+  {
+    "id": "knauss_uri_dean",
+    "event_type": "employment_start",
+    "label": "Appointed founding dean at URI",
+    "date": {
+      "display": "1962",
+      "precision": "year",
+      "sort_start": "1962-01-01",
+      "sort_end": "1962-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_a_knauss",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_rhode_island",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lozier_2015_tribute",
+        "page": 2,
+        "quote": "in 1962 when he was appointed as the founding dean of the Graduate School of Oceanography"
+      }
+    ]
+  },
+  {
+    "id": "sea_grant_formation",
+    "event_type": "company_founded",
+    "label": "National Sea Grant Program formed",
+    "date": {
+      "display": "1966",
+      "precision": "year",
+      "sort_start": "1966-01-01",
+      "sort_end": "1966-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_a_knauss",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "national_sea_grant_program",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lozier_2015_tribute",
+        "page": 2,
+        "quote": "formation of the National Sea Grant Program in 1966"
+      }
+    ]
+  },
+  {
+    "id": "stratton_commission_auth",
+    "event_type": "other",
+    "label": "Stratton Commission authorized",
+    "date": {
+      "display": "1966",
+      "precision": "year",
+      "sort_start": "1966-01-01",
+      "sort_end": "1966-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_a_knauss",
+        "role": "subject"
+      },
+      {
+        "entity_id": "stratton_commission",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lozier_2015_tribute",
+        "page": 2,
+        "quote": "authorized by Congress in 1966"
+      }
+    ]
+  },
+  {
+    "id": "law_of_sea_negotiation",
+    "event_type": "meeting",
+    "label": "Law of the Sea Treaty negotiated",
+    "date": {
+      "display": "1970s",
+      "precision": "decade",
+      "sort_start": "1970-01-01",
+      "sort_end": "1979-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_a_knauss",
+        "role": "subject"
+      },
+      {
+        "entity_id": "law_of_the_sea_treaty",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lozier_2015_tribute",
+        "page": 2,
+        "quote": "negotiated in the 1970s"
+      }
+    ]
+  },
+  {
+    "id": "law_of_sea_adoption",
+    "event_type": "other",
+    "label": "Law of the Sea Treaty adopted",
+    "date": {
+      "display": "1982",
+      "precision": "year",
+      "sort_start": "1982-01-01",
+      "sort_end": "1982-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "law_of_the_sea_treaty",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lozier_2015_tribute",
+        "page": 2,
+        "quote": "adopted in 1982"
+      }
+    ]
+  },
+  {
+    "id": "knauss_noaa_admin_start",
+    "event_type": "employment_start",
+    "label": "Appointed NOAA Administrator",
+    "date": {
+      "display": "1989",
+      "precision": "year",
+      "sort_start": "1989-01-01",
+      "sort_end": "1989-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_a_knauss",
+        "role": "subject"
+      },
+      {
+        "entity_id": "noaa",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lozier_2015_tribute",
+        "page": 2,
+        "quote": "administrator of the National Oceanic and Atmospheric Administration (1989–1993)"
+      }
+    ]
+  },
+  {
+    "id": "knauss_noaa_admin_end",
+    "event_type": "employment_end",
+    "label": "Ended NOAA Administrator tenure",
+    "date": {
+      "display": "1993",
+      "precision": "year",
+      "sort_start": "1993-01-01",
+      "sort_end": "1993-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_a_knauss",
+        "role": "subject"
+      },
+      {
+        "entity_id": "noaa",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lozier_2015_tribute",
+        "page": 2,
+        "quote": "administrator of the National Oceanic and Atmospheric Administration (1989–1993)"
+      }
+    ]
+  },
+  {
+    "id": "knauss_fellowship_establishment",
+    "event_type": "product_launch",
+    "label": "Knauss Marine Policy Fellowships established",
+    "date": {
+      "display": "1979",
+      "precision": "year",
+      "sort_start": "1979-01-01",
+      "sort_end": "1979-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_a_knauss_marine_policy_fellowships",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lozier_2015_tribute",
+        "page": 2,
+        "quote": "Since 1979, John A. Knauss Marine Policy Fellowships have been awarded"
+      }
+    ]
+  }
+]

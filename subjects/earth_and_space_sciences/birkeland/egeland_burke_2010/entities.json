@@ -1,0 +1,256 @@
+[
+  {
+    "aliases": [
+      "Kr. Birkeland",
+      "Olaf Kristian Bernhard Birkeland"
+    ],
+    "entity_type": "person",
+    "id": "kristian_birkeland",
+    "name": "Kristian Birkeland",
+    "subtype": "researcher",
+    "summary": "Norwegian physicist and pioneer of space plasma physics known for explaining auroras and geomagnetic disturbances."
+  },
+  {
+    "aliases": [
+      "Alv Egeland"
+    ],
+    "entity_type": "person",
+    "id": "alv_egeland",
+    "name": "A. Egeland",
+    "subtype": "researcher",
+    "summary": "Co-author of the source document and historian of science at the University of Oslo."
+  },
+  {
+    "aliases": [
+      "William J. Burke"
+    ],
+    "entity_type": "person",
+    "id": "william_burke",
+    "name": "W. J. Burke",
+    "subtype": "researcher",
+    "summary": "Co-author of the source document and scientist at the Air Force Research Laboratory."
+  },
+  {
+    "aliases": [
+      "Kristiania"
+    ],
+    "attributes": {
+      "country": "Norway",
+      "lat": 59.91333,
+      "lng": 10.73889,
+      "wikidata_qid": "Q585",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "oslo",
+    "name": "Oslo",
+    "subtype": "city",
+    "summary": "Capital city of Norway, formerly named Kristiania."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Japan",
+      "lat": 35.68944,
+      "lng": 139.69167,
+      "wikidata_qid": "Q1490",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "tokyo",
+    "name": "Tokyo",
+    "subtype": "city",
+    "summary": "Capital city of Japan where Birkeland died."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "norway",
+    "name": "Norway",
+    "subtype": "country",
+    "summary": "Scandinavian country where Birkeland was born and conducted most of his work.",
+    "attributes": {
+      "lat": 59.93333,
+      "lng": 10.68333,
+      "wikidata_qid": "Q20",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "aliases": [
+      "The Royal Frederik University",
+      "University of Kristiania"
+    ],
+    "entity_type": "organization",
+    "id": "university_of_oslo",
+    "name": "University of Oslo",
+    "subtype": "university",
+    "summary": "Norwegian university where Birkeland was appointed professor of physics."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "norsk_hydro",
+    "name": "Norsk Hydro",
+    "subtype": "company",
+    "summary": "Norwegian industrial enterprise founded partly through Birkeland's nitrogen fixation method."
+  },
+  {
+    "aliases": [
+      "terrella experiments"
+    ],
+    "entity_type": "artifact",
+    "id": "terrella",
+    "name": "Terrella",
+    "subtype": "invention",
+    "summary": "Laboratory simulation device invented by Birkeland to model cosmic phenomena."
+  },
+  {
+    "aliases": [
+      "NAPE"
+    ],
+    "entity_type": "artifact",
+    "id": "nape",
+    "name": "The Norwegian Aurora Polaris Expedition 1902–1903",
+    "subtype": "publication",
+    "summary": "Birkeland's 801-page monograph summarizing his main work on auroras and geomagnetic disturbances."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "sydney_chapman",
+    "name": "Sydney Chapman",
+    "subtype": "researcher",
+    "summary": "British mathematician and scientist who criticized Birkeland's field-aligned current conjecture."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "hannes_alfven",
+    "name": "Hannes Alfvén",
+    "subtype": "researcher",
+    "summary": "Swedish physicist and Nobel Laureate who championed Birkeland's work on field-aligned currents."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "elisar_boy",
+    "name": "Elisar Boye",
+    "subtype": "student",
+    "summary": "Birkeland's student assistant who died in an avalanche during the 1899–1900 expedition."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "international_union_geomagnetism_aeronomy",
+    "name": "International Union for Geomagnetism and Aeronomy",
+    "subtype": "organization",
+    "summary": "Scientific union that ratified the name 'Birkeland currents' for field-aligned currents."
+  },
+  {
+    "aliases": [
+      "US Navy TRIAD satellite"
+    ],
+    "entity_type": "artifact",
+    "id": "triad_satellite",
+    "name": "TRIAD satellite",
+    "subtype": "product",
+    "summary": "Satellite that provided the first direct measurements of field-aligned currents in 1966."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Norway",
+      "lat": 70.0,
+      "lng": 25.0,
+      "wikidata_qid": "Q50632",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "finnmark",
+    "name": "Finnmark",
+    "subtype": "region",
+    "summary": "Norway's northernmost province where Birkeland conducted auroral expeditions."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Norway"
+    },
+    "entity_type": "place",
+    "id": "haldde_mountain",
+    "name": "Haldde Mountain",
+    "subtype": "facility",
+    "summary": "Location of a permanent observatory built for Birkeland's 1899–1900 expedition."
+  },
+  {
+    "aliases": [
+      "Comptes Rendus des Sciences"
+    ],
+    "entity_type": "organization",
+    "id": "french_academy",
+    "name": "French Academy",
+    "subtype": "organization",
+    "summary": "Academy where Birkeland published 32 of his 88 scientific papers."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "norwegian_academy_science_letters",
+    "name": "Norwegian Academy of Science and Letters",
+    "subtype": "organization",
+    "summary": "Academy that cooperated to inaugurate The Kristian Birkeland Lectures."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "norwegian_200_kroner",
+    "name": "Norwegian 200-kroner banknote",
+    "subtype": "product",
+    "summary": "Banknote issued in 1994 featuring Birkeland's portrait and terrella experiment."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "kristian_birkeland_lectures",
+    "name": "The Kristian Birkeland Lectures",
+    "subtype": "award",
+    "summary": "Continuing lecture series inaugurated in 1986 to commemorate Birkeland's achievements."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "birkeland_eyde_method",
+    "name": "Birkeland-Eyde method",
+    "subtype": "invention",
+    "summary": "Industrial nitrogen fixation method invented by Birkeland using a plasma arc."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "france",
+    "name": "France",
+    "subtype": "country",
+    "summary": "Country where Birkeland conducted early research between 1893 and 1895.",
+    "attributes": {
+      "lat": 47.0,
+      "lng": 2.0,
+      "wikidata_qid": "Q142",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "germany",
+    "name": "Germany",
+    "subtype": "country",
+    "summary": "Country where Birkeland conducted early research between 1893 and 1895.",
+    "attributes": {
+      "lat": 51.0,
+      "lng": 10.0,
+      "wikidata_qid": "Q183",
+      "geocode_basis": "most_linked"
+    }
+  }
+]

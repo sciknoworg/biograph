@@ -1,0 +1,630 @@
+[
+  {
+    "id": "birth_1923",
+    "event_type": "birth",
+    "label": "Born in London",
+    "date": {
+      "display": "April 22, 1923",
+      "precision": "day",
+      "sort_start": "1923-04-22",
+      "sort_end": "1923-04-22"
+    },
+    "participants": [
+      {
+        "entity_id": "geoffrey_hattersley_smith",
+        "role": "subject"
+      }
+    ],
+    "location": "london",
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 1,
+        "quote": "Geoffrey Hattersley-Smith was born in London on April 22, 1923."
+      }
+    ]
+  },
+  {
+    "id": "move_hong_kong_1923",
+    "event_type": "relocation",
+    "label": "Family posted to Hong Kong",
+    "date": {
+      "display": "1923",
+      "precision": "year",
+      "sort_start": "1923-01-01",
+      "sort_end": "1923-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "geoffrey_hattersley_smith",
+        "role": "subject"
+      }
+    ],
+    "location": "hong_kong",
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 1,
+        "quote": "His father, a soldier and avid sportsman, was posted to Hong Kong a few months later."
+      }
+    ]
+  },
+  {
+    "id": "return_london_1926",
+    "event_type": "relocation",
+    "label": "Family returned to London",
+    "date": {
+      "display": "1926",
+      "precision": "year",
+      "sort_start": "1926-01-01",
+      "sort_end": "1926-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "geoffrey_hattersley_smith",
+        "role": "subject"
+      }
+    ],
+    "location": "london",
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 1,
+        "quote": "The family returned to London when Geoffrey was three."
+      }
+    ]
+  },
+  {
+    "id": "move_sissinghurst_1928",
+    "event_type": "relocation",
+    "label": "Moved to Sissinghurst",
+    "date": {
+      "display": "1928",
+      "precision": "year",
+      "sort_start": "1928-01-01",
+      "sort_end": "1928-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "geoffrey_hattersley_smith",
+        "role": "subject"
+      }
+    ],
+    "location": "sissinghurst",
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 1,
+        "quote": "In 1928, they moved to a sprawling residence on 10 acres of land in Sissinghurst, in the county of Kent, which is still the family home."
+      }
+    ]
+  },
+  {
+    "id": "mother_death_1937",
+    "event_type": "death",
+    "label": "Mother died of pneumonia",
+    "date": {
+      "display": "1937",
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1937-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "geoffrey_hattersley_smith",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 1,
+        "quote": "His mother died of pneumonia in 1937, shortly before Geoffrey began Winchester."
+      }
+    ]
+  },
+  {
+    "id": "start_oxford_1941",
+    "event_type": "education",
+    "label": "Began Oxford University",
+    "date": {
+      "display": "1941",
+      "precision": "year",
+      "sort_start": "1941-01-01",
+      "sort_end": "1941-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "geoffrey_hattersley_smith",
+        "role": "subject"
+      },
+      {
+        "entity_id": "oxford_university",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 1,
+        "quote": "By the time he began Oxford University in 1941, Geoffrey was convinced that he was going to become a forester."
+      }
+    ]
+  },
+  {
+    "id": "join_royal_navy_1943",
+    "event_type": "employment_start",
+    "label": "Joined Royal Navy",
+    "date": {
+      "display": "early 1943",
+      "precision": "season",
+      "sort_start": "1943-01-01",
+      "sort_end": "1943-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "geoffrey_hattersley_smith",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_navy",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 1,
+        "quote": "Then World War II interrupted his studies, and he joined the Royal Navy early in 1943, at age 19."
+      }
+    ]
+  },
+  {
+    "id": "antarctica_departure_1947",
+    "event_type": "visit",
+    "label": "Left for Antarctica",
+    "date": {
+      "display": "October 1947",
+      "precision": "month",
+      "sort_start": "1947-10-01",
+      "sort_end": "1947-10-31"
+    },
+    "participants": [
+      {
+        "entity_id": "geoffrey_hattersley_smith",
+        "role": "subject"
+      },
+      {
+        "entity_id": "falkland_islands_dependencies_survey",
+        "role": "employer"
+      }
+    ],
+    "location": "antarctica",
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 1,
+        "quote": "Geoffrey left for Antarctica in October 1947 as part of the Falkland Islands Dependencies Survey."
+      }
+    ]
+  },
+  {
+    "id": "base_camp_leader_1948",
+    "event_type": "role_change",
+    "label": "Base camp leader on King George Island",
+    "date": {
+      "display": "winter of 1948 – 49",
+      "precision": "season",
+      "sort_start": "1948-06-01",
+      "sort_end": "1949-08-31"
+    },
+    "participants": [
+      {
+        "entity_id": "geoffrey_hattersley_smith",
+        "role": "subject"
+      }
+    ],
+    "location": "king_george_island",
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 2,
+        "quote": "He served as base camp leader on King George Island during the winter of 1948 – 49 and first practiced his belief that an isolated science party best avoided conflict through tolerance, tact, and a sense of humor."
+      }
+    ]
+  },
+  {
+    "id": "masters_degree_1951",
+    "event_type": "education",
+    "label": "Completed Master's Degree",
+    "date": {
+      "display": "1951",
+      "precision": "year",
+      "sort_start": "1951-01-01",
+      "sort_end": "1951-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "geoffrey_hattersley_smith",
+        "role": "subject"
+      },
+      {
+        "entity_id": "oxford_university",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 2,
+        "quote": "In 1951, Geoffrey completed his Master's Degree at Oxford and came to Canada."
+      }
+    ]
+  },
+  {
+    "id": "move_canada_1951",
+    "event_type": "relocation",
+    "label": "Moved to Canada",
+    "date": {
+      "display": "1951",
+      "precision": "year",
+      "sort_start": "1951-01-01",
+      "sort_end": "1951-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "geoffrey_hattersley_smith",
+        "role": "subject"
+      }
+    ],
+    "location": "canada",
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 2,
+        "quote": "In 1951, Geoffrey completed his Master's Degree at Oxford and came to Canada."
+      }
+    ]
+  },
+  {
+    "id": "cornwallis_project_1952",
+    "event_type": "other",
+    "label": "Supervised nuclear-test detector project",
+    "date": {
+      "display": "1952",
+      "precision": "year",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "geoffrey_hattersley_smith",
+        "role": "subject"
+      }
+    ],
+    "location": "cornwallis_island",
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 2,
+        "quote": "In 1952, Geoffrey supervised a top-secret project to install a nuclear-test detector on Cornwallis Island."
+      }
+    ]
+  },
+  {
+    "id": "ellesmere_first_visit_1953",
+    "event_type": "visit",
+    "label": "First visited northern Ellesmere Island",
+    "date": {
+      "display": "1953",
+      "precision": "year",
+      "sort_start": "1953-01-01",
+      "sort_end": "1953-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "geoffrey_hattersley_smith",
+        "role": "subject"
+      }
+    ],
+    "location": "ellesmere_island",
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 2,
+        "quote": "In 1953, Geoffrey first visited northern Ellesmere Island, \"which was to become my obsession for the rest of my time in Canada.\""
+      }
+    ]
+  },
+  {
+    "id": "alert_expedition_1953",
+    "event_type": "visit",
+    "label": "Flew to Alert to study ice shelves",
+    "date": {
+      "display": "April 1953",
+      "precision": "month",
+      "sort_start": "1953-04-01",
+      "sort_end": "1953-04-30"
+    },
+    "participants": [
+      {
+        "entity_id": "geoffrey_hattersley_smith",
+        "role": "subject"
+      },
+      {
+        "entity_id": "robert_blackadar",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 2,
+        "quote": "in April 1953, Geoffrey and Robert Blackadar of the Geological Survey of Canada flew to Alert to study them and to reconnoiter the geology of the north coast."
+      }
+    ]
+  },
+  {
+    "id": "ward_hunt_camp_1954",
+    "event_type": "other",
+    "label": "Established fixed camp on ice shelf",
+    "date": {
+      "display": "1954",
+      "precision": "year",
+      "sort_start": "1954-01-01",
+      "sort_end": "1954-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "geoffrey_hattersley_smith",
+        "role": "subject"
+      },
+      {
+        "entity_id": "bert_crary",
+        "role": "collaborator"
+      }
+    ],
+    "location": "ward_hunt_island",
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 3,
+        "quote": "Leading a four-man group that included Bert Crary, Bill Marshall, and Robert Christie, Geoffrey established a fixed camp on the ice shelf just west of Ward Hunt Island."
+      }
+    ]
+  },
+  {
+    "id": "dphil_1956",
+    "event_type": "education",
+    "label": "Earned DPhil from Oxford",
+    "date": {
+      "display": "1956",
+      "precision": "year",
+      "sort_start": "1956-01-01",
+      "sort_end": "1956-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "geoffrey_hattersley_smith",
+        "role": "subject"
+      },
+      {
+        "entity_id": "oxford_university",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 3,
+        "quote": "For his work on Ellesmere's glaciers, Geoffrey earned a DPhil from Oxford in 1956."
+      }
+    ]
+  },
+  {
+    "id": "marriage_1955",
+    "event_type": "other",
+    "label": "Married Maria Keffalinou",
+    "date": {
+      "display": "1955",
+      "precision": "year",
+      "sort_start": "1955-01-01",
+      "sort_end": "1955-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "geoffrey_hattersley_smith",
+        "role": "subject"
+      },
+      {
+        "entity_id": "maria_keffalinou",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 2,
+        "quote": "Geoffrey saved the other until his wedding day to Greek cytologist Maria Keffalinou in 1955."
+      }
+    ]
+  },
+  {
+    "id": "operation_hazen_1957",
+    "event_type": "other",
+    "label": "Led Operation Hazen at Lake Hazen",
+    "date": {
+      "display": "1957 – 58",
+      "precision": "range",
+      "sort_start": "1957-01-01",
+      "sort_end": "1958-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "geoffrey_hattersley_smith",
+        "role": "subject"
+      }
+    ],
+    "location": "lake_hazen",
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 3,
+        "quote": "Based at Lake Hazen, the 1957 – 5 8 program studied the Gilman Glacier, did seismic and gravitational testing, extracted cores, and began limnology work on Lake Hazen."
+      }
+    ]
+  },
+  {
+    "id": "operation_tanquary_1962",
+    "event_type": "other",
+    "label": "Led Operation Tanquary",
+    "date": {
+      "display": "1962 to 1970",
+      "precision": "range",
+      "sort_start": "1962-01-01",
+      "sort_end": "1970-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "geoffrey_hattersley_smith",
+        "role": "subject"
+      }
+    ],
+    "location": "tanquary_fiord",
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 3,
+        "quote": "As Operation Hazen phased out, Geoffrey turned to leading Operation Tanquary, which ran from 1962 to 1970 out of Tanquary Fiord, now the headquarters of Quttinirpaaq National Park."
+      }
+    ]
+  },
+  {
+    "id": "barbeau_peak_1967",
+    "event_type": "other",
+    "label": "First ascent of Barbeau Peak",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "geoffrey_hattersley_smith",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 3,
+        "quote": "in 1967 Geoffrey made the first ascent of what he later christened Barbeau Peak, at 2665 m the highest mountain in Canada and the United States east of the Rockies."
+      }
+    ]
+  },
+  {
+    "id": "father_death_1969",
+    "event_type": "death",
+    "label": "Father died",
+    "date": {
+      "display": "1969",
+      "precision": "year",
+      "sort_start": "1969-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "geoffrey_hattersley_smith",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 3,
+        "quote": "Geoffrey's father died in 1969, and eventually, Geoffrey, Maria and their two girls moved back to the family home in England."
+      }
+    ]
+  },
+  {
+    "id": "retirement_1990",
+    "event_type": "retirement",
+    "label": "Retired from British Antarctic Survey",
+    "date": {
+      "display": "1990",
+      "precision": "year",
+      "sort_start": "1990-01-01",
+      "sort_end": "1990-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "geoffrey_hattersley_smith",
+        "role": "subject"
+      },
+      {
+        "entity_id": "british_antarctic_survey",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 3,
+        "quote": "He worked for the British Antarctic Survey as Secretary of the Antarctic Place-Names Committee until his retirement in 1990."
+      }
+    ]
+  },
+  {
+    "id": "polar_medal_2006",
+    "event_type": "award",
+    "label": "Awarded the Polar Medal",
+    "date": {
+      "display": "2006",
+      "precision": "year",
+      "sort_start": "2006-01-01",
+      "sort_end": "2006-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "geoffrey_hattersley_smith",
+        "role": "subject"
+      },
+      {
+        "entity_id": "polar_medal",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 3,
+        "quote": "In 2006, he was awarded the Polar Medal, with Arctic and Antarctic clasps."
+      }
+    ]
+  },
+  {
+    "id": "death_2012",
+    "event_type": "death",
+    "label": "Died at age 89",
+    "date": {
+      "display": "July 21, 2012",
+      "precision": "day",
+      "sort_start": "2012-07-21",
+      "sort_end": "2012-07-21"
+    },
+    "participants": [
+      {
+        "entity_id": "geoffrey_hattersley_smith",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 1,
+        "quote": "Geoffrey—who died on July 21, 2012 at the age of 89—became one of the giants of Canadian Arctic science."
+      }
+    ]
+  }
+]

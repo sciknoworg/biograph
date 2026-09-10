@@ -1,0 +1,47 @@
+[
+  {
+    "id": "robin_educated_wesley",
+    "source": "gordon_robin",
+    "type": "educated_by",
+    "target": "wesley_college_melbourne",
+    "event_id": "robin_wesley_college",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 1,
+        "quote": "Gordon Robin was born in Melbourne, Australia, on 17 January 1921 and educated at Wesley College in Melbourne"
+      }
+    ],
+    "_rejected_because": "'educated_by' expects target entity_type person, but 'wesley_college_melbourne' is 'organization'"
+  },
+  {
+    "id": "robin_awarded_scd",
+    "source": "gordon_robin",
+    "type": "awarded",
+    "target": "university_of_cambridge",
+    "event_id": "robin_scd_cambridge",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "There was other recognition: an Honorary Doctorate (DPhil) from the University of Stockholm in 1978, a ScD from the University of Cambridge (1977)"
+      }
+    ],
+    "_rejected_because": "'awarded' expects target entity_type artifact, but 'university_of_cambridge' is 'organization'"
+  },
+  {
+    "id": "robin_awarded_dphil_stockholm",
+    "source": "gordon_robin",
+    "type": "awarded",
+    "target": "university_of_stockholm",
+    "event_id": "robin_stockholm_dphil",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "There was other recognition: an Honorary Doctorate (DPhil) from the University of Stockholm in 1978, a ScD from the University of Cambridge (1977)"
+      }
+    ],
+    "_rejected_because": "'awarded' expects target entity_type artifact, but 'university_of_stockholm' is 'organization'"
+  }
+]

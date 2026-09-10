@@ -1,0 +1,1086 @@
+[
+  {
+    "id": "gordon_robin",
+    "entity_type": "person",
+    "name": "Gordon de Quetteville Robin",
+    "aliases": [
+      "Gordon Robin",
+      "Robin"
+    ],
+    "summary": "Australian-British glaciologist who pioneered radio echo sounding for ice sheet measurement and directed SPRI 1958–1982.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "david_drewry",
+    "entity_type": "person",
+    "name": "David J. Drewry",
+    "aliases": [
+      "Drewry"
+    ],
+    "summary": "Glaciologist and author of this remembrance; succeeded Robin as SPRI director in 1984.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "stan_evans",
+    "entity_type": "person",
+    "name": "Stan Evans",
+    "aliases": [
+      "Evans"
+    ],
+    "summary": "Physicist recruited by Robin to SPRI in 1959; co-pioneer of radio echo sounding technique.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "charles_swithinbank",
+    "entity_type": "person",
+    "name": "Charles Swithinbank",
+    "aliases": [
+      "Swithinbank"
+    ],
+    "summary": "Glaciologist who worked with Robin on NBSE seismic survey and later SPRI airborne expeditions.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "peter_melleby",
+    "entity_type": "person",
+    "name": "Peter Melleby",
+    "aliases": [
+      "Melleby"
+    ],
+    "summary": "Norwegian colleague who worked with Robin on NBSE seismic campaign preparation.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "mark_oliphant",
+    "entity_type": "person",
+    "name": "Mark Oliphant",
+    "aliases": [
+      "Professor Oliphant",
+      "Sir Mark Oliphant"
+    ],
+    "summary": "Physics professor at Birmingham University who supervised Robin's nuclear physics studies.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "raymond_priestley",
+    "entity_type": "person",
+    "name": "Raymond Priestley",
+    "aliases": [
+      "Priestley"
+    ],
+    "summary": "Geologist and vice-chancellor at Birmingham University who directed Robin to SPRI.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "james_wordie",
+    "entity_type": "person",
+    "name": "James Wordie",
+    "aliases": [
+      "Wordie"
+    ],
+    "summary": "SPRI figure who, via Priestley's recommendation, offered Robin the Signy Island position.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "peter_wadhams",
+    "entity_type": "person",
+    "name": "Peter Wadhams",
+    "aliases": [
+      "Wadhams"
+    ],
+    "summary": "Robin's student and colleague at SPRI; later became SPRI director in 1987.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "terence_armstrong",
+    "entity_type": "person",
+    "name": "Terence Armstrong",
+    "aliases": [
+      "Armstrong"
+    ],
+    "summary": "SPRI colleague who served as acting director after Robin's retirement; co-developed Diploma in Polar Studies.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "jean_robin",
+    "entity_type": "person",
+    "name": "Jean Robin",
+    "aliases": [
+      "Jean"
+    ],
+    "summary": "Robin's wife, married 1953; formerly Lawrence Kirwan's secretary at Royal Geographical Society.",
+    "subtype": "family"
+  },
+  {
+    "id": "caroline_robin",
+    "entity_type": "person",
+    "name": "Caroline Robin",
+    "aliases": [
+      "Caroline"
+    ],
+    "summary": "Robin's daughter.",
+    "subtype": "family"
+  },
+  {
+    "id": "elizabeth_robin",
+    "entity_type": "person",
+    "name": "Elizabeth Robin",
+    "aliases": [
+      "Elizabeth"
+    ],
+    "summary": "Robin's daughter.",
+    "subtype": "family"
+  },
+  {
+    "id": "jay_zwally",
+    "entity_type": "person",
+    "name": "Jay Zwally",
+    "aliases": [
+      "Zwally"
+    ],
+    "summary": "NASA scientist who took up Robin's satellite altimetry ideas for polar ice sheet observation.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "geoffrey_hattersley_smith",
+    "entity_type": "person",
+    "name": "Geoffrey Hattersley-Smith",
+    "aliases": [
+      "Hattersley-Smith"
+    ],
+    "summary": "Canadian Defence Research Board scientist who participated in 1966 Ellesmere Island airborne RES.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "david_meldrum",
+    "entity_type": "person",
+    "name": "David Meldrum",
+    "aliases": [
+      "Meldrum"
+    ],
+    "summary": "Robin's research student who commented on Robin's scientific acumen.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "fred_roots",
+    "entity_type": "person",
+    "name": "Fred Roots",
+    "aliases": [
+      "Roots"
+    ],
+    "summary": "Commentator who noted Robin's role in making scientific cooperation a factor in Antarctic Treaty activities.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "lawrence_kirwan",
+    "entity_type": "person",
+    "name": "Lawrence Kirwan",
+    "aliases": [
+      "Kirwan"
+    ],
+    "summary": "Royal Geographical Society figure for whom Jean Robin worked as secretary.",
+    "subtype": "administrator"
+  },
+  {
+    "id": "larry_gould",
+    "entity_type": "person",
+    "name": "Larry Gould",
+    "aliases": [
+      "Gould"
+    ],
+    "summary": "Officially opened the SPRI extension facility in 1968.",
+    "subtype": "administrator"
+  },
+  {
+    "id": "spri",
+    "entity_type": "organization",
+    "name": "Scott Polar Research Institute",
+    "aliases": [
+      "SPRI",
+      "the Institute"
+    ],
+    "summary": "Polar research institute at University of Cambridge; Robin served as director 1958–1982.",
+    "subtype": "university",
+    "attributes": {
+      "country": "United Kingdom",
+      "location": "Cambridge"
+    }
+  },
+  {
+    "id": "university_of_cambridge",
+    "entity_type": "organization",
+    "name": "University of Cambridge",
+    "aliases": [
+      "Cambridge"
+    ],
+    "summary": "British university where SPRI is based; awarded Robin ScD in 1977.",
+    "subtype": "university",
+    "attributes": {
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": "university_of_melbourne",
+    "entity_type": "organization",
+    "name": "University of Melbourne",
+    "aliases": [
+      "Melbourne University"
+    ],
+    "summary": "Australian university where Robin read physics and gained Master's Degree in 1942.",
+    "subtype": "university",
+    "attributes": {
+      "country": "Australia"
+    }
+  },
+  {
+    "id": "birmingham_university",
+    "entity_type": "organization",
+    "name": "Birmingham University",
+    "aliases": [
+      "Birmingham"
+    ],
+    "summary": "British university where Robin studied nuclear physics under Oliphant and later held lectureship.",
+    "subtype": "university",
+    "attributes": {
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": "wesley_college_melbourne",
+    "entity_type": "organization",
+    "name": "Wesley College",
+    "aliases": [],
+    "summary": "Melbourne school where Robin was educated and became a Rover Scout.",
+    "subtype": "school",
+    "attributes": {
+      "country": "Australia"
+    }
+  },
+  {
+    "id": "ranvr",
+    "entity_type": "organization",
+    "name": "Royal Australian Naval Voluntary Reserve",
+    "aliases": [
+      "Royal Australian Naval Volunteer Reserve"
+    ],
+    "summary": "Australian naval reserve force Robin joined upon graduating in 1942.",
+    "subtype": "military",
+    "attributes": {
+      "country": "Australia"
+    }
+  },
+  {
+    "id": "hms_stygian",
+    "entity_type": "organization",
+    "name": "HMS Stygian",
+    "aliases": [
+      "Stygian"
+    ],
+    "summary": "British submarine Robin joined as lieutenant towards end of World War II.",
+    "subtype": "military",
+    "attributes": {
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": "fids",
+    "entity_type": "organization",
+    "name": "Falkland Islands Dependencies Survey",
+    "aliases": [
+      "FIDS"
+    ],
+    "summary": "British Antarctic survey organization that employed Robin as base commander at Signy Island 1947–48.",
+    "subtype": "research_organization",
+    "attributes": {
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": "nbse",
+    "entity_type": "organization",
+    "name": "Norwegian-British-Swedish Antarctic Expedition",
+    "aliases": [
+      "NBSE"
+    ],
+    "summary": "Antarctic expedition 1949–52 where Robin served as third-in-command and physicist in charge of seismic survey.",
+    "subtype": "expedition",
+    "attributes": {}
+  },
+  {
+    "id": "anu",
+    "entity_type": "organization",
+    "name": "Australian National University",
+    "aliases": [
+      "ANU"
+    ],
+    "summary": "Australian university where Robin briefly worked on ocean waves in early 1957.",
+    "subtype": "university",
+    "attributes": {
+      "country": "Australia"
+    }
+  },
+  {
+    "id": "jodrell_bank",
+    "entity_type": "organization",
+    "name": "Jodrell Bank Observatory",
+    "aliases": [
+      "Jodrell Bank"
+    ],
+    "summary": "Manchester observatory from which Stan Evans was recruited to SPRI in 1959.",
+    "subtype": "research_organization",
+    "attributes": {
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": "canadian_drb",
+    "entity_type": "organization",
+    "name": "Canadian Defence Research Board",
+    "aliases": [
+      "DRB"
+    ],
+    "summary": "Canadian defense research organization; Geoffrey Hattersley-Smith participated in 1966 RES work.",
+    "subtype": "research_organization",
+    "attributes": {
+      "country": "Canada"
+    }
+  },
+  {
+    "id": "us_nsf",
+    "entity_type": "organization",
+    "name": "US National Science Foundation",
+    "aliases": [
+      "NSF"
+    ],
+    "summary": "US funding agency that collaborated with Robin on 12-year Antarctic ice sheet mapping programme 1967–79.",
+    "subtype": "funding_agency",
+    "attributes": {
+      "country": "United States"
+    }
+  },
+  {
+    "id": "scar",
+    "entity_type": "organization",
+    "name": "Scientific Committee on Antarctic Research",
+    "aliases": [
+      "SCAR"
+    ],
+    "summary": "International scientific organization coordinating Antarctic research; Robin was president 1970–74.",
+    "subtype": "international_organization",
+    "attributes": {}
+  },
+  {
+    "id": "icsu",
+    "entity_type": "organization",
+    "name": "International Council of Scientific Unions",
+    "aliases": [
+      "ICSU"
+    ],
+    "summary": "International scientific body that created SCAR in 1958.",
+    "subtype": "international_organization",
+    "attributes": {}
+  },
+  {
+    "id": "royal_society_uk",
+    "entity_type": "organization",
+    "name": "Royal Society",
+    "aliases": [],
+    "summary": "UK scientific academy; formed British National Committee on Antarctic Research and appointed Robin as Permanent UK Delegate.",
+    "subtype": "learned_society",
+    "attributes": {
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": "bnacar",
+    "entity_type": "organization",
+    "name": "British National Committee on Antarctic Research",
+    "aliases": [],
+    "summary": "UK committee formed by Royal Society; Robin served as Permanent UK Delegate until 1984.",
+    "subtype": "committee",
+    "attributes": {
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": "ford_foundation",
+    "entity_type": "organization",
+    "name": "Ford Foundation",
+    "aliases": [],
+    "summary": "Philanthropic organization that provided substantial financial support for SPRI extension.",
+    "subtype": "foundation",
+    "attributes": {
+      "country": "United States"
+    }
+  },
+  {
+    "id": "darwin_college",
+    "entity_type": "organization",
+    "name": "Darwin College",
+    "aliases": [],
+    "summary": "Cambridge college where Robin was Fellow since founding in 1964; served as vice-master 1974–78.",
+    "subtype": "college",
+    "attributes": {
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": "bas",
+    "entity_type": "organization",
+    "name": "British Antarctic Survey",
+    "aliases": [
+      "BAS"
+    ],
+    "summary": "UK Antarctic research organization; Drewry departed for BAS in 1987.",
+    "subtype": "research_organization",
+    "attributes": {
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": "rgs",
+    "entity_type": "organization",
+    "name": "Royal Geographical Society",
+    "aliases": [
+      "RGS"
+    ],
+    "summary": "UK geographical society; awarded Robin Back Grant 1952 and Patron's Gold Medal 1979.",
+    "subtype": "learned_society",
+    "attributes": {
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": "igs",
+    "entity_type": "organization",
+    "name": "International Glaciological Society",
+    "aliases": [
+      "IGS"
+    ],
+    "summary": "International society that awarded Robin the Seligman Crystal in 1986.",
+    "subtype": "learned_society",
+    "attributes": {}
+  },
+  {
+    "id": "university_of_stockholm",
+    "entity_type": "organization",
+    "name": "University of Stockholm",
+    "aliases": [
+      "Stockholm"
+    ],
+    "summary": "Swedish university that awarded Robin honorary doctorate in 1978.",
+    "subtype": "university",
+    "attributes": {
+      "country": "Sweden"
+    }
+  },
+  {
+    "id": "royal_society_edinburgh",
+    "entity_type": "organization",
+    "name": "Royal Society of Edinburgh",
+    "aliases": [],
+    "summary": "Scottish learned society that awarded Robin the Bruce Medal in 1953.",
+    "subtype": "learned_society",
+    "attributes": {
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": "nasa",
+    "entity_type": "organization",
+    "name": "NASA",
+    "aliases": [],
+    "summary": "US space agency that took up Robin's satellite altimetry ideas for polar ice sheet observation.",
+    "subtype": "space_agency",
+    "attributes": {
+      "country": "United States"
+    }
+  },
+  {
+    "id": "us_onr",
+    "entity_type": "organization",
+    "name": "US Office of Naval Research",
+    "aliases": [
+      "ONR"
+    ],
+    "summary": "US Navy research office that provided long-term funding for SPRI submarine profile analysis.",
+    "subtype": "funding_agency",
+    "attributes": {
+      "country": "United States"
+    }
+  },
+  {
+    "id": "royal_navy",
+    "entity_type": "organization",
+    "name": "Royal Navy",
+    "aliases": [],
+    "summary": "UK naval service that negotiated informal agreement with SPRI for Arctic submarine data collection in early 1970s.",
+    "subtype": "military",
+    "attributes": {
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": "tud_denmark",
+    "entity_type": "organization",
+    "name": "Technical University of Denmark",
+    "aliases": [],
+    "summary": "Danish university that participated in Robin's 1967–79 Antarctic mapping campaign.",
+    "subtype": "university",
+    "attributes": {
+      "country": "Denmark"
+    }
+  },
+  {
+    "id": "melbourne",
+    "entity_type": "place",
+    "name": "Melbourne",
+    "aliases": [],
+    "summary": "Australian city where Robin was born and educated.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Australia",
+      "region": "Victoria",
+      "lat": -37.81417,
+      "lng": 144.96306,
+      "wikidata_qid": "Q3141",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "victoria_australia",
+    "entity_type": "place",
+    "name": "Victoria",
+    "aliases": [],
+    "summary": "Australian state whose mountains Robin hiked and skied in as a Rover Scout.",
+    "subtype": "region",
+    "attributes": {
+      "country": "Australia",
+      "lat": -36.85417,
+      "lng": 144.28111,
+      "wikidata_qid": "Q36687",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "england",
+    "entity_type": "place",
+    "name": "England",
+    "aliases": [],
+    "summary": "Country Robin moved to during World War II for naval service.",
+    "subtype": "country",
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 53.0,
+      "lng": -1.0,
+      "wikidata_qid": "Q21",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "english_channel",
+    "entity_type": "place",
+    "name": "English Channel",
+    "aliases": [],
+    "summary": "Waterway where Robin spent a month on motor torpedo boats.",
+    "subtype": "water_body",
+    "attributes": {
+      "lat": 50.0,
+      "lng": -2.0,
+      "wikidata_qid": "Q34640",
+      "geocode_basis": "document"
+    }
+  },
+  {
+    "id": "jahore_straits",
+    "entity_type": "place",
+    "name": "Jahore Straits",
+    "aliases": [],
+    "summary": "Strait near Singapore where HMS Stygian supported midget submarine attack on Japanese cruisers.",
+    "subtype": "water_body",
+    "attributes": {}
+  },
+  {
+    "id": "singapore_harbour",
+    "entity_type": "place",
+    "name": "Singapore harbour",
+    "aliases": [],
+    "summary": "Harbour where HMS Stygian supported midget submarine attack.",
+    "subtype": "harbour",
+    "attributes": {}
+  },
+  {
+    "id": "signy_island",
+    "entity_type": "place",
+    "name": "Signy Island",
+    "aliases": [],
+    "summary": "South Orkneys island where Robin served as FIDS base commander 1947–48.",
+    "subtype": "island",
+    "attributes": {
+      "region": "South Orkneys",
+      "lat": -60.717,
+      "lng": -45.6,
+      "wikidata_qid": "Q2060501",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "cape_geddes",
+    "entity_type": "place",
+    "name": "Cape Geddes",
+    "aliases": [],
+    "summary": "Location on Laurie Island where Robin first wintered in South Orkneys.",
+    "subtype": "cape",
+    "attributes": {
+      "region": "South Orkneys",
+      "lat": 68.53427,
+      "lng": -97.95085,
+      "wikidata_qid": "Q22699750",
+      "geocode_basis": "document"
+    }
+  },
+  {
+    "id": "laurie_island",
+    "entity_type": "place",
+    "name": "Laurie Island",
+    "aliases": [],
+    "summary": "South Orkneys island with Argentine station; Robin wintered at Cape Geddes here.",
+    "subtype": "island",
+    "attributes": {
+      "region": "South Orkneys",
+      "lat": 59.13903,
+      "lng": -103.5726,
+      "wikidata_qid": "Q22374255",
+      "geocode_basis": "document"
+    }
+  },
+  {
+    "id": "montevideo",
+    "entity_type": "place",
+    "name": "Montevideo",
+    "aliases": [],
+    "summary": "Uruguayan city from which Robin sailed to South Orkneys on SS Trepassey.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Uruguay",
+      "lat": -34.90592,
+      "lng": -56.19131,
+      "wikidata_qid": "Q1335",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "maudheim",
+    "entity_type": "place",
+    "name": "Maudheim",
+    "aliases": [],
+    "summary": "NBSE station in Dronning Maud Land, Antarctica where Robin wintered 1949–52.",
+    "subtype": "station",
+    "attributes": {
+      "region": "Dronning Maud Land",
+      "continent": "Antarctica",
+      "lat": -71.05,
+      "lng": -10.93333,
+      "wikidata_qid": "Q4588415",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "dronning_maud_land",
+    "entity_type": "place",
+    "name": "Dronning Maud Land",
+    "aliases": [],
+    "summary": "Antarctic region where Maudheim station was located.",
+    "subtype": "region",
+    "attributes": {
+      "continent": "Antarctica",
+      "lat": -72.5,
+      "lng": 12.0,
+      "wikidata_qid": "Q189999",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "weddell_sea",
+    "entity_type": "place",
+    "name": "Weddell Sea",
+    "aliases": [],
+    "summary": "Antarctic sea where Robin studied ocean wave penetration into sea ice 1959–60.",
+    "subtype": "sea",
+    "attributes": {
+      "continent": "Antarctica",
+      "lat": -73.0,
+      "lng": -45.0,
+      "wikidata_qid": "Q173343",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "greenland",
+    "entity_type": "place",
+    "name": "Greenland",
+    "aliases": [],
+    "summary": "Arctic ice sheet where Robin conducted RES field work in 1964.",
+    "subtype": "region",
+    "attributes": {
+      "lat": 72.0,
+      "lng": -40.0,
+      "wikidata_qid": "Q223",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "ellesmere_island",
+    "entity_type": "place",
+    "name": "Ellesmere Island",
+    "aliases": [],
+    "summary": "Canadian Arctic island where first continuous airborne RES was made in 1966.",
+    "subtype": "island",
+    "attributes": {
+      "country": "Canada",
+      "lat": 79.5,
+      "lng": -76.5,
+      "wikidata_qid": "Q146841",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "antarctic_peninsula",
+    "entity_type": "place",
+    "name": "Antarctic Peninsula",
+    "aliases": [],
+    "summary": "Antarctic region where Swithinbank undertook first SPRI airborne season 1966–67.",
+    "subtype": "peninsula",
+    "attributes": {
+      "continent": "Antarctica",
+      "lat": -69.0,
+      "lng": -66.0,
+      "wikidata_qid": "Q185605",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "devon_island",
+    "entity_type": "place",
+    "name": "Devon Island",
+    "aliases": [],
+    "summary": "Canadian Arctic island where Robin spent spring 1973 on ice cap.",
+    "subtype": "island",
+    "attributes": {
+      "country": "Canada",
+      "lat": 75.0,
+      "lng": -87.0,
+      "wikidata_qid": "Q186841",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "ross_ice_shelf",
+    "entity_type": "place",
+    "name": "Ross Ice Shelf",
+    "aliases": [],
+    "summary": "Antarctic ice shelf where Robin's RES work identified ice streams flowing into it.",
+    "subtype": "ice_shelf",
+    "attributes": {
+      "continent": "Antarctica",
+      "lat": -81.5,
+      "lng": -175.0,
+      "wikidata_qid": "Q200255",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "lake_vostok",
+    "entity_type": "place",
+    "name": "Lake Vostok",
+    "aliases": [],
+    "summary": "Large subglacial water body beneath East Antarctic Ice Sheet discovered through Robin's RES work.",
+    "subtype": "subglacial_lake",
+    "attributes": {
+      "continent": "Antarctica",
+      "lat": -77.5,
+      "lng": 106.0,
+      "wikidata_qid": "Q152044",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "east_antarctic_ice_sheet",
+    "entity_type": "place",
+    "name": "East Antarctic Ice Sheet",
+    "aliases": [],
+    "summary": "Antarctic ice sheet under which Lake Vostok lies.",
+    "subtype": "ice_sheet",
+    "attributes": {
+      "continent": "Antarctica",
+      "lat": -80.0,
+      "lng": 80.0,
+      "wikidata_qid": "Q1771054",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "canada",
+    "entity_type": "place",
+    "name": "Canada",
+    "aliases": [],
+    "summary": "Country where Robin presented 1965 satellite altimetry paper at conference.",
+    "subtype": "country",
+    "attributes": {
+      "lat": 56.0,
+      "lng": -109.0,
+      "wikidata_qid": "Q16",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "cape_town",
+    "entity_type": "place",
+    "name": "Cape Town",
+    "aliases": [],
+    "summary": "South African city where Robin's 1993–94 Antarctic visit commenced.",
+    "subtype": "city",
+    "attributes": {
+      "country": "South Africa",
+      "lat": -33.92528,
+      "lng": 18.42389,
+      "wikidata_qid": "Q5465",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "halley_station",
+    "entity_type": "place",
+    "name": "Halley",
+    "aliases": [
+      "Halley station"
+    ],
+    "summary": "British Antarctic research station Robin visited during 1993–94 trip.",
+    "subtype": "station",
+    "attributes": {
+      "continent": "Antarctica",
+      "lat": -75.57349,
+      "lng": -25.46696,
+      "wikidata_qid": "Q1571679",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "cape_norvegia",
+    "entity_type": "place",
+    "name": "Cape Norvegia",
+    "aliases": [],
+    "summary": "Antarctic cape near Maudheim that Robin glimpsed during 1993–94 visit.",
+    "subtype": "cape",
+    "attributes": {
+      "continent": "Antarctica",
+      "lat": -71.3333,
+      "lng": -12.3,
+      "wikidata_qid": "Q827931",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "arctic",
+    "entity_type": "place",
+    "name": "Arctic",
+    "aliases": [],
+    "summary": "Polar region where Robin negotiated Royal Navy submarine data collection in early 1970s.",
+    "subtype": "region",
+    "attributes": {
+      "lat": 89.9997,
+      "lng": 0.0,
+      "wikidata_qid": "Q25322",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "camp_century",
+    "entity_type": "place",
+    "name": "Camp Century",
+    "aliases": [],
+    "summary": "Greenland site where Robin and Evans conducted 1964 RES traverse.",
+    "subtype": "station",
+    "attributes": {
+      "region": "Greenland",
+      "lat": 77.16667,
+      "lng": -61.13333,
+      "wikidata_qid": "Q2512856",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "ss_trepassey",
+    "entity_type": "artifact",
+    "name": "SS Trepassey",
+    "aliases": [
+      "Trepassey"
+    ],
+    "summary": "Ship on which Robin sailed from Montevideo to South Orkneys in 1947.",
+    "subtype": "ship"
+  },
+  {
+    "id": "rss_john_biscoe",
+    "entity_type": "artifact",
+    "name": "RSS John Biscoe",
+    "aliases": [
+      "John Biscoe"
+    ],
+    "summary": "Ship on which Robin conducted ocean wave study in Weddell Sea 1959–60.",
+    "subtype": "ship"
+  },
+  {
+    "id": "dhc3_otter",
+    "entity_type": "artifact",
+    "name": "DHC-3 Otter",
+    "aliases": [
+      "Otter"
+    ],
+    "summary": "Aircraft used for first continuous airborne RES in Ellesmere Island 1966.",
+    "subtype": "aircraft"
+  },
+  {
+    "id": "rss_bransfield",
+    "entity_type": "artifact",
+    "name": "RSS Bransfield",
+    "aliases": [
+      "Bransfield"
+    ],
+    "summary": "Ship on which Robin's 1993–94 Antarctic visit commenced from Cape Town.",
+    "subtype": "ship"
+  },
+  {
+    "id": "hms_endurance",
+    "entity_type": "artifact",
+    "name": "HMS Endurance",
+    "aliases": [
+      "Endurance"
+    ],
+    "summary": "Royal Navy ship on which Robin traveled to Signy Island in 1993–94.",
+    "subtype": "ship"
+  },
+  {
+    "id": "weasels",
+    "entity_type": "artifact",
+    "name": "Weasels",
+    "aliases": [],
+    "summary": "Tracked vehicles Robin and Melleby prepared for NBSE seismic campaign.",
+    "subtype": "vehicle"
+  },
+  {
+    "id": "res_prototype_35mhz",
+    "entity_type": "artifact",
+    "name": "RES prototype 35 MHz",
+    "aliases": [
+      "RES prototype"
+    ],
+    "summary": "Purpose-built radio echo sounding prototype operating at 35 MHz, first field-tested in Antarctica 1963.",
+    "subtype": "instrument"
+  },
+  {
+    "id": "polar_medal",
+    "entity_type": "artifact",
+    "name": "Polar Medal",
+    "aliases": [],
+    "summary": "British award given to Robin for NBSE scientific success 1950–52.",
+    "subtype": "award"
+  },
+  {
+    "id": "kongens_fortjensmedalje",
+    "entity_type": "artifact",
+    "name": "Norwegian Medal for Civil Services",
+    "aliases": [
+      "Kongens Fortjensmedalje"
+    ],
+    "summary": "Norwegian award with clasp 'Maudheim' given to Robin for NBSE work.",
+    "subtype": "award"
+  },
+  {
+    "id": "bruce_medal",
+    "entity_type": "artifact",
+    "name": "Bruce Medal",
+    "aliases": [],
+    "summary": "Royal Society of Edinburgh award given to Robin in 1953.",
+    "subtype": "award"
+  },
+  {
+    "id": "back_grant",
+    "entity_type": "artifact",
+    "name": "Back Grant",
+    "aliases": [],
+    "summary": "Royal Geographical Society award given to Robin in 1952.",
+    "subtype": "award"
+  },
+  {
+    "id": "patrons_gold_medal",
+    "entity_type": "artifact",
+    "name": "Patron's Gold Medal",
+    "aliases": [],
+    "summary": "Royal Geographical Society award given to Robin in 1979.",
+    "subtype": "award"
+  },
+  {
+    "id": "seligman_crystal",
+    "entity_type": "artifact",
+    "name": "Seligman Crystal",
+    "aliases": [],
+    "summary": "International Glaciological Society's foremost prize awarded to Robin in 1986.",
+    "subtype": "award"
+  },
+  {
+    "id": "nbse_report_1958",
+    "entity_type": "artifact",
+    "name": "NBSE report 1958",
+    "aliases": [],
+    "summary": "Publication of Robin's seismic traverse work, published as NBSE report in 1958.",
+    "subtype": "publication"
+  },
+  {
+    "id": "j_glaciol_temp_paper",
+    "entity_type": "artifact",
+    "name": "Journal of Glaciology temperature paper",
+    "aliases": [],
+    "summary": "Seminal paper by Robin on temperature distribution in moving ice sheets.",
+    "subtype": "publication"
+  },
+  {
+    "id": "phil_trans_1963_paper",
+    "entity_type": "artifact",
+    "name": "Philosophical Transactions 1963 paper",
+    "aliases": [],
+    "summary": "Robin's 1963 paper on ocean wave decay in marginal ice zone.",
+    "subtype": "publication"
+  },
+  {
+    "id": "satellite_altimetry_1965_paper",
+    "entity_type": "artifact",
+    "name": "Mapping the Antarctic ice sheet by satellite altimetry",
+    "aliases": [],
+    "summary": "Key 1965 conference paper by Robin on satellite altimetry for polar ice sheets.",
+    "subtype": "publication"
+  },
+  {
+    "id": "diploma_polar_studies",
+    "entity_type": "artifact",
+    "name": "Diploma in Polar Studies",
+    "aliases": [],
+    "summary": "Post-graduate qualification developed by Robin and Armstrong at SPRI, commenced intake October 1975.",
+    "subtype": "programme"
+  },
+  {
+    "id": "mphil_polar_studies",
+    "entity_type": "artifact",
+    "name": "MPhil in Polar Studies",
+    "aliases": [],
+    "summary": "One-year master's degree that replaced Diploma in Polar Studies from 1980.",
+    "subtype": "programme"
+  },
+  {
+    "id": "spri_extension",
+    "entity_type": "artifact",
+    "name": "SPRI extension",
+    "aliases": [],
+    "summary": "New SPRI facility with laboratories, library and archive space; opened officially 1968.",
+    "subtype": "facility"
+  }
+]

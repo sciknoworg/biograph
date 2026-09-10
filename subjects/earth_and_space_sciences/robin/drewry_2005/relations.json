@@ -1,0 +1,662 @@
+[
+  {
+    "id": "robin_born_melbourne",
+    "source": "gordon_robin",
+    "type": "born_in",
+    "target": "melbourne",
+    "event_id": "robin_birth",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 1,
+        "quote": "Gordon Robin was born in Melbourne, Australia, on 17 January 1921"
+      }
+    ]
+  },
+  {
+    "id": "robin_educated_wesley",
+    "source": "gordon_robin",
+    "type": "educated_by",
+    "target": "wesley_college_melbourne",
+    "event_id": "robin_wesley_college",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 1,
+        "quote": "Gordon Robin was born in Melbourne, Australia, on 17 January 1921 and educated at Wesley College in Melbourne"
+      }
+    ]
+  },
+  {
+    "id": "robin_studied_melbourne",
+    "source": "gordon_robin",
+    "type": "studied_at",
+    "target": "university_of_melbourne",
+    "event_id": "robin_melbourne_masters",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 1,
+        "quote": "He went on to the University of Melbourne, where he read physics, gaining a Master's Degree in 1942."
+      }
+    ]
+  },
+  {
+    "id": "robin_employed_ranvr",
+    "source": "gordon_robin",
+    "type": "employed_by",
+    "target": "ranvr",
+    "event_id": "robin_joined_ranvr",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 1,
+        "quote": "He joined the Royal Australian Naval Voluntary Reserve immediately upon graduating and was commissioned as a sub-lieutenant."
+      }
+    ]
+  },
+  {
+    "id": "robin_employed_hms_stygian",
+    "source": "gordon_robin",
+    "type": "employed_by",
+    "target": "hms_stygian",
+    "event_id": "robin_hms_stygian",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 1,
+        "quote": "Promoted lieutenant, he joined HMS Stygian, which towards the end of World War II sailed in support of a midget submarine (XE3) to attack Japanese cruisers in the Jahore Straits and Singapore harbour."
+      }
+    ]
+  },
+  {
+    "id": "robin_studied_birmingham",
+    "source": "gordon_robin",
+    "type": "studied_at",
+    "target": "birmingham_university",
+    "event_id": "robin_birmingham_nuclear",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 1,
+        "quote": "Robin demobilised in the United Kingdom, against standing orders, and went on to study nuclear physics at Birmingham University, under Professor (later Sir Mark) Oliphant, in his cyclotron project."
+      }
+    ]
+  },
+  {
+    "id": "robin_supervised_oliphant",
+    "source": "gordon_robin",
+    "type": "supervised_by",
+    "target": "mark_oliphant",
+    "event_id": "robin_birmingham_nuclear",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 1,
+        "quote": "Robin demobilised in the United Kingdom, against standing orders, and went on to study nuclear physics at Birmingham University, under Professor (later Sir Mark) Oliphant, in his cyclotron project."
+      }
+    ]
+  },
+  {
+    "id": "robin_employed_fids",
+    "source": "gordon_robin",
+    "type": "employed_by",
+    "target": "fids",
+    "event_id": "robin_signy_commander",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 1,
+        "quote": "This led to an offer of a year (1947–48) as base commander at Signy Island in the South Orkneys with the Falkland Islands Dependencies Survey (FIDS)"
+      }
+    ]
+  },
+  {
+    "id": "robin_employed_birmingham_lecturer",
+    "source": "gordon_robin",
+    "type": "employed_by",
+    "target": "birmingham_university",
+    "event_id": "robin_birmingham_lectureship",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 2,
+        "quote": "Returning from Signy, Robin rejoined the Physics Department at Birmingham and the cyclotron project, gaining a lectureship in October 1948."
+      }
+    ]
+  },
+  {
+    "id": "robin_employed_nbse",
+    "source": "gordon_robin",
+    "type": "employed_by",
+    "target": "nbse",
+    "event_id": "robin_nbse_recruited",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 2,
+        "quote": "But in 1949, with his appetite for the Antarctic already whetted, a new opportunity arose and he was recruited to the Norwegian–British–Swedish Antarctic Expedition as third-in-command and physicist in charge of the seismic survey to measure ice thickness."
+      }
+    ]
+  },
+  {
+    "id": "robin_collaborated_melleby",
+    "source": "gordon_robin",
+    "type": "collaborated_with",
+    "target": "peter_melleby",
+    "event_id": "robin_seismic_journey",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 2,
+        "quote": "The seismic party, which comprised Robin, Melleby, and Charles Swithinbank, left Maudheim on 18 October"
+      }
+    ]
+  },
+  {
+    "id": "robin_collaborated_swithinbank",
+    "source": "gordon_robin",
+    "type": "collaborated_with",
+    "target": "charles_swithinbank",
+    "event_id": "robin_seismic_journey",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 2,
+        "quote": "The seismic party, which comprised Robin, Melleby, and Charles Swithinbank, left Maudheim on 18 October"
+      }
+    ]
+  },
+  {
+    "id": "robin_employed_anu",
+    "source": "gordon_robin",
+    "type": "employed_by",
+    "target": "anu",
+    "event_id": "robin_anu_ocean_waves",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 3,
+        "quote": "In early 1957 Robin returned to Australia to the Australian National University to work on ocean waves"
+      }
+    ]
+  },
+  {
+    "id": "robin_worked_spri",
+    "source": "gordon_robin",
+    "type": "worked_at",
+    "target": "spri",
+    "event_id": "robin_arrived_cambridge",
+    "start": {
+      "display": "1958",
+      "precision": "year",
+      "sort_start": "1958-01-01",
+      "sort_end": "1958-12-31"
+    },
+    "end": {
+      "display": "1982",
+      "precision": "year",
+      "sort_start": "1982-01-01",
+      "sort_end": "1982-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 3,
+        "quote": "He accepted and arrived in Cambridge in 1958, becoming the first person to hold a full-time post heading a department in polar science in a British university and arguably the world."
+      }
+    ]
+  },
+  {
+    "id": "robin_founded_spri_extension",
+    "source": "gordon_robin",
+    "type": "developed",
+    "target": "spri_extension",
+    "event_id": "robin_spri_extension",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 4,
+        "quote": "He secured substantial financial support from the Ford Foundation, which, along with assistance from the University of Cambridge and other donors, was sufficient to make a start on the SPRI 'extension' in 1966."
+      }
+    ]
+  },
+  {
+    "id": "robin_collaborated_evans",
+    "source": "gordon_robin",
+    "type": "collaborated_with",
+    "target": "stan_evans",
+    "event_id": "res_prototype_1963",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 3,
+        "quote": "Working together, Robin and Evans pioneered the effective development of the radio echo sounding (RES) technique to measure ice thickness."
+      }
+    ]
+  },
+  {
+    "id": "robin_collaborated_hattersley_smith",
+    "source": "gordon_robin",
+    "type": "collaborated_with",
+    "target": "geoffrey_hattersley_smith",
+    "event_id": "ellesmere_airborne_1966",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 3,
+        "quote": "The first continuous airborne radio echo soundings were made in Ellesmere Island in 1966 using a DHC-3 Otter by Robin, Evans, and Geoffrey Hattersley-Smith of the Canadian Defence Research Board."
+      }
+    ]
+  },
+  {
+    "id": "robin_collaborated_nsf",
+    "source": "gordon_robin",
+    "type": "collaborated_with",
+    "target": "us_nsf",
+    "event_id": "robin_nsf_collaboration",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 3,
+        "quote": "In 1967 Robin initiated a 12-year collaborative programme with the US National Science Foundation to map and glaciologically explore the Antarctic ice sheet"
+      }
+    ]
+  },
+  {
+    "id": "robin_member_scar",
+    "source": "gordon_robin",
+    "type": "member_of",
+    "target": "scar",
+    "event_id": "robin_scar_secretary",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 4,
+        "quote": "He was elected honorary secretary of SCAR until elected president in 1970 for a four-year term"
+      }
+    ]
+  },
+  {
+    "id": "robin_member_bnacar",
+    "source": "gordon_robin",
+    "type": "member_of",
+    "target": "bnacar",
+    "event_id": "robin_scar_delegate_end",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 4,
+        "quote": "The Royal Society, as the UK adhering body to both ICSU and SCAR, formed a British National Committee on Antarctic Research and appointed Robin as Permanent UK Delegate, a position in which he continued until 1984."
+      }
+    ]
+  },
+  {
+    "id": "robin_collaborated_royal_navy",
+    "source": "gordon_robin",
+    "type": "collaborated_with",
+    "target": "royal_navy",
+    "event_id": "robin_royal_navy_agreement",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 3,
+        "quote": "In the early 1970s, Robin was approached by the Royal Navy, seeking information about Arctic ice conditions, and was able to negotiate an informal agreement"
+      }
+    ]
+  },
+  {
+    "id": "robin_collaborated_wadhams",
+    "source": "gordon_robin",
+    "type": "mentored",
+    "target": "peter_wadhams",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "When Drewry departed for the British Antarctic Survey in 1987, Peter Wadhams, similarly a student and colleague of Robin, was appointed director."
+      }
+    ]
+  },
+  {
+    "id": "robin_collaborated_armstrong",
+    "source": "gordon_robin",
+    "type": "collaborated_with",
+    "target": "terence_armstrong",
+    "event_id": "diploma_polar_studies_start",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "Robin and Terence Armstrong responded to this opportunity with the development of the Diploma in Polar Studies"
+      }
+    ]
+  },
+  {
+    "id": "robin_fellow_darwin",
+    "source": "gordon_robin",
+    "type": "member_of",
+    "target": "darwin_college",
+    "event_id": "robin_darwin_fellow",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "He was a Fellow of Darwin College since its founding in 1964"
+      }
+    ]
+  },
+  {
+    "id": "robin_married_jean",
+    "source": "gordon_robin",
+    "type": "married_to",
+    "target": "jean_robin",
+    "event_id": "robin_married",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "Robin is survived by his wife Jean (whom he married in 1953"
+      }
+    ]
+  },
+  {
+    "id": "robin_family_caroline",
+    "source": "gordon_robin",
+    "type": "family_of",
+    "target": "caroline_robin",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "Robin is survived by his wife Jean (whom he married in 1953; she had worked as Lawrence Kirwan's secretary at the Royal Geographical Society in London and had been involved in the organisation of the NBSE) and two daughters, Caroline and Elizabeth."
+      }
+    ]
+  },
+  {
+    "id": "robin_family_elizabeth",
+    "source": "gordon_robin",
+    "type": "family_of",
+    "target": "elizabeth_robin",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "Robin is survived by his wife Jean (whom he married in 1953; she had worked as Lawrence Kirwan's secretary at the Royal Geographical Society in London and had been involved in the organisation of the NBSE) and two daughters, Caroline and Elizabeth."
+      }
+    ]
+  },
+  {
+    "id": "robin_invented_res",
+    "source": "gordon_robin",
+    "type": "invented",
+    "target": "res_prototype_35mhz",
+    "event_id": "res_prototype_1963",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 3,
+        "quote": "Working together, Robin and Evans pioneered the effective development of the radio echo sounding (RES) technique to measure ice thickness."
+      }
+    ]
+  },
+  {
+    "id": "robin_developed_diploma",
+    "source": "gordon_robin",
+    "type": "developed",
+    "target": "diploma_polar_studies",
+    "event_id": "diploma_polar_studies_start",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "Robin and Terence Armstrong responded to this opportunity with the development of the Diploma in Polar Studies"
+      }
+    ]
+  },
+  {
+    "id": "robin_awarded_polar_medal",
+    "source": "gordon_robin",
+    "type": "awarded",
+    "target": "polar_medal",
+    "event_id": "robin_polar_medal",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "For his outstanding part in the scientific success of the NBSE, Robin was awarded the Polar Medal (1950–52)"
+      }
+    ]
+  },
+  {
+    "id": "robin_awarded_kongens",
+    "source": "gordon_robin",
+    "type": "awarded",
+    "target": "kongens_fortjensmedalje",
+    "event_id": "robin_kongens_fortjensmedalje",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "and also the Norwegian Medal for Civil Services (Kongens Fortjensmedalje) with the clasp 'Maudheim.'"
+      }
+    ]
+  },
+  {
+    "id": "robin_awarded_bruce",
+    "source": "gordon_robin",
+    "type": "awarded",
+    "target": "bruce_medal",
+    "event_id": "robin_bruce_medal",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "In 1953, Robin received the Bruce Medal of the Royal Society of Edinburgh."
+      }
+    ]
+  },
+  {
+    "id": "robin_awarded_back_grant",
+    "source": "gordon_robin",
+    "type": "awarded",
+    "target": "back_grant",
+    "event_id": "robin_back_grant",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "The Royal Geographical Society recognised Robin with the Back Grant in 1952"
+      }
+    ]
+  },
+  {
+    "id": "robin_awarded_patrons",
+    "source": "gordon_robin",
+    "type": "awarded",
+    "target": "patrons_gold_medal",
+    "event_id": "robin_patrons_gold_medal",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "The Royal Geographical Society recognised Robin with the Back Grant in 1952 and in 1979 the Patron's Gold Medal, one of the Society's two most senior awards officially approved by HM Queen Elizabeth II."
+      }
+    ]
+  },
+  {
+    "id": "robin_awarded_seligman",
+    "source": "gordon_robin",
+    "type": "awarded",
+    "target": "seligman_crystal",
+    "event_id": "robin_seligman_crystal",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "and, in 1986, the foremost prize in glaciology — the Seligman Crystal — of the International Glaciological Society."
+      }
+    ]
+  },
+  {
+    "id": "robin_awarded_scd",
+    "source": "gordon_robin",
+    "type": "awarded",
+    "target": "university_of_cambridge",
+    "event_id": "robin_scd_cambridge",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "There was other recognition: an Honorary Doctorate (DPhil) from the University of Stockholm in 1978, a ScD from the University of Cambridge (1977)"
+      }
+    ]
+  },
+  {
+    "id": "robin_awarded_dphil_stockholm",
+    "source": "gordon_robin",
+    "type": "awarded",
+    "target": "university_of_stockholm",
+    "event_id": "robin_stockholm_dphil",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "There was other recognition: an Honorary Doctorate (DPhil) from the University of Stockholm in 1978, a ScD from the University of Cambridge (1977)"
+      }
+    ]
+  },
+  {
+    "id": "evans_recruited_spri",
+    "source": "stan_evans",
+    "type": "employed_by",
+    "target": "spri",
+    "event_id": "stan_evans_recruited",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 3,
+        "quote": "Stan Evans was recruited by Robin and joined the staff of SPRI in 1959 from the Jodrell Bank Observatory in Manchester."
+      }
+    ]
+  },
+  {
+    "id": "evans_from_jodrell",
+    "source": "stan_evans",
+    "type": "worked_at",
+    "target": "jodrell_bank",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 3,
+        "quote": "Stan Evans was recruited by Robin and joined the staff of SPRI in 1959 from the Jodrell Bank Observatory in Manchester."
+      }
+    ]
+  },
+  {
+    "id": "drewry_spri_director_relation",
+    "source": "david_drewry",
+    "type": "employed_by",
+    "target": "spri",
+    "event_id": "drewry_spri_director",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "He was succeeded temporarily by Terence Armstrong as acting director before David Drewry was appointed director in 1984."
+      }
+    ]
+  },
+  {
+    "id": "drewry_bas",
+    "source": "david_drewry",
+    "type": "employed_by",
+    "target": "bas",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "When Drewry departed for the British Antarctic Survey in 1987, Peter Wadhams, similarly a student and colleague of Robin, was appointed director."
+      }
+    ]
+  },
+  {
+    "id": "wadhams_spri_director_relation",
+    "source": "peter_wadhams",
+    "type": "employed_by",
+    "target": "spri",
+    "event_id": "wadhams_spri_director",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "When Drewry departed for the British Antarctic Survey in 1987, Peter Wadhams, similarly a student and colleague of Robin, was appointed director."
+      }
+    ]
+  },
+  {
+    "id": "armstrong_spri",
+    "source": "terence_armstrong",
+    "type": "employed_by",
+    "target": "spri",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "He was succeeded temporarily by Terence Armstrong as acting director before David Drewry was appointed director in 1984."
+      }
+    ]
+  },
+  {
+    "id": "spri_cambridge",
+    "source": "spri",
+    "type": "member_of",
+    "target": "university_of_cambridge",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 1,
+        "quote": "He raised the profile and contribution to polar research of the Scott Polar Research Institute, University of Cambridge, to a new peak during his influential directorship between 1958 and 1982."
+      }
+    ]
+  },
+  {
+    "id": "scar_icsu",
+    "source": "scar",
+    "type": "member_of",
+    "target": "icsu",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 4,
+        "quote": "In 1958, as a response to this international scientific interest in Antarctica, a formal coordinating body was created, the Scientific Committee on Antarctic Research (SCAR), by the International Council of Scientific Unions."
+      }
+    ]
+  },
+  {
+    "id": "bnacar_royal_society",
+    "source": "bnacar",
+    "type": "member_of",
+    "target": "royal_society_uk",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 4,
+        "quote": "The Royal Society, as the UK adhering body to both ICSU and SCAR, formed a British National Committee on Antarctic Research and appointed Robin as Permanent UK Delegate"
+      }
+    ]
+  },
+  {
+    "id": "jean_worked_rgs",
+    "source": "jean_robin",
+    "type": "employed_by",
+    "target": "rgs",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "Robin is survived by his wife Jean (whom he married in 1953; she had worked as Lawrence Kirwan's secretary at the Royal Geographical Society in London and had been involved in the organisation of the NBSE)"
+      }
+    ]
+  }
+]

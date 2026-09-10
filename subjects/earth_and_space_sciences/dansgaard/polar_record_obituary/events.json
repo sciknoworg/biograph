@@ -1,0 +1,406 @@
+[
+  {
+    "id": "dansgaard_birth",
+    "event_type": "birth",
+    "label": "Born in Copenhagen",
+    "date": {
+      "display": "30 August 1922",
+      "precision": "day",
+      "sort_start": "1922-08-30",
+      "sort_end": "1922-08-30"
+    },
+    "participants": [
+      {
+        "entity_id": "willi_dansgaard",
+        "role": "subject"
+      }
+    ],
+    "location": "copenhagen",
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "He was born on 30 August 1922 and grew up in the centre of Copenhagen where his parents had an engraving shop."
+      }
+    ]
+  },
+  {
+    "id": "dansgaard_death",
+    "event_type": "death",
+    "label": "Died at age 88",
+    "date": {
+      "display": "8 January 2011",
+      "precision": "day",
+      "sort_start": "2011-01-08",
+      "sort_end": "2011-01-08"
+    },
+    "participants": [
+      {
+        "entity_id": "willi_dansgaard",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "Willi Dansgaard, a great pioneer of climate research, died on 8 January 2011 at the age of 88."
+      }
+    ]
+  },
+  {
+    "id": "dansgaard_degree",
+    "event_type": "education",
+    "label": "Finished university degree",
+    "date": {
+      "display": "1947",
+      "precision": "year",
+      "sort_start": "1947-01-01",
+      "sort_end": "1947-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "willi_dansgaard",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_copenhagen",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "He ﬁnished his university degree in physics, mathematics and astronomy in 1947 with a gold medal award for a thesis on X-ray dosimetry at the Biophysics Laboratory of the University of Copenhagen."
+      }
+    ]
+  },
+  {
+    "id": "dansgaard_dmi_start",
+    "event_type": "employment_start",
+    "label": "Employed by Danish Meteorological Institute",
+    "date": {
+      "display": "1947",
+      "precision": "year",
+      "sort_start": "1947-01-01",
+      "sort_end": "1947-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "willi_dansgaard",
+        "role": "subject"
+      },
+      {
+        "entity_id": "danish_meteorological_institute",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "From 1947 to 1951 he was employed by the Danish Meteorological Institute where he worked in geomagnetism and meteorology."
+      }
+    ]
+  },
+  {
+    "id": "dansgaard_dmi_end",
+    "event_type": "employment_end",
+    "label": "Left Danish Meteorological Institute",
+    "date": {
+      "display": "1951",
+      "precision": "year",
+      "sort_start": "1951-01-01",
+      "sort_end": "1951-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "willi_dansgaard",
+        "role": "subject"
+      },
+      {
+        "entity_id": "danish_meteorological_institute",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "From 1947 to 1951 he was employed by the Danish Meteorological Institute where he worked in geomagnetism and meteorology."
+      }
+    ]
+  },
+  {
+    "id": "dansgaard_qeqertarsuaq_visit",
+    "event_type": "visit",
+    "label": "Spent year at geomagnetic observatory in Qeqertarsuaq",
+    "date": {
+      "display": "1947– 1948",
+      "precision": "range",
+      "sort_start": "1947-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "willi_dansgaard",
+        "role": "subject"
+      }
+    ],
+    "location": "qeqertarsuaq",
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "In 1947– 1948 he spent a year at the geomagnetic observatory in Qeqer- tarsuaq, Greenland, and this led to a life long affection for that country."
+      }
+    ]
+  },
+  {
+    "id": "dansgaard_biophysics_start",
+    "event_type": "employment_start",
+    "label": "Returned to Biophysics Laboratory",
+    "date": {
+      "display": "1951",
+      "precision": "year",
+      "sort_start": "1951-01-01",
+      "sort_end": "1951-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "willi_dansgaard",
+        "role": "subject"
+      },
+      {
+        "entity_id": "biophysics_laboratory",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "In 1951, Dansgaard was given the opportunity to return to the Biophysics Laboratory when a position opened for the operation of a new mass spectrometer."
+      }
+    ]
+  },
+  {
+    "id": "dansgaard_isotope_discovery",
+    "event_type": "invention",
+    "label": "Discovered temperature determination via water isotopes",
+    "date": {
+      "display": "June 1952",
+      "precision": "month",
+      "sort_start": "1952-06-01",
+      "sort_end": "1952-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "willi_dansgaard",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "In June 1952, Dansgaard made a discovery that came to inﬂuence the rest of his scientiﬁc career."
+      }
+    ]
+  },
+  {
+    "id": "dansgaard_tellus_publication",
+    "event_type": "publication",
+    "label": "Published 'Stable isotopes in precipitation'",
+    "date": {
+      "display": "1964",
+      "precision": "year",
+      "sort_start": "1964-01-01",
+      "sort_end": "1964-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "willi_dansgaard",
+        "role": "subject"
+      },
+      {
+        "entity_id": "tellus_paper",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "This was a ground breaking paper in geophysics and geology."
+      }
+    ]
+  },
+  {
+    "id": "dansgaard_camp_century_visit",
+    "event_type": "visit",
+    "label": "Visited Camp Century",
+    "date": {
+      "display": "1964",
+      "precision": "year",
+      "sort_start": "1964-01-01",
+      "sort_end": "1964-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "willi_dansgaard",
+        "role": "subject"
+      }
+    ],
+    "location": "camp_century",
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "During his collection of water samples in Greenland, Dansgaard visited the American base, Camp Century in 1964."
+      }
+    ]
+  },
+  {
+    "id": "dansgaard_langway_collab",
+    "event_type": "meeting",
+    "label": "Entered collaboration with Chester Langway",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "willi_dansgaard",
+        "role": "subject"
+      },
+      {
+        "entity_id": "chester_langway",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "In 1967 he entered a collaboration with Dr. Chester Langway, and his group soon began systematic analysis of stable isotopes along the Camp Century ice core, and a few years later along the U.S. Byrd ice core from Antarctica."
+      }
+    ]
+  },
+  {
+    "id": "dansgaard_gil_leader",
+    "event_type": "role_change",
+    "label": "Became leader of Geophysical Isotope Laboratory",
+    "date": {
+      "display": "1972",
+      "precision": "year",
+      "sort_start": "1972-01-01",
+      "sort_end": "1972-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "willi_dansgaard",
+        "role": "subject"
+      },
+      {
+        "entity_id": "geophysical_isotope_laboratory",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "In 1972 Dansgaard became leader of the Geophysical Iso- tope Laboratory at the University of Copenhagen."
+      }
+    ]
+  },
+  {
+    "id": "dansgaard_dye3_drilling",
+    "event_type": "public_demonstration",
+    "label": "Led Dye-3 ice core drilling",
+    "date": {
+      "display": "1979–1981",
+      "precision": "range",
+      "sort_start": "1979-01-01",
+      "sort_end": "1981-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "willi_dansgaard",
+        "role": "subject"
+      },
+      {
+        "entity_id": "chester_langway",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "hans_oeschger",
+        "role": "collaborator"
+      }
+    ],
+    "location": "dye_3",
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "Together with Langway and Professor Hans Oeschger, University of Berne, Dansgaard led the very ﬁrst climate research motivated ice core drilling through the Greenland ice sheet at Dye-3 in south Greenland in 1979–1981."
+      }
+    ]
+  },
+  {
+    "id": "dansgaard_grip_drilling",
+    "event_type": "public_demonstration",
+    "label": "Established GRIP ice core drilling",
+    "date": {
+      "display": "1989–1992",
+      "precision": "range",
+      "sort_start": "1989-01-01",
+      "sort_end": "1992-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "willi_dansgaard",
+        "role": "subject"
+      },
+      {
+        "entity_id": "grip_project",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "so he established a European collaboration which led to the GRIP ice core drilling in 1989–1992."
+      }
+    ]
+  },
+  {
+    "id": "dansgaard_retirement",
+    "event_type": "retirement",
+    "label": "Retired",
+    "date": {
+      "display": "1992",
+      "precision": "year",
+      "sort_start": "1992-01-01",
+      "sort_end": "1992-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "willi_dansgaard",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "His last great efforts were made from 1985 to his retirement in 1992."
+      }
+    ]
+  }
+]

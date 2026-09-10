@@ -1,0 +1,512 @@
+[
+  {
+    "aliases": [
+      "Hank Stommel",
+      "Henry Stommel",
+      "Starbuck"
+    ],
+    "entity_type": "person",
+    "id": "h_stommel",
+    "name": "Henry Melson Stommel",
+    "subtype": "researcher",
+    "summary": "Influential physical oceanographer known for theories of ocean circulation, abyssal circulation, and westward intensification."
+  },
+  {
+    "aliases": [
+      "Chickie Brown",
+      "Chickie Stommel",
+      "Elizabeth Stommel"
+    ],
+    "entity_type": "person",
+    "id": "e_stommel",
+    "name": "Elizabeth Brown",
+    "subtype": "spouse",
+    "summary": "Henry Stommel's wife, organist, and co-author of Volcano Weather."
+  },
+  {
+    "aliases": [
+      "George Veronis"
+    ],
+    "entity_type": "person",
+    "id": "g_veronis",
+    "name": "George Veronis",
+    "subtype": "researcher",
+    "summary": "Oceanographer and frequent collaborator of Henry Stommel at Yale and WHOI."
+  },
+  {
+    "aliases": [
+      "Jule Charney"
+    ],
+    "entity_type": "person",
+    "id": "j_charney",
+    "name": "Jule Charney",
+    "subtype": "researcher",
+    "summary": "Meteorologist and oceanographer who invited Stommel to Princeton."
+  },
+  {
+    "aliases": [
+      "Arnold Arons"
+    ],
+    "entity_type": "person",
+    "id": "a_arons",
+    "name": "Arnold Arons",
+    "subtype": "researcher",
+    "summary": "Oceanographer who collaborated with Stommel on double diffusion and salt fountains."
+  },
+  {
+    "aliases": [
+      "Willem Malkus",
+      "Willem H. Malkus"
+    ],
+    "entity_type": "person",
+    "id": "w_malkus",
+    "name": "Willem Malkus",
+    "subtype": "researcher",
+    "summary": "Physicist and oceanographer who co-founded the GFD seminar with Stommel."
+  },
+  {
+    "aliases": [
+      "Walter Munk",
+      "Walter H. Munk"
+    ],
+    "entity_type": "person",
+    "id": "w_munk",
+    "name": "Walter Munk",
+    "subtype": "researcher",
+    "summary": "Physical oceanographer and contemporary of Stommel at Scripps."
+  },
+  {
+    "aliases": [
+      "Allan Robinson"
+    ],
+    "entity_type": "person",
+    "id": "a_robinson",
+    "name": "Allan Robinson",
+    "subtype": "researcher",
+    "summary": "Oceanographer who co-directed the Mid-Ocean Dynamics Experiment with Stommel."
+  },
+  {
+    "aliases": [
+      "John Knauss"
+    ],
+    "entity_type": "person",
+    "id": "j_knauss",
+    "name": "John Knauss",
+    "subtype": "researcher",
+    "summary": "Oceanographer who sailed with Stommel on the Argo during the Indian Ocean Expedition."
+  },
+  {
+    "aliases": [
+      "Roger Revelle"
+    ],
+    "entity_type": "person",
+    "id": "r_revelle",
+    "name": "Roger Revelle",
+    "subtype": "administrator",
+    "summary": "Director at Scripps Institution of Oceanography who offered Stommel a job."
+  },
+  {
+    "aliases": [
+      "Carl Wunsch"
+    ],
+    "entity_type": "person",
+    "id": "c_wunsch",
+    "name": "Carl Wunsch",
+    "subtype": "researcher",
+    "summary": "Oceanographer and former MIT student sent by Stommel to work with Munk."
+  },
+  {
+    "aliases": [
+      "Jim Luyten",
+      "James Luyten"
+    ],
+    "entity_type": "person",
+    "id": "j_luyten",
+    "name": "Jim Luyten",
+    "subtype": "researcher",
+    "summary": "Senior Scientist at WHOI who collaborated with Stommel on simple dynamical models."
+  },
+  {
+    "aliases": [
+      "Nelson Hogg"
+    ],
+    "entity_type": "person",
+    "id": "n_hogg",
+    "name": "Nelson Hogg",
+    "subtype": "researcher",
+    "summary": "Senior Scientist at WHOI and guest editor of the Stommel tribute issue."
+  },
+  {
+    "aliases": [
+      "Melvin Stern"
+    ],
+    "entity_type": "person",
+    "id": "m_stern",
+    "name": "Melvin Stern",
+    "subtype": "researcher",
+    "summary": "Oceanographer who developed the theory of double-diffusive convection."
+  },
+  {
+    "aliases": [
+      "Joseph Pedlosky"
+    ],
+    "entity_type": "person",
+    "id": "j_pedlosky",
+    "name": "Joseph Pedlosky",
+    "subtype": "researcher",
+    "summary": "Oceanographer at WHOI who collaborated with Stommel on the thermocline problem."
+  },
+  {
+    "aliases": [
+      "Yale"
+    ],
+    "entity_type": "organization",
+    "id": "yale_univ",
+    "name": "Yale University",
+    "subtype": "university",
+    "summary": "University where Stommel completed his undergraduate and graduate studies."
+  },
+  {
+    "aliases": [
+      "WHOI",
+      "Woods Hole",
+      "The Oceanographic"
+    ],
+    "entity_type": "organization",
+    "id": "whoi",
+    "name": "Woods Hole Oceanographic Institution",
+    "subtype": "lab",
+    "summary": "Research institution where Stommel spent most of his career."
+  },
+  {
+    "aliases": [
+      "MIT"
+    ],
+    "entity_type": "organization",
+    "id": "mit",
+    "name": "Massachusetts Institute of Technology",
+    "subtype": "university",
+    "summary": "University where Stommel held a faculty position before returning to WHOI."
+  },
+  {
+    "aliases": [
+      "Harvard"
+    ],
+    "entity_type": "organization",
+    "id": "harvard_univ",
+    "name": "Harvard University",
+    "subtype": "university",
+    "summary": "University where Stommel held the chair of oceanography."
+  },
+  {
+    "aliases": [
+      "Institute for Advanced Study in Princeton"
+    ],
+    "entity_type": "organization",
+    "id": "ias_princeton",
+    "name": "Institute for Advanced Study",
+    "subtype": "lab",
+    "summary": "Research institute where Stommel visited in 1955."
+  },
+  {
+    "aliases": [
+      "Imperial College London"
+    ],
+    "entity_type": "organization",
+    "id": "imperial_college",
+    "name": "Imperial College",
+    "subtype": "university",
+    "summary": "University in London where Stommel worked for a few months."
+  },
+  {
+    "aliases": [
+      "Scripps"
+    ],
+    "entity_type": "organization",
+    "id": "scripps",
+    "name": "Scripps Institution of Oceanography",
+    "subtype": "lab",
+    "summary": "Oceanographic institution in La Jolla where Stommel visited and collaborated."
+  },
+  {
+    "aliases": [
+      "AGU"
+    ],
+    "entity_type": "organization",
+    "id": "agu",
+    "name": "American Geophysical Union",
+    "subtype": "society",
+    "summary": "Scientific organization that awarded Stommel the Bowie Award."
+  },
+  {
+    "aliases": [
+      "Royal Society"
+    ],
+    "entity_type": "organization",
+    "id": "royal_society",
+    "name": "Royal Society",
+    "subtype": "society",
+    "summary": "Scientific academy that elected Stommel as a Foreign Member."
+  },
+  {
+    "aliases": [
+      "NSF"
+    ],
+    "entity_type": "organization",
+    "id": "nsf",
+    "name": "National Science Foundation",
+    "subtype": "agency",
+    "summary": "Funding agency that supported Stommel's research proposals."
+  },
+  {
+    "aliases": [
+      "Cornell Maritime Press"
+    ],
+    "entity_type": "organization",
+    "id": "cornell_maritime_press",
+    "name": "Cornell Maritime Press",
+    "subtype": "company",
+    "summary": "Publisher of Stommel's book Science of the Seven Seas."
+  },
+  {
+    "aliases": [
+      "Wilmington, Delaware"
+    ],
+    "attributes": {
+      "country": "United States",
+      "state": "Delaware",
+      "lat": 39.74833,
+      "lng": -75.55139,
+      "wikidata_qid": "Q174224",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "wilmington_de",
+    "name": "Wilmington",
+    "subtype": "city",
+    "summary": "City in Delaware where Henry Stommel was born."
+  },
+  {
+    "aliases": [
+      "Freeport, New York"
+    ],
+    "attributes": {
+      "country": "United States",
+      "state": "New York",
+      "lat": 42.29194,
+      "lng": -89.63028,
+      "wikidata_qid": "Q202828",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "freeport_ny",
+    "name": "Freeport",
+    "subtype": "town",
+    "summary": "Town in New York where Stommel was brought up."
+  },
+  {
+    "aliases": [
+      "Woods Hole, Massachusetts"
+    ],
+    "attributes": {
+      "country": "United States",
+      "state": "Massachusetts",
+      "lat": 41.5267,
+      "lng": -70.6631,
+      "wikidata_qid": "Q747172",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "woods_hole_ma",
+    "name": "Woods Hole",
+    "subtype": "town",
+    "summary": "Village in Massachusetts where WHOI is located and where Stommel lived."
+  },
+  {
+    "aliases": [
+      "Falmouth, Massachusetts"
+    ],
+    "attributes": {
+      "country": "United States",
+      "state": "Massachusetts",
+      "lat": 41.55139,
+      "lng": -70.61528,
+      "wikidata_qid": "Q1523514",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "falmouth_ma",
+    "name": "Falmouth",
+    "subtype": "town",
+    "summary": "Town in Massachusetts where Stommel had a house and garden."
+  },
+  {
+    "aliases": [
+      "Brookline, Massachusetts"
+    ],
+    "attributes": {
+      "country": "United States",
+      "state": "Massachusetts",
+      "lat": 42.33167,
+      "lng": -71.12167,
+      "wikidata_qid": "Q49142",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "brookline_ma",
+    "name": "Brookline",
+    "subtype": "town",
+    "summary": "Town in Massachusetts where Stommel died at Deaconess Hospital."
+  },
+  {
+    "aliases": [
+      "Princeton, New Jersey"
+    ],
+    "attributes": {
+      "country": "United States",
+      "state": "New Jersey",
+      "lat": 40.35222,
+      "lng": -74.65694,
+      "wikidata_qid": "Q138518",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "princeton_nj",
+    "name": "Princeton",
+    "subtype": "town",
+    "summary": "Town in New Jersey where the Institute for Advanced Study is located."
+  },
+  {
+    "aliases": [
+      "London, England"
+    ],
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 51.50722,
+      "lng": -0.1275,
+      "wikidata_qid": "Q84",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "london_uk",
+    "name": "London",
+    "subtype": "city",
+    "summary": "City in England where Stommel worked at Imperial College."
+  },
+  {
+    "aliases": [
+      "Bermuda"
+    ],
+    "attributes": {
+      "country": "Bermuda"
+    },
+    "entity_type": "place",
+    "id": "bermuda",
+    "name": "Bermuda",
+    "subtype": "country",
+    "summary": "Island where Stommel conducted buoy tracking experiments."
+  },
+  {
+    "aliases": [
+      "Mediterranean"
+    ],
+    "attributes": {
+      "lat": 38.0,
+      "lng": 17.0,
+      "wikidata_qid": "Q4918",
+      "geocode_basis": "most_linked"
+    },
+    "entity_type": "place",
+    "id": "mediterranean_sea",
+    "name": "Mediterranean Sea",
+    "subtype": "sea",
+    "summary": "Sea where the MEDOC cruise took place."
+  },
+  {
+    "aliases": [
+      "Indian Ocean"
+    ],
+    "attributes": {
+      "lat": -20.0,
+      "lng": 80.0,
+      "wikidata_qid": "Q1239",
+      "geocode_basis": "most_linked"
+    },
+    "entity_type": "place",
+    "id": "indian_ocean",
+    "name": "Indian Ocean",
+    "subtype": "ocean",
+    "summary": "Ocean where Stommel participated in the International Indian Ocean Expedition."
+  },
+  {
+    "aliases": [
+      "Science of the Seven Seas"
+    ],
+    "entity_type": "artifact",
+    "id": "science_seven_seas",
+    "name": "Science of the Seven Seas",
+    "subtype": "publication",
+    "summary": "Book written by Stommel and published in 1945."
+  },
+  {
+    "aliases": [
+      "A View of the Sea"
+    ],
+    "entity_type": "artifact",
+    "id": "view_of_sea",
+    "name": "A View of the Sea",
+    "subtype": "publication",
+    "summary": "Book published by Stommel in 1989 based on his introductory course."
+  },
+  {
+    "aliases": [
+      "Volcano Weather, the Story of 1816, the Year Without a Summer"
+    ],
+    "entity_type": "artifact",
+    "id": "volcano_weather",
+    "name": "Volcano Weather",
+    "subtype": "publication",
+    "summary": "Book co-authored by Stommel and his wife in 1980."
+  },
+  {
+    "aliases": [
+      "westward intensification paper"
+    ],
+    "entity_type": "artifact",
+    "id": "westward_paper",
+    "name": "The Westward Intensification of Wind-Driven Ocean Currents",
+    "subtype": "publication",
+    "summary": "Seminal 1948 paper by Stommel on ocean circulation."
+  },
+  {
+    "aliases": [
+      "1958 Letter to Deep Sea Research",
+      "abyssal circulation letter"
+    ],
+    "entity_type": "artifact",
+    "id": "abyssal_letter",
+    "name": "Letter to the Editors (Deep-Sea Research)",
+    "subtype": "publication",
+    "summary": "1958 letter sketching the flow pattern for abyssal circulation."
+  },
+  {
+    "aliases": [
+      "Indian Ocean Bubble"
+    ],
+    "entity_type": "artifact",
+    "id": "indian_ocean_bubble",
+    "name": "The Indian Ocean Bubble",
+    "subtype": "publication",
+    "summary": "Anonymous newsletter published by Stommel in 1959-1960."
+  },
+  {
+    "aliases": [
+      "salt fountain paper"
+    ],
+    "entity_type": "artifact",
+    "id": "salt_fountain_paper",
+    "name": "The 'Salt Fountain' and Thermohaline Convection",
+    "subtype": "publication",
+    "summary": "1960 paper on double diffusion and salt fingers."
+  }
+]

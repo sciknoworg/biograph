@@ -1,0 +1,124 @@
+[
+  {
+    "id": "birkeland_born_oslo",
+    "source": "kristian_birkeland",
+    "type": "born_in",
+    "target": "oslo",
+    "event_id": "birkeland_birth",
+    "sources": [
+      {
+        "source_id": "egeland_burke_2010",
+        "page": 1,
+        "quote": "Olaf Kristian Bernhard Birkeland was born in Kristiania, the capital of Norway, on 13 December 1867"
+      }
+    ]
+  },
+  {
+    "id": "birkeland_died_tokyo",
+    "source": "kristian_birkeland",
+    "type": "died_in",
+    "target": "tokyo",
+    "event_id": "birkeland_death",
+    "sources": [
+      {
+        "source_id": "egeland_burke_2010",
+        "page": 1,
+        "quote": "and died in Tokyo on 15 June 1917."
+      }
+    ]
+  },
+  {
+    "id": "birkeland_worked_university_oslo",
+    "source": "kristian_birkeland",
+    "type": "worked_at",
+    "target": "university_of_oslo",
+    "event_id": "birkeland_professor_appointment",
+    "sources": [
+      {
+        "source_id": "egeland_burke_2010",
+        "page": 1,
+        "quote": "He was appointed professor of physics at The Royal Frederik University in Kristiania near the end of the 19th century."
+      }
+    ]
+  },
+  {
+    "id": "birkeland_invented_terrella",
+    "source": "kristian_birkeland",
+    "type": "invented",
+    "target": "terrella",
+    "sources": [
+      {
+        "source_id": "egeland_burke_2010",
+        "page": 3,
+        "quote": "Birkeland initiated a set of laboratory simulations that he referred to as terrella experiments."
+      }
+    ]
+  },
+  {
+    "id": "birkeland_founded_norsk_hydro",
+    "source": "kristian_birkeland",
+    "type": "founded",
+    "target": "norsk_hydro",
+    "sources": [
+      {
+        "source_id": "egeland_burke_2010",
+        "page": 2,
+        "quote": "He invented the plasma arc which led to the Birkeland-Eyde method for industrial nitrogen fixation for synthesizing artificial fertilizers and then to the founding of Norsk Hydro"
+      }
+    ]
+  },
+  {
+    "id": "birkeland_mentored_boy",
+    "source": "kristian_birkeland",
+    "type": "mentored",
+    "target": "elisar_boy",
+    "sources": [
+      {
+        "source_id": "egeland_burke_2010",
+        "page": 4,
+        "quote": "Tragically, one of Birkeland's young student assistants, Elisar Boye, was lost in an avalanche late in the campaign."
+      }
+    ]
+  },
+  {
+    "id": "birkeland_published_nape",
+    "source": "kristian_birkeland",
+    "type": "published",
+    "target": "nape",
+    "event_id": "birkeland_nape_vol1",
+    "sources": [
+      {
+        "source_id": "egeland_burke_2010",
+        "page": 2,
+        "quote": "Birkeland's main work regarding auroras and geomagnetic disturbances is summarized in 'The Norwegian Aurora Polaris Expedition 1902–1903'."
+      }
+    ]
+  },
+  {
+    "id": "birkeland_awarded_currents_name",
+    "source": "international_union_geomagnetism_aeronomy",
+    "type": "awarded",
+    "target": "kristian_birkeland",
+    "event_id": "birkeland_currents_named",
+    "sources": [
+      {
+        "source_id": "egeland_burke_2010",
+        "page": 9,
+        "quote": "This recommendation was later ratified by the International Union for Geomagnetism and Aeronomy."
+      }
+    ]
+  },
+  {
+    "id": "birkeland_invented_birkeland_eyde",
+    "source": "kristian_birkeland",
+    "type": "invented",
+    "target": "birkeland_eyde_method",
+    "sources": [
+      {
+        "source_id": "egeland_burke_2010",
+        "page": 2,
+        "quote": "He invented the plasma arc which led to the Birkeland-Eyde method for industrial nitrogen fixation"
+      }
+    ]
+  }
+]

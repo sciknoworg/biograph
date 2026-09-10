@@ -1,0 +1,366 @@
+[
+  {
+    "id": "birkeland_birth",
+    "event_type": "birth",
+    "label": "Born in Kristiania",
+    "date": {
+      "display": "13 December 1867",
+      "precision": "day",
+      "sort_start": "1867-12-13",
+      "sort_end": "1867-12-13"
+    },
+    "participants": [
+      {
+        "entity_id": "kristian_birkeland",
+        "role": "subject"
+      }
+    ],
+    "location": "oslo",
+    "sources": [
+      {
+        "source_id": "egeland_burke_2010",
+        "page": 1,
+        "quote": "Olaf Kristian Bernhard Birkeland was born in Kristiania, the capital of Norway, on 13 December 1867"
+      }
+    ]
+  },
+  {
+    "id": "birkeland_death",
+    "event_type": "death",
+    "label": "Died in Tokyo",
+    "date": {
+      "display": "15 June 1917",
+      "precision": "day",
+      "sort_start": "1917-06-15",
+      "sort_end": "1917-06-15"
+    },
+    "participants": [
+      {
+        "entity_id": "kristian_birkeland",
+        "role": "subject"
+      }
+    ],
+    "location": "tokyo",
+    "sources": [
+      {
+        "source_id": "egeland_burke_2010",
+        "page": 1,
+        "quote": "and died in Tokyo on 15 June 1917."
+      }
+    ]
+  },
+  {
+    "id": "birkeland_education",
+    "event_type": "education",
+    "label": "Completed university studies in physics",
+    "date": {
+      "display": "June 1890",
+      "precision": "month",
+      "sort_start": "1890-06-01",
+      "sort_end": "1890-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "kristian_birkeland",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "egeland_burke_2010",
+        "page": 2,
+        "quote": "He completed university studies in physics in June 1890, youngest in his class and with the highest grades."
+      }
+    ]
+  },
+  {
+    "id": "birkeland_research_travel",
+    "event_type": "visit",
+    "label": "Conducted early research in France and Germany",
+    "date": {
+      "display": "January 1893–August 1895",
+      "precision": "range",
+      "sort_start": "1893-01-01",
+      "sort_end": "1895-08-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kristian_birkeland",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "egeland_burke_2010",
+        "page": 2,
+        "quote": "Much of his early research was conducted in France and Germany between January 1893 and August 1895."
+      }
+    ]
+  },
+  {
+    "id": "birkeland_professor_appointment",
+    "event_type": "employment_start",
+    "label": "Appointed professor of physics",
+    "date": {
+      "display": "near the end of the 19th century",
+      "precision": "decade",
+      "sort_start": "1890-01-01",
+      "sort_end": "1899-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kristian_birkeland",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_oslo",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "egeland_burke_2010",
+        "page": 1,
+        "quote": "He was appointed professor of physics at The Royal Frederik University in Kristiania near the end of the 19th century."
+      }
+    ]
+  },
+  {
+    "id": "birkeland_expedition_1",
+    "event_type": "visit",
+    "label": "First auroral expedition to Finnmark",
+    "date": {
+      "display": "1897",
+      "precision": "year",
+      "sort_start": "1897-01-01",
+      "sort_end": "1897-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kristian_birkeland",
+        "role": "subject"
+      }
+    ],
+    "location": "finnmark",
+    "sources": [
+      {
+        "source_id": "egeland_burke_2010",
+        "page": 4,
+        "quote": "Birkeland's first expedition in 1897 was a disaster."
+      }
+    ]
+  },
+  {
+    "id": "birkeland_expedition_2",
+    "event_type": "visit",
+    "label": "Second auroral expedition to Finnmark",
+    "date": {
+      "display": "winter of 1899–1900",
+      "precision": "range",
+      "sort_start": "1899-01-01",
+      "sort_end": "1900-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kristian_birkeland",
+        "role": "subject"
+      }
+    ],
+    "location": "finnmark",
+    "sources": [
+      {
+        "source_id": "egeland_burke_2010",
+        "page": 4,
+        "quote": "In preparation for this second expedition during the winter of 1899–1900, a permanent observatory was built on the summit of Haldde Mountain"
+      }
+    ]
+  },
+  {
+    "id": "birkeland_expedition_3",
+    "event_type": "visit",
+    "label": "Comprehensive four-station polar expedition",
+    "date": {
+      "display": "1902–1903",
+      "precision": "range",
+      "sort_start": "1902-01-01",
+      "sort_end": "1903-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kristian_birkeland",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "egeland_burke_2010",
+        "page": 4,
+        "quote": "The 1902–1903 expedition is well documented in the NAPE publications of 1908 and 1913."
+      }
+    ]
+  },
+  {
+    "id": "birkeland_nape_vol1",
+    "event_type": "publication",
+    "label": "Published NAPE Volume I",
+    "date": {
+      "display": "1908",
+      "precision": "year",
+      "sort_start": "1908-01-01",
+      "sort_end": "1908-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kristian_birkeland",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nape",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "egeland_burke_2010",
+        "page": 2,
+        "quote": "Volume I (Birkeland, 1908) covers pages 1 to 316"
+      }
+    ]
+  },
+  {
+    "id": "birkeland_nape_vol2",
+    "event_type": "publication",
+    "label": "Published NAPE Volume II",
+    "date": {
+      "display": "1913",
+      "precision": "year",
+      "sort_start": "1913-01-01",
+      "sort_end": "1913-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kristian_birkeland",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nape",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "egeland_burke_2010",
+        "page": 2,
+        "quote": "volume 2 (Birkeland, 1913) covers pages 317 to 801."
+      }
+    ]
+  },
+  {
+    "id": "birkeland_industrial_work",
+    "event_type": "employment_start",
+    "label": "Diverted attention to applied physics and technology",
+    "date": {
+      "display": "1903–1906",
+      "precision": "range",
+      "sort_start": "1903-01-01",
+      "sort_end": "1906-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kristian_birkeland",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "egeland_burke_2010",
+        "page": 2,
+        "quote": "From 1903 to 1906 Birkeland diverted much of his attention toward applied physics and technological development."
+      }
+    ]
+  },
+  {
+    "id": "birkeland_currents_named",
+    "event_type": "award",
+    "label": "Field-aligned currents named 'Birkeland currents'",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kristian_birkeland",
+        "role": "subject"
+      },
+      {
+        "entity_id": "international_union_geomagnetism_aeronomy",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "egeland_burke_2010",
+        "page": 9,
+        "quote": "During The Birkeland Symposium in 1967 attendees unanimously proposed that field-aligned currents in space should henceforth be called 'Birkeland currents'."
+      }
+    ]
+  },
+  {
+    "id": "birkeland_lectures_inaugurated",
+    "event_type": "other",
+    "label": "Kristian Birkeland Lectures inaugurated",
+    "date": {
+      "display": "1986",
+      "precision": "year",
+      "sort_start": "1986-01-01",
+      "sort_end": "1986-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kristian_birkeland",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_oslo",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "egeland_burke_2010",
+        "page": 11,
+        "quote": "in 1986 the University of Oslo, in cooperation with the Norwegian Academy of Science and Letters, and Norsk Hydro inaugurated a continuing series called The Kristian Birkeland Lectures."
+      }
+    ]
+  },
+  {
+    "id": "birkeland_banknote",
+    "event_type": "award",
+    "label": "Honored on Norwegian 200-kroner banknote",
+    "date": {
+      "display": "1994",
+      "precision": "year",
+      "sort_start": "1994-01-01",
+      "sort_end": "1994-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "kristian_birkeland",
+        "role": "subject"
+      },
+      {
+        "entity_id": "norwegian_200_kroner",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "egeland_burke_2010",
+        "page": 11,
+        "quote": "His portrait, along with his terrella experiment and some of his original drawings adorn the Norwegian 200 kroner banknote, first issued in 1994."
+      }
+    ]
+  }
+]

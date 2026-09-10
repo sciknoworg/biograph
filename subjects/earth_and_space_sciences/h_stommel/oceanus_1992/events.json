@@ -1,0 +1,532 @@
+[
+  {
+    "id": "birth_stommel",
+    "event_type": "birth",
+    "label": "Born in Wilmington, Delaware",
+    "date": {
+      "display": "September 27, 1920",
+      "precision": "day",
+      "sort_start": "1920-09-27",
+      "sort_end": "1920-09-27"
+    },
+    "participants": [
+      {
+        "entity_id": "h_stommel",
+        "role": "subject"
+      }
+    ],
+    "location": "wilmington_de",
+    "sources": [
+      {
+        "source_id": "oceanus_1992",
+        "page": 4,
+        "quote": "Henry Melson Stommel September 27, 1920-January 17, 1992"
+      },
+      {
+        "source_id": "oceanus_1992",
+        "page": 8,
+        "quote": "I was born/ he writes, 'on Sept. 27, 1920, in Wilmington, Delaware."
+      }
+    ]
+  },
+  {
+    "id": "grad_yale",
+    "event_type": "education",
+    "label": "Graduated from Yale University",
+    "date": {
+      "display": "1942",
+      "precision": "year",
+      "sort_start": "1942-01-01",
+      "sort_end": "1942-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "h_stommel",
+        "role": "subject"
+      },
+      {
+        "entity_id": "yale_univ",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "oceanus_1992",
+        "page": 8,
+        "quote": "T went to Yale University, joined the Corinthian Yacht Club there, graduated in 1942 after majoring in physics."
+      }
+    ]
+  },
+  {
+    "id": "join_whoi",
+    "event_type": "employment_start",
+    "label": "Arrived at Woods Hole Oceanographic Institution",
+    "date": {
+      "display": "1944",
+      "precision": "year",
+      "sort_start": "1944-01-01",
+      "sort_end": "1944-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "h_stommel",
+        "role": "subject"
+      },
+      {
+        "entity_id": "whoi",
+        "role": "employer"
+      }
+    ],
+    "location": "woods_hole_ma",
+    "sources": [
+      {
+        "source_id": "oceanus_1992",
+        "page": 4,
+        "quote": "When Hank arrived at the Woods Hole Oceanographic Institution in 1944 there was little reason to suppose that anything momentous had taken place."
+      }
+    ]
+  },
+  {
+    "id": "pub_science_seas",
+    "event_type": "publication",
+    "label": "Published Science of the Seven Seas",
+    "date": {
+      "display": "1945",
+      "precision": "year",
+      "sort_start": "1945-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "h_stommel",
+        "role": "author"
+      },
+      {
+        "entity_id": "science_seven_seas",
+        "role": "publication"
+      },
+      {
+        "entity_id": "cornell_maritime_press",
+        "role": "publisher"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "oceanus_1992",
+        "page": 4,
+        "quote": "Over a three-week period he wrote a 208-page book, Science of the Seven Seas, which was published by Cornell Maritime Press in 1945."
+      }
+    ]
+  },
+  {
+    "id": "pub_westward",
+    "event_type": "publication",
+    "label": "Published westward intensification paper",
+    "date": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "h_stommel",
+        "role": "author"
+      },
+      {
+        "entity_id": "westward_paper",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "oceanus_1992",
+        "page": 5,
+        "quote": "The publication of that analysis in the 1948 Transactions of the American Geophysical Union marked the beginning of modeling of large-scale ocean circulation."
+      }
+    ]
+  },
+  {
+    "id": "meet_richardson",
+    "event_type": "meeting",
+    "label": "Visited Lewis Fry Richardson in Scotland",
+    "date": {
+      "display": "January 6, 1948",
+      "precision": "day",
+      "sort_start": "1948-01-06",
+      "sort_end": "1948-01-06"
+    },
+    "participants": [
+      {
+        "entity_id": "h_stommel",
+        "role": "visitor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "oceanus_1992",
+        "page": 15,
+        "quote": "But we did encourage him to visit Lewis Fry Richardson at his house by Loch Long in Scotland, where on January 6, 1948, they made some observations of two-particle diffusion of particles on the sea surface."
+      }
+    ]
+  },
+  {
+    "id": "marry_chickie",
+    "event_type": "other",
+    "label": "Married Elizabeth (Chickie) Brown",
+    "date": {
+      "display": "1950",
+      "precision": "year",
+      "sort_start": "1950-01-01",
+      "sort_end": "1950-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "h_stommel",
+        "role": "subject"
+      },
+      {
+        "entity_id": "e_stommel",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "oceanus_1992",
+        "page": 6,
+        "quote": "After he and Elizabeth (Chickie) Brown were married in 1950, they frequently entertained visiting oceanographers..."
+      }
+    ]
+  },
+  {
+    "id": "visit_princeton",
+    "event_type": "visit",
+    "label": "Visited Institute for Advanced Study in Princeton",
+    "date": {
+      "display": "Spring 1955",
+      "precision": "season",
+      "sort_start": "1955-03-01",
+      "sort_end": "1955-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "h_stommel",
+        "role": "visitor"
+      },
+      {
+        "entity_id": "ias_princeton",
+        "role": "host"
+      },
+      {
+        "entity_id": "j_charney",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "g_veronis",
+        "role": "collaborator"
+      }
+    ],
+    "location": "princeton_nj",
+    "sources": [
+      {
+        "source_id": "oceanus_1992",
+        "page": 5,
+        "quote": "In 1955, when he was invited by Jule Charney to visit the Institute for Advanced Study in Princeton, he and I worked on a problem together..."
+      },
+      {
+        "source_id": "oceanus_1992",
+        "page": 13,
+        "quote": "When Hank Stommel arrived at the Institute for Advanced Study in Princeton, New Jersey, for a three-month stay in the spring of 1955..."
+      }
+    ]
+  },
+  {
+    "id": "pub_veronis_stommel",
+    "event_type": "publication",
+    "label": "Published paper with George Veronis",
+    "date": {
+      "display": "1956",
+      "precision": "year",
+      "sort_start": "1956-01-01",
+      "sort_end": "1956-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "h_stommel",
+        "role": "author"
+      },
+      {
+        "entity_id": "g_veronis",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "oceanus_1992",
+        "page": 13,
+        "quote": "The paper, \"The action of variable wind-stresses on a stratified ocean,\" was published in the Journal of Marine Research in 1956."
+      }
+    ]
+  },
+  {
+    "id": "pub_abyssal",
+    "event_type": "publication",
+    "label": "Published Letter to Deep Sea Research",
+    "date": {
+      "display": "1958",
+      "precision": "year",
+      "sort_start": "1958-01-01",
+      "sort_end": "1958-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "h_stommel",
+        "role": "author"
+      },
+      {
+        "entity_id": "abyssal_letter",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "oceanus_1992",
+        "page": 23,
+        "quote": "His first diagram illustrating his revolutionary ideas about interior flows and western-boundary currents in the deep ocean circulation was published in the famous Letter to the Editors of Deep-Sen Research in 1958."
+      }
+    ]
+  },
+  {
+    "id": "pub_salt_fountain",
+    "event_type": "publication",
+    "label": "Published salt fountain paper",
+    "date": {
+      "display": "1960",
+      "precision": "year",
+      "sort_start": "1960-01-01",
+      "sort_end": "1960-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "h_stommel",
+        "role": "author"
+      },
+      {
+        "entity_id": "m_stern",
+        "role": "author"
+      },
+      {
+        "entity_id": "salt_fountain_paper",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "oceanus_1992",
+        "page": 33,
+        "quote": "The rest is history ['The 'Salt Fountain'and Thermohaline Convection,\" Tellus, I960, pages 172-175]."
+      }
+    ]
+  },
+  {
+    "id": "cruise_argo_1962",
+    "event_type": "visit",
+    "label": "Cruised on Argo in Indian Ocean",
+    "date": {
+      "display": "1962",
+      "precision": "year",
+      "sort_start": "1962-01-01",
+      "sort_end": "1962-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "h_stommel",
+        "role": "scientist"
+      },
+      {
+        "entity_id": "j_knauss",
+        "role": "chief_scientist"
+      },
+      {
+        "entity_id": "j_charney",
+        "role": "scientist"
+      }
+    ],
+    "location": "indian_ocean",
+    "sources": [
+      {
+        "source_id": "oceanus_1992",
+        "page": 17,
+        "quote": "I had the Scripps vessel, Argo, for two cruises of three months each in 1962 and 1963... so in July of 1962 Jule Charney (Massachusetts Institute of Technology) and Henry Stommel arrived in Mombasa..."
+      }
+    ]
+  },
+  {
+    "id": "visit_moscow",
+    "event_type": "visit",
+    "label": "Visited Moscow to meet Soviet oceanographers",
+    "date": {
+      "display": "October 1962",
+      "precision": "month",
+      "sort_start": "1962-10-01",
+      "sort_end": "1962-10-31"
+    },
+    "participants": [
+      {
+        "entity_id": "h_stommel",
+        "role": "visitor"
+      },
+      {
+        "entity_id": "j_knauss",
+        "role": "visitor"
+      }
+    ],
+    "location": "london_uk",
+    "sources": [
+      {
+        "source_id": "oceanus_1992",
+        "page": 17,
+        "quote": "Somehow arrangements were made, and in October of 1962 John Swallow (National Institute of Oceanography, UK), Joe Reid (Scripps Institution of Oceanography), Henry, and I trooped off to Moscow..."
+      }
+    ]
+  },
+  {
+    "id": "cruise_medoc",
+    "event_type": "visit",
+    "label": "Participated in MEDOC cruise in Mediterranean",
+    "date": {
+      "display": "January 1969",
+      "precision": "month",
+      "sort_start": "1969-01-01",
+      "sort_end": "1969-01-31"
+    },
+    "participants": [
+      {
+        "entity_id": "h_stommel",
+        "role": "scientist"
+      }
+    ],
+    "location": "mediterranean_sea",
+    "sources": [
+      {
+        "source_id": "oceanus_1992",
+        "page": 5,
+        "quote": "In looking back on his career he felt that his most rewarding observational effort was the MEDOC [MEditerranean Deep Ocean Convection] cruise in January 1969..."
+      }
+    ]
+  },
+  {
+    "id": "award_bowie",
+    "event_type": "award",
+    "label": "Received Bowie Award from AGU",
+    "date": {
+      "display": "1982",
+      "precision": "year",
+      "sort_start": "1982-01-01",
+      "sort_end": "1982-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "h_stommel",
+        "role": "recipient"
+      },
+      {
+        "entity_id": "agu",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "w_munk",
+        "role": "presenter"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "oceanus_1992",
+        "page": 28,
+        "quote": "I had the pleasure of presenting to Hank the citation for the 1982 Bowie Award."
+      }
+    ]
+  },
+  {
+    "id": "award_royal_society",
+    "event_type": "award",
+    "label": "Elected Foreign Member of the Royal Society",
+    "date": {
+      "display": "1983",
+      "precision": "year",
+      "sort_start": "1983-01-01",
+      "sort_end": "1983-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "h_stommel",
+        "role": "recipient"
+      },
+      {
+        "entity_id": "royal_society",
+        "role": "awarding_body"
+      }
+    ],
+    "location": "london_uk",
+    "sources": [
+      {
+        "source_id": "oceanus_1992",
+        "page": 22,
+        "quote": "The last time I saw Henry was in 1983, when he came to London to be made a Foreign Member of the Royal Society."
+      }
+    ]
+  },
+  {
+    "id": "pub_view_sea",
+    "event_type": "publication",
+    "label": "Published A View of the Sea",
+    "date": {
+      "display": "1989",
+      "precision": "year",
+      "sort_start": "1989-01-01",
+      "sort_end": "1989-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "h_stommel",
+        "role": "author"
+      },
+      {
+        "entity_id": "view_of_sea",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "oceanus_1992",
+        "page": 5,
+        "quote": "He based an introductory course about ocean circulation on a set of programs that he wrote for his book, A View of the Sea, published in 1989."
+      }
+    ]
+  },
+  {
+    "id": "death_stommel",
+    "event_type": "death",
+    "label": "Died in Brookline, Massachusetts",
+    "date": {
+      "display": "January 17, 1992",
+      "precision": "day",
+      "sort_start": "1992-01-17",
+      "sort_end": "1992-01-17"
+    },
+    "participants": [
+      {
+        "entity_id": "h_stommel",
+        "role": "subject"
+      }
+    ],
+    "location": "brookline_ma",
+    "sources": [
+      {
+        "source_id": "oceanus_1992",
+        "page": 4,
+        "quote": "Henry Stommel's heart stopped beating shortly after midnight on Friday, January 17, 1992, four days after he had undergone surgery for liver cancer at Deaconess Hospital in Brookline, Massachusetts."
+      }
+    ]
+  }
+]

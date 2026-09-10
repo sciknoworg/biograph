@@ -1,0 +1,31 @@
+[
+  {
+    "id": "knauss_contributed_sea_grant",
+    "source": "john_a_knauss",
+    "type": "developed",
+    "target": "national_sea_grant_program",
+    "event_id": "sea_grant_formation",
+    "sources": [
+      {
+        "source_id": "lozier_2015_tribute",
+        "page": 2,
+        "quote": "He played an instrumental role in the formation of the National Sea Grant Program in 1966"
+      }
+    ],
+    "_rejected_because": "'developed' expects target entity_type artifact, but 'national_sea_grant_program' is 'organization'"
+  },
+  {
+    "id": "knauss_awarded_agu",
+    "source": "agu",
+    "type": "awarded",
+    "target": "john_a_knauss",
+    "sources": [
+      {
+        "source_id": "lozier_2015_tribute",
+        "page": 2,
+        "quote": "an Ocean Sciences Award from the American Geophysical Union"
+      }
+    ],
+    "_rejected_because": "'awarded' expects target entity_type artifact, but 'john_a_knauss' is 'person'"
+  }
+]

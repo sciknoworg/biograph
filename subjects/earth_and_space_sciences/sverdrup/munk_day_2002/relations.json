@@ -1,0 +1,124 @@
+[
+  {
+    "id": "sverdrup_born_in_norway",
+    "source": "harald_ulrik_sverdrup",
+    "type": "born_in",
+    "target": "norway",
+    "sources": [
+      {
+        "source_id": "munk_day_2002",
+        "page": 1,
+        "quote": "Harald Ulrik Sverdrup came from Norway in 1936 to serve as the third Director of the Scripps Institution of Oceanography."
+      }
+    ]
+  },
+  {
+    "id": "sverdrup_worked_at_scripps",
+    "source": "harald_ulrik_sverdrup",
+    "type": "worked_at",
+    "target": "scripps_institution_of_oceanography",
+    "start": {
+      "display": "1936",
+      "precision": "year",
+      "sort_start": "1936-01-01",
+      "sort_end": "1936-12-31"
+    },
+    "end": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "munk_day_2002",
+        "page": 3,
+        "quote": "Harald Ulrik Sverdrup came from Norway in 1936 to serve as the third Director of the Scripps Institution of Oceanography."
+      }
+    ]
+  },
+  {
+    "id": "sverdrup_mentored_munk",
+    "source": "harald_ulrik_sverdrup",
+    "type": "mentored",
+    "target": "walter_munk",
+    "sources": [
+      {
+        "source_id": "munk_day_2002",
+        "page": 8,
+        "quote": "Walter Munk, from the California Institute of Technology, became Sverdrup's student in 1940."
+      }
+    ]
+  },
+  {
+    "id": "sverdrup_collaborated_revelle",
+    "source": "harald_ulrik_sverdrup",
+    "type": "collaborated_with",
+    "target": "roger_revelle",
+    "sources": [
+      {
+        "source_id": "munk_day_2002",
+        "page": 20,
+        "quote": "He favored Roger Revelle as his successor."
+      }
+    ]
+  },
+  {
+    "id": "sverdrup_studied_bjerknes",
+    "source": "harald_ulrik_sverdrup",
+    "type": "supervised_by",
+    "target": "vilhelm_bjerknes",
+    "sources": [
+      {
+        "source_id": "munk_day_2002",
+        "page": 1,
+        "quote": "When Vilhelm Bjerknes offered him one of the coveted assistantships endowed by the Carnegie Institution of Washington, Sverdrup turned to meteorology and oceanography..."
+      }
+    ]
+  },
+  {
+    "id": "sverdrup_published_oceans",
+    "source": "harald_ulrik_sverdrup",
+    "type": "published",
+    "target": "the_oceans",
+    "sources": [
+      {
+        "source_id": "munk_day_2002",
+        "page": 8,
+        "quote": "He devoted much effort with Martin Johnson and Richard Fleming to The Oceans: Their Physics, Chemistry and Marine Biology, known as The Bible..."
+      }
+    ]
+  },
+  {
+    "id": "sverdrup_worked_ucdwr",
+    "source": "harald_ulrik_sverdrup",
+    "type": "worked_at",
+    "target": "ucdwr",
+    "start": {
+      "display": "1941",
+      "precision": "year",
+      "sort_start": "1941-01-01",
+      "sort_end": "1941-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "munk_day_2002",
+        "page": 10,
+        "quote": "On 1 July 1941 Sverdrup took over as head of the UCDWR oceanographic division."
+      }
+    ]
+  },
+  {
+    "id": "sverdrup_died_in_oslo",
+    "source": "harald_ulrik_sverdrup",
+    "type": "died_in",
+    "target": "oslo",
+    "sources": [
+      {
+        "source_id": "munk_day_2002",
+        "page": 23,
+        "quote": "He died suddenly on 21 August 1957 during a routine checkup at the doctor's office after three weeks residence at the \"hytte.\""
+      }
+    ]
+  }
+]

@@ -1,0 +1,516 @@
+[
+  {
+    "id": "willi_dansgaard",
+    "entity_type": "person",
+    "name": "Willi Dansgaard",
+    "aliases": [
+      "Dansgaard"
+    ],
+    "summary": "Danish physicist and pioneer of modern ice core climate research.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "university_of_copenhagen",
+    "entity_type": "organization",
+    "name": "University of Copenhagen",
+    "aliases": [
+      "University of Copenhagen"
+    ],
+    "summary": "Public research university in Copenhagen, Denmark.",
+    "subtype": "university",
+    "attributes": {
+      "country": "Denmark"
+    }
+  },
+  {
+    "id": "danish_meteorological_institute",
+    "entity_type": "organization",
+    "name": "Danish Meteorological Institute",
+    "aliases": [
+      "Danish Meteorological Institute"
+    ],
+    "summary": "Danish government agency responsible for meteorology and geophysics.",
+    "subtype": "government_agency",
+    "attributes": {
+      "country": "Denmark"
+    }
+  },
+  {
+    "id": "biophysics_laboratory",
+    "entity_type": "organization",
+    "name": "Biophysics Laboratory",
+    "aliases": [
+      "Biophysics Laboratory of the University of Copenhagen"
+    ],
+    "summary": "Research laboratory at the University of Copenhagen.",
+    "subtype": "lab",
+    "attributes": {
+      "parent_organization": "University of Copenhagen"
+    }
+  },
+  {
+    "id": "geophysical_isotope_laboratory",
+    "entity_type": "organization",
+    "name": "Geophysical Isotope Laboratory",
+    "aliases": [
+      "Geophysical Isotope Laboratory at the University of Copenhagen"
+    ],
+    "summary": "Research laboratory at the University of Copenhagen focused on isotopes.",
+    "subtype": "lab",
+    "attributes": {
+      "parent_organization": "University of Copenhagen"
+    }
+  },
+  {
+    "id": "niels_bohr_institute",
+    "entity_type": "organization",
+    "name": "Niels Bohr Institute",
+    "aliases": [
+      "Niels Bohr Institute"
+    ],
+    "summary": "Research institute at the University of Copenhagen.",
+    "subtype": "institute",
+    "attributes": {
+      "parent_organization": "University of Copenhagen"
+    }
+  },
+  {
+    "id": "centre_for_ice_and_climate",
+    "entity_type": "organization",
+    "name": "Centre for Ice and Climate",
+    "aliases": [
+      "Centre of Ice and Climate",
+      "centre of excellence for Ice and Climate"
+    ],
+    "summary": "Research centre at the Niels Bohr Institute.",
+    "subtype": "research_centre",
+    "attributes": {
+      "parent_organization": "Niels Bohr Institute"
+    }
+  },
+  {
+    "id": "copenhagen",
+    "entity_type": "place",
+    "name": "Copenhagen",
+    "aliases": [
+      "Copenhagen"
+    ],
+    "summary": "Capital city of Denmark.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Denmark",
+      "lat": 55.67611,
+      "lng": 12.56889,
+      "wikidata_qid": "Q1748",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "greenland",
+    "entity_type": "place",
+    "name": "Greenland",
+    "aliases": [
+      "Greenland"
+    ],
+    "summary": "Autonomous territory within the Kingdom of Denmark.",
+    "subtype": "territory",
+    "attributes": {
+      "country": "Denmark"
+    }
+  },
+  {
+    "id": "qeqertarsuaq",
+    "entity_type": "place",
+    "name": "Qeqertarsuaq",
+    "aliases": [
+      "Qeqer- tarsuaq"
+    ],
+    "summary": "Town on Disko Island, Greenland.",
+    "subtype": "town",
+    "attributes": {
+      "country": "Greenland",
+      "lat": 69.24722,
+      "lng": -53.53333,
+      "wikidata_qid": "Q847668",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "camp_century",
+    "entity_type": "place",
+    "name": "Camp Century",
+    "aliases": [
+      "Camp Century"
+    ],
+    "summary": "US military base under the Greenland ice sheet.",
+    "subtype": "facility",
+    "attributes": {
+      "country": "Greenland"
+    }
+  },
+  {
+    "id": "thule_air_base",
+    "entity_type": "place",
+    "name": "Thule Air Base",
+    "aliases": [
+      "Thule Air Base"
+    ],
+    "summary": "US Air Force base in Greenland.",
+    "subtype": "facility",
+    "attributes": {
+      "country": "Greenland",
+      "lat": 76.53111,
+      "lng": -68.70306,
+      "wikidata_qid": "Q131520504",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "dye_3",
+    "entity_type": "place",
+    "name": "Dye-3",
+    "aliases": [
+      "Dye-3"
+    ],
+    "summary": "Ice core drilling site in south Greenland.",
+    "subtype": "facility",
+    "attributes": {
+      "country": "Greenland"
+    }
+  },
+  {
+    "id": "antarctica",
+    "entity_type": "place",
+    "name": "Antarctica",
+    "aliases": [
+      "Antarctica"
+    ],
+    "summary": "Southernmost continent.",
+    "subtype": "continent",
+    "attributes": {
+      "lat": -90.0,
+      "lng": 0.0,
+      "wikidata_qid": "Q51",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "chester_langway",
+    "entity_type": "person",
+    "name": "Chester Langway",
+    "aliases": [
+      "Dr. Chester Langway",
+      "Langway"
+    ],
+    "summary": "American glaciologist and collaborator of Dansgaard.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "hans_oeschger",
+    "entity_type": "person",
+    "name": "Hans Oeschger",
+    "aliases": [
+      "Professor Hans Oeschger",
+      "Oeschger"
+    ],
+    "summary": "Swiss physicist and climate researcher at University of Berne.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "nicholas_shackleton",
+    "entity_type": "person",
+    "name": "Nicholas Shackleton",
+    "aliases": [
+      "Professor Nicholas Shackleton",
+      "Shackleton"
+    ],
+    "summary": "British geologist and climate researcher.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "paul_emile_victor",
+    "entity_type": "person",
+    "name": "Paul Emile Victor",
+    "aliases": [
+      "Paul Emile Victor"
+    ],
+    "summary": "French explorer and ethnologist.",
+    "subtype": "explorer"
+  },
+  {
+    "id": "jorgen_peder_steffensen",
+    "entity_type": "person",
+    "name": "Jørgen Peder Steffensen",
+    "aliases": [
+      "Jørgen Peder Steffensen"
+    ],
+    "summary": "Researcher at Centre for Ice and Climate, author of obituary.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "crrel",
+    "entity_type": "organization",
+    "name": "U.S. Cold Regions Research and Engineering Laboratory",
+    "aliases": [
+      "CRREL",
+      "U.S. Cold Regions Research and Engineering Laboratory (CRREL)"
+    ],
+    "summary": "US Army laboratory for cold regions research.",
+    "subtype": "lab",
+    "attributes": {
+      "country": "United States"
+    }
+  },
+  {
+    "id": "university_of_berne",
+    "entity_type": "organization",
+    "name": "University of Berne",
+    "aliases": [
+      "University of Berne"
+    ],
+    "summary": "Public research university in Bern, Switzerland.",
+    "subtype": "university",
+    "attributes": {
+      "country": "Switzerland"
+    }
+  },
+  {
+    "id": "danish_east_asia_company",
+    "entity_type": "organization",
+    "name": "Danish East Asia Company",
+    "aliases": [
+      "Danish East Asia Company"
+    ],
+    "summary": "Danish shipping and trading company.",
+    "subtype": "company",
+    "attributes": {
+      "country": "Denmark"
+    }
+  },
+  {
+    "id": "international_atomic_energy_agency",
+    "entity_type": "organization",
+    "name": "International Atomic Energy Agency",
+    "aliases": [
+      "International Atomic Energy Agency"
+    ],
+    "summary": "International organization promoting peaceful use of nuclear energy.",
+    "subtype": "international_organization",
+    "attributes": {}
+  },
+  {
+    "id": "world_meteorological_organization",
+    "entity_type": "organization",
+    "name": "World Meteorological Organization",
+    "aliases": [
+      "World Meteorological Organization"
+    ],
+    "summary": "Specialized agency of the United Nations.",
+    "subtype": "international_organization",
+    "attributes": {}
+  },
+  {
+    "id": "danish_national_research_foundation",
+    "entity_type": "organization",
+    "name": "Danish National Research Foundation",
+    "aliases": [
+      "Danish National Research Foundation"
+    ],
+    "summary": "Danish research funding body.",
+    "subtype": "foundation",
+    "attributes": {
+      "country": "Denmark"
+    }
+  },
+  {
+    "id": "royal_danish_geographical_society",
+    "entity_type": "organization",
+    "name": "Royal Danish Geographical Society",
+    "aliases": [
+      "Royal Danish Geographical Society"
+    ],
+    "summary": "Danish learned society for geography.",
+    "subtype": "society",
+    "attributes": {
+      "country": "Denmark"
+    }
+  },
+  {
+    "id": "royal_swedish_society_of_geography_and_anthropology",
+    "entity_type": "organization",
+    "name": "Royal Swedish Society of Geography and Anthropology",
+    "aliases": [
+      "Royal Swedish Society of Geography and Anthropology"
+    ],
+    "summary": "Swedish learned society.",
+    "subtype": "society",
+    "attributes": {
+      "country": "Sweden"
+    }
+  },
+  {
+    "id": "university_of_southern_california",
+    "entity_type": "organization",
+    "name": "University of Southern California",
+    "aliases": [
+      "University of Southern California"
+    ],
+    "summary": "Private research university in Los Angeles, USA.",
+    "subtype": "university",
+    "attributes": {
+      "country": "United States"
+    }
+  },
+  {
+    "id": "international_glaciological_society",
+    "entity_type": "organization",
+    "name": "International Glaciological Society",
+    "aliases": [
+      "International Glaciological Society"
+    ],
+    "summary": "International society for glaciology.",
+    "subtype": "society",
+    "attributes": {}
+  },
+  {
+    "id": "royal_danish_academy_of_science_and_letters",
+    "entity_type": "organization",
+    "name": "Royal Danish Academy of Science and Letters",
+    "aliases": [
+      "Royal Danish Academy of Science and Letters"
+    ],
+    "summary": "Danish non-governmental science academy.",
+    "subtype": "academy",
+    "attributes": {
+      "country": "Denmark"
+    }
+  },
+  {
+    "id": "royal_swedish_science_academy",
+    "entity_type": "organization",
+    "name": "Royal Swedish Science Academy",
+    "aliases": [
+      "Royal Swedish Science Academy"
+    ],
+    "summary": "Swedish royal academy of sciences.",
+    "subtype": "academy",
+    "attributes": {
+      "country": "Sweden"
+    }
+  },
+  {
+    "id": "icelandic_science_academy",
+    "entity_type": "organization",
+    "name": "Icelandic Science Academy",
+    "aliases": [
+      "Icelandic Science Academy"
+    ],
+    "summary": "Icelandic national academy of sciences.",
+    "subtype": "academy",
+    "attributes": {
+      "country": "Iceland"
+    }
+  },
+  {
+    "id": "tellus_paper",
+    "entity_type": "artifact",
+    "name": "Stable isotopes in precipitation",
+    "aliases": [
+      "'Stable isotopes in precipitation'"
+    ],
+    "summary": "Groundbreaking paper in geophysics and geology published in Tellus.",
+    "subtype": "publication"
+  },
+  {
+    "id": "hans_egede_medal",
+    "entity_type": "artifact",
+    "name": "Hans Egede Medal",
+    "aliases": [
+      "Hans Egede Medal"
+    ],
+    "summary": "Medal awarded by the Royal Danish Geographical Society.",
+    "subtype": "award"
+  },
+  {
+    "id": "vega_medal",
+    "entity_type": "artifact",
+    "name": "Vega Medal",
+    "aliases": [
+      "V ega Medal"
+    ],
+    "summary": "Medal awarded by the Royal Swedish Society of Geography and Anthropology.",
+    "subtype": "award"
+  },
+  {
+    "id": "tyler_prize",
+    "entity_type": "artifact",
+    "name": "Tyler Prize",
+    "aliases": [
+      "Tyler Prize"
+    ],
+    "summary": "Environmental science award from University of Southern California.",
+    "subtype": "award"
+  },
+  {
+    "id": "seligman_crystal",
+    "entity_type": "artifact",
+    "name": "Seligman Crystal",
+    "aliases": [
+      "Selig- man Crystal"
+    ],
+    "summary": "Award from the International Glaciological Society.",
+    "subtype": "award"
+  },
+  {
+    "id": "crafoord_prize",
+    "entity_type": "artifact",
+    "name": "Crafoord Prize",
+    "aliases": [
+      "Crafoord Prize"
+    ],
+    "summary": "International science prize.",
+    "subtype": "award"
+  },
+  {
+    "id": "grip_project",
+    "entity_type": "artifact",
+    "name": "GRIP",
+    "aliases": [
+      "GRIP",
+      "GRIP ice core drilling"
+    ],
+    "summary": "European ice core drilling project in Greenland.",
+    "subtype": "project"
+  },
+  {
+    "id": "epica_dome_c",
+    "entity_type": "artifact",
+    "name": "EPICA Dome C",
+    "aliases": [
+      "EPICA Dome C"
+    ],
+    "summary": "European ice drilling project in Antarctica.",
+    "subtype": "project"
+  },
+  {
+    "id": "epica_dronning_maud_land",
+    "entity_type": "artifact",
+    "name": "EPICA Dronning Maud Land",
+    "aliases": [
+      "EPICA Dronning Maud Land"
+    ],
+    "summary": "European ice drilling project in Antarctica.",
+    "subtype": "project"
+  },
+  {
+    "id": "ngrip_project",
+    "entity_type": "artifact",
+    "name": "NGRIP",
+    "aliases": [
+      "NGRIP",
+      "Greenland project NGRIP"
+    ],
+    "summary": "Greenland ice core project.",
+    "subtype": "project"
+  }
+]

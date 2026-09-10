@@ -1,0 +1,314 @@
+[
+  {
+    "id": "birth_of_sverdrup",
+    "event_type": "birth",
+    "label": "Born in Norway",
+    "date": {
+      "display": "15 November 1888",
+      "precision": "day",
+      "sort_start": "1888-11-15",
+      "sort_end": "1888-11-15"
+    },
+    "participants": [
+      {
+        "entity_id": "harald_ulrik_sverdrup",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "munk_day_2002",
+        "page": 1,
+        "quote": "Johan's first wife, Marie Vollan, died in 1891, leaving Gudrun (b. 1887) and Harald (b. 15 November 1888)."
+      }
+    ]
+  },
+  {
+    "id": "university_examinations",
+    "event_type": "education",
+    "label": "Passed University examinations",
+    "date": {
+      "display": "1914",
+      "precision": "year",
+      "sort_start": "1914-01-01",
+      "sort_end": "1914-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "harald_ulrik_sverdrup",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "munk_day_2002",
+        "page": 1,
+        "quote": "In 1914, he passed the University examinations in physics, mathematics, chemistry and botany, planning to major in astronomy."
+      }
+    ]
+  },
+  {
+    "id": "oslo_degree",
+    "event_type": "education",
+    "label": "Granted degree from University of Oslo",
+    "date": {
+      "display": "1917",
+      "precision": "year",
+      "sort_start": "1917-01-01",
+      "sort_end": "1917-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "harald_ulrik_sverdrup",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_oslo",
+        "role": "educating_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "munk_day_2002",
+        "page": 2,
+        "quote": "It was there during the war years (and experiencing hunger) that Sverdrup wrote Der Nordatlantische Passat (North Atlantic Trade Winds), for which he was granted a degree from the University of Oslo in 1917."
+      }
+    ]
+  },
+  {
+    "id": "maud_expedition_start",
+    "event_type": "other",
+    "label": "Maud Expedition left Norway",
+    "date": {
+      "display": "July 1918",
+      "precision": "month",
+      "sort_start": "1918-07-01",
+      "sort_end": "1918-07-31"
+    },
+    "participants": [
+      {
+        "entity_id": "harald_ulrik_sverdrup",
+        "role": "subject"
+      },
+      {
+        "entity_id": "maud",
+        "role": "artifact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "munk_day_2002",
+        "page": 2,
+        "quote": "The expedition left Norway in July 1918, expecting to return in three or four years."
+      }
+    ]
+  },
+  {
+    "id": "maud_expedition_end",
+    "event_type": "other",
+    "label": "Maud Expedition returned",
+    "date": {
+      "display": "December 1925",
+      "precision": "month",
+      "sort_start": "1925-12-01",
+      "sort_end": "1925-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "harald_ulrik_sverdrup",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "munk_day_2002",
+        "page": 2,
+        "quote": "It did not return until December 1925."
+      }
+    ]
+  },
+  {
+    "id": "marriage",
+    "event_type": "other",
+    "label": "Married Gudrun Bronn Vaumund",
+    "date": {
+      "display": "1928",
+      "precision": "year",
+      "sort_start": "1928-01-01",
+      "sort_end": "1928-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "harald_ulrik_sverdrup",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "munk_day_2002",
+        "page": 2,
+        "quote": "In 1928 he married Gudrun Bronn Vaumund and adopted her daughter Anna Margrethe."
+      }
+    ]
+  },
+  {
+    "id": "scripps_director_start",
+    "event_type": "employment_start",
+    "label": "Arrived at Scripps as Director",
+    "date": {
+      "display": "July 1936",
+      "precision": "month",
+      "sort_start": "1936-07-01",
+      "sort_end": "1936-07-31"
+    },
+    "participants": [
+      {
+        "entity_id": "harald_ulrik_sverdrup",
+        "role": "subject"
+      },
+      {
+        "entity_id": "scripps_institution_of_oceanography",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "munk_day_2002",
+        "page": 3,
+        "quote": "Harald Ulrik Sverdrup came from Norway in 1936 to serve as the third Director of the Scripps Institution of Oceanography."
+      }
+    ]
+  },
+  {
+    "id": "the_oceans_published",
+    "event_type": "publication",
+    "label": "The Oceans copies arrived in La Jolla",
+    "date": {
+      "display": "19 December 1942",
+      "precision": "day",
+      "sort_start": "1942-12-19",
+      "sort_end": "1942-12-19"
+    },
+    "participants": [
+      {
+        "entity_id": "harald_ulrik_sverdrup",
+        "role": "subject"
+      },
+      {
+        "entity_id": "the_oceans",
+        "role": "artifact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "munk_day_2002",
+        "page": 8,
+        "quote": "The arrival of the first printed copies of The Oceans in La Jolla on 19 December 1942 was celebrated at the Sverdrup house."
+      }
+    ]
+  },
+  {
+    "id": "loyalty_investigation_start",
+    "event_type": "other",
+    "label": "FBI investigation opened",
+    "date": {
+      "display": "17 May 1940",
+      "precision": "day",
+      "sort_start": "1940-05-17",
+      "sort_end": "1940-05-17"
+    },
+    "participants": [
+      {
+        "entity_id": "harald_ulrik_sverdrup",
+        "role": "subject"
+      },
+      {
+        "entity_id": "fbi",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "munk_day_2002",
+        "page": 10,
+        "quote": "It all started on Friday, May 17, 1940 when an unidentified man walked into the FBI field station in San Diego to report that Sverdrup, \"purportedly Norwegian\" was suspicious because he never discussed the war."
+      }
+    ]
+  },
+  {
+    "id": "clearance_restored",
+    "event_type": "other",
+    "label": "War Department withdrew objections",
+    "date": {
+      "display": "19 January 1943",
+      "precision": "day",
+      "sort_start": "1943-01-19",
+      "sort_end": "1943-01-19"
+    },
+    "participants": [
+      {
+        "entity_id": "harald_ulrik_sverdrup",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "munk_day_2002",
+        "page": 16,
+        "quote": "19 January 1943 War Department withdraws all objections and restrictions on employment of Sverdrup."
+      }
+    ]
+  },
+  {
+    "id": "return_to_norway",
+    "event_type": "relocation",
+    "label": "Left Scripps to return to Norway",
+    "date": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "harald_ulrik_sverdrup",
+        "role": "subject"
+      },
+      {
+        "entity_id": "scripps_institution_of_oceanography",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "munk_day_2002",
+        "page": 20,
+        "quote": "MPL became part of SIO just as Sverdrup left in 1948."
+      }
+    ]
+  },
+  {
+    "id": "death_of_sverdrup",
+    "event_type": "death",
+    "label": "Died in Oslo",
+    "date": {
+      "display": "21 August 1957",
+      "precision": "day",
+      "sort_start": "1957-08-21",
+      "sort_end": "1957-08-21"
+    },
+    "participants": [
+      {
+        "entity_id": "harald_ulrik_sverdrup",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "munk_day_2002",
+        "page": 23,
+        "quote": "He died suddenly on 21 August 1957 during a routine checkup at the doctor's office after three weeks residence at the \"hytte.\""
+      }
+    ]
+  }
+]

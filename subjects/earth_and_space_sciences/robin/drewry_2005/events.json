@@ -1,0 +1,1760 @@
+[
+  {
+    "id": "robin_birth",
+    "event_type": "birth",
+    "label": "Born in Melbourne, Australia",
+    "description": "Gordon de Quetteville Robin was born in Melbourne, Australia.",
+    "date": {
+      "display": "17 January 1921",
+      "precision": "day",
+      "sort_start": "1921-01-17",
+      "sort_end": "1921-01-17"
+    },
+    "location": "melbourne",
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 1,
+        "quote": "Gordon Robin was born in Melbourne, Australia, on 17 January 1921"
+      }
+    ]
+  },
+  {
+    "id": "robin_death",
+    "event_type": "death",
+    "label": "Died at age 83",
+    "description": "Gordon de Quetteville Robin died on 21 September 2004 at the age of 83.",
+    "date": {
+      "display": "21 September 2004",
+      "precision": "day",
+      "sort_start": "2004-09-21",
+      "sort_end": "2004-09-21"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 1,
+        "quote": "Gordon de Quetteville Robin died on 21 September 2004 at the age of 83."
+      }
+    ]
+  },
+  {
+    "id": "robin_wesley_college",
+    "event_type": "education",
+    "label": "Educated at Wesley College, Melbourne",
+    "description": "Robin was educated at Wesley College in Melbourne where he became a Rover Scout.",
+    "date": {
+      "display": "c. 1939",
+      "precision": "circa",
+      "sort_start": "1938-01-01",
+      "sort_end": "1940-12-31"
+    },
+    "location": "melbourne",
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "wesley_college_melbourne",
+        "role": "educator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 1,
+        "quote": "Gordon Robin was born in Melbourne, Australia, on 17 January 1921 and educated at Wesley College in Melbourne where he enjoyed the outdoors, becoming a Rover Scout."
+      }
+    ]
+  },
+  {
+    "id": "robin_melbourne_masters",
+    "event_type": "education",
+    "label": "Gained Master's Degree from University of Melbourne",
+    "description": "Robin read physics at University of Melbourne, gaining a Master's Degree in 1942.",
+    "date": {
+      "display": "1942",
+      "precision": "year",
+      "sort_start": "1942-01-01",
+      "sort_end": "1942-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_melbourne",
+        "role": "educator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 1,
+        "quote": "He went on to the University of Melbourne, where he read physics, gaining a Master's Degree in 1942."
+      }
+    ]
+  },
+  {
+    "id": "robin_joined_ranvr",
+    "event_type": "employment_start",
+    "label": "Joined Royal Australian Naval Voluntary Reserve",
+    "description": "Robin joined the Royal Australian Naval Voluntary Reserve immediately upon graduating and was commissioned as a sub-lieutenant.",
+    "date": {
+      "display": "1942",
+      "precision": "year",
+      "sort_start": "1942-01-01",
+      "sort_end": "1942-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ranvr",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 1,
+        "quote": "He joined the Royal Australian Naval Voluntary Reserve immediately upon graduating and was commissioned as a sub-lieutenant."
+      }
+    ]
+  },
+  {
+    "id": "robin_hms_stygian",
+    "event_type": "role_change",
+    "label": "Joined HMS Stygian as lieutenant",
+    "description": "Promoted lieutenant, Robin joined HMS Stygian which sailed in support of midget submarine attack on Japanese cruisers.",
+    "date": {
+      "display": "towards the end of World War II",
+      "precision": "circa",
+      "sort_start": "1944-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "hms_stygian",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 1,
+        "quote": "Promoted lieutenant, he joined HMS Stygian, which towards the end of World War II sailed in support of a midget submarine (XE3) to attack Japanese cruisers in the Jahore Straits and Singapore harbour."
+      }
+    ]
+  },
+  {
+    "id": "robin_demobilised_uk",
+    "event_type": "employment_end",
+    "label": "Demobilised in United Kingdom",
+    "description": "Robin demobilised in the United Kingdom, against standing orders.",
+    "date": {
+      "display": "1945",
+      "precision": "year",
+      "sort_start": "1945-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "location": "england",
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 1,
+        "quote": "Robin demobilised in the United Kingdom, against standing orders, and went on to study nuclear physics at Birmingham University"
+      }
+    ]
+  },
+  {
+    "id": "robin_birmingham_nuclear",
+    "event_type": "education",
+    "label": "Studied nuclear physics at Birmingham University",
+    "description": "Robin studied nuclear physics at Birmingham University under Professor Oliphant in his cyclotron project.",
+    "date": {
+      "display": "1945–1947",
+      "precision": "range",
+      "sort_start": "1945-01-01",
+      "sort_end": "1947-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "birmingham_university",
+        "role": "educator"
+      },
+      {
+        "entity_id": "mark_oliphant",
+        "role": "supervisor"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 1,
+        "quote": "Robin demobilised in the United Kingdom, against standing orders, and went on to study nuclear physics at Birmingham University, under Professor (later Sir Mark) Oliphant, in his cyclotron project."
+      }
+    ]
+  },
+  {
+    "id": "robin_signy_commander",
+    "event_type": "employment_start",
+    "label": "Appointed base commander at Signy Island",
+    "description": "Robin was offered a year (1947–48) as base commander at Signy Island with FIDS.",
+    "date": {
+      "display": "1947–48",
+      "precision": "range",
+      "sort_start": "1947-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "location": "signy_island",
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "fids",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 1,
+        "quote": "This led to an offer of a year (1947–48) as base commander at Signy Island in the South Orkneys with the Falkland Islands Dependencies Survey (FIDS)"
+      }
+    ]
+  },
+  {
+    "id": "robin_sailed_montevideo",
+    "event_type": "visit",
+    "label": "Sailed from Montevideo to South Orkneys",
+    "description": "Robin sailed from Montevideo on SS Trepassey to winter at Cape Geddes on Laurie Island.",
+    "date": {
+      "display": "1947",
+      "precision": "year",
+      "sort_start": "1947-01-01",
+      "sort_end": "1947-12-31"
+    },
+    "location": "montevideo",
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ss_trepassey",
+        "role": "transport"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 2,
+        "quote": "Sailing from Montevideo on SS Trepassey, Robin was to winter at Cape Geddes on Laurie Island, with three Falkland Islanders as companions."
+      }
+    ]
+  },
+  {
+    "id": "robin_birmingham_lectureship",
+    "event_type": "employment_start",
+    "label": "Gained lectureship at Birmingham Physics Department",
+    "description": "Returning from Signy, Robin rejoined the Physics Department at Birmingham, gaining a lectureship in October 1948.",
+    "date": {
+      "display": "October 1948",
+      "precision": "month",
+      "sort_start": "1948-10-01",
+      "sort_end": "1948-10-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "birmingham_university",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 2,
+        "quote": "Returning from Signy, Robin rejoined the Physics Department at Birmingham and the cyclotron project, gaining a lectureship in October 1948."
+      }
+    ]
+  },
+  {
+    "id": "robin_nbse_recruited",
+    "event_type": "employment_start",
+    "label": "Recruited to Norwegian-British-Swedish Antarctic Expedition",
+    "description": "In 1949, Robin was recruited to NBSE as third-in-command and physicist in charge of seismic survey.",
+    "date": {
+      "display": "1949",
+      "precision": "year",
+      "sort_start": "1949-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nbse",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 2,
+        "quote": "But in 1949, with his appetite for the Antarctic already whetted, a new opportunity arose and he was recruited to the Norwegian–British–Swedish Antarctic Expedition as third-in-command and physicist in charge of the seismic survey to measure ice thickness."
+      }
+    ]
+  },
+  {
+    "id": "robin_maudheim_winter",
+    "event_type": "visit",
+    "label": "Wintered at Maudheim station",
+    "description": "Robin spent first winter at Maudheim station in Dronning Maud Land, undertaking meteorological project and seismic survey.",
+    "date": {
+      "display": "1949–1951",
+      "precision": "range",
+      "sort_start": "1949-01-01",
+      "sort_end": "1951-12-31"
+    },
+    "location": "maudheim",
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nbse",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 2,
+        "quote": "During his first winter at Maudheim station in Dronning Maud Land, Robin undertook a meteorological project that required many hours in a cold, dark hut tracking balloon ascents."
+      }
+    ]
+  },
+  {
+    "id": "robin_seismic_journey",
+    "event_type": "visit",
+    "label": "Led seismic party onto ice sheet",
+    "description": "The seismic party comprising Robin, Melleby, and Swithinbank left Maudheim on 18 October, reaching farthest point on 24 November at latitude 74.3°S.",
+    "date": {
+      "display": "18 October 1951 – 24 November 1951",
+      "precision": "range",
+      "sort_start": "1951-10-18",
+      "sort_end": "1951-11-24"
+    },
+    "location": "dronning_maud_land",
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "peter_melleby",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "charles_swithinbank",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 2,
+        "quote": "The seismic party, which comprised Robin, Melleby, and Charles Swithinbank, left Maudheim on 18 October under strict instructions to return by the first week of January 1952 — otherwise their ship would depart for Europe without them! The journey onto the ice sheet beyond the mountains broke new ground, and they reached their farthest point on 24 November, at latitude 74.3°S, some 620 km from Maudheim and at an altitude of 2710 m above sea level"
+      }
+    ]
+  },
+  {
+    "id": "robin_nbse_return",
+    "event_type": "employment_end",
+    "label": "Returned from NBSE expedition",
+    "description": "The scientific party returned to Maudheim and the expedition sailed a week later.",
+    "date": {
+      "display": "January 1952",
+      "precision": "month",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-01-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nbse",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 2,
+        "quote": "The scientific party returned to Maudheim, and the expedition sailed a week later."
+      }
+    ]
+  },
+  {
+    "id": "robin_ici_fellowship",
+    "event_type": "employment_start",
+    "label": "Given ICI Research Fellowship at Birmingham",
+    "description": "Robin was given an ICI Research Fellowship at Birmingham on his return, shifting research focus to glaciology.",
+    "date": {
+      "display": "1952",
+      "precision": "year",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "birmingham_university",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 2,
+        "quote": "Robin was given an ICI Research Fellowship at Birmingham on his return, shifting his research focus to glaciology."
+      }
+    ]
+  },
+  {
+    "id": "robin_phd_submitted",
+    "event_type": "education",
+    "label": "Submitted PhD thesis",
+    "description": "Robin worked up his seismic traverse material, which was submitted for a PhD in 1956.",
+    "date": {
+      "display": "1956",
+      "precision": "year",
+      "sort_start": "1956-01-01",
+      "sort_end": "1956-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "birmingham_university",
+        "role": "educator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 2,
+        "quote": "He worked up his material on the seismic traverse, which was submitted for a PhD in 1956 and published as an NBSE report in 1958."
+      }
+    ]
+  },
+  {
+    "id": "robin_nbse_report_published",
+    "event_type": "publication",
+    "label": "Published NBSE report",
+    "description": "Robin's seismic traverse work was published as an NBSE report in 1958.",
+    "date": {
+      "display": "1958",
+      "precision": "year",
+      "sort_start": "1958-01-01",
+      "sort_end": "1958-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nbse_report_1958",
+        "role": "publication"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 2,
+        "quote": "He worked up his material on the seismic traverse, which was submitted for a PhD in 1956 and published as an NBSE report in 1958."
+      }
+    ]
+  },
+  {
+    "id": "robin_temp_paper_published",
+    "event_type": "publication",
+    "label": "Published temperature distribution paper in Journal of Glaciology",
+    "description": "Robin prepared and published a seminal paper on temperature distribution in moving ice sheets.",
+    "date": {
+      "display": "c. 1956–1958",
+      "precision": "range",
+      "sort_start": "1956-01-01",
+      "sort_end": "1958-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "j_glaciol_temp_paper",
+        "role": "publication"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 3,
+        "quote": "At this time Robin also prepared and published a seminal paper in Journal of Glaciology on the problem of the temperature distribution in moving ice sheets."
+      }
+    ]
+  },
+  {
+    "id": "robin_anu_ocean_waves",
+    "event_type": "employment_start",
+    "label": "Returned to Australia to work at ANU",
+    "description": "In early 1957 Robin returned to Australia to the Australian National University to work on ocean waves.",
+    "date": {
+      "display": "early 1957",
+      "precision": "season",
+      "sort_start": "1957-01-01",
+      "sort_end": "1957-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "anu",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 3,
+        "quote": "In early 1957 Robin returned to Australia to the Australian National University to work on ocean waves, since the likelihood of continuing his research in glaciology appeared remote."
+      }
+    ]
+  },
+  {
+    "id": "robin_spri_director_offer",
+    "event_type": "employment_start",
+    "label": "Offered directorship of Scott Polar Research Institute",
+    "description": "After only a few months in Australia, Robin was offered the directorship of SPRI.",
+    "date": {
+      "display": "1957",
+      "precision": "year",
+      "sort_start": "1957-01-01",
+      "sort_end": "1957-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "spri",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 3,
+        "quote": "But he had only been in Australia for a few months when he was offered the directorship of the Scott Polar Research Institute."
+      }
+    ]
+  },
+  {
+    "id": "robin_arrived_cambridge",
+    "event_type": "relocation",
+    "label": "Arrived in Cambridge as SPRI director",
+    "description": "Robin accepted the SPRI directorship and arrived in Cambridge in 1958.",
+    "date": {
+      "display": "1958",
+      "precision": "year",
+      "sort_start": "1958-01-01",
+      "sort_end": "1958-12-31"
+    },
+    "location": "england",
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "spri",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 3,
+        "quote": "He accepted and arrived in Cambridge in 1958, becoming the first person to hold a full-time post heading a department in polar science in a British university and arguably the world."
+      }
+    ]
+  },
+  {
+    "id": "robin_weddell_sea_study",
+    "event_type": "visit",
+    "label": "Conducted ocean wave study in Weddell Sea",
+    "description": "In austral summer 1959–60 Robin joined RSS John Biscoe to study ocean wave and swell penetration into sea ice.",
+    "date": {
+      "display": "austral summer 1959–60",
+      "precision": "season",
+      "sort_start": "1959-11-01",
+      "sort_end": "1960-03-31"
+    },
+    "location": "weddell_sea",
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "rss_john_biscoe",
+        "role": "transport"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 3,
+        "quote": "In the austral summer of 1959–60 Robin joined RSS John Biscoe to pursue his interest in oceanography, and carried out the first systematic study of ocean wave and swell penetration into fields of loose sea ice in the Weddell Sea."
+      }
+    ]
+  },
+  {
+    "id": "robin_wave_paper_1963",
+    "event_type": "publication",
+    "label": "Published ocean wave decay paper in Philosophical Transactions",
+    "description": "Robin's 1963 paper on ocean wave decay results was published in Philosophical Transactions of the Royal Society.",
+    "date": {
+      "display": "1963",
+      "precision": "year",
+      "sort_start": "1963-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "phil_trans_1963_paper",
+        "role": "publication"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 3,
+        "quote": "Peter Wadhams has commented 'his 1963 paper on the results, published in Philosophical Transactions of the Royal Society, was the first observational paper on ocean wave decay in the marginal ice zone and the foundation for all later work.'"
+      }
+    ]
+  },
+  {
+    "id": "stan_evans_recruited",
+    "event_type": "employment_start",
+    "label": "Stan Evans recruited to SPRI",
+    "description": "Stan Evans was recruited by Robin and joined SPRI staff in 1959 from Jodrell Bank Observatory.",
+    "date": {
+      "display": "1959",
+      "precision": "year",
+      "sort_start": "1959-01-01",
+      "sort_end": "1959-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stan_evans",
+        "role": "subject"
+      },
+      {
+        "entity_id": "spri",
+        "role": "employer"
+      },
+      {
+        "entity_id": "gordon_robin",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 3,
+        "quote": "Stan Evans was recruited by Robin and joined the staff of SPRI in 1959 from the Jodrell Bank Observatory in Manchester."
+      }
+    ]
+  },
+  {
+    "id": "res_prototype_1963",
+    "event_type": "product_launch",
+    "label": "RES prototype first field-tested in Antarctica",
+    "description": "Purpose-built RES prototype operating at 35 MHz was first field-tested in Antarctica in 1963.",
+    "date": {
+      "display": "1963",
+      "precision": "year",
+      "sort_start": "1963-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "location": "antarctic_peninsula",
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "stan_evans",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "res_prototype_35mhz",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 3,
+        "quote": "Although similar developments were underway in the USA and the USSR, the early 1960s saw the production of a purpose-built prototype RES operating at 35 MHz that was first field-tested in Antarctica in 1963 and the following year in Greenland."
+      }
+    ]
+  },
+  {
+    "id": "res_greenland_1964",
+    "event_type": "visit",
+    "label": "RES field-tested in Greenland",
+    "description": "RES prototype was field-tested in Greenland in 1964; Robin participated in second season of work in northwest Greenland.",
+    "date": {
+      "display": "1964",
+      "precision": "year",
+      "sort_start": "1964-01-01",
+      "sort_end": "1964-12-31"
+    },
+    "location": "greenland",
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "stan_evans",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 3,
+        "quote": "Robin participated in the second season of work in 1964 in northwest Greenland."
+      }
+    ]
+  },
+  {
+    "id": "ellesmere_airborne_1966",
+    "event_type": "public_demonstration",
+    "label": "First continuous airborne RES in Ellesmere Island",
+    "description": "First continuous airborne radio echo soundings were made in Ellesmere Island in 1966 using DHC-3 Otter by Robin, Evans, and Hattersley-Smith.",
+    "date": {
+      "display": "1966",
+      "precision": "year",
+      "sort_start": "1966-01-01",
+      "sort_end": "1966-12-31"
+    },
+    "location": "ellesmere_island",
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "stan_evans",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "geoffrey_hattersley_smith",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "dhc3_otter",
+        "role": "instrument"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 3,
+        "quote": "The first continuous airborne radio echo soundings were made in Ellesmere Island in 1966 using a DHC-3 Otter by Robin, Evans, and Geoffrey Hattersley-Smith of the Canadian Defence Research Board."
+      }
+    ]
+  },
+  {
+    "id": "spri_antarctic_peninsula_1966",
+    "event_type": "visit",
+    "label": "SPRI airborne season in Antarctic Peninsula",
+    "description": "Swithinbank, working with SPRI equipment, undertook first airborne experimental season in Antarctic Peninsula in 1966–67.",
+    "date": {
+      "display": "1966–67",
+      "precision": "range",
+      "sort_start": "1966-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "location": "antarctic_peninsula",
+    "participants": [
+      {
+        "entity_id": "charles_swithinbank",
+        "role": "subject"
+      },
+      {
+        "entity_id": "spri",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 3,
+        "quote": "Swithinbank, working with SPRI equipment, undertook the first airborne experimental season in the Antarctic Peninsula in 1966–67."
+      }
+    ]
+  },
+  {
+    "id": "robin_nsf_collaboration",
+    "event_type": "employment_start",
+    "label": "Initiated 12-year NSF collaborative programme",
+    "description": "In 1967 Robin initiated a 12-year collaborative programme with US NSF to map and explore Antarctic ice sheet.",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "us_nsf",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 3,
+        "quote": "In 1967 Robin initiated a 12-year collaborative programme with the US National Science Foundation to map and glaciologically explore the Antarctic ice sheet, the Americans providing the long-range aircraft for the purpose."
+      }
+    ]
+  },
+  {
+    "id": "robin_satellite_paper_1965",
+    "event_type": "conference",
+    "label": "Presented satellite altimetry paper at Canada conference",
+    "description": "Robin presented key paper on 'Mapping the Antarctic ice sheet by satellite altimetry' at conference in Canada in 1965.",
+    "date": {
+      "display": "1965",
+      "precision": "year",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31"
+    },
+    "location": "canada",
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "satellite_altimetry_1965_paper",
+        "role": "publication"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 4,
+        "quote": "He presented a key paper on 'Mapping the Antarctic ice sheet by satellite altimetry' at a conference in Canada in 1965, in which all the major elements for future successful satellite programmes were enunciated."
+      }
+    ]
+  },
+  {
+    "id": "robin_scar_secretary",
+    "event_type": "role_change",
+    "label": "Elected honorary secretary of SCAR",
+    "description": "Robin was elected honorary secretary of SCAR before being elected president in 1970.",
+    "date": {
+      "display": "c. 1958–1970",
+      "precision": "range",
+      "sort_start": "1958-01-01",
+      "sort_end": "1970-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "scar",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 4,
+        "quote": "He was elected honorary secretary of SCAR until elected president in 1970 for a four-year term"
+      }
+    ]
+  },
+  {
+    "id": "robin_scar_president",
+    "event_type": "role_change",
+    "label": "Elected president of SCAR",
+    "description": "Robin was elected president of SCAR in 1970 for a four-year term.",
+    "date": {
+      "display": "1970",
+      "precision": "year",
+      "sort_start": "1970-01-01",
+      "sort_end": "1970-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "scar",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 4,
+        "quote": "He was elected honorary secretary of SCAR until elected president in 1970 for a four-year term"
+      }
+    ]
+  },
+  {
+    "id": "robin_scar_president_end",
+    "event_type": "role_change",
+    "label": "Completed SCAR presidency",
+    "description": "Robin's four-year term as SCAR president ended in 1974.",
+    "date": {
+      "display": "1974",
+      "precision": "year",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "scar",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 4,
+        "quote": "He was elected honorary secretary of SCAR until elected president in 1970 for a four-year term"
+      }
+    ]
+  },
+  {
+    "id": "robin_royal_navy_agreement",
+    "event_type": "meeting",
+    "label": "Negotiated Royal Navy submarine data agreement",
+    "description": "In early 1970s Robin negotiated informal agreement with Royal Navy for SPRI scientists to collect under-ice data on Arctic submarine missions.",
+    "date": {
+      "display": "early 1970s",
+      "precision": "decade",
+      "sort_start": "1970-01-01",
+      "sort_end": "1973-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_navy",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 3,
+        "quote": "In the early 1970s, Robin was approached by the Royal Navy, seeking information about Arctic ice conditions, and was able to negotiate an informal agreement — expertise was made available to the Navy on polar problems, while SPRI was permitted periodically to send a scientist on Arctic submarine missions to collect under-ice data."
+      }
+    ]
+  },
+  {
+    "id": "robin_devon_island_1973",
+    "event_type": "visit",
+    "label": "Spent spring on Devon Island ice cap",
+    "description": "Robin spent spring of 1973 on the ice cap on Devon Island.",
+    "date": {
+      "display": "spring 1973",
+      "precision": "season",
+      "sort_start": "1973-03-01",
+      "sort_end": "1973-05-31"
+    },
+    "location": "devon_island",
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 3,
+        "quote": "Robin undertook his last RES field season in 1974–75 (having spent the spring of 1973 on the ice cap on Devon Island)"
+      }
+    ]
+  },
+  {
+    "id": "robin_last_res_season",
+    "event_type": "visit",
+    "label": "Last RES field season",
+    "description": "Robin undertook his last RES field season in 1974–75, handing over leadership to David Drewry.",
+    "date": {
+      "display": "1974–75",
+      "precision": "range",
+      "sort_start": "1974-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "david_drewry",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 3,
+        "quote": "Robin undertook his last RES field season in 1974–75 (having spent the spring of 1973 on the ice cap on Devon Island), handing over leadership of the programme to David Drewry."
+      }
+    ]
+  },
+  {
+    "id": "nsf_campaign_end",
+    "event_type": "employment_end",
+    "label": "NSF collaborative programme ended",
+    "description": "The 12-year NSF collaborative campaign ended in 1979, having covered over 50% of Antarctic continent.",
+    "date": {
+      "display": "1979",
+      "precision": "year",
+      "sort_start": "1979-01-01",
+      "sort_end": "1979-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "us_nsf",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 3,
+        "quote": "At the end of that campaign in 1979 — which had involved many other groups, notably the Technical University of Denmark — something over 50% of the continent had been covered by a 50–100 km grid"
+      }
+    ]
+  },
+  {
+    "id": "robin_scd_cambridge",
+    "event_type": "award",
+    "label": "Awarded ScD from University of Cambridge",
+    "description": "Robin received ScD from University of Cambridge in 1977.",
+    "date": {
+      "display": "1977",
+      "precision": "year",
+      "sort_start": "1977-01-01",
+      "sort_end": "1977-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_cambridge",
+        "role": "awarding_body"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "There was other recognition: an Honorary Doctorate (DPhil) from the University of Stockholm in 1978, a ScD from the University of Cambridge (1977)"
+      }
+    ]
+  },
+  {
+    "id": "robin_stockholm_dphil",
+    "event_type": "award",
+    "label": "Awarded honorary doctorate from University of Stockholm",
+    "description": "Robin received honorary doctorate (DPhil) from University of Stockholm in 1978.",
+    "date": {
+      "display": "1978",
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_stockholm",
+        "role": "awarding_body"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "There was other recognition: an Honorary Doctorate (DPhil) from the University of Stockholm in 1978, a ScD from the University of Cambridge (1977)"
+      }
+    ]
+  },
+  {
+    "id": "robin_patrons_gold_medal",
+    "event_type": "award",
+    "label": "Awarded Patron's Gold Medal by Royal Geographical Society",
+    "description": "Royal Geographical Society recognised Robin with Patron's Gold Medal in 1979.",
+    "date": {
+      "display": "1979",
+      "precision": "year",
+      "sort_start": "1979-01-01",
+      "sort_end": "1979-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "rgs",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "patrons_gold_medal",
+        "role": "award"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "The Royal Geographical Society recognised Robin with the Back Grant in 1952 and in 1979 the Patron's Gold Medal, one of the Society's two most senior awards officially approved by HM Queen Elizabeth II."
+      }
+    ]
+  },
+  {
+    "id": "robin_spri_extension",
+    "event_type": "product_launch",
+    "label": "SPRI extension opened officially",
+    "description": "New SPRI facility was opened officially by Larry Gould in 1968.",
+    "date": {
+      "display": "1968",
+      "precision": "year",
+      "sort_start": "1968-01-01",
+      "sort_end": "1968-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "spri",
+        "role": "subject"
+      },
+      {
+        "entity_id": "larry_gould",
+        "role": "participant"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "The new facility was opened officially by Larry Gould in 1968."
+      }
+    ]
+  },
+  {
+    "id": "diploma_polar_studies_start",
+    "event_type": "product_launch",
+    "label": "Diploma in Polar Studies commenced intake",
+    "description": "Diploma in Polar Studies developed by Robin and Armstrong commenced its intake in October 1975.",
+    "date": {
+      "display": "October 1975",
+      "precision": "month",
+      "sort_start": "1975-10-01",
+      "sort_end": "1975-10-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "terence_armstrong",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "diploma_polar_studies",
+        "role": "product"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "Robin and Terence Armstrong responded to this opportunity with the development of the Diploma in Polar Studies — the first of its kind — which commenced its intake in October 1975."
+      }
+    ]
+  },
+  {
+    "id": "mphil_polar_studies_start",
+    "event_type": "product_launch",
+    "label": "MPhil in Polar Studies replaced Diploma",
+    "description": "After five successful years, the Diploma course became a one-year MPhil degree from 1980.",
+    "date": {
+      "display": "1980",
+      "precision": "year",
+      "sort_start": "1980-01-01",
+      "sort_end": "1980-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "spri",
+        "role": "subject"
+      },
+      {
+        "entity_id": "mphil_polar_studies",
+        "role": "product"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "After five successful years, the course became a one-year MPhil degree and since 1980 has typically taken some 4–8 students per year."
+      }
+    ]
+  },
+  {
+    "id": "robin_retirement",
+    "event_type": "retirement",
+    "label": "Retired from University of Cambridge",
+    "description": "In September 1982, at age 61, Robin took up opportunity of early retirement from University of Cambridge.",
+    "date": {
+      "display": "September 1982",
+      "precision": "month",
+      "sort_start": "1982-09-01",
+      "sort_end": "1982-09-30"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_cambridge",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "In September 1982, at the age of 61 Robin decided to take up an opportunity of early retirement presented by the University of Cambridge."
+      }
+    ]
+  },
+  {
+    "id": "robin_scar_delegate_end",
+    "event_type": "employment_end",
+    "label": "Ended role as Permanent UK Delegate to SCAR",
+    "description": "Robin continued as Permanent UK Delegate to SCAR until 1984.",
+    "date": {
+      "display": "1984",
+      "precision": "year",
+      "sort_start": "1984-01-01",
+      "sort_end": "1984-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "scar",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 4,
+        "quote": "The Royal Society, as the UK adhering body to both ICSU and SCAR, formed a British National Committee on Antarctic Research and appointed Robin as Permanent UK Delegate, a position in which he continued until 1984."
+      }
+    ]
+  },
+  {
+    "id": "drewry_spri_director",
+    "event_type": "employment_start",
+    "label": "David Drewry appointed SPRI director",
+    "description": "David Drewry was appointed director of SPRI in 1984 after Terence Armstrong served as acting director.",
+    "date": {
+      "display": "1984",
+      "precision": "year",
+      "sort_start": "1984-01-01",
+      "sort_end": "1984-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "david_drewry",
+        "role": "subject"
+      },
+      {
+        "entity_id": "spri",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "He was succeeded temporarily by Terence Armstrong as acting director before David Drewry was appointed director in 1984."
+      }
+    ]
+  },
+  {
+    "id": "robin_seligman_crystal",
+    "event_type": "award",
+    "label": "Awarded Seligman Crystal",
+    "description": "Robin received the Seligman Crystal, foremost prize in glaciology, from International Glaciological Society in 1986.",
+    "date": {
+      "display": "1986",
+      "precision": "year",
+      "sort_start": "1986-01-01",
+      "sort_end": "1986-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "igs",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "seligman_crystal",
+        "role": "award"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "and, in 1986, the foremost prize in glaciology — the Seligman Crystal — of the International Glaciological Society."
+      }
+    ]
+  },
+  {
+    "id": "robin_antarctic_visit_1993",
+    "event_type": "visit",
+    "label": "Visited Antarctica 1993–94",
+    "description": "Robin visited Antarctica 1993–94, commencing in Cape Town on RSS Bransfield, visiting Halley and Signy Island.",
+    "date": {
+      "display": "1993–94",
+      "precision": "range",
+      "sort_start": "1993-01-01",
+      "sort_end": "1994-12-31"
+    },
+    "location": "cape_town",
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "david_drewry",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "rss_bransfield",
+        "role": "transport"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "In 1993–94, whilst director of the British Antarctic Survey, this author had the privilege to invite and accompany Robin on an Antarctic visit. The trip commenced in Cape Town on RSS Bransfield, and we were able to sail sufficiently close to the mainland for Robin to obtain a glimpse of Cape Norvegia, nearby to Maudheim."
+      }
+    ]
+  },
+  {
+    "id": "robin_married",
+    "event_type": "other",
+    "label": "Married Jean",
+    "description": "Robin married Jean in 1953; she had worked as Lawrence Kirwan's secretary at Royal Geographical Society.",
+    "date": {
+      "display": "1953",
+      "precision": "year",
+      "sort_start": "1953-01-01",
+      "sort_end": "1953-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "jean_robin",
+        "role": "spouse"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "Robin is survived by his wife Jean (whom he married in 1953; she had worked as Lawrence Kirwan's secretary at the Royal Geographical Society in London and had been involved in the organisation of the NBSE)"
+      }
+    ]
+  },
+  {
+    "id": "robin_polar_medal",
+    "event_type": "award",
+    "label": "Awarded Polar Medal",
+    "description": "Robin was awarded the Polar Medal for outstanding part in NBSE scientific success 1950–52.",
+    "date": {
+      "display": "1950–52",
+      "precision": "range",
+      "sort_start": "1950-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "polar_medal",
+        "role": "award"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "For his outstanding part in the scientific success of the NBSE, Robin was awarded the Polar Medal (1950–52)"
+      }
+    ]
+  },
+  {
+    "id": "robin_kongens_fortjensmedalje",
+    "event_type": "award",
+    "label": "Awarded Norwegian Medal for Civil Services",
+    "description": "Robin was awarded Norwegian Medal for Civil Services with clasp 'Maudheim'.",
+    "date": {
+      "display": "1950–52",
+      "precision": "range",
+      "sort_start": "1950-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "kongens_fortjensmedalje",
+        "role": "award"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "and also the Norwegian Medal for Civil Services (Kongens Fortjensmedalje) with the clasp 'Maudheim.'"
+      }
+    ]
+  },
+  {
+    "id": "robin_bruce_medal",
+    "event_type": "award",
+    "label": "Awarded Bruce Medal",
+    "description": "Robin received Bruce Medal of Royal Society of Edinburgh in 1953.",
+    "date": {
+      "display": "1953",
+      "precision": "year",
+      "sort_start": "1953-01-01",
+      "sort_end": "1953-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_society_edinburgh",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "bruce_medal",
+        "role": "award"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "In 1953, Robin received the Bruce Medal of the Royal Society of Edinburgh."
+      }
+    ]
+  },
+  {
+    "id": "robin_back_grant",
+    "event_type": "award",
+    "label": "Awarded Back Grant",
+    "description": "Royal Geographical Society recognised Robin with Back Grant in 1952.",
+    "date": {
+      "display": "1952",
+      "precision": "year",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "rgs",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "back_grant",
+        "role": "award"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "The Royal Geographical Society recognised Robin with the Back Grant in 1952"
+      }
+    ]
+  },
+  {
+    "id": "robin_darwin_fellow",
+    "event_type": "role_change",
+    "label": "Became Fellow of Darwin College",
+    "description": "Robin was Fellow of Darwin College since its founding in 1964.",
+    "date": {
+      "display": "1964",
+      "precision": "year",
+      "sort_start": "1964-01-01",
+      "sort_end": "1964-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "darwin_college",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "He was a Fellow of Darwin College since its founding in 1964 and served as vice-master between 1974 and 1978."
+      }
+    ]
+  },
+  {
+    "id": "robin_darwin_vicemaster",
+    "event_type": "role_change",
+    "label": "Served as vice-master of Darwin College",
+    "description": "Robin served as vice-master of Darwin College between 1974 and 1978.",
+    "date": {
+      "display": "1974–1978",
+      "precision": "range",
+      "sort_start": "1974-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gordon_robin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "darwin_college",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "He was a Fellow of Darwin College since its founding in 1964 and served as vice-master between 1974 and 1978."
+      }
+    ]
+  },
+  {
+    "id": "wadhams_spri_director",
+    "event_type": "employment_start",
+    "label": "Peter Wadhams appointed SPRI director",
+    "description": "Peter Wadhams was appointed SPRI director in 1987 when Drewry departed for BAS.",
+    "date": {
+      "display": "1987",
+      "precision": "year",
+      "sort_start": "1987-01-01",
+      "sort_end": "1987-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "peter_wadhams",
+        "role": "subject"
+      },
+      {
+        "entity_id": "spri",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "drewry_2005",
+        "page": 5,
+        "quote": "When Drewry departed for the British Antarctic Survey in 1987, Peter Wadhams, similarly a student and colleague of Robin, was appointed director."
+      }
+    ]
+  }
+]

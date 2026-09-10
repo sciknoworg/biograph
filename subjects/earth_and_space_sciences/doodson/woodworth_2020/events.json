@@ -1,0 +1,359 @@
+[
+  {
+    "id": "doodson_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "description": "Arthur Thomas Doodson was born.",
+    "date": {
+      "display": "1890",
+      "precision": "year",
+      "sort_start": "1890-01-01",
+      "sort_end": "1890-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_thomas_doodson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "woodworth_2020",
+        "page": 1,
+        "quote": "Arthur Doodson (1890–1968) was the main person involved in this aspect of the LTI's history"
+      }
+    ]
+  },
+  {
+    "id": "doodson_death",
+    "event_type": "death",
+    "label": "Died",
+    "description": "Arthur Thomas Doodson died.",
+    "date": {
+      "display": "1968",
+      "precision": "year",
+      "sort_start": "1968-01-01",
+      "sort_end": "1968-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_thomas_doodson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "woodworth_2020",
+        "page": 1,
+        "quote": "Arthur Doodson (1890–1968) was the main person involved in this aspect of the LTI's history"
+      }
+    ]
+  },
+  {
+    "id": "lti_established",
+    "event_type": "company_founded",
+    "label": "LTI established",
+    "description": "The Liverpool Tidal Institute was established.",
+    "date": {
+      "display": "1919",
+      "precision": "year",
+      "sort_start": "1919-01-01",
+      "sort_end": "1919-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "liverpool_tidal_institute",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "woodworth_2020",
+        "page": 1,
+        "quote": "In the year following the end of the First World War, a number of organisations were established which have had a lasting importance for geophysical research."
+      }
+    ]
+  },
+  {
+    "id": "doodson_lti_secretary",
+    "event_type": "employment_start",
+    "label": "Appointed LTI secretary",
+    "description": "Doodson became secretary of the LTI.",
+    "date": {
+      "display": "1919",
+      "precision": "year",
+      "sort_start": "1919-01-01",
+      "sort_end": "1919-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_thomas_doodson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "liverpool_tidal_institute",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "woodworth_2020",
+        "page": 1,
+        "quote": "The LTI was based initially at Liverpool University with Joseph Proudman as honorary director and Arthur Doodson as secretary."
+      }
+    ]
+  },
+  {
+    "id": "doodson_1928_publication",
+    "event_type": "publication",
+    "label": "Published harmonic analysis method",
+    "description": "Doodson published his method for tidal analysis.",
+    "date": {
+      "display": "1928",
+      "precision": "year",
+      "sort_start": "1928-01-01",
+      "sort_end": "1928-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_thomas_doodson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "woodworth_2020",
+        "page": 10,
+        "quote": "The method is described in detail in Doodson (1928)"
+      }
+    ]
+  },
+  {
+    "id": "bidston_kelvin_machine_purchase",
+    "event_type": "product_launch",
+    "label": "Bidston Kelvin Machine purchased",
+    "description": "The Bidston Kelvin Machine was purchased for the LTI.",
+    "date": {
+      "display": "1925",
+      "precision": "year",
+      "sort_start": "1925-01-01",
+      "sort_end": "1925-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bidston_kelvin_machine",
+        "role": "invention"
+      },
+      {
+        "entity_id": "liverpool_tidal_institute",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "woodworth_2020",
+        "page": 8,
+        "quote": "In 1925, Charles Booth also provided most of the GBP 1500 required for the purchase of a 25- to 28- component TPM for the exclusive use of Doodson at the LTI."
+      }
+    ]
+  },
+  {
+    "id": "lti_relocated_bidston",
+    "event_type": "relocation",
+    "label": "LTI relocated to Bidston",
+    "description": "The LTI moved to Bidston Observatory.",
+    "date": {
+      "display": "1929",
+      "precision": "year",
+      "sort_start": "1929-01-01",
+      "sort_end": "1929-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "liverpool_tidal_institute",
+        "role": "subject"
+      },
+      {
+        "entity_id": "bidston_observatory",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "woodworth_2020",
+        "page": 1,
+        "quote": "However, by 1929 it had relocated across the river Mersey to Bidston Observatory where there was more room for research"
+      }
+    ]
+  },
+  {
+    "id": "doodson_associate_director",
+    "event_type": "role_change",
+    "label": "Became associate director",
+    "description": "Doodson became associate director at Bidston.",
+    "date": {
+      "display": "1929",
+      "precision": "year",
+      "sort_start": "1929-01-01",
+      "sort_end": "1929-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_thomas_doodson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "bidston_observatory",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "woodworth_2020",
+        "page": 1,
+        "quote": "where Doodson took up residence as associate director"
+      }
+    ]
+  },
+  {
+    "id": "roberts_lege_machine_acquired",
+    "event_type": "product_launch",
+    "label": "Roberts–Légé Machine acquired",
+    "description": "Doodson acquired the Roberts–Légé Machine.",
+    "date": {
+      "display": "1929",
+      "precision": "year",
+      "sort_start": "1929-01-01",
+      "sort_end": "1929-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "roberts_lege_machine",
+        "role": "invention"
+      },
+      {
+        "entity_id": "arthur_thomas_doodson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "woodworth_2020",
+        "page": 8,
+        "quote": "Then in 1929, following the death of H. W. T. Roberts (the son of Edward Roberts), Doodson acquired the Légé-made machine that Edward Roberts had designed in 1906"
+      }
+    ]
+  },
+  {
+    "id": "doodson_lege_machine_delivered",
+    "event_type": "product_launch",
+    "label": "Bidston Doodson–Légé Machine delivered",
+    "description": "The Bidston Doodson–Légé Machine was delivered.",
+    "date": {
+      "display": "December 1950",
+      "precision": "month",
+      "sort_start": "1950-12-01",
+      "sort_end": "1950-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bidston_doodson_lege_machine",
+        "role": "invention"
+      },
+      {
+        "entity_id": "arthur_thomas_doodson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "woodworth_2020",
+        "page": 8,
+        "quote": "This became the 42-component machine delivered finally by Légé in December 1950"
+      }
+    ]
+  },
+  {
+    "id": "bidston_kelvin_machine_sold",
+    "event_type": "company_sold",
+    "label": "Bidston Kelvin Machine sold to SHOM",
+    "description": "The Bidston Kelvin Machine was sold to SHOM.",
+    "date": {
+      "display": "1950",
+      "precision": "year",
+      "sort_start": "1950-01-01",
+      "sort_end": "1950-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bidston_kelvin_machine",
+        "role": "invention"
+      },
+      {
+        "entity_id": "service_hydrographique_et_oceanographique_de_la_marine",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "woodworth_2020",
+        "page": 8,
+        "quote": "The purchase of the Doodson–Légé Machine had been contingent on the sale of the Bidston Kelvin Machine to the Service Hydrographique et Océanographique de la Marine (SHOM) in France. It was acquired by them in 1950"
+      }
+    ]
+  },
+  {
+    "id": "doodson_lege_machine_doubled",
+    "event_type": "product_launch",
+    "label": "Doodson–Légé Machine converted to double-sided",
+    "description": "The machine was converted to a double-sided machine.",
+    "date": {
+      "display": "1956",
+      "precision": "year",
+      "sort_start": "1956-01-01",
+      "sort_end": "1956-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bidston_doodson_lege_machine",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "woodworth_2020",
+        "page": 6,
+        "quote": "It was a single-sided machine, until funds could be made available in 1956 to enable its conversion to a double-sided machine."
+      }
+    ]
+  },
+  {
+    "id": "doodson_retirement",
+    "event_type": "retirement",
+    "label": "Retired",
+    "description": "Doodson retired from the LTI.",
+    "date": {
+      "display": "1960",
+      "precision": "year",
+      "sort_start": "1960-01-01",
+      "sort_end": "1960-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_thomas_doodson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "liverpool_tidal_institute",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "woodworth_2020",
+        "page": 7,
+        "quote": "After Doodson's retirement in 1960"
+      }
+    ]
+  }
+]

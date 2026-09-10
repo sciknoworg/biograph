@@ -1,0 +1,205 @@
+[
+  {
+    "id": "born_in_london",
+    "source": "geoffrey_hattersley_smith",
+    "type": "born_in",
+    "target": "london",
+    "event_id": "birth_1923",
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 1,
+        "quote": "Geoffrey Hattersley-Smith was born in London on April 22, 1923."
+      }
+    ]
+  },
+  {
+    "id": "educated_at_winchester",
+    "source": "geoffrey_hattersley_smith",
+    "type": "studied_at",
+    "target": "winchester_college",
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 1,
+        "quote": "Like most young gentlemen of the era, Geoffrey was sent off early to boarding school and later won a scholarship to Winchester, a traditional boys' school whose 14th century motto was, \"Manners makyth man.\""
+      }
+    ]
+  },
+  {
+    "id": "educated_at_oxford",
+    "source": "geoffrey_hattersley_smith",
+    "type": "studied_at",
+    "target": "oxford_university",
+    "event_id": "start_oxford_1941",
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 1,
+        "quote": "By the time he began Oxford University in 1941, Geoffrey was convinced that he was going to become a forester."
+      }
+    ]
+  },
+  {
+    "id": "employed_by_royal_navy",
+    "source": "geoffrey_hattersley_smith",
+    "type": "employed_by",
+    "target": "royal_navy",
+    "event_id": "join_royal_navy_1943",
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 1,
+        "quote": "Then World War II interrupted his studies, and he joined the Royal Navy early in 1943, at age 19."
+      }
+    ]
+  },
+  {
+    "id": "employed_by_fids",
+    "source": "geoffrey_hattersley_smith",
+    "type": "employed_by",
+    "target": "falkland_islands_dependencies_survey",
+    "event_id": "antarctica_departure_1947",
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 1,
+        "quote": "Geoffrey left for Antarctica in October 1947 as part of the Falkland Islands Dependencies Survey."
+      }
+    ]
+  },
+  {
+    "id": "employed_by_drb",
+    "source": "geoffrey_hattersley_smith",
+    "type": "employed_by",
+    "target": "defence_research_board",
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 2,
+        "quote": "The Defence Research Board was set up in 1947 as the civilian science branch of the Canadian Armed Forces, and Geoffrey found a permanent home in its Arctic Section."
+      }
+    ]
+  },
+  {
+    "id": "supervised_by_rowley",
+    "source": "geoffrey_hattersley_smith",
+    "type": "supervised_by",
+    "target": "graham_rowley",
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 2,
+        "quote": "He toiled alongside Keith Greenaway and Moira Dunbar, future authors of the fine book, Arctic Canada from the Air (1965), and reported first to Graham Rowley, another legendary Arctic figure, and later to Trevor Harwood."
+      }
+    ]
+  },
+  {
+    "id": "supervised_by_harwood",
+    "source": "geoffrey_hattersley_smith",
+    "type": "supervised_by",
+    "target": "trevor_harwood",
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 2,
+        "quote": "He toiled alongside Keith Greenaway and Moira Dunbar, future authors of the fine book, Arctic Canada from the Air (1965), and reported first to Graham Rowley, another legendary Arctic figure, and later to Trevor Harwood."
+      }
+    ]
+  },
+  {
+    "id": "married_maria",
+    "source": "geoffrey_hattersley_smith",
+    "type": "married_to",
+    "target": "maria_keffalinou",
+    "event_id": "marriage_1955",
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 2,
+        "quote": "Geoffrey saved the other until his wedding day to Greek cytologist Maria Keffalinou in 1955."
+      }
+    ]
+  },
+  {
+    "id": "collaborated_blackadar",
+    "source": "geoffrey_hattersley_smith",
+    "type": "collaborated_with",
+    "target": "robert_blackadar",
+    "event_id": "alert_expedition_1953",
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 2,
+        "quote": "in April 1953, Geoffrey and Robert Blackadar of the Geological Survey of Canada flew to Alert to study them and to reconnoiter the geology of the north coast."
+      }
+    ]
+  },
+  {
+    "id": "collaborated_crary",
+    "source": "geoffrey_hattersley_smith",
+    "type": "collaborated_with",
+    "target": "bert_crary",
+    "event_id": "ward_hunt_camp_1954",
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 3,
+        "quote": "Leading a four-man group that included Bert Crary, Bill Marshall, and Robert Christie, Geoffrey established a fixed camp on the ice shelf just west of Ward Hunt Island."
+      }
+    ]
+  },
+  {
+    "id": "employed_by_bas",
+    "source": "geoffrey_hattersley_smith",
+    "type": "employed_by",
+    "target": "british_antarctic_survey",
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 3,
+        "quote": "He worked for the British Antarctic Survey as Secretary of the Antarctic Place-Names Committee until his retirement in 1990."
+      }
+    ]
+  },
+  {
+    "id": "awarded_polar_medal",
+    "source": "geoffrey_hattersley_smith",
+    "type": "awarded",
+    "target": "polar_medal",
+    "event_id": "polar_medal_2006",
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 3,
+        "quote": "In 2006, he was awarded the Polar Medal, with Arctic and Antarctic clasps."
+      }
+    ]
+  },
+  {
+    "id": "family_of_fiona",
+    "source": "geoffrey_hattersley_smith",
+    "type": "family_of",
+    "target": "fiona_hattersley_smith",
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 3,
+        "quote": "Geoffrey is survived by his wife Maria and daughters Fiona and Kara."
+      }
+    ]
+  },
+  {
+    "id": "family_of_kara",
+    "source": "geoffrey_hattersley_smith",
+    "type": "family_of",
+    "target": "kara_hattersley_smith",
+    "sources": [
+      {
+        "source_id": "kobalenko_2012_obituary",
+        "page": 3,
+        "quote": "Geoffrey is survived by his wife Maria and daughters Fiona and Kara."
+      }
+    ]
+  }
+]

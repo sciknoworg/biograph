@@ -1,0 +1,150 @@
+[
+  {
+    "id": "knauss_studied_scripps",
+    "source": "john_a_knauss",
+    "type": "studied_at",
+    "target": "scripps_institution_of_oceanography",
+    "sources": [
+      {
+        "source_id": "lozier_2015_tribute",
+        "page": 2,
+        "quote": "as a graduate student at Scripps Institution of Oceanography, John made the first comprehensive measurements of the Pacific Equatorial Undercurrent"
+      }
+    ]
+  },
+  {
+    "id": "knauss_worked_uri",
+    "source": "john_a_knauss",
+    "type": "employed_by",
+    "target": "university_of_rhode_island",
+    "event_id": "knauss_uri_dean",
+    "sources": [
+      {
+        "source_id": "lozier_2015_tribute",
+        "page": 2,
+        "quote": "in 1962 when he was appointed as the founding dean of the Graduate School of Oceanography"
+      }
+    ]
+  },
+  {
+    "id": "knauss_worked_noaa",
+    "source": "john_a_knauss",
+    "type": "employed_by",
+    "target": "noaa",
+    "event_id": "knauss_noaa_admin_start",
+    "sources": [
+      {
+        "source_id": "lozier_2015_tribute",
+        "page": 2,
+        "quote": "administrator of the National Oceanic and Atmospheric Administration (1989–1993)"
+      }
+    ]
+  },
+  {
+    "id": "knauss_worked_doc",
+    "source": "john_a_knauss",
+    "type": "employed_by",
+    "target": "department_of_commerce",
+    "event_id": "knauss_noaa_admin_start",
+    "sources": [
+      {
+        "source_id": "lozier_2015_tribute",
+        "page": 2,
+        "quote": "Under Secretary for Oceans and Atmosphere in the Department of Commerce"
+      }
+    ]
+  },
+  {
+    "id": "knauss_member_stratton",
+    "source": "john_a_knauss",
+    "type": "member_of",
+    "target": "stratton_commission",
+    "event_id": "stratton_commission_auth",
+    "sources": [
+      {
+        "source_id": "lozier_2015_tribute",
+        "page": 2,
+        "quote": "He was the only academic oceanographer on the Stratton Commission"
+      }
+    ]
+  },
+  {
+    "id": "knauss_contributed_sea_grant",
+    "source": "john_a_knauss",
+    "type": "developed",
+    "target": "national_sea_grant_program",
+    "event_id": "sea_grant_formation",
+    "sources": [
+      {
+        "source_id": "lozier_2015_tribute",
+        "page": 2,
+        "quote": "He played an instrumental role in the formation of the National Sea Grant Program in 1966"
+      }
+    ]
+  },
+  {
+    "id": "knauss_awarded_agu",
+    "source": "agu",
+    "type": "awarded",
+    "target": "john_a_knauss",
+    "sources": [
+      {
+        "source_id": "lozier_2015_tribute",
+        "page": 2,
+        "quote": "an Ocean Sciences Award from the American Geophysical Union"
+      }
+    ]
+  },
+  {
+    "id": "knauss_fellow_agu",
+    "source": "john_a_knauss",
+    "type": "member_of",
+    "target": "agu",
+    "sources": [
+      {
+        "source_id": "lozier_2015_tribute",
+        "page": 2,
+        "quote": "fellowship in the American Geophysical Union"
+      }
+    ]
+  },
+  {
+    "id": "knauss_fellow_aaas",
+    "source": "john_a_knauss",
+    "type": "member_of",
+    "target": "aaas",
+    "sources": [
+      {
+        "source_id": "lozier_2015_tribute",
+        "page": 2,
+        "quote": "fellowship in... the American Association for the Advancement of Science"
+      }
+    ]
+  },
+  {
+    "id": "knauss_fellow_mts",
+    "source": "john_a_knauss",
+    "type": "member_of",
+    "target": "marine_technology_society",
+    "sources": [
+      {
+        "source_id": "lozier_2015_tribute",
+        "page": 2,
+        "quote": "fellowship in... the Marine Technology Society"
+      }
+    ]
+  },
+  {
+    "id": "lozier_published_tribute",
+    "source": "m_susan_lozier",
+    "type": "published",
+    "target": "oceanography_journal",
+    "sources": [
+      {
+        "source_id": "lozier_2015_tribute",
+        "page": 1,
+        "quote": "Lozier, M.S. 2015. A tribute to John A. Knauss (1925–2015). Oceanography 28(4):7"
+      }
+    ]
+  }
+]

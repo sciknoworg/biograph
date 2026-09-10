@@ -1,0 +1,242 @@
+[
+  {
+    "id": "dansgaard_born_copenhagen",
+    "source": "willi_dansgaard",
+    "type": "born_in",
+    "target": "copenhagen",
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "He was born on 30 August 1922 and grew up in the centre of Copenhagen where his parents had an engraving shop."
+      }
+    ]
+  },
+  {
+    "id": "dansgaard_worked_dmi",
+    "source": "willi_dansgaard",
+    "type": "worked_at",
+    "target": "danish_meteorological_institute",
+    "start": {
+      "display": "1947",
+      "precision": "year",
+      "sort_start": "1947-01-01",
+      "sort_end": "1947-12-31"
+    },
+    "end": {
+      "display": "1951",
+      "precision": "year",
+      "sort_start": "1951-01-01",
+      "sort_end": "1951-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "From 1947 to 1951 he was employed by the Danish Meteorological Institute where he worked in geomagnetism and meteorology."
+      }
+    ]
+  },
+  {
+    "id": "dansgaard_worked_biophysics",
+    "source": "willi_dansgaard",
+    "type": "worked_at",
+    "target": "biophysics_laboratory",
+    "start": {
+      "display": "1951",
+      "precision": "year",
+      "sort_start": "1951-01-01",
+      "sort_end": "1951-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "In 1951, Dansgaard was given the opportunity to return to the Biophysics Laboratory when a position opened for the operation of a new mass spectrometer."
+      }
+    ]
+  },
+  {
+    "id": "dansgaard_worked_gil",
+    "source": "willi_dansgaard",
+    "type": "worked_at",
+    "target": "geophysical_isotope_laboratory",
+    "start": {
+      "display": "1972",
+      "precision": "year",
+      "sort_start": "1972-01-01",
+      "sort_end": "1972-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "In 1972 Dansgaard became leader of the Geophysical Iso- tope Laboratory at the University of Copenhagen."
+      }
+    ]
+  },
+  {
+    "id": "dansgaard_collab_langway",
+    "source": "willi_dansgaard",
+    "type": "collaborated_with",
+    "target": "chester_langway",
+    "start": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "In 1967 he entered a collaboration with Dr. Chester Langway, and his group soon began systematic analysis of stable isotopes along the Camp Century ice core, and a few years later along the U.S. Byrd ice core from Antarctica."
+      }
+    ]
+  },
+  {
+    "id": "dansgaard_collab_oeschger",
+    "source": "willi_dansgaard",
+    "type": "collaborated_with",
+    "target": "hans_oeschger",
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "Together with Langway and Professor Hans Oeschger, University of Berne, Dansgaard led the very ﬁrst climate research motivated ice core drilling through the Greenland ice sheet at Dye-3 in south Greenland in 1979–1981."
+      }
+    ]
+  },
+  {
+    "id": "dansgaard_awarded_hans_egede",
+    "source": "willi_dansgaard",
+    "type": "awarded",
+    "target": "hans_egede_medal",
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "Willi Dansgaard received the Hans Egede Medal from the Royal Danish Geographical Society, the V ega Medal from the Royal Swedish Society of Geography and Anthropology, the Tyler Prize from University of Southern California, the Selig- man Crystal from the International Glaciological Society and the Crafoord Prize, which he shared with Professor Nicholas Shackleton."
+      }
+    ]
+  },
+  {
+    "id": "dansgaard_awarded_vega",
+    "source": "willi_dansgaard",
+    "type": "awarded",
+    "target": "vega_medal",
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "Willi Dansgaard received the Hans Egede Medal from the Royal Danish Geographical Society, the V ega Medal from the Royal Swedish Society of Geography and Anthropology, the Tyler Prize from University of Southern California, the Selig- man Crystal from the International Glaciological Society and the Crafoord Prize, which he shared with Professor Nicholas Shackleton."
+      }
+    ]
+  },
+  {
+    "id": "dansgaard_awarded_tyler",
+    "source": "willi_dansgaard",
+    "type": "awarded",
+    "target": "tyler_prize",
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "Willi Dansgaard received the Hans Egede Medal from the Royal Danish Geographical Society, the V ega Medal from the Royal Swedish Society of Geography and Anthropology, the Tyler Prize from University of Southern California, the Selig- man Crystal from the International Glaciological Society and the Crafoord Prize, which he shared with Professor Nicholas Shackleton."
+      }
+    ]
+  },
+  {
+    "id": "dansgaard_awarded_seligman",
+    "source": "willi_dansgaard",
+    "type": "awarded",
+    "target": "seligman_crystal",
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "Willi Dansgaard received the Hans Egede Medal from the Royal Danish Geographical Society, the V ega Medal from the Royal Swedish Society of Geography and Anthropology, the Tyler Prize from University of Southern California, the Selig- man Crystal from the International Glaciological Society and the Crafoord Prize, which he shared with Professor Nicholas Shackleton."
+      }
+    ]
+  },
+  {
+    "id": "dansgaard_awarded_crafoord",
+    "source": "willi_dansgaard",
+    "type": "awarded",
+    "target": "crafoord_prize",
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "Willi Dansgaard received the Hans Egede Medal from the Royal Danish Geographical Society, the V ega Medal from the Royal Swedish Society of Geography and Anthropology, the Tyler Prize from University of Southern California, the Selig- man Crystal from the International Glaciological Society and the Crafoord Prize, which he shared with Professor Nicholas Shackleton."
+      }
+    ]
+  },
+  {
+    "id": "dansgaard_member_royal_danish",
+    "source": "willi_dansgaard",
+    "type": "member_of",
+    "target": "royal_danish_academy_of_science_and_letters",
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "He was member of the Royal Danish Academy of Science and Letters, of the Royal Swedish Science Academy and the Icelandic Science Academy."
+      }
+    ]
+  },
+  {
+    "id": "dansgaard_member_royal_swedish",
+    "source": "willi_dansgaard",
+    "type": "member_of",
+    "target": "royal_swedish_science_academy",
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "He was member of the Royal Danish Academy of Science and Letters, of the Royal Swedish Science Academy and the Icelandic Science Academy."
+      }
+    ]
+  },
+  {
+    "id": "dansgaard_member_icelandic",
+    "source": "willi_dansgaard",
+    "type": "member_of",
+    "target": "icelandic_science_academy",
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "He was member of the Royal Danish Academy of Science and Letters, of the Royal Swedish Science Academy and the Icelandic Science Academy."
+      }
+    ]
+  },
+  {
+    "id": "dansgaard_published_tellus",
+    "source": "willi_dansgaard",
+    "type": "published",
+    "target": "tellus_paper",
+    "event_id": "dansgaard_tellus_publication",
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "in 1964, he published the paper: 'Stable isotopes in precipitation' in Tellus."
+      }
+    ]
+  },
+  {
+    "id": "dansgaard_developed_grip",
+    "source": "willi_dansgaard",
+    "type": "developed",
+    "target": "grip_project",
+    "event_id": "dansgaard_grip_drilling",
+    "sources": [
+      {
+        "source_id": "polar_record_obituary",
+        "page": 1,
+        "quote": "so he established a European collaboration which led to the GRIP ice core drilling in 1989–1992."
+      }
+    ]
+  }
+]

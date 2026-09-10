@@ -1,0 +1,140 @@
+[
+  {
+    "id": "doodson_worked_at_lti",
+    "source": "arthur_thomas_doodson",
+    "type": "worked_at",
+    "target": "liverpool_tidal_institute",
+    "start": {
+      "display": "1919",
+      "precision": "year",
+      "sort_start": "1919-01-01",
+      "sort_end": "1919-12-31"
+    },
+    "end": {
+      "display": "1960",
+      "precision": "year",
+      "sort_start": "1960-01-01",
+      "sort_end": "1960-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "woodworth_2020",
+        "page": 1,
+        "quote": "The LTI was based initially at Liverpool University with Joseph Proudman as honorary director and Arthur Doodson as secretary."
+      }
+    ]
+  },
+  {
+    "id": "doodson_worked_at_bidston",
+    "source": "arthur_thomas_doodson",
+    "type": "worked_at",
+    "target": "bidston_observatory",
+    "start": {
+      "display": "1929",
+      "precision": "year",
+      "sort_start": "1929-01-01",
+      "sort_end": "1929-12-31"
+    },
+    "end": {
+      "display": "1960",
+      "precision": "year",
+      "sort_start": "1960-01-01",
+      "sort_end": "1960-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "woodworth_2020",
+        "page": 1,
+        "quote": "by 1929 it had relocated across the river Mersey to Bidston Observatory where there was more room for research and where Doodson took up residence as associate director"
+      }
+    ]
+  },
+  {
+    "id": "doodson_supervised_by_proudman",
+    "source": "arthur_thomas_doodson",
+    "type": "supervised_by",
+    "target": "joseph_proudman",
+    "start": {
+      "display": "1919",
+      "precision": "year",
+      "sort_start": "1919-01-01",
+      "sort_end": "1919-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "woodworth_2020",
+        "page": 1,
+        "quote": "The LTI was based initially at Liverpool University with Joseph Proudman as honorary director and Arthur Doodson as secretary."
+      }
+    ]
+  },
+  {
+    "id": "doodson_developed_bidston_doodson_lege_machine",
+    "source": "arthur_thomas_doodson",
+    "type": "developed",
+    "target": "bidston_doodson_lege_machine",
+    "event_id": "doodson_lege_machine_delivered",
+    "sources": [
+      {
+        "source_id": "woodworth_2020",
+        "page": 8,
+        "quote": "This Bidston Doodson–Légé Machine (TPM-S20), referred to by Bidston staff as the \"D–L machine\", was the third machine to be used operationally at the LTI and one of a number of similar machines made by Légé & Co. under Doodson's supervision"
+      }
+    ]
+  },
+  {
+    "id": "doodson_published_1928_paper",
+    "source": "arthur_thomas_doodson",
+    "type": "published",
+    "target": "arthur_thomas_doodson",
+    "event_id": "doodson_1928_publication",
+    "note": "Self-relation for publication event",
+    "sources": [
+      {
+        "source_id": "woodworth_2020",
+        "page": 10,
+        "quote": "The method is described in detail in Doodson (1928)"
+      }
+    ]
+  },
+  {
+    "id": "thomson_invented_first_tpm",
+    "source": "william_thomson",
+    "type": "invented",
+    "target": "bidston_kelvin_machine",
+    "note": "Kelvin invented the first TPM architecture",
+    "sources": [
+      {
+        "source_id": "woodworth_2020",
+        "page": 2,
+        "quote": "The first TPM (aside from prototype models) was designed by Sir William Thomson (1824–1907, Baron Kelvin of Largs from 1892; Fig. 1b)"
+      }
+    ]
+  },
+  {
+    "id": "roberts_designed_roberts_lege_machine",
+    "source": "edward_roberts",
+    "type": "developed",
+    "target": "roberts_lege_machine",
+    "sources": [
+      {
+        "source_id": "woodworth_2020",
+        "page": 8,
+        "quote": "Doodson acquired the Légé-made machine that Edward Roberts had designed in 1906"
+      }
+    ]
+  },
+  {
+    "id": "lege_manufactured_machines",
+    "source": "alexander_lege_co",
+    "type": "developed",
+    "target": "bidston_doodson_lege_machine",
+    "sources": [
+      {
+        "source_id": "woodworth_2020",
+        "page": 8,
+        "quote": "made by Légé & Co. under Doodson's supervision"
+      }
+    ]
+  }
+]
