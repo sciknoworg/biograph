@@ -317,9 +317,14 @@ python3 scripts/geocode_places.py [--subject <slug>] [--domain <name>] [--dry-ru
 Extraction never produces coordinates — a `place` entity arrives with a
 name and, usually, a country, and nothing more. This pass fills in
 `attributes.lat` / `lng` / `wikidata_qid` from Wikidata's P625 so the
-[Map view](frontend-guide.md#map-view) has something to plot. **Until you
-run it, a subject's map is empty.** That is the single most common reason
-for a blank map, and it is not a bug in the view.
+[Map view](frontend-guide.md#map-view) has something to plot.
+
+**`run_pipeline.py` already does this** for every subject it writes, so an
+automated run needs nothing here (`--no-geocode` turns that off). Run this
+script directly for the two cases the pipeline doesn't cover: a subject you
+drafted by hand with `build_site.py --pdf`, and backfilling subjects collected
+before the pipeline did it — which is what an empty map on an older subject
+means.
 
 | Flag | Default | What it does |
 |---|---|---|

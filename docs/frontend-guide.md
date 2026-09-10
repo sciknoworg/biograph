@@ -53,10 +53,12 @@ world map, using an embedded, pre-converted GeoJSON basemap — no tile
 server, no runtime map-library dependency beyond D3 itself.
 
 **A blank map means no coordinates, not a broken view.** Extraction never
-supplies them; they are filled in afterwards by
-`python scripts/geocode_places.py`, and a subject that has not been
-through that pass has nothing to plot. Run it, rebuild, and the pins
-appear.
+supplies them — see [Data Accuracy § Place coordinates](data-accuracy.md#place-coordinates)
+for why a model must not. `run_pipeline.py` looks them up as each subject is
+written, so anything the pipeline collects arrives with its map already
+populated. A subject drafted by hand with `build_site.py --pdf` does not, and
+neither does one collected before that step existed: run
+`python scripts/geocode_places.py`, rebuild, and the pins appear.
 
 - **Marker size** scales with how many events happened at that place plus
   its graph degree — see the formula in
