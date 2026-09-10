@@ -761,10 +761,17 @@ def load_subject_documents(slug, load):
     entities, events, relations, sources = [], [], [], []
     by_id = {}
     for doc_key, ddir in docs:
-        d_ent = load(os.path.join(ddir, "entities.json"))
-        d_ev = load(os.path.join(ddir, "events.json"))
-        d_rel = load(os.path.join(ddir, "relations.json"))
-        d_src = load(os.path.join(ddir, "sources.json"))
+        # Defensive against anything in these files that isn't an object: a malformed extraction
+        # (normalize_extraction() now strips those, but files written before it did still exist),
+        # or a hand edit. Reading is not the place to fail on it -- a stray list element used to
+        # raise AttributeError here and take the whole subject down permanently.
+        def _objects(path):
+            return [x for x in load(path) if isinstance(x, dict)]
+
+        d_ent = _objects(os.path.join(ddir, "entities.json"))
+        d_ev = _objects(os.path.join(ddir, "events.json"))
+        d_rel = _objects(os.path.join(ddir, "relations.json"))
+        d_src = _objects(os.path.join(ddir, "sources.json"))
 
         for ent in d_ent:
             prior = by_id.get(ent.get("id"))
@@ -867,6 +874,24 @@ def normalize_extraction(data):
 
     Returns a list of human-readable notes describing what it changed."""
     notes = []
+
+    # --- 0. entries that aren't objects at all -------------------------------------------
+    # A truncated or malformed reply can still parse as valid JSON while leaving a fragment of
+    # itself as a bare list element. Seen live in a Metchnikoff extraction: entities[20] was the
+    # string 'summary": ', a piece of a half-written object. Everything downstream here already
+    # guards with isinstance(item, dict) and skips such entries, so the extraction was written
+    # out with the fragment still in it -- and load_subject_documents() then died on
+    # `ent.get("id")` every time that subject was built, failing it permanently after three
+    # retries. Tolerating these was the bug; they carry no recoverable information, so drop them
+    # here, once, and say so.
+    for kind in ("entities", "events", "relations", "sources"):
+        items = data.get(kind)
+        if not isinstance(items, list):
+            continue
+        junk = [x for x in items if not isinstance(x, dict)]
+        if junk:
+            data[kind] = [x for x in items if isinstance(x, dict)]
+            notes.append(f"dropped {len(junk)} malformed {kind} entry(ies) that were not objects")
 
     # --- 1. ids -------------------------------------------------------------------------
     renames = {}   # (kind, old) -> new

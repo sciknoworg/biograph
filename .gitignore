@@ -59,6 +59,7 @@ scripts/backup_evidence.py
 # reports "run to completion".
 #   tracked: chemistry_history_taxonomy.json, materials_taxonomy.json, physics_taxonomy.json,
 #            cs_taxonomy.json, earth_space_taxonomy.json
+life_sciences_taxonomy.json
 
 # Per-domain pipeline state -- bookkeeping, never useful outside this machine.
 pipeline_state.json
@@ -70,6 +71,7 @@ cs_state.json
 working-taxonomy-of-science.docx
 cs_state.json
 earth_space_state.json
+life_sciences_state.json
 
 # Wikidata lookup cache for scripts/geocode_places.py -- rebuildable, and large.
 .geocode_cache.json
