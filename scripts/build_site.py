@@ -1409,6 +1409,16 @@ def validate_subject(slug):
         # Deliberately not "any invalid event": events carry the timeline, and a malformed date or
         # a dangling participant is a different kind of problem that should still stop the build.
         set_aside_events = []
+        set_aside_citations = []   # relations whose only faults are in their citations
+
+        def _in_citation(err):
+            """Does this schema error sit inside sources[], rather than on the item itself?
+
+            Taken from the error's own path rather than its message: jsonschema records where the
+            failure occurred, and 'sources' as the first element means the item is structurally
+            fine and only its provenance is malformed."""
+            path = list(err.absolute_path)
+            return bool(path) and path[0] == "sources"
 
         def check(schema_name, items):
             schema = store[f"https://biograph/schema/{schema_name}.schema.json"]
@@ -1416,10 +1426,28 @@ def validate_subject(slug):
             v = Draft202012Validator(schema, resolver=resolver)
             for it in items:
                 errs = list(v.iter_errors(it))
-                if (schema_name == "event" and errs
-                        and all(e.validator == "minItems" for e in errs)):
-                    set_aside_events.append((it, "; ".join(e.message for e in errs)))
-                    continue
+                # An event or relation whose only faults are in its citations is set aside rather
+                # than made fatal. A citation that cannot say which page a claim came from is not
+                # provenance, and this project's own rule is that a fact you cannot point at
+                # should not be stated -- so the item is unusable either way. What changes is the
+                # blast radius: seen live, a single Borelli event whose citation carried the
+                # bibliographic record instead of a page number made the entire subject
+                # unbuildable, including a second, perfectly good extraction of 23 entities.
+                #
+                # Deliberately narrow. It keys off the error's path, so a malformed date, a bad
+                # event_type or a missing label stays fatal exactly as before; only provenance
+                # errors, on items that are leaves or removable, take this route. Nothing is
+                # lost either way -- the item is written to events.rejected.json /
+                # relations.rejected.json with its reason, so a citation worth repairing by hand
+                # is still there to repair.
+                if errs and all(e.validator == "minItems" or _in_citation(e) for e in errs):
+                    why = "; ".join(e.message for e in errs)
+                    if schema_name == "event":
+                        set_aside_events.append((it, why))
+                        continue
+                    if schema_name == "relation":
+                        set_aside_citations.append((it, why))
+                        continue
                 for e in errs:
                     errors.append(f"{schema_name} {it.get('id')}: {e.message}")
 
@@ -1431,6 +1459,12 @@ def validate_subject(slug):
         if set_aside_events:
             gone = {id(ev) for ev, _ in set_aside_events}
             events = [ev for ev in events if id(ev) not in gone]
+
+        # Before the referential checks below, which would re-report the same relation's dangling
+        # source_id as a fatal error and undo the set-aside.
+        if set_aside_citations:
+            gone = {id(r) for r, _ in set_aside_citations}
+            relations = [r for r in relations if id(r) not in gone]
 
         ent_ids = {e["id"] for e in entities}
         ent_type = {e["id"]: e["entity_type"] for e in entities}
@@ -1535,8 +1569,8 @@ def validate_subject(slug):
                 print(f"    {ev_id}: unknown location '{loc}'")
 
         if set_aside_events:
-            print(f"  ({len(set_aside_events)} event(s) set aside -- a required list was empty, so "
-                  f"they name nobody or cite nothing; the rest of the extraction is kept)")
+            print(f"  ({len(set_aside_events)} event(s) set aside -- they name nobody, or their "
+                  f"provenance is unusable; the rest of the extraction is kept)")
             for ev, why in set_aside_events:
                 print(f"    {ev.get('id')}: {why}")
             _write_rejected(slug, [(ev, why) for ev, why in set_aside_events],
@@ -1545,11 +1579,15 @@ def validate_subject(slug):
         if direction_issues:
             set_aside = {id(r) for r, _ in direction_issues}
             relations = [r for r in relations if id(r) not in set_aside]
-            print(f"  ({len(direction_issues)} relation(s) set aside -- unexpected entity_type for "
-                  f"the relation type; the rest of the extraction is kept)")
-            for r, why in direction_issues:
+        relation_issues = direction_issues + set_aside_citations
+        if relation_issues:
+            print(f"  ({len(relation_issues)} relation(s) set aside; the rest of the extraction "
+                  f"is kept)")
+            for r, why in relation_issues:
                 print(f"    {r['id']}: {why}")
-            _write_rejected(slug, direction_issues, "relations.rejected.json")
+            # One call, not one per kind: _write_rejected overwrites the file it is given, so
+            # writing the two lists separately would leave only whichever went last.
+            _write_rejected(slug, relation_issues, "relations.rejected.json")
 
     return entities, events, relations, sources
 
