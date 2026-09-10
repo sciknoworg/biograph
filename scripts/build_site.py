@@ -973,6 +973,39 @@ def normalize_extraction(data):
                 del item[key]
                 extra += 1
                 notes.append(f"dropped undeclared field {key!r} from a {schema_name}")
+
+    # --- 3b. the same, one level down, inside citation objects ---------------------------
+    # events[].sources[] and relations[].sources[] are {source_id, page, quote}, and they set
+    # additionalProperties: false too -- but step 3 only ever looked at the top level, so a
+    # citation carrying extra keys still failed the whole subject.
+    #
+    # It happens because the two shapes are easy to confuse: sources.json describes a document
+    # (title, authors, year, publication, doi) while a citation merely points into one. Seen
+    # live in a Borelli extraction, where the model wrote the entire bibliographic record into
+    # the citation and left sources.json empty -- so the citation had no page, named a source
+    # that existed nowhere, and carried five forbidden fields. Dropping the strays here is only
+    # half the repair; run_pipeline.py's inject_source_metadata() supplies the missing
+    # sources.json entry, from what discovery already resolved rather than from this.
+    cite_allowed = set()
+    try:
+        with open(os.path.join(SCHEMA_DIR, "event.schema.json"), encoding="utf-8") as f:
+            cite_allowed = set((((json.load(f).get("properties") or {}).get("sources") or {})
+                                .get("items") or {}).get("properties", {}).keys())
+    except (OSError, ValueError):
+        pass
+    if cite_allowed:
+        for kind in ("events", "relations"):
+            for item in data.get(kind) or []:
+                if not isinstance(item, dict):
+                    continue
+                for cite in item.get("sources") or []:
+                    if not isinstance(cite, dict):
+                        continue
+                    for key in [k for k in cite
+                                if k not in cite_allowed and not k.startswith("_")]:
+                        del cite[key]
+                        extra += 1
+                        notes.append(f"dropped undeclared field {key!r} from a citation")
     if extra:
         notes.append(f"dropped {extra} field(s) the schema does not declare")
 
