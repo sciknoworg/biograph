@@ -1,0 +1,28 @@
+[
+  {
+    "id": "adcock_worked_analyst",
+    "source": "robert_jackson_adcock",
+    "type": "published",
+    "target": "the_analyst",
+    "start": {
+      "display": "1874",
+      "precision": "year",
+      "sort_start": "1874-01-01",
+      "sort_end": "1874-12-31"
+    },
+    "end": {
+      "display": "1883",
+      "precision": "year",
+      "sort_start": "1883-01-01",
+      "sort_end": "1883-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "muller_howarth_2024",
+        "page": 1,
+        "quote": "These appeared mainly in the journal The Analyst (1874-1883)"
+      }
+    ],
+    "_rejected_because": "'published' expects target entity_type artifact, but 'the_analyst' is 'organization'"
+  }
+]

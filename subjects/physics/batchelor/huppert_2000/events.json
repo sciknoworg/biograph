@@ -1,0 +1,384 @@
+[
+  {
+    "id": "birth",
+    "event_type": "birth",
+    "label": "Born in Moonee Ponds",
+    "date": {
+      "display": "8 March 1920",
+      "precision": "day",
+      "sort_start": "1920-03-08",
+      "sort_end": "1920-03-08"
+    },
+    "location": "moonee_ponds",
+    "participants": [
+      {
+        "entity_id": "george_keith_batchelor",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "huppert_2000",
+        "page": 2,
+        "quote": "George Keith Batchelor was born in Moonee Ponds, a suburb of Melbourne, Australia on 8 March 1920."
+      }
+    ]
+  },
+  {
+    "id": "education_melbourne_start",
+    "event_type": "education",
+    "label": "Entered Melbourne University",
+    "date": {
+      "display": "aged just 17",
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1937-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "george_keith_batchelor",
+        "role": "subject"
+      },
+      {
+        "entity_id": "melbourne_university",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "huppert_2000",
+        "page": 2,
+        "quote": "He entered Melbourne University aged just 17"
+      }
+    ]
+  },
+  {
+    "id": "education_melbourne_end",
+    "event_type": "education",
+    "label": "Graduated from Melbourne University",
+    "date": {
+      "display": "1941",
+      "precision": "year",
+      "sort_start": "1941-01-01",
+      "sort_end": "1941-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "george_keith_batchelor",
+        "role": "subject"
+      },
+      {
+        "entity_id": "melbourne_university",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "huppert_2000",
+        "page": 2,
+        "quote": "to graduate in 1941 with an MSc in both mathematics and physics"
+      }
+    ]
+  },
+  {
+    "id": "employment_csiro",
+    "event_type": "employment_start",
+    "label": "Worked at CSIRO Division of Aeronautics",
+    "date": {
+      "display": "World War II",
+      "precision": "year",
+      "sort_start": "1939-01-01",
+      "sort_end": "1939-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "george_keith_batchelor",
+        "role": "subject"
+      },
+      {
+        "entity_id": "csiro",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "huppert_2000",
+        "page": 3,
+        "quote": "George worked in the Division of Aeronautics of the Council for Commonwealth Scientific and Industrial Research on a series of aeronautical problems connected with the war eﬀort."
+      }
+    ]
+  },
+  {
+    "id": "voyage_to_britain",
+    "event_type": "relocation",
+    "label": "Voyage to Britain",
+    "date": {
+      "display": "January 1945",
+      "precision": "month",
+      "sort_start": "1945-01-01",
+      "sort_end": "1945-01-31"
+    },
+    "location": "britain",
+    "participants": [
+      {
+        "entity_id": "george_keith_batchelor",
+        "role": "subject"
+      },
+      {
+        "entity_id": "wilma_batchelor",
+        "role": "companion"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "huppert_2000",
+        "page": 4,
+        "quote": "In January 1945, before the war was over, George embarked on a marathon ten-week voyage to Britain"
+      }
+    ]
+  },
+  {
+    "id": "seminar_series_start",
+    "event_type": "other",
+    "label": "Started Friday afternoon seminar series",
+    "date": {
+      "display": "May 1947",
+      "precision": "month",
+      "sort_start": "1947-05-01",
+      "sort_end": "1947-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "george_keith_batchelor",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "huppert_2000",
+        "page": 5,
+        "quote": "in May 1947, while still a graduate student in Cambridge, he set up the first of what was to become the famous Friday afternoon 4:30 p.m. seminar series"
+      }
+    ]
+  },
+  {
+    "id": "journal_founded",
+    "event_type": "publication",
+    "label": "Founded Journal of Fluid Mechanics",
+    "date": {
+      "display": "1956",
+      "precision": "year",
+      "sort_start": "1956-01-01",
+      "sort_end": "1956-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "george_keith_batchelor",
+        "role": "subject"
+      },
+      {
+        "entity_id": "journal_of_fluid_mechanics",
+        "role": "artifact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "huppert_2000",
+        "page": 2,
+        "quote": "He established this Journal in 1956"
+      }
+    ]
+  },
+  {
+    "id": "damtp_head_start",
+    "event_type": "employment_start",
+    "label": "Became Head of DAMTP",
+    "date": {
+      "display": "1959",
+      "precision": "year",
+      "sort_start": "1959-01-01",
+      "sort_end": "1959-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "george_keith_batchelor",
+        "role": "subject"
+      },
+      {
+        "entity_id": "damtp",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "huppert_2000",
+        "page": 2,
+        "quote": "Head from its inception in 1959"
+      }
+    ]
+  },
+  {
+    "id": "textbook_published",
+    "event_type": "publication",
+    "label": "Published An Introduction to Fluid Dynamics",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "george_keith_batchelor",
+        "role": "subject"
+      },
+      {
+        "entity_id": "an_introduction_to_fluid_dynamics",
+        "role": "artifact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "huppert_2000",
+        "page": 2,
+        "quote": "An Introduction to Fluid Dynamics , which first appeared in 1967"
+      }
+    ]
+  },
+  {
+    "id": "retirement",
+    "event_type": "retirement",
+    "label": "Retired from Professorship",
+    "date": {
+      "display": "1983",
+      "precision": "year",
+      "sort_start": "1983-01-01",
+      "sort_end": "1983-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "george_keith_batchelor",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "huppert_2000",
+        "page": 2,
+        "quote": "retired from his Professorship in 1983."
+      }
+    ]
+  },
+  {
+    "id": "editorship_end",
+    "event_type": "employment_end",
+    "label": "Relinquished Editorship of JFM",
+    "date": {
+      "display": "end of 1998",
+      "precision": "year",
+      "sort_start": "1998-01-01",
+      "sort_end": "1998-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "george_keith_batchelor",
+        "role": "subject"
+      },
+      {
+        "entity_id": "journal_of_fluid_mechanics",
+        "role": "artifact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "huppert_2000",
+        "page": 2,
+        "quote": "relinquished his editorship at the end of 1998."
+      }
+    ]
+  },
+  {
+    "id": "royal_society_election",
+    "event_type": "award",
+    "label": "Elected to Royal Society",
+    "date": {
+      "display": "1957",
+      "precision": "year",
+      "sort_start": "1957-01-01",
+      "sort_end": "1957-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "george_keith_batchelor",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_society",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "huppert_2000",
+        "page": 13,
+        "quote": "elected to the Royal Society in 1957"
+      }
+    ]
+  },
+  {
+    "id": "royal_medal_award",
+    "event_type": "award",
+    "label": "Received Royal Medal",
+    "date": {
+      "display": "1988",
+      "precision": "year",
+      "sort_start": "1988-01-01",
+      "sort_end": "1988-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "george_keith_batchelor",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_society",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "royal_medal",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "huppert_2000",
+        "page": 13,
+        "quote": "received its Royal Medal in 1988."
+      }
+    ]
+  },
+  {
+    "id": "death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "30 March 2000",
+      "precision": "day",
+      "sort_start": "2000-03-30",
+      "sort_end": "2000-03-30"
+    },
+    "participants": [
+      {
+        "entity_id": "george_keith_batchelor",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "huppert_2000",
+        "page": 1,
+        "quote": "8 March 1920–30 March 2000"
+      }
+    ]
+  }
+]

@@ -1,0 +1,274 @@
+[
+  {
+    "id": "helmholtz",
+    "entity_type": "person",
+    "name": "Hermann Ludwig Ferdinand von Helmholtz",
+    "aliases": [
+      "Helmholtz",
+      "Hermann von Helmholtz"
+    ],
+    "summary": "German physicist and physiologist known for contributions to physiological optics, color vision, and invention of the ophthalmoscope.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "nicholas_j_wade",
+    "entity_type": "person",
+    "name": "Nicholas J. Wade",
+    "aliases": [
+      "Wade",
+      "N. J. Wade"
+    ],
+    "summary": "Author of the source document, affiliated with the Department of Psychology, University of Dundee.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "university_of_dundee",
+    "entity_type": "organization",
+    "name": "University of Dundee",
+    "aliases": [
+      "Dundee"
+    ],
+    "summary": "University in Scotland, UK, where the author Nicholas J. Wade is affiliated.",
+    "subtype": "university",
+    "attributes": {
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": "journal_of_the_history_of_the_neurosciences",
+    "entity_type": "organization",
+    "name": "Journal of the History of the Neurosciences",
+    "aliases": [
+      "JOURNAL OF THE HISTORY OF THE NEUROSCIENCES"
+    ],
+    "summary": "Academic journal publishing the source document.",
+    "subtype": "journal"
+  },
+  {
+    "id": "university_of_konigsberg",
+    "entity_type": "organization",
+    "name": "University of Königsberg",
+    "aliases": [
+      "Königsberg"
+    ],
+    "summary": "University where Helmholtz delivered his inaugural lecture in 1852.",
+    "subtype": "university",
+    "attributes": {
+      "city": "Königsberg"
+    }
+  },
+  {
+    "id": "university_of_bonn",
+    "entity_type": "organization",
+    "name": "University of Bonn",
+    "aliases": [
+      "Bonn"
+    ],
+    "summary": "University where Helmholtz worked during his academic progression.",
+    "subtype": "university",
+    "attributes": {
+      "city": "Bonn"
+    }
+  },
+  {
+    "id": "university_of_heidelberg",
+    "entity_type": "organization",
+    "name": "University of Heidelberg",
+    "aliases": [
+      "Heidelberg"
+    ],
+    "summary": "University where Helmholtz worked and conducted experiments on binocular vision in the early 1860s.",
+    "subtype": "university",
+    "attributes": {
+      "city": "Heidelberg"
+    }
+  },
+  {
+    "id": "university_of_berlin",
+    "entity_type": "organization",
+    "name": "University of Berlin",
+    "aliases": [
+      "Berlin"
+    ],
+    "summary": "University where Helmholtz progressed to later in his career.",
+    "subtype": "university",
+    "attributes": {
+      "city": "Berlin"
+    }
+  },
+  {
+    "id": "optical_society_of_america",
+    "entity_type": "organization",
+    "name": "Optical Society of America",
+    "aliases": [
+      "OSA"
+    ],
+    "summary": "Organization that commissioned the English translation of Helmholtz's Handbuch in 1921.",
+    "subtype": "society"
+  },
+  {
+    "id": "handbuch_der_physiologischen_optik",
+    "entity_type": "artifact",
+    "name": "Handbuch der physiologischen Optik",
+    "aliases": [
+      "Handbuch"
+    ],
+    "summary": "Helmholtz's major work on physiological optics, published in parts and later as a single volume.",
+    "subtype": "publication"
+  },
+  {
+    "id": "treatise_on_physiological_optics",
+    "entity_type": "artifact",
+    "name": "Treatise on Physiological Optics",
+    "aliases": [
+      "English translation of Handbuch"
+    ],
+    "summary": "English translation of Helmholtz's Handbuch, translated by James Powell Cocke Southall.",
+    "subtype": "publication"
+  },
+  {
+    "id": "ophthalmoscope",
+    "entity_type": "artifact",
+    "name": "Ophthalmoscope",
+    "aliases": [
+      "Augenspiegel"
+    ],
+    "summary": "Instrument invented by Helmholtz for examining the retina in the living eye.",
+    "subtype": "invention"
+  },
+  {
+    "id": "ophthalmometer",
+    "entity_type": "artifact",
+    "name": "Ophthalmometer",
+    "aliases": [],
+    "summary": "Instrument invented by Helmholtz for measuring changes in lens curvature.",
+    "subtype": "invention"
+  },
+  {
+    "id": "telestereoscope",
+    "entity_type": "artifact",
+    "name": "Telestereoscope",
+    "aliases": [],
+    "summary": "Reflecting stereoscope invented by Helmholtz to enhance disparities.",
+    "subtype": "invention"
+  },
+  {
+    "id": "johannes_muller",
+    "entity_type": "person",
+    "name": "Johannes Müller",
+    "aliases": [
+      "Müller"
+    ],
+    "summary": "Helmholtz's mentor, proposed theory of specific nerve energies.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "ewald_hering",
+    "entity_type": "person",
+    "name": "Ewald Hering",
+    "aliases": [
+      "Hering"
+    ],
+    "summary": "Physiologist who had conflicts with Helmholtz over theories of vision.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "charles_wheatstone",
+    "entity_type": "person",
+    "name": "Charles Wheatstone",
+    "aliases": [
+      "Wheatstone"
+    ],
+    "summary": "Inventor of the stereoscope, whose work Helmholtz acknowledged.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "james_powell_cocke_southall",
+    "entity_type": "person",
+    "name": "James Powell Cocke Southall",
+    "aliases": [
+      "Southall",
+      "J. P. C. Southall"
+    ],
+    "summary": "Translator of Helmholtz's Treatise on Physiological Optics into English.",
+    "subtype": "translator"
+  },
+  {
+    "id": "arthur_konig",
+    "entity_type": "person",
+    "name": "Arthur König",
+    "aliases": [
+      "König"
+    ],
+    "summary": "Editor of the final part of the second edition of Helmholtz's Handbuch.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "willibald_nagel",
+    "entity_type": "person",
+    "name": "Willibald Nagel",
+    "aliases": [
+      "Nagel"
+    ],
+    "summary": "Editor of the third edition of Helmholtz's Handbuch.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "allvar_gullstrand",
+    "entity_type": "person",
+    "name": "Allvar Gullstrand",
+    "aliases": [
+      "Gullstrand"
+    ],
+    "summary": "Editor of the third edition of Helmholtz's Handbuch.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "johannes_von_kries",
+    "entity_type": "person",
+    "name": "Johannes von Kries",
+    "aliases": [
+      "von Kries"
+    ],
+    "summary": "Editor of the third edition of Helmholtz's Handbuch.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "max_planck",
+    "entity_type": "person",
+    "name": "Max Planck",
+    "aliases": [
+      "Planck"
+    ],
+    "summary": "Student of Helmholtz who laid foundations for quantum theory.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "thomas_young",
+    "entity_type": "person",
+    "name": "Thomas Young",
+    "aliases": [
+      "Young"
+    ],
+    "summary": "Physician and physicist whose trichromatic theory Helmholtz supported.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "james_clerk_maxwell",
+    "entity_type": "person",
+    "name": "James Clerk Maxwell",
+    "aliases": [
+      "Maxwell"
+    ],
+    "summary": "Physicist whose color disc experiments supported Helmholtz's color theory.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "archiv_fur_ophthalmologie",
+    "entity_type": "organization",
+    "name": "Archiv für Ophthalmologie",
+    "aliases": [],
+    "summary": "Journal created essentially by the invention of the ophthalmoscope.",
+    "subtype": "journal"
+  }
+]

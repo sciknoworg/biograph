@@ -1,0 +1,17 @@
+[
+  {
+    "id": "george_awarded_royal_society",
+    "source": "george_keith_batchelor",
+    "type": "awarded",
+    "target": "royal_society",
+    "event_id": "royal_society_election",
+    "sources": [
+      {
+        "source_id": "huppert_2000",
+        "page": 13,
+        "quote": "elected to the Royal Society in 1957"
+      }
+    ],
+    "_rejected_because": "'awarded' expects target entity_type artifact, but 'royal_society' is 'organization'"
+  }
+]

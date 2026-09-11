@@ -1,0 +1,156 @@
+[
+  {
+    "id": "helmholtz_employed_by_konigsberg",
+    "source": "helmholtz",
+    "type": "employed_by",
+    "target": "university_of_konigsberg",
+    "start": {
+      "display": "1852",
+      "precision": "year",
+      "sort_start": "1852-01-01",
+      "sort_end": "1852-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "wade_2021",
+        "page": 2,
+        "quote": "inaugural lecture at Königsberg, delivered in 1852"
+      }
+    ]
+  },
+  {
+    "id": "helmholtz_employed_by_bonn",
+    "source": "helmholtz",
+    "type": "employed_by",
+    "target": "university_of_bonn",
+    "sources": [
+      {
+        "source_id": "wade_2021",
+        "page": 3,
+        "quote": "progressed from Königsberg to Berlin via Bonn and Heidelberg"
+      }
+    ]
+  },
+  {
+    "id": "helmholtz_employed_by_heidelberg",
+    "source": "helmholtz",
+    "type": "employed_by",
+    "target": "university_of_heidelberg",
+    "sources": [
+      {
+        "source_id": "wade_2021",
+        "page": 3,
+        "quote": "progressed from Königsberg to Berlin via Bonn and Heidelberg"
+      }
+    ]
+  },
+  {
+    "id": "helmholtz_employed_by_berlin",
+    "source": "helmholtz",
+    "type": "employed_by",
+    "target": "university_of_berlin",
+    "sources": [
+      {
+        "source_id": "wade_2021",
+        "page": 3,
+        "quote": "progressed from Königsberg to Berlin via Bonn and Heidelberg"
+      }
+    ]
+  },
+  {
+    "id": "helmholtz_invented_ophthalmoscope",
+    "source": "helmholtz",
+    "type": "invented",
+    "target": "ophthalmoscope",
+    "event_id": "helmholtz_invents_ophthalmoscope",
+    "sources": [
+      {
+        "source_id": "wade_2021",
+        "page": 5,
+        "quote": "invention of the ophthalmoscope in 1850"
+      }
+    ]
+  },
+  {
+    "id": "helmholtz_invented_ophthalmometer",
+    "source": "helmholtz",
+    "type": "invented",
+    "target": "ophthalmometer",
+    "event_id": "helmholtz_invents_ophthalmometer",
+    "sources": [
+      {
+        "source_id": "wade_2021",
+        "page": 2,
+        "quote": "ophthalmometer (1855)"
+      }
+    ]
+  },
+  {
+    "id": "helmholtz_invented_telestereoscope",
+    "source": "helmholtz",
+    "type": "invented",
+    "target": "telestereoscope",
+    "event_id": "helmholtz_invents_telestereoscope",
+    "sources": [
+      {
+        "source_id": "wade_2021",
+        "page": 2,
+        "quote": "telestereoscope (1857)"
+      }
+    ]
+  },
+  {
+    "id": "helmholtz_published_handbuch",
+    "source": "helmholtz",
+    "type": "published",
+    "target": "handbuch_der_physiologischen_optik",
+    "event_id": "handbuch_part1_published",
+    "sources": [
+      {
+        "source_id": "wade_2021",
+        "page": 3,
+        "quote": "published separately in 1856, 1860, and 1866"
+      }
+    ]
+  },
+  {
+    "id": "helmholtz_supervised_by_muller",
+    "source": "helmholtz",
+    "type": "supervised_by",
+    "target": "johannes_muller",
+    "sources": [
+      {
+        "source_id": "wade_2021",
+        "page": 9,
+        "quote": "Helmholtz's mentor, Johannes Müller"
+      }
+    ]
+  },
+  {
+    "id": "helmholtz_mentored_planck",
+    "source": "helmholtz",
+    "type": "mentored",
+    "target": "max_planck",
+    "sources": [
+      {
+        "source_id": "wade_2021",
+        "page": 16,
+        "quote": "one of his own students, Max Planck"
+      }
+    ]
+  },
+  {
+    "id": "southall_published_treatise",
+    "source": "james_powell_cocke_southall",
+    "type": "published",
+    "target": "treatise_on_physiological_optics",
+    "event_id": "handbuch_english_translation",
+    "sources": [
+      {
+        "source_id": "wade_2021",
+        "page": 4,
+        "quote": "translated into English by James Powell Cocke Southall (1871–1962) as Helmholtz's Treatise on Physiological Optics (1924–1925)"
+      }
+    ]
+  }
+]

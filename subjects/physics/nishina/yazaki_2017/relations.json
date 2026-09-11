@@ -1,0 +1,136 @@
+[
+  {
+    "id": "nishina_worked_copenhagen",
+    "source": "yoshio_nishina",
+    "type": "worked_at",
+    "target": "university_of_copenhagen",
+    "start": {
+      "display": "1923",
+      "precision": "year",
+      "sort_start": "1923-01-01",
+      "sort_end": "1923-12-31"
+    },
+    "end": {
+      "display": "1928",
+      "precision": "year",
+      "sort_start": "1928-01-01",
+      "sort_end": "1928-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "yazaki_2017",
+        "page": 7,
+        "quote": "concerning his study abroad, especially in Copenhagen from 1923 to 1928"
+      }
+    ]
+  },
+  {
+    "id": "nishina_worked_hamburg",
+    "source": "yoshio_nishina",
+    "type": "worked_at",
+    "target": "university_of_hamburg",
+    "start": {
+      "display": "fall of 1927",
+      "precision": "season",
+      "sort_start": "1927-09-01",
+      "sort_end": "1927-11-30"
+    },
+    "sources": [
+      {
+        "source_id": "yazaki_2017",
+        "page": 7,
+        "quote": "in the fall of 1927, he moved to Hamburg"
+      }
+    ]
+  },
+  {
+    "id": "nishina_collaborated_klein",
+    "source": "yoshio_nishina",
+    "type": "collaborated_with",
+    "target": "oskar_klein",
+    "start": {
+      "display": "spring 1928",
+      "precision": "season",
+      "sort_start": "1928-03-01",
+      "sort_end": "1928-05-31"
+    },
+    "sources": [
+      {
+        "source_id": "yazaki_2017",
+        "page": 7,
+        "quote": "Our nearer acquaintance, which then grew into friendship began in the spring 1928"
+      }
+    ]
+  },
+  {
+    "id": "nishina_educated_bohr",
+    "source": "yoshio_nishina",
+    "type": "educated_by",
+    "target": "niels_bohr",
+    "sources": [
+      {
+        "source_id": "yazaki_2017",
+        "page": 7,
+        "quote": "learning quantum theory under Pauli"
+      }
+    ]
+  },
+  {
+    "id": "nishina_corresponded_dirac",
+    "source": "yoshio_nishina",
+    "type": "corresponded_with",
+    "target": "paul_dirac",
+    "start": {
+      "display": "25th Feb. 1928",
+      "precision": "day",
+      "sort_start": "1928-02-25",
+      "sort_end": "1928-02-25"
+    },
+    "sources": [
+      {
+        "source_id": "yazaki_2017",
+        "page": 7,
+        "quote": "Indeed he wrote to Dirac on 25th Feb. 1928"
+      }
+    ]
+  },
+  {
+    "id": "nishina_developed_formula",
+    "source": "yoshio_nishina",
+    "type": "developed",
+    "target": "klein_nishina_formula",
+    "sources": [
+      {
+        "source_id": "yazaki_2017",
+        "page": 1,
+        "quote": "Klein and Nishina investigated Compton scattering based on the Dirac equation just proposed in the same year, and derived the Klein –Nishina formula"
+      }
+    ]
+  },
+  {
+    "id": "nishina_member_foundation",
+    "source": "yoshio_nishina",
+    "type": "member_of",
+    "target": "nishina_memorial_foundation",
+    "sources": [
+      {
+        "source_id": "yazaki_2017",
+        "page": 1,
+        "quote": "retained in the the Nishina Memorial Foundation"
+      }
+    ]
+  },
+  {
+    "id": "nishina_collaborated_rabi",
+    "source": "yoshio_nishina",
+    "type": "collaborated_with",
+    "target": "isidor_rabi",
+    "sources": [
+      {
+        "source_id": "yazaki_2017",
+        "page": 7,
+        "quote": "in collaboration with I.I. Rabi he theoretically investigated the absorption coe ﬃcient of X-rays"
+      }
+    ]
+  }
+]

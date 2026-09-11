@@ -1,0 +1,246 @@
+[
+  {
+    "aliases": [
+      "G. K. Batchelor",
+      "George",
+      "George Batchelor"
+    ],
+    "entity_type": "person",
+    "id": "george_keith_batchelor",
+    "name": "George Keith Batchelor",
+    "subtype": "researcher",
+    "summary": "Australian-born British fluid dynamicist and founding editor of the Journal of Fluid Mechanics."
+  },
+  {
+    "aliases": [
+      "Wilma"
+    ],
+    "entity_type": "person",
+    "id": "wilma_batchelor",
+    "name": "Wilma Batchelor",
+    "subtype": "family",
+    "summary": "Wife of George Keith Batchelor, married for over fifty years."
+  },
+  {
+    "aliases": [
+      "Geoffrey Ingram Taylor",
+      "Taylor"
+    ],
+    "entity_type": "person",
+    "id": "g_i_taylor",
+    "name": "G. I. Taylor",
+    "subtype": "researcher",
+    "summary": "British physicist and mathematician, mentor to George Batchelor."
+  },
+  {
+    "aliases": [
+      "H. E. Huppert",
+      "Huppert"
+    ],
+    "entity_type": "person",
+    "id": "herbert_e_huppert",
+    "name": "Herbert E. Huppert",
+    "subtype": "researcher",
+    "summary": "Author of this obituary and colleague at DAMTP."
+  },
+  {
+    "aliases": [
+      "University of Melbourne"
+    ],
+    "attributes": {
+      "country": "Australia"
+    },
+    "entity_type": "organization",
+    "id": "melbourne_university",
+    "name": "Melbourne University",
+    "subtype": "university",
+    "summary": "Australian university where Batchelor completed his undergraduate and master's degrees."
+  },
+  {
+    "aliases": [
+      "CSIRO",
+      "Division of Aeronautics"
+    ],
+    "attributes": {
+      "country": "Australia"
+    },
+    "entity_type": "organization",
+    "id": "csiro",
+    "name": "Council for Commonwealth Scientific and Industrial Research",
+    "subtype": "organization",
+    "summary": "Australian federal agency where Batchelor worked during World War II."
+  },
+  {
+    "aliases": [
+      "Cambridge"
+    ],
+    "attributes": {
+      "country": "United Kingdom"
+    },
+    "entity_type": "organization",
+    "id": "university_of_cambridge",
+    "name": "University of Cambridge",
+    "subtype": "university",
+    "summary": "British university where Batchelor completed his PhD and spent his academic career."
+  },
+  {
+    "aliases": [
+      "DAMTP"
+    ],
+    "attributes": {
+      "country": "United Kingdom"
+    },
+    "entity_type": "organization",
+    "id": "damtp",
+    "name": "Department of Applied Mathematics and Theoretical Physics",
+    "subtype": "department",
+    "summary": "Department at Cambridge University founded and led by Batchelor."
+  },
+  {
+    "aliases": [
+      "JFM",
+      "the Journal"
+    ],
+    "entity_type": "artifact",
+    "id": "journal_of_fluid_mechanics",
+    "name": "Journal of Fluid Mechanics",
+    "subtype": "publication",
+    "summary": "Scientific journal founded by Batchelor in 1956."
+  },
+  {
+    "aliases": [
+      "CUP"
+    ],
+    "attributes": {
+      "country": "United Kingdom"
+    },
+    "entity_type": "organization",
+    "id": "cambridge_university_press",
+    "name": "Cambridge University Press",
+    "subtype": "company",
+    "summary": "Publisher of the Journal of Fluid Mechanics from the 1970s."
+  },
+  {
+    "aliases": [
+      "Taylor and Francis"
+    ],
+    "attributes": {
+      "country": "United Kingdom"
+    },
+    "entity_type": "organization",
+    "id": "taylor_and_francis",
+    "name": "Taylor & Francis",
+    "subtype": "company",
+    "summary": "Initial publisher of the Journal of Fluid Mechanics."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United Kingdom"
+    },
+    "entity_type": "organization",
+    "id": "royal_society",
+    "name": "Royal Society",
+    "subtype": "organization",
+    "summary": "Learned society to which Batchelor was elected in 1957."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Australia",
+      "lat": -37.765,
+      "lng": 144.92,
+      "wikidata_qid": "Q1586921",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "moonee_ponds",
+    "name": "Moonee Ponds",
+    "subtype": "suburb",
+    "summary": "Suburb of Melbourne where Batchelor was born."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Australia",
+      "lat": -37.81417,
+      "lng": 144.96306,
+      "wikidata_qid": "Q3141",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "melbourne",
+    "name": "Melbourne",
+    "subtype": "city",
+    "summary": "City in Australia where Batchelor was born and educated."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "lat": -25.0,
+      "lng": 133.0,
+      "wikidata_qid": "Q408",
+      "geocode_basis": "most_linked"
+    },
+    "entity_type": "place",
+    "id": "australia",
+    "name": "Australia",
+    "subtype": "country",
+    "summary": "Country of Batchelor's birth."
+  },
+  {
+    "aliases": [
+      "United Kingdom"
+    ],
+    "attributes": {
+      "lat": 53.83333,
+      "lng": -2.41667,
+      "wikidata_qid": "Q23666",
+      "geocode_basis": "document"
+    },
+    "entity_type": "place",
+    "id": "britain",
+    "name": "Britain",
+    "subtype": "country",
+    "summary": "Country where Batchelor spent his academic career."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 52.20806,
+      "lng": 0.1225,
+      "wikidata_qid": "Q350",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "cambridge",
+    "name": "Cambridge",
+    "subtype": "city",
+    "summary": "City in England where Batchelor worked."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "an_introduction_to_fluid_dynamics",
+    "name": "An Introduction to Fluid Dynamics",
+    "subtype": "publication",
+    "summary": "Monumental textbook by Batchelor published in 1967."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "the_theory_of_homogeneous_turbulence",
+    "name": "The Theory of Homogeneous Turbulence",
+    "subtype": "publication",
+    "summary": "Authoritative book by Batchelor on turbulent flows."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "royal_medal",
+    "name": "Royal Medal",
+    "subtype": "award",
+    "summary": "Award received by Batchelor from the Royal Society in 1988."
+  }
+]

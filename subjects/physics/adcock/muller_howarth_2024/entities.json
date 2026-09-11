@@ -1,0 +1,219 @@
+[
+  {
+    "aliases": [
+      "R. J. Adcock",
+      "R.J. ADCOCK",
+      "Robert J. Adcock"
+    ],
+    "entity_type": "person",
+    "id": "robert_jackson_adcock",
+    "name": "Robert Jackson Adcock",
+    "subtype": "researcher",
+    "summary": "American mathematician known for work on gravitational attraction, the figure of the earth, and regression analysis."
+  },
+  {
+    "entity_type": "person",
+    "id": "wolfgang_h_muller",
+    "name": "Wolfgang H. Müller",
+    "subtype": "researcher",
+    "summary": "Author of the source document, affiliated with Technische Universität Berlin."
+  },
+  {
+    "entity_type": "person",
+    "id": "richard_j_howarth",
+    "name": "Richard J. Howarth",
+    "subtype": "researcher",
+    "summary": "Author of the source document, affiliated with UCL Earth Sciences."
+  },
+  {
+    "entity_type": "organization",
+    "id": "technische_universitat_berlin",
+    "name": "Technische Universität Berlin",
+    "subtype": "university",
+    "summary": "German university where Wolfgang H. Müller is affiliated."
+  },
+  {
+    "entity_type": "organization",
+    "id": "ucl_earth_sciences",
+    "name": "UCL Earth Sciences",
+    "subtype": "university",
+    "summary": "Department at University College London where Richard J. Howarth is affiliated."
+  },
+  {
+    "aliases": [
+      "Royal Society"
+    ],
+    "entity_type": "organization",
+    "id": "royal_society",
+    "name": "The Royal Society",
+    "subtype": "organization",
+    "summary": "Learned society for science in London, which holds a copy of Adcock's pamphlet."
+  },
+  {
+    "entity_type": "organization",
+    "id": "library_of_congress",
+    "name": "Library of Congress",
+    "subtype": "organization",
+    "summary": "National library of the United States, recipient of Adcock's pamphlet."
+  },
+  {
+    "entity_type": "organization",
+    "id": "yale_university",
+    "name": "Yale University",
+    "subtype": "university",
+    "summary": "University in New Haven, Connecticut, recipient of Adcock's pamphlet."
+  },
+  {
+    "entity_type": "organization",
+    "id": "transylvania_university",
+    "name": "Transylvania University",
+    "subtype": "university",
+    "summary": "University in Lexington, Kentucky, recipient of Adcock's pamphlet."
+  },
+  {
+    "entity_type": "organization",
+    "id": "washburn_observatory",
+    "name": "Washburn Observatory",
+    "subtype": "facility",
+    "summary": "Observatory at the University of Wisconsin, recipient of Adcock's pamphlet."
+  },
+  {
+    "entity_type": "organization",
+    "id": "university_of_wisconsin",
+    "name": "University of Wisconsin",
+    "subtype": "university",
+    "summary": "University in Madison, Wisconsin, associated with Washburn Observatory."
+  },
+  {
+    "aliases": [
+      "AAAS"
+    ],
+    "entity_type": "organization",
+    "id": "american_association_for_the_advancement_of_science",
+    "name": "American Association for the Advancement of Science",
+    "subtype": "organization",
+    "summary": "Scientific society where Adcock presented a paper in 1872."
+  },
+  {
+    "entity_type": "organization",
+    "id": "monmouth_review",
+    "name": "Monmouth Review",
+    "subtype": "publication",
+    "summary": "Local newspaper in Monmouth, Illinois, which Adcock sent a copy of his work to."
+  },
+  {
+    "entity_type": "organization",
+    "id": "gospel_echo_and_christian",
+    "name": "Gospel Echo and Christian",
+    "subtype": "publication",
+    "summary": "Monthly church newspaper where Adcock announced his work."
+  },
+  {
+    "entity_type": "organization",
+    "id": "journal_of_the_franklin_institute",
+    "name": "The Journal of the Franklin Institute",
+    "subtype": "publication",
+    "summary": "Journal where Adcock advertised his pamphlet."
+  },
+  {
+    "entity_type": "organization",
+    "id": "american_journal_of_science_and_arts",
+    "name": "The American Journal of Science and Arts",
+    "subtype": "publication",
+    "summary": "Journal where Adcock advertised his pamphlet and published a note."
+  },
+  {
+    "entity_type": "organization",
+    "id": "the_analyst",
+    "name": "The Analyst",
+    "subtype": "publication",
+    "summary": "Journal where Adcock published mathematical notes between 1874 and 1883."
+  },
+  {
+    "entity_type": "organization",
+    "id": "chicago_tribune",
+    "name": "Chicago Tribune",
+    "subtype": "publication",
+    "summary": "Newspaper that published criticism of Adcock's work and his reply."
+  },
+  {
+    "entity_type": "artifact",
+    "id": "gravitation_pamphlet",
+    "name": "Gravitation to the sphere and the two ellipsoids of revolution: ratio of the axes of a rotating fluid mass",
+    "subtype": "publication",
+    "summary": "Self-published pamphlet by Adcock in 1872 on gravitational attraction."
+  },
+  {
+    "attributes": {
+      "country": "United States",
+      "state": "Illinois",
+      "lat": 40.29,
+      "lng": -74.15,
+      "wikidata_qid": "Q502424",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "monmouth_illinois",
+    "name": "Monmouth",
+    "subtype": "city",
+    "summary": "Town in Illinois where Adcock lived and published his local newspaper announcement."
+  },
+  {
+    "attributes": {
+      "country": "United States",
+      "state": "Iowa",
+      "lat": 42.50432,
+      "lng": -90.68686,
+      "wikidata_qid": "Q493794",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "dubuque_iowa",
+    "name": "Dubuque",
+    "subtype": "city",
+    "summary": "City in Iowa where the AAAS meeting was held in 1872."
+  },
+  {
+    "attributes": {
+      "country": "United States",
+      "state": "Ohio",
+      "lat": 39.1,
+      "lng": -84.5125,
+      "wikidata_qid": "Q43196",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "cincinnati_ohio",
+    "name": "Cincinnati",
+    "subtype": "city",
+    "summary": "City in Ohio where Adcock's pamphlet was printed."
+  },
+  {
+    "attributes": {
+      "country": "England",
+      "lat": 51.50722,
+      "lng": -0.1275,
+      "wikidata_qid": "Q84",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "london_england",
+    "name": "London",
+    "subtype": "city",
+    "summary": "City in England where The Royal Society is located."
+  },
+  {
+    "entity_type": "person",
+    "id": "isaac_newton",
+    "name": "Isaac Newton",
+    "subtype": "researcher",
+    "summary": "Physicist and mathematician who previously considered the problem of the figure of the earth."
+  },
+  {
+    "entity_type": "person",
+    "id": "otto_heymann",
+    "name": "Otto Heymann",
+    "subtype": "researcher",
+    "summary": "German engineer who derived similar formulae in 1935."
+  }
+]

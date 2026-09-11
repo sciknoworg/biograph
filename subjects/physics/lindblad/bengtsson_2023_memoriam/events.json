@@ -1,0 +1,309 @@
+[
+  {
+    "id": "birth_1940",
+    "event_type": "birth",
+    "label": "Born in North of Sweden",
+    "date": {
+      "display": "1940",
+      "precision": "year",
+      "sort_start": "1940-01-01",
+      "sort_end": "1940-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "goran_lindblad",
+        "role": "subject"
+      }
+    ],
+    "location": "north_sweden",
+    "sources": [
+      {
+        "source_id": "bengtsson_2023_memoriam",
+        "page": 1,
+        "quote": "He was born in 1940, in the north of Sweden"
+      }
+    ]
+  },
+  {
+    "id": "family_move_post_war",
+    "event_type": "relocation",
+    "label": "Family moved south",
+    "description": "Family moved south after the war.",
+    "date": {
+      "display": "after the war",
+      "precision": "range",
+      "sort_start": "1945-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "goran_lindblad",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bengtsson_2023_memoriam",
+        "page": 1,
+        "quote": "but his family moved south after the war"
+      }
+    ]
+  },
+  {
+    "id": "graduation_1964",
+    "event_type": "education",
+    "label": "Graduated as engineer from KTH",
+    "date": {
+      "display": "1964",
+      "precision": "year",
+      "sort_start": "1964-01-01",
+      "sort_end": "1964-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "goran_lindblad",
+        "role": "subject"
+      },
+      {
+        "entity_id": "kth",
+        "role": "employer"
+      }
+    ],
+    "location": "stockholm",
+    "sources": [
+      {
+        "source_id": "bengtsson_2023_memoriam",
+        "page": 1,
+        "quote": "in 1964 he graduated as an engineer from the Royal Institute of Technology in Stockholm"
+      }
+    ]
+  },
+  {
+    "id": "phd_defense_1974",
+    "event_type": "education",
+    "label": "Defended PhD thesis",
+    "date": {
+      "display": "May 1974",
+      "precision": "month",
+      "sort_start": "1974-05-01",
+      "sort_end": "1974-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "goran_lindblad",
+        "role": "subject"
+      },
+      {
+        "entity_id": "marcel_guenin",
+        "role": "other"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bengtsson_2023_memoriam",
+        "page": 4,
+        "quote": "This was in May 1974, Marcel Gu´ enin was the opponent, and of course G¨ oran was awarded the highest grade."
+      }
+    ]
+  },
+  {
+    "id": "lindblad_equation_discovery_1974",
+    "event_type": "invention",
+    "label": "Derived generators of dynamical semigroups",
+    "description": "Realized completely positive maps simplify the structure and derived the equation.",
+    "date": {
+      "display": "June 1974",
+      "precision": "month",
+      "sort_start": "1974-06-01",
+      "sort_end": "1974-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "goran_lindblad",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lindblad_equation",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bengtsson_2023_memoriam",
+        "page": 4,
+        "quote": "The week after the defence G¨ oran returned to his desk to consider the problem of the generators of dynamical semi-groups."
+      }
+    ]
+  },
+  {
+    "id": "torun_meeting_1974",
+    "event_type": "conference",
+    "label": "Presented at meeting in Toruń",
+    "date": {
+      "display": "1974",
+      "precision": "year",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "goran_lindblad",
+        "role": "subject"
+      },
+      {
+        "entity_id": "roman_ingarden",
+        "role": "other"
+      }
+    ],
+    "location": "torun",
+    "sources": [
+      {
+        "source_id": "bengtsson_2023_memoriam",
+        "page": 5,
+        "quote": "G¨ oran decided to make his discovery public at a meeting in Toru´ n to which Roman Ingarden had invited him."
+      }
+    ]
+  },
+  {
+    "id": "gorini_visit_1975",
+    "event_type": "visit",
+    "label": "Gorini visited Stockholm",
+    "date": {
+      "display": "January 1975",
+      "precision": "month",
+      "sort_start": "1975-01-01",
+      "sort_end": "1975-01-31"
+    },
+    "participants": [
+      {
+        "entity_id": "vittorio_gorini",
+        "role": "subject"
+      },
+      {
+        "entity_id": "goran_lindblad",
+        "role": "other"
+      }
+    ],
+    "location": "stockholm",
+    "sources": [
+      {
+        "source_id": "bengtsson_2023_memoriam",
+        "page": 5,
+        "quote": "In January the following year Gorini passed through Stockholm on his way home"
+      }
+    ]
+  },
+  {
+    "id": "publication_generators_1976",
+    "event_type": "publication",
+    "label": "Published paper on generators of quantum dynamical semigroups",
+    "date": {
+      "display": "1976",
+      "precision": "year",
+      "sort_start": "1976-01-01",
+      "sort_end": "1976-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "goran_lindblad",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bengtsson_2023_memoriam",
+        "page": 6,
+        "quote": "his paper is the most cited paper ever to be published in Communications [6]."
+      }
+    ]
+  },
+  {
+    "id": "bedford_college_visit",
+    "event_type": "visit",
+    "label": "Visited Bedford College",
+    "description": "Made first serious attack on non-Markovian quantum evolution.",
+    "date": {
+      "display": "c. 1979",
+      "precision": "circa",
+      "sort_start": "1978-01-01",
+      "sort_end": "1979-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "goran_lindblad",
+        "role": "subject"
+      },
+      {
+        "entity_id": "bedford_college",
+        "role": "other"
+      },
+      {
+        "entity_id": "brian_davies",
+        "role": "other"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bengtsson_2023_memoriam",
+        "page": 6,
+        "quote": "G¨ oran made his first serious attack on non-Markovian quantum evolution when visiting Bedford College [10]."
+      }
+    ]
+  },
+  {
+    "id": "book_publication_1983",
+    "event_type": "publication",
+    "label": "Published book Non-Equilibrium Entropy and Irreversibility",
+    "date": {
+      "display": "1983",
+      "precision": "year",
+      "sort_start": "1983-01-01",
+      "sort_end": "1983-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "goran_lindblad",
+        "role": "subject"
+      },
+      {
+        "entity_id": "book_non_equilibrium",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bengtsson_2023_memoriam",
+        "page": 6,
+        "quote": "the demon reappears in the one book that he wrote [14]."
+      }
+    ]
+  },
+  {
+    "id": "publication_coauthor_2008",
+    "event_type": "publication",
+    "label": "Published paper with co-author Edwin Langmann",
+    "date": {
+      "display": "2008",
+      "precision": "year",
+      "sort_start": "2008-01-01",
+      "sort_end": "2008-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "goran_lindblad",
+        "role": "subject"
+      },
+      {
+        "entity_id": "edwin_langmann",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bengtsson_2023_memoriam",
+        "page": 7,
+        "quote": "in 2008 he published the second paper of his on which he had a co-author [19]."
+      }
+    ]
+  }
+]

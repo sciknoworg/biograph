@@ -1,0 +1,153 @@
+[
+  {
+    "id": "george_born_moonee_ponds",
+    "source": "george_keith_batchelor",
+    "type": "born_in",
+    "target": "moonee_ponds",
+    "event_id": "birth",
+    "sources": [
+      {
+        "source_id": "huppert_2000",
+        "page": 2,
+        "quote": "George Keith Batchelor was born in Moonee Ponds, a suburb of Melbourne, Australia on 8 March 1920."
+      }
+    ]
+  },
+  {
+    "id": "george_married_wilma",
+    "source": "george_keith_batchelor",
+    "type": "married_to",
+    "target": "wilma_batchelor",
+    "sources": [
+      {
+        "source_id": "huppert_2000",
+        "page": 4,
+        "quote": "along with his new wife, Wilma, whom he had ﬁrst met and begun courting while still a schoolboy of 16."
+      }
+    ]
+  },
+  {
+    "id": "george_studied_melbourne",
+    "source": "george_keith_batchelor",
+    "type": "studied_at",
+    "target": "melbourne_university",
+    "event_id": "education_melbourne_start",
+    "sources": [
+      {
+        "source_id": "huppert_2000",
+        "page": 2,
+        "quote": "He entered Melbourne University aged just 17"
+      }
+    ]
+  },
+  {
+    "id": "george_employed_csiro",
+    "source": "george_keith_batchelor",
+    "type": "employed_by",
+    "target": "csiro",
+    "event_id": "employment_csiro",
+    "sources": [
+      {
+        "source_id": "huppert_2000",
+        "page": 3,
+        "quote": "George worked in the Division of Aeronautics of the Council for Commonwealth Scientific and Industrial Research"
+      }
+    ]
+  },
+  {
+    "id": "george_supervised_taylor",
+    "source": "george_keith_batchelor",
+    "type": "supervised_by",
+    "target": "g_i_taylor",
+    "sources": [
+      {
+        "source_id": "huppert_2000",
+        "page": 4,
+        "quote": "Taylor agreed to supervise George for a PhD."
+      }
+    ]
+  },
+  {
+    "id": "george_worked_cambridge",
+    "source": "george_keith_batchelor",
+    "type": "worked_at",
+    "target": "university_of_cambridge",
+    "sources": [
+      {
+        "source_id": "huppert_2000",
+        "page": 2,
+        "quote": "retired from his Professorship at Cambridge"
+      }
+    ]
+  },
+  {
+    "id": "george_worked_damtp",
+    "source": "george_keith_batchelor",
+    "type": "worked_at",
+    "target": "damtp",
+    "event_id": "damtp_head_start",
+    "sources": [
+      {
+        "source_id": "huppert_2000",
+        "page": 2,
+        "quote": "being head of DAMTP"
+      }
+    ]
+  },
+  {
+    "id": "george_founded_jfm",
+    "source": "george_keith_batchelor",
+    "type": "founded",
+    "target": "journal_of_fluid_mechanics",
+    "event_id": "journal_founded",
+    "sources": [
+      {
+        "source_id": "huppert_2000",
+        "page": 2,
+        "quote": "He established this Journal in 1956"
+      }
+    ]
+  },
+  {
+    "id": "george_published_textbook",
+    "source": "george_keith_batchelor",
+    "type": "published",
+    "target": "an_introduction_to_fluid_dynamics",
+    "event_id": "textbook_published",
+    "sources": [
+      {
+        "source_id": "huppert_2000",
+        "page": 2,
+        "quote": "he wrote the monumental textbook An Introduction to Fluid Dynamics"
+      }
+    ]
+  },
+  {
+    "id": "george_awarded_royal_society",
+    "source": "george_keith_batchelor",
+    "type": "awarded",
+    "target": "royal_society",
+    "event_id": "royal_society_election",
+    "sources": [
+      {
+        "source_id": "huppert_2000",
+        "page": 13,
+        "quote": "elected to the Royal Society in 1957"
+      }
+    ]
+  },
+  {
+    "id": "george_awarded_royal_medal",
+    "source": "george_keith_batchelor",
+    "type": "awarded",
+    "target": "royal_medal",
+    "event_id": "royal_medal_award",
+    "sources": [
+      {
+        "source_id": "huppert_2000",
+        "page": 13,
+        "quote": "received its Royal Medal in 1988."
+      }
+    ]
+  }
+]

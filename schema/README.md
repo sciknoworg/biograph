@@ -41,6 +41,28 @@ across documents is prefixed with its document key.
 fullest form seen — with every other form recorded in that person's
 `aliases`, so the same scientist never appears under several spellings.
 
+### Two people, one name
+
+The rule above pulls name variants together. The opposite case is real and
+pulls the other way: **two different people can share a name.** Finland has two
+Pekka Soininens, both of whom worked at Microchemistry, and both matter to the
+history of atomic layer deposition — a fact pointed out by the author of the
+Suntola biography, not by anything in the documents.
+
+Nothing detects this automatically, and merge-on-read makes it silent: two
+documents that each produce `pekka_soininen` for two different men become one
+node whose events belong to neither. So when a document distinguishes two people
+of the same name, give them **separate ids qualified by whatever distinguishes
+them** — `pekka_soininen_beneq`, `pekka_soininen_microchemistry` — and say which
+is which in each `summary`. Split only when the document itself distinguishes
+them; splitting on a guess is its own error.
+
+The build prints a note when two documents describe one person id with nothing
+in common, which is a prompt to look rather than a detector — it cannot catch
+the Soininen case, where both descriptions would read "worked at Microchemistry".
+It also warns when one person is the `subject` of two `birth` or `death` events,
+which is the strong signal: a life has one of each.
+
 ## The four files (per document, under `subjects/<domain>/<slug>/<citation-key>/`)
 
 - `entities.json` — the nouns: people, places, organizations, and named

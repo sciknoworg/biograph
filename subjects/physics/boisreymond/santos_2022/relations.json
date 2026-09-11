@@ -1,0 +1,181 @@
+[
+  {
+    "id": "emil_du_bois_reymond_born_in_berlin",
+    "source": "emil_du_bois_reymond",
+    "type": "born_in",
+    "target": "berlin",
+    "event_id": "birth_bois_reymond",
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 2,
+        "quote": "*7 November 1818, Berlin"
+      }
+    ]
+  },
+  {
+    "id": "emil_du_bois_reymond_studied_at_university_of_berlin",
+    "source": "emil_du_bois_reymond",
+    "type": "studied_at",
+    "target": "university_of_berlin",
+    "event_id": "education_berlin_start",
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 1,
+        "quote": "In 1836, he entered the University of Berlin"
+      }
+    ]
+  },
+  {
+    "id": "emil_du_bois_reymond_employed_by_university_of_berlin",
+    "source": "emil_du_bois_reymond",
+    "type": "employed_by",
+    "target": "university_of_berlin",
+    "event_id": "assistant_muller",
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 1,
+        "quote": "While working at the University of Berlin (1836–1896)"
+      }
+    ]
+  },
+  {
+    "id": "emil_du_bois_reymond_supervised_by_johannes_peter_muller",
+    "source": "emil_du_bois_reymond",
+    "type": "supervised_by",
+    "target": "johannes_peter_muller",
+    "event_id": "assistant_muller",
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 1,
+        "quote": "made Bois-Reymond his assistant, in 1840"
+      }
+    ]
+  },
+  {
+    "id": "emil_du_bois_reymond_collaborated_with_hermann_ludwig_ferdinand_von_helmholtz",
+    "source": "emil_du_bois_reymond",
+    "type": "collaborated_with",
+    "target": "hermann_ludwig_ferdinand_von_helmholtz",
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 2,
+        "quote": "Along with his colleague and friend Hermann Ludwig Ferdinand von Helmholtz (1821–1894) and others"
+      }
+    ]
+  },
+  {
+    "id": "emil_du_bois_reymond_member_of_berlin_academy_of_sciences",
+    "source": "emil_du_bois_reymond",
+    "type": "member_of",
+    "target": "berlin_academy_of_sciences",
+    "event_id": "member_berlin_academy",
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 4,
+        "quote": "having been admitted to the Berlin Academy of Sciences (1851)"
+      }
+    ]
+  },
+  {
+    "id": "emil_du_bois_reymond_published_untersuchungen_uber_thierische_elektricitat",
+    "source": "emil_du_bois_reymond",
+    "type": "published",
+    "target": "untersuchungen_uber_thierische_elektricitat",
+    "event_id": "publication_researches_vol1",
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 3,
+        "quote": "The summation of his studies was published chiefly in his work of 2 vol., Untersuchungen über thierische Elektricität (Researches on Animal Electricity )"
+      }
+    ]
+  },
+  {
+    "id": "emil_du_bois_reymond_met_dom_pedro_ii",
+    "source": "emil_du_bois_reymond",
+    "type": "met",
+    "target": "dom_pedro_ii",
+    "event_id": "meet_pedro_ii",
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 2,
+        "quote": "In this same year, Pedro II met the researcher"
+      }
+    ]
+  },
+  {
+    "id": "emil_du_bois_reymond_corresponded_with_dom_pedro_ii",
+    "source": "emil_du_bois_reymond",
+    "type": "corresponded_with",
+    "target": "dom_pedro_ii",
+    "event_id": "letter_pedro_ii",
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 2,
+        "quote": "in 1881, they were still in touch, when Bois-Reymond sent a letter to Dom Pedro II"
+      }
+    ]
+  },
+  {
+    "id": "dom_pedro_ii_born_in_rio_de_janeiro",
+    "source": "dom_pedro_ii",
+    "type": "born_in",
+    "target": "rio_de_janeiro",
+    "event_id": "birth_pedro_ii",
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 2,
+        "quote": "Rio de *Janeiro, 2 December 1825"
+      }
+    ]
+  },
+  {
+    "id": "dom_pedro_ii_died_in_paris",
+    "source": "dom_pedro_ii",
+    "type": "died_in",
+    "target": "paris",
+    "event_id": "death_pedro_ii",
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 2,
+        "quote": "Paris, 5 December 1891"
+      }
+    ]
+  },
+  {
+    "id": "emil_du_bois_reymond_mentored_karl_sachs",
+    "source": "emil_du_bois_reymond",
+    "type": "mentored",
+    "target": "karl_sachs",
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 2,
+        "quote": "Many articles by Bois-Reymond, particularly after 1877, were written by his pupils such as Karl Sachs (1853–1878)"
+      }
+    ]
+  },
+  {
+    "id": "louis_couty_employed_by_laboratory_of_physiology_national_museum_brazil",
+    "source": "louis_couty",
+    "type": "employed_by",
+    "target": "laboratory_of_physiology_national_museum_brazil",
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 1,
+        "quote": "directed by Louis Couty (1854–1884)"
+      }
+    ]
+  }
+]

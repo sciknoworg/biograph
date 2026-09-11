@@ -156,6 +156,12 @@ Rules, non-negotiable:
   second entity for a name variant of someone/something already listed -- record every other
   form you saw for them in that entity's aliases array instead, and use its one id everywhere
   it's referenced in participants/relations.
+- The reverse case, and it is real: two DIFFERENT people can share one name. If the document
+  makes clear that two distinct individuals are both called e.g. "Pekka Soininen", give them
+  separate entities with ids qualified by whatever distinguishes them -- pekka_soininen_beneq,
+  pekka_soininen_microchemistry -- and say in each summary which one it is. Never fold two
+  people into one entity because their names match. Only do this when the document itself
+  distinguishes them; do not split on a guess.
 - entities[].summary is static facts only -- a sentence with a "when" is an event, not a summary.
 - Capture connective-tissue events too (an organization founded/sold, a collaborator's
   milestone), not just the subject's own life events. Don't split one episode into many
@@ -760,6 +766,7 @@ def load_subject_documents(slug, load):
 
     entities, events, relations, sources = [], [], [], []
     by_id = {}
+    suspected_conflations = []
     for doc_key, ddir in docs:
         # Defensive against anything in these files that isn't an object: a malformed extraction
         # (normalize_extraction() now strips those, but files written before it did still exist),
@@ -779,6 +786,9 @@ def load_subject_documents(slug, load):
                 by_id[ent["id"]] = ent
                 entities.append(ent)
                 continue
+            if _suspect_conflation(prior, ent):
+                suspected_conflations.append((ent.get("id"), prior.get("summary") or "",
+                                              ent.get("summary") or ""))
             merged = {*(prior.get("aliases") or []), *(ent.get("aliases") or [])}
             if ent.get("name") and ent["name"] != prior.get("name"):
                 merged.add(ent["name"])
@@ -794,7 +804,79 @@ def load_subject_documents(slug, load):
                 bucket.append(item)
         sources += d_src
 
+    # A far stronger signal than the summary check: one person id carrying two different birth
+    # or death years across documents. Two papers can describe a life in different words, but
+    # they cannot both be right about when it began. This is the case that is actually worth
+    # stopping to look at -- either the id covers two people, or the sources genuinely disagree,
+    # and both deserve a reader.
+    vital = {}
+    for ev in events:
+        if ev.get("event_type") not in ("birth", "death"):
+            continue
+        year = str((ev.get("date") or {}).get("sort_start") or "")[:4]
+        if not year:
+            continue
+        for p_ in ev.get("participants") or []:
+            # Only the person the event is ABOUT. A birth or death event routinely participates
+            # relatives too -- Haber appears in his wife's suicide as , Eastman in his
+            # father's death -- and counting those made every such event look like a second death
+            # for the wrong person. That was 17 warnings, all of them wrong, before this line.
+            if (p_.get("role") or "").strip().lower() != "subject":
+                continue
+            key = (p_.get("entity_id"), ev["event_type"])
+            if key in vital and vital[key] != year:
+                names = {e["id"]: e.get("name") for e in entities}
+                print(f"  (WARNING: '{p_.get('entity_id')}' "
+                      f"({names.get(p_.get('entity_id'), '?')}) is the subject of two "
+                      f"{ev['event_type']} events, {vital[key]} and {year} -- either one id "
+                      f"covers two people, or an event about a relative has named them as its "
+                      f"subject instead of the relative)")
+            vital.setdefault(key, year)
+
+    for eid, a, b in suspected_conflations:
+        print(f"  (note: '{eid}' is described differently by two documents, with nothing in "
+              f"common -- check they are the same person)")
+        print(f"      {a[:88]}")
+        print(f"      {b[:88]}")
+
     return entities, events, relations, sources
+
+
+#: Words that say nothing about which person is meant, so they must not count as agreement
+#: between two summaries. Kept short on purpose -- the check is meant to be quiet.
+_SUMMARY_STOPWORDS = {
+    "the", "a", "an", "and", "of", "in", "at", "for", "who", "with", "was", "were", "is", "his",
+    "her", "their", "from", "to", "on", "by", "he", "she", "it", "as", "that", "which", "also",
+    "scientist", "researcher", "professor", "colleague", "collaborator", "student", "worked",
+    "known", "later", "early", "during", "this", "one", "two", "first",
+}
+
+
+def _suspect_conflation(prior, ent):
+    """Do two documents describe this same person id in ways that share nothing?
+
+    The reason this exists: merge-on-read treats one id as one person, so if two papers each
+    produce `pekka_soininen` for two DIFFERENT men -- and Finland really has two, both at
+    Microchemistry, as the author of the Suntola biography pointed out -- their events silently
+    land on one node with no warning at all.
+
+    What this can and cannot do is worth being honest about. It cannot detect that case: two
+    papers describing two different Pekka Soininens would each say something like "worked at
+    Microchemistry", and agreement is exactly what it looks for. What it catches is the weaker
+    signal of two summaries with no content in common, which is worth a reviewer's glance. It is
+    a prompt to look, not a detector, and it is deliberately limited to people -- an
+    organization described two ways is ordinary."""
+    if prior.get("entity_type") != "person" or ent.get("entity_type") != "person":
+        return False
+    a, b = (prior.get("summary") or "").lower(), (ent.get("summary") or "").lower()
+    if not a or not b:
+        return False
+    words = lambda s: {w for w in re.findall(r"[a-z][a-z0-9'-]+", s)
+                       if w not in _SUMMARY_STOPWORDS and len(w) > 2}
+    wa, wb = words(a), words(b)
+    if not wa or not wb:
+        return False
+    return not (wa & wb)
 
 
 def document_key(data, slug):

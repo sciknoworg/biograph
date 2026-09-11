@@ -1,0 +1,271 @@
+[
+  {
+    "id": "adcock_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1826",
+      "precision": "year",
+      "sort_start": "1826-01-01",
+      "sort_end": "1826-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_jackson_adcock",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "muller_howarth_2024",
+        "page": 1,
+        "quote": "The American mathematician Robert Jackson Adcock (1826 -1895) is a n obscure figure"
+      }
+    ]
+  },
+  {
+    "id": "adcock_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1895",
+      "precision": "year",
+      "sort_start": "1895-01-01",
+      "sort_end": "1895-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_jackson_adcock",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "muller_howarth_2024",
+        "page": 1,
+        "quote": "The American mathematician Robert Jackson Adcock (1826 -1895) is a n obscure figure"
+      }
+    ]
+  },
+  {
+    "id": "adcock_newspaper_announcement",
+    "event_type": "publication",
+    "label": "Announced work in local newspaper",
+    "date": {
+      "display": "last week of January 1872",
+      "precision": "month",
+      "sort_start": "1872-01-01",
+      "sort_end": "1872-01-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_jackson_adcock",
+        "role": "subject"
+      },
+      {
+        "entity_id": "monmouth_review",
+        "role": "publisher"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "muller_howarth_2024",
+        "page": 6,
+        "quote": "he had sent a copy of it to his local newspaper, the Monmouth Review, Monmouth, Illinois (IL), in the last week of January 1872"
+      }
+    ]
+  },
+  {
+    "id": "adcock_pamphlet_published",
+    "event_type": "publication",
+    "label": "Pamphlet published",
+    "date": {
+      "display": "1872",
+      "precision": "year",
+      "sort_start": "1872-01-01",
+      "sort_end": "1872-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_jackson_adcock",
+        "role": "subject"
+      },
+      {
+        "entity_id": "gravitation_pamphlet",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "muller_howarth_2024",
+        "page": 1,
+        "quote": "In 1872, he self-published a pamphlet, Gravitation to the sphere and the two ellipsoids of revolution: ratio of the axes of a rotating fluid mass"
+      }
+    ]
+  },
+  {
+    "id": "adcock_aaas_presentation",
+    "event_type": "conference",
+    "label": "Presented paper at AAAS meeting",
+    "date": {
+      "display": "26th August 1872",
+      "precision": "day",
+      "sort_start": "1872-08-26",
+      "sort_end": "1872-08-26"
+    },
+    "location": "dubuque_iowa",
+    "participants": [
+      {
+        "entity_id": "robert_jackson_adcock",
+        "role": "subject"
+      },
+      {
+        "entity_id": "american_association_for_the_advancement_of_science",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "muller_howarth_2024",
+        "page": 6,
+        "quote": "On 26th August 1872, Adcock gave a paper at the 21st meeting of the American Association for the Advancement of Science (AAAS) at Dubuque, Iowa"
+      }
+    ]
+  },
+  {
+    "id": "adcock_tribune_criticism",
+    "event_type": "publication",
+    "label": "Anonymous criticism published in Chicago Tribune",
+    "date": {
+      "display": "30 March 1872",
+      "precision": "day",
+      "sort_start": "1872-03-30",
+      "sort_end": "1872-03-30"
+    },
+    "participants": [
+      {
+        "entity_id": "chicago_tribune",
+        "role": "publisher"
+      },
+      {
+        "entity_id": "robert_jackson_adcock",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "muller_howarth_2024",
+        "page": 20,
+        "quote": "Anonymous criticism of Adcock's work, presumably by  an early purchaser of his pamphlet, appeared in the Chicago tribune (30 March 1872, p. 4)"
+      }
+    ]
+  },
+  {
+    "id": "adcock_tribune_reply",
+    "event_type": "publication",
+    "label": "Replied to criticism in Chicago Tribune",
+    "date": {
+      "display": "15 April, 1872",
+      "precision": "day",
+      "sort_start": "1872-04-15",
+      "sort_end": "1872-04-15"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_jackson_adcock",
+        "role": "subject"
+      },
+      {
+        "entity_id": "chicago_tribune",
+        "role": "publisher"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "muller_howarth_2024",
+        "page": 21,
+        "quote": "Adcock replied in a letter to the same newspaper (15 April, 1872, p. 5)"
+      }
+    ]
+  },
+  {
+    "id": "adcock_note_published",
+    "event_type": "publication",
+    "label": "Published note on equilibrium of fluid mass",
+    "date": {
+      "display": "December 1872",
+      "precision": "month",
+      "sort_start": "1872-12-01",
+      "sort_end": "1872-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_jackson_adcock",
+        "role": "subject"
+      },
+      {
+        "entity_id": "american_journal_of_science_and_arts",
+        "role": "publisher"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "muller_howarth_2024",
+        "page": 21,
+        "quote": "Adcock completed the arguments for his proof that 'a fluid mass, in the form of an ellipsoid, rotating about its shortest axis, under the action of the attraction of its own particles and th eir centrifugal forces, is in equilibrium; and this is the only form of equilibrium' in a short note (which contains no numerical results) published in December of that y ear."
+      }
+    ]
+  },
+  {
+    "id": "adcock_analyst_publications",
+    "event_type": "publication",
+    "label": "Published notes in The Analyst",
+    "date": {
+      "display": "1874-1883",
+      "precision": "range",
+      "sort_start": "1874-01-01",
+      "sort_end": "1883-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_jackson_adcock",
+        "role": "subject"
+      },
+      {
+        "entity_id": "the_analyst",
+        "role": "publisher"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "muller_howarth_2024",
+        "page": 1,
+        "quote": "These appeared mainly in the journal The Analyst (1874-1883)"
+      }
+    ]
+  },
+  {
+    "id": "heymann_derivation",
+    "event_type": "publication",
+    "label": "Heymann derived similar formulae",
+    "date": {
+      "display": "1935",
+      "precision": "year",
+      "sort_start": "1935-01-01",
+      "sort_end": "1935-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "otto_heymann",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "muller_howarth_2024",
+        "page": 1,
+        "quote": "Until now, this result was believed to have first been obtained by  a German engineer, Otto Heymann in 1935."
+      }
+    ]
+  }
+]

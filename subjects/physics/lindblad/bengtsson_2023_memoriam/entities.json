@@ -1,0 +1,259 @@
+[
+  {
+    "aliases": [
+      "G. Lindblad",
+      "Göran Lindblad"
+    ],
+    "entity_type": "person",
+    "id": "goran_lindblad",
+    "name": "G¨ oran Lindblad",
+    "subtype": "researcher",
+    "summary": "Swedish mathematical physicist known for the Lindblad equation and quantum information theory."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "ingemar_bengtsson",
+    "name": "Ingemar Bengtsson",
+    "subtype": "researcher",
+    "summary": "Physicist at Stockholm University who authored this memorial."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "bengt_nagel",
+    "name": "Bengt Nagel",
+    "subtype": "researcher",
+    "summary": "Professor at KTH and Lindblad's PhD supervisor."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "moshe_flato",
+    "name": "Moshé Flato",
+    "subtype": "researcher",
+    "summary": "Visiting lecturer who inspired Lindblad's interest in information theory."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "alexander_holevo",
+    "name": "Alexander Holevo",
+    "subtype": "researcher",
+    "summary": "Russian physicist who worked in quantum information theory and visited KTH."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "elliott_lieb",
+    "name": "Elliott Lieb",
+    "subtype": "researcher",
+    "summary": "Mathematical physicist who proved strong subadditivity and discussed with Lindblad."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "marcel_guenin",
+    "name": "Marcel Guénin",
+    "subtype": "researcher",
+    "summary": "Opponent at Lindblad's PhD defense."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "roman_ingarden",
+    "name": "Roman Ingarden",
+    "subtype": "researcher",
+    "summary": "Physicist who invited Lindblad to a meeting in Toruń."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "vittorio_gorini",
+    "name": "Vittorio Gorini",
+    "subtype": "researcher",
+    "summary": "Physicist who derived similar results to Lindblad independently."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "george_sudarshan",
+    "name": "George Sudarshan",
+    "subtype": "researcher",
+    "summary": "Physicist in Texas whose group derived similar results."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "andrzej_kossakowski",
+    "name": "Andrzej Kossakowski",
+    "subtype": "researcher",
+    "summary": "Collaborator of Sudarshan and Gorini."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "brian_davies",
+    "name": "Brian Davies",
+    "subtype": "researcher",
+    "summary": "Physicist in England who discussed non-Markovian evolution with Lindblad."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "edwin_langmann",
+    "name": "Edwin Langmann",
+    "subtype": "researcher",
+    "summary": "Younger member of the mathematical physics group at KTH and co-author."
+  },
+  {
+    "aliases": [
+      "KTH",
+      "Kungliga Tekniska H¨ ogskolan"
+    ],
+    "attributes": {
+      "city": "Stockholm",
+      "country": "Sweden"
+    },
+    "entity_type": "organization",
+    "id": "kth",
+    "name": "Royal Institute of Technology",
+    "subtype": "university",
+    "summary": "Technical university in Stockholm where Lindblad studied and worked."
+  },
+  {
+    "aliases": [
+      "Stockholm University"
+    ],
+    "attributes": {
+      "city": "Stockholm",
+      "country": "Sweden"
+    },
+    "entity_type": "organization",
+    "id": "stockholms_universitet",
+    "name": "Stockholms Universitet",
+    "subtype": "university",
+    "summary": "University where Ingemar Bengtsson is affiliated."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United Kingdom"
+    },
+    "entity_type": "organization",
+    "id": "bedford_college",
+    "name": "Bedford College",
+    "subtype": "university",
+    "summary": "College in England visited by Lindblad."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Sweden"
+    },
+    "entity_type": "place",
+    "id": "north_sweden",
+    "name": "North of Sweden",
+    "subtype": "region",
+    "summary": "Region where Lindblad was born."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Sweden",
+      "lat": 59.32944,
+      "lng": 18.06861,
+      "wikidata_qid": "Q1754",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "stockholm",
+    "name": "Stockholm",
+    "subtype": "city",
+    "summary": "Capital city of Sweden."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Poland",
+      "lat": 53.01667,
+      "lng": 18.61667,
+      "wikidata_qid": "Q47554",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "torun",
+    "name": "Toruń",
+    "subtype": "city",
+    "summary": "City in Poland where a meeting was held."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United States",
+      "lat": 31.0,
+      "lng": -100.0,
+      "wikidata_qid": "Q1439",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "texas",
+    "name": "Texas",
+    "subtype": "state",
+    "summary": "US state where Sudarshan worked."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "France",
+      "lat": 48.85667,
+      "lng": 2.35222,
+      "wikidata_qid": "Q90",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "paris",
+    "name": "Paris",
+    "subtype": "city",
+    "summary": "City in France visited by Lindblad."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Switzerland",
+      "lat": 46.2,
+      "lng": 6.15,
+      "wikidata_qid": "Q71",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "geneva",
+    "name": "Geneva",
+    "subtype": "city",
+    "summary": "City in Switzerland where discussions took place."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "lindblad_equation",
+    "name": "Lindblad equation",
+    "subtype": "theory",
+    "summary": "Equation describing the generators of quantum dynamical semigroups."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "phd_thesis_1974",
+    "name": "The concepts of information and entropy applied to the measurement process in quantum theory and statistical mechanics",
+    "subtype": "publication",
+    "summary": "Lindblad's PhD thesis."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "book_non_equilibrium",
+    "name": "Non-Equilibrium Entropy and Irreversibility",
+    "subtype": "publication",
+    "summary": "Book written by Lindblad."
+  }
+]

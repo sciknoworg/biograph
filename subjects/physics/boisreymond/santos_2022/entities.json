@@ -1,0 +1,304 @@
+[
+  {
+    "aliases": [
+      "Bois-Reymond",
+      "Emil Heinrich Dubois-reymond",
+      "Emile Du Bois-Reymond"
+    ],
+    "entity_type": "person",
+    "id": "emil_du_bois_reymond",
+    "name": "Emil du Bois-Reymond",
+    "subtype": "researcher",
+    "summary": "German physician and physiologist who pioneered scientific electrophysiology."
+  },
+  {
+    "aliases": [
+      "Pedro II",
+      "Dom Pedro de Alcântara Bragança e Habsburgo"
+    ],
+    "entity_type": "person",
+    "id": "dom_pedro_ii",
+    "name": "Dom Pedro II",
+    "subtype": "monarch",
+    "summary": "Second and last Brazilian Emperor and correspondent of scientists."
+  },
+  {
+    "aliases": [
+      "Müller"
+    ],
+    "entity_type": "person",
+    "id": "johannes_peter_muller",
+    "name": "Johannes Peter Müller",
+    "subtype": "researcher",
+    "summary": "Professor of physiology, comparative anatomy and embryology at the University of Berlin."
+  },
+  {
+    "aliases": [
+      "Helmholtz"
+    ],
+    "entity_type": "person",
+    "id": "hermann_ludwig_ferdinand_von_helmholtz",
+    "name": "Hermann Ludwig Ferdinand von Helmholtz",
+    "subtype": "researcher",
+    "summary": "Colleague and friend of Bois-Reymond and Müller's pupil."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "carlo_matteucci",
+    "name": "Carlo Matteucci",
+    "subtype": "researcher",
+    "summary": "Researcher whose observations are considered the starting point for Bois-Reymond's investigation."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "louis_couty",
+    "name": "Louis Couty",
+    "subtype": "researcher",
+    "summary": "Student of Claude Bernard and Alfred Vulpian, directed the Laboratory of Physiology of the National Museum in Brazil."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "joao_batista_de_lacerda",
+    "name": "João Batista de Lacerda",
+    "subtype": "researcher",
+    "summary": "Co-director of the Laboratory of Physiology of the National Museum in Brazil."
+  },
+  {
+    "aliases": [
+      "Dr Oh. Sachs",
+      "Dr Sachs",
+      "Bachs"
+    ],
+    "entity_type": "person",
+    "id": "karl_sachs",
+    "name": "Karl Sachs",
+    "subtype": "researcher",
+    "summary": "Young scholar and pupil of Bois-Reymond who studied electric fish in Venezuela."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "gustav_theodor_fritsch",
+    "name": "Gustav Theodor Fritsch",
+    "subtype": "researcher",
+    "summary": "Pupil of Bois-Reymond who wrote about anatomy and electricity in electric fishes."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "ludimar_hermann",
+    "name": "Ludimar Hermann",
+    "subtype": "researcher",
+    "summary": "Former student of Bois-Reymond who added achievements regarding Local Circuit Theory."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "julius_bernstein",
+    "name": "Julius Bernstein",
+    "subtype": "researcher",
+    "summary": "Former student of Bois-Reymond who added achievements regarding Membrane Theory."
+  },
+  {
+    "aliases": [
+      "Berlin University"
+    ],
+    "entity_type": "organization",
+    "id": "university_of_berlin",
+    "name": "University of Berlin",
+    "subtype": "university",
+    "summary": "University where Bois-Reymond studied and worked."
+  },
+  {
+    "aliases": [
+      "Physiological Institute of the University of Berlin",
+      "Berlin Institute of Physiology"
+    ],
+    "entity_type": "organization",
+    "id": "institute_of_physiology_berlin",
+    "name": "Institute of Physiology at the University of Berlin",
+    "subtype": "lab",
+    "summary": "Physiological laboratory at the University of Berlin."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "berlin_academy_of_sciences",
+    "name": "Berlin Academy of Sciences",
+    "subtype": "academy",
+    "summary": "Academy Bois-Reymond was admitted to and served as perpetual secretary."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "national_museum_brazil",
+    "name": "National Museum in Brazil",
+    "subtype": "museum",
+    "summary": "Museum in Brazil where a Physiology Laboratory was founded."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "laboratory_of_physiology_national_museum_brazil",
+    "name": "Laboratory of Physiology of the National Museum in Brazil",
+    "subtype": "lab",
+    "summary": "Laboratory founded with support of Pedro II, directed by Louis Couty."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Germany",
+      "lat": 52.51667,
+      "lng": 13.38333,
+      "wikidata_qid": "Q64",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "berlin",
+    "name": "Berlin",
+    "subtype": "city",
+    "summary": "City in Germany where Bois-Reymond was born, worked, and died."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Switzerland",
+      "lat": 46.99028,
+      "lng": 6.93056,
+      "wikidata_qid": "Q69345",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "neuchatel",
+    "name": "Neuchâtel",
+    "subtype": "city",
+    "summary": "Place in Switzerland where Bois-Reymond's father was from."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "switzerland",
+    "name": "Switzerland",
+    "subtype": "country",
+    "summary": "Country of Bois-Reymond's paternal origin.",
+    "attributes": {
+      "lat": 46.79856,
+      "lng": 8.23197,
+      "wikidata_qid": "Q39",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "venezuela",
+    "name": "Venezuela",
+    "subtype": "country",
+    "summary": "Country where Karl Sachs conducted observations on electric fish.",
+    "attributes": {
+      "lat": 8.0,
+      "lng": -67.0,
+      "wikidata_qid": "Q717",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Venezuela",
+      "lat": 8.92194,
+      "lng": -67.42833,
+      "wikidata_qid": "Q1026185",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "calabozo",
+    "name": "Calabozo",
+    "subtype": "city",
+    "summary": "Location in Venezuela where Karl Sachs stayed."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "tyrolean_alps",
+    "name": "Tyrolean Alps",
+    "subtype": "region",
+    "summary": "Location where Karl Sachs perished.",
+    "attributes": {}
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "brazil",
+    "name": "Brazil",
+    "subtype": "country",
+    "summary": "Country where Dom Pedro II was Emperor.",
+    "attributes": {
+      "lat": -14.0,
+      "lng": -53.0,
+      "wikidata_qid": "Q155",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Brazil",
+      "lat": -22.91111,
+      "lng": -43.20556,
+      "wikidata_qid": "Q8678",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "rio_de_janeiro",
+    "name": "Rio de Janeiro",
+    "subtype": "city",
+    "summary": "City where Dom Pedro II was born."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "France",
+      "lat": 48.85667,
+      "lng": 2.35222,
+      "wikidata_qid": "Q90",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "paris",
+    "name": "Paris",
+    "subtype": "city",
+    "summary": "City where Dom Pedro II died."
+  },
+  {
+    "aliases": [
+      "Researches on Animal Electricity"
+    ],
+    "entity_type": "artifact",
+    "id": "untersuchungen_uber_thierische_elektricitat",
+    "name": "Untersuchungen über thierische Elektricität",
+    "subtype": "publication",
+    "summary": "Two volume work by Bois-Reymond on animal electricity."
+  },
+  {
+    "aliases": [
+      "Studies on the electric eel: gymnotus electricus"
+    ],
+    "entity_type": "artifact",
+    "id": "untersuchungen_am_zitteraal",
+    "name": "Untersuchungen am Zitteraal: gymnotus electricus",
+    "subtype": "publication",
+    "summary": "Monograph on the electric eel edited by Bois-Reymond."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "gesammelte_abhandlugen",
+    "name": "Gesammelte Abhandlugen zur allgemeinen Muskel-und Nervenphysik",
+    "subtype": "publication",
+    "summary": "Collection of Bois-Reymond's memoirs on physiology of muscles and nerves."
+  }
+]

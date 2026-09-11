@@ -1,0 +1,134 @@
+[
+  {
+    "id": "lindblad_supervised_by_nagel",
+    "source": "goran_lindblad",
+    "type": "supervised_by",
+    "target": "bengt_nagel",
+    "sources": [
+      {
+        "source_id": "bengtsson_2023_memoriam",
+        "page": 1,
+        "quote": "Bengt became G¨ oran's PhD supervisor"
+      }
+    ]
+  },
+  {
+    "id": "lindblad_studied_at_kth",
+    "source": "goran_lindblad",
+    "type": "studied_at",
+    "target": "kth",
+    "sources": [
+      {
+        "source_id": "bengtsson_2023_memoriam",
+        "page": 1,
+        "quote": "in 1964 he graduated as an engineer from the Royal Institute of Technology in Stockholm"
+      }
+    ]
+  },
+  {
+    "id": "lindblad_worked_at_kth",
+    "source": "goran_lindblad",
+    "type": "worked_at",
+    "target": "kth",
+    "sources": [
+      {
+        "source_id": "bengtsson_2023_memoriam",
+        "page": 1,
+        "quote": "G¨ oran was always a loyal member of its group for Mathematical Physics."
+      }
+    ]
+  },
+  {
+    "id": "lindblad_collaborated_with_nagel",
+    "source": "goran_lindblad",
+    "type": "collaborated_with",
+    "target": "bengt_nagel",
+    "sources": [
+      {
+        "source_id": "bengtsson_2023_memoriam",
+        "page": 1,
+        "quote": "They achieved some nice results together [1]"
+      }
+    ]
+  },
+  {
+    "id": "lindblad_collaborated_with_holevo",
+    "source": "goran_lindblad",
+    "type": "collaborated_with",
+    "target": "alexander_holevo",
+    "sources": [
+      {
+        "source_id": "bengtsson_2023_memoriam",
+        "page": 6,
+        "quote": "Alexander Holevo came to KTH for an extended visit, and they became good friends."
+      }
+    ]
+  },
+  {
+    "id": "lindblad_collaborated_with_langmann",
+    "source": "goran_lindblad",
+    "type": "collaborated_with",
+    "target": "edwin_langmann",
+    "sources": [
+      {
+        "source_id": "bengtsson_2023_memoriam",
+        "page": 7,
+        "quote": "This time it was Edwin Langmann, a younger member of the mathematical physics group at KTH."
+      }
+    ]
+  },
+  {
+    "id": "lindblad_met_lieb",
+    "source": "goran_lindblad",
+    "type": "met",
+    "target": "elliott_lieb",
+    "sources": [
+      {
+        "source_id": "bengtsson_2023_memoriam",
+        "page": 3,
+        "quote": "G¨ oran was pleasurably surprised when Elliott Lieb himself contacted him for discussions."
+      }
+    ]
+  },
+  {
+    "id": "lindblad_invented_lindblad_equation",
+    "source": "goran_lindblad",
+    "type": "invented",
+    "target": "lindblad_equation",
+    "event_id": "lindblad_equation_discovery_1974",
+    "sources": [
+      {
+        "source_id": "bengtsson_2023_memoriam",
+        "page": 5,
+        "quote": "this is why the equation became known as the Lindblad equation."
+      }
+    ]
+  },
+  {
+    "id": "lindblad_authored_book",
+    "source": "goran_lindblad",
+    "type": "published",
+    "target": "book_non_equilibrium",
+    "event_id": "book_publication_1983",
+    "sources": [
+      {
+        "source_id": "bengtsson_2023_memoriam",
+        "page": 6,
+        "quote": "the one book that he wrote [14]"
+      }
+    ]
+  },
+  {
+    "id": "bengtsson_affiliated_stockholm",
+    "source": "ingemar_bengtsson",
+    "type": "worked_at",
+    "target": "stockholms_universitet",
+    "sources": [
+      {
+        "source_id": "bengtsson_2023_memoriam",
+        "page": 1,
+        "quote": "Ingemar Bengtsson Stockholms Universitet"
+      }
+    ]
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "id": "adcock_born_1826",
+    "source": "robert_jackson_adcock",
+    "type": "born_in",
+    "target": "monmouth_illinois",
+    "start": {
+      "display": "1826",
+      "precision": "year",
+      "sort_start": "1826-01-01",
+      "sort_end": "1826-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "muller_howarth_2024",
+        "page": 1,
+        "quote": "The American mathematician Robert Jackson Adcock (1826 -1895) is a n obscure figure"
+      }
+    ]
+  },
+  {
+    "id": "adcock_died_1895",
+    "source": "robert_jackson_adcock",
+    "type": "died_in",
+    "target": "monmouth_illinois",
+    "end": {
+      "display": "1895",
+      "precision": "year",
+      "sort_start": "1895-01-01",
+      "sort_end": "1895-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "muller_howarth_2024",
+        "page": 1,
+        "quote": "The American mathematician Robert Jackson Adcock (1826 -1895) is a n obscure figure"
+      }
+    ]
+  },
+  {
+    "id": "adcock_authored_pamphlet",
+    "source": "robert_jackson_adcock",
+    "type": "published",
+    "target": "gravitation_pamphlet",
+    "event_id": "adcock_pamphlet_published",
+    "sources": [
+      {
+        "source_id": "muller_howarth_2024",
+        "page": 1,
+        "quote": "In 1872, he self-published a pamphlet, Gravitation to the sphere and the two ellipsoids of revolution: ratio of the axes of a rotating fluid mass"
+      }
+    ]
+  },
+  {
+    "id": "adcock_worked_analyst",
+    "source": "robert_jackson_adcock",
+    "type": "published",
+    "target": "the_analyst",
+    "start": {
+      "display": "1874",
+      "precision": "year",
+      "sort_start": "1874-01-01",
+      "sort_end": "1874-12-31"
+    },
+    "end": {
+      "display": "1883",
+      "precision": "year",
+      "sort_start": "1883-01-01",
+      "sort_end": "1883-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "muller_howarth_2024",
+        "page": 1,
+        "quote": "These appeared mainly in the journal The Analyst (1874-1883)"
+      }
+    ]
+  },
+  {
+    "id": "adcock_presented_aaas",
+    "source": "robert_jackson_adcock",
+    "type": "member_of",
+    "target": "american_association_for_the_advancement_of_science",
+    "event_id": "adcock_aaas_presentation",
+    "sources": [
+      {
+        "source_id": "muller_howarth_2024",
+        "page": 6,
+        "quote": "On 26th August 1872, Adcock gave a paper at the 21st meeting of the American Association for the Advancement of Science (AAAS) at Dubuque, Iowa"
+      }
+    ]
+  },
+  {
+    "id": "adcock_lived_monmouth",
+    "source": "robert_jackson_adcock",
+    "type": "lived_in",
+    "target": "monmouth_illinois",
+    "sources": [
+      {
+        "source_id": "muller_howarth_2024",
+        "page": 6,
+        "quote": "he had sent a copy of it to his local newspaper, the Monmouth Review, Monmouth, Illinois (IL)"
+      }
+    ]
+  },
+  {
+    "id": "muller_affiliated_tu_berlin",
+    "source": "wolfgang_h_muller",
+    "type": "employed_by",
+    "target": "technische_universitat_berlin",
+    "sources": [
+      {
+        "source_id": "muller_howarth_2024",
+        "page": 1,
+        "quote": "1Technische Universität Berlin, Fak. V, Institut für Mechanik, Lehrstuhl für Kontinuumsmechanik und Materialtheorie"
+      }
+    ]
+  },
+  {
+    "id": "howarth_affiliated_ucl",
+    "source": "richard_j_howarth",
+    "type": "employed_by",
+    "target": "ucl_earth_sciences",
+    "sources": [
+      {
+        "source_id": "muller_howarth_2024",
+        "page": 1,
+        "quote": "2UCL Earth Sciences, 5 Gower Place, London WC1E 6BS, UK."
+      }
+    ]
+  }
+]

@@ -1,0 +1,250 @@
+[
+  {
+    "aliases": [
+      "J.E. Moyal",
+      "Jo",
+      "Joe",
+      "Joe Moyal",
+      "José Enrique Moyal"
+    ],
+    "entity_type": "person",
+    "id": "j_e_moyal",
+    "name": "José Enriques Moyal",
+    "subtype": "researcher",
+    "summary": "Mathematical physicist and statistician known for the phase-space formulation of quantum mechanics."
+  },
+  {
+    "aliases": [
+      "Claire Moyal"
+    ],
+    "entity_type": "person",
+    "id": "claire_calme",
+    "name": "Claire Calmé",
+    "subtype": "family",
+    "summary": "French schoolteacher and mother of J.E. Moyal."
+  },
+  {
+    "entity_type": "person",
+    "id": "david_moyal",
+    "name": "David Moyal",
+    "subtype": "family",
+    "summary": "Lawyer father of J.E. Moyal."
+  },
+  {
+    "aliases": [
+      "P.A.M. Dirac",
+      "Dirac",
+      "Professor Dirac"
+    ],
+    "entity_type": "person",
+    "id": "p_a_m_dirac",
+    "name": "Paul Adrien Maurice Dirac",
+    "subtype": "researcher",
+    "summary": "British theoretical physicist and Nobel Laureate who corresponded with Moyal."
+  },
+  {
+    "aliases": [
+      "Maurice Bartlett",
+      "Bartlett",
+      "M.S. Bartlett"
+    ],
+    "entity_type": "person",
+    "id": "maurice_bartlett",
+    "name": "Maurice Stevenson Bartlett",
+    "subtype": "researcher",
+    "summary": "British statistician and colleague of Moyal at Manchester and Cambridge."
+  },
+  {
+    "aliases": [
+      "Ann Moyal",
+      "Ann Mozley",
+      "Ann"
+    ],
+    "entity_type": "person",
+    "id": "ann_moyal",
+    "name": "Ann Mozley Moyal",
+    "subtype": "family",
+    "summary": "Historian of science and second wife of J.E. Moyal."
+  },
+  {
+    "entity_type": "person",
+    "id": "suse_moyal",
+    "name": "Suse Moyal",
+    "subtype": "family",
+    "summary": "First wife of J.E. Moyal, a translator."
+  },
+  {
+    "attributes": {
+      "country": "Palestine",
+      "lat": 31.77668,
+      "lng": 35.23416,
+      "wikidata_qid": "Q1218",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "jerusalem",
+    "name": "Jerusalem",
+    "subtype": "city",
+    "summary": "City in Palestine where J.E. Moyal was born."
+  },
+  {
+    "attributes": {
+      "country": "Palestine"
+    },
+    "entity_type": "place",
+    "id": "tel_aviv",
+    "name": "Tel Aviv",
+    "subtype": "city",
+    "summary": "City in Palestine where J.E. Moyal grew up."
+  },
+  {
+    "aliases": [
+      "Cambridge",
+      "Magdalene College, Cambridge"
+    ],
+    "entity_type": "organization",
+    "id": "cambridge_university",
+    "name": "University of Cambridge",
+    "subtype": "university",
+    "summary": "British university where Moyal briefly enrolled in 1927."
+  },
+  {
+    "attributes": {
+      "location": "Grenoble, France"
+    },
+    "entity_type": "organization",
+    "id": "institut_d_electrotechnique_grenoble",
+    "name": "Institut D'Electrotechnique",
+    "subtype": "university",
+    "summary": "Engineering school in Grenoble, France attended by Moyal."
+  },
+  {
+    "attributes": {
+      "location": "Paris, France"
+    },
+    "entity_type": "organization",
+    "id": "ecole_superieure_d_electricite",
+    "name": "Ecole Supérieure d'Electricité",
+    "subtype": "university",
+    "summary": "Engineering school in Paris where Moyal gained a Diploma."
+  },
+  {
+    "attributes": {
+      "location": "Paris, France"
+    },
+    "entity_type": "organization",
+    "id": "institut_de_statistique",
+    "name": "Institut de Statistique",
+    "subtype": "university",
+    "summary": "Institute in Paris where Moyal studied mathematical statistics."
+  },
+  {
+    "attributes": {
+      "location": "Paris, France"
+    },
+    "entity_type": "organization",
+    "id": "institut_poincare",
+    "name": "Institut Poincaré",
+    "subtype": "university",
+    "summary": "Institute at the University of Paris where Moyal studied theoretical physics."
+  },
+  {
+    "aliases": [
+      "De Havilland"
+    ],
+    "attributes": {
+      "location": "Hatfield, Hampshire"
+    },
+    "entity_type": "organization",
+    "id": "de_havilland_aircraft_company",
+    "name": "De Havilland Aircraft Company",
+    "subtype": "company",
+    "summary": "British aircraft company where Moyal worked during WWII."
+  },
+  {
+    "aliases": [
+      "Queen's University",
+      "Queen's"
+    ],
+    "attributes": {
+      "location": "Belfast"
+    },
+    "entity_type": "organization",
+    "id": "queens_university_belfast",
+    "name": "The Queen's University, Belfast",
+    "subtype": "university",
+    "summary": "University where Moyal was Assistant Lecturer and Lecturer."
+  },
+  {
+    "aliases": [
+      "University of Manchester",
+      "Manchester"
+    ],
+    "attributes": {
+      "location": "Manchester"
+    },
+    "entity_type": "organization",
+    "id": "manchester_university",
+    "name": "Manchester University",
+    "subtype": "university",
+    "summary": "University where Moyal was Senior Lecturer in Mathematical Statistics."
+  },
+  {
+    "aliases": [
+      "ANU",
+      "Australian National University"
+    ],
+    "attributes": {
+      "location": "Canberra"
+    },
+    "entity_type": "organization",
+    "id": "australian_national_university",
+    "name": "The Australian National University",
+    "subtype": "university",
+    "summary": "University in Canberra where Moyal was Reader in Statistics."
+  },
+  {
+    "aliases": [
+      "Argonne"
+    ],
+    "attributes": {
+      "location": "Illinois, USA"
+    },
+    "entity_type": "organization",
+    "id": "argonne_national_laboratory",
+    "name": "Argonne National Laboratory",
+    "subtype": "lab",
+    "summary": "US Atomic Energy Laboratory where Moyal was a Senior Scientist."
+  },
+  {
+    "attributes": {
+      "location": "Sydney"
+    },
+    "entity_type": "organization",
+    "id": "macquarie_university",
+    "name": "Macquarie University",
+    "subtype": "university",
+    "summary": "University in Sydney where Moyal ended his career as Professor of Mathematics."
+  },
+  {
+    "entity_type": "artifact",
+    "id": "quantum_mechanics_as_a_statistical_theory",
+    "name": "Quantum Mechanics as a Statistical Theory",
+    "subtype": "publication",
+    "summary": "Seminal 1949 paper by J.E. Moyal on phase-space quantum mechanics."
+  },
+  {
+    "attributes": {
+      "country": "Australia",
+      "lat": -35.29306,
+      "lng": 149.12694,
+      "wikidata_qid": "Q3114",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "canberra",
+    "name": "Canberra",
+    "subtype": "city",
+    "summary": "City in Australia where Moyal died."
+  }
+]

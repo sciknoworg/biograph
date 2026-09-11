@@ -1,0 +1,382 @@
+[
+  {
+    "id": "helmholtz_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1821",
+      "precision": "year",
+      "sort_start": "1821-01-01",
+      "sort_end": "1821-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "helmholtz",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wade_2021",
+        "page": 1,
+        "quote": "Hermann Ludwig Ferdinand von Helmholtz (1821–1894)"
+      }
+    ]
+  },
+  {
+    "id": "helmholtz_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1894",
+      "precision": "year",
+      "sort_start": "1894-01-01",
+      "sort_end": "1894-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "helmholtz",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wade_2021",
+        "page": 1,
+        "quote": "Hermann Ludwig Ferdinand von Helmholtz (1821–1894)"
+      }
+    ]
+  },
+  {
+    "id": "helmholtz_invents_ophthalmoscope",
+    "event_type": "invention",
+    "label": "Invented ophthalmoscope",
+    "date": {
+      "display": "1850",
+      "precision": "year",
+      "sort_start": "1850-01-01",
+      "sort_end": "1850-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "helmholtz",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ophthalmoscope",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wade_2021",
+        "page": 5,
+        "quote": "invention of the ophthalmoscope in 1850"
+      }
+    ]
+  },
+  {
+    "id": "helmholtz_inaugural_lecture_konigsberg",
+    "event_type": "conference",
+    "label": "Inaugural lecture at Königsberg",
+    "date": {
+      "display": "1852",
+      "precision": "year",
+      "sort_start": "1852-01-01",
+      "sort_end": "1852-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "helmholtz",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_konigsberg",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wade_2021",
+        "page": 2,
+        "quote": "inaugural lecture at Königsberg, delivered in 1852"
+      }
+    ]
+  },
+  {
+    "id": "helmholtz_invents_ophthalmometer",
+    "event_type": "invention",
+    "label": "Invented ophthalmometer",
+    "date": {
+      "display": "1855",
+      "precision": "year",
+      "sort_start": "1855-01-01",
+      "sort_end": "1855-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "helmholtz",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ophthalmometer",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wade_2021",
+        "page": 2,
+        "quote": "ophthalmometer (1855)"
+      }
+    ]
+  },
+  {
+    "id": "helmholtz_invents_telestereoscope",
+    "event_type": "invention",
+    "label": "Invented telestereoscope",
+    "date": {
+      "display": "1857",
+      "precision": "year",
+      "sort_start": "1857-01-01",
+      "sort_end": "1857-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "helmholtz",
+        "role": "subject"
+      },
+      {
+        "entity_id": "telestereoscope",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wade_2021",
+        "page": 2,
+        "quote": "telestereoscope (1857)"
+      }
+    ]
+  },
+  {
+    "id": "handbuch_part1_published",
+    "event_type": "publication",
+    "label": "Handbuch Part 1 published",
+    "date": {
+      "display": "1856",
+      "precision": "year",
+      "sort_start": "1856-01-01",
+      "sort_end": "1856-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "helmholtz",
+        "role": "subject"
+      },
+      {
+        "entity_id": "handbuch_der_physiologischen_optik",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wade_2021",
+        "page": 3,
+        "quote": "published separately in 1856, 1860, and 1866"
+      }
+    ]
+  },
+  {
+    "id": "handbuch_part2_published",
+    "event_type": "publication",
+    "label": "Handbuch Part 2 published",
+    "date": {
+      "display": "1860",
+      "precision": "year",
+      "sort_start": "1860-01-01",
+      "sort_end": "1860-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "helmholtz",
+        "role": "subject"
+      },
+      {
+        "entity_id": "handbuch_der_physiologischen_optik",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wade_2021",
+        "page": 3,
+        "quote": "published separately in 1856, 1860, and 1866"
+      }
+    ]
+  },
+  {
+    "id": "handbuch_part3_published",
+    "event_type": "publication",
+    "label": "Handbuch Part 3 published",
+    "date": {
+      "display": "1866",
+      "precision": "year",
+      "sort_start": "1866-01-01",
+      "sort_end": "1866-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "helmholtz",
+        "role": "subject"
+      },
+      {
+        "entity_id": "handbuch_der_physiologischen_optik",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wade_2021",
+        "page": 3,
+        "quote": "published separately in 1856, 1860, and 1866"
+      }
+    ]
+  },
+  {
+    "id": "handbuch_single_volume_published",
+    "event_type": "publication",
+    "label": "Handbuch published as single volume",
+    "date": {
+      "display": "1867",
+      "precision": "year",
+      "sort_start": "1867-01-01",
+      "sort_end": "1867-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "helmholtz",
+        "role": "subject"
+      },
+      {
+        "entity_id": "handbuch_der_physiologischen_optik",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wade_2021",
+        "page": 3,
+        "quote": "In 1867, they were published together"
+      }
+    ]
+  },
+  {
+    "id": "helmholtz_lays_aside_optics",
+    "event_type": "role_change",
+    "label": "Laid aside physiological optics",
+    "date": {
+      "display": "1869",
+      "precision": "year",
+      "sort_start": "1869-01-01",
+      "sort_end": "1869-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "helmholtz",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wade_2021",
+        "page": 3,
+        "quote": "In 1869 he wrote: For the time being I have laid physiological optics and psychology aside."
+      }
+    ]
+  },
+  {
+    "id": "handbuch_second_edition_revisions",
+    "event_type": "publication",
+    "label": "Handbuch second edition revisions published",
+    "date": {
+      "display": "1885–1895",
+      "precision": "range",
+      "sort_start": "1885-01-01",
+      "sort_end": "1895-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "helmholtz",
+        "role": "subject"
+      },
+      {
+        "entity_id": "handbuch_der_physiologischen_optik",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wade_2021",
+        "page": 3,
+        "quote": "revisions for a second edition were published separately in nine parts between 1885 and 1895"
+      }
+    ]
+  },
+  {
+    "id": "handbuch_third_edition",
+    "event_type": "publication",
+    "label": "Handbuch third edition published",
+    "date": {
+      "display": "1909–1911",
+      "precision": "range",
+      "sort_start": "1909-01-01",
+      "sort_end": "1911-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "willibald_nagel",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "handbuch_der_physiologischen_optik",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wade_2021",
+        "page": 3,
+        "quote": "third edition of the Handbuch (1909–1911)"
+      }
+    ]
+  },
+  {
+    "id": "handbuch_english_translation",
+    "event_type": "publication",
+    "label": "Handbuch English translation published",
+    "date": {
+      "display": "1924–1925",
+      "precision": "range",
+      "sort_start": "1924-01-01",
+      "sort_end": "1925-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "james_powell_cocke_southall",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "treatise_on_physiological_optics",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "wade_2021",
+        "page": 4,
+        "quote": "Helmholtz's Treatise on Physiological Optics (1924–1925)"
+      }
+    ]
+  }
+]

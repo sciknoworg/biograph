@@ -1,0 +1,153 @@
+[
+  {
+    "id": "moyal_born_in_jerusalem",
+    "source": "j_e_moyal",
+    "type": "born_in",
+    "target": "jerusalem",
+    "sources": [
+      {
+        "source_id": "moyal_2006_maverick_mathematician",
+        "page": 19,
+        "quote": "José Enriques Moyal was born in Jerusalem on 1 October, 1910"
+      }
+    ]
+  },
+  {
+    "id": "moyal_worked_de_havilland",
+    "source": "j_e_moyal",
+    "type": "worked_at",
+    "target": "de_havilland_aircraft_company",
+    "event_id": "employment_de_havilland",
+    "sources": [
+      {
+        "source_id": "moyal_2006_maverick_mathematician",
+        "page": 34,
+        "quote": "Snow despatched him to work at the De Havilland Aircraft Company at Hatfield, Hampshire."
+      }
+    ]
+  },
+  {
+    "id": "moyal_corresponded_dirac",
+    "source": "j_e_moyal",
+    "type": "corresponded_with",
+    "target": "p_a_m_dirac",
+    "sources": [
+      {
+        "source_id": "moyal_2006_maverick_mathematician",
+        "page": 42,
+        "quote": "Joe, in his first letter to Dirac of 18 February, 1944 from Wigston in Leicester where he was stationed that year in connection with his work, wrote accordingly:"
+      }
+    ]
+  },
+  {
+    "id": "moyal_collaborated_bartlett",
+    "source": "j_e_moyal",
+    "type": "collaborated_with",
+    "target": "maurice_bartlett",
+    "sources": [
+      {
+        "source_id": "moyal_2006_maverick_mathematician",
+        "page": 45,
+        "quote": "It was during the war years I first met J. E. Moyal, through our mutual interests rather than by chance encounter."
+      }
+    ]
+  },
+  {
+    "id": "moyal_married_ann",
+    "source": "j_e_moyal",
+    "type": "married_to",
+    "target": "ann_moyal",
+    "event_id": "marriage_ann",
+    "sources": [
+      {
+        "source_id": "moyal_2006_maverick_mathematician",
+        "page": 90,
+        "quote": "They were married at a registry office in Sydney in September 1963."
+      }
+    ]
+  },
+  {
+    "id": "moyal_worked_queens",
+    "source": "j_e_moyal",
+    "type": "worked_at",
+    "target": "queens_university_belfast",
+    "event_id": "employment_queens_belfast",
+    "sources": [
+      {
+        "source_id": "moyal_2006_maverick_mathematician",
+        "page": 66,
+        "quote": "His chance, however, came late in 1946 with an opening in the Department of Mathematical Physics at The Queen's University, Belfast... and was appointed as Assistant Lecturer in Mathematics."
+      }
+    ]
+  },
+  {
+    "id": "moyal_worked_manchester",
+    "source": "j_e_moyal",
+    "type": "worked_at",
+    "target": "manchester_university",
+    "event_id": "employment_manchester",
+    "sources": [
+      {
+        "source_id": "moyal_2006_maverick_mathematician",
+        "page": 67,
+        "quote": "Late in 1948, however, his star ascending, he moved to a lectureship in Mathematical Statistics in the Department of Mathematics at Manchester University"
+      }
+    ]
+  },
+  {
+    "id": "moyal_worked_anu",
+    "source": "j_e_moyal",
+    "type": "worked_at",
+    "target": "australian_national_university",
+    "event_id": "employment_anu",
+    "sources": [
+      {
+        "source_id": "moyal_2006_maverick_mathematician",
+        "page": 84,
+        "quote": "Appointed Reader in Statistics at the ANU that year, he was an early founding scientist of the University"
+      }
+    ]
+  },
+  {
+    "id": "moyal_worked_argonne",
+    "source": "j_e_moyal",
+    "type": "worked_at",
+    "target": "argonne_national_laboratory",
+    "event_id": "employment_argonne",
+    "sources": [
+      {
+        "source_id": "moyal_2006_maverick_mathematician",
+        "page": 94,
+        "quote": "He left The Australian National University in September 1964 and went ahead to join Argonne in November that year."
+      }
+    ]
+  },
+  {
+    "id": "moyal_published_quantum_paper",
+    "source": "j_e_moyal",
+    "type": "published",
+    "target": "quantum_mechanics_as_a_statistical_theory",
+    "event_id": "publication_quantum_mechanics",
+    "sources": [
+      {
+        "source_id": "moyal_2006_maverick_mathematician",
+        "page": 12,
+        "quote": "In his lifetime and, most notably, since his death, his classic paper, 'Quantum Mechanics as a Statistical Theory' (1949), has made a profound contribution to an array of scientific fields"
+      }
+    ]
+  },
+  {
+    "id": "moyal_died_in_canberra",
+    "source": "j_e_moyal",
+    "type": "died_in",
+    "target": "canberra",
+    "event_id": "death_of_j_e_moyal",
+    "sources": [
+      {
+        "source_id": "moyal_2006_maverick_mathematician",
+        "page": 12,
+        "quote": "until, in May 1998, he died in Canberra a few months short of his 88th birthday."
+      }
+    ]
+  }
+]

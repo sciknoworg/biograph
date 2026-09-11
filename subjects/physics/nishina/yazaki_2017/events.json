@@ -1,0 +1,350 @@
+[
+  {
+    "id": "nishina_study_abroad_start",
+    "event_type": "other",
+    "label": "Started study abroad in Copenhagen",
+    "description": "Nishina began his study abroad period in Copenhagen.",
+    "date": {
+      "display": "1923",
+      "precision": "year",
+      "sort_start": "1923-01-01",
+      "sort_end": "1923-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "yoshio_nishina",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_copenhagen",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yazaki_2017",
+        "page": 7,
+        "quote": "concerning his study abroad, especially in Copenhagen from 1923 to 1928"
+      }
+    ]
+  },
+  {
+    "id": "nishina_move_hamburg",
+    "event_type": "relocation",
+    "label": "Moved to Hamburg",
+    "description": "Nishina relocated to Hamburg to continue his research.",
+    "date": {
+      "display": "fall of 1927",
+      "precision": "season",
+      "sort_start": "1927-09-01",
+      "sort_end": "1927-11-30"
+    },
+    "participants": [
+      {
+        "entity_id": "yoshio_nishina",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_hamburg",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yazaki_2017",
+        "page": 7,
+        "quote": "in the fall of 1927, he moved to Hamburg"
+      }
+    ]
+  },
+  {
+    "id": "nishina_letter_dirac",
+    "event_type": "other",
+    "label": "Wrote to Dirac about Compton effect",
+    "description": "Nishina expressed his intention to calculate the Compton effect using Dirac's theory.",
+    "date": {
+      "display": "25th Feb. 1928",
+      "precision": "day",
+      "sort_start": "1928-02-25",
+      "sort_end": "1928-02-25"
+    },
+    "participants": [
+      {
+        "entity_id": "yoshio_nishina",
+        "role": "subject"
+      },
+      {
+        "entity_id": "paul_dirac",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yazaki_2017",
+        "page": 7,
+        "quote": "Indeed he wrote to Dirac on 25th Feb. 1928"
+      }
+    ]
+  },
+  {
+    "id": "klein_nishina_meet",
+    "event_type": "meeting",
+    "label": "Klein and Nishina acquaintance began",
+    "description": "Klein and Nishina's friendship and collaboration began.",
+    "date": {
+      "display": "spring 1928",
+      "precision": "season",
+      "sort_start": "1928-03-01",
+      "sort_end": "1928-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "yoshio_nishina",
+        "role": "subject"
+      },
+      {
+        "entity_id": "oskar_klein",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yazaki_2017",
+        "page": 7,
+        "quote": "Our nearer acquaintance, which then grew into friendship began in the spring 1928"
+      }
+    ]
+  },
+  {
+    "id": "nishina_leave_copenhagen",
+    "event_type": "relocation",
+    "label": "Left Copenhagen",
+    "description": "Nishina departed from Copenhagen after completing the joint work.",
+    "date": {
+      "display": "early October of 1928",
+      "precision": "month",
+      "sort_start": "1928-10-01",
+      "sort_end": "1928-10-10"
+    },
+    "participants": [
+      {
+        "entity_id": "yoshio_nishina",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_copenhagen",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yazaki_2017",
+        "page": 12,
+        "quote": "Nishina left Copenhagen in early October of 1928"
+      }
+    ]
+  },
+  {
+    "id": "klein_letter_oct",
+    "event_type": "other",
+    "label": "Klein wrote letter to Nishina",
+    "description": "Klein sent a letter regarding the manuscript corrections.",
+    "date": {
+      "display": "27. Oct. 1928",
+      "precision": "day",
+      "sort_start": "1928-10-27",
+      "sort_end": "1928-10-27"
+    },
+    "participants": [
+      {
+        "entity_id": "oskar_klein",
+        "role": "subject"
+      },
+      {
+        "entity_id": "yoshio_nishina",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yazaki_2017",
+        "page": 12,
+        "quote": "dated 27. Oct. 1928"
+      }
+    ]
+  },
+  {
+    "id": "papers_received_zs",
+    "event_type": "publication",
+    "label": "Papers received by Zs. f. Phys.",
+    "description": "The joint paper and Nishina's single-name paper were received by the journal.",
+    "date": {
+      "display": "30th Oct. 1928",
+      "precision": "day",
+      "sort_start": "1928-10-30",
+      "sort_end": "1928-10-30"
+    },
+    "participants": [
+      {
+        "entity_id": "yoshio_nishina",
+        "role": "subject"
+      },
+      {
+        "entity_id": "oskar_klein",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "zs_f_phys",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yazaki_2017",
+        "page": 12,
+        "quote": "received by Zs. f. Phys. on 30th Oct. 1928"
+      }
+    ]
+  },
+  {
+    "id": "nishina_sail_america",
+    "event_type": "relocation",
+    "label": "Sailed for America",
+    "description": "Nishina departed for America via London and Paris.",
+    "date": {
+      "display": "31st Oct. 1928",
+      "precision": "day",
+      "sort_start": "1928-10-31",
+      "sort_end": "1928-10-31"
+    },
+    "participants": [
+      {
+        "entity_id": "yoshio_nishina",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yazaki_2017",
+        "page": 12,
+        "quote": "set sail for America on 31st Oct. from Leavre"
+      }
+    ]
+  },
+  {
+    "id": "klein_letter_dec",
+    "event_type": "other",
+    "label": "Klein wrote second letter to Nishina",
+    "description": "Klein sent proofs and discussed the spin difficulty.",
+    "date": {
+      "display": "2nd Dec. 1928",
+      "precision": "day",
+      "sort_start": "1928-12-02",
+      "sort_end": "1928-12-02"
+    },
+    "participants": [
+      {
+        "entity_id": "oskar_klein",
+        "role": "subject"
+      },
+      {
+        "entity_id": "yoshio_nishina",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yazaki_2017",
+        "page": 12,
+        "quote": "dated 2nd Dec. 1928"
+      }
+    ]
+  },
+  {
+    "id": "klein_nishina_published",
+    "event_type": "publication",
+    "label": "Klein-Nishina paper published",
+    "description": "The joint paper was published in Zeitschrift für Physik.",
+    "date": {
+      "display": "1929",
+      "precision": "year",
+      "sort_start": "1929-01-01",
+      "sort_end": "1929-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "yoshio_nishina",
+        "role": "subject"
+      },
+      {
+        "entity_id": "oskar_klein",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "zs_f_phys",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yazaki_2017",
+        "page": 21,
+        "quote": "Klein, O. and Nishina, Y. (1929)"
+      }
+    ]
+  },
+  {
+    "id": "tamaki_pamphlet_prepared",
+    "event_type": "other",
+    "label": "Tamaki Group prepared pamphlet",
+    "description": "The investigation group prepared a pamphlet on the source materials.",
+    "date": {
+      "display": "1991",
+      "precision": "year",
+      "sort_start": "1991-01-01",
+      "sort_end": "1991-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "hidehiko_tamaki",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nishina_memorial_foundation",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yazaki_2017",
+        "page": 7,
+        "quote": "In 1991, they prepared a pamphlet"
+      }
+    ]
+  },
+  {
+    "id": "tamaki_pamphlet_printed",
+    "event_type": "publication",
+    "label": "Pamphlet printed by Foundation",
+    "description": "The pamphlet on source materials was printed.",
+    "date": {
+      "display": "1994",
+      "precision": "year",
+      "sort_start": "1994-01-01",
+      "sort_end": "1994-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nishina_memorial_foundation",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "yazaki_2017",
+        "page": 7,
+        "quote": "In 1994 this pamphlet was printed"
+      }
+    ]
+  }
+]

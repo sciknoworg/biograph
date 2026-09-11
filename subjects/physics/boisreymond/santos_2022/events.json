@@ -1,0 +1,539 @@
+[
+  {
+    "id": "birth_bois_reymond",
+    "event_type": "birth",
+    "label": "Born in Berlin",
+    "date": {
+      "display": "7 November 1818",
+      "precision": "day",
+      "sort_start": "1818-11-07",
+      "sort_end": "1818-11-07"
+    },
+    "participants": [
+      {
+        "entity_id": "emil_du_bois_reymond",
+        "role": "subject"
+      }
+    ],
+    "location": "berlin",
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 2,
+        "quote": "*7 November 1818, Berlin"
+      }
+    ]
+  },
+  {
+    "id": "education_berlin_start",
+    "event_type": "education",
+    "label": "Entered University of Berlin",
+    "date": {
+      "display": "1836",
+      "precision": "year",
+      "sort_start": "1836-01-01",
+      "sort_end": "1836-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emil_du_bois_reymond",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_berlin",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 1,
+        "quote": "In 1836, he entered the University of Berlin"
+      }
+    ]
+  },
+  {
+    "id": "assistant_muller",
+    "event_type": "employment_start",
+    "label": "Became assistant to Müller",
+    "date": {
+      "display": "1840",
+      "precision": "year",
+      "sort_start": "1840-01-01",
+      "sort_end": "1840-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emil_du_bois_reymond",
+        "role": "subject"
+      },
+      {
+        "entity_id": "johannes_peter_muller",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 1,
+        "quote": "made Bois-Reymond his assistant, in 1840"
+      }
+    ]
+  },
+  {
+    "id": "thesis_electric_fish",
+    "event_type": "publication",
+    "label": "Graduation thesis on Electric Fish",
+    "date": {
+      "display": "1843",
+      "precision": "year",
+      "sort_start": "1843-01-01",
+      "sort_end": "1843-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emil_du_bois_reymond",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 2,
+        "quote": "for his graduation thesis (1843), which marked the beginning of a long career in bioelectricity studies"
+      }
+    ]
+  },
+  {
+    "id": "publication_researches_vol1",
+    "event_type": "publication",
+    "label": "Published Researches on Animal Electricity vol. 1",
+    "date": {
+      "display": "1848",
+      "precision": "year",
+      "sort_start": "1848-01-01",
+      "sort_end": "1848-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emil_du_bois_reymond",
+        "role": "subject"
+      },
+      {
+        "entity_id": "untersuchungen_uber_thierische_elektricitat",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 3,
+        "quote": "the first part of which appeared in 1848"
+      }
+    ]
+  },
+  {
+    "id": "member_berlin_academy",
+    "event_type": "award",
+    "label": "Admitted to Berlin Academy of Sciences",
+    "date": {
+      "display": "1851",
+      "precision": "year",
+      "sort_start": "1851-01-01",
+      "sort_end": "1851-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emil_du_bois_reymond",
+        "role": "subject"
+      },
+      {
+        "entity_id": "berlin_academy_of_sciences",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 4,
+        "quote": "having been admitted to the Berlin Academy of Sciences (1851)"
+      }
+    ]
+  },
+  {
+    "id": "muller_death",
+    "event_type": "death",
+    "label": "Müller died",
+    "date": {
+      "display": "1858",
+      "precision": "year",
+      "sort_start": "1858-01-01",
+      "sort_end": "1858-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "johannes_peter_muller",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 2,
+        "quote": "With Müller's death in 1858"
+      }
+    ]
+  },
+  {
+    "id": "professor_berlin",
+    "event_type": "employment_start",
+    "label": "Succeeded Müller as Professor",
+    "date": {
+      "display": "1858",
+      "precision": "year",
+      "sort_start": "1858-01-01",
+      "sort_end": "1858-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emil_du_bois_reymond",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_berlin",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 2,
+        "quote": "the latter being succeeded by Bois-Reymond"
+      }
+    ]
+  },
+  {
+    "id": "secretary_berlin_academy",
+    "event_type": "role_change",
+    "label": "Became perpetual secretary of Berlin Academy",
+    "date": {
+      "display": "1867",
+      "precision": "year",
+      "sort_start": "1867-01-01",
+      "sort_end": "1867-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emil_du_bois_reymond",
+        "role": "subject"
+      },
+      {
+        "entity_id": "berlin_academy_of_sciences",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 4,
+        "quote": "becoming its perpetual secretary in 1867"
+      }
+    ]
+  },
+  {
+    "id": "lab_funded_berlin",
+    "event_type": "other",
+    "label": "Government provided physiological laboratory",
+    "date": {
+      "display": "1877",
+      "precision": "year",
+      "sort_start": "1877-01-01",
+      "sort_end": "1877-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emil_du_bois_reymond",
+        "role": "subject"
+      },
+      {
+        "entity_id": "institute_of_physiology_berlin",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 2,
+        "quote": "In 1877, through Bois-Reymond's influence, the government provided the university with a proper physiological laboratory"
+      }
+    ]
+  },
+  {
+    "id": "meet_pedro_ii",
+    "event_type": "meeting",
+    "label": "Met Dom Pedro II",
+    "date": {
+      "display": "1877",
+      "precision": "year",
+      "sort_start": "1877-01-01",
+      "sort_end": "1877-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emil_du_bois_reymond",
+        "role": "subject"
+      },
+      {
+        "entity_id": "dom_pedro_ii",
+        "role": "participant"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 2,
+        "quote": "In this same year, Pedro II met the researcher"
+      }
+    ]
+  },
+  {
+    "id": "sachs_expedition",
+    "event_type": "visit",
+    "label": "Sachs stayed at Calabozo",
+    "date": {
+      "display": "1876–77",
+      "precision": "range",
+      "sort_start": "1876-01-01",
+      "sort_end": "1877-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "karl_sachs",
+        "role": "subject"
+      }
+    ],
+    "location": "calabozo",
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 3,
+        "quote": "Dr Sachs, an affect, stayed at Calabozo during the \"Verano\" of 1876–77"
+      }
+    ]
+  },
+  {
+    "id": "letter_pedro_ii",
+    "event_type": "other",
+    "label": "Sent letter to Dom Pedro II",
+    "date": {
+      "display": "1881",
+      "precision": "year",
+      "sort_start": "1881-01-01",
+      "sort_end": "1881-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emil_du_bois_reymond",
+        "role": "subject"
+      },
+      {
+        "entity_id": "dom_pedro_ii",
+        "role": "recipient"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 2,
+        "quote": "in 1881, they were still in touch, when Bois-Reymond sent a letter to Dom Pedro II"
+      }
+    ]
+  },
+  {
+    "id": "publication_untersuchungen_am_zitteraal",
+    "event_type": "publication",
+    "label": "Published Untersuchungen am Zitteraal",
+    "date": {
+      "display": "1881",
+      "precision": "year",
+      "sort_start": "1881-01-01",
+      "sort_end": "1881-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emil_du_bois_reymond",
+        "role": "subject"
+      },
+      {
+        "entity_id": "untersuchungen_am_zitteraal",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 3,
+        "quote": "edited by (Bois-Reymond, 1881): Untersuchungen am Zitteraal: gymnotus electricus"
+      }
+    ]
+  },
+  {
+    "id": "report_berlin_institute",
+    "event_type": "other",
+    "label": "Sent data about Berlin Institute to Emperor",
+    "date": {
+      "display": "1882",
+      "precision": "year",
+      "sort_start": "1882-01-01",
+      "sort_end": "1882-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emil_du_bois_reymond",
+        "role": "subject"
+      },
+      {
+        "entity_id": "dom_pedro_ii",
+        "role": "recipient"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 4,
+        "quote": "In 1882, at the emperor's request, Bois-Reymond sent complete and detailed data about the Berlin Institute of Physiology"
+      }
+    ]
+  },
+  {
+    "id": "publication_researches_vol2",
+    "event_type": "publication",
+    "label": "Published Researches on Animal Electricity vol. 2",
+    "date": {
+      "display": "1884",
+      "precision": "year",
+      "sort_start": "1884-01-01",
+      "sort_end": "1884-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emil_du_bois_reymond",
+        "role": "subject"
+      },
+      {
+        "entity_id": "untersuchungen_uber_thierische_elektricitat",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 3,
+        "quote": "the last in 1884"
+      }
+    ]
+  },
+  {
+    "id": "death_bois_reymond",
+    "event_type": "death",
+    "label": "Died in Berlin",
+    "date": {
+      "display": "26 December 1896",
+      "precision": "day",
+      "sort_start": "1896-12-26",
+      "sort_end": "1896-12-26"
+    },
+    "participants": [
+      {
+        "entity_id": "emil_du_bois_reymond",
+        "role": "subject"
+      }
+    ],
+    "location": "berlin",
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 2,
+        "quote": "†26 December 1896, Berlin"
+      }
+    ]
+  },
+  {
+    "id": "birth_pedro_ii",
+    "event_type": "birth",
+    "label": "Dom Pedro II born",
+    "date": {
+      "display": "2 December 1825",
+      "precision": "day",
+      "sort_start": "1825-12-02",
+      "sort_end": "1825-12-02"
+    },
+    "participants": [
+      {
+        "entity_id": "dom_pedro_ii",
+        "role": "subject"
+      }
+    ],
+    "location": "rio_de_janeiro",
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 2,
+        "quote": "Rio de *Janeiro, 2 December 1825"
+      }
+    ]
+  },
+  {
+    "id": "death_pedro_ii",
+    "event_type": "death",
+    "label": "Dom Pedro II died",
+    "date": {
+      "display": "5 December 1891",
+      "precision": "day",
+      "sort_start": "1891-12-05",
+      "sort_end": "1891-12-05"
+    },
+    "participants": [
+      {
+        "entity_id": "dom_pedro_ii",
+        "role": "subject"
+      }
+    ],
+    "location": "paris",
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 2,
+        "quote": "Paris, 5 December 1891"
+      }
+    ]
+  },
+  {
+    "id": "lab_founded_brazil",
+    "event_type": "company_founded",
+    "label": "Laboratory of Physiology founded in Brazil",
+    "date": {
+      "display": "1880",
+      "precision": "year",
+      "sort_start": "1880-01-01",
+      "sort_end": "1880-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "dom_pedro_ii",
+        "role": "supporter"
+      },
+      {
+        "entity_id": "laboratory_of_physiology_national_museum_brazil",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "santos_2022",
+        "page": 1,
+        "quote": "Shortly after (1880), with the support of Pedro II, the Laboratory of Physiology of the National Museum in Brazil was founded"
+      }
+    ]
+  }
+]

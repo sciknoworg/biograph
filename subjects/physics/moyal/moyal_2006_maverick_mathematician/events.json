@@ -1,0 +1,468 @@
+[
+  {
+    "id": "birth_of_j_e_moyal",
+    "event_type": "birth",
+    "label": "Born in Jerusalem",
+    "date": {
+      "precision": "day",
+      "sort_start": "1910-10-01",
+      "sort_end": "1910-10-01",
+      "display": "1 October 1910"
+    },
+    "participants": [
+      {
+        "entity_id": "j_e_moyal",
+        "role": "subject"
+      }
+    ],
+    "location": "jerusalem",
+    "sources": [
+      {
+        "source_id": "moyal_2006_maverick_mathematician",
+        "page": 19,
+        "quote": "José Enriques Moyal was born in Jerusalem on 1 October, 1910"
+      }
+    ]
+  },
+  {
+    "id": "enrolled_cambridge",
+    "event_type": "education",
+    "label": "Enrolled at Magdalene College, Cambridge",
+    "date": {
+      "precision": "year",
+      "sort_start": "1927-01-01",
+      "sort_end": "1927-12-31",
+      "display": "1927"
+    },
+    "participants": [
+      {
+        "entity_id": "j_e_moyal",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cambridge_university",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "moyal_2006_maverick_mathematician",
+        "page": 27,
+        "quote": "enrolled at Magdalene College, Cambridge in 1927"
+      }
+    ]
+  },
+  {
+    "id": "moved_grenoble",
+    "event_type": "relocation",
+    "label": "Moved to Institut D'Electrotechnique at Grenoble",
+    "date": {
+      "precision": "year",
+      "sort_start": "1928-01-01",
+      "sort_end": "1928-12-31",
+      "display": "early 1928"
+    },
+    "participants": [
+      {
+        "entity_id": "j_e_moyal",
+        "role": "subject"
+      },
+      {
+        "entity_id": "institut_d_electrotechnique_grenoble",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "moyal_2006_maverick_mathematician",
+        "page": 27,
+        "quote": "moved there early in 1928"
+      }
+    ]
+  },
+  {
+    "id": "returned_paris_statistics",
+    "event_type": "education",
+    "label": "Registered for course in mathematical statistics at Institut de Statistique",
+    "date": {
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1937-12-31",
+      "display": "end of 1937"
+    },
+    "participants": [
+      {
+        "entity_id": "j_e_moyal",
+        "role": "subject"
+      },
+      {
+        "entity_id": "institut_de_statistique",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "moyal_2006_maverick_mathematician",
+        "page": 30,
+        "quote": "By the end of 1937... he returned with his family, now extended by a daughter, to Paris, and registered for a year's course in mathematical statistics at the Institut de Statistique."
+      }
+    ]
+  },
+  {
+    "id": "course_institut_poincare",
+    "event_type": "education",
+    "label": "Took advanced course in theoretical physics at Institut Poincaré",
+    "date": {
+      "precision": "year",
+      "sort_start": "1938-01-01",
+      "sort_end": "1939-12-31",
+      "display": "1939"
+    },
+    "participants": [
+      {
+        "entity_id": "j_e_moyal",
+        "role": "subject"
+      },
+      {
+        "entity_id": "institut_poincare",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "moyal_2006_maverick_mathematician",
+        "page": 30,
+        "quote": "A year later, extending across disciplines, he followed this with an advanced course in theoretical physics at the Institut Poincaré at the University of Paris."
+      }
+    ]
+  },
+  {
+    "id": "arrived_england",
+    "event_type": "relocation",
+    "label": "Arrived in England",
+    "date": {
+      "precision": "month",
+      "sort_start": "1940-06-01",
+      "sort_end": "1940-06-30",
+      "display": "June 1940"
+    },
+    "participants": [
+      {
+        "entity_id": "j_e_moyal",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "moyal_2006_maverick_mathematician",
+        "page": 42,
+        "quote": "Clearly, his thinking on the subject had expanded during the ensuing wartime years in discussions with Maurice Bartlett and Dr Harold Jeffreys, two scientists and probabilists he had gotten to know in wartime, to the point where the idea had been aired with Professor Fowler at Cambridge and, through him, conveyed to Dirac."
+      }
+    ]
+  },
+  {
+    "id": "employment_de_havilland",
+    "event_type": "employment_start",
+    "label": "Sent to work at De Havilland Aircraft Company",
+    "date": {
+      "precision": "year",
+      "sort_start": "1940-01-01",
+      "sort_end": "1940-12-31",
+      "display": "1940"
+    },
+    "participants": [
+      {
+        "entity_id": "j_e_moyal",
+        "role": "subject"
+      },
+      {
+        "entity_id": "de_havilland_aircraft_company",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "moyal_2006_maverick_mathematician",
+        "page": 34,
+        "quote": "Snow despatched him to work at the De Havilland Aircraft Company at Hatfield, Hampshire."
+      }
+    ]
+  },
+  {
+    "id": "letter_to_dirac",
+    "event_type": "meeting",
+    "label": "Wrote first letter to Dirac",
+    "date": {
+      "precision": "day",
+      "sort_start": "1944-02-18",
+      "sort_end": "1944-02-18",
+      "display": "18 February 1944"
+    },
+    "participants": [
+      {
+        "entity_id": "j_e_moyal",
+        "role": "subject"
+      },
+      {
+        "entity_id": "p_a_m_dirac",
+        "role": "correspondent"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "moyal_2006_maverick_mathematician",
+        "page": 42,
+        "quote": "Joe, in his first letter to Dirac of 18 February, 1944 from Wigston in Leicester where he was stationed that year in connection with his work, wrote accordingly:"
+      }
+    ]
+  },
+  {
+    "id": "meeting_dirac",
+    "event_type": "meeting",
+    "label": "Met Dirac at Cambridge",
+    "date": {
+      "precision": "day",
+      "sort_start": "1944-03-11",
+      "sort_end": "1944-03-11",
+      "display": "11 March 1944"
+    },
+    "participants": [
+      {
+        "entity_id": "j_e_moyal",
+        "role": "subject"
+      },
+      {
+        "entity_id": "p_a_m_dirac",
+        "role": "correspondent"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "moyal_2006_maverick_mathematician",
+        "page": 43,
+        "quote": "Their meeting on 11 March, 1944, at Dirac's house in Cavendish Avenue, Cambridge, reopened their discussion."
+      }
+    ]
+  },
+  {
+    "id": "employment_queens_belfast",
+    "event_type": "employment_start",
+    "label": "Appointed Assistant Lecturer at Queen's University, Belfast",
+    "date": {
+      "precision": "year",
+      "sort_start": "1946-01-01",
+      "sort_end": "1946-12-31",
+      "display": "late 1946"
+    },
+    "participants": [
+      {
+        "entity_id": "j_e_moyal",
+        "role": "subject"
+      },
+      {
+        "entity_id": "queens_university_belfast",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "moyal_2006_maverick_mathematician",
+        "page": 66,
+        "quote": "His chance, however, came late in 1946 with an opening in the Department of Mathematical Physics at The Queen's University, Belfast... and was appointed as Assistant Lecturer in Mathematics."
+      }
+    ]
+  },
+  {
+    "id": "employment_manchester",
+    "event_type": "employment_start",
+    "label": "Moved to lectureship at Manchester University",
+    "date": {
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31",
+      "display": "Late 1948"
+    },
+    "participants": [
+      {
+        "entity_id": "j_e_moyal",
+        "role": "subject"
+      },
+      {
+        "entity_id": "manchester_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "moyal_2006_maverick_mathematician",
+        "page": 67,
+        "quote": "Late in 1948, however, his star ascending, he moved to a lectureship in Mathematical Statistics in the Department of Mathematics at Manchester University"
+      }
+    ]
+  },
+  {
+    "id": "publication_quantum_mechanics",
+    "event_type": "publication",
+    "label": "Published 'Quantum Mechanics as a Statistical Theory'",
+    "date": {
+      "precision": "year",
+      "sort_start": "1949-01-01",
+      "sort_end": "1949-12-31",
+      "display": "1949"
+    },
+    "participants": [
+      {
+        "entity_id": "j_e_moyal",
+        "role": "author"
+      },
+      {
+        "entity_id": "quantum_mechanics_as_a_statistical_theory",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "moyal_2006_maverick_mathematician",
+        "page": 12,
+        "quote": "In his lifetime and, most notably, since his death, his classic paper, 'Quantum Mechanics as a Statistical Theory' (1949), has made a profound contribution to an array of scientific fields"
+      }
+    ]
+  },
+  {
+    "id": "visit_sydney",
+    "event_type": "visit",
+    "label": "Took up Visiting Readership at University of Sydney",
+    "date": {
+      "precision": "month",
+      "sort_start": "1954-08-01",
+      "sort_end": "1954-08-31",
+      "display": "August 1954"
+    },
+    "participants": [
+      {
+        "entity_id": "j_e_moyal",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_sydney",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "moyal_2006_maverick_mathematician",
+        "page": 74,
+        "quote": "Joe arrived in Australia by ship in August 1954 and was at once struck by the egalitarian ambience reminiscent of his own country."
+      }
+    ]
+  },
+  {
+    "id": "employment_anu",
+    "event_type": "employment_start",
+    "label": "Appointed Reader in Statistics at ANU",
+    "date": {
+      "precision": "month",
+      "sort_start": "1958-08-01",
+      "sort_end": "1958-08-31",
+      "display": "August 1958"
+    },
+    "participants": [
+      {
+        "entity_id": "j_e_moyal",
+        "role": "subject"
+      },
+      {
+        "entity_id": "australian_national_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "moyal_2006_maverick_mathematician",
+        "page": 83,
+        "quote": "Joe arrived in Australia by sea in August 1958, and disembar ked at Fremantle to attend an ANZAAS (Australian and New Zealand Association for the Advancement of Science) Conference at the University of Western Australia."
+      }
+    ]
+  },
+  {
+    "id": "marriage_ann",
+    "event_type": "other",
+    "label": "Married Ann Mozley",
+    "date": {
+      "precision": "month",
+      "sort_start": "1963-09-01",
+      "sort_end": "1963-09-30",
+      "display": "September 1963"
+    },
+    "participants": [
+      {
+        "entity_id": "j_e_moyal",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ann_moyal",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "moyal_2006_maverick_mathematician",
+        "page": 90,
+        "quote": "They were married at a registry office in Sydney in September 1963."
+      }
+    ]
+  },
+  {
+    "id": "employment_argonne",
+    "event_type": "employment_start",
+    "label": "Joined Argonne National Laboratory",
+    "date": {
+      "precision": "month",
+      "sort_start": "1964-11-01",
+      "sort_end": "1964-11-30",
+      "display": "November 1964"
+    },
+    "participants": [
+      {
+        "entity_id": "j_e_moyal",
+        "role": "subject"
+      },
+      {
+        "entity_id": "argonne_national_laboratory",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "moyal_2006_maverick_mathematician",
+        "page": 94,
+        "quote": "He left The Australian National University in September 1964 and went ahead to join Argonne in November that year."
+      }
+    ]
+  },
+  {
+    "id": "death_of_j_e_moyal",
+    "event_type": "death",
+    "label": "Died in Canberra",
+    "date": {
+      "precision": "month",
+      "sort_start": "1998-05-01",
+      "sort_end": "1998-05-31",
+      "display": "May 1998"
+    },
+    "participants": [
+      {
+        "entity_id": "j_e_moyal",
+        "role": "subject"
+      }
+    ],
+    "location": "canberra",
+    "sources": [
+      {
+        "source_id": "moyal_2006_maverick_mathematician",
+        "page": 12,
+        "quote": "until, in May 1998, he died in Canberra a few months short of his 88th birthday."
+      }
+    ]
+  }
+]
