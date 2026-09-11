@@ -1,0 +1,441 @@
+[
+  {
+    "id": "vesalius_birth",
+    "event_type": "birth",
+    "label": "Born in Brussels",
+    "description": "Born on New Year's Eve 1514 into a wealthy family of physicians and pharmacists.",
+    "date": {
+      "display": "New Year's Eve 1514",
+      "precision": "day",
+      "sort_start": "1514-12-31",
+      "sort_end": "1514-12-31"
+    },
+    "location": "brussels",
+    "participants": [
+      {
+        "entity_id": "andreas_vesalius",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "hadzic_2014_500th",
+        "page": 450,
+        "quote": "Andreas Vesalius was born on New Year's Eve 1514 in Brussels, Brabant, into a wealthy family of physicians and pharmacists."
+      }
+    ]
+  },
+  {
+    "id": "vesalius_education_louvain",
+    "event_type": "education",
+    "label": "Early education at University of Louvain",
+    "description": "Included instruction in rhetoric, philosophy, logic, and classical languages.",
+    "date": {
+      "display": "early 1500s",
+      "precision": "decade",
+      "sort_start": "1500-01-01",
+      "sort_end": "1509-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andreas_vesalius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_louvain",
+        "role": "educator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "hadzic_2014_500th",
+        "page": 450,
+        "quote": "His early education at the Castle School of the University of Louvain included instruction in rhetoric, philosophy, logic, and classical languages (Latin, Greek, and Hebrew)."
+      }
+    ]
+  },
+  {
+    "id": "vesalius_move_paris",
+    "event_type": "relocation",
+    "label": "Moved to Paris",
+    "description": "Went to Paris to study anatomy.",
+    "date": {
+      "display": "circa 1533",
+      "precision": "circa",
+      "sort_start": "1530-01-01",
+      "sort_end": "1536-01-01"
+    },
+    "location": "paris",
+    "participants": [
+      {
+        "entity_id": "andreas_vesalius",
+        "role": "subject"
+      }
+    ],
+    "certainty": "approximate",
+    "sources": [
+      {
+        "source_id": "hadzic_2014_500th",
+        "page": 450,
+        "quote": "Shortly thereafter, his interest turned to medicine, and he went to Paris to study anatomy."
+      }
+    ]
+  },
+  {
+    "id": "vesalius_return_louvain",
+    "event_type": "relocation",
+    "label": "Returned to University of Louvain",
+    "description": "Returned to finish studies in medicine when Charles V declared war on France.",
+    "date": {
+      "display": "1536",
+      "precision": "year",
+      "sort_start": "1536-01-01",
+      "sort_end": "1536-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andreas_vesalius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_louvain",
+        "role": "educator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "hadzic_2014_500th",
+        "page": 450,
+        "quote": "When Charles V declared war on France 3 years later, in 1536, Vesalius returned to the University of Louvain to finish his studies in medicine, receiving the degree of licentiate (equivalent to a master's degree)."
+      }
+    ]
+  },
+  {
+    "id": "vesalius_thesis_1537",
+    "event_type": "publication",
+    "label": "Presented thesis Paraphrasis in nonum librum Rhaeze",
+    "description": "A paraphrase of the ninth book of Rhazae about the Arabic pharmacology.",
+    "date": {
+      "display": "1537",
+      "precision": "year",
+      "sort_start": "1537-01-01",
+      "sort_end": "1537-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andreas_vesalius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "paraphrasis_thesis",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "hadzic_2014_500th",
+        "page": 450,
+        "quote": "He presented a thesis titled \"Paraphrasis in nonum librum Rhaeze\" (Leuven, Rutgerus Rescuis, 1537), a paraphrase of the ninth book of Rhazae about the Arabic pharmacology."
+      }
+    ]
+  },
+  {
+    "id": "vesalius_thesis_basel",
+    "event_type": "publication",
+    "label": "Published thesis in Basel",
+    "description": "Published the thesis again a month later in Basel.",
+    "date": {
+      "display": "1537",
+      "precision": "year",
+      "sort_start": "1537-01-01",
+      "sort_end": "1537-12-31"
+    },
+    "location": "basel",
+    "participants": [
+      {
+        "entity_id": "andreas_vesalius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "paraphrasis_thesis",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "hadzic_2014_500th",
+        "page": 450,
+        "quote": "He was not pleased with the printing and published it again a month later in Basel."
+      }
+    ]
+  },
+  {
+    "id": "vesalius_move_padua",
+    "event_type": "relocation",
+    "label": "Moved to Padua",
+    "description": "Moved to the capital of the scientific Renaissance to pursue medicine and anatomy.",
+    "date": {
+      "display": "1537",
+      "precision": "year",
+      "sort_start": "1537-01-01",
+      "sort_end": "1537-12-31"
+    },
+    "location": "padua",
+    "participants": [
+      {
+        "entity_id": "andreas_vesalius",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "hadzic_2014_500th",
+        "page": 450,
+        "quote": "Thereafter, Vesalius moved to the capital of the scientific Renaissance, Padua, Italy, to pursue his passion for medicine and anatomy."
+      }
+    ]
+  },
+  {
+    "id": "vesalius_doctorate",
+    "event_type": "education",
+    "label": "Received doctorate of medicine",
+    "description": "Received doctorate and was nominated as a professor.",
+    "date": {
+      "display": "December 1537",
+      "precision": "month",
+      "sort_start": "1537-12-01",
+      "sort_end": "1537-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andreas_vesalius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_padua",
+        "role": "educator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "hadzic_2014_500th",
+        "page": 450,
+        "quote": "By December 1537, he received his doctorate of medicine and was nominated as a professor."
+      }
+    ]
+  },
+  {
+    "id": "vesalius_professor_padua",
+    "event_type": "employment_start",
+    "label": "Appointed professor at Padua",
+    "description": "Worked as a professor of surgery and anatomy, succeeding Paolo Colombo.",
+    "date": {
+      "display": "December 1537",
+      "precision": "month",
+      "sort_start": "1537-12-01",
+      "sort_end": "1537-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andreas_vesalius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_padua",
+        "role": "employer"
+      },
+      {
+        "entity_id": "paolo_colombo",
+        "role": "predecessor"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "hadzic_2014_500th",
+        "page": 450,
+        "quote": "He worked there as a professor of surgery and anatomy, succeeding Paolo Colombo from Cremona."
+      }
+    ]
+  },
+  {
+    "id": "vesalius_tabulae_sex",
+    "event_type": "publication",
+    "label": "Published Tabulae Sex",
+    "description": "Publication of 6 anatomical tables, his first known hand-drawn anatomical work.",
+    "date": {
+      "display": "1538",
+      "precision": "year",
+      "sort_start": "1538-01-01",
+      "sort_end": "1538-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andreas_vesalius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "tabulae_sex",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "hadzic_2014_500th",
+        "page": 453,
+        "quote": "His observations eventually led to the publication of 6 anatomical tables, the Tabulae Sex, in 1538."
+      }
+    ]
+  },
+  {
+    "id": "vesalius_monkey_experiment",
+    "event_type": "other",
+    "label": "Compared monkey and human skeleton",
+    "description": "Found a process of the lumbar vertebrae in the monkey that was not present in the human, realizing Galen's error.",
+    "date": {
+      "display": "1541",
+      "precision": "year",
+      "sort_start": "1541-01-01",
+      "sort_end": "1541-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andreas_vesalius",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "hadzic_2014_500th",
+        "page": 450,
+        "quote": "In a startling experiment in 1541, Vesalius put the skeleton of a monkey and the skeleton of a human, side by side."
+      }
+    ]
+  },
+  {
+    "id": "vesalius_fabrica_1543",
+    "event_type": "publication",
+    "label": "Published De Humani Corporis Fabrica",
+    "description": "Published his dissections and sketches in the most influential text, De Humani Corporis Fabrica Libri Septem.",
+    "date": {
+      "display": "1543",
+      "precision": "year",
+      "sort_start": "1543-01-01",
+      "sort_end": "1543-12-31"
+    },
+    "location": "basel",
+    "participants": [
+      {
+        "entity_id": "andreas_vesalius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "de_humani_corporis_fabrica",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "hadzic_2014_500th",
+        "page": 453,
+        "quote": "Vesalius published his dissections and sketches in the most influential text: De Humani Corporis Fabrica Libri Septem (The Structure of the Human Body)."
+      }
+    ]
+  },
+  {
+    "id": "vesalius_imperial_physician",
+    "event_type": "employment_start",
+    "label": "Appointed Imperial Physician",
+    "description": "Secured the position of Imperial Physician, serving until Charles V abdicated.",
+    "date": {
+      "display": "1543",
+      "precision": "year",
+      "sort_start": "1543-01-01",
+      "sort_end": "1543-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andreas_vesalius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "charles_v",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "hadzic_2014_500th",
+        "page": 454,
+        "quote": "The publication of Fabrica also helped Vesalius secure the position of Imperial Physician, in which he served until Charles V abdicated in 1556."
+      }
+    ]
+  },
+  {
+    "id": "charles_v_abdication",
+    "event_type": "other",
+    "label": "Charles V abdicated",
+    "description": "Charles V abdicated, ending Vesalius's service as Imperial Physician.",
+    "date": {
+      "display": "1556",
+      "precision": "year",
+      "sort_start": "1556-01-01",
+      "sort_end": "1556-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "charles_v",
+        "role": "subject"
+      },
+      {
+        "entity_id": "andreas_vesalius",
+        "role": "employee"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "hadzic_2014_500th",
+        "page": 454,
+        "quote": "The publication of Fabrica also helped Vesalius secure the position of Imperial Physician, in which he served until Charles V abdicated in 1556."
+      }
+    ]
+  },
+  {
+    "id": "vesalius_death",
+    "event_type": "death",
+    "label": "Died",
+    "description": "Vesalius died in 1564.",
+    "date": {
+      "display": "1564",
+      "precision": "year",
+      "sort_start": "1564-01-01",
+      "sort_end": "1564-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andreas_vesalius",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "hadzic_2014_500th",
+        "page": 450,
+        "quote": "Andreas Vesalius (1514–1564)"
+      }
+    ]
+  }
+]

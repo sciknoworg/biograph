@@ -1,0 +1,32 @@
+[
+  {
+    "id": "pavan_succeeded_dreyfus",
+    "source": "crodowaldo_pavan",
+    "type": "renamed_to",
+    "target": "department_of_general_biology_usp",
+    "note": "Pavan succeeded Dreyfus as head of the department.",
+    "sources": [
+      {
+        "source_id": "araujo_2023",
+        "page": 98,
+        "quote": "Crodowaldo Pavan, at present Professor Pavan, cathedratico of general biology, successor of Dreyfus"
+      }
+    ],
+    "_rejected_because": "'renamed_to' expects source entity_type organization, but 'crodowaldo_pavan' is 'person'"
+  },
+  {
+    "id": "kerr_worked_rio_claro",
+    "source": "warwick_kerr",
+    "type": "worked_at",
+    "target": "rio_claro",
+    "note": "Rio Claro is a place, but context implies university there. Using place entity for now as no org entity defined for Rio Claro uni.",
+    "sources": [
+      {
+        "source_id": "araujo_2023",
+        "page": 102,
+        "quote": "The other is Warwick Kerr, who is also not cathedratico yet, although his position is quite safe, but he is in a provincial university, place called Rio Claro in the interior of the state of São Paulo."
+      }
+    ],
+    "_rejected_because": "unknown target entity 'rio_claro'"
+  }
+]

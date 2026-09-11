@@ -1,0 +1,281 @@
+[
+  {
+    "id": "morrill_birth",
+    "event_type": "birth",
+    "label": "Born in New York City",
+    "date": {
+      "precision": "day",
+      "sort_start": "1884-03-09",
+      "sort_end": "1884-03-09",
+      "display": "March 9, 1884"
+    },
+    "location": "new_york_city",
+    "participants": [
+      {
+        "entity_id": "charles_v_morrill",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "He was born in New York City, March 9, 1884."
+      }
+    ]
+  },
+  {
+    "id": "morrill_ranch_work",
+    "event_type": "employment_start",
+    "label": "Worked as ranch hand in Montana",
+    "description": "Spent two years as a ranch hand in Montana before returning East to get an education.",
+    "date": {
+      "precision": "range",
+      "sort_start": "1898-01-01",
+      "sort_end": "1900-12-31",
+      "display": "before the turn of the century"
+    },
+    "location": "montana",
+    "participants": [
+      {
+        "entity_id": "charles_v_morrill",
+        "role": "subject"
+      }
+    ],
+    "certainty": "approximate",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 3,
+        "quote": "he spent two years of his life as a ranch hand in Montana before the turn of the century, before returning East to get an education."
+      }
+    ]
+  },
+  {
+    "id": "morrill_ab_degree",
+    "event_type": "education",
+    "label": "Received A.B. from City College of New York",
+    "date": {
+      "precision": "year",
+      "sort_start": "1903-01-01",
+      "sort_end": "1903-12-31",
+      "display": "1903"
+    },
+    "participants": [
+      {
+        "entity_id": "charles_v_morrill",
+        "role": "subject"
+      },
+      {
+        "entity_id": "city_college_of_new_york",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "He received his A.B. in 1903 from City College of New York"
+      }
+    ]
+  },
+  {
+    "id": "morrill_am_degree",
+    "event_type": "education",
+    "label": "Received A.M. from Columbia University",
+    "date": {
+      "precision": "year",
+      "sort_start": "1906-01-01",
+      "sort_end": "1906-12-31",
+      "display": "1906"
+    },
+    "participants": [
+      {
+        "entity_id": "charles_v_morrill",
+        "role": "subject"
+      },
+      {
+        "entity_id": "columbia_university",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "and his A.M. (1906) and Ph.D. (1910) from Columbia University."
+      }
+    ]
+  },
+  {
+    "id": "morrill_phd_degree",
+    "event_type": "education",
+    "label": "Received Ph.D. from Columbia University",
+    "date": {
+      "precision": "year",
+      "sort_start": "1910-01-01",
+      "sort_end": "1910-12-31",
+      "display": "1910"
+    },
+    "participants": [
+      {
+        "entity_id": "charles_v_morrill",
+        "role": "subject"
+      },
+      {
+        "entity_id": "columbia_university",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "and his A.M. (1906) and Ph.D. (1910) from Columbia University."
+      }
+    ]
+  },
+  {
+    "id": "morrill_cornell_appointment",
+    "event_type": "employment_start",
+    "label": "Appointed to staff at Cornell",
+    "date": {
+      "precision": "year",
+      "sort_start": "1915-01-01",
+      "sort_end": "1915-12-31",
+      "display": "1915"
+    },
+    "participants": [
+      {
+        "entity_id": "charles_v_morrill",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cornell_university",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "He was appointed to the staff at Cornell in 1915"
+      }
+    ]
+  },
+  {
+    "id": "morrill_mother_death",
+    "event_type": "death",
+    "label": "Mother died",
+    "description": "Morrill had cared for his mother until her death, at which time he was 55.",
+    "date": {
+      "precision": "year",
+      "sort_start": "1939-01-01",
+      "sort_end": "1939-12-31",
+      "display": "1939"
+    },
+    "participants": [
+      {
+        "entity_id": "charles_v_morrill",
+        "role": "subject"
+      }
+    ],
+    "certainty": "approximate",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 3,
+        "quote": "He had cared for his mother until her death, at which time he was 55."
+      }
+    ]
+  },
+  {
+    "id": "morrill_textbook_published",
+    "event_type": "publication",
+    "label": "Textbook Region Anatomy privately printed",
+    "description": "Regional Anatomy: Descriptive, Topographic, and Functional was privately printed by Edwards Bros.",
+    "date": {
+      "precision": "year",
+      "sort_start": "1946-01-01",
+      "sort_end": "1946-12-31",
+      "display": "1946"
+    },
+    "participants": [
+      {
+        "entity_id": "charles_v_morrill",
+        "role": "subject"
+      },
+      {
+        "entity_id": "edwards_bros",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 2,
+        "quote": "It was privately printed M Edwards Bros. (1946)"
+      }
+    ]
+  },
+  {
+    "id": "morrill_retirement",
+    "event_type": "retirement",
+    "label": "Retired as professor of anatomy from Cornell",
+    "date": {
+      "precision": "year",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-12-31",
+      "display": "1952"
+    },
+    "participants": [
+      {
+        "entity_id": "charles_v_morrill",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cornell_university",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "retired as a professor of anatomy in 1952."
+      }
+    ]
+  },
+  {
+    "id": "morrill_death",
+    "event_type": "death",
+    "label": "Died at age 86",
+    "date": {
+      "precision": "day",
+      "sort_start": "1970-07-24",
+      "sort_end": "1970-07-24",
+      "display": "July 24, 1970"
+    },
+    "participants": [
+      {
+        "entity_id": "charles_v_morrill",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "Dr. Charles V. Morrill died July 24, 1970."
+      }
+    ]
+  }
+]

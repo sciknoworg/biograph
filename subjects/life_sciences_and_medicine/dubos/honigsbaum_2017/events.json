@@ -1,0 +1,691 @@
+[
+  {
+    "id": "dubos_reads_winogradsky",
+    "event_type": "other",
+    "label": "Read Winogradsky article in Rome",
+    "description": "Dubos chanced on an article by Sergei Winogradsky while working as an editor.",
+    "date": {
+      "display": "1924",
+      "precision": "year",
+      "sort_start": "1924-01-01",
+      "sort_end": "1924-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rene_dubos",
+        "role": "subject"
+      },
+      {
+        "entity_id": "sergei_winogradsky",
+        "role": "influencer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 3,
+        "quote": "as a 23-year-old editor working in Rome, he had chanced on an article by the Russian soil microbiologist Sergei Winogradsky"
+      }
+    ]
+  },
+  {
+    "id": "dubos_avery_siii",
+    "event_type": "invention",
+    "label": "Discovered soil enzyme SIII with Avery",
+    "description": "Dubos and Avery discovered a soil enzyme that decomposed the polysaccharide capsule of pneumococcus.",
+    "date": {
+      "display": "1932",
+      "precision": "year",
+      "sort_start": "1932-01-01",
+      "sort_end": "1932-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rene_dubos",
+        "role": "subject"
+      },
+      {
+        "entity_id": "oswald_avery",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 3,
+        "quote": "discovery in 1932, together with Oswald Avery, of a soil enzyme (SIII)"
+      }
+    ]
+  },
+  {
+    "id": "dubos_announces_tyrothricin",
+    "event_type": "public_demonstration",
+    "label": "Announced tyrothricin at Waldorf Astoria",
+    "description": "Dubos made a dramatic announcement of a new antibacterial substance at the Third International Microbiology Conference.",
+    "date": {
+      "display": "1939",
+      "precision": "year",
+      "sort_start": "1939-01-01",
+      "sort_end": "1939-12-31"
+    },
+    "location": "new_york",
+    "participants": [
+      {
+        "entity_id": "rene_dubos",
+        "role": "subject"
+      },
+      {
+        "entity_id": "tyrothricin",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 5,
+        "quote": "In 1939 Rene´ Dubos made a dramatic announcement at New York's Waldorf Astoria hotel."
+      }
+    ]
+  },
+  {
+    "id": "marie_louise_dies",
+    "event_type": "death",
+    "label": "Marie Louise Bonnet died of tuberculosis",
+    "description": "Dubos's first wife died from tuberculosis, precipitating his move to Harvard.",
+    "date": {
+      "display": "1942",
+      "precision": "year",
+      "sort_start": "1942-01-01",
+      "sort_end": "1942-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "marie_louise_bonnet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "rene_dubos",
+        "role": "family_of"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 4,
+        "quote": "death from tuberculosis in 1942 of his first wife, Marie Louise Bonnet"
+      }
+    ]
+  },
+  {
+    "id": "dubos_moves_harvard",
+    "event_type": "employment_start",
+    "label": "Moved to Harvard School of Public Health",
+    "description": "Dubos left the Rockefeller Institute to become George Fabyean Professor at Harvard.",
+    "date": {
+      "display": "1942",
+      "precision": "year",
+      "sort_start": "1942-01-01",
+      "sort_end": "1942-12-31"
+    },
+    "location": "boston",
+    "participants": [
+      {
+        "entity_id": "rene_dubos",
+        "role": "subject"
+      },
+      {
+        "entity_id": "harvard_school_public_health",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 6,
+        "quote": "by 1942 had quit the Rockefeller for Harvard"
+      }
+    ]
+  },
+  {
+    "id": "dubos_recommends_burnet",
+    "event_type": "other",
+    "label": "Recommended Burnet as Dunham Lecturer",
+    "description": "Dubos wrote to the Dunham selection panel recommending Burnet.",
+    "date": {
+      "display": "14 September 1943",
+      "precision": "day",
+      "sort_start": "1943-09-14",
+      "sort_end": "1943-09-14"
+    },
+    "participants": [
+      {
+        "entity_id": "rene_dubos",
+        "role": "subject"
+      },
+      {
+        "entity_id": "frank_burnet",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 9,
+        "quote": "Dubos to Hastings, 14 September 1943"
+      }
+    ]
+  },
+  {
+    "id": "burnet_dunham_lectures",
+    "event_type": "conference",
+    "label": "Burnet delivered Dunham Lectures",
+    "description": "Burnet delivered lectures titled 'Some Virus Diseases of Man: Evolutionary and Ecological Considerations'.",
+    "date": {
+      "display": "January 1944",
+      "precision": "month",
+      "sort_start": "1944-01-01",
+      "sort_end": "1944-01-31"
+    },
+    "location": "boston",
+    "participants": [
+      {
+        "entity_id": "frank_burnet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "rene_dubos",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 9,
+        "quote": "Dunham Lectures delivered over 3 days in January 1944."
+      }
+    ]
+  },
+  {
+    "id": "dubos_meets_burnet",
+    "event_type": "meeting",
+    "label": "Dubos met Burnet in Boston",
+    "description": "Burnet made directly for Dubos's office upon arriving in Boston.",
+    "date": {
+      "display": "4 January 1944",
+      "precision": "day",
+      "sort_start": "1944-01-04",
+      "sort_end": "1944-01-04"
+    },
+    "location": "boston",
+    "participants": [
+      {
+        "entity_id": "rene_dubos",
+        "role": "subject"
+      },
+      {
+        "entity_id": "frank_burnet",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 9,
+        "quote": "on arriving in Boston on 4 January 1944... Burnet made directly for Dubos's office"
+      }
+    ]
+  },
+  {
+    "id": "dubos_returns_rockefeller",
+    "event_type": "employment_start",
+    "label": "Returned to Rockefeller Institute",
+    "description": "Dubos returned to the Rockefeller Institute after his time at Harvard.",
+    "date": {
+      "display": "July 1944",
+      "precision": "month",
+      "sort_start": "1944-07-01",
+      "sort_end": "1944-07-31"
+    },
+    "location": "new_york",
+    "participants": [
+      {
+        "entity_id": "rene_dubos",
+        "role": "subject"
+      },
+      {
+        "entity_id": "rockefeller_institute",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 4,
+        "quote": "Dubos returned to the Rockefeller Institute in July 1944"
+      }
+    ]
+  },
+  {
+    "id": "bacterial_cell_published",
+    "event_type": "publication",
+    "label": "Published The Bacterial Cell",
+    "description": "Book emerged from Dubos's lectures at the Lowell Institute in Boston in 1944.",
+    "date": {
+      "display": "1945",
+      "precision": "year",
+      "sort_start": "1945-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rene_dubos",
+        "role": "subject"
+      },
+      {
+        "entity_id": "the_bacterial_cell",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 6,
+        "quote": "The Bacterial Cell, the book that emerged from Dubos's lectures at the Lowell Institute in Boston in 1944 (Dubos 1945)"
+      }
+    ]
+  },
+  {
+    "id": "dubos_marries_jean",
+    "event_type": "other",
+    "label": "Married Jean Porter",
+    "description": "Porter became Dubos's second wife.",
+    "date": {
+      "display": "1946",
+      "precision": "year",
+      "sort_start": "1946-01-01",
+      "sort_end": "1946-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rene_dubos",
+        "role": "subject"
+      },
+      {
+        "entity_id": "jean_porter_dubos",
+        "role": "family_of"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 13,
+        "quote": "Porter had read The Bacterial Cell in draft and would become Dubos's second wife in 1946"
+      }
+    ]
+  },
+  {
+    "id": "dubos_tween_method",
+    "event_type": "invention",
+    "label": "Developed Tween culture method",
+    "description": "Dubos solved the problem of culturing tubercle bacilli by adding Tween to growth media.",
+    "date": {
+      "display": "1946",
+      "precision": "year",
+      "sort_start": "1946-01-01",
+      "sort_end": "1946-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rene_dubos",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 15,
+        "quote": "In 1946 Dubos solved this problem by adding a commercial detergent, Tween, to the growth media"
+      }
+    ]
+  },
+  {
+    "id": "fenner_arrives_rockefeller",
+    "event_type": "visit",
+    "label": "Fenner arrived at Rockefeller",
+    "description": "Fenner arrived on an 11-month fellowship.",
+    "date": {
+      "display": "spring 1948",
+      "precision": "season",
+      "sort_start": "1948-03-01",
+      "sort_end": "1948-05-31"
+    },
+    "location": "new_york",
+    "participants": [
+      {
+        "entity_id": "frank_fenner",
+        "role": "subject"
+      },
+      {
+        "entity_id": "rene_dubos",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 15,
+        "quote": "in the spring of 1948 Fenner arrived at the Rockefeller on an 11-month fellowship."
+      }
+    ]
+  },
+  {
+    "id": "dubos_avery_lecture",
+    "event_type": "conference",
+    "label": "Gave O.T. Avery Lecture",
+    "description": "Dubos gave the lecture at the Society of American Bacteriologists.",
+    "date": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rene_dubos",
+        "role": "subject"
+      },
+      {
+        "entity_id": "society_american_bacteriologists",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 2,
+        "quote": "giving the O.T. Avery Lecture at the Society of American Bacteriologists in 1948"
+      }
+    ]
+  },
+  {
+    "id": "dubos_lasker_award",
+    "event_type": "award",
+    "label": "Received Lasker Award",
+    "description": "Dubos's discovery established his scientific reputation, earning him the award.",
+    "date": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rene_dubos",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 6,
+        "quote": "earning him the 1948 Lasker Award"
+      }
+    ]
+  },
+  {
+    "id": "dubos_lecture_sab",
+    "event_type": "conference",
+    "label": "Lecture to Society of American Bacteriologists",
+    "description": "Dubos prepared to give a lecture on tuberculosis.",
+    "date": {
+      "display": "January 1950",
+      "precision": "month",
+      "sort_start": "1950-01-01",
+      "sort_end": "1950-01-31"
+    },
+    "location": "new_york",
+    "participants": [
+      {
+        "entity_id": "rene_dubos",
+        "role": "subject"
+      },
+      {
+        "entity_id": "society_american_bacteriologists",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 2,
+        "quote": "In January 1950, Rene´ Dubos prepared to give a lecture on tuberculosis to the Society of American Bacteriologists in New York."
+      }
+    ]
+  },
+  {
+    "id": "dubos_trudeau_medal",
+    "event_type": "award",
+    "label": "Awarded Trudeau Society Medal",
+    "description": "Dubos's tuberculosis studies led to the award.",
+    "date": {
+      "display": "1951",
+      "precision": "year",
+      "sort_start": "1951-01-01",
+      "sort_end": "1951-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rene_dubos",
+        "role": "subject"
+      },
+      {
+        "entity_id": "trudeau_society",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 2,
+        "quote": "leading to the award of the Trudeau Society Medal in 1951."
+      }
+    ]
+  },
+  {
+    "id": "fenner_myxomatosis_study",
+    "event_type": "other",
+    "label": "Fenner launched myxomatosis study",
+    "description": "Fenner launched a ground-breaking study of myxomatosis in Australia's wild rabbit population.",
+    "date": {
+      "display": "1951",
+      "precision": "year",
+      "sort_start": "1951-01-01",
+      "sort_end": "1951-12-31"
+    },
+    "location": "australia",
+    "participants": [
+      {
+        "entity_id": "frank_fenner",
+        "role": "subject"
+      },
+      {
+        "entity_id": "rene_dubos",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 17,
+        "quote": "in 1951 he launched a ground-breaking study of myxomatosis in Australia's wild rabbit population"
+      }
+    ]
+  },
+  {
+    "id": "biochemical_determinants_published",
+    "event_type": "publication",
+    "label": "Published Biochemical Determinants of Microbial Diseases",
+    "description": "Dubos's first scientific book since The Bacterial Cell.",
+    "date": {
+      "display": "1954",
+      "precision": "year",
+      "sort_start": "1954-01-01",
+      "sort_end": "1954-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rene_dubos",
+        "role": "subject"
+      },
+      {
+        "entity_id": "biochemical_determinants",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 4,
+        "quote": "Biochemical Determinants of Microbial Diseases (Dubos 1954)."
+      }
+    ]
+  },
+  {
+    "id": "dubos_cma_lecture",
+    "event_type": "conference",
+    "label": "Addressed Canadian Medical Association",
+    "description": "Dubos described the evolution of infectious diseases in the course of history.",
+    "date": {
+      "display": "1958",
+      "precision": "year",
+      "sort_start": "1958-01-01",
+      "sort_end": "1958-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rene_dubos",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 18,
+        "quote": "addressing the Canadian Medical Association in 1958"
+      }
+    ]
+  },
+  {
+    "id": "mirage_health_published",
+    "event_type": "publication",
+    "label": "Published Mirage of Health",
+    "description": "Dubos's first expression of his new vision.",
+    "date": {
+      "display": "1959",
+      "precision": "year",
+      "sort_start": "1959-01-01",
+      "sort_end": "1959-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rene_dubos",
+        "role": "subject"
+      },
+      {
+        "entity_id": "mirage_health",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 22,
+        "quote": "Dubos's first expression of his new vision came in his 1959 book Mirage of Health"
+      }
+    ]
+  },
+  {
+    "id": "lab_renamed",
+    "event_type": "role_change",
+    "label": "Laboratory renamed to Environmental Biomedicine",
+    "description": "Dubos changed the name of his laboratory from Bacteriology and Pathology.",
+    "date": {
+      "display": "1960",
+      "precision": "year",
+      "sort_start": "1960-01-01",
+      "sort_end": "1960-12-31"
+    },
+    "location": "new_york",
+    "participants": [
+      {
+        "entity_id": "rene_dubos",
+        "role": "subject"
+      },
+      {
+        "entity_id": "rockefeller_institute",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 22,
+        "quote": "Dubos's research at the Rockefeller from 1960 onwards, a period which saw him change the name of his laboratory from Bacteriology and Pathology to Environmental Biomedicine"
+      }
+    ]
+  },
+  {
+    "id": "man_adapting_published",
+    "event_type": "publication",
+    "label": "Published Man Adapting",
+    "description": "Dubos came to write Man Adapting.",
+    "date": {
+      "display": "1965",
+      "precision": "year",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rene_dubos",
+        "role": "subject"
+      },
+      {
+        "entity_id": "man_adapting",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 22,
+        "quote": "by the time he came to write Man Adapting in 1965"
+      }
+    ]
+  },
+  {
+    "id": "dubos_career_reflection",
+    "event_type": "other",
+    "label": "Reflected on scientific career",
+    "description": "Dubos reflected on his scientific career toward the end of his life in an unpublished manuscript.",
+    "date": {
+      "display": "1981",
+      "precision": "year",
+      "sort_start": "1981-01-01",
+      "sort_end": "1981-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rene_dubos",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 3,
+        "quote": "Unpublished manuscript, 1981"
+      }
+    ]
+  }
+]

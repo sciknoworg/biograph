@@ -1,0 +1,217 @@
+[
+  {
+    "aliases": [
+      "Bichat",
+      "Xavier Bichat"
+    ],
+    "attributes": {
+      "birth_date": "1771-11-14",
+      "death_date": "1802-07-22",
+      "nationality": "French"
+    },
+    "entity_type": "person",
+    "id": "xavier_bichat",
+    "name": "Marie François Xavier Bichat",
+    "subtype": "researcher",
+    "summary": "French anatomist and physiologist who pioneered tissue theory and pathological anatomy without microscopy."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "birth_date": "1766",
+      "death_date": "1811"
+    },
+    "entity_type": "person",
+    "id": "marc_antoine_petit",
+    "name": "Marc-Antoine Petit",
+    "subtype": "researcher",
+    "summary": "Distinguished surgeon who mentored Bichat in Lyon."
+  },
+  {
+    "aliases": [
+      "Desault"
+    ],
+    "attributes": {},
+    "entity_type": "person",
+    "id": "pierre_joseph_desault",
+    "name": "Pierre-Joseph Desault",
+    "subtype": "researcher",
+    "summary": "Surgeon and anatomist who mentored Bichat at Hôtel-Dieu hospital in Paris."
+  },
+  {
+    "aliases": [
+      "Corvisart"
+    ],
+    "attributes": {},
+    "entity_type": "person",
+    "id": "jean_nicolas_corvisart",
+    "name": "Jean-Nicolas Corvisart",
+    "subtype": "researcher",
+    "summary": "Physician to Napoleon Bonaparte who commented on Bichat's death."
+  },
+  {
+    "aliases": [
+      "Laennec"
+    ],
+    "attributes": {
+      "birth_date": "1781",
+      "death_date": "1826"
+    },
+    "entity_type": "person",
+    "id": "rene_laennec",
+    "name": "René Laennec",
+    "subtype": "researcher",
+    "summary": "Inventor of the stethoscope who was directly inspired by Bichat's method."
+  },
+  {
+    "aliases": [
+      "Virchow"
+    ],
+    "attributes": {},
+    "entity_type": "person",
+    "id": "rudolf_virchow",
+    "name": "Rudolf Virchow",
+    "subtype": "researcher",
+    "summary": "Father of modern pathology who extended Bichat's insights to the cellular level."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "France",
+      "lat": 46.27111,
+      "lng": 5.5325,
+      "wikidata_qid": "Q1142117",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "thoirette",
+    "name": "Thoirette",
+    "subtype": "town",
+    "summary": "Small town in France where Bichat was born."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "lat": 47.0,
+      "lng": 2.0,
+      "wikidata_qid": "Q142",
+      "geocode_basis": "most_linked"
+    },
+    "entity_type": "place",
+    "id": "france",
+    "name": "France",
+    "subtype": "country",
+    "summary": "Country where Bichat lived and worked."
+  },
+  {
+    "aliases": [
+      "Montpellier"
+    ],
+    "attributes": {
+      "country": "France"
+    },
+    "entity_type": "organization",
+    "id": "montpellier_medical_school",
+    "name": "Medical School of Montpellier",
+    "subtype": "university",
+    "summary": "Renowned medical school where Bichat's father received training."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "France",
+      "lat": 45.7675,
+      "lng": 4.835,
+      "wikidata_qid": "Q456",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "lyon",
+    "name": "Lyon",
+    "subtype": "city",
+    "summary": "City where Bichat pursued formal medical education."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "France",
+      "lat": 48.85667,
+      "lng": 2.35222,
+      "wikidata_qid": "Q90",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "paris",
+    "name": "Paris",
+    "subtype": "city",
+    "summary": "City where Bichat moved in 1793 to work at Hôtel-Dieu."
+  },
+  {
+    "aliases": [
+      "Hôtel-Dieu hospital"
+    ],
+    "attributes": {
+      "location": "Paris"
+    },
+    "entity_type": "organization",
+    "id": "hotel_dieu",
+    "name": "Hôtel-Dieu",
+    "subtype": "hospital",
+    "summary": "Prestigious hospital in Paris where Bichat worked and died."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "year": "1800"
+    },
+    "entity_type": "artifact",
+    "id": "traite_des_membranes",
+    "name": "Traité des membranes",
+    "subtype": "publication",
+    "summary": "Pioneering study of the structure and function of membranes published by Bichat."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "year": "1800"
+    },
+    "entity_type": "artifact",
+    "id": "recherches_physiologiques",
+    "name": "Recherches physiologiques sur la vie et la mort",
+    "subtype": "publication",
+    "summary": "Physiological exploration of the nature of life and death published by Bichat."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "year": "1801"
+    },
+    "entity_type": "artifact",
+    "id": "anatomie_generale",
+    "name": "Anatomie générale appliquée à la physiologie et à la médecine",
+    "subtype": "publication",
+    "summary": "Methodologically important text categorizing tissues as primary anatomical units."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "year": "1801-1803"
+    },
+    "entity_type": "artifact",
+    "id": "anatomie_descriptive",
+    "name": "Anatomie descriptive",
+    "subtype": "publication",
+    "summary": "Comprehensive account of human body structure organized by tissue types."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "year": "1798"
+    },
+    "entity_type": "artifact",
+    "id": "oeuvres_chirurgicales_desault",
+    "name": "Oeuvres chirurgicales de Desault",
+    "subtype": "publication",
+    "summary": "Surgical works of Desault completed and published by Bichat."
+  }
+]

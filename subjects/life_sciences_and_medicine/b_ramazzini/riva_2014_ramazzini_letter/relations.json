@@ -1,0 +1,56 @@
+[
+  {
+    "id": "ramazzini_worked_padua",
+    "source": "bernardino_ramazzini",
+    "type": "worked_at",
+    "target": "university_of_padua",
+    "sources": [
+      {
+        "source_id": "riva_2014_ramazzini_letter",
+        "page": 41,
+        "quote": "Ramazzini was appointed as a professor at the prestigious University of Padua"
+      }
+    ]
+  },
+  {
+    "id": "padua_part_venice",
+    "source": "padua",
+    "type": "member_of",
+    "target": "republic_of_venice",
+    "sources": [
+      {
+        "source_id": "riva_2014_ramazzini_letter",
+        "page": 41,
+        "quote": "this city was a part of the Republic of Venice"
+      }
+    ]
+  },
+  {
+    "id": "ramazzini_published_de_morbis",
+    "source": "bernardino_ramazzini",
+    "type": "published",
+    "target": "de_morbis_artificum",
+    "event_id": "de_morbis_artificum_1st",
+    "sources": [
+      {
+        "source_id": "riva_2014_ramazzini_letter",
+        "page": 41,
+        "quote": "In the first edition of \"De Morbis Artificum\" (Modena, 1700),"
+      }
+    ]
+  },
+  {
+    "id": "lind_published_essay",
+    "source": "james_lind",
+    "type": "published",
+    "target": "lind_essay",
+    "event_id": "lind_essay_pub",
+    "sources": [
+      {
+        "source_id": "riva_2014_ramazzini_letter",
+        "page": 41,
+        "quote": "\"An essay on the most effective means of preserving the health of seamen\" (1762)"
+      }
+    ]
+  }
+]

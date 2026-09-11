@@ -1,0 +1,140 @@
+[
+  {
+    "id": "almroth_wright",
+    "entity_type": "person",
+    "name": "Sir Almroth Wright",
+    "aliases": [
+      "Almroth Wright",
+      "Sir Almroth Wright",
+      "Wright",
+      "Sir Almost Wright",
+      "Sir Almost Wrong"
+    ],
+    "summary": "British immunologist and bacteriologist known for opsonin theory and vaccine therapy.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "st_marys_hospital",
+    "entity_type": "organization",
+    "name": "St Mary's Hospital",
+    "aliases": [
+      "St Mary's Hospital in London",
+      "St. Mary's Hospital"
+    ],
+    "summary": "London teaching hospital where Wright headed bacteriology and pathology departments.",
+    "subtype": "hospital",
+    "attributes": {
+      "city": "London",
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": "inoculation_department",
+    "entity_type": "organization",
+    "name": "Inoculation Department",
+    "aliases": [
+      "the Inoculation Department"
+    ],
+    "summary": "Research unit founded by Wright at St Mary's Hospital for vaccine therapy.",
+    "subtype": "lab"
+  },
+  {
+    "id": "george_bernard_shaw",
+    "entity_type": "person",
+    "name": "George Bernard Shaw",
+    "aliases": [
+      "Shaw",
+      "G.B. Shaw"
+    ],
+    "summary": "Irish playwright and personal friend of Wright who modeled a character on him.",
+    "subtype": "writer"
+  },
+  {
+    "id": "sinclair_lewis",
+    "entity_type": "person",
+    "name": "Sinclair Lewis",
+    "aliases": [
+      "Lewis",
+      "S. Lewis"
+    ],
+    "summary": "American novelist whose work Arrowsmith depicted immunology differently than Shaw.",
+    "subtype": "writer"
+  },
+  {
+    "id": "paul_de_kruif",
+    "entity_type": "person",
+    "name": "Paul DeKruif",
+    "aliases": [
+      "DeKruif",
+      "P. DeKruif"
+    ],
+    "summary": "Physician and researcher who collaborated with Lewis and criticized Rockefeller Institute.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "jacques_loeb",
+    "entity_type": "person",
+    "name": "Jacques Loeb",
+    "aliases": [
+      "Loeb",
+      "J. Loeb"
+    ],
+    "summary": "Physiologist at Rockefeller Institute whose mechanistic philosophy influenced DeKruif.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "alexander_fleming",
+    "entity_type": "person",
+    "name": "Alexander Fleming",
+    "aliases": [
+      "Fleming",
+      "Sir Alexander Fleming"
+    ],
+    "summary": "Bacteriologist who worked in Wright's laboratory and discovered penicillin.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "london",
+    "entity_type": "place",
+    "name": "London",
+    "aliases": [],
+    "summary": "Capital city of the United Kingdom where St Mary's Hospital is located.",
+    "subtype": "city",
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 51.50722,
+      "lng": -0.1275,
+      "wikidata_qid": "Q84",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "the_doctors_dilemma",
+    "entity_type": "artifact",
+    "name": "The Doctor's Dilemma",
+    "aliases": [
+      "Thedoctor'sdilemma",
+      "The doctor's dilemma"
+    ],
+    "summary": "Play by George Bernard Shaw featuring a character based on Wright.",
+    "subtype": "publication"
+  },
+  {
+    "id": "arrowsmith",
+    "entity_type": "artifact",
+    "name": "Arrowsmith",
+    "aliases": [],
+    "summary": "Novel by Sinclair Lewis depicting a scientist fighting false theories of immunity.",
+    "subtype": "publication"
+  },
+  {
+    "id": "anti_typhoid_vaccine",
+    "entity_type": "artifact",
+    "name": "anti-typhoid vaccine",
+    "aliases": [
+      "heat-killed, anti-typhoid vaccine"
+    ],
+    "summary": "Vaccine developed by Wright to prevent typhoid in soldiers.",
+    "subtype": "product"
+  }
+]

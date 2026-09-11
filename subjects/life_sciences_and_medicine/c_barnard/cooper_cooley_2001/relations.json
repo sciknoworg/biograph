@@ -1,0 +1,160 @@
+[
+  {
+    "id": "born_in_beafort_west",
+    "source": "christiaan_neethling_barnard",
+    "type": "born_in",
+    "target": "beaufort_west",
+    "sources": [
+      {
+        "source_id": "cooper_cooley_2001",
+        "page": 1,
+        "quote": "Born on November 8, 1922, in the small country town of Beaufort West in South Africa, Christiaan Neethling Barnard was one of 4 sons of a church pastor who ministered to the poor."
+      }
+    ]
+  },
+  {
+    "id": "studied_at_uct",
+    "source": "christiaan_neethling_barnard",
+    "type": "studied_at",
+    "target": "university_of_cape_town_medical_school",
+    "sources": [
+      {
+        "source_id": "cooper_cooley_2001",
+        "page": 1,
+        "quote": "After graduating from the local high school, Barnard entered the University of Cape Town Medical School."
+      }
+    ]
+  },
+  {
+    "id": "worked_at_groote_schuur",
+    "source": "christiaan_neethling_barnard",
+    "type": "worked_at",
+    "target": "groote_schuur_hospital",
+    "sources": [
+      {
+        "source_id": "cooper_cooley_2001",
+        "page": 1,
+        "quote": "Barnard began a busy surgical residency at Groote Schuur Hospital in Cape Town."
+      }
+    ]
+  },
+  {
+    "id": "studied_at_minnesota",
+    "source": "christiaan_neethling_barnard",
+    "type": "studied_at",
+    "target": "university_of_minnesota_medical_school",
+    "sources": [
+      {
+        "source_id": "cooper_cooley_2001",
+        "page": 1,
+        "quote": "In 1956, he received a scholarship to the University of Minnesota Medical School, where he soon was drawn to the emerging field of open heart surgery."
+      }
+    ]
+  },
+  {
+    "id": "supervised_by_lillehei",
+    "source": "christiaan_neethling_barnard",
+    "type": "supervised_by",
+    "target": "c_walton_lillehei",
+    "sources": [
+      {
+        "source_id": "cooper_cooley_2001",
+        "page": 1,
+        "quote": "During 2 highly productive and exciting years in the Department of Surgery under the direction of Richard Varco and C. Walton Lillehei, Barnard worked hard in both the clinic and the research laboratory."
+      }
+    ]
+  },
+  {
+    "id": "supervised_by_varco",
+    "source": "christiaan_neethling_barnard",
+    "type": "supervised_by",
+    "target": "richard_varco",
+    "sources": [
+      {
+        "source_id": "cooper_cooley_2001",
+        "page": 1,
+        "quote": "During 2 highly productive and exciting years in the Department of Surgery under the direction of Richard Varco and C. Walton Lillehei, Barnard worked hard in both the clinic and the research laboratory."
+      }
+    ]
+  },
+  {
+    "id": "collaborated_with_marius",
+    "source": "christiaan_neethling_barnard",
+    "type": "collaborated_with",
+    "target": "marius_barnard",
+    "sources": [
+      {
+        "source_id": "cooper_cooley_2001",
+        "page": 1,
+        "quote": "Barnard and his brother Marius, who had trained in cardiac surgery at the Texas Heart Institute and had become Barnard's right-hand man in Cape Town, practiced transplantation in dogs according to the Stanford technique."
+      }
+    ]
+  },
+  {
+    "id": "collaborated_with_losman",
+    "source": "christiaan_neethling_barnard",
+    "type": "collaborated_with",
+    "target": "jacques_losman",
+    "sources": [
+      {
+        "source_id": "cooper_cooley_2001",
+        "page": 2,
+        "quote": "In 1974, Barnard and his junior colleague, Jacques Losman, developed the technique of auxiliary (heterotopic) heart transplantation, in which the donor heart is placed in the chest alongside the patient's own heart."
+      }
+    ]
+  },
+  {
+    "id": "published_one_life",
+    "source": "christiaan_neethling_barnard",
+    "type": "published",
+    "target": "one_life",
+    "event_id": "autobiography_one_life",
+    "sources": [
+      {
+        "source_id": "cooper_cooley_2001",
+        "page": 2,
+        "quote": "In 1970, Barnard's autobiography One Life, ghostwritten by an experienced professional writer, was a major publishing success worldwide."
+      }
+    ]
+  },
+  {
+    "id": "died_in_cyprus",
+    "source": "christiaan_neethling_barnard",
+    "type": "died_in",
+    "target": "cyprus",
+    "event_id": "death",
+    "sources": [
+      {
+        "source_id": "cooper_cooley_2001",
+        "page": 1,
+        "quote": "With the sudden death of Christiaan Barnard in Cyprus on September 2, 2001, the world lost not only a pioneering cardiac surgeon but also a charismatic, if controversial, figure."
+      }
+    ]
+  },
+  {
+    "id": "worked_at_red_cross",
+    "source": "christiaan_neethling_barnard",
+    "type": "worked_at",
+    "target": "red_cross_childrens_hospital",
+    "sources": [
+      {
+        "source_id": "cooper_cooley_2001",
+        "page": 1,
+        "quote": "He organized one of the first, and certainly the best, open heart surgery programs in Africa, working at both Groote Schuur and the nearby Red Cross Children's Hospital."
+      }
+    ]
+  },
+  {
+    "id": "founded_foundation",
+    "source": "christiaan_neethling_barnard",
+    "type": "founded",
+    "target": "christiaan_barnard_foundation",
+    "sources": [
+      {
+        "source_id": "cooper_cooley_2001",
+        "page": 2,
+        "quote": "Because he felt great compassion for human beings of all races and nationalities, he established the Christiaan Barnard Foundation to fund charitable and humanitarian causes."
+      }
+    ]
+  }
+]

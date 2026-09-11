@@ -1,0 +1,224 @@
+[
+  {
+    "id": "palade_born_romania",
+    "source": "george_palade",
+    "type": "born_in",
+    "target": "romania",
+    "event_id": "palade_birth",
+    "sources": [
+      {
+        "source_id": "palade_obituary_2008",
+        "page": 1,
+        "quote": "George Emil Palade was born November 19, 1912 in Romania."
+      }
+    ]
+  },
+  {
+    "id": "palade_died_san_diego",
+    "source": "george_palade",
+    "type": "died_in",
+    "target": "san_diego",
+    "event_id": "palade_death",
+    "sources": [
+      {
+        "source_id": "palade_obituary_2008",
+        "page": 1,
+        "quote": "We mark the passing of George Palade, who died at his home in San Diego on October 7, 2008."
+      }
+    ]
+  },
+  {
+    "id": "palade_relocated_us",
+    "source": "george_palade",
+    "type": "relocated_to",
+    "target": "united_states",
+    "event_id": "palade_relocation_to_us",
+    "sources": [
+      {
+        "source_id": "palade_obituary_2008",
+        "page": 1,
+        "quote": "After the Soviet occupation of his homeland he moved to the United States and became a US citizen in 1952."
+      }
+    ]
+  },
+  {
+    "id": "palade_worked_rockefeller",
+    "source": "george_palade",
+    "type": "worked_at",
+    "target": "rockefeller_university",
+    "sources": [
+      {
+        "source_id": "palade_obituary_2008",
+        "page": 1,
+        "quote": "After leaving Rockefeller University in New York, he served as Chairman of the newly created Department of Cell Biology at Yale University in 1973."
+      }
+    ]
+  },
+  {
+    "id": "palade_worked_yale",
+    "source": "george_palade",
+    "type": "worked_at",
+    "target": "yale_university",
+    "event_id": "palade_yale_chairman",
+    "sources": [
+      {
+        "source_id": "palade_obituary_2008",
+        "page": 1,
+        "quote": "After leaving Rockefeller University in New York, he served as Chairman of the newly created Department of Cell Biology at Yale University in 1973."
+      }
+    ]
+  },
+  {
+    "id": "palade_worked_ucsd",
+    "source": "george_palade",
+    "type": "worked_at",
+    "target": "university_of_california_san_diego",
+    "event_id": "palade_ucsd_dean",
+    "sources": [
+      {
+        "source_id": "palade_obituary_2008",
+        "page": 1,
+        "quote": "He then became Dean for Scientific Affairs at the University of California at San Diego, serving from 1990 until he retired in 2001."
+      }
+    ]
+  },
+  {
+    "id": "palade_married_malaxa",
+    "source": "george_palade",
+    "type": "married_to",
+    "target": "irna_malaxa",
+    "end": {
+      "display": "1969",
+      "precision": "year",
+      "sort_start": "1969-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "palade_obituary_2008",
+        "page": 1,
+        "quote": "After the death of his first wife, Irna Malaxa, in 1969, he married Marilyn Farquhar"
+      }
+    ]
+  },
+  {
+    "id": "palade_married_farquhar",
+    "source": "george_palade",
+    "type": "married_to",
+    "target": "marilyn_farquhar",
+    "event_id": "palade_marriage_farquhar",
+    "sources": [
+      {
+        "source_id": "palade_obituary_2008",
+        "page": 1,
+        "quote": "After the death of his first wife, Irna Malaxa, in 1969, he married Marilyn Farquhar"
+      }
+    ]
+  },
+  {
+    "id": "palade_collaborated_palay",
+    "source": "george_palade",
+    "type": "collaborated_with",
+    "target": "sanford_palay",
+    "sources": [
+      {
+        "source_id": "palade_obituary_2008",
+        "page": 1,
+        "quote": "Some of the earliest electron micrographs that reveal the ultrastructure of neural tissue were provided by Palade and his colleague Sanford Palay."
+      }
+    ]
+  },
+  {
+    "id": "palade_awarded_nobel",
+    "source": "george_palade",
+    "type": "awarded",
+    "target": "nobel_prize_1974",
+    "event_id": "palade_nobel_prize",
+    "sources": [
+      {
+        "source_id": "palade_obituary_2008",
+        "page": 1,
+        "quote": "Palade, together with his co-winners of the Nobel Prize in 1974, was described by the Nobel Committee as the father of Cell Biology."
+      }
+    ]
+  },
+  {
+    "id": "palade_awarded_national_medal",
+    "source": "george_palade",
+    "type": "awarded",
+    "target": "national_medal_of_science",
+    "sources": [
+      {
+        "source_id": "palade_obituary_2008",
+        "page": 1,
+        "quote": "In addition to his Nobel Prize for Physiology or Medicine, he was honored with the National Medal of Science, the Albert Lasker Award for Basic Medical Research and Columbia University's Louisa Gross Horwitz Prize."
+      }
+    ]
+  },
+  {
+    "id": "palade_awarded_lasker",
+    "source": "george_palade",
+    "type": "awarded",
+    "target": "albert_lasker_award",
+    "sources": [
+      {
+        "source_id": "palade_obituary_2008",
+        "page": 1,
+        "quote": "In addition to his Nobel Prize for Physiology or Medicine, he was honored with the National Medal of Science, the Albert Lasker Award for Basic Medical Research and Columbia University's Louisa Gross Horwitz Prize."
+      }
+    ]
+  },
+  {
+    "id": "palade_awarded_horwitz",
+    "source": "george_palade",
+    "type": "awarded",
+    "target": "louisa_gross_horwitz_prize",
+    "sources": [
+      {
+        "source_id": "palade_obituary_2008",
+        "page": 1,
+        "quote": "In addition to his Nobel Prize for Physiology or Medicine, he was honored with the National Medal of Science, the Albert Lasker Award for Basic Medical Research and Columbia University's Louisa Gross Horwitz Prize."
+      }
+    ]
+  },
+  {
+    "id": "palade_published_jcb",
+    "source": "george_palade",
+    "type": "published",
+    "target": "journal_of_cell_biology",
+    "sources": [
+      {
+        "source_id": "palade_obituary_2008",
+        "page": 1,
+        "quote": "Over his lifetime Palade would publish 109 papers in the same journal."
+      }
+    ]
+  },
+  {
+    "id": "palade_invented_ribosomes",
+    "source": "george_palade",
+    "type": "developed",
+    "target": "electron_microscope",
+    "note": "Used electron microscope to reveal ribosomes and other organelles",
+    "sources": [
+      {
+        "source_id": "palade_obituary_2008",
+        "page": 1,
+        "quote": "His tools were the newly developed electron microscope and sugar solution in a concentration gradient spun at high speed in a centrifuge to stratify the cellular components according to density."
+      }
+    ]
+  },
+  {
+    "id": "farquhar_chairs_ucsd_dept",
+    "source": "marilyn_farquhar",
+    "type": "employed_by",
+    "target": "department_of_cellular_and_molecular_medicine_ucsd",
+    "sources": [
+      {
+        "source_id": "palade_obituary_2008",
+        "page": 1,
+        "quote": "he married Marilyn Farquhar, who chairs the Department of Cellular and Molecular Medicine at the University of California, San Diego."
+      }
+    ]
+  }
+]

@@ -1,0 +1,391 @@
+[
+  {
+    "id": "cambridge_enrollment",
+    "event_type": "education",
+    "label": "Entered Cambridge to study mathematics",
+    "description": "Brenda entered Cambridge in 1936 to study mathematics but later switched to psychology.",
+    "date": {
+      "display": "1936",
+      "precision": "year",
+      "sort_start": "1936-01-01",
+      "sort_end": "1936-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "brenda_milner",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_cambridge",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kolb_2022",
+        "page": 2,
+        "quote": "Brenda entered Cambridge in 1936 to study mathematics but later switched to psychology."
+      }
+    ]
+  },
+  {
+    "id": "radar_work",
+    "event_type": "employment_start",
+    "label": "Worked in a radar establishment",
+    "description": "During World War II she worked in a radar establishment before moving to Montreal.",
+    "date": {
+      "display": "During World War II",
+      "precision": "range",
+      "sort_start": "1939-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "brenda_milner",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kolb_2022",
+        "page": 2,
+        "quote": "During World War II she worked in a radar establishment before moving to Montreal in 1944 with her husband, Peter Milner"
+      }
+    ]
+  },
+  {
+    "id": "move_to_montreal",
+    "event_type": "relocation",
+    "label": "Moved to Montreal",
+    "description": "Moved to Montreal in 1944 with her husband, Peter Milner, who was unexpectedly suddenly sent there to help set up Canadian atomic-energy research.",
+    "date": {
+      "display": "1944",
+      "precision": "year",
+      "sort_start": "1944-01-01",
+      "sort_end": "1944-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "brenda_milner",
+        "role": "subject"
+      },
+      {
+        "entity_id": "peter_milner",
+        "role": "family"
+      },
+      {
+        "entity_id": "montreal",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kolb_2022",
+        "page": 2,
+        "quote": "moving to Montreal in 1944 with her husband, Peter Milner, who was unexpectedly suddenly sent there to help set up Canadian atomic-energy research."
+      }
+    ]
+  },
+  {
+    "id": "univ_montreal_teaching",
+    "event_type": "employment_start",
+    "label": "Got job at University of Montreal",
+    "description": "She got a job at the University of Montreal teaching psychology and animal behavior (in French).",
+    "date": {
+      "display": "1944",
+      "precision": "year",
+      "sort_start": "1944-01-01",
+      "sort_end": "1944-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "brenda_milner",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_montreal",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kolb_2022",
+        "page": 2,
+        "quote": "She got a job at the University of Montreal teaching psychology and animal behavior (in French)."
+      }
+    ]
+  },
+  {
+    "id": "mcgill_graduate",
+    "event_type": "education",
+    "label": "Began graduate work at McGill",
+    "description": "Following the war she began graduate work at McGill with Donald Hebb.",
+    "date": {
+      "display": "Following the war",
+      "precision": "range",
+      "sort_start": "1945-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "brenda_milner",
+        "role": "subject"
+      },
+      {
+        "entity_id": "mcgill_university",
+        "role": "institution"
+      },
+      {
+        "entity_id": "donald_hebb",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kolb_2022",
+        "page": 2,
+        "quote": "Following the war she began graduate work at McGill with Donald Hebb."
+      }
+    ]
+  },
+  {
+    "id": "penfield_work_start",
+    "event_type": "employment_start",
+    "label": "Began working with Penfield's patients",
+    "description": "Brenda began working with Wilder Penfield's neurosurgical patients in 1950 where she studied the role of the temporal lobes in visual perception and memory for her Ph.D.",
+    "date": {
+      "display": "1950",
+      "precision": "year",
+      "sort_start": "1950-01-01",
+      "sort_end": "1950-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "brenda_milner",
+        "role": "subject"
+      },
+      {
+        "entity_id": "wilder_penfield",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "montreal_neurological_institute",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kolb_2022",
+        "page": 2,
+        "quote": "Brenda began working with Wilder Penfield's neurosurgical patients in 1950 where she studied the role of the temporal lobes in visual perception and memory for her Ph.D."
+      }
+    ]
+  },
+  {
+    "id": "hm_study_publication",
+    "event_type": "publication",
+    "label": "Published classic study of patient H.M.",
+    "description": "This opportunity led to Brenda's now classic studies of patient H.M (Scoville and Milner, 1957).",
+    "date": {
+      "display": "1957",
+      "precision": "year",
+      "sort_start": "1957-01-01",
+      "sort_end": "1957-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "brenda_milner",
+        "role": "author"
+      },
+      {
+        "entity_id": "william_scoville",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "patient_hm",
+        "role": "subject"
+      },
+      {
+        "entity_id": "loss_of_recent_memory_after_bilateral_hippocampal_lesions",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kolb_2022",
+        "page": 2,
+        "quote": "This opportunity led to Brenda's now classic studies of patient H.M (Scoville and Milner, 1957)."
+      }
+    ]
+  },
+  {
+    "id": "frontal_symposium",
+    "event_type": "conference",
+    "label": "Attended Frontal Granular Cortex symposium",
+    "description": "Brenda Milner's opportunity to introduce her work on frontal lobe came at a large symposium on the Frontal Granular Cortex and Behavior held at Pennsylvania State University in 1962.",
+    "date": {
+      "display": "1962",
+      "precision": "year",
+      "sort_start": "1962-01-01",
+      "sort_end": "1962-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "brenda_milner",
+        "role": "presenter"
+      },
+      {
+        "entity_id": "pennsylvania_state_university",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kolb_2022",
+        "page": 3,
+        "quote": "Brenda Milner's opportunity to introduce her work on frontal lobe came at a large symposium on the Frontal Granular Cortex and Behavior held at Pennsylvania State University in 1962"
+      }
+    ]
+  },
+  {
+    "id": "frontal_lobectomy_chapter",
+    "event_type": "publication",
+    "label": "Published chapter on frontal lobectomy",
+    "description": "Milner's chapter, \"Some effects of frontal lobectomy in man,\" was the ﬁrst systematic study of the effect of frontal lobe excisions on cognition in human patients.",
+    "date": {
+      "display": "1964",
+      "precision": "year",
+      "sort_start": "1964-01-01",
+      "sort_end": "1964-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "brenda_milner",
+        "role": "author"
+      },
+      {
+        "entity_id": "the_frontal_granular_cortex_and_behavior",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kolb_2022",
+        "page": 1,
+        "quote": "Milner's chapter, \"Some effects of frontal lobectomy in man,\" was the ﬁrst systematic study of the effect of frontal lobe excisions on cognition in human patients."
+      }
+    ]
+  },
+  {
+    "id": "design_fluency_study",
+    "event_type": "publication",
+    "label": "Published design fluency study",
+    "description": "A study devised by Jones-Gotman and Milner (1977) showed that right frontal lobe patients were impaired at a non-verbal analog of verbal fluency.",
+    "date": {
+      "display": "1977",
+      "precision": "year",
+      "sort_start": "1977-01-01",
+      "sort_end": "1977-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "brenda_milner",
+        "role": "author"
+      },
+      {
+        "entity_id": "jones_gotman",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kolb_2022",
+        "page": 3,
+        "quote": "A study devised by Jones-Gotman and Milner (1977) showed that right frontal lobe patients were impaired at a non-verbal analog of verbal fluency."
+      }
+    ]
+  },
+  {
+    "id": "movement_copying_study",
+    "event_type": "publication",
+    "label": "Published movement copying study",
+    "description": "Kolb and Milner (1981) asked patients to copy a series of arm or facial movements.",
+    "date": {
+      "display": "1981",
+      "precision": "year",
+      "sort_start": "1981-01-01",
+      "sort_end": "1981-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "brenda_milner",
+        "role": "author"
+      },
+      {
+        "entity_id": "bryan_kolb",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kolb_2022",
+        "page": 4,
+        "quote": "Kolb and Milner (1981) asked patients to copy a series of arm or facial movements (see Figure 3 )."
+      }
+    ]
+  },
+  {
+    "id": "associative_learning_study",
+    "event_type": "publication",
+    "label": "Published associative learning study",
+    "description": "Finally, a series of studies by Milner and Petrides (1984) and Petrides (1985, 1990, 1997) demonstrated a severe impairment on conditional associative tasks.",
+    "date": {
+      "display": "1984",
+      "precision": "year",
+      "sort_start": "1984-01-01",
+      "sort_end": "1984-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "brenda_milner",
+        "role": "author"
+      },
+      {
+        "entity_id": "petrides",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kolb_2022",
+        "page": 5,
+        "quote": "Finally, a series of studies by Milner and Petrides (1984) and Petrides (1985, 1990, 1997) demonstrated a severe impairment on conditional associative tasks requiring the learning of arbitrary associations between a set of stimuli and a set of responses."
+      }
+    ]
+  },
+  {
+    "id": "recency_memory_study",
+    "event_type": "publication",
+    "label": "Published recency memory study",
+    "description": "The sequencing deﬁcit could also be interpreted as a deﬁcit in the temporal organization of behavior as later shown by Milner et al. (1991).",
+    "date": {
+      "display": "1991",
+      "precision": "year",
+      "sort_start": "1991-01-01",
+      "sort_end": "1991-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "brenda_milner",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "kolb_2022",
+        "page": 5,
+        "quote": "The sequencing deﬁcit could also be interpreted as a deﬁcit in the temporal organization of behavior as later shown by Milner et al. (1991)."
+      }
+    ]
+  }
+]

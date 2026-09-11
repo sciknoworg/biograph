@@ -1,0 +1,138 @@
+[
+  {
+    "id": "koch_worked_imperial_health",
+    "source": "robert_koch",
+    "type": "worked_at",
+    "target": "imperial_health_office",
+    "event_id": "koch_leave_imperial_office",
+    "sources": [
+      {
+        "source_id": "gradmann_2001",
+        "page": 6,
+        "quote": "he was no longer the lone country physician he had been earlier, but the leader of a mushrooming team at the Imperial Health Office in Berlin."
+      }
+    ]
+  },
+  {
+    "id": "koch_worked_berlin_uni",
+    "source": "robert_koch",
+    "type": "worked_at",
+    "target": "university_of_berlin",
+    "event_id": "koch_hygiene_chair",
+    "sources": [
+      {
+        "source_id": "gradmann_2001",
+        "page": 21,
+        "quote": "Koch ended up with a newly-created chair of hygiene at the University of Berlin."
+      }
+    ]
+  },
+  {
+    "id": "koch_founded_institute",
+    "source": "robert_koch",
+    "type": "founded",
+    "target": "institute_for_infectious_diseases",
+    "event_id": "koch_institute_founded",
+    "sources": [
+      {
+        "source_id": "gradmann_2001",
+        "page": 23,
+        "quote": "Koch found himself the first director of a newly founded institute for infectious diseases in Berlin."
+      }
+    ]
+  },
+  {
+    "id": "koch_discovered_bacillus",
+    "source": "robert_koch",
+    "type": "invented",
+    "target": "tubercle_bacillus",
+    "event_id": "koch_tb_announcement",
+    "sources": [
+      {
+        "source_id": "gradmann_2001",
+        "page": 1,
+        "quote": "Robert Koch's identification of the tuberculosis pathogen in 1882 is held to be his greatest scientific achievement."
+      }
+    ]
+  },
+  {
+    "id": "koch_developed_tuberculin",
+    "source": "robert_koch",
+    "type": "invented",
+    "target": "tuberculin",
+    "event_id": "koch_tuberculin_announcement",
+    "sources": [
+      {
+        "source_id": "gradmann_2001",
+        "page": 22,
+        "quote": "Koch's work on tuberculin is best understood in connection with his previous and tremendously successful work on tuberculosis."
+      }
+    ]
+  },
+  {
+    "id": "koch_collaborated_loffler",
+    "source": "robert_koch",
+    "type": "collaborated_with",
+    "target": "friedrich_loffler",
+    "sources": [
+      {
+        "source_id": "gradmann_2001",
+        "page": 1,
+        "quote": "In the eyes of his friend and colleague, Friedrich Loffler"
+      }
+    ]
+  },
+  {
+    "id": "koch_collaborated_ehrlich",
+    "source": "robert_koch",
+    "type": "collaborated_with",
+    "target": "paul_ehrlich",
+    "sources": [
+      {
+        "source_id": "gradmann_2001",
+        "page": 1,
+        "quote": "Paul Ehrlich, remembering Koch's presentation"
+      }
+    ]
+  },
+  {
+    "id": "koch_rival_pasteur",
+    "source": "robert_koch",
+    "type": "collaborated_with",
+    "target": "louis_pasteur",
+    "note": "Professional competition",
+    "sources": [
+      {
+        "source_id": "gradmann_2001",
+        "page": 3,
+        "quote": "These include professional competition, most notably with Pasteur and his school"
+      }
+    ]
+  },
+  {
+    "id": "koch_taught_cohn",
+    "source": "robert_koch",
+    "type": "educated_by",
+    "target": "ferdinand_julius_cohn",
+    "sources": [
+      {
+        "source_id": "gradmann_2001",
+        "page": 8,
+        "quote": "In the early 1870s, Koch's teacher Ferdinand Julius Cohn had done most of the work on the issue."
+      }
+    ]
+  },
+  {
+    "id": "koch_lived_berlin",
+    "source": "robert_koch",
+    "type": "lived_in",
+    "target": "berlin",
+    "sources": [
+      {
+        "source_id": "gradmann_2001",
+        "page": 6,
+        "quote": "leader of a mushrooming team at the Imperial Health Office in Berlin."
+      }
+    ]
+  }
+]

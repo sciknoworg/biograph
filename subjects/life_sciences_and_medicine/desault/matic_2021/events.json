@@ -1,0 +1,458 @@
+[
+  {
+    "id": "birth",
+    "event_type": "birth",
+    "label": "Born in Magny-Vernois",
+    "date": {
+      "display": "February the 6th, 1738",
+      "precision": "day",
+      "sort_start": "1738-02-06",
+      "sort_end": "1738-02-06"
+    },
+    "participants": [
+      {
+        "entity_id": "pierre_joseph_desault",
+        "role": "subject"
+      }
+    ],
+    "location": "magny_vernois",
+    "sources": [
+      {
+        "source_id": "matic_2021",
+        "page": 5,
+        "quote": "was born at village Magny -Vernois, a small place near Lure, in 1738 on February the 6th [1],"
+      }
+    ]
+  },
+  {
+    "id": "moved_to_paris",
+    "event_type": "relocation",
+    "label": "Moved to Paris",
+    "date": {
+      "display": "1764",
+      "precision": "year",
+      "sort_start": "1764-01-01",
+      "sort_end": "1764-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pierre_joseph_desault",
+        "role": "subject"
+      }
+    ],
+    "location": "paris",
+    "sources": [
+      {
+        "source_id": "matic_2021",
+        "page": 5,
+        "quote": "he came to Paris in 1764, while in his twenties."
+      }
+    ]
+  },
+  {
+    "id": "opened_anatomy_school",
+    "event_type": "other",
+    "label": "Opened school of anatomy",
+    "date": {
+      "display": "winter of 1766",
+      "precision": "season",
+      "sort_start": "1766-01-01",
+      "sort_end": "1766-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pierre_joseph_desault",
+        "role": "subject"
+      }
+    ],
+    "location": "paris",
+    "sources": [
+      {
+        "source_id": "matic_2021",
+        "page": 5,
+        "quote": "he opened a school of anatomy in the winter of 1766."
+      }
+    ]
+  },
+  {
+    "id": "joined_corps_of_surgeons",
+    "event_type": "role_change",
+    "label": "Became member of Corps of Surgeons",
+    "date": {
+      "display": "1766",
+      "precision": "year",
+      "sort_start": "1766-01-01",
+      "sort_end": "1766-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pierre_joseph_desault",
+        "role": "subject"
+      },
+      {
+        "entity_id": "corps_of_surgeons",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "matic_2021",
+        "page": 5,
+        "quote": "During the same year, he became a member of the Corps of Surgeons."
+      }
+    ]
+  },
+  {
+    "id": "thesis_defense",
+    "event_type": "education",
+    "label": "Presented thesis",
+    "date": {
+      "display": "1776",
+      "precision": "year",
+      "sort_start": "1776-01-01",
+      "sort_end": "1776-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pierre_joseph_desault",
+        "role": "subject"
+      },
+      {
+        "entity_id": "academie_royale_de_chirurgie",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "matic_2021",
+        "page": 6,
+        "quote": "he presented his thesis in 1776."
+      }
+    ]
+  },
+  {
+    "id": "published_traite",
+    "event_type": "publication",
+    "label": "Published Traitè des maladies chirurgicales",
+    "date": {
+      "display": "1779",
+      "precision": "year",
+      "sort_start": "1779-01-01",
+      "sort_end": "1779-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pierre_joseph_desault",
+        "role": "subject"
+      },
+      {
+        "entity_id": "francois_chopart",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "traite_des_maladies_chirurgicales",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "matic_2021",
+        "page": 6,
+        "quote": "Together with Chopart he published Traitè des maladies chirurgicales in 1779."
+      }
+    ]
+  },
+  {
+    "id": "surgeon_at_charite",
+    "event_type": "employment_start",
+    "label": "Became surgeon at De la Charité",
+    "date": {
+      "display": "1782",
+      "precision": "year",
+      "sort_start": "1782-01-01",
+      "sort_end": "1782-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pierre_joseph_desault",
+        "role": "subject"
+      },
+      {
+        "entity_id": "de_la_charite",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "matic_2021",
+        "page": 6,
+        "quote": "In the year 1782, he became a major surgeon to the hospital De la Charitè."
+      }
+    ]
+  },
+  {
+    "id": "married",
+    "event_type": "other",
+    "label": "Married Marguerite Thouvenin",
+    "date": {
+      "display": "February 1782",
+      "precision": "month",
+      "sort_start": "1782-02-01",
+      "sort_end": "1782-02-28"
+    },
+    "participants": [
+      {
+        "entity_id": "pierre_joseph_desault",
+        "role": "subject"
+      },
+      {
+        "entity_id": "marguerite_thouvenin",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "matic_2021",
+        "page": 6,
+        "quote": "He was married to Marguerite Thouvenin in February 1782,"
+      }
+    ]
+  },
+  {
+    "id": "son_born",
+    "event_type": "other",
+    "label": "Son Alexis-Pierre-Mathias born",
+    "date": {
+      "display": "1784",
+      "precision": "year",
+      "sort_start": "1784-01-01",
+      "sort_end": "1784-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pierre_joseph_desault",
+        "role": "subject"
+      },
+      {
+        "entity_id": "alexis_pierre_mathias",
+        "role": "child"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "matic_2021",
+        "page": 6,
+        "quote": "and got a son Alexis-Pierre-Mathias in 1784.godine."
+      }
+    ]
+  },
+  {
+    "id": "surgeon_at_hotel_dieu",
+    "event_type": "employment_start",
+    "label": "Became surgeon at Hôtel-Dieu",
+    "date": {
+      "display": "1785",
+      "precision": "year",
+      "sort_start": "1785-01-01",
+      "sort_end": "1785-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pierre_joseph_desault",
+        "role": "subject"
+      },
+      {
+        "entity_id": "hotel_dieu",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "matic_2021",
+        "page": 6,
+        "quote": "In 1785 he became a surgeon in a hospital Hôtel-Dieu"
+      }
+    ]
+  },
+  {
+    "id": "conflict_with_academy",
+    "event_type": "other",
+    "label": "Conflict with Surgical Academy",
+    "date": {
+      "display": "1787-1789",
+      "precision": "range",
+      "sort_start": "1787-01-01",
+      "sort_end": "1789-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pierre_joseph_desault",
+        "role": "subject"
+      },
+      {
+        "entity_id": "academie_royale_de_chirurgie",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "matic_2021",
+        "page": 6,
+        "quote": "This conflict lasted from 1787 until 1789."
+      }
+    ]
+  },
+  {
+    "id": "established_journal",
+    "event_type": "publication",
+    "label": "Established Journal de chirurgerie",
+    "date": {
+      "display": "1791",
+      "precision": "year",
+      "sort_start": "1791-01-01",
+      "sort_end": "1791-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pierre_joseph_desault",
+        "role": "subject"
+      },
+      {
+        "entity_id": "journal_de_chirurgerie",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "matic_2021",
+        "page": 6,
+        "quote": "In 1791 he established a Journal de Chirurgerie,"
+      }
+    ]
+  },
+  {
+    "id": "court_appearance",
+    "event_type": "other",
+    "label": "Brought to court",
+    "date": {
+      "display": "1792",
+      "precision": "year",
+      "sort_start": "1792-01-01",
+      "sort_end": "1792-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pierre_joseph_desault",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "matic_2021",
+        "page": 7,
+        "quote": "he was brought to court of justice in 1792."
+      }
+    ]
+  },
+  {
+    "id": "arrested",
+    "event_type": "other",
+    "label": "Arrested and imprisoned",
+    "date": {
+      "display": "28th of May in 1793",
+      "precision": "day",
+      "sort_start": "1793-05-28",
+      "sort_end": "1793-05-28"
+    },
+    "participants": [
+      {
+        "entity_id": "pierre_joseph_desault",
+        "role": "subject"
+      }
+    ],
+    "location": "luxembourg_prison",
+    "sources": [
+      {
+        "source_id": "matic_2021",
+        "page": 7,
+        "quote": "He was arrested on the 28th of May in 1793,"
+      }
+    ]
+  },
+  {
+    "id": "liberated",
+    "event_type": "other",
+    "label": "Liberated from prison",
+    "date": {
+      "display": "After three days",
+      "precision": "day",
+      "sort_start": "1793-05-31",
+      "sort_end": "1793-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pierre_joseph_desault",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "matic_2021",
+        "page": 7,
+        "quote": "After three days he was liberated"
+      }
+    ]
+  },
+  {
+    "id": "visited_louis_xvii",
+    "event_type": "visit",
+    "label": "Visited Crown prince Louis XVII",
+    "date": {
+      "display": "31st of May 1795",
+      "precision": "day",
+      "sort_start": "1795-05-31",
+      "sort_end": "1795-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pierre_joseph_desault",
+        "role": "subject"
+      },
+      {
+        "entity_id": "louis_xvii",
+        "role": "patient"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "matic_2021",
+        "page": 7,
+        "quote": "On the 31st of May 1795 he visited Crown prince Louis XVII,"
+      }
+    ]
+  },
+  {
+    "id": "death",
+    "event_type": "death",
+    "label": "Died from ataxic fever",
+    "date": {
+      "display": "June the 1st, 1795",
+      "precision": "day",
+      "sort_start": "1795-06-01",
+      "sort_end": "1795-06-01"
+    },
+    "participants": [
+      {
+        "entity_id": "pierre_joseph_desault",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "matic_2021",
+        "page": 7,
+        "quote": "Desault died shortly after that, on June the 1st, from ataxic fever[7]."
+      }
+    ]
+  }
+]

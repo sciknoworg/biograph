@@ -1,0 +1,136 @@
+[
+  {
+    "id": "hubel_collaborated_wiesel",
+    "source": "david_hubel",
+    "type": "collaborated_with",
+    "target": "torsten_wiesel",
+    "start": {
+      "display": "1958",
+      "precision": "year",
+      "sort_start": "1958-01-01",
+      "sort_end": "1958-12-31"
+    },
+    "end": {
+      "display": "late 1970s",
+      "precision": "decade",
+      "sort_start": "1975-01-01",
+      "sort_end": "1979-12-31"
+    },
+    "event_id": "hubel_wiesel_collaboration_start",
+    "sources": [
+      {
+        "source_id": "dalhousie_obituary_2013",
+        "page": 1,
+        "quote": "In 1958, David began a long collaboration with Torsten Wiesel. The Hubel and Wiesel collaboration continued into the late 1970s"
+      }
+    ]
+  },
+  {
+    "id": "hubel_worked_dalhousie",
+    "source": "david_hubel",
+    "type": "worked_at",
+    "target": "dalhousie_university",
+    "start": {
+      "display": "2004",
+      "precision": "year",
+      "sort_start": "2004-01-01",
+      "sort_end": "2004-12-31"
+    },
+    "end": {
+      "display": "2006",
+      "precision": "year",
+      "sort_start": "2006-01-01",
+      "sort_end": "2006-12-31"
+    },
+    "event_id": "hubel_dalhousie_visiting_scholar",
+    "sources": [
+      {
+        "source_id": "dalhousie_obituary_2013",
+        "page": 1,
+        "quote": "Many members of the Dalhousie University community had the privilege of meeting and working with David, especially during his time at Dal from 2004-2006."
+      }
+    ]
+  },
+  {
+    "id": "hubel_married_ruth",
+    "source": "david_hubel",
+    "type": "married_to",
+    "target": "s_ruth_hubel",
+    "sources": [
+      {
+        "source_id": "dalhousie_obituary_2013",
+        "page": 1,
+        "quote": "David was husband of the late S. Ruth Hubel (Izzard)."
+      }
+    ]
+  },
+  {
+    "id": "hubel_awarded_nobel",
+    "source": "david_hubel",
+    "type": "awarded",
+    "target": "nobel_prize_physiology_medicine_1981",
+    "event_id": "hubel_nobel_prize",
+    "sources": [
+      {
+        "source_id": "dalhousie_obituary_2013",
+        "page": 1,
+        "quote": "culminating with the Nobel Prize in Physiology or Medicine in 1981."
+      }
+    ]
+  },
+  {
+    "id": "hubel_published_book",
+    "source": "david_hubel",
+    "type": "published",
+    "target": "brain_and_visual_perception",
+    "event_id": "hubel_book_released",
+    "sources": [
+      {
+        "source_id": "dalhousie_obituary_2013",
+        "page": 1,
+        "quote": "His second book, Brain and Visual Perception, was released while he was here"
+      }
+    ]
+  },
+  {
+    "id": "hubel_founded_prize",
+    "source": "david_hubel",
+    "type": "founded",
+    "target": "david_ruth_hubel_prize",
+    "sources": [
+      {
+        "source_id": "dalhousie_obituary_2013",
+        "page": 1,
+        "quote": "At the end of his sabbatical at Dal, David and his wife, Ruth, left a donation to the Undergraduate Neuroscience Prize, which was thereafter renamed the David and Ruth Hubel Undergraduate Neuroscience prize."
+      }
+    ]
+  },
+  {
+    "id": "hubel_son_jesse",
+    "source": "david_hubel",
+    "type": "family_of",
+    "target": "jesse_hubel",
+    "note": "Father",
+    "sources": [
+      {
+        "source_id": "dalhousie_obituary_2013",
+        "page": 1,
+        "quote": "The son of the late Jesse and Elsie Hubel"
+      }
+    ]
+  },
+  {
+    "id": "hubel_son_elsie",
+    "source": "david_hubel",
+    "type": "family_of",
+    "target": "elsie_hubel",
+    "note": "Mother",
+    "sources": [
+      {
+        "source_id": "dalhousie_obituary_2013",
+        "page": 1,
+        "quote": "The son of the late Jesse and Elsie Hubel"
+      }
+    ]
+  }
+]

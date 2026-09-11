@@ -1,0 +1,708 @@
+[
+  {
+    "id": "birth_1917",
+    "event_type": "birth",
+    "label": "Born in United Kingdom",
+    "date": {
+      "display": "1917",
+      "precision": "year",
+      "sort_start": "1917-01-01",
+      "sort_end": "1917-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christian_de_duve",
+        "role": "subject"
+      }
+    ],
+    "location": "united_kingdom",
+    "sources": [
+      {
+        "source_id": "opperdoes_2013",
+        "page": 1,
+        "quote": "Born in 1917 in the United Kingdom to Belgian parents who had fled the devastation of the Western Front during the First World War"
+      }
+    ]
+  },
+  {
+    "id": "return_to_belgium_1920",
+    "event_type": "relocation",
+    "label": "Family returned to Belgium",
+    "date": {
+      "display": "1920",
+      "precision": "year",
+      "sort_start": "1920-01-01",
+      "sort_end": "1920-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christian_de_duve",
+        "role": "subject"
+      }
+    ],
+    "location": "belgium",
+    "sources": [
+      {
+        "source_id": "opperdoes_2013",
+        "page": 1,
+        "quote": "After the war, in 1920, he and his family returned to Belgium"
+      }
+    ]
+  },
+  {
+    "id": "medical_student_1934_1941",
+    "event_type": "education",
+    "label": "Enrolled as medical student at Catholic University of Louvain",
+    "date": {
+      "display": "1934–1941",
+      "precision": "range",
+      "sort_start": "1934-01-01",
+      "sort_end": "1941-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christian_de_duve",
+        "role": "subject"
+      },
+      {
+        "entity_id": "universite_catholique_de_louvain",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "opperdoes_2013",
+        "page": 1,
+        "quote": "He embarked upon his career as a researcher when he enrolled as a medical student at the francophone branch of the Catholic University of Louvain in Belgium (1934–1941)."
+      }
+    ]
+  },
+  {
+    "id": "joined_bouckaert_lab",
+    "event_type": "employment_start",
+    "label": "Joined laboratory of J. P. Bouckaert",
+    "date": {
+      "display": "Second World War",
+      "precision": "decade",
+      "sort_start": "1939-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christian_de_duve",
+        "role": "subject"
+      },
+      {
+        "entity_id": "j_p_bouckaert",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "opperdoes_2013",
+        "page": 1,
+        "quote": "de Duve decided to specialize in endocrinology and joined the laboratory of the Belgian physiologist J. P. Bouckaert, where he started his research under the difficult circumstances of the Second World War"
+      }
+    ]
+  },
+  {
+    "id": "pow_escape",
+    "event_type": "other",
+    "label": "Escaped German prisoner of war camp",
+    "date": {
+      "display": "Second World War",
+      "precision": "decade",
+      "sort_start": "1939-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christian_de_duve",
+        "role": "subject"
+      },
+      {
+        "entity_id": "belgian_army",
+        "role": "employer"
+      }
+    ],
+    "location": "france",
+    "sources": [
+      {
+        "source_id": "opperdoes_2013",
+        "page": 1,
+        "quote": "Drafted by the Belgian army, he served as a medical officer in France where he was taken prisoner of war by the Germans. Thanks to his excellent knowledge of German and Flemish, de Duve was able to outwit the enemy and escape back to Belgium"
+      }
+    ]
+  },
+  {
+    "id": "insulin_glucagon_discovery",
+    "event_type": "invention",
+    "label": "Discovered glucagon contamination in insulin",
+    "date": {
+      "display": "Second World War",
+      "precision": "decade",
+      "sort_start": "1939-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christian_de_duve",
+        "role": "subject"
+      },
+      {
+        "entity_id": "insulin",
+        "role": "invention"
+      },
+      {
+        "entity_id": "glucagon",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "opperdoes_2013",
+        "page": 1,
+        "quote": "In doing so, he discovered that a commercial preparation of insulin happened to be contaminated with another pancreatic hormone, the insulin antagonist glucagon"
+      }
+    ]
+  },
+  {
+    "id": "stockholm_visit",
+    "event_type": "visit",
+    "label": "Visited Hugo Theorell's laboratory",
+    "date": {
+      "display": "After the war",
+      "precision": "decade",
+      "sort_start": "1945-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christian_de_duve",
+        "role": "subject"
+      },
+      {
+        "entity_id": "hugo_theorell",
+        "role": "collaborator"
+      }
+    ],
+    "location": "stockholm",
+    "sources": [
+      {
+        "source_id": "opperdoes_2013",
+        "page": 1,
+        "quote": "First, he spent almost a year in Hugo Theorell's laboratory at the Nobel Medical Institute in Stockholm"
+      }
+    ]
+  },
+  {
+    "id": "st_louis_visit",
+    "event_type": "visit",
+    "label": "Visited Coris' laboratory at Washington University",
+    "date": {
+      "display": "After the war",
+      "precision": "decade",
+      "sort_start": "1945-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christian_de_duve",
+        "role": "subject"
+      },
+      {
+        "entity_id": "gerty_cori",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "carl_cori",
+        "role": "collaborator"
+      }
+    ],
+    "location": "st_louis",
+    "sources": [
+      {
+        "source_id": "opperdoes_2013",
+        "page": 1,
+        "quote": "subsequently, he crossed the ocean and went to Gerty and Carl Cori's laboratory at Washington University in St. Louis"
+      }
+    ]
+  },
+  {
+    "id": "professor_louvain_1947",
+    "event_type": "employment_start",
+    "label": "Appointed professor at Louvain medical school",
+    "date": {
+      "display": "1947",
+      "precision": "year",
+      "sort_start": "1947-01-01",
+      "sort_end": "1947-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christian_de_duve",
+        "role": "subject"
+      },
+      {
+        "entity_id": "universite_catholique_de_louvain",
+        "role": "employer"
+      }
+    ],
+    "location": "belgium",
+    "sources": [
+      {
+        "source_id": "opperdoes_2013",
+        "page": 1,
+        "quote": "In 1947, de Duve returned to Belgium to take up the position of professor at the medical school in Louvain"
+      }
+    ]
+  },
+  {
+    "id": "subcellular_biochemistry_1950",
+    "event_type": "role_change",
+    "label": "Devoted to subcellular biochemistry",
+    "date": {
+      "display": "Beginning in 1950",
+      "precision": "year",
+      "sort_start": "1950-01-01",
+      "sort_end": "1950-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christian_de_duve",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "opperdoes_2013",
+        "page": 1,
+        "quote": "Beginning in 1950, however, he devoted himself more and more to subcellular biochemistry"
+      }
+    ]
+  },
+  {
+    "id": "lysosome_discovery_1955",
+    "event_type": "invention",
+    "label": "Discovered lysosome",
+    "date": {
+      "display": "1955",
+      "precision": "year",
+      "sort_start": "1955-01-01",
+      "sort_end": "1955-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christian_de_duve",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lysosome",
+        "role": "invention"
+      }
+    ],
+    "location": "belgium",
+    "sources": [
+      {
+        "source_id": "opperdoes_2013",
+        "page": 1,
+        "quote": "Using this approach while working at the Catholic University of Louvain in 1955, de Duve and collaborators reached the conclusion that acid phosphatase and other hydrolases with an acid pH optimum were enclosed in a new organelle, which they proposed to call ''lysosome.''"
+      }
+    ]
+  },
+  {
+    "id": "lysosome_micrographs",
+    "event_type": "other",
+    "label": "First saw lysosomes via electron micrographs",
+    "date": {
+      "display": "Later",
+      "precision": "circa",
+      "sort_start": "1956-01-01",
+      "sort_end": "1960-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christian_de_duve",
+        "role": "subject"
+      },
+      {
+        "entity_id": "alex_b_novikoff",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "opperdoes_2013",
+        "page": 2,
+        "quote": "Later, together with Alex B. Novikoff of the Albert Einstein College of Medicine in New York, de Duve first saw lysosomes when he made electron micrographs of highly purified cell fractions."
+      }
+    ]
+  },
+  {
+    "id": "peroxisome_discovery",
+    "event_type": "invention",
+    "label": "Discovered peroxisome",
+    "date": {
+      "display": "A few years later",
+      "precision": "circa",
+      "sort_start": "1958-01-01",
+      "sort_end": "1962-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christian_de_duve",
+        "role": "subject"
+      },
+      {
+        "entity_id": "peroxisome",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "opperdoes_2013",
+        "page": 2,
+        "quote": "A few years later he discovered a second organelle, which was characterized by the marker enzyme catalase and was loaded mostly with enzymes involved in a dangerous form of oxidation, releasing toxic peroxides, explaining why such reactions should be enclosed within a separate membrane-bound compartment. For this organelle de Duve coined the name peroxisome."
+      }
+    ]
+  },
+  {
+    "id": "rockefeller_professor_1962_1987",
+    "event_type": "employment_start",
+    "label": "Appointed Andrew W. Mellon professor at Rockefeller Institute",
+    "date": {
+      "display": "1962–1987",
+      "precision": "range",
+      "sort_start": "1962-01-01",
+      "sort_end": "1987-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christian_de_duve",
+        "role": "subject"
+      },
+      {
+        "entity_id": "rockefeller_institute",
+        "role": "employer"
+      }
+    ],
+    "location": "new_york",
+    "sources": [
+      {
+        "source_id": "opperdoes_2013",
+        "page": 2,
+        "quote": "From 1962 onwards, because of his collaborative work with Claude and Palade in New York, de Duve divided his time between the Catholic University of Louvain and the Rockefeller Institute, where he was appointed Andrew W. Mellon professor (1962–1987)."
+      }
+    ]
+  },
+  {
+    "id": "university_split_1968",
+    "event_type": "other",
+    "label": "Catholic University of Louvain split",
+    "date": {
+      "display": "1968",
+      "precision": "year",
+      "sort_start": "1968-01-01",
+      "sort_end": "1968-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "universite_catholique_de_louvain",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "opperdoes_2013",
+        "page": 2,
+        "quote": "In 1968, Belgian politicians decided to split the bilingual Catholic University of Louvain along language lines."
+      }
+    ]
+  },
+  {
+    "id": "move_to_brussels_1968",
+    "event_type": "relocation",
+    "label": "Moved to Brussels with medical school",
+    "date": {
+      "display": "1968",
+      "precision": "year",
+      "sort_start": "1968-01-01",
+      "sort_end": "1968-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christian_de_duve",
+        "role": "subject"
+      }
+    ],
+    "location": "brussels",
+    "sources": [
+      {
+        "source_id": "opperdoes_2013",
+        "page": 2,
+        "quote": "de Duve moved to Brussels with the new medical school, which was created at a separate campus from the new francophone university."
+      }
+    ]
+  },
+  {
+    "id": "icp_founded_1974",
+    "event_type": "company_founded",
+    "label": "Founded International Institute of Cellular and Molecular Pathology",
+    "date": {
+      "display": "1974",
+      "precision": "year",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christian_de_duve",
+        "role": "subject"
+      },
+      {
+        "entity_id": "international_institute_of_cellular_and_molecular_pathology",
+        "role": "invention"
+      }
+    ],
+    "location": "brussels",
+    "sources": [
+      {
+        "source_id": "opperdoes_2013",
+        "page": 2,
+        "quote": "Immediately after receiving the Nobel Prize, de Duve, together with several of his Belgian colleagues, created a new biomedical institute on the Brussels campus: the International Institute of Cellular and Molecular Pathology (ICP)"
+      }
+    ]
+  },
+  {
+    "id": "icp_renamed_1997",
+    "event_type": "company_renamed",
+    "label": "ICP renamed de Duve Institute",
+    "date": {
+      "display": "1997",
+      "precision": "year",
+      "sort_start": "1997-01-01",
+      "sort_end": "1997-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christian_de_duve",
+        "role": "subject"
+      },
+      {
+        "entity_id": "de_duve_institute",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "opperdoes_2013",
+        "page": 2,
+        "quote": "an institute of translational medicine that was re-named the de Duve Institute on the occasion of his 80th birthday in 1997."
+      }
+    ]
+  },
+  {
+    "id": "nobel_prize_1974",
+    "event_type": "award",
+    "label": "Shared Nobel Prize in Physiology or Medicine",
+    "date": {
+      "display": "1974",
+      "precision": "year",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christian_de_duve",
+        "role": "subject"
+      },
+      {
+        "entity_id": "albert_claude",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "george_e_palade",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "nobel_prize_physiology_medicine_1974",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "opperdoes_2013",
+        "page": 1,
+        "quote": "for which he shared the Nobel Prize in Physiology or Medicine in 1974 with Albert Claude and George E. Palade."
+      }
+    ]
+  },
+  {
+    "id": "gairdner_award_1967",
+    "event_type": "award",
+    "label": "Received Canada Gairdner International Award",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christian_de_duve",
+        "role": "subject"
+      },
+      {
+        "entity_id": "canada_gairdner_international_award_1967",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "opperdoes_2013",
+        "page": 2,
+        "quote": "In addition to the Nobel Prize, Christian de Duve was the recipient of the Canada Gairdner International Award (1967)"
+      }
+    ]
+  },
+  {
+    "id": "heineken_prize_1973",
+    "event_type": "award",
+    "label": "Received Dr. H. P. Heineken Prize",
+    "date": {
+      "display": "1973",
+      "precision": "year",
+      "sort_start": "1973-01-01",
+      "sort_end": "1973-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christian_de_duve",
+        "role": "subject"
+      },
+      {
+        "entity_id": "dr_h_p_heineken_prize_1973",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "opperdoes_2013",
+        "page": 2,
+        "quote": "the Dr. H. P. Heineken Prize (1973) from the Royal Netherlands Academy of Arts and Sciences"
+      }
+    ]
+  },
+  {
+    "id": "nas_election_1975",
+    "event_type": "award",
+    "label": "Elected foreign associate of National Academy of Sciences",
+    "date": {
+      "display": "1975",
+      "precision": "year",
+      "sort_start": "1975-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christian_de_duve",
+        "role": "subject"
+      },
+      {
+        "entity_id": "national_academy_of_sciences_usa",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "opperdoes_2013",
+        "page": 2,
+        "quote": "In 1975, he was elected a foreign associate of the National Academy of Sciences of the United States of America."
+      }
+    ]
+  },
+  {
+    "id": "wilson_award_1989",
+    "event_type": "award",
+    "label": "Received E. B. Wilson Award",
+    "date": {
+      "display": "1989",
+      "precision": "year",
+      "sort_start": "1989-01-01",
+      "sort_end": "1989-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christian_de_duve",
+        "role": "subject"
+      },
+      {
+        "entity_id": "e_b_wilson_award_1989",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "opperdoes_2013",
+        "page": 2,
+        "quote": "and the E. B. Wilson Award of the American Society for Cell Biology (1989)."
+      }
+    ]
+  },
+  {
+    "id": "viscount_1989",
+    "event_type": "award",
+    "label": "Raised to rank of Viscount",
+    "date": {
+      "display": "1989",
+      "precision": "year",
+      "sort_start": "1989-01-01",
+      "sort_end": "1989-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christian_de_duve",
+        "role": "subject"
+      },
+      {
+        "entity_id": "king_baudouin",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "viscount",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "opperdoes_2013",
+        "page": 2,
+        "quote": "In 1989, he was raised to the rank of Viscount by King Baudouin of Belgium."
+      }
+    ]
+  },
+  {
+    "id": "death_2013",
+    "event_type": "death",
+    "label": "Died by euthanasia",
+    "date": {
+      "display": "2013",
+      "precision": "year",
+      "sort_start": "2013-01-01",
+      "sort_end": "2013-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christian_de_duve",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "opperdoes_2013",
+        "page": 2,
+        "quote": "He chose to die by an act of euthanasia, while surrounded by his children."
+      }
+    ]
+  }
+]

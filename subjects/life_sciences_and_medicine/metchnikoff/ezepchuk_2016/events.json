@@ -1,0 +1,510 @@
+[
+  {
+    "id": "birth",
+    "event_type": "birth",
+    "label": "Born in Ivanovka",
+    "date": {
+      "display": "3(15) May, 1845",
+      "precision": "day",
+      "sort_start": "1845-05-03",
+      "sort_end": "1845-05-15"
+    },
+    "location": "ivanovka",
+    "participants": [
+      {
+        "entity_id": "ilya_ilyich_metchnikoff",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 1,
+        "quote": "I. I. Metchnikoff was born on 3(15) May, 1845 in the village of Ivanovka, Kharkov province, now the territory of modern Ukraine."
+      }
+    ]
+  },
+  {
+    "id": "move_to_panasovka",
+    "event_type": "relocation",
+    "label": "Family moved to Panasovka",
+    "date": {
+      "display": "Soon after his birth",
+      "precision": "year",
+      "sort_start": "1845-01-01",
+      "sort_end": "1846-12-31"
+    },
+    "location": "panasovka",
+    "participants": [
+      {
+        "entity_id": "ilya_ilyich_metchnikoff",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 1,
+        "quote": "Soon after his birth, the family moved to the village Panasovka, which also belonged to the estate of his father [1-3]."
+      }
+    ]
+  },
+  {
+    "id": "move_to_kharkov",
+    "event_type": "relocation",
+    "label": "Family moved to Kharkov",
+    "date": {
+      "display": "1850",
+      "precision": "year",
+      "sort_start": "1850-01-01",
+      "sort_end": "1850-12-31"
+    },
+    "location": "kharkov",
+    "participants": [
+      {
+        "entity_id": "ilya_ilyich_metchnikoff",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 3,
+        "quote": "In 1850 the whole family moved from Panasovka to Kharkov."
+      }
+    ]
+  },
+  {
+    "id": "kharkov_university_grad",
+    "event_type": "education",
+    "label": "Completed course at University of Kharkov",
+    "date": {
+      "display": "at the age of 19",
+      "precision": "year",
+      "sort_start": "1864-01-01",
+      "sort_end": "1864-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ilya_ilyich_metchnikoff",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_kharkov",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 4,
+        "quote": "Metchnikoff completed a four-year course at the University of Kharkov in two years, at the age of 19"
+      }
+    ]
+  },
+  {
+    "id": "masters_thesis",
+    "event_type": "education",
+    "label": "Completed master's thesis at Odessa University",
+    "date": {
+      "display": "at the age of 22",
+      "precision": "year",
+      "sort_start": "1867-01-01",
+      "sort_end": "1867-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ilya_ilyich_metchnikoff",
+        "role": "subject"
+      },
+      {
+        "entity_id": "odessa_university",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 4,
+        "quote": "he successfully completed at the age of 22 in the Odessa University"
+      }
+    ]
+  },
+  {
+    "id": "odessa_lecturer",
+    "event_type": "employment_start",
+    "label": "Became lecturer at Odessa University",
+    "date": {
+      "display": "1867",
+      "precision": "year",
+      "sort_start": "1867-01-01",
+      "sort_end": "1867-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ilya_ilyich_metchnikoff",
+        "role": "subject"
+      },
+      {
+        "entity_id": "odessa_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 4,
+        "quote": "he immediately became a lecturer of this university."
+      }
+    ]
+  },
+  {
+    "id": "doctoral_thesis",
+    "event_type": "education",
+    "label": "Defended doctoral thesis at St. Petersburg University",
+    "date": {
+      "display": "1868",
+      "precision": "year",
+      "sort_start": "1868-01-01",
+      "sort_end": "1868-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ilya_ilyich_metchnikoff",
+        "role": "subject"
+      },
+      {
+        "entity_id": "st_petersburg_university",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 4,
+        "quote": "In 1868, Metchnikoff defended his doctoral thesis [17] at the University of St. Petersburg"
+      }
+    ]
+  },
+  {
+    "id": "marriage_lyudmila",
+    "event_type": "other",
+    "label": "Married Lyudmila Vasilyevna Fedorovich",
+    "date": {
+      "display": "1869",
+      "precision": "year",
+      "sort_start": "1869-01-01",
+      "sort_end": "1869-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ilya_ilyich_metchnikoff",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lyudmila_vasilyevna_fedorovich",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 5,
+        "quote": "whom he married in 1869."
+      }
+    ]
+  },
+  {
+    "id": "lyudmila_death",
+    "event_type": "death",
+    "label": "Lyudmila died",
+    "date": {
+      "display": "four years after the wedding",
+      "precision": "year",
+      "sort_start": "1873-01-01",
+      "sort_end": "1873-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lyudmila_vasilyevna_fedorovich",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 5,
+        "quote": "Lyudmila died four years after the wedding."
+      }
+    ]
+  },
+  {
+    "id": "marriage_olga",
+    "event_type": "other",
+    "label": "Married Olga Nikolaevna Belokopytova",
+    "date": {
+      "display": "1875",
+      "precision": "year",
+      "sort_start": "1875-01-01",
+      "sort_end": "1875-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ilya_ilyich_metchnikoff",
+        "role": "subject"
+      },
+      {
+        "entity_id": "olga_nikolaevna_belokopytova",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 5,
+        "quote": "In 1875 Metchnikoff decided to remarry, this time to his student Olga Nikolaevna Belokopytova"
+      }
+    ]
+  },
+  {
+    "id": "leave_odessa",
+    "event_type": "employment_end",
+    "label": "Left Odessa University",
+    "date": {
+      "display": "After March 1, 1881",
+      "precision": "year",
+      "sort_start": "1881-03-02",
+      "sort_end": "1881-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ilya_ilyich_metchnikoff",
+        "role": "subject"
+      },
+      {
+        "entity_id": "odessa_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 7,
+        "quote": "Unable to put up with the status quo Metchnikoff left the University."
+      }
+    ]
+  },
+  {
+    "id": "messina_work",
+    "event_type": "employment_start",
+    "label": "Worked in Messina",
+    "date": {
+      "display": "1882 and 1883",
+      "precision": "range",
+      "sort_start": "1882-01-01",
+      "sort_end": "1883-12-31"
+    },
+    "location": "messina",
+    "participants": [
+      {
+        "entity_id": "ilya_ilyich_metchnikoff",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 7,
+        "quote": "My main stay in Messina related to 1882 and 1883."
+      }
+    ]
+  },
+  {
+    "id": "phagocytosis_discovery",
+    "event_type": "invention",
+    "label": "Discovered phagocytosis",
+    "date": {
+      "display": "1882 and 1883",
+      "precision": "range",
+      "sort_start": "1882-01-01",
+      "sort_end": "1883-12-31"
+    },
+    "location": "messina",
+    "participants": [
+      {
+        "entity_id": "ilya_ilyich_metchnikoff",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 7,
+        "quote": "It is here, in Messina, Metchnikoff made the most important discovery of his life."
+      }
+    ]
+  },
+  {
+    "id": "move_to_paris",
+    "event_type": "relocation",
+    "label": "Moved to Paris",
+    "date": {
+      "display": "1887",
+      "precision": "year",
+      "sort_start": "1887-01-01",
+      "sort_end": "1887-12-31"
+    },
+    "location": "paris",
+    "participants": [
+      {
+        "entity_id": "ilya_ilyich_metchnikoff",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 8,
+        "quote": "Thus, in 1887, at the age of 42, Metchnikoff left his homeland forever. He settled in Paris"
+      }
+    ]
+  },
+  {
+    "id": "pasteur_department_head",
+    "event_type": "employment_start",
+    "label": "Headed Department at Pasteur Institute",
+    "date": {
+      "display": "1887",
+      "precision": "year",
+      "sort_start": "1887-01-01",
+      "sort_end": "1887-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ilya_ilyich_metchnikoff",
+        "role": "subject"
+      },
+      {
+        "entity_id": "pasteur_institute",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 8,
+        "quote": "First, Metchnikoff headed the Department of Comparative Morphology of Microorganisms in the Pasteur's Institute"
+      }
+    ]
+  },
+  {
+    "id": "pasteur_deputy_director",
+    "event_type": "role_change",
+    "label": "Became deputy director of Pasteur Institute",
+    "date": {
+      "display": "1905",
+      "precision": "year",
+      "sort_start": "1905-01-01",
+      "sort_end": "1905-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ilya_ilyich_metchnikoff",
+        "role": "subject"
+      },
+      {
+        "entity_id": "pasteur_institute",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 8,
+        "quote": "in 1905, several years after Pasteur's death, when Emile Roux was elected as a third director of the Institute; Metchnikoff became the deputy director of this Institute."
+      }
+    ]
+  },
+  {
+    "id": "nobel_prize",
+    "event_type": "award",
+    "label": "Awarded Nobel Prize in Physiology or Medicine",
+    "date": {
+      "display": "1908",
+      "precision": "year",
+      "sort_start": "1908-01-01",
+      "sort_end": "1908-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ilya_ilyich_metchnikoff",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize_1908",
+        "role": "award"
+      },
+      {
+        "entity_id": "paul_ehrlich",
+        "role": "co-recipient"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 1,
+        "quote": "Metchnikoff was awarded the 1908 Nobel Prize in Physiology or Medicine (jointly with the German Professor Paul Ehrlich)."
+      }
+    ]
+  },
+  {
+    "id": "death",
+    "event_type": "death",
+    "label": "Died in Paris",
+    "date": {
+      "display": "2(15) July 1916",
+      "precision": "day",
+      "sort_start": "1916-07-02",
+      "sort_end": "1916-07-15"
+    },
+    "location": "paris",
+    "participants": [
+      {
+        "entity_id": "ilya_ilyich_metchnikoff",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 9,
+        "quote": "2(15) July 1916 scientist's heart stopped beating."
+      }
+    ]
+  },
+  {
+    "id": "cremation",
+    "event_type": "other",
+    "label": "Body cremated at Père Lachaise",
+    "date": {
+      "display": "July 18",
+      "precision": "day",
+      "sort_start": "1916-07-18",
+      "sort_end": "1916-07-18"
+    },
+    "location": "pere_lachaise_cemetery",
+    "participants": [
+      {
+        "entity_id": "ilya_ilyich_metchnikoff",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 9,
+        "quote": "On July 18 his body was cremated at the cemetery Père Lachaise in Paris."
+      }
+    ]
+  }
+]

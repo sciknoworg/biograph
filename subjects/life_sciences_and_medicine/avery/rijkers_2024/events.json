@@ -1,0 +1,667 @@
+[
+  {
+    "id": "avery_birth",
+    "event_type": "birth",
+    "label": "Born in Halifax, Canada",
+    "date": {
+      "display": "October 21, 1877",
+      "precision": "day",
+      "sort_start": "1877-10-21",
+      "sort_end": "1877-10-21"
+    },
+    "participants": [
+      {
+        "entity_id": "oswald_avery",
+        "role": "subject"
+      }
+    ],
+    "location": "halifax",
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 3,
+        "quote": "Oswald Avery was born to Elizabeth Crowdy and Joseph Francis Avery on October 21, 1877, in Halifax, Canada."
+      }
+    ]
+  },
+  {
+    "id": "avery_move_nyc",
+    "event_type": "relocation",
+    "label": "Family moved to New York City",
+    "date": {
+      "display": "1887",
+      "precision": "year",
+      "sort_start": "1887-01-01",
+      "sort_end": "1887-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "oswald_avery",
+        "role": "subject"
+      }
+    ],
+    "location": "new_york_city",
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 3,
+        "quote": "In 1887, at 10 years old, the Avery family moved to New York City (NYC), USA."
+      }
+    ]
+  },
+  {
+    "id": "ernest_avery_death",
+    "event_type": "death",
+    "label": "Brother Ernest died",
+    "date": {
+      "display": "1892",
+      "precision": "year",
+      "sort_start": "1892-01-01",
+      "sort_end": "1892-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ernest_avery",
+        "role": "subject"
+      },
+      {
+        "entity_id": "oswald_avery",
+        "role": "family_of"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 3,
+        "quote": "disaster struck the family in 1892 when Ernest passed away at 18 from suspected tuberculosis."
+      }
+    ]
+  },
+  {
+    "id": "joseph_avery_death",
+    "event_type": "death",
+    "label": "Father Joseph died",
+    "date": {
+      "display": "1892",
+      "precision": "year",
+      "sort_start": "1892-01-01",
+      "sort_end": "1892-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_francis_avery",
+        "role": "subject"
+      },
+      {
+        "entity_id": "oswald_avery",
+        "role": "family_of"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 3,
+        "quote": "Some months later, Joseph Avery passed away too, leaving Oswald Avery to raise his younger brother Roy with his mother."
+      }
+    ]
+  },
+  {
+    "id": "avery_colgate_degree",
+    "event_type": "education",
+    "label": "Received Bachelor's degree from Colgate",
+    "date": {
+      "display": "1900",
+      "precision": "year",
+      "sort_start": "1900-01-01",
+      "sort_end": "1900-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "oswald_avery",
+        "role": "subject"
+      },
+      {
+        "entity_id": "colgate_university",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 3,
+        "quote": "Oswald Avery began his education at the New York Male Grammar School, followed by a Bachelor's degree in music and the humanities at Colgate in 1900"
+      }
+    ]
+  },
+  {
+    "id": "avery_md_degree",
+    "event_type": "education",
+    "label": "Received medical degree",
+    "date": {
+      "display": "1904",
+      "precision": "year",
+      "sort_start": "1904-01-01",
+      "sort_end": "1904-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "oswald_avery",
+        "role": "subject"
+      },
+      {
+        "entity_id": "college_of_physicians_and_surgeons",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 3,
+        "quote": "He followed his academic career degree by enrolling in the College of Physicians and Surgeons in New York, where he received his medical degree in 1904."
+      }
+    ]
+  },
+  {
+    "id": "avery_hoagland_start",
+    "event_type": "employment_start",
+    "label": "Started at Hoagland Laboratory",
+    "date": {
+      "display": "1907",
+      "precision": "year",
+      "sort_start": "1907-01-01",
+      "sort_end": "1907-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "oswald_avery",
+        "role": "subject"
+      },
+      {
+        "entity_id": "hoagland_laboratory",
+        "role": "employer"
+      }
+    ],
+    "location": "brooklyn",
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 3,
+        "quote": "His first appointment as a researcher was at the Hoagland Laboratory in Brooklyn NYC in 1907"
+      }
+    ]
+  },
+  {
+    "id": "avery_rockefeller_start",
+    "event_type": "employment_start",
+    "label": "Joined Rockefeller Institute",
+    "date": {
+      "display": "1913",
+      "precision": "year",
+      "sort_start": "1913-01-01",
+      "sort_end": "1913-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "oswald_avery",
+        "role": "subject"
+      },
+      {
+        "entity_id": "rockefeller_institute",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 3,
+        "quote": "He offered Avery a job, which he accepted in 1913."
+      }
+    ]
+  },
+  {
+    "id": "avery_army_service",
+    "event_type": "employment_start",
+    "label": "Joined U.S. Army Medical Corps",
+    "date": {
+      "display": "1917",
+      "precision": "year",
+      "sort_start": "1917-01-01",
+      "sort_end": "1917-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "oswald_avery",
+        "role": "subject"
+      },
+      {
+        "entity_id": "us_army_medical_corps",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 3,
+        "quote": "When the United States entered the First World War in 1917, the research activities of Avery on pneumococcal infections were put on hold when he joined the U.S. Army Medical Corps."
+      }
+    ]
+  },
+  {
+    "id": "avery_citizenship",
+    "event_type": "other",
+    "label": "Qualified for U.S. citizenship",
+    "date": {
+      "display": "1918",
+      "precision": "year",
+      "sort_start": "1918-01-01",
+      "sort_end": "1918-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "oswald_avery",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 3,
+        "quote": "Because of his service in the Medical Corps, Avery qualified for U.S. citizenship in 1918"
+      }
+    ]
+  },
+  {
+    "id": "avery_retirement",
+    "event_type": "retirement",
+    "label": "Officially retired from Rockefeller",
+    "date": {
+      "display": "1943",
+      "precision": "year",
+      "sort_start": "1943-01-01",
+      "sort_end": "1943-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "oswald_avery",
+        "role": "subject"
+      },
+      {
+        "entity_id": "rockefeller_institute",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 3,
+        "quote": "Avery was forced to officially retire at the age of 65 in 1943"
+      }
+    ]
+  },
+  {
+    "id": "avery_rockefeller_end",
+    "event_type": "employment_end",
+    "label": "Left Rockefeller Institute",
+    "date": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "oswald_avery",
+        "role": "subject"
+      },
+      {
+        "entity_id": "rockefeller_institute",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 3,
+        "quote": "but he continued his research at the Institute until 1948."
+      }
+    ]
+  },
+  {
+    "id": "avery_move_nashville",
+    "event_type": "relocation",
+    "label": "Moved to Nashville, Tennessee",
+    "date": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "oswald_avery",
+        "role": "subject"
+      }
+    ],
+    "location": "nashville",
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 3,
+        "quote": "He then moved to Nashville, Tennessee, to be closer to his brother Roy and Roy's family."
+      }
+    ]
+  },
+  {
+    "id": "avery_dna_publication",
+    "event_type": "publication",
+    "label": "Published DNA transformation paper",
+    "date": {
+      "display": "1944",
+      "precision": "year",
+      "sort_start": "1944-01-01",
+      "sort_end": "1944-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "oswald_avery",
+        "role": "subject"
+      },
+      {
+        "entity_id": "colin_macleod",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "maclyn_mccarty",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "dna_transformation_paper_1944",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 3,
+        "quote": "Avery's crowning glory would happen in 1944, when he, along with Colin MacLeod and Maclyn McCarty, published a paper showing evidence that purified DNA was capable of the transformation of pneumococcal serotypes"
+      }
+    ]
+  },
+  {
+    "id": "avery_death",
+    "event_type": "death",
+    "label": "Died in Nashville",
+    "date": {
+      "display": "February 20, 1955",
+      "precision": "day",
+      "sort_start": "1955-02-20",
+      "sort_end": "1955-02-20"
+    },
+    "participants": [
+      {
+        "entity_id": "oswald_avery",
+        "role": "subject"
+      }
+    ],
+    "location": "nashville",
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 3,
+        "quote": "On February 20, 1955, Oswald Avery died at the age of 77 from liver cancer, surrounded by his family."
+      }
+    ]
+  },
+  {
+    "id": "avery_aai_president",
+    "event_type": "role_change",
+    "label": "President of American Association of Immunologists",
+    "date": {
+      "display": "1929-1930",
+      "precision": "range",
+      "sort_start": "1929-01-01",
+      "sort_end": "1930-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "oswald_avery",
+        "role": "subject"
+      },
+      {
+        "entity_id": "american_association_of_immunologists",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 5,
+        "quote": "Avery served as President of the American Association of Immunologists (1929-1930)"
+      }
+    ]
+  },
+  {
+    "id": "avery_aapb_president",
+    "event_type": "role_change",
+    "label": "President of American Association of Pathologists and Bacteriologists",
+    "date": {
+      "display": "1934",
+      "precision": "year",
+      "sort_start": "1934-01-01",
+      "sort_end": "1934-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "oswald_avery",
+        "role": "subject"
+      },
+      {
+        "entity_id": "american_association_of_pathologists_and_bacteriologists",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 5,
+        "quote": "the American Association of Pathologists and Bacteriologists (1934)"
+      }
+    ]
+  },
+  {
+    "id": "avery_sab_president",
+    "event_type": "role_change",
+    "label": "President of Society of American Bacteriologists",
+    "date": {
+      "display": "1941-1942",
+      "precision": "range",
+      "sort_start": "1941-01-01",
+      "sort_end": "1942-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "oswald_avery",
+        "role": "subject"
+      },
+      {
+        "entity_id": "society_of_american_bacteriologists",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 5,
+        "quote": "and the Society of American Bacteriologists (1941-1942)."
+      }
+    ]
+  },
+  {
+    "id": "avery_nas_election",
+    "event_type": "award",
+    "label": "Elected to National Academy of Sciences",
+    "date": {
+      "display": "1933",
+      "precision": "year",
+      "sort_start": "1933-01-01",
+      "sort_end": "1933-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "oswald_avery",
+        "role": "subject"
+      },
+      {
+        "entity_id": "national_academy_of_sciences",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 5,
+        "quote": "He was elected to the National Academy of Sciences in 1933"
+      }
+    ]
+  },
+  {
+    "id": "avery_royal_society_election",
+    "event_type": "award",
+    "label": "Elected to Royal Society of London",
+    "date": {
+      "display": "1944",
+      "precision": "year",
+      "sort_start": "1944-01-01",
+      "sort_end": "1944-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "oswald_avery",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_society_of_london",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 5,
+        "quote": "and the Royal Society of London in 1944."
+      }
+    ]
+  },
+  {
+    "id": "avery_john_phillips_award",
+    "event_type": "award",
+    "label": "Received John Phillips Memorial Award",
+    "date": {
+      "display": "1932",
+      "precision": "year",
+      "sort_start": "1932-01-01",
+      "sort_end": "1932-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "oswald_avery",
+        "role": "subject"
+      },
+      {
+        "entity_id": "john_phillips_memorial_award",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 5,
+        "quote": "In 1932, he received the John Phillips Memorial Award from the American College of Physicians"
+      }
+    ]
+  },
+  {
+    "id": "avery_copley_medal",
+    "event_type": "award",
+    "label": "Received Copley Medal",
+    "date": {
+      "display": "1945",
+      "precision": "year",
+      "sort_start": "1945-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "oswald_avery",
+        "role": "subject"
+      },
+      {
+        "entity_id": "copley_medal",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 5,
+        "quote": "in 1945, the Copley Medal from the Royal Society of London"
+      }
+    ]
+  },
+  {
+    "id": "avery_kober_medal",
+    "event_type": "award",
+    "label": "Received Kober Medal",
+    "date": {
+      "display": "1946",
+      "precision": "year",
+      "sort_start": "1946-01-01",
+      "sort_end": "1946-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "oswald_avery",
+        "role": "subject"
+      },
+      {
+        "entity_id": "kober_medal",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 5,
+        "quote": "in 1946, the Kober Medal from the Association of American Physicians"
+      }
+    ]
+  },
+  {
+    "id": "avery_lasker_award",
+    "event_type": "award",
+    "label": "Received Lasker Award",
+    "date": {
+      "display": "1947",
+      "precision": "year",
+      "sort_start": "1947-01-01",
+      "sort_end": "1947-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "oswald_avery",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lasker_award",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 5,
+        "quote": "Avery received the Lasker Award in Basic Medical Research in 1947."
+      }
+    ]
+  }
+]

@@ -1,0 +1,239 @@
+[
+  {
+    "id": "wallace_born_in_usk",
+    "source": "alfred_russel_wallace",
+    "type": "born_in",
+    "target": "usk_monmouthshire",
+    "event_id": "wallace_birth",
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 5,
+        "quote": "Wallace was born in Usk, Monmouthshire"
+      }
+    ]
+  },
+  {
+    "id": "wallace_worked_leicester",
+    "source": "alfred_russel_wallace",
+    "type": "worked_at",
+    "target": "leicester",
+    "event_id": "wallace_leicester_instructor",
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 6,
+        "quote": "he found work as an instructor at a private school in Leicester, England."
+      }
+    ]
+  },
+  {
+    "id": "wallace_collaborated_bates",
+    "source": "alfred_russel_wallace",
+    "type": "collaborated_with",
+    "target": "henry_walter_bates",
+    "event_id": "wallace_brazil_departure",
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 6,
+        "quote": "Bates liked the idea, and they left England in the spring of 1848"
+      }
+    ]
+  },
+  {
+    "id": "wallace_visited_amazon",
+    "source": "alfred_russel_wallace",
+    "type": "visited",
+    "target": "para_belem",
+    "event_id": "wallace_brazil_arrival",
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 6,
+        "quote": "arriving in Pará (now Belém), at the mouth of the Amazon, on May 26."
+      }
+    ]
+  },
+  {
+    "id": "wallace_employed_rgs",
+    "source": "alfred_russel_wallace",
+    "type": "employed_by",
+    "target": "royal_geographical_society",
+    "event_id": "wallace_singapore_grant",
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 7,
+        "quote": "he was able to secure a small grant from the Royal Geographical Society"
+      }
+    ]
+  },
+  {
+    "id": "wallace_visited_malay",
+    "source": "alfred_russel_wallace",
+    "type": "visited",
+    "target": "malay_archipelago",
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 7,
+        "quote": "Wallace's fourteen thousand miles of travel in what was then known as \"the Malay Archipelago\""
+      }
+    ]
+  },
+  {
+    "id": "wallace_published_law_1855",
+    "source": "alfred_russel_wallace",
+    "type": "published",
+    "target": "on_the_law_1855",
+    "event_id": "wallace_sarawak_paper",
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 7,
+        "quote": "\"On the Law which Has Regulated the Introduction of New Species\" (Wallace 1855)"
+      }
+    ]
+  },
+  {
+    "id": "wallace_published_tendency_1858",
+    "source": "alfred_russel_wallace",
+    "type": "published",
+    "target": "on_the_tendency_1858",
+    "event_id": "wallace_ternate_essay",
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 8,
+        "quote": "He quickly drafted up an essay he titled \"On the Tendency of Varieties to Depart Indefinitely from the Original Type\" (Wallace 1858)"
+      }
+    ]
+  },
+  {
+    "id": "wallace_collaborated_darwin",
+    "source": "alfred_russel_wallace",
+    "type": "collaborated_with",
+    "target": "charles_darwin",
+    "event_id": "linnean_reading_1858",
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 8,
+        "quote": "sent it off to a correspondent he knew was interested in the subject—Charles Darwin"
+      }
+    ]
+  },
+  {
+    "id": "wallace_member_linnean",
+    "source": "alfred_russel_wallace",
+    "type": "member_of",
+    "target": "linnean_society_of_london",
+    "event_id": "linnean_reading_1858",
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 8,
+        "quote": "have them read at the next meeting of the Linnean Society of London."
+      }
+    ]
+  },
+  {
+    "id": "wallace_published_malay_archipelago",
+    "source": "alfred_russel_wallace",
+    "type": "published",
+    "target": "the_malay_archipelago_1869",
+    "event_id": "wallace_malay_archipelago_book",
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 9,
+        "quote": "The first, published in 1869, was The Malay Archipelago."
+      }
+    ]
+  },
+  {
+    "id": "wallace_published_geo_dist",
+    "source": "alfred_russel_wallace",
+    "type": "published",
+    "target": "the_geographical_distribution_of_animals_1876",
+    "event_id": "wallace_geo_dist_animals",
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 9,
+        "quote": "In 1876 Wallace released the two-volume tome The Geographical Distribution of Animals"
+      }
+    ]
+  },
+  {
+    "id": "wallace_published_tropical",
+    "source": "alfred_russel_wallace",
+    "type": "published",
+    "target": "tropical_nature_1878",
+    "event_id": "wallace_tropical_nature",
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 9,
+        "quote": "in 1878, Wallace put out his most important contribution to ecological biogeography, Tropical Nature and Other Essays."
+      }
+    ]
+  },
+  {
+    "id": "wallace_published_island_life",
+    "source": "alfred_russel_wallace",
+    "type": "published",
+    "target": "island_life_1880",
+    "event_id": "wallace_island_life",
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 9,
+        "quote": "Wallace's last great work on biogeography appeared in 1880 under the title Island Life."
+      }
+    ]
+  },
+  {
+    "id": "wallace_member_land_soc",
+    "source": "alfred_russel_wallace",
+    "type": "member_of",
+    "target": "land_nationalisation_society",
+    "note": "President for over thirty years",
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 10,
+        "quote": "He was president of the Land Nationalisation Society for over thirty years"
+      }
+    ]
+  },
+  {
+    "id": "wallace_published_mars",
+    "source": "alfred_russel_wallace",
+    "type": "published",
+    "target": "is_mars_habitable_1907",
+    "event_id": "wallace_mars_habitable",
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 10,
+        "quote": "In 1907 he put out a slender volume ( Is Mars Habitable?)"
+      }
+    ]
+  },
+  {
+    "id": "wallace_died_1913",
+    "source": "alfred_russel_wallace",
+    "type": "died_in",
+    "target": "england",
+    "event_id": "wallace_death",
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 5,
+        "quote": "Wallace died on November 7, 1913"
+      }
+    ]
+  }
+]

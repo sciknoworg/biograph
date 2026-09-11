@@ -1,0 +1,185 @@
+[
+  {
+    "id": "pacini_born_pistoia",
+    "source": "filippo_pacini",
+    "type": "born_in",
+    "target": "pistoia",
+    "event_id": "pacini_birth",
+    "sources": [
+      {
+        "source_id": "natale_2012",
+        "page": 1,
+        "quote": "The anatomist and pathologist Filippo Pacini (1812-1883) was born in Pistoia"
+      }
+    ]
+  },
+  {
+    "id": "pacini_worked_pistoia",
+    "source": "filippo_pacini",
+    "type": "worked_at",
+    "target": "pistoia",
+    "start": {
+      "display": "until 1840",
+      "precision": "year",
+      "sort_start": "1812-01-01",
+      "sort_end": "1840-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "natale_2012",
+        "page": 1,
+        "quote": "where he worked until 1840"
+      }
+    ]
+  },
+  {
+    "id": "pacini_worked_pisa",
+    "source": "filippo_pacini",
+    "type": "worked_at",
+    "target": "pisa",
+    "start": {
+      "display": "1840-1846",
+      "precision": "range",
+      "sort_start": "1840-01-01",
+      "sort_end": "1846-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "natale_2012",
+        "page": 1,
+        "quote": "then he moved to Pisa (1840-1846)"
+      }
+    ]
+  },
+  {
+    "id": "pacini_worked_florence",
+    "source": "filippo_pacini",
+    "type": "worked_at",
+    "target": "florence",
+    "start": {
+      "display": "since 1847",
+      "precision": "year",
+      "sort_start": "1847-01-01",
+      "sort_end": "1883-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "natale_2012",
+        "page": 1,
+        "quote": "and Florence (since 1847)"
+      }
+    ]
+  },
+  {
+    "id": "pacini_invented_pacinian_corpuscles",
+    "source": "filippo_pacini",
+    "type": "invented",
+    "target": "pacinian_corpuscles",
+    "sources": [
+      {
+        "source_id": "natale_2012",
+        "page": 1,
+        "quote": "When he was still a student in Pistoia, he described the presence of corpuscles along the digital nerves of the hand"
+      }
+    ]
+  },
+  {
+    "id": "pacini_published_nuovo_giornale",
+    "source": "filippo_pacini",
+    "type": "published",
+    "target": "nuovo_giornale_de_letterati",
+    "event_id": "pacini_nuovo_giornale_publication_1836",
+    "sources": [
+      {
+        "source_id": "natale_2012",
+        "page": 1,
+        "quote": "and its publication in the Nuovo Giornale de' Letterati (1836)"
+      }
+    ]
+  },
+  {
+    "id": "pacini_published_1840_book",
+    "source": "filippo_pacini",
+    "type": "published",
+    "target": "pacini_1840_book",
+    "event_id": "pacini_book_1840",
+    "sources": [
+      {
+        "source_id": "natale_2012",
+        "page": 1,
+        "quote": "Pacini F. (1840) Nuovi organi scoperti nel corpo umano"
+      }
+    ]
+  },
+  {
+    "id": "henle_praised_pacini",
+    "source": "jacob_henle",
+    "type": "collaborated_with",
+    "target": "filippo_pacini",
+    "event_id": "henle_letter_1843",
+    "note": "Henle praised Pacini's discovery in 1843 letter",
+    "sources": [
+      {
+        "source_id": "natale_2012",
+        "page": 1,
+        "quote": "in 1843 Henle sent a letter to the Quinta Unione degli Scienziati Italiani in Lucca, where he firmly praised the Pacini's discovery"
+      }
+    ]
+  },
+  {
+    "id": "henle_kolliker_published_1844",
+    "source": "jacob_henle",
+    "type": "published",
+    "target": "henle_kolliker_1844_book",
+    "event_id": "henle_kolliker_book_1844",
+    "sources": [
+      {
+        "source_id": "natale_2012",
+        "page": 1,
+        "quote": "in 1844 Henle and Kölliker published a book with further observations about the new organs"
+      }
+    ]
+  },
+  {
+    "id": "kolliker_published_1844",
+    "source": "albert_kolliker",
+    "type": "published",
+    "target": "henle_kolliker_1844_book",
+    "event_id": "henle_kolliker_book_1844",
+    "sources": [
+      {
+        "source_id": "natale_2012",
+        "page": 1,
+        "quote": "in 1844 Henle and Kölliker published a book"
+      }
+    ]
+  },
+  {
+    "id": "pacini_preparations_pisa_museum",
+    "source": "filippo_pacini",
+    "type": "member_of",
+    "target": "anatomical_museum_pisa",
+    "note": "Pacini left preparations of lamellar corpuscles in this museum",
+    "sources": [
+      {
+        "source_id": "natale_2012",
+        "page": 1,
+        "quote": "Some interesting preparations of lamellar corpuscles were left by Pacini in the anatomical museums of Pisa and Florence"
+      }
+    ]
+  },
+  {
+    "id": "pacini_preparations_florence_museum",
+    "source": "filippo_pacini",
+    "type": "member_of",
+    "target": "anatomical_museum_florence",
+    "note": "Pacini left preparations of lamellar corpuscles in this museum",
+    "sources": [
+      {
+        "source_id": "natale_2012",
+        "page": 1,
+        "quote": "Some interesting preparations of lamellar corpuscles were left by Pacini in the anatomical museums of Pisa and Florence"
+      }
+    ]
+  }
+]

@@ -1,0 +1,190 @@
+[
+  {
+    "id": "wade_hampton_frost",
+    "entity_type": "person",
+    "name": "Wade Hampton Frost",
+    "aliases": [
+      "Frost",
+      "W.H. Frost",
+      "Wade H. Frost"
+    ],
+    "summary": "American epidemiologist who established the first dedicated department of epidemiology at Johns Hopkins.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "lowell_reed",
+    "entity_type": "person",
+    "name": "Lowell Reed",
+    "aliases": [
+      "Reed",
+      "Lowell J. Reed"
+    ],
+    "summary": "American biostatistician and population ecologist who collaborated with Frost on epidemic theory.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "johns_hopkins_school_of_hygiene",
+    "entity_type": "organization",
+    "name": "Johns Hopkins School of Hygiene",
+    "aliases": [
+      "Johns Hopkins",
+      "Hopkins School of Hygiene",
+      "School of Hygiene"
+    ],
+    "summary": "Academic institution where the first department of epidemiology was established.",
+    "subtype": "university"
+  },
+  {
+    "id": "department_of_epidemiology_jhu",
+    "entity_type": "organization",
+    "name": "Department of Epidemiology",
+    "aliases": [
+      "department of epidemiology at the Hopkins School for Hygiene"
+    ],
+    "summary": "First dedicated academic department of epidemiology, chaired by Frost.",
+    "subtype": "lab"
+  },
+  {
+    "id": "department_of_biometry_jhu",
+    "entity_type": "organization",
+    "name": "Department of Biometry and Vital Statistics",
+    "aliases": [
+      "department for biometry and vital statistics"
+    ],
+    "summary": "Department established by Reed focusing on mathematical analysis of health data.",
+    "subtype": "lab"
+  },
+  {
+    "id": "harvard_university",
+    "entity_type": "organization",
+    "name": "Harvard University",
+    "aliases": [
+      "Harvard"
+    ],
+    "summary": "University where Frost delivered a key lecture on epidemic theory in 1928.",
+    "subtype": "university"
+  },
+  {
+    "id": "reed_frost_model",
+    "entity_type": "artifact",
+    "name": "Reed-Frost epidemic theory",
+    "aliases": [
+      "Reed-Frost epidemic model",
+      "mechanical analogue",
+      "box, a trough, and marbles"
+    ],
+    "summary": "Mechanical model using marbles and a trough to simulate epidemic dynamics.",
+    "subtype": "invention"
+  },
+  {
+    "id": "baltimore",
+    "entity_type": "place",
+    "name": "Baltimore",
+    "aliases": [],
+    "summary": "City where Johns Hopkins University is located and where students conducted fieldwork.",
+    "subtype": "city",
+    "attributes": {
+      "country": "United States",
+      "lat": 39.28639,
+      "lng": -76.615,
+      "wikidata_qid": "Q5092",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "united_states",
+    "entity_type": "place",
+    "name": "United States",
+    "aliases": [
+      "US",
+      "North America"
+    ],
+    "summary": "Country where Frost and Reed worked and epidemiology was institutionalized.",
+    "subtype": "country",
+    "attributes": {
+      "lat": 39.82818,
+      "lng": -98.5795,
+      "wikidata_qid": "Q30",
+      "geocode_basis": "document"
+    }
+  },
+  {
+    "id": "united_kingdom",
+    "entity_type": "place",
+    "name": "United Kingdom",
+    "aliases": [
+      "UK",
+      "London"
+    ],
+    "summary": "Country where epidemiological societies advanced thinking prior to US institutionalization.",
+    "subtype": "country",
+    "attributes": {
+      "lat": 54.6,
+      "lng": -2.0,
+      "wikidata_qid": "Q145",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "raymond_pearl",
+    "entity_type": "person",
+    "name": "Raymond Pearl",
+    "aliases": [
+      "Pearl"
+    ],
+    "summary": "Epidemiologist who brought Pearson's biometric school of thought to the US.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "karl_pearson",
+    "entity_type": "person",
+    "name": "Karl Pearson",
+    "aliases": [
+      "Pearson"
+    ],
+    "summary": "Statistician whose methods influenced the mathematical rigor of epidemiology.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "brian_macmahon",
+    "entity_type": "person",
+    "name": "Brian MacMahon",
+    "aliases": [
+      "MacMahon"
+    ],
+    "summary": "Epidemiologist who introduced the 'web of causation' concept in textbooks.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "thomas_pugh",
+    "entity_type": "person",
+    "name": "Thomas Pugh",
+    "aliases": [
+      "Pugh"
+    ],
+    "summary": "Epidemiologist who co-authored textbooks on epidemiological principles.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "philip_fine",
+    "entity_type": "person",
+    "name": "Philip Fine",
+    "aliases": [
+      "Fine",
+      "P. E. M. Fine"
+    ],
+    "summary": "Epidemiologist who published a commentary on the Reed-Frost model in 1977.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "helen_abbey",
+    "entity_type": "person",
+    "name": "Helen Abbey",
+    "aliases": [
+      "Abbey",
+      "H. Abbey"
+    ],
+    "summary": "Researcher who interpreted the mathematical theory of Reed and Frost.",
+    "subtype": "researcher"
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "id": "bichat_birth",
+    "event_type": "birth",
+    "label": "Born in Thoirette",
+    "description": "Born on November 14, 1771, in the small town of Thoirette, France.",
+    "date": {
+      "display": "November 14, 1771",
+      "precision": "day",
+      "sort_start": "1771-11-14",
+      "sort_end": "1771-11-14"
+    },
+    "location": "thoirette",
+    "participants": [
+      {
+        "entity_id": "xavier_bichat",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cofone_2025",
+        "page": 1,
+        "quote": "Born on November 14, 1771, in the small town of Thoirette, France"
+      }
+    ]
+  },
+  {
+    "id": "bichat_move_paris",
+    "event_type": "relocation",
+    "label": "Moved to Paris",
+    "description": "Moved to Paris in 1793 to become a student of Desault.",
+    "date": {
+      "display": "1793",
+      "precision": "year",
+      "sort_start": "1793-01-01",
+      "sort_end": "1793-12-31"
+    },
+    "location": "paris",
+    "participants": [
+      {
+        "entity_id": "xavier_bichat",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cofone_2025",
+        "page": 1,
+        "quote": "he moved to Paris in 1793"
+      }
+    ]
+  },
+  {
+    "id": "desault_death",
+    "event_type": "death",
+    "label": "Desault died",
+    "description": "Desault's unexpected death was a profound blow to Bichat.",
+    "date": {
+      "display": "1795",
+      "precision": "year",
+      "sort_start": "1795-01-01",
+      "sort_end": "1795-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "pierre_joseph_desault",
+        "role": "subject"
+      },
+      {
+        "entity_id": "xavier_bichat",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cofone_2025",
+        "page": 1,
+        "quote": "Desault's unexpected death in 1795 was a profound blow to Bichat"
+      }
+    ]
+  },
+  {
+    "id": "publication_oeuvres_desault",
+    "event_type": "publication",
+    "label": "Published Desault's surgical works",
+    "description": "Bichat completed and published Desault's surgical works.",
+    "date": {
+      "display": "1798",
+      "precision": "year",
+      "sort_start": "1798-01-01",
+      "sort_end": "1798-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "xavier_bichat",
+        "role": "subject"
+      },
+      {
+        "entity_id": "oeuvres_chirurgicales_desault",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cofone_2025",
+        "page": 1,
+        "quote": "completing and publishing Desault's surgical works (Oeuvres chirurgicales de Desault, 1798)"
+      }
+    ]
+  },
+  {
+    "id": "publication_traite_membranes",
+    "event_type": "publication",
+    "label": "Published Traité des membranes",
+    "description": "Pioneering study of the structure and function of membranes.",
+    "date": {
+      "display": "1800",
+      "precision": "year",
+      "sort_start": "1800-01-01",
+      "sort_end": "1800-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "xavier_bichat",
+        "role": "subject"
+      },
+      {
+        "entity_id": "traite_des_membranes",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cofone_2025",
+        "page": 2,
+        "quote": "Traité des membranes (Bichat, 1800) stands out as a pioneering study of the structure and function of membranes within the body"
+      }
+    ]
+  },
+  {
+    "id": "publication_recherches_vie",
+    "event_type": "publication",
+    "label": "Published Recherches physiologiques",
+    "description": "Physiological exploration of the nature of life and death.",
+    "date": {
+      "display": "1800",
+      "precision": "year",
+      "sort_start": "1800-01-01",
+      "sort_end": "1800-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "xavier_bichat",
+        "role": "subject"
+      },
+      {
+        "entity_id": "recherches_physiologiques",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cofone_2025",
+        "page": 2,
+        "quote": "Bichat published Recherches physiologiques sur la vie et la mort (Bichat, 1800)"
+      }
+    ]
+  },
+  {
+    "id": "publication_anatomie_generale",
+    "event_type": "publication",
+    "label": "Published Anatomie générale",
+    "description": "Systematically categorized tissues as primary anatomical and physiological units.",
+    "date": {
+      "display": "1801",
+      "precision": "year",
+      "sort_start": "1801-01-01",
+      "sort_end": "1801-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "xavier_bichat",
+        "role": "subject"
+      },
+      {
+        "entity_id": "anatomie_generale",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cofone_2025",
+        "page": 2,
+        "quote": "His Anatomie générale appliquée à la physiologie et à la médecine (Bichat, 1801) represents perhaps his most methodologically important contribution"
+      }
+    ]
+  },
+  {
+    "id": "publication_anatomie_descriptive",
+    "event_type": "publication",
+    "label": "Published Anatomie descriptive",
+    "description": "Comprehensive account of human body structure organized by tissue types.",
+    "date": {
+      "display": "1801-1803",
+      "precision": "range",
+      "sort_start": "1801-01-01",
+      "sort_end": "1803-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "xavier_bichat",
+        "role": "subject"
+      },
+      {
+        "entity_id": "anatomie_descriptive",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cofone_2025",
+        "page": 2,
+        "quote": "Anatomie descriptive (published between 1801 and 1803)"
+      }
+    ]
+  },
+  {
+    "id": "bichat_fainting",
+    "event_type": "other",
+    "label": "Fainted at Hôtel-Dieu",
+    "description": "Suddenly fainted while descending stairs at the hospital.",
+    "date": {
+      "display": "8 July 1802",
+      "precision": "day",
+      "sort_start": "1802-07-08",
+      "sort_end": "1802-07-08"
+    },
+    "location": "hotel_dieu",
+    "participants": [
+      {
+        "entity_id": "xavier_bichat",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cofone_2025",
+        "page": 3,
+        "quote": "On 8 July 1802, while descending a set of stairs at the Hôtel-Dieu, Bichat suddenly fainted"
+      }
+    ]
+  },
+  {
+    "id": "bichat_death",
+    "event_type": "death",
+    "label": "Died in Paris",
+    "description": "Died at the age of just 30 after contracting typhoid fever.",
+    "date": {
+      "display": "22 July 1802",
+      "precision": "day",
+      "sort_start": "1802-07-22",
+      "sort_end": "1802-07-22"
+    },
+    "location": "paris",
+    "participants": [
+      {
+        "entity_id": "xavier_bichat",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cofone_2025",
+        "page": 3,
+        "quote": "He died on 22 July 1802, at the age of just 30"
+      }
+    ]
+  }
+]

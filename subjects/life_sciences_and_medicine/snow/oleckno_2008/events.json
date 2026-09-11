@@ -1,0 +1,255 @@
+[
+  {
+    "id": "john_snow_birth",
+    "event_type": "birth",
+    "label": "Born in York",
+    "description": "Born into a working-class family.",
+    "date": {
+      "display": "Mar. 15, 1813",
+      "precision": "day",
+      "sort_start": "1813-03-15",
+      "sort_end": "1813-03-15"
+    },
+    "participants": [
+      {
+        "entity_id": "john_snow",
+        "role": "subject"
+      }
+    ],
+    "location": "york",
+    "sources": [
+      {
+        "source_id": "oleckno_2008",
+        "page": 1,
+        "quote": "Snow was born into a working-class\nfamily in York, England on Mar. 15, 1813."
+      }
+    ]
+  },
+  {
+    "id": "john_snow_apprenticeship",
+    "event_type": "employment_start",
+    "label": "Began apothecary apprenticeship",
+    "description": "Apprenticeship under William Hardcastle in Newcastle-upon-Tyne.",
+    "date": {
+      "display": "1827",
+      "precision": "year",
+      "sort_start": "1827-01-01",
+      "sort_end": "1827-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_snow",
+        "role": "subject"
+      },
+      {
+        "entity_id": "william_hardcastle",
+        "role": "employer"
+      }
+    ],
+    "location": "newcastle_upon_tyne",
+    "sources": [
+      {
+        "source_id": "oleckno_2008",
+        "page": 1,
+        "quote": "In 1827 he began an apothecary appren-\nticeship in Newcastle-upon-Tyne under\nthe direction of William Hardcastle"
+      }
+    ]
+  },
+  {
+    "id": "john_snow_medical_school",
+    "event_type": "education",
+    "label": "Entered Hunterian School of Medicine",
+    "description": "Entered medical school in London while gaining clinical experience at Westminster Hospital.",
+    "date": {
+      "display": "1836",
+      "precision": "year",
+      "sort_start": "1836-01-01",
+      "sort_end": "1836-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_snow",
+        "role": "subject"
+      },
+      {
+        "entity_id": "hunterian_school_of_medicine",
+        "role": "employer"
+      }
+    ],
+    "location": "london",
+    "sources": [
+      {
+        "source_id": "oleckno_2008",
+        "page": 1,
+        "quote": "in 1836 he entered the Hunterian School\nof Medicine in London, while gaining\nclinical experience at Westminster Hos-\npital."
+      }
+    ]
+  },
+  {
+    "id": "john_snow_bm_degree",
+    "event_type": "education",
+    "label": "Received bachelor of medicine",
+    "description": "Degree from the University of London.",
+    "date": {
+      "display": "1843",
+      "precision": "year",
+      "sort_start": "1843-01-01",
+      "sort_end": "1843-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_snow",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_london",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "oleckno_2008",
+        "page": 1,
+        "quote": "He subsequently received his\nbachelor of medicine in 1843"
+      }
+    ]
+  },
+  {
+    "id": "john_snow_md_degree",
+    "event_type": "education",
+    "label": "Received MD",
+    "description": "Degree from the University of London.",
+    "date": {
+      "display": "1844",
+      "precision": "year",
+      "sort_start": "1844-01-01",
+      "sort_end": "1844-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_snow",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_london",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "oleckno_2008",
+        "page": 1,
+        "quote": "and his MD\nin 1844 from the University of London."
+      }
+    ]
+  },
+  {
+    "id": "john_snow_cholera_investigation",
+    "event_type": "other",
+    "label": "Conducted cholera investigations",
+    "description": "Studies on transmission of cholera in London including Golden Square and South London.",
+    "date": {
+      "display": "mid-1800s",
+      "precision": "decade",
+      "sort_start": "1850-01-01",
+      "sort_end": "1859-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_snow",
+        "role": "subject"
+      }
+    ],
+    "location": "london",
+    "sources": [
+      {
+        "source_id": "oleckno_2008",
+        "page": 1,
+        "quote": "Epidemiologists recognize Snow as\na pioneer for his studies on the trans-\nmission of cholera during the mid-\n1800s."
+      }
+    ]
+  },
+  {
+    "id": "john_snow_book_published",
+    "event_type": "publication",
+    "label": "Book published posthumously",
+    "description": "Chloroform and Other Anesthetics edited and published by Benjamin Richardson.",
+    "date": {
+      "display": "1858",
+      "precision": "year",
+      "sort_start": "1858-01-01",
+      "sort_end": "1858-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_snow",
+        "role": "subject"
+      },
+      {
+        "entity_id": "benjamin_richardson",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "chloroform_and_other_anesthetics",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "oleckno_2008",
+        "page": 1,
+        "quote": "which was edited and published later that\nyear by his friend and biographer Dr.\nBenjamin Richardson."
+      }
+    ]
+  },
+  {
+    "id": "john_snow_death",
+    "event_type": "death",
+    "label": "Died of stroke",
+    "description": "Suffered a fatal stroke while nearing completion of his book.",
+    "date": {
+      "display": "June 16, 1858",
+      "precision": "day",
+      "sort_start": "1858-06-16",
+      "sort_end": "1858-06-16"
+    },
+    "participants": [
+      {
+        "entity_id": "john_snow",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "oleckno_2008",
+        "page": 1,
+        "quote": "On June 16, 1858, the world lost a\nlegendary medical pioneer."
+      }
+    ]
+  },
+  {
+    "id": "john_snow_greatest_doctor_award",
+    "event_type": "award",
+    "label": "Voted greatest doctor of all time",
+    "description": "Voted by United Kingdom readers of Hospital Doctor magazine.",
+    "date": {
+      "display": "2003",
+      "precision": "year",
+      "sort_start": "2003-01-01",
+      "sort_end": "2003-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_snow",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "oleckno_2008",
+        "page": 1,
+        "quote": "Voted in 2003 by United Kingdom read-\ners of Hospital Doctor magazine as the\n“greatest doctor of all time,”"
+      }
+    ]
+  }
+]

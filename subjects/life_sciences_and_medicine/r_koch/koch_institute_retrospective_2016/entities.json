@@ -1,0 +1,335 @@
+[
+  {
+    "id": "robert_koch",
+    "entity_type": "person",
+    "name": "Robert Koch",
+    "aliases": [
+      "R. Koch",
+      "Robert Koch – Work and Achievements"
+    ],
+    "summary": "German physician and microbiologist, co-founder of modern bacteriology and Nobel Prize laureate.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "emmy_fraatz",
+    "entity_type": "person",
+    "name": "Emmy Fraatz",
+    "aliases": [
+      "Emmy Koch",
+      "Emmy Koch, née Fraatz"
+    ],
+    "summary": "First wife of Robert Koch.",
+    "subtype": "family"
+  },
+  {
+    "id": "hedwig_freiberg",
+    "entity_type": "person",
+    "name": "Hedwig Freiberg",
+    "aliases": [
+      "Hedwig Koch"
+    ],
+    "summary": "Second wife of Robert Koch.",
+    "subtype": "family"
+  },
+  {
+    "id": "georg_gaffky",
+    "entity_type": "person",
+    "name": "Georg Gaffky",
+    "aliases": [
+      "G. Gaffky"
+    ],
+    "summary": "Bacteriologist and staff member of Robert Koch, later Director of the Institute.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "friedrich_loeffler",
+    "entity_type": "person",
+    "name": "Friedrich Loeffler",
+    "aliases": [
+      "F. Loeffler"
+    ],
+    "summary": "Bacteriologist and staff member of Robert Koch, later Director of the Institute.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "shibasaburo_kitasato",
+    "entity_type": "person",
+    "name": "Shibasaburo Kitasato",
+    "aliases": [
+      "Kitasato"
+    ],
+    "summary": "Japanese bacteriologist and former staff member of Robert Koch.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "kaiser_wilhelm_i",
+    "entity_type": "person",
+    "name": "Kaiser Wilhelm I",
+    "aliases": [
+      "Wilhelm I"
+    ],
+    "summary": "German Emperor who signed Koch's appointment as Government Councillor.",
+    "subtype": "political_figure"
+  },
+  {
+    "id": "otto_furst_bismarck",
+    "entity_type": "person",
+    "name": "Otto Fürst Bismarck",
+    "aliases": [
+      "Bismarck",
+      "Reich Chancellor Otto Fürst Bismarck"
+    ],
+    "summary": "Reich Chancellor who signed Koch's appointment as Government Councillor.",
+    "subtype": "political_figure"
+  },
+  {
+    "id": "wilhelm_ii",
+    "entity_type": "person",
+    "name": "Wilhelm II",
+    "aliases": [
+      "Kaiser Wilhelm II"
+    ],
+    "summary": "German Emperor who appointed Koch as Institute Director.",
+    "subtype": "political_figure"
+  },
+  {
+    "id": "schmarje",
+    "entity_type": "person",
+    "name": "Schmarje",
+    "aliases": [],
+    "summary": "Berlin sculptor who fashioned the relief portrait of Robert Koch.",
+    "subtype": "artist"
+  },
+  {
+    "id": "robert_koch_institute",
+    "entity_type": "organization",
+    "name": "Robert Koch Institute",
+    "aliases": [
+      "RKI",
+      "Royal Prussian Institute for Infectious Diseases",
+      "Prussian Institute for Infectious Diseases Robert Koch",
+      "Institute Robert Koch",
+      "Institute for Infectious Diseases",
+      "Koch Institute"
+    ],
+    "summary": "German federal institute for infectious diseases and non-transmissible diseases, founded by Robert Koch.",
+    "subtype": "research_institute"
+  },
+  {
+    "id": "imperial_health_office",
+    "entity_type": "organization",
+    "name": "Imperial Health Office",
+    "aliases": [
+      "Government councillor in the Imperial Health Office"
+    ],
+    "summary": "German government health authority where Koch worked from 1880.",
+    "subtype": "government_agency"
+  },
+  {
+    "id": "friedrich_wilhelms_university",
+    "entity_type": "organization",
+    "name": "Friedrich Wilhelms University",
+    "aliases": [
+      "University's Hygiene Institute",
+      "Berlin Friedrich Wilhelms University"
+    ],
+    "summary": "University in Berlin where Koch was the first Professor for Hygiene.",
+    "subtype": "university"
+  },
+  {
+    "id": "general_hospital_hamburg",
+    "entity_type": "organization",
+    "name": "General Hospital in Hamburg",
+    "aliases": [],
+    "summary": "Hospital where Koch completed medical clerkship.",
+    "subtype": "hospital"
+  },
+  {
+    "id": "clausthal_harz",
+    "entity_type": "place",
+    "name": "Clausthal/Harz",
+    "aliases": [
+      "Clausthal"
+    ],
+    "summary": "Birthplace of Robert Koch in the Harz region.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Germany"
+    }
+  },
+  {
+    "id": "gottingen",
+    "entity_type": "place",
+    "name": "Göttingen",
+    "aliases": [],
+    "summary": "City where Koch studied medicine and received his PhD.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Germany",
+      "lat": 51.53389,
+      "lng": 9.93556,
+      "wikidata_qid": "Q3033",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "berlin",
+    "entity_type": "place",
+    "name": "Berlin",
+    "aliases": [
+      "Berlin Wedding",
+      "Nordufer"
+    ],
+    "summary": "Capital city where Koch worked and the Institute is located.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Germany",
+      "lat": 52.51667,
+      "lng": 13.38333,
+      "wikidata_qid": "Q64",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "wollstein",
+    "entity_type": "place",
+    "name": "Wollstein",
+    "aliases": [],
+    "summary": "Residence where Koch started experimental work on anthrax.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Germany",
+      "lat": 49.81444,
+      "lng": 7.96083,
+      "wikidata_qid": "Q567724",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "baden_baden",
+    "entity_type": "place",
+    "name": "Baden-Baden",
+    "aliases": [
+      "Baden Baden"
+    ],
+    "summary": "City where Robert Koch died and was cremated.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Germany",
+      "lat": 48.76194,
+      "lng": 8.24083,
+      "wikidata_qid": "Q4100",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "stockholm",
+    "entity_type": "place",
+    "name": "Stockholm",
+    "aliases": [],
+    "summary": "City where the Nobel Prize Award ceremony took place.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Sweden",
+      "lat": 59.32944,
+      "lng": 18.06861,
+      "wikidata_qid": "Q1754",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "egypt",
+    "entity_type": "place",
+    "name": "Egypt",
+    "aliases": [],
+    "summary": "Country visited by Koch to study cholera epidemics.",
+    "subtype": "country",
+    "attributes": {
+      "lat": 27.0,
+      "lng": 29.0,
+      "wikidata_qid": "Q79",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "india",
+    "entity_type": "place",
+    "name": "India",
+    "aliases": [],
+    "summary": "Country visited by Koch to study cholera epidemics.",
+    "subtype": "country",
+    "attributes": {
+      "lat": 22.8,
+      "lng": 83.0,
+      "wikidata_qid": "Q668",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "south_africa",
+    "entity_type": "place",
+    "name": "South Africa",
+    "aliases": [
+      "southern Africa",
+      "British South Africa",
+      "East Africa"
+    ],
+    "summary": "Region where Koch researched animal epidemics and tropical diseases.",
+    "subtype": "region",
+    "attributes": {
+      "lat": -29.0,
+      "lng": 24.0,
+      "wikidata_qid": "Q258",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "japan",
+    "entity_type": "place",
+    "name": "Japan",
+    "aliases": [],
+    "summary": "Country visited by Koch in 1908.",
+    "subtype": "country",
+    "attributes": {
+      "lat": 35.0,
+      "lng": 136.0,
+      "wikidata_qid": "Q17",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "usa",
+    "entity_type": "place",
+    "name": "USA",
+    "aliases": [
+      "United States",
+      "Washington D.C."
+    ],
+    "summary": "Country visited by Koch in 1908.",
+    "subtype": "country",
+    "attributes": {
+      "lat": 39.82818,
+      "lng": -98.5795,
+      "wikidata_qid": "Q30",
+      "geocode_basis": "document"
+    }
+  },
+  {
+    "id": "tuberculin",
+    "entity_type": "artifact",
+    "name": "Tuberculin",
+    "aliases": [],
+    "summary": "Substance developed by Koch for detecting tuberculosis infection.",
+    "subtype": "medical_product"
+  },
+  {
+    "id": "nobel_prize",
+    "entity_type": "artifact",
+    "name": "Nobel Prize",
+    "aliases": [
+      "Nobel Prize medal"
+    ],
+    "summary": "Award received by Robert Koch in 1905.",
+    "subtype": "award"
+  }
+]

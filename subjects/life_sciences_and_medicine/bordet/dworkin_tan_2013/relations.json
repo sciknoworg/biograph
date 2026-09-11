@@ -1,0 +1,149 @@
+[
+  {
+    "id": "bordet_born_soignies",
+    "source": "jules_bordet",
+    "type": "born_in",
+    "target": "soignies",
+    "sources": [
+      {
+        "source_id": "dworkin_tan_2013",
+        "page": 1,
+        "quote": "Jules Bordet was born in 1870 in  \nSoignies, a small town in Belgium."
+      }
+    ]
+  },
+  {
+    "id": "bordet_lived_brussels",
+    "source": "jules_bordet",
+    "type": "lived_in",
+    "target": "brussels",
+    "sources": [
+      {
+        "source_id": "dworkin_tan_2013",
+        "page": 1,
+        "quote": "In 1874, his family moved to  \nBrussels, and he attended a primary school in the Ecole  \nMoyenne, where his father taught."
+      }
+    ]
+  },
+  {
+    "id": "bordet_studied_free_university",
+    "source": "jules_bordet",
+    "type": "studied_at",
+    "target": "free_university_brussels",
+    "sources": [
+      {
+        "source_id": "dworkin_tan_2013",
+        "page": 1,
+        "quote": "at the age of sixteen, he  \nenrolled into medical school at the Free University of Brussels."
+      }
+    ]
+  },
+  {
+    "id": "bordet_worked_pasteur_paris",
+    "source": "jules_bordet",
+    "type": "worked_at",
+    "target": "pasteur_institute_paris",
+    "event_id": "pasteur_institute_start",
+    "sources": [
+      {
+        "source_id": "dworkin_tan_2013",
+        "page": 1,
+        "quote": "Bordet began work at the Pasteur Institute in 1894, and  "
+      }
+    ]
+  },
+  {
+    "id": "bordet_supervised_metchnikoff",
+    "source": "jules_bordet",
+    "type": "supervised_by",
+    "target": "elie_metchnikoff",
+    "sources": [
+      {
+        "source_id": "dworkin_tan_2013",
+        "page": 1,
+        "quote": "This  \nwas the beginning of a fateful relationship with  \nElie Metchnikoff, the father of cellular immunity  \nand a mentor whose analytic style contrasted  \nsharply with that of his young student."
+      }
+    ]
+  },
+  {
+    "id": "bordet_collaborated_gengou",
+    "source": "jules_bordet",
+    "type": "collaborated_with",
+    "target": "octave_gengou",
+    "sources": [
+      {
+        "source_id": "dworkin_tan_2013",
+        "page": 2,
+        "quote": "alongside Octave Gengou, he developed the complement  \nfixation test."
+      }
+    ]
+  },
+  {
+    "id": "bordet_worked_pasteur_brussels",
+    "source": "jules_bordet",
+    "type": "worked_at",
+    "target": "pasteur_institute_brussels",
+    "sources": [
+      {
+        "source_id": "dworkin_tan_2013",
+        "page": 2,
+        "quote": "He divided his  \ntime between directing the newly created Pasteur Institute of  \nBrussels, and after 1907, teaching at the Free University."
+      }
+    ]
+  },
+  {
+    "id": "bordet_awarded_nobel",
+    "source": "jules_bordet",
+    "type": "awarded",
+    "target": "nobel_prize_medicine_1919",
+    "event_id": "nobel_prize",
+    "sources": [
+      {
+        "source_id": "dworkin_tan_2013",
+        "page": 2,
+        "quote": "Bordet received word that he was  \nawarded the Nobel Prize."
+      }
+    ]
+  },
+  {
+    "id": "bordet_invented_complement",
+    "source": "jules_bordet",
+    "type": "invented",
+    "target": "complement",
+    "sources": [
+      {
+        "source_id": "dworkin_tan_2013",
+        "page": 1,
+        "quote": "Bordet called  \nthis substance 'alexin'; today, it is termed' complement'."
+      }
+    ]
+  },
+  {
+    "id": "bordet_invented_complement_fixation",
+    "source": "jules_bordet",
+    "type": "invented",
+    "target": "complement_fixation_test",
+    "event_id": "complement_fixation_test",
+    "sources": [
+      {
+        "source_id": "dworkin_tan_2013",
+        "page": 2,
+        "quote": "he developed the complement  \nfixation test."
+      }
+    ]
+  },
+  {
+    "id": "bordet_discovered_pertussis",
+    "source": "jules_bordet",
+    "type": "invented",
+    "target": "bordetella_pertussis",
+    "event_id": "pertussis_culture",
+    "sources": [
+      {
+        "source_id": "dworkin_tan_2013",
+        "page": 2,
+        "quote": "he cultured the organism  \nresponsible for causing whooping cough in children, later  \nnamed Bordetella pertussis in his honour."
+      }
+    ]
+  }
+]

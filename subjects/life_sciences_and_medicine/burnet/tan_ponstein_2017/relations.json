@@ -1,0 +1,154 @@
+[
+  {
+    "id": "burnet_born_traralgon",
+    "source": "frank_macfarlane_burnet",
+    "type": "born_in",
+    "target": "traralgon",
+    "event_id": "burnet_birth",
+    "sources": [
+      {
+        "source_id": "tan_ponstein_2017",
+        "page": 1,
+        "quote": "Burnet \nwas born on 3 September 1899 in the small town of Traralgon"
+      }
+    ]
+  },
+  {
+    "id": "burnet_lived_terang",
+    "source": "frank_macfarlane_burnet",
+    "type": "lived_in",
+    "target": "terang",
+    "event_id": "burnet_move_terang",
+    "sources": [
+      {
+        "source_id": "tan_ponstein_2017",
+        "page": 1,
+        "quote": "When Burnet was ten years old, \nhis family moved to the small rural \ntown of Terang, Victoria"
+      }
+    ]
+  },
+  {
+    "id": "burnet_studied_melbourne",
+    "source": "frank_macfarlane_burnet",
+    "type": "studied_at",
+    "target": "university_of_melbourne",
+    "event_id": "burnet_mbbs",
+    "sources": [
+      {
+        "source_id": "tan_ponstein_2017",
+        "page": 1,
+        "quote": "Burnet eventually obtained a residential scholarship \nto the University of Melbourne"
+      }
+    ]
+  },
+  {
+    "id": "burnet_worked_hall",
+    "source": "frank_macfarlane_burnet",
+    "type": "worked_at",
+    "target": "walter_and_eliza_hall_institute",
+    "event_id": "burnet_hall_assistant_director",
+    "sources": [
+      {
+        "source_id": "tan_ponstein_2017",
+        "page": 1,
+        "quote": "Upon his \nreturn to the Hall Institute, he became an assistant director"
+      }
+    ]
+  },
+  {
+    "id": "burnet_worked_lister",
+    "source": "frank_macfarlane_burnet",
+    "type": "worked_at",
+    "target": "lister_institute",
+    "event_id": "burnet_lister_training",
+    "sources": [
+      {
+        "source_id": "tan_ponstein_2017",
+        "page": 1,
+        "quote": "dispatched him to the Lister Institute in London, \nUnited Kingdom, to obtain additional training in research."
+      }
+    ]
+  },
+  {
+    "id": "burnet_awarded_nobel",
+    "source": "frank_macfarlane_burnet",
+    "type": "awarded",
+    "target": "nobel_prize_physiology_medicine_1960",
+    "event_id": "burnet_nobel_prize",
+    "sources": [
+      {
+        "source_id": "tan_ponstein_2017",
+        "page": 2,
+        "quote": "Burnet shared the 1960 Nobel \nPrize in Physiology or Medicine with Peter Medawar"
+      }
+    ]
+  },
+  {
+    "id": "burnet_collaborated_medawar",
+    "source": "frank_macfarlane_burnet",
+    "type": "collaborated_with",
+    "target": "peter_medawar",
+    "event_id": "burnet_nobel_prize",
+    "sources": [
+      {
+        "source_id": "tan_ponstein_2017",
+        "page": 2,
+        "quote": "Burnet shared the 1960 Nobel \nPrize in Physiology or Medicine with Peter Medawar"
+      }
+    ]
+  },
+  {
+    "id": "burnet_supervised_stawell",
+    "source": "frank_macfarlane_burnet",
+    "type": "supervised_by",
+    "target": "rr_stawell",
+    "sources": [
+      {
+        "source_id": "tan_ponstein_2017",
+        "page": 1,
+        "quote": "Burnet \nstudied with one of Melbourne's most respected neurologists, \nDr RR Stawell."
+      }
+    ]
+  },
+  {
+    "id": "burnet_mentored_fraser",
+    "source": "frank_macfarlane_burnet",
+    "type": "mentored",
+    "target": "samuel_fraser",
+    "sources": [
+      {
+        "source_id": "tan_ponstein_2017",
+        "page": 1,
+        "quote": "The Reverend felt that the young man was particularly bright \nand in need of academic nurturing."
+      }
+    ]
+  },
+  {
+    "id": "burnet_published_antibodies",
+    "source": "frank_macfarlane_burnet",
+    "type": "published",
+    "target": "the_production_of_antibodies",
+    "event_id": "burnet_production_antibodies",
+    "sources": [
+      {
+        "source_id": "tan_ponstein_2017",
+        "page": 2,
+        "quote": "In 1941, he authored \na monograph entitled The Production of Antibodies"
+      }
+    ]
+  },
+  {
+    "id": "burnet_published_clonal",
+    "source": "frank_macfarlane_burnet",
+    "type": "published",
+    "target": "the_clonal_selection_theory_of_acquired_immunity",
+    "event_id": "burnet_clonal_selection",
+    "sources": [
+      {
+        "source_id": "tan_ponstein_2017",
+        "page": 2,
+        "quote": "In 1959 he published another book, called The Clonal Selection \nTheory of Acquired Immunity"
+      }
+    ]
+  }
+]

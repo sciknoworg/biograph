@@ -1,0 +1,160 @@
+[
+  {
+    "id": "malpighi_worked_at_bologna",
+    "source": "marcello_malpighi",
+    "type": "worked_at",
+    "target": "bologna_university",
+    "sources": [
+      {
+        "source_id": "bertoloni_meli_2007",
+        "page": 7,
+        "quote": "Sbaraglia was a colleague of Malpighi at Bologna University"
+      }
+    ]
+  },
+  {
+    "id": "malpighi_worked_at_pisa",
+    "source": "marcello_malpighi",
+    "type": "worked_at",
+    "target": "pisa_university",
+    "sources": [
+      {
+        "source_id": "bertoloni_meli_2007",
+        "page": 3,
+        "quote": "they met on their arrival at Pisa University as professors of mathematics and medicine, respectively"
+      }
+    ]
+  },
+  {
+    "id": "malpighi_worked_at_royal_society",
+    "source": "marcello_malpighi",
+    "type": "worked_at",
+    "target": "royal_society",
+    "sources": [
+      {
+        "source_id": "bertoloni_meli_2007",
+        "page": 3,
+        "quote": "in 1668–9, Malpighi became associated with the Royal Society."
+      }
+    ]
+  },
+  {
+    "id": "malpighi_employed_by_pope",
+    "source": "marcello_malpighi",
+    "type": "employed_by",
+    "target": "pope_innocent_xii",
+    "sources": [
+      {
+        "source_id": "bertoloni_meli_2007",
+        "page": 8,
+        "quote": "in 1691 the newly elected Pope Innocent XII had called Malpighi to Rome as his personal archiater."
+      }
+    ]
+  },
+  {
+    "id": "malpighi_mentored_by_borelli",
+    "source": "marcello_malpighi",
+    "type": "supervised_by",
+    "target": "giovanni_alfonso_borelli",
+    "sources": [
+      {
+        "source_id": "bertoloni_meli_2007",
+        "page": 3,
+        "quote": "his philosophical mentor, the philosopher and mathematician Giovanni Alfonso Borelli"
+      }
+    ]
+  },
+  {
+    "id": "malpighi_collaborated_with_oldenburg",
+    "source": "marcello_malpighi",
+    "type": "collaborated_with",
+    "target": "henry_oldenburg",
+    "sources": [
+      {
+        "source_id": "bertoloni_meli_2007",
+        "page": 3,
+        "quote": "The Society and its secretary, Henry Oldenburg, replaced Borelli in the role of guide and source of inspiration to Malpighi"
+      }
+    ]
+  },
+  {
+    "id": "malpighi_opposed_by_sbaraglia",
+    "source": "marcello_malpighi",
+    "type": "collaborated_with",
+    "target": "giovanni_girolamo_sbaraglia",
+    "note": "Context of controversy/opposition",
+    "sources": [
+      {
+        "source_id": "bertoloni_meli_2007",
+        "page": 1,
+        "quote": "Around 1700 the Italian medical world witnessed a major controversy involving, among the others, Giovanni Girolamo Sbaraglia, Marcello Malpighi"
+      }
+    ]
+  },
+  {
+    "id": "malpighi_influenced_by_galileo",
+    "source": "marcello_malpighi",
+    "type": "educated_by",
+    "target": "galileo_galilei",
+    "note": "Intellectual influence/style",
+    "sources": [
+      {
+        "source_id": "bertoloni_meli_2007",
+        "page": 3,
+        "quote": "Malpighi admired Galileo and found inspiration in his works, both as to themes and style."
+      }
+    ]
+  },
+  {
+    "id": "malpighi_published_pulmonibus",
+    "source": "marcello_malpighi",
+    "type": "published",
+    "target": "epistolae_de_pulmonibus",
+    "sources": [
+      {
+        "source_id": "bertoloni_meli_2007",
+        "page": 1,
+        "quote": "In 1661 Malpighi had published his first work, Epistolae de pulmonibus"
+      }
+    ]
+  },
+  {
+    "id": "malpighi_published_risposta",
+    "source": "marcello_malpighi",
+    "type": "published",
+    "target": "risposta",
+    "sources": [
+      {
+        "source_id": "bertoloni_meli_2007",
+        "page": 1,
+        "quote": "Malpighi's posthumous Risposta (1697)"
+      }
+    ]
+  },
+  {
+    "id": "malpighi_lived_in_rome",
+    "source": "marcello_malpighi",
+    "type": "lived_in",
+    "target": "rome",
+    "sources": [
+      {
+        "source_id": "bertoloni_meli_2007",
+        "page": 8,
+        "quote": "called Malpighi to Rome as his personal archiater."
+      }
+    ]
+  },
+  {
+    "id": "malpighi_lived_in_messina",
+    "source": "marcello_malpighi",
+    "type": "lived_in",
+    "target": "messina",
+    "sources": [
+      {
+        "source_id": "bertoloni_meli_2007",
+        "page": 4,
+        "quote": "In the 1660s, while he was at Messina"
+      }
+    ]
+  }
+]

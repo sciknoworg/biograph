@@ -1,0 +1,205 @@
+[
+  {
+    "id": "murray_born_milford",
+    "source": "joseph_murray",
+    "type": "born_in",
+    "target": "milford_massachusetts",
+    "event_id": "murray_birth",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 1,
+        "quote": "Murray was born in Milford, Massachusetts, United States, a town 30 miles southwest of Boston, Massachusetts, on 1 April 1919."
+      }
+    ]
+  },
+  {
+    "id": "murray_studied_holy_cross",
+    "source": "joseph_murray",
+    "type": "studied_at",
+    "target": "college_holy_cross",
+    "event_id": "murray_college_holy_cross",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 1,
+        "quote": "He attended College of the Holy Cross, a small liberal arts college in Massachusetts."
+      }
+    ]
+  },
+  {
+    "id": "murray_studied_harvard",
+    "source": "joseph_murray",
+    "type": "studied_at",
+    "target": "harvard_medical_school",
+    "event_id": "murray_harvard_medical",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 1,
+        "quote": "He attended Harvard Medical School and subsequently did his surgical internship at the Peter Bent Brigham Hospital in Boston, Massachusetts."
+      }
+    ]
+  },
+  {
+    "id": "murray_worked_brigham",
+    "source": "joseph_murray",
+    "type": "worked_at",
+    "target": "peter_bent_brigham_hospital",
+    "start": {
+      "display": "c. 1940s",
+      "precision": "decade",
+      "sort_start": "1940-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "end": {
+      "display": "1971",
+      "precision": "year",
+      "sort_start": "1971-01-01",
+      "sort_end": "1971-12-31"
+    },
+    "event_id": "murray_brigham_internship",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 1,
+        "quote": "He attended Harvard Medical School and subsequently did his surgical internship at the Peter Bent Brigham Hospital in Boston, Massachusetts."
+      }
+    ]
+  },
+  {
+    "id": "murray_worked_valley_forge",
+    "source": "joseph_murray",
+    "type": "worked_at",
+    "target": "valley_forge_general_hospital",
+    "start": {
+      "display": "c. 1940s",
+      "precision": "decade",
+      "sort_start": "1940-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "end": {
+      "display": "c. 1945",
+      "precision": "year",
+      "sort_start": "1945-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "event_id": "murray_wwii_service",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 1,
+        "quote": "Towards the end of his internship year, Murray was drafted into military service for World War II and was stationed at Valley Forge General Hospital, a major plastic surgery centre in Pennsylvania."
+      }
+    ]
+  },
+  {
+    "id": "murray_worked_boston_childrens",
+    "source": "joseph_murray",
+    "type": "worked_at",
+    "target": "boston_childrens_hospital",
+    "start": {
+      "display": "1971",
+      "precision": "year",
+      "sort_start": "1971-01-01",
+      "sort_end": "1971-12-31"
+    },
+    "end": {
+      "display": "1986",
+      "precision": "year",
+      "sort_start": "1986-01-01",
+      "sort_end": "1986-12-31"
+    },
+    "event_id": "murray_chief_plastic_surgery",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 2,
+        "quote": "In choosing between the two, he decided to step down as chief of transplant surgery at Peter Bent Brigham Hospital in 1971 to focus on paediatric reconstructive surgery, becoming the chief of plastic surgery at the Boston Children's Hospital Medical Center in Boston."
+      }
+    ]
+  },
+  {
+    "id": "murray_collaborated_harrison",
+    "source": "joseph_murray",
+    "type": "collaborated_with",
+    "target": "j_hartwell_harrison",
+    "event_id": "murray_first_kidney_transplant",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 2,
+        "quote": "Surgery took place on 23 December 1954, with Murray leading the recipient's surgical team and Dr J Hartwell Harrison leading the donor's surgical team."
+      }
+    ]
+  },
+  {
+    "id": "murray_collaborated_thomas",
+    "source": "joseph_murray",
+    "type": "collaborated_with",
+    "target": "edward_donall_thomas",
+    "event_id": "murray_nobel_prize",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 2,
+        "quote": "To cap off his illustrious career, Murray received the Nobel prize in Physiology or Medicine in 1990, together with Dr Edward Donnall Thomas, for his contributions to the advancement of transplantation medicine."
+      }
+    ]
+  },
+  {
+    "id": "murray_mentored_by_brown",
+    "source": "joseph_murray",
+    "type": "supervised_by",
+    "target": "james_barrett_brown",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 1,
+        "quote": "To further Murray's interest in transplantation, Dr James Barrett Brown, chief of surgery at Valley Forge General Hospital at the time, shared his own experiences in treating burn patients."
+      }
+    ]
+  },
+  {
+    "id": "murray_invented_kidney_transplant",
+    "source": "joseph_murray",
+    "type": "invented",
+    "target": "nobel_prize_1990",
+    "event_id": "murray_nobel_prize",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 1,
+        "quote": "Murray was the first surgeon to successfully perform renal transplantation, first in identical twins, then in non-identical twins and, finally, using a cadaveric donor."
+      }
+    ]
+  },
+  {
+    "id": "murray_published_autobiography",
+    "source": "joseph_murray",
+    "type": "published",
+    "target": "surgery_of_soul",
+    "event_id": "murray_autobiography",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 2,
+        "quote": "In 2001, Murray wrote his autobiography, Surgery of the Soul: Reflections on a Curious Career, which recounts his encounter with Charles Woods as well as other patients who had guided his career."
+      }
+    ]
+  },
+  {
+    "id": "murray_awarded_nobel",
+    "source": "joseph_murray",
+    "type": "awarded",
+    "target": "nobel_prize_1990",
+    "event_id": "murray_nobel_prize",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 2,
+        "quote": "To cap off his illustrious career, Murray received the Nobel prize in Physiology or Medicine in 1990, together with Dr Edward Donnall Thomas, for his contributions to the advancement of transplantation medicine."
+      }
+    ]
+  }
+]

@@ -1,0 +1,207 @@
+[
+  {
+    "id": "dubos_worked_rockefeller",
+    "source": "rene_dubos",
+    "type": "worked_at",
+    "target": "rockefeller_institute",
+    "start": {
+      "display": "1944",
+      "precision": "year",
+      "sort_start": "1944-01-01",
+      "sort_end": "1944-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 4,
+        "quote": "Dubos returned to the Rockefeller Institute in July 1944"
+      }
+    ]
+  },
+  {
+    "id": "dubos_worked_harvard",
+    "source": "rene_dubos",
+    "type": "worked_at",
+    "target": "harvard_school_public_health",
+    "start": {
+      "display": "1942",
+      "precision": "year",
+      "sort_start": "1942-01-01",
+      "sort_end": "1942-12-31"
+    },
+    "end": {
+      "display": "1944",
+      "precision": "year",
+      "sort_start": "1944-01-01",
+      "sort_end": "1944-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 6,
+        "quote": "by 1942 had quit the Rockefeller for Harvard"
+      }
+    ]
+  },
+  {
+    "id": "dubos_married_marie",
+    "source": "rene_dubos",
+    "type": "married_to",
+    "target": "marie_louise_bonnet",
+    "end": {
+      "display": "1942",
+      "precision": "year",
+      "sort_start": "1942-01-01",
+      "sort_end": "1942-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 4,
+        "quote": "death from tuberculosis in 1942 of his first wife, Marie Louise Bonnet"
+      }
+    ]
+  },
+  {
+    "id": "dubos_married_jean",
+    "source": "rene_dubos",
+    "type": "married_to",
+    "target": "jean_porter_dubos",
+    "start": {
+      "display": "1946",
+      "precision": "year",
+      "sort_start": "1946-01-01",
+      "sort_end": "1946-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 13,
+        "quote": "Porter had read The Bacterial Cell in draft and would become Dubos's second wife in 1946"
+      }
+    ]
+  },
+  {
+    "id": "dubos_collaborated_avery",
+    "source": "rene_dubos",
+    "type": "collaborated_with",
+    "target": "oswald_avery",
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 3,
+        "quote": "discovery in 1932, together with Oswald Avery, of a soil enzyme (SIII)"
+      }
+    ]
+  },
+  {
+    "id": "dubos_collaborated_fenner",
+    "source": "rene_dubos",
+    "type": "collaborated_with",
+    "target": "frank_fenner",
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 2,
+        "quote": "Dubos and his former laboratory assistant, the Australian microbiologist, Frank Fenner, had recently established that the BCG vaccine was unstable"
+      }
+    ]
+  },
+  {
+    "id": "dubos_influenced_smith",
+    "source": "rene_dubos",
+    "type": "mentored",
+    "target": "theobald_smith",
+    "note": "Dubos looked to Smith for an intellectual antecedent.",
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 4,
+        "quote": "Dubos looked to Smith, rather than to Burnet, for an intellectual antecedent for his ecological ideas."
+      }
+    ]
+  },
+  {
+    "id": "dubos_influenced_burnet",
+    "source": "rene_dubos",
+    "type": "collaborated_with",
+    "target": "frank_burnet",
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 9,
+        "quote": "Dubos was a member of the Harvard committee that selected the Dunham Lecturer and his recommendation had been key to Burnet's invitation."
+      }
+    ]
+  },
+  {
+    "id": "dubos_influenced_winogradsky",
+    "source": "rene_dubos",
+    "type": "mentored",
+    "target": "sergei_winogradsky",
+    "note": "Winogradsky inspired Dubos's ecological perspective.",
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 3,
+        "quote": "he had chanced on an article by the Russian soil microbiologist Sergei Winogradsky and had become 'entranced' by the idea"
+      }
+    ]
+  },
+  {
+    "id": "dubos_invented_tyrothricin",
+    "source": "rene_dubos",
+    "type": "invented",
+    "target": "tyrothricin",
+    "event_id": "dubos_announces_tyrothricin",
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 5,
+        "quote": "In 1939 Rene´ Dubos made a dramatic announcement... isolation of tyrothricin"
+      }
+    ]
+  },
+  {
+    "id": "dubos_published_bacterial_cell",
+    "source": "rene_dubos",
+    "type": "published",
+    "target": "the_bacterial_cell",
+    "event_id": "bacterial_cell_published",
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 6,
+        "quote": "The Bacterial Cell, the book that emerged from Dubos's lectures at the Lowell Institute in Boston in 1944 (Dubos 1945)"
+      }
+    ]
+  },
+  {
+    "id": "dubos_awarded_lasker",
+    "source": "rene_dubos",
+    "type": "awarded",
+    "target": "lasker_award",
+    "event_id": "dubos_lasker_award",
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 6,
+        "quote": "earning him the 1948 Lasker Award"
+      }
+    ]
+  },
+  {
+    "id": "dubos_awarded_trudeau",
+    "source": "rene_dubos",
+    "type": "awarded",
+    "target": "trudeau_society",
+    "event_id": "dubos_trudeau_medal",
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 2,
+        "quote": "leading to the award of the Trudeau Society Medal in 1951."
+      }
+    ]
+  }
+]

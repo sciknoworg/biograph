@@ -1,0 +1,99 @@
+[
+  {
+    "id": "wright_worked_st_marys",
+    "source": "almroth_wright",
+    "type": "worked_at",
+    "target": "st_marys_hospital",
+    "start": {
+      "display": "1902",
+      "precision": "year",
+      "sort_start": "1902-01-01",
+      "sort_end": "1902-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "lowy_1988_immunology_literature",
+        "page": 2,
+        "quote": "When in 1902 he became the head of the departments of bacteriology and pathology at St Mary's Hospital in London"
+      }
+    ]
+  },
+  {
+    "id": "wright_founded_inoculation_dept",
+    "source": "almroth_wright",
+    "type": "founded",
+    "target": "inoculation_department",
+    "sources": [
+      {
+        "source_id": "lowy_1988_immunology_literature",
+        "page": 3,
+        "quote": "His research unit, aptly rebaptized the \"Inoculation Department\", expanded rapidly and became financially self-supporting."
+      }
+    ]
+  },
+  {
+    "id": "wright_developed_vaccine",
+    "source": "almroth_wright",
+    "type": "invented",
+    "target": "anti_typhoid_vaccine",
+    "sources": [
+      {
+        "source_id": "lowy_1988_immunology_literature",
+        "page": 2,
+        "quote": "Wright fought for many years to get official recognition for the heat-killed, anti-typhoid vaccine he developed in 1897-98."
+      }
+    ]
+  },
+  {
+    "id": "wright_friend_shaw",
+    "source": "almroth_wright",
+    "type": "collaborated_with",
+    "target": "george_bernard_shaw",
+    "sources": [
+      {
+        "source_id": "lowy_1988_immunology_literature",
+        "page": 5,
+        "quote": "Shaw's personal friend."
+      }
+    ]
+  },
+  {
+    "id": "fleming_worked_wright_lab",
+    "source": "alexander_fleming",
+    "type": "worked_at",
+    "target": "inoculation_department",
+    "sources": [
+      {
+        "source_id": "lowy_1988_immunology_literature",
+        "page": 4,
+        "quote": "Today Wright is often remembered, not for his own professional achievements but as the head of the laboratory in which Alexander Fleming, a member of this \"second generation\", discovered penicillin."
+      }
+    ]
+  },
+  {
+    "id": "dekruif_worked_rockefeller",
+    "source": "paul_de_kruif",
+    "type": "worked_at",
+    "target": "rockefeller_institute",
+    "sources": [
+      {
+        "source_id": "lowy_1988_immunology_literature",
+        "page": 6,
+        "quote": "In 1922 DeKruif, then working at the Rockefeller Institute"
+      }
+    ]
+  },
+  {
+    "id": "loeb_worked_rockefeller",
+    "source": "jacques_loeb",
+    "type": "worked_at",
+    "target": "rockefeller_institute",
+    "sources": [
+      {
+        "source_id": "lowy_1988_immunology_literature",
+        "page": 7,
+        "quote": "Loeb, a colleague of DeKruif at the Rockefeller Institute"
+      }
+    ]
+  }
+]

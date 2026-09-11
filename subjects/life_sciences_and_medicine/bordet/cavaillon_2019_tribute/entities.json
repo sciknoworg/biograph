@@ -1,0 +1,215 @@
+[
+  {
+    "aliases": [
+      "Bordet",
+      "J. Bordet"
+    ],
+    "attributes": {
+      "nationality": "Belgian"
+    },
+    "entity_type": "person",
+    "id": "jules_bordet",
+    "name": "Jules Bordet",
+    "subtype": "researcher",
+    "summary": "Belgian immunologist and microbiologist who discovered the complement system and Bordetella pertussis."
+  },
+  {
+    "aliases": [],
+    "attributes": {},
+    "entity_type": "person",
+    "id": "charles_henri_bordet",
+    "name": "Charles-Henri Bordet",
+    "subtype": "teacher",
+    "summary": "School teacher and father of Jules Bordet."
+  },
+  {
+    "aliases": [],
+    "attributes": {},
+    "entity_type": "person",
+    "id": "charles_bordet",
+    "name": "Charles Bordet",
+    "subtype": "researcher",
+    "summary": "Older brother of Jules Bordet and medical student."
+  },
+  {
+    "aliases": [
+      "Metchnikoﬀ",
+      "Elie Metchnikoﬀ"
+    ],
+    "attributes": {},
+    "entity_type": "person",
+    "id": "elie_metchnikoff",
+    "name": "Elie Metchnikoff",
+    "subtype": "researcher",
+    "summary": "Father of cellular immunity and head of laboratory at Institut Pasteur."
+  },
+  {
+    "aliases": [],
+    "attributes": {},
+    "entity_type": "person",
+    "id": "octave_gengou",
+    "name": "Octave Gengou",
+    "subtype": "researcher",
+    "summary": "Belgian physician and bacteriologist who collaborated with Jules Bordet."
+  },
+  {
+    "aliases": [],
+    "attributes": {},
+    "entity_type": "person",
+    "id": "paul_bordet",
+    "name": "Paul Bordet",
+    "subtype": "researcher",
+    "summary": "Son of Jules Bordet who succeeded him at Université libre de Bruxelles."
+  },
+  {
+    "aliases": [
+      "Université libre de Bruxelles",
+      "ULB"
+    ],
+    "attributes": {
+      "country": "Belgium"
+    },
+    "entity_type": "organization",
+    "id": "universite_libre_de_bruxelles",
+    "name": "Université Libre de Bruxelles",
+    "subtype": "university",
+    "summary": "University in Brussels where Jules Bordet studied and later taught."
+  },
+  {
+    "aliases": [
+      "Institut Pasteur"
+    ],
+    "attributes": {
+      "country": "France"
+    },
+    "entity_type": "organization",
+    "id": "institut_pasteur_paris",
+    "name": "Institut Pasteur de Paris",
+    "subtype": "lab",
+    "summary": "Research institute in Paris where Jules Bordet worked under Metchnikoff."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Belgium"
+    },
+    "entity_type": "organization",
+    "id": "institut_pasteur_brabant",
+    "name": "Institut Pasteur du Brabant",
+    "subtype": "lab",
+    "summary": "Institute in Brussels led by Jules Bordet dedicated to anti-rabies vaccination and bacteriological studies."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Belgium",
+      "lat": 50.56667,
+      "lng": 4.06667,
+      "wikidata_qid": "Q462985",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "soignies",
+    "name": "Soignies",
+    "subtype": "town",
+    "summary": "Small Belgian town where Jules Bordet was born."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Belgium",
+      "lat": 50.84667,
+      "lng": 4.35167,
+      "wikidata_qid": "Q239",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "brussels",
+    "name": "Brussels",
+    "subtype": "city",
+    "summary": "Capital city of Belgium where Bordet returned to lead a new institute."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "France",
+      "lat": 48.85667,
+      "lng": 2.35222,
+      "wikidata_qid": "Q90",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "paris",
+    "name": "Paris",
+    "subtype": "city",
+    "summary": "City in France where Bordet worked at Institut Pasteur."
+  },
+  {
+    "aliases": [
+      "South Africa"
+    ],
+    "attributes": {
+      "country": "South Africa",
+      "lat": -25.0,
+      "lng": 30.0,
+      "wikidata_qid": "Q190959",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "transvaal",
+    "name": "Transvaal",
+    "subtype": "region",
+    "summary": "Region in South Africa where Bordet conducted a scientific mission on rinderpest."
+  },
+  {
+    "aliases": [
+      "1919 Nobel prize",
+      "Nobel prize"
+    ],
+    "attributes": {},
+    "entity_type": "artifact",
+    "id": "nobel_prize_1919",
+    "name": "Nobel Prize in Physiology or Medicine 1919",
+    "subtype": "award",
+    "summary": "Award given to Jules Bordet for his discoveries relating to immunity."
+  },
+  {
+    "aliases": [
+      "whooping cough bacillus",
+      "causative bacterium of whooping cough"
+    ],
+    "attributes": {},
+    "entity_type": "artifact",
+    "id": "bordetella_pertussis",
+    "name": "Bordetella pertussis",
+    "subtype": "product",
+    "summary": "Bacterium causing whooping cough discovered by Jules Bordet."
+  },
+  {
+    "aliases": [],
+    "attributes": {},
+    "entity_type": "artifact",
+    "id": "traite_immunite",
+    "name": "Traité de l'immunité dans les maladies infectieuses",
+    "subtype": "publication",
+    "summary": "Book by Jules Bordet covering contemporary knowledge on immunology."
+  },
+  {
+    "aliases": [],
+    "attributes": {},
+    "entity_type": "artifact",
+    "id": "elements_astronomie",
+    "name": "Elements d'astronomie",
+    "subtype": "publication",
+    "summary": "Book by Jules Bordet on astronomy published in 1956."
+  },
+  {
+    "aliases": [],
+    "attributes": {},
+    "entity_type": "artifact",
+    "id": "breves_considerations",
+    "name": "Brèves considérations sur le mode de gouvernement, la liberté et l'éducation morale",
+    "subtype": "publication",
+    "summary": "Booklet by Jules Bordet on science and ethics published in 1945."
+  }
+]

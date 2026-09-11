@@ -1,0 +1,142 @@
+[
+  {
+    "id": "goldberger_joined_mhs",
+    "event_type": "employment_start",
+    "label": "Accepted commission in US Marine Hospital Service",
+    "date": {
+      "precision": "year",
+      "sort_start": "1912-01-01",
+      "sort_end": "1912-12-31",
+      "display": "1912"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_goldberger",
+        "role": "subject"
+      },
+      {
+        "entity_id": "us_marine_hospital_service",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "roth_2004_review",
+        "page": 2,
+        "quote": "he accepted a commission in the US Marine Hospit al Service, which became the US Public Health Service in 1912."
+      }
+    ]
+  },
+  {
+    "id": "mhs_renamed_phss",
+    "event_type": "company_renamed",
+    "label": "US Marine Hospital Service became US Public Health Service",
+    "date": {
+      "precision": "year",
+      "sort_start": "1912-01-01",
+      "sort_end": "1912-12-31",
+      "display": "1912"
+    },
+    "participants": [
+      {
+        "entity_id": "us_marine_hospital_service",
+        "role": "source"
+      },
+      {
+        "entity_id": "us_public_health_service",
+        "role": "target"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "roth_2004_review",
+        "page": 2,
+        "quote": "he accepted a commission in the US Marine Hospit al Service, which became the US Public Health Service in 1912."
+      }
+    ]
+  },
+  {
+    "id": "goldberger_pellagra_assignment",
+    "event_type": "role_change",
+    "label": "Assigned to investigate pellagra epidemic",
+    "date": {
+      "precision": "year",
+      "sort_start": "1914-01-01",
+      "sort_end": "1914-12-31",
+      "display": "1914"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_goldberger",
+        "role": "subject"
+      },
+      {
+        "entity_id": "us_public_health_service",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "roth_2004_review",
+        "page": 1,
+        "quote": "Joseph Goldberger, an up-and-coming bac-teriologist in the US Public Health Service, assigned in 1914 to investigate the growing epidemic"
+      }
+    ]
+  },
+  {
+    "id": "goldberger_death",
+    "event_type": "death",
+    "label": "Died from cancer",
+    "date": {
+      "precision": "month",
+      "sort_start": "1929-01-01",
+      "sort_end": "1929-01-31",
+      "display": "January 1929"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_goldberger",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "roth_2004_review",
+        "page": 2,
+        "quote": "Goldberger died from cancer in January 1929"
+      }
+    ]
+  },
+  {
+    "id": "eijkman_hopkins_nobel",
+    "event_type": "award",
+    "label": "Eijkman and Hopkins selected for Nobel Prize",
+    "date": {
+      "precision": "year",
+      "sort_start": "1929-01-01",
+      "sort_end": "1929-12-31",
+      "display": "1929"
+    },
+    "participants": [
+      {
+        "entity_id": "christiaan_eijkman",
+        "role": "awarded"
+      },
+      {
+        "entity_id": "frederick_g_hopkins",
+        "role": "awarded"
+      },
+      {
+        "entity_id": "nobel_prize",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "roth_2004_review",
+        "page": 2,
+        "quote": "Christiaan Eijkman and Frederick G. Hopkins, who were selected for the Nobel Prize later that year"
+      }
+    ]
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "id": "rudolf_virchow",
+    "entity_type": "person",
+    "name": "Rudolf Virchow",
+    "aliases": [
+      "Virchow"
+    ],
+    "summary": "German physician and pathologist, founder of social medicine and cellular pathology.",
+    "subtype": "researcher",
+    "attributes": {
+      "birth_year": 1821,
+      "death_year": 1902,
+      "nationality": "German"
+    }
+  },
+  {
+    "id": "emil_von_behring",
+    "entity_type": "person",
+    "name": "Emil von Behring",
+    "aliases": [
+      "von Behring",
+      "Behring"
+    ],
+    "summary": "German bacteriologist and serologist, known for work on infectious diseases.",
+    "subtype": "researcher",
+    "attributes": {
+      "nationality": "German"
+    }
+  },
+  {
+    "id": "louis_pasteur",
+    "entity_type": "person",
+    "name": "Pasteur",
+    "aliases": [
+      "Pasteur"
+    ],
+    "summary": "French microbiologist and chemist, pioneer of germ theory and vaccination.",
+    "subtype": "researcher",
+    "attributes": {
+      "nationality": "French"
+    }
+  },
+  {
+    "id": "daniel_pridan",
+    "entity_type": "person",
+    "name": "Daniel Pridan",
+    "aliases": [],
+    "summary": "Author of this historical perspective on Virchow and social medicine.",
+    "subtype": "author"
+  },
+  {
+    "id": "ackerknecht",
+    "entity_type": "person",
+    "name": "Ackerknecht",
+    "aliases": [
+      "Ackerknecht, A."
+    ],
+    "summary": "Biographer of Rudolf Virchow, wrote Commonwealth Fund biography in 1941.",
+    "subtype": "author"
+  },
+  {
+    "id": "gertrud_kroeger",
+    "entity_type": "person",
+    "name": "Gertrud Kroeger",
+    "aliases": [
+      "Kroeger, G."
+    ],
+    "summary": "Writer on concepts of social medicine in Germany 1779-1933.",
+    "subtype": "author"
+  },
+  {
+    "id": "upper_silesia",
+    "entity_type": "place",
+    "name": "Upper Silesia",
+    "aliases": [],
+    "summary": "Region between Poland and Germany where Virchow investigated typhus epidemic.",
+    "subtype": "region",
+    "attributes": {
+      "country": "Germany/Poland border region"
+    }
+  },
+  {
+    "id": "germany",
+    "entity_type": "place",
+    "name": "Germany",
+    "aliases": [
+      "German Reich",
+      "Imperial German Reich"
+    ],
+    "summary": "Country where Virchow conducted his medical and political work.",
+    "subtype": "country",
+    "attributes": {
+      "country": "Germany",
+      "lat": 51.0,
+      "lng": 10.0,
+      "wikidata_qid": "Q183",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "poland",
+    "entity_type": "place",
+    "name": "Poland",
+    "aliases": [],
+    "summary": "Country bordering Upper Silesia region.",
+    "subtype": "country",
+    "attributes": {
+      "country": "Poland",
+      "lat": 52.0,
+      "lng": 19.0,
+      "wikidata_qid": "Q36",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "german_reichstag",
+    "entity_type": "organization",
+    "name": "German Reichstag",
+    "aliases": [
+      "Reichstag"
+    ],
+    "summary": "German parliament where Virchow served as member.",
+    "subtype": "government"
+  },
+  {
+    "id": "die_medizinische_reform",
+    "entity_type": "artifact",
+    "name": "Die Medizinische Reform",
+    "aliases": [],
+    "summary": "Medical journal founded by Virchow in 1848 for social medicine advocacy.",
+    "subtype": "publication"
+  },
+  {
+    "id": "arch_pathol_anat_physiol_med",
+    "entity_type": "artifact",
+    "name": "Archiv für pathologische Anatomie und Physiologie und für klinische Medicin",
+    "aliases": [
+      "Arch. pathol. Anat. Physiol. Med."
+    ],
+    "summary": "Medical journal where Virchow published his typhus epidemic article in 1849.",
+    "subtype": "publication"
+  },
+  {
+    "id": "gesammelte_abhandlungen_behring",
+    "entity_type": "artifact",
+    "name": "Gesammelte Abhandlungen zur aetiologischen Therapie von ansteckenden Krankheiten",
+    "aliases": [
+      "Gesammelte Abhandlungen"
+    ],
+    "summary": "Collection of works by Emil von Behring containing critique of Virchow.",
+    "subtype": "publication"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "ross_worked_in_india",
+    "source": "ronald_ross",
+    "type": "worked_at",
+    "target": "india",
+    "note": "Ross conducted research while serving in a military post in India.",
+    "sources": [
+      {
+        "source_id": "smith_2012_ross_macdonald",
+        "page": 1,
+        "quote": "conducted his research while serving in a military post in India"
+      }
+    ],
+    "_rejected_because": "'worked_at' expects target entity_type organization, but 'india' is 'place'"
+  }
+]

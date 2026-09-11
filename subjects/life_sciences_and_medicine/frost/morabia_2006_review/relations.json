@@ -1,0 +1,154 @@
+[
+  {
+    "id": "frost_born_in_marshall",
+    "source": "wade_hampton_frost",
+    "type": "born_in",
+    "target": "marshall",
+    "event_id": "frost_birth",
+    "sources": [
+      {
+        "source_id": "morabia_2006_review",
+        "page": 333,
+        "quote": "Frost was born in 1880 in Marshall, Virginia."
+      }
+    ]
+  },
+  {
+    "id": "frost_studied_at_uva",
+    "source": "wade_hampton_frost",
+    "type": "studied_at",
+    "target": "university_of_virginia",
+    "event_id": "frost_md",
+    "sources": [
+      {
+        "source_id": "morabia_2006_review",
+        "page": 333,
+        "quote": "He received a Doctor of Medicine degree from the University of Virginia in 1903"
+      }
+    ]
+  },
+  {
+    "id": "frost_employed_by_usphs",
+    "source": "wade_hampton_frost",
+    "type": "employed_by",
+    "target": "united_states_public_health_service",
+    "event_id": "frost_usphs_join",
+    "sources": [
+      {
+        "source_id": "morabia_2006_review",
+        "page": 333,
+        "quote": "and joined the United States Public Health Service."
+      }
+    ]
+  },
+  {
+    "id": "frost_worked_at_hygienic",
+    "source": "wade_hampton_frost",
+    "type": "worked_at",
+    "target": "hygienic_laboratory",
+    "event_id": "frost_hygienic_lab",
+    "sources": [
+      {
+        "source_id": "morabia_2006_review",
+        "page": 333,
+        "quote": "In 1908 he was assigned to the Division of Pathology and Bacteriology of the Hygienic Laboratory in Washington"
+      }
+    ]
+  },
+  {
+    "id": "frost_supervised_by_rosenau",
+    "source": "wade_hampton_frost",
+    "type": "supervised_by",
+    "target": "milton_j_rosenau",
+    "note": "Rosenau headed the lab",
+    "sources": [
+      {
+        "source_id": "morabia_2006_review",
+        "page": 333,
+        "quote": "headed by Milton J Rosenau."
+      }
+    ]
+  },
+  {
+    "id": "frost_collaborated_with_emerson",
+    "source": "wade_hampton_frost",
+    "type": "collaborated_with",
+    "target": "haven_emerson",
+    "event_id": "frost_polio_emerson",
+    "sources": [
+      {
+        "source_id": "morabia_2006_review",
+        "page": 333,
+        "quote": "In 1916, he helped Haven Emerson, New York City's health commissioner, to investigate a polio outbreak."
+      }
+    ]
+  },
+  {
+    "id": "frost_worked_at_hopkins",
+    "source": "wade_hampton_frost",
+    "type": "worked_at",
+    "target": "johns_hopkins_university_school_of_hygiene_and_public_health",
+    "event_id": "frost_hopkins_lecturer",
+    "sources": [
+      {
+        "source_id": "morabia_2006_review",
+        "page": 333,
+        "quote": "When Frost was appointed in 1919 first Lecturer of Epidemiology"
+      }
+    ]
+  },
+  {
+    "id": "frost_collaborated_with_reed",
+    "source": "wade_hampton_frost",
+    "type": "collaborated_with",
+    "target": "lowell_jacob_reed",
+    "sources": [
+      {
+        "source_id": "morabia_2006_review",
+        "page": 333,
+        "quote": "Frost made a successful duet (see Picture) with Lowell Jacob Reed"
+      }
+    ]
+  },
+  {
+    "id": "frost_invented_reed_frost",
+    "source": "wade_hampton_frost",
+    "type": "invented",
+    "target": "reed_frost_model",
+    "sources": [
+      {
+        "source_id": "morabia_2006_review",
+        "page": 333,
+        "quote": "Together they developed the Reed-Frost model of epidemic curves"
+      }
+    ]
+  },
+  {
+    "id": "daniel_wrote_biography",
+    "source": "thomas_m_daniel",
+    "type": "published",
+    "target": "daniel_biography",
+    "event_id": "daniel_book_2004",
+    "sources": [
+      {
+        "source_id": "morabia_2006_review",
+        "page": 334,
+        "quote": "Daniel TM. Wade Hampton Frost. Pioneer epidemiologist 1880–1938. Up to the mountain."
+      }
+    ]
+  },
+  {
+    "id": "morabia_wrote_review",
+    "source": "alfredo_morabia",
+    "type": "published",
+    "target": "morabia_review",
+    "event_id": "morabia_review_2006",
+    "sources": [
+      {
+        "source_id": "morabia_2006_review",
+        "page": 333,
+        "quote": "Alfredo Morabia"
+      }
+    ]
+  }
+]

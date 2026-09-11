@@ -1,0 +1,616 @@
+[
+  {
+    "id": "koch_birth",
+    "event_type": "birth",
+    "label": "Born in Clausthal/Harz",
+    "date": {
+      "display": "December 1843",
+      "precision": "month",
+      "sort_start": "1843-12-01",
+      "sort_end": "1843-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "location": "clausthal_harz",
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 4,
+        "quote": "The situation into which Robert Koch was born in December 1843 was characteristic for the period."
+      },
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 10,
+        "quote": "11.12.1843 Born in Clausthal/Harz"
+      }
+    ]
+  },
+  {
+    "id": "koch_abitur",
+    "event_type": "education",
+    "label": "Final school-leaving certificate (Abitur)",
+    "date": {
+      "display": "02.04.1862",
+      "precision": "day",
+      "sort_start": "1862-04-02",
+      "sort_end": "1862-04-02"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 10,
+        "quote": "02.04.1862  Final school-leaving certificate (Abitur)"
+      }
+    ]
+  },
+  {
+    "id": "koch_study_medicine",
+    "event_type": "education",
+    "label": "Studied medicine in Göttingen",
+    "date": {
+      "display": "1862 – 1866",
+      "precision": "range",
+      "sort_start": "1862-01-01",
+      "sort_end": "1866-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      },
+      {
+        "entity_id": "friedrich_wilhelms_university",
+        "role": "institution"
+      }
+    ],
+    "location": "gottingen",
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 10,
+        "quote": "1862 – 1866 Studied medicine in Göttingen"
+      }
+    ]
+  },
+  {
+    "id": "koch_phd",
+    "event_type": "education",
+    "label": "PhD in Göttingen",
+    "date": {
+      "display": "10.01.1866",
+      "precision": "day",
+      "sort_start": "1866-01-10",
+      "sort_end": "1866-01-10"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "location": "gottingen",
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 10,
+        "quote": "10.01.1866 PhD in Göttingen,"
+      }
+    ]
+  },
+  {
+    "id": "koch_license",
+    "event_type": "other",
+    "label": "License to practice medicine",
+    "date": {
+      "display": "12.03.1866",
+      "precision": "day",
+      "sort_start": "1866-03-12",
+      "sort_end": "1866-03-12"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 10,
+        "quote": "12.03.1866 License to practice medicine"
+      }
+    ]
+  },
+  {
+    "id": "koch_marriage_1",
+    "event_type": "other",
+    "label": "Married Emmy Fraatz",
+    "date": {
+      "display": "16.07.1867",
+      "precision": "day",
+      "sort_start": "1867-07-16",
+      "sort_end": "1867-07-16"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      },
+      {
+        "entity_id": "emmy_fraatz",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 10,
+        "quote": "16.07.1867 Married Emmy Fraatz"
+      }
+    ]
+  },
+  {
+    "id": "koch_war_service",
+    "event_type": "employment_start",
+    "label": "Army hospital service",
+    "description": "War between Germany and France.",
+    "date": {
+      "display": "1870/71",
+      "precision": "range",
+      "sort_start": "1870-01-01",
+      "sort_end": "1871-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 10,
+        "quote": "1870/71 War between Germany and France, Army hospital service"
+      }
+    ]
+  },
+  {
+    "id": "koch_district_officer",
+    "event_type": "employment_start",
+    "label": "Appointment as the district medical officer",
+    "description": "In the district Bomst, Posen Province.",
+    "date": {
+      "display": "1872",
+      "precision": "year",
+      "sort_start": "1872-01-01",
+      "sort_end": "1872-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "location": "wollstein",
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 10,
+        "quote": "1872  Appointment as the district medical officer in the district Bomst, Posen Province"
+      }
+    ]
+  },
+  {
+    "id": "koch_anthrax_work",
+    "event_type": "invention",
+    "label": "Started experimental work on anthrax",
+    "date": {
+      "display": "1876",
+      "precision": "year",
+      "sort_start": "1876-01-01",
+      "sort_end": "1876-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "location": "wollstein",
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 4,
+        "quote": "He started doing experimental work on anthrax in 1876 in his Wollstein residence."
+      }
+    ]
+  },
+  {
+    "id": "koch_imperial_health_office",
+    "event_type": "employment_start",
+    "label": "Appointed to the Imperial Health Office in Berlin",
+    "date": {
+      "display": "1880",
+      "precision": "year",
+      "sort_start": "1880-01-01",
+      "sort_end": "1880-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      },
+      {
+        "entity_id": "imperial_health_office",
+        "role": "employer"
+      }
+    ],
+    "location": "berlin",
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 6,
+        "quote": "From Wollstein he was appointed to the Imperial Health Office in Berlin in 1880."
+      }
+    ]
+  },
+  {
+    "id": "koch_tb_paper",
+    "event_type": "publication",
+    "label": "Paper on the »Aetiology of Tuberculosis«",
+    "date": {
+      "display": "24 March 1882",
+      "precision": "day",
+      "sort_start": "1882-03-24",
+      "sort_end": "1882-03-24"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 6,
+        "quote": "Koch's paper on the »Aetiology of Tuberculosis«, which he gave on 24 March 1882, established his scientific renown."
+      }
+    ]
+  },
+  {
+    "id": "koch_cholera_expedition",
+    "event_type": "visit",
+    "label": "Expedition to Egypt and India",
+    "description": "To study the cholera epidemics there.",
+    "date": {
+      "display": "1883",
+      "precision": "year",
+      "sort_start": "1883-01-01",
+      "sort_end": "1883-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 6,
+        "quote": "One year later he embarked on his first expedition to Egypt and India to study the cholera epidemics there."
+      },
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 12,
+        "quote": "1883 – 1884 Cholera in Egypt and India"
+      }
+    ]
+  },
+  {
+    "id": "koch_professor_hygiene",
+    "event_type": "employment_start",
+    "label": "First Professor for Hygiene in Berlin",
+    "date": {
+      "display": "1885",
+      "precision": "year",
+      "sort_start": "1885-01-01",
+      "sort_end": "1885-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      },
+      {
+        "entity_id": "friedrich_wilhelms_university",
+        "role": "employer"
+      }
+    ],
+    "location": "berlin",
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 10,
+        "quote": "1885 – 1891  First Professor for Hygiene in Berlin, Friedrich Wilhelms University"
+      }
+    ]
+  },
+  {
+    "id": "koch_institute_founded",
+    "event_type": "company_founded",
+    "label": "Royal Prussian Institute for Infectious Diseases opened",
+    "description": "Opened for Robert Koch as Director.",
+    "date": {
+      "display": "1 July 1891",
+      "precision": "day",
+      "sort_start": "1891-07-01",
+      "sort_end": "1891-07-01"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      },
+      {
+        "entity_id": "robert_koch_institute",
+        "role": "organization"
+      }
+    ],
+    "location": "berlin",
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 8,
+        "quote": "On 1 July 1891 the Royal Prussian Institute for Infectious Diseases was opened for Robert Koch."
+      }
+    ]
+  },
+  {
+    "id": "koch_divorce",
+    "event_type": "other",
+    "label": "Divorce from Emmy Koch",
+    "date": {
+      "display": "06/1893",
+      "precision": "month",
+      "sort_start": "1893-06-01",
+      "sort_end": "1893-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      },
+      {
+        "entity_id": "emmy_fraatz",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 10,
+        "quote": "06/1893 Divorce from Emmy Koch"
+      }
+    ]
+  },
+  {
+    "id": "koch_marriage_2",
+    "event_type": "other",
+    "label": "Married Hedwig Freiberg",
+    "date": {
+      "display": "13.09.1893",
+      "precision": "day",
+      "sort_start": "1893-09-13",
+      "sort_end": "1893-09-13"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      },
+      {
+        "entity_id": "hedwig_freiberg",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 10,
+        "quote": "13.09.1893 Married Hedwig Freiberg"
+      }
+    ]
+  },
+  {
+    "id": "koch_tropical_research",
+    "event_type": "other",
+    "label": "Began research work on various tropical diseases",
+    "date": {
+      "display": "1896",
+      "precision": "year",
+      "sort_start": "1896-01-01",
+      "sort_end": "1896-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 8,
+        "quote": "In 1896 he began his own research work on various tropical diseases which led to further international cooperation."
+      }
+    ]
+  },
+  {
+    "id": "koch_retirement",
+    "event_type": "retirement",
+    "label": "Retired at his own request",
+    "date": {
+      "display": "01.10.1904",
+      "precision": "day",
+      "sort_start": "1904-10-01",
+      "sort_end": "1904-10-01"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 10,
+        "quote": "01.10.1904 Retired at his own request"
+      }
+    ]
+  },
+  {
+    "id": "koch_nobel_prize",
+    "event_type": "award",
+    "label": "Nobel Prize Award ceremony",
+    "date": {
+      "display": "11.12.1905",
+      "precision": "day",
+      "sort_start": "1905-12-11",
+      "sort_end": "1905-12-11"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "location": "stockholm",
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 10,
+        "quote": "11.12.1905  Nobel Prize Award ceremony in Stockholm"
+      }
+    ]
+  },
+  {
+    "id": "koch_japan_visit",
+    "event_type": "visit",
+    "label": "Visit to Kitasato in Japan and relatives in the USA",
+    "date": {
+      "display": "1908",
+      "precision": "year",
+      "sort_start": "1908-01-01",
+      "sort_end": "1908-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      },
+      {
+        "entity_id": "shibasaburo_kitasato",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 10,
+        "quote": "1908  Visit to Kitasato in Japan and relatives in the USA"
+      }
+    ]
+  },
+  {
+    "id": "koch_death",
+    "event_type": "death",
+    "label": "Died in Baden-Baden",
+    "date": {
+      "display": "27.05.1910",
+      "precision": "day",
+      "sort_start": "1910-05-27",
+      "sort_end": "1910-05-27"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "location": "baden_baden",
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 10,
+        "quote": "27.05.1910 Died in Baden-Baden"
+      }
+    ]
+  },
+  {
+    "id": "koch_cremation",
+    "event_type": "other",
+    "label": "Cremated in Baden-Baden",
+    "date": {
+      "display": "30.05.1910",
+      "precision": "day",
+      "sort_start": "1910-05-30",
+      "sort_end": "1910-05-30"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "location": "baden_baden",
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 10,
+        "quote": "30.05.1910 Cremated in Baden-Baden"
+      }
+    ]
+  },
+  {
+    "id": "koch_ashes_laid",
+    "event_type": "other",
+    "label": "Ashes laid to rest in his Institute",
+    "date": {
+      "display": "10 December 1910",
+      "precision": "day",
+      "sort_start": "1910-12-10",
+      "sort_end": "1910-12-10"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      },
+      {
+        "entity_id": "robert_koch_institute",
+        "role": "location"
+      }
+    ],
+    "location": "berlin",
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 12,
+        "quote": "On 10 December 1910 Robert Koch's ashes were laid to rest in his Institute."
+      }
+    ]
+  }
+]

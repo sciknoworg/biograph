@@ -1,0 +1,129 @@
+[
+  {
+    "id": "julian_huxley",
+    "entity_type": "person",
+    "name": "Julian Huxley",
+    "aliases": [
+      "Sir Julian Huxley"
+    ],
+    "summary": "British evolutionary biologist and conservationist.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "unesco",
+    "entity_type": "organization",
+    "name": "UNESCO",
+    "aliases": [],
+    "summary": "United Nations organization for education, science and culture.",
+    "subtype": "organization"
+  },
+  {
+    "id": "iucn",
+    "entity_type": "organization",
+    "name": "International Union for Conservation of Nature",
+    "aliases": [],
+    "summary": "International organization working for nature conservation.",
+    "subtype": "organization"
+  },
+  {
+    "id": "wwf",
+    "entity_type": "organization",
+    "name": "World Wildlife Fund",
+    "aliases": [],
+    "summary": "International non-governmental organization for wildlife conservation.",
+    "subtype": "organization"
+  },
+  {
+    "id": "international_zoological_congress",
+    "entity_type": "organization",
+    "name": "International Zoological Congress",
+    "aliases": [],
+    "summary": "Recurring conference for zoologists.",
+    "subtype": "conference"
+  },
+  {
+    "id": "galapagos_archipelago",
+    "entity_type": "place",
+    "name": "Galapagos Archipelago",
+    "aliases": [
+      "Galapagos"
+    ],
+    "summary": "Archipelago in the Pacific Ocean.",
+    "subtype": "archipelago",
+    "attributes": {
+      "country": "Ecuador",
+      "lat": -0.66667,
+      "lng": -90.55,
+      "wikidata_qid": "Q38095",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "galapagos_committee",
+    "entity_type": "organization",
+    "name": "Galapagos Committee",
+    "aliases": [],
+    "summary": "Committee established to conserve the Galapagos.",
+    "subtype": "committee"
+  },
+  {
+    "id": "london_committee_galapagos",
+    "entity_type": "organization",
+    "name": "London Committee for the Galapagos",
+    "aliases": [],
+    "summary": "Earlier committee for Galapagos conservation based in London.",
+    "subtype": "committee"
+  },
+  {
+    "id": "charles_darwin_foundation",
+    "entity_type": "organization",
+    "name": "Charles Darwin Foundation",
+    "aliases": [
+      "CDF"
+    ],
+    "summary": "Foundation supporting research in the Galapagos.",
+    "subtype": "foundation"
+  },
+  {
+    "id": "royal_society",
+    "entity_type": "organization",
+    "name": "Royal Society",
+    "aliases": [],
+    "summary": "Learned society for science.",
+    "subtype": "society"
+  },
+  {
+    "id": "balliol_college",
+    "entity_type": "organization",
+    "name": "Balliol College",
+    "aliases": [
+      "BaHiol College"
+    ],
+    "summary": "College of the University of Oxford.",
+    "subtype": "college"
+  },
+  {
+    "id": "darwin",
+    "entity_type": "person",
+    "name": "Darwin",
+    "aliases": [],
+    "summary": "Naturalist known for theory of evolution by natural selection.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "wallace",
+    "entity_type": "person",
+    "name": "Wallace",
+    "aliases": [],
+    "summary": "Naturalist known for theory of evolution by natural selection.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "evolution_modern_synthesis",
+    "entity_type": "artifact",
+    "name": "Evolution, the Modem Synthesis",
+    "aliases": [],
+    "summary": "Influential book on evolution by Julian Huxley.",
+    "subtype": "publication"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "john_snow_born_in_york",
+    "source": "john_snow",
+    "type": "born_in",
+    "target": "york",
+    "event_id": "john_snow_birth",
+    "sources": [
+      {
+        "source_id": "oleckno_2008",
+        "page": 1,
+        "quote": "Snow was born into a working-class\nfamily in York, England on Mar. 15, 1813."
+      }
+    ]
+  },
+  {
+    "id": "john_snow_educated_by_hardcastle",
+    "source": "john_snow",
+    "type": "educated_by",
+    "target": "william_hardcastle",
+    "event_id": "john_snow_apprenticeship",
+    "sources": [
+      {
+        "source_id": "oleckno_2008",
+        "page": 1,
+        "quote": "In 1827 he began an apothecary appren-\nticeship in Newcastle-upon-Tyne under\nthe direction of William Hardcastle"
+      }
+    ]
+  },
+  {
+    "id": "john_snow_studied_at_hunterian",
+    "source": "john_snow",
+    "type": "studied_at",
+    "target": "hunterian_school_of_medicine",
+    "event_id": "john_snow_medical_school",
+    "sources": [
+      {
+        "source_id": "oleckno_2008",
+        "page": 1,
+        "quote": "in 1836 he entered the Hunterian School\nof Medicine in London"
+      }
+    ]
+  },
+  {
+    "id": "john_snow_worked_at_westminster",
+    "source": "john_snow",
+    "type": "worked_at",
+    "target": "westminster_hospital",
+    "event_id": "john_snow_medical_school",
+    "sources": [
+      {
+        "source_id": "oleckno_2008",
+        "page": 1,
+        "quote": "while gaining\nclinical experience at Westminster Hos-\npital."
+      }
+    ]
+  },
+  {
+    "id": "john_snow_studied_at_london_uni",
+    "source": "john_snow",
+    "type": "studied_at",
+    "target": "university_of_london",
+    "event_id": "john_snow_bm_degree",
+    "sources": [
+      {
+        "source_id": "oleckno_2008",
+        "page": 1,
+        "quote": "from the University of London."
+      }
+    ]
+  },
+  {
+    "id": "john_snow_member_of_temperance",
+    "source": "john_snow",
+    "type": "member_of",
+    "target": "temperance_society",
+    "sources": [
+      {
+        "source_id": "oleckno_2008",
+        "page": 1,
+        "quote": "a\nmember of the Temperance Society."
+      }
+    ]
+  },
+  {
+    "id": "john_snow_published_book",
+    "source": "john_snow",
+    "type": "published",
+    "target": "chloroform_and_other_anesthetics",
+    "event_id": "john_snow_book_published",
+    "sources": [
+      {
+        "source_id": "oleckno_2008",
+        "page": 1,
+        "quote": "nearing completion of his\nbook Chloroform and Other Anesthetics"
+      }
+    ]
+  },
+  {
+    "id": "richardson_edited_book",
+    "source": "benjamin_richardson",
+    "type": "published",
+    "target": "chloroform_and_other_anesthetics",
+    "event_id": "john_snow_book_published",
+    "sources": [
+      {
+        "source_id": "oleckno_2008",
+        "page": 1,
+        "quote": "which was edited and published later that\nyear by his friend and biographer Dr.\nBenjamin Richardson."
+      }
+    ]
+  },
+  {
+    "id": "john_snow_died_in_1858",
+    "source": "john_snow",
+    "type": "died_in",
+    "target": "london",
+    "event_id": "john_snow_death",
+    "note": "Inferred location from context of career in London, though text says 'world lost'. Text implies London context.",
+    "sources": [
+      {
+        "source_id": "oleckno_2008",
+        "page": 1,
+        "quote": "On June 16, 1858, the world lost a\nlegendary medical pioneer."
+      }
+    ]
+  }
+]

@@ -1,0 +1,163 @@
+[
+  {
+    "aliases": [
+      "James Crow",
+      "Jim Crow",
+      "Professor Crow"
+    ],
+    "entity_type": "person",
+    "id": "james_f_crow",
+    "name": "James F. Crow",
+    "subtype": "researcher",
+    "summary": "American population geneticist known for contributions to mutation rates, genetic drift, and neutral theory."
+  },
+  {
+    "aliases": [
+      "UW-Madison",
+      "University of Wisconsin"
+    ],
+    "entity_type": "organization",
+    "id": "university_of_wisconsin_madison",
+    "name": "University of Wisconsin-Madison",
+    "subtype": "university",
+    "summary": "Public research university in Madison, Wisconsin."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "friends_university",
+    "name": "Friends University",
+    "subtype": "university",
+    "summary": "Private university in Kansas."
+  },
+  {
+    "aliases": [
+      "University of T exas"
+    ],
+    "entity_type": "organization",
+    "id": "university_of_texas_at_austin",
+    "name": "University of Texas at Austin",
+    "subtype": "university",
+    "summary": "Public research university in Austin, Texas."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "dartmouth_college",
+    "name": "Dartmouth College",
+    "subtype": "university",
+    "summary": "Private Ivy League research university in New Hampshire."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "genetics_society_of_america",
+    "name": "Genetics Society of America",
+    "subtype": "society",
+    "summary": "Professional society for genetics researchers."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "national_academy_of_sciences",
+    "name": "National Academy of Sciences",
+    "subtype": "society",
+    "summary": "Private non-profit society of scholars engaged in scientific and engineering research."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "royal_society",
+    "name": "Royal Society",
+    "subtype": "society",
+    "summary": "Learned society for science based in London."
+  },
+  {
+    "aliases": [
+      "Phoenixville, Pennsylvania"
+    ],
+    "attributes": {
+      "country": "United States",
+      "state": "Pennsylvania",
+      "lat": 40.13083,
+      "lng": -75.51917,
+      "wikidata_qid": "Q1181862",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "phoenixville_pennsylvania",
+    "name": "Phoenixville",
+    "subtype": "city",
+    "summary": "Borough in Pennsylvania, USA."
+  },
+  {
+    "aliases": [
+      "Madison, WI"
+    ],
+    "attributes": {
+      "country": "United States",
+      "state": "Wisconsin",
+      "lat": 43.07472,
+      "lng": -89.38417,
+      "wikidata_qid": "Q43788",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "madison_wisconsin",
+    "name": "Madison",
+    "subtype": "city",
+    "summary": "City in Wisconsin, USA."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "thomas_hunt_morgan_award",
+    "name": "Thomas Hunt Morgan Award",
+    "subtype": "award",
+    "summary": "Lifetime achievement award in genetics."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "upsetting_the_dogma_paper",
+    "name": "Upsetting the Dogma: Germline Selection in Human Males",
+    "subtype": "publication",
+    "summary": "Final scientific paper by James F. Crow."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "james_f_crow_institute",
+    "name": "James F. Crow Institute for the Study of Evolution",
+    "subtype": "institute",
+    "summary": "Institute for the Study of Evolution at UW-Madison."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "madison_symphony_orchestra",
+    "name": "Madison Symphony Orchestra",
+    "subtype": "orchestra",
+    "summary": "Symphony orchestra based in Madison, Wisconsin."
+  },
+  {
+    "aliases": [
+      "Dr. Temin"
+    ],
+    "entity_type": "person",
+    "id": "rayla_temin",
+    "name": "Rayla Temin",
+    "subtype": "researcher",
+    "summary": "Geneticist and former student of Crow."
+  },
+  {
+    "aliases": [
+      "Dr. Hartl"
+    ],
+    "entity_type": "person",
+    "id": "daniel_hartl",
+    "name": "Daniel Hartl",
+    "subtype": "researcher",
+    "summary": "Professor of Biology at Harvard University."
+  }
+]

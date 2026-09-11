@@ -1,0 +1,230 @@
+[
+  {
+    "id": "theodosius_dobzhansky",
+    "entity_type": "person",
+    "name": "Theodosius Dobzhansky",
+    "aliases": [
+      "Dobzhansky",
+      "T. Dobzhansky"
+    ],
+    "summary": "Central figure in the establishment of the modern synthesis and evolutionary genetics.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "andre_dreyfus",
+    "entity_type": "person",
+    "name": "André Dreyfus",
+    "aliases": [
+      "Dreyfus"
+    ],
+    "summary": "Head of the Department of General Biology at the University of São Paulo.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "crodowaldo_pavan",
+    "entity_type": "person",
+    "name": "Crodowaldo Pavan",
+    "aliases": [
+      "Pavan",
+      "Professor Pavan"
+    ],
+    "summary": "Dobzhansky's favourite Brazilian disciple and successor of Dreyfus.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "antonio_brito_da_cunha",
+    "entity_type": "person",
+    "name": "Antonio Brito da Cunha",
+    "aliases": [
+      "Brito da Cunha",
+      "Antonio da Cunha"
+    ],
+    "summary": "Youngest of Dobzhansky's disciples in the leading group at USP.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "natasha_dobzhansky",
+    "entity_type": "person",
+    "name": "Natasha Dobzhansky",
+    "aliases": [
+      "Natasha",
+      "Dobzhansky, N."
+    ],
+    "summary": "Dobzhansky's wife and biologist who worked in the team.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "boris_spassky",
+    "entity_type": "person",
+    "name": "Spassky",
+    "aliases": [
+      "B. Spassky"
+    ],
+    "summary": "Dobzhansky's colleague who worked on Drosophila species.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "chana_malogolowkin_cohen",
+    "entity_type": "person",
+    "name": "Chana Malogolowkin-Cohen",
+    "aliases": [
+      "Chana Malogolowkin",
+      "Malogolowkin"
+    ],
+    "summary": "Researcher of Russian Jewish origin who worked with Dobzhansky at Columbia.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "warwick_kerr",
+    "entity_type": "person",
+    "name": "Warwick Kerr",
+    "aliases": [
+      "Kerr",
+      "Warwick Estevan Kerr"
+    ],
+    "summary": "Researcher in a provincial university in Rio Claro.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "luiz_edmundo_de_magalhaes",
+    "entity_type": "person",
+    "name": "Luiz Edmundo de Magalhães",
+    "aliases": [
+      "Magalhães",
+      "Luiz E. Magalhães"
+    ],
+    "summary": "Graduate student under Pavan's guidance involved in the Angra dos Reis project.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "ove_frydenberg",
+    "entity_type": "person",
+    "name": "Ove Frydenberg",
+    "aliases": [
+      "Frydenberg",
+      "the complete worthless Dane"
+    ],
+    "summary": "Danish member of the group during the 1955-56 expedition.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "columbia_university",
+    "entity_type": "organization",
+    "name": "Columbia University",
+    "aliases": [
+      "Columbia"
+    ],
+    "summary": "University where Dobzhansky worked and housed his Oral History Memoir.",
+    "subtype": "university"
+  },
+  {
+    "id": "university_of_sao_paulo",
+    "entity_type": "organization",
+    "name": "University of São Paulo",
+    "aliases": [
+      "USP",
+      "Universidade de São Paulo"
+    ],
+    "summary": "Brazilian university where Dobzhansky visited and lectured.",
+    "subtype": "university"
+  },
+  {
+    "id": "department_of_general_biology_usp",
+    "entity_type": "organization",
+    "name": "Department of General Biology",
+    "aliases": [
+      "Departamento de Biologia Geral"
+    ],
+    "summary": "Department at USP headed by Dreyfus.",
+    "subtype": "department"
+  },
+  {
+    "id": "rockefeller_foundation",
+    "entity_type": "organization",
+    "name": "Rockefeller Foundation",
+    "aliases": [
+      "Rockefeller"
+    ],
+    "summary": "Foundation that provided grants for Dobzhansky's visits.",
+    "subtype": "foundation"
+  },
+  {
+    "id": "brazilian_society_of_genetics",
+    "entity_type": "organization",
+    "name": "Brazilian Society of Genetics",
+    "aliases": [
+      "SBG",
+      "Sociedade Brasileira de Genética"
+    ],
+    "summary": "Society founded in 1955.",
+    "subtype": "society"
+  },
+  {
+    "id": "brazil",
+    "entity_type": "place",
+    "name": "Brazil",
+    "aliases": [],
+    "summary": "Country where Dobzhansky made multiple visits.",
+    "subtype": "country",
+    "attributes": {
+      "country": "Brazil",
+      "lat": -14.0,
+      "lng": -53.0,
+      "wikidata_qid": "Q155",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "sao_paulo",
+    "entity_type": "place",
+    "name": "São Paulo",
+    "aliases": [],
+    "summary": "State and city where USP is located.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Brazil",
+      "lat": -23.55039,
+      "lng": -46.63395,
+      "wikidata_qid": "Q174",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "angra_dos_reis",
+    "entity_type": "place",
+    "name": "Angra dos Reis",
+    "aliases": [],
+    "summary": "Bay with islands where the 1955-56 project took place.",
+    "subtype": "bay",
+    "attributes": {
+      "country": "Brazil",
+      "lat": -23.00694,
+      "lng": -44.31778,
+      "wikidata_qid": "Q542829",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "piracicaba",
+    "entity_type": "place",
+    "name": "Piracicaba",
+    "aliases": [],
+    "summary": "City where the 1966 International Symposium of Genetics was held.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Brazil",
+      "lat": -22.72517,
+      "lng": -47.64933,
+      "wikidata_qid": "Q330175",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "genetics_and_the_origin_of_species",
+    "entity_type": "artifact",
+    "name": "Genetics and the Origin of Species",
+    "aliases": [],
+    "summary": "Book by Dobzhansky published in 1937.",
+    "subtype": "publication"
+  }
+]

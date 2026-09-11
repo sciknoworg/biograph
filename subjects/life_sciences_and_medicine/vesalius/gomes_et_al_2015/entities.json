@@ -1,0 +1,191 @@
+[
+  {
+    "id": "andreas_vesalius",
+    "entity_type": "person",
+    "name": "Andreas Vesalius",
+    "aliases": [
+      "Vesalius"
+    ],
+    "summary": "Renaissance physician and anatomist considered the Father of Modern Anatomy.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "brussels",
+    "entity_type": "place",
+    "name": "Brussels",
+    "summary": "City in Belgium where Andreas Vesalius was born.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Belgium",
+      "lat": 50.84667,
+      "lng": 4.35167,
+      "wikidata_qid": "Q239",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "zante",
+    "entity_type": "place",
+    "name": "Zante",
+    "summary": "Greek island where Andreas Vesalius died.",
+    "subtype": "island",
+    "attributes": {
+      "country": "Greece",
+      "lat": 37.8,
+      "lng": 20.75,
+      "wikidata_qid": "Q144880",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "university_of_louvain",
+    "entity_type": "organization",
+    "name": "University of Louvain",
+    "aliases": [
+      "Louvain"
+    ],
+    "summary": "University where Vesalius studied medicine.",
+    "subtype": "university"
+  },
+  {
+    "id": "university_of_paris",
+    "entity_type": "organization",
+    "name": "University of Paris",
+    "aliases": [
+      "Paris"
+    ],
+    "summary": "University where Vesalius studied medicine.",
+    "subtype": "university"
+  },
+  {
+    "id": "university_of_padua",
+    "entity_type": "organization",
+    "name": "University of Padua",
+    "aliases": [
+      "Padua"
+    ],
+    "summary": "University where Vesalius served as Professor of Surgical Anatomy.",
+    "subtype": "university"
+  },
+  {
+    "id": "anne_hamme",
+    "entity_type": "person",
+    "name": "Anne Hamme",
+    "summary": "Wife of Andreas Vesalius.",
+    "subtype": "family"
+  },
+  {
+    "id": "anne_vesalius",
+    "entity_type": "person",
+    "name": "Anne",
+    "summary": "Only daughter of Andreas Vesalius and Anne Hamme.",
+    "subtype": "family"
+  },
+  {
+    "id": "charles_v",
+    "entity_type": "person",
+    "name": "Charles V",
+    "summary": "Holy Roman Emperor who employed Vesalius as imperial household physician.",
+    "subtype": "royalty"
+  },
+  {
+    "id": "philippe_ii",
+    "entity_type": "person",
+    "name": "Philippe II",
+    "summary": "King who employed Vesalius as imperial physician after Charles V.",
+    "subtype": "royalty"
+  },
+  {
+    "id": "de_humani_corporis_fabrica",
+    "entity_type": "artifact",
+    "name": "De Humani Corporis Fabrica",
+    "aliases": [
+      "Fabrica"
+    ],
+    "summary": "Vesalius's masterpiece on human anatomy published in 1543.",
+    "subtype": "publication"
+  },
+  {
+    "id": "epitome",
+    "entity_type": "artifact",
+    "name": "De Humani corporis fabrica librorum Epitome",
+    "aliases": [
+      "Epitome"
+    ],
+    "summary": "Abridged version of the Fabrica intended as a handbook for students.",
+    "subtype": "publication"
+  },
+  {
+    "id": "anatomicae_tabulae",
+    "entity_type": "artifact",
+    "name": "Anatomicae Tabulae",
+    "summary": "Publication of anatomical sketches by Vesalius in 1538.",
+    "subtype": "publication"
+  },
+  {
+    "id": "galen",
+    "entity_type": "person",
+    "name": "Galen",
+    "aliases": [
+      "Claudius Galenus",
+      "Galeno"
+    ],
+    "summary": "Ancient anatomist whose work Vesalius challenged through human dissection.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "leonardo_da_vinci",
+    "entity_type": "person",
+    "name": "Leonardo da Vinci",
+    "summary": "Renaissance artist and anatomist who performed human dissections before Vesalius.",
+    "subtype": "artist"
+  },
+  {
+    "id": "johannes_oporinus",
+    "entity_type": "person",
+    "name": "Johannes Oporinus",
+    "summary": "Printer from Basel who published the Fabrica.",
+    "subtype": "printer"
+  },
+  {
+    "id": "basel",
+    "entity_type": "place",
+    "name": "Basel",
+    "summary": "City where the Fabrica was printed.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Switzerland",
+      "lat": 47.56056,
+      "lng": 7.59056,
+      "wikidata_qid": "Q78",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "venice",
+    "entity_type": "place",
+    "name": "Venice",
+    "summary": "City where the Fabrica illustrations were printed.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Italy",
+      "lat": 45.43972,
+      "lng": 12.33194,
+      "wikidata_qid": "Q641",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "holy_land",
+    "entity_type": "place",
+    "name": "Holy Land",
+    "summary": "Destination of Vesalius's final trip in 1564.",
+    "subtype": "region",
+    "attributes": {
+      "lat": 31.62532,
+      "lng": 35.14526,
+      "wikidata_qid": "Q23792",
+      "geocode_basis": "most_linked"
+    }
+  }
+]

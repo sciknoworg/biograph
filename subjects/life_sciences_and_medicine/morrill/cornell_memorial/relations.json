@@ -1,0 +1,121 @@
+[
+  {
+    "id": "morrill_born_in_nyc",
+    "source": "charles_v_morrill",
+    "type": "born_in",
+    "target": "new_york_city",
+    "event_id": "morrill_birth",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "He was born in New York City, March 9, 1884."
+      }
+    ]
+  },
+  {
+    "id": "morrill_studied_ccny",
+    "source": "charles_v_morrill",
+    "type": "studied_at",
+    "target": "city_college_of_new_york",
+    "event_id": "morrill_ab_degree",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "He received his A.B. in 1903 from City College of New York"
+      }
+    ]
+  },
+  {
+    "id": "morrill_studied_columbia",
+    "source": "charles_v_morrill",
+    "type": "studied_at",
+    "target": "columbia_university",
+    "start": {
+      "precision": "year",
+      "sort_start": "1906-01-01",
+      "sort_end": "1906-12-31",
+      "display": "1906"
+    },
+    "end": {
+      "precision": "year",
+      "sort_start": "1910-01-01",
+      "sort_end": "1910-12-31",
+      "display": "1910"
+    },
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "and his A.M. (1906) and Ph.D. (1910) from Columbia University."
+      }
+    ]
+  },
+  {
+    "id": "morrill_worked_cornell",
+    "source": "charles_v_morrill",
+    "type": "worked_at",
+    "target": "cornell_university",
+    "start": {
+      "precision": "year",
+      "sort_start": "1915-01-01",
+      "sort_end": "1915-12-31",
+      "display": "1915"
+    },
+    "end": {
+      "precision": "year",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-12-31",
+      "display": "1952"
+    },
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "He was appointed to the staff at Cornell in 1915 and retired as a professor of anatomy in 1952."
+      }
+    ]
+  },
+  {
+    "id": "morrill_employed_cornell",
+    "source": "charles_v_morrill",
+    "type": "employed_by",
+    "target": "cornell_university",
+    "event_id": "morrill_cornell_appointment",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "He was appointed to the staff at Cornell in 1915"
+      }
+    ]
+  },
+  {
+    "id": "morrill_published_textbook",
+    "source": "charles_v_morrill",
+    "type": "published",
+    "target": "edwards_bros",
+    "event_id": "morrill_textbook_published",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 2,
+        "quote": "It was privately printed M Edwards Bros. (1946)"
+      }
+    ]
+  },
+  {
+    "id": "hagamen_wrote_memorial",
+    "source": "wilbur_d_hagamen",
+    "type": "published",
+    "target": "cornell_university",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 3,
+        "quote": "Wilbur D. Hagamen, M.D."
+      }
+    ]
+  }
+]

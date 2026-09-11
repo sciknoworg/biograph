@@ -1,0 +1,24 @@
+[
+  {
+    "id": "hitler_invaded_poland",
+    "event_type": "other",
+    "label": "Hitler invaded Poland",
+    "description": "Occurred within three weeks of Plymouth experiment.",
+    "date": {
+      "display": "Within three weeks of August 1939",
+      "precision": "month",
+      "sort_start": "1939-08-01",
+      "sort_end": "1939-09-30"
+    },
+    "location": "poland",
+    "participants": [],
+    "sources": [
+      {
+        "source_id": "tansey_1992_review",
+        "page": 1,
+        "quote": "Withinthreeweeksofthat achievement,HitlerinvadedPoland"
+      }
+    ],
+    "_rejected_because": "[] should be non-empty"
+  }
+]

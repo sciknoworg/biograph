@@ -1,0 +1,166 @@
+[
+  {
+    "aliases": [
+      "Dr. Gibbon",
+      "Jack",
+      "Jack Gibbon",
+      "John Gibbon"
+    ],
+    "entity_type": "person",
+    "id": "john_heysham_gibbon_jr",
+    "name": "John Heysham Gibbon Jr.",
+    "subtype": "surgeon",
+    "summary": "American surgeon and medical researcher who invented the heart-lung machine."
+  },
+  {
+    "aliases": [
+      "Maly"
+    ],
+    "entity_type": "person",
+    "id": "maly_gibbon",
+    "name": "Maly Gibbon",
+    "subtype": "researcher",
+    "summary": "Wife and research collaborator of John Heysham Gibbon Jr."
+  },
+  {
+    "aliases": [
+      "Princeton"
+    ],
+    "entity_type": "organization",
+    "id": "princeton_university",
+    "name": "Princeton University",
+    "subtype": "university",
+    "summary": "University where Gibbon completed his undergraduate education."
+  },
+  {
+    "aliases": [
+      "Jefferson Hospital"
+    ],
+    "entity_type": "organization",
+    "id": "jefferson_medical_college",
+    "name": "Jefferson Medical College",
+    "subtype": "university",
+    "summary": "Medical school and hospital where Gibbon served as professor and performed the first successful open-heart surgery."
+  },
+  {
+    "aliases": [
+      "UPenn",
+      "Harrison Department of Surgical Research"
+    ],
+    "entity_type": "organization",
+    "id": "university_of_pennsylvania",
+    "name": "University of Pennsylvania",
+    "subtype": "university",
+    "summary": "University where Gibbon worked as Assistant Professor and conducted research."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "pennsylvania_hospital",
+    "name": "Pennsylvania Hospital",
+    "subtype": "hospital",
+    "summary": "Hospital where Gibbon took up clinical work and served during the war."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "location": "Galesburg, Illinois"
+    },
+    "entity_type": "organization",
+    "id": "mayo_general_hospital",
+    "name": "Mayo General Hospital",
+    "subtype": "hospital",
+    "summary": "Hospital in Galesburg, Illinois where Gibbon served as Chief of Surgical Service during the war."
+  },
+  {
+    "aliases": [
+      "apparatus",
+      "machine"
+    ],
+    "entity_type": "artifact",
+    "id": "heart_lung_machine",
+    "name": "Heart-lung machine",
+    "subtype": "invention",
+    "summary": "Apparatus developed by Gibbon to carry on circulation outside the body during surgery."
+  },
+  {
+    "aliases": [
+      "this College"
+    ],
+    "entity_type": "organization",
+    "id": "college_of_physicians_of_philadelphia",
+    "name": "College of Physicians of Philadelphia",
+    "subtype": "organization",
+    "summary": "Professional organization where Gibbon served as president."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "cecilia_bavolek",
+    "name": "Cecelia Bavolek",
+    "subtype": "patient",
+    "summary": "Patient who underwent the first successful open-heart operation using the heart-lung machine."
+  },
+  {
+    "aliases": [
+      "Dr. I. S. Ravdin"
+    ],
+    "entity_type": "person",
+    "id": "i_s_ravdin",
+    "name": "I. S. Ravdin",
+    "subtype": "researcher",
+    "summary": "Director of the Harrison Department who funded Gibbon's improved machine model."
+  },
+  {
+    "aliases": [
+      "Dr. Rhoads"
+    ],
+    "entity_type": "person",
+    "id": "jonathan_rhoads",
+    "name": "Jonathan Rhoads",
+    "subtype": "surgeon",
+    "summary": "Surgical colleague and friend of Gibbon at the University of Pennsylvania."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United States",
+      "lat": 39.95278,
+      "lng": -75.16361,
+      "wikidata_qid": "Q1345",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "philadelphia",
+    "name": "Philadelphia",
+    "subtype": "city",
+    "summary": "City where Gibbon worked and lived."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United States",
+      "state": "Illinois",
+      "lat": 40.95222,
+      "lng": -90.36861,
+      "wikidata_qid": "Q782574",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "galesburg_illinois",
+    "name": "Galesburg",
+    "subtype": "city",
+    "summary": "Location of Mayo General Hospital where Gibbon served during the war."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Various"
+    },
+    "entity_type": "place",
+    "id": "south_pacific",
+    "name": "South Pacific",
+    "subtype": "region",
+    "summary": "Region where Gibbon served with the Pennsylvania Hospital Unit during the war."
+  }
+]

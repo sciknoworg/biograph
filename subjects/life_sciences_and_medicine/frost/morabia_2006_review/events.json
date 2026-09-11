@@ -1,0 +1,460 @@
+[
+  {
+    "id": "frost_birth",
+    "event_type": "birth",
+    "label": "Born in Marshall, Virginia",
+    "date": {
+      "display": "1880",
+      "precision": "year",
+      "sort_start": "1880-01-01",
+      "sort_end": "1880-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wade_hampton_frost",
+        "role": "subject"
+      }
+    ],
+    "location": "marshall",
+    "sources": [
+      {
+        "source_id": "morabia_2006_review",
+        "page": 333,
+        "quote": "Frost was born in 1880 in Marshall, Virginia."
+      }
+    ]
+  },
+  {
+    "id": "frost_md",
+    "event_type": "education",
+    "label": "Received MD from University of Virginia",
+    "date": {
+      "display": "1903",
+      "precision": "year",
+      "sort_start": "1903-01-01",
+      "sort_end": "1903-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wade_hampton_frost",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_virginia",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "morabia_2006_review",
+        "page": 333,
+        "quote": "He received a Doctor of Medicine degree from the University of Virginia in 1903"
+      }
+    ]
+  },
+  {
+    "id": "frost_usphs_join",
+    "event_type": "employment_start",
+    "label": "Joined United States Public Health Service",
+    "date": {
+      "display": "1903",
+      "precision": "year",
+      "sort_start": "1903-01-01",
+      "sort_end": "1903-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wade_hampton_frost",
+        "role": "subject"
+      },
+      {
+        "entity_id": "united_states_public_health_service",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "morabia_2006_review",
+        "page": 333,
+        "quote": "and joined the United States Public Health Service."
+      }
+    ]
+  },
+  {
+    "id": "frost_epidemiologist",
+    "event_type": "role_change",
+    "label": "Became an epidemiologist",
+    "date": {
+      "display": "1905",
+      "precision": "year",
+      "sort_start": "1905-01-01",
+      "sort_end": "1905-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wade_hampton_frost",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "morabia_2006_review",
+        "page": 333,
+        "quote": "When Frost became an epidemiologist, in 1905"
+      }
+    ]
+  },
+  {
+    "id": "frost_new_orleans",
+    "event_type": "visit",
+    "label": "Sent to New Orleans for yellow fever investigation",
+    "date": {
+      "display": "1906",
+      "precision": "year",
+      "sort_start": "1906-01-01",
+      "sort_end": "1906-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wade_hampton_frost",
+        "role": "subject"
+      }
+    ],
+    "location": "new_orleans",
+    "sources": [
+      {
+        "source_id": "morabia_2006_review",
+        "page": 333,
+        "quote": "In 1906 he was sent to New Orleans to investigate an outbreak of yellow fever."
+      }
+    ]
+  },
+  {
+    "id": "frost_hygienic_lab",
+    "event_type": "employment_start",
+    "label": "Assigned to Hygienic Laboratory",
+    "date": {
+      "display": "1908",
+      "precision": "year",
+      "sort_start": "1908-01-01",
+      "sort_end": "1908-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wade_hampton_frost",
+        "role": "subject"
+      },
+      {
+        "entity_id": "hygienic_laboratory",
+        "role": "employer"
+      }
+    ],
+    "location": "washington",
+    "sources": [
+      {
+        "source_id": "morabia_2006_review",
+        "page": 333,
+        "quote": "In 1908 he was assigned to the Division of Pathology and Bacteriology of the Hygienic Laboratory in Washington"
+      }
+    ]
+  },
+  {
+    "id": "frost_polio_emerson",
+    "event_type": "meeting",
+    "label": "Helped Haven Emerson investigate polio",
+    "date": {
+      "display": "1916",
+      "precision": "year",
+      "sort_start": "1916-01-01",
+      "sort_end": "1916-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wade_hampton_frost",
+        "role": "subject"
+      },
+      {
+        "entity_id": "haven_emerson",
+        "role": "collaborator"
+      }
+    ],
+    "location": "new_york_city",
+    "sources": [
+      {
+        "source_id": "morabia_2006_review",
+        "page": 333,
+        "quote": "In 1916, he helped Haven Emerson, New York City's health commissioner, to investigate a polio outbreak."
+      }
+    ]
+  },
+  {
+    "id": "frost_hopkins_invite",
+    "event_type": "employment_start",
+    "label": "Invited to set up Department at Hopkins",
+    "date": {
+      "display": "1918",
+      "precision": "year",
+      "sort_start": "1918-01-01",
+      "sort_end": "1918-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wade_hampton_frost",
+        "role": "subject"
+      },
+      {
+        "entity_id": "william_henry_welch",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "johns_hopkins_university_school_of_hygiene_and_public_health",
+        "role": "employer"
+      }
+    ],
+    "location": "baltimore",
+    "sources": [
+      {
+        "source_id": "morabia_2006_review",
+        "page": 333,
+        "quote": "At the end of the 1918 pandemic, Frost was invited by William Henry Welch to set up a Department of Epidemiology"
+      }
+    ]
+  },
+  {
+    "id": "frost_hopkins_lecturer",
+    "event_type": "employment_start",
+    "label": "Appointed Lecturer of Epidemiology",
+    "date": {
+      "display": "1919",
+      "precision": "year",
+      "sort_start": "1919-01-01",
+      "sort_end": "1919-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wade_hampton_frost",
+        "role": "subject"
+      },
+      {
+        "entity_id": "johns_hopkins_university_school_of_hygiene_and_public_health",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "morabia_2006_review",
+        "page": 333,
+        "quote": "When Frost was appointed in 1919 first Lecturer of Epidemiology"
+      }
+    ]
+  },
+  {
+    "id": "frost_epidemiology_1",
+    "event_type": "other",
+    "label": "Epidemiology 1 course given first time",
+    "date": {
+      "display": "spring 1920",
+      "precision": "season",
+      "sort_start": "1920-03-01",
+      "sort_end": "1920-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wade_hampton_frost",
+        "role": "subject"
+      },
+      {
+        "entity_id": "johns_hopkins_university_school_of_hygiene_and_public_health",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "morabia_2006_review",
+        "page": 333,
+        "quote": "Epidemiology 1, which was given for the first time in the spring of 1920"
+      }
+    ]
+  },
+  {
+    "id": "frost_emerson_textbook",
+    "event_type": "publication",
+    "label": "Chapter published in Emerson's textbook",
+    "date": {
+      "display": "1928",
+      "precision": "year",
+      "sort_start": "1928-01-01",
+      "sort_end": "1928-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wade_hampton_frost",
+        "role": "author"
+      },
+      {
+        "entity_id": "haven_emerson",
+        "role": "editor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "morabia_2006_review",
+        "page": 333,
+        "quote": "the chapter entitled ''Epidemiology'', which appeared in Haven Emerson's textbook on preventive medicine and public health in 1928"
+      }
+    ]
+  },
+  {
+    "id": "frost_tb_studies",
+    "event_type": "other",
+    "label": "Turned attention to tuberculosis epidemiology",
+    "date": {
+      "display": "1930's",
+      "precision": "decade",
+      "sort_start": "1930-01-01",
+      "sort_end": "1939-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wade_hampton_frost",
+        "role": "subject"
+      }
+    ],
+    "location": "tennessee",
+    "sources": [
+      {
+        "source_id": "morabia_2006_review",
+        "page": 333,
+        "quote": "In the 1930's he turned his attention to the epidemiology of tuberculosis"
+      }
+    ]
+  },
+  {
+    "id": "frost_death",
+    "event_type": "death",
+    "label": "Died of esophageal cancer",
+    "date": {
+      "display": "1938",
+      "precision": "year",
+      "sort_start": "1938-01-01",
+      "sort_end": "1938-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wade_hampton_frost",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "morabia_2006_review",
+        "page": 333,
+        "quote": "Frost was an addicted smoker and he died prematurely at age 58 of an esophageal cancer."
+      }
+    ]
+  },
+  {
+    "id": "frost_posthumous_1939",
+    "event_type": "publication",
+    "label": "Posthumous publication in Am J Hyg",
+    "date": {
+      "display": "1939",
+      "precision": "year",
+      "sort_start": "1939-01-01",
+      "sort_end": "1939-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wade_hampton_frost",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "morabia_2006_review",
+        "page": 334,
+        "quote": "Am J Hyg 1939; 30: 91–96."
+      }
+    ]
+  },
+  {
+    "id": "frost_papers_1941",
+    "event_type": "publication",
+    "label": "Papers of Wade Hampton Frost published",
+    "date": {
+      "display": "1941",
+      "precision": "year",
+      "sort_start": "1941-01-01",
+      "sort_end": "1941-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wade_hampton_frost",
+        "role": "author"
+      },
+      {
+        "entity_id": "common_wealth_fund",
+        "role": "publisher"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "morabia_2006_review",
+        "page": 334,
+        "quote": "New York: Common Wealth Fund; 1941."
+      }
+    ]
+  },
+  {
+    "id": "daniel_book_2004",
+    "event_type": "publication",
+    "label": "Daniel's biography published",
+    "date": {
+      "display": "2004",
+      "precision": "year",
+      "sort_start": "2004-01-01",
+      "sort_end": "2004-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_m_daniel",
+        "role": "author"
+      },
+      {
+        "entity_id": "university_of_rochester_press",
+        "role": "publisher"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "morabia_2006_review",
+        "page": 334,
+        "quote": "Rochester: University of Rochester Press; 2004."
+      }
+    ]
+  },
+  {
+    "id": "morabia_review_2006",
+    "event_type": "publication",
+    "label": "Morabia's review published",
+    "date": {
+      "display": "2006",
+      "precision": "year",
+      "sort_start": "2006-01-01",
+      "sort_end": "2006-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfredo_morabia",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "morabia_2006_review",
+        "page": 333,
+        "quote": "European Journal of Epidemiology (2006) 15: 333–335"
+      }
+    ]
+  }
+]

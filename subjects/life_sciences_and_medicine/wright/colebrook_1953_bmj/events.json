@@ -1,0 +1,254 @@
+[
+  {
+    "id": "wright_graduated_1883",
+    "event_type": "education",
+    "label": "Graduated from Trinity College, Dublin",
+    "date": {
+      "display": "1883",
+      "precision": "year",
+      "sort_start": "1883-01-01",
+      "sort_end": "1883-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "almroth_wright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "trinity_college_dublin",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "colebrook_1953_bmj",
+        "page": 1,
+        "quote": "Whenhegraduatedin1883(fromTrinityCollege, Dublin)"
+      }
+    ]
+  },
+  {
+    "id": "wright_appointed_professor_1893",
+    "event_type": "employment_start",
+    "label": "Appointed Professor of Pathology in Army Medical Services",
+    "date": {
+      "display": "1893",
+      "precision": "year",
+      "sort_start": "1893-01-01",
+      "sort_end": "1893-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "almroth_wright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "army_medical_services",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "colebrook_1953_bmj",
+        "page": 1,
+        "quote": "Hehadrecentlybeenappointed ProfessorofPathologyintheArmyMedicalServices"
+      }
+    ]
+  },
+  {
+    "id": "wright_started_bacteriology_1893",
+    "event_type": "other",
+    "label": "Started bacteriological work",
+    "date": {
+      "display": "1893",
+      "precision": "year",
+      "sort_start": "1893-01-01",
+      "sort_end": "1893-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "almroth_wright",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "colebrook_1953_bmj",
+        "page": 1,
+        "quote": "ItwasatthispointthatWrightstartedhisbacterio- logicalwork-in1893."
+      }
+    ]
+  },
+  {
+    "id": "wright_left_army_1902",
+    "event_type": "employment_end",
+    "label": "Left Army Medical Services",
+    "date": {
+      "display": "1902",
+      "precision": "year",
+      "sort_start": "1902-01-01",
+      "sort_end": "1902-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "almroth_wright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "army_medical_services",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "colebrook_1953_bmj",
+        "page": 3,
+        "quote": "Whenthatworkwas doneWrightlefttheArmyMedical Services(1902)"
+      }
+    ]
+  },
+  {
+    "id": "wright_joined_st_marys_1902",
+    "event_type": "employment_start",
+    "label": "Came to St. Mary's as Professor of Pathology and Bacteriology",
+    "date": {
+      "display": "1902",
+      "precision": "year",
+      "sort_start": "1902-01-01",
+      "sort_end": "1902-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "almroth_wright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "st_marys_hospital",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "colebrook_1953_bmj",
+        "page": 3,
+        "quote": "andcame toSt.Mary'sasProfessorofPatho- logyandBacteriology."
+      }
+    ]
+  },
+  {
+    "id": "leishman_data_1909",
+    "event_type": "publication",
+    "label": "Leishman produced satisfactory typhoid data",
+    "date": {
+      "display": "1909",
+      "precision": "year",
+      "sort_start": "1909-01-01",
+      "sort_end": "1909-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "w_b_leishman",
+        "role": "subject"
+      },
+      {
+        "entity_id": "british_army",
+        "role": "context"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "colebrook_1953_bmj",
+        "page": 2,
+        "quote": "ultimately,in1909,satis- factorydatawereproducedbyhissuccessoratNetley, ColonelW.B.Leishman."
+      }
+    ]
+  },
+  {
+    "id": "wright_lab_france_wwi",
+    "event_type": "employment_start",
+    "label": "Commissioned to set up laboratory in France",
+    "date": {
+      "display": "1914-1918",
+      "precision": "range",
+      "sort_start": "1914-01-01",
+      "sort_end": "1918-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "almroth_wright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "alexander_fleming",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "france",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "colebrook_1953_bmj",
+        "page": 3,
+        "quote": "Wright,withFleming,wascommissionedtosetupalabora- toryinFranceforthestudyofthesewoundinfections."
+      }
+    ]
+  },
+  {
+    "id": "lecture_delivered_1953",
+    "event_type": "conference",
+    "label": "Almroth Wright Lecture delivered",
+    "date": {
+      "display": "June 5, 1953",
+      "precision": "day",
+      "sort_start": "1953-06-05",
+      "sort_end": "1953-06-05"
+    },
+    "participants": [
+      {
+        "entity_id": "leonard_colebrook",
+        "role": "presenter"
+      },
+      {
+        "entity_id": "st_marys_hospital",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "colebrook_1953_bmj",
+        "page": 1,
+        "quote": "Beingthefirstofthe1953seriesofAlmrothWrightLecturesdeliveredatSt.Mary'sHospitalon June5."
+      }
+    ]
+  },
+  {
+    "id": "article_published_1953",
+    "event_type": "publication",
+    "label": "Article published in British Medical Journal",
+    "date": {
+      "display": "September 19, 1953",
+      "precision": "day",
+      "sort_start": "1953-09-19",
+      "sort_end": "1953-09-19"
+    },
+    "participants": [
+      {
+        "entity_id": "leonard_colebrook",
+        "role": "author"
+      },
+      {
+        "entity_id": "british_medical_journal",
+        "role": "publisher"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "colebrook_1953_bmj",
+        "page": 1,
+        "quote": "LONDON SATURDAY SEPTEMBER191953"
+      }
+    ]
+  }
+]

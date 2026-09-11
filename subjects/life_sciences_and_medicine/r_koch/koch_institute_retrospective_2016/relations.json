@@ -1,0 +1,152 @@
+[
+  {
+    "id": "koch_born_clausthal",
+    "source": "robert_koch",
+    "type": "born_in",
+    "target": "clausthal_harz",
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 4,
+        "quote": "The situation into which Robert Koch was born in December 1843 was characteristic for the period."
+      }
+    ]
+  },
+  {
+    "id": "koch_studied_gottingen",
+    "source": "robert_koch",
+    "type": "studied_at",
+    "target": "friedrich_wilhelms_university",
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 10,
+        "quote": "1862 – 1866 Studied medicine in Göttingen"
+      }
+    ]
+  },
+  {
+    "id": "koch_worked_imperial_health",
+    "source": "robert_koch",
+    "type": "worked_at",
+    "target": "imperial_health_office",
+    "event_id": "koch_imperial_health_office",
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 6,
+        "quote": "From Wollstein he was appointed to the Imperial Health Office in Berlin in 1880."
+      }
+    ]
+  },
+  {
+    "id": "koch_worked_university",
+    "source": "robert_koch",
+    "type": "worked_at",
+    "target": "friedrich_wilhelms_university",
+    "event_id": "koch_professor_hygiene",
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 10,
+        "quote": "1885 – 1891  First Professor for Hygiene in Berlin, Friedrich Wilhelms University"
+      }
+    ]
+  },
+  {
+    "id": "koch_founded_institute",
+    "source": "robert_koch",
+    "type": "founded",
+    "target": "robert_koch_institute",
+    "event_id": "koch_institute_founded",
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 8,
+        "quote": "On 1 July 1891 the Royal Prussian Institute for Infectious Diseases was opened for Robert Koch."
+      }
+    ]
+  },
+  {
+    "id": "koch_married_emmy",
+    "source": "robert_koch",
+    "type": "married_to",
+    "target": "emmy_fraatz",
+    "event_id": "koch_marriage_1",
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 10,
+        "quote": "16.07.1867 Married Emmy Fraatz"
+      }
+    ]
+  },
+  {
+    "id": "koch_married_hedwig",
+    "source": "robert_koch",
+    "type": "married_to",
+    "target": "hedwig_freiberg",
+    "event_id": "koch_marriage_2",
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 10,
+        "quote": "13.09.1893 Married Hedwig Freiberg"
+      }
+    ]
+  },
+  {
+    "id": "koch_awarded_nobel",
+    "source": "robert_koch",
+    "type": "awarded",
+    "target": "nobel_prize",
+    "event_id": "koch_nobel_prize",
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 10,
+        "quote": "11.12.1905  Nobel Prize Award ceremony in Stockholm"
+      }
+    ]
+  },
+  {
+    "id": "koch_died_baden",
+    "source": "robert_koch",
+    "type": "died_in",
+    "target": "baden_baden",
+    "event_id": "koch_death",
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 10,
+        "quote": "27.05.1910 Died in Baden-Baden"
+      }
+    ]
+  },
+  {
+    "id": "koch_mentored_gaffky",
+    "source": "robert_koch",
+    "type": "mentored",
+    "target": "georg_gaffky",
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 14,
+        "quote": "Koch's first staff members in the new bacteriological laboratory were Georg Gaffky (1850 – 1918) and Friedrich Loeffler (1852 – 1915)."
+      }
+    ]
+  },
+  {
+    "id": "koch_mentored_loeffler",
+    "source": "robert_koch",
+    "type": "mentored",
+    "target": "friedrich_loeffler",
+    "sources": [
+      {
+        "source_id": "koch_institute_retrospective_2016",
+        "page": 14,
+        "quote": "Koch's first staff members in the new bacteriological laboratory were Georg Gaffky (1850 – 1918) and Friedrich Loeffler (1852 – 1915)."
+      }
+    ]
+  }
+]

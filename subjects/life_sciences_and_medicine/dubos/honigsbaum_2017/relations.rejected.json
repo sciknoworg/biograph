@@ -1,0 +1,32 @@
+[
+  {
+    "id": "dubos_awarded_lasker",
+    "source": "rene_dubos",
+    "type": "awarded",
+    "target": "lasker_award",
+    "event_id": "dubos_lasker_award",
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 6,
+        "quote": "earning him the 1948 Lasker Award"
+      }
+    ],
+    "_rejected_because": "unknown target entity 'lasker_award'"
+  },
+  {
+    "id": "dubos_awarded_trudeau",
+    "source": "rene_dubos",
+    "type": "awarded",
+    "target": "trudeau_society",
+    "event_id": "dubos_trudeau_medal",
+    "sources": [
+      {
+        "source_id": "honigsbaum_2017",
+        "page": 2,
+        "quote": "leading to the award of the Trudeau Society Medal in 1951."
+      }
+    ],
+    "_rejected_because": "'awarded' expects target entity_type artifact, but 'trudeau_society' is 'organization'"
+  }
+]

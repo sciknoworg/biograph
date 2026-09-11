@@ -1,0 +1,32 @@
+[
+  {
+    "id": "metchnikoff_awarded_nobel",
+    "source": "metchnikoff_ilya_ilyich",
+    "type": "awarded",
+    "target": "artifact_nobel_1908",
+    "event_id": "metchnikoff_nobel_prize",
+    "sources": [
+      {
+        "source_id": "ezepchuk_2016",
+        "page": 1,
+        "quote": "Metchnikoff  \nwas awarded the 1908 Nobel Prize in Physiology or \nMedicine (jointly with the German Professor Paul \nEhrlich)."
+      }
+    ],
+    "_rejected_because": "unknown target entity 'artifact_nobel_1908'"
+  },
+  {
+    "id": "metchnikoff_discovered_phagocytosis",
+    "source": "metchnikoff_ilya_ilyich",
+    "type": "invented",
+    "target": "artifact_phagocytosis",
+    "event_id": "metchnikoff_messina_phagocytosis",
+    "sources": [
+      {
+        "source_id": "ezepchuk_2016",
+        "page": 7,
+        "quote": "Thus Metchnikoff discovered phagocytosis."
+      }
+    ],
+    "_rejected_because": "unknown target entity 'artifact_phagocytosis'"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "ross_worked_in_india",
+    "source": "ronald_ross",
+    "type": "worked_at",
+    "target": "india",
+    "note": "Ross conducted research while serving in a military post in India.",
+    "sources": [
+      {
+        "source_id": "smith_2012_ross_macdonald",
+        "page": 1,
+        "quote": "conducted his research while serving in a military post in India"
+      }
+    ]
+  },
+  {
+    "id": "ross_collaborated_manson",
+    "source": "ronald_ross",
+    "type": "collaborated_with",
+    "target": "patrick_manson",
+    "sources": [
+      {
+        "source_id": "smith_2012_ross_macdonald",
+        "page": 1,
+        "quote": "Ronald Ross discussed malaria with Manson while in the United Kingdom"
+      }
+    ]
+  },
+  {
+    "id": "ross_collaborated_hudson",
+    "source": "ronald_ross",
+    "type": "collaborated_with",
+    "target": "hilda_hudson",
+    "sources": [
+      {
+        "source_id": "smith_2012_ross_macdonald",
+        "page": 2,
+        "quote": "The last two parts were co-authored by Hilda Hudson and published in 1917 [104–107]."
+      }
+    ]
+  },
+  {
+    "id": "ross_worked_liverpool",
+    "source": "ronald_ross",
+    "type": "worked_at",
+    "target": "liverpool_school_of_tropical_medicine",
+    "sources": [
+      {
+        "source_id": "smith_2012_ross_macdonald",
+        "page": 12,
+        "quote": "Ross R, Annett HE, Austen EE (1900) Report of the malaria expedition of the Liverpool School of Tropical Medicine and Medical Parasitology."
+      }
+    ]
+  },
+  {
+    "id": "macdonald_director_ross_institute",
+    "source": "george_macdonald",
+    "type": "worked_at",
+    "target": "ross_institute",
+    "start": {
+      "display": "1947",
+      "precision": "year",
+      "sort_start": "1947-01-01",
+      "sort_end": "1947-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "smith_2012_ross_macdonald",
+        "page": 5,
+        "quote": "from 1947, he was Director of the Ross Institute."
+      }
+    ]
+  },
+  {
+    "id": "ross_developed_thick_film",
+    "source": "ronald_ross",
+    "type": "invented",
+    "target": "thick_film_method",
+    "event_id": "ross_develops_thick_film",
+    "sources": [
+      {
+        "source_id": "smith_2012_ross_macdonald",
+        "page": 5,
+        "quote": "Ross improved microscopy further by developing the ''thick film'' to increase the sensitivity of parasite detection by light microscopy [48,49]."
+      }
+    ]
+  },
+  {
+    "id": "ross_published_prevention_malaria",
+    "source": "ronald_ross",
+    "type": "published",
+    "target": "the_prevention_of_malaria",
+    "event_id": "ross_publishes_1911_model",
+    "sources": [
+      {
+        "source_id": "smith_2012_ross_macdonald",
+        "page": 2,
+        "quote": "He published a second malaria transmission model in 1911 in an addendum to his book, The Prevention of Malaria, and described it in Nature [23,24]."
+      }
+    ]
+  }
+]

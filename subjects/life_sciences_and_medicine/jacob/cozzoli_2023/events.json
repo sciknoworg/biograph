@@ -1,0 +1,282 @@
+[
+  {
+    "id": "comite_etudes_established_1960",
+    "event_type": "company_founded",
+    "label": "Comité d'Études \"Biologie Moléculaire\" established",
+    "date": {
+      "display": "1960",
+      "precision": "year",
+      "sort_start": "1960-01-01",
+      "sort_end": "1960-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "comite_etudes_biologie_moleculaire",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cozzoli_2023",
+        "page": 10,
+        "quote": "In 1960, a Comité d 'Études \"Biologie Moléculaire\" was established in which representatives of the government and scientists participated together."
+      }
+    ]
+  },
+  {
+    "id": "embo_inaugurated_1964",
+    "event_type": "company_founded",
+    "label": "EMBO inaugurated",
+    "date": {
+      "display": "1964",
+      "precision": "year",
+      "sort_start": "1964-01-01",
+      "sort_end": "1964-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "embo",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cozzoli_2023",
+        "page": 12,
+        "quote": "In 1964, EMBO was inaugurated."
+      }
+    ]
+  },
+  {
+    "id": "jacob_nobel_1965",
+    "event_type": "award",
+    "label": "Jacob cowinner of Nobel Prize",
+    "date": {
+      "display": "1965",
+      "precision": "year",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cozzoli_2023",
+        "page": 2,
+        "quote": "In 1970, the molecular biologist and cowinner of the 1965 Nobel Prize for phys- iology or medicine, François Jacob, published La logique du vivant ."
+      }
+    ]
+  },
+  {
+    "id": "institut_molecular_biology_pasteur_1965",
+    "event_type": "company_founded",
+    "label": "Institute of Molecular Biology created at Institut Pasteur",
+    "date": {
+      "display": "1965",
+      "precision": "year",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "institut_pasteur",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cozzoli_2023",
+        "page": 12,
+        "quote": "In 1965, an Institute of Molecular Biology was ﬁnally created at the Institute Pas- teur"
+      }
+    ]
+  },
+  {
+    "id": "johnson_cuts_funding_1965",
+    "event_type": "other",
+    "label": "Lyndon Johnson cuts funding to foreign laboratories",
+    "date": {
+      "display": "1965",
+      "precision": "year",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31"
+    },
+    "participants": [],
+    "sources": [
+      {
+        "source_id": "cozzoli_2023",
+        "page": 11,
+        "quote": "Some years later, in 1965, Lyndon Johnson decided to cut off the funding of foreign laboratories."
+      }
+    ]
+  },
+  {
+    "id": "embc_conference_1967",
+    "event_type": "conference",
+    "label": "First European Conference on Molecular Biology",
+    "date": {
+      "display": "April 4–6, 1967",
+      "precision": "day",
+      "sort_start": "1967-04-04",
+      "sort_end": "1967-04-06"
+    },
+    "location": "geneva",
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cern",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cozzoli_2023",
+        "page": 12,
+        "quote": "On April 4 –6, 1967, the ﬁrst European Conference on Molecular Biology (EMBC) was organized at CERN in Geneva"
+      }
+    ]
+  },
+  {
+    "id": "logic_of_life_published_1970",
+    "event_type": "publication",
+    "label": "La logique du vivant published",
+    "date": {
+      "display": "1970",
+      "precision": "year",
+      "sort_start": "1970-01-01",
+      "sort_end": "1970-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      },
+      {
+        "entity_id": "the_logic_of_life",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cozzoli_2023",
+        "page": 2,
+        "quote": "In 1970, the molecular biologist and cowinner of the 1965 Nobel Prize for phys- iology or medicine, François Jacob, published La logique du vivant ."
+      }
+    ]
+  },
+  {
+    "id": "monod_director_pasteur_1971",
+    "event_type": "role_change",
+    "label": "Monod became director of the Institute Pasteur",
+    "date": {
+      "display": "1971",
+      "precision": "year",
+      "sort_start": "1971-01-01",
+      "sort_end": "1971-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jacques_monod",
+        "role": "subject"
+      },
+      {
+        "entity_id": "institut_pasteur",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cozzoli_2023",
+        "page": 15,
+        "quote": "In 1971, Monod became director of the Institute Pasteur."
+      }
+    ]
+  },
+  {
+    "id": "ciebaf_committee_1971",
+    "event_type": "company_founded",
+    "label": "CIEBAF committee created",
+    "date": {
+      "display": "1971",
+      "precision": "year",
+      "sort_start": "1971-01-01",
+      "sort_end": "1971-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ciebaf",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cozzoli_2023",
+        "page": 16,
+        "quote": "In 1971, Jacob, Monod, and Luria joined a committee that Philippe Daudy created to fund a research center on a new discipline: bioanthropology."
+      }
+    ]
+  },
+  {
+    "id": "logic_of_life_english_1973",
+    "event_type": "publication",
+    "label": "The Logic of Life English translation appeared",
+    "date": {
+      "display": "1973",
+      "precision": "year",
+      "sort_start": "1973-01-01",
+      "sort_end": "1973-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      },
+      {
+        "entity_id": "the_logic_of_life",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cozzoli_2023",
+        "page": 2,
+        "quote": "The English translation appeared in 1973 under the titleThe Logic of Life"
+      }
+    ]
+  },
+  {
+    "id": "embl_established_1973",
+    "event_type": "company_founded",
+    "label": "European Molecular Biology Laboratory established",
+    "date": {
+      "display": "1973",
+      "precision": "year",
+      "sort_start": "1973-01-01",
+      "sort_end": "1973-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "embl",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cozzoli_2023",
+        "page": 13,
+        "quote": "It was only when the United Kingdom ﬁnally entered the EEC in 1973 that the European Molecular Biology Laboratory was established"
+      }
+    ]
+  }
+]

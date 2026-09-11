@@ -1,0 +1,523 @@
+[
+  {
+    "id": "hodgkin_birth",
+    "event_type": "birth",
+    "label": "Born in Banbury, Oxfordshire",
+    "date": {
+      "display": "5 February 1914",
+      "precision": "day",
+      "sort_start": "1914-02-05",
+      "sort_end": "1914-02-05"
+    },
+    "participants": [
+      {
+        "entity_id": "alan_hodgkin",
+        "role": "subject"
+      }
+    ],
+    "location": "banbury_oxfordshire",
+    "sources": [
+      {
+        "source_id": "denton_obituary_1999",
+        "page": 1,
+        "quote": "Alan Lloyd Hodgkin, physiologist; born Banbury, Oxfordshire, 5 February 1914"
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_cambridge_vacation",
+    "event_type": "education",
+    "label": "Attended vacation course at MBA",
+    "description": "Learnt more invertebrate zoology in a fortnight than in a whole year at Cambridge.",
+    "date": {
+      "display": "schoolboy holidays",
+      "precision": "decade",
+      "sort_start": "1920-01-01",
+      "sort_end": "1929-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alan_hodgkin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "marine_biological_association",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "denton_obituary_1999",
+        "page": 1,
+        "quote": "it was this interest that brought him to the Marine Biological Association's Laboratory (MBA) in Plymouth."
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_postgrad_1937",
+    "event_type": "employment_start",
+    "label": "First postgraduate year experiments",
+    "description": "Continued experiments using Keith Lucas's apparatus during his first postgraduate year.",
+    "date": {
+      "display": "1937",
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1937-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alan_hodgkin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "keith_lucas",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "denton_obituary_1999",
+        "page": 1,
+        "quote": "continued his experiments during his first postgraduate year (1937)."
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_rockefeller_1938",
+    "event_type": "visit",
+    "label": "Visited Rockefeller Institute",
+    "description": "Invited to spend a year at the Rockefeller Institute in New York.",
+    "date": {
+      "display": "1938",
+      "precision": "year",
+      "sort_start": "1938-01-01",
+      "sort_end": "1938-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alan_hodgkin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "rockefeller_institute",
+        "role": "employer"
+      }
+    ],
+    "location": "new_york",
+    "sources": [
+      {
+        "source_id": "denton_obituary_1999",
+        "page": 1,
+        "quote": "he was invited to spend a year at the Rockefeller Institute in New York. It was there in 1938"
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_met_marni",
+    "event_type": "meeting",
+    "label": "Met Marni Rous",
+    "description": "Met an 'extremely attractive and entertaining sort of person', Marni Rous.",
+    "date": {
+      "display": "1938",
+      "precision": "year",
+      "sort_start": "1938-01-01",
+      "sort_end": "1938-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alan_hodgkin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "marni_rous",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "denton_obituary_1999",
+        "page": 1,
+        "quote": "It was there in 1938 that he met an 'extremely attractive and entertaining sort of person', Marni Rous"
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_woods_hole",
+    "event_type": "visit",
+    "label": "Introduced to squid axons",
+    "description": "Introduced to squid axons in Woods Hole by K.S. Cole.",
+    "date": {
+      "display": "1938",
+      "precision": "year",
+      "sort_start": "1938-01-01",
+      "sort_end": "1938-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alan_hodgkin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ks_cole",
+        "role": "collaborator"
+      }
+    ],
+    "location": "woods_hole",
+    "sources": [
+      {
+        "source_id": "denton_obituary_1999",
+        "page": 1,
+        "quote": "Alan was introduced to squid axons in Woods Hole by K.S. Cole"
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_plymouth_1939",
+    "event_type": "invention",
+    "label": "Discovered axon potential change",
+    "description": "Succeeded in pushing a fine saline-filled electrode inside a fibre and made the astonishing discovery of potential change.",
+    "date": {
+      "display": "1939",
+      "precision": "year",
+      "sort_start": "1939-01-01",
+      "sort_end": "1939-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alan_hodgkin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "andrew_huxley",
+        "role": "collaborator"
+      }
+    ],
+    "location": "plymouth",
+    "sources": [
+      {
+        "source_id": "denton_obituary_1999",
+        "page": 1,
+        "quote": "There, in 1939, they succeeded in pushing a fine saline-filled electrode inside a fibre and made the astonishing discovery"
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_marriage",
+    "event_type": "other",
+    "label": "Married Marni Rous",
+    "date": {
+      "display": "31 March 1944",
+      "precision": "day",
+      "sort_start": "1944-03-31",
+      "sort_end": "1944-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alan_hodgkin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "marni_rous",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "denton_obituary_1999",
+        "page": 2,
+        "quote": "he and Marni decided to marry and did so on the 31 March 1944."
+      }
+    ]
+  },
+  {
+    "id": "marni_rejoined_malvern",
+    "event_type": "relocation",
+    "label": "Marni rejoined in Malvern",
+    "date": {
+      "display": "May 1944",
+      "precision": "month",
+      "sort_start": "1944-05-01",
+      "sort_end": "1944-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "marni_rous",
+        "role": "subject"
+      },
+      {
+        "entity_id": "alan_hodgkin",
+        "role": "collaborator"
+      }
+    ],
+    "location": "malvern",
+    "sources": [
+      {
+        "source_id": "denton_obituary_1999",
+        "page": 2,
+        "quote": "She rejoined Alan in Malvern in May 1944"
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_return_cambridge",
+    "event_type": "relocation",
+    "label": "Returned to Cambridge",
+    "description": "Entitled to return to Cambridge after war service.",
+    "date": {
+      "display": "June 1945",
+      "precision": "month",
+      "sort_start": "1945-06-01",
+      "sort_end": "1945-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "alan_hodgkin",
+        "role": "subject"
+      }
+    ],
+    "location": "cambridge_place",
+    "sources": [
+      {
+        "source_id": "denton_obituary_1999",
+        "page": 2,
+        "quote": "inJune 1945 he did so."
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_squid_1947",
+    "event_type": "employment_start",
+    "label": "Resumed squid experiments",
+    "description": "Resumed experiments on squid in Plymouth in the summer of 1947.",
+    "date": {
+      "display": "summer of 1947",
+      "precision": "season",
+      "sort_start": "1947-06-01",
+      "sort_end": "1947-08-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alan_hodgkin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "marine_biological_association",
+        "role": "employer"
+      }
+    ],
+    "location": "plymouth",
+    "sources": [
+      {
+        "source_id": "denton_obituary_1999",
+        "page": 2,
+        "quote": "in the summer of 1947 he resumed experiments on squid in Plymouth."
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_katz_joined",
+    "event_type": "meeting",
+    "label": "Joined by Katz and Huxley",
+    "description": "Joined by Bernard Katz and by Andrew Huxley later in 1947.",
+    "date": {
+      "display": "Later in that year",
+      "precision": "year",
+      "sort_start": "1947-09-01",
+      "sort_end": "1947-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alan_hodgkin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "bernard_katz",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "andrew_huxley",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "denton_obituary_1999",
+        "page": 2,
+        "quote": "Later in that year he was joined by Bernard Katz and by Andrew Hux]ey"
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_nobel_1963",
+    "event_type": "award",
+    "label": "Awarded Nobel Prize",
+    "description": "Shared a Nobel Prize with Andrew Huxley and John Eccles.",
+    "date": {
+      "display": "1963",
+      "precision": "year",
+      "sort_start": "1963-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alan_hodgkin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize_medicine_1963",
+        "role": "invention"
+      },
+      {
+        "entity_id": "andrew_huxley",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "john_eccles",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "denton_obituary_1999",
+        "page": 2,
+        "quote": "in 1963 Alan shared a Nobel Prize with Andrew Huxley andJohn Eccles."
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_mba_president",
+    "event_type": "role_change",
+    "label": "Became President of MBA",
+    "description": "From 1966 to 1976 he was the President of the MBA's Council.",
+    "date": {
+      "display": "1966 to 1976",
+      "precision": "range",
+      "sort_start": "1966-01-01",
+      "sort_end": "1976-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alan_hodgkin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "marine_biological_association",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "denton_obituary_1999",
+        "page": 3,
+        "quote": "From 1966 to 1976 he was the President of the MBA's Council"
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_royal_society_president",
+    "event_type": "role_change",
+    "label": "Became President of Royal Society",
+    "date": {
+      "display": "1970",
+      "precision": "year",
+      "sort_start": "1970-01-01",
+      "sort_end": "1970-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alan_hodgkin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_society",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "denton_obituary_1999",
+        "page": 3,
+        "quote": "In 1970 Alan became President of the Royal Society"
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_master_trinity",
+    "event_type": "role_change",
+    "label": "Became Master of Trinity College",
+    "date": {
+      "display": "1978",
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alan_hodgkin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "trinity_college_cambridge",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "denton_obituary_1999",
+        "page": 3,
+        "quote": "and in 1978 Master of Trinity College, Cambridge"
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_retina_study",
+    "event_type": "employment_start",
+    "label": "Studied retina receptor cell mechanism",
+    "description": "Transferred efforts to a successful study in Cambridge of the mechanism by which a receptor cell of the retina can signal.",
+    "date": {
+      "display": "1978",
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alan_hodgkin",
+        "role": "subject"
+      }
+    ],
+    "location": "cambridge_place",
+    "sources": [
+      {
+        "source_id": "denton_obituary_1999",
+        "page": 3,
+        "quote": "He transferred his efforts to a successful study in Cambridge of the mechanism by which a receptor cell of the retina can signal the absorption of a single photon"
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_death",
+    "event_type": "death",
+    "label": "Died in Cambridge",
+    "date": {
+      "display": "20 December 1998",
+      "precision": "day",
+      "sort_start": "1998-12-20",
+      "sort_end": "1998-12-20"
+    },
+    "participants": [
+      {
+        "entity_id": "alan_hodgkin",
+        "role": "subject"
+      }
+    ],
+    "location": "cambridge_place",
+    "sources": [
+      {
+        "source_id": "denton_obituary_1999",
+        "page": 1,
+        "quote": "died Cambridge 20 December 1998."
+      }
+    ]
+  }
+]

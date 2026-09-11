@@ -1,0 +1,270 @@
+[
+  {
+    "id": "camillo_golgi",
+    "entity_type": "person",
+    "name": "Camillo Golgi",
+    "aliases": [
+      "Golgi"
+    ],
+    "summary": "Italian pathologist and neuroscientist known for the Black Reaction staining technique and Nobel Prize winner.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "alessandro_golgi",
+    "entity_type": "person",
+    "name": "Alessandro Golgi",
+    "summary": "Physician and father of Camillo Golgi.",
+    "subtype": "physician"
+  },
+  {
+    "id": "cesare_lombroso",
+    "entity_type": "person",
+    "name": "Cesare Lombroso",
+    "summary": "Italian psychiatrist who guided Golgi's university dissertation.",
+    "subtype": "psychiatrist"
+  },
+  {
+    "id": "giulio_bizzozero",
+    "entity_type": "person",
+    "name": "Giulio Bizzozero",
+    "summary": "Italian physician who guided Golgi towards histological studies.",
+    "subtype": "physician"
+  },
+  {
+    "id": "santiago_ram_n_y_cajal",
+    "entity_type": "person",
+    "name": "Santiago Ramón y Cajal",
+    "summary": "Spanish scientist and co-recipient of the 1906 Nobel Prize with Golgi.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "oscar_hertwig",
+    "entity_type": "person",
+    "name": "Oscar Hertwig",
+    "summary": "Professor of Comparative Anatomy from Berlin who proposed Golgi for the Nobel Prize.",
+    "subtype": "professor"
+  },
+  {
+    "id": "albert_k_lliker",
+    "entity_type": "person",
+    "name": "Albert Kölliker",
+    "summary": "Professor of Anatomy from Würzburg who proposed Golgi for the Nobel Prize.",
+    "subtype": "professor"
+  },
+  {
+    "id": "gustaf_retzius",
+    "entity_type": "person",
+    "name": "Gustaf Retzius",
+    "summary": "Former Professor of anatomy from Stockholm who proposed Golgi for the Nobel Prize.",
+    "subtype": "professor"
+  },
+  {
+    "id": "carl_magnus_f_rst",
+    "entity_type": "person",
+    "name": "Carl Magnus Fürst",
+    "summary": "Professor of Anatomy from Lund who proposed Golgi for the Nobel Prize.",
+    "subtype": "professor"
+  },
+  {
+    "id": "university_of_pavia",
+    "entity_type": "organization",
+    "name": "University of Pavia",
+    "aliases": [
+      "alma mater",
+      "University"
+    ],
+    "summary": "Historic university in Italy where Golgi studied and worked.",
+    "subtype": "university",
+    "attributes": {
+      "country": "Italy"
+    }
+  },
+  {
+    "id": "pio_luogo_degli_incurabili",
+    "entity_type": "organization",
+    "name": "Pio Luogo degli Incurabili",
+    "summary": "Hospital in Abbiategrasso where Golgi worked as Chief Physician.",
+    "subtype": "hospital",
+    "attributes": {
+      "country": "Italy"
+    }
+  },
+  {
+    "id": "military_hospital_pavia",
+    "entity_type": "organization",
+    "name": "Military Hospital in Pavia",
+    "summary": "Hospital where Golgi served as Director during the First World War.",
+    "subtype": "hospital",
+    "attributes": {
+      "country": "Italy"
+    }
+  },
+  {
+    "id": "royal_academy_of_music_sweden",
+    "entity_type": "organization",
+    "name": "Royal Academy of Music",
+    "summary": "Venue in Sweden where the 1906 Nobel Prize ceremony was held.",
+    "subtype": "academy",
+    "attributes": {
+      "country": "Sweden"
+    }
+  },
+  {
+    "id": "corteno",
+    "entity_type": "place",
+    "name": "Corteno",
+    "aliases": [
+      "Corteno Golgi"
+    ],
+    "summary": "Village in Brescia province where Golgi was born.",
+    "subtype": "village",
+    "attributes": {
+      "province": "Brescia",
+      "country": "Italy"
+    }
+  },
+  {
+    "id": "brescia_province",
+    "entity_type": "place",
+    "name": "Brescia province",
+    "summary": "Province in Italy containing Corteno.",
+    "subtype": "province",
+    "attributes": {
+      "country": "Italy",
+      "lat": 45.53889,
+      "lng": 10.21944,
+      "wikidata_qid": "Q16144",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "italy",
+    "entity_type": "place",
+    "name": "Italy",
+    "summary": "Country where Golgi lived and worked.",
+    "subtype": "country",
+    "attributes": {
+      "lat": 42.5,
+      "lng": 12.5,
+      "wikidata_qid": "Q38",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "abbiategrasso",
+    "entity_type": "place",
+    "name": "Abbiategrasso",
+    "summary": "Location of Pio Luogo degli Incurabili hospital.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Italy",
+      "lat": 45.4009,
+      "lng": 8.9185,
+      "wikidata_qid": "Q42777",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "pavia",
+    "entity_type": "place",
+    "name": "Pavia",
+    "summary": "City in Italy where Golgi worked and died.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Italy",
+      "lat": 45.18528,
+      "lng": 9.155,
+      "wikidata_qid": "Q6259",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "milan",
+    "entity_type": "place",
+    "name": "Milan",
+    "summary": "City where Golgi's Opera Omnia was published.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Italy",
+      "lat": 45.46694,
+      "lng": 9.19,
+      "wikidata_qid": "Q490",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "black_reaction",
+    "entity_type": "artifact",
+    "name": "Black Reaction",
+    "aliases": [
+      "La reazione nera",
+      "Golgi's staining",
+      "Golgi's impregnation"
+    ],
+    "summary": "Histological staining technique invented by Golgi for nervous tissue.",
+    "subtype": "invention"
+  },
+  {
+    "id": "golgi_tendon_organ",
+    "entity_type": "artifact",
+    "name": "Golgi tendon organ",
+    "summary": "Proprioceptive receptor in muscle tendons discovered by Golgi.",
+    "subtype": "anatomical structure"
+  },
+  {
+    "id": "golgi_mazzoni_corpuscles",
+    "entity_type": "artifact",
+    "name": "Golgi-Mazzoni corpuscles",
+    "summary": "Pressure receptors in subcutaneous tissue discovered by Golgi.",
+    "subtype": "anatomical structure"
+  },
+  {
+    "id": "myelin_annular_apparatus",
+    "entity_type": "artifact",
+    "name": "Myelin annular apparatus",
+    "aliases": [
+      "horny funnel of Golgi-Rezzonico"
+    ],
+    "summary": "Structure in myelin component of axon discovered by Golgi.",
+    "subtype": "anatomical structure"
+  },
+  {
+    "id": "juxtaglomerular_apparatus",
+    "entity_type": "artifact",
+    "name": "Juxtaglomerular Apparatus",
+    "summary": "Kidney structure involved in blood pressure regulation identified by Golgi.",
+    "subtype": "anatomical structure"
+  },
+  {
+    "id": "golgi_apparatus",
+    "entity_type": "artifact",
+    "name": "Golgi apparatus",
+    "aliases": [
+      "Golgi body",
+      "reticular apparatus"
+    ],
+    "summary": "Cellular organelle discovered by Golgi in spinal ganglia cells.",
+    "subtype": "anatomical structure"
+  },
+  {
+    "id": "opera_omnia",
+    "entity_type": "artifact",
+    "name": "Opera Omnia",
+    "summary": "Compiled collection of Golgi's published literature.",
+    "subtype": "publication"
+  },
+  {
+    "id": "nobel_prize_physiology_medicine_1906",
+    "entity_type": "artifact",
+    "name": "Nobel Prize for Physiology or Medicine",
+    "summary": "Award jointly given to Golgi and Cajal in 1906.",
+    "subtype": "award"
+  },
+  {
+    "id": "rivista_sperimentale",
+    "entity_type": "artifact",
+    "name": "Rivista sperimentale di Freniatria e Medicina Legale",
+    "summary": "Journal where Golgi's details on brain areas were serially published.",
+    "subtype": "publication"
+  }
+]

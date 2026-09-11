@@ -1,0 +1,203 @@
+[
+  {
+    "id": "filippo_pacini",
+    "entity_type": "person",
+    "name": "Filippo Pacini",
+    "aliases": [
+      "Pacini"
+    ],
+    "summary": "Italian anatomist and pathologist who discovered lamellar corpuscles along digital nerves.",
+    "subtype": "researcher",
+    "attributes": {
+      "birth_year": 1812,
+      "death_year": 1883,
+      "nationality": "Italian"
+    }
+  },
+  {
+    "id": "gianfranco_natale",
+    "entity_type": "person",
+    "name": "Gianfranco Natale",
+    "aliases": [],
+    "summary": "Author of this biographical essay on Filippo Pacini.",
+    "subtype": "researcher",
+    "attributes": {
+      "affiliation": "Department of Human Morphology and Applied Biology, University of Pisa"
+    }
+  },
+  {
+    "id": "jacob_henle",
+    "entity_type": "person",
+    "name": "Jacob Henle",
+    "aliases": [
+      "Henle"
+    ],
+    "summary": "German anatomist who praised Pacini's discovery and co-published on Pacinian corpuscles.",
+    "subtype": "researcher",
+    "attributes": {}
+  },
+  {
+    "id": "albert_kolliker",
+    "entity_type": "person",
+    "name": "Albert Kölliker",
+    "aliases": [
+      "Kölliker"
+    ],
+    "summary": "Swiss anatomist who co-published with Henle on Pacinian corpuscles.",
+    "subtype": "researcher",
+    "attributes": {}
+  },
+  {
+    "id": "pistoia",
+    "entity_type": "place",
+    "name": "Pistoia",
+    "aliases": [],
+    "summary": "Italian city where Pacini was born and worked until 1840.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Italy",
+      "lat": 43.93333,
+      "lng": 10.91667,
+      "wikidata_qid": "Q13376",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "pisa",
+    "entity_type": "place",
+    "name": "Pisa",
+    "aliases": [],
+    "summary": "Italian city where Pacini worked from 1840 to 1846.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Italy",
+      "lat": 43.71667,
+      "lng": 10.4,
+      "wikidata_qid": "Q13375",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "florence",
+    "entity_type": "place",
+    "name": "Florence",
+    "aliases": [],
+    "summary": "Italian city where Pacini worked from 1847 onward.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Italy",
+      "lat": 43.77139,
+      "lng": 11.25417,
+      "wikidata_qid": "Q2044",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "lucca",
+    "entity_type": "place",
+    "name": "Lucca",
+    "aliases": [],
+    "summary": "Italian city where the Quinta Unione degli Scienziati Italiani was held in 1843.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Italy",
+      "lat": 43.85,
+      "lng": 10.51667,
+      "wikidata_qid": "Q13373",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "societa_medico_fisica_florence",
+    "entity_type": "organization",
+    "name": "Società Medico-Fisica of Florence",
+    "aliases": [],
+    "summary": "Medical society in Florence where Pacini presented research in 1835.",
+    "subtype": "society",
+    "attributes": {}
+  },
+  {
+    "id": "prima_riunione_degli_scienziati_italiani",
+    "entity_type": "organization",
+    "name": "Prima Riunione degli Scienziati Italiani",
+    "aliases": [],
+    "summary": "Italian scientists meeting held in Pisa in 1839.",
+    "subtype": "conference",
+    "attributes": {}
+  },
+  {
+    "id": "quinta_unione_degli_scienziati_italiani",
+    "entity_type": "organization",
+    "name": "Quinta Unione degli Scienziati Italiani",
+    "aliases": [],
+    "summary": "Italian scientists meeting held in Lucca in 1843.",
+    "subtype": "conference",
+    "attributes": {}
+  },
+  {
+    "id": "nuovo_giornale_de_letterati",
+    "entity_type": "artifact",
+    "name": "Nuovo Giornale de' Letterati",
+    "aliases": [],
+    "summary": "Journal that published Pacini's research on corpuscles in 1836.",
+    "subtype": "publication",
+    "attributes": {}
+  },
+  {
+    "id": "pacini_1840_book",
+    "entity_type": "artifact",
+    "name": "Nuovi organi scoperti nel corpo umano",
+    "aliases": [],
+    "summary": "Pacini's 1840 book on the history, anatomy, and physiology of the new organs.",
+    "subtype": "publication",
+    "attributes": {
+      "year": 1840,
+      "publisher": "Tipografia Cino, Pistoia"
+    }
+  },
+  {
+    "id": "henle_kolliker_1844_book",
+    "entity_type": "artifact",
+    "name": "Ueber die Pacinischen Körperchen an den Nerven des Menschen und der Säugethiere",
+    "aliases": [
+      "Pacinischen Körperchen"
+    ],
+    "summary": "1844 book by Henle and Kölliker with further observations on Pacinian corpuscles.",
+    "subtype": "publication",
+    "attributes": {
+      "year": 1844,
+      "publisher": "Verlag von Meyer & Zeller, Zürich"
+    }
+  },
+  {
+    "id": "pacinian_corpuscles",
+    "entity_type": "artifact",
+    "name": "Pacinian corpuscles",
+    "aliases": [
+      "lamellar corpuscles",
+      "nuovi organi",
+      "Pacinischen Körperchen"
+    ],
+    "summary": "Large ovoid corpuscles with concentric lamellae surrounding nerve endings, concerned with touch and deep pressure sensation.",
+    "subtype": "anatomical discovery",
+    "attributes": {}
+  },
+  {
+    "id": "anatomical_museum_pisa",
+    "entity_type": "organization",
+    "name": "Anatomical Museum of Pisa",
+    "aliases": [],
+    "summary": "Museum holding Pacini's preparations of lamellar corpuscles.",
+    "subtype": "museum",
+    "attributes": {}
+  },
+  {
+    "id": "anatomical_museum_florence",
+    "entity_type": "organization",
+    "name": "Anatomical Museum of Florence",
+    "aliases": [],
+    "summary": "Museum holding Pacini's preparations of lamellar corpuscles.",
+    "subtype": "museum",
+    "attributes": {}
+  }
+]

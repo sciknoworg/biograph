@@ -1,0 +1,23 @@
+[
+  {
+    "id": "stalin_death_1953",
+    "event_type": "death",
+    "label": "Stalin Died",
+    "description": "Stalin died in March 1953.",
+    "date": {
+      "display": "March 1953",
+      "precision": "month",
+      "sort_start": "1953-03-01",
+      "sort_end": "1953-03-31"
+    },
+    "participants": [],
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 6,
+        "quote": "Because History of Mankind represents one of the first collaborative international projects Soviet scholars participated in after Stalin's death in March 1953, an exploration of their contribution to this work provides a deeper understanding of their experience during Khrushchev's push for 'peaceful coexistence'..."
+      }
+    ],
+    "_rejected_because": "every participant named an entity that was never defined"
+  }
+]

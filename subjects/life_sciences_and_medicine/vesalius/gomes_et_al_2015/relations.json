@@ -1,0 +1,170 @@
+[
+  {
+    "id": "vesalius_born_brussels",
+    "source": "andreas_vesalius",
+    "type": "born_in",
+    "target": "brussels",
+    "event_id": "vesalius_birth",
+    "sources": [
+      {
+        "source_id": "gomes_et_al_2015",
+        "page": 1,
+        "quote": "Andreas Vesalius (31 December 1514, Brussels – 15 October 1564, Zante)"
+      }
+    ]
+  },
+  {
+    "id": "vesalius_died_zante",
+    "source": "andreas_vesalius",
+    "type": "died_in",
+    "target": "zante",
+    "event_id": "vesalius_death",
+    "sources": [
+      {
+        "source_id": "gomes_et_al_2015",
+        "page": 1,
+        "quote": "Andreas Vesalius (31 December 1514, Brussels – 15 October 1564, Zante)"
+      }
+    ]
+  },
+  {
+    "id": "vesalius_studied_louvain",
+    "source": "andreas_vesalius",
+    "type": "studied_at",
+    "target": "university_of_louvain",
+    "event_id": "vesalius_education_start",
+    "sources": [
+      {
+        "source_id": "gomes_et_al_2015",
+        "page": 1,
+        "quote": "Vesalius studied Medicine in Louvain and Paris (1533-1536)"
+      }
+    ]
+  },
+  {
+    "id": "vesalius_studied_paris",
+    "source": "andreas_vesalius",
+    "type": "studied_at",
+    "target": "university_of_paris",
+    "event_id": "vesalius_education_start",
+    "sources": [
+      {
+        "source_id": "gomes_et_al_2015",
+        "page": 1,
+        "quote": "Vesalius studied Medicine in Louvain and Paris (1533-1536)"
+      }
+    ]
+  },
+  {
+    "id": "vesalius_worked_padua",
+    "source": "andreas_vesalius",
+    "type": "worked_at",
+    "target": "university_of_padua",
+    "event_id": "vesalius_padua_professor",
+    "sources": [
+      {
+        "source_id": "gomes_et_al_2015",
+        "page": 1,
+        "quote": "Immediately nominated Professor of Surgical Anatomy in Padua, he stayed there between 1537-1542"
+      }
+    ]
+  },
+  {
+    "id": "vesalius_married_anne",
+    "source": "andreas_vesalius",
+    "type": "married_to",
+    "target": "anne_hamme",
+    "event_id": "vesalius_marriage",
+    "sources": [
+      {
+        "source_id": "gomes_et_al_2015",
+        "page": 2,
+        "quote": "He married Anne Hamme (1534)"
+      }
+    ]
+  },
+  {
+    "id": "vesalius_employed_charles",
+    "source": "andreas_vesalius",
+    "type": "employed_by",
+    "target": "charles_v",
+    "event_id": "vesalius_imperial_physician",
+    "sources": [
+      {
+        "source_id": "gomes_et_al_2015",
+        "page": 2,
+        "quote": "to leave the position as imperial physician first of Charles V"
+      }
+    ]
+  },
+  {
+    "id": "vesalius_employed_philippe",
+    "source": "andreas_vesalius",
+    "type": "employed_by",
+    "target": "philippe_ii",
+    "note": "Employed after Charles V",
+    "sources": [
+      {
+        "source_id": "gomes_et_al_2015",
+        "page": 2,
+        "quote": "to leave the position as imperial physician first of Charles V and after of Philippe II"
+      }
+    ]
+  },
+  {
+    "id": "vesalius_published_fabrica",
+    "source": "andreas_vesalius",
+    "type": "published",
+    "target": "de_humani_corporis_fabrica",
+    "event_id": "vesalius_fabrica_1st",
+    "sources": [
+      {
+        "source_id": "gomes_et_al_2015",
+        "page": 2,
+        "quote": "The publication of his masterpiece, the Fabrica, and the partial digest, the Epitome, in 1543"
+      }
+    ]
+  },
+  {
+    "id": "vesalius_published_epitome",
+    "source": "andreas_vesalius",
+    "type": "published",
+    "target": "epitome",
+    "event_id": "vesalius_epitome",
+    "sources": [
+      {
+        "source_id": "gomes_et_al_2015",
+        "page": 2,
+        "quote": "The publication of his masterpiece, the Fabrica, and the partial digest, the Epitome, in 1543"
+      }
+    ]
+  },
+  {
+    "id": "vesalius_published_tabulae",
+    "source": "andreas_vesalius",
+    "type": "published",
+    "target": "anatomicae_tabulae",
+    "event_id": "vesalius_anatomicae_tabulae",
+    "sources": [
+      {
+        "source_id": "gomes_et_al_2015",
+        "page": 2,
+        "quote": "The usefulness of the sketches resulted in the Anatomicae Tabulae , published in 1538."
+      }
+    ]
+  },
+  {
+    "id": "fabrica_printed_basel",
+    "source": "de_humani_corporis_fabrica",
+    "type": "licensed_to",
+    "target": "basel",
+    "note": "Printed in Basel",
+    "sources": [
+      {
+        "source_id": "gomes_et_al_2015",
+        "page": 2,
+        "quote": "De humani corporis fabrica libri septem, the Fabrica,1 st edition, came to light in 1543, by the printer Johannes Oporinus, from Basel."
+      }
+    ]
+  }
+]

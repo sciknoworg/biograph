@@ -1,0 +1,282 @@
+[
+  {
+    "id": "avery_born_halifax",
+    "source": "oswald_avery",
+    "type": "born_in",
+    "target": "halifax",
+    "event_id": "avery_birth",
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 3,
+        "quote": "Oswald Avery was born to Elizabeth Crowdy and Joseph Francis Avery on October 21, 1877, in Halifax, Canada."
+      }
+    ]
+  },
+  {
+    "id": "avery_lived_nyc",
+    "source": "oswald_avery",
+    "type": "lived_in",
+    "target": "new_york_city",
+    "start": {
+      "display": "1887",
+      "precision": "year",
+      "sort_start": "1887-01-01",
+      "sort_end": "1887-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 3,
+        "quote": "In 1887, at 10 years old, the Avery family moved to New York City (NYC), USA."
+      }
+    ]
+  },
+  {
+    "id": "avery_studied_colgate",
+    "source": "oswald_avery",
+    "type": "studied_at",
+    "target": "colgate_university",
+    "event_id": "avery_colgate_degree",
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 3,
+        "quote": "Oswald Avery began his education at the New York Male Grammar School, followed by a Bachelor's degree in music and the humanities at Colgate in 1900"
+      }
+    ]
+  },
+  {
+    "id": "avery_studied_cps",
+    "source": "oswald_avery",
+    "type": "studied_at",
+    "target": "college_of_physicians_and_surgeons",
+    "event_id": "avery_md_degree",
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 3,
+        "quote": "He followed his academic career degree by enrolling in the College of Physicians and Surgeons in New York, where he received his medical degree in 1904."
+      }
+    ]
+  },
+  {
+    "id": "avery_worked_hoagland",
+    "source": "oswald_avery",
+    "type": "worked_at",
+    "target": "hoagland_laboratory",
+    "event_id": "avery_hoagland_start",
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 3,
+        "quote": "His first appointment as a researcher was at the Hoagland Laboratory in Brooklyn NYC in 1907"
+      }
+    ]
+  },
+  {
+    "id": "avery_worked_rockefeller",
+    "source": "oswald_avery",
+    "type": "worked_at",
+    "target": "rockefeller_institute",
+    "start": {
+      "display": "1913",
+      "precision": "year",
+      "sort_start": "1913-01-01",
+      "sort_end": "1913-12-31"
+    },
+    "end": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "event_id": "avery_rockefeller_start",
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 3,
+        "quote": "He offered Avery a job, which he accepted in 1913."
+      }
+    ]
+  },
+  {
+    "id": "avery_employed_army",
+    "source": "oswald_avery",
+    "type": "employed_by",
+    "target": "us_army_medical_corps",
+    "event_id": "avery_army_service",
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 3,
+        "quote": "When the United States entered the First World War in 1917, the research activities of Avery on pneumococcal infections were put on hold when he joined the U.S. Army Medical Corps."
+      }
+    ]
+  },
+  {
+    "id": "avery_collaborated_macleod",
+    "source": "oswald_avery",
+    "type": "collaborated_with",
+    "target": "colin_macleod",
+    "event_id": "avery_dna_publication",
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 3,
+        "quote": "Avery's crowning glory would happen in 1944, when he, along with Colin MacLeod and Maclyn McCarty, published a paper"
+      }
+    ]
+  },
+  {
+    "id": "avery_collaborated_mccarty",
+    "source": "oswald_avery",
+    "type": "collaborated_with",
+    "target": "maclyn_mccarty",
+    "event_id": "avery_dna_publication",
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 3,
+        "quote": "Avery's crowning glory would happen in 1944, when he, along with Colin MacLeod and Maclyn McCarty, published a paper"
+      }
+    ]
+  },
+  {
+    "id": "avery_collaborated_dochez",
+    "source": "oswald_avery",
+    "type": "collaborated_with",
+    "target": "alphonse_dochez",
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 3,
+        "quote": "Avery spent 35 years at the Institute, sharing an apartment with Alphonse R. Dochez as they worked together to understand the bacterium Streptococcus pneumoniae"
+      }
+    ]
+  },
+  {
+    "id": "avery_collaborated_heidelberger",
+    "source": "oswald_avery",
+    "type": "collaborated_with",
+    "target": "michael_heidelberger",
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 5,
+        "quote": "Subsequently, Heidelberger and Avery demonstrated that this specific soluble substance is, in fact, the capsular polysaccharide of the pneumococcus"
+      }
+    ]
+  },
+  {
+    "id": "avery_collaborated_goebel",
+    "source": "oswald_avery",
+    "type": "collaborated_with",
+    "target": "walther_goebel",
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 5,
+        "quote": "It may have been the reason why Avery, with Walther Goebel, set out a series of experiments to improve the immunogenicity of polysaccharides."
+      }
+    ]
+  },
+  {
+    "id": "avery_member_nas",
+    "source": "oswald_avery",
+    "type": "member_of",
+    "target": "national_academy_of_sciences",
+    "event_id": "avery_nas_election",
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 5,
+        "quote": "He was elected to the National Academy of Sciences in 1933"
+      }
+    ]
+  },
+  {
+    "id": "avery_member_royal_society",
+    "source": "oswald_avery",
+    "type": "member_of",
+    "target": "royal_society_of_london",
+    "event_id": "avery_royal_society_election",
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 5,
+        "quote": "and the Royal Society of London in 1944."
+      }
+    ]
+  },
+  {
+    "id": "avery_awarded_john_phillips",
+    "source": "oswald_avery",
+    "type": "awarded",
+    "target": "john_phillips_memorial_award",
+    "event_id": "avery_john_phillips_award",
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 5,
+        "quote": "In 1932, he received the John Phillips Memorial Award from the American College of Physicians"
+      }
+    ]
+  },
+  {
+    "id": "avery_awarded_copley",
+    "source": "oswald_avery",
+    "type": "awarded",
+    "target": "copley_medal",
+    "event_id": "avery_copley_medal",
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 5,
+        "quote": "in 1945, the Copley Medal from the Royal Society of London"
+      }
+    ]
+  },
+  {
+    "id": "avery_awarded_kober",
+    "source": "oswald_avery",
+    "type": "awarded",
+    "target": "kober_medal",
+    "event_id": "avery_kober_medal",
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 5,
+        "quote": "in 1946, the Kober Medal from the Association of American Physicians"
+      }
+    ]
+  },
+  {
+    "id": "avery_awarded_lasker",
+    "source": "oswald_avery",
+    "type": "awarded",
+    "target": "lasker_award",
+    "event_id": "avery_lasker_award",
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 5,
+        "quote": "Avery received the Lasker Award in Basic Medical Research in 1947."
+      }
+    ]
+  },
+  {
+    "id": "avery_died_nashville",
+    "source": "oswald_avery",
+    "type": "died_in",
+    "target": "nashville",
+    "event_id": "avery_death",
+    "sources": [
+      {
+        "source_id": "rijkers_2024",
+        "page": 3,
+        "quote": "On February 20, 1955, Oswald Avery died at the age of 77 from liver cancer, surrounded by his family."
+      }
+    ]
+  }
+]

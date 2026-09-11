@@ -1,0 +1,586 @@
+[
+  {
+    "id": "jacob_birth",
+    "event_type": "birth",
+    "label": "Born in June 1920",
+    "date": {
+      "display": "June 1920",
+      "precision": "month",
+      "sort_start": "1920-06-01",
+      "sort_end": "1920-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 2,
+        "quote": "François Jacob, born in June 1920"
+      }
+    ]
+  },
+  {
+    "id": "mother_death",
+    "event_type": "death",
+    "label": "Mother died in June 1940",
+    "date": {
+      "display": "June 1940",
+      "precision": "month",
+      "sort_start": "1940-06-01",
+      "sort_end": "1940-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "therese_franck",
+        "role": "subject"
+      },
+      {
+        "entity_id": "francois_jacob",
+        "role": "family_of"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 2,
+        "quote": "died in June 1940"
+      }
+    ]
+  },
+  {
+    "id": "fleeing_paris",
+    "event_type": "relocation",
+    "label": "Fled Paris on 17 June 1940",
+    "date": {
+      "display": "17 June 1940",
+      "precision": "day",
+      "sort_start": "1940-06-17",
+      "sort_end": "1940-06-17"
+    },
+    "location": "paris",
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 2,
+        "quote": "When François Jacob turned 20 on 17 June 1940, he was on the road fleeing Paris"
+      }
+    ]
+  },
+  {
+    "id": "left_for_england",
+    "event_type": "relocation",
+    "label": "Left for England on 18 June 1940",
+    "date": {
+      "display": "18 June 1940",
+      "precision": "day",
+      "sort_start": "1940-06-18",
+      "sort_end": "1940-06-18"
+    },
+    "location": "england",
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 2,
+        "quote": "The next day left for England"
+      }
+    ]
+  },
+  {
+    "id": "left_for_dakar",
+    "event_type": "relocation",
+    "label": "Left for Dakar on 1 September 1940",
+    "date": {
+      "display": "1 September 1940",
+      "precision": "day",
+      "sort_start": "1940-09-01",
+      "sort_end": "1940-09-01"
+    },
+    "location": "dakar",
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 2,
+        "quote": "On 1 September 1940 he left for Dakar"
+      }
+    ]
+  },
+  {
+    "id": "wounded_in_war",
+    "event_type": "other",
+    "label": "Wounded in Djebel Garci in May 1943",
+    "date": {
+      "display": "May 1943",
+      "precision": "month",
+      "sort_start": "1943-05-01",
+      "sort_end": "1943-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 3,
+        "quote": "wounded in May 1943"
+      }
+    ]
+  },
+  {
+    "id": "landed_normandy",
+    "event_type": "visit",
+    "label": "Landed in Normandy on 1 August 1944",
+    "date": {
+      "display": "1 August 1944",
+      "precision": "day",
+      "sort_start": "1944-08-01",
+      "sort_end": "1944-08-01"
+    },
+    "location": "normandy",
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 3,
+        "quote": "On 1 August, he landed in Normandy"
+      }
+    ]
+  },
+  {
+    "id": "injured_air_raid",
+    "event_type": "other",
+    "label": "Severely injured in air raid on 9 August 1944",
+    "date": {
+      "display": "9 August 1944",
+      "precision": "day",
+      "sort_start": "1944-08-09",
+      "sort_end": "1944-08-09"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 3,
+        "quote": "Eight days later he was severely injured during an air raid"
+      }
+    ]
+  },
+  {
+    "id": "medical_thesis",
+    "event_type": "publication",
+    "label": "Wrote medical thesis on tyrothricin in 1947",
+    "date": {
+      "display": "1947",
+      "precision": "year",
+      "sort_start": "1947-01-01",
+      "sort_end": "1947-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 3,
+        "quote": "In 1947, during a stint at the Cabanel centre created by the army to produce antibiotics, he wrote a medical thesis on one of them, tyrothricin"
+      }
+    ]
+  },
+  {
+    "id": "joined_pasteur",
+    "event_type": "employment_start",
+    "label": "Joined André Lwoff's laboratory in October 1950",
+    "date": {
+      "display": "October 1950",
+      "precision": "month",
+      "sort_start": "1950-10-01",
+      "sort_end": "1950-10-31"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      },
+      {
+        "entity_id": "institut_pasteur",
+        "role": "employer"
+      },
+      {
+        "entity_id": "andre_lwoff",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 3,
+        "quote": "This was October 1950"
+      }
+    ]
+  },
+  {
+    "id": "published_monograph",
+    "event_type": "publication",
+    "label": "Published monograph Les bactéries lysogènes in 1954",
+    "date": {
+      "display": "1954",
+      "precision": "year",
+      "sort_start": "1954-01-01",
+      "sort_end": "1954-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      },
+      {
+        "entity_id": "les_bacteries_lysogenes",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 4,
+        "quote": "published in 1954"
+      }
+    ]
+  },
+  {
+    "id": "wollman_collab_start",
+    "event_type": "meeting",
+    "label": "Started working with Elie Wollman in 1953",
+    "date": {
+      "display": "1953",
+      "precision": "year",
+      "sort_start": "1953-01-01",
+      "sort_end": "1953-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      },
+      {
+        "entity_id": "elie_wollman",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 4,
+        "quote": "From 1953, he started working with Elie Wollman"
+      }
+    ]
+  },
+  {
+    "id": "monod_collab_start",
+    "event_type": "meeting",
+    "label": "Collaboration with Jacques Monod began in 1958",
+    "date": {
+      "display": "1958",
+      "precision": "year",
+      "sort_start": "1958-01-01",
+      "sort_end": "1958-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      },
+      {
+        "entity_id": "jacques_monod",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 4,
+        "quote": "began in 1958"
+      }
+    ]
+  },
+  {
+    "id": "repressor_intuition",
+    "event_type": "other",
+    "label": "Intuition about repressor mechanism in late July 1958",
+    "date": {
+      "display": "late July 1958",
+      "precision": "month",
+      "sort_start": "1958-07-20",
+      "sort_end": "1958-07-31"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 5,
+        "quote": "In late July 1958"
+      }
+    ]
+  },
+  {
+    "id": "mrna_discovery",
+    "event_type": "invention",
+    "label": "Messenger RNA model completed on Christmas eve 1960",
+    "date": {
+      "display": "Christmas eve 1960",
+      "precision": "day",
+      "sort_start": "1960-12-24",
+      "sort_end": "1960-12-24"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      },
+      {
+        "entity_id": "mrna",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 6,
+        "quote": "completed on Christmas eve 1960"
+      }
+    ]
+  },
+  {
+    "id": "nobel_prize",
+    "event_type": "award",
+    "label": "Awarded Nobel Prize in December 1965",
+    "date": {
+      "display": "December 1965",
+      "precision": "month",
+      "sort_start": "1965-12-01",
+      "sort_end": "1965-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize_physiology_medicine",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 6,
+        "quote": "In December 1965, the Physiology or Medicine Nobel Prize was awarded to François Jacob"
+      }
+    ]
+  },
+  {
+    "id": "college_professor",
+    "event_type": "employment_start",
+    "label": "Became professor at Collège de France in June 1965",
+    "date": {
+      "display": "June 1965",
+      "precision": "month",
+      "sort_start": "1965-06-01",
+      "sort_end": "1965-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      },
+      {
+        "entity_id": "college_de_france",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 6,
+        "quote": "Six months earlier, François Jacob had become a professor at the Collège de France"
+      }
+    ]
+  },
+  {
+    "id": "published_logique",
+    "event_type": "publication",
+    "label": "Published La Logique du vivant in 1970",
+    "date": {
+      "display": "1970",
+      "precision": "year",
+      "sort_start": "1970-01-01",
+      "sort_end": "1970-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      },
+      {
+        "entity_id": "la_logique_du_vivant",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 8,
+        "quote": "La Logique du vivant: une histoire de l'hérédité (1970)"
+      }
+    ]
+  },
+  {
+    "id": "published_jeu",
+    "event_type": "publication",
+    "label": "Published Le Jeu des possibles in 1981",
+    "date": {
+      "display": "1981",
+      "precision": "year",
+      "sort_start": "1981-01-01",
+      "sort_end": "1981-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      },
+      {
+        "entity_id": "le_jeu_des_possibles",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 8,
+        "quote": "Le Jeu des possibles: essai sur la diversité du vivant (1981)"
+      }
+    ]
+  },
+  {
+    "id": "published_statue",
+    "event_type": "publication",
+    "label": "Published La Statue intérieure in 1987",
+    "date": {
+      "display": "1987",
+      "precision": "year",
+      "sort_start": "1987-01-01",
+      "sort_end": "1987-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      },
+      {
+        "entity_id": "la_statue_interieure",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 8,
+        "quote": "La Statue intérieure (1987)"
+      }
+    ]
+  },
+  {
+    "id": "published_souris",
+    "event_type": "publication",
+    "label": "Published La Souris, la mouche et l'homme in 1997",
+    "date": {
+      "display": "1997",
+      "precision": "year",
+      "sort_start": "1997-01-01",
+      "sort_end": "1997-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      },
+      {
+        "entity_id": "la_souris_la_mouche_et_l_homme",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 8,
+        "quote": "La Souris, la mouche et l'homme (1997)"
+      }
+    ]
+  },
+  {
+    "id": "jacob_death",
+    "event_type": "death",
+    "label": "Died in 2013",
+    "date": {
+      "display": "2013",
+      "precision": "year",
+      "sort_start": "2013-01-01",
+      "sort_end": "2013-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 1,
+        "quote": "Tribute to François Jacob (1920-2013)"
+      }
+    ]
+  }
+]

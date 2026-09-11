@@ -1,0 +1,238 @@
+[
+  {
+    "aliases": [
+      "Brenda",
+      "Milner"
+    ],
+    "entity_type": "person",
+    "id": "brenda_milner",
+    "name": "Brenda Milner",
+    "subtype": "researcher",
+    "summary": "Pioneer in the development of the study of neuropsychology known for studies of memory and frontal lobe function."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "peter_milner",
+    "name": "Peter Milner",
+    "subtype": "researcher",
+    "summary": "Husband of Brenda Milner who was sent to help set up Canadian atomic-energy research."
+  },
+  {
+    "aliases": [
+      "Penfield"
+    ],
+    "entity_type": "person",
+    "id": "wilder_penfield",
+    "name": "Wilder Penfield",
+    "subtype": "neurosurgeon",
+    "summary": "Pioneer in the surgical treatment of intractable epilepsy and associate at the Montreal Neurological Institute."
+  },
+  {
+    "aliases": [
+      "Hebb"
+    ],
+    "entity_type": "person",
+    "id": "donald_hebb",
+    "name": "Donald Hebb",
+    "subtype": "researcher",
+    "summary": "Graduate supervisor of Brenda Milner at McGill University."
+  },
+  {
+    "aliases": [
+      "Scoville"
+    ],
+    "entity_type": "person",
+    "id": "william_scoville",
+    "name": "William Scoville",
+    "subtype": "neurosurgeon",
+    "summary": "Neurosurgeon in Hartford Connecticut who suggested studying patient H.M."
+  },
+  {
+    "aliases": [
+      "H.M."
+    ],
+    "entity_type": "person",
+    "id": "patient_hm",
+    "name": "Patient H.M.",
+    "subtype": "patient",
+    "summary": "Severely amnesic patient who had received a bilateral medial temporal resection."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "jones_gotman",
+    "name": "Jones-Gotman",
+    "subtype": "researcher",
+    "summary": "Collaborator with Brenda Milner on design fluency studies."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "petrides",
+    "name": "Petrides",
+    "subtype": "researcher",
+    "summary": "Collaborator with Brenda Milner on associative learning and memory studies."
+  },
+  {
+    "aliases": [
+      "Kolb"
+    ],
+    "entity_type": "person",
+    "id": "bryan_kolb",
+    "name": "Bryan Kolb",
+    "subtype": "researcher",
+    "summary": "Author of this perspective article and collaborator with Brenda Milner."
+  },
+  {
+    "aliases": [
+      "Grant"
+    ],
+    "entity_type": "person",
+    "id": "david_grant",
+    "name": "David Grant",
+    "subtype": "researcher",
+    "summary": "Inventor of the Wisconsin Card Sorting Task at the University of Wisconsin."
+  },
+  {
+    "aliases": [
+      "Harlow"
+    ],
+    "entity_type": "person",
+    "id": "harry_harlow",
+    "name": "Harry Harlow",
+    "subtype": "researcher",
+    "summary": "Researcher who worked with monkeys at the University of Wisconsin."
+  },
+  {
+    "aliases": [
+      "Cambridge"
+    ],
+    "entity_type": "organization",
+    "id": "university_of_cambridge",
+    "name": "University of Cambridge",
+    "subtype": "university",
+    "summary": "University where Brenda Milner entered in 1936 to study mathematics."
+  },
+  {
+    "aliases": [
+      "University of Montreal"
+    ],
+    "entity_type": "organization",
+    "id": "university_of_montreal",
+    "name": "University of Montreal",
+    "subtype": "university",
+    "summary": "University where Brenda Milner got a job teaching psychology and animal behavior."
+  },
+  {
+    "aliases": [
+      "McGill"
+    ],
+    "entity_type": "organization",
+    "id": "mcgill_university",
+    "name": "McGill University",
+    "subtype": "university",
+    "summary": "University where Brenda Milner began graduate work following the war."
+  },
+  {
+    "aliases": [
+      "MNI"
+    ],
+    "entity_type": "organization",
+    "id": "montreal_neurological_institute",
+    "name": "Montreal Neurological Institute",
+    "subtype": "institute",
+    "summary": "Institute where Brenda Milner worked with Wilder Penfield's neurosurgical patients."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "pennsylvania_state_university",
+    "name": "Pennsylvania State University",
+    "subtype": "university",
+    "summary": "Host of the 1962 symposium on the Frontal Granular Cortex and Behavior."
+  },
+  {
+    "aliases": [
+      "Wisconsin"
+    ],
+    "entity_type": "organization",
+    "id": "university_of_wisconsin",
+    "name": "University of Wisconsin",
+    "subtype": "university",
+    "summary": "University where David Grant and Harry Harlow worked."
+  },
+  {
+    "aliases": [
+      "Manchester"
+    ],
+    "attributes": {
+      "country": "England",
+      "lat": 53.47944,
+      "lng": -2.24528,
+      "wikidata_qid": "Q18125",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "manchester_england",
+    "name": "Manchester, England",
+    "subtype": "city",
+    "summary": "Place where Brenda Milner was raised."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Canada",
+      "lat": 45.50334,
+      "lng": -73.58684,
+      "wikidata_qid": "Q340",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "montreal",
+    "name": "Montreal",
+    "subtype": "city",
+    "summary": "City where Brenda Milner moved in 1944 and conducted much of her research."
+  },
+  {
+    "aliases": [
+      "Hartford"
+    ],
+    "attributes": {
+      "country": "United States",
+      "lat": 41.76333,
+      "lng": -72.685,
+      "wikidata_qid": "Q33486",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "hartford_connecticut",
+    "name": "Hartford, Connecticut",
+    "subtype": "city",
+    "summary": "Location of William Scoville's neurosurgical practice."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "wisconsin_card_sorting_task",
+    "name": "Wisconsin Card Sorting Task",
+    "subtype": "test",
+    "summary": "Task invented by David Grant used by Milner to demonstrate a new role for the frontal cortex."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "the_frontal_granular_cortex_and_behavior",
+    "name": "The Frontal Granular Cortex and Behavior",
+    "subtype": "publication",
+    "summary": "1964 volume containing Milner's chapter on frontal lobectomy."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "loss_of_recent_memory_after_bilateral_hippocampal_lesions",
+    "name": "Loss of recent memory after bilateral hippocampal lesions",
+    "subtype": "publication",
+    "summary": "1957 publication by Scoville and Milner describing patient H.M."
+  }
+]

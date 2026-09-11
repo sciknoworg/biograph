@@ -1,0 +1,301 @@
+[
+  {
+    "id": "pacini_birth",
+    "event_type": "birth",
+    "label": "Born in Pistoia",
+    "description": "Filippo Pacini was born in 1812.",
+    "date": {
+      "display": "1812",
+      "precision": "year",
+      "sort_start": "1812-01-01",
+      "sort_end": "1812-12-31"
+    },
+    "location": "pistoia",
+    "participants": [
+      {
+        "entity_id": "filippo_pacini",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "natale_2012",
+        "page": 1,
+        "quote": "The anatomist and pathologist Filippo Pacini (1812-1883) was born in Pistoia"
+      }
+    ]
+  },
+  {
+    "id": "pacini_death",
+    "event_type": "death",
+    "label": "Died in 1883",
+    "description": "Filippo Pacini died in 1883.",
+    "date": {
+      "display": "1883",
+      "precision": "year",
+      "sort_start": "1883-01-01",
+      "sort_end": "1883-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "filippo_pacini",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "natale_2012",
+        "page": 1,
+        "quote": "The anatomist and pathologist Filippo Pacini (1812-1883)"
+      }
+    ]
+  },
+  {
+    "id": "pacini_florence_presentation_1835",
+    "event_type": "conference",
+    "label": "Presented research at Società Medico-Fisica Florence",
+    "description": "Pacini presented his research on corpuscles at the Società Medico-Fisica of Florence.",
+    "date": {
+      "display": "1835",
+      "precision": "year",
+      "sort_start": "1835-01-01",
+      "sort_end": "1835-12-31"
+    },
+    "location": "florence",
+    "participants": [
+      {
+        "entity_id": "filippo_pacini",
+        "role": "subject"
+      },
+      {
+        "entity_id": "societa_medico_fisica_florence",
+        "role": "host"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "natale_2012",
+        "page": 1,
+        "quote": "The presentation of the research at the Società Medico-Fisica of Florence (1835)"
+      }
+    ]
+  },
+  {
+    "id": "pacini_nuovo_giornale_publication_1836",
+    "event_type": "publication",
+    "label": "Published in Nuovo Giornale de' Letterati",
+    "description": "Pacini's research on corpuscles was published in the Nuovo Giornale de' Letterati.",
+    "date": {
+      "display": "1836",
+      "precision": "year",
+      "sort_start": "1836-01-01",
+      "sort_end": "1836-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "filippo_pacini",
+        "role": "author"
+      },
+      {
+        "entity_id": "nuovo_giornale_de_letterati",
+        "role": "publication"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "natale_2012",
+        "page": 1,
+        "quote": "and its publication in the Nuovo Giornale de' Letterati (1836)"
+      }
+    ]
+  },
+  {
+    "id": "pacini_pisa_presentation_1839",
+    "event_type": "conference",
+    "label": "Presented at Prima Riunione degli Scienziati Italiani Pisa",
+    "description": "Pacini presented his research at the Prima Riunione degli Scienziati Italiani in Pisa.",
+    "date": {
+      "display": "1839",
+      "precision": "year",
+      "sort_start": "1839-01-01",
+      "sort_end": "1839-12-31"
+    },
+    "location": "pisa",
+    "participants": [
+      {
+        "entity_id": "filippo_pacini",
+        "role": "subject"
+      },
+      {
+        "entity_id": "prima_riunione_degli_scienziati_italiani",
+        "role": "host"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "natale_2012",
+        "page": 1,
+        "quote": "and at the Prima Riunione degli Scienziati Italiani in Pisa (1839)"
+      }
+    ]
+  },
+  {
+    "id": "pacini_move_pisa_1840",
+    "event_type": "relocation",
+    "label": "Moved to Pisa",
+    "description": "Pacini moved from Pistoia to Pisa where he worked from 1840 to 1846.",
+    "date": {
+      "display": "1840",
+      "precision": "year",
+      "sort_start": "1840-01-01",
+      "sort_end": "1840-12-31"
+    },
+    "location": "pisa",
+    "participants": [
+      {
+        "entity_id": "filippo_pacini",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "natale_2012",
+        "page": 1,
+        "quote": "then he moved to Pisa (1840-1846)"
+      }
+    ]
+  },
+  {
+    "id": "pacini_book_1840",
+    "event_type": "publication",
+    "label": "Published book on nuovi organi",
+    "description": "Pacini published a book dedicated to history, anatomy, and physiology of the nuovi organi.",
+    "date": {
+      "display": "1840",
+      "precision": "year",
+      "sort_start": "1840-01-01",
+      "sort_end": "1840-12-31"
+    },
+    "location": "pistoia",
+    "participants": [
+      {
+        "entity_id": "filippo_pacini",
+        "role": "author"
+      },
+      {
+        "entity_id": "pacini_1840_book",
+        "role": "publication"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "natale_2012",
+        "page": 1,
+        "quote": "Pacini decided to publish a book entirely dedicated to history, anatomy, and physiology of the nuovi organi"
+      }
+    ]
+  },
+  {
+    "id": "pacini_move_florence_1847",
+    "event_type": "relocation",
+    "label": "Moved to Florence",
+    "description": "Pacini moved to Florence where he worked from 1847 onward.",
+    "date": {
+      "display": "1847",
+      "precision": "year",
+      "sort_start": "1847-01-01",
+      "sort_end": "1847-12-31"
+    },
+    "location": "florence",
+    "participants": [
+      {
+        "entity_id": "filippo_pacini",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "natale_2012",
+        "page": 1,
+        "quote": "and Florence (since 1847)"
+      }
+    ]
+  },
+  {
+    "id": "henle_letter_1843",
+    "event_type": "publication",
+    "label": "Henle sent letter praising Pacini",
+    "description": "Henle sent a letter to the Quinta Unione degli Scienziati Italiani in Lucca praising Pacini's discovery.",
+    "date": {
+      "display": "1843",
+      "precision": "year",
+      "sort_start": "1843-01-01",
+      "sort_end": "1843-12-31"
+    },
+    "location": "lucca",
+    "participants": [
+      {
+        "entity_id": "jacob_henle",
+        "role": "subject"
+      },
+      {
+        "entity_id": "filippo_pacini",
+        "role": "subject"
+      },
+      {
+        "entity_id": "quinta_unione_degli_scienziati_italiani",
+        "role": "recipient"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "natale_2012",
+        "page": 1,
+        "quote": "in 1843 Henle sent a letter to the Quinta Unione degli Scienziati Italiani in Lucca, where he firmly praised the Pacini's discovery"
+      }
+    ]
+  },
+  {
+    "id": "henle_kolliker_book_1844",
+    "event_type": "publication",
+    "label": "Henle and Kölliker published book on Pacinischen Körperchen",
+    "description": "Henle and Kölliker published a book with further observations about the new organs, now called Pacinischen Körperchen.",
+    "date": {
+      "display": "1844",
+      "precision": "year",
+      "sort_start": "1844-01-01",
+      "sort_end": "1844-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jacob_henle",
+        "role": "author"
+      },
+      {
+        "entity_id": "albert_kolliker",
+        "role": "author"
+      },
+      {
+        "entity_id": "henle_kolliker_1844_book",
+        "role": "publication"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "natale_2012",
+        "page": 1,
+        "quote": "in 1844 Henle and Kölliker published a book with further observations about the new organs, now called Pacinischen Körperchen"
+      }
+    ]
+  }
+]

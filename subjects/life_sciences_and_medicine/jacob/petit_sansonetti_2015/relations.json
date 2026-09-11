@@ -1,0 +1,228 @@
+[
+  {
+    "id": "jacob_son_of_simon",
+    "source": "francois_jacob",
+    "type": "family_of",
+    "target": "simon_jacob",
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 2,
+        "quote": "François Jacob, born in June 1920, was the only son of Simon Jacob"
+      }
+    ]
+  },
+  {
+    "id": "jacob_son_of_therese",
+    "source": "francois_jacob",
+    "type": "family_of",
+    "target": "therese_franck",
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 2,
+        "quote": "and Thérèse Franck"
+      }
+    ]
+  },
+  {
+    "id": "jacob_grandson_of_albert",
+    "source": "francois_jacob",
+    "type": "family_of",
+    "target": "albert_franck",
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 2,
+        "quote": "his maternal grandfather in Dijon, Albert Franck"
+      }
+    ]
+  },
+  {
+    "id": "jacob_worked_pasteur",
+    "source": "francois_jacob",
+    "type": "worked_at",
+    "target": "institut_pasteur",
+    "start": {
+      "display": "1950",
+      "precision": "year",
+      "sort_start": "1950-01-01",
+      "sort_end": "1950-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 3,
+        "quote": "André Lwoff eventually accepted him into his laboratory"
+      }
+    ]
+  },
+  {
+    "id": "jacob_supervised_lwoff",
+    "source": "francois_jacob",
+    "type": "supervised_by",
+    "target": "andre_lwoff",
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 3,
+        "quote": "he wanted to join the laboratory headed by André Lwoff"
+      }
+    ]
+  },
+  {
+    "id": "jacob_collab_monod",
+    "source": "francois_jacob",
+    "type": "collaborated_with",
+    "target": "jacques_monod",
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 4,
+        "quote": "François Jacob's collaboration with Jacques Monod"
+      }
+    ]
+  },
+  {
+    "id": "jacob_collab_wollman",
+    "source": "francois_jacob",
+    "type": "collaborated_with",
+    "target": "elie_wollman",
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 4,
+        "quote": "he started working with Elie Wollman"
+      }
+    ]
+  },
+  {
+    "id": "jacob_employed_college",
+    "source": "francois_jacob",
+    "type": "employed_by",
+    "target": "college_de_france",
+    "start": {
+      "display": "1964",
+      "precision": "year",
+      "sort_start": "1964-01-01",
+      "sort_end": "1964-12-31"
+    },
+    "end": {
+      "display": "1991",
+      "precision": "year",
+      "sort_start": "1991-01-01",
+      "sort_end": "1991-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 1,
+        "quote": "Chair of Cell Genetics from 1964 to 1991"
+      }
+    ]
+  },
+  {
+    "id": "jacob_awarded_nobel",
+    "source": "francois_jacob",
+    "type": "awarded",
+    "target": "nobel_prize_physiology_medicine",
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 6,
+        "quote": "the Physiology or Medicine Nobel Prize was awarded to François Jacob"
+      }
+    ]
+  },
+  {
+    "id": "jacob_member_academie",
+    "source": "francois_jacob",
+    "type": "member_of",
+    "target": "academie_francaise",
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 9,
+        "quote": "and a member of the Académie française"
+      }
+    ]
+  },
+  {
+    "id": "jacob_published_logique",
+    "source": "francois_jacob",
+    "type": "published",
+    "target": "la_logique_du_vivant",
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 8,
+        "quote": "La Logique du vivant: une histoire de l'hérédité (1970)"
+      }
+    ]
+  },
+  {
+    "id": "jacob_published_jeu",
+    "source": "francois_jacob",
+    "type": "published",
+    "target": "le_jeu_des_possibles",
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 8,
+        "quote": "Le Jeu des possibles: essai sur la diversité du vivant (1981)"
+      }
+    ]
+  },
+  {
+    "id": "jacob_published_statue",
+    "source": "francois_jacob",
+    "type": "published",
+    "target": "la_statue_interieure",
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 8,
+        "quote": "La Statue intérieure (1987)"
+      }
+    ]
+  },
+  {
+    "id": "jacob_published_souris",
+    "source": "francois_jacob",
+    "type": "published",
+    "target": "la_souris_la_mouche_et_l_homme",
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 8,
+        "quote": "La Souris, la mouche et l'homme (1997)"
+      }
+    ]
+  },
+  {
+    "id": "jacob_invented_pajamo",
+    "source": "francois_jacob",
+    "type": "invented",
+    "target": "pajamo_experiment",
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 5,
+        "quote": "Together, they designed the \"PaJaMo\" experiment"
+      }
+    ]
+  },
+  {
+    "id": "jacob_developed_mrna",
+    "source": "francois_jacob",
+    "type": "developed",
+    "target": "mrna",
+    "sources": [
+      {
+        "source_id": "petit_sansonetti_2015",
+        "page": 6,
+        "quote": "This RNA becomes messenger"
+      }
+    ]
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "id": "golgi_born_corteno",
+    "source": "camillo_golgi",
+    "type": "born_in",
+    "target": "corteno",
+    "event_id": "golgi_birth",
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 2,
+        "quote": "Camillo Golgi was born on 7th July, 1843 at Corteno, which is a picturesque village (in present times often referred with Golgi suffixed to its name) situated in Brescia province of Italy [6]."
+      }
+    ]
+  },
+  {
+    "id": "golgi_studied_pavia",
+    "source": "camillo_golgi",
+    "type": "studied_at",
+    "target": "university_of_pavia",
+    "event_id": "golgi_graduation",
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 2,
+        "quote": "Under his father's tutelage, Golgi studied medicine at the University of Pavia (which is close to his native village) and completed his graduation in 1865 [1]."
+      }
+    ]
+  },
+  {
+    "id": "golgi_mentored_lombroso",
+    "source": "camillo_golgi",
+    "type": "supervised_by",
+    "target": "cesare_lombroso",
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 2,
+        "quote": "However his destiny would unfold in a different manner, as he came under the influence of noted Italian psychiatrist Cesare Lombroso (1835–1909), under whose able guidance Golgi authored his dissertation for his university degree."
+      }
+    ]
+  },
+  {
+    "id": "golgi_mentored_bizzozero",
+    "source": "camillo_golgi",
+    "type": "supervised_by",
+    "target": "giulio_bizzozero",
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 2,
+        "quote": "Although Lombroso was responsible for igniting the spark, pertaining to the study of brain in young Golgi's mind, however his interest in analysing brain tissue under microscope (which eventually earned Golgi the Nobel Prize) was aroused by Italian physician Giulio Bizzozero (1846–1901)."
+      }
+    ]
+  },
+  {
+    "id": "golgi_worked_pio_luogo",
+    "source": "camillo_golgi",
+    "type": "worked_at",
+    "target": "pio_luogo_degli_incurabili",
+    "event_id": "golgi_chief_physician_start",
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 3,
+        "quote": "On 1st June, 1872, he entered into medical service and joined as the Chief Physician at Pio Luogo degli Incurabili at Abbiategrasso, Italy."
+      }
+    ]
+  },
+  {
+    "id": "golgi_worked_uni_pavia",
+    "source": "camillo_golgi",
+    "type": "worked_at",
+    "target": "university_of_pavia",
+    "event_id": "golgi_professor_histology",
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 3,
+        "quote": "This memorable event catapulted Golgi to academic prominence and he was appointed as the Professor of Histology in his alma mater, University of Pavia in 1876."
+      }
+    ]
+  },
+  {
+    "id": "golgi_invented_black_reaction",
+    "source": "camillo_golgi",
+    "type": "invented",
+    "target": "black_reaction",
+    "event_id": "golgi_black_reaction_invention",
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 3,
+        "quote": "It was in this small set up, Golgi invented the 'Black Reaction' (Golgi's staining) which was to revolutionize the science of neurology and the way we know the nervous system in present day [14]."
+      }
+    ]
+  },
+  {
+    "id": "golgi_awarded_nobel",
+    "source": "camillo_golgi",
+    "type": "awarded",
+    "target": "nobel_prize_physiology_medicine_1906",
+    "event_id": "golgi_nobel_award",
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 3,
+        "quote": "He reached the pinnacle of his professional career in 1906, when he shared the Nobel Prize for Physiology or Medicine with Spanish scientist Santiago Ramón y Cajal, whose remarkable contributions in the field of neuroscience shaped the Neuron Doctrine/Neuron Theory [17]."
+      }
+    ]
+  },
+  {
+    "id": "golgi_collaborated_cajal",
+    "source": "camillo_golgi",
+    "type": "collaborated_with",
+    "target": "santiago_ram_n_y_cajal",
+    "event_id": "golgi_nobel_award",
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 1,
+        "quote": "In recognition of their exemplary contributions in neuroscience Golgi and Cajal were jointly awarded the Nobel Prize for Physiology or Medicine in 1906."
+      }
+    ]
+  },
+  {
+    "id": "golgi_died_pavia",
+    "source": "camillo_golgi",
+    "type": "died_in",
+    "target": "pavia",
+    "event_id": "golgi_death",
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 3,
+        "quote": "Golgi's last years before his death in Pavia, on 21st January, 1926, were mostly devoted towards his resistance for establishing a University in Milan, which in his opinion would have curtailed the importance of his alma mater, University of Pavia (as they were very close in terms of distance) which understandably was very close to his heart as he had served as he had served almost his entire professional life there [12]."
+      }
+    ]
+  }
+]

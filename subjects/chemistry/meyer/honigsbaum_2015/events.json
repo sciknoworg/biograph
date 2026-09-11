@@ -1,0 +1,402 @@
+[
+  {
+    "id": "meyer_birth",
+    "event_type": "birth",
+    "label": "Born in Switzerland",
+    "date": {
+      "display": "1884",
+      "precision": "year",
+      "sort_start": "1884-01-01",
+      "sort_end": "1884-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "karl_friedrich_meyer",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2015",
+        "page": 1,
+        "quote": "The Swiss-born medical researcher Karl Friedrich Meyer (1884–1974) is best known as a 'microbe hunter'"
+      }
+    ]
+  },
+  {
+    "id": "meyer_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1974",
+      "precision": "year",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "karl_friedrich_meyer",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2015",
+        "page": 1,
+        "quote": "The Swiss-born medical researcher Karl Friedrich Meyer (1884–1974) is best known as a 'microbe hunter'"
+      }
+    ]
+  },
+  {
+    "id": "meyer_study_munich",
+    "event_type": "education",
+    "label": "Studied at University of Munich",
+    "date": {
+      "display": "1905",
+      "precision": "year",
+      "sort_start": "1905-01-01",
+      "sort_end": "1905-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "karl_friedrich_meyer",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2015",
+        "page": 1,
+        "quote": "Meyer's grounding in this science, with its demanding techniques of bacterial cultivation, staining and animal experimentation, began in 1905 when he spent a year at the Department of Medicine at the University of Munich."
+      }
+    ]
+  },
+  {
+    "id": "meyer_vet_degree_zurich",
+    "event_type": "education",
+    "label": "Awarded veterinary medicine degree",
+    "date": {
+      "display": "1909",
+      "precision": "year",
+      "sort_start": "1909-01-01",
+      "sort_end": "1909-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "karl_friedrich_meyer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_zurich",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2015",
+        "page": 1,
+        "quote": "it was this work that resulted in Meyer being awarded his degree in veterinary medicine from Zurich in 1909"
+      }
+    ]
+  },
+  {
+    "id": "meyer_job_onderstepoort",
+    "event_type": "employment_start",
+    "label": "Started work at Onderstepoort",
+    "date": {
+      "display": "1909",
+      "precision": "year",
+      "sort_start": "1909-01-01",
+      "sort_end": "1909-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "karl_friedrich_meyer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "veterinary_bacteriological_institute_onderstepoort",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2015",
+        "page": 1,
+        "quote": "in 1909 Meyer took up a position as a pathologist at Arnold Theiler's (the father of the Nobel Prize winner Max Theiler) Veterinary Bacteriological Institute in Onderstepoort, South Africa."
+      }
+    ]
+  },
+  {
+    "id": "meyer_job_penn",
+    "event_type": "employment_start",
+    "label": "Appointed assistant professor at University of Pennsylvania",
+    "date": {
+      "display": "1910",
+      "precision": "year",
+      "sort_start": "1910-01-01",
+      "sort_end": "1910-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "karl_friedrich_meyer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_pennsylvania",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2015",
+        "page": 1,
+        "quote": "In 1910 a chance meeting with the British ambassador to the United States led to the offer of an assistant professorship in the school of veterinary medicine at the University of Pennsylvania."
+      }
+    ]
+  },
+  {
+    "id": "meyer_job_hooper",
+    "event_type": "employment_start",
+    "label": "Joined Hooper Foundation",
+    "date": {
+      "display": "1921",
+      "precision": "year",
+      "sort_start": "1921-01-01",
+      "sort_end": "1921-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "karl_friedrich_meyer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "george_williams_hooper_foundation",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2015",
+        "page": 1,
+        "quote": "Since joining the George Williams Hooper Foundation for Medical Research in San Francisco in 1921"
+      }
+    ]
+  },
+  {
+    "id": "meyer_phd_zurich",
+    "event_type": "education",
+    "label": "Awarded PhD from University of Zurich",
+    "date": {
+      "display": "1924",
+      "precision": "year",
+      "sort_start": "1924-01-01",
+      "sort_end": "1924-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "karl_friedrich_meyer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_zurich",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2015",
+        "page": 1,
+        "quote": "his PhD from the University of Zurich, awarded in 1924, was for a study of 'bacterial symbiosis' in mollusks"
+      }
+    ]
+  },
+  {
+    "id": "meyer_director_hooper",
+    "event_type": "role_change",
+    "label": "Succeeded George Whipple as director of the Hooper",
+    "date": {
+      "display": "1924",
+      "precision": "year",
+      "sort_start": "1924-01-01",
+      "sort_end": "1924-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "karl_friedrich_meyer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "george_williams_hooper_foundation",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2015",
+        "page": 1,
+        "quote": "By 1924 Meyer had succeeded George Whipple as director of the Hooper"
+      }
+    ]
+  },
+  {
+    "id": "meyer_equine_encephalitis",
+    "event_type": "invention",
+    "label": "Demonstrated equine encephalitis was due to a filterable virus",
+    "date": {
+      "display": "1930",
+      "precision": "year",
+      "sort_start": "1930-01-01",
+      "sort_end": "1930-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "karl_friedrich_meyer",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2015",
+        "page": 1,
+        "quote": "Sabin suggests that it was Meyer's demonstration in 1930 that equine encephalitis was due to a ''filterable virus'' that established his scientific reputation"
+      }
+    ]
+  },
+  {
+    "id": "meyer_psittacosis_study",
+    "event_type": "other",
+    "label": "Began study of psittacosis in California",
+    "date": {
+      "display": "1932",
+      "precision": "year",
+      "sort_start": "1932-01-01",
+      "sort_end": "1932-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "karl_friedrich_meyer",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2015",
+        "page": 1,
+        "quote": "At a meeting with bird breeders in Los Angeles in 1932, Meyer proposed that if they turned over 10 to 20 percent of their stock to him he would sacrifice the birds at his laboratory at the Hooper and examine them for infections."
+      }
+    ]
+  },
+  {
+    "id": "meyer_latent_infections_paper",
+    "event_type": "publication",
+    "label": "Published paper on latent infections",
+    "date": {
+      "display": "1936",
+      "precision": "year",
+      "sort_start": "1936-01-01",
+      "sort_end": "1936-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "karl_friedrich_meyer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "latent_infections_1936",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2015",
+        "page": 1,
+        "quote": "Instead, Meyer chose to speak on 'latent infections' (Meyer, 1936a)."
+      }
+    ]
+  },
+  {
+    "id": "meyer_elton_visit",
+    "event_type": "visit",
+    "label": "Charles Elton visited Meyer in San Francisco",
+    "date": {
+      "display": "1938",
+      "precision": "year",
+      "sort_start": "1938-01-01",
+      "sort_end": "1938-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "karl_friedrich_meyer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "charles_elton",
+        "role": "visitor"
+      },
+      {
+        "entity_id": "san_francisco",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2015",
+        "page": 1,
+        "quote": "When the British animal ecologist Charles Elton visited Meyer in San Francisco in 1938 he records in his diary that he found Meyer ''already talking business and ecology''"
+      }
+    ]
+  },
+  {
+    "id": "meyer_walter_reed_medal",
+    "event_type": "award",
+    "label": "Accepted Walter Reed Medal",
+    "date": {
+      "display": "1956",
+      "precision": "year",
+      "sort_start": "1956-01-01",
+      "sort_end": "1956-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "karl_friedrich_meyer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "walter_reed_medal",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2015",
+        "page": 1,
+        "quote": "For his own part, accepting the Walter Reed Medal for Services to Tropical Medicine at the American Society of Tropical Medicine and Hygiene in New Orleans in 1956"
+      }
+    ]
+  },
+  {
+    "id": "meyer_retirement",
+    "event_type": "retirement",
+    "label": "Retired",
+    "date": {
+      "display": "1959",
+      "precision": "year",
+      "sort_start": "1959-01-01",
+      "sort_end": "1959-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "karl_friedrich_meyer",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "honigsbaum_2015",
+        "page": 1,
+        "quote": "Come his retirement in 1959, these scientific exchanges had convinced Meyer that the Hooper's future lay in unifying the study of animal and human ecology"
+      }
+    ]
+  }
+]

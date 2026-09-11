@@ -1,0 +1,258 @@
+[
+  {
+    "aliases": [
+      "Barnard",
+      "Chris Barnard",
+      "Christiaan Barnard",
+      "Christiaan Neethling Barnard"
+    ],
+    "entity_type": "person",
+    "id": "christiaan_barnard",
+    "name": "Christiaan ('Chris') Barnard",
+    "subtype": "surgeon",
+    "summary": "South African cardiac surgeon who performed the first human-to-human heart transplant."
+  },
+  {
+    "aliases": [
+      "GSH",
+      "Groote Schuur"
+    ],
+    "attributes": {
+      "location": "Cape Town, South Africa"
+    },
+    "entity_type": "organization",
+    "id": "groote_schuur_hospital",
+    "name": "Groote Schuur Hospital",
+    "subtype": "hospital",
+    "summary": "Major teaching hospital of the University of Cape Town where Barnard worked."
+  },
+  {
+    "aliases": [
+      "UCT"
+    ],
+    "entity_type": "organization",
+    "id": "university_of_cape_town",
+    "name": "University of Cape Town",
+    "subtype": "university",
+    "summary": "University where Barnard studied medicine and later worked."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "location": "Minneapolis, USA"
+    },
+    "entity_type": "organization",
+    "id": "university_of_minnesota",
+    "name": "University of Minnesota",
+    "subtype": "university",
+    "summary": "University where Barnard gained surgical experience in open heart surgery."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "South Africa",
+      "lat": -32.35,
+      "lng": 22.58333,
+      "wikidata_qid": "Q813395",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "beaufort_west",
+    "name": "Beaufort West",
+    "subtype": "town",
+    "summary": "Rural town in South Africa where Barnard was born."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "South Africa",
+      "lat": -33.92528,
+      "lng": 18.42389,
+      "wikidata_qid": "Q5465",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "cape_town",
+    "name": "Cape Town",
+    "subtype": "city",
+    "summary": "City in South Africa where Barnard worked and lived."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "USA",
+      "lat": 44.98194,
+      "lng": -93.26917,
+      "wikidata_qid": "Q36091",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "minneapolis",
+    "name": "Minneapolis",
+    "subtype": "city",
+    "summary": "City in the USA where Barnard trained under Wangensteen."
+  },
+  {
+    "aliases": [
+      "Richmond, Virginia"
+    ],
+    "attributes": {
+      "country": "USA",
+      "state": "Virginia",
+      "lat": 37.54083,
+      "lng": -77.43667,
+      "wikidata_qid": "Q43421",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "richmond_virginia",
+    "name": "Richmond",
+    "subtype": "city",
+    "summary": "City where Barnard gained experience in immunosuppressive therapy."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "USA",
+      "lat": 35.48222,
+      "lng": -97.53528,
+      "wikidata_qid": "Q34863",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "oklahoma_city",
+    "name": "Oklahoma City",
+    "subtype": "city",
+    "summary": "City where Barnard helped establish a heart transplantation program."
+  },
+  {
+    "aliases": [
+      "Mr. Louis Washansky",
+      "Washkansky"
+    ],
+    "entity_type": "person",
+    "id": "louis_washkansky",
+    "name": "Louis Washkansky",
+    "subtype": "patient",
+    "summary": "First recipient of a human-to-human heart transplant."
+  },
+  {
+    "aliases": [
+      "Denise Darval"
+    ],
+    "entity_type": "person",
+    "id": "denise_darvall",
+    "name": "Denise Darvall",
+    "subtype": "donor",
+    "summary": "First human heart donor."
+  },
+  {
+    "aliases": [
+      "Dr. Blaiburg",
+      "Dr. Blaiberg"
+    ],
+    "entity_type": "person",
+    "id": "philip_blaiberg",
+    "name": "Philip Blaiberg",
+    "subtype": "patient",
+    "summary": "Second recipient of a heart transplant by Barnard."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "marius_barnard",
+    "name": "Marius Barnard",
+    "subtype": "surgeon",
+    "summary": "Younger brother of Christiaan Barnard and a cardiac surgeon."
+  },
+  {
+    "aliases": [
+      "Walt Lillehei",
+      "C. Walton ('Walt') Lillehei"
+    ],
+    "entity_type": "person",
+    "id": "c_walton_lillehei",
+    "name": "C. Walton Lillehei",
+    "subtype": "surgeon",
+    "summary": "Pioneer in open heart surgery and Barnard's mentor in Minneapolis."
+  },
+  {
+    "aliases": [
+      "Professor Owen Wangensteen"
+    ],
+    "entity_type": "person",
+    "id": "owen_wangensteen",
+    "name": "Owen Wangensteen",
+    "subtype": "professor",
+    "summary": "Legendary professor under whom Barnard studied at Minnesota."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "norman_shumway",
+    "name": "Norman Shumway",
+    "subtype": "researcher",
+    "summary": "Researcher who developed the operative technique for heart transplantation."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "david_hume",
+    "name": "David Hume",
+    "subtype": "researcher",
+    "summary": "Head of the transplant program in Richmond where Barnard learnt immunosuppression."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "richard_lower",
+    "name": "Richard Lower",
+    "subtype": "researcher",
+    "summary": "Researcher in Richmond who trained with Shumway."
+  },
+  {
+    "aliases": [
+      "Val Schrire",
+      "Professor Schrire"
+    ],
+    "entity_type": "person",
+    "id": "velva_schrire",
+    "name": "Velva Schrire",
+    "subtype": "clinician",
+    "summary": "Professor of cardiology who selected the first transplant patient."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "jacques_losman",
+    "name": "Jacques Losman",
+    "subtype": "surgeon",
+    "summary": "Junior colleague who designed the heterotopic heart transplantation operation."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "winston_wicomb",
+    "name": "Winston Wicomb",
+    "subtype": "researcher",
+    "summary": "Junior research colleague who introduced hypothermic perfusion of the donor heart."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "dimitri_novitzky",
+    "name": "Dimitri Novitzky",
+    "subtype": "surgeon",
+    "summary": "Junior surgical colleague who studied brain death pathophysiology."
+  },
+  {
+    "aliases": [
+      "UCT prosthesis"
+    ],
+    "entity_type": "artifact",
+    "id": "uct_prosthesis",
+    "name": "University of Cape Town prosthesis",
+    "subtype": "medical_device",
+    "summary": "Prosthetic heart valve designed and implanted by Barnard."
+  }
+]

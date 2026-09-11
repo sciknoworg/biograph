@@ -1,0 +1,31 @@
+[
+  {
+    "id": "fabrica_printed_basel",
+    "source": "de_humani_corporis_fabrica",
+    "type": "licensed_to",
+    "target": "basel",
+    "note": "Printed in Basel",
+    "sources": [
+      {
+        "source_id": "gomes_et_al_2015",
+        "page": 2,
+        "quote": "De humani corporis fabrica libri septem, the Fabrica,1 st edition, came to light in 1543, by the printer Johannes Oporinus, from Basel."
+      }
+    ],
+    "_rejected_because": "'licensed_to' expects source entity_type person/organization, but 'de_humani_corporis_fabrica' is 'artifact'"
+  },
+  {
+    "id": "brabant_part_empire",
+    "source": "brabant",
+    "type": "member_of",
+    "target": "holy_roman_empire",
+    "sources": [
+      {
+        "source_id": "hadzic_2014_500th",
+        "page": 450,
+        "quote": "Bruxella (Brussels) was the capital of Brabant, then part of the Habsburg Netherlands, and belonging to the Holy Roman Empire, with Charles V as emperor."
+      }
+    ],
+    "_rejected_because": "'member_of' expects source entity_type person/organization, but 'brabant' is 'place'"
+  }
+]

@@ -1,0 +1,277 @@
+[
+  {
+    "id": "francois_jacob",
+    "entity_type": "person",
+    "name": "François Jacob",
+    "aliases": [
+      "Jacob",
+      "François"
+    ],
+    "summary": "French biologist and Nobel laureate known for discoveries concerning genetic control of enzyme and virus synthesis.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "simon_jacob",
+    "entity_type": "person",
+    "name": "Simon Jacob",
+    "summary": "Father of François Jacob, combined religious practice with radical-socialist opinions.",
+    "subtype": "family"
+  },
+  {
+    "id": "therese_franck",
+    "entity_type": "person",
+    "name": "Thérèse Franck",
+    "summary": "Mother of François Jacob, agnostic and politically conservative.",
+    "subtype": "family"
+  },
+  {
+    "id": "albert_franck",
+    "entity_type": "person",
+    "name": "Albert Franck",
+    "summary": "Maternal grandfather of François Jacob, first Jew to reach the rank of lieutenant general.",
+    "subtype": "family"
+  },
+  {
+    "id": "andre_lwoff",
+    "entity_type": "person",
+    "name": "André Lwoff",
+    "summary": "French microbiologist and head of the laboratory where François Jacob worked at Institut Pasteur.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "jacques_monod",
+    "entity_type": "person",
+    "name": "Jacques Monod",
+    "summary": "French biologist and collaborator of François Jacob on the operon model.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "elie_wollman",
+    "entity_type": "person",
+    "name": "Elie Wollman",
+    "summary": "French biologist who collaborated with François Jacob on bacterial conjugation.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "arthur_pardee",
+    "entity_type": "person",
+    "name": "Arthur Pardee",
+    "summary": "US researcher who participated in the PaJaMo experiment.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "sydney_brenner",
+    "entity_type": "person",
+    "name": "Sydney Brenner",
+    "summary": "Biologist who collaborated with François Jacob on messenger RNA discovery.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "francis_crick",
+    "entity_type": "person",
+    "name": "Francis Crick",
+    "summary": "Biologist who concluded substance X was RNA during a meeting with Jacob and Brenner.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "christine_petit",
+    "entity_type": "person",
+    "name": "Christine Petit",
+    "summary": "Author of the tribute article, specialist in Genetics and Cellular Physiology.",
+    "subtype": "author"
+  },
+  {
+    "id": "philippe_sansonetti",
+    "entity_type": "person",
+    "name": "Philippe Sansonetti",
+    "summary": "Author of the tribute article, specialist in Microbiology and Infectious Diseases.",
+    "subtype": "author"
+  },
+  {
+    "id": "institut_pasteur",
+    "entity_type": "organization",
+    "name": "Institut Pasteur",
+    "aliases": [
+      "Pasteur"
+    ],
+    "summary": "French biology research centre where François Jacob conducted much of his work.",
+    "subtype": "lab"
+  },
+  {
+    "id": "college_de_france",
+    "entity_type": "organization",
+    "name": "Collège de France",
+    "summary": "French research and higher education institution where Jacob held the Chair of Cell Genetics.",
+    "subtype": "university"
+  },
+  {
+    "id": "free_france",
+    "entity_type": "organization",
+    "name": "Free France",
+    "summary": "Government in exile and military force led by Charles de Gaulle during WWII.",
+    "subtype": "military"
+  },
+  {
+    "id": "senegalese_infantry_regiment",
+    "entity_type": "organization",
+    "name": "Senegalese infantry regiment",
+    "summary": "Military unit where François Jacob was appointed during WWII.",
+    "subtype": "military"
+  },
+  {
+    "id": "cabanel_centre",
+    "entity_type": "organization",
+    "name": "Cabanel centre",
+    "summary": "Army-created centre to produce antibiotics where Jacob wrote his medical thesis.",
+    "subtype": "lab"
+  },
+  {
+    "id": "academie_francaise",
+    "entity_type": "organization",
+    "name": "Académie française",
+    "summary": "French council of authorities on matters pertaining to the French language, of which Jacob was a member.",
+    "subtype": "academy"
+  },
+  {
+    "id": "paris",
+    "entity_type": "place",
+    "name": "Paris",
+    "summary": "Capital city of France where Jacob grew up and fled from in 1940.",
+    "subtype": "city",
+    "attributes": {
+      "country": "France",
+      "lat": 48.85667,
+      "lng": 2.35222,
+      "wikidata_qid": "Q90",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "england",
+    "entity_type": "place",
+    "name": "England",
+    "summary": "Country where Jacob fled to join Free France in 1940.",
+    "subtype": "country",
+    "attributes": {
+      "lat": 53.0,
+      "lng": -1.0,
+      "wikidata_qid": "Q21",
+      "geocode_basis": "document"
+    }
+  },
+  {
+    "id": "dakar",
+    "entity_type": "place",
+    "name": "Dakar",
+    "summary": "City in Senegal where Jacob was sent in 1940.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Senegal",
+      "lat": 14.67256,
+      "lng": -17.432,
+      "wikidata_qid": "Q3718",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "normandy",
+    "entity_type": "place",
+    "name": "Normandy",
+    "summary": "Region in France where Jacob landed on 1 August 1944.",
+    "subtype": "region",
+    "attributes": {
+      "country": "France",
+      "lat": 49.12234,
+      "lng": -0.43664,
+      "wikidata_qid": "Q15878",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "val_de_grace_hospital",
+    "entity_type": "place",
+    "name": "Val de Grâce hospital",
+    "summary": "Hospital in Paris where Jacob was hospitalized after war injuries.",
+    "subtype": "facility",
+    "attributes": {
+      "city": "Paris"
+    }
+  },
+  {
+    "id": "nice",
+    "entity_type": "place",
+    "name": "Nice",
+    "summary": "City in France near which Jacob had a house in Mouans-Sarthoux.",
+    "subtype": "city",
+    "attributes": {
+      "country": "France",
+      "lat": 43.70194,
+      "lng": 7.26833,
+      "wikidata_qid": "Q33959",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "nobel_prize_physiology_medicine",
+    "entity_type": "artifact",
+    "name": "Nobel Prize in Physiology or Medicine",
+    "summary": "Prestigious award awarded to Jacob, Lwoff, and Monod in 1965.",
+    "subtype": "award"
+  },
+  {
+    "id": "chair_of_cell_genetics",
+    "entity_type": "artifact",
+    "name": "Chair of Cell Genetics",
+    "summary": "Professorial chair held by François Jacob at Collège de France.",
+    "subtype": "position"
+  },
+  {
+    "id": "la_logique_du_vivant",
+    "entity_type": "artifact",
+    "name": "La Logique du vivant: une histoire de l'hérédité",
+    "summary": "Book by François Jacob published in 1970 on the history of heredity.",
+    "subtype": "publication"
+  },
+  {
+    "id": "le_jeu_des_possibles",
+    "entity_type": "artifact",
+    "name": "Le Jeu des possibles: essai sur la diversité du vivant",
+    "summary": "Book by François Jacob published in 1981 on the diversity of life.",
+    "subtype": "publication"
+  },
+  {
+    "id": "la_statue_interieure",
+    "entity_type": "artifact",
+    "name": "La Statue intérieure",
+    "summary": "Autobiography by François Jacob published in 1987.",
+    "subtype": "publication"
+  },
+  {
+    "id": "la_souris_la_mouche_et_l_homme",
+    "entity_type": "artifact",
+    "name": "La Souris, la mouche et l'homme",
+    "summary": "Book by François Jacob published in 1997.",
+    "subtype": "publication"
+  },
+  {
+    "id": "les_bacteries_lysogenes",
+    "entity_type": "artifact",
+    "name": "Les bactéries lysogènes et la notion de provirus",
+    "summary": "Monograph by François Jacob published in 1954 compiling his PhD work.",
+    "subtype": "publication"
+  },
+  {
+    "id": "pajamo_experiment",
+    "entity_type": "artifact",
+    "name": "PaJaMo experiment",
+    "summary": "Famous experiment designed by Jacob, Monod, and Pardee to analyze gene products.",
+    "subtype": "invention"
+  },
+  {
+    "id": "mrna",
+    "entity_type": "artifact",
+    "name": "messenger RNA",
+    "summary": "RNA molecule whose existence was demonstrated by Jacob and colleagues in 1960.",
+    "subtype": "invention"
+  }
+]

@@ -1,0 +1,153 @@
+[
+  {
+    "id": "vesalius_father_andreas",
+    "source": "andreas_vesalius",
+    "type": "family_of",
+    "target": "andreas_vesalius_sr",
+    "sources": [
+      {
+        "source_id": "omalley_1964",
+        "page": 1,
+        "quote": "His father, another Andreas and an apothecary of the Emperor Charles V, was the illegitimate son of Everard van Wesele, or Vesalius"
+      }
+    ]
+  },
+  {
+    "id": "vesalius_mother_isabel",
+    "source": "andreas_vesalius",
+    "type": "family_of",
+    "target": "isabel_crabbe",
+    "sources": [
+      {
+        "source_id": "omalley_1964",
+        "page": 1,
+        "quote": "The maiden name of our Vesalius's mother was Isabel Crabbe"
+      }
+    ]
+  },
+  {
+    "id": "vesalius_studied_louvain",
+    "source": "andreas_vesalius",
+    "type": "studied_at",
+    "target": "university_louvain",
+    "event_id": "vesalius_matriculate_louvain",
+    "sources": [
+      {
+        "source_id": "omalley_1964",
+        "page": 1,
+        "quote": "he matriculated at the University of Louvain in FebruaryI530"
+      }
+    ]
+  },
+  {
+    "id": "vesalius_studied_paris",
+    "source": "andreas_vesalius",
+    "type": "studied_at",
+    "target": "university_paris",
+    "event_id": "vesalius_matriculate_paris",
+    "sources": [
+      {
+        "source_id": "omalley_1964",
+        "page": 2,
+        "quote": "matriculating there probably in September1533."
+      }
+    ]
+  },
+  {
+    "id": "vesalius_studied_padua",
+    "source": "andreas_vesalius",
+    "type": "studied_at",
+    "target": "university_padua",
+    "event_id": "vesalius_doctor_padua",
+    "sources": [
+      {
+        "source_id": "omalley_1964",
+        "page": 3,
+        "quote": "he decided to go to Padua for the degree of Doctor of Medicine."
+      }
+    ]
+  },
+  {
+    "id": "vesalius_worked_padua",
+    "source": "andreas_vesalius",
+    "type": "worked_at",
+    "target": "university_padua",
+    "event_id": "vesalius_chair_padua",
+    "sources": [
+      {
+        "source_id": "omalley_1964",
+        "page": 3,
+        "quote": "on the next day he was given the then relatively unimportant chair of surgery"
+      }
+    ]
+  },
+  {
+    "id": "vesalius_employed_imperial",
+    "source": "andreas_vesalius",
+    "type": "employed_by",
+    "target": "imperial_household",
+    "event_id": "vesalius_imperial_physician",
+    "sources": [
+      {
+        "source_id": "omalley_1964",
+        "page": 7,
+        "quote": "he applied to the emperor and received the post of physician to the imperial household."
+      }
+    ]
+  },
+  {
+    "id": "vesalius_employed_spanish",
+    "source": "andreas_vesalius",
+    "type": "employed_by",
+    "target": "spanish_court",
+    "event_id": "vesalius_philip_ii_service",
+    "sources": [
+      {
+        "source_id": "omalley_1964",
+        "page": 9,
+        "quote": "took service with his son Philip II, King of Spain, as physician to the Netherlanders at the Spanish court"
+      }
+    ]
+  },
+  {
+    "id": "vesalius_published_fabrica",
+    "source": "andreas_vesalius",
+    "type": "published",
+    "target": "fabrica",
+    "event_id": "vesalius_fabrica_printed",
+    "sources": [
+      {
+        "source_id": "omalley_1964",
+        "page": 5,
+        "quote": "Printing of the great work was finished, as the colophon informs us, in JuneI543"
+      }
+    ]
+  },
+  {
+    "id": "vesalius_collaborated_stephanus",
+    "source": "andreas_vesalius",
+    "type": "collaborated_with",
+    "target": "johannes_stephanus",
+    "sources": [
+      {
+        "source_id": "omalley_1964",
+        "page": 4,
+        "quote": "published in 1538 with three figures of the skeleton drawn by an artist named Johannes Stephanus from Calcar"
+      }
+    ]
+  },
+  {
+    "id": "vesalius_died_zante",
+    "source": "andreas_vesalius",
+    "type": "died_in",
+    "target": "zante",
+    "event_id": "vesalius_death",
+    "sources": [
+      {
+        "source_id": "omalley_1964",
+        "page": 10,
+        "quote": "finally made the island of Zante. There, completely exhausted, Vesalius managed to get ashore where he, too, died"
+      }
+    ]
+  }
+]

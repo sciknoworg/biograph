@@ -1,0 +1,31 @@
+[
+  {
+    "id": "morrill_published_textbook",
+    "source": "charles_v_morrill",
+    "type": "published",
+    "target": "edwards_bros",
+    "event_id": "morrill_textbook_published",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 2,
+        "quote": "It was privately printed M Edwards Bros. (1946)"
+      }
+    ],
+    "_rejected_because": "'published' expects target entity_type artifact, but 'edwards_bros' is 'organization'"
+  },
+  {
+    "id": "hagamen_wrote_memorial",
+    "source": "wilbur_d_hagamen",
+    "type": "published",
+    "target": "cornell_university",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 3,
+        "quote": "Wilbur D. Hagamen, M.D."
+      }
+    ],
+    "_rejected_because": "'published' expects target entity_type artifact, but 'cornell_university' is 'organization'"
+  }
+]

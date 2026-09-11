@@ -1,0 +1,135 @@
+[
+  {
+    "id": "dobzhansky_worked_columbia",
+    "source": "theodosius_dobzhansky",
+    "type": "worked_at",
+    "target": "columbia_university",
+    "sources": [
+      {
+        "source_id": "araujo_2023",
+        "page": 97,
+        "quote": "A deanship in Brazil means a lot more than a deanship in Columbia or any other university in this country."
+      }
+    ]
+  },
+  {
+    "id": "dobzhansky_visited_brazil",
+    "source": "theodosius_dobzhansky",
+    "type": "visited",
+    "target": "brazil",
+    "event_id": "first_visit_brazil",
+    "sources": [
+      {
+        "source_id": "araujo_2023",
+        "page": 96,
+        "quote": "He visited Brazil many times after his first visit in 1943, spending one year in 1948-1949 and another in 1955-1956."
+      }
+    ]
+  },
+  {
+    "id": "dobzhansky_collaborated_pavan",
+    "source": "theodosius_dobzhansky",
+    "type": "collaborated_with",
+    "target": "crodowaldo_pavan",
+    "sources": [
+      {
+        "source_id": "araujo_2023",
+        "page": 95,
+        "quote": "with Crodowaldo Pavan (1919-2009), Dobzhansky was highly affectionate, although he was worried about the future of his most beloved disciple"
+      }
+    ]
+  },
+  {
+    "id": "dobzhansky_collaborated_dreyfus",
+    "source": "theodosius_dobzhansky",
+    "type": "collaborated_with",
+    "target": "andre_dreyfus",
+    "sources": [
+      {
+        "source_id": "araujo_2023",
+        "page": 95,
+        "quote": "Dobzhansky's relationship with André Dreyfus (1897-1952), at the time the head of the Department of General Biology at the University of São Paulo, was always respectful and friendly"
+      }
+    ]
+  },
+  {
+    "id": "dobzhansky_collaborated_brito",
+    "source": "theodosius_dobzhansky",
+    "type": "collaborated_with",
+    "target": "antonio_brito_da_cunha",
+    "sources": [
+      {
+        "source_id": "araujo_2023",
+        "page": 95,
+        "quote": "Dobzhansky's relationship with Antonio Brito da Cunha (1925-2019) was one of admiration for his general culture and sophistication, however, it was less intense than with Pavan."
+      }
+    ]
+  },
+  {
+    "id": "dobzhansky_married_natasha",
+    "source": "theodosius_dobzhansky",
+    "type": "married_to",
+    "target": "natasha_dobzhansky",
+    "sources": [
+      {
+        "source_id": "araujo_2023",
+        "page": 101,
+        "quote": "A 'pensão' in which we have a two-room apartment and all the meals, about 15 walking minutes distance from the laboratory in which Natasha and myself are working"
+      }
+    ]
+  },
+  {
+    "id": "pavan_succeeded_dreyfus",
+    "source": "crodowaldo_pavan",
+    "type": "renamed_to",
+    "target": "department_of_general_biology_usp",
+    "note": "Pavan succeeded Dreyfus as head of the department.",
+    "sources": [
+      {
+        "source_id": "araujo_2023",
+        "page": 98,
+        "quote": "Crodowaldo Pavan, at present Professor Pavan, cathedratico of general biology, successor of Dreyfus"
+      }
+    ]
+  },
+  {
+    "id": "malogolowkin_worked_columbia",
+    "source": "chana_malogolowkin_cohen",
+    "type": "worked_at",
+    "target": "columbia_university",
+    "sources": [
+      {
+        "source_id": "araujo_2023",
+        "page": 102,
+        "quote": "One is Chana Malogolowkin [later, Malogolowkin-Cohen], at present in Columbia University a second year"
+      }
+    ]
+  },
+  {
+    "id": "dobzhansky_published_book",
+    "source": "theodosius_dobzhansky",
+    "type": "published",
+    "target": "genetics_and_the_origin_of_species",
+    "sources": [
+      {
+        "source_id": "araujo_2023",
+        "page": 96,
+        "quote": "His book Genetics and the Origin of Species (1937, first edition) became a standard in evolutionary studies for decades"
+      }
+    ]
+  },
+  {
+    "id": "kerr_worked_rio_claro",
+    "source": "warwick_kerr",
+    "type": "worked_at",
+    "target": "rio_claro",
+    "note": "Rio Claro is a place, but context implies university there. Using place entity for now as no org entity defined for Rio Claro uni.",
+    "sources": [
+      {
+        "source_id": "araujo_2023",
+        "page": 102,
+        "quote": "The other is Warwick Kerr, who is also not cathedratico yet, although his position is quite safe, but he is in a provincial university, place called Rio Claro in the interior of the state of São Paulo."
+      }
+    ]
+  }
+]

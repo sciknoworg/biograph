@@ -1,0 +1,16 @@
+[
+  {
+    "id": "pacini_published_cholera_paper",
+    "source": "filippo_pacini",
+    "type": "published",
+    "target": "florence",
+    "sources": [
+      {
+        "source_id": "howard_jones_1984_bmj",
+        "page": 2,
+        "quote": "In1854Pacini publishedapaperon\"Microscopicalobservationsandpathologicaldeductionsoncholera,\""
+      }
+    ],
+    "_rejected_because": "'published' expects target entity_type artifact, but 'florence' is 'place'"
+  }
+]

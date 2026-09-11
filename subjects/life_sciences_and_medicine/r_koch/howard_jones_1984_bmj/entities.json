@@ -1,0 +1,259 @@
+[
+  {
+    "id": "robert_koch",
+    "entity_type": "person",
+    "name": "Robert Koch",
+    "aliases": [
+      "Koch",
+      "Dr Koch",
+      "Geh Regierungsraths Dr Koch"
+    ],
+    "summary": "German physician and microbiologist who identified the causative agents of tuberculosis, cholera, and anthrax.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "norman_howard_jones",
+    "entity_type": "person",
+    "name": "Norman Howard-Jones",
+    "aliases": [
+      "HOWARD-JONES"
+    ],
+    "summary": "Historian of medicine and author of the source article.",
+    "subtype": "historian"
+  },
+  {
+    "id": "georg_gaffky",
+    "entity_type": "person",
+    "name": "Georg Gaffky",
+    "aliases": [
+      "Gaffky"
+    ],
+    "summary": "German bacteriologist and member of Koch's cholera mission.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "bernhard_fischer",
+    "entity_type": "person",
+    "name": "Bernhard Fischer",
+    "aliases": [
+      "Fischer"
+    ],
+    "summary": "German medical member of Koch's cholera mission.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "louis_thuillier",
+    "entity_type": "person",
+    "name": "Louis Thuillier",
+    "aliases": [
+      "Thuillier"
+    ],
+    "summary": "French microbiologist who died of cholera during the 1883 Egyptian mission.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "max_von_pettenkofer",
+    "entity_type": "person",
+    "name": "Max von Pettenkofer",
+    "aliases": [
+      "Pettenkofer"
+    ],
+    "summary": "German hygienist who promoted the groundwater theory of cholera.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "filippo_pacini",
+    "entity_type": "person",
+    "name": "Filippo Pacini",
+    "aliases": [
+      "Pacini"
+    ],
+    "summary": "Italian anatomist who identified the cholera vibrio in 1854.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "german_cholera_commission",
+    "entity_type": "organization",
+    "name": "German Cholera Commission",
+    "aliases": [
+      "German mission",
+      "German scientific mission"
+    ],
+    "summary": "German scientific mission to Egypt and India led by Koch.",
+    "subtype": "research_group"
+  },
+  {
+    "id": "french_medical_mission",
+    "entity_type": "organization",
+    "name": "French Medical Mission",
+    "aliases": [
+      "French mission",
+      "French expedition"
+    ],
+    "summary": "French medical mission to Egypt financed by Pasteur.",
+    "subtype": "research_group"
+  },
+  {
+    "id": "reichsgesundheitsamt",
+    "entity_type": "organization",
+    "name": "Reichsgesundheitsamt",
+    "aliases": [
+      "Imperial Health Office"
+    ],
+    "summary": "German Imperial Health Office.",
+    "subtype": "government_agency"
+  },
+  {
+    "id": "societe_de_biologie",
+    "entity_type": "organization",
+    "name": "Societe de Biologie",
+    "aliases": [
+      "SocietedeBiologie"
+    ],
+    "summary": "French biological society.",
+    "subtype": "scientific_society"
+  },
+  {
+    "id": "international_committee_on_bacteriological_nomenclature",
+    "entity_type": "organization",
+    "name": "International Committee on Bacteriological Nomenclature",
+    "aliases": [
+      "judicial commission"
+    ],
+    "summary": "Committee that adopted Vibrio cholerae Pacini 1854.",
+    "subtype": "committee"
+  },
+  {
+    "id": "alexandria",
+    "entity_type": "place",
+    "name": "Alexandria",
+    "aliases": [],
+    "summary": "City in Egypt where Koch's mission began.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Egypt",
+      "lat": 31.1975,
+      "lng": 29.8925,
+      "wikidata_qid": "Q87",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "calcutta",
+    "entity_type": "place",
+    "name": "Calcutta",
+    "aliases": [],
+    "summary": "City in India where Koch continued his cholera research.",
+    "subtype": "city",
+    "attributes": {
+      "country": "India",
+      "lat": 22.5675,
+      "lng": 88.37,
+      "wikidata_qid": "Q1348",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "berlin",
+    "entity_type": "place",
+    "name": "Berlin",
+    "aliases": [],
+    "summary": "City in Germany where Koch returned and presented findings.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Germany",
+      "lat": 52.51667,
+      "lng": 13.38333,
+      "wikidata_qid": "Q64",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "egypt",
+    "entity_type": "place",
+    "name": "Egypt",
+    "aliases": [],
+    "summary": "Country where the cholera epidemic was investigated in 1883.",
+    "subtype": "country",
+    "attributes": {
+      "lat": 27.0,
+      "lng": 29.0,
+      "wikidata_qid": "Q79",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "india",
+    "entity_type": "place",
+    "name": "India",
+    "aliases": [],
+    "summary": "Country where Koch continued investigations in Calcutta.",
+    "subtype": "country",
+    "attributes": {
+      "lat": 22.8,
+      "lng": 83.0,
+      "wikidata_qid": "Q668",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "munich",
+    "entity_type": "place",
+    "name": "Munich",
+    "aliases": [],
+    "summary": "City where Koch visited Pettenkofer.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Germany",
+      "lat": 48.1375,
+      "lng": 11.575,
+      "wikidata_qid": "Q1726",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "rome",
+    "entity_type": "place",
+    "name": "Rome",
+    "aliases": [],
+    "summary": "City where the 6th international sanitary conference opened.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Italy",
+      "lat": 41.89306,
+      "lng": 12.48278,
+      "wikidata_qid": "Q220",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "paris",
+    "entity_type": "place",
+    "name": "Paris",
+    "aliases": [],
+    "summary": "City where the French mission returned.",
+    "subtype": "city",
+    "attributes": {
+      "country": "France",
+      "lat": 48.85667,
+      "lng": 2.35222,
+      "wikidata_qid": "Q90",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "florence",
+    "entity_type": "place",
+    "name": "Florence",
+    "aliases": [],
+    "summary": "City where Pacini worked.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Italy",
+      "lat": 43.77139,
+      "lng": 11.25417,
+      "wikidata_qid": "Q2044",
+      "geocode_basis": "country"
+    }
+  }
+]

@@ -1,0 +1,307 @@
+[
+  {
+    "id": "kitasato_born_in_kumamoto",
+    "source": "shibasaburo_kitasato",
+    "type": "born_in",
+    "target": "kumamoto_prefecture",
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 1,
+        "quote": "Born in Kumamoto prefecture, Kitasato's journey from a young martial arts enthusiast to a world-renowned bacteriologist exemplifies his dedication to science and medicine"
+      }
+    ]
+  },
+  {
+    "id": "kitasato_studied_kokuritsu",
+    "source": "shibasaburo_kitasato",
+    "type": "studied_at",
+    "target": "kokuritsu_medical_school",
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 1,
+        "quote": "Kitasato's education began at the Kokuritsu Medical School in Kumamoto, where he was encouraged by Dr. Mansfeld to pursue a career in medicine"
+      }
+    ]
+  },
+  {
+    "id": "kitasato_educated_by_mansfeld",
+    "source": "shibasaburo_kitasato",
+    "type": "educated_by",
+    "target": "mansfeld",
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 1,
+        "quote": "Kitasato's education began at the Kokuritsu Medical School in Kumamoto, where he was encouraged by Dr. Mansfeld to pursue a career in medicine"
+      }
+    ]
+  },
+  {
+    "id": "kitasato_studied_tokyo",
+    "source": "shibasaburo_kitasato",
+    "type": "studied_at",
+    "target": "tokyo_medical_school",
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 2,
+        "quote": "In 1874, Kitasato moved to Tokyo to study at the Tokyo Medical School (later the Faculty of Medicine, University of Tokyo)"
+      }
+    ]
+  },
+  {
+    "id": "kitasato_worked_ministry",
+    "source": "shibasaburo_kitasato",
+    "type": "employed_by",
+    "target": "ministry_of_home_affairs",
+    "start": {
+      "display": "1885",
+      "precision": "year",
+      "sort_start": "1885-01-01",
+      "sort_end": "1885-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 2,
+        "quote": "In 1885, after being employed by the Ministry of Home Affairs, Kitasato was sent to Germany on a government scholarship to study under the world-renowned bacteriologist, Robert Koch"
+      }
+    ]
+  },
+  {
+    "id": "kitasato_studied_koch",
+    "source": "shibasaburo_kitasato",
+    "type": "studied_at",
+    "target": "robert_koch_institute",
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 2,
+        "quote": "In 1885, after being employed by the Ministry of Home Affairs, Kitasato was sent to Germany on a government scholarship to study under the world-renowned bacteriologist, Robert Koch"
+      }
+    ]
+  },
+  {
+    "id": "kitasato_collab_behring",
+    "source": "shibasaburo_kitasato",
+    "type": "collaborated_with",
+    "target": "emil_von_behring",
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 2,
+        "quote": "In collaboration with Emil von Behring, Kitasato published a groundbreaking paper on diphtheria and tetanus immunity in animals"
+      }
+    ]
+  },
+  {
+    "id": "kitasato_collab_koch",
+    "source": "shibasaburo_kitasato",
+    "type": "collaborated_with",
+    "target": "robert_koch",
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 1,
+        "quote": "His international collaboration with Robert Koch and Emil von Behring elevated Japan's status in global medical research."
+      }
+    ]
+  },
+  {
+    "id": "kitasato_founded_institute",
+    "source": "shibasaburo_kitasato",
+    "type": "founded",
+    "target": "infectious_disease_research_institute",
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 3,
+        "quote": "Upon returning to Japan in 1892, Kitasato, with the support of Yukichi Fukuzawa, established a private Infectious Disease Research Institute"
+      }
+    ]
+  },
+  {
+    "id": "kitasato_founded_sanatorium",
+    "source": "shibasaburo_kitasato",
+    "type": "founded",
+    "target": "tsukushioka_sanatorium",
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 3,
+        "quote": "The following year, Kitasato founded Tsukushioka Sanatorium, a hospital specializing in tuberculosis treatment"
+      }
+    ]
+  },
+  {
+    "id": "kitasato_visited_hk",
+    "source": "shibasaburo_kitasato",
+    "type": "visited",
+    "target": "hong_kong",
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 3,
+        "quote": "Kitasato, a renowned Japanese bacteriologist, arrived in Hong Kong to conduct his research under challenging conditions."
+      }
+    ]
+  },
+  {
+    "id": "kitasato_founded_kitasato_inst",
+    "source": "shibasaburo_kitasato",
+    "type": "founded",
+    "target": "kitasato_institute",
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 4,
+        "quote": "When the Institute for Infectious Diseases came under government control in 1914, Kitasato, determined to uphold his founding principles, established the Kitasato Institute"
+      }
+    ]
+  },
+  {
+    "id": "kitasato_worked_keio",
+    "source": "shibasaburo_kitasato",
+    "type": "worked_at",
+    "target": "keio_university_school_of_medicine",
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 4,
+        "quote": "His commitment to medical education culminated in the founding of Keio University School of Medicine in 1917, where he served as the first dean"
+      }
+    ]
+  },
+  {
+    "id": "kitasato_member_jma",
+    "source": "shibasaburo_kitasato",
+    "type": "member_of",
+    "target": "japan_medical_association",
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 4,
+        "quote": "His influence extended to the realm of medical policy and administration when he became the first president of the Japan Medical Association (then known as the Greater Japan Medical Association) in 1916"
+      }
+    ]
+  },
+  {
+    "id": "kitasato_mentored_araki",
+    "source": "shibasaburo_kitasato",
+    "type": "mentored",
+    "target": "torasaburo_araki",
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 4,
+        "quote": "A notable example of this was when a young Torasaburo Araki, who would later become the president of Kyoto Imperial University, visited Kitasato in Berlin in 1891."
+      }
+    ]
+  },
+  {
+    "id": "kitasato_mentored_takagi",
+    "source": "shibasaburo_kitasato",
+    "type": "mentored",
+    "target": "tomoe_takagi",
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 5,
+        "quote": "Among them were Tomoe Takagi (1858-1943), a leader in Japanese surgery, Taiichi Kitajima (1870-1956), a prominent bacteriologist, and Kiyoshi Shiga (1871-1957), who discovered the Shigella dysenteriae bacterium."
+      }
+    ]
+  },
+  {
+    "id": "kitasato_mentored_kitajima",
+    "source": "shibasaburo_kitasato",
+    "type": "mentored",
+    "target": "taiichi_kitajima",
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 5,
+        "quote": "Among them were Tomoe Takagi (1858-1943), a leader in Japanese surgery, Taiichi Kitajima (1870-1956), a prominent bacteriologist, and Kiyoshi Shiga (1871-1957), who discovered the Shigella dysenteriae bacterium."
+      }
+    ]
+  },
+  {
+    "id": "kitasato_mentored_shiga",
+    "source": "shibasaburo_kitasato",
+    "type": "mentored",
+    "target": "kiyoshi_shiga",
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 5,
+        "quote": "Among them were Tomoe Takagi (1858-1943), a leader in Japanese surgery, Taiichi Kitajima (1870-1956), a prominent bacteriologist, and Kiyoshi Shiga (1871-1957), who discovered the Shigella dysenteriae bacterium."
+      }
+    ]
+  },
+  {
+    "id": "kitasato_mentored_hata",
+    "source": "shibasaburo_kitasato",
+    "type": "mentored",
+    "target": "sahachiro_hata",
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 5,
+        "quote": "Sahachiro Hata (1873-1938) codeveloped the first effective treatment for syphilis with Paul Ehrlich, while Mikinosuke Miyajima (1872-1944) and Shinkichi Umeno (1862-1930) made advances in bacteriology, immunology, and pathology"
+      }
+    ]
+  },
+  {
+    "id": "kitasato_mentored_miyajima",
+    "source": "shibasaburo_kitasato",
+    "type": "mentored",
+    "target": "mikinosuke_miyajima",
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 5,
+        "quote": "Sahachiro Hata (1873-1938) codeveloped the first effective treatment for syphilis with Paul Ehrlich, while Mikinosuke Miyajima (1872-1944) and Shinkichi Umeno (1862-1930) made advances in bacteriology, immunology, and pathology"
+      }
+    ]
+  },
+  {
+    "id": "kitasato_mentored_umeno",
+    "source": "shibasaburo_kitasato",
+    "type": "mentored",
+    "target": "shinkichi_umeno",
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 5,
+        "quote": "Sahachiro Hata (1873-1938) codeveloped the first effective treatment for syphilis with Paul Ehrlich, while Mikinosuke Miyajima (1872-1944) and Shinkichi Umeno (1862-1930) made advances in bacteriology, immunology, and pathology"
+      }
+    ]
+  },
+  {
+    "id": "kitasato_mentored_noguchi",
+    "source": "shibasaburo_kitasato",
+    "type": "mentored",
+    "target": "hideyo_noguchi",
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 5,
+        "quote": "Hideyo Noguchi (1876-1928) gained international acclaim for his research on yellow fever"
+      }
+    ]
+  },
+  {
+    "id": "behring_awarded_nobel",
+    "source": "emil_von_behring",
+    "type": "awarded",
+    "target": "nobel_prize_physiology_medicine",
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 3,
+        "quote": "The impact of their work was so profound that it led to the awarding of the first Nobel Prize in Physiology or Medicine to von Behring in 1901, with Kitasato's crucial role widely acknowledged in the scientific community"
+      }
+    ]
+  }
+]

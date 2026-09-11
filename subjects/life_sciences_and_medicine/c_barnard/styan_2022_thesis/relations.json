@@ -1,0 +1,107 @@
+[
+  {
+    "id": "barnard_born_in_beafort_west",
+    "source": "christiaan_barnard",
+    "type": "born_in",
+    "target": "beaufort_west",
+    "sources": [
+      {
+        "source_id": "styan_2022_thesis",
+        "page": 63,
+        "quote": "Christiaan Neethling Barnard (1922 - 2001) was born in Beaufort West"
+      }
+    ]
+  },
+  {
+    "id": "barnard_studied_at_uct",
+    "source": "christiaan_barnard",
+    "type": "studied_at",
+    "target": "university_of_cape_town",
+    "sources": [
+      {
+        "source_id": "styan_2022_thesis",
+        "page": 63,
+        "quote": "qualified as a medical doctor at UCT in 1946"
+      }
+    ]
+  },
+  {
+    "id": "barnard_studied_at_minnesota",
+    "source": "christiaan_barnard",
+    "type": "studied_at",
+    "target": "university_of_minnesota",
+    "sources": [
+      {
+        "source_id": "styan_2022_thesis",
+        "page": 63,
+        "quote": "In 1956 Barnard went to America where he studied at the University of Minnesota"
+      }
+    ]
+  },
+  {
+    "id": "barnard_worked_at_gsh",
+    "source": "christiaan_barnard",
+    "type": "worked_at",
+    "target": "groote_schuur_hospital",
+    "event_id": "barnard_return_to_gsh",
+    "sources": [
+      {
+        "source_id": "styan_2022_thesis",
+        "page": 64,
+        "quote": "Barnard returned to GSH in June 1958 as Head of Cardiovascular Surgery"
+      }
+    ]
+  },
+  {
+    "id": "barnard_collaborated_marius",
+    "source": "christiaan_barnard",
+    "type": "collaborated_with",
+    "target": "marius_barnard",
+    "sources": [
+      {
+        "source_id": "styan_2022_thesis",
+        "page": 65,
+        "quote": "Marius Barnard, Christiaan Barnard's younger brother... joined the cardio-thoracic surgical team led by his elder brother"
+      }
+    ]
+  },
+  {
+    "id": "barnard_collaborated_naki",
+    "source": "christiaan_barnard",
+    "type": "collaborated_with",
+    "target": "hamilton_naki",
+    "sources": [
+      {
+        "source_id": "styan_2022_thesis",
+        "page": 49,
+        "quote": "Two of the men he involved early on was Victor Pick and Hamilton Naki"
+      }
+    ]
+  },
+  {
+    "id": "barnard_collaborated_pick",
+    "source": "christiaan_barnard",
+    "type": "collaborated_with",
+    "target": "victor_pick",
+    "sources": [
+      {
+        "source_id": "styan_2022_thesis",
+        "page": 49,
+        "quote": "Two of the men he involved early on was Victor Pick and Hamilton Naki"
+      }
+    ]
+  },
+  {
+    "id": "barnard_developed_heart_transplant",
+    "source": "christiaan_barnard",
+    "type": "developed",
+    "target": "heart_lung_machine",
+    "sources": [
+      {
+        "source_id": "styan_2022_thesis",
+        "page": 49,
+        "quote": "The four men assembled the first heart lung machine brought to Africa in the research laboratory"
+      }
+    ]
+  }
+]

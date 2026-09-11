@@ -1,0 +1,486 @@
+[
+  {
+    "id": "wallace_birth",
+    "event_type": "birth",
+    "label": "Born in Usk, Monmouthshire",
+    "date": {
+      "display": "January 8, 1823",
+      "precision": "day",
+      "sort_start": "1823-01-08",
+      "sort_end": "1823-01-08"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      }
+    ],
+    "location": "usk_monmouthshire",
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 5,
+        "quote": "Wallace was born on January 8, 1823"
+      }
+    ]
+  },
+  {
+    "id": "wallace_move_to_england",
+    "event_type": "relocation",
+    "label": "Family moved back to England",
+    "description": "Wallace's family moved back to England when he was aged five or six.",
+    "date": {
+      "display": "c. 1828–1829",
+      "precision": "range",
+      "sort_start": "1828-01-01",
+      "sort_end": "1829-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      }
+    ],
+    "location": "england",
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 6,
+        "quote": "then moved back to England when he was aged five or six"
+      }
+    ]
+  },
+  {
+    "id": "wallace_leicester_instructor",
+    "event_type": "employment_start",
+    "label": "Worked as instructor in Leicester",
+    "date": {
+      "display": "1844",
+      "precision": "year",
+      "sort_start": "1844-01-01",
+      "sort_end": "1844-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      }
+    ],
+    "location": "leicester",
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 6,
+        "quote": "whereupon he found work as an instructor at a private school in Leicester, England."
+      }
+    ]
+  },
+  {
+    "id": "wallace_brazil_departure",
+    "event_type": "visit",
+    "label": "Departed for Brazil with Bates",
+    "date": {
+      "display": "spring of 1848",
+      "precision": "season",
+      "sort_start": "1848-03-01",
+      "sort_end": "1848-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      },
+      {
+        "entity_id": "henry_walter_bates",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 6,
+        "quote": "they left England in the spring of 1848"
+      }
+    ]
+  },
+  {
+    "id": "wallace_brazil_arrival",
+    "event_type": "visit",
+    "label": "Arrived in Pará (Belém)",
+    "date": {
+      "display": "May 26, 1848",
+      "precision": "day",
+      "sort_start": "1848-05-26",
+      "sort_end": "1848-05-26"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      }
+    ],
+    "location": "para_belem",
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 6,
+        "quote": "arriving in Pará (now Belém), at the mouth of the Amazon, on May 26."
+      }
+    ]
+  },
+  {
+    "id": "wallace_return_england_1852",
+    "event_type": "relocation",
+    "label": "Returned to England after ship fire",
+    "date": {
+      "display": "October 1, 1852",
+      "precision": "day",
+      "sort_start": "1852-10-01",
+      "sort_end": "1852-10-01"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      }
+    ],
+    "location": "england",
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 7,
+        "quote": "Wallace finally made it back to England on October 1, 1852."
+      }
+    ]
+  },
+  {
+    "id": "wallace_palm_trees_published",
+    "event_type": "publication",
+    "label": "Published Palm Trees of the Amazon",
+    "date": {
+      "display": "1853",
+      "precision": "year",
+      "sort_start": "1853-01-01",
+      "sort_end": "1853-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 7,
+        "quote": "Palm Trees of the Amazon and Their Uses... published in 1853."
+      }
+    ]
+  },
+  {
+    "id": "wallace_singapore_grant",
+    "event_type": "award",
+    "label": "Secured grant from Royal Geographical Society",
+    "description": "Grant covering a removal to Singapore to look for clues.",
+    "date": {
+      "display": "1854",
+      "precision": "year",
+      "sort_start": "1854-01-01",
+      "sort_end": "1854-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_geographical_society",
+        "role": "awarding_body"
+      }
+    ],
+    "location": "singapore",
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 7,
+        "quote": "he was able to secure a small grant from the Royal Geographical Society covering a removal to Singapore"
+      }
+    ]
+  },
+  {
+    "id": "wallace_sarawak_paper",
+    "event_type": "publication",
+    "label": "Wrote On the Law which Has Regulated the Introduction of New Species",
+    "date": {
+      "display": "early 1855",
+      "precision": "season",
+      "sort_start": "1855-01-01",
+      "sort_end": "1855-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      }
+    ],
+    "location": "sarawak",
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 7,
+        "quote": "The first was composed in early 1855, while he was holed up during the rainy season in Sarawak."
+      }
+    ]
+  },
+  {
+    "id": "wallace_ternate_essay",
+    "event_type": "publication",
+    "label": "Drafted essay on natural selection",
+    "description": "Drafted On the Tendency of Varieties to Depart Indefinitely from the Original Type.",
+    "date": {
+      "display": "early 1858",
+      "precision": "season",
+      "sort_start": "1858-01-01",
+      "sort_end": "1858-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      }
+    ],
+    "location": "ternate",
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 8,
+        "quote": "In early 1858, while struggling through an episode of malaria in or near the island of Ternate in the Moluccas, he connected the ideas of Thomas Malthus..."
+      }
+    ]
+  },
+  {
+    "id": "linnean_reading_1858",
+    "event_type": "conference",
+    "label": "Joint Darwin-Wallace paper read at Linnean Society",
+    "date": {
+      "display": "July 1, 1858",
+      "precision": "day",
+      "sort_start": "1858-07-01",
+      "sort_end": "1858-07-01"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      },
+      {
+        "entity_id": "charles_darwin",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "linnean_society_of_london",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 8,
+        "quote": "This took place on July 1, 1858."
+      }
+    ]
+  },
+  {
+    "id": "wallace_zoological_geo_paper",
+    "event_type": "publication",
+    "label": "Sent paper on Zoological Geography to Linnean Society",
+    "date": {
+      "display": "1859",
+      "precision": "year",
+      "sort_start": "1859-01-01",
+      "sort_end": "1859-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 8,
+        "quote": "Wallace's first summary of his \"line\" was included in a paper he sent to the Linnean Society in 1859"
+      }
+    ]
+  },
+  {
+    "id": "wallace_return_england_1862",
+    "event_type": "relocation",
+    "label": "Returned to England from Malay Archipelago",
+    "date": {
+      "display": "spring of 1862",
+      "precision": "season",
+      "sort_start": "1862-03-01",
+      "sort_end": "1862-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      }
+    ],
+    "location": "england",
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 8,
+        "quote": "Upon his return to England in the spring of 1862"
+      }
+    ]
+  },
+  {
+    "id": "wallace_malay_archipelago_book",
+    "event_type": "publication",
+    "label": "Published The Malay Archipelago",
+    "date": {
+      "display": "1869",
+      "precision": "year",
+      "sort_start": "1869-01-01",
+      "sort_end": "1869-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 9,
+        "quote": "The first, published in 1869, was The Malay Archipelago."
+      }
+    ]
+  },
+  {
+    "id": "wallace_geo_dist_animals",
+    "event_type": "publication",
+    "label": "Published The Geographical Distribution of Animals",
+    "date": {
+      "display": "1876",
+      "precision": "year",
+      "sort_start": "1876-01-01",
+      "sort_end": "1876-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 9,
+        "quote": "In 1876 Wallace released the two-volume tome The Geographical Distribution of Animals"
+      }
+    ]
+  },
+  {
+    "id": "wallace_tropical_nature",
+    "event_type": "publication",
+    "label": "Published Tropical Nature and Other Essays",
+    "date": {
+      "display": "1878",
+      "precision": "year",
+      "sort_start": "1878-01-01",
+      "sort_end": "1878-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 9,
+        "quote": "Two years later, in 1878, Wallace put out his most important contribution to ecological biogeography, Tropical Nature and Other Essays."
+      }
+    ]
+  },
+  {
+    "id": "wallace_island_life",
+    "event_type": "publication",
+    "label": "Published Island Life",
+    "date": {
+      "display": "1880",
+      "precision": "year",
+      "sort_start": "1880-01-01",
+      "sort_end": "1880-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 9,
+        "quote": "Wallace's last great work on biogeography appeared in 1880 under the title Island Life."
+      }
+    ]
+  },
+  {
+    "id": "wallace_mars_habitable",
+    "event_type": "publication",
+    "label": "Published Is Mars Habitable?",
+    "date": {
+      "display": "1907",
+      "precision": "year",
+      "sort_start": "1907-01-01",
+      "sort_end": "1907-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 10,
+        "quote": "In 1907 he put out a slender volume ( Is Mars Habitable?)"
+      }
+    ]
+  },
+  {
+    "id": "wallace_death",
+    "event_type": "death",
+    "label": "Died at age ninety",
+    "date": {
+      "display": "November 7, 1913",
+      "precision": "day",
+      "sort_start": "1913-11-07",
+      "sort_end": "1913-11-07"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 5,
+        "quote": "Wallace died on November 7, 1913"
+      }
+    ]
+  }
+]

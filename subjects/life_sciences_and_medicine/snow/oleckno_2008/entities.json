@@ -1,0 +1,235 @@
+[
+  {
+    "id": "john_snow",
+    "entity_type": "person",
+    "name": "John Snow",
+    "aliases": [
+      "John Snow MD",
+      "Snow"
+    ],
+    "summary": "Medical pioneer known for contributions to anesthesiology and epidemiology.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "benjamin_richardson",
+    "entity_type": "person",
+    "name": "Benjamin Richardson",
+    "aliases": [
+      "Dr. Benjamin Richardson",
+      "Richardson"
+    ],
+    "summary": "Friend and biographer of John Snow.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "william_hardcastle",
+    "entity_type": "person",
+    "name": "William Hardcastle",
+    "aliases": [],
+    "summary": "Apothecary under whom John Snow apprenticed.",
+    "subtype": "practitioner"
+  },
+  {
+    "id": "queen_victoria",
+    "entity_type": "person",
+    "name": "Queen Victoria",
+    "aliases": [],
+    "summary": "British monarch anesthetized by John Snow.",
+    "subtype": "royalty"
+  },
+  {
+    "id": "william_a_oleckno",
+    "entity_type": "person",
+    "name": "William A. Oleckno",
+    "aliases": [],
+    "summary": "Author of the biographical article about John Snow.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "york",
+    "entity_type": "place",
+    "name": "York",
+    "aliases": [],
+    "summary": "City in England where John Snow was born.",
+    "subtype": "city",
+    "attributes": {
+      "country": "England",
+      "lat": 53.95,
+      "lng": -1.08333,
+      "wikidata_qid": "Q42462",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "newcastle_upon_tyne",
+    "entity_type": "place",
+    "name": "Newcastle-upon-Tyne",
+    "aliases": [],
+    "summary": "City in England where John Snow completed his apprenticeship.",
+    "subtype": "city",
+    "attributes": {
+      "country": "England",
+      "lat": 54.97778,
+      "lng": -1.61333,
+      "wikidata_qid": "Q1425428",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "london",
+    "entity_type": "place",
+    "name": "London",
+    "aliases": [],
+    "summary": "City in England where John Snow studied and worked.",
+    "subtype": "city",
+    "attributes": {
+      "country": "England",
+      "lat": 51.50722,
+      "lng": -0.1275,
+      "wikidata_qid": "Q84",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "westminster_hospital",
+    "entity_type": "organization",
+    "name": "Westminster Hospital",
+    "aliases": [],
+    "summary": "Hospital in London where John Snow gained clinical experience.",
+    "subtype": "hospital"
+  },
+  {
+    "id": "hunterian_school_of_medicine",
+    "entity_type": "organization",
+    "name": "Hunterian School of Medicine",
+    "aliases": [],
+    "summary": "Medical school in London attended by John Snow.",
+    "subtype": "university"
+  },
+  {
+    "id": "university_of_london",
+    "entity_type": "organization",
+    "name": "University of London",
+    "aliases": [],
+    "summary": "University that granted John Snow his medical degrees.",
+    "subtype": "university"
+  },
+  {
+    "id": "temperance_society",
+    "entity_type": "organization",
+    "name": "Temperance Society",
+    "aliases": [],
+    "summary": "Organization of which John Snow was a member.",
+    "subtype": "society"
+  },
+  {
+    "id": "broad_street_pump",
+    "entity_type": "artifact",
+    "name": "Broad Street pump",
+    "aliases": [
+      "water pump on Broad Street"
+    ],
+    "summary": "Water pump identified by John Snow as the source of a cholera outbreak.",
+    "subtype": "infrastructure"
+  },
+  {
+    "id": "thames_river",
+    "entity_type": "place",
+    "name": "Thames River",
+    "aliases": [
+      "Thames"
+    ],
+    "summary": "River in London involved in John Snow's water supply investigation.",
+    "subtype": "river",
+    "attributes": {
+      "country": "England"
+    }
+  },
+  {
+    "id": "golden_square",
+    "entity_type": "place",
+    "name": "Golden Square",
+    "aliases": [],
+    "summary": "Area in Soho district of London studied by John Snow.",
+    "subtype": "district",
+    "attributes": {
+      "city": "London",
+      "lat": 51.5117,
+      "lng": -0.13722,
+      "wikidata_qid": "Q5579811",
+      "geocode_basis": "document"
+    }
+  },
+  {
+    "id": "soho",
+    "entity_type": "place",
+    "name": "Soho",
+    "aliases": [],
+    "summary": "District in London where the Golden Square investigation occurred.",
+    "subtype": "district",
+    "attributes": {
+      "city": "London",
+      "lat": 51.513,
+      "lng": -0.131,
+      "wikidata_qid": "Q124010",
+      "geocode_basis": "document"
+    }
+  },
+  {
+    "id": "south_london",
+    "entity_type": "place",
+    "name": "South London",
+    "aliases": [],
+    "summary": "Area of London where John Snow conducted his grand experiment.",
+    "subtype": "region",
+    "attributes": {
+      "city": "London",
+      "lat": 51.45,
+      "lng": -0.1,
+      "wikidata_qid": "Q1394500",
+      "geocode_basis": "document"
+    }
+  },
+  {
+    "id": "chloroform_and_other_anesthetics",
+    "entity_type": "artifact",
+    "name": "Chloroform and Other Anesthetics",
+    "aliases": [],
+    "summary": "Book by John Snow published posthumously.",
+    "subtype": "publication"
+  },
+  {
+    "id": "cholera_chloroform_science_medicine",
+    "entity_type": "artifact",
+    "name": "Cholera, Chloroform and the Science of Medicine: A Life of John Snow",
+    "aliases": [],
+    "summary": "Biographical book about John Snow published in 2003.",
+    "subtype": "publication"
+  },
+  {
+    "id": "cmaj",
+    "entity_type": "organization",
+    "name": "CMAJ",
+    "aliases": [
+      "Canadian Medical Association Journal"
+    ],
+    "summary": "Medical journal publishing the article about John Snow.",
+    "subtype": "publication"
+  },
+  {
+    "id": "oxford_university_press",
+    "entity_type": "organization",
+    "name": "Oxford University Press",
+    "aliases": [],
+    "summary": "Publisher of the 2003 biographical book about John Snow.",
+    "subtype": "publisher"
+  },
+  {
+    "id": "michigan_state_university",
+    "entity_type": "organization",
+    "name": "Michigan State University",
+    "aliases": [],
+    "summary": "University of scholars who wrote the 2003 biographical book.",
+    "subtype": "university"
+  }
+]

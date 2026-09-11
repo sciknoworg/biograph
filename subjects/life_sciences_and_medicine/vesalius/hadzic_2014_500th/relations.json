@@ -1,0 +1,113 @@
+[
+  {
+    "id": "vesalius_born_brussels",
+    "source": "andreas_vesalius",
+    "type": "born_in",
+    "target": "brussels",
+    "event_id": "vesalius_birth",
+    "sources": [
+      {
+        "source_id": "hadzic_2014_500th",
+        "page": 450,
+        "quote": "Andreas Vesalius was born on New Year's Eve 1514 in Brussels, Brabant, into a wealthy family of physicians and pharmacists."
+      }
+    ]
+  },
+  {
+    "id": "vesalius_studied_louvain",
+    "source": "andreas_vesalius",
+    "type": "studied_at",
+    "target": "university_of_louvain",
+    "event_id": "vesalius_education_louvain",
+    "sources": [
+      {
+        "source_id": "hadzic_2014_500th",
+        "page": 450,
+        "quote": "His early education at the Castle School of the University of Louvain included instruction in rhetoric, philosophy, logic, and classical languages (Latin, Greek, and Hebrew)."
+      }
+    ]
+  },
+  {
+    "id": "vesalius_lived_paris",
+    "source": "andreas_vesalius",
+    "type": "lived_in",
+    "target": "paris",
+    "event_id": "vesalius_move_paris",
+    "sources": [
+      {
+        "source_id": "hadzic_2014_500th",
+        "page": 450,
+        "quote": "Shortly thereafter, his interest turned to medicine, and he went to Paris to study anatomy."
+      }
+    ]
+  },
+  {
+    "id": "vesalius_worked_padua",
+    "source": "andreas_vesalius",
+    "type": "worked_at",
+    "target": "university_of_padua",
+    "event_id": "vesalius_professor_padua",
+    "sources": [
+      {
+        "source_id": "hadzic_2014_500th",
+        "page": 450,
+        "quote": "He worked there as a professor of surgery and anatomy, succeeding Paolo Colombo from Cremona."
+      }
+    ]
+  },
+  {
+    "id": "vesalius_employed_charles",
+    "source": "andreas_vesalius",
+    "type": "employed_by",
+    "target": "charles_v",
+    "event_id": "vesalius_imperial_physician",
+    "sources": [
+      {
+        "source_id": "hadzic_2014_500th",
+        "page": 454,
+        "quote": "The publication of Fabrica also helped Vesalius secure the position of Imperial Physician, in which he served until Charles V abdicated in 1556."
+      }
+    ]
+  },
+  {
+    "id": "vesalius_published_fabrica",
+    "source": "andreas_vesalius",
+    "type": "published",
+    "target": "de_humani_corporis_fabrica",
+    "event_id": "vesalius_fabrica_1543",
+    "sources": [
+      {
+        "source_id": "hadzic_2014_500th",
+        "page": 453,
+        "quote": "Vesalius published his dissections and sketches in the most influential text: De Humani Corporis Fabrica Libri Septem (The Structure of the Human Body)."
+      }
+    ]
+  },
+  {
+    "id": "vesalius_published_tabulae",
+    "source": "andreas_vesalius",
+    "type": "published",
+    "target": "tabulae_sex",
+    "event_id": "vesalius_tabulae_sex",
+    "sources": [
+      {
+        "source_id": "hadzic_2014_500th",
+        "page": 453,
+        "quote": "His observations eventually led to the publication of 6 anatomical tables, the Tabulae Sex, in 1538."
+      }
+    ]
+  },
+  {
+    "id": "brabant_part_empire",
+    "source": "brabant",
+    "type": "member_of",
+    "target": "holy_roman_empire",
+    "sources": [
+      {
+        "source_id": "hadzic_2014_500th",
+        "page": 450,
+        "quote": "Bruxella (Brussels) was the capital of Brabant, then part of the Habsburg Netherlands, and belonging to the Holy Roman Empire, with Charles V as emperor."
+      }
+    ]
+  }
+]

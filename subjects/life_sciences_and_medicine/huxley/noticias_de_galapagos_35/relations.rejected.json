@@ -1,0 +1,66 @@
+[
+  {
+    "id": "huxley_promoted_iucn",
+    "source": "julian_huxley",
+    "type": "developed",
+    "target": "iucn",
+    "sources": [
+      {
+        "source_id": "noticias_de_galapagos_35",
+        "page": 28,
+        "quote": "he promoted the launching of the International Union for Conservation of Nature"
+      }
+    ],
+    "_rejected_because": "'developed' expects target entity_type artifact, but 'iucn' is 'organization'"
+  },
+  {
+    "id": "huxley_promoted_wwf",
+    "source": "julian_huxley",
+    "type": "developed",
+    "target": "wwf",
+    "sources": [
+      {
+        "source_id": "noticias_de_galapagos_35",
+        "page": 28,
+        "quote": "and later the World Wildlife Fund."
+      }
+    ],
+    "_rejected_because": "'developed' expects target entity_type artifact, but 'wwf' is 'organization'"
+  },
+  {
+    "id": "huxley_published_soviet_genetics",
+    "source": "julian_huxley",
+    "type": "published",
+    "target": "soviet_genetics_book",
+    "event_id": "huxley_soviet_genetics_1949",
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 16,
+        "quote": "In 1949, Huxley published Soviet Genetics and World Science: Lysenko and the Meaning of Heredity, a stinging critique of the ideological corruption of scientific purity in the Soviet Union."
+      }
+    ],
+    "_rejected_because": "unknown target entity 'soviet_genetics_book'"
+  },
+  {
+    "id": "ussr_joined_unesco",
+    "source": "soviet_union",
+    "type": "member_of",
+    "target": "unesco",
+    "event_id": "ussr_joins_unesco_1954",
+    "start": {
+      "display": "April 1954",
+      "precision": "month",
+      "sort_start": "1954-04-01",
+      "sort_end": "1954-04-30"
+    },
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 23,
+        "quote": "The Soviet Union joined UNESCO in April 1954, the same month in which the Comédie Française became the first cultural delegation from a nonsocialist country to visit the U.S.S.R. since the Second World War."
+      }
+    ],
+    "_rejected_because": "'member_of' expects source entity_type person/organization, but 'soviet_union' is 'place'"
+  }
+]

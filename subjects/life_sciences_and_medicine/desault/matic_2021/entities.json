@@ -1,0 +1,169 @@
+[
+  {
+    "aliases": [
+      "Dessault",
+      "Dusaut",
+      "Pjer-Džozef Dezol",
+      "de Sault"
+    ],
+    "entity_type": "person",
+    "id": "pierre_joseph_desault",
+    "name": "Pierre-Joseph Desault",
+    "subtype": "surgeon",
+    "summary": "French anatomist and distinguished surgeon, first French professor of clinical surgery."
+  },
+  {
+    "entity_type": "person",
+    "id": "marie_francois_xavier_bichat",
+    "name": "Marie François Xavier Bichat",
+    "subtype": "physiologist",
+    "summary": "French physiologist and student of Desault who published his works posthumously."
+  },
+  {
+    "entity_type": "person",
+    "id": "francois_chopart",
+    "name": "François Chopart",
+    "subtype": "surgeon",
+    "summary": "French surgeon and pioneer of urology, friend and collaborator of Desault."
+  },
+  {
+    "entity_type": "person",
+    "id": "marguerite_thouvenin",
+    "name": "Marguerite Thouvenin",
+    "subtype": "spouse",
+    "summary": "Wife of Pierre-Joseph Desault."
+  },
+  {
+    "entity_type": "person",
+    "id": "alexis_pierre_mathias",
+    "name": "Alexis-Pierre-Mathias",
+    "subtype": "child",
+    "summary": "Son of Pierre-Joseph Desault."
+  },
+  {
+    "entity_type": "person",
+    "id": "louis_marie_lavergne",
+    "name": "Louis-Marie Lavergne",
+    "subtype": "student",
+    "summary": "Student of Desault who recorded his anatomy lectures in manuscripts."
+  },
+  {
+    "entity_type": "person",
+    "id": "louis_xvi",
+    "name": "Louis XVI",
+    "subtype": "monarch",
+    "summary": "King of France during Desault's lifetime."
+  },
+  {
+    "entity_type": "person",
+    "id": "louis_xvii",
+    "name": "Louis XVII",
+    "subtype": "monarch",
+    "summary": "Crown prince of France, son of Louis XVI, treated by Desault."
+  },
+  {
+    "entity_type": "organization",
+    "id": "hotel_dieu",
+    "name": "Hôtel-Dieu",
+    "subtype": "hospital",
+    "summary": "Hospital in Paris where Desault worked as chief of surgery."
+  },
+  {
+    "entity_type": "organization",
+    "id": "de_la_charite",
+    "name": "De la Charité",
+    "subtype": "hospital",
+    "summary": "Hospital in Paris where Desault worked as surgeon starting 1782."
+  },
+  {
+    "entity_type": "organization",
+    "id": "military_hospital_belfort",
+    "name": "Military hospital of Belfort",
+    "subtype": "hospital",
+    "summary": "Hospital where Desault acquired knowledge of anatomy and military surgery."
+  },
+  {
+    "entity_type": "organization",
+    "id": "corps_of_surgeons",
+    "name": "Corps of Surgeons",
+    "subtype": "professional_body",
+    "summary": "Organization Desault became a member of in 1766."
+  },
+  {
+    "entity_type": "organization",
+    "id": "academie_royale_de_chirurgie",
+    "name": "Académie Royale de Chirurgie",
+    "subtype": "academy",
+    "summary": "Royal Surgical Academy where Desault defended his thesis."
+  },
+  {
+    "attributes": {
+      "country": "France",
+      "lat": 47.66861,
+      "lng": 6.47417,
+      "wikidata_qid": "Q901548",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "magny_vernois",
+    "name": "Magny-Vernois",
+    "subtype": "village",
+    "summary": "Village near Lure where Desault was born."
+  },
+  {
+    "attributes": {
+      "country": "France",
+      "lat": 48.85667,
+      "lng": 2.35222,
+      "wikidata_qid": "Q90",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "paris",
+    "name": "Paris",
+    "subtype": "city",
+    "summary": "City where Desault moved in 1764 and worked."
+  },
+  {
+    "attributes": {
+      "country": "France",
+      "lat": 48.84833,
+      "lng": 2.3375,
+      "wikidata_qid": "Q329852",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "luxembourg_prison",
+    "name": "Luxembourg",
+    "subtype": "prison",
+    "summary": "Prison where Desault was detained in 1793."
+  },
+  {
+    "entity_type": "artifact",
+    "id": "journal_de_chirurgerie",
+    "name": "Journal de chirurgerie",
+    "subtype": "publication",
+    "summary": "Surgical journal established by Desault in 1791."
+  },
+  {
+    "entity_type": "artifact",
+    "id": "traite_des_maladies_chirurgicales",
+    "name": "Traitè des maladies chirurgicales",
+    "subtype": "publication",
+    "summary": "Surgical treatise published by Desault and Chopart in 1779."
+  },
+  {
+    "entity_type": "artifact",
+    "id": "oeuvres_chirurgicales_de_desault",
+    "name": "Oeuvres chirurgicales de Desault",
+    "subtype": "publication",
+    "summary": "Collection of Desault's surgical doctrines published by Bichat."
+  },
+  {
+    "entity_type": "artifact",
+    "id": "desault_bandage",
+    "name": "Desault bandage",
+    "subtype": "invention",
+    "summary": "Bandage used for binding the elbow to a person's side in fractures of the humerus."
+  }
+]

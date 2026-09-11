@@ -1,0 +1,175 @@
+[
+  {
+    "aliases": [
+      "Heinrich Hermann Robert Koch",
+      "Koch"
+    ],
+    "entity_type": "person",
+    "id": "robert_koch",
+    "name": "Robert Koch",
+    "subtype": "researcher",
+    "summary": "German physician and microbiologist who identified the causative agents of tuberculosis, cholera, and anthrax."
+  },
+  {
+    "aliases": [
+      "Loffler"
+    ],
+    "entity_type": "person",
+    "id": "friedrich_loffler",
+    "name": "Friedrich Loffler",
+    "subtype": "researcher",
+    "summary": "German physician and bacteriologist, friend and colleague of Robert Koch."
+  },
+  {
+    "aliases": [
+      "Ehrlich"
+    ],
+    "entity_type": "person",
+    "id": "paul_ehrlich",
+    "name": "Paul Ehrlich",
+    "subtype": "researcher",
+    "summary": "German physician and scientist, colleague of Robert Koch in Berlin."
+  },
+  {
+    "aliases": [
+      "du Bois Reymond"
+    ],
+    "entity_type": "person",
+    "id": "emil_du_bois_reymond",
+    "name": "Emil du Bois Reymond",
+    "subtype": "researcher",
+    "summary": "German physiologist, director of the Institute for Physiology in Berlin."
+  },
+  {
+    "aliases": [
+      "Brock"
+    ],
+    "entity_type": "person",
+    "id": "thomas_brock",
+    "name": "Thomas Brock",
+    "subtype": "author",
+    "summary": "Biographer of Robert Koch."
+  },
+  {
+    "aliases": [
+      "Mollers"
+    ],
+    "entity_type": "person",
+    "id": "bernhard_mollers",
+    "name": "Bernhard Mollers",
+    "subtype": "author",
+    "summary": "Biographer of Robert Koch."
+  },
+  {
+    "aliases": [
+      "Pasteur"
+    ],
+    "entity_type": "person",
+    "id": "louis_pasteur",
+    "name": "Louis Pasteur",
+    "subtype": "researcher",
+    "summary": "French chemist and microbiologist, professional competitor of Robert Koch."
+  },
+  {
+    "aliases": [
+      "Cohn"
+    ],
+    "entity_type": "person",
+    "id": "ferdinand_julius_cohn",
+    "name": "Ferdinand Julius Cohn",
+    "subtype": "researcher",
+    "summary": "German biologist, Koch's teacher."
+  },
+  {
+    "aliases": [
+      "Reichsgesundheitsamt"
+    ],
+    "entity_type": "organization",
+    "id": "imperial_health_office",
+    "name": "Imperial Health Office",
+    "subtype": "government_agency",
+    "summary": "German government agency where Koch worked as a leader of a team."
+  },
+  {
+    "aliases": [
+      "Berlin University"
+    ],
+    "entity_type": "organization",
+    "id": "university_of_berlin",
+    "name": "University of Berlin",
+    "subtype": "university",
+    "summary": "German university where Koch held a chair of hygiene."
+  },
+  {
+    "aliases": [
+      "Institut fur Infektionskrankheiten"
+    ],
+    "entity_type": "organization",
+    "id": "institute_for_infectious_diseases",
+    "name": "Institute for Infectious Diseases",
+    "subtype": "research_institute",
+    "summary": "Research institute in Berlin founded with Koch as its first director."
+  },
+  {
+    "aliases": [
+      "Pasteur Institute"
+    ],
+    "entity_type": "organization",
+    "id": "institut_pasteur",
+    "name": "Institut Pasteur",
+    "subtype": "research_institute",
+    "summary": "Research institute in Paris founded by Louis Pasteur."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Germany",
+      "lat": 52.51667,
+      "lng": 13.38333,
+      "wikidata_qid": "Q64",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "berlin",
+    "name": "Berlin",
+    "subtype": "city",
+    "summary": "Capital city of Germany, location of Koch's major work."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "France",
+      "lat": 48.85667,
+      "lng": 2.35222,
+      "wikidata_qid": "Q90",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "paris",
+    "name": "Paris",
+    "subtype": "city",
+    "summary": "Capital city of France, location of Pasteur's institute."
+  },
+  {
+    "aliases": [
+      "tuberculosis pathogen",
+      "Mycobacterium tuberculosis"
+    ],
+    "entity_type": "artifact",
+    "id": "tubercle_bacillus",
+    "name": "Tubercle bacillus",
+    "subtype": "pathogen",
+    "summary": "Bacterium identified by Koch as the cause of tuberculosis."
+  },
+  {
+    "aliases": [
+      "Koch's remedy",
+      "Koch's lymph"
+    ],
+    "entity_type": "artifact",
+    "id": "tuberculin",
+    "name": "Tuberculin",
+    "subtype": "remedy",
+    "summary": "Substance developed by Koch as a supposed cure for tuberculosis."
+  }
+]

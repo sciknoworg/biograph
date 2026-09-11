@@ -1,0 +1,17 @@
+[
+  {
+    "id": "wallace_worked_leicester",
+    "source": "alfred_russel_wallace",
+    "type": "worked_at",
+    "target": "leicester",
+    "event_id": "wallace_leicester_instructor",
+    "sources": [
+      {
+        "source_id": "smith_2011_wallace_profile",
+        "page": 6,
+        "quote": "he found work as an instructor at a private school in Leicester, England."
+      }
+    ],
+    "_rejected_because": "'worked_at' expects target entity_type organization, but 'leicester' is 'place'"
+  }
+]

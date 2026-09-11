@@ -1,0 +1,409 @@
+[
+  {
+    "id": "frost_chair_1919",
+    "event_type": "employment_start",
+    "label": "Took chair of epidemiology at Johns Hopkins",
+    "description": "Frost took up the chair of the world's first dedicated department of epidemiology.",
+    "date": {
+      "precision": "year",
+      "sort_start": "1919-01-01",
+      "sort_end": "1919-12-31",
+      "display": "1919"
+    },
+    "participants": [
+      {
+        "entity_id": "wade_hampton_frost",
+        "role": "subject"
+      },
+      {
+        "entity_id": "department_of_epidemiology_jhu",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "engelmann_2021",
+        "page": 10,
+        "quote": "In 1919, when Frost took up the chair of the world's first dedicated department of epidemiology, the field was structured by extensive discussions about its novel shape as an academic discipline."
+      }
+    ]
+  },
+  {
+    "id": "frost_dept_outline_1920",
+    "event_type": "other",
+    "label": "Outlined organization of epidemiology department",
+    "description": "Frost defined the purpose of the new department with three distinct goals.",
+    "date": {
+      "precision": "year",
+      "sort_start": "1920-01-01",
+      "sort_end": "1920-12-31",
+      "display": "1920"
+    },
+    "participants": [
+      {
+        "entity_id": "wade_hampton_frost",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "engelmann_2021",
+        "page": 10,
+        "quote": "Frost himself defined the purpose of the new department with three distinct goals: first, students were to learn about 'certain fundamental principles governing the occurrence of infectious diseases'; second, they would become familiar with 'the special methods applicable to study in this field'; and third, they should understand how to apply these principles and methods to 'public health administration.'"
+      }
+    ]
+  },
+  {
+    "id": "reed_joins_hopkins_1917",
+    "event_type": "employment_start",
+    "label": "Pearl brought Reed to Johns Hopkins",
+    "description": "Raymond Pearl brought Lowell Reed to establish population ecology in North America.",
+    "date": {
+      "precision": "year",
+      "sort_start": "1917-01-01",
+      "sort_end": "1917-12-31",
+      "display": "1917"
+    },
+    "participants": [
+      {
+        "entity_id": "lowell_reed",
+        "role": "subject"
+      },
+      {
+        "entity_id": "raymond_pearl",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "johns_hopkins_school_of_hygiene",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "engelmann_2021",
+        "page": 14,
+        "quote": "In 1917, Pearl brought Pearson's school of thought to the US to establish population ecology in North America."
+      }
+    ]
+  },
+  {
+    "id": "reed_biometry_dept_1924",
+    "event_type": "company_founded",
+    "label": "Reed established department for biometry",
+    "description": "Reed succeeded in establishing a department for biometry and vital statistics.",
+    "date": {
+      "precision": "year",
+      "sort_start": "1924-01-01",
+      "sort_end": "1924-12-31",
+      "display": "1924"
+    },
+    "participants": [
+      {
+        "entity_id": "lowell_reed",
+        "role": "subject"
+      },
+      {
+        "entity_id": "department_of_biometry_jhu",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "engelmann_2021",
+        "page": 14,
+        "quote": "Eventually, Reed succeeded in establishing a department for biometry and vital statistics in 1924, which in association with his chair set out to focus on the mathematical analysis of data about human health and disease."
+      }
+    ]
+  },
+  {
+    "id": "reed_professor_1925",
+    "event_type": "role_change",
+    "label": "Reed made full professor",
+    "description": "The biometrician was made full professor in 1925.",
+    "date": {
+      "precision": "year",
+      "sort_start": "1925-01-01",
+      "sort_end": "1925-12-31",
+      "display": "1925"
+    },
+    "participants": [
+      {
+        "entity_id": "lowell_reed",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "engelmann_2021",
+        "page": 15,
+        "quote": "The biometrician, who was made full professor in 1925, had become an eminent figure in the formalization of population dynamics when he ventured into the field of public health and epidemiology."
+      }
+    ]
+  },
+  {
+    "id": "frost_lectures_1925",
+    "event_type": "other",
+    "label": "Frost delivered Epidemiology I lectures",
+    "description": "Frost's teaching and lectures were regularly prefaced with a friendly reminder about the first principles of epidemiology.",
+    "date": {
+      "precision": "year",
+      "sort_start": "1925-01-01",
+      "sort_end": "1925-12-31",
+      "display": "1925"
+    },
+    "participants": [
+      {
+        "entity_id": "wade_hampton_frost",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "engelmann_2021",
+        "page": 11,
+        "quote": "His teaching and lectures were regularly prefaced with a friendly reminder about the first principles of epidemiology as a positive science."
+      }
+    ]
+  },
+  {
+    "id": "frost_conference_1927",
+    "event_type": "conference",
+    "label": "Organized Conference on Epidemiology",
+    "description": "Frost organized a conference on Epidemiology at Johns Hopkins University.",
+    "date": {
+      "precision": "year",
+      "sort_start": "1927-01-01",
+      "sort_end": "1927-12-31",
+      "display": "1927"
+    },
+    "participants": [
+      {
+        "entity_id": "wade_hampton_frost",
+        "role": "subject"
+      },
+      {
+        "entity_id": "johns_hopkins_school_of_hygiene",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "engelmann_2021",
+        "page": 12,
+        "quote": "A programmatic statement of a conference on Epidemiology, organised by Frost at Johns Hopkins University in 1927 defined thus the 'science of epidemiology' to be concerned with the 'natural history of disease as it is expressed in groups of persons related by some common factor of age, sex, race, location, or occupation as distinct from the development of disease in individuals.'"
+      }
+    ]
+  },
+  {
+    "id": "reed_frost_collab_1928",
+    "event_type": "meeting",
+    "label": "Reed and Frost collaboration began formally",
+    "description": "Collaboration began formally with a joint grant to study the common cold and its relation to influenza.",
+    "date": {
+      "precision": "year",
+      "sort_start": "1928-01-01",
+      "sort_end": "1928-12-31",
+      "display": "1928"
+    },
+    "participants": [
+      {
+        "entity_id": "lowell_reed",
+        "role": "subject"
+      },
+      {
+        "entity_id": "wade_hampton_frost",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "engelmann_2021",
+        "page": 15,
+        "quote": "Reed and Frost's collaboration began formally in 1928 with a joint grant from the School of Hygiene and the School of Medicine to study the common cold and its relation to influenza."
+      }
+    ]
+  },
+  {
+    "id": "frost_harvard_lecture_1928",
+    "event_type": "conference",
+    "label": "Frost lectured at Harvard",
+    "description": "Frost offered an outline of the model's reasoning in a 1928 lecture at Harvard.",
+    "date": {
+      "precision": "year",
+      "sort_start": "1928-01-01",
+      "sort_end": "1928-12-31",
+      "display": "1928"
+    },
+    "participants": [
+      {
+        "entity_id": "wade_hampton_frost",
+        "role": "subject"
+      },
+      {
+        "entity_id": "harvard_university",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "engelmann_2021",
+        "page": 9,
+        "quote": "Frost offered an outline of the model's reasoning in a 1928 lecture at Harvard, which was published posthumously in 1976."
+      }
+    ]
+  },
+  {
+    "id": "frost_epidemic_theory_lecture_1931",
+    "event_type": "conference",
+    "label": "Delivered Frost Lecture on Epidemic Theory",
+    "description": "Frost raised words of warning in the introduction to his lecture series Epidemic Theory III.",
+    "date": {
+      "precision": "year",
+      "sort_start": "1931-01-01",
+      "sort_end": "1931-12-31",
+      "display": "1931"
+    },
+    "participants": [
+      {
+        "entity_id": "wade_hampton_frost",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "engelmann_2021",
+        "page": 4,
+        "quote": "These words of warning were raised by Frost in the introduction to his lecture series Epidemic Theory III at Johns Hopkins School of Hygiene in the 1930s."
+      }
+    ]
+  },
+  {
+    "id": "frost_death_1938",
+    "event_type": "death",
+    "label": "Frost died",
+    "description": "Frost had already died by the time Reed expounded on the model's purpose in 1951.",
+    "date": {
+      "precision": "year",
+      "sort_start": "1938-01-01",
+      "sort_end": "1938-12-31",
+      "display": "1938"
+    },
+    "participants": [
+      {
+        "entity_id": "wade_hampton_frost",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "engelmann_2021",
+        "page": 9,
+        "quote": "Only after the model had developed a life of its own, being used by other epidemiologists, replicated, and celebrated in epidemiological lectures across the US and in the UK, Reed expounded on its purpose and value explicitly (Frost had already died in 1938)."
+      }
+    ]
+  },
+  {
+    "id": "reed_tv_demo_1951",
+    "event_type": "public_demonstration",
+    "label": "Reed presented model on TV",
+    "description": "Reed presented a segment for the TV production 'The Johns Hopkins Science Review'.",
+    "date": {
+      "precision": "year",
+      "sort_start": "1951-01-01",
+      "sort_end": "1951-12-31",
+      "display": "1951"
+    },
+    "participants": [
+      {
+        "entity_id": "lowell_reed",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "engelmann_2021",
+        "page": 9,
+        "quote": "In 1951, Reed presented a segment for the TV production 'The Johns Hopkins Science Review', in which he explained to a public audience the merits of epidemic theory with his model."
+      }
+    ]
+  },
+  {
+    "id": "frost_lecture_published_1976",
+    "event_type": "publication",
+    "label": "Frost's 1928 lecture published posthumously",
+    "description": "The lecture was published posthumously in 1976.",
+    "date": {
+      "precision": "year",
+      "sort_start": "1976-01-01",
+      "sort_end": "1976-12-31",
+      "display": "1976"
+    },
+    "participants": [
+      {
+        "entity_id": "wade_hampton_frost",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "engelmann_2021",
+        "page": 9,
+        "quote": "Frost offered an outline of the model's reasoning in a 1928 lecture at Harvard, which was published posthumously in 1976."
+      }
+    ]
+  },
+  {
+    "id": "fine_commentary_1977",
+    "event_type": "publication",
+    "label": "Fine published commentary on model",
+    "description": "Fine emphasized the model's versatility in his appraisal.",
+    "date": {
+      "precision": "year",
+      "sort_start": "1977-01-01",
+      "sort_end": "1977-12-31",
+      "display": "1977"
+    },
+    "participants": [
+      {
+        "entity_id": "philip_fine",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "engelmann_2021",
+        "page": 7,
+        "quote": "The model was versatile and allowed for experimental manipulations, as Fine emphasized in his appraisal."
+      }
+    ]
+  },
+  {
+    "id": "macmahon_pugh_textbook_1971",
+    "event_type": "publication",
+    "label": "MacMahon and Pugh introduced 'web of causation'",
+    "description": "Brian MacMahon and Thomas Pugh introduced the concept into epidemiology textbooks.",
+    "date": {
+      "precision": "year",
+      "sort_start": "1971-01-01",
+      "sort_end": "1971-12-31",
+      "display": "1971"
+    },
+    "participants": [
+      {
+        "entity_id": "brian_macmahon",
+        "role": "subject"
+      },
+      {
+        "entity_id": "thomas_pugh",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "engelmann_2021",
+        "page": 4,
+        "quote": "Models and the pedagogy of mechanistic modelling thus anticipated the 'web of causation' that Brian MacMahon and Thomas Pugh introduced into epidemiology textbooks in 1971."
+      }
+    ]
+  }
+]

@@ -1,0 +1,136 @@
+[
+  {
+    "id": "barnard_born_in_beafort_west",
+    "source": "christiaan_barnard",
+    "type": "born_in",
+    "target": "beaufort_west",
+    "event_id": "barnard_birth",
+    "sources": [
+      {
+        "source_id": "cooper_2018",
+        "page": 2,
+        "quote": "Christiaan Barnard was the third son (of four) of a church minister in the rural town of Beaufort West in South Africa"
+      }
+    ]
+  },
+  {
+    "id": "barnard_studied_at_uct",
+    "source": "christiaan_barnard",
+    "type": "studied_at",
+    "target": "university_of_cape_town",
+    "event_id": "barnard_graduation",
+    "sources": [
+      {
+        "source_id": "cooper_2018",
+        "page": 3,
+        "quote": "Chris Barnard did well enough to gain entry to study medicine at the University of Cape Town (UCT)"
+      }
+    ]
+  },
+  {
+    "id": "barnard_worked_at_gsh",
+    "source": "christiaan_barnard",
+    "type": "worked_at",
+    "target": "groote_schuur_hospital",
+    "sources": [
+      {
+        "source_id": "cooper_2018",
+        "page": 3,
+        "quote": "this led to further appointments, first in medicine and then in surgery, at GSH, the major UCT teaching hospital"
+      }
+    ]
+  },
+  {
+    "id": "barnard_studied_at_minnesota",
+    "source": "christiaan_barnard",
+    "type": "studied_at",
+    "target": "university_of_minnesota",
+    "sources": [
+      {
+        "source_id": "cooper_2018",
+        "page": 3,
+        "quote": "He was then offered a scholarship to gain surgical experience at the University of Minnesota in Minneapolis"
+      }
+    ]
+  },
+  {
+    "id": "barnard_mentored_by_lillehei",
+    "source": "christiaan_barnard",
+    "type": "supervised_by",
+    "target": "c_walton_lillehei",
+    "sources": [
+      {
+        "source_id": "cooper_2018",
+        "page": 3,
+        "quote": "under the direction of C. Walton ('Walt') Lillehei (perhaps the most important of the early open heart surgery pioneers [Figure 4]) and his colleague, Richard Varco, steadily gained experience."
+      }
+    ]
+  },
+  {
+    "id": "barnard_collaborated_with_marius",
+    "source": "christiaan_barnard",
+    "type": "collaborated_with",
+    "target": "marius_barnard",
+    "sources": [
+      {
+        "source_id": "cooper_2018",
+        "page": 5,
+        "quote": "Barnard and his younger brother, Marius (Figure 7), who was also a cardiac surgeon at GSH, began by gaining experience of the operation of orthotopic heart transplantation in dogs"
+      }
+    ]
+  },
+  {
+    "id": "barnard_collaborated_with_losman",
+    "source": "christiaan_barnard",
+    "type": "collaborated_with",
+    "target": "jacques_losman",
+    "event_id": "heterotopic_transplant_development",
+    "sources": [
+      {
+        "source_id": "cooper_2018",
+        "page": 12,
+        "quote": "in 1975 he set his junior colleague, Jacques Losman (Figure 16), to design an operation"
+      }
+    ]
+  },
+  {
+    "id": "barnard_invented_uct_prosthesis",
+    "source": "christiaan_barnard",
+    "type": "invented",
+    "target": "uct_prosthesis",
+    "sources": [
+      {
+        "source_id": "cooper_2018",
+        "page": 4,
+        "quote": "He also designed and implanted a prosthetic valve that was successful for that era (Figure 6)"
+      }
+    ]
+  },
+  {
+    "id": "barnard_visited_richmond",
+    "source": "christiaan_barnard",
+    "type": "visited",
+    "target": "richmond_virginia",
+    "sources": [
+      {
+        "source_id": "cooper_2018",
+        "page": 5,
+        "quote": "He then took a three-month sabbatical to gain experience in immunosuppressive therapy in patients with kidney transplants, which he did by attaching himself to the transplant program headed by David Hume (Figure 9) in Richmond, Virginia."
+      }
+    ]
+  },
+  {
+    "id": "barnard_visited_oklahoma",
+    "source": "christiaan_barnard",
+    "type": "visited",
+    "target": "oklahoma_city",
+    "event_id": "oklahoma_city_program",
+    "sources": [
+      {
+        "source_id": "cooper_2018",
+        "page": 13,
+        "quote": "In 1986, he accepted an invitation to help surgeons in Oklahoma City establish a heart transplantation program."
+      }
+    ]
+  }
+]

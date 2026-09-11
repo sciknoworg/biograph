@@ -1,0 +1,197 @@
+[
+  {
+    "id": "giovanni_alfonso_borelli",
+    "entity_type": "person",
+    "name": "Giovanni Alfonso Borelli",
+    "aliases": [
+      "Borelli",
+      "G. A. Borelli",
+      "Giovanni Alfonso Borelli (1608–1679)"
+    ],
+    "summary": "Italian physiologist and physicist, disciple of Galileo, known for work on animal movement and biomechanics.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "marcello_malpighi",
+    "entity_type": "person",
+    "name": "Marcello Malpighi",
+    "aliases": [
+      "M. Malpighi",
+      "Malpighi"
+    ],
+    "summary": "Italian biologist and physician, founder of microscopic anatomy.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "miguel_alonso",
+    "entity_type": "person",
+    "name": "Miguel Alonso",
+    "aliases": [],
+    "summary": "Spanish soldier and father of Giovanni Alfonso Borelli.",
+    "subtype": "soldier"
+  },
+  {
+    "id": "laura_porella",
+    "entity_type": "person",
+    "name": "Laura Porella",
+    "aliases": [],
+    "summary": "Mother of Giovanni Alfonso Borelli.",
+    "subtype": "family"
+  },
+  {
+    "id": "benedetto_castelli",
+    "entity_type": "person",
+    "name": "Benedetto Castelli",
+    "aliases": [],
+    "summary": "Student of Galileo Galilei and teacher of Giovanni Alfonso Borelli.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "ferdinando_de_medici",
+    "entity_type": "person",
+    "name": "Ferdinando De' Medici",
+    "aliases": [
+      "Grand Duke of Tuscany"
+    ],
+    "summary": "Grand Duke of Tuscany who invited Borelli to the University of Pisa.",
+    "subtype": "royalty"
+  },
+  {
+    "id": "christina_of_sweden",
+    "entity_type": "person",
+    "name": "Christina of Sweden",
+    "aliases": [
+      "Queen of Sweden"
+    ],
+    "summary": "Queen of Sweden for whom Borelli served as personal medical consultant.",
+    "subtype": "royalty"
+  },
+  {
+    "id": "naples",
+    "entity_type": "place",
+    "name": "Naples",
+    "aliases": [],
+    "summary": "City in Italy where Borelli was born.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Italy",
+      "lat": 40.83583,
+      "lng": 14.24861,
+      "wikidata_qid": "Q2634",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "rome",
+    "entity_type": "place",
+    "name": "Rome",
+    "aliases": [],
+    "summary": "City in Italy where Borelli studied and was later exiled.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Italy",
+      "lat": 41.89306,
+      "lng": 12.48278,
+      "wikidata_qid": "Q220",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "messina",
+    "entity_type": "place",
+    "name": "Messina",
+    "aliases": [],
+    "summary": "City in Sicily where Borelli lectured and returned to later.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Italy",
+      "region": "Sicily",
+      "lat": 38.19361,
+      "lng": 15.55417,
+      "wikidata_qid": "Q13666",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "pisa",
+    "entity_type": "place",
+    "name": "Pisa",
+    "aliases": [],
+    "summary": "City in Tuscany where the University of Pisa is located.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Italy",
+      "region": "Tuscany",
+      "lat": 43.71667,
+      "lng": 10.4,
+      "wikidata_qid": "Q13375",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "italy",
+    "entity_type": "place",
+    "name": "Italy",
+    "aliases": [],
+    "summary": "Country where Borelli lived and worked.",
+    "subtype": "country",
+    "attributes": {
+      "lat": 42.5,
+      "lng": 12.5,
+      "wikidata_qid": "Q38",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "university_of_pisa",
+    "entity_type": "organization",
+    "name": "University of Pisa",
+    "aliases": [
+      "University of Pisa"
+    ],
+    "summary": "University where Borelli was invited to work around 1655.",
+    "subtype": "university"
+  },
+  {
+    "id": "university_of_messina",
+    "entity_type": "organization",
+    "name": "University of Messina",
+    "aliases": [
+      "Senate of Messina"
+    ],
+    "summary": "University where Borelli lectured from 1635 to 1656.",
+    "subtype": "university"
+  },
+  {
+    "id": "accademia_della_fucina",
+    "entity_type": "organization",
+    "name": "Accademia della Fucina",
+    "aliases": [],
+    "summary": "Scientific society in Messina that offered Borelli membership in 1635.",
+    "subtype": "society"
+  },
+  {
+    "id": "american_society_of_biomechanics",
+    "entity_type": "organization",
+    "name": "American Society of Biomechanics",
+    "aliases": [],
+    "summary": "Organization founded in 1977 that bestows the Borelli Award.",
+    "subtype": "society"
+  },
+  {
+    "id": "de_motu_animalium",
+    "entity_type": "artifact",
+    "name": "De Motu Animalium",
+    "aliases": [],
+    "summary": "Borelli's masterpiece on biomechanics published posthumously.",
+    "subtype": "publication"
+  },
+  {
+    "id": "borelli_award",
+    "entity_type": "artifact",
+    "name": "Borelli Award",
+    "aliases": [],
+    "summary": "Award bestowed by the American Society of Biomechanics in Borelli's name.",
+    "subtype": "award"
+  }
+]

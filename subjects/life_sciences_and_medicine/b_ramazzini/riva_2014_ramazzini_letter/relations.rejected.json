@@ -1,0 +1,16 @@
+[
+  {
+    "id": "padua_part_venice",
+    "source": "padua",
+    "type": "member_of",
+    "target": "republic_of_venice",
+    "sources": [
+      {
+        "source_id": "riva_2014_ramazzini_letter",
+        "page": 41,
+        "quote": "this city was a part of the Republic of Venice"
+      }
+    ],
+    "_rejected_because": "'member_of' expects source entity_type person/organization, but 'padua' is 'place'"
+  }
+]

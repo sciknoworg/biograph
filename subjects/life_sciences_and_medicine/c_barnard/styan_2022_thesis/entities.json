@@ -1,0 +1,135 @@
+[
+  {
+    "id": "christiaan_barnard",
+    "entity_type": "person",
+    "name": "Christiaan Neethling Barnard",
+    "aliases": [
+      "Christiaan Barnard",
+      "Prof. Christiaan Barnard",
+      "Chris Barnard"
+    ],
+    "summary": "South African cardiac surgeon and pioneer of heart transplantation.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "marius_barnard",
+    "entity_type": "person",
+    "name": "Marius Barnard",
+    "aliases": [
+      "Marius Barnard",
+      "The younger Barnard"
+    ],
+    "summary": "South African surgeon and younger brother of Christiaan Barnard.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "hamilton_naki",
+    "entity_type": "person",
+    "name": "Hamilton Naki",
+    "aliases": [
+      "Hamilton Naki",
+      "Naki"
+    ],
+    "summary": "South African surgical assistant and laboratory technician.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "victor_pick",
+    "entity_type": "person",
+    "name": "Victor Pick",
+    "aliases": [
+      "Victor Pick",
+      "Big Vic"
+    ],
+    "summary": "South African laboratory technician and surgical assistant.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "groote_schuur_hospital",
+    "entity_type": "organization",
+    "name": "Groote Schuur Hospital",
+    "aliases": [
+      "GSH",
+      "Groote Schuur"
+    ],
+    "summary": "Public hospital in Cape Town where the first heart transplant was performed.",
+    "subtype": "hospital"
+  },
+  {
+    "id": "university_of_cape_town",
+    "entity_type": "organization",
+    "name": "University of Cape Town",
+    "aliases": [
+      "UCT",
+      "University of Cape Town Medical School"
+    ],
+    "summary": "Public research university in Cape Town, South Africa.",
+    "subtype": "university"
+  },
+  {
+    "id": "university_of_minnesota",
+    "entity_type": "organization",
+    "name": "University of Minnesota",
+    "aliases": [
+      "University of Minnesota"
+    ],
+    "summary": "Public research university in the United States.",
+    "subtype": "university"
+  },
+  {
+    "id": "js_marais_research_laboratory",
+    "entity_type": "organization",
+    "name": "JS Marais Research Laboratory",
+    "aliases": [
+      "JS Marais research laboratory",
+      "research laboratory"
+    ],
+    "summary": "Surgical research laboratory at the University of Cape Town.",
+    "subtype": "lab"
+  },
+  {
+    "id": "beaufort_west",
+    "entity_type": "place",
+    "name": "Beaufort West",
+    "aliases": [
+      "Beaufort-West"
+    ],
+    "summary": "Town in the Western Cape province of South Africa.",
+    "subtype": "town",
+    "attributes": {
+      "country": "South Africa",
+      "lat": -32.35,
+      "lng": 22.58333,
+      "wikidata_qid": "Q813395",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "cape_town",
+    "entity_type": "place",
+    "name": "Cape Town",
+    "aliases": [
+      "Cape Town"
+    ],
+    "summary": "City in the Western Cape province of South Africa.",
+    "subtype": "city",
+    "attributes": {
+      "country": "South Africa",
+      "lat": -33.92528,
+      "lng": 18.42389,
+      "wikidata_qid": "Q5465",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "heart_lung_machine",
+    "entity_type": "artifact",
+    "name": "De Wall-Lillehei Oxygenator",
+    "aliases": [
+      "heart-lung machine",
+      "De Wall-Lillehei Oxygenator"
+    ],
+    "summary": "Medical device used to temporarily take over the function of the heart and lungs during surgery.",
+    "subtype": "invention"
+  }
+]

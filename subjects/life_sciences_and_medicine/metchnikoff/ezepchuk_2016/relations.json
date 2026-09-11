@@ -1,0 +1,188 @@
+[
+  {
+    "id": "born_in_ivanovka",
+    "source": "ilya_ilyich_metchnikoff",
+    "type": "born_in",
+    "target": "ivanovka",
+    "event_id": "birth",
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 1,
+        "quote": "I. I. Metchnikoff was born on 3(15) May, 1845 in the village of Ivanovka, Kharkov province"
+      }
+    ]
+  },
+  {
+    "id": "lived_in_panasovka",
+    "source": "ilya_ilyich_metchnikoff",
+    "type": "lived_in",
+    "target": "panasovka",
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 3,
+        "quote": "Ilya Ilyich spent his childhood and adolescence in his father's estate in the village Panasovka"
+      }
+    ]
+  },
+  {
+    "id": "studied_at_kharkov",
+    "source": "ilya_ilyich_metchnikoff",
+    "type": "studied_at",
+    "target": "university_of_kharkov",
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 4,
+        "quote": "Metchnikoff completed a four-year course at the University of Kharkov in two years"
+      }
+    ]
+  },
+  {
+    "id": "studied_at_odessa",
+    "source": "ilya_ilyich_metchnikoff",
+    "type": "studied_at",
+    "target": "odessa_university",
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 4,
+        "quote": "he successfully completed at the age of 22 in the Odessa University"
+      }
+    ]
+  },
+  {
+    "id": "worked_at_odessa",
+    "source": "ilya_ilyich_metchnikoff",
+    "type": "worked_at",
+    "target": "odessa_university",
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 4,
+        "quote": "he immediately became a lecturer of this university."
+      }
+    ]
+  },
+  {
+    "id": "worked_at_st_petersburg",
+    "source": "ilya_ilyich_metchnikoff",
+    "type": "worked_at",
+    "target": "st_petersburg_university",
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 4,
+        "quote": "in the same year began to work as an assistant professor at the University."
+      }
+    ]
+  },
+  {
+    "id": "worked_at_pasteur",
+    "source": "ilya_ilyich_metchnikoff",
+    "type": "worked_at",
+    "target": "pasteur_institute",
+    "start": {
+      "display": "1887",
+      "precision": "year",
+      "sort_start": "1887-01-01",
+      "sort_end": "1887-12-31"
+    },
+    "end": {
+      "display": "1916",
+      "precision": "year",
+      "sort_start": "1916-01-01",
+      "sort_end": "1916-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 8,
+        "quote": "in 1887, at the age of 42, Metchnikoff left his homeland forever. He settled in Paris, where he would live the rest of his life."
+      }
+    ]
+  },
+  {
+    "id": "married_lyudmila",
+    "source": "ilya_ilyich_metchnikoff",
+    "type": "married_to",
+    "target": "lyudmila_vasilyevna_fedorovich",
+    "event_id": "marriage_lyudmila",
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 5,
+        "quote": "whom he married in 1869."
+      }
+    ]
+  },
+  {
+    "id": "married_olga",
+    "source": "ilya_ilyich_metchnikoff",
+    "type": "married_to",
+    "target": "olga_nikolaevna_belokopytova",
+    "event_id": "marriage_olga",
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 5,
+        "quote": "In 1875 Metchnikoff decided to remarry, this time to his student Olga Nikolaevna Belokopytova"
+      }
+    ]
+  },
+  {
+    "id": "collaborated_sechenov",
+    "source": "ilya_ilyich_metchnikoff",
+    "type": "collaborated_with",
+    "target": "ivan_sechenov",
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 6,
+        "quote": "two eminent friends were working together in Odessa for the long five years."
+      }
+    ]
+  },
+  {
+    "id": "collaborated_pasteur",
+    "source": "ilya_ilyich_metchnikoff",
+    "type": "collaborated_with",
+    "target": "louis_pasteur",
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 8,
+        "quote": "Metchnikoff continued to make the amazing experiments, confirming the validity of his theory, and was supported by the famous Louis Pasteur"
+      }
+    ]
+  },
+  {
+    "id": "awarded_nobel",
+    "source": "ilya_ilyich_metchnikoff",
+    "type": "awarded",
+    "target": "nobel_prize_1908",
+    "event_id": "nobel_prize",
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 1,
+        "quote": "Metchnikoff was awarded the 1908 Nobel Prize in Physiology or Medicine"
+      }
+    ]
+  },
+  {
+    "id": "died_in_paris",
+    "source": "ilya_ilyich_metchnikoff",
+    "type": "died_in",
+    "target": "paris",
+    "event_id": "death",
+    "sources": [
+      {
+        "source_id": "metchnikoff_bio_2016",
+        "page": 9,
+        "quote": "2(15) July 1916 scientist's heart stopped beating."
+      }
+    ]
+  }
+]

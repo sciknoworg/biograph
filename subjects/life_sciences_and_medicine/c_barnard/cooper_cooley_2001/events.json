@@ -1,0 +1,342 @@
+[
+  {
+    "id": "birth",
+    "event_type": "birth",
+    "label": "Born in Beaufort West",
+    "description": "Born in the small country town of Beaufort West in South Africa.",
+    "date": {
+      "display": "November 8, 1922",
+      "precision": "day",
+      "sort_start": "1922-11-08",
+      "sort_end": "1922-11-08"
+    },
+    "location": "beaufort_west",
+    "participants": [
+      {
+        "entity_id": "christiaan_neethling_barnard",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cooper_cooley_2001",
+        "page": 1,
+        "quote": "Born on November 8, 1922, in the small country town of Beaufort West in South Africa, Christiaan Neethling Barnard was one of 4 sons of a church pastor who ministered to the poor."
+      }
+    ]
+  },
+  {
+    "id": "graduation_doctor",
+    "event_type": "education",
+    "label": "Graduated as a doctor",
+    "description": "Graduated as a doctor from University of Cape Town Medical School.",
+    "date": {
+      "display": "1946",
+      "precision": "year",
+      "sort_start": "1946-01-01",
+      "sort_end": "1946-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christiaan_neethling_barnard",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_cape_town_medical_school",
+        "role": "educator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cooper_cooley_2001",
+        "page": 1,
+        "quote": "but he worked hard and graduated as a doctor in 1946."
+      }
+    ]
+  },
+  {
+    "id": "scholarship_minnesota",
+    "event_type": "education",
+    "label": "Received scholarship to University of Minnesota",
+    "description": "Received a scholarship to the University of Minnesota Medical School.",
+    "date": {
+      "display": "1956",
+      "precision": "year",
+      "sort_start": "1956-01-01",
+      "sort_end": "1956-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christiaan_neethling_barnard",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_minnesota_medical_school",
+        "role": "educator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cooper_cooley_2001",
+        "page": 1,
+        "quote": "In 1956, he received a scholarship to the University of Minnesota Medical School, where he soon was drawn to the emerging field of open heart surgery."
+      }
+    ]
+  },
+  {
+    "id": "return_cape_town",
+    "event_type": "relocation",
+    "label": "Returned to Cape Town",
+    "description": "Returned to Cape Town as a specialist in cardiothoracic surgery and director of surgical research.",
+    "date": {
+      "display": "1958",
+      "precision": "year",
+      "sort_start": "1958-01-01",
+      "sort_end": "1958-12-31"
+    },
+    "location": "cape_town",
+    "participants": [
+      {
+        "entity_id": "christiaan_neethling_barnard",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cooper_cooley_2001",
+        "page": 1,
+        "quote": "In 1958, Barnard returned to Cape Town as a specialist in cardiothoracic surgery and director of surgical research."
+      }
+    ]
+  },
+  {
+    "id": "promotion_associate_professor",
+    "event_type": "role_change",
+    "label": "Promoted to associate professor",
+    "description": "Promoted to associate professor.",
+    "date": {
+      "display": "1962",
+      "precision": "year",
+      "sort_start": "1962-01-01",
+      "sort_end": "1962-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christiaan_neethling_barnard",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cooper_cooley_2001",
+        "page": 1,
+        "quote": "He was promoted to associate professor in 1962 and to professor of surgical science in 1972."
+      }
+    ]
+  },
+  {
+    "id": "first_heart_transplant",
+    "event_type": "other",
+    "label": "Performed first human-to-human heart transplant",
+    "description": "Led the surgical team that performed the first human-to-human heart transplant on Louis Washkansky.",
+    "date": {
+      "display": "December 3, 1967",
+      "precision": "day",
+      "sort_start": "1967-12-03",
+      "sort_end": "1967-12-03"
+    },
+    "location": "cape_town",
+    "participants": [
+      {
+        "entity_id": "christiaan_neethling_barnard",
+        "role": "subject"
+      },
+      {
+        "entity_id": "louis_washkansky",
+        "role": "patient"
+      },
+      {
+        "entity_id": "marius_barnard",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cooper_cooley_2001",
+        "page": 1,
+        "quote": "On December 3, 1967, Chris Barnard led the surgical team that performed the first human-to-human heart transplant."
+      }
+    ]
+  },
+  {
+    "id": "promotion_professor",
+    "event_type": "role_change",
+    "label": "Promoted to professor of surgical science",
+    "description": "Promoted to professor of surgical science.",
+    "date": {
+      "display": "1972",
+      "precision": "year",
+      "sort_start": "1972-01-01",
+      "sort_end": "1972-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christiaan_neethling_barnard",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cooper_cooley_2001",
+        "page": 1,
+        "quote": "He was promoted to associate professor in 1962 and to professor of surgical science in 1972."
+      }
+    ]
+  },
+  {
+    "id": "autobiography_one_life",
+    "event_type": "publication",
+    "label": "Published autobiography One Life",
+    "description": "Autobiography One Life, ghostwritten by an experienced professional writer, was a major publishing success worldwide.",
+    "date": {
+      "display": "1970",
+      "precision": "year",
+      "sort_start": "1970-01-01",
+      "sort_end": "1970-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christiaan_neethling_barnard",
+        "role": "author"
+      },
+      {
+        "entity_id": "one_life",
+        "role": "publication"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cooper_cooley_2001",
+        "page": 2,
+        "quote": "In 1970, Barnard's autobiography One Life, ghostwritten by an experienced professional writer, was a major publishing success worldwide."
+      }
+    ]
+  },
+  {
+    "id": "heterotopic_transplant_technique",
+    "event_type": "invention",
+    "label": "Developed heterotopic heart transplantation technique",
+    "description": "Barnard and Jacques Losman developed the technique of auxiliary (heterotopic) heart transplantation.",
+    "date": {
+      "display": "1974",
+      "precision": "year",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christiaan_neethling_barnard",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "jacques_losman",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cooper_cooley_2001",
+        "page": 2,
+        "quote": "In 1974, Barnard and his junior colleague, Jacques Losman, developed the technique of auxiliary (heterotopic) heart transplantation, in which the donor heart is placed in the chest alongside the patient's own heart."
+      }
+    ]
+  },
+  {
+    "id": "xenograft_transplants",
+    "event_type": "other",
+    "label": "Transplanted xenograft auxiliary hearts",
+    "description": "Transplanted a xenograft auxiliary heart from a chimpanzee and baboon on two occasions.",
+    "date": {
+      "display": "1977",
+      "precision": "year",
+      "sort_start": "1977-01-01",
+      "sort_end": "1977-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christiaan_neethling_barnard",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cooper_cooley_2001",
+        "page": 2,
+        "quote": "On 2 occasions in 1977, when a patient's left ventricle failed acutely after conventional open heart surgery, Barnard transplanted a xenograft auxiliary heart (obtained from a chimpanzee and baboon, respectively) with the hope that it would support the patient until the native heart could recover."
+      }
+    ]
+  },
+  {
+    "id": "retirement",
+    "event_type": "retirement",
+    "label": "Took early retirement",
+    "description": "Took early retirement at age 61.",
+    "date": {
+      "display": "1983",
+      "precision": "year",
+      "sort_start": "1983-01-01",
+      "sort_end": "1983-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christiaan_neethling_barnard",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cooper_cooley_2001",
+        "page": 2,
+        "quote": "In 1983, at age 61, he took early retirement."
+      }
+    ]
+  },
+  {
+    "id": "death",
+    "event_type": "death",
+    "label": "Died in Cyprus",
+    "description": "Sudden death in Cyprus.",
+    "date": {
+      "display": "September 2, 2001",
+      "precision": "day",
+      "sort_start": "2001-09-02",
+      "sort_end": "2001-09-02"
+    },
+    "location": "cyprus",
+    "participants": [
+      {
+        "entity_id": "christiaan_neethling_barnard",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cooper_cooley_2001",
+        "page": 1,
+        "quote": "With the sudden death of Christiaan Barnard in Cyprus on September 2, 2001, the world lost not only a pioneering cardiac surgeon but also a charismatic, if controversial, figure."
+      }
+    ]
+  }
+]

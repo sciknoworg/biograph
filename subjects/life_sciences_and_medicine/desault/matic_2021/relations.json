@@ -1,0 +1,137 @@
+[
+  {
+    "id": "desault_born_in_magny_vernois",
+    "source": "pierre_joseph_desault",
+    "type": "born_in",
+    "target": "magny_vernois",
+    "sources": [
+      {
+        "source_id": "matic_2021",
+        "page": 5,
+        "quote": "was born at village Magny -Vernois, a small place near Lure, in 1738 on February the 6th [1],"
+      }
+    ]
+  },
+  {
+    "id": "desault_worked_at_belfort",
+    "source": "pierre_joseph_desault",
+    "type": "worked_at",
+    "target": "military_hospital_belfort",
+    "sources": [
+      {
+        "source_id": "matic_2021",
+        "page": 5,
+        "quote": "He acqu ired some knowledge about anatomy and military surgery in the military hospital of Belfort."
+      }
+    ]
+  },
+  {
+    "id": "desault_worked_at_hotel_dieu",
+    "source": "pierre_joseph_desault",
+    "type": "worked_at",
+    "target": "hotel_dieu",
+    "event_id": "surgeon_at_hotel_dieu",
+    "sources": [
+      {
+        "source_id": "matic_2021",
+        "page": 6,
+        "quote": "In 1785 he became a surgeon in a hospital Hôtel-Dieu"
+      }
+    ]
+  },
+  {
+    "id": "desault_worked_at_charite",
+    "source": "pierre_joseph_desault",
+    "type": "worked_at",
+    "target": "de_la_charite",
+    "event_id": "surgeon_at_charite",
+    "sources": [
+      {
+        "source_id": "matic_2021",
+        "page": 6,
+        "quote": "In the year 1782, he became a major surgeon to the hospital De la Charitè."
+      }
+    ]
+  },
+  {
+    "id": "desault_married_thouvenin",
+    "source": "pierre_joseph_desault",
+    "type": "married_to",
+    "target": "marguerite_thouvenin",
+    "event_id": "married",
+    "sources": [
+      {
+        "source_id": "matic_2021",
+        "page": 6,
+        "quote": "He was married to Marguerite Thouvenin in February 1782,"
+      }
+    ]
+  },
+  {
+    "id": "desault_mentored_bichat",
+    "source": "pierre_joseph_desault",
+    "type": "mentored",
+    "target": "marie_francois_xavier_bichat",
+    "sources": [
+      {
+        "source_id": "matic_2021",
+        "page": 6,
+        "quote": "Among  his students, Bichat stood out the most (figure 3)."
+      }
+    ]
+  },
+  {
+    "id": "desault_collaborated_chopart",
+    "source": "pierre_joseph_desault",
+    "type": "collaborated_with",
+    "target": "francois_chopart",
+    "event_id": "published_traite",
+    "sources": [
+      {
+        "source_id": "matic_2021",
+        "page": 6,
+        "quote": "Together with Chopart he published Traitè des maladies chirurgicales in 1779."
+      }
+    ]
+  },
+  {
+    "id": "desault_invented_bandage",
+    "source": "pierre_joseph_desault",
+    "type": "invented",
+    "target": "desault_bandage",
+    "sources": [
+      {
+        "source_id": "matic_2021",
+        "page": 7,
+        "quote": "Desault bandage is used for binding the elbow to a person's side in fractures of the humerus (figure 4)."
+      }
+    ]
+  },
+  {
+    "id": "desault_published_journal",
+    "source": "pierre_joseph_desault",
+    "type": "published",
+    "target": "journal_de_chirurgerie",
+    "event_id": "established_journal",
+    "sources": [
+      {
+        "source_id": "matic_2021",
+        "page": 6,
+        "quote": "In 1791 he established a Journal de Chirurgerie,"
+      }
+    ]
+  },
+  {
+    "id": "bichat_published_oeuvres",
+    "source": "marie_francois_xavier_bichat",
+    "type": "published",
+    "target": "oeuvres_chirurgicales_de_desault",
+    "sources": [
+      {
+        "source_id": "matic_2021",
+        "page": 6,
+        "quote": "He published Desault's surgical doctrines in O'Euvres chirurgicales de Desault (1798 -1799)."
+      }
+    ]
+  }
+]

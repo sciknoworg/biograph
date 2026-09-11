@@ -1,0 +1,239 @@
+[
+  {
+    "aliases": [
+      "Huxley",
+      "Mr. Huxley",
+      "Professor Julian Huxley"
+    ],
+    "entity_type": "person",
+    "id": "julian_huxley",
+    "name": "Julian Huxley",
+    "subtype": "researcher",
+    "summary": "British biologist and first director-general of UNESCO known for Evolutionary Humanism."
+  },
+  {
+    "aliases": [
+      "United Nations Educational, Scientific and Cultural Organization",
+      "United Nations Educational, Scientific and Cultural Organization (UNESCO)"
+    ],
+    "entity_type": "organization",
+    "id": "unesco",
+    "name": "UNESCO",
+    "subtype": "organization",
+    "summary": "International organization focused on education, science, and culture."
+  },
+  {
+    "aliases": [
+      "U.S.S.R.",
+      "USSR",
+      "Russia",
+      "Soviet"
+    ],
+    "attributes": {
+      "country": "Soviet Union",
+      "lat": 65.0,
+      "lng": 90.0,
+      "wikidata_qid": "Q15180",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "soviet_union",
+    "name": "Soviet Union",
+    "subtype": "country",
+    "summary": "Country in Eurasia that existed from 1922 to 1991."
+  },
+  {
+    "aliases": [
+      "Academy of Sciences"
+    ],
+    "entity_type": "organization",
+    "id": "academy_of_sciences_ussr",
+    "name": "Academy of Sciences of the U.S.S.R.",
+    "subtype": "organization",
+    "summary": "Soviet Union's highest scientific institution."
+  },
+  {
+    "aliases": [
+      "Lysenko"
+    ],
+    "entity_type": "person",
+    "id": "trofim_lysenko",
+    "name": "Trofim Lysenko",
+    "subtype": "researcher",
+    "summary": "Soviet biologist and agricultural specialist known for Lysenkoism."
+  },
+  {
+    "aliases": [
+      "History of Mankind",
+      "History of the Scientific and Cultural Development of Mankind"
+    ],
+    "entity_type": "artifact",
+    "id": "history_of_mankind",
+    "name": "History of Mankind: Scientific and Cultural Development",
+    "subtype": "publication",
+    "summary": "Six-volume UNESCO project publication on world history."
+  },
+  {
+    "aliases": [
+      "International Commission"
+    ],
+    "entity_type": "organization",
+    "id": "international_commission",
+    "name": "International Commission for a History of the Scientific and Cultural Development of Mankind",
+    "subtype": "organization",
+    "summary": "UNESCO commission overseeing the History of Mankind project."
+  },
+  {
+    "aliases": [
+      "Soviet National Commission",
+      "National Commission"
+    ],
+    "entity_type": "organization",
+    "id": "soviet_national_commission",
+    "name": "Soviet National Commission to UNESCO",
+    "subtype": "organization",
+    "summary": "Soviet body managing UNESCO relations and History of Mankind contribution."
+  },
+  {
+    "aliases": [
+      "Vestnik",
+      "Herald of the History of World Culture"
+    ],
+    "entity_type": "artifact",
+    "id": "vestnik_istorii_mirovoi_kultury",
+    "name": "Vestnik istorii mirovoi kul'tury",
+    "subtype": "publication",
+    "summary": "Soviet journal published for the UNESCO History of Mankind project."
+  },
+  {
+    "aliases": [
+      "Ware",
+      "Caroline Farrar Ware",
+      "Dr. Caroline Ware"
+    ],
+    "entity_type": "person",
+    "id": "caroline_ware",
+    "name": "Caroline F. Ware",
+    "subtype": "researcher",
+    "summary": "American cultural historian and principle editor of History of Mankind Volume VI."
+  },
+  {
+    "aliases": [
+      "Maheu"
+    ],
+    "entity_type": "person",
+    "id": "rene_maheu",
+    "name": "René Maheu",
+    "subtype": "administrator",
+    "summary": "Director-general of UNESCO from 1961 to 1974."
+  },
+  {
+    "aliases": [
+      "Zvorykin",
+      "Anatolii Alekseevich Zvorykin",
+      "Professor A.A. Zvorikine"
+    ],
+    "entity_type": "person",
+    "id": "a_a_zvorykin",
+    "name": "A. A. Zvorykin",
+    "subtype": "researcher",
+    "summary": "Soviet professor of history of technology and chairman of Soviet National Commission."
+  },
+  {
+    "aliases": [
+      "Kedrov",
+      "B. M. Kedrov"
+    ],
+    "entity_type": "person",
+    "id": "b_m_kedrov",
+    "name": "Bonifatii Mikhailovich Kedrov",
+    "subtype": "researcher",
+    "summary": "Soviet professor of history of the philosophy of science and member of Soviet National Commission."
+  },
+  {
+    "aliases": [
+      "Oizerman"
+    ],
+    "entity_type": "person",
+    "id": "t_oizerman",
+    "name": "T. Oizerman",
+    "subtype": "researcher",
+    "summary": "Soviet academic who engaged in polemic with Huxley in 1967."
+  },
+  {
+    "aliases": [
+      "Literary Gazette"
+    ],
+    "entity_type": "organization",
+    "id": "literaturnaia_gazeta",
+    "name": "Literaturnaia gazeta",
+    "subtype": "publication",
+    "summary": "Soviet newspaper that published the Huxley-Oizerman polemic."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "France",
+      "lat": 48.85667,
+      "lng": 2.35222,
+      "wikidata_qid": "Q90",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "paris",
+    "name": "Paris",
+    "subtype": "city",
+    "summary": "Capital city of France and location of UNESCO headquarters."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Soviet Union",
+      "lat": 55.75056,
+      "lng": 37.6175,
+      "wikidata_qid": "Q649",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "moscow",
+    "name": "Moscow",
+    "subtype": "city",
+    "summary": "Capital city of the Soviet Union."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Poland"
+    },
+    "entity_type": "place",
+    "id": "wroclaw",
+    "name": "Wroclaw",
+    "subtype": "city",
+    "summary": "City in Poland where the 1948 World Congress of Intellectuals for Peace was held."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Germany",
+      "lat": 52.51667,
+      "lng": 13.38333,
+      "wikidata_qid": "Q64",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "berlin",
+    "name": "Berlin",
+    "subtype": "city",
+    "summary": "Capital city of Germany, location of the 1950 Congress for Cultural Freedom."
+  },
+  {
+    "aliases": [
+      "Yale"
+    ],
+    "entity_type": "organization",
+    "id": "yale_university",
+    "name": "Yale University",
+    "subtype": "university",
+    "summary": "American university where Caroline Ware was a cultural historian."
+  }
+]

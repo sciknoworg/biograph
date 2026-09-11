@@ -1,0 +1,343 @@
+[
+  {
+    "aliases": [
+      "Dr Joseph Murray",
+      "Joe",
+      "Murray"
+    ],
+    "entity_type": "person",
+    "id": "joseph_murray",
+    "name": "Joseph Murray",
+    "subtype": "researcher",
+    "summary": "American surgeon who performed the first successful human organ transplant and won the 1990 Nobel Prize in Physiology or Medicine."
+  },
+  {
+    "aliases": [
+      "Woods"
+    ],
+    "entity_type": "person",
+    "id": "charles_woods",
+    "name": "Charles Woods",
+    "subtype": "patient",
+    "summary": "Burn patient treated by Murray at Valley Forge General Hospital during World War II."
+  },
+  {
+    "aliases": [
+      "Dr James Barrett Brown",
+      "Dr Brown"
+    ],
+    "entity_type": "person",
+    "id": "james_barrett_brown",
+    "name": "James Barrett Brown",
+    "subtype": "researcher",
+    "summary": "Chief of surgery at Valley Forge General Hospital who shared experiences treating burn patients with Murray."
+  },
+  {
+    "aliases": [
+      "Prof Thomas Gibson"
+    ],
+    "entity_type": "person",
+    "id": "thomas_gibson",
+    "name": "Thomas Gibson",
+    "subtype": "researcher",
+    "summary": "Researcher whose experiments on skin allograft rejection influenced Murray's understanding of immunologic processes."
+  },
+  {
+    "aliases": [
+      "Sir Peter Medawar"
+    ],
+    "entity_type": "person",
+    "id": "peter_medawar",
+    "name": "Peter Medawar",
+    "subtype": "researcher",
+    "summary": "Researcher whose experiments on skin allograft rejection influenced Murray's understanding of immunologic processes."
+  },
+  {
+    "aliases": [
+      "Richard"
+    ],
+    "entity_type": "person",
+    "id": "richard_herrick",
+    "name": "Richard Herrick",
+    "subtype": "patient",
+    "summary": "Patient with renal failure who received the first successful kidney transplant from his identical twin in 1954."
+  },
+  {
+    "aliases": [
+      "Ronald"
+    ],
+    "entity_type": "person",
+    "id": "ronald_herrick",
+    "name": "Ronald Herrick",
+    "subtype": "patient",
+    "summary": "Healthy twin brother who donated a kidney to Richard Herrick in the first successful human kidney transplant."
+  },
+  {
+    "aliases": [
+      "Dr J Hartwell Harrison",
+      "Harrison"
+    ],
+    "entity_type": "person",
+    "id": "j_hartwell_harrison",
+    "name": "J Hartwell Harrison",
+    "subtype": "researcher",
+    "summary": "Surgeon who led the donor's surgical team in the first successful kidney transplant."
+  },
+  {
+    "aliases": [
+      "Riteris"
+    ],
+    "entity_type": "person",
+    "id": "john_riteris",
+    "name": "John Riteris",
+    "subtype": "patient",
+    "summary": "24-year-old recipient of a kidney transplant between non-genetically identical twins who lived 29 years after the transplant."
+  },
+  {
+    "aliases": [
+      "Dr Robert S Schwartz"
+    ],
+    "entity_type": "person",
+    "id": "robert_s_schwartz",
+    "name": "Robert S Schwartz",
+    "subtype": "researcher",
+    "summary": "Researcher who used 6-mercaptopurine to prevent antibody production in rabbits, contributing to immunosuppression development."
+  },
+  {
+    "aliases": [
+      "Dr William Dameshek"
+    ],
+    "entity_type": "person",
+    "id": "william_dameshek",
+    "name": "William Dameshek",
+    "subtype": "researcher",
+    "summary": "Researcher who used 6-mercaptopurine to prevent antibody production in rabbits, contributing to immunosuppression development."
+  },
+  {
+    "aliases": [
+      "Calne"
+    ],
+    "entity_type": "person",
+    "id": "roy_calne",
+    "name": "Roy Calne",
+    "subtype": "researcher",
+    "summary": "British researcher who developed azathioprine, a less toxic immunosuppressant used in kidney transplantation."
+  },
+  {
+    "aliases": [
+      "Doucette"
+    ],
+    "entity_type": "person",
+    "id": "mel_doucette",
+    "name": "Mel Doucette",
+    "subtype": "patient",
+    "summary": "23-year-old patient who survived for over a year following the first successful renal allograft with immunosuppressive therapy."
+  },
+  {
+    "aliases": [
+      "Dr Edward Donnall Thomas"
+    ],
+    "entity_type": "person",
+    "id": "edward_donall_thomas",
+    "name": "Edward Donnall Thomas",
+    "subtype": "researcher",
+    "summary": "Co-recipient with Murray of the 1990 Nobel Prize in Physiology or Medicine for contributions to transplantation medicine."
+  },
+  {
+    "aliases": [
+      "Dr Francis Moore",
+      "Moore"
+    ],
+    "entity_type": "person",
+    "id": "francis_moore",
+    "name": "Francis Moore",
+    "subtype": "researcher",
+    "summary": "Friend and colleague of Murray who commented on Murray's Nobel Prize achievement."
+  },
+  {
+    "aliases": [
+      "Dr Leo Loeb"
+    ],
+    "entity_type": "person",
+    "id": "leo_loeb",
+    "name": "Leo Loeb",
+    "subtype": "researcher",
+    "summary": "Basic scientist who stated in his book that transplantation between individual humans would never be possible."
+  },
+  {
+    "aliases": [
+      "Prof Tan Siang Yong",
+      "Tan"
+    ],
+    "entity_type": "person",
+    "id": "siang_yong_tan",
+    "name": "Siang Yong Tan",
+    "subtype": "researcher",
+    "summary": "Emeritus Professor of Medicine at University of Hawaii and author of this biographical article."
+  },
+  {
+    "aliases": [
+      "Merchant"
+    ],
+    "entity_type": "person",
+    "id": "jason_merchant",
+    "name": "Jason Merchant",
+    "subtype": "researcher",
+    "summary": "Co-author of this biographical article about Joseph Murray."
+  },
+  {
+    "aliases": [
+      "Milford, Massachusetts"
+    ],
+    "attributes": {
+      "country": "United States",
+      "state": "Massachusetts",
+      "lat": 41.22417,
+      "lng": -73.05972,
+      "wikidata_qid": "Q755798",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "milford_massachusetts",
+    "name": "Milford",
+    "subtype": "town",
+    "summary": "Town in Massachusetts where Joseph Murray was born."
+  },
+  {
+    "aliases": [
+      "Boston, Massachusetts"
+    ],
+    "attributes": {
+      "country": "United States",
+      "state": "Massachusetts",
+      "lat": 42.36028,
+      "lng": -71.05778,
+      "wikidata_qid": "Q100",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "boston_massachusetts",
+    "name": "Boston",
+    "subtype": "city",
+    "summary": "City in Massachusetts where Murray studied and worked at multiple institutions."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United States",
+      "lat": 41.0,
+      "lng": -77.5,
+      "wikidata_qid": "Q1400",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "pennsylvania",
+    "name": "Pennsylvania",
+    "subtype": "state",
+    "summary": "US state where Valley Forge General Hospital was located."
+  },
+  {
+    "aliases": [
+      "Holy Cross"
+    ],
+    "entity_type": "organization",
+    "id": "college_holy_cross",
+    "name": "College of the Holy Cross",
+    "subtype": "university",
+    "summary": "Small liberal arts college in Massachusetts where Murray attended undergraduate studies."
+  },
+  {
+    "aliases": [
+      "Harvard"
+    ],
+    "entity_type": "organization",
+    "id": "harvard_medical_school",
+    "name": "Harvard Medical School",
+    "subtype": "university",
+    "summary": "Medical school where Murray received his medical education."
+  },
+  {
+    "aliases": [
+      "Brigham Hospital"
+    ],
+    "entity_type": "organization",
+    "id": "peter_bent_brigham_hospital",
+    "name": "Peter Bent Brigham Hospital",
+    "subtype": "hospital",
+    "summary": "Boston hospital where Murray did his surgical internship and later served as chief of transplant surgery."
+  },
+  {
+    "aliases": [
+      "Valley Forge"
+    ],
+    "entity_type": "organization",
+    "id": "valley_forge_general_hospital",
+    "name": "Valley Forge General Hospital",
+    "subtype": "hospital",
+    "summary": "Major plastic surgery centre in Pennsylvania where Murray was stationed during World War II."
+  },
+  {
+    "aliases": [
+      "Boston Children's Hospital"
+    ],
+    "entity_type": "organization",
+    "id": "boston_childrens_hospital",
+    "name": "Boston Children's Hospital Medical Center",
+    "subtype": "hospital",
+    "summary": "Boston hospital where Murray became chief of plastic surgery in 1971."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "international_renal_transplant_registry",
+    "name": "International Renal Transplant Registry",
+    "subtype": "organization",
+    "summary": "Registry established following the success of renal transplantation protocols."
+  },
+  {
+    "aliases": [
+      "Nobel Foundation"
+    ],
+    "entity_type": "organization",
+    "id": "nobel_foundation",
+    "name": "The Nobel Foundation",
+    "subtype": "organization",
+    "summary": "Organization that awards the Nobel Prize in Physiology or Medicine."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "university_hawaii",
+    "name": "University of Hawaii",
+    "subtype": "university",
+    "summary": "University where article authors Siang Yong Tan and Jason Merchant were affiliated."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "biological_basis_individuality",
+    "name": "The Biological Basis of Individuality",
+    "subtype": "publication",
+    "summary": "Book by Dr Leo Loeb that stated transplantation between individual humans would never be possible."
+  },
+  {
+    "aliases": [
+      "Surgery of the Soul"
+    ],
+    "entity_type": "artifact",
+    "id": "surgery_of_soul",
+    "name": "Surgery of the Soul: Reflections on a Curious Career",
+    "subtype": "publication",
+    "summary": "Murray's autobiography published in 2001 recounting his career and patient encounters."
+  },
+  {
+    "aliases": [
+      "Nobel Prize"
+    ],
+    "entity_type": "artifact",
+    "id": "nobel_prize_1990",
+    "name": "Nobel Prize in Physiology or Medicine 1990",
+    "subtype": "award",
+    "summary": "Nobel Prize awarded to Murray and Edward Donnall Thomas in 1990 for contributions to transplantation medicine."
+  }
+]

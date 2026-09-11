@@ -1,0 +1,282 @@
+[
+  {
+    "id": "christiaan_neethling_barnard",
+    "entity_type": "person",
+    "name": "Christiaan Neethling Barnard",
+    "aliases": [
+      "Christiaan Barnard",
+      "Chris Barnard",
+      "Barnard",
+      "Dr Barnard"
+    ],
+    "summary": "South African cardiac surgeon who performed the first human-to-human heart transplant.",
+    "subtype": "surgeon"
+  },
+  {
+    "id": "louis_washkansky",
+    "entity_type": "person",
+    "name": "Louis Washkansky",
+    "aliases": [
+      "Washkansky"
+    ],
+    "summary": "First human heart transplant recipient.",
+    "subtype": "patient"
+  },
+  {
+    "id": "philip_blaiberg",
+    "entity_type": "person",
+    "name": "Philip Blaiberg",
+    "aliases": [
+      "Blaiberg"
+    ],
+    "summary": "Second human heart transplant recipient.",
+    "subtype": "patient"
+  },
+  {
+    "id": "marius_barnard",
+    "entity_type": "person",
+    "name": "Marius Barnard",
+    "aliases": [
+      "Barnard's brother"
+    ],
+    "summary": "Cardiac surgeon and brother of Christiaan Barnard.",
+    "subtype": "surgeon"
+  },
+  {
+    "id": "richard_varco",
+    "entity_type": "person",
+    "name": "Richard Varco",
+    "aliases": [
+      "Varco"
+    ],
+    "summary": "Surgeon who directed the Department of Surgery at University of Minnesota.",
+    "subtype": "surgeon"
+  },
+  {
+    "id": "c_walton_lillehei",
+    "entity_type": "person",
+    "name": "C. Walton Lillehei",
+    "aliases": [
+      "Lillehei"
+    ],
+    "summary": "Surgeon who directed the Department of Surgery at University of Minnesota.",
+    "subtype": "surgeon"
+  },
+  {
+    "id": "jacques_losman",
+    "entity_type": "person",
+    "name": "Jacques Losman",
+    "aliases": [
+      "Losman"
+    ],
+    "summary": "Junior colleague of Barnard who co-developed heterotopic heart transplantation.",
+    "subtype": "surgeon"
+  },
+  {
+    "id": "david_kc_cooper",
+    "entity_type": "person",
+    "name": "David K.C. Cooper",
+    "aliases": [
+      "Cooper"
+    ],
+    "summary": "Co-author of the In Memoriam article.",
+    "subtype": "author"
+  },
+  {
+    "id": "denton_a_cooley",
+    "entity_type": "person",
+    "name": "Denton A. Cooley",
+    "aliases": [
+      "Cooley"
+    ],
+    "summary": "Co-author of the In Memoriam article.",
+    "subtype": "author"
+  },
+  {
+    "id": "jacques_chirac",
+    "entity_type": "person",
+    "name": "Jacques Chirac",
+    "aliases": [
+      "French President Jacques Chirac",
+      "Chirac"
+    ],
+    "summary": "French President who honored Barnard.",
+    "subtype": "politician"
+  },
+  {
+    "id": "beaufort_west",
+    "entity_type": "place",
+    "name": "Beaufort West",
+    "aliases": [],
+    "summary": "Small country town in South Africa where Barnard was born.",
+    "subtype": "town",
+    "attributes": {
+      "country": "South Africa",
+      "lat": -32.35,
+      "lng": 22.58333,
+      "wikidata_qid": "Q813395",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "south_africa",
+    "entity_type": "place",
+    "name": "South Africa",
+    "aliases": [],
+    "summary": "Country where Barnard was born and worked.",
+    "subtype": "country",
+    "attributes": {
+      "lat": -29.0,
+      "lng": 24.0,
+      "wikidata_qid": "Q258",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "cyprus",
+    "entity_type": "place",
+    "name": "Cyprus",
+    "aliases": [],
+    "summary": "Location of Barnard's death.",
+    "subtype": "country",
+    "attributes": {
+      "lat": 35.0,
+      "lng": 33.0,
+      "wikidata_qid": "Q229",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "cape_town",
+    "entity_type": "place",
+    "name": "Cape Town",
+    "aliases": [],
+    "summary": "City where Barnard worked and lived.",
+    "subtype": "city",
+    "attributes": {
+      "country": "South Africa",
+      "lat": -33.92528,
+      "lng": 18.42389,
+      "wikidata_qid": "Q5465",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "university_of_cape_town_medical_school",
+    "entity_type": "organization",
+    "name": "University of Cape Town Medical School",
+    "aliases": [
+      "University of Cape Town"
+    ],
+    "summary": "Medical school where Barnard graduated as a doctor.",
+    "subtype": "university"
+  },
+  {
+    "id": "groote_schuur_hospital",
+    "entity_type": "organization",
+    "name": "Groote Schuur Hospital",
+    "aliases": [
+      "Groote Schuur"
+    ],
+    "summary": "Hospital in Cape Town where Barnard worked.",
+    "subtype": "hospital"
+  },
+  {
+    "id": "university_of_minnesota_medical_school",
+    "entity_type": "organization",
+    "name": "University of Minnesota Medical School",
+    "aliases": [
+      "University of Minnesota"
+    ],
+    "summary": "Medical school where Barnard received a scholarship.",
+    "subtype": "university"
+  },
+  {
+    "id": "red_cross_childrens_hospital",
+    "entity_type": "organization",
+    "name": "Red Cross Children's Hospital",
+    "aliases": [],
+    "summary": "Hospital in Cape Town where Barnard worked.",
+    "subtype": "hospital"
+  },
+  {
+    "id": "texas_heart_institute",
+    "entity_type": "organization",
+    "name": "Texas Heart Institute",
+    "aliases": [],
+    "summary": "Institute where Marius Barnard trained.",
+    "subtype": "institute"
+  },
+  {
+    "id": "medical_college_of_virginia",
+    "entity_type": "organization",
+    "name": "Medical College of Virginia",
+    "aliases": [],
+    "summary": "College where Barnard gained experience with immunosuppressive regimens.",
+    "subtype": "college"
+  },
+  {
+    "id": "cape_times",
+    "entity_type": "organization",
+    "name": "Cape Times",
+    "aliases": [],
+    "summary": "Newspaper for which Barnard contributed a weekly column.",
+    "subtype": "newspaper"
+  },
+  {
+    "id": "clinique_la_prairie",
+    "entity_type": "organization",
+    "name": "Clinique La Prairie",
+    "aliases": [],
+    "summary": "Swiss clinic linked to Barnard's controversial rejuvenation therapy.",
+    "subtype": "clinic"
+  },
+  {
+    "id": "oklahoma_transplantation_institute",
+    "entity_type": "organization",
+    "name": "Oklahoma Transplantation Institute",
+    "aliases": [],
+    "summary": "Institute in Oklahoma City Barnard advised.",
+    "subtype": "institute"
+  },
+  {
+    "id": "christiaan_barnard_foundation",
+    "entity_type": "organization",
+    "name": "Christiaan Barnard Foundation",
+    "aliases": [],
+    "summary": "Foundation established by Barnard to fund charitable causes.",
+    "subtype": "foundation"
+  },
+  {
+    "id": "one_life",
+    "entity_type": "artifact",
+    "name": "One Life",
+    "aliases": [],
+    "summary": "Barnard's autobiography published in 1970.",
+    "subtype": "book"
+  },
+  {
+    "id": "the_second_life",
+    "entity_type": "artifact",
+    "name": "The Second Life",
+    "aliases": [],
+    "summary": "Barnard's sequel autobiography.",
+    "subtype": "book"
+  },
+  {
+    "id": "glycel",
+    "entity_type": "artifact",
+    "name": "Glycel",
+    "aliases": [],
+    "summary": "Cream purported to help prevent aging of the skin.",
+    "subtype": "product"
+  },
+  {
+    "id": "circulation",
+    "entity_type": "artifact",
+    "name": "Circulation",
+    "aliases": [],
+    "summary": "Journal where the In Memoriam article was published.",
+    "subtype": "journal"
+  }
+]

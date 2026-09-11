@@ -1,0 +1,187 @@
+[
+  {
+    "id": "huxley_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1887",
+      "precision": "year",
+      "sort_start": "1887-01-01",
+      "sort_end": "1887-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julian_huxley",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "noticias_de_galapagos_35",
+        "page": 28,
+        "quote": "(1887-1975)"
+      }
+    ]
+  },
+  {
+    "id": "huxley_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1975",
+      "precision": "year",
+      "sort_start": "1975-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julian_huxley",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "noticias_de_galapagos_35",
+        "page": 28,
+        "quote": "(1887-1975)"
+      }
+    ]
+  },
+  {
+    "id": "huxley_speaker_congress_1958",
+    "event_type": "conference",
+    "label": "Principal speaker at International Zoological Congress",
+    "date": {
+      "display": "1958",
+      "precision": "year",
+      "sort_start": "1958-01-01",
+      "sort_end": "1958-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julian_huxley",
+        "role": "subject"
+      },
+      {
+        "entity_id": "international_zoological_congress",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "noticias_de_galapagos_35",
+        "page": 28,
+        "quote": "principal speaker at the International Zoological Congress, held in 1958"
+      }
+    ]
+  },
+  {
+    "id": "galapagos_committee_established_1958",
+    "event_type": "company_founded",
+    "label": "Galapagos Committee set up",
+    "date": {
+      "display": "1958",
+      "precision": "year",
+      "sort_start": "1958-01-01",
+      "sort_end": "1958-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "galapagos_committee",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "noticias_de_galapagos_35",
+        "page": 28,
+        "quote": "set up a Galapagos Committee"
+      }
+    ]
+  },
+  {
+    "id": "huxley_chairman_galapagos_committee_1958",
+    "event_type": "role_change",
+    "label": "Became Chairman of Galapagos Committee",
+    "date": {
+      "display": "1958",
+      "precision": "year",
+      "sort_start": "1958-01-01",
+      "sort_end": "1958-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julian_huxley",
+        "role": "subject"
+      },
+      {
+        "entity_id": "galapagos_committee",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "noticias_de_galapagos_35",
+        "page": 28,
+        "quote": "set up a Galapagos Committee of which Sir Julian became Chairman."
+      }
+    ]
+  },
+  {
+    "id": "huxley_chairman_london_committee_1938",
+    "event_type": "role_change",
+    "label": "Served as chairman of London Committee for the Galapagos",
+    "description": "Twenty years earlier than 1958.",
+    "date": {
+      "display": "c. 1938",
+      "precision": "circa",
+      "sort_start": "1938-01-01",
+      "sort_end": "1938-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julian_huxley",
+        "role": "subject"
+      },
+      {
+        "entity_id": "london_committee_galapagos",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "noticias_de_galapagos_35",
+        "page": 28,
+        "quote": "Twenty years earlier he had served as chairman of the London Committee for the Galapagos"
+      }
+    ]
+  },
+  {
+    "id": "huxley_joined_cdf_1959",
+    "event_type": "employment_start",
+    "label": "Joined organising committee of Charles Darwin Foundation",
+    "date": {
+      "display": "1959",
+      "precision": "year",
+      "sort_start": "1959-01-01",
+      "sort_end": "1959-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julian_huxley",
+        "role": "subject"
+      },
+      {
+        "entity_id": "charles_darwin_foundation",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "noticias_de_galapagos_35",
+        "page": 28,
+        "quote": "In 1959 he joined the organising committee of the Charles Darwin Foundation and became its Honorary President."
+      }
+    ]
+  }
+]

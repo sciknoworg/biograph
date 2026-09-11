@@ -1,0 +1,385 @@
+[
+  {
+    "id": "benzer_birth",
+    "event_type": "birth",
+    "label": "Born in South Bronx",
+    "date": {
+      "display": "1921",
+      "precision": "year",
+      "sort_start": "1921-01-01",
+      "sort_end": "1921-12-31"
+    },
+    "location": "south_bronx",
+    "participants": [
+      {
+        "entity_id": "seymour_benzer",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "harris_2008",
+        "page": 1,
+        "quote": "Seymour Benzer was born in 1921 in the South Bronx, New York"
+      }
+    ]
+  },
+  {
+    "id": "benzer_college_start",
+    "event_type": "education",
+    "label": "Entered Brooklyn College",
+    "date": {
+      "display": "1938",
+      "precision": "year",
+      "sort_start": "1938-01-01",
+      "sort_end": "1938-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "seymour_benzer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "brooklyn_college",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "harris_2008",
+        "page": 1,
+        "quote": "With a Regents Scholarship to Brooklyn College in 1938"
+      }
+    ]
+  },
+  {
+    "id": "benzer_marriage_dotty",
+    "event_type": "other",
+    "label": "Married Dorothy Vlosky",
+    "date": {
+      "display": "1942",
+      "precision": "year",
+      "sort_start": "1942-01-01",
+      "sort_end": "1942-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "seymour_benzer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "dorothy_vlosky",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "harris_2008",
+        "page": 1,
+        "quote": "married her in 1942"
+      }
+    ]
+  },
+  {
+    "id": "benzer_move_purdue",
+    "event_type": "relocation",
+    "label": "Moved to Lafayette, Indiana",
+    "date": {
+      "display": "1942",
+      "precision": "year",
+      "sort_start": "1942-01-01",
+      "sort_end": "1942-12-31"
+    },
+    "location": "lafayette_indiana",
+    "participants": [
+      {
+        "entity_id": "seymour_benzer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "purdue_university",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "harris_2008",
+        "page": 1,
+        "quote": "departure to Lafayette, Indiana, where Seymour was to continue his career as a graduate student in physics at Purdue"
+      }
+    ]
+  },
+  {
+    "id": "benzer_thesis_defence",
+    "event_type": "other",
+    "label": "Thesis defence",
+    "date": {
+      "display": "1947",
+      "precision": "year",
+      "sort_start": "1947-01-01",
+      "sort_end": "1947-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "seymour_benzer",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "harris_2008",
+        "page": 1,
+        "quote": "In 1948, a year after Seymour's thesis defence"
+      }
+    ]
+  },
+  {
+    "id": "benzer_return_purdue",
+    "event_type": "employment_start",
+    "label": "Returned to Purdue",
+    "date": {
+      "display": "1952",
+      "precision": "year",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "seymour_benzer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "purdue_university",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "harris_2008",
+        "page": 2,
+        "quote": "When he eventually did return to Purdue in 1952"
+      }
+    ]
+  },
+  {
+    "id": "benzer_sabbatical_caltech",
+    "event_type": "visit",
+    "label": "Sabbatical at Caltech",
+    "date": {
+      "display": "1966",
+      "precision": "year",
+      "sort_start": "1966-01-01",
+      "sort_end": "1966-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "seymour_benzer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "caltech",
+        "role": "employer"
+      },
+      {
+        "entity_id": "roger_sperry",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "harris_2008",
+        "page": 2,
+        "quote": "In 1966, he took a sabbatical from Purdue to begin this quest in Roger Sperry's lab at Caltech."
+      }
+    ]
+  },
+  {
+    "id": "benzer_caltech_professor",
+    "event_type": "employment_start",
+    "label": "Accepted Professor position at Caltech",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "seymour_benzer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "caltech",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "harris_2008",
+        "page": 2,
+        "quote": "Seymour accepted a position as a Professor of Biology at Caltech the following year."
+      }
+    ]
+  },
+  {
+    "id": "benzer_award_gairdner_1964",
+    "event_type": "award",
+    "label": "Won Gairdner Award",
+    "date": {
+      "display": "1964",
+      "precision": "year",
+      "sort_start": "1964-01-01",
+      "sort_end": "1964-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "seymour_benzer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "gairdner_foundation",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "gairdner_award",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "harris_2008",
+        "page": 3,
+        "quote": "He won the Gairdner Foundation International Award twice (first for molecular biology in 1964"
+      }
+    ]
+  },
+  {
+    "id": "benzer_award_lasker",
+    "event_type": "award",
+    "label": "Won Albert Lasker Award",
+    "date": {
+      "display": "1971",
+      "precision": "year",
+      "sort_start": "1971-01-01",
+      "sort_end": "1971-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "seymour_benzer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lasker_award",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "harris_2008",
+        "page": 3,
+        "quote": "He also won the Albert Lasker Award for Basic Medical Research (1971)"
+      }
+    ]
+  },
+  {
+    "id": "benzer_award_crafoord",
+    "event_type": "award",
+    "label": "Won Crafoord Prize",
+    "date": {
+      "display": "1993",
+      "precision": "year",
+      "sort_start": "1993-01-01",
+      "sort_end": "1993-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "seymour_benzer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_swedish_academy_of_sciences",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "crafoord_prize",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "harris_2008",
+        "page": 3,
+        "quote": "the Crafoord Prize (1993) from the Royal Swedish Academy of Sciences"
+      }
+    ]
+  },
+  {
+    "id": "benzer_award_albany",
+    "event_type": "award",
+    "label": "Won Albany Medical Center Prize",
+    "date": {
+      "display": "2006",
+      "precision": "year",
+      "sort_start": "2006-01-01",
+      "sort_end": "2006-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "seymour_benzer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "albany_medical_center",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "albany_prize",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "harris_2008",
+        "page": 3,
+        "quote": "the Albany Medical Center Prize (2006)"
+      }
+    ]
+  },
+  {
+    "id": "benzer_death",
+    "event_type": "death",
+    "label": "Died of stroke",
+    "date": {
+      "display": "2007",
+      "precision": "year",
+      "sort_start": "2007-01-01",
+      "sort_end": "2007-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "seymour_benzer",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "harris_2008",
+        "page": 3,
+        "quote": "he suddenly died of a stroke at 86."
+      }
+    ]
+  }
+]

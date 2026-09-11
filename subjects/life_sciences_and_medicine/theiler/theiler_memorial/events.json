@@ -1,0 +1,687 @@
+[
+  {
+    "id": "birth",
+    "event_type": "birth",
+    "label": "Born in Daspoort",
+    "date": {
+      "display": "30th January, 1899",
+      "precision": "day",
+      "sort_start": "1899-01-30",
+      "sort_end": "1899-01-30"
+    },
+    "location": "daspoort",
+    "participants": [
+      {
+        "entity_id": "max_theiler",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "Born on 30th January, 1899, at Daspoort in the District of Pretoria, Transvaal, Max Theiler was the youngest child of Arnold Theiler and Emma Jegge."
+      }
+    ]
+  },
+  {
+    "id": "education_pretoria",
+    "event_type": "education",
+    "label": "Attended schools in Pretoria",
+    "date": {
+      "display": "early childhood",
+      "precision": "decade",
+      "sort_start": "1900-01-01",
+      "sort_end": "1919-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "max_theiler",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "His junior schooldays were spent at Loreto Convent, later, in senior school, he was a pupil at the Pretoria Boy's High School."
+      }
+    ]
+  },
+  {
+    "id": "education_university",
+    "event_type": "education",
+    "label": "Attended Rhodes University and South African College",
+    "date": {
+      "display": "university career",
+      "precision": "decade",
+      "sort_start": "1910-01-01",
+      "sort_end": "1919-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "max_theiler",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "He commenced his university career by attending first Rhodes University, Grahamstown and later the South African College, Cape Town, where he completed his two year premedical course."
+      }
+    ]
+  },
+  {
+    "id": "influenza_epidemic",
+    "event_type": "other",
+    "label": "Assisted during influenza epidemic",
+    "date": {
+      "display": "1918",
+      "precision": "year",
+      "sort_start": "1918-01-01",
+      "sort_end": "1918-12-31"
+    },
+    "location": "cape_town",
+    "participants": [
+      {
+        "entity_id": "max_theiler",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "During the 1918 epidemic of influenza, all registered medical students, if not ill themselves, where called upon to assist the few remaining healthy doctors to minister the sick in the poorer areas of Cape Town."
+      }
+    ]
+  },
+  {
+    "id": "st_thomas_entry",
+    "event_type": "education",
+    "label": "Entered St. Thomas London",
+    "date": {
+      "display": "after World War I",
+      "precision": "year",
+      "sort_start": "1918-11-12",
+      "sort_end": "1919-12-31"
+    },
+    "location": "london",
+    "participants": [
+      {
+        "entity_id": "max_theiler",
+        "role": "subject"
+      },
+      {
+        "entity_id": "st_thomas_london",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "after the termination of World War I he entered St. Thomas London, where he qualified as a licensed practitioner."
+      }
+    ]
+  },
+  {
+    "id": "tropical_medicine_course",
+    "event_type": "education",
+    "label": "Took course in tropical medicine",
+    "date": {
+      "display": "four months course",
+      "precision": "year",
+      "sort_start": "1919-01-01",
+      "sort_end": "1922-12-31"
+    },
+    "location": "london",
+    "participants": [
+      {
+        "entity_id": "max_theiler",
+        "role": "subject"
+      },
+      {
+        "entity_id": "london_school_tropical_medicine",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "the decision to take a four months course in tropical medicine and hygiene at the London School of Tropical Medicine no doubt opened the door to his future career."
+      }
+    ]
+  },
+  {
+    "id": "usa_move",
+    "event_type": "relocation",
+    "label": "Set sail for United States",
+    "date": {
+      "display": "1922",
+      "precision": "year",
+      "sort_start": "1922-01-01",
+      "sort_end": "1922-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "max_theiler",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "In 1922 Max set sail for the United States and joined the staff of the bacteriologist, Dr. Andrew Sellards, to form an association that was to last until 1930."
+      }
+    ]
+  },
+  {
+    "id": "sellards_association",
+    "event_type": "employment_start",
+    "label": "Joined Andrew Sellards staff",
+    "date": {
+      "display": "1922",
+      "precision": "year",
+      "sort_start": "1922-01-01",
+      "sort_end": "1922-12-31"
+    },
+    "location": "boston",
+    "participants": [
+      {
+        "entity_id": "max_theiler",
+        "role": "subject"
+      },
+      {
+        "entity_id": "andrew_sellards",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "In 1922 Max set sail for the United States and joined the staff of the bacteriologist, Dr. Andrew Sellards, to form an association that was to last until 1930."
+      }
+    ]
+  },
+  {
+    "id": "african_expedition",
+    "event_type": "visit",
+    "label": "Harvard sponsored African expedition",
+    "date": {
+      "display": "1926 to 1927",
+      "precision": "range",
+      "sort_start": "1926-01-01",
+      "sort_end": "1927-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "max_theiler",
+        "role": "subject"
+      },
+      {
+        "entity_id": "r_strong",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "During the period from 1926 to 1927, under the leadership of R. Strong, Harvard sponsored an African expedition to the Republic of Liberia, the Belgian Congo, Uganda and Kenya."
+      }
+    ]
+  },
+  {
+    "id": "marriage",
+    "event_type": "other",
+    "label": "Married Lillian Graham",
+    "date": {
+      "display": "1928",
+      "precision": "year",
+      "sort_start": "1928-01-01",
+      "sort_end": "1928-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "max_theiler",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lillian_graham",
+        "role": "family_of"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "In 1928 Max Theiler married Lillian Graham; their son, Arnold, was born in 1929."
+      }
+    ]
+  },
+  {
+    "id": "son_arnold_birth",
+    "event_type": "other",
+    "label": "Son Arnold born",
+    "date": {
+      "display": "1929",
+      "precision": "year",
+      "sort_start": "1929-01-01",
+      "sort_end": "1929-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "max_theiler",
+        "role": "subject"
+      },
+      {
+        "entity_id": "arnold_theiler_jr",
+        "role": "family_of"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "In 1928 Max Theiler married Lillian Graham; their son, Arnold, was born in 1929."
+      }
+    ]
+  },
+  {
+    "id": "yellow_fever_virus_theory",
+    "event_type": "invention",
+    "label": "Adapted virus to mouse brain tissue",
+    "date": {
+      "display": "1928",
+      "precision": "year",
+      "sort_start": "1928-01-01",
+      "sort_end": "1928-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "max_theiler",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "Not only did Theiler succeed, but he was able to adapt the virus to brain tissue of the Swiss strain of white mice by means of serial passage."
+      }
+    ]
+  },
+  {
+    "id": "rockefeller_start",
+    "event_type": "employment_start",
+    "label": "Offered post at Rockefeller Foundation",
+    "date": {
+      "display": "1930",
+      "precision": "year",
+      "sort_start": "1930-01-01",
+      "sort_end": "1930-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "max_theiler",
+        "role": "subject"
+      },
+      {
+        "entity_id": "rockefeller_foundation",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "In 1930 Theiler was offered a post under William Sawyer at the Rockefeller Foundation where he continued his work on yellow fever and other viruses."
+      }
+    ]
+  },
+  {
+    "id": "son_arnold_death",
+    "event_type": "death",
+    "label": "Son Arnold died in motor accident",
+    "date": {
+      "display": "1937",
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1937-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "arnold_theiler_jr",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "Tragedy unfortunately struck the family through the untimely death of young Arnold in a motor accident in 1937."
+      }
+    ]
+  },
+  {
+    "id": "daughter_elizabeth_birth",
+    "event_type": "other",
+    "label": "Daughter Elizabeth born",
+    "date": {
+      "display": "1939",
+      "precision": "year",
+      "sort_start": "1939-01-01",
+      "sort_end": "1939-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "max_theiler",
+        "role": "subject"
+      },
+      {
+        "entity_id": "elizabeth_theiler",
+        "role": "family_of"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "A daughter, Elizabeth, was born in 1939."
+      }
+    ]
+  },
+  {
+    "id": "x_17d_report",
+    "event_type": "publication",
+    "label": "Reported 17D strain attenuation",
+    "date": {
+      "display": "March 1937",
+      "precision": "month",
+      "sort_start": "1937-03-01",
+      "sort_end": "1937-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "max_theiler",
+        "role": "subject"
+      },
+      {
+        "entity_id": "smith",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "x_17d_strain",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "As result of his efforts the now famous 17D strain was developed and in March 1937 Theiler and Smith reported that they had produced an attenuated virus which was an efficient immunizing agent."
+      }
+    ]
+  },
+  {
+    "id": "vaccine_test_brazil",
+    "event_type": "public_demonstration",
+    "label": "Vaccine tested in Brazil",
+    "date": {
+      "display": "1937 to 1940",
+      "precision": "range",
+      "sort_start": "1937-01-01",
+      "sort_end": "1940-12-31"
+    },
+    "location": "brazil",
+    "participants": [
+      {
+        "entity_id": "max_theiler",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "During the years 1937 to 1940 the vaccine was tested under field conditions in Brazil with great success."
+      }
+    ]
+  },
+  {
+    "id": "congress_london",
+    "event_type": "conference",
+    "label": "Attended Second International Biological Congress",
+    "date": {
+      "display": "July, 1936",
+      "precision": "month",
+      "sort_start": "1936-07-01",
+      "sort_end": "1936-07-31"
+    },
+    "location": "london",
+    "participants": [
+      {
+        "entity_id": "max_theiler",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "In July, 1936, Max Theiler attended the Second International Biological Congress in London, where he reported on his studies on yellow fever."
+      }
+    ]
+  },
+  {
+    "id": "father_death",
+    "event_type": "death",
+    "label": "Father Arnold Theiler died",
+    "date": {
+      "display": "1936",
+      "precision": "year",
+      "sort_start": "1936-01-01",
+      "sort_end": "1936-12-31"
+    },
+    "location": "london",
+    "participants": [
+      {
+        "entity_id": "arnold_theiler",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "unfortunately this was not to be, for Sir Arnold passed away while in London, before he had presented his paper."
+      }
+    ]
+  },
+  {
+    "id": "nobel_prize",
+    "event_type": "award",
+    "label": "Awarded Nobel Prize",
+    "date": {
+      "display": "1951",
+      "precision": "year",
+      "sort_start": "1951-01-01",
+      "sort_end": "1951-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "max_theiler",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "Public recognition of the work and success which had been obtained with the control of yellow fever came in 1951 with the award of the Nobel Prize for Physiology and Medicine."
+      }
+    ]
+  },
+  {
+    "id": "hasle_citizenship",
+    "event_type": "award",
+    "label": "Received honorary citizenship of Hasle",
+    "date": {
+      "display": "August, 1955",
+      "precision": "month",
+      "sort_start": "1955-08-01",
+      "sort_end": "1955-08-31"
+    },
+    "location": "hasle",
+    "participants": [
+      {
+        "entity_id": "max_theiler",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "To this quiet-spoken, unassuming man perhaps one of the most enjoyable days of his life was on August, 1955 , when he received the honorary citizenship of the Theiler ancestral town of Hasle in Switzerwnd."
+      }
+    ]
+  },
+  {
+    "id": "rockefeller_board_end",
+    "event_type": "other",
+    "label": "Rockefeller International Health Board ceased",
+    "date": {
+      "display": "1958",
+      "precision": "year",
+      "sort_start": "1958-01-01",
+      "sort_end": "1958-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rockefeller_foundation",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "Gradually the Rockefeller International Health Board was phased out and eventually ceased to operate in 1958."
+      }
+    ]
+  },
+  {
+    "id": "yale_professor",
+    "event_type": "employment_start",
+    "label": "Became Professor of Epidemiology at Yale",
+    "date": {
+      "display": "after 1958",
+      "precision": "year",
+      "sort_start": "1958-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "max_theiler",
+        "role": "subject"
+      },
+      {
+        "entity_id": "yale_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "This move also suited Theiler, who became Professor of Epidemiology until 1967, when upon reaching the mandatory retiring age he was appointed Professor Emeritus."
+      }
+    ]
+  },
+  {
+    "id": "professor_emeritus",
+    "event_type": "retirement",
+    "label": "Appointed Professor Emeritus",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "max_theiler",
+        "role": "subject"
+      },
+      {
+        "entity_id": "yale_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "This move also suited Theiler, who became Professor of Epidemiology until 1967, when upon reaching the mandatory retiring age he was appointed Professor Emeritus."
+      }
+    ]
+  },
+  {
+    "id": "heart_attack",
+    "event_type": "other",
+    "label": "Suffered heart attack",
+    "date": {
+      "display": "end of 1971",
+      "precision": "year",
+      "sort_start": "1971-10-01",
+      "sort_end": "1971-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "max_theiler",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "Toward s the end of 1971 he suffered a heart attack which weakened him considerably and brought to an end his enthusiastic and vigorous acti vities in the study of the viruses of insects and man."
+      }
+    ]
+  },
+  {
+    "id": "death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "August 11th , 1972",
+      "precision": "day",
+      "sort_start": "1972-08-11",
+      "sort_end": "1972-08-11"
+    },
+    "participants": [
+      {
+        "entity_id": "max_theiler",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "On the first anniversary of the passing away of Max Theiler on August 11th , 1972, it is fitting to pause for a moment to reflect on the life and work of this eminent scientist."
+      }
+    ]
+  }
+]

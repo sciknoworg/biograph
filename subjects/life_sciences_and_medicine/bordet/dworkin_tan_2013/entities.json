@@ -1,0 +1,158 @@
+[
+  {
+    "id": "jules_bordet",
+    "entity_type": "person",
+    "name": "Jules Bordet",
+    "aliases": [
+      "Bordet"
+    ],
+    "summary": "Belgian immunologist and Nobel laureate known for discovering complement and Bordetella pertussis.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "elie_metchnikoff",
+    "entity_type": "person",
+    "name": "Elie Metchnikoff",
+    "aliases": [
+      "Metchnikoff"
+    ],
+    "summary": "Russian biologist and mentor to Bordet, champion of cellular immunity.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "octave_gengou",
+    "entity_type": "person",
+    "name": "Octave Gengou",
+    "aliases": [
+      "Gengou"
+    ],
+    "summary": "Belgian bacteriologist and collaborator of Bordet.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "paul_ehrlich",
+    "entity_type": "person",
+    "name": "Paul Ehrlich",
+    "aliases": [
+      "Ehrlich"
+    ],
+    "summary": "German immunologist and rival of Bordet, originator of side-chain theory.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "pasteur_institute_paris",
+    "entity_type": "organization",
+    "name": "Pasteur Institute",
+    "aliases": [
+      "Pasteur Institute in Paris"
+    ],
+    "summary": "Research institute in Paris where Bordet began his groundbreaking experiments.",
+    "subtype": "lab",
+    "attributes": {
+      "city": "Paris",
+      "country": "France"
+    }
+  },
+  {
+    "id": "free_university_brussels",
+    "entity_type": "organization",
+    "name": "Free University of Brussels",
+    "aliases": [
+      "Free University"
+    ],
+    "summary": "University in Brussels where Bordet enrolled in medical school and later taught.",
+    "subtype": "university",
+    "attributes": {
+      "city": "Brussels",
+      "country": "Belgium"
+    }
+  },
+  {
+    "id": "pasteur_institute_brussels",
+    "entity_type": "organization",
+    "name": "Pasteur Institute of Brussels",
+    "aliases": [],
+    "summary": "Institute in Brussels directed by Bordet after his return from Paris.",
+    "subtype": "lab",
+    "attributes": {
+      "city": "Brussels",
+      "country": "Belgium"
+    }
+  },
+  {
+    "id": "league_of_nations",
+    "entity_type": "organization",
+    "name": "League of Nations",
+    "aliases": [],
+    "summary": "International organization Bordet lobbied regarding poison gas.",
+    "subtype": "organization"
+  },
+  {
+    "id": "soignies",
+    "entity_type": "place",
+    "name": "Soignies",
+    "aliases": [],
+    "summary": "Small town in Belgium where Bordet was born.",
+    "subtype": "town",
+    "attributes": {
+      "country": "Belgium",
+      "lat": 50.56667,
+      "lng": 4.06667,
+      "wikidata_qid": "Q462985",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "brussels",
+    "entity_type": "place",
+    "name": "Brussels",
+    "aliases": [],
+    "summary": "City in Belgium where Bordet's family moved and where he worked.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Belgium",
+      "lat": 50.84667,
+      "lng": 4.35167,
+      "wikidata_qid": "Q239",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "complement",
+    "entity_type": "artifact",
+    "name": "complement",
+    "aliases": [
+      "alexin"
+    ],
+    "summary": "Heat-labile substance in serum enabling bacteria-killing ability, termed 'alexin' by Bordet.",
+    "subtype": "discovery"
+  },
+  {
+    "id": "complement_fixation_test",
+    "entity_type": "artifact",
+    "name": "complement fixation test",
+    "aliases": [],
+    "summary": "Serologic assay developed by Bordet and Gengou to detect antibodies.",
+    "subtype": "invention"
+  },
+  {
+    "id": "bordetella_pertussis",
+    "entity_type": "artifact",
+    "name": "Bordetella pertussis",
+    "aliases": [
+      "organism responsible for causing whooping cough"
+    ],
+    "summary": "Organism responsible for whooping cough, cultured by Bordet and Gengou.",
+    "subtype": "discovery"
+  },
+  {
+    "id": "nobel_prize_medicine_1919",
+    "entity_type": "artifact",
+    "name": "Nobel Prize in Medicine or Physiology",
+    "aliases": [
+      "Nobel Prize"
+    ],
+    "summary": "Award given to Bordet for discoveries relating to immunity.",
+    "subtype": "award"
+  }
+]

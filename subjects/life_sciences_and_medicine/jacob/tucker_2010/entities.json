@@ -1,0 +1,171 @@
+[
+  {
+    "id": "francois_jacob",
+    "entity_type": "person",
+    "name": "François Jacob",
+    "aliases": [
+      "Jacob",
+      "François Jacob (1920-2013)"
+    ],
+    "summary": "French biologist and Nobel laureate known for discoveries concerning genetic control of enzyme and virus synthesis.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "jacques_monod",
+    "entity_type": "person",
+    "name": "Jacques Monod",
+    "aliases": [
+      "Monod"
+    ],
+    "summary": "French biologist and research partner of François Jacob.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "andre_lwoff",
+    "entity_type": "person",
+    "name": "André Lwoff",
+    "aliases": [
+      "Lwoff"
+    ],
+    "summary": "French biologist and research partner of François Jacob.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "lise_bloch",
+    "entity_type": "person",
+    "name": "Lise Bloch",
+    "aliases": [
+      "Lise"
+    ],
+    "summary": "Pianist and first wife of François Jacob.",
+    "subtype": "spouse"
+  },
+  {
+    "id": "genevieve_barrier",
+    "entity_type": "person",
+    "name": "Geneviève Barrier",
+    "aliases": [],
+    "summary": "Second wife of François Jacob.",
+    "subtype": "spouse"
+  },
+  {
+    "id": "pierre_jacob",
+    "entity_type": "person",
+    "name": "Pierre Jacob",
+    "aliases": [],
+    "summary": "Son of François Jacob and Lise Bloch, became a philosopher.",
+    "subtype": "family"
+  },
+  {
+    "id": "laurent_jacob",
+    "entity_type": "person",
+    "name": "Laurent Jacob",
+    "aliases": [],
+    "summary": "Son of François Jacob and Lise Bloch.",
+    "subtype": "family"
+  },
+  {
+    "id": "odile_jacob",
+    "entity_type": "person",
+    "name": "Odile Jacob",
+    "aliases": [],
+    "summary": "Daughter of François Jacob and Lise Bloch.",
+    "subtype": "family"
+  },
+  {
+    "id": "henri_jacob",
+    "entity_type": "person",
+    "name": "Henri Jacob",
+    "aliases": [],
+    "summary": "Son of François Jacob and Lise Bloch.",
+    "subtype": "family"
+  },
+  {
+    "id": "pasteur_institute",
+    "entity_type": "organization",
+    "name": "Pasteur Institute",
+    "aliases": [],
+    "summary": "French biological research center where Jacob worked.",
+    "subtype": "lab"
+  },
+  {
+    "id": "free_french_forces",
+    "entity_type": "organization",
+    "name": "Free French Forces",
+    "aliases": [],
+    "summary": "Military organization Jacob served in during World War II.",
+    "subtype": "military"
+  },
+  {
+    "id": "nobel_prize_physiology_medicine",
+    "entity_type": "artifact",
+    "name": "Nobel Prize in Physiology and Medicine",
+    "aliases": [
+      "Nobel Prize"
+    ],
+    "summary": "Prestigious award in physiology or medicine.",
+    "subtype": "award"
+  },
+  {
+    "id": "croix_de_la_liberation",
+    "entity_type": "artifact",
+    "name": "Croix de la Libération",
+    "aliases": [],
+    "summary": "Highest French military decoration of World War II.",
+    "subtype": "award"
+  },
+  {
+    "id": "the_statue_within",
+    "entity_type": "artifact",
+    "name": "The Statue Within: An Autobiography",
+    "aliases": [
+      "Statue intérieure"
+    ],
+    "summary": "Autobiography written by François Jacob.",
+    "subtype": "publication"
+  },
+  {
+    "id": "france",
+    "entity_type": "place",
+    "name": "France",
+    "aliases": [],
+    "summary": "Country where Jacob lived and worked.",
+    "subtype": "country",
+    "attributes": {
+      "country": "France",
+      "lat": 47.0,
+      "lng": 2.0,
+      "wikidata_qid": "Q142",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "normandy",
+    "entity_type": "place",
+    "name": "Normandy",
+    "aliases": [],
+    "summary": "Region in France where Jacob was wounded.",
+    "subtype": "region",
+    "attributes": {
+      "country": "France",
+      "lat": 49.12234,
+      "lng": -0.43664,
+      "wikidata_qid": "Q15878",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "africa",
+    "entity_type": "place",
+    "name": "Africa",
+    "aliases": [],
+    "summary": "Continent where Jacob served as a medical officer.",
+    "subtype": "continent",
+    "attributes": {
+      "lat": 21.09375,
+      "lng": 7.1881,
+      "wikidata_qid": "Q15",
+      "geocode_basis": "most_linked"
+    }
+  }
+]

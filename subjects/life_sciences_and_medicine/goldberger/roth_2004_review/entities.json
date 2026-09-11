@@ -1,0 +1,163 @@
+[
+  {
+    "id": "joseph_goldberger",
+    "entity_type": "person",
+    "name": "Joseph Goldberger",
+    "aliases": [
+      "Goldberger"
+    ],
+    "summary": "Bacteriologist and public health crusader known for identifying the dietary cause of pellagra.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "jesse_roth",
+    "entity_type": "person",
+    "name": "Jesse Roth",
+    "summary": "Medical doctor and author of the book review.",
+    "subtype": "reviewer"
+  },
+  {
+    "id": "alan_m_kraut",
+    "entity_type": "person",
+    "name": "Alan M. Kraut",
+    "summary": "Historian and author of the biography Goldberger's War.",
+    "subtype": "author"
+  },
+  {
+    "id": "us_public_health_service",
+    "entity_type": "organization",
+    "name": "US Public Health Service",
+    "aliases": [
+      "US Public Health Service",
+      "Public Health Service"
+    ],
+    "summary": "United States federal agency responsible for public health.",
+    "subtype": "government_agency"
+  },
+  {
+    "id": "us_marine_hospital_service",
+    "entity_type": "organization",
+    "name": "US Marine Hospital Service",
+    "aliases": [
+      "US Marine Hospit al Service",
+      "Marine Hospital Service"
+    ],
+    "summary": "Predecessor organization to the US Public Health Service.",
+    "subtype": "government_agency"
+  },
+  {
+    "id": "us_navy",
+    "entity_type": "organization",
+    "name": "US Navy",
+    "aliases": [
+      "N avy",
+      "Navy"
+    ],
+    "summary": "United States naval warfare service branch.",
+    "subtype": "military"
+  },
+  {
+    "id": "city_college_of_new_york",
+    "entity_type": "organization",
+    "name": "City College of New York",
+    "aliases": [
+      "City College of New York"
+    ],
+    "summary": "Public university in New York City.",
+    "subtype": "university"
+  },
+  {
+    "id": "bellevue_hospital_medical_college",
+    "entity_type": "organization",
+    "name": "Bellevue Hospital Medical College",
+    "aliases": [
+      "Bellevue Hospital Medical College"
+    ],
+    "summary": "Medical school affiliated with Bellevue Hospital.",
+    "subtype": "university"
+  },
+  {
+    "id": "hygienic_laboratory",
+    "entity_type": "organization",
+    "name": "Hygienic Laboratory",
+    "aliases": [
+      "Hygienic Laboratory"
+    ],
+    "summary": "Federal government laboratory in Washington.",
+    "subtype": "lab"
+  },
+  {
+    "id": "washington_dc",
+    "entity_type": "place",
+    "name": "Washington",
+    "attributes": {
+      "country": "United States",
+      "lat": 47.5,
+      "lng": -120.5,
+      "wikidata_qid": "Q1223",
+      "geocode_basis": "country"
+    },
+    "summary": "Capital city of the United States.",
+    "subtype": "city"
+  },
+  {
+    "id": "new_york_city",
+    "entity_type": "place",
+    "name": "New York",
+    "aliases": [
+      "New York's Lower East Side",
+      "Lower East Side"
+    ],
+    "attributes": {
+      "country": "United States",
+      "lat": 43.0,
+      "lng": -75.0,
+      "wikidata_qid": "Q1384",
+      "geocode_basis": "country"
+    },
+    "summary": "City in the United States where Goldberger emigrated.",
+    "subtype": "city"
+  },
+  {
+    "id": "austro_hungarian_empire",
+    "entity_type": "place",
+    "name": "Austro-Hungarian Empire",
+    "attributes": {
+      "region": "Europe",
+      "lat": 48.2075,
+      "lng": 16.365,
+      "wikidata_qid": "Q28513",
+      "geocode_basis": "most_linked"
+    },
+    "summary": "Historical empire from which Goldberger emigrated.",
+    "subtype": "country"
+  },
+  {
+    "id": "christiaan_eijkman",
+    "entity_type": "person",
+    "name": "Christiaan Eijkman",
+    "summary": "Scientist selected for the Nobel Prize for work on vitamins.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "frederick_g_hopkins",
+    "entity_type": "person",
+    "name": "Frederick G. Hopkins",
+    "summary": "Scientist selected for the Nobel Prize for work on vitamins.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "nobel_prize",
+    "entity_type": "artifact",
+    "name": "Nobel Prize",
+    "summary": "International award recognizing scientific achievements.",
+    "subtype": "award"
+  },
+  {
+    "id": "goldbergers_war",
+    "entity_type": "artifact",
+    "name": "Goldberger's War",
+    "summary": "Biography of Joseph Goldberger by Alan M. Kraut.",
+    "subtype": "publication"
+  }
+]

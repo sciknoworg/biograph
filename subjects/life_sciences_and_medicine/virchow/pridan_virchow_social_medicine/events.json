@@ -1,0 +1,262 @@
+[
+  {
+    "id": "virchow_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "description": "Rudolf Virchow was born in 1821.",
+    "date": {
+      "display": "1821",
+      "precision": "year",
+      "sort_start": "1821-01-01",
+      "sort_end": "1821-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rudolf_virchow",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "pridan_virchow_social_medicine",
+        "page": 1,
+        "quote": "RUDOLFVIRCHOW(I821-1902)wasfrommanypointsofviewamanwitha veryfascinatingandversatilepersonality."
+      }
+    ]
+  },
+  {
+    "id": "virchow_death",
+    "event_type": "death",
+    "label": "Died",
+    "description": "Rudolf Virchow died in 1902.",
+    "date": {
+      "display": "1902",
+      "precision": "year",
+      "sort_start": "1902-01-01",
+      "sort_end": "1902-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rudolf_virchow",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "pridan_virchow_social_medicine",
+        "page": 1,
+        "quote": "RUDOLFVIRCHOW(I821-1902)wasfrommanypointsofviewamanwitha veryfascinatingandversatilepersonality."
+      }
+    ]
+  },
+  {
+    "id": "virchow_typhus_investigation",
+    "event_type": "other",
+    "label": "Investigated typhus epidemic in Upper Silesia",
+    "description": "Virchow conducted official tour and investigation of typhus epidemic.",
+    "date": {
+      "display": "1847",
+      "precision": "year",
+      "sort_start": "1847-01-01",
+      "sort_end": "1847-12-31"
+    },
+    "location": "upper_silesia",
+    "participants": [
+      {
+        "entity_id": "rudolf_virchow",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "pridan_virchow_social_medicine",
+        "page": 2,
+        "quote": "aftercarefullydescribingandenumeratingthesecorrelatesoftyphus.inUpperSilesiainI847,andafter layingthefoundationsforaction,Virchowthenproceedsinhisarticletomap outaprogramme"
+      }
+    ]
+  },
+  {
+    "id": "virchow_typhus_publication",
+    "event_type": "publication",
+    "label": "Published typhus epidemic article",
+    "description": "Virchow published article about typhus epidemic in Upper Silesia in Archiv für pathologische Anatomie.",
+    "date": {
+      "display": "1849",
+      "precision": "year",
+      "sort_start": "1849-01-01",
+      "sort_end": "1849-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rudolf_virchow",
+        "role": "subject"
+      },
+      {
+        "entity_id": "arch_pathol_anat_physiol_med",
+        "role": "publication"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "pridan_virchow_social_medicine",
+        "page": 5,
+        "quote": "7.VIRCHow,R.,'CommunicationsaboutthetyphusepidemicinUpperSilesia', Arch.pathol.Anat.Physiol.Med.,1849,2,143-322."
+      }
+    ]
+  },
+  {
+    "id": "virchow_journal_founded",
+    "event_type": "publication",
+    "label": "Founded Die Medizinische Reform journal",
+    "description": "Virchow began new medical journal focused on social medicine.",
+    "date": {
+      "display": "1848",
+      "precision": "year",
+      "sort_start": "1848-01-01",
+      "sort_end": "1848-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rudolf_virchow",
+        "role": "subject"
+      },
+      {
+        "entity_id": "die_medizinische_reform",
+        "role": "publication"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "pridan_virchow_social_medicine",
+        "page": 5,
+        "quote": "Already,in1848,Virchowbegananew medicaljournal,DieMedizinischeReform,inwhichhefoughtforgreaterconcern withsocialsituationsasaetiologicalfactorsindisease."
+      }
+    ]
+  },
+  {
+    "id": "virchow_journal_declaration",
+    "event_type": "publication",
+    "label": "Declared medicine is a social science",
+    "description": "Virchow declared 'Medicine is a social science' on page 2 of first issue of Die Medizinische Reform.",
+    "date": {
+      "display": "1848",
+      "precision": "year",
+      "sort_start": "1848-01-01",
+      "sort_end": "1848-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rudolf_virchow",
+        "role": "subject"
+      },
+      {
+        "entity_id": "die_medizinische_reform",
+        "role": "publication"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "pridan_virchow_social_medicine",
+        "page": 5,
+        "quote": "Onpage2ofthefirst numberofthisjournalhedeclared:'Medicineisasocialscience.'"
+      }
+    ]
+  },
+  {
+    "id": "virchow_schoolchildren_survey",
+    "event_type": "other",
+    "label": "Conducted survey of schoolchildren",
+    "description": "Virchow conducted survey of physical characteristics of over 250,000 schoolchildren in Germany.",
+    "date": {
+      "display": "late 19th century",
+      "precision": "decade",
+      "sort_start": "1850-01-01",
+      "sort_end": "1902-12-31"
+    },
+    "location": "germany",
+    "participants": [
+      {
+        "entity_id": "rudolf_virchow",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "pridan_virchow_social_medicine",
+        "page": 5,
+        "quote": "heconducted asurveyofthephysicalcharacteristicsofover250,000schoolchildrenin Germany"
+      }
+    ]
+  },
+  {
+    "id": "virchow_reichstag_membership",
+    "event_type": "employment_start",
+    "label": "Became member of German Reichstag",
+    "description": "Virchow became one of the most outspoken and progressive members of the German Reichstag.",
+    "date": {
+      "display": "late 19th century",
+      "precision": "decade",
+      "sort_start": "1850-01-01",
+      "sort_end": "1902-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "rudolf_virchow",
+        "role": "subject"
+      },
+      {
+        "entity_id": "german_reichstag",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "pridan_virchow_social_medicine",
+        "page": 5,
+        "quote": "Hebecameoneofthemostoutspokenandprogressivemembersofthe GermanReichstag,fightingforsocialreforms"
+      }
+    ]
+  },
+  {
+    "id": "behring_critique_published",
+    "event_type": "publication",
+    "label": "Behring published critique of Virchow",
+    "description": "Emil von Behring published sixty-four page critique of Virchow's philosophy of medicine.",
+    "date": {
+      "display": "1893",
+      "precision": "year",
+      "sort_start": "1893-01-01",
+      "sort_end": "1893-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "emil_von_behring",
+        "role": "subject"
+      },
+      {
+        "entity_id": "rudolf_virchow",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "gesammelte_abhandlungen_behring",
+        "role": "publication"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "pridan_virchow_social_medicine",
+        "page": 1,
+        "quote": "Oneofthelongest polemicsinwhichVirchowfoundhimselfengagedculminatedinaviolent attackagainsthim,whichwefindintheGesammelteAbhandlungenofEmilvon Behring.2Herethisfamousbacteriologistoffersasixty-fourpagecritiqueof thethenprevailingphilosophyofmedicine,propoundedchieflybyVirchow."
+      }
+    ]
+  }
+]

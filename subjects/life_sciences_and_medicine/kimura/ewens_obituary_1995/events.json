@@ -1,0 +1,238 @@
+[
+  {
+    "id": "kimura_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "description": "Born on 13 November 1924, as indicated by dying on his seventieth birthday in 1994.",
+    "date": {
+      "display": "1924",
+      "precision": "year",
+      "sort_start": "1924-01-01",
+      "sort_end": "1924-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "motoo_kimura",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "ewens_obituary_1995",
+        "page": 1142,
+        "quote": "Motoo Kimura died on 13 November 1994, his seventieth birthday."
+      }
+    ]
+  },
+  {
+    "id": "kimura_death",
+    "event_type": "death",
+    "label": "Died",
+    "description": "Died on 13 November 1994, his seventieth birthday.",
+    "date": {
+      "display": "13 November 1994",
+      "precision": "day",
+      "sort_start": "1994-11-13",
+      "sort_end": "1994-11-13"
+    },
+    "participants": [
+      {
+        "entity_id": "motoo_kimura",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "ewens_obituary_1995",
+        "page": 1142,
+        "quote": "Motoo Kimura died on 13 November 1994, his seventieth birthday."
+      }
+    ]
+  },
+  {
+    "id": "kimura_wisconsin_start",
+    "event_type": "education",
+    "label": "Began graduate studies at University of Wisconsin",
+    "description": "Research began with association as a graduate student with James F. Crow and Sewall Wright.",
+    "date": {
+      "display": "1954",
+      "precision": "year",
+      "sort_start": "1954-01-01",
+      "sort_end": "1954-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "motoo_kimura",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_wisconsin",
+        "role": "employer"
+      },
+      {
+        "entity_id": "james_f_crow",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "sewall_wright",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "ewens_obituary_1995",
+        "page": 1142,
+        "quote": "Kimura's research began with his association (as a graduate student) with James F. Crow, and also Sewall Wright, at the University of Wisconsin, in 1954."
+      }
+    ]
+  },
+  {
+    "id": "kimura_stochastic_work_period",
+    "event_type": "other",
+    "label": "Formal mathematical work period",
+    "description": "Period of purely mathematical work in stochastic theory that made his reputation.",
+    "date": {
+      "display": "1954-1968",
+      "precision": "range",
+      "sort_start": "1954-01-01",
+      "sort_end": "1968-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "motoo_kimura",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "ewens_obituary_1995",
+        "page": 1142,
+        "quote": "The first is his more formal purely mathematical work, which took up much of his time in the period 1954-1968, and which made his reputation"
+      }
+    ]
+  },
+  {
+    "id": "kimura_neutral_theory",
+    "event_type": "publication",
+    "label": "Advanced neutral theory of evolution",
+    "description": "Advanced the neutral, or non-Darwinian, theory of evolution claiming much genetic variation arose from random changes rather than selection.",
+    "date": {
+      "display": "1968",
+      "precision": "year",
+      "sort_start": "1968-01-01",
+      "sort_end": "1968-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "motoo_kimura",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "ewens_obituary_1995",
+        "page": 1144,
+        "quote": "He thus advanced, in 1968, the neutral, or non-Darwinian, theory of evolution"
+      }
+    ]
+  },
+  {
+    "id": "kimura_editorial_board_start",
+    "event_type": "employment_start",
+    "label": "Joined Applied Probability Editorial Board",
+    "description": "Became a member of the Applied Probability Editorial Board from its creation.",
+    "date": {
+      "display": "1964",
+      "precision": "year",
+      "sort_start": "1964-01-01",
+      "sort_end": "1964-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "motoo_kimura",
+        "role": "subject"
+      },
+      {
+        "entity_id": "applied_probability_editorial_board",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "ewens_obituary_1995",
+        "page": 1144,
+        "quote": "Motoo Kimura was a member of the Applied Probability Editorial Board from its creation in 1964 through to the end of 1969."
+      }
+    ]
+  },
+  {
+    "id": "kimura_editorial_board_end",
+    "event_type": "employment_end",
+    "label": "Left Applied Probability Editorial Board",
+    "description": "Ended membership on the Applied Probability Editorial Board.",
+    "date": {
+      "display": "1969",
+      "precision": "year",
+      "sort_start": "1969-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "motoo_kimura",
+        "role": "subject"
+      },
+      {
+        "entity_id": "applied_probability_editorial_board",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "ewens_obituary_1995",
+        "page": 1144,
+        "quote": "Motoo Kimura was a member of the Applied Probability Editorial Board from its creation in 1964 through to the end of 1969."
+      }
+    ]
+  },
+  {
+    "id": "kimura_autobiography_published",
+    "event_type": "publication",
+    "label": "Autobiographical account published",
+    "description": "Published 'Diffusion models of population genetics in the age of molecular biology' in The Craft of Probabilistic Modelling.",
+    "date": {
+      "display": "1986",
+      "precision": "year",
+      "sort_start": "1986-01-01",
+      "sort_end": "1986-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "motoo_kimura",
+        "role": "subject"
+      },
+      {
+        "entity_id": "diffusion_models_paper",
+        "role": "invention"
+      },
+      {
+        "entity_id": "the_craft_of_probabilistic_modelling",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "ewens_obituary_1995",
+        "page": 1144,
+        "quote": "For an autobiographical account see 'Diffusion models of population genetics in the age of molecular biology', in The Craft of Probabilistic Modelling, ed. 1. Gani, pp. 150-165, Springer-Verlag, Heidelberg, 1986."
+      }
+    ]
+  }
+]

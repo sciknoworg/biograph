@@ -1,0 +1,275 @@
+[
+  {
+    "id": "almroth_wright",
+    "entity_type": "person",
+    "name": "Almroth Wright",
+    "aliases": [
+      "Wright"
+    ],
+    "summary": "British bacteriologist and immunologist who pioneered typhoid vaccination and opsonic therapy.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "leonard_colebrook",
+    "entity_type": "person",
+    "name": "Leonard Colebrook",
+    "aliases": [
+      "Colebrook"
+    ],
+    "summary": "British bacteriologist and author of the biographical lecture on Wright.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "trinity_college_dublin",
+    "entity_type": "organization",
+    "name": "Trinity College, Dublin",
+    "aliases": [
+      "Trinity College"
+    ],
+    "summary": "University in Dublin where Wright graduated in medicine.",
+    "subtype": "university"
+  },
+  {
+    "id": "army_medical_services",
+    "entity_type": "organization",
+    "name": "Army Medical Services",
+    "aliases": [
+      "Army Medical Services"
+    ],
+    "summary": "British military medical organization where Wright served as Professor of Pathology.",
+    "subtype": "military"
+  },
+  {
+    "id": "royal_victoria_hospital_netley",
+    "entity_type": "organization",
+    "name": "Royal Victoria Hospital, Netley",
+    "aliases": [
+      "Royal Victoria Hospital",
+      "Netley"
+    ],
+    "summary": "Military hospital in Netley where Wright established his laboratory headquarters.",
+    "subtype": "hospital"
+  },
+  {
+    "id": "st_marys_hospital",
+    "entity_type": "organization",
+    "name": "St. Mary's Hospital",
+    "aliases": [
+      "St. Mary's"
+    ],
+    "summary": "London hospital where Wright worked as Professor of Pathology and Bacteriology after 1902.",
+    "subtype": "hospital"
+  },
+  {
+    "id": "british_army",
+    "entity_type": "organization",
+    "name": "British Army",
+    "aliases": [
+      "Army"
+    ],
+    "summary": "Military force in which Wright conducted typhoid inoculation trials.",
+    "subtype": "military"
+  },
+  {
+    "id": "war_office",
+    "entity_type": "organization",
+    "name": "War Office",
+    "aliases": [
+      "War Office"
+    ],
+    "summary": "British government department responsible for the Army, which initially opposed Wright's trials.",
+    "subtype": "government"
+  },
+  {
+    "id": "united_states_army",
+    "entity_type": "organization",
+    "name": "United States Army",
+    "aliases": [
+      "U.S. Army"
+    ],
+    "summary": "American military force that conducted parallel typhoid inoculation trials.",
+    "subtype": "military"
+  },
+  {
+    "id": "alexander_fleming",
+    "entity_type": "person",
+    "name": "Alexander Fleming",
+    "aliases": [
+      "Fleming"
+    ],
+    "summary": "Bacteriologist and assistant to Wright who later discovered penicillin.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "john_freeman",
+    "entity_type": "person",
+    "name": "John Freeman",
+    "aliases": [
+      "Freeman"
+    ],
+    "summary": "Assistant to Wright who worked on opsonic indices and typhoid data.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "douglas",
+    "entity_type": "person",
+    "name": "Douglas",
+    "aliases": [
+      "Douglas"
+    ],
+    "summary": "Assistant to Wright who worked on opsonic indices at St. Mary's.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "w_b_leishman",
+    "entity_type": "person",
+    "name": "W. B. Leishman",
+    "aliases": [
+      "Leishman",
+      "Colonel W. B. Leishman"
+    ],
+    "summary": "Wright's successor at Netley who produced statistical data on typhoid vaccine in 1909.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "louis_pasteur",
+    "entity_type": "person",
+    "name": "Louis Pasteur",
+    "aliases": [
+      "Pasteur"
+    ],
+    "summary": "French microbiologist whose work on anthrax and rabies influenced Wright.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "robert_koch",
+    "entity_type": "person",
+    "name": "Robert Koch",
+    "aliases": [
+      "Koch"
+    ],
+    "summary": "German physician who discovered the tubercle bacillus and influenced bacteriology.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "typhoid_vaccine",
+    "entity_type": "artifact",
+    "name": "Typhoid Vaccine",
+    "aliases": [
+      "antityphoid inoculation",
+      "bacterial vaccine"
+    ],
+    "summary": "Vaccine developed by Wright to protect soldiers against typhoid fever.",
+    "subtype": "product"
+  },
+  {
+    "id": "opsonic_factor",
+    "entity_type": "artifact",
+    "name": "Opsonic Factor",
+    "aliases": [
+      "opsonic power",
+      "opsonic index"
+    ],
+    "summary": "Substance in serum discovered by Wright that makes microbes acceptable to leucocytes.",
+    "subtype": "discovery"
+  },
+  {
+    "id": "capillary_pipette",
+    "entity_type": "artifact",
+    "name": "Capillary Pipette",
+    "aliases": [
+      "wide-bore graduated capillary pipette"
+    ],
+    "summary": "Laboratory tool devised by Wright for bacteriological methods and blood testing.",
+    "subtype": "invention"
+  },
+  {
+    "id": "wrights_capsule",
+    "entity_type": "artifact",
+    "name": "Wright's Capsule",
+    "aliases": [
+      "capsule"
+    ],
+    "summary": "Device devised by Wright for collecting small samples of blood.",
+    "subtype": "invention"
+  },
+  {
+    "id": "spreader",
+    "entity_type": "artifact",
+    "name": "Spreader",
+    "aliases": [
+      "microscope slide spreader"
+    ],
+    "summary": "Tool devised by Wright for spreading blood films to study leucocytes.",
+    "subtype": "invention"
+  },
+  {
+    "id": "lymph_leech",
+    "entity_type": "artifact",
+    "name": "Lymph Leech",
+    "aliases": [
+      "leech"
+    ],
+    "summary": "Contrivance devised by Wright for exerting gentle suction on wound walls to collect lymph.",
+    "subtype": "invention"
+  },
+  {
+    "id": "british_medical_journal",
+    "entity_type": "organization",
+    "name": "British Medical Journal",
+    "aliases": [
+      "BMJ"
+    ],
+    "summary": "Medical journal that published Colebrook's lecture on Wright in 1953.",
+    "subtype": "publication"
+  },
+  {
+    "id": "netley_place",
+    "entity_type": "place",
+    "name": "Netley",
+    "aliases": [
+      "Netley on Southampton Water"
+    ],
+    "summary": "Location of the Royal Victoria Hospital in England.",
+    "subtype": "town",
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 50.8742,
+      "lng": -1.35328,
+      "wikidata_qid": "Q740418",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "south_africa",
+    "entity_type": "place",
+    "name": "South Africa",
+    "aliases": [
+      "South African War"
+    ],
+    "summary": "Location of the war where typhoid fever caused heavy losses.",
+    "subtype": "country",
+    "attributes": {
+      "country": "South Africa",
+      "lat": -29.0,
+      "lng": 24.0,
+      "wikidata_qid": "Q258",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "france",
+    "entity_type": "place",
+    "name": "France",
+    "aliases": [],
+    "summary": "Country where Wright set up a laboratory for wound infection study during WWI.",
+    "subtype": "country",
+    "attributes": {
+      "country": "France",
+      "lat": 47.0,
+      "lng": 2.0,
+      "wikidata_qid": "Q142",
+      "geocode_basis": "country"
+    }
+  }
+]

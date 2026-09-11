@@ -1,0 +1,170 @@
+[
+  {
+    "aliases": [
+      "J.H. Emerson",
+      "Jack Emerson",
+      "John Haven Emerson"
+    ],
+    "entity_type": "person",
+    "id": "john_haven_emerson",
+    "name": "John Haven \"Jack\" Emerson",
+    "subtype": "inventor",
+    "summary": "American inventor known for respiratory therapy devices and improvements to the iron lung."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "haven_emerson",
+    "name": "Haven Emerson",
+    "subtype": "academic",
+    "summary": "Public Health Professor at Columbia University and Health Commissioner of New York City."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "george_emerson",
+    "name": "George Emerson",
+    "subtype": "family_member",
+    "summary": "Son of John Haven Emerson."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "philip_drinker",
+    "name": "Philip Drinker",
+    "subtype": "engineer",
+    "summary": "Harvard engineer and inventor of the original iron lung respirator."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "charles_f_mckhann_iii",
+    "name": "Charles F. McKhann III",
+    "subtype": "physician",
+    "summary": "Pediatrician who collaborated with Philip Drinker on the iron lung."
+  },
+  {
+    "aliases": [
+      "NYC"
+    ],
+    "attributes": {
+      "country": "United States",
+      "lat": 40.71278,
+      "lng": -74.00611,
+      "wikidata_qid": "Q60",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "new_york_city",
+    "name": "New York City",
+    "subtype": "city",
+    "summary": "City in New York State, United States."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "columbia_university",
+    "name": "Columbia University",
+    "subtype": "university",
+    "summary": "Private Ivy League research university in New York City."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "ethical_culture_school",
+    "name": "Ethical Culture School",
+    "subtype": "school",
+    "summary": "Private school in New York City attended by John Haven Emerson."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United States",
+      "lat": 42.36028,
+      "lng": -71.05778,
+      "wikidata_qid": "Q100",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "boston",
+    "name": "Boston",
+    "subtype": "city",
+    "summary": "City in Massachusetts, United States."
+  },
+  {
+    "aliases": [
+      "Children's Hospital Boston"
+    ],
+    "entity_type": "organization",
+    "id": "childrens_hospital_boston",
+    "name": "Children's Hospital",
+    "subtype": "hospital",
+    "summary": "Hospital in the Boston area where Emerson's friend was a resident."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "market_forge",
+    "name": "Market Forge",
+    "subtype": "company",
+    "summary": "Boiler company in Boston that manufactured Emerson's iron lung chambers."
+  },
+  {
+    "aliases": [
+      "Emerson Company"
+    ],
+    "entity_type": "organization",
+    "id": "jh_emerson_company",
+    "name": "J.H. Emerson Company",
+    "subtype": "company",
+    "summary": "Company founded by John Haven Emerson to produce medical devices."
+  },
+  {
+    "aliases": [
+      "United States Army"
+    ],
+    "entity_type": "organization",
+    "id": "us_army",
+    "name": "U.S. Army",
+    "subtype": "military",
+    "summary": "Land service branch of the United States Armed Forces."
+  },
+  {
+    "aliases": [
+      "ATS"
+    ],
+    "entity_type": "organization",
+    "id": "american_thoracic_society",
+    "name": "American Thoracic Society",
+    "subtype": "professional_society",
+    "summary": "Professional society focused on respiratory health."
+  },
+  {
+    "aliases": [
+      "Emerson respirator"
+    ],
+    "entity_type": "artifact",
+    "id": "emersons_iron_lung",
+    "name": "Emerson's Iron Lung",
+    "subtype": "medical_device",
+    "summary": "Improved negative pressure ventilator designed by John Haven Emerson."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "barcroft_warburg_apparatus",
+    "name": "Barcroft-Warburg Apparatus",
+    "subtype": "research_equipment",
+    "summary": "Research apparatus for studying tissue respiration designed by Emerson."
+  },
+  {
+    "aliases": [
+      "Drinker iron lung"
+    ],
+    "entity_type": "artifact",
+    "id": "drinkers_respirator",
+    "name": "Drinker Respirator",
+    "subtype": "medical_device",
+    "summary": "Original mechanical respiratory device developed by Philip Drinker."
+  }
+]

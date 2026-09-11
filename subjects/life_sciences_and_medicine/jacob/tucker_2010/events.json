@@ -1,0 +1,408 @@
+[
+  {
+    "id": "jacob_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "precision": "year",
+      "sort_start": "1920-01-01",
+      "sort_end": "1920-12-31",
+      "display": "1920"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tucker_2010",
+        "page": 1,
+        "quote": "François Jacob (1920-2013)."
+      }
+    ]
+  },
+  {
+    "id": "jacob_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "precision": "year",
+      "sort_start": "2013-01-01",
+      "sort_end": "2013-12-31",
+      "display": "2013"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tucker_2010",
+        "page": 1,
+        "quote": "François Jacob (1920-2013)."
+      }
+    ]
+  },
+  {
+    "id": "jacob_mother_death",
+    "event_type": "other",
+    "label": "Mother died",
+    "date": {
+      "precision": "year",
+      "sort_start": "1940-01-01",
+      "sort_end": "1940-12-31",
+      "display": "1940"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tucker_2010",
+        "page": 2,
+        "quote": "Shortly after his mother's death in 1940, he was sent to Africa as a medical officer."
+      }
+    ]
+  },
+  {
+    "id": "jacob_sent_africa",
+    "event_type": "relocation",
+    "label": "Sent to Africa as medical officer",
+    "date": {
+      "precision": "year",
+      "sort_start": "1940-01-01",
+      "sort_end": "1940-12-31",
+      "display": "1940"
+    },
+    "location": "africa",
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tucker_2010",
+        "page": 2,
+        "quote": "Shortly after his mother's death in 1940, he was sent to Africa as a medical officer."
+      }
+    ]
+  },
+  {
+    "id": "jacob_wounded_normandy",
+    "event_type": "other",
+    "label": "Severely wounded in Normandy",
+    "date": {
+      "precision": "month",
+      "sort_start": "1944-08-01",
+      "sort_end": "1944-08-31",
+      "display": "August 1944"
+    },
+    "location": "normandy",
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tucker_2010",
+        "page": 3,
+        "quote": "He was severely wounded in Normandy, in August 1944."
+      }
+    ]
+  },
+  {
+    "id": "jacob_hospitalized",
+    "event_type": "other",
+    "label": "Hospitalized for seven months",
+    "date": {
+      "precision": "range",
+      "sort_start": "1944-08-01",
+      "sort_end": "1945-03-31",
+      "display": "seven months after August 1944"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tucker_2010",
+        "page": 3,
+        "quote": "He remained in the hospital for seven months, and was awarded the Croix de la Libération, the highest French military decoration of this war."
+      }
+    ]
+  },
+  {
+    "id": "jacob_awarded_croix",
+    "event_type": "award",
+    "label": "Awarded Croix de la Libération",
+    "date": {
+      "precision": "year",
+      "sort_start": "1944-01-01",
+      "sort_end": "1945-12-31",
+      "display": "after August 1944"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      },
+      {
+        "entity_id": "croix_de_la_liberation",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tucker_2010",
+        "page": 3,
+        "quote": "He remained in the hospital for seven months, and was awarded the Croix de la Libération, the highest French military decoration of this war."
+      }
+    ]
+  },
+  {
+    "id": "jacob_married_lise",
+    "event_type": "other",
+    "label": "Married Lise Bloch",
+    "date": {
+      "precision": "year",
+      "sort_start": "1947-01-01",
+      "sort_end": "1947-12-31",
+      "display": "1947"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lise_bloch",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tucker_2010",
+        "page": 3,
+        "quote": "in 1947 François Jacob married the pianist Lise Bloch."
+      }
+    ]
+  },
+  {
+    "id": "pierre_born",
+    "event_type": "birth",
+    "label": "Son Pierre born",
+    "date": {
+      "precision": "year",
+      "sort_start": "1949-01-01",
+      "sort_end": "1949-12-31",
+      "display": "1949"
+    },
+    "participants": [
+      {
+        "entity_id": "pierre_jacob",
+        "role": "subject"
+      },
+      {
+        "entity_id": "francois_jacob",
+        "role": "family_of"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tucker_2010",
+        "page": 3,
+        "quote": "Pierre (born in 1949), who has become a philosopher"
+      }
+    ]
+  },
+  {
+    "id": "laurent_odile_born",
+    "event_type": "birth",
+    "label": "Twins Laurent and Odile born",
+    "date": {
+      "precision": "year",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-12-31",
+      "display": "1952"
+    },
+    "participants": [
+      {
+        "entity_id": "laurent_jacob",
+        "role": "subject"
+      },
+      {
+        "entity_id": "odile_jacob",
+        "role": "subject"
+      },
+      {
+        "entity_id": "francois_jacob",
+        "role": "family_of"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tucker_2010",
+        "page": 3,
+        "quote": "Laurent and Odile (born in 1952)"
+      }
+    ]
+  },
+  {
+    "id": "henri_born",
+    "event_type": "birth",
+    "label": "Son Henri born",
+    "date": {
+      "precision": "year",
+      "sort_start": "1954-01-01",
+      "sort_end": "1954-12-31",
+      "display": "1954"
+    },
+    "participants": [
+      {
+        "entity_id": "henri_jacob",
+        "role": "subject"
+      },
+      {
+        "entity_id": "francois_jacob",
+        "role": "family_of"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tucker_2010",
+        "page": 3,
+        "quote": "Henri (born in 1954)"
+      }
+    ]
+  },
+  {
+    "id": "jacob_nobel_prize",
+    "event_type": "award",
+    "label": "Awarded Nobel Prize in Physiology and Medicine",
+    "date": {
+      "precision": "year",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31",
+      "display": "1965"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      },
+      {
+        "entity_id": "jacques_monod",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "andre_lwoff",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "nobel_prize_physiology_medicine",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tucker_2010",
+        "page": 1,
+        "quote": "In 1965, he and his research partners (Jacques Monod & André Lwoff) were awarded the Nobel Prize in Physiology and Medicine for their discoveries concerning genetic control of enzyme and virus synthesis."
+      }
+    ]
+  },
+  {
+    "id": "statue_within_published",
+    "event_type": "publication",
+    "label": "The Statue Within published",
+    "date": {
+      "precision": "year",
+      "sort_start": "1988-01-01",
+      "sort_end": "1988-12-31",
+      "display": "1988"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      },
+      {
+        "entity_id": "the_statue_within",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tucker_2010",
+        "page": 6,
+        "quote": "Jacob, François, The Statue Within: An Autobiography. Basic Books, New York, 1988."
+      }
+    ]
+  },
+  {
+    "id": "jacob_married_genevieve",
+    "event_type": "other",
+    "label": "Second marriage to Geneviève Barrier",
+    "date": {
+      "precision": "year",
+      "sort_start": "1999-01-01",
+      "sort_end": "1999-12-31",
+      "display": "1999"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      },
+      {
+        "entity_id": "genevieve_barrier",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tucker_2010",
+        "page": 2,
+        "quote": "Second marriage in 1999 with Geneviève Barrier."
+      }
+    ]
+  },
+  {
+    "id": "nobel_statement_updated",
+    "event_type": "other",
+    "label": "Nobel laureate statement updated",
+    "date": {
+      "precision": "month",
+      "sort_start": "2005-04-01",
+      "sort_end": "2005-04-30",
+      "display": "April 2005"
+    },
+    "participants": [
+      {
+        "entity_id": "francois_jacob",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "tucker_2010",
+        "page": 2,
+        "quote": "The Nobel laureate statement was updated by Jacob in April 2005, and he expanded his list of scientific work, awards and accomplishments."
+      }
+    ]
+  }
+]

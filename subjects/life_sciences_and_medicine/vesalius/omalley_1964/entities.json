@@ -1,0 +1,248 @@
+[
+  {
+    "aliases": [
+      "Andreas",
+      "Vesalius"
+    ],
+    "entity_type": "person",
+    "id": "andreas_vesalius",
+    "name": "Andreas Vesalius",
+    "subtype": "researcher",
+    "summary": "Flemish anatomist and physician who founded modern human anatomy through direct dissection and publication of De Humani Corporis Fabrica."
+  },
+  {
+    "aliases": [
+      "father"
+    ],
+    "entity_type": "person",
+    "id": "andreas_vesalius_sr",
+    "name": "Andreas Vesalius",
+    "subtype": "apothecary",
+    "summary": "Apothecary to Emperor Charles V and father of the anatomist Andreas Vesalius."
+  },
+  {
+    "entity_type": "person",
+    "id": "isabel_crabbe",
+    "name": "Isabel Crabbe",
+    "subtype": "family",
+    "summary": "Mother of Andreas Vesalius."
+  },
+  {
+    "entity_type": "person",
+    "id": "girolamo_cardano",
+    "name": "Girolamo Cardano",
+    "subtype": "researcher",
+    "summary": "Physician and mathematician who cast Vesalius's horoscope."
+  },
+  {
+    "entity_type": "person",
+    "id": "jacobus_sylvius",
+    "name": "Jacobus Sylvius",
+    "subtype": "researcher",
+    "summary": "Anatomist and teacher of Vesalius at the University of Paris."
+  },
+  {
+    "entity_type": "person",
+    "id": "guinter_of_ndernach",
+    "name": "Guinter of Andernach",
+    "subtype": "researcher",
+    "summary": "Professor of anatomy in Paris and former teacher of Vesalius."
+  },
+  {
+    "entity_type": "person",
+    "id": "gemma_frisius",
+    "name": "Gemma Frisius",
+    "subtype": "researcher",
+    "summary": "Mathematician and friend of Vesalius at Louvain."
+  },
+  {
+    "aliases": [
+      "Stephanus from Calcar"
+    ],
+    "entity_type": "person",
+    "id": "johannes_stephanus",
+    "name": "Johannes Stephanus",
+    "subtype": "artist",
+    "summary": "Artist from Calcar who drew figures for Vesalius's charts."
+  },
+  {
+    "entity_type": "person",
+    "id": "joannes_oporinus",
+    "name": "Joannes Oporinus",
+    "subtype": "printer",
+    "summary": "Printer in Basel who printed the Fabrica."
+  },
+  {
+    "aliases": [
+      "Emperor Charles V",
+      "the emperor"
+    ],
+    "entity_type": "person",
+    "id": "charles_v",
+    "name": "Charles V",
+    "subtype": "royalty",
+    "summary": "Holy Roman Emperor who employed Vesalius as physician to the imperial household."
+  },
+  {
+    "aliases": [
+      "King of Spain"
+    ],
+    "entity_type": "person",
+    "id": "philip_ii",
+    "name": "Philip II",
+    "subtype": "royalty",
+    "summary": "King of Spain whom Vesalius served as physician after Charles V's abdication."
+  },
+  {
+    "entity_type": "person",
+    "id": "gabriele_fallopio",
+    "name": "Gabriele Fallopio",
+    "subtype": "researcher",
+    "summary": "Anatomist and successor to Vesalius's chair at Padua."
+  },
+  {
+    "aliases": [
+      "Henry II of France"
+    ],
+    "entity_type": "person",
+    "id": "henry_ii",
+    "name": "Henry II",
+    "subtype": "royalty",
+    "summary": "King of France whose fatal head wound was treated by Vesalius."
+  },
+  {
+    "entity_type": "person",
+    "id": "don_carlos",
+    "name": "Don Carlos",
+    "subtype": "royalty",
+    "summary": "Son and heir of Philip II treated by Vesalius for a head injury."
+  },
+  {
+    "entity_type": "organization",
+    "id": "university_louvain",
+    "name": "University of Louvain",
+    "subtype": "university",
+    "summary": "University where Vesalius matriculated in 1530 and received his Bachelor of Medicine."
+  },
+  {
+    "entity_type": "organization",
+    "id": "university_paris",
+    "name": "University of Paris",
+    "subtype": "university",
+    "summary": "University where Vesalius studied medicine from 1533 to 1536."
+  },
+  {
+    "entity_type": "organization",
+    "id": "university_padua",
+    "name": "University of Padua",
+    "subtype": "university",
+    "summary": "University where Vesalius received his Doctor of Medicine and held the chair of surgery."
+  },
+  {
+    "entity_type": "organization",
+    "id": "university_bologna",
+    "name": "University of Bologna",
+    "subtype": "university",
+    "summary": "University where Vesalius gave anatomical demonstrations in 1540."
+  },
+  {
+    "entity_type": "organization",
+    "id": "imperial_household",
+    "name": "Imperial Household",
+    "subtype": "court",
+    "summary": "Medical staff of Emperor Charles V."
+  },
+  {
+    "entity_type": "organization",
+    "id": "spanish_court",
+    "name": "Spanish Court",
+    "subtype": "court",
+    "summary": "Court of Philip II where Vesalius served as physician."
+  },
+  {
+    "attributes": {
+      "country": "Belgium",
+      "lat": 50.84667,
+      "lng": 4.35167,
+      "wikidata_qid": "Q239",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "brussels",
+    "name": "Brussels",
+    "subtype": "city",
+    "summary": "City where Vesalius received elementary education and returned to in 1536."
+  },
+  {
+    "attributes": {
+      "country": "Italy",
+      "lat": 45.40778,
+      "lng": 11.87333,
+      "wikidata_qid": "Q617",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "padua",
+    "name": "Padua",
+    "subtype": "city",
+    "summary": "City where Vesalius studied, taught, and composed the Fabrica."
+  },
+  {
+    "attributes": {
+      "country": "Switzerland",
+      "lat": 47.56056,
+      "lng": 7.59056,
+      "wikidata_qid": "Q78",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "basel",
+    "name": "Basel",
+    "subtype": "city",
+    "summary": "City where the Fabrica was printed by Oporinus."
+  },
+  {
+    "entity_type": "place",
+    "id": "spain",
+    "name": "Spain",
+    "subtype": "country",
+    "summary": "Country where Vesalius served Philip II from 1559.",
+    "attributes": {
+      "lat": 40.2,
+      "lng": -3.5,
+      "wikidata_qid": "Q29",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "attributes": {
+      "country": "Greece",
+      "lat": 37.8,
+      "lng": 20.75,
+      "wikidata_qid": "Q144880",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "zante",
+    "name": "Zante",
+    "subtype": "island",
+    "summary": "Island where Vesalius died in October 1564."
+  },
+  {
+    "aliases": [
+      "Fabrica"
+    ],
+    "entity_type": "artifact",
+    "id": "fabrica",
+    "name": "De Humani Corporis Fabrica",
+    "subtype": "publication",
+    "summary": "Vesalius's seminal anatomical treatise published in 1543."
+  },
+  {
+    "entity_type": "artifact",
+    "id": "epitome",
+    "name": "Epitome",
+    "subtype": "publication",
+    "summary": "A partial digest of the Fabrica intended for beginners."
+  }
+]

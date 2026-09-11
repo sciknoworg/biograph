@@ -1,0 +1,83 @@
+[
+  {
+    "id": "jenner_lived_berkeley",
+    "source": "edward_jenner",
+    "type": "lived_in",
+    "target": "berkeley",
+    "sources": [
+      {
+        "source_id": "razzell_edward_jenner",
+        "page": 6,
+        "quote": "Berkely, February 1799."
+      }
+    ]
+  },
+  {
+    "id": "jenner_collaborated_woodville",
+    "source": "edward_jenner",
+    "type": "collaborated_with",
+    "target": "woodville",
+    "event_id": "jenner_resumed_1799",
+    "sources": [
+      {
+        "source_id": "razzell_edward_jenner",
+        "page": 6,
+        "quote": "Woodville immediately sent Jenner some lymph to check its suitability."
+      }
+    ]
+  },
+  {
+    "id": "jenner_corresponded_egremont",
+    "source": "edward_jenner",
+    "type": "corresponded_with",
+    "target": "lord_egremont",
+    "event_id": "jenner_letter_egremont_1800",
+    "sources": [
+      {
+        "source_id": "razzell_edward_jenner",
+        "page": 6,
+        "quote": "At the beginning of i8oo he wrote a letter to Lord Egremont, one of his patrons"
+      }
+    ]
+  },
+  {
+    "id": "walker_directed_jennerian",
+    "source": "john_walker",
+    "type": "employed_by",
+    "target": "royal_jennerian_society",
+    "sources": [
+      {
+        "source_id": "razzell_edward_jenner",
+        "page": 5,
+        "quote": "Dr. John Walker, Director of the Royal Jennerian Society, wrote to Lettsom in I8I3:"
+      }
+    ]
+  },
+  {
+    "id": "woodville_worked_smallpox_hospital",
+    "source": "woodville",
+    "type": "employed_by",
+    "target": "london_smallpox_hospital",
+    "sources": [
+      {
+        "source_id": "razzell_edward_jenner",
+        "page": 6,
+        "quote": "Woodville, who was a doctor at the London Smallpox Hospital, had found that a majority of 500 people vaccinated by him had pustular eruptions similar to those that took place during inoculation."
+      }
+    ]
+  },
+  {
+    "id": "jenner_inoculator_suttonian",
+    "source": "edward_jenner",
+    "type": "employed_by",
+    "target": "daniel_sutton",
+    "note": "Jenner used the Suttonian method.",
+    "sources": [
+      {
+        "source_id": "razzell_edward_jenner",
+        "page": 7,
+        "quote": "was an inoculator using the Suttonian method before he claimed to have discovered vaccination."
+      }
+    ]
+  }
+]

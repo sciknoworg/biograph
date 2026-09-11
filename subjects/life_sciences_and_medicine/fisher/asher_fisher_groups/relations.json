@@ -1,0 +1,83 @@
+[
+  {
+    "id": "fisher_worked_cambridge",
+    "source": "ronald_aylmer_fisher",
+    "type": "worked_at",
+    "target": "university_of_cambridge",
+    "sources": [
+      {
+        "source_id": "asher_fisher_groups",
+        "page": 16,
+        "quote": "the emeritus Regius Professor of History at the University of Cambridge, Richard Evans (2020), repeated text from an online petition"
+      }
+    ],
+    "note": "Fisher's association with Cambridge is implied by the window at Gonville & Caius and his mentor role."
+  },
+  {
+    "id": "fisher_member_caius",
+    "source": "ronald_aylmer_fisher",
+    "type": "member_of",
+    "target": "gonville_and_caius_college",
+    "sources": [
+      {
+        "source_id": "asher_fisher_groups",
+        "page": 20,
+        "quote": "Remove the window in honour of R. A. Fisher at Gonville & Caius, University of Cambridge"
+      }
+    ]
+  },
+  {
+    "id": "fisher_published_genetical",
+    "source": "ronald_aylmer_fisher",
+    "type": "published",
+    "target": "the_genetical_theory_of_natural_selection",
+    "event_id": "fisher_genetical_theory_1930",
+    "sources": [
+      {
+        "source_id": "asher_fisher_groups",
+        "page": 2,
+        "quote": "The Genetical Theory of Natural Selection (Fisher 1930, 1958; Fisher and Bennett 1999), hereafter referred to as The Genetical Theory, was arguably Ronald Fisher's most important book."
+      }
+    ]
+  },
+  {
+    "id": "asher_worked_cambridge",
+    "source": "robert_j_asher",
+    "type": "worked_at",
+    "target": "university_of_cambridge",
+    "sources": [
+      {
+        "source_id": "asher_fisher_groups",
+        "page": 1,
+        "quote": "Author: Robert J. Asher, Department of Zoology, University of Cambridge, Downing St., Cambridge CB2 3EJ, UK."
+      }
+    ]
+  },
+  {
+    "id": "asher_member_trinity",
+    "source": "robert_j_asher",
+    "type": "member_of",
+    "target": "trinity_hall",
+    "sources": [
+      {
+        "source_id": "asher_fisher_groups",
+        "page": 19,
+        "quote": "I also thank my department (Zoology) and college (Trinity Hall) at the University of Cambridge for ongoing support"
+      }
+    ]
+  },
+  {
+    "id": "fisher_mentored",
+    "source": "ronald_aylmer_fisher",
+    "type": "mentored",
+    "target": "university_of_cambridge",
+    "sources": [
+      {
+        "source_id": "asher_fisher_groups",
+        "page": 17,
+        "quote": "not to mention his track record as an academic mentor (Bodmer et al. 2021)."
+      }
+    ],
+    "note": "General relation based on text statement."
+  }
+]

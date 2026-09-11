@@ -1,0 +1,298 @@
+[
+  {
+    "id": "barnard_birth",
+    "event_type": "birth",
+    "label": "Born in Beaufort West",
+    "date": {
+      "display": "1922",
+      "precision": "year",
+      "sort_start": "1922-01-01",
+      "sort_end": "1922-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christiaan_barnard",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "styan_2022_thesis",
+        "page": 63,
+        "quote": "Christiaan Neethling Barnard (1922 - 2001) was born in Beaufort West"
+      }
+    ]
+  },
+  {
+    "id": "barnard_medical_qualification",
+    "event_type": "education",
+    "label": "Qualified as medical doctor",
+    "date": {
+      "display": "1946",
+      "precision": "year",
+      "sort_start": "1946-01-01",
+      "sort_end": "1946-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christiaan_barnard",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_cape_town",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "styan_2022_thesis",
+        "page": 63,
+        "quote": "qualified as a medical doctor at UCT in 1946"
+      }
+    ]
+  },
+  {
+    "id": "barnard_masters_phd",
+    "event_type": "education",
+    "label": "Awarded master and doctoral degree",
+    "date": {
+      "display": "1953",
+      "precision": "year",
+      "sort_start": "1953-01-01",
+      "sort_end": "1953-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christiaan_barnard",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_cape_town",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "styan_2022_thesis",
+        "page": 63,
+        "quote": "In 1953, he was awarded a master and doctoral degree in medicine at UCT"
+      }
+    ]
+  },
+  {
+    "id": "barnard_us_study_start",
+    "event_type": "education",
+    "label": "Went to America to study",
+    "date": {
+      "display": "1956",
+      "precision": "year",
+      "sort_start": "1956-01-01",
+      "sort_end": "1956-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christiaan_barnard",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_minnesota",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "styan_2022_thesis",
+        "page": 63,
+        "quote": "In 1956 Barnard went to America where he studied at the University of Minnesota"
+      }
+    ]
+  },
+  {
+    "id": "barnard_return_to_gsh",
+    "event_type": "employment_start",
+    "label": "Returned to GSH",
+    "date": {
+      "display": "June 1958",
+      "precision": "month",
+      "sort_start": "1958-06-01",
+      "sort_end": "1958-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "christiaan_barnard",
+        "role": "subject"
+      },
+      {
+        "entity_id": "groote_schuur_hospital",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "styan_2022_thesis",
+        "page": 64,
+        "quote": "Barnard returned to GSH in June 1958 as Head of Cardiovascular Surgery"
+      }
+    ]
+  },
+  {
+    "id": "first_open_heart_surgery_africa",
+    "event_type": "public_demonstration",
+    "label": "First open-heart surgery in Africa",
+    "date": {
+      "display": "28 July 1958",
+      "precision": "day",
+      "sort_start": "1958-07-28",
+      "sort_end": "1958-07-28"
+    },
+    "participants": [
+      {
+        "entity_id": "christiaan_barnard",
+        "role": "subject"
+      },
+      {
+        "entity_id": "groote_schuur_hospital",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "styan_2022_thesis",
+        "page": 51,
+        "quote": "The first major event the surgical team undertook was an open-heart surgery on 28 July 1958"
+      }
+    ]
+  },
+  {
+    "id": "first_dog_heart_transplant_experiment",
+    "event_type": "other",
+    "label": "First experimental heart transplant in a dog",
+    "date": {
+      "display": "1965",
+      "precision": "year",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christiaan_barnard",
+        "role": "subject"
+      },
+      {
+        "entity_id": "js_marais_research_laboratory",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "styan_2022_thesis",
+        "page": 53,
+        "quote": "Groote Schuur's first experimental heart transplant in a dog was done in 1965 in the experimental laboratory"
+      }
+    ]
+  },
+  {
+    "id": "first_gsh_kidney_transplant",
+    "event_type": "other",
+    "label": "First kidney transplantation at GSH",
+    "date": {
+      "display": "October 1967",
+      "precision": "month",
+      "sort_start": "1967-10-01",
+      "sort_end": "1967-10-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christiaan_barnard",
+        "role": "subject"
+      },
+      {
+        "entity_id": "groote_schuur_hospital",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "styan_2022_thesis",
+        "page": 56,
+        "quote": "a year later – in October 1967 – he would lead his team in its first and only kidney transplantation"
+      }
+    ]
+  },
+  {
+    "id": "first_human_heart_transplant",
+    "event_type": "other",
+    "label": "First human-to-human heart transplant",
+    "date": {
+      "display": "2 and 3 December 1967",
+      "precision": "day",
+      "sort_start": "1967-12-02",
+      "sort_end": "1967-12-03"
+    },
+    "participants": [
+      {
+        "entity_id": "christiaan_barnard",
+        "role": "subject"
+      },
+      {
+        "entity_id": "groote_schuur_hospital",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "styan_2022_thesis",
+        "page": 47,
+        "quote": "The events of the first heart transplant occurred on the evening of 2 December and morning of 3 December 1967"
+      }
+    ]
+  },
+  {
+    "id": "barnard_retirement",
+    "event_type": "retirement",
+    "label": "Retired",
+    "date": {
+      "display": "1983",
+      "precision": "year",
+      "sort_start": "1983-01-01",
+      "sort_end": "1983-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christiaan_barnard",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "styan_2022_thesis",
+        "page": 64,
+        "quote": "Barnard died in 2001 having retired in 1983"
+      }
+    ]
+  },
+  {
+    "id": "barnard_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "2001",
+      "precision": "year",
+      "sort_start": "2001-01-01",
+      "sort_end": "2001-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christiaan_barnard",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "styan_2022_thesis",
+        "page": 64,
+        "quote": "Barnard died in 2001 having retired in 1983"
+      }
+    ]
+  }
+]

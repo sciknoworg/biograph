@@ -1,0 +1,93 @@
+[
+  {
+    "id": "koch_led_german_mission",
+    "source": "robert_koch",
+    "type": "member_of",
+    "target": "german_cholera_commission",
+    "sources": [
+      {
+        "source_id": "howard_jones_1984_bmj",
+        "page": 1,
+        "quote": "KochhadoriginallystartedinAlexandria,wherehearrivedon 24August1883astheleaderofaGermanmission"
+      }
+    ]
+  },
+  {
+    "id": "koch_collaborated_gaffky",
+    "source": "robert_koch",
+    "type": "collaborated_with",
+    "target": "georg_gaffky",
+    "sources": [
+      {
+        "source_id": "howard_jones_1984_bmj",
+        "page": 1,
+        "quote": "Germanmissionthatincluded two othermedicalmembers,GeorgGaffkyandBernhard Fischer"
+      }
+    ]
+  },
+  {
+    "id": "koch_collaborated_fischer",
+    "source": "robert_koch",
+    "type": "collaborated_with",
+    "target": "bernhard_fischer",
+    "sources": [
+      {
+        "source_id": "howard_jones_1984_bmj",
+        "page": 1,
+        "quote": "Germanmissionthatincluded two othermedicalmembers,GeorgGaffkyandBernhard Fischer"
+      }
+    ]
+  },
+  {
+    "id": "koch_visited_pettenkofer",
+    "source": "robert_koch",
+    "type": "visited",
+    "target": "munich",
+    "sources": [
+      {
+        "source_id": "howard_jones_1984_bmj",
+        "page": 2,
+        "quote": "Kochandhiscolleagueshadbrokentheir journeybacktoBerlintopayacourtesycallonhimatMunich."
+      }
+    ]
+  },
+  {
+    "id": "koch_employed_reichsgesundheitsamt",
+    "source": "robert_koch",
+    "type": "employed_by",
+    "target": "reichsgesundheitsamt",
+    "sources": [
+      {
+        "source_id": "howard_jones_1984_bmj",
+        "page": 2,
+        "quote": "fromtheReichsgesundheitsamtalifesizebustofthe Kaiser."
+      }
+    ]
+  },
+  {
+    "id": "thuillier_member_french_mission",
+    "source": "louis_thuillier",
+    "type": "member_of",
+    "target": "french_medical_mission",
+    "sources": [
+      {
+        "source_id": "howard_jones_1984_bmj",
+        "page": 1,
+        "quote": "French medicalmission(IsidoreStraus,EmileRoux,EdmondNocard, andLouisThuillier)"
+      }
+    ]
+  },
+  {
+    "id": "pacini_published_cholera_paper",
+    "source": "filippo_pacini",
+    "type": "published",
+    "target": "florence",
+    "sources": [
+      {
+        "source_id": "howard_jones_1984_bmj",
+        "page": 2,
+        "quote": "In1854Pacini publishedapaperon\"Microscopicalobservationsandpathologicaldeductionsoncholera,\""
+      }
+    ]
+  }
+]

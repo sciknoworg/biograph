@@ -1,0 +1,111 @@
+[
+  {
+    "id": "max_theiler_born_in_daspoort",
+    "source": "max_theiler",
+    "type": "born_in",
+    "target": "daspoort",
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "Born on 30th January, 1899, at Daspoort in the District of Pretoria, Transvaal, Max Theiler was the youngest child of Arnold Theiler and Emma Jegge."
+      }
+    ]
+  },
+  {
+    "id": "max_theiler_family_of_arnold_theiler",
+    "source": "max_theiler",
+    "type": "family_of",
+    "target": "arnold_theiler",
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "Born on 30th January, 1899, at Daspoort in the District of Pretoria, Transvaal, Max Theiler was the youngest child of Arnold Theiler and Emma Jegge."
+      }
+    ]
+  },
+  {
+    "id": "max_theiler_family_of_emma_jegge",
+    "source": "max_theiler",
+    "type": "family_of",
+    "target": "emma_jegge",
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "Born on 30th January, 1899, at Daspoort in the District of Pretoria, Transvaal, Max Theiler was the youngest child of Arnold Theiler and Emma Jegge."
+      }
+    ]
+  },
+  {
+    "id": "max_theiler_married_to_lillian_graham",
+    "source": "max_theiler",
+    "type": "married_to",
+    "target": "lillian_graham",
+    "event_id": "marriage",
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "In 1928 Max Theiler married Lillian Graham; their son, Arnold, was born in 1929."
+      }
+    ]
+  },
+  {
+    "id": "max_theiler_worked_at_rockefeller",
+    "source": "max_theiler",
+    "type": "worked_at",
+    "target": "rockefeller_foundation",
+    "event_id": "rockefeller_start",
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "In 1930 Theiler was offered a post under William Sawyer at the Rockefeller Foundation where he continued his work on yellow fever and other viruses."
+      }
+    ]
+  },
+  {
+    "id": "max_theiler_worked_at_yale",
+    "source": "max_theiler",
+    "type": "worked_at",
+    "target": "yale_university",
+    "event_id": "yale_professor",
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "This move also suited Theiler, who became Professor of Epidemiology until 1967, when upon reaching the mandatory retiring age he was appointed Professor Emeritus."
+      }
+    ]
+  },
+  {
+    "id": "max_theiler_developed_17d_strain",
+    "source": "max_theiler",
+    "type": "developed",
+    "target": "x_17d_strain",
+    "event_id": "17d_report",
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "As result of his efforts the now famous 17D strain was developed and in March 1937 Theiler and Smith reported that they had produced an attenuated virus which was an efficient immunizing agent."
+      }
+    ]
+  },
+  {
+    "id": "max_theiler_awarded_nobel_prize",
+    "source": "max_theiler",
+    "type": "awarded",
+    "target": "nobel_prize",
+    "event_id": "nobel_prize",
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "Public recognition of the work and success which had been obtained with the control of yellow fever came in 1951 with the award of the Nobel Prize for Physiology and Medicine."
+      }
+    ]
+  }
+]

@@ -1,0 +1,351 @@
+[
+  {
+    "id": "bordet_birth",
+    "event_type": "birth",
+    "label": "Born in Soignies",
+    "description": "Jules Bordet was born in a small Belgian town.",
+    "date": {
+      "display": "1870",
+      "precision": "year",
+      "sort_start": "1870-01-01",
+      "sort_end": "1870-12-31"
+    },
+    "location": "soignies",
+    "participants": [
+      {
+        "entity_id": "jules_bordet",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cavaillon_2019_tribute",
+        "page": 2,
+        "quote": "Jules Bordet was born in 1870 in Soignies"
+      }
+    ]
+  },
+  {
+    "id": "bordet_enter_university",
+    "event_type": "education",
+    "label": "Entered Université Libre de Bruxelles",
+    "description": "Entered as a medical student at the age of 16.",
+    "date": {
+      "display": "1886",
+      "precision": "year",
+      "sort_start": "1886-01-01",
+      "sort_end": "1886-12-31"
+    },
+    "location": "brussels",
+    "participants": [
+      {
+        "entity_id": "jules_bordet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "universite_libre_de_bruxelles",
+        "role": "educator"
+      }
+    ],
+    "certainty": "approximate",
+    "sources": [
+      {
+        "source_id": "cavaillon_2019_tribute",
+        "page": 2,
+        "quote": "At the age of 16, he entered the Université Libre de Bruxelles as a medical student"
+      }
+    ]
+  },
+  {
+    "id": "bordet_graduation",
+    "event_type": "education",
+    "label": "Medical graduation",
+    "description": "Obtained medical graduation one year ahead of classmates.",
+    "date": {
+      "display": "1892",
+      "precision": "year",
+      "sort_start": "1892-01-01",
+      "sort_end": "1892-12-31"
+    },
+    "location": "brussels",
+    "participants": [
+      {
+        "entity_id": "jules_bordet",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cavaillon_2019_tribute",
+        "page": 2,
+        "quote": "Jules Bordet obtained his medical graduation during the same year, 1892"
+      }
+    ]
+  },
+  {
+    "id": "bordet_join_pasteur",
+    "event_type": "employment_start",
+    "label": "Joined Institut Pasteur de Paris",
+    "description": "Moved to the Institut Pasteur de Paris thanks to a travel award.",
+    "date": {
+      "display": "April 1894",
+      "precision": "month",
+      "sort_start": "1894-04-01",
+      "sort_end": "1894-04-30"
+    },
+    "location": "paris",
+    "participants": [
+      {
+        "entity_id": "jules_bordet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "institut_pasteur_paris",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cavaillon_2019_tribute",
+        "page": 2,
+        "quote": "Jules Bordet joined the Institut Pasteur in April 1894"
+      }
+    ]
+  },
+  {
+    "id": "bordet_south_africa_mission",
+    "event_type": "visit",
+    "label": "Scientific mission in Transvaal",
+    "description": "Conducted a scientific mission to study rinderpest epidemic.",
+    "date": {
+      "display": "1897",
+      "precision": "year",
+      "sort_start": "1897-01-01",
+      "sort_end": "1897-12-31"
+    },
+    "location": "transvaal",
+    "participants": [
+      {
+        "entity_id": "jules_bordet",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cavaillon_2019_tribute",
+        "page": 2,
+        "quote": "in 1897 when he conducted a scientific mission in the Transvaal (South Africa)"
+      }
+    ]
+  },
+  {
+    "id": "bordet_return_brussels",
+    "event_type": "relocation",
+    "label": "Returned to Brussels",
+    "description": "Returned to Brussels to lead a new institute.",
+    "date": {
+      "display": "1901",
+      "precision": "year",
+      "sort_start": "1901-01-01",
+      "sort_end": "1901-12-31"
+    },
+    "location": "brussels",
+    "participants": [
+      {
+        "entity_id": "jules_bordet",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cavaillon_2019_tribute",
+        "page": 2,
+        "quote": "In 1901, Jules Bordet returned to Brussels"
+      }
+    ]
+  },
+  {
+    "id": "bordet_chair_appointment",
+    "event_type": "role_change",
+    "label": "Appointed Chair of Bacteriology",
+    "description": "Appointed as the Chair of Bacteriology at the Université libre de Bruxelles.",
+    "date": {
+      "display": "1907",
+      "precision": "year",
+      "sort_start": "1907-01-01",
+      "sort_end": "1907-12-31"
+    },
+    "location": "brussels",
+    "participants": [
+      {
+        "entity_id": "jules_bordet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "universite_libre_de_bruxelles",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cavaillon_2019_tribute",
+        "page": 2,
+        "quote": "In 1907, Jules Bordet was appointed as the Chair of Bacteriology at the Université libre de Bruxelles"
+      }
+    ]
+  },
+  {
+    "id": "institut_pasteur_brabant_named",
+    "event_type": "company_renamed",
+    "label": "Institute named Institut Pasteur du Brabant",
+    "description": "The institute led by Bordet was named Institut Pasteur du Brabant.",
+    "date": {
+      "display": "1908",
+      "precision": "year",
+      "sort_start": "1908-01-01",
+      "sort_end": "1908-12-31"
+    },
+    "location": "brussels",
+    "participants": [
+      {
+        "entity_id": "institut_pasteur_brabant",
+        "role": "subject"
+      },
+      {
+        "entity_id": "jules_bordet",
+        "role": "director"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cavaillon_2019_tribute",
+        "page": 2,
+        "quote": "In 1908, this institute was eventually named Institut Pasteur du Brabant"
+      }
+    ]
+  },
+  {
+    "id": "bordet_nobel_award",
+    "event_type": "award",
+    "label": "Awarded 1919 Nobel Prize",
+    "description": "Awarded the Nobel prize for his discoveries relating to immunity.",
+    "date": {
+      "display": "October 28, 1920",
+      "precision": "day",
+      "sort_start": "1920-10-28",
+      "sort_end": "1920-10-28"
+    },
+    "participants": [
+      {
+        "entity_id": "jules_bordet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize_1919",
+        "role": "award"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cavaillon_2019_tribute",
+        "page": 1,
+        "quote": "On October, 28th, 1920, Jules Bordet was awarded with the 1919 Nobel prize"
+      }
+    ]
+  },
+  {
+    "id": "bordet_publish_breves",
+    "event_type": "publication",
+    "label": "Published Brèves considérations",
+    "description": "Published a booklet on science and ethics.",
+    "date": {
+      "display": "1945",
+      "precision": "year",
+      "sort_start": "1945-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jules_bordet",
+        "role": "author"
+      },
+      {
+        "entity_id": "breves_considerations",
+        "role": "publication"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cavaillon_2019_tribute",
+        "page": 3,
+        "quote": "In 1945, he published a booklet entitled"
+      }
+    ]
+  },
+  {
+    "id": "bordet_publish_astronomy",
+    "event_type": "publication",
+    "label": "Published Elements d'astronomie",
+    "description": "Published a book on astronomy.",
+    "date": {
+      "display": "1956",
+      "precision": "year",
+      "sort_start": "1956-01-01",
+      "sort_end": "1956-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jules_bordet",
+        "role": "author"
+      },
+      {
+        "entity_id": "elements_astronomie",
+        "role": "publication"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cavaillon_2019_tribute",
+        "page": 3,
+        "quote": "Elements d'astronomie, 1956"
+      }
+    ]
+  },
+  {
+    "id": "bordet_death",
+    "event_type": "death",
+    "label": "Died in Brussels",
+    "description": "Jules Bordet peacefully died in Brussels.",
+    "date": {
+      "display": "April 1961",
+      "precision": "month",
+      "sort_start": "1961-04-01",
+      "sort_end": "1961-04-30"
+    },
+    "location": "brussels",
+    "participants": [
+      {
+        "entity_id": "jules_bordet",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cavaillon_2019_tribute",
+        "page": 3,
+        "quote": "Jules Bordet peacefully died in Brussels in April 1961"
+      }
+    ]
+  }
+]

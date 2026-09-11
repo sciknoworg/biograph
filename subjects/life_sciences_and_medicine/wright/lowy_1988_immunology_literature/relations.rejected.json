@@ -1,0 +1,30 @@
+[
+  {
+    "id": "dekruif_worked_rockefeller",
+    "source": "paul_de_kruif",
+    "type": "worked_at",
+    "target": "rockefeller_institute",
+    "sources": [
+      {
+        "source_id": "lowy_1988_immunology_literature",
+        "page": 6,
+        "quote": "In 1922 DeKruif, then working at the Rockefeller Institute"
+      }
+    ],
+    "_rejected_because": "unknown target entity 'rockefeller_institute'"
+  },
+  {
+    "id": "loeb_worked_rockefeller",
+    "source": "jacques_loeb",
+    "type": "worked_at",
+    "target": "rockefeller_institute",
+    "sources": [
+      {
+        "source_id": "lowy_1988_immunology_literature",
+        "page": 7,
+        "quote": "Loeb, a colleague of DeKruif at the Rockefeller Institute"
+      }
+    ],
+    "_rejected_because": "unknown target entity 'rockefeller_institute'"
+  }
+]

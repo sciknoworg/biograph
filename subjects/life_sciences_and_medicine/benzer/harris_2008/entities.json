@@ -1,0 +1,240 @@
+[
+  {
+    "aliases": [
+      "Benzer",
+      "Seymour"
+    ],
+    "attributes": {
+      "birth_year": 1921,
+      "death_year": 2007,
+      "nationality": "American"
+    },
+    "entity_type": "person",
+    "id": "seymour_benzer",
+    "name": "Seymour Benzer",
+    "subtype": "researcher",
+    "summary": "American geneticist and neuroscientist known for fine-structure gene mapping and founding neurogenetics."
+  },
+  {
+    "aliases": [
+      "Dotty",
+      "Dotty Vlosky"
+    ],
+    "entity_type": "person",
+    "id": "dorothy_vlosky",
+    "name": "Dorothy Vlosky",
+    "subtype": "person",
+    "summary": "Seymour Benzer's first wife, a nursing student."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "carol_miller",
+    "name": "Carol Miller",
+    "subtype": "person",
+    "summary": "Seymour Benzer's second wife, a neuropathologist."
+  },
+  {
+    "aliases": [
+      "Lark-Horovitz"
+    ],
+    "entity_type": "person",
+    "id": "karl_lark_horovitz",
+    "name": "Karl Lark-Horovitz",
+    "subtype": "researcher",
+    "summary": "Physicist at Purdue University who mentored Benzer."
+  },
+  {
+    "aliases": [
+      "Delbruck",
+      "Max"
+    ],
+    "entity_type": "person",
+    "id": "max_delbruck",
+    "name": "Max Delbruck",
+    "subtype": "researcher",
+    "summary": "Biologist and colleague who influenced Benzer's career shifts."
+  },
+  {
+    "aliases": [
+      "Kanopka"
+    ],
+    "entity_type": "person",
+    "id": "ron_kanopka",
+    "name": "Ron Kanopka",
+    "subtype": "researcher",
+    "summary": "Graduate student who identified the period gene with Benzer."
+  },
+  {
+    "aliases": [
+      "Sperry"
+    ],
+    "entity_type": "person",
+    "id": "roger_sperry",
+    "name": "Roger Sperry",
+    "subtype": "researcher",
+    "summary": "Neuroscientist at Caltech who hosted Benzer's sabbatical."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "brooklyn_college",
+    "name": "Brooklyn College",
+    "subtype": "university",
+    "summary": "College in New York where Benzer studied physics."
+  },
+  {
+    "aliases": [
+      "Purdue"
+    ],
+    "entity_type": "organization",
+    "id": "purdue_university",
+    "name": "Purdue University",
+    "subtype": "university",
+    "summary": "University in Indiana where Benzer worked as graduate student and professor."
+  },
+  {
+    "aliases": [
+      "Caltech"
+    ],
+    "entity_type": "organization",
+    "id": "caltech",
+    "name": "California Institute of Technology",
+    "subtype": "university",
+    "summary": "Research university in California where Benzer worked as professor."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "pasteur_institute",
+    "name": "Pasteur Institute",
+    "subtype": "lab",
+    "summary": "Research institute in France where Benzer did postdoctoral research."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "bell_labs",
+    "name": "Bell Labs",
+    "subtype": "company",
+    "summary": "Industrial laboratory where the transistor was developed."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "gairdner_foundation",
+    "name": "Gairdner Foundation",
+    "subtype": "organization",
+    "summary": "Organization awarding the Gairdner Foundation International Award."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "royal_swedish_academy_of_sciences",
+    "name": "Royal Swedish Academy of Sciences",
+    "subtype": "organization",
+    "summary": "Organization awarding the Crafoord Prize."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "albany_medical_center",
+    "name": "Albany Medical Center",
+    "subtype": "organization",
+    "summary": "Organization awarding the Albany Medical Center Prize."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United States",
+      "region": "New York",
+      "lat": 40.81502,
+      "lng": -73.91745,
+      "wikidata_qid": "Q2404798",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "south_bronx",
+    "name": "South Bronx",
+    "subtype": "city",
+    "summary": "Birthplace of Seymour Benzer in New York."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United States",
+      "region": "Indiana",
+      "lat": 40.4172,
+      "lng": -86.8786,
+      "wikidata_qid": "Q638187",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "lafayette_indiana",
+    "name": "Lafayette",
+    "subtype": "city",
+    "summary": "Location of Purdue University."
+  },
+  {
+    "aliases": [
+      "rII mutants"
+    ],
+    "entity_type": "artifact",
+    "id": "rii_gene",
+    "name": "rII gene",
+    "subtype": "invention",
+    "summary": "Bacteriophage T4 gene used by Benzer for fine-structure mapping."
+  },
+  {
+    "aliases": [
+      "per"
+    ],
+    "entity_type": "artifact",
+    "id": "period_gene",
+    "name": "period gene",
+    "subtype": "invention",
+    "summary": "Gene affecting circadian rhythms in Drosophila identified by Benzer's lab."
+  },
+  {
+    "aliases": [
+      "Methuselah mutant"
+    ],
+    "entity_type": "artifact",
+    "id": "methuselah_mutant",
+    "name": "Methuselah",
+    "subtype": "invention",
+    "summary": "Drosophila mutant extending lifespan discovered by Benzer."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "gairdner_award",
+    "name": "Gairdner Foundation International Award",
+    "subtype": "award",
+    "summary": "International award for medical research."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "lasker_award",
+    "name": "Albert Lasker Award for Basic Medical Research",
+    "subtype": "award",
+    "summary": "Award for basic medical research."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "crafoord_prize",
+    "name": "Crafoord Prize",
+    "subtype": "award",
+    "summary": "Prize from the Royal Swedish Academy of Sciences."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "albany_prize",
+    "name": "Albany Medical Center Prize",
+    "subtype": "award",
+    "summary": "Prize often called the American Nobel Prize in Physiology or Medicine."
+  }
+]

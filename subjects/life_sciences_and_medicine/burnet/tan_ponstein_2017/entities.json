@@ -1,0 +1,274 @@
+[
+  {
+    "aliases": [
+      "Burnet",
+      "Mac",
+      "Macfarlane",
+      "Sir Frank Macfarlane Burnet"
+    ],
+    "entity_type": "person",
+    "id": "frank_macfarlane_burnet",
+    "name": "Frank Macfarlane Burnet",
+    "subtype": "researcher",
+    "summary": "Australian physician-scientist and Nobel laureate known for immune tolerance and clonal selection theory."
+  },
+  {
+    "aliases": [
+      "Prof Tan Siang Yong",
+      "Tan"
+    ],
+    "entity_type": "person",
+    "id": "siang_yong_tan",
+    "name": "Siang Yong Tan",
+    "subtype": "researcher",
+    "summary": "Emeritus Professor of Medicine at University of Hawaii and author of this biographical article."
+  },
+  {
+    "aliases": [
+      "Ponstein"
+    ],
+    "entity_type": "person",
+    "id": "nathaniel_ponstein",
+    "name": "Nathaniel Ponstein",
+    "subtype": "researcher",
+    "summary": "Medical resident at University of Hawaii and co-author of this biographical article."
+  },
+  {
+    "aliases": [
+      "Reverend Samuel Fraser",
+      "The Reverend"
+    ],
+    "entity_type": "person",
+    "id": "samuel_fraser",
+    "name": "Samuel Fraser",
+    "subtype": "clergy",
+    "summary": "Community minister who encouraged Burnet's parents to send him for university education."
+  },
+  {
+    "aliases": [
+      "Dr RR Stawell",
+      "Stawell"
+    ],
+    "entity_type": "person",
+    "id": "rr_stawell",
+    "name": "RR Stawell",
+    "subtype": "researcher",
+    "summary": "Respected neurologist in Melbourne with whom Burnet studied during his resident medical officer year."
+  },
+  {
+    "aliases": [
+      "Medawar"
+    ],
+    "entity_type": "person",
+    "id": "peter_medawar",
+    "name": "Peter Medawar",
+    "subtype": "researcher",
+    "summary": "Nobel laureate who shared the 1960 Nobel Prize in Physiology or Medicine with Burnet."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "colonial_bank",
+    "name": "Colonial Bank",
+    "subtype": "company",
+    "summary": "Bank where Burnet's father worked."
+  },
+  {
+    "aliases": [
+      "Melbourne"
+    ],
+    "entity_type": "organization",
+    "id": "university_of_melbourne",
+    "name": "University of Melbourne",
+    "subtype": "university",
+    "summary": "Australian university where Burnet earned his MBBS and MD degrees."
+  },
+  {
+    "aliases": [
+      "Hall Institute",
+      "the Hall Institute"
+    ],
+    "entity_type": "organization",
+    "id": "walter_and_eliza_hall_institute",
+    "name": "Walter and Eliza Hall Institute",
+    "subtype": "lab",
+    "summary": "Academic organisation of clinical and bench research where Burnet worked and later directed."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "lister_institute",
+    "name": "Lister Institute",
+    "subtype": "lab",
+    "summary": "Research institute in London where Burnet obtained additional training from 1925 to 1927."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "university_of_london",
+    "name": "University of London",
+    "subtype": "university",
+    "summary": "University from which Burnet obtained his PhD."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "australian_academy_of_science",
+    "name": "Australian Academy of Science",
+    "subtype": "organization",
+    "summary": "Scientific academy where Burnet served a term as president."
+  },
+  {
+    "aliases": [
+      "Harvard"
+    ],
+    "entity_type": "organization",
+    "id": "harvard_university",
+    "name": "Harvard University",
+    "subtype": "university",
+    "summary": "Prestigious university that offered Burnet a position which he turned down."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Australia",
+      "state": "Victoria",
+      "lat": -38.1958,
+      "lng": 146.54,
+      "wikidata_qid": "Q249022",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "traralgon",
+    "name": "Traralgon",
+    "subtype": "town",
+    "summary": "Small town in Victoria, Australia where Burnet was born."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Australia",
+      "state": "Victoria",
+      "lat": -38.23333,
+      "lng": 142.93333,
+      "wikidata_qid": "Q2752921",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "terang",
+    "name": "Terang",
+    "subtype": "town",
+    "summary": "Small rural town in Victoria, Australia where Burnet's family moved when he was ten."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Australia",
+      "lat": -38.25,
+      "lng": 142.91667,
+      "wikidata_qid": "Q6478008",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "lake_terang",
+    "name": "Lake Terang",
+    "subtype": "feature",
+    "summary": "Lake near Terang where Burnet explored during his childhood."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Australia",
+      "lat": -37.81417,
+      "lng": 144.96306,
+      "wikidata_qid": "Q3141",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "melbourne",
+    "name": "Melbourne",
+    "subtype": "city",
+    "summary": "City in Australia where Burnet attended university and libraries."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 51.50722,
+      "lng": -0.1275,
+      "wikidata_qid": "Q84",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "london",
+    "name": "London",
+    "subtype": "city",
+    "summary": "City in United Kingdom where Burnet studied at the Lister Institute."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "australia",
+    "name": "Australia",
+    "subtype": "country",
+    "summary": "Country where Burnet was born, worked, and died.",
+    "attributes": {
+      "lat": -25.0,
+      "lng": 133.0,
+      "wikidata_qid": "Q408",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "the_production_of_antibodies",
+    "name": "The Production of Antibodies",
+    "subtype": "publication",
+    "summary": "Monograph authored by Burnet in 1941 proposing notions of 'self' and 'non-self'."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "the_clonal_selection_theory_of_acquired_immunity",
+    "name": "The Clonal Selection Theory of Acquired Immunity",
+    "subtype": "publication",
+    "summary": "Book published by Burnet in 1959 dealing with antigen-specific antibodies."
+  },
+  {
+    "aliases": [
+      "1960 Nobel Prize"
+    ],
+    "entity_type": "artifact",
+    "id": "nobel_prize_physiology_medicine_1960",
+    "name": "Nobel Prize in Physiology or Medicine 1960",
+    "subtype": "award",
+    "summary": "Prize shared by Burnet and Peter Medawar for work on immune tolerance."
+  },
+  {
+    "aliases": [
+      "Q fever organism"
+    ],
+    "entity_type": "artifact",
+    "id": "coxiella_burnetii",
+    "name": "Coxiella burnetii",
+    "subtype": "organism",
+    "summary": "Organism responsible for Q fever, named in honour of Burnet."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "australian_of_the_year",
+    "name": "Australian of the Year",
+    "subtype": "award",
+    "summary": "Title named to Burnet by Australia."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "knight_of_the_australian_order",
+    "name": "Knight of the Australian Order",
+    "subtype": "award",
+    "summary": "Appointment conferred upon Burnet by Australia."
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "id": "ronald_ross",
+    "entity_type": "person",
+    "name": "Ronald Ross",
+    "aliases": [
+      "Ross",
+      "Sir Ronald Ross"
+    ],
+    "summary": "British physician and researcher who demonstrated mosquito transmission of malaria and developed mathematical models of disease.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "george_macdonald",
+    "entity_type": "person",
+    "name": "George Macdonald",
+    "aliases": [
+      "Macdonald",
+      "George MacDonald"
+    ],
+    "summary": "Medical entomologist and epidemiologist who refined the mathematical theory of malaria transmission.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "patrick_manson",
+    "entity_type": "person",
+    "name": "Patrick Manson",
+    "aliases": [
+      "Manson"
+    ],
+    "summary": "Physician who first demonstrated mosquitoes transmit a blood-borne pathogen (filarial worm).",
+    "subtype": "researcher"
+  },
+  {
+    "id": "hilda_hudson",
+    "entity_type": "person",
+    "name": "Hilda Hudson",
+    "aliases": [
+      "Hudson",
+      "Hilda P. Hudson"
+    ],
+    "summary": "Mathematician who co-authored papers on a priori pathometry with Ross.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "alfred_lotka",
+    "entity_type": "person",
+    "name": "Alfred Lotka",
+    "aliases": [
+      "Lotka",
+      "A. J. Lotka"
+    ],
+    "summary": "Mathematician who analyzed and extended Ross's malaria models.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "india",
+    "entity_type": "place",
+    "name": "India",
+    "aliases": [],
+    "summary": "Country where Ross conducted research while serving in a military post.",
+    "subtype": "country",
+    "attributes": {
+      "country": "India",
+      "lat": 22.8,
+      "lng": 83.0,
+      "wikidata_qid": "Q668",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "united_kingdom",
+    "entity_type": "place",
+    "name": "United Kingdom",
+    "aliases": [
+      "UK"
+    ],
+    "summary": "Country where Ross discussed malaria with Manson.",
+    "subtype": "country",
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 54.6,
+      "lng": -2.0,
+      "wikidata_qid": "Q145",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "sierra_leone",
+    "entity_type": "place",
+    "name": "Sierra Leone",
+    "aliases": [],
+    "summary": "Country visited by Ross for a malaria expedition.",
+    "subtype": "country",
+    "attributes": {
+      "country": "Sierra Leone",
+      "lat": 8.5,
+      "lng": -12.1,
+      "wikidata_qid": "Q1044",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "mauritius",
+    "entity_type": "place",
+    "name": "Mauritius",
+    "aliases": [],
+    "summary": "Island nation Ross visited to advise on malaria control.",
+    "subtype": "country",
+    "attributes": {
+      "country": "Mauritius",
+      "lat": -20.2,
+      "lng": 57.5,
+      "wikidata_qid": "Q1027",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "liverpool_school_of_tropical_medicine",
+    "entity_type": "organization",
+    "name": "Liverpool School of Tropical Medicine",
+    "aliases": [
+      "Liverpool School"
+    ],
+    "summary": "Institution that conducted the malaria expedition to Sierra Leone.",
+    "subtype": "university"
+  },
+  {
+    "id": "ross_institute",
+    "entity_type": "organization",
+    "name": "Ross Institute",
+    "aliases": [],
+    "summary": "Research institute where Macdonald served as Director.",
+    "subtype": "lab"
+  },
+  {
+    "id": "the_prevention_of_malaria",
+    "entity_type": "artifact",
+    "name": "The Prevention of Malaria",
+    "aliases": [],
+    "summary": "Book by Ross containing his second malaria transmission model.",
+    "subtype": "publication"
+  },
+  {
+    "id": "thick_film_method",
+    "entity_type": "artifact",
+    "name": "thick film",
+    "aliases": [
+      "thick film process"
+    ],
+    "summary": "Microscopy method developed by Ross to increase sensitivity of parasite detection.",
+    "subtype": "invention"
+  },
+  {
+    "id": "a_priori_pathometry",
+    "entity_type": "artifact",
+    "name": "a priori pathometry",
+    "aliases": [
+      "constructive epidemiology"
+    ],
+    "summary": "Term coined by Ross to describe the scientific activity of modeling transmission dynamics.",
+    "subtype": "publication"
+  }
+]

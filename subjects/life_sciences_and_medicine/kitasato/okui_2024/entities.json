@@ -1,0 +1,402 @@
+[
+  {
+    "aliases": [
+      "Dr. Kitasato",
+      "Dr. Shibasaburo Kitasato",
+      "Kitasato"
+    ],
+    "entity_type": "person",
+    "id": "shibasaburo_kitasato",
+    "name": "Shibasaburo Kitasato",
+    "subtype": "researcher",
+    "summary": "Japanese bacteriologist and immunologist known as the father of modern Japanese medicine."
+  },
+  {
+    "aliases": [
+      "Koch"
+    ],
+    "entity_type": "person",
+    "id": "robert_koch",
+    "name": "Robert Koch",
+    "subtype": "researcher",
+    "summary": "German physician and microbiologist who identified specific causative agents of tuberculosis, cholera, and anthrax."
+  },
+  {
+    "aliases": [
+      "von Behring",
+      "Behring"
+    ],
+    "entity_type": "person",
+    "id": "emil_von_behring",
+    "name": "Emil von Behring",
+    "subtype": "researcher",
+    "summary": "German physiologist who received the first Nobel Prize in Physiology or Medicine for serum therapy."
+  },
+  {
+    "aliases": [
+      "Dr. Mansfeld"
+    ],
+    "entity_type": "person",
+    "id": "mansfeld",
+    "name": "Mansfeld",
+    "subtype": "physician",
+    "summary": "Dutch physician who encouraged Kitasato to pursue medicine."
+  },
+  {
+    "aliases": [
+      "Fukuzawa"
+    ],
+    "entity_type": "person",
+    "id": "yukichi_fukuzawa",
+    "name": "Yukichi Fukuzawa",
+    "subtype": "educator",
+    "summary": "Japanese educator and founder of Keio University who supported Kitasato."
+  },
+  {
+    "aliases": [
+      "Yersin"
+    ],
+    "entity_type": "person",
+    "id": "alexandre_yersin",
+    "name": "Alexandre Yersin",
+    "subtype": "researcher",
+    "summary": "Swiss-French bacteriologist who co-discovered the plague bacillus."
+  },
+  {
+    "aliases": [
+      "Araki"
+    ],
+    "entity_type": "person",
+    "id": "torasaburo_araki",
+    "name": "Torasaburo Araki",
+    "subtype": "researcher",
+    "summary": "Japanese biochemist and later president of Kyoto Imperial University."
+  },
+  {
+    "aliases": [
+      "Takagi"
+    ],
+    "entity_type": "person",
+    "id": "tomoe_takagi",
+    "name": "Tomoe Takagi",
+    "subtype": "surgeon",
+    "summary": "Japanese surgeon and leader in Japanese surgery."
+  },
+  {
+    "aliases": [
+      "Kitajima"
+    ],
+    "entity_type": "person",
+    "id": "taiichi_kitajima",
+    "name": "Taiichi Kitajima",
+    "subtype": "researcher",
+    "summary": "Japanese bacteriologist."
+  },
+  {
+    "aliases": [
+      "Shiga"
+    ],
+    "entity_type": "person",
+    "id": "kiyoshi_shiga",
+    "name": "Kiyoshi Shiga",
+    "subtype": "researcher",
+    "summary": "Japanese bacteriologist who discovered Shigella dysenteriae."
+  },
+  {
+    "aliases": [
+      "Hata"
+    ],
+    "entity_type": "person",
+    "id": "sahachiro_hata",
+    "name": "Sahachiro Hata",
+    "subtype": "researcher",
+    "summary": "Japanese physician who co-developed the first effective treatment for syphilis."
+  },
+  {
+    "aliases": [
+      "Miyajima"
+    ],
+    "entity_type": "person",
+    "id": "mikinosuke_miyajima",
+    "name": "Mikinosuke Miyajima",
+    "subtype": "researcher",
+    "summary": "Japanese researcher in bacteriology and immunology."
+  },
+  {
+    "aliases": [
+      "Umeno"
+    ],
+    "entity_type": "person",
+    "id": "shinkichi_umeno",
+    "name": "Shinkichi Umeno",
+    "subtype": "researcher",
+    "summary": "Japanese researcher in bacteriology, immunology, and pathology."
+  },
+  {
+    "aliases": [
+      "Noguchi"
+    ],
+    "entity_type": "person",
+    "id": "hideyo_noguchi",
+    "name": "Hideyo Noguchi",
+    "subtype": "researcher",
+    "summary": "Japanese bacteriologist known for research on yellow fever."
+  },
+  {
+    "aliases": [
+      "Okui"
+    ],
+    "entity_type": "person",
+    "id": "nobuo_okui",
+    "name": "Nobuo Okui",
+    "subtype": "author",
+    "summary": "Author of the review article on Kitasato."
+  },
+  {
+    "aliases": [
+      "Kumamoto University School of Medicine"
+    ],
+    "entity_type": "organization",
+    "id": "kokuritsu_medical_school",
+    "name": "Kokuritsu Medical School",
+    "subtype": "university",
+    "summary": "Medical school in Kumamoto where Kitasato began his education."
+  },
+  {
+    "aliases": [
+      "Faculty of Medicine, University of Tokyo"
+    ],
+    "entity_type": "organization",
+    "id": "tokyo_medical_school",
+    "name": "Tokyo Medical School",
+    "subtype": "university",
+    "summary": "Medical school in Tokyo where Kitasato studied."
+  },
+  {
+    "aliases": [
+      "Home Affairs"
+    ],
+    "entity_type": "organization",
+    "id": "ministry_of_home_affairs",
+    "name": "Ministry of Home Affairs",
+    "subtype": "government",
+    "summary": "Japanese government ministry that employed Kitasato."
+  },
+  {
+    "aliases": [
+      "Koch's Institute"
+    ],
+    "entity_type": "organization",
+    "id": "robert_koch_institute",
+    "name": "Robert Koch's Institute for Infectious Diseases",
+    "subtype": "lab",
+    "summary": "Research institute in Berlin where Kitasato studied."
+  },
+  {
+    "aliases": [
+      "Institute for Infectious Diseases"
+    ],
+    "entity_type": "organization",
+    "id": "infectious_disease_research_institute",
+    "name": "Infectious Disease Research Institute",
+    "subtype": "lab",
+    "summary": "Research institute established by Kitasato in Japan."
+  },
+  {
+    "aliases": [
+      "Sanatorium"
+    ],
+    "entity_type": "organization",
+    "id": "tsukushioka_sanatorium",
+    "name": "Tsukushioka Sanatorium",
+    "subtype": "hospital",
+    "summary": "Hospital specializing in tuberculosis treatment founded by Kitasato."
+  },
+  {
+    "aliases": [
+      "Institute"
+    ],
+    "entity_type": "organization",
+    "id": "kitasato_institute",
+    "name": "Kitasato Institute",
+    "subtype": "lab",
+    "summary": "Private research institute established by Kitasato in 1914."
+  },
+  {
+    "aliases": [
+      "Keio"
+    ],
+    "entity_type": "organization",
+    "id": "keio_university_school_of_medicine",
+    "name": "Keio University School of Medicine",
+    "subtype": "university",
+    "summary": "Medical school founded by Kitasato."
+  },
+  {
+    "aliases": [
+      "Greater Japan Medical Association"
+    ],
+    "entity_type": "organization",
+    "id": "japan_medical_association",
+    "name": "Japan Medical Association",
+    "subtype": "organization",
+    "summary": "Professional association for physicians in Japan."
+  },
+  {
+    "aliases": [
+      "Kyoto University"
+    ],
+    "entity_type": "organization",
+    "id": "kyoto_imperial_university",
+    "name": "Kyoto Imperial University",
+    "subtype": "university",
+    "summary": "University where Araki became president."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Japan",
+      "lat": 32.78972,
+      "lng": 130.74139,
+      "wikidata_qid": "Q130308",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "kumamoto_prefecture",
+    "name": "Kumamoto prefecture",
+    "subtype": "prefecture",
+    "summary": "Prefecture in Japan where Kitasato was born."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Japan",
+      "lat": 35.68944,
+      "lng": 139.69167,
+      "wikidata_qid": "Q1490",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "tokyo",
+    "name": "Tokyo",
+    "subtype": "city",
+    "summary": "Capital city of Japan where Kitasato studied."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "germany",
+    "name": "Germany",
+    "subtype": "country",
+    "summary": "Country where Kitasato studied under Koch.",
+    "attributes": {
+      "lat": 51.0,
+      "lng": 10.0,
+      "wikidata_qid": "Q183",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Germany",
+      "lat": 52.51667,
+      "lng": 13.38333,
+      "wikidata_qid": "Q64",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "berlin",
+    "name": "Berlin",
+    "subtype": "city",
+    "summary": "City in Germany where Kitasato studied."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "hong_kong",
+    "name": "Hong Kong",
+    "subtype": "city",
+    "summary": "Location of the 1894 plague outbreak.",
+    "attributes": {
+      "lat": 22.27833,
+      "lng": 114.15861,
+      "wikidata_qid": "Q8646",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "japan",
+    "name": "Japan",
+    "subtype": "country",
+    "summary": "Country where Kitasato worked and established institutions.",
+    "attributes": {
+      "lat": 35.0,
+      "lng": 136.0,
+      "wikidata_qid": "Q17",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "aliases": [
+      "banknote"
+    ],
+    "entity_type": "artifact",
+    "id": "x_1000_yen_banknote",
+    "name": "1000-yen banknote",
+    "subtype": "product",
+    "summary": "Japanese currency note featuring Kitasato's portrait."
+  },
+  {
+    "aliases": [
+      "Anaerobes paper"
+    ],
+    "entity_type": "artifact",
+    "id": "zur_kenntniss_der_anaeroben",
+    "name": "Zur Kenntniss der Anaëroben",
+    "subtype": "publication",
+    "summary": "1890 publication by Kitasato on anaerobic bacteria."
+  },
+  {
+    "aliases": [
+      "Immunity paper"
+    ],
+    "entity_type": "artifact",
+    "id": "diphtheria_tetanus_immunity_paper",
+    "name": "Ueber das Zustandekommen der Diphtherie-Immunität und der Tetanus-Immunität bei Tieren",
+    "subtype": "publication",
+    "summary": "1890 publication by Kitasato and Behring on immunity."
+  },
+  {
+    "aliases": [
+      "Tetanus toxin paper"
+    ],
+    "entity_type": "artifact",
+    "id": "tetanus_toxin_paper",
+    "name": "Experimentelle Untersuchungen über das Tetanusgift",
+    "subtype": "publication",
+    "summary": "1891 publication by Kitasato on tetanus toxin."
+  },
+  {
+    "aliases": [
+      "Plague paper"
+    ],
+    "entity_type": "artifact",
+    "id": "plague_bacillus_paper",
+    "name": "The bacillus of bubonic plague",
+    "subtype": "publication",
+    "summary": "1894 publication by Kitasato in the Lancet."
+  },
+  {
+    "aliases": [
+      "Nobel Prize"
+    ],
+    "entity_type": "artifact",
+    "id": "nobel_prize_physiology_medicine",
+    "name": "Nobel Prize in Physiology or Medicine",
+    "subtype": "award",
+    "summary": "Award received by von Behring in 1901."
+  }
+]

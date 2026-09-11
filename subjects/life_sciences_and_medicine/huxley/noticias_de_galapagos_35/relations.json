@@ -1,0 +1,96 @@
+[
+  {
+    "id": "huxley_employed_unesco",
+    "source": "julian_huxley",
+    "type": "employed_by",
+    "target": "unesco",
+    "sources": [
+      {
+        "source_id": "noticias_de_galapagos_35",
+        "page": 28,
+        "quote": "During his years as Director General of UNESCO"
+      }
+    ]
+  },
+  {
+    "id": "huxley_promoted_iucn",
+    "source": "julian_huxley",
+    "type": "developed",
+    "target": "iucn",
+    "sources": [
+      {
+        "source_id": "noticias_de_galapagos_35",
+        "page": 28,
+        "quote": "he promoted the launching of the International Union for Conservation of Nature"
+      }
+    ]
+  },
+  {
+    "id": "huxley_promoted_wwf",
+    "source": "julian_huxley",
+    "type": "developed",
+    "target": "wwf",
+    "sources": [
+      {
+        "source_id": "noticias_de_galapagos_35",
+        "page": 28,
+        "quote": "and later the World Wildlife Fund."
+      }
+    ]
+  },
+  {
+    "id": "huxley_published_modern_synthesis",
+    "source": "julian_huxley",
+    "type": "published",
+    "target": "evolution_modern_synthesis",
+    "sources": [
+      {
+        "source_id": "noticias_de_galapagos_35",
+        "page": 28,
+        "quote": "His influential book, Evolution, the Modem Synthesis, made him the natural choice"
+      }
+    ]
+  },
+  {
+    "id": "huxley_member_galapagos_committee",
+    "source": "julian_huxley",
+    "type": "member_of",
+    "target": "galapagos_committee",
+    "event_id": "huxley_chairman_galapagos_committee_1958",
+    "sources": [
+      {
+        "source_id": "noticias_de_galapagos_35",
+        "page": 28,
+        "quote": "set up a Galapagos Committee of which Sir Julian became Chairman."
+      }
+    ]
+  },
+  {
+    "id": "huxley_member_london_committee",
+    "source": "julian_huxley",
+    "type": "member_of",
+    "target": "london_committee_galapagos",
+    "event_id": "huxley_chairman_london_committee_1938",
+    "sources": [
+      {
+        "source_id": "noticias_de_galapagos_35",
+        "page": 28,
+        "quote": "Twenty years earlier he had served as chairman of the London Committee for the Galapagos"
+      }
+    ]
+  },
+  {
+    "id": "huxley_member_cdf",
+    "source": "julian_huxley",
+    "type": "member_of",
+    "target": "charles_darwin_foundation",
+    "event_id": "huxley_joined_cdf_1959",
+    "sources": [
+      {
+        "source_id": "noticias_de_galapagos_35",
+        "page": 28,
+        "quote": "In 1959 he joined the organising committee of the Charles Darwin Foundation and became its Honorary President."
+      }
+    ]
+  }
+]

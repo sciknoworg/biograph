@@ -1,0 +1,139 @@
+[
+  {
+    "id": "gibbon_studied_princeton",
+    "source": "john_heysham_gibbon_jr",
+    "type": "studied_at",
+    "target": "princeton_university",
+    "event_id": "gibbon_princeton_graduation",
+    "sources": [
+      {
+        "source_id": "gibbon_memorial_transcript",
+        "page": 1,
+        "quote": "He was graduated from Princeton at the age of nineteen"
+      }
+    ]
+  },
+  {
+    "id": "gibbon_studied_jefferson",
+    "source": "john_heysham_gibbon_jr",
+    "type": "studied_at",
+    "target": "jefferson_medical_college",
+    "event_id": "gibbon_jefferson_md",
+    "sources": [
+      {
+        "source_id": "gibbon_memorial_transcript",
+        "page": 1,
+        "quote": "finished Jefferson Medical College four years later with an M.D."
+      }
+    ]
+  },
+  {
+    "id": "gibbon_married_maly",
+    "source": "john_heysham_gibbon_jr",
+    "type": "married_to",
+    "target": "maly_gibbon",
+    "event_id": "gibbon_marriage",
+    "sources": [
+      {
+        "source_id": "gibbon_memorial_transcript",
+        "page": 181,
+        "quote": "married her in 1931"
+      }
+    ]
+  },
+  {
+    "id": "gibbon_worked_pennsylvania_hospital",
+    "source": "john_heysham_gibbon_jr",
+    "type": "worked_at",
+    "target": "pennsylvania_hospital",
+    "event_id": "gibbon_war_service",
+    "sources": [
+      {
+        "source_id": "gibbon_memorial_transcript",
+        "page": 1,
+        "quote": "He devoted the war years to service with the Pennsylvania Hospital Unit"
+      }
+    ]
+  },
+  {
+    "id": "gibbon_worked_mayo",
+    "source": "john_heysham_gibbon_jr",
+    "type": "worked_at",
+    "target": "mayo_general_hospital",
+    "event_id": "gibbon_war_service",
+    "sources": [
+      {
+        "source_id": "gibbon_memorial_transcript",
+        "page": 1,
+        "quote": "eventually became the chief of the Surgical Service at the Mayo General Hospital"
+      }
+    ]
+  },
+  {
+    "id": "gibbon_worked_upenn",
+    "source": "john_heysham_gibbon_jr",
+    "type": "worked_at",
+    "target": "university_of_pennsylvania",
+    "event_id": "gibbon_upenn_assistant_prof",
+    "sources": [
+      {
+        "source_id": "gibbon_memorial_transcript",
+        "page": 1,
+        "quote": "He returned to the University of Pennsylvania as Assistant Professor of Surgery"
+      }
+    ]
+  },
+  {
+    "id": "gibbon_worked_jefferson",
+    "source": "john_heysham_gibbon_jr",
+    "type": "worked_at",
+    "target": "jefferson_medical_college",
+    "event_id": "gibbon_jefferson_prof",
+    "sources": [
+      {
+        "source_id": "gibbon_memorial_transcript",
+        "page": 1,
+        "quote": "appointed professor of surgery and director of surgical research at Jefferson Medical College"
+      }
+    ]
+  },
+  {
+    "id": "gibbon_invented_machine",
+    "source": "john_heysham_gibbon_jr",
+    "type": "invented",
+    "target": "heart_lung_machine",
+    "sources": [
+      {
+        "source_id": "gibbon_memorial_transcript",
+        "page": 1,
+        "quote": "His great contribution was the development and successful demonstration of the apparatus which permits the circulation to be carried on outside the body by an artificial heart and artificial lungs."
+      }
+    ]
+  },
+  {
+    "id": "gibbon_member_college",
+    "source": "john_heysham_gibbon_jr",
+    "type": "member_of",
+    "target": "college_of_physicians_of_philadelphia",
+    "sources": [
+      {
+        "source_id": "gibbon_memorial_transcript",
+        "page": 1,
+        "quote": "Both he and his father were presidents."
+      }
+    ]
+  },
+  {
+    "id": "gibbon_collaborated_maly",
+    "source": "john_heysham_gibbon_jr",
+    "type": "collaborated_with",
+    "target": "maly_gibbon",
+    "sources": [
+      {
+        "source_id": "gibbon_memorial_transcript",
+        "page": 1,
+        "quote": "Maly was a frequent consultant as she had been his working partner for nineteen years while they perfected the heart-lung machine."
+      }
+    ]
+  }
+]

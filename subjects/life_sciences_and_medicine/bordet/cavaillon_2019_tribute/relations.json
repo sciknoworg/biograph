@@ -1,0 +1,146 @@
+[
+  {
+    "id": "bordet_born_soignies",
+    "source": "jules_bordet",
+    "type": "born_in",
+    "target": "soignies",
+    "sources": [
+      {
+        "source_id": "cavaillon_2019_tribute",
+        "page": 2,
+        "quote": "Jules Bordet was born in 1870 in Soignies"
+      }
+    ]
+  },
+  {
+    "id": "bordet_studied_ulb",
+    "source": "jules_bordet",
+    "type": "studied_at",
+    "target": "universite_libre_de_bruxelles",
+    "sources": [
+      {
+        "source_id": "cavaillon_2019_tribute",
+        "page": 2,
+        "quote": "At the age of 16, he entered the Université Libre de Bruxelles as a medical student"
+      }
+    ]
+  },
+  {
+    "id": "bordet_worked_pasteur_paris",
+    "source": "jules_bordet",
+    "type": "worked_at",
+    "target": "institut_pasteur_paris",
+    "sources": [
+      {
+        "source_id": "cavaillon_2019_tribute",
+        "page": 2,
+        "quote": "Jules Bordet joined the Institut Pasteur in April 1894"
+      }
+    ]
+  },
+  {
+    "id": "bordet_worked_pasteur_brabant",
+    "source": "jules_bordet",
+    "type": "worked_at",
+    "target": "institut_pasteur_brabant",
+    "sources": [
+      {
+        "source_id": "cavaillon_2019_tribute",
+        "page": 2,
+        "quote": "In 1901, Jules Bordet returned to Brussels where he had been invited to lead a new institute"
+      }
+    ]
+  },
+  {
+    "id": "bordet_employed_ulb",
+    "source": "jules_bordet",
+    "type": "employed_by",
+    "target": "universite_libre_de_bruxelles",
+    "sources": [
+      {
+        "source_id": "cavaillon_2019_tribute",
+        "page": 2,
+        "quote": "In 1907, Jules Bordet was appointed as the Chair of Bacteriology at the Université libre de Bruxelles"
+      }
+    ]
+  },
+  {
+    "id": "bordet_collaborated_gengou",
+    "source": "jules_bordet",
+    "type": "collaborated_with",
+    "target": "octave_gengou",
+    "sources": [
+      {
+        "source_id": "cavaillon_2019_tribute",
+        "page": 5,
+        "quote": "Bordet and Gengou then developed an appropriate culture medium allowing them to isolate the bacillus"
+      }
+    ]
+  },
+  {
+    "id": "bordet_mentored_paul",
+    "source": "jules_bordet",
+    "type": "mentored",
+    "target": "paul_bordet",
+    "sources": [
+      {
+        "source_id": "cavaillon_2019_tribute",
+        "page": 3,
+        "quote": "He transmitted his interest in bacteriophages to his son Paul Bordet (1906–1987) who succeeded him"
+      }
+    ]
+  },
+  {
+    "id": "bordet_awarded_nobel",
+    "source": "jules_bordet",
+    "type": "awarded",
+    "target": "nobel_prize_1919",
+    "event_id": "bordet_nobel_award",
+    "sources": [
+      {
+        "source_id": "cavaillon_2019_tribute",
+        "page": 1,
+        "quote": "On October, 28th, 1920, Jules Bordet was awarded with the 1919 Nobel prize"
+      }
+    ]
+  },
+  {
+    "id": "bordet_developed_pertussis",
+    "source": "jules_bordet",
+    "type": "developed",
+    "target": "bordetella_pertussis",
+    "sources": [
+      {
+        "source_id": "cavaillon_2019_tribute",
+        "page": 1,
+        "quote": "discovered the causative bacterium of whooping cough, named Bordetella pertussis"
+      }
+    ]
+  },
+  {
+    "id": "bordet_family_charles_henri",
+    "source": "jules_bordet",
+    "type": "family_of",
+    "target": "charles_henri_bordet",
+    "sources": [
+      {
+        "source_id": "cavaillon_2019_tribute",
+        "page": 2,
+        "quote": "where his father Charles-Henri was a school teacher"
+      }
+    ]
+  },
+  {
+    "id": "bordet_family_charles",
+    "source": "jules_bordet",
+    "type": "family_of",
+    "target": "charles_bordet",
+    "sources": [
+      {
+        "source_id": "cavaillon_2019_tribute",
+        "page": 2,
+        "quote": "simultaneously with his older brother Charles"
+      }
+    ]
+  }
+]

@@ -1,0 +1,454 @@
+[
+  {
+    "id": "malpighi_meets_borelli",
+    "event_type": "meeting",
+    "label": "Met Giovanni Alfonso Borelli at Pisa University",
+    "description": "Malpighi and Borelli arrived at Pisa University as professors.",
+    "date": {
+      "display": "1656",
+      "precision": "year",
+      "sort_start": "1656-01-01",
+      "sort_end": "1656-12-31"
+    },
+    "location": "pisa",
+    "participants": [
+      {
+        "entity_id": "marcello_malpighi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "giovanni_alfonso_borelli",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "pisa_university",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "bertoloni_meli_2007",
+        "page": 3,
+        "quote": "The relationship between Borelli and Malpighi was deep from 1656, the year when they met on their arrival at Pisa University as professors of mathematics and medicine, respectively"
+      }
+    ]
+  },
+  {
+    "id": "malpighi_composes_dialogues",
+    "event_type": "publication",
+    "label": "Composed two Galilean dialogues",
+    "description": "Malpighi composed two dialogues among three personages, now lost.",
+    "date": {
+      "display": "1659",
+      "precision": "year",
+      "sort_start": "1659-01-01",
+      "sort_end": "1659-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "marcello_malpighi",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "bertoloni_meli_2007",
+        "page": 3,
+        "quote": "In 1659 Malpighi composed two dialogues among three personages, a Galenist physician, a chirurgus mechanicus or a surgeon whose manual skills were characterized as ''mechanical'', and a neutral observer."
+      }
+    ]
+  },
+  {
+    "id": "malpighi_publishes_pulmonibus",
+    "event_type": "publication",
+    "label": "Published Epistolae de pulmonibus",
+    "description": "Malpighi published his first work announcing the discovery of lung microstructure.",
+    "date": {
+      "display": "1661",
+      "precision": "year",
+      "sort_start": "1661-01-01",
+      "sort_end": "1661-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "marcello_malpighi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "epistolae_de_pulmonibus",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "bertoloni_meli_2007",
+        "page": 1,
+        "quote": "In 1661 Malpighi had published his first work, Epistolae de pulmonibus"
+      }
+    ]
+  },
+  {
+    "id": "malpighi_publishes_sense_tracts",
+    "event_type": "publication",
+    "label": "Published anatomical tracts on sense perception",
+    "description": "Malpighi published De lingua and De externo tactus organo.",
+    "date": {
+      "display": "1665",
+      "precision": "year",
+      "sort_start": "1665-01-01",
+      "sort_end": "1665-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "marcello_malpighi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "de_lingua",
+        "role": "invention"
+      },
+      {
+        "entity_id": "de_externo_tactus_organo",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "bertoloni_meli_2007",
+        "page": 5,
+        "quote": "In 1665 Malpighi published a series of anatomical tracts on sense perception, including De lingua and De externo tactus organo."
+      }
+    ]
+  },
+  {
+    "id": "malpighi_associates_royal_society",
+    "event_type": "role_change",
+    "label": "Associated with the Royal Society",
+    "description": "Malpighi became associated with the Royal Society and Henry Oldenburg.",
+    "date": {
+      "display": "1668–9",
+      "precision": "range",
+      "sort_start": "1668-01-01",
+      "sort_end": "1669-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "marcello_malpighi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_society",
+        "role": "employer"
+      },
+      {
+        "entity_id": "henry_oldenburg",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "bertoloni_meli_2007",
+        "page": 3,
+        "quote": "in 1668–9, Malpighi became associated with the Royal Society."
+      }
+    ]
+  },
+  {
+    "id": "malpighi_breaks_borelli",
+    "event_type": "other",
+    "label": "Broke correspondence with Borelli",
+    "description": "Differences about anatomical matters led Malpighi to break off correspondence.",
+    "date": {
+      "display": "about 1668",
+      "precision": "year",
+      "sort_start": "1668-01-01",
+      "sort_end": "1668-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "marcello_malpighi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "giovanni_alfonso_borelli",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "approximate",
+    "sources": [
+      {
+        "source_id": "bertoloni_meli_2007",
+        "page": 3,
+        "quote": "to about 1668, when Borelli's continued paternalistic attitude and differences about anatomical matters and philosophical perspectives led Malpighi to break off their correspondence."
+      }
+    ]
+  },
+  {
+    "id": "malpighi_publishes_bombyce",
+    "event_type": "publication",
+    "label": "Published De bombyce",
+    "description": "Malpighi published work on the silkworm.",
+    "date": {
+      "display": "1669",
+      "precision": "year",
+      "sort_start": "1669-01-01",
+      "sort_end": "1669-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "marcello_malpighi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "de_bombyce",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "bertoloni_meli_2007",
+        "page": 7,
+        "quote": "Malpighi, who had published De bombyce, on the silkworm, in 1669"
+      }
+    ]
+  },
+  {
+    "id": "malpighi_publishes_anatome_plantarum",
+    "event_type": "publication",
+    "label": "Published Anatome plantarum",
+    "description": "Malpighi published extensive work on plant anatomy.",
+    "date": {
+      "display": "1675 and 1679",
+      "precision": "range",
+      "sort_start": "1675-01-01",
+      "sort_end": "1679-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "marcello_malpighi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "anatome_plantarum",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "bertoloni_meli_2007",
+        "page": 7,
+        "quote": "and the extensive Anatome plantarum in 1675 and 1679."
+      }
+    ]
+  },
+  {
+    "id": "sbaraglia_publishes_dissertatio",
+    "event_type": "publication",
+    "label": "Sbaraglia published De recentiorum medicorum studio",
+    "description": "Sbaraglia's opening salvo against recent anatomical investigations.",
+    "date": {
+      "display": "1687",
+      "precision": "year",
+      "sort_start": "1687-01-01",
+      "sort_end": "1687-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "giovanni_girolamo_sbaraglia",
+        "role": "subject"
+      },
+      {
+        "entity_id": "de_recentiorum_medicorum_studio",
+        "role": "invention"
+      }
+    ],
+    "certainty": "approximate",
+    "sources": [
+      {
+        "source_id": "bertoloni_meli_2007",
+        "page": 1,
+        "quote": "Sbaraglia's opening salvo, De recentiorum medicorum studio dissertatio epistolaris ad amicum (dated 1687, but possibly from 1689)"
+      }
+    ]
+  },
+  {
+    "id": "malpighi_called_rome",
+    "event_type": "relocation",
+    "label": "Called to Rome as papal archiater",
+    "description": "Pope Innocent XII called Malpighi to Rome as his personal archiater.",
+    "date": {
+      "display": "1691",
+      "precision": "year",
+      "sort_start": "1691-01-01",
+      "sort_end": "1691-12-31"
+    },
+    "location": "rome",
+    "participants": [
+      {
+        "entity_id": "marcello_malpighi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "pope_innocent_xii",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "bertoloni_meli_2007",
+        "page": 8,
+        "quote": "in 1691 the newly elected Pope Innocent XII had called Malpighi to Rome as his personal archiater."
+      }
+    ]
+  },
+  {
+    "id": "malpighi_writes_waller",
+    "event_type": "other",
+    "label": "Wrote to Richard Waller",
+    "description": "Malpighi indicated intention to send Risposta after his death.",
+    "date": {
+      "display": "6 Nov. 1693",
+      "precision": "day",
+      "sort_start": "1693-11-06",
+      "sort_end": "1693-11-06"
+    },
+    "participants": [
+      {
+        "entity_id": "marcello_malpighi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "richard_waller",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "bertoloni_meli_2007",
+        "page": 6,
+        "quote": "Malpighi to Waller, 6 Nov. 1693"
+      }
+    ]
+  },
+  {
+    "id": "malpighi_risposta_published",
+    "event_type": "publication",
+    "label": "Risposta published posthumously",
+    "description": "Malpighi's reply to Sbaraglia published after his death.",
+    "date": {
+      "display": "1697",
+      "precision": "year",
+      "sort_start": "1697-01-01",
+      "sort_end": "1697-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "marcello_malpighi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "risposta",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "bertoloni_meli_2007",
+        "page": 1,
+        "quote": "Malpighi's posthumous Risposta (1697)"
+      }
+    ]
+  },
+  {
+    "id": "malpighi_opera_posthuma_published",
+    "event_type": "publication",
+    "label": "Opera posthuma published",
+    "description": "Collection of Malpighi's posthumous works published in Amsterdam and Venice.",
+    "date": {
+      "display": "1698",
+      "precision": "year",
+      "sort_start": "1698-01-01",
+      "sort_end": "1698-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "marcello_malpighi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "opera_posthuma",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "bertoloni_meli_2007",
+        "page": 15,
+        "quote": "In the preface to the Amsterdam 1698 edition of Malpighi's Opera posthuma"
+      }
+    ]
+  },
+  {
+    "id": "sbaraglia_publishes_oculorum",
+    "event_type": "publication",
+    "label": "Sbaraglia published Oculorum et mentis vigiliae",
+    "description": "Sbaraglia's reply to Malpighi's Risposta.",
+    "date": {
+      "display": "1704",
+      "precision": "year",
+      "sort_start": "1704-01-01",
+      "sort_end": "1704-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "giovanni_girolamo_sbaraglia",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "bertoloni_meli_2007",
+        "page": 1,
+        "quote": "Sbaraglia's beautifully titled and rather profound reply, Oculorum et mentis vigiliae, ad distinguendum studium anatomicum, et ad praxin medicam dirigendam (1704)"
+      }
+    ]
+  },
+  {
+    "id": "morgagni_publishes_epistola",
+    "event_type": "publication",
+    "label": "Morgagni published Epistola",
+    "description": "Morgagni's two-letter rejoinder in the controversy.",
+    "date": {
+      "display": "1705",
+      "precision": "year",
+      "sort_start": "1705-01-01",
+      "sort_end": "1705-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "giovanni_battista_morgagni",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "bertoloni_meli_2007",
+        "page": 1,
+        "quote": "Morgagni's two-letter rejoinder published under the pseudonyms of Orazio de Floriani and Luca Terranova, titled Epistola, qua plus centum, & quinquaginta errores ostenduntur (1705)."
+      }
+    ]
+  }
+]

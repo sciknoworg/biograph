@@ -1,0 +1,224 @@
+[
+  {
+    "id": "wade_hampton_frost",
+    "entity_type": "person",
+    "name": "Wade Hampton Frost",
+    "aliases": [
+      "Frost",
+      "Jack"
+    ],
+    "summary": "American epidemiologist and first Professor of Epidemiology at Johns Hopkins.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "thomas_m_daniel",
+    "entity_type": "person",
+    "name": "Thomas M. Daniel",
+    "summary": "Author of Frost's biography.",
+    "subtype": "author"
+  },
+  {
+    "id": "alfredo_morabia",
+    "entity_type": "person",
+    "name": "Alfredo Morabia",
+    "summary": "Author of this book review.",
+    "subtype": "author"
+  },
+  {
+    "id": "university_of_virginia",
+    "entity_type": "organization",
+    "name": "University of Virginia",
+    "summary": "University where Frost received his MD.",
+    "subtype": "university"
+  },
+  {
+    "id": "united_states_public_health_service",
+    "entity_type": "organization",
+    "name": "United States Public Health Service",
+    "summary": "Federal agency where Frost began his career.",
+    "subtype": "government_agency"
+  },
+  {
+    "id": "hygienic_laboratory",
+    "entity_type": "organization",
+    "name": "Hygienic Laboratory",
+    "summary": "Laboratory in Washington where Frost worked on infectious diseases.",
+    "subtype": "lab"
+  },
+  {
+    "id": "milton_j_rosenau",
+    "entity_type": "person",
+    "name": "Milton J. Rosenau",
+    "summary": "Head of the Hygienic Laboratory.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "haven_emerson",
+    "entity_type": "person",
+    "name": "Haven Emerson",
+    "summary": "New York City health commissioner.",
+    "subtype": "official"
+  },
+  {
+    "id": "william_henry_welch",
+    "entity_type": "person",
+    "name": "William Henry Welch",
+    "summary": "Invited Frost to Johns Hopkins.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "johns_hopkins_university_school_of_hygiene_and_public_health",
+    "entity_type": "organization",
+    "name": "Johns Hopkins University School of Hygiene and Public Health",
+    "summary": "Institution where Frost established the Department of Epidemiology.",
+    "subtype": "university"
+  },
+  {
+    "id": "lowell_jacob_reed",
+    "entity_type": "person",
+    "name": "Lowell Jacob Reed",
+    "summary": "Collaborator of Frost in biostatistics.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "harriet_lane_clinic",
+    "entity_type": "organization",
+    "name": "Harriet Lane Clinic",
+    "summary": "Clinic in Baltimore where Frost studied tuberculosis mortality.",
+    "subtype": "clinic"
+  },
+  {
+    "id": "marshall",
+    "entity_type": "place",
+    "name": "Marshall",
+    "summary": "Town in Virginia where Frost was born.",
+    "subtype": "town",
+    "attributes": {
+      "country": "United States",
+      "state": "Virginia",
+      "lat": 32.55,
+      "lng": -94.5,
+      "wikidata_qid": "Q52996",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "virginia",
+    "entity_type": "place",
+    "name": "Virginia",
+    "summary": "US state.",
+    "subtype": "state",
+    "attributes": {
+      "country": "United States",
+      "lat": 37.5,
+      "lng": -79.0,
+      "wikidata_qid": "Q1370",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "new_orleans",
+    "entity_type": "place",
+    "name": "New Orleans",
+    "summary": "City where Frost investigated yellow fever.",
+    "subtype": "city",
+    "attributes": {
+      "country": "United States",
+      "lat": 29.97611,
+      "lng": -90.07833,
+      "wikidata_qid": "Q34404",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "washington",
+    "entity_type": "place",
+    "name": "Washington",
+    "summary": "City where the Hygienic Laboratory was located.",
+    "subtype": "city",
+    "attributes": {
+      "country": "United States",
+      "lat": 47.5,
+      "lng": -120.5,
+      "wikidata_qid": "Q1223",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "new_york_city",
+    "entity_type": "place",
+    "name": "New York City",
+    "summary": "City where Frost investigated polio.",
+    "subtype": "city",
+    "attributes": {
+      "country": "United States",
+      "lat": 40.71278,
+      "lng": -74.00611,
+      "wikidata_qid": "Q60",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "baltimore",
+    "entity_type": "place",
+    "name": "Baltimore",
+    "summary": "City where Johns Hopkins is located.",
+    "subtype": "city",
+    "attributes": {
+      "country": "United States",
+      "lat": 39.28639,
+      "lng": -76.615,
+      "wikidata_qid": "Q5092",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "tennessee",
+    "entity_type": "place",
+    "name": "Tennessee",
+    "summary": "State where Frost conducted TB studies.",
+    "subtype": "state",
+    "attributes": {
+      "country": "United States",
+      "lat": 36.0,
+      "lng": -86.0,
+      "wikidata_qid": "Q1509",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "common_wealth_fund",
+    "entity_type": "organization",
+    "name": "Common Wealth Fund",
+    "summary": "Publisher of Frost's papers.",
+    "subtype": "publisher"
+  },
+  {
+    "id": "university_of_rochester_press",
+    "entity_type": "organization",
+    "name": "University of Rochester Press",
+    "summary": "Publisher of Daniel's biography.",
+    "subtype": "publisher"
+  },
+  {
+    "id": "reed_frost_model",
+    "entity_type": "artifact",
+    "name": "Reed-Frost model",
+    "summary": "Model of epidemic curves developed by Frost and Reed.",
+    "subtype": "invention"
+  },
+  {
+    "id": "daniel_biography",
+    "entity_type": "artifact",
+    "name": "Wade Hampton Frost. Pioneer epidemiologist 1880–1938. Up to the mountain",
+    "summary": "Biography of Frost by Thomas M. Daniel.",
+    "subtype": "publication"
+  },
+  {
+    "id": "morabia_review",
+    "entity_type": "artifact",
+    "name": "Book Review: Wade Hampton Frost. Pioneer epidemiologist 1880–1938. Up to the mountain",
+    "summary": "Review of Daniel's biography by Alfredo Morabia.",
+    "subtype": "publication"
+  }
+]

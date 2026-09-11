@@ -1,0 +1,334 @@
+[
+  {
+    "id": "alfred_russel_wallace",
+    "entity_type": "person",
+    "name": "Alfred Russel Wallace",
+    "aliases": [
+      "Wallace",
+      "A. R. Wallace"
+    ],
+    "summary": "British naturalist and co-discoverer of natural selection, known as the father of biogeography.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "charles_darwin",
+    "entity_type": "person",
+    "name": "Charles Darwin",
+    "aliases": [
+      "Darwin"
+    ],
+    "summary": "British naturalist and co-discoverer of natural selection.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "henry_walter_bates",
+    "entity_type": "person",
+    "name": "Henry Walter Bates",
+    "aliases": [
+      "Bates"
+    ],
+    "summary": "British naturalist and explorer, colleague of Wallace in Brazil.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "charles_lyell",
+    "entity_type": "person",
+    "name": "Charles Lyell",
+    "aliases": [
+      "Lyell"
+    ],
+    "summary": "British geologist and friend of Darwin who advised on the joint reading of evolutionary papers.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "joseph_hooker",
+    "entity_type": "person",
+    "name": "Joseph Hooker",
+    "aliases": [
+      "Hooker"
+    ],
+    "summary": "British botanist and friend of Darwin who advised on the joint reading of evolutionary papers.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "thomas_henry_huxley",
+    "entity_type": "person",
+    "name": "T. H. Huxley",
+    "aliases": [
+      "Huxley"
+    ],
+    "summary": "British biologist who coined the term 'Wallace's Line'.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "percival_lowell",
+    "entity_type": "person",
+    "name": "Percival Lowell",
+    "aliases": [
+      "Lowell"
+    ],
+    "summary": "American astronomer who argued for canals on Mars, debated by Wallace.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "robert_owen",
+    "entity_type": "person",
+    "name": "Robert Owen",
+    "aliases": [
+      "Owen"
+    ],
+    "summary": "Utopian socialist whose teachings influenced Wallace.",
+    "subtype": "philosopher"
+  },
+  {
+    "id": "p_l_sclater",
+    "entity_type": "person",
+    "name": "P. L. Sclater",
+    "aliases": [
+      "Sclater"
+    ],
+    "summary": "Zoologist whose biogeographical region scheme Wallace adopted.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "royal_geographical_society",
+    "entity_type": "organization",
+    "name": "Royal Geographical Society",
+    "aliases": [],
+    "summary": "Organization that granted Wallace funding for his travel to Singapore.",
+    "subtype": "society"
+  },
+  {
+    "id": "linnean_society_of_london",
+    "entity_type": "organization",
+    "name": "Linnean Society of London",
+    "aliases": [
+      "Linnean Society"
+    ],
+    "summary": "Scientific society where the joint Darwin-Wallace paper on natural selection was read.",
+    "subtype": "society"
+  },
+  {
+    "id": "land_nationalisation_society",
+    "entity_type": "organization",
+    "name": "Land Nationalisation Society",
+    "aliases": [],
+    "summary": "Organization where Wallace served as president for over thirty years.",
+    "subtype": "society"
+  },
+  {
+    "id": "usk_monmouthshire",
+    "entity_type": "place",
+    "name": "Usk, Monmouthshire",
+    "aliases": [
+      "Usk"
+    ],
+    "summary": "Town in Wales where Wallace was born.",
+    "subtype": "town",
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 51.70361,
+      "lng": -2.90194,
+      "wikidata_qid": "Q573757",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "england",
+    "entity_type": "place",
+    "name": "England",
+    "aliases": [],
+    "summary": "Country where Wallace spent much of his life.",
+    "subtype": "country",
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 53.0,
+      "lng": -1.0,
+      "wikidata_qid": "Q21",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "wales",
+    "entity_type": "place",
+    "name": "Wales",
+    "aliases": [],
+    "summary": "Country where Wallace worked as a surveyor in his youth.",
+    "subtype": "country",
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 52.35,
+      "lng": -3.63333,
+      "wikidata_qid": "Q25",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "london",
+    "entity_type": "place",
+    "name": "London",
+    "aliases": [],
+    "summary": "City where Wallace moved as a teenager and later returned.",
+    "subtype": "city",
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 51.50722,
+      "lng": -0.1275,
+      "wikidata_qid": "Q84",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "leicester",
+    "entity_type": "place",
+    "name": "Leicester",
+    "aliases": [],
+    "summary": "City in England where Wallace worked as a school instructor.",
+    "subtype": "city",
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 52.63611,
+      "lng": -1.13306,
+      "wikidata_qid": "Q83065",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "para_belem",
+    "entity_type": "place",
+    "name": "Pará (Belém)",
+    "aliases": [
+      "Belém",
+      "Pará"
+    ],
+    "summary": "City at the mouth of the Amazon where Wallace arrived in 1848.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Brazil",
+      "lat": -3.85,
+      "lng": -52.4,
+      "wikidata_qid": "Q39517",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "singapore",
+    "entity_type": "place",
+    "name": "Singapore",
+    "aliases": [],
+    "summary": "Location Wallace moved to before exploring the Malay Archipelago.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Singapore",
+      "lat": 1.3,
+      "lng": 103.8,
+      "wikidata_qid": "Q334",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "malay_archipelago",
+    "entity_type": "place",
+    "name": "Malay Archipelago",
+    "aliases": [],
+    "summary": "Region Wallace explored for eight years.",
+    "subtype": "region",
+    "attributes": {
+      "region": "Southeast Asia",
+      "lat": -2.08058,
+      "lng": 126.54689,
+      "wikidata_qid": "Q208643",
+      "geocode_basis": "document"
+    }
+  },
+  {
+    "id": "sarawak",
+    "entity_type": "place",
+    "name": "Sarawak",
+    "aliases": [],
+    "summary": "Location in Borneo where Wallace wrote his 1855 paper.",
+    "subtype": "region",
+    "attributes": {
+      "country": "Malaysia",
+      "lat": 2.5,
+      "lng": 113.0,
+      "wikidata_qid": "Q170462",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "ternate",
+    "entity_type": "place",
+    "name": "Ternate",
+    "aliases": [],
+    "summary": "Island in the Moluccas where Wallace drafted his 1858 essay on natural selection.",
+    "subtype": "island",
+    "attributes": {
+      "country": "Indonesia",
+      "lat": 0.78333,
+      "lng": 127.36667,
+      "wikidata_qid": "Q19151",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "on_the_law_1855",
+    "entity_type": "artifact",
+    "name": "On the Law which Has Regulated the Introduction of New Species",
+    "aliases": [
+      "Sarawak Law paper"
+    ],
+    "summary": "Wallace's 1855 paper hinting at evolutionary interpretation.",
+    "subtype": "publication"
+  },
+  {
+    "id": "on_the_tendency_1858",
+    "entity_type": "artifact",
+    "name": "On the Tendency of Varieties to Depart Indefinitely from the Original Type",
+    "aliases": [
+      "Ternate essay"
+    ],
+    "summary": "Wallace's 1858 essay outlining natural selection.",
+    "subtype": "publication"
+  },
+  {
+    "id": "the_malay_archipelago_1869",
+    "entity_type": "artifact",
+    "name": "The Malay Archipelago",
+    "aliases": [],
+    "summary": "Wallace's 1869 book accounting of his travels.",
+    "subtype": "publication"
+  },
+  {
+    "id": "the_geographical_distribution_of_animals_1876",
+    "entity_type": "artifact",
+    "name": "The Geographical Distribution of Animals",
+    "aliases": [],
+    "summary": "Wallace's 1876 two-volume standard work on biogeography.",
+    "subtype": "publication"
+  },
+  {
+    "id": "tropical_nature_1878",
+    "entity_type": "artifact",
+    "name": "Tropical Nature and Other Essays",
+    "aliases": [],
+    "summary": "Wallace's 1878 contribution to ecological biogeography.",
+    "subtype": "publication"
+  },
+  {
+    "id": "island_life_1880",
+    "entity_type": "artifact",
+    "name": "Island Life",
+    "aliases": [],
+    "summary": "Wallace's 1880 work on insular faunas and floras.",
+    "subtype": "publication"
+  },
+  {
+    "id": "is_mars_habitable_1907",
+    "entity_type": "artifact",
+    "name": "Is Mars Habitable?",
+    "aliases": [],
+    "summary": "Wallace's 1907 volume debunking Lowell's theory of Martians.",
+    "subtype": "publication"
+  }
+]

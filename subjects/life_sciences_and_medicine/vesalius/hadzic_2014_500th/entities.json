@@ -1,0 +1,271 @@
+[
+  {
+    "id": "andreas_vesalius",
+    "entity_type": "person",
+    "name": "Andreas Vesalius",
+    "aliases": [
+      "Andreas Vesalius Bruxellensis",
+      "Vesalius"
+    ],
+    "summary": "Flemish anatomist and founder of modern anatomy.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "charles_v",
+    "entity_type": "person",
+    "name": "Charles V",
+    "aliases": [
+      "Emperor Charles V",
+      "Holy Roman Emperor"
+    ],
+    "summary": "Holy Roman Emperor who employed Vesalius as Imperial Physician.",
+    "subtype": "monarch"
+  },
+  {
+    "id": "galen",
+    "entity_type": "person",
+    "name": "Galen",
+    "aliases": [
+      "Galenus",
+      "Aelius Galenus",
+      "Claudius Galenus",
+      "Galen of Pergamon"
+    ],
+    "summary": "Roman physician whose anatomical teachings Vesalius corrected.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "paolo_colombo",
+    "entity_type": "person",
+    "name": "Paolo Colombo",
+    "aliases": [
+      "Paolo Colombo from Cremona"
+    ],
+    "summary": "Predecessor of Vesalius as professor at Padua.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "copernicus",
+    "entity_type": "person",
+    "name": "Copernicus",
+    "aliases": [
+      "N. Copernicus"
+    ],
+    "summary": "Astronomer who published De Revolutionibus in the same year as Fabrica.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "university_of_louvain",
+    "entity_type": "organization",
+    "name": "University of Louvain",
+    "aliases": [
+      "University of Leuven",
+      "Castle School of the University of Louvain",
+      "Catholic University at Leuven"
+    ],
+    "summary": "University where Vesalius received his early education and licentiate.",
+    "subtype": "university",
+    "attributes": {
+      "country": "Belgium"
+    }
+  },
+  {
+    "id": "university_of_padua",
+    "entity_type": "organization",
+    "name": "University of Padua",
+    "aliases": [
+      "Padua"
+    ],
+    "summary": "University where Vesalius received his doctorate and worked as professor.",
+    "subtype": "university",
+    "attributes": {
+      "country": "Italy"
+    }
+  },
+  {
+    "id": "holy_roman_empire",
+    "entity_type": "organization",
+    "name": "Holy Roman Empire",
+    "aliases": [],
+    "summary": "Empire to which Brabant belonged during Vesalius's birth.",
+    "subtype": "political_entity"
+  },
+  {
+    "id": "roman_catholic_church",
+    "entity_type": "organization",
+    "name": "Roman Catholic Church",
+    "aliases": [
+      "Church"
+    ],
+    "summary": "Religious institution that initially prohibited human dissection.",
+    "subtype": "religious_organization"
+  },
+  {
+    "id": "brussels",
+    "entity_type": "place",
+    "name": "Brussels",
+    "aliases": [
+      "Bruxella"
+    ],
+    "summary": "Capital of Brabant where Vesalius was born.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Belgium",
+      "lat": 50.84667,
+      "lng": 4.35167,
+      "wikidata_qid": "Q239",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "brabant",
+    "entity_type": "place",
+    "name": "Brabant",
+    "aliases": [],
+    "summary": "Region where Brussels is located, now part of Belgium.",
+    "subtype": "region",
+    "attributes": {
+      "country": "Belgium",
+      "lat": 50.78333,
+      "lng": 4.63333,
+      "wikidata_qid": "Q848831",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "paris",
+    "entity_type": "place",
+    "name": "Paris",
+    "aliases": [],
+    "summary": "City where Vesalius studied anatomy.",
+    "subtype": "city",
+    "attributes": {
+      "country": "France",
+      "lat": 48.85667,
+      "lng": 2.35222,
+      "wikidata_qid": "Q90",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "france",
+    "entity_type": "place",
+    "name": "France",
+    "aliases": [],
+    "summary": "Country where Paris is located.",
+    "subtype": "country",
+    "attributes": {
+      "lat": 47.0,
+      "lng": 2.0,
+      "wikidata_qid": "Q142",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "basel",
+    "entity_type": "place",
+    "name": "Basel",
+    "aliases": [],
+    "summary": "City where Vesalius published his thesis and Fabrica was printed.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Switzerland",
+      "lat": 47.56056,
+      "lng": 7.59056,
+      "wikidata_qid": "Q78",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "padua",
+    "entity_type": "place",
+    "name": "Padua",
+    "aliases": [],
+    "summary": "City in Italy where Vesalius worked as professor.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Italy",
+      "lat": 45.40778,
+      "lng": 11.87333,
+      "wikidata_qid": "Q617",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "italy",
+    "entity_type": "place",
+    "name": "Italy",
+    "aliases": [],
+    "summary": "Country where Padua is located.",
+    "subtype": "country",
+    "attributes": {
+      "lat": 42.5,
+      "lng": 12.5,
+      "wikidata_qid": "Q38",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "venice",
+    "entity_type": "place",
+    "name": "Venice",
+    "aliases": [],
+    "summary": "City where Fabrica pages were cut.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Italy",
+      "lat": 45.43972,
+      "lng": 12.33194,
+      "wikidata_qid": "Q641",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "church_of_innocents",
+    "entity_type": "place",
+    "name": "Church of Innocents",
+    "aliases": [
+      "Les Buttes Chaumont"
+    ],
+    "summary": "Paris burial grounds where Vesalius studied bones.",
+    "subtype": "facility",
+    "attributes": {}
+  },
+  {
+    "id": "de_humani_corporis_fabrica",
+    "entity_type": "artifact",
+    "name": "De Humani Corporis Fabrica Libri Septem",
+    "aliases": [
+      "The Fabrica",
+      "The Structure of the Human Body"
+    ],
+    "summary": "Vesalius's influential anatomical text published in 1543.",
+    "subtype": "publication"
+  },
+  {
+    "id": "tabulae_sex",
+    "entity_type": "artifact",
+    "name": "Tabulae Sex",
+    "aliases": [
+      "6 anatomical tables"
+    ],
+    "summary": "Vesalius's first known hand-drawn anatomical work published in 1538.",
+    "subtype": "publication"
+  },
+  {
+    "id": "paraphrasis_thesis",
+    "entity_type": "artifact",
+    "name": "Paraphrasis in nonum librum Rhaeze",
+    "aliases": [],
+    "summary": "Vesalius's thesis presented in 1537.",
+    "subtype": "publication"
+  },
+  {
+    "id": "de_revolutionibus",
+    "entity_type": "artifact",
+    "name": "De Revolutionibus",
+    "aliases": [],
+    "summary": "Work by Copernicus published in 1543.",
+    "subtype": "publication"
+  }
+]

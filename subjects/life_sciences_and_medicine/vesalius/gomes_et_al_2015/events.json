@@ -1,0 +1,362 @@
+[
+  {
+    "id": "vesalius_birth",
+    "event_type": "birth",
+    "label": "Born in Brussels",
+    "date": {
+      "display": "31 December 1514",
+      "precision": "day",
+      "sort_start": "1514-12-31",
+      "sort_end": "1514-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andreas_vesalius",
+        "role": "subject"
+      }
+    ],
+    "location": "brussels",
+    "sources": [
+      {
+        "source_id": "gomes_et_al_2015",
+        "page": 1,
+        "quote": "Andreas Vesalius (31 December 1514, Brussels – 15 October 1564, Zante)"
+      }
+    ]
+  },
+  {
+    "id": "vesalius_education_start",
+    "event_type": "education",
+    "label": "Studied Medicine in Louvain and Paris",
+    "date": {
+      "display": "1533-1536",
+      "precision": "range",
+      "sort_start": "1533-01-01",
+      "sort_end": "1536-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andreas_vesalius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_louvain",
+        "role": "educator"
+      },
+      {
+        "entity_id": "university_of_paris",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gomes_et_al_2015",
+        "page": 1,
+        "quote": "Vesalius studied Medicine in Louvain and Paris (1533-1536)"
+      }
+    ]
+  },
+  {
+    "id": "vesalius_md_degree",
+    "event_type": "education",
+    "label": "Obtained Doctor of Medicine degree",
+    "date": {
+      "display": "1537",
+      "precision": "year",
+      "sort_start": "1537-01-01",
+      "sort_end": "1537-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andreas_vesalius",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gomes_et_al_2015",
+        "page": 1,
+        "quote": "where he obtained the degrees of Bachelor and of Doctor of Medicine (1537)"
+      }
+    ]
+  },
+  {
+    "id": "vesalius_padua_professor",
+    "event_type": "employment_start",
+    "label": "Nominated Professor of Surgical Anatomy in Padua",
+    "date": {
+      "display": "1537",
+      "precision": "year",
+      "sort_start": "1537-01-01",
+      "sort_end": "1537-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andreas_vesalius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_padua",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gomes_et_al_2015",
+        "page": 1,
+        "quote": "Immediately nominated Professor of Surgical Anatomy in Padua, he stayed there between 1537-1542"
+      }
+    ]
+  },
+  {
+    "id": "vesalius_marriage",
+    "event_type": "other",
+    "label": "Married Anne Hamme",
+    "date": {
+      "display": "1534",
+      "precision": "year",
+      "sort_start": "1534-01-01",
+      "sort_end": "1534-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andreas_vesalius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "anne_hamme",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gomes_et_al_2015",
+        "page": 2,
+        "quote": "He married Anne Hamme (1534)"
+      }
+    ]
+  },
+  {
+    "id": "vesalius_daughter_birth",
+    "event_type": "other",
+    "label": "Daughter Anne born",
+    "date": {
+      "display": "about 1535",
+      "precision": "circa",
+      "sort_start": "1535-01-01",
+      "sort_end": "1535-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "anne_vesalius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "andreas_vesalius",
+        "role": "parent"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gomes_et_al_2015",
+        "page": 2,
+        "quote": "and about a year later, they had Anne, their only daughter"
+      }
+    ]
+  },
+  {
+    "id": "vesalius_anatomicae_tabulae",
+    "event_type": "publication",
+    "label": "Published Anatomicae Tabulae",
+    "date": {
+      "display": "1538",
+      "precision": "year",
+      "sort_start": "1538-01-01",
+      "sort_end": "1538-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andreas_vesalius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "anatomicae_tabulae",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gomes_et_al_2015",
+        "page": 2,
+        "quote": "The usefulness of the sketches resulted in the Anatomicae Tabulae , published in 1538."
+      }
+    ]
+  },
+  {
+    "id": "vesalius_fabrica_1st",
+    "event_type": "publication",
+    "label": "Published De Humani Corporis Fabrica 1st edition",
+    "date": {
+      "display": "1543",
+      "precision": "year",
+      "sort_start": "1543-01-01",
+      "sort_end": "1543-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andreas_vesalius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "de_humani_corporis_fabrica",
+        "role": "invention"
+      },
+      {
+        "entity_id": "johannes_oporinus",
+        "role": "publisher"
+      }
+    ],
+    "location": "basel",
+    "sources": [
+      {
+        "source_id": "gomes_et_al_2015",
+        "page": 2,
+        "quote": "De humani corporis fabrica libri septem, the Fabrica,1 st edition, came to light in 1543, by the printer Johannes Oporinus, from Basel."
+      }
+    ]
+  },
+  {
+    "id": "vesalius_epitome",
+    "event_type": "publication",
+    "label": "Published Epitome",
+    "date": {
+      "display": "1543",
+      "precision": "year",
+      "sort_start": "1543-01-01",
+      "sort_end": "1543-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andreas_vesalius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "epitome",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gomes_et_al_2015",
+        "page": 2,
+        "quote": "The publication of his masterpiece, the Fabrica, and the partial digest, the Epitome, in 1543"
+      }
+    ]
+  },
+  {
+    "id": "vesalius_imperial_physician",
+    "event_type": "employment_start",
+    "label": "Received position of imperial household physician",
+    "date": {
+      "display": "1544",
+      "precision": "year",
+      "sort_start": "1544-01-01",
+      "sort_end": "1544-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andreas_vesalius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "charles_v",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gomes_et_al_2015",
+        "page": 3,
+        "quote": "He received the position of imperial household physician (1544), leaving his post in Padua."
+      }
+    ]
+  },
+  {
+    "id": "vesalius_fabrica_2nd",
+    "event_type": "publication",
+    "label": "Published Fabrica 2nd edition",
+    "date": {
+      "display": "1555",
+      "precision": "year",
+      "sort_start": "1555-01-01",
+      "sort_end": "1555-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andreas_vesalius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "de_humani_corporis_fabrica",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gomes_et_al_2015",
+        "page": 2,
+        "quote": "The Fabrica, 2 nd edition, released in 1555, dedicated to Charles V"
+      }
+    ]
+  },
+  {
+    "id": "vesalius_holy_land_trip",
+    "event_type": "visit",
+    "label": "Engaged in a trip to the Holy Land",
+    "date": {
+      "display": "1564",
+      "precision": "year",
+      "sort_start": "1564-01-01",
+      "sort_end": "1564-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "andreas_vesalius",
+        "role": "subject"
+      }
+    ],
+    "location": "holy_land",
+    "sources": [
+      {
+        "source_id": "gomes_et_al_2015",
+        "page": 2,
+        "quote": "he engaged in a trip to the Holy Land in 1564."
+      }
+    ]
+  },
+  {
+    "id": "vesalius_death",
+    "event_type": "death",
+    "label": "Died in shipwreck on way home from Holy Land",
+    "date": {
+      "display": "15 October 1564",
+      "precision": "day",
+      "sort_start": "1564-10-15",
+      "sort_end": "1564-10-15"
+    },
+    "participants": [
+      {
+        "entity_id": "andreas_vesalius",
+        "role": "subject"
+      }
+    ],
+    "location": "zante",
+    "sources": [
+      {
+        "source_id": "gomes_et_al_2015",
+        "page": 2,
+        "quote": "He died tra-gically on his way home, in a shipwreck"
+      }
+    ]
+  }
+]

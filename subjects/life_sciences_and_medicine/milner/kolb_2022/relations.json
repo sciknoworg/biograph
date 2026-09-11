@@ -1,0 +1,182 @@
+[
+  {
+    "id": "brenda_milner_studied_at_cambridge",
+    "source": "brenda_milner",
+    "type": "studied_at",
+    "target": "university_of_cambridge",
+    "event_id": "cambridge_enrollment",
+    "sources": [
+      {
+        "source_id": "kolb_2022",
+        "page": 2,
+        "quote": "Brenda entered Cambridge in 1936 to study mathematics but later switched to psychology."
+      }
+    ]
+  },
+  {
+    "id": "brenda_milner_married_to_peter",
+    "source": "brenda_milner",
+    "type": "married_to",
+    "target": "peter_milner",
+    "sources": [
+      {
+        "source_id": "kolb_2022",
+        "page": 2,
+        "quote": "moving to Montreal in 1944 with her husband, Peter Milner"
+      }
+    ]
+  },
+  {
+    "id": "brenda_milner_relocated_to_montreal",
+    "source": "brenda_milner",
+    "type": "relocated_to",
+    "target": "montreal",
+    "event_id": "move_to_montreal",
+    "sources": [
+      {
+        "source_id": "kolb_2022",
+        "page": 2,
+        "quote": "moving to Montreal in 1944 with her husband, Peter Milner"
+      }
+    ]
+  },
+  {
+    "id": "brenda_milner_employed_by_univ_montreal",
+    "source": "brenda_milner",
+    "type": "employed_by",
+    "target": "university_of_montreal",
+    "event_id": "univ_montreal_teaching",
+    "sources": [
+      {
+        "source_id": "kolb_2022",
+        "page": 2,
+        "quote": "She got a job at the University of Montreal teaching psychology and animal behavior (in French)."
+      }
+    ]
+  },
+  {
+    "id": "brenda_milner_studied_at_mcgill",
+    "source": "brenda_milner",
+    "type": "studied_at",
+    "target": "mcgill_university",
+    "event_id": "mcgill_graduate",
+    "sources": [
+      {
+        "source_id": "kolb_2022",
+        "page": 2,
+        "quote": "Following the war she began graduate work at McGill with Donald Hebb."
+      }
+    ]
+  },
+  {
+    "id": "brenda_milner_supervised_by_hebb",
+    "source": "brenda_milner",
+    "type": "supervised_by",
+    "target": "donald_hebb",
+    "event_id": "mcgill_graduate",
+    "sources": [
+      {
+        "source_id": "kolb_2022",
+        "page": 2,
+        "quote": "Following the war she began graduate work at McGill with Donald Hebb."
+      }
+    ]
+  },
+  {
+    "id": "brenda_milner_worked_at_mni",
+    "source": "brenda_milner",
+    "type": "worked_at",
+    "target": "montreal_neurological_institute",
+    "event_id": "penfield_work_start",
+    "sources": [
+      {
+        "source_id": "kolb_2022",
+        "page": 2,
+        "quote": "Brenda began working with Wilder Penfield's neurosurgical patients in 1950 where she studied the role of the temporal lobes in visual perception and memory for her Ph.D."
+      }
+    ]
+  },
+  {
+    "id": "brenda_milner_collaborated_with_penfield",
+    "source": "brenda_milner",
+    "type": "collaborated_with",
+    "target": "wilder_penfield",
+    "event_id": "penfield_work_start",
+    "sources": [
+      {
+        "source_id": "kolb_2022",
+        "page": 2,
+        "quote": "Brenda began working with Wilder Penfield's neurosurgical patients in 1950"
+      }
+    ]
+  },
+  {
+    "id": "brenda_milner_collaborated_with_scoville",
+    "source": "brenda_milner",
+    "type": "collaborated_with",
+    "target": "william_scoville",
+    "event_id": "hm_study_publication",
+    "sources": [
+      {
+        "source_id": "kolb_2022",
+        "page": 2,
+        "quote": "This opportunity led to Brenda's now classic studies of patient H.M (Scoville and Milner, 1957)."
+      }
+    ]
+  },
+  {
+    "id": "brenda_milner_collaborated_with_jones_gotman",
+    "source": "brenda_milner",
+    "type": "collaborated_with",
+    "target": "jones_gotman",
+    "event_id": "design_fluency_study",
+    "sources": [
+      {
+        "source_id": "kolb_2022",
+        "page": 3,
+        "quote": "A study devised by Jones-Gotman and Milner (1977) showed that right frontal lobe patients were impaired at a non-verbal analog of verbal fluency."
+      }
+    ]
+  },
+  {
+    "id": "brenda_milner_collaborated_with_petrides",
+    "source": "brenda_milner",
+    "type": "collaborated_with",
+    "target": "petrides",
+    "event_id": "associative_learning_study",
+    "sources": [
+      {
+        "source_id": "kolb_2022",
+        "page": 5,
+        "quote": "Finally, a series of studies by Milner and Petrides (1984) and Petrides (1985, 1990, 1997) demonstrated a severe impairment on conditional associative tasks"
+      }
+    ]
+  },
+  {
+    "id": "brenda_milner_collaborated_with_kolb",
+    "source": "brenda_milner",
+    "type": "collaborated_with",
+    "target": "bryan_kolb",
+    "event_id": "movement_copying_study",
+    "sources": [
+      {
+        "source_id": "kolb_2022",
+        "page": 4,
+        "quote": "Kolb and Milner (1981) asked patients to copy a series of arm or facial movements"
+      }
+    ]
+  },
+  {
+    "id": "brenda_milner_born_in_manchester",
+    "source": "brenda_milner",
+    "type": "born_in",
+    "target": "manchester_england",
+    "sources": [
+      {
+        "source_id": "kolb_2022",
+        "page": 2,
+        "quote": "Raised in Manchester, England, Brenda entered Cambridge in 1936"
+      }
+    ]
+  }
+]

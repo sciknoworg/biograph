@@ -1,0 +1,16 @@
+[
+  {
+    "id": "palade_published_jcb",
+    "source": "george_palade",
+    "type": "published",
+    "target": "journal_of_cell_biology",
+    "sources": [
+      {
+        "source_id": "palade_obituary_2008",
+        "page": 1,
+        "quote": "Over his lifetime Palade would publish 109 papers in the same journal."
+      }
+    ],
+    "_rejected_because": "'published' expects target entity_type artifact, but 'journal_of_cell_biology' is 'organization'"
+  }
+]

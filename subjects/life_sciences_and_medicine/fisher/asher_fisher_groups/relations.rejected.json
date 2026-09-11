@@ -1,0 +1,17 @@
+[
+  {
+    "id": "fisher_mentored",
+    "source": "ronald_aylmer_fisher",
+    "type": "mentored",
+    "target": "university_of_cambridge",
+    "sources": [
+      {
+        "source_id": "asher_fisher_groups",
+        "page": 17,
+        "quote": "not to mention his track record as an academic mentor (Bodmer et al. 2021)."
+      }
+    ],
+    "note": "General relation based on text statement.",
+    "_rejected_because": "'mentored' expects target entity_type person, but 'university_of_cambridge' is 'organization'"
+  }
+]

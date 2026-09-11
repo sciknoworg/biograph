@@ -1,0 +1,88 @@
+[
+  {
+    "id": "bernardino_ramazzini",
+    "entity_type": "person",
+    "name": "Bernardino Ramazzini",
+    "aliases": [
+      "Ramazzini"
+    ],
+    "summary": "Italian physician universally credited as the founder of occupational health.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "james_lind",
+    "entity_type": "person",
+    "name": "James Lind",
+    "aliases": [
+      "Lind"
+    ],
+    "summary": "Scottish physician who focused on health condition of seamen.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "university_of_padua",
+    "entity_type": "organization",
+    "name": "University of Padua",
+    "aliases": [
+      "Padua"
+    ],
+    "summary": "Prestigious university where Ramazzini was appointed professor.",
+    "subtype": "university"
+  },
+  {
+    "id": "republic_of_venice",
+    "entity_type": "organization",
+    "name": "Republic of Venice",
+    "aliases": [
+      "Venice"
+    ],
+    "summary": "Republic of which Padua was a part during Ramazzini's time.",
+    "subtype": "state"
+  },
+  {
+    "id": "de_morbis_artificum",
+    "entity_type": "artifact",
+    "name": "De Morbis Artificum",
+    "aliases": [],
+    "summary": "Ramazzini's work on diseases of workers.",
+    "subtype": "publication"
+  },
+  {
+    "id": "lind_essay",
+    "entity_type": "artifact",
+    "name": "An essay on the most effective means of preserving the health of seamen",
+    "aliases": [],
+    "summary": "Lind's renowned work on preserving the health of seamen.",
+    "subtype": "publication"
+  },
+  {
+    "id": "modena",
+    "entity_type": "place",
+    "name": "Modena",
+    "aliases": [],
+    "summary": "City where the first edition of De Morbis Artificum was published.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Italy",
+      "lat": 44.64582,
+      "lng": 10.92572,
+      "wikidata_qid": "Q279",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "padua",
+    "entity_type": "place",
+    "name": "Padua",
+    "aliases": [],
+    "summary": "City where Ramazzini was appointed professor and second edition published.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Italy",
+      "lat": 45.40778,
+      "lng": 11.87333,
+      "wikidata_qid": "Q617",
+      "geocode_basis": "country"
+    }
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "ronald_aylmer_fisher",
+    "entity_type": "person",
+    "name": "Ronald Aylmer Fisher",
+    "aliases": [
+      "Fisher",
+      "R. A. Fisher",
+      "RA Fisher"
+    ],
+    "summary": "British statistician and evolutionary biologist known for the Genetical Theory of Natural Selection.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "robert_j_asher",
+    "entity_type": "person",
+    "name": "Robert J. Asher",
+    "aliases": [
+      "Asher",
+      "R. J. Asher"
+    ],
+    "summary": "Author of the source document, Department of Zoology, University of Cambridge.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "university_of_cambridge",
+    "entity_type": "organization",
+    "name": "University of Cambridge",
+    "aliases": [
+      "Cambridge"
+    ],
+    "summary": "University where the author and subject were affiliated.",
+    "subtype": "university",
+    "attributes": {
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": "the_genetical_theory_of_natural_selection",
+    "entity_type": "artifact",
+    "name": "The Genetical Theory of Natural Selection",
+    "aliases": [
+      "The Genetical Theory"
+    ],
+    "summary": "Fisher's 1930 book on evolutionary biology and genetics.",
+    "subtype": "publication"
+  },
+  {
+    "id": "sewall_wright",
+    "entity_type": "person",
+    "name": "Sewall Wright",
+    "aliases": [
+      "Wright"
+    ],
+    "summary": "American geneticist and intellectual competitor of Fisher.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "jbs_haldane",
+    "entity_type": "person",
+    "name": "JBS Haldane",
+    "aliases": [
+      "Haldane",
+      "J. B. S. Haldane"
+    ],
+    "summary": "British geneticist who reviewed Fisher's work.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "wd_hamilton",
+    "entity_type": "person",
+    "name": "W.D. Hamilton",
+    "aliases": [
+      "Hamilton",
+      "W. D. Hamilton"
+    ],
+    "summary": "Biologist known for inclusive fitness, building on Fisher's ideas.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "gonville_and_caius_college",
+    "entity_type": "organization",
+    "name": "Gonville & Caius College",
+    "aliases": [
+      "Gonville and Caius",
+      "Caius"
+    ],
+    "summary": "Cambridge college associated with Fisher.",
+    "subtype": "college",
+    "attributes": {
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": "trinity_hall",
+    "entity_type": "organization",
+    "name": "Trinity Hall",
+    "aliases": [],
+    "summary": "Cambridge college supporting the author.",
+    "subtype": "college",
+    "attributes": {
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": "clarendon_press",
+    "entity_type": "organization",
+    "name": "Clarendon Press",
+    "aliases": [],
+    "summary": "Publisher of Fisher's 1930 book.",
+    "subtype": "company",
+    "attributes": {
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": "cambridge_uk",
+    "entity_type": "place",
+    "name": "Cambridge",
+    "aliases": [],
+    "summary": "City in the UK.",
+    "subtype": "city",
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 52.20806,
+      "lng": 0.1225,
+      "wikidata_qid": "Q350",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "oxford_uk",
+    "entity_type": "place",
+    "name": "Oxford",
+    "aliases": [],
+    "summary": "City in the UK, location of Clarendon Press.",
+    "subtype": "city",
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 51.755,
+      "lng": -1.255,
+      "wikidata_qid": "Q34433",
+      "geocode_basis": "country"
+    }
+  }
+]

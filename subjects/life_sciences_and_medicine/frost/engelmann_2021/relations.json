@@ -1,0 +1,109 @@
+[
+  {
+    "id": "frost_worked_at_jhu_hygiene",
+    "source": "wade_hampton_frost",
+    "type": "worked_at",
+    "target": "johns_hopkins_school_of_hygiene",
+    "sources": [
+      {
+        "source_id": "engelmann_2021",
+        "page": 10,
+        "quote": "In 1919, when Frost took up the chair of the world's first dedicated department of epidemiology..."
+      }
+    ]
+  },
+  {
+    "id": "frost_worked_at_dept_epi",
+    "source": "wade_hampton_frost",
+    "type": "worked_at",
+    "target": "department_of_epidemiology_jhu",
+    "event_id": "frost_chair_1919",
+    "sources": [
+      {
+        "source_id": "engelmann_2021",
+        "page": 10,
+        "quote": "In 1919, when Frost took up the chair of the world's first dedicated department of epidemiology..."
+      }
+    ]
+  },
+  {
+    "id": "reed_worked_at_jhu_hygiene",
+    "source": "lowell_reed",
+    "type": "worked_at",
+    "target": "johns_hopkins_school_of_hygiene",
+    "sources": [
+      {
+        "source_id": "engelmann_2021",
+        "page": 14,
+        "quote": "When Pearl joined Hopkins, he brought with him Lowell Reed..."
+      }
+    ]
+  },
+  {
+    "id": "reed_worked_at_biometry",
+    "source": "lowell_reed",
+    "type": "worked_at",
+    "target": "department_of_biometry_jhu",
+    "event_id": "reed_biometry_dept_1924",
+    "sources": [
+      {
+        "source_id": "engelmann_2021",
+        "page": 14,
+        "quote": "Eventually, Reed succeeded in establishing a department for biometry and vital statistics in 1924..."
+      }
+    ]
+  },
+  {
+    "id": "frost_collaborated_reed",
+    "source": "wade_hampton_frost",
+    "type": "collaborated_with",
+    "target": "lowell_reed",
+    "event_id": "reed_frost_collab_1928",
+    "sources": [
+      {
+        "source_id": "engelmann_2021",
+        "page": 15,
+        "quote": "Reed and Frost's collaboration began formally in 1928..."
+      }
+    ]
+  },
+  {
+    "id": "frost_developed_model",
+    "source": "wade_hampton_frost",
+    "type": "developed",
+    "target": "reed_frost_model",
+    "sources": [
+      {
+        "source_id": "engelmann_2021",
+        "page": 3,
+        "quote": "I focus on one particular example, developed in the 1920s and often referred to as the 'Reed-Frost epidemic theory,' designed by the biostatistician Lowell Reed and the epidemiologists Wade Hampton Frost at Johns Hopkins University."
+      }
+    ]
+  },
+  {
+    "id": "reed_developed_model",
+    "source": "lowell_reed",
+    "type": "developed",
+    "target": "reed_frost_model",
+    "sources": [
+      {
+        "source_id": "engelmann_2021",
+        "page": 3,
+        "quote": "I focus on one particular example, developed in the 1920s and often referred to as the 'Reed-Frost epidemic theory,' designed by the biostatistician Lowell Reed and the epidemiologists Wade Hampton Frost at Johns Hopkins University."
+      }
+    ]
+  },
+  {
+    "id": "frost_lived_baltimore",
+    "source": "wade_hampton_frost",
+    "type": "lived_in",
+    "target": "baltimore",
+    "sources": [
+      {
+        "source_id": "engelmann_2021",
+        "page": 11,
+        "quote": "Each student developed fieldwork with the local authorities in Baltimore, using case data about prevalent infectious diseases while conducting sanitary surveys within the city."
+      }
+    ]
+  }
+]

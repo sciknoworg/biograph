@@ -1,0 +1,284 @@
+[
+  {
+    "aliases": [
+      "Dr Palade",
+      "G.E. Palade",
+      "George Palade",
+      "Palade"
+    ],
+    "entity_type": "person",
+    "id": "george_palade",
+    "name": "George Emil Palade",
+    "subtype": "researcher",
+    "summary": "Romanian-American cell biologist, Nobel laureate known as the father of cell biology for discovering ribosomes and endoplasmic reticulum."
+  },
+  {
+    "aliases": [
+      "S.L. Palay",
+      "Palay"
+    ],
+    "entity_type": "person",
+    "id": "sanford_palay",
+    "name": "Sanford Palay",
+    "subtype": "researcher",
+    "summary": "Neuroscientist and cell biologist who collaborated with Palade on neuronal ultrastructure research."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "irna_malaxa",
+    "name": "Irna Malaxa",
+    "subtype": "spouse",
+    "summary": "First wife of George Palade."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "marilyn_farquhar",
+    "name": "Marilyn Farquhar",
+    "subtype": "spouse",
+    "summary": "Second wife of George Palade, chairs Department of Cellular and Molecular Medicine at UCSD."
+  },
+  {
+    "aliases": [
+      "De Robertis"
+    ],
+    "entity_type": "person",
+    "id": "de_robertis",
+    "name": "E.D.P. De Robertis",
+    "subtype": "researcher",
+    "summary": "Researcher who co-introduced the term synaptic vesicle with Bennett."
+  },
+  {
+    "aliases": [
+      "Bennett"
+    ],
+    "entity_type": "person",
+    "id": "bennett",
+    "name": "H.S. Bennett",
+    "subtype": "researcher",
+    "summary": "Researcher who co-introduced the term synaptic vesicle with De Robertis."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "cajal",
+    "name": "Cajal",
+    "subtype": "researcher",
+    "summary": "Historical neuroscientist whose neuron doctrine was validated by Palade's work."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United States",
+      "state": "California",
+      "lat": 32.715,
+      "lng": -117.1625,
+      "wikidata_qid": "Q16552",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "san_diego",
+    "name": "San Diego",
+    "subtype": "city",
+    "summary": "City in California where Palade died."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "romania",
+    "name": "Romania",
+    "subtype": "country",
+    "summary": "Country where Palade was born.",
+    "attributes": {
+      "lat": 46.0,
+      "lng": 25.0,
+      "wikidata_qid": "Q218",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "aliases": [
+      "US"
+    ],
+    "entity_type": "place",
+    "id": "united_states",
+    "name": "United States",
+    "subtype": "country",
+    "summary": "Country Palade moved to after Soviet occupation of Romania.",
+    "attributes": {
+      "lat": 39.82818,
+      "lng": -98.5795,
+      "wikidata_qid": "Q30",
+      "geocode_basis": "document"
+    }
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United States",
+      "lat": 43.0,
+      "lng": -75.0,
+      "wikidata_qid": "Q1384",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "new_york",
+    "name": "New York",
+    "subtype": "city",
+    "summary": "Location of Rockefeller University where Palade worked."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "rockefeller_university",
+    "name": "Rockefeller University",
+    "subtype": "university",
+    "summary": "Research university in New York where Palade worked before Yale."
+  },
+  {
+    "aliases": [
+      "Yale"
+    ],
+    "entity_type": "organization",
+    "id": "yale_university",
+    "name": "Yale University",
+    "subtype": "university",
+    "summary": "University where Palade served as Chairman of Department of Cell Biology."
+  },
+  {
+    "aliases": [
+      "UC San Diego",
+      "UCSD"
+    ],
+    "entity_type": "organization",
+    "id": "university_of_california_san_diego",
+    "name": "University of California at San Diego",
+    "subtype": "university",
+    "summary": "University where Palade served as Dean for Scientific Affairs."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "romanian_army",
+    "name": "Romanian army",
+    "subtype": "military",
+    "summary": "Military organization where Palade served in the medical corps during World War II."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "nobel_committee",
+    "name": "Nobel Committee",
+    "subtype": "awarding_body",
+    "summary": "Committee that awarded Palade the Nobel Prize and described him as father of Cell Biology."
+  },
+  {
+    "aliases": [
+      "Journal of Biophysics and Biochemical Cytology"
+    ],
+    "entity_type": "organization",
+    "id": "journal_of_cell_biology",
+    "name": "Journal of Cell Biology",
+    "subtype": "publication",
+    "summary": "Scientific journal where Palade published 109 papers, originally named Journal of Biophysics and Biochemical Cytology."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "nobel_prize_foundation",
+    "name": "Nobel Prize Foundation",
+    "subtype": "organization",
+    "summary": "Foundation that publishes Nobel laureate autobiographies."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "columbia_university",
+    "name": "Columbia University",
+    "subtype": "university",
+    "summary": "University that awarded Palade the Louisa Gross Horwitz Prize."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "electron_microscope",
+    "name": "electron microscope",
+    "subtype": "instrument",
+    "summary": "Instrument Palade used to reveal subcellular components."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "centrifuge",
+    "name": "centrifuge",
+    "subtype": "instrument",
+    "summary": "Instrument Palade used with sugar solution gradients to stratify cellular components."
+  },
+  {
+    "aliases": [
+      "Nobel Prize in 1974"
+    ],
+    "entity_type": "artifact",
+    "id": "nobel_prize_1974",
+    "name": "Nobel Prize in Physiology or Medicine 1974",
+    "subtype": "award",
+    "summary": "Nobel Prize awarded to Palade and co-winners in 1974."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "national_medal_of_science",
+    "name": "National Medal of Science",
+    "subtype": "award",
+    "summary": "Award honoring Palade's scientific contributions."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "albert_lasker_award",
+    "name": "Albert Lasker Award for Basic Medical Research",
+    "subtype": "award",
+    "summary": "Award honoring Palade's medical research contributions."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "louisa_gross_horwitz_prize",
+    "name": "Louisa Gross Horwitz Prize",
+    "subtype": "award",
+    "summary": "Columbia University prize awarded to Palade."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "palade_1954_publication",
+    "name": "Electron microscope observations of interneuronal and neuromuscular synapses",
+    "subtype": "publication",
+    "summary": "1954 paper by Palade on synaptic vesicles published in Anatomical Record."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "palay_palade_1955_publication",
+    "name": "The fine structure of neurons",
+    "subtype": "publication",
+    "summary": "1955 paper by Palay and Palade on neuronal fine structure."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "department_of_cell_biology_yale",
+    "name": "Department of Cell Biology at Yale University",
+    "subtype": "department",
+    "summary": "Department Palade chaired starting in 1973."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "department_of_cellular_and_molecular_medicine_ucsd",
+    "name": "Department of Cellular and Molecular Medicine at UCSD",
+    "subtype": "department",
+    "summary": "Department chaired by Marilyn Farquhar at UCSD."
+  }
+]

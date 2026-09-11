@@ -1,0 +1,219 @@
+[
+  {
+    "id": "benzer_born_south_bronx",
+    "source": "seymour_benzer",
+    "type": "born_in",
+    "target": "south_bronx",
+    "event_id": "benzer_birth",
+    "sources": [
+      {
+        "source_id": "harris_2008",
+        "page": 1,
+        "quote": "Seymour Benzer was born in 1921 in the South Bronx, New York"
+      }
+    ]
+  },
+  {
+    "id": "benzer_studied_brooklyn",
+    "source": "seymour_benzer",
+    "type": "studied_at",
+    "target": "brooklyn_college",
+    "event_id": "benzer_college_start",
+    "sources": [
+      {
+        "source_id": "harris_2008",
+        "page": 1,
+        "quote": "With a Regents Scholarship to Brooklyn College in 1938"
+      }
+    ]
+  },
+  {
+    "id": "benzer_married_dotty",
+    "source": "seymour_benzer",
+    "type": "married_to",
+    "target": "dorothy_vlosky",
+    "event_id": "benzer_marriage_dotty",
+    "sources": [
+      {
+        "source_id": "harris_2008",
+        "page": 1,
+        "quote": "married her in 1942"
+      }
+    ]
+  },
+  {
+    "id": "benzer_worked_purdue",
+    "source": "seymour_benzer",
+    "type": "worked_at",
+    "target": "purdue_university",
+    "event_id": "benzer_move_purdue",
+    "sources": [
+      {
+        "source_id": "harris_2008",
+        "page": 1,
+        "quote": "departure to Lafayette, Indiana, where Seymour was to continue his career as a graduate student in physics at Purdue"
+      }
+    ]
+  },
+  {
+    "id": "benzer_mentored_lark",
+    "source": "seymour_benzer",
+    "type": "supervised_by",
+    "target": "karl_lark_horovitz",
+    "sources": [
+      {
+        "source_id": "harris_2008",
+        "page": 1,
+        "quote": "At Purdue, Seymour joined the team of Karl Lark-Horovitz"
+      }
+    ]
+  },
+  {
+    "id": "benzer_worked_caltech",
+    "source": "seymour_benzer",
+    "type": "worked_at",
+    "target": "caltech",
+    "event_id": "benzer_caltech_professor",
+    "sources": [
+      {
+        "source_id": "harris_2008",
+        "page": 2,
+        "quote": "Seymour accepted a position as a Professor of Biology at Caltech the following year."
+      }
+    ]
+  },
+  {
+    "id": "benzer_worked_pasteur",
+    "source": "seymour_benzer",
+    "type": "worked_at",
+    "target": "pasteur_institute",
+    "sources": [
+      {
+        "source_id": "harris_2008",
+        "page": 2,
+        "quote": "André Lwoff and his colleagues at the Pasteur Institute, where Seymour spent another year."
+      }
+    ]
+  },
+  {
+    "id": "benzer_collab_delbruck",
+    "source": "seymour_benzer",
+    "type": "collaborated_with",
+    "target": "max_delbruck",
+    "sources": [
+      {
+        "source_id": "harris_2008",
+        "page": 2,
+        "quote": "historic figures of the early days of molecular biology, such as Max Delbruck and his colleagues at the California Institute of Technology (Caltech), where Seymour spent two years"
+      }
+    ]
+  },
+  {
+    "id": "benzer_mentored_kanopka",
+    "source": "seymour_benzer",
+    "type": "mentored",
+    "target": "ron_kanopka",
+    "sources": [
+      {
+        "source_id": "harris_2008",
+        "page": 3,
+        "quote": "with his graduate student Ron Kanopka, he started to look for mutants that affected circadian rhythms."
+      }
+    ]
+  },
+  {
+    "id": "benzer_invented_rii",
+    "source": "seymour_benzer",
+    "type": "invented",
+    "target": "rii_gene",
+    "sources": [
+      {
+        "source_id": "harris_2008",
+        "page": 2,
+        "quote": "Seymour found that a gene called r (for rapid lysis) in the bacteriophage T4 would allow him to answer these questions."
+      }
+    ]
+  },
+  {
+    "id": "benzer_discovered_period",
+    "source": "seymour_benzer",
+    "type": "invented",
+    "target": "period_gene",
+    "sources": [
+      {
+        "source_id": "harris_2008",
+        "page": 3,
+        "quote": "Kanopka quickly identified the period gene via three alleles"
+      }
+    ]
+  },
+  {
+    "id": "benzer_discovered_methuselah",
+    "source": "seymour_benzer",
+    "type": "invented",
+    "target": "methuselah_mutant",
+    "sources": [
+      {
+        "source_id": "harris_2008",
+        "page": 3,
+        "quote": "he and his colleagues found several mutants that dramatically extended the average lifespan of Drosophila, the first of which he called \"Methuselah\"."
+      }
+    ]
+  },
+  {
+    "id": "benzer_awarded_gairdner",
+    "source": "seymour_benzer",
+    "type": "awarded",
+    "target": "gairdner_award",
+    "event_id": "benzer_award_gairdner_1964",
+    "sources": [
+      {
+        "source_id": "harris_2008",
+        "page": 3,
+        "quote": "He won the Gairdner Foundation International Award twice (first for molecular biology in 1964"
+      }
+    ]
+  },
+  {
+    "id": "benzer_awarded_lasker",
+    "source": "seymour_benzer",
+    "type": "awarded",
+    "target": "lasker_award",
+    "event_id": "benzer_award_lasker",
+    "sources": [
+      {
+        "source_id": "harris_2008",
+        "page": 3,
+        "quote": "He also won the Albert Lasker Award for Basic Medical Research (1971)"
+      }
+    ]
+  },
+  {
+    "id": "benzer_awarded_crafoord",
+    "source": "seymour_benzer",
+    "type": "awarded",
+    "target": "crafoord_prize",
+    "event_id": "benzer_award_crafoord",
+    "sources": [
+      {
+        "source_id": "harris_2008",
+        "page": 3,
+        "quote": "the Crafoord Prize (1993) from the Royal Swedish Academy of Sciences"
+      }
+    ]
+  },
+  {
+    "id": "benzer_awarded_albany",
+    "source": "seymour_benzer",
+    "type": "awarded",
+    "target": "albany_prize",
+    "event_id": "benzer_award_albany",
+    "sources": [
+      {
+        "source_id": "harris_2008",
+        "page": 3,
+        "quote": "the Albany Medical Center Prize (2006)"
+      }
+    ]
+  }
+]

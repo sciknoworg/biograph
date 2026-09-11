@@ -1,0 +1,156 @@
+[
+  {
+    "id": "borelli_born_naples",
+    "source": "giovanni_alfonso_borelli",
+    "type": "born_in",
+    "target": "naples",
+    "event_id": "birth_1608",
+    "sources": [
+      {
+        "source_id": "piolanti_2018",
+        "page": 167,
+        "quote": "Giovanni Alfonso Borelliwas born in 1608 inNaples"
+      }
+    ]
+  },
+  {
+    "id": "borelli_son_miguel",
+    "source": "giovanni_alfonso_borelli",
+    "type": "family_of",
+    "target": "miguel_alonso",
+    "note": "Father",
+    "sources": [
+      {
+        "source_id": "piolanti_2018",
+        "page": 167,
+        "quote": "theﬁrst- born son of Miguel Alonso"
+      }
+    ]
+  },
+  {
+    "id": "borelli_son_laura",
+    "source": "giovanni_alfonso_borelli",
+    "type": "family_of",
+    "target": "laura_porella",
+    "note": "Mother",
+    "sources": [
+      {
+        "source_id": "piolanti_2018",
+        "page": 167,
+        "quote": "theﬁrst- born son of Miguel Alonso and Laura Porella."
+      }
+    ]
+  },
+  {
+    "id": "borelli_educated_castelli",
+    "source": "giovanni_alfonso_borelli",
+    "type": "educated_by",
+    "target": "benedetto_castelli",
+    "event_id": "move_to_rome_1626",
+    "sources": [
+      {
+        "source_id": "piolanti_2018",
+        "page": 167,
+        "quote": "In 1626, Borelli moved to Rome to study mathematics and physics under Benedetto Castelli"
+      }
+    ]
+  },
+  {
+    "id": "borelli_worked_messina",
+    "source": "giovanni_alfonso_borelli",
+    "type": "worked_at",
+    "target": "university_of_messina",
+    "event_id": "lecturer_messina_1635",
+    "sources": [
+      {
+        "source_id": "piolanti_2018",
+        "page": 167,
+        "quote": "From 1635 to 1656, Borelli was a lecturer in mathematics in Messina, Sicily."
+      }
+    ]
+  },
+  {
+    "id": "borelli_worked_pisa",
+    "source": "giovanni_alfonso_borelli",
+    "type": "worked_at",
+    "target": "university_of_pisa",
+    "event_id": "invited_pisa_1655",
+    "sources": [
+      {
+        "source_id": "piolanti_2018",
+        "page": 168,
+        "quote": "Around 1655, Borelli was invited to the University of Pisa"
+      }
+    ]
+  },
+  {
+    "id": "borelli_member_fucina",
+    "source": "giovanni_alfonso_borelli",
+    "type": "member_of",
+    "target": "accademia_della_fucina",
+    "event_id": "accademia_fucina_1635",
+    "sources": [
+      {
+        "source_id": "piolanti_2018",
+        "page": 167,
+        "quote": "In 1635, the Senate of Messina offered him a coveted membership in the Accademia della Fucina"
+      }
+    ]
+  },
+  {
+    "id": "borelli_consultant_christina",
+    "source": "giovanni_alfonso_borelli",
+    "type": "employed_by",
+    "target": "christina_of_sweden",
+    "event_id": "consultant_christina_1672",
+    "sources": [
+      {
+        "source_id": "piolanti_2018",
+        "page": 168,
+        "quote": "In 1672, he became the personalmedical and scientiﬁc consultant to Christina of Sweden"
+      }
+    ]
+  },
+  {
+    "id": "borelli_collaborated_malpighi",
+    "source": "giovanni_alfonso_borelli",
+    "type": "collaborated_with",
+    "target": "marcello_malpighi",
+    "note": "Former pupil and collaborator",
+    "sources": [
+      {
+        "source_id": "piolanti_2018",
+        "page": 169,
+        "quote": "His former pupil and collaborator Marcello Malpighi continued his work"
+      }
+    ]
+  },
+  {
+    "id": "borelli_published_motu",
+    "source": "giovanni_alfonso_borelli",
+    "type": "published",
+    "target": "de_motu_animalium",
+    "event_id": "publication_motu_vol1_1680",
+    "sources": [
+      {
+        "source_id": "piolanti_2018",
+        "page": 168,
+        "quote": "Volume I was published in 1680, only a few months after Borelli's death"
+      }
+    ]
+  },
+  {
+    "id": "asb_awards_borelli",
+    "source": "american_society_of_biomechanics",
+    "type": "awarded",
+    "target": "borelli_award",
+    "note": "Bestows the Borelli Award",
+    "sources": [
+      {
+        "source_id": "piolanti_2018",
+        "page": 171,
+        "quote": "every year bestows themost deserving scientiﬁc exponent in the ﬁeld with the \"Borelli Award.\""
+      }
+    ]
+  }
+]

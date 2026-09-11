@@ -1,0 +1,320 @@
+[
+  {
+    "id": "dobzhansky_birth",
+    "event_type": "birth",
+    "label": "Born in 1900",
+    "date": {
+      "display": "1900",
+      "precision": "year",
+      "sort_start": "1900-01-01",
+      "sort_end": "1900-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "theodosius_dobzhansky",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "araujo_2023",
+        "page": 95,
+        "quote": "Theodosius Dobzhansky (1900-1975) had an important role in the origin and development of evolutionary genetics in Brazil."
+      }
+    ]
+  },
+  {
+    "id": "dobzhansky_death",
+    "event_type": "death",
+    "label": "Died in 1975",
+    "date": {
+      "display": "1975",
+      "precision": "year",
+      "sort_start": "1975-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "theodosius_dobzhansky",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "araujo_2023",
+        "page": 95,
+        "quote": "Theodosius Dobzhansky (1900-1975) had an important role in the origin and development of evolutionary genetics in Brazil."
+      }
+    ]
+  },
+  {
+    "id": "first_visit_brazil",
+    "event_type": "visit",
+    "label": "First visit to Brazil",
+    "description": "Stayed for about six months.",
+    "date": {
+      "display": "1943",
+      "precision": "year",
+      "sort_start": "1943-01-01",
+      "sort_end": "1943-12-31"
+    },
+    "location": "brazil",
+    "participants": [
+      {
+        "entity_id": "theodosius_dobzhansky",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "araujo_2023",
+        "page": 95,
+        "quote": "Not only in 1943, when he had been here for the first time, about six months, but also in other moments, for more extended periods, he was responsible for the formation of the first generation of Drosophila geneticists"
+      }
+    ]
+  },
+  {
+    "id": "lectures_usp_1943",
+    "event_type": "conference",
+    "label": "Gave lectures at USP",
+    "description": "Course on Principles of Evolution for faculty and research group.",
+    "date": {
+      "display": "1943",
+      "precision": "year",
+      "sort_start": "1943-01-01",
+      "sort_end": "1943-12-31"
+    },
+    "location": "university_of_sao_paulo",
+    "participants": [
+      {
+        "entity_id": "theodosius_dobzhansky",
+        "role": "subject"
+      },
+      {
+        "entity_id": "department_of_general_biology_usp",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "araujo_2023",
+        "page": 96,
+        "quote": "However, some comments on the lectures he gave to faculty members and other professionals at the Department of General Biology, University of São Paulo (USP), in 1943 deserve to be made."
+      }
+    ]
+  },
+  {
+    "id": "second_visit_brazil",
+    "event_type": "visit",
+    "label": "Second visit to Brazil",
+    "description": "Spent one year in 1948-1949.",
+    "date": {
+      "display": "1948–1949",
+      "precision": "range",
+      "sort_start": "1948-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "location": "brazil",
+    "participants": [
+      {
+        "entity_id": "theodosius_dobzhansky",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "araujo_2023",
+        "page": 96,
+        "quote": "He visited Brazil many times after his first visit in 1943, spending one year in 1948-1949 and another in 1955-1956."
+      }
+    ]
+  },
+  {
+    "id": "letter_to_wright",
+    "event_type": "other",
+    "label": "Wrote letter to Sewall Wright",
+    "date": {
+      "display": "December 28, 1948",
+      "precision": "day",
+      "sort_start": "1948-12-28",
+      "sort_end": "1948-12-28"
+    },
+    "participants": [
+      {
+        "entity_id": "theodosius_dobzhansky",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "araujo_2023",
+        "page": 101,
+        "quote": "There is another side of Dobzhansky's personality, perhaps unknown to most people, which appeared in a letter to Sewall Wright on December 28, 1948:"
+      }
+    ]
+  },
+  {
+    "id": "third_visit_brazil",
+    "event_type": "visit",
+    "label": "Third visit to Brazil",
+    "description": "Spent one year in 1955-1956, the most turbulent of all.",
+    "date": {
+      "display": "1955–1956",
+      "precision": "range",
+      "sort_start": "1955-01-01",
+      "sort_end": "1956-12-31"
+    },
+    "location": "brazil",
+    "participants": [
+      {
+        "entity_id": "theodosius_dobzhansky",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "araujo_2023",
+        "page": 96,
+        "quote": "He visited Brazil many times after his first visit in 1943, spending one year in 1948-1949 and another in 1955-1956."
+      }
+    ]
+  },
+  {
+    "id": "angra_dos_reis_project",
+    "event_type": "other",
+    "label": "Angra dos Reis project",
+    "description": "Project to release Drosophila on islands, ended in conflict.",
+    "date": {
+      "display": "1955–1956",
+      "precision": "range",
+      "sort_start": "1955-01-01",
+      "sort_end": "1956-12-31"
+    },
+    "location": "angra_dos_reis",
+    "participants": [
+      {
+        "entity_id": "theodosius_dobzhansky",
+        "role": "subject"
+      },
+      {
+        "entity_id": "luiz_edmundo_de_magalhaes",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "ove_frydenberg",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "araujo_2023",
+        "page": 104,
+        "quote": "The project this time was to work on the little islands in the bay of Angra dos Reis."
+      }
+    ]
+  },
+  {
+    "id": "letter_to_pavan",
+    "event_type": "other",
+    "label": "Wrote letter to Pavan",
+    "description": "Expressed regrets and worries about Pavan's scientific future.",
+    "date": {
+      "display": "May 26, 1956",
+      "precision": "day",
+      "sort_start": "1956-05-26",
+      "sort_end": "1956-05-26"
+    },
+    "participants": [
+      {
+        "entity_id": "theodosius_dobzhansky",
+        "role": "subject"
+      },
+      {
+        "entity_id": "crodowaldo_pavan",
+        "role": "recipient"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "araujo_2023",
+        "page": 98,
+        "quote": "In a letter from May 26, 1956, Dobzhansky expressed his regrets:"
+      }
+    ]
+  },
+  {
+    "id": "symposium_visit_1966",
+    "event_type": "visit",
+    "label": "Visited for International Symposium",
+    "description": "Chosen as Honorary President of the meeting in Piracicaba.",
+    "date": {
+      "display": "1966",
+      "precision": "year",
+      "sort_start": "1966-01-01",
+      "sort_end": "1966-12-31"
+    },
+    "location": "piracicaba",
+    "participants": [
+      {
+        "entity_id": "theodosius_dobzhansky",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "araujo_2023",
+        "page": 100,
+        "quote": "He would return in July 1966 for the International Symposium of Genetics, held at Piracicaba, São Paulo – he was then chosen as the Honorary President of the meeting."
+      }
+    ]
+  },
+  {
+    "id": "letter_to_grad_student",
+    "event_type": "other",
+    "label": "Wrote letter to graduate student",
+    "description": "Congratulated on doctorate, warned about Brazilian 'ambiente'.",
+    "date": {
+      "display": "December 7, 1966",
+      "precision": "day",
+      "sort_start": "1966-12-07",
+      "sort_end": "1966-12-07"
+    },
+    "participants": [
+      {
+        "entity_id": "theodosius_dobzhansky",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "araujo_2023",
+        "page": 103,
+        "quote": "For a similar reason, he wrote a letter to a graduate student, in 1966, who had just received a doctoral degree from Faculdade de Filosofia, Ciências e Letras, in São José do Rio Preto, State of São Paulo, and who was planning to stay a year with him, studying the genetics of Drosophila:"
+      }
+    ]
+  },
+  {
+    "id": "sbg_founded",
+    "event_type": "company_founded",
+    "label": "Brazilian Society of Genetics founded",
+    "date": {
+      "display": "1955",
+      "precision": "year",
+      "sort_start": "1955-01-01",
+      "sort_end": "1955-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "chana_malogolowkin_cohen",
+        "role": "founder"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "araujo_2023",
+        "page": 102,
+        "quote": "Chana Malogolowkin-Cohen (1925-2022), one of the founders of the Sociedade Brasileira de Genética (SBG - Brazilian Society of Genetics) in 1955, published important papers during two consecutive years she spent with Dobzhansky at Columbia University"
+      }
+    ]
+  }
+]

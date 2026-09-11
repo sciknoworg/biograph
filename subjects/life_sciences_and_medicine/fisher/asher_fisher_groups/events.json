@@ -1,0 +1,236 @@
+[
+  {
+    "id": "fisher_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1890",
+      "precision": "year",
+      "sort_start": "1890-01-01",
+      "sort_end": "1890-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ronald_aylmer_fisher",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "asher_fisher_groups",
+        "page": 1,
+        "quote": "Ronald Aylmer Fisher (1890-1962) was a pioneer of evolutionary biology who founded modern statistics."
+      }
+    ]
+  },
+  {
+    "id": "fisher_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1962",
+      "precision": "year",
+      "sort_start": "1962-01-01",
+      "sort_end": "1962-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ronald_aylmer_fisher",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "asher_fisher_groups",
+        "page": 1,
+        "quote": "Ronald Aylmer Fisher (1890-1962) was a pioneer of evolutionary biology who founded modern statistics."
+      }
+    ]
+  },
+  {
+    "id": "fisher_1912_essay",
+    "event_type": "publication",
+    "label": "Published essay on social insects",
+    "date": {
+      "display": "1912",
+      "precision": "year",
+      "sort_start": "1912-01-01",
+      "sort_end": "1912-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ronald_aylmer_fisher",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "asher_fisher_groups",
+        "page": 8,
+        "quote": "This passage echoes a 1912 essay in which Fisher discussed social insects as an example of \"inter-communal competition\"."
+      }
+    ]
+  },
+  {
+    "id": "fisher_genetical_theory_1930",
+    "event_type": "publication",
+    "label": "Published The Genetical Theory of Natural Selection",
+    "date": {
+      "display": "1930",
+      "precision": "year",
+      "sort_start": "1930-01-01",
+      "sort_end": "1930-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ronald_aylmer_fisher",
+        "role": "subject"
+      },
+      {
+        "entity_id": "the_genetical_theory_of_natural_selection",
+        "role": "invention"
+      },
+      {
+        "entity_id": "clarendon_press",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "asher_fisher_groups",
+        "page": 2,
+        "quote": "The Genetical Theory of Natural Selection (Fisher 1930, 1958; Fisher and Bennett 1999), hereafter referred to as The Genetical Theory, was arguably Ronald Fisher's most important book."
+      }
+    ]
+  },
+  {
+    "id": "fisher_eugenics_1935",
+    "event_type": "publication",
+    "label": "Published on eugenics",
+    "date": {
+      "display": "1935",
+      "precision": "year",
+      "sort_start": "1935-01-01",
+      "sort_end": "1935-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ronald_aylmer_fisher",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "asher_fisher_groups",
+        "page": 2,
+        "quote": "relatively few authors (e.g., Hamilton 2001: chapter 12) considered the word as most pre-war authors (e.g., Fisher 1935; Huxley 1936) meant it"
+      }
+    ]
+  },
+  {
+    "id": "fisher_letter_metraux_1951",
+    "event_type": "other",
+    "label": "Wrote letter to F. Metraux",
+    "description": "Personal correspondence regarding human ethnicity.",
+    "date": {
+      "display": "1951",
+      "precision": "year",
+      "sort_start": "1951-01-01",
+      "sort_end": "1951-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ronald_aylmer_fisher",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "asher_fisher_groups",
+        "page": 17,
+        "quote": "His personal correspondence suggests he did believe that human ethnicities varied in terms of \"their innate capacity for intellectual and emotional development\" (Fisher 1951)."
+      }
+    ]
+  },
+  {
+    "id": "fisher_genetical_theory_1958",
+    "event_type": "publication",
+    "label": "Published second edition of The Genetical Theory",
+    "date": {
+      "display": "1958",
+      "precision": "year",
+      "sort_start": "1958-01-01",
+      "sort_end": "1958-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ronald_aylmer_fisher",
+        "role": "subject"
+      },
+      {
+        "entity_id": "the_genetical_theory_of_natural_selection",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "asher_fisher_groups",
+        "page": 8,
+        "quote": "In the 1958 edition of The Genetical Theory (the 1999 variorum edition of which is cited here) Fisher added a section at the end of chapter two"
+      }
+    ]
+  },
+  {
+    "id": "fisher_genetical_theory_1999",
+    "event_type": "publication",
+    "label": "Published variorum edition of The Genetical Theory",
+    "date": {
+      "display": "1999",
+      "precision": "year",
+      "sort_start": "1999-01-01",
+      "sort_end": "1999-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ronald_aylmer_fisher",
+        "role": "subject"
+      },
+      {
+        "entity_id": "the_genetical_theory_of_natural_selection",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "asher_fisher_groups",
+        "page": 8,
+        "quote": "In the 1958 edition of The Genetical Theory (the 1999 variorum edition of which is cited here) Fisher added a section at the end of chapter two"
+      }
+    ]
+  },
+  {
+    "id": "bbc_report_2020",
+    "event_type": "other",
+    "label": "BBC reported on Fisher's eugenics",
+    "description": "Report regarding Fisher's views on genetic superiority.",
+    "date": {
+      "display": "2020",
+      "precision": "year",
+      "sort_start": "2020-01-01",
+      "sort_end": "2020-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ronald_aylmer_fisher",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "asher_fisher_groups",
+        "page": 16,
+        "quote": "Similarly, the BBC (2020) reported that Fisher \"was known for arguing people were divided into genetically inferior and superior groups along racial lines\"."
+      }
+    ]
+  }
+]

@@ -1,0 +1,376 @@
+[
+  {
+    "id": "palade_birth",
+    "event_type": "birth",
+    "label": "Born in Romania",
+    "description": "George Emil Palade was born November 19, 1912 in Romania.",
+    "date": {
+      "display": "November 19, 1912",
+      "precision": "day",
+      "sort_start": "1912-11-19",
+      "sort_end": "1912-11-19"
+    },
+    "location": "romania",
+    "participants": [
+      {
+        "entity_id": "george_palade",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "palade_obituary_2008",
+        "page": 1,
+        "quote": "George Emil Palade was born November 19, 1912 in Romania."
+      }
+    ]
+  },
+  {
+    "id": "palade_wwii_service",
+    "event_type": "employment_start",
+    "label": "Served in Romanian army medical corps",
+    "description": "Trained in medicine he served in the medical corps of the Romanian army in World War II.",
+    "date": {
+      "display": "World War II",
+      "precision": "decade",
+      "sort_start": "1939-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "george_palade",
+        "role": "subject"
+      },
+      {
+        "entity_id": "romanian_army",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "palade_obituary_2008",
+        "page": 1,
+        "quote": "Trained in medicine he served in the medical corps of the Romanian army in World War II."
+      }
+    ]
+  },
+  {
+    "id": "palade_relocation_to_us",
+    "event_type": "relocation",
+    "label": "Moved to United States",
+    "description": "After the Soviet occupation of his homeland he moved to the United States.",
+    "date": {
+      "display": "after Soviet occupation",
+      "precision": "circa",
+      "sort_start": "1945-01-01",
+      "sort_end": "1952-01-01"
+    },
+    "location": "united_states",
+    "participants": [
+      {
+        "entity_id": "george_palade",
+        "role": "subject"
+      }
+    ],
+    "certainty": "approximate",
+    "sources": [
+      {
+        "source_id": "palade_obituary_2008",
+        "page": 1,
+        "quote": "After the Soviet occupation of his homeland he moved to the United States and became a US citizen in 1952."
+      }
+    ]
+  },
+  {
+    "id": "palade_us_citizenship",
+    "event_type": "other",
+    "label": "Became US citizen",
+    "date": {
+      "display": "1952",
+      "precision": "year",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "george_palade",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "palade_obituary_2008",
+        "page": 1,
+        "quote": "After the Soviet occupation of his homeland he moved to the United States and became a US citizen in 1952."
+      }
+    ]
+  },
+  {
+    "id": "palade_yale_chairman",
+    "event_type": "employment_start",
+    "label": "Chairman of Department of Cell Biology at Yale",
+    "description": "After leaving Rockefeller University in New York, he served as Chairman of the newly created Department of Cell Biology at Yale University in 1973.",
+    "date": {
+      "display": "1973",
+      "precision": "year",
+      "sort_start": "1973-01-01",
+      "sort_end": "1973-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "george_palade",
+        "role": "subject"
+      },
+      {
+        "entity_id": "yale_university",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "palade_obituary_2008",
+        "page": 1,
+        "quote": "After leaving Rockefeller University in New York, he served as Chairman of the newly created Department of Cell Biology at Yale University in 1973."
+      }
+    ]
+  },
+  {
+    "id": "palade_nobel_prize",
+    "event_type": "award",
+    "label": "Awarded Nobel Prize in Physiology or Medicine",
+    "date": {
+      "display": "1974",
+      "precision": "year",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "george_palade",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_committee",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "nobel_prize_1974",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "palade_obituary_2008",
+        "page": 1,
+        "quote": "Palade, together with his co-winners of the Nobel Prize in 1974, was described by the Nobel Committee as the father of Cell Biology."
+      }
+    ]
+  },
+  {
+    "id": "irna_malaxa_death",
+    "event_type": "death",
+    "label": "Death of first wife Irna Malaxa",
+    "date": {
+      "display": "1969",
+      "precision": "year",
+      "sort_start": "1969-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "irna_malaxa",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "palade_obituary_2008",
+        "page": 1,
+        "quote": "After the death of his first wife, Irna Malaxa, in 1969, he married Marilyn Farquhar"
+      }
+    ]
+  },
+  {
+    "id": "palade_marriage_farquhar",
+    "event_type": "other",
+    "label": "Married Marilyn Farquhar",
+    "description": "After the death of his first wife, Irna Malaxa, in 1969, he married Marilyn Farquhar.",
+    "date": {
+      "display": "after 1969",
+      "precision": "circa",
+      "sort_start": "1969-01-01",
+      "sort_end": "1973-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "george_palade",
+        "role": "subject"
+      },
+      {
+        "entity_id": "marilyn_farquhar",
+        "role": "subject"
+      }
+    ],
+    "certainty": "approximate",
+    "sources": [
+      {
+        "source_id": "palade_obituary_2008",
+        "page": 1,
+        "quote": "After the death of his first wife, Irna Malaxa, in 1969, he married Marilyn Farquhar"
+      }
+    ]
+  },
+  {
+    "id": "palade_ucsd_dean",
+    "event_type": "employment_start",
+    "label": "Dean for Scientific Affairs at UCSD",
+    "description": "He then became Dean for Scientific Affairs at the University of California at San Diego, serving from 1990 until he retired in 2001.",
+    "date": {
+      "display": "1990",
+      "precision": "year",
+      "sort_start": "1990-01-01",
+      "sort_end": "1990-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "george_palade",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_california_san_diego",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "palade_obituary_2008",
+        "page": 1,
+        "quote": "He then became Dean for Scientific Affairs at the University of California at San Diego, serving from 1990 until he retired in 2001."
+      }
+    ]
+  },
+  {
+    "id": "palade_retirement",
+    "event_type": "retirement",
+    "label": "Retired from UCSD",
+    "date": {
+      "display": "2001",
+      "precision": "year",
+      "sort_start": "2001-01-01",
+      "sort_end": "2001-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "george_palade",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_california_san_diego",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "palade_obituary_2008",
+        "page": 1,
+        "quote": "He then became Dean for Scientific Affairs at the University of California at San Diego, serving from 1990 until he retired in 2001."
+      }
+    ]
+  },
+  {
+    "id": "palade_death",
+    "event_type": "death",
+    "label": "Died at home in San Diego",
+    "date": {
+      "display": "October 7, 2008",
+      "precision": "day",
+      "sort_start": "2008-10-07",
+      "sort_end": "2008-10-07"
+    },
+    "location": "san_diego",
+    "participants": [
+      {
+        "entity_id": "george_palade",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "palade_obituary_2008",
+        "page": 1,
+        "quote": "We mark the passing of George Palade, who died at his home in San Diego on October 7, 2008."
+      }
+    ]
+  },
+  {
+    "id": "palade_1954_publication",
+    "event_type": "publication",
+    "label": "Published paper on synaptic vesicle",
+    "date": {
+      "display": "1954",
+      "precision": "year",
+      "sort_start": "1954-01-01",
+      "sort_end": "1954-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "george_palade",
+        "role": "subject"
+      },
+      {
+        "entity_id": "palade_1954_publication",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "palade_obituary_2008",
+        "page": 1,
+        "quote": "the synaptic vesicle (Palade, 1954)."
+      }
+    ]
+  },
+  {
+    "id": "palay_palade_1955_publication",
+    "event_type": "publication",
+    "label": "Published paper on fine structure of neurons",
+    "date": {
+      "display": "1955",
+      "precision": "year",
+      "sort_start": "1955-01-01",
+      "sort_end": "1955-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "george_palade",
+        "role": "subject"
+      },
+      {
+        "entity_id": "sanford_palay",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "palay_palade_1955_publication",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "palade_obituary_2008",
+        "page": 1,
+        "quote": "(Palay and Palade, 1955)."
+      }
+    ]
+  }
+]

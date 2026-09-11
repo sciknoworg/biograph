@@ -1,0 +1,172 @@
+[
+  {
+    "id": "emerson_birth",
+    "event_type": "birth",
+    "label": "Born in New York City",
+    "description": "John Haven Emerson was born to a scholarly family.",
+    "date": {
+      "display": "February 5, 1906",
+      "precision": "day",
+      "sort_start": "1906-02-05",
+      "sort_end": "1906-02-05"
+    },
+    "location": "new_york_city",
+    "participants": [
+      {
+        "entity_id": "john_haven_emerson",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "chen_hung_2024",
+        "page": 1,
+        "quote": "John Haven \"Jack\" Emerson was born on February 5, 1906, in New York City"
+      }
+    ]
+  },
+  {
+    "id": "emerson_education",
+    "event_type": "education",
+    "label": "Attended Ethical Culture School",
+    "description": "Received education in private schools as a young boy.",
+    "date": {
+      "display": "1910s",
+      "precision": "decade",
+      "sort_start": "1910-01-01",
+      "sort_end": "1919-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_haven_emerson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ethical_culture_school",
+        "role": "school"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "chen_hung_2024",
+        "page": 1,
+        "quote": "attending the Ethical Culture School as a young boy"
+      }
+    ]
+  },
+  {
+    "id": "emerson_workshop_founded",
+    "event_type": "company_founded",
+    "label": "Established workshop",
+    "description": "Acquired machine shop equipment and established his workshop at age 22.",
+    "date": {
+      "display": "1928",
+      "precision": "year",
+      "sort_start": "1928-01-01",
+      "sort_end": "1928-12-31"
+    },
+    "location": "boston",
+    "participants": [
+      {
+        "entity_id": "john_haven_emerson",
+        "role": "founder"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "chen_hung_2024",
+        "page": 1,
+        "quote": "At the age of 22, despite his family's objections, Emerson acquired the basic equipment of a machine shop"
+      }
+    ]
+  },
+  {
+    "id": "barcroft_warburg_invention",
+    "event_type": "invention",
+    "label": "Designed Barcroft-Warburg apparatus",
+    "description": "Designed apparatus for studying tissue respiration, later used in cancer studies.",
+    "date": {
+      "display": "1928",
+      "precision": "year",
+      "sort_start": "1928-01-01",
+      "sort_end": "1928-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_haven_emerson",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "barcroft_warburg_apparatus",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "chen_hung_2024",
+        "page": 1,
+        "quote": "In 1928, Emerson designed a Barcroft-Warburg apparatus for studying tissue respiration"
+      }
+    ]
+  },
+  {
+    "id": "emerson_iron_lung_improvement",
+    "event_type": "invention",
+    "label": "Improved iron lung design",
+    "description": "Introduced flexible diaphragm and refined chamber shape, making it quieter and cheaper.",
+    "date": {
+      "display": "1930s",
+      "precision": "decade",
+      "sort_start": "1930-01-01",
+      "sort_end": "1939-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_haven_emerson",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "emersons_iron_lung",
+        "role": "invention"
+      }
+    ],
+    "certainty": "approximate",
+    "sources": [
+      {
+        "source_id": "chen_hung_2024",
+        "page": 2,
+        "quote": "Emerson's improving design introduced a flexible diaphragm to replace the blowers and valves used in the original model"
+      }
+    ]
+  },
+  {
+    "id": "emerson_death",
+    "event_type": "death",
+    "label": "Died",
+    "description": "Passed away at the age of 91.",
+    "date": {
+      "display": "February 1997",
+      "precision": "month",
+      "sort_start": "1997-02-01",
+      "sort_end": "1997-02-28"
+    },
+    "participants": [
+      {
+        "entity_id": "john_haven_emerson",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "chen_hung_2024",
+        "page": 3,
+        "quote": "When he passed away in February 1997 at the age of 91"
+      }
+    ]
+  }
+]

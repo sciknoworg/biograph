@@ -1,0 +1,159 @@
+[
+  {
+    "id": "karl_friedrich_meyer",
+    "entity_type": "person",
+    "name": "Karl Friedrich Meyer",
+    "aliases": [
+      "Karl F. Meyer",
+      "KF Meyer",
+      "Meyer"
+    ],
+    "summary": "Swiss-born medical researcher, bacteriologist, and pioneer of disease ecology known for work on zoonotic diseases.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "theobald_smith",
+    "entity_type": "person",
+    "name": "Theobald Smith",
+    "aliases": [
+      "Smith"
+    ],
+    "summary": "Comparative pathologist and microbiologist who influenced Meyer's ideas on host-parasite relationships.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "frank_macfarlane_burnet",
+    "entity_type": "person",
+    "name": "Frank Macfarlane Burnet",
+    "aliases": [
+      "Burnet",
+      "F. M. Burnet"
+    ],
+    "summary": "Australian immunologist and Nobel Prize winner who exchanged ideas with Meyer on disease ecology.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "charles_elton",
+    "entity_type": "person",
+    "name": "Charles Elton",
+    "aliases": [
+      "Elton",
+      "Charles Sutherland Elton"
+    ],
+    "summary": "British animal ecologist who advised Meyer on the ecology of sylvatic plague.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "george_williams_hooper_foundation",
+    "entity_type": "organization",
+    "name": "George Williams Hooper Foundation for Medical Research",
+    "aliases": [
+      "Hooper Foundation",
+      "Hooper"
+    ],
+    "summary": "Medical research foundation at the University of California where Meyer worked and served as director.",
+    "subtype": "lab"
+  },
+  {
+    "id": "university_of_zurich",
+    "entity_type": "organization",
+    "name": "University of Zurich",
+    "aliases": [
+      "Zurich"
+    ],
+    "summary": "Swiss university where Meyer earned his veterinary medicine degree and PhD.",
+    "subtype": "university"
+  },
+  {
+    "id": "university_of_california_berkeley",
+    "entity_type": "organization",
+    "name": "University of California, Berkeley",
+    "aliases": [
+      "UC Berkeley",
+      "Berkeley"
+    ],
+    "summary": "American university where the Hooper Foundation was located and Meyer taught.",
+    "subtype": "university"
+  },
+  {
+    "id": "veterinary_bacteriological_institute_onderstepoort",
+    "entity_type": "organization",
+    "name": "Veterinary Bacteriological Institute",
+    "aliases": [
+      "Onderstepoort"
+    ],
+    "summary": "Research institute in South Africa where Meyer worked as a pathologist.",
+    "subtype": "lab"
+  },
+  {
+    "id": "society_of_american_bacteriologists",
+    "entity_type": "organization",
+    "name": "Society of American Bacteriologists",
+    "aliases": [
+      "SAB"
+    ],
+    "summary": "Professional organization where Meyer gave a presidential address on latent infections.",
+    "subtype": "organization"
+  },
+  {
+    "id": "switzerland",
+    "entity_type": "place",
+    "name": "Switzerland",
+    "aliases": [],
+    "summary": "Country of Meyer's birth.",
+    "subtype": "country",
+    "attributes": {
+      "country": "Switzerland"
+    }
+  },
+  {
+    "id": "south_africa",
+    "entity_type": "place",
+    "name": "South Africa",
+    "aliases": [],
+    "summary": "Country where Meyer worked at Onderstepoort.",
+    "subtype": "country",
+    "attributes": {
+      "country": "South Africa"
+    }
+  },
+  {
+    "id": "california",
+    "entity_type": "place",
+    "name": "California",
+    "aliases": [],
+    "summary": "US state where Meyer conducted much of his research on zoonoses.",
+    "subtype": "state",
+    "attributes": {
+      "country": "United States"
+    }
+  },
+  {
+    "id": "san_francisco",
+    "entity_type": "place",
+    "name": "San Francisco",
+    "aliases": [],
+    "summary": "City where the Hooper Foundation was located.",
+    "subtype": "city",
+    "attributes": {
+      "country": "United States",
+      "state": "California"
+    }
+  },
+  {
+    "id": "walter_reed_medal",
+    "entity_type": "artifact",
+    "name": "Walter Reed Medal",
+    "aliases": [],
+    "summary": "Award for services to tropical medicine received by Meyer.",
+    "subtype": "award"
+  },
+  {
+    "id": "latent_infections_1936",
+    "entity_type": "artifact",
+    "name": "Latent Infections",
+    "aliases": [],
+    "summary": "1936 presidential address paper by Meyer on latent infections.",
+    "subtype": "publication"
+  }
+]

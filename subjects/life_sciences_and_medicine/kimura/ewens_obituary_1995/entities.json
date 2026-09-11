@@ -1,0 +1,151 @@
+[
+  {
+    "id": "motoo_kimura",
+    "entity_type": "person",
+    "name": "Motoo Kimura",
+    "aliases": [
+      "Kimura"
+    ],
+    "summary": "Leading theoretical population geneticist of the post-Fisherian era, known for stochastic theory and the neutral theory of evolution.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "james_f_crow",
+    "entity_type": "person",
+    "name": "James F. Crow",
+    "aliases": [
+      "Crow"
+    ],
+    "summary": "Population geneticist who supervised Kimura as a graduate student at University of Wisconsin.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "sewall_wright",
+    "entity_type": "person",
+    "name": "Sewall Wright",
+    "aliases": [
+      "Wright"
+    ],
+    "summary": "Population geneticist at University of Wisconsin who worked with Kimura.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "fisher",
+    "entity_type": "person",
+    "name": "Fisher",
+    "aliases": [],
+    "summary": "Population geneticist whose work Kimura built upon and compared against.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "haldane",
+    "entity_type": "person",
+    "name": "Haldane",
+    "aliases": [],
+    "summary": "Population geneticist mentioned as part of the famous trio with Fisher and Wright.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "moran",
+    "entity_type": "person",
+    "name": "Moran",
+    "aliases": [],
+    "summary": "Researcher who introduced the Kolmogorov backward equation at the same time as Kimura.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "w_j_ewens",
+    "entity_type": "person",
+    "name": "W. J. Ewens",
+    "aliases": [
+      "Ewens"
+    ],
+    "summary": "Author of this obituary, from Department of Biology, University of Pennsylvania.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "c_c_heyde",
+    "entity_type": "person",
+    "name": "C. C. Heyde",
+    "aliases": [
+      "Heyde"
+    ],
+    "summary": "Author of the editorial note, from The Australian National University.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "i_gani",
+    "entity_type": "person",
+    "name": "I. Gani",
+    "aliases": [
+      "Gani"
+    ],
+    "summary": "Editor of The Craft of Probabilistic Modelling containing Kimura's autobiographical account.",
+    "subtype": "editor"
+  },
+  {
+    "id": "university_of_wisconsin",
+    "entity_type": "organization",
+    "name": "University of Wisconsin",
+    "aliases": [
+      "Wisconsin"
+    ],
+    "summary": "University where Kimura was a graduate student in 1954.",
+    "subtype": "university"
+  },
+  {
+    "id": "university_of_pennsylvania",
+    "entity_type": "organization",
+    "name": "University of Pennsylvania",
+    "aliases": [
+      "Pennsylvania"
+    ],
+    "summary": "University where W. J. Ewens was based in the Department of Biology.",
+    "subtype": "university"
+  },
+  {
+    "id": "australian_national_university",
+    "entity_type": "organization",
+    "name": "The Australian National University",
+    "aliases": [
+      "Australian National University"
+    ],
+    "summary": "University where C. C. Heyde was based.",
+    "subtype": "university"
+  },
+  {
+    "id": "applied_probability_editorial_board",
+    "entity_type": "organization",
+    "name": "Applied Probability Editorial Board",
+    "aliases": [],
+    "summary": "Editorial board on which Kimura served from 1964 through 1969.",
+    "subtype": "editorial_board"
+  },
+  {
+    "id": "springer_verlag",
+    "entity_type": "organization",
+    "name": "Springer-Verlag",
+    "aliases": [],
+    "summary": "Publisher of The Craft of Probabilistic Modelling.",
+    "subtype": "publisher",
+    "attributes": {
+      "location": "Heidelberg"
+    }
+  },
+  {
+    "id": "the_craft_of_probabilistic_modelling",
+    "entity_type": "artifact",
+    "name": "The Craft of Probabilistic Modelling",
+    "aliases": [],
+    "summary": "Book edited by I. Gani containing Kimura's autobiographical account.",
+    "subtype": "publication"
+  },
+  {
+    "id": "diffusion_models_paper",
+    "entity_type": "artifact",
+    "name": "Diffusion models of population genetics in the age of molecular biology",
+    "aliases": [],
+    "summary": "Kimura's autobiographical account published in The Craft of Probabilistic Modelling.",
+    "subtype": "publication"
+  }
+]

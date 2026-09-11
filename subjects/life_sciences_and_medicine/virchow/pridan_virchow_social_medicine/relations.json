@@ -1,0 +1,99 @@
+[
+  {
+    "id": "virchow_worked_pathology",
+    "source": "rudolf_virchow",
+    "type": "developed",
+    "target": "arch_pathol_anat_physiol_med",
+    "note": "Virchow created monumental work in pathology, foundations for scientific study of specific disease processes.",
+    "sources": [
+      {
+        "source_id": "pridan_virchow_social_medicine",
+        "page": 5,
+        "quote": "creatingwithhismonumentalworkinpathologythe veryfoundationsforthescientificstudyofspecificdiseaseprocesses"
+      }
+    ]
+  },
+  {
+    "id": "virchow_disputed_behring",
+    "source": "rudolf_virchow",
+    "type": "collaborated_with",
+    "target": "emil_von_behring",
+    "note": "Virchow engaged in heated polemics with Behring, who attacked Virchow's philosophy of medicine.",
+    "sources": [
+      {
+        "source_id": "pridan_virchow_social_medicine",
+        "page": 1,
+        "quote": "ManyatimewefindVirchowinvolvedinheated,acrimoniousandpersonaldisputeswithfellowscientists"
+      }
+    ]
+  },
+  {
+    "id": "virchow_respected_pasteur",
+    "source": "rudolf_virchow",
+    "type": "collaborated_with",
+    "target": "louis_pasteur",
+    "note": "Virchow was on excellent terms of mutual respect with Pasteur despite German-French rivalry.",
+    "sources": [
+      {
+        "source_id": "pridan_virchow_social_medicine",
+        "page": 1,
+        "quote": "Virchowwasonexcellenttermsofmutualrespectwith Pasteur-notwithstandingthethenverymarkedrivalrybetweenGermanand Frenchscientists."
+      }
+    ]
+  },
+  {
+    "id": "virchow_member_reichstag",
+    "source": "rudolf_virchow",
+    "type": "member_of",
+    "target": "german_reichstag",
+    "event_id": "virchow_reichstag_membership",
+    "sources": [
+      {
+        "source_id": "pridan_virchow_social_medicine",
+        "page": 5,
+        "quote": "Hebecameoneofthemostoutspokenandprogressivemembersofthe GermanReichstag"
+      }
+    ]
+  },
+  {
+    "id": "virchow_founded_journal",
+    "source": "rudolf_virchow",
+    "type": "founded",
+    "target": "die_medizinische_reform",
+    "event_id": "virchow_journal_founded",
+    "sources": [
+      {
+        "source_id": "pridan_virchow_social_medicine",
+        "page": 5,
+        "quote": "Already,in1848,Virchowbegananew medicaljournal,DieMedizinischeReform"
+      }
+    ]
+  },
+  {
+    "id": "virchow_investigated_upper_silesia",
+    "source": "rudolf_virchow",
+    "type": "visited",
+    "target": "upper_silesia",
+    "event_id": "virchow_typhus_investigation",
+    "sources": [
+      {
+        "source_id": "pridan_virchow_social_medicine",
+        "page": 2,
+        "quote": "wefindit extremelyrewardingtolookatVirchow'sfamousandbeautifullywritten articleaboutthetyphusepidemicinUpperSilesia"
+      }
+    ]
+  },
+  {
+    "id": "virchow_lived_germany",
+    "source": "rudolf_virchow",
+    "type": "lived_in",
+    "target": "germany",
+    "sources": [
+      {
+        "source_id": "pridan_virchow_social_medicine",
+        "page": 5,
+        "quote": "heconducted asurveyofthephysicalcharacteristicsofover250,000schoolchildrenin Germany"
+      }
+    ]
+  }
+]

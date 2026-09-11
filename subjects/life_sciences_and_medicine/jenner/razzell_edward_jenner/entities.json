@@ -1,0 +1,182 @@
+[
+  {
+    "aliases": [
+      "Dr. Jenner",
+      "Jenner"
+    ],
+    "entity_type": "person",
+    "id": "edward_jenner",
+    "name": "Edward Jenner",
+    "subtype": "researcher",
+    "summary": "English physician and pioneer of smallpox vaccination."
+  },
+  {
+    "aliases": [
+      "Razzell",
+      "Mr. Razzell"
+    ],
+    "entity_type": "person",
+    "id": "p_e_razzell",
+    "name": "P.E. Razzell",
+    "subtype": "researcher",
+    "summary": "Historian and author of the article."
+  },
+  {
+    "aliases": [
+      "Downie",
+      "Professor Downie",
+      "Professor A.W. Downie"
+    ],
+    "entity_type": "person",
+    "id": "a_w_downie",
+    "name": "A.W. Downie",
+    "subtype": "researcher",
+    "summary": "Professor of Medicine at Liverpool University."
+  },
+  {
+    "aliases": [
+      "Sutton"
+    ],
+    "entity_type": "person",
+    "id": "daniel_sutton",
+    "name": "Daniel Sutton",
+    "subtype": "researcher",
+    "summary": "Inoculator who developed the Suttonian method."
+  },
+  {
+    "aliases": [
+      "Dr. Woodville"
+    ],
+    "entity_type": "person",
+    "id": "woodville",
+    "name": "Woodville",
+    "subtype": "researcher",
+    "summary": "Doctor at the London Smallpox Hospital."
+  },
+  {
+    "aliases": [
+      "Egremont"
+    ],
+    "entity_type": "person",
+    "id": "lord_egremont",
+    "name": "Lord Egremont",
+    "subtype": "patron",
+    "summary": "Patron of Edward Jenner."
+  },
+  {
+    "aliases": [
+      "Mudge"
+    ],
+    "entity_type": "person",
+    "id": "john_mudge",
+    "name": "John Mudge",
+    "subtype": "researcher",
+    "summary": "Plymouth surgeon."
+  },
+  {
+    "aliases": [
+      "Walker",
+      "Dr. John Walker"
+    ],
+    "entity_type": "person",
+    "id": "john_walker",
+    "name": "John Walker",
+    "subtype": "researcher",
+    "summary": "Director of the Royal Jennerian Society."
+  },
+  {
+    "aliases": [
+      "Smallpox Hospital",
+      "Inoculation Hospital"
+    ],
+    "entity_type": "organization",
+    "id": "london_smallpox_hospital",
+    "name": "London Smallpox Hospital",
+    "subtype": "hospital",
+    "summary": "Hospital in London where smallpox patients were treated."
+  },
+  {
+    "aliases": [
+      "Jennerian Society",
+      "Jennerian Institute"
+    ],
+    "entity_type": "organization",
+    "id": "royal_jennerian_society",
+    "name": "Royal Jennerian Society",
+    "subtype": "organization",
+    "summary": "Society dedicated to Jennerian vaccination."
+  },
+  {
+    "aliases": [
+      "Lyons"
+    ],
+    "entity_type": "organization",
+    "id": "college_of_lyons",
+    "name": "College of Lyons",
+    "subtype": "university",
+    "summary": "Medical college in Lyons, France."
+  },
+  {
+    "aliases": [
+      "Berkely"
+    ],
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 51.691,
+      "lng": -2.459,
+      "wikidata_qid": "Q584443",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "berkeley",
+    "name": "Berkeley",
+    "subtype": "town",
+    "summary": "Town in Gloucestershire, England."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 50.986,
+      "lng": -0.609,
+      "wikidata_qid": "Q2526099",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "petworth",
+    "name": "Petworth",
+    "subtype": "town",
+    "summary": "Estate of Lord Egremont."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United Kingdom"
+    },
+    "entity_type": "place",
+    "id": "wootton_under_edge",
+    "name": "Wootton-under-Edge",
+    "subtype": "town",
+    "summary": "Location of mass inoculation in 1756."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "city": "London",
+      "country": "United Kingdom"
+    },
+    "entity_type": "place",
+    "id": "gray_inn_lane",
+    "name": "Gray's Inn Lane",
+    "subtype": "street",
+    "summary": "Location in London where cowpox was discovered in 1799."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "medical_history_journal",
+    "name": "Medical History",
+    "subtype": "publication",
+    "summary": "Academic journal of medical history."
+  }
+]

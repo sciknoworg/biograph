@@ -1,0 +1,358 @@
+[
+  {
+    "id": "jms_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1920",
+      "precision": "year",
+      "sort_start": "1920-01-01",
+      "sort_end": "1920-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_maynard_smith",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "piel_2019",
+        "page": 1,
+        "quote": "John Maynard Smith (1920–2004)"
+      }
+    ]
+  },
+  {
+    "id": "jms_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "2004",
+      "precision": "year",
+      "sort_start": "2004-01-01",
+      "sort_end": "2004-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_maynard_smith",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "piel_2019",
+        "page": 1,
+        "quote": "continuing until his death in 2004."
+      }
+    ]
+  },
+  {
+    "id": "jms_education_cambridge",
+    "event_type": "education",
+    "label": "Studied engineering at Cambridge",
+    "date": {
+      "display": "1940s",
+      "precision": "decade",
+      "sort_start": "1940-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_maynard_smith",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_cambridge",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "piel_2019",
+        "page": 2,
+        "quote": "he had a degree from Cambridge and worked as an aircraft stressman during World War II"
+      }
+    ]
+  },
+  {
+    "id": "jms_work_wwii",
+    "event_type": "employment_start",
+    "label": "Worked as aircraft stressman",
+    "date": {
+      "display": "World War II",
+      "precision": "range",
+      "sort_start": "1939-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_maynard_smith",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "piel_2019",
+        "page": 2,
+        "quote": "worked as an aircraft stressman during World War II"
+      }
+    ]
+  },
+  {
+    "id": "jms_education_ucl",
+    "event_type": "education",
+    "label": "Read zoology at UCL",
+    "date": {
+      "display": "after World War II",
+      "precision": "range",
+      "sort_start": "1945-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_maynard_smith",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_college_london",
+        "role": "educator"
+      },
+      {
+        "entity_id": "jbs_haldane",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "piel_2019",
+        "page": 2,
+        "quote": "read zoology at University College London under J.B.S. Haldane"
+      }
+    ]
+  },
+  {
+    "id": "jms_first_paper",
+    "event_type": "publication",
+    "label": "Published first scientific paper",
+    "date": {
+      "display": "1952",
+      "precision": "year",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_maynard_smith",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "piel_2019",
+        "page": 2,
+        "quote": "published his first scientific paper on \"The importance of the nervous system in the evolution of animal flight\" (1952)."
+      }
+    ]
+  },
+  {
+    "id": "jms_birds_article",
+    "event_type": "publication",
+    "label": "Published \"Birds as Aeroplanes\"",
+    "date": {
+      "display": "1953",
+      "precision": "year",
+      "sort_start": "1953-01-01",
+      "sort_end": "1953-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_maynard_smith",
+        "role": "author"
+      },
+      {
+        "entity_id": "new_biology_series",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "piel_2019",
+        "page": 2,
+        "quote": "\"Birds as aeroplanes\" (1953)."
+      }
+    ]
+  },
+  {
+    "id": "jms_penguin_contract",
+    "event_type": "other",
+    "label": "Signed contract with Penguin",
+    "date": {
+      "display": "16 February 1956",
+      "precision": "day",
+      "sort_start": "1956-02-16",
+      "sort_end": "1956-02-16"
+    },
+    "participants": [
+      {
+        "entity_id": "john_maynard_smith",
+        "role": "subject"
+      },
+      {
+        "entity_id": "penguin_books",
+        "role": "publisher"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "piel_2019",
+        "page": 3,
+        "quote": "On 16 February 1956, he signed a contract with Penguin's Pelican imprint"
+      }
+    ]
+  },
+  {
+    "id": "jms_theory_book",
+    "event_type": "publication",
+    "label": "Published The Theory of Evolution",
+    "date": {
+      "display": "1958",
+      "precision": "year",
+      "sort_start": "1958-01-01",
+      "sort_end": "1958-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_maynard_smith",
+        "role": "author"
+      },
+      {
+        "entity_id": "the_theory_of_evolution",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "piel_2019",
+        "page": 3,
+        "quote": "The Theory of Evolution (Penguin 1958)"
+      }
+    ]
+  },
+  {
+    "id": "jms_sussex_dean",
+    "event_type": "employment_start",
+    "label": "Appointed founding dean at Sussex",
+    "date": {
+      "display": "1965",
+      "precision": "year",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_maynard_smith",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_sussex",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "piel_2019",
+        "page": 2,
+        "quote": "appointed founding dean in 1965"
+      }
+    ]
+  },
+  {
+    "id": "jms_sussex_retirement",
+    "event_type": "retirement",
+    "label": "Retired from Sussex",
+    "date": {
+      "display": "1985",
+      "precision": "year",
+      "sort_start": "1985-01-01",
+      "sort_end": "1985-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_maynard_smith",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_sussex",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "piel_2019",
+        "page": 2,
+        "quote": "from which he retired in 1985."
+      }
+    ]
+  },
+  {
+    "id": "jms_crafoord",
+    "event_type": "award",
+    "label": "Awarded Crafoord Prize",
+    "date": {
+      "display": "1999",
+      "precision": "year",
+      "sort_start": "1999-01-01",
+      "sort_end": "1999-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_maynard_smith",
+        "role": "recipient"
+      },
+      {
+        "entity_id": "crafoord_prize",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "piel_2019",
+        "page": 2,
+        "quote": "The prize was jointly awarded to Maynard Smith, Ernst Mayr, and George C. Williams in 1999"
+      }
+    ]
+  },
+  {
+    "id": "jms_animal_signals",
+    "event_type": "publication",
+    "label": "Published Animal Signals",
+    "date": {
+      "display": "2003",
+      "precision": "year",
+      "sort_start": "2003-01-01",
+      "sort_end": "2003-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_maynard_smith",
+        "role": "author"
+      },
+      {
+        "entity_id": "animal_signals",
+        "role": "publication"
+      },
+      {
+        "entity_id": "david_harper",
+        "role": "co-author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "piel_2019",
+        "page": 2,
+        "quote": "his last book, Animal Signals (co-authored with David Harper) was published in 2003."
+      }
+    ]
+  }
+]

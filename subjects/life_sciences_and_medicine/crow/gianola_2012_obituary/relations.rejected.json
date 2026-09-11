@@ -1,0 +1,17 @@
+[
+  {
+    "id": "institute_named_after_crow",
+    "source": "james_f_crow_institute",
+    "type": "renamed_to",
+    "target": "james_f_crow",
+    "note": "Institute named in honor of Crow",
+    "sources": [
+      {
+        "source_id": "gianola_2012_obituary",
+        "page": 2,
+        "quote": "the future institute's members insisted instead to name the new entity in honor of Professor Crow"
+      }
+    ],
+    "_rejected_because": "'renamed_to' expects target entity_type organization, but 'james_f_crow' is 'person'"
+  }
+]

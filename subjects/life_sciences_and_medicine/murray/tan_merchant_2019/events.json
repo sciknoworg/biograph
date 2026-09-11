@@ -1,0 +1,580 @@
+[
+  {
+    "id": "murray_birth",
+    "event_type": "birth",
+    "label": "Born in Milford, Massachusetts",
+    "description": "Joseph Murray was born in Milford, Massachusetts, a town 30 miles southwest of Boston.",
+    "date": {
+      "display": "1 April 1919",
+      "precision": "day",
+      "sort_start": "1919-04-01",
+      "sort_end": "1919-04-01"
+    },
+    "location": "milford_massachusetts",
+    "participants": [
+      {
+        "entity_id": "joseph_murray",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 1,
+        "quote": "Murray was born in Milford, Massachusetts, United States, a town 30 miles southwest of Boston, Massachusetts, on 1 April 1919."
+      }
+    ]
+  },
+  {
+    "id": "murray_college_holy_cross",
+    "event_type": "education",
+    "label": "Attended College of the Holy Cross",
+    "description": "Murray attended College of the Holy Cross, a small liberal arts college in Massachusetts, focusing on philosophy and literature.",
+    "date": {
+      "display": "c. 1930s",
+      "precision": "decade",
+      "sort_start": "1930-01-01",
+      "sort_end": "1939-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_murray",
+        "role": "subject"
+      },
+      {
+        "entity_id": "college_holy_cross",
+        "role": "educator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 1,
+        "quote": "He attended College of the Holy Cross, a small liberal arts college in Massachusetts."
+      }
+    ]
+  },
+  {
+    "id": "murray_harvard_medical",
+    "event_type": "education",
+    "label": "Attended Harvard Medical School",
+    "description": "Murray attended Harvard Medical School after College of the Holy Cross.",
+    "date": {
+      "display": "c. 1940s",
+      "precision": "decade",
+      "sort_start": "1940-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_murray",
+        "role": "subject"
+      },
+      {
+        "entity_id": "harvard_medical_school",
+        "role": "educator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 1,
+        "quote": "He attended Harvard Medical School and subsequently did his surgical internship at the Peter Bent Brigham Hospital in Boston, Massachusetts."
+      }
+    ]
+  },
+  {
+    "id": "murray_brigham_internship",
+    "event_type": "employment_start",
+    "label": "Surgical internship at Peter Bent Brigham Hospital",
+    "description": "Murray did his surgical internship at the Peter Bent Brigham Hospital in Boston, Massachusetts.",
+    "date": {
+      "display": "c. 1940s",
+      "precision": "decade",
+      "sort_start": "1940-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_murray",
+        "role": "subject"
+      },
+      {
+        "entity_id": "peter_bent_brigham_hospital",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 1,
+        "quote": "He attended Harvard Medical School and subsequently did his surgical internship at the Peter Bent Brigham Hospital in Boston, Massachusetts."
+      }
+    ]
+  },
+  {
+    "id": "murray_wwii_service",
+    "event_type": "employment_start",
+    "label": "Drafted into military service for World War II",
+    "description": "Towards the end of his internship year, Murray was drafted into military service for World War II and was stationed at Valley Forge General Hospital.",
+    "date": {
+      "display": "c. 1940s",
+      "precision": "decade",
+      "sort_start": "1940-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "location": "pennsylvania",
+    "participants": [
+      {
+        "entity_id": "joseph_murray",
+        "role": "subject"
+      },
+      {
+        "entity_id": "valley_forge_general_hospital",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 1,
+        "quote": "Towards the end of his internship year, Murray was drafted into military service for World War II and was stationed at Valley Forge General Hospital, a major plastic surgery centre in Pennsylvania."
+      }
+    ]
+  },
+  {
+    "id": "murray_woods_case",
+    "event_type": "other",
+    "label": "Treated Charles Woods burn patient",
+    "description": "Murray treated Charles Woods, a 22-year-old pilot with burns over 70% of his body, which ignited his lifelong passion for transplantation.",
+    "date": {
+      "display": "c. 1940s",
+      "precision": "decade",
+      "sort_start": "1940-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_murray",
+        "role": "subject"
+      },
+      {
+        "entity_id": "charles_woods",
+        "role": "patient"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 1,
+        "quote": "One such unfortunate individual was Charles Woods, a 22-year-old pilot who had sustained burns over 70% of his body, including his face and hands, while flying a fuel transport plane over India."
+      }
+    ]
+  },
+  {
+    "id": "murray_return_boston",
+    "event_type": "relocation",
+    "label": "Returned to Boston after the war",
+    "description": "After the war was over, Murray returned to Boston to continue training in plastic reconstructive surgery.",
+    "date": {
+      "display": "c. 1945",
+      "precision": "year",
+      "sort_start": "1945-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "location": "boston_massachusetts",
+    "participants": [
+      {
+        "entity_id": "joseph_murray",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 1,
+        "quote": "After the war was over, Murray returned to Boston to continue training in plastic reconstructive surgery, but increasingly began pursuing his transplant interests."
+      }
+    ]
+  },
+  {
+    "id": "murray_dog_experiments",
+    "event_type": "other",
+    "label": "Performed renal transplants on dogs",
+    "description": "Murray performed renal transplants on dogs to determine whether a transplanted kidney would function properly if immune rejection could be avoided.",
+    "date": {
+      "display": "c. 1950s",
+      "precision": "decade",
+      "sort_start": "1950-01-01",
+      "sort_end": "1954-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_murray",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 1,
+        "quote": "He performed renal transplants on dogs, which did not develop severe transplant rejections, unlike humans."
+      }
+    ]
+  },
+  {
+    "id": "murray_first_kidney_transplant",
+    "event_type": "invention",
+    "label": "First successful human kidney transplant",
+    "description": "Murray led the recipient's surgical team in the first successful kidney transplant between identical twins Richard and Ronald Herrick.",
+    "date": {
+      "display": "23 December 1954",
+      "precision": "day",
+      "sort_start": "1954-12-23",
+      "sort_end": "1954-12-23"
+    },
+    "location": "boston_massachusetts",
+    "participants": [
+      {
+        "entity_id": "joseph_murray",
+        "role": "subject"
+      },
+      {
+        "entity_id": "richard_herrick",
+        "role": "patient"
+      },
+      {
+        "entity_id": "ronald_herrick",
+        "role": "patient"
+      },
+      {
+        "entity_id": "j_hartwell_harrison",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "peter_bent_brigham_hospital",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 2,
+        "quote": "Surgery took place on 23 December 1954, with Murray leading the recipient's surgical team and Dr J Hartwell Harrison leading the donor's surgical team."
+      }
+    ]
+  },
+  {
+    "id": "murray_riteris_transplant",
+    "event_type": "invention",
+    "label": "Kidney transplant between non-identical twins",
+    "description": "Murray performed a kidney transplant between non-genetically identical twins using total body irradiation and bone marrow replacement; recipient John Riteris lived 29 years after.",
+    "date": {
+      "display": "c. 1954-1959",
+      "precision": "range",
+      "sort_start": "1954-01-01",
+      "sort_end": "1959-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_murray",
+        "role": "subject"
+      },
+      {
+        "entity_id": "john_riteris",
+        "role": "patient"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 2,
+        "quote": "He first used total body irradiation, followed by bone marrow replacement, which was initially successful in an operation between two non-genetically identical twins. The 24-year-old recipient, John Riteris, lived 29 years after the transplant."
+      }
+    ]
+  },
+  {
+    "id": "murray_azathioprine_breakthrough",
+    "event_type": "invention",
+    "label": "Breakthrough with azathioprine immunosuppression",
+    "description": "In 1959, a major breakthrough occurred when 6-mercaptopurine and later azathioprine were used to prevent transplant rejection.",
+    "date": {
+      "display": "1959",
+      "precision": "year",
+      "sort_start": "1959-01-01",
+      "sort_end": "1959-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_murray",
+        "role": "subject"
+      },
+      {
+        "entity_id": "robert_s_schwartz",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "william_dameshek",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "roy_calne",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 2,
+        "quote": "In 1959, a major breakthrough occurred when 6-mercaptopurine was used by Dr Robert S Schwartz and Dr William Dameshek to prevent antibody production in rabbits against human serum albumin."
+      }
+    ]
+  },
+  {
+    "id": "murray_first_unrelated_transplant",
+    "event_type": "invention",
+    "label": "First unrelated kidney transplant with immunosuppression",
+    "description": "In 1961, Murray performed the first unrelated kidney transplant in humans using immunosuppressive therapy.",
+    "date": {
+      "display": "1961",
+      "precision": "year",
+      "sort_start": "1961-01-01",
+      "sort_end": "1961-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_murray",
+        "role": "subject"
+      },
+      {
+        "entity_id": "mel_doucette",
+        "role": "patient"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 2,
+        "quote": "In 1961, Murray performed the first unrelated kidney transplant in humans using immunosuppressive therapy."
+      }
+    ]
+  },
+  {
+    "id": "murray_chief_transplant_surgery",
+    "event_type": "employment_end",
+    "label": "Stepped down as chief of transplant surgery",
+    "description": "Murray decided to step down as chief of transplant surgery at Peter Bent Brigham Hospital in 1971 to focus on paediatric reconstructive surgery.",
+    "date": {
+      "display": "1971",
+      "precision": "year",
+      "sort_start": "1971-01-01",
+      "sort_end": "1971-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_murray",
+        "role": "subject"
+      },
+      {
+        "entity_id": "peter_bent_brigham_hospital",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 2,
+        "quote": "In choosing between the two, he decided to step down as chief of transplant surgery at Peter Bent Brigham Hospital in 1971 to focus on paediatric reconstructive surgery, becoming the chief of plastic surgery at the Boston Children's Hospital Medical Center in Boston."
+      }
+    ]
+  },
+  {
+    "id": "murray_chief_plastic_surgery",
+    "event_type": "employment_start",
+    "label": "Became chief of plastic surgery at Boston Children's Hospital",
+    "description": "Murray became the chief of plastic surgery at the Boston Children's Hospital Medical Center in Boston in 1971.",
+    "date": {
+      "display": "1971",
+      "precision": "year",
+      "sort_start": "1971-01-01",
+      "sort_end": "1971-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_murray",
+        "role": "subject"
+      },
+      {
+        "entity_id": "boston_childrens_hospital",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 2,
+        "quote": "In choosing between the two, he decided to step down as chief of transplant surgery at Peter Bent Brigham Hospital in 1971 to focus on paediatric reconstructive surgery, becoming the chief of plastic surgery at the Boston Children's Hospital Medical Center in Boston."
+      }
+    ]
+  },
+  {
+    "id": "murray_stroke",
+    "event_type": "other",
+    "label": "Suffered a stroke",
+    "description": "In 1986, Murray suffered a stroke and, following a quick recovery, retired.",
+    "date": {
+      "display": "1986",
+      "precision": "year",
+      "sort_start": "1986-01-01",
+      "sort_end": "1986-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_murray",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 2,
+        "quote": "In 1986, Murray suffered a stroke and, following a quick recovery, retired to spend time with his wife, six children and many grandchildren."
+      }
+    ]
+  },
+  {
+    "id": "murray_retirement",
+    "event_type": "retirement",
+    "label": "Retired from medical practice",
+    "description": "Following his stroke recovery in 1986, Murray retired to spend time with his family.",
+    "date": {
+      "display": "1986",
+      "precision": "year",
+      "sort_start": "1986-01-01",
+      "sort_end": "1986-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_murray",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 2,
+        "quote": "In 1986, Murray suffered a stroke and, following a quick recovery, retired to spend time with his wife, six children and many grandchildren."
+      }
+    ]
+  },
+  {
+    "id": "murray_nobel_prize",
+    "event_type": "award",
+    "label": "Received Nobel Prize in Physiology or Medicine",
+    "description": "Murray received the Nobel Prize in Physiology or Medicine in 1990, together with Dr Edward Donnall Thomas, for his contributions to the advancement of transplantation medicine.",
+    "date": {
+      "display": "1990",
+      "precision": "year",
+      "sort_start": "1990-01-01",
+      "sort_end": "1990-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_murray",
+        "role": "subject"
+      },
+      {
+        "entity_id": "edward_donall_thomas",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "nobel_foundation",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "nobel_prize_1990",
+        "role": "award"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 2,
+        "quote": "To cap off his illustrious career, Murray received the Nobel prize in Physiology or Medicine in 1990, together with Dr Edward Donnall Thomas, for his contributions to the advancement of transplantation medicine."
+      }
+    ]
+  },
+  {
+    "id": "murray_autobiography",
+    "event_type": "publication",
+    "label": "Published autobiography Surgery of the Soul",
+    "description": "In 2001, Murray wrote his autobiography, Surgery of the Soul: Reflections on a Curious Career, which recounts his encounter with Charles Woods as well as other patients who had guided his career.",
+    "date": {
+      "display": "2001",
+      "precision": "year",
+      "sort_start": "2001-01-01",
+      "sort_end": "2001-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_murray",
+        "role": "subject"
+      },
+      {
+        "entity_id": "surgery_of_soul",
+        "role": "publication"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 2,
+        "quote": "In 2001, Murray wrote his autobiography, Surgery of the Soul: Reflections on a Curious Career, which recounts his encounter with Charles Woods as well as other patients who had guided his career."
+      }
+    ]
+  },
+  {
+    "id": "murray_death",
+    "event_type": "death",
+    "label": "Died",
+    "description": "Joseph Murray died in 2012, as indicated in the article title.",
+    "date": {
+      "display": "2012",
+      "precision": "year",
+      "sort_start": "2012-01-01",
+      "sort_end": "2012-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "joseph_murray",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_merchant_2019",
+        "page": 1,
+        "quote": "Joseph Murray (1919–2012): First transplant surgeon"
+      }
+    ]
+  }
+]

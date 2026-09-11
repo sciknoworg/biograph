@@ -1,0 +1,232 @@
+[
+  {
+    "aliases": [
+      "Rene Dubos",
+      "Rene´ Dubos",
+      "René Dubos"
+    ],
+    "entity_type": "person",
+    "id": "rene_dubos",
+    "name": "René Jules Dubos",
+    "subtype": "researcher",
+    "summary": "French-educated medical researcher and microbiologist known for discovering antibiotics and developing ecological concepts of infectious disease."
+  },
+  {
+    "aliases": [
+      "Rockefeller Institute",
+      "Rockefeller University"
+    ],
+    "entity_type": "organization",
+    "id": "rockefeller_institute",
+    "name": "Rockefeller Institute for Medical Research",
+    "subtype": "lab",
+    "summary": "Medical research institute in New York where Dubos conducted much of his career."
+  },
+  {
+    "aliases": [
+      "Harvard"
+    ],
+    "entity_type": "organization",
+    "id": "harvard_school_public_health",
+    "name": "Harvard School of Public Health",
+    "subtype": "university",
+    "summary": "University department where Dubos served as Professor of Comparative Pathology and Tropical Medicine."
+  },
+  {
+    "aliases": [
+      "Marie Louise"
+    ],
+    "entity_type": "person",
+    "id": "marie_louise_bonnet",
+    "name": "Marie Louise Bonnet",
+    "subtype": "family",
+    "summary": "Dubos's first wife who died of tuberculosis in 1942."
+  },
+  {
+    "aliases": [
+      "Jean Porter",
+      "Letha Jane Porter"
+    ],
+    "entity_type": "person",
+    "id": "jean_porter_dubos",
+    "name": "Jean Porter Dubos",
+    "subtype": "family",
+    "summary": "Dubos's second wife and co-author of The White Plague."
+  },
+  {
+    "aliases": [
+      "Frank J. Fenner"
+    ],
+    "entity_type": "person",
+    "id": "frank_fenner",
+    "name": "Frank Fenner",
+    "subtype": "researcher",
+    "summary": "Australian microbiologist and former laboratory assistant to Dubos."
+  },
+  {
+    "aliases": [
+      "F. M. Burnet",
+      "Burnet"
+    ],
+    "entity_type": "person",
+    "id": "frank_burnet",
+    "name": "Frank Macfarlane Burnet",
+    "subtype": "researcher",
+    "summary": "Australian medical researcher whose ecological ideas influenced Dubos."
+  },
+  {
+    "aliases": [
+      "O. T. Avery",
+      "Avery"
+    ],
+    "entity_type": "person",
+    "id": "oswald_avery",
+    "name": "Oswald Avery",
+    "subtype": "researcher",
+    "summary": "Biochemist and Dubos's mentor at the Rockefeller Institute."
+  },
+  {
+    "aliases": [
+      "Smith"
+    ],
+    "entity_type": "person",
+    "id": "theobald_smith",
+    "name": "Theobald Smith",
+    "subtype": "researcher",
+    "summary": "American veterinary pathologist whose ideas on host-parasite equilibrium influenced Dubos."
+  },
+  {
+    "aliases": [
+      "Winogradsky"
+    ],
+    "entity_type": "person",
+    "id": "sergei_winogradsky",
+    "name": "Sergei Winogradsky",
+    "subtype": "researcher",
+    "summary": "Russian soil microbiologist whose work inspired Dubos's ecological perspective."
+  },
+  {
+    "aliases": [
+      "Pasteur"
+    ],
+    "entity_type": "person",
+    "id": "louis_pasteur",
+    "name": "Louis Pasteur",
+    "subtype": "researcher",
+    "summary": "French microbiologist whose biography Dubos wrote and whose work he analyzed."
+  },
+  {
+    "aliases": [
+      "Bernard"
+    ],
+    "entity_type": "person",
+    "id": "claude_bernard",
+    "name": "Claude Bernard",
+    "subtype": "researcher",
+    "summary": "French physiologist whose concept of milieu interieur influenced Dubos."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "tyrothricin",
+    "name": "tyrothricin",
+    "subtype": "invention",
+    "summary": "Antibacterial substance isolated by Dubos in 1939."
+  },
+  {
+    "aliases": [
+      "Bacillus Calmette–Gue´rin"
+    ],
+    "entity_type": "artifact",
+    "id": "bcg_vaccine",
+    "name": "BCG vaccine",
+    "subtype": "product",
+    "summary": "Vaccine for tuberculosis studied by Dubos and Fenner."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "the_bacterial_cell",
+    "name": "The Bacterial Cell",
+    "subtype": "publication",
+    "summary": "Book by Dubos published in 1945 challenging notions of bacterial fixity."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "the_white_plague",
+    "name": "The White Plague",
+    "subtype": "publication",
+    "summary": "Historical study of tuberculosis co-written by Dubos and his wife."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "biochemical_determinants",
+    "name": "Biochemical Determinants of Microbial Diseases",
+    "subtype": "publication",
+    "summary": "Book by Dubos published in 1954 outlining his ecological ideas."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "trudeau_society",
+    "name": "Trudeau Society",
+    "subtype": "organization",
+    "summary": "Organization that awarded Dubos the Trudeau Society Medal."
+  },
+  {
+    "aliases": [
+      "SAB"
+    ],
+    "entity_type": "organization",
+    "id": "society_american_bacteriologists",
+    "name": "Society of American Bacteriologists",
+    "subtype": "organization",
+    "summary": "Professional organization where Dubos delivered key lectures."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United States",
+      "lat": 43.0,
+      "lng": -75.0,
+      "wikidata_qid": "Q1384",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "new_york",
+    "name": "New York",
+    "subtype": "city",
+    "summary": "City where the Rockefeller Institute and Society of American Bacteriologists were located."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United States",
+      "lat": 42.36028,
+      "lng": -71.05778,
+      "wikidata_qid": "Q100",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "boston",
+    "name": "Boston",
+    "subtype": "city",
+    "summary": "City where Harvard School of Public Health was located."
+  },
+  {
+    "aliases": [],
+    "entity_type": "place",
+    "id": "australia",
+    "name": "Australia",
+    "subtype": "country",
+    "summary": "Country where Frank Fenner conducted myxomatosis studies.",
+    "attributes": {
+      "lat": -25.0,
+      "lng": 133.0,
+      "wikidata_qid": "Q408",
+      "geocode_basis": "most_linked"
+    }
+  }
+]

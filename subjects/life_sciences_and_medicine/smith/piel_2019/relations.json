@@ -1,0 +1,135 @@
+[
+  {
+    "id": "jms_studied_cambridge",
+    "source": "john_maynard_smith",
+    "type": "studied_at",
+    "target": "university_of_cambridge",
+    "sources": [
+      {
+        "source_id": "piel_2019",
+        "page": 2,
+        "quote": "he had a degree from Cambridge"
+      }
+    ]
+  },
+  {
+    "id": "jms_studied_ucl",
+    "source": "john_maynard_smith",
+    "type": "studied_at",
+    "target": "university_college_london",
+    "sources": [
+      {
+        "source_id": "piel_2019",
+        "page": 2,
+        "quote": "read zoology at University College London"
+      }
+    ]
+  },
+  {
+    "id": "jms_supervised_haldane",
+    "source": "john_maynard_smith",
+    "type": "supervised_by",
+    "target": "jbs_haldane",
+    "sources": [
+      {
+        "source_id": "piel_2019",
+        "page": 2,
+        "quote": "under J.B.S. Haldane"
+      }
+    ]
+  },
+  {
+    "id": "jms_worked_sussex",
+    "source": "john_maynard_smith",
+    "type": "worked_at",
+    "target": "university_of_sussex",
+    "sources": [
+      {
+        "source_id": "piel_2019",
+        "page": 2,
+        "quote": "The majority of his career was spent at the University of Sussex's School of Biological Sciences"
+      }
+    ]
+  },
+  {
+    "id": "jms_published_theory",
+    "source": "john_maynard_smith",
+    "type": "published",
+    "target": "the_theory_of_evolution",
+    "event_id": "jms_theory_book",
+    "sources": [
+      {
+        "source_id": "piel_2019",
+        "page": 3,
+        "quote": "The Theory of Evolution (Penguin 1958)"
+      }
+    ]
+  },
+  {
+    "id": "jms_published_birds",
+    "source": "john_maynard_smith",
+    "type": "published",
+    "target": "birds_as_aeroplanes",
+    "event_id": "jms_birds_article",
+    "sources": [
+      {
+        "source_id": "piel_2019",
+        "page": 2,
+        "quote": "\"Birds as aeroplanes\" (1953)."
+      }
+    ]
+  },
+  {
+    "id": "jms_awarded_crafoord",
+    "source": "john_maynard_smith",
+    "type": "awarded",
+    "target": "crafoord_prize",
+    "event_id": "jms_crafoord",
+    "sources": [
+      {
+        "source_id": "piel_2019",
+        "page": 2,
+        "quote": "winner of, inter alia, the Crafoord Prize"
+      }
+    ]
+  },
+  {
+    "id": "jms_collaborated_davis",
+    "source": "john_maynard_smith",
+    "type": "collaborated_with",
+    "target": "m_j_davis",
+    "sources": [
+      {
+        "source_id": "piel_2019",
+        "page": 2,
+        "quote": "research conducted earlier with a fellow undergraduate student, M. J. Davis"
+      }
+    ]
+  },
+  {
+    "id": "jms_collaborated_harper",
+    "source": "john_maynard_smith",
+    "type": "collaborated_with",
+    "target": "david_harper",
+    "sources": [
+      {
+        "source_id": "piel_2019",
+        "page": 2,
+        "quote": "Animal Signals (co-authored with David Harper)"
+      }
+    ]
+  },
+  {
+    "id": "lack_mentored_jms",
+    "source": "david_lack",
+    "type": "mentored",
+    "target": "john_maynard_smith",
+    "sources": [
+      {
+        "source_id": "piel_2019",
+        "page": 2,
+        "quote": "David Lack of Oxford University arranged its publication after hearing Maynard Smith talk"
+      }
+    ]
+  }
+]

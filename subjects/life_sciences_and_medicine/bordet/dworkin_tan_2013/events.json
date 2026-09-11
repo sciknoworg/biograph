@@ -1,0 +1,321 @@
+[
+  {
+    "id": "birth",
+    "event_type": "birth",
+    "label": "Born in Soignies",
+    "date": {
+      "display": "1870",
+      "precision": "year",
+      "sort_start": "1870-01-01",
+      "sort_end": "1870-12-31"
+    },
+    "location": "soignies",
+    "participants": [
+      {
+        "entity_id": "jules_bordet",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dworkin_tan_2013",
+        "page": 1,
+        "quote": "Jules Bordet was born in 1870 in  \nSoignies, a small town in Belgium."
+      }
+    ]
+  },
+  {
+    "id": "family_move",
+    "event_type": "relocation",
+    "label": "Family moved to Brussels",
+    "date": {
+      "display": "1874",
+      "precision": "year",
+      "sort_start": "1874-01-01",
+      "sort_end": "1874-12-31"
+    },
+    "location": "brussels",
+    "participants": [
+      {
+        "entity_id": "jules_bordet",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dworkin_tan_2013",
+        "page": 1,
+        "quote": "In 1874, his family moved to  \nBrussels, and he attended a primary school in the Ecole  \nMoyenne, where his father taught."
+      }
+    ]
+  },
+  {
+    "id": "medical_school_enrollment",
+    "event_type": "education",
+    "label": "Enrolled in medical school",
+    "date": {
+      "display": "1886",
+      "precision": "year",
+      "sort_start": "1886-01-01",
+      "sort_end": "1886-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jules_bordet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "free_university_brussels",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dworkin_tan_2013",
+        "page": 1,
+        "quote": "at the age of sixteen, he  \nenrolled into medical school at the Free University of Brussels."
+      }
+    ]
+  },
+  {
+    "id": "pasteur_institute_start",
+    "event_type": "employment_start",
+    "label": "Began work at Pasteur Institute",
+    "date": {
+      "display": "1894",
+      "precision": "year",
+      "sort_start": "1894-01-01",
+      "sort_end": "1894-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jules_bordet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "pasteur_institute_paris",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dworkin_tan_2013",
+        "page": 1,
+        "quote": "Bordet began work at the Pasteur Institute in 1894, and  "
+      }
+    ]
+  },
+  {
+    "id": "complement_publication",
+    "event_type": "publication",
+    "label": "Published findings on complement",
+    "date": {
+      "display": "1895",
+      "precision": "year",
+      "sort_start": "1895-01-01",
+      "sort_end": "1895-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jules_bordet",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dworkin_tan_2013",
+        "page": 1,
+        "quote": "His first contribution,  \npublished in 1895, was an answer to earlier work  \ndone by Richard Pfeiffer."
+      }
+    ]
+  },
+  {
+    "id": "complement_fixation_test",
+    "event_type": "invention",
+    "label": "Developed complement fixation test",
+    "date": {
+      "display": "1901",
+      "precision": "year",
+      "sort_start": "1901-01-01",
+      "sort_end": "1901-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jules_bordet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "octave_gengou",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dworkin_tan_2013",
+        "page": 2,
+        "quote": "Bordet's next major contribution came in 1901 when,  \nalongside Octave Gengou, he developed the complement  \nfixation test."
+      }
+    ]
+  },
+  {
+    "id": "return_to_brussels",
+    "event_type": "relocation",
+    "label": "Returned to Brussels",
+    "date": {
+      "display": "1901",
+      "precision": "year",
+      "sort_start": "1901-01-01",
+      "sort_end": "1901-12-31"
+    },
+    "location": "brussels",
+    "participants": [
+      {
+        "entity_id": "jules_bordet",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dworkin_tan_2013",
+        "page": 2,
+        "quote": "Bordet returned to Brussels in 1901, destined to become the  \nleading scientific light in his home country."
+      }
+    ]
+  },
+  {
+    "id": "pertussis_culture",
+    "event_type": "invention",
+    "label": "Cultured Bordetella pertussis",
+    "date": {
+      "display": "1906",
+      "precision": "year",
+      "sort_start": "1906-01-01",
+      "sort_end": "1906-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jules_bordet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "octave_gengou",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dworkin_tan_2013",
+        "page": 2,
+        "quote": "In 1906,  \nworking again with Gengou, he cultured the organism  \nresponsible for causing whooping cough in children"
+      }
+    ]
+  },
+  {
+    "id": "teaching_start",
+    "event_type": "employment_start",
+    "label": "Began teaching at Free University",
+    "date": {
+      "display": "1907",
+      "precision": "year",
+      "sort_start": "1907-01-01",
+      "sort_end": "1907-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jules_bordet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "free_university_brussels",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dworkin_tan_2013",
+        "page": 2,
+        "quote": "after 1907, teaching at the Free University."
+      }
+    ]
+  },
+  {
+    "id": "nobel_prize",
+    "event_type": "award",
+    "label": "Awarded Nobel Prize",
+    "date": {
+      "display": "1919",
+      "precision": "year",
+      "sort_start": "1919-01-01",
+      "sort_end": "1919-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jules_bordet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize_medicine_1919",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dworkin_tan_2013",
+        "page": 2,
+        "quote": "It was in  \n1919, while travelling in the United States to raise money for  \nwar-damaged Brussels, that Bordet received word that he was  \nawarded the Nobel Prize."
+      }
+    ]
+  },
+  {
+    "id": "league_of_nations_lobbying",
+    "event_type": "other",
+    "label": "Lobbied League of Nations",
+    "date": {
+      "display": "1924",
+      "precision": "year",
+      "sort_start": "1924-01-01",
+      "sort_end": "1924-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jules_bordet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "league_of_nations",
+        "role": "target"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dworkin_tan_2013",
+        "page": 2,
+        "quote": "In 1924, Bordet joined a group of  \nscientists in lobbying the League of Nations regarding the  \ndangers of poison gas use in future wars."
+      }
+    ]
+  },
+  {
+    "id": "death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1961",
+      "precision": "year",
+      "sort_start": "1961-01-01",
+      "sort_end": "1961-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jules_bordet",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dworkin_tan_2013",
+        "page": 2,
+        "quote": "Between the end of  \nthe war and his death in 1961, Bordet's eyesight deteriorated  \nand his ability to perform original research declined."
+      }
+    ]
+  }
+]

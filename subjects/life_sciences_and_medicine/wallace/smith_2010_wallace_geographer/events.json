@@ -1,0 +1,613 @@
+[
+  {
+    "id": "wallace_birth",
+    "event_type": "birth",
+    "label": "Born in Usk, Monmouthshire",
+    "date": {
+      "display": "8 January 1823",
+      "precision": "day",
+      "sort_start": "1823-01-08",
+      "sort_end": "1823-01-08"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      }
+    ],
+    "location": "usk_monmouthshire",
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 398,
+        "quote": "Born 8 January 1823 at Usk, Monmouthshire"
+      }
+    ]
+  },
+  {
+    "id": "wallace_left_school",
+    "event_type": "education",
+    "label": "Forced to leave school",
+    "date": {
+      "display": "December 1836",
+      "precision": "month",
+      "sort_start": "1836-12-01",
+      "sort_end": "1836-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 398,
+        "quote": "Dec. 1836: forced to leave school"
+      }
+    ]
+  },
+  {
+    "id": "wallace_apprenticed",
+    "event_type": "employment_start",
+    "label": "Apprenticed as surveyor",
+    "date": {
+      "display": "Summer 1837",
+      "precision": "season",
+      "sort_start": "1837-06-01",
+      "sort_end": "1837-08-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 398,
+        "quote": "Summer 1837: apprenticed as surveyor to an older brother"
+      }
+    ]
+  },
+  {
+    "id": "wallace_amazon_depart",
+    "event_type": "visit",
+    "label": "Left for the Amazon",
+    "date": {
+      "display": "April 1848",
+      "precision": "month",
+      "sort_start": "1848-04-01",
+      "sort_end": "1848-04-30"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      },
+      {
+        "entity_id": "henry_walter_bates",
+        "role": "collaborator"
+      }
+    ],
+    "location": "amazon_basin",
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 398,
+        "quote": "April 1848: leaves for the Amazon"
+      }
+    ]
+  },
+  {
+    "id": "wallace_amazon_return",
+    "event_type": "relocation",
+    "label": "Returned to England from Amazon",
+    "date": {
+      "display": "October 1852",
+      "precision": "month",
+      "sort_start": "1852-10-01",
+      "sort_end": "1852-10-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      }
+    ],
+    "location": "england",
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 388,
+        "quote": "On October 1, 1852 a bedraggled young naturalist named Alfred Russel Wallace... stepped off the merchant vessel Jordeson at Deal"
+      },
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 398,
+        "quote": "Oct. 1852: returns to England"
+      }
+    ]
+  },
+  {
+    "id": "wallace_malay_depart",
+    "event_type": "visit",
+    "label": "Left for the Malay Archipelago",
+    "date": {
+      "display": "February 1854",
+      "precision": "month",
+      "sort_start": "1854-02-01",
+      "sort_end": "1854-02-28"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      }
+    ],
+    "location": "malay_archipelago",
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 398,
+        "quote": "Feb. 1854: leaves for the Malay Archipelago"
+      }
+    ]
+  },
+  {
+    "id": "wallace_sarawak_law",
+    "event_type": "publication",
+    "label": "Published 'On the law which has regulated...'",
+    "date": {
+      "display": "September 1855",
+      "precision": "month",
+      "sort_start": "1855-09-01",
+      "sort_end": "1855-09-30"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ternate_essay",
+        "role": "invention"
+      }
+    ],
+    "location": "sarawak",
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 398,
+        "quote": "Sept. 1855: publishes \"On the law which has regulated…\""
+      }
+    ]
+  },
+  {
+    "id": "wallace_linnean_reading",
+    "event_type": "conference",
+    "label": "Natural selection essay read at Linnean Society",
+    "date": {
+      "display": "1 July 1858",
+      "precision": "day",
+      "sort_start": "1858-07-01",
+      "sort_end": "1858-07-01"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      },
+      {
+        "entity_id": "charles_darwin",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "linnean_society_of_london",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 390,
+        "quote": "this took place on July 1. 1858"
+      },
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 398,
+        "quote": "1 July 1858: \"On the tendency of varieties…\" read to the Linnean Society"
+      }
+    ]
+  },
+  {
+    "id": "wallace_origin_published",
+    "event_type": "publication",
+    "label": "Darwin's On the Origin of Species published",
+    "date": {
+      "display": "November 1859",
+      "precision": "month",
+      "sort_start": "1859-11-01",
+      "sort_end": "1859-11-30"
+    },
+    "participants": [
+      {
+        "entity_id": "charles_darwin",
+        "role": "subject"
+      },
+      {
+        "entity_id": "origin_of_species",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 390,
+        "quote": "This was released to great acclaim in November 1859"
+      },
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 398,
+        "quote": "Nov. 1859: Darwin's On the Origin of Species published"
+      }
+    ]
+  },
+  {
+    "id": "wallace_england_return_1862",
+    "event_type": "relocation",
+    "label": "Returned to England from East",
+    "date": {
+      "display": "April 1862",
+      "precision": "month",
+      "sort_start": "1862-04-01",
+      "sort_end": "1862-04-30"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      }
+    ],
+    "location": "england",
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 398,
+        "quote": "April 1862: returns to England"
+      }
+    ]
+  },
+  {
+    "id": "wallace_marriage",
+    "event_type": "other",
+    "label": "Married Annie Mitten",
+    "date": {
+      "display": "April 1866",
+      "precision": "month",
+      "sort_start": "1866-04-01",
+      "sort_end": "1866-04-30"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      },
+      {
+        "entity_id": "annie_mitten",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 398,
+        "quote": "April 1866: marries Annie Mitten"
+      }
+    ]
+  },
+  {
+    "id": "wallace_bedford_experiment",
+    "event_type": "public_demonstration",
+    "label": "Bedford Canal Experiment",
+    "date": {
+      "display": "March 1870",
+      "precision": "month",
+      "sort_start": "1870-03-01",
+      "sort_end": "1870-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      }
+    ],
+    "location": "bedford_canal",
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 398,
+        "quote": "March 1870: Bedford Canal Experiment"
+      }
+    ]
+  },
+  {
+    "id": "wallace_geo_dist_animals",
+    "event_type": "publication",
+    "label": "Published The Geographical Distribution of Animals",
+    "date": {
+      "display": "May 1876",
+      "precision": "month",
+      "sort_start": "1876-05-01",
+      "sort_end": "1876-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      },
+      {
+        "entity_id": "geographical_distribution_animals",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 398,
+        "quote": "May 1876: publishes The Geographical Distribution of Animals"
+      }
+    ]
+  },
+  {
+    "id": "wallace_tropical_nature",
+    "event_type": "publication",
+    "label": "Published Tropical Nature and Other Essays",
+    "date": {
+      "display": "April 1878",
+      "precision": "month",
+      "sort_start": "1878-04-01",
+      "sort_end": "1878-04-30"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      },
+      {
+        "entity_id": "tropical_nature",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 398,
+        "quote": "April 1878: publishes Tropical Nature and Other Essays"
+      }
+    ]
+  },
+  {
+    "id": "wallace_island_life",
+    "event_type": "publication",
+    "label": "Published Island Life",
+    "date": {
+      "display": "October 1880",
+      "precision": "month",
+      "sort_start": "1880-10-01",
+      "sort_end": "1880-10-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      },
+      {
+        "entity_id": "island_life",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 398,
+        "quote": "Oct. 1880: publishes Island Life"
+      }
+    ]
+  },
+  {
+    "id": "wallace_land_soc_president",
+    "event_type": "role_change",
+    "label": "Made president of Land Nationalisation Society",
+    "date": {
+      "display": "1880",
+      "precision": "year",
+      "sort_start": "1880-01-01",
+      "sort_end": "1880-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      },
+      {
+        "entity_id": "land_nationalisation_society",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 397,
+        "quote": "In 1880, he was made the first president of the Land Nationalisation Society"
+      }
+    ]
+  },
+  {
+    "id": "wallace_darwinism",
+    "event_type": "publication",
+    "label": "Published Darwinism",
+    "date": {
+      "display": "May 1889",
+      "precision": "month",
+      "sort_start": "1889-05-01",
+      "sort_end": "1889-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      },
+      {
+        "entity_id": "darwinism_book",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 398,
+        "quote": "May 1889: publishes Darwinism"
+      }
+    ]
+  },
+  {
+    "id": "wallace_wonderful_century",
+    "event_type": "publication",
+    "label": "Published The Wonderful Century",
+    "date": {
+      "display": "1898",
+      "precision": "year",
+      "sort_start": "1898-01-01",
+      "sort_end": "1898-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      },
+      {
+        "entity_id": "wonderful_century",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 396,
+        "quote": "In 1898, Wallace authored a book called The Wonderful Century"
+      }
+    ]
+  },
+  {
+    "id": "wallace_man_place_universe",
+    "event_type": "publication",
+    "label": "Published Man's Place in the Universe",
+    "date": {
+      "display": "October 1903",
+      "precision": "month",
+      "sort_start": "1903-10-01",
+      "sort_end": "1903-10-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      },
+      {
+        "entity_id": "man_place_universe",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 398,
+        "quote": "Oct. 1903: publishes Man's Place in the Universe"
+      }
+    ]
+  },
+  {
+    "id": "wallace_mars_habitable",
+    "event_type": "publication",
+    "label": "Published Is Mars Habitable?",
+    "date": {
+      "display": "December 1907",
+      "precision": "month",
+      "sort_start": "1907-12-01",
+      "sort_end": "1907-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      },
+      {
+        "entity_id": "is_mars_habitable",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 398,
+        "quote": "Dec. 1907: publishes Is Mars Habitable?"
+      }
+    ]
+  },
+  {
+    "id": "wallace_world_of_life",
+    "event_type": "publication",
+    "label": "Published The World of Life",
+    "date": {
+      "display": "December 1910",
+      "precision": "month",
+      "sort_start": "1910-12-01",
+      "sort_end": "1910-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      },
+      {
+        "entity_id": "world_of_life",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 398,
+        "quote": "Dec. 1910: publishes The World of Life"
+      }
+    ]
+  },
+  {
+    "id": "wallace_death",
+    "event_type": "death",
+    "label": "Died at Broadstone, Dorset",
+    "date": {
+      "display": "7 November 1913",
+      "precision": "day",
+      "sort_start": "1913-11-07",
+      "sort_end": "1913-11-07"
+    },
+    "participants": [
+      {
+        "entity_id": "alfred_russel_wallace",
+        "role": "subject"
+      }
+    ],
+    "location": "broadstone_dorset",
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 398,
+        "quote": "Dies 7 November 1913 at Broadstone, Dorset"
+      }
+    ]
+  }
+]

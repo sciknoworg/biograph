@@ -1,0 +1,509 @@
+[
+  {
+    "id": "birth",
+    "event_type": "birth",
+    "label": "Born in Kumamoto",
+    "date": {
+      "display": "1853",
+      "precision": "year",
+      "sort_start": "1853-01-01",
+      "sort_end": "1853-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "shibasaburo_kitasato",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 1,
+        "quote": "Shibasaburo Kitasato (1853-1931), a pivotal figure in modern Japanese medicine, made groundbreaking contributions to bacteriology and immunology."
+      }
+    ]
+  },
+  {
+    "id": "move_to_tokyo",
+    "event_type": "relocation",
+    "label": "Moved to Tokyo",
+    "date": {
+      "display": "1874",
+      "precision": "year",
+      "sort_start": "1874-01-01",
+      "sort_end": "1874-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "shibasaburo_kitasato",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 2,
+        "quote": "In 1874, Kitasato moved to Tokyo to study at the Tokyo Medical School (later the Faculty of Medicine, University of Tokyo)"
+      }
+    ]
+  },
+  {
+    "id": "employed_ministry",
+    "event_type": "employment_start",
+    "label": "Employed by Ministry of Home Affairs",
+    "date": {
+      "display": "1885",
+      "precision": "year",
+      "sort_start": "1885-01-01",
+      "sort_end": "1885-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "shibasaburo_kitasato",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ministry_of_home_affairs",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 2,
+        "quote": "In 1885, after being employed by the Ministry of Home Affairs, Kitasato was sent to Germany on a government scholarship to study under the world-renowned bacteriologist, Robert Koch"
+      }
+    ]
+  },
+  {
+    "id": "sent_to_germany",
+    "event_type": "visit",
+    "label": "Sent to Germany",
+    "date": {
+      "display": "1885",
+      "precision": "year",
+      "sort_start": "1885-01-01",
+      "sort_end": "1885-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "shibasaburo_kitasato",
+        "role": "subject"
+      }
+    ],
+    "location": "germany",
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 2,
+        "quote": "In 1885, after being employed by the Ministry of Home Affairs, Kitasato was sent to Germany on a government scholarship to study under the world-renowned bacteriologist, Robert Koch"
+      }
+    ]
+  },
+  {
+    "id": "tetanus_cultivation",
+    "event_type": "invention",
+    "label": "Pure cultivation of tetanus bacillus",
+    "date": {
+      "display": "1889",
+      "precision": "year",
+      "sort_start": "1889-01-01",
+      "sort_end": "1889-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "shibasaburo_kitasato",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 2,
+        "quote": "Kitasato's most significant achievement came in 1889 when he succeeded in the first pure cultivation of the tetanus bacillus"
+      }
+    ]
+  },
+  {
+    "id": "published_anaerobes",
+    "event_type": "publication",
+    "label": "Published Zur Kenntniss der Anaëroben",
+    "date": {
+      "display": "1890",
+      "precision": "year",
+      "sort_start": "1890-01-01",
+      "sort_end": "1890-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "shibasaburo_kitasato",
+        "role": "subject"
+      },
+      {
+        "entity_id": "zur_kenntniss_der_anaeroben",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 2,
+        "quote": "In 1890, Kitasato published a seminal paper titled \"Zur Kenntniss der Anaëroben\" (\"Knowledge of Anaerobes\") in Germany"
+      }
+    ]
+  },
+  {
+    "id": "published_immunity",
+    "event_type": "publication",
+    "label": "Published diphtheria and tetanus immunity paper",
+    "date": {
+      "display": "1890",
+      "precision": "year",
+      "sort_start": "1890-01-01",
+      "sort_end": "1890-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "shibasaburo_kitasato",
+        "role": "subject"
+      },
+      {
+        "entity_id": "emil_von_behring",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "diphtheria_tetanus_immunity_paper",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 2,
+        "quote": "In collaboration with Emil von Behring, Kitasato published a groundbreaking paper on diphtheria and tetanus immunity in animals"
+      }
+    ]
+  },
+  {
+    "id": "published_tetanus_toxin",
+    "event_type": "publication",
+    "label": "Published tetanus toxin paper",
+    "date": {
+      "display": "1891",
+      "precision": "year",
+      "sort_start": "1891-01-01",
+      "sort_end": "1891-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "shibasaburo_kitasato",
+        "role": "subject"
+      },
+      {
+        "entity_id": "tetanus_toxin_paper",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 3,
+        "quote": "Kitasato further expanded on this research with his comprehensive study on the tetanus toxin, \"Experimentelle Untersuchungen über das Tetanusgift\" (Experimental investigations on the tetanus toxin), published in 1891"
+      }
+    ]
+  },
+  {
+    "id": "return_to_japan",
+    "event_type": "relocation",
+    "label": "Returned to Japan",
+    "date": {
+      "display": "1892",
+      "precision": "year",
+      "sort_start": "1892-01-01",
+      "sort_end": "1892-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "shibasaburo_kitasato",
+        "role": "subject"
+      }
+    ],
+    "location": "japan",
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 3,
+        "quote": "Upon returning to Japan in 1892, Kitasato, with the support of Yukichi Fukuzawa, established a private Infectious Disease Research Institute"
+      }
+    ]
+  },
+  {
+    "id": "founded_institute",
+    "event_type": "company_founded",
+    "label": "Established Infectious Disease Research Institute",
+    "date": {
+      "display": "1892",
+      "precision": "year",
+      "sort_start": "1892-01-01",
+      "sort_end": "1892-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "shibasaburo_kitasato",
+        "role": "subject"
+      },
+      {
+        "entity_id": "infectious_disease_research_institute",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 3,
+        "quote": "Upon returning to Japan in 1892, Kitasato, with the support of Yukichi Fukuzawa, established a private Infectious Disease Research Institute"
+      }
+    ]
+  },
+  {
+    "id": "founded_sanatorium",
+    "event_type": "company_founded",
+    "label": "Founded Tsukushioka Sanatorium",
+    "date": {
+      "display": "1893",
+      "precision": "year",
+      "sort_start": "1893-01-01",
+      "sort_end": "1893-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "shibasaburo_kitasato",
+        "role": "subject"
+      },
+      {
+        "entity_id": "tsukushioka_sanatorium",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 3,
+        "quote": "The following year, Kitasato founded Tsukushioka Sanatorium, a hospital specializing in tuberculosis treatment"
+      }
+    ]
+  },
+  {
+    "id": "hong_kong_plague",
+    "event_type": "visit",
+    "label": "Researched plague in Hong Kong",
+    "date": {
+      "display": "1894",
+      "precision": "year",
+      "sort_start": "1894-01-01",
+      "sort_end": "1894-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "shibasaburo_kitasato",
+        "role": "subject"
+      }
+    ],
+    "location": "hong_kong",
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 3,
+        "quote": "The discovery of the plague bacillus during the 1894 Hong Kong plague outbreak is surrounded by controversy."
+      }
+    ]
+  },
+  {
+    "id": "published_plague",
+    "event_type": "publication",
+    "label": "Published plague bacillus paper",
+    "date": {
+      "display": "1894",
+      "precision": "year",
+      "sort_start": "1894-01-01",
+      "sort_end": "1894-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "shibasaburo_kitasato",
+        "role": "subject"
+      },
+      {
+        "entity_id": "plague_bacillus_paper",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 3,
+        "quote": "He successfully identified a bacterium in the blood of plague victims and initially claimed to have discovered the plague-causing organism, publishing his findings in the Lancet"
+      }
+    ]
+  },
+  {
+    "id": "institute_gov_control",
+    "event_type": "role_change",
+    "label": "Institute came under government control",
+    "date": {
+      "display": "1914",
+      "precision": "year",
+      "sort_start": "1914-01-01",
+      "sort_end": "1914-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "infectious_disease_research_institute",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 4,
+        "quote": "When the Institute for Infectious Diseases came under government control in 1914, Kitasato, determined to uphold his founding principles, established the Kitasato Institute"
+      }
+    ]
+  },
+  {
+    "id": "founded_kitasato_institute",
+    "event_type": "company_founded",
+    "label": "Established Kitasato Institute",
+    "date": {
+      "display": "1914",
+      "precision": "year",
+      "sort_start": "1914-01-01",
+      "sort_end": "1914-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "shibasaburo_kitasato",
+        "role": "subject"
+      },
+      {
+        "entity_id": "kitasato_institute",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 4,
+        "quote": "When the Institute for Infectious Diseases came under government control in 1914, Kitasato, determined to uphold his founding principles, established the Kitasato Institute"
+      }
+    ]
+  },
+  {
+    "id": "president_jma",
+    "event_type": "role_change",
+    "label": "Became president of Japan Medical Association",
+    "date": {
+      "display": "1916",
+      "precision": "year",
+      "sort_start": "1916-01-01",
+      "sort_end": "1916-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "shibasaburo_kitasato",
+        "role": "subject"
+      },
+      {
+        "entity_id": "japan_medical_association",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 4,
+        "quote": "His influence extended to the realm of medical policy and administration when he became the first president of the Japan Medical Association (then known as the Greater Japan Medical Association) in 1916"
+      }
+    ]
+  },
+  {
+    "id": "founded_keio_med",
+    "event_type": "company_founded",
+    "label": "Founded Keio University School of Medicine",
+    "date": {
+      "display": "1917",
+      "precision": "year",
+      "sort_start": "1917-01-01",
+      "sort_end": "1917-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "shibasaburo_kitasato",
+        "role": "subject"
+      },
+      {
+        "entity_id": "keio_university_school_of_medicine",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 4,
+        "quote": "His commitment to medical education culminated in the founding of Keio University School of Medicine in 1917, where he served as the first dean"
+      }
+    ]
+  },
+  {
+    "id": "death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1931",
+      "precision": "year",
+      "sort_start": "1931-01-01",
+      "sort_end": "1931-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "shibasaburo_kitasato",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 1,
+        "quote": "Shibasaburo Kitasato (1853-1931), a pivotal figure in modern Japanese medicine, made groundbreaking contributions to bacteriology and immunology."
+      }
+    ]
+  },
+  {
+    "id": "banknote_commemoration",
+    "event_type": "other",
+    "label": "Portrait on 1000-yen banknote",
+    "date": {
+      "display": "2024",
+      "precision": "year",
+      "sort_start": "2024-01-01",
+      "sort_end": "2024-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "shibasaburo_kitasato",
+        "role": "subject"
+      },
+      {
+        "entity_id": "x_1000_yen_banknote",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "okui_2024",
+        "page": 1,
+        "quote": "Kitasato's legacy, commemorated on the new 1000-yen banknote in 2024, continues to serve as an inspiration for contemporary medical professionals worldwide."
+      }
+    ]
+  }
+]

@@ -1,0 +1,287 @@
+[
+  {
+    "id": "max_theiler",
+    "entity_type": "person",
+    "name": "Max Theiler",
+    "aliases": [
+      "Max Theiler 1899-1972"
+    ],
+    "summary": "Virologist known for yellow fever vaccine and arthropod-borne virus research.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "arnold_theiler",
+    "entity_type": "person",
+    "name": "Arnold Theiler",
+    "aliases": [
+      "Sir Arnold"
+    ],
+    "summary": "Father of Max Theiler, astute father and scientist.",
+    "subtype": "person"
+  },
+  {
+    "id": "emma_jegge",
+    "entity_type": "person",
+    "name": "Emma Jegge",
+    "summary": "Mother of Max Theiler.",
+    "subtype": "person"
+  },
+  {
+    "id": "lillian_graham",
+    "entity_type": "person",
+    "name": "Lillian Graham",
+    "summary": "Wife of Max Theiler.",
+    "subtype": "person"
+  },
+  {
+    "id": "arnold_theiler_jr",
+    "entity_type": "person",
+    "name": "Arnold",
+    "summary": "Son of Max Theiler, died in motor accident.",
+    "subtype": "person"
+  },
+  {
+    "id": "elizabeth_theiler",
+    "entity_type": "person",
+    "name": "Elizabeth",
+    "summary": "Daughter of Max Theiler.",
+    "subtype": "person"
+  },
+  {
+    "id": "andrew_sellards",
+    "entity_type": "person",
+    "name": "Andrew Sellards",
+    "aliases": [
+      "Dr. Andrew Sellards",
+      "Sellards"
+    ],
+    "summary": "Bacteriologist, colleague of Max Theiler.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "william_sawyer",
+    "entity_type": "person",
+    "name": "William Sawyer",
+    "aliases": [
+      "Sawyer"
+    ],
+    "summary": "Colleague at Rockefeller Foundation, retired 1944.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "o_teague",
+    "entity_type": "person",
+    "name": "O. Teague",
+    "aliases": [
+      "Dr. O. Teague"
+    ],
+    "summary": "Harvard Medical School attendee, offered Theiler appointment.",
+    "subtype": "person"
+  },
+  {
+    "id": "r_strong",
+    "entity_type": "person",
+    "name": "R. Strong",
+    "summary": "Leader of Harvard sponsored African expedition.",
+    "subtype": "person"
+  },
+  {
+    "id": "smith",
+    "entity_type": "person",
+    "name": "Smith",
+    "summary": "Co-reporter on 17D strain attenuation.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "wg_downs",
+    "entity_type": "person",
+    "name": "W.G. Downs",
+    "summary": "Co-author of 1971 publication.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "rockefeller_foundation",
+    "entity_type": "organization",
+    "name": "Rockefeller Foundation",
+    "aliases": [
+      "Rockefeller International Health Board",
+      "the Foundation"
+    ],
+    "summary": "Organization where Theiler worked on yellow fever.",
+    "subtype": "organization"
+  },
+  {
+    "id": "harvard_medical_school",
+    "entity_type": "organization",
+    "name": "Harvard Medical School",
+    "summary": "Medical school attended by O. Teague.",
+    "subtype": "university"
+  },
+  {
+    "id": "st_thomas_london",
+    "entity_type": "organization",
+    "name": "St. Thomas London",
+    "aliases": [
+      "St. Thomas Hospital"
+    ],
+    "summary": "Hospital where Theiler qualified as licensed practitioner.",
+    "subtype": "organization"
+  },
+  {
+    "id": "london_school_tropical_medicine",
+    "entity_type": "organization",
+    "name": "London School of Tropical Medicine",
+    "summary": "School where Theiler took course in tropical medicine.",
+    "subtype": "university"
+  },
+  {
+    "id": "yale_university",
+    "entity_type": "organization",
+    "name": "Yale University",
+    "aliases": [
+      "University"
+    ],
+    "summary": "University where Theiler became Professor of Epidemiology.",
+    "subtype": "university"
+  },
+  {
+    "id": "nobel_prize",
+    "entity_type": "artifact",
+    "name": "Nobel Prize for Physiology and Medicine",
+    "summary": "Award received by Theiler in 1951.",
+    "subtype": "award"
+  },
+  {
+    "id": "x_17d_strain",
+    "entity_type": "artifact",
+    "name": "17D strain",
+    "summary": "Attenuated yellow fever virus vaccine developed by Theiler.",
+    "subtype": "product"
+  },
+  {
+    "id": "daspoort",
+    "entity_type": "place",
+    "name": "Daspoort",
+    "attributes": {
+      "country": "South Africa",
+      "district": "Pretoria",
+      "region": "Transvaal",
+      "lat": -25.71504,
+      "lng": 28.16573,
+      "wikidata_qid": "Q124425105",
+      "geocode_basis": "country"
+    },
+    "summary": "Birthplace of Max Theiler.",
+    "subtype": "place"
+  },
+  {
+    "id": "pretoria",
+    "entity_type": "place",
+    "name": "Pretoria",
+    "attributes": {
+      "country": "South Africa",
+      "lat": -25.74639,
+      "lng": 28.18806,
+      "wikidata_qid": "Q3926",
+      "geocode_basis": "country"
+    },
+    "summary": "District where Daspoort is located.",
+    "subtype": "city"
+  },
+  {
+    "id": "cape_town",
+    "entity_type": "place",
+    "name": "Cape Town",
+    "attributes": {
+      "country": "South Africa",
+      "lat": -33.92528,
+      "lng": 18.42389,
+      "wikidata_qid": "Q5465",
+      "geocode_basis": "country"
+    },
+    "summary": "City where Theiler studied and assisted during influenza epidemic.",
+    "subtype": "city"
+  },
+  {
+    "id": "london",
+    "entity_type": "place",
+    "name": "London",
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 51.50722,
+      "lng": -0.1275,
+      "wikidata_qid": "Q84",
+      "geocode_basis": "country"
+    },
+    "summary": "City where Theiler studied and attended congress.",
+    "subtype": "city"
+  },
+  {
+    "id": "boston",
+    "entity_type": "place",
+    "name": "Boston",
+    "attributes": {
+      "country": "United States",
+      "lat": 42.36028,
+      "lng": -71.05778,
+      "wikidata_qid": "Q100",
+      "geocode_basis": "country"
+    },
+    "summary": "City where Theiler worked with Sellards.",
+    "subtype": "city"
+  },
+  {
+    "id": "hasle",
+    "entity_type": "place",
+    "name": "Hasle",
+    "attributes": {
+      "country": "Switzerland",
+      "lat": 46.97833,
+      "lng": 8.04667,
+      "wikidata_qid": "Q14555",
+      "geocode_basis": "country"
+    },
+    "summary": "Theiler ancestral town.",
+    "subtype": "town"
+  },
+  {
+    "id": "brazil",
+    "entity_type": "place",
+    "name": "Brazil",
+    "summary": "Country where vaccine was tested.",
+    "subtype": "country",
+    "attributes": {
+      "lat": 39.525,
+      "lng": -87.1275,
+      "wikidata_qid": "Q1998364",
+      "geocode_basis": "document"
+    }
+  },
+  {
+    "id": "columbia",
+    "entity_type": "place",
+    "name": "Columbia",
+    "attributes": {
+      "region": "Andes",
+      "lat": 40.8075,
+      "lng": -73.96194,
+      "wikidata_qid": "Q49088",
+      "geocode_basis": "document"
+    },
+    "summary": "Country where Theiler studied epidemiology.",
+    "subtype": "country"
+  },
+  {
+    "id": "bogota",
+    "entity_type": "place",
+    "name": "Bogota",
+    "summary": "City in Columbia with laboratory.",
+    "subtype": "city",
+    "attributes": {
+      "lat": 40.8743,
+      "lng": -74.0297,
+      "wikidata_qid": "Q890659",
+      "geocode_basis": "document"
+    }
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "hodgkin_collaborated_huxley",
+    "source": "alan_hodgkin",
+    "type": "collaborated_with",
+    "target": "andrew_huxley",
+    "sources": [
+      {
+        "source_id": "tansey_1992_review",
+        "page": 1,
+        "quote": "AlanHodgkinandAndrewHuxleydescribedthemembranecurrentsacross thesquidgiantaxon"
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_worked_trinity",
+    "source": "alan_hodgkin",
+    "type": "worked_at",
+    "target": "trinity_college_cambridge",
+    "sources": [
+      {
+        "source_id": "tansey_1992_review",
+        "page": 1,
+        "quote": "MastershipofTrinity College,Cambridge"
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_worked_royal_society",
+    "source": "alan_hodgkin",
+    "type": "worked_at",
+    "target": "royal_society",
+    "sources": [
+      {
+        "source_id": "tansey_1992_review",
+        "page": 1,
+        "quote": "PresidencyoftheRoyalSociety"
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_family_rous",
+    "source": "alan_hodgkin",
+    "type": "family_of",
+    "target": "peyton_rous",
+    "sources": [
+      {
+        "source_id": "tansey_1992_review",
+        "page": 1,
+        "quote": "hisfather-in-law,PeytonRous"
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_visited_germany",
+    "source": "alan_hodgkin",
+    "type": "visited",
+    "target": "nazi_germany",
+    "sources": [
+      {
+        "source_id": "tansey_1992_review",
+        "page": 1,
+        "quote": "avisittoNaziGermanyintheearly 1930s"
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_employed_air_ministry",
+    "source": "alan_hodgkin",
+    "type": "employed_by",
+    "target": "air_ministry",
+    "sources": [
+      {
+        "source_id": "tansey_1992_review",
+        "page": 1,
+        "quote": "fillinginAirMinistryrequisitionforms effectively"
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_worked_cambridge",
+    "source": "alan_hodgkin",
+    "type": "worked_at",
+    "target": "university_of_cambridge",
+    "sources": [
+      {
+        "source_id": "tansey_1992_review",
+        "page": 1,
+        "quote": "AfterthewarHodgkinreturnedtoCambridge,teachingandtutoringstudents"
+      }
+    ]
+  }
+]

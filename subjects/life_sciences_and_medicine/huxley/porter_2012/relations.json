@@ -1,0 +1,142 @@
+[
+  {
+    "id": "huxley_worked_at_unesco",
+    "source": "julian_huxley",
+    "type": "employed_by",
+    "target": "unesco",
+    "event_id": "huxley_dg_unesco_1946_1948",
+    "start": {
+      "display": "1946",
+      "precision": "year",
+      "sort_start": "1946-01-01",
+      "sort_end": "1946-12-31"
+    },
+    "end": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 2,
+        "quote": "British biologist Julian Huxley, the first director-general of UNESCO (1946-48), played an integral role in ensuring that this preamble remain in the Charter as the ideological framework of the new international organization."
+      }
+    ]
+  },
+  {
+    "id": "huxley_met_lysenko",
+    "source": "julian_huxley",
+    "type": "met",
+    "target": "trofim_lysenko",
+    "event_id": "huxley_meets_lysenko_1945",
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 8,
+        "quote": "During his visit, Huxley met in private with biologist and agricultural specialist Trofim Lysenko."
+      }
+    ]
+  },
+  {
+    "id": "huxley_initiated_history",
+    "source": "julian_huxley",
+    "type": "developed",
+    "target": "history_of_mankind",
+    "event_id": "history_of_mankind_initiated_1947",
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 2,
+        "quote": "Julian Huxley in 1947 initiated UNESCO's project for a 'History of the Scientific and Cultural Development of Mankind,' for which the UNESCO General Conference provided funds and oversight."
+      }
+    ]
+  },
+  {
+    "id": "huxley_published_soviet_genetics",
+    "source": "julian_huxley",
+    "type": "published",
+    "target": "soviet_genetics_book",
+    "event_id": "huxley_soviet_genetics_1949",
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 16,
+        "quote": "In 1949, Huxley published Soviet Genetics and World Science: Lysenko and the Meaning of Heredity, a stinging critique of the ideological corruption of scientific purity in the Soviet Union."
+      }
+    ]
+  },
+  {
+    "id": "ussr_joined_unesco",
+    "source": "soviet_union",
+    "type": "member_of",
+    "target": "unesco",
+    "event_id": "ussr_joins_unesco_1954",
+    "start": {
+      "display": "April 1954",
+      "precision": "month",
+      "sort_start": "1954-04-01",
+      "sort_end": "1954-04-30"
+    },
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 23,
+        "quote": "The Soviet Union joined UNESCO in April 1954, the same month in which the Comédie Française became the first cultural delegation from a nonsocialist country to visit the U.S.S.R. since the Second World War."
+      }
+    ]
+  },
+  {
+    "id": "zvorykin_member_of_soviet_commission",
+    "source": "a_a_zvorykin",
+    "type": "member_of",
+    "target": "soviet_national_commission",
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 28,
+        "quote": "Anatolii Alekseevich Zvorykin served alongside Julian Huxley as a vice president of the 'International Commission for a History of the Scientific and Cultural Development of Mankind' and as chairman of the Soviet National Commission to the UNESCO project."
+      }
+    ]
+  },
+  {
+    "id": "kedrov_member_of_soviet_commission",
+    "source": "b_m_kedrov",
+    "type": "member_of",
+    "target": "soviet_national_commission",
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 31,
+        "quote": "Bonifatii Mikhailovich Kedrov, another member of the Soviet National Commission to the History of Mankind project, embodied this transition from partiinost' to nauchnost'."
+      }
+    ]
+  },
+  {
+    "id": "ware_employed_by_yale",
+    "source": "caroline_ware",
+    "type": "employed_by",
+    "target": "yale_university",
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 36,
+        "quote": "Caroline F. Ware, a cultural historian from Yale and the principle editor of the sixth volume on the twentieth century, ensured that much of the text lacked an orientation toward Huxley's Humanism."
+      }
+    ]
+  },
+  {
+    "id": "maheu_employed_by_unesco",
+    "source": "rene_maheu",
+    "type": "employed_by",
+    "target": "unesco",
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 38,
+        "quote": "René Maheu, the director-general of UNESCO (1961-74), advocated a philosophy he called 'Humanism of Development,' which combined Huxley's Scientific Humanism with a greater emphasis on global economic development."
+      }
+    ]
+  }
+]

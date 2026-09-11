@@ -1,0 +1,443 @@
+[
+  {
+    "id": "koch_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1843",
+      "precision": "year",
+      "sort_start": "1843-01-01",
+      "sort_end": "1843-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gradmann_2001",
+        "page": 2,
+        "quote": "Robert Koch (1843-1910)"
+      }
+    ]
+  },
+  {
+    "id": "koch_tb_investigation_start",
+    "event_type": "other",
+    "label": "Began tuberculosis investigations",
+    "date": {
+      "display": "August 1881",
+      "precision": "month",
+      "sort_start": "1881-08-01",
+      "sort_end": "1881-08-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gradmann_2001",
+        "page": 6,
+        "quote": "A mere eight months separated the beginning of investigations in August 1881 and the famous lecture of March 1882."
+      }
+    ]
+  },
+  {
+    "id": "koch_tb_announcement",
+    "event_type": "conference",
+    "label": "Announced tubercle bacillus discovery",
+    "description": "Presentation in Emil du Bois Reymond's Institute for Physiology in Berlin.",
+    "date": {
+      "display": "24 March 1882",
+      "precision": "day",
+      "sort_start": "1882-03-24",
+      "sort_end": "1882-03-24"
+    },
+    "location": "berlin",
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      },
+      {
+        "entity_id": "emil_du_bois_reymond",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gradmann_2001",
+        "page": 1,
+        "quote": "Paul Ehrlich, remembering Koch's presentation in Emil du Bois Reymond's Institute for Physiology in Berlin on 24 March 1882"
+      }
+    ]
+  },
+  {
+    "id": "koch_promotion",
+    "event_type": "role_change",
+    "label": "Promoted to Geheimer Regierungsrath",
+    "date": {
+      "display": "June 1882",
+      "precision": "month",
+      "sort_start": "1882-06-01",
+      "sort_end": "1882-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gradmann_2001",
+        "page": 1,
+        "quote": "Koch himself profited from the overwhelming reception by being promoted to the rank of a senior executive officer, Geheimer Regierungsrath, in June 1882."
+      }
+    ]
+  },
+  {
+    "id": "koch_etiology_paper_1884",
+    "event_type": "publication",
+    "label": "Published 'On the etiology of tuberculosis'",
+    "date": {
+      "display": "1884",
+      "precision": "year",
+      "sort_start": "1884-01-01",
+      "sort_end": "1884-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gradmann_2001",
+        "page": 4,
+        "quote": "finally in 1884 by the monumental paper 'On the etiology of tuberculosis'"
+      }
+    ]
+  },
+  {
+    "id": "koch_cholera_expedition",
+    "event_type": "visit",
+    "label": "Cholera expedition",
+    "date": {
+      "display": "1883-84",
+      "precision": "range",
+      "sort_start": "1883-01-01",
+      "sort_end": "1884-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gradmann_2001",
+        "page": 2,
+        "quote": "In conjunction with the 1883-84 cholera expedition, which made Koch a hero for the public"
+      }
+    ]
+  },
+  {
+    "id": "koch_leave_imperial_office",
+    "event_type": "employment_end",
+    "label": "Attempted to leave Imperial Health Office",
+    "date": {
+      "display": "1885",
+      "precision": "year",
+      "sort_start": "1885-01-01",
+      "sort_end": "1885-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      },
+      {
+        "entity_id": "imperial_health_office",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gradmann_2001",
+        "page": 21,
+        "quote": "Koch had tried in 1885 to leave the Imperial Health Office"
+      }
+    ]
+  },
+  {
+    "id": "koch_hygiene_chair",
+    "event_type": "employment_start",
+    "label": "Accepted chair of hygiene at University of Berlin",
+    "date": {
+      "display": "1885",
+      "precision": "year",
+      "sort_start": "1885-01-01",
+      "sort_end": "1885-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_berlin",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gradmann_2001",
+        "page": 21,
+        "quote": "Koch ended up with a newly-created chair of hygiene at the University of Berlin."
+      }
+    ]
+  },
+  {
+    "id": "koch_letter_flugge",
+    "event_type": "other",
+    "label": "Wrote to Carl Flugge about resuming work",
+    "date": {
+      "display": "1 December 1886",
+      "precision": "day",
+      "sort_start": "1886-12-01",
+      "sort_end": "1886-12-01"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gradmann_2001",
+        "page": 22,
+        "quote": "On 1 December 1886, Koch wrote to his friend and colleague Carl Fltlgge"
+      }
+    ]
+  },
+  {
+    "id": "koch_letter_farbwerke",
+    "event_type": "other",
+    "label": "Wrote to Farbwerke Lucius & Brüning",
+    "date": {
+      "display": "23 May 1888",
+      "precision": "day",
+      "sort_start": "1888-05-23",
+      "sort_end": "1888-05-23"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gradmann_2001",
+        "page": 22,
+        "quote": "A letter which Koch wrote to the Farbwerke Lucius & Brtining (later, Hoechst) in 1888"
+      }
+    ]
+  },
+  {
+    "id": "koch_tuberculin_announcement",
+    "event_type": "conference",
+    "label": "Announced tuberculin remedy",
+    "description": "At the Tenth International Medical Congress in Berlin.",
+    "date": {
+      "display": "August 1890",
+      "precision": "month",
+      "sort_start": "1890-08-01",
+      "sort_end": "1890-08-31"
+    },
+    "location": "berlin",
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      },
+      {
+        "entity_id": "tuberculin",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gradmann_2001",
+        "page": 20,
+        "quote": "Koch made his sensational announcement of a remedy against the disease at the Tenth International Medical Congress, in August 1890, in Berlin."
+      }
+    ]
+  },
+  {
+    "id": "koch_tuberculin_available",
+    "event_type": "product_launch",
+    "label": "Tuberculin became available",
+    "date": {
+      "display": "October 1890",
+      "precision": "month",
+      "sort_start": "1890-10-01",
+      "sort_end": "1890-10-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      },
+      {
+        "entity_id": "tuberculin",
+        "role": "product"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gradmann_2001",
+        "page": 22,
+        "quote": "With the remedy that became available in October"
+      }
+    ]
+  },
+  {
+    "id": "koch_institute_founded",
+    "event_type": "company_founded",
+    "label": "Founded Institute for Infectious Diseases",
+    "date": {
+      "display": "1891",
+      "precision": "year",
+      "sort_start": "1891-01-01",
+      "sort_end": "1891-12-31"
+    },
+    "location": "berlin",
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "founder"
+      },
+      {
+        "entity_id": "institute_for_infectious_diseases",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gradmann_2001",
+        "page": 23,
+        "quote": "within less than a year, Koch found himself the first director of a newly founded institute for infectious diseases in Berlin."
+      }
+    ]
+  },
+  {
+    "id": "koch_separation",
+    "event_type": "other",
+    "label": "Separated from first wife",
+    "date": {
+      "display": "1890",
+      "precision": "year",
+      "sort_start": "1890-01-01",
+      "sort_end": "1890-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gradmann_2001",
+        "page": 21,
+        "quote": "private problems arose which, in 1890, led to Koch's separation from his first wife."
+      }
+    ]
+  },
+  {
+    "id": "koch_improved_tuberculin",
+    "event_type": "product_launch",
+    "label": "Presented improved tuberculin",
+    "date": {
+      "display": "1897",
+      "precision": "year",
+      "sort_start": "1897-01-01",
+      "sort_end": "1897-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      },
+      {
+        "entity_id": "tuberculin",
+        "role": "product"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gradmann_2001",
+        "page": 28,
+        "quote": "presenting an improved tuberculin in 1897"
+      }
+    ]
+  },
+  {
+    "id": "koch_bovine_statement",
+    "event_type": "publication",
+    "label": "Statement on bovine tuberculosis",
+    "date": {
+      "display": "1902",
+      "precision": "year",
+      "sort_start": "1902-01-01",
+      "sort_end": "1902-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gradmann_2001",
+        "page": 2,
+        "quote": "Finally, in 1902, Koch made his ill-fated statement of the non-identity of human and bovine tuberculosis."
+      }
+    ]
+  },
+  {
+    "id": "koch_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1910",
+      "precision": "year",
+      "sort_start": "1910-01-01",
+      "sort_end": "1910-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gradmann_2001",
+        "page": 2,
+        "quote": "Almost until Koch's death in 1910"
+      }
+    ]
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "id": "jacob_worked_pasteur",
+    "source": "francois_jacob",
+    "type": "worked_at",
+    "target": "institut_pasteur",
+    "sources": [
+      {
+        "source_id": "cozzoli_2023",
+        "page": 13,
+        "quote": "Jacob participated in the EMBC. A few days after the ﬁrst conference, he wrote to John Kendrew, one of the main promoters of the European laboratory, summarizing the discussion among researchers of the Institut Pasteur on the future European laboratory."
+      }
+    ]
+  },
+  {
+    "id": "jacob_wrote_logic",
+    "source": "francois_jacob",
+    "type": "published",
+    "target": "the_logic_of_life",
+    "event_id": "logic_of_life_published_1970",
+    "sources": [
+      {
+        "source_id": "cozzoli_2023",
+        "page": 2,
+        "quote": "In 1970, the molecular biologist and cowinner of the 1965 Nobel Prize for phys- iology or medicine, François Jacob, published La logique du vivant ."
+      }
+    ]
+  },
+  {
+    "id": "jacob_promoted_embl",
+    "source": "francois_jacob",
+    "type": "founded",
+    "target": "embl",
+    "sources": [
+      {
+        "source_id": "cozzoli_2023",
+        "page": 9,
+        "quote": "Jacob was one of the main promoters of a European molecular biology lab- oratory."
+      }
+    ]
+  },
+  {
+    "id": "embl_modeled_cern",
+    "source": "embl",
+    "type": "renamed_to",
+    "target": "cern",
+    "note": "EMBL was created on the model of CERN",
+    "sources": [
+      {
+        "source_id": "cozzoli_2023",
+        "page": 1,
+        "quote": "Jacob worked on the creation of the European Molecular Biology Laboratory, on the model of CERN"
+      }
+    ]
+  },
+  {
+    "id": "monod_director_pasteur_rel",
+    "source": "jacques_monod",
+    "type": "employed_by",
+    "target": "institut_pasteur",
+    "event_id": "monod_director_pasteur_1971",
+    "sources": [
+      {
+        "source_id": "cozzoli_2023",
+        "page": 15,
+        "quote": "In 1971, Monod became director of the Institute Pasteur."
+      }
+    ]
+  }
+]

@@ -1,0 +1,214 @@
+[
+  {
+    "id": "wright_educated_trinity",
+    "source": "almroth_wright",
+    "type": "educated_by",
+    "target": "trinity_college_dublin",
+    "sources": [
+      {
+        "source_id": "colebrook_1953_bmj",
+        "page": 1,
+        "quote": "Whenhegraduatedin1883(fromTrinityCollege, Dublin)"
+      }
+    ]
+  },
+  {
+    "id": "wright_employed_army",
+    "source": "almroth_wright",
+    "type": "employed_by",
+    "target": "army_medical_services",
+    "start": {
+      "display": "1893",
+      "precision": "year",
+      "sort_start": "1893-01-01",
+      "sort_end": "1893-12-31"
+    },
+    "end": {
+      "display": "1902",
+      "precision": "year",
+      "sort_start": "1902-01-01",
+      "sort_end": "1902-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "colebrook_1953_bmj",
+        "page": 1,
+        "quote": "Hehadrecentlybeenappointed ProfessorofPathologyintheArmyMedicalServices"
+      }
+    ]
+  },
+  {
+    "id": "wright_worked_netley",
+    "source": "almroth_wright",
+    "type": "worked_at",
+    "target": "royal_victoria_hospital_netley",
+    "start": {
+      "display": "1893",
+      "precision": "year",
+      "sort_start": "1893-01-01",
+      "sort_end": "1893-12-31"
+    },
+    "end": {
+      "display": "1902",
+      "precision": "year",
+      "sort_start": "1902-01-01",
+      "sort_end": "1902-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "colebrook_1953_bmj",
+        "page": 1,
+        "quote": "withhisheadquartersattheRoyalVictoriaHospitalat NetleyonSouthamptonWater."
+      }
+    ]
+  },
+  {
+    "id": "wright_worked_st_marys",
+    "source": "almroth_wright",
+    "type": "worked_at",
+    "target": "st_marys_hospital",
+    "start": {
+      "display": "1902",
+      "precision": "year",
+      "sort_start": "1902-01-01",
+      "sort_end": "1902-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "colebrook_1953_bmj",
+        "page": 3,
+        "quote": "andcame toSt.Mary'sasProfessorofPatho- logyandBacteriology."
+      }
+    ]
+  },
+  {
+    "id": "wright_mentored_fleming",
+    "source": "almroth_wright",
+    "type": "mentored",
+    "target": "alexander_fleming",
+    "sources": [
+      {
+        "source_id": "colebrook_1953_bmj",
+        "page": 3,
+        "quote": "Wrightandhisassistants-Douglas,JohnFreeman,Alex- anderFleming,andothers"
+      }
+    ]
+  },
+  {
+    "id": "wright_mentored_freeman",
+    "source": "almroth_wright",
+    "type": "mentored",
+    "target": "john_freeman",
+    "sources": [
+      {
+        "source_id": "colebrook_1953_bmj",
+        "page": 3,
+        "quote": "Wrightandhisassistants-Douglas,JohnFreeman,Alex- anderFleming,andothers"
+      }
+    ]
+  },
+  {
+    "id": "wright_mentored_douglas",
+    "source": "almroth_wright",
+    "type": "mentored",
+    "target": "douglas",
+    "sources": [
+      {
+        "source_id": "colebrook_1953_bmj",
+        "page": 3,
+        "quote": "Wrightandhisassistants-Douglas,JohnFreeman,Alex- anderFleming,andothers"
+      }
+    ]
+  },
+  {
+    "id": "wright_collaborated_fleming",
+    "source": "almroth_wright",
+    "type": "collaborated_with",
+    "target": "alexander_fleming",
+    "sources": [
+      {
+        "source_id": "colebrook_1953_bmj",
+        "page": 3,
+        "quote": "Wright,withFleming,wascommissionedtosetupalabora- toryinFrance"
+      }
+    ]
+  },
+  {
+    "id": "wright_developed_typhoid_vaccine",
+    "source": "almroth_wright",
+    "type": "developed",
+    "target": "typhoid_vaccine",
+    "sources": [
+      {
+        "source_id": "colebrook_1953_bmj",
+        "page": 2,
+        "quote": "Thatgreatachievement-thecontroloftyphoidfever- willalwaysstandoutasoneofthebiggestlandmarksof medicineinthetwentiethcentury."
+      }
+    ]
+  },
+  {
+    "id": "wright_discovered_opsonic_factor",
+    "source": "almroth_wright",
+    "type": "invented",
+    "target": "opsonic_factor",
+    "sources": [
+      {
+        "source_id": "colebrook_1953_bmj",
+        "page": 3,
+        "quote": "Wrightchristeneditan \"opsonicfactor\" fromtheGreek wordopsono=I preparevictualsfor."
+      }
+    ]
+  },
+  {
+    "id": "wright_invented_capillary_pipette",
+    "source": "almroth_wright",
+    "type": "invented",
+    "target": "capillary_pipette",
+    "sources": [
+      {
+        "source_id": "colebrook_1953_bmj",
+        "page": 1,
+        "quote": "theuseofawide-bore,graduatedcapillary pipetteinsteadofthemoreconventionaltest-tube."
+      }
+    ]
+  },
+  {
+    "id": "wright_invented_wrights_capsule",
+    "source": "almroth_wright",
+    "type": "invented",
+    "target": "wrights_capsule",
+    "sources": [
+      {
+        "source_id": "colebrook_1953_bmj",
+        "page": 3,
+        "quote": "Forthisheagainresortedtoglasstubing -and\"Wright'scapsule\" graduallyevolved."
+      }
+    ]
+  },
+  {
+    "id": "wright_invented_spreader",
+    "source": "almroth_wright",
+    "type": "invented",
+    "target": "spreader",
+    "sources": [
+      {
+        "source_id": "colebrook_1953_bmj",
+        "page": 3,
+        "quote": "Thishe achievedbymeans ofthe\"spreader\"-a microscopeslide brokenacrossinsucha way"
+      }
+    ]
+  },
+  {
+    "id": "wright_invented_lymph_leech",
+    "source": "almroth_wright",
+    "type": "invented",
+    "target": "lymph_leech",
+    "sources": [
+      {
+        "source_id": "colebrook_1953_bmj",
+        "page": 4,
+        "quote": "To answer thatWright collectedsmallsamplesof fresh lymphinwhathecalleda \"lymph leech\"a simplecontrivancefor exertinggentlesuctionon thewound wall."
+      }
+    ]
+  }
+]

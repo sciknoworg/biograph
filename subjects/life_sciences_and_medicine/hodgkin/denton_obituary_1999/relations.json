@@ -1,0 +1,195 @@
+[
+  {
+    "id": "hodgkin_born_banbury",
+    "source": "alan_hodgkin",
+    "type": "born_in",
+    "target": "banbury_oxfordshire",
+    "sources": [
+      {
+        "source_id": "denton_obituary_1999",
+        "page": 1,
+        "quote": "born Banbury, Oxfordshire, 5 February 1914"
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_died_cambridge",
+    "source": "alan_hodgkin",
+    "type": "died_in",
+    "target": "cambridge_place",
+    "sources": [
+      {
+        "source_id": "denton_obituary_1999",
+        "page": 1,
+        "quote": "died Cambridge 20 December 1998."
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_married_marni",
+    "source": "alan_hodgkin",
+    "type": "married_to",
+    "target": "marni_rous",
+    "event_id": "hodgkin_marriage",
+    "sources": [
+      {
+        "source_id": "denton_obituary_1999",
+        "page": 2,
+        "quote": "he and Marni decided to marry and did so on the 31 March 1944."
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_worked_mba",
+    "source": "alan_hodgkin",
+    "type": "worked_at",
+    "target": "marine_biological_association",
+    "start": {
+      "display": "1947",
+      "precision": "year",
+      "sort_start": "1947-01-01",
+      "sort_end": "1947-12-31"
+    },
+    "end": {
+      "display": "1978",
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "denton_obituary_1999",
+        "page": 2,
+        "quote": "he spent severa] months in Plymouth working on squid for almost all of the years from ]947 to ]970."
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_worked_trinity",
+    "source": "alan_hodgkin",
+    "type": "worked_at",
+    "target": "trinity_college_cambridge",
+    "start": {
+      "display": "1936",
+      "precision": "year",
+      "sort_start": "1936-01-01",
+      "sort_end": "1936-12-31"
+    },
+    "end": {
+      "display": "1998",
+      "precision": "year",
+      "sort_start": "1998-01-01",
+      "sort_end": "1998-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "denton_obituary_1999",
+        "page": 1,
+        "quote": "Fellow of Trinity College, Cambridge 1936-1978, 1984-1998, Masler 1978-1984"
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_worked_royal_society",
+    "source": "alan_hodgkin",
+    "type": "worked_at",
+    "target": "royal_society",
+    "start": {
+      "display": "1952",
+      "precision": "year",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "end": {
+      "display": "1975",
+      "precision": "year",
+      "sort_start": "1975-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "denton_obituary_1999",
+        "page": 1,
+        "quote": "Foulerton Research Professor, Royal Society 1952-1969, President 1970-1975"
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_collaborated_huxley",
+    "source": "alan_hodgkin",
+    "type": "collaborated_with",
+    "target": "andrew_huxley",
+    "sources": [
+      {
+        "source_id": "denton_obituary_1999",
+        "page": 1,
+        "quote": "going with Andrew Huxley to Plymouth."
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_collaborated_katz",
+    "source": "alan_hodgkin",
+    "type": "collaborated_with",
+    "target": "bernard_katz",
+    "sources": [
+      {
+        "source_id": "denton_obituary_1999",
+        "page": 2,
+        "quote": "Later in that year he was joined by Bernard Katz"
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_awarded_nobel",
+    "source": "alan_hodgkin",
+    "type": "awarded",
+    "target": "nobel_prize_medicine_1963",
+    "event_id": "hodgkin_nobel_1963",
+    "sources": [
+      {
+        "source_id": "denton_obituary_1999",
+        "page": 2,
+        "quote": "in 1963 Alan shared a Nobel Prize with Andrew Huxley andJohn Eccles."
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_developed_equations",
+    "source": "alan_hodgkin",
+    "type": "developed",
+    "target": "hodgkin_huxley_equations",
+    "sources": [
+      {
+        "source_id": "denton_obituary_1999",
+        "page": 2,
+        "quote": "Finally the extraordinarily successful Hodgkin - Huxley equations linked measurements of the currents"
+      }
+    ]
+  },
+  {
+    "id": "hodgkin_chancellor_leicester",
+    "source": "alan_hodgkin",
+    "type": "worked_at",
+    "target": "leicester_university",
+    "start": {
+      "display": "1971",
+      "precision": "year",
+      "sort_start": "1971-01-01",
+      "sort_end": "1971-12-31"
+    },
+    "end": {
+      "display": "1984",
+      "precision": "year",
+      "sort_start": "1984-01-01",
+      "sort_end": "1984-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "denton_obituary_1999",
+        "page": 1,
+        "quote": "Chancellor, Leicester University 1971-1984"
+      }
+    ]
+  }
+]

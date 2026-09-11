@@ -1,0 +1,545 @@
+[
+  {
+    "id": "huxley_1931_ussr_visit",
+    "event_type": "visit",
+    "label": "Visited Soviet Union",
+    "description": "Huxley visited the Soviet Union during the First Five-Year Plan.",
+    "date": {
+      "display": "1931",
+      "precision": "year",
+      "sort_start": "1931-01-01",
+      "sort_end": "1931-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julian_huxley",
+        "role": "subject"
+      },
+      {
+        "entity_id": "soviet_union",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 21,
+        "quote": "When in 1931, during the depression and the German economic crisis, Huxley visited the Soviet Union for the first time, he came to appreciate the economic planning of the Soviet Union as a possible antidote to the instability and poverty that the 1929 crash of the stock market had brought to the Western world."
+      }
+    ]
+  },
+  {
+    "id": "huxley_1945_moscow_visit",
+    "event_type": "visit",
+    "label": "Arrived in Moscow for Academy Bicentenary",
+    "description": "Huxley arrived in Moscow for the celebration of the bicentenary of the Academy of Sciences of the U.S.S.R.",
+    "date": {
+      "display": "1945",
+      "precision": "year",
+      "sort_start": "1945-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julian_huxley",
+        "role": "subject"
+      },
+      {
+        "entity_id": "moscow",
+        "role": "location"
+      },
+      {
+        "entity_id": "academy_of_sciences_ussr",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 8,
+        "quote": "In 1945, as the Red Army approached Berlin and delegates from all over the world met in San Francisco to discuss and ratify the United Nations Charter, Julian Huxley arrived in Moscow for the celebration of the bicentenary of the Academy of Sciences of the U.S.S.R."
+      }
+    ]
+  },
+  {
+    "id": "huxley_meets_lysenko_1945",
+    "event_type": "meeting",
+    "label": "Met Trofim Lysenko",
+    "description": "During his visit, Huxley met in private with biologist and agricultural specialist Trofim Lysenko.",
+    "date": {
+      "display": "1945",
+      "precision": "year",
+      "sort_start": "1945-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julian_huxley",
+        "role": "subject"
+      },
+      {
+        "entity_id": "trofim_lysenko",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 8,
+        "quote": "During his visit, Huxley met in private with biologist and agricultural specialist Trofim Lysenko."
+      }
+    ]
+  },
+  {
+    "id": "huxley_dg_unesco_1946_1948",
+    "event_type": "employment_start",
+    "label": "Became Director-General of UNESCO",
+    "description": "Huxley served as the first director-general of UNESCO from 1946 to 1948.",
+    "date": {
+      "display": "1946-48",
+      "precision": "range",
+      "sort_start": "1946-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julian_huxley",
+        "role": "subject"
+      },
+      {
+        "entity_id": "unesco",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 2,
+        "quote": "British biologist Julian Huxley, the first director-general of UNESCO (1946-48), played an integral role in ensuring that this preamble remain in the Charter as the ideological framework of the new international organization."
+      }
+    ]
+  },
+  {
+    "id": "huxley_purpose_philosophy_1947",
+    "event_type": "publication",
+    "label": "Published UNESCO: Its Purpose and Its Philosophy",
+    "description": "Huxley published a hotly debated pamphlet declaring the philosophical foundation of UNESCO.",
+    "date": {
+      "display": "1947",
+      "precision": "year",
+      "sort_start": "1947-01-01",
+      "sort_end": "1947-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julian_huxley",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 9,
+        "quote": "In a hotly debated pamphlet published in 1947, UNESCO: Its Purpose and Its Philosophy, he declared that the philosophical foundation of UNESCO should 'be a Scientific World Humanism, global in extent and evolutionary in background.'"
+      }
+    ]
+  },
+  {
+    "id": "history_of_mankind_initiated_1947",
+    "event_type": "other",
+    "label": "Initiated History of Mankind Project",
+    "description": "Huxley initiated UNESCO's project for a 'History of the Scientific and Cultural Development of Mankind'.",
+    "date": {
+      "display": "1947",
+      "precision": "year",
+      "sort_start": "1947-01-01",
+      "sort_end": "1947-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julian_huxley",
+        "role": "subject"
+      },
+      {
+        "entity_id": "unesco",
+        "role": "employer"
+      },
+      {
+        "entity_id": "history_of_mankind",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 2,
+        "quote": "Julian Huxley in 1947 initiated UNESCO's project for a 'History of the Scientific and Cultural Development of Mankind,' for which the UNESCO General Conference provided funds and oversight."
+      }
+    ]
+  },
+  {
+    "id": "huxley_wroclaw_1948",
+    "event_type": "conference",
+    "label": "Participated in World Congress of Intellectuals for Peace",
+    "description": "Huxley participated in the Soviet Union's 'World Congress of Intellectuals for Peace' held in Wroclaw, Poland.",
+    "date": {
+      "display": "August 1948",
+      "precision": "month",
+      "sort_start": "1948-08-01",
+      "sort_end": "1948-08-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julian_huxley",
+        "role": "subject"
+      },
+      {
+        "entity_id": "wroclaw",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 19,
+        "quote": "In August 1948, a year before the publication of his Soviet Genetics and World Science, Huxley participated in the Soviet Union's 'World Congress of Intellectuals for Peace' held in Wroclaw, Poland."
+      }
+    ]
+  },
+  {
+    "id": "lysenko_rejects_mendel_1948",
+    "event_type": "other",
+    "label": "Lysenko Rejected Mendelian Theory",
+    "description": "Trofim Lysenko rejected the 'bourgeois' Mendelian theory of heredity in favor of a more 'proletarian' theory.",
+    "date": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "trofim_lysenko",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 16,
+        "quote": "This production of scientific conclusions for the purpose of legitimizing Soviet ideology reached its zenith when Trofim Lysenko, in 1948, rejected the 'bourgeois' Mendelian theory of heredity in favor of a more 'proletarian' theory of human evolution."
+      }
+    ]
+  },
+  {
+    "id": "huxley_soviet_genetics_1949",
+    "event_type": "publication",
+    "label": "Published Soviet Genetics and World Science",
+    "description": "Huxley published a stinging critique of the ideological corruption of scientific purity in the Soviet Union.",
+    "date": {
+      "display": "1949",
+      "precision": "year",
+      "sort_start": "1949-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julian_huxley",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 16,
+        "quote": "In 1949, Huxley published Soviet Genetics and World Science: Lysenko and the Meaning of Heredity, a stinging critique of the ideological corruption of scientific purity in the Soviet Union."
+      }
+    ]
+  },
+  {
+    "id": "huxley_cultural_freedom_1950",
+    "event_type": "conference",
+    "label": "Took Part in Congress for Cultural Freedom",
+    "description": "Huxley took part in 'The Congress for Cultural Freedom' in Berlin.",
+    "date": {
+      "display": "1950",
+      "precision": "year",
+      "sort_start": "1950-01-01",
+      "sort_end": "1950-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julian_huxley",
+        "role": "subject"
+      },
+      {
+        "entity_id": "berlin",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 21,
+        "quote": "Convinced that the Soviet intelligentsia believed in scientific autonomy but could not speak out, in 1950 Huxley took part in 'The Congress for Cultural Freedom' in Berlin, which sought to deliver through radio and newspaper the message to the Soviet 'intelligentsia' that freedom fostered intellectual achievement."
+      }
+    ]
+  },
+  {
+    "id": "stalin_death_1953",
+    "event_type": "death",
+    "label": "Stalin Died",
+    "description": "Stalin died in March 1953.",
+    "date": {
+      "display": "March 1953",
+      "precision": "month",
+      "sort_start": "1953-03-01",
+      "sort_end": "1953-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "stalin",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 6,
+        "quote": "Because History of Mankind represents one of the first collaborative international projects Soviet scholars participated in after Stalin's death in March 1953, an exploration of their contribution to this work provides a deeper understanding of their experience during Khrushchev's push for 'peaceful coexistence'..."
+      }
+    ]
+  },
+  {
+    "id": "ussr_joins_unesco_1954",
+    "event_type": "other",
+    "label": "Soviet Union Joined UNESCO",
+    "description": "The Soviet Union joined UNESCO in April 1954.",
+    "date": {
+      "display": "April 1954",
+      "precision": "month",
+      "sort_start": "1954-04-01",
+      "sort_end": "1954-04-30"
+    },
+    "participants": [
+      {
+        "entity_id": "soviet_union",
+        "role": "subject"
+      },
+      {
+        "entity_id": "unesco",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 23,
+        "quote": "The Soviet Union joined UNESCO in April 1954, the same month in which the Comédie Française became the first cultural delegation from a nonsocialist country to visit the U.S.S.R. since the Second World War."
+      }
+    ]
+  },
+  {
+    "id": "soviet_scholars_willing_1955",
+    "event_type": "other",
+    "label": "Soviet Scholars Expressed Willingness to Work on History",
+    "description": "An article in Voprosy istorii declared that Soviet scholars have expressed their willingness to work on the History of Mankind publication.",
+    "date": {
+      "display": "1955",
+      "precision": "year",
+      "sort_start": "1955-01-01",
+      "sort_end": "1955-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "soviet_national_commission",
+        "role": "subject"
+      },
+      {
+        "entity_id": "history_of_mankind",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 24,
+        "quote": "The official proclamation of Soviet scholars' involvement in the History of Mankind project came in 1955 when an article in Voprosy istorii (Problems of History) briefly outlined the project's scope and ended with the terse declaration that 'Soviet scholars have expressed their willingness to work on this publication and … to undertake the compilation of chapters on the history of the U.S.S.R.'"
+      }
+    ]
+  },
+  {
+    "id": "soviet_scholars_paris_1956",
+    "event_type": "visit",
+    "label": "Soviet Scholars Travelled to UNESCO Headquarters",
+    "description": "Soviet scholars travelled to UNESCO headquarters in Paris to offer extensive commentary on the History of Mankind.",
+    "date": {
+      "display": "1956",
+      "precision": "year",
+      "sort_start": "1956-01-01",
+      "sort_end": "1956-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "soviet_national_commission",
+        "role": "subject"
+      },
+      {
+        "entity_id": "paris",
+        "role": "location"
+      },
+      {
+        "entity_id": "unesco",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 3,
+        "quote": "Coming late to the project, Soviet scholars travelled in 1956 to UNESCO headquarters in Paris to offer extensive commentary on the structure and content of what would become the final edition of the six-volume History of Mankind: Scientific and Cultural Development."
+      }
+    ]
+  },
+  {
+    "id": "vestnik_starts_1957",
+    "event_type": "publication",
+    "label": "Vestnik istorii mirovoi kul'tury Began Publishing",
+    "description": "The Soviet National Commission began publishing its own world history journal.",
+    "date": {
+      "display": "1957",
+      "precision": "year",
+      "sort_start": "1957-01-01",
+      "sort_end": "1957-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "soviet_national_commission",
+        "role": "subject"
+      },
+      {
+        "entity_id": "vestnik_istorii_mirovoi_kultury",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 24,
+        "quote": "In 1957, the Soviet National Commission to the UNESCO project began publishing its own world history journal, entitled Vestnik istorii mirovoi kul'tury (Herald of the History of World Culture)."
+      }
+    ]
+  },
+  {
+    "id": "huxley_pasternak_letter_1958",
+    "event_type": "other",
+    "label": "Signed Letter Protesting Treatment of Pasternak",
+    "description": "Huxley signed a letter delivered to the Soviet Writers Union protesting treatment of Boris Pasternak.",
+    "date": {
+      "display": "1958",
+      "precision": "year",
+      "sort_start": "1958-01-01",
+      "sort_end": "1958-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julian_huxley",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 52,
+        "quote": "In 1958, during the writing of History of Mankind, he signed a letter delivered to the Soviet Writers Union protesting treatment of Boris Pasternak, urging the union 'in the name of the great Russian literary tradition for which you stand not to dishonor it by victimizing a writer revered throughout the whole civilized world.'"
+      }
+    ]
+  },
+  {
+    "id": "history_drafting_complete_1961",
+    "event_type": "other",
+    "label": "Drafting of History of Mankind Completed",
+    "description": "The Soviet journal was published until the completion of the drafting of History of Mankind.",
+    "date": {
+      "display": "1961",
+      "precision": "year",
+      "sort_start": "1961-01-01",
+      "sort_end": "1961-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "history_of_mankind",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 25,
+        "quote": "The Soviet journal was published until the completion of the drafting of History of Mankind in 1961, and its editorial board consisted of the members of the Soviet National Commission to the project."
+      }
+    ]
+  },
+  {
+    "id": "history_vol6_published_1966",
+    "event_type": "publication",
+    "label": "History of Mankind Volume VI Published",
+    "description": "Volume VI of History of Mankind was published by Harper & Row.",
+    "date": {
+      "display": "1966",
+      "precision": "year",
+      "sort_start": "1966-01-01",
+      "sort_end": "1966-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "history_of_mankind",
+        "role": "invention"
+      },
+      {
+        "entity_id": "caroline_ware",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 55,
+        "quote": "International Commission for a History of the Scientific and Cultural Development of Mankind, History of Mankind: [Cultural and Scientific Development]. ed. Caroline Ware, K.M. Panikkar, and J.M. Romein, vol. 6 (New York: Harper & Row, 1966), 664."
+      }
+    ]
+  },
+  {
+    "id": "huxley_oizerman_polemic_1967",
+    "event_type": "publication",
+    "label": "Literaturnaia gazeta Published Huxley-Oizerman Polemic",
+    "description": "Literaturnaia gazeta published a 'polemic' between Julian Huxley and a Soviet academic, T. Oizerman.",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "julian_huxley",
+        "role": "subject"
+      },
+      {
+        "entity_id": "t_oizerman",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "literaturnaia_gazeta",
+        "role": "publisher"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "porter_2012",
+        "page": 50,
+        "quote": "In 1967, just a year after the publication of History of Mankind, Literaturnaia gazeta published a 'polemic' between Julian Huxley and a Soviet academic, T. Oizerman."
+      }
+    ]
+  }
+]

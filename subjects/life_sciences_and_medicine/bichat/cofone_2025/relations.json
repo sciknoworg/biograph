@@ -1,0 +1,125 @@
+[
+  {
+    "id": "bichat_born_thoirette",
+    "source": "xavier_bichat",
+    "type": "born_in",
+    "target": "thoirette",
+    "sources": [
+      {
+        "source_id": "cofone_2025",
+        "page": 1,
+        "quote": "Born on November 14, 1771, in the small town of Thoirette, France"
+      }
+    ]
+  },
+  {
+    "id": "bichat_educated_petit",
+    "source": "xavier_bichat",
+    "type": "educated_by",
+    "target": "marc_antoine_petit",
+    "sources": [
+      {
+        "source_id": "cofone_2025",
+        "page": 1,
+        "quote": "Bichat pursued formal medical education in Lyon under the mentorship of the distinguished surgeon Marc-Antoine Petit"
+      }
+    ]
+  },
+  {
+    "id": "bichat_worked_hotel_dieu",
+    "source": "xavier_bichat",
+    "type": "worked_at",
+    "target": "hotel_dieu",
+    "event_id": "bichat_move_paris",
+    "sources": [
+      {
+        "source_id": "cofone_2025",
+        "page": 1,
+        "quote": "he moved to Paris in 1793, where he became a devoted student and collaborator of Pierre-Joseph Desault at the prestigious Hôtel-Dieu hospital"
+      }
+    ]
+  },
+  {
+    "id": "bichat_supervised_desault",
+    "source": "xavier_bichat",
+    "type": "supervised_by",
+    "target": "pierre_joseph_desault",
+    "sources": [
+      {
+        "source_id": "cofone_2025",
+        "page": 1,
+        "quote": "he became a devoted student and collaborator of Pierre-Joseph Desault"
+      }
+    ]
+  },
+  {
+    "id": "bichat_published_traite",
+    "source": "xavier_bichat",
+    "type": "published",
+    "target": "traite_des_membranes",
+    "event_id": "publication_traite_membranes",
+    "sources": [
+      {
+        "source_id": "cofone_2025",
+        "page": 2,
+        "quote": "Traité des membranes (Bichat, 1800) stands out as a pioneering study"
+      }
+    ]
+  },
+  {
+    "id": "bichat_published_recherches",
+    "source": "xavier_bichat",
+    "type": "published",
+    "target": "recherches_physiologiques",
+    "event_id": "publication_recherches_vie",
+    "sources": [
+      {
+        "source_id": "cofone_2025",
+        "page": 2,
+        "quote": "Bichat published Recherches physiologiques sur la vie et la mort (Bichat, 1800)"
+      }
+    ]
+  },
+  {
+    "id": "bichat_published_anatomie_generale",
+    "source": "xavier_bichat",
+    "type": "published",
+    "target": "anatomie_generale",
+    "event_id": "publication_anatomie_generale",
+    "sources": [
+      {
+        "source_id": "cofone_2025",
+        "page": 2,
+        "quote": "His Anatomie générale appliquée à la physiologie et à la médecine (Bichat, 1801) represents perhaps his most methodologically important contribution"
+      }
+    ]
+  },
+  {
+    "id": "bichat_published_anatomie_descriptive",
+    "source": "xavier_bichat",
+    "type": "published",
+    "target": "anatomie_descriptive",
+    "event_id": "publication_anatomie_descriptive",
+    "sources": [
+      {
+        "source_id": "cofone_2025",
+        "page": 2,
+        "quote": "Anatomie descriptive (published between 1801 and 1803)"
+      }
+    ]
+  },
+  {
+    "id": "bichat_died_paris",
+    "source": "xavier_bichat",
+    "type": "died_in",
+    "target": "paris",
+    "event_id": "bichat_death",
+    "sources": [
+      {
+        "source_id": "cofone_2025",
+        "page": 3,
+        "quote": "He died on 22 July 1802, at the age of just 30"
+      }
+    ]
+  }
+]

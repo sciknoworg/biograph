@@ -1,0 +1,169 @@
+[
+  {
+    "id": "wallace_born_usk",
+    "source": "alfred_russel_wallace",
+    "type": "born_in",
+    "target": "usk_monmouthshire",
+    "event_id": "wallace_birth",
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 398,
+        "quote": "Born 8 January 1823 at Usk, Monmouthshire"
+      }
+    ]
+  },
+  {
+    "id": "wallace_died_broadstone",
+    "source": "alfred_russel_wallace",
+    "type": "died_in",
+    "target": "broadstone_dorset",
+    "event_id": "wallace_death",
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 398,
+        "quote": "Dies 7 November 1913 at Broadstone, Dorset"
+      }
+    ]
+  },
+  {
+    "id": "wallace_collab_bates",
+    "source": "alfred_russel_wallace",
+    "type": "collaborated_with",
+    "target": "henry_walter_bates",
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 388,
+        "quote": "Wallace (Figure 1) had traveled to South America with another young prominent-naturalist-to-be, Henry Walter Bates (1825–1892)"
+      }
+    ]
+  },
+  {
+    "id": "wallace_corresp_darwin",
+    "source": "alfred_russel_wallace",
+    "type": "corresponded_with",
+    "target": "charles_darwin",
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 390,
+        "quote": "sent it off to Charles Darwin (with whom he had already struck up a professional correspondence)"
+      }
+    ]
+  },
+  {
+    "id": "wallace_member_linnean",
+    "source": "alfred_russel_wallace",
+    "type": "member_of",
+    "target": "linnean_society_of_london",
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 390,
+        "quote": "next meeting of the Linnean Society of London"
+      }
+    ]
+  },
+  {
+    "id": "wallace_member_rgs",
+    "source": "alfred_russel_wallace",
+    "type": "member_of",
+    "target": "royal_geographical_society",
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 389,
+        "quote": "He was able to secure a grant from the Royal Geographical Society"
+      }
+    ]
+  },
+  {
+    "id": "wallace_president_land_soc",
+    "source": "alfred_russel_wallace",
+    "type": "member_of",
+    "target": "land_nationalisation_society",
+    "start": {
+      "display": "1880",
+      "precision": "year",
+      "sort_start": "1880-01-01",
+      "sort_end": "1880-12-31"
+    },
+    "end": {
+      "display": "1913",
+      "precision": "year",
+      "sort_start": "1913-01-01",
+      "sort_end": "1913-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 397,
+        "quote": "In 1880, he was made the first president of the Land Nationalisation Society... He remained the Society's president all the way through to his death in 1913"
+      }
+    ]
+  },
+  {
+    "id": "wallace_published_geo_dist",
+    "source": "alfred_russel_wallace",
+    "type": "published",
+    "target": "geographical_distribution_animals",
+    "event_id": "wallace_geo_dist_animals",
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 393,
+        "quote": "The first one completed was the massive two-volume tome The Geographical Distribution of Animals (Wallace 1876)"
+      }
+    ]
+  },
+  {
+    "id": "wallace_published_island_life",
+    "source": "alfred_russel_wallace",
+    "type": "published",
+    "target": "island_life",
+    "event_id": "wallace_island_life",
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 394,
+        "quote": "In 1880, Wallace released what some people consider to be his finest extended scientific work: Island Life"
+      }
+    ]
+  },
+  {
+    "id": "wallace_married_annie",
+    "source": "alfred_russel_wallace",
+    "type": "married_to",
+    "target": "annie_mitten",
+    "event_id": "wallace_marriage",
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 398,
+        "quote": "April 1866: marries Annie Mitten"
+      }
+    ]
+  },
+  {
+    "id": "wallace_worked_surveyor",
+    "source": "alfred_russel_wallace",
+    "type": "employed_by",
+    "target": "alfred_russel_wallace",
+    "note": "Self-employed/apprenticed to brother",
+    "start": {
+      "display": "Summer 1837",
+      "precision": "season",
+      "sort_start": "1837-06-01",
+      "sort_end": "1837-08-31"
+    },
+    "sources": [
+      {
+        "source_id": "smith_2010_wallace_geographer",
+        "page": 395,
+        "quote": "In his early years, Wallace was apprenticed to an older brother as a surveyor"
+      }
+    ]
+  }
+]

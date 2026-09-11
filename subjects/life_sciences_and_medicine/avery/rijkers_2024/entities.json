@@ -1,0 +1,291 @@
+[
+  {
+    "aliases": [
+      "Dr. Oswald Avery",
+      "Oswald Avery",
+      "Oswald T. Avery"
+    ],
+    "entity_type": "person",
+    "id": "oswald_avery",
+    "name": "Oswald Theodore Avery",
+    "subtype": "researcher",
+    "summary": "Immunologist and bacteriologist known for identifying DNA as the carrier of genetic information."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "elizabeth_crowdy",
+    "name": "Elizabeth Crowdy",
+    "subtype": "family",
+    "summary": "Mother of Oswald Avery."
+  },
+  {
+    "aliases": [
+      "Joseph Avery"
+    ],
+    "entity_type": "person",
+    "id": "joseph_francis_avery",
+    "name": "Joseph Francis Avery",
+    "subtype": "family",
+    "summary": "Father of Oswald Avery and Baptist pastor."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "ernest_avery",
+    "name": "Ernest Avery",
+    "subtype": "family",
+    "summary": "Older brother of Oswald Avery."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "roy_avery",
+    "name": "Roy Avery",
+    "subtype": "family",
+    "summary": "Younger brother of Oswald Avery and bacteriologist."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Canada",
+      "lat": 44.64778,
+      "lng": -63.57139,
+      "wikidata_qid": "Q2141",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "halifax",
+    "name": "Halifax",
+    "subtype": "city",
+    "summary": "City in Canada where Oswald Avery was born."
+  },
+  {
+    "aliases": [
+      "NYC"
+    ],
+    "attributes": {
+      "country": "USA",
+      "lat": 40.71278,
+      "lng": -74.00611,
+      "wikidata_qid": "Q60",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "new_york_city",
+    "name": "New York City",
+    "subtype": "city",
+    "summary": "City in USA where Avery's family moved in 1887."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "USA",
+      "state": "Tennessee",
+      "lat": 36.16222,
+      "lng": -86.77444,
+      "wikidata_qid": "Q23197",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "nashville",
+    "name": "Nashville",
+    "subtype": "city",
+    "summary": "City in Tennessee where Avery moved in 1948."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "USA",
+      "lat": 40.65083,
+      "lng": -73.94972,
+      "wikidata_qid": "Q18419",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "brooklyn",
+    "name": "Brooklyn",
+    "subtype": "city",
+    "summary": "Borough of New York City where Hoagland Laboratory was located."
+  },
+  {
+    "aliases": [
+      "Colgate"
+    ],
+    "entity_type": "organization",
+    "id": "colgate_university",
+    "name": "Colgate University",
+    "subtype": "university",
+    "summary": "University where Avery received his Bachelor's degree."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "college_of_physicians_and_surgeons",
+    "name": "College of Physicians and Surgeons",
+    "subtype": "university",
+    "summary": "Medical school in New York where Avery received his MD."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "hoagland_laboratory",
+    "name": "Hoagland Laboratory",
+    "subtype": "lab",
+    "summary": "Research laboratory in Brooklyn where Avery began his research career."
+  },
+  {
+    "aliases": [
+      "Rockefeller Institute"
+    ],
+    "entity_type": "organization",
+    "id": "rockefeller_institute",
+    "name": "Rockefeller Institute for Medical Research",
+    "subtype": "lab",
+    "summary": "Medical research institute where Avery worked from 1913 to 1948."
+  },
+  {
+    "aliases": [
+      "Medical Corps"
+    ],
+    "entity_type": "organization",
+    "id": "us_army_medical_corps",
+    "name": "U.S. Army Medical Corps",
+    "subtype": "organization",
+    "summary": "Military medical service where Avery served during World War I."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "vanderbilt_school_of_medicine",
+    "name": "Vanderbilt School of Medicine",
+    "subtype": "university",
+    "summary": "Medical school where Roy Avery worked."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "colin_macleod",
+    "name": "Colin MacLeod",
+    "subtype": "researcher",
+    "summary": "Collaborator of Avery on the 1944 DNA transformation paper."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "maclyn_mccarty",
+    "name": "Maclyn McCarty",
+    "subtype": "researcher",
+    "summary": "Collaborator of Avery on the 1944 DNA transformation paper."
+  },
+  {
+    "aliases": [
+      "Alphonse Dochez"
+    ],
+    "entity_type": "person",
+    "id": "alphonse_dochez",
+    "name": "Alphonse R. Dochez",
+    "subtype": "researcher",
+    "summary": "Colleague and apartment sharer of Avery at Rockefeller Institute."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "walther_goebel",
+    "name": "Walther Goebel",
+    "subtype": "researcher",
+    "summary": "Collaborator of Avery on polysaccharide conjugate vaccines."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "michael_heidelberger",
+    "name": "Michael Heidelberger",
+    "subtype": "researcher",
+    "summary": "Collaborator of Avery on pneumococcal polysaccharides."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "national_academy_of_sciences",
+    "name": "National Academy of Sciences",
+    "subtype": "organization",
+    "summary": "Academy to which Avery was elected in 1933."
+  },
+  {
+    "aliases": [
+      "Royal Society"
+    ],
+    "entity_type": "organization",
+    "id": "royal_society_of_london",
+    "name": "Royal Society of London",
+    "subtype": "organization",
+    "summary": "Scientific academy to which Avery was elected in 1944."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "american_association_of_immunologists",
+    "name": "American Association of Immunologists",
+    "subtype": "organization",
+    "summary": "Professional organization where Avery served as President."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "american_association_of_pathologists_and_bacteriologists",
+    "name": "American Association of Pathologists and Bacteriologists",
+    "subtype": "organization",
+    "summary": "Professional organization where Avery served as President."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "society_of_american_bacteriologists",
+    "name": "Society of American Bacteriologists",
+    "subtype": "organization",
+    "summary": "Professional organization where Avery served as President."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "john_phillips_memorial_award",
+    "name": "John Phillips Memorial Award",
+    "subtype": "award",
+    "summary": "Award received by Avery from the American College of Physicians."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "copley_medal",
+    "name": "Copley Medal",
+    "subtype": "award",
+    "summary": "Award received by Avery from the Royal Society of London."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "kober_medal",
+    "name": "Kober Medal",
+    "subtype": "award",
+    "summary": "Award received by Avery from the Association of American Physicians."
+  },
+  {
+    "aliases": [
+      "Lasker Award in Basic Medical Research"
+    ],
+    "entity_type": "artifact",
+    "id": "lasker_award",
+    "name": "Lasker Award",
+    "subtype": "award",
+    "summary": "Award received by Avery in Basic Medical Research."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "dna_transformation_paper_1944",
+    "name": "Studies on the chemical nature of the substance inducing transformation of pneumococcal types",
+    "subtype": "publication",
+    "summary": "1944 paper by Avery, MacLeod, and McCarty identifying DNA as genetic material."
+  }
+]

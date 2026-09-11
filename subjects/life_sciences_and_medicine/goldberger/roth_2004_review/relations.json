@@ -1,0 +1,136 @@
+[
+  {
+    "id": "goldberger_worked_mhs",
+    "source": "joseph_goldberger",
+    "type": "employed_by",
+    "target": "us_marine_hospital_service",
+    "event_id": "goldberger_joined_mhs",
+    "sources": [
+      {
+        "source_id": "roth_2004_review",
+        "page": 2,
+        "quote": "he accepted a commission in the US Marine Hospit al Service"
+      }
+    ]
+  },
+  {
+    "id": "goldberger_worked_phss",
+    "source": "joseph_goldberger",
+    "type": "employed_by",
+    "target": "us_public_health_service",
+    "sources": [
+      {
+        "source_id": "roth_2004_review",
+        "page": 1,
+        "quote": "Joseph Goldberger, an up-and-coming bac-teriologist in the US Public Health Service"
+      }
+    ]
+  },
+  {
+    "id": "goldberger_studied_ccny",
+    "source": "joseph_goldberger",
+    "type": "studied_at",
+    "target": "city_college_of_new_york",
+    "sources": [
+      {
+        "source_id": "roth_2004_review",
+        "page": 2,
+        "quote": "good luck and hard work got him through City College of New York"
+      }
+    ]
+  },
+  {
+    "id": "goldberger_studied_bellevue",
+    "source": "joseph_goldberger",
+    "type": "studied_at",
+    "target": "bellevue_hospital_medical_college",
+    "sources": [
+      {
+        "source_id": "roth_2004_review",
+        "page": 2,
+        "quote": "City College of New York and the Bellevue Hospital Medical College"
+      }
+    ]
+  },
+  {
+    "id": "goldberger_rejected_navy",
+    "source": "joseph_goldberger",
+    "type": "employed_by",
+    "target": "us_navy",
+    "note": "Application rejected",
+    "sources": [
+      {
+        "source_id": "roth_2004_review",
+        "page": 2,
+        "quote": "Turned down by the N avy"
+      }
+    ]
+  },
+  {
+    "id": "goldberger_worked_hygienic_lab",
+    "source": "joseph_goldberger",
+    "type": "worked_at",
+    "target": "hygienic_laboratory",
+    "sources": [
+      {
+        "source_id": "roth_2004_review",
+        "page": 1,
+        "quote": "Returning to the federal gov-ernment's Hygienic Laboratory in Washing-ton"
+      }
+    ]
+  },
+  {
+    "id": "goldberger_lived_new_york",
+    "source": "joseph_goldberger",
+    "type": "lived_in",
+    "target": "new_york_city",
+    "sources": [
+      {
+        "source_id": "roth_2004_review",
+        "page": 2,
+        "quote": "emigrated with his family from a village at the fringes of the Austro-Hungarian Empire to New York's Lower East Side"
+      }
+    ]
+  },
+  {
+    "id": "goldberger_emigrated_from_ahe",
+    "source": "joseph_goldberger",
+    "type": "relocated_to",
+    "target": "new_york_city",
+    "note": "From Austro-Hungarian Empire",
+    "sources": [
+      {
+        "source_id": "roth_2004_review",
+        "page": 2,
+        "quote": "emigrated with his family from a village at the fringes of the Austro-Hungarian Empire to New York's Lower East Side"
+      }
+    ]
+  },
+  {
+    "id": "kraut_wrote_goldbergers_war",
+    "source": "alan_m_kraut",
+    "type": "published",
+    "target": "goldbergers_war",
+    "sources": [
+      {
+        "source_id": "roth_2004_review",
+        "page": 1,
+        "quote": "Alan Kraut's book is a skilled recounting of Goldberger's life"
+      }
+    ]
+  },
+  {
+    "id": "roth_reviewed_goldbergers_war",
+    "source": "jesse_roth",
+    "type": "published",
+    "target": "goldbergers_war",
+    "note": "Reviewed the book",
+    "sources": [
+      {
+        "source_id": "roth_2004_review",
+        "page": 1,
+        "quote": "Reviewed by Jesse Roth"
+      }
+    ]
+  }
+]

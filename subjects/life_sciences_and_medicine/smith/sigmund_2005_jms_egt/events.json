@@ -1,0 +1,341 @@
+[
+  {
+    "id": "jms_death",
+    "event_type": "death",
+    "label": "Died",
+    "description": "John Maynard Smith passed away.",
+    "date": {
+      "display": "April 19, 2004",
+      "precision": "day",
+      "sort_start": "2004-04-19",
+      "sort_end": "2004-04-19"
+    },
+    "participants": [
+      {
+        "entity_id": "john_maynard_smith",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sigmund_2005_jms_egt",
+        "page": 1,
+        "quote": "When John Maynard Smith passed away on April 19, 2004, most obituaries expressed the view that among the amazing wealth of his contributions to theoretical biology, the most significant was the introduction of game theoretical methods for the analysis of evolutionary problems."
+      }
+    ]
+  },
+  {
+    "id": "jms_graduate_eton",
+    "event_type": "education",
+    "label": "Graduated from Eton",
+    "date": {
+      "display": "1938",
+      "precision": "year",
+      "sort_start": "1938-01-01",
+      "sort_end": "1938-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_maynard_smith",
+        "role": "subject"
+      },
+      {
+        "entity_id": "eton",
+        "role": "school"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sigmund_2005_jms_egt",
+        "page": 1,
+        "quote": "In 1938, as an eighteen-year old graduate from Eton, he had visited his uncle, a British military attaché in Berlin, and witnessed a speech by Adolf Hitler."
+      }
+    ]
+  },
+  {
+    "id": "jms_visit_berlin",
+    "event_type": "visit",
+    "label": "Visited Berlin",
+    "date": {
+      "display": "1938",
+      "precision": "year",
+      "sort_start": "1938-01-01",
+      "sort_end": "1938-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_maynard_smith",
+        "role": "subject"
+      },
+      {
+        "entity_id": "berlin",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sigmund_2005_jms_egt",
+        "page": 1,
+        "quote": "In 1938, as an eighteen-year old graduate from Eton, he had visited his uncle, a British military attaché in Berlin, and witnessed a speech by Adolf Hitler."
+      }
+    ]
+  },
+  {
+    "id": "jms_enrol_ucl",
+    "event_type": "education",
+    "label": "Enrolled at University College, London",
+    "date": {
+      "display": "1947",
+      "precision": "year",
+      "sort_start": "1947-01-01",
+      "sort_end": "1947-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_maynard_smith",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_college_london",
+        "role": "school"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sigmund_2005_jms_egt",
+        "page": 1,
+        "quote": "In 1947, he left his engineering job to enrol as a student of biology at University College, London – aircraft were too noisy for his taste, and he vastly preferred birds – but the training in applied mathematics would prove of great help for his postgraduate work with J.B.S. Haldane."
+      }
+    ]
+  },
+  {
+    "id": "jms_publish_birds",
+    "event_type": "publication",
+    "label": "Published 'Birds as aeroplanes'",
+    "date": {
+      "display": "1953",
+      "precision": "year",
+      "sort_start": "1953-01-01",
+      "sort_end": "1953-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_maynard_smith",
+        "role": "author"
+      },
+      {
+        "entity_id": "birds_as_aeroplanes",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sigmund_2005_jms_egt",
+        "page": 1,
+        "quote": "Thus he could write on ´birds as aeroplanes´ (Maynard Smith, 1953), and many years later, he was to write (Maynard Smith 1995):"
+      }
+    ]
+  },
+  {
+    "id": "jms_examine_hamilton",
+    "event_type": "other",
+    "label": "Examined Hamilton's PhD",
+    "description": "Served as external examiner for William D. Hamilton's PhD examination.",
+    "date": {
+      "display": "1963",
+      "precision": "year",
+      "sort_start": "1963-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_maynard_smith",
+        "role": "subject"
+      },
+      {
+        "entity_id": "william_d_hamilton",
+        "role": "candidate"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sigmund_2005_jms_egt",
+        "page": 1,
+        "quote": "Maynard Smith had been familiar with that work since 1963, having been the external examiner in Hamilton´s PhD examination."
+      }
+    ]
+  },
+  {
+    "id": "jms_visit_chicago",
+    "event_type": "visit",
+    "label": "Visited Chicago",
+    "description": "Went for three months to Chicago to develop a formal definition of evolutionarily stable strategies.",
+    "date": {
+      "display": "1970",
+      "precision": "year",
+      "sort_start": "1970-01-01",
+      "sort_end": "1970-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_maynard_smith",
+        "role": "subject"
+      },
+      {
+        "entity_id": "chicago",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sigmund_2005_jms_egt",
+        "page": 1,
+        "quote": "He suggested either to publish it somewhere else, or to re-submit a shorter version, and then went for three months to Chicago, where he developed a formal definition of evolutionarily stable strategies, and applied this to study the `Hawk-Dove-Retaliator´ game and the `War of Attrition´."
+      }
+    ]
+  },
+  {
+    "id": "jms_publish_logic_conflict",
+    "event_type": "publication",
+    "label": "Published 'The logic of animal conflict'",
+    "date": {
+      "display": "1973",
+      "precision": "year",
+      "sort_start": "1973-01-01",
+      "sort_end": "1973-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_maynard_smith",
+        "role": "author"
+      },
+      {
+        "entity_id": "george_price",
+        "role": "author"
+      },
+      {
+        "entity_id": "logic_of_animal_conflict",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sigmund_2005_jms_egt",
+        "page": 1,
+        "quote": "When I returned to London I contacted him, and ultimately we published a joint paper in which the concept of an evolutionarily stable strategy was applied to animal contests.´ Three aspects of that joint paper (Maynard Smith and Price, 1973) proved seminal."
+      }
+    ]
+  },
+  {
+    "id": "jms_publish_essay_games",
+    "event_type": "publication",
+    "label": "Published 'Evolution and the Theory of Games' essay",
+    "date": {
+      "display": "1976",
+      "precision": "year",
+      "sort_start": "1976-01-01",
+      "sort_end": "1976-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_maynard_smith",
+        "role": "author"
+      },
+      {
+        "entity_id": "evolution_and_theory_of_games_book",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sigmund_2005_jms_egt",
+        "page": 1,
+        "quote": "In an essay entitled 'Evolution and the Theory of Games'  (Maynard Smith 1976), he set out to trace the history of this idea."
+      }
+    ]
+  },
+  {
+    "id": "jms_publish_book_games",
+    "event_type": "publication",
+    "label": "Published 'Evolution and the Theory of Games' book",
+    "date": {
+      "display": "1982",
+      "precision": "year",
+      "sort_start": "1982-01-01",
+      "sort_end": "1982-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_maynard_smith",
+        "role": "author"
+      },
+      {
+        "entity_id": "evolution_and_theory_of_games_book",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sigmund_2005_jms_egt",
+        "page": 1,
+        "quote": "In the preface of his book on `Evolution and the Theory of Games' (Maynard Smith 1982), Maynard Smith writes that he owes a special debt to `Peter Hammerstein, who has helped [me] to understand some theoretical questions more clearly'."
+      }
+    ]
+  },
+  {
+    "id": "jms_publish_major_transitions",
+    "event_type": "publication",
+    "label": "Published 'Major Transitions of Evolution'",
+    "date": {
+      "display": "1995",
+      "precision": "year",
+      "sort_start": "1995-01-01",
+      "sort_end": "1995-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_maynard_smith",
+        "role": "author"
+      },
+      {
+        "entity_id": "eors_szathmary",
+        "role": "author"
+      },
+      {
+        "entity_id": "major_transitions_of_evolution",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sigmund_2005_jms_egt",
+        "page": 1,
+        "quote": "Many of the evolutionary questions arising in his joint book with Eörs Szathmary, the `Major Transitions of Evolution´ (Maynard Smith and Szathmary, 1995), were social questions, dealing with the issue of units of selection (genes, organelles, cells, organisms) ganging up to form higher units of selection (genomes, cells, organisms, societies)."
+      }
+    ]
+  },
+  {
+    "id": "jms_publish_lizards",
+    "event_type": "publication",
+    "label": "Published on lizard games",
+    "date": {
+      "display": "1998",
+      "precision": "year",
+      "sort_start": "1998-01-01",
+      "sort_end": "1998-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_maynard_smith",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "sigmund_2005_jms_egt",
+        "page": 1,
+        "quote": "I well remember how gleefully he greeted the discovery that male lizards of the species Uta stansburia were engaged in a game with rock-paper-scissors structure (Maynard Smith 1998): `They have read my book!´"
+      }
+    ]
+  }
+]

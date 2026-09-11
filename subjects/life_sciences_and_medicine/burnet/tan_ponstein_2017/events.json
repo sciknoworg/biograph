@@ -1,0 +1,380 @@
+[
+  {
+    "id": "burnet_birth",
+    "event_type": "birth",
+    "label": "Born in Traralgon",
+    "description": "Born on 3 September 1899 in the small town of Traralgon in the state of Victoria, Australia.",
+    "date": {
+      "display": "3 September 1899",
+      "precision": "day",
+      "sort_start": "1899-09-03",
+      "sort_end": "1899-09-03"
+    },
+    "location": "traralgon",
+    "participants": [
+      {
+        "entity_id": "frank_macfarlane_burnet",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_ponstein_2017",
+        "page": 1,
+        "quote": "Burnet \nwas born on 3 September 1899 in the small town of Traralgon"
+      }
+    ]
+  },
+  {
+    "id": "burnet_move_terang",
+    "event_type": "relocation",
+    "label": "Family moved to Terang",
+    "description": "When Burnet was ten years old, his family moved to the small rural town of Terang, Victoria.",
+    "date": {
+      "display": "When Burnet was ten years old",
+      "precision": "year",
+      "sort_start": "1909-01-01",
+      "sort_end": "1909-12-31"
+    },
+    "location": "terang",
+    "participants": [
+      {
+        "entity_id": "frank_macfarlane_burnet",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_ponstein_2017",
+        "page": 1,
+        "quote": "When Burnet was ten years old, \nhis family moved to the small rural \ntown of Terang, Victoria"
+      }
+    ]
+  },
+  {
+    "id": "burnet_mbbs",
+    "event_type": "education",
+    "label": "Earned MBBS degree",
+    "description": "Earned his MBBS degree and graduated as salutatorian from the University of Melbourne.",
+    "date": {
+      "display": "1922",
+      "precision": "year",
+      "sort_start": "1922-01-01",
+      "sort_end": "1922-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "frank_macfarlane_burnet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_melbourne",
+        "role": "educator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_ponstein_2017",
+        "page": 1,
+        "quote": "In 1922, he earned his MBBS degree and \ngraduated as salutatorian"
+      }
+    ]
+  },
+  {
+    "id": "burnet_md",
+    "event_type": "education",
+    "label": "Completed MD degree",
+    "description": "Successfully completed the MD degree certification examination.",
+    "date": {
+      "display": "1924",
+      "precision": "year",
+      "sort_start": "1924-01-01",
+      "sort_end": "1924-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "frank_macfarlane_burnet",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_ponstein_2017",
+        "page": 1,
+        "quote": "successfully completed it in 1924"
+      }
+    ]
+  },
+  {
+    "id": "burnet_typhoid_pub",
+    "event_type": "publication",
+    "label": "Published on typhoid agglutination",
+    "description": "Authored a publication on the agglutination reactions of typhoid.",
+    "date": {
+      "display": "1924",
+      "precision": "year",
+      "sort_start": "1924-01-01",
+      "sort_end": "1924-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "frank_macfarlane_burnet",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_ponstein_2017",
+        "page": 1,
+        "quote": "In the same year, he authored \na publication on the agglutination reactions of typhoid."
+      }
+    ]
+  },
+  {
+    "id": "burnet_lister_training",
+    "event_type": "employment_start",
+    "label": "Dispatched to Lister Institute",
+    "description": "Dispatched to the Lister Institute in London to obtain additional training in research.",
+    "date": {
+      "display": "1925 to 1927",
+      "precision": "range",
+      "sort_start": "1925-01-01",
+      "sort_end": "1927-12-31"
+    },
+    "location": "london",
+    "participants": [
+      {
+        "entity_id": "frank_macfarlane_burnet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lister_institute",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_ponstein_2017",
+        "page": 1,
+        "quote": "dispatched him to the Lister Institute in London, \nUnited Kingdom, to obtain additional training in research."
+      }
+    ]
+  },
+  {
+    "id": "burnet_phd",
+    "event_type": "education",
+    "label": "Obtained PhD",
+    "description": "Obtained a PhD from the University of London while studying bacteriophages.",
+    "date": {
+      "display": "1925 to 1927",
+      "precision": "range",
+      "sort_start": "1925-01-01",
+      "sort_end": "1927-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "frank_macfarlane_burnet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_london",
+        "role": "educator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_ponstein_2017",
+        "page": 1,
+        "quote": "obtained a PhD from the University of London."
+      }
+    ]
+  },
+  {
+    "id": "burnet_hall_assistant_director",
+    "event_type": "role_change",
+    "label": "Became assistant director at Hall Institute",
+    "description": "Upon return to the Hall Institute, he became an assistant director.",
+    "date": {
+      "display": "1927",
+      "precision": "year",
+      "sort_start": "1927-01-01",
+      "sort_end": "1927-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "frank_macfarlane_burnet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "walter_and_eliza_hall_institute",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_ponstein_2017",
+        "page": 1,
+        "quote": "Upon his \nreturn to the Hall Institute, he became an assistant director"
+      }
+    ]
+  },
+  {
+    "id": "burnet_production_antibodies",
+    "event_type": "publication",
+    "label": "Published The Production of Antibodies",
+    "description": "Authored a monograph entitled The Production of Antibodies, proposing notions of 'self' and 'non-self'.",
+    "date": {
+      "display": "1941",
+      "precision": "year",
+      "sort_start": "1941-01-01",
+      "sort_end": "1941-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "frank_macfarlane_burnet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "the_production_of_antibodies",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_ponstein_2017",
+        "page": 2,
+        "quote": "In 1941, he authored \na monograph entitled The Production of Antibodies"
+      }
+    ]
+  },
+  {
+    "id": "burnet_hall_director",
+    "event_type": "role_change",
+    "label": "Became director of Hall Institute",
+    "description": "Became the director of the Hall Institute and ushered in the Golden Age of Virology.",
+    "date": {
+      "display": "1944",
+      "precision": "year",
+      "sort_start": "1944-01-01",
+      "sort_end": "1944-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "frank_macfarlane_burnet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "walter_and_eliza_hall_institute",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_ponstein_2017",
+        "page": 2,
+        "quote": "In 1944, he became the director of the Hall Institute"
+      }
+    ]
+  },
+  {
+    "id": "burnet_clonal_selection",
+    "event_type": "publication",
+    "label": "Published The Clonal Selection Theory",
+    "description": "Published another book, called The Clonal Selection Theory of Acquired Immunity.",
+    "date": {
+      "display": "1959",
+      "precision": "year",
+      "sort_start": "1959-01-01",
+      "sort_end": "1959-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "frank_macfarlane_burnet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "the_clonal_selection_theory_of_acquired_immunity",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_ponstein_2017",
+        "page": 2,
+        "quote": "In 1959 he published another book, called The Clonal Selection \nTheory of Acquired Immunity"
+      }
+    ]
+  },
+  {
+    "id": "burnet_nobel_prize",
+    "event_type": "award",
+    "label": "Awarded Nobel Prize",
+    "description": "Shared the 1960 Nobel Prize in Physiology or Medicine with Peter Medawar.",
+    "date": {
+      "display": "1960",
+      "precision": "year",
+      "sort_start": "1960-01-01",
+      "sort_end": "1960-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "frank_macfarlane_burnet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "peter_medawar",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "nobel_prize_physiology_medicine_1960",
+        "role": "awarding_body"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_ponstein_2017",
+        "page": 2,
+        "quote": "Burnet shared the 1960 Nobel \nPrize in Physiology or Medicine with Peter Medawar"
+      }
+    ]
+  },
+  {
+    "id": "burnet_death",
+    "event_type": "death",
+    "label": "Died from colorectal cancer",
+    "description": "Died from colorectal cancer in 1984.",
+    "date": {
+      "display": "1984",
+      "precision": "year",
+      "sort_start": "1984-01-01",
+      "sort_end": "1984-12-31"
+    },
+    "location": "australia",
+    "participants": [
+      {
+        "entity_id": "frank_macfarlane_burnet",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tan_ponstein_2017",
+        "page": 2,
+        "quote": "Following \nhis death from colorectal cancer in 1984"
+      }
+    ]
+  }
+]

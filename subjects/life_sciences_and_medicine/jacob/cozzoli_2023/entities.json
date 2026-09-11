@@ -1,0 +1,123 @@
+[
+  {
+    "id": "francois_jacob",
+    "entity_type": "person",
+    "name": "François Jacob",
+    "aliases": [
+      "Jacob"
+    ],
+    "summary": "French molecular biologist and geneticist, cowinner of the 1965 Nobel Prize for physiology or medicine.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "institut_pasteur",
+    "entity_type": "organization",
+    "name": "Institut Pasteur",
+    "aliases": [
+      "Institute Pasteur",
+      "Pasteur Institute"
+    ],
+    "summary": "French research institute devoted to biology, microbiology, and public health, founded by Louis Pasteur.",
+    "subtype": "lab"
+  },
+  {
+    "id": "embo",
+    "entity_type": "organization",
+    "name": "European Molecular Biology Organization",
+    "aliases": [
+      "EMBO"
+    ],
+    "summary": "Inter-European structure for molecular biologists created to institutionalize the discipline.",
+    "subtype": "organization"
+  },
+  {
+    "id": "embl",
+    "entity_type": "organization",
+    "name": "European Molecular Biology Laboratory",
+    "aliases": [
+      "EMBL"
+    ],
+    "summary": "Inter-European research laboratory for molecular biology modeled on CERN.",
+    "subtype": "lab"
+  },
+  {
+    "id": "cern",
+    "entity_type": "organization",
+    "name": "European Organization for Nuclear Research",
+    "aliases": [
+      "CERN"
+    ],
+    "summary": "European physics research organization that served as an organizational model for molecular biologists.",
+    "subtype": "lab"
+  },
+  {
+    "id": "the_logic_of_life",
+    "entity_type": "artifact",
+    "name": "The Logic of Life",
+    "aliases": [
+      "La logique du vivant"
+    ],
+    "summary": "Book by François Jacob reconstructing the history of heredity from the seventeenth century to the present.",
+    "subtype": "publication"
+  },
+  {
+    "id": "jacques_monod",
+    "entity_type": "person",
+    "name": "Jacques Monod",
+    "aliases": [
+      "Monod"
+    ],
+    "summary": "French biologist and cowinner of the 1965 Nobel Prize with Jacob, later director of Institut Pasteur.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "comite_etudes_biologie_moleculaire",
+    "entity_type": "organization",
+    "name": "Comité d'Études \"Biologie Moléculaire\"",
+    "aliases": [
+      "Comité d'Études"
+    ],
+    "summary": "French government committee established to coordinate molecular biology research and advise on funding.",
+    "subtype": "organization"
+  },
+  {
+    "id": "ciebaf",
+    "entity_type": "organization",
+    "name": "Comité International d'Études Bio-Anthropologiques et d'anthropologie fondamentale",
+    "aliases": [
+      "CIEBAF"
+    ],
+    "summary": "Committee created to fund a research center on the new discipline of bioanthropology.",
+    "subtype": "organization"
+  },
+  {
+    "id": "paris",
+    "entity_type": "place",
+    "name": "Paris",
+    "aliases": [],
+    "summary": "Capital city of France, location of Institut Pasteur.",
+    "subtype": "city",
+    "attributes": {
+      "country": "France",
+      "lat": 48.85667,
+      "lng": 2.35222,
+      "wikidata_qid": "Q90",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "geneva",
+    "entity_type": "place",
+    "name": "Geneva",
+    "aliases": [],
+    "summary": "City in Switzerland, location of CERN and the 1967 EMBC conference.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Switzerland",
+      "lat": 46.2,
+      "lng": 6.15,
+      "wikidata_qid": "Q71",
+      "geocode_basis": "country"
+    }
+  }
+]

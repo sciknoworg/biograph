@@ -1,0 +1,170 @@
+[
+  {
+    "id": "jenner_inoculated_1756",
+    "event_type": "other",
+    "label": "Inoculated against smallpox",
+    "description": "Jenner was inoculated in the old method as a boy during the mass inoculation.",
+    "date": {
+      "display": "1756",
+      "precision": "year",
+      "sort_start": "1756-01-01",
+      "sort_end": "1756-12-31"
+    },
+    "location": "wootton_under_edge",
+    "participants": [
+      {
+        "entity_id": "edward_jenner",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "razzell_edward_jenner",
+        "page": 7,
+        "quote": "He, who had been inoculated in the old method as a boy during the mass inoculation at Wootton-under-Edge in 1756, was an inoculator using the Suttonian method before he claimed to have discovered vaccination."
+      }
+    ]
+  },
+  {
+    "id": "jenner_experiments_1796_1798",
+    "event_type": "other",
+    "label": "Initial cowpox experiments",
+    "description": "Jenner conducted initial experiments with cowpox.",
+    "date": {
+      "display": "1796 and 1798",
+      "precision": "range",
+      "sort_start": "1796-01-01",
+      "sort_end": "1798-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "edward_jenner",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "razzell_edward_jenner",
+        "page": 5,
+        "quote": "After a few initial experiments with cowpox in I796 and 1798, Jenner's original vaccine lymph was lost, and it was not until the end of January 1799, when cowpox was discovered in Gray's Inn Lane by Woodville, that experiments were resumed."
+      }
+    ]
+  },
+  {
+    "id": "woodville_cowpox_1799",
+    "event_type": "other",
+    "label": "Cowpox discovered in Gray's Inn Lane",
+    "description": "Cowpox was discovered by Woodville, allowing experiments to resume.",
+    "date": {
+      "display": "end of January 1799",
+      "precision": "month",
+      "sort_start": "1799-01-01",
+      "sort_end": "1799-01-31"
+    },
+    "location": "gray_inn_lane",
+    "participants": [
+      {
+        "entity_id": "woodville",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "razzell_edward_jenner",
+        "page": 6,
+        "quote": "it was not until the end of January 1799, when cowpox was discovered in Gray's Inn Lane by Woodville, that experiments were resumed."
+      }
+    ]
+  },
+  {
+    "id": "jenner_resumed_1799",
+    "event_type": "other",
+    "label": "Experiments resumed with Woodville's lymph",
+    "description": "Jenner operated on twenty persons using lymph from Woodville.",
+    "date": {
+      "display": "February 1799",
+      "precision": "month",
+      "sort_start": "1799-02-01",
+      "sort_end": "1799-02-28"
+    },
+    "location": "berkeley",
+    "participants": [
+      {
+        "entity_id": "edward_jenner",
+        "role": "subject"
+      },
+      {
+        "entity_id": "woodville",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "razzell_edward_jenner",
+        "page": 6,
+        "quote": "With this lymph, Jenner operated on twenty persons and reported to Woodville: 'Berkely, February 1799. The rise, progress, and termination of the pustules created by the virus were exactly that of the true cowpox.'"
+      }
+    ]
+  },
+  {
+    "id": "jenner_letter_egremont_1800",
+    "event_type": "other",
+    "label": "Wrote letter to Lord Egremont",
+    "description": "Jenner wrote to his patron regarding vaccine lymph.",
+    "date": {
+      "display": "beginning of 1800",
+      "precision": "year",
+      "sort_start": "1800-01-01",
+      "sort_end": "1800-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "edward_jenner",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lord_egremont",
+        "role": "correspondent"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "razzell_edward_jenner",
+        "page": 6,
+        "quote": "At the beginning of i8oo he wrote a letter to Lord Egremont, one of his patrons, who had complained that some of the vaccine sent from London had produced pustular eruptions when used on his family at Petworth."
+      }
+    ]
+  },
+  {
+    "id": "sutton_inoculation_1766",
+    "event_type": "other",
+    "label": "Mass inoculation conducted by Daniel Sutton",
+    "description": "A mass inoculation was conducted in Maidstone.",
+    "date": {
+      "display": "1766",
+      "precision": "year",
+      "sort_start": "1766-01-01",
+      "sort_end": "1766-12-31"
+    },
+    "location": "petworth",
+    "participants": [
+      {
+        "entity_id": "daniel_sutton",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "razzell_edward_jenner",
+        "page": 2,
+        "quote": "A mass inoculation was conducted by Daniel Sutton in 1766 and its effects were described by Howlett in 1782:"
+      }
+    ]
+  }
+]

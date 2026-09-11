@@ -1,0 +1,108 @@
+[
+  {
+    "id": "steno_studied_leiden",
+    "source": "nicolaus_steno",
+    "type": "studied_at",
+    "target": "university_of_leiden",
+    "sources": [
+      {
+        "source_id": "dominici_2021",
+        "page": 63,
+        "quote": "When in 1661 he went to study medicine in the Low Countries, he connected with the circle of Dutch savants and curieux, first in the hotbed of radical thinkers that was Amsterdam, then in nearby Leiden."
+      }
+    ]
+  },
+  {
+    "id": "steno_worked_medici",
+    "source": "nicolaus_steno",
+    "type": "worked_at",
+    "target": "medici_court",
+    "sources": [
+      {
+        "source_id": "dominici_2021",
+        "page": 64,
+        "quote": "Ferdinand II and Prince Leopold recognized him as an outstanding natural philospher, an anatomist whose public dissection of a human brain performed in Paris in October, 1665 proved Descartes wrong about the manner in which this organ functions."
+      }
+    ]
+  },
+  {
+    "id": "steno_collaborated_borelli",
+    "source": "nicolaus_steno",
+    "type": "collaborated_with",
+    "target": "giovanni_alfonso_borelli",
+    "sources": [
+      {
+        "source_id": "dominici_2021",
+        "page": 68,
+        "quote": "Among the Florentine academians was Giovanni Alfonso Borelli (1608-1679), one of the most gifted disciples of Galileo Galilei."
+      }
+    ]
+  },
+  {
+    "id": "steno_published_canis_carchariae",
+    "source": "nicolaus_steno",
+    "type": "published",
+    "target": "canis_carchariae_dissectum_caput",
+    "event_id": "steno_canis_carchariae_published",
+    "sources": [
+      {
+        "source_id": "dominici_2021",
+        "page": 64,
+        "quote": "This essay was subsequently published in April 1667 as an appendix to his treatise on myology."
+      }
+    ]
+  },
+  {
+    "id": "steno_published_prodromus",
+    "source": "nicolaus_steno",
+    "type": "published",
+    "target": "prodromus",
+    "event_id": "steno_prodromus_published",
+    "sources": [
+      {
+        "source_id": "dominici_2021",
+        "page": 60,
+        "quote": "The theory was published in its most complete form in the so-called Prodromus of 1669."
+      }
+    ]
+  },
+  {
+    "id": "borelli_employed_medici",
+    "source": "giovanni_alfonso_borelli",
+    "type": "employed_by",
+    "target": "medici_court",
+    "sources": [
+      {
+        "source_id": "dominici_2021",
+        "page": 68,
+        "quote": "Among the Florentine academians was Giovanni Alfonso Borelli (1608-1679), one of the most gifted disciples of Galileo Galilei."
+      }
+    ]
+  },
+  {
+    "id": "borelli_provided_fossils",
+    "source": "giovanni_alfonso_borelli",
+    "type": "collaborated_with",
+    "target": "nicolaus_steno",
+    "sources": [
+      {
+        "source_id": "dominici_2021",
+        "page": 59,
+        "quote": "These included Giovanni Alfonso Borelli who was asked by Prince Leopoldo de' Medici to provide Steno with fossils from Sicily and Malta."
+      }
+    ]
+  },
+  {
+    "id": "steno_mentored_bartholin",
+    "source": "nicolaus_steno",
+    "type": "educated_by",
+    "target": "thomas_bartholin",
+    "sources": [
+      {
+        "source_id": "dominici_2021",
+        "page": 65,
+        "quote": "Steno had surely seen 'tongue stones' in Copenhagen in the museum of Ole Worm (1588-1654), and learned about them through his teacher Thomas Bartholin (1616-1680), who had written a book on glossopetrae after travelling to Malta in 1644."
+      }
+    ]
+  }
+]

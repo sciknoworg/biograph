@@ -1,0 +1,300 @@
+[
+  {
+    "id": "crow_birth",
+    "event_type": "birth",
+    "label": "Born in Phoenixville, Pennsylvania",
+    "date": {
+      "display": "January 18, 1916",
+      "precision": "day",
+      "sort_start": "1916-01-18",
+      "sort_end": "1916-01-18"
+    },
+    "participants": [
+      {
+        "entity_id": "james_f_crow",
+        "role": "subject"
+      }
+    ],
+    "location": "phoenixville_pennsylvania",
+    "sources": [
+      {
+        "source_id": "gianola_2012_obituary",
+        "page": 1,
+        "quote": "Professor Crow was born in Phoenixville, Pennsylvania"
+      }
+    ]
+  },
+  {
+    "id": "crow_death",
+    "event_type": "death",
+    "label": "Died at age 95",
+    "date": {
+      "display": "January 4, 2012",
+      "precision": "day",
+      "sort_start": "2012-01-04",
+      "sort_end": "2012-01-04"
+    },
+    "participants": [
+      {
+        "entity_id": "james_f_crow",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gianola_2012_obituary",
+        "page": 1,
+        "quote": "January 18, 1916– January 4, 2012"
+      }
+    ]
+  },
+  {
+    "id": "crow_bachelors",
+    "event_type": "education",
+    "label": "Received bachelor's degree from Friends University",
+    "date": {
+      "display": "unknown",
+      "precision": "year",
+      "sort_start": "1930-01-01",
+      "sort_end": "1940-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "james_f_crow",
+        "role": "subject"
+      },
+      {
+        "entity_id": "friends_university",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gianola_2012_obituary",
+        "page": 1,
+        "quote": "received his bachelor's degree from Friends University in Kansas"
+      }
+    ]
+  },
+  {
+    "id": "crow_phd",
+    "event_type": "education",
+    "label": "Earned doctorate in zoology from University of Texas",
+    "date": {
+      "display": "unknown",
+      "precision": "year",
+      "sort_start": "1930-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "james_f_crow",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_texas_at_austin",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gianola_2012_obituary",
+        "page": 1,
+        "quote": "earned his doctorate in zoology from the University of T exas in Austin"
+      }
+    ]
+  },
+  {
+    "id": "crow_dartmouth",
+    "event_type": "employment_start",
+    "label": "Worked at Dartmouth College",
+    "date": {
+      "display": "unknown",
+      "precision": "year",
+      "sort_start": "1940-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "james_f_crow",
+        "role": "employee"
+      },
+      {
+        "entity_id": "dartmouth_college",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gianola_2012_obituary",
+        "page": 1,
+        "quote": "He worked at Dartmouth College for several years"
+      }
+    ]
+  },
+  {
+    "id": "crow_uw_start",
+    "event_type": "employment_start",
+    "label": "Joined University of Wisconsin-Madison faculty",
+    "date": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "james_f_crow",
+        "role": "employee"
+      },
+      {
+        "entity_id": "university_of_wisconsin_madison",
+        "role": "employer"
+      }
+    ],
+    "location": "madison_wisconsin",
+    "sources": [
+      {
+        "source_id": "gianola_2012_obituary",
+        "page": 1,
+        "quote": "joined the University of Wisconsin-Madison faculty in 1948"
+      }
+    ]
+  },
+  {
+    "id": "crow_retirement",
+    "event_type": "retirement",
+    "label": "Retired from University of Wisconsin",
+    "date": {
+      "display": "1986",
+      "precision": "year",
+      "sort_start": "1986-01-01",
+      "sort_end": "1986-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "james_f_crow",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_wisconsin_madison",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gianola_2012_obituary",
+        "page": 1,
+        "quote": "Professor Crow \"retired\" in 1986"
+      }
+    ]
+  },
+  {
+    "id": "crow_morgan_award",
+    "event_type": "award",
+    "label": "Awarded Thomas Hunt Morgan Award",
+    "date": {
+      "display": "unknown",
+      "precision": "year",
+      "sort_start": "1990-01-01",
+      "sort_end": "2012-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "james_f_crow",
+        "role": "recipient"
+      },
+      {
+        "entity_id": "genetics_society_of_america",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gianola_2012_obituary",
+        "page": 1,
+        "quote": "He was awarded the Genetics Society of America Thomas Hunt Morgan Award for lifetime contributions to the field of genetics"
+      }
+    ]
+  },
+  {
+    "id": "crow_final_paper",
+    "event_type": "publication",
+    "label": "Published final paper",
+    "date": {
+      "display": "2012",
+      "precision": "year",
+      "sort_start": "2012-01-01",
+      "sort_end": "2012-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "james_f_crow",
+        "role": "author"
+      },
+      {
+        "entity_id": "upsetting_the_dogma_paper",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gianola_2012_obituary",
+        "page": 1,
+        "quote": "His final paper was entitled \"Upsetting the Dogma: Germline Selection in Human Males.\""
+      }
+    ]
+  },
+  {
+    "id": "crow_institute_founded",
+    "event_type": "company_founded",
+    "label": "James F. Crow Institute for the Study of Evolution began",
+    "date": {
+      "display": "2010",
+      "precision": "year",
+      "sort_start": "2010-01-01",
+      "sort_end": "2010-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "university_of_wisconsin_madison",
+        "role": "founder"
+      },
+      {
+        "entity_id": "james_f_crow_institute",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gianola_2012_obituary",
+        "page": 2,
+        "quote": "In 2010, the University of Wisconsin began the James F. Crow Institute for the Study of Evolution"
+      }
+    ]
+  },
+  {
+    "id": "crow_viola_recitals",
+    "event_type": "other",
+    "label": "Began giving annual viola recitals",
+    "date": {
+      "display": "2006",
+      "precision": "year",
+      "sort_start": "2006-01-01",
+      "sort_end": "2006-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "james_f_crow",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gianola_2012_obituary",
+        "page": 1,
+        "quote": "on his 90th birthday, he began giving annual viola recitals for the Genetics Department"
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "max_theiler_developed_17d_strain",
+    "source": "max_theiler",
+    "type": "developed",
+    "target": "x_17d_strain",
+    "event_id": "17d_report",
+    "sources": [
+      {
+        "source_id": "theiler_memorial",
+        "page": 1,
+        "quote": "As result of his efforts the now famous 17D strain was developed and in March 1937 Theiler and Smith reported that they had produced an attenuated virus which was an efficient immunizing agent."
+      }
+    ],
+    "_rejected_because": "unknown event_id '17d_report'"
+  }
+]

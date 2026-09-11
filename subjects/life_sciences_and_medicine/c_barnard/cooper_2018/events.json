@@ -1,0 +1,276 @@
+[
+  {
+    "id": "barnard_birth",
+    "event_type": "birth",
+    "label": "Born in Beaufort West",
+    "date": {
+      "display": "November 8th, 1922",
+      "precision": "day",
+      "sort_start": "1922-11-08",
+      "sort_end": "1922-11-08"
+    },
+    "participants": [
+      {
+        "entity_id": "christiaan_barnard",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cooper_2018",
+        "page": 2,
+        "quote": "He was born on November 8th, 1922"
+      }
+    ]
+  },
+  {
+    "id": "barnard_graduation",
+    "event_type": "education",
+    "label": "Graduated from University of Cape Town",
+    "date": {
+      "display": "end of 1946",
+      "precision": "year",
+      "sort_start": "1946-12-01",
+      "sort_end": "1946-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christiaan_barnard",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_cape_town",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cooper_2018",
+        "page": 3,
+        "quote": "He graduated at the end of 1946"
+      }
+    ]
+  },
+  {
+    "id": "barnard_minnesota_return",
+    "event_type": "relocation",
+    "label": "Returned to UCT from USA",
+    "description": "Returned after 30 months of surgical experience in the USA.",
+    "date": {
+      "display": "mid-1950s",
+      "precision": "decade",
+      "sort_start": "1955-01-01",
+      "sort_end": "1959-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christiaan_barnard",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cooper_2018",
+        "page": 4,
+        "quote": "After 30 months in the USA (much of it separated from his family), he returned to UCT"
+      }
+    ]
+  },
+  {
+    "id": "first_heart_transplant",
+    "event_type": "other",
+    "label": "Performed first human-to-human heart transplant",
+    "description": "Carried out the first human heart transplant on Louis Washkansky.",
+    "date": {
+      "display": "December 3rd, 1967",
+      "precision": "day",
+      "sort_start": "1967-12-03",
+      "sort_end": "1967-12-03"
+    },
+    "participants": [
+      {
+        "entity_id": "christiaan_barnard",
+        "role": "subject"
+      },
+      {
+        "entity_id": "louis_washkansky",
+        "role": "patient"
+      },
+      {
+        "entity_id": "denise_darvall",
+        "role": "donor"
+      },
+      {
+        "entity_id": "groote_schuur_hospital",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cooper_2018",
+        "page": 1,
+        "quote": "first human heart transplant that had been carried out by the South African surgeon, Christiaan ('Chris') Barnard at Groote Schuur Hospital in Cape Town on December 3rd, 1967"
+      }
+    ]
+  },
+  {
+    "id": "washkansky_death",
+    "event_type": "death",
+    "label": "Louis Washkansky died",
+    "description": "Died 18 days after the transplant from pneumonia.",
+    "date": {
+      "display": "December 21st, 1967",
+      "precision": "day",
+      "sort_start": "1967-12-21",
+      "sort_end": "1967-12-21"
+    },
+    "participants": [
+      {
+        "entity_id": "louis_washkansky",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cooper_2018",
+        "page": 11,
+        "quote": "Mr. Washkansky deteriorated rapidly and died in the early hours of Thursday, December 21st, 18 days after the transplant."
+      }
+    ]
+  },
+  {
+    "id": "second_heart_transplant",
+    "event_type": "other",
+    "label": "Performed second heart transplant",
+    "description": "Transplant on Philip Blaiberg.",
+    "date": {
+      "display": "January 2nd, 1968",
+      "precision": "day",
+      "sort_start": "1968-01-02",
+      "sort_end": "1968-01-02"
+    },
+    "participants": [
+      {
+        "entity_id": "christiaan_barnard",
+        "role": "subject"
+      },
+      {
+        "entity_id": "philip_blaiberg",
+        "role": "patient"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cooper_2018",
+        "page": 11,
+        "quote": "A donor became available on January 2nd, 1968, and the operation proceeded satisfactorily."
+      }
+    ]
+  },
+  {
+    "id": "heterotopic_transplant_development",
+    "event_type": "invention",
+    "label": "Developed heterotopic heart transplantation",
+    "description": "Set junior colleague Jacques Losman to design an operation in which the transplant was inserted as an auxiliary heart.",
+    "date": {
+      "display": "1975",
+      "precision": "year",
+      "sort_start": "1975-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christiaan_barnard",
+        "role": "subject"
+      },
+      {
+        "entity_id": "jacques_losman",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cooper_2018",
+        "page": 12,
+        "quote": "in 1975 he set his junior colleague, Jacques Losman (Figure 16), to design an operation in which the transplant was inserted as an auxiliary heart, in a heterotopic position"
+      }
+    ]
+  },
+  {
+    "id": "barnard_retirement",
+    "event_type": "retirement",
+    "label": "Retired from Groote Schuur Hospital",
+    "date": {
+      "display": "end of 1983",
+      "precision": "year",
+      "sort_start": "1983-12-01",
+      "sort_end": "1983-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christiaan_barnard",
+        "role": "subject"
+      },
+      {
+        "entity_id": "groote_schuur_hospital",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cooper_2018",
+        "page": 13,
+        "quote": "at the age of 61, he took early retirement from GSH at the end of 1983"
+      }
+    ]
+  },
+  {
+    "id": "oklahoma_city_program",
+    "event_type": "visit",
+    "label": "Helped establish Oklahoma City program",
+    "description": "Accepted an invitation to help surgeons in Oklahoma City establish a heart transplantation program.",
+    "date": {
+      "display": "1986",
+      "precision": "year",
+      "sort_start": "1986-01-01",
+      "sort_end": "1986-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "christiaan_barnard",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cooper_2018",
+        "page": 13,
+        "quote": "In 1986, he accepted an invitation to help surgeons in Oklahoma City establish a heart transplantation program."
+      }
+    ]
+  },
+  {
+    "id": "barnard_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "September 2nd, 2001",
+      "precision": "day",
+      "sort_start": "2001-09-02",
+      "sort_end": "2001-09-02"
+    },
+    "participants": [
+      {
+        "entity_id": "christiaan_barnard",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cooper_2018",
+        "page": 14,
+        "quote": "He died suddenly on September 2nd, 2001, aged 78."
+      }
+    ]
+  }
+]

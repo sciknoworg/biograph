@@ -1,0 +1,473 @@
+[
+  {
+    "id": "koch_arrived_alexandria",
+    "event_type": "visit",
+    "label": "Arrived in Alexandria",
+    "date": {
+      "display": "24 August 1883",
+      "precision": "day",
+      "sort_start": "1883-08-24",
+      "sort_end": "1883-08-24"
+    },
+    "location": "alexandria",
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      },
+      {
+        "entity_id": "german_cholera_commission",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "howard_jones_1984_bmj",
+        "page": 1,
+        "quote": "KochhadoriginallystartedinAlexandria,wherehearrivedon 24August1883astheleaderofaGermanmission"
+      }
+    ]
+  },
+  {
+    "id": "koch_first_dispatch",
+    "event_type": "publication",
+    "label": "Sent first dispatch",
+    "date": {
+      "display": "17 September 1883",
+      "precision": "day",
+      "sort_start": "1883-09-17",
+      "sort_end": "1883-09-17"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "howard_jones_1984_bmj",
+        "page": 1,
+        "quote": "hisfirstdispatchwas dated17 September.'Bythistimethemissionhadmadebacteriologicalinvestigationson 12patientswithcholera"
+      }
+    ]
+  },
+  {
+    "id": "thuillier_fell_ill",
+    "event_type": "other",
+    "label": "Thuillier fell ill",
+    "date": {
+      "display": "17 September 1883",
+      "precision": "day",
+      "sort_start": "1883-09-17",
+      "sort_end": "1883-09-17"
+    },
+    "participants": [
+      {
+        "entity_id": "louis_thuillier",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "howard_jones_1984_bmj",
+        "page": 1,
+        "quote": "foron 17SeptemberThuillierfellill,andhediedof choleratwodayslaterattheageof27."
+      }
+    ]
+  },
+  {
+    "id": "thuillier_died",
+    "event_type": "death",
+    "label": "Thuillier died of cholera",
+    "date": {
+      "display": "19 September 1883",
+      "precision": "day",
+      "sort_start": "1883-09-19",
+      "sort_end": "1883-09-19"
+    },
+    "participants": [
+      {
+        "entity_id": "louis_thuillier",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "howard_jones_1984_bmj",
+        "page": 1,
+        "quote": "foron 17SeptemberThuillierfellill,andhediedof choleratwodayslaterattheageof27."
+      }
+    ]
+  },
+  {
+    "id": "koch_second_report",
+    "event_type": "publication",
+    "label": "Sent second report",
+    "date": {
+      "display": "10 November 1883",
+      "precision": "day",
+      "sort_start": "1883-11-10",
+      "sort_end": "1883-11-10"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "howard_jones_1984_bmj",
+        "page": 1,
+        "quote": "On 10NovemberKoch senta secondreport,explaining whyhehadtelegraphedtorequestauthorisationforthemission toproceedtoCalcutta."
+      }
+    ]
+  },
+  {
+    "id": "koch_left_egypt",
+    "event_type": "relocation",
+    "label": "Left Egypt",
+    "date": {
+      "display": "13 November 1883",
+      "precision": "day",
+      "sort_start": "1883-11-13",
+      "sort_end": "1883-11-13"
+    },
+    "location": "egypt",
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "howard_jones_1984_bmj",
+        "page": 1,
+        "quote": "havingleftEgypton 13November,andproceededtoout- linean exhaustiveplanoffurtherresearch."
+      }
+    ]
+  },
+  {
+    "id": "koch_arrived_calcutta",
+    "event_type": "visit",
+    "label": "Arrived in Calcutta",
+    "date": {
+      "display": "11 December 1883",
+      "precision": "day",
+      "sort_start": "1883-12-11",
+      "sort_end": "1883-12-11"
+    },
+    "location": "calcutta",
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "howard_jones_1984_bmj",
+        "page": 1,
+        "quote": "Inthefourthhereportedon 16 DecemberthatthemissionhadarrivedinCalcuttaon 11Decem- ber"
+      }
+    ]
+  },
+  {
+    "id": "koch_fourth_dispatch",
+    "event_type": "publication",
+    "label": "Sent fourth dispatch",
+    "date": {
+      "display": "16 December 1883",
+      "precision": "day",
+      "sort_start": "1883-12-16",
+      "sort_end": "1883-12-16"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "howard_jones_1984_bmj",
+        "page": 1,
+        "quote": "Inthefourthhereportedon 16 DecemberthatthemissionhadarrivedinCalcuttaon 11Decem- ber"
+      }
+    ]
+  },
+  {
+    "id": "koch_fifth_dispatch",
+    "event_type": "publication",
+    "label": "Sent fifth dispatch",
+    "date": {
+      "display": "7 January 1884",
+      "precision": "day",
+      "sort_start": "1884-01-07",
+      "sort_end": "1884-01-07"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "howard_jones_1984_bmj",
+        "page": 1,
+        "quote": "Inhisfifthdispatchon 7January1884Kochannouncedthat hehadsuccessfullyisolatedthebacillusinpureculture."
+      }
+    ]
+  },
+  {
+    "id": "koch_sixth_dispatch",
+    "event_type": "publication",
+    "label": "Sent sixth dispatch",
+    "date": {
+      "display": "2 February 1884",
+      "precision": "day",
+      "sort_start": "1884-02-02",
+      "sort_end": "1884-02-02"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "howard_jones_1984_bmj",
+        "page": 1,
+        "quote": "On2February1884RobertKochreportedfromCalcuttatothe GermanSecretaryofStatefortheInteriorhisreasonedconvic- tionthatthevibriofoundintheintestinesandstoolsofcholera victimswas thecausalagentofthedisease."
+      }
+    ]
+  },
+  {
+    "id": "koch_seventh_dispatch",
+    "event_type": "publication",
+    "label": "Sent seventh dispatch",
+    "date": {
+      "display": "4 March 1884",
+      "precision": "day",
+      "sort_start": "1884-03-04",
+      "sort_end": "1884-03-04"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "howard_jones_1984_bmj",
+        "page": 2,
+        "quote": "On4MarchKochsenthisseventhandlastdispatch."
+      }
+    ]
+  },
+  {
+    "id": "koch_returned_berlin",
+    "event_type": "relocation",
+    "label": "Returned to Berlin",
+    "date": {
+      "display": "2 May 1884",
+      "precision": "day",
+      "sort_start": "1884-05-02",
+      "sort_end": "1884-05-02"
+    },
+    "location": "berlin",
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "howard_jones_1984_bmj",
+        "page": 2,
+        "quote": "ontheirreturntoBerlinon2Maymembersof thecommissionweretreatedasnationalheroes"
+      }
+    ]
+  },
+  {
+    "id": "koch_received_order",
+    "event_type": "award",
+    "label": "Received Order of the Throne",
+    "date": {
+      "display": "2 May 1884",
+      "precision": "day",
+      "sort_start": "1884-05-02",
+      "sort_end": "1884-05-02"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "howard_jones_1984_bmj",
+        "page": 2,
+        "quote": "Kochreceivingfrom theCrownPrincetheOrderoftheThrone(SecondClass)with Star"
+      }
+    ]
+  },
+  {
+    "id": "berlin_conference_opened",
+    "event_type": "conference",
+    "label": "Conference for discussion of cholera question opened",
+    "date": {
+      "display": "26 July 1884",
+      "precision": "day",
+      "sort_start": "1884-07-26",
+      "sort_end": "1884-07-26"
+    },
+    "location": "berlin",
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "howard_jones_1984_bmj",
+        "page": 2,
+        "quote": "On 26July1884a \"Conferenceforthediscussionofthe choleraquestion\"openedinBerlin"
+      }
+    ]
+  },
+  {
+    "id": "british_mission_sailed",
+    "event_type": "visit",
+    "label": "British mission sailed for Calcutta",
+    "date": {
+      "display": "6 August 1884",
+      "precision": "day",
+      "sort_start": "1884-08-06",
+      "sort_end": "1884-08-06"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "howard_jones_1984_bmj",
+        "page": 2,
+        "quote": "On 6 August1884a BritishmissionconsistingofEmanuel Klein,HeneageGibbes,andatechniciansailedforCalcutta"
+      }
+    ]
+  },
+  {
+    "id": "rome_conference_opened",
+    "event_type": "conference",
+    "label": "6th International Sanitary Conference opened",
+    "date": {
+      "display": "May 1885",
+      "precision": "month",
+      "sort_start": "1885-05-01",
+      "sort_end": "1885-05-31"
+    },
+    "location": "rome",
+    "participants": [
+      {
+        "entity_id": "robert_koch",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "howard_jones_1984_bmj",
+        "page": 2,
+        "quote": "Atthesixthinternationalsanitaryconference,whichopened inRomeinMay1885"
+      }
+    ]
+  },
+  {
+    "id": "pacini_published_paper",
+    "event_type": "publication",
+    "label": "Pacini published paper on cholera",
+    "date": {
+      "display": "1854",
+      "precision": "year",
+      "sort_start": "1854-01-01",
+      "sort_end": "1854-12-31"
+    },
+    "location": "florence",
+    "participants": [
+      {
+        "entity_id": "filippo_pacini",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "howard_jones_1984_bmj",
+        "page": 2,
+        "quote": "In1854Pacini publishedapaperon\"Microscopicalobservationsandpathologicaldeductionsoncholera,\""
+      }
+    ]
+  },
+  {
+    "id": "pacini_died",
+    "event_type": "death",
+    "label": "Pacini died",
+    "date": {
+      "display": "1883",
+      "precision": "year",
+      "sort_start": "1883-01-01",
+      "sort_end": "1883-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "filippo_pacini",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "howard_jones_1984_bmj",
+        "page": 2,
+        "quote": "Pacinidiedin1883-theyearinwhichKoch'smissionsailed forEgypt"
+      }
+    ]
+  },
+  {
+    "id": "pacini_recognition",
+    "event_type": "award",
+    "label": "Judicial commission adopted Vibrio cholerae Pacini 1854",
+    "date": {
+      "display": "1965",
+      "precision": "year",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "filippo_pacini",
+        "role": "subject"
+      },
+      {
+        "entity_id": "international_committee_on_bacteriological_nomenclature",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "howard_jones_1984_bmj",
+        "page": 2,
+        "quote": "PosthumousrecognitioncametoPacini82yearsafterhis deathwhenthejudicialcommissionoftheinternationalcom- mitteeonbacteriologicalnomenclatureadopted\"Vibriocholerae Pacini1854\"asthecorrectnameofthecholeravibrio."
+      }
+    ]
+  }
+]

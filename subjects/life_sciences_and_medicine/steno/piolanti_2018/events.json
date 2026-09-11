@@ -1,0 +1,384 @@
+[
+  {
+    "id": "birth_1608",
+    "event_type": "birth",
+    "label": "Born in Naples",
+    "description": "Giovanni Alfonso Borelli was born in 1608 in Naples.",
+    "date": {
+      "display": "1608",
+      "precision": "year",
+      "sort_start": "1608-01-01",
+      "sort_end": "1608-12-31"
+    },
+    "location": "naples",
+    "participants": [
+      {
+        "entity_id": "giovanni_alfonso_borelli",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "piolanti_2018",
+        "page": 167,
+        "quote": "Giovanni Alfonso Borelliwas born in 1608 inNaples"
+      }
+    ]
+  },
+  {
+    "id": "move_to_rome_1626",
+    "event_type": "relocation",
+    "label": "Moved to Rome to study",
+    "description": "Borelli moved to Rome to study mathematics and physics under Benedetto Castelli.",
+    "date": {
+      "display": "1626",
+      "precision": "year",
+      "sort_start": "1626-01-01",
+      "sort_end": "1626-12-31"
+    },
+    "location": "rome",
+    "participants": [
+      {
+        "entity_id": "giovanni_alfonso_borelli",
+        "role": "subject"
+      },
+      {
+        "entity_id": "benedetto_castelli",
+        "role": "educator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "piolanti_2018",
+        "page": 167,
+        "quote": "In 1626, Borelli moved to Rome to study mathematics and physics under Benedetto Castelli"
+      }
+    ]
+  },
+  {
+    "id": "lecturer_messina_1635",
+    "event_type": "employment_start",
+    "label": "Lecturer in Messina",
+    "description": "Borelli was a lecturer in mathematics in Messina from 1635 to 1656.",
+    "date": {
+      "display": "1635–1656",
+      "precision": "range",
+      "sort_start": "1635-01-01",
+      "sort_end": "1656-12-31"
+    },
+    "location": "messina",
+    "participants": [
+      {
+        "entity_id": "giovanni_alfonso_borelli",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_messina",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "piolanti_2018",
+        "page": 167,
+        "quote": "From 1635 to 1656, Borelli was a lecturer in mathematics in Messina, Sicily."
+      }
+    ]
+  },
+  {
+    "id": "accademia_fucina_1635",
+    "event_type": "award",
+    "label": "Joined Accademia della Fucina",
+    "description": "The Senate of Messina offered him membership in the Accademia della Fucina.",
+    "date": {
+      "display": "1635",
+      "precision": "year",
+      "sort_start": "1635-01-01",
+      "sort_end": "1635-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "giovanni_alfonso_borelli",
+        "role": "subject"
+      },
+      {
+        "entity_id": "accademia_della_fucina",
+        "role": "awarding_body"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "piolanti_2018",
+        "page": 167,
+        "quote": "In 1635, the Senate of Messina offered him a coveted membership in the Accademia della Fucina"
+      }
+    ]
+  },
+  {
+    "id": "fever_investigation_1647",
+    "event_type": "other",
+    "label": "Investigated malignant fever",
+    "description": "Borelli was designated to investigate the causes of the malignant fever in Italy.",
+    "date": {
+      "display": "1647",
+      "precision": "year",
+      "sort_start": "1647-01-01",
+      "sort_end": "1647-12-31"
+    },
+    "location": "italy",
+    "participants": [
+      {
+        "entity_id": "giovanni_alfonso_borelli",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "piolanti_2018",
+        "page": 168,
+        "quote": "investigate the causes of the malignant fever that lashed a large part of Italy in 1647."
+      }
+    ]
+  },
+  {
+    "id": "invited_pisa_1655",
+    "event_type": "employment_start",
+    "label": "Invited to University of Pisa",
+    "description": "Borelli was invited to the University of Pisa by Ferdinando De' Medici.",
+    "date": {
+      "display": "Around 1655",
+      "precision": "circa",
+      "sort_start": "1654-01-01",
+      "sort_end": "1656-12-31"
+    },
+    "location": "pisa",
+    "participants": [
+      {
+        "entity_id": "giovanni_alfonso_borelli",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_pisa",
+        "role": "employer"
+      },
+      {
+        "entity_id": "ferdinando_de_medici",
+        "role": "patron"
+      }
+    ],
+    "certainty": "approximate",
+    "sources": [
+      {
+        "source_id": "piolanti_2018",
+        "page": 168,
+        "quote": "Around 1655, Borelli was invited to the University of Pisa"
+      }
+    ]
+  },
+  {
+    "id": "return_messina_1668",
+    "event_type": "relocation",
+    "label": "Returned to University of Messina",
+    "description": "Borelli returned to the University of Messina after nearly 12 years in Pisa.",
+    "date": {
+      "display": "1668",
+      "precision": "year",
+      "sort_start": "1668-01-01",
+      "sort_end": "1668-12-31"
+    },
+    "location": "messina",
+    "participants": [
+      {
+        "entity_id": "giovanni_alfonso_borelli",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_messina",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "piolanti_2018",
+        "page": 168,
+        "quote": "In 1668, after nearly 12 years in Pisa, Borelli returned to the University of Messina"
+      }
+    ]
+  },
+  {
+    "id": "exile_rome_1668",
+    "event_type": "relocation",
+    "label": "Exiled to Rome",
+    "description": "Borelli was exiled to Rome, accused of being part of a political plot.",
+    "date": {
+      "display": "1668",
+      "precision": "year",
+      "sort_start": "1668-01-01",
+      "sort_end": "1668-12-31"
+    },
+    "location": "rome",
+    "participants": [
+      {
+        "entity_id": "giovanni_alfonso_borelli",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "piolanti_2018",
+        "page": 168,
+        "quote": "and then he was exiled to Rome, accused to be part of apolitical plot to free Sicily fromSpanish rule."
+      }
+    ]
+  },
+  {
+    "id": "consultant_christina_1672",
+    "event_type": "employment_start",
+    "label": "Consultant to Christina of Sweden",
+    "description": "Borelli became the personal medical and scientific consultant to Christina of Sweden.",
+    "date": {
+      "display": "1672",
+      "precision": "year",
+      "sort_start": "1672-01-01",
+      "sort_end": "1672-12-31"
+    },
+    "location": "rome",
+    "participants": [
+      {
+        "entity_id": "giovanni_alfonso_borelli",
+        "role": "subject"
+      },
+      {
+        "entity_id": "christina_of_sweden",
+        "role": "patron"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "piolanti_2018",
+        "page": 168,
+        "quote": "In 1672, he became the personalmedical and scientiﬁc consultant to Christina of Sweden"
+      }
+    ]
+  },
+  {
+    "id": "death_1679",
+    "event_type": "death",
+    "label": "Died",
+    "description": "Borelli died in 1679.",
+    "date": {
+      "display": "1679",
+      "precision": "year",
+      "sort_start": "1679-01-01",
+      "sort_end": "1679-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "giovanni_alfonso_borelli",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "piolanti_2018",
+        "page": 167,
+        "quote": "Giovanni Alfonso Borelli (1608–1679)"
+      }
+    ]
+  },
+  {
+    "id": "publication_motu_vol1_1680",
+    "event_type": "publication",
+    "label": "De Motu Animalium Vol I Published",
+    "description": "Volume I was published only a few months after Borelli's death.",
+    "date": {
+      "display": "1680",
+      "precision": "year",
+      "sort_start": "1680-01-01",
+      "sort_end": "1680-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "giovanni_alfonso_borelli",
+        "role": "author"
+      },
+      {
+        "entity_id": "de_motu_animalium",
+        "role": "publication"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "piolanti_2018",
+        "page": 168,
+        "quote": "Volume I was published in 1680, only a few months after Borelli's death"
+      }
+    ]
+  },
+  {
+    "id": "publication_motu_vol2_1681",
+    "event_type": "publication",
+    "label": "De Motu Animalium Vol II Published",
+    "description": "Volume II was published in 1681.",
+    "date": {
+      "display": "1681",
+      "precision": "year",
+      "sort_start": "1681-01-01",
+      "sort_end": "1681-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "giovanni_alfonso_borelli",
+        "role": "author"
+      },
+      {
+        "entity_id": "de_motu_animalium",
+        "role": "publication"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "piolanti_2018",
+        "page": 168,
+        "quote": "followed by Volume II, published in 1681."
+      }
+    ]
+  },
+  {
+    "id": "asb_founded_1977",
+    "event_type": "company_founded",
+    "label": "American Society of Biomechanics Founded",
+    "description": "The American Society of Biomechanics was founded.",
+    "date": {
+      "display": "1977",
+      "precision": "year",
+      "sort_start": "1977-01-01",
+      "sort_end": "1977-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "american_society_of_biomechanics",
+        "role": "organization"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "piolanti_2018",
+        "page": 171,
+        "quote": "American Society of Biomechanics, founded in 1977"
+      }
+    ]
+  }
+]

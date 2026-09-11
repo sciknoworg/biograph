@@ -1,0 +1,168 @@
+[
+  {
+    "id": "jms_studied_eton",
+    "source": "john_maynard_smith",
+    "type": "studied_at",
+    "target": "eton",
+    "event_id": "jms_graduate_eton",
+    "sources": [
+      {
+        "source_id": "sigmund_2005_jms_egt",
+        "page": 1,
+        "quote": "In 1938, as an eighteen-year old graduate from Eton, he had visited his uncle, a British military attaché in Berlin, and witnessed a speech by Adolf Hitler."
+      }
+    ]
+  },
+  {
+    "id": "jms_studied_ucl",
+    "source": "john_maynard_smith",
+    "type": "studied_at",
+    "target": "university_college_london",
+    "event_id": "jms_enrol_ucl",
+    "sources": [
+      {
+        "source_id": "sigmund_2005_jms_egt",
+        "page": 1,
+        "quote": "In 1947, he left his engineering job to enrol as a student of biology at University College, London – aircraft were too noisy for his taste, and he vastly preferred birds – but the training in applied mathematics would prove of great help for his postgraduate work with J.B.S. Haldane."
+      }
+    ]
+  },
+  {
+    "id": "jms_supervised_by_haldane",
+    "source": "john_maynard_smith",
+    "type": "supervised_by",
+    "target": "jbs_haldane",
+    "sources": [
+      {
+        "source_id": "sigmund_2005_jms_egt",
+        "page": 1,
+        "quote": "In 1947, he left his engineering job to enrol as a student of biology at University College, London – aircraft were too noisy for his taste, and he vastly preferred birds – but the training in applied mathematics would prove of great help for his postgraduate work with J.B.S. Haldane."
+      }
+    ]
+  },
+  {
+    "id": "jms_collaborated_price",
+    "source": "john_maynard_smith",
+    "type": "collaborated_with",
+    "target": "george_price",
+    "event_id": "jms_publish_logic_conflict",
+    "sources": [
+      {
+        "source_id": "sigmund_2005_jms_egt",
+        "page": 1,
+        "quote": "When I returned to London I contacted him, and ultimately we published a joint paper in which the concept of an evolutionarily stable strategy was applied to animal contests.´"
+      }
+    ]
+  },
+  {
+    "id": "jms_collaborated_szathmary",
+    "source": "john_maynard_smith",
+    "type": "collaborated_with",
+    "target": "eors_szathmary",
+    "event_id": "jms_publish_major_transitions",
+    "sources": [
+      {
+        "source_id": "sigmund_2005_jms_egt",
+        "page": 1,
+        "quote": "Many of the evolutionary questions arising in his joint book with Eörs Szathmary, the `Major Transitions of Evolution´ (Maynard Smith and Szathmary, 1995), were social questions, dealing with the issue of units of selection (genes, organelles, cells, organisms) ganging up to form higher units of selection (genomes, cells, organisms, societies)."
+      }
+    ]
+  },
+  {
+    "id": "jms_invented_ess",
+    "source": "john_maynard_smith",
+    "type": "invented",
+    "target": "evolutionarily_stable_strategy",
+    "event_id": "jms_visit_chicago",
+    "sources": [
+      {
+        "source_id": "sigmund_2005_jms_egt",
+        "page": 1,
+        "quote": "He suggested either to publish it somewhere else, or to re-submit a shorter version, and then went for three months to Chicago, where he developed a formal definition of evolutionarily stable strategies, and applied this to study the `Hawk-Dove-Retaliator´ game and the `War of Attrition´."
+      }
+    ]
+  },
+  {
+    "id": "jms_published_logic_conflict",
+    "source": "john_maynard_smith",
+    "type": "published",
+    "target": "logic_of_animal_conflict",
+    "event_id": "jms_publish_logic_conflict",
+    "sources": [
+      {
+        "source_id": "sigmund_2005_jms_egt",
+        "page": 1,
+        "quote": "Three aspects of that joint paper (Maynard Smith and Price, 1973) proved seminal."
+      }
+    ]
+  },
+  {
+    "id": "jms_published_book_games",
+    "source": "john_maynard_smith",
+    "type": "published",
+    "target": "evolution_and_theory_of_games_book",
+    "event_id": "jms_publish_book_games",
+    "sources": [
+      {
+        "source_id": "sigmund_2005_jms_egt",
+        "page": 1,
+        "quote": "In the preface of his book on `Evolution and the Theory of Games' (Maynard Smith 1982), Maynard Smith writes that he owes a special debt to `Peter Hammerstein, who has helped [me] to understand some theoretical questions more clearly'."
+      }
+    ]
+  },
+  {
+    "id": "jms_published_major_transitions",
+    "source": "john_maynard_smith",
+    "type": "published",
+    "target": "major_transitions_of_evolution",
+    "event_id": "jms_publish_major_transitions",
+    "sources": [
+      {
+        "source_id": "sigmund_2005_jms_egt",
+        "page": 1,
+        "quote": "Many of the evolutionary questions arising in his joint book with Eörs Szathmary, the `Major Transitions of Evolution´ (Maynard Smith and Szathmary, 1995), were social questions, dealing with the issue of units of selection (genes, organelles, cells, organisms) ganging up to form higher units of selection (genomes, cells, organisms, societies)."
+      }
+    ]
+  },
+  {
+    "id": "jms_visited_berlin",
+    "source": "john_maynard_smith",
+    "type": "visited",
+    "target": "berlin",
+    "event_id": "jms_visit_berlin",
+    "sources": [
+      {
+        "source_id": "sigmund_2005_jms_egt",
+        "page": 1,
+        "quote": "In 1938, as an eighteen-year old graduate from Eton, he had visited his uncle, a British military attaché in Berlin, and witnessed a speech by Adolf Hitler."
+      }
+    ]
+  },
+  {
+    "id": "jms_visited_chicago",
+    "source": "john_maynard_smith",
+    "type": "visited",
+    "target": "chicago",
+    "event_id": "jms_visit_chicago",
+    "sources": [
+      {
+        "source_id": "sigmund_2005_jms_egt",
+        "page": 1,
+        "quote": "He suggested either to publish it somewhere else, or to re-submit a shorter version, and then went for three months to Chicago, where he developed a formal definition of evolutionarily stable strategies, and applied this to study the `Hawk-Dove-Retaliator´ game and the `War of Attrition´."
+      }
+    ]
+  },
+  {
+    "id": "jms_lived_in_london",
+    "source": "john_maynard_smith",
+    "type": "lived_in",
+    "target": "london",
+    "sources": [
+      {
+        "source_id": "sigmund_2005_jms_egt",
+        "page": 1,
+        "quote": "When I returned to London I contacted him, and ultimately we published a joint paper in which the concept of an evolutionarily stable strategy was applied to animal contests.´"
+      }
+    ]
+  }
+]

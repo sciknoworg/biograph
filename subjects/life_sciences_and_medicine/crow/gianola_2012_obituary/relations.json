@@ -1,0 +1,165 @@
+[
+  {
+    "id": "crow_born_in_phoenixville",
+    "source": "james_f_crow",
+    "type": "born_in",
+    "target": "phoenixville_pennsylvania",
+    "sources": [
+      {
+        "source_id": "gianola_2012_obituary",
+        "page": 1,
+        "quote": "Professor Crow was born in Phoenixville, Pennsylvania"
+      }
+    ]
+  },
+  {
+    "id": "crow_studied_friends",
+    "source": "james_f_crow",
+    "type": "studied_at",
+    "target": "friends_university",
+    "sources": [
+      {
+        "source_id": "gianola_2012_obituary",
+        "page": 1,
+        "quote": "received his bachelor's degree from Friends University in Kansas"
+      }
+    ]
+  },
+  {
+    "id": "crow_studied_ut",
+    "source": "james_f_crow",
+    "type": "studied_at",
+    "target": "university_of_texas_at_austin",
+    "sources": [
+      {
+        "source_id": "gianola_2012_obituary",
+        "page": 1,
+        "quote": "earned his doctorate in zoology from the University of T exas in Austin"
+      }
+    ]
+  },
+  {
+    "id": "crow_worked_dartmouth",
+    "source": "james_f_crow",
+    "type": "worked_at",
+    "target": "dartmouth_college",
+    "sources": [
+      {
+        "source_id": "gianola_2012_obituary",
+        "page": 1,
+        "quote": "He worked at Dartmouth College for several years"
+      }
+    ]
+  },
+  {
+    "id": "crow_worked_uw",
+    "source": "james_f_crow",
+    "type": "worked_at",
+    "target": "university_of_wisconsin_madison",
+    "start": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "gianola_2012_obituary",
+        "page": 1,
+        "quote": "joined the University of Wisconsin-Madison faculty in 1948"
+      }
+    ]
+  },
+  {
+    "id": "crow_mentored_temin",
+    "source": "james_f_crow",
+    "type": "mentored",
+    "target": "rayla_temin",
+    "sources": [
+      {
+        "source_id": "gianola_2012_obituary",
+        "page": 1,
+        "quote": "She completed her Ph.D. under Professor Crow in 1963"
+      }
+    ]
+  },
+  {
+    "id": "crow_mentored_hartl",
+    "source": "james_f_crow",
+    "type": "mentored",
+    "target": "daniel_hartl",
+    "sources": [
+      {
+        "source_id": "gianola_2012_obituary",
+        "page": 2,
+        "quote": "Daniel Hartl, Higgins Professor of Biology at Harvard University, studied under Professor Crow"
+      }
+    ]
+  },
+  {
+    "id": "crow_member_nas",
+    "source": "james_f_crow",
+    "type": "member_of",
+    "target": "national_academy_of_sciences",
+    "sources": [
+      {
+        "source_id": "gianola_2012_obituary",
+        "page": 2,
+        "quote": "His memberships in the National Academy of Sciences"
+      }
+    ]
+  },
+  {
+    "id": "crow_member_royal",
+    "source": "james_f_crow",
+    "type": "member_of",
+    "target": "royal_society",
+    "sources": [
+      {
+        "source_id": "gianola_2012_obituary",
+        "page": 2,
+        "quote": "the Royal Society"
+      }
+    ]
+  },
+  {
+    "id": "crow_awarded_morgan",
+    "source": "james_f_crow",
+    "type": "awarded",
+    "target": "thomas_hunt_morgan_award",
+    "sources": [
+      {
+        "source_id": "gianola_2012_obituary",
+        "page": 1,
+        "quote": "He was awarded the Genetics Society of America Thomas Hunt Morgan Award for lifetime contributions to the field of genetics"
+      }
+    ]
+  },
+  {
+    "id": "crow_published_final_paper",
+    "source": "james_f_crow",
+    "type": "published",
+    "target": "upsetting_the_dogma_paper",
+    "sources": [
+      {
+        "source_id": "gianola_2012_obituary",
+        "page": 1,
+        "quote": "His final paper was entitled \"Upsetting the Dogma: Germline Selection in Human Males.\""
+      }
+    ]
+  },
+  {
+    "id": "institute_named_after_crow",
+    "source": "james_f_crow_institute",
+    "type": "renamed_to",
+    "target": "james_f_crow",
+    "note": "Institute named in honor of Crow",
+    "sources": [
+      {
+        "source_id": "gianola_2012_obituary",
+        "page": 2,
+        "quote": "the future institute's members insisted instead to name the new entity in honor of Professor Crow"
+      }
+    ]
+  }
+]

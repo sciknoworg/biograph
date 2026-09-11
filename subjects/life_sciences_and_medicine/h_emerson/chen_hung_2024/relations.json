@@ -1,0 +1,136 @@
+[
+  {
+    "id": "emerson_born_nyc",
+    "source": "john_haven_emerson",
+    "type": "born_in",
+    "target": "new_york_city",
+    "sources": [
+      {
+        "source_id": "chen_hung_2024",
+        "page": 1,
+        "quote": "John Haven \"Jack\" Emerson was born on February 5, 1906, in New York City"
+      }
+    ]
+  },
+  {
+    "id": "emerson_son_george",
+    "source": "john_haven_emerson",
+    "type": "family_of",
+    "target": "george_emerson",
+    "note": "George is Emerson's son.",
+    "sources": [
+      {
+        "source_id": "chen_hung_2024",
+        "page": 1,
+        "quote": "as recalled by his son George"
+      }
+    ]
+  },
+  {
+    "id": "emerson_father_haven",
+    "source": "john_haven_emerson",
+    "type": "family_of",
+    "target": "haven_emerson",
+    "note": "Haven is Emerson's father.",
+    "sources": [
+      {
+        "source_id": "chen_hung_2024",
+        "page": 1,
+        "quote": "Jack's father, Haven Emerson, was a Public Health Professor at Columbia University"
+      }
+    ]
+  },
+  {
+    "id": "haven_worked_columbia",
+    "source": "haven_emerson",
+    "type": "worked_at",
+    "target": "columbia_university",
+    "sources": [
+      {
+        "source_id": "chen_hung_2024",
+        "page": 1,
+        "quote": "Haven Emerson, was a Public Health Professor at Columbia University"
+      }
+    ]
+  },
+  {
+    "id": "emerson_studied_ethical",
+    "source": "john_haven_emerson",
+    "type": "studied_at",
+    "target": "ethical_culture_school",
+    "sources": [
+      {
+        "source_id": "chen_hung_2024",
+        "page": 1,
+        "quote": "attending the Ethical Culture School as a young boy"
+      }
+    ]
+  },
+  {
+    "id": "emerson_founded_company",
+    "source": "john_haven_emerson",
+    "type": "founded",
+    "target": "jh_emerson_company",
+    "sources": [
+      {
+        "source_id": "chen_hung_2024",
+        "page": 2,
+        "quote": "available from the J.H. Emerson Company"
+      }
+    ]
+  },
+  {
+    "id": "emerson_invented_iron_lung",
+    "source": "john_haven_emerson",
+    "type": "invented",
+    "target": "emersons_iron_lung",
+    "event_id": "emerson_iron_lung_improvement",
+    "sources": [
+      {
+        "source_id": "chen_hung_2024",
+        "page": 1,
+        "quote": "He is best known for his improvements to the iron lung, resulting in Emerson's iron lung"
+      }
+    ]
+  },
+  {
+    "id": "emerson_invented_barcroft",
+    "source": "john_haven_emerson",
+    "type": "invented",
+    "target": "barcroft_warburg_apparatus",
+    "event_id": "barcroft_warburg_invention",
+    "sources": [
+      {
+        "source_id": "chen_hung_2024",
+        "page": 1,
+        "quote": "In 1928, Emerson designed a Barcroft-Warburg apparatus"
+      }
+    ]
+  },
+  {
+    "id": "drinker_invented_respirator",
+    "source": "philip_drinker",
+    "type": "invented",
+    "target": "drinkers_respirator",
+    "sources": [
+      {
+        "source_id": "chen_hung_2024",
+        "page": 1,
+        "quote": "Harvard engineer Philip Drinker (1894-1972) and pediatrician Charles F. McKhann III (1889-1988) reported using a mechanical respiratory device"
+      }
+    ]
+  },
+  {
+    "id": "drinker_collaborated_mckhann",
+    "source": "philip_drinker",
+    "type": "collaborated_with",
+    "target": "charles_f_mckhann_iii",
+    "sources": [
+      {
+        "source_id": "chen_hung_2024",
+        "page": 1,
+        "quote": "Philip Drinker (1894-1972) and pediatrician Charles F. McKhann III (1889-1988) reported using a mechanical respiratory device"
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "pacini_worked_pistoia",
+    "source": "filippo_pacini",
+    "type": "worked_at",
+    "target": "pistoia",
+    "start": {
+      "display": "until 1840",
+      "precision": "year",
+      "sort_start": "1812-01-01",
+      "sort_end": "1840-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "natale_2012",
+        "page": 1,
+        "quote": "where he worked until 1840"
+      }
+    ],
+    "_rejected_because": "'worked_at' expects target entity_type organization, but 'pistoia' is 'place'"
+  },
+  {
+    "id": "pacini_worked_pisa",
+    "source": "filippo_pacini",
+    "type": "worked_at",
+    "target": "pisa",
+    "start": {
+      "display": "1840-1846",
+      "precision": "range",
+      "sort_start": "1840-01-01",
+      "sort_end": "1846-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "natale_2012",
+        "page": 1,
+        "quote": "then he moved to Pisa (1840-1846)"
+      }
+    ],
+    "_rejected_because": "'worked_at' expects target entity_type organization, but 'pisa' is 'place'"
+  },
+  {
+    "id": "pacini_worked_florence",
+    "source": "filippo_pacini",
+    "type": "worked_at",
+    "target": "florence",
+    "start": {
+      "display": "since 1847",
+      "precision": "year",
+      "sort_start": "1847-01-01",
+      "sort_end": "1883-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "natale_2012",
+        "page": 1,
+        "quote": "and Florence (since 1847)"
+      }
+    ],
+    "_rejected_because": "'worked_at' expects target entity_type organization, but 'florence' is 'place'"
+  }
+]

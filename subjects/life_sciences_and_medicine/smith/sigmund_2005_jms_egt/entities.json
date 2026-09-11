@@ -1,0 +1,285 @@
+[
+  {
+    "id": "john_maynard_smith",
+    "entity_type": "person",
+    "name": "John Maynard Smith",
+    "aliases": [
+      "JMS",
+      "John Maynard Smith"
+    ],
+    "summary": "British evolutionary biologist and geneticist who founded evolutionary game theory.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "karl_sigmund",
+    "entity_type": "person",
+    "name": "Karl Sigmund",
+    "aliases": [],
+    "summary": "Austrian mathematician and author of this biographical report on JMS.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "jbs_haldane",
+    "entity_type": "person",
+    "name": "J.B.S. Haldane",
+    "aliases": [
+      "Haldane",
+      "JBS Haldane"
+    ],
+    "summary": "British geneticist and JMS's postgraduate supervisor.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "george_price",
+    "entity_type": "person",
+    "name": "George Price",
+    "aliases": [
+      "Price",
+      "GR Price"
+    ],
+    "summary": "American scientist who collaborated with JMS on evolutionary stable strategies.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "william_d_hamilton",
+    "entity_type": "person",
+    "name": "William D. Hamilton",
+    "aliases": [
+      "Hamilton",
+      "W.D. Hamilton"
+    ],
+    "summary": "British evolutionary biologist whose PhD JMS examined.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "ra_fisher",
+    "entity_type": "person",
+    "name": "R.A. Fisher",
+    "aliases": [
+      "Fisher",
+      "RA Fisher"
+    ],
+    "summary": "British geneticist who earlier suggested game theory analogies in evolution.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "john_von_neumann",
+    "entity_type": "person",
+    "name": "John von Neumann",
+    "aliases": [
+      "von Neumann"
+    ],
+    "summary": "Mathematician who co-founded game theory.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "oskar_morgenstern",
+    "entity_type": "person",
+    "name": "Oskar Morgenstern",
+    "aliases": [
+      "Morgenstern"
+    ],
+    "summary": "Economist who co-founded game theory with von Neumann.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "richard_lewontin",
+    "entity_type": "person",
+    "name": "Richard Lewontin",
+    "aliases": [
+      "Lewontin"
+    ],
+    "summary": "Evolutionary biologist who discussed populations playing against Nature.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "eors_szathmary",
+    "entity_type": "person",
+    "name": "Eörs Szathmary",
+    "aliases": [
+      "Szathmary",
+      "E Szathmary"
+    ],
+    "summary": "Hungarian biologist who co-authored 'Major Transitions of Evolution' with JMS.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "peter_hammerstein",
+    "entity_type": "person",
+    "name": "Peter Hammerstein",
+    "aliases": [
+      "Hammerstein"
+    ],
+    "summary": "PhD student who helped JMS understand game theory concepts.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "reinhard_selten",
+    "entity_type": "person",
+    "name": "Reinhard Selten",
+    "aliases": [
+      "Selten"
+    ],
+    "summary": "Eminent game theorist who supervised Peter Hammerstein.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "ernst_mayr",
+    "entity_type": "person",
+    "name": "Ernst Mayr",
+    "aliases": [
+      "Mayr"
+    ],
+    "summary": "Biologist who described the conceptual revolution in biology.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "eton",
+    "entity_type": "organization",
+    "name": "Eton",
+    "aliases": [],
+    "summary": "British independent school where JMS graduated.",
+    "subtype": "school"
+  },
+  {
+    "id": "university_college_london",
+    "entity_type": "organization",
+    "name": "University College, London",
+    "aliases": [
+      "UCL"
+    ],
+    "summary": "University where JMS studied biology.",
+    "subtype": "university"
+  },
+  {
+    "id": "iiasa",
+    "entity_type": "organization",
+    "name": "International Institute for Applied Systems Analysis",
+    "aliases": [
+      "IIASA"
+    ],
+    "summary": "Publisher of this interim report.",
+    "subtype": "institute"
+  },
+  {
+    "id": "university_of_vienna",
+    "entity_type": "organization",
+    "name": "University of Vienna",
+    "aliases": [],
+    "summary": "University where Karl Sigmund is affiliated.",
+    "subtype": "university"
+  },
+  {
+    "id": "santa_fe_institute",
+    "entity_type": "organization",
+    "name": "Santa Fé Institute",
+    "aliases": [
+      "Santa Fe Institute"
+    ],
+    "summary": "Research institute where visible work in agent-based modelling was performed.",
+    "subtype": "institute"
+  },
+  {
+    "id": "nature_journal",
+    "entity_type": "organization",
+    "name": "Nature",
+    "aliases": [],
+    "summary": "Scientific journal where JMS published key papers.",
+    "subtype": "journal"
+  },
+  {
+    "id": "berlin",
+    "entity_type": "place",
+    "name": "Berlin",
+    "aliases": [],
+    "summary": "City JMS visited in 1938.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Germany",
+      "lat": 52.51667,
+      "lng": 13.38333,
+      "wikidata_qid": "Q64",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "chicago",
+    "entity_type": "place",
+    "name": "Chicago",
+    "aliases": [],
+    "summary": "City JMS visited for three months in 1970.",
+    "subtype": "city",
+    "attributes": {
+      "country": "United States",
+      "lat": 41.88194,
+      "lng": -87.62778,
+      "wikidata_qid": "Q1297",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "london",
+    "entity_type": "place",
+    "name": "London",
+    "aliases": [],
+    "summary": "City where JMS returned after Chicago.",
+    "subtype": "city",
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 51.50722,
+      "lng": -0.1275,
+      "wikidata_qid": "Q84",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "logic_of_animal_conflict",
+    "entity_type": "artifact",
+    "name": "The logic of animal conflict",
+    "aliases": [],
+    "summary": "Seminal 1973 paper by JMS and Price introducing ESS.",
+    "subtype": "publication"
+  },
+  {
+    "id": "evolution_and_theory_of_games_book",
+    "entity_type": "artifact",
+    "name": "Evolution and the Theory of Games",
+    "aliases": [],
+    "summary": "1982 book by JMS on evolutionary game theory.",
+    "subtype": "publication"
+  },
+  {
+    "id": "major_transitions_of_evolution",
+    "entity_type": "artifact",
+    "name": "Major Transitions of Evolution",
+    "aliases": [],
+    "summary": "1995 book by JMS and Szathmary on units of selection.",
+    "subtype": "publication"
+  },
+  {
+    "id": "birds_as_aeroplanes",
+    "entity_type": "artifact",
+    "name": "Birds as aeroplanes",
+    "aliases": [],
+    "summary": "1953 paper by JMS on bird flight.",
+    "subtype": "publication"
+  },
+  {
+    "id": "theory_of_games_and_economic_behaviour",
+    "entity_type": "artifact",
+    "name": "The Theory of Games and Economic Behaviour",
+    "aliases": [],
+    "summary": "1944 book by von Neumann and Morgenstern.",
+    "subtype": "publication"
+  },
+  {
+    "id": "evolutionarily_stable_strategy",
+    "entity_type": "artifact",
+    "name": "Evolutionarily Stable Strategy",
+    "aliases": [
+      "ESS"
+    ],
+    "summary": "Mathematical concept defined by JMS for evolutionary biology.",
+    "subtype": "concept"
+  }
+]

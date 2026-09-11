@@ -1,0 +1,230 @@
+[
+  {
+    "id": "alan_hodgkin",
+    "entity_type": "person",
+    "name": "Alan Hodgkin",
+    "aliases": [
+      "Sir Alan Hodgkin"
+    ],
+    "summary": "British physiologist and biophysicist known for work on nerve action potentials.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "andrew_huxley",
+    "entity_type": "person",
+    "name": "Andrew Huxley",
+    "aliases": [
+      "Huxley"
+    ],
+    "summary": "British physiologist and biophysicist, collaborator of Hodgkin.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "peyton_rous",
+    "entity_type": "person",
+    "name": "Peyton Rous",
+    "aliases": [
+      "father-in-law"
+    ],
+    "summary": "American pathologist, Nobel laureate and Hodgkin's father-in-law.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "e_g_bowen",
+    "entity_type": "person",
+    "name": "E.G. Bowen",
+    "aliases": [],
+    "summary": "Scientist involved in radar research, colleague of Hodgkin.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "sir_bernard_lovell",
+    "entity_type": "person",
+    "name": "Sir Bernard Lovell",
+    "aliases": [],
+    "summary": "Physicist and radio astronomer, colleague of Hodgkin.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "em_tansey",
+    "entity_type": "person",
+    "name": "E.M. Tansey",
+    "aliases": [],
+    "summary": "Historian at Wellcome Institute, author of this review.",
+    "subtype": "historian"
+  },
+  {
+    "id": "trinity_college_cambridge",
+    "entity_type": "organization",
+    "name": "Trinity College, Cambridge",
+    "aliases": [
+      "Trinity"
+    ],
+    "summary": "Constituent college of the University of Cambridge.",
+    "subtype": "university"
+  },
+  {
+    "id": "royal_society",
+    "entity_type": "organization",
+    "name": "Royal Society",
+    "aliases": [],
+    "summary": "Learned society for science, UK.",
+    "subtype": "organization"
+  },
+  {
+    "id": "physiological_society",
+    "entity_type": "organization",
+    "name": "Physiological Society",
+    "aliases": [],
+    "summary": "Learned society for physiology, UK.",
+    "subtype": "organization"
+  },
+  {
+    "id": "journal_of_physiology",
+    "entity_type": "artifact",
+    "name": "Journal of Physiology",
+    "aliases": [
+      "Journal ofPhYsiology"
+    ],
+    "summary": "Scientific journal publishing physiology research.",
+    "subtype": "publication"
+  },
+  {
+    "id": "cambridge_university_press",
+    "entity_type": "organization",
+    "name": "Cambridge University Press",
+    "aliases": [],
+    "summary": "Publishing house of the University of Cambridge.",
+    "subtype": "company"
+  },
+  {
+    "id": "marine_laboratory_plymouth",
+    "entity_type": "organization",
+    "name": "Marine Laboratory, Plymouth",
+    "aliases": [
+      "Marine Laboratory"
+    ],
+    "summary": "Research facility in Plymouth for marine biology.",
+    "subtype": "lab"
+  },
+  {
+    "id": "air_ministry",
+    "entity_type": "organization",
+    "name": "Air Ministry",
+    "aliases": [],
+    "summary": "Government department responsible for Royal Air Force.",
+    "subtype": "organization"
+  },
+  {
+    "id": "navy",
+    "entity_type": "organization",
+    "name": "Navy",
+    "aliases": [],
+    "summary": "Naval warfare service branch.",
+    "subtype": "organization"
+  },
+  {
+    "id": "international_physiological_congress",
+    "entity_type": "organization",
+    "name": "International Physiological Congress",
+    "aliases": [],
+    "summary": "International conference on physiology.",
+    "subtype": "conference"
+  },
+  {
+    "id": "plymouth",
+    "entity_type": "place",
+    "name": "Plymouth",
+    "aliases": [],
+    "summary": "City in Devon, England.",
+    "subtype": "city",
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 50.37139,
+      "lng": -4.14222,
+      "wikidata_qid": "Q43382",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "nazi_germany",
+    "entity_type": "place",
+    "name": "Nazi Germany",
+    "aliases": [],
+    "summary": "Germany under Nazi regime 1933-1945.",
+    "subtype": "country",
+    "attributes": {
+      "country": "Germany"
+    }
+  },
+  {
+    "id": "poland",
+    "entity_type": "place",
+    "name": "Poland",
+    "aliases": [],
+    "summary": "Country in Central Europe.",
+    "subtype": "country",
+    "attributes": {
+      "country": "Poland",
+      "lat": 52.0,
+      "lng": 19.0,
+      "wikidata_qid": "Q36",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "stockholm",
+    "entity_type": "place",
+    "name": "Stockholm",
+    "aliases": [],
+    "summary": "Capital city of Sweden.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Sweden",
+      "lat": 59.32944,
+      "lng": 18.06861,
+      "wikidata_qid": "Q1754",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "japan",
+    "entity_type": "place",
+    "name": "Japan",
+    "aliases": [],
+    "summary": "Country in East Asia.",
+    "subtype": "country",
+    "attributes": {
+      "country": "Japan",
+      "lat": 35.0,
+      "lng": 136.0,
+      "wikidata_qid": "Q17",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "china",
+    "entity_type": "place",
+    "name": "China",
+    "aliases": [],
+    "summary": "Country in East Asia.",
+    "subtype": "country",
+    "attributes": {
+      "country": "China",
+      "lat": 35.0,
+      "lng": 105.0,
+      "wikidata_qid": "Q29520",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "university_of_cambridge",
+    "entity_type": "organization",
+    "name": "University of Cambridge",
+    "aliases": [
+      "Cambridge"
+    ],
+    "summary": "Public collegiate research university in Cambridge, England.",
+    "subtype": "university"
+  }
+]

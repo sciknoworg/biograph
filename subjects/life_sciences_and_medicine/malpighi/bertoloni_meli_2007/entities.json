@@ -1,0 +1,313 @@
+[
+  {
+    "id": "marcello_malpighi",
+    "entity_type": "person",
+    "name": "Marcello Malpighi",
+    "aliases": [
+      "Malpighi"
+    ],
+    "summary": "Seventeenth-century Italian anatomist and physician known for microscopic investigations of organs and tissues.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "giovanni_alfonso_borelli",
+    "entity_type": "person",
+    "name": "Giovanni Alfonso Borelli",
+    "aliases": [
+      "Borelli"
+    ],
+    "summary": "Italian physiologist and mathematician who served as Malpighi's philosophical mentor.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "giovanni_girolamo_sbaraglia",
+    "entity_type": "person",
+    "name": "Giovanni Girolamo Sbaraglia",
+    "aliases": [
+      "Sbaraglia"
+    ],
+    "summary": "Italian physician and colleague of Malpighi who opposed microscopic anatomical investigations.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "giovanni_battista_morgagni",
+    "entity_type": "person",
+    "name": "Giovanni Battista Morgagni",
+    "aliases": [
+      "Morgagni"
+    ],
+    "summary": "Italian anatomist who joined the controversy against Sbaraglia and established pathological anatomy.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "henry_oldenburg",
+    "entity_type": "person",
+    "name": "Henry Oldenburg",
+    "aliases": [
+      "Oldenburg"
+    ],
+    "summary": "Secretary of the Royal Society who corresponded with Malpighi.",
+    "subtype": "administrator"
+  },
+  {
+    "id": "richard_waller",
+    "entity_type": "person",
+    "name": "Richard Waller",
+    "aliases": [
+      "Waller"
+    ],
+    "summary": "Secretary of the Royal Society who received letters from Malpighi.",
+    "subtype": "administrator"
+  },
+  {
+    "id": "pope_innocent_xii",
+    "entity_type": "person",
+    "name": "Pope Innocent XII",
+    "aliases": [
+      "Innocent XII"
+    ],
+    "summary": "Pope who appointed Malpighi as his personal archiater.",
+    "subtype": "political_leader"
+  },
+  {
+    "id": "francesco_redi",
+    "entity_type": "person",
+    "name": "Francesco Redi",
+    "aliases": [
+      "Redi"
+    ],
+    "summary": "Italian physician and naturalist acquainted with Malpighi.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "galileo_galilei",
+    "entity_type": "person",
+    "name": "Galileo Galilei",
+    "aliases": [
+      "Galileo"
+    ],
+    "summary": "Italian astronomer and physicist whose works influenced Malpighi's style and philosophy.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "robert_hooke",
+    "entity_type": "person",
+    "name": "Robert Hooke",
+    "aliases": [
+      "Hooke"
+    ],
+    "summary": "English natural philosopher known for Micrographia.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "bologna_university",
+    "entity_type": "organization",
+    "name": "Bologna University",
+    "aliases": [
+      "Bologna"
+    ],
+    "summary": "Italian university where Malpighi and Sbaraglia were colleagues.",
+    "subtype": "university"
+  },
+  {
+    "id": "pisa_university",
+    "entity_type": "organization",
+    "name": "Pisa University",
+    "aliases": [
+      "Pisa"
+    ],
+    "summary": "Italian university where Malpighi and Borelli met as professors.",
+    "subtype": "university"
+  },
+  {
+    "id": "royal_society",
+    "entity_type": "organization",
+    "name": "Royal Society",
+    "aliases": [
+      "the Society"
+    ],
+    "summary": "English scientific society that published Malpighi's works.",
+    "subtype": "organization"
+  },
+  {
+    "id": "bologna_college_of_physicians",
+    "entity_type": "organization",
+    "name": "Bologna College of Physicians",
+    "aliases": [],
+    "summary": "Professional body that elected Malpighi as a member.",
+    "subtype": "organization"
+  },
+  {
+    "id": "rome",
+    "entity_type": "place",
+    "name": "Rome",
+    "aliases": [],
+    "summary": "City where Malpighi served as papal archiater.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Italy",
+      "lat": 41.89306,
+      "lng": 12.48278,
+      "wikidata_qid": "Q220",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "bologna",
+    "entity_type": "place",
+    "name": "Bologna",
+    "aliases": [],
+    "summary": "City where Malpighi worked and faced academic disputes.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Italy",
+      "lat": 44.49389,
+      "lng": 11.34278,
+      "wikidata_qid": "Q1891",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "pisa",
+    "entity_type": "place",
+    "name": "Pisa",
+    "aliases": [],
+    "summary": "City where Malpighi met Borelli.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Italy",
+      "lat": 43.71667,
+      "lng": 10.4,
+      "wikidata_qid": "Q13375",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "messina",
+    "entity_type": "place",
+    "name": "Messina",
+    "aliases": [],
+    "summary": "City where Malpighi worked in the 1660s.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Italy",
+      "lat": 38.19361,
+      "lng": 15.55417,
+      "wikidata_qid": "Q13666",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "london",
+    "entity_type": "place",
+    "name": "London",
+    "aliases": [],
+    "summary": "City where Malpighi's Risposta was published.",
+    "subtype": "city",
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 51.50722,
+      "lng": -0.1275,
+      "wikidata_qid": "Q84",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "epistolae_de_pulmonibus",
+    "entity_type": "artifact",
+    "name": "Epistolae de pulmonibus",
+    "aliases": [],
+    "summary": "Malpighi's first work on the microstructure of lungs.",
+    "subtype": "publication"
+  },
+  {
+    "id": "risposta",
+    "entity_type": "artifact",
+    "name": "Risposta",
+    "aliases": [
+      "Malpighi's Risposta"
+    ],
+    "summary": "Malpighi's posthumous reply to Sbaraglia.",
+    "subtype": "publication"
+  },
+  {
+    "id": "opera_posthuma",
+    "entity_type": "artifact",
+    "name": "Opera posthuma",
+    "aliases": [
+      "Malpighi's Opera posthuma"
+    ],
+    "summary": "Collection of Malpighi's posthumous works.",
+    "subtype": "publication"
+  },
+  {
+    "id": "de_lingua",
+    "entity_type": "artifact",
+    "name": "De lingua",
+    "aliases": [],
+    "summary": "Anatomical tract by Malpighi on the tongue.",
+    "subtype": "publication"
+  },
+  {
+    "id": "de_externo_tactus_organo",
+    "entity_type": "artifact",
+    "name": "De externo tactus organo",
+    "aliases": [],
+    "summary": "Anatomical tract by Malpighi on the organ of touch.",
+    "subtype": "publication"
+  },
+  {
+    "id": "de_bombyce",
+    "entity_type": "artifact",
+    "name": "De bombyce",
+    "aliases": [],
+    "summary": "Malpighi's publication on the silkworm.",
+    "subtype": "publication"
+  },
+  {
+    "id": "anatome_plantarum",
+    "entity_type": "artifact",
+    "name": "Anatome plantarum",
+    "aliases": [],
+    "summary": "Malpighi's extensive work on plant anatomy.",
+    "subtype": "publication"
+  },
+  {
+    "id": "micrographia",
+    "entity_type": "artifact",
+    "name": "Micrographia",
+    "aliases": [
+      "Hooke's Micrographia"
+    ],
+    "summary": "Robert Hooke's book of microscopy.",
+    "subtype": "publication"
+  },
+  {
+    "id": "assayer",
+    "entity_type": "artifact",
+    "name": "Assayer",
+    "aliases": [
+      "Galileo's Assayer"
+    ],
+    "summary": "Galileo's work used as a literary model by Malpighi.",
+    "subtype": "publication"
+  },
+  {
+    "id": "de_motu_animalium",
+    "entity_type": "artifact",
+    "name": "De motu animalium",
+    "aliases": [],
+    "summary": "Borelli's posthumous work criticizing Malpighi's views.",
+    "subtype": "publication"
+  },
+  {
+    "id": "de_recentiorum_medicorum_studio",
+    "entity_type": "artifact",
+    "name": "De recentiorum medicorum studio dissertatio epistolaris ad amicum",
+    "aliases": [
+      "Sbaraglia's opening salvo"
+    ],
+    "summary": "Sbaraglia's work attacking recent anatomical investigations.",
+    "subtype": "publication"
+  }
+]

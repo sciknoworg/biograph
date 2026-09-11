@@ -1,0 +1,226 @@
+[
+  {
+    "id": "wright_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1861",
+      "precision": "year",
+      "sort_start": "1861-01-01",
+      "sort_end": "1861-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "almroth_wright",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lowy_1988_immunology_literature",
+        "page": 2,
+        "quote": "Sir Almroth Wright (1861-1947)"
+      }
+    ]
+  },
+  {
+    "id": "wright_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1947",
+      "precision": "year",
+      "sort_start": "1947-01-01",
+      "sort_end": "1947-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "almroth_wright",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lowy_1988_immunology_literature",
+        "page": 2,
+        "quote": "Sir Almroth Wright (1861-1947)"
+      }
+    ]
+  },
+  {
+    "id": "wright_vaccine_development",
+    "event_type": "invention",
+    "label": "Developed anti-typhoid vaccine",
+    "date": {
+      "display": "1897-98",
+      "precision": "range",
+      "sort_start": "1897-01-01",
+      "sort_end": "1998-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "almroth_wright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "anti_typhoid_vaccine",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lowy_1988_immunology_literature",
+        "page": 2,
+        "quote": "Wright fought for many years to get official recognition for the heat-killed, anti-typhoid vaccine he developed in 1897-98."
+      }
+    ]
+  },
+  {
+    "id": "wright_st_marys_appointment",
+    "event_type": "employment_start",
+    "label": "Became head of bacteriology and pathology at St Mary's Hospital",
+    "date": {
+      "display": "1902",
+      "precision": "year",
+      "sort_start": "1902-01-01",
+      "sort_end": "1902-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "almroth_wright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "st_marys_hospital",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lowy_1988_immunology_literature",
+        "page": 2,
+        "quote": "When in 1902 he became the head of the departments of bacteriology and pathology at St Mary's Hospital in London"
+      }
+    ]
+  },
+  {
+    "id": "wright_knighthood",
+    "event_type": "award",
+    "label": "Knighted",
+    "date": {
+      "display": "1906",
+      "precision": "year",
+      "sort_start": "1906-01-01",
+      "sort_end": "1906-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "almroth_wright",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lowy_1988_immunology_literature",
+        "page": 5,
+        "quote": "Wright was knighted in 1906, the year Shaw's play was written."
+      }
+    ]
+  },
+  {
+    "id": "wright_studies_immunisation_1909",
+    "event_type": "publication",
+    "label": "Published Studies on immunisation",
+    "date": {
+      "display": "1909",
+      "precision": "year",
+      "sort_start": "1909-01-01",
+      "sort_end": "1909-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "almroth_wright",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lowy_1988_immunology_literature",
+        "page": 3,
+        "quote": "A.E. Wright, Studies on immunisation and their application to the diagnosis and treatment of bacterial infections, London, Constable, 1909"
+      }
+    ]
+  },
+  {
+    "id": "wright_pneumococcus_1912",
+    "event_type": "publication",
+    "label": "Published observations on pneumococcus infections",
+    "date": {
+      "display": "1912",
+      "precision": "year",
+      "sort_start": "1912-01-01",
+      "sort_end": "1912-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "almroth_wright",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lowy_1988_immunology_literature",
+        "page": 4,
+        "quote": "A. Wright and others, 'Observations on the pharmaco-therapy of pneumococcus infections', Lancet, 1912, ii: 1701."
+      }
+    ]
+  },
+  {
+    "id": "wright_confession_1919",
+    "event_type": "other",
+    "label": "Confessed prejudice about vaccine specificity",
+    "date": {
+      "display": "1919",
+      "precision": "year",
+      "sort_start": "1919-01-01",
+      "sort_end": "1919-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "almroth_wright",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lowy_1988_immunology_literature",
+        "page": 4,
+        "quote": "In 1919 Wright confessed that his \"prejudice\" (the belief that vaccines are specific) prevented him from observing the non-specific (\"collateral\") effects of immunization earlier than he did"
+      }
+    ]
+  },
+  {
+    "id": "wright_studies_immunisation_1944",
+    "event_type": "publication",
+    "label": "Published Studies on immunization second series",
+    "date": {
+      "display": "1944",
+      "precision": "year",
+      "sort_start": "1944-01-01",
+      "sort_end": "1944-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "almroth_wright",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lowy_1988_immunology_literature",
+        "page": 4,
+        "quote": "Studies on immunization, second series, London: W. Heinemann, 1944"
+      }
+    ]
+  }
+]

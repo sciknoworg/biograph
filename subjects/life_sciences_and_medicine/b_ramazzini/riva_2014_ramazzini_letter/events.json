@@ -1,0 +1,184 @@
+[
+  {
+    "id": "ramazzini_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "precision": "year",
+      "sort_start": "1633-01-01",
+      "sort_end": "1633-12-31",
+      "display": "1633"
+    },
+    "participants": [
+      {
+        "entity_id": "bernardino_ramazzini",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "riva_2014_ramazzini_letter",
+        "page": 41,
+        "quote": "Bernardino Ramazzini (1633–1714):"
+      }
+    ]
+  },
+  {
+    "id": "ramazzini_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "precision": "year",
+      "sort_start": "1714-01-01",
+      "sort_end": "1714-12-31",
+      "display": "1714"
+    },
+    "participants": [
+      {
+        "entity_id": "bernardino_ramazzini",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "riva_2014_ramazzini_letter",
+        "page": 41,
+        "quote": "Bernardino Ramazzini (1633–1714):"
+      }
+    ]
+  },
+  {
+    "id": "de_morbis_artificum_1st",
+    "event_type": "publication",
+    "label": "First edition of De Morbis Artificum published",
+    "date": {
+      "precision": "year",
+      "sort_start": "1700-01-01",
+      "sort_end": "1700-12-31",
+      "display": "1700"
+    },
+    "location": "modena",
+    "participants": [
+      {
+        "entity_id": "bernardino_ramazzini",
+        "role": "subject"
+      },
+      {
+        "entity_id": "de_morbis_artificum",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "riva_2014_ramazzini_letter",
+        "page": 41,
+        "quote": "In the first edition of \"De Morbis Artificum\" (Modena, 1700),"
+      }
+    ]
+  },
+  {
+    "id": "de_morbis_artificum_2nd",
+    "event_type": "publication",
+    "label": "New edition of De Morbis Artificum published",
+    "date": {
+      "precision": "year",
+      "sort_start": "1713-01-01",
+      "sort_end": "1713-12-31",
+      "display": "1713"
+    },
+    "location": "padua",
+    "participants": [
+      {
+        "entity_id": "bernardino_ramazzini",
+        "role": "subject"
+      },
+      {
+        "entity_id": "de_morbis_artificum",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "riva_2014_ramazzini_letter",
+        "page": 41,
+        "quote": "new edition of \"De Morbis Artificum\" (Padua, 1713)."
+      }
+    ]
+  },
+  {
+    "id": "lind_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "precision": "year",
+      "sort_start": "1716-01-01",
+      "sort_end": "1716-12-31",
+      "display": "1716"
+    },
+    "participants": [
+      {
+        "entity_id": "james_lind",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "riva_2014_ramazzini_letter",
+        "page": 41,
+        "quote": "James Lind (1716– –1794)"
+      }
+    ]
+  },
+  {
+    "id": "lind_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "precision": "year",
+      "sort_start": "1794-01-01",
+      "sort_end": "1794-12-31",
+      "display": "1794"
+    },
+    "participants": [
+      {
+        "entity_id": "james_lind",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "riva_2014_ramazzini_letter",
+        "page": 41,
+        "quote": "James Lind (1716– –1794)"
+      }
+    ]
+  },
+  {
+    "id": "lind_essay_pub",
+    "event_type": "publication",
+    "label": "Essay on health of seamen published",
+    "date": {
+      "precision": "year",
+      "sort_start": "1762-01-01",
+      "sort_end": "1762-12-31",
+      "display": "1762"
+    },
+    "participants": [
+      {
+        "entity_id": "james_lind",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lind_essay",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "riva_2014_ramazzini_letter",
+        "page": 41,
+        "quote": "\"An essay on the most effective means of preserving the health of seamen\" (1762)"
+      }
+    ]
+  }
+]

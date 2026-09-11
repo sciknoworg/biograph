@@ -1,0 +1,134 @@
+[
+  {
+    "id": "kimura_worked_wisconsin",
+    "source": "motoo_kimura",
+    "type": "studied_at",
+    "target": "university_of_wisconsin",
+    "event_id": "kimura_wisconsin_start",
+    "start": {
+      "display": "1954",
+      "precision": "year",
+      "sort_start": "1954-01-01",
+      "sort_end": "1954-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "ewens_obituary_1995",
+        "page": 1142,
+        "quote": "Kimura's research began with his association (as a graduate student) with James F. Crow, and also Sewall Wright, at the University of Wisconsin, in 1954."
+      }
+    ]
+  },
+  {
+    "id": "kimura_collaborated_crow",
+    "source": "motoo_kimura",
+    "type": "collaborated_with",
+    "target": "james_f_crow",
+    "event_id": "kimura_wisconsin_start",
+    "start": {
+      "display": "1954",
+      "precision": "year",
+      "sort_start": "1954-01-01",
+      "sort_end": "1954-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "ewens_obituary_1995",
+        "page": 1142,
+        "quote": "Kimura's research began with his association (as a graduate student) with James F. Crow, and also Sewall Wright, at the University of Wisconsin, in 1954."
+      }
+    ]
+  },
+  {
+    "id": "kimura_collaborated_wright",
+    "source": "motoo_kimura",
+    "type": "collaborated_with",
+    "target": "sewall_wright",
+    "event_id": "kimura_wisconsin_start",
+    "start": {
+      "display": "1954",
+      "precision": "year",
+      "sort_start": "1954-01-01",
+      "sort_end": "1954-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "ewens_obituary_1995",
+        "page": 1142,
+        "quote": "Kimura's research began with his association (as a graduate student) with James F. Crow, and also Sewall Wright, at the University of Wisconsin, in 1954."
+      }
+    ]
+  },
+  {
+    "id": "kimura_member_editorial_board",
+    "source": "motoo_kimura",
+    "type": "member_of",
+    "target": "applied_probability_editorial_board",
+    "event_id": "kimura_editorial_board_start",
+    "start": {
+      "display": "1964",
+      "precision": "year",
+      "sort_start": "1964-01-01",
+      "sort_end": "1964-12-31"
+    },
+    "end": {
+      "display": "1969",
+      "precision": "year",
+      "sort_start": "1969-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "ewens_obituary_1995",
+        "page": 1144,
+        "quote": "Motoo Kimura was a member of the Applied Probability Editorial Board from its creation in 1964 through to the end of 1969."
+      }
+    ]
+  },
+  {
+    "id": "kimura_published_diffusion_models",
+    "source": "motoo_kimura",
+    "type": "published",
+    "target": "diffusion_models_paper",
+    "event_id": "kimura_autobiography_published",
+    "start": {
+      "display": "1986",
+      "precision": "year",
+      "sort_start": "1986-01-01",
+      "sort_end": "1986-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "ewens_obituary_1995",
+        "page": 1144,
+        "quote": "For an autobiographical account see 'Diffusion models of population genetics in the age of molecular biology', in The Craft of Probabilistic Modelling, ed. 1. Gani, pp. 150-165, Springer-Verlag, Heidelberg, 1986."
+      }
+    ]
+  },
+  {
+    "id": "ewens_works_pennsylvania",
+    "source": "w_j_ewens",
+    "type": "worked_at",
+    "target": "university_of_pennsylvania",
+    "sources": [
+      {
+        "source_id": "ewens_obituary_1995",
+        "page": 1144,
+        "quote": "Department of Biology\nUniversity of Pennsylvania\nMarch 1995\nW. J. EWENS"
+      }
+    ]
+  },
+  {
+    "id": "heyde_works_anu",
+    "source": "c_c_heyde",
+    "type": "worked_at",
+    "target": "australian_national_university",
+    "sources": [
+      {
+        "source_id": "ewens_obituary_1995",
+        "page": 1144,
+        "quote": "The Australian National University\nApril 1995\nC. C. HEYDE"
+      }
+    ]
+  }
+]

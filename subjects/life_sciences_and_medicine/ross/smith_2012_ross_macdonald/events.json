@@ -1,0 +1,364 @@
+[
+  {
+    "id": "ross_demonstrates_mosquito_transmission",
+    "event_type": "other",
+    "label": "Demonstrated mosquitoes transmit malaria",
+    "description": "Ross demonstrated that mosquitoes transmit malaria parasites while serving in India.",
+    "date": {
+      "display": "1897",
+      "precision": "year",
+      "sort_start": "1897-01-01",
+      "sort_end": "1897-12-31"
+    },
+    "location": "india",
+    "participants": [
+      {
+        "entity_id": "ronald_ross",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "smith_2012_ross_macdonald",
+        "page": 1,
+        "quote": "in 1897 he demonstrated that mosquitoes transmit malaria parasites [4,5]."
+      }
+    ]
+  },
+  {
+    "id": "ross_discusses_malaria_with_manson",
+    "event_type": "meeting",
+    "label": "Discussed malaria with Manson",
+    "description": "Ross discussed malaria with Manson while in the United Kingdom.",
+    "date": {
+      "display": "1897",
+      "precision": "year",
+      "sort_start": "1897-01-01",
+      "sort_end": "1897-12-31"
+    },
+    "location": "united_kingdom",
+    "participants": [
+      {
+        "entity_id": "ronald_ross",
+        "role": "subject"
+      },
+      {
+        "entity_id": "patrick_manson",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "smith_2012_ross_macdonald",
+        "page": 1,
+        "quote": "Ronald Ross discussed malaria with Manson while in the United Kingdom, but conducted his research while serving in a military post in India, and in 1897 he demonstrated that mosquitoes transmit malaria parasites [4,5]."
+      }
+    ]
+  },
+  {
+    "id": "ross_sierra_leone_expedition",
+    "event_type": "visit",
+    "label": "Expedition to Sierra Leone",
+    "description": "Ross participated in the malaria expedition to Sierra Leone.",
+    "date": {
+      "display": "1899",
+      "precision": "year",
+      "sort_start": "1899-01-01",
+      "sort_end": "1899-12-31"
+    },
+    "location": "sierra_leone",
+    "participants": [
+      {
+        "entity_id": "ronald_ross",
+        "role": "subject"
+      },
+      {
+        "entity_id": "liverpool_school_of_tropical_medicine",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "smith_2012_ross_macdonald",
+        "page": 5,
+        "quote": "The expedition to Sierra Leone in 1899 had focused much of its attention on the vector populations, but Ross acknowledged that the expedition ended without developing metrics for measuring key components of a mosquito's role in pathogen transmission [14,21]."
+      }
+    ]
+  },
+  {
+    "id": "ross_publishes_1904_model",
+    "event_type": "publication",
+    "label": "Published mathematical model of mosquito movement",
+    "description": "Ross published a mathematical model describing adult mosquito movement and the spatial scale of larval control.",
+    "date": {
+      "display": "1904",
+      "precision": "year",
+      "sort_start": "1904-01-01",
+      "sort_end": "1904-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ronald_ross",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "smith_2012_ross_macdonald",
+        "page": 1,
+        "quote": "In 1904, partly in response to a large, failed larval control trial conducted in Mian-Mir that Ross had debated earlier that year [14], he published a mathematical model describing adult mosquito movement and the spatial scale of larval control required to reduce mosquito populations and eliminate disease from an area [21]."
+      }
+    ]
+  },
+  {
+    "id": "ross_visits_mauritius",
+    "event_type": "visit",
+    "label": "Visited Mauritius",
+    "description": "Ross visited Mauritius to advise on the control of malaria.",
+    "date": {
+      "display": "1907",
+      "precision": "year",
+      "sort_start": "1907-01-01",
+      "sort_end": "1907-12-31"
+    },
+    "location": "mauritius",
+    "participants": [
+      {
+        "entity_id": "ronald_ross",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "smith_2012_ross_macdonald",
+        "page": 3,
+        "quote": "After Ross visited Mauritius in 1907 to advise on the control of malaria, he formulated and described a model of mosquito-borne disease transmission in 1908 in his Report on the Prevention of Malaria in Mauritius (pp. 30–37 in [22]), and he expanded on these ideas in the first edition of The Prevention of Malaria [40]."
+      }
+    ]
+  },
+  {
+    "id": "ross_publishes_1908_model",
+    "event_type": "publication",
+    "label": "Published first malaria transmission model",
+    "description": "Ross published his first malaria transmission model in his Report on the Prevention of Malaria in Mauritius.",
+    "date": {
+      "display": "1908",
+      "precision": "year",
+      "sort_start": "1908-01-01",
+      "sort_end": "1908-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ronald_ross",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "smith_2012_ross_macdonald",
+        "page": 2,
+        "quote": "Ross was considering transmission dynamics and control as early as 1902, but did not publish his first malaria transmission model until 1908 [22]."
+      }
+    ]
+  },
+  {
+    "id": "ross_coins_a_priori_pathometry",
+    "event_type": "publication",
+    "label": "Coined phrase 'a priori pathometry'",
+    "description": "Ross coined the phrase 'a priori pathometry' to describe the scientific activity of modeling transmission dynamics.",
+    "date": {
+      "display": "1908",
+      "precision": "year",
+      "sort_start": "1908-01-01",
+      "sort_end": "1908-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ronald_ross",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "smith_2012_ross_macdonald",
+        "page": 2,
+        "quote": "In 1908, when he published his first dynamic malaria model, Ross coined the phrase ''a priori pathometry'' to describe the scientific activity of modeling transmission dynamics, and in 1911, he presented a new set of equations as part of a general framework [23,24]."
+      }
+    ]
+  },
+  {
+    "id": "ross_publishes_1911_model",
+    "event_type": "publication",
+    "label": "Published second malaria transmission model",
+    "description": "Ross published a second malaria transmission model in an addendum to his book The Prevention of Malaria and in Nature.",
+    "date": {
+      "display": "1911",
+      "precision": "year",
+      "sort_start": "1911-01-01",
+      "sort_end": "1911-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ronald_ross",
+        "role": "subject"
+      },
+      {
+        "entity_id": "the_prevention_of_malaria",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "smith_2012_ross_macdonald",
+        "page": 2,
+        "quote": "He published a second malaria transmission model in 1911 in an addendum to his book, The Prevention of Malaria, and described it in Nature [23,24]."
+      }
+    ]
+  },
+  {
+    "id": "ross_solves_general_equations",
+    "event_type": "publication",
+    "label": "Solved general equations of pathometry",
+    "description": "Ross solved the general equations of a priori pathometry.",
+    "date": {
+      "display": "1915",
+      "precision": "year",
+      "sort_start": "1915-01-01",
+      "sort_end": "1915-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ronald_ross",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "smith_2012_ross_macdonald",
+        "page": 2,
+        "quote": "In 1915, he solved the general equations, and discussed his work in relation to Brownlee's [103], who was developing a complementary set of methods for studying epidemics [33]."
+      }
+    ]
+  },
+  {
+    "id": "ross_publishes_pathometry_part1",
+    "event_type": "publication",
+    "label": "Published first part of a priori pathometry series",
+    "description": "Ross published the first of a three-part series laying out the expanded theory of a priori pathometry.",
+    "date": {
+      "display": "1916",
+      "precision": "year",
+      "sort_start": "1916-01-01",
+      "sort_end": "1916-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ronald_ross",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "smith_2012_ross_macdonald",
+        "page": 2,
+        "quote": "In 1916, Ross published the first of a three-part series laying out the expanded theory of a priori pathometry [104]."
+      }
+    ]
+  },
+  {
+    "id": "ross_publishes_pathometry_part2_3",
+    "event_type": "publication",
+    "label": "Published parts II and III of pathometry series",
+    "description": "The last two parts of the pathometry series were co-authored by Hilda Hudson and published.",
+    "date": {
+      "display": "1917",
+      "precision": "year",
+      "sort_start": "1917-01-01",
+      "sort_end": "1917-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ronald_ross",
+        "role": "subject"
+      },
+      {
+        "entity_id": "hilda_hudson",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "smith_2012_ross_macdonald",
+        "page": 2,
+        "quote": "The last two parts were co-authored by Hilda Hudson and published in 1917 [104–107]."
+      }
+    ]
+  },
+  {
+    "id": "ross_publishes_1921_drug_model",
+    "event_type": "publication",
+    "label": "Published on repeated drug treatment",
+    "description": "Ross's last original contribution to modeling malaria discussed the value of repeated drug treatment.",
+    "date": {
+      "display": "1921",
+      "precision": "year",
+      "sort_start": "1921-01-01",
+      "sort_end": "1921-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ronald_ross",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "smith_2012_ross_macdonald",
+        "page": 2,
+        "quote": "Ross's last original contribution to modeling malaria, in 1921, discussed the value of repeated drug treatment to ''cure'' malaria infections [25]."
+      }
+    ]
+  },
+  {
+    "id": "ross_develops_thick_film",
+    "event_type": "invention",
+    "label": "Developed thick film microscopy method",
+    "description": "Ross improved microscopy further by developing the 'thick film' to increase the sensitivity of parasite detection.",
+    "date": {
+      "display": "1903",
+      "precision": "year",
+      "sort_start": "1903-01-01",
+      "sort_end": "1903-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ronald_ross",
+        "role": "subject"
+      },
+      {
+        "entity_id": "thick_film_method",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "smith_2012_ross_macdonald",
+        "page": 5,
+        "quote": "Ross improved microscopy further by developing the ''thick film'' to increase the sensitivity of parasite detection by light microscopy [48,49]."
+      }
+    ]
+  }
+]

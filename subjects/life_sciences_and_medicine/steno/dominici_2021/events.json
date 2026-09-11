@@ -1,0 +1,406 @@
+[
+  {
+    "id": "steno_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "description": "Nicolaus Steno was born in 1638.",
+    "date": {
+      "display": "1638",
+      "precision": "year",
+      "sort_start": "1638-01-01",
+      "sort_end": "1638-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaus_steno",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dominici_2021",
+        "page": 60,
+        "quote": "The most important and lasting contribution that Nicolaus Steno (1638-1686) left to modern science is the 78-page book titled The Prodromus to a Dissertation on a Solid Naturally Contained Within a Solid (the Prodromus in short)."
+      }
+    ]
+  },
+  {
+    "id": "steno_chaos_manuscript",
+    "event_type": "publication",
+    "label": "Created Chaos manuscript",
+    "description": "Steno recorded lessons in his journal entitled 'Chaos' when he was a student in Copenhagen.",
+    "date": {
+      "display": "1659",
+      "precision": "year",
+      "sort_start": "1659-01-01",
+      "sort_end": "1659-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaus_steno",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dominici_2021",
+        "page": 60,
+        "quote": "an idea foreshadowed in "
+      }
+    ]
+  },
+  {
+    "id": "steno_chaos_manuscript_2",
+    "event_type": "other",
+    "label": "Recorded lessons in Chaos",
+    "description": "Steno recorded lessons in his journal, entitled 'Chaos', when he was a student in Copenhagen.",
+    "date": {
+      "display": "1659",
+      "precision": "year",
+      "sort_start": "1659-01-01",
+      "sort_end": "1659-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaus_steno",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dominici_2021",
+        "page": 60,
+        "quote": "an idea foreshadowed in "
+      }
+    ]
+  },
+  {
+    "id": "steno_chaos_manuscript_3",
+    "event_type": "other",
+    "label": "Wrote Chaos manuscript",
+    "description": "Steno's oldest known manuscript, entitled 'Chaos', was written in 1659 when he was a student in Copenhagen.",
+    "date": {
+      "display": "1659",
+      "precision": "year",
+      "sort_start": "1659-01-01",
+      "sort_end": "1659-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaus_steno",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dominici_2021",
+        "page": 61,
+        "quote": "This he did in the light of the Scripture since at least 1659, when he recorded in his journal, entitled "
+      }
+    ]
+  },
+  {
+    "id": "steno_study_medicine_low_countries",
+    "event_type": "education",
+    "label": "Went to study medicine in the Low Countries",
+    "description": "Steno went to study medicine in the Low Countries in 1661.",
+    "date": {
+      "display": "1661",
+      "precision": "year",
+      "sort_start": "1661-01-01",
+      "sort_end": "1661-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaus_steno",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dominici_2021",
+        "page": 63,
+        "quote": "When in 1661 he went to study medicine in the Low Countries, he connected with the circle of Dutch savants and curieux, first in the hotbed of radical thinkers that was Amsterdam, then in nearby Leiden."
+      }
+    ]
+  },
+  {
+    "id": "steno_leiden",
+    "event_type": "education",
+    "label": "Studied in Leiden",
+    "description": "Steno and Swammerdam were fellow students and close friends in Leiden from 1661-1663.",
+    "date": {
+      "display": "1661-1663",
+      "precision": "range",
+      "sort_start": "1661-01-01",
+      "sort_end": "1663-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaus_steno",
+        "role": "subject"
+      },
+      {
+        "entity_id": "johannes_swammerdam",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dominici_2021",
+        "page": 63,
+        "quote": "Swammerdam and Steno were fellow students and close friends in Leiden from 1661-1663 and then in Paris in 1664, the two sharing a motivation to search for a bridge between natural philosophy and true religion."
+      }
+    ]
+  },
+  {
+    "id": "steno_paris",
+    "event_type": "relocation",
+    "label": "Moved to Paris",
+    "description": "Steno joined Swammerdam in Paris in autumn 1664.",
+    "date": {
+      "display": "autumn 1664",
+      "precision": "season",
+      "sort_start": "1664-09-01",
+      "sort_end": "1664-11-30"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaus_steno",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dominici_2021",
+        "page": 63,
+        "quote": "In autumn 1664 he joined Swammerdam in Paris, where, for nearly a year, both were hosted by Melchisédec Thévenot (1620-1692)."
+      }
+    ]
+  },
+  {
+    "id": "steno_brain_dissection",
+    "event_type": "public_demonstration",
+    "label": "Public dissection of human brain",
+    "description": "Steno performed a public dissection of a human brain in Paris in October 1665.",
+    "date": {
+      "display": "October 1665",
+      "precision": "month",
+      "sort_start": "1665-10-01",
+      "sort_end": "1665-10-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaus_steno",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dominici_2021",
+        "page": 64,
+        "quote": "Ferdinand II and Prince Leopold recognized him as an outstanding natural philospher, an anatomist whose public dissection of a human brain performed in Paris in October, 1665 proved Descartes wrong about the manner in which this organ functions."
+      }
+    ]
+  },
+  {
+    "id": "steno_arrival_tuscany",
+    "event_type": "relocation",
+    "label": "Arrived in Tuscany",
+    "description": "Steno arrived in Tuscany in April 1666.",
+    "date": {
+      "display": "April 1666",
+      "precision": "month",
+      "sort_start": "1666-04-01",
+      "sort_end": "1666-04-30"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaus_steno",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dominici_2021",
+        "page": 64,
+        "quote": "Steno arrived in Tuscany in April 1666."
+      }
+    ]
+  },
+  {
+    "id": "steno_canis_carchariae_completed",
+    "event_type": "publication",
+    "label": "Completed Canis Carchariae",
+    "description": "Steno completed the essay Canis Carchariae Dissectum Caput by December 1666.",
+    "date": {
+      "display": "December 1666",
+      "precision": "month",
+      "sort_start": "1666-12-01",
+      "sort_end": "1666-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaus_steno",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dominici_2021",
+        "page": 64,
+        "quote": "By December of the same year, Steno had completed the essay Canis Carchariae Dissectum Caput which ended with a "
+      }
+    ]
+  },
+  {
+    "id": "steno_canis_carchariae_published",
+    "event_type": "publication",
+    "label": "Published Canis Carchariae",
+    "description": "Canis Carchariae was published in April 1667 as an appendix to his treatise on myology.",
+    "date": {
+      "display": "April 1667",
+      "precision": "month",
+      "sort_start": "1667-04-01",
+      "sort_end": "1667-04-30"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaus_steno",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dominici_2021",
+        "page": 64,
+        "quote": "This essay was subsequently published in April 1667 as an appendix to his treatise on myology."
+      }
+    ]
+  },
+  {
+    "id": "steno_myologiae_specimen_published",
+    "event_type": "publication",
+    "label": "Published Elementorum Myologiae Specimen",
+    "description": "Steno's treatise on myology was published in 1667.",
+    "date": {
+      "display": "1667",
+      "precision": "year",
+      "sort_start": "1667-01-01",
+      "sort_end": "1667-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaus_steno",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dominici_2021",
+        "page": 62,
+        "quote": "This last concept is confirmed in a later remark in Steno's Elementorum Myologiae Specimen of 1667: "
+      }
+    ]
+  },
+  {
+    "id": "steno_prodromus_completed",
+    "event_type": "publication",
+    "label": "Completed Prodromus",
+    "description": "The final text of the Prodromus was completed in August 1668.",
+    "date": {
+      "display": "August 1668",
+      "precision": "month",
+      "sort_start": "1668-08-01",
+      "sort_end": "1668-08-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaus_steno",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dominici_2021",
+        "page": 69,
+        "quote": "The final text was completed in August 1668 after months of additional fieldwork traveling 'from the Arno to the Tiber' (that is, from Florence to Rome: he apparently never suceeded in moving farther south)."
+      }
+    ]
+  },
+  {
+    "id": "steno_prodromus_published",
+    "event_type": "publication",
+    "label": "Published Prodromus",
+    "description": "The Prodromus was published in 1669.",
+    "date": {
+      "display": "1669",
+      "precision": "year",
+      "sort_start": "1669-01-01",
+      "sort_end": "1669-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaus_steno",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dominici_2021",
+        "page": 60,
+        "quote": "The theory was published in its most complete form in the so-called Prodromus of 1669."
+      }
+    ]
+  },
+  {
+    "id": "steno_hungary_visit",
+    "event_type": "visit",
+    "label": "Visited quarries in Hungary",
+    "description": "Steno visited quarries in Hungary (present day Slovakia) in October 1669.",
+    "date": {
+      "display": "October 1669",
+      "precision": "month",
+      "sort_start": "1669-10-01",
+      "sort_end": "1669-10-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaus_steno",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dominici_2021",
+        "page": 74,
+        "quote": "In the same year of the publication of the Prodromus, Steno continued to carry out geological fieldwork in the light of his theory, as testified by a letter written in October 1669 after visiting quarries in Hungary (present day Slovakia), a new occasion to study the rocks produced during the time of the first 'universal fluid'."
+      }
+    ]
+  },
+  {
+    "id": "steno_death",
+    "event_type": "death",
+    "label": "Died",
+    "description": "Nicolaus Steno died in 1686.",
+    "date": {
+      "display": "1686",
+      "precision": "year",
+      "sort_start": "1686-01-01",
+      "sort_end": "1686-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicolaus_steno",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "dominici_2021",
+        "page": 60,
+        "quote": "The most important and lasting contribution that Nicolaus Steno (1638-1686) left to modern science is the 78-page book titled The Prodromus to a Dissertation on a Solid Naturally Contained Within a Solid (the Prodromus in short)."
+      }
+    ]
+  }
+]

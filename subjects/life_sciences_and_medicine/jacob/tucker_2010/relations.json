@@ -1,0 +1,155 @@
+[
+  {
+    "id": "jacob_worked_pasteur",
+    "source": "francois_jacob",
+    "type": "worked_at",
+    "target": "pasteur_institute",
+    "sources": [
+      {
+        "source_id": "tucker_2010",
+        "page": 1,
+        "quote": "the beginner at the Pasteur Institute"
+      }
+    ]
+  },
+  {
+    "id": "jacob_served_free_french",
+    "source": "francois_jacob",
+    "type": "member_of",
+    "target": "free_french_forces",
+    "sources": [
+      {
+        "source_id": "tucker_2010",
+        "page": 1,
+        "quote": "the fighting man of the Free  French Forces"
+      }
+    ]
+  },
+  {
+    "id": "jacob_married_lise_rel",
+    "source": "francois_jacob",
+    "type": "married_to",
+    "target": "lise_bloch",
+    "start": {
+      "precision": "year",
+      "sort_start": "1947-01-01",
+      "sort_end": "1947-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "tucker_2010",
+        "page": 3,
+        "quote": "in 1947 François Jacob married the pianist Lise Bloch."
+      }
+    ]
+  },
+  {
+    "id": "jacob_married_genevieve_rel",
+    "source": "francois_jacob",
+    "type": "married_to",
+    "target": "genevieve_barrier",
+    "start": {
+      "precision": "year",
+      "sort_start": "1999-01-01",
+      "sort_end": "1999-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "tucker_2010",
+        "page": 2,
+        "quote": "Second marriage in 1999 with Geneviève Barrier."
+      }
+    ]
+  },
+  {
+    "id": "jacob_collaborated_monod",
+    "source": "francois_jacob",
+    "type": "collaborated_with",
+    "target": "jacques_monod",
+    "sources": [
+      {
+        "source_id": "tucker_2010",
+        "page": 1,
+        "quote": "he and his research partners (Jacques Monod & André Lwoff)"
+      }
+    ]
+  },
+  {
+    "id": "jacob_collaborated_lwoff",
+    "source": "francois_jacob",
+    "type": "collaborated_with",
+    "target": "andre_lwoff",
+    "sources": [
+      {
+        "source_id": "tucker_2010",
+        "page": 1,
+        "quote": "he and his research partners (Jacques Monod & André Lwoff)"
+      }
+    ]
+  },
+  {
+    "id": "jacob_father_pierre",
+    "source": "francois_jacob",
+    "type": "family_of",
+    "target": "pierre_jacob",
+    "sources": [
+      {
+        "source_id": "tucker_2010",
+        "page": 3,
+        "quote": "They have four children: Pierre (born in 1949)"
+      }
+    ]
+  },
+  {
+    "id": "jacob_father_laurent",
+    "source": "francois_jacob",
+    "type": "family_of",
+    "target": "laurent_jacob",
+    "sources": [
+      {
+        "source_id": "tucker_2010",
+        "page": 3,
+        "quote": "Laurent and Odile (born in 1952)"
+      }
+    ]
+  },
+  {
+    "id": "jacob_father_odile",
+    "source": "francois_jacob",
+    "type": "family_of",
+    "target": "odile_jacob",
+    "sources": [
+      {
+        "source_id": "tucker_2010",
+        "page": 3,
+        "quote": "Laurent and Odile (born in 1952)"
+      }
+    ]
+  },
+  {
+    "id": "jacob_father_henri",
+    "source": "francois_jacob",
+    "type": "family_of",
+    "target": "henri_jacob",
+    "sources": [
+      {
+        "source_id": "tucker_2010",
+        "page": 3,
+        "quote": "Henri (born in 1954)"
+      }
+    ]
+  },
+  {
+    "id": "jacob_invented_statue",
+    "source": "francois_jacob",
+    "type": "published",
+    "target": "the_statue_within",
+    "sources": [
+      {
+        "source_id": "tucker_2010",
+        "page": 1,
+        "quote": "The Statue Within: An Autobiography is a seemingly candid reflection of the life and work of the French Nobel laureate, François Jacob."
+      }
+    ]
+  }
+]

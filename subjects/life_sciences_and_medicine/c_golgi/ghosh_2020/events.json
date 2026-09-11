@@ -1,0 +1,609 @@
+[
+  {
+    "id": "golgi_birth",
+    "event_type": "birth",
+    "label": "Born in Corteno",
+    "date": {
+      "display": "7th July, 1843",
+      "precision": "day",
+      "sort_start": "1843-07-07",
+      "sort_end": "1843-07-07"
+    },
+    "location": "corteno",
+    "participants": [
+      {
+        "entity_id": "camillo_golgi",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 2,
+        "quote": "Camillo Golgi was born on 7th July, 1843 at Corteno, which is a picturesque village (in present times often referred with Golgi suffixed to its name) situated in Brescia province of Italy [6]."
+      }
+    ]
+  },
+  {
+    "id": "golgi_graduation",
+    "event_type": "education",
+    "label": "Graduated in medicine",
+    "date": {
+      "display": "1865",
+      "precision": "year",
+      "sort_start": "1865-01-01",
+      "sort_end": "1865-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "camillo_golgi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_pavia",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 2,
+        "quote": "Under his father's tutelage, Golgi studied medicine at the University of Pavia (which is close to his native village) and completed his graduation in 1865 [1]."
+      }
+    ]
+  },
+  {
+    "id": "golgi_chief_physician_start",
+    "event_type": "employment_start",
+    "label": "Joined as Chief Physician",
+    "date": {
+      "display": "1st June, 1872",
+      "precision": "day",
+      "sort_start": "1872-06-01",
+      "sort_end": "1872-06-01"
+    },
+    "location": "abbiategrasso",
+    "participants": [
+      {
+        "entity_id": "camillo_golgi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "pio_luogo_degli_incurabili",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 3,
+        "quote": "On 1st June, 1872, he entered into medical service and joined as the Chief Physician at Pio Luogo degli Incurabili at Abbiategrasso, Italy."
+      }
+    ]
+  },
+  {
+    "id": "golgi_black_reaction_invention",
+    "event_type": "invention",
+    "label": "Invented Black Reaction",
+    "date": {
+      "display": "1872–1873",
+      "precision": "range",
+      "sort_start": "1872-06-01",
+      "sort_end": "1873-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "camillo_golgi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "black_reaction",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 3,
+        "quote": "It was in this small set up, Golgi invented the 'Black Reaction' (Golgi's staining) which was to revolutionize the science of neurology and the way we know the nervous system in present day [14]."
+      }
+    ]
+  },
+  {
+    "id": "golgi_first_stained_picture",
+    "event_type": "publication",
+    "label": "Published first stained nerve tissue picture",
+    "date": {
+      "display": "1873",
+      "precision": "year",
+      "sort_start": "1873-01-01",
+      "sort_end": "1873-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "camillo_golgi",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 4,
+        "quote": "Golgi published the first picture of nerve tissue stained with his technique in 1873, which illustrated the whole nerve cell, including its cell body, axon and branching dendrites (Fig. 3) [21, 22]."
+      }
+    ]
+  },
+  {
+    "id": "golgi_professor_histology",
+    "event_type": "employment_start",
+    "label": "Appointed Professor of Histology",
+    "date": {
+      "display": "1876",
+      "precision": "year",
+      "sort_start": "1876-01-01",
+      "sort_end": "1876-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "camillo_golgi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_pavia",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 3,
+        "quote": "This memorable event catapulted Golgi to academic prominence and he was appointed as the Professor of Histology in his alma mater, University of Pavia in 1876."
+      }
+    ]
+  },
+  {
+    "id": "golgi_tendon_organ_discovery",
+    "event_type": "other",
+    "label": "Described sensory receptors in muscle tendons",
+    "description": "Described Golgi tendon organ and Golgi-Mazzoni corpuscles.",
+    "date": {
+      "display": "1878",
+      "precision": "year",
+      "sort_start": "1878-01-01",
+      "sort_end": "1878-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "camillo_golgi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "golgi_tendon_organ",
+        "role": "invention"
+      },
+      {
+        "entity_id": "golgi_mazzoni_corpuscles",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 4,
+        "quote": "In 1878, he described two types of sensory receptors in muscle tendons: Golgi tendon organ and Golgi-Mazzoni corpuscles [24]."
+      }
+    ]
+  },
+  {
+    "id": "golgi_professor_pathology",
+    "event_type": "role_change",
+    "label": "Became Professor of General Pathology",
+    "date": {
+      "display": "1879",
+      "precision": "year",
+      "sort_start": "1879-01-01",
+      "sort_end": "1879-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "camillo_golgi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_pavia",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 3,
+        "quote": "In 1879, he became the Professor of General Pathology and the honorary chief of the medical hospital in Pavia [15]."
+      }
+    ]
+  },
+  {
+    "id": "golgi_myelin_apparatus",
+    "event_type": "invention",
+    "label": "Invented myelin staining method",
+    "description": "Discovered the myelin annular apparatus.",
+    "date": {
+      "display": "1879",
+      "precision": "year",
+      "sort_start": "1879-01-01",
+      "sort_end": "1879-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "camillo_golgi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "myelin_annular_apparatus",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 4,
+        "quote": "In 1879, Golgi invented another staining method with potassium dichromate and mercuric chloride, which was a corollary of his famed Black Reaction."
+      }
+    ]
+  },
+  {
+    "id": "golgi_malaria_cycle",
+    "event_type": "other",
+    "label": "Identified Plasmodium life cycle",
+    "description": "Identified the complete life cycle of Plasmodium in human erythrocyte.",
+    "date": {
+      "display": "after 1879",
+      "precision": "circa",
+      "sort_start": "1880-01-01",
+      "sort_end": "1889-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "camillo_golgi",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 5,
+        "quote": "After 1879, when Golgi became Professor of General Pathology and assumed the charge of medical hospital in Pavia, his focus area in research changed to pathogenesis of malaria."
+      }
+    ]
+  },
+  {
+    "id": "golgi_juxtaglomerular",
+    "event_type": "other",
+    "label": "Discovered Juxtaglomerular Apparatus relation",
+    "date": {
+      "display": "From 1887 onwards",
+      "precision": "year",
+      "sort_start": "1887-01-01",
+      "sort_end": "1887-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "camillo_golgi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "juxtaglomerular_apparatus",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 5,
+        "quote": "From 1887 onwards, Golgi again focussed on histological studies and discovered the temporal relation between the vascular pole of glomerulus in kidney and distal tubule, which eventually came to be known as the site of formation of Juxtaglomerular Apparatus."
+      }
+    ]
+  },
+  {
+    "id": "golgi_gastric_glands",
+    "event_type": "other",
+    "label": "Discovered gastric gland canalicular network",
+    "date": {
+      "display": "1893",
+      "precision": "year",
+      "sort_start": "1893-01-01",
+      "sort_end": "1893-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "camillo_golgi",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 5,
+        "quote": "In 1893, Golgi discovered the extensive canalicular network of parietal cells of the gastric glands of stomach, through which secretions of these cells (hydrochloric acid/HCL) are transported [30]."
+      }
+    ]
+  },
+  {
+    "id": "golgi_rector_start",
+    "event_type": "employment_start",
+    "label": "Appointed Rector of University of Pavia",
+    "date": {
+      "display": "1893",
+      "precision": "year",
+      "sort_start": "1893-01-01",
+      "sort_end": "1893-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "camillo_golgi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_pavia",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 3,
+        "quote": "In 1893, Golgi was appointed as the Rector of the University of Pavia and held the position till 1896."
+      }
+    ]
+  },
+  {
+    "id": "golgi_rector_end",
+    "event_type": "employment_end",
+    "label": "Ended term as Rector",
+    "date": {
+      "display": "1896",
+      "precision": "year",
+      "sort_start": "1896-01-01",
+      "sort_end": "1896-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "camillo_golgi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_pavia",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 3,
+        "quote": "In 1893, Golgi was appointed as the Rector of the University of Pavia and held the position till 1896."
+      }
+    ]
+  },
+  {
+    "id": "golgi_apparatus_discovery",
+    "event_type": "other",
+    "label": "Reported reticular apparatus",
+    "description": "Reported presence of 'reticular apparatus' in spinal ganglia cells.",
+    "date": {
+      "display": "1897",
+      "precision": "year",
+      "sort_start": "1897-01-01",
+      "sort_end": "1897-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "camillo_golgi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "golgi_apparatus",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 5,
+        "quote": "In 1897, he reported the presence of a 'reticular apparatus' in the cytoplasm of spinal ganglia cells (Fig. 4) [31]."
+      }
+    ]
+  },
+  {
+    "id": "golgi_opera_omnia_pub",
+    "event_type": "publication",
+    "label": "Published Opera Omnia Vol 1-3",
+    "date": {
+      "display": "1903",
+      "precision": "year",
+      "sort_start": "1903-01-01",
+      "sort_end": "1903-12-31"
+    },
+    "location": "milan",
+    "participants": [
+      {
+        "entity_id": "camillo_golgi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "opera_omnia",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 5,
+        "quote": "The first three volumes of Opera Omnia were published in 1903 ( Fig. 5)."
+      }
+    ]
+  },
+  {
+    "id": "golgi_nobel_award",
+    "event_type": "award",
+    "label": "Awarded Nobel Prize",
+    "description": "Jointly awarded with Santiago Ramón y Cajal.",
+    "date": {
+      "display": "1906",
+      "precision": "year",
+      "sort_start": "1906-01-01",
+      "sort_end": "1906-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "camillo_golgi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "santiago_ram_n_y_cajal",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "nobel_prize_physiology_medicine_1906",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 3,
+        "quote": "He reached the pinnacle of his professional career in 1906, when he shared the Nobel Prize for Physiology or Medicine with Spanish scientist Santiago Ramón y Cajal, whose remarkable contributions in the field of neuroscience shaped the Neuron Doctrine/Neuron Theory [17]."
+      }
+    ]
+  },
+  {
+    "id": "golgi_nobel_ceremony",
+    "event_type": "conference",
+    "label": "Attended Nobel Prize ceremony",
+    "date": {
+      "display": "10th of December, 1906",
+      "precision": "day",
+      "sort_start": "1906-12-10",
+      "sort_end": "1906-12-10"
+    },
+    "location": "royal_academy_of_music_sweden",
+    "participants": [
+      {
+        "entity_id": "camillo_golgi",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 6,
+        "quote": "The prize ceremony was held at the Great Hall of the Royal Academy of Music, Sweden, on the 10th of December, 1906, which is the death anniversary of Alfred Nobel."
+      }
+    ]
+  },
+  {
+    "id": "golgi_nobel_lecture",
+    "event_type": "conference",
+    "label": "Delivered Nobel Lecture",
+    "date": {
+      "display": "11th December 1906",
+      "precision": "day",
+      "sort_start": "1906-12-11",
+      "sort_end": "1906-12-11"
+    },
+    "participants": [
+      {
+        "entity_id": "camillo_golgi",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 6,
+        "quote": "The following day, Golgi delivered the Nobel Lecture (in French) which was titled, \"La Doctrine du Neurone\" or \"The Neuron Doctrine\" [41]."
+      }
+    ]
+  },
+  {
+    "id": "golgi_retirement",
+    "event_type": "retirement",
+    "label": "Retired from University of Pavia",
+    "date": {
+      "display": "1918",
+      "precision": "year",
+      "sort_start": "1918-01-01",
+      "sort_end": "1918-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "camillo_golgi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_pavia",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 3,
+        "quote": "He retired from his position in the University of Pavia in 1918, however he remained as the Professor Emeritus there."
+      }
+    ]
+  },
+  {
+    "id": "golgi_death",
+    "event_type": "death",
+    "label": "Died in Pavia",
+    "date": {
+      "display": "21st January, 1926",
+      "precision": "day",
+      "sort_start": "1926-01-21",
+      "sort_end": "1926-01-21"
+    },
+    "location": "pavia",
+    "participants": [
+      {
+        "entity_id": "camillo_golgi",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 3,
+        "quote": "Golgi's last years before his death in Pavia, on 21st January, 1926, were mostly devoted towards his resistance for establishing a University in Milan, which in his opinion would have curtailed the importance of his alma mater, University of Pavia (as they were very close in terms of distance) which understandably was very close to his heart as he had served as he had served almost his entire professional life there [12]."
+      }
+    ]
+  },
+  {
+    "id": "golgi_opera_omnia_final",
+    "event_type": "publication",
+    "label": "Published Opera Omnia Vol 4",
+    "description": "Final volume published posthumously.",
+    "date": {
+      "display": "1929",
+      "precision": "year",
+      "sort_start": "1929-01-01",
+      "sort_end": "1929-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "camillo_golgi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "opera_omnia",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ghosh_2020",
+        "page": 5,
+        "quote": "However the final volume was published posthumously in 1929 and was edited by his colleagues in Pavia [33]."
+      }
+    ]
+  }
+]

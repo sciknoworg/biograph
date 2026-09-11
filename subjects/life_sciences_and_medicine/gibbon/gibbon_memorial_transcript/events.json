@@ -1,0 +1,283 @@
+[
+  {
+    "id": "gibbon_princeton_graduation",
+    "event_type": "education",
+    "label": "Graduated from Princeton University",
+    "description": "Graduated at the age of nineteen.",
+    "date": {
+      "display": "1923",
+      "precision": "year",
+      "sort_start": "1923-01-01",
+      "sort_end": "1923-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_heysham_gibbon_jr",
+        "role": "subject"
+      },
+      {
+        "entity_id": "princeton_university",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gibbon_memorial_transcript",
+        "page": 1,
+        "quote": "He was graduated from Princeton at the age of nineteen"
+      }
+    ]
+  },
+  {
+    "id": "gibbon_jefferson_md",
+    "event_type": "education",
+    "label": "Received M.D. from Jefferson Medical College",
+    "description": "Finished Jefferson Medical College four years after Princeton.",
+    "date": {
+      "display": "1927",
+      "precision": "year",
+      "sort_start": "1927-01-01",
+      "sort_end": "1927-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_heysham_gibbon_jr",
+        "role": "subject"
+      },
+      {
+        "entity_id": "jefferson_medical_college",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gibbon_memorial_transcript",
+        "page": 1,
+        "quote": "finished Jefferson Medical College four years later with an M.D."
+      }
+    ]
+  },
+  {
+    "id": "gibbon_marriage",
+    "event_type": "other",
+    "label": "Married Maly",
+    "description": "Married Pete Churchill's technician.",
+    "date": {
+      "display": "1931",
+      "precision": "year",
+      "sort_start": "1931-01-01",
+      "sort_end": "1931-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_heysham_gibbon_jr",
+        "role": "subject"
+      },
+      {
+        "entity_id": "maly_gibbon",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gibbon_memorial_transcript",
+        "page": 181,
+        "quote": "married her in 1931"
+      }
+    ]
+  },
+  {
+    "id": "gibbon_cat_experiment",
+    "event_type": "public_demonstration",
+    "label": "Clamped pulmonary artery of a cat",
+    "description": "First able to clamp completely the pulmonary artery of a cat and maintain the heart and lung function with his machine.",
+    "date": {
+      "display": "1935",
+      "precision": "year",
+      "sort_start": "1935-01-01",
+      "sort_end": "1935-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_heysham_gibbon_jr",
+        "role": "subject"
+      },
+      {
+        "entity_id": "maly_gibbon",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "heart_lung_machine",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gibbon_memorial_transcript",
+        "page": 181,
+        "quote": "that day in 1935 when Jack and Maly... were first able to clamp completely the pulmonary artery of a cat and maintain the heart and lung function with his machine"
+      }
+    ]
+  },
+  {
+    "id": "gibbon_war_service",
+    "event_type": "employment_start",
+    "label": "Served in South Pacific and Mayo General Hospital",
+    "description": "Devoted the war years to service with the Pennsylvania Hospital Unit in the South Pacific and eventually became the chief of the Surgical Service at the Mayo General Hospital.",
+    "date": {
+      "display": "war years",
+      "precision": "decade",
+      "sort_start": "1941-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_heysham_gibbon_jr",
+        "role": "subject"
+      },
+      {
+        "entity_id": "pennsylvania_hospital",
+        "role": "employer"
+      },
+      {
+        "entity_id": "mayo_general_hospital",
+        "role": "employer"
+      },
+      {
+        "entity_id": "south_pacific",
+        "role": "location"
+      },
+      {
+        "entity_id": "galesburg_illinois",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gibbon_memorial_transcript",
+        "page": 1,
+        "quote": "He devoted the war years to service with the Pennsylvania Hospital Unit in the South Pacific and eventually became the chief of the Surgical Service at the Mayo General Hospital in Galesburg, Illinois."
+      }
+    ]
+  },
+  {
+    "id": "gibbon_upenn_assistant_prof",
+    "event_type": "employment_start",
+    "label": "Appointed Assistant Professor at University of Pennsylvania",
+    "description": "Returned to the University of Pennsylvania as Assistant Professor of Surgery.",
+    "date": {
+      "display": "1945-46",
+      "precision": "year",
+      "sort_start": "1945-01-01",
+      "sort_end": "1946-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_heysham_gibbon_jr",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_pennsylvania",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gibbon_memorial_transcript",
+        "page": 1,
+        "quote": "He returned to the University of Pennsylvania as Assistant Professor of Surgery in 1945-46"
+      }
+    ]
+  },
+  {
+    "id": "gibbon_jefferson_prof",
+    "event_type": "employment_start",
+    "label": "Appointed Professor at Jefferson Medical College",
+    "description": "Almost immediately appointed professor of surgery and director of surgical research at Jefferson Medical College.",
+    "date": {
+      "display": "1946",
+      "precision": "year",
+      "sort_start": "1946-01-01",
+      "sort_end": "1946-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_heysham_gibbon_jr",
+        "role": "subject"
+      },
+      {
+        "entity_id": "jefferson_medical_college",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gibbon_memorial_transcript",
+        "page": 1,
+        "quote": "but was almost immediately appointed professor of surgery and director of surgical research at Jefferson Medical College"
+      }
+    ]
+  },
+  {
+    "id": "gibbon_first_human_operation",
+    "event_type": "public_demonstration",
+    "label": "First successful open heart operation",
+    "description": "Applied this experience in the treatment of a patient with a septal defect at the Jefferson Hospital.",
+    "date": {
+      "display": "May, 1953",
+      "precision": "month",
+      "sort_start": "1953-05-01",
+      "sort_end": "1953-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_heysham_gibbon_jr",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cecilia_bavolek",
+        "role": "patient"
+      },
+      {
+        "entity_id": "jefferson_medical_college",
+        "role": "location"
+      },
+      {
+        "entity_id": "heart_lung_machine",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gibbon_memorial_transcript",
+        "page": 1,
+        "quote": "he applied this experience in the treatment of a patient with a septal defect at the Jefferson Hospital in May, 1953."
+      }
+    ]
+  },
+  {
+    "id": "gibbon_death",
+    "event_type": "death",
+    "label": "Died",
+    "description": "Lost Jack just before the twentieth anniversary of the first use of the heart-lung machine.",
+    "date": {
+      "display": "May 1973",
+      "precision": "month",
+      "sort_start": "1973-05-01",
+      "sort_end": "1973-05-05"
+    },
+    "participants": [
+      {
+        "entity_id": "john_heysham_gibbon_jr",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gibbon_memorial_transcript",
+        "page": 1,
+        "quote": "Then Maly answered and told me that a half hour before, we had lost Jack."
+      }
+    ]
+  }
+]
