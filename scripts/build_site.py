@@ -1510,6 +1510,34 @@ def validate_subject(slug):
             path = list(err.absolute_path)
             return bool(path) and path[0] == "sources"
 
+        def _about_the_date(err):
+            """Is this schema error about the event's date, rather than anything else?
+
+            An event with no usable date is not an event. This project's own rule is that an
+            event is "a dateable occurrence ... never undated", and the timeline -- which is
+            what events exist for -- cannot place one. So such an event is unusable either way,
+            and the only question is whether it should also cost the twenty entities and fifteen
+            good events extracted alongside it. Seen live: a single dateless `education` event
+            failed the whole `cartwright` subject twice, and a third failure would have marked
+            it permanently dead.
+
+            Two shapes, both from jsonschema's own error rather than its message where possible:
+            a date object present but incomplete (path begins "date"), and no date key at all (a
+            `required` error on the event itself). The second is identified by checking which
+            required key is actually absent, so an event missing several things is NOT swept up
+            here -- those other errors are not in the allowed set and keep the subject fatal, as
+            before. A bad event_type or a missing label is untouched: those are `enum` and
+            `required`-on-another-key, and an event with a good date and a wrong type is a
+            repairable record rather than an unusable one."""
+            path = list(err.absolute_path)
+            if path and path[0] == "date":
+                return True
+            if not path and err.validator == "required":
+                missing = [k for k in (err.validator_value or [])
+                           if k not in (err.instance or {})]
+                return missing == ["date"]
+            return False
+
         def check(schema_name, items):
             schema = store[f"https://biograph/schema/{schema_name}.schema.json"]
             resolver = RefResolver.from_schema(schema, store=store)
@@ -1530,7 +1558,9 @@ def validate_subject(slug):
                 # lost either way -- the item is written to events.rejected.json /
                 # relations.rejected.json with its reason, so a citation worth repairing by hand
                 # is still there to repair.
-                if errs and all(e.validator == "minItems" or _in_citation(e) for e in errs):
+                date_ok = schema_name == "event"
+                if errs and all(e.validator == "minItems" or _in_citation(e)
+                                or (date_ok and _about_the_date(e)) for e in errs):
                     why = "; ".join(e.message for e in errs)
                     if schema_name == "event":
                         set_aside_events.append((it, why))
