@@ -1,0 +1,814 @@
+[
+  {
+    "id": "tesla_birth",
+    "event_type": "birth",
+    "label": "Born in Smiljan",
+    "description": "Nikola Tesla was born in Smiljan in the house shown in Figure 1.",
+    "date": {
+      "display": "July 10, 1856",
+      "precision": "day",
+      "sort_start": "1856-07-10",
+      "sort_end": "1856-07-10"
+    },
+    "location": "smiljan",
+    "participants": [
+      {
+        "entity_id": "nikola_tesla",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 5,
+        "quote": "On July 10, 1856, Nikola Tesla was born in Smiljan in the house shown in Figure 1, and was later followed by a sister, Mandica."
+      }
+    ]
+  },
+  {
+    "id": "tesla_elementary_school_gospic",
+    "event_type": "education",
+    "label": "Completed elementary school in Gospić",
+    "description": "Nikola attended the preparatory elementary school in Gospić, which he completed in the year 1866.",
+    "date": {
+      "display": "1866",
+      "precision": "year",
+      "sort_start": "1866-01-01",
+      "sort_end": "1866-12-31"
+    },
+    "location": "gospić",
+    "participants": [
+      {
+        "entity_id": "nikola_tesla",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 6,
+        "quote": "Thereafter, Nikola attended the preparatory elementary school in GospiÊ, which he completed in the year 1866."
+      }
+    ]
+  },
+  {
+    "id": "tesla_secondary_school_rakovac",
+    "event_type": "education",
+    "label": "Attended secondary school in Rakovac",
+    "description": "After completing the third year of the lower secondary school in Gospić in 1870, his parents sent him to the higher secondary school in Rakovac.",
+    "date": {
+      "display": "1870",
+      "precision": "year",
+      "sort_start": "1870-01-01",
+      "sort_end": "1870-12-31"
+    },
+    "location": "rakovac",
+    "participants": [
+      {
+        "entity_id": "nikola_tesla",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 7,
+        "quote": "After Nikola completed the third year of the lower secondary school in GospiÊ in 1870, his parents sent him to the higher secondary school, and afterwards to the secondary school in Rakovac."
+      }
+    ]
+  },
+  {
+    "id": "tesla_graduation_exam",
+    "event_type": "education",
+    "label": "Passed final graduation examination",
+    "description": "Nikola passed his final graduation examination on July 24, 1873.",
+    "date": {
+      "display": "July 24, 1873",
+      "precision": "day",
+      "sort_start": "1873-07-24",
+      "sort_end": "1873-07-24"
+    },
+    "location": "rakovac",
+    "participants": [
+      {
+        "entity_id": "nikola_tesla",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 8,
+        "quote": "Nikola passed his ﬁ nal graduation examination on July 24, 1873."
+      }
+    ]
+  },
+  {
+    "id": "tesla_cholera_illness",
+    "event_type": "other",
+    "label": "Illness with cholera",
+    "description": "Nikola caught cholera and was bedridden for nearly nine months.",
+    "date": {
+      "display": "1873",
+      "precision": "year",
+      "sort_start": "1873-01-01",
+      "sort_end": "1873-12-31"
+    },
+    "location": "gospić",
+    "participants": [
+      {
+        "entity_id": "nikola_tesla",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 8,
+        "quote": "Nikola caught cholera and was bedridden for nearly nine months."
+      }
+    ]
+  },
+  {
+    "id": "tesla_graz_enrollment",
+    "event_type": "education",
+    "label": "Enrolled at polytechnic school in Graz",
+    "description": "At the age of nineteen he enrolled during the 1875/76 academic year at the polytechnic school in Graz.",
+    "date": {
+      "display": "1875/76",
+      "precision": "year",
+      "sort_start": "1875-01-01",
+      "sort_end": "1876-12-31"
+    },
+    "location": "graz",
+    "participants": [
+      {
+        "entity_id": "nikola_tesla",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 9,
+        "quote": "Two years after passing his ﬁ  nal secondary school examination and recovery from illness, at the age of nineteen he enrolled during the 1875/76 academic year at the polytechnic school (Technische  Hochschule) in Graz, Austria, with a scholarship from the Military Border Territory."
+      }
+    ]
+  },
+  {
+    "id": "tesla_left_graz",
+    "event_type": "relocation",
+    "label": "Left Graz and interrupted studies",
+    "description": "Tesla interrupted his studies and left Graz, also breaking ties with his family.",
+    "date": {
+      "display": "1878",
+      "precision": "year",
+      "sort_start": "1878-01-01",
+      "sort_end": "1878-12-31"
+    },
+    "location": "graz",
+    "participants": [
+      {
+        "entity_id": "nikola_tesla",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 10,
+        "quote": "Therefore, he interrupted his studies and left Graz, also breaking ties with his family."
+      }
+    ]
+  },
+  {
+    "id": "milutin_tesla_death",
+    "event_type": "death",
+    "label": "Death of Milutin Tesla",
+    "description": "Milutin Tesla died on April 29, 1879.",
+    "date": {
+      "display": "April 29, 1879",
+      "precision": "day",
+      "sort_start": "1879-04-29",
+      "sort_end": "1879-04-29"
+    },
+    "location": "gospić",
+    "participants": [
+      {
+        "entity_id": "milutin_tesla",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 10,
+        "quote": "All of this was difﬁ cult for his father, Milutin, to accept and he died soon after, on April 29, 1879."
+      }
+    ]
+  },
+  {
+    "id": "tesla_prague",
+    "event_type": "relocation",
+    "label": "Moved to Prague",
+    "description": "In early January of the year 1880, Nikola Tesla went to Prague at the age of 24.",
+    "date": {
+      "display": "January 1880",
+      "precision": "month",
+      "sort_start": "1880-01-01",
+      "sort_end": "1880-01-31"
+    },
+    "location": "prague",
+    "participants": [
+      {
+        "entity_id": "nikola_tesla",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 10,
+        "quote": "In early January of the year 1880, Nikola Tesla went to Prague at the age of 24."
+      }
+    ]
+  },
+  {
+    "id": "tesla_budapest_work",
+    "event_type": "employment_start",
+    "label": "Started work at Central Telegraph Office Budapest",
+    "description": "In 1881, Tesla began working at the Central Telegraph Office in Budapest.",
+    "date": {
+      "display": "1881",
+      "precision": "year",
+      "sort_start": "1881-01-01",
+      "sort_end": "1881-12-31"
+    },
+    "location": "budapest",
+    "participants": [
+      {
+        "entity_id": "nikola_tesla",
+        "role": "subject"
+      },
+      {
+        "entity_id": "central_telegraph_office_budapest",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 10,
+        "quote": "In 1881, Tesla began working at the Central Telegraph Ofﬁ ce in Budapest."
+      }
+    ]
+  },
+  {
+    "id": "tesla_rotating_field_invention",
+    "event_type": "invention",
+    "label": "Invented rotating magnetic field motor",
+    "description": "Tesla had arrived at this invention by chance in February 1882, during a Sunday walk in the municipal park with his friend Antal Szigety.",
+    "date": {
+      "display": "February 1882",
+      "precision": "month",
+      "sort_start": "1882-02-01",
+      "sort_end": "1882-02-28"
+    },
+    "location": "budapest",
+    "participants": [
+      {
+        "entity_id": "nikola_tesla",
+        "role": "subject"
+      },
+      {
+        "entity_id": "rotating_magnetic_field_motor",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 10,
+        "quote": "Tesla had arrived at this invention by chance in February 1882, during a Sunday walk in the municipal park with his friend Antal Szigety, when he drew a diagram of this device in the sand with a stick."
+      }
+    ]
+  },
+  {
+    "id": "tesla_new_york_move",
+    "event_type": "relocation",
+    "label": "Moved to New York",
+    "description": "In 1884, Tesla left France to work in Edison's factory in New York.",
+    "date": {
+      "display": "1884",
+      "precision": "year",
+      "sort_start": "1884-01-01",
+      "sort_end": "1884-12-31"
+    },
+    "location": "new_york",
+    "participants": [
+      {
+        "entity_id": "nikola_tesla",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 11,
+        "quote": "In 1884, Tesla left France to work in Edison's factory in New York, where he stayed for one year and perfected twenty-four different types of electrical devices."
+      }
+    ]
+  },
+  {
+    "id": "tesla_arc_light_company",
+    "event_type": "company_founded",
+    "label": "Founded Tesla Arc Light Company",
+    "description": "Tesla left Edison's company and opened his own firm, the Tesla Arc Light Company.",
+    "date": {
+      "display": "1885",
+      "precision": "year",
+      "sort_start": "1885-01-01",
+      "sort_end": "1885-12-31"
+    },
+    "location": "new_york",
+    "participants": [
+      {
+        "entity_id": "nikola_tesla",
+        "role": "subject"
+      },
+      {
+        "entity_id": "tesla_arc_light_company",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 11,
+        "quote": "Since he did not receive suitable compensation for his work, he left Edison's company and, at the advice of several technicians and ﬁ nanciers, opened his own ﬁ rm, the Tesla Arc Light Company."
+      }
+    ]
+  },
+  {
+    "id": "tesla_electric_company",
+    "event_type": "company_founded",
+    "label": "Founded Tesla Electric Company",
+    "description": "In the year 1887, he founded the Tesla Electric Company.",
+    "date": {
+      "display": "1887",
+      "precision": "year",
+      "sort_start": "1887-01-01",
+      "sort_end": "1887-12-31"
+    },
+    "location": "new_york",
+    "participants": [
+      {
+        "entity_id": "nikola_tesla",
+        "role": "subject"
+      },
+      {
+        "entity_id": "tesla_electric_company",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 11,
+        "quote": "In the year 1887, he founded the Tesla Electric Company."
+      }
+    ]
+  },
+  {
+    "id": "tesla_patents_filed",
+    "event_type": "patent_filed",
+    "label": "Filed four patents",
+    "description": "That year, he filed four patents in connection with the rotating magnetic field, polyphase devices, induction motors, and a long-distance electrical transmission system.",
+    "date": {
+      "display": "1887",
+      "precision": "year",
+      "sort_start": "1887-01-01",
+      "sort_end": "1887-12-31"
+    },
+    "location": "new_york",
+    "participants": [
+      {
+        "entity_id": "nikola_tesla",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 11,
+        "quote": "That year, he ﬁ led four patents: -  in connection with the rotating magnetic ﬁ eld, - polyphase devices, - induction motors, - a long-distance electrical transmission system."
+      }
+    ]
+  },
+  {
+    "id": "tesla_patents_sold",
+    "event_type": "other",
+    "label": "Sold patents to Westinghouse",
+    "description": "In the year 1888, Tesla sold his patents to the Westinghouse Electric and Manufacturing Company.",
+    "date": {
+      "display": "1888",
+      "precision": "year",
+      "sort_start": "1888-01-01",
+      "sort_end": "1888-12-31"
+    },
+    "location": "new_york",
+    "participants": [
+      {
+        "entity_id": "nikola_tesla",
+        "role": "subject"
+      },
+      {
+        "entity_id": "westinghouse_electric",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 12,
+        "quote": "In the year 1888, Tesla sold his patents to the Westinghouse Electric and Manufacturing Company."
+      }
+    ]
+  },
+  {
+    "id": "tesla_chicago_fair",
+    "event_type": "public_demonstration",
+    "label": "Presented system at Chicago World's Fair",
+    "description": "Tesla's system for the transmission of electricity was presented for the first time at the Chicago World's Fair of 1893.",
+    "date": {
+      "display": "1893",
+      "precision": "year",
+      "sort_start": "1893-01-01",
+      "sort_end": "1893-12-31"
+    },
+    "location": "new_york",
+    "participants": [
+      {
+        "entity_id": "nikola_tesla",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 12,
+        "quote": "Tesla's system for the transmission of electricity was presented for the ﬁ rst time at the Chicago World's Fair of 1893, and in 1896 a hydroelectric power plant was built at Niagara Falls according to his system."
+      }
+    ]
+  },
+  {
+    "id": "tesla_niagara_plant",
+    "event_type": "product_launch",
+    "label": "Niagara Falls Power Plant built",
+    "description": "In 1896 a hydroelectric power plant was built at Niagara Falls according to his system.",
+    "date": {
+      "display": "1896",
+      "precision": "year",
+      "sort_start": "1896-01-01",
+      "sort_end": "1896-12-31"
+    },
+    "location": "niagara_falls",
+    "participants": [
+      {
+        "entity_id": "nikola_tesla",
+        "role": "subject"
+      },
+      {
+        "entity_id": "niagara_power_plant",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 12,
+        "quote": "Tesla's system for the transmission of electricity was presented for the ﬁ rst time at the Chicago World's Fair of 1893, and in 1896 a hydroelectric power plant was built at Niagara Falls according to his system."
+      }
+    ]
+  },
+  {
+    "id": "tesla_wireless_experiments",
+    "event_type": "invention",
+    "label": "Conducted wireless transmission experiments",
+    "description": "In 1892, Tesla conducted experiments in wireless transmission and in 1896 began to transmit signals at distances of 32 kilometers.",
+    "date": {
+      "display": "1892",
+      "precision": "year",
+      "sort_start": "1892-01-01",
+      "sort_end": "1892-12-31"
+    },
+    "location": "new_york",
+    "participants": [
+      {
+        "entity_id": "nikola_tesla",
+        "role": "subject"
+      },
+      {
+        "entity_id": "wireless_transmission_system",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 13,
+        "quote": "In 1892, Tesla conducted experiments in wireless transmission and in 1896 began to transmit signals at distances of 32 kilometers."
+      }
+    ]
+  },
+  {
+    "id": "tesla_boat_demonstration",
+    "event_type": "public_demonstration",
+    "label": "Demonstrated teleautomatic boat",
+    "description": "In the year 1898, he built a teleautomatic boat operated by remote control, that he demonstrated before a crowd at Madison Square Garden in New York City.",
+    "date": {
+      "display": "1898",
+      "precision": "year",
+      "sort_start": "1898-01-01",
+      "sort_end": "1898-12-31"
+    },
+    "location": "new_york",
+    "participants": [
+      {
+        "entity_id": "nikola_tesla",
+        "role": "subject"
+      },
+      {
+        "entity_id": "teleautomatic_boat",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 13,
+        "quote": "In the year 1898, he built a teleautomatic boat operated by remote control, that he demonstrated before a crowd at Madison Square Garden in New York City."
+      }
+    ]
+  },
+  {
+    "id": "tesla_colorado_station",
+    "event_type": "other",
+    "label": "Built transmitter station in Colorado",
+    "description": "In 1899 in the state of Colorado, he transmitted signals wirelessly at a distance of 1,000 kilometers, and built a primary transmitter station.",
+    "date": {
+      "display": "1899",
+      "precision": "year",
+      "sort_start": "1899-01-01",
+      "sort_end": "1899-12-31"
+    },
+    "location": "colorado",
+    "participants": [
+      {
+        "entity_id": "nikola_tesla",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 13,
+        "quote": "In 1899 in the state of Colorado, he transmitted signals wirelessly at a distance of 1,000 kilometers, and built a primary transmitter station."
+      }
+    ]
+  },
+  {
+    "id": "tesla_long_island_tower",
+    "event_type": "other",
+    "label": "Erected Long Island tower",
+    "description": "In Long Island, he erected a 57-meter tower and engaged in the problems of the transmission of large quantities of electricity for household and industrial use.",
+    "date": {
+      "display": "1900",
+      "precision": "year",
+      "sort_start": "1900-01-01",
+      "sort_end": "1900-12-31"
+    },
+    "location": "long_island",
+    "participants": [
+      {
+        "entity_id": "nikola_tesla",
+        "role": "subject"
+      },
+      {
+        "entity_id": "wardenclyffe_tower",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 13,
+        "quote": "In Long Island, he erected a 57-meter tower and engaged in the problems of the transmission of large quantities of electricity for household and industrial use."
+      }
+    ]
+  },
+  {
+    "id": "tesla_tower_destroyed",
+    "event_type": "other",
+    "label": "Long Island tower destroyed",
+    "description": "In 1917, an unknown perpetrator destroyed the tower with dynamite.",
+    "date": {
+      "display": "1917",
+      "precision": "year",
+      "sort_start": "1917-01-01",
+      "sort_end": "1917-12-31"
+    },
+    "location": "long_island",
+    "participants": [
+      {
+        "entity_id": "wardenclyffe_tower",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 13,
+        "quote": "In 1917, an unknown perpetrator destroyed the tower with dynamite, perhaps at the orders of the general headquarters of the US Army."
+      }
+    ]
+  },
+  {
+    "id": "tesla_jazu_member",
+    "event_type": "award",
+    "label": "Elected honorary member of JAZU",
+    "description": "On the occasion of Tesla's fortieth birthday, on December 17, 1896, he was chosen by the general assembly as an honorary member of the Yugoslav Academy of Arts and Sciences in Zagreb.",
+    "date": {
+      "display": "December 17, 1896",
+      "precision": "day",
+      "sort_start": "1896-12-17",
+      "sort_end": "1896-12-17"
+    },
+    "location": "zagreb",
+    "participants": [
+      {
+        "entity_id": "nikola_tesla",
+        "role": "subject"
+      },
+      {
+        "entity_id": "jazus",
+        "role": "awarding_body"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 17,
+        "quote": "On the occasion of Tesla's fortieth birthday, on December 17, 1896, he was chosen by the general assembly as an honorary member of the Yugoslav Academy of Arts and Sciences in Zagreb."
+      }
+    ]
+  },
+  {
+    "id": "tesla_zagreb_doctorate",
+    "event_type": "award",
+    "label": "Awarded Doctor honoris causa by University of Zagreb",
+    "description": "On June 3, 1926, the University of Zagreb awarded him the title of Doctor honoris causa.",
+    "date": {
+      "display": "June 3, 1926",
+      "precision": "day",
+      "sort_start": "1926-06-03",
+      "sort_end": "1926-06-03"
+    },
+    "location": "zagreb",
+    "participants": [
+      {
+        "entity_id": "nikola_tesla",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_zagreb",
+        "role": "awarding_body"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 17,
+        "quote": "On June 3, 1926, the University of Zagreb awarded him the title of Doctor honoris causa, and on June 15, 1926 the Technical College of the University of Belgrade awarded him an honorary doctorate of technical sciences."
+      }
+    ]
+  },
+  {
+    "id": "tesla_belgrade_doctorate",
+    "event_type": "award",
+    "label": "Awarded honorary doctorate by University of Belgrade",
+    "description": "On June 15, 1926 the Technical College of the University of Belgrade awarded him an honorary doctorate of technical sciences.",
+    "date": {
+      "display": "June 15, 1926",
+      "precision": "day",
+      "sort_start": "1926-06-15",
+      "sort_end": "1926-06-15"
+    },
+    "location": "belgrade",
+    "participants": [
+      {
+        "entity_id": "nikola_tesla",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_belgrade",
+        "role": "awarding_body"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 17,
+        "quote": "On June 3, 1926, the University of Zagreb awarded him the title of Doctor honoris causa, and on June 15, 1926 the Technical College of the University of Belgrade awarded him an honorary doctorate of technical sciences."
+      }
+    ]
+  },
+  {
+    "id": "tesla_death_announced",
+    "event_type": "death",
+    "label": "Death announced by Mayor La Guardia",
+    "description": "News of the death of Nikola Tesla was announced over the radio on January 7, 1943, by Mayor Fiorello La Guardia of New York.",
+    "date": {
+      "display": "January 7, 1943",
+      "precision": "day",
+      "sort_start": "1943-01-07",
+      "sort_end": "1943-01-07"
+    },
+    "location": "new_york",
+    "participants": [
+      {
+        "entity_id": "nikola_tesla",
+        "role": "subject"
+      },
+      {
+        "entity_id": "fiorello_la_guardia",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 16,
+        "quote": "News of the death of Nikola Tesla was announced over the radio on January 7, 1943, by Mayor Fiorello La Guardia of New York."
+      }
+    ]
+  },
+  {
+    "id": "tesla_unit_adopted",
+    "event_type": "award",
+    "label": "Tesla unit adopted by CGPM",
+    "description": "This decision was adopted and confirmed at the Eleventh General Conference on Weights and Measures, held on October 10, 1960 in Paris.",
+    "date": {
+      "display": "October 10, 1960",
+      "precision": "day",
+      "sort_start": "1960-10-10",
+      "sort_end": "1960-10-10"
+    },
+    "location": "paris",
+    "participants": [
+      {
+        "entity_id": "nikola_tesla",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cgpm",
+        "role": "awarding_body"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 18,
+        "quote": "This decision was adopted and conﬁ rmed at the Eleventh General Conference on Weights and Measures, held on October 10, 1960 in Paris."
+      }
+    ]
+  }
+]

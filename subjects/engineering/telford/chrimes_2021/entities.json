@@ -1,0 +1,231 @@
+[
+  {
+    "id": "thomas_telford",
+    "entity_type": "person",
+    "name": "Thomas Telford",
+    "aliases": [
+      "Telford"
+    ],
+    "summary": "British civil engineer and first President of the Institution of Civil Engineers.",
+    "subtype": "engineer"
+  },
+  {
+    "id": "institution_of_civil_engineers",
+    "entity_type": "organization",
+    "name": "Institution of Civil Engineers",
+    "aliases": [
+      "ICE"
+    ],
+    "summary": "Professional body for civil engineers of which Telford was the first President.",
+    "subtype": "professional body"
+  },
+  {
+    "id": "bank_of_scotland",
+    "entity_type": "organization",
+    "name": "Bank of Scotland",
+    "aliases": [],
+    "summary": "Bank where Telford held personal and public accounts.",
+    "subtype": "bank"
+  },
+  {
+    "id": "exchequer_bill_loan_commission",
+    "entity_type": "organization",
+    "name": "Exchequer Bill Loan Commission",
+    "aliases": [
+      "EBLC"
+    ],
+    "summary": "Government body created to tackle unemployment through public works investment.",
+    "subtype": "government body"
+  },
+  {
+    "id": "highland_roads_and_bridges_commission",
+    "entity_type": "organization",
+    "name": "Commissioners for Highland Roads and Bridges",
+    "aliases": [
+      "Highland Roads and Bridges Commission"
+    ],
+    "summary": "Commission for which Telford served as Commissioner for Highland Roads and Bridges.",
+    "subtype": "government body"
+  },
+  {
+    "id": "ellesmere_canal_company",
+    "entity_type": "organization",
+    "name": "Ellesmere Canal Company",
+    "aliases": [],
+    "summary": "Canal company for which Telford worked as engineer and shareholder.",
+    "subtype": "company"
+  },
+  {
+    "id": "holyhead_road_commissioners",
+    "entity_type": "organization",
+    "name": "Holyhead Road Commissioners",
+    "aliases": [],
+    "summary": "Commissioners for whom Telford worked on road and harbour improvements.",
+    "subtype": "government body"
+  },
+  {
+    "id": "william_jessop",
+    "entity_type": "person",
+    "name": "William Jessop",
+    "aliases": [
+      "Jessop"
+    ],
+    "summary": "Senior consulting engineer who collaborated with Telford on the Caledonian and Ellesmere Canals.",
+    "subtype": "engineer"
+  },
+  {
+    "id": "george_turnbull",
+    "entity_type": "person",
+    "name": "George Turnbull",
+    "aliases": [
+      "Turnbull"
+    ],
+    "summary": "Telford's clerk and draughtsman who joined him in 1830.",
+    "subtype": "assistant"
+  },
+  {
+    "id": "william_provis",
+    "entity_type": "person",
+    "name": "William Provis",
+    "aliases": [
+      "Provis"
+    ],
+    "summary": "Telford's former pupil and assistant on the Holyhead Road and Menai Bridge.",
+    "subtype": "assistant"
+  },
+  {
+    "id": "john_macneill",
+    "entity_type": "person",
+    "name": "John Macneill",
+    "aliases": [
+      "Macneill"
+    ],
+    "summary": "Superintendent of the Holyhead Road and surveyor employed by Telford.",
+    "subtype": "engineer"
+  },
+  {
+    "id": "james_mills",
+    "entity_type": "person",
+    "name": "James Mills",
+    "aliases": [
+      "Mills"
+    ],
+    "summary": "Surveyor employed by Telford for data gathering on reports.",
+    "subtype": "surveyor"
+  },
+  {
+    "id": "london",
+    "entity_type": "place",
+    "name": "London",
+    "aliases": [],
+    "summary": "City where Telford maintained an office and residence.",
+    "subtype": "city",
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 51.50722,
+      "lng": -0.1275,
+      "wikidata_qid": "Q84",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "scotland",
+    "entity_type": "place",
+    "name": "Scotland",
+    "aliases": [],
+    "summary": "Region where Telford undertook significant infrastructure projects.",
+    "subtype": "region",
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 57.0,
+      "lng": -5.0,
+      "wikidata_qid": "Q22",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "shropshire",
+    "entity_type": "place",
+    "name": "Shropshire",
+    "aliases": [],
+    "summary": "County where Telford worked as a county surveyor.",
+    "subtype": "county",
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 52.64239,
+      "lng": -2.7148,
+      "wikidata_qid": "Q67574371",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "abingdon_street",
+    "entity_type": "place",
+    "name": "24 Abingdon Street",
+    "aliases": [
+      "Abingdon Street"
+    ],
+    "summary": "Westminster location of Telford's permanent office from 1821.",
+    "subtype": "address",
+    "attributes": {
+      "city": "London",
+      "district": "Westminster"
+    }
+  },
+  {
+    "id": "caledonian_canal",
+    "entity_type": "artifact",
+    "name": "Caledonian Canal",
+    "aliases": [],
+    "summary": "Major canal project in Scotland engineered by Telford.",
+    "subtype": "infrastructure"
+  },
+  {
+    "id": "menai_bridge",
+    "entity_type": "artifact",
+    "name": "Menai Bridge",
+    "aliases": [],
+    "summary": "Bridge project supervised by Telford's assistant William Provis.",
+    "subtype": "infrastructure"
+  },
+  {
+    "id": "holyhead_road",
+    "entity_type": "artifact",
+    "name": "Holyhead Road",
+    "aliases": [],
+    "summary": "Road project engineered by Telford from 1815.",
+    "subtype": "infrastructure"
+  },
+  {
+    "id": "highland_roads",
+    "entity_type": "artifact",
+    "name": "Highland Roads",
+    "aliases": [],
+    "summary": "Infrastructure project in Scotland supervised by Telford.",
+    "subtype": "infrastructure"
+  },
+  {
+    "id": "ellesmere_canal",
+    "entity_type": "artifact",
+    "name": "Ellesmere Canal",
+    "aliases": [],
+    "summary": "Canal on which Telford served as engineer and shareholder.",
+    "subtype": "infrastructure"
+  },
+  {
+    "id": "liverpool_manchester_railway",
+    "entity_type": "artifact",
+    "name": "Liverpool and Manchester Railway",
+    "aliases": [],
+    "summary": "Railway on which Telford issued a critical report.",
+    "subtype": "infrastructure"
+  },
+  {
+    "id": "st_katharine_docks",
+    "entity_type": "artifact",
+    "name": "St Katharine Docks",
+    "aliases": [],
+    "summary": "Dock project where Telford held shares and employed assistants.",
+    "subtype": "infrastructure"
+  }
+]

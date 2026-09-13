@@ -1,0 +1,248 @@
+[
+  {
+    "aliases": [
+      "Edison",
+      "Thomas Edison",
+      "genius of Menlo Park",
+      "wizard of Menlo Park"
+    ],
+    "entity_type": "person",
+    "id": "thomas_alva_edison",
+    "name": "Thomas Alva Edison",
+    "subtype": "inventor",
+    "summary": "Prolific American inventor known for the phonograph, incandescent light bulb, and electric power distribution systems."
+  },
+  {
+    "aliases": [
+      "Milan"
+    ],
+    "attributes": {
+      "country": "United States",
+      "state": "Ohio",
+      "lat": 41.29306,
+      "lng": -82.60111,
+      "wikidata_qid": "Q1645063",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "milan_ohio",
+    "name": "Milan, Ohio",
+    "subtype": "village",
+    "summary": "Village in Ohio where Thomas Edison was born."
+  },
+  {
+    "aliases": [
+      "Port Huron"
+    ],
+    "attributes": {
+      "country": "United States",
+      "state": "Michigan",
+      "lat": 42.975,
+      "lng": -82.42444,
+      "wikidata_qid": "Q1000222",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "port_huron_michigan",
+    "name": "Port Huron, Michigan",
+    "subtype": "city",
+    "summary": "City in Michigan where the Edison family moved in 1854."
+  },
+  {
+    "aliases": [
+      "Menlo Park"
+    ],
+    "attributes": {
+      "country": "United States",
+      "state": "New Jersey",
+      "lat": 40.565,
+      "lng": -74.3375,
+      "wikidata_qid": "Q20657326",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "menlo_park_new_jersey",
+    "name": "Menlo Park, New Jersey",
+    "subtype": "locality",
+    "summary": "Location in Middlesex County, New Jersey, where Edison built his first industrial laboratory."
+  },
+  {
+    "aliases": [
+      "invention factory",
+      "Menlo Park laboratory"
+    ],
+    "entity_type": "organization",
+    "id": "menlo_park_laboratory",
+    "name": "Edison Laboratory",
+    "subtype": "laboratory",
+    "summary": "World's first industrial laboratory designed and built by Edison."
+  },
+  {
+    "aliases": [
+      "Edison Electric"
+    ],
+    "entity_type": "organization",
+    "id": "edison_electric_light_company",
+    "name": "Edison Electric Light Company",
+    "subtype": "company",
+    "summary": "Company formed in New York City to develop Edison's lighting systems."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "edison_illuminating_company",
+    "name": "Edison Illuminating Company",
+    "subtype": "company",
+    "summary": "Company founded to commercially distribute electric utility."
+  },
+  {
+    "aliases": [
+      "GE",
+      "Edison General Electric"
+    ],
+    "entity_type": "organization",
+    "id": "general_electric",
+    "name": "General Electric",
+    "subtype": "company",
+    "summary": "Company formed by the merger of Edison General Electric and Thomson-Houston."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "western_union",
+    "name": "Western Union",
+    "subtype": "company",
+    "summary": "Telegraph company where Edison worked as an employee of the Associated Press bureau."
+  },
+  {
+    "aliases": [
+      "Clarence Dalley"
+    ],
+    "entity_type": "person",
+    "id": "clarence_dally",
+    "name": "Clarence Dally",
+    "subtype": "assistant",
+    "summary": "Edison's laboratory assistant and the first radiation martyr."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "mary_stillwell",
+    "name": "Mary Stillwell",
+    "subtype": "spouse",
+    "summary": "Edison's first wife."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "mina_miller",
+    "name": "Mina Miller",
+    "subtype": "spouse",
+    "summary": "Edison's second wife, daughter of inventor Lewis Miller."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "phonograph",
+    "name": "Phonograph",
+    "subtype": "invention",
+    "summary": "Device invented by Edison for recording and playing sound."
+  },
+  {
+    "aliases": [
+      "electric lamp",
+      "light bulb"
+    ],
+    "entity_type": "artifact",
+    "id": "incandescent_lamp",
+    "name": "Incandescent lamp",
+    "subtype": "invention",
+    "summary": "Commercially practical electric light using a carbon filament."
+  },
+  {
+    "aliases": [
+      "Vitascope",
+      "X-ray lamp"
+    ],
+    "entity_type": "artifact",
+    "id": "fluoroscope",
+    "name": "Edison Fluoroscope",
+    "subtype": "invention",
+    "summary": "Device for viewing X-ray images developed by Edison."
+  },
+  {
+    "aliases": [
+      "motion picture camera"
+    ],
+    "entity_type": "artifact",
+    "id": "kinetograph",
+    "name": "Kinetograph",
+    "subtype": "invention",
+    "summary": "Motion picture camera patented by Edison."
+  },
+  {
+    "aliases": [
+      "Fort Myers",
+      "Seminole Lodge"
+    ],
+    "attributes": {
+      "country": "United States",
+      "state": "Florida",
+      "lat": 26.61667,
+      "lng": -81.83333,
+      "wikidata_qid": "Q506451",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "fort_myers_florida",
+    "name": "Fort Myers, Florida",
+    "subtype": "city",
+    "summary": "Location of Edison's winter retreat where he died."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "naval_consulting_board",
+    "name": "Naval Consulting Board",
+    "subtype": "government_board",
+    "summary": "US government advisory board headed by Edison during World War I."
+  },
+  {
+    "aliases": [
+      "electric vote recorder"
+    ],
+    "entity_type": "artifact",
+    "id": "us_patent_90646",
+    "name": "US Patent 90,646",
+    "subtype": "patent",
+    "summary": "Edison's first patent for an electric vote recorder."
+  },
+  {
+    "aliases": [
+      "Carbon telephones"
+    ],
+    "entity_type": "artifact",
+    "id": "us_patent_222390",
+    "name": "US Patent 222,390",
+    "subtype": "patent",
+    "summary": "Patent for carbon telephones."
+  },
+  {
+    "aliases": [
+      "electric lamp patent"
+    ],
+    "entity_type": "artifact",
+    "id": "us_patent_223898",
+    "name": "US Patent 223,898",
+    "subtype": "patent",
+    "summary": "Patent for an electric lamp using a carbon filament."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "edison_portland_cement_company",
+    "name": "Edison Portland Cement Company",
+    "subtype": "company",
+    "summary": "Company founded by Edison to promote cement use."
+  }
+]

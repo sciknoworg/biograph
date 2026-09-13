@@ -1,0 +1,304 @@
+[
+  {
+    "aliases": [
+      "Casagrande"
+    ],
+    "entity_type": "person",
+    "id": "arthur_casagrande",
+    "name": "Arthur Casagrande",
+    "subtype": "researcher",
+    "summary": "Austrian-American civil engineer and pioneer of soil mechanics and geotechnical engineering."
+  },
+  {
+    "aliases": [
+      "Karl Terzaghi",
+      "Terzaghi"
+    ],
+    "entity_type": "person",
+    "id": "karl_terzaghi",
+    "name": "Karl Terzaghi",
+    "subtype": "researcher",
+    "summary": "Austrian-American civil engineer known as the father of soil mechanics."
+  },
+  {
+    "aliases": [
+      "Leo Casagrande",
+      "Leo"
+    ],
+    "entity_type": "person",
+    "id": "leo_casagrande",
+    "name": "Leo Casagrande",
+    "subtype": "researcher",
+    "summary": "Austrian civil engineer and brother of Arthur Casagrande."
+  },
+  {
+    "aliases": [
+      "Erna Mass",
+      "Erna Mass Casagrande"
+    ],
+    "entity_type": "person",
+    "id": "erna_mass",
+    "name": "Erna Mass",
+    "subtype": "family",
+    "summary": "Wife of Arthur Casagrande."
+  },
+  {
+    "aliases": [
+      "Angelo August Casagrande",
+      "Angelo Casagrande"
+    ],
+    "entity_type": "person",
+    "id": "angelo_casagrande",
+    "name": "Angelo August Casagrande",
+    "subtype": "family",
+    "summary": "Father of Arthur Casagrande, Austrian army officer."
+  },
+  {
+    "aliases": [
+      "Anna Nussbaum"
+    ],
+    "entity_type": "person",
+    "id": "anna_nussbaum",
+    "name": "Anna Nussbaum",
+    "subtype": "family",
+    "summary": "Mother of Arthur Casagrande."
+  },
+  {
+    "aliases": [
+      "Vivien",
+      "Vivien Casagrande",
+      "Vivien McKanna"
+    ],
+    "entity_type": "person",
+    "id": "vivien_casagrande",
+    "name": "Vivien Casagrande",
+    "subtype": "family",
+    "summary": "Daughter of Arthur Casagrande."
+  },
+  {
+    "aliases": [
+      "Sandra",
+      "Sandra Casagrande"
+    ],
+    "entity_type": "person",
+    "id": "sandra_casagrande",
+    "name": "Sandra Casagrande",
+    "subtype": "family",
+    "summary": "Daughter of Arthur Casagrande."
+  },
+  {
+    "aliases": [
+      "Ralph Peck",
+      "Ralph Brazelton Peck"
+    ],
+    "entity_type": "person",
+    "id": "ralph_peck",
+    "name": "Ralph Peck",
+    "subtype": "researcher",
+    "summary": "American civil engineer and student of Arthur Casagrande."
+  },
+  {
+    "aliases": [
+      "Fitz Schaffernak",
+      "Professor Schaffernak"
+    ],
+    "entity_type": "person",
+    "id": "fitz_schaffernak",
+    "name": "Fitz Schaffernak",
+    "subtype": "researcher",
+    "summary": "Professor of Hydraulic Engineering at Technical University of Vienna."
+  },
+  {
+    "aliases": [
+      "Charles M. Spofford",
+      "Charles Milton Spofford"
+    ],
+    "entity_type": "person",
+    "id": "charles_spofford",
+    "name": "Charles M. Spofford",
+    "subtype": "researcher",
+    "summary": "Director of civil engineering department at MIT."
+  },
+  {
+    "aliases": [
+      "Haidenschaft"
+    ],
+    "attributes": {
+      "country": "Slovenia",
+      "lat": 45.88579,
+      "lng": 13.91282,
+      "wikidata_qid": "Q331701",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "haidenschaft",
+    "name": "Haidenschaft",
+    "subtype": "town",
+    "summary": "Town where Arthur Casagrande was born, now in Slovenia."
+  },
+  {
+    "aliases": [
+      "Vienna"
+    ],
+    "attributes": {
+      "country": "Austria",
+      "lat": 48.20833,
+      "lng": 16.3725,
+      "wikidata_qid": "Q1741",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "vienna",
+    "name": "Vienna",
+    "subtype": "city",
+    "summary": "City in Austria where Casagrande studied and worked."
+  },
+  {
+    "aliases": [
+      "Boston",
+      "Boston, Massachusetts"
+    ],
+    "attributes": {
+      "country": "United States",
+      "lat": 42.36028,
+      "lng": -71.05778,
+      "wikidata_qid": "Q100",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "boston",
+    "name": "Boston",
+    "subtype": "city",
+    "summary": "City in Massachusetts where Casagrande died and worked at Harvard."
+  },
+  {
+    "aliases": [
+      "Technische Hochschule in Vienna",
+      "Technical University of Vienna",
+      "Vienna Technical University"
+    ],
+    "entity_type": "organization",
+    "id": "technische_hochschule_vienna",
+    "name": "Technische Hochschule in Vienna",
+    "subtype": "university",
+    "summary": "University where Arthur Casagrande obtained his civil engineering degree."
+  },
+  {
+    "aliases": [
+      "MIT",
+      "Massachusetts Institute of Technology"
+    ],
+    "entity_type": "organization",
+    "id": "mit",
+    "name": "Massachusetts Institute of Technology",
+    "subtype": "university",
+    "summary": "University where Casagrande worked as an assistant researcher."
+  },
+  {
+    "aliases": [
+      "Harvard University",
+      "Harvard"
+    ],
+    "entity_type": "organization",
+    "id": "harvard_university",
+    "name": "Harvard University",
+    "subtype": "university",
+    "summary": "University where Casagrande was a professor for most of his career."
+  },
+  {
+    "aliases": [
+      "Army Corps of Engineers",
+      "US Army Corps of Engineers",
+      "Corps of Engineers"
+    ],
+    "entity_type": "organization",
+    "id": "us_army_corps_of_engineers",
+    "name": "Army Corps of Engineers of the United States",
+    "subtype": "government",
+    "summary": "US military organization Casagrande consulted for extensively."
+  },
+  {
+    "aliases": [
+      "Waterways Experiment Station",
+      "WES"
+    ],
+    "entity_type": "organization",
+    "id": "waterways_experiment_station",
+    "name": "Waterways Experiment Station",
+    "subtype": "lab",
+    "summary": "Research facility where Casagrande donated his archives."
+  },
+  {
+    "aliases": [
+      "Carnegie Steel"
+    ],
+    "entity_type": "organization",
+    "id": "carnegie_steel",
+    "name": "Carnegie Steel",
+    "subtype": "company",
+    "summary": "Company where Casagrande worked as a draftsman upon arriving in the USA."
+  },
+  {
+    "aliases": [
+      "Casagrande cup",
+      "Casagrande spoon",
+      "Casagrande bowl"
+    ],
+    "entity_type": "artifact",
+    "id": "casagrande_cup",
+    "name": "Casagrande cup",
+    "subtype": "invention",
+    "summary": "Device designed by Casagrande to determine the liquid limit of clays."
+  },
+  {
+    "aliases": [
+      "Franklin Falls Dam"
+    ],
+    "entity_type": "artifact",
+    "id": "franklin_falls_dam",
+    "name": "Franklin Falls Dam",
+    "subtype": "structure",
+    "summary": "Dam in New Hampshire where Casagrande consulted on filtration problems."
+  },
+  {
+    "aliases": [
+      "Fort Peck Dam"
+    ],
+    "entity_type": "artifact",
+    "id": "fort_peck_dam",
+    "name": "Fort Peck Dam",
+    "subtype": "structure",
+    "summary": "Dam where Casagrande investigated a landslide in 1939."
+  },
+  {
+    "aliases": [
+      "Teton Dam"
+    ],
+    "entity_type": "artifact",
+    "id": "teton_dam",
+    "name": "Teton Dam",
+    "subtype": "structure",
+    "summary": "Dam whose collapse Casagrande investigated in 1976."
+  },
+  {
+    "aliases": [
+      "Airfield Classification",
+      "AC"
+    ],
+    "entity_type": "artifact",
+    "id": "airfield_classification",
+    "name": "Airfield Classification",
+    "subtype": "method",
+    "summary": "Soil classification system designed by Casagrande for the Army."
+  },
+  {
+    "aliases": [
+      "International Society of Soil Mechanics and Foundations Engineering"
+    ],
+    "entity_type": "organization",
+    "id": "international_society_soil_mechanics",
+    "name": "International Society of Soil Mechanics and Foundations Engineering",
+    "subtype": "society",
+    "summary": "Society founded at the 1936 conference Casagrande organized."
+  }
+]

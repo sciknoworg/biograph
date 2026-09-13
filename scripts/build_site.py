@@ -816,6 +816,13 @@ def load_subject_documents(slug, load):
         year = str((ev.get("date") or {}).get("sort_start") or "")[:4]
         if not year:
             continue
+        # certainty: "disputed" is how a reviewer says "I looked, and the source really does
+        # give two answers". Freyssinet's paper states 1876 in its body and 1879 in a figure
+        # caption, which is neither a namesake nor a misassigned relative -- it is the document
+        # contradicting itself, and the schema has a field for exactly that. Honouring it keeps
+        # this warning an inbox that can be emptied rather than a line that prints forever.
+        if ev.get("certainty") == "disputed":
+            continue
         for p_ in ev.get("participants") or []:
             # Only the person the event is ABOUT. A birth or death event routinely participates
             # relatives too -- Haber appears in his wife's suicide as , Eastman in his
@@ -828,9 +835,10 @@ def load_subject_documents(slug, load):
                 names = {e["id"]: e.get("name") for e in entities}
                 print(f"  (WARNING: '{p_.get('entity_id')}' "
                       f"({names.get(p_.get('entity_id'), '?')}) is the subject of two "
-                      f"{ev['event_type']} events, {vital[key]} and {year} -- either one id "
-                      f"covers two people, or an event about a relative has named them as its "
-                      f"subject instead of the relative)")
+                      f"{ev['event_type']} events, {vital[key]} and {year} -- one id may "
+                      f"cover two people, an event about a relative may have named them as its "
+                      f"subject, or the sources may genuinely disagree. If the last, set "
+                      f"certainty: \"disputed\" on both and this stops warning.)")
             vital.setdefault(key, year)
 
     for eid, a, b in suspected_conflations:

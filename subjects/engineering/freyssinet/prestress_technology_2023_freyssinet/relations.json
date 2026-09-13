@@ -1,0 +1,110 @@
+[
+  {
+    "id": "eugene_freyssinet_born_in_objat",
+    "source": "eugene_freyssinet",
+    "type": "born_in",
+    "target": "objat",
+    "sources": [
+      {
+        "source_id": "prestress_technology_2023_freyssinet",
+        "page": 2,
+        "quote": "Freyssinet was born in 1876 t o a modest working -class family in Objat, a smalltown close to Limoges [2],"
+      }
+    ]
+  },
+  {
+    "id": "eugene_freyssinet_studied_at_polytechnique",
+    "source": "eugene_freyssinet",
+    "type": "studied_at",
+    "target": "polytechnique",
+    "sources": [
+      {
+        "source_id": "prestress_technology_2023_freyssinet",
+        "page": 1,
+        "quote": "During his studies at Polytechnique in 1903, Freyssinet saw the impressive cantilevers built by Rabut（his professor）in the Rue du Rome in Paris."
+      }
+    ]
+  },
+  {
+    "id": "eugene_freyssinet_supervised_by_rabut",
+    "source": "eugene_freyssinet",
+    "type": "supervised_by",
+    "target": "rabut",
+    "sources": [
+      {
+        "source_id": "prestress_technology_2023_freyssinet",
+        "page": 1,
+        "quote": "During his studies at Polytechnique in 1903, Freyssinet saw the impressive cantilevers built by Rabut（his professor）in the Rue du Rome in Paris."
+      }
+    ]
+  },
+  {
+    "id": "eugene_freyssinet_employed_by_moulins_services",
+    "source": "eugene_freyssinet",
+    "type": "employed_by",
+    "target": "moulins_services",
+    "event_id": "employment_moulins_1905",
+    "sources": [
+      {
+        "source_id": "prestress_technology_2023_freyssinet",
+        "page": 2,
+        "quote": "After leaving the Polytechnique, Freyssinet took charge of the service s at Mou- lins in 1905."
+      }
+    ]
+  },
+  {
+    "id": "eugene_freyssinet_invented_patent_1928",
+    "source": "eugene_freyssinet",
+    "type": "patented",
+    "target": "patent_1928",
+    "event_id": "patent_submitted_1928",
+    "sources": [
+      {
+        "source_id": "prestress_technology_2023_freyssinet",
+        "page": 4,
+        "quote": "In 1928, Freyssinet submitted a patent in Paris, which con- tained a detailed description of how to use steel reinforcement to achieve permanent pre-stress on materials like concrete  [2]."
+      }
+    ]
+  },
+  {
+    "id": "eugene_freyssinet_founded_precast_concrete_factory",
+    "source": "eugene_freyssinet",
+    "type": "founded",
+    "target": "precast_concrete_factory",
+    "event_id": "founded_factory",
+    "sources": [
+      {
+        "source_id": "prestress_technology_2023_freyssinet",
+        "page": 4,
+        "quote": "He founded a factory for precast concrete components, which laid the foundation for the salvation of the Maritime Station in 1934."
+      }
+    ]
+  },
+  {
+    "id": "eugene_freyssinet_invented_lightweight_jack",
+    "source": "eugene_freyssinet",
+    "type": "invented",
+    "target": "lightweight_jack_and_anchoring_system",
+    "event_id": "invented_jack_1939",
+    "sources": [
+      {
+        "source_id": "prestress_technology_2023_freyssinet",
+        "page": 5,
+        "quote": "In 1939, at the age of nearly 60, Freyssinet invented a specialized lightweight jack and anchoring system for pre -stressing."
+      }
+    ]
+  },
+  {
+    "id": "eugene_freyssinet_developed_precast_segmental_construction",
+    "source": "eugene_freyssinet",
+    "type": "developed",
+    "target": "precast_segmental_construction_technique",
+    "sources": [
+      {
+        "source_id": "prestress_technology_2023_freyssinet",
+        "page": 5,
+        "quote": "Subsequently, Freyssinet designed several renowned bridges and buildings and invented the Precast Segmental Construction technique."
+      }
+    ]
+  }
+]

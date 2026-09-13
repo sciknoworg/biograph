@@ -1,0 +1,192 @@
+[
+  {
+    "id": "ammann_studied_eth",
+    "source": "othmar_ammann",
+    "type": "studied_at",
+    "target": "eth_zurich",
+    "sources": [
+      {
+        "source_id": "butz_2001_review",
+        "page": 36,
+        "quote": "Having just graduated from the federal technical university (ETH) in Zurich, Ammann traveled to New York in hopes of gaining some practical experience in designing steel bridges."
+      }
+    ]
+  },
+  {
+    "id": "ammann_employed_lindenthal",
+    "source": "othmar_ammann",
+    "type": "employed_by",
+    "target": "gustav_lindenthal",
+    "event_id": "employment_lindenthal_start",
+    "sources": [
+      {
+        "source_id": "butz_2001_review",
+        "page": 36,
+        "quote": "In 1911, Ammann began working for Gustav Lindenthal, then considered the \"master of long span design\" (7);"
+      }
+    ]
+  },
+  {
+    "id": "ammann_employed_port_authority",
+    "source": "othmar_ammann",
+    "type": "employed_by",
+    "target": "port_authority_of_new_york_and_new_jersey",
+    "event_id": "employment_port_authority_start",
+    "sources": [
+      {
+        "source_id": "butz_2001_review",
+        "page": 36,
+        "quote": "Ammann thus joined, in 1925, the staff at the Port Authority as bridge engineer."
+      }
+    ]
+  },
+  {
+    "id": "ammann_developed_george_washington",
+    "source": "othmar_ammann",
+    "type": "developed",
+    "target": "george_washington_bridge",
+    "event_id": "proposal_ammann_hudson",
+    "sources": [
+      {
+        "source_id": "butz_2001_review",
+        "page": 36,
+        "quote": "In 1924, Ammann unveiled his proposals for the bridge, a smaller, simpler and, at $40 million, decidedly less costly version of Lindenthal's crossing."
+      }
+    ]
+  },
+  {
+    "id": "ammann_developed_hell_gate",
+    "source": "othmar_ammann",
+    "type": "developed",
+    "target": "hell_gate_bridge",
+    "event_id": "role_hell_gate",
+    "sources": [
+      {
+        "source_id": "butz_2001_review",
+        "page": 36,
+        "quote": "a year later this rather irascible Austrian American bridge builder made him chief engineer on the project to construct a large railroad crossing, the Hell Gate."
+      }
+    ]
+  },
+  {
+    "id": "ammann_developed_bayonne",
+    "source": "othmar_ammann",
+    "type": "developed",
+    "target": "bayonne_bridge",
+    "sources": [
+      {
+        "source_id": "butz_2001_review",
+        "page": 37,
+        "quote": "Most of his major bridges-the George Washington, Bayonne, Triborough, Little Hell Gate, Bronx-Whitestone, Harlem River Pedestrian as well as the Lincoln Tunnel-were built (or at least designed) during this period."
+      }
+    ]
+  },
+  {
+    "id": "ammann_developed_triborough",
+    "source": "othmar_ammann",
+    "type": "developed",
+    "target": "triborough_bridge",
+    "sources": [
+      {
+        "source_id": "butz_2001_review",
+        "page": 37,
+        "quote": "Most of his major bridges-the George Washington, Bayonne, Triborough, Little Hell Gate, Bronx-Whitestone, Harlem River Pedestrian as well as the Lincoln Tunnel-were built (or at least designed) during this period."
+      }
+    ]
+  },
+  {
+    "id": "ammann_developed_bronx_whitestone",
+    "source": "othmar_ammann",
+    "type": "developed",
+    "target": "bronx_whitestone_bridge",
+    "sources": [
+      {
+        "source_id": "butz_2001_review",
+        "page": 37,
+        "quote": "Most of his major bridges-the George Washington, Bayonne, Triborough, Little Hell Gate, Bronx-Whitestone, Harlem River Pedestrian as well as the Lincoln Tunnel-were built (or at least designed) during this period."
+      }
+    ]
+  },
+  {
+    "id": "ammann_developed_throgs_neck",
+    "source": "othmar_ammann",
+    "type": "developed",
+    "target": "throgs_neck_bridge",
+    "event_id": "bridges_opened_late",
+    "sources": [
+      {
+        "source_id": "butz_2001_review",
+        "page": 37,
+        "quote": "Most notably, he designed and oversaw the construction of the Throgs Neck and Verrazano bridges, as well as the lower deck for the then twenty year-old George Washington (all opened in the early 1960s)."
+      }
+    ]
+  },
+  {
+    "id": "ammann_developed_verrazano",
+    "source": "othmar_ammann",
+    "type": "developed",
+    "target": "verrazano_narrows_bridge",
+    "event_id": "bridges_opened_late",
+    "sources": [
+      {
+        "source_id": "butz_2001_review",
+        "page": 37,
+        "quote": "Most notably, he designed and oversaw the construction of the Throgs Neck and Verrazano bridges, as well as the lower deck for the then twenty year-old George Washington (all opened in the early 1960s)."
+      }
+    ]
+  },
+  {
+    "id": "ammann_developed_lincoln_tunnel",
+    "source": "othmar_ammann",
+    "type": "developed",
+    "target": "lincoln_tunnel",
+    "sources": [
+      {
+        "source_id": "butz_2001_review",
+        "page": 37,
+        "quote": "Most of his major bridges-the George Washington, Bayonne, Triborough, Little Hell Gate, Bronx-Whitestone, Harlem River Pedestrian as well as the Lincoln Tunnel-were built (or at least designed) during this period."
+      }
+    ]
+  },
+  {
+    "id": "ammann_lived_manhattan",
+    "source": "othmar_ammann",
+    "type": "lived_in",
+    "target": "manhattan",
+    "sources": [
+      {
+        "source_id": "butz_2001_review",
+        "page": 35,
+        "quote": "Around his eightieth birthday, the Swiss-American engineer, Othmar Ammann moved to an apartment at the top of the Carlyle Hotel in Manhattan."
+      }
+    ]
+  },
+  {
+    "id": "ammann_relocated_usa",
+    "source": "othmar_ammann",
+    "type": "relocated_to",
+    "target": "united_states",
+    "event_id": "arrival_usa",
+    "sources": [
+      {
+        "source_id": "butz_2001_review",
+        "page": 36,
+        "quote": "He begins his account with the young Swiss engineer's arrival in America in 1904."
+      }
+    ]
+  },
+  {
+    "id": "rastorfer_published_book",
+    "source": "darl_rastorfer",
+    "type": "published",
+    "target": "six_bridges_book",
+    "event_id": "book_published",
+    "sources": [
+      {
+        "source_id": "butz_2001_review",
+        "page": 35,
+        "quote": "Darl Rastorfer, Six Bridges: The Legacy of Othmar Ammann. New Haven and London: Yale University Press, 2000."
+      }
+    ]
+  }
+]

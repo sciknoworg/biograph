@@ -1,0 +1,766 @@
+[
+  {
+    "id": "von_braun_birth",
+    "event_type": "birth",
+    "label": "Born in Wirsitz",
+    "description": "Wernher von Braun was born in the city of Wirsitz, province of Posen.",
+    "date": {
+      "display": "March 23, 1912",
+      "precision": "day",
+      "sort_start": "1912-03-23",
+      "sort_end": "1912-03-23"
+    },
+    "location": "wirsitz",
+    "participants": [
+      {
+        "entity_id": "wernher_von_braun",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 2,
+        "quote": "He was born on March 23, 1912 in the city of Wirsitz (province of Posen, the German Empire, now it is the city of Wyrzysk, Poland) [1]."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_entered_berlin_technical",
+    "event_type": "education",
+    "label": "Entered Berlin Higher Technical School",
+    "description": "Wernher von Braun entered the Berlin Higher Technical School in 1930.",
+    "date": {
+      "display": "1930",
+      "precision": "year",
+      "sort_start": "1930-01-01",
+      "sort_end": "1930-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wernher_von_braun",
+        "role": "subject"
+      },
+      {
+        "entity_id": "berlin_higher_technical_school",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 2,
+        "quote": "In 1930, Wernher von Braun entered the Berlin Higher Technical School (now this is known in the world the Berlin Technical University), where he join ed the research group « Space Travel Society» and together with H. Oberth (1894-1989) he participated in testing first liquid rocket engines (LRE) [1]."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_phd_defense",
+    "event_type": "education",
+    "label": "Defended Doctoral Thesis",
+    "description": "Wernher von Braun successfully defended his Doctoral Thesis at the Friedrich Wilhelm Berlin University.",
+    "date": {
+      "display": "April 1934",
+      "precision": "month",
+      "sort_start": "1934-04-01",
+      "sort_end": "1934-04-30"
+    },
+    "participants": [
+      {
+        "entity_id": "wernher_von_braun",
+        "role": "subject"
+      },
+      {
+        "entity_id": "friedrich_wilhelm_berlin_university",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 2,
+        "quote": "In April 1934, Wernher von Braun successfully defended at the Friedrich Wilhelm Berlin University his Doctoral Thesis on the topic [1] « Design, theoretical and experimental approaches to the problem of creating a liquid-fuel rocket» (at one time this Thesis was classified and its materials were not published until 1960 [2])."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_joined_dornberger_group",
+    "event_type": "employment_start",
+    "label": "Admitted to military missile scientific group",
+    "description": "Wernher von Braun was admitted to the military missile scientific group of Walter Dornberger.",
+    "date": {
+      "display": "1932",
+      "precision": "year",
+      "sort_start": "1932-01-01",
+      "sort_end": "1932-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wernher_von_braun",
+        "role": "subject"
+      },
+      {
+        "entity_id": "walter_dornberger",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 2,
+        "quote": "In 1932, he was admitted to the military missile scientific group of Walter Dornberger (then captain of artillery, who became Major General in 1941), engaged in the development and creation for the Reichswehr (German military) both solid-fuel missiles and missiles with LRE."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_peenemunde_director",
+    "event_type": "role_change",
+    "label": "Became Technical Director at Peenemünde",
+    "description": "Wernher von Braun became the Technical Director of the Peenemünde rocket center.",
+    "date": {
+      "display": "1937",
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1937-12-31"
+    },
+    "location": "peenemunde_rocket_center",
+    "participants": [
+      {
+        "entity_id": "wernher_von_braun",
+        "role": "subject"
+      },
+      {
+        "entity_id": "peenemunde_rocket_center",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 2,
+        "quote": "For these purposes , in the north of Germany (on the island Usedom in the Baltic Sea with the village of Peenemünde) large German rocket center and a test site were built in 1937, the Military Head of which was W. Dornberger, and the Technical Director was Wernher von Braun [1, 2] ."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_joined_nsdap",
+    "event_type": "other",
+    "label": "Joined National Socialist Party",
+    "description": "Wernher von Braun was forced to join the National Socialist Party of Germany.",
+    "date": {
+      "display": "May 1937",
+      "precision": "month",
+      "sort_start": "1937-05-01",
+      "sort_end": "1937-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wernher_von_braun",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 2,
+        "quote": "Under these conditions, Wernher von Braun was forced to join the National Socialist Party of Germany (May 1937)."
+      }
+    ]
+  },
+  {
+    "id": "v2_rocket_created",
+    "event_type": "invention",
+    "label": "V-2 combat rocket launcher created",
+    "description": "Wernher von Braun and his team managed to create an A-4 (V-2) combat rocket launcher.",
+    "date": {
+      "display": "fall of 1944",
+      "precision": "season",
+      "sort_start": "1944-09-01",
+      "sort_end": "1944-11-30"
+    },
+    "participants": [
+      {
+        "entity_id": "wernher_von_braun",
+        "role": "subject"
+      },
+      {
+        "entity_id": "v2_rocket",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 2,
+        "quote": "Despite this SS trail in the life of the essay's main person, Wernher von Braun and his team managed to create an A-4 (V-2) combat rocket launcher by the fall of 1944, capable of hitting cities in the UK and other countries of Europe from a long distance."
+      }
+    ]
+  },
+  {
+    "id": "v2_first_combat_launch",
+    "event_type": "public_demonstration",
+    "label": "First V-2 launched to London",
+    "description": "The first combat missile V-2 was launched to London.",
+    "date": {
+      "display": "September 7, 1944",
+      "precision": "day",
+      "sort_start": "1944-09-07",
+      "sort_end": "1944-09-07"
+    },
+    "participants": [
+      {
+        "entity_id": "wernher_von_braun",
+        "role": "subject"
+      },
+      {
+        "entity_id": "v2_rocket",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 2,
+        "quote": "The first combat missile V-2 (Fig. 2) was launched to London on September 7, 1944 (21 months after the official adoption «at the top» of this German project «The Weapon of Retribution») [1, 2]."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_surrender",
+    "event_type": "other",
+    "label": "Surrendered to US Army",
+    "description": "Wernher von Braun surrendered to the troops of the advancing American the army.",
+    "date": {
+      "display": "May 2, 1945",
+      "precision": "day",
+      "sort_start": "1945-05-02",
+      "sort_end": "1945-05-02"
+    },
+    "participants": [
+      {
+        "entity_id": "wernher_von_braun",
+        "role": "subject"
+      },
+      {
+        "entity_id": "us_army",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 4,
+        "quote": "On May 2, 1945, in the Bavarian Alps (southern Germany), Wernher von Braun, along with the V-2 rocket documentation and most of the specialists (first out of 115, and later out of 650 people) from the German rocket group, surrendered to the troops of the advancing American the army (specifically the militants of the 44th US Infantry Division), whose intelligence services already had instruc tions for a targeted «hunt» for them [3, 7]."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_moved_to_fort_bliss",
+    "event_type": "relocation",
+    "label": "Moved to Fort Bliss, Texas",
+    "description": "Wernher von Braun and German rocket scientists were taken to America and placed in Fort Bliss, Texas.",
+    "date": {
+      "display": "1945",
+      "precision": "year",
+      "sort_start": "1945-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "location": "fort_bliss",
+    "participants": [
+      {
+        "entity_id": "wernher_von_braun",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 4,
+        "quote": "In the cour se of secretly planned US operations, codenamed «Paperclip», they were all taken out of defeated Germany to America and were placed first in Fort Bliss, Texas, whic h became a major base of the US Army [3]."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_headed_us_army_service",
+    "event_type": "employment_start",
+    "label": "Headed US Army Design and Development Service",
+    "description": "Wernher von Braun headed the US Army Design and Development Service at Fort Bliss.",
+    "date": {
+      "display": "September 1945",
+      "precision": "month",
+      "sort_start": "1945-09-01",
+      "sort_end": "1945-09-30"
+    },
+    "location": "fort_bliss",
+    "participants": [
+      {
+        "entity_id": "wernher_von_braun",
+        "role": "subject"
+      },
+      {
+        "entity_id": "us_army",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 4,
+        "quote": "From September 1945, Wernher von Braun headed the US Army Design and Development Service at the designated Fort Bliss, lo cated near the White Sands Proving Ground, New Mexico [1]."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_moved_to_redstone",
+    "event_type": "relocation",
+    "label": "Moved to Redstone Arsenal",
+    "description": "Wernher von Braun began working at the Redstone Arsenal in Huntsville, Alabama.",
+    "date": {
+      "display": "1950",
+      "precision": "year",
+      "sort_start": "1950-01-01",
+      "sort_end": "1950-12-31"
+    },
+    "location": "redstone_arsenal",
+    "participants": [
+      {
+        "entity_id": "wernher_von_braun",
+        "role": "subject"
+      },
+      {
+        "entity_id": "redstone_arsenal",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 5,
+        "quote": "From 1950, together with his German fellow rocket engineers (Fig. 3), he began working at the Redstone Arsenal (Huntsville, Alabama) [3]."
+      }
+    ]
+  },
+  {
+    "id": "redstone_missile_created",
+    "event_type": "invention",
+    "label": "Redstone combat ballistic missile created",
+    "description": "A Redstone combat ballistic missile was created in the United States under the leadership of Wernher von Braun.",
+    "date": {
+      "display": "1952",
+      "precision": "year",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wernher_von_braun",
+        "role": "subject"
+      },
+      {
+        "entity_id": "redstone_missile",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 5,
+        "quote": "In 1952, under the leadership of Wernher von Braun, a Redstone combat ballistic missile (PGM-11 military index) was created in the United States (Fig. 4) [11], which was used by the US Army in the period 1958-1964 and used at the launch on January 31, 1958 of the first American artificial satellite of the Earth «Explorer 1» (weight –14 kg) [6, 12, 13]."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_us_citizenship",
+    "event_type": "other",
+    "label": "Became US citizen",
+    "description": "Wernher von Braun became a US citizen.",
+    "date": {
+      "display": "1955",
+      "precision": "year",
+      "sort_start": "1955-01-01",
+      "sort_end": "1955-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wernher_von_braun",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 5,
+        "quote": "Note that since 1955, Wernher von Braun is a US citizen, the mention of whos e name in the press was prohibited by special services [3]."
+      }
+    ]
+  },
+  {
+    "id": "explorer_1_launch",
+    "event_type": "product_launch",
+    "label": "Explorer-1 launched",
+    "description": "The first American artificial satellite of the Earth «Explorer 1» was launched using the Redstone missile.",
+    "date": {
+      "display": "January 31, 1958",
+      "precision": "day",
+      "sort_start": "1958-01-31",
+      "sort_end": "1958-01-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wernher_von_braun",
+        "role": "subject"
+      },
+      {
+        "entity_id": "explorer_1",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 5,
+        "quote": "In 1952, under the leadership of Wernher von Braun, a Redstone combat ballistic missile (PGM-11 military index) was created in the United States (Fig. 4) [11], which was used by the US Army in the period 1958-1964 and used at the launch on January 31, 1958 of the first American artificial satellite of the Earth «Explorer 1» (weight –14 kg) [6, 12, 13]."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_transferred_to_nasa",
+    "event_type": "employment_start",
+    "label": "Transferred to NASA",
+    "description": "The rocket men, led by Dr. Wernher von Braun, were transferred to NASA.",
+    "date": {
+      "display": "1960",
+      "precision": "year",
+      "sort_start": "1960-01-01",
+      "sort_end": "1960-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wernher_von_braun",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nasa",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 6,
+        "quote": "In 1960, the rocket men, led by Dr. Wernher von Braun, were transferred to the National Aeronautics and Space Administration (NASA) of the United States [15]."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_marshall_director",
+    "event_type": "role_change",
+    "label": "Appointed Director of Marshall Space Flight Center",
+    "description": "Wernher von Braun was appointed the first Director of the Marshall Space Flight Center.",
+    "date": {
+      "display": "1960",
+      "precision": "year",
+      "sort_start": "1960-01-01",
+      "sort_end": "1960-12-31"
+    },
+    "location": "marshall_space_flight_center",
+    "participants": [
+      {
+        "entity_id": "wernher_von_braun",
+        "role": "subject"
+      },
+      {
+        "entity_id": "marshall_space_flight_center",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 6,
+        "quote": "During this period, NASA created the Marshall Space Flight Center, Huntsville, Alabama, as the first Director of which Wernher von Braun was appointed [15]."
+      }
+    ]
+  },
+  {
+    "id": "shepard_suborbital_flight",
+    "event_type": "public_demonstration",
+    "label": "Shepard suborbital space flight",
+    "description": "A. Shepard traveled in space at an altitude of 185 km under the direction of Wernher von Braun.",
+    "date": {
+      "display": "May 5, 1961",
+      "precision": "day",
+      "sort_start": "1961-05-05",
+      "sort_end": "1961-05-05"
+    },
+    "participants": [
+      {
+        "entity_id": "wernher_von_braun",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 6,
+        "quote": "These flights under the direction of Wernher von Braun were performed on May 5, 1961 (A. Shepard traveled in space at an altitude of 185 km) and on July 21, 1961 (V. Grissom traveled in space at an altitude of 190 km) [7]."
+      }
+    ]
+  },
+  {
+    "id": "apollo_11_moon_landing",
+    "event_type": "public_demonstration",
+    "label": "Apollo-11 landing on the Moon",
+    "description": "The American Apollo-11 spacecraft carried out landing on the lunar surface.",
+    "date": {
+      "display": "July 20, 1969",
+      "precision": "day",
+      "sort_start": "1969-07-20",
+      "sort_end": "1969-07-20"
+    },
+    "participants": [
+      {
+        "entity_id": "wernher_von_braun",
+        "role": "subject"
+      },
+      {
+        "entity_id": "neil_armstrong",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "apollo_11",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 6,
+        "quote": "As a result, on July 20, 1969, the American Apollo-11 spa cecraft with three astronauts on board (Neil Armstrong, Michael Collins and Buzz Aldrin), driven by the energy of the Saturn-V launch vehicle in outer space, carried out with the help of a descending lunar module Eagle with two astronauts on board (N. Armstrong and B. Aldrin) landing on the lunar surface [6, 15]."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_nasa_medal",
+    "event_type": "award",
+    "label": "Awarded NASA Medal",
+    "description": "Wernher von Braun was awarded the NASA medal «For Distinguished Service».",
+    "date": {
+      "display": "1969",
+      "precision": "year",
+      "sort_start": "1969-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wernher_von_braun",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nasa",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 6,
+        "quote": "For this flight of the American Apollo-11 spacecraft, Wernher von Braun in 1969 was awarded the NASA medal «For Distinguished Service» [1]."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_nasa_deputy_assistant",
+    "event_type": "role_change",
+    "label": "Became NASA Deputy Assistant Administrator",
+    "description": "Wernher von Braun became the NASA Deputy Assistant Administrator for planning.",
+    "date": {
+      "display": "January 1970",
+      "precision": "month",
+      "sort_start": "1970-01-01",
+      "sort_end": "1970-01-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wernher_von_braun",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nasa",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 7,
+        "quote": "From January 1970, he becomes the NASA Deputy Assistant Administrator for planning."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_nasa_deputy_director",
+    "event_type": "role_change",
+    "label": "Became NASA Deputy Director",
+    "description": "Wernher von Braun became the NASA Deputy Director and Head of the US space center at Cape Canaveral.",
+    "date": {
+      "display": "1972",
+      "precision": "year",
+      "sort_start": "1972-01-01",
+      "sort_end": "1972-12-31"
+    },
+    "location": "cape_canaveral",
+    "participants": [
+      {
+        "entity_id": "wernher_von_braun",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nasa",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 7,
+        "quote": "Wernher von Braun reached the top of his career in 1972 (Fig. 8) when he became the NASA Deputy Director and at the same time the Head of the US space center at Cape Canaveral, Florida [2]."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_dismissed_nasa",
+    "event_type": "employment_end",
+    "label": "Dismissed by NASA leadership",
+    "description": "Wernher von Braun was dismissed by the NASA leadership.",
+    "date": {
+      "display": "1972",
+      "precision": "year",
+      "sort_start": "1972-01-01",
+      "sort_end": "1972-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wernher_von_braun",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nasa",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 7,
+        "quote": "The «father» of the US space program apparently did not agree with such a commercial statement of the issue in the field of space exploration and was soon dismissed by the NASA leadership [2]."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_fairchild_vp",
+    "event_type": "employment_start",
+    "label": "Became Vice-President of Fairchild Space Industries",
+    "description": "Wernher von Braun was offered the position of Vice-President of Fairchild Space Industries.",
+    "date": {
+      "display": "1972",
+      "precision": "year",
+      "sort_start": "1972-01-01",
+      "sort_end": "1972-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wernher_von_braun",
+        "role": "subject"
+      },
+      {
+        "entity_id": "fairchild_space_industries",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 7,
+        "quote": "He did not remain without work: representatives of the American business, who knew his business skills well, immediately offered him the position of Vice-President of Fairchild Space Industries, Germantown, Maryland engaged in the production of aerospace e quipment [15]."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_cancer_diagnosis",
+    "event_type": "other",
+    "label": "Diagnosed with pancreatic cancer",
+    "description": "Wernher von Braun was diagnosed with a serious illness - pancreatic cancer.",
+    "date": {
+      "display": "1973",
+      "precision": "year",
+      "sort_start": "1973-01-01",
+      "sort_end": "1973-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "wernher_von_braun",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 7,
+        "quote": "Then the «black» life strip came: he was diagnosed with a serious illness - pancreatic cancer."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_death",
+    "event_type": "death",
+    "label": "Died in Alexandria",
+    "description": "Wernher von Braun died after a long struggle with serious illness.",
+    "date": {
+      "display": "June 16, 1977",
+      "precision": "day",
+      "sort_start": "1977-06-16",
+      "sort_end": "1977-06-16"
+    },
+    "location": "alexandria_virginia",
+    "participants": [
+      {
+        "entity_id": "wernher_von_braun",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 8,
+        "quote": "On June 16, 1977, after a long struggle with serious illness, Wernher von Braun died."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_burial",
+    "event_type": "other",
+    "label": "Buried at Ivy Hill Cemetery",
+    "description": "Wernher von Braun was buried with honors at the Ivy Hill Cemetery in Alexandria, Virginia.",
+    "date": {
+      "display": "1977",
+      "precision": "year",
+      "sort_start": "1977-01-01",
+      "sort_end": "1977-12-31"
+    },
+    "location": "ivy_hill_cemetery",
+    "participants": [
+      {
+        "entity_id": "wernher_von_braun",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 8,
+        "quote": "He was buried with honors at the Ivy Hill Cemetery, Fig. 10 in Alexandria, Virginia, USA [1]."
+      }
+    ]
+  }
+]

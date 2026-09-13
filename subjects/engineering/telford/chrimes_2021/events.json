@@ -1,0 +1,297 @@
+[
+  {
+    "id": "birth_telford",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1757",
+      "precision": "year",
+      "sort_start": "1757-01-01",
+      "sort_end": "1757-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_telford",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chrimes_2021",
+        "page": 1,
+        "quote": "Thomas Telford (1757–1834) dominated British civil engineering 1821–34."
+      }
+    ]
+  },
+  {
+    "id": "death_telford",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1834",
+      "precision": "year",
+      "sort_start": "1834-01-01",
+      "sort_end": "1834-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_telford",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chrimes_2021",
+        "page": 1,
+        "quote": "Thomas Telford (1757–1834) dominated British civil engineering 1821–34."
+      }
+    ]
+  },
+  {
+    "id": "appointment_ellesmere",
+    "event_type": "employment_start",
+    "label": "Appointed to Ellesmere Canal",
+    "date": {
+      "display": "September 1793",
+      "precision": "month",
+      "sort_start": "1793-09-01",
+      "sort_end": "1793-09-30"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_telford",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ellesmere_canal_company",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chrimes_2021",
+        "page": 2,
+        "quote": "His presence in Shropshire enabled his appointment as \"General agent (…) engineer (…) overlooker of the Works\" on the Ellesmere canal at a salary of £500 p.a. in September 1793"
+      }
+    ]
+  },
+  {
+    "id": "appointment_highland",
+    "event_type": "employment_start",
+    "label": "Appointed to Highland Roads and Bridges",
+    "date": {
+      "display": "1803",
+      "precision": "year",
+      "sort_start": "1803-01-01",
+      "sort_end": "1803-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_telford",
+        "role": "subject"
+      },
+      {
+        "entity_id": "highland_roads_and_bridges_commission",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chrimes_2021",
+        "page": 3,
+        "quote": "That said, most of the heavy expenditure was in the early years, rising from £115 2s 3d in 1803 to over £600 p.a. 1810-15"
+      }
+    ]
+  },
+  {
+    "id": "appointment_holyhead",
+    "event_type": "employment_start",
+    "label": "Appointed to Holyhead Road",
+    "date": {
+      "display": "July 1815",
+      "precision": "month",
+      "sort_start": "1815-07-01",
+      "sort_end": "1815-07-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_telford",
+        "role": "subject"
+      },
+      {
+        "entity_id": "holyhead_road_commissioners",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chrimes_2021",
+        "page": 3,
+        "quote": "From his initial appointment in July 1815, he was paid 5 guineas a day plus 2s a mile."
+      }
+    ]
+  },
+  {
+    "id": "appointment_exchequer",
+    "event_type": "employment_start",
+    "label": "Appointed to Exchequer Bill Loan Commission",
+    "date": {
+      "display": "1817",
+      "precision": "year",
+      "sort_start": "1817-01-01",
+      "sort_end": "1817-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_telford",
+        "role": "subject"
+      },
+      {
+        "entity_id": "exchequer_bill_loan_commission",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chrimes_2021",
+        "page": 3,
+        "quote": "In 1817, Telford became the Engineer to the newly created Exchequer Bill Loan Commission"
+      }
+    ]
+  },
+  {
+    "id": "ice_establishment",
+    "event_type": "company_founded",
+    "label": "Institution of Civil Engineers Established",
+    "date": {
+      "display": "1818",
+      "precision": "year",
+      "sort_start": "1818-01-01",
+      "sort_end": "1818-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_telford",
+        "role": "founder"
+      },
+      {
+        "entity_id": "institution_of_civil_engineers",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chrimes_2021",
+        "page": 2,
+        "quote": "a motive in 1818 for the establishment of the Institution of Civil Engineers of which he soon became President."
+      }
+    ]
+  },
+  {
+    "id": "office_abingdon",
+    "event_type": "relocation",
+    "label": "Moved Office to Abingdon Street",
+    "date": {
+      "display": "1821",
+      "precision": "year",
+      "sort_start": "1821-01-01",
+      "sort_end": "1821-12-31"
+    },
+    "location": "abingdon_street",
+    "participants": [
+      {
+        "entity_id": "thomas_telford",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chrimes_2021",
+        "page": 6,
+        "quote": "Telford's decision to take up premises at 24 Abingdon Street in 1821 was significant not only for Telford but the profession."
+      }
+    ]
+  },
+  {
+    "id": "bank_statements",
+    "event_type": "other",
+    "label": "Bank Account Statements Survive",
+    "description": "Statements from Telford's bank accounts with the Bank of Scotland survive for this period.",
+    "date": {
+      "display": "1813–1819",
+      "precision": "range",
+      "sort_start": "1813-01-01",
+      "sort_end": "1819-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_telford",
+        "role": "subject"
+      },
+      {
+        "entity_id": "bank_of_scotland",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chrimes_2021",
+        "page": 4,
+        "quote": "Statements from Telford's bank accounts with the Bank of Scotland survive for the years 1813–1819"
+      }
+    ]
+  },
+  {
+    "id": "turnbull_joined",
+    "event_type": "employment_start",
+    "label": "George Turnbull Joined Office",
+    "date": {
+      "display": "March 1830",
+      "precision": "month",
+      "sort_start": "1830-03-01",
+      "sort_end": "1830-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_telford",
+        "role": "employer"
+      },
+      {
+        "entity_id": "george_turnbull",
+        "role": "employee"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chrimes_2021",
+        "page": 6,
+        "quote": "In March 1830, George Turnbull joined Telford at Abingdon Street as a clerk and draughtsman on a salary of £80 p.a."
+      }
+    ]
+  },
+  {
+    "id": "estate_death",
+    "event_type": "other",
+    "label": "Estate Value at Death",
+    "description": "Telford left an estate of over £34,000 at his death.",
+    "date": {
+      "display": "1834",
+      "precision": "year",
+      "sort_start": "1834-01-01",
+      "sort_end": "1834-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_telford",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "chrimes_2021",
+        "page": 2,
+        "quote": "The estate of over £34,000 he left at his death was accumulated through his work as a civil engineer."
+      }
+    ]
+  }
+]

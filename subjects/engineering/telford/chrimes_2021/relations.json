@@ -1,0 +1,122 @@
+[
+  {
+    "id": "telford_president_ice",
+    "source": "thomas_telford",
+    "type": "member_of",
+    "target": "institution_of_civil_engineers",
+    "note": "First President",
+    "sources": [
+      {
+        "source_id": "chrimes_2021",
+        "page": 1,
+        "quote": "ultimately becoming the first President of the Institution of Civil Engineers"
+      }
+    ]
+  },
+  {
+    "id": "telford_employed_turnbull",
+    "source": "thomas_telford",
+    "type": "employed_by",
+    "target": "george_turnbull",
+    "event_id": "turnbull_joined",
+    "sources": [
+      {
+        "source_id": "chrimes_2021",
+        "page": 6,
+        "quote": "In March 1830, George Turnbull joined Telford at Abingdon Street as a clerk and draughtsman"
+      }
+    ]
+  },
+  {
+    "id": "telford_developed_caledonian",
+    "source": "thomas_telford",
+    "type": "developed",
+    "target": "caledonian_canal",
+    "sources": [
+      {
+        "source_id": "chrimes_2021",
+        "page": 3,
+        "quote": "Telford's appointment as Engineer was initially shared with William Jessop the senior consulting engineer"
+      }
+    ]
+  },
+  {
+    "id": "telford_developed_holyhead",
+    "source": "thomas_telford",
+    "type": "developed",
+    "target": "holyhead_road",
+    "sources": [
+      {
+        "source_id": "chrimes_2021",
+        "page": 3,
+        "quote": "From his initial appointment in July 1815, he was paid 5 guineas a day plus 2s a mile."
+      }
+    ]
+  },
+  {
+    "id": "telford_developed_ellesmere",
+    "source": "thomas_telford",
+    "type": "developed",
+    "target": "ellesmere_canal",
+    "sources": [
+      {
+        "source_id": "chrimes_2021",
+        "page": 2,
+        "quote": "His presence in Shropshire enabled his appointment as \"General agent (…) engineer (…) overlooker of the Works\" on the Ellesmere canal"
+      }
+    ]
+  },
+  {
+    "id": "telford_invested_st_katharine",
+    "source": "thomas_telford",
+    "type": "licensed_to",
+    "target": "st_katharine_docks",
+    "note": "Held shares",
+    "sources": [
+      {
+        "source_id": "chrimes_2021",
+        "page": 5,
+        "quote": "Later holdings were for the Macclesfield Canal on which Telford was consulted, and more substantially on the St Katharine Docks."
+      }
+    ]
+  },
+  {
+    "id": "telford_collaborated_jessop",
+    "source": "thomas_telford",
+    "type": "collaborated_with",
+    "target": "william_jessop",
+    "sources": [
+      {
+        "source_id": "chrimes_2021",
+        "page": 3,
+        "quote": "Telford's appointment as Engineer was initially shared with William Jessop the senior consulting engineer"
+      }
+    ]
+  },
+  {
+    "id": "telford_lived_london",
+    "source": "thomas_telford",
+    "type": "lived_in",
+    "target": "london",
+    "sources": [
+      {
+        "source_id": "chrimes_2021",
+        "page": 6,
+        "quote": "From 1800 he had a presence in London, for many years at the Salopian Coffee House, Charing Cross"
+      }
+    ]
+  },
+  {
+    "id": "telford_worked_scotland",
+    "source": "thomas_telford",
+    "type": "worked_at",
+    "target": "scotland",
+    "sources": [
+      {
+        "source_id": "chrimes_2021",
+        "page": 2,
+        "quote": "His presence in Shropshire enabled his appointment as \"General agent (…) engineer (…) overlooker of the Works\" on the Ellesmere canal at a salary of £500 p.a. in September 1793, William Jessop being consultant."
+      }
+    ]
+  }
+]

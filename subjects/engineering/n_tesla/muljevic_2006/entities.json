@@ -1,0 +1,527 @@
+[
+  {
+    "aliases": [
+      "Nikola",
+      "Tesla"
+    ],
+    "entity_type": "person",
+    "id": "nikola_tesla",
+    "name": "Nikola Tesla",
+    "subtype": "researcher",
+    "summary": "World-famous electrical engineer and inventor known for alternating current systems and wireless transmission."
+  },
+  {
+    "aliases": [
+      "Milutin"
+    ],
+    "entity_type": "person",
+    "id": "milutin_tesla",
+    "name": "Milutin Tesla",
+    "subtype": "priest",
+    "summary": "Orthodox priest and father of Nikola Tesla."
+  },
+  {
+    "aliases": [
+      "Đuka",
+      "Djuka Mandic"
+    ],
+    "entity_type": "person",
+    "id": "djuka_mandic",
+    "name": "Đuka Mandić",
+    "subtype": "homemaker",
+    "summary": "Mother of Nikola Tesla, from the Mandić family of Tomingrad."
+  },
+  {
+    "aliases": [
+      "Sekulić",
+      "Prof. Sekulić"
+    ],
+    "entity_type": "person",
+    "id": "martin_sekulic",
+    "name": "Martin Sekulić",
+    "subtype": "professor",
+    "summary": "Physics professor at the secondary school in Rakovac who influenced Tesla's interest in electricity."
+  },
+  {
+    "aliases": [
+      "Pöschel",
+      "Prof. J. Pöschel"
+    ],
+    "entity_type": "person",
+    "id": "jakob_poschel",
+    "name": "Jakob Pöschel",
+    "subtype": "professor",
+    "summary": "Professor of theoretical and experimental physics at the polytechnic school in Graz."
+  },
+  {
+    "aliases": [
+      "Edison",
+      "Thomas Edison"
+    ],
+    "entity_type": "person",
+    "id": "thomas_edison",
+    "name": "Thomas Alva Edison",
+    "subtype": "inventor",
+    "summary": "American inventor and businessman who employed Tesla in New York and Paris."
+  },
+  {
+    "aliases": [
+      "Puskás",
+      "Tivadar Puskas"
+    ],
+    "entity_type": "person",
+    "id": "tivadar_puskas",
+    "name": "Tivadar Puskás",
+    "subtype": "engineer",
+    "summary": "Inspector-in-chief at the Central Telegraph Office in Budapest who sent Tesla to Paris."
+  },
+  {
+    "aliases": [
+      "Szigety",
+      "Antal Szigety"
+    ],
+    "entity_type": "person",
+    "id": "antal_szigety",
+    "name": "Antal Szigety",
+    "subtype": "friend",
+    "summary": "Friend of Tesla who was with him during the invention of the rotating magnetic field motor."
+  },
+  {
+    "aliases": [
+      "Scott",
+      "Charles Scott"
+    ],
+    "entity_type": "person",
+    "id": "charles_scott",
+    "name": "Charles F. Scott",
+    "subtype": "engineer",
+    "summary": "Tesla's assistant at Westinghouse Company who worked on polyphase systems."
+  },
+  {
+    "aliases": [
+      "Marconi"
+    ],
+    "entity_type": "person",
+    "id": "guglielmo_marconi",
+    "name": "Guglielmo Marconi",
+    "subtype": "inventor",
+    "summary": "Italian engineer who used wireless telegraphy after Tesla."
+  },
+  {
+    "aliases": [
+      "Einstein"
+    ],
+    "entity_type": "person",
+    "id": "albert_einstein",
+    "name": "Albert Einstein",
+    "subtype": "physicist",
+    "summary": "Physicist who congratulated Tesla on his 75th birthday."
+  },
+  {
+    "aliases": [
+      "de Forest"
+    ],
+    "entity_type": "person",
+    "id": "lee_de_forest",
+    "name": "Lee de Forest",
+    "subtype": "inventor",
+    "summary": "Constructor of the triode who congratulated Tesla on his 75th birthday."
+  },
+  {
+    "aliases": [
+      "Kelvin"
+    ],
+    "entity_type": "person",
+    "id": "lord_kelvin",
+    "name": "Lord Kelvin",
+    "subtype": "physicist",
+    "summary": "English physicist who praised Tesla's contributions to electricity."
+  },
+  {
+    "aliases": [
+      "La Guardia",
+      "Mayor La Guardia"
+    ],
+    "entity_type": "person",
+    "id": "fiorello_la_guardia",
+    "name": "Fiorello La Guardia",
+    "subtype": "politician",
+    "summary": "Mayor of New York who announced Tesla's death over the radio."
+  },
+  {
+    "aliases": [
+      "village of Smiljan"
+    ],
+    "attributes": {
+      "country": "Croatia",
+      "lat": 44.5643,
+      "lng": 15.3181,
+      "wikidata_qid": "Q367211",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "smiljan",
+    "name": "Smiljan",
+    "subtype": "village",
+    "summary": "Village in Lika where Nikola Tesla was born."
+  },
+  {
+    "aliases": [
+      "Gospic"
+    ],
+    "attributes": {
+      "country": "Croatia",
+      "lat": 44.54694,
+      "lng": 15.37444,
+      "wikidata_qid": "Q319276",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "gospi",
+    "name": "Gospić",
+    "subtype": "town",
+    "summary": "Town in Lika where Tesla attended elementary and secondary school."
+  },
+  {
+    "aliases": [
+      "Rakovac near Karlovac"
+    ],
+    "attributes": {
+      "country": "Croatia",
+      "lat": 45.48517,
+      "lng": 15.55632,
+      "wikidata_qid": "Q135405297",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "rakovac",
+    "name": "Rakovac",
+    "subtype": "town",
+    "summary": "Location of the upper secondary school Tesla attended."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Austria",
+      "lat": 47.07083,
+      "lng": 15.43861,
+      "wikidata_qid": "Q13298",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "graz",
+    "name": "Graz",
+    "subtype": "city",
+    "summary": "City in Austria where Tesla studied at the polytechnic school."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Czechia",
+      "lat": 50.0875,
+      "lng": 14.42139,
+      "wikidata_qid": "Q1085",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "prague",
+    "name": "Prague",
+    "subtype": "city",
+    "summary": "City in Czechia where Tesla continued his education in 1880."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Hungary",
+      "lat": 47.49833,
+      "lng": 19.04083,
+      "wikidata_qid": "Q1781",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "budapest",
+    "name": "Budapest",
+    "subtype": "city",
+    "summary": "City where Tesla worked at the Central Telegraph Office."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "France",
+      "lat": 48.85667,
+      "lng": 2.35222,
+      "wikidata_qid": "Q90",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "paris",
+    "name": "Paris",
+    "subtype": "city",
+    "summary": "City where Tesla worked for Edison's company before moving to New York."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "France",
+      "lat": 48.57333,
+      "lng": 7.75222,
+      "wikidata_qid": "Q6602",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "strasbourg",
+    "name": "Strasbourg",
+    "subtype": "city",
+    "summary": "City where Tesla constructed his first single-phase asynchronous motor."
+  },
+  {
+    "aliases": [
+      "New York City"
+    ],
+    "attributes": {
+      "country": "United States",
+      "lat": 43.0,
+      "lng": -75.0,
+      "wikidata_qid": "Q1384",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "new_york",
+    "name": "New York",
+    "subtype": "city",
+    "summary": "City where Tesla worked for Edison and established his own companies."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United States",
+      "lat": 43.08,
+      "lng": -79.071,
+      "wikidata_qid": "Q34221",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "niagara_falls",
+    "name": "Niagara Falls",
+    "subtype": "location",
+    "summary": "Location of the hydroelectric power plant built using Tesla's system."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United States",
+      "lat": 39.0,
+      "lng": -105.5,
+      "wikidata_qid": "Q1261",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "colorado",
+    "name": "Colorado",
+    "subtype": "state",
+    "summary": "State where Tesla transmitted signals wirelessly over 1,000 kilometers."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United States",
+      "lat": 40.78886,
+      "lng": -73.23349,
+      "wikidata_qid": "Q18438",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "long_island",
+    "name": "Long Island",
+    "subtype": "location",
+    "summary": "Location where Tesla erected a 57-meter tower for wireless transmission."
+  },
+  {
+    "aliases": [
+      "Technische Hochschule",
+      "Johanneum"
+    ],
+    "entity_type": "organization",
+    "id": "tedesche_hochschule_graz",
+    "name": "Polytechnic School in Graz",
+    "subtype": "university",
+    "summary": "Technical university in Graz where Tesla studied from 1875."
+  },
+  {
+    "aliases": [
+      "Telefonska centrala"
+    ],
+    "entity_type": "organization",
+    "id": "central_telegraph_office_budapest",
+    "name": "Central Telegraph Office",
+    "subtype": "company",
+    "summary": "Organization in Budapest where Tesla began working in 1881."
+  },
+  {
+    "aliases": [
+      "Edison's factory",
+      "Thomas Alva Edison's factory"
+    ],
+    "entity_type": "organization",
+    "id": "edison_company",
+    "name": "Edison's Company",
+    "subtype": "company",
+    "summary": "Company owned by Thomas Edison where Tesla worked in Paris and New York."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "tesla_arc_light_company",
+    "name": "Tesla Arc Light Company",
+    "subtype": "company",
+    "summary": "Company founded by Tesla in New York to construct arc lamps."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "tesla_electric_company",
+    "name": "Tesla Electric Company",
+    "subtype": "company",
+    "summary": "Company founded by Tesla in 1887 to construct alternating current motors."
+  },
+  {
+    "aliases": [
+      "Westinghouse Company",
+      "Westinghouse Co"
+    ],
+    "entity_type": "organization",
+    "id": "westinghouse_electric",
+    "name": "Westinghouse Electric and Manufacturing Company",
+    "subtype": "company",
+    "summary": "Company that bought Tesla's patents in 1888."
+  },
+  {
+    "aliases": [
+      "JAZU"
+    ],
+    "entity_type": "organization",
+    "id": "jazus",
+    "name": "Yugoslav Academy of Arts and Sciences",
+    "subtype": "academy",
+    "summary": "Academy in Zagreb that elected Tesla as an honorary member."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "university_of_zagreb",
+    "name": "University of Zagreb",
+    "subtype": "university",
+    "summary": "University that awarded Tesla an honorary doctorate in 1926."
+  },
+  {
+    "aliases": [
+      "Technical College of the University of Belgrade"
+    ],
+    "entity_type": "organization",
+    "id": "university_of_belgrade",
+    "name": "University of Belgrade",
+    "subtype": "university",
+    "summary": "University that awarded Tesla an honorary doctorate in 1926."
+  },
+  {
+    "aliases": [
+      "IEC"
+    ],
+    "entity_type": "organization",
+    "id": "iec",
+    "name": "International Electrotechnical Commission",
+    "subtype": "commission",
+    "summary": "Organization that recommended the unit of magnetic induction be called a tesla."
+  },
+  {
+    "aliases": [
+      "Conference General des Poids et Measures"
+    ],
+    "entity_type": "organization",
+    "id": "cgpm",
+    "name": "General Conference on Weights and Measures",
+    "subtype": "conference",
+    "summary": "Conference that adopted the tesla unit in 1960."
+  },
+  {
+    "aliases": [
+      "electrical motor operating on the rotating magnetic field principle"
+    ],
+    "entity_type": "artifact",
+    "id": "rotating_magnetic_field_motor",
+    "name": "Rotating Magnetic Field Motor",
+    "subtype": "invention",
+    "summary": "Motor invented by Tesla based on the rotating magnetic field principle."
+  },
+  {
+    "aliases": [
+      "asynchronous motor",
+      "single-phase electromagnetic motor"
+    ],
+    "entity_type": "artifact",
+    "id": "induction_motor",
+    "name": "Induction Motor",
+    "subtype": "invention",
+    "summary": "Motor constructed by Tesla in Strasbourg and later perfected."
+  },
+  {
+    "aliases": [
+      "Tesla coil"
+    ],
+    "entity_type": "artifact",
+    "id": "tesla_transformer",
+    "name": "Tesla Transformer",
+    "subtype": "invention",
+    "summary": "Transformer used to produce high frequency currents."
+  },
+  {
+    "aliases": [
+      "radio-telegraph transmitter and receiver"
+    ],
+    "entity_type": "artifact",
+    "id": "wireless_transmission_system",
+    "name": "Wireless Transmission System",
+    "subtype": "invention",
+    "summary": "System for wireless transmission of signals and electricity."
+  },
+  {
+    "aliases": [
+      "remote control boat"
+    ],
+    "entity_type": "artifact",
+    "id": "teleautomatic_boat",
+    "name": "Teleautomatic Boat",
+    "subtype": "invention",
+    "summary": "Boat built by Tesla in 1898 operated by remote control."
+  },
+  {
+    "aliases": [
+      "57-meter tower"
+    ],
+    "entity_type": "artifact",
+    "id": "wardenclyffe_tower",
+    "name": "Long Island Tower",
+    "subtype": "structure",
+    "summary": "Tower erected by Tesla in Long Island for wireless energy transmission."
+  },
+  {
+    "aliases": [
+      "hydroelectric power plant at Niagara"
+    ],
+    "entity_type": "artifact",
+    "id": "niagara_power_plant",
+    "name": "Niagara Falls Power Plant",
+    "subtype": "structure",
+    "summary": "Power plant built in 1896 using Tesla's system."
+  },
+  {
+    "aliases": [
+      "unit of magnetic induction"
+    ],
+    "entity_type": "artifact",
+    "id": "tesla_unit",
+    "name": "Tesla",
+    "subtype": "unit",
+    "summary": "International unit of magnetic induction named after Nikola Tesla."
+  }
+]

@@ -1,0 +1,341 @@
+[
+  {
+    "aliases": [
+      "Ammann",
+      "O.H. Ammann",
+      "Othmar Ammann"
+    ],
+    "attributes": {
+      "nationality": "Swiss-American",
+      "profession": "Bridge Engineer"
+    },
+    "entity_type": "person",
+    "id": "othmar_ammann",
+    "name": "Othmar H. Ammann",
+    "subtype": "engineer",
+    "summary": "Swiss-American structural engineer renowned for designing major suspension bridges in New York City."
+  },
+  {
+    "aliases": [
+      "Rastorfer"
+    ],
+    "attributes": {},
+    "entity_type": "person",
+    "id": "darl_rastorfer",
+    "name": "Darl Rastorfer",
+    "subtype": "author",
+    "summary": "Curator and author who wrote a biography on Othmar Ammann."
+  },
+  {
+    "aliases": [
+      "Butz"
+    ],
+    "attributes": {},
+    "entity_type": "person",
+    "id": "nicole_butz",
+    "name": "Nicole Butz",
+    "subtype": "reviewer",
+    "summary": "Author of the book review published in Swiss American Historical Society Review."
+  },
+  {
+    "aliases": [
+      "federal technical university",
+      "ETH"
+    ],
+    "attributes": {
+      "city": "Zurich",
+      "country": "Switzerland"
+    },
+    "entity_type": "organization",
+    "id": "eth_zurich",
+    "name": "ETH Zurich",
+    "subtype": "university",
+    "summary": "Federal technical university in Zurich, Switzerland."
+  },
+  {
+    "aliases": [
+      "Lindenthal"
+    ],
+    "attributes": {},
+    "entity_type": "person",
+    "id": "gustav_lindenthal",
+    "name": "Gustav Lindenthal",
+    "subtype": "engineer",
+    "summary": "Austrian American bridge builder and engineer who employed Ammann."
+  },
+  {
+    "aliases": [
+      "Port Authority",
+      "Port of New York Authority"
+    ],
+    "attributes": {},
+    "entity_type": "organization",
+    "id": "port_authority_of_new_york_and_new_jersey",
+    "name": "Port Authority of New York and New Jersey",
+    "subtype": "government_agency",
+    "summary": "Bi-state government agency that operates infrastructure in the New York metropolitan area."
+  },
+  {
+    "aliases": [
+      "George Washington"
+    ],
+    "attributes": {},
+    "entity_type": "artifact",
+    "id": "george_washington_bridge",
+    "name": "George Washington Bridge",
+    "subtype": "bridge",
+    "summary": "Suspension bridge spanning the Hudson River between New York City and New Jersey."
+  },
+  {
+    "aliases": [
+      "Hell Gate"
+    ],
+    "attributes": {},
+    "entity_type": "artifact",
+    "id": "hell_gate_bridge",
+    "name": "Hell Gate Bridge",
+    "subtype": "bridge",
+    "summary": "Steel arch railroad bridge in New York City."
+  },
+  {
+    "aliases": [
+      "Bayonne"
+    ],
+    "attributes": {},
+    "entity_type": "artifact",
+    "id": "bayonne_bridge",
+    "name": "Bayonne Bridge",
+    "subtype": "bridge",
+    "summary": "Arch bridge spanning the Kill Van Kull between Staten Island and Bayonne, New Jersey."
+  },
+  {
+    "aliases": [
+      "Triborough"
+    ],
+    "attributes": {},
+    "entity_type": "artifact",
+    "id": "triborough_bridge",
+    "name": "Triborough Bridge",
+    "subtype": "bridge",
+    "summary": "Complex of bridges in New York City connecting Manhattan, Queens, and the Bronx."
+  },
+  {
+    "aliases": [
+      "Bronx-Whitestone"
+    ],
+    "attributes": {},
+    "entity_type": "artifact",
+    "id": "bronx_whitestone_bridge",
+    "name": "Bronx-Whitestone Bridge",
+    "subtype": "bridge",
+    "summary": "Suspension bridge in New York City connecting the Bronx and Queens."
+  },
+  {
+    "aliases": [
+      "Throgs Neck"
+    ],
+    "attributes": {},
+    "entity_type": "artifact",
+    "id": "throgs_neck_bridge",
+    "name": "Throgs Neck Bridge",
+    "subtype": "bridge",
+    "summary": "Suspension bridge in New York City connecting the Bronx and Queens."
+  },
+  {
+    "aliases": [
+      "Verrazano",
+      "Verrazano-Narrows"
+    ],
+    "attributes": {},
+    "entity_type": "artifact",
+    "id": "verrazano_narrows_bridge",
+    "name": "Verrazano-Narrows Bridge",
+    "subtype": "bridge",
+    "summary": "Suspension bridge connecting Staten Island and Brooklyn in New York City."
+  },
+  {
+    "aliases": [
+      "Lincoln Tunnel"
+    ],
+    "attributes": {},
+    "entity_type": "artifact",
+    "id": "lincoln_tunnel",
+    "name": "Lincoln Tunnel",
+    "subtype": "tunnel",
+    "summary": "Tunnel under the Hudson River connecting New Jersey and Manhattan."
+  },
+  {
+    "aliases": [
+      "Harlem River Pedestrian"
+    ],
+    "attributes": {},
+    "entity_type": "artifact",
+    "id": "harlem_river_pedestrian_bridge",
+    "name": "Harlem River Pedestrian Bridge",
+    "subtype": "bridge",
+    "summary": "Pedestrian bridge over the Harlem River in New York City."
+  },
+  {
+    "aliases": [
+      "Carlyle"
+    ],
+    "attributes": {
+      "city": "Manhattan"
+    },
+    "entity_type": "organization",
+    "id": "carlyle_hotel",
+    "name": "Carlyle Hotel",
+    "subtype": "hotel",
+    "summary": "Luxury hotel in Manhattan where Ammann lived in his later years."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United States",
+      "lat": 40.72833,
+      "lng": -73.99417,
+      "wikidata_qid": "Q11299",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "manhattan",
+    "name": "Manhattan",
+    "subtype": "borough",
+    "summary": "Borough of New York City."
+  },
+  {
+    "aliases": [
+      "New York"
+    ],
+    "attributes": {
+      "country": "United States",
+      "lat": 40.71278,
+      "lng": -74.00611,
+      "wikidata_qid": "Q60",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "new_york_city",
+    "name": "New York City",
+    "subtype": "city",
+    "summary": "City in the United States."
+  },
+  {
+    "aliases": [
+      "Swiss"
+    ],
+    "attributes": {
+      "lat": 30.07611,
+      "lng": -81.64722,
+      "wikidata_qid": "Q80282",
+      "geocode_basis": "document"
+    },
+    "entity_type": "place",
+    "id": "switzerland",
+    "name": "Switzerland",
+    "subtype": "country",
+    "summary": "Country in Europe."
+  },
+  {
+    "aliases": [
+      "America",
+      "U.S."
+    ],
+    "attributes": {
+      "lat": 39.82818,
+      "lng": -98.5795,
+      "wikidata_qid": "Q30",
+      "geocode_basis": "document"
+    },
+    "entity_type": "place",
+    "id": "united_states",
+    "name": "United States",
+    "subtype": "country",
+    "summary": "Country in North America."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United States",
+      "state": "New Jersey",
+      "lat": 40.96,
+      "lng": -74.07,
+      "wikidata_qid": "Q112915",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "bergen_county",
+    "name": "Bergen County",
+    "subtype": "county",
+    "summary": "County in New Jersey."
+  },
+  {
+    "aliases": [
+      "Hudson"
+    ],
+    "attributes": {
+      "lat": 44.1067,
+      "lng": -73.9358,
+      "wikidata_qid": "Q3140",
+      "geocode_basis": "document"
+    },
+    "entity_type": "place",
+    "id": "hudson_river",
+    "name": "Hudson River",
+    "subtype": "river",
+    "summary": "River flowing through New York."
+  },
+  {
+    "aliases": [
+      "Silzer"
+    ],
+    "attributes": {},
+    "entity_type": "person",
+    "id": "george_silzer",
+    "name": "George Silzer",
+    "subtype": "politician",
+    "summary": "Governor of New Jersey who supported Ammann's bridge project."
+  },
+  {
+    "aliases": [],
+    "attributes": {},
+    "entity_type": "organization",
+    "id": "yale_university_press",
+    "name": "Yale University Press",
+    "subtype": "publisher",
+    "summary": "University press associated with Yale University."
+  },
+  {
+    "aliases": [
+      "Cooper Hewitt"
+    ],
+    "attributes": {},
+    "entity_type": "organization",
+    "id": "cooper_hewitt_museum",
+    "name": "Cooper Hewitt Museum",
+    "subtype": "museum",
+    "summary": "Design museum in New York City where Rastorfer curated an exhibit on Ammann."
+  },
+  {
+    "aliases": [],
+    "attributes": {},
+    "entity_type": "organization",
+    "id": "swiss_american_historical_society",
+    "name": "Swiss American Historical Society",
+    "subtype": "society",
+    "summary": "Organization publishing the review journal."
+  },
+  {
+    "aliases": [
+      "Six Bridges"
+    ],
+    "attributes": {
+      "year": 2000
+    },
+    "entity_type": "artifact",
+    "id": "six_bridges_book",
+    "name": "Six Bridges: The Legacy of Othmar Ammann",
+    "subtype": "publication",
+    "summary": "Biography of Othmar Ammann written by Darl Rastorfer."
+  }
+]

@@ -1,0 +1,646 @@
+[
+  {
+    "id": "edison_birth",
+    "event_type": "birth",
+    "label": "Born in Milan, Ohio",
+    "date": {
+      "display": "11 February 1847",
+      "precision": "day",
+      "sort_start": "1847-02-11",
+      "sort_end": "1847-02-11"
+    },
+    "location": "milan_ohio",
+    "participants": [
+      {
+        "entity_id": "thomas_alva_edison",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 500,
+        "quote": "Thomas Alva Edison was born in Milan, Ohio, on 11 February 1847"
+      }
+    ]
+  },
+  {
+    "id": "edison_move_port_huron",
+    "event_type": "relocation",
+    "label": "Family moved to Port Huron",
+    "date": {
+      "display": "1854",
+      "precision": "year",
+      "sort_start": "1854-01-01",
+      "sort_end": "1854-12-31"
+    },
+    "location": "port_huron_michigan",
+    "participants": [
+      {
+        "entity_id": "thomas_alva_edison",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 500,
+        "quote": "In 1854 the Edison family moved from Milan to Port Huron, Michigan."
+      }
+    ]
+  },
+  {
+    "id": "edison_works_western_union",
+    "event_type": "employment_start",
+    "label": "Worked for Western Union",
+    "date": {
+      "display": "1866",
+      "precision": "year",
+      "sort_start": "1866-01-01",
+      "sort_end": "1866-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_alva_edison",
+        "role": "subject"
+      },
+      {
+        "entity_id": "western_union",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 500,
+        "quote": "In 1866 at the age of 19 Thomas Edison moved to Louisville, Kentucky working for the Associated Press bureau news wire as an employee of Western Union."
+      }
+    ]
+  },
+  {
+    "id": "edison_first_patent",
+    "event_type": "patent_granted",
+    "label": "First patent granted",
+    "date": {
+      "display": "1 June 1869",
+      "precision": "day",
+      "sort_start": "1869-06-01",
+      "sort_end": "1869-06-01"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_alva_edison",
+        "role": "subject"
+      },
+      {
+        "entity_id": "us_patent_90646",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 500,
+        "quote": "Some of Edison's earliest inventions were related to telegraphy with his first patent being for the electric vote recorder: US Patent 90,646 granted on 1 June 1869."
+      }
+    ]
+  },
+  {
+    "id": "edison_marriage_mary",
+    "event_type": "other",
+    "label": "Married Mary Stillwell",
+    "date": {
+      "display": "Christmas Day 1871",
+      "precision": "day",
+      "sort_start": "1871-12-25",
+      "sort_end": "1871-12-25"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_alva_edison",
+        "role": "subject"
+      },
+      {
+        "entity_id": "mary_stillwell",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 500,
+        "quote": "On Christmas Day 1871 Edison married 16-year old Mary Stillwell"
+      }
+    ]
+  },
+  {
+    "id": "edison_menlo_park_start",
+    "event_type": "employment_start",
+    "label": "Started work at Menlo Park",
+    "date": {
+      "display": "1876",
+      "precision": "year",
+      "sort_start": "1876-01-01",
+      "sort_end": "1876-12-31"
+    },
+    "location": "menlo_park_new_jersey",
+    "participants": [
+      {
+        "entity_id": "thomas_alva_edison",
+        "role": "subject"
+      },
+      {
+        "entity_id": "menlo_park_laboratory",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 501,
+        "quote": "Edison worked at Menlo Park from 1876."
+      }
+    ]
+  },
+  {
+    "id": "edison_phonograph_invention",
+    "event_type": "invention",
+    "label": "Invented the phonograph",
+    "date": {
+      "display": "1877",
+      "precision": "year",
+      "sort_start": "1877-01-01",
+      "sort_end": "1877-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_alva_edison",
+        "role": "subject"
+      },
+      {
+        "entity_id": "phonograph",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 500,
+        "quote": "The invention of the phonograph in 1877 ensured that Thomas Edison was given widespread acclaim and became a celebrity"
+      }
+    ]
+  },
+  {
+    "id": "edison_phonograph_demo",
+    "event_type": "public_demonstration",
+    "label": "Demonstrated phonograph in Washington D.C.",
+    "date": {
+      "display": "April 1878",
+      "precision": "month",
+      "sort_start": "1878-04-01",
+      "sort_end": "1878-04-30"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_alva_edison",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 500,
+        "quote": "In April 1878 Edison travelled to Washington D.C.to demonstrate his phonograph before the National Academy of Sciences, congressmen, senators and US President Hayes."
+      }
+    ]
+  },
+  {
+    "id": "edison_carbon_microphone_patent",
+    "event_type": "patent_granted",
+    "label": "Carbon telephone patent granted",
+    "date": {
+      "display": "8 November 1878",
+      "precision": "day",
+      "sort_start": "1878-11-08",
+      "sort_end": "1878-11-08"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_alva_edison",
+        "role": "subject"
+      },
+      {
+        "entity_id": "us_patent_222390",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 501,
+        "quote": "The US patent 222,390 (8 November 1878) was titled 'Carbon telephones'."
+      }
+    ]
+  },
+  {
+    "id": "edison_electric_light_company_formed",
+    "event_type": "company_founded",
+    "label": "Edison Electric Light Company formed",
+    "date": {
+      "display": "1878",
+      "precision": "year",
+      "sort_start": "1878-01-01",
+      "sort_end": "1878-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_alva_edison",
+        "role": "subject"
+      },
+      {
+        "entity_id": "edison_electric_light_company",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 501,
+        "quote": "The Edison Electric Light Company in New York City was formed in 1878"
+      }
+    ]
+  },
+  {
+    "id": "edison_lamp_test",
+    "event_type": "invention",
+    "label": "First successful incandescent lamp test",
+    "date": {
+      "display": "1879",
+      "precision": "year",
+      "sort_start": "1879-01-01",
+      "sort_end": "1879-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_alva_edison",
+        "role": "subject"
+      },
+      {
+        "entity_id": "incandescent_lamp",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 501,
+        "quote": "His first successful test was in 1879 when the lamp lasted 13.5 hours"
+      }
+    ]
+  },
+  {
+    "id": "edison_lamp_demo",
+    "event_type": "public_demonstration",
+    "label": "Public demonstration of incandescent light",
+    "date": {
+      "display": "31 December 1879",
+      "precision": "day",
+      "sort_start": "1879-12-31",
+      "sort_end": "1879-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_alva_edison",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 501,
+        "quote": "the first public demonstration of his incandescent light bulb was at Menlo Park on 31 December 1879."
+      }
+    ]
+  },
+  {
+    "id": "edison_lamp_patent",
+    "event_type": "patent_granted",
+    "label": "Electric lamp patent granted",
+    "date": {
+      "display": "27 January 1880",
+      "precision": "day",
+      "sort_start": "1880-01-27",
+      "sort_end": "1880-01-27"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_alva_edison",
+        "role": "subject"
+      },
+      {
+        "entity_id": "us_patent_223898",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 501,
+        "quote": "His US patent 223,898 (27 January 1880) was for an electric lamp using 'a carbon filament or strip coiled and connected to platina contact wires'."
+      }
+    ]
+  },
+  {
+    "id": "edison_illuminating_company_founded",
+    "event_type": "company_founded",
+    "label": "Edison Illuminating Company founded",
+    "date": {
+      "display": "1880",
+      "precision": "year",
+      "sort_start": "1880-01-01",
+      "sort_end": "1880-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_alva_edison",
+        "role": "subject"
+      },
+      {
+        "entity_id": "edison_illuminating_company",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 501,
+        "quote": "In 1880 Edison founded the Edison Illuminating Company to commercially distribute an electric utility"
+      }
+    ]
+  },
+  {
+    "id": "edison_pearl_street_utility",
+    "event_type": "product_launch",
+    "label": "Pearl Street utility established",
+    "date": {
+      "display": "1882",
+      "precision": "year",
+      "sort_start": "1882-01-01",
+      "sort_end": "1882-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_alva_edison",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 501,
+        "quote": "the first investor-owned electricity utility was established in 1882 in Pearl Street station, New York."
+      }
+    ]
+  },
+  {
+    "id": "edison_marriage_mina",
+    "event_type": "other",
+    "label": "Married Mina Miller",
+    "date": {
+      "display": "24 February 1886",
+      "precision": "day",
+      "sort_start": "1886-02-24",
+      "sort_end": "1886-02-24"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_alva_edison",
+        "role": "subject"
+      },
+      {
+        "entity_id": "mina_miller",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 500,
+        "quote": "Edison remarried on 24 February 1886, 20-year old Mina Miller"
+      }
+    ]
+  },
+  {
+    "id": "edison_ge_merger",
+    "event_type": "company_renamed",
+    "label": "Merger to form General Electric",
+    "date": {
+      "display": "1892",
+      "precision": "year",
+      "sort_start": "1892-01-01",
+      "sort_end": "1892-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_alva_edison",
+        "role": "subject"
+      },
+      {
+        "entity_id": "general_electric",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 502,
+        "quote": "The so-called War of the Currents came to an end in 1892 when Edison was forced out of his own company by shareholders dissatisfied with their financial returns and when J.P. Morgan (1837–1914) engineered a merger of Edison General Electric and Thomson-Houston."
+      }
+    ]
+  },
+  {
+    "id": "edison_kinetograph_patent",
+    "event_type": "patent_granted",
+    "label": "Motion picture camera patent granted",
+    "date": {
+      "display": "1891",
+      "precision": "year",
+      "sort_start": "1891-01-01",
+      "sort_end": "1891-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_alva_edison",
+        "role": "subject"
+      },
+      {
+        "entity_id": "kinetograph",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 502,
+        "quote": "Edison obtained a patent in 1891 for a motion picture camera or Kinetograph"
+      }
+    ]
+  },
+  {
+    "id": "edison_xray_experiments",
+    "event_type": "other",
+    "label": "X-ray experiments conducted",
+    "date": {
+      "display": "1896",
+      "precision": "year",
+      "sort_start": "1896-01-01",
+      "sort_end": "1896-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_alva_edison",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 502,
+        "quote": "Thomas Edison is best known for his work on fluoroscopes and the search for an improvement to the fluoroscopic material barium platino-cyanide"
+      }
+    ]
+  },
+  {
+    "id": "edison_fluoroscope_described",
+    "event_type": "publication",
+    "label": "Edison Fluoroscope described in literature",
+    "date": {
+      "display": "4 April 1896",
+      "precision": "day",
+      "sort_start": "1896-04-04",
+      "sort_end": "1896-04-04"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_alva_edison",
+        "role": "subject"
+      },
+      {
+        "entity_id": "fluoroscope",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 504,
+        "quote": "Figure 5 is the first drawing of what was to become known as the Edison Fluoroscope and was first described in the literature on 4 April 1896"
+      }
+    ]
+  },
+  {
+    "id": "dally_death",
+    "event_type": "death",
+    "label": "Clarence Dally died",
+    "date": {
+      "display": "October 1904",
+      "precision": "month",
+      "sort_start": "1904-10-01",
+      "sort_end": "1904-10-31"
+    },
+    "participants": [
+      {
+        "entity_id": "clarence_dally",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 505,
+        "quote": "Dally died from mediastinal recurrent cancer in October 1904 at the early age of 39 years"
+      }
+    ]
+  },
+  {
+    "id": "edison_cement_company",
+    "event_type": "company_founded",
+    "label": "Edison Portland Cement Company founded",
+    "date": {
+      "display": "1899",
+      "precision": "year",
+      "sort_start": "1899-01-01",
+      "sort_end": "1899-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_alva_edison",
+        "role": "subject"
+      },
+      {
+        "entity_id": "edison_portland_cement_company",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 506,
+        "quote": "The Edison Portland Cement Company was founded in 1899"
+      }
+    ]
+  },
+  {
+    "id": "edison_naval_board",
+    "event_type": "role_change",
+    "label": "Made head of Naval Consulting Board",
+    "date": {
+      "display": "1915",
+      "precision": "year",
+      "sort_start": "1915-01-01",
+      "sort_end": "1915-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_alva_edison",
+        "role": "subject"
+      },
+      {
+        "entity_id": "naval_consulting_board",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 507,
+        "quote": "In 1915 he was made the head of the Naval Consulting Board"
+      }
+    ]
+  },
+  {
+    "id": "edison_death",
+    "event_type": "death",
+    "label": "Died in Fort Myers",
+    "date": {
+      "display": "18 October 1931",
+      "precision": "day",
+      "sort_start": "1931-10-18",
+      "sort_end": "1931-10-18"
+    },
+    "location": "fort_myers_florida",
+    "participants": [
+      {
+        "entity_id": "thomas_alva_edison",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 501,
+        "quote": "where he died on 18 October 1931 from diabetic complications."
+      }
+    ]
+  }
+]

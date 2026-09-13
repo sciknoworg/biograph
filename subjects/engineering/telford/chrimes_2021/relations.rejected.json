@@ -1,0 +1,31 @@
+[
+  {
+    "id": "telford_invested_st_katharine",
+    "source": "thomas_telford",
+    "type": "licensed_to",
+    "target": "st_katharine_docks",
+    "note": "Held shares",
+    "sources": [
+      {
+        "source_id": "chrimes_2021",
+        "page": 5,
+        "quote": "Later holdings were for the Macclesfield Canal on which Telford was consulted, and more substantially on the St Katharine Docks."
+      }
+    ],
+    "_rejected_because": "'licensed_to' expects target entity_type person/organization, but 'st_katharine_docks' is 'artifact'"
+  },
+  {
+    "id": "telford_worked_scotland",
+    "source": "thomas_telford",
+    "type": "worked_at",
+    "target": "scotland",
+    "sources": [
+      {
+        "source_id": "chrimes_2021",
+        "page": 2,
+        "quote": "His presence in Shropshire enabled his appointment as \"General agent (…) engineer (…) overlooker of the Works\" on the Ellesmere canal at a salary of £500 p.a. in September 1793, William Jessop being consultant."
+      }
+    ],
+    "_rejected_because": "'worked_at' expects target entity_type organization, but 'scotland' is 'place'"
+  }
+]

@@ -1,0 +1,208 @@
+[
+  {
+    "id": "tesla_born_smiljan",
+    "source": "nikola_tesla",
+    "type": "born_in",
+    "target": "smiljan",
+    "event_id": "tesla_birth",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 5,
+        "quote": "On July 10, 1856, Nikola Tesla was born in Smiljan in the house shown in Figure 1, and was later followed by a sister, Mandica."
+      }
+    ]
+  },
+  {
+    "id": "tesla_father_milutin",
+    "source": "nikola_tesla",
+    "type": "family_of",
+    "target": "milutin_tesla",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 5,
+        "quote": "Nikola's father was also a priest."
+      }
+    ]
+  },
+  {
+    "id": "tesla_mother_djuka",
+    "source": "nikola_tesla",
+    "type": "family_of",
+    "target": "djuka_mandic",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 5,
+        "quote": "He then married –uka MandiÊ (1821.-1892.) of Tomingrad near GraËac."
+      }
+    ]
+  },
+  {
+    "id": "tesla_educated_graz",
+    "source": "nikola_tesla",
+    "type": "studied_at",
+    "target": "tedesche_hochschule_graz",
+    "event_id": "tesla_graz_enrollment",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 9,
+        "quote": "Two years after passing his ﬁ  nal secondary school examination and recovery from illness, at the age of nineteen he enrolled during the 1875/76 academic year at the polytechnic school (Technische  Hochschule) in Graz, Austria, with a scholarship from the Military Border Territory."
+      }
+    ]
+  },
+  {
+    "id": "tesla_worked_budapest",
+    "source": "nikola_tesla",
+    "type": "worked_at",
+    "target": "central_telegraph_office_budapest",
+    "event_id": "tesla_budapest_work",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 10,
+        "quote": "In 1881, Tesla began working at the Central Telegraph Ofﬁ ce in Budapest."
+      }
+    ]
+  },
+  {
+    "id": "tesla_worked_edison",
+    "source": "nikola_tesla",
+    "type": "worked_at",
+    "target": "edison_company",
+    "event_id": "tesla_new_york_move",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 11,
+        "quote": "In 1884, Tesla left France to work in Edison's factory in New York, where he stayed for one year and perfected twenty-four different types of electrical devices."
+      }
+    ]
+  },
+  {
+    "id": "tesla_founded_arc_light",
+    "source": "nikola_tesla",
+    "type": "founded",
+    "target": "tesla_arc_light_company",
+    "event_id": "tesla_arc_light_company",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 11,
+        "quote": "Since he did not receive suitable compensation for his work, he left Edison's company and, at the advice of several technicians and ﬁ nanciers, opened his own ﬁ rm, the Tesla Arc Light Company."
+      }
+    ]
+  },
+  {
+    "id": "tesla_founded_electric_company",
+    "source": "nikola_tesla",
+    "type": "founded",
+    "target": "tesla_electric_company",
+    "event_id": "tesla_electric_company",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 11,
+        "quote": "In the year 1887, he founded the Tesla Electric Company."
+      }
+    ]
+  },
+  {
+    "id": "tesla_sold_westinghouse",
+    "source": "nikola_tesla",
+    "type": "licensed_to",
+    "target": "westinghouse_electric",
+    "event_id": "tesla_patents_sold",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 12,
+        "quote": "In the year 1888, Tesla sold his patents to the Westinghouse Electric and Manufacturing Company."
+      }
+    ]
+  },
+  {
+    "id": "tesla_mentored_sekulic",
+    "source": "nikola_tesla",
+    "type": "educated_by",
+    "target": "martin_sekulic",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 8,
+        "quote": "A crucial role was played by his secondary school professor in Rakovac, Martin SekuliÊ, who was an excellent experimenter and constructor of physics devices."
+      }
+    ]
+  },
+  {
+    "id": "tesla_collaborated_scott",
+    "source": "nikola_tesla",
+    "type": "collaborated_with",
+    "target": "charles_scott",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 16,
+        "quote": "Charles F. Scott came to the Westinghouse Company in 1888 and was Tesla's assistant in the testing of his motors."
+      }
+    ]
+  },
+  {
+    "id": "tesla_invented_motor",
+    "source": "nikola_tesla",
+    "type": "invented",
+    "target": "rotating_magnetic_field_motor",
+    "event_id": "tesla_rotating_field_invention",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 10,
+        "quote": "Tesla had arrived at this invention by chance in February 1882, during a Sunday walk in the municipal park with his friend Antal Szigety, when he drew a diagram of this device in the sand with a stick."
+      }
+    ]
+  },
+  {
+    "id": "tesla_invented_boat",
+    "source": "nikola_tesla",
+    "type": "invented",
+    "target": "teleautomatic_boat",
+    "event_id": "tesla_boat_demonstration",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 13,
+        "quote": "In the year 1898, he built a teleautomatic boat operated by remote control, that he demonstrated before a crowd at Madison Square Garden in New York City."
+      }
+    ]
+  },
+  {
+    "id": "tesla_awarded_zagreb",
+    "source": "nikola_tesla",
+    "type": "awarded",
+    "target": "university_of_zagreb",
+    "event_id": "tesla_zagreb_doctorate",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 17,
+        "quote": "On June 3, 1926, the University of Zagreb awarded him the title of Doctor honoris causa, and on June 15, 1926 the Technical College of the University of Belgrade awarded him an honorary doctorate of technical sciences."
+      }
+    ]
+  },
+  {
+    "id": "tesla_awarded_belgrade",
+    "source": "nikola_tesla",
+    "type": "awarded",
+    "target": "university_of_belgrade",
+    "event_id": "tesla_belgrade_doctorate",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 17,
+        "quote": "On June 3, 1926, the University of Zagreb awarded him the title of Doctor honoris causa, and on June 15, 1926 the Technical College of the University of Belgrade awarded him an honorary doctorate of technical sciences."
+      }
+    ]
+  }
+]

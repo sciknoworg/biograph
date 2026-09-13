@@ -1,0 +1,196 @@
+[
+  {
+    "id": "von_braun_born_in_wirsitz",
+    "source": "wernher_von_braun",
+    "type": "born_in",
+    "target": "wirsitz",
+    "event_id": "von_braun_birth",
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 2,
+        "quote": "He was born on March 23, 1912 in the city of Wirsitz (province of Posen, the German Empire, now it is the city of Wyrzysk, Poland) [1]."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_studied_at_berlin",
+    "source": "wernher_von_braun",
+    "type": "studied_at",
+    "target": "berlin_higher_technical_school",
+    "event_id": "von_braun_entered_berlin_technical",
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 2,
+        "quote": "In 1930, Wernher von Braun entered the Berlin Higher Technical School (now this is known in the world the Berlin Technical University), where he join ed the research group « Space Travel Society» and together with H. Oberth (1894-1989) he participated in testing first liquid rocket engines (LRE) [1]."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_educated_by_oberth",
+    "source": "wernher_von_braun",
+    "type": "educated_by",
+    "target": "hermann_oberth",
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 2,
+        "quote": "It is believed that it was H. Oberth who had a great influence on the formation of Wernher von Braun as a future rocket maker."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_supervised_by_dornberger",
+    "source": "wernher_von_braun",
+    "type": "supervised_by",
+    "target": "walter_dornberger",
+    "event_id": "von_braun_joined_dornberger_group",
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 2,
+        "quote": "In 1932, he was admitted to the military missile scientific group of Walter Dornberger (then captain of artillery, who became Major General in 1941), engaged in the development and creation for the Reichswehr (German military) both solid-fuel missiles and missiles with LRE."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_worked_at_peenemunde",
+    "source": "wernher_von_braun",
+    "type": "worked_at",
+    "target": "peenemunde_rocket_center",
+    "event_id": "von_braun_peenemunde_director",
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 2,
+        "quote": "For these purposes , in the north of Germany (on the island Usedom in the Baltic Sea with the village of Peenemünde) large German rocket center and a test site were built in 1937, the Military Head of which was W. Dornberger, and the Technical Director was Wernher von Braun [1, 2] ."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_invented_v2",
+    "source": "wernher_von_braun",
+    "type": "invented",
+    "target": "v2_rocket",
+    "event_id": "v2_rocket_created",
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 2,
+        "quote": "Despite this SS trail in the life of the essay's main person, Wernher von Braun and his team managed to create an A-4 (V-2) combat rocket launcher by the fall of 1944, capable of hitting cities in the UK and other countries of Europe from a long distance."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_worked_at_us_army",
+    "source": "wernher_von_braun",
+    "type": "worked_at",
+    "target": "us_army",
+    "event_id": "von_braun_headed_us_army_service",
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 4,
+        "quote": "From September 1945, Wernher von Braun headed the US Army Design and Development Service at the designated Fort Bliss, lo cated near the White Sands Proving Ground, New Mexico [1]."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_worked_at_redstone",
+    "source": "wernher_von_braun",
+    "type": "worked_at",
+    "target": "redstone_arsenal",
+    "event_id": "von_braun_moved_to_redstone",
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 5,
+        "quote": "From 1950, together with his German fellow rocket engineers (Fig. 3), he began working at the Redstone Arsenal (Huntsville, Alabama) [3]."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_invented_redstone",
+    "source": "wernher_von_braun",
+    "type": "invented",
+    "target": "redstone_missile",
+    "event_id": "redstone_missile_created",
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 5,
+        "quote": "In 1952, under the leadership of Wernher von Braun, a Redstone combat ballistic missile (PGM-11 military index) was created in the United States (Fig. 4) [11], which was used by the US Army in the period 1958-1964 and used at the launch on January 31, 1958 of the first American artificial satellite of the Earth «Explorer 1» (weight –14 kg) [6, 12, 13]."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_worked_at_nasa",
+    "source": "wernher_von_braun",
+    "type": "worked_at",
+    "target": "nasa",
+    "event_id": "von_braun_transferred_to_nasa",
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 6,
+        "quote": "In 1960, the rocket men, led by Dr. Wernher von Braun, were transferred to the National Aeronautics and Space Administration (NASA) of the United States [15]."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_founded_marshall",
+    "source": "wernher_von_braun",
+    "type": "founded",
+    "target": "marshall_space_flight_center",
+    "event_id": "von_braun_marshall_director",
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 6,
+        "quote": "During this period, NASA created the Marshall Space Flight Center, Huntsville, Alabama, as the first Director of which Wernher von Braun was appointed [15]."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_invented_saturn_v",
+    "source": "wernher_von_braun",
+    "type": "invented",
+    "target": "saturn_v",
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 6,
+        "quote": "Created in the USA the Satu rn-V launch vehicle with LRE of height of 33-storey building (chief designer - Wernher von Braun; year of creation 1969) was able to deliver 50 tons of payload at a speed of about 40,4 thousand km/h (11.2 km/s, corresponding to the second space speed [5]) in space at a distance of about 384 thousand km, equal to the average distance of the Moon from the planet Earth [8]."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_worked_at_fairchild",
+    "source": "wernher_von_braun",
+    "type": "worked_at",
+    "target": "fairchild_space_industries",
+    "event_id": "von_braun_fairchild_vp",
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 7,
+        "quote": "He did not remain without work: representatives of the American business, who knew his business skills well, immediately offered him the position of Vice-President of Fairchild Space Industries, Germantown, Maryland engaged in the production of aerospace e quipment [15]."
+      }
+    ]
+  },
+  {
+    "id": "von_braun_died_in_alexandria",
+    "source": "wernher_von_braun",
+    "type": "died_in",
+    "target": "alexandria_virginia",
+    "event_id": "von_braun_death",
+    "sources": [
+      {
+        "source_id": "baranov_2019",
+        "page": 8,
+        "quote": "On June 16, 1977, after a long struggle with serious illness, Wernher von Braun died."
+      }
+    ]
+  }
+]

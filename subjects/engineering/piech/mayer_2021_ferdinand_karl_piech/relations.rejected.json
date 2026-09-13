@@ -1,0 +1,16 @@
+[
+  {
+    "id": "piech_awarded_hall_of_fame",
+    "source": "ferdinand_karl_piech",
+    "type": "awarded",
+    "target": "automotive_hall_of_fame",
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 7,
+        "quote": "induction into the Automotive Hall of Fame (in 2014)"
+      }
+    ],
+    "_rejected_because": "'awarded' expects target entity_type artifact, but 'automotive_hall_of_fame' is 'organization'"
+  }
+]

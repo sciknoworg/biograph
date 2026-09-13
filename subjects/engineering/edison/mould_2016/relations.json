@@ -1,0 +1,195 @@
+[
+  {
+    "id": "edison_born_milan",
+    "source": "thomas_alva_edison",
+    "type": "born_in",
+    "target": "milan_ohio",
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 500,
+        "quote": "Thomas Alva Edison was born in Milan, Ohio, on 11 February 1847"
+      }
+    ]
+  },
+  {
+    "id": "edison_worked_western_union",
+    "source": "thomas_alva_edison",
+    "type": "employed_by",
+    "target": "western_union",
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 500,
+        "quote": "In 1866 at the age of 19 Thomas Edison moved to Louisville, Kentucky working for the Associated Press bureau news wire as an employee of Western Union."
+      }
+    ]
+  },
+  {
+    "id": "edison_founded_electric_light",
+    "source": "thomas_alva_edison",
+    "type": "founded",
+    "target": "edison_electric_light_company",
+    "event_id": "edison_electric_light_company_formed",
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 501,
+        "quote": "The Edison Electric Light Company in New York City was formed in 1878"
+      }
+    ]
+  },
+  {
+    "id": "edison_invented_phonograph",
+    "source": "thomas_alva_edison",
+    "type": "invented",
+    "target": "phonograph",
+    "event_id": "edison_phonograph_invention",
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 500,
+        "quote": "The invention of the phonograph in 1877 ensured that Thomas Edison was given widespread acclaim and became a celebrity"
+      }
+    ]
+  },
+  {
+    "id": "edison_invented_lamp",
+    "source": "thomas_alva_edison",
+    "type": "invented",
+    "target": "incandescent_lamp",
+    "event_id": "edison_lamp_test",
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 501,
+        "quote": "His first successful test was in 1879 when the lamp lasted 13.5 hours"
+      }
+    ]
+  },
+  {
+    "id": "edison_worked_menlo",
+    "source": "thomas_alva_edison",
+    "type": "worked_at",
+    "target": "menlo_park_laboratory",
+    "event_id": "edison_menlo_park_start",
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 501,
+        "quote": "Edison worked at Menlo Park from 1876."
+      }
+    ]
+  },
+  {
+    "id": "edison_collaborated_dally",
+    "source": "thomas_alva_edison",
+    "type": "collaborated_with",
+    "target": "clarence_dally",
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 505,
+        "quote": "Clarence Dalley (1865–1904) was the first X-ray martyr. His death was caused by X-ray exposure working as a glass blower in the laboratory of Thomas Edison"
+      }
+    ]
+  },
+  {
+    "id": "edison_founded_illuminating",
+    "source": "thomas_alva_edison",
+    "type": "founded",
+    "target": "edison_illuminating_company",
+    "event_id": "edison_illuminating_company_founded",
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 501,
+        "quote": "In 1880 Edison founded the Edison Illuminating Company to commercially distribute an electric utility"
+      }
+    ]
+  },
+  {
+    "id": "edison_founded_cement",
+    "source": "thomas_alva_edison",
+    "type": "founded",
+    "target": "edison_portland_cement_company",
+    "event_id": "edison_cement_company",
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 506,
+        "quote": "The Edison Portland Cement Company was founded in 1899"
+      }
+    ]
+  },
+  {
+    "id": "edison_member_naval",
+    "source": "thomas_alva_edison",
+    "type": "member_of",
+    "target": "naval_consulting_board",
+    "event_id": "edison_naval_board",
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 507,
+        "quote": "In 1915 he was made the head of the Naval Consulting Board"
+      }
+    ]
+  },
+  {
+    "id": "edison_died_fort_myers",
+    "source": "thomas_alva_edison",
+    "type": "died_in",
+    "target": "fort_myers_florida",
+    "event_id": "edison_death",
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 501,
+        "quote": "where he died on 18 October 1931 from diabetic complications."
+      }
+    ]
+  },
+  {
+    "id": "edison_married_mary",
+    "source": "thomas_alva_edison",
+    "type": "married_to",
+    "target": "mary_stillwell",
+    "event_id": "edison_marriage_mary",
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 500,
+        "quote": "On Christmas Day 1871 Edison married 16-year old Mary Stillwell"
+      }
+    ]
+  },
+  {
+    "id": "edison_married_mina",
+    "source": "thomas_alva_edison",
+    "type": "married_to",
+    "target": "mina_miller",
+    "event_id": "edison_marriage_mina",
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 500,
+        "quote": "Edison remarried on 24 February 1886, 20-year old Mina Miller"
+      }
+    ]
+  },
+  {
+    "id": "edison_invented_fluoroscope",
+    "source": "thomas_alva_edison",
+    "type": "invented",
+    "target": "fluoroscope",
+    "event_id": "edison_fluoroscope_described",
+    "sources": [
+      {
+        "source_id": "mould_2016",
+        "page": 504,
+        "quote": "Figure 5 is the first drawing of what was to become known as the Edison Fluoroscope and was first described in the literature on 4 April 1896"
+      }
+    ]
+  }
+]

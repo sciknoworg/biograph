@@ -1,0 +1,388 @@
+[
+  {
+    "id": "ralph_peck_birth",
+    "event_type": "birth",
+    "label": "Born in Winnipeg",
+    "date": {
+      "display": "23 June 1912",
+      "precision": "day",
+      "sort_start": "1912-06-23",
+      "sort_end": "1912-06-23"
+    },
+    "participants": [
+      {
+        "entity_id": "ralph_peck",
+        "role": "subject"
+      }
+    ],
+    "location": "winnipeg",
+    "sources": [
+      {
+        "source_id": "lara_galera_2019",
+        "page": 4,
+        "quote": "Ralph Brazelton Peck (Winnipeg, Manitoba, 23 June 1912; Albuquerque, New Mexico, 18 February 2008)"
+      }
+    ]
+  },
+  {
+    "id": "ralph_peck_enrolled_rpi",
+    "event_type": "education",
+    "label": "Enrolled at Rensselaer Polytechnic Institute",
+    "date": {
+      "display": "5 September 1930",
+      "precision": "day",
+      "sort_start": "1930-09-05",
+      "sort_end": "1930-09-05"
+    },
+    "participants": [
+      {
+        "entity_id": "ralph_peck",
+        "role": "subject"
+      },
+      {
+        "entity_id": "rensselaer_polytechnic_institute",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lara_galera_2019",
+        "page": 4,
+        "quote": "On 5 September 1930, when Ralph was 18 years old, he turned down two scholarships... to finally join the Rensselaer Polytechnic Institute (RPI) in Troy, New York"
+      }
+    ]
+  },
+  {
+    "id": "ralph_peck_phd",
+    "event_type": "education",
+    "label": "Received PhD from RPI",
+    "date": {
+      "display": "14 June 1937",
+      "precision": "day",
+      "sort_start": "1937-06-14",
+      "sort_end": "1937-06-14"
+    },
+    "participants": [
+      {
+        "entity_id": "ralph_peck",
+        "role": "subject"
+      },
+      {
+        "entity_id": "rensselaer_polytechnic_institute",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lara_galera_2019",
+        "page": 4,
+        "quote": "resulting in Peck receiving his PhD in civil engineering on 14 June 1937 from the Rensselaer Polytechnic Institute in Troy, New York."
+      }
+    ]
+  },
+  {
+    "id": "ralph_peck_marriage",
+    "event_type": "other",
+    "label": "Married Marjorie Truby",
+    "date": {
+      "display": "14 June 1937",
+      "precision": "day",
+      "sort_start": "1937-06-14",
+      "sort_end": "1937-06-14"
+    },
+    "participants": [
+      {
+        "entity_id": "ralph_peck",
+        "role": "subject"
+      },
+      {
+        "entity_id": "marjorie_peck",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lara_galera_2019",
+        "page": 4,
+        "quote": "On 14 June 1937, the year he earned his doctorate, Peck married Marjorie Truby at the second Presbyterian Church of Troy."
+      }
+    ]
+  },
+  {
+    "id": "ralph_peck_harvard",
+    "event_type": "education",
+    "label": "Joined Harvard University soil mechanics programme",
+    "date": {
+      "display": "April 1938",
+      "precision": "month",
+      "sort_start": "1938-04-01",
+      "sort_end": "1938-04-30"
+    },
+    "participants": [
+      {
+        "entity_id": "ralph_peck",
+        "role": "subject"
+      },
+      {
+        "entity_id": "harvard_university",
+        "role": "educator"
+      },
+      {
+        "entity_id": "arthur_casagrande",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lara_galera_2019",
+        "page": 5,
+        "quote": "Accordingly, Ralph Peck arrived at Harvard University in April of the 1937–1938 academic year, joining the programme taught by Arthur Casagrande during the spring semester"
+      }
+    ]
+  },
+  {
+    "id": "ralph_peck_chicago_subway_start",
+    "event_type": "employment_start",
+    "label": "Started work on Chicago Subway Project",
+    "date": {
+      "display": "January 1939",
+      "precision": "month",
+      "sort_start": "1939-01-01",
+      "sort_end": "1939-01-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ralph_peck",
+        "role": "subject"
+      },
+      {
+        "entity_id": "karl_terzaghi",
+        "role": "supervisor"
+      },
+      {
+        "entity_id": "chicago_subway",
+        "role": "project"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lara_galera_2019",
+        "page": 5,
+        "quote": "Ralph Peck started working as an assistant to Karl Terzaghi in January 1939 in the Chicago subway project"
+      }
+    ]
+  },
+  {
+    "id": "ralph_peck_chicago_subway_end",
+    "event_type": "employment_end",
+    "label": "Chicago Subway Works closed",
+    "date": {
+      "display": "May 1942",
+      "precision": "month",
+      "sort_start": "1942-05-01",
+      "sort_end": "1942-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ralph_peck",
+        "role": "subject"
+      },
+      {
+        "entity_id": "chicago_subway",
+        "role": "project"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lara_galera_2019",
+        "page": 8,
+        "quote": "Finally, in May 1942, both the projects of the Chicago Subway Works were closed."
+      }
+    ]
+  },
+  {
+    "id": "ralph_peck_uiuc_start",
+    "event_type": "employment_start",
+    "label": "Joined University of Illinois",
+    "date": {
+      "display": "December 1942",
+      "precision": "month",
+      "sort_start": "1942-12-01",
+      "sort_end": "1942-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ralph_peck",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_illinois",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lara_galera_2019",
+        "page": 8,
+        "quote": "Thus, in December 1942, Ralph Peck joined the Department of Civil Engineering at the University of Illinois in the town of Urbana Champaign."
+      }
+    ]
+  },
+  {
+    "id": "ralph_peck_neusa_dam",
+    "event_type": "other",
+    "label": "Consultancy for Neusa Dam",
+    "date": {
+      "display": "January 1950",
+      "precision": "month",
+      "sort_start": "1950-01-01",
+      "sort_end": "1950-01-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ralph_peck",
+        "role": "subject"
+      },
+      {
+        "entity_id": "albert_cummings",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lara_galera_2019",
+        "page": 9,
+        "quote": "in January 1950 he got his first job opportunity outside the United States. This work consisted of a consultancy for the design of the Neusa Dam, near Bogotá, Colombia"
+      }
+    ]
+  },
+  {
+    "id": "ralph_peck_wilson_tunnel",
+    "event_type": "other",
+    "label": "Accident in First Wilson Tunnel",
+    "date": {
+      "display": "10 July 1954",
+      "precision": "day",
+      "sort_start": "1954-07-10",
+      "sort_end": "1954-07-10"
+    },
+    "participants": [
+      {
+        "entity_id": "ralph_peck",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lara_galera_2019",
+        "page": 10,
+        "quote": "On 10 July 1954, an accident during the excavation of the First Wilson Tunnel on the island of Oahu, Hawaii, caused the deaths of five workers."
+      }
+    ]
+  },
+  {
+    "id": "ralph_peck_retirement",
+    "event_type": "retirement",
+    "label": "Retired from University of Illinois",
+    "date": {
+      "display": "June 1974",
+      "precision": "month",
+      "sort_start": "1974-06-01",
+      "sort_end": "1974-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "ralph_peck",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_illinois",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lara_galera_2019",
+        "page": 11,
+        "quote": "June 1974 coincided with his 62nd birthday, when Ralph Peck withdrew from teaching at the University of Illinois after 32 years as a lecturer."
+      }
+    ]
+  },
+  {
+    "id": "ralph_peck_national_medal",
+    "event_type": "award",
+    "label": "Received National Medal of Science",
+    "date": {
+      "display": "September 1975",
+      "precision": "month",
+      "sort_start": "1975-09-01",
+      "sort_end": "1975-09-30"
+    },
+    "participants": [
+      {
+        "entity_id": "ralph_peck",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lara_galera_2019",
+        "page": 13,
+        "quote": "So, it was not until September 1975 that Ralph Peck received the National Medal of Science at the White House, but from the hands of the next President of the United States, Gerald R. Ford."
+      }
+    ]
+  },
+  {
+    "id": "ralph_peck_teton_dam",
+    "event_type": "other",
+    "label": "Investigated Teton Dam failure",
+    "date": {
+      "display": "5 June 1976",
+      "precision": "day",
+      "sort_start": "1976-06-05",
+      "sort_end": "1976-06-05"
+    },
+    "participants": [
+      {
+        "entity_id": "ralph_peck",
+        "role": "subject"
+      },
+      {
+        "entity_id": "teton_dam",
+        "role": "artifact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "lara_galera_2019",
+        "page": 12,
+        "quote": "On 5 June 1976, the Teton Dam, designed by the United States Bureau of reclamation, failed during its first reservoir filling."
+      }
+    ]
+  },
+  {
+    "id": "ralph_peck_death",
+    "event_type": "death",
+    "label": "Died in Albuquerque",
+    "date": {
+      "display": "18 February 2008",
+      "precision": "day",
+      "sort_start": "2008-02-18",
+      "sort_end": "2008-02-18"
+    },
+    "participants": [
+      {
+        "entity_id": "ralph_peck",
+        "role": "subject"
+      }
+    ],
+    "location": "albuquerque",
+    "sources": [
+      {
+        "source_id": "lara_galera_2019",
+        "page": 13,
+        "quote": "Finally, Ralph B. Peck died of cardiac congestion on 18 February 2008 at his home in Albuquerque, New Mexico, United States"
+      }
+    ]
+  }
+]

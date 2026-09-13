@@ -1,0 +1,202 @@
+[
+  {
+    "id": "born_in_figueres",
+    "source": "narcis_monturiol",
+    "type": "born_in",
+    "target": "figueres",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 147,
+        "quote": "Narcís Monturiol Estarriol (Figueres, Spain, 1819–Sant Andreu de Palomar, Barcelona, Spain, 1885)"
+      }
+    ]
+  },
+  {
+    "id": "died_in_sant_andreu",
+    "source": "narcis_monturiol",
+    "type": "died_in",
+    "target": "sant_andreu_de_palomar",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 147,
+        "quote": "Narcís Monturiol Estarriol (Figueres, Spain, 1819–Sant Andreu de Palomar, Barcelona, Spain, 1885)"
+      }
+    ]
+  },
+  {
+    "id": "studied_at_cervera",
+    "source": "narcis_monturiol",
+    "type": "studied_at",
+    "target": "university_of_cervera",
+    "event_id": "education_cervera",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 148,
+        "quote": "In 1834, he attended the University of Cervera, where he earned a degree in Philosophy, the equivalent of today's high school baccalaureate."
+      }
+    ]
+  },
+  {
+    "id": "worked_at_stamp_factory",
+    "source": "narcis_monturiol",
+    "type": "worked_at",
+    "target": "national_stamp_factory",
+    "event_id": "director_stamp_factory",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 153,
+        "quote": "When Monturiol was in Madrid in 1873, he was named director of the National Stamp Factory."
+      }
+    ]
+  },
+  {
+    "id": "invented_ictineu_i",
+    "source": "narcis_monturiol",
+    "type": "invented",
+    "target": "ictineu_i",
+    "event_id": "conceived_ictineu",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 149,
+        "quote": "It was during this stay in Cadaqués in 1856 that Monturiol conceived his project for underwater navigation."
+      }
+    ]
+  },
+  {
+    "id": "invented_ictineu_ii",
+    "source": "narcis_monturiol",
+    "type": "invented",
+    "target": "ictineu_ii",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 150,
+        "quote": "Construction of the second Ictineu was again headed up by Josep Missé."
+      }
+    ]
+  },
+  {
+    "id": "invented_cigarette_machine",
+    "source": "narcis_monturiol",
+    "type": "invented",
+    "target": "cigarette_machine",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 153,
+        "quote": "According to Calvet, Monturiol invented it with the help of a friend while working on the Ictineu."
+      }
+    ]
+  },
+  {
+    "id": "published_ensayo",
+    "source": "narcis_monturiol",
+    "type": "published",
+    "target": "ensayo_sobre_el_arte",
+    "event_id": "ensayo_published",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 151,
+        "quote": "the Ensayo appeared posthumously, in 1891."
+      }
+    ]
+  },
+  {
+    "id": "collaborated_with_misse",
+    "source": "narcis_monturiol",
+    "type": "collaborated_with",
+    "target": "josep_misse_i_castells",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 149,
+        "quote": "The vessel had been built by mestre d'aixa ('master boatbuilder') Josep Missé i Castells, who was a member of the first crew along with Josep Oliu and Monturiol himself"
+      }
+    ]
+  },
+  {
+    "id": "collaborated_with_oliu",
+    "source": "narcis_monturiol",
+    "type": "collaborated_with",
+    "target": "josep_oliu",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 149,
+        "quote": "The vessel had been built by mestre d'aixa ('master boatbuilder') Josep Missé i Castells, who was a member of the first crew along with Josep Oliu and Monturiol himself"
+      }
+    ]
+  },
+  {
+    "id": "collaborated_with_monjo",
+    "source": "narcis_monturiol",
+    "type": "collaborated_with",
+    "target": "joan_monjo",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 150,
+        "quote": "The company established a new technical office and employed the naval architect Joan Monjo."
+      }
+    ]
+  },
+  {
+    "id": "collaborated_with_deop",
+    "source": "narcis_monturiol",
+    "type": "collaborated_with",
+    "target": "josep_pascual_deop",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 152,
+        "quote": "Among the many professional engineers who eventually joined the project was, Josep Pascual Deop, a young industrial engineer in charge of the design and installation of the steam engine in the Ictineu II."
+      }
+    ]
+  },
+  {
+    "id": "collaborated_with_calvet",
+    "source": "narcis_monturiol",
+    "type": "collaborated_with",
+    "target": "damas_calvet",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 152,
+        "quote": "Another active collaborator in the project was the Industrial School professor Damas Calvet, also from Figueres."
+      }
+    ]
+  },
+  {
+    "id": "member_of_la_navegacion",
+    "source": "narcis_monturiol",
+    "type": "member_of",
+    "target": "la_navegacion_submarina",
+    "event_id": "founded_la_navegacion",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 150,
+        "quote": "To amass the necessary donations as well as funds from investors, the company La Navegación Submarina (Underwater Navigation) was formed in Barcelona in 1864"
+      }
+    ]
+  },
+  {
+    "id": "supported_by_escuela",
+    "source": "narcis_monturiol",
+    "type": "collaborated_with",
+    "target": "escuela_industrial_barcelonesa",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 152,
+        "quote": "Thus the Industrial School was one of the first backers of Monturiol's efforts."
+      }
+    ]
+  }
+]

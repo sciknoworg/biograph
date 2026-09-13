@@ -1,0 +1,490 @@
+[
+  {
+    "id": "birth",
+    "event_type": "birth",
+    "label": "Born in Figueres",
+    "description": "Narcís Monturiol was born in Figueres, Spain.",
+    "date": {
+      "display": "1819",
+      "precision": "year",
+      "sort_start": "1819-01-01",
+      "sort_end": "1819-12-31"
+    },
+    "location": "figueres",
+    "participants": [
+      {
+        "entity_id": "narcis_monturiol",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 147,
+        "quote": "Narcís Monturiol Estarriol (Figueres, Spain, 1819–Sant Andreu de Palomar, Barcelona, Spain, 1885)"
+      }
+    ]
+  },
+  {
+    "id": "education_cervera",
+    "event_type": "education",
+    "label": "Attended University of Cervera",
+    "description": "Monturiol earned a degree in Philosophy, the equivalent of today's high school baccalaureate.",
+    "date": {
+      "display": "1834",
+      "precision": "year",
+      "sort_start": "1834-01-01",
+      "sort_end": "1834-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "narcis_monturiol",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_cervera",
+        "role": "educator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 148,
+        "quote": "In 1834, he attended the University of Cervera, where he earned a degree in Philosophy, the equivalent of today's high school baccalaureate."
+      }
+    ]
+  },
+  {
+    "id": "move_barcelona",
+    "event_type": "relocation",
+    "label": "Moved to Barcelona",
+    "description": "Monturiol moved to Barcelona since the university had been reinstated there.",
+    "date": {
+      "display": "end of 1836",
+      "precision": "year",
+      "sort_start": "1836-01-01",
+      "sort_end": "1836-12-31"
+    },
+    "location": "barcelona",
+    "participants": [
+      {
+        "entity_id": "narcis_monturiol",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 148,
+        "quote": "He then moved to Barcelona since, at the end of 1836 the university been reinstated."
+      }
+    ]
+  },
+  {
+    "id": "founded_cabetian_cell",
+    "event_type": "company_founded",
+    "label": "Founded Cabetian cell",
+    "description": "Monturiol founded a communist cell loyal to the ideas of Étienne Cabet.",
+    "date": {
+      "display": "1847",
+      "precision": "year",
+      "sort_start": "1847-01-01",
+      "sort_end": "1847-12-31"
+    },
+    "location": "barcelona",
+    "participants": [
+      {
+        "entity_id": "narcis_monturiol",
+        "role": "subject"
+      },
+      {
+        "entity_id": "etienne_cabet",
+        "role": "ideological_influence"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 148,
+        "quote": "In Barcelona, Monturiol's political trajectory led him, in 1847, to found a communist cell loyal to the ideas of the French utopian Étienne Cabet, the only such group in Spain."
+      }
+    ]
+  },
+  {
+    "id": "conceived_ictineu",
+    "event_type": "invention",
+    "label": "Conceived Ictineu project",
+    "description": "Monturiol conceived his project for underwater navigation during a stay in Cadaqués.",
+    "date": {
+      "display": "1856",
+      "precision": "year",
+      "sort_start": "1856-01-01",
+      "sort_end": "1856-12-31"
+    },
+    "location": "cadaques",
+    "participants": [
+      {
+        "entity_id": "narcis_monturiol",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ictineu_i",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 149,
+        "quote": "It was during this stay in Cadaqués in 1856 that Monturiol conceived his project for underwater navigation."
+      }
+    ]
+  },
+  {
+    "id": "launch_ictineu_i",
+    "event_type": "product_launch",
+    "label": "Launched Ictineu I",
+    "description": "Monturiol launched the first Ictineu in the Barcelona Harbor.",
+    "date": {
+      "display": "1859",
+      "precision": "year",
+      "sort_start": "1859-01-01",
+      "sort_end": "1859-12-31"
+    },
+    "location": "barcelona",
+    "participants": [
+      {
+        "entity_id": "narcis_monturiol",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ictineu_i",
+        "role": "invention"
+      },
+      {
+        "entity_id": "josep_misse_i_castells",
+        "role": "builder"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 149,
+        "quote": "In 1859, two years after setting up a company in Figueres and forming a work team, Monturiol was able to launch the first Ictineu, an event that took place in the Barcelona Harbor."
+      }
+    ]
+  },
+  {
+    "id": "immersion_barcelona",
+    "event_type": "public_demonstration",
+    "label": "Ictineu I immersion in Barcelona",
+    "description": "Trial immersion for government authorities.",
+    "date": {
+      "display": "September 1860",
+      "precision": "month",
+      "sort_start": "1860-09-01",
+      "sort_end": "1860-09-30"
+    },
+    "location": "barcelona",
+    "participants": [
+      {
+        "entity_id": "narcis_monturiol",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ictineu_i",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 149,
+        "quote": "From then on, the trial Ictineu (or Ictineu I) would carry out several immersions, some of them for the government authorities, the one in Barcelona in September of 1860"
+      }
+    ]
+  },
+  {
+    "id": "immersion_alicante",
+    "event_type": "public_demonstration",
+    "label": "Ictineu I immersion in Alicante",
+    "description": "Trial immersion which proved disappointing to Monturiol.",
+    "date": {
+      "display": "May 1861",
+      "precision": "month",
+      "sort_start": "1861-05-01",
+      "sort_end": "1861-05-31"
+    },
+    "location": "alicante",
+    "participants": [
+      {
+        "entity_id": "narcis_monturiol",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ictineu_i",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 149,
+        "quote": "and, later, in May of 1861, in Alicante."
+      }
+    ]
+  },
+  {
+    "id": "founded_la_navegacion",
+    "event_type": "company_founded",
+    "label": "Founded La Navegación Submarina",
+    "description": "Company formed to amass donations and funds from investors for Ictineu II.",
+    "date": {
+      "display": "1864",
+      "precision": "year",
+      "sort_start": "1864-01-01",
+      "sort_end": "1864-12-31"
+    },
+    "location": "barcelona",
+    "participants": [
+      {
+        "entity_id": "narcis_monturiol",
+        "role": "subject"
+      },
+      {
+        "entity_id": "la_navegacion_submarina",
+        "role": "organization"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 150,
+        "quote": "To amass the necessary donations as well as funds from investors, the company La Navegación Submarina (Underwater Navigation) was formed in Barcelona in 1864"
+      }
+    ]
+  },
+  {
+    "id": "launch_ictineu_ii",
+    "event_type": "product_launch",
+    "label": "Launched Ictineu II",
+    "description": "Construction of the second Ictineu was headed up by Josep Missé.",
+    "date": {
+      "display": "1864",
+      "precision": "year",
+      "sort_start": "1864-01-01",
+      "sort_end": "1864-12-31"
+    },
+    "location": "barcelona",
+    "participants": [
+      {
+        "entity_id": "narcis_monturiol",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ictineu_ii",
+        "role": "invention"
+      },
+      {
+        "entity_id": "josep_misse_i_castells",
+        "role": "builder"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 150,
+        "quote": "Construction of the second Ictineu was again headed up by Josep Missé."
+      }
+    ]
+  },
+  {
+    "id": "steam_engine_installed",
+    "event_type": "invention",
+    "label": "Steam engine installed in Ictineu II",
+    "description": "Installation of the new motor was completed in the summer of 1867.",
+    "date": {
+      "display": "summer of 1867",
+      "precision": "season",
+      "sort_start": "1867-06-01",
+      "sort_end": "1867-08-31"
+    },
+    "participants": [
+      {
+        "entity_id": "narcis_monturiol",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ictineu_ii",
+        "role": "invention"
+      },
+      {
+        "entity_id": "josep_pascual_deop",
+        "role": "engineer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 151,
+        "quote": "Nonetheless, installation of the new motor was completed in the summer of 1867"
+      }
+    ]
+  },
+  {
+    "id": "company_liquidated",
+    "event_type": "company_sold",
+    "label": "Company liquidated",
+    "description": "In December of that year the company had to lay off its entire staff.",
+    "date": {
+      "display": "December 1867",
+      "precision": "month",
+      "sort_start": "1867-12-01",
+      "sort_end": "1867-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "narcis_monturiol",
+        "role": "subject"
+      },
+      {
+        "entity_id": "la_navegacion_submarina",
+        "role": "organization"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 151,
+        "quote": "such that in December of that year the company had to lay off its entire staff."
+      }
+    ]
+  },
+  {
+    "id": "deputy_congress",
+    "event_type": "employment_start",
+    "label": "Elected deputy in Congress",
+    "description": "Monturiol was one of the deputies in the Constitutional Courts of the First Republic.",
+    "date": {
+      "display": "10 May 1873",
+      "precision": "day",
+      "sort_start": "1873-05-10",
+      "sort_end": "1873-05-10"
+    },
+    "location": "madrid",
+    "participants": [
+      {
+        "entity_id": "narcis_monturiol",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 151,
+        "quote": "Monturiol was one of the deputies in the Constitutional Courts of the First Republic as a candidate representing the city of Manresa in the elections to Congress on 10 May 1873"
+      }
+    ]
+  },
+  {
+    "id": "director_stamp_factory",
+    "event_type": "employment_start",
+    "label": "Named director of National Stamp Factory",
+    "description": "Monturiol was named director of the National Stamp Factory in Madrid.",
+    "date": {
+      "display": "1873",
+      "precision": "year",
+      "sort_start": "1873-01-01",
+      "sort_end": "1873-12-31"
+    },
+    "location": "madrid",
+    "participants": [
+      {
+        "entity_id": "narcis_monturiol",
+        "role": "subject"
+      },
+      {
+        "entity_id": "national_stamp_factory",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 153,
+        "quote": "When Monturiol was in Madrid in 1873, he was named director of the National Stamp Factory."
+      }
+    ]
+  },
+  {
+    "id": "death",
+    "event_type": "death",
+    "label": "Died in Sant Martí de Provençals",
+    "description": "Monturiol passed away on September 6th, 1885.",
+    "date": {
+      "display": "September 6th, 1885",
+      "precision": "day",
+      "sort_start": "1885-09-06",
+      "sort_end": "1885-09-06"
+    },
+    "location": "sant_andreu_de_palomar",
+    "participants": [
+      {
+        "entity_id": "narcis_monturiol",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 155,
+        "quote": "he passed away on September 6th, 1885."
+      }
+    ]
+  },
+  {
+    "id": "ensayo_published",
+    "event_type": "publication",
+    "label": "Ensayo published posthumously",
+    "description": "The Ensayo appeared posthumously, in 1891.",
+    "date": {
+      "display": "1891",
+      "precision": "year",
+      "sort_start": "1891-01-01",
+      "sort_end": "1891-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "narcis_monturiol",
+        "role": "author"
+      },
+      {
+        "entity_id": "ensayo_sobre_el_arte",
+        "role": "publication"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "puig_pla_roca_rosell_2009",
+        "page": 151,
+        "quote": "the Ensayo appeared posthumously, in 1891."
+      }
+    ]
+  }
+]

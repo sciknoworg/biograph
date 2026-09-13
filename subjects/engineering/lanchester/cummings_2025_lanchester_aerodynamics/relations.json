@@ -1,0 +1,244 @@
+[
+  {
+    "id": "lanchester_born_south_london",
+    "source": "frederick_w_lanchester",
+    "type": "born_in",
+    "target": "south_london",
+    "sources": [
+      {
+        "source_id": "cummings_2025_lanchester_aerodynamics",
+        "page": 1,
+        "quote": "Lanchester was born in South London"
+      }
+    ]
+  },
+  {
+    "id": "lanchester_studied_hartley",
+    "source": "frederick_w_lanchester",
+    "type": "studied_at",
+    "target": "hartley_institution",
+    "sources": [
+      {
+        "source_id": "cummings_2025_lanchester_aerodynamics",
+        "page": 1,
+        "quote": "He studied engineering at the Hartley Institution in Southampton"
+      }
+    ]
+  },
+  {
+    "id": "lanchester_studied_normal",
+    "source": "frederick_w_lanchester",
+    "type": "studied_at",
+    "target": "normal_school_of_science",
+    "sources": [
+      {
+        "source_id": "cummings_2025_lanchester_aerodynamics",
+        "page": 1,
+        "quote": "and later the Normal School of Science in Kensington"
+      }
+    ]
+  },
+  {
+    "id": "lanchester_worked_patent_office",
+    "source": "frederick_w_lanchester",
+    "type": "employed_by",
+    "target": "patent_office_london",
+    "sources": [
+      {
+        "source_id": "cummings_2025_lanchester_aerodynamics",
+        "page": 2,
+        "quote": "Patent Oﬃce, London, Draughtsman,1888–1889"
+      }
+    ]
+  },
+  {
+    "id": "lanchester_worked_forward_gas",
+    "source": "frederick_w_lanchester",
+    "type": "employed_by",
+    "target": "forward_gas_engine_company",
+    "sources": [
+      {
+        "source_id": "cummings_2025_lanchester_aerodynamics",
+        "page": 2,
+        "quote": "Forward Gas Engine Company, Birmingham, Works Manager, 1889–1895"
+      }
+    ]
+  },
+  {
+    "id": "lanchester_founded_lanchester_engine",
+    "source": "frederick_w_lanchester",
+    "type": "founded",
+    "target": "lanchester_engine_company",
+    "sources": [
+      {
+        "source_id": "cummings_2025_lanchester_aerodynamics",
+        "page": 2,
+        "quote": "Lanchester Engine Company, Birmingham, Co-owner, 1895–1904"
+      }
+    ]
+  },
+  {
+    "id": "lanchester_worked_lanchester_motor",
+    "source": "frederick_w_lanchester",
+    "type": "employed_by",
+    "target": "lanchester_motor_company",
+    "sources": [
+      {
+        "source_id": "cummings_2025_lanchester_aerodynamics",
+        "page": 2,
+        "quote": "The Lanchester Motor Company, Ltd, Birmingham, General Manager, 1904–1929"
+      }
+    ]
+  },
+  {
+    "id": "lanchester_worked_daimler",
+    "source": "frederick_w_lanchester",
+    "type": "employed_by",
+    "target": "daimler_motor_company",
+    "sources": [
+      {
+        "source_id": "cummings_2025_lanchester_aerodynamics",
+        "page": 2,
+        "quote": "The Daimler Motor Company, Coventry, Consultant, 1909–1929"
+      }
+    ]
+  },
+  {
+    "id": "lanchester_wrote_aerodynamics",
+    "source": "frederick_w_lanchester",
+    "type": "published",
+    "target": "aerodynamics_book",
+    "event_id": "lanchester_book_aerodynamics",
+    "sources": [
+      {
+        "source_id": "cummings_2025_lanchester_aerodynamics",
+        "page": 4,
+        "quote": "Aerodynamics in 1907"
+      }
+    ]
+  },
+  {
+    "id": "lanchester_wrote_aerodonetics",
+    "source": "frederick_w_lanchester",
+    "type": "published",
+    "target": "aerodonetics_book",
+    "event_id": "lanchester_book_aerodonetics",
+    "sources": [
+      {
+        "source_id": "cummings_2025_lanchester_aerodynamics",
+        "page": 4,
+        "quote": "and Aerodonetics in 1908"
+      }
+    ]
+  },
+  {
+    "id": "lanchester_patented_3608",
+    "source": "frederick_w_lanchester",
+    "type": "patented",
+    "target": "patent_3608",
+    "event_id": "lanchester_patent_3608",
+    "sources": [
+      {
+        "source_id": "cummings_2025_lanchester_aerodynamics",
+        "page": 17,
+        "quote": "Patent 3,608 from 1897"
+      }
+    ]
+  },
+  {
+    "id": "lanchester_member_advisory_committee",
+    "source": "frederick_w_lanchester",
+    "type": "member_of",
+    "target": "advisory_committee_on_aeronautics",
+    "sources": [
+      {
+        "source_id": "cummings_2025_lanchester_aerodynamics",
+        "page": 3,
+        "quote": "Member of Advisory Committee on Aeronautics, 1909–1920"
+      }
+    ]
+  },
+  {
+    "id": "lanchester_awarded_gold_medal",
+    "source": "frederick_w_lanchester",
+    "type": "awarded",
+    "target": "gold_medal_ras",
+    "event_id": "lanchester_gold_medal_ras",
+    "sources": [
+      {
+        "source_id": "cummings_2025_lanchester_aerodynamics",
+        "page": 3,
+        "quote": "Gold Medal of the Royal Aeronautical Society (1926)"
+      }
+    ]
+  },
+  {
+    "id": "lanchester_awarded_guggenheim",
+    "source": "frederick_w_lanchester",
+    "type": "awarded",
+    "target": "daniel_guggenheim_medal",
+    "event_id": "lanchester_guggenheim_medal",
+    "sources": [
+      {
+        "source_id": "cummings_2025_lanchester_aerodynamics",
+        "page": 3,
+        "quote": "Daniel Guggenheim Medal (1931)"
+      }
+    ]
+  },
+  {
+    "id": "lanchester_awarded_ewing",
+    "source": "frederick_w_lanchester",
+    "type": "awarded",
+    "target": "ewing_medal",
+    "event_id": "lanchester_ewing_medal",
+    "sources": [
+      {
+        "source_id": "cummings_2025_lanchester_aerodynamics",
+        "page": 3,
+        "quote": "Ewing Medal of the Institution of Civil Engineers (1941)"
+      }
+    ]
+  },
+  {
+    "id": "lanchester_awarded_watt",
+    "source": "frederick_w_lanchester",
+    "type": "awarded",
+    "target": "james_watt_medal",
+    "event_id": "lanchester_watt_medal",
+    "sources": [
+      {
+        "source_id": "cummings_2025_lanchester_aerodynamics",
+        "page": 3,
+        "quote": "James Watt International Medal of the Institution of Mechanical Engineers (1945)"
+      }
+    ]
+  },
+  {
+    "id": "lanchester_collaborated_prandtl",
+    "source": "frederick_w_lanchester",
+    "type": "collaborated_with",
+    "target": "ludwig_prandtl",
+    "sources": [
+      {
+        "source_id": "cummings_2025_lanchester_aerodynamics",
+        "page": 10,
+        "quote": "Lanchester's aerofoil designs, obtained from his calculations, were tested in Prandtl's wind tunnel"
+      }
+    ]
+  },
+  {
+    "id": "lanchester_met_wright",
+    "source": "frederick_w_lanchester",
+    "type": "met",
+    "target": "wilbur_wright",
+    "event_id": "lanchester_meeting_wright",
+    "sources": [
+      {
+        "source_id": "cummings_2025_lanchester_aerodynamics",
+        "page": 6,
+        "quote": "Lanchester decided to travel to France to meet and interact with Wilbur Wright"
+      }
+    ]
+  }
+]

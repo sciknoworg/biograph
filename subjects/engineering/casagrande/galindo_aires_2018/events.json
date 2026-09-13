@@ -1,0 +1,629 @@
+[
+  {
+    "id": "ac_birth",
+    "event_type": "birth",
+    "label": "Born in Haidenschaft",
+    "date": {
+      "display": "28 August 1902",
+      "precision": "day",
+      "sort_start": "1902-08-28",
+      "sort_end": "1902-08-28"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_casagrande",
+        "role": "subject"
+      }
+    ],
+    "location": "haidenschaft",
+    "sources": [
+      {
+        "source_id": "galindo_aires_2018",
+        "page": 107,
+        "quote": "Arthur Casagrande (Haidenschaft1, 28 August 1902; Boston, Massachusetts, 6 September 1981)"
+      }
+    ]
+  },
+  {
+    "id": "ac_graduation",
+    "event_type": "education",
+    "label": "Graduated from Technische Hochschule in Vienna",
+    "date": {
+      "display": "1924",
+      "precision": "year",
+      "sort_start": "1924-01-01",
+      "sort_end": "1924-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_casagrande",
+        "role": "subject"
+      },
+      {
+        "entity_id": "technische_hochschule_vienna",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "galindo_aires_2018",
+        "page": 107,
+        "quote": "he graduated in 1924 from the Technische Hochschule in Vienna, Austria."
+      }
+    ]
+  },
+  {
+    "id": "ac_arrival_usa",
+    "event_type": "relocation",
+    "label": "Arrived in the United States",
+    "date": {
+      "display": "26 April 1926",
+      "precision": "day",
+      "sort_start": "1926-04-26",
+      "sort_end": "1926-04-26"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_casagrande",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "galindo_aires_2018",
+        "page": 108,
+        "quote": "where he arrived on 26 April 1926."
+      }
+    ]
+  },
+  {
+    "id": "ac_meet_terzaghi",
+    "event_type": "meeting",
+    "label": "Met Karl Terzaghi at MIT",
+    "date": {
+      "display": "May 1926",
+      "precision": "month",
+      "sort_start": "1926-05-01",
+      "sort_end": "1926-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_casagrande",
+        "role": "subject"
+      },
+      {
+        "entity_id": "karl_terzaghi",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "galindo_aires_2018",
+        "page": 108,
+        "quote": "It was on this trip to MIT in May 1926 that Casagrande met his \"countryman\" Karl Terzaghi"
+      }
+    ]
+  },
+  {
+    "id": "ac_mit_assistant",
+    "event_type": "employment_start",
+    "label": "Started as assistant researcher at MIT",
+    "date": {
+      "display": "December 1926",
+      "precision": "month",
+      "sort_start": "1926-12-01",
+      "sort_end": "1926-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_casagrande",
+        "role": "subject"
+      },
+      {
+        "entity_id": "mit",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "galindo_aires_2018",
+        "page": 108,
+        "quote": "but in December of that same year Terzaghi offered Casagrande a position as an assistant researcher assigned to MIT"
+      }
+    ]
+  },
+  {
+    "id": "ac_vienna_trip",
+    "event_type": "visit",
+    "label": "Traveled to Vienna to organize soil mechanics laboratory",
+    "date": {
+      "display": "early October 1929",
+      "precision": "month",
+      "sort_start": "1929-10-01",
+      "sort_end": "1929-10-31"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_casagrande",
+        "role": "subject"
+      },
+      {
+        "entity_id": "karl_terzaghi",
+        "role": "collaborator"
+      }
+    ],
+    "location": "vienna",
+    "sources": [
+      {
+        "source_id": "galindo_aires_2018",
+        "page": 108,
+        "quote": "Arthur Casagrande began his work in Vienna under instructions from Terzaghi in early October 1929."
+      }
+    ]
+  },
+  {
+    "id": "ac_naturalization",
+    "event_type": "other",
+    "label": "Nationalized as American citizen",
+    "date": {
+      "display": "29 December 1931",
+      "precision": "day",
+      "sort_start": "1931-12-29",
+      "sort_end": "1931-12-29"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_casagrande",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "galindo_aires_2018",
+        "page": 109,
+        "quote": "which was confirmed with his nationalization as an American citizen on 29 December 1931"
+      }
+    ]
+  },
+  {
+    "id": "ac_harvard_start",
+    "event_type": "employment_start",
+    "label": "Joined Harvard University",
+    "date": {
+      "display": "1932",
+      "precision": "year",
+      "sort_start": "1932-01-01",
+      "sort_end": "1932-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_casagrande",
+        "role": "subject"
+      },
+      {
+        "entity_id": "harvard_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "galindo_aires_2018",
+        "page": 107,
+        "quote": "but also lectured at Harvard University, which he joined in 1932."
+      }
+    ]
+  },
+  {
+    "id": "ac_cup_design",
+    "event_type": "invention",
+    "label": "Finished design of Casagrande cup",
+    "date": {
+      "display": "1932",
+      "precision": "year",
+      "sort_start": "1932-01-01",
+      "sort_end": "1932-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_casagrande",
+        "role": "subject"
+      },
+      {
+        "entity_id": "casagrande_cup",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "galindo_aires_2018",
+        "page": 109,
+        "quote": "In 1932 and after 5 years of multiple tests, Casagrande finished the design of the instrument that today is known by the name of the Casagrande cup"
+      }
+    ]
+  },
+  {
+    "id": "ac_phd",
+    "event_type": "education",
+    "label": "Became Doctor of Philosophy in Engineering",
+    "date": {
+      "display": "June 1933",
+      "precision": "month",
+      "sort_start": "1933-06-01",
+      "sort_end": "1933-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_casagrande",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "galindo_aires_2018",
+        "page": 110,
+        "quote": "The result was that in June of 1933 Arthur Casagrande became Doctor of Philosophy in Engineering"
+      }
+    ]
+  },
+  {
+    "id": "ac_asst_prof",
+    "event_type": "role_change",
+    "label": "Promoted to Assistant Professor at Harvard",
+    "date": {
+      "display": "1934",
+      "precision": "year",
+      "sort_start": "1934-01-01",
+      "sort_end": "1934-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_casagrande",
+        "role": "subject"
+      },
+      {
+        "entity_id": "harvard_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "galindo_aires_2018",
+        "page": 110,
+        "quote": "Shortly after obtaining the doctorate, in 1934 Casagrande was promoted to the post of Assistant Professor at Harvard University"
+      }
+    ]
+  },
+  {
+    "id": "ac_conference_1936",
+    "event_type": "conference",
+    "label": "Organized 1st International Conference of Soil Mechanics",
+    "date": {
+      "display": "1936",
+      "precision": "year",
+      "sort_start": "1936-01-01",
+      "sort_end": "1936-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_casagrande",
+        "role": "subject"
+      },
+      {
+        "entity_id": "harvard_university",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "galindo_aires_2018",
+        "page": 107,
+        "quote": "In addition, Casagrande made an important contribution to the 1st International Conference of Soil Mechanics and Foundations Engineering that took place at Harvard University in 1936."
+      }
+    ]
+  },
+  {
+    "id": "ac_marriage",
+    "event_type": "other",
+    "label": "Married Erna Mass",
+    "date": {
+      "display": "November 1940",
+      "precision": "month",
+      "sort_start": "1940-11-01",
+      "sort_end": "1940-11-30"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_casagrande",
+        "role": "subject"
+      },
+      {
+        "entity_id": "erna_mass",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "galindo_aires_2018",
+        "page": 113,
+        "quote": "and in November of that same year Casagrande married Erna Mass"
+      }
+    ]
+  },
+  {
+    "id": "ac_vivien_birth",
+    "event_type": "other",
+    "label": "Daughter Vivien born",
+    "date": {
+      "display": "7 June 1942",
+      "precision": "day",
+      "sort_start": "1942-06-07",
+      "sort_end": "1942-06-07"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_casagrande",
+        "role": "subject"
+      },
+      {
+        "entity_id": "vivien_casagrande",
+        "role": "family"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "galindo_aires_2018",
+        "page": 113,
+        "quote": "His first daughter, Vivien, was born almost 2 years later on 7 June 1942."
+      }
+    ]
+  },
+  {
+    "id": "ac_army_course",
+    "event_type": "other",
+    "label": "Delivered soil mechanics course for army officers",
+    "date": {
+      "display": "3 July 1942",
+      "precision": "day",
+      "sort_start": "1942-07-03",
+      "sort_end": "1942-07-03"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_casagrande",
+        "role": "subject"
+      },
+      {
+        "entity_id": "us_army_corps_of_engineers",
+        "role": "partner"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "galindo_aires_2018",
+        "page": 115,
+        "quote": "and on 3 July 1942, 24 lieutenants attended the Pierce Hall facility at Harvard."
+      }
+    ]
+  },
+  {
+    "id": "ac_ac_design",
+    "event_type": "invention",
+    "label": "Designed Airfield Classification system",
+    "date": {
+      "display": "1942",
+      "precision": "year",
+      "sort_start": "1942-01-01",
+      "sort_end": "1942-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_casagrande",
+        "role": "subject"
+      },
+      {
+        "entity_id": "airfield_classification",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "galindo_aires_2018",
+        "page": 115,
+        "quote": "Thus, in 1942, Casagrande, aged 40, designed the Airfield Classification (AC)"
+      }
+    ]
+  },
+  {
+    "id": "ac_sandra_birth",
+    "event_type": "other",
+    "label": "Daughter Sandra born",
+    "date": {
+      "display": "11 February 1945",
+      "precision": "day",
+      "sort_start": "1945-02-11",
+      "sort_end": "1945-02-11"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_casagrande",
+        "role": "subject"
+      },
+      {
+        "entity_id": "sandra_casagrande",
+        "role": "family"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "galindo_aires_2018",
+        "page": 115,
+        "quote": "On 11 February of 1945 was born the second daughter of Casagrande, Sandra"
+      }
+    ]
+  },
+  {
+    "id": "ac_gordon_mckay_prof",
+    "event_type": "role_change",
+    "label": "Promoted to Gordon McKay Professor",
+    "date": {
+      "display": "1946",
+      "precision": "year",
+      "sort_start": "1946-01-01",
+      "sort_end": "1946-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_casagrande",
+        "role": "subject"
+      },
+      {
+        "entity_id": "harvard_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "galindo_aires_2018",
+        "page": 117,
+        "quote": "in 1946 was promoted to the post of Gordon McKay Professor of Soil Mechanics and Foundations Engineering"
+      }
+    ]
+  },
+  {
+    "id": "ac_leo_collab",
+    "event_type": "employment_start",
+    "label": "Began working with brother Leo",
+    "date": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_casagrande",
+        "role": "subject"
+      },
+      {
+        "entity_id": "leo_casagrande",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "galindo_aires_2018",
+        "page": 116,
+        "quote": "In 1948 Casagrande began working with his brother Leo, when he returned to the United States."
+      }
+    ]
+  },
+  {
+    "id": "ac_half_retire",
+    "event_type": "retirement",
+    "label": "Half retired from Harvard",
+    "date": {
+      "display": "1969",
+      "precision": "year",
+      "sort_start": "1969-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_casagrande",
+        "role": "subject"
+      },
+      {
+        "entity_id": "harvard_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "galindo_aires_2018",
+        "page": 119,
+        "quote": "In 1969 Arthur Casagrande half retired, giving only half a day to university matters."
+      }
+    ]
+  },
+  {
+    "id": "ac_full_retire",
+    "event_type": "retirement",
+    "label": "Retired entirely from Harvard",
+    "date": {
+      "display": "1973",
+      "precision": "year",
+      "sort_start": "1973-01-01",
+      "sort_end": "1973-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_casagrande",
+        "role": "subject"
+      },
+      {
+        "entity_id": "harvard_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "galindo_aires_2018",
+        "page": 119,
+        "quote": "Four years later, in 1973, Arthur Casagrande retired entirely from Harvard University and became Professor Emeritus"
+      }
+    ]
+  },
+  {
+    "id": "ac_teton_dam",
+    "event_type": "other",
+    "label": "Investigated Teton Dam collapse",
+    "date": {
+      "display": "1976",
+      "precision": "year",
+      "sort_start": "1976-01-01",
+      "sort_end": "1976-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_casagrande",
+        "role": "subject"
+      },
+      {
+        "entity_id": "teton_dam",
+        "role": "artifact"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "galindo_aires_2018",
+        "page": 119,
+        "quote": "In 1976, during investigations on the collapse of the Teton Dam on the Teton River (Idaho) in which Casagrande participated"
+      }
+    ]
+  },
+  {
+    "id": "ac_death",
+    "event_type": "death",
+    "label": "Died in Boston",
+    "date": {
+      "display": "6 September 1981",
+      "precision": "day",
+      "sort_start": "1981-09-06",
+      "sort_end": "1981-09-06"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_casagrande",
+        "role": "subject"
+      }
+    ],
+    "location": "boston",
+    "sources": [
+      {
+        "source_id": "galindo_aires_2018",
+        "page": 120,
+        "quote": "Arthur Casagrande died while sleeping in his hospital bed on Sunday, 6 September 1981"
+      }
+    ]
+  }
+]

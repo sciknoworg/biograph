@@ -1,0 +1,490 @@
+[
+  {
+    "id": "piech_birth",
+    "event_type": "birth",
+    "label": "Born in Austria",
+    "date": {
+      "display": "1937",
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1937-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ferdinand_karl_piech",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 5,
+        "quote": "Ferdinand Piëch (1937–2019)"
+      }
+    ]
+  },
+  {
+    "id": "piech_boarding_school",
+    "event_type": "education",
+    "label": "Attended Swiss boarding school",
+    "date": {
+      "display": "1952–1958",
+      "precision": "range",
+      "sort_start": "1952-01-01",
+      "sort_end": "1958-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ferdinand_karl_piech",
+        "role": "subject"
+      },
+      {
+        "entity_id": "swiss_boarding_school",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 5,
+        "quote": "His parents then sent him to a strict Swiss boarding school (1952–1958)."
+      }
+    ]
+  },
+  {
+    "id": "piech_graduation",
+    "event_type": "education",
+    "label": "Graduated from Swiss university",
+    "date": {
+      "display": "1962",
+      "precision": "year",
+      "sort_start": "1962-01-01",
+      "sort_end": "1962-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ferdinand_karl_piech",
+        "role": "subject"
+      },
+      {
+        "entity_id": "swiss_university",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 5,
+        "quote": "He graduated in 1962 with a master's thesis on the development of a Formula One engine."
+      }
+    ]
+  },
+  {
+    "id": "piech_joined_porsche",
+    "event_type": "employment_start",
+    "label": "Joined Porsche",
+    "date": {
+      "display": "1963",
+      "precision": "year",
+      "sort_start": "1963-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ferdinand_karl_piech",
+        "role": "subject"
+      },
+      {
+        "entity_id": "porsche_company",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 5,
+        "quote": "After graduating Piëch joined Porsche (1963–1971)."
+      }
+    ]
+  },
+  {
+    "id": "piech_left_porsche",
+    "event_type": "employment_end",
+    "label": "Left Porsche",
+    "date": {
+      "display": "1971",
+      "precision": "year",
+      "sort_start": "1971-01-01",
+      "sort_end": "1971-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ferdinand_karl_piech",
+        "role": "subject"
+      },
+      {
+        "entity_id": "porsche_company",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 5,
+        "quote": "Piëch left Porsche after intense family conﬂicts which led to a policy decision that no Porsche family member would in future be allowed to be involved in the management of the company"
+      }
+    ]
+  },
+  {
+    "id": "piech_joined_audi",
+    "event_type": "employment_start",
+    "label": "Joined Audi",
+    "date": {
+      "display": "1972",
+      "precision": "year",
+      "sort_start": "1972-01-01",
+      "sort_end": "1972-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ferdinand_karl_piech",
+        "role": "subject"
+      },
+      {
+        "entity_id": "audi",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 5,
+        "quote": "Piëch then joined Audi in 1972."
+      }
+    ]
+  },
+  {
+    "id": "piech_audi_manager",
+    "event_type": "role_change",
+    "label": "Appointed Manager of Technological Engineering at Audi",
+    "date": {
+      "display": "c. 1975",
+      "precision": "circa",
+      "sort_start": "1974-01-01",
+      "sort_end": "1976-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ferdinand_karl_piech",
+        "role": "subject"
+      },
+      {
+        "entity_id": "audi",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 6,
+        "quote": "Within 3 years he was appointed Manager of Technological Engineering"
+      }
+    ]
+  },
+  {
+    "id": "piech_audi_chairman",
+    "event_type": "role_change",
+    "label": "Became Chairman of Audi",
+    "date": {
+      "display": "1988",
+      "precision": "year",
+      "sort_start": "1988-01-01",
+      "sort_end": "1988-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ferdinand_karl_piech",
+        "role": "subject"
+      },
+      {
+        "entity_id": "audi",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 6,
+        "quote": "where he later became the Chairman (in 1988)"
+      }
+    ]
+  },
+  {
+    "id": "piech_left_audi",
+    "event_type": "employment_end",
+    "label": "Left Audi",
+    "date": {
+      "display": "1992",
+      "precision": "year",
+      "sort_start": "1992-01-01",
+      "sort_end": "1992-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ferdinand_karl_piech",
+        "role": "subject"
+      },
+      {
+        "entity_id": "audi",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 6,
+        "quote": "During the 20 years, Piëch worked at Audi (1972–1992)"
+      }
+    ]
+  },
+  {
+    "id": "piech_vw_ceo",
+    "event_type": "employment_start",
+    "label": "Named CEO and Chairman of Executive Board of VW Group",
+    "date": {
+      "display": "1993",
+      "precision": "year",
+      "sort_start": "1993-01-01",
+      "sort_end": "1993-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ferdinand_karl_piech",
+        "role": "subject"
+      },
+      {
+        "entity_id": "volkswagen_group",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 6,
+        "quote": "name Piëch as CEO and Chairman of the Executive Board of VW Group in 1993"
+      }
+    ]
+  },
+  {
+    "id": "piech_vw_ceo_end",
+    "event_type": "employment_end",
+    "label": "Retired as CEO of VW Group",
+    "date": {
+      "display": "2002",
+      "precision": "year",
+      "sort_start": "2002-01-01",
+      "sort_end": "2002-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ferdinand_karl_piech",
+        "role": "subject"
+      },
+      {
+        "entity_id": "volkswagen_group",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 6,
+        "quote": "He held this position until 2002 when he had to retire at age 65 years"
+      }
+    ]
+  },
+  {
+    "id": "piech_vw_supervisory",
+    "event_type": "employment_start",
+    "label": "Became Chairman of Supervisory Board of VW Group",
+    "date": {
+      "display": "2002",
+      "precision": "year",
+      "sort_start": "2002-01-01",
+      "sort_end": "2002-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ferdinand_karl_piech",
+        "role": "subject"
+      },
+      {
+        "entity_id": "volkswagen_group",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 1,
+        "quote": "chairman of the supervisory board from 2002 to 2015"
+      }
+    ]
+  },
+  {
+    "id": "piech_award_century",
+    "event_type": "award",
+    "label": "Received Car Executive of the Century Award",
+    "date": {
+      "display": "1999",
+      "precision": "year",
+      "sort_start": "1999-01-01",
+      "sort_end": "1999-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ferdinand_karl_piech",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 7,
+        "quote": "Car Executive of the Century (in 1999)"
+      }
+    ]
+  },
+  {
+    "id": "piech_award_man_of_year",
+    "event_type": "award",
+    "label": "Received Automobile Magazine Man of the Year Award",
+    "date": {
+      "display": "2011",
+      "precision": "year",
+      "sort_start": "2011-01-01",
+      "sort_end": "2011-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ferdinand_karl_piech",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 7,
+        "quote": "Automobile Magazine Man of the Year Award (in 2011)"
+      }
+    ]
+  },
+  {
+    "id": "piech_hall_of_fame",
+    "event_type": "award",
+    "label": "Inducted into Automotive Hall of Fame",
+    "date": {
+      "display": "2014",
+      "precision": "year",
+      "sort_start": "2014-01-01",
+      "sort_end": "2014-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ferdinand_karl_piech",
+        "role": "subject"
+      },
+      {
+        "entity_id": "automotive_hall_of_fame",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 7,
+        "quote": "induction into the Automotive Hall of Fame (in 2014)"
+      }
+    ]
+  },
+  {
+    "id": "piech_dieselgate",
+    "event_type": "other",
+    "label": "Dieselgate scandal discovered",
+    "date": {
+      "display": "2015",
+      "precision": "year",
+      "sort_start": "2015-01-01",
+      "sort_end": "2015-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ferdinand_karl_piech",
+        "role": "subject"
+      },
+      {
+        "entity_id": "volkswagen_group",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 7,
+        "quote": "Dieselgate made the headlines in 2015 when it was discovered by controlling bodies in the United States that VW had ﬁtted cars with software that falsely reduced exhaust emission data."
+      }
+    ]
+  },
+  {
+    "id": "piech_exit_vw",
+    "event_type": "employment_end",
+    "label": "Exited VW Group",
+    "date": {
+      "display": "2015",
+      "precision": "year",
+      "sort_start": "2015-01-01",
+      "sort_end": "2015-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ferdinand_karl_piech",
+        "role": "subject"
+      },
+      {
+        "entity_id": "volkswagen_group",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 7,
+        "quote": "Piëch's abrupt exit from the VW group in 2015 ended an extraordinary career of more than 50 years in the automotive industry."
+      }
+    ]
+  },
+  {
+    "id": "piech_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "2019",
+      "precision": "year",
+      "sort_start": "2019-01-01",
+      "sort_end": "2019-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "ferdinand_karl_piech",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 5,
+        "quote": "Ferdinand Piëch (1937–2019)"
+      }
+    ]
+  }
+]

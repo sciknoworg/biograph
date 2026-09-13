@@ -1,0 +1,266 @@
+[
+  {
+    "id": "eugene_freyssinet",
+    "entity_type": "person",
+    "name": "Eugène Freyssinet",
+    "aliases": [
+      "Freyssinet"
+    ],
+    "summary": "French structural engineer and architect, regarded as one of the founders of prestressed concrete technology.",
+    "subtype": "engineer"
+  },
+  {
+    "id": "rabut",
+    "entity_type": "person",
+    "name": "Rabut",
+    "aliases": [],
+    "summary": "Professor of Eugène Freyssinet at Polytechnique who built cantilevers with stressed bars.",
+    "subtype": "professor"
+  },
+  {
+    "id": "mercier",
+    "entity_type": "person",
+    "name": "Mercier",
+    "aliases": [],
+    "summary": "Official who allowed funds for Freyssinet's three bridges project in 1907.",
+    "subtype": "official"
+  },
+  {
+    "id": "yang_xiaotian",
+    "entity_type": "person",
+    "name": "Yang Xiaotian",
+    "aliases": [
+      "Mr. Yang Xiaotian"
+    ],
+    "summary": "Provided information for the article via WeChat Official account iStructure.",
+    "subtype": "contributor"
+  },
+  {
+    "id": "polytechnique",
+    "entity_type": "organization",
+    "name": "Polytechnique",
+    "aliases": [],
+    "summary": "Engineering school where Freyssinet studied in 1903.",
+    "subtype": "university"
+  },
+  {
+    "id": "highway_department",
+    "entity_type": "organization",
+    "name": "highway department",
+    "aliases": [],
+    "summary": "Government body that initially planned to spend 630,000 francs for a stone bridge.",
+    "subtype": "government_agency"
+  },
+  {
+    "id": "prestress_technology_editorial_office",
+    "entity_type": "organization",
+    "name": "\"Prestress Technology\" Editorial Office",
+    "aliases": [],
+    "summary": "Author of the biographical article published in Prestress Technology journal.",
+    "subtype": "publisher"
+  },
+  {
+    "id": "moulins_services",
+    "entity_type": "organization",
+    "name": "services at Moulins",
+    "aliases": [
+      "service s at Mou- lins"
+    ],
+    "summary": "Department Freyssinet took charge of in 1905.",
+    "subtype": "government_department"
+  },
+  {
+    "id": "precast_concrete_factory",
+    "entity_type": "organization",
+    "name": "factory for precast concrete components",
+    "aliases": [
+      "Precast prestressed factory for posts at Montarguis"
+    ],
+    "summary": "Factory founded by Freyssinet for precast concrete components.",
+    "subtype": "company"
+  },
+  {
+    "id": "objat",
+    "entity_type": "place",
+    "name": "Objat",
+    "aliases": [],
+    "summary": "Smalltown close to Limoges where Freyssinet was born.",
+    "subtype": "town",
+    "attributes": {
+      "country": "France",
+      "lat": 45.26306,
+      "lng": 1.40833,
+      "wikidata_qid": "Q744058",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "limoges",
+    "entity_type": "place",
+    "name": "Limoges",
+    "aliases": [],
+    "summary": "City near Objat.",
+    "subtype": "city",
+    "attributes": {
+      "country": "France",
+      "lat": 45.83444,
+      "lng": 1.26167,
+      "wikidata_qid": "Q45656",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "paris",
+    "entity_type": "place",
+    "name": "Paris",
+    "aliases": [],
+    "summary": "City where Rabut built cantilevers and Freyssinet submitted a patent.",
+    "subtype": "city",
+    "attributes": {
+      "country": "France",
+      "lat": 48.85667,
+      "lng": 2.35222,
+      "wikidata_qid": "Q90",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "rue_du_rome",
+    "entity_type": "place",
+    "name": "Rue du Rome",
+    "aliases": [],
+    "summary": "Street in Paris where Rabut built cantilevers.",
+    "subtype": "street",
+    "attributes": {
+      "city": "Paris"
+    }
+  },
+  {
+    "id": "moulins",
+    "entity_type": "place",
+    "name": "Moulins",
+    "aliases": [
+      "Mou- lins"
+    ],
+    "summary": "Location where Freyssinet took charge of services in 1905.",
+    "subtype": "city",
+    "attributes": {
+      "country": "France",
+      "lat": 46.56472,
+      "lng": 3.3325,
+      "wikidata_qid": "Q184883",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "montarguis",
+    "entity_type": "place",
+    "name": "Montarguis",
+    "aliases": [],
+    "summary": "Location of the precast prestressed factory for posts.",
+    "subtype": "city",
+    "attributes": {
+      "country": "France"
+    }
+  },
+  {
+    "id": "le_havre",
+    "entity_type": "place",
+    "name": "Le Havre",
+    "aliases": [],
+    "summary": "Location of the Maritime Station rescued in 1934.",
+    "subtype": "city",
+    "attributes": {
+      "country": "France",
+      "lat": 49.49417,
+      "lng": 0.10806,
+      "wikidata_qid": "Q42810",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "veurdre_bridge",
+    "entity_type": "artifact",
+    "name": "Veurdre Bridge",
+    "aliases": [],
+    "summary": "One of three large bridges proposed by Freyssinet in 1907.",
+    "subtype": "bridge"
+  },
+  {
+    "id": "boutiron_bridge",
+    "entity_type": "artifact",
+    "name": "Boutiron Bridge",
+    "aliases": [],
+    "summary": "One of three large bridges proposed by Freyssinet in 1907.",
+    "subtype": "bridge"
+  },
+  {
+    "id": "chatel_de_neuvre_bridge",
+    "entity_type": "artifact",
+    "name": "Châtel-de-Neuvre Bridge",
+    "aliases": [],
+    "summary": "One of three large bridges proposed by Freyssinet in 1907.",
+    "subtype": "bridge"
+  },
+  {
+    "id": "st_pierre_de_vauvray_bridge",
+    "entity_type": "artifact",
+    "name": "St. Pierre-de-Vauvray Bridge",
+    "aliases": [],
+    "summary": "Large bridge designed by Freyssinet after Veurdre bridge.",
+    "subtype": "bridge"
+  },
+  {
+    "id": "candelier_bridge",
+    "entity_type": "artifact",
+    "name": "Candelier Bridge",
+    "aliases": [],
+    "summary": "Large bridge designed by Freyssinet after Veurdre bridge.",
+    "subtype": "bridge"
+  },
+  {
+    "id": "plougastel_bridge",
+    "entity_type": "artifact",
+    "name": "Plougastel Bridge",
+    "aliases": [],
+    "summary": "Large bridge designed by Freyssinet after Veurdre bridge.",
+    "subtype": "bridge"
+  },
+  {
+    "id": "maritime_station_le_havre",
+    "entity_type": "artifact",
+    "name": "Maritime Station",
+    "aliases": [
+      "Le Havre Maritime Station"
+    ],
+    "summary": "Structure saved by Freyssinet's factory foundation in 1934.",
+    "subtype": "building"
+  },
+  {
+    "id": "patent_1928",
+    "entity_type": "artifact",
+    "name": "1928 Patent",
+    "aliases": [],
+    "summary": "Patent submitted by Freyssinet in Paris containing description of pre-stress on concrete.",
+    "subtype": "patent"
+  },
+  {
+    "id": "lightweight_jack_and_anchoring_system",
+    "entity_type": "artifact",
+    "name": "lightweight jack and anchoring system",
+    "aliases": [
+      "Freyssinet post-tensioning jack",
+      "concrete anchorage cone and tensioning jack"
+    ],
+    "summary": "Specialized lightweight jack and anchoring system for pre-stressing invented in 1939.",
+    "subtype": "invention"
+  },
+  {
+    "id": "precast_segmental_construction_technique",
+    "entity_type": "artifact",
+    "name": "Precast Segmental Construction technique",
+    "aliases": [],
+    "summary": "Construction technique invented by Freyssinet subsequently after 1939.",
+    "subtype": "method"
+  }
+]

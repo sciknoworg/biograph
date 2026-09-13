@@ -1,0 +1,195 @@
+[
+  {
+    "id": "piech_born_austria",
+    "source": "ferdinand_karl_piech",
+    "type": "born_in",
+    "target": "austria",
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 5,
+        "quote": "Ferdinand Piëch (1937–2019) was the third of four children of Anton and Louise Piëch, a Nazi couple (Ewing, 2019) who lived in Austria."
+      }
+    ]
+  },
+  {
+    "id": "piech_son_anton",
+    "source": "ferdinand_karl_piech",
+    "type": "family_of",
+    "target": "anton_piech",
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 5,
+        "quote": "Ferdinand Piëch (1937–2019) was the third of four children of Anton and Louise Piëch"
+      }
+    ]
+  },
+  {
+    "id": "piech_son_louise",
+    "source": "ferdinand_karl_piech",
+    "type": "family_of",
+    "target": "louise_piech",
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 5,
+        "quote": "Ferdinand Piëch (1937–2019) was the third of four children of Anton and Louise Piëch"
+      }
+    ]
+  },
+  {
+    "id": "piech_grandson_ferdinand_porsche",
+    "source": "ferdinand_karl_piech",
+    "type": "family_of",
+    "target": "ferdinand_porsche",
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 5,
+        "quote": "Louise was the daughter of Ferdinand Porsche, inventor of the Beetle and the luxury Porsche brand"
+      }
+    ]
+  },
+  {
+    "id": "piech_worked_porsche",
+    "source": "ferdinand_karl_piech",
+    "type": "worked_at",
+    "target": "porsche_company",
+    "start": {
+      "display": "1963",
+      "precision": "year",
+      "sort_start": "1963-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "end": {
+      "display": "1971",
+      "precision": "year",
+      "sort_start": "1971-01-01",
+      "sort_end": "1971-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 5,
+        "quote": "After graduating Piëch joined Porsche (1963–1971)."
+      }
+    ]
+  },
+  {
+    "id": "piech_worked_audi",
+    "source": "ferdinand_karl_piech",
+    "type": "worked_at",
+    "target": "audi",
+    "start": {
+      "display": "1972",
+      "precision": "year",
+      "sort_start": "1972-01-01",
+      "sort_end": "1972-12-31"
+    },
+    "end": {
+      "display": "1992",
+      "precision": "year",
+      "sort_start": "1992-01-01",
+      "sort_end": "1992-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 6,
+        "quote": "During the 20 years, Piëch worked at Audi (1972–1992)"
+      }
+    ]
+  },
+  {
+    "id": "piech_worked_vw",
+    "source": "ferdinand_karl_piech",
+    "type": "worked_at",
+    "target": "volkswagen_group",
+    "start": {
+      "display": "1993",
+      "precision": "year",
+      "sort_start": "1993-01-01",
+      "sort_end": "1993-12-31"
+    },
+    "end": {
+      "display": "2015",
+      "precision": "year",
+      "sort_start": "2015-01-01",
+      "sort_end": "2015-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 6,
+        "quote": "name Piëch as CEO and Chairman of the Executive Board of VW Group in 1993"
+      }
+    ]
+  },
+  {
+    "id": "piech_developed_917",
+    "source": "ferdinand_karl_piech",
+    "type": "developed",
+    "target": "porsche_917",
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 5,
+        "quote": "One of his ﬁrst projects at Porsche was the design of the Porsche 917, one of the most successful cars ever built."
+      }
+    ]
+  },
+  {
+    "id": "piech_developed_quattro",
+    "source": "ferdinand_karl_piech",
+    "type": "developed",
+    "target": "quattro",
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 6,
+        "quote": "For example, he introduced four-wheel passenger vehicles (the so-called Quattro brand)"
+      }
+    ]
+  },
+  {
+    "id": "piech_developed_tdi",
+    "source": "ferdinand_karl_piech",
+    "type": "developed",
+    "target": "tdi_engine",
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 6,
+        "quote": "diesel engines for passenger vehicles (e.g., the popular TDI engines)"
+      }
+    ]
+  },
+  {
+    "id": "piech_rival_wolfgang",
+    "source": "ferdinand_karl_piech",
+    "type": "collaborated_with",
+    "target": "wolfgang_porsche",
+    "note": "Relationship was characterized by enmity and rivalry.",
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 11,
+        "quote": "the enmity between Piëch and his cousin, Wolfgang Porsche, lasted for decades and had not been resolved during his lifetime"
+      }
+    ]
+  },
+  {
+    "id": "piech_awarded_hall_of_fame",
+    "source": "ferdinand_karl_piech",
+    "type": "awarded",
+    "target": "automotive_hall_of_fame",
+    "sources": [
+      {
+        "source_id": "mayer_2021_ferdinand_karl_piech",
+        "page": 7,
+        "quote": "induction into the Automotive Hall of Fame (in 2014)"
+      }
+    ]
+  }
+]

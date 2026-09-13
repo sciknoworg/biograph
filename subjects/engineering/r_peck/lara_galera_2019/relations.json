@@ -1,0 +1,131 @@
+[
+  {
+    "id": "ralph_peck_born_in_winnipeg",
+    "source": "ralph_peck",
+    "type": "born_in",
+    "target": "winnipeg",
+    "sources": [
+      {
+        "source_id": "lara_galera_2019",
+        "page": 4,
+        "quote": "Ralph Brazelton Peck (Winnipeg, Manitoba, 23 June 1912"
+      }
+    ]
+  },
+  {
+    "id": "ralph_peck_died_in_albuquerque",
+    "source": "ralph_peck",
+    "type": "died_in",
+    "target": "albuquerque",
+    "sources": [
+      {
+        "source_id": "lara_galera_2019",
+        "page": 13,
+        "quote": "Ralph B. Peck died of cardiac congestion on 18 February 2008 at his home in Albuquerque, New Mexico, United States"
+      }
+    ]
+  },
+  {
+    "id": "ralph_peck_studied_at_rpi",
+    "source": "ralph_peck",
+    "type": "studied_at",
+    "target": "rensselaer_polytechnic_institute",
+    "sources": [
+      {
+        "source_id": "lara_galera_2019",
+        "page": 4,
+        "quote": "to finally join the Rensselaer Polytechnic Institute (RPI) in Troy, New York"
+      }
+    ]
+  },
+  {
+    "id": "ralph_peck_studied_at_harvard",
+    "source": "ralph_peck",
+    "type": "studied_at",
+    "target": "harvard_university",
+    "sources": [
+      {
+        "source_id": "lara_galera_2019",
+        "page": 5,
+        "quote": "Ralph Peck arrived at Harvard University in April of the 1937–1938 academic year"
+      }
+    ]
+  },
+  {
+    "id": "ralph_peck_employed_by_uiuc",
+    "source": "ralph_peck",
+    "type": "employed_by",
+    "target": "university_of_illinois",
+    "start": {
+      "display": "December 1942",
+      "precision": "month",
+      "sort_start": "1942-12-01",
+      "sort_end": "1942-12-31"
+    },
+    "end": {
+      "display": "June 1974",
+      "precision": "month",
+      "sort_start": "1974-06-01",
+      "sort_end": "1974-06-30"
+    },
+    "sources": [
+      {
+        "source_id": "lara_galera_2019",
+        "page": 8,
+        "quote": "in December 1942, Ralph Peck joined the Department of Civil Engineering at the University of Illinois"
+      }
+    ]
+  },
+  {
+    "id": "ralph_peck_collaborated_with_terzaghi",
+    "source": "ralph_peck",
+    "type": "collaborated_with",
+    "target": "karl_terzaghi",
+    "sources": [
+      {
+        "source_id": "lara_galera_2019",
+        "page": 5,
+        "quote": "Ralph Peck started working as an assistant to Karl Terzaghi in January 1939"
+      }
+    ]
+  },
+  {
+    "id": "ralph_peck_married_to_marjorie",
+    "source": "ralph_peck",
+    "type": "married_to",
+    "target": "marjorie_peck",
+    "sources": [
+      {
+        "source_id": "lara_galera_2019",
+        "page": 4,
+        "quote": "Peck married Marjorie Truby at the second Presbyterian Church of Troy."
+      }
+    ]
+  },
+  {
+    "id": "ralph_peck_invented_observational_method",
+    "source": "ralph_peck",
+    "type": "invented",
+    "target": "observational_method",
+    "sources": [
+      {
+        "source_id": "lara_galera_2019",
+        "page": 7,
+        "quote": "Peck developed a controversial new constructive technique known as the \"Observational Method (OM)\""
+      }
+    ]
+  },
+  {
+    "id": "ralph_peck_published_soil_mechanics_book",
+    "source": "ralph_peck",
+    "type": "published",
+    "target": "soil_mechanics_engineering_practice",
+    "sources": [
+      {
+        "source_id": "lara_galera_2019",
+        "page": 6,
+        "quote": "In 1948 was published the first edition of the book Soil Mechanics in Engineering Practice, a book written jointly by Terzaghi and Peck"
+      }
+    ]
+  }
+]

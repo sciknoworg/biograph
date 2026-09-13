@@ -1,0 +1,454 @@
+[
+  {
+    "id": "birth_ammann",
+    "event_type": "birth",
+    "label": "Born in Switzerland",
+    "description": "Othmar Ammann was born in 1879.",
+    "date": {
+      "display": "1879",
+      "precision": "year",
+      "sort_start": "1879-01-01",
+      "sort_end": "1879-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "othmar_ammann",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "butz_2001_review",
+        "page": 36,
+        "quote": "Rastorfer offers a lengthy biography of Ammann (1879-1965)."
+      }
+    ]
+  },
+  {
+    "id": "arrival_usa",
+    "event_type": "relocation",
+    "label": "Arrived in America",
+    "description": "Ammann traveled to New York to gain practical experience.",
+    "date": {
+      "display": "1904",
+      "precision": "year",
+      "sort_start": "1904-01-01",
+      "sort_end": "1904-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "othmar_ammann",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "butz_2001_review",
+        "page": 36,
+        "quote": "He begins his account with the young Swiss engineer's arrival in America in 1904."
+      }
+    ]
+  },
+  {
+    "id": "graduation_eth",
+    "event_type": "education",
+    "label": "Graduated from ETH Zurich",
+    "description": "Graduated from the federal technical university in Zurich before arriving in America.",
+    "date": {
+      "display": "1904",
+      "precision": "year",
+      "sort_start": "1904-01-01",
+      "sort_end": "1904-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "othmar_ammann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "eth_zurich",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "butz_2001_review",
+        "page": 36,
+        "quote": "Having just graduated from the federal technical university (ETH) in Zurich, Ammann traveled to New York in hopes of gaining some practical experience in designing steel bridges."
+      }
+    ]
+  },
+  {
+    "id": "marriage_ammann",
+    "event_type": "other",
+    "label": "Married childhood sweetheart",
+    "description": "Wed his childhood sweetheart.",
+    "date": {
+      "display": "1905",
+      "precision": "year",
+      "sort_start": "1905-01-01",
+      "sort_end": "1905-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "othmar_ammann",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "butz_2001_review",
+        "page": 37,
+        "quote": "One learns almost nothing about his character and little about his personal life, only that he wed his childhood sweetheart in 1905, raised three children, and remarried, a year after his wife's death, the widow of a former colleague."
+      }
+    ]
+  },
+  {
+    "id": "employment_lindenthal_start",
+    "event_type": "employment_start",
+    "label": "Began working for Gustav Lindenthal",
+    "description": "Started working for the bridge builder Gustav Lindenthal.",
+    "date": {
+      "display": "1911",
+      "precision": "year",
+      "sort_start": "1911-01-01",
+      "sort_end": "1911-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "othmar_ammann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "gustav_lindenthal",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "butz_2001_review",
+        "page": 36,
+        "quote": "In 1911, Ammann began working for Gustav Lindenthal, then considered the \"master of long span design\" (7);"
+      }
+    ]
+  },
+  {
+    "id": "role_hell_gate",
+    "event_type": "role_change",
+    "label": "Made chief engineer on Hell Gate project",
+    "description": "Lindenthal made him chief engineer on the Hell Gate railroad crossing project.",
+    "date": {
+      "display": "1912",
+      "precision": "year",
+      "sort_start": "1912-01-01",
+      "sort_end": "1912-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "othmar_ammann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "hell_gate_bridge",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "butz_2001_review",
+        "page": 36,
+        "quote": "a year later this rather irascible Austrian American bridge builder made him chief engineer on the project to construct a large railroad crossing, the Hell Gate."
+      }
+    ]
+  },
+  {
+    "id": "proposal_lindenthal_hudson",
+    "event_type": "other",
+    "label": "Lindenthal proposed Hudson river bridge",
+    "description": "Lindenthal proposed plans for an enormous two-storey span crossing the Hudson river.",
+    "date": {
+      "display": "1920",
+      "precision": "year",
+      "sort_start": "1920-01-01",
+      "sort_end": "1920-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gustav_lindenthal",
+        "role": "subject"
+      },
+      {
+        "entity_id": "hudson_river",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "butz_2001_review",
+        "page": 36,
+        "quote": "In 1920, he proposed plans for an enormous two-storey span that could accommodate railroad, automotive, and pedestrian traffic, estimating its cost at some $100 million."
+      }
+    ]
+  },
+  {
+    "id": "proposal_ammann_hudson",
+    "event_type": "invention",
+    "label": "Unveiled proposals for Hudson river bridge",
+    "description": "Ammann unveiled his proposals for a smaller, cheaper suspension bridge for the Hudson river.",
+    "date": {
+      "display": "1924",
+      "precision": "year",
+      "sort_start": "1924-01-01",
+      "sort_end": "1924-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "othmar_ammann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "george_washington_bridge",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "butz_2001_review",
+        "page": 36,
+        "quote": "In 1924, Ammann unveiled his proposals for the bridge, a smaller, simpler and, at $40 million, decidedly less costly version of Lindenthal's crossing."
+      }
+    ]
+  },
+  {
+    "id": "employment_port_authority_start",
+    "event_type": "employment_start",
+    "label": "Joined Port Authority staff",
+    "description": "Joined the staff at the Port Authority as bridge engineer.",
+    "date": {
+      "display": "1925",
+      "precision": "year",
+      "sort_start": "1925-01-01",
+      "sort_end": "1925-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "othmar_ammann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "port_authority_of_new_york_and_new_jersey",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "butz_2001_review",
+        "page": 36,
+        "quote": "Ammann thus joined, in 1925, the staff at the Port Authority as bridge engineer."
+      }
+    ]
+  },
+  {
+    "id": "citizenship_usa",
+    "event_type": "other",
+    "label": "Became United States citizen",
+    "description": "Became a United States citizen in the same year he joined the Port Authority.",
+    "date": {
+      "display": "1925",
+      "precision": "year",
+      "sort_start": "1925-01-01",
+      "sort_end": "1925-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "othmar_ammann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "united_states",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "butz_2001_review",
+        "page": 36,
+        "quote": "He became a United States citizen later that year."
+      }
+    ]
+  },
+  {
+    "id": "employment_port_authority_end",
+    "event_type": "employment_end",
+    "label": "Resigned from Port Authority",
+    "description": "Turned down a promotion and resigned along with several colleagues.",
+    "date": {
+      "display": "1939",
+      "precision": "year",
+      "sort_start": "1939-01-01",
+      "sort_end": "1939-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "othmar_ammann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "port_authority_of_new_york_and_new_jersey",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "butz_2001_review",
+        "page": 37,
+        "quote": "In 1939, the Port Authority offered (apparently in an attempt to downsize) to \"promote\" the now sixty year-old Ammann to a more executive position. He turned down the job, resigned along with several colleagues, and established his own firm."
+      }
+    ]
+  },
+  {
+    "id": "company_founded_ammann",
+    "event_type": "company_founded",
+    "label": "Established own firm",
+    "description": "Established his own engineering firm after resigning from the Port Authority.",
+    "date": {
+      "display": "1939",
+      "precision": "year",
+      "sort_start": "1939-01-01",
+      "sort_end": "1939-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "othmar_ammann",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "butz_2001_review",
+        "page": 37,
+        "quote": "He turned down the job, resigned along with several colleagues, and established his own firm."
+      }
+    ]
+  },
+  {
+    "id": "bridges_opened_late",
+    "event_type": "product_launch",
+    "label": "Throgs Neck and Verrazano bridges opened",
+    "description": "Throgs Neck, Verrazano, and lower deck of George Washington Bridge opened.",
+    "date": {
+      "display": "early 1960s",
+      "precision": "range",
+      "sort_start": "1960-01-01",
+      "sort_end": "1964-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "othmar_ammann",
+        "role": "subject"
+      },
+      {
+        "entity_id": "throgs_neck_bridge",
+        "role": "invention"
+      },
+      {
+        "entity_id": "verrazano_narrows_bridge",
+        "role": "invention"
+      },
+      {
+        "entity_id": "george_washington_bridge",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "butz_2001_review",
+        "page": 37,
+        "quote": "Most notably, he designed and oversaw the construction of the Throgs Neck and Verrazano bridges, as well as the lower deck for the then twenty year-old George Washington (all opened in the early 1960s)."
+      }
+    ]
+  },
+  {
+    "id": "death_ammann",
+    "event_type": "death",
+    "label": "Died in 1965",
+    "description": "Died at age eighty-six.",
+    "date": {
+      "display": "1965",
+      "precision": "year",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "othmar_ammann",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "butz_2001_review",
+        "page": 37,
+        "quote": "He died in 1965, at age eighty-six."
+      }
+    ]
+  },
+  {
+    "id": "book_published",
+    "event_type": "publication",
+    "label": "Six Bridges published",
+    "description": "Darl Rastorfer's book on Ammann was published.",
+    "date": {
+      "display": "2000",
+      "precision": "year",
+      "sort_start": "2000-01-01",
+      "sort_end": "2000-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "darl_rastorfer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "six_bridges_book",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "butz_2001_review",
+        "page": 35,
+        "quote": "Darl Rastorfer, Six Bridges: The Legacy of Othmar Ammann. New Haven and London: Yale University Press, 2000."
+      }
+    ]
+  },
+  {
+    "id": "review_published",
+    "event_type": "publication",
+    "label": "Review published",
+    "description": "Nicole Butz's review was published in Swiss American Historical Society Review.",
+    "date": {
+      "display": "2001",
+      "precision": "year",
+      "sort_start": "2001-01-01",
+      "sort_end": "2001-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nicole_butz",
+        "role": "subject"
+      },
+      {
+        "entity_id": "swiss_american_historical_society",
+        "role": "publisher"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "butz_2001_review",
+        "page": 35,
+        "quote": "Swiss American Historical Society Review Volume 37 Number 1 Article 5 2-2001"
+      }
+    ]
+  }
+]

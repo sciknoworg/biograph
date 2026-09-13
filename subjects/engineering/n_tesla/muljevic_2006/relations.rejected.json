@@ -1,0 +1,32 @@
+[
+  {
+    "id": "tesla_awarded_zagreb",
+    "source": "nikola_tesla",
+    "type": "awarded",
+    "target": "university_of_zagreb",
+    "event_id": "tesla_zagreb_doctorate",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 17,
+        "quote": "On June 3, 1926, the University of Zagreb awarded him the title of Doctor honoris causa, and on June 15, 1926 the Technical College of the University of Belgrade awarded him an honorary doctorate of technical sciences."
+      }
+    ],
+    "_rejected_because": "'awarded' expects target entity_type artifact, but 'university_of_zagreb' is 'organization'"
+  },
+  {
+    "id": "tesla_awarded_belgrade",
+    "source": "nikola_tesla",
+    "type": "awarded",
+    "target": "university_of_belgrade",
+    "event_id": "tesla_belgrade_doctorate",
+    "sources": [
+      {
+        "source_id": "muljevic_2006",
+        "page": 17,
+        "quote": "On June 3, 1926, the University of Zagreb awarded him the title of Doctor honoris causa, and on June 15, 1926 the Technical College of the University of Belgrade awarded him an honorary doctorate of technical sciences."
+      }
+    ],
+    "_rejected_because": "'awarded' expects target entity_type artifact, but 'university_of_belgrade' is 'organization'"
+  }
+]

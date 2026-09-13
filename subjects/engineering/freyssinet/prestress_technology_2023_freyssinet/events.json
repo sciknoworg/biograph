@@ -1,0 +1,365 @@
+[
+  {
+    "id": "birth_1876",
+    "event_type": "birth",
+    "label": "Born in Objat",
+    "description": "Freyssinet was born to a modest working-class family.",
+    "date": {
+      "display": "1876",
+      "precision": "year",
+      "sort_start": "1876-01-01",
+      "sort_end": "1876-12-31"
+    },
+    "location": "objat",
+    "participants": [
+      {
+        "entity_id": "eugene_freyssinet",
+        "role": "subject"
+      }
+    ],
+    "certainty": "disputed",
+    "sources": [
+      {
+        "source_id": "prestress_technology_2023_freyssinet",
+        "page": 2,
+        "quote": "Freyssinet was born in 1876 t o a modest working -class family in Objat, a smalltown close to Limoges [2],"
+      }
+    ]
+  },
+  {
+    "id": "birth_1879_caption",
+    "event_type": "birth",
+    "label": "Birth year listed in caption",
+    "description": "Figure caption lists birth year as 1879.",
+    "date": {
+      "display": "1879",
+      "precision": "year",
+      "sort_start": "1879-01-01",
+      "sort_end": "1879-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "eugene_freyssinet",
+        "role": "subject"
+      }
+    ],
+    "certainty": "disputed",
+    "sources": [
+      {
+        "source_id": "prestress_technology_2023_freyssinet",
+        "page": 1,
+        "quote": "Figure 1. Eugène Freyssinet (1879-1962)"
+      }
+    ]
+  },
+  {
+    "id": "death_1962",
+    "event_type": "death",
+    "label": "Death year listed in caption",
+    "description": "Figure caption lists death year as 1962.",
+    "date": {
+      "display": "1962",
+      "precision": "year",
+      "sort_start": "1962-01-01",
+      "sort_end": "1962-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "eugene_freyssinet",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "prestress_technology_2023_freyssinet",
+        "page": 1,
+        "quote": "Figure 1. Eugène Freyssinet (1879-1962)"
+      }
+    ]
+  },
+  {
+    "id": "studies_polytechnique_1903",
+    "event_type": "education",
+    "label": "Studied at Polytechnique",
+    "description": "Freyssinet saw cantilevers built by Rabut during his studies.",
+    "date": {
+      "display": "1903",
+      "precision": "year",
+      "sort_start": "1903-01-01",
+      "sort_end": "1903-12-31"
+    },
+    "location": "paris",
+    "participants": [
+      {
+        "entity_id": "eugene_freyssinet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "polytechnique",
+        "role": "educator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "prestress_technology_2023_freyssinet",
+        "page": 1,
+        "quote": "During his studies at Polytechnique in 1903, Freyssinet saw the impressive cantilevers built by Rabut（his professor）in the Rue du Rome in Paris."
+      }
+    ]
+  },
+  {
+    "id": "employment_moulins_1905",
+    "event_type": "employment_start",
+    "label": "Took charge of services at Moulins",
+    "description": "Freyssinet took charge of the services at Moulins after leaving Polytechnique.",
+    "date": {
+      "display": "1905",
+      "precision": "year",
+      "sort_start": "1905-01-01",
+      "sort_end": "1905-12-31"
+    },
+    "location": "moulins",
+    "participants": [
+      {
+        "entity_id": "eugene_freyssinet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "moulins_services",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "prestress_technology_2023_freyssinet",
+        "page": 2,
+        "quote": "After leaving the Polytechnique, Freyssinet took charge of the service s at Mou- lins in 1905."
+      }
+    ]
+  },
+  {
+    "id": "built_first_bridge_1905",
+    "event_type": "invention",
+    "label": "Constructed first bridge",
+    "description": "Constructed a 4.5m wide concrete bridge for 25% of official costs.",
+    "date": {
+      "display": "1905",
+      "precision": "year",
+      "sort_start": "1905-01-01",
+      "sort_end": "1905-12-31"
+    },
+    "location": "moulins",
+    "participants": [
+      {
+        "entity_id": "eugene_freyssinet",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "prestress_technology_2023_freyssinet",
+        "page": 2,
+        "quote": "Here, Freyssinet constructed the first bridge of his career, a 4.5m wide concrete bridge, for a cost that was only 25% of the official costs."
+      }
+    ]
+  },
+  {
+    "id": "proposed_three_bridges_1907",
+    "event_type": "other",
+    "label": "Proposed three large bridges",
+    "description": "Proposed to construct Veurdre, Boutiron, and Châtel-de-Neuvre Bridges for the cost of one stone bridge.",
+    "date": {
+      "display": "1907",
+      "precision": "year",
+      "sort_start": "1907-01-01",
+      "sort_end": "1907-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "eugene_freyssinet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "mercier",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "veurdre_bridge",
+        "role": "invention"
+      },
+      {
+        "entity_id": "boutiron_bridge",
+        "role": "invention"
+      },
+      {
+        "entity_id": "chatel_de_neuvre_bridge",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "prestress_technology_2023_freyssinet",
+        "page": 2,
+        "quote": "It was 1907 and he was just 28 years old [2]."
+      }
+    ]
+  },
+  {
+    "id": "veurdre_bridge_construction_1909_1910",
+    "event_type": "other",
+    "label": "Veurdre Bridge construction",
+    "description": "Bridge completed with help of hydraulic jacks during winter flood.",
+    "date": {
+      "display": "winter 1909 to 1910",
+      "precision": "season",
+      "sort_start": "1909-12-01",
+      "sort_end": "1910-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "eugene_freyssinet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "veurdre_bridge",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "prestress_technology_2023_freyssinet",
+        "page": 2,
+        "quote": "In the win- ter of 1909 to 1910, a flood almost destroyed the city center  [2]."
+      }
+    ]
+  },
+  {
+    "id": "patent_submitted_1928",
+    "event_type": "patent_filed",
+    "label": "Submitted patent in Paris",
+    "description": "Patent contained detailed description of how to use steel reinforcement to achieve permanent pre-stress.",
+    "date": {
+      "display": "1928",
+      "precision": "year",
+      "sort_start": "1928-01-01",
+      "sort_end": "1928-12-31"
+    },
+    "location": "paris",
+    "participants": [
+      {
+        "entity_id": "eugene_freyssinet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "patent_1928",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "prestress_technology_2023_freyssinet",
+        "page": 4,
+        "quote": "In 1928, Freyssinet submitted a patent in Paris, which con- tained a detailed description of how to use steel reinforcement to achieve permanent pre-stress on materials like concrete  [2]."
+      }
+    ]
+  },
+  {
+    "id": "founded_factory",
+    "event_type": "company_founded",
+    "label": "Founded factory for precast concrete components",
+    "description": "Factory laid the foundation for the salvation of the Maritime Station in 1934.",
+    "date": {
+      "display": "before 1934",
+      "precision": "circa",
+      "sort_start": "1928-01-01",
+      "sort_end": "1934-01-01"
+    },
+    "location": "montarguis",
+    "participants": [
+      {
+        "entity_id": "eugene_freyssinet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "precast_concrete_factory",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "prestress_technology_2023_freyssinet",
+        "page": 4,
+        "quote": "He founded a factory for precast concrete components, which laid the foundation for the salvation of the Maritime Station in 1934."
+      }
+    ]
+  },
+  {
+    "id": "maritime_station_rescue_1934",
+    "event_type": "other",
+    "label": "Salvation of the Maritime Station",
+    "description": "Maritime Station saved using foundation laid by precast concrete factory.",
+    "date": {
+      "display": "1934",
+      "precision": "year",
+      "sort_start": "1934-01-01",
+      "sort_end": "1934-12-31"
+    },
+    "location": "le_havre",
+    "participants": [
+      {
+        "entity_id": "eugene_freyssinet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "maritime_station_le_havre",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "prestress_technology_2023_freyssinet",
+        "page": 4,
+        "quote": "He founded a factory for precast concrete components, which laid the foundation for the salvation of the Maritime Station in 1934."
+      }
+    ]
+  },
+  {
+    "id": "invented_jack_1939",
+    "event_type": "invention",
+    "label": "Invented lightweight jack and anchoring system",
+    "description": "Specialized lightweight jack and anchoring system for pre-stressing invented at age of nearly 60.",
+    "date": {
+      "display": "1939",
+      "precision": "year",
+      "sort_start": "1939-01-01",
+      "sort_end": "1939-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "eugene_freyssinet",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lightweight_jack_and_anchoring_system",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "prestress_technology_2023_freyssinet",
+        "page": 5,
+        "quote": "In 1939, at the age of nearly 60, Freyssinet invented a specialized lightweight jack and anchoring system for pre -stressing."
+      }
+    ]
+  }
+]
