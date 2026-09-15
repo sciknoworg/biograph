@@ -1,0 +1,336 @@
+[
+  {
+    "id": "bellman_born_brooklyn",
+    "source": "richard_bellman",
+    "type": "born_in",
+    "target": "brooklyn",
+    "event_id": "bellman_birth",
+    "sources": [
+      {
+        "source_id": "gani_1984_obituary",
+        "page": 1,
+        "quote": "Richard was born in Brooklyn, New York City on 26 August 1920"
+      }
+    ]
+  },
+  {
+    "id": "bellman_studied_ccny",
+    "source": "richard_bellman",
+    "type": "studied_at",
+    "target": "city_college_of_new_york",
+    "sources": [
+      {
+        "source_id": "gani_1984_obituary",
+        "page": 1,
+        "quote": "first at the City College of New York"
+      }
+    ]
+  },
+  {
+    "id": "bellman_studied_brooklyn_college",
+    "source": "richard_bellman",
+    "type": "studied_at",
+    "target": "brooklyn_college",
+    "event_id": "bellman_ba",
+    "sources": [
+      {
+        "source_id": "gani_1984_obituary",
+        "page": 1,
+        "quote": "later at Brooklyn College where he was awarded his BA in 1941"
+      }
+    ]
+  },
+  {
+    "id": "bellman_studied_wisconsin",
+    "source": "richard_bellman",
+    "type": "studied_at",
+    "target": "university_of_wisconsin",
+    "event_id": "bellman_ma",
+    "sources": [
+      {
+        "source_id": "gani_1984_obituary",
+        "page": 1,
+        "quote": "after obtaining his MA from the University of Wisconsin in 1943"
+      }
+    ]
+  },
+  {
+    "id": "bellman_studied_princeton",
+    "source": "richard_bellman",
+    "type": "studied_at",
+    "target": "princeton_university",
+    "event_id": "bellman_phd",
+    "sources": [
+      {
+        "source_id": "gani_1984_obituary",
+        "page": 1,
+        "quote": "worked at Princeton under Solomon Lefschetz and was awarded his Ph.D. in 1946"
+      }
+    ]
+  },
+  {
+    "id": "bellman_supervised_lefschetz",
+    "source": "richard_bellman",
+    "type": "supervised_by",
+    "target": "solomon_lefschetz",
+    "event_id": "bellman_phd",
+    "sources": [
+      {
+        "source_id": "gani_1984_obituary",
+        "page": 1,
+        "quote": "worked at Princeton under Solomon Lefschetz"
+      }
+    ]
+  },
+  {
+    "id": "bellman_worked_princeton",
+    "source": "richard_bellman",
+    "type": "worked_at",
+    "target": "princeton_university",
+    "event_id": "bellman_princeton_asst_prof",
+    "start": {
+      "display": "1946",
+      "precision": "year",
+      "sort_start": "1946-01-01",
+      "sort_end": "1946-12-31"
+    },
+    "end": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "gani_1984_obituary",
+        "page": 1,
+        "quote": "He served briefly as Assistant Professor of Mathematics at Princeton University between 1946 and 1948"
+      }
+    ]
+  },
+  {
+    "id": "bellman_worked_stanford",
+    "source": "richard_bellman",
+    "type": "worked_at",
+    "target": "stanford_university",
+    "event_id": "bellman_stanford_assoc_prof",
+    "start": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "end": {
+      "display": "1952",
+      "precision": "year",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "gani_1984_obituary",
+        "page": 1,
+        "quote": "later as Associate Professor of Mathematics at Stanford University from 1948 to 1952"
+      }
+    ]
+  },
+  {
+    "id": "bellman_worked_rand",
+    "source": "richard_bellman",
+    "type": "worked_at",
+    "target": "rand_corporation",
+    "event_id": "bellman_rand_join",
+    "start": {
+      "display": "1953",
+      "precision": "year",
+      "sort_start": "1953-01-01",
+      "sort_end": "1953-12-31"
+    },
+    "end": {
+      "display": "c. 1965",
+      "precision": "circa",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "gani_1984_obituary",
+        "page": 1,
+        "quote": "In 1953, he joined the RAND Corporation, Santa Monica, and after 12 very active years"
+      }
+    ]
+  },
+  {
+    "id": "bellman_worked_usc",
+    "source": "richard_bellman",
+    "type": "worked_at",
+    "target": "university_of_southern_california",
+    "event_id": "bellman_usc_prof",
+    "start": {
+      "display": "c. 1965",
+      "precision": "circa",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "gani_1984_obituary",
+        "page": 1,
+        "quote": "he was appointed Professor of Mathematics, Electrical Engineering and Medicine at the University of Southern California, Los Angeles. He remained in this post until his death"
+      }
+    ]
+  },
+  {
+    "id": "bellman_died_los_angeles",
+    "source": "richard_bellman",
+    "type": "died_in",
+    "target": "los_angeles",
+    "event_id": "bellman_death",
+    "sources": [
+      {
+        "source_id": "gani_1984_obituary",
+        "page": 1,
+        "quote": "death of Professor Richard Bellman in Los Angeles on 19 March 1984"
+      }
+    ]
+  },
+  {
+    "id": "bellman_invented_dynamic_programming",
+    "source": "richard_bellman",
+    "type": "invented",
+    "target": "rand_corporation",
+    "note": "Pioneered dynamic programming while at RAND",
+    "sources": [
+      {
+        "source_id": "gani_1984_obituary",
+        "page": 1,
+        "quote": "during which he pioneered the discovery of dynamic programming"
+      }
+    ]
+  },
+  {
+    "id": "bellman_published_stability_theory",
+    "source": "richard_bellman",
+    "type": "published",
+    "target": "stability_theory_of_differential_equations",
+    "event_id": "bellman_book_published",
+    "sources": [
+      {
+        "source_id": "gani_1984_obituary",
+        "page": 1,
+        "quote": "later published as the Stability Theory of Differential Equations, issued as a book by McGraw-Hill in 1953"
+      }
+    ]
+  },
+  {
+    "id": "bellman_editor_journal",
+    "source": "richard_bellman",
+    "type": "member_of",
+    "target": "journal_of_applied_probability",
+    "note": "Served as Editor since inception in 1964",
+    "sources": [
+      {
+        "source_id": "gani_1984_obituary",
+        "page": 1,
+        "quote": "He had served as Editor of the Journal of Applied Probability since its inception in 1964"
+      }
+    ]
+  },
+  {
+    "id": "bellman_awarded_wiener_prize",
+    "source": "richard_bellman",
+    "type": "awarded",
+    "target": "american_mathematical_society",
+    "event_id": "bellman_wiener_prize",
+    "sources": [
+      {
+        "source_id": "gani_1984_obituary",
+        "page": 1,
+        "quote": "the first Norbert Wiener Prize in Applied Mathematics of the American Mathematical Society and the Society for Industrial and Applied Mathematics in 1970"
+      }
+    ]
+  },
+  {
+    "id": "bellman_awarded_von_neumann",
+    "source": "richard_bellman",
+    "type": "awarded",
+    "target": "institute_of_management_sciences",
+    "event_id": "bellman_von_neumann_award",
+    "sources": [
+      {
+        "source_id": "gani_1984_obituary",
+        "page": 2,
+        "quote": "the John von Neumann Theory Award of the Institute of Management Sciences and the Operations Research Society of America in 1976"
+      }
+    ]
+  },
+  {
+    "id": "bellman_awarded_ieee_medal",
+    "source": "richard_bellman",
+    "type": "awarded",
+    "target": "ieee",
+    "event_id": "bellman_ieee_gold_medal",
+    "sources": [
+      {
+        "source_id": "gani_1984_obituary",
+        "page": 2,
+        "quote": "the Gold Medal of the IEEE for Dynamic Programming in 1977"
+      }
+    ]
+  },
+  {
+    "id": "bellman_awarded_heritage_medal",
+    "source": "richard_bellman",
+    "type": "awarded",
+    "target": "american_council_for_control",
+    "event_id": "bellman_heritage_medal",
+    "sources": [
+      {
+        "source_id": "gani_1984_obituary",
+        "page": 2,
+        "quote": "and the Heritage Medal of the American Council for Control in 1983"
+      }
+    ]
+  },
+  {
+    "id": "bellman_fellow_aaas",
+    "source": "richard_bellman",
+    "type": "member_of",
+    "target": "american_academy_of_arts_and_sciences",
+    "event_id": "bellman_aaas_fellow",
+    "sources": [
+      {
+        "source_id": "gani_1984_obituary",
+        "page": 2,
+        "quote": "He was elected to Fellowship of the American Academy of Arts and Sciences in 1975"
+      }
+    ]
+  },
+  {
+    "id": "bellman_member_nas",
+    "source": "richard_bellman",
+    "type": "member_of",
+    "target": "us_national_academy_of_sciences",
+    "event_id": "bellman_nas_member",
+    "sources": [
+      {
+        "source_id": "gani_1984_obituary",
+        "page": 2,
+        "quote": "Membership of the US National Academy of Sciences in 1983"
+      }
+    ]
+  },
+  {
+    "id": "gani_affiliated_kentucky",
+    "source": "j_gani",
+    "type": "worked_at",
+    "target": "university_of_kentucky",
+    "sources": [
+      {
+        "source_id": "gani_1984_obituary",
+        "page": 2,
+        "quote": "University of Kentucky August 1984 J. GANI"
+      }
+    ]
+  }
+]

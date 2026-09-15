@@ -1,0 +1,86 @@
+[
+  {
+    "id": "cramer_awarded_princeton",
+    "source": "harald_cramer",
+    "type": "awarded",
+    "target": "princeton_university",
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 2,
+        "quote": "He became Honorary Doctor at Princeton, Copenhagen, Stockholm, Helsingfors, Edinburgh, Paris and Calcutta."
+      }
+    ],
+    "_rejected_because": "'awarded' expects target entity_type artifact, but 'princeton_university' is 'organization'"
+  },
+  {
+    "id": "cramer_awarded_copenhagen",
+    "source": "harald_cramer",
+    "type": "awarded",
+    "target": "copenhagen_university",
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 2,
+        "quote": "He became Honorary Doctor at Princeton, Copenhagen, Stockholm, Helsingfors, Edinburgh, Paris and Calcutta."
+      }
+    ],
+    "_rejected_because": "'awarded' expects target entity_type artifact, but 'copenhagen_university' is 'organization'"
+  },
+  {
+    "id": "cramer_awarded_helsingfors",
+    "source": "harald_cramer",
+    "type": "awarded",
+    "target": "helsingfors_university",
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 2,
+        "quote": "He became Honorary Doctor at Princeton, Copenhagen, Stockholm, Helsingfors, Edinburgh, Paris and Calcutta."
+      }
+    ],
+    "_rejected_because": "'awarded' expects target entity_type artifact, but 'helsingfors_university' is 'organization'"
+  },
+  {
+    "id": "cramer_awarded_edinburgh",
+    "source": "harald_cramer",
+    "type": "awarded",
+    "target": "edinburgh_university",
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 2,
+        "quote": "He became Honorary Doctor at Princeton, Copenhagen, Stockholm, Helsingfors, Edinburgh, Paris and Calcutta."
+      }
+    ],
+    "_rejected_because": "'awarded' expects target entity_type artifact, but 'edinburgh_university' is 'organization'"
+  },
+  {
+    "id": "cramer_awarded_paris",
+    "source": "harald_cramer",
+    "type": "awarded",
+    "target": "paris_university",
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 2,
+        "quote": "He became Honorary Doctor at Princeton, Copenhagen, Stockholm, Helsingfors, Edinburgh, Paris and Calcutta."
+      }
+    ],
+    "_rejected_because": "'awarded' expects target entity_type artifact, but 'paris_university' is 'organization'"
+  },
+  {
+    "id": "cramer_awarded_calcutta",
+    "source": "harald_cramer",
+    "type": "awarded",
+    "target": "calcutta_university",
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 2,
+        "quote": "He became Honorary Doctor at Princeton, Copenhagen, Stockholm, Helsingfors, Edinburgh, Paris and Calcutta."
+      }
+    ],
+    "_rejected_because": "'awarded' expects target entity_type artifact, but 'calcutta_university' is 'organization'"
+  }
+]

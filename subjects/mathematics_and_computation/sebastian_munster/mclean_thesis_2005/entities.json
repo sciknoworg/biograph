@@ -1,0 +1,172 @@
+[
+  {
+    "aliases": [
+      "German Esdras",
+      "German Strabo",
+      "Sebastian Munsterus",
+      "Sebastianus Munsterus"
+    ],
+    "entity_type": "person",
+    "id": "sebastian_munster",
+    "name": "Sebastian Münster",
+    "subtype": "researcher",
+    "summary": "Sixteenth-century cosmographer, Hebraist, and mathematician known for the Cosmographia and Hebrew scholarship."
+  },
+  {
+    "aliases": [
+      "Pellikan"
+    ],
+    "entity_type": "person",
+    "id": "konrad_pellikan",
+    "name": "Konrad Pellikan",
+    "subtype": "researcher",
+    "summary": "Hebrew scholar and teacher who instructed Münster in Hebrew and astronomy."
+  },
+  {
+    "aliases": [
+      "Stoffler"
+    ],
+    "entity_type": "person",
+    "id": "johannes_stoffler",
+    "name": "Johannes Stoffler",
+    "subtype": "researcher",
+    "summary": "Mathematician and astronomer who taught Münster at Tübingen."
+  },
+  {
+    "aliases": [
+      "Petri"
+    ],
+    "entity_type": "person",
+    "id": "heinrich_petri",
+    "name": "Heinrich Petri",
+    "subtype": "printer",
+    "summary": "Basel printer who published Münster's works including the Cosmographia."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "anna_selber",
+    "name": "Anna Selber",
+    "subtype": "family",
+    "summary": "Münster's wife, daughter of the notary Sixtus Selber."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "aretia_munster",
+    "name": "Aretia Münster",
+    "subtype": "family",
+    "summary": "Münster's daughter, born in 1532."
+  },
+  {
+    "aliases": [
+      "Basel University"
+    ],
+    "entity_type": "organization",
+    "id": "university_of_basel",
+    "name": "University of Basel",
+    "subtype": "university",
+    "summary": "University where Münster held the Chair of Hebrew from 1529."
+  },
+  {
+    "aliases": [
+      "Franciscans"
+    ],
+    "entity_type": "organization",
+    "id": "franciscan_order",
+    "name": "Franciscan Order",
+    "subtype": "religious_order",
+    "summary": "Religious order Münster joined in 1506 before leaving for the Reformation."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Switzerland",
+      "lat": 47.56056,
+      "lng": 7.59056,
+      "wikidata_qid": "Q78",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "basel",
+    "name": "Basel",
+    "subtype": "city",
+    "summary": "City where Münster settled in 1529 and worked until his death."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Germany",
+      "lat": 49.40936,
+      "lng": 8.69472,
+      "wikidata_qid": "Q2966",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "heidelberg",
+    "name": "Heidelberg",
+    "subtype": "city",
+    "summary": "City where Münster taught Hebrew from 1524 to 1529."
+  },
+  {
+    "aliases": [
+      "Niederingelheim"
+    ],
+    "attributes": {
+      "country": "Germany",
+      "lat": 49.97472,
+      "lng": 8.05639,
+      "wikidata_qid": "Q159548",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "ingelheim",
+    "name": "Ingelheim",
+    "subtype": "town",
+    "summary": "Münster's birthplace."
+  },
+  {
+    "aliases": [
+      "Cosmographiae Universalis"
+    ],
+    "entity_type": "artifact",
+    "id": "cosmographia",
+    "name": "Cosmographia",
+    "subtype": "publication",
+    "summary": "Münster's major geographical work first published in 1544."
+  },
+  {
+    "aliases": [
+      "Biblia Hebraica"
+    ],
+    "entity_type": "artifact",
+    "id": "hebrew_bible_1534",
+    "name": "Hebrew Bible",
+    "subtype": "publication",
+    "summary": "Münster's bilingual Hebrew and Latin Bible published in 1534/5."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "horolographia",
+    "name": "Horolographia",
+    "subtype": "publication",
+    "summary": "Münster's work on sundials published in 1533."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "organum_uranicum",
+    "name": "Organum Uranicum",
+    "subtype": "publication",
+    "summary": "Münster's astronomical work published in 1536."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "rudimenta_mathematica",
+    "name": "Rudimenta Mathematica",
+    "subtype": "publication",
+    "summary": "Münster's mathematical work published in 1551."
+  }
+]

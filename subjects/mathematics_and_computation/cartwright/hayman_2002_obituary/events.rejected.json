@@ -1,0 +1,30 @@
+[
+  {
+    "id": "education_godolphin",
+    "event_type": "education",
+    "label": "Attended the Godolphin School",
+    "location": "salisbury",
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "godolphin_school",
+        "role": "employer"
+      },
+      {
+        "entity_id": "miss_hancock",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 1,
+        "quote": "and subsequently to the Godolphin School, Salisbury where she was taught by a Miss Hancock."
+      }
+    ],
+    "_rejected_because": "'date' is a required property"
+  }
+]

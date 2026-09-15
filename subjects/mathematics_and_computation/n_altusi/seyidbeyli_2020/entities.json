@@ -1,0 +1,154 @@
+[
+  {
+    "aliases": [
+      "Khoja Nasir Tusi",
+      "Mawlana Nasir Tusi",
+      "Muhammad ibn Muhammad ibn al-Hasan al-Tusi",
+      "N. Tusi",
+      "Nasir of Tus"
+    ],
+    "entity_type": "person",
+    "id": "nasir_al_din_al_tusi",
+    "name": "Nasir al-Din al-Tusi",
+    "subtype": "researcher",
+    "summary": "Medieval Persian polymath, astronomer, and mathematician known for the Maragheh Observatory and Zij Ilkhani tables."
+  },
+  {
+    "aliases": [
+      "Hulagu"
+    ],
+    "entity_type": "person",
+    "id": "hulagu_khan",
+    "name": "Hulagu Khan",
+    "subtype": "ruler",
+    "summary": "Mongol ruler who freed Tusi and commissioned the Maragheh Observatory."
+  },
+  {
+    "aliases": [
+      "Ilkhanid observatory",
+      "Maragha Observatory"
+    ],
+    "entity_type": "organization",
+    "id": "maragheh_observatory",
+    "name": "Maragheh Observatory",
+    "subtype": "lab",
+    "summary": "Major 13th-century astronomical research center founded by Tusi in South Azerbaijan."
+  },
+  {
+    "aliases": [
+      "Alamut"
+    ],
+    "attributes": {
+      "country": "Iran"
+    },
+    "entity_type": "place",
+    "id": "alamut_fortress",
+    "name": "Alamut fortress",
+    "subtype": "facility",
+    "summary": "Fortress where Tusi was imprisoned for over 20 years."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Iran",
+      "lat": 36.29749,
+      "lng": 59.60592,
+      "wikidata_qid": "Q121157",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "tus",
+    "name": "Tus",
+    "subtype": "city",
+    "summary": "City in Iran from which Tusi originated."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Iran",
+      "lat": 36.21333,
+      "lng": 58.79583,
+      "wikidata_qid": "Q131350",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "nishapur",
+    "name": "Nishapur",
+    "subtype": "city",
+    "summary": "City where Tusi moved to continue his education."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Iraq",
+      "lat": 33.31528,
+      "lng": 44.36611,
+      "wikidata_qid": "Q1530",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "baghdad",
+    "name": "Baghdad",
+    "subtype": "city",
+    "summary": "City where Tusi died and was buried."
+  },
+  {
+    "aliases": [
+      "Ilkhanic Tables",
+      "Astronomical Table of Elkhani",
+      "Zij Ilkhani Astronomical Catalog"
+    ],
+    "entity_type": "artifact",
+    "id": "zij_ilkhani",
+    "name": "Zij Ilkhani",
+    "subtype": "publication",
+    "summary": "Astronomical tables and star catalog compiled from 12 years of observations at Maragheh."
+  },
+  {
+    "aliases": [
+      "Nasirean ethics",
+      "Nasir's memory"
+    ],
+    "entity_type": "artifact",
+    "id": "akhlaki_nasiri",
+    "name": "Akhlaki-Nasiri",
+    "subtype": "publication",
+    "summary": "Ethical treatise completed by Tusi in 1235."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "farid_al_din_damadi_al_nishapuri",
+    "name": "Farid al-Din Damadi al Nishapuri",
+    "subtype": "researcher",
+    "summary": "Philosopher and main teacher of Tusi in logic."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "qutb_al_din_al_misri",
+    "name": "Qutb al-Din al-Misri",
+    "subtype": "researcher",
+    "summary": "Scholar under whom Tusi studied medicine and philosophy."
+  },
+  {
+    "aliases": [
+      "Muayyid ad-din al Ardi"
+    ],
+    "entity_type": "person",
+    "id": "muayid_ad_din_urdi",
+    "name": "Muayid ad-Din Urdi",
+    "subtype": "researcher",
+    "summary": "Scientist from Damascus who assisted in the construction of Maragheh Observatory."
+  },
+  {
+    "aliases": [
+      "Fakhr ad din al Maraghi"
+    ],
+    "entity_type": "person",
+    "id": "fakhr_ad_din_maragi",
+    "name": "Fakhr ad-Din Maragi",
+    "subtype": "researcher",
+    "summary": "Doctor and mathematician from Mosul who worked at Maragheh Observatory."
+  }
+]

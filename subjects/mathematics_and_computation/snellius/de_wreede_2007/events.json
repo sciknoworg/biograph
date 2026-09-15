@@ -1,0 +1,143 @@
+[
+  {
+    "id": "snellius_birth",
+    "event_type": "birth",
+    "label": "Born in Leiden",
+    "description": "Willebrord Snellius was probably born on 13 June 1580.",
+    "date": {
+      "display": "13 June 1580",
+      "precision": "day",
+      "sort_start": "1580-06-13",
+      "sort_end": "1580-06-13"
+    },
+    "location": "leiden",
+    "participants": [
+      {
+        "entity_id": "willebrord_snellius",
+        "role": "subject"
+      }
+    ],
+    "certainty": "approximate",
+    "sources": [
+      {
+        "source_id": "de_wreede_2007",
+        "page": 17,
+        "quote": "Willebrord Snellius was probably born on 13 June 1580."
+      }
+    ]
+  },
+  {
+    "id": "snellius_travel_germany",
+    "event_type": "relocation",
+    "label": "Traveled to Germany",
+    "description": "Snellius left for Germany to travel abroad for some years.",
+    "date": {
+      "display": "1600",
+      "precision": "year",
+      "sort_start": "1600-01-01",
+      "sort_end": "1600-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "willebrord_snellius",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "de_wreede_2007",
+        "page": 46,
+        "quote": "In 1600, Willebrord left for Germany, where he became acquainted with many men of consequence, who remained in his network after he had returned home."
+      }
+    ]
+  },
+  {
+    "id": "snellius_visit_tycho",
+    "event_type": "visit",
+    "label": "Visited Tycho Brahe",
+    "description": "Snellius visited Tycho Brahe in Prague and assisted with observations.",
+    "date": {
+      "display": "1600–1601",
+      "precision": "range",
+      "sort_start": "1600-01-01",
+      "sort_end": "1601-12-31"
+    },
+    "location": "prague",
+    "participants": [
+      {
+        "entity_id": "willebrord_snellius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "tycho_brahe",
+        "role": "host"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "de_wreede_2007",
+        "page": 47,
+        "quote": "Snellius then went to Prague, where his patron Romanus, who was summoned by Emperor Rudolph II, introduced him to Tycho Brahe."
+      }
+    ]
+  },
+  {
+    "id": "snellius_publication_eratosthenes",
+    "event_type": "publication",
+    "label": "Published Eratosthenes Batavus",
+    "description": "Snellius published his work on the measurement of the earth.",
+    "date": {
+      "display": "1617",
+      "precision": "year",
+      "sort_start": "1617-01-01",
+      "sort_end": "1617-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "willebrord_snellius",
+        "role": "author"
+      },
+      {
+        "entity_id": "eratosthenes_batavus",
+        "role": "publication"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "de_wreede_2007",
+        "page": 54,
+        "quote": "1617 Eratosthenes Batavus"
+      }
+    ]
+  },
+  {
+    "id": "snellius_death",
+    "event_type": "death",
+    "label": "Died in Leiden",
+    "description": "Snellius died on 30 October 1626.",
+    "date": {
+      "display": "30 October 1626",
+      "precision": "day",
+      "sort_start": "1626-10-30",
+      "sort_end": "1626-10-30"
+    },
+    "location": "leiden",
+    "participants": [
+      {
+        "entity_id": "willebrord_snellius",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "de_wreede_2007",
+        "page": 17,
+        "quote": "Snellius died on 30 October 1626"
+      }
+    ]
+  }
+]

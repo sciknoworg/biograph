@@ -1,0 +1,657 @@
+[
+  {
+    "id": "fulkerson_birth",
+    "event_type": "birth",
+    "label": "Born in Tamms, Illinois",
+    "date": {
+      "display": "August 14, 1924",
+      "precision": "day",
+      "sort_start": "1924-08-14",
+      "sort_end": "1924-08-14"
+    },
+    "location": "tamms_illinois",
+    "participants": [
+      {
+        "entity_id": "delbert_ray_fulkerson",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "Born in Tamms, Illinois, Ray was the third of six children of Elbert and Emma Fulkerson."
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_death",
+    "event_type": "death",
+    "label": "Died at age fifty-one",
+    "date": {
+      "display": "January 10, 1976",
+      "precision": "day",
+      "sort_start": "1976-01-10",
+      "sort_end": "1976-01-10"
+    },
+    "participants": [
+      {
+        "entity_id": "delbert_ray_fulkerson",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "August 14, 1924 — January 10, 1976"
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_enrolled_siu",
+    "event_type": "education",
+    "label": "Enrolled in Southern Illinois University",
+    "date": {
+      "display": "September 1941",
+      "precision": "month",
+      "sort_start": "1941-09-01",
+      "sort_end": "1941-09-30"
+    },
+    "participants": [
+      {
+        "entity_id": "delbert_ray_fulkerson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "southern_illinois_university",
+        "role": "educator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "In September 1941 Ray enrolled in Southern Illinois University."
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_joined_air_corps",
+    "event_type": "employment_start",
+    "label": "Joined U.S. Army Air Corps",
+    "date": {
+      "display": "January 1942",
+      "precision": "month",
+      "sort_start": "1942-01-01",
+      "sort_end": "1942-01-31"
+    },
+    "participants": [
+      {
+        "entity_id": "delbert_ray_fulkerson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "us_army_air_corps",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "in January 1942 he joined the U.S. Army Air Corps where he received training as a meteorologist."
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_discharged_air_corps",
+    "event_type": "employment_end",
+    "label": "Received honorable discharge from Air Corps",
+    "date": {
+      "display": "June 1946",
+      "precision": "month",
+      "sort_start": "1946-06-01",
+      "sort_end": "1946-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "delbert_ray_fulkerson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "us_army_air_corps",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "In June 1946 he received an honorable discharge from the Air Corps as a first lieutenant and returned to S.I.U."
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_graduated_siu",
+    "event_type": "education",
+    "label": "Graduated from S.I.U. with B.A. in mathematics",
+    "date": {
+      "display": "1947",
+      "precision": "year",
+      "sort_start": "1947-01-01",
+      "sort_end": "1947-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "delbert_ray_fulkerson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "southern_illinois_university",
+        "role": "educator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "from which he was graduated, first in his class, in 1947 with a B.A. in mathematics."
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_ms_wisconsin",
+    "event_type": "education",
+    "label": "Received M.S. in mathematics at University of Wisconsin",
+    "date": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "delbert_ray_fulkerson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_wisconsin",
+        "role": "educator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "He received his M.S. and Ph.D. degrees in mathematics at the University of Wisconsin in 1948 and 1951."
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_phd_wisconsin",
+    "event_type": "education",
+    "label": "Received Ph.D. in mathematics at University of Wisconsin",
+    "date": {
+      "display": "1951",
+      "precision": "year",
+      "sort_start": "1951-01-01",
+      "sort_end": "1951-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "delbert_ray_fulkerson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_wisconsin",
+        "role": "educator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "He received his M.S. and Ph.D. degrees in mathematics at the University of Wisconsin in 1948 and 1951."
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_joined_rand",
+    "event_type": "employment_start",
+    "label": "Joined Mathematics Department of Rand Corporation",
+    "date": {
+      "display": "March 1951",
+      "precision": "month",
+      "sort_start": "1951-03-01",
+      "sort_end": "1951-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "delbert_ray_fulkerson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "rand_corporation",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "Ray joined the Mathematics Department of Rand in March 1951."
+      }
+    ]
+  },
+  {
+    "id": "dantzig_joined_rand",
+    "event_type": "employment_start",
+    "label": "George Dantzig moved to Rand from the Air Force",
+    "date": {
+      "display": "June 1952",
+      "precision": "month",
+      "sort_start": "1952-06-01",
+      "sort_end": "1952-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "george_dantzig",
+        "role": "subject"
+      },
+      {
+        "entity_id": "rand_corporation",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 2,
+        "quote": "When Dr. George Dantzig moved to Rand from the Air Force in June 1952, he and Ray became close personal and professional friends"
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_first_papers",
+    "event_type": "publication",
+    "label": "Published first two papers with Dantzig and Johnson",
+    "date": {
+      "display": "1954",
+      "precision": "year",
+      "sort_start": "1954-01-01",
+      "sort_end": "1954-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "delbert_ray_fulkerson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "george_dantzig",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "selmer_johnson",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 2,
+        "quote": "The resulting collaboration led in 1954 to Ray's first two published papers: the first written with Dantzig solved the problem of finding the least number of tankers required to meet a fixed schedule, and the second, with Dantzig and Dr. Selmer Johnson, solved a forty-nine-city, \"traveling salesman\" problem"
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_lanchester_1954",
+    "event_type": "award",
+    "label": "Received honorable mention for 1954 Lanchester Prize",
+    "date": {
+      "display": "1954",
+      "precision": "year",
+      "sort_start": "1954-01-01",
+      "sort_end": "1954-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "delbert_ray_fulkerson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "operations_research_society_of_america",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "lanchester_prize",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 2,
+        "quote": "the latter paper received honorable mention for the 1954 Lanchester Prize given by the Operations Research Society of America (ORSA)."
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_primal_dual_algorithm",
+    "event_type": "invention",
+    "label": "Developed primal-dual algorithm for solving linear programs",
+    "date": {
+      "display": "1956",
+      "precision": "year",
+      "sort_start": "1956-01-01",
+      "sort_end": "1956-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "delbert_ray_fulkerson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "george_dantzig",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "lester_r_ford_jr",
+        "role": "collaborator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 2,
+        "quote": "In 1956 they developed a primal-dual algorithm for solving linear programs"
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_taught_ucla",
+    "event_type": "employment_start",
+    "label": "Taught first course in network flow theory at UCLA",
+    "date": {
+      "display": "1958",
+      "precision": "year",
+      "sort_start": "1958-01-01",
+      "sort_end": "1958-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "delbert_ray_fulkerson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_california_los_angeles",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 3,
+        "quote": "In 1958 he taught what was probably the first course in network flow theory, at the University of California, Los Angeles."
+      }
+    ]
+  },
+  {
+    "id": "flows_in_networks_published",
+    "event_type": "publication",
+    "label": "Ford-Fulkerson book Flows in Networks published",
+    "date": {
+      "display": "1962",
+      "precision": "year",
+      "sort_start": "1962-01-01",
+      "sort_end": "1962-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "delbert_ray_fulkerson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lester_r_ford_jr",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "flows_in_networks",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 2,
+        "quote": "The celebrated Ford-Fulkerson book on Flows in Networks, which appeared in 1962, was an outgrowth of their earlier collaboration"
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_lanchester_1962",
+    "event_type": "award",
+    "label": "Book received honorable mention for Lanchester Prize",
+    "date": {
+      "display": "1962",
+      "precision": "year",
+      "sort_start": "1962-01-01",
+      "sort_end": "1962-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "delbert_ray_fulkerson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "operations_research_society_of_america",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "lanchester_prize",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 2,
+        "quote": "it received honorable mention for the Lanchester Prize of ORSA"
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_visiting_berkeley",
+    "event_type": "visit",
+    "label": "Visiting professor at University of California, Berkeley",
+    "date": {
+      "display": "1963",
+      "precision": "year",
+      "sort_start": "1963-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "delbert_ray_fulkerson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_california_berkeley",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 3,
+        "quote": "In 1963 he was visiting professor at the University of California, Berkeley"
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_visiting_stanford",
+    "event_type": "visit",
+    "label": "Visiting professor at Stanford University",
+    "date": {
+      "display": "1966",
+      "precision": "year",
+      "sort_start": "1966-01-01",
+      "sort_end": "1966-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "delbert_ray_fulkerson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "stanford_university",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 3,
+        "quote": "and in 1966 at Stanford University."
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_ford_award",
+    "event_type": "award",
+    "label": "Recipient of Lester R. Ford Award from MAA",
+    "date": {
+      "display": "1967",
+      "precision": "year",
+      "sort_start": "1967-01-01",
+      "sort_end": "1967-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "delbert_ray_fulkerson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "mathematical_association_of_america",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "lester_r_ford_award",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 2,
+        "quote": "In 1967 Ray was the recipient of one of the Lester R. Ford Awards of the Mathematical Association of America for an expository paper on flows in networks"
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_waterloo_visitor",
+    "event_type": "visit",
+    "label": "Appointed distinguished visitor at University of Waterloo",
+    "date": {
+      "display": "1968",
+      "precision": "year",
+      "sort_start": "1968-01-01",
+      "sort_end": "1968-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "delbert_ray_fulkerson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_waterloo",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 3,
+        "quote": "In 1968 he was appointed distinguished visitor at the University of Waterloo, Canada"
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_waterloo_professor",
+    "event_type": "visit",
+    "label": "Returned to University of Waterloo as visiting professor",
+    "date": {
+      "display": "1971",
+      "precision": "year",
+      "sort_start": "1971-01-01",
+      "sort_end": "1971-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "delbert_ray_fulkerson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_waterloo",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 3,
+        "quote": "and in 1971 he returned as visiting professor."
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_joined_cornell",
+    "event_type": "employment_start",
+    "label": "Joined Cornell University as Maxwell M. Upson Professor",
+    "date": {
+      "display": "fall of 1971",
+      "precision": "season",
+      "sort_start": "1971-09-01",
+      "sort_end": "1971-11-30"
+    },
+    "participants": [
+      {
+        "entity_id": "delbert_ray_fulkerson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cornell_university",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 3,
+        "quote": "In the fall of 1971, Ray joined the Department of Operations Research in the College of Engineering at Cornell as the Maxwell M. Upson Professor of Engineering and professor of operations research and applied mathematics."
+      }
+    ]
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "scherbius_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1878",
+      "precision": "year",
+      "sort_start": "1878-01-01",
+      "sort_end": "1878-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_scherbius",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "taaks_scherbius_enigma",
+        "page": 1,
+        "quote": "Arthur Scherbius (1878-1929)"
+      }
+    ]
+  },
+  {
+    "id": "scherbius_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1929",
+      "precision": "year",
+      "sort_start": "1929-01-01",
+      "sort_end": "1929-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_scherbius",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "taaks_scherbius_enigma",
+        "page": 1,
+        "quote": "Arthur Scherbius (1878-1929)"
+      }
+    ]
+  },
+  {
+    "id": "scherbius_radiators",
+    "event_type": "invention",
+    "label": "Invented ceramic radiator processes",
+    "date": {
+      "display": "1914",
+      "precision": "year",
+      "sort_start": "1914-01-01",
+      "sort_end": "1914-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_scherbius",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "taaks_scherbius_enigma",
+        "page": 1,
+        "quote": "In 1914, Arthur Scherbius (1878-1929) decided to contribute to the war effort and, in conjunction with a well-known ceramics manufacturer, he invented processes for making radiators out of ceramic instead of metal."
+      }
+    ]
+  },
+  {
+    "id": "scherbius_drafted",
+    "event_type": "employment_start",
+    "label": "Drafted into telegraph troops",
+    "date": {
+      "display": "October 1915",
+      "precision": "month",
+      "sort_start": "1915-10-01",
+      "sort_end": "1915-10-31"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_scherbius",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "taaks_scherbius_enigma",
+        "page": 1,
+        "quote": "In October 1915, he was drafted into the telegraph troops"
+      }
+    ]
+  },
+  {
+    "id": "scherbius_wumba",
+    "event_type": "role_change",
+    "label": "Seconded to WuMBA",
+    "date": {
+      "display": "1st February 1917",
+      "precision": "day",
+      "sort_start": "1917-02-01",
+      "sort_end": "1917-02-01"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_scherbius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "wumba",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "taaks_scherbius_enigma",
+        "page": 1,
+        "quote": "On 1st February 1917, he was seconded to the Weapons and Munitions Procurement Office (WuMBA)"
+      }
+    ]
+  },
+  {
+    "id": "cipher_machine_order",
+    "event_type": "other",
+    "label": "Ordered to develop cipher machine",
+    "date": {
+      "display": "spring of 1917",
+      "precision": "season",
+      "sort_start": "1917-03-01",
+      "sort_end": "1917-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_scherbius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "german_war_ministry",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "taaks_scherbius_enigma",
+        "page": 1,
+        "quote": "In the spring of 1917, most likely at his transfer to the WuMBA, Scherbius received the order from the War Ministry to develop a cipher machine."
+      }
+    ]
+  },
+  {
+    "id": "first_patent",
+    "event_type": "patent_filed",
+    "label": "Applied for first rotor machine patent",
+    "date": {
+      "display": "23rd February 1918",
+      "precision": "day",
+      "sort_start": "1918-02-23",
+      "sort_end": "1918-02-23"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_scherbius",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "taaks_scherbius_enigma",
+        "page": 1,
+        "quote": "As is well known, Scherbius applied for the first patent of his rotor machine on 23rd February 1918."
+      }
+    ]
+  },
+  {
+    "id": "scherbius_ritter_founded",
+    "event_type": "company_founded",
+    "label": "Scherbius & Ritter founded",
+    "date": {
+      "display": "1st April 1920",
+      "precision": "day",
+      "sort_start": "1920-04-01",
+      "sort_end": "1920-04-01"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_scherbius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "scherbius_ritter",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "taaks_scherbius_enigma",
+        "page": 1,
+        "quote": "On 1st April the company \"Scherbius & Ritter\" was founded to develop and produce cipher machines and Birka controllers (thermostats) for household appliances, especially heating pads."
+      }
+    ]
+  },
+  {
+    "id": "patent_de425147_filed",
+    "event_type": "patent_filed",
+    "label": "Applied for patent DE425147",
+    "date": {
+      "display": "26th September 1920",
+      "precision": "day",
+      "sort_start": "1920-09-26",
+      "sort_end": "1920-09-26"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_scherbius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "patent_de425147",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "taaks_scherbius_enigma",
+        "page": 1,
+        "quote": "On 26th September 1920, Scherbius applied for the patent of a writing machine, DE425147"
+      }
+    ]
+  },
+  {
+    "id": "patents_transferred_securitas",
+    "event_type": "other",
+    "label": "Transferred patents to Gewerkschaft Securitas",
+    "date": {
+      "display": "21st November 1921",
+      "precision": "day",
+      "sort_start": "1921-11-21",
+      "sort_end": "1921-11-21"
+    },
+    "participants": [
+      {
+        "entity_id": "arthur_scherbius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "gewerkschaft_securitas",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "taaks_scherbius_enigma",
+        "page": 1,
+        "quote": "On 21st November 1921, Scherbius transferred 10 patents (1 granted, 9 pending) to the \"Gewerkschaft Securitas\""
+      }
+    ]
+  },
+  {
+    "id": "chimaag_founded",
+    "event_type": "company_founded",
+    "label": "Chiffriermaschinen AG founded",
+    "date": {
+      "display": "9th July 1923",
+      "precision": "day",
+      "sort_start": "1923-07-09",
+      "sort_end": "1923-07-09"
+    },
+    "participants": [
+      {
+        "entity_id": "chiffriermaschinen_ag",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "taaks_scherbius_enigma",
+        "page": 1,
+        "quote": "On 9th July, Chiffriermaschinen AG (ChiMaAG) was founded in Berlin."
+      }
+    ]
+  },
+  {
+    "id": "enigma_demonstration_berne",
+    "event_type": "public_demonstration",
+    "label": "Enigma demonstrated at Universal Postal Union Congress",
+    "date": {
+      "display": "11th December 1923",
+      "precision": "day",
+      "sort_start": "1923-12-11",
+      "sort_end": "1923-12-11"
+    },
+    "participants": [
+      {
+        "entity_id": "chiffriermaschinen_ag",
+        "role": "subject"
+      },
+      {
+        "entity_id": "enigma",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "taaks_scherbius_enigma",
+        "page": 1,
+        "quote": "On 11th December, ChiMaAG demonstrated the Enigma at the Congress of the Universal Postal Union in Berne"
+      }
+    ]
+  },
+  {
+    "id": "hofle_arrested",
+    "event_type": "other",
+    "label": "Post Minister Höfle arrested",
+    "date": {
+      "display": "10th February 1925",
+      "precision": "day",
+      "sort_start": "1925-02-10",
+      "sort_end": "1925-02-10"
+    },
+    "participants": [
+      {
+        "entity_id": "anton_hofle",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "taaks_scherbius_enigma",
+        "page": 1,
+        "quote": "On 10th February, Post Minister Anton Höfle was arrested for embezzlement and passive bribery."
+      }
+    ]
+  },
+  {
+    "id": "chimaag_ruined",
+    "event_type": "other",
+    "label": "ChiMaAG ruined",
+    "date": {
+      "display": "1925",
+      "precision": "year",
+      "sort_start": "1925-01-01",
+      "sort_end": "1925-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "chiffriermaschinen_ag",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "taaks_scherbius_enigma",
+        "page": 1,
+        "quote": "ChiMaAG was ruined."
+      }
+    ]
+  }
+]

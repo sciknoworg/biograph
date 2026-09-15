@@ -1,0 +1,124 @@
+[
+  {
+    "id": "snellius_born_in_leiden",
+    "source": "willebrord_snellius",
+    "type": "born_in",
+    "target": "leiden",
+    "event_id": "snellius_birth",
+    "sources": [
+      {
+        "source_id": "de_wreede_2007",
+        "page": 17,
+        "quote": "Willebrord was born in Leiden"
+      }
+    ]
+  },
+  {
+    "id": "snellius_son_of_rudolph",
+    "source": "willebrord_snellius",
+    "type": "family_of",
+    "target": "rudolph_snellius",
+    "note": "Father",
+    "sources": [
+      {
+        "source_id": "de_wreede_2007",
+        "page": 17,
+        "quote": "His parents were Rudolph Snellius and Machtelt Cornelisdochter"
+      }
+    ]
+  },
+  {
+    "id": "snellius_worked_at_leiden",
+    "source": "willebrord_snellius",
+    "type": "worked_at",
+    "target": "leiden_university",
+    "sources": [
+      {
+        "source_id": "de_wreede_2007",
+        "page": 3,
+        "quote": "he became first a teacher and then a full professor of mathematics at the University of Leiden"
+      }
+    ]
+  },
+  {
+    "id": "snellius_student_of_ceulen",
+    "source": "willebrord_snellius",
+    "type": "educated_by",
+    "target": "ludolph_van_ceulen",
+    "sources": [
+      {
+        "source_id": "de_wreede_2007",
+        "page": 19,
+        "quote": "He was a pupil of Ludolph van Ceulen"
+      }
+    ]
+  },
+  {
+    "id": "snellius_student_of_scaliger",
+    "source": "willebrord_snellius",
+    "type": "educated_by",
+    "target": "josephus_justus_scaliger",
+    "sources": [
+      {
+        "source_id": "de_wreede_2007",
+        "page": 25,
+        "quote": "Josephus Justus Scaliger... was to play a vital role in the humanist education of a whole series of talented young men, including Snellius."
+      }
+    ]
+  },
+  {
+    "id": "snellius_visited_tycho",
+    "source": "willebrord_snellius",
+    "type": "visited",
+    "target": "tycho_brahe",
+    "event_id": "snellius_visit_tycho",
+    "sources": [
+      {
+        "source_id": "de_wreede_2007",
+        "page": 47,
+        "quote": "Snellius then went to Prague, where his patron Romanus, who was summoned by Emperor Rudolph II, introduced him to Tycho Brahe."
+      }
+    ]
+  },
+  {
+    "id": "snellius_patronized_by_maurice",
+    "source": "willebrord_snellius",
+    "type": "collaborated_with",
+    "target": "maurice_of_hessen",
+    "note": "Patronage relationship",
+    "sources": [
+      {
+        "source_id": "de_wreede_2007",
+        "page": 50,
+        "quote": "Rudolph Snellius was preparing a trip to his patron Landgrave Maurice of Hessen... he made Willebrord come there as well, realizing the value of the patronage of the Landgrave for the career of his son."
+      }
+    ]
+  },
+  {
+    "id": "snellius_discovered_refraction",
+    "source": "willebrord_snellius",
+    "type": "invented",
+    "target": "law_of_refraction",
+    "sources": [
+      {
+        "source_id": "de_wreede_2007",
+        "page": 3,
+        "quote": "The achievement that makes Snellius's name still sound familiar to many nowadays, the discovery of the Law of Refraction of light, was made public posthumously."
+      }
+    ]
+  },
+  {
+    "id": "snellius_wrote_eratosthenes",
+    "source": "willebrord_snellius",
+    "type": "published",
+    "target": "eratosthenes_batavus",
+    "event_id": "snellius_publication_eratosthenes",
+    "sources": [
+      {
+        "source_id": "de_wreede_2007",
+        "page": 54,
+        "quote": "1617 Eratosthenes Batavus"
+      }
+    ]
+  }
+]

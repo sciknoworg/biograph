@@ -1,0 +1,278 @@
+[
+  {
+    "id": "cramer_born_stockholm",
+    "source": "harald_cramer",
+    "type": "born_in",
+    "target": "stockholm",
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 1,
+        "quote": "Harald Cramer was born in Stockholm"
+      }
+    ]
+  },
+  {
+    "id": "cramer_studied_stockholm_uni",
+    "source": "harald_cramer",
+    "type": "studied_at",
+    "target": "stockholm_university",
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 1,
+        "quote": "and studied mathematics and chemistry at the Stockholm University."
+      }
+    ]
+  },
+  {
+    "id": "cramer_worked_svenska_lif",
+    "source": "harald_cramer",
+    "type": "employed_by",
+    "target": "svenska_lif",
+    "start": {
+      "display": "1920",
+      "precision": "year",
+      "sort_start": "1920-01-01",
+      "sort_end": "1920-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 1,
+        "quote": "In 1920 he became the actuary of the mutual life insurance company Svenska Lif"
+      }
+    ]
+  },
+  {
+    "id": "cramer_worked_sverige",
+    "source": "harald_cramer",
+    "type": "employed_by",
+    "target": "sverige",
+    "start": {
+      "display": "1928",
+      "precision": "year",
+      "sort_start": "1928-01-01",
+      "sort_end": "1928-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 1,
+        "quote": "and 1928 of the Swedish reinsurance company Sverige."
+      }
+    ]
+  },
+  {
+    "id": "cramer_worked_stockholm_hogskola",
+    "source": "harald_cramer",
+    "type": "worked_at",
+    "target": "stockholm_university",
+    "start": {
+      "display": "1929",
+      "precision": "year",
+      "sort_start": "1929-01-01",
+      "sort_end": "1929-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 1,
+        "quote": "Harald Cramer was appointed professor at Stockholm's Hogskola in 1929"
+      }
+    ]
+  },
+  {
+    "id": "cramer_head_institute",
+    "source": "harald_cramer",
+    "type": "worked_at",
+    "target": "institute_of_insurance_mathematics",
+    "start": {
+      "display": "1929",
+      "precision": "year",
+      "sort_start": "1929-01-01",
+      "sort_end": "1929-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 1,
+        "quote": "and became the head of the Institute of Insurance Mathematics and Mathematical Statistics."
+      }
+    ]
+  },
+  {
+    "id": "cramer_member_astin",
+    "source": "harald_cramer",
+    "type": "member_of",
+    "target": "astin",
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 1,
+        "quote": "Cramer took part in the planning of ASTIN (Actuarial Studies In Non-life insurance) before and during the international congress of actuaries in New York 1957."
+      }
+    ]
+  },
+  {
+    "id": "cramer_president_ssa",
+    "source": "harald_cramer",
+    "type": "member_of",
+    "target": "swedish_society_of_actuaries",
+    "start": {
+      "display": "1935-1964",
+      "precision": "range",
+      "sort_start": "1935-01-01",
+      "sort_end": "1964-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 2,
+        "quote": "Harald Cramer was the President of the Swedish Society of Actuaries in 1935-1964"
+      }
+    ]
+  },
+  {
+    "id": "cramer_editor_sat",
+    "source": "harald_cramer",
+    "type": "worked_at",
+    "target": "sat",
+    "start": {
+      "display": "1940-1963",
+      "precision": "range",
+      "sort_start": "1940-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 2,
+        "quote": "He was chief editor of SAT 1940-1963."
+      }
+    ]
+  },
+  {
+    "id": "cramer_collaborated_feller",
+    "source": "harald_cramer",
+    "type": "collaborated_with",
+    "target": "willy_feller",
+    "start": {
+      "display": "1934-1939",
+      "precision": "range",
+      "sort_start": "1934-01-01",
+      "sort_end": "1939-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 1,
+        "quote": "Willy Feller was one of the collaborators at the institute during the years 1934-1939."
+      }
+    ]
+  },
+  {
+    "id": "cramer_mentored_lundberg",
+    "source": "harald_cramer",
+    "type": "mentored",
+    "target": "filip_lundberg",
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 1,
+        "quote": "Cramer published in SAT 1926 a review of 22 pages on Filip Lundberg's publications in collective risk theory, with applications to life and sickness insurance."
+      }
+    ]
+  },
+  {
+    "id": "riesz_stimulated_cramer",
+    "source": "marcel_riesz",
+    "type": "mentored",
+    "target": "harald_cramer",
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 1,
+        "quote": "Marcel Riesz, one of the two famous Hungarian brothers who both became professors in mathematics—one in Sweden and the other in U.S.A.—stimulated Cramer's research in actuarial mathematics and the theory of probability."
+      }
+    ]
+  },
+  {
+    "id": "cramer_awarded_princeton",
+    "source": "harald_cramer",
+    "type": "awarded",
+    "target": "princeton_university",
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 2,
+        "quote": "He became Honorary Doctor at Princeton, Copenhagen, Stockholm, Helsingfors, Edinburgh, Paris and Calcutta."
+      }
+    ]
+  },
+  {
+    "id": "cramer_awarded_copenhagen",
+    "source": "harald_cramer",
+    "type": "awarded",
+    "target": "copenhagen_university",
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 2,
+        "quote": "He became Honorary Doctor at Princeton, Copenhagen, Stockholm, Helsingfors, Edinburgh, Paris and Calcutta."
+      }
+    ]
+  },
+  {
+    "id": "cramer_awarded_helsingfors",
+    "source": "harald_cramer",
+    "type": "awarded",
+    "target": "helsingfors_university",
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 2,
+        "quote": "He became Honorary Doctor at Princeton, Copenhagen, Stockholm, Helsingfors, Edinburgh, Paris and Calcutta."
+      }
+    ]
+  },
+  {
+    "id": "cramer_awarded_edinburgh",
+    "source": "harald_cramer",
+    "type": "awarded",
+    "target": "edinburgh_university",
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 2,
+        "quote": "He became Honorary Doctor at Princeton, Copenhagen, Stockholm, Helsingfors, Edinburgh, Paris and Calcutta."
+      }
+    ]
+  },
+  {
+    "id": "cramer_awarded_paris",
+    "source": "harald_cramer",
+    "type": "awarded",
+    "target": "paris_university",
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 2,
+        "quote": "He became Honorary Doctor at Princeton, Copenhagen, Stockholm, Helsingfors, Edinburgh, Paris and Calcutta."
+      }
+    ]
+  },
+  {
+    "id": "cramer_awarded_calcutta",
+    "source": "harald_cramer",
+    "type": "awarded",
+    "target": "calcutta_university",
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 2,
+        "quote": "He became Honorary Doctor at Princeton, Copenhagen, Stockholm, Helsingfors, Edinburgh, Paris and Calcutta."
+      }
+    ]
+  }
+]

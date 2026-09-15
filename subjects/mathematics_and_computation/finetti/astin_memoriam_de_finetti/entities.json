@@ -1,0 +1,156 @@
+[
+  {
+    "aliases": [
+      "Prof, de Finetti",
+      "Prof. Bruno de Finetti",
+      "de Finetti"
+    ],
+    "entity_type": "person",
+    "id": "bruno_de_finetti",
+    "name": "Bruno de Finetti",
+    "subtype": "researcher",
+    "summary": "Italian mathematician known for work in probability theory, actuarial science, and statistics."
+  },
+  {
+    "aliases": [
+      "GlOVANNA FERRARA"
+    ],
+    "entity_type": "person",
+    "id": "giovanna_ferrara",
+    "name": "Giovanna Ferrara",
+    "subtype": "author",
+    "summary": "Author of this memorial essay on Bruno de Finetti."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "city": "Milan",
+      "country": "Italy"
+    },
+    "entity_type": "organization",
+    "id": "polytechnic_institute_milan",
+    "name": "Polytechnic Institute of Milan",
+    "subtype": "university",
+    "summary": "Engineering university in Milan where de Finetti obtained his degree."
+  },
+  {
+    "aliases": [
+      "Central Statistical Institute"
+    ],
+    "entity_type": "organization",
+    "id": "istituto_centrale_di_statistica",
+    "name": "Istituto Centrale di Statistica",
+    "subtype": "government_agency",
+    "summary": "Italian national statistical institute where de Finetti worked as chief of mathematical office."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "assicurazioni_generali",
+    "name": "Assicurazioni Generali",
+    "subtype": "company",
+    "summary": "Italian insurance company where de Finetti worked in actuarial office."
+  },
+  {
+    "aliases": [
+      "universities of Trieste",
+      "Trieste"
+    ],
+    "entity_type": "organization",
+    "id": "university_of_trieste",
+    "name": "University of Trieste",
+    "subtype": "university",
+    "summary": "University where de Finetti taught Mathematics and Probability Theory."
+  },
+  {
+    "aliases": [
+      "universities of Rome",
+      "Rome"
+    ],
+    "entity_type": "organization",
+    "id": "university_of_rome",
+    "name": "University of Rome",
+    "subtype": "university",
+    "summary": "University where de Finetti taught Mathematics and Probability Theory."
+  },
+  {
+    "aliases": [
+      "ASTIN"
+    ],
+    "entity_type": "organization",
+    "id": "astin_association",
+    "name": "ASTIN association",
+    "subtype": "professional_association",
+    "summary": "International actuarial association that de Finetti followed from its beginning."
+  },
+  {
+    "aliases": [
+      "Logic and Intuitive Mathematics"
+    ],
+    "entity_type": "artifact",
+    "id": "matematica_logico_intuitiva",
+    "name": "Matematica Logico Intuitiva",
+    "subtype": "publication",
+    "summary": "Book by de Finetti on logic and intuitive mathematics."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Italy",
+      "lat": 45.46694,
+      "lng": 9.19,
+      "wikidata_qid": "Q490",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "milan",
+    "name": "Milan",
+    "subtype": "city",
+    "summary": "City in Italy where the Polytechnic Institute is located."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Italy",
+      "lat": 45.65028,
+      "lng": 13.77028,
+      "wikidata_qid": "Q546",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "trieste",
+    "name": "Trieste",
+    "subtype": "city",
+    "summary": "City in Italy where a university is located."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Italy",
+      "lat": 41.89306,
+      "lng": 12.48278,
+      "wikidata_qid": "Q220",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "rome",
+    "name": "Rome",
+    "subtype": "city",
+    "summary": "City in Italy where a university is located."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Italy",
+      "lat": 37.85179,
+      "lng": 15.28565,
+      "wikidata_qid": "Q199952",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "taormina",
+    "name": "Taormina",
+    "subtype": "city",
+    "summary": "City in Italy where de Finetti gave a lecture."
+  }
+]

@@ -1,0 +1,495 @@
+[
+  {
+    "id": "fulkerson_born_tamms",
+    "source": "delbert_ray_fulkerson",
+    "type": "born_in",
+    "target": "tamms_illinois",
+    "event_id": "fulkerson_birth",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "Born in Tamms, Illinois, Ray was the third of six children of Elbert and Emma Fulkerson."
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_son_elbert",
+    "source": "delbert_ray_fulkerson",
+    "type": "family_of",
+    "target": "elbert_fulkerson",
+    "note": "Elbert Fulkerson was Ray's father",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "Born in Tamms, Illinois, Ray was the third of six children of Elbert and Emma Fulkerson."
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_son_emma",
+    "source": "delbert_ray_fulkerson",
+    "type": "family_of",
+    "target": "emma_fulkerson",
+    "note": "Emma Fulkerson was Ray's mother",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "Born in Tamms, Illinois, Ray was the third of six children of Elbert and Emma Fulkerson."
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_studied_siu",
+    "source": "delbert_ray_fulkerson",
+    "type": "studied_at",
+    "target": "southern_illinois_university",
+    "event_id": "fulkerson_enrolled_siu",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "In September 1941 Ray enrolled in Southern Illinois University."
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_employed_air_corps",
+    "source": "delbert_ray_fulkerson",
+    "type": "employed_by",
+    "target": "us_army_air_corps",
+    "start": {
+      "display": "January 1942",
+      "precision": "month",
+      "sort_start": "1942-01-01",
+      "sort_end": "1942-01-31"
+    },
+    "end": {
+      "display": "June 1946",
+      "precision": "month",
+      "sort_start": "1946-06-01",
+      "sort_end": "1946-06-30"
+    },
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "in January 1942 he joined the U.S. Army Air Corps where he received training as a meteorologist. In June 1946 he received an honorable discharge from the Air Corps as a first lieutenant"
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_studied_wisconsin",
+    "source": "delbert_ray_fulkerson",
+    "type": "studied_at",
+    "target": "university_of_wisconsin",
+    "event_id": "fulkerson_ms_wisconsin",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "He received his M.S. and Ph.D. degrees in mathematics at the University of Wisconsin in 1948 and 1951."
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_worked_rand",
+    "source": "delbert_ray_fulkerson",
+    "type": "worked_at",
+    "target": "rand_corporation",
+    "start": {
+      "display": "March 1951",
+      "precision": "month",
+      "sort_start": "1951-03-01",
+      "sort_end": "1951-03-31"
+    },
+    "end": {
+      "display": "fall 1971",
+      "precision": "season",
+      "sort_start": "1971-09-01",
+      "sort_end": "1971-11-30"
+    },
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 1,
+        "quote": "Ray joined the Mathematics Department of Rand in March 1951. He would spend more than twenty exciting and extremely productive years there"
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_collaborated_dantzig",
+    "source": "delbert_ray_fulkerson",
+    "type": "collaborated_with",
+    "target": "george_dantzig",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 2,
+        "quote": "When Dr. George Dantzig moved to Rand from the Air Force in June 1952, he and Ray became close personal and professional friends, a relationship that would last throughout the years."
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_collaborated_johnson",
+    "source": "delbert_ray_fulkerson",
+    "type": "collaborated_with",
+    "target": "selmer_johnson",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 2,
+        "quote": "the second, with Dantzig and Dr. Selmer Johnson, solved a forty-nine-city, \"traveling salesman\" problem"
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_collaborated_ford",
+    "source": "delbert_ray_fulkerson",
+    "type": "collaborated_with",
+    "target": "lester_r_ford_jr",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 2,
+        "quote": "The interaction between Fulkerson, Dantzig, and later Dr. Lester R. Ford, Jr., led to some fundamental contributions to mathematical programming."
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_invented_flows_networks",
+    "source": "delbert_ray_fulkerson",
+    "type": "invented",
+    "target": "flows_in_networks",
+    "event_id": "flows_in_networks_published",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 2,
+        "quote": "The celebrated Ford-Fulkerson book on Flows in Networks, which appeared in 1962, was an outgrowth of their earlier collaboration"
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_awarded_lanchester_1954",
+    "source": "delbert_ray_fulkerson",
+    "type": "awarded",
+    "target": "lanchester_prize",
+    "event_id": "fulkerson_lanchester_1954",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 2,
+        "quote": "the latter paper received honorable mention for the 1954 Lanchester Prize given by the Operations Research Society of America (ORSA)."
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_awarded_lanchester_1962",
+    "source": "delbert_ray_fulkerson",
+    "type": "awarded",
+    "target": "lanchester_prize",
+    "event_id": "fulkerson_lanchester_1962",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 2,
+        "quote": "it received honorable mention for the Lanchester Prize of ORSA"
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_awarded_ford_award",
+    "source": "delbert_ray_fulkerson",
+    "type": "awarded",
+    "target": "lester_r_ford_award",
+    "event_id": "fulkerson_ford_award",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 2,
+        "quote": "In 1967 Ray was the recipient of one of the Lester R. Ford Awards of the Mathematical Association of America for an expository paper on flows in networks"
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_worked_ucla",
+    "source": "delbert_ray_fulkerson",
+    "type": "worked_at",
+    "target": "university_of_california_los_angeles",
+    "start": {
+      "display": "1958",
+      "precision": "year",
+      "sort_start": "1958-01-01",
+      "sort_end": "1958-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 3,
+        "quote": "In 1958 he taught what was probably the first course in network flow theory, at the University of California, Los Angeles."
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_worked_berkeley",
+    "source": "delbert_ray_fulkerson",
+    "type": "worked_at",
+    "target": "university_of_california_berkeley",
+    "start": {
+      "display": "1963",
+      "precision": "year",
+      "sort_start": "1963-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 3,
+        "quote": "In 1963 he was visiting professor at the University of California, Berkeley"
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_worked_stanford",
+    "source": "delbert_ray_fulkerson",
+    "type": "worked_at",
+    "target": "stanford_university",
+    "start": {
+      "display": "1966",
+      "precision": "year",
+      "sort_start": "1966-01-01",
+      "sort_end": "1966-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 3,
+        "quote": "and in 1966 at Stanford University."
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_worked_waterloo",
+    "source": "delbert_ray_fulkerson",
+    "type": "worked_at",
+    "target": "university_of_waterloo",
+    "start": {
+      "display": "1968",
+      "precision": "year",
+      "sort_start": "1968-01-01",
+      "sort_end": "1968-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 3,
+        "quote": "In 1968 he was appointed distinguished visitor at the University of Waterloo, Canada, and in 1971 he returned as visiting professor."
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_worked_cornell",
+    "source": "delbert_ray_fulkerson",
+    "type": "worked_at",
+    "target": "cornell_university",
+    "start": {
+      "display": "fall of 1971",
+      "precision": "season",
+      "sort_start": "1971-09-01",
+      "sort_end": "1971-11-30"
+    },
+    "end": {
+      "display": "January 10, 1976",
+      "precision": "day",
+      "sort_start": "1976-01-10",
+      "sort_end": "1976-01-10"
+    },
+    "event_id": "fulkerson_joined_cornell",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 3,
+        "quote": "In the fall of 1971, Ray joined the Department of Operations Research in the College of Engineering at Cornell as the Maxwell M. Upson Professor of Engineering and professor of operations research and applied mathematics."
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_member_ams",
+    "source": "delbert_ray_fulkerson",
+    "type": "member_of",
+    "target": "american_mathematical_society",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 3,
+        "quote": "At the time of his death he was a member of the American Mathematical Society"
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_member_maa",
+    "source": "delbert_ray_fulkerson",
+    "type": "member_of",
+    "target": "mathematical_association_of_america",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 3,
+        "quote": "the Mathematical Association of America"
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_member_mps",
+    "source": "delbert_ray_fulkerson",
+    "type": "member_of",
+    "target": "mathematical_programming_society",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 3,
+        "quote": "the Mathematical Programming Society"
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_member_orsa",
+    "source": "delbert_ray_fulkerson",
+    "type": "member_of",
+    "target": "operations_research_society_of_america",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 3,
+        "quote": "the Operations Research Society of America"
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_member_siam",
+    "source": "delbert_ray_fulkerson",
+    "type": "member_of",
+    "target": "society_for_industrial_and_applied_mathematics",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 3,
+        "quote": "the Society for Industrial and Applied Mathematics"
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_member_ims",
+    "source": "delbert_ray_fulkerson",
+    "type": "member_of",
+    "target": "institute_of_management_sciences",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 3,
+        "quote": "and the Institute of Management Sciences."
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_father_guy",
+    "source": "delbert_ray_fulkerson",
+    "type": "family_of",
+    "target": "guy_emmet_fulkerson",
+    "note": "Guy Emmet was Ray's son",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 4,
+        "quote": "Ray is survived by two sons, Guy Emmet of La Jolla, California, and Lee Alan of Santa Monica, California"
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_father_lee",
+    "source": "delbert_ray_fulkerson",
+    "type": "family_of",
+    "target": "lee_alan_fulkerson",
+    "note": "Lee Alan was Ray's son",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 4,
+        "quote": "Ray is survived by two sons, Guy Emmet of La Jolla, California, and Lee Alan of Santa Monica, California"
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_married_eleanor",
+    "source": "delbert_ray_fulkerson",
+    "type": "married_to",
+    "target": "eleanor_fulkerson",
+    "note": "Eleanor was Ray's former wife",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 4,
+        "quote": "his former wife, Eleanor, of Santa Monica, California"
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_brother_merle",
+    "source": "delbert_ray_fulkerson",
+    "type": "family_of",
+    "target": "merle_guthrie",
+    "note": "Merle Guthrie was Ray's sister",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 4,
+        "quote": "two sisters, Mrs. Merle Guthrie of Belleville, Illinois, and Mrs. June Todd of Skokie, Illinois"
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_brother_june",
+    "source": "delbert_ray_fulkerson",
+    "type": "family_of",
+    "target": "june_todd",
+    "note": "June Todd was Ray's sister",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 4,
+        "quote": "two sisters, Mrs. Merle Guthrie of Belleville, Illinois, and Mrs. June Todd of Skokie, Illinois"
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_brother_richard",
+    "source": "delbert_ray_fulkerson",
+    "type": "family_of",
+    "target": "richard_fulkerson",
+    "note": "Richard Fulkerson was Ray's brother",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 4,
+        "quote": "and two brothers, Richard Fulkerson of Commerce, Texas, and Glen Fulkerson of San Diego, California."
+      }
+    ]
+  },
+  {
+    "id": "fulkerson_brother_glen",
+    "source": "delbert_ray_fulkerson",
+    "type": "family_of",
+    "target": "glen_fulkerson",
+    "note": "Glen Fulkerson was Ray's brother",
+    "sources": [
+      {
+        "source_id": "cornell_memorial",
+        "page": 4,
+        "quote": "and two brothers, Richard Fulkerson of Commerce, Texas, and Glen Fulkerson of San Diego, California."
+      }
+    ]
+  }
+]

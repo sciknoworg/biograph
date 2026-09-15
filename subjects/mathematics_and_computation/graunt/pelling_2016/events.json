@@ -1,0 +1,570 @@
+[
+  {
+    "id": "graunt_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "description": "John Graunt was born in 1620.",
+    "date": {
+      "display": "1620",
+      "precision": "year",
+      "sort_start": "1620-01-01",
+      "sort_end": "1620-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_graunt",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 3,
+        "quote": "Graunt, John ( 1620–1674)', Oxford dictionary of national biography (ODNB)"
+      }
+    ]
+  },
+  {
+    "id": "graunt_death",
+    "event_type": "death",
+    "label": "Died",
+    "description": "John Graunt died in 1674.",
+    "date": {
+      "display": "1674",
+      "precision": "year",
+      "sort_start": "1674-01-01",
+      "sort_end": "1674-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_graunt",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 3,
+        "quote": "He died in 1674"
+      }
+    ]
+  },
+  {
+    "id": "graunt_published_observations",
+    "event_type": "publication",
+    "label": "Published Natural and Political Observations",
+    "description": "Graunt published the first edition of his Natural and political observations … upon the Bills of Mortality.",
+    "date": {
+      "display": "1662",
+      "precision": "year",
+      "sort_start": "1662-01-01",
+      "sort_end": "1662-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_graunt",
+        "role": "subject"
+      },
+      {
+        "entity_id": "natural_and_political_observations",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 1,
+        "quote": "In 1662, John Graunt, citizen, haberdasher, and Draper of London, published the ﬁrst edition of his Natural and political observations … upon the Bills of Mortality ."
+      }
+    ]
+  },
+  {
+    "id": "graunt_observations_5th_edition",
+    "event_type": "publication",
+    "label": "Observations reached fifth edition",
+    "description": "Graunt's work reached five editions by 1676.",
+    "date": {
+      "display": "1676",
+      "precision": "year",
+      "sort_start": "1676-01-01",
+      "sort_end": "1676-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_graunt",
+        "role": "subject"
+      },
+      {
+        "entity_id": "natural_and_political_observations",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 1,
+        "quote": "This work had considerable impact and reached ﬁve editions by 1676."
+      }
+    ]
+  },
+  {
+    "id": "graunt_recusancy_charge",
+    "event_type": "other",
+    "label": "Charged with recusancy",
+    "description": "Graunt was charged with recusancy in 1674.",
+    "date": {
+      "display": "1674",
+      "precision": "year",
+      "sort_start": "1674-01-01",
+      "sort_end": "1674-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_graunt",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 24,
+        "quote": "he was charged with recusancy in 1674."
+      }
+    ]
+  },
+  {
+    "id": "graunt_retained_offices",
+    "event_type": "employment_end",
+    "label": "Retained public offices until",
+    "description": "Graunt retained public offices until 1673.",
+    "date": {
+      "display": "1673",
+      "precision": "year",
+      "sort_start": "1673-01-01",
+      "sort_end": "1673-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_graunt",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 24,
+        "quote": "Graunt retained public of ﬁces until 1673"
+      }
+    ]
+  },
+  {
+    "id": "petty_told_graunt_catholic",
+    "event_type": "meeting",
+    "label": "Petty told Graunt his Catholicism known",
+    "description": "By 1672 Petty was telling Graunt that his being a Romanist was 'now universally known'.",
+    "date": {
+      "display": "1672",
+      "precision": "year",
+      "sort_start": "1672-01-01",
+      "sort_end": "1672-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "william_petty",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "john_graunt",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 24,
+        "quote": "by 1672 Petty was telling Graunt that his being a Romanist was 'now universally known'."
+      }
+    ]
+  },
+  {
+    "id": "graunt_defence_of_christian_liberty",
+    "event_type": "publication",
+    "label": "Defence of Christian Liberty ascribed",
+    "description": "A defence of Christian liberty (1646) has been ascribed to Graunt.",
+    "date": {
+      "display": "1646",
+      "precision": "year",
+      "sort_start": "1646-01-01",
+      "sort_end": "1646-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_graunt",
+        "role": "subject"
+      },
+      {
+        "entity_id": "defence_of_christian_liberty",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 6,
+        "quote": "this work, and another, A defence of Christian liberty (1646), have been ascribed to him"
+      }
+    ]
+  },
+  {
+    "id": "ochino_invited_to_england",
+    "event_type": "visit",
+    "label": "Ochino invited to England",
+    "description": "Ochino was invited to England in 1547 by Thomas Cranmer.",
+    "date": {
+      "display": "1547",
+      "precision": "year",
+      "sort_start": "1547-01-01",
+      "sort_end": "1547-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bernardino_ochino",
+        "role": "subject"
+      },
+      {
+        "entity_id": "thomas_cranmer",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 14,
+        "quote": "Ochino, by then a religious exile, was invited to England in 1547 by Thomas Cranmer"
+      }
+    ]
+  },
+  {
+    "id": "ochino_dialogue_published",
+    "event_type": "publication",
+    "label": "Ochino's Dialogue published",
+    "description": "Ochino's provocative dialogue on polygamy was published in 1563.",
+    "date": {
+      "display": "1563",
+      "precision": "year",
+      "sort_start": "1563-01-01",
+      "sort_end": "1563-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bernardino_ochino",
+        "role": "subject"
+      },
+      {
+        "entity_id": "dialogue_of_polygamy",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 14,
+        "quote": "Ochino's provocative dialogue on polygamy was published after he had left England, in 1563"
+      }
+    ]
+  },
+  {
+    "id": "pecke_translation_ochino",
+    "event_type": "publication",
+    "label": "Pecke translated Ochino",
+    "description": "The dialogue was translated by Thomas Pecke in 1657.",
+    "date": {
+      "display": "1657",
+      "precision": "year",
+      "sort_start": "1657-01-01",
+      "sort_end": "1657-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_pecke",
+        "role": "subject"
+      },
+      {
+        "entity_id": "dialogue_of_polygamy",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 14,
+        "quote": "The most striking of these is the publication in 1657 of a notorious dialogue on polygamy by Bernardino Ochino... translated by Thomas Pecke"
+      }
+    ]
+  },
+  {
+    "id": "osborne_advice_to_son",
+    "event_type": "publication",
+    "label": "Osborne published Advice to a son",
+    "description": "Osborne's Advice to a son was published in 1654/5 and 1658.",
+    "date": {
+      "display": "1654/5",
+      "precision": "year",
+      "sort_start": "1654-01-01",
+      "sort_end": "1655-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "francis_osborne",
+        "role": "subject"
+      },
+      {
+        "entity_id": "advice_to_a_son",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 14,
+        "quote": "Osborne's Advice to a son (1654/5 and 1658)"
+      }
+    ]
+  },
+  {
+    "id": "heydon_advice_to_daughter",
+    "event_type": "publication",
+    "label": "Heydon published Advice to a daughter",
+    "description": "Heydon published Advice to a daughter in 1659.",
+    "date": {
+      "display": "1659",
+      "precision": "year",
+      "sort_start": "1659-01-01",
+      "sort_end": "1659-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_heydon",
+        "role": "subject"
+      },
+      {
+        "entity_id": "advice_to_a_daughter",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 15,
+        "quote": "Eugenius Theodidactus [John Heydon], Advice to a daughter, in opposition to the Advice to a son (2nd edn, London, 1659)"
+      }
+    ]
+  },
+  {
+    "id": "heydon_ladies_champion",
+    "event_type": "publication",
+    "label": "Heydon published The ladies champion",
+    "description": "Heydon published a second work in 1660.",
+    "date": {
+      "display": "1660",
+      "precision": "year",
+      "sort_start": "1660-01-01",
+      "sort_end": "1660-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_heydon",
+        "role": "subject"
+      },
+      {
+        "entity_id": "the_ladies_champion",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 15,
+        "quote": "In a second work purporting to support the cause of women, published in the following year ( 1660)"
+      }
+    ]
+  },
+  {
+    "id": "browne_religio_medici",
+    "event_type": "publication",
+    "label": "Browne published Religio medici",
+    "description": "Thomas Browne published Religio medici in 1643.",
+    "date": {
+      "display": "1643",
+      "precision": "year",
+      "sort_start": "1643-01-01",
+      "sort_end": "1643-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "sir_thomas_browne",
+        "role": "subject"
+      },
+      {
+        "entity_id": "religio_medici",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 15,
+        "quote": "Thomas Browne, Religio medici (1643"
+      }
+    ]
+  },
+  {
+    "id": "mother_shipton_prophecies_published",
+    "event_type": "publication",
+    "label": "Mother Shipton prophecies published",
+    "description": "Mother Shipton's prophecies were published in various forms from 1641.",
+    "date": {
+      "display": "1641",
+      "precision": "year",
+      "sort_start": "1641-01-01",
+      "sort_end": "1641-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mother_shipton",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 20,
+        "quote": "Her predictions were published in various forms at least twenty times between 1641 and 1700."
+      }
+    ]
+  },
+  {
+    "id": "lilly_prophecies_included",
+    "event_type": "publication",
+    "label": "Lilly included Shipton prophecies",
+    "description": "William Lilly included her prophecies in 1645.",
+    "date": {
+      "display": "1645",
+      "precision": "year",
+      "sort_start": "1645-01-01",
+      "sort_end": "1645-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "william_lilly",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 20,
+        "quote": "In 1645, William Lilly included her prophecies"
+      }
+    ]
+  },
+  {
+    "id": "midwives_petition",
+    "event_type": "publication",
+    "label": "Midwives petition published",
+    "description": "The midwives just petition was published in 1643 and 1646.",
+    "date": {
+      "display": "1643",
+      "precision": "year",
+      "sort_start": "1643-01-01",
+      "sort_end": "1643-12-31"
+    },
+    "participants": [],
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 21,
+        "quote": "The midwives just petition of 1643 and 1646"
+      }
+    ]
+  },
+  {
+    "id": "conference_exeter",
+    "event_type": "conference",
+    "label": "Conference on gender and health",
+    "description": "First version of article given at conference organized by Sarah Toulalan at Exeter.",
+    "date": {
+      "display": "2008",
+      "precision": "year",
+      "sort_start": "2008-01-01",
+      "sort_end": "2008-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "margaret_pelling",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 1,
+        "quote": "The ﬁrst version of this article was given at a conference on gender and health organized by Sarah Toulalan at Exeter in 2008."
+      }
+    ]
+  },
+  {
+    "id": "conference_oxford",
+    "event_type": "conference",
+    "label": "Oxford conference",
+    "description": "Much-revised version heard in Oxford.",
+    "date": {
+      "display": "2012",
+      "precision": "year",
+      "sort_start": "2012-01-01",
+      "sort_end": "2012-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "margaret_pelling",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 1,
+        "quote": "audience who heard a much-revised version in Oxford in 2012"
+      }
+    ]
+  },
+  {
+    "id": "article_published",
+    "event_type": "publication",
+    "label": "Article published",
+    "description": "Pelling's article published in The Historical Journal.",
+    "date": {
+      "display": "2016",
+      "precision": "year",
+      "sort_start": "2016-01-01",
+      "sort_end": "2016-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "margaret_pelling",
+        "role": "subject"
+      },
+      {
+        "entity_id": "historical_journal",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 1,
+        "quote": "The Historical Journal , 59, 3 (2016)"
+      }
+    ]
+  }
+]

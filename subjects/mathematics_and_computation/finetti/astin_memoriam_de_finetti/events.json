@@ -1,0 +1,222 @@
+[
+  {
+    "id": "bruno_de_finetti_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "13th June 1906",
+      "precision": "day",
+      "sort_start": "1906-06-13",
+      "sort_end": "1906-06-13"
+    },
+    "participants": [
+      {
+        "entity_id": "bruno_de_finetti",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "astin_memoriam_de_finetti",
+        "page": 1,
+        "quote": "13th June 1906-20th July 1985"
+      }
+    ]
+  },
+  {
+    "id": "bruno_de_finetti_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "20th July 1985",
+      "precision": "day",
+      "sort_start": "1985-07-20",
+      "sort_end": "1985-07-20"
+    },
+    "participants": [
+      {
+        "entity_id": "bruno_de_finetti",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "astin_memoriam_de_finetti",
+        "page": 1,
+        "quote": "On 20th July 1985, the scientific world lost one of its greatest personalities, when\nProf. Bruno de Finetti died."
+      }
+    ]
+  },
+  {
+    "id": "bruno_de_finetti_degree",
+    "event_type": "education",
+    "label": "Received degree in Applied Mathematics",
+    "description": "Got degree in Applied Mathematics at the Polytechnic Institute of Milan.",
+    "date": {
+      "display": "1927",
+      "precision": "year",
+      "sort_start": "1927-01-01",
+      "sort_end": "1927-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bruno_de_finetti",
+        "role": "subject"
+      },
+      {
+        "entity_id": "polytechnic_institute_milan",
+        "role": "educating_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "astin_memoriam_de_finetti",
+        "page": 1,
+        "quote": "After getting  his degree in\nApplied Mathematics at the Polytechnic Institute of Milan, in 1927, he preferred\nto devote his activity to practical fields."
+      }
+    ]
+  },
+  {
+    "id": "bruno_de_finetti_ics_start",
+    "event_type": "employment_start",
+    "label": "Started at Istituto Centrale di Statistica",
+    "description": "Worked as the chief of the mathematical office.",
+    "date": {
+      "display": "1927",
+      "precision": "year",
+      "sort_start": "1927-01-01",
+      "sort_end": "1927-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bruno_de_finetti",
+        "role": "subject"
+      },
+      {
+        "entity_id": "istituto_centrale_di_statistica",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "astin_memoriam_de_finetti",
+        "page": 1,
+        "quote": "From 1927 to 1931 he worked as the chief of the mathematical office for the\nIstituto Centrale di Statistica (Central Statistical Institute)."
+      }
+    ]
+  },
+  {
+    "id": "bruno_de_finetti_ics_end",
+    "event_type": "employment_end",
+    "label": "Left Istituto Centrale di Statistica",
+    "date": {
+      "display": "1931",
+      "precision": "year",
+      "sort_start": "1931-01-01",
+      "sort_end": "1931-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bruno_de_finetti",
+        "role": "subject"
+      },
+      {
+        "entity_id": "istituto_centrale_di_statistica",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "astin_memoriam_de_finetti",
+        "page": 1,
+        "quote": "From 1927 to 1931 he worked as the chief of the mathematical office for the\nIstituto Centrale di Statistica (Central Statistical Institute)."
+      }
+    ]
+  },
+  {
+    "id": "bruno_de_finetti_life_tables",
+    "event_type": "invention",
+    "label": "Built first Italian life tables",
+    "description": "Built up the first Italian life tables based on census results.",
+    "date": {
+      "display": "1927 to 1931",
+      "precision": "range",
+      "sort_start": "1927-01-01",
+      "sort_end": "1931-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bruno_de_finetti",
+        "role": "subject"
+      },
+      {
+        "entity_id": "istituto_centrale_di_statistica",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "astin_memoriam_de_finetti",
+        "page": 1,
+        "quote": "During this period he devoted his  rigour and  energy to  carrying out  fundamental studies in the\ndemographic field and to building up the first Italian life tables based on census\nresults."
+      }
+    ]
+  },
+  {
+    "id": "bruno_de_finetti_ag_start",
+    "event_type": "employment_start",
+    "label": "Started at Assicurazioni Generali",
+    "description": "Employed firstly at the actuarial office and later as the head of the reform of all procedures.",
+    "date": {
+      "display": "1931",
+      "precision": "year",
+      "sort_start": "1931-01-01",
+      "sort_end": "1931-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bruno_de_finetti",
+        "role": "subject"
+      },
+      {
+        "entity_id": "assicurazioni_generali",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "astin_memoriam_de_finetti",
+        "page": 1,
+        "quote": "From 1931 until 1946 he was employed by the  Assicurazioni Generali\nfirstly at  the actuarial office and later as the head of the reform of all procedures\nfollowing the introduction of punch card equipment."
+      }
+    ]
+  },
+  {
+    "id": "bruno_de_finetti_ag_end",
+    "event_type": "employment_end",
+    "label": "Left Assicurazioni Generali",
+    "date": {
+      "display": "1946",
+      "precision": "year",
+      "sort_start": "1946-01-01",
+      "sort_end": "1946-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "bruno_de_finetti",
+        "role": "subject"
+      },
+      {
+        "entity_id": "assicurazioni_generali",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "astin_memoriam_de_finetti",
+        "page": 1,
+        "quote": "From 1931 until 1946 he was employed by the  Assicurazioni Generali\nfirstly at  the actuarial office and later as the head of the reform of all procedures\nfollowing the introduction of punch card equipment."
+      }
+    ]
+  }
+]

@@ -1,0 +1,249 @@
+[
+  {
+    "aliases": [
+      "Anthony",
+      "Antoni Jenkinson"
+    ],
+    "entity_type": "person",
+    "id": "anthony_jenkinson",
+    "name": "Anthony Jenkinson",
+    "subtype": "trader",
+    "summary": "English merchant, diplomat, official ambassador to the Safavid Empire, and one of the first English cartographers."
+  },
+  {
+    "aliases": [
+      "Dr. Lamiya Gafar-Zada"
+    ],
+    "entity_type": "person",
+    "id": "lamiya_gafar_zada",
+    "name": "Lamiya Gafar-Zada",
+    "subtype": "researcher",
+    "summary": "Author of the article and researcher at Azerbaijan National Academy of Sciences."
+  },
+  {
+    "aliases": [
+      "Elizabeth I",
+      "Most Serene Queen"
+    ],
+    "entity_type": "person",
+    "id": "queen_elizabeth_i",
+    "name": "Queen Elizabeth I Tudor",
+    "subtype": "monarch",
+    "summary": "Queen of England who sent Jenkinson as ambassador to the Safavid Empire."
+  },
+  {
+    "aliases": [
+      "Shah Thamas",
+      "Sufi"
+    ],
+    "entity_type": "person",
+    "id": "shah_tahmasib_i",
+    "name": "Shah Tahmasib I",
+    "subtype": "monarch",
+    "summary": "Ruler of the Safavid Empire who received Jenkinson's embassy."
+  },
+  {
+    "aliases": [
+      "Ortelius"
+    ],
+    "entity_type": "person",
+    "id": "abraham_ortelius",
+    "name": "Abraham Ortelius",
+    "subtype": "cartographer",
+    "summary": "Flemish cartographer and geographer who included Jenkinson's map in his atlas."
+  },
+  {
+    "aliases": [
+      "Mercator"
+    ],
+    "entity_type": "person",
+    "id": "gerardus_mercator",
+    "name": "Gerardus Mercator",
+    "subtype": "cartographer",
+    "summary": "Flemish cartographer who used Jenkinson's map for his world map."
+  },
+  {
+    "aliases": [
+      "Ivan the Terrible",
+      "Russian Tsar"
+    ],
+    "entity_type": "person",
+    "id": "ivan_the_terrible",
+    "name": "Tsar Ivan the Terrible",
+    "subtype": "monarch",
+    "summary": "Tsar of the Russian State who granted Jenkinson passage."
+  },
+  {
+    "aliases": [
+      "Sidney"
+    ],
+    "entity_type": "person",
+    "id": "henry_sidney",
+    "name": "Henry Sidney",
+    "subtype": "sponsor",
+    "summary": "Sponsor of Jenkinson's map whose coat of arms appeared on it."
+  },
+  {
+    "aliases": [
+      "K. Szykula",
+      "Szykula"
+    ],
+    "entity_type": "person",
+    "id": "krystina_szykula",
+    "name": "Krystina Szykula",
+    "subtype": "cartographer",
+    "summary": "Polish cartographer who discovered the original Jenkinson map in 1987."
+  },
+  {
+    "aliases": [
+      "Borough"
+    ],
+    "entity_type": "person",
+    "id": "william_borough",
+    "name": "William Borough",
+    "subtype": "explorer",
+    "summary": "Member of English sea expedition whose map influenced Jenkinson's map."
+  },
+  {
+    "aliases": [
+      "Moscow Traiding Company"
+    ],
+    "entity_type": "organization",
+    "id": "moscow_company",
+    "name": "Moscow Company",
+    "subtype": "company",
+    "summary": "English trading company that employed Jenkinson."
+  },
+  {
+    "aliases": [
+      "Persia",
+      "Safavid State"
+    ],
+    "entity_type": "organization",
+    "id": "safavid_empire",
+    "name": "Safavid Empire",
+    "subtype": "empire",
+    "summary": "Empire in which Jenkinson served as ambassador and which his map depicted."
+  },
+  {
+    "aliases": [
+      "Muscovy",
+      "Russia"
+    ],
+    "entity_type": "organization",
+    "id": "russian_state",
+    "name": "Russian State",
+    "subtype": "state",
+    "summary": "State Jenkinson traveled through to reach the Safavid Empire."
+  },
+  {
+    "aliases": [
+      "Library of Wroclaw University"
+    ],
+    "entity_type": "organization",
+    "id": "wroclaw_university_library",
+    "name": "Wroclaw University Library",
+    "subtype": "library",
+    "summary": "Library where the original Jenkinson map is stored."
+  },
+  {
+    "aliases": [
+      "Jenkinson's map",
+      "Jenkinson map of 1562"
+    ],
+    "entity_type": "artifact",
+    "id": "nova_absolutaque_map",
+    "name": "Nova absolutaque Russiae, Moscoviae, et Tartariae descriptio",
+    "subtype": "map",
+    "summary": "Map published in 1562 authored by Anthony Jenkinson."
+  },
+  {
+    "aliases": [
+      "Theatre of the Orb of the World"
+    ],
+    "entity_type": "artifact",
+    "id": "theatrum_orbis_terranum",
+    "name": "Theatrum Orbis Terranum",
+    "subtype": "atlas",
+    "summary": "First modern geographical atlas by Abraham Ortelius."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "England",
+      "lat": 51.50722,
+      "lng": -0.1275,
+      "wikidata_qid": "Q84",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "london",
+    "name": "London",
+    "subtype": "city",
+    "summary": "City where Jenkinson's map was published and where he returned."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Poland"
+    },
+    "entity_type": "place",
+    "id": "wroclaw",
+    "name": "Wroclaw",
+    "subtype": "city",
+    "summary": "City where the original Jenkinson map was discovered."
+  },
+  {
+    "aliases": [
+      "Casby"
+    ],
+    "attributes": {
+      "country": "Safavid Empire"
+    },
+    "entity_type": "place",
+    "id": "qazvin",
+    "name": "Qazvin",
+    "subtype": "city",
+    "summary": "City in the Safavid Empire where Jenkinson met Shah Tahmasib I."
+  },
+  {
+    "aliases": [
+      "Shemakha",
+      "Shamaghi"
+    ],
+    "attributes": {
+      "country": "Safavid Empire"
+    },
+    "entity_type": "place",
+    "id": "shamakhi",
+    "name": "Shamakhi",
+    "subtype": "city",
+    "summary": "City in the Safavid Empire where Jenkinson was received by Abdalla Khan."
+  },
+  {
+    "aliases": [
+      "Derben(t)"
+    ],
+    "attributes": {
+      "country": "Safavid Empire"
+    },
+    "entity_type": "place",
+    "id": "derbent",
+    "name": "Derbent",
+    "subtype": "city",
+    "summary": "City on the Caspian Sea coast depicted on Jenkinson's map."
+  },
+  {
+    "aliases": [
+      "Backow"
+    ],
+    "attributes": {
+      "country": "Safavid Empire"
+    },
+    "entity_type": "place",
+    "id": "baku",
+    "name": "Baku",
+    "subtype": "city",
+    "summary": "City on the Caspian Sea coast depicted on Jenkinson's map."
+  }
+]

@@ -1,0 +1,171 @@
+[
+  {
+    "id": "johnson_born_1805",
+    "source": "manuel_johnson",
+    "type": "born_in",
+    "target": "st_helena",
+    "note": "Document does not specify birth place, only year. Relation omitted to avoid hallucination.",
+    "sources": []
+  },
+  {
+    "id": "johnson_worked_eic",
+    "source": "manuel_johnson",
+    "type": "employed_by",
+    "target": "east_india_company",
+    "start": {
+      "display": "1823",
+      "precision": "year",
+      "sort_start": "1823-01-01",
+      "sort_end": "1823-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "cartwright_2017",
+        "page": 9,
+        "quote": "Second Lieutenant in the East India Company's artillery at St. Helena..."
+      }
+    ]
+  },
+  {
+    "id": "johnson_worked_observatory",
+    "source": "manuel_johnson",
+    "type": "worked_at",
+    "target": "st_helena_observatory",
+    "start": {
+      "display": "1829",
+      "precision": "year",
+      "sort_start": "1829-01-01",
+      "sort_end": "1829-12-31"
+    },
+    "end": {
+      "display": "1834",
+      "precision": "year",
+      "sort_start": "1834-01-01",
+      "sort_end": "1834-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "cartwright_2017",
+        "page": 12,
+        "quote": "...appointed him officer-in-charge of the future observatory."
+      }
+    ]
+  },
+  {
+    "id": "johnson_invented_gauge",
+    "source": "manuel_johnson",
+    "type": "invented",
+    "target": "johnson_tide_gauge",
+    "event_id": "tide_recording_start",
+    "sources": [
+      {
+        "source_id": "cartwright_2017",
+        "page": 9,
+        "quote": "...for which he devised a simple but unique instrument..."
+      }
+    ]
+  },
+  {
+    "id": "johnson_published_catalogue",
+    "source": "manuel_johnson",
+    "type": "published",
+    "target": "star_catalogue_1835",
+    "event_id": "johnson_gold_medal",
+    "sources": [
+      {
+        "source_id": "cartwright_2017",
+        "page": 9,
+        "quote": "...due to his star catalogue compiled at the short-lived St. Helena Observatory..."
+      }
+    ]
+  },
+  {
+    "id": "johnson_member_ras",
+    "source": "manuel_johnson",
+    "type": "member_of",
+    "target": "royal_astronomical_society",
+    "start": {
+      "display": "1855",
+      "precision": "year",
+      "sort_start": "1855-01-01",
+      "sort_end": "1855-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "cartwright_2017",
+        "page": 9,
+        "quote": "...President of the Royal Astronomical Society..."
+      }
+    ]
+  },
+  {
+    "id": "johnson_member_rs",
+    "source": "manuel_johnson",
+    "type": "member_of",
+    "target": "royal_society_london",
+    "start": {
+      "display": "1856",
+      "precision": "year",
+      "sort_start": "1856-01-01",
+      "sort_end": "1856-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "cartwright_2017",
+        "page": 18,
+        "quote": "He was elected Fellow of the Royal Society in 1856..."
+      }
+    ]
+  },
+  {
+    "id": "johnson_mentored_fallows",
+    "source": "manuel_johnson",
+    "type": "supervised_by",
+    "target": "fearon_fallows",
+    "start": {
+      "display": "1825",
+      "precision": "year",
+      "sort_start": "1825-01-01",
+      "sort_end": "1825-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "cartwright_2017",
+        "page": 12,
+        "quote": "...whose Director, the Rev. Fearon Fallows, was able to advise him on the practicalities of his task..."
+      }
+    ]
+  },
+  {
+    "id": "maskelyne_visited_st_helena",
+    "source": "nevil_maskelyne",
+    "type": "visited",
+    "target": "st_helena",
+    "start": {
+      "display": "1761",
+      "precision": "year",
+      "sort_start": "1761-01-01",
+      "sort_end": "1761-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "cartwright_2017",
+        "page": 10,
+        "quote": "The first to record the local tides was the Rev. Nevil Maskelyne."
+      }
+    ]
+  },
+  {
+    "id": "walker_founded_observatory",
+    "source": "alexander_walker",
+    "type": "founded",
+    "target": "st_helena_observatory",
+    "sources": [
+      {
+        "source_id": "cartwright_2017",
+        "page": 12,
+        "quote": "...naming Walker and Johnson as co-founders of the erstwhile Observatory."
+      }
+    ]
+  }
+]

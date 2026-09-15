@@ -1,0 +1,17 @@
+[
+  {
+    "id": "iee_purchased_heaviside_collection",
+    "source": "institution_of_electrical_engineers",
+    "type": "acquired_by",
+    "target": "heaviside_collection",
+    "event_id": "iee_purchased_papers",
+    "sources": [
+      {
+        "source_id": "donaghy_spargo_yakovlev_2018",
+        "page": 5,
+        "quote": "Following the purchase of Heaviside's books and papers  by the Institution of Electrical Engineers  in 1927"
+      }
+    ],
+    "_rejected_because": "'acquired_by' expects target entity_type person/organization, but 'heaviside_collection' is 'artifact'"
+  }
+]

@@ -1,0 +1,294 @@
+[
+  {
+    "id": "john_napier",
+    "entity_type": "person",
+    "name": "John Napier",
+    "aliases": [
+      "Napier",
+      "The Fear of Merchiston"
+    ],
+    "summary": "Scottish mathematician, physicist, and astronomer known for inventing logarithms and calculating rods.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "archibald_napier_father",
+    "entity_type": "person",
+    "name": "Archibald Napier",
+    "aliases": [
+      "Seventh Laird of Merchiston",
+      "Archibald"
+    ],
+    "summary": "Father of John Napier and Seventh Laird of Merchiston.",
+    "subtype": "noble"
+  },
+  {
+    "id": "janet_bothwell",
+    "entity_type": "person",
+    "name": "Janet Bothwell",
+    "aliases": [],
+    "summary": "Mother of John Napier.",
+    "subtype": "noble"
+  },
+  {
+    "id": "elizabeth_stirling",
+    "entity_type": "person",
+    "name": "Elizabeth Stirling",
+    "aliases": [
+      "Elizabeth Napier",
+      "Elizabeth Stirling of Keir"
+    ],
+    "summary": "First wife of John Napier.",
+    "subtype": "noble"
+  },
+  {
+    "id": "agnes_chisholm",
+    "entity_type": "person",
+    "name": "Agnes Chisholm",
+    "aliases": [
+      "Agnes Napier"
+    ],
+    "summary": "Second wife of John Napier.",
+    "subtype": "noble"
+  },
+  {
+    "id": "archibald_napier_son",
+    "entity_type": "person",
+    "name": "Archibald Napier",
+    "aliases": [
+      "Archibald"
+    ],
+    "summary": "Son of John Napier and co-author of salt distribution instructions.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "jane_napier",
+    "entity_type": "person",
+    "name": "Jane Napier",
+    "aliases": [],
+    "summary": "Daughter of John Napier and Elizabeth Stirling.",
+    "subtype": "noble"
+  },
+  {
+    "id": "robert_napier",
+    "entity_type": "person",
+    "name": "Robert Napier",
+    "aliases": [],
+    "summary": "Son of John Napier who published Constructio.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "merchiston_castle",
+    "entity_type": "place",
+    "name": "Merchiston Castle",
+    "aliases": [
+      "Merchiston"
+    ],
+    "summary": "Medieval tower house in Edinburgh where John Napier was born.",
+    "subtype": "facility",
+    "attributes": {
+      "country": "Scotland",
+      "lat": 55.9333,
+      "lng": -3.21391,
+      "wikidata_qid": "Q1921452",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "university_of_st_andrews",
+    "entity_type": "organization",
+    "name": "University of St Andrews",
+    "aliases": [
+      "St Andrews"
+    ],
+    "summary": "Scottish university where John Napier enrolled in 1563.",
+    "subtype": "university",
+    "attributes": {
+      "country": "Scotland"
+    }
+  },
+  {
+    "id": "st_salvators_college",
+    "entity_type": "organization",
+    "name": "St Salvator's College",
+    "aliases": [
+      "St Salvator's"
+    ],
+    "summary": "College within the University of St Andrews where John Napier studied.",
+    "subtype": "university",
+    "attributes": {
+      "country": "Scotland"
+    }
+  },
+  {
+    "id": "gartness",
+    "entity_type": "place",
+    "name": "Gartness",
+    "aliases": [
+      "Gartness Estate"
+    ],
+    "summary": "Estate in Stirlingshire where John Napier lived with his first wife.",
+    "subtype": "facility",
+    "attributes": {
+      "country": "Scotland",
+      "region": "Stirlingshire",
+      "lat": 56.052,
+      "lng": -4.407,
+      "wikidata_qid": "Q17747128",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "st_cuthberts_church",
+    "entity_type": "organization",
+    "name": "St Cuthbert's Church",
+    "aliases": [
+      "St Cuthbert's"
+    ],
+    "summary": "Parish church in Edinburgh where John Napier served as an Elder.",
+    "subtype": "organization",
+    "attributes": {
+      "country": "Scotland",
+      "city": "Edinburgh"
+    }
+  },
+  {
+    "id": "st_giles",
+    "entity_type": "organization",
+    "name": "St Giles",
+    "aliases": [
+      "St Giles Cathedral"
+    ],
+    "summary": "Church in Edinburgh where some Napier family members are buried.",
+    "subtype": "organization",
+    "attributes": {
+      "country": "Scotland",
+      "city": "Edinburgh"
+    }
+  },
+  {
+    "id": "mirifici_logarithmorum_canonis_descriptio",
+    "entity_type": "artifact",
+    "name": "Mirifici Logarithmorum Canonis Descriptio",
+    "aliases": [
+      "Descriptio"
+    ],
+    "summary": "1614 publication by John Napier introducing logarithmic tables.",
+    "subtype": "publication"
+  },
+  {
+    "id": "rabdologiae",
+    "entity_type": "artifact",
+    "name": "Rabdologiae",
+    "aliases": [],
+    "summary": "1617 publication by John Napier introducing calculating rods and devices.",
+    "subtype": "publication"
+  },
+  {
+    "id": "napiers_bones",
+    "entity_type": "artifact",
+    "name": "Napier's Bones",
+    "aliases": [
+      "Calculating Rods"
+    ],
+    "summary": "Calculating device using rods with multiples organized in diagonal segments.",
+    "subtype": "invention"
+  },
+  {
+    "id": "promptuary",
+    "entity_type": "artifact",
+    "name": "Promptuary",
+    "aliases": [
+      "Napier's Promptuary"
+    ],
+    "summary": "Calculating device using strips with apertures to mask values.",
+    "subtype": "invention"
+  },
+  {
+    "id": "local_arithmetic",
+    "entity_type": "artifact",
+    "name": "Local Arithmetic",
+    "aliases": [],
+    "summary": "Method of calculating using counters on a chess board.",
+    "subtype": "invention"
+  },
+  {
+    "id": "plaine_discovery",
+    "entity_type": "artifact",
+    "name": "Plaine Discovery of the Whole Revelation of St John",
+    "aliases": [
+      "Plaine Discovery"
+    ],
+    "summary": "1593 theological publication by John Napier on religious apocalypse.",
+    "subtype": "publication"
+  },
+  {
+    "id": "constructio",
+    "entity_type": "artifact",
+    "name": "Constructio",
+    "aliases": [],
+    "summary": "1619 publication of Napier's logarithmic methodology published by Robert Napier.",
+    "subtype": "publication"
+  },
+  {
+    "id": "de_arte_logistica",
+    "entity_type": "artifact",
+    "name": "De Arte Logistica",
+    "aliases": [],
+    "summary": "Collection of Napier's mathematical notes published in 1839.",
+    "subtype": "publication"
+  },
+  {
+    "id": "henry_briggs",
+    "entity_type": "person",
+    "name": "Henry Briggs",
+    "aliases": [],
+    "summary": "Professor of Mathematics at Gresham College who collaborated with Napier on logarithms.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "johannes_kepler",
+    "entity_type": "person",
+    "name": "Johannes Kepler",
+    "aliases": [
+      "Kepler"
+    ],
+    "summary": "Imperial Mathematician who used Napier's logarithms for the Rudolphine Tables.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "edinburgh_napier_university",
+    "entity_type": "organization",
+    "name": "Edinburgh Napier University",
+    "aliases": [
+      "Napier Technical College"
+    ],
+    "summary": "University in Edinburgh named after John Napier.",
+    "subtype": "university",
+    "attributes": {
+      "country": "Scotland",
+      "city": "Edinburgh"
+    }
+  },
+  {
+    "id": "merchiston_campus",
+    "entity_type": "place",
+    "name": "Merchiston Campus",
+    "aliases": [],
+    "summary": "Campus of Edinburgh Napier University incorporating Merchiston Tower.",
+    "subtype": "facility",
+    "attributes": {
+      "country": "Scotland",
+      "city": "Edinburgh"
+    }
+  },
+  {
+    "id": "king_james_vi",
+    "entity_type": "person",
+    "name": "King James VI",
+    "aliases": [
+      "James VI"
+    ],
+    "summary": "King of Scotland who granted patents to the Napier family.",
+    "subtype": "royal"
+  }
+]

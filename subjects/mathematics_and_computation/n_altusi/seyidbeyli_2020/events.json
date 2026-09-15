@@ -1,0 +1,168 @@
+[
+  {
+    "id": "tusi_completed_akhlaki_nasiri",
+    "event_type": "publication",
+    "label": "Completed Akhlaki-Nasiri",
+    "description": "Tusi completed work on the treatise Nasirean ethics at the request of the ruler of Kuhistan.",
+    "date": {
+      "display": "1235",
+      "precision": "year",
+      "sort_start": "1235-01-01",
+      "sort_end": "1235-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nasir_al_din_al_tusi",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seyidbeyli_2020",
+        "page": 4,
+        "quote": "In 1235, Tusi completed work on the treatise \"Nasirean ethics (Akhlaki-Nasiri)\", which he began to write at the request of the ruler of Kuhistan, which will be discussed below."
+      }
+    ]
+  },
+  {
+    "id": "tusi_imprisoned_alamut",
+    "event_type": "other",
+    "label": "Imprisoned in Alamut fortress",
+    "description": "Relations between the ruler and Tusi were strained, in connection with which in the same year Tusi was arrested and imprisoned in the Alamut fortress.",
+    "date": {
+      "display": "1235",
+      "precision": "year",
+      "sort_start": "1235-01-01",
+      "sort_end": "1235-12-31"
+    },
+    "location": "alamut_fortress",
+    "participants": [
+      {
+        "entity_id": "nasir_al_din_al_tusi",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seyidbeyli_2020",
+        "page": 4,
+        "quote": "By the end of the work, relations between the ruler and Tusi were strained, in connection with which in the same year Tusi was arrested and imprisoned in the Alamut fortress."
+      }
+    ]
+  },
+  {
+    "id": "tusi_freed_hulagu",
+    "event_type": "other",
+    "label": "Freed by Hulagu Khan",
+    "description": "Hulagu Khan took the Alamut fortress and freed Nasir al-Din al-Tusi.",
+    "date": {
+      "display": "1256",
+      "precision": "year",
+      "sort_start": "1256-01-01",
+      "sort_end": "1256-12-31"
+    },
+    "location": "alamut_fortress",
+    "participants": [
+      {
+        "entity_id": "nasir_al_din_al_tusi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "hulagu_khan",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seyidbeyli_2020",
+        "page": 4,
+        "quote": "In 1256 Hulagu Khan took the Alamut fortress and freed Nasir al-Din al-Tusi."
+      }
+    ]
+  },
+  {
+    "id": "maragheh_observatory_founded",
+    "event_type": "company_founded",
+    "label": "Founded Maragheh Observatory",
+    "description": "A colossal historical merit of the scientist is the founding of an astronomical observatory in the city of Maragha.",
+    "date": {
+      "display": "1259–1260",
+      "precision": "range",
+      "sort_start": "1259-01-01",
+      "sort_end": "1260-12-31"
+    },
+    "location": "maragheh_observatory",
+    "participants": [
+      {
+        "entity_id": "nasir_al_din_al_tusi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "hulagu_khan",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seyidbeyli_2020",
+        "page": 5,
+        "quote": "A colossal historical merit of the scientist is the founding of an astronomical observatory in the city of Maragha (1259–1260)"
+      }
+    ]
+  },
+  {
+    "id": "zij_ilkhani_completed",
+    "event_type": "publication",
+    "label": "Completed Zij Ilkhani",
+    "description": "The result of 12-year observations of the Maragha astronomers was the Ilkhanic Tables.",
+    "date": {
+      "display": "1259 to 1271",
+      "precision": "range",
+      "sort_start": "1259-01-01",
+      "sort_end": "1271-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nasir_al_din_al_tusi",
+        "role": "subject"
+      },
+      {
+        "entity_id": "zij_ilkhani",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seyidbeyli_2020",
+        "page": 7,
+        "quote": "The result of 12 -year (from 1259 to 1271) observations of the Maragha astronomers was the \"Ilkhanic Tables (Zij Ilkhani)\"."
+      }
+    ]
+  },
+  {
+    "id": "tusi_death",
+    "event_type": "death",
+    "label": "Died in Baghdad",
+    "description": "In 672, Nasir al-Din al-Tusi went to Baghdad... In the same year, he fell ill in Baghdad and died of illness.",
+    "date": {
+      "display": "672 AH",
+      "precision": "year",
+      "sort_start": "1273-10-01",
+      "sort_end": "1274-09-30"
+    },
+    "location": "baghdad",
+    "participants": [
+      {
+        "entity_id": "nasir_al_din_al_tusi",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seyidbeyli_2020",
+        "page": 12,
+        "quote": "In 672, Nasir al -Din al-Tusi went to Baghdad accompanied by his friends and mentors. In the same year, he fell ill in Baghdad and died of illness."
+      }
+    ]
+  }
+]

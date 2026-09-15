@@ -1,0 +1,135 @@
+[
+  {
+    "id": "kantorovich_studied_leningrad_uni",
+    "source": "leonid_kantorovich",
+    "type": "studied_at",
+    "target": "leningrad_university",
+    "sources": [
+      {
+        "source_id": "boldyrev_duppe_2020",
+        "page": 5,
+        "quote": "At age fourteen, he enrolled at Leningrad State University with special permission."
+      }
+    ]
+  },
+  {
+    "id": "kantorovich_worked_leningrad_uni",
+    "source": "leonid_kantorovich",
+    "type": "worked_at",
+    "target": "leningrad_university",
+    "sources": [
+      {
+        "source_id": "boldyrev_duppe_2020",
+        "page": 5,
+        "quote": "became a professor of mathematics at Leningrad University"
+      }
+    ]
+  },
+  {
+    "id": "kantorovich_worked_academy",
+    "source": "leonid_kantorovich",
+    "type": "member_of",
+    "target": "academy_of_sciences_ussr",
+    "sources": [
+      {
+        "source_id": "boldyrev_duppe_2020",
+        "page": 14,
+        "quote": "Kantorovich secured election as corresponding member of the Academy of Sciences in 1958."
+      }
+    ]
+  },
+  {
+    "id": "kantorovich_collaborated_sobolev",
+    "source": "leonid_kantorovich",
+    "type": "collaborated_with",
+    "target": "sergei_sobolev",
+    "sources": [
+      {
+        "source_id": "boldyrev_duppe_2020",
+        "page": 9,
+        "quote": "Together with Ivan Petrovsky and Andrey Tikhonov (Moscow), Kantorovich played an important role in a group of mathematicians, arranged by the physicist Igor Kurchatov"
+      }
+    ]
+  },
+  {
+    "id": "kantorovich_collaborated_nemchinov",
+    "source": "leonid_kantorovich",
+    "type": "collaborated_with",
+    "target": "vasily_nemchinov",
+    "sources": [
+      {
+        "source_id": "boldyrev_duppe_2020",
+        "page": 16,
+        "quote": "In April 1960, Kantorovich, together with Nemchinov, organized a large all-union conference on mathematics in economics."
+      }
+    ]
+  },
+  {
+    "id": "kantorovich_collaborated_koopmans",
+    "source": "leonid_kantorovich",
+    "type": "collaborated_with",
+    "target": "tjalling_koopmans",
+    "sources": [
+      {
+        "source_id": "boldyrev_duppe_2020",
+        "page": 21,
+        "quote": "In 1975, Kantorovich, jointly with Koopmans, was selected as the recipient of the Nobel Memorial Prize in Economic Sciences"
+      }
+    ]
+  },
+  {
+    "id": "kantorovich_awarded_lenin_prize",
+    "source": "leonid_kantorovich",
+    "type": "awarded",
+    "target": "lenin_prize",
+    "event_id": "kantorovich_lenin_prize",
+    "sources": [
+      {
+        "source_id": "boldyrev_duppe_2020",
+        "page": 20,
+        "quote": "In 1965, Novozhilov, Nemchinov and Kantorovich ultimately jointly received the Lenin Prize."
+      }
+    ]
+  },
+  {
+    "id": "kantorovich_awarded_nobel_prize",
+    "source": "leonid_kantorovich",
+    "type": "awarded",
+    "target": "nobel_prize_economics",
+    "event_id": "kantorovich_nobel_prize",
+    "sources": [
+      {
+        "source_id": "boldyrev_duppe_2020",
+        "page": 21,
+        "quote": "In 1975, Kantorovich, jointly with Koopmans, was selected as the recipient of the Nobel Memorial Prize in Economic Sciences"
+      }
+    ]
+  },
+  {
+    "id": "kantorovich_developed_linear_programming",
+    "source": "leonid_kantorovich",
+    "type": "invented",
+    "target": "mathematical_methods_booklet",
+    "event_id": "kantorovich_linear_programming_booklet",
+    "sources": [
+      {
+        "source_id": "boldyrev_duppe_2020",
+        "page": 7,
+        "quote": "In January 1939, this became the algorithm to solve the linear-programming problem, published in a small booklet titled Mathematical Methods in the Organization and Planning of Production."
+      }
+    ]
+  },
+  {
+    "id": "kantorovich_educated_by_fichtenholz",
+    "source": "leonid_kantorovich",
+    "type": "educated_by",
+    "target": "grigorii_fichtenholz",
+    "sources": [
+      {
+        "source_id": "boldyrev_duppe_2020",
+        "page": 5,
+        "quote": "There he was trained by Grigorii Fichtenholz, a leading mathematician in functional analysis."
+      }
+    ]
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "id": "galton_employed_birmingham",
+    "source": "francis_galton",
+    "type": "worked_at",
+    "target": "general_hospital_birmingham",
+    "sources": [
+      {
+        "source_id": "schumacher_2019",
+        "page": 9,
+        "quote": "taking up an apprenticeship at the General Hospital in Birmingham as a house pupil"
+      }
+    ]
+  },
+  {
+    "id": "galton_member_rgs",
+    "source": "francis_galton",
+    "type": "member_of",
+    "target": "royal_geographical_society",
+    "event_id": "galton_award_rgs_gold_medal",
+    "sources": [
+      {
+        "source_id": "schumacher_2019",
+        "page": 12,
+        "quote": "He was introduced to the Royal Geographical Society by his cousin Douglas Galton of the Royal Engineers."
+      }
+    ]
+  },
+  {
+    "id": "galton_member_baas",
+    "source": "francis_galton",
+    "type": "member_of",
+    "target": "british_association_for_advancement_of_science",
+    "sources": [
+      {
+        "source_id": "schumacher_2019",
+        "page": 31,
+        "quote": "In 1881, the Anthropometric and Racial Committee of the British Association for the Advancement of Science commissioned a study"
+      }
+    ]
+  },
+  {
+    "id": "galton_chaired_committee",
+    "source": "francis_galton",
+    "type": "member_of",
+    "target": "anthropometric_and_racial_committee",
+    "sources": [
+      {
+        "source_id": "schumacher_2019",
+        "page": 31,
+        "quote": "The committee, chaired by Galton, then went on to further categorise the races"
+      }
+    ]
+  },
+  {
+    "id": "galton_mentored_pearson",
+    "source": "francis_galton",
+    "type": "mentored",
+    "target": "karl_pearson",
+    "sources": [
+      {
+        "source_id": "schumacher_2019",
+        "page": 6,
+        "quote": "Pearson's four-volume biography of his mentor 'The Life, Letters and Labours of Francis Galton'"
+      }
+    ]
+  },
+  {
+    "id": "galton_collaborated_jacobs",
+    "source": "francis_galton",
+    "type": "collaborated_with",
+    "target": "joseph_jacobs",
+    "event_id": "galton_collaboration_jacobs_1886",
+    "sources": [
+      {
+        "source_id": "schumacher_2019",
+        "page": 28,
+        "quote": "In 1886, Galton worked alongside Joseph Jacobs, anthropologist and historian of Jewish culture"
+      }
+    ]
+  },
+  {
+    "id": "galton_published_hereditary_genius",
+    "source": "francis_galton",
+    "type": "published",
+    "target": "hereditary_genius",
+    "event_id": "galton_publication_hereditary_genius_1869",
+    "sources": [
+      {
+        "source_id": "schumacher_2019",
+        "page": 21,
+        "quote": "The ideas and science in Hereditary Talent and Character were expanded in his book Hereditary Genius, published in 1869."
+      }
+    ]
+  },
+  {
+    "id": "galton_invented_fingerprint_classification",
+    "source": "francis_galton",
+    "type": "invented",
+    "target": "fingerprint_classification",
+    "sources": [
+      {
+        "source_id": "schumacher_2019",
+        "page": 32,
+        "quote": "He also contributed to the classification of fingerprints by introducing the Arch-Loop-Whorl classification, which formed the basis for all later indexing."
+      }
+    ]
+  },
+  {
+    "id": "galton_developed_composite_photography",
+    "source": "francis_galton",
+    "type": "developed",
+    "target": "composite_photography",
+    "sources": [
+      {
+        "source_id": "schumacher_2019",
+        "page": 28,
+        "quote": "Composite portraits are made by successfully throwing the images of many different portraits for a short time, on the same portion of the same photographic plate."
+      }
+    ]
+  },
+  {
+    "id": "galton_cousin_darwin",
+    "source": "francis_galton",
+    "type": "family_of",
+    "target": "charles_darwin",
+    "sources": [
+      {
+        "source_id": "schumacher_2019",
+        "page": 23,
+        "quote": "including his cousin Charles Darwin who commented: 'I do not think that I have ever in all my life read anything more interesting and original.'"
+      }
+    ]
+  }
+]

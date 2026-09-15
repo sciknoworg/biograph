@@ -1,0 +1,298 @@
+[
+  {
+    "id": "birth",
+    "event_type": "birth",
+    "label": "Born in Vitry",
+    "date": {
+      "display": "May 26, 1667",
+      "precision": "day",
+      "sort_start": "1667-05-26",
+      "sort_end": "1667-05-26"
+    },
+    "participants": [
+      {
+        "entity_id": "abraham_de_moivre",
+        "role": "subject"
+      }
+    ],
+    "location": "vitry",
+    "sources": [
+      {
+        "source_id": "bellhouse_genest_2007",
+        "page": 2,
+        "quote": "Abraham De Moivre was born at Vitry in Champagne on May 26, 1667."
+      }
+    ]
+  },
+  {
+    "id": "admitted_savoy_church",
+    "event_type": "other",
+    "label": "Admitted to Savoy Church",
+    "date": {
+      "display": "August 28, 1687",
+      "precision": "day",
+      "sort_start": "1687-08-28",
+      "sort_end": "1687-08-28"
+    },
+    "participants": [
+      {
+        "entity_id": "abraham_de_moivre",
+        "role": "subject"
+      },
+      {
+        "entity_id": "savoy_church",
+        "role": "organization"
+      }
+    ],
+    "location": "london",
+    "sources": [
+      {
+        "source_id": "bellhouse_genest_2007",
+        "page": 5,
+        "quote": "On August 28, 1687, Abraham De Moivre and his brother Daniel presented themselves as Huguenots to be admitted to the Savoy Church in London"
+      }
+    ]
+  },
+  {
+    "id": "royal_society_election",
+    "event_type": "award",
+    "label": "Elected to Royal Society",
+    "date": {
+      "display": "November 30, 1697",
+      "precision": "day",
+      "sort_start": "1697-11-30",
+      "sort_end": "1697-11-30"
+    },
+    "participants": [
+      {
+        "entity_id": "abraham_de_moivre",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_society",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bellhouse_genest_2007",
+        "page": 8,
+        "quote": "On November 30, 1697, the Journal Book records that De Moivre and four others that day 'were proposed for members, balloted and elected.'"
+      }
+    ]
+  },
+  {
+    "id": "de_mensura_sortis",
+    "event_type": "publication",
+    "label": "Published De Mensura Sortis",
+    "date": {
+      "display": "1711",
+      "precision": "year",
+      "sort_start": "1711-01-01",
+      "sort_end": "1711-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "abraham_de_moivre",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bellhouse_genest_2007",
+        "page": 12,
+        "quote": "The Royal Society concurred and ordered that his collection of propositions De Mensura Sortis... be published in the Philosophical Transactions."
+      }
+    ]
+  },
+  {
+    "id": "doctrine_of_chances_1st",
+    "event_type": "publication",
+    "label": "Published The Doctrine of Chances (1st ed)",
+    "date": {
+      "display": "1718",
+      "precision": "year",
+      "sort_start": "1718-01-01",
+      "sort_end": "1718-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "abraham_de_moivre",
+        "role": "subject"
+      },
+      {
+        "entity_id": "doctrine_of_chances",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bellhouse_genest_2007",
+        "page": 15,
+        "quote": "The diagram was actually used, but did not appear, four years earlier in De Moivre (1718)."
+      }
+    ]
+  },
+  {
+    "id": "annuities_upon_lives_1st",
+    "event_type": "publication",
+    "label": "Published Annuities upon Lives (1st ed)",
+    "date": {
+      "display": "1725",
+      "precision": "year",
+      "sort_start": "1725-01-01",
+      "sort_end": "1725-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "abraham_de_moivre",
+        "role": "subject"
+      },
+      {
+        "entity_id": "annuities_upon_lives",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bellhouse_genest_2007",
+        "page": 21,
+        "quote": "Thus, our Islanders enthusiastically welcomed the simple, general and precise rules that Mr. De Moivre put forward in his Annuities upon Lives , published initially in 1724 and again in 1743."
+      }
+    ]
+  },
+  {
+    "id": "miscellanea_analytica",
+    "event_type": "publication",
+    "label": "Published Miscellanea Analytica",
+    "date": {
+      "display": "1730",
+      "precision": "year",
+      "sort_start": "1730-01-01",
+      "sort_end": "1730-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "abraham_de_moivre",
+        "role": "subject"
+      },
+      {
+        "entity_id": "miscellanea_analytica",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bellhouse_genest_2007",
+        "page": 19,
+        "quote": "The Miscellanea Analytica , which was published in 1730 and dedicated to Mr. Folkes, the author's student and friend, is a compendium of his discoveries and methods."
+      }
+    ]
+  },
+  {
+    "id": "berlin_academy_election",
+    "event_type": "award",
+    "label": "Elected to Berlin Academy",
+    "date": {
+      "display": "August 23, 1735",
+      "precision": "day",
+      "sort_start": "1735-08-23",
+      "sort_end": "1735-08-23"
+    },
+    "participants": [
+      {
+        "entity_id": "abraham_de_moivre",
+        "role": "subject"
+      },
+      {
+        "entity_id": "berlin_academy",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bellhouse_genest_2007",
+        "page": 20,
+        "quote": "At the Assembly of August 23, 1735, he tabled a proposal that a man of such great distinction should be appointed a member."
+      }
+    ]
+  },
+  {
+    "id": "paris_academy_election",
+    "event_type": "award",
+    "label": "Elected to Paris Academy",
+    "date": {
+      "display": "August 14, 1754",
+      "precision": "day",
+      "sort_start": "1754-08-14",
+      "sort_end": "1754-08-14"
+    },
+    "participants": [
+      {
+        "entity_id": "abraham_de_moivre",
+        "role": "subject"
+      },
+      {
+        "entity_id": "academie_royale_paris",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "bellhouse_genest_2007",
+        "page": 22,
+        "quote": "When Prussian philosopher and mathematician Christian Wolf (1679–1754) died, the Acad´ emie, at their meeting of August 14, 1754, put forward two names for consideration to the king: Abraham De Moivre and Swiss biologist Albrecht von Haller (1708–1777)."
+      }
+    ]
+  },
+  {
+    "id": "death",
+    "event_type": "death",
+    "label": "Died in London",
+    "date": {
+      "display": "November 27, 1754",
+      "precision": "day",
+      "sort_start": "1754-11-27",
+      "sort_end": "1754-11-27"
+    },
+    "participants": [
+      {
+        "entity_id": "abraham_de_moivre",
+        "role": "subject"
+      }
+    ],
+    "location": "london",
+    "sources": [
+      {
+        "source_id": "bellhouse_genest_2007",
+        "page": 23,
+        "quote": "he died in his sleep on November 27, 1754."
+      }
+    ]
+  },
+  {
+    "id": "burial",
+    "event_type": "other",
+    "label": "Buried at St. Martin-in-the-Fields",
+    "date": {
+      "display": "December 1, 1754",
+      "precision": "day",
+      "sort_start": "1754-12-01",
+      "sort_end": "1754-12-01"
+    },
+    "participants": [
+      {
+        "entity_id": "abraham_de_moivre",
+        "role": "subject"
+      }
+    ],
+    "location": "london",
+    "sources": [
+      {
+        "source_id": "bellhouse_genest_2007",
+        "page": 23,
+        "quote": "De Moivre was buried four days later from St. Martin-in-the-Fields church on December 1, 1754"
+      }
+    ]
+  }
+]

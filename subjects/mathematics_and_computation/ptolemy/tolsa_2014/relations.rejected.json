@@ -1,0 +1,17 @@
+[
+  {
+    "id": "inscription_at_temple",
+    "source": "canobic_inscription",
+    "type": "visited",
+    "target": "temple_of_serapis",
+    "note": "Inscription was set up in the temple.",
+    "sources": [
+      {
+        "source_id": "tolsa_2014",
+        "page": 25,
+        "quote": "Ptolemy erected his stele at the temple of Serapis at Canopus."
+      }
+    ],
+    "_rejected_because": "'visited' expects source entity_type person, but 'canobic_inscription' is 'artifact'"
+  }
+]

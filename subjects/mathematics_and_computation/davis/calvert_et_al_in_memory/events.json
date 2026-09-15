@@ -1,0 +1,366 @@
+[
+  {
+    "id": "arrived_ccny_1944",
+    "event_type": "education",
+    "label": "Arrived at City College of New York",
+    "description": "Davis began his undergraduate studies as a freshman.",
+    "date": {
+      "display": "1944",
+      "precision": "year",
+      "sort_start": "1944-01-01",
+      "sort_end": "1944-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "martin_davis",
+        "role": "subject"
+      },
+      {
+        "entity_id": "city_college_new_york",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "calvert_et_al_in_memory",
+        "page": 1,
+        "quote": "He arrived at City College of New York as a freshman in 1944 and soon became interested in the foundations of real analysis and in logic."
+      }
+    ]
+  },
+  {
+    "id": "phd_princeton_1950",
+    "event_type": "education",
+    "label": "Received PhD from Princeton University",
+    "description": "Davis completed his PhD under the guidance of Church.",
+    "date": {
+      "display": "1950",
+      "precision": "year",
+      "sort_start": "1950-01-01",
+      "sort_end": "1950-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "martin_davis",
+        "role": "subject"
+      },
+      {
+        "entity_id": "princeton_university",
+        "role": "employer"
+      },
+      {
+        "entity_id": "alonzo_church",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "calvert_et_al_in_memory",
+        "page": 1,
+        "quote": "he got his PhD in just two years, under the guidance of Church, in 1950."
+      }
+    ]
+  },
+  {
+    "id": "recruited_csl_1951",
+    "event_type": "employment_start",
+    "label": "Recruited to Control Systems Laboratory",
+    "description": "Davis began programming computers for an ORDVAC machine.",
+    "date": {
+      "display": "1951",
+      "precision": "year",
+      "sort_start": "1951-01-01",
+      "sort_end": "1951-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "martin_davis",
+        "role": "subject"
+      },
+      {
+        "entity_id": "control_systems_laboratory",
+        "role": "employer"
+      },
+      {
+        "entity_id": "ordvac",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "calvert_et_al_in_memory",
+        "page": 7,
+        "quote": "Martin began to program computers in 1951, when he was recruited to a group that developed programs for an ORDVAC machine, in support of the military during the Korean War."
+      }
+    ]
+  },
+  {
+    "id": "presburger_ias_1954",
+    "event_type": "other",
+    "label": "Implemented Presburger's algorithm on JOHNNIAC",
+    "description": "Davis implemented the algorithm at the Institute for Advanced Study.",
+    "date": {
+      "display": "summer 1954",
+      "precision": "season",
+      "sort_start": "1954-06-01",
+      "sort_end": "1954-08-31"
+    },
+    "participants": [
+      {
+        "entity_id": "martin_davis",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ias_princeton",
+        "role": "employer"
+      },
+      {
+        "entity_id": "johnniac",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "calvert_et_al_in_memory",
+        "page": 7,
+        "quote": "Martin's implementation of that algorithm took place on a JOHNNIAC computer available at the Institute for Advanced Study in Princeton in the summer of 1954."
+      }
+    ]
+  },
+  {
+    "id": "dpr_discovery_1959",
+    "event_type": "invention",
+    "label": "Discovered Davis-Putnam-Robinson theorem",
+    "description": "Davis and Putnam hit the jackpot on the original discovery.",
+    "date": {
+      "display": "summer 1959",
+      "precision": "season",
+      "sort_start": "1959-06-01",
+      "sort_end": "1959-08-31"
+    },
+    "participants": [
+      {
+        "entity_id": "martin_davis",
+        "role": "subject"
+      },
+      {
+        "entity_id": "hilary_putnam",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "dpr_theorem",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "calvert_et_al_in_memory",
+        "page": 1,
+        "quote": "\"It was in the summer of 1959 that Hilary and I really hit the jackpot,\" he says, to describe the original, raw discovery of what would become known as the celebrated Davis–Putnam–Robinson theorem)."
+      }
+    ]
+  },
+  {
+    "id": "dpll_paper_1960",
+    "event_type": "publication",
+    "label": "Published DPLL procedure paper",
+    "description": "Davis and colleagues published the machine program for theorem-proving.",
+    "date": {
+      "display": "1960",
+      "precision": "year",
+      "sort_start": "1960-01-01",
+      "sort_end": "1960-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "martin_davis",
+        "role": "subject"
+      },
+      {
+        "entity_id": "dpll_procedure",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "calvert_et_al_in_memory",
+        "page": 7,
+        "quote": "The Davis-Putnam-Logemann-Loveland procedure [11] (DPLL for short), still fundamental in today's architectures of fast Boolean satisfiability solvers, was rooted in that collaboration."
+      }
+    ]
+  },
+  {
+    "id": "matiyasevich_news_1970",
+    "event_type": "meeting",
+    "label": "Learned of Matiyasevich's work",
+    "description": "Davis learned of the work that completed the proof of H10.",
+    "date": {
+      "display": "February 1970",
+      "precision": "month",
+      "sort_start": "1970-02-01",
+      "sort_end": "1970-02-28"
+    },
+    "participants": [
+      {
+        "entity_id": "martin_davis",
+        "role": "subject"
+      },
+      {
+        "entity_id": "yuri_matiyasevich",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "calvert_et_al_in_memory",
+        "page": 5,
+        "quote": "\"One of the great pleasures of my life came in February 1970, when I learned of the work of Yuri Matiyasevich which completed the proof of the crucial conjecture and thereby showed that Hilbert's Tenth Problem is recursively unsolvable.\""
+      }
+    ]
+  },
+  {
+    "id": "perugia_course_1975",
+    "event_type": "other",
+    "label": "Taught summer course in Perugia",
+    "description": "Davis offered a course on computability in Italy.",
+    "date": {
+      "display": "1975",
+      "precision": "year",
+      "sort_start": "1975-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "martin_davis",
+        "role": "subject"
+      },
+      {
+        "entity_id": "perugia",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "calvert_et_al_in_memory",
+        "page": 8,
+        "quote": "In 1975, Martin offered a summer course on computability in the pretty Italian town of Perugia."
+      }
+    ]
+  },
+  {
+    "id": "shlapentokh_call_1983",
+    "event_type": "meeting",
+    "label": "Phone call with Shlapentokh",
+    "description": "Davis encouraged Shlapentokh to come to NYU.",
+    "date": {
+      "display": "Spring 1983",
+      "precision": "season",
+      "sort_start": "1983-03-01",
+      "sort_end": "1983-05-31"
+    },
+    "participants": [
+      {
+        "entity_id": "martin_davis",
+        "role": "subject"
+      },
+      {
+        "entity_id": "alexandra_shlapentokh",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "calvert_et_al_in_memory",
+        "page": 6,
+        "quote": "I first spoke to Martin (on the phone) in the Spring of 1983 when I was deciding on a graduate school."
+      }
+    ]
+  },
+  {
+    "id": "yuri_party_1990",
+    "event_type": "meeting",
+    "label": "Hosted party for two Yuri's",
+    "description": "Davis hosted Matiyasevich and Gurevich in New York.",
+    "date": {
+      "display": "fall 1990",
+      "precision": "season",
+      "sort_start": "1990-09-01",
+      "sort_end": "1990-11-30"
+    },
+    "participants": [
+      {
+        "entity_id": "martin_davis",
+        "role": "subject"
+      },
+      {
+        "entity_id": "yuri_matiyasevich",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "calvert_et_al_in_memory",
+        "page": 8,
+        "quote": "On the evening of a beautiful day of the fall of 1990, I was invited by Martin to his place in the Upper West Side in New York, to a \"party for two Yuri's.\""
+      }
+    ]
+  },
+  {
+    "id": "gwu_visit_2007",
+    "event_type": "visit",
+    "label": "Visited George Washington University",
+    "description": "Davis gave a math colloquium talk.",
+    "date": {
+      "display": "November 2007",
+      "precision": "month",
+      "sort_start": "2007-11-01",
+      "sort_end": "2007-11-30"
+    },
+    "participants": [
+      {
+        "entity_id": "martin_davis",
+        "role": "subject"
+      },
+      {
+        "entity_id": "george_washington_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "calvert_et_al_in_memory",
+        "page": 4,
+        "quote": "It was in November 2007 and his lecture was entitled \"Unsolvability and undecidability in the Diophantine realm,\""
+      }
+    ]
+  },
+  {
+    "id": "msri_talk_2020",
+    "event_type": "conference",
+    "label": "Gave MSRI talk",
+    "description": "Davis gave an opening talk for the MSRI semester program.",
+    "date": {
+      "display": "2020",
+      "precision": "year",
+      "sort_start": "2020-01-01",
+      "sort_end": "2020-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "martin_davis",
+        "role": "subject"
+      },
+      {
+        "entity_id": "msri",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "calvert_et_al_in_memory",
+        "page": 4,
+        "quote": "Martin Davis's 2020 talk, \"Here there be monsters,\" was possible when MSRI semester program on Decidability, Definability and Computability in Number Theory had to be moved online."
+      }
+    ]
+  }
+]

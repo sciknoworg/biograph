@@ -1,0 +1,264 @@
+[
+  {
+    "id": "richard_bellman",
+    "entity_type": "person",
+    "name": "Richard Bellman",
+    "aliases": [
+      "Professor Richard Bellman"
+    ],
+    "summary": "Mathematician who pioneered dynamic programming and worked in control theory, optimization, and systems analysis.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "solomon_lefschetz",
+    "entity_type": "person",
+    "name": "Solomon Lefschetz",
+    "aliases": [],
+    "summary": "Mathematician under whom Bellman worked at Princeton.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "j_gani",
+    "entity_type": "person",
+    "name": "J. Gani",
+    "aliases": [],
+    "summary": "Author of Bellman's obituary from University of Kentucky.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "brooklyn",
+    "entity_type": "place",
+    "name": "Brooklyn",
+    "aliases": [],
+    "summary": "Borough of New York City where Bellman was born.",
+    "subtype": "city",
+    "attributes": {
+      "country": "United States",
+      "lat": 40.65083,
+      "lng": -73.94972,
+      "wikidata_qid": "Q18419",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "new_york_city",
+    "entity_type": "place",
+    "name": "New York City",
+    "aliases": [],
+    "summary": "City where Bellman was born and educated.",
+    "subtype": "city",
+    "attributes": {
+      "country": "United States",
+      "lat": 40.71278,
+      "lng": -74.00611,
+      "wikidata_qid": "Q60",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "los_angeles",
+    "entity_type": "place",
+    "name": "Los Angeles",
+    "aliases": [],
+    "summary": "City where Bellman died and worked at USC.",
+    "subtype": "city",
+    "attributes": {
+      "country": "United States",
+      "lat": 34.05223,
+      "lng": -118.24368,
+      "wikidata_qid": "Q65",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "santa_monica",
+    "entity_type": "place",
+    "name": "Santa Monica",
+    "aliases": [],
+    "summary": "Location of RAND Corporation where Bellman worked.",
+    "subtype": "city",
+    "attributes": {
+      "country": "United States",
+      "lat": 34.02194,
+      "lng": -118.48139,
+      "wikidata_qid": "Q47164",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "city_college_of_new_york",
+    "entity_type": "organization",
+    "name": "City College of New York",
+    "aliases": [],
+    "summary": "College where Bellman began his higher education.",
+    "subtype": "university"
+  },
+  {
+    "id": "brooklyn_college",
+    "entity_type": "organization",
+    "name": "Brooklyn College",
+    "aliases": [],
+    "summary": "College where Bellman received his BA in 1941.",
+    "subtype": "university"
+  },
+  {
+    "id": "university_of_wisconsin",
+    "entity_type": "organization",
+    "name": "University of Wisconsin",
+    "aliases": [],
+    "summary": "University where Bellman obtained his MA in 1943.",
+    "subtype": "university"
+  },
+  {
+    "id": "princeton_university",
+    "entity_type": "organization",
+    "name": "Princeton University",
+    "aliases": [
+      "Princeton"
+    ],
+    "summary": "University where Bellman worked under Lefschetz and served as Assistant Professor.",
+    "subtype": "university"
+  },
+  {
+    "id": "stanford_university",
+    "entity_type": "organization",
+    "name": "Stanford University",
+    "aliases": [
+      "Stanford"
+    ],
+    "summary": "University where Bellman served as Associate Professor of Mathematics.",
+    "subtype": "university"
+  },
+  {
+    "id": "rand_corporation",
+    "entity_type": "organization",
+    "name": "RAND Corporation",
+    "aliases": [
+      "RAND"
+    ],
+    "summary": "Research corporation where Bellman worked for 12 years and pioneered dynamic programming.",
+    "subtype": "lab"
+  },
+  {
+    "id": "university_of_southern_california",
+    "entity_type": "organization",
+    "name": "University of Southern California",
+    "aliases": [
+      "USC"
+    ],
+    "summary": "University where Bellman was Professor until his death.",
+    "subtype": "university"
+  },
+  {
+    "id": "mcgraw_hill",
+    "entity_type": "organization",
+    "name": "McGraw-Hill",
+    "aliases": [],
+    "summary": "Publisher of Bellman's book Stability Theory of Differential Equations.",
+    "subtype": "company"
+  },
+  {
+    "id": "journal_of_applied_probability",
+    "entity_type": "artifact",
+    "name": "Journal of Applied Probability",
+    "aliases": [],
+    "summary": "Journal for which Bellman served as Editor since its inception.",
+    "subtype": "publication"
+  },
+  {
+    "id": "stability_theory_of_differential_equations",
+    "entity_type": "artifact",
+    "name": "Stability Theory of Differential Equations",
+    "aliases": [],
+    "summary": "Book by Bellman published by McGraw-Hill based on his Ph.D. research.",
+    "subtype": "publication"
+  },
+  {
+    "id": "american_mathematical_society",
+    "entity_type": "organization",
+    "name": "American Mathematical Society",
+    "aliases": [],
+    "summary": "Society that awarded Bellman the Norbert Wiener Prize.",
+    "subtype": "organization"
+  },
+  {
+    "id": "society_for_industrial_and_applied_mathematics",
+    "entity_type": "organization",
+    "name": "Society for Industrial and Applied Mathematics",
+    "aliases": [],
+    "summary": "Society that co-awarded Bellman the Norbert Wiener Prize.",
+    "subtype": "organization"
+  },
+  {
+    "id": "institute_of_management_sciences",
+    "entity_type": "organization",
+    "name": "Institute of Management Sciences",
+    "aliases": [],
+    "summary": "Institute that awarded Bellman the John von Neumann Theory Award.",
+    "subtype": "organization"
+  },
+  {
+    "id": "operations_research_society_of_america",
+    "entity_type": "organization",
+    "name": "Operations Research Society of America",
+    "aliases": [],
+    "summary": "Society that co-awarded Bellman the John von Neumann Theory Award.",
+    "subtype": "organization"
+  },
+  {
+    "id": "ieee",
+    "entity_type": "organization",
+    "name": "IEEE",
+    "aliases": [],
+    "summary": "Organization that awarded Bellman the Gold Medal for Dynamic Programming.",
+    "subtype": "organization"
+  },
+  {
+    "id": "american_council_for_control",
+    "entity_type": "organization",
+    "name": "American Council for Control",
+    "aliases": [],
+    "summary": "Council that awarded Bellman the Heritage Medal.",
+    "subtype": "organization"
+  },
+  {
+    "id": "university_of_aberdeen",
+    "entity_type": "organization",
+    "name": "University of Aberdeen",
+    "aliases": [],
+    "summary": "University that awarded Bellman an honorary doctorate.",
+    "subtype": "university"
+  },
+  {
+    "id": "university_of_waterloo",
+    "entity_type": "organization",
+    "name": "University of Waterloo",
+    "aliases": [],
+    "summary": "University that awarded Bellman an honorary doctorate.",
+    "subtype": "university"
+  },
+  {
+    "id": "american_academy_of_arts_and_sciences",
+    "entity_type": "organization",
+    "name": "American Academy of Arts and Sciences",
+    "aliases": [],
+    "summary": "Academy to which Bellman was elected Fellow.",
+    "subtype": "organization"
+  },
+  {
+    "id": "us_national_academy_of_sciences",
+    "entity_type": "organization",
+    "name": "US National Academy of Sciences",
+    "aliases": [],
+    "summary": "Academy to which Bellman was elected Member.",
+    "subtype": "organization"
+  },
+  {
+    "id": "university_of_kentucky",
+    "entity_type": "organization",
+    "name": "University of Kentucky",
+    "aliases": [],
+    "summary": "University where obituary author J. Gani was affiliated.",
+    "subtype": "university"
+  }
+]

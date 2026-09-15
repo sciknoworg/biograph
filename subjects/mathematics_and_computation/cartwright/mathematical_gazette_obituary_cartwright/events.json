@@ -1,0 +1,511 @@
+[
+  {
+    "id": "cartwright_birth",
+    "event_type": "birth",
+    "label": "Born in Aynho",
+    "description": "Born in Aynho, Northamptonshire, where her father was curate and later rector.",
+    "date": {
+      "display": "1900",
+      "precision": "year",
+      "sort_start": "1900-01-01",
+      "sort_end": "1900-12-31"
+    },
+    "location": "aynho",
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 1,
+        "quote": "Dame Mary Cartwright 1900-1997"
+      }
+    ]
+  },
+  {
+    "id": "cartwright_leamington",
+    "event_type": "education",
+    "label": "Sent to Leamington High School",
+    "description": "At age 11, she was sent to Leamington High School.",
+    "date": {
+      "display": "age 11",
+      "precision": "year",
+      "sort_start": "1911-01-01",
+      "sort_end": "1911-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "leamington_high_school",
+        "role": "educator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 1,
+        "quote": "Then, at age 11, she was sent to Leamington High School"
+      }
+    ]
+  },
+  {
+    "id": "cartwright_godolphin",
+    "event_type": "education",
+    "label": "Attended Godolphin School",
+    "description": "Subsequently to the Godolphin School, Salisbury where she was taught by a Miss Hancock.",
+    "date": {
+      "display": "after age 11",
+      "precision": "year",
+      "sort_start": "1912-01-01",
+      "sort_end": "1918-12-31"
+    },
+    "location": "salisbury",
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "godolphin_school",
+        "role": "educator"
+      },
+      {
+        "entity_id": "miss_hancock",
+        "role": "teacher"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 1,
+        "quote": "and subsequently to the Godolphin School, Salisbury where she was taught by a Miss Hancock."
+      }
+    ]
+  },
+  {
+    "id": "cartwright_oxford_start",
+    "event_type": "education",
+    "label": "Went to St. Hugh's College",
+    "description": "In 1919 she went up to St. Hugh's College to read mathematics.",
+    "date": {
+      "display": "1919",
+      "precision": "year",
+      "sort_start": "1919-01-01",
+      "sort_end": "1919-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "st_hughs_college",
+        "role": "educator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 1,
+        "quote": "In 1919 she went up to St. Hugh's College to read mathematics."
+      }
+    ]
+  },
+  {
+    "id": "cartwright_hardy_classes",
+    "event_type": "education",
+    "label": "Attended Hardy's Monday evening classes",
+    "description": "In her third year... she began to attend the famous Monday evening classes of Professor G. H. Hardy.",
+    "date": {
+      "display": "third year at Oxford",
+      "precision": "year",
+      "sort_start": "1921-01-01",
+      "sort_end": "1922-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "g_h_hardy",
+        "role": "teacher"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 1,
+        "quote": "In her third year, in a move which was crucial to her subsequent career, she began to attend the famous Monday evening classes of Professor G. H. Hardy."
+      }
+    ]
+  },
+  {
+    "id": "cartwright_graduation",
+    "event_type": "education",
+    "label": "Graduated with a First",
+    "description": "On graduating with a First in 1923 she went into school teaching.",
+    "date": {
+      "display": "1923",
+      "precision": "year",
+      "sort_start": "1923-01-01",
+      "sort_end": "1923-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_oxford",
+        "role": "educator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 1,
+        "quote": "On graduating with a First in 1923 she went into school teaching"
+      }
+    ]
+  },
+  {
+    "id": "cartwright_teaching_start",
+    "event_type": "employment_start",
+    "label": "Started teaching at Alice Ottley School",
+    "description": "She taught mathematics at the Alice Ottley School, Worcester and then at Wycombe Abbey School.",
+    "date": {
+      "display": "1923",
+      "precision": "year",
+      "sort_start": "1923-01-01",
+      "sort_end": "1923-12-31"
+    },
+    "location": "worcester",
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "alice_ottley_school",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 1,
+        "quote": "She taught mathematics at the Alice Ottley School, Worcester and then at Wycombe Abbey School."
+      }
+    ]
+  },
+  {
+    "id": "cartwright_research_start",
+    "event_type": "employment_start",
+    "label": "Returned to Oxford for research",
+    "description": "In January 1928 she returned to Oxford to do research under Hardy.",
+    "date": {
+      "display": "January 1928",
+      "precision": "month",
+      "sort_start": "1928-01-01",
+      "sort_end": "1928-01-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_oxford",
+        "role": "employer"
+      },
+      {
+        "entity_id": "g_h_hardy",
+        "role": "supervisor"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 2,
+        "quote": "In January 1928 she returned to Oxford to do research under Hardy."
+      }
+    ]
+  },
+  {
+    "id": "cartwright_thesis",
+    "event_type": "publication",
+    "label": "Completed thesis",
+    "description": "Her thesis, which she completed in under three years, was on 'Zeros of Integral Functions of Special Types'.",
+    "date": {
+      "display": "under three years after 1928",
+      "precision": "range",
+      "sort_start": "1928-02-01",
+      "sort_end": "1931-01-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 2,
+        "quote": "Her thesis, which she completed in under three years, was on 'Zeros of Integral Functions of Special Types'."
+      }
+    ]
+  },
+  {
+    "id": "cartwright_yarrow_fellowship",
+    "event_type": "award",
+    "label": "Awarded Yarrow Research Fellowship",
+    "description": "On the strength of this she was awarded the Yarrow Research Fellowship at Girton College.",
+    "date": {
+      "display": "after thesis completion",
+      "precision": "year",
+      "sort_start": "1931-01-01",
+      "sort_end": "1931-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "girton_college",
+        "role": "awarding_body"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 2,
+        "quote": "On the strength of this she was awarded the Yarrow Research Fellowship at Girton College."
+      }
+    ]
+  },
+  {
+    "id": "cartwright_director_of_studies",
+    "event_type": "employment_start",
+    "label": "Became Director of Studies at Girton",
+    "description": "From 1936-1949 Mary Cartwright was Director of Studies in Mathematics at Girton.",
+    "date": {
+      "display": "1936",
+      "precision": "year",
+      "sort_start": "1936-01-01",
+      "sort_end": "1936-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "girton_college",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 2,
+        "quote": "From 1936-1949 Mary Cartwright was Director of Studies in Mathematics at Girton"
+      }
+    ]
+  },
+  {
+    "id": "cartwright_radio_research",
+    "event_type": "role_change",
+    "label": "Turned to non-linear differential equations",
+    "description": "Then, in 1938, with war on the horizon, there came a drastic change of direction... Cartwright and Littlewood turned their attention to non-linear differential equations.",
+    "date": {
+      "display": "1938",
+      "precision": "year",
+      "sort_start": "1938-01-01",
+      "sort_end": "1938-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "j_e_littlewood",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "radio_research_board",
+        "role": "sponsor"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 2,
+        "quote": "Then, in 1938, with war on the horizon, there came a drastic change of direction."
+      }
+    ]
+  },
+  {
+    "id": "cartwright_mistress_start",
+    "event_type": "employment_start",
+    "label": "Became Mistress of Girton",
+    "description": "In 1949 she became Mistress of Girton.",
+    "date": {
+      "display": "1949",
+      "precision": "year",
+      "sort_start": "1949-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "girton_college",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 2,
+        "quote": "In 1949 she became Mistress of Girton"
+      }
+    ]
+  },
+  {
+    "id": "cartwright_ma_president",
+    "event_type": "role_change",
+    "label": "Presidential address to Mathematical Association",
+    "description": "In her presidential address to the Mathematical Association in 1952 'Non-linear vibrations: a chapter in mathematical history'.",
+    "date": {
+      "display": "1952",
+      "precision": "year",
+      "sort_start": "1952-01-01",
+      "sort_end": "1952-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "mathematical_association",
+        "role": "organization"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 2,
+        "quote": "In her presidential address to the Mathematical Association in 1952 'Non-linear vibrations: a chapter in mathematical history'"
+      }
+    ]
+  },
+  {
+    "id": "cartwright_mistress_end",
+    "event_type": "employment_end",
+    "label": "Ended Mistress-ship at Girton",
+    "description": "During Mary Cartwright's Mistress-ship 1949-1968 (the longest tenure of any Mistress).",
+    "date": {
+      "display": "1968",
+      "precision": "year",
+      "sort_start": "1968-01-01",
+      "sort_end": "1968-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "girton_college",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 2,
+        "quote": "During Mary Cartwright's Mistress-ship 1949-1968 (the longest tenure of any Mistress)"
+      }
+    ]
+  },
+  {
+    "id": "cartwright_dbe",
+    "event_type": "award",
+    "label": "Appointed DBE",
+    "description": "In 1969 she was appointed DBE.",
+    "date": {
+      "display": "1969",
+      "precision": "year",
+      "sort_start": "1969-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 2,
+        "quote": "In 1969 she was appointed DBE"
+      }
+    ]
+  },
+  {
+    "id": "cartwright_death",
+    "event_type": "death",
+    "label": "Died",
+    "description": "Dame Mary Cartwright 1900-1997.",
+    "date": {
+      "display": "1997",
+      "precision": "year",
+      "sort_start": "1997-01-01",
+      "sort_end": "1997-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      }
+    ],
+    "certainty": "disputed",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 1,
+        "quote": "Dame Mary Cartwright 1900-1997"
+      }
+    ]
+  }
+]

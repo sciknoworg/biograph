@@ -1,0 +1,17 @@
+[
+  {
+    "id": "chimaag_founded_berlin",
+    "source": "chiffriermaschinen_ag",
+    "type": "founded",
+    "target": "berlin",
+    "event_id": "chimaag_founded",
+    "sources": [
+      {
+        "source_id": "taaks_scherbius_enigma",
+        "page": 1,
+        "quote": "On 9th July, Chiffriermaschinen AG (ChiMaAG) was founded in Berlin."
+      }
+    ],
+    "_rejected_because": "'founded' expects target entity_type organization/artifact, but 'berlin' is 'place'"
+  }
+]

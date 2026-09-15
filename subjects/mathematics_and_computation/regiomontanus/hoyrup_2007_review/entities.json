@@ -1,0 +1,89 @@
+[
+  {
+    "id": "regiomontanus",
+    "entity_type": "person",
+    "name": "Regiomontanus",
+    "aliases": [
+      "Johannes Müller von Königsberg"
+    ],
+    "summary": "15th-century German mathematician and astronomer known for algebraic symbolism and Euclidean studies.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "menso_folkerts",
+    "entity_type": "person",
+    "name": "Menso Folkerts",
+    "summary": "Historian of mathematics and author of the reviewed volume on medieval mathematics.",
+    "subtype": "historian"
+  },
+  {
+    "id": "jens_hoyrup",
+    "entity_type": "person",
+    "name": "Jens Høyrup",
+    "summary": "Historian of mathematics and author of the review published in Aestimatio.",
+    "subtype": "historian"
+  },
+  {
+    "id": "vienna",
+    "entity_type": "place",
+    "name": "Vienna",
+    "summary": "City where Regiomontanus studied and wrote the Wiener Rechenbuch.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Austria",
+      "lat": 48.20833,
+      "lng": 16.3725,
+      "wikidata_qid": "Q1741",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "padua",
+    "entity_type": "place",
+    "name": "Padua",
+    "summary": "City where Regiomontanus delivered a lecture in 1464.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Italy",
+      "lat": 45.40778,
+      "lng": 11.87333,
+      "wikidata_qid": "Q617",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "wiener_rechenbuch",
+    "entity_type": "artifact",
+    "name": "Wiener Rechenbuch",
+    "summary": "Mathematical manuscript written by Regiomontanus between 1454 and 1462.",
+    "subtype": "manuscript"
+  },
+  {
+    "id": "plimpton_188",
+    "entity_type": "artifact",
+    "name": "Plimpton 188",
+    "summary": "Manuscript containing Regiomontanus's algebraic problems and symbolism.",
+    "subtype": "manuscript"
+  },
+  {
+    "id": "fridericus_amann",
+    "entity_type": "person",
+    "name": "Fridericus Amann",
+    "summary": "15th-century German algebraist who copied Regiomontanus's work.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "giovanni_bianchini",
+    "entity_type": "person",
+    "name": "Giovanni Bianchini",
+    "summary": "Correspondent of Regiomontanus regarding algebraic knowledge.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "folkerts_volume_2006",
+    "entity_type": "artifact",
+    "name": "The Development of Mathematics in Medieval Europe",
+    "summary": "Collected studies volume by Menso Folkerts published by Ashgate in 2006.",
+    "subtype": "publication"
+  }
+]

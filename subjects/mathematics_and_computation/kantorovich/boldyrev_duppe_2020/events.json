@@ -1,0 +1,446 @@
+[
+  {
+    "id": "kantorovich_birth",
+    "event_type": "birth",
+    "label": "Born in 1912",
+    "date": {
+      "display": "1912",
+      "precision": "year",
+      "sort_start": "1912-01-01",
+      "sort_end": "1912-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "leonid_kantorovich",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "boldyrev_duppe_2020",
+        "page": 1,
+        "quote": "The mathematician Leonid Kantorovich (1912 –1986) was a key activist in academic politics"
+      }
+    ]
+  },
+  {
+    "id": "kantorovich_enrolled_university",
+    "event_type": "education",
+    "label": "Enrolled at Leningrad State University",
+    "date": {
+      "display": "1926",
+      "precision": "year",
+      "sort_start": "1926-01-01",
+      "sort_end": "1926-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "leonid_kantorovich",
+        "role": "subject"
+      },
+      {
+        "entity_id": "leningrad_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "boldyrev_duppe_2020",
+        "page": 5,
+        "quote": "At age fourteen, he enrolled at Leningrad State University with special permission."
+      }
+    ]
+  },
+  {
+    "id": "kantorovich_graduated",
+    "event_type": "education",
+    "label": "Graduated from Leningrad University",
+    "date": {
+      "display": "1930",
+      "precision": "year",
+      "sort_start": "1930-01-01",
+      "sort_end": "1930-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "leonid_kantorovich",
+        "role": "subject"
+      },
+      {
+        "entity_id": "leningrad_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "boldyrev_duppe_2020",
+        "page": 5,
+        "quote": "on receiving his doctorate in 1930, and barely older than his students, Kantorovich received seven different teaching offers"
+      }
+    ]
+  },
+  {
+    "id": "kantorovich_professor_leningrad",
+    "event_type": "employment_start",
+    "label": "Became professor at Leningrad University",
+    "date": {
+      "display": "1930",
+      "precision": "year",
+      "sort_start": "1930-01-01",
+      "sort_end": "1930-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "leonid_kantorovich",
+        "role": "subject"
+      },
+      {
+        "entity_id": "leningrad_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "boldyrev_duppe_2020",
+        "page": 5,
+        "quote": "became a professor of mathematics at Leningrad University"
+      }
+    ]
+  },
+  {
+    "id": "kantorovich_plywood_problem",
+    "event_type": "other",
+    "label": "Solved Plywood Trust maximization problem",
+    "date": {
+      "display": "1938",
+      "precision": "year",
+      "sort_start": "1938-01-01",
+      "sort_end": "1938-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "leonid_kantorovich",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "boldyrev_duppe_2020",
+        "page": 7,
+        "quote": "In 1938, engineers from the lab of the Plywood Trust asked him to solve a maximization problem regarding veneer-cutting machines"
+      }
+    ]
+  },
+  {
+    "id": "kantorovich_linear_programming_booklet",
+    "event_type": "publication",
+    "label": "Published linear programming booklet",
+    "date": {
+      "display": "January 1939",
+      "precision": "month",
+      "sort_start": "1939-01-01",
+      "sort_end": "1939-01-31"
+    },
+    "participants": [
+      {
+        "entity_id": "leonid_kantorovich",
+        "role": "subject"
+      },
+      {
+        "entity_id": "mathematical_methods_booklet",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "boldyrev_duppe_2020",
+        "page": 7,
+        "quote": "In January 1939, this became the algorithm to solve the linear-programming problem, published in a small booklet titled Mathematical Methods in the Organization and Planning of Production."
+      }
+    ]
+  },
+  {
+    "id": "kantorovich_stalin_prize",
+    "event_type": "award",
+    "label": "Received Stalin Prize",
+    "date": {
+      "display": "c. 1946",
+      "precision": "circa",
+      "sort_start": "1945-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "leonid_kantorovich",
+        "role": "subject"
+      },
+      {
+        "entity_id": "stalin_prize",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "boldyrev_duppe_2020",
+        "page": 10,
+        "quote": "In the wake of the Second World War, as the nuclear arms race continued, Kantorovich received one of the so-called Stalin Prizes"
+      }
+    ]
+  },
+  {
+    "id": "kantorovich_letter_malenkov",
+    "event_type": "other",
+    "label": "Vallander sent letter promoting Kantorovich to Malenkov",
+    "date": {
+      "display": "July 1954",
+      "precision": "month",
+      "sort_start": "1954-07-01",
+      "sort_end": "1954-07-31"
+    },
+    "participants": [
+      {
+        "entity_id": "leonid_kantorovich",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "boldyrev_duppe_2020",
+        "page": 10,
+        "quote": "In July 1954, Sergei Vallander, vice rector of Leningrad University, sent a letter to Premier Georgy Malenkov, focusing on the importance of mathematics in economic policy, bemoaning the ignorance of mathematical methods among economists and planners, and actively promoting Kantorovich's work."
+      }
+    ]
+  },
+  {
+    "id": "kantorovich_academy_member",
+    "event_type": "award",
+    "label": "Elected corresponding member of Academy of Sciences",
+    "date": {
+      "display": "1958",
+      "precision": "year",
+      "sort_start": "1958-01-01",
+      "sort_end": "1958-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "leonid_kantorovich",
+        "role": "subject"
+      },
+      {
+        "entity_id": "academy_of_sciences_ussr",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "boldyrev_duppe_2020",
+        "page": 14,
+        "quote": "This is how, despite his Jewish background, Kantorovich secured election as corresponding member of the Academy of Sciences in 1958."
+      }
+    ]
+  },
+  {
+    "id": "kantorovich_best_use_book",
+    "event_type": "publication",
+    "label": "Published The Best Use of Economic Resources",
+    "date": {
+      "display": "1959",
+      "precision": "year",
+      "sort_start": "1959-01-01",
+      "sort_end": "1959-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "leonid_kantorovich",
+        "role": "subject"
+      },
+      {
+        "entity_id": "best_use_economic_resources",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "boldyrev_duppe_2020",
+        "page": 15,
+        "quote": "This paper opened the way for the more literary, and better-known, book exposition of his method published in 1959, The Best Use of Economic Resources."
+      }
+    ]
+  },
+  {
+    "id": "kantorovich_math_econ_conference",
+    "event_type": "conference",
+    "label": "Organized conference on mathematics in economics",
+    "date": {
+      "display": "April 1960",
+      "precision": "month",
+      "sort_start": "1960-04-01",
+      "sort_end": "1960-04-30"
+    },
+    "participants": [
+      {
+        "entity_id": "leonid_kantorovich",
+        "role": "subject"
+      },
+      {
+        "entity_id": "vasily_nemchinov",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "boldyrev_duppe_2020",
+        "page": 16,
+        "quote": "In April 1960, Kantorovich, together with Nemchinov, organized a large all-union conference on mathematics in economics."
+      }
+    ]
+  },
+  {
+    "id": "kantorovich_moved_novosibirsk",
+    "event_type": "relocation",
+    "label": "Moved to Novosibirsk",
+    "date": {
+      "display": "1960s",
+      "precision": "decade",
+      "sort_start": "1960-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "leonid_kantorovich",
+        "role": "subject"
+      },
+      {
+        "entity_id": "novosibirsk",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "boldyrev_duppe_2020",
+        "page": 18,
+        "quote": "By the 1960s, as promised to the Academy of Sciences election committee, Kantorovich had moved to Novosibirsk"
+      }
+    ]
+  },
+  {
+    "id": "kantorovich_lenin_prize",
+    "event_type": "award",
+    "label": "Received Lenin Prize",
+    "date": {
+      "display": "1965",
+      "precision": "year",
+      "sort_start": "1965-01-01",
+      "sort_end": "1965-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "leonid_kantorovich",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lenin_prize",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "viktor_novozhilov",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "vasily_nemchinov",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "boldyrev_duppe_2020",
+        "page": 20,
+        "quote": "In 1965, Novozhilov, Nemchinov and Kantorovich ultimately jointly received the Lenin Prize."
+      }
+    ]
+  },
+  {
+    "id": "kantorovich_moved_moscow",
+    "event_type": "relocation",
+    "label": "Returned to Moscow",
+    "date": {
+      "display": "1971",
+      "precision": "year",
+      "sort_start": "1971-01-01",
+      "sort_end": "1971-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "leonid_kantorovich",
+        "role": "subject"
+      },
+      {
+        "entity_id": "moscow",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "boldyrev_duppe_2020",
+        "page": 20,
+        "quote": "In 1971, Kantorovich returned to Moscow"
+      }
+    ]
+  },
+  {
+    "id": "kantorovich_nobel_prize",
+    "event_type": "award",
+    "label": "Received Nobel Memorial Prize in Economic Sciences",
+    "date": {
+      "display": "1975",
+      "precision": "year",
+      "sort_start": "1975-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "leonid_kantorovich",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nobel_prize_economics",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "tjalling_koopmans",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "boldyrev_duppe_2020",
+        "page": 21,
+        "quote": "In 1975, Kantorovich, jointly with Koopmans, was selected as the recipient of the Nobel Memorial Prize in Economic Sciences"
+      }
+    ]
+  },
+  {
+    "id": "kantorovich_death",
+    "event_type": "death",
+    "label": "Died in 1986",
+    "date": {
+      "display": "1986",
+      "precision": "year",
+      "sort_start": "1986-01-01",
+      "sort_end": "1986-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "leonid_kantorovich",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "boldyrev_duppe_2020",
+        "page": 23,
+        "quote": "But Kantorovich, who died in 1986, did not live to see this."
+      }
+    ]
+  }
+]

@@ -1,0 +1,669 @@
+[
+  {
+    "id": "rosenberg_birth",
+    "event_type": "birth",
+    "label": "Born in Johannesburg",
+    "date": {
+      "display": "November 13, 1909",
+      "precision": "day",
+      "sort_start": "1909-11-13",
+      "sort_end": "1909-11-13"
+    },
+    "location": "johannesburg",
+    "participants": [
+      {
+        "entity_id": "reuben_louis_rosenberg",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 2,
+        "quote": "Reuben Louis Rosenberg was born on November 13, 1909 in Johannesburg, South Africa."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_uct_enrollment",
+    "event_type": "education",
+    "label": "Matriculated at University of Cape Town",
+    "date": {
+      "display": "1925",
+      "precision": "year",
+      "sort_start": "1925-01-01",
+      "sort_end": "1925-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "reuben_louis_rosenberg",
+        "role": "student"
+      },
+      {
+        "entity_id": "university_of_cape_town",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 4,
+        "quote": "He matriculated at the University of Cape Town (UCT) in 1925 for the year beginning in March 1926 as a student in the first year of Engineering."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_uct_ba",
+    "event_type": "education",
+    "label": "Obtained B.A. at UCT",
+    "date": {
+      "display": "end of 1928",
+      "precision": "year",
+      "sort_start": "1928-01-01",
+      "sort_end": "1928-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "reuben_louis_rosenberg",
+        "role": "student"
+      },
+      {
+        "entity_id": "university_of_cape_town",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 4,
+        "quote": "he obtained his B.A. at the end of the year."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_uct_ma",
+    "event_type": "education",
+    "label": "Obtained M.A. in Applied Mathematics",
+    "date": {
+      "display": "December 19, 1929",
+      "precision": "day",
+      "sort_start": "1929-12-19",
+      "sort_end": "1929-12-19"
+    },
+    "participants": [
+      {
+        "entity_id": "reuben_louis_rosenberg",
+        "role": "student"
+      },
+      {
+        "entity_id": "university_of_cape_town",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 4,
+        "quote": "Rosenberg obtained his M.A. (Magister Artium) in Applied Mathematics, with distinction, on December 19, 1929."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_wits_lecturer",
+    "event_type": "employment_start",
+    "label": "Appointed Junior Lecturer at Witwatersrand",
+    "date": {
+      "display": "March 1st, 1930",
+      "precision": "day",
+      "sort_start": "1930-03-01",
+      "sort_end": "1930-03-01"
+    },
+    "participants": [
+      {
+        "entity_id": "reuben_louis_rosenberg",
+        "role": "employee"
+      },
+      {
+        "entity_id": "university_of_the_witwatersrand",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 6,
+        "quote": "on March 1st, 1930, Rosenberg was appointed Junior Lecturer in Applied Mathematics at the University of the Witwatersrand (Wits) in Johannesburg."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_wits_resign",
+    "event_type": "employment_end",
+    "label": "Resigned from Witwatersrand",
+    "date": {
+      "display": "September 30, 1930",
+      "precision": "day",
+      "sort_start": "1930-09-30",
+      "sort_end": "1930-09-30"
+    },
+    "participants": [
+      {
+        "entity_id": "reuben_louis_rosenberg",
+        "role": "employee"
+      },
+      {
+        "entity_id": "university_of_the_witwatersrand",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 7,
+        "quote": "Rosenberg resigned his appointment at the University of the Witwatersrand on September 30, 1930."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_berlin_phd",
+    "event_type": "education",
+    "label": "Defended Dissertation in Berlin",
+    "date": {
+      "display": "July 7, 1932",
+      "precision": "day",
+      "sort_start": "1932-07-07",
+      "sort_end": "1932-07-07"
+    },
+    "participants": [
+      {
+        "entity_id": "reuben_louis_rosenberg",
+        "role": "student"
+      },
+      {
+        "entity_id": "friedrich_wilhelms_universitat_zu_berlin",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 7,
+        "quote": "Rosenberg defended his Inaugural Dissertation Wirkungsquerschnitte von Atomen gegenüber langsamen und schnellen Elektronen (Effective cross sections of atoms compared with slow and fast electrons2) [3] on July 7, 1932 at the Friedrich-Wilhelms-Universität in Berlin."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_berlin_accepted",
+    "event_type": "education",
+    "label": "PhD work accepted magna cum laude",
+    "date": {
+      "display": "March 1, 1933",
+      "precision": "day",
+      "sort_start": "1933-03-01",
+      "sort_end": "1933-03-01"
+    },
+    "participants": [
+      {
+        "entity_id": "reuben_louis_rosenberg",
+        "role": "student"
+      },
+      {
+        "entity_id": "friedrich_wilhelms_universitat_zu_berlin",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 7,
+        "quote": "The work was accepted on March 1, 1933 with magna cum laude."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_imperial_fellowship",
+    "event_type": "employment_start",
+    "label": "Received Beit Fellowship at Imperial College",
+    "date": {
+      "display": "October 1932",
+      "precision": "month",
+      "sort_start": "1932-10-01",
+      "sort_end": "1932-10-31"
+    },
+    "participants": [
+      {
+        "entity_id": "reuben_louis_rosenberg",
+        "role": "fellow"
+      },
+      {
+        "entity_id": "imperial_college_london",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 11,
+        "quote": "Rosenberg received a Beit Fellowship for Scientific Researchof the annual value of £2407 from the Imperial College of Science, Technology, and Medicine, South Kensington, in London to undertake theoretical investigations in topics connected with quantum mechanics and obtain a Diploma of Membership of the Imperial College of Science and Technology(D.I.C.), an academic certiﬁcate awarded to postgraduate students upon graduation. He stayed there from October 1932 to July 1934 in the Department of Mathematics."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_imperial_dic",
+    "event_type": "education",
+    "label": "Awarded D.I.C.",
+    "date": {
+      "display": "July 1934",
+      "precision": "month",
+      "sort_start": "1934-07-01",
+      "sort_end": "1934-07-31"
+    },
+    "participants": [
+      {
+        "entity_id": "reuben_louis_rosenberg",
+        "role": "student"
+      },
+      {
+        "entity_id": "imperial_college_london",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 13,
+        "quote": "Since the committee took place in July 1934, presumably after the full assessments of the papers, it would seem unlikely that there was a later change but not impossible perhaps."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_natal_lecturer",
+    "event_type": "employment_start",
+    "label": "Appointed Lecturer at Natal University College",
+    "date": {
+      "display": "March 1935",
+      "precision": "month",
+      "sort_start": "1935-03-01",
+      "sort_end": "1935-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "reuben_louis_rosenberg",
+        "role": "employee"
+      },
+      {
+        "entity_id": "natal_university_college",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 14,
+        "quote": "Rosenberg received an appointment as a Lecturer in March 1935 and then Senior Lecturer (1938) in Applied Mathematics at the Natal University College (NUC) located in Pietermaritzburg."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_marriage",
+    "event_type": "other",
+    "label": "Married Violet Eva Hatcher",
+    "date": {
+      "display": "January 30, 1937",
+      "precision": "day",
+      "sort_start": "1937-01-30",
+      "sort_end": "1937-01-30"
+    },
+    "location": "london",
+    "participants": [
+      {
+        "entity_id": "reuben_louis_rosenberg",
+        "role": "spouse"
+      },
+      {
+        "entity_id": "violet_eva_hatcher",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 12,
+        "quote": "When he was working in London, Rosenberg met and married Violet Eva Hatcher (London, April 17, 1913–February 20, 1981) on January 30, 1937, in London, England (Fig. 3)."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_war_service",
+    "event_type": "employment_start",
+    "label": "Joined South Africa Forces",
+    "date": {
+      "display": "July 1940",
+      "precision": "month",
+      "sort_start": "1940-07-01",
+      "sort_end": "1940-07-31"
+    },
+    "participants": [
+      {
+        "entity_id": "reuben_louis_rosenberg",
+        "role": "soldier"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 15,
+        "quote": "He volunteered for active service with the South Africa Forces in the Middle East from July 1940 to 1943."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_war_service_end",
+    "event_type": "employment_end",
+    "label": "Returned from War Service",
+    "date": {
+      "display": "1943",
+      "precision": "year",
+      "sort_start": "1943-01-01",
+      "sort_end": "1943-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "reuben_louis_rosenberg",
+        "role": "soldier"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 15,
+        "quote": "He volunteered for active service with the South Africa Forces in the Middle East from July 1940 to 1943."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_stein_rosenberg_submission",
+    "event_type": "publication",
+    "label": "Submitted Stein–Rosenberg paper",
+    "date": {
+      "display": "June 16, 1947",
+      "precision": "day",
+      "sort_start": "1947-06-16",
+      "sort_end": "1947-06-16"
+    },
+    "participants": [
+      {
+        "entity_id": "reuben_louis_rosenberg",
+        "role": "author"
+      },
+      {
+        "entity_id": "philip_bernard_stein",
+        "role": "author"
+      },
+      {
+        "entity_id": "stein_rosenberg_paper",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 16,
+        "quote": "It was submitted on June 16, 1947, read on October 16, 1947, and appeared in 1948 [9]."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_stein_rosenberg_published",
+    "event_type": "publication",
+    "label": "Stein–Rosenberg paper published",
+    "date": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "reuben_louis_rosenberg",
+        "role": "author"
+      },
+      {
+        "entity_id": "philip_bernard_stein",
+        "role": "author"
+      },
+      {
+        "entity_id": "stein_rosenberg_paper",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 16,
+        "quote": "It was submitted on June 16, 1947, read on October 16, 1947, and appeared in 1948 [9]."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_bristol_leave",
+    "event_type": "employment_start",
+    "label": "Research leave at Bristol University",
+    "date": {
+      "display": "1947–1948",
+      "precision": "range",
+      "sort_start": "1947-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "reuben_louis_rosenberg",
+        "role": "researcher"
+      },
+      {
+        "entity_id": "bristol_university",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 23,
+        "quote": "In 1947–1948, on leave from the Department of Mathematics of the NUC, Rosenberg spent time continuing his research in Atomic Physics at the H. H. Wills Physics Laboratory, Physics Department, Bristol University, England."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_chelsea_lecturer",
+    "event_type": "employment_start",
+    "label": "Senior Lecturer at Chelsea Polytechnic",
+    "date": {
+      "display": "October 1949",
+      "precision": "month",
+      "sort_start": "1949-10-01",
+      "sort_end": "1949-10-31"
+    },
+    "participants": [
+      {
+        "entity_id": "reuben_louis_rosenberg",
+        "role": "employee"
+      },
+      {
+        "entity_id": "chelsea_polytechnic",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 25,
+        "quote": "After leaving NUC, Rosenberg became a Senior Lecturer in Applied Mathematics at the Chelsea Polytechnic in London in October 1949."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_chelsea_resign",
+    "event_type": "employment_end",
+    "label": "Resigned from Chelsea Polytechnic",
+    "date": {
+      "display": "October 31, 1955",
+      "precision": "day",
+      "sort_start": "1955-10-31",
+      "sort_end": "1955-10-31"
+    },
+    "participants": [
+      {
+        "entity_id": "reuben_louis_rosenberg",
+        "role": "employee"
+      },
+      {
+        "entity_id": "chelsea_polytechnic",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 25,
+        "quote": "He resigned from Chelsea Polytechnic on October 31, 1955."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_unb_professor",
+    "event_type": "employment_start",
+    "label": "Professor at University of New Brunswick",
+    "date": {
+      "display": "1955",
+      "precision": "year",
+      "sort_start": "1955-01-01",
+      "sort_end": "1955-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "reuben_louis_rosenberg",
+        "role": "employee"
+      },
+      {
+        "entity_id": "university_of_new_brunswick",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 25,
+        "quote": "In 1955, Rosenberg took a professorship at the Mathematics Department of the University of New Brunswick in Fredericton, Canada, and was appointed as his head the same year."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_nrc_affiliation",
+    "event_type": "employment_start",
+    "label": "Affiliated with National Research Council",
+    "date": {
+      "display": "From 1960",
+      "precision": "year",
+      "sort_start": "1960-01-01",
+      "sort_end": "1960-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "reuben_louis_rosenberg",
+        "role": "researcher"
+      },
+      {
+        "entity_id": "national_research_council_canada",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 26,
+        "quote": "From 1960, Rosenberg was afﬁliated to the Division of Pure Physics, National Research Council in Ottawa, on sabbatical leave from University of New Brunswick."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_carleton_professor",
+    "event_type": "employment_start",
+    "label": "Professor at Carleton University",
+    "date": {
+      "display": "From 1966",
+      "precision": "year",
+      "sort_start": "1966-01-01",
+      "sort_end": "1966-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "reuben_louis_rosenberg",
+        "role": "employee"
+      },
+      {
+        "entity_id": "carleton_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 29,
+        "quote": "From 1966, Rosenberg held a position at Carleton University in Ottawa as a Professor in the Department of Mathematics and became its chairman from 1967 to 1969."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_retirement",
+    "event_type": "retirement",
+    "label": "Retired from Carleton University",
+    "date": {
+      "display": "1975",
+      "precision": "year",
+      "sort_start": "1975-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "reuben_louis_rosenberg",
+        "role": "employee"
+      },
+      {
+        "entity_id": "carleton_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 29,
+        "quote": "Rosenberg retired in 1975, but, from 1976 to 1986, he continued to teach as a sessional lecturer in mathematics of the Department of Mathematics, and he also published lecture notes [25]."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_death",
+    "event_type": "death",
+    "label": "Died in Ottawa",
+    "date": {
+      "display": "August 25, 1986",
+      "precision": "day",
+      "sort_start": "1986-08-25",
+      "sort_end": "1986-08-25"
+    },
+    "location": "ottawa",
+    "participants": [
+      {
+        "entity_id": "reuben_louis_rosenberg",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 29,
+        "quote": "Rosenberg dealt with cancer for the year before his death in August 25, 1986 in Ottawa."
+      }
+    ]
+  }
+]

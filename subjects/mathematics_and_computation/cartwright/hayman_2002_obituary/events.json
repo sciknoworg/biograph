@@ -1,0 +1,554 @@
+[
+  {
+    "id": "birth",
+    "event_type": "birth",
+    "label": "Born in Aynho",
+    "date": {
+      "display": "17 December 1900",
+      "precision": "day",
+      "sort_start": "1900-12-17",
+      "sort_end": "1900-12-17"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      }
+    ],
+    "location": "aynho",
+    "sources": [
+      {
+        "source_id": "hayman_2002_obituary",
+        "page": 1,
+        "quote": "She was born on 17 December 1900"
+      }
+    ]
+  },
+  {
+    "id": "oxford_entry",
+    "event_type": "education",
+    "label": "Entered Oxford University",
+    "date": {
+      "display": "October 1919",
+      "precision": "month",
+      "sort_start": "1919-10-01",
+      "sort_end": "1919-10-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "oxford_university",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hayman_2002_obituary",
+        "page": 2,
+        "quote": "She went up to Oxford in October 1919"
+      }
+    ]
+  },
+  {
+    "id": "moderations",
+    "event_type": "education",
+    "label": "Passed Moderations",
+    "date": {
+      "display": "June 1921",
+      "precision": "month",
+      "sort_start": "1921-06-01",
+      "sort_end": "1921-06-30"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hayman_2002_obituary",
+        "page": 3,
+        "quote": "Mary got a Second in Moderations in June 1921"
+      }
+    ]
+  },
+  {
+    "id": "final_honours",
+    "event_type": "education",
+    "label": "Awarded First in Final Honours",
+    "date": {
+      "display": "1923",
+      "precision": "year",
+      "sort_start": "1923-01-01",
+      "sort_end": "1923-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hayman_2002_obituary",
+        "page": 3,
+        "quote": "she persevered and got a First in Final Honours in 1923"
+      }
+    ]
+  },
+  {
+    "id": "dphil_start",
+    "event_type": "education",
+    "label": "Returned to Oxford for DPhil",
+    "date": {
+      "display": "1927",
+      "precision": "year",
+      "sort_start": "1927-01-01",
+      "sort_end": "1927-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "g_h_hardy",
+        "role": "supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hayman_2002_obituary",
+        "page": 3,
+        "quote": "in 1927 she returned to work under G. H. Hardy"
+      }
+    ]
+  },
+  {
+    "id": "dphil_awarded",
+    "event_type": "education",
+    "label": "Awarded DPhil",
+    "date": {
+      "display": "1930",
+      "precision": "year",
+      "sort_start": "1930-01-01",
+      "sort_end": "1930-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hayman_2002_obituary",
+        "page": 3,
+        "quote": "Her DPhil examiners in 1930 were J. E. Littlewood and W. L. Ferrar"
+      }
+    ]
+  },
+  {
+    "id": "girton_fellow",
+    "event_type": "employment_start",
+    "label": "Appointed Yarrow Research Fellow at Girton",
+    "date": {
+      "display": "1930",
+      "precision": "year",
+      "sort_start": "1930-01-01",
+      "sort_end": "1930-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "girton_college",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hayman_2002_obituary",
+        "page": 3,
+        "quote": "She then moved to Cambridge as Yarrow Research Fellow at Girton College"
+      }
+    ]
+  },
+  {
+    "id": "university_lecturer",
+    "event_type": "employment_start",
+    "label": "Appointed University Lecturer in Mathematics",
+    "date": {
+      "display": "1935",
+      "precision": "year",
+      "sort_start": "1935-01-01",
+      "sort_end": "1935-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cambridge_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hayman_2002_obituary",
+        "page": 3,
+        "quote": "In 1935 she became a university lecturer in Mathematics"
+      }
+    ]
+  },
+  {
+    "id": "director_of_studies",
+    "event_type": "employment_start",
+    "label": "Appointed Director of Studies for Mathematics",
+    "date": {
+      "display": "1936",
+      "precision": "year",
+      "sort_start": "1936-01-01",
+      "sort_end": "1936-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "girton_college",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hayman_2002_obituary",
+        "page": 3,
+        "quote": "Between 1936 and 1949 she was Director of Studies for Mathematics at Girton College"
+      }
+    ]
+  },
+  {
+    "id": "red_cross_commandant",
+    "event_type": "role_change",
+    "label": "Appointed Commandant of College Red Cross Detachment",
+    "date": {
+      "display": "1940",
+      "precision": "year",
+      "sort_start": "1940-01-01",
+      "sort_end": "1940-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "girton_college",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hayman_2002_obituary",
+        "page": 4,
+        "quote": "From 1940 to 1944 she was Commandant of the College Red Cross Detachment"
+      }
+    ]
+  },
+  {
+    "id": "frs_elected",
+    "event_type": "award",
+    "label": "Elected Fellow of the Royal Society",
+    "date": {
+      "display": "1947",
+      "precision": "year",
+      "sort_start": "1947-01-01",
+      "sort_end": "1947-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_society",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hayman_2002_obituary",
+        "page": 4,
+        "quote": "In 1947 Mary was elected a Fellow of the Royal Society"
+      }
+    ]
+  },
+  {
+    "id": "mistress_girton",
+    "event_type": "employment_start",
+    "label": "Took office as Mistress of Girton College",
+    "date": {
+      "display": "summer 1949",
+      "precision": "season",
+      "sort_start": "1949-06-01",
+      "sort_end": "1949-08-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "girton_college",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hayman_2002_obituary",
+        "page": 4,
+        "quote": "in the summer of 1949 she took up oﬃce as Mistress"
+      }
+    ]
+  },
+  {
+    "id": "us_navy_consultant",
+    "event_type": "employment_start",
+    "label": "Worked as Consultant on US Navy Projects",
+    "date": {
+      "display": "1949",
+      "precision": "year",
+      "sort_start": "1949-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hayman_2002_obituary",
+        "page": 4,
+        "quote": "She spent part of 1949 as a consultant on US Navy mathematical projects at Princeton and Stanford Universities"
+      }
+    ]
+  },
+  {
+    "id": "reader_appointed",
+    "event_type": "employment_start",
+    "label": "Appointed Reader in the Theory of Functions",
+    "date": {
+      "display": "1959",
+      "precision": "year",
+      "sort_start": "1959-01-01",
+      "sort_end": "1959-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cambridge_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hayman_2002_obituary",
+        "page": 4,
+        "quote": "In 1959 she was appointed Reader in the Theory of Functions by Cambridge University"
+      }
+    ]
+  },
+  {
+    "id": "septem_viri",
+    "event_type": "role_change",
+    "label": "Appointed to Septem Viri",
+    "date": {
+      "display": "1958",
+      "precision": "year",
+      "sort_start": "1958-01-01",
+      "sort_end": "1958-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cambridge_university",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hayman_2002_obituary",
+        "page": 4,
+        "quote": "She was appointed for the period 1958–60, the ﬁrst woman to be part of this body"
+      }
+    ]
+  },
+  {
+    "id": "lms_president",
+    "event_type": "role_change",
+    "label": "Elected President of the London Mathematical Society",
+    "date": {
+      "display": "1961",
+      "precision": "year",
+      "sort_start": "1961-01-01",
+      "sort_end": "1961-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "london_mathematical_society",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hayman_2002_obituary",
+        "page": 13,
+        "quote": "She was President of the London Mathematical Society from 1961 to 1963"
+      }
+    ]
+  },
+  {
+    "id": "sylvester_medal",
+    "event_type": "award",
+    "label": "Awarded Sylvester Medal",
+    "date": {
+      "display": "1964",
+      "precision": "year",
+      "sort_start": "1964-01-01",
+      "sort_end": "1964-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_society",
+        "role": "awarding_body"
+      },
+      {
+        "entity_id": "sylvester_medal",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hayman_2002_obituary",
+        "page": 4,
+        "quote": "She was awarded the Sylvester Medal of the Society in 1964"
+      }
+    ]
+  },
+  {
+    "id": "retirement",
+    "event_type": "retirement",
+    "label": "Retired from Readership and Mistress-ship",
+    "date": {
+      "display": "1968",
+      "precision": "year",
+      "sort_start": "1968-01-01",
+      "sort_end": "1968-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cambridge_university",
+        "role": "employer"
+      },
+      {
+        "entity_id": "girton_college",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hayman_2002_obituary",
+        "page": 5,
+        "quote": "In 1968 Mary retired from her Readership and from being Mistress of Girton"
+      }
+    ]
+  },
+  {
+    "id": "dbe",
+    "event_type": "award",
+    "label": "Made Dame Commander of the Order of the British Empire",
+    "date": {
+      "display": "1969",
+      "precision": "year",
+      "sort_start": "1969-01-01",
+      "sort_end": "1969-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      },
+      {
+        "entity_id": "dame_commander_order_british_empire",
+        "role": "award"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hayman_2002_obituary",
+        "page": 13,
+        "quote": "She was made a Dame Commander of the Order of the British Empire in 1969"
+      }
+    ]
+  },
+  {
+    "id": "death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "3 April 1998",
+      "precision": "day",
+      "sort_start": "1998-04-03",
+      "sort_end": "1998-04-03"
+    },
+    "participants": [
+      {
+        "entity_id": "mary_cartwright",
+        "role": "subject"
+      }
+    ],
+    "location": "midfield_lodge_nursing_home",
+    "sources": [
+      {
+        "source_id": "hayman_2002_obituary",
+        "page": 1,
+        "quote": "died on 3 April 1998"
+      },
+      {
+        "source_id": "hayman_2002_obituary",
+        "page": 6,
+        "quote": "From there she retired to Midﬁeld Lodge Nursing Home, where she stayed until her death"
+      }
+    ],
+    "certainty": "disputed"
+  }
+]

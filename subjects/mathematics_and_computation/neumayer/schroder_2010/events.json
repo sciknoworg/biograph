@@ -1,0 +1,486 @@
+[
+  {
+    "id": "neumayer_birth",
+    "event_type": "birth",
+    "label": "Born in Kirchheimbolanden",
+    "description": "Georg Balthasar Neumayer was born in Kirchheimbolanden, Rheinpfalz.",
+    "date": {
+      "display": "21 June 1826",
+      "precision": "day",
+      "sort_start": "1826-06-21",
+      "sort_end": "1826-06-21"
+    },
+    "location": "kirchheimbolanden",
+    "participants": [
+      {
+        "entity_id": "georg_von_neumayer",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "schroder_2010",
+        "page": 1,
+        "quote": "Georg Balthasar Neumayer (Fig. 1, for a brief CV , see Priesner, 1999) was born on 21 June 1826 in Kirchheim-bolanden, Rheinpfalz (Lower Palatinate) which belonged to the Kingdom of Bavaria at that time."
+      }
+    ]
+  },
+  {
+    "id": "neumayer_graduation",
+    "event_type": "education",
+    "label": "Graduated from Polytechnikum Munich",
+    "description": "Neumayer graduated as civil engineer from the Polytechnikum in Munich.",
+    "date": {
+      "display": "1849",
+      "precision": "year",
+      "sort_start": "1849-01-01",
+      "sort_end": "1849-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "georg_von_neumayer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "polytechnikum_munich",
+        "role": "educator"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "schroder_2010",
+        "page": 1,
+        "quote": "After attending local schools he studied at the Polytechnikum in Munich where he graduated 1849 as civil engineer."
+      }
+    ]
+  },
+  {
+    "id": "neumayer_work_bogenhausen",
+    "event_type": "employment_start",
+    "label": "Worked at Sternwarte Bogenhausen",
+    "description": "Neumayer worked as an assistant at the Sternwarte in Bogenhausen under Johann von Lamont.",
+    "date": {
+      "display": "1849",
+      "precision": "year",
+      "sort_start": "1849-01-01",
+      "sort_end": "1849-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "georg_von_neumayer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "sternwarte_bogenhausen",
+        "role": "employer"
+      },
+      {
+        "entity_id": "johann_von_lamont",
+        "role": "supervisor"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "schroder_2010",
+        "page": 1,
+        "quote": "Afterwards he worked as an assistant at the University of Munich and for half a year at the Sternwarte (the astronomical observatory) in Bogenhausen (near Munich) under Johann von Lamont (1805–1879)."
+      }
+    ]
+  },
+  {
+    "id": "neumayer_voyage_sa",
+    "event_type": "visit",
+    "label": "Voyage to South America",
+    "description": "Neumayer signed on a German merchant ship for a voyage to South America.",
+    "date": {
+      "display": "1850/51",
+      "precision": "range",
+      "sort_start": "1850-01-01",
+      "sort_end": "1851-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "georg_von_neumayer",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "schroder_2010",
+        "page": 1,
+        "quote": "Neumayer signed on a German merchant ship as an ordinary seaman for a voyage to South Amer-ica (1850/51)."
+      }
+    ]
+  },
+  {
+    "id": "neumayer_mate_exam",
+    "event_type": "education",
+    "label": "Passed mate's examination",
+    "description": "Neumayer passed the mate's examination at the Seefahrtschule in Hamburg.",
+    "date": {
+      "display": "1851",
+      "precision": "year",
+      "sort_start": "1851-01-01",
+      "sort_end": "1851-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "georg_von_neumayer",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "schroder_2010",
+        "page": 1,
+        "quote": "passed the mate's examination in 1851."
+      }
+    ]
+  },
+  {
+    "id": "neumayer_voyage_australia",
+    "event_type": "visit",
+    "label": "Voyage to Australia",
+    "description": "Neumayer undertook a second trip to Australia and started geomagnetic measurements.",
+    "date": {
+      "display": "1852–1854",
+      "precision": "range",
+      "sort_start": "1852-01-01",
+      "sort_end": "1854-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "georg_von_neumayer",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "schroder_2010",
+        "page": 1,
+        "quote": "During a sec-ond trip, this time to Australia (1852–1854), he undertook an expedition to the interior of this country, dug for gold, and already started geomagnetic measurements."
+      }
+    ]
+  },
+  {
+    "id": "neumayer_founded_flagstaff",
+    "event_type": "company_founded",
+    "label": "Founded Flagstaff Observatory",
+    "description": "Neumayer founded the Flagstaff observatory in Australia.",
+    "date": {
+      "display": "1857",
+      "precision": "year",
+      "sort_start": "1857-01-01",
+      "sort_end": "1857-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "georg_von_neumayer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "flagstaff_observatory",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "schroder_2010",
+        "page": 1,
+        "quote": "founded the \"Flagsta ﬀ\" observatory (named after a hill near Melbourne) in 1857."
+      }
+    ]
+  },
+  {
+    "id": "neumayer_director_flagstaff",
+    "event_type": "role_change",
+    "label": "Became Director of Flagstaff Observatory",
+    "description": "Neumayer became official Director after the observatory was taken over by the colonial government.",
+    "date": {
+      "display": "1859",
+      "precision": "year",
+      "sort_start": "1859-01-01",
+      "sort_end": "1859-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "georg_von_neumayer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "flagstaff_observatory",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "schroder_2010",
+        "page": 1,
+        "quote": "After this observatory was taken over by the colonial government in 1859, Neumayer became its oﬃcial Director and Vice President of the Royal Society of Victoria, and stayed in Australia until 1864 (Neumayer, 1901a)."
+      }
+    ]
+  },
+  {
+    "id": "neumayer_return_germany",
+    "event_type": "relocation",
+    "label": "Returned to Germany",
+    "description": "Neumayer returned to Germany from Australia.",
+    "date": {
+      "display": "October 1864",
+      "precision": "month",
+      "sort_start": "1864-10-01",
+      "sort_end": "1864-10-31"
+    },
+    "participants": [
+      {
+        "entity_id": "georg_von_neumayer",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "schroder_2010",
+        "page": 2,
+        "quote": "After his return to Germany in October 1864, Neumayer worked as a private scientist, mainly evaluating the results obtained in Australia, and regularly lectured at scientiﬁc symposia."
+      }
+    ]
+  },
+  {
+    "id": "neumayer_hydrographer",
+    "event_type": "employment_start",
+    "label": "Engaged as Hydrographer of Admiralty",
+    "description": "Neumayer was engaged by Albrecht von Stosch as Hydrographer of the Admiralty.",
+    "date": {
+      "display": "1872",
+      "precision": "year",
+      "sort_start": "1872-01-01",
+      "sort_end": "1872-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "georg_von_neumayer",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "schroder_2010",
+        "page": 3,
+        "quote": "Albrecht von Stosch (1818–1896), Head of the Admiralty who was responsible for the Imperial Navy, became interested in Neumayer and engaged him in 1872 as \"Hydrograph der Ad-miralit¨at\" (hydrographer of the admiralty)."
+      }
+    ]
+  },
+  {
+    "id": "neumayer_wilhelmshaven_start",
+    "event_type": "other",
+    "label": "Wilhelmshaven Observatory Building Started",
+    "description": "Building of the Kaiserliche Erdmagnetische Observatorium in Wilhelmshaven started.",
+    "date": {
+      "display": "1874",
+      "precision": "year",
+      "sort_start": "1874-01-01",
+      "sort_end": "1874-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "georg_von_neumayer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "marineobservatorium_wilhelmshaven",
+        "role": "invention"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "schroder_2010",
+        "page": 3,
+        "quote": "In his position as naval hydrographer Neumayer helped to establish the \"Kaiserliche Erdmagnetische Observatorium\" (the Imperial geomagnetic observatory) in Wilhelmshaven (later named \"Marineobservatorium Wilhelmshaven\"). Building started in 1874, but it took four years to complete the premises (Fig. 2)."
+      }
+    ]
+  },
+  {
+    "id": "neumayer_director_seewarte",
+    "event_type": "employment_start",
+    "label": "Became Director of Deutsche Seewarte",
+    "description": "Neumayer became the first Director of the Deutsche Seewarte.",
+    "date": {
+      "display": "13 January 1876",
+      "precision": "day",
+      "sort_start": "1876-01-13",
+      "sort_end": "1876-01-13"
+    },
+    "participants": [
+      {
+        "entity_id": "georg_von_neumayer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "deutsche_seewarte",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "schroder_2010",
+        "page": 3,
+        "quote": "Neumayer, as a great and continuing advocate of such an institution became its ﬁrst Director on 13 January 1876."
+      }
+    ]
+  },
+  {
+    "id": "neumayer_seewarte_buildings",
+    "event_type": "other",
+    "label": "Deutsche Seewarte Buildings Completed",
+    "description": "The new buildings of the Deutsche Seewarte were completed.",
+    "date": {
+      "display": "1881",
+      "precision": "year",
+      "sort_start": "1881-01-01",
+      "sort_end": "1881-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "georg_von_neumayer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "deutsche_seewarte",
+        "role": "employer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "schroder_2010",
+        "page": 4,
+        "quote": "The new buildings of the \"Deutsche Seewarte\" completed in 1881, included a \"magnetic pavilion\", a special building constructed accord-ing to Neumayer's plans where the magnetic properties of di ﬀerent iron and steel objects could be studied."
+      }
+    ]
+  },
+  {
+    "id": "neumayer_polar_year",
+    "event_type": "conference",
+    "label": "First Polar Year Organized",
+    "description": "Neumayer was one of the main organizers of the First Polar Year.",
+    "date": {
+      "display": "1882 /1883",
+      "precision": "range",
+      "sort_start": "1882-01-01",
+      "sort_end": "1883-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "georg_von_neumayer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "international_polar_commission",
+        "role": "organizer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "schroder_2010",
+        "page": 4,
+        "quote": "The First Polar Year 1882 /1883, inspired by the Austrian Naval Oﬃcer and explorer Carl Weyprecht (1838–1881; see Krause, 2008), was one of the ﬁrst great international sci-entiﬁc co-operations (L ¨udecke, 2004). One of the main organizer was Neumayer, at that time President of the In-ternational Polar Commission."
+      }
+    ]
+  },
+  {
+    "id": "neumayer_vienna_conference",
+    "event_type": "conference",
+    "label": "International Polar Commission Conference Vienna",
+    "description": "Neumayer made it possible for the fourth Conference of the International Polar Commission to take place in Vienna.",
+    "date": {
+      "display": "1884",
+      "precision": "year",
+      "sort_start": "1884-01-01",
+      "sort_end": "1884-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "georg_von_neumayer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "international_polar_commission",
+        "role": "organizer"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "schroder_2010",
+        "page": 5,
+        "quote": "Finally, it was Neumayer who made it possible that the fourth and ﬁnal Conference of the International Polar Commission could take place in Vienna (see Fig. 4)."
+      }
+    ]
+  },
+  {
+    "id": "neumayer_knighted",
+    "event_type": "award",
+    "label": "Knighted by King of Bavaria",
+    "description": "Neumayer received knighting by the King of Bavaria.",
+    "date": {
+      "display": "1900",
+      "precision": "year",
+      "sort_start": "1900-01-01",
+      "sort_end": "1900-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "georg_von_neumayer",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "schroder_2010",
+        "page": 9,
+        "quote": "One of the latest honors was his knighting (Georg Balthasar Ritter von Neumayer) by the King of Bavaria in 1900 (Kretzer, 1984)."
+      }
+    ]
+  },
+  {
+    "id": "neumayer_death",
+    "event_type": "death",
+    "label": "Died in Neustadt, Pfalz",
+    "description": "Neumayer died in Neustadt, Pfalz close to his birthplace.",
+    "date": {
+      "display": "24 May 1909",
+      "precision": "day",
+      "sort_start": "1909-05-24",
+      "sort_end": "1909-05-24"
+    },
+    "location": "neustadt_pfalz",
+    "participants": [
+      {
+        "entity_id": "georg_von_neumayer",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "schroder_2010",
+        "page": 9,
+        "quote": "After a long, scientiﬁcally successful and eventful life Neumayer died on 24 May 1909 in Neustadt, Pfalz close to his birthplace."
+      }
+    ]
+  }
+]

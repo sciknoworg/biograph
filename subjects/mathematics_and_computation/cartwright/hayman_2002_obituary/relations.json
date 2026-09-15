@@ -1,0 +1,123 @@
+[
+  {
+    "id": "mary_cartwright_studied_st_hughs",
+    "source": "mary_cartwright",
+    "type": "studied_at",
+    "target": "st_hughs_college",
+    "sources": [
+      {
+        "source_id": "hayman_2002_obituary",
+        "page": 2,
+        "quote": "She chose the College partly because her cousin, Cecily Ady, was a Fellow and Vice-Principal"
+      }
+    ]
+  },
+  {
+    "id": "mary_cartwright_worked_girton",
+    "source": "mary_cartwright",
+    "type": "worked_at",
+    "target": "girton_college",
+    "event_id": "girton_fellow",
+    "sources": [
+      {
+        "source_id": "hayman_2002_obituary",
+        "page": 3,
+        "quote": "She then moved to Cambridge as Yarrow Research Fellow at Girton College"
+      }
+    ]
+  },
+  {
+    "id": "mary_cartwright_collaborated_littlewood",
+    "source": "mary_cartwright",
+    "type": "collaborated_with",
+    "target": "j_e_littlewood",
+    "sources": [
+      {
+        "source_id": "hayman_2002_obituary",
+        "page": 1,
+        "quote": "Mary Cartwright with J. E. Littlewood FRS ﬁrst observed the phenomena which developed into Chaos Theory"
+      }
+    ]
+  },
+  {
+    "id": "mary_cartwright_supervised_hardy",
+    "source": "mary_cartwright",
+    "type": "supervised_by",
+    "target": "g_h_hardy",
+    "event_id": "dphil_start",
+    "sources": [
+      {
+        "source_id": "hayman_2002_obituary",
+        "page": 3,
+        "quote": "in 1927 she returned to work under G. H. Hardy"
+      }
+    ]
+  },
+  {
+    "id": "mary_cartwright_supervised_titchmarsh",
+    "source": "mary_cartwright",
+    "type": "supervised_by",
+    "target": "e_c_titchmarsh",
+    "sources": [
+      {
+        "source_id": "hayman_2002_obituary",
+        "page": 3,
+        "quote": "When Hardy went to America for a year, E. C. Titchmarsh took over as supervisor"
+      }
+    ]
+  },
+  {
+    "id": "mary_cartwright_member_royal_society",
+    "source": "mary_cartwright",
+    "type": "member_of",
+    "target": "royal_society",
+    "event_id": "frs_elected",
+    "sources": [
+      {
+        "source_id": "hayman_2002_obituary",
+        "page": 4,
+        "quote": "In 1947 Mary was elected a Fellow of the Royal Society"
+      }
+    ]
+  },
+  {
+    "id": "mary_cartwright_developed_van_der_pol",
+    "source": "mary_cartwright",
+    "type": "developed",
+    "target": "van_der_pol_equation",
+    "sources": [
+      {
+        "source_id": "hayman_2002_obituary",
+        "page": 11,
+        "quote": "Littlewood and Cartwright in particular became interested in an equation of Van der Pol"
+      }
+    ]
+  },
+  {
+    "id": "mary_cartwright_awarded_sylvester",
+    "source": "mary_cartwright",
+    "type": "awarded",
+    "target": "sylvester_medal",
+    "event_id": "sylvester_medal",
+    "sources": [
+      {
+        "source_id": "hayman_2002_obituary",
+        "page": 4,
+        "quote": "She was awarded the Sylvester Medal of the Society in 1964"
+      }
+    ]
+  },
+  {
+    "id": "mary_cartwright_awarded_de_morgan",
+    "source": "mary_cartwright",
+    "type": "awarded",
+    "target": "de_morgan_medal",
+    "sources": [
+      {
+        "source_id": "hayman_2002_obituary",
+        "page": 13,
+        "quote": "received its highest honour, the de Morgan Medal, in 1968"
+      }
+    ]
+  }
+]

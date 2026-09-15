@@ -1,0 +1,140 @@
+[
+  {
+    "id": "neumayer_born_kirchheimbolanden",
+    "source": "georg_von_neumayer",
+    "type": "born_in",
+    "target": "kirchheimbolanden",
+    "event_id": "neumayer_birth",
+    "sources": [
+      {
+        "source_id": "schroder_2010",
+        "page": 1,
+        "quote": "Georg Balthasar Neumayer (Fig. 1, for a brief CV , see Priesner, 1999) was born on 21 June 1826 in Kirchheim-bolanden, Rheinpfalz (Lower Palatinate) which belonged to the Kingdom of Bavaria at that time."
+      }
+    ]
+  },
+  {
+    "id": "neumayer_studied_polytechnikum",
+    "source": "georg_von_neumayer",
+    "type": "studied_at",
+    "target": "polytechnikum_munich",
+    "event_id": "neumayer_graduation",
+    "sources": [
+      {
+        "source_id": "schroder_2010",
+        "page": 1,
+        "quote": "After attending local schools he studied at the Polytechnikum in Munich where he graduated 1849 as civil engineer."
+      }
+    ]
+  },
+  {
+    "id": "neumayer_worked_university_munich",
+    "source": "georg_von_neumayer",
+    "type": "worked_at",
+    "target": "university_of_munich",
+    "event_id": "neumayer_work_bogenhausen",
+    "sources": [
+      {
+        "source_id": "schroder_2010",
+        "page": 1,
+        "quote": "Afterwards he worked as an assistant at the University of Munich and for half a year at the Sternwarte (the astronomical observatory) in Bogenhausen (near Munich) under Johann von Lamont (1805–1879)."
+      }
+    ]
+  },
+  {
+    "id": "neumayer_supervised_lamont",
+    "source": "georg_von_neumayer",
+    "type": "supervised_by",
+    "target": "johann_von_lamont",
+    "event_id": "neumayer_work_bogenhausen",
+    "sources": [
+      {
+        "source_id": "schroder_2010",
+        "page": 1,
+        "quote": "Afterwards he worked as an assistant at the University of Munich and for half a year at the Sternwarte (the astronomical observatory) in Bogenhausen (near Munich) under Johann von Lamont (1805–1879)."
+      }
+    ]
+  },
+  {
+    "id": "neumayer_founded_flagstaff",
+    "source": "georg_von_neumayer",
+    "type": "founded",
+    "target": "flagstaff_observatory",
+    "event_id": "neumayer_founded_flagstaff",
+    "sources": [
+      {
+        "source_id": "schroder_2010",
+        "page": 1,
+        "quote": "founded the \"Flagsta ﬀ\" observatory (named after a hill near Melbourne) in 1857."
+      }
+    ]
+  },
+  {
+    "id": "neumayer_employed_seewarte",
+    "source": "georg_von_neumayer",
+    "type": "employed_by",
+    "target": "deutsche_seewarte",
+    "event_id": "neumayer_director_seewarte",
+    "sources": [
+      {
+        "source_id": "schroder_2010",
+        "page": 3,
+        "quote": "Neumayer, as a great and continuing advocate of such an institution became its ﬁrst Director on 13 January 1876."
+      }
+    ]
+  },
+  {
+    "id": "neumayer_collaborated_borgen",
+    "source": "georg_von_neumayer",
+    "type": "collaborated_with",
+    "target": "carl_borgen",
+    "sources": [
+      {
+        "source_id": "schroder_2010",
+        "page": 3,
+        "quote": "On his proposal, Carl B ¨orgen (1843–1901), previously assistant to Karl Christian Bruhns (1830–1881) at the Leipzig Astronomical Observatory became head of the institute in 1874."
+      }
+    ]
+  },
+  {
+    "id": "neumayer_member_polar_commission",
+    "source": "georg_von_neumayer",
+    "type": "member_of",
+    "target": "international_polar_commission",
+    "event_id": "neumayer_polar_year",
+    "sources": [
+      {
+        "source_id": "schroder_2010",
+        "page": 4,
+        "quote": "One of the main organizer was Neumayer, at that time President of the In-ternational Polar Commission."
+      }
+    ]
+  },
+  {
+    "id": "neumayer_published_atlas",
+    "source": "georg_von_neumayer",
+    "type": "published",
+    "target": "berghaus_physikalischer_atlas",
+    "sources": [
+      {
+        "source_id": "schroder_2010",
+        "page": 8,
+        "quote": "Neumayer's geomagnetic charts, published as Section IV of \"Heinrich Berghaus' Physikalischer Atlas\" (1891), should be discussed in more detail."
+      }
+    ]
+  },
+  {
+    "id": "neumayer_died_neustadt",
+    "source": "georg_von_neumayer",
+    "type": "died_in",
+    "target": "neustadt_pfalz",
+    "event_id": "neumayer_death",
+    "sources": [
+      {
+        "source_id": "schroder_2010",
+        "page": 9,
+        "quote": "After a long, scientiﬁcally successful and eventful life Neumayer died on 24 May 1909 in Neustadt, Pfalz close to his birthplace."
+      }
+    ]
+  }
+]

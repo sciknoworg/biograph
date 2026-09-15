@@ -1,0 +1,179 @@
+[
+  {
+    "aliases": [
+      "Lieut. Johnson",
+      "Lieutenant Johnson",
+      "M. J. Johnson",
+      "Manuel Johnson"
+    ],
+    "entity_type": "person",
+    "id": "manuel_johnson",
+    "name": "Manuel John Johnson",
+    "subtype": "researcher",
+    "summary": "British positional astronomer and President of the Royal Astronomical Society known for tidal measurements at St. Helena."
+  },
+  {
+    "aliases": [
+      "Rev. Nevil Maskelyne",
+      "Dr. Maskelyne"
+    ],
+    "entity_type": "person",
+    "id": "nevil_maskelyne",
+    "name": "Nevil Maskelyne",
+    "subtype": "researcher",
+    "summary": "Astronomer Royal who recorded tides at St. Helena in 1761 using a vertical staff method."
+  },
+  {
+    "aliases": [
+      "Charles Mason (1730–1787)"
+    ],
+    "entity_type": "person",
+    "id": "charles_mason",
+    "name": "Charles Mason",
+    "subtype": "researcher",
+    "summary": "Associate of the Royal Society and assistant to Maskelyne during the 1761 St. Helena expedition."
+  },
+  {
+    "aliases": [
+      "Brigadier-General Alexander Walker",
+      "General Walker",
+      "Major-General Walker"
+    ],
+    "entity_type": "person",
+    "id": "alexander_walker",
+    "name": "Alexander Walker",
+    "subtype": "administrator",
+    "summary": "Governor of St. Helena who appointed Johnson to the observatory and supported tidal observations."
+  },
+  {
+    "aliases": [
+      "Rev. Fearon Fallows",
+      "Dr. Fallows"
+    ],
+    "entity_type": "person",
+    "id": "fearon_fallows",
+    "name": "Fearon Fallows",
+    "subtype": "researcher",
+    "summary": "Director of the Cape Observatory who advised Johnson on tidal observations."
+  },
+  {
+    "aliases": [
+      "St. Helena Island"
+    ],
+    "attributes": {
+      "country": "United Kingdom"
+    },
+    "entity_type": "place",
+    "id": "st_helena",
+    "name": "St. Helena",
+    "subtype": "island",
+    "summary": "Remote Atlantic island where Johnson conducted tidal and astronomical observations."
+  },
+  {
+    "aliases": [
+      "James' Bay"
+    ],
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 57.5728,
+      "lng": -4.54893,
+      "wikidata_qid": "Q2240713",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "jamestown",
+    "name": "Jamestown",
+    "subtype": "town",
+    "summary": "Main settlement and landing place on St. Helena where tidal gauges were installed."
+  },
+  {
+    "aliases": [
+      "the Cape"
+    ],
+    "attributes": {
+      "country": "South Africa",
+      "lat": -34.35806,
+      "lng": 18.47194,
+      "wikidata_qid": "Q4092",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "cape_of_good_hope",
+    "name": "Cape of Good Hope",
+    "subtype": "region",
+    "summary": "Location of the observatory Johnson visited for advice in 1825–1826."
+  },
+  {
+    "aliases": [
+      "RAS"
+    ],
+    "entity_type": "organization",
+    "id": "royal_astronomical_society",
+    "name": "Royal Astronomical Society",
+    "subtype": "society",
+    "summary": "Learned society that awarded Johnson the Gold Medal and where he served as President."
+  },
+  {
+    "aliases": [
+      "HEIC",
+      "East India Company"
+    ],
+    "entity_type": "organization",
+    "id": "east_india_company",
+    "name": "Honourable East India Company",
+    "subtype": "company",
+    "summary": "Trading company that employed Johnson and funded the St. Helena Observatory."
+  },
+  {
+    "aliases": [
+      "the Observatory"
+    ],
+    "entity_type": "organization",
+    "id": "st_helena_observatory",
+    "name": "St. Helena Observatory",
+    "subtype": "observatory",
+    "summary": "Astronomical facility on St. Helena founded by Walker and Johnson."
+  },
+  {
+    "aliases": [
+      "Cambridge University"
+    ],
+    "entity_type": "organization",
+    "id": "cambridge_university_library",
+    "name": "Cambridge University Library",
+    "subtype": "archive",
+    "summary": "Archive holding Johnson's tidal manuscripts."
+  },
+  {
+    "aliases": [
+      "Royal Society",
+      "FRS"
+    ],
+    "entity_type": "organization",
+    "id": "royal_society_london",
+    "name": "Royal Society of London",
+    "subtype": "society",
+    "summary": "Scientific academy that elected Johnson as a Fellow."
+  },
+  {
+    "aliases": [
+      "tide recorder",
+      "gauge"
+    ],
+    "entity_type": "artifact",
+    "id": "johnson_tide_gauge",
+    "name": "Johnson's tide gauge",
+    "subtype": "instrument",
+    "summary": "Unique instrument with sliding indices designed by Johnson to record tidal extrema."
+  },
+  {
+    "aliases": [
+      "catalogue of 606 principal fixed stars"
+    ],
+    "entity_type": "artifact",
+    "id": "star_catalogue_1835",
+    "name": "Star catalogue (1835)",
+    "subtype": "publication",
+    "summary": "Publication of stellar positions compiled by Johnson at St. Helena."
+  }
+]

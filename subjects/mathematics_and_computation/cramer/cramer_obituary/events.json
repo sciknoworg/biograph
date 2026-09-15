@@ -1,0 +1,561 @@
+[
+  {
+    "id": "cramer_birth",
+    "event_type": "birth",
+    "label": "Born in Stockholm",
+    "date": {
+      "display": "25th September 1893",
+      "precision": "day",
+      "sort_start": "1893-09-25",
+      "sort_end": "1893-09-25"
+    },
+    "participants": [
+      {
+        "entity_id": "harald_cramer",
+        "role": "subject"
+      }
+    ],
+    "location": "stockholm",
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 1,
+        "quote": "Harald Cramer, the well-known scientist, passed away on October 5th, 1985 some weeks after his 93rd birthday."
+      }
+    ]
+  },
+  {
+    "id": "cramer_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "5th October 1985",
+      "precision": "day",
+      "sort_start": "1985-10-05",
+      "sort_end": "1985-10-05"
+    },
+    "participants": [
+      {
+        "entity_id": "harald_cramer",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 1,
+        "quote": "Harald Cramer, the well-known scientist, passed away on October 5th, 1985 some weeks after his 93rd birthday."
+      }
+    ]
+  },
+  {
+    "id": "cramer_thesis_1917",
+    "event_type": "publication",
+    "label": "Presented thesis on distribution of prime numbers",
+    "date": {
+      "display": "1917",
+      "precision": "year",
+      "sort_start": "1917-01-01",
+      "sort_end": "1917-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "harald_cramer",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 1,
+        "quote": "In 1917 he presented a thesis in mathematics with application to the distribution of prime numbers."
+      }
+    ]
+  },
+  {
+    "id": "cramer_actuary_svenska_lif",
+    "event_type": "employment_start",
+    "label": "Became actuary of Svenska Lif",
+    "date": {
+      "display": "1920",
+      "precision": "year",
+      "sort_start": "1920-01-01",
+      "sort_end": "1920-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "harald_cramer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "svenska_lif",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 1,
+        "quote": "In 1920 he became the actuary of the mutual life insurance company Svenska Lif"
+      }
+    ]
+  },
+  {
+    "id": "cramer_actuary_sverige",
+    "event_type": "employment_start",
+    "label": "Became actuary of Sverige",
+    "date": {
+      "display": "1928",
+      "precision": "year",
+      "sort_start": "1928-01-01",
+      "sort_end": "1928-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "harald_cramer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "sverige",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 1,
+        "quote": "and 1928 of the Swedish reinsurance company Sverige."
+      }
+    ]
+  },
+  {
+    "id": "cramer_publication_1923",
+    "event_type": "publication",
+    "label": "Published 'Das Gesetz von Gauss und die Theorie des Risikos'",
+    "date": {
+      "display": "1923",
+      "precision": "year",
+      "sort_start": "1923-01-01",
+      "sort_end": "1923-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "harald_cramer",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 1,
+        "quote": "An early one was published 1923 in German, \"Das Gesetz von Gauss und die Theorie des Risikos\"."
+      }
+    ]
+  },
+  {
+    "id": "cramer_review_lundberg_1926",
+    "event_type": "publication",
+    "label": "Published review of Lundberg's publications in SAT",
+    "date": {
+      "display": "1926",
+      "precision": "year",
+      "sort_start": "1926-01-01",
+      "sort_end": "1926-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "harald_cramer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "filip_lundberg",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 1,
+        "quote": "Cramer published in SAT 1926 a review of 22 pages on Filip Lundberg's publications in collective risk theory, with applications to life and sickness insurance."
+      }
+    ]
+  },
+  {
+    "id": "cramer_publication_1927",
+    "event_type": "publication",
+    "label": "Published 'Sannolikhetskalkylen och Nagra av dess Anvandningar'",
+    "date": {
+      "display": "1927",
+      "precision": "year",
+      "sort_start": "1927-01-01",
+      "sort_end": "1927-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "harald_cramer",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 1,
+        "quote": "Cramer's \"Sannolikhetskalkylen och Nagra av dess Anvandningar\" of 1927 became a classic for Swedish students in the calculus of probability."
+      }
+    ]
+  },
+  {
+    "id": "cramer_publication_1928",
+    "event_type": "publication",
+    "label": "Published 'On the Composition of Elementary Errors'",
+    "date": {
+      "display": "1928",
+      "precision": "year",
+      "sort_start": "1928-01-01",
+      "sort_end": "1928-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "harald_cramer",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 1,
+        "quote": "In 1928 he published \"On the Composition of Elementary Errors\" in two parts, one with mathematical deductions and the other with statistical applications."
+      }
+    ]
+  },
+  {
+    "id": "cramer_professor_1929",
+    "event_type": "employment_start",
+    "label": "Appointed professor at Stockholm's Hogskola",
+    "date": {
+      "display": "1929",
+      "precision": "year",
+      "sort_start": "1929-01-01",
+      "sort_end": "1929-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "harald_cramer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "stockholm_university",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 1,
+        "quote": "Harald Cramer was appointed professor at Stockholm's Hogskola in 1929, and became the head of the Institute of Insurance Mathematics and Mathematical Statistics."
+      }
+    ]
+  },
+  {
+    "id": "cramer_publication_1930",
+    "event_type": "publication",
+    "label": "Published 'On the Mathematical Theory of Risk'",
+    "date": {
+      "display": "1930",
+      "precision": "year",
+      "sort_start": "1930-01-01",
+      "sort_end": "1930-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "harald_cramer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "skandia",
+        "role": "publisher"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 1,
+        "quote": "After Cramer's review and his survey on collective risk theory, \"On the Mathematical Theory of Risk\" (Skandia 1930), there followed in the early 30's a series of papers by Swedish actuaries about collective risk theory."
+      }
+    ]
+  },
+  {
+    "id": "cramer_feller_collaboration",
+    "event_type": "employment_start",
+    "label": "Willy Feller collaborated at institute",
+    "date": {
+      "display": "1934-1939",
+      "precision": "range",
+      "sort_start": "1934-01-01",
+      "sort_end": "1939-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "willy_feller",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "institute_of_insurance_mathematics",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 1,
+        "quote": "Willy Feller was one of the collaborators at the institute during the years 1934-1939."
+      }
+    ]
+  },
+  {
+    "id": "cramer_ssa_president",
+    "event_type": "role_change",
+    "label": "Became President of Swedish Society of Actuaries",
+    "date": {
+      "display": "1935",
+      "precision": "year",
+      "sort_start": "1935-01-01",
+      "sort_end": "1935-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "harald_cramer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "swedish_society_of_actuaries",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 2,
+        "quote": "Harald Cramer was the President of the Swedish Society of Actuaries in 1935-1964 and afterwards its Honorary President."
+      }
+    ]
+  },
+  {
+    "id": "cramer_sat_editor",
+    "event_type": "role_change",
+    "label": "Became chief editor of SAT",
+    "date": {
+      "display": "1940",
+      "precision": "year",
+      "sort_start": "1940-01-01",
+      "sort_end": "1940-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "harald_cramer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "sat",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 2,
+        "quote": "He was chief editor of SAT 1940-1963."
+      }
+    ]
+  },
+  {
+    "id": "cramer_publication_1945",
+    "event_type": "publication",
+    "label": "Published 'Mathematical Methods of Statistics'",
+    "date": {
+      "display": "1945",
+      "precision": "year",
+      "sort_start": "1945-01-01",
+      "sort_end": "1945-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "harald_cramer",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 2,
+        "quote": "By his magnum opus \"Mathematical Methods of Statistics\" of 1945 Harald Cramer formulated a scientific program of statistical theory."
+      }
+    ]
+  },
+  {
+    "id": "cramer_astin_planning",
+    "event_type": "meeting",
+    "label": "Participated in ASTIN planning at New York congress",
+    "date": {
+      "display": "1957",
+      "precision": "year",
+      "sort_start": "1957-01-01",
+      "sort_end": "1957-12-31"
+    },
+    "location": "new_york",
+    "participants": [
+      {
+        "entity_id": "harald_cramer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "astin",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 1,
+        "quote": "Cramer took part in the planning of ASTIN (Actuarial Studies In Non-life insurance) before and during the international congress of actuaries in New York 1957."
+      }
+    ]
+  },
+  {
+    "id": "cramer_publication_1955_elements",
+    "event_type": "publication",
+    "label": "Published English edition 'The Elements of Probability Theory'",
+    "date": {
+      "display": "1955",
+      "precision": "year",
+      "sort_start": "1955-01-01",
+      "sort_end": "1955-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "harald_cramer",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 1,
+        "quote": "An edition in English \"The Elements of Probability Theory\" was published in 1955."
+      }
+    ]
+  },
+  {
+    "id": "cramer_publication_1955_skandia",
+    "event_type": "publication",
+    "label": "Published collective risk theory in Skandia Jubilee volume",
+    "date": {
+      "display": "1955",
+      "precision": "year",
+      "sort_start": "1955-01-01",
+      "sort_end": "1955-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "harald_cramer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "skandia",
+        "role": "publisher"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 2,
+        "quote": "In his publication of 1955 on collective risk theory included in the Jubilee volume of the insurance company Skandia, Cramer gives a complete mathematical theory for calculating ruin probabilities."
+      }
+    ]
+  },
+  {
+    "id": "cramer_astin_colloquium_1961",
+    "event_type": "conference",
+    "label": "Presented introductory lecture at ASTIN Colloquium",
+    "date": {
+      "display": "1961",
+      "precision": "year",
+      "sort_start": "1961-01-01",
+      "sort_end": "1961-12-31"
+    },
+    "location": "rattvik",
+    "participants": [
+      {
+        "entity_id": "harald_cramer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "astin",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 1,
+        "quote": "At the ASTIN Colloquium at Rattvik in Sweden in 1961 Cramer as an invited guest presented an introductory lecture on general aspects of non-life actuarial research."
+      }
+    ]
+  },
+  {
+    "id": "cramer_calcutta_1977",
+    "event_type": "award",
+    "label": "Received Honorary Doctor degree at Calcutta University",
+    "date": {
+      "display": "1977",
+      "precision": "year",
+      "sort_start": "1977-01-01",
+      "sort_end": "1977-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "harald_cramer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "calcutta_university",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 2,
+        "quote": "Photograph shows Harald Cramer giving a lecture at the Calcutta University in 1977 when receiving the Honorary Doctor degree"
+      }
+    ]
+  },
+  {
+    "id": "cramer_lecture_1983",
+    "event_type": "conference",
+    "label": "Gave lecture 'Sixty Years in the Service of Probability Theory'",
+    "date": {
+      "display": "November 1983",
+      "precision": "month",
+      "sort_start": "1983-11-01",
+      "sort_end": "1983-11-30"
+    },
+    "participants": [
+      {
+        "entity_id": "harald_cramer",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_swedish_academy_of_sciences",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cramer_obituary",
+        "page": 2,
+        "quote": "At Kungl. Vetenskapsakademien (Royal Swedish Academy of Sciences) Harald Cramer gave a fascinating lecture on the subject \"Sixty Years in the Service of Probability Theory\" as late as in November 1983, after attained 90 years of age."
+      }
+    ]
+  }
+]

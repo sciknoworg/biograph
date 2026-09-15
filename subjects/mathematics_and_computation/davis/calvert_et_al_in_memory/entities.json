@@ -1,0 +1,238 @@
+[
+  {
+    "aliases": [
+      "Martin",
+      "Martin Davis"
+    ],
+    "entity_type": "person",
+    "id": "martin_davis",
+    "name": "Martin David Davis",
+    "subtype": "researcher",
+    "summary": "Logician and computability theorist known for work on Hilbert's Tenth Problem and automated reasoning."
+  },
+  {
+    "aliases": [
+      "Princeton"
+    ],
+    "entity_type": "organization",
+    "id": "princeton_university",
+    "name": "Princeton University",
+    "subtype": "university",
+    "summary": "University where Davis completed his PhD."
+  },
+  {
+    "aliases": [
+      "City College"
+    ],
+    "entity_type": "organization",
+    "id": "city_college_new_york",
+    "name": "City College of New York",
+    "subtype": "university",
+    "summary": "College where Davis began his undergraduate studies."
+  },
+  {
+    "aliases": [
+      "University of Illinois"
+    ],
+    "entity_type": "organization",
+    "id": "uiuc",
+    "name": "University of Illinois at Urbana-Champaign",
+    "subtype": "university",
+    "summary": "University where Davis held his first position."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "control_systems_laboratory",
+    "name": "Control Systems Laboratory",
+    "subtype": "lab",
+    "summary": "Laboratory where Davis worked during the Korean War."
+  },
+  {
+    "aliases": [
+      "IAS"
+    ],
+    "entity_type": "organization",
+    "id": "ias_princeton",
+    "name": "Institute for Advanced Study",
+    "subtype": "lab",
+    "summary": "Institute where Davis worked and implemented Presburger's algorithm."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "uc_davis",
+    "name": "University of California at Davis",
+    "subtype": "university",
+    "summary": "University where Davis held a position."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "ohio_state_university",
+    "name": "Ohio State University",
+    "subtype": "university",
+    "summary": "University where Davis held a position."
+  },
+  {
+    "aliases": [
+      "RPI"
+    ],
+    "entity_type": "organization",
+    "id": "rpi",
+    "name": "Rensselaer Polytechnic Institute",
+    "subtype": "university",
+    "summary": "Institute where Davis held a position."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "yeshiva_university",
+    "name": "Yeshiva University",
+    "subtype": "university",
+    "summary": "University where Davis formed a logic group."
+  },
+  {
+    "aliases": [
+      "NYU"
+    ],
+    "entity_type": "organization",
+    "id": "nyu",
+    "name": "New York University",
+    "subtype": "university",
+    "summary": "University where Davis worked at the Courant Institute."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "courant_institute",
+    "name": "Courant Institute",
+    "subtype": "institute",
+    "summary": "Institute at NYU where Davis formed a logic group."
+  },
+  {
+    "aliases": [
+      "Church"
+    ],
+    "entity_type": "person",
+    "id": "alonzo_church",
+    "name": "Alonzo Church",
+    "subtype": "researcher",
+    "summary": "Mathematician and Davis's PhD advisor at Princeton."
+  },
+  {
+    "aliases": [
+      "Putnam",
+      "Hilary"
+    ],
+    "entity_type": "person",
+    "id": "hilary_putnam",
+    "name": "Hilary Putnam",
+    "subtype": "researcher",
+    "summary": "Philosopher and mathematician who collaborated with Davis on H10 and DPLL."
+  },
+  {
+    "aliases": [
+      "Robinson"
+    ],
+    "entity_type": "person",
+    "id": "julia_robinson",
+    "name": "Julia Robinson",
+    "subtype": "researcher",
+    "summary": "Mathematician who collaborated with Davis on Hilbert's Tenth Problem."
+  },
+  {
+    "aliases": [
+      "Matiyasevich",
+      "Yuri"
+    ],
+    "entity_type": "person",
+    "id": "yuri_matiyasevich",
+    "name": "Yuri Matiyasevich",
+    "subtype": "researcher",
+    "summary": "Mathematician who completed the proof of Hilbert's Tenth Problem."
+  },
+  {
+    "aliases": [
+      "Shlapentokh"
+    ],
+    "entity_type": "person",
+    "id": "alexandra_shlapentokh",
+    "name": "Alexandra Shlapentokh",
+    "subtype": "researcher",
+    "summary": "Mathematician and co-author of the tribute document."
+  },
+  {
+    "aliases": [
+      "ORDVAC machine"
+    ],
+    "entity_type": "artifact",
+    "id": "ordvac",
+    "name": "ORDVAC",
+    "subtype": "product",
+    "summary": "Computer for which Davis wrote navigation programs."
+  },
+  {
+    "aliases": [
+      "JOHNNIAC computer"
+    ],
+    "entity_type": "artifact",
+    "id": "johnniac",
+    "name": "JOHNNIAC",
+    "subtype": "product",
+    "summary": "Computer used by Davis at IAS for Presburger's algorithm."
+  },
+  {
+    "aliases": [
+      "DPLL"
+    ],
+    "entity_type": "artifact",
+    "id": "dpll_procedure",
+    "name": "Davis-Putnam-Logemann-Loveland procedure",
+    "subtype": "invention",
+    "summary": "Algorithm for Boolean satisfiability developed by Davis and colleagues."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "dpr_theorem",
+    "name": "Davis-Putnam-Robinson theorem",
+    "subtype": "invention",
+    "summary": "Theorem regarding Diophantine sets and computably enumerable sets."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Italy",
+      "lat": 43.11192,
+      "lng": 12.38855,
+      "wikidata_qid": "Q3437",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "perugia",
+    "name": "Perugia",
+    "subtype": "city",
+    "summary": "Italian town where Davis taught a summer course."
+  },
+  {
+    "aliases": [
+      "Mathematical Sciences Research Institute"
+    ],
+    "entity_type": "organization",
+    "id": "msri",
+    "name": "MSRI",
+    "subtype": "institute",
+    "summary": "Institute where Davis gave a talk in 2020."
+  },
+  {
+    "aliases": [
+      "GWU"
+    ],
+    "entity_type": "organization",
+    "id": "george_washington_university",
+    "name": "George Washington University",
+    "subtype": "university",
+    "summary": "University visited by Davis in 2007."
+  }
+]

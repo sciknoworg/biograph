@@ -1,0 +1,420 @@
+[
+  {
+    "id": "galton_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "description": "Francis Galton was born in 1822.",
+    "date": {
+      "display": "1822",
+      "precision": "year",
+      "sort_start": "1822-01-01",
+      "sort_end": "1822-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "francis_galton",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "schumacher_2019",
+        "page": 1,
+        "quote": "Francis Galton (1822-1911)"
+      }
+    ]
+  },
+  {
+    "id": "galton_travel_europe_1838",
+    "event_type": "visit",
+    "label": "Travelled to Europe",
+    "description": "Galton's first experience of travel occurred in July 1838 when he was sixteen.",
+    "date": {
+      "display": "July 1838",
+      "precision": "month",
+      "sort_start": "1838-07-01",
+      "sort_end": "1838-07-31"
+    },
+    "location": "europe",
+    "participants": [
+      {
+        "entity_id": "francis_galton",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "schumacher_2019",
+        "page": 9,
+        "quote": "Galton's first experience of travel occurred in July 1838 when he was sixteen."
+      }
+    ]
+  },
+  {
+    "id": "galton_travel_middle_east_1840",
+    "event_type": "visit",
+    "label": "Travelled to Constantinople",
+    "description": "Galton's first independent travel occurred when he was eighteen in 1840.",
+    "date": {
+      "display": "1840",
+      "precision": "year",
+      "sort_start": "1840-01-01",
+      "sort_end": "1840-12-31"
+    },
+    "location": "constantinople",
+    "participants": [
+      {
+        "entity_id": "francis_galton",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "schumacher_2019",
+        "page": 10,
+        "quote": "Galton's first independent travel occurred when he was eighteen in 1840."
+      }
+    ]
+  },
+  {
+    "id": "galton_travel_africa_1850",
+    "event_type": "visit",
+    "label": "Set sail for Southern Africa",
+    "description": "Galton set sail for Southern Africa in April 1850.",
+    "date": {
+      "display": "April 1850",
+      "precision": "month",
+      "sort_start": "1850-04-01",
+      "sort_end": "1850-04-30"
+    },
+    "location": "southern_africa",
+    "participants": [
+      {
+        "entity_id": "francis_galton",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "schumacher_2019",
+        "page": 12,
+        "quote": "He set sail for Southern Africa in April 1850."
+      }
+    ]
+  },
+  {
+    "id": "galton_letter_times_1851",
+    "event_type": "publication",
+    "label": "Wrote letter to The Times",
+    "description": "In August 1851 Francis Galton wrote a letter to The Times, London from Eikhams, Namagua Land, Southern Africa.",
+    "date": {
+      "display": "August 1851",
+      "precision": "month",
+      "sort_start": "1851-08-01",
+      "sort_end": "1851-08-31"
+    },
+    "participants": [
+      {
+        "entity_id": "francis_galton",
+        "role": "subject"
+      },
+      {
+        "entity_id": "the_times",
+        "role": "publisher"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "schumacher_2019",
+        "page": 4,
+        "quote": "In August 1851 Francis Galton (1822-1911) wrote a letter to The Times, London from Eikhams, Namagua Land, Southern Africa."
+      }
+    ]
+  },
+  {
+    "id": "galton_publication_narrative_1853",
+    "event_type": "publication",
+    "label": "Published Narrative of an Explorer",
+    "description": "In 1853 he wrote a book on his explorations called Narrative of an Explorer in South Africa.",
+    "date": {
+      "display": "1853",
+      "precision": "year",
+      "sort_start": "1853-01-01",
+      "sort_end": "1853-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "francis_galton",
+        "role": "author"
+      },
+      {
+        "entity_id": "narrative_of_an_explorer",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "schumacher_2019",
+        "page": 15,
+        "quote": "In 1853 he wrote a book on his explorations called Narrative of an Explorer in South Africa"
+      }
+    ]
+  },
+  {
+    "id": "galton_award_rgs_gold_medal",
+    "event_type": "award",
+    "label": "Received Gold Medal from Royal Geographical Society",
+    "description": "On his return to England, he was praised for his exploration in Africa and received a Gold medal from the Geographical Society.",
+    "date": {
+      "display": "1853",
+      "precision": "year",
+      "sort_start": "1853-01-01",
+      "sort_end": "1853-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "francis_galton",
+        "role": "recipient"
+      },
+      {
+        "entity_id": "royal_geographical_society",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "schumacher_2019",
+        "page": 15,
+        "quote": "On his return to England, he was praised for his exploration in Africa and received a Gold medal from the Geographical Society"
+      }
+    ]
+  },
+  {
+    "id": "galton_publication_art_of_travel_1855",
+    "event_type": "publication",
+    "label": "Published The Art of Travel",
+    "description": "In 1855 he was encouraged to write a further book on exploration. The Art of Travel or Shifts and Contrivances Available in Wild Countries was popular",
+    "date": {
+      "display": "1855",
+      "precision": "year",
+      "sort_start": "1855-01-01",
+      "sort_end": "1855-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "francis_galton",
+        "role": "author"
+      },
+      {
+        "entity_id": "the_art_of_travel",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "schumacher_2019",
+        "page": 15,
+        "quote": "In 1855 he was encouraged to write a further book on exploration. The Art of Travel or Shifts and Contrivances Available in Wild Countries was popular"
+      }
+    ]
+  },
+  {
+    "id": "galton_publication_hereditary_talent_1865",
+    "event_type": "publication",
+    "label": "Published Hereditary Talent and Character",
+    "description": "Galton's first published work on heredity was a two-part article in Macmillan's Magazine in 1865 called Hereditary Talent and Character.",
+    "date": {
+      "display": "1865",
+      "precision": "year",
+      "sort_start": "1865-01-01",
+      "sort_end": "1865-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "francis_galton",
+        "role": "author"
+      },
+      {
+        "entity_id": "hereditary_talent_and_character",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "schumacher_2019",
+        "page": 19,
+        "quote": "Galton's first published work on heredity was a two-part article in Macmillan's Magazine in 1865 called Hereditary Talent and Character."
+      }
+    ]
+  },
+  {
+    "id": "galton_publication_hereditary_genius_1869",
+    "event_type": "publication",
+    "label": "Published Hereditary Genius",
+    "description": "The ideas and science in Hereditary Talent and Character were expanded in his book Hereditary Genius, published in 1869.",
+    "date": {
+      "display": "1869",
+      "precision": "year",
+      "sort_start": "1869-01-01",
+      "sort_end": "1869-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "francis_galton",
+        "role": "author"
+      },
+      {
+        "entity_id": "hereditary_genius",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "schumacher_2019",
+        "page": 21,
+        "quote": "The ideas and science in Hereditary Talent and Character were expanded in his book Hereditary Genius, published in 1869."
+      }
+    ]
+  },
+  {
+    "id": "galton_composite_photography_1877",
+    "event_type": "public_demonstration",
+    "label": "Conducted Composite Photography Experiments",
+    "description": "Commenting on his 1877 experiments using the Millbank prisoner photographs, Galton wrote:",
+    "date": {
+      "display": "1877",
+      "precision": "year",
+      "sort_start": "1877-01-01",
+      "sort_end": "1877-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "francis_galton",
+        "role": "subject"
+      },
+      {
+        "entity_id": "composite_photography",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "schumacher_2019",
+        "page": 28,
+        "quote": "Commenting on his 1877 experiments using the Millbank prisoner photographs, Galton wrote:"
+      }
+    ]
+  },
+  {
+    "id": "galton_coined_eugenics_1883",
+    "event_type": "publication",
+    "label": "Coined term 'eugenics'",
+    "description": "Galton first coined the term 'eugenics' in a footnote in his book Inquiries into Human Faculty and its development, published in 1883.",
+    "date": {
+      "display": "1883",
+      "precision": "year",
+      "sort_start": "1883-01-01",
+      "sort_end": "1883-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "francis_galton",
+        "role": "subject"
+      },
+      {
+        "entity_id": "inquiries_into_human_faculty",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "schumacher_2019",
+        "page": 19,
+        "quote": "Galton first coined the term 'eugenics' in a footnote in his book Inquiries into Human Faculty and its development, published in 1883."
+      }
+    ]
+  },
+  {
+    "id": "galton_collaboration_jacobs_1886",
+    "event_type": "meeting",
+    "label": "Worked alongside Joseph Jacobs",
+    "description": "In 1886, Galton worked alongside Joseph Jacobs, anthropologist and historian of Jewish culture, to gather portraits of Jewish boys from a Jewish boy's school in London.",
+    "date": {
+      "display": "1886",
+      "precision": "year",
+      "sort_start": "1886-01-01",
+      "sort_end": "1886-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "francis_galton",
+        "role": "subject"
+      },
+      {
+        "entity_id": "joseph_jacobs",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "schumacher_2019",
+        "page": 28,
+        "quote": "In 1886, Galton worked alongside Joseph Jacobs, anthropologist and historian of Jewish culture, to gather portraits of Jewish boys from a Jewish boy's school in London."
+      }
+    ]
+  },
+  {
+    "id": "galton_publication_fingerprints_1891",
+    "event_type": "publication",
+    "label": "Published book on fingerprinting",
+    "description": "In 1891, Galton published a book on fingerprinting and was responsible for proving three main characteristics of fingerprints.",
+    "date": {
+      "display": "1891",
+      "precision": "year",
+      "sort_start": "1891-01-01",
+      "sort_end": "1891-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "francis_galton",
+        "role": "author"
+      },
+      {
+        "entity_id": "finger_prints_book",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "schumacher_2019",
+        "page": 32,
+        "quote": "In 1891, Galton published a book on fingerprinting"
+      }
+    ]
+  },
+  {
+    "id": "galton_death",
+    "event_type": "death",
+    "label": "Died",
+    "description": "Francis Galton died in 1911.",
+    "date": {
+      "display": "1911",
+      "precision": "year",
+      "sort_start": "1911-01-01",
+      "sort_end": "1911-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "francis_galton",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "schumacher_2019",
+        "page": 1,
+        "quote": "Francis Galton (1822-1911)"
+      }
+    ]
+  }
+]

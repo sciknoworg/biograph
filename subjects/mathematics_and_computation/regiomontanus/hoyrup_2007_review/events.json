@@ -1,0 +1,185 @@
+[
+  {
+    "id": "regiomontanus_writes_wiener_rechenbuch",
+    "event_type": "publication",
+    "label": "Wrote Wiener Rechenbuch",
+    "description": "Regiomontanus wrote a manuscript containing original work and borrowed texts.",
+    "date": {
+      "display": "between 1454 and ca 1462",
+      "precision": "range",
+      "sort_start": "1454-01-01",
+      "sort_end": "1462-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "regiomontanus",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hoyrup_2007_review",
+        "page": 4,
+        "quote": "At first, Folkerts analyzes Regiomontanus'Wiener Rechenbuch, a manuscript from Regiomontanus' hand written between 1454 andca 1462"
+      }
+    ]
+  },
+  {
+    "id": "regiomontanus_algebra_knowledge_1456",
+    "event_type": "other",
+    "label": "Possessed algebraic knowledge",
+    "description": "Evidence shows Regiomontanus's algebraic knowledge was already present in 1456.",
+    "date": {
+      "display": "1456",
+      "precision": "year",
+      "sort_start": "1456-01-01",
+      "sort_end": "1456-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "regiomontanus",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hoyrup_2007_review",
+        "page": 4,
+        "quote": "Finally, Folkerts digs out from the same Plimpton codex evidence that the algebraic knowl-edge which Regiomontanus displays in his correspondence with Bian-chini and others was already his in 1456"
+      }
+    ]
+  },
+  {
+    "id": "amann_visits_vienna",
+    "event_type": "visit",
+    "label": "Amann visited Vienna",
+    "description": "Fridericus Amann appears to have visited Vienna, possibly meeting Regiomontanus.",
+    "date": {
+      "display": "1456",
+      "precision": "year",
+      "sort_start": "1456-01-01",
+      "sort_end": "1456-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "fridericus_amann",
+        "role": "visitor"
+      },
+      {
+        "entity_id": "vienna",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hoyrup_2007_review",
+        "page": 15,
+        "quote": "given that Amann appears to have visited Vienna in 1456"
+      }
+    ]
+  },
+  {
+    "id": "regiomontanus_padua_lecture",
+    "event_type": "conference",
+    "label": "Delivered Padua lecture",
+    "description": "Regiomontanus gave a lecture in Padua referring to various mathematical works.",
+    "date": {
+      "display": "1464",
+      "precision": "year",
+      "sort_start": "1464-01-01",
+      "sort_end": "1464-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "regiomontanus",
+        "role": "speaker"
+      },
+      {
+        "entity_id": "padua",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hoyrup_2007_review",
+        "page": 5,
+        "quote": "The 'pro-gramme' is supplemented by Regiomontanus' Padua lecture from 1464"
+      }
+    ]
+  },
+  {
+    "id": "regiomontanus_death",
+    "event_type": "death",
+    "label": "Died suddenly",
+    "description": "Regiomontanus died suddenly before realizing his printing plans.",
+    "date": {
+      "display": "after 1464",
+      "precision": "circa",
+      "sort_start": "1465-01-01",
+      "sort_end": "1476-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "regiomontanus",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hoyrup_2007_review",
+        "page": 5,
+        "quote": "plans that wereneverrealizedbecauseofhis sudden death"
+      }
+    ]
+  },
+  {
+    "id": "folkerts_volume_published",
+    "event_type": "publication",
+    "label": "Folkerts volume published",
+    "description": "Menso Folkerts' Variorum volume was published by Ashgate.",
+    "date": {
+      "display": "2006",
+      "precision": "year",
+      "sort_start": "2006-01-01",
+      "sort_end": "2006-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "menso_folkerts",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hoyrup_2007_review",
+        "page": 1,
+        "quote": "Aldershot, UK:Ashgate, 2006."
+      }
+    ]
+  },
+  {
+    "id": "hoyrup_review_published",
+    "event_type": "publication",
+    "label": "Høyrup review published",
+    "description": "Jens Høyrup's review was published in Aestimatio 4.",
+    "date": {
+      "display": "2007",
+      "precision": "year",
+      "sort_start": "2007-01-01",
+      "sort_end": "2007-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jens_hoyrup",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hoyrup_2007_review",
+        "page": 1,
+        "quote": "Aestimatio 4(2007) 124--143"
+      }
+    ]
+  }
+]

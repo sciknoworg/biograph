@@ -1,0 +1,202 @@
+[
+  {
+    "aliases": [
+      "Arthur Scherbius",
+      "Dr SCHERBIUS"
+    ],
+    "entity_type": "person",
+    "id": "arthur_scherbius",
+    "name": "Arthur Ludolf Jacob Scherbius",
+    "subtype": "inventor",
+    "summary": "German engineer and inventor of the Enigma cipher machine."
+  },
+  {
+    "aliases": [
+      "Ritter"
+    ],
+    "entity_type": "person",
+    "id": "e_richard_ritter",
+    "name": "E. Richard Ritter",
+    "subtype": "engineer",
+    "summary": "Engineer and business partner of Arthur Scherbius."
+  },
+  {
+    "entity_type": "person",
+    "id": "wilhelm_fenner",
+    "name": "Wilhelm Fenner",
+    "subtype": "cryptologist",
+    "summary": "Cryptologist who referred to Scherbius in TICOM documents."
+  },
+  {
+    "entity_type": "person",
+    "id": "anton_hofle",
+    "name": "Anton Höfle",
+    "subtype": "politician",
+    "summary": "German Post Minister involved with ChiMaAG."
+  },
+  {
+    "entity_type": "person",
+    "id": "adolf_hermkes",
+    "name": "Adolf Hermkes",
+    "subtype": "businessman",
+    "summary": "Businessman and chairman of ChiMaAG supervisory board."
+  },
+  {
+    "entity_type": "person",
+    "id": "gottfried_eberbach",
+    "name": "Gottfried Eberbach",
+    "subtype": "businessman",
+    "summary": "Businessman involved in Gewerkschaft Securitas."
+  },
+  {
+    "entity_type": "person",
+    "id": "paul_bernstein",
+    "name": "Paul Bernstein",
+    "subtype": "engineer",
+    "summary": "Technical director of ChiMaAG."
+  },
+  {
+    "entity_type": "person",
+    "id": "carl_duhm",
+    "name": "Carl Duhm",
+    "subtype": "businessman",
+    "summary": "Managing director of Securitas GmbH and ChiMaAG."
+  },
+  {
+    "entity_type": "person",
+    "id": "arvid_damm",
+    "name": "Arvid Damm",
+    "subtype": "inventor",
+    "summary": "Swedish inventor and competitor of Scherbius."
+  },
+  {
+    "entity_type": "person",
+    "id": "hugo_koch",
+    "name": "Hugo Koch",
+    "subtype": "inventor",
+    "summary": "Dutch inventor who filed patents related to Enigma."
+  },
+  {
+    "entity_type": "organization",
+    "id": "german_war_ministry",
+    "name": "German War Ministry",
+    "subtype": "government",
+    "summary": "German government ministry that commissioned Scherbius."
+  },
+  {
+    "aliases": [
+      "WuMBA"
+    ],
+    "entity_type": "organization",
+    "id": "wumba",
+    "name": "Weapons and Munitions Procurement Office",
+    "subtype": "government",
+    "summary": "Central steering body of the German war economy."
+  },
+  {
+    "entity_type": "organization",
+    "id": "scherbius_ritter",
+    "name": "Scherbius & Ritter",
+    "subtype": "company",
+    "summary": "Company founded by Scherbius and Ritter to produce cipher machines."
+  },
+  {
+    "aliases": [
+      "ChiMaAG"
+    ],
+    "entity_type": "organization",
+    "id": "chiffriermaschinen_ag",
+    "name": "Chiffriermaschinen AG",
+    "subtype": "company",
+    "summary": "Joint-stock company founded to exploit Scherbius patents."
+  },
+  {
+    "entity_type": "organization",
+    "id": "gewerkschaft_securitas",
+    "name": "Gewerkschaft Securitas",
+    "subtype": "company",
+    "summary": "Workshop for precision mechanics that held Scherbius patents."
+  },
+  {
+    "entity_type": "organization",
+    "id": "securitas_gmbh",
+    "name": "Securitas GmbH",
+    "subtype": "company",
+    "summary": "Company founded to build Scherbius machines."
+  },
+  {
+    "aliases": [
+      "Provisional Reichswehr"
+    ],
+    "entity_type": "organization",
+    "id": "reichswehr",
+    "name": "Reichswehr",
+    "subtype": "military",
+    "summary": "German military force interested in cipher machines."
+  },
+  {
+    "aliases": [
+      "Reich Telegraph Administration"
+    ],
+    "entity_type": "organization",
+    "id": "reichspost",
+    "name": "Reichspost",
+    "subtype": "government",
+    "summary": "German postal and telegraph administration."
+  },
+  {
+    "entity_type": "organization",
+    "id": "foreign_office",
+    "name": "Foreign Office",
+    "subtype": "government",
+    "summary": "German government department allowed to cipher."
+  },
+  {
+    "entity_type": "artifact",
+    "id": "enigma",
+    "name": "Enigma",
+    "subtype": "invention",
+    "summary": "Cipher machine invented by Arthur Scherbius."
+  },
+  {
+    "entity_type": "artifact",
+    "id": "handelsmaschine",
+    "name": "Handelsmaschine",
+    "subtype": "product",
+    "summary": "Commercial version of the Enigma cipher machine."
+  },
+  {
+    "entity_type": "artifact",
+    "id": "patent_de425147",
+    "name": "DE425147",
+    "subtype": "patent",
+    "summary": "Patent for writing machine with line-by-line scrambling."
+  },
+  {
+    "attributes": {
+      "country": "Germany",
+      "lat": 52.51667,
+      "lng": 13.38333,
+      "wikidata_qid": "Q64",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "berlin",
+    "name": "Berlin",
+    "subtype": "city",
+    "summary": "Capital city of Germany where ChiMaAG was founded."
+  },
+  {
+    "entity_type": "place",
+    "id": "netherlands",
+    "name": "Netherlands",
+    "subtype": "country",
+    "summary": "Country where N.V. Ingenieursbureau Securitas was registered.",
+    "attributes": {
+      "lat": 52.31667,
+      "lng": 5.55,
+      "wikidata_qid": "Q55",
+      "geocode_basis": "document"
+    }
+  }
+]

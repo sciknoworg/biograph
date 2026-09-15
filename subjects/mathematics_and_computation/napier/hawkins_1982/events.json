@@ -1,0 +1,338 @@
+[
+  {
+    "id": "napier_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1550",
+      "precision": "year",
+      "sort_start": "1550-01-01",
+      "sort_end": "1550-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_napier",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hawkins_1982",
+        "page": 1,
+        "quote": "JOHN NAPIER (1550-1617)"
+      }
+    ]
+  },
+  {
+    "id": "napier_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1617",
+      "precision": "year",
+      "sort_start": "1617-01-01",
+      "sort_end": "1617-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_napier",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hawkins_1982",
+        "page": 1,
+        "quote": "JOHN NAPIER (1550-1617)"
+      }
+    ]
+  },
+  {
+    "id": "napier_matriculation",
+    "event_type": "education",
+    "label": "Matriculated at St Andrews University",
+    "description": "Attended for a short time and matriculated at the age of 13.",
+    "date": {
+      "display": "age of 13",
+      "precision": "circa",
+      "sort_start": "1563-01-01",
+      "sort_end": "1563-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_napier",
+        "role": "subject"
+      },
+      {
+        "entity_id": "st_andrews_university",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hawkins_1982",
+        "page": 1,
+        "quote": "attended St Andrews University for a short time and matriculated at the age of 13"
+      }
+    ]
+  },
+  {
+    "id": "bothwell_letter",
+    "event_type": "other",
+    "label": "Letter from Adam Bothwell",
+    "description": "Uncle Adam Bothwell wrote to Napier's father suggesting education abroad.",
+    "date": {
+      "display": "December 1560",
+      "precision": "month",
+      "sort_start": "1560-12-01",
+      "sort_end": "1560-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "adam_bothwell",
+        "role": "correspondent"
+      },
+      {
+        "entity_id": "john_napier",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hawkins_1982",
+        "page": 1,
+        "quote": "December 1560"
+      }
+    ]
+  },
+  {
+    "id": "revelation_publication",
+    "event_type": "publication",
+    "label": "Published The Whole Revelation of St John",
+    "date": {
+      "display": "1593",
+      "precision": "year",
+      "sort_start": "1593-01-01",
+      "sort_end": "1593-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_napier",
+        "role": "author"
+      },
+      {
+        "entity_id": "the_whole_revelation_of_st_john",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hawkins_1982",
+        "page": 1,
+        "quote": "in 1593 he produced a bitter polemic against the Papacy and Rome which was called The Whole Revelation of St John."
+      }
+    ]
+  },
+  {
+    "id": "descriptio_publication_latin",
+    "event_type": "publication",
+    "label": "Published Descriptio Logarithmorum (Latin)",
+    "date": {
+      "display": "l6lU",
+      "precision": "year",
+      "sort_start": "1614-01-01",
+      "sort_end": "1614-12-31"
+    },
+    "location": "edinburgh",
+    "participants": [
+      {
+        "entity_id": "john_napier",
+        "role": "author"
+      },
+      {
+        "entity_id": "descriptio_logarithmorum",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hawkins_1982",
+        "page": 2,
+        "quote": "Edinburgh l6lU"
+      }
+    ]
+  },
+  {
+    "id": "descriptio_publication_english",
+    "event_type": "publication",
+    "label": "Published Descriptio Logarithmorum (English)",
+    "date": {
+      "display": "l6l6",
+      "precision": "year",
+      "sort_start": "1616-01-01",
+      "sort_end": "1616-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "edward_wright",
+        "role": "translator"
+      },
+      {
+        "entity_id": "descriptio_logarithmorum",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hawkins_1982",
+        "page": 2,
+        "quote": "published in l6l6."
+      }
+    ]
+  },
+  {
+    "id": "briggs_visit_1615",
+    "event_type": "visit",
+    "label": "Briggs visited Merchiston",
+    "date": {
+      "display": "l6l5",
+      "precision": "year",
+      "sort_start": "1615-01-01",
+      "sort_end": "1615-12-31"
+    },
+    "location": "merchiston",
+    "participants": [
+      {
+        "entity_id": "henry_briggs",
+        "role": "visitor"
+      },
+      {
+        "entity_id": "john_napier",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hawkins_1982",
+        "page": 5,
+        "quote": "visit to Merchiston in l6l5 and I6l6."
+      }
+    ]
+  },
+  {
+    "id": "briggs_visit_1616",
+    "event_type": "visit",
+    "label": "Briggs visited Merchiston",
+    "date": {
+      "display": "I6l6",
+      "precision": "year",
+      "sort_start": "1616-01-01",
+      "sort_end": "1616-12-31"
+    },
+    "location": "merchiston",
+    "participants": [
+      {
+        "entity_id": "henry_briggs",
+        "role": "visitor"
+      },
+      {
+        "entity_id": "john_napier",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hawkins_1982",
+        "page": 5,
+        "quote": "visit to Merchiston in l6l5 and I6l6."
+      }
+    ]
+  },
+  {
+    "id": "rabdologiae_publication",
+    "event_type": "publication",
+    "label": "Published Rabdologiae",
+    "date": {
+      "display": "l6l7",
+      "precision": "year",
+      "sort_start": "1617-01-01",
+      "sort_end": "1617-12-31"
+    },
+    "location": "edinburgh",
+    "participants": [
+      {
+        "entity_id": "john_napier",
+        "role": "author"
+      },
+      {
+        "entity_id": "rabdologiae",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hawkins_1982",
+        "page": 6,
+        "quote": "Edinburgh, l6l7."
+      }
+    ]
+  },
+  {
+    "id": "constructio_publication",
+    "event_type": "publication",
+    "label": "Published Constructio Logarithmorum",
+    "date": {
+      "display": "l6l9",
+      "precision": "year",
+      "sort_start": "1619-01-01",
+      "sort_end": "1619-12-31"
+    },
+    "location": "edinburgh",
+    "participants": [
+      {
+        "entity_id": "robert_napier",
+        "role": "publisher"
+      },
+      {
+        "entity_id": "constructio_logarithmorum",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hawkins_1982",
+        "page": 3,
+        "quote": "Edinburgh l6l9"
+      }
+    ]
+  },
+  {
+    "id": "de_arte_logistica_publication",
+    "event_type": "publication",
+    "label": "Published De Arte Logistica (Latin)",
+    "date": {
+      "display": "1839",
+      "precision": "year",
+      "sort_start": "1839-01-01",
+      "sort_end": "1839-12-31"
+    },
+    "location": "edinburgh",
+    "participants": [
+      {
+        "entity_id": "mark_napier",
+        "role": "publisher"
+      },
+      {
+        "entity_id": "de_arte_logistica",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hawkins_1982",
+        "page": 7,
+        "quote": "Edinburgh 1839 (Latin text)."
+      }
+    ]
+  }
+]

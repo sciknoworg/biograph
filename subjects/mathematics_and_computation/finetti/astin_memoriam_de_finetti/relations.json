@@ -1,0 +1,133 @@
+[
+  {
+    "id": "bruno_de_finetti_studied_polytechnic",
+    "source": "bruno_de_finetti",
+    "type": "studied_at",
+    "target": "polytechnic_institute_milan",
+    "event_id": "bruno_de_finetti_degree",
+    "sources": [
+      {
+        "source_id": "astin_memoriam_de_finetti",
+        "page": 1,
+        "quote": "After getting  his degree in\nApplied Mathematics at the Polytechnic Institute of Milan, in 1927, he preferred\nto devote his activity to practical fields."
+      }
+    ]
+  },
+  {
+    "id": "bruno_de_finetti_employed_ics",
+    "source": "bruno_de_finetti",
+    "type": "employed_by",
+    "target": "istituto_centrale_di_statistica",
+    "event_id": "bruno_de_finetti_ics_start",
+    "start": {
+      "display": "1927",
+      "precision": "year",
+      "sort_start": "1927-01-01",
+      "sort_end": "1927-12-31"
+    },
+    "end": {
+      "display": "1931",
+      "precision": "year",
+      "sort_start": "1931-01-01",
+      "sort_end": "1931-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "astin_memoriam_de_finetti",
+        "page": 1,
+        "quote": "From 1927 to 1931 he worked as the chief of the mathematical office for the\nIstituto Centrale di Statistica (Central Statistical Institute)."
+      }
+    ]
+  },
+  {
+    "id": "bruno_de_finetti_employed_ag",
+    "source": "bruno_de_finetti",
+    "type": "employed_by",
+    "target": "assicurazioni_generali",
+    "event_id": "bruno_de_finetti_ag_start",
+    "start": {
+      "display": "1931",
+      "precision": "year",
+      "sort_start": "1931-01-01",
+      "sort_end": "1931-12-31"
+    },
+    "end": {
+      "display": "1946",
+      "precision": "year",
+      "sort_start": "1946-01-01",
+      "sort_end": "1946-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "astin_memoriam_de_finetti",
+        "page": 1,
+        "quote": "From 1931 until 1946 he was employed by the  Assicurazioni Generali\nfirstly at  the actuarial office and later as the head of the reform of all procedures\nfollowing the introduction of punch card equipment."
+      }
+    ]
+  },
+  {
+    "id": "bruno_de_finetti_worked_trieste",
+    "source": "bruno_de_finetti",
+    "type": "worked_at",
+    "target": "university_of_trieste",
+    "sources": [
+      {
+        "source_id": "astin_memoriam_de_finetti",
+        "page": 1,
+        "quote": "He was a bright and loved professor at the  universities of Trieste and Rome\nwhere he taught Mathematics and Probability Theory."
+      }
+    ]
+  },
+  {
+    "id": "bruno_de_finetti_worked_rome",
+    "source": "bruno_de_finetti",
+    "type": "worked_at",
+    "target": "university_of_rome",
+    "sources": [
+      {
+        "source_id": "astin_memoriam_de_finetti",
+        "page": 1,
+        "quote": "He was a bright and loved professor at the  universities of Trieste and Rome\nwhere he taught Mathematics and Probability Theory."
+      }
+    ]
+  },
+  {
+    "id": "bruno_de_finetti_member_astin",
+    "source": "bruno_de_finetti",
+    "type": "member_of",
+    "target": "astin_association",
+    "sources": [
+      {
+        "source_id": "astin_memoriam_de_finetti",
+        "page": 2,
+        "quote": "Prof, de Finetti carefully followed the development of ASTIN association from\nthe very beginning."
+      }
+    ]
+  },
+  {
+    "id": "bruno_de_finetti_published_matematica",
+    "source": "bruno_de_finetti",
+    "type": "published",
+    "target": "matematica_logico_intuitiva",
+    "sources": [
+      {
+        "source_id": "astin_memoriam_de_finetti",
+        "page": 1,
+        "quote": "Among his books it is worth\nremembering a  treatise loved  by  generations of  students: Matematica Logico\nIntuitiva (Logic and Intuitive Mathematics) is a book that succeeds in persuading\nreaders about the attractiveness of logic arguments."
+      }
+    ]
+  },
+  {
+    "id": "bruno_de_finetti_visited_taormina",
+    "source": "bruno_de_finetti",
+    "type": "visited",
+    "target": "taormina",
+    "sources": [
+      {
+        "source_id": "astin_memoriam_de_finetti",
+        "page": 2,
+        "quote": "In Taormina he gave a stimulating lecture on \"Insurance and views about probabil-\nity\"."
+      }
+    ]
+  }
+]

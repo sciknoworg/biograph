@@ -1,0 +1,126 @@
+[
+  {
+    "aliases": [
+      "Claudii Ptolemaei",
+      "Ptolemy"
+    ],
+    "entity_type": "person",
+    "id": "claudius_ptolemy",
+    "name": "Claudius Ptolemy",
+    "subtype": "researcher",
+    "summary": "Greek mathematician, astronomer, and geographer active in Roman Alexandria during the 2nd century CE."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "syrus",
+    "name": "Syrus",
+    "subtype": "patron",
+    "summary": "Dedicatee of half of Ptolemy's extant works, likely a patron or student in Alexandria."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Egypt",
+      "lat": 31.1975,
+      "lng": 29.8925,
+      "wikidata_qid": "Q87",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "alexandria",
+    "name": "Alexandria",
+    "subtype": "city",
+    "summary": "Capital city of Egypt and center of Ptolemy's intellectual activity."
+  },
+  {
+    "aliases": [
+      "Canobus"
+    ],
+    "attributes": {
+      "country": "Egypt",
+      "lat": 31.3,
+      "lng": 30.08333,
+      "wikidata_qid": "Q1145180",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "canopus",
+    "name": "Canopus",
+    "subtype": "city",
+    "summary": "Town near Alexandria where Ptolemy erected his astronomical inscription."
+  },
+  {
+    "aliases": [
+      "Serapeum"
+    ],
+    "attributes": {
+      "location": "Canopus",
+      "lat": 41.8983,
+      "lng": 12.4855,
+      "wikidata_qid": "Q2288627",
+      "geocode_basis": "most_linked"
+    },
+    "entity_type": "place",
+    "id": "temple_of_serapis",
+    "name": "Temple of Serapis",
+    "subtype": "facility",
+    "summary": "Temple in Canopus where the Canobic Inscription was set up."
+  },
+  {
+    "aliases": [
+      "Antoninus",
+      "emperor Antoninus"
+    ],
+    "entity_type": "person",
+    "id": "antoninus_pius",
+    "name": "Antoninus Pius",
+    "subtype": "ruler",
+    "summary": "Roman Emperor whose tenth regnal year dates the Canobic Inscription."
+  },
+  {
+    "aliases": [
+      "Claudii Ptolemaei",
+      "astronomical inscription"
+    ],
+    "entity_type": "artifact",
+    "id": "canobic_inscription",
+    "name": "Canobic Inscription",
+    "subtype": "inscription",
+    "summary": "Astronomical stele erected by Ptolemy in 147/148 CE containing planetary models and harmonic theory."
+  },
+  {
+    "aliases": [
+      "Mathematike Syntaxis",
+      "Syntaxis Mathematica"
+    ],
+    "entity_type": "artifact",
+    "id": "almagest",
+    "name": "Almagest",
+    "subtype": "publication",
+    "summary": "Ptolemy's major astronomical treatise, written after the Canobic Inscription."
+  },
+  {
+    "aliases": [
+      "Harmonika"
+    ],
+    "entity_type": "artifact",
+    "id": "harmonics",
+    "name": "Harmonics",
+    "subtype": "publication",
+    "summary": "Ptolemy's treatise on music theory and harmonic intervals."
+  },
+  {
+    "aliases": [
+      "University of Barcelona"
+    ],
+    "attributes": {
+      "country": "Spain"
+    },
+    "entity_type": "organization",
+    "id": "university_of_barcelona",
+    "name": "Universitat de Barcelona",
+    "subtype": "university",
+    "summary": "University where the source thesis was submitted."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "map_included_atlas",
+    "source": "nova_absolutaque_map",
+    "type": "licensed_to",
+    "target": "theatrum_orbis_terranum",
+    "event_id": "ortelius_atlas_published",
+    "sources": [
+      {
+        "source_id": "gafar_zada_2022",
+        "page": 4,
+        "quote": "It was an integral part of the world's first modern geographical atlas \"Theatrum Orbis Terranum\" (\"Theatre of the Orb of the World \"), published in 1570 as a result of the p ainstaking work of the famous Flemish cartographer and geographer of the 16th century Abraham Ortelius."
+      }
+    ],
+    "_rejected_because": "'licensed_to' expects source entity_type person/organization, but 'nova_absolutaque_map' is 'artifact'"
+  },
+  {
+    "id": "map_used_mercator",
+    "source": "nova_absolutaque_map",
+    "type": "licensed_to",
+    "target": "gerardus_mercator",
+    "event_id": "mercator_map_reissued",
+    "sources": [
+      {
+        "source_id": "gafar_zada_2022",
+        "page": 5,
+        "quote": "Jenkinson's map, in addition to Ortelius, was also used by the famous and greatest Flemish cartographer and geographer Gerardus Mercator when reissuing in 1572 his famous map of the world..."
+      }
+    ],
+    "_rejected_because": "'licensed_to' expects source entity_type person/organization, but 'nova_absolutaque_map' is 'artifact'"
+  },
+  {
+    "id": "szykula_discovered_map",
+    "source": "krystina_szykula",
+    "type": "met",
+    "target": "nova_absolutaque_map",
+    "event_id": "map_discovered",
+    "note": "Discovered the map.",
+    "sources": [
+      {
+        "source_id": "gafar_zada_2022",
+        "page": 6,
+        "quote": "In 1989, sensational news spread around the scientific world: at the regular XIII International Conference on the History of Cartography held in Amsterdam, the Polish cartographer Krystina Szykula... announced the discovery of the original Jenkinson map of 1562."
+      }
+    ],
+    "_rejected_because": "'met' expects target entity_type person, but 'nova_absolutaque_map' is 'artifact'"
+  },
+  {
+    "id": "map_stored_wroclaw",
+    "source": "nova_absolutaque_map",
+    "type": "lived_in",
+    "target": "wroclaw_university_library",
+    "sources": [
+      {
+        "source_id": "gafar_zada_2022",
+        "page": 4,
+        "quote": "Figure 1. Map \"Nova Absolutaque Russiae, Moscoviae, et Tartariae Descriptio\" by Anthony Jenkinson, 1562 / Cartographic Collection Department of the Library of Wroclaw University"
+      }
+    ],
+    "_rejected_because": "'lived_in' expects source entity_type person, but 'nova_absolutaque_map' is 'artifact'"
+  }
+]

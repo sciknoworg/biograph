@@ -1,0 +1,97 @@
+[
+  {
+    "id": "scherbius_invented_enigma",
+    "source": "arthur_scherbius",
+    "type": "invented",
+    "target": "enigma",
+    "sources": [
+      {
+        "source_id": "taaks_scherbius_enigma",
+        "page": 1,
+        "quote": "In 1917, the German War Ministry commissioned Arthur Scherbius to invent a cipher machine."
+      }
+    ]
+  },
+  {
+    "id": "scherbius_founded_scherbius_ritter",
+    "source": "arthur_scherbius",
+    "type": "founded",
+    "target": "scherbius_ritter",
+    "event_id": "scherbius_ritter_founded",
+    "sources": [
+      {
+        "source_id": "taaks_scherbius_enigma",
+        "page": 1,
+        "quote": "On 1st April the company \"Scherbius & Ritter\" was founded"
+      }
+    ]
+  },
+  {
+    "id": "scherbius_worked_wumba",
+    "source": "arthur_scherbius",
+    "type": "worked_at",
+    "target": "wumba",
+    "event_id": "scherbius_wumba",
+    "sources": [
+      {
+        "source_id": "taaks_scherbius_enigma",
+        "page": 1,
+        "quote": "On 1st February 1917, he was seconded to the Weapons and Munitions Procurement Office (WuMBA)"
+      }
+    ]
+  },
+  {
+    "id": "scherbius_collaborated_ritter",
+    "source": "arthur_scherbius",
+    "type": "collaborated_with",
+    "target": "e_richard_ritter",
+    "sources": [
+      {
+        "source_id": "taaks_scherbius_enigma",
+        "page": 1,
+        "quote": "the company \"Scherbius & Ritter\" was founded to develop and produce cipher machines"
+      }
+    ]
+  },
+  {
+    "id": "chimaag_founded_berlin",
+    "source": "chiffriermaschinen_ag",
+    "type": "founded",
+    "target": "berlin",
+    "event_id": "chimaag_founded",
+    "sources": [
+      {
+        "source_id": "taaks_scherbius_enigma",
+        "page": 1,
+        "quote": "On 9th July, Chiffriermaschinen AG (ChiMaAG) was founded in Berlin."
+      }
+    ]
+  },
+  {
+    "id": "hofle_employed_reichspost",
+    "source": "anton_hofle",
+    "type": "employed_by",
+    "target": "reichspost",
+    "sources": [
+      {
+        "source_id": "taaks_scherbius_enigma",
+        "page": 1,
+        "quote": "Post Minister Anton Höfle"
+      }
+    ]
+  },
+  {
+    "id": "scherbius_transferred_securitas",
+    "source": "arthur_scherbius",
+    "type": "licensed_to",
+    "target": "gewerkschaft_securitas",
+    "event_id": "patents_transferred_securitas",
+    "sources": [
+      {
+        "source_id": "taaks_scherbius_enigma",
+        "page": 1,
+        "quote": "Scherbius transferred 10 patents (1 granted, 9 pending) to the \"Gewerkschaft Securitas\""
+      }
+    ]
+  }
+]

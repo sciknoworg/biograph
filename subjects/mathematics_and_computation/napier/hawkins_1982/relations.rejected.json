@@ -1,0 +1,16 @@
+[
+  {
+    "id": "merchiston_campus_part_of_university",
+    "source": "merchiston_campus",
+    "type": "member_of",
+    "target": "edinburgh_napier_university",
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 35,
+        "quote": "Merchiston Tower was saved from demolition in 1958, restored and integrated as part of a campus for a new college named after John Napier."
+      }
+    ],
+    "_rejected_because": "'member_of' expects source entity_type person/organization, but 'merchiston_campus' is 'place'"
+  }
+]

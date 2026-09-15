@@ -1,0 +1,17 @@
+[
+  {
+    "id": "ochino_invited_by_cranmer",
+    "source": "bernardino_ochino",
+    "type": "visited",
+    "target": "thomas_cranmer",
+    "event_id": "ochino_invited_to_england",
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 14,
+        "quote": "Ochino, by then a religious exile, was invited to England in 1547 by Thomas Cranmer"
+      }
+    ],
+    "_rejected_because": "'visited' expects target entity_type place/organization, but 'thomas_cranmer' is 'person'"
+  }
+]

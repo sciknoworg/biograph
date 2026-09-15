@@ -1,0 +1,336 @@
+[
+  {
+    "id": "cox_birth",
+    "event_type": "birth",
+    "label": "Born in Dayton, Iowa",
+    "date": {
+      "display": "1900",
+      "precision": "year",
+      "sort_start": "1900-01-01",
+      "sort_end": "1900-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gertrude_cox",
+        "role": "subject"
+      }
+    ],
+    "location": "dayton_iowa",
+    "sources": [
+      {
+        "source_id": "hunter_2009",
+        "page": 4,
+        "quote": "Gertrude Cox was born in 1900 in Dayton, Iowa"
+      }
+    ]
+  },
+  {
+    "id": "cox_bs_degree",
+    "event_type": "education",
+    "label": "Received bachelor's degree in mathematics",
+    "date": {
+      "display": "1929",
+      "precision": "year",
+      "sort_start": "1929-01-01",
+      "sort_end": "1929-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gertrude_cox",
+        "role": "subject"
+      },
+      {
+        "entity_id": "iowa_state_college",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hunter_2009",
+        "page": 4,
+        "quote": "receiving a bachelor's degree in mathematics in 1929"
+      }
+    ]
+  },
+  {
+    "id": "cox_ms_degree",
+    "event_type": "education",
+    "label": "Received master's degree in statistics",
+    "date": {
+      "display": "1931",
+      "precision": "year",
+      "sort_start": "1931-01-01",
+      "sort_end": "1931-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gertrude_cox",
+        "role": "subject"
+      },
+      {
+        "entity_id": "iowa_state_college",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hunter_2009",
+        "page": 4,
+        "quote": "master's degree in statistics in 1931"
+      }
+    ]
+  },
+  {
+    "id": "cox_research_assistant_prof",
+    "event_type": "role_change",
+    "label": "Became Research Assistant Professor",
+    "date": {
+      "display": "1939",
+      "precision": "year",
+      "sort_start": "1939-01-01",
+      "sort_end": "1939-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gertrude_cox",
+        "role": "subject"
+      },
+      {
+        "entity_id": "iowa_state_college",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hunter_2009",
+        "page": 4,
+        "quote": "She became a Research Assistant Professor in 1939"
+      }
+    ]
+  },
+  {
+    "id": "cox_move_nc_state",
+    "event_type": "employment_start",
+    "label": "Moved to North Carolina State College",
+    "date": {
+      "display": "1940",
+      "precision": "year",
+      "sort_start": "1940-01-01",
+      "sort_end": "1940-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gertrude_cox",
+        "role": "subject"
+      },
+      {
+        "entity_id": "north_carolina_state_college",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hunter_2009",
+        "page": 5,
+        "quote": "Cox went to North Carolina State College in 1940"
+      }
+    ]
+  },
+  {
+    "id": "institute_of_statistics_formed",
+    "event_type": "company_founded",
+    "label": "Institute of Statistics established",
+    "date": {
+      "display": "1944",
+      "precision": "year",
+      "sort_start": "1944-01-01",
+      "sort_end": "1944-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "north_carolina_state_college",
+        "role": "founder"
+      },
+      {
+        "entity_id": "gertrude_cox",
+        "role": "director"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hunter_2009",
+        "page": 5,
+        "quote": "department became part of a college-wide Institute of Statistics in 1944"
+      }
+    ]
+  },
+  {
+    "id": "institute_unc_division",
+    "event_type": "role_change",
+    "label": "Institute made division of UNC system",
+    "date": {
+      "display": "1946",
+      "precision": "year",
+      "sort_start": "1946-01-01",
+      "sort_end": "1946-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gertrude_cox",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_north_carolina",
+        "role": "parent_organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hunter_2009",
+        "page": 5,
+        "quote": "Cox succeeded in having the Institute made a division of the state's university system... in 1946"
+      }
+    ]
+  },
+  {
+    "id": "cox_asa_president",
+    "event_type": "award",
+    "label": "Elected president of the ASA",
+    "date": {
+      "display": "1956",
+      "precision": "year",
+      "sort_start": "1956-01-01",
+      "sort_end": "1956-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gertrude_cox",
+        "role": "subject"
+      },
+      {
+        "entity_id": "american_statistical_association",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hunter_2009",
+        "page": 5,
+        "quote": "president of the ASA in 1956"
+      }
+    ]
+  },
+  {
+    "id": "cox_isi_member",
+    "event_type": "award",
+    "label": "Elected member of the ISI",
+    "date": {
+      "display": "1948",
+      "precision": "year",
+      "sort_start": "1948-01-01",
+      "sort_end": "1948-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gertrude_cox",
+        "role": "subject"
+      },
+      {
+        "entity_id": "international_statistical_institute",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hunter_2009",
+        "page": 8,
+        "quote": "Cox was elected a member of the ISI in 1948"
+      }
+    ]
+  },
+  {
+    "id": "cox_rti_director",
+    "event_type": "employment_start",
+    "label": "Became director at Research Triangle Institute",
+    "date": {
+      "display": "1960",
+      "precision": "year",
+      "sort_start": "1960-01-01",
+      "sort_end": "1960-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gertrude_cox",
+        "role": "subject"
+      },
+      {
+        "entity_id": "research_triangle_institute",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hunter_2009",
+        "page": 5,
+        "quote": "until 1960 when she became the first director of the Statistics Research Division of the newly created Research Triangle Institute"
+      }
+    ]
+  },
+  {
+    "id": "cox_egypt_consultant",
+    "event_type": "employment_start",
+    "label": "Began consulting trip to Egypt",
+    "date": {
+      "display": "1964",
+      "precision": "year",
+      "sort_start": "1964-01-01",
+      "sort_end": "1964-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gertrude_cox",
+        "role": "subject"
+      },
+      {
+        "entity_id": "cairo_university_issr",
+        "role": "employer"
+      },
+      {
+        "entity_id": "ford_foundation",
+        "role": "funder"
+      }
+    ],
+    "location": "cairo_egypt",
+    "sources": [
+      {
+        "source_id": "hunter_2009",
+        "page": 1,
+        "quote": "worked as a consultant for the Ford Foundation to Cairo University's Institute of Statistical Studies and Researches in 1964"
+      }
+    ]
+  },
+  {
+    "id": "cox_death",
+    "event_type": "death",
+    "label": "Died from leukemia",
+    "date": {
+      "display": "1978",
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gertrude_cox",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "hunter_2009",
+        "page": 29,
+        "quote": "death from leukemia in 1978"
+      }
+    ]
+  }
+]

@@ -1,0 +1,190 @@
+[
+  {
+    "id": "napier_born_scotland",
+    "source": "john_napier",
+    "type": "born_in",
+    "target": "scotland",
+    "sources": [
+      {
+        "source_id": "hawkins_1982",
+        "page": 1,
+        "quote": "JOHN NAPIER (1550-1617)"
+      }
+    ]
+  },
+  {
+    "id": "napier_studied_st_andrews",
+    "source": "john_napier",
+    "type": "studied_at",
+    "target": "st_andrews_university",
+    "event_id": "napier_matriculation",
+    "sources": [
+      {
+        "source_id": "hawkins_1982",
+        "page": 1,
+        "quote": "attended St Andrews University for a short time and matriculated at the age of 13"
+      }
+    ]
+  },
+  {
+    "id": "napier_lived_merchiston",
+    "source": "john_napier",
+    "type": "lived_in",
+    "target": "merchiston",
+    "sources": [
+      {
+        "source_id": "hawkins_1982",
+        "page": 1,
+        "quote": "John Napier, Baron of Merchiston near Edinburgh"
+      }
+    ]
+  },
+  {
+    "id": "napier_wrote_revelation",
+    "source": "john_napier",
+    "type": "published",
+    "target": "the_whole_revelation_of_st_john",
+    "event_id": "revelation_publication",
+    "sources": [
+      {
+        "source_id": "hawkins_1982",
+        "page": 1,
+        "quote": "in 1593 he produced a bitter polemic against the Papacy and Rome which was called The Whole Revelation of St John."
+      }
+    ]
+  },
+  {
+    "id": "napier_wrote_descriptio",
+    "source": "john_napier",
+    "type": "published",
+    "target": "descriptio_logarithmorum",
+    "event_id": "descriptio_publication_latin",
+    "sources": [
+      {
+        "source_id": "hawkins_1982",
+        "page": 2,
+        "quote": "Edinburgh l6lU"
+      }
+    ]
+  },
+  {
+    "id": "napier_collaborated_briggs",
+    "source": "john_napier",
+    "type": "collaborated_with",
+    "target": "henry_briggs",
+    "event_id": "briggs_visit_1615",
+    "sources": [
+      {
+        "source_id": "hawkins_1982",
+        "page": 5,
+        "quote": "visit to Merchiston in l6l5 and I6l6."
+      }
+    ]
+  },
+  {
+    "id": "napier_family_robert",
+    "source": "john_napier",
+    "type": "family_of",
+    "target": "robert_napier",
+    "sources": [
+      {
+        "source_id": "hawkins_1982",
+        "page": 3,
+        "quote": "Napier's son Robert with the assistance of Henry Briggs carried the task through successfully."
+      }
+    ]
+  },
+  {
+    "id": "napier_wrote_rabdologiae",
+    "source": "john_napier",
+    "type": "published",
+    "target": "rabdologiae",
+    "event_id": "rabdologiae_publication",
+    "sources": [
+      {
+        "source_id": "hawkins_1982",
+        "page": 6,
+        "quote": "Edinburgh, l6l7."
+      }
+    ]
+  },
+  {
+    "id": "napier_invented_bones",
+    "source": "john_napier",
+    "type": "invented",
+    "target": "napier_bones",
+    "sources": [
+      {
+        "source_id": "hawkins_1982",
+        "page": 6,
+        "quote": "Napier's popular system of calculating rods, familiarly known as \"Napier's Bones\"."
+      }
+    ]
+  },
+  {
+    "id": "napier_invented_calculator",
+    "source": "john_napier",
+    "type": "invented",
+    "target": "napier_calculating_machine",
+    "sources": [
+      {
+        "source_id": "hawkins_1982",
+        "page": 7,
+        "quote": "The appendix to this book deals with Napier's attempt to produce a new calculator."
+      }
+    ]
+  },
+  {
+    "id": "napier_wrote_de_arte",
+    "source": "john_napier",
+    "type": "published",
+    "target": "de_arte_logistica",
+    "event_id": "de_arte_logistica_publication",
+    "sources": [
+      {
+        "source_id": "hawkins_1982",
+        "page": 7,
+        "quote": "Edinburgh 1839 (Latin text)."
+      }
+    ]
+  },
+  {
+    "id": "briggs_worked_oxford",
+    "source": "henry_briggs",
+    "type": "worked_at",
+    "target": "oxford_university",
+    "sources": [
+      {
+        "source_id": "hawkins_1982",
+        "page": 7,
+        "quote": "Mr. Briggs, Professor of Geometry at Oxford."
+      }
+    ]
+  },
+  {
+    "id": "wright_worked_cambridge",
+    "source": "edward_wright",
+    "type": "worked_at",
+    "target": "cambridge_university",
+    "sources": [
+      {
+        "source_id": "hawkins_1982",
+        "page": 2,
+        "quote": "Edward Wright of Cambridge University"
+      }
+    ]
+  },
+  {
+    "id": "gunter_worked_gresham",
+    "source": "edmond_gunter",
+    "type": "worked_at",
+    "target": "gresham_college",
+    "sources": [
+      {
+        "source_id": "hawkins_1982",
+        "page": 5,
+        "quote": "Edmond Gunter of Gresham College"
+      }
+    ]
+  }
+]

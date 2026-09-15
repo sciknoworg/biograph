@@ -1,0 +1,211 @@
+[
+  {
+    "aliases": [
+      "L.V. Kantorovich",
+      "Leonid Kantorovich",
+      "Leonid V. Kantorovich"
+    ],
+    "entity_type": "person",
+    "id": "leonid_kantorovich",
+    "name": "Leonid Vitalievich Kantorovich",
+    "subtype": "researcher",
+    "summary": "Soviet mathematician and economist, pioneer of linear programming and Nobel laureate."
+  },
+  {
+    "aliases": [
+      "Leningrad University",
+      "Leningrad State University"
+    ],
+    "entity_type": "organization",
+    "id": "leningrad_university",
+    "name": "Leningrad State University",
+    "subtype": "university",
+    "summary": "Major Soviet university where Kantorovich studied and taught."
+  },
+  {
+    "aliases": [
+      "Academy of Sciences",
+      "USSR Academy of Science"
+    ],
+    "entity_type": "organization",
+    "id": "academy_of_sciences_ussr",
+    "name": "Academy of Sciences of the USSR",
+    "subtype": "organization",
+    "summary": "Premier scientific institution of the Soviet Union."
+  },
+  {
+    "aliases": [
+      "State Planning Committee",
+      "Gosplan of the USSR"
+    ],
+    "entity_type": "organization",
+    "id": "gosplan",
+    "name": "Gosplan",
+    "subtype": "organization",
+    "summary": "Soviet state planning committee responsible for economic planning."
+  },
+  {
+    "aliases": [
+      "CEMI"
+    ],
+    "entity_type": "organization",
+    "id": "cemi",
+    "name": "Central Economics and Mathematics Institute",
+    "subtype": "lab",
+    "summary": "Soviet research institute for mathematical economics."
+  },
+  {
+    "aliases": [
+      "Sobolev"
+    ],
+    "entity_type": "person",
+    "id": "sergei_sobolev",
+    "name": "Sergei Sobolev",
+    "subtype": "researcher",
+    "summary": "Soviet mathematician and colleague of Kantorovich."
+  },
+  {
+    "aliases": [
+      "Nemchinov"
+    ],
+    "entity_type": "person",
+    "id": "vasily_nemchinov",
+    "name": "Vasily Nemchinov",
+    "subtype": "researcher",
+    "summary": "Soviet economist and academician who supported Kantorovich."
+  },
+  {
+    "aliases": [
+      "Koopmans"
+    ],
+    "entity_type": "person",
+    "id": "tjalling_koopmans",
+    "name": "Tjalling Koopmans",
+    "subtype": "researcher",
+    "summary": "Dutch-American economist and Nobel co-recipient with Kantorovich."
+  },
+  {
+    "aliases": [
+      "Kolmogorov"
+    ],
+    "entity_type": "person",
+    "id": "andrey_kolmogorov",
+    "name": "Andrey Kolmogorov",
+    "subtype": "researcher",
+    "summary": "Soviet mathematician who supported Kantorovich's work."
+  },
+  {
+    "aliases": [
+      "Fichtenholz"
+    ],
+    "entity_type": "person",
+    "id": "grigorii_fichtenholz",
+    "name": "Grigorii Fichtenholz",
+    "subtype": "researcher",
+    "summary": "Soviet mathematician and Kantorovich's teacher."
+  },
+  {
+    "aliases": [
+      "Novozhilov"
+    ],
+    "entity_type": "person",
+    "id": "viktor_novozhilov",
+    "name": "Viktor Novozhilov",
+    "subtype": "researcher",
+    "summary": "Soviet economist and co-recipient of the Lenin Prize with Kantorovich."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "lenin_prize",
+    "name": "Lenin Prize",
+    "subtype": "award",
+    "summary": "Prestigious Soviet award for achievements in science and technology."
+  },
+  {
+    "aliases": [
+      "Nobel Prize"
+    ],
+    "entity_type": "artifact",
+    "id": "nobel_prize_economics",
+    "name": "Nobel Memorial Prize in Economic Sciences",
+    "subtype": "award",
+    "summary": "International prize awarded for contributions to economic sciences."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "stalin_prize",
+    "name": "Stalin Prize",
+    "subtype": "award",
+    "summary": "Soviet state prize awarded for scientific and cultural achievements."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "mathematical_methods_booklet",
+    "name": "Mathematical Methods in the Organization and Planning of Production",
+    "subtype": "publication",
+    "summary": "1939 booklet by Kantorovich introducing linear programming."
+  },
+  {
+    "aliases": [
+      "Ekonomicheskii Raschet Nailuchshego Ispolzovania Resursov"
+    ],
+    "entity_type": "artifact",
+    "id": "best_use_economic_resources",
+    "name": "The Best Use of Economic Resources",
+    "subtype": "publication",
+    "summary": "1959 book by Kantorovich on economic calculation."
+  },
+  {
+    "aliases": [
+      "St. Petersburg"
+    ],
+    "attributes": {
+      "country": "Soviet Union",
+      "lat": 59.95,
+      "lng": 30.31667,
+      "wikidata_qid": "Q656",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "leningrad",
+    "name": "Leningrad",
+    "subtype": "city",
+    "summary": "City in Russia where Kantorovich studied and worked."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Soviet Union",
+      "lat": 55.75056,
+      "lng": 37.6175,
+      "wikidata_qid": "Q649",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "moscow",
+    "name": "Moscow",
+    "subtype": "city",
+    "summary": "Capital city of the Soviet Union."
+  },
+  {
+    "aliases": [
+      "Academic Town",
+      "Akademgorodok"
+    ],
+    "attributes": {
+      "country": "Soviet Union",
+      "lat": 55.03333,
+      "lng": 82.91667,
+      "wikidata_qid": "Q883",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "novosibirsk",
+    "name": "Novosibirsk",
+    "subtype": "city",
+    "summary": "Siberian city hosting a major scientific center."
+  }
+]

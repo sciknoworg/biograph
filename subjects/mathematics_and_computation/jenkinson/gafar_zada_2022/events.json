@@ -1,0 +1,360 @@
+[
+  {
+    "id": "jenkinson_first_trip_russia",
+    "event_type": "visit",
+    "label": "First trip to Russian State",
+    "description": "Jenkinson's first journey to the Russian State and Central Asia.",
+    "date": {
+      "display": "July 12, 1557 to August 10, 1558",
+      "precision": "day",
+      "sort_start": "1557-07-12",
+      "sort_end": "1558-08-10"
+    },
+    "participants": [
+      {
+        "entity_id": "anthony_jenkinson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "russian_state",
+        "role": "location"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gafar_zada_2022",
+        "page": 7,
+        "quote": "...he was on Russian lands from July 12, 1557 to August 10, 1558..."
+      }
+    ]
+  },
+  {
+    "id": "jenkinson_return_central_asia",
+    "event_type": "visit",
+    "label": "Return from Central Asia",
+    "description": "Jenkinson's return journey from Central Asia through Russia.",
+    "date": {
+      "display": "May 28, 1559 to May 9, 1560",
+      "precision": "day",
+      "sort_start": "1559-05-28",
+      "sort_end": "1560-05-09"
+    },
+    "participants": [
+      {
+        "entity_id": "anthony_jenkinson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gafar_zada_2022",
+        "page": 7,
+        "quote": "...again, on his way back from Central Asia, from May 28, 1559 to May 9, 1560."
+      }
+    ]
+  },
+  {
+    "id": "map_publication_1562",
+    "event_type": "publication",
+    "label": "Map published in London",
+    "description": "Jenkinson's map published with the date 1562.",
+    "date": {
+      "display": "1562",
+      "precision": "year",
+      "sort_start": "1562-01-01",
+      "sort_end": "1562-12-31"
+    },
+    "location": "london",
+    "participants": [
+      {
+        "entity_id": "anthony_jenkinson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nova_absolutaque_map",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gafar_zada_2022",
+        "page": 1,
+        "quote": "This article examines the map called \"Nova absolutaque Russiae, Moscoviae, et Tartariae descriptio \" published in London in 1562 the author of which was a famous trader, diplomat and Queen Elizabeth I Tudor̓ s official ambassador to the Safavid Empire Anthony Jenkinson."
+      }
+    ]
+  },
+  {
+    "id": "jenkinson_mission_start",
+    "event_type": "employment_start",
+    "label": "Mission to Safavid Empire starts",
+    "description": "Jenkinson sent on behalf of Queen Elizabeth I to the Russian and Safavid States.",
+    "date": {
+      "display": "May 14, 1561",
+      "precision": "day",
+      "sort_start": "1561-05-14",
+      "sort_end": "1561-05-14"
+    },
+    "participants": [
+      {
+        "entity_id": "anthony_jenkinson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "queen_elizabeth_i",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gafar_zada_2022",
+        "page": 7,
+        "quote": "It should be noted that from May 14, 1561 to September 28, 1564, having gone on behalf of Queen Elizabeth I to the Russian and Safavid States as an ambassador of the English crown and a trade representative of the Moscow company, Jenkinson was not in London, where the map was published."
+      }
+    ]
+  },
+  {
+    "id": "jenkinson_meets_safavid_envoy",
+    "event_type": "meeting",
+    "label": "Met Safavid envoy",
+    "description": "Jenkinson dined with Safavid envoy in presence of Tsar Ivan the Terrible.",
+    "date": {
+      "display": "March 15, 1562",
+      "precision": "day",
+      "sort_start": "1562-03-15",
+      "sort_end": "1562-03-15"
+    },
+    "participants": [
+      {
+        "entity_id": "anthony_jenkinson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ivan_the_terrible",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gafar_zada_2022",
+        "page": 8,
+        "quote": "...he not only dined in the presence of Tsar Ivan the Terrible on March 15, 1562, but also set off with him on his way to the Safavid Empire..."
+      }
+    ]
+  },
+  {
+    "id": "jenkinson_departs_safavid",
+    "event_type": "relocation",
+    "label": "Departed for Safavid Empire",
+    "description": "Jenkinson left Russian State for Safavid Empire.",
+    "date": {
+      "display": "April 27, 1562",
+      "precision": "day",
+      "sort_start": "1562-04-27",
+      "sort_end": "1562-04-27"
+    },
+    "participants": [
+      {
+        "entity_id": "anthony_jenkinson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gafar_zada_2022",
+        "page": 7,
+        "quote": "Accordingly, Anthony met the year 1562 in the Russian State, from where on April 27, 1562 he went further to the Safavid Empire, staying there until the spring of 1563."
+      }
+    ]
+  },
+  {
+    "id": "jenkinson_in_shamakhi",
+    "event_type": "visit",
+    "label": "Received in Shamakhi",
+    "description": "Jenkinson received by ruler of Shirvan, Abdalla Khan.",
+    "date": {
+      "display": "August 20, 1562",
+      "precision": "day",
+      "sort_start": "1562-08-20",
+      "sort_end": "1562-08-20"
+    },
+    "location": "shamakhi",
+    "participants": [
+      {
+        "entity_id": "anthony_jenkinson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gafar_zada_2022",
+        "page": 18,
+        "quote": "On August 20, 1562, in Shamakhi, Anthony was received by the ruler of Shirvan, Abdalla Khan, whom Jenkinson describes as follows: \"…richly dressed in long silk and brocade clothes…\""
+      }
+    ]
+  },
+  {
+    "id": "jenkinson_meets_shah",
+    "event_type": "meeting",
+    "label": "Met Shah Tahmasib I",
+    "description": "Jenkinson's audience with Shah Tahmasib I in Qazvin.",
+    "date": {
+      "display": "November 20, 1562",
+      "precision": "day",
+      "sort_start": "1562-11-20",
+      "sort_end": "1562-11-20"
+    },
+    "location": "qazvin",
+    "participants": [
+      {
+        "entity_id": "anthony_jenkinson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "shah_tahmasib_i",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gafar_zada_2022",
+        "page": 28,
+        "quote": "Although the long -awaited for the British audience of Anthony Jenkinson with Shah Tahmasib I, which took place on November 20, 1562 in Qazvin, ended not so fruitfully..."
+      }
+    ]
+  },
+  {
+    "id": "jenkinson_return_london",
+    "event_type": "relocation",
+    "label": "Returned to London",
+    "description": "Jenkinson returned to London after his mission.",
+    "date": {
+      "display": "September 28, 1564",
+      "precision": "day",
+      "sort_start": "1564-09-28",
+      "sort_end": "1564-09-28"
+    },
+    "location": "london",
+    "participants": [
+      {
+        "entity_id": "anthony_jenkinson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gafar_zada_2022",
+        "page": 9,
+        "quote": "Anthony indicates the exact date of his return to London, namely September 28, 1564, it can be assumed that this \" Declaration\" was compiled by Jenkinson either in the autumn-winter of 1564, immediately upon his return (at best!), or already in 1565."
+      }
+    ]
+  },
+  {
+    "id": "ortelius_atlas_published",
+    "event_type": "publication",
+    "label": "Ortelius atlas published",
+    "description": "Theatrum Orbis Terranum published including Jenkinson's map.",
+    "date": {
+      "display": "1570",
+      "precision": "year",
+      "sort_start": "1570-01-01",
+      "sort_end": "1570-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "abraham_ortelius",
+        "role": "subject"
+      },
+      {
+        "entity_id": "theatrum_orbis_terranum",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gafar_zada_2022",
+        "page": 4,
+        "quote": "It was an integral part of the world's first modern geographical atlas \"Theatrum Orbis Terranum\" (\"Theatre of the Orb of the World \"), published in 1570 as a result of the p ainstaking work of the famous Flemish cartographer and geographer of the 16th century Abraham Ortelius."
+      }
+    ]
+  },
+  {
+    "id": "mercator_map_reissued",
+    "event_type": "publication",
+    "label": "Mercator world map reissued",
+    "description": "Mercator reissued his world map using Jenkinson's map.",
+    "date": {
+      "display": "1572",
+      "precision": "year",
+      "sort_start": "1572-01-01",
+      "sort_end": "1572-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "gerardus_mercator",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gafar_zada_2022",
+        "page": 5,
+        "quote": "Jenkinson's map, in addition to Ortelius, was also used by the famous and greatest Flemish cartographer and geographer Gerardus Mercator when reissuing in 1572 his famous map of the world..."
+      }
+    ]
+  },
+  {
+    "id": "map_discovered",
+    "event_type": "other",
+    "label": "Original map discovered",
+    "description": "Krystina Szykula discovered the original Jenkinson map.",
+    "date": {
+      "display": "1987",
+      "precision": "year",
+      "sort_start": "1987-01-01",
+      "sort_end": "1987-12-31"
+    },
+    "location": "wroclaw",
+    "participants": [
+      {
+        "entity_id": "krystina_szykula",
+        "role": "subject"
+      },
+      {
+        "entity_id": "nova_absolutaque_map",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gafar_zada_2022",
+        "page": 5,
+        "quote": "1987 was remembered for K. Szykula's sensational statement: a genuine copy of Jenkinson's map was discovered!"
+      }
+    ]
+  },
+  {
+    "id": "map_announced",
+    "event_type": "conference",
+    "label": "Map discovery announced",
+    "description": "Szykula announced the discovery at International Conference on the History of Cartography.",
+    "date": {
+      "display": "1989",
+      "precision": "year",
+      "sort_start": "1989-01-01",
+      "sort_end": "1989-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "krystina_szykula",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gafar_zada_2022",
+        "page": 6,
+        "quote": "In 1989, sensational news spread around the scientific world: at the regular XIII International Conference on the History of Cartography held in Amsterdam, the Polish cartographer Krystina Szykula... announced the discovery of the original Jenkinson map of 1562."
+      }
+    ]
+  }
+]

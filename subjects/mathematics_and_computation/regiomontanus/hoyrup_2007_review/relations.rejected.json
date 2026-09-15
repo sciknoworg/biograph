@@ -1,0 +1,17 @@
+[
+  {
+    "id": "regiomontanus_worked_vienna",
+    "source": "regiomontanus",
+    "type": "worked_at",
+    "target": "vienna",
+    "event_id": "regiomontanus_writes_wiener_rechenbuch",
+    "sources": [
+      {
+        "source_id": "hoyrup_2007_review",
+        "page": 4,
+        "quote": "V.'Die mathematischen Studien Regiomontans in seiner Wiener Zeit'"
+      }
+    ],
+    "_rejected_because": "'worked_at' expects target entity_type organization, but 'vienna' is 'place'"
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "id": "born_in",
+    "source": "abraham_de_moivre",
+    "type": "born_in",
+    "target": "vitry",
+    "event_id": "birth",
+    "sources": [
+      {
+        "source_id": "bellhouse_genest_2007",
+        "page": 2,
+        "quote": "Abraham De Moivre was born at Vitry in Champagne on May 26, 1667."
+      }
+    ]
+  },
+  {
+    "id": "lived_in_london",
+    "source": "abraham_de_moivre",
+    "type": "lived_in",
+    "target": "london",
+    "sources": [
+      {
+        "source_id": "bellhouse_genest_2007",
+        "page": 5,
+        "quote": "he was living there in late 1686, as proved by the following anecdote"
+      }
+    ]
+  },
+  {
+    "id": "member_of_royal_society",
+    "source": "abraham_de_moivre",
+    "type": "member_of",
+    "target": "royal_society",
+    "event_id": "royal_society_election",
+    "sources": [
+      {
+        "source_id": "bellhouse_genest_2007",
+        "page": 8,
+        "quote": "On November 30, 1697, the Journal Book records that De Moivre and four others that day 'were proposed for members, balloted and elected.'"
+      }
+    ]
+  },
+  {
+    "id": "member_of_berlin",
+    "source": "abraham_de_moivre",
+    "type": "member_of",
+    "target": "berlin_academy",
+    "event_id": "berlin_academy_election",
+    "sources": [
+      {
+        "source_id": "bellhouse_genest_2007",
+        "page": 20,
+        "quote": "At the Assembly of August 23, 1735, he tabled a proposal that a man of such great distinction should be appointed a member."
+      }
+    ]
+  },
+  {
+    "id": "member_of_paris",
+    "source": "abraham_de_moivre",
+    "type": "member_of",
+    "target": "academie_royale_paris",
+    "event_id": "paris_academy_election",
+    "sources": [
+      {
+        "source_id": "bellhouse_genest_2007",
+        "page": 22,
+        "quote": "the Acad´ emie, at their meeting of August 14, 1754, put forward two names for consideration to the king: Abraham De Moivre"
+      }
+    ]
+  },
+  {
+    "id": "published_doctrine",
+    "source": "abraham_de_moivre",
+    "type": "published",
+    "target": "doctrine_of_chances",
+    "event_id": "doctrine_of_chances_1st",
+    "sources": [
+      {
+        "source_id": "bellhouse_genest_2007",
+        "page": 15,
+        "quote": "The diagram was actually used, but did not appear, four years earlier in De Moivre (1718)."
+      }
+    ]
+  },
+  {
+    "id": "published_miscellanea",
+    "source": "abraham_de_moivre",
+    "type": "published",
+    "target": "miscellanea_analytica",
+    "event_id": "miscellanea_analytica",
+    "sources": [
+      {
+        "source_id": "bellhouse_genest_2007",
+        "page": 19,
+        "quote": "The Miscellanea Analytica , which was published in 1730 and dedicated to Mr. Folkes, the author's student and friend, is a compendium of his discoveries and methods."
+      }
+    ]
+  },
+  {
+    "id": "published_annuities",
+    "source": "abraham_de_moivre",
+    "type": "published",
+    "target": "annuities_upon_lives",
+    "event_id": "annuities_upon_lives_1st",
+    "sources": [
+      {
+        "source_id": "bellhouse_genest_2007",
+        "page": 21,
+        "quote": "Thus, our Islanders enthusiastically welcomed the simple, general and precise rules that Mr. De Moivre put forward in his Annuities upon Lives , published initially in 1724 and again in 1743."
+      }
+    ]
+  },
+  {
+    "id": "collaborated_newton",
+    "source": "abraham_de_moivre",
+    "type": "collaborated_with",
+    "target": "isaac_newton",
+    "sources": [
+      {
+        "source_id": "bellhouse_genest_2007",
+        "page": 6,
+        "quote": "In 1692, he became friends with Mr. Halley and, soon after, Newton himself."
+      }
+    ]
+  },
+  {
+    "id": "collaborated_halley",
+    "source": "abraham_de_moivre",
+    "type": "collaborated_with",
+    "target": "edmond_halley",
+    "sources": [
+      {
+        "source_id": "bellhouse_genest_2007",
+        "page": 6,
+        "quote": "In 1692, he became friends with Mr. Halley and, soon after, Newton himself."
+      }
+    ]
+  },
+  {
+    "id": "corresponded_bernoulli",
+    "source": "abraham_de_moivre",
+    "type": "corresponded_with",
+    "target": "johann_bernoulli",
+    "sources": [
+      {
+        "source_id": "bellhouse_genest_2007",
+        "page": 9,
+        "quote": "They also gave rise to a relationship between him and Mr. De Moivre that was as close as can possibly be imagined between two great mathematicians and thus, to some degree, rivals."
+      }
+    ]
+  },
+  {
+    "id": "studied_sedan",
+    "source": "abraham_de_moivre",
+    "type": "studied_at",
+    "target": "protestant_academy_sedan",
+    "sources": [
+      {
+        "source_id": "bellhouse_genest_2007",
+        "page": 3,
+        "quote": "he then enrolled his son at the Protestant Academy in Sedan"
+      }
+    ]
+  },
+  {
+    "id": "studied_harcourt",
+    "source": "abraham_de_moivre",
+    "type": "studied_at",
+    "target": "college_de_harcourt",
+    "sources": [
+      {
+        "source_id": "bellhouse_genest_2007",
+        "page": 4,
+        "quote": "The following year, after studying physics at the Coll` ege de Harcourt, he returned to the family home."
+      }
+    ]
+  }
+]

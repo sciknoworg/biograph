@@ -1,0 +1,176 @@
+[
+  {
+    "aliases": [
+      "Demoivre",
+      "Mr. De Moivre",
+      "Mr. Moivre",
+      "de Moivre"
+    ],
+    "entity_type": "person",
+    "id": "abraham_de_moivre",
+    "name": "Abraham De Moivre",
+    "subtype": "researcher",
+    "summary": "French-born mathematician known for foundational work in probability theory and actuarial science."
+  },
+  {
+    "aliases": [
+      "Mr. Maty",
+      "Dr. Maty"
+    ],
+    "entity_type": "person",
+    "id": "matthew_maty",
+    "name": "Matthew Maty",
+    "subtype": "biographer",
+    "summary": "Huguenot physician and biographer who wrote the first biography of De Moivre."
+  },
+  {
+    "aliases": [
+      "Mr. Newton",
+      "Sir Isaac Newton"
+    ],
+    "entity_type": "person",
+    "id": "isaac_newton",
+    "name": "Isaac Newton",
+    "subtype": "researcher",
+    "summary": "English physicist and mathematician who mentored and collaborated with De Moivre."
+  },
+  {
+    "aliases": [
+      "Mr. Halley",
+      "Dr. Halley"
+    ],
+    "entity_type": "person",
+    "id": "edmond_halley",
+    "name": "Edmond Halley",
+    "subtype": "researcher",
+    "summary": "English astronomer and mathematician who encouraged De Moivre's work in astronomy and probability."
+  },
+  {
+    "aliases": [
+      "Mr. Bernoulli",
+      "Jean Bernoulli"
+    ],
+    "entity_type": "person",
+    "id": "johann_bernoulli",
+    "name": "Johann Bernoulli",
+    "subtype": "researcher",
+    "summary": "Swiss mathematician who corresponded extensively with De Moivre."
+  },
+  {
+    "aliases": [
+      "Royal Society"
+    ],
+    "entity_type": "organization",
+    "id": "royal_society",
+    "name": "Royal Society of London",
+    "subtype": "society",
+    "summary": "London-based scientific society that elects fellows for scientific achievement."
+  },
+  {
+    "aliases": [
+      "Paris Academy of Sciences",
+      "French Academy of Sciences"
+    ],
+    "entity_type": "organization",
+    "id": "academie_royale_paris",
+    "name": "Académie royale des sciences",
+    "subtype": "academy",
+    "summary": "Paris-based scientific academy that elects foreign members for scientific achievement."
+  },
+  {
+    "aliases": [
+      "Berlin-Brandenburg Society of Scientists"
+    ],
+    "entity_type": "organization",
+    "id": "berlin_academy",
+    "name": "Berlin Academy of Sciences",
+    "subtype": "academy",
+    "summary": "Berlin-based scientific academy that elects members for scientific achievement."
+  },
+  {
+    "aliases": [
+      "Vitry-le-François",
+      "Vitry en Perthois"
+    ],
+    "attributes": {
+      "country": "France",
+      "region": "Champagne",
+      "lat": 48.7875,
+      "lng": 2.39278,
+      "wikidata_qid": "Q72248",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "vitry",
+    "name": "Vitry",
+    "subtype": "town",
+    "summary": "Town in Champagne, France, where De Moivre was born."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "England",
+      "lat": 51.50722,
+      "lng": -0.1275,
+      "wikidata_qid": "Q84",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "london",
+    "name": "London",
+    "subtype": "city",
+    "summary": "City in England where De Moivre lived and worked for most of his life."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "doctrine_of_chances",
+    "name": "The Doctrine of Chances",
+    "subtype": "publication",
+    "summary": "De Moivre's major book on probability theory."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "miscellanea_analytica",
+    "name": "Miscellanea Analytica",
+    "subtype": "publication",
+    "summary": "De Moivre's compendium of mathematical discoveries and methods."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "annuities_upon_lives",
+    "name": "Annuities upon Lives",
+    "subtype": "publication",
+    "summary": "De Moivre's work on the valuation of life annuities."
+  },
+  {
+    "aliases": [
+      "West Street Church"
+    ],
+    "entity_type": "organization",
+    "id": "savoy_church",
+    "name": "Savoy Church",
+    "subtype": "church",
+    "summary": "French Huguenot church in London where De Moivre was admitted."
+  },
+  {
+    "aliases": [
+      "Academy in Sedan"
+    ],
+    "entity_type": "organization",
+    "id": "protestant_academy_sedan",
+    "name": "Protestant Academy in Sedan",
+    "subtype": "university",
+    "summary": "Educational institution in Sedan where De Moivre studied."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "college_de_harcourt",
+    "name": "Collège de Harcourt",
+    "subtype": "university",
+    "summary": "College in Paris where De Moivre studied physics."
+  }
+]

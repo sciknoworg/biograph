@@ -1,0 +1,296 @@
+[
+  {
+    "id": "rosenberg_born_johannesburg",
+    "source": "reuben_louis_rosenberg",
+    "type": "born_in",
+    "target": "johannesburg",
+    "event_id": "rosenberg_birth",
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 2,
+        "quote": "Reuben Louis Rosenberg was born on November 13, 1909 in Johannesburg, South Africa."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_studied_uct",
+    "source": "reuben_louis_rosenberg",
+    "type": "studied_at",
+    "target": "university_of_cape_town",
+    "start": {
+      "display": "1926",
+      "precision": "year",
+      "sort_start": "1926-01-01",
+      "sort_end": "1926-12-31"
+    },
+    "end": {
+      "display": "1929",
+      "precision": "year",
+      "sort_start": "1929-01-01",
+      "sort_end": "1929-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 4,
+        "quote": "From March 1926 to December 1929 I studied at the University of Cape Town, graduating with an M.A. degree."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_worked_wits",
+    "source": "reuben_louis_rosenberg",
+    "type": "worked_at",
+    "target": "university_of_the_witwatersrand",
+    "start": {
+      "display": "March 1930",
+      "precision": "month",
+      "sort_start": "1930-03-01",
+      "sort_end": "1930-03-31"
+    },
+    "end": {
+      "display": "September 1930",
+      "precision": "month",
+      "sort_start": "1930-09-01",
+      "sort_end": "1930-09-30"
+    },
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 6,
+        "quote": "on March 1st, 1930, Rosenberg was appointed Junior Lecturer in Applied Mathematics at the University of the Witwatersrand (Wits) in Johannesburg."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_studied_berlin",
+    "source": "reuben_louis_rosenberg",
+    "type": "studied_at",
+    "target": "friedrich_wilhelms_universitat_zu_berlin",
+    "start": {
+      "display": "October 1930",
+      "precision": "month",
+      "sort_start": "1930-10-01",
+      "sort_end": "1930-10-31"
+    },
+    "end": {
+      "display": "1933",
+      "precision": "year",
+      "sort_start": "1933-01-01",
+      "sort_end": "1933-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 7,
+        "quote": "Rosenberg registered for a doctorate in nuclear physics in Berlin, Germany, at the Friedrich-Wilhelms-Universität zu Berlin (Humboldt-Universität zu Berlin since 1949) in October 1930."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_worked_imperial",
+    "source": "reuben_louis_rosenberg",
+    "type": "worked_at",
+    "target": "imperial_college_london",
+    "start": {
+      "display": "October 1932",
+      "precision": "month",
+      "sort_start": "1932-10-01",
+      "sort_end": "1932-10-31"
+    },
+    "end": {
+      "display": "July 1934",
+      "precision": "month",
+      "sort_start": "1934-07-01",
+      "sort_end": "1934-07-31"
+    },
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 11,
+        "quote": "He stayed there from October 1932 to July 1934 in the Department of Mathematics."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_worked_natal",
+    "source": "reuben_louis_rosenberg",
+    "type": "worked_at",
+    "target": "natal_university_college",
+    "start": {
+      "display": "March 1935",
+      "precision": "month",
+      "sort_start": "1935-03-01",
+      "sort_end": "1935-03-31"
+    },
+    "end": {
+      "display": "1949",
+      "precision": "year",
+      "sort_start": "1949-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 14,
+        "quote": "Rosenberg received an appointment as a Lecturer in March 1935 and then Senior Lecturer (1938) in Applied Mathematics at the Natal University College (NUC) located in Pietermaritzburg."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_married_violet",
+    "source": "reuben_louis_rosenberg",
+    "type": "married_to",
+    "target": "violet_eva_hatcher",
+    "event_id": "rosenberg_marriage",
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 12,
+        "quote": "When he was working in London, Rosenberg met and married Violet Eva Hatcher (London, April 17, 1913–February 20, 1981) on January 30, 1937, in London, England (Fig. 3)."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_collaborated_stein",
+    "source": "reuben_louis_rosenberg",
+    "type": "collaborated_with",
+    "target": "philip_bernard_stein",
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 1,
+        "quote": "Rosenberg is well known by numerical analysts, in particular by those working on numerical linear algebra, for an important theorem on the convergence of the methods of Jacobi and Gauss–Seidel for solving systems of linear equations. This paper was published in 1948 with Philip Stein (1890–1974)."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_worked_chelsea",
+    "source": "reuben_louis_rosenberg",
+    "type": "worked_at",
+    "target": "chelsea_polytechnic",
+    "start": {
+      "display": "October 1949",
+      "precision": "month",
+      "sort_start": "1949-10-01",
+      "sort_end": "1949-10-31"
+    },
+    "end": {
+      "display": "October 1955",
+      "precision": "month",
+      "sort_start": "1955-10-01",
+      "sort_end": "1955-10-31"
+    },
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 25,
+        "quote": "After leaving NUC, Rosenberg became a Senior Lecturer in Applied Mathematics at the Chelsea Polytechnic in London in October 1949."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_worked_unb",
+    "source": "reuben_louis_rosenberg",
+    "type": "worked_at",
+    "target": "university_of_new_brunswick",
+    "start": {
+      "display": "1955",
+      "precision": "year",
+      "sort_start": "1955-01-01",
+      "sort_end": "1955-12-31"
+    },
+    "end": {
+      "display": "1966",
+      "precision": "year",
+      "sort_start": "1966-01-01",
+      "sort_end": "1966-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 25,
+        "quote": "In 1955, Rosenberg took a professorship at the Mathematics Department of the University of New Brunswick in Fredericton, Canada, and was appointed as his head the same year."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_worked_nrc",
+    "source": "reuben_louis_rosenberg",
+    "type": "worked_at",
+    "target": "national_research_council_canada",
+    "start": {
+      "display": "1960",
+      "precision": "year",
+      "sort_start": "1960-01-01",
+      "sort_end": "1960-12-31"
+    },
+    "end": {
+      "display": "1963",
+      "precision": "year",
+      "sort_start": "1963-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 26,
+        "quote": "From 1960, Rosenberg was afﬁliated to the Division of Pure Physics, National Research Council in Ottawa, on sabbatical leave from University of New Brunswick."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_worked_carleton",
+    "source": "reuben_louis_rosenberg",
+    "type": "worked_at",
+    "target": "carleton_university",
+    "start": {
+      "display": "1966",
+      "precision": "year",
+      "sort_start": "1966-01-01",
+      "sort_end": "1966-12-31"
+    },
+    "end": {
+      "display": "1986",
+      "precision": "year",
+      "sort_start": "1986-01-01",
+      "sort_end": "1986-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 29,
+        "quote": "From 1966, Rosenberg held a position at Carleton University in Ottawa as a Professor in the Department of Mathematics and became its chairman from 1967 to 1969."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_died_ottawa",
+    "source": "reuben_louis_rosenberg",
+    "type": "died_in",
+    "target": "ottawa",
+    "event_id": "rosenberg_death",
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 29,
+        "quote": "Rosenberg dealt with cancer for the year before his death in August 25, 1986 in Ottawa."
+      }
+    ]
+  },
+  {
+    "id": "rosenberg_published_stein_rosenberg",
+    "source": "reuben_louis_rosenberg",
+    "type": "published",
+    "target": "stein_rosenberg_paper",
+    "event_id": "rosenberg_stein_rosenberg_published",
+    "sources": [
+      {
+        "source_id": "brezinski_redivo_zaglia_2023",
+        "page": 16,
+        "quote": "It was submitted on June 16, 1947, read on October 16, 1947, and appeared in 1948 [9]."
+      }
+    ]
+  }
+]

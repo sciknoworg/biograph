@@ -1,0 +1,32 @@
+[
+  {
+    "id": "stedall_edited_harriot",
+    "source": "jacqueline_stedall",
+    "type": "published",
+    "target": "thomas_harriot",
+    "note": "Stedall reconstructed and published Harriot's manuscripts.",
+    "sources": [
+      {
+        "source_id": "clucas_harriot_21st_century",
+        "page": 9,
+        "quote": "Stedall was able to reconstruct this unpublished treatise on equations from 140 scattered sheets in the surviving manuscripts."
+      }
+    ],
+    "_rejected_because": "'published' expects target entity_type artifact, but 'thomas_harriot' is 'person'"
+  },
+  {
+    "id": "schemmel_analyzed_harriot",
+    "source": "matthias_schemmel",
+    "type": "published",
+    "target": "thomas_harriot",
+    "note": "Schemmel analyzed Harriot's work on mechanics.",
+    "sources": [
+      {
+        "source_id": "clucas_harriot_21st_century",
+        "page": 9,
+        "quote": "Schemmel's close analysis of Harriot's research methods reveal a figure in whose work 'we […can] discern several of the crucial insights for which Galileo was famous'."
+      }
+    ],
+    "_rejected_because": "'published' expects target entity_type artifact, but 'thomas_harriot' is 'person'"
+  }
+]

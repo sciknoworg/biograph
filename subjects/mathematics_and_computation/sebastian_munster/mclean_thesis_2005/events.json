@@ -1,0 +1,380 @@
+[
+  {
+    "id": "munster_birth",
+    "event_type": "birth",
+    "label": "Born in Ingelheim",
+    "date": {
+      "display": "20th January 1488",
+      "precision": "day",
+      "sort_start": "1488-01-20",
+      "sort_end": "1488-01-20"
+    },
+    "participants": [
+      {
+        "entity_id": "sebastian_munster",
+        "role": "subject"
+      }
+    ],
+    "location": "ingelheim",
+    "sources": [
+      {
+        "source_id": "mclean_thesis_2005",
+        "page": 12,
+        "quote": "The date of his birth, 20th January 1488, coincided with the celebration o f that of Saint Sebastian."
+      }
+    ]
+  },
+  {
+    "id": "munster_franciscan_entry",
+    "event_type": "other",
+    "label": "Entered Franciscan Order",
+    "date": {
+      "display": "24 May 1506",
+      "precision": "day",
+      "sort_start": "1506-05-24",
+      "sort_end": "1506-05-24"
+    },
+    "participants": [
+      {
+        "entity_id": "sebastian_munster",
+        "role": "subject"
+      },
+      {
+        "entity_id": "franciscan_order",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mclean_thesis_2005",
+        "page": 13,
+        "quote": "This passage o f study was punctuated by Münster's entry into the Franciscan order, thought to have taken place on 24 May, ISOô."
+      }
+    ]
+  },
+  {
+    "id": "munster_move_basel_1518",
+    "event_type": "relocation",
+    "label": "Moved to Basel",
+    "date": {
+      "display": "1518",
+      "precision": "year",
+      "sort_start": "1518-01-01",
+      "sort_end": "1518-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "sebastian_munster",
+        "role": "subject"
+      }
+    ],
+    "location": "basel",
+    "sources": [
+      {
+        "source_id": "mclean_thesis_2005",
+        "page": 16,
+        "quote": "In 1518 Münster emigrated to Basel where he remained until 1520/21"
+      }
+    ]
+  },
+  {
+    "id": "munster_heidelberg_professor",
+    "event_type": "employment_start",
+    "label": "Appointed Professor of Hebrew at Heidelberg",
+    "date": {
+      "display": "1524",
+      "precision": "year",
+      "sort_start": "1524-01-01",
+      "sort_end": "1524-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "sebastian_munster",
+        "role": "subject"
+      }
+    ],
+    "location": "heidelberg",
+    "sources": [
+      {
+        "source_id": "mclean_thesis_2005",
+        "page": 17,
+        "quote": "At Heidelberg Münster taught theology and Hebrew (holding the professorship 1524 - 1527)"
+      }
+    ]
+  },
+  {
+    "id": "munster_marriage",
+    "event_type": "other",
+    "label": "Married Anna Selber",
+    "date": {
+      "display": "1530",
+      "precision": "year",
+      "sort_start": "1530-01-01",
+      "sort_end": "1530-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "sebastian_munster",
+        "role": "subject"
+      },
+      {
+        "entity_id": "anna_selber",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mclean_thesis_2005",
+        "page": 45,
+        "quote": "In 1530 Münster married Anna Selber"
+      }
+    ]
+  },
+  {
+    "id": "aretia_birth",
+    "event_type": "other",
+    "label": "Daughter Aretia Born",
+    "date": {
+      "display": "24 November 1532",
+      "precision": "day",
+      "sort_start": "1532-11-24",
+      "sort_end": "1532-11-24"
+    },
+    "participants": [
+      {
+        "entity_id": "sebastian_munster",
+        "role": "parent"
+      },
+      {
+        "entity_id": "aretia_munster",
+        "role": "child"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mclean_thesis_2005",
+        "page": 45,
+        "quote": "Aretia was born on 24^ November 1532"
+      }
+    ]
+  },
+  {
+    "id": "hebrew_bible_published",
+    "event_type": "publication",
+    "label": "Hebrew Bible Published",
+    "date": {
+      "display": "1534/5",
+      "precision": "year",
+      "sort_start": "1534-01-01",
+      "sort_end": "1535-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "sebastian_munster",
+        "role": "author"
+      },
+      {
+        "entity_id": "hebrew_bible_1534",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mclean_thesis_2005",
+        "page": 24,
+        "quote": "Münster's production o f individual Biblical texts were in one sense preparatory works which would culminate in his crowning achievement: the Hebrew Bible o f 1534/5."
+      }
+    ]
+  },
+  {
+    "id": "horolographia_published",
+    "event_type": "publication",
+    "label": "Horolographia Published",
+    "date": {
+      "display": "1533",
+      "precision": "year",
+      "sort_start": "1533-01-01",
+      "sort_end": "1533-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "sebastian_munster",
+        "role": "author"
+      },
+      {
+        "entity_id": "horolographia",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mclean_thesis_2005",
+        "page": 37,
+        "quote": "Horolographia. (Basel, Heinrich Petri, 1533)"
+      }
+    ]
+  },
+  {
+    "id": "organum_uranicum_published",
+    "event_type": "publication",
+    "label": "Organum Uranicum Published",
+    "date": {
+      "display": "1536",
+      "precision": "year",
+      "sort_start": "1536-01-01",
+      "sort_end": "1536-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "sebastian_munster",
+        "role": "author"
+      },
+      {
+        "entity_id": "organum_uranicum",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mclean_thesis_2005",
+        "page": 35,
+        "quote": "Organum Uranicum. Sebastianus Munsterus. Habes in hoc libro amice lector explicitas theoricas omnium planetarum.... (Basel, HeimichPetii, 1536)."
+      }
+    ]
+  },
+  {
+    "id": "cosmographia_published",
+    "event_type": "publication",
+    "label": "Cosmographia First Edition Published",
+    "date": {
+      "display": "1544",
+      "precision": "year",
+      "sort_start": "1544-01-01",
+      "sort_end": "1544-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "sebastian_munster",
+        "role": "author"
+      },
+      {
+        "entity_id": "cosmographia",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mclean_thesis_2005",
+        "page": 1,
+        "quote": "he arrived in 1544 at his own Cosmogi aphia."
+      }
+    ]
+  },
+  {
+    "id": "munster_basel_professor",
+    "event_type": "employment_start",
+    "label": "Appointed Professor of Hebrew at Basel",
+    "date": {
+      "display": "1529",
+      "precision": "year",
+      "sort_start": "1529-01-01",
+      "sort_end": "1529-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "sebastian_munster",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_basel",
+        "role": "employer"
+      }
+    ],
+    "location": "basel",
+    "sources": [
+      {
+        "source_id": "mclean_thesis_2005",
+        "page": 40,
+        "quote": "shortly afterwards Münster arrived in Basel, where he would hold the Chair of Hebrew without interruption firom 1529 - 1552."
+      }
+    ]
+  },
+  {
+    "id": "munster_death",
+    "event_type": "death",
+    "label": "Died in Basel",
+    "date": {
+      "display": "26 May 1552",
+      "precision": "day",
+      "sort_start": "1552-05-26",
+      "sort_end": "1552-05-26"
+    },
+    "participants": [
+      {
+        "entity_id": "sebastian_munster",
+        "role": "subject"
+      }
+    ],
+    "location": "basel",
+    "sources": [
+      {
+        "source_id": "mclean_thesis_2005",
+        "page": 10,
+        "quote": "His death came around the hour of eight in the morning on the 26 May"
+      }
+    ]
+  },
+  {
+    "id": "munster_burial",
+    "event_type": "other",
+    "label": "Buried in Basel Church",
+    "date": {
+      "display": "27 May 1552",
+      "precision": "day",
+      "sort_start": "1552-05-27",
+      "sort_end": "1552-05-27"
+    },
+    "participants": [
+      {
+        "entity_id": "sebastian_munster",
+        "role": "subject"
+      }
+    ],
+    "location": "basel",
+    "sources": [
+      {
+        "source_id": "mclean_thesis_2005",
+        "page": 8,
+        "quote": "Sebastian Münster was intened on 27 May 1552"
+      }
+    ]
+  },
+  {
+    "id": "rudimenta_mathematica_published",
+    "event_type": "publication",
+    "label": "Rudimenta Mathematica Published",
+    "date": {
+      "display": "1551",
+      "precision": "year",
+      "sort_start": "1551-01-01",
+      "sort_end": "1551-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "sebastian_munster",
+        "role": "author"
+      },
+      {
+        "entity_id": "rudimenta_mathematica",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "mclean_thesis_2005",
+        "page": 36,
+        "quote": "The Rudimenta Mathematica (1551) similarly owed a debt to Stoffler's work"
+      }
+    ]
+  }
+]

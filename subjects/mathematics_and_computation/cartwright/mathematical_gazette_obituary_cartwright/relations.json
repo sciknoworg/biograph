@@ -1,0 +1,189 @@
+[
+  {
+    "id": "cartwright_born_aynho",
+    "source": "mary_cartwright",
+    "type": "born_in",
+    "target": "aynho",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 1,
+        "quote": "Born in Aynho, Northamptonshire"
+      }
+    ]
+  },
+  {
+    "id": "cartwright_educated_leamington",
+    "source": "mary_cartwright",
+    "type": "studied_at",
+    "target": "leamington_high_school",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 1,
+        "quote": "she was sent to Leamington High School"
+      }
+    ]
+  },
+  {
+    "id": "cartwright_educated_godolphin",
+    "source": "mary_cartwright",
+    "type": "studied_at",
+    "target": "godolphin_school",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 1,
+        "quote": "and subsequently to the Godolphin School, Salisbury"
+      }
+    ]
+  },
+  {
+    "id": "cartwright_educated_oxford",
+    "source": "mary_cartwright",
+    "type": "studied_at",
+    "target": "st_hughs_college",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 1,
+        "quote": "In 1919 she went up to St. Hugh's College to read mathematics."
+      }
+    ]
+  },
+  {
+    "id": "cartwright_supervised_hardy",
+    "source": "mary_cartwright",
+    "type": "supervised_by",
+    "target": "g_h_hardy",
+    "event_id": "cartwright_research_start",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 2,
+        "quote": "In January 1928 she returned to Oxford to do research under Hardy."
+      }
+    ]
+  },
+  {
+    "id": "cartwright_collaborated_littlewood",
+    "source": "mary_cartwright",
+    "type": "collaborated_with",
+    "target": "j_e_littlewood",
+    "event_id": "cartwright_radio_research",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 2,
+        "quote": "Cartwright and Littlewood turned their attention to non-linear differential equations"
+      }
+    ]
+  },
+  {
+    "id": "cartwright_worked_girton",
+    "source": "mary_cartwright",
+    "type": "worked_at",
+    "target": "girton_college",
+    "event_id": "cartwright_yarrow_fellowship",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 2,
+        "quote": "she was awarded the Yarrow Research Fellowship at Girton College."
+      }
+    ]
+  },
+  {
+    "id": "cartwright_member_royal_society",
+    "source": "mary_cartwright",
+    "type": "member_of",
+    "target": "royal_society",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 1,
+        "quote": "She was one of the first women to be elected a Fellow of the Royal Society"
+      }
+    ]
+  },
+  {
+    "id": "cartwright_member_lms",
+    "source": "mary_cartwright",
+    "type": "member_of",
+    "target": "london_mathematical_society",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 1,
+        "quote": "President of the London Mathematical Society"
+      }
+    ]
+  },
+  {
+    "id": "cartwright_member_ma",
+    "source": "mary_cartwright",
+    "type": "member_of",
+    "target": "mathematical_association",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 1,
+        "quote": "the first woman President of the Mathematical Association"
+      }
+    ]
+  },
+  {
+    "id": "cartwright_awarded_sylvester",
+    "source": "mary_cartwright",
+    "type": "awarded",
+    "target": "sylvester_medal",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 2,
+        "quote": "She was awarded the Sylvester medal of the Royal Society"
+      }
+    ]
+  },
+  {
+    "id": "cartwright_awarded_demorgan",
+    "source": "mary_cartwright",
+    "type": "awarded",
+    "target": "de_morgan_medal",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 2,
+        "quote": "the De Morgan Medal of the London Mathematical Society"
+      }
+    ]
+  },
+  {
+    "id": "cartwright_awarded_dbe",
+    "source": "mary_cartwright",
+    "type": "awarded",
+    "target": "dbe",
+    "event_id": "cartwright_dbe",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 2,
+        "quote": "In 1969 she was appointed DBE"
+      }
+    ]
+  },
+  {
+    "id": "cartwright_developed_vanderpol",
+    "source": "mary_cartwright",
+    "type": "developed",
+    "target": "van_der_pol_equation",
+    "event_id": "cartwright_radio_research",
+    "sources": [
+      {
+        "source_id": "mathematical_gazette_obituary_cartwright",
+        "page": 2,
+        "quote": "Cartwright and Littlewood turned their attention to non-linear differential equations - in particular the equation of Van der Pol"
+      }
+    ]
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "id": "harriot_employed_by_percy",
+    "source": "thomas_harriot",
+    "type": "employed_by",
+    "target": "henry_percy_9th_earl_northumberland",
+    "sources": [
+      {
+        "source_id": "clucas_harriot_21st_century",
+        "page": 10,
+        "quote": "Harriot's small treatise on the collision of round bodies, the De reflexione corporum rotundorum was prepared in 1619 for his patron Henry Percy, ninth Earl of Northumberland"
+      }
+    ]
+  },
+  {
+    "id": "harriot_collaborated_with_warner",
+    "source": "thomas_harriot",
+    "type": "collaborated_with",
+    "target": "walter_warner",
+    "sources": [
+      {
+        "source_id": "clucas_harriot_21st_century",
+        "page": 10,
+        "quote": "We know from a letter accompanying this treatise, that Harriot shared his ideas with both Warner, and another friend and member of the Percy household, Robert Hues"
+      }
+    ]
+  },
+  {
+    "id": "harriot_collaborated_with_torporley",
+    "source": "thomas_harriot",
+    "type": "collaborated_with",
+    "target": "nathaniel_torporley",
+    "sources": [
+      {
+        "source_id": "clucas_harriot_21st_century",
+        "page": 9,
+        "quote": "he had privileged access to some of it even before it was published, via his friend Torporley, who had acted as Viète's amanuensis in the mid-1590s."
+      }
+    ]
+  },
+  {
+    "id": "harriot_studied_viete",
+    "source": "thomas_harriot",
+    "type": "educated_by",
+    "target": "francois_viete",
+    "note": "Harriot studied Viète's algebraic work.",
+    "sources": [
+      {
+        "source_id": "clucas_harriot_21st_century",
+        "page": 9,
+        "quote": "Both of these publications showed Harriot's initial debt to the algebraic work of the French mathematician François Viète, but also the extent of his own original contributions."
+      }
+    ]
+  },
+  {
+    "id": "stedall_edited_harriot",
+    "source": "jacqueline_stedall",
+    "type": "published",
+    "target": "thomas_harriot",
+    "note": "Stedall reconstructed and published Harriot's manuscripts.",
+    "sources": [
+      {
+        "source_id": "clucas_harriot_21st_century",
+        "page": 9,
+        "quote": "Stedall was able to reconstruct this unpublished treatise on equations from 140 scattered sheets in the surviving manuscripts."
+      }
+    ]
+  },
+  {
+    "id": "schemmel_analyzed_harriot",
+    "source": "matthias_schemmel",
+    "type": "published",
+    "target": "thomas_harriot",
+    "note": "Schemmel analyzed Harriot's work on mechanics.",
+    "sources": [
+      {
+        "source_id": "clucas_harriot_21st_century",
+        "page": 9,
+        "quote": "Schemmel's close analysis of Harriot's research methods reveal a figure in whose work 'we […can] discern several of the crucial insights for which Galileo was famous'."
+      }
+    ]
+  },
+  {
+    "id": "harriot_worked_at_british_library",
+    "source": "thomas_harriot",
+    "type": "lived_in",
+    "target": "british_library",
+    "note": "Harriot's manuscripts are held at the British Library.",
+    "sources": [
+      {
+        "source_id": "clucas_harriot_21st_century",
+        "page": 9,
+        "quote": "the De numeris triangularibus. et inde de progressionibus arithmeticis magisteria magna, which survives in British Library, Additional MS 6782."
+      }
+    ]
+  }
+]

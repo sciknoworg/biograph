@@ -1,0 +1,202 @@
+[
+  {
+    "id": "graunt_worked_at_new_river",
+    "source": "john_graunt",
+    "type": "worked_at",
+    "target": "new_river_company",
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 3,
+        "quote": "As a member of the New River Company"
+      }
+    ]
+  },
+  {
+    "id": "graunt_published_observations",
+    "source": "john_graunt",
+    "type": "published",
+    "target": "natural_and_political_observations",
+    "event_id": "graunt_published_observations",
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 1,
+        "quote": "In 1662, John Graunt, citizen, haberdasher, and Draper of London, published the ﬁrst edition of his Natural and political observations … upon the Bills of Mortality ."
+      }
+    ]
+  },
+  {
+    "id": "graunt_member_of_royal_society",
+    "source": "john_graunt",
+    "type": "member_of",
+    "target": "royal_society",
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 6,
+        "quote": "He communicated other sorts of observations to the Royal Society"
+      }
+    ]
+  },
+  {
+    "id": "graunt_collaborated_with_petty",
+    "source": "john_graunt",
+    "type": "collaborated_with",
+    "target": "william_petty",
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 3,
+        "quote": "Unlike his vastly more proli ﬁc and well-connected friend Petty"
+      }
+    ]
+  },
+  {
+    "id": "graunt_influenced_by_ochino",
+    "source": "john_graunt",
+    "type": "mentored",
+    "target": "bernardino_ochino",
+    "note": "Text suggests Ochino was a dark influence behind Graunt's thinking.",
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 1,
+        "quote": "The religious controversialist Bernardino Ochino can be detected as a dark inﬂuence behind Graunt 's thinking."
+      }
+    ]
+  },
+  {
+    "id": "graunt_lived_in_london",
+    "source": "john_graunt",
+    "type": "lived_in",
+    "target": "london",
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 1,
+        "quote": "John Graunt, citizen, haberdasher, and Draper of London"
+      }
+    ]
+  },
+  {
+    "id": "pelling_worked_at_oxford",
+    "source": "margaret_pelling",
+    "type": "worked_at",
+    "target": "university_of_oxford",
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 1,
+        "quote": "MARGARET PELLING University of Oxford"
+      }
+    ]
+  },
+  {
+    "id": "pelling_published_article",
+    "source": "margaret_pelling",
+    "type": "published",
+    "target": "historical_journal",
+    "event_id": "article_published",
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 1,
+        "quote": "The Historical Journal , 59, 3 (2016)"
+      }
+    ]
+  },
+  {
+    "id": "ochino_invited_by_cranmer",
+    "source": "bernardino_ochino",
+    "type": "visited",
+    "target": "thomas_cranmer",
+    "event_id": "ochino_invited_to_england",
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 14,
+        "quote": "Ochino, by then a religious exile, was invited to England in 1547 by Thomas Cranmer"
+      }
+    ]
+  },
+  {
+    "id": "pecke_translated_ochino",
+    "source": "thomas_pecke",
+    "type": "published",
+    "target": "dialogue_of_polygamy",
+    "event_id": "pecke_translation_ochino",
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 14,
+        "quote": "translated by Thomas Pecke"
+      }
+    ]
+  },
+  {
+    "id": "osborne_friend_of_pecke",
+    "source": "francis_osborne",
+    "type": "collaborated_with",
+    "target": "thomas_pecke",
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 14,
+        "quote": "Thomas Pecke, the friend of Francis Osborne"
+      }
+    ]
+  },
+  {
+    "id": "heydon_replied_to_pecke",
+    "source": "john_heydon",
+    "type": "collaborated_with",
+    "target": "thomas_pecke",
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 14,
+        "quote": "John Heydon seized the opportunity to reply, scurrilously, to both Osborne and Pecke"
+      }
+    ]
+  },
+  {
+    "id": "browne_referenced_ochino",
+    "source": "sir_thomas_browne",
+    "type": "collaborated_with",
+    "target": "bernardino_ochino",
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 15,
+        "quote": "repudiating Ochino as a 'Machiavel'"
+      }
+    ]
+  },
+  {
+    "id": "graunt_dedicated_to_moray",
+    "source": "john_graunt",
+    "type": "collaborated_with",
+    "target": "sir_robert_moray",
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 3,
+        "quote": "The Observations, with its dedication to the president of the Royal Society, Sir Robert Moray"
+      }
+    ]
+  },
+  {
+    "id": "graunt_dedicated_to_robartes",
+    "source": "john_graunt",
+    "type": "collaborated_with",
+    "target": "john_robartes",
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 12,
+        "quote": "In the second of his dedicatory epistles, to John Robartes"
+      }
+    ]
+  }
+]

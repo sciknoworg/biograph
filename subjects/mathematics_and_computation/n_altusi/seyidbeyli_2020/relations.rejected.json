@@ -1,0 +1,16 @@
+[
+  {
+    "id": "tusi_studied_nishapur",
+    "source": "nasir_al_din_al_tusi",
+    "type": "studied_at",
+    "target": "nishapur",
+    "sources": [
+      {
+        "source_id": "seyidbeyli_2020",
+        "page": 4,
+        "quote": "Later, in the prime of his young years, Tusi moved to Nishapur to continue his education."
+      }
+    ],
+    "_rejected_because": "'studied_at' expects target entity_type organization, but 'nishapur' is 'place'"
+  }
+]

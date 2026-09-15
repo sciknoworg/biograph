@@ -1,0 +1,185 @@
+[
+  {
+    "id": "tusi_born_tus",
+    "source": "nasir_al_din_al_tusi",
+    "type": "born_in",
+    "target": "tus",
+    "sources": [
+      {
+        "source_id": "seyidbeyli_2020",
+        "page": 3,
+        "quote": "Nasir al -Din al-Tusi Tusi is from Tus – many historians have spoken about this"
+      }
+    ]
+  },
+  {
+    "id": "tusi_studied_nishapur",
+    "source": "nasir_al_din_al_tusi",
+    "type": "studied_at",
+    "target": "nishapur",
+    "sources": [
+      {
+        "source_id": "seyidbeyli_2020",
+        "page": 4,
+        "quote": "Later, in the prime of his young years, Tusi moved to Nishapur to continue his education."
+      }
+    ]
+  },
+  {
+    "id": "tusi_educated_farid",
+    "source": "nasir_al_din_al_tusi",
+    "type": "educated_by",
+    "target": "farid_al_din_damadi_al_nishapuri",
+    "sources": [
+      {
+        "source_id": "seyidbeyli_2020",
+        "page": 4,
+        "quote": "His main teacher was the philosopher Farid al-Din Damadi al Nishapuri, known for his treatise \"Kitabul Isharat\"."
+      }
+    ]
+  },
+  {
+    "id": "tusi_educated_qutb",
+    "source": "nasir_al_din_al_tusi",
+    "type": "educated_by",
+    "target": "qutb_al_din_al_misri",
+    "sources": [
+      {
+        "source_id": "seyidbeyli_2020",
+        "page": 4,
+        "quote": "In the field of medicine and philosophy, Nasir al-Din al-Tusi studied with Qutb al-Din al-Misri"
+      }
+    ]
+  },
+  {
+    "id": "tusi_lived_alamut",
+    "source": "nasir_al_din_al_tusi",
+    "type": "lived_in",
+    "target": "alamut_fortress",
+    "start": {
+      "display": "1235",
+      "precision": "year",
+      "sort_start": "1235-01-01",
+      "sort_end": "1235-12-31"
+    },
+    "end": {
+      "display": "1256",
+      "precision": "year",
+      "sort_start": "1256-01-01",
+      "sort_end": "1256-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "seyidbeyli_2020",
+        "page": 4,
+        "quote": "Thus, he lived with the Assassins until 1256, that is, for more than 20 years"
+      }
+    ]
+  },
+  {
+    "id": "tusi_founded_maragheh",
+    "source": "nasir_al_din_al_tusi",
+    "type": "founded",
+    "target": "maragheh_observatory",
+    "event_id": "maragheh_observatory_founded",
+    "sources": [
+      {
+        "source_id": "seyidbeyli_2020",
+        "page": 5,
+        "quote": "A colossal historical merit of the scientist is the founding of an astronomical observatory in the city of Maragha (1259–1260)"
+      }
+    ]
+  },
+  {
+    "id": "tusi_worked_maragheh",
+    "source": "nasir_al_din_al_tusi",
+    "type": "worked_at",
+    "target": "maragheh_observatory",
+    "start": {
+      "display": "1259",
+      "precision": "year",
+      "sort_start": "1259-01-01",
+      "sort_end": "1259-12-31"
+    },
+    "end": {
+      "display": "1274",
+      "precision": "year",
+      "sort_start": "1274-01-01",
+      "sort_end": "1274-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "seyidbeyli_2020",
+        "page": 6,
+        "quote": "Until the end of his life, Tusi supervised the scientific and administrative work of the observatory"
+      }
+    ]
+  },
+  {
+    "id": "tusi_developed_zij",
+    "source": "nasir_al_din_al_tusi",
+    "type": "developed",
+    "target": "zij_ilkhani",
+    "event_id": "zij_ilkhani_completed",
+    "sources": [
+      {
+        "source_id": "seyidbeyli_2020",
+        "page": 7,
+        "quote": "The result of 12 -year (from 1259 to 1271) observations of the Maragha astronomers was the \"Ilkhanic Tables (Zij Ilkhani)\"."
+      }
+    ]
+  },
+  {
+    "id": "tusi_died_baghdad",
+    "source": "nasir_al_din_al_tusi",
+    "type": "died_in",
+    "target": "baghdad",
+    "event_id": "tusi_death",
+    "sources": [
+      {
+        "source_id": "seyidbeyli_2020",
+        "page": 12,
+        "quote": "In the same year, he fell ill in Baghdad and died of illness."
+      }
+    ]
+  },
+  {
+    "id": "tusi_collaborated_hulagu",
+    "source": "nasir_al_din_al_tusi",
+    "type": "collaborated_with",
+    "target": "hulagu_khan",
+    "sources": [
+      {
+        "source_id": "seyidbeyli_2020",
+        "page": 4,
+        "quote": "Subsequently, Nasir al-din al-Tusi becomes one of the influential people at the court of Hulagu Khan – his vizier."
+      }
+    ]
+  },
+  {
+    "id": "tusi_collaborated_urdi",
+    "source": "nasir_al_din_al_tusi",
+    "type": "collaborated_with",
+    "target": "muayid_ad_din_urdi",
+    "sources": [
+      {
+        "source_id": "seyidbeyli_2020",
+        "page": 5,
+        "quote": "According to sources, the Maragha (or Ilkhanid) observatory was built with the active participation of four scientists: Muayid ad-Din Urdi from Damascus"
+      }
+    ]
+  },
+  {
+    "id": "tusi_collaborated_maragi",
+    "source": "nasir_al_din_al_tusi",
+    "type": "collaborated_with",
+    "target": "fakhr_ad_din_maragi",
+    "sources": [
+      {
+        "source_id": "seyidbeyli_2020",
+        "page": 5,
+        "quote": "Fakhr ad -Khilat from Tiflis and Naji ad-Din al Dabirani Qazvini"
+      }
+    ]
+  }
+]

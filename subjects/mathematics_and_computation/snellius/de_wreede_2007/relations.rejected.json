@@ -1,0 +1,17 @@
+[
+  {
+    "id": "snellius_visited_tycho",
+    "source": "willebrord_snellius",
+    "type": "visited",
+    "target": "tycho_brahe",
+    "event_id": "snellius_visit_tycho",
+    "sources": [
+      {
+        "source_id": "de_wreede_2007",
+        "page": 47,
+        "quote": "Snellius then went to Prague, where his patron Romanus, who was summoned by Emperor Rudolph II, introduced him to Tycho Brahe."
+      }
+    ],
+    "_rejected_because": "'visited' expects target entity_type place/organization, but 'tycho_brahe' is 'person'"
+  }
+]

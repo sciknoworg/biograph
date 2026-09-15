@@ -1,0 +1,83 @@
+[
+  {
+    "id": "ptolemy_wrote_inscription",
+    "source": "claudius_ptolemy",
+    "type": "published",
+    "target": "canobic_inscription",
+    "event_id": "canobic_inscription_erected",
+    "sources": [
+      {
+        "source_id": "tolsa_2014",
+        "page": 4,
+        "quote": "The only dated piece of Ptolemy's oeuvre, and probably one of his first works, took the form of a block of stone or stele."
+      }
+    ]
+  },
+  {
+    "id": "ptolemy_dedicated_to_syrus",
+    "source": "claudius_ptolemy",
+    "type": "collaborated_with",
+    "target": "syrus",
+    "note": "Dedicated half of his extant works to Syrus.",
+    "sources": [
+      {
+        "source_id": "tolsa_2014",
+        "page": 1,
+        "quote": "He addresses his books without flourish to a certain Syrus, about whom we know nothing"
+      }
+    ]
+  },
+  {
+    "id": "ptolemy_lived_in_alexandria",
+    "source": "claudius_ptolemy",
+    "type": "lived_in",
+    "target": "alexandria",
+    "sources": [
+      {
+        "source_id": "tolsa_2014",
+        "page": 1,
+        "quote": "These layers coordinates are the second century CE and Alexandria."
+      }
+    ]
+  },
+  {
+    "id": "inscription_at_temple",
+    "source": "canobic_inscription",
+    "type": "visited",
+    "target": "temple_of_serapis",
+    "note": "Inscription was set up in the temple.",
+    "sources": [
+      {
+        "source_id": "tolsa_2014",
+        "page": 25,
+        "quote": "Ptolemy erected his stele at the temple of Serapis at Canopus."
+      }
+    ]
+  },
+  {
+    "id": "ptolemy_wrote_almagest",
+    "source": "claudius_ptolemy",
+    "type": "published",
+    "target": "almagest",
+    "sources": [
+      {
+        "source_id": "tolsa_2014",
+        "page": 4,
+        "quote": "proving that the Canobic Inscription predated the Almagest"
+      }
+    ]
+  },
+  {
+    "id": "ptolemy_wrote_harmonics",
+    "source": "claudius_ptolemy",
+    "type": "published",
+    "target": "harmonics",
+    "sources": [
+      {
+        "source_id": "tolsa_2014",
+        "page": 1,
+        "quote": "most known by his astronomical treatise Almagest and his working context."
+      }
+    ]
+  }
+]

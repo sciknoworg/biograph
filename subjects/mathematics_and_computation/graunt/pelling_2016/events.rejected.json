@@ -1,0 +1,65 @@
+[
+  {
+    "id": "midwives_petition",
+    "event_type": "publication",
+    "label": "Midwives petition published",
+    "description": "The midwives just petition was published in 1643 and 1646.",
+    "date": {
+      "display": "1643",
+      "precision": "year",
+      "sort_start": "1643-01-01",
+      "sort_end": "1643-12-31"
+    },
+    "participants": [],
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 21,
+        "quote": "The midwives just petition of 1643 and 1646"
+      }
+    ],
+    "_rejected_because": "[] should be non-empty"
+  },
+  {
+    "id": "mother_shipton_prophecies_published",
+    "event_type": "publication",
+    "label": "Mother Shipton prophecies published",
+    "description": "Mother Shipton's prophecies were published in various forms from 1641.",
+    "date": {
+      "display": "1641",
+      "precision": "year",
+      "sort_start": "1641-01-01",
+      "sort_end": "1641-12-31"
+    },
+    "participants": [],
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 20,
+        "quote": "Her predictions were published in various forms at least twenty times between 1641 and 1700."
+      }
+    ],
+    "_rejected_because": "every participant named an entity that was never defined"
+  },
+  {
+    "id": "lilly_prophecies_included",
+    "event_type": "publication",
+    "label": "Lilly included Shipton prophecies",
+    "description": "William Lilly included her prophecies in 1645.",
+    "date": {
+      "display": "1645",
+      "precision": "year",
+      "sort_start": "1645-01-01",
+      "sort_end": "1645-12-31"
+    },
+    "participants": [],
+    "sources": [
+      {
+        "source_id": "pelling_2016",
+        "page": 20,
+        "quote": "In 1645, William Lilly included her prophecies"
+      }
+    ],
+    "_rejected_because": "every participant named an entity that was never defined"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "bellman_invented_dynamic_programming",
+    "source": "richard_bellman",
+    "type": "invented",
+    "target": "rand_corporation",
+    "note": "Pioneered dynamic programming while at RAND",
+    "sources": [
+      {
+        "source_id": "gani_1984_obituary",
+        "page": 1,
+        "quote": "during which he pioneered the discovery of dynamic programming"
+      }
+    ],
+    "_rejected_because": "'invented' expects target entity_type artifact, but 'rand_corporation' is 'organization'"
+  },
+  {
+    "id": "bellman_editor_journal",
+    "source": "richard_bellman",
+    "type": "member_of",
+    "target": "journal_of_applied_probability",
+    "note": "Served as Editor since inception in 1964",
+    "sources": [
+      {
+        "source_id": "gani_1984_obituary",
+        "page": 1,
+        "quote": "He had served as Editor of the Journal of Applied Probability since its inception in 1964"
+      }
+    ],
+    "_rejected_because": "'member_of' expects target entity_type organization, but 'journal_of_applied_probability' is 'artifact'"
+  },
+  {
+    "id": "bellman_awarded_wiener_prize",
+    "source": "richard_bellman",
+    "type": "awarded",
+    "target": "american_mathematical_society",
+    "event_id": "bellman_wiener_prize",
+    "sources": [
+      {
+        "source_id": "gani_1984_obituary",
+        "page": 1,
+        "quote": "the first Norbert Wiener Prize in Applied Mathematics of the American Mathematical Society and the Society for Industrial and Applied Mathematics in 1970"
+      }
+    ],
+    "_rejected_because": "'awarded' expects target entity_type artifact, but 'american_mathematical_society' is 'organization'"
+  },
+  {
+    "id": "bellman_awarded_von_neumann",
+    "source": "richard_bellman",
+    "type": "awarded",
+    "target": "institute_of_management_sciences",
+    "event_id": "bellman_von_neumann_award",
+    "sources": [
+      {
+        "source_id": "gani_1984_obituary",
+        "page": 2,
+        "quote": "the John von Neumann Theory Award of the Institute of Management Sciences and the Operations Research Society of America in 1976"
+      }
+    ],
+    "_rejected_because": "'awarded' expects target entity_type artifact, but 'institute_of_management_sciences' is 'organization'"
+  },
+  {
+    "id": "bellman_awarded_ieee_medal",
+    "source": "richard_bellman",
+    "type": "awarded",
+    "target": "ieee",
+    "event_id": "bellman_ieee_gold_medal",
+    "sources": [
+      {
+        "source_id": "gani_1984_obituary",
+        "page": 2,
+        "quote": "the Gold Medal of the IEEE for Dynamic Programming in 1977"
+      }
+    ],
+    "_rejected_because": "'awarded' expects target entity_type artifact, but 'ieee' is 'organization'"
+  },
+  {
+    "id": "bellman_awarded_heritage_medal",
+    "source": "richard_bellman",
+    "type": "awarded",
+    "target": "american_council_for_control",
+    "event_id": "bellman_heritage_medal",
+    "sources": [
+      {
+        "source_id": "gani_1984_obituary",
+        "page": 2,
+        "quote": "and the Heritage Medal of the American Council for Control in 1983"
+      }
+    ],
+    "_rejected_because": "'awarded' expects target entity_type artifact, but 'american_council_for_control' is 'organization'"
+  }
+]

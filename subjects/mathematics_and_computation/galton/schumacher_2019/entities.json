@@ -1,0 +1,284 @@
+[
+  {
+    "id": "francis_galton",
+    "entity_type": "person",
+    "name": "Francis Galton",
+    "aliases": [
+      "Galton",
+      "Sir Francis Galton"
+    ],
+    "summary": "British polymath known for founding eugenics, developing statistical methods like correlation and regression, and establishing fingerprint classification systems.",
+    "subtype": "researcher",
+    "attributes": {
+      "birth_year": 1822,
+      "death_year": 1911,
+      "nationality": "British"
+    }
+  },
+  {
+    "id": "charles_darwin",
+    "entity_type": "person",
+    "name": "Charles Darwin",
+    "aliases": [
+      "Darwin"
+    ],
+    "summary": "British naturalist and Galton's cousin, known for the theory of evolution by natural selection.",
+    "subtype": "researcher",
+    "attributes": {
+      "birth_year": 1809,
+      "death_year": 1882
+    }
+  },
+  {
+    "id": "karl_pearson",
+    "entity_type": "person",
+    "name": "Karl Pearson",
+    "aliases": [
+      "Pearson"
+    ],
+    "summary": "British mathematician and biostatistician who was mentored by Galton and wrote his biography.",
+    "subtype": "researcher",
+    "attributes": {}
+  },
+  {
+    "id": "joseph_jacobs",
+    "entity_type": "person",
+    "name": "Joseph Jacobs",
+    "aliases": [
+      "Jacobs"
+    ],
+    "summary": "Anthropologist and historian of Jewish culture who collaborated with Galton on composite photography.",
+    "subtype": "researcher",
+    "attributes": {}
+  },
+  {
+    "id": "douglas_galton",
+    "entity_type": "person",
+    "name": "Douglas Galton",
+    "aliases": [
+      "Douglas Galton of the Royal Engineers"
+    ],
+    "summary": "Galton's cousin who introduced him to the Royal Geographical Society.",
+    "subtype": "military_engineer",
+    "attributes": {}
+  },
+  {
+    "id": "royal_geographical_society",
+    "entity_type": "organization",
+    "name": "Royal Geographical Society",
+    "aliases": [
+      "Geographical Society",
+      "RGS"
+    ],
+    "summary": "Learned society that sponsored Galton's African expedition and awarded him a Gold medal.",
+    "subtype": "society",
+    "attributes": {
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": "british_association_for_advancement_of_science",
+    "entity_type": "organization",
+    "name": "British Association for the Advancement of Science",
+    "aliases": [
+      "British Association",
+      "BAAS"
+    ],
+    "summary": "Scientific organization where Galton served as president of the Anthropometric and Racial Committee.",
+    "subtype": "society",
+    "attributes": {
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": "anthropometric_and_racial_committee",
+    "entity_type": "organization",
+    "name": "Anthropometric and Racial Committee",
+    "aliases": [
+      "Committee"
+    ],
+    "summary": "Subcommittee of the British Association chaired by Galton to study racial types in the British Isles.",
+    "subtype": "committee",
+    "attributes": {}
+  },
+  {
+    "id": "general_hospital_birmingham",
+    "entity_type": "organization",
+    "name": "General Hospital Birmingham",
+    "aliases": [
+      "General Hospital"
+    ],
+    "summary": "Hospital where Galton undertook a medical apprenticeship.",
+    "subtype": "hospital",
+    "attributes": {
+      "city": "Birmingham",
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": "the_times",
+    "entity_type": "organization",
+    "name": "The Times",
+    "aliases": [
+      "The Times, London"
+    ],
+    "summary": "National newspaper where Galton published a letter from Southern Africa.",
+    "subtype": "newspaper",
+    "attributes": {
+      "city": "London",
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": "london",
+    "entity_type": "place",
+    "name": "London",
+    "aliases": [],
+    "summary": "Capital city of the United Kingdom, where Galton lived and worked.",
+    "subtype": "city",
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 51.50722,
+      "lng": -0.1275,
+      "wikidata_qid": "Q84",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "southern_africa",
+    "entity_type": "place",
+    "name": "Southern Africa",
+    "aliases": [
+      "South Africa",
+      "Namibia"
+    ],
+    "summary": "Region where Galton conducted his major exploration expedition.",
+    "subtype": "region",
+    "attributes": {
+      "lat": -25.87911,
+      "lng": 23.09758,
+      "wikidata_qid": "Q27394",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "europe",
+    "entity_type": "place",
+    "name": "Europe",
+    "aliases": [],
+    "summary": "Continent where Galton travelled in his youth.",
+    "subtype": "continent",
+    "attributes": {
+      "lat": 48.69096,
+      "lng": 9.14062,
+      "wikidata_qid": "Q46",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "constantinople",
+    "entity_type": "place",
+    "name": "Constantinople",
+    "aliases": [],
+    "summary": "City Galton visited during his 1840 independent travel.",
+    "subtype": "city",
+    "attributes": {
+      "lat": 41.01224,
+      "lng": 28.97602,
+      "wikidata_qid": "Q16869",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "id": "hereditary_genius",
+    "entity_type": "artifact",
+    "name": "Hereditary Genius",
+    "aliases": [
+      "Hereditary Genius: An Inquiry into Its Laws and Consequences"
+    ],
+    "summary": "Book published by Galton in 1869 on the statistical analysis of heredity and eminence.",
+    "subtype": "publication",
+    "attributes": {
+      "year": 1869
+    }
+  },
+  {
+    "id": "inquiries_into_human_faculty",
+    "entity_type": "artifact",
+    "name": "Inquiries into Human Faculty and Its Development",
+    "aliases": [],
+    "summary": "Book published by Galton in 1883 where he coined the term 'eugenics'.",
+    "subtype": "publication",
+    "attributes": {
+      "year": 1883
+    }
+  },
+  {
+    "id": "finger_prints_book",
+    "entity_type": "artifact",
+    "name": "Finger Prints",
+    "aliases": [],
+    "summary": "Book published by Galton on fingerprint classification and identification.",
+    "subtype": "publication",
+    "attributes": {
+      "year": 1891
+    }
+  },
+  {
+    "id": "narrative_of_an_explorer",
+    "entity_type": "artifact",
+    "name": "Narrative of an Explorer in Tropical South Africa",
+    "aliases": [
+      "Narrative of an Explorer in South Africa"
+    ],
+    "summary": "Book published by Galton in 1853 detailing his African exploration.",
+    "subtype": "publication",
+    "attributes": {
+      "year": 1853
+    }
+  },
+  {
+    "id": "the_art_of_travel",
+    "entity_type": "artifact",
+    "name": "The Art of Travel",
+    "aliases": [
+      "The Art of Travel or Shifts and Contrivances Available in Wild Countries"
+    ],
+    "summary": "Book published by Galton in 1855 on survival in wild countries.",
+    "subtype": "publication",
+    "attributes": {
+      "year": 1855
+    }
+  },
+  {
+    "id": "hereditary_talent_and_character",
+    "entity_type": "artifact",
+    "name": "Hereditary Talent and Character",
+    "aliases": [],
+    "summary": "Two-part article published by Galton in 1865 on hereditary transmission of talent.",
+    "subtype": "publication",
+    "attributes": {
+      "year": 1865
+    }
+  },
+  {
+    "id": "fingerprint_classification",
+    "entity_type": "artifact",
+    "name": "Fingerprint Classification",
+    "aliases": [
+      "Arch-Loop-Whorl classification"
+    ],
+    "summary": "System developed by Galton for indexing and classifying fingerprints.",
+    "subtype": "method",
+    "attributes": {}
+  },
+  {
+    "id": "composite_photography",
+    "entity_type": "artifact",
+    "name": "Composite Photography",
+    "aliases": [],
+    "summary": "Technique developed by Galton to create averaged images of groups to identify typical features.",
+    "subtype": "method",
+    "attributes": {}
+  }
+]

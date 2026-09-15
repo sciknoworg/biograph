@@ -1,0 +1,73 @@
+[
+  {
+    "id": "regiomontanus_worked_vienna",
+    "source": "regiomontanus",
+    "type": "worked_at",
+    "target": "vienna",
+    "event_id": "regiomontanus_writes_wiener_rechenbuch",
+    "sources": [
+      {
+        "source_id": "hoyrup_2007_review",
+        "page": 4,
+        "quote": "V.'Die mathematischen Studien Regiomontans in seiner Wiener Zeit'"
+      }
+    ]
+  },
+  {
+    "id": "regiomontanus_corresponded_bianchini",
+    "source": "regiomontanus",
+    "type": "corresponded_with",
+    "target": "giovanni_bianchini",
+    "event_id": "regiomontanus_algebra_knowledge_1456",
+    "sources": [
+      {
+        "source_id": "hoyrup_2007_review",
+        "page": 4,
+        "quote": "correspondence with Bian-chini and others"
+      }
+    ]
+  },
+  {
+    "id": "regiomontanus_influenced_amann",
+    "source": "regiomontanus",
+    "type": "mentored",
+    "target": "fridericus_amann",
+    "note": "Folkerts suggests Amann learned symbols from Regiomontanus.",
+    "sources": [
+      {
+        "source_id": "hoyrup_2007_review",
+        "page": 15,
+        "quote": "learnt of his symbols"
+      }
+    ]
+  },
+  {
+    "id": "folkerts_wrote_volume",
+    "source": "menso_folkerts",
+    "type": "published",
+    "target": "folkerts_volume_2006",
+    "event_id": "folkerts_volume_published",
+    "sources": [
+      {
+        "source_id": "hoyrup_2007_review",
+        "page": 1,
+        "quote": "The Development of Mathematics in Medieval Europeby Menso Fol-kerts"
+      }
+    ]
+  },
+  {
+    "id": "hoyrup_reviewed_volume",
+    "source": "jens_hoyrup",
+    "type": "published",
+    "target": "folkerts_volume_2006",
+    "event_id": "hoyrup_review_published",
+    "note": "Høyrup reviewed Folkerts' volume.",
+    "sources": [
+      {
+        "source_id": "hoyrup_2007_review",
+        "page": 1,
+        "quote": "R eviewed by Jens Høyrup"
+      }
+    ]
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "canobic_inscription_erected",
+    "event_type": "public_demonstration",
+    "label": "Erected Canobic Inscription",
+    "description": "Ptolemy set up a stele with astronomical models at the Temple of Serapis in Canopus.",
+    "date": {
+      "display": "147 or 148 CE",
+      "precision": "year",
+      "sort_start": "0147-01-01",
+      "sort_end": "0148-12-31"
+    },
+    "location": "canopus",
+    "participants": [
+      {
+        "entity_id": "claudius_ptolemy",
+        "role": "subject"
+      },
+      {
+        "entity_id": "canobic_inscription",
+        "role": "invention"
+      },
+      {
+        "entity_id": "antoninus_pius",
+        "role": "reigning_monarch"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tolsa_2014",
+        "page": 4,
+        "quote": "According to the words at the end of the inscription, the stele was set up in the tenth year of the emperor Antoninus, which converted from the Alexandrian calendar gives 147 or 148 CE."
+      }
+    ]
+  },
+  {
+    "id": "ptolemy_active_period",
+    "event_type": "other",
+    "label": "Active in 2nd Century CE",
+    "description": "Ptolemy's intellectual activity is situated in the second century CE.",
+    "date": {
+      "display": "second century CE",
+      "precision": "century",
+      "sort_start": "0101-01-01",
+      "sort_end": "0200-12-31"
+    },
+    "location": "alexandria",
+    "participants": [
+      {
+        "entity_id": "claudius_ptolemy",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "tolsa_2014",
+        "page": 1,
+        "quote": "These layers coordinates are the second century CE and Alexandria."
+      }
+    ]
+  }
+]

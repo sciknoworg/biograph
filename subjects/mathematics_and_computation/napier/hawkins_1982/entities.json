@@ -1,0 +1,293 @@
+[
+  {
+    "aliases": [
+      "Baron of Merchiston",
+      "JOHN NAPIER",
+      "John Napier of Merchiston"
+    ],
+    "entity_type": "person",
+    "id": "john_napier",
+    "name": "John Napier",
+    "subtype": "researcher",
+    "summary": "Scottish mathematician and theologian known for inventing logarithms and calculating rods."
+  },
+  {
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 57.0,
+      "lng": -5.0,
+      "wikidata_qid": "Q22",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "scotland",
+    "name": "Scotland",
+    "subtype": "country",
+    "summary": "Country where John Napier lived and worked."
+  },
+  {
+    "entity_type": "organization",
+    "id": "st_andrews_university",
+    "name": "St Andrews University",
+    "subtype": "university",
+    "summary": "University in Scotland attended by John Napier."
+  },
+  {
+    "aliases": [
+      "uncle Adam Bothwell",
+      "reformed Bishop of Orkney"
+    ],
+    "entity_type": "person",
+    "id": "adam_bothwell",
+    "name": "Adam Bothwell",
+    "subtype": "cleric",
+    "summary": "Reformed Bishop of Orkney and uncle of John Napier."
+  },
+  {
+    "attributes": {
+      "country": "Scotland",
+      "lat": 59.0,
+      "lng": -3.0,
+      "wikidata_qid": "Q100166",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "orkney",
+    "name": "Orkney",
+    "subtype": "region",
+    "summary": "Diocese associated with Adam Bothwell."
+  },
+  {
+    "entity_type": "place",
+    "id": "france",
+    "name": "France",
+    "subtype": "country",
+    "summary": "Country suggested for Napier's education.",
+    "attributes": {
+      "lat": 47.0,
+      "lng": 2.0,
+      "wikidata_qid": "Q142",
+      "geocode_basis": "most_linked"
+    }
+  },
+  {
+    "entity_type": "place",
+    "id": "flanders",
+    "name": "Flanders",
+    "subtype": "region",
+    "summary": "Region suggested for Napier's education.",
+    "attributes": {
+      "lat": 51.0,
+      "lng": 4.5,
+      "wikidata_qid": "Q234",
+      "geocode_basis": "document"
+    }
+  },
+  {
+    "entity_type": "artifact",
+    "id": "the_whole_revelation_of_st_john",
+    "name": "The Whole Revelation of St John",
+    "subtype": "publication",
+    "summary": "Polemic against the Papacy and Rome written by John Napier."
+  },
+  {
+    "aliases": [
+      "A description of the Wonderful Table of Logarithmes",
+      "Description of the wonderful Canon of Logarithms"
+    ],
+    "entity_type": "artifact",
+    "id": "descriptio_logarithmorum",
+    "name": "Descriptio Logarithmorum",
+    "subtype": "publication",
+    "summary": "Book introducing logarithms published by John Napier."
+  },
+  {
+    "attributes": {
+      "country": "Scotland",
+      "lat": 55.95333,
+      "lng": -3.18917,
+      "wikidata_qid": "Q23436",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "edinburgh",
+    "name": "Edinburgh",
+    "subtype": "city",
+    "summary": "City where several of Napier's works were published."
+  },
+  {
+    "aliases": [
+      "Charles, Prince of Wales"
+    ],
+    "entity_type": "person",
+    "id": "charles_i",
+    "name": "Charles I",
+    "subtype": "royalty",
+    "summary": "Prince of Wales to whom Napier's Descriptio was dedicated."
+  },
+  {
+    "aliases": [
+      "Professor Henry Briggs",
+      "Briggs"
+    ],
+    "entity_type": "person",
+    "id": "henry_briggs",
+    "name": "Henry Briggs",
+    "subtype": "researcher",
+    "summary": "Mathematician who collaborated with Napier on logarithms."
+  },
+  {
+    "entity_type": "person",
+    "id": "edward_wright",
+    "name": "Edward Wright",
+    "subtype": "researcher",
+    "summary": "Translator of Napier's Descriptio into English."
+  },
+  {
+    "entity_type": "organization",
+    "id": "cambridge_university",
+    "name": "Cambridge University",
+    "subtype": "university",
+    "summary": "University where Edward Wright worked."
+  },
+  {
+    "aliases": [
+      "Numbering Rods in 2 Books",
+      "Napier's Bones"
+    ],
+    "entity_type": "artifact",
+    "id": "rabdologiae",
+    "name": "Rabdologiae",
+    "subtype": "publication",
+    "summary": "Book describing Napier's calculating rods."
+  },
+  {
+    "entity_type": "person",
+    "id": "robert_napier",
+    "name": "Robert Napier",
+    "subtype": "family",
+    "summary": "Son of John Napier who assisted in publishing his father's works."
+  },
+  {
+    "aliases": [
+      "The Construction of the Wonderful Table of Logarithmes"
+    ],
+    "entity_type": "artifact",
+    "id": "constructio_logarithmorum",
+    "name": "Constructio Logarithmorum",
+    "subtype": "publication",
+    "summary": "Book explaining the method of making logarithms."
+  },
+  {
+    "entity_type": "organization",
+    "id": "british_museum",
+    "name": "British Museum",
+    "subtype": "museum",
+    "summary": "Institution holding a leaflet of common logarithms by Briggs."
+  },
+  {
+    "entity_type": "person",
+    "id": "edmond_gunter",
+    "name": "Edmond Gunter",
+    "subtype": "researcher",
+    "summary": "Publisher of the first complete volume of common logarithms."
+  },
+  {
+    "entity_type": "organization",
+    "id": "gresham_college",
+    "name": "Gresham College",
+    "subtype": "college",
+    "summary": "College where Edmond Gunter worked."
+  },
+  {
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 51.50722,
+      "lng": -0.1275,
+      "wikidata_qid": "Q84",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "london",
+    "name": "London",
+    "subtype": "city",
+    "summary": "City where Gunter published common logarithms."
+  },
+  {
+    "entity_type": "artifact",
+    "id": "napier_bones",
+    "name": "Napier's Bones",
+    "subtype": "instrument",
+    "summary": "Calculating rods invented by John Napier."
+  },
+  {
+    "entity_type": "artifact",
+    "id": "napier_calculating_machine",
+    "name": "Napier's Calculating Machine",
+    "subtype": "instrument",
+    "summary": "Calculator device described in the appendix of Rabdologiae."
+  },
+  {
+    "aliases": [
+      "The Baron of Merchiston, his booke of Arithmetic and Algebra"
+    ],
+    "entity_type": "artifact",
+    "id": "de_arte_logistica",
+    "name": "De Arte Logistica",
+    "subtype": "publication",
+    "summary": "Napier's book of arithmetic and algebra published posthumously."
+  },
+  {
+    "entity_type": "person",
+    "id": "mark_napier",
+    "name": "Mark Napier",
+    "subtype": "publisher",
+    "summary": "Transcriber and printer of De Arte Logistica in 1839."
+  },
+  {
+    "entity_type": "organization",
+    "id": "oxford_university",
+    "name": "Oxford University",
+    "subtype": "university",
+    "summary": "University where Henry Briggs was Professor of Geometry."
+  },
+  {
+    "attributes": {
+      "country": "Scotland",
+      "lat": 55.9365,
+      "lng": -3.2095,
+      "wikidata_qid": "Q1921454",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "merchiston",
+    "name": "Merchiston",
+    "subtype": "estate",
+    "summary": "Estate near Edinburgh where John Napier lived."
+  },
+  {
+    "aliases": [
+      "Keppler",
+      "Johannes Kepler"
+    ],
+    "entity_type": "person",
+    "id": "johan_kepler",
+    "name": "Johan Kepler",
+    "subtype": "researcher",
+    "summary": "Astronomer who used Napier's logarithms."
+  },
+  {
+    "entity_type": "person",
+    "id": "tycho_brahe",
+    "name": "Tycho Brahe",
+    "subtype": "researcher",
+    "summary": "Astronomer whose records were checked using logarithms."
+  },
+  {
+    "entity_type": "organization",
+    "id": "east_india_company",
+    "name": "East India Company",
+    "subtype": "company",
+    "summary": "Company that hired Edward Wright to translate Napier's work."
+  }
+]

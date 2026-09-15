@@ -1,0 +1,125 @@
+[
+  {
+    "aliases": [
+      "Snel van Royen",
+      "Wi(l)lebordus",
+      "Wilebrordus",
+      "Willebrordus"
+    ],
+    "entity_type": "person",
+    "id": "willebrord_snellius",
+    "name": "Willebrord Snellius",
+    "subtype": "researcher",
+    "summary": "Dutch mathematician and astronomer known for the Law of Refraction and measurement of the earth."
+  },
+  {
+    "aliases": [
+      "Roeloﬀ Snel van Royen",
+      "Rudolphus",
+      "Rodolphus Snellius"
+    ],
+    "entity_type": "person",
+    "id": "rudolph_snellius",
+    "name": "Rudolph Snellius",
+    "subtype": "researcher",
+    "summary": "Father of Willebrord Snellius and professor of mathematics at Leiden University."
+  },
+  {
+    "aliases": [
+      "University of Leiden",
+      "Lugdunum Batavorum"
+    ],
+    "entity_type": "organization",
+    "id": "leiden_university",
+    "name": "Leiden University",
+    "subtype": "university",
+    "summary": "University in Leiden where both Snellii were professors."
+  },
+  {
+    "aliases": [],
+    "entity_type": "person",
+    "id": "tycho_brahe",
+    "name": "Tycho Brahe",
+    "subtype": "researcher",
+    "summary": "Famous astronomer whom Snellius visited in Prague."
+  },
+  {
+    "aliases": [
+      "Landgrave Maurice",
+      "Maurice"
+    ],
+    "entity_type": "person",
+    "id": "maurice_of_hessen",
+    "name": "Maurice of Hessen",
+    "subtype": "patron",
+    "summary": "Landgrave of Hessen and patron of the Snellii."
+  },
+  {
+    "aliases": [
+      "Van Ceulen"
+    ],
+    "entity_type": "person",
+    "id": "ludolph_van_ceulen",
+    "name": "Ludolph van Ceulen",
+    "subtype": "researcher",
+    "summary": "Mathematician and teacher of Willebrord Snellius."
+  },
+  {
+    "aliases": [
+      "Scaliger"
+    ],
+    "entity_type": "person",
+    "id": "josephus_justus_scaliger",
+    "name": "Josephus Justus Scaliger",
+    "subtype": "researcher",
+    "summary": "Eminent philologist who supervised Snellius's studies."
+  },
+  {
+    "aliases": [
+      "Lugdunum Batavorum"
+    ],
+    "attributes": {
+      "country": "Netherlands",
+      "lat": 52.16,
+      "lng": 4.49,
+      "wikidata_qid": "Q43631",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "leiden",
+    "name": "Leiden",
+    "subtype": "city",
+    "summary": "City in the Netherlands where Snellius was born and worked."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "Bohemia",
+      "lat": 50.0875,
+      "lng": 14.42139,
+      "wikidata_qid": "Q1085",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "prague",
+    "name": "Prague",
+    "subtype": "city",
+    "summary": "City where Snellius visited Tycho Brahe."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "law_of_refraction",
+    "name": "Law of Refraction",
+    "subtype": "invention",
+    "summary": "Optical law discovered by Snellius, published posthumously."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "eratosthenes_batavus",
+    "name": "Eratosthenes Batavus",
+    "subtype": "publication",
+    "summary": "Snellius's work on the measurement of the earth."
+  }
+]

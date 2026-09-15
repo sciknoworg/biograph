@@ -1,0 +1,204 @@
+[
+  {
+    "id": "john_napier_born_in_merchiston",
+    "source": "john_napier",
+    "type": "born_in",
+    "target": "merchiston_castle",
+    "event_id": "birth_john_napier",
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 5,
+        "quote": "John Napier was born in the medieval tower house of Merchiston Castle in 1550"
+      }
+    ]
+  },
+  {
+    "id": "john_napier_son_of_archibald",
+    "source": "john_napier",
+    "type": "family_of",
+    "target": "archibald_napier_father",
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 5,
+        "quote": "the young John Napier lived with his father Archibald, the Seventh Laird of Merchiston"
+      }
+    ]
+  },
+  {
+    "id": "john_napier_son_of_janet",
+    "source": "john_napier",
+    "type": "family_of",
+    "target": "janet_bothwell",
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 5,
+        "quote": "mother Janet Bothwell"
+      }
+    ]
+  },
+  {
+    "id": "john_napier_studied_st_andrews",
+    "source": "john_napier",
+    "type": "studied_at",
+    "target": "university_of_st_andrews",
+    "event_id": "enrollment_st_andrews",
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 5,
+        "quote": "In 1563 John Napier, aged thirteen, enrolled at the University of St Andrews"
+      }
+    ]
+  },
+  {
+    "id": "john_napier_married_elizabeth",
+    "source": "john_napier",
+    "type": "married_to",
+    "target": "elizabeth_stirling",
+    "event_id": "marriage_elizabeth",
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 12,
+        "quote": "John and Elizabeth Napier married and took up residence in Gartness, Stirlingshire in 1573"
+      }
+    ]
+  },
+  {
+    "id": "john_napier_married_agnes",
+    "source": "john_napier",
+    "type": "married_to",
+    "target": "agnes_chisholm",
+    "event_id": "marriage_agnes",
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 12,
+        "quote": "Within a few years, John Napier remarried and had five sons and daughters with his new wife, Agnes Chisholm"
+      }
+    ]
+  },
+  {
+    "id": "john_napier_father_of_archibald_son",
+    "source": "john_napier",
+    "type": "family_of",
+    "target": "archibald_napier_son",
+    "event_id": "birth_archibald_son",
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 12,
+        "quote": "Their son Archibald was born at Gartness in 1576"
+      }
+    ]
+  },
+  {
+    "id": "john_napier_father_of_robert",
+    "source": "john_napier",
+    "type": "family_of",
+    "target": "robert_napier",
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 34,
+        "quote": "John Napier's logarithmic methodology was published in 1619 by his son, Robert"
+      }
+    ]
+  },
+  {
+    "id": "john_napier_invented_logarithms",
+    "source": "john_napier",
+    "type": "invented",
+    "target": "mirifici_logarithmorum_canonis_descriptio",
+    "event_id": "pub_logarithms",
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 23,
+        "quote": "John Napier published Mirifici Logarithmorum Canonis Descriptio in 1614"
+      }
+    ]
+  },
+  {
+    "id": "john_napier_invented_bones",
+    "source": "john_napier",
+    "type": "invented",
+    "target": "napiers_bones",
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 26,
+        "quote": "His system of rods were colloquially named Napier's Bones because the earliest versions were made of ivory and resembled skeletal fingers."
+      }
+    ]
+  },
+  {
+    "id": "john_napier_invented_promptuary",
+    "source": "john_napier",
+    "type": "invented",
+    "target": "promptuary",
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 28,
+        "quote": "Napier's Promptuary is an ingenious adaptation of his calculating rods"
+      }
+    ]
+  },
+  {
+    "id": "john_napier_invented_local_arithmetic",
+    "source": "john_napier",
+    "type": "invented",
+    "target": "local_arithmetic",
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 30,
+        "quote": "Local Arithmetic, another ingenious invention of Napier, is the art of calculating by means of counters properly placed on a chess board or similar table."
+      }
+    ]
+  },
+  {
+    "id": "john_napier_collaborated_briggs",
+    "source": "john_napier",
+    "type": "collaborated_with",
+    "target": "henry_briggs",
+    "event_id": "visit_briggs",
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 25,
+        "quote": "Having read Mirifici Logarithmorum Canonis Descriptio Henry Briggs, Professor of Mathematics at Gresham College, travelled from London to Edinburgh to visit John Napier in 1615."
+      }
+    ]
+  },
+  {
+    "id": "john_napier_influenced_kepler",
+    "source": "john_napier",
+    "type": "collaborated_with",
+    "target": "johannes_kepler",
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 35,
+        "quote": "It is believed that Johannes Kepler first read Mirifici Logarithmorum Canonis Descriptio in 1617"
+      }
+    ]
+  },
+  {
+    "id": "merchiston_campus_part_of_university",
+    "source": "merchiston_campus",
+    "type": "member_of",
+    "target": "edinburgh_napier_university",
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 35,
+        "quote": "Merchiston Tower was saved from demolition in 1958, restored and integrated as part of a campus for a new college named after John Napier."
+      }
+    ]
+  }
+]

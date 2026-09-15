@@ -1,0 +1,11 @@
+[
+  {
+    "id": "johnson_born_1805",
+    "source": "manuel_johnson",
+    "type": "born_in",
+    "target": "st_helena",
+    "note": "Document does not specify birth place, only year. Relation omitted to avoid hallucination.",
+    "sources": [],
+    "_rejected_because": "[] should be non-empty"
+  }
+]

@@ -1,0 +1,380 @@
+[
+  {
+    "id": "johnson_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "1805",
+      "precision": "year",
+      "sort_start": "1805-01-01",
+      "sort_end": "1805-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "manuel_johnson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cartwright_2017",
+        "page": 9,
+        "quote": "The rapid rise to scientific fame of the young Manuel John Johnson (1805–1859)..."
+      }
+    ]
+  },
+  {
+    "id": "johnson_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "1859",
+      "precision": "year",
+      "sort_start": "1859-01-01",
+      "sort_end": "1859-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "manuel_johnson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cartwright_2017",
+        "page": 9,
+        "quote": "The rapid rise to scientific fame of the young Manuel John Johnson (1805–1859)..."
+      }
+    ]
+  },
+  {
+    "id": "johnson_instructor",
+    "event_type": "employment_start",
+    "label": "Appointed instructor at Military Institution",
+    "date": {
+      "display": "1823",
+      "precision": "year",
+      "sort_start": "1823-01-01",
+      "sort_end": "1823-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "manuel_johnson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "east_india_company",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cartwright_2017",
+        "page": 11,
+        "quote": "A new Governor appointed in 1823 by the Honourable East India Company (HEIC)... set up a \"Military Institution\"... and they included among others 2nd Lieutenant Manuel J. Johnson, who in 1823 was only 18 years old."
+      }
+    ]
+  },
+  {
+    "id": "johnson_cape_trip",
+    "event_type": "visit",
+    "label": "Visited Cape Observatory",
+    "description": "Trip to advise on St. Helena observatory setup and tidal observations.",
+    "date": {
+      "display": "December 1825–March 1826",
+      "precision": "range",
+      "sort_start": "1825-12-01",
+      "sort_end": "1826-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "manuel_johnson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "fearon_fallows",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cartwright_2017",
+        "page": 12,
+        "quote": "By December 1825, Johnson was ready for a 3-month trip to the then-new observatory at the Cape of Good Hope..."
+      }
+    ]
+  },
+  {
+    "id": "tide_recording_start",
+    "event_type": "other",
+    "label": "Tide recording commenced",
+    "description": "Johnson began systematic tidal measurements at Jamestown.",
+    "date": {
+      "display": "1 October 1826",
+      "precision": "day",
+      "sort_start": "1826-10-01",
+      "sort_end": "1826-10-01"
+    },
+    "participants": [
+      {
+        "entity_id": "manuel_johnson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "johnson_tide_gauge",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cartwright_2017",
+        "page": 9,
+        "quote": "...supervised its use, day and night, for at least 13 months from 1 October 1826 to 31 October 1827."
+      }
+    ]
+  },
+  {
+    "id": "johnson_aide_de_camp",
+    "event_type": "role_change",
+    "label": "Appointed Aide-de-Camp",
+    "date": {
+      "display": "1827",
+      "precision": "year",
+      "sort_start": "1827-01-01",
+      "sort_end": "1827-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "manuel_johnson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "alexander_walker",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cartwright_2017",
+        "page": 11,
+        "quote": "Later, in 1827, Walker appointed Johnson as his \"Aide-de Camp\"."
+      }
+    ]
+  },
+  {
+    "id": "tide_recording_end",
+    "event_type": "other",
+    "label": "Tide recording concluded",
+    "date": {
+      "display": "31 October 1827",
+      "precision": "day",
+      "sort_start": "1827-10-31",
+      "sort_end": "1827-10-31"
+    },
+    "participants": [
+      {
+        "entity_id": "manuel_johnson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cartwright_2017",
+        "page": 9,
+        "quote": "...supervised its use, day and night, for at least 13 months from 1 October 1826 to 31 October 1827."
+      }
+    ]
+  },
+  {
+    "id": "observatory_completed",
+    "event_type": "product_launch",
+    "label": "St. Helena Observatory completed",
+    "description": "Building and equipment installation finished.",
+    "date": {
+      "display": "late 1829",
+      "precision": "season",
+      "sort_start": "1829-10-01",
+      "sort_end": "1829-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "st_helena_observatory",
+        "role": "invention"
+      },
+      {
+        "entity_id": "manuel_johnson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cartwright_2017",
+        "page": 12,
+        "quote": "This work was only completed in late 1829, when a regular programme of observation commenced."
+      }
+    ]
+  },
+  {
+    "id": "tide_data_published",
+    "event_type": "publication",
+    "label": "Partial tide data published",
+    "description": "Tabulation from November to May published without commentary.",
+    "date": {
+      "display": "1829",
+      "precision": "year",
+      "sort_start": "1829-01-01",
+      "sort_end": "1829-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "manuel_johnson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cartwright_2017",
+        "page": 9,
+        "quote": "Warner (1982) mentions a published \"study of the tides at St. Helena\", but \"study\" is a misnomer for a partial tabulation of the data from November to May..."
+      }
+    ]
+  },
+  {
+    "id": "johnson_resigned",
+    "event_type": "employment_end",
+    "label": "Resigned post at St. Helena",
+    "date": {
+      "display": "1834",
+      "precision": "year",
+      "sort_start": "1834-01-01",
+      "sort_end": "1834-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "manuel_johnson",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cartwright_2017",
+        "page": 18,
+        "quote": "In 1834 he resigned his post at St. Helena and returned to Europe in search of wider experience."
+      }
+    ]
+  },
+  {
+    "id": "johnson_gold_medal",
+    "event_type": "award",
+    "label": "Awarded Gold Medal of RAS",
+    "description": "For his star catalogue compiled at St. Helena.",
+    "date": {
+      "display": "1835",
+      "precision": "year",
+      "sort_start": "1835-01-01",
+      "sort_end": "1835-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "manuel_johnson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_astronomical_society",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cartwright_2017",
+        "page": 9,
+        "quote": "...for which he was awarded the Gold Medal of the Royal Astronomical Society in 1835 (Johnson, 1835)."
+      }
+    ]
+  },
+  {
+    "id": "johnson_frs",
+    "event_type": "award",
+    "label": "Elected Fellow of the Royal Society",
+    "date": {
+      "display": "1856",
+      "precision": "year",
+      "sort_start": "1856-01-01",
+      "sort_end": "1856-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "manuel_johnson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_society_london",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cartwright_2017",
+        "page": 18,
+        "quote": "He was elected Fellow of the Royal Society in 1856..."
+      }
+    ]
+  },
+  {
+    "id": "johnson_president_ras",
+    "event_type": "role_change",
+    "label": "President of the Royal Astronomical Society",
+    "date": {
+      "display": "1855–1857",
+      "precision": "range",
+      "sort_start": "1855-01-01",
+      "sort_end": "1857-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "manuel_johnson",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_astronomical_society",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cartwright_2017",
+        "page": 9,
+        "quote": "The astronomer Manuel Johnson, a future President of the Royal Astronomical Society..."
+      }
+    ]
+  },
+  {
+    "id": "maskelyne_tide_recording",
+    "event_type": "other",
+    "label": "Maskelyne recorded tides at St. Helena",
+    "description": "First tidal measurements at the site using a vertical staff.",
+    "date": {
+      "display": "12 November–22 December 1761",
+      "precision": "range",
+      "sort_start": "1761-11-12",
+      "sort_end": "1761-12-22"
+    },
+    "participants": [
+      {
+        "entity_id": "nevil_maskelyne",
+        "role": "subject"
+      },
+      {
+        "entity_id": "charles_mason",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "cartwright_2017",
+        "page": 10,
+        "quote": "Maskelyne's exercise in tide recording, from 12 November to 22 December 1761, partly compensated for the failure of his main objective..."
+      }
+    ]
+  }
+]

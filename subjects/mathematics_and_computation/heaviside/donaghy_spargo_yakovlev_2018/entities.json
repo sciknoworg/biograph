@@ -1,0 +1,300 @@
+[
+  {
+    "aliases": [
+      "Heaviside",
+      "Oliver Heaviside FRS"
+    ],
+    "entity_type": "person",
+    "id": "oliver_heaviside",
+    "name": "Oliver Heaviside",
+    "subtype": "researcher",
+    "summary": "Victorian electrical engineer, physicist and mathematician known for electromagnetic theory and operational calculus."
+  },
+  {
+    "aliases": [
+      "Dr C Donaghy-Spargo",
+      "C Donaghy-Spargo"
+    ],
+    "entity_type": "person",
+    "id": "christopher_donaghy_spargo",
+    "name": "Christopher Donaghy-Spargo",
+    "subtype": "researcher",
+    "summary": "Author of this document, Department of Engineering, Durham University."
+  },
+  {
+    "aliases": [
+      "A Yakovlev"
+    ],
+    "entity_type": "person",
+    "id": "alex_yakovlev",
+    "name": "Alex Yakovlev",
+    "subtype": "researcher",
+    "summary": "Author of this document, School of Engineering, Newcastle University."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United Kingdom"
+    },
+    "entity_type": "organization",
+    "id": "durham_university",
+    "name": "Durham University",
+    "subtype": "university",
+    "summary": "University in Durham, UK, affiliation of Christopher Donaghy-Spargo."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United Kingdom"
+    },
+    "entity_type": "organization",
+    "id": "newcastle_university",
+    "name": "Newcastle University",
+    "subtype": "university",
+    "summary": "University in Newcastle upon Tyne, UK, affiliation of Alex Yakovlev."
+  },
+  {
+    "aliases": [
+      "Fellows of the Royal Society"
+    ],
+    "attributes": {
+      "country": "United Kingdom"
+    },
+    "entity_type": "organization",
+    "id": "royal_society",
+    "name": "Royal Society",
+    "subtype": "organization",
+    "summary": "Learned society for science, Heaviside elected Fellow in 1891."
+  },
+  {
+    "aliases": [
+      "Göttingen"
+    ],
+    "attributes": {
+      "country": "Germany"
+    },
+    "entity_type": "organization",
+    "id": "university_of_gottingen",
+    "name": "University of Göttingen",
+    "subtype": "university",
+    "summary": "German university, conferred honorary doctorate on Heaviside in 1905."
+  },
+  {
+    "aliases": [
+      "IEE",
+      "Institution of Engineering & Technology",
+      "IET"
+    ],
+    "attributes": {
+      "country": "United Kingdom"
+    },
+    "entity_type": "organization",
+    "id": "institution_of_electrical_engineers",
+    "name": "Institution of Electrical Engineers",
+    "subtype": "organization",
+    "summary": "Professional body for electrical engineers, awarded Heaviside Fellowship and Faraday Medal, purchased his papers."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United Kingdom"
+    },
+    "entity_type": "organization",
+    "id": "great_northern_telegraph_company",
+    "name": "Great Northern Telegraph Company",
+    "subtype": "company",
+    "summary": "Telegraph company, Heaviside's only paid employer."
+  },
+  {
+    "aliases": [
+      "The Electrician",
+      "Electrician Publishing"
+    ],
+    "attributes": {
+      "country": "United Kingdom"
+    },
+    "entity_type": "organization",
+    "id": "the_electrician_publishing",
+    "name": "The Electrician Printing and Publishing Co",
+    "subtype": "company",
+    "summary": "Publisher of Heaviside's Electromagnetic Theory volumes."
+  },
+  {
+    "aliases": [
+      "J.C. Maxwell FRS",
+      "Maxwell"
+    ],
+    "entity_type": "person",
+    "id": "james_clerk_maxwell",
+    "name": "James Clerk Maxwell",
+    "subtype": "researcher",
+    "summary": "Physicist whose electromagnetic theory Heaviside reformulated."
+  },
+  {
+    "aliases": [
+      "G. F. C. Searle FRS",
+      "Searle",
+      "George Francis Searle"
+    ],
+    "entity_type": "person",
+    "id": "g_f_c_searle",
+    "name": "G. F. C. Searle",
+    "subtype": "researcher",
+    "summary": "Lifelong friend of Heaviside, wrote personal biography, collaborator."
+  },
+  {
+    "aliases": [
+      "Josephs"
+    ],
+    "entity_type": "person",
+    "id": "h_j_josephs",
+    "name": "H. J. Josephs",
+    "subtype": "researcher",
+    "summary": "GPO Research Engineer, wrote unpublished biography of Heaviside."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 50.4625,
+      "lng": -3.52806,
+      "wikidata_qid": "Q209055",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "torquay",
+    "name": "Torquay",
+    "subtype": "town",
+    "summary": "Town in England where Heaviside died."
+  },
+  {
+    "aliases": [
+      "Newcastle"
+    ],
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 54.97778,
+      "lng": -1.61333,
+      "wikidata_qid": "Q1425428",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "newcastle_upon_tyne",
+    "name": "Newcastle upon Tyne",
+    "subtype": "city",
+    "summary": "City in England where Heaviside lived and worked in 1873."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 51.50722,
+      "lng": -0.1275,
+      "wikidata_qid": "Q84",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "london",
+    "name": "London",
+    "subtype": "city",
+    "summary": "Capital city, location of The Electrician publisher."
+  },
+  {
+    "aliases": [],
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 50.5403,
+      "lng": -3.6087,
+      "wikidata_qid": "Q660484",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "newton_abbot",
+    "name": "Newton Abbot",
+    "subtype": "town",
+    "summary": "Town in England, location of Heaviside's old house."
+  },
+  {
+    "aliases": [
+      "Electromagnetic Theory Vol I"
+    ],
+    "entity_type": "artifact",
+    "id": "electromagnetic_theory_vol_1",
+    "name": "Electromagnetic Theory Volume I",
+    "subtype": "publication",
+    "summary": "First volume of Heaviside's Electromagnetic Theory, published 1893."
+  },
+  {
+    "aliases": [
+      "Electromagnetic Theory Vol II"
+    ],
+    "entity_type": "artifact",
+    "id": "electromagnetic_theory_vol_2",
+    "name": "Electromagnetic Theory Volume II",
+    "subtype": "publication",
+    "summary": "Second volume of Heaviside's Electromagnetic Theory, published 1899."
+  },
+  {
+    "aliases": [
+      "Electromagnetic Theory Vol III"
+    ],
+    "entity_type": "artifact",
+    "id": "electromagnetic_theory_vol_3",
+    "name": "Electromagnetic Theory Volume III",
+    "subtype": "publication",
+    "summary": "Third volume of Heaviside's Electromagnetic Theory, published 1912."
+  },
+  {
+    "aliases": [
+      "Volume IV",
+      "Fourth Volume"
+    ],
+    "entity_type": "artifact",
+    "id": "electromagnetic_theory_vol_4",
+    "name": "Electromagnetic Theory Volume IV",
+    "subtype": "publication",
+    "summary": "Unpublished fourth volume of Electromagnetic Theory, manuscript claimed finished 1916/17."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "coaxial_cable",
+    "name": "Coaxial Cable",
+    "subtype": "invention",
+    "summary": "Invention by Heaviside, for which he was granted a patent."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "faraday_medal",
+    "name": "Faraday Medal",
+    "subtype": "award",
+    "summary": "Award received by Heaviside from the Institution of Electrical Engineers in 1921."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "operational_calculus",
+    "name": "Operational Calculus",
+    "subtype": "method",
+    "summary": "Mathematical technique invented by Heaviside for solving differential equations."
+  },
+  {
+    "aliases": [
+      "Vectorial Algebra and Analysis"
+    ],
+    "entity_type": "artifact",
+    "id": "vector_analysis",
+    "name": "Vector Analysis",
+    "subtype": "method",
+    "summary": "Mathematical framework co-formulated by Heaviside."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "heaviside_collection",
+    "name": "Heaviside Collection",
+    "subtype": "collection",
+    "summary": "Collection of Heaviside's books and papers held at IET Archives."
+  }
+]

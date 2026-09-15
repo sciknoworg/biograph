@@ -1,0 +1,221 @@
+[
+  {
+    "id": "reuben_louis_rosenberg",
+    "entity_type": "person",
+    "name": "Reuben Louis Rosenberg",
+    "aliases": [
+      "R. L. Rosenberg",
+      "Reuben Rosenberg",
+      "Rosy"
+    ],
+    "summary": "South African-born mathematician and numerical analyst known for the Stein–Rosenberg theorem on iterative methods for linear equations.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "philip_bernard_stein",
+    "entity_type": "person",
+    "name": "Philip Bernard Stein",
+    "aliases": [
+      "Philip Stein",
+      "P. Stein"
+    ],
+    "summary": "South African mathematician and collaborator of Rosenberg on the Stein–Rosenberg theorem.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "violet_eva_hatcher",
+    "entity_type": "person",
+    "name": "Violet Eva Hatcher",
+    "aliases": [
+      "Violet Rosenberg"
+    ],
+    "summary": "Wife of Reuben Louis Rosenberg, married in 1937.",
+    "subtype": "family"
+  },
+  {
+    "id": "university_of_cape_town",
+    "entity_type": "organization",
+    "name": "University of Cape Town",
+    "aliases": [
+      "UCT",
+      "South African College"
+    ],
+    "summary": "University in Cape Town, South Africa, where Rosenberg completed his BA and MA.",
+    "subtype": "university",
+    "attributes": {
+      "country": "South Africa"
+    }
+  },
+  {
+    "id": "university_of_the_witwatersrand",
+    "entity_type": "organization",
+    "name": "University of the Witwatersrand",
+    "aliases": [
+      "Wits",
+      "University College, Johannesburg"
+    ],
+    "summary": "University in Johannesburg where Rosenberg worked as a Junior Lecturer in 1930.",
+    "subtype": "university",
+    "attributes": {
+      "country": "South Africa"
+    }
+  },
+  {
+    "id": "friedrich_wilhelms_universitat_zu_berlin",
+    "entity_type": "organization",
+    "name": "Friedrich-Wilhelms-Universität zu Berlin",
+    "aliases": [
+      "University of Berlin",
+      "Humboldt-Universität zu Berlin"
+    ],
+    "summary": "University in Berlin where Rosenberg earned his doctorate in nuclear physics.",
+    "subtype": "university",
+    "attributes": {
+      "country": "Germany"
+    }
+  },
+  {
+    "id": "imperial_college_london",
+    "entity_type": "organization",
+    "name": "Imperial College of Science, Technology, and Medicine",
+    "aliases": [
+      "Imperial College"
+    ],
+    "summary": "London institution where Rosenberg held a Beit Fellowship and obtained a D.I.C.",
+    "subtype": "university",
+    "attributes": {
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": "natal_university_college",
+    "entity_type": "organization",
+    "name": "Natal University College",
+    "aliases": [
+      "NUC",
+      "University of Natal"
+    ],
+    "summary": "College in Pietermaritzburg where Rosenberg worked from 1935 to 1949.",
+    "subtype": "university",
+    "attributes": {
+      "country": "South Africa"
+    }
+  },
+  {
+    "id": "bristol_university",
+    "entity_type": "organization",
+    "name": "Bristol University",
+    "aliases": [
+      "University of Bristol"
+    ],
+    "summary": "University where Rosenberg conducted research in Atomic Physics on leave in 1947–1948.",
+    "subtype": "university",
+    "attributes": {
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": "chelsea_polytechnic",
+    "entity_type": "organization",
+    "name": "Chelsea Polytechnic",
+    "aliases": [
+      "Chelsea College of Science and Technology"
+    ],
+    "summary": "London institution where Rosenberg was a Senior Lecturer from 1949 to 1955.",
+    "subtype": "university",
+    "attributes": {
+      "country": "United Kingdom"
+    }
+  },
+  {
+    "id": "university_of_new_brunswick",
+    "entity_type": "organization",
+    "name": "University of New Brunswick",
+    "aliases": [
+      "UNB"
+    ],
+    "summary": "Canadian university where Rosenberg was a professor from 1955 to 1966.",
+    "subtype": "university",
+    "attributes": {
+      "country": "Canada"
+    }
+  },
+  {
+    "id": "national_research_council_canada",
+    "entity_type": "organization",
+    "name": "National Research Council",
+    "aliases": [
+      "NRC"
+    ],
+    "summary": "Canadian research organization where Rosenberg was affiliated from 1960 to 1963.",
+    "subtype": "lab",
+    "attributes": {
+      "country": "Canada"
+    }
+  },
+  {
+    "id": "carleton_university",
+    "entity_type": "organization",
+    "name": "Carleton University",
+    "aliases": [
+      "Carleton"
+    ],
+    "summary": "Ottawa university where Rosenberg worked from 1966 until retirement and beyond.",
+    "subtype": "university",
+    "attributes": {
+      "country": "Canada"
+    }
+  },
+  {
+    "id": "johannesburg",
+    "entity_type": "place",
+    "name": "Johannesburg",
+    "summary": "City in South Africa where Rosenberg was born.",
+    "subtype": "city",
+    "attributes": {
+      "country": "South Africa",
+      "lat": -26.20436,
+      "lng": 28.04164,
+      "wikidata_qid": "Q34647",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "london",
+    "entity_type": "place",
+    "name": "London",
+    "summary": "City in England where Rosenberg married and worked at Imperial College and Chelsea Polytechnic.",
+    "subtype": "city",
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 51.50722,
+      "lng": -0.1275,
+      "wikidata_qid": "Q84",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "ottawa",
+    "entity_type": "place",
+    "name": "Ottawa",
+    "summary": "City in Canada where Rosenberg died and worked at Carleton University.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Canada",
+      "lat": 45.42472,
+      "lng": -75.695,
+      "wikidata_qid": "Q1930",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "stein_rosenberg_paper",
+    "entity_type": "artifact",
+    "name": "On the solution of linear simultaneous equations by iteration",
+    "aliases": [
+      "Stein–Rosenberg theorem paper"
+    ],
+    "summary": "1948 paper by Stein and Rosenberg establishing the Stein–Rosenberg theorem on iterative methods.",
+    "subtype": "publication"
+  }
+]

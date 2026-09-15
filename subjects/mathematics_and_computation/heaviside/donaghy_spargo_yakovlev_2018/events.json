@@ -1,0 +1,453 @@
+[
+  {
+    "id": "heaviside_birth",
+    "event_type": "birth",
+    "label": "Born",
+    "date": {
+      "display": "18th May 1850",
+      "precision": "day",
+      "sort_start": "1850-05-18",
+      "sort_end": "1850-05-18"
+    },
+    "participants": [
+      {
+        "entity_id": "oliver_heaviside",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "donaghy_spargo_yakovlev_2018",
+        "page": 2,
+        "quote": "Oliver Heaviside FRS was born on 18th May 1850 and died in Torquay on 3rd February 1925, at the age of 74."
+      }
+    ]
+  },
+  {
+    "id": "heaviside_death",
+    "event_type": "death",
+    "label": "Died in Torquay",
+    "date": {
+      "display": "3rd February 1925",
+      "precision": "day",
+      "sort_start": "1925-02-03",
+      "sort_end": "1925-02-03"
+    },
+    "location": "torquay",
+    "participants": [
+      {
+        "entity_id": "oliver_heaviside",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "donaghy_spargo_yakovlev_2018",
+        "page": 2,
+        "quote": "Oliver Heaviside FRS was born on 18th May 1850 and died in Torquay on 3rd February 1925, at the age of 74."
+      }
+    ]
+  },
+  {
+    "id": "heaviside_employment_gnt_end",
+    "event_type": "employment_end",
+    "label": "Left Great Northern Telegraph Company",
+    "date": {
+      "display": "1873",
+      "precision": "year",
+      "sort_start": "1873-01-01",
+      "sort_end": "1873-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "oliver_heaviside",
+        "role": "subject"
+      },
+      {
+        "entity_id": "great_northern_telegraph_company",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "donaghy_spargo_yakovlev_2018",
+        "page": 2,
+        "quote": "working for the Great Northern Telegraph Company (his only paid work, which he left in 1873 at the age of 23 to concentrate on his studies)."
+      }
+    ]
+  },
+  {
+    "id": "heaviside_newcastle_residence",
+    "event_type": "relocation",
+    "label": "Living in Newcastle upon Tyne",
+    "date": {
+      "display": "late 1873",
+      "precision": "year",
+      "sort_start": "1873-01-01",
+      "sort_end": "1873-12-31"
+    },
+    "location": "newcastle_upon_tyne",
+    "participants": [
+      {
+        "entity_id": "oliver_heaviside",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "donaghy_spargo_yakovlev_2018",
+        "page": 2,
+        "quote": "Heaviside first came across this seminal work as part of his 'self -study' regime while he was living in Newcastle upon Tyne  in late 1873"
+      }
+    ]
+  },
+  {
+    "id": "heaviside_fellowship_royal_society",
+    "event_type": "award",
+    "label": "Elected Fellow of the Royal Society",
+    "date": {
+      "display": "1891",
+      "precision": "year",
+      "sort_start": "1891-01-01",
+      "sort_end": "1891-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "oliver_heaviside",
+        "role": "subject"
+      },
+      {
+        "entity_id": "royal_society",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "donaghy_spargo_yakovlev_2018",
+        "page": 3,
+        "quote": "He was elected a Fellow of the Royal Society in 1891 for his contributions to the mathematical description of electromagnetic phenomena"
+      }
+    ]
+  },
+  {
+    "id": "heaviside_vol_1_pub",
+    "event_type": "publication",
+    "label": "Published Electromagnetic Theory Volume I",
+    "date": {
+      "display": "1893",
+      "precision": "year",
+      "sort_start": "1893-01-01",
+      "sort_end": "1893-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "oliver_heaviside",
+        "role": "subject"
+      },
+      {
+        "entity_id": "electromagnetic_theory_vol_1",
+        "role": "invention"
+      },
+      {
+        "entity_id": "the_electrician_publishing",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "donaghy_spargo_yakovlev_2018",
+        "page": 3,
+        "quote": "Volume I was published in 1893"
+      }
+    ]
+  },
+  {
+    "id": "heaviside_vol_2_pub",
+    "event_type": "publication",
+    "label": "Published Electromagnetic Theory Volume II",
+    "date": {
+      "display": "1899",
+      "precision": "year",
+      "sort_start": "1899-01-01",
+      "sort_end": "1899-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "oliver_heaviside",
+        "role": "subject"
+      },
+      {
+        "entity_id": "electromagnetic_theory_vol_2",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "donaghy_spargo_yakovlev_2018",
+        "page": 3,
+        "quote": "Electromagnetic Theory Volume II came six years later in 1899"
+      }
+    ]
+  },
+  {
+    "id": "heaviside_gottingen_doctorate",
+    "event_type": "award",
+    "label": "Conferred honorary doctorate from University of Göttingen",
+    "date": {
+      "display": "1905",
+      "precision": "year",
+      "sort_start": "1905-01-01",
+      "sort_end": "1905-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "oliver_heaviside",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_gottingen",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "donaghy_spargo_yakovlev_2018",
+        "page": 3,
+        "quote": "In 1905 he was conferred an honorary doctorate from the University of Göttingen"
+      }
+    ]
+  },
+  {
+    "id": "heaviside_ief_fellowship",
+    "event_type": "award",
+    "label": "Received Honorary Fellowship of the Institution of Electrical Engineers",
+    "date": {
+      "display": "1908",
+      "precision": "year",
+      "sort_start": "1908-01-01",
+      "sort_end": "1908-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "oliver_heaviside",
+        "role": "subject"
+      },
+      {
+        "entity_id": "institution_of_electrical_engineers",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "donaghy_spargo_yakovlev_2018",
+        "page": 3,
+        "quote": "in 1908 he received Honorary Fellowship of the Institution of Electrical Engineers"
+      }
+    ]
+  },
+  {
+    "id": "heaviside_vol_3_pub",
+    "event_type": "publication",
+    "label": "Published Electromagnetic Theory Volume III",
+    "date": {
+      "display": "1912",
+      "precision": "year",
+      "sort_start": "1912-01-01",
+      "sort_end": "1912-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "oliver_heaviside",
+        "role": "subject"
+      },
+      {
+        "entity_id": "electromagnetic_theory_vol_3",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "donaghy_spargo_yakovlev_2018",
+        "page": 3,
+        "quote": "The final published installment, Volume III, followed in 1912"
+      }
+    ]
+  },
+  {
+    "id": "heaviside_faraday_medal",
+    "event_type": "award",
+    "label": "Received the first Faraday Medal",
+    "date": {
+      "display": "1921",
+      "precision": "year",
+      "sort_start": "1921-01-01",
+      "sort_end": "1921-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "oliver_heaviside",
+        "role": "subject"
+      },
+      {
+        "entity_id": "faraday_medal",
+        "role": "invention"
+      },
+      {
+        "entity_id": "institution_of_electrical_engineers",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "donaghy_spargo_yakovlev_2018",
+        "page": 3,
+        "quote": "from which he then received the first Faraday Medal in 1921."
+      }
+    ]
+  },
+  {
+    "id": "heaviside_vol_4_manuscript",
+    "event_type": "other",
+    "label": "Claimed finished manuscript for Volume IV",
+    "date": {
+      "display": "1916/17",
+      "precision": "range",
+      "sort_start": "1916-01-01",
+      "sort_end": "1917-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "oliver_heaviside",
+        "role": "subject"
+      },
+      {
+        "entity_id": "electromagnetic_theory_vol_4",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "donaghy_spargo_yakovlev_2018",
+        "page": 5,
+        "quote": "It is claimed that Heaviside had finished the manuscript for Volume IV in 1916/17"
+      }
+    ]
+  },
+  {
+    "id": "iee_purchased_papers",
+    "event_type": "other",
+    "label": "Institution of Electrical Engineers purchased Heaviside's papers",
+    "date": {
+      "display": "1927",
+      "precision": "year",
+      "sort_start": "1927-01-01",
+      "sort_end": "1927-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "institution_of_electrical_engineers",
+        "role": "subject"
+      },
+      {
+        "entity_id": "heaviside_collection",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "donaghy_spargo_yakovlev_2018",
+        "page": 5,
+        "quote": "Following the purchase of Heaviside's books and papers  by the Institution of Electrical Engineers  in 1927"
+      }
+    ]
+  },
+  {
+    "id": "papers_found_newton_abbot",
+    "event_type": "other",
+    "label": "Papers found under floorboards in Newton Abbot house",
+    "date": {
+      "display": "late 1950s",
+      "precision": "decade",
+      "sort_start": "1950-01-01",
+      "sort_end": "1959-12-31"
+    },
+    "location": "newton_abbot",
+    "participants": [
+      {
+        "entity_id": "heaviside_collection",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "donaghy_spargo_yakovlev_2018",
+        "page": 5,
+        "quote": "some of these papers being found under the floorboards in Heaviside's  old Newton Abbot  house in the late 1950s"
+      }
+    ]
+  },
+  {
+    "id": "volumes_combined_1950",
+    "event_type": "publication",
+    "label": "Three volumes combined and published as single volume",
+    "date": {
+      "display": "1950",
+      "precision": "year",
+      "sort_start": "1950-01-01",
+      "sort_end": "1950-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "electromagnetic_theory_vol_1",
+        "role": "invention"
+      },
+      {
+        "entity_id": "electromagnetic_theory_vol_2",
+        "role": "invention"
+      },
+      {
+        "entity_id": "electromagnetic_theory_vol_3",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "donaghy_spargo_yakovlev_2018",
+        "page": 4,
+        "quote": "the three volumes were later combined and published as a single volume in 1950"
+      }
+    ]
+  },
+  {
+    "id": "volumes_combined_1971",
+    "event_type": "publication",
+    "label": "Another edition of the unabridged three volumes published",
+    "date": {
+      "display": "1971",
+      "precision": "year",
+      "sort_start": "1971-01-01",
+      "sort_end": "1971-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "electromagnetic_theory_vol_1",
+        "role": "invention"
+      },
+      {
+        "entity_id": "electromagnetic_theory_vol_2",
+        "role": "invention"
+      },
+      {
+        "entity_id": "electromagnetic_theory_vol_3",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "donaghy_spargo_yakovlev_2018",
+        "page": 4,
+        "quote": "Later in 1971, another edition of the unabridged three volumes w as published again"
+      }
+    ]
+  }
+]

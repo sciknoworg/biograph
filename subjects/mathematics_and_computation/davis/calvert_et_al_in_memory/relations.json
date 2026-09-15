@@ -1,0 +1,153 @@
+[
+  {
+    "id": "martin_davis_studied_princeton",
+    "source": "martin_davis",
+    "type": "studied_at",
+    "target": "princeton_university",
+    "event_id": "phd_princeton_1950",
+    "sources": [
+      {
+        "source_id": "calvert_et_al_in_memory",
+        "page": 1,
+        "quote": "he got his PhD in just two years, under the guidance of Church, in 1950."
+      }
+    ]
+  },
+  {
+    "id": "martin_davis_supervised_church",
+    "source": "martin_davis",
+    "type": "supervised_by",
+    "target": "alonzo_church",
+    "event_id": "phd_princeton_1950",
+    "sources": [
+      {
+        "source_id": "calvert_et_al_in_memory",
+        "page": 1,
+        "quote": "he got his PhD in just two years, under the guidance of Church, in 1950."
+      }
+    ]
+  },
+  {
+    "id": "martin_davis_employed_uiuc",
+    "source": "martin_davis",
+    "type": "employed_by",
+    "target": "uiuc",
+    "sources": [
+      {
+        "source_id": "calvert_et_al_in_memory",
+        "page": 1,
+        "quote": "Davis's first position was at the University of Illinois at Urbana-Champaign,"
+      }
+    ]
+  },
+  {
+    "id": "martin_davis_employed_csl",
+    "source": "martin_davis",
+    "type": "employed_by",
+    "target": "control_systems_laboratory",
+    "event_id": "recruited_csl_1951",
+    "sources": [
+      {
+        "source_id": "calvert_et_al_in_memory",
+        "page": 7,
+        "quote": "Martin began to program computers in 1951, when he was recruited to a group that developed programs for an ORDVAC machine, in support of the military during the Korean War."
+      }
+    ]
+  },
+  {
+    "id": "martin_davis_employed_ias",
+    "source": "martin_davis",
+    "type": "employed_by",
+    "target": "ias_princeton",
+    "event_id": "presburger_ias_1954",
+    "sources": [
+      {
+        "source_id": "calvert_et_al_in_memory",
+        "page": 7,
+        "quote": "Martin's implementation of that algorithm took place on a JOHNNIAC computer available at the Institute for Advanced Study in Princeton in the summer of 1954."
+      }
+    ]
+  },
+  {
+    "id": "martin_davis_collaborated_putnam",
+    "source": "martin_davis",
+    "type": "collaborated_with",
+    "target": "hilary_putnam",
+    "event_id": "dpr_discovery_1959",
+    "sources": [
+      {
+        "source_id": "calvert_et_al_in_memory",
+        "page": 1,
+        "quote": "\"It was in the summer of 1959 that Hilary and I really hit the jackpot,\" he says, to describe the original, raw discovery of what would become known as the celebrated Davis–Putnam–Robinson theorem)."
+      }
+    ]
+  },
+  {
+    "id": "martin_davis_collaborated_robinson",
+    "source": "martin_davis",
+    "type": "collaborated_with",
+    "target": "julia_robinson",
+    "sources": [
+      {
+        "source_id": "calvert_et_al_in_memory",
+        "page": 5,
+        "quote": "The theorem proved by Davis, Putnam, Robinson, and Matiyasevich showed that such an algorithm does not exist."
+      }
+    ]
+  },
+  {
+    "id": "martin_davis_collaborated_matiyasevich",
+    "source": "martin_davis",
+    "type": "collaborated_with",
+    "target": "yuri_matiyasevich",
+    "event_id": "matiyasevich_news_1970",
+    "sources": [
+      {
+        "source_id": "calvert_et_al_in_memory",
+        "page": 5,
+        "quote": "\"One of the great pleasures of my life came in February 1970, when I learned of the work of Yuri Matiyasevich which completed the proof of the crucial conjecture and thereby showed that Hilbert's Tenth Problem is recursively unsolvable.\""
+      }
+    ]
+  },
+  {
+    "id": "martin_davis_developed_dpll",
+    "source": "martin_davis",
+    "type": "developed",
+    "target": "dpll_procedure",
+    "event_id": "dpll_paper_1960",
+    "sources": [
+      {
+        "source_id": "calvert_et_al_in_memory",
+        "page": 7,
+        "quote": "The Davis-Putnam-Logemann-Loveland procedure [11] (DPLL for short), still fundamental in today's architectures of fast Boolean satisfiability solvers, was rooted in that collaboration."
+      }
+    ]
+  },
+  {
+    "id": "martin_davis_developed_dpr",
+    "source": "martin_davis",
+    "type": "developed",
+    "target": "dpr_theorem",
+    "event_id": "dpr_discovery_1959",
+    "sources": [
+      {
+        "source_id": "calvert_et_al_in_memory",
+        "page": 1,
+        "quote": "\"It was in the summer of 1959 that Hilary and I really hit the jackpot,\" he says, to describe the original, raw discovery of what would become known as the celebrated Davis–Putnam–Robinson theorem)."
+      }
+    ]
+  },
+  {
+    "id": "martin_davis_employed_nyu",
+    "source": "martin_davis",
+    "type": "employed_by",
+    "target": "nyu",
+    "sources": [
+      {
+        "source_id": "calvert_et_al_in_memory",
+        "page": 1,
+        "quote": "He later moved to the Institute for Advanced Study, the University of California at Davis, the Ohio State University, the Rensselaer Polytechnic Institute, Yeshiva University, and New York University."
+      }
+    ]
+  }
+]

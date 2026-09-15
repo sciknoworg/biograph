@@ -1,0 +1,542 @@
+[
+  {
+    "id": "birth_john_napier",
+    "event_type": "birth",
+    "label": "Born at Merchiston Castle",
+    "description": "John Napier was born in the medieval tower house of Merchiston Castle.",
+    "date": {
+      "display": "1550",
+      "precision": "year",
+      "sort_start": "1550-01-01",
+      "sort_end": "1550-12-31"
+    },
+    "location": "merchiston_castle",
+    "participants": [
+      {
+        "entity_id": "john_napier",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 5,
+        "quote": "John Napier was born in the medieval tower house of Merchiston Castle in 1550, the exact date of his birth is unknown."
+      }
+    ]
+  },
+  {
+    "id": "enrollment_st_andrews",
+    "event_type": "education",
+    "label": "Enrolled at University of St Andrews",
+    "description": "John Napier enrolled at the University of St Andrews where he attended St. Salvator's College.",
+    "date": {
+      "display": "1563",
+      "precision": "year",
+      "sort_start": "1563-01-01",
+      "sort_end": "1563-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_napier",
+        "role": "subject"
+      },
+      {
+        "entity_id": "university_of_st_andrews",
+        "role": "institution"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 5,
+        "quote": "In 1563 John Napier, aged thirteen, enrolled at the University of St Andrews where he attended St. Salvator's College and lodged with the college's principal, John Rutherford."
+      }
+    ]
+  },
+  {
+    "id": "mother_death",
+    "event_type": "death",
+    "label": "Mother Janet Bothwell died",
+    "description": "John Napier experienced the tragedy of the sudden loss of his mother within three months of beginning his studies.",
+    "date": {
+      "display": "1563",
+      "precision": "year",
+      "sort_start": "1563-01-01",
+      "sort_end": "1563-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "janet_bothwell",
+        "role": "subject"
+      },
+      {
+        "entity_id": "john_napier",
+        "role": "family"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 6,
+        "quote": "Within three months of beginning his studies, John Napier experienced the tragedy of the sudden loss of his mother."
+      }
+    ]
+  },
+  {
+    "id": "travel_europe",
+    "event_type": "relocation",
+    "label": "Left for Europe",
+    "description": "John Napier left the university prematurely and travelled to continental Europe.",
+    "date": {
+      "display": "1564",
+      "precision": "year",
+      "sort_start": "1564-01-01",
+      "sort_end": "1564-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_napier",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 7,
+        "quote": "Historians tend to agree that he left from Leith for Europe in 1564 to continue his studies, but his destination uncertain."
+      }
+    ]
+  },
+  {
+    "id": "return_scotland",
+    "event_type": "relocation",
+    "label": "Returned to Scotland",
+    "description": "John Napier returned to Scotland aged twenty-one years.",
+    "date": {
+      "display": "1571",
+      "precision": "year",
+      "sort_start": "1571-01-01",
+      "sort_end": "1571-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_napier",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 10,
+        "quote": "Historians generally agree that John Napier returned to Scotland in 1571, aged twenty-one years."
+      }
+    ]
+  },
+  {
+    "id": "marriage_elizabeth",
+    "event_type": "other",
+    "label": "Married Elizabeth Stirling",
+    "description": "John and Elizabeth Napier married and took up residence in Gartness, Stirlingshire.",
+    "date": {
+      "display": "1573",
+      "precision": "year",
+      "sort_start": "1573-01-01",
+      "sort_end": "1573-12-31"
+    },
+    "location": "gartness",
+    "participants": [
+      {
+        "entity_id": "john_napier",
+        "role": "subject"
+      },
+      {
+        "entity_id": "elizabeth_stirling",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 12,
+        "quote": "John and Elizabeth Napier married and took up residence in Gartness, Stirlingshire in 1573, where a new home was built which included a spacious garden and orchard."
+      }
+    ]
+  },
+  {
+    "id": "birth_archibald_son",
+    "event_type": "birth",
+    "label": "Son Archibald born",
+    "description": "Their son Archibald was born at Gartness.",
+    "date": {
+      "display": "1576",
+      "precision": "year",
+      "sort_start": "1576-01-01",
+      "sort_end": "1576-12-31"
+    },
+    "location": "gartness",
+    "participants": [
+      {
+        "entity_id": "archibald_napier_son",
+        "role": "subject"
+      },
+      {
+        "entity_id": "john_napier",
+        "role": "parent"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 12,
+        "quote": "Their son Archibald was born at Gartness in 1576 and a daughter, Jane, soon followed."
+      }
+    ]
+  },
+  {
+    "id": "death_elizabeth",
+    "event_type": "death",
+    "label": "Elizabeth Stirling died",
+    "description": "Elizabeth Napier sadly died, aged just twenty-seven years old.",
+    "date": {
+      "display": "1579",
+      "precision": "year",
+      "sort_start": "1579-01-01",
+      "sort_end": "1579-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "elizabeth_stirling",
+        "role": "subject"
+      },
+      {
+        "entity_id": "john_napier",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 12,
+        "quote": "Elizabeth Napier sadly died in 1579, aged just twenty-seven years old."
+      }
+    ]
+  },
+  {
+    "id": "marriage_agnes",
+    "event_type": "other",
+    "label": "Married Agnes Chisholm",
+    "description": "John Napier remarried within a few years of Elizabeth's death.",
+    "date": {
+      "display": "c. 1580",
+      "precision": "circa",
+      "sort_start": "1579-01-01",
+      "sort_end": "1585-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_napier",
+        "role": "subject"
+      },
+      {
+        "entity_id": "agnes_chisholm",
+        "role": "spouse"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 12,
+        "quote": "Within a few years, John Napier remarried and had five sons and daughters with his new wife, Agnes Chisholm, daughter of Sir James Chisholm of Cromlix."
+      }
+    ]
+  },
+  {
+    "id": "pub_plaine_discovery",
+    "event_type": "publication",
+    "label": "Published Plaine Discovery",
+    "description": "John Napier's long-held interest in the subject of religious apocalypse culminated in the publication of Plaine Discovery.",
+    "date": {
+      "display": "1593",
+      "precision": "year",
+      "sort_start": "1593-01-01",
+      "sort_end": "1593-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_napier",
+        "role": "author"
+      },
+      {
+        "entity_id": "plaine_discovery",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 18,
+        "quote": "John Napier's long-held interest in the subject of religious apocalypse culminated in the publication of Plaine Discovery of the Whole Revelation of St John in 1593."
+      }
+    ]
+  },
+  {
+    "id": "war_inventions_submitted",
+    "event_type": "invention",
+    "label": "Submitted war inventions",
+    "description": "He submitted a list of inventions to the Government titled Secrett inventionis.",
+    "date": {
+      "display": "1596",
+      "precision": "year",
+      "sort_start": "1596-01-01",
+      "sort_end": "1596-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_napier",
+        "role": "inventor"
+      },
+      {
+        "entity_id": "king_james_vi",
+        "role": "recipient"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 21,
+        "quote": "He submitted a list of inventions to the Government titled Secrett inventionis, profitabill and necessary in the defence of this lland, and withstanding Strangers, enemies of God's truth and religion in 1596."
+      }
+    ]
+  },
+  {
+    "id": "pub_logarithms",
+    "event_type": "publication",
+    "label": "Published Mirifici Logarithmorum Canonis Descriptio",
+    "description": "John Napier published Mirifici Logarithmorum Canonis Descriptio which included ninety pages of logarithmic tables.",
+    "date": {
+      "display": "1614",
+      "precision": "year",
+      "sort_start": "1614-01-01",
+      "sort_end": "1614-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_napier",
+        "role": "author"
+      },
+      {
+        "entity_id": "mirifici_logarithmorum_canonis_descriptio",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 23,
+        "quote": "John Napier published Mirifici Logarithmorum Canonis Descriptio in 1614, which included ninety pages of logarithmic tables as well as thirty-seven pages of instruction to make the process of carrying out long, complicated calculations easier."
+      }
+    ]
+  },
+  {
+    "id": "visit_briggs",
+    "event_type": "visit",
+    "label": "Henry Briggs visited Napier",
+    "description": "Henry Briggs travelled from London to Edinburgh to visit John Napier.",
+    "date": {
+      "display": "1615",
+      "precision": "year",
+      "sort_start": "1615-01-01",
+      "sort_end": "1615-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "henry_briggs",
+        "role": "visitor"
+      },
+      {
+        "entity_id": "john_napier",
+        "role": "host"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 25,
+        "quote": "Having read Mirifici Logarithmorum Canonis Descriptio Henry Briggs, Professor of Mathematics at Gresham College, travelled from London to Edinburgh to visit John Napier in 1615."
+      }
+    ]
+  },
+  {
+    "id": "pub_rabdologiae",
+    "event_type": "publication",
+    "label": "Published Rabdologiae",
+    "description": "John Napier published Rabdologiae as a means to assist in making mathematics accessible to wider audiences.",
+    "date": {
+      "display": "1617",
+      "precision": "year",
+      "sort_start": "1617-01-01",
+      "sort_end": "1617-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_napier",
+        "role": "author"
+      },
+      {
+        "entity_id": "rabdologiae",
+        "role": "publication"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 26,
+        "quote": "John Napier published Rabdologiae in 1617 as a means to assist in making mathematics accessible to wider audiences."
+      }
+    ]
+  },
+  {
+    "id": "death_john_napier",
+    "event_type": "death",
+    "label": "Died",
+    "description": "John Napier died on 04 April 1617.",
+    "date": {
+      "display": "04 April 1617",
+      "precision": "day",
+      "sort_start": "1617-04-04",
+      "sort_end": "1617-04-04"
+    },
+    "participants": [
+      {
+        "entity_id": "john_napier",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 34,
+        "quote": "It is widely reported that John Napier experienced poor health for a number of years prior to his death on 04 April 1617, and it is suspected that he suffered significantly from gout."
+      }
+    ]
+  },
+  {
+    "id": "pub_constructio",
+    "event_type": "publication",
+    "label": "Published Constructio",
+    "description": "John Napier's logarithmic methodology was published by his son, Robert.",
+    "date": {
+      "display": "1619",
+      "precision": "year",
+      "sort_start": "1619-01-01",
+      "sort_end": "1619-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "robert_napier",
+        "role": "author"
+      },
+      {
+        "entity_id": "constructio",
+        "role": "publication"
+      },
+      {
+        "entity_id": "john_napier",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 34,
+        "quote": "John Napier's logarithmic methodology was published in 1619 by his son, Robert, which was titled Constructio."
+      }
+    ]
+  },
+  {
+    "id": "pub_de_arte_logistica",
+    "event_type": "publication",
+    "label": "Published De Arte Logistica",
+    "description": "Napier's mathematical notes were published by his descendant, Mark Napier.",
+    "date": {
+      "display": "1839",
+      "precision": "year",
+      "sort_start": "1839-01-01",
+      "sort_end": "1839-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "de_arte_logistica",
+        "role": "publication"
+      },
+      {
+        "entity_id": "john_napier",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 34,
+        "quote": "Robert also collected many of his father's mathematical notes and papers, which were later published under the title De Arte Logistica by his descendant, Mark Napier, in 1839."
+      }
+    ]
+  },
+  {
+    "id": "merchiston_saved",
+    "event_type": "other",
+    "label": "Merchiston Tower saved",
+    "description": "Merchiston Tower was saved from demolition and integrated as part of a campus.",
+    "date": {
+      "display": "1958",
+      "precision": "year",
+      "sort_start": "1958-01-01",
+      "sort_end": "1958-12-31"
+    },
+    "location": "merchiston_campus",
+    "participants": [
+      {
+        "entity_id": "merchiston_castle",
+        "role": "artifact"
+      },
+      {
+        "entity_id": "edinburgh_napier_university",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 35,
+        "quote": "Merchiston Tower was saved from demolition in 1958, restored and integrated as part of a campus for a new college named after John Napier."
+      }
+    ]
+  },
+  {
+    "id": "college_opened",
+    "event_type": "company_founded",
+    "label": "Napier Technical College opened",
+    "description": "Napier Technical College opened its doors to 800 students.",
+    "date": {
+      "display": "1964",
+      "precision": "year",
+      "sort_start": "1964-01-01",
+      "sort_end": "1964-12-31"
+    },
+    "location": "merchiston_campus",
+    "participants": [
+      {
+        "entity_id": "edinburgh_napier_university",
+        "role": "organization"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "seath_2017",
+        "page": 35,
+        "quote": "In 1964, Napier Technical College opened its doors to 800 students which offered courses including coppering, cabinet making, boat building, chemistry and engineering."
+      }
+    ]
+  }
+]

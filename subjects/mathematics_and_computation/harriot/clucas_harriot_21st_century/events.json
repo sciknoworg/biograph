@@ -1,0 +1,370 @@
+[
+  {
+    "id": "shirley_harriot_1974",
+    "event_type": "publication",
+    "label": "Shirley publishes Thomas Harriot: Renaissance scientist",
+    "date": {
+      "display": "1974",
+      "precision": "year",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "john_w_shirley",
+        "role": "author"
+      },
+      {
+        "entity_id": "thomas_harriot",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "clucas_harriot_21st_century",
+        "page": 9,
+        "quote": "A little over forty years ago, in 1974, John W. Shirley published a collection of essays Thomas Harriot: Renaissance scientist, which presented Harriot as a 'key figure at the time when the new science of logic, reason, mathematics, and experiment was coming into being'."
+      }
+    ]
+  },
+  {
+    "id": "whiteside_review_1975",
+    "event_type": "publication",
+    "label": "Whiteside reviews Shirley's volume",
+    "date": {
+      "display": "1975",
+      "precision": "year",
+      "sort_start": "1975-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tom_whiteside",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "clucas_harriot_21st_century",
+        "page": 9,
+        "quote": "In a rather uncharitable essay-review of this volume in the journal History of Science in 1975, entitled 'In search of Thomas Harriot', the late Tom Whiteside criticised its contributors for not doing sufficient justice to their subject."
+      }
+    ]
+  },
+  {
+    "id": "harriot_viete_access",
+    "event_type": "meeting",
+    "label": "Torporley acts as Viète's amanuensis",
+    "description": "Harriot gains access to Viète's algebra via Torporley.",
+    "date": {
+      "display": "mid-1590s",
+      "precision": "decade",
+      "sort_start": "1595-01-01",
+      "sort_end": "1599-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "nathaniel_torporley",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "francois_viete",
+        "role": "collaborator"
+      },
+      {
+        "entity_id": "thomas_harriot",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "clucas_harriot_21st_century",
+        "page": 9,
+        "quote": "he had privileged access to some of it even before it was published, via his friend Torporley, who had acted as Viète's amanuensis in the mid-1590s."
+      }
+    ]
+  },
+  {
+    "id": "harriot_ballistics_memorandum",
+    "event_type": "other",
+    "label": "Harriot lists Varro in memorandum",
+    "description": "Harriot lists books including Varro while working on ballistic problems.",
+    "date": {
+      "display": "1590s",
+      "precision": "decade",
+      "sort_start": "1590-01-01",
+      "sort_end": "1599-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_harriot",
+        "role": "subject"
+      },
+      {
+        "entity_id": "michel_varro",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "clucas_harriot_21st_century",
+        "page": 10,
+        "quote": "In a 'Memorandum' written sometime in the 1590s, when he was working on ballistic problems, Harriot listed a number of books including 'Varro', 'My notes of ordinance', and 'Proclus de motu'."
+      }
+    ]
+  },
+  {
+    "id": "warner_kinetica_notebooks",
+    "event_type": "publication",
+    "label": "Warner writes notebooks on kinetica",
+    "description": "Warner's notebooks on motion dated to this period.",
+    "date": {
+      "display": "1601-1603",
+      "precision": "range",
+      "sort_start": "1601-01-01",
+      "sort_end": "1603-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "walter_warner",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "clucas_harriot_21st_century",
+        "page": 10,
+        "quote": "These 39 folios – which can be dated to around 1601-1603 – give us a new insight into the study of mechanics in the Northumberland circle."
+      }
+    ]
+  },
+  {
+    "id": "harriot_jupiter_observation",
+    "event_type": "other",
+    "label": "Harriot observes Jupiter's moons",
+    "date": {
+      "display": "17 October 1610",
+      "precision": "day",
+      "sort_start": "1610-10-17",
+      "sort_end": "1610-10-17"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_harriot",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "clucas_harriot_21st_century",
+        "page": 10,
+        "quote": "Harriot's 'first obseruation ... of the newfound planets about Iupiter' was dated 17 October 1610."
+      }
+    ]
+  },
+  {
+    "id": "harriot_algebraic_solution",
+    "event_type": "invention",
+    "label": "Harriot arrives at algebraic solution for interpolation",
+    "date": {
+      "display": "1614",
+      "precision": "year",
+      "sort_start": "1614-01-01",
+      "sort_end": "1614-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_harriot",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "clucas_harriot_21st_century",
+        "page": 9,
+        "quote": "Stedall and Beery believe that Harriot began thinking about this problem during the period when he was working on tables of meridional parts (required to calculate the accurate position of a ship at a sea following a constant compass bearing), and had arrived at an algebraic solution by 1614."
+      }
+    ]
+  },
+  {
+    "id": "harriot_reflection_treatise",
+    "event_type": "publication",
+    "label": "Harriot prepares treatise on collision",
+    "date": {
+      "display": "1619",
+      "precision": "year",
+      "sort_start": "1619-01-01",
+      "sort_end": "1619-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_harriot",
+        "role": "author"
+      },
+      {
+        "entity_id": "de_reflexione_corporum_rotundorum",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "clucas_harriot_21st_century",
+        "page": 10,
+        "quote": "Harriot's small treatise on the collision of round bodies, the De reflexione corporum rotundorum was prepared in 1619 for his patron Henry Percy, ninth Earl of Northumberland from some 'auntient ... notes' on the topic."
+      }
+    ]
+  },
+  {
+    "id": "harriot_letter_percy",
+    "event_type": "meeting",
+    "label": "Harriot writes to Percy about reflections",
+    "date": {
+      "display": "13 June 1619",
+      "precision": "day",
+      "sort_start": "1619-06-13",
+      "sort_end": "1619-06-13"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_harriot",
+        "role": "subject"
+      },
+      {
+        "entity_id": "henry_percy_9th_earl_northumberland",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "clucas_harriot_21st_century",
+        "page": 10,
+        "quote": "We know from a letter accompanying this treatise, that Harriot shared his ideas with both Warner, and another friend and member of the Percy household, Robert Hues: Sir. When Mr Warner and Mr Hues were last at Syon, it happened that I was perfecting my auntient papers notes of the doctrin of reflections of bodies."
+      }
+    ]
+  },
+  {
+    "id": "harriot_death_inventory",
+    "event_type": "death",
+    "label": "Inventory of Harriot's papers made",
+    "description": "Inventory made by Sir Thomas Aylesbury after Harriot's death.",
+    "date": {
+      "display": "1621",
+      "precision": "year",
+      "sort_start": "1621-01-01",
+      "sort_end": "1621-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "thomas_harriot",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "clucas_harriot_21st_century",
+        "page": 10,
+        "quote": "the inventory of his mathematical papers made by Sir Thomas Aylesbury after this death mentions three bundles of papers on the subject 'De centro gravitatis'"
+      }
+    ]
+  },
+  {
+    "id": "first_harriot_lecture",
+    "event_type": "conference",
+    "label": "David Quinn delivers first Harriot Lecture",
+    "date": {
+      "display": "7 May 1990",
+      "precision": "day",
+      "sort_start": "1990-05-07",
+      "sort_end": "1990-05-07"
+    },
+    "participants": [
+      {
+        "entity_id": "oriel_college",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "clucas_harriot_21st_century",
+        "page": 9,
+        "quote": "both Schemmel and Stedall made important contributions to the series of 23 lectures hosted by Oriel College, beginning with David Quinn's 'Thomas Harriot and the problem of America', delivered on 7 May 1990."
+      }
+    ]
+  },
+  {
+    "id": "stedall_algebra_2002",
+    "event_type": "publication",
+    "label": "Stedall publishes A discourse concerning algebra",
+    "date": {
+      "display": "2002",
+      "precision": "year",
+      "sort_start": "2002-01-01",
+      "sort_end": "2002-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jacqueline_stedall",
+        "role": "author"
+      },
+      {
+        "entity_id": "thomas_harriot",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "clucas_harriot_21st_century",
+        "page": 9,
+        "quote": "In her book A discourse concerning algebra:  English algebra to 1683, published in 2002, the late Jacqueline Stedall reassessed the contribution that Harriot had made to this subject."
+      }
+    ]
+  },
+  {
+    "id": "stedall_greate_invention_2003",
+    "event_type": "publication",
+    "label": "Stedall publishes The greate invention of algebra",
+    "date": {
+      "display": "2003",
+      "precision": "year",
+      "sort_start": "2003-01-01",
+      "sort_end": "2003-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "jacqueline_stedall",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "clucas_harriot_21st_century",
+        "page": 9,
+        "quote": "In The greate invention of algebra, published in 2003 – using some hints from Cecily Tanner and Muriel Seltman – Stedall was able to reconstruct this unpublished treatise on equations from 140 scattered sheets in the surviving manuscripts."
+      }
+    ]
+  },
+  {
+    "id": "schemmel_english_galileo_2008",
+    "event_type": "publication",
+    "label": "Schemmel publishes English Galileo",
+    "date": {
+      "display": "2008",
+      "precision": "year",
+      "sort_start": "2008-01-01",
+      "sort_end": "2008-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "matthias_schemmel",
+        "role": "author"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "clucas_harriot_21st_century",
+        "page": 9,
+        "quote": "Another heroic work of reconstruction, which has fulfilled some of the enthusiastic assessments of Shirley and his contemporaries, is Matthias Schemmel's English Galileo, published in 2008."
+      }
+    ]
+  }
+]

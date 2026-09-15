@@ -1,0 +1,293 @@
+[
+  {
+    "id": "mary_cartwright",
+    "entity_type": "person",
+    "name": "Dame Mary Cartwright",
+    "aliases": [
+      "Mary Cartwright",
+      "Mary"
+    ],
+    "summary": "British mathematician known for work on theory of functions, non-linear differential equations, and dynamical systems.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "aynho",
+    "entity_type": "place",
+    "name": "Aynho",
+    "aliases": [],
+    "summary": "Village in Northamptonshire, England.",
+    "subtype": "village",
+    "attributes": {
+      "country": "United Kingdom",
+      "county": "Northamptonshire",
+      "lat": 52.0,
+      "lng": -1.25,
+      "wikidata_qid": "Q2035428",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "northamptonshire",
+    "entity_type": "place",
+    "name": "Northamptonshire",
+    "aliases": [],
+    "summary": "County in England.",
+    "subtype": "county",
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 52.33322,
+      "lng": -0.82024,
+      "wikidata_qid": "Q67311402",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "leamington_high_school",
+    "entity_type": "organization",
+    "name": "Leamington High School",
+    "aliases": [],
+    "summary": "Secondary school attended by Mary Cartwright.",
+    "subtype": "school"
+  },
+  {
+    "id": "godolphin_school",
+    "entity_type": "organization",
+    "name": "Godolphin School",
+    "aliases": [
+      "the Godolphin School"
+    ],
+    "summary": "School in Salisbury attended by Mary Cartwright.",
+    "subtype": "school",
+    "attributes": {
+      "location": "Salisbury"
+    }
+  },
+  {
+    "id": "salisbury",
+    "entity_type": "place",
+    "name": "Salisbury",
+    "aliases": [],
+    "summary": "City in England.",
+    "subtype": "city",
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 51.074,
+      "lng": -1.7936,
+      "wikidata_qid": "Q160642",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "miss_hancock",
+    "entity_type": "person",
+    "name": "Miss Hancock",
+    "aliases": [],
+    "summary": "Mathematics teacher at Godolphin School.",
+    "subtype": "teacher"
+  },
+  {
+    "id": "st_hughs_college",
+    "entity_type": "organization",
+    "name": "St. Hugh's College",
+    "aliases": [
+      "St. Hugh's College to read mathematics"
+    ],
+    "summary": "College at Oxford University where Cartwright studied.",
+    "subtype": "college",
+    "attributes": {
+      "parent_organization": "University of Oxford"
+    }
+  },
+  {
+    "id": "university_of_oxford",
+    "entity_type": "organization",
+    "name": "University of Oxford",
+    "aliases": [
+      "Oxford",
+      "the whole university"
+    ],
+    "summary": "University where Cartwright studied and researched.",
+    "subtype": "university"
+  },
+  {
+    "id": "g_h_hardy",
+    "entity_type": "person",
+    "name": "G. H. Hardy",
+    "aliases": [
+      "Professor G. H. Hardy",
+      "Hardy"
+    ],
+    "summary": "Leading British analyst and Cartwright's research supervisor.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "j_e_littlewood",
+    "entity_type": "person",
+    "name": "Littlewood",
+    "aliases": [
+      "Littlewood"
+    ],
+    "summary": "Leading British analyst and Cartwright's collaborator.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "alice_ottley_school",
+    "entity_type": "organization",
+    "name": "Alice Ottley School",
+    "aliases": [],
+    "summary": "School in Worcester where Cartwright taught.",
+    "subtype": "school",
+    "attributes": {
+      "location": "Worcester"
+    }
+  },
+  {
+    "id": "worcester",
+    "entity_type": "place",
+    "name": "Worcester",
+    "aliases": [],
+    "summary": "City in England.",
+    "subtype": "city",
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 52.19111,
+      "lng": -2.22056,
+      "wikidata_qid": "Q1646181",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "wycombe_abbey_school",
+    "entity_type": "organization",
+    "name": "Wycombe Abbey School",
+    "aliases": [],
+    "summary": "School where Cartwright taught.",
+    "subtype": "school"
+  },
+  {
+    "id": "girton_college",
+    "entity_type": "organization",
+    "name": "Girton College",
+    "aliases": [
+      "Girton"
+    ],
+    "summary": "College at Cambridge University where Cartwright was Fellow, Director of Studies, and Mistress.",
+    "subtype": "college",
+    "attributes": {
+      "parent_organization": "University of Cambridge"
+    }
+  },
+  {
+    "id": "university_of_cambridge",
+    "entity_type": "organization",
+    "name": "University of Cambridge",
+    "aliases": [
+      "Cambridge",
+      "the university"
+    ],
+    "summary": "University where Cartwright worked and held leadership roles.",
+    "subtype": "university"
+  },
+  {
+    "id": "radio_research_board",
+    "entity_type": "organization",
+    "name": "Radio Research Board",
+    "aliases": [],
+    "summary": "Board of the Department of Science and Industrial Research that appealed for mathematical assistance.",
+    "subtype": "government_body",
+    "attributes": {
+      "parent_organization": "Department of Science and Industrial Research"
+    }
+  },
+  {
+    "id": "department_of_science_and_industrial_research",
+    "entity_type": "organization",
+    "name": "Department of Science and Industrial Research",
+    "aliases": [],
+    "summary": "Government department overseeing the Radio Research Board.",
+    "subtype": "government_department"
+  },
+  {
+    "id": "london_mathematical_society",
+    "entity_type": "organization",
+    "name": "London Mathematical Society",
+    "aliases": [],
+    "summary": "Professional society for mathematics in the UK.",
+    "subtype": "professional_society"
+  },
+  {
+    "id": "van_der_pol_equation",
+    "entity_type": "artifact",
+    "name": "equation of Van der Pol",
+    "aliases": [
+      "Van der Pol equation"
+    ],
+    "summary": "Non-linear differential equation used to describe radio wave oscillation.",
+    "subtype": "mathematical_model"
+  },
+  {
+    "id": "royal_society",
+    "entity_type": "organization",
+    "name": "Royal Society",
+    "aliases": [],
+    "summary": "Learned society for science, of which Cartwright was a Fellow.",
+    "subtype": "professional_society"
+  },
+  {
+    "id": "mathematical_association",
+    "entity_type": "organization",
+    "name": "Mathematical Association",
+    "aliases": [],
+    "summary": "Mathematics society of which Cartwright was President.",
+    "subtype": "professional_society"
+  },
+  {
+    "id": "sylvester_medal",
+    "entity_type": "artifact",
+    "name": "Sylvester medal",
+    "aliases": [],
+    "summary": "Award from the Royal Society.",
+    "subtype": "award"
+  },
+  {
+    "id": "de_morgan_medal",
+    "entity_type": "artifact",
+    "name": "De Morgan Medal",
+    "aliases": [],
+    "summary": "Award from the London Mathematical Society.",
+    "subtype": "award"
+  },
+  {
+    "id": "dbe",
+    "entity_type": "artifact",
+    "name": "DBE",
+    "aliases": [
+      "Dame Commander of the Order of the British Empire"
+    ],
+    "summary": "British order of chivalry appointment.",
+    "subtype": "award"
+  },
+  {
+    "id": "lily_atiyah",
+    "entity_type": "person",
+    "name": "Lily Atiyah",
+    "aliases": [],
+    "summary": "Author of the obituary and former research student of Cartwright.",
+    "subtype": "author"
+  },
+  {
+    "id": "edinburgh",
+    "entity_type": "place",
+    "name": "Edinburgh",
+    "aliases": [],
+    "summary": "City in Scotland, home of the obituary author.",
+    "subtype": "city",
+    "attributes": {
+      "country": "United Kingdom",
+      "lat": 55.95333,
+      "lng": -3.18917,
+      "wikidata_qid": "Q23436",
+      "geocode_basis": "country"
+    }
+  }
+]

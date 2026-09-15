@@ -1,0 +1,155 @@
+[
+  {
+    "id": "munster_born_ingelheim",
+    "source": "sebastian_munster",
+    "type": "born_in",
+    "target": "ingelheim",
+    "sources": [
+      {
+        "source_id": "mclean_thesis_2005",
+        "page": 12,
+        "quote": "The date of his birth, 20th January 1488, coincided with the celebration o f that of Saint Sebastian."
+      }
+    ]
+  },
+  {
+    "id": "munster_studied_stoffler",
+    "source": "sebastian_munster",
+    "type": "educated_by",
+    "target": "johannes_stoffler",
+    "sources": [
+      {
+        "source_id": "mclean_thesis_2005",
+        "page": 16,
+        "quote": "Münster encountered his most important teacher of the mathematical disciplines, Johannes Stoffler"
+      }
+    ]
+  },
+  {
+    "id": "munster_studied_pellikan",
+    "source": "sebastian_munster",
+    "type": "educated_by",
+    "target": "konrad_pellikan",
+    "sources": [
+      {
+        "source_id": "mclean_thesis_2005",
+        "page": 13,
+        "quote": "into the tutelage of Konrad Pellikan (1478 - 1556). Here Münster continued his studies in Hebrew"
+      }
+    ]
+  },
+  {
+    "id": "munster_worked_basel",
+    "source": "sebastian_munster",
+    "type": "worked_at",
+    "target": "university_of_basel",
+    "start": {
+      "precision": "year",
+      "sort_start": "1529-01-01",
+      "sort_end": "1529-01-01"
+    },
+    "end": {
+      "precision": "year",
+      "sort_start": "1552-01-01",
+      "sort_end": "1552-01-01"
+    },
+    "sources": [
+      {
+        "source_id": "mclean_thesis_2005",
+        "page": 40,
+        "quote": "hold the Chair of Hebrew without interruption firom 1529 - 1552."
+      }
+    ]
+  },
+  {
+    "id": "munster_married_anna",
+    "source": "sebastian_munster",
+    "type": "married_to",
+    "target": "anna_selber",
+    "sources": [
+      {
+        "source_id": "mclean_thesis_2005",
+        "page": 45,
+        "quote": "In 1530 Münster married Anna Selber"
+      }
+    ]
+  },
+  {
+    "id": "munster_invented_cosmographia",
+    "source": "sebastian_munster",
+    "type": "published",
+    "target": "cosmographia",
+    "sources": [
+      {
+        "source_id": "mclean_thesis_2005",
+        "page": 1,
+        "quote": "he arrived in 1544 at his own Cosmogi aphia."
+      }
+    ]
+  },
+  {
+    "id": "munster_published_hebrew_bible",
+    "source": "sebastian_munster",
+    "type": "published",
+    "target": "hebrew_bible_1534",
+    "sources": [
+      {
+        "source_id": "mclean_thesis_2005",
+        "page": 24,
+        "quote": "the Hebrew Bible o f 1534/5."
+      }
+    ]
+  },
+  {
+    "id": "munster_published_horolographia",
+    "source": "sebastian_munster",
+    "type": "published",
+    "target": "horolographia",
+    "sources": [
+      {
+        "source_id": "mclean_thesis_2005",
+        "page": 37,
+        "quote": "Horolographia. (Basel, Heinrich Petri, 1533)"
+      }
+    ]
+  },
+  {
+    "id": "munster_published_organum",
+    "source": "sebastian_munster",
+    "type": "published",
+    "target": "organum_uranicum",
+    "sources": [
+      {
+        "source_id": "mclean_thesis_2005",
+        "page": 35,
+        "quote": "Organum Uranicum. Sebastianus Munsterus. Habes in hoc libro amice lector explicitas theoricas omnium planetarum.... (Basel, HeimichPetii, 1536)."
+      }
+    ]
+  },
+  {
+    "id": "munster_published_rudimenta",
+    "source": "sebastian_munster",
+    "type": "published",
+    "target": "rudimenta_mathematica",
+    "sources": [
+      {
+        "source_id": "mclean_thesis_2005",
+        "page": 36,
+        "quote": "The Rudimenta Mathematica (1551) similarly owed a debt to Stoffler's work"
+      }
+    ]
+  },
+  {
+    "id": "munster_died_basel",
+    "source": "sebastian_munster",
+    "type": "died_in",
+    "target": "basel",
+    "sources": [
+      {
+        "source_id": "mclean_thesis_2005",
+        "page": 10,
+        "quote": "His death came around the hour of eight in the morning on the 26 May"
+      }
+    ]
+  }
+]

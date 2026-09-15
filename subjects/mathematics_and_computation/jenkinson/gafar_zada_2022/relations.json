@@ -1,0 +1,127 @@
+[
+  {
+    "id": "jenkinson_employed_moscow_company",
+    "source": "anthony_jenkinson",
+    "type": "employed_by",
+    "target": "moscow_company",
+    "sources": [
+      {
+        "source_id": "gafar_zada_2022",
+        "page": 7,
+        "quote": "...trade representative of the Moscow company, Jenkinson was not in London, where the map was published."
+      }
+    ]
+  },
+  {
+    "id": "jenkinson_ambassador_safavid",
+    "source": "anthony_jenkinson",
+    "type": "worked_at",
+    "target": "safavid_empire",
+    "note": "Served as official ambassador.",
+    "sources": [
+      {
+        "source_id": "gafar_zada_2022",
+        "page": 1,
+        "quote": "...Queen Elizabeth I Tudor̓ s official ambassador to the Safavid Empire Anthony Jenkinson."
+      }
+    ]
+  },
+  {
+    "id": "jenkinson_created_map",
+    "source": "anthony_jenkinson",
+    "type": "invented",
+    "target": "nova_absolutaque_map",
+    "event_id": "map_publication_1562",
+    "sources": [
+      {
+        "source_id": "gafar_zada_2022",
+        "page": 3,
+        "quote": "The object of study in this article is the map \" Nova absolutaque Russiae, Moscoviae, et Tartariae descriptio\" (\"An absolutely new description of Russia, Moscow and Tartaria\") published in 1562 and authored by an English merchant, diplomat and official ambassador of Queen Elizabeth I Tudor in the Safavid Empire Anthony Jenkinson, who, as it turned out, was also one of the first English cartographers (Fig. 1)."
+      }
+    ]
+  },
+  {
+    "id": "map_included_atlas",
+    "source": "nova_absolutaque_map",
+    "type": "licensed_to",
+    "target": "theatrum_orbis_terranum",
+    "event_id": "ortelius_atlas_published",
+    "sources": [
+      {
+        "source_id": "gafar_zada_2022",
+        "page": 4,
+        "quote": "It was an integral part of the world's first modern geographical atlas \"Theatrum Orbis Terranum\" (\"Theatre of the Orb of the World \"), published in 1570 as a result of the p ainstaking work of the famous Flemish cartographer and geographer of the 16th century Abraham Ortelius."
+      }
+    ]
+  },
+  {
+    "id": "map_used_mercator",
+    "source": "nova_absolutaque_map",
+    "type": "licensed_to",
+    "target": "gerardus_mercator",
+    "event_id": "mercator_map_reissued",
+    "sources": [
+      {
+        "source_id": "gafar_zada_2022",
+        "page": 5,
+        "quote": "Jenkinson's map, in addition to Ortelius, was also used by the famous and greatest Flemish cartographer and geographer Gerardus Mercator when reissuing in 1572 his famous map of the world..."
+      }
+    ]
+  },
+  {
+    "id": "szykula_discovered_map",
+    "source": "krystina_szykula",
+    "type": "met",
+    "target": "nova_absolutaque_map",
+    "event_id": "map_discovered",
+    "note": "Discovered the map.",
+    "sources": [
+      {
+        "source_id": "gafar_zada_2022",
+        "page": 6,
+        "quote": "In 1989, sensational news spread around the scientific world: at the regular XIII International Conference on the History of Cartography held in Amsterdam, the Polish cartographer Krystina Szykula... announced the discovery of the original Jenkinson map of 1562."
+      }
+    ]
+  },
+  {
+    "id": "map_stored_wroclaw",
+    "source": "nova_absolutaque_map",
+    "type": "lived_in",
+    "target": "wroclaw_university_library",
+    "sources": [
+      {
+        "source_id": "gafar_zada_2022",
+        "page": 4,
+        "quote": "Figure 1. Map \"Nova Absolutaque Russiae, Moscoviae, et Tartariae Descriptio\" by Anthony Jenkinson, 1562 / Cartographic Collection Department of the Library of Wroclaw University"
+      }
+    ]
+  },
+  {
+    "id": "jenkinson_met_shah",
+    "source": "anthony_jenkinson",
+    "type": "met",
+    "target": "shah_tahmasib_i",
+    "event_id": "jenkinson_meets_shah",
+    "sources": [
+      {
+        "source_id": "gafar_zada_2022",
+        "page": 28,
+        "quote": "Although the long -awaited for the British audience of Anthony Jenkinson with Shah Tahmasib I, which took place on November 20, 1562 in Qazvin, ended not so fruitfully..."
+      }
+    ]
+  },
+  {
+    "id": "jenkinson_met_tsar",
+    "source": "anthony_jenkinson",
+    "type": "met",
+    "target": "ivan_the_terrible",
+    "event_id": "jenkinson_meets_safavid_envoy",
+    "sources": [
+      {
+        "source_id": "gafar_zada_2022",
+        "page": 8,
+        "quote": "...he not only dined in the presence of Tsar Ivan the Terrible on March 15, 1562, but also set off with him on his way to the Safavid Empire..."
+      }
+    ]
+  }
+]

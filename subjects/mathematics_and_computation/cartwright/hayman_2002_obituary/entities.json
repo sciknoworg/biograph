@@ -1,0 +1,185 @@
+[
+  {
+    "aliases": [
+      "Dame Mary",
+      "Dame Mary Cartwright",
+      "Mary Cartwright"
+    ],
+    "entity_type": "person",
+    "id": "mary_cartwright",
+    "name": "Mary Lucy Cartwright",
+    "subtype": "researcher",
+    "summary": "British mathematician known for work on nonlinear differential equations and chaos theory."
+  },
+  {
+    "aliases": [
+      "John Edensor Littlewood",
+      "Littlewood"
+    ],
+    "entity_type": "person",
+    "id": "j_e_littlewood",
+    "name": "J. E. Littlewood",
+    "subtype": "researcher",
+    "summary": "British mathematician and long-time collaborator of Mary Cartwright."
+  },
+  {
+    "aliases": [
+      "Godfrey Harold Hardy",
+      "Hardy"
+    ],
+    "entity_type": "person",
+    "id": "g_h_hardy",
+    "name": "G. H. Hardy",
+    "subtype": "researcher",
+    "summary": "British mathematician who supervised Mary Cartwright's doctoral work."
+  },
+  {
+    "aliases": [
+      "Edward Charles Titchmarsh",
+      "Titchmarsh"
+    ],
+    "entity_type": "person",
+    "id": "e_c_titchmarsh",
+    "name": "E. C. Titchmarsh",
+    "subtype": "researcher",
+    "summary": "British mathematician who supervised Mary Cartwright when Hardy was away."
+  },
+  {
+    "aliases": [
+      "Girton"
+    ],
+    "entity_type": "organization",
+    "id": "girton_college",
+    "name": "Girton College",
+    "subtype": "university",
+    "summary": "Women's constituent college of the University of Cambridge where Cartwright was a Fellow and Mistress."
+  },
+  {
+    "aliases": [
+      "St Hugh's"
+    ],
+    "entity_type": "organization",
+    "id": "st_hughs_college",
+    "name": "St Hugh's College",
+    "subtype": "university",
+    "summary": "Women's constituent college of the University of Oxford where Cartwright studied."
+  },
+  {
+    "aliases": [
+      "Oxford"
+    ],
+    "entity_type": "organization",
+    "id": "oxford_university",
+    "name": "University of Oxford",
+    "subtype": "university",
+    "summary": "University where Mary Cartwright completed her undergraduate and doctoral studies."
+  },
+  {
+    "aliases": [
+      "Cambridge"
+    ],
+    "entity_type": "organization",
+    "id": "cambridge_university",
+    "name": "University of Cambridge",
+    "subtype": "university",
+    "summary": "University where Mary Cartwright worked as a lecturer and Mistress of Girton College."
+  },
+  {
+    "aliases": [
+      "The Royal Society"
+    ],
+    "entity_type": "organization",
+    "id": "royal_society",
+    "name": "Royal Society",
+    "subtype": "organization",
+    "summary": "Learned society for science of which Cartwright was a Fellow and Council member."
+  },
+  {
+    "aliases": [
+      "LMS"
+    ],
+    "entity_type": "organization",
+    "id": "london_mathematical_society",
+    "name": "London Mathematical Society",
+    "subtype": "organization",
+    "summary": "Mathematical society of which Cartwright was the first woman president."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "radio_research_board",
+    "name": "Radio Research Board",
+    "subtype": "organization",
+    "summary": "British government board that requested mathematical guidance on radio engineering equations."
+  },
+  {
+    "aliases": [
+      "Aynhoe"
+    ],
+    "attributes": {
+      "country": "United Kingdom",
+      "county": "Northamptonshire",
+      "lat": 52.0,
+      "lng": -1.25,
+      "wikidata_qid": "Q2035428",
+      "geocode_basis": "country"
+    },
+    "entity_type": "place",
+    "id": "aynho",
+    "name": "Aynho",
+    "subtype": "village",
+    "summary": "Village in Northamptonshire where Mary Cartwright was born and lived until 1926."
+  },
+  {
+    "aliases": [
+      "Midfield Lodge"
+    ],
+    "entity_type": "organization",
+    "id": "midfield_lodge_nursing_home",
+    "name": "Midfield Lodge Nursing Home",
+    "subtype": "facility",
+    "summary": "Nursing home where Mary Cartwright lived from 1994 until her death."
+  },
+  {
+    "aliases": [],
+    "entity_type": "organization",
+    "id": "addenbrookes_hospital",
+    "name": "Addenbrooke's Hospital",
+    "subtype": "hospital",
+    "summary": "Hospital in Cambridge where Mary Cartwright was treated after a fall in 1994."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "van_der_pol_equation",
+    "name": "Van der Pol equation",
+    "subtype": "equation",
+    "summary": "Nonlinear differential equation studied by Cartwright and Littlewood in relation to radio engineering."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "sylvester_medal",
+    "name": "Sylvester Medal",
+    "subtype": "award",
+    "summary": "Award given by the Royal Society which Cartwright received in 1964."
+  },
+  {
+    "aliases": [],
+    "entity_type": "artifact",
+    "id": "de_morgan_medal",
+    "name": "de Morgan Medal",
+    "subtype": "award",
+    "summary": "Highest honour of the London Mathematical Society awarded to Cartwright in 1968."
+  },
+  {
+    "aliases": [
+      "DBE"
+    ],
+    "entity_type": "artifact",
+    "id": "dame_commander_order_british_empire",
+    "name": "Dame Commander of the Order of the British Empire",
+    "subtype": "award",
+    "summary": "British honour appointed to Cartwright in 1969."
+  }
+]
