@@ -1,0 +1,18 @@
+[
+  {
+    "id": "yuan_longping_awarded_father_title",
+    "source": "yuan_longping",
+    "type": "awarded",
+    "target": "fao",
+    "event_id": "yuan_longping_title_1982",
+    "note": "Named by Indian scholar, FAO listed technology",
+    "sources": [
+      {
+        "source_id": "gao_zhu_2023",
+        "page": 1,
+        "quote": "respectfully named by an Indian scholar as the "
+      }
+    ],
+    "_rejected_because": "'awarded' expects target entity_type artifact, but 'fao' is 'organization'"
+  }
+]

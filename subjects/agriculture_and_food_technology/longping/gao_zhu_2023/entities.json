@@ -1,0 +1,111 @@
+[
+  {
+    "id": "yuan_longping",
+    "entity_type": "person",
+    "name": "Yuan Longping",
+    "aliases": [
+      "Father of Hybrid Rice",
+      "Yuan"
+    ],
+    "summary": "Chinese agronomist known for developing the first hybrid rice varieties.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "hunian_hybrid_rice_research_center",
+    "entity_type": "organization",
+    "name": "Hunan Hybrid Rice Research Center",
+    "aliases": [],
+    "summary": "Research center established to train rice research scientists and continue hybrid rice research.",
+    "subtype": "lab"
+  },
+  {
+    "id": "ministry_of_agriculture_china",
+    "entity_type": "organization",
+    "name": "Ministry of Agriculture of China",
+    "aliases": [],
+    "summary": "Chinese government ministry responsible for agriculture policies and programs.",
+    "subtype": "government"
+  },
+  {
+    "id": "hybrid_rice",
+    "entity_type": "artifact",
+    "name": "hybrid rice",
+    "aliases": [
+      "high-yield hybrid rice",
+      "first-generation hybrid rice technology",
+      "second-generation hybrid rice technology",
+      "third-generation hybrid rice technology"
+    ],
+    "summary": "High-yield rice varieties created using heterosis and three-line or two-line matching methods.",
+    "subtype": "product"
+  },
+  {
+    "id": "super_rice",
+    "entity_type": "artifact",
+    "name": "super rice",
+    "aliases": [
+      "super hybrid rice",
+      "Super Rice Breeding Program"
+    ],
+    "summary": "Super-high-yield hybrid rice breeding program and resulting varieties.",
+    "subtype": "product"
+  },
+  {
+    "id": "sea_rice",
+    "entity_type": "artifact",
+    "name": "sea rice",
+    "aliases": [
+      "sea-water tolerant rice"
+    ],
+    "summary": "Rice variety capable of growing in saline-alkali land.",
+    "subtype": "product"
+  },
+  {
+    "id": "low_cadmium_rice",
+    "entity_type": "artifact",
+    "name": "low cadmium-accumulating rice",
+    "aliases": [],
+    "summary": "Rice variety engineered to block cadmium absorption.",
+    "subtype": "product"
+  },
+  {
+    "id": "china",
+    "entity_type": "place",
+    "name": "China",
+    "aliases": [],
+    "summary": "Country where Yuan Longping was born and conducted his research.",
+    "subtype": "country",
+    "attributes": {
+      "country": "China",
+      "lat": 35.0,
+      "lng": 105.0,
+      "wikidata_qid": "Q29520",
+      "geocode_basis": "country"
+    }
+  },
+  {
+    "id": "hunian_province",
+    "entity_type": "place",
+    "name": "Hunan Province",
+    "aliases": [
+      "Hunan"
+    ],
+    "summary": "Province in China where hybrid rice yields were recorded.",
+    "subtype": "region",
+    "attributes": {
+      "country": "China"
+    }
+  },
+  {
+    "id": "hengnan_county",
+    "entity_type": "place",
+    "name": "Hengnan County",
+    "aliases": [],
+    "summary": "County in Hunan Province where third-generation hybrid rice yield data was produced.",
+    "subtype": "city",
+    "attributes": {
+      "country": "China",
+      "region": "Hunan Province"
+    }
+  }
+]

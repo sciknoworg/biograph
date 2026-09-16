@@ -1,0 +1,81 @@
+[
+  {
+    "id": "yuan_born_in_china",
+    "source": "yuan_longping",
+    "type": "born_in",
+    "target": "china",
+    "sources": [
+      {
+        "source_id": "gao_zhu_2023",
+        "page": 2,
+        "quote": "Born in poor and backward China"
+      }
+    ]
+  },
+  {
+    "id": "yuan_worked_at_center",
+    "source": "yuan_longping",
+    "type": "worked_at",
+    "target": "hunian_hybrid_rice_research_center",
+    "event_id": "yuan_center_established",
+    "sources": [
+      {
+        "source_id": "gao_zhu_2023",
+        "page": 2,
+        "quote": "Yuan established the Hunan Hybrid Rice Research Center in 1984"
+      }
+    ]
+  },
+  {
+    "id": "yuan_invented_hybrid_rice",
+    "source": "yuan_longping",
+    "type": "invented",
+    "target": "hybrid_rice",
+    "sources": [
+      {
+        "source_id": "gao_zhu_2023",
+        "page": 1,
+        "quote": "Yuan Longping, created high-yield hybrid rice"
+      }
+    ]
+  },
+  {
+    "id": "yuan_developed_super_rice",
+    "source": "yuan_longping",
+    "type": "developed",
+    "target": "super_rice",
+    "sources": [
+      {
+        "source_id": "gao_zhu_2023",
+        "page": 2,
+        "quote": "subsequently developed a two-line method that greatly improved the ef ﬁciency of rice breeding and seed production... and super hybrid rice"
+      }
+    ]
+  },
+  {
+    "id": "yuan_developed_sea_rice",
+    "source": "yuan_longping",
+    "type": "developed",
+    "target": "sea_rice",
+    "sources": [
+      {
+        "source_id": "gao_zhu_2023",
+        "page": 1,
+        "quote": "The research achievements of Yuan and his team on low cadmium-accumulating rice and sea rice"
+      }
+    ]
+  },
+  {
+    "id": "yuan_developed_low_cadmium_rice",
+    "source": "yuan_longping",
+    "type": "developed",
+    "target": "low_cadmium_rice",
+    "sources": [
+      {
+        "source_id": "gao_zhu_2023",
+        "page": 1,
+        "quote": "The research achievements of Yuan and his team on low cadmium-accumulating rice and sea rice"
+      }
+    ]
+  }
+]

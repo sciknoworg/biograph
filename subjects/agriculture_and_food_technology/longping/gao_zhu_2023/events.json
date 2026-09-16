@@ -1,0 +1,280 @@
+[
+  {
+    "id": "yuan_birth",
+    "event_type": "birth",
+    "label": "Born in China",
+    "date": {
+      "display": "1930",
+      "precision": "year",
+      "sort_start": "1930-01-01",
+      "sort_end": "1930-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "yuan_longping",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gao_zhu_2023",
+        "page": 1,
+        "quote": "Yuan Longping (1930– 2021)"
+      }
+    ]
+  },
+  {
+    "id": "yuan_field_survey",
+    "event_type": "other",
+    "label": "Conducted field survey of rice ears",
+    "description": "Inspected 14,000 rice ears and found six male sterile individuals.",
+    "date": {
+      "display": "1964",
+      "precision": "year",
+      "sort_start": "1964-01-01",
+      "sort_end": "1964-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "yuan_longping",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gao_zhu_2023",
+        "page": 2,
+        "quote": "Yuan 's landmark research began with a ﬁeld survey in 1964; after inspecting 14,000 rice ears, he found six male sterile individuals"
+      }
+    ]
+  },
+  {
+    "id": "yuan_publication_1966",
+    "event_type": "publication",
+    "label": "Published discovery of male sterile rice",
+    "date": {
+      "display": "1966",
+      "precision": "year",
+      "sort_start": "1966-01-01",
+      "sort_end": "1966-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "yuan_longping",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gao_zhu_2023",
+        "page": 2,
+        "quote": "published this discovery two years later ( Yuan, 1966)"
+      }
+    ]
+  },
+  {
+    "id": "yuan_named_father",
+    "event_type": "award",
+    "label": "Named 'Father of Hybrid Rice'",
+    "description": "Respectfully named by an Indian scholar.",
+    "date": {
+      "display": "1982",
+      "precision": "year",
+      "sort_start": "1982-01-01",
+      "sort_end": "1982-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "yuan_longping",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gao_zhu_2023",
+        "page": 1,
+        "quote": "respectfully named by an Indian scholar as the "
+      }
+    ]
+  },
+  {
+    "id": "yuan_cultivation_promoted",
+    "event_type": "product_launch",
+    "label": "Promoted large-scale hybrid rice cultivation",
+    "description": "Yuan and his colleagues promoted large-scale hybrid rice cultivation in China.",
+    "date": {
+      "display": "1976",
+      "precision": "year",
+      "sort_start": "1976-01-01",
+      "sort_end": "1976-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "yuan_longping",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gao_zhu_2023",
+        "page": 2,
+        "quote": "Yuan and his colleagues promoted large-scale hybrid rice cultivation in China in 1976"
+      }
+    ]
+  },
+  {
+    "id": "yuan_center_established",
+    "event_type": "company_founded",
+    "label": "Established Hunan Hybrid Rice Research Center",
+    "date": {
+      "display": "1984",
+      "precision": "year",
+      "sort_start": "1984-01-01",
+      "sort_end": "1984-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "yuan_longping",
+        "role": "subject"
+      },
+      {
+        "entity_id": "hunian_hybrid_rice_research_center",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gao_zhu_2023",
+        "page": 2,
+        "quote": "Yuan established the Hunan Hybrid Rice Research Center in 1984"
+      }
+    ]
+  },
+  {
+    "id": "super_rice_program_approved",
+    "event_type": "other",
+    "label": "Super Rice Breeding Program approved",
+    "description": "Ministry of Agriculture of China formally approved China's Super Rice Breeding Program.",
+    "date": {
+      "display": "1996",
+      "precision": "year",
+      "sort_start": "1996-01-01",
+      "sort_end": "1996-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "yuan_longping",
+        "role": "subject"
+      },
+      {
+        "entity_id": "ministry_of_agriculture_china",
+        "role": "awarding_body"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gao_zhu_2023",
+        "page": 2,
+        "quote": "in 1996, the Ministry of Agriculture of China formally approved China 's Super Rice Breeding Program"
+      }
+    ]
+  },
+  {
+    "id": "yuan_yield_2011",
+    "event_type": "other",
+    "label": "Reported hybrid rice yield of 926.6 kg/mu",
+    "date": {
+      "display": "2011",
+      "precision": "year",
+      "sort_start": "2011-01-01",
+      "sort_end": "2011-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "yuan_longping",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gao_zhu_2023",
+        "page": 2,
+        "quote": "The reported yields of 926.6 kg/mu and 1026.7 kg/mu in 2011 and 2014, respectively, were twice the average yield of rice in China"
+      }
+    ]
+  },
+  {
+    "id": "yuan_yield_2014",
+    "event_type": "other",
+    "label": "Reported hybrid rice yield of 1026.7 kg/mu",
+    "date": {
+      "display": "2014",
+      "precision": "year",
+      "sort_start": "2014-01-01",
+      "sort_end": "2014-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "yuan_longping",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gao_zhu_2023",
+        "page": 2,
+        "quote": "The reported yields of 926.6 kg/mu and 1026.7 kg/mu in 2011 and 2014, respectively, were twice the average yield of rice in China"
+      }
+    ]
+  },
+  {
+    "id": "yuan_yield_2020",
+    "event_type": "other",
+    "label": "Third-generation hybrid rice yield reached 1530.76 kg/mu",
+    "description": "Production data in Hengnan County, Hunan Province showed cross-season rice yield.",
+    "date": {
+      "display": "2020",
+      "precision": "year",
+      "sort_start": "2020-01-01",
+      "sort_end": "2020-12-31"
+    },
+    "location": "hengnan_county",
+    "participants": [
+      {
+        "entity_id": "yuan_longping",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gao_zhu_2023",
+        "page": 2,
+        "quote": "In 2020, the production data of third-generation hybrid rice in Hengnan County, Hunan Province, showed that the yield of cross- season rice reached 1530.76 kg/mu"
+      }
+    ]
+  },
+  {
+    "id": "yuan_death",
+    "event_type": "death",
+    "label": "Died",
+    "date": {
+      "display": "2021",
+      "precision": "year",
+      "sort_start": "2021-01-01",
+      "sort_end": "2021-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "yuan_longping",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "gao_zhu_2023",
+        "page": 1,
+        "quote": "Yuan Longping (1930– 2021)"
+      }
+    ]
+  }
+]
