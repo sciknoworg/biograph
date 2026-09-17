@@ -61,6 +61,13 @@ scripts/backup_evidence.py
 #            cs_taxonomy.json, earth_space_taxonomy.json,
 #            life_sciences_taxonomy.json, engineering_taxonomy.json,
 #            mathematics_taxonomy.json, agriculture_taxonomy.json
+#
+# Probe taxonomies: 15-20 hand-written names used only to measure a candidate field's
+# open-access reachability before committing to it. Not generated from the template like
+# the nine real ones, so they are never tracked -- if a probe justifies a real run, that
+# domain gets a proper generated taxonomy of its own.
+*_probe_taxonomy.json
+*_probe_state.json
 
 # Per-domain pipeline state -- bookkeeping, never useful outside this machine.
 pipeline_state.json
