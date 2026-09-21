@@ -287,7 +287,19 @@ not cover is not, however distinguished.
 """
 
 
-def build_prompt(slug, name, text, strict_scope=None):
+#: Replaces the "leave the other keys empty" instruction when the scope gate is disabled.
+#: The verdict is still asked for and still recorded -- only its power to stop the run is
+#: removed. That is what makes the ablation worth running: every document then carries both
+#: what the gate WOULD have said and what the extractor actually produced, so extraction
+#: quality can be reported on the refused subset specifically instead of being unmeasurable.
+IGNORE_SCOPE_INSTRUCTION = (
+    "Record your scope verdict in the scope key exactly as described above, then extract the "
+    "document IN FULL regardless of that verdict: entities, events, relations and sources must "
+    "be populated from the document even when scope.fits is false. The verdict is being "
+    "collected as an observation here, not used to decide whether to extract. ")
+
+
+def build_prompt(slug, name, text, strict_scope=None, ignore_scope=False):
     schemas = {fn: json.load(open(os.path.join(SCHEMA_DIR, f"{fn}.schema.json"), encoding="utf-8"))
                for fn in SCHEMA_FILES}
     system = (
@@ -301,9 +313,10 @@ def build_prompt(slug, name, text, strict_scope=None):
         'principally about, in the fullest form the document gives, or null if there is no '
         'single such person>"} -- fits must be a real JSON boolean, not a string. Judge scope '
         "from the document text above and nothing else: not from what you already know about "
-        "the person, and not from whether the name you were given sounds significant. If "
-        "scope.fits is false, the other six keys are not used and may be left empty. "
-        "Every object in entities/events/relations/sources must validate against the "
+        "the person, and not from whether the name you were given sounds significant. "
+        + (IGNORE_SCOPE_INSTRUCTION if ignore_scope else
+           "If scope.fits is false, the other six keys are not used and may be left empty. ")
+        + "Every object in entities/events/relations/sources must validate against the "
         "matching JSON Schema below (draft 2020-12). related_fields is a plain array of short "
         "strings: other distinct subfields or technology areas, within this collection's field, that this "
         "document discusses as context -- e.g. a related technique it compares against, a "
@@ -1312,11 +1325,15 @@ def choose_model():
 
 def extract(pdf_path, slug, name, model, base_url, api_key, max_chars, max_tokens,
             delete_out_of_scope=True, related_fields_out=None, keep_source_pdf=False,
-            strict_scope=False, scope_out=None, scope_domain=None, domain=None):
+            strict_scope=False, scope_out=None, scope_domain=None, domain=None,
+            ignore_scope=False):
     print(f"Reading {pdf_path}...")
     text = source_text(pdf_path, max_chars)
     system, user = build_prompt(slug, name, text,
-                                 strict_scope=strict_scope_rules(scope_domain) if strict_scope else None)
+                                 strict_scope=strict_scope_rules(scope_domain) if strict_scope else None,
+                                 ignore_scope=ignore_scope)
+    if ignore_scope:
+        print("  !! --ignore-scope: the scope verdict will be recorded but NOT enforced.")
     print(f"Asking {model} to draft the graph ({len(text):,} chars of source text)...")
     start = time.perf_counter()
     data = call_llm(system, user, model, base_url, api_key, max_tokens)
@@ -1332,9 +1349,16 @@ def extract(pdf_path, slug, name, model, base_url, api_key, max_chars, max_token
         with open(scope_out, "w", encoding="utf-8") as f:
             json.dump({"fits": (scope or {}).get("fits", True),
                        "reason": (scope or {}).get("reason", ""),
-                       "subject_name": who if isinstance(who, str) and who.strip() else None},
+                       "subject_name": who if isinstance(who, str) and who.strip() else None,
+                       # Provenance: a caller reading this file must be able to tell a document
+                       # the gate admitted from one it would have refused but was told to
+                       # extract anyway. Without it the two are indistinguishable downstream.
+                       "gate_enforced": not ignore_scope},
                       f, ensure_ascii=False)
-    if scope is not None and not scope["fits"]:
+    if scope is not None and not scope["fits"] and ignore_scope:
+        print(f"\nOut of scope ({scope['reason'] or 'no reason given'}) -- extracting anyway "
+              f"because --ignore-scope was passed.")
+    elif scope is not None and not scope["fits"]:
         print(f"\nOut of scope: {scope['reason'] or '(the model gave no reason)'}")
         if delete_out_of_scope:
             try:
@@ -1772,6 +1796,12 @@ def main():
                                    "(a PDF, or a .txt of already-extracted text)")
     ap.add_argument("--text", help="same as --pdf, named for clarity when the source is a .txt "
                                     "of already-extracted text (e.g. CORE's own full text)")
+    ap.add_argument("--ignore-scope", action="store_true",
+                     help="record the scope verdict but do not act on it: extract the document "
+                          "even when the model judges it out of scope. For measuring the "
+                          "extractor separately from the genre admission policy -- see "
+                          "experiments/docs/scope-gate-boundary.md. NOT for building the corpus: "
+                          "it is how out-of-scope people end up in subjects/")
     ap.add_argument("--strict-scope", action="store_true",
                      help="apply this collection's extra scope rules on top of SCOPE_DEFINITION: "
                           "English, one central figure, substantial, and materials science or an "
@@ -1797,7 +1827,7 @@ def main():
     ap.add_argument("--keep-source-pdf", action="store_true",
                      help="also archive the source PDF under data/, alongside the extracted "
                           "text. Off by default: the text is what the model actually read and "
-                          "what --check-grounding verifies against, at ~3.5% of the PDF's size, "
+                          "what --check-grounding verifies against, at ~3.5%% of the PDF's size, "
                           "and sources.json/the manifest already record DOI, url and provider "
                           "for re-obtaining the original")
     ap.add_argument("--check-grounding", action="store_true",
@@ -1819,6 +1849,12 @@ def main():
                           "mentioned in the document beyond its main subject) to this path as JSON "
                           "-- opt-in, for run_pipeline.py's taxonomy growth; not written otherwise")
     args = ap.parse_args()
+
+    if args.ignore_scope and args.strict_scope:
+        ap.error("--ignore-scope and --strict-scope contradict each other: one disables the "
+                 "scope gate, the other tightens it")
+    if args.ignore_scope and not (args.pdf or args.text):
+        ap.error("--ignore-scope only affects drafting, so it needs --pdf or --text")
 
     if args.all:
         slugs = sorted(subject_slugs())
@@ -1870,7 +1906,8 @@ def main():
                     related_fields_out=args.related_fields_out,
                     keep_source_pdf=args.keep_source_pdf,
                     strict_scope=args.strict_scope, scope_out=args.scope_out,
-                    scope_domain=args.scope_domain, domain=args.domain)
+                    scope_domain=args.scope_domain, domain=args.domain,
+                    ignore_scope=args.ignore_scope)
         except Exception as e:  # anything not already a deliberate sys.exit() inside extract()
             sys.exit(f"Extraction failed unexpectedly ({type(e).__name__}: {e}) -- the source "
                       f"document may be corrupt, unreadable, or empty.")
