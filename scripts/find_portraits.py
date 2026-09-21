@@ -31,18 +31,59 @@ import build_site as bs
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SUBJECTS_DIR = os.path.join(ROOT, "subjects")
-UA = "biograph-portrait-finder/1.0 (https://github.com/sciknoworg/biograph)"
-CANDIDATE_LIMIT = 3  # top N Wikidata search results considered per person
+#: Wikimedia's user-agent policy asks automated clients to identify themselves and give a
+#: contact route; ones that don't are throttled far harder. Same form as geocode_places.py's.
+UA = ("biograph-portrait-finder/1.0 "
+      "(https://github.com/sciknoworg/biograph; portraits for a research corpus) "
+      "python-urllib")
+CANDIDATE_LIMIT = 3  # top N Wikidata search results considered per name
+MAX_CANDIDATES = 6   # ...and per person, across all their names, so aliases can't fan out
+
+#: The pace geocode_places.py arrived at by measurement, for the same reason it needed one. A
+#: fixed per-call sleep -- this file used 0.2s, and 0.35s already produced a 429 within five
+#: lookups there -- forgets what the previous call just learned, so every request rediscovers
+#: the limit and pays its own backoff. Wikimedia rate-limits anonymous clients with a 429
+#: rather than by degrading, so the right response is to slow down and stay slow until
+#: sustained success earns the pace back. One pace covers both endpoints below: the limit is
+#: per-client, not per-host.
+MIN_DELAY = 1.0
+MAX_DELAY = 30.0
+MAX_RETRIES = 6
+
+_delay = MIN_DELAY
+_ok_streak = 0
 
 
 def http_get_json(url, params):
-    req = urllib.request.Request(url + "?" + urllib.parse.urlencode(params), headers={"User-Agent": UA})
-    try:
-        with urllib.request.urlopen(req, timeout=20) as r:
-            return json.load(r)
-    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as e:
-        print(f"      (request to {url} failed: {e} — skipping)")
-        return None
+    """One Wikimedia API call at the current adaptive pace.
+
+    Returns None rather than raising when the lookup can't be completed. No data means no
+    portrait, and no portrait is this script's safe outcome -- a wrong photo is worse than
+    none. Only the retryable codes are retried; anything else is a real answer, not congestion."""
+    global _delay, _ok_streak
+    req = urllib.request.Request(url + "?" + urllib.parse.urlencode(params),
+                                 headers={"User-Agent": UA})
+    for attempt in range(MAX_RETRIES):
+        time.sleep(_delay)
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                data = json.load(r)
+            _ok_streak += 1
+            if _ok_streak >= 10 and _delay > MIN_DELAY:      # ease back off cautiously
+                _delay = max(MIN_DELAY, _delay * 0.8)
+                _ok_streak = 0
+            return data
+        except urllib.error.HTTPError as e:                  # subclass of URLError: catch first
+            if e.code not in (429, 500, 502, 503, 504) or attempt == MAX_RETRIES - 1:
+                print(f"      (request to {url} failed: {e} — skipping)")
+                return None
+            _ok_streak = 0
+            _delay = min(MAX_DELAY, max(_delay * 1.8, 2.0))
+            print("      (%s from Wikimedia — pace now %.1fs/request)" % (e.code, _delay))
+        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as e:
+            print(f"      (request to {url} failed: {e} — skipping)")
+            return None
+    return None
 
 
 def wikidata_search(name):
@@ -127,11 +168,26 @@ def judge_candidates(entity, candidates, ref_year, model, base_url, api_key):
         f'match. Reply with only this JSON: {{"qid": "<chosen qid, or null>", "reason": "one sentence"}}'
     )
     try:
+        # Reasoning models spend this budget thinking before they emit any content, and they
+        # charge that thinking against max_tokens. At 300 -- enough for the answer alone -- a
+        # measured run finished every single call with finish_reason "length" and empty
+        # content, and the empty content was then indistinguishable from a considered "none of
+        # these match". 62 people with obvious, unambiguous Wikidata items (Boyle, Priestley,
+        # Perutz) were rejected that way. The same call at 2,000 answers correctly in ~880.
         resp = client.chat.completions.create(
-            model=model, temperature=0, max_tokens=300,
+            model=model, temperature=0, max_tokens=2000,
             messages=[{"role": "user", "content": prompt}],
             response_format={"type": "json_object"})
-        result = json.loads(resp.choices[0].message.content)
+        choice = resp.choices[0]
+        content = (choice.message.content or "").strip()
+        if not content:
+            # Never silently downgrade this to "no match": a reply that never arrived is not
+            # evidence about identity, and treating it as one loses portraits invisibly.
+            print(f"      (no verdict returned -- finish_reason={choice.finish_reason}"
+                  f"{', raise max_tokens' if choice.finish_reason == 'length' else ''} "
+                  f"-- leaving unverified)")
+            return None, ""
+        result = json.loads(content)
         return result.get("qid"), result.get("reason", "")
     except Exception as e:
         print(f"      (verification call failed: {e} — treating as no match)")
@@ -154,7 +210,8 @@ def resolve_portrait(chosen, confidence):
     }
 
 
-def run(slug, base_url=None, model=None, api_key=None, no_llm=False, force=False, rebuild=True):
+def run(slug, base_url=None, model=None, api_key=None, no_llm=False, force=False, rebuild=True,
+        subject_only=False):
     """Attach portraits for every document folder belonging to this subject.
 
     A subject holds one folder per source document (see bs.subject_documents), each with its own
@@ -164,22 +221,80 @@ def run(slug, base_url=None, model=None, api_key=None, no_llm=False, force=False
     docs = bs.subject_documents(slug)
     if not docs:
         sys.exit(f"subjects/{slug}/ has no document folders to attach portraits to.")
+    only = subject_identity(slug) if subject_only else None
+    if subject_only and only is None:
+        print(f"  ({slug} has no subject.json to identify the biographee -- checking everyone)")
     for i, (doc_key, ddir) in enumerate(docs):
         if doc_key and len(docs) > 1:
             print(f"\n-- {slug}/{doc_key} --")
         run_document(slug, ddir, base_url=base_url, model=model, api_key=api_key,
-                     no_llm=no_llm, force=force,
+                     no_llm=no_llm, force=force, only=only,
                      rebuild=rebuild and i == len(docs) - 1)  # render once, after the last one
 
 
+def _fold(s):
+    return " ".join(str(s).casefold().split())
+
+
+#: Titles and post-nominals, stripped before matching a subject to its own entity. subject.json
+#: takes its name from whatever the source called the person, and a source may be formal where
+#: the extraction is plain: Hodgkin is "Professor Sir Alan Hodgkin OM, FRS" in one and "Alan
+#: Hodgkin" in the other, which is the same human by any reading but no string match at all.
+NOT_NAME_TOKENS = {
+    "professor", "prof", "sir", "dame", "dr", "doctor", "lord", "lady", "rev", "reverend",
+    "mr", "mrs", "ms", "baron", "count", "the", "hon",
+    "om", "frs", "frse", "kbe", "cbe", "obe", "mbe", "gbe", "phd", "md", "dsc", "dphil",
+    "fba", "frcp", "facs", "ma", "msc", "bsc", "ba", "lld", "jr", "sr", "ii", "iii", "iv",
+}
+
+
+def _core_name(s):
+    """A name reduced to the parts that actually identify a person."""
+    tokens = [t for t in re.split(r"[\s,.]+", _fold(s)) if t and t not in NOT_NAME_TOKENS]
+    return " ".join(tokens)
+
+
+def _name_keys(*values):
+    """Every form a name might be matched by: as written, and stripped of honorifics."""
+    keys = set()
+    for v in values:
+        if not v:
+            continue
+        keys.add(_fold(v))
+        core = _core_name(v)
+        if core:
+            keys.add(core)
+    return keys
+
+
+def subject_identity(slug):
+    """The folded id/name/aliases of the person a subject is *about*, from subject.json.
+
+    Needed because a document's person entities are everyone the document mentions -- mostly
+    colleagues, rivals and relatives who appear once. Those are exactly the cases where a
+    namesake is hardest to rule out and a wrong face does the most damage, so --subject-only
+    spends lookups on the biographee alone. Returns None when subject.json is missing, which
+    the caller treats as "no restriction possible" rather than "match nothing"."""
+    path = os.path.join(bs.subject_dir_for(slug), "subject.json")
+    if not os.path.isfile(path):
+        return None
+    with open(path, encoding="utf-8") as f:
+        subject = json.load(f)
+    return _name_keys(subject.get("id"), subject.get("name"), *(subject.get("aliases") or []))
+
+
 def run_document(slug, sdir, base_url=None, model=None, api_key=None, no_llm=False,
-                 force=False, rebuild=True):
+                 force=False, rebuild=True, only=None):
     with open(os.path.join(sdir, "entities.json"), encoding="utf-8") as f:
         entities = json.load(f)
     with open(os.path.join(sdir, "events.json"), encoding="utf-8") as f:
         events = json.load(f)
 
     people = [e for e in entities if e.get("entity_type") == "person" and (force or "portrait" not in e)]
+    if only is not None:
+        def is_the_subject(e):
+            return bool(_name_keys(e.get("id"), e.get("name"), *(e.get("aliases") or [])) & only)
+        people = [e for e in people if is_the_subject(e)]
     if not people:
         print("No person entities need a portrait check (use --force to re-check existing ones).")
         return
@@ -188,13 +303,20 @@ def run_document(slug, sdir, base_url=None, model=None, api_key=None, no_llm=Fal
     resolved, needs_llm = {}, {}  # entity id -> ({"chosen":..,"confidence":..} | (candidates, ref_year))
     for entity in people:
         print(f"  {entity['name']}...")
-        names = [entity["name"]] + list(entity.get("aliases", []))
-        raw = []
-        for name in names:
-            raw = wikidata_search(name)
-            time.sleep(0.2)
-            if raw:
+        # Search every name this person is known by, not just the first one that returns
+        # anything. A search can return confident-looking wrong people -- "F. A. Abel" resolves
+        # to an American baseball executive -- and stopping at the first non-empty result meant
+        # the alias that actually identifies them ("Sir Frederick Abel", born 1827, an exact
+        # match on file) was never tried. Deduped by qid, since aliases overlap.
+        seen_qids, raw = set(), []
+        for name in [entity["name"]] + list(entity.get("aliases", [])):
+            for r in wikidata_search(name):
+                if r["id"] not in seen_qids:
+                    seen_qids.add(r["id"])
+                    raw.append(r)
+            if len(raw) >= MAX_CANDIDATES:
                 break
+        raw = raw[:MAX_CANDIDATES]
         if not raw:
             print("      no Wikidata match")
             continue
@@ -202,7 +324,6 @@ def run_document(slug, sdir, base_url=None, model=None, api_key=None, no_llm=Fal
         candidates = []
         for r in raw:
             c = wikidata_entity(r["id"])
-            time.sleep(0.2)
             if c and c["image"]:
                 candidates.append(c)
         if not candidates:
@@ -268,12 +389,16 @@ def main():
     ap.add_argument("--force", action="store_true", help="re-check entities that already have a portrait")
     ap.add_argument("--no-llm", action="store_true", help="birth-year matches only; never calls an LLM")
     ap.add_argument("--no-build", action="store_true", help="skip rebuilding dist/<slug>.html afterward")
+    ap.add_argument("--subject-only", action="store_true",
+                    help="check only the person this subject is about, not everyone the "
+                         "documents mention")
     ap.add_argument("--model", default=os.environ.get("BIOGRAPH_MODEL"))
     ap.add_argument("--base-url", default=os.environ.get("BIOGRAPH_BASE_URL"))
     ap.add_argument("--api-key", default=os.environ.get("BIOGRAPH_API_KEY"))
     args = ap.parse_args()
     run(args.slug, base_url=args.base_url, model=args.model, api_key=args.api_key,
-        no_llm=args.no_llm, force=args.force, rebuild=not args.no_build)
+        no_llm=args.no_llm, force=args.force, rebuild=not args.no_build,
+        subject_only=args.subject_only)
 
 
 if __name__ == "__main__":

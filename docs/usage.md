@@ -289,6 +289,7 @@ Portraits](data-accuracy.md#portraits). Flags:
 | Flag | Default | What it does |
 |---|---|---|
 | `--force` | off | Re-check entities that already have a portrait, instead of skipping them. |
+| `--subject-only` | off | Check only the person the subject is *about*, not everyone its documents mention. Most person entities are colleagues or relatives named once — exactly the cases where a namesake is hardest to rule out — so this spends lookups where a photo is both wanted and verifiable. Across the corpus it is the difference between ~250 lookups and ~2,000. |
 | `--no-llm` | off | Birth-year matches only — never makes an LLM call, so no API key is needed at all. |
 | `--no-build` | off | Skip rebuilding `dist/<slug>.html` afterward (only runs if a portrait was actually attached). |
 | `--model`, `--base-url`, `--api-key` | *(prompted, only if needed)* | Same as `build_site.py --pdf`. Only asked for the first time a `description_verified` judgment call actually comes up — never if every match resolves by exact birth year, or `--no-llm` is passed. |
@@ -307,6 +308,14 @@ Every Wikidata/Commons lookup fails independently and prints why (a
 network error, no match, no image, an unresolvable license) rather than
 stopping the whole run — so a restrictive network only costs you that one
 person's photo, not the rest.
+
+Requests are paced adaptively, the same way `geocode_places.py` paces its
+own: one shared delay that rises on a `429` and eases back down only after
+sustained success. Wikimedia rate-limits anonymous clients by returning a
+`429` rather than by slowing down, so a fixed per-call sleep just
+rediscovers the limit on every request. If you script this over many
+subjects, run them **in one process** — a subprocess per subject resets
+the pace and throws away everything the previous lookups learned.
 
 ## 4. Putting places on the map with `geocode_places.py`
 
