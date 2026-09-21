@@ -1,0 +1,18 @@
+# Sandboxed copies of the extraction core, one per run. Rebuilt from the repo by
+# harness/sandbox.py and hash-verified against it, so they are reproducible output,
+# not source.
+.sandbox/
+
+# Benchmark corpora are NOT redistributed here -- same reasoning as data/README.md.
+# Each benchmark carries its own licence (see experiments/README.md "Licensing"),
+# and several are unresolved. Point an adapter at a local copy with --data-root.
+#
+# The fetchers themselves are kept: a corpus a paper cites has to be rebuildable from
+# the repository, and a reproduction step that points at an ignored file is not one.
+corpora/*
+!corpora/*.py
+
+# Raw per-document extractions: large, and they embed the benchmark's own source
+# text in sources[].quote. Scores and manifests under runs/*/report.* are kept.
+runs/*/extractions/
+runs/*/cache/

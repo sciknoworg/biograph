@@ -1,0 +1,70 @@
+{
+  "run_id": "pilot_minimal",
+  "finished": "2026-09-17T11:12:20",
+  "adapter": {
+    "name": "pmoa_tts",
+    "citation": "arXiv:2505.20323 (corpus); arXiv:2504.12350 (framework)",
+    "license": "CC BY-NC-SA 4.0 -- the dataset card's own metadata and the jcweiss2/pmoa_tts README agree; the paper's 'CC BY 4.0' is the outlier. NON-COMMERCIAL and SHARE-ALIKE: not redistributed here, and derived artifacts published with the paper would inherit the terms. Case report text comes separately from PMC Open Access, under each article's own licence.",
+    "metric": "event recall at cosine distance < 0.1 (S-PubMedBert-MS-MARCO), temporal concordance (c-index), AULTC"
+  },
+  "core": {
+    "run_id": "pilot_minimal",
+    "commit": "42dde7420a440be8884a89a11a71000e41bf094e",
+    "core_files_uncommitted": [],
+    "sha256": {
+      "scripts/build_site.py": "deb4e4d2dbc34bf426b3314c4a704babf19372530e5c6360d773281a39e9d96c",
+      "schema/date.schema.json": "88062b53d11e97667f7e4c8c04e09cf11f61e611980c6cd5aa4eec0bec3897ae",
+      "schema/entity.schema.json": "ed2220532d11a96ea0bf0ad184c97de8abe45c8b8feed9f4aca0fa86f1319df0",
+      "schema/event.schema.json": "f83871683eeaf51498fcd696d04bcae9c8231821d4d25f3a52d37d7adcf60a7d",
+      "schema/relation.schema.json": "9560b94aef86f91554ddd05441e026570f4b803e8b859213efd9ebe05dad9d23",
+      "schema/source.schema.json": "761b2cdd818deea6eb9450e90db46a1880c1c63f7291bbf956de4a68262f51b2",
+      "frontend/template.html": "dc79416f6fdc1ca99c786b289b52a951731321c9bb59235558cd61f5e0ac257a",
+      "frontend/world-countries.geo.json": "02caedf9a1e0255deedc985942ccb0b8df102f21c9c551c332e8eda0a18fbcd9"
+    },
+    "extraction_core_modified": false
+  },
+  "extraction_core_divergences": [],
+  "model": {
+    "model": "qwen3.5-397b-a17b",
+    "base_url": "https://chat-ai.academiccloud.de/v1"
+  },
+  "n_documents": 3,
+  "repeats": [
+    {
+      "benchmark": "pmoa_tts",
+      "metric": "event recall at cosine distance < 0.1 (S-PubMedBert-MS-MARCO), temporal concordance (c-index), AULTC",
+      "n_docs": 3,
+      "scores": {
+        "event_recall": 0.0,
+        "diagnostic_recall_occurrences_only": 0.0,
+        "diagnostic_attribute_share_of_gold": 0.0392156862745098
+      },
+      "published_baseline": {
+        "event_recall": 0.8,
+        "concordance": 0.95
+      },
+      "not_applicable": {},
+      "per_label": {
+        "<untyped>": {
+          "n_documents": 3.0
+        }
+      },
+      "attrition": {
+        "out_of_scope": 3,
+        "empty_extraction": 3,
+        "no_gold_timeline": 0,
+        "did_not_validate": 0,
+        "no_oa_text": 0,
+        "no_gold_events": 0
+      },
+      "notes": [
+        "matcher=lev, threshold=0.6 (the benchmark's own setting)",
+        "framing=minimal, anchor=2000-01-01",
+        "0.0% of comparable pairs are tied in the prediction because biograph dates resolve to one day and PMOA-TTS timestamps to one hour; ties score 0.5",
+        "0 extracted items had no expression in this label space (0 more were projected with a named loss)",
+        "4/102 gold rows are patient attributes ('53 years old', 'male') rather than dateable occurrences. biograph cannot emit those by definition; event_recall is the benchmark's own metric over all gold, diagnostic_recall_occurrences_only is the same metric over the rest. The first is the number to report.",
+        "published_baseline is NOT the bar this run clears: measured against an undistributed clinician reference; not reproducible from the release, not directly comparable to a run scored against the LLM annotations. Use --ceiling for a reproducible band."
+      ]
+    }
+  ]
+}
