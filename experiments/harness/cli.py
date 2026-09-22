@@ -42,8 +42,11 @@ def get_adapter(name: str, args):
     if name == "biographical":
         from ..benchmarks.biographical.adapter import BiographicalAdapter
         return BiographicalAdapter(min_facts=args.min_facts)
+    if name == "bioevents":
+        from ..benchmarks.bioevents.adapter import BioEventsAdapter
+        return BioEventsAdapter(min_triggers=args.min_triggers)
     raise SystemExit(f"no adapter named {name!r} yet "
-                     f"(built so far: pmoa_tts, biographical)")
+                     f"(built so far: pmoa_tts, biographical, bioevents)")
 
 
 def main(argv=None) -> int:
@@ -70,6 +73,9 @@ def main(argv=None) -> int:
     ap.add_argument("--min-facts", type=int, default=1,
                     help="skip people with fewer than this many scorable gold facts; each "
                          "person costs one extraction either way")
+    # bioevents options
+    ap.add_argument("--min-triggers", type=int, default=1,
+                    help="skip documents with fewer than this many annotated triggers")
     # pmoa_tts options
     ap.add_argument("--framing", default="minimal", choices=("none", "minimal", "biographical"))
     ap.add_argument("--no-anchor", action="store_true")

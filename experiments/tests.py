@@ -10,6 +10,7 @@ with schema/.
 from __future__ import annotations
 
 import datetime as dt
+import json
 import os
 import re
 import shutil
@@ -472,13 +473,157 @@ def test_biographical_scoring():
           str(rep.published_baseline))
 
 
+# ---------------------------------------------------------- benchmarks/bioevents
+
+def _b2_sentence(pairs):
+    return [(t, l) for t, l in pairs]
+
+
+def test_bioevents_tags_and_offsets():
+    from .benchmarks.bioevents import adapter as b2
+
+    check("an IOB tag splits into label and prefix", b2.parse_tag("B-EVENT") == ("EVENT", "B"))
+    check("an I- tag keeps its label", b2.parse_tag("I-ASP-EVENT") == ("ASP-EVENT", "I"))
+    check("O is not a label", b2.parse_tag("O") == (None, None))
+    check("an empty tag is not a label", b2.parse_tag("") == (None, None))
+    check("a bare label survives", b2.parse_tag("EVENT") == ("EVENT", None))
+
+    sent = _b2_sentence([("Turing", "O"), ("was", "O"), ("born", "B-EVENT"),
+                         ("in", "O"), ("London", "B-ARGx-LOC")])
+    doc = b2.ADAPTER._build_doc("d", [sent])
+    trig = doc.gold["triggers"][0]
+    check("a trigger's offsets point at its own surface in the text",
+          doc.text[trig["start"]:trig["end"]] == "born",
+          repr(doc.text[trig["start"]:trig["end"]]))
+    check("a role annotation is kept apart from triggers",
+          [r["label"] for r in doc.gold["roles"]] == ["ARGx-LOC"], str(doc.gold["roles"]))
+    check("the annotated span covers the sentence",
+          doc.gold["annotated_spans"][0][0] == 0, str(doc.gold["annotated_spans"]))
+
+    # An IOB run is one annotation, not three.
+    run = _b2_sentence([("He", "O"), ("passed", "B-EVENT"), ("away", "I-EVENT"),
+                        ("quietly", "I-EVENT")])
+    doc2 = b2.ADAPTER._build_doc("d2", [run])
+    check("an IOB run merges into a single trigger",
+          len(doc2.gold["triggers"]) == 1
+          and doc2.gold["triggers"][0]["surface"] == "passed away quietly",
+          str(doc2.gold["triggers"]))
+
+
+def _b2_extraction(text_quote, events):
+    evs = []
+    for eid, label, etype in events:
+        evs.append({"id": eid, "event_type": etype, "label": label,
+                    "date": {"display": "", "precision": "year",
+                             "sort_start": "1900-01-01", "sort_end": "1900-12-31"},
+                    "participants": [{"entity_id": "p1", "role": "subject"}],
+                    "sources": [{"source_id": "s", "quote": text_quote}]})
+    return Extraction(doc_id="d", slug="d", subject={"id": "p1", "name": "P"},
+                      entities=({"id": "p1", "entity_type": "person", "name": "P"},),
+                      events=tuple(evs), relations=(), sources=())
+
+
+def test_bioevents_anchoring():
+    """Two events citing one quote must not both answer for the same trigger."""
+    from .benchmarks.bioevents import adapter as b2
+
+    sent = _b2_sentence([("P", "O"), ("was", "O"), ("born", "B-EVENT"), ("and", "O"),
+                         ("died", "B-EVENT"), ("later", "O")])
+    doc = b2.ADAPTER._build_doc("d", [sent])
+    quote = doc.text.strip()
+    ex = _b2_extraction(quote, [("e1", "Born", "birth"), ("e2", "Died", "death")])
+    pred = b2.ADAPTER.project(doc, ex)
+    rep = b2.ADAPTER.score([(doc, pred)])
+    check("both triggers in one shared quote are recalled",
+          rep.per_label["EVENT"]["recalled"] == 2, str(rep.per_label["EVENT"]))
+    check("each match used the strong label+quote anchor",
+          rep.scores["anchored_by_label_and_quote"] == 2 and
+          rep.scores["anchored_by_quote_only"] == 0, str(rep.scores))
+
+    # One event, two triggers: it can answer for only one of them.
+    ex2 = _b2_extraction(quote, [("e1", "Born", "birth")])
+    rep2 = b2.ADAPTER.score([(doc, b2.ADAPTER.project(doc, ex2))])
+    check("one event answers at most one trigger",
+          rep2.per_label["EVENT"]["recalled"] == 1, str(rep2.per_label["EVENT"]))
+
+    # An event whose quote is nowhere in the document has no span to anchor.
+    ex3 = _b2_extraction("text that does not appear", [("e1", "Born", "birth")])
+    rep3 = b2.ADAPTER.score([(doc, b2.ADAPTER.project(doc, ex3))])
+    check("an unlocatable quote anchors nothing and is not scorable",
+          rep3.per_label["EVENT"]["recalled"] == 0
+          and rep3.attrition["unscorable_span"] == 1, str(rep3.attrition))
+
+
+def test_bioevents_state_and_precision():
+    from .benchmarks.bioevents import adapter as b2
+
+    sent = _b2_sentence([("P", "O"), ("was", "O"), ("born", "B-EVENT"), ("and", "O"),
+                         ("was", "O"), ("blind", "B-STATE")])
+    doc = b2.ADAPTER._build_doc("d", [sent])
+    ex = _b2_extraction(doc.text.strip(), [("e1", "Born", "birth")])
+    rep = b2.ADAPTER.score([(doc, b2.ADAPTER.project(doc, ex))])
+    check("STATE is measured, not hidden",
+          rep.per_label["STATE"]["support"] == 1
+          and rep.per_label["STATE"]["recall"] == 0.0, str(rep.per_label["STATE"]))
+    check("STATE is named as not applicable", "STATE" in rep.not_applicable)
+    check("STATE is excluded from macro_recall, so EVENT alone carries it",
+          rep.scores["macro_recall"] == 1.0, str(rep.scores))
+    check("a STATE note explains the ceiling",
+          any("ontological" in n or "dateable occurrence" in n for n in rep.notes),
+          str(rep.notes))
+
+    # Type is recorded as lossy for every event, since it cannot be expressed at all.
+    pred = b2.ADAPTER.project(doc, ex)
+    check("collapsing the biograph type is recorded as lossy",
+          len(pred.lossy) == 1 and "collapses onto TimeML EVENT" in pred.lossy[0][3],
+          str(pred.lossy))
+
+
+def test_bioevents_roles_and_header():
+    from .benchmarks.bioevents import adapter as b2
+
+    check("place relations fill ARGx-LOC", b2.RELATION_ROLE["born_in"] == "ARGx-LOC")
+    check("organisation relations fill ARGx-ORG",
+          b2.RELATION_ROLE["worked_at"] == "ARGx-ORG")
+    check("a relation with no writer-centric role is unmapped",
+          "collaborated_with" not in b2.RELATION_ROLE)
+
+    sent = _b2_sentence([("P", "O"), ("studied", "B-EVENT"), ("at", "O"),
+                         ("Eton", "B-ARGx-ORG")])
+    doc = b2.ADAPTER._build_doc("d", [sent])
+    ex = Extraction(
+        doc_id="d", slug="d", subject={"id": "p1", "name": "P"},
+        entities=({"id": "p1", "entity_type": "person", "name": "P"},
+                  {"id": "eton", "entity_type": "organization", "name": "Eton"}),
+        events=(), relations=({"id": "r", "type": "studied_at",
+                               "source": "p1", "target": "eton"},), sources=())
+    rep = b2.ADAPTER.score([(doc, b2.ADAPTER.project(doc, ex))])
+    check("an organisation role is recalled from the relation",
+          rep.per_label["ARGx-ORG"]["recall"] == 1.0, str(rep.per_label["ARGx-ORG"]))
+
+    tmp = tempfile.mkdtemp(prefix="b2-")
+    try:
+        with open(os.path.join(tmp, "a.json"), "w", encoding="utf-8") as fh:
+            json.dump([{"document": "d1", "tokens": [{"nope": "x", "other": "y"}]}], fh)
+        try:
+            list(b2.ADAPTER.load(tmp))
+            check("an unrecognised header is refused, not guessed", False, "no SystemExit")
+        except SystemExit as e:
+            check("an unrecognised header is refused, not guessed",
+                  "could not find column" in str(e), str(e)[:80])
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
 def main() -> int:
     for fn in (test_parse_timeline, test_matching, test_concordance, test_aultc,
                test_score_document, test_projection, test_input_adapter,
                test_embedding_threshold_calibration, test_pmc_body_boundary,
                test_scoring_end_to_end, test_vocab_and_matrix, test_sandbox,
                test_biographical_projection, test_biographical_family_and_dates,
-               test_biographical_input_adapter, test_biographical_scoring):
+               test_biographical_input_adapter, test_biographical_scoring,
+               test_bioevents_tags_and_offsets, test_bioevents_anchoring,
+               test_bioevents_state_and_precision, test_bioevents_roles_and_header):
         print(f"\n{fn.__name__}")
         fn()
     print()
