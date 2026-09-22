@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import datetime as dt
 import os
+import re
 import shutil
 import sys
 import tempfile
@@ -19,7 +20,7 @@ from .benchmarks.pmoa_tts import adapter as pt
 from .benchmarks.pmoa_tts import pmc as pt_pmc
 from .benchmarks.pmoa_tts import score as sc
 from .harness import coverage, sandbox, vocab
-from .harness.interface import Extraction
+from .harness.interface import BenchmarkDoc, Extraction, Prediction
 
 FAILURES: list[str] = []
 
@@ -321,11 +322,163 @@ def test_sandbox():
         sandbox.discard(sb)
 
 
+# ------------------------------------------------------- benchmarks/biographical
+
+def _b1_doc(doc_id="A", name="A Person"):
+    return BenchmarkDoc(doc_id=doc_id, slug="a", name=name, text="", gold=())
+
+
+def test_biographical_projection():
+    """The output adapter's four sharp edges, each locked in after being found live."""
+    from .benchmarks.biographical import adapter as b1
+
+    person = {"id": "p1", "entity_type": "person", "name": "A Person"}
+    london = {"id": "lon", "entity_type": "place", "name": "London"}
+    year1900 = {"display": "1900", "precision": "year",
+                "sort_start": "1900-01-01", "sort_end": "1900-12-31"}
+
+    # `location` is an entity ID per schema/event.schema.json, not a name.
+    ex = Extraction(doc_id="x", slug="x", subject={"id": "p1", "name": "A Person"},
+                    entities=(person, london),
+                    events=({"id": "b", "event_type": "birth", "location": "lon",
+                             "date": year1900,
+                             "participants": [{"entity_id": "p1", "role": "subject"}]},),
+                    relations=(), sources=())
+    items = dict(b1.ADAPTER.project(_b1_doc(), ex).items)
+    check("event location resolves the entity id to a name",
+          items.get("birthplace") == "London", str(items))
+
+    # A relative's death must not become the biographee's.
+    ex2 = Extraction(doc_id="y", slug="y", subject={"id": "p1", "name": "A Person"},
+                     entities=(person, {"id": "p2", "entity_type": "person",
+                                        "name": "A Spouse"}),
+                     events=({"id": "d", "event_type": "death", "date": year1900,
+                              "participants": [{"entity_id": "p2", "role": "subject"},
+                                               {"entity_id": "p1", "role": "witness"}]},),
+                     relations=(), sources=())
+    items2 = dict(b1.ADAPTER.project(_b1_doc("y"), ex2).items)
+    check("a relative's death is not read as the subject's",
+          "deathdate" not in items2, str(items2))
+
+    # Both routes to birthplace state one fact; it must not be predicted twice.
+    ex3 = Extraction(doc_id="z", slug="z", subject={"id": "p1", "name": "A Person"},
+                     entities=(person, london),
+                     events=({"id": "b", "event_type": "birth", "location": "lon",
+                              "date": year1900,
+                              "participants": [{"entity_id": "p1", "role": "subject"}]},),
+                     relations=({"id": "r", "type": "born_in",
+                                 "source": "p1", "target": "lon"},),
+                     sources=())
+    pred3 = b1.ADAPTER.project(_b1_doc("z"), ex3)
+    check("the two birthplace routes collapse to one prediction",
+          sum(1 for l, _ in pred3.items if l == "birthplace") == 1, str(pred3.items))
+
+    # A dangling target id cannot be compared with a gold string.
+    ex4 = Extraction(doc_id="w", slug="w", subject={"id": "p1", "name": "A Person"},
+                     entities=(person,), events=(),
+                     relations=({"id": "r", "type": "born_in",
+                                 "source": "p1", "target": "nowhere"},),
+                     sources=())
+    pred4 = b1.ADAPTER.project(_b1_doc("w"), ex4)
+    check("a relation with no entity behind its target is unmapped, not empty",
+          not pred4.items and len(pred4.unmapped) == 1, str(pred4))
+
+
+def test_biographical_family_and_dates():
+    from .benchmarks.biographical import adapter as b1
+
+    f = b1.BiographicalAdapter._family_subtype
+    check("'Father' with the subject as source is ofParent",
+          f({"note": "Father"}, True) == "ofParent")
+    check("'Father' with the subject as target is hasChild",
+          f({"note": "Father"}, False) == "hasChild")
+    check("'youngest son' with the subject as source is hasChild",
+          f({"note": "youngest son"}, True) == "hasChild")
+    check("'Brother' is sibling either way",
+          f({"note": "Brother"}, True) == f({"note": "Brother"}, False) == "sibling")
+    check("a note with no kinship word yields no subtype",
+          f({"note": "worked together"}, True) is None)
+    check("no note yields no subtype", f({}, True) is None)
+
+    check("a year-only gold widens to its first day", b1._iso_day("1912") == "1912-01-01")
+    check("a full gold date is kept", b1._iso_day("1912-06-23") == "1912-06-23")
+    check("an unparseable gold date is None", b1._iso_day("sometime") is None)
+
+    year = {"sort_start": "1912-01-01", "sort_end": "1912-12-31"}
+    hit = b1.BiographicalAdapter._hit
+    check("a year-precision prediction contains a day-precision gold",
+          hit("birthdate", "1912-06-23", year))
+    check("the wrong year does not match", not hit("birthdate", "1913-06-23", year))
+    check("places match on a folded string", hit("birthplace", "Zurich", "Zürich"))
+
+
+def test_biographical_input_adapter():
+    from .benchmarks.biographical import adapter as b1
+
+    tmp = tempfile.mkdtemp(prefix="b1-")
+    try:
+        rows = ["sentence,person,relation,object",
+                "A was born in Rome.,A,birthplace,Rome",
+                "A died in Pisa.,A,deathplace,Pisa",
+                "B studied at Yale.,B,educatedAt,Yale"]
+        with open(os.path.join(tmp, "a.csv"), "w", encoding="utf-8", newline="") as fh:
+            fh.write("\n".join(rows) + "\n")
+        docs = list(b1.ADAPTER.load(tmp))
+        check("rows are grouped into one document per person",
+              len(docs) == 2, str(len(docs)))
+        a = [d for d in docs if d.doc_id == "A"][0]
+        check("a person's sentences are concatenated", a.text.count(".") == 2, a.text)
+        check("a person's gold facts are collected", len(a.gold) == 2, str(a.gold))
+        check("the grouping is disclosed in transform",
+              a.transform == ("grouped_by_person",), str(a.transform))
+        check("slugs satisfy build_site.py's rule",
+              all(re.match(r"^[a-z][a-z0-9_]*$", d.slug) for d in docs),
+              str([d.slug for d in docs]))
+
+        with open(os.path.join(tmp, "b.csv"), "w", encoding="utf-8", newline="") as fh:
+            fh.write("col1,col2\nx,y\n")
+        try:
+            list(b1.ADAPTER.load(tmp))
+            check("an unrecognised header is refused, not guessed", False, "no SystemExit")
+        except SystemExit as e:
+            check("an unrecognised header is refused, not guessed",
+                  "could not find column" in str(e), str(e)[:80])
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+def test_biographical_scoring():
+    from .benchmarks.biographical import adapter as b1
+
+    doc = BenchmarkDoc(doc_id="A", slug="a", name="A", text="",
+                       gold=(("birthdate", "1912-06-23"), ("birthplace", "London"),
+                             ("occupation", "mathematician"), ("ofParent", "Julius")))
+    pred = Prediction(doc_id="A", items=(
+        ("birthdate", {"sort_start": "1912-01-01", "sort_end": "1912-12-31"}),
+        ("birthplace", "London"),
+        ("ofParent", "Julius"),
+        ("deathplace", "Nowhere")), meta={"subject_resolved": True})
+    rep = b1.ADAPTER.score([(doc, pred)])
+    check("occupation is reported N/A, not scored",
+          "occupation" in rep.not_applicable and "occupation" not in rep.per_label)
+    check("a year-precision birthdate is credited",
+          rep.per_label["birthdate"]["recall"] == 1.0, str(rep.per_label["birthdate"]))
+    check("a spurious prediction costs precision",
+          rep.per_label["deathplace"]["precision"] == 0.0,
+          str(rep.per_label["deathplace"]))
+    check("gold-less labels stay out of the macro average",
+          rep.per_label["sibling"]["support"] == 0, str(rep.per_label["sibling"]))
+    check("no published baseline is claimed", rep.published_baseline == {},
+          str(rep.published_baseline))
+
+
 def main() -> int:
     for fn in (test_parse_timeline, test_matching, test_concordance, test_aultc,
                test_score_document, test_projection, test_input_adapter,
                test_embedding_threshold_calibration, test_pmc_body_boundary,
-               test_scoring_end_to_end, test_vocab_and_matrix, test_sandbox):
+               test_scoring_end_to_end, test_vocab_and_matrix, test_sandbox,
+               test_biographical_projection, test_biographical_family_and_dates,
+               test_biographical_input_adapter, test_biographical_scoring):
         print(f"\n{fn.__name__}")
         fn()
     print()

@@ -39,7 +39,11 @@ def get_adapter(name: str, args):
             matcher=args.matcher,
             threshold=args.threshold,
         )
-    raise SystemExit(f"no adapter named {name!r} yet (built so far: pmoa_tts)")
+    if name == "biographical":
+        from ..benchmarks.biographical.adapter import BiographicalAdapter
+        return BiographicalAdapter(min_facts=args.min_facts)
+    raise SystemExit(f"no adapter named {name!r} yet "
+                     f"(built so far: pmoa_tts, biographical)")
 
 
 def main(argv=None) -> int:
@@ -56,6 +60,16 @@ def main(argv=None) -> int:
     ap.add_argument("--run-id")
     ap.add_argument("--no-cache", action="store_true")
     ap.add_argument("--keep-sandbox", action="store_true")
+    ap.add_argument("--gate-off", action="store_true",
+                    help="pass build_site.py --ignore-scope: the scope verdict is recorded "
+                         "but not enforced. Required for any general-biography corpus, "
+                         "whose population the gate refuses (0/5 for literature, art, "
+                         "sport, music and politics -- see docs/scope-gate-boundary.md). "
+                         "Reported as its own condition, never merged with a gate-on run")
+    # biographical options
+    ap.add_argument("--min-facts", type=int, default=1,
+                    help="skip people with fewer than this many scorable gold facts; each "
+                         "person costs one extraction either way")
     # pmoa_tts options
     ap.add_argument("--framing", default="minimal", choices=("none", "minimal", "biographical"))
     ap.add_argument("--no-anchor", action="store_true")
@@ -123,7 +137,8 @@ def main(argv=None) -> int:
     print(f"  model:   {cfg.model} @ {cfg.base_url}")
 
     runner = Runner(sb, cfg, adapter.name, verbose=True,
-                    cache_dir=None if args.no_cache else os.path.join(out_dir, "cache"))
+                    cache_dir=None if args.no_cache else os.path.join(out_dir, "cache"),
+                    ignore_scope=args.gate_off)
 
     reports = []
     for rep in range(args.repeats):
