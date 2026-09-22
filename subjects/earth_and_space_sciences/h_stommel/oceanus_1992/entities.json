@@ -407,7 +407,11 @@
       "Bermuda"
     ],
     "attributes": {
-      "country": "Bermuda"
+      "country": "Bermuda",
+      "lat": 32.32,
+      "lng": -64.74,
+      "wikidata_qid": "Q23635",
+      "geocode_basis": "country"
     },
     "entity_type": "place",
     "id": "bermuda",

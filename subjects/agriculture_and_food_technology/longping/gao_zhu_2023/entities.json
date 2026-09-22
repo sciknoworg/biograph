@@ -93,7 +93,11 @@
     "summary": "Province in China where hybrid rice yields were recorded.",
     "subtype": "region",
     "attributes": {
-      "country": "China"
+      "country": "China",
+      "lat": 27.6,
+      "lng": 111.8,
+      "wikidata_qid": "Q45761",
+      "geocode_basis": "country"
     }
   },
   {
@@ -105,7 +109,11 @@
     "subtype": "city",
     "attributes": {
       "country": "China",
-      "region": "Hunan Province"
+      "region": "Hunan Province",
+      "lat": 26.74606,
+      "lng": 112.67394,
+      "wikidata_qid": "Q1338259",
+      "geocode_basis": "country"
     }
   }
 ]

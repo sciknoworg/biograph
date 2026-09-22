@@ -181,6 +181,25 @@ COUNTRY_ALIASES = {
     "ussr": "soviet union", "u.s.s.r.": "soviet union",
     "russia": "russian federation",
     "czechoslovakia": "czech republic", "czechia": "czech republic",
+
+    # Wikidata's own label for a state, where the corpus uses the everyday name. Naming
+    # conventions, not historical claims -- both sides denote the same polity.
+    "china": "people's republic of china",
+    "german reich": "germany", "nazi germany": "germany",
+    "denmark": "kingdom of denmark",
+
+    # A dependency and the sovereign state it belongs to. Wikidata gives an overseas
+    # territory P17 of the sovereign power (Bermuda -> United Kingdom) while the corpus
+    # names the territory, or the reverse (our "United Kingdom" against the item's "Saint
+    # Helena, Ascension and Tristan da Cunha"). Normalising both sides settles either
+    # direction.
+    "bermuda": "united kingdom",
+    "saint helena, ascension and tristan da cunha": "united kingdom",
+    "saint helena": "united kingdom",
+
+    # Constituent states of the German Empire, following the "prussia" -> "germany"
+    # precedent already set above: the towns are in modern Germany and the item says so.
+    "kingdom of bavaria": "germany", "german empire": "germany",
 }
 
 

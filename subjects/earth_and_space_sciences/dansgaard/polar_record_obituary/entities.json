@@ -115,7 +115,11 @@
     "summary": "Autonomous territory within the Kingdom of Denmark.",
     "subtype": "territory",
     "attributes": {
-      "country": "Denmark"
+      "country": "Denmark",
+      "lat": 72.0,
+      "lng": -40.0,
+      "wikidata_qid": "Q223",
+      "geocode_basis": "country"
     }
   },
   {
