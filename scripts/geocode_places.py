@@ -94,9 +94,31 @@ CACHE_VERSION = 2
 NAME_LANGUAGES = ("en|de|fr|it|es|pl|ru|nl|sv|da|nb|fi|cs|hu|la|pt|el|tr|ja|zh|uk|ro|ca")
 
 
+#: Latin letters NFKD does not take apart, because they are atomic characters rather than a
+#: base letter plus a combining mark. Stripping combining marks therefore handles 'ö' and 'å'
+#: but leaves these untouched, so 'Wroclaw' as a source spells it never matched Wikidata's
+#: 'Wroclaw' with the stroked l -- the city stayed off the map through two geocoding passes.
+#: Historical European biography is full of them: Polish, Danish, Norwegian, Icelandic,
+#: Croatian and German place names all land here.
+_ATOMIC_LETTERS = {
+    "ł": "l", "Ł": "L",      # l/L with stroke  (Wroclaw, Lodz)
+    "ø": "o", "Ø": "O",      # o/O with stroke  (Malmo, Osterbro)
+    "đ": "d", "Đ": "D",      # d/D with stroke  (Durdevac)
+    "ħ": "h", "Ħ": "H",      # h/H with stroke
+    "ŧ": "t", "Ŧ": "T",      # t/T with stroke
+    "ı": "i",                     # dotless i        (Turkish)
+    "ð": "d", "Ð": "D",      # eth              (Icelandic)
+    "þ": "th", "Þ": "Th",    # thorn            (Icelandic)
+    "ß": "ss",                    # sharp s          (German)
+    "æ": "ae", "Æ": "Ae",
+    "œ": "oe", "Œ": "Oe",
+}
+
+
 def _fold(s):
     """Casefold and strip accents, so 'Zurich' matches 'Zurich' with an umlaut."""
-    flattened = "".join(c for c in unicodedata.normalize("NFKD", str(s))
+    s = "".join(_ATOMIC_LETTERS.get(c, c) for c in str(s))
+    flattened = "".join(c for c in unicodedata.normalize("NFKD", s)
                         if not unicodedata.combining(c))
     return " ".join(flattened.casefold().split())
 

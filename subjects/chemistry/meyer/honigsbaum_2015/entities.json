@@ -103,7 +103,11 @@
     "summary": "Country of Meyer's birth.",
     "subtype": "country",
     "attributes": {
-      "country": "Switzerland"
+      "country": "Switzerland",
+      "lat": 46.79856,
+      "lng": 8.23197,
+      "wikidata_qid": "Q39",
+      "geocode_basis": "country"
     }
   },
   {
@@ -114,7 +118,11 @@
     "summary": "Country where Meyer worked at Onderstepoort.",
     "subtype": "country",
     "attributes": {
-      "country": "South Africa"
+      "country": "South Africa",
+      "lat": -29.0,
+      "lng": 24.0,
+      "wikidata_qid": "Q258",
+      "geocode_basis": "country"
     }
   },
   {
@@ -125,7 +133,11 @@
     "summary": "US state where Meyer conducted much of his research on zoonoses.",
     "subtype": "state",
     "attributes": {
-      "country": "United States"
+      "country": "United States",
+      "lat": 37.0,
+      "lng": -120.0,
+      "wikidata_qid": "Q99",
+      "geocode_basis": "country"
     }
   },
   {
@@ -137,7 +149,11 @@
     "subtype": "city",
     "attributes": {
       "country": "United States",
-      "state": "California"
+      "state": "California",
+      "lat": 37.775,
+      "lng": -122.41944,
+      "wikidata_qid": "Q62",
+      "geocode_basis": "country"
     }
   },
   {
