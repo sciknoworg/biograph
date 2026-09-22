@@ -38,6 +38,12 @@ audit:
     no other signal should be the French one, but the label is what makes that checkable
     rather than invisible.
 
+  * `historical_document`, `historical_most_linked` -- the same two rules, reached because the
+    recorded country named no present-day sovereign state and so could not filter P17 at all
+    (see NOT_A_FILTER). Kept distinct from their plain forms precisely because they are the
+    weakest results in the file: `--review` lists them, and two of the first twelve produced
+    this way were wrong on inspection.
+
 A place that matches nothing keeps working everywhere else -- graph, timeline, relations. It
 just doesn't appear on the map, which is the honest rendering of "we don't know where".
 
@@ -197,9 +203,46 @@ COUNTRY_ALIASES = {
     "saint helena, ascension and tristan da cunha": "united kingdom",
     "saint helena": "united kingdom",
 
-    # Constituent states of the German Empire, following the "prussia" -> "germany"
-    # precedent already set above: the towns are in modern Germany and the item says so.
-    "kingdom of bavaria": "germany", "german empire": "germany",
+    # Bavaria's territory lies entirely within modern Germany, so this one is safe as a
+    # rewrite. Its larger neighbours are not, and are handled by NOT_A_FILTER below.
+    "kingdom of bavaria": "germany",
+
+    # The extractor naming the modern state in a parenthetical. These stay *rewrites* rather
+    # than joining NOT_A_FILTER, because the modern state is stated and so the filter can
+    # still do its work. Dropping it instead put Khorana's Raipur -- the one now in Pakistan --
+    # on Raipur in Chhattisgarh, 1,500km away and in the wrong country, purely because the
+    # Indian city has more sitelinks.
+    "india (now pakistan)": "pakistan",
+    "ukraine (today)": "ukraine",
+}
+
+
+#: Recorded country values that cannot be used as a filter against Wikidata's P17, because
+#: P17 names present-day sovereign states and these do not.
+#:
+#: Three kinds, all of which produce the same failure -- a correct item rejected for
+#: disagreeing with a country that was never comparable to it in the first place:
+#:
+#:   defunct polities spanning several modern states. "Safavid Empire" covers Qazvin (Iran),
+#:     Baku and Shamakhi (Azerbaijan) and Derbent (Russia); "German Empire" covers towns now
+#:     in Poland and Russia. No single rewrite is right for the polity, only for each place,
+#:     which is precisely what the ranking rules below already work out.
+#:   territories that are not sovereign. Greenland is Danish, so no item's P17 says
+#:     "Greenland".
+#:   values that are not country names at all -- the extractor writing prose into the field.
+#:
+#: Dropping the filter is not the same as relaxing it. It applies only to these values; a
+#: modern sovereign state stays a hard filter, which is what keeps Arrhenius's "Vik",
+#: recorded as Sweden, off a Norwegian village of the same name. Matches found this way carry
+#: a historical_* basis so every one of them can be listed and checked by hand.
+#: "Various" is deliberately absent. It carries no geography at all, so dropping the filter
+#: leaves nothing to constrain the match: it put Gibbon's "South Pacific" on a feature in
+#: Montana. A place whose country the extractor could not determine, and whose name is not a
+#: settlement, belongs off the map.
+NOT_A_FILTER = {
+    "safavid empire", "yugoslavia", "palestine", "german empire",
+    "greenland",
+    "germany/poland border region",
 }
 
 
@@ -316,6 +359,12 @@ def pick_candidate(name, candidates, country, context_countries):
     # Wikidata's "United States of America", and belongs to COUNTRY_ALIASES.
     # A candidate with no P17 at all is compatible with anything -- that is how countries
     # themselves ("Egypt", "Italy") pass.
+    # A country that names no present-day sovereign state cannot filter P17. Fall through to
+    # the same ranking rules an entity with no country at all gets, and mark the result.
+    historical = bool(country) and _fold(country) in NOT_A_FILTER
+    if historical:
+        country = None
+
     if country:
         wanted_countries = _country_forms(country)
         matched = [c for c in exact
@@ -329,9 +378,10 @@ def pick_candidate(name, candidates, country, context_countries):
         matched = [c for c in exact
                    if {f for x in c["countries"] for f in _country_forms(x)} & context_countries]
         if matched:
-            return matched[0], "document"
+            return matched[0], "historical_document" if historical else "document"
 
-    return max(exact, key=lambda c: c["sitelinks"]), "most_linked"
+    return (max(exact, key=lambda c: c["sitelinks"]),
+            "historical_most_linked" if historical else "most_linked")
 
 
 def document_countries(entities, labels_cache_unused=None):
@@ -400,8 +450,11 @@ def review(args):
             with open(epath, encoding="utf-8") as f:
                 for e in json.load(f):
                     attrs = e.get("attributes") or {}
+                    # Both most_linked forms, plus historical_document: anything reached
+                    # without a country filter is a weak call worth a human's eye.
                     if e.get("entity_type") == "place" and \
-                            attrs.get("geocode_basis") == "most_linked":
+                            attrs.get("geocode_basis") in ("most_linked", "historical_most_linked",
+                                                           "historical_document"):
                         rows.append((slug, e.get("name", ""), attrs.get("wikidata_qid", ""),
                                      attrs.get("lat"), attrs.get("lng")))
     if not rows:
