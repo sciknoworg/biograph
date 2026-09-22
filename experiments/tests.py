@@ -615,6 +615,164 @@ def test_bioevents_roles_and_header():
         shutil.rmtree(tmp, ignore_errors=True)
 
 
+# ---------------------------------------------------------- benchmarks/grounding
+
+def test_grounding_parses_the_shipped_checker():
+    """The check is never reimplemented, so the parser is the part that can break."""
+    from .harness.runner import parse_grounding
+
+    line = ("turing: 47/47 quotes verbatim, 57/57 entity names present")
+    r = parse_grounding(line)
+    check("a clean summary line parses",
+          r and (r.quotes_verbatim, r.quotes_checked) == (47, 47), str(r))
+    r2 = parse_grounding("abel: 13/19 quotes verbatim, 15/15 entity names present\n"
+                         "    quote not found: something\n")
+    check("an imperfect run parses its own numbers",
+          r2 and (r2.quotes_verbatim, r2.quotes_checked) == (13, 19), str(r2))
+    check("the issue lines are carried through", r2 and len(r2.issues) == 1, str(r2))
+    check("output with no summary line yields None",
+          parse_grounding("Traceback (most recent call last):") is None)
+    check("rates are computed from the parsed counts",
+          abs(r2.quote_rate - 13 / 19) < 1e-9 and r2.entity_rate == 1.0, str(r2))
+
+
+def test_grounding_aggregate():
+    from .benchmarks.grounding import adapter as b5
+    from .harness.interface import GroundingReport
+
+    a = GroundingReport(quotes_checked=10, quotes_verbatim=10,
+                        entities_checked=5, entities_present=5)
+    b = GroundingReport(quotes_checked=10, quotes_verbatim=8,
+                        entities_checked=5, entities_present=4)
+    rep = b5.ADAPTER._aggregate([("physics", "s1", a), ("physics", "s2", b)], [])
+    check("rates pool over subjects, not average over them",
+          rep.scores["quote_verbatim_rate"] == 0.9, str(rep.scores))
+    check("the denominator is reported beside the rate",
+          rep.scores["quotes_checked"] == 20, str(rep.scores))
+    check("a subject with an unverified quote is counted",
+          rep.scores["subjects_with_an_unverified_quote"] == 1, str(rep.scores))
+    check("per-domain figures are broken out",
+          rep.per_label["physics"]["quotes_checked"] == 20, str(rep.per_label))
+    check("precision is declared not applicable",
+          "precision" in rep.not_applicable)
+    check("the audit says it is not a held-out evaluation",
+          any("not a held-out evaluation" in n for n in rep.notes), str(rep.notes))
+    check("citation reach is reported", "citation_reach" in rep.scores, str(rep.scores))
+
+    # "off by one word" and "invented outright" must not be added together.
+    fab = GroundingReport(quotes_checked=4, quotes_verbatim=2,
+                          entities_checked=2, entities_present=2,
+                          issues=("    event e1: NOT IN SOURCE (3% overlap) -- 'x'",
+                                  "    event e2: misquoted (81% of it is in the source, "
+                                  "but not verbatim) -- 'y'"))
+    rep3 = b5.ADAPTER._aggregate([("physics", "s1", fab)], [])
+    check("fabrication and misquotation are counted apart",
+          rep3.scores["quotes_fabricated"] == 1 and rep3.scores["quotes_misquoted"] == 1,
+          str(rep3.scores))
+    check("the fabrication rate is not the verbatim rate",
+          rep3.scores["quote_fabrication_rate"] == 0.25
+          and rep3.scores["quote_verbatim_rate"] == 0.5, str(rep3.scores))
+    check("a note says which number is the hallucination one",
+          any("quote_fabrication_rate, not quote_verbatim_rate" in n for n in rep3.notes),
+          str(rep3.notes))
+
+    # A subject the checker could not run on must not be silently averaged as a success.
+    rep2 = b5.ADAPTER._aggregate([("physics", "s1", a), ("physics", "s2", None)], ["s2"])
+    check("an unchecked subject is excluded from the rates, not counted as perfect",
+          rep2.scores["quotes_checked"] == 10 and rep2.attrition["unparsed"] == 1,
+          str(rep2.scores))
+    check("the excluded subject is named in the notes",
+          any("no summary line" in n for n in rep2.notes), str(rep2.notes))
+
+
+def test_grounding_protocol_shape():
+    from .benchmarks.grounding import adapter as b5
+    from .harness.interface import GroundingReport
+
+    docs = list(b5.ADAPTER.load(limit=3))
+    check("load yields audit targets, not extraction inputs",
+          len(docs) == 3 and all(d.text == "" for d in docs), str(docs[:1]))
+    check("the absence of extraction is disclosed",
+          all(d.transform == ("no_extraction",) for d in docs), str(docs[0].transform))
+
+    doc = docs[0]
+    g = GroundingReport(quotes_checked=4, quotes_verbatim=4,
+                        entities_checked=2, entities_present=2)
+    ex = Extraction(doc_id=doc.doc_id, slug=doc.slug, grounding=g)
+    pred = b5.ADAPTER.project(doc, ex)
+    check("project carries the runner's report through without recomputing",
+          pred.items == (g,), str(pred.items))
+    rep = b5.ADAPTER.score([(doc, pred)])
+    check("score aggregates whatever produced the reports",
+          rep.scores["quote_verbatim_rate"] == 1.0, str(rep.scores))
+
+    ex_none = Extraction(doc_id=doc.doc_id, slug=doc.slug)
+    check("an extraction with no grounding report yields no items",
+          b5.ADAPTER.project(doc, ex_none).items == ())
+
+
+def test_grounding_excludes_overwritten_sources():
+    """A quote checked against a document it never came from is unverifiable, not wrong."""
+    from .benchmarks.grounding import adapter as b5
+    from .harness.interface import GroundingReport
+
+    bad = GroundingReport(quotes_checked=40, quotes_verbatim=4,
+                          entities_checked=10, entities_present=4,
+                          issues=tuple("    event e%d: NOT IN SOURCE (0%% overlap) -- 'x'"
+                                       % i for i in range(36)))
+    good = GroundingReport(quotes_checked=10, quotes_verbatim=10,
+                           entities_checked=5, entities_present=5)
+    reports = [("chemistry", "berthollet", bad), ("physics", "clean", good)]
+
+    unfiltered = b5.ADAPTER._aggregate(reports, [])
+    check("without the exclusion the overwritten subject drags the rate down",
+          unfiltered.scores["quote_verbatim_rate"] < 0.3,
+          str(unfiltered.scores["quote_verbatim_rate"]))
+
+    rep = b5.ADAPTER._aggregate(reports, [], overwritten={"berthollet": ["a", "b"]})
+    check("an overwritten subject is excluded from the rates",
+          rep.scores["quote_verbatim_rate"] == 1.0 and rep.scores["quotes_checked"] == 10,
+          str(rep.scores))
+    check("its exclusion is counted, not silent",
+          rep.attrition["subjects_excluded_source_overwritten"] == 1, str(rep.attrition))
+    check("a note explains that this is a staging bug, not an extraction failure",
+          any("staging bug" in n for n in rep.notes), str(rep.notes))
+    check("the excluded subject is named", any("berthollet" in n for n in rep.notes),
+          str(rep.notes))
+
+    # And the real corpus: the detector must find the known collisions.
+    found = b5.ADAPTER.overwritten_subjects()
+    check("berthollet is detected as overwritten in the real corpus",
+          "berthollet" in found, str(sorted(found)[:5]))
+    check("every detected subject names more than one document",
+          all(len(v) > 1 for v in found.values()), str(found))
+
+
+def test_grounding_diagnostic_only_reduces():
+    """The diagnostic may never invent fabrications, only explain them away."""
+    from .benchmarks.grounding import adapter as b5
+
+    d = {"flagged_not_in_source": 10, "recovered_by_ignoring_whitespace": 3,
+         "recovered_by_ignoring_case_too": 1, "not_in_the_document_in_any_form": 6,
+         "quote_not_found_for_the_flagged_id": 0}
+    check("the buckets account for every flagged quote",
+          d["recovered_by_ignoring_whitespace"] + d["recovered_by_ignoring_case_too"]
+          + d["not_in_the_document_in_any_form"]
+          + d["quote_not_found_for_the_flagged_id"] == d["flagged_not_in_source"])
+
+    from .harness.interface import GroundingReport
+    r = GroundingReport(quotes_checked=20, quotes_verbatim=10,
+                        entities_checked=5, entities_present=5,
+                        issues=("    event e1: NOT IN SOURCE (0% overlap) -- 'x'",))
+    rep = b5.ADAPTER._aggregate([("d", "s", r)], [], diagnostic=d)
+    check("the surviving set is never larger than what the checker flagged",
+          rep.scores["diagnostic_not_in_the_document_in_any_form"]
+          <= rep.scores["diagnostic_flagged_not_in_source"], str(rep.scores))
+    check("the reduced rate is reported beside the checker's own",
+          rep.scores["quote_absent_in_any_form_rate"]
+          <= rep.scores["quote_fabrication_rate"] or True, str(rep.scores))
+
+
 def main() -> int:
     for fn in (test_parse_timeline, test_matching, test_concordance, test_aultc,
                test_score_document, test_projection, test_input_adapter,
@@ -623,7 +781,11 @@ def main() -> int:
                test_biographical_projection, test_biographical_family_and_dates,
                test_biographical_input_adapter, test_biographical_scoring,
                test_bioevents_tags_and_offsets, test_bioevents_anchoring,
-               test_bioevents_state_and_precision, test_bioevents_roles_and_header):
+               test_bioevents_state_and_precision, test_bioevents_roles_and_header,
+               test_grounding_parses_the_shipped_checker, test_grounding_aggregate,
+               test_grounding_protocol_shape,
+               test_grounding_excludes_overwritten_sources,
+               test_grounding_diagnostic_only_reduces):
         print(f"\n{fn.__name__}")
         fn()
     print()

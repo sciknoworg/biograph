@@ -42,11 +42,14 @@ def get_adapter(name: str, args):
     if name == "biographical":
         from ..benchmarks.biographical.adapter import BiographicalAdapter
         return BiographicalAdapter(min_facts=args.min_facts)
+    if name == "grounding":
+        from ..benchmarks.grounding.adapter import GroundingAdapter
+        return GroundingAdapter()
     if name == "bioevents":
         from ..benchmarks.bioevents.adapter import BioEventsAdapter
         return BioEventsAdapter(min_triggers=args.min_triggers)
     raise SystemExit(f"no adapter named {name!r} yet "
-                     f"(built so far: pmoa_tts, biographical, bioevents)")
+                     f"(built so far: pmoa_tts, biographical, bioevents, grounding)")
 
 
 def main(argv=None) -> int:
@@ -92,6 +95,22 @@ def main(argv=None) -> int:
     args = ap.parse_args(argv)
 
     adapter = get_adapter(args.benchmark, args)
+
+    if hasattr(adapter, "audit"):
+        # Benchmark 5 audits graphs that already exist. No corpus to point at, no model to
+        # call, and no sandbox: --check-grounding writes nothing, and subjects/ is what is
+        # being measured rather than somewhere to put output.
+        out_dir = os.path.join(RUNS_DIR, args.run_id or
+                               f"{adapter.name}_{time.strftime('%Y%m%dT%H%M%S')}")
+        os.makedirs(out_dir, exist_ok=True)
+        report = adapter.audit(limit=args.limit)
+        with open(os.path.join(out_dir, "report.json"), "w", encoding="utf-8") as f:
+            json.dump(report.as_dict(), f, ensure_ascii=False, indent=2)
+        print("\n" + json.dumps(report.scores, indent=2))
+        for note in report.notes:
+            print("  - " + note)
+        print(f"\nreport -> {os.path.relpath(out_dir, REPO_ROOT)}/report.json")
+        return 0
 
     if args.ceiling:
         if not hasattr(adapter, "agreement_ceiling"):

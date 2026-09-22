@@ -1,0 +1,100 @@
+{
+  "benchmark": "grounding",
+  "metric": "verbatim quote rate and entity-name presence, as reported by build_site.py --check-grounding",
+  "n_docs": 233,
+  "scores": {
+    "quote_fabrication_rate": 0.0395,
+    "quote_misquotation_rate": 0.102,
+    "quote_verbatim_rate": 0.8585,
+    "entity_name_present_rate": 0.9826,
+    "quotes_checked": 5394,
+    "quotes_fabricated": 213,
+    "quotes_misquoted": 550,
+    "entities_checked": 4591,
+    "citation_reach": 0.9757,
+    "subjects_with_an_unverified_quote": 139,
+    "diagnostic_flagged_not_in_source": 213,
+    "diagnostic_recovered_by_ignoring_whitespace": 69,
+    "diagnostic_recovered_by_ignoring_case_too": 1,
+    "diagnostic_not_in_the_document_in_any_form": 139,
+    "diagnostic_quote_not_found_for_the_flagged_id": 4,
+    "quote_absent_in_any_form_rate": 0.0258
+  },
+  "published_baseline": {},
+  "not_applicable": {
+    "precision": "There is no negative class. A quote is in the document or it is not; nothing is predicted that gold could contradict.",
+    "citations without a quote": "Outside the check by construction. Counted in citation_reach rather than scored."
+  },
+  "per_label": {
+    "agriculture_and_food_technology": {
+      "quote_verbatim_rate": 1.0,
+      "entity_name_present_rate": 1.0,
+      "quotes_checked": 17,
+      "support": 17
+    },
+    "chemistry": {
+      "quote_verbatim_rate": 0.8591,
+      "entity_name_present_rate": 0.9542,
+      "quotes_checked": 1029,
+      "support": 1029
+    },
+    "computer_science": {
+      "quote_verbatim_rate": 0.9554,
+      "entity_name_present_rate": 1.0,
+      "quotes_checked": 202,
+      "support": 202
+    },
+    "earth_and_space_sciences": {
+      "quote_verbatim_rate": 0.897,
+      "entity_name_present_rate": 0.9931,
+      "quotes_checked": 301,
+      "support": 301
+    },
+    "engineering": {
+      "quote_verbatim_rate": 0.9073,
+      "entity_name_present_rate": 0.9933,
+      "quotes_checked": 356,
+      "support": 356
+    },
+    "life_sciences_and_medicine": {
+      "quote_verbatim_rate": 0.8743,
+      "entity_name_present_rate": 0.9832,
+      "quotes_checked": 748,
+      "support": 748
+    },
+    "materials_science": {
+      "quote_verbatim_rate": 0.8717,
+      "entity_name_present_rate": 0.9893,
+      "quotes_checked": 826,
+      "support": 826
+    },
+    "mathematics_and_computation": {
+      "quote_verbatim_rate": 0.8404,
+      "entity_name_present_rate": 0.9815,
+      "quotes_checked": 570,
+      "support": 570
+    },
+    "physics": {
+      "quote_verbatim_rate": 0.8112,
+      "entity_name_present_rate": 0.9912,
+      "quotes_checked": 1345,
+      "support": 1345
+    }
+  },
+  "attrition": {
+    "subjects": 233,
+    "unparsed": 0,
+    "subjects_excluded_source_overwritten": 19
+  },
+  "notes": [
+    "An audit of the corpus that exists, not a held-out evaluation: there is no split and nothing is predicted about unseen data.",
+    "The check is build_site.py --check-grounding, shelled out and parsed. It is not reimplemented here, so these numbers describe the shipped tool.",
+    "Citation reach is 97.6% (6516 of 6678 citations carry a quote). `quote` is optional in the schema -- 'only for pivotal events, not every one' -- so a citation with only a page number is outside this check entirely.",
+    "--check-grounding concatenates every source file belonging to a subject before searching, so a quote from one document is checked against that subject's whole corpus. That is the shipped behaviour and is reused as-is.",
+    "Fabrication and misquotation are reported apart, because collapsing them is misleading in both directions. 213 quote(s) share under half their 5-word shingles with the source and are the real finding; 550 are mostly present but not verbatim, which over PDF-extracted text is usually a curly quotation mark, a ligature or a line-break hyphen rather than an invented sentence. Read quote_fabrication_rate, not quote_verbatim_rate, as the hallucination number.",
+    "19 subject(s) covering 41 document(s) are excluded from every rate above: source text is staged as data/<slug>.txt, keyed by subject rather than document, so a subject's second document overwrote the first one's text. Both still point at that one path, so the losing document's quotes are checked against a paper they did not come from. That is a staging bug, not an extraction failure, and its quotes are unverifiable rather than wrong: berthollet, bordet, c_barnard, cartwright, denning, frost.",
+    "Diagnostic, not a second verdict: of the 213 quotes the checker calls NOT IN SOURCE, 69 match once whitespace is ignored and 1 more once case is too -- the model emitting a quote with its spacing destroyed, not an invented sentence. 139 are absent in any form, which is 2.58% of all 5394 checked quotes and is the number to read as fabrication.",
+    "subjects with unverified quotes: meyer (43/57), wren (25/25), graunt (24/36), g_borelli (23/24), aleskovskii (23/57)",
+    "commit 70fe350fcd42; core sha256 recorded in the run report"
+  ]
+}
