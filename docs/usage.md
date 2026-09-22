@@ -75,7 +75,7 @@ reference. `<slug>` becomes the directory name under `subjects/`.
 
    A second paper about the same person lands beside the first rather
    than overwriting it. The source's `file` field is forced to point at
-   the archived extracted text (`data/<slug>.txt`) rather than whatever
+   the archived extracted text (`data/<slug>__<citation key>.txt`) rather than whatever
    path the model guessed; that text isn't committed — see
    `data/README.md`.
 

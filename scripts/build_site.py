@@ -1277,7 +1277,7 @@ def _as_bool(value):
     return None
 
 
-def stage_source(pdf_path, slug, text, keep_pdf=False):
+def stage_source(pdf_path, slug, text, keep_pdf=False, doc_key=None):
     """Archive the source under data/ and return its repo-relative path.
 
     What gets archived is the *extracted text*, not the PDF. That text is exactly what the model
@@ -1292,14 +1292,27 @@ def stage_source(pdf_path, slug, text, keep_pdf=False):
     authors, year, venue) and the manifest (exact download_url and provider), so nothing about
     provenance is lost by not holding the bytes.
 
-    --keep-source-pdf archives the PDF alongside, for anyone who wants the original on hand."""
+    --keep-source-pdf archives the PDF alongside, for anyone who wants the original on hand.
+
+    The filename carries the document's citation key, not just the subject's slug. Keying it
+    on the slug alone meant a subject's second document overwrote the first one's text while
+    both sources.json files kept pointing at that one path, so every quote from the losing
+    document was afterwards checked against a paper it had never come from. That cost 19
+    subjects and 41 documents their provenance before it was noticed, and it was invisible
+    until benchmark 5 went looking -- see experiments/benchmarks/grounding/README.md.
+    subjects/<slug>/<doc_key>/ has always been laid out this way for exactly this reason;
+    the staged text simply did not follow.
+
+    doc_key is optional so that an existing caller keeps working, but every caller inside
+    this file passes it."""
     os.makedirs(DATA_DIR, exist_ok=True)
+    stem = f"{slug}__{doc_key}" if doc_key else slug
     if keep_pdf and os.path.isfile(pdf_path):
         ext = os.path.splitext(pdf_path)[1].lower() or ".pdf"
-        dest = os.path.join(DATA_DIR, f"{slug}{ext}")
+        dest = os.path.join(DATA_DIR, f"{stem}{ext}")
         if os.path.abspath(pdf_path) != os.path.abspath(dest):
             shutil.copyfile(pdf_path, dest)
-    rel = os.path.join("data", f"{slug}.txt")
+    rel = os.path.join("data", f"{stem}.txt")
     with open(os.path.join(ROOT, rel), "w", encoding="utf-8") as f:
         f.write(text)
     return rel
@@ -1397,16 +1410,19 @@ def extract(pdf_path, slug, name, model, base_url, api_key, max_chars, max_token
     if backfill_subject_summary(data["subject"], data["entities"], data["events"],
                                  data["relations"]):
         print(f"  (subject.json had no summary -- took one from {name}'s own entity)")
-    file_rel = stage_source(pdf_path, slug, text, keep_pdf=keep_source_pdf)
-    if data["sources"]:
-        data["sources"][0]["file"] = file_rel  # trust our own copy, not the model's guess
-
     # subject.json describes the *person* and lives at the top; this document's four files go
     # in their own folder beneath, named by its citation key (sources[0].id). A second paper
     # about the same person lands beside this one instead of overwriting it -- see
     # subject_documents() for why extractions are kept whole rather than merged on write.
+    # The same key names the staged text, so the two cannot drift apart: a document's folder
+    # and the text it was extracted from are always identifiable as a pair.
     sdir = subject_dir_for(slug, domain)
     doc_key = document_key(data, slug)
+
+    file_rel = stage_source(pdf_path, slug, text, keep_pdf=keep_source_pdf, doc_key=doc_key)
+    if data["sources"]:
+        data["sources"][0]["file"] = file_rel  # trust our own copy, not the model's guess
+
     ddir = os.path.join(sdir, doc_key)
     os.makedirs(ddir, exist_ok=True)
     tag = domain_dir_name(domain) if domain else None

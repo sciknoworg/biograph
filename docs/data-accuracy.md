@@ -33,7 +33,7 @@ fact without needing the paper sitting in this repo. See
 `data/README.md` for the running index of sources handled this way.
 
 Locally, what is kept beside a subject is the **extracted text**
-(`data/<slug>.txt`) rather than the PDF: it is exactly what the model was
+(`data/<slug>__<citation key>.txt`) rather than the PDF: it is exactly what the model was
 shown, it is what the grounding check below reads, and it is roughly 3%
 of the size. `--keep-source-pdf` keeps the original too.
 

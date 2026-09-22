@@ -15,9 +15,19 @@ title, authors, year, publication, DOI and URL, but nothing about
 redistribution rights. Publishing the text would need that evidence
 per source; until it's collected, the text stays local.
 
-Keeping it locally is not incidental — `data/<slug>.txt` is what the
-grounding check re-verifies quotes against, so it has to survive after the
-PDF is deleted.
+Keeping it locally is not incidental — `data/<slug>__<citation key>.txt`
+is what the grounding check re-verifies quotes against, so it has to
+survive after the PDF is deleted.
+
+The citation key is in the filename because the subject's slug alone was
+not unique enough. A subject's second document used to overwrite the
+first one's text while both `sources.json` files kept pointing at that
+one path, so every quote from the losing document was afterwards checked
+against a paper it had never come from. 19 subjects and 41 documents lost
+their provenance that way before benchmark 5 found it; extractions from
+that point on are named per document, and the older
+`data/<slug>.txt` files are still read exactly as their `sources.json`
+records them.
 
 What *is* committed, and what actually matters for reproducibility, is
 the citation: every source a subject draws from is fully described in

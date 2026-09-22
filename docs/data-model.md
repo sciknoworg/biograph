@@ -182,7 +182,7 @@ from. Every event and relation cites at least one entry here.
 `source.schema.json` requires only `id` and `title`; `authors`, `year`,
 `publication`, `file` (relative path under `data/`), `doi`, and `url` are
 all optional. `file` points at the archived extracted text
-(`data/<slug>.txt`) — what the model actually read, and what the
+(`data/<slug>__<citation key>.txt`) — what the model actually read, and what the
 grounding check verifies against. Neither it nor the original PDF is
 committed to the repo (`data/*.txt` and `data/*.pdf` are both gitignored)
 — the citation fields here, especially `doi`, are the part that's actually
