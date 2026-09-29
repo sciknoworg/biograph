@@ -1,0 +1,248 @@
+[
+  {
+    "id": "tuomo_suntola",
+    "entity_type": "person",
+    "name": "Tuomo Suntola",
+    "aliases": [
+      "Dr. Tuomo Suntola",
+      "Suntola"
+    ],
+    "summary": "Finnish inventor and physicist who developed Atomic Layer Epitaxy (ALE) and Atomic Layer Deposition (ALD).",
+    "subtype": "researcher"
+  },
+  {
+    "id": "riikka_l_puurunen",
+    "entity_type": "person",
+    "name": "Riikka L. Puurunen",
+    "aliases": [
+      "Dr. R. L. Puurunen",
+      "Puurunen"
+    ],
+    "summary": "Author of the essay and researcher at VTT Technical Research Centre of Finland.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "tampere",
+    "entity_type": "place",
+    "name": "Tampere",
+    "aliases": [],
+    "summary": "City in Finland where Tuomo Suntola was born.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Finland"
+    }
+  },
+  {
+    "id": "finland",
+    "entity_type": "place",
+    "name": "Finland",
+    "aliases": [],
+    "summary": "Country where Tuomo Suntola lived and worked.",
+    "subtype": "country"
+  },
+  {
+    "id": "helsinki_university_of_technology",
+    "entity_type": "organization",
+    "name": "Helsinki University of Technology",
+    "aliases": [
+      "HUT",
+      "Teknillinen korkeakoulu",
+      "TKK",
+      "Aalto University"
+    ],
+    "summary": "University where Tuomo Suntola studied and later worked.",
+    "subtype": "university"
+  },
+  {
+    "id": "vtt_semiconductor_laboratory",
+    "entity_type": "organization",
+    "name": "VTT Semiconductor Laboratory",
+    "aliases": [
+      "VTT"
+    ],
+    "summary": "Research laboratory where Suntola worked on humidity sensors and early ALE.",
+    "subtype": "lab"
+  },
+  {
+    "id": "instrumentarium_oy",
+    "entity_type": "organization",
+    "name": "Instrumentarium Oy",
+    "aliases": [
+      "Instrumentarium"
+    ],
+    "summary": "Company where Suntola invented Atomic Layer Epitaxy.",
+    "subtype": "company"
+  },
+  {
+    "id": "lohja_oy",
+    "entity_type": "organization",
+    "name": "Lohja Oy",
+    "aliases": [
+      "Lohja"
+    ],
+    "summary": "Company that acquired the ALE-EL project from Instrumentarium.",
+    "subtype": "company"
+  },
+  {
+    "id": "microchemistry_ltd",
+    "entity_type": "organization",
+    "name": "Microchemistry Ltd.",
+    "aliases": [
+      "Microchemistry"
+    ],
+    "summary": "Company founded by Suntola to develop ALE for solar panels and catalysis.",
+    "subtype": "company"
+  },
+  {
+    "id": "neste_oy",
+    "entity_type": "organization",
+    "name": "Neste Oy",
+    "aliases": [
+      "Neste"
+    ],
+    "summary": "National oil company that owned Microchemistry Ltd.",
+    "subtype": "company"
+  },
+  {
+    "id": "asm",
+    "entity_type": "organization",
+    "name": "ASM",
+    "aliases": [
+      "ASM International"
+    ],
+    "summary": "Dutch company that acquired Microchemistry Ltd.",
+    "subtype": "company"
+  },
+  {
+    "id": "planar_inc",
+    "entity_type": "organization",
+    "name": "Planar Inc.",
+    "aliases": [
+      "Planar"
+    ],
+    "summary": "American company that acquired Lohja's EL business.",
+    "subtype": "company"
+  },
+  {
+    "id": "beneq_oy",
+    "entity_type": "organization",
+    "name": "Beneq Oy",
+    "aliases": [
+      "Beneq"
+    ],
+    "summary": "Company that acquired Planar's EL plant in Olarinluoma.",
+    "subtype": "company"
+  },
+  {
+    "id": "picosun_oy",
+    "entity_type": "organization",
+    "name": "Picosun Oy",
+    "aliases": [
+      "Picosun"
+    ],
+    "summary": "Company founded by Sven Lindfors where Suntola later served as board member.",
+    "subtype": "company"
+  },
+  {
+    "id": "fortum_oyj",
+    "entity_type": "organization",
+    "name": "Fortum Oyj",
+    "aliases": [
+      "Fortum"
+    ],
+    "summary": "Company formed by fusion of Neste and IVO where Suntola worked as Research Fellow.",
+    "subtype": "company"
+  },
+  {
+    "id": "thor_stubb",
+    "entity_type": "person",
+    "name": "Thor Stubb",
+    "aliases": [
+      "Prof. Thor Stubb",
+      "Stubb"
+    ],
+    "summary": "Professor at HUT who supervised Suntola's doctoral thesis.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "jorma_antson",
+    "entity_type": "person",
+    "name": "Jorma Antson",
+    "aliases": [
+      "Antson"
+    ],
+    "summary": "Colleague of Suntola who co-developed the Humicap sensor and ALE.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "sven_lindfors",
+    "entity_type": "person",
+    "name": "Sven Lindfors",
+    "aliases": [
+      "Lindfors"
+    ],
+    "summary": "Close co-worker of Suntola in ALE reactor design.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "arto_pakkala",
+    "entity_type": "person",
+    "name": "Arto Pakkala",
+    "aliases": [
+      "Pakkala"
+    ],
+    "summary": "Colleague of Suntola involved in ALE-EL development.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "humicap_1",
+    "entity_type": "artifact",
+    "name": "Humicap 1",
+    "aliases": [
+      "Humicap sensor"
+    ],
+    "summary": "Humidity sensor developed by Suntola and Antson.",
+    "subtype": "product"
+  },
+  {
+    "id": "ale_reactor",
+    "entity_type": "artifact",
+    "name": "ALE reactor",
+    "aliases": [
+      "Atomic Layer Epitaxy reactor",
+      "ALD reactor"
+    ],
+    "summary": "Equipment designed for Atomic Layer Epitaxy/Deposition processes.",
+    "subtype": "invention"
+  },
+  {
+    "id": "f_120_reactor",
+    "entity_type": "artifact",
+    "name": "F-120 reactor",
+    "aliases": [
+      "F-120"
+    ],
+    "summary": "First commercial ALD reactor designed by Suntola and Lindfors.",
+    "subtype": "product"
+  },
+  {
+    "id": "patent_fin_52359",
+    "entity_type": "artifact",
+    "name": "FIN 52359",
+    "aliases": [
+      "US 4 058 430"
+    ],
+    "summary": "International patent on ALE filed in 1974.",
+    "subtype": "patent"
+  },
+  {
+    "id": "european_semi_award_2004",
+    "entity_type": "artifact",
+    "name": "European SEMI Award 2004",
+    "aliases": [
+      "SEMI Award"
+    ],
+    "summary": "Award honoring Suntola as a pioneer in Atomic Layer Deposition.",
+    "subtype": "award"
+  }
+]

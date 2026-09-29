@@ -1,0 +1,139 @@
+[
+  {
+    "id": "aleskovskii_valentin_borisovich",
+    "entity_type": "person",
+    "name": "Valentin Borisovich Aleskovskii",
+    "aliases": [
+      "V. B. Aleskovskii",
+      "Valentin Aleskovskii",
+      "V. B. Aleskovsky"
+    ],
+    "summary": "Soviet chemist and professor who proposed the 'framework' hypothesis and founded the molecular layering method.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "koltsov_stanislav_ivanovich",
+    "entity_type": "person",
+    "name": "Stanislav Ivanovich Kol'tsov",
+    "aliases": [
+      "S. I. Kol'tsov",
+      "Stanislav Kol'tsov"
+    ],
+    "summary": "Soviet chemist and graduate student of Aleskovskii who co-founded the molecular layering method.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "lti_lensovet",
+    "entity_type": "organization",
+    "name": "Leningrad Technological Institute by Lensovet",
+    "aliases": [
+      "LTI by Lensovet",
+      "St. Petersburg State Technological Institute",
+      "St. Petersburg State Technological Institute (Technical University)",
+      "SPbSTI"
+    ],
+    "summary": "Russian technical university where Aleskovskii studied and worked for much of his career.",
+    "subtype": "university"
+  },
+  {
+    "id": "naval_research_institute_leningrad",
+    "entity_type": "organization",
+    "name": "Naval Research Institute",
+    "aliases": [],
+    "summary": "Research institute in Leningrad where Aleskovskii worked after graduation.",
+    "subtype": "lab"
+  },
+  {
+    "id": "lsu_leningrad",
+    "entity_type": "organization",
+    "name": "Leningrad State University",
+    "aliases": [
+      "LSU",
+      "St. Petersburg State University",
+      "SPbSU"
+    ],
+    "summary": "Russian university where Aleskovskii served as rector and founded a department.",
+    "subtype": "university"
+  },
+  {
+    "id": "academy_sciences_ussr",
+    "entity_type": "organization",
+    "name": "Academy of Sciences of the USSR",
+    "aliases": [
+      "USSR Academy of Sciences",
+      "RAS"
+    ],
+    "summary": "Soviet scientific academy of which Aleskovskii became a corresponding member.",
+    "subtype": "organization"
+  },
+  {
+    "id": "supreme_soviet_rsfsr",
+    "entity_type": "organization",
+    "name": "Supreme Soviet of the Russian Federation",
+    "aliases": [
+      "SFSR"
+    ],
+    "summary": "Legislative body of the Russian Soviet Federative Socialist Republic where Aleskovskii was a member.",
+    "subtype": "organization"
+  },
+  {
+    "id": "mary_turkmenistan",
+    "entity_type": "place",
+    "name": "Mary",
+    "aliases": [],
+    "summary": "City in Turkmenistan where Aleskovskii was born.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Turkmenistan"
+    }
+  },
+  {
+    "id": "leningrad",
+    "entity_type": "place",
+    "name": "Leningrad",
+    "aliases": [
+      "St. Petersburg"
+    ],
+    "summary": "City in Russia where Aleskovskii studied and worked.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Russia"
+    }
+  },
+  {
+    "id": "dissertation_active_silica",
+    "entity_type": "artifact",
+    "name": "Active silica",
+    "aliases": [],
+    "summary": "Aleskovskii's candidate of chemical sciences degree thesis.",
+    "subtype": "publication"
+  },
+  {
+    "id": "dissertation_framework_hypothesis",
+    "entity_type": "artifact",
+    "name": "Framework hypothesis and experience the preparation of certain active catalysts",
+    "aliases": [],
+    "summary": "Aleskovskii's doctoral dissertation proposing the framework hypothesis.",
+    "subtype": "publication"
+  },
+  {
+    "id": "book_stoichiometry_1976",
+    "entity_type": "artifact",
+    "name": "The stoichiometry and synthesis of solid compounds",
+    "aliases": [],
+    "summary": "Monograph by Aleskovskii published in 1976.",
+    "subtype": "publication"
+  },
+  {
+    "id": "molecular_layering_method",
+    "entity_type": "artifact",
+    "name": "Molecular Layering",
+    "aliases": [
+      "ML",
+      "Atomic Layer Deposition",
+      "ALD"
+    ],
+    "summary": "Thin-film deposition method developed by Aleskovskii and Kol'tsov.",
+    "subtype": "invention"
+  }
+]

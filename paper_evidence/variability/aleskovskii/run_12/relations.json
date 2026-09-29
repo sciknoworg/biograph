@@ -1,0 +1,143 @@
+[
+  {
+    "id": "aleskovskii_born_in_mary",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "born_in",
+    "target": "mary_turkmenistan",
+    "event_id": "birth_aleskovskii",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 2,
+        "quote": "Valentin Borisovich Aleskovskii was born on June 3th 1912 in the city of Mary (Turkmenistan)."
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_studied_at_lti",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "studied_at",
+    "target": "lti_lensovet",
+    "event_id": "education_lti_start",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 2,
+        "quote": "In 1931, Valentin Borisovich was admitted to the LTI by Lensovet"
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_worked_at_naval",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "worked_at",
+    "target": "naval_research_institute",
+    "event_id": "employment_naval",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 2,
+        "quote": "after its completion in 1937, was sent to the Naval Research Institute in Leningrad, where he worked as a research fellow."
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_worked_at_lti",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "worked_at",
+    "target": "lti_lensovet",
+    "event_id": "role_head_analytical",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3,
+        "quote": "In 1949 he was appointed as the head of the Department of Analytical Chemistry."
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_mentored_koltsov",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "mentored",
+    "target": "koltsov_stanislav_ivanovich",
+    "event_id": "koltsov_enrollment",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3,
+        "quote": "His supervisor was Prof. V. B. Aleskovskii."
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_founded_dept_lti",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "founded",
+    "target": "lti_lensovet",
+    "event_id": "dept_founded_lti",
+    "note": "Founded Department of Chemistry of Solids within LTI",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 6,
+        "quote": "In 1967 he founded one of the first in USSR the Department of Chemistry of Solids and became its chair."
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_employed_by_lsu",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "employed_by",
+    "target": "lsu",
+    "event_id": "role_rector_lsu",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 6,
+        "quote": "Since 1975, educational, scienti ﬁc and organizational activities of V. B. Aleskovskii were associated with the Leningrad State University (LSU) since he was appointment as rector of this university."
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_member_of_academy",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "member_of",
+    "target": "academy_sciences_ussr",
+    "event_id": "academy_election",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 6,
+        "quote": "In 1972 V. B. Aleskovskii was elected a corresponding member of the Academy of Sciences of the USSR."
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_invented_ml",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "invented",
+    "target": "ml_method",
+    "event_id": "hypothesis_framework",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 2,
+        "quote": "In Russia, the inventors of the ML method are Prof. V. B. Aleskovskii (a chemist by education) and his student S. I. Kol'tsov"
+      }
+    ]
+  },
+  {
+    "id": "koltsov_studied_at_lti",
+    "source": "koltsov_stanislav_ivanovich",
+    "type": "studied_at",
+    "target": "lti_lensovet",
+    "event_id": "koltsov_enrollment",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3,
+        "quote": "In 1950 he was admitted to the Leningrad Technological Institute by Lensovet"
+      }
+    ]
+  }
+]

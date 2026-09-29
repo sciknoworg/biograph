@@ -1,0 +1,463 @@
+[
+  {
+    "id": "tuomo_suntola",
+    "entity_type": "person",
+    "name": "Tuomo Suntola",
+    "aliases": [
+      "Dr. Tuomo Suntola",
+      "Suntola"
+    ],
+    "summary": "Finnish physicist and inventor known for developing Atomic Layer Deposition.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "riikka_l_puurunen",
+    "entity_type": "person",
+    "name": "Riikka L. Puurunen",
+    "aliases": [
+      "Dr. R. L. Puurunen",
+      "Puurunen"
+    ],
+    "summary": "Author of the essay and researcher at VTT Technical Research Centre of Finland.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "helsinki_university_of_technology",
+    "entity_type": "organization",
+    "name": "Helsinki University of Technology",
+    "aliases": [
+      "HUT",
+      "Teknillinen korkeakoulu",
+      "TKK",
+      "Aalto University"
+    ],
+    "summary": "University where Suntola studied, now Aalto University.",
+    "subtype": "university"
+  },
+  {
+    "id": "tampere",
+    "entity_type": "place",
+    "name": "Tampere",
+    "attributes": {
+      "country": "Finland"
+    },
+    "summary": "City in Finland where Suntola was born.",
+    "subtype": "city"
+  },
+  {
+    "id": "turku",
+    "entity_type": "place",
+    "name": "Turku",
+    "attributes": {
+      "country": "Finland"
+    },
+    "summary": "City in Finland where Suntola went to school.",
+    "subtype": "city"
+  },
+  {
+    "id": "vtt_semiconductor_laboratory",
+    "entity_type": "organization",
+    "name": "VTT Semiconductor Laboratory",
+    "aliases": [
+      "Semiconductor Laboratory"
+    ],
+    "summary": "Laboratory established in 1964 as part of HUT.",
+    "subtype": "lab"
+  },
+  {
+    "id": "thor_stubb",
+    "entity_type": "person",
+    "name": "Thor Stubb",
+    "aliases": [
+      "Prof. Thor Stubb",
+      "Stubb"
+    ],
+    "summary": "Professor at HUT who supervised Suntola.",
+    "subtype": "professor"
+  },
+  {
+    "id": "vaisala_oy",
+    "entity_type": "organization",
+    "name": "Vaisala Oy",
+    "aliases": [
+      "Vaisala"
+    ],
+    "summary": "Finnish company specializing in meteorological instrumentation.",
+    "subtype": "company"
+  },
+  {
+    "id": "instrumentarium_oy",
+    "entity_type": "organization",
+    "name": "Instrumentarium Oy",
+    "aliases": [
+      "Instrumentarium"
+    ],
+    "summary": "Company where Suntola started ALE development.",
+    "subtype": "company"
+  },
+  {
+    "id": "lohja_oy",
+    "entity_type": "organization",
+    "name": "Lohja Oy",
+    "aliases": [
+      "Lohja"
+    ],
+    "summary": "Building material company that bought the ALE-EL project.",
+    "subtype": "company"
+  },
+  {
+    "id": "planar_inc",
+    "entity_type": "organization",
+    "name": "Planar Inc.",
+    "aliases": [
+      "Planar",
+      "Planar International"
+    ],
+    "summary": "American competitor that bought Lohja's EL business.",
+    "subtype": "company"
+  },
+  {
+    "id": "beneq_oy",
+    "entity_type": "organization",
+    "name": "Beneq Oy",
+    "aliases": [
+      "Beneq"
+    ],
+    "summary": "Company that acquired Planar's EL plant in 2012.",
+    "subtype": "company"
+  },
+  {
+    "id": "neste_oy",
+    "entity_type": "organization",
+    "name": "Neste Oy",
+    "aliases": [
+      "Neste",
+      "Fortum Oyj"
+    ],
+    "summary": "National oil company that established Microchemistry Ltd.",
+    "subtype": "company"
+  },
+  {
+    "id": "microchemistry_ltd",
+    "entity_type": "organization",
+    "name": "Microchemistry Ltd.",
+    "aliases": [
+      "Microchemistry",
+      "ASM Microchemistry"
+    ],
+    "summary": "Company founded by Suntola for ALE-based solar panels and reactors.",
+    "subtype": "company"
+  },
+  {
+    "id": "asm",
+    "entity_type": "organization",
+    "name": "ASM",
+    "aliases": [
+      "ASM International"
+    ],
+    "summary": "Dutch company that bought Microchemistry.",
+    "subtype": "company"
+  },
+  {
+    "id": "picosun_oy",
+    "entity_type": "organization",
+    "name": "Picosun Oy",
+    "aliases": [
+      "Picosun"
+    ],
+    "summary": "Company founded by Lindfors and Poutiainen, Suntola joined as board member.",
+    "subtype": "company"
+  },
+  {
+    "id": "atomic_layer_deposition",
+    "entity_type": "artifact",
+    "name": "Atomic Layer Deposition",
+    "aliases": [
+      "ALD",
+      "Atomic Layer Epitaxy",
+      "ALE",
+      "Molecular Layering",
+      "ML"
+    ],
+    "summary": "Thin film growth technique invented by Suntola.",
+    "subtype": "invention"
+  },
+  {
+    "id": "humicap_sensor",
+    "entity_type": "artifact",
+    "name": "Humicap sensor",
+    "aliases": [
+      "Humicap 1"
+    ],
+    "summary": "Humidity sensor developed by Suntola and Antson.",
+    "subtype": "product"
+  },
+  {
+    "id": "university_of_helsinki",
+    "entity_type": "organization",
+    "name": "University of Helsinki",
+    "aliases": [
+      "UH"
+    ],
+    "summary": "University where ALE research continued.",
+    "subtype": "university"
+  },
+  {
+    "id": "tampere_university_of_technology",
+    "entity_type": "organization",
+    "name": "Tampere University of Technology",
+    "aliases": [
+      "TUT"
+    ],
+    "summary": "University where Suntola was a docent.",
+    "subtype": "university"
+  },
+  {
+    "id": "university_of_leningrad",
+    "entity_type": "organization",
+    "name": "University of Leningrad",
+    "aliases": [
+      "St. Petersburg"
+    ],
+    "summary": "University where Aleskovskii worked.",
+    "subtype": "university"
+  },
+  {
+    "id": "aleskovskii",
+    "entity_type": "person",
+    "name": "Aleskovskii",
+    "aliases": [
+      "Prof. Aleskovskii"
+    ],
+    "summary": "Professor who initiated molecular layering in Soviet Union.",
+    "subtype": "professor"
+  },
+  {
+    "id": "jun_ichi_nishizawa",
+    "entity_type": "person",
+    "name": "Jun-ichi Nishizawa",
+    "aliases": [
+      "Professor Nishizawa",
+      "Nishizawa"
+    ],
+    "summary": "Professor in Japan who investigated ALE growth of GaAs.",
+    "subtype": "professor"
+  },
+  {
+    "id": "lauri_niinisto",
+    "entity_type": "person",
+    "name": "Lauri Niinistö",
+    "aliases": [
+      "Professor Niinistö",
+      "Niinistö"
+    ],
+    "summary": "Professor of inorganic and analytical chemistry at HUT.",
+    "subtype": "professor"
+  },
+  {
+    "id": "sven_lindfors",
+    "entity_type": "person",
+    "name": "Sven Lindfors",
+    "aliases": [
+      "Lindfors"
+    ],
+    "summary": "Closest co-worker to Suntola in ALE reactor design.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "arto_pakkala",
+    "entity_type": "person",
+    "name": "Arto Pakkala",
+    "aliases": [
+      "Pakkala"
+    ],
+    "summary": "Colleague involved in ALE-EL development.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "jorma_antson",
+    "entity_type": "person",
+    "name": "Jorma Antson",
+    "aliases": [
+      "Antson"
+    ],
+    "summary": "Colleague who completed humidity sensor development with Suntola.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "antti_piippo",
+    "entity_type": "person",
+    "name": "Antti Piippo",
+    "aliases": [
+      "Piippo"
+    ],
+    "summary": "Manager invited to Lohja Display Electronics division.",
+    "subtype": "manager"
+  },
+  {
+    "id": "matti_ervasti",
+    "entity_type": "person",
+    "name": "Matti Ervasti",
+    "aliases": [
+      "Ervasti"
+    ],
+    "summary": "Managing director invited to take care of Microchemistry.",
+    "subtype": "manager"
+  },
+  {
+    "id": "kustaa_poutiainen",
+    "entity_type": "person",
+    "name": "Kustaa Poutiainen",
+    "aliases": [
+      "Poutiainen"
+    ],
+    "summary": "Co-founder of Picosun Oy.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "pekka_soininen",
+    "entity_type": "person",
+    "name": "Pekka Soininen",
+    "aliases": [
+      "Soininen"
+    ],
+    "summary": "Started ALE reactor activity in Beneq Oy.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "fortum_oyj",
+    "entity_type": "organization",
+    "name": "Fortum Oyj",
+    "aliases": [
+      "Fortum"
+    ],
+    "summary": "Company formed by fusion of Neste and IVO.",
+    "subtype": "company"
+  },
+  {
+    "id": "physics_foundations_society",
+    "entity_type": "organization",
+    "name": "Physics Foundations Society",
+    "summary": "Society where Suntola is chairman.",
+    "subtype": "society"
+  },
+  {
+    "id": "finnish_society_for_natural_philosophy",
+    "entity_type": "organization",
+    "name": "Finnish Society for Natural Philosophy",
+    "summary": "Society where Suntola is a board member.",
+    "subtype": "society"
+  },
+  {
+    "id": "helsinki_vantaa_airport",
+    "entity_type": "place",
+    "name": "Helsinki-Vantaa airport",
+    "attributes": {
+      "country": "Finland"
+    },
+    "summary": "Location of first EL display installation.",
+    "subtype": "facility"
+  },
+  {
+    "id": "espoo",
+    "entity_type": "place",
+    "name": "Espoo",
+    "attributes": {
+      "country": "Finland"
+    },
+    "summary": "City in Finland.",
+    "subtype": "city"
+  },
+  {
+    "id": "lohja",
+    "entity_type": "place",
+    "name": "Lohja",
+    "attributes": {
+      "country": "Finland"
+    },
+    "summary": "City in Finland.",
+    "subtype": "city"
+  },
+  {
+    "id": "boston",
+    "entity_type": "place",
+    "name": "Boston",
+    "attributes": {
+      "country": "USA"
+    },
+    "summary": "City in USA.",
+    "subtype": "city"
+  },
+  {
+    "id": "san_diego",
+    "entity_type": "place",
+    "name": "San Diego",
+    "attributes": {
+      "country": "USA"
+    },
+    "summary": "City in USA.",
+    "subtype": "city"
+  },
+  {
+    "id": "japan",
+    "entity_type": "place",
+    "name": "Japan",
+    "summary": "Country.",
+    "subtype": "country"
+  },
+  {
+    "id": "usa",
+    "entity_type": "place",
+    "name": "USA",
+    "summary": "Country.",
+    "subtype": "country"
+  },
+  {
+    "id": "soviet_union",
+    "entity_type": "place",
+    "name": "Soviet Union",
+    "summary": "Country.",
+    "subtype": "country"
+  },
+  {
+    "id": "france",
+    "entity_type": "place",
+    "name": "France",
+    "summary": "Country.",
+    "subtype": "country"
+  },
+  {
+    "id": "netherlands",
+    "entity_type": "place",
+    "name": "Netherlands",
+    "summary": "Country.",
+    "subtype": "country"
+  },
+  {
+    "id": "arizona",
+    "entity_type": "place",
+    "name": "Arizona",
+    "attributes": {
+      "country": "USA"
+    },
+    "summary": "State in USA.",
+    "subtype": "state"
+  },
+  {
+    "id": "munich",
+    "entity_type": "place",
+    "name": "Munich",
+    "attributes": {
+      "country": "Germany"
+    },
+    "summary": "City in Germany.",
+    "subtype": "city"
+  },
+  {
+    "id": "european_semi_award",
+    "entity_type": "artifact",
+    "name": "European SEMI Award",
+    "summary": "Award given to Suntola in 2004.",
+    "subtype": "award"
+  }
+]

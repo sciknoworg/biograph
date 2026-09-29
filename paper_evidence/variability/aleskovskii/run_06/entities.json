@@ -1,0 +1,136 @@
+[
+  {
+    "id": "valentin_aleskovskii",
+    "entity_type": "person",
+    "name": "Valentin Borisovich Aleskovskii",
+    "aliases": [
+      "V. B. Aleskovskii",
+      "Valentin Aleskovskii",
+      "Aleskovskii"
+    ],
+    "summary": "Russian chemist and professor who proposed the 'framework' hypothesis and founded the molecular layering method.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "stanislav_koltsov",
+    "entity_type": "person",
+    "name": "Stanislav Ivanovich Kol'tsov",
+    "aliases": [
+      "S. I. Kol'tsov",
+      "Kol'tsov"
+    ],
+    "summary": "Russian chemist and graduate student of Aleskovskii who experimentally substantiated the molecular layering method.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "anatolii_malygin",
+    "entity_type": "person",
+    "name": "Anatolii A. Malygin",
+    "aliases": [
+      "A. A. Malygin",
+      "Malygin"
+    ],
+    "summary": "Russian chemist, student of Aleskovskii, and co-author of this essay.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "victor_drozd",
+    "entity_type": "person",
+    "name": "Victor E. Drozd",
+    "aliases": [
+      "V. E. Drozd",
+      "Drozd"
+    ],
+    "summary": "Russian physicist and student of Aleskovskii who developed vacuum ML equipment.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "lti_lensovet",
+    "entity_type": "organization",
+    "name": "Leningrad Technological Institute by Lensovet",
+    "aliases": [
+      "LTI by Lensovet",
+      "St. Petersburg State Technological Institute",
+      "SPbSTI"
+    ],
+    "summary": "Technical university in St. Petersburg where Aleskovskii studied and worked for decades.",
+    "subtype": "university"
+  },
+  {
+    "id": "lsu",
+    "entity_type": "organization",
+    "name": "Leningrad State University",
+    "aliases": [
+      "LSU",
+      "St. Petersburg State University",
+      "SPbSU"
+    ],
+    "summary": "Major university in St. Petersburg where Aleskovskii served as rector and professor.",
+    "subtype": "university"
+  },
+  {
+    "id": "naval_research_institute_leningrad",
+    "entity_type": "organization",
+    "name": "Naval Research Institute",
+    "aliases": [
+      "Naval Research Institute in Leningrad"
+    ],
+    "summary": "Research institute in Leningrad where Aleskovskii worked after graduation.",
+    "subtype": "lab"
+  },
+  {
+    "id": "academy_sciences_ussr",
+    "entity_type": "organization",
+    "name": "Academy of Sciences of the USSR",
+    "aliases": [
+      "USSR Academy of Sciences",
+      "RAS"
+    ],
+    "summary": "Premier scientific academy of the Soviet Union.",
+    "subtype": "organization"
+  },
+  {
+    "id": "mary_turkmenistan",
+    "entity_type": "place",
+    "name": "Mary",
+    "aliases": [],
+    "summary": "City in Turkmenistan where Aleskovskii was born.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Turkmenistan"
+    }
+  },
+  {
+    "id": "leningrad",
+    "entity_type": "place",
+    "name": "Leningrad",
+    "aliases": [
+      "St. Petersburg"
+    ],
+    "summary": "City in Russia where Aleskovskii studied and worked.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Russia"
+    }
+  },
+  {
+    "id": "molecular_layering",
+    "entity_type": "artifact",
+    "name": "Molecular Layering",
+    "aliases": [
+      "ML",
+      "Atomic Layer Deposition",
+      "ALD"
+    ],
+    "summary": "Gas-phase layer by layer deposition technology pioneered by Aleskovskii.",
+    "subtype": "invention"
+  },
+  {
+    "id": "framework_hypothesis",
+    "entity_type": "artifact",
+    "name": "Framework Hypothesis",
+    "aliases": [],
+    "summary": "Theoretical concept proposed by Aleskovskii regarding the chemical structure of solids.",
+    "subtype": "invention"
+  }
+]

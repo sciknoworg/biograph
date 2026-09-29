@@ -1,0 +1,280 @@
+[
+  {
+    "id": "tuomo_suntola",
+    "entity_type": "person",
+    "name": "Tuomo Suntola",
+    "aliases": [
+      "Dr. Tuomo Suntola",
+      "Suntola"
+    ],
+    "summary": "Finnish physicist and inventor of Atomic Layer Epitaxy (ALE).",
+    "subtype": "researcher"
+  },
+  {
+    "id": "riikka_l_puurunen",
+    "entity_type": "person",
+    "name": "Riikka L. Puurunen",
+    "aliases": [
+      "Dr. R. L. Puurunen"
+    ],
+    "summary": "Author of the essay and researcher at VTT Technical Research Centre of Finland.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "tampere",
+    "entity_type": "place",
+    "name": "Tampere",
+    "attributes": {
+      "country": "Finland"
+    },
+    "summary": "City in Finland where Tuomo Suntola was born.",
+    "subtype": "city"
+  },
+  {
+    "id": "finland",
+    "entity_type": "place",
+    "name": "Finland",
+    "summary": "Country where Tuomo Suntola lived and worked.",
+    "subtype": "country"
+  },
+  {
+    "id": "helsinki_university_of_technology",
+    "entity_type": "organization",
+    "name": "Helsinki University of Technology",
+    "aliases": [
+      "HUT",
+      "Teknillinen korkeakoulu",
+      "TKK",
+      "Aalto University"
+    ],
+    "summary": "University where Tuomo Suntola studied electrical engineering.",
+    "subtype": "university"
+  },
+  {
+    "id": "thor_stubb",
+    "entity_type": "person",
+    "name": "Thor Stubb",
+    "aliases": [
+      "Prof. Thor Stubb",
+      "Prof. Stubb"
+    ],
+    "summary": "Professor at Helsinki University of Technology who supervised Suntola.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "vtt_semiconductor_laboratory",
+    "entity_type": "organization",
+    "name": "VTT Semiconductor Laboratory",
+    "aliases": [
+      "VTT"
+    ],
+    "summary": "Laboratory where Suntola worked on humidity sensors and ALE initiation.",
+    "subtype": "lab"
+  },
+  {
+    "id": "vaisala_oy",
+    "entity_type": "organization",
+    "name": "Vaisala Oy",
+    "summary": "Finnish company specializing in meteorological instrumentation.",
+    "subtype": "company"
+  },
+  {
+    "id": "jorma_antson",
+    "entity_type": "person",
+    "name": "Jorma Antson",
+    "summary": "Colleague of Suntola who worked on humidity sensors and EL displays.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "instrumentarium_oy",
+    "entity_type": "organization",
+    "name": "Instrumentarium Oy",
+    "summary": "Company where Suntola started the ALE-EL development.",
+    "subtype": "company"
+  },
+  {
+    "id": "lohja_oy",
+    "entity_type": "organization",
+    "name": "Lohja Oy",
+    "aliases": [
+      "Lohja"
+    ],
+    "summary": "Building material company that acquired the ALE-EL project.",
+    "subtype": "company"
+  },
+  {
+    "id": "planar_inc",
+    "entity_type": "organization",
+    "name": "Planar Inc.",
+    "aliases": [
+      "Planar"
+    ],
+    "summary": "American competitor that bought Lohja's EL business.",
+    "subtype": "company"
+  },
+  {
+    "id": "beneq_oy",
+    "entity_type": "organization",
+    "name": "Beneq Oy",
+    "aliases": [
+      "Beneq"
+    ],
+    "summary": "Company that acquired Planar's EL plant and continues ALE-EL production.",
+    "subtype": "company"
+  },
+  {
+    "id": "neste_oy",
+    "entity_type": "organization",
+    "name": "Neste Oy",
+    "aliases": [
+      "Neste",
+      "Fortum Oyj"
+    ],
+    "summary": "National oil company that established Microchemistry Ltd.",
+    "subtype": "company"
+  },
+  {
+    "id": "microchemistry_ltd",
+    "entity_type": "organization",
+    "name": "Microchemistry Ltd.",
+    "aliases": [
+      "Microchemistry",
+      "ASM Microchemistry"
+    ],
+    "summary": "Company founded by Suntola to develop ALE-based solar panels and reactors.",
+    "subtype": "company"
+  },
+  {
+    "id": "asm",
+    "entity_type": "organization",
+    "name": "ASM",
+    "summary": "Dutch company that acquired Microchemistry.",
+    "subtype": "company"
+  },
+  {
+    "id": "picosun_oy",
+    "entity_type": "organization",
+    "name": "Picosun Oy",
+    "aliases": [
+      "Picosun"
+    ],
+    "summary": "Company founded by Sven Lindfors where Suntola later joined the board.",
+    "subtype": "company"
+  },
+  {
+    "id": "sven_lindfors",
+    "entity_type": "person",
+    "name": "Sven Lindfors",
+    "summary": "Closest co-worker to Suntola in ALE reactor design.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "arto_pakkala",
+    "entity_type": "person",
+    "name": "Arto Pakkala",
+    "summary": "Colleague involved in the ZnCl2/H2S process demonstration.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "atomic_layer_epitaxy",
+    "entity_type": "artifact",
+    "name": "Atomic Layer Epitaxy",
+    "aliases": [
+      "ALE",
+      "Atomic Layer Deposition",
+      "ALD"
+    ],
+    "summary": "Thin film growth technique invented by Tuomo Suntola.",
+    "subtype": "invention"
+  },
+  {
+    "id": "humicap_1",
+    "entity_type": "artifact",
+    "name": "Humicap 1",
+    "summary": "Humidity sensor developed by Suntola and Antson.",
+    "subtype": "product"
+  },
+  {
+    "id": "f_120_reactor",
+    "entity_type": "artifact",
+    "name": "F-120 reactor",
+    "summary": "First commercial ALD reactor designed by Suntola and Lindfors.",
+    "subtype": "product"
+  },
+  {
+    "id": "sid",
+    "entity_type": "organization",
+    "name": "Society for Information Display",
+    "aliases": [
+      "SID"
+    ],
+    "summary": "Organization where Suntola first publicly disclosed ALE-EL.",
+    "subtype": "organization"
+  },
+  {
+    "id": "mrs",
+    "entity_type": "organization",
+    "name": "Materials Research Society",
+    "aliases": [
+      "MRS"
+    ],
+    "summary": "Organization where Suntola presented ALE for semiconductor applications.",
+    "subtype": "organization"
+  },
+  {
+    "id": "jun_ichi_nishizawa",
+    "entity_type": "person",
+    "name": "Jun-ichi Nishizawa",
+    "aliases": [
+      "Professor Jun-ichi Nishizawa",
+      "Prof. Nishizawa"
+    ],
+    "summary": "Japanese professor who started ALE research in Japan.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "lauri_niinisto",
+    "entity_type": "person",
+    "name": "Lauri Niinistö",
+    "aliases": [
+      "Professor Lauri Niinistö",
+      "Prof. Niinistö"
+    ],
+    "summary": "Professor at HUT who organized the first ALE conference.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "aleskovskii",
+    "entity_type": "person",
+    "name": "Aleskovskii",
+    "aliases": [
+      "Prof. Aleskovskii"
+    ],
+    "summary": "Soviet professor who independently discovered molecular layering.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "university_of_leningrad",
+    "entity_type": "organization",
+    "name": "University of Leningrad",
+    "aliases": [
+      "St. Petersburg"
+    ],
+    "summary": "University where Aleskovskii worked.",
+    "subtype": "university"
+  },
+  {
+    "id": "the_dynamic_universe",
+    "entity_type": "artifact",
+    "name": "The Dynamic Universe",
+    "summary": "Book published by Suntola in 2011.",
+    "subtype": "publication"
+  },
+  {
+    "id": "physics_foundations_society",
+    "entity_type": "organization",
+    "name": "Physics Foundations Society",
+    "summary": "Society where Suntola is chairman.",
+    "subtype": "organization"
+  }
+]

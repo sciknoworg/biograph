@@ -1,0 +1,193 @@
+[
+  {
+    "id": "aleskovskii_valentin_borisovich",
+    "entity_type": "person",
+    "name": "Valentin Borisovich Aleskovskii",
+    "aliases": [
+      "V. B. Aleskovskii",
+      "Valentin Aleskovskii",
+      "V. B. Aleskovsky"
+    ],
+    "summary": "Soviet and Russian chemist, professor, and organizer of the scientific school of Chemistry of highly organized substances.",
+    "subtype": "researcher",
+    "attributes": {
+      "nationality": "Soviet/Russian"
+    }
+  },
+  {
+    "id": "koltsov_stanislav_ivanovich",
+    "entity_type": "person",
+    "name": "Stanislav Ivanovich Kol'tsov",
+    "aliases": [
+      "S. I. Kol'tsov",
+      "Stanislav Kol'tsov"
+    ],
+    "summary": "Soviet and Russian chemist, graduate student of Aleskovskii, and co-inventor of the Molecular Layering method.",
+    "subtype": "researcher",
+    "attributes": {
+      "nationality": "Soviet/Russian"
+    }
+  },
+  {
+    "id": "malygin_anatolii_a",
+    "entity_type": "person",
+    "name": "Anatolii A. Malygin",
+    "aliases": [
+      "A. A. Malygin",
+      "Anatoly Malygin"
+    ],
+    "summary": "Russian chemist, professor, and student of Aleskovskii who continued ML research.",
+    "subtype": "researcher",
+    "attributes": {
+      "nationality": "Russian"
+    }
+  },
+  {
+    "id": "drozd_victor_e",
+    "entity_type": "person",
+    "name": "Victor E. Drozd",
+    "aliases": [
+      "V. E. Drozd",
+      "Victor Drozd"
+    ],
+    "summary": "Russian physicist and chemist, student of Aleskovskii, developer of vacuum ML equipment.",
+    "subtype": "researcher",
+    "attributes": {
+      "nationality": "Russian"
+    }
+  },
+  {
+    "id": "suntola_tuomo",
+    "entity_type": "person",
+    "name": "T. Suntola",
+    "aliases": [
+      "Tuomo Suntola"
+    ],
+    "summary": "Finnish physicist, inventor of Atomic Layer Epitaxy (ALE).",
+    "subtype": "researcher",
+    "attributes": {
+      "nationality": "Finnish"
+    }
+  },
+  {
+    "id": "kosygin_nikolai_a",
+    "entity_type": "person",
+    "name": "N. A. Kosygin",
+    "aliases": [
+      "Nikolai Kosygin"
+    ],
+    "summary": "Prime Minister of the USSR who showed interest in ML technology.",
+    "subtype": "politician",
+    "attributes": {
+      "nationality": "Soviet"
+    }
+  },
+  {
+    "id": "lti_lensovet",
+    "entity_type": "organization",
+    "name": "Leningrad Technological Institute by Lensovet",
+    "aliases": [
+      "LTI by Lensovet",
+      "St. Petersburg State Technological Institute",
+      "Technical University",
+      "SPbSTI"
+    ],
+    "summary": "Educational chemical engineering institute in Russia where Aleskovskii studied and worked.",
+    "subtype": "university"
+  },
+  {
+    "id": "lsu",
+    "entity_type": "organization",
+    "name": "Leningrad State University",
+    "aliases": [
+      "LSU",
+      "St. Petersburg State University",
+      "SPbSU"
+    ],
+    "summary": "University where Aleskovskii served as rector and founded a department.",
+    "subtype": "university"
+  },
+  {
+    "id": "naval_research_institute_leningrad",
+    "entity_type": "organization",
+    "name": "Naval Research Institute",
+    "aliases": [],
+    "summary": "Research institute in Leningrad where Aleskovskii worked after graduation.",
+    "subtype": "lab"
+  },
+  {
+    "id": "academy_sciences_ussr",
+    "entity_type": "organization",
+    "name": "Academy of Sciences of the USSR",
+    "aliases": [
+      "Academy of Sciences"
+    ],
+    "summary": "National academy of sciences of the Soviet Union.",
+    "subtype": "organization"
+  },
+  {
+    "id": "supreme_soviet_rsfsr",
+    "entity_type": "organization",
+    "name": "Supreme Soviet of the Russian Federation",
+    "aliases": [
+      "SFSR"
+    ],
+    "summary": "Legislative body of the Russian Soviet Federative Socialist Republic.",
+    "subtype": "organization"
+  },
+  {
+    "id": "mary_turkmenistan",
+    "entity_type": "place",
+    "name": "Mary",
+    "aliases": [],
+    "summary": "City in Turkmenistan where Aleskovskii was born.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Turkmenistan"
+    }
+  },
+  {
+    "id": "leningrad",
+    "entity_type": "place",
+    "name": "Leningrad",
+    "aliases": [
+      "St. Petersburg"
+    ],
+    "summary": "City in Russia where Aleskovskii studied and worked for most of his life.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Russia"
+    }
+  },
+  {
+    "id": "ml_method",
+    "entity_type": "artifact",
+    "name": "Molecular Layering",
+    "aliases": [
+      "ML",
+      "Molecular Layering method"
+    ],
+    "summary": "Gas-phase layer by layer deposition technology developed in the Soviet Union.",
+    "subtype": "invention"
+  },
+  {
+    "id": "framework_hypothesis",
+    "entity_type": "artifact",
+    "name": "Framework Hypothesis",
+    "aliases": [
+      "\"framework\" hypothesis"
+    ],
+    "summary": "Theoretical concept proposed by Aleskovskii regarding the chemical structure of solids.",
+    "subtype": "invention"
+  },
+  {
+    "id": "ale",
+    "entity_type": "artifact",
+    "name": "Atomic Layer Epitaxy",
+    "aliases": [
+      "ALE"
+    ],
+    "summary": "Thin-film deposition method invented by T. Suntola in Finland.",
+    "subtype": "invention"
+  }
+]

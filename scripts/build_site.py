@@ -143,6 +143,20 @@ Rules, non-negotiable:
   against the source afterwards, and anything whose quote isn't found verbatim is reported as
   ungrounded, so a quote you cannot copy exactly is a fact you should not be stating. If you
   cannot point at the words, leave the fact out.
+- COMPLETENESS IS PART OF CORRECTNESS, and it is checked. Every rule above says what a fact
+  must carry to be admissible; not one of them licenses leaving a fact out. Work through the
+  document from its first page to its last and record every qualifying entity, event and
+  relation you find there. Do not stop when the output feels long enough, do not keep only the
+  highlights, and never drop a qualifying fact for brevity -- a shorter extraction is not a
+  better one. Two extractions of this document should differ in wording, never in which facts
+  they contain.
+- EVERY person, place, organization and artifact named inside a quote you cite must have its
+  own entities[] object. Quoting "Suntola and Antson filed the patent" asserts that this
+  document says something about Antson, so Antson is an entity with an id, and belongs in any
+  event or relation that sentence supports. This is checked mechanically against your own
+  citations afterwards, and a name you quoted but never defined is reported as a missing
+  entity. The way out is never to quote a shorter span to dodge a name: if the sentence that
+  states your fact names someone, define them.
 - Keep entities[].summary and events[].label terse and scannable: an expert should read a
   label alone and know what happened ("Moved to Texas Instruments"), not a full sentence
   explaining why. Save extra context for description -- at most one tight sentence, and only
@@ -1163,6 +1177,82 @@ def _shingle_overlap(needle, haystack, n=5):
     return sum(1 for w in windows if w in haystack) / len(windows)
 
 
+#: Sentence furniture and honorifics that open a capitalised run without naming anything.
+_NOT_A_NAME = {
+    "The", "This", "That", "These", "Those", "A", "An", "In", "On", "At", "By", "For", "From",
+    "With", "When", "After", "Before", "During", "His", "Her", "Their", "It", "He", "She",
+    "They", "We", "As", "But", "And", "Or", "If", "So", "Then", "Also", "However", "Both",
+    "Dr", "Prof", "Professor", "Mr", "Mrs", "Ms", "Sir", "Dame", "Lord", "Figure", "Table",
+    "Fig", "Section", "Chapter", "Page", "Vol", "Jan", "Feb", "Mar", "Apr", "Jun", "Jul",
+    "Aug", "Sep", "Oct", "Nov", "Dec",
+}
+
+#: Two or more capitalised words, optionally joined by a lowercase particle ("of", "van").
+_NAME_RUN = re.compile(r"\b([A-Z][\w\u00c0-\u024f]+"
+                       r"(?:\s+(?:of|de|van|von|der|den|la|le|du)\s+)?"
+                       r"(?:\s+[A-Z][\w\u00c0-\u024f]+)+)\b")
+
+def _names_in(text):
+    """Capitalised multi-word runs in a quote -- candidate names, not a parser."""
+    out = set()
+    for m in _NAME_RUN.finditer(text or ""):
+        words = m.group(1).split()
+        if words and words[0] in _NOT_A_NAME:
+            words = words[1:]
+        if len(words) >= 2:
+            out.add(" ".join(words))
+    return out
+
+
+def check_completeness(data):
+    """Does every name the extraction QUOTES resolve to an entity it DEFINED?
+
+    Completeness against the source would need the source annotated, which nothing here has.
+    Completeness against the extraction's own citations needs nothing extra: a quote is a span
+    the model chose to assert, so a name inside one is a name it has already committed to. If
+    it never defined that name as an entity, the extraction contradicts itself -- and that is
+    checkable with no gold annotation at all.
+
+    This exists because the schema governs the SHAPE of an item and nothing governed how many
+    items there should be. Measured over 25 repeat extractions of two documents, every
+    prompt-governed property held at 0.0% variation between runs while entity counts varied
+    13-38% and person counts 33-62%. One draw of a paper naming six colleagues produced a
+    single person entity while still quoting the others by name; that draw is what this catches.
+
+    A heuristic, and reported as one. It matches capitalised multi-word runs, so it flags field
+    names ("Analytical Chemistry") alongside real misses ("Jorma Antson", "Vaisala Oy") --
+    roughly half of what it reports is worth acting on. Like the grounding check it reports
+    rather than blocks: a hard gate on something this rough would cost more good extractions
+    than it saved.
+    """
+    forms = set()
+    for ent in data.get("entities") or []:
+        if not isinstance(ent, dict):
+            continue
+        for form in [ent.get("name")] + list(ent.get("aliases") or []):
+            flat = _flatten_ws(form or "")
+            if flat:
+                forms.add(flat)
+
+    missing = {}
+    for kind in ("events", "relations"):
+        for item in data.get(kind) or []:
+            if not isinstance(item, dict):
+                continue
+            for cite in item.get("sources") or []:
+                quote = (cite or {}).get("quote") if isinstance(cite, dict) else None
+                for name in _names_in(quote or ""):
+                    flat = _flatten_ws(name)
+                    if any(flat == d or flat in d or d in flat for d in forms):
+                        continue
+                    missing.setdefault(name, []).append(str(item.get("id") or kind))
+
+    report = ["    quoted but never defined as an entity: %r (in %s)"
+              % (name, ", ".join(sorted(set(where))[:2]))
+              for name, where in sorted(missing.items())]
+    return report, {"names_quoted_undefined": len(missing)}
+
+
 def check_grounding(data, source_text):
     """Verify the model's claims actually appear in the document. Returns (report, stats).
 
@@ -1419,6 +1509,16 @@ def extract(pdf_path, slug, name, model, base_url, api_key, max_chars, max_token
         print(line)
     if len(issues) > 15:
         print(f"    ... and {len(issues) - 15} more")
+    # Grounding asks whether what was asserted is real; this asks whether what was quoted was
+    # also defined. Precision had three mechanical checks and completeness had none.
+    cissues, cstats = check_completeness(data)
+    if cstats["names_quoted_undefined"]:
+        print(f"  completeness: {cstats['names_quoted_undefined']} name(s) appear in a cited "
+              f"quote without an entity of their own")
+        for line in cissues[:10]:
+            print(line)
+        if len(cissues) > 10:
+            print(f"    ... and {len(cissues) - 10} more")
     if gstats["quotes_checked"] == 0:
         print("  (no quotes to verify -- provenance carries no quotes, so nothing here is "
               "mechanically grounded)")
@@ -1927,6 +2027,13 @@ def main():
               f"/{stats['entities_checked']} entity names present")
         for line in issues:
             print(line)
+        cissues, cstats = check_completeness(data)
+        print(f"{args.slug}: {cstats['names_quoted_undefined']} name(s) quoted without an "
+              f"entity of their own")
+        for line in cissues:
+            print(line)
+        # Exit status still tracks grounding alone. Completeness is a heuristic (see
+        # check_completeness) and must not turn a clean extraction into a failed command.
         sys.exit(1 if issues else 0)
 
     if args.pdf and args.text:

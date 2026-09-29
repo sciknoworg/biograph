@@ -131,6 +131,26 @@ def main(argv=None) -> int:
         n = len(loaded)
         if n < 2:
             continue
+        print("")
+        print("dispersion (sample sd, n-1; CV = sd/mean, comparable across metrics)")
+        print("  %-12s %8s %8s %9s %7s" % ("", "mean", "sd", "variance", "CV"))
+        series = {
+            "entities": [(r.get("counts") or {}).get("entities") for r in runs],
+            "events": [(r.get("counts") or {}).get("events") for r in runs],
+            "relations": [(r.get("counts") or {}).get("relations") for r in runs],
+            "verbatim %": [100 * r["grounding"]["quotes_verbatim"] / r["grounding"]["quotes_checked"]
+                           for r in runs if (r.get("grounding") or {}).get("quotes_checked")],
+            "wall s": [r["wall_seconds"] for r in runs],
+        }
+        for label, vals in series.items():
+            vals = [v for v in vals if v is not None]
+            if len(vals) < 2:
+                continue
+            mu = statistics.mean(vals)
+            sd = statistics.stdev(vals)
+            print("  %-12s %8.1f %8.2f %9.1f %6.1f%%"
+                  % (label, mu, sd, statistics.variance(vals), 100 * sd / mu if mu else 0))
+
         print("\nagreement across %d draws (how many draws each item appears in)" % n)
         print("  %-10s %6s %8s %8s %8s" % ("", "union", "in all", "in >=half", "in one"))
         for field in ("entities", "events", "relations"):

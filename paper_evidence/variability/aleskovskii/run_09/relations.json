@@ -1,0 +1,148 @@
+[
+  {
+    "id": "aleskovskii_born_in_mary",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "born_in",
+    "target": "mary_turkmenistan",
+    "event_id": "aleskovskii_birth",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 2,
+        "quote": "Valentin Borisovich Aleskovskii was born on June 3 th 1912 in the city of Mary (Turkmenistan)."
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_studied_at_lti",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "studied_at",
+    "target": "lti_lensovet",
+    "event_id": "aleskovskii_admitted_lti",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 2,
+        "quote": "In 1931, Valentin Borisovich was admitted to the LTI by Lensovet"
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_worked_at_naval",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "worked_at",
+    "target": "naval_research_institute_leningrad",
+    "event_id": "aleskovskii_worked_naval",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 2,
+        "quote": "after its completion in 1937, was sent to the Naval Research Institute in Leningrad, where he worked as a research fellow."
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_worked_at_lti",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "worked_at",
+    "target": "lti_lensovet",
+    "start": {
+      "display": "1949",
+      "precision": "year",
+      "sort_start": "1949-01-01",
+      "sort_end": "1949-12-31"
+    },
+    "end": {
+      "display": "1975",
+      "precision": "year",
+      "sort_start": "1975-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3,
+        "quote": "In 1949 he was appointed as the head of the Department of Analytical Chemistry."
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_supervised_koltsov",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "supervised_by",
+    "target": "koltsov_stanislav_ivanovich",
+    "note": "Aleskovskii supervised Kol'tsov",
+    "start": {
+      "display": "1955",
+      "precision": "year",
+      "sort_start": "1955-01-01",
+      "sort_end": "1955-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3,
+        "quote": "His supervisor was Prof. V. B. Aleskovskii."
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_member_of_academy",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "member_of",
+    "target": "academy_sciences_ussr",
+    "event_id": "aleskovskii_academy_member",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 6,
+        "quote": "In 1972 V. B. Aleskovskii was elected a corresponding member of the Academy of Sciences of the USSR."
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_worked_at_lsu",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "worked_at",
+    "target": "lsu_leningrad",
+    "start": {
+      "display": "1975",
+      "precision": "year",
+      "sort_start": "1975-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 6,
+        "quote": "Since 1975, educational, scienti ﬁc and organizational activities of V. B. Aleskovskii were associated with the Leningrad State University (LSU) since he was appointment as rector of this university."
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_developed_ml",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "developed",
+    "target": "molecular_layering_method",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 1,
+        "quote": "This essay is dedicated to the history of creation and development of the molecular layering technique (ML) which, in the modern community of non-Russian scientists, is commonly referred to as atomic layer deposition (ALD)."
+      }
+    ]
+  },
+  {
+    "id": "koltsov_developed_ml",
+    "source": "koltsov_stanislav_ivanovich",
+    "type": "developed",
+    "target": "molecular_layering_method",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 2,
+        "quote": "In Russia, the inventors of the ML method are Prof. V. B. Aleskovskii (a chemist by education) and his student S. I. Kol'tsov"
+      }
+    ]
+  }
+]

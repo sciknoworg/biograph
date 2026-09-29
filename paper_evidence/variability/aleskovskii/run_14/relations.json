@@ -1,0 +1,210 @@
+[
+  {
+    "id": "aleskovskii_born_mary",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "born_in",
+    "target": "mary_turkmenistan",
+    "event_id": "aleskovskii_birth",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 2,
+        "quote": "Valentin Borisovich Aleskovskii was born on June 3th 1912 in the city of Mary (Turkmenistan)."
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_studied_lti",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "studied_at",
+    "target": "lti_lensovet",
+    "event_id": "aleskovskii_admitted_lti",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 2,
+        "quote": "In 1931, Valentin Borisovich was admitted to the LTI by Lensovet"
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_worked_naval",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "worked_at",
+    "target": "naval_research_institute_leningrad",
+    "event_id": "aleskovskii_work_naval",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 2,
+        "quote": "was sent to the Naval Research Institute in Leningrad, where he worked as a research fellow."
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_employed_lti",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "employed_by",
+    "target": "lti_lensovet",
+    "start": {
+      "display": "1937",
+      "precision": "year",
+      "sort_start": "1937-01-01",
+      "sort_end": "1937-12-31"
+    },
+    "end": {
+      "display": "1975",
+      "precision": "year",
+      "sort_start": "1975-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 2,
+        "quote": "after its completion in 1937, was sent to the Naval Research Institute in Leningrad, where he worked as a research fellow. In 1938 he started his graduate studies at the LTI by Lensovet"
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_employed_lsu",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "employed_by",
+    "target": "lsu",
+    "start": {
+      "display": "1975",
+      "precision": "year",
+      "sort_start": "1975-01-01",
+      "sort_end": "1975-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 6,
+        "quote": "Since 1975, educational, scientific and organizational activities of V. B. Aleskovskii were associated with the Leningrad State University (LSU)"
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_member_academy",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "member_of",
+    "target": "academy_sciences_ussr",
+    "event_id": "aleskovskii_academy_member",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 6,
+        "quote": "In 1972 V. B. Aleskovskii was elected a corresponding member of the Academy of Sciences of the USSR."
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_member_soviet",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "member_of",
+    "target": "supreme_soviet_rsfsr",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 7,
+        "quote": "For many years V. B. Aleskovskii was chairman of the Council of Rectors of Leningrad and a member of the Supreme Soviet of the Russian Federation (SFSR)"
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_supervised_koltsov",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "supervised_by",
+    "target": "koltsov_stanislav_ivanovich",
+    "note": "Aleskovskii supervised Kol'tsov",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3,
+        "quote": "His supervisor was Prof. V. B. Aleskovskii."
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_invented_ml",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "invented",
+    "target": "molecular_layering_method",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 2,
+        "quote": "In Russia, the inventors of the ML method are Prof. V. B. Aleskovskii (a chemist by education) and his student S. I. Kol'tsov"
+      }
+    ]
+  },
+  {
+    "id": "koltsov_invented_ml",
+    "source": "koltsov_stanislav_ivanovich",
+    "type": "invented",
+    "target": "molecular_layering_method",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 2,
+        "quote": "In Russia, the inventors of the ML method are Prof. V. B. Aleskovskii (a chemist by education) and his student S. I. Kol'tsov"
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_founded_school",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "founded",
+    "target": "chemistry_highly_organized_substances",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 1,
+        "quote": "introduces the scientific school of \"Chemistry of highly organized substances \", founded and supervised by V. B. Aleskovskii."
+      }
+    ]
+  },
+  {
+    "id": "aleskovskii_developed_framework",
+    "source": "aleskovskii_valentin_borisovich",
+    "type": "developed",
+    "target": "framework_hypothesis",
+    "event_id": "aleskovskii_framework_hypothesis",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3,
+        "quote": "In his doctoral dissertation on page 98 V. B. Aleskovskii notes that the original idea of \"framework\" hypothesis was outlined by him in 1940."
+      }
+    ]
+  },
+  {
+    "id": "koltsov_studied_lti",
+    "source": "koltsov_stanislav_ivanovich",
+    "type": "studied_at",
+    "target": "lti_lensovet",
+    "event_id": "koltsov_admitted_lti",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3,
+        "quote": "In 1950 he was admitted to the Leningrad Technological Institute by Lensovet"
+      }
+    ]
+  },
+  {
+    "id": "koltsov_supervised_aleskovskii",
+    "source": "koltsov_stanislav_ivanovich",
+    "type": "supervised_by",
+    "target": "aleskovskii_valentin_borisovich",
+    "event_id": "koltsov_graduate_student",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 3,
+        "quote": "His supervisor was Prof. V. B. Aleskovskii."
+      }
+    ]
+  }
+]

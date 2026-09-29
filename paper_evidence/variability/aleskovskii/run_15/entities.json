@@ -1,0 +1,133 @@
+[
+  {
+    "id": "aleskovskii_valentin_borisovich",
+    "entity_type": "person",
+    "name": "Valentin Borisovich Aleskovskii",
+    "aliases": [
+      "V. B. Aleskovskii",
+      "Valentin Aleskovskii",
+      "Aleskovskii"
+    ],
+    "summary": "Soviet chemist and professor who proposed the 'framework' hypothesis and co-founded the molecular layering method.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "koltsov_stanislav_ivanovich",
+    "entity_type": "person",
+    "name": "Stanislav Ivanovich Kol'tsov",
+    "aliases": [
+      "S. I. Kol'tsov",
+      "Kol'tsov"
+    ],
+    "summary": "Soviet chemist and graduate student of Aleskovskii who co-developed the molecular layering method.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "lti_lensovet",
+    "entity_type": "organization",
+    "name": "Leningrad Technological Institute by Lensovet",
+    "aliases": [
+      "LTI by Lensovet",
+      "St. Petersburg State Technological Institute (Technical University)",
+      "SPbSTI"
+    ],
+    "summary": "Russian technical university where Aleskovskii studied and worked for most of his career.",
+    "subtype": "university"
+  },
+  {
+    "id": "lsu",
+    "entity_type": "organization",
+    "name": "Leningrad State University",
+    "aliases": [
+      "LSU",
+      "St. Petersburg State University",
+      "SPbSU"
+    ],
+    "summary": "Russian university where Aleskovskii served as rector and founded a department.",
+    "subtype": "university"
+  },
+  {
+    "id": "naval_research_institute_leningrad",
+    "entity_type": "organization",
+    "name": "Naval Research Institute",
+    "aliases": [],
+    "summary": "Research institute in Leningrad where Aleskovskii worked as a research fellow after graduation.",
+    "subtype": "lab"
+  },
+  {
+    "id": "academy_sciences_ussr",
+    "entity_type": "organization",
+    "name": "Academy of Sciences of the USSR",
+    "aliases": [],
+    "summary": "Soviet academy of which Aleskovskii became a corresponding member.",
+    "subtype": "organization"
+  },
+  {
+    "id": "supreme_soviet_rsfsr",
+    "entity_type": "organization",
+    "name": "Supreme Soviet of the Russian Federation",
+    "aliases": [
+      "SFSR"
+    ],
+    "summary": "Legislative body of the Russian Soviet Federative Socialist Republic where Aleskovskii was a member.",
+    "subtype": "organization"
+  },
+  {
+    "id": "mary_turkmenistan",
+    "entity_type": "place",
+    "name": "Mary",
+    "aliases": [],
+    "summary": "City in Turkmenistan where Aleskovskii was born.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Turkmenistan"
+    }
+  },
+  {
+    "id": "ml_method",
+    "entity_type": "artifact",
+    "name": "Molecular Layering",
+    "aliases": [
+      "ML",
+      "Molecular Layering method"
+    ],
+    "summary": "Gas-phase layer by layer deposition technology developed by Aleskovskii and Kol'tsov.",
+    "subtype": "invention"
+  },
+  {
+    "id": "framework_hypothesis",
+    "entity_type": "artifact",
+    "name": "Framework hypothesis",
+    "aliases": [],
+    "summary": "Theoretical concept proposed by Aleskovskii regarding the chemical structure of solids.",
+    "subtype": "invention"
+  },
+  {
+    "id": "dept_chemistry_solids_lti",
+    "entity_type": "organization",
+    "name": "Department of Chemistry of Solids",
+    "aliases": [
+      "Department of Chemical Engineering of Materials and Electronics Products",
+      "Department of Chemical Nanotechnology and Electronics Engineering Materials",
+      "CNEEM"
+    ],
+    "summary": "Department at LTI founded by Aleskovskii in 1967.",
+    "subtype": "organization"
+  },
+  {
+    "id": "dept_solid_state_chemistry_lsu",
+    "entity_type": "organization",
+    "name": "Department of Solid State Chemistry",
+    "aliases": [],
+    "summary": "Department at LSU organized by Aleskovskii in 1977.",
+    "subtype": "organization"
+  },
+  {
+    "id": "chemical_assembly_program",
+    "entity_type": "artifact",
+    "name": "Chemical assembly of materials",
+    "aliases": [],
+    "summary": "Inter-university scientific and technical program founded in 1978 under Aleskovskii's supervision.",
+    "subtype": "product"
+  }
+]
