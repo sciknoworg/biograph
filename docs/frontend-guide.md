@@ -29,9 +29,10 @@ of them on hover/click).
   Co-presence edges connect each participant to the event's principal (the
   one whose `role` names them its subject, else the first listed) rather
   than to each other, so a large event adds a star and not a hairball.
-  Without them a median 39% of entities in this corpus rendered as
+  Without them a median 41.2% of entities in this corpus rendered as
   isolated dots while the connection sat unread in `events.json`; with
-  them, 22%.
+  them, 23.8% (re-measured across all 233 subjects at commit `f52e741`;
+  means 39.9% and 23.5%).
 - **Node size** scales with graph degree, capped, with a larger fixed
   size for any person with a [verified portrait](data-accuracy.md#portraits).
 - **Node color** follows entity type via the categorical palette:
