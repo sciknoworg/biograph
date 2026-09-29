@@ -1,6 +1,6 @@
 # Run-to-run variability of the selected extraction model
 
-**10 runs per document × 2 documents = 20 runs** of `qwen3.5-397b-a17b` over the same two
+**5 runs per document × 2 documents = 10 runs** of `qwen3.5-397b-a17b` over the same two
 sources the 2026-09-04 model comparison used.
 
 ## Why this is a separate study
@@ -43,8 +43,8 @@ move, that is a much stronger claim about the method than any single run's numbe
 ## Isolation
 
 Runs execute in a **hash-verified throwaway sandbox**, never in the repository.
-`build_site.py` derives its root from its own `__file__`, so running in place would write 20
-fake subjects into `subjects/` — exactly the accident `../README.md` records, where 170 test
+`build_site.py` derives its root from its own `__file__`, so running in place would write these
+runs as fake subjects into `subjects/` — exactly the accident `../README.md` records, where 170 test
 entities began hijacking the pipeline's name resolution. The sandbox's core is hashed before
 the study and re-verified after; a divergence exits 2.
 
@@ -55,7 +55,7 @@ folder under it — a leftover would union two draws into one graph.
 
 ```bash
 python paper_evidence/variability/run_variability.py --dry-run     # plan, no model call
-python paper_evidence/variability/run_variability.py --runs 10
+python paper_evidence/variability/run_variability.py --runs 5
 python paper_evidence/variability/run_variability.py --runs 1 --document suntola
 ```
 
@@ -72,15 +72,22 @@ recorded, and can be re-run to extend the study.
 ```
 variability/
   manifest.json          the mapping and every per-run measurement
-  suntola/run_01 .. run_10
-  aleskovskii/run_01 .. run_10
+  suntola/run_01 .. run_05
+  aleskovskii/run_01 .. run_05
 ```
 
 Each `run_NN/` holds that draw's `entities.json`, `events.json`, `relations.json`,
 `sources.json` and `subject.json`. **Nothing about which model produced a run is encoded in
 its folder name** — that lives only in `manifest.json`, keyed by document and run number.
 
+## Sample size
+
+**5 draws per document.** Enough to show whether spread exists and roughly how wide it is;
+**not** enough for a confidence interval, and the write-up should report range and median
+rather than a mean with error bars. Runs are additive — re-running the script continues the
+numbering, so the study can be extended later without redoing anything.
+
 ## Status
 
-Folders prepared, driver written and dry-run checked. **No runs recorded yet** —
-`manifest.json` does not exist until the first run completes.
+Suntola: 5 of 5 recorded, extraction core verified unchanged against the repository.
+Aleskovskii: running.

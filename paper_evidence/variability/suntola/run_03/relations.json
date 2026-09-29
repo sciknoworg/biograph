@@ -1,0 +1,149 @@
+[
+  {
+    "id": "suntola_born_in_tampere",
+    "source": "tuomo_suntola",
+    "type": "born_in",
+    "target": "tampere",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ale_history",
+        "page": 2,
+        "quote": "Tuomo Suntola was born in 1943 in Tampere, Finland."
+      }
+    ]
+  },
+  {
+    "id": "suntola_studied_at_hut",
+    "source": "tuomo_suntola",
+    "type": "studied_at",
+    "target": "helsinki_university_of_technology",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ale_history",
+        "page": 2,
+        "quote": "In 1963, Suntola started his studies on electrical engineering at Helsinki University of Technology (HUT-Teknillinen korkeakoulu, TKK, nowadays Aalto University)."
+      }
+    ]
+  },
+  {
+    "id": "suntola_worked_at_vtt",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "vtt_semiconductor_laboratory",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ale_history",
+        "page": 2,
+        "quote": "In the autumn of 1971, the Semiconductor Laboratory received its ﬁrst industrial order, a task to develop a miniature solid-state humidity sensor for Vaisala Oy, a Finnish company specializing in meteorological instrumentation."
+      }
+    ]
+  },
+  {
+    "id": "suntola_worked_at_instrumentarium",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "instrumentarium_oy",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ale_history",
+        "page": 3,
+        "quote": "In the beginning of 1974, Suntola and the small humidity sensor team moved from VTT to Instrumentarium (Ahertajantie 3, Tapiola, Espoo, Finland)."
+      }
+    ]
+  },
+  {
+    "id": "suntola_invented_ale",
+    "source": "tuomo_suntola",
+    "type": "invented",
+    "target": "ale_ald_technology",
+    "event_id": "ale_invention",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ale_history",
+        "page": 3,
+        "quote": "The actual invention of ALE matured in early June 1974."
+      }
+    ]
+  },
+  {
+    "id": "suntola_founded_microchemistry",
+    "source": "tuomo_suntola",
+    "type": "founded",
+    "target": "microchemistry_ltd",
+    "event_id": "microchemistry_ltd_established",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ale_history",
+        "page": 8,
+        "quote": "In 1987, Tuomo Suntola was offered the chance to set up Microchemistry Ltd, as a subsidiary of Neste, for the development of ALE-based solar panels."
+      }
+    ]
+  },
+  {
+    "id": "suntola_worked_at_neste",
+    "source": "tuomo_suntola",
+    "type": "employed_by",
+    "target": "neste_oy",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ale_history",
+        "page": 8,
+        "quote": "In 1987, Tuomo Suntola was offered the chance to set up Microchemistry Ltd, as a subsidiary of Neste, for the development of ALE-based solar panels."
+      }
+    ]
+  },
+  {
+    "id": "suntola_worked_at_picosun",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "picosun_oy",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ale_history",
+        "page": 12,
+        "quote": "In the same year, Suntola joined Picosun Oy, first as the scientific adviser and, since 2007, as a board member."
+      }
+    ]
+  },
+  {
+    "id": "suntola_awarded_semi_award",
+    "source": "tuomo_suntola",
+    "type": "awarded",
+    "target": "european_semi_award_2004",
+    "event_id": "european_semi_award_2004",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ale_history",
+        "page": 12,
+        "quote": "The year 2004 brought a delightful surprise to Suntola in the form of the European SEMI Award 2004 \"Honoring the Pioneer in Atomic Layer Deposition Techniques … that paved the way for the development of nanoscale semiconductor devices \"."
+      }
+    ]
+  },
+  {
+    "id": "suntola_chairman_physics_foundations",
+    "source": "tuomo_suntola",
+    "type": "member_of",
+    "target": "physics_foundations_society",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ale_history",
+        "page": 13,
+        "quote": "As of 2014, Suntola continues as a board member of Picosun Oy, the chairman of the Physics Foundations Society, and a board member and a frequent lecturer in the Finnish Society for Natural Philosophy."
+      }
+    ]
+  },
+  {
+    "id": "suntola_published_dynamic_universe",
+    "source": "tuomo_suntola",
+    "type": "published",
+    "target": "the_dynamic_universe_book",
+    "event_id": "dynamic_universe_book_published",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_ale_history",
+        "page": 13,
+        "quote": "Since the mid-1990s, with early roots extending to the late 1960s, Suntola has worked on a holistic picture of reality published in 2011 in the book \"The Dynamic Universe – toward a uni ﬁed picture of physical reality \"."
+      }
+    ]
+  }
+]

@@ -88,6 +88,12 @@ def save_manifest(m: dict) -> None:
 
 
 def next_index(manifest: dict, doc_key: str) -> int:
+    """Continue numbering per document, across conditions.
+
+    Run numbers are unique per document and nothing else -- which condition a run belongs to
+    lives in manifest.json's `temperature`, never in the folder name. That is the same rule the
+    model mapping follows, and for the same reason: a folder name is not a record.
+    """
     used = [r["run"] for r in manifest["runs"] if r["document"] == doc_key]
     return max(used, default=0) + 1
 
@@ -108,6 +114,10 @@ def main(argv=None) -> int:
                     help="limit to one document; repeatable. Default: both")
     ap.add_argument("--dry-run", action="store_true",
                     help="print what would run, call no model")
+    ap.add_argument("--temperature", type=float, default=0.2,
+                    help="passed to build_site.py --temperature and recorded per run. The "
+                         "manifest is the only record of which condition a run belongs to; "
+                         "the folder name deliberately does not encode it")
     ap.add_argument("--timeout", type=int, default=2400)
     args = ap.parse_args(argv)
 
@@ -126,6 +136,7 @@ def main(argv=None) -> int:
     print("provider : %s" % ((base_url or "").split("//")[-1].split("/")[0] or "(unset)"))
     print("documents: %s" % ", ".join(keys))
     print("runs each: %d" % args.runs)
+    print("temp     : %g" % args.temperature)
     for k in keys:
         have = sum(1 for r in manifest["runs"] if r["document"] == k)
         print("  %-12s %d already recorded -> will add runs %d-%d"
@@ -154,6 +165,7 @@ def main(argv=None) -> int:
                        "--pdf", os.path.join(REPO_ROOT, spec["pdf"]),
                        "--name", spec["name"],
                        "--keep-rejected",              # never delete the source PDF
+                       "--temperature", str(args.temperature),
                        "--model", model, "--base-url", base_url]
                 env = dict(os.environ, BIOGRAPH_API_KEY=api_key)
                 start = time.perf_counter()
@@ -187,7 +199,7 @@ def main(argv=None) -> int:
                     # The whole point of this file: the mapping, written before the next run.
                     "model": model,
                     "base_url": base_url,
-                    "temperature": 0.2,
+                    "temperature": args.temperature,
                     "strict_scope": False,
                     "commit": sb.commit,
                     "core_sha256": sb.hashes,

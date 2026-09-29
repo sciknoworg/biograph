@@ -1,0 +1,131 @@
+[
+  {
+    "id": "tuomo_suntola",
+    "entity_type": "person",
+    "name": "Tuomo Suntola",
+    "aliases": [
+      "Dr. Tuomo Suntola",
+      "Suntola"
+    ],
+    "summary": "Finnish inventor of Atomic Layer Epitaxy (ALE) and Atomic Layer Deposition (ALD).",
+    "subtype": "researcher"
+  },
+  {
+    "id": "tampere",
+    "entity_type": "place",
+    "name": "Tampere",
+    "summary": "City in Finland where Tuomo Suntola was born.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Finland"
+    }
+  },
+  {
+    "id": "helsinki_university_of_technology",
+    "entity_type": "organization",
+    "name": "Helsinki University of Technology",
+    "aliases": [
+      "HUT",
+      "TKK",
+      "Aalto University"
+    ],
+    "summary": "University where Tuomo Suntola studied electrical engineering.",
+    "subtype": "university"
+  },
+  {
+    "id": "vtt_semiconductor_laboratory",
+    "entity_type": "organization",
+    "name": "VTT Semiconductor Laboratory",
+    "aliases": [
+      "VTT"
+    ],
+    "summary": "Laboratory where Suntola worked on humidity sensors and ALE initiation.",
+    "subtype": "lab"
+  },
+  {
+    "id": "instrumentarium_oy",
+    "entity_type": "organization",
+    "name": "Instrumentarium Oy",
+    "summary": "Company where Suntola invented ALE in 1974.",
+    "subtype": "company"
+  },
+  {
+    "id": "lohja_oy",
+    "entity_type": "organization",
+    "name": "Lohja Oy",
+    "summary": "Company that bought the ALE-EL project from Instrumentarium in 1978.",
+    "subtype": "company"
+  },
+  {
+    "id": "microchemistry_ltd",
+    "entity_type": "organization",
+    "name": "Microchemistry Ltd.",
+    "summary": "Company founded by Suntola in 1987 as a subsidiary of Neste.",
+    "subtype": "company"
+  },
+  {
+    "id": "neste_oy",
+    "entity_type": "organization",
+    "name": "Neste Oy",
+    "summary": "National oil company that owned Microchemistry Ltd.",
+    "subtype": "company"
+  },
+  {
+    "id": "asm",
+    "entity_type": "organization",
+    "name": "ASM",
+    "summary": "Dutch company that bought Microchemistry in 1999.",
+    "subtype": "company"
+  },
+  {
+    "id": "picosun_oy",
+    "entity_type": "organization",
+    "name": "Picosun Oy",
+    "summary": "Company Suntola joined in 2004.",
+    "subtype": "company"
+  },
+  {
+    "id": "ale_ald_technology",
+    "entity_type": "artifact",
+    "name": "Atomic Layer Deposition",
+    "aliases": [
+      "ALE",
+      "ALD",
+      "Atomic Layer Epitaxy",
+      "Molecular Layering"
+    ],
+    "summary": "Thin film growth technique invented by Suntola.",
+    "subtype": "invention"
+  },
+  {
+    "id": "humicap_sensor",
+    "entity_type": "artifact",
+    "name": "Humicap sensor",
+    "aliases": [
+      "Humicap 1"
+    ],
+    "summary": "Humidity sensor developed by Suntola and Antson.",
+    "subtype": "product"
+  },
+  {
+    "id": "european_semi_award_2004",
+    "entity_type": "artifact",
+    "name": "European SEMI Award 2004",
+    "summary": "Award honoring Suntola as pioneer in ALD.",
+    "subtype": "award"
+  },
+  {
+    "id": "the_dynamic_universe_book",
+    "entity_type": "artifact",
+    "name": "The Dynamic Universe",
+    "summary": "Book published by Suntola in 2011.",
+    "subtype": "publication"
+  },
+  {
+    "id": "physics_foundations_society",
+    "entity_type": "organization",
+    "name": "Physics Foundations Society",
+    "summary": "Society where Suntola is chairman.",
+    "subtype": "society"
+  }
+]

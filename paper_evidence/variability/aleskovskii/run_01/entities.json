@@ -1,0 +1,180 @@
+[
+  {
+    "id": "valentin_aleskovskii",
+    "entity_type": "person",
+    "name": "Valentin Borisovich Aleskovskii",
+    "aliases": [
+      "V. B. Aleskovskii",
+      "Valentin Aleskovskii"
+    ],
+    "summary": "Russian chemist and professor who proposed the framework hypothesis and founded the molecular layering method.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "stanislav_koltsov",
+    "entity_type": "person",
+    "name": "Stanislav Ivanovich Kol'tsov",
+    "aliases": [
+      "S. I. Kol'tsov",
+      "Stanislav Kol'tsov"
+    ],
+    "summary": "Russian chemist and graduate student of Aleskovskii who experimentally substantiated the molecular layering method.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "lti_lensovet",
+    "entity_type": "organization",
+    "name": "Leningrad Technological Institute by Lensovet",
+    "aliases": [
+      "LTI by Lensovet",
+      "St. Petersburg State Technological Institute",
+      "St. Petersburg State Technological Institute (Technical University)",
+      "SPbSTI"
+    ],
+    "summary": "Educational chemical engineering institute in Russia where Aleskovskii and Kol'tsov worked.",
+    "subtype": "university"
+  },
+  {
+    "id": "lsu",
+    "entity_type": "organization",
+    "name": "Leningrad State University",
+    "aliases": [
+      "LSU",
+      "St. Petersburg State University",
+      "SPbSU"
+    ],
+    "summary": "University where Aleskovskii served as rector and founded a department.",
+    "subtype": "university"
+  },
+  {
+    "id": "naval_research_institute",
+    "entity_type": "organization",
+    "name": "Naval Research Institute",
+    "aliases": [],
+    "summary": "Research institute in Leningrad where Aleskovskii worked after graduation.",
+    "subtype": "lab"
+  },
+  {
+    "id": "academy_of_sciences_ussr",
+    "entity_type": "organization",
+    "name": "Academy of Sciences of the USSR",
+    "aliases": [],
+    "summary": "National academy of sciences where Aleskovskii became a corresponding member.",
+    "subtype": "organization"
+  },
+  {
+    "id": "dept_chemistry_solids_lti",
+    "entity_type": "organization",
+    "name": "Department of Chemistry of Solids",
+    "aliases": [
+      "Department of Chemical Engineering of Materials and Electronics Products",
+      "Department of Chemical Nanotechnology and Electronics Engineering Materials",
+      "CNEEM"
+    ],
+    "summary": "Department founded by Aleskovskii at LTI by Lensovet.",
+    "subtype": "department"
+  },
+  {
+    "id": "dept_solid_state_chemistry_lsu",
+    "entity_type": "organization",
+    "name": "Department of Solid State Chemistry",
+    "aliases": [],
+    "summary": "Department organized by Aleskovskii at Leningrad State University.",
+    "subtype": "department"
+  },
+  {
+    "id": "mary_turkmenistan",
+    "entity_type": "place",
+    "name": "Mary",
+    "aliases": [],
+    "summary": "City in Turkmenistan where Aleskovskii was born.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Turkmenistan"
+    }
+  },
+  {
+    "id": "proletarskaya_rostov",
+    "entity_type": "place",
+    "name": "Proletarskaya",
+    "aliases": [],
+    "summary": "Station in the Rostov region where Kol'tsov was born.",
+    "subtype": "station",
+    "attributes": {
+      "region": "Rostov region",
+      "country": "USSR"
+    }
+  },
+  {
+    "id": "framework_hypothesis",
+    "entity_type": "artifact",
+    "name": "Framework hypothesis",
+    "aliases": [],
+    "summary": "Hypothesis proposed by Aleskovskii regarding the chemical structure of solids.",
+    "subtype": "hypothesis"
+  },
+  {
+    "id": "molecular_layering",
+    "entity_type": "artifact",
+    "name": "Molecular Layering",
+    "aliases": [
+      "ML",
+      "Atomic Layer Deposition",
+      "ALD",
+      "Atomic Layer Epitaxy",
+      "ALE"
+    ],
+    "summary": "Gas-phase layer by layer deposition technology developed by Aleskovskii and Kol'tsov.",
+    "subtype": "method"
+  },
+  {
+    "id": "t_suntola",
+    "entity_type": "person",
+    "name": "T. Suntola",
+    "aliases": [
+      "Tuomo Suntola"
+    ],
+    "summary": "Finnish physicist who patented atomic layer epitaxy independently.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "anatolii_malygin",
+    "entity_type": "person",
+    "name": "Anatolii A. Malygin",
+    "aliases": [
+      "A. A. Malygin"
+    ],
+    "summary": "Author of the essay and student of Aleskovskii.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "victor_drozd",
+    "entity_type": "person",
+    "name": "Victor E. Drozd",
+    "aliases": [
+      "V. E. Drozd"
+    ],
+    "summary": "Author of the essay and student of Aleskovskii.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "anatolii_malkov",
+    "entity_type": "person",
+    "name": "Anatolii A. Malkov",
+    "aliases": [
+      "A. A. Malkov"
+    ],
+    "summary": "Author of the essay and student of Aleskovskii.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "vladimir_smirnov",
+    "entity_type": "person",
+    "name": "Vladimir M. Smirnov",
+    "aliases": [
+      "V. M. Smirnov"
+    ],
+    "summary": "Author of the essay and student of Aleskovskii.",
+    "subtype": "researcher"
+  }
+]

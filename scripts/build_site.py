@@ -222,6 +222,20 @@ def source_text(path, max_chars):
 
 TEXT_SUFFIXES = {".txt", ".text"}
 
+#: Sampling temperature for the extraction call. 0.2 is the standing configuration and the
+#: default, so nothing changes unless a caller asks.
+#:
+#: It is exposed because the variability study measured what it costs: five draws of one model
+#: over one document produced 15-41 entities and 1-14 person entities, with only 16% of
+#: entities found by all five (paper_evidence/variability/). Extraction has a right answer --
+#: the facts the document states -- so that spread is error rather than useful diversity, and
+#: being able to ask for greedy decoding is the first thing to try against it.
+#:
+#: Temperature 0 will narrow the spread but must not be described as deterministic: the served
+#: model is a mixture-of-experts whose routing depends on how requests are batched, and a
+#: reasoning trace can still diverge early and change how thorough the extraction is.
+DEFAULT_TEMPERATURE = 0.2
+
 
 SCOPE_DEFINITION = """\
 This project only covers biographical or historical retrospective essays that follow a
@@ -400,7 +414,8 @@ def _is_permanent_llm_error(e):
         return False
 
 
-def call_llm(system, user, model, base_url, api_key, max_tokens, max_continuations=8, max_json_retries=5):
+def call_llm(system, user, model, base_url, api_key, max_tokens, max_continuations=8,
+             max_json_retries=5, temperature=DEFAULT_TEMPERATURE):
     """One full reply from the model, as a parsed JSON object. Three independent retry mechanisms
     here, for three independent failure modes:
 
@@ -412,7 +427,8 @@ def call_llm(system, user, model, base_url, api_key, max_tokens, max_continuatio
        broken -- asking the model to continue exactly where it left off (up to max_continuations
        times) recovers it without wasting the tokens already generated.
     3. Malformed JSON (a COMPLETE reply that still isn't valid JSON, or whose top level isn't an
-       object): sampling is nondeterministic -- temperature=0.2 still allows real variation, so a
+       object): sampling is nondeterministic -- the default temperature still allows real
+       variation, so a
        reply that's malformed once may well be clean on a fresh attempt. Regenerates the whole
        reply from scratch (the original system/user messages, not the broken content) up to
        max_json_retries times before giving up -- a fresh independent attempt, not a "here's what
@@ -452,7 +468,8 @@ def call_llm(system, user, model, base_url, api_key, max_tokens, max_continuatio
         return out
 
     def request_once(messages, json_mode, stream=True):
-        kwargs = dict(model=model, temperature=0.2, max_tokens=max_tokens, messages=messages)
+        kwargs = dict(model=model, temperature=temperature, max_tokens=max_tokens,
+                      messages=messages)
         if json_mode:
             kwargs["response_format"] = {"type": "json_object"}
 
@@ -1339,7 +1356,7 @@ def choose_model():
 def extract(pdf_path, slug, name, model, base_url, api_key, max_chars, max_tokens,
             delete_out_of_scope=True, related_fields_out=None, keep_source_pdf=False,
             strict_scope=False, scope_out=None, scope_domain=None, domain=None,
-            ignore_scope=False):
+            ignore_scope=False, temperature=DEFAULT_TEMPERATURE):
     print(f"Reading {pdf_path}...")
     text = source_text(pdf_path, max_chars)
     system, user = build_prompt(slug, name, text,
@@ -1349,7 +1366,8 @@ def extract(pdf_path, slug, name, model, base_url, api_key, max_chars, max_token
         print("  !! --ignore-scope: the scope verdict will be recorded but NOT enforced.")
     print(f"Asking {model} to draft the graph ({len(text):,} chars of source text)...")
     start = time.perf_counter()
-    data = call_llm(system, user, model, base_url, api_key, max_tokens)
+    data = call_llm(system, user, model, base_url, api_key, max_tokens,
+                    temperature=temperature)
     print(f"  ({time.perf_counter() - start:.1f}s)")
 
     scope = parse_scope(data)
@@ -1857,6 +1875,12 @@ def main():
     ap.add_argument("--api-key", default=os.environ.get("BIOGRAPH_API_KEY"))
     ap.add_argument("--max-chars", type=int, default=180_000, help="for --pdf: truncate source text beyond this")
     ap.add_argument("--max-tokens", type=int, default=32_000, help="for --pdf: reply budget per request")
+    ap.add_argument("--temperature", type=float, default=DEFAULT_TEMPERATURE,
+                     help="sampling temperature for the extraction call (default %.1f). "
+                          "0 is greedy decoding, which narrows run-to-run spread but is "
+                          "NOT deterministic on a served mixture-of-experts model -- see "
+                          "paper_evidence/variability/ for the measured spread"
+                          % DEFAULT_TEMPERATURE)
     ap.add_argument("--keep-rejected", action="store_true",
                      help="for --pdf: don't delete the source PDF when the model judges it out of "
                           "scope -- leave it in place for a closer look instead")
@@ -1923,7 +1947,7 @@ def main():
                     keep_source_pdf=args.keep_source_pdf,
                     strict_scope=args.strict_scope, scope_out=args.scope_out,
                     scope_domain=args.scope_domain, domain=args.domain,
-                    ignore_scope=args.ignore_scope)
+                    ignore_scope=args.ignore_scope, temperature=args.temperature)
         except Exception as e:  # anything not already a deliberate sys.exit() inside extract()
             sys.exit(f"Extraction failed unexpectedly ({type(e).__name__}: {e}) -- the source "
                       f"document may be corrupt, unreadable, or empty.")

@@ -1,0 +1,377 @@
+[
+  {
+    "id": "tuomo_suntola",
+    "entity_type": "person",
+    "name": "Tuomo Suntola",
+    "aliases": [
+      "Dr. Tuomo Suntola",
+      "Suntola"
+    ],
+    "summary": "Finnish physicist and inventor of Atomic Layer Epitaxy (ALE) and Atomic Layer Deposition (ALD).",
+    "subtype": "researcher"
+  },
+  {
+    "id": "riikka_l_puurunen",
+    "entity_type": "person",
+    "name": "Riikka L. Puurunen",
+    "aliases": [
+      "Dr. R. L. Puurunen",
+      "Puurunen"
+    ],
+    "summary": "Researcher at VTT Technical Research Centre of Finland and author of the source essay.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "tampere",
+    "entity_type": "place",
+    "name": "Tampere",
+    "attributes": {
+      "country": "Finland"
+    },
+    "summary": "City in Finland where Tuomo Suntola was born.",
+    "subtype": "city"
+  },
+  {
+    "id": "finland",
+    "entity_type": "place",
+    "name": "Finland",
+    "summary": "Country where Tuomo Suntola lived and worked.",
+    "subtype": "country"
+  },
+  {
+    "id": "turku",
+    "entity_type": "place",
+    "name": "Turku",
+    "attributes": {
+      "country": "Finland"
+    },
+    "summary": "City in Finland where Tuomo Suntola went to school.",
+    "subtype": "city"
+  },
+  {
+    "id": "helsinki_university_of_technology",
+    "entity_type": "organization",
+    "name": "Helsinki University of Technology",
+    "aliases": [
+      "HUT",
+      "Teknillinen korkeakoulu",
+      "TKK",
+      "Aalto University"
+    ],
+    "summary": "University in Finland where Tuomo Suntola studied electrical engineering.",
+    "subtype": "university"
+  },
+  {
+    "id": "vtt_semiconductor_laboratory",
+    "entity_type": "organization",
+    "name": "VTT Semiconductor Laboratory",
+    "aliases": [
+      "VTT"
+    ],
+    "summary": "Laboratory established in 1964 as part of Professor Thor Stubb's Electron Physics laboratory in HUT.",
+    "subtype": "lab"
+  },
+  {
+    "id": "thor_stubb",
+    "entity_type": "person",
+    "name": "Thor Stubb",
+    "aliases": [
+      "Prof. Thor Stubb",
+      "Prof. Stubb"
+    ],
+    "summary": "Professor at HUT who supervised Tuomo Suntola's doctoral thesis.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "vaisala_oy",
+    "entity_type": "organization",
+    "name": "Vaisala Oy",
+    "summary": "Finnish company specializing in meteorological instrumentation.",
+    "subtype": "company"
+  },
+  {
+    "id": "jorma_antson",
+    "entity_type": "person",
+    "name": "Jorma Antson",
+    "aliases": [
+      "Antson"
+    ],
+    "summary": "Colleague of Tuomo Suntola who worked on the Humicap sensor and ALE development.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "instrumentarium_oy",
+    "entity_type": "organization",
+    "name": "Instrumentarium Oy",
+    "summary": "Company that imported medical instrumentation and later established a technology company Datex Oy.",
+    "subtype": "company"
+  },
+  {
+    "id": "lohja_oy",
+    "entity_type": "organization",
+    "name": "Lohja Oy",
+    "aliases": [
+      "Lohja"
+    ],
+    "summary": "Building material company that acquired the ALE-EL project from Instrumentarium.",
+    "subtype": "company"
+  },
+  {
+    "id": "sven_lindfors",
+    "entity_type": "person",
+    "name": "Sven Lindfors",
+    "aliases": [
+      "Lindfors"
+    ],
+    "summary": "Closest co-worker to Tuomo Suntola in ALE reactor design since 1975.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "arto_pakkala",
+    "entity_type": "person",
+    "name": "Arto Pakkala",
+    "aliases": [
+      "Pakkala"
+    ],
+    "summary": "Colleague involved in the ALE-EL development and chloride process demonstration.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "planar_inc",
+    "entity_type": "organization",
+    "name": "Planar Inc.",
+    "aliases": [
+      "Planar"
+    ],
+    "summary": "American competitor that acquired Lohja's EL business in 1990.",
+    "subtype": "company"
+  },
+  {
+    "id": "beneq_oy",
+    "entity_type": "organization",
+    "name": "Beneq Oy",
+    "aliases": [
+      "Beneq"
+    ],
+    "summary": "Company that acquired Planar's EL plant in Olarinluoma in 2012.",
+    "subtype": "company"
+  },
+  {
+    "id": "elcoteq_oy",
+    "entity_type": "organization",
+    "name": "Elcoteq Oy",
+    "summary": "Independent company separated from Lohja's microelectronics division in 1990.",
+    "subtype": "company"
+  },
+  {
+    "id": "antti_piippo",
+    "entity_type": "person",
+    "name": "Antti Piippo",
+    "summary": "Business-oriented manager invited to Lohja from Aspo Oy.",
+    "subtype": "manager"
+  },
+  {
+    "id": "neste_oy",
+    "entity_type": "organization",
+    "name": "Neste Oy",
+    "aliases": [
+      "Neste",
+      "Fortum Oyj"
+    ],
+    "summary": "National oil company that established Neste Advanced Power Systems (NAPS).",
+    "subtype": "company"
+  },
+  {
+    "id": "microchemistry_ltd",
+    "entity_type": "organization",
+    "name": "Microchemistry Ltd.",
+    "aliases": [
+      "Microchemistry",
+      "ASM Microchemistry"
+    ],
+    "summary": "Subsidiary of Neste established for the development of ALE-based solar panels and reactors.",
+    "subtype": "company"
+  },
+  {
+    "id": "matti_ervasti",
+    "entity_type": "person",
+    "name": "Matti Ervasti",
+    "summary": "Business-oriented managing director invited to take care of Microchemistry.",
+    "subtype": "manager"
+  },
+  {
+    "id": "asm",
+    "entity_type": "organization",
+    "name": "ASM",
+    "summary": "Dutch company that acquired Microchemistry in 1999.",
+    "subtype": "company"
+  },
+  {
+    "id": "picosun_oy",
+    "entity_type": "organization",
+    "name": "Picosun Oy",
+    "aliases": [
+      "Picosun"
+    ],
+    "summary": "Company set up by Sven Lindfors and Kustaa Poutiainen in 2004.",
+    "subtype": "company"
+  },
+  {
+    "id": "kustaa_poutiainen",
+    "entity_type": "person",
+    "name": "Kustaa Poutiainen",
+    "summary": "Co-founder of Picosun Oy with Sven Lindfors.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "jun_ichi_nishizawa",
+    "entity_type": "person",
+    "name": "Jun-ichi Nishizawa",
+    "aliases": [
+      "Prof. Jun-ichi Nishizawa",
+      "Nishizawa"
+    ],
+    "summary": "Professor from Japan who realized the significance of ALE and started MLE research.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "lauri_niinisto",
+    "entity_type": "person",
+    "name": "Lauri Niinistö",
+    "aliases": [
+      "Prof. Lauri Niinistö",
+      "Niinistö"
+    ],
+    "summary": "Professor of inorganic and analytical chemistry at HUT who organized the first ALE conference.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "aleskovskii",
+    "entity_type": "person",
+    "name": "Aleskovskii",
+    "aliases": [
+      "Prof. Aleskovskii"
+    ],
+    "summary": "Professor in the Soviet Union who initiated the molecular layering technique.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "victor_drozd",
+    "entity_type": "person",
+    "name": "Victor Drozd",
+    "aliases": [
+      "Dr. Victor Drozd"
+    ],
+    "summary": "Researcher who invited Suntola to visit the University of Leningrad.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "ahti_aintila",
+    "entity_type": "person",
+    "name": "Ahti Aintila",
+    "summary": "Colleague who created knowhow in driving circuitries for EL panels.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "espoo",
+    "entity_type": "place",
+    "name": "Espoo",
+    "attributes": {
+      "country": "Finland"
+    },
+    "summary": "City in Finland where Instrumentarium and Lohja facilities were located.",
+    "subtype": "city"
+  },
+  {
+    "id": "lohja_place",
+    "entity_type": "place",
+    "name": "Lohja",
+    "attributes": {
+      "country": "Finland"
+    },
+    "summary": "City in Finland where Lohja Oy had a plant.",
+    "subtype": "city"
+  },
+  {
+    "id": "san_diego",
+    "entity_type": "place",
+    "name": "San Diego",
+    "attributes": {
+      "country": "United States"
+    },
+    "summary": "City in California where the SID conference was held.",
+    "subtype": "city"
+  },
+  {
+    "id": "boston",
+    "entity_type": "place",
+    "name": "Boston",
+    "attributes": {
+      "country": "United States"
+    },
+    "summary": "City where the MRS 1994 Annual Meeting was held.",
+    "subtype": "city"
+  },
+  {
+    "id": "leningrad",
+    "entity_type": "place",
+    "name": "Leningrad",
+    "attributes": {
+      "country": "Soviet Union"
+    },
+    "summary": "City where Suntola visited Aleskovskii in 1990.",
+    "subtype": "city"
+  },
+  {
+    "id": "munich",
+    "entity_type": "place",
+    "name": "Munich",
+    "attributes": {
+      "country": "Germany"
+    },
+    "summary": "City where the European SEMI Award was handed to Suntola.",
+    "subtype": "city"
+  },
+  {
+    "id": "humicap_1",
+    "entity_type": "artifact",
+    "name": "Humicap 1",
+    "summary": "Humidity sensor based on the original patent by Suntola.",
+    "subtype": "product"
+  },
+  {
+    "id": "ale_patent_1974",
+    "entity_type": "artifact",
+    "name": "ALE Patent 1974",
+    "summary": "International patent on ALE as a method for the growth of compound thin films.",
+    "subtype": "patent"
+  },
+  {
+    "id": "ale_patent_1979",
+    "entity_type": "artifact",
+    "name": "ALE Patent 1979",
+    "summary": "Second international ALE patent covering inert gas reactor and basic processes.",
+    "subtype": "patent"
+  },
+  {
+    "id": "f_120_reactor",
+    "entity_type": "artifact",
+    "name": "F-120 reactor",
+    "summary": "Quick, compact research reactor designed for photovoltaic development.",
+    "subtype": "product"
+  },
+  {
+    "id": "semi_award_2004",
+    "entity_type": "artifact",
+    "name": "European SEMI Award 2004",
+    "summary": "Award honoring the Pioneer in Atomic Layer Deposition Techniques.",
+    "subtype": "award"
+  },
+  {
+    "id": "the_dynamic_universe",
+    "entity_type": "artifact",
+    "name": "The Dynamic Universe",
+    "summary": "Book published by Suntola in 2011 on a holistic picture of reality.",
+    "subtype": "publication"
+  }
+]

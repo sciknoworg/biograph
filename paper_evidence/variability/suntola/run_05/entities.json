@@ -1,0 +1,288 @@
+[
+  {
+    "id": "tuomo_suntola",
+    "entity_type": "person",
+    "name": "Tuomo Suntola",
+    "aliases": [
+      "Dr. Tuomo Suntola",
+      "Suntola"
+    ],
+    "summary": "Finnish inventor of Atomic Layer Epitaxy (ALE) and former Chief Scientist at Lohja and Microchemistry.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "riikka_l_puurunen",
+    "entity_type": "person",
+    "name": "Riikka L. Puurunen",
+    "aliases": [
+      "Dr. R. L. Puurunen",
+      "Puurunen"
+    ],
+    "summary": "Author of this essay and researcher at VTT Technical Research Centre of Finland.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "thor_stubb",
+    "entity_type": "person",
+    "name": "Thor Stubb",
+    "aliases": [
+      "Prof. Thor Stubb",
+      "Stubb"
+    ],
+    "summary": "Professor at Helsinki University of Technology and Suntola's thesis supervisor.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "jorma_antson",
+    "entity_type": "person",
+    "name": "Jorma Antson",
+    "aliases": [
+      "Antson"
+    ],
+    "summary": "Colleague of Suntola in humidity sensor and ALE-EL development.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "sven_lindfors",
+    "entity_type": "person",
+    "name": "Sven Lindfors",
+    "aliases": [
+      "Lindfors"
+    ],
+    "summary": "Closest co-worker to Suntola in ALE reactor design since 1975 and co-founder of Picosun Oy.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "arto_pakkala",
+    "entity_type": "person",
+    "name": "Arto Pakkala",
+    "aliases": [
+      "Pakkala"
+    ],
+    "summary": "Colleague in ALE-EL development who reacted to the successful ZnCl2/H2S process.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "helsinki_university_of_technology",
+    "entity_type": "organization",
+    "name": "Helsinki University of Technology",
+    "aliases": [
+      "HUT",
+      "Teknillinen korkeakoulu",
+      "TKK",
+      "Aalto University"
+    ],
+    "summary": "University where Suntola studied and later worked as an assistant teacher.",
+    "subtype": "university"
+  },
+  {
+    "id": "vtt_technical_research_centre",
+    "entity_type": "organization",
+    "name": "VTT Technical Research Centre of Finland",
+    "aliases": [
+      "VTT",
+      "VTT Semiconductor Laboratory"
+    ],
+    "summary": "Research centre where Suntola worked on humidity sensors before moving to Instrumentarium.",
+    "subtype": "lab"
+  },
+  {
+    "id": "instrumentarium_oy",
+    "entity_type": "organization",
+    "name": "Instrumentarium Oy",
+    "aliases": [
+      "Instrumentarium"
+    ],
+    "summary": "Medical instrumentation company where Suntola invented ALE in 1974.",
+    "subtype": "company"
+  },
+  {
+    "id": "lohja_oy",
+    "entity_type": "organization",
+    "name": "Lohja Oy",
+    "aliases": [
+      "Lohja"
+    ],
+    "summary": "Building material company that acquired the ALE-EL project in 1978 and started pilot production.",
+    "subtype": "company"
+  },
+  {
+    "id": "microchemistry_ltd",
+    "entity_type": "organization",
+    "name": "Microchemistry Ltd",
+    "aliases": [
+      "Microchemistry",
+      "ASM Microchemistry"
+    ],
+    "summary": "Company established by Suntola in 1987 as a subsidiary of Neste to develop ALE-based solar panels and reactors.",
+    "subtype": "company"
+  },
+  {
+    "id": "neste_oy",
+    "entity_type": "organization",
+    "name": "Neste Oy",
+    "aliases": [
+      "Neste",
+      "Fortum Oyj"
+    ],
+    "summary": "National oil company that established Microchemistry and employed Suntola as a Research Fellow.",
+    "subtype": "company"
+  },
+  {
+    "id": "picosun_oy",
+    "entity_type": "organization",
+    "name": "Picosun Oy",
+    "aliases": [
+      "Picosun"
+    ],
+    "summary": "Company founded by Lindfors and Poutiainen in 2004, which Suntola joined as scientific adviser.",
+    "subtype": "company"
+  },
+  {
+    "id": "asm",
+    "entity_type": "organization",
+    "name": "ASM",
+    "aliases": [
+      "ASM International"
+    ],
+    "summary": "Dutch company that acquired Microchemistry in 1999.",
+    "subtype": "company"
+  },
+  {
+    "id": "planar_inc",
+    "entity_type": "organization",
+    "name": "Planar Inc",
+    "aliases": [
+      "Planar"
+    ],
+    "summary": "American competitor that acquired Lohja's EL business in 1990.",
+    "subtype": "company"
+  },
+  {
+    "id": "beneq_oy",
+    "entity_type": "organization",
+    "name": "Beneq Oy",
+    "aliases": [
+      "Beneq"
+    ],
+    "summary": "Company that acquired Planar's EL plant in Olarinluoma in 2012.",
+    "subtype": "company"
+  },
+  {
+    "id": "tampere",
+    "entity_type": "place",
+    "name": "Tampere",
+    "aliases": [],
+    "summary": "City in Finland where Suntola was born.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Finland"
+    }
+  },
+  {
+    "id": "turku",
+    "entity_type": "place",
+    "name": "Turku",
+    "aliases": [],
+    "summary": "City in Finland where Suntola went to school.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Finland"
+    }
+  },
+  {
+    "id": "espoo",
+    "entity_type": "place",
+    "name": "Espoo",
+    "aliases": [
+      "Tapiola",
+      "Olarinluoma"
+    ],
+    "summary": "City in Finland where Instrumentarium and Lohja facilities were located.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Finland"
+    }
+  },
+  {
+    "id": "lohja_city",
+    "entity_type": "place",
+    "name": "Lohja",
+    "aliases": [
+      "Kunnarla"
+    ],
+    "summary": "City in Finland where Lohja plant was located.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Finland"
+    }
+  },
+  {
+    "id": "atomic_layer_epitaxy",
+    "entity_type": "artifact",
+    "name": "Atomic Layer Epitaxy",
+    "aliases": [
+      "ALE",
+      "Atomic Layer Deposition",
+      "ALD"
+    ],
+    "summary": "Thin film growth technique invented by Suntola in 1974 based on saturating gas-solid reactions.",
+    "subtype": "invention"
+  },
+  {
+    "id": "humicap_sensor",
+    "entity_type": "artifact",
+    "name": "Humicap sensor",
+    "aliases": [
+      "Humicap 1"
+    ],
+    "summary": "Humidity sensor developed by Suntola and Antson at VTT by 1973.",
+    "subtype": "product"
+  },
+  {
+    "id": "ale_patent_1974",
+    "entity_type": "artifact",
+    "name": "ALE Patent 1974",
+    "aliases": [
+      "FIN 52359",
+      "US 4058430"
+    ],
+    "summary": "International patent on ALE filed by Suntola with priority date November 29, 1974.",
+    "subtype": "patent"
+  },
+  {
+    "id": "ale_patent_1979",
+    "entity_type": "artifact",
+    "name": "ALE Patent 1979",
+    "aliases": [
+      "FIN 57975",
+      "US 4413022"
+    ],
+    "summary": "Second international ALE patent covering inert gas reactors and chloride processes.",
+    "subtype": "patent"
+  },
+  {
+    "id": "f120_reactor",
+    "entity_type": "artifact",
+    "name": "F-120 reactor",
+    "aliases": [],
+    "summary": "First commercial ALD reactor designed by Suntola and Lindfors at Microchemistry.",
+    "subtype": "product"
+  },
+  {
+    "id": "semi_award_2004",
+    "entity_type": "artifact",
+    "name": "European SEMI Award 2004",
+    "aliases": [],
+    "summary": "Award honoring Suntola as a pioneer in Atomic Layer Deposition Techniques.",
+    "subtype": "award"
+  },
+  {
+    "id": "the_dynamic_universe",
+    "entity_type": "artifact",
+    "name": "The Dynamic Universe",
+    "aliases": [],
+    "summary": "Book by Suntola published in 2011 on a unified picture of physical reality.",
+    "subtype": "publication"
+  }
+]
