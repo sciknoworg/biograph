@@ -81,10 +81,33 @@ def load_manifest() -> dict:
 
 
 def save_manifest(m: dict) -> None:
+    """Merge into whatever is on disk, rather than overwriting it.
+
+    Two invocations can run at once -- one per document, or one per temperature -- and each
+    holds the manifest it loaded at startup. A plain overwrite means the last writer erases
+    every run the other recorded since, and those measurements exist nowhere else: the run
+    folders hold the extraction, but wall time, exit code and grounding live only here.
+
+    So re-read, merge by (document, run), and write. Not atomic against a simultaneous write
+    to the millisecond, but runs are minutes apart, which is the actual exposure.
+    """
+    merged = {}
+    if os.path.isfile(MANIFEST):
+        try:
+            with io.open(MANIFEST, encoding="utf-8") as f:
+                for r in json.load(f).get("runs", []):
+                    merged[(r.get("document"), r.get("run"))] = r
+        except (OSError, ValueError):
+            pass
+    for r in m.get("runs", []):
+        merged[(r.get("document"), r.get("run"))] = r
+    out = dict(m)
+    out["runs"] = [merged[k] for k in sorted(merged, key=lambda k: (str(k[0]), k[1] or 0))]
     tmp = MANIFEST + ".tmp"
     with io.open(tmp, "w", encoding="utf-8") as f:
-        json.dump(m, f, ensure_ascii=False, indent=2)
+        json.dump(out, f, ensure_ascii=False, indent=2)
     os.replace(tmp, MANIFEST)
+    m["runs"] = out["runs"]
 
 
 def next_index(manifest: dict, doc_key: str) -> int:
@@ -148,7 +171,11 @@ def main(argv=None) -> int:
     if not (model and base_url and api_key):
         raise SystemExit("set BIOGRAPH_MODEL, BIOGRAPH_BASE_URL and BIOGRAPH_API_KEY first")
 
-    sb = sandbox.make("variability_" + time.strftime("%Y%m%dT%H%M%S"))
+    # The pid is in the name because two invocations are meant to run at once -- one per
+    # document, or one per temperature. A seconds-resolution timestamp alone collides when
+    # both start in the same second, and then the first to finish discards the sandbox the
+    # other is still extracting into.
+    sb = sandbox.make("variability_%s_%d" % (time.strftime("%Y%m%dT%H%M%S"), os.getpid()))
     print("\nsandbox %s (commit %s)" % (sb.root, sb.commit[:12]))
     if sb.dirty:
         print("  WARNING: uncommitted changes in core files: %s" % ", ".join(sb.dirty))
