@@ -110,15 +110,40 @@ def save_manifest(m: dict) -> None:
     m["runs"] = out["runs"]
 
 
-def next_index(manifest: dict, doc_key: str) -> int:
+def next_index(manifest: dict, doc_key: str, outdir: str) -> int:
     """Continue numbering per document, across conditions.
 
     Run numbers are unique per document and nothing else -- which condition a run belongs to
     lives in manifest.json's `temperature`, never in the folder name. That is the same rule the
     model mapping follows, and for the same reason: a folder name is not a record.
+
+    Folders on disk count as used, not just manifest entries. Two invocations on the SAME
+    document -- e.g. one per temperature -- would otherwise both compute the same next number
+    and write into the same folder, and the merge in save_manifest() would keep only one of
+    them. A folder is claimed by mkdir before its run starts, so the claim is what makes
+    concurrent numbering safe.
     """
-    used = [r["run"] for r in manifest["runs"] if r["document"] == doc_key]
+    used = {r["run"] for r in manifest["runs"] if r["document"] == doc_key}
+    if os.path.isdir(outdir):
+        for name in os.listdir(outdir):
+            if name.startswith("run_"):
+                try:
+                    used.add(int(name[4:]))
+                except ValueError:
+                    pass
     return max(used, default=0) + 1
+
+
+def claim_run(manifest: dict, doc_key: str, outdir: str):
+    """(index, destination) with the destination created, so no other process can take it."""
+    while True:
+        idx = next_index(manifest, doc_key, outdir)
+        dest = os.path.join(outdir, "run_%02d" % idx)
+        try:
+            os.mkdir(dest)
+            return idx, dest
+        except FileExistsError:
+            continue
 
 
 def find_doc_dir(sb, slug: str) -> str | None:
@@ -162,9 +187,9 @@ def main(argv=None) -> int:
     print("temp     : %g" % args.temperature)
     for k in keys:
         have = sum(1 for r in manifest["runs"] if r["document"] == k)
+        first = next_index(manifest, k, os.path.join(HERE, k))
         print("  %-12s %d already recorded -> will add runs %d-%d"
-              % (k, have, next_index(manifest, k),
-                 next_index(manifest, k) + args.runs - 1))
+              % (k, have, first, first + args.runs - 1))
     if args.dry_run:
         print("\n(dry run -- no model called)")
         return 0
@@ -186,7 +211,7 @@ def main(argv=None) -> int:
             outdir = os.path.join(HERE, k)
             os.makedirs(outdir, exist_ok=True)
             for _ in range(args.runs):
-                idx = next_index(manifest, k)
+                idx, dest = claim_run(manifest, k, outdir)
                 slug = "%s_var_%02d" % (k, idx)
                 cmd = [sys.executable, sb.build_site, slug,
                        "--pdf", os.path.join(REPO_ROOT, spec["pdf"]),
@@ -202,7 +227,7 @@ def main(argv=None) -> int:
                 wall = time.perf_counter() - start
 
                 ddir = find_doc_dir(sb, slug)
-                counts, dest = {}, os.path.join(outdir, "run_%02d" % idx)
+                counts = {}
                 if ddir:
                     if os.path.isdir(dest):
                         shutil.rmtree(dest)
