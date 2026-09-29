@@ -48,12 +48,26 @@ three consecutive taxonomy surveys that produce no new subject. Cycles run per d
 physics 89, chemistry 83, mathematics 8, life sciences 9, computer science 11, engineering 7,
 earth & space 6, agriculture 6.
 
-**Four scope requirements**, applied by the extraction prompt, in this order of consequence:
-1. **English** — deliberate, and a real limitation (§3).
-2. A **biographical or historical retrospective essay** following a specific person's life.
-3. **Intertwined with a specific technology's development** — the binding constraint; see
-   `approach-brief.md` §4 for its measured boundary.
-4. Within the **domain** this run is collecting.
+**Scope is filtered in two layers**, and they must not be conflated — only the first is
+active for a human running the tool by hand.
+
+*Always on* (`SCOPE_DEFINITION`, in the prompt on every call): the document must be a
+**biographical or historical retrospective essay following a specific person's life
+intertwined with a specific technology's development**. This is the binding constraint; see
+`approach-brief.md` §4 for its measured boundary.
+
+*Added only by `--strict-scope`*, which the automated pipeline passes and the benchmark
+harness never does — four further requirements, any one of which rejects:
+1. **English**, judged from the text rather than metadata.
+2. **One central figure** — rejects parallel or joint biographies, families, research groups,
+   and histories of a field or institution in which no single life is followed.
+3. **Substantial** — a genuinely prolific contributor, and a document detailed enough to draw
+   a real dated timeline from.
+4. **In this domain**, judged from what the document says the work was rather than from what
+   the model knows about the name.
+
+So the corpus was collected under all five constraints, while the ablation results in
+`harness-brief.md` were produced under the first alone.
 
 ## 3. Selection biases — state these before anyone asks
 

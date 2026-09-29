@@ -6,6 +6,11 @@ rounded up. Where a figure must not be cited, it says so.
 
 ---
 
+**Approach is split across two briefs.** This one covers the data model, the grounding check
+and the scope gate — what the system does with one document. `pipeline-brief.md` covers how
+documents are found: the discovery loop, its two seeding modes, the prominence gate and the
+plateau stopping rule. Read together they are the whole method.
+
 ## 1. What the system is
 
 A pipeline that turns biographical documents about scientists and engineers into a
