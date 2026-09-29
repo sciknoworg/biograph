@@ -1,0 +1,48 @@
+{
+  "study": "run-to-run variability of one extraction model",
+  "documents": {
+    "suntola": "Puurunen 2014, A Short History of Atomic Layer Deposition: Tuomo Suntola's Atomic Layer Epitaxy (doi:10.1002/cvde.201402012)",
+    "aleskovskii": "Malygin 2015, From V. B. Aleskovskii's \"Framework\" Hypothesis to the Method of Molecular Layering"
+  },
+  "runs": [
+    {
+      "run": 1,
+      "document": "suntola",
+      "slug": "suntola_var_01",
+      "model": "qwen3.5-397b-a17b",
+      "base_url": "https://chat-ai.academiccloud.de/v1",
+      "temperature": 0.2,
+      "strict_scope": false,
+      "commit": "b72ff517f2ed183138516129e376cb3c098d4463",
+      "core_sha256": {
+        "scripts/build_site.py": "9c58e5bb76d004dd9065541f7b726e8d4984bc7ad878aa3ce859daf2e7203d9e",
+        "schema/date.schema.json": "88062b53d11e97667f7e4c8c04e09cf11f61e611980c6cd5aa4eec0bec3897ae",
+        "schema/entity.schema.json": "ed2220532d11a96ea0bf0ad184c97de8abe45c8b8feed9f4aca0fa86f1319df0",
+        "schema/event.schema.json": "f83871683eeaf51498fcd696d04bcae9c8231821d4d25f3a52d37d7adcf60a7d",
+        "schema/relation.schema.json": "9560b94aef86f91554ddd05441e026570f4b803e8b859213efd9ebe05dad9d23",
+        "schema/source.schema.json": "761b2cdd818deea6eb9450e90db46a1880c1c63f7291bbf956de4a68262f51b2",
+        "frontend/template.html": "dc79416f6fdc1ca99c786b289b52a951731321c9bb59235558cd61f5e0ac257a",
+        "frontend/world-countries.geo.json": "02caedf9a1e0255deedc985942ccb0b8df102f21c9c551c332e8eda0a18fbcd9"
+      },
+      "started_at": "2026-09-29T13:43:41",
+      "wall_seconds": 201.2,
+      "exit_code": 0,
+      "validated": true,
+      "counts": {
+        "entities": 20,
+        "events": 15,
+        "relations": 14,
+        "sources": 1
+      },
+      "grounding": {
+        "quotes_verbatim": 27,
+        "quotes_checked": 30,
+        "entities_present": 20,
+        "entities_checked": 20
+      },
+      "output": "paper_evidence/variability/suntola/run_01"
+    }
+  ],
+  "core_verified": true,
+  "divergences": []
+}

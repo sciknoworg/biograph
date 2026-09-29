@@ -114,8 +114,13 @@ def _read_json(path: str, default):
         return default
 
 
+#: build_site.py reports grounding in two places with slightly different wording -- extraction
+#: prints "N/N quotes found verbatim in the source", --check-grounding prints "N/N quotes
+#: verbatim". Both report the same two measurements, so both are accepted; requiring only the
+#: second silently returned None for every extraction-time run.
 _GROUNDING_RE = re.compile(
-    r"(\d+)\s*/\s*(\d+)\s+quotes\s+verbatim,\s*(\d+)\s*/\s*(\d+)\s+entity names present")
+    r"(\d+)\s*/\s*(\d+)\s+quotes\s+(?:found\s+)?verbatim(?:\s+in\s+the\s+source)?,"
+    r"\s*(\d+)\s*/\s*(\d+)\s+entity names present")
 
 
 def parse_grounding(stdout: str) -> GroundingReport | None:

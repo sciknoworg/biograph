@@ -96,16 +96,19 @@ Both refuse to guess: a person whose identity can't be confirmed gets no photo, 
 
 ## What's in here
 
-174 subjects across six collections, built by pointing the same code at six different taxonomies — nothing in it names a field.
+233 subjects across nine collections, built by pointing the same code at nine different taxonomies — nothing in it names a field.
 
 | Collection | Subjects |
 |---|---:|
-| Physics | 53 |
+| Physics | 60 |
 | Chemistry | 44 |
+| Life sciences and medicine | 43 |
 | Materials science | 33 |
-| Life sciences and medicine | 27 |
+| Mathematics and computation | 24 |
+| Engineering | 11 |
 | Computer science | 9 |
 | Earth and space sciences | 8 |
+| Agriculture and food technology | 1 |
 
 A subject is a **person**; each paper about them becomes its own folder, kept whole and separate. Two papers are two accounts, reconciled when the subject is read rather than at write time.
 

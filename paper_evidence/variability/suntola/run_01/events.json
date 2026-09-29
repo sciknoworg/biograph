@@ -1,0 +1,403 @@
+[
+  {
+    "id": "suntola_birth",
+    "event_type": "birth",
+    "label": "Born in Tampere",
+    "date": {
+      "display": "1943",
+      "precision": "year",
+      "sort_start": "1943-01-01",
+      "sort_end": "1943-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "location": "tampere",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history",
+        "page": 2,
+        "quote": "Tuomo Suntola was born in 1943 in Tampere, Finland."
+      }
+    ]
+  },
+  {
+    "id": "suntola_started_studies_hut",
+    "event_type": "education",
+    "label": "Started studies at Helsinki University of Technology",
+    "date": {
+      "display": "1963",
+      "precision": "year",
+      "sort_start": "1963-01-01",
+      "sort_end": "1963-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "helsinki_university_of_technology",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history",
+        "page": 2,
+        "quote": "In 1963, Suntola started his studies on electrical engineering at Helsinki University of Technology"
+      }
+    ]
+  },
+  {
+    "id": "suntola_doctoral_thesis",
+    "event_type": "education",
+    "label": "Completed doctoral thesis",
+    "date": {
+      "display": "December 1971",
+      "precision": "month",
+      "sort_start": "1971-12-01",
+      "sort_end": "1971-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "helsinki_university_of_technology",
+        "role": "educator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history",
+        "page": 2,
+        "quote": "In December 1971, Tuomo Suntola at the age of 28, became the youngest Doctor of Science in Technology from the Electrical Engineering department by that time."
+      }
+    ]
+  },
+  {
+    "id": "humicap_development_completed",
+    "event_type": "invention",
+    "label": "Completed Humicap sensor development",
+    "date": {
+      "display": "end of 1973",
+      "precision": "year",
+      "sort_start": "1973-12-01",
+      "sort_end": "1973-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "jorma_antson",
+        "role": "collaborator"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history",
+        "page": 2,
+        "quote": "he completed the development by the end of 1973."
+      }
+    ]
+  },
+  {
+    "id": "moved_to_instrumentarium",
+    "event_type": "relocation",
+    "label": "Moved to Instrumentarium",
+    "date": {
+      "display": "beginning of 1974",
+      "precision": "season",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "instrumentarium_oy",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history",
+        "page": 3,
+        "quote": "In the beginning of 1974, Suntola and the small humidity sensor team moved from VTT to Instrumentarium"
+      }
+    ]
+  },
+  {
+    "id": "ale_invention",
+    "event_type": "invention",
+    "label": "Invention of ALE matured",
+    "date": {
+      "display": "early June 1974",
+      "precision": "month",
+      "sort_start": "1974-06-01",
+      "sort_end": "1974-06-15"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "atomic_layer_deposition",
+        "role": "invention"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history",
+        "page": 3,
+        "quote": "The actual invention of ALE matured in early June 1974."
+      }
+    ]
+  },
+  {
+    "id": "ale_patent_filed",
+    "event_type": "patent_filed",
+    "label": "ALE patent filed",
+    "date": {
+      "display": "November 29, 1974",
+      "precision": "day",
+      "sort_start": "1974-11-29",
+      "sort_end": "1974-11-29"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history",
+        "page": 4,
+        "quote": "The priority date of the patent comes from the Finnish application, ﬁled on November 29, 1974."
+      }
+    ]
+  },
+  {
+    "id": "first_ale_experiments",
+    "event_type": "public_demonstration",
+    "label": "First ALE growth experiments",
+    "date": {
+      "display": "August-September 1974",
+      "precision": "range",
+      "sort_start": "1974-08-01",
+      "sort_end": "1974-09-30"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history",
+        "page": 4,
+        "quote": "The ﬁrst growth experiments were made in August-September 1974."
+      }
+    ]
+  },
+  {
+    "id": "ale_project_sold_to_lohja",
+    "event_type": "company_sold",
+    "label": "ALE-EL project sold to Lohja Oy",
+    "date": {
+      "display": "1978",
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "lohja_oy",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history",
+        "page": 4,
+        "quote": "In 1978, the ALE-EL project, with the personnel and the facility, was sold to the building material company Lohja Oy."
+      }
+    ]
+  },
+  {
+    "id": "sid_conference_1980",
+    "event_type": "conference",
+    "label": "First public disclosure at SID conference",
+    "date": {
+      "display": "April 29 to May 1, 1980",
+      "precision": "range",
+      "sort_start": "1980-04-29",
+      "sort_end": "1980-05-01"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history",
+        "page": 5,
+        "quote": "until the ﬁrst disclosure at the Society for Information Display (SID) conference in San Diego, California, in April 29 to May 1, 1980"
+      }
+    ]
+  },
+  {
+    "id": "microchemistry_founded",
+    "event_type": "company_founded",
+    "label": "Microchemistry Ltd. established",
+    "date": {
+      "display": "1987",
+      "precision": "year",
+      "sort_start": "1987-01-01",
+      "sort_end": "1987-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      },
+      {
+        "entity_id": "microchemistry_ltd",
+        "role": "invention"
+      },
+      {
+        "entity_id": "neste_oy",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history",
+        "page": 8,
+        "quote": "In 1987, Tuomo Suntola was offered the chance to set up Microchemistry Ltd, as a subsidiary of Neste"
+      }
+    ]
+  },
+  {
+    "id": "lohja_el_sold_to_planar",
+    "event_type": "company_sold",
+    "label": "Lohja's EL business sold to Planar Inc.",
+    "date": {
+      "display": "1990",
+      "precision": "year",
+      "sort_start": "1990-01-01",
+      "sort_end": "1990-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "lohja_oy",
+        "role": "subject"
+      },
+      {
+        "entity_id": "planar_inc",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history",
+        "page": 7,
+        "quote": "In 1990, Lohja 's EL business was sold to its American competitor, Planar Inc."
+      }
+    ]
+  },
+  {
+    "id": "microchemistry_sold_to_asm",
+    "event_type": "company_sold",
+    "label": "Microchemistry sold to ASM",
+    "date": {
+      "display": "1999",
+      "precision": "year",
+      "sort_start": "1999-01-01",
+      "sort_end": "1999-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "microchemistry_ltd",
+        "role": "subject"
+      },
+      {
+        "entity_id": "asm",
+        "role": "employer"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history",
+        "page": 10,
+        "quote": "In 1999, Microchemistry with all its personnel, ALE expertise, and the patent portfolio was sold to the Dutch company ASM."
+      }
+    ]
+  },
+  {
+    "id": "suntola_retirement",
+    "event_type": "retirement",
+    "label": "Full retirement",
+    "date": {
+      "display": "beginning of 2004",
+      "precision": "season",
+      "sort_start": "2004-01-01",
+      "sort_end": "2004-03-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history",
+        "page": 12,
+        "quote": "full retirement in the beginning of 2004."
+      }
+    ]
+  },
+  {
+    "id": "semi_award_2004",
+    "event_type": "award",
+    "label": "Received European SEMI Award",
+    "date": {
+      "display": "2004",
+      "precision": "year",
+      "sort_start": "2004-01-01",
+      "sort_end": "2004-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history",
+        "page": 12,
+        "quote": "The year 2004 brought a delightful surprise to Suntola in the form of the European SEMI Award 2004"
+      }
+    ]
+  }
+]

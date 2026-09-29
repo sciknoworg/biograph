@@ -632,6 +632,13 @@ def test_grounding_parses_the_shipped_checker():
     check("the issue lines are carried through", r2 and len(r2.issues) == 1, str(r2))
     check("output with no summary line yields None",
           parse_grounding("Traceback (most recent call last):") is None)
+    # build_site.py words the two report sites differently; both must parse, or every
+    # extraction-time run silently records no grounding at all.
+    r3 = parse_grounding("  grounding: 30/32 quotes found verbatim in the source, "
+                         "65/65 entity names present")
+    check("the extraction-time wording parses too",
+          r3 and (r3.quotes_verbatim, r3.quotes_checked, r3.entities_checked) == (30, 32, 65),
+          str(r3))
     check("rates are computed from the parsed counts",
           abs(r2.quote_rate - 13 / 19) < 1e-9 and r2.entity_rate == 1.0, str(r2))
 

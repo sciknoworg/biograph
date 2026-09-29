@@ -10,8 +10,10 @@ pipeline's path.
 
 ## What this is
 
-Each `subjects/<name>_test_<suffix>/` is one extraction model's output for the
-**same** source document, so the runs are directly comparable:
+**Six extraction models, 9 runs per document, 18 runs total** -- not nine models.
+Three of the six (`a`, `c`, `d`) were run twice, as `a2`/`c2`/`d2`, to check
+run-to-run stability. Each `subjects/<name>_test_<suffix>/` is one run's output
+for the **same** source document, so the runs are directly comparable:
 
 | Source subject | Document |
 |---|---|
@@ -29,25 +31,47 @@ identifies which model produced which suffix — not `subject.json`, not
 log). The suffix→model mapping currently exists only in the chat history of
 the session that produced them.
 
-| Suffix | Model | Provider |
-|---|---|---|
-| `a` | ? | KISSKI |
-| `a2` | ? | KISSKI |
-| `c` | ? | KISSKI |
-| `c2` | ? | KISSKI |
-| `d` | ? | KISSKI |
-| `d2` | ? | KISSKI |
-| `e` | ? | KISSKI |
-| `g` | ? | KISSKI |
-| `fable` | claude-fable-5.1 | OpenRouter |
+| Model | Runs | Identified? | Provider |
+|---|---|---|---|
+| A | `a`, `a2` | **no** | KISSKI |
+| C | `c`, `c2` | **no** | KISSKI |
+| D | `d`, `d2` | **no** | KISSKI |
+| E | `e` | **no** | KISSKI |
+| G | `g` | **no** | KISSKI |
+| — | `fable` | yes: `claude-fable-5.1` | OpenRouter |
 
-The `2` suffixes are repeat runs of the same model, used to check
-run-to-run stability.
+**Five of the six models are unidentified, including the one that was
+selected.** `qwen3.5-397b-a17b` is one of A, C, D, E or G and nothing on disk
+says which.
+
+Two further gaps, for anyone tempted to treat this as a complete comparison:
+the lettering **skips `b` and `f`**, so two runs were probably made and not
+kept; and only **8 of the 18 runs were rendered** to `dist/`, so that folder is
+not a full set either.
+
+All 18 ran on **2026-09-04**, in two phases -- `a`/`c`/`d`/`fable` between 12:39
+and 14:24, then `a2`/`c2`/`d2`/`e`/`g` between 16:03 and 16:57. That ordering is
+an independent check on any reconstruction of the mapping.
 
 **The selected model was `qwen3.5-397b-a17b` (KISSKI)** — chosen as the only
 candidate with zero factual hallucinations across repeated runs. See
 `PIPELINE_GUIDE.md` for the standing configuration. Which suffix corresponds
 to it is part of what needs recording above.
+
+### What this evidence can and cannot support
+
+**Can:** that six LLMs were compared on the same two documents, three of them
+with repeat runs; that the selected model was the only one with zero factual
+hallucinations; and that the two largest outputs were rejected for inventing
+content, so more extraction was worse extraction.
+
+**Cannot:** any table, chart or sentence that names which model produced which
+row -- including the winner's own row. Until the mapping is recovered or the
+comparison is re-run with it recorded, nothing here is citable per-model.
+
+A separate, clean variance study of the selected model lives in
+`variability/` -- see its README. It does not recover this mapping; it measures
+run-to-run spread for `qwen3.5-397b-a17b` alone.
 
 ## Output sizes
 
