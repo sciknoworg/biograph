@@ -90,18 +90,23 @@ def main(argv=None) -> int:
     with io.open(MANIFEST, encoding="utf-8") as f:
         manifest = json.load(f)
 
-    # Grouped by (document, temperature, commit). Two conditions over one document are two
+    # Grouped by (document, MODEL, temperature, prompt). Two conditions over one document are two
     # distributions and must never be pooled -- and the COMMIT is part of the condition,
     # because the prompt itself changes between commits. Grouping on temperature alone silently
     # pooled five runs made before the completeness rules with five made after, which differ by
-    # 3.6x in entity count: the pooled figure described neither prompt.
+    # 3.6x in entity count: the pooled figure described neither prompt. The model is in the key
+    # for the same reason -- a five-model comparison pooled into one block describes no model.
+    # The prompt is identified by rules_sha where a run recorded one, because a commit that
+    # touches nothing in the prompt should not split a condition in two.
     by_doc: dict[tuple, list] = {}
     for r in manifest["runs"]:
-        by_doc.setdefault((r["document"], r.get("temperature"), r["commit"][:7]), []).append(r)
+        by_doc.setdefault((r["document"], r.get("model"), r.get("temperature"),
+                           r.get("rules_sha") or r["commit"][:7]), []).append(r)
 
-    for (doc, temp, commit), runs in sorted(
-            by_doc.items(), key=lambda kv: (kv[0][0], kv[0][1] or 0, kv[0][2])):
-        doc = "%s  (temperature %g, commit %s)" % (doc, temp if temp is not None else -1, commit)
+    for (doc, model, temp, prompt), runs in sorted(
+            by_doc.items(), key=lambda kv: (kv[0][0], str(kv[0][1]), kv[0][2] or 0, kv[0][3])):
+        doc = "%s  (%s, temperature %g, prompt %s)" % (
+            doc, model or "model?", temp if temp is not None else -1, prompt)
         runs.sort(key=lambda r: r["run"])
         print("\n" + "=" * 78)
         print("%s -- %d run(s) of %s" % (doc, len(runs), runs[0]["model"]))

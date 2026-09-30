@@ -35,6 +35,7 @@ Credentials come from the environment and are never put on a command line.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import io
 import json
 import os
@@ -69,6 +70,29 @@ DOCUMENTS = {
 
 DATA_FILES = ("entities", "events", "relations", "sources")
 MANIFEST = os.path.join(HERE, "manifest.json")
+
+
+def rules_fingerprint(build_site_path):
+    """sha256 of the prompt's own text: RULES + SCOPE_DEFINITION, sliced out of the source.
+
+    The commit is a poor identifier for a prompt -- it changes when anything in the repository
+    changes, so it splits one condition into two whenever an unrelated file is touched, and the
+    summary then reports two blocks describing identical runs. This hashes the two string
+    literals that actually reach the model, so runs group by the prompt they used.
+    """
+    try:
+        src = io.open(build_site_path, encoding="utf-8").read()
+    except OSError:
+        return None
+    parts = []
+    for name in ("RULES", "SCOPE_DEFINITION"):
+        marker = name + ' = """'
+        i = src.find(marker)
+        if i == -1:
+            return None
+        j = src.find('"""', i + len(marker))
+        parts.append(src[i:j])
+    return hashlib.sha256("".join(parts).encode("utf-8")).hexdigest()[:10]
 
 
 def load_manifest() -> dict:
@@ -124,6 +148,8 @@ def next_index(manifest: dict, doc_key: str, outdir: str) -> int:
     concurrent numbering safe.
     """
     used = {r["run"] for r in manifest["runs"] if r["document"] == doc_key}
+    # Numbering spans models as well as temperatures: every condition over one document draws
+    # from the same sequence, and the manifest says which condition each number belongs to.
     if os.path.isdir(outdir):
         for name in os.listdir(outdir):
             if name.startswith("run_"):
@@ -162,6 +188,19 @@ def main(argv=None) -> int:
                     help="limit to one document; repeatable. Default: both")
     ap.add_argument("--dry-run", action="store_true",
                     help="print what would run, call no model")
+    ap.add_argument("--model", default=os.environ.get("BIOGRAPH_MODEL"),
+                    help="extraction model, exactly as the provider names it. Defaults to "
+                         "BIOGRAPH_MODEL. Recorded per run in the manifest -- which is the "
+                         "whole point: the 2026-09-04 comparison is uncitable because nothing "
+                         "on disk says which model produced which output")
+    ap.add_argument("--base-url", default=os.environ.get("BIOGRAPH_BASE_URL"),
+                    help="OpenAI-compatible endpoint, e.g. https://openrouter.ai/api/v1 or a "
+                         "KISSKI URL. Defaults to BIOGRAPH_BASE_URL")
+    ap.add_argument("--api-key-env", default="BIOGRAPH_API_KEY",
+                    help="NAME of the environment variable holding the key for this provider "
+                         "(default BIOGRAPH_API_KEY) -- e.g. OPENROUTER_API_KEY. The name, "
+                         "never the key: a key on a command line lands in shell history and in "
+                         "every log line that echoes the command")
     ap.add_argument("--temperature", type=float, default=0.2,
                     help="passed to build_site.py --temperature and recorded per run. The "
                          "manifest is the only record of which condition a run belongs to; "
@@ -170,9 +209,9 @@ def main(argv=None) -> int:
     args = ap.parse_args(argv)
 
     keys = args.document or sorted(DOCUMENTS)
-    model = os.environ.get("BIOGRAPH_MODEL")
-    base_url = os.environ.get("BIOGRAPH_BASE_URL")
-    api_key = os.environ.get("BIOGRAPH_API_KEY")
+    model = args.model
+    base_url = args.base_url
+    api_key = os.environ.get(args.api_key_env)
 
     for k in keys:
         pdf = os.path.join(REPO_ROOT, DOCUMENTS[k]["pdf"])
@@ -194,13 +233,16 @@ def main(argv=None) -> int:
         print("\n(dry run -- no model called)")
         return 0
     if not (model and base_url and api_key):
-        raise SystemExit("set BIOGRAPH_MODEL, BIOGRAPH_BASE_URL and BIOGRAPH_API_KEY first")
+        raise SystemExit("need --model, --base-url and a key in %s (or set BIOGRAPH_MODEL / "
+                         "BIOGRAPH_BASE_URL / BIOGRAPH_API_KEY)" % args.api_key_env)
 
     # The pid is in the name because two invocations are meant to run at once -- one per
     # document, or one per temperature. A seconds-resolution timestamp alone collides when
     # both start in the same second, and then the first to finish discards the sandbox the
     # other is still extracting into.
     sb = sandbox.make("variability_%s_%d" % (time.strftime("%Y%m%dT%H%M%S"), os.getpid()))
+    prompt_sha = rules_fingerprint(sb.build_site)
+    print("prompt   : %s" % (prompt_sha or "(could not fingerprint)"))
     print("\nsandbox %s (commit %s)" % (sb.root, sb.commit[:12]))
     if sb.dirty:
         print("  WARNING: uncommitted changes in core files: %s" % ", ".join(sb.dirty))
@@ -251,9 +293,11 @@ def main(argv=None) -> int:
                     # The whole point of this file: the mapping, written before the next run.
                     "model": model,
                     "base_url": base_url,
+                    "api_key_env": args.api_key_env,
                     "temperature": args.temperature,
                     "strict_scope": False,
                     "commit": sb.commit,
+                    "rules_sha": prompt_sha,
                     "core_sha256": sb.hashes,
                     "started_at": time.strftime("%Y-%m-%dT%H:%M:%S"),
                     "wall_seconds": round(wall, 1),

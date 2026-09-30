@@ -1,0 +1,43 @@
+[
+  {
+    "id": "workshop_2015",
+    "event_type": "conference",
+    "label": "International workshop Atomic Layer Deposition: Russia, 2015",
+    "date": {
+      "display": "21 - 23 September 2015",
+      "precision": "range",
+      "sort_start": "2015-09-21",
+      "sort_end": "2015-09-23"
+    },
+    "participants": [],
+    "location": "leningrad",
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 20,
+        "quote": "International workshop \"Atomic Layer Deposition: Russia, 2015 \",h e l do n2 1 - 23 September 2015 (Moscow, Dolgoprudny, MIPT)"
+      }
+    ],
+    "_rejected_because": "[] should be non-empty"
+  },
+  {
+    "id": "baltic_ald_2015",
+    "event_type": "conference",
+    "label": "13th International Baltic Conference on Atomic Layer Deposition",
+    "date": {
+      "display": "28-29 September 2015",
+      "precision": "range",
+      "sort_start": "2015-09-28",
+      "sort_end": "2015-09-29"
+    },
+    "participants": [],
+    "sources": [
+      {
+        "source_id": "malygin_2015_essay",
+        "page": 20,
+        "quote": "13 th International Baltic Conference on Atomic Layer Deposition – Baltic ALD 2015, 28-29 September 2015 (Tartu, Estonia)."
+      }
+    ],
+    "_rejected_because": "[] should be non-empty"
+  }
+]

@@ -561,6 +561,191 @@
       "output": "paper_evidence/variability/aleskovskii/run_15"
     },
     {
+      "run": 16,
+      "document": "aleskovskii",
+      "slug": "aleskovskii_var_16",
+      "model": "qwen3.5-397b-a17b",
+      "base_url": "https://chat-ai.academiccloud.de/v1",
+      "temperature": 0.0,
+      "strict_scope": false,
+      "commit": "65f3df735daa61f30b2f284861c23ffeded5fb2a",
+      "core_sha256": {
+        "scripts/build_site.py": "ac3f4373e9aee417aaee814eb5a71e085b3783814d461869ac48bca1498402f2",
+        "schema/date.schema.json": "88062b53d11e97667f7e4c8c04e09cf11f61e611980c6cd5aa4eec0bec3897ae",
+        "schema/entity.schema.json": "ed2220532d11a96ea0bf0ad184c97de8abe45c8b8feed9f4aca0fa86f1319df0",
+        "schema/event.schema.json": "f83871683eeaf51498fcd696d04bcae9c8231821d4d25f3a52d37d7adcf60a7d",
+        "schema/relation.schema.json": "9560b94aef86f91554ddd05441e026570f4b803e8b859213efd9ebe05dad9d23",
+        "schema/source.schema.json": "761b2cdd818deea6eb9450e90db46a1880c1c63f7291bbf956de4a68262f51b2",
+        "frontend/template.html": "dc79416f6fdc1ca99c786b289b52a951731321c9bb59235558cd61f5e0ac257a",
+        "frontend/world-countries.geo.json": "02caedf9a1e0255deedc985942ccb0b8df102f21c9c551c332e8eda0a18fbcd9"
+      },
+      "started_at": "2026-09-30T10:58:02",
+      "wall_seconds": 406.2,
+      "exit_code": 0,
+      "validated": true,
+      "counts": {
+        "entities": 26,
+        "events": 32,
+        "relations": 16,
+        "sources": 1
+      },
+      "grounding": {
+        "quotes_verbatim": 33,
+        "quotes_checked": 48,
+        "entities_present": 26,
+        "entities_checked": 26
+      },
+      "output": "paper_evidence/variability/aleskovskii/run_16"
+    },
+    {
+      "run": 17,
+      "document": "aleskovskii",
+      "slug": "aleskovskii_var_17",
+      "model": "qwen3.5-397b-a17b",
+      "base_url": "https://chat-ai.academiccloud.de/v1",
+      "temperature": 0.0,
+      "strict_scope": false,
+      "commit": "65f3df735daa61f30b2f284861c23ffeded5fb2a",
+      "core_sha256": {
+        "scripts/build_site.py": "ac3f4373e9aee417aaee814eb5a71e085b3783814d461869ac48bca1498402f2",
+        "schema/date.schema.json": "88062b53d11e97667f7e4c8c04e09cf11f61e611980c6cd5aa4eec0bec3897ae",
+        "schema/entity.schema.json": "ed2220532d11a96ea0bf0ad184c97de8abe45c8b8feed9f4aca0fa86f1319df0",
+        "schema/event.schema.json": "f83871683eeaf51498fcd696d04bcae9c8231821d4d25f3a52d37d7adcf60a7d",
+        "schema/relation.schema.json": "9560b94aef86f91554ddd05441e026570f4b803e8b859213efd9ebe05dad9d23",
+        "schema/source.schema.json": "761b2cdd818deea6eb9450e90db46a1880c1c63f7291bbf956de4a68262f51b2",
+        "frontend/template.html": "dc79416f6fdc1ca99c786b289b52a951731321c9bb59235558cd61f5e0ac257a",
+        "frontend/world-countries.geo.json": "02caedf9a1e0255deedc985942ccb0b8df102f21c9c551c332e8eda0a18fbcd9"
+      },
+      "started_at": "2026-09-30T11:02:20",
+      "wall_seconds": 257.4,
+      "exit_code": 0,
+      "validated": true,
+      "counts": {
+        "entities": 16,
+        "events": 19,
+        "relations": 12,
+        "sources": 1
+      },
+      "grounding": {
+        "quotes_verbatim": 23,
+        "quotes_checked": 32,
+        "entities_present": 16,
+        "entities_checked": 16
+      },
+      "output": "paper_evidence/variability/aleskovskii/run_17"
+    },
+    {
+      "run": 18,
+      "document": "aleskovskii",
+      "slug": "aleskovskii_var_18",
+      "model": "qwen3.5-397b-a17b",
+      "base_url": "https://chat-ai.academiccloud.de/v1",
+      "temperature": 0.0,
+      "strict_scope": false,
+      "commit": "65f3df735daa61f30b2f284861c23ffeded5fb2a",
+      "core_sha256": {
+        "scripts/build_site.py": "ac3f4373e9aee417aaee814eb5a71e085b3783814d461869ac48bca1498402f2",
+        "schema/date.schema.json": "88062b53d11e97667f7e4c8c04e09cf11f61e611980c6cd5aa4eec0bec3897ae",
+        "schema/entity.schema.json": "ed2220532d11a96ea0bf0ad184c97de8abe45c8b8feed9f4aca0fa86f1319df0",
+        "schema/event.schema.json": "f83871683eeaf51498fcd696d04bcae9c8231821d4d25f3a52d37d7adcf60a7d",
+        "schema/relation.schema.json": "9560b94aef86f91554ddd05441e026570f4b803e8b859213efd9ebe05dad9d23",
+        "schema/source.schema.json": "761b2cdd818deea6eb9450e90db46a1880c1c63f7291bbf956de4a68262f51b2",
+        "frontend/template.html": "dc79416f6fdc1ca99c786b289b52a951731321c9bb59235558cd61f5e0ac257a",
+        "frontend/world-countries.geo.json": "02caedf9a1e0255deedc985942ccb0b8df102f21c9c551c332e8eda0a18fbcd9"
+      },
+      "started_at": "2026-09-30T11:12:48",
+      "wall_seconds": 627.8,
+      "exit_code": 0,
+      "validated": true,
+      "counts": {
+        "entities": 30,
+        "events": 30,
+        "relations": 15,
+        "sources": 1
+      },
+      "grounding": {
+        "quotes_verbatim": 31,
+        "quotes_checked": 45,
+        "entities_present": 30,
+        "entities_checked": 30
+      },
+      "output": "paper_evidence/variability/aleskovskii/run_18"
+    },
+    {
+      "run": 19,
+      "document": "aleskovskii",
+      "slug": "aleskovskii_var_19",
+      "model": "qwen3.5-397b-a17b",
+      "base_url": "https://chat-ai.academiccloud.de/v1",
+      "temperature": 0.0,
+      "strict_scope": false,
+      "commit": "65f3df735daa61f30b2f284861c23ffeded5fb2a",
+      "core_sha256": {
+        "scripts/build_site.py": "ac3f4373e9aee417aaee814eb5a71e085b3783814d461869ac48bca1498402f2",
+        "schema/date.schema.json": "88062b53d11e97667f7e4c8c04e09cf11f61e611980c6cd5aa4eec0bec3897ae",
+        "schema/entity.schema.json": "ed2220532d11a96ea0bf0ad184c97de8abe45c8b8feed9f4aca0fa86f1319df0",
+        "schema/event.schema.json": "f83871683eeaf51498fcd696d04bcae9c8231821d4d25f3a52d37d7adcf60a7d",
+        "schema/relation.schema.json": "9560b94aef86f91554ddd05441e026570f4b803e8b859213efd9ebe05dad9d23",
+        "schema/source.schema.json": "761b2cdd818deea6eb9450e90db46a1880c1c63f7291bbf956de4a68262f51b2",
+        "frontend/template.html": "dc79416f6fdc1ca99c786b289b52a951731321c9bb59235558cd61f5e0ac257a",
+        "frontend/world-countries.geo.json": "02caedf9a1e0255deedc985942ccb0b8df102f21c9c551c332e8eda0a18fbcd9"
+      },
+      "started_at": "2026-09-30T11:21:40",
+      "wall_seconds": 531.9,
+      "exit_code": 0,
+      "validated": true,
+      "counts": {
+        "entities": 20,
+        "events": 32,
+        "relations": 13,
+        "sources": 1
+      },
+      "grounding": {
+        "quotes_verbatim": 42,
+        "quotes_checked": 45,
+        "entities_present": 20,
+        "entities_checked": 20
+      },
+      "output": "paper_evidence/variability/aleskovskii/run_19"
+    },
+    {
+      "run": 21,
+      "document": "aleskovskii",
+      "slug": "aleskovskii_var_21",
+      "model": "qwen3.5-397b-a17b",
+      "base_url": "https://chat-ai.academiccloud.de/v1",
+      "temperature": 0.0,
+      "strict_scope": false,
+      "commit": "65f3df735daa61f30b2f284861c23ffeded5fb2a",
+      "core_sha256": {
+        "scripts/build_site.py": "ac3f4373e9aee417aaee814eb5a71e085b3783814d461869ac48bca1498402f2",
+        "schema/date.schema.json": "88062b53d11e97667f7e4c8c04e09cf11f61e611980c6cd5aa4eec0bec3897ae",
+        "schema/entity.schema.json": "ed2220532d11a96ea0bf0ad184c97de8abe45c8b8feed9f4aca0fa86f1319df0",
+        "schema/event.schema.json": "f83871683eeaf51498fcd696d04bcae9c8231821d4d25f3a52d37d7adcf60a7d",
+        "schema/relation.schema.json": "9560b94aef86f91554ddd05441e026570f4b803e8b859213efd9ebe05dad9d23",
+        "schema/source.schema.json": "761b2cdd818deea6eb9450e90db46a1880c1c63f7291bbf956de4a68262f51b2",
+        "frontend/template.html": "dc79416f6fdc1ca99c786b289b52a951731321c9bb59235558cd61f5e0ac257a",
+        "frontend/world-countries.geo.json": "02caedf9a1e0255deedc985942ccb0b8df102f21c9c551c332e8eda0a18fbcd9"
+      },
+      "started_at": "2026-09-30T11:47:26",
+      "wall_seconds": 1160.4,
+      "exit_code": 0,
+      "validated": true,
+      "counts": {
+        "entities": 52,
+        "events": 43,
+        "relations": 17,
+        "sources": 1
+      },
+      "grounding": {
+        "quotes_verbatim": 53,
+        "quotes_checked": 60,
+        "entities_present": 52,
+        "entities_checked": 52
+      },
+      "output": "paper_evidence/variability/aleskovskii/run_21"
+    },
+    {
       "run": 1,
       "document": "suntola",
       "slug": "suntola_var_01",

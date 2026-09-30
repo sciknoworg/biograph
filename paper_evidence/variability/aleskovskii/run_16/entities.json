@@ -1,0 +1,268 @@
+[
+  {
+    "id": "valentin_borisovich_aleskovskii",
+    "entity_type": "person",
+    "name": "Valentin Borisovich Aleskovskii",
+    "aliases": [
+      "V. B. Aleskovskii",
+      "Valentin Aleskovskii",
+      "Aleskovskii"
+    ],
+    "summary": "Soviet chemist and professor who founded the molecular layering method and the scientific school of Chemistry of highly organized substances.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "stanislav_ivanovich_koltsov",
+    "entity_type": "person",
+    "name": "Stanislav Ivanovich Kol'tsov",
+    "aliases": [
+      "S. I. Kol'tsov",
+      "Stanislav Kol'tsov",
+      "Kol'tsov"
+    ],
+    "summary": "Soviet chemist and graduate student of Aleskovskii who experimentally substantiated the molecular layering method.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "anatolii_a_malygin",
+    "entity_type": "person",
+    "name": "Anatolii A. Malygin",
+    "aliases": [
+      "A. A. Malygin",
+      "Anatoly Malygin"
+    ],
+    "summary": "Professor and student of Aleskovskii, co-author of this essay and head of the Department of Chemical Nanotechnology and Electronics Engineering Materials.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "victor_e_drozd",
+    "entity_type": "person",
+    "name": "Victor E. Drozd",
+    "aliases": [
+      "V. E. Drozd",
+      "Victor Drozd"
+    ],
+    "summary": "Doctor and student of Aleskovskii who developed vacuum ML equipment and met with T. Suntola in 1990.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "anatolii_a_malkov",
+    "entity_type": "person",
+    "name": "Anatolii A. Malkov",
+    "aliases": [
+      "A. A. Malkov"
+    ],
+    "summary": "Doctor and student of Aleskovskii, co-author of this essay.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "vladimir_m_smirnov",
+    "entity_type": "person",
+    "name": "Vladimir M. Smirnov",
+    "aliases": [
+      "V. M. Smirnov"
+    ],
+    "summary": "Professor and student of Aleskovskii, co-author of this essay.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "t_suntola",
+    "entity_type": "person",
+    "name": "T. Suntola",
+    "aliases": [
+      "Suntola"
+    ],
+    "summary": "Finnish physicist who invented atomic layer epitaxy (ALE) and patented it in 1977.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "riikka_puurunen",
+    "entity_type": "person",
+    "name": "Riikka Puurunen",
+    "aliases": [
+      "R. Puurunen",
+      "Puurunen Riikka"
+    ],
+    "summary": "Senior Scientist at VTT who initiated the Virtual Project on the History of ALD.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "lti_by_lensovet",
+    "entity_type": "organization",
+    "name": "Leningrad Technological Institute by Lensovet",
+    "aliases": [
+      "LTI by Lensovet",
+      "LTI",
+      "St. Petersburg State Technological Institute (Technical University)",
+      "SPbSTI"
+    ],
+    "summary": "Educational chemical engineering institute in Russia where Aleskovskii and Kol'tsov worked.",
+    "subtype": "university"
+  },
+  {
+    "id": "naval_research_institute_leningrad",
+    "entity_type": "organization",
+    "name": "Naval Research Institute",
+    "aliases": [],
+    "summary": "Research institute in Leningrad where Aleskovskii worked as a research fellow.",
+    "subtype": "lab"
+  },
+  {
+    "id": "lsu",
+    "entity_type": "organization",
+    "name": "Leningrad State University",
+    "aliases": [
+      "LSU",
+      "St. Petersburg State University",
+      "SPbSU"
+    ],
+    "summary": "University where Aleskovskii served as rector and founded the Department of Solid State Chemistry.",
+    "subtype": "university"
+  },
+  {
+    "id": "academy_of_sciences_ussr",
+    "entity_type": "organization",
+    "name": "Academy of Sciences of the USSR",
+    "aliases": [
+      "RAS",
+      "Russian Academy of Sciences"
+    ],
+    "summary": "Scientific academy of which Aleskovskii became a corresponding member.",
+    "subtype": "organization"
+  },
+  {
+    "id": "mary_turkmenistan",
+    "entity_type": "place",
+    "name": "Mary",
+    "aliases": [],
+    "summary": "City in Turkmenistan where Aleskovskii was born.",
+    "subtype": "city",
+    "attributes": {
+      "country": "Turkmenistan"
+    }
+  },
+  {
+    "id": "rostov_region",
+    "entity_type": "place",
+    "name": "Rostov region",
+    "aliases": [],
+    "summary": "Region in the USSR where Kol'tsov was born.",
+    "subtype": "region",
+    "attributes": {
+      "country": "USSR"
+    }
+  },
+  {
+    "id": "leningrad",
+    "entity_type": "place",
+    "name": "Leningrad",
+    "aliases": [
+      "St. Petersburg"
+    ],
+    "summary": "City where Aleskovskii studied and worked.",
+    "subtype": "city",
+    "attributes": {
+      "country": "USSR"
+    }
+  },
+  {
+    "id": "molecular_layering_method",
+    "entity_type": "artifact",
+    "name": "Molecular Layering",
+    "aliases": [
+      "ML",
+      "Atomic Layer Deposition",
+      "ALD"
+    ],
+    "summary": "Gas-phase layer by layer deposition technology developed by Aleskovskii and Kol'tsov.",
+    "subtype": "invention"
+  },
+  {
+    "id": "framework_hypothesis",
+    "entity_type": "artifact",
+    "name": "Framework Hypothesis",
+    "aliases": [],
+    "summary": "Hypothesis proposed by Aleskovskii in 1952 regarding the chemical structure of solids.",
+    "subtype": "publication"
+  },
+  {
+    "id": "n_a_kosygin",
+    "entity_type": "person",
+    "name": "N. A. Kosygin",
+    "aliases": [
+      "Kosygin"
+    ],
+    "summary": "Prime Minister of the USSR who became interested in ML after a Pravda article.",
+    "subtype": "politician"
+  },
+  {
+    "id": "e_k_kalinin",
+    "entity_type": "person",
+    "name": "E. K. Kalinin",
+    "aliases": [
+      "Kalinin"
+    ],
+    "summary": "Deputy Minister of Education who proposed the inter-university program.",
+    "subtype": "official"
+  },
+  {
+    "id": "g_n_kuznetsova",
+    "entity_type": "person",
+    "name": "G. N. Kuznetsova",
+    "aliases": [],
+    "summary": "Student of Aleskovskii who defended candidate degree in 1965.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "a_n_volkova",
+    "entity_type": "person",
+    "name": "A. N. Volkova",
+    "aliases": [],
+    "summary": "Student of Aleskovskii who defended candidate degree in 1969.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "v_b_kopylov",
+    "entity_type": "person",
+    "name": "V. B. Kopylov",
+    "aliases": [],
+    "summary": "Student of Aleskovskii who defended candidate degree in 1977.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "v_p_tolstoy",
+    "entity_type": "person",
+    "name": "V. P. Tolstoy",
+    "aliases": [],
+    "summary": "Student of Aleskovskii who created spectroscopy of nanostructures.",
+    "subtype": "researcher"
+  },
+  {
+    "id": "department_of_chemistry_of_solids",
+    "entity_type": "organization",
+    "name": "Department of Chemistry of Solids",
+    "aliases": [
+      "Department of Chemical Engineering of Materials and Electronics Products",
+      "Department of Chemical Nanotechnology and Electronics Engineering Materials",
+      "CNEEM"
+    ],
+    "summary": "Department founded by Aleskovskii at LTI in 1967.",
+    "subtype": "department"
+  },
+  {
+    "id": "department_of_solid_state_chemistry_lsu",
+    "entity_type": "organization",
+    "name": "Department of Solid State Chemistry",
+    "aliases": [],
+    "summary": "Department organized by Aleskovskii at LSU in 1977.",
+    "subtype": "department"
+  },
+  {
+    "id": "chemical_assembly_of_materials_program",
+    "entity_type": "organization",
+    "name": "Chemical assembly of materials",
+    "aliases": [],
+    "summary": "Inter-university scientific and technical program founded in 1978.",
+    "subtype": "program"
+  }
+]
