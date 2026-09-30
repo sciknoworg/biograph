@@ -1,0 +1,93 @@
+[
+  {
+    "id": "tuomo_suntola_instrumentarium_oy",
+    "source": "tuomo_suntola",
+    "type": "employed_by",
+    "target": "instrumentarium_oy",
+    "sources": [
+      {
+        "source_id": "suntola_var_16",
+        "page": 3,
+        "quote": "In the beginning of 1974, Suntola and the small humidity sensor team moved from VTT to Instrumentarium (Ahertajantie 3, Tapiola, Espoo, Finland)."
+      }
+    ]
+  },
+  {
+    "id": "tuomo_suntola_lohja_oy",
+    "source": "tuomo_suntola",
+    "type": "employed_by",
+    "target": "lohja_oy",
+    "sources": [
+      {
+        "source_id": "suntola_var_16",
+        "page": 5,
+        "quote": "In 1983, the pilot production of TF-EL displays started in Lohja, the Kunnarla plant (Kaivurinkatu 5, Lohja, Finland)."
+      }
+    ]
+  },
+  {
+    "id": "tuomo_suntola_neste_advanced_power_systems",
+    "source": "tuomo_suntola",
+    "type": "employed_by",
+    "target": "neste_advanced_power_systems",
+    "sources": [
+      {
+        "source_id": "suntola_var_16",
+        "page": 7,
+        "quote": "In 1987, Tuomo Suntola was offered the chance to set up Microchemistry Ltd, as a subsidiary of Neste, for the development of ALE-based solar panels."
+      }
+    ]
+  },
+  {
+    "id": "tuomo_suntola_microchemistry_ltd",
+    "source": "tuomo_suntola",
+    "type": "founded",
+    "target": "microchemistry_ltd",
+    "sources": [
+      {
+        "source_id": "suntola_var_16",
+        "page": 7,
+        "quote": "In 1987, Tuomo Suntola was offered the chance to set up Microchemistry Ltd, as a subsidiary of Neste, for the development of ALE-based solar panels."
+      }
+    ]
+  },
+  {
+    "id": "tuomo_suntola_asm_microchemistry",
+    "source": "tuomo_suntola",
+    "type": "employed_by",
+    "target": "asm_microchemistry",
+    "sources": [
+      {
+        "source_id": "suntola_var_16",
+        "page": 9,
+        "quote": "In 1999, Microchemistry with all its personnel, ALE expertise, and the patent portfolio was sold to the Dutch company ASM."
+      }
+    ]
+  },
+  {
+    "id": "tuomo_suntola_picosun_oy",
+    "source": "tuomo_suntola",
+    "type": "employed_by",
+    "target": "picosun_oy",
+    "sources": [
+      {
+        "source_id": "suntola_var_16",
+        "page": 10,
+        "quote": "In 2004, Suntola joined Picosun Oy, first as the scientific adviser and, since 2007, as a board member."
+      }
+    ]
+  },
+  {
+    "id": "tuomo_suntola_beneq_oy",
+    "source": "tuomo_suntola",
+    "type": "employed_by",
+    "target": "beneq_oy",
+    "sources": [
+      {
+        "source_id": "suntola_var_16",
+        "page": 10,
+        "quote": "In 2004, Suntola joined Picosun Oy, first as the scientific adviser and, since 2007, as a board member."
+      }
+    ]
+  }
+]

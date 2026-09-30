@@ -104,17 +104,65 @@ def load_manifest() -> dict:
             "runs": []}
 
 
-def save_manifest(m: dict) -> None:
-    """Merge into whatever is on disk, rather than overwriting it.
+LOCK = MANIFEST + ".lock"
 
-    Two invocations can run at once -- one per document, or one per temperature -- and each
-    holds the manifest it loaded at startup. A plain overwrite means the last writer erases
-    every run the other recorded since, and those measurements exist nowhere else: the run
-    folders hold the extraction, but wall time, exit code and grounding live only here.
 
-    So re-read, merge by (document, run), and write. Not atomic against a simultaneous write
-    to the millisecond, but runs are minutes apart, which is the actual exposure.
+def _acquire_lock(timeout=120.0):
+    """Exclusive lock around the read-merge-write, by creating a file nobody else can.
+
+    Merging alone is not enough once several invocations run at once: A reads, B reads, A
+    writes, B writes, and B's copy -- which never saw A's run -- wins. One lost entry costs the
+    wall time, exit code and grounding for that draw, which exist nowhere else. With one model
+    per process the write frequency multiplies and a narrow race stops being negligible.
+
+    O_CREAT|O_EXCL is atomic on Windows and POSIX alike. A lock older than the timeout is
+    treated as abandoned by a killed process and broken, because a study that stops recording
+    because something was Ctrl-C'd an hour ago is worse than a torn write.
     """
+    start = time.time()
+    while True:
+        try:
+            fd = os.open(LOCK, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+            os.write(fd, str(os.getpid()).encode())
+            os.close(fd)
+            return
+        except FileExistsError:
+            try:
+                if time.time() - os.path.getmtime(LOCK) > timeout:
+                    os.remove(LOCK)
+                    continue
+            except OSError:
+                pass
+            if time.time() - start > timeout:
+                return          # give up and write anyway: losing the run is worse
+            time.sleep(0.2)
+
+
+def _release_lock():
+    try:
+        os.remove(LOCK)
+    except OSError:
+        pass
+
+
+def save_manifest(m: dict) -> None:
+    """Merge into whatever is on disk, rather than overwriting it, under a lock.
+
+    Several invocations can run at once -- one per document, per temperature, or per model --
+    and each holds the manifest it loaded at startup. A plain overwrite means the last writer
+    erases every run the others recorded since, and those measurements exist nowhere else: the
+    run folders hold the extraction, but wall time, exit code and grounding live only here.
+
+    So take the lock, re-read, merge by (document, run), write, release.
+    """
+    _acquire_lock()
+    try:
+        _save_manifest_locked(m)
+    finally:
+        _release_lock()
+
+
+def _save_manifest_locked(m: dict) -> None:
     merged = {}
     if os.path.isfile(MANIFEST):
         try:

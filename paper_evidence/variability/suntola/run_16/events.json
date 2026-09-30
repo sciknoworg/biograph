@@ -1,0 +1,127 @@
+[
+  {
+    "id": "tuomo_suntola_birth",
+    "event_type": "birth",
+    "label": "Tuomo Suntola was born",
+    "date": {
+      "display": "1943",
+      "precision": "year",
+      "sort_start": "1943-01-01",
+      "sort_end": "1943-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "suntola_var_16",
+        "page": 1,
+        "quote": "Tuomo Suntola was born in 1943 in Tampere, Finland."
+      }
+    ]
+  },
+  {
+    "id": "tuomo_suntola_phd",
+    "event_type": "education",
+    "label": "Tuomo Suntola completed his PhD",
+    "date": {
+      "display": "1971",
+      "precision": "year",
+      "sort_start": "1971-01-01",
+      "sort_end": "1971-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "suntola_var_16",
+        "page": 2,
+        "quote": "In 1967, he completed his Master’s thesis on Schottky diodes for radar detectors (metal-semiconductor diodes for microwave frequencies)."
+      }
+    ]
+  },
+  {
+    "id": "tuomo_suntola_ale_invention",
+    "event_type": "invention",
+    "label": "Tuomo Suntola invented the Atomic Layer Epitaxy (ALE) technique",
+    "date": {
+      "display": "1974",
+      "precision": "year",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "suntola_var_16",
+        "page": 3,
+        "quote": "The actual invention of ALE matured in early June 1974."
+      }
+    ]
+  },
+  {
+    "id": "tuomo_suntola_sid_presentation",
+    "event_type": "presentation",
+    "label": "Tuomo Suntola presented the Atomic Layer Epitaxy (ALE) technique at the SID conference",
+    "date": {
+      "display": "1980",
+      "precision": "year",
+      "sort_start": "1980-01-01",
+      "sort_end": "1980-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "suntola_var_16",
+        "page": 5,
+        "quote": "The presentation of the revolutionary EL display was given by an unknown person (Suntola), coming from an unknown country (Finland)."
+      }
+    ]
+  },
+  {
+    "id": "tuomo_suntola_european_semi_award",
+    "event_type": "award",
+    "label": "Tuomo Suntola received the European SEMI Award",
+    "date": {
+      "display": "2004",
+      "precision": "year",
+      "sort_start": "2004-01-01",
+      "sort_end": "2004-12-31"
+    },
+    "participants": [
+      {
+        "entity_id": "tuomo_suntola",
+        "role": "subject"
+      }
+    ],
+    "certainty": "certain",
+    "sources": [
+      {
+        "source_id": "suntola_var_16",
+        "page": 13,
+        "quote": "The European SEMI Award was awarded to Suntola (right) at the Munich Electronics Show 2004 by Stanley Myers, the President & CEO of SEMI (USA) (left)."
+      }
+    ]
+  }
+]
