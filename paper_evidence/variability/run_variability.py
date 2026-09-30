@@ -257,6 +257,21 @@ def main(argv=None) -> int:
     args = ap.parse_args(argv)
 
     keys = args.document or sorted(DOCUMENTS)
+    # --api-key-env takes the NAME of a variable. Someone passing the key itself would
+    # otherwise see it echoed back in the "not set" error -- printed to the terminal and
+    # already in the shell history -- turning a typo into a leak. Refuse without ever
+    # repeating the value.
+    name = args.api_key_env or ""
+    looks_like_a_key = (len(name) > 64 or any(c in name for c in "-.:/")
+                        or name != name.upper())
+    if looks_like_a_key:
+        raise SystemExit(
+            "--api-key-env takes the NAME of an environment variable holding the key, not "
+            "the key itself. Set the variable first, then pass its name, e.g.: "
+            "--api-key-env OPENROUTER_API_KEY" + chr(10) +
+            "The value passed looks like a credential and has NOT been echoed here. If it "
+            "was a real key, treat it as compromised -- it is in your shell history.")
+
     model = args.model
     base_url = args.base_url
     api_key = os.environ.get(args.api_key_env)
@@ -281,8 +296,9 @@ def main(argv=None) -> int:
         print("\n(dry run -- no model called)")
         return 0
     if not (model and base_url and api_key):
-        raise SystemExit("need --model, --base-url and a key in %s (or set BIOGRAPH_MODEL / "
-                         "BIOGRAPH_BASE_URL / BIOGRAPH_API_KEY)" % args.api_key_env)
+        missing = [n for n, v in (("--model", model), ("--base-url", base_url),
+                                  ("a key in $" + args.api_key_env, api_key)) if not v]
+        raise SystemExit("missing: " + ", ".join(missing))
 
     # The pid is in the name because two invocations are meant to run at once -- one per
     # document, or one per temperature. A seconds-resolution timestamp alone collides when
