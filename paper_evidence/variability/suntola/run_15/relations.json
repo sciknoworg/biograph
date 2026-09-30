@@ -1,0 +1,265 @@
+[
+  {
+    "id": "suntola_born_in_tampere",
+    "source": "tuomo_suntola",
+    "type": "born_in",
+    "target": "tampere",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 2,
+        "quote": "Tuomo Suntola was born in 1943 in Tampere, Finland."
+      }
+    ]
+  },
+  {
+    "id": "suntola_studied_at_hut",
+    "source": "tuomo_suntola",
+    "type": "studied_at",
+    "target": "helsinki_university_of_technology",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 2,
+        "quote": "In 1963, Suntola started his studies on electrical engineering at Helsinki University of Technology (HUT-Teknillinen korkeakoulu, TKK, nowadays Aalto University)."
+      }
+    ]
+  },
+  {
+    "id": "suntola_worked_at_vtt",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "vtt_technical_research_centre_of_finland",
+    "start": {
+      "display": "1971",
+      "precision": "year",
+      "sort_start": "1971-01-01",
+      "sort_end": "1971-12-31"
+    },
+    "end": {
+      "display": "1974",
+      "precision": "year",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 2,
+        "quote": "In the autumn of 1971, the Semiconductor Laboratory received its ﬁrst industrial order, a task to develop a miniature solid-state humidity sensor for Vaisala Oy, a Finnish company specializing in meteorological instrumentation."
+      }
+    ]
+  },
+  {
+    "id": "suntola_worked_at_instrumentarium",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "instrumentarium_oy",
+    "start": {
+      "display": "1974",
+      "precision": "year",
+      "sort_start": "1974-01-01",
+      "sort_end": "1974-12-31"
+    },
+    "end": {
+      "display": "1978",
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 3,
+        "quote": "In the beginning of 1974, Suntola and the small humidity sensor team moved from VTT to Instrumentarium (Ahertajantie 3, Tapiola, Espoo, Finland)."
+      }
+    ]
+  },
+  {
+    "id": "suntola_worked_at_lohja",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "lohja_oy",
+    "start": {
+      "display": "1978",
+      "precision": "year",
+      "sort_start": "1978-01-01",
+      "sort_end": "1978-12-31"
+    },
+    "end": {
+      "display": "1987",
+      "precision": "year",
+      "sort_start": "1987-01-01",
+      "sort_end": "1987-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 4,
+        "quote": "In 1978, the ALE-EL project, with the personnel and the facility, was sold to the building material company Lohja Oy."
+      }
+    ]
+  },
+  {
+    "id": "suntola_founded_microchemistry",
+    "source": "tuomo_suntola",
+    "type": "founded",
+    "target": "microchemistry_ltd",
+    "event_id": "microchemistry_founded",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 8,
+        "quote": "In 1987, Tuomo Suntola was offered the chance to set up Microchemistry Ltd, as a subsidiary of Neste, for the development of ALE-based solar panels."
+      }
+    ]
+  },
+  {
+    "id": "suntola_worked_at_neste",
+    "source": "tuomo_suntola",
+    "type": "worked_at",
+    "target": "neste_oy",
+    "start": {
+      "display": "1987",
+      "precision": "year",
+      "sort_start": "1987-01-01",
+      "sort_end": "1987-12-31"
+    },
+    "end": {
+      "display": "1998",
+      "precision": "year",
+      "sort_start": "1998-01-01",
+      "sort_end": "1998-12-31"
+    },
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 8,
+        "quote": "In 1987, Tuomo Suntola was offered the chance to set up Microchemistry Ltd, as a subsidiary of Neste, for the development of ALE-based solar panels."
+      }
+    ]
+  },
+  {
+    "id": "suntola_invented_ale",
+    "source": "tuomo_suntola",
+    "type": "invented",
+    "target": "ale_patent_1974",
+    "event_id": "ale_invention",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 3,
+        "quote": "The actual invention of ALE matured in early June 1974."
+      }
+    ]
+  },
+  {
+    "id": "suntola_collaborated_with_antson",
+    "source": "tuomo_suntola",
+    "type": "collaborated_with",
+    "target": "jorma_antson",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 2,
+        "quote": "The thin polymer film approach turned out to be successful and, with Jorma Antson, he completed the development by the end of 1973."
+      }
+    ]
+  },
+  {
+    "id": "suntola_collaborated_with_lindfors",
+    "source": "tuomo_suntola",
+    "type": "collaborated_with",
+    "target": "sven_lindfors",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 8,
+        "quote": "As the ﬁrst task in Microchemistry, Tuomo Suntola and Sven Lindfors designed a quick, compact research reactor for photovoltaic (PV) development."
+      }
+    ]
+  },
+  {
+    "id": "suntola_collaborated_with_pakkala",
+    "source": "tuomo_suntola",
+    "type": "collaborated_with",
+    "target": "arto_pakkala",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 5,
+        "quote": "What is missing in the picture is Arto Pakkala and his ﬁrst reaction to the success: \"That's it!\" (\"Siinä se on!\" in Finnish.)"
+      }
+    ]
+  },
+  {
+    "id": "suntola_met_aleskovskii",
+    "source": "tuomo_suntola",
+    "type": "met",
+    "target": "aleskovskii",
+    "event_id": "visit_to_leningrad",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 12,
+        "quote": "Suntola travelled to Leningrad in August 1990, where Aleskovskii presented his works dealing with oxide layer build-up based on saturated surface reactions, just as in the ALE process."
+      }
+    ]
+  },
+  {
+    "id": "suntola_awarded_semi",
+    "source": "tuomo_suntola",
+    "type": "awarded",
+    "target": "semi_award_2004",
+    "event_id": "semi_award_2004",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 13,
+        "quote": "The year 2004 brought a delightful surprise to Suntola in the form of the European SEMI Award 2004 \"Honoring the Pioneer in Atomic Layer Deposition Techniques … that paved the way for the development of nanoscale semiconductor devices \"."
+      }
+    ]
+  },
+  {
+    "id": "microchemistry_sold_to_asm",
+    "source": "microchemistry_ltd",
+    "type": "acquired_by",
+    "target": "asm",
+    "event_id": "microchemistry_sold_to_asm",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 10,
+        "quote": "In 1999, Microchemistry with all its personnel, ALE expertise, and the patent portfolio was sold to the Dutch company ASM."
+      }
+    ]
+  },
+  {
+    "id": "lohja_el_sold_to_planar",
+    "source": "lohja_oy",
+    "type": "sold_to",
+    "target": "planar_inc",
+    "event_id": "el_business_sold_to_planar",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 7,
+        "quote": "In 1990, Lohja's EL business was sold to its American competitor, Planar Inc."
+      }
+    ]
+  },
+  {
+    "id": "planar_el_acquired_by_beneq",
+    "source": "planar_inc",
+    "type": "acquired_by",
+    "target": "beneq_oy",
+    "event_id": "planar_el_acquired_by_beneq",
+    "sources": [
+      {
+        "source_id": "puurunen_2014",
+        "page": 7,
+        "quote": "In 2012, Planar's EL plant in Olarinluoma was acquired by Beneq Oy, who continue the production of the ALE-EL panels as the only commercial manufacturer in the world (2014)."
+      }
+    ]
+  }
+]

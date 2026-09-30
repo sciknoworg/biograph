@@ -929,6 +929,191 @@
         "entities_checked": 30
       },
       "output": "paper_evidence/variability/suntola/run_10"
+    },
+    {
+      "run": 11,
+      "document": "suntola",
+      "slug": "suntola_var_11",
+      "model": "qwen3.5-397b-a17b",
+      "base_url": "https://chat-ai.academiccloud.de/v1",
+      "temperature": 0.0,
+      "strict_scope": false,
+      "commit": "a155c2739cfcd5c646bc9c685facfd9f7a274b9f",
+      "core_sha256": {
+        "scripts/build_site.py": "ac3f4373e9aee417aaee814eb5a71e085b3783814d461869ac48bca1498402f2",
+        "schema/date.schema.json": "88062b53d11e97667f7e4c8c04e09cf11f61e611980c6cd5aa4eec0bec3897ae",
+        "schema/entity.schema.json": "ed2220532d11a96ea0bf0ad184c97de8abe45c8b8feed9f4aca0fa86f1319df0",
+        "schema/event.schema.json": "f83871683eeaf51498fcd696d04bcae9c8231821d4d25f3a52d37d7adcf60a7d",
+        "schema/relation.schema.json": "9560b94aef86f91554ddd05441e026570f4b803e8b859213efd9ebe05dad9d23",
+        "schema/source.schema.json": "761b2cdd818deea6eb9450e90db46a1880c1c63f7291bbf956de4a68262f51b2",
+        "frontend/template.html": "dc79416f6fdc1ca99c786b289b52a951731321c9bb59235558cd61f5e0ac257a",
+        "frontend/world-countries.geo.json": "02caedf9a1e0255deedc985942ccb0b8df102f21c9c551c332e8eda0a18fbcd9"
+      },
+      "started_at": "2026-09-29T19:46:18",
+      "wall_seconds": 442.7,
+      "exit_code": 0,
+      "validated": true,
+      "counts": {
+        "entities": 101,
+        "events": 38,
+        "relations": 17,
+        "sources": 1
+      },
+      "grounding": {
+        "quotes_verbatim": 32,
+        "quotes_checked": 55,
+        "entities_present": 101,
+        "entities_checked": 101
+      },
+      "output": "paper_evidence/variability/suntola/run_11"
+    },
+    {
+      "run": 12,
+      "document": "suntola",
+      "slug": "suntola_var_12",
+      "model": "qwen3.5-397b-a17b",
+      "base_url": "https://chat-ai.academiccloud.de/v1",
+      "temperature": 0.0,
+      "strict_scope": false,
+      "commit": "a155c2739cfcd5c646bc9c685facfd9f7a274b9f",
+      "core_sha256": {
+        "scripts/build_site.py": "ac3f4373e9aee417aaee814eb5a71e085b3783814d461869ac48bca1498402f2",
+        "schema/date.schema.json": "88062b53d11e97667f7e4c8c04e09cf11f61e611980c6cd5aa4eec0bec3897ae",
+        "schema/entity.schema.json": "ed2220532d11a96ea0bf0ad184c97de8abe45c8b8feed9f4aca0fa86f1319df0",
+        "schema/event.schema.json": "f83871683eeaf51498fcd696d04bcae9c8231821d4d25f3a52d37d7adcf60a7d",
+        "schema/relation.schema.json": "9560b94aef86f91554ddd05441e026570f4b803e8b859213efd9ebe05dad9d23",
+        "schema/source.schema.json": "761b2cdd818deea6eb9450e90db46a1880c1c63f7291bbf956de4a68262f51b2",
+        "frontend/template.html": "dc79416f6fdc1ca99c786b289b52a951731321c9bb59235558cd61f5e0ac257a",
+        "frontend/world-countries.geo.json": "02caedf9a1e0255deedc985942ccb0b8df102f21c9c551c332e8eda0a18fbcd9"
+      },
+      "started_at": "2026-09-29T19:53:19",
+      "wall_seconds": 421.1,
+      "exit_code": 0,
+      "validated": true,
+      "counts": {
+        "entities": 94,
+        "events": 33,
+        "relations": 15,
+        "sources": 1
+      },
+      "grounding": {
+        "quotes_verbatim": 42,
+        "quotes_checked": 48,
+        "entities_present": 94,
+        "entities_checked": 94
+      },
+      "output": "paper_evidence/variability/suntola/run_12"
+    },
+    {
+      "run": 13,
+      "document": "suntola",
+      "slug": "suntola_var_13",
+      "model": "qwen3.5-397b-a17b",
+      "base_url": "https://chat-ai.academiccloud.de/v1",
+      "temperature": 0.0,
+      "strict_scope": false,
+      "commit": "a155c2739cfcd5c646bc9c685facfd9f7a274b9f",
+      "core_sha256": {
+        "scripts/build_site.py": "ac3f4373e9aee417aaee814eb5a71e085b3783814d461869ac48bca1498402f2",
+        "schema/date.schema.json": "88062b53d11e97667f7e4c8c04e09cf11f61e611980c6cd5aa4eec0bec3897ae",
+        "schema/entity.schema.json": "ed2220532d11a96ea0bf0ad184c97de8abe45c8b8feed9f4aca0fa86f1319df0",
+        "schema/event.schema.json": "f83871683eeaf51498fcd696d04bcae9c8231821d4d25f3a52d37d7adcf60a7d",
+        "schema/relation.schema.json": "9560b94aef86f91554ddd05441e026570f4b803e8b859213efd9ebe05dad9d23",
+        "schema/source.schema.json": "761b2cdd818deea6eb9450e90db46a1880c1c63f7291bbf956de4a68262f51b2",
+        "frontend/template.html": "dc79416f6fdc1ca99c786b289b52a951731321c9bb59235558cd61f5e0ac257a",
+        "frontend/world-countries.geo.json": "02caedf9a1e0255deedc985942ccb0b8df102f21c9c551c332e8eda0a18fbcd9"
+      },
+      "started_at": "2026-09-29T20:03:25",
+      "wall_seconds": 606.7,
+      "exit_code": 0,
+      "validated": true,
+      "counts": {
+        "entities": 89,
+        "events": 37,
+        "relations": 15,
+        "sources": 1
+      },
+      "grounding": {
+        "quotes_verbatim": 34,
+        "quotes_checked": 52,
+        "entities_present": 89,
+        "entities_checked": 89
+      },
+      "output": "paper_evidence/variability/suntola/run_13"
+    },
+    {
+      "run": 14,
+      "document": "suntola",
+      "slug": "suntola_var_14",
+      "model": "qwen3.5-397b-a17b",
+      "base_url": "https://chat-ai.academiccloud.de/v1",
+      "temperature": 0.0,
+      "strict_scope": false,
+      "commit": "a155c2739cfcd5c646bc9c685facfd9f7a274b9f",
+      "core_sha256": {
+        "scripts/build_site.py": "ac3f4373e9aee417aaee814eb5a71e085b3783814d461869ac48bca1498402f2",
+        "schema/date.schema.json": "88062b53d11e97667f7e4c8c04e09cf11f61e611980c6cd5aa4eec0bec3897ae",
+        "schema/entity.schema.json": "ed2220532d11a96ea0bf0ad184c97de8abe45c8b8feed9f4aca0fa86f1319df0",
+        "schema/event.schema.json": "f83871683eeaf51498fcd696d04bcae9c8231821d4d25f3a52d37d7adcf60a7d",
+        "schema/relation.schema.json": "9560b94aef86f91554ddd05441e026570f4b803e8b859213efd9ebe05dad9d23",
+        "schema/source.schema.json": "761b2cdd818deea6eb9450e90db46a1880c1c63f7291bbf956de4a68262f51b2",
+        "frontend/template.html": "dc79416f6fdc1ca99c786b289b52a951731321c9bb59235558cd61f5e0ac257a",
+        "frontend/world-countries.geo.json": "02caedf9a1e0255deedc985942ccb0b8df102f21c9c551c332e8eda0a18fbcd9"
+      },
+      "started_at": "2026-09-29T20:11:16",
+      "wall_seconds": 470.9,
+      "exit_code": 0,
+      "validated": true,
+      "counts": {
+        "entities": 47,
+        "events": 33,
+        "relations": 17,
+        "sources": 1
+      },
+      "grounding": {
+        "quotes_verbatim": 32,
+        "quotes_checked": 50,
+        "entities_present": 46,
+        "entities_checked": 47
+      },
+      "output": "paper_evidence/variability/suntola/run_14"
+    },
+    {
+      "run": 15,
+      "document": "suntola",
+      "slug": "suntola_var_15",
+      "model": "qwen3.5-397b-a17b",
+      "base_url": "https://chat-ai.academiccloud.de/v1",
+      "temperature": 0.0,
+      "strict_scope": false,
+      "commit": "a155c2739cfcd5c646bc9c685facfd9f7a274b9f",
+      "core_sha256": {
+        "scripts/build_site.py": "ac3f4373e9aee417aaee814eb5a71e085b3783814d461869ac48bca1498402f2",
+        "schema/date.schema.json": "88062b53d11e97667f7e4c8c04e09cf11f61e611980c6cd5aa4eec0bec3897ae",
+        "schema/entity.schema.json": "ed2220532d11a96ea0bf0ad184c97de8abe45c8b8feed9f4aca0fa86f1319df0",
+        "schema/event.schema.json": "f83871683eeaf51498fcd696d04bcae9c8231821d4d25f3a52d37d7adcf60a7d",
+        "schema/relation.schema.json": "9560b94aef86f91554ddd05441e026570f4b803e8b859213efd9ebe05dad9d23",
+        "schema/source.schema.json": "761b2cdd818deea6eb9450e90db46a1880c1c63f7291bbf956de4a68262f51b2",
+        "frontend/template.html": "dc79416f6fdc1ca99c786b289b52a951731321c9bb59235558cd61f5e0ac257a",
+        "frontend/world-countries.geo.json": "02caedf9a1e0255deedc985942ccb0b8df102f21c9c551c332e8eda0a18fbcd9"
+      },
+      "started_at": "2026-09-29T20:18:23",
+      "wall_seconds": 427.1,
+      "exit_code": 0,
+      "validated": true,
+      "counts": {
+        "entities": 44,
+        "events": 27,
+        "relations": 16,
+        "sources": 1
+      },
+      "grounding": {
+        "quotes_verbatim": 33,
+        "quotes_checked": 43,
+        "entities_present": 44,
+        "entities_checked": 44
+      },
+      "output": "paper_evidence/variability/suntola/run_15"
     }
   ],
   "core_verified": true,
