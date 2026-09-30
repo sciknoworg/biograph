@@ -123,6 +123,8 @@ Practical rules:
 - **Every event date must trace to something the text actually says.** If
   the text says "in the early 1970s," `date.display` is `"early 1970s"`
   with `precision: "decade"` — not a guessed exact year.
+  Follow `schema/date.schema.json`'s `x-normalization-policy` for bounds;
+  early/mid/late retain their wording but use the full named calendar unit.
 - **`sources[].page` is required, on every event, not just pivotal
   ones.** This is the provenance: exactly where in the text a reader can
   go to check the claim. It's the PDF's *printed* page number, not the
@@ -134,15 +136,17 @@ Practical rules:
   mechanically against the source afterwards
   ([Data Accuracy § Grounding](data-accuracy.md#2-grounding-the-hallucination-check)),
   so a quote you cannot copy exactly is a fact you should not state.
-  Reserve the *longest* quotes for the
-  load-bearing sentence of a genuinely pivotal event (the invention
-  moment, the first public disclosure), not added to every citation.
+  Include sufficient context to support the action, participants and date,
+  including any relative-date anchor. This applies to relations as well as
+  events. Missing or blank quotes are rejected for new extraction calls;
+  older stored data without quotes remains readable.
 - **Keep `label` terse and scannable** — an expert should read it alone
   and know what happened ("Moved to Texas Instruments"), not a full
   sentence. Put any extra context in `description`, at most one tight
   sentence, and only if `label` doesn't already say it.
-- **Don't split one sentence into five events.** A paragraph describing
-  one coherent episode is one event with a fuller description.
+- **Use one event per distinct action.** Merge repeated accounts of the
+  same action with the same participants and date; keep distinct actions
+  or dates separate even within a single paragraph.
 - **Capture connective-tissue events too** — an organization founded,
   sold, or renamed; a collaborator's milestone that later matters to the
   subject — not just the subject's own life events. These are what make

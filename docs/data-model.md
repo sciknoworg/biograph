@@ -89,7 +89,12 @@ object (`date.schema.json`):
 |---|---|
 | `display` | The human-readable string as it should render: `"1963"`, `"August–September 1974"`, `"c. 1958"`, `"early 1970s"`. Required on events; optional on relation bounds. |
 | `precision` | One of `day \| month \| season \| year \| decade \| century \| circa \| range`. `century` is for pre-modern subjects the source can place no more closely — an 8th-century alchemist's patronage, say. |
-| `sort_start` / `sort_end` | ISO `YYYY-MM-DD` bounds used **only** for sorting and for drawing a point vs. a span on the timeline — the earliest/latest the event could plausibly be, never an implied exact date. Equal for a single fuzzy point. |
+| `sort_start` / `sort_end` | ISO `YYYY-MM-DD` bounds used **only** for sorting and for drawing a point vs. a span on the timeline, following `date.schema.json`'s `x-normalization-policy`. These are normalization conventions, never an implied exact date. Equal only for an explicitly known single day. |
+
+New extractions use full calendar units for early/mid/late wording: "early
+June 1974" keeps that display text and uses June 1–30. The shared policy also
+specifies approximate dates, seasons and relative dates; older stored dates
+are not automatically rewritten.
 
 This keeps ordering well-defined (sort by `sort_start`, ties broken by
 `sort_end`) without ever putting a false-precision date in front of a

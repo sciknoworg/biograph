@@ -377,7 +377,13 @@ def main(argv=None) -> int:
                     "wall_seconds": round(wall, 1),
                     "exit_code": proc.returncode,
                     "timed_out": timed_out,
-                    "validated": proc.returncode == 0 and not timed_out,
+                    # An empty extraction satisfies every schema constraint trivially: zero
+                    # events have zero missing dates. mistral-medium-3.5-128b returned [] for
+                    # all four files twice and was recorded as validated, which is true and
+                    # useless. Schema validity is not evidence that anything was extracted.
+                    "empty": not any(counts.get(k) for k in DATA_FILES),
+                    "validated": (proc.returncode == 0 and not timed_out
+                                  and any(counts.get(k) for k in DATA_FILES)),
                     "counts": counts,
                     "grounding": ({"quotes_verbatim": g.quotes_verbatim,
                                    "quotes_checked": g.quotes_checked,
@@ -386,13 +392,24 @@ def main(argv=None) -> int:
                     "output": os.path.relpath(dest, REPO_ROOT).replace(os.sep, "/")
                               if ddir else None,
                 }
+                # The driver discards stdout, which is fine for a run that worked and fatal
+                # for one that did not: the scope verdict, the JSON-retry notes and the
+                # validation errors are all in there, and the sandbox is about to be deleted.
+                if not any(counts.get(x) for x in DATA_FILES) or proc.returncode != 0:
+                    try:
+                        with io.open(os.path.join(dest, "_stdout.log"), "w",
+                                     encoding="utf-8") as fh:
+                            fh.write((proc.stdout or "") + (proc.stderr or ""))
+                    except OSError:
+                        pass
+
                 manifest["runs"].append(record)
                 save_manifest(manifest)          # after every run, not at the end
 
                 q = ("%d/%d" % (g.quotes_verbatim, g.quotes_checked)) if g else "n/a"
                 print("  %-16s run %02d  %4.0fs  exit %-3d %s  quotes %s"
                       % (k, idx, wall, proc.returncode,
-                         "TIMED OUT" if timed_out else ("ok " if ddir else "NO OUTPUT"),
+                         "TIMED OUT" if timed_out else ("EMPTY" if not any(counts.get(x) for x in DATA_FILES) else ("ok " if ddir else "NO OUTPUT")),
                          q))
 
                 # Each run must be independent: load_subject_documents() merges every

@@ -38,6 +38,8 @@ be referenced by at least one event or relation. Don't create an entity
 for something mentioned exactly once with no dateable connection to
 anything else (a passing name in a photo caption with nothing else known)
 unless it will anchor a relation or event.
+Every named entity in a supporting quote also needs an entity record, but
+mention in that quote alone does not make it a participant in the event.
 
 - `id`: snake_case, derived from the name (`v_b_aleskovskii`, not `person_1`).
 - `entity_type`: `person | place | organization | artifact`.
@@ -52,8 +54,10 @@ unless it will anchor a relation or event.
 
 At minimum, one entry for the source paper itself (id, title, authors,
 year, publication, `file` pointing at the PDF under `data/`). Add more
-entries if the paper itself cites another primary source you're drawing
-directly from (e.g. an autobiography, an interview transcript).
+entries only for additional documents actually supplied and read directly
+(e.g. an autobiography or interview transcript). A bibliography entry in
+the supplied paper is not a source you have read; cite the supplied paper
+for claims it reports from another work.
 
 Include `doi`/`url` when available -- `data/*.pdf` is gitignored (not
 redistributed), so the citation fields are what actually ship. Add a row
@@ -73,16 +77,24 @@ participants, source citation). Practical rules:
   go to check the claim — the PDF's printed page number (bottom of page),
   not the PDF viewer's page index, so citations match what a human reader
   sees; fall back to the nearest `[pdf page N]` marker if unprinted.
-- **Quote sparingly** — `sources[].quote` is optional, reserved for the
-  load-bearing sentence of a genuinely pivotal event (the actual
-  invention moment, the first public disclosure), not added everywhere.
+- **Quote every citation** — `sources[].quote` is required for every
+  event and relation in a new extraction. Copy a nonempty supporting span
+  exactly. Include adjacent context when needed to support a date or resolve
+  a pronoun. Evidence must support the action, participants and date, not
+  merely contain their names. Stored schemas allow absent quotes only for
+  legacy data; new extraction calls reject missing or blank quotes before writing.
+- **Use the shared date policy** — `schema/date.schema.json` contains
+  `x-normalization-policy`, embedded in every extraction prompt. For example,
+  "early June 1974" retains that wording and uses the full June interval,
+  not a guessed half-month. These are sorting conventions, not new facts.
 - **Keep `label` terse and scannable** — an expert should read it alone
   and know what happened ("Moved to Texas Instruments"), not a full
   sentence. Put extra context in `description`, at most one tight
   sentence, only if `label` doesn't already say it.
-- **Don't split one sentence into five events.** A paragraph describing
-  one coherent episode (e.g. "the first successful reactor run") is one
-  event with a fuller description, not one event per clause.
+- **Use one event per distinct action.** Repeated descriptions of the same
+  action with the same participants and date are one event, not one event
+  per mention or clause. Distinct actions or dates remain separate even
+  when they occur in the same paragraph.
 - **Do capture the connective tissue events**, not just the subject's own
   milestones: when an organization is founded, sold, or renamed; when a
   collaborator does something that later matters to the subject. These are
@@ -91,8 +103,8 @@ participants, source citation). Practical rules:
 
 ## 5. Draft `subjects/<slug>/relations.json`
 
-For each event that implies a durable fact about the connection between
-two entities (an employment, an invention, a founding, a visit), add a
+For each event that supports a connection representable by a listed relation
+type (an employment, an invention, a founding, a visit), add a
 corresponding relation with `event_id` pointing back to it. Then add any
 relations the source states as a fact *without* a specific dateable event
 behind it (e.g. "they remained close collaborators for the rest of their
@@ -103,6 +115,18 @@ Keep relations directed per the vocabulary's defined reading direction
 person → organization, never the reverse. This is build-enforced, not
 just a convention: get it backwards and step 7 rejects it with exactly
 which `entity_type` it expected.
+The prompt receives endpoint types from `RELATION_DIRECTIONS` and meanings
+from `RELATION_MEANINGS` in `scripts/build_site.py`. Those mappings must
+cover exactly the schema's enum. Unsupported connections are omitted without
+dropping independently supported events; `other` is only an event type.
+
+Inventory claims in the narrative, footnotes and captions before constructing
+the graph. Resolve aliases, then create events, relations and evidence links.
+Bibliography-only names and bare affiliations or acknowledgements do not by
+themselves establish a biographical event or relation. Merge repeated mentions
+of the same action with the same participants and date; keep distinct actions
+or dates separate. An explicit `renamed_to` relation is the exception to merging
+organizational name variants: it uses an old-name and a new-name node.
 
 ## 6. Write `subjects/<slug>/subject.json`
 

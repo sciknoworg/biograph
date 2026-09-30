@@ -148,7 +148,8 @@ actually drawn from.
 ## Provenance — `sources[].page` / `sources[].quote`
 
 This is the cleanest alignment in the whole schema, and worth naming
-explicitly. A required `(source_id, page)` pair plus an optional `quote`
+explicitly. A required `(source_id, page)` pair plus a supporting `quote`
+(required for new extractions, optional in legacy stored data)
 on every event and relation is structurally the same pattern as PROV-O's
 **prov:Entity** related to another **prov:Entity** it was derived from —
 specifically **prov:wasDerivedFrom** and **prov:hadPrimarySource** ("a

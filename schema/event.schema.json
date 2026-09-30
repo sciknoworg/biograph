@@ -69,7 +69,7 @@
         "properties": {
           "source_id": { "type": "string" },
           "page": { "type": "integer", "description": "Provenance: where in the text this came from -- the source's own printed page number, or the nearest '[pdf page N]' marker if unprinted. Not optional." },
-          "quote": { "type": "string", "description": "Optional. The load-bearing sentence, quoted -- only for pivotal events, not every one." }
+          "quote": { "type": "string", "description": "Exact supporting span copied from the supplied document. Required for every citation in new extractions; omission is accepted only for legacy stored data." }
         }
       }
     }

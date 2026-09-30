@@ -2,7 +2,17 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://biograph/schema/date.schema.json",
   "title": "FuzzyDate",
-  "description": "A dateable point or span with explicit precision, used by events and relation time-bounds.",
+  "description": "A dateable point or span with explicit precision, used by events and relation time-bounds. For new extractions, follow x-normalization-policy exactly. Bounds are calendar normalization conventions, not additional historical claims.",
+  "x-normalization-policy": [
+    "Preserve the source's date wording in display. Use valid Gregorian calendar dates and sort_start <= sort_end. Equal bounds are reserved for an explicitly known single day.",
+    "A named day uses precision day and that day for both bounds. A named month uses precision month, its first day and its actual last day (including leap years). A named year uses precision year and January 1 through December 31.",
+    "A decade such as the 1970s uses precision decade and 1970-01-01 through 1979-12-31. An ordinal century N uses precision century and year (N-1)*100+1 through year N*100, inclusive.",
+    "For early, mid or late within a named month, year, decade or century, retain the qualifier in display but use the FULL named calendar unit and its precision. Do not invent half-month, quarter-year or partial-decade cutoffs. Thus early June 1974 is month, 1974-06-01 through 1974-06-30.",
+    "For circa, about or approximately, use precision circa. Use the stated uncertainty bounds if the source supplies them; otherwise expand the named calendar unit by one unit on each side as a sorting convention: c. 1958 is 1957-01-01 through 1959-12-31; about June 1974 is 1974-05-01 through 1974-07-31. Preserve the uncertainty wording and use certainty approximate on the event.",
+    "For an explicit interval, use precision range, the lower endpoint's earliest bound and the upper endpoint's latest bound. Do not confuse an event's uncertainty interval with a claim that an activity lasted throughout it.",
+    "For a named season, use precision season. If the source supplies months, use them. Otherwise use meteorological months only when the hemisphere is explicit in the source: north spring Mar-May, summer Jun-Aug, autumn/fall Sep-Nov, winter Dec-Feb; south spring Sep-Nov, summer Dec-Feb, autumn/fall Mar-May, winter Jun-Aug. A cross-year season starts in the named year unless the source states both years. If hemisphere is not established, use the full named year; for summer or winter include the following full year as well to cover a possible cross-year season. Keep the season wording in display.",
+    "Resolve a relative date only from an unambiguous explicit anchor in the document; cite both the relative phrase and its anchor. Otherwise omit the dated event, retaining any supported undated relation. Never use the subject's lifespan or the article's publication date as an unstated anchor. For before, after or by, require a source-supported bound on the other side; do not invent one."
+  ],
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -27,17 +37,17 @@
         "circa",
         "range"
       ],
-      "description": ". \"century\" is for pre-modern subjects, where the source itself can place a life or event no more closely than that -- an 8th-century alchemist's patronage, say. Widening sort_start/sort_end to the century's bounds keeps ordering honest instead of inventing a year nobody claimed \"season\" is for a source that dates something to a season rather than a month -- \"summer 1964\", \"the following winter\" -- which is common in recollection and correspondence. Widening sort_start/sort_end to the season's bounds keeps ordering honest; \"month\" would invent a precision the source never gave, and \"range\" loses that it was a named season."
+      "description": "The granularity or uncertainty form stated by the source. Follow x-normalization-policy; early/mid/late keep the named unit's precision, approximate dates use circa, explicit intervals use range, and named seasons use season."
     },
     "sort_start": {
       "type": "string",
       "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
-      "description": "Earliest plausible ISO date (YYYY-MM-DD). Sort key only — not an assertion of exactness. Use day/month = 01 to represent an unknown day/month within the earliest bound."
+      "description": "Lower ISO bound (YYYY-MM-DD) under x-normalization-policy. A sorting convention, not an assertion of an exact historical date."
     },
     "sort_end": {
       "type": "string",
       "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
-      "description": "Latest plausible ISO date (YYYY-MM-DD). Equal to sort_start for a single fuzzy point."
+      "description": "Upper ISO bound (YYYY-MM-DD) under x-normalization-policy. Equal to sort_start only for an explicitly known single day; fuzzy dates cover the prescribed interval."
     }
   }
 }

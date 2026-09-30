@@ -98,7 +98,7 @@ dropped, or captured as a note on the entity.
 Every event must have:
 
 1. **A date**, however imprecise (a specific day, a month, a year, a
-   decade, or a `circa` guess) — never "undated."
+   decade, or an explicitly approximate date) — never "undated."
 2. **A type**, drawn from the controlled vocabulary in `event.schema.json`
    (`event_type`). If nothing fits, use `"other"` and explain in the
    description rather than inventing a new type ad hoc.
@@ -107,8 +107,11 @@ Every event must have:
    organization founded (with `roles` distinguishing them).
 4. **At least one source citation** — `source_id` and a `page` are both
    required: provenance means a reader can turn to exactly where in the
-   text this came from. A short supporting `quote` is optional, reserved
-   for pivotal events rather than added everywhere. No event is entered on
+   text this came from. A nonempty supporting `quote` is required for every
+   citation in a new extraction, including relation citations. The stored
+   schemas accept missing quotes for legacy data only; `extraction_schemas()`
+   adds the new-output requirement to the prompt, and `check_extraction_quotes()`
+   rejects missing or blank quotes before new output is written. No event is entered on
    inference or general knowledge; if the paper doesn't say it, it doesn't
    go in.
 
@@ -136,8 +139,17 @@ date is an object with:
   extraction rather than saying so.
 - `sort_start` / `sort_end` — ISO `YYYY-MM-DD` bounds used **only** for
   sorting and for drawing a point-vs-span on the timeline; they are the
-  earliest/latest the event could plausibly be, not an implied exact date.
-  For a single fuzzy point, `sort_start == sort_end`.
+  normalized uncertainty bounds, not an implied exact date.
+  Equal bounds are reserved for an explicitly known single day.
+
+The authoritative normalization policy is `x-normalization-policy` in
+`date.schema.json`, included in every extraction prompt. Named calendar units
+use their full bounds. Early/mid/late qualifiers stay in `display` without
+invented cutoffs: "early June 1974" uses June 1–30. Approximate dates with no
+explicit uncertainty interval expand by one named unit on each side as a
+sorting convention, not an asserted historical limit. The policy also defines
+seasons, explicit intervals and relative-date anchors. Existing stored dates
+are not rewritten when this policy changes.
 
 This keeps ordering well-defined (sort by `sort_start`, break ties by
 `sort_end`) without ever putting a false-precision date in front of a
@@ -176,6 +188,13 @@ build time, checking that `source`/`target` actually have the expected
 `entity_type` for that relation `type`, not just that the ids resolve.
 Keep that table in sync with this vocabulary the same way as
 `event_type` (see "Extending the vocabularies" below).
+`RELATION_MEANINGS` additionally defines semantic direction, such as
+supervisee → supervisor for `supervised_by` and mentor → mentee for `mentored`.
+Both tables are embedded into the extraction schema's type description;
+prompt construction fails if either table differs from the relation enum.
+Only events have an `other` fallback. Omit an unrepresentable relation while
+retaining any independently supported event. An explicit organization rename
+uses old-name → new-name nodes as the exception to ordinary alias merging.
 
 A slot may legitimately allow more than one `entity_type`. `visited` and
 `lived_in` accept `place` **or** `organization`, because an institution is
