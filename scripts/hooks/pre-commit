@@ -1,0 +1,24 @@
+#!/bin/sh
+# Find a Python and run pre_commit_check.py.
+#
+# A shell wrapper rather than a Python script with a shebang, because Git for Windows runs
+# hooks through its bundled sh, where "#!/usr/bin/env python3" resolves to the Microsoft Store
+# stub and the hook dies with "Python was not found". It failed closed, which is the right
+# direction to fail, but a gate that blocks every commit gets uninstalled within the hour.
+#
+# The interpreters are tried in the order that works across the machines this repository is
+# used on: the Windows launcher first, then the usual POSIX names.
+set -e
+
+for candidate in "py -3" python3 python; do
+    # shellcheck disable=SC2086
+    if $candidate -c "import sys" >/dev/null 2>&1; then
+        exec $candidate "$(dirname "$0")/pre_commit_check.py"
+    fi
+done
+
+echo "pre-commit: no working Python found (tried py -3, python3, python)." >&2
+echo "The credential scan could not run, so this commit is refused rather than" >&2
+echo "allowed unchecked. Install Python, or commit with --no-verify if you are" >&2
+echo "certain nothing staged contains a secret." >&2
+exit 1
