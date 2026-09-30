@@ -1,0 +1,47 @@
+[
+  {
+    "id": "humicap_licensed_to_vaisala",
+    "source": "humicap",
+    "type": "licensed_to",
+    "target": "vaisala_oy",
+    "note": "Vaisala instruments use the Humicap sensor based on Suntola's original patent.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 333,
+        "quote": "instruments using the Humicap"
+      }
+    ],
+    "_rejected_because": "'licensed_to' expects source entity_type person/organization, but 'humicap' is 'artifact'"
+  },
+  {
+    "id": "ale_el_licensed_to_sintra_alcatel",
+    "source": "ale",
+    "type": "licensed_to",
+    "target": "sintra_alcatel",
+    "event_id": "french_license_1983",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 343,
+        "quote": "and an ALE-EL license was granted in 1983 (now to Sintra"
+      }
+    ],
+    "_rejected_because": "'licensed_to' expects source entity_type person/organization, but 'ale' is 'artifact'"
+  },
+  {
+    "id": "ale_patents_licensed_to_microchemistry",
+    "source": "ale_patent_1974",
+    "type": "licensed_to",
+    "target": "microchemistry_ltd",
+    "note": "Lohja's ALE patents licensed to Microchemistry for PV and catalyst applications, later extended.",
+    "sources": [
+      {
+        "source_id": "puurunen_2014_short_history_ald",
+        "page": 339,
+        "quote": "chemistry for PV and catalyst applications only. When"
+      }
+    ],
+    "_rejected_because": "'licensed_to' expects source entity_type person/organization, but 'ale_patent_1974' is 'artifact'"
+  }
+]

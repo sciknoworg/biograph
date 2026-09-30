@@ -316,6 +316,7 @@ def main(argv=None) -> int:
             spec = DOCUMENTS[k]
             outdir = os.path.join(HERE, k)
             os.makedirs(outdir, exist_ok=True)
+            consecutive_timeouts = 0
             for _ in range(args.runs):
                 idx, dest = claim_run(manifest, k, outdir)
                 slug = "%s_var_%02d" % (k, idx)
@@ -326,10 +327,19 @@ def main(argv=None) -> int:
                        "--temperature", str(args.temperature),
                        "--model", model, "--base-url", base_url]
                 env = dict(os.environ, BIOGRAPH_API_KEY=api_key)
+                # A model too slow to finish inside --timeout is a RESULT about that model,
+                # not a reason to abandon the other four. qwen3.8-27b hit 2400s on its first
+                # draw and the unhandled TimeoutExpired killed the whole study, losing the
+                # claimed run folder and leaving its sandbox behind.
                 start = time.perf_counter()
-                proc = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8",
-                                      errors="replace", env=env, cwd=sb.root,
-                                      timeout=args.timeout)
+                timed_out = False
+                try:
+                    proc = subprocess.run(cmd, capture_output=True, text=True,
+                                          encoding="utf-8", errors="replace", env=env,
+                                          cwd=sb.root, timeout=args.timeout)
+                except subprocess.TimeoutExpired:
+                    timed_out = True
+                    proc = subprocess.CompletedProcess(cmd, -1, "", "timed out")
                 wall = time.perf_counter() - start
 
                 ddir = find_doc_dir(sb, slug)
@@ -366,7 +376,8 @@ def main(argv=None) -> int:
                     "started_at": time.strftime("%Y-%m-%dT%H:%M:%S"),
                     "wall_seconds": round(wall, 1),
                     "exit_code": proc.returncode,
-                    "validated": proc.returncode == 0,
+                    "timed_out": timed_out,
+                    "validated": proc.returncode == 0 and not timed_out,
                     "counts": counts,
                     "grounding": ({"quotes_verbatim": g.quotes_verbatim,
                                    "quotes_checked": g.quotes_checked,
@@ -379,9 +390,9 @@ def main(argv=None) -> int:
                 save_manifest(manifest)          # after every run, not at the end
 
                 q = ("%d/%d" % (g.quotes_verbatim, g.quotes_checked)) if g else "n/a"
-                print("  %-16s run %02d  %4.0fs  exit %d  %s  quotes %s"
+                print("  %-16s run %02d  %4.0fs  exit %-3d %s  quotes %s"
                       % (k, idx, wall, proc.returncode,
-                         "ok " if ddir else "NO OUTPUT",
+                         "TIMED OUT" if timed_out else ("ok " if ddir else "NO OUTPUT"),
                          q))
 
                 # Each run must be independent: load_subject_documents() merges every
@@ -389,6 +400,18 @@ def main(argv=None) -> int:
                 sdir = os.path.dirname(ddir) if ddir else None
                 if sdir and os.path.isdir(sdir):
                     shutil.rmtree(sdir, ignore_errors=True)
+
+                # Two timeouts in a row is a model that cannot do this within --timeout.
+                # Spending the remaining draws to learn it again wastes hours of budget.
+                if timed_out:
+                    consecutive_timeouts += 1
+                    if consecutive_timeouts >= 2:
+                        print("  %s: two consecutive timeouts at %ds -- stopping this "
+                              "document. Raise --timeout to give it longer."
+                              % (model, args.timeout))
+                        break
+                else:
+                    consecutive_timeouts = 0
 
         divergences = sb.verify()
         manifest["core_verified"] = not divergences
