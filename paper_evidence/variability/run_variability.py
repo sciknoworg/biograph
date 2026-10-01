@@ -337,9 +337,22 @@ def main(argv=None) -> int:
                     proc = subprocess.run(cmd, capture_output=True, text=True,
                                           encoding="utf-8", errors="replace", env=env,
                                           cwd=sb.root, timeout=args.timeout)
-                except subprocess.TimeoutExpired:
+                except subprocess.TimeoutExpired as exc:
+                    # Keep what the child printed before it was killed. TimeoutExpired carries
+                    # it, and discarding it threw away the only evidence of WHY a run timed
+                    # out -- whether the model was streaming steadily and simply had more to
+                    # say, or produced nothing at all for the whole timeout. Those are
+                    # different failures and the log is the only thing that tells them apart.
                     timed_out = True
-                    proc = subprocess.CompletedProcess(cmd, -1, "", "timed out")
+                    partial = exc.stdout or exc.output or ""
+                    if isinstance(partial, bytes):
+                        partial = partial.decode("utf-8", "replace")
+                    err = exc.stderr or b""
+                    if isinstance(err, bytes):
+                        err = err.decode("utf-8", "replace")
+                    proc = subprocess.CompletedProcess(
+                        cmd, -1, partial,
+                        (err + "\n" if err else "") + "timed out after %ds" % args.timeout)
                 wall = time.perf_counter() - start
 
                 ddir = find_doc_dir(sb, slug)
