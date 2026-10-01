@@ -90,10 +90,18 @@ def probe(client, model: str, system: str, user: str, max_tokens: int, timeout: 
     """One streamed call. Streaming is what makes time-to-first-token observable at all."""
     out = {"model": model, "max_tokens": max_tokens, "ok": False, "error": None,
            "ttft_s": None, "total_s": None, "chars": 0, "completion_tokens": None,
-           "finish_reason": None, "empty": None, "tok_per_s": None}
+           "finish_reason": None, "empty": None, "tok_per_s": None,
+           # Reasoning models stream their thinking in a separate field and emit no content
+           # until it finishes. Counting only content makes them look mute: qwen3.5-397b-a17b
+           # answered a one-word prompt for 38.9s and produced zero content chars, because a
+           # 64-token budget was spent reasoning. That is a budget mistake, not a broken model,
+           # and a report that conflates them would send a provider chasing the wrong thing.
+           "reasoning_chars": 0, "ttft_reasoning_s": None}
     start = time.perf_counter()
     first = None
+    first_reasoning = None
     chunks = []
+    reasoning = []
     try:
         stream = client.chat.completions.create(
             model=model, temperature=0, max_tokens=max_tokens, stream=True,
@@ -109,6 +117,12 @@ def probe(client, model: str, system: str, user: str, max_tokens: int, timeout: 
                 if first is None:
                     first = time.perf_counter() - start
                 chunks.append(piece)
+            think = (getattr(delta, "reasoning_content", None)
+                     or getattr(delta, "reasoning", None))
+            if think:
+                if first_reasoning is None:
+                    first_reasoning = time.perf_counter() - start
+                reasoning.append(think)
             if chunk.choices[0].finish_reason:
                 out["finish_reason"] = chunk.choices[0].finish_reason
         out["ok"] = True
@@ -117,6 +131,9 @@ def probe(client, model: str, system: str, user: str, max_tokens: int, timeout: 
 
     out["total_s"] = round(time.perf_counter() - start, 1)
     out["ttft_s"] = round(first, 1) if first is not None else None
+    out["ttft_reasoning_s"] = (round(first_reasoning, 1)
+                               if first_reasoning is not None else None)
+    out["reasoning_chars"] = sum(len(x) for x in reasoning)
     text = "".join(chunks)
     out["text"] = text
     out["chars"] = len(text)
@@ -156,7 +173,12 @@ def main(argv=None) -> int:
                     help="approximate size of the load probe's input (default 20000)")
     ap.add_argument("--records", type=int, default=400,
                     help="objects the load probe must return; drives output length (default 400)")
-    ap.add_argument("--max-tokens", type=int, default=16000, help="reply budget for the load probe")
+    ap.add_argument("--max-tokens", type=int, default=16000,
+                    help="reply budget for the load probe")
+    ap.add_argument("--smoke-tokens", type=int, default=768,
+                    help="reply budget for the smoke probe (default 768). Not 64: a reasoning "
+                         "model spends its budget thinking before it emits any content, so a "
+                         "small budget makes it look mute")
     ap.add_argument("--timeout", type=float, default=900, help="seconds per request")
     ap.add_argument("--skip-load", action="store_true", help="smoke probe only")
     ap.add_argument("--out", default="kisski_model_probe_report.md")
@@ -185,14 +207,16 @@ def main(argv=None) -> int:
 
     for i, model in enumerate(models, 1):
         print("[%d/%d] %-34s" % (i, len(models), model), end=" ", flush=True)
-        smoke = probe(client, model, "You are a helpful assistant.", SMOKE_PROMPT, 64,
-                      args.timeout)
+        smoke = probe(client, model, "You are a helpful assistant.", SMOKE_PROMPT,
+                      args.smoke_tokens, args.timeout)
         row = {"model": model, "smoke": smoke, "load": None, "shape": None}
         if not smoke["ok"]:
             print("smoke FAILED (%s)" % (smoke["error"] or "")[:60])
             rows.append(row)
             continue
-        print("smoke %.1fs" % smoke["total_s"], end=" ", flush=True)
+        think = (" +%dc reasoning" % smoke["reasoning_chars"]
+                 if smoke.get("reasoning_chars") else "")
+        print("smoke %.1fs%s" % (smoke["total_s"], think), end=" ", flush=True)
 
         if args.skip_load:
             print()
@@ -248,9 +272,9 @@ def write_report(args, rows) -> None:
         "",
         "## Results",
         "",
-        "| model | smoke | smoke TTFT | load | load TTFT | load total | chars out | tok/s | "
-        "finish_reason | note |",
-        "|---|---|---|---|---|---|---|---|---|---|",
+        "| model | smoke | smoke TTFT | smoke reasoning | load | load TTFT | load total | "
+        "chars out | reasoning out | tok/s | finish_reason | note |",
+        "|---|---|---|---|---|---|---|---|---|---|---|---|",
     ]
     for r in rows:
         s, l = r["smoke"], r["load"]
@@ -265,9 +289,10 @@ def write_report(args, rows) -> None:
             load_state, note = "**SHAPE**", r.get("shape") or ""
         else:
             load_state, note = "ok", "correct shape"
-        lines.append("| `%s` | %s | %ss | %s | %ss | %ss | %s | %s | %s | %s |" % (
-            r["model"], smoke_state, cell(s, "ttft_s"), load_state, cell(l, "ttft_s"),
-            cell(l, "total_s"), cell(l, "chars"), cell(l, "tok_per_s"),
+        lines.append("| `%s` | %s | %ss | %s | %s | %ss | %ss | %s | %s | %s | %s | %s |" % (
+            r["model"], smoke_state, cell(s, "ttft_s"), cell(s, "reasoning_chars", "0"),
+            load_state, cell(l, "ttft_s"), cell(l, "total_s"), cell(l, "chars"),
+            cell(l, "reasoning_chars", "0"), cell(l, "tok_per_s"),
             cell(l, "finish_reason"), note.replace("|", "/")))
 
     oks = [r["load"] for r in rows if r["load"] and r["load"]["ok"] and not r["load"]["empty"]]
@@ -311,6 +336,9 @@ def write_report(args, rows) -> None:
         "differ from the advertised context window?",
         "4. Which of the listed models are expected to sustain ~16k tokens of structured JSON "
         "output in a single response?",
+        "5. Which models emit reasoning tokens before content, and do those count against "
+        "`max_tokens`? A model that reasons past the budget returns `finish_reason: length` "
+        "with empty content, which is indistinguishable from a model that simply said nothing.",
         "",
     ]
     with io.open(args.out, "w", encoding="utf-8") as f:
