@@ -127,7 +127,7 @@ def probe(client, model: str, system: str, user: str, max_tokens: int, timeout: 
                 out["finish_reason"] = chunk.choices[0].finish_reason
         out["ok"] = True
     except Exception as e:                                        # noqa: BLE001
-        out["error"] = "%s: %s" % (type(e).__name__, str(e)[:300])
+        out["error"] = "%s: %s" % (type(e).__name__, str(e)[:600])
 
     out["total_s"] = round(time.perf_counter() - start, 1)
     out["ttft_s"] = round(first, 1) if first is not None else None
@@ -280,9 +280,9 @@ def write_report(args, rows) -> None:
         s, l = r["smoke"], r["load"]
         smoke_state = "ok" if s and s["ok"] else "**FAIL**"
         if l is None:
-            load_state, note = "-", (s.get("error") or "")[:70] if s and s.get("error") else ""
+            load_state, note = "-", (s.get("error") or "")[:400] if s and s.get("error") else ""
         elif not l["ok"]:
-            load_state, note = "**FAIL**", (l.get("error") or "")[:70]
+            load_state, note = "**FAIL**", (l.get("error") or "")[:400]
         elif l["empty"]:
             load_state, note = "**EMPTY**", "returned no content"
         elif r.get("shape") not in (None, "ok"):
