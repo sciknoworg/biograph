@@ -3,7 +3,8 @@
 Five results, with the evidence behind each and the claims each does **not** support.
 Self-contained; assumes no access to the repository. Every figure re-derived at commit
 `bc0e799` (2026-10-01) from `paper_evidence/variability/manifest.json` and
-`experiments/runs/`, not recalled.
+`experiments/runs/`, not recalled. §3's correction sequence was re-derived again at `41440f5`
+(2026-10-02), which revised it from four chained figures to two independent ones.
 
 Companion to `approach-brief.md`, `pipeline-brief.md`, `harness-brief.md`,
 `corpus-and-access-brief.md` and `frontend-brief.md`, which describe the system. This one
@@ -109,12 +110,21 @@ material and copies it less exactly; it does not invent more.
 | entity names present in the source | **98.3%** (4,591 checked) |
 | citation reach (citations carrying a quote) | 97.6% |
 
-**Reaching 2.6% took four corrections, and the sequence is itself the argument for the check.**
-Each intermediate number would have supported a different and wronger claim: the tool's summary
-line reports **21.2%** "not verbatim"; separating fabrication from misquotation gives **11.9%**;
-a diagnostic on the flagged set gives **9.9%** (the model sometimes emits a quote with its
-whitespace destroyed, e.g. `'developedbyEmilvonBehringandShibasaburoKitasatoin1890'`); and
-excluding subjects whose source text no longer existed gives **2.6%**.
+**Reaching 2.6% took two independent corrections, and each intermediate number would have
+supported a different and wronger claim.** Report them separately, not as one ladder — the
+denominator changes between them:
+
+- **Separating fabrication from misquotation.** Over all 233 subjects the tool's own summary line
+  reports **21.2% not verbatim** (1,382 of 6,516 quotes); the 5-word shingle split gives
+  **11.9% flagged** (773). Citing 21.2% as a hallucination rate overstates by ~1.8×.
+- **The whitespace diagnostic, on the flagged set.** Post-exclusion, of 213 flagged quotes, 69
+  match once whitespace is ignored and 1 more once case is too (the model emitting a quote with
+  its spacing destroyed, e.g. `'developedbyEmilvonBehringandShibasaburoKitasatoin1890'`), 4 are
+  unresolvable, and **139 are absent in any form — 2.6% of 5,394**.
+
+*An earlier version of this brief chained four figures (21.2% → 11.9% → 9.9% → 2.6%). The 9.9%
+intermediate is not re-derivable from any saved artifact and should not be cited; the two
+corrections above are both exact.*
 
 **The check found a silent provenance bug.** Source text was staged as `data/<slug>.txt`, keyed
 by subject while document folders are keyed by document, so a subject's second document

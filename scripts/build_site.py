@@ -1274,10 +1274,11 @@ def check_completeness(data):
     checkable with no gold annotation at all.
 
     This exists because the schema governs the SHAPE of an item and nothing governed how many
-    items there should be. Measured over 25 repeat extractions of two documents, every
-    prompt-governed property held at 0.0% variation between runs while entity counts varied
-    13-38% and person counts 33-62%. One draw of a paper naming six colleagues produced a
-    single person entity while still quoting the others by name; that draw is what this catches.
+    items there should be. Measured over 40 repeat extractions of two documents in 9 conditions,
+    every prompt-governed property held at 100% with 0.0% variation between runs while entity
+    counts varied 13.6-48.8% and person counts 28.6-62.1%. One draw of a paper naming six
+    colleagues produced a single person entity while still quoting the others by name; that draw
+    is what this catches. See paper_evidence/findings-brief.md section 1.
 
     A heuristic, and reported as one. It matches capitalised multi-word runs, so it flags field
     names ("Analytical Chemistry") alongside real misses ("Jorma Antson", "Vaisala Oy") --
