@@ -1,1 +1,14 @@
 manifest.json.lock
+
+# Per-run extraction output stays on disk and out of the repository. manifest.json
+# beside this file is the durable evidence: it carries each run's model, temperature,
+# rules fingerprint, counts and grounding stats, which is where every figure the paper
+# cites came from.
+#
+# The tradeoff, stated so nobody discovers it later: summarise.py also opens the run
+# folders, for the cross-draw entity-overlap figure ("found by all five", load_run at
+# line 138). That part of the summary works on a machine that has the folders and not
+# on a fresh clone -- re-run run_variability.py to regenerate them. Everything derived
+# from the manifest alone, which is the headline governance and variance result, needs
+# nothing but this directory.
+*/run_*/
