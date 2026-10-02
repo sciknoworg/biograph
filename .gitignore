@@ -86,3 +86,13 @@ agriculture_state.json
 
 # Wikidata lookup cache for scripts/geocode_places.py -- rebuildable, and large.
 .geocode_cache.json
+
+# Paper deliverables, not code. The briefs restate what the repository already
+# contains in a form a drafting session can consume, and the KISSKI report is
+# addressed to a provider -- both are writing artifacts whose audience is outside
+# this project. They stay on disk (they are what gets attached to the paper chat)
+# and are rebuildable from the code and the run artifacts, which are tracked.
+# Earlier versions are already in history; this only stops new ones going up.
+paper_evidence/*-brief.md
+paper_evidence/corrections-to-apply.md
+kisski_report_for_dev_team.md

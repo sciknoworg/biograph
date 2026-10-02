@@ -1,31 +1,17 @@
 # Model comparison evidence
 
-## The briefs live here too
+Kept for the WWW paper submission: the raw outputs behind the choice of
+extraction model.
 
-Six self-contained briefs for drafting, all re-derived at `41440f5` (2026-10-02).
-Each assumes no access to the repository and marks what must not be claimed.
-
-| brief | covers |
-|---|---|
-| `approach-brief.md` | data model, the prompt's two mandatory requirements, both mechanical checks, the scope gate, the grounding audit |
-| `pipeline-brief.md` | Approach part 2 — discovery loop, two seeding modes, prominence gate, the three attempts at a stopping rule |
-| `harness-brief.md` | Evaluation — the sandbox integrity mechanism, the adapter contract, the 49×5 coverage matrix, the five benchmarks |
-| `corpus-and-access-brief.md` | what the corpus is, its four selection biases, the publisher access census |
-| `frontend-brief.md` | the single-file renderer and what it refuses to flatten |
-| `findings-brief.md` | the five measured results, each with what it does **not** support |
-
-**One caveat spans all six:** the shipped corpus predates the current extraction
-prompt, so corpus *volume* is not current-prompt output. `approach-brief.md` §9
-has the three options and the recommendation.
-
----
-
-The rest of this file is the raw outputs behind the choice of extraction model. Moved here out of `subjects/` and `dist/` on 2026-09-05 —
+Moved here out of `subjects/` and `dist/` on 2026-09-05 —
 the pipeline treats everything under `subjects/` as a real subject, so these
 were contributing 170 person entities to Mode 2's search seeds and hijacking
 name lookups (`Tuomo Suntola` resolved to `suntola_test_g` rather than
 `suntola`). Nothing here is deleted or altered; it is only out of the
 pipeline's path.
+
+*The paper briefs also live in this folder but are gitignored — they are
+writing artifacts, not repository content. See the note in `.gitignore`.*
 
 ## What this is
 

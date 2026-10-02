@@ -1278,7 +1278,7 @@ def check_completeness(data):
     every prompt-governed property held at 100% with 0.0% variation between runs while entity
     counts varied 13.6-48.8% and person counts 28.6-62.1%. One draw of a paper naming six
     colleagues produced a single person entity while still quoting the others by name; that draw
-    is what this catches. See paper_evidence/findings-brief.md section 1.
+    is what this catches.
 
     A heuristic, and reported as one. It matches capitalised multi-word runs, so it flags field
     names ("Analytical Chemistry") alongside real misses ("Jorma Antson", "Vaisala Oy") --
