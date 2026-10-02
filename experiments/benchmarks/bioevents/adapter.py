@@ -45,8 +45,37 @@ sentence has no gold that could confirm or deny it, so counting it as a false po
 would punish the extractor for reading text the annotators did not label. Those are
 reported separately as `unscorable_span` and excluded from precision.
 
-Nothing is downloaded. The licence is not stated in the paper, so load() reads a local copy
-via --data-root and sniffs the format rather than assuming one.
+TWO RELEASE FORMATS, AND THE REAL ONE IS NOT THE OBVIOUS ONE. This adapter was first
+written against token-per-row CoNLL/IOB, which is what a TimeML trigger-labelling corpus
+is normally shipped as. The actual release is not that. It is a single CSV, one SENTENCE
+per row, with the annotated SPAN TEXT sitting in each class and role column:
+
+    author,sent_id,text,ARGx-LOC,STATE,TIME,WRITER-ARG0,REP-EVENT,EVENT,ARGx-ORG,...
+    Q1064470,11,"...he dropped out of...",,,,he,,drop,,...
+
+So a cell holds `drop`, not `B-EVENT`. Both readers are kept: _read_span_csv for the
+published shape, _read_conll/_read_json for the IOB shape, in case a later release or
+another corpus arrives in it. The CoNLL path is now the fallback, not the assumption.
+
+Span offsets are recovered by locating each cell's text inside its own sentence, which
+works for 4,679 of 4,682 annotations (99.9%); the three that do not are dropped and
+counted in `meta`, never silently matched to something nearby.
+
+THE SUBJECT'S NAME IS APPENDED TO EVERY SENTENCE. Each `text` ends with the subject in
+parentheses -- "...Dominican Liberation Party.  (Juan Temistocles Montas)" -- in 1,486 of
+1,488 rows, and no author carries two different names. That is an annotation artifact, not
+part of the sentence, so it is stripped before offsets are computed (repeating it after
+every sentence would be a strange thing to hand an extractor) and used as the document's
+name instead of the bare Wikidata QID. Disclosed in `transform` as "subject_suffix_stripped".
+
+SCALE, AND WHAT IT MEANS FOR THE PAIRING. 1,488 sentences across 757 distinct subjects --
+roughly two sentences per person. Grouping by author therefore gives 757 very short
+pseudo-documents, not 757 biographies, and each one still costs a full extraction call.
+--min-triggers is the lever: it drops documents carrying fewer than N annotated triggers,
+trading coverage for budget.
+
+Nothing is downloaded. load() reads a local copy via --data-root and sniffs the format
+rather than assuming one; see experiments/corpora/bioevents/README.md for provenance.
 """
 from __future__ import annotations
 
@@ -86,9 +115,31 @@ STOP = {"the", "a", "an", "of", "in", "at", "to", "and", "for", "on", "with", "h
 COLUMN_ALIASES = {
     "token": ("token", "word", "form", "text", "surface"),
     "label": ("label", "tag", "class", "event", "annotation", "bio"),
-    "document": ("document", "doc", "doc_id", "file", "person", "subject", "title"),
+    # "author" is this corpus's own name for the column, and it means the person the
+    # biography is ABOUT -- the corpus is drawn from biographies of writers -- not whoever
+    # wrote or annotated the sentence. Worth stating, because reading it the other way
+    # would group every sentence under its annotator and produce one enormous document.
+    "document": ("document", "doc", "doc_id", "file", "person", "subject", "title",
+                 "author"),
     "sentence": ("sentence", "sent", "sentence_id", "sent_id"),
 }
+
+#: Span-CSV columns -> the label recorded in gold. The class columns keep their own names;
+#: TIME is renamed to ARGM-TIME because that is what score() and ROLES call it, and the two
+#: WRITER roles are recorded verbatim. They are outside ROLES, so score() ignores them --
+#: kept anyway because dropping an annotation at read time makes it unrecoverable, while an
+#: unscored one can be looked at.
+SPAN_CSV_COLUMNS = {
+    "EVENT": "EVENT", "STATE": "STATE", "ASP-EVENT": "ASP-EVENT", "REP-EVENT": "REP-EVENT",
+    "ARGx-LOC": "ARGx-LOC", "ARGx-ORG": "ARGx-ORG", "TIME": "ARGM-TIME",
+    "WRITER-ARG0": "WRITER-ARG0", "WRITER-ARGx": "WRITER-ARGx",
+}
+
+#: Each released sentence ends with its subject in parentheses. Bounded length and no
+#: nesting, so a stray parenthetical clause at the end of a real sentence is unlikely to
+#: match -- and if one does, it is removed from the text rather than mistaken for an
+#: annotation, which costs nothing that is scored.
+SUBJECT_SUFFIX = re.compile(r"\s*\(([^()]{2,80})\)\s*$")
 
 
 def _fold(s: Any) -> str:
@@ -193,12 +244,60 @@ def _read_json(path: str):
     return out
 
 
+def _read_span_csv(path: str):
+    """The published shape: one sentence per row, annotated span TEXT in each column.
+
+    Returns {doc_id: {"name": str, "sentences": [(order, text, [(label, surface), ...])]}}.
+    Nothing is located here -- offsets depend on how sentences are laid out into one
+    document, so finding the spans is _build_doc_from_spans()'s job.
+    """
+    import csv
+
+    with io.open(path, encoding="utf-8", newline="") as f:
+        rows = list(csv.DictReader(f))
+    if not rows:
+        return {}
+    header = list(rows[0].keys())
+    cols = _resolve_columns(header, required=("token", "document"))
+    present = {str(h).strip(): h for h in header}
+    labelled = {present[c]: lab for c, lab in SPAN_CSV_COLUMNS.items() if c in present}
+    if not labelled:
+        raise SystemExit(
+            "BiographicalEvents: %s has no annotation columns.\n"
+            "  header seen: %s\n"
+            "  expected some of: %s\n"
+            "  This adapter refuses to guess, because a mis-read column yields a "
+            "plausible wrong table." % (path, header, ", ".join(sorted(SPAN_CSV_COLUMNS))))
+
+    order_col = cols.get("sentence")
+    out: dict[str, dict] = defaultdict(lambda: {"name": None, "sentences": []})
+    for i, r in enumerate(rows):
+        doc_id = str(r.get(cols["document"]) or "").strip()
+        text = str(r.get(cols["token"]) or "").strip()
+        if not doc_id or not text:
+            continue
+        m = SUBJECT_SUFFIX.search(text)
+        if m:
+            text = text[:m.start()].rstrip()
+            out[doc_id]["name"] = out[doc_id]["name"] or m.group(1).strip()
+        anns = [(lab, str(r.get(col) or "").strip())
+                for col, lab in labelled.items() if str(r.get(col) or "").strip()]
+        try:
+            order = int(str(r.get(order_col)).strip()) if order_col else i
+        except (TypeError, ValueError):
+            order = i
+        out[doc_id]["sentences"].append((order, text, anns))
+    return out
+
+
 class BioEventsAdapter:
     name = "bioevents"
     citation = "arXiv:2206.03547 (ISA 2022); repo marcostranisci/biographicalEvents"
-    license = ("UNRESOLVED -- not stated in the paper and not declared in the repository. "
-               "Resolve before downloading; nothing is fetched here, which reads a local "
-               "copy via --data-root.")
+    license = ("Paper CC BY 4.0 (ACL Anthology 2022.isa-1.3). The corpus itself declares no "
+               "separate licence and is published openly in the authors' repository; it is "
+               "Wikipedia-derived, so CC BY-SA upstream. Not redistributed here -- nothing "
+               "is fetched by this adapter, which reads a local copy via --data-root, and "
+               "experiments/corpora/bioevents/ carries the provenance note.")
     label_space = CLASSES + ROLES
     metric = ("trigger-anchored recall per TimeML class, with pooled precision over "
               "annotated spans; type is never compared")
@@ -219,15 +318,25 @@ class BioEventsAdapter:
         paths = []
         for dirpath, _d, filenames in os.walk(data_root):
             for fn in sorted(filenames):
-                if fn.lower().endswith((".conll", ".conllu", ".tsv", ".txt",
+                if fn.lower().endswith((".csv", ".conll", ".conllu", ".tsv", ".txt",
                                         ".json", ".jsonl", ".iob")):
                     paths.append(os.path.join(dirpath, fn))
         if not paths:
             raise SystemExit("BiographicalEvents: no annotation files under %s" % data_root)
 
+        # The published release is the span CSV; CoNLL/IOB is the fallback. Both are read
+        # into the same gold shape, so everything downstream is unaware of which arrived.
+        span_docs: dict[str, dict] = {}
         by_doc: dict[str, list] = defaultdict(list)
         for path in paths:
-            if path.lower().endswith((".json", ".jsonl")):
+            if path.lower().endswith(".csv"):
+                for doc_id, rec in _read_span_csv(path).items():
+                    if doc_id in span_docs:
+                        span_docs[doc_id]["sentences"] += rec["sentences"]
+                        span_docs[doc_id]["name"] = span_docs[doc_id]["name"] or rec["name"]
+                    else:
+                        span_docs[doc_id] = rec
+            elif path.lower().endswith((".json", ".jsonl")):
                 for doc_id, pairs in _read_json(path):
                     by_doc[str(doc_id)].append(pairs)
             else:
@@ -236,6 +345,14 @@ class BioEventsAdapter:
                     by_doc[doc_id].append(sent)
 
         made = 0
+        for doc_id, rec in sorted(span_docs.items()):
+            doc = self._build_doc_from_spans(doc_id, rec)
+            if doc is None:
+                continue
+            yield doc
+            made += 1
+            if limit and made >= limit:
+                return
         for doc_id, sentences in sorted(by_doc.items()):
             doc = self._build_doc(doc_id, sentences)
             if doc is None:
@@ -244,6 +361,53 @@ class BioEventsAdapter:
             made += 1
             if limit and made >= limit:
                 return
+
+    def _build_doc_from_spans(self, doc_id: str, rec: dict) -> BenchmarkDoc | None:
+        """Lay the released sentences out into one document and locate every annotation.
+
+        Each cell holds the annotated text, so a span is found by searching its own
+        sentence and shifting by where that sentence landed. Searching the whole document
+        instead would let a word from sentence 1 answer for an annotation on sentence 9.
+        An annotation whose text is not in its sentence is dropped and counted, never
+        matched to the nearest thing that looks like it."""
+        parts, triggers, roles, annotated = [], [], [], []
+        cursor = 0
+        unlocatable = 0
+        for _order, text, anns in sorted(rec["sentences"], key=lambda s: s[0]):
+            if not text:
+                continue
+            sent_start = cursor
+            parts.append(text)
+            cursor += len(text)
+            annotated.append((sent_start, cursor))
+            parts.append(" ")
+            cursor += 1
+
+            for label, surface in anns:
+                at = text.find(surface)
+                if at == -1:
+                    unlocatable += 1
+                    continue
+                record = {"start": sent_start + at, "end": sent_start + at + len(surface),
+                          "surface": surface, "label": label}
+                (triggers if label in CLASSES else roles).append(record)
+
+            if cursor > self.max_chars:
+                break
+
+        if len(triggers) < self.min_triggers:
+            return None
+        text = "".join(parts)[:self.max_chars]
+        triggers = [t for t in triggers if t["end"] <= len(text)]
+        roles = [r for r in roles if r["end"] <= len(text)]
+        annotated = [(a, min(b, len(text))) for a, b in annotated if a < len(text)]
+        name = rec.get("name") or str(doc_id)
+        return BenchmarkDoc(
+            doc_id=str(doc_id), slug=slugify(doc_id), name=name, text=text,
+            gold={"triggers": triggers, "roles": roles, "annotated_spans": annotated},
+            transform=("sentences_concatenated", "subject_suffix_stripped"),
+            meta={"n_triggers": len(triggers), "n_roles": len(roles),
+                  "unlocatable_annotations": unlocatable, "subject_name": name})
 
     def _build_doc(self, doc_id: str, sentences: list) -> BenchmarkDoc | None:
         """Lay the sentences out into one text and record where every annotation landed.

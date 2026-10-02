@@ -579,6 +579,112 @@ def test_bioevents_state_and_precision():
           str(pred.lossy))
 
 
+def test_bioevents_span_csv():
+    """The published release: one sentence per row, annotated span TEXT per column.
+
+    The failure this guards against is the quiet one. A span placed at the wrong offset
+    still scores -- against whatever happens to sit there -- so every check here compares
+    text[start:end] with the surface the corpus gave, rather than trusting the arithmetic.
+    """
+    from .benchmarks.bioevents import adapter as b2
+
+    tmp = tempfile.mkdtemp(prefix="b2csv-")
+    try:
+        rows = [
+            "author,sent_id,text,ARGx-LOC,STATE,TIME,WRITER-ARG0,REP-EVENT,EVENT,"
+            "ARGx-ORG,ASP-EVENT,WRITER-ARGx,lemma",
+            'Q1,2,"She moved to Paris in 1921. (Jane Doe)",Paris,,in 1921,She,,moved,,,,move',
+            'Q1,1,"She began writing at Oxford. (Jane Doe)",,,,She,,,Oxford,began,,begin',
+            'Q2,1,"He said it was fine. (John Roe)",,fine,,He,said,,,,,say',
+        ]
+        with open(os.path.join(tmp, "corpus.csv"), "w", encoding="utf-8") as fh:
+            fh.write("\n".join(rows) + "\n")
+
+        docs = {d.doc_id: d for d in b2.BioEventsAdapter(min_triggers=0).load(tmp)}
+        check("one document per subject, not per sentence", sorted(docs) == ["Q1", "Q2"],
+              str(sorted(docs)))
+
+        d1 = docs["Q1"]
+        check("the subject suffix becomes the name", d1.name == "Jane Doe", d1.name)
+        check("the subject suffix is stripped from the text",
+              "(Jane Doe)" not in d1.text, d1.text)
+        check("the stripping is disclosed in transform",
+              "subject_suffix_stripped" in d1.transform, str(d1.transform))
+
+        # sent_id orders the document; the CSV deliberately lists sentence 2 first.
+        check("sentences are ordered by sent_id, not file order",
+              d1.text.startswith("She began writing"), d1.text[:40])
+
+        every = d1.gold["triggers"] + d1.gold["roles"]
+        check("every offset reproduces its own surface",
+              all(d1.text[a["start"]:a["end"]] == a["surface"] for a in every),
+              str([(a["surface"], d1.text[a["start"]:a["end"]]) for a in every]))
+        check("every annotation sits inside an annotated sentence span",
+              all(any(s <= a["start"] and a["end"] <= e
+                      for s, e in d1.gold["annotated_spans"]) for a in every))
+
+        labels = {a["label"] for a in d1.gold["triggers"]}
+        check("EVENT and ASP-EVENT are read as triggers",
+              labels == {"EVENT", "ASP-EVENT"}, str(labels))
+        roles = {a["label"] for a in d1.gold["roles"]}
+        check("TIME is renamed to the ARGM-TIME that ROLES and score() use",
+              "ARGM-TIME" in roles and "TIME" not in roles, str(roles))
+        check("writer roles are kept though score() does not use them",
+              "WRITER-ARG0" in roles, str(roles))
+
+        # "Paris" really is in sentence 2, so a reader that searched only sentence 1 --
+        # or searched the whole document from position 0 -- would misplace or drop it.
+        paris = [a for a in d1.gold["roles"] if a["surface"] == "Paris"]
+        check("a span in a later sentence is located in that sentence",
+              len(paris) == 1 and d1.text[paris[0]["start"]:paris[0]["end"]] == "Paris",
+              str(paris))
+
+        # That row carries both a STATE and a REP-EVENT, and both are triggers -- one row
+        # is not one annotation.
+        check("every class column on a row becomes its own trigger",
+              {a["label"] for a in docs["Q2"].gold["triggers"]} == {"REP-EVENT", "STATE"},
+              str(docs["Q2"].gold["triggers"]))
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+def test_bioevents_span_csv_refuses_and_drops():
+    """Two ways to be wrong quietly, both made loud."""
+    from .benchmarks.bioevents import adapter as b2
+
+    tmp = tempfile.mkdtemp(prefix="b2bad-")
+    try:
+        # An annotation whose text is not in its sentence is dropped and counted. Matching
+        # it to the nearest similar string would score the extractor against a span the
+        # annotators never marked.
+        with open(os.path.join(tmp, "c.csv"), "w", encoding="utf-8") as fh:
+            fh.write("author,sent_id,text,EVENT,STATE\n"
+                     'Q1,1,"She moved to Paris. (Jane Doe)",moved,nowhere-in-this-sentence\n')
+        doc = next(iter(b2.BioEventsAdapter(min_triggers=0).load(tmp)))
+        check("an unlocatable annotation is dropped",
+              [a["surface"] for a in doc.gold["triggers"]] == ["moved"],
+              str(doc.gold["triggers"]))
+        check("and counted rather than silently lost",
+              doc.meta.get("unlocatable_annotations") == 1, str(doc.meta))
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+    tmp = tempfile.mkdtemp(prefix="b2nocol-")
+    try:
+        # Columns resolve, but none of them is an annotation. Reading this as an empty
+        # corpus would report perfect precision over nothing.
+        with open(os.path.join(tmp, "c.csv"), "w", encoding="utf-8") as fh:
+            fh.write("author,sent_id,text,lemma\nQ1,1,Hello.,hello\n")
+        try:
+            list(b2.BioEventsAdapter().load(tmp))
+            check("a CSV with no annotation column is refused", False, "no SystemExit")
+        except SystemExit as e:
+            check("a CSV with no annotation column is refused",
+                  "no annotation columns" in str(e), str(e)[:90])
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
 def test_bioevents_roles_and_header():
     from .benchmarks.bioevents import adapter as b2
 
@@ -789,6 +895,7 @@ def main() -> int:
                test_biographical_input_adapter, test_biographical_scoring,
                test_bioevents_tags_and_offsets, test_bioevents_anchoring,
                test_bioevents_state_and_precision, test_bioevents_roles_and_header,
+               test_bioevents_span_csv, test_bioevents_span_csv_refuses_and_drops,
                test_grounding_parses_the_shipped_checker, test_grounding_aggregate,
                test_grounding_protocol_shape,
                test_grounding_excludes_overwritten_sources,

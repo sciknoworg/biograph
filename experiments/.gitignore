@@ -12,6 +12,14 @@
 corpora/*
 !corpora/*.py
 
+# Each corpus also gets a folder holding its provenance: where the release lives, what
+# licence it carries, and what a reproduction has to do to obtain it. Git cannot unignore
+# a file inside an ignored directory, so the directories are unignored, their contents
+# ignored again, and only the README kept. The data beside it never lands in a commit.
+!corpora/*/
+corpora/*/*
+!corpora/*/README.md
+
 # Raw per-document extractions: large, and they embed the benchmark's own source
 # text in sources[].quote. Scores and manifests under runs/*/report.* are kept.
 runs/*/extractions/
