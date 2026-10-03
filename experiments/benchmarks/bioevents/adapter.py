@@ -135,6 +135,31 @@ SPAN_CSV_COLUMNS = {
     "WRITER-ARG0": "WRITER-ARG0", "WRITER-ARGx": "WRITER-ARGx",
 }
 
+def _occurrences(text: str, surface: str) -> list[int]:
+    """Start offsets of `surface` in `text`, respecting word boundaries.
+
+    Plain str.find is substring matching, and the annotations here are short function
+    words: 'he' matches inside 'the', 'Although' and 'shores', and 'He' inside 'Head of
+    State'. That put 130 annotations inside a larger word -- mostly WRITER roles, but also
+    an EVENT 'win' located inside 'winning' and four STATEs. Every one of them still
+    reproduced its own surface from its offsets, so nothing downstream could notice.
+
+    Boundaries are applied only on the side where the surface itself begins or ends with a
+    word character, so a surface like 'of 1994' or "Tubman's" is unaffected. If no
+    boundary-respecting occurrence exists, plain substring matching is the fallback: some
+    annotations do legitimately begin mid-token.
+    """
+    if not surface:
+        return []
+    pattern = re.escape(surface)
+    if re.match(r"\w", surface[0]):
+        pattern = r"(?<!\w)" + pattern
+    if re.search(r"\w$", surface):
+        pattern = pattern + r"(?!\w)"
+    hits = [m.start() for m in re.finditer(pattern, text)]
+    return hits or [m.start() for m in re.finditer(re.escape(surface), text)]
+
+
 #: Each released sentence ends with its subject in parentheses. Bounded length and no
 #: nesting, so a stray parenthetical clause at the end of a real sentence is unlikely to
 #: match -- and if one does, it is removed from the text rather than mistaken for an
@@ -316,7 +341,7 @@ def _read_span_csv(path: str):
             # it as unlocatable. Capping it away here instead made three real annotations
             # vanish at read time with nothing reported -- the exact silent loss this
             # adapter refuses everywhere else.
-            occurrences = text.count(surface)
+            occurrences = len(_occurrences(text, surface))
             if not occurrences or slot["anns"].count((lab, surface)) < occurrences:
                 slot["anns"].append((lab, surface))
 
@@ -439,17 +464,18 @@ class BioEventsAdapter:
             # The nth annotation naming a given surface takes the nth occurrence of it, so
             # a sentence annotating "published" twice yields two spans at two positions
             # rather than two spans stacked on the first one.
-            next_from: dict[str, int] = {}
+            taken: dict[str, int] = {}
             for label, surface in anns:
-                at = text.find(surface, next_from.get(surface, 0))
-                if at == -1:
-                    # Fall back to the first occurrence rather than dropping: the surface
-                    # is in the sentence, this label just wanted a later copy than exists.
-                    at = text.find(surface)
-                if at == -1:
+                spots = _occurrences(text, surface)
+                if not spots:
                     unlocatable += 1
                     continue
-                next_from[surface] = at + 1
+                # The nth annotation naming this surface takes the nth occurrence; if the
+                # annotations outnumber the occurrences, the last one is reused rather
+                # than dropped -- the span is still right, only its copy is ambiguous.
+                i = min(taken.get(surface, 0), len(spots) - 1)
+                at = spots[i]
+                taken[surface] = i + 1
                 record = {"start": sent_start + at, "end": sent_start + at + len(surface),
                           "surface": surface, "label": label}
                 (triggers if label in CLASSES else roles).append(record)

@@ -732,6 +732,49 @@ def test_bioevents_one_row_is_one_annotation_not_one_sentence():
         shutil.rmtree(tmp, ignore_errors=True)
 
 
+def test_bioevents_spans_respect_word_boundaries():
+    """'he' must not be located inside 'the'.
+
+    The annotations are short function words and str.find is substring matching, so the
+    first build put 130 of them inside a larger word: 'he' inside 'the' and 'Although',
+    'He' inside 'Head of State', an EVENT 'win' inside 'winning'. Every one still
+    reproduced its own surface from its offsets, which is why no consistency check caught
+    it -- text[start:end] == surface is true of a substring of a word too.
+    """
+    from .benchmarks.bioevents import adapter as b2
+
+    check("a word is not matched inside a longer word",
+          b2._occurrences("At the age of 26 he left", "he") == [17],
+          str(b2._occurrences("At the age of 26 he left", "he")))
+    check("every standalone occurrence is found, in order",
+          b2._occurrences("he saw that he left", "he") == [0, 12],
+          str(b2._occurrences("he saw that he left", "he")))
+    check("a surface that is only ever a substring still resolves",
+          b2._occurrences("winning silver", "inn") == [1],
+          str(b2._occurrences("winning silver", "inn")))
+    check("a surface with no word character at its edges is unconstrained",
+          b2._occurrences("elected in 1994 and", "in 1994") == [8],
+          str(b2._occurrences("elected in 1994 and", "in 1994")))
+    check("an absent surface yields nothing",
+          b2._occurrences("nothing here", "zzz") == [])
+
+    tmp = tempfile.mkdtemp(prefix="b2wb-")
+    try:
+        with open(os.path.join(tmp, "c.csv"), "w", encoding="utf-8") as fh:
+            fh.write("author,sent_id,text,EVENT,WRITER-ARG0\n"
+                     'Q1,1,"Although he won, he left. (A B)",won,he\n'
+                     'Q1,1,"Although he won, he left. (A B)",left,he\n')
+        doc = next(iter(b2.BioEventsAdapter(min_triggers=0).load(tmp)))
+        hes = sorted(a["start"] for a in doc.gold["roles"])
+        check("two 'he' annotations take the two real 'he' positions, not 'Although'",
+              hes == [9, 17], "%s in %r" % (hes, doc.text))
+        check("neither lands inside a word",
+              all(not doc.text[a["start"] - 1].isalnum() for a in doc.gold["roles"]),
+              str([(a["surface"], a["start"]) for a in doc.gold["roles"]]))
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
 def test_bioevents_span_csv_refuses_and_drops():
     """Two ways to be wrong quietly, both made loud."""
     from .benchmarks.bioevents import adapter as b2
@@ -980,6 +1023,8 @@ def main() -> int:
                test_bioevents_tags_and_offsets, test_bioevents_anchoring,
                test_bioevents_state_and_precision, test_bioevents_roles_and_header,
                test_bioevents_span_csv, test_bioevents_span_csv_refuses_and_drops,
+               test_bioevents_one_row_is_one_annotation_not_one_sentence,
+               test_bioevents_spans_respect_word_boundaries,
                test_every_adapter_scores_the_way_the_cli_calls_it,
                test_grounding_parses_the_shipped_checker, test_grounding_aggregate,
                test_grounding_protocol_shape,

@@ -91,10 +91,17 @@ annotations at real positions.
 | documents containing a date | **410 of 757 (54%)** |
 
 Trigger counts as built: `EVENT` 849 · `STATE` 618 · `ASP-EVENT` 83 · `REP-EVENT` 39 (1,589).
-Role counts as built: `WRITER-ARG0` 853 · `ARGx-ORG` 570 · `ARGx-LOC` 460 · `ARGM-TIME` 431 ·
-`WRITER-ARGx` 355 (2,669).
+Role counts as built: `WRITER-ARG0` 814 · `ARGx-ORG` 570 · `ARGx-LOC` 460 · `ARGM-TIME` 431 ·
+`WRITER-ARGx` 348 (2,623).
 
-Every one of those 4,258 annotations reproduces its own surface from its recorded offsets,
+Spans are located on **word boundaries**, not by substring search. The annotations are short
+function words, so plain matching put `'he'` inside `'the'` and `'Although'`, `'He'` inside
+`'Head of State'`, and an `EVENT 'win'` inside `'winning'` -- 130 annotations inside a larger
+word, each of which still reproduced its own surface and so passed every consistency check.
+3 remain, where the annotation genuinely begins mid-token and substring matching is the
+correct fallback.
+
+Every one of those 4,212 annotations reproduces its own surface from its recorded offsets,
 and every one sits inside an annotated sentence span. Three annotations name a string that
 is not in their sentence at all; they are dropped and counted in
 `meta.unlocatable_annotations`, never matched to something nearby.
