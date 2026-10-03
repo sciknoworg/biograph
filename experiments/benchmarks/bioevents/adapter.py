@@ -271,6 +271,17 @@ def _read_span_csv(path: str):
 
     order_col = cols.get("sentence")
     out: dict[str, dict] = defaultdict(lambda: {"name": None, "sentences": []})
+
+    # ONE ROW IS ONE ANNOTATION, NOT ONE SENTENCE. 654 of the 1,488 released rows repeat a
+    # sentence that was already present, carrying a different trigger in a different column
+    # -- Q1064470 sentence 11 appears three times, as STATE 'played', EVENT 'drop' and
+    # STATE 'enjoyed'. The text is byte-identical across them in all 417 repeated groups.
+    #
+    # So rows are grouped by (document, sentence) and the sentence is emitted ONCE with the
+    # union of every row's annotations. Appending per row instead concatenates the same
+    # sentence two to four times into the document, which inflates it, hands the model
+    # visibly repeated prose, and makes "834 sentences" read as 1,488.
+    grouped: dict[tuple[str, Any], dict] = {}
     for i, r in enumerate(rows):
         doc_id = str(r.get(cols["document"]) or "").strip()
         text = str(r.get(cols["token"]) or "").strip()
@@ -280,13 +291,37 @@ def _read_span_csv(path: str):
         if m:
             text = text[:m.start()].rstrip()
             out[doc_id]["name"] = out[doc_id]["name"] or m.group(1).strip()
-        anns = [(lab, str(r.get(col) or "").strip())
-                for col, lab in labelled.items() if str(r.get(col) or "").strip()]
         try:
             order = int(str(r.get(order_col)).strip()) if order_col else i
         except (TypeError, ValueError):
             order = i
-        out[doc_id]["sentences"].append((order, text, anns))
+        key = (doc_id, order if order_col else i)
+        slot = grouped.setdefault(key, {"order": order, "text": text, "anns": []})
+        for col, lab in labelled.items():
+            surface = str(r.get(col) or "").strip()
+            if not surface:
+                continue
+            # A repeated (label, surface) within one sentence is kept only as many times as
+            # that string actually OCCURS in the sentence, because the builder maps the nth
+            # repeat to the nth occurrence.
+            #
+            # Dropping every repeat was wrong. 415 pairs repeat; in 166 of them the surface
+            # occurs more than once, and 11 of those are scorable labels -- EVENT
+            # 'published' twice, ARGx-LOC 'Philadelphia' twice. Those are two real
+            # annotations on two real positions and discarding one deflates recall.
+            # Keeping ALL repeats is equally wrong: the other 249 name a string that occurs
+            # once, so the extra copies are gold no scorer could ever match a second time.
+            #
+            # A surface that occurs ZERO times is still appended, so the builder can count
+            # it as unlocatable. Capping it away here instead made three real annotations
+            # vanish at read time with nothing reported -- the exact silent loss this
+            # adapter refuses everywhere else.
+            occurrences = text.count(surface)
+            if not occurrences or slot["anns"].count((lab, surface)) < occurrences:
+                slot["anns"].append((lab, surface))
+
+    for (doc_id, _k), slot in grouped.items():
+        out[doc_id]["sentences"].append((slot["order"], slot["text"], slot["anns"]))
     return out
 
 
@@ -401,11 +436,20 @@ class BioEventsAdapter:
             parts.append(" ")
             cursor += 1
 
+            # The nth annotation naming a given surface takes the nth occurrence of it, so
+            # a sentence annotating "published" twice yields two spans at two positions
+            # rather than two spans stacked on the first one.
+            next_from: dict[str, int] = {}
             for label, surface in anns:
-                at = text.find(surface)
+                at = text.find(surface, next_from.get(surface, 0))
+                if at == -1:
+                    # Fall back to the first occurrence rather than dropping: the surface
+                    # is in the sentence, this label just wanted a later copy than exists.
+                    at = text.find(surface)
                 if at == -1:
                     unlocatable += 1
                     continue
+                next_from[surface] = at + 1
                 record = {"start": sent_start + at, "end": sent_start + at + len(surface),
                           "surface": surface, "label": label}
                 (triggers if label in CLASSES else roles).append(record)

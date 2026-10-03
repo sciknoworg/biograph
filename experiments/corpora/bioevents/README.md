@@ -59,31 +59,61 @@ Q1064470,11,"...he dropped out of...  (Charles Fuller)",,,,he,,drop,,,,drop
 with the subject's name in parentheses (1,486 of 1,488 rows); the adapter strips it and
 uses it as the document name.
 
-Trigger counts: `EVENT` 861 · `STATE` 627 · `ASP-EVENT` 85 · `REP-EVENT` 42.
+## One row is one ANNOTATION, not one sentence
 
-**The released CSV holds fewer annotations than the paper describes.** Table 2 of the
-paper counts `EVENT` 894, `STATE` 695, `ASP-EVENT` 114, `REP-EVENT` 101. The format
-explains the gap: one row is one sentence with one cell per class, so a sentence annotated
-with two EVENTs can only carry one of them. `REP-EVENT` loses the most, 101 down to 42.
-Recall computed against this file therefore uses a denominator ~4-58% smaller than the
-annotation effort the paper reports, depending on class.
+The single most important fact about this file. **654 of the 1,488 rows repeat a sentence
+that is already present**, carrying a different trigger in a different column. Q3187801
+sentence 14 appears twice with identical text: once as `STATE 'role'` with its location and
+time arguments, once as `STATE 'leading'`. In all 417 repeated groups the text is
+byte-identical.
 
-Role counts: `WRITER-ARG0` 1,089 · `ARGx-ORG` 601 · `ARGx-LOC` 505 · `ARGM-TIME` 481 ·
-`WRITER-ARGx` 388.
+So the adapter groups rows by `(author, sent_id)` and emits each sentence **once**, with the
+union of every row's annotations. Appending per row instead concatenates the corpus to
+exactly twice its real size -- 262,821 characters against 131,204 -- and hands the model
+visibly repeated prose.
 
-4,679 of 4,682 annotations (99.9%) are locatable verbatim in their own sentence; the three
-that are not are dropped and counted in `meta.unlocatable_annotations`, never matched to
-something nearby.
+A repeated `(label, surface)` pair within one sentence is kept only as many times as that
+string actually occurs there, and the nth repeat is mapped to the nth occurrence. 415 pairs
+repeat; in 166 the surface occurs more than once, and 11 of those are scorable labels
+(`EVENT 'published'` twice, `ARGx-LOC 'Philadelphia'` twice) where both are real
+annotations at real positions.
+
+## What the adapter builds
+
+| | |
+|---|---:|
+| rows in the CSV | 1,488 |
+| unique (author, sent_id) | 834 |
+| documents built | **757** |
+| sentences | 834 |
+| characters total | 131,204 |
+| document length | min 20, **median 147**, max 939 |
+| documents containing a date | **410 of 757 (54%)** |
+
+Trigger counts as built: `EVENT` 849 · `STATE` 618 · `ASP-EVENT` 83 · `REP-EVENT` 39 (1,589).
+Role counts as built: `WRITER-ARG0` 853 · `ARGx-ORG` 570 · `ARGx-LOC` 460 · `ARGM-TIME` 431 ·
+`WRITER-ARGx` 355 (2,669).
+
+Every one of those 4,258 annotations reproduces its own surface from its recorded offsets,
+and every one sits inside an annotated sentence span. Three annotations name a string that
+is not in their sentence at all; they are dropped and counted in
+`meta.unlocatable_annotations`, never matched to something nearby.
+
+**The released CSV holds fewer annotations than the paper describes.** Table 2 of the paper
+counts `EVENT` 894, `STATE` 695, `ASP-EVENT` 114, `REP-EVENT` 101, against 849 / 618 / 83 /
+39 built here. Part is the one-cell-per-class format, part is the repeat collapsing above.
+`REP-EVENT` loses the most, 101 down to 39. Recall against this file therefore uses a
+denominator smaller than the annotation effort the paper reports, and that belongs beside
+any number computed from it.
+
 
 ## There is no published baseline to compare against
 
-The paper trains nothing and evaluates nothing -- it is a guidelines-and-resource paper.
-Its five tables are inter-annotator agreement, corpus counts, the most frequent
-events/states, a PropBank argument distribution, and recurring link structures. Searching
-the text for "we train", "fine-tun", "classifier", "our model" and "experiment" returns
-zero hits.
+The paper is a guidelines-and-resource paper. No benchmark results are reported.
+It includes five tables reproting inter-annotator agreement, corpus counts, the most frequent
+events/states, a PropBank argument distribution, and recurring link structures. 
 
-The only quantitative anchor is the **human agreement ceiling**, Table 1, averaged over the
+An available quantitative anchor is the **human agreement ceiling**, Table 1, averaged over the
 six annotator pairings:
 
 | class | IAA (F) |
@@ -96,8 +126,7 @@ six annotator pairings:
 | ARGx-LOC | 0.75 |
 | **STATE** | **0.67** |
 
-That is a ceiling, not a baseline, and it must never be printed as a score this pipeline
-was measured against. Two things in it are worth noticing anyway: **STATE has the lowest
+Two things in it are worth noticing: **STATE has the lowest
 agreement of any class**, so the class this schema refuses to represent is also the one
 human annotators agree on least; and **ARGx-LOC ranges from 0.38 to 0.91 across pairings**,
 so its average of 0.75 hides a class that annotators were not reliably consistent about.

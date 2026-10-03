@@ -688,6 +688,50 @@ def test_bioevents_span_csv():
         shutil.rmtree(tmp, ignore_errors=True)
 
 
+def test_bioevents_one_row_is_one_annotation_not_one_sentence():
+    """A sentence repeated across rows is emitted once, with every row's annotations.
+
+    The release puts ONE ANNOTATION per row, so a sentence carrying three triggers appears
+    three times with identical text and a different column filled each time -- 654 of its
+    1,488 rows are repeats like that. Appending per row concatenated the corpus to exactly
+    twice its real size (262,821 chars against 131,204) and handed the model visibly
+    repeated prose. It was caught only by looking at sent_id, because every offset still
+    reproduced its own surface: each copy carried its own annotations, so every internal
+    consistency check passed on a document that was twice too long.
+    """
+    from .benchmarks.bioevents import adapter as b2
+
+    tmp = tempfile.mkdtemp(prefix="b2dup-")
+    try:
+        with open(os.path.join(tmp, "c.csv"), "w", encoding="utf-8") as fh:
+            fh.write("author,sent_id,text,EVENT,STATE,ARGx-LOC\n"
+                     'Q1,1,"He moved to Paris and stayed. (A B)",moved,,Paris\n'
+                     'Q1,1,"He moved to Paris and stayed. (A B)",,stayed,\n'
+                     'Q1,1,"He moved to Paris and stayed. (A B)",moved,,\n')
+        doc = next(iter(b2.BioEventsAdapter(min_triggers=0).load(tmp)))
+
+        check("the repeated sentence appears once in the text",
+              doc.text.count("He moved to Paris") == 1, repr(doc.text))
+        check("one annotated span, not three",
+              len(doc.gold["annotated_spans"]) == 1, str(doc.gold["annotated_spans"]))
+        check("annotations from every row are kept",
+              {a["surface"] for a in doc.gold["triggers"]} == {"moved", "stayed"},
+              str(doc.gold["triggers"]))
+        check("the role from the first row survives the merge",
+              [a["surface"] for a in doc.gold["roles"]] == ["Paris"],
+              str(doc.gold["roles"]))
+        # Row 3 repeats row 1's EVENT exactly. Both would resolve to the same first
+        # occurrence of "moved", so a scorer could never match the second one.
+        check("an exact (label, surface) repeat within a sentence is dropped",
+              sum(1 for a in doc.gold["triggers"] if a["surface"] == "moved") == 1,
+              str(doc.gold["triggers"]))
+        check("offsets still reproduce their surfaces after merging",
+              all(doc.text[a["start"]:a["end"]] == a["surface"]
+                  for a in doc.gold["triggers"] + doc.gold["roles"]))
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
 def test_bioevents_span_csv_refuses_and_drops():
     """Two ways to be wrong quietly, both made loud."""
     from .benchmarks.bioevents import adapter as b2
