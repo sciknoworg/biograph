@@ -135,6 +135,23 @@ SPAN_CSV_COLUMNS = {
     "WRITER-ARG0": "WRITER-ARG0", "WRITER-ARGx": "WRITER-ARGx",
 }
 
+#: A mention of an absolute date, used only to ORDER documents, never to exclude one.
+#:
+#: The schema requires every event to carry a date, so a document naming none cannot yield
+#: an event at all -- measured, not assumed: across 32 extractions over two runs, every
+#: document matching this produced events and every document not matching produced zero,
+#: with no exception either way. 410 of the 757 documents match.
+#:
+#: It is a proxy and is named like one. A document can mention a year and still describe no
+#: dateable occurrence, and a relative date ("two years later") carries no absolute anchor.
+#: That is tolerable for ordering, where being wrong costs a place in the queue, and would
+#: not be tolerable for filtering, where it would silently redefine the corpus.
+DATE_MENTION = re.compile(
+    r"\b(1[0-9]{3}|20[0-2][0-9])\b"
+    r"|\b(January|February|March|April|May|June|July|August|September|October"
+    r"|November|December)\b", re.I)
+
+
 def _occurrences(text: str, surface: str) -> list[int]:
     """Start offsets of `surface` in `text`, respecting word boundaries.
 
@@ -422,11 +439,33 @@ class BioEventsAdapter:
                 for sent in _read_conll(path):
                     by_doc[doc_id].append(sent)
 
-        made = 0
+        # DOCUMENTS ARE ORDERED, NOT FILTERED, and the order is part of the method.
+        #
+        # 46% of this corpus mentions no date, and the schema cannot represent an undated
+        # event, so those documents are known to yield nothing before a single call is
+        # made. Ordering the ones that CAN produce an event first makes --limit buy signal
+        # instead of confirmation: --limit 410 is exactly the documents where extraction is
+        # possible, and no limit at all is still the whole corpus.
+        #
+        # Every limit is a prefix of the same fixed order, so raising one never invalidates
+        # a smaller run -- the earlier documents are the same documents, already cached.
+        # Ordering by doc_id alone put 46% dead weight uniformly through the queue.
+        #
+        # The secondary key is doc_id, so the order is total and deterministic rather than
+        # dependent on dict insertion.
+        built = []
         for doc_id, rec in sorted(span_docs.items()):
             doc = self._build_doc_from_spans(doc_id, rec)
-            if doc is None:
-                continue
+            if doc is not None:
+                built.append(doc)
+        built.sort(key=lambda d: (not bool(DATE_MENTION.search(d.text)), d.doc_id))
+
+        made = 0
+        for position, doc in enumerate(built):
+            # The ordering position, recorded so a report can say which prefix was run
+            # without anyone re-deriving it from the corpus.
+            doc.meta["order"] = position
+            doc.meta["mentions_a_date"] = bool(DATE_MENTION.search(doc.text))
             yield doc
             made += 1
             if limit and made >= limit:

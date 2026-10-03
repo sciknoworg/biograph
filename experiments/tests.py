@@ -732,6 +732,48 @@ def test_bioevents_one_row_is_one_annotation_not_one_sentence():
         shutil.rmtree(tmp, ignore_errors=True)
 
 
+def test_bioevents_orders_extractable_documents_first():
+    """Documents that can yield an event come first, and nothing is excluded.
+
+    46% of this corpus mentions no date, and the schema cannot represent an undated event,
+    so those documents are known to produce nothing before any call is made. Ordering them
+    last makes --limit buy signal rather than confirmation. Ordering, not filtering: a
+    heuristic that silently redefined the corpus would be a much worse trade than one that
+    only decides queue position.
+    """
+    from .benchmarks.bioevents import adapter as b2
+
+    tmp = tempfile.mkdtemp(prefix="b2ord-")
+    try:
+        with open(os.path.join(tmp, "c.csv"), "w", encoding="utf-8") as fh:
+            fh.write("author,sent_id,text,EVENT\n"
+                     'Q1,1,"He left school. (A A)",left\n'
+                     'Q2,1,"She was born in 1931. (B B)",born\n'
+                     'Q3,1,"They met one evening. (C C)",met\n'
+                     'Q4,1,"He died in March of that year. (D D)",died\n')
+        docs = list(b2.BioEventsAdapter(min_triggers=0).load(tmp))
+
+        check("nothing is dropped", len(docs) == 4, str(len(docs)))
+        check("documents mentioning a date come first",
+              [d.doc_id for d in docs] == ["Q2", "Q4", "Q1", "Q3"],
+              str([(d.doc_id, d.meta["mentions_a_date"]) for d in docs]))
+        check("a month name counts as a date mention", docs[1].doc_id == "Q4")
+        check("the ordering position is recorded",
+              [d.meta["order"] for d in docs] == [0, 1, 2, 3],
+              str([d.meta.get("order") for d in docs]))
+
+        # Every limit is a prefix of the same order, so raising one never invalidates a
+        # smaller run -- the point of ordering rather than sampling.
+        two = [d.doc_id for d in b2.BioEventsAdapter(min_triggers=0).load(tmp, limit=2)]
+        check("a smaller limit is a prefix of a larger one",
+              two == [d.doc_id for d in docs][:2], str(two))
+        check("the order is deterministic across loads",
+              [d.doc_id for d in b2.BioEventsAdapter(min_triggers=0).load(tmp)]
+              == [d.doc_id for d in docs])
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
 def test_bioevents_spans_respect_word_boundaries():
     """'he' must not be located inside 'the'.
 
@@ -1025,6 +1067,7 @@ def main() -> int:
                test_bioevents_span_csv, test_bioevents_span_csv_refuses_and_drops,
                test_bioevents_one_row_is_one_annotation_not_one_sentence,
                test_bioevents_spans_respect_word_boundaries,
+               test_bioevents_orders_extractable_documents_first,
                test_every_adapter_scores_the_way_the_cli_calls_it,
                test_grounding_parses_the_shipped_checker, test_grounding_aggregate,
                test_grounding_protocol_shape,
