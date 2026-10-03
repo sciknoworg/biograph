@@ -291,7 +291,12 @@ class GroundingAdapter:
         return Prediction(doc_id=doc.doc_id, items=(extraction.grounding,),
                           meta={"grounding": True})
 
-    def score(self, pairs: Iterable[tuple[BenchmarkDoc, Prediction]]) -> ScoreReport:
+    def score(self, pairs: Iterable[tuple[BenchmarkDoc, Prediction]],
+              extractions: dict[str, Extraction] | None = None) -> ScoreReport:
+        # Accepted and unused. This benchmark reaches cli.py through audit(), not through
+        # the extract-project-score path, so it would never actually be handed one -- but
+        # a Protocol that only holds for the adapters that happen to take a given route is
+        # not a Protocol, and the signature drift it allowed cost two benchmarks a run.
         reports = []
         unparsed = []
         for doc, pred in pairs:

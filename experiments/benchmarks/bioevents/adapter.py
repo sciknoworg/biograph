@@ -540,8 +540,25 @@ class BioEventsAdapter:
     def _overlaps(a_start: int, a_end: int, spans) -> bool:
         return any(a_start < e and s < a_end for s, e in spans)
 
-    def score(self, pairs: Iterable[tuple[BenchmarkDoc, Prediction]]) -> ScoreReport:
+    def score(self, pairs: Iterable[tuple[BenchmarkDoc, Prediction]],
+              extractions: dict[str, Extraction] | None = None) -> ScoreReport:
         pairs = list(pairs)
+        extractions = extractions or {}
+        # Why a document contributed nothing is not recoverable from its recall. Over the
+        # first real run of this benchmark, 25 of 25 documents were refused by the gate
+        # (recorded, not enforced, because --gate-off) and 11 of 25 produced no events at
+        # all -- so most of the missing recall is documents the extractor returned empty,
+        # not triggers it looked at and missed. Those are different findings and the
+        # report has to be able to tell them apart.
+        attrition = {"out_of_scope": 0, "empty_extraction": 0, "did_not_validate": 0}
+        for ex in extractions.values():
+            scope = getattr(ex, "scope", None) or {}
+            if scope.get("fits") is False:
+                attrition["out_of_scope"] += 1
+            if not getattr(ex, "events", ()):
+                attrition["empty_extraction"] += 1
+            if getattr(ex, "exit_code", 0):
+                attrition["did_not_validate"] += 1
         recalled = defaultdict(int)
         gold_total = defaultdict(int)
         tier_counts = defaultdict(int)
@@ -650,7 +667,18 @@ class BioEventsAdapter:
         notes = [
             "Type is never compared: all 22 biograph event types collapse onto TimeML's "
             "single EVENT class, so matching is trigger-anchored and gold triggers are "
-            "only bucketed by class afterwards to report recall per class.",
+            "only bucketed by class afterwards to report recall per class.",]
+        if extractions:
+            notes.append(
+                "Read recall with attrition beside it: %d of %d documents produced no "
+                "events at all, so that share of the missing recall is documents the "
+                "extractor returned empty rather than triggers it examined and missed. "
+                "%d were refused by the scope gate (recorded, not enforced). The released "
+                "documents are short -- this corpus is ~2 sentences per subject -- and a "
+                "document-level extractor on a sentence fragment is a different setting "
+                "from the one the published baseline measures."
+                % (attrition["empty_extraction"], len(pairs), attrition["out_of_scope"]))
+        notes += [
             "%d of %d matches rest on the weak anchor (quote span with no label support); "
             "the rest had both." % (tier_counts["quote"], matched_events),
             "%d extracted events fell outside every annotated sentence and are excluded "
@@ -676,8 +704,9 @@ class BioEventsAdapter:
                 "writer-ARGx": "As writer-ARG0.",
             },
             per_label=per_label,
-            attrition={"documents": len(pairs), "unscorable_span": unscorable_span,
-                       "scorable_events": scorable_events},
+            attrition=dict(attrition, documents=len(pairs),
+                           unscorable_span=unscorable_span,
+                           scorable_events=scorable_events),
             n_docs=len(pairs), notes=notes)
 
     # -------------------------------------------------------------- coverage

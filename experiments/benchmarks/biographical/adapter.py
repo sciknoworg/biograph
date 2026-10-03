@@ -386,8 +386,23 @@ class BiographicalAdapter:
             return vocab.contains(predicted, iso)
         return bool(predicted) and _fold(predicted) == _fold(gold_value)
 
-    def score(self, pairs: Iterable[tuple[BenchmarkDoc, Prediction]]) -> ScoreReport:
+    def score(self, pairs: Iterable[tuple[BenchmarkDoc, Prediction]],
+              extractions: dict[str, Extraction] | None = None) -> ScoreReport:
         pairs = list(pairs)
+        extractions = extractions or {}
+        # Same reasoning as bioevents: a recall figure is unreadable without knowing how
+        # many documents produced nothing. This adapter has never been run through the
+        # CLI -- its corpus licence is unresolved -- so this is the attrition it will
+        # report on the first real run, not a number anyone has seen yet.
+        doc_attrition = {"out_of_scope": 0, "empty_extraction": 0, "did_not_validate": 0}
+        for ex in extractions.values():
+            scope = getattr(ex, "scope", None) or {}
+            if scope.get("fits") is False:
+                doc_attrition["out_of_scope"] += 1
+            if not getattr(ex, "events", ()) and not getattr(ex, "relations", ()):
+                doc_attrition["empty_extraction"] += 1
+            if getattr(ex, "exit_code", 0):
+                doc_attrition["did_not_validate"] += 1
         tp = defaultdict(int)
         fn = defaultdict(int)
         fp = defaultdict(int)
@@ -498,7 +513,8 @@ class BiographicalAdapter:
                 "other": "The benchmark's catch-all class, not a label to predict. "
                          "Extracted items with no target appear in Prediction.unmapped.",
             },
-            per_label=per_label, attrition=attrition, n_docs=len(pairs), notes=notes)
+            per_label=per_label, attrition=dict(attrition, **doc_attrition),
+            n_docs=len(pairs), notes=notes)
 
     # -------------------------------------------------------------- coverage
 

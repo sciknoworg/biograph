@@ -579,6 +579,46 @@ def test_bioevents_state_and_precision():
           str(pred.lossy))
 
 
+def test_every_adapter_scores_the_way_the_cli_calls_it():
+    """cli.py calls score(pairs, extractions=...). Every adapter must accept that.
+
+    This exists because two benchmarks were built, unit-tested and reported as ready while
+    being impossible to run: the tests called score(pairs) positionally, cli.py passes
+    `extractions` as a keyword, and only one of four adapters had the parameter. The
+    failure surfaced on the first real CLI run, after 25 extraction calls had already been
+    paid for -- the crash landed between extraction and the report.
+
+    So this checks the signature the way the caller uses it, not the way the tests do.
+    """
+    import inspect
+
+    from .benchmarks.bioevents.adapter import BioEventsAdapter
+    from .benchmarks.biographical.adapter import BiographicalAdapter
+    from .benchmarks.grounding.adapter import GroundingAdapter
+    from .benchmarks.pmoa_tts.adapter import PmoaTtsAdapter
+
+    for cls in (BioEventsAdapter, BiographicalAdapter, GroundingAdapter, PmoaTtsAdapter):
+        sig = inspect.signature(cls.score)
+        check("%s.score accepts extractions= as cli.py passes it" % cls.__name__,
+              "extractions" in sig.parameters, str(sig))
+        if "extractions" in sig.parameters:
+            check("%s.score's extractions is optional" % cls.__name__,
+                  sig.parameters["extractions"].default is not inspect.Parameter.empty,
+                  str(sig.parameters["extractions"]))
+
+    # And actually call one that way, so an accepted-but-unused parameter that blows up
+    # inside the body is caught too.
+    from .benchmarks.bioevents import adapter as b2
+    sent = _b2_sentence([("P", "O"), ("studied", "B-EVENT")])
+    doc = b2.ADAPTER._build_doc("d", [sent])
+    ex = Extraction(doc_id="d", slug="d", subject={"id": "p1", "name": "P"},
+                    entities=({"id": "p1", "entity_type": "person", "name": "P"},),
+                    events=(), relations=(), sources=())
+    rep = b2.ADAPTER.score([(doc, b2.ADAPTER.project(doc, ex))], extractions={"d": ex})
+    check("an empty extraction is counted as attrition, not just as missed recall",
+          rep.attrition.get("empty_extraction") == 1, str(rep.attrition))
+
+
 def test_bioevents_span_csv():
     """The published release: one sentence per row, annotated span TEXT per column.
 
@@ -896,6 +936,7 @@ def main() -> int:
                test_bioevents_tags_and_offsets, test_bioevents_anchoring,
                test_bioevents_state_and_precision, test_bioevents_roles_and_header,
                test_bioevents_span_csv, test_bioevents_span_csv_refuses_and_drops,
+               test_every_adapter_scores_the_way_the_cli_calls_it,
                test_grounding_parses_the_shipped_checker, test_grounding_aggregate,
                test_grounding_protocol_shape,
                test_grounding_excludes_overwritten_sources,

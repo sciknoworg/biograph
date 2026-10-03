@@ -173,7 +173,21 @@ class BenchmarkAdapter(Protocol):
     def project(self, doc: BenchmarkDoc, extraction: Extraction) -> Prediction:
         """Output adapter: biograph's fixed vocabulary -> this benchmark's label space."""
 
-    def score(self, pairs: Iterable[tuple[BenchmarkDoc, Prediction]]) -> ScoreReport:
+    def score(self, pairs: Iterable[tuple[BenchmarkDoc, Prediction]],
+              extractions: dict[str, Extraction] | None = None) -> ScoreReport:
+        """Score the projected predictions against gold.
+
+        `extractions` carries the raw Extraction per doc_id, which cli.py always passes.
+        An adapter that only needs `pairs` still has to ACCEPT it: the parameter was once
+        optional in practice and present in only one adapter, so two benchmarks that were
+        built, unit-tested and believed ready crashed on their first real CLI run with
+        `unexpected keyword argument 'extractions'`. Unit tests called score(pairs)
+        directly and never caught it. It is in the Protocol so that cannot recur.
+
+        Use it for attrition: how many documents the gate refused, produced nothing, or
+        failed to validate. A recall figure with no attrition beside it cannot be read --
+        low recall because the extractor missed triggers and low recall because half the
+        documents came back empty are different findings."""
         """Scorer: the benchmark's published metric, not a new one."""
 
     def coverage(self) -> dict[str, tuple[str, str]]:
