@@ -293,20 +293,38 @@ def _read_span_csv(path: str):
 class BioEventsAdapter:
     name = "bioevents"
     citation = "arXiv:2206.03547 (ISA 2022); repo marcostranisci/biographicalEvents"
-    license = ("Paper CC BY 4.0 (ACL Anthology 2022.isa-1.3). The corpus itself declares no "
-               "separate licence and is published openly in the authors' repository; it is "
-               "Wikipedia-derived, so CC BY-SA upstream. Not redistributed here -- nothing "
-               "is fetched by this adapter, which reads a local copy via --data-root, and "
-               "experiments/corpora/bioevents/ carries the provenance note.")
+    license = ("Paper CC-BY-NC-4.0 (ELRA), per the proceedings footer on the PDF itself -- "
+               "NOT the CC BY 4.0 the ACL Anthology's generic banner implies, and the NC "
+               "matters. The corpus declares no licence of its own and is published openly "
+               "in the authors' repository; it is Wikipedia-derived, so CC BY-SA upstream. "
+               "Not redistributed here -- nothing is fetched by this adapter, which reads a "
+               "local copy via --data-root, and experiments/corpora/bioevents/ carries the "
+               "provenance note.")
     label_space = CLASSES + ROLES
     metric = ("trigger-anchored recall per TimeML class, with pooled precision over "
               "annotated spans; type is never compared")
     published_baseline: dict[str, float] = {}
     published_baseline_note = (
-        "deliberately empty. The paper's figures are token-level sequence labelling by a "
-        "model trained on this corpus; this adapter anchors a zero-shot document-level "
-        "extractor's events to the same triggers. The two are not the same task and must "
-        "not be printed side by side as though one cleared the other.")
+        "empty because THE PAPER REPORTS NO SYSTEM PERFORMANCE. This was previously "
+        "described here as 'token-level sequence labelling by a model trained on this "
+        "corpus'. That is wrong: it is a guidelines-and-resource paper, and its five "
+        "tables are inter-annotator agreement, corpus counts, the most frequent "
+        "events/states, a PropBank argument distribution and recurring link structures. "
+        "It trains nothing and evaluates nothing. There is no published number to beat, "
+        "and claiming to have beaten one would be inventing an opponent. "
+        "The only quantitative anchor is the HUMAN AGREEMENT CEILING in Table 1 "
+        "(see IAA below), which is what two trained annotators following these guidelines "
+        "achieve against each other -- a ceiling, never a baseline.")
+
+    #: Table 1, averaged over the six annotator pairings. Recorded for context only, and
+    #: deliberately kept out of published_baseline so nothing can print it as a score this
+    #: pipeline was measured against. STATE being the LOWEST agreement in the table (0.67,
+    #: against 0.83 for EVENT) is worth noticing: the class this schema refuses to
+    #: represent is also the class human annotators agree on least.
+    inter_annotator_agreement = {
+        "EVENT": 0.83, "STATE": 0.67, "writer-ARG0": 0.91, "writer-ARGx": 0.90,
+        "ARGx-LOC": 0.75, "ARGx-ORG": 0.81, "ARGM-TIME": 0.91,
+    }
 
     def __init__(self, min_triggers: int = 1, max_chars: int = 12000):
         self.min_triggers = min_triggers
