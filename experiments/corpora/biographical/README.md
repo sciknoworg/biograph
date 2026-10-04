@@ -37,10 +37,59 @@ curl -L -o experiments/corpora/biographical/m2_gold.tsv \
   https://huggingface.co/datasets/plumaj/biographical/resolve/main/en/m2_gold.tsv
 ```
 
-`en/` also holds `m2_train.tsv`, `m2_test.tsv` and the `comb`/`coref`/`skip` variants --
-1.5M rows of semi-supervised, automatically aligned data. **Use `m2_gold.tsv`**: it is the
-human-annotated set, and this pipeline is zero-shot, so there is nothing to train on and
-no reason to evaluate against distant-supervision labels.
+### The nine English files, and why only one is used
+
+| file | size | what it is |
+|---|---:|---|
+| **`m2_gold.tsv`** | **678 KB** | **human-annotated gold. The only file used.** |
+| `m2_train.tsv` / `m2_test.tsv` | 59 / 7 MB | `normal` processing, distant supervision |
+| `m2_coref_train/test.tsv` | 70 / 9 MB | with automatic coreference resolution |
+| `m2_skip_train/test.tsv` | 34 / 4 MB | first sentence of each article skipped |
+| `m2_comb_train/test.tsv` | 145 / 20 MB | the three combined, deduplicated |
+
+The train/test files are **automatically aligned, not human-checked**. Their label noise is
+measurable from the gold file itself: `relation` (the automatic label) and `ANNOTATION` (the
+human one) disagree on 578 of 2,900 rows, 20%.
+
+This pipeline is zero-shot, so there is nothing to train on, and evaluating against
+distant-supervision labels would measure agreement with a signal already known to be 20%
+wrong. `m2_gold.tsv` is also what the paper's own models are evaluated on, so using it
+keeps the evaluation set shared even though the task is not.
+
+## What the paper reports, and why it is not a bar this run clears
+
+The paper trains BERT-base on each distant-supervision set and evaluates **on this same
+gold file**. So the evaluation set is shared -- the difference is the task.
+
+**Their task is 10-way classification over a pair someone already found.** The model is
+handed a sentence with `<e1>` and `<e2>` marked and picks one label, including `other`.
+**This pipeline is handed raw text with no pair**, and must find the entities, decide which
+are related, and type the relation. Recall there is over pairs presented; recall here is
+over facts nobody pointed at.
+
+Table 5, BERT trained on `normal`, evaluated on gold -- macro **P 0.90 / R 0.73 / F1 0.76**
+(coref 0.78, skip 0.74, all 0.78):
+
+| relation | P | R | F1 |
+|---|---:|---:|---:|
+| birthdate | 1.00 | 0.99 | 1.00 |
+| deathdate | 1.00 | 0.95 | 0.97 |
+| occupation | 1.00 | 0.99 | 1.00 |
+| educatedAt | 0.98 | 0.87 | 0.92 |
+| birthplace | 0.85 | 0.77 | 0.81 |
+| ofParent | 0.92 | 0.54 | 0.66 |
+| deathplace | 0.73 | 0.53 | 0.62 |
+| sibling | 0.92 | 0.45 | 0.57 |
+| hasChild | 0.96 | 0.36 | 0.42 |
+| other | 0.38 | 0.95 | 0.54 |
+
+Table 4 scores the **matching algorithm itself** against the same gold, macro F1 **0.83**.
+That is the more honest of the two references: a label the distant supervision got wrong is
+a label the classifier was taught wrong, so 0.83 is the ceiling 0.76 was trained toward.
+
+Both are recorded in the adapter as `reference_classifier` and
+`reference_matching_macro_f1`, deliberately kept **out** of `published_baseline` so no
+report renders them as a bar this run cleared or missed.
 
 ## What is in it
 

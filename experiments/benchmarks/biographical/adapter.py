@@ -247,9 +247,35 @@ class BiographicalAdapter:
     metric = "micro and macro P/R/F1 over the scored labels; dates by interval containment"
     published_baseline: dict[str, float] = {}
     published_baseline_note = (
-        "deliberately empty. The paper reports sentence-level figures; this adapter groups "
-        "sentences by person (see module docstring), so the published numbers are not the "
-        "bar this run clears and must not be printed beside it as though they were.")
+        "empty, but NOT because the paper reports nothing and NOT because it evaluates on "
+        "different data. It evaluates a BERT classifier on exactly this gold file, so the "
+        "evaluation SET is shared. What differs is the TASK. Their model is handed a "
+        "marked entity pair and chooses one of ten labels for it, including `other`: a "
+        "10-way classification over a pair someone else found. This pipeline is handed raw "
+        "text with no pair and must find the entities, decide which are related, and type "
+        "the relation. Recall there is over pairs presented; recall here is over facts "
+        "nobody pointed at. Printing the two side by side would read as a comparison "
+        "between a weaker and a stronger system rather than between two different jobs.")
+
+    #: Table 5 of the paper: BERT-base trained on each distant-supervision set and
+    #: evaluated on this same gold file. Recorded for context, kept out of
+    #: published_baseline so nothing renders it as a bar this run cleared or missed.
+    #: Macro F1 by training set: normal 0.76, coref 0.78, skip 0.74, all 0.78.
+    #: Per relation on the `normal` set, as (P, R, F1):
+    reference_classifier = {
+        "birthdate": (1.00, 0.99, 1.00), "birthplace": (0.85, 0.77, 0.81),
+        "deathdate": (1.00, 0.95, 0.97), "deathplace": (0.73, 0.53, 0.62),
+        "occupation": (1.00, 0.99, 1.00), "educatedAt": (0.98, 0.87, 0.92),
+        "ofParent": (0.92, 0.54, 0.66), "hasChild": (0.96, 0.36, 0.42),
+        "sibling": (0.92, 0.45, 0.57), "other": (0.38, 0.95, 0.54),
+        "macro": (0.90, 0.73, 0.76),
+    }
+
+    #: Table 4 of the paper: the DISTANT SUPERVISION itself scored against the same gold,
+    #: macro F1 0.83 (normal). This is the ceiling the classifier was trained toward, and
+    #: it is the more honest reference of the two: a label the matching algorithm got wrong
+    #: is a label the classifier was taught wrong.
+    reference_matching_macro_f1 = 0.83
 
     #: How load() orders documents, which decides what --limit buys.
     #:
