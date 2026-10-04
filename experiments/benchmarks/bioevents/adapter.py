@@ -152,6 +152,28 @@ DATE_MENTION = re.compile(
     r"|November|December)\b", re.I)
 
 
+def _as_id(value) -> str:
+    """A model-emitted entity reference, as a string that is safe to use as a dict key.
+
+    The schema says events[].location and relations[].source/target are entity IDS --
+    strings. A model does not always agree: one document in the first real run emitted
+    location as a {"name": ..., "id": ...} object, and `names.get(ev.get("location"))`
+    raised TypeError: unhashable type: 'dict'. That killed the run outright, 82 documents
+    in, after every one of those extractions had already been paid for.
+
+    An adapter reads untrusted model output and must not crash on it. A reference that is
+    not a string is returned as "", which resolves to no entity -- the item is then simply
+    unmapped, which is the correct outcome for a reference that does not name anything.
+    An id nested inside such an object is taken when it is there, since that loses nothing.
+    """
+    if isinstance(value, str):
+        return value
+    if isinstance(value, dict):
+        inner = value.get("id") or value.get("entity_id")
+        return inner if isinstance(inner, str) else ""
+    return ""
+
+
 def _occurrences(text: str, surface: str) -> list[int]:
     """Start offsets of `surface` in `text`, respecting word boundaries.
 
@@ -668,14 +690,14 @@ class BioEventsAdapter:
                 for s, e in self._spans_of(doc.text, date["display"]):
                     items.append(("ARGM-TIME", {"start": s, "end": e,
                                                 "surface": date["display"]}))
-            loc = names.get(ev.get("location") or "")
+            loc = names.get(_as_id(ev.get("location")))
             if loc:
                 for s, e in self._spans_of(doc.text, loc):
                     items.append(("ARGx-LOC", {"start": s, "end": e, "surface": loc}))
 
         for rel in extraction.relations:
             role = RELATION_ROLE.get(rel.get("type"))
-            target = names.get(rel.get("target") or "")
+            target = names.get(_as_id(rel.get("target")))
             if not role:
                 unmapped.append(("relation", str(rel.get("id", "")), str(rel.get("type")),
                                  "the SemAF role inventory is writer-centric; a relation "

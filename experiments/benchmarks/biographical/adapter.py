@@ -132,6 +132,28 @@ RELEASE_LABELS = {
 MARKER = re.compile(r"<(e[12])>(.*?)</\1>", re.S)
 
 
+def _as_id(value) -> str:
+    """A model-emitted entity reference, as a string that is safe to use as a dict key.
+
+    The schema says events[].location and relations[].source/target are entity IDS --
+    strings. A model does not always agree: one document in the first real run emitted
+    location as a {"name": ..., "id": ...} object, and `names.get(ev.get("location"))`
+    raised TypeError: unhashable type: 'dict'. That killed the run outright, 82 documents
+    in, after every one of those extractions had already been paid for.
+
+    An adapter reads untrusted model output and must not crash on it. A reference that is
+    not a string is returned as "", which resolves to no entity -- the item is then simply
+    unmapped, which is the correct outcome for a reference that does not name anything.
+    An id nested inside such an object is taken when it is there, since that loses nothing.
+    """
+    if isinstance(value, str):
+        return value
+    if isinstance(value, dict):
+        inner = value.get("id") or value.get("entity_id")
+        return inner if isinstance(inner, str) else ""
+    return ""
+
+
 def _strip_markers(sentence: str) -> str:
     """The sentence as prose, with the annotation markup removed.
 
@@ -434,7 +456,7 @@ class BiographicalAdapter:
                 continue
             if subject_id and not self._is_subject_of(ev, subject_id):
                 continue
-            return ev.get("date"), names.get(ev.get("location") or "")
+            return ev.get("date"), names.get(_as_id(ev.get("location")))
         return None, None
 
     @staticmethod
@@ -450,9 +472,9 @@ class BiographicalAdapter:
         parts = ev.get("participants") or []
         roled = [p for p in parts if (p.get("role") or "").strip()]
         if roled:
-            return any(p.get("entity_id") == subject_id
+            return any(_as_id(p.get("entity_id")) == subject_id
                        and _fold(p.get("role")) == "subject" for p in roled)
-        return any(p.get("entity_id") == subject_id for p in parts)
+        return any(_as_id(p.get("entity_id")) == subject_id for p in parts)
 
     def project(self, doc: BenchmarkDoc, extraction: Extraction) -> Prediction:
         names = self._names(extraction)
@@ -477,7 +499,7 @@ class BiographicalAdapter:
         # --- relations
         for rel in extraction.relations:
             rtype = rel.get("type")
-            src, tgt = rel.get("source"), rel.get("target")
+            src, tgt = _as_id(rel.get("source")), _as_id(rel.get("target"))
             target_name = names.get(tgt, "")
             if sid and src != sid and tgt != sid:
                 continue                       # a fact about someone else in the document

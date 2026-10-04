@@ -879,6 +879,49 @@ def test_bioevents_orders_extractable_documents_first():
         shutil.rmtree(tmp, ignore_errors=True)
 
 
+def test_adapters_survive_a_non_string_entity_reference():
+    """An adapter reads untrusted model output and must not crash on it.
+
+    The schema says events[].location and relations[].source/target are entity ids. A model
+    emitted location as a {"name":..., "id":...} object instead, and the dict reached
+    names.get() as a key: TypeError, unhashable type. It killed a 220-document run 82
+    documents in, after every one of those extractions had been paid for. A malformed
+    reference has to resolve to no entity, not to an exception.
+    """
+    from .benchmarks.bioevents import adapter as b2
+    from .benchmarks.biographical import adapter as b1
+
+    for mod in (b2, b1):
+        check("%s: a plain id passes through" % mod.__name__.split(".")[-2],
+              mod._as_id("tuomo_suntola") == "tuomo_suntola")
+        check("%s: a dict yields its id rather than raising" % mod.__name__.split(".")[-2],
+              mod._as_id({"id": "paris", "name": "Paris"}) == "paris")
+        check("%s: a dict with no id yields nothing" % mod.__name__.split(".")[-2],
+              mod._as_id({"name": "Paris"}) == "")
+        for bad in (None, 42, ["a"], {"id": 7}):
+            check("%s: %r resolves to no entity" % (mod.__name__.split(".")[-2], bad),
+                  mod._as_id(bad) == "")
+
+    # End to end: the exact shape that crashed, projected rather than raised.
+    sent = _b2_sentence([("P", "O"), ("moved", "B-EVENT")])
+    doc = b2.ADAPTER._build_doc("d", [sent])
+    ex = Extraction(
+        doc_id="d", slug="d", subject={"id": "p1", "name": "P"},
+        entities=({"id": "p1", "entity_type": "person", "name": "P"},),
+        events=({"id": "e1", "event_type": "relocation", "label": "Moved",
+                 "date": {"display": "1931", "sort_start": "1931-01-01",
+                          "sort_end": "1931-12-31"},
+                 "location": {"id": "paris", "name": "Paris"},
+                 "participants": ({"entity_id": "p1"},), "sources": ()},),
+        relations=({"id": "r1", "type": "lived_in", "source": {"id": "p1"},
+                    "target": {"name": "Paris"}, "sources": ()},),
+        sources=())
+    pred = b2.ADAPTER.project(doc, ex)
+    check("a malformed location does not crash projection", pred is not None)
+    rep = b2.ADAPTER.score([(doc, pred)], extractions={"d": ex})
+    check("and the run still produces a report", rep.n_docs == 1, str(rep.n_docs))
+
+
 def test_bioevents_richness_ordering_stays_inside_the_dated_block():
     """--order richness sorts by gold EVENT count, but never ahead of extractability.
 
@@ -1222,6 +1265,7 @@ def main() -> int:
                test_bioevents_spans_respect_word_boundaries,
                test_bioevents_orders_extractable_documents_first,
                test_bioevents_richness_ordering_stays_inside_the_dated_block,
+               test_adapters_survive_a_non_string_entity_reference,
                test_every_adapter_scores_the_way_the_cli_calls_it,
                test_grounding_parses_the_shipped_checker, test_grounding_aggregate,
                test_grounding_protocol_shape,
