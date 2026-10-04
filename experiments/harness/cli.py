@@ -47,7 +47,7 @@ def get_adapter(name: str, args):
         return GroundingAdapter()
     if name == "bioevents":
         from ..benchmarks.bioevents.adapter import BioEventsAdapter
-        return BioEventsAdapter(min_triggers=args.min_triggers)
+        return BioEventsAdapter(min_triggers=args.min_triggers, order=args.order)
     raise SystemExit(f"no adapter named {name!r} yet "
                      f"(built so far: pmoa_tts, biographical, bioevents, grounding)")
 
@@ -79,6 +79,14 @@ def main(argv=None) -> int:
     # bioevents options
     ap.add_argument("--min-triggers", type=int, default=1,
                     help="skip documents with fewer than this many annotated triggers")
+    ap.add_argument("--order", default="extractable", choices=("extractable", "richness"),
+                    help="document order, which decides what --limit buys. Both put "
+                         "documents that can yield an event first. 'extractable' then "
+                         "orders by id, giving a prefix representative of that "
+                         "subcorpus; 'richness' then orders by gold EVENT count, "
+                         "reaching a given number of EVENTs in roughly half the calls "
+                         "but giving a prefix twice as dense as the corpus, whose "
+                         "recall is not a corpus estimate and must be reported as such")
     # pmoa_tts options
     ap.add_argument("--framing", default="minimal", choices=("none", "minimal", "biographical"))
     ap.add_argument("--no-anchor", action="store_true")

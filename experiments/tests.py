@@ -774,6 +774,53 @@ def test_bioevents_orders_extractable_documents_first():
         shutil.rmtree(tmp, ignore_errors=True)
 
 
+def test_bioevents_richness_ordering_stays_inside_the_dated_block():
+    """--order richness sorts by gold EVENT count, but never ahead of extractability.
+
+    Sorting on EVENT count alone pulls undated documents forward: they hold 292 of the
+    corpus's gold EVENTs and can yield none of them, because the schema requires a date.
+    That put 74 guaranteed-empty documents into the first 220 -- a third of the budget
+    spent on documents whose result was known in advance.
+    """
+    from .benchmarks.bioevents import adapter as b2
+
+    tmp = tempfile.mkdtemp(prefix="b2rich-")
+    try:
+        with open(os.path.join(tmp, "c.csv"), "w", encoding="utf-8") as fh:
+            fh.write("author,sent_id,text,EVENT\n"
+                     # undated but EVENT-rich: must still sort last
+                     'Q1,1,"He wrote and then he left. (A A)",wrote\n'
+                     'Q1,2,"He returned and he spoke. (A A)",returned\n'
+                     'Q1,3,"He sang. (A A)",sang\n'
+                     # dated, one event
+                     'Q2,1,"She was born in 1931. (B B)",born\n'
+                     # dated, two events
+                     'Q3,1,"In 1950 he moved. (C C)",moved\n'
+                     'Q3,2,"In 1952 he married. (C C)",married\n')
+        order = [d.doc_id for d in
+                 b2.BioEventsAdapter(min_triggers=0, order="richness").load(tmp)]
+        check("an EVENT-rich undated document still sorts last",
+              order == ["Q3", "Q2", "Q1"], str(order))
+
+        plain = [d.doc_id for d in
+                 b2.BioEventsAdapter(min_triggers=0, order="extractable").load(tmp)]
+        check("extractable ordering is by id within the dated block",
+              plain == ["Q2", "Q3", "Q1"], str(plain))
+
+        docs = list(b2.BioEventsAdapter(min_triggers=0, order="richness").load(tmp))
+        check("the ordering used is recorded on every document",
+              all(d.meta["ordering"] == "richness" for d in docs))
+
+        try:
+            b2.BioEventsAdapter(order="densest")
+            check("an unknown ordering is refused", False, "no SystemExit")
+        except SystemExit as e:
+            check("an unknown ordering is refused", "--order must be one of" in str(e),
+                  str(e)[:70])
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
 def test_bioevents_spans_respect_word_boundaries():
     """'he' must not be located inside 'the'.
 
@@ -1068,6 +1115,7 @@ def main() -> int:
                test_bioevents_one_row_is_one_annotation_not_one_sentence,
                test_bioevents_spans_respect_word_boundaries,
                test_bioevents_orders_extractable_documents_first,
+               test_bioevents_richness_ordering_stays_inside_the_dated_block,
                test_every_adapter_scores_the_way_the_cli_calls_it,
                test_grounding_parses_the_shipped_checker, test_grounding_aggregate,
                test_grounding_protocol_shape,

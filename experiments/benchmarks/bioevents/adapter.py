@@ -403,9 +403,32 @@ class BioEventsAdapter:
         "ARGx-LOC": 0.75, "ARGx-ORG": 0.81, "ARGM-TIME": 0.91,
     }
 
-    def __init__(self, min_triggers: int = 1, max_chars: int = 12000):
+    #: How load() orders documents. Both put documents that CAN yield an event first; they
+    #: differ in what comes next, and the difference is a methodological choice that has to
+    #: be stated in any result, which is why it is a named condition and not a default.
+    #:
+    #:   "extractable"  dated first, then by doc_id. The prefix is a REPRESENTATIVE sample
+    #:                  of the dated subcorpus -- verified unbiased on date rate, length
+    #:                  and triggers per document -- so recall over it estimates recall
+    #:                  over that subpopulation.
+    #:   "richness"     dated first, then by gold EVENT count descending. Reaches 300 gold
+    #:                  EVENTs in 114 documents against 220, roughly half the wall time.
+    #:                  The prefix is NOT representative: 1.95 EVENTs per document against
+    #:                  the corpus's 1.12, and longer documents. Recall over it estimates
+    #:                  recall over the densest documents, and the direction of that bias
+    #:                  is not predictable -- denser may be easier (more context) or harder
+    #:                  (several distinct dated events to disentangle from one sentence) --
+    #:                  so it must be reported as what it is, never as a corpus estimate.
+    ORDERS = ("extractable", "richness")
+
+    def __init__(self, min_triggers: int = 1, max_chars: int = 12000,
+                 order: str = "extractable"):
+        if order not in self.ORDERS:
+            raise SystemExit("BiographicalEvents: --order must be one of %s, got %r"
+                             % (", ".join(self.ORDERS), order))
         self.min_triggers = min_triggers
         self.max_chars = max_chars
+        self.order = order
 
     # -------------------------------------------------------------- load
 
@@ -458,13 +481,25 @@ class BioEventsAdapter:
             doc = self._build_doc_from_spans(doc_id, rec)
             if doc is not None:
                 built.append(doc)
-        built.sort(key=lambda d: (not bool(DATE_MENTION.search(d.text)), d.doc_id))
+        def _rank(doc):
+            undated = not bool(DATE_MENTION.search(doc.text))
+            if self.order == "richness":
+                # Within the dated block only. Sorting on gold EVENT count alone pulls
+                # undated documents forward -- they carry 292 of the corpus's gold EVENTs
+                # and can yield none of them -- which put 74 guaranteed-empty documents
+                # into the first 220.
+                events = sum(1 for a in doc.gold["triggers"] if a["label"] == "EVENT")
+                return (undated, -events, -len(doc.gold["roles"]), doc.doc_id)
+            return (undated, doc.doc_id)
+
+        built.sort(key=_rank)
 
         made = 0
         for position, doc in enumerate(built):
             # The ordering position, recorded so a report can say which prefix was run
             # without anyone re-deriving it from the corpus.
             doc.meta["order"] = position
+            doc.meta["ordering"] = self.order
             doc.meta["mentions_a_date"] = bool(DATE_MENTION.search(doc.text))
             yield doc
             made += 1
