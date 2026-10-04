@@ -413,6 +413,60 @@ def test_biographical_family_and_dates():
     check("places match on a folded string", hit("birthplace", "Zurich", "Zürich"))
 
 
+def test_biographical_balanced_ordering():
+    """Round-robin across labels, so every prefix gives even per-label support.
+
+    1,774 of the 1,800 scoreable documents carry exactly one scored fact, so ordering
+    cannot buy density here the way it can for bioevents. What it buys is support for the
+    macro F1: gold runs from birthdate at 296 facts down to deathplace at 104, so a
+    proportional prefix starves the smallest label first. At --limit 400 the weakest label
+    gets 50 instead of 19.
+    """
+    from .benchmarks.biographical import adapter as b1
+
+    tab = "\t"
+    tmp = tempfile.mkdtemp(prefix="b1ord-")
+    try:
+        rows = [tab.join(["sentence", "relation", "P1", "P2", "ANNOTATION", "wp_id"])]
+        # Six birthdate documents against two deathplace: a proportional prefix spends the
+        # whole budget on birthdate before reaching deathplace at all.
+        for i in range(6):
+            rows.append(tab.join([
+                "<e1>P%d</e1> was born on <e2>1 May 190%d</e2>." % (i, i),
+                "birthdate", "e1", "e2", "birthdate", str(100 + i)]))
+        for i in range(2):
+            rows.append(tab.join([
+                "<e1>Q%d</e1> died in <e2>Rome</e2>." % i,
+                "dplace_name", "e1", "e2", "dplace_name", str(200 + i)]))
+        with open(os.path.join(tmp, "g.tsv"), "w", encoding="utf-8", newline="") as fh:
+            fh.write("\n".join(rows) + "\n")
+
+        bal = [d.meta["scored_labels"][0]
+               for d in b1.BiographicalAdapter(order="balanced").load(tmp)]
+        check("the two labels alternate while both have documents",
+              bal[:4] == ["birthdate", "deathplace", "birthdate", "deathplace"], str(bal))
+        check("the exhausted label simply stops appearing",
+              bal[4:] == ["birthdate"] * 4, str(bal))
+        check("nothing is dropped by reordering", len(bal) == 8, str(len(bal)))
+
+        plain = [d.meta["scored_labels"][0]
+                 for d in b1.BiographicalAdapter(order="id").load(tmp)]
+        check("id ordering leaves the corpus distribution alone",
+              plain == ["birthdate"] * 6 + ["deathplace"] * 2, str(plain))
+        check("the ordering used is recorded on every document",
+              all(d.meta["ordering"] == "balanced"
+                  for d in b1.BiographicalAdapter(order="balanced").load(tmp)))
+
+        try:
+            b1.BiographicalAdapter(order="whatever")
+            check("an unknown ordering is refused", False, "no SystemExit")
+        except SystemExit as e:
+            check("an unknown ordering is refused", "--order must be one of" in str(e),
+                  str(e)[:70])
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
 def test_biographical_marked_release():
     """The published release: <e1>/<e2> spans in the sentence, P1 naming the subject.
 
@@ -1159,7 +1213,8 @@ def main() -> int:
                test_embedding_threshold_calibration, test_pmc_body_boundary,
                test_scoring_end_to_end, test_vocab_and_matrix, test_sandbox,
                test_biographical_projection, test_biographical_family_and_dates,
-               test_biographical_marked_release, test_biographical_input_adapter, test_biographical_scoring,
+               test_biographical_marked_release, test_biographical_input_adapter,
+               test_biographical_balanced_ordering, test_biographical_scoring,
                test_bioevents_tags_and_offsets, test_bioevents_anchoring,
                test_bioevents_state_and_precision, test_bioevents_roles_and_header,
                test_bioevents_span_csv, test_bioevents_span_csv_refuses_and_drops,

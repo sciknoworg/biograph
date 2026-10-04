@@ -41,7 +41,7 @@ def get_adapter(name: str, args):
         )
     if name == "biographical":
         from ..benchmarks.biographical.adapter import BiographicalAdapter
-        return BiographicalAdapter(min_facts=args.min_facts)
+        return BiographicalAdapter(min_facts=args.min_facts, order=args.b1_order)
     if name == "grounding":
         from ..benchmarks.grounding.adapter import GroundingAdapter
         return GroundingAdapter()
@@ -79,6 +79,10 @@ def main(argv=None) -> int:
     # bioevents options
     ap.add_argument("--min-triggers", type=int, default=1,
                     help="skip documents with fewer than this many annotated triggers")
+    ap.add_argument("--b1-order", default="balanced", choices=("balanced", "id"),
+                    help="biographical document order. 'balanced' round-robins across the "
+                         "scored labels, so every prefix gives even per-label support for "
+                         "the macro F1; 'id' is a proportional sample by page id")
     ap.add_argument("--order", default="extractable", choices=("extractable", "richness"),
                     help="document order, which decides what --limit buys. Both put "
                          "documents that can yield an event first. 'extractable' then "

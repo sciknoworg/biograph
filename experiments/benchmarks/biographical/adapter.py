@@ -251,11 +251,30 @@ class BiographicalAdapter:
         "sentences by person (see module docstring), so the published numbers are not the "
         "bar this run clears and must not be printed beside it as though they were.")
 
-    def __init__(self, min_facts: int = 1, max_chars: int = 12000):
+    #: How load() orders documents, which decides what --limit buys.
+    #:
+    #:   "balanced"  round-robin across the scored labels. 1,774 of the 1,800 scoreable
+    #:               documents carry exactly ONE scored fact, so document count and fact
+    #:               count are the same thing here and ordering cannot buy density the way
+    #:               it can for bioevents. What it can buy is per-label support, which is
+    #:               what this benchmark's macro F1 needs: gold is uneven, from birthdate
+    #:               at 296 facts down to deathplace at 104, so a proportional prefix
+    #:               starves the smallest label first. Round-robin maximises the weakest
+    #:               label's support at every budget.
+    #:   "id"        by page id. A proportional sample of the corpus, for when the
+    #:               distribution across labels is itself what is being reported.
+    ORDERS = ("balanced", "id")
+
+    def __init__(self, min_facts: int = 1, max_chars: int = 12000,
+                 order: str = "balanced"):
         #: People with very few annotated facts still cost a full extraction, so the floor
         #: is exposed rather than hardcoded -- raising it trades coverage for API budget.
+        if order not in self.ORDERS:
+            raise SystemExit("Biographical: --order must be one of %s, got %r"
+                             % (", ".join(self.ORDERS), order))
         self.min_facts = min_facts
         self.max_chars = max_chars
+        self.order = order
 
     # -------------------------------------------------------------- load
 
@@ -308,11 +327,30 @@ class BiographicalAdapter:
             if obj and (label, obj) not in rec["gold"]:
                 rec["gold"].append((label, obj))
 
-        made = 0
+        built = []
         for page, rec in sorted(by_page.items()):
             scored = [f for f in rec["gold"] if f[0] in SCORED]
             if len(scored) < self.min_facts:
                 continue
+            built.append((page, rec, scored))
+
+        if self.order == "balanced":
+            # Round-robin over the scored labels, each label's own documents kept in page
+            # order so the result is deterministic. A document is placed by its FIRST
+            # scored label; the 26 documents carrying two are therefore counted once, under
+            # whichever label sorts first, rather than being emitted twice.
+            buckets: dict[str, list] = defaultdict(list)
+            for item in built:
+                buckets[sorted(f[0] for f in item[2])[0]].append(item)
+            ordered, labels = [], sorted(buckets)
+            while any(buckets[lab] for lab in labels):
+                for lab in labels:
+                    if buckets[lab]:
+                        ordered.append(buckets[lab].pop(0))
+            built = ordered
+
+        made = 0
+        for position, (page, rec, scored) in enumerate(built):
             name = max(rec["names"], key=len) if rec["names"] else page
             text = " ".join(rec["sentences"])[:self.max_chars]
             yield BenchmarkDoc(
@@ -332,6 +370,8 @@ class BiographicalAdapter:
                       "n_scored_gold": len(scored), "n_rows": rec["rows"],
                       "name_variants": sorted(rec["names"]),
                       "grouped_by": "wikipedia_page" if rec["has_page"] else "subject_string",
+                      "order": position, "ordering": self.order,
+                      "scored_labels": sorted({f[0] for f in scored}),
                       "unusable_rows": dict(unusable)})
             made += 1
             if limit and made >= limit:
