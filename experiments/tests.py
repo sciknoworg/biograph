@@ -413,6 +413,57 @@ def test_biographical_family_and_dates():
     check("places match on a folded string", hit("birthplace", "Zurich", "Zürich"))
 
 
+def test_biographical_marked_release():
+    """The published release: <e1>/<e2> spans in the sentence, P1 naming the subject.
+
+    Three ways to be quietly wrong here, all of which produce a plausible results table:
+    reading e1 as the subject always (inverts one row in seven), scoring the automatic
+    `relation` instead of the human `ANNOTATION` (they disagree on 20% of rows), and
+    leaving the markup in the text the model reads.
+    """
+    from .benchmarks.biographical import adapter as b1
+
+    tmp = tempfile.mkdtemp(prefix="b1m-")
+    try:
+        rows = [
+            "sentence\trelation\tP1\tP2\tANNOTATION\twp_id",
+            # normal order, and the human label CORRECTS the automatic one
+            "<e1>Ada</e1> was born in <e2>London</e2>.\tbplace_name\te1\te2\t"
+            "bplace_name\t11",
+            # the automatic label says educatedAt, the human says it is not a relation
+            "<e1>Ada</e1> visited <e2>Yale</e2>.\teducatedAt\te1\te2\tOther\t11",
+            # REVERSED: the date is e1 and the person is e2
+            "Born <e1>10 December 1815</e1>, <e2>Ada</e2> was a mathematician."
+            "\tbirthdate\te2\te1\tbirthdate\t11",
+        ]
+        with open(os.path.join(tmp, "g.tsv"), "w", encoding="utf-8", newline="") as fh:
+            fh.write("\n".join(rows) + "\n")
+        doc = next(iter(b1.BiographicalAdapter(min_facts=0).load(tmp)))
+
+        check("markers are stripped from the text the model reads",
+              "<e1>" not in doc.text and "</e2>" not in doc.text, doc.text)
+        check("the stripping is disclosed in transform",
+              "argument_markers_stripped" in doc.transform, str(doc.transform))
+        check("grouping is by page id when the release has one",
+              doc.transform[0] == "grouped_by_wikipedia_page", str(doc.transform))
+
+        gold = dict(doc.gold)
+        check("release label names are mapped to this adapter's space",
+              "birthplace" in gold and "bplace_name" not in gold, str(doc.gold))
+        check("the object is the non-subject argument",
+              gold.get("birthplace") == "London", str(doc.gold))
+        # P1=e2 on the third row, so the subject is Ada and the object is the date --
+        # read as e1-is-always-subject, this becomes ('birthdate', 'Ada').
+        check("P1 decides the subject, even when it is e2",
+              gold.get("birthdate") == "10 December 1815", str(doc.gold))
+        check("the human ANNOTATION overrides the automatic relation",
+              "educatedAt" not in gold and gold.get("other") == "Yale", str(doc.gold))
+        check("the document is named from the subject, not the page id",
+              doc.name == "Ada", doc.name)
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
 def test_biographical_input_adapter():
     from .benchmarks.biographical import adapter as b1
 
@@ -430,8 +481,8 @@ def test_biographical_input_adapter():
         a = [d for d in docs if d.doc_id == "A"][0]
         check("a person's sentences are concatenated", a.text.count(".") == 2, a.text)
         check("a person's gold facts are collected", len(a.gold) == 2, str(a.gold))
-        check("the grouping is disclosed in transform",
-              a.transform == ("grouped_by_person",), str(a.transform))
+        check("a column-format release is grouped by its subject string, and says so",
+              a.transform == ("grouped_by_subject_string",), str(a.transform))
         check("slugs satisfy build_site.py's rule",
               all(re.match(r"^[a-z][a-z0-9_]*$", d.slug) for d in docs),
               str([d.slug for d in docs]))
@@ -1108,7 +1159,7 @@ def main() -> int:
                test_embedding_threshold_calibration, test_pmc_body_boundary,
                test_scoring_end_to_end, test_vocab_and_matrix, test_sandbox,
                test_biographical_projection, test_biographical_family_and_dates,
-               test_biographical_input_adapter, test_biographical_scoring,
+               test_biographical_marked_release, test_biographical_input_adapter, test_biographical_scoring,
                test_bioevents_tags_and_offsets, test_bioevents_anchoring,
                test_bioevents_state_and_precision, test_bioevents_roles_and_header,
                test_bioevents_span_csv, test_bioevents_span_csv_refuses_and_drops,

@@ -82,10 +82,21 @@ FAMILY = ("ofParent", "hasChild", "sibling")
 #: unresolved) and a silently mis-read column would produce a plausible, wrong table.
 COLUMN_ALIASES = {
     "sentence": ("sentence", "text", "sent", "sentence_text"),
+    "relation": ("relation", "label", "property", "rel", "relation_type"),
+    # The human verdict, where the release carries one beside the automatic label.
+    "annotation": ("annotation", "gold", "human", "adjudicated"),
+    # The grouping key. A page id identifies one person; a subject string does not.
+    "page": ("wp_id", "page_id", "page", "doc_id", "article_id"),
+    # Present only in a release that ships the arguments as columns rather than as
+    # <e1>/<e2> markers inside the sentence. The published one does not.
     "subject": ("subject", "person", "subj", "entity", "head", "person_name"),
     "object": ("object", "obj", "value", "tail", "target"),
-    "relation": ("relation", "label", "property", "rel", "relation_type"),
 }
+
+#: Without these nothing can be read at all. `annotation` and `page` are not required --
+#: an older release may carry neither -- but their absence changes what is being scored,
+#: so load() says so rather than quietly falling back.
+REQUIRED_COLUMNS = ("sentence", "relation")
 
 
 def _fold(s: Any) -> str:
@@ -103,6 +114,60 @@ def slugify(name: str) -> str:
     return s[:60]
 
 
+#: The released label names, mapped onto this adapter's label space. Stated rather than
+#: guessed: a silent mismatch would score every place and kinship fact as a miss while the
+#: run looked healthy, since an unmapped gold label simply never matches a prediction.
+RELEASE_LABELS = {
+    # The published English release's own names.
+    "bplace_name": "birthplace", "dplace_name": "deathplace",
+    "parent": "ofParent", "child": "hasChild", "Other": "other",
+    # Identity entries, so a release already using this adapter's label space passes
+    # through rather than being dropped as unmapped. Without them a file whose column
+    # already said "birthplace" lost every place and kinship fact silently, because an
+    # unmapped gold label is simply never matched and the run still looks healthy.
+    **{lab: lab for lab in LABELS},
+}
+
+#: The two argument markers the release embeds in each sentence.
+MARKER = re.compile(r"<(e[12])>(.*?)</\1>", re.S)
+
+
+def _strip_markers(sentence: str) -> str:
+    """The sentence as prose, with the annotation markup removed.
+
+    What reaches the model has to be a sentence, not XML: the markers are an artifact of
+    how the corpus encodes which two spans a relation holds between, and feeding them in
+    would both distort the text and leak which pair the benchmark is asking about.
+    """
+    return MARKER.sub(lambda m: m.group(2), sentence).strip()
+
+
+def _arguments(row: dict) -> tuple[str, str] | None:
+    """(subject, object) for one row, from markers if present, else from columns.
+
+    The published release does not put the entities in columns -- they are <e1>/<e2> spans
+    inside the sentence -- and which one is the SUBJECT is given by P1. It is 'e1' in 2,473
+    of 2,900 rows and 'e2' in 427, so assuming e1 is always the subject would invert one
+    row in seven: a Wikipedia sentence can introduce the date before the person. Every such
+    row would then be scored as a wrong answer the extractor never gave.
+
+    The column form is kept as a fallback, for a release that ships subject and object as
+    their own fields. Markers win where both are present, since they carry the pairing.
+    """
+    spans = {m.group(1): m.group(2).strip() for m in MARKER.finditer(row.get("sentence") or "")}
+    first, second = (row.get("P1") or "").strip(), (row.get("P2") or "").strip()
+    if first in spans and second in spans:
+        return spans[first], spans[second]
+    if len(spans) == 2 and not (first or second):
+        # Markers but no P1/P2 column: the e1/e2 order is all there is to go on.
+        return spans.get("e1", ""), spans.get("e2", "")
+    subject = (row.get("subject") or "").strip()
+    obj = (row.get("object") or "").strip()
+    if subject:
+        return subject, obj
+    return None
+
+
 # ------------------------------------------------------------------ input side
 
 
@@ -115,7 +180,7 @@ def _resolve_columns(header: Iterable[str]) -> dict[str, str]:
             if a in present:
                 resolved[field] = present[a]
                 break
-    missing = [f for f in COLUMN_ALIASES if f not in resolved]
+    missing = [f for f in REQUIRED_COLUMNS if f not in resolved]
     if missing:
         raise SystemExit(
             "Biographical: could not find column(s) %s in this file.\n"
@@ -149,7 +214,12 @@ def _rows(data_root: str):
                 continue
             cols = _resolve_columns(records[0].keys())
             for r in records:
-                yield {k: r.get(v) for k, v in cols.items()}
+                # The row entire, plus the normalised names. P1/P2 say which marker is the
+                # subject and are not fields this adapter renames, so a projection down to
+                # four known keys would drop them and silently invert one row in seven.
+                out = dict(r)
+                out.update({k: r.get(v) for k, v in cols.items()})
+                yield out
         else:
             with io.open(path, encoding="utf-8", newline="") as f:
                 reader = csv.DictReader(f, delimiter="\t" if low.endswith(".tsv") else ",")
@@ -157,17 +227,22 @@ def _rows(data_root: str):
                     continue
                 cols = _resolve_columns(reader.fieldnames)
                 for r in reader:
-                    yield {k: r.get(v) for k, v in cols.items()}
+                    out = dict(r)
+                    out.update({k: r.get(v) for k, v in cols.items()})
+                    yield out
 
 
 class BiographicalAdapter:
     name = "biographical"
     citation = "Plum et al., SIGIR 2022 -- 'Biographical: A Semi-Supervised Relation " \
                "Extraction Dataset'"
-    license = ("UNRESOLVED -- the repository is GPL-3.0 but the data licence is not "
-               "stated and the corpus is distributed via Google Drive. Wikipedia-derived, "
-               "so CC BY-SA upstream. Resolve before downloading; nothing is fetched by "
-               "this adapter, which reads a local copy via --data-root.")
+    license = ("CC BY-SA 4.0, as stated by the first author in correspondence (2026-10). "
+               "Note that the HuggingFace card's licensing section is still an unfilled "
+               "template, so the statement is the author's, not the repository's -- worth "
+               "citing as such, and worth asking them to fill in. Wikipedia-derived, which "
+               "is CC BY-SA 4.0 upstream too, so share-alike applies to derived artifacts. "
+               "Not redistributed here; the adapter reads a local copy via --data-root and "
+               "experiments/corpora/biographical/ carries the provenance note.")
     label_space = LABELS
     metric = "micro and macro P/R/F1 over the scored labels; dates by interval containment"
     published_baseline: dict[str, float] = {}
@@ -185,36 +260,79 @@ class BiographicalAdapter:
     # -------------------------------------------------------------- load
 
     def load(self, data_root: str, limit: int | None = None) -> Iterable[BenchmarkDoc]:
-        by_person: dict[str, dict[str, Any]] = defaultdict(
-            lambda: {"sentences": [], "gold": []})
+        # Keyed by Wikipedia page id, not by the subject string. The subject strings are
+        # surface forms, so grouping on them merges different people: the most frequent
+        # are 'Lee', 'Adams' and 'Johnson'. A page id is one person by construction. 37 of
+        # the 2,748 pages carry two name variants of that one person ('Thomas Wyatt' and
+        # 'Wyatt'), and the longest is taken as the document name.
+        by_page: dict[str, dict[str, Any]] = defaultdict(
+            lambda: {"sentences": [], "gold": [], "names": set(), "rows": 0,
+                     "has_page": False, "had_markers": False})
+        unusable = {"no_markers": 0, "unmapped_label": 0}
+
         for r in _rows(data_root):
-            person, rel = (r.get("subject") or "").strip(), (r.get("relation") or "").strip()
-            sentence, obj = (r.get("sentence") or "").strip(), (r.get("object") or "").strip()
-            if not person or not sentence:
+            raw = (r.get("sentence") or "").strip()
+            if not raw:
                 continue
-            rec = by_person[person]
+            args = _arguments(r)
+            if args is None:
+                unusable["no_markers"] += 1
+                continue
+            subject, obj = args
+            # The page id where the release carries one, the subject string otherwise.
+            # Falling back is worse and the meta records which was used: subject strings
+            # are surface forms, so they merge different people called Lee or Adams.
+            page = str(r.get("page") or "").strip() or subject
+            if not page:
+                continue
+            rec = by_page[page]
+            rec["has_page"] = bool(str(r.get("page") or "").strip())
+            rec["had_markers"] = rec["had_markers"] or bool(MARKER.search(raw))
+            rec["rows"] += 1
+            rec["names"].add(subject)
+            sentence = _strip_markers(raw)
             if sentence not in rec["sentences"]:
                 rec["sentences"].append(sentence)
-            if rel and obj:
-                fact = (rel, obj)
-                if fact not in rec["gold"]:
-                    rec["gold"].append(fact)
+
+            # The HUMAN label, not the distant-supervision one. They disagree on 578 of
+            # 2,900 rows, and the disagreement is not noise in both directions: annotators
+            # reclassified heavily toward `other` (808 against 295). Scoring against the
+            # automatic label would measure agreement with a known-noisy signal.
+            gold_label = (r.get("annotation") or r.get("relation") or "").strip()
+            if not gold_label:
+                continue
+            label = RELEASE_LABELS.get(gold_label)
+            if label is None:
+                unusable["unmapped_label"] += 1
+                continue
+            if obj and (label, obj) not in rec["gold"]:
+                rec["gold"].append((label, obj))
 
         made = 0
-        for person, rec in sorted(by_person.items()):
+        for page, rec in sorted(by_page.items()):
             scored = [f for f in rec["gold"] if f[0] in SCORED]
             if len(scored) < self.min_facts:
                 continue
+            name = max(rec["names"], key=len) if rec["names"] else page
             text = " ".join(rec["sentences"])[:self.max_chars]
             yield BenchmarkDoc(
-                doc_id=person,
-                slug=slugify(person),
-                name=person,
+                doc_id=page,
+                slug=slugify(name) or ("b1_%s" % page),
+                name=name,
                 text=text,
                 gold=tuple(rec["gold"]),
-                # The one input transformation, named so it appears in the writeup.
-                transform=("grouped_by_person",),
-                meta={"n_sentences": len(rec["sentences"]), "n_gold": len(rec["gold"])})
+                # Named for what actually happened, not for what usually happens: the
+                # grouping key and whether markup was removed both change what the
+                # numbers mean, and transform is where that is disclosed.
+                transform=tuple(
+                    ["grouped_by_wikipedia_page" if rec["has_page"]
+                     else "grouped_by_subject_string"]
+                    + (["argument_markers_stripped"] if rec["had_markers"] else [])),
+                meta={"n_sentences": len(rec["sentences"]), "n_gold": len(rec["gold"]),
+                      "n_scored_gold": len(scored), "n_rows": rec["rows"],
+                      "name_variants": sorted(rec["names"]),
+                      "grouped_by": "wikipedia_page" if rec["has_page"] else "subject_string",
+                      "unusable_rows": dict(unusable)})
             made += 1
             if limit and made >= limit:
                 return
