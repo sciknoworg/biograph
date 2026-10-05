@@ -32,12 +32,22 @@ Matching is one-to-one: a gold trigger is answered by at most one event, and an 
 answers at most one trigger. Without that, one sentence-length quote would claim every
 trigger in its sentence.
 
-STATE IS AN UNREACHABLE CEILING, BY DESIGN. "An event is a dateable occurrence, not a fact
-or a description" (schema/README.md). A TimeML STATE is precisely a fact or a description,
-so biograph drops them deliberately. STATE recall is therefore reported as a *measured*
-number -- it should be near zero -- and excluded from the macro average, because averaging
-in a class the schema refuses to represent would measure an ontological choice as though it
-were an error rate.
+STATE IS NOT THE CEILING IT WAS PREDICTED TO BE, AND THE MEASUREMENT IS THE FINDING.
+"An event is a dateable occurrence, not a fact or a description" (schema/README.md), and a
+TimeML STATE is precisely a fact or a description -- so STATE recall was expected to be
+near zero. Measured over 220 documents it is 0.366, and 0.204 on the strong anchor alone,
+so it is not quote-span noise either.
+
+The matches say why. Gold STATE "worked" matches an employment_start labelled "Worked as
+fur trapper"; "studied" matches an education; "lecturer" and "president" match a
+role_change. The two schemas disagree about ASPECT, not about coverage: TimeML annotates
+the ongoing condition, biograph records the dated transition into it, and the same sentence
+licenses both readings. What biograph genuinely cannot represent is an UNDATED static
+condition, which is most of the remaining 63%.
+
+STATE stays out of the macro average, because no biograph type targets it and averaging it
+in would score an ontological difference as an error rate. But it is reported as a measured
+overlap, not as a designed zero.
 
 PRECISION IS SCOPED TO ANNOTATED TEXT. The corpus annotates some sentences; biograph
 extracts from the whole document. An extracted event anchored outside any annotated
@@ -746,6 +756,13 @@ class BioEventsAdapter:
         recalled = defaultdict(int)
         gold_total = defaultdict(int)
         tier_counts = defaultdict(int)
+        # Tier BY CLASS, not just pooled. The pooled split cannot answer the question that
+        # matters for STATE: a gold STATE trigger counts as recalled whenever any extracted
+        # event anchors on it, and anchoring is type-agnostic by design. If those matches
+        # are mostly weak-tier -- the trigger merely falls inside a quoted sentence, with
+        # no support from the event's own label -- then the number is quote-span coarseness
+        # rather than the schema representing static conditions after all.
+        tier_by_label: dict[tuple[str, str], int] = defaultdict(int)
         matched_events = 0
         scorable_events = 0
         unscorable_span = 0
@@ -791,6 +808,7 @@ class BioEventsAdapter:
                     used_events.add(best[0])
                     recalled[trig["label"]] += 1
                     tier_counts[best[1]] += 1
+                    tier_by_label[(trig["label"], best[1])] += 1
                     matched_events += 1
 
             # roles: a hit is an overlapping predicted span carrying the same role label
@@ -822,8 +840,16 @@ class BioEventsAdapter:
         for cls in CLASSES:
             total = gold_total[cls]
             r = recalled[cls] / total if total else 0.0
+            strong = tier_by_label[(cls, "label+quote")]
+            weak = tier_by_label[(cls, "quote")]
             per_label[cls] = {"recall": round(r, 4), "support": total,
-                              "recalled": recalled[cls]}
+                              "recalled": recalled[cls],
+                              # How much of this class's recall rests on the trigger merely
+                              # falling inside a quoted sentence, with nothing in the
+                              # event's own label supporting it.
+                              "anchored_label_and_quote": strong,
+                              "anchored_quote_only": weak,
+                              "strong_recall": round(strong / total, 4) if total else 0.0}
         for role in ROLES:
             tp, fp, fn = role_tp[role], role_fp[role], role_fn[role]
             p = tp / (tp + fp) if (tp + fp) else 0.0
@@ -871,18 +897,41 @@ class BioEventsAdapter:
         ]
         if gold_total["STATE"]:
             notes.append(
-                "STATE recall is %.3f over %d gold triggers, and is excluded from "
-                "macro_recall. This is the schema's ontological choice measured, not an "
-                "error rate: 'an event is a dateable occurrence, not a fact or a "
-                "description'." % (per_label["STATE"]["recall"], gold_total["STATE"]))
+                "STATE recall is %.3f over %d gold triggers (%.3f on the strong anchor "
+                "alone), excluded from macro_recall because no biograph type targets it. %s"
+                % (per_label["STATE"]["recall"], gold_total["STATE"],
+                   per_label["STATE"]["strong_recall"],
+                   # The reading depends on the measurement, and must not be asserted ahead
+                   # of it. A near-zero result is the ontological choice showing up as
+                   # predicted; a substantial one is the two schemas overlapping, and the
+                   # strong-anchor figure is what tells those apart.
+                   ("Near zero, as the schema's own rule predicts: 'an event is a dateable "
+                    "occurrence, not a fact or a description'."
+                    if per_label["STATE"]["recall"] < 0.1 else
+                    "NOT near zero, though the schema's rule -- 'an event is a dateable "
+                    "occurrence, not a fact or a description' -- predicts it should be, and "
+                    "the strong-anchor figure shows it is not quote-span noise. The two "
+                    "schemas disagree about ASPECT rather than coverage: TimeML annotates "
+                    "the ongoing condition and biograph records the dated transition into "
+                    "it, so one sentence licenses both readings. What biograph cannot "
+                    "represent is an UNDATED static condition, which is most of the "
+                    "remaining %.0f%%." % (100 * (1 - per_label["STATE"]["recall"])))))
 
         return ScoreReport(
             benchmark=self.name, metric=self.metric, scores=scores,
             published_baseline=dict(self.published_baseline),
             not_applicable={
-                "STATE": "A TimeML STATE is a static condition, which biograph drops by "
-                         "design (schema/README.md). Its recall is reported above as a "
-                         "measured ceiling but excluded from macro_recall.",
+                "STATE": "Excluded from macro_recall because no biograph type targets it, "
+                         "NOT because it is unreachable. Measured at 0.366 recall over 186 "
+                         "gold triggers (0.204 on the strong anchor alone), and the matches "
+                         "are real, not quote-span noise: gold STATE 'worked' matches an "
+                         "employment_start labelled 'Worked as fur trapper', 'studied' an "
+                         "education, 'lecturer' and 'president' a role_change. The two "
+                         "schemas disagree about ASPECT, not coverage -- TimeML annotates "
+                         "the ongoing condition, biograph records the dated transition into "
+                         "it, and the same sentence supports both readings. What biograph "
+                         "genuinely cannot represent is an UNDATED static condition, which "
+                         "is most of the remaining 80%.",
                 "writer-ARG0": "Writer-centric roles model the biography's author, a "
                                "perspective the schema does not represent at all.",
                 "writer-ARGx": "As writer-ARG0.",

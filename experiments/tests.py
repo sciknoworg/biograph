@@ -673,8 +673,8 @@ def test_bioevents_state_and_precision():
     check("STATE is named as not applicable", "STATE" in rep.not_applicable)
     check("STATE is excluded from macro_recall, so EVENT alone carries it",
           rep.scores["macro_recall"] == 1.0, str(rep.scores))
-    check("a STATE note explains the ceiling",
-          any("ontological" in n or "dateable occurrence" in n for n in rep.notes),
+    check("a zero STATE recall is reported as the schema's rule predicting it",
+          any("Near zero, as the schema's own rule predicts" in n for n in rep.notes),
           str(rep.notes))
 
     # Type is recorded as lossy for every event, since it cannot be expressed at all.

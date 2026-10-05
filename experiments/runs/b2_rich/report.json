@@ -1,0 +1,121 @@
+{
+  "run_id": "b2_rich",
+  "finished": "2026-10-05T08:52:12",
+  "adapter": {
+    "name": "bioevents",
+    "citation": "arXiv:2206.03547 (ISA 2022); repo marcostranisci/biographicalEvents",
+    "license": "Paper CC-BY-NC-4.0 (ELRA), per the proceedings footer on the PDF itself -- NOT the CC BY 4.0 the ACL Anthology's generic banner implies, and the NC matters. The corpus declares no licence of its own and is published openly in the authors' repository; it is Wikipedia-derived, so CC BY-SA upstream. Not redistributed here -- nothing is fetched by this adapter, which reads a local copy via --data-root, and experiments/corpora/bioevents/ carries the provenance note.",
+    "metric": "trigger-anchored recall per TimeML class, with pooled precision over annotated spans; type is never compared"
+  },
+  "core": {
+    "run_id": "b2_rich",
+    "commit": "42abc9f0b92c6181808902cd0d9d7118b90cfc50",
+    "core_files_uncommitted": [],
+    "sha256": {
+      "scripts/build_site.py": "e9b27c63be3e998f22137b8fb4280c973e6374733b26cb68baaa1b119a6da153",
+      "schema/date.schema.json": "8073e8da8bb20ae4330aaa3f798af30f06bfe0c5361303ae910b58bccda41019",
+      "schema/entity.schema.json": "ed2220532d11a96ea0bf0ad184c97de8abe45c8b8feed9f4aca0fa86f1319df0",
+      "schema/event.schema.json": "f5878f1804891e13ee9b697126a52cbb76be58fba799ebca78cea3d3adb46247",
+      "schema/relation.schema.json": "2c8941751ae907bc865f4869c6f9de8ec245c9950261c992a97c86319397d127",
+      "schema/source.schema.json": "761b2cdd818deea6eb9450e90db46a1880c1c63f7291bbf956de4a68262f51b2",
+      "frontend/template.html": "dc79416f6fdc1ca99c786b289b52a951731321c9bb59235558cd61f5e0ac257a",
+      "frontend/world-countries.geo.json": "02caedf9a1e0255deedc985942ccb0b8df102f21c9c551c332e8eda0a18fbcd9"
+    },
+    "extraction_core_modified": false
+  },
+  "extraction_core_divergences": [],
+  "model": {
+    "model": "qwen3.5-397b-a17b",
+    "base_url": "https://chat-ai.academiccloud.de/v1"
+  },
+  "n_documents": 220,
+  "repeats": [
+    {
+      "benchmark": "bioevents",
+      "metric": "trigger-anchored recall per TimeML class, with pooled precision over annotated spans; type is never compared",
+      "n_docs": 220,
+      "scores": {
+        "trigger_precision": 0.8932,
+        "trigger_recall": 0.5443,
+        "trigger_f1": 0.6764,
+        "macro_recall": 0.2,
+        "anchored_by_label_and_quote": 216,
+        "anchored_by_quote_only": 110
+      },
+      "published_baseline": {},
+      "not_applicable": {
+        "STATE": "Excluded from macro_recall because no biograph type targets it, NOT because it is unreachable. Measured at 0.366 recall over 186 gold triggers (0.204 on the strong anchor alone), and the matches are real, not quote-span noise: gold STATE 'worked' matches an employment_start labelled 'Worked as fur trapper', 'studied' an education, 'lecturer' and 'president' a role_change. The two schemas disagree about ASPECT, not coverage -- TimeML annotates the ongoing condition, biograph records the dated transition into it, and the same sentence supports both readings. What biograph genuinely cannot represent is an UNDATED static condition, which is most of the remaining 80%.",
+        "writer-ARG0": "Writer-centric roles model the biography's author, a perspective the schema does not represent at all.",
+        "writer-ARGx": "As writer-ARG0."
+      },
+      "per_label": {
+        "EVENT": {
+          "recall": 0.6,
+          "support": 430,
+          "recalled": 258,
+          "anchored_label_and_quote": 178,
+          "anchored_quote_only": 80,
+          "strong_recall": 0.414
+        },
+        "STATE": {
+          "recall": 0.3656,
+          "support": 186,
+          "recalled": 68,
+          "anchored_label_and_quote": 38,
+          "anchored_quote_only": 30,
+          "strong_recall": 0.2043
+        },
+        "ASP-EVENT": {
+          "recall": 0.0,
+          "support": 29,
+          "recalled": 0,
+          "anchored_label_and_quote": 0,
+          "anchored_quote_only": 0,
+          "strong_recall": 0.0
+        },
+        "REP-EVENT": {
+          "recall": 0.0,
+          "support": 15,
+          "recalled": 0,
+          "anchored_label_and_quote": 0,
+          "anchored_quote_only": 0,
+          "strong_recall": 0.0
+        },
+        "ARGx-LOC": {
+          "precision": 0.4653,
+          "recall": 0.7194,
+          "f1": 0.5651,
+          "support": 196
+        },
+        "ARGx-ORG": {
+          "precision": 0.661,
+          "recall": 0.5087,
+          "f1": 0.5749,
+          "support": 230
+        },
+        "ARGM-TIME": {
+          "precision": 0.6773,
+          "recall": 0.932,
+          "f1": 0.7845,
+          "support": 250
+        }
+      },
+      "attrition": {
+        "out_of_scope": 217,
+        "empty_extraction": 6,
+        "did_not_validate": 1,
+        "documents": 220,
+        "unscorable_span": 8,
+        "scorable_events": 365
+      },
+      "notes": [
+        "Type is never compared: all 22 biograph event types collapse onto TimeML's single EVENT class, so matching is trigger-anchored and gold triggers are only bucketed by class afterwards to report recall per class.",
+        "Read recall with attrition beside it: 6 of 220 documents produced no events at all, so that share of the missing recall is documents the extractor returned empty rather than triggers it examined and missed. 217 were refused by the scope gate (recorded, not enforced). The released documents are short -- this corpus is ~2 sentences per subject -- and a document-level extractor on a sentence fragment is a different setting from the one the published baseline measures.",
+        "110 of 326 matches rest on the weak anchor (quote span with no label support); the rest had both.",
+        "8 extracted events fell outside every annotated sentence and are excluded from precision (`unscorable_span`).",
+        "published_baseline is empty because THE PAPER REPORTS NO SYSTEM PERFORMANCE. This was previously described here as 'token-level sequence labelling by a model trained on this corpus'. That is wrong: it is a guidelines-and-resource paper, and its five tables are inter-annotator agreement, corpus counts, the most frequent events/states, a PropBank argument distribution and recurring link structures. It trains nothing and evaluates nothing. There is no published number to beat, and claiming to have beaten one would be inventing an opponent. The only quantitative anchor is the HUMAN AGREEMENT CEILING in Table 1 (see IAA below), which is what two trained annotators following these guidelines achieve against each other -- a ceiling, never a baseline.",
+        "STATE recall is 0.366 over 186 gold triggers (0.204 on the strong anchor alone), excluded from macro_recall because no biograph type targets it. NOT near zero, though the schema's rule -- 'an event is a dateable occurrence, not a fact or a description' -- predicts it should be, and the strong-anchor figure shows it is not quote-span noise. The two schemas disagree about ASPECT rather than coverage: TimeML annotates the ongoing condition and biograph records the dated transition into it, so one sentence licenses both readings. What biograph cannot represent is an UNDATED static condition, which is most of the remaining 63%."
+      ]
+    }
+  ]
+}
