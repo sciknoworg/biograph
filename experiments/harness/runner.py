@@ -188,10 +188,31 @@ class Runner:
             cmd.append("--ignore-scope")
         env = dict(os.environ, BIOGRAPH_API_KEY=self.cfg.api_key)
 
+        # A timeout is one document failing, not the run failing. subprocess.run raises
+        # TimeoutExpired, and letting it propagate ended a 400-document run at document 370
+        # -- every completed extraction was cached and recoverable, but the run stopped and
+        # needed a human to notice and restart it. On an endpoint whose per-document wall
+        # time spans 18s to 1618s, a timeout is an expected event, not an exceptional one.
+        #
+        # The partial output is kept: build_site.py streams, so a run killed at the limit
+        # may already have written files. Whatever reached disk is read exactly as a
+        # completed run's would be, and the record carries timed_out so nothing downstream
+        # mistakes a truncated extraction for a complete one.
         start = time.perf_counter()
-        proc = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8",
-                              errors="replace", env=env, timeout=self.timeout,
-                              cwd=self.sb.root)
+        timed_out = False
+        try:
+            proc = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8",
+                                  errors="replace", env=env, timeout=self.timeout,
+                                  cwd=self.sb.root)
+            returncode, out, err = proc.returncode, proc.stdout, proc.stderr
+        except subprocess.TimeoutExpired as e:
+            timed_out = True
+            returncode = 124  # conventional shell exit code for a timeout
+            out = e.stdout if isinstance(e.stdout, str) else (e.stdout or b"").decode(
+                "utf-8", "replace")
+            err = e.stderr if isinstance(e.stderr, str) else (e.stderr or b"").decode(
+                "utf-8", "replace")
+            err += "\n[harness] timed out after %ds" % self.timeout
         wall = time.perf_counter() - start
 
         scope = _read_json(scope_path, None)
@@ -206,8 +227,8 @@ class Runner:
         ex = Extraction(doc_id=doc.doc_id, slug=doc.slug, subject=subject,
                         entities=payload["entities"], events=payload["events"],
                         relations=payload["relations"], sources=payload["sources"],
-                        scope=scope, exit_code=proc.returncode, wall_seconds=wall,
-                        stdout=proc.stdout, stderr=proc.stderr)
+                        scope=scope, exit_code=returncode, wall_seconds=wall,
+                        stdout=out, stderr=err, timed_out=timed_out)
         if self.verbose:
             self._log(doc, ex)
         self._save_cached(key, ex)

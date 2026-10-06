@@ -96,6 +96,10 @@ class Extraction:
     wall_seconds: float = 0.0
     stdout: str = ""
     stderr: str = ""
+    #: The harness killed this extraction at its time limit. Distinct from exit_code: a
+    #: timed-out run may still have written partial output, which is kept and read, so
+    #: nothing downstream can mistake a truncated extraction for a complete one.
+    timed_out: bool = False
 
     @property
     def in_scope(self) -> bool:

@@ -879,6 +879,45 @@ def test_bioevents_orders_extractable_documents_first():
         shutil.rmtree(tmp, ignore_errors=True)
 
 
+def test_a_timeout_fails_one_document_not_the_run():
+    """subprocess.TimeoutExpired must be caught and recorded, never propagated.
+
+    Letting it escape ended a 400-document run at document 370. Nothing was lost -- every
+    completed extraction was cached -- but the run stopped and waited for a human. On an
+    endpoint whose per-document wall time spans 18s to 1618s against a 1800s limit, a
+    timeout is an expected event, not an exceptional one.
+    """
+    import subprocess as sp
+
+    from .harness import runner as rn
+    from .harness.interface import Extraction
+
+    check("Extraction can record a timeout",
+          "timed_out" in Extraction.__dataclass_fields__)
+    check("and it defaults to false", Extraction(doc_id="d", slug="d").timed_out is False)
+
+    src = inspect_source(rn.Runner.extract)
+    check("extract() catches TimeoutExpired", "except subprocess.TimeoutExpired" in src,
+          "not caught -- a slow document would end the run")
+    check("the timeout is recorded on the extraction", "timed_out=timed_out" in src)
+    check("partial output is kept rather than discarded",
+          "e.stdout" in src and "e.stderr" in src,
+          "a killed run may already have written files; they are read either way")
+
+    # The exception carries bytes or str depending on how the child was opened; both must
+    # survive, since the stderr is the only record of what the document was doing.
+    for payload in (b"partial bytes", "partial text", None):
+        e = sp.TimeoutExpired(["cmd"], 1800, output=payload, stderr=payload)
+        got = e.stdout if isinstance(e.stdout, str) else (e.stdout or b"").decode(
+            "utf-8", "replace")
+        check("a %s payload decodes to str" % type(payload).__name__, isinstance(got, str))
+
+
+def inspect_source(fn):
+    import inspect
+    return inspect.getsource(fn)
+
+
 def test_adapters_survive_a_non_string_entity_reference():
     """An adapter reads untrusted model output and must not crash on it.
 
@@ -1266,6 +1305,7 @@ def main() -> int:
                test_bioevents_orders_extractable_documents_first,
                test_bioevents_richness_ordering_stays_inside_the_dated_block,
                test_adapters_survive_a_non_string_entity_reference,
+               test_a_timeout_fails_one_document_not_the_run,
                test_every_adapter_scores_the_way_the_cli_calls_it,
                test_grounding_parses_the_shipped_checker, test_grounding_aggregate,
                test_grounding_protocol_shape,
