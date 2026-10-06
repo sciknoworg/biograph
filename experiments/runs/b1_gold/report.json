@@ -1,0 +1,115 @@
+{
+  "run_id": "b1_gold",
+  "finished": "2026-10-06T15:08:21",
+  "adapter": {
+    "name": "biographical",
+    "citation": "Plum et al., SIGIR 2022 -- 'Biographical: A Semi-Supervised Relation Extraction Dataset'",
+    "license": "CC BY-SA 4.0, as stated by the first author in correspondence (2026-10). Note that the HuggingFace card's licensing section is still an unfilled template, so the statement is the author's, not the repository's -- worth citing as such, and worth asking them to fill in. Wikipedia-derived, which is CC BY-SA 4.0 upstream too, so share-alike applies to derived artifacts. Not redistributed here; the adapter reads a local copy via --data-root and experiments/corpora/biographical/ carries the provenance note.",
+    "metric": "micro and macro P/R/F1 over the scored labels; dates by interval containment"
+  },
+  "core": {
+    "run_id": "b1_gold",
+    "commit": "c8b76e5116d07c8ff1aac8d7b0090fecd02e7c15",
+    "core_files_uncommitted": [],
+    "sha256": {
+      "scripts/build_site.py": "e9b27c63be3e998f22137b8fb4280c973e6374733b26cb68baaa1b119a6da153",
+      "schema/date.schema.json": "8073e8da8bb20ae4330aaa3f798af30f06bfe0c5361303ae910b58bccda41019",
+      "schema/entity.schema.json": "ed2220532d11a96ea0bf0ad184c97de8abe45c8b8feed9f4aca0fa86f1319df0",
+      "schema/event.schema.json": "f5878f1804891e13ee9b697126a52cbb76be58fba799ebca78cea3d3adb46247",
+      "schema/relation.schema.json": "2c8941751ae907bc865f4869c6f9de8ec245c9950261c992a97c86319397d127",
+      "schema/source.schema.json": "761b2cdd818deea6eb9450e90db46a1880c1c63f7291bbf956de4a68262f51b2",
+      "frontend/template.html": "dc79416f6fdc1ca99c786b289b52a951731321c9bb59235558cd61f5e0ac257a",
+      "frontend/world-countries.geo.json": "02caedf9a1e0255deedc985942ccb0b8df102f21c9c551c332e8eda0a18fbcd9"
+    },
+    "extraction_core_modified": false
+  },
+  "extraction_core_divergences": [],
+  "model": {
+    "model": "qwen3.5-397b-a17b",
+    "base_url": "https://chat-ai.academiccloud.de/v1"
+  },
+  "n_documents": 400,
+  "repeats": [
+    {
+      "benchmark": "biographical",
+      "metric": "micro and macro P/R/F1 over the scored labels; dates by interval containment",
+      "n_docs": 400,
+      "scores": {
+        "micro_precision": 0.3976,
+        "micro_recall": 0.7284,
+        "micro_f1": 0.5144,
+        "macro_f1": 0.5196,
+        "median_date_interval_days": 1
+      },
+      "published_baseline": {},
+      "not_applicable": {
+        "occupation": "No typed home in the schema: entity.subtype is free text and entity.summary is prose. Excluded from the macro average rather than scored 0.",
+        "other": "The benchmark's catch-all class, not a label to predict. Extracted items with no target appear in Prediction.unmapped."
+      },
+      "per_label": {
+        "birthdate": {
+          "precision": 0.3968,
+          "recall": 1.0,
+          "f1": 0.5682,
+          "support": 50
+        },
+        "birthplace": {
+          "precision": 0.2807,
+          "recall": 0.64,
+          "f1": 0.3902,
+          "support": 50
+        },
+        "deathdate": {
+          "precision": 0.4537,
+          "recall": 0.98,
+          "f1": 0.6203,
+          "support": 50
+        },
+        "deathplace": {
+          "precision": 0.48,
+          "recall": 0.72,
+          "f1": 0.576,
+          "support": 50
+        },
+        "educatedAt": {
+          "precision": 0.5658,
+          "recall": 0.8431,
+          "f1": 0.6772,
+          "support": 51
+        },
+        "ofParent": {
+          "precision": 0.2456,
+          "recall": 0.5385,
+          "f1": 0.3373,
+          "support": 52
+        },
+        "hasChild": {
+          "precision": 0.4179,
+          "recall": 0.549,
+          "f1": 0.4746,
+          "support": 51
+        },
+        "sibling": {
+          "precision": 0.4677,
+          "recall": 0.5686,
+          "f1": 0.5133,
+          "support": 51
+        }
+      },
+      "attrition": {
+        "documents": 400,
+        "no_prediction": 17,
+        "subject_unresolved": 6,
+        "out_of_scope": 397,
+        "empty_extraction": 2,
+        "did_not_validate": 0
+      },
+      "notes": [
+        "Sentences are grouped by person into one pseudo-document each (transform=grouped_by_person), so these figures are NOT comparable to the paper's sentence-level numbers.",
+        "published_baseline is empty, but NOT because the paper reports nothing and NOT because it evaluates on different data. It evaluates a BERT classifier on exactly this gold file, so the evaluation SET is shared. What differs is the TASK. Their model is handed a marked entity pair and chooses one of ten labels for it, including `other`: a 10-way classification over a pair someone else found. This pipeline is handed raw text with no pair and must find the entities, decide which are related, and type the relation. Recall there is over pairs presented; recall here is over facts nobody pointed at. Printing the two side by side would read as a comparison between a weaker and a stronger system rather than between two different jobs.",
+        "family subtype was recovered from `note` for 84 of 154 gold family facts; the rest were credited via the collapsed class and appear in `lossy`.",
+        "median predicted date interval is 1 days -- a containment rate achieved by predicting a decade is not the same result as one achieved by predicting a day."
+      ]
+    }
+  ]
+}

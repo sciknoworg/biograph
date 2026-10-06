@@ -729,19 +729,51 @@ class BiographicalAdapter:
         return dict(BIOGRAPHICAL["cells"])
 
 
-_ISO = re.compile(r"(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?")
+_ISO = re.compile(r"(\d{4})-(\d{2})(?:-(\d{2}))?")
+
+#: Month names as this corpus writes them, long and abbreviated.
+_MONTHS = {m: i for i, m in enumerate(
+    ("january", "february", "march", "april", "may", "june", "july", "august",
+     "september", "october", "november", "december"), 1)}
+_MONTHS.update({m[:3]: i for m, i in list(_MONTHS.items())})
+_MONTH_RE = "|".join(sorted(_MONTHS, key=len, reverse=True))
+
+#: "4 October 1949" and "January 17, 2005". Both occur; the corpus mixes them freely.
+_DMY = re.compile(r"\b(\d{1,2})\s+(%s)\.?,?\s+(\d{4})\b" % _MONTH_RE, re.I)
+_MDY = re.compile(r"\b(%s)\.?\s+(\d{1,2}),?\s+(\d{4})\b" % _MONTH_RE, re.I)
+_MY = re.compile(r"\b(%s)\.?,?\s+(\d{4})\b" % _MONTH_RE, re.I)
+_YEAR = re.compile(r"\b(\d{4})\b")
 
 
 def _iso_day(value: str) -> str | None:
     """A gold date string -> the ISO day to test containment against.
 
-    A year-only or month-only gold is widened to its first day, which is the point the
-    prediction's interval is asked to contain."""
-    m = _ISO.search(str(value))
-    if not m:
-        return None
-    y, mo, d = m.group(1), m.group(2) or "01", m.group(3) or "01"
-    return "%s-%s-%s" % (y, mo, d)
+    This corpus writes dates as prose -- "4 October 1949", "January 17, 2005" -- not as
+    ISO. An ISO-only pattern matched the bare year in those and defaulted month and day to
+    1 January, so a correct day-precision prediction of 1949-10-04 was asked to contain
+    1949-01-01 and failed. birthdate and deathdate both scored exactly 0.000 over 50 gold
+    facts each, which is how the bug announced itself: the two easiest labels, which the
+    published classifier scores at F1 1.00 and 0.97, cannot both be perfectly wrong.
+
+    A year-only or month-only gold is still widened to its first day, which is the point
+    the prediction's interval is asked to contain."""
+    s = str(value)
+    m = _ISO.search(s)
+    if m:
+        return "%s-%s-%s" % (m.group(1), m.group(2), m.group(3) or "01")
+    m = _DMY.search(s)
+    if m:
+        return "%s-%02d-%02d" % (m.group(3), _MONTHS[m.group(2).lower()[:3]], int(m.group(1)))
+    m = _MDY.search(s)
+    if m:
+        return "%s-%02d-%02d" % (m.group(3), _MONTHS[m.group(1).lower()[:3]], int(m.group(2)))
+    m = _MY.search(s)
+    if m:
+        return "%s-%02d-01" % (m.group(2), _MONTHS[m.group(1).lower()[:3]])
+    m = _YEAR.search(s)
+    if m:
+        return "%s-01-01" % m.group(1)
+    return None
 
 
 ADAPTER = BiographicalAdapter()

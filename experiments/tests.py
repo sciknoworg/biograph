@@ -413,6 +413,52 @@ def test_biographical_family_and_dates():
     check("places match on a folded string", hit("birthplace", "Zurich", "Zürich"))
 
 
+def test_biographical_parses_prose_dates():
+    """The gold writes dates as prose, and an ISO-only parser silently scored them zero.
+
+    "4 October 1949" matched only the bare year, defaulting month and day to 1 January, so
+    a correct day-precision prediction of 1949-10-04 was asked to contain 1949-01-01 and
+    failed. birthdate and deathdate both came back at exactly 0.000 over 50 gold facts
+    each -- which is how it announced itself, since the two labels the published classifier
+    scores at F1 1.00 and 0.97 cannot both be perfectly wrong.
+
+    The repair then broke a second way: written through a shell heredoc, every \\b became
+    chr(8). The patterns still compiled and still printed correctly, and matched nothing.
+    The last check here is for that byte specifically, because nothing else catches it.
+    """
+    from .benchmarks.biographical import adapter as b1
+
+    for raw, want in (("4 October 1949", "1949-10-04"),      # day month year
+                      ("January 17, 2005", "2005-01-17"),    # month day, year
+                      ("Dec. 12, 2013", "2013-12-12"),       # abbreviated, with a stop
+                      ("1949-10-04", "1949-10-04"),          # ISO still works
+                      ("October 1962", "1962-10-01"),        # month precision widens
+                      ("1949", "1949-01-01")):               # year precision widens
+        check("%r parses to %s" % (raw, want), b1._iso_day(raw) == want,
+              "got %r" % b1._iso_day(raw))
+    for raw in ("sometime", "", "no date here"):
+        check("%r yields no date rather than a wrong one" % raw, b1._iso_day(raw) is None)
+
+    # A day-precision gold must be contained by a matching day-precision prediction. This
+    # is the assertion that was false for every dated fact in the first run.
+    day = {"sort_start": "1949-10-04", "sort_end": "1949-10-04"}
+    year = {"sort_start": "1949-01-01", "sort_end": "1949-12-31"}
+    hit = b1.BiographicalAdapter._hit
+    check("an exact prose date matches a day-precision prediction",
+          hit("birthdate", "4 October 1949", day))
+    check("and a year-precision prediction still contains it",
+          hit("birthdate", "4 October 1949", year))
+    check("the wrong year does not match",
+          not hit("birthdate", "4 October 1950", day))
+
+    # The corruption that made the fix fail: chr(8) compiles, prints as an escape, and
+    # matches nothing.
+    import inspect
+    src = inspect.getsource(b1)
+    check("no literal backspace bytes in the source", chr(8) not in src,
+          "a heredoc turned a word boundary into a control character")
+
+
 def test_biographical_balanced_ordering():
     """Round-robin across labels, so every prefix gives even per-label support.
 
@@ -1296,7 +1342,8 @@ def main() -> int:
                test_scoring_end_to_end, test_vocab_and_matrix, test_sandbox,
                test_biographical_projection, test_biographical_family_and_dates,
                test_biographical_marked_release, test_biographical_input_adapter,
-               test_biographical_balanced_ordering, test_biographical_scoring,
+               test_biographical_balanced_ordering,
+               test_biographical_parses_prose_dates, test_biographical_scoring,
                test_bioevents_tags_and_offsets, test_bioevents_anchoring,
                test_bioevents_state_and_precision, test_bioevents_roles_and_header,
                test_bioevents_span_csv, test_bioevents_span_csv_refuses_and_drops,
