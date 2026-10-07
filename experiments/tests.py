@@ -1172,6 +1172,175 @@ def test_bioevents_roles_and_header():
 
 # ---------------------------------------------------------- benchmarks/grounding
 
+# ---------------------------------------------------------- benchmarks/wikilife
+
+def _wlt_doc(gold, name="Charles de Gaulle", text="placeholder"):
+    from .benchmarks.wikilife import adapter as w
+    return BenchmarkDoc(doc_id=name, slug=w.slugify(name), name=name, text=text,
+                        gold=tuple(gold))
+
+
+def _wlt_extraction(events=(), relations=(), entities=()):
+    return Extraction(doc_id="d", slug="d", subject=None, entities=tuple(entities),
+                      events=tuple(events), relations=tuple(relations), sources=())
+
+
+def test_wikilife_time_parsing():
+    """The gold time field is five different things, and one of them is unanchorable.
+
+    Of 274 gold facts: 118 bare years, 63 full dates, 44 month-year, 13 year ranges, and
+    27 that carry no year at all. Guessing an interval for that last group would
+    manufacture agreement or disagreement out of nothing, so it returns None and the fact
+    leaves the denominator.
+    """
+    from .benchmarks.wikilife import adapter as w
+
+    for raw, want in (("31 August 1944", ("1944-08-31", "1944-08-31")),
+                      ("August 31, 1944", ("1944-08-31", "1944-08-31")),
+                      ("1944", ("1944-01-01", "1944-12-31")),
+                      ("1997-1999", ("1997-01-01", "1999-12-31")),
+                      ("November 1963", ("1963-11-01", "1963-11-30")),
+                      ("February 1944", ("1944-02-01", "1944-02-29"))):
+        check("%r -> %s" % (raw, want), w.parse_time(raw) == want,
+              "got %r" % (w.parse_time(raw),))
+    for raw in ("six months", "13 June", "the following year", "70 years old", "five", ""):
+        check("%r is unanchorable, not guessed" % raw, w.parse_time(raw) is None,
+              "got %r" % (w.parse_time(raw),))
+
+    # Overlap, not containment: neither side is reliably the more precise one.
+    year = ("1944-01-01", "1944-12-31")
+    day = ("1944-08-31", "1944-08-31")
+    check("a bare-year gold overlaps a day-precision prediction", w._overlaps(year, day))
+    check("and the comparison is symmetric", w._overlaps(day, year))
+    check("a different year does not overlap",
+          not w._overlaps(("1945-01-01", "1945-12-31"), day))
+
+
+def test_wikilife_name_matching():
+    """One document names its subject four ways and names eighteen other people.
+
+    Charles de Gaulle's 57 facts use `de Gaulle`, `De Gaulle`, `Charles de Gaulle` and
+    `he`. A matcher keyed on the document subject, or on string equality, would miss most
+    of them. Places differ in granularity instead: `Warsaw` against `Bielanska street in
+    Warsaw`.
+    """
+    from .benchmarks.wikilife import adapter as w
+
+    for gold, pred in (("de Gaulle", "Charles de Gaulle"),
+                       ("De Gaulle", "Charles de Gaulle"),
+                       ("Charles de Gaulle", "de Gaulle"),
+                       ("Warsaw", "Bielanska street in Warsaw"),
+                       ("Surgical Department of the former Wolski Hospital in Warsaw",
+                        "Wolski Hospital")):
+        check("%r matches %r" % (gold, pred), w._name_match(gold, pred))
+    for gold, pred in (("Winston Churchill", "Charles de Gaulle"),
+                       ("Warsaw", "Paris"),
+                       ("", "Warsaw")):
+        check("%r does not match %r" % (gold, pred), not w._name_match(gold, pred))
+
+
+def test_wikilife_projection_needs_all_three_parts():
+    """A trajectory fact is a person AND a time AND a place. Each absence is named."""
+    from .benchmarks.wikilife import adapter as w
+
+    ents = ({"id": "p1", "entity_type": "person", "name": "Charles de Gaulle"},
+            {"id": "paris", "entity_type": "place", "name": "Paris"})
+    date = {"sort_start": "1944-08-25", "sort_end": "1944-08-25"}
+    full = {"id": "e1", "event_type": "visit", "label": "Entered Paris", "date": date,
+            "location": "paris", "participants": ({"entity_id": "p1"},)}
+
+    pred = w.ADAPTER.project(_wlt_doc(()), _wlt_extraction(events=(full,), entities=ents))
+    check("a complete event becomes one trajectory candidate", len(pred.items) == 1,
+          str(pred.items))
+    check("and carries person, place and interval",
+          pred.items[0]["person"] == "Charles de Gaulle"
+          and pred.items[0]["place"] == "Paris"
+          and pred.items[0]["interval"] == ("1944-08-25", "1944-08-25"), str(pred.items))
+
+    for missing, drop in (("time", "date"), ("place", "location"),
+                          ("person", "participants")):
+        ev = dict(full)
+        ev[drop] = None if drop != "participants" else ()
+        p = w.ADAPTER.project(_wlt_doc(()), _wlt_extraction(events=(ev,), entities=ents))
+        check("an event with no %s is unmapped, with the reason" % missing,
+              not p.items and p.unmapped and missing in p.unmapped[0][3],
+              str(p.unmapped))
+
+    # A place relation has no time of its own. Without a dated event it cannot contribute.
+    rel = {"id": "r1", "type": "lived_in", "source": "p1", "target": "paris"}
+    p = w.ADAPTER.project(_wlt_doc(()), _wlt_extraction(relations=(rel,), entities=ents))
+    check("an undated place relation is unmapped, not silently dropped",
+          not p.items and p.unmapped and "undated" in p.unmapped[0][3], str(p.unmapped))
+    dated = dict(rel, event_id="e1")
+    p = w.ADAPTER.project(_wlt_doc(()),
+                          _wlt_extraction(events=(full,), relations=(dated,), entities=ents))
+    check("a place relation linked to a dated event does contribute",
+          any(i["source"] == "relation" for i in p.items), str(p.items))
+
+    # The crash that ended a 220-document run: a reference that is not a string.
+    bad = dict(full, location={"id": "paris", "name": "Paris"})
+    p = w.ADAPTER.project(_wlt_doc(()), _wlt_extraction(events=(bad,), entities=ents))
+    check("a dict-valued location does not raise", len(p.items) == 1, str(p.items))
+
+
+def test_wikilife_scoring_is_recall_only():
+    """All-positive gold: recall is sound, precision is not, and the report says so."""
+    from .benchmarks.wikilife import adapter as w
+
+    gold = [
+        {"person": "de Gaulle", "time": "1944", "location": "Paris",
+         "interval": ("1944-01-01", "1944-12-31")},
+        {"person": "he", "time": "1940", "location": "London",
+         "interval": ("1940-01-01", "1940-12-31")},
+        {"person": "Churchill", "time": "six months", "location": "London",
+         "interval": None},
+    ]
+    doc = _wlt_doc(gold)
+    pred = Prediction(doc_id=doc.doc_id, items=(
+        # matches gold 1 under a different surface form
+        {"person": "Charles de Gaulle", "place": "Paris",
+         "interval": ("1944-08-25", "1944-08-25"), "source": "event", "id": "e1"},
+        # matches gold 2 only if the pronoun resolves to the document subject
+        {"person": "Charles de Gaulle", "place": "London",
+         "interval": ("1940-06-18", "1940-06-18"), "source": "event", "id": "e2"},
+        # a true fact the annotators did not mark: NOT an error
+        {"person": "Charles de Gaulle", "place": "Algiers",
+         "interval": ("1943-05-30", "1943-05-30"), "source": "event", "id": "e3"},
+    ))
+    rep = w.ADAPTER.score([(doc, pred)])
+
+    check("a surface-form variant is recalled", rep.scores["gold_recalled"] >= 1)
+    check("a pronoun resolves to the document subject",
+          rep.scores["gold_recalled"] == 2, str(rep.scores))
+    check("the unanchorable fact leaves the denominator",
+          rep.scores["gold_scorable"] == 2, str(rep.scores))
+    check("recall is over scorable gold only",
+          rep.scores["trajectory_recall"] == 1.0, str(rep.scores))
+    check("the unanchorable fact is counted, not hidden",
+          rep.attrition["unanchorable_time"] == 1, str(rep.attrition))
+    check("an unmatched prediction is counted",
+          rep.attrition["unmatched_predictions"] == 1, str(rep.attrition))
+    check("precision is named not-applicable, with the reason",
+          "precision" in rep.not_applicable
+          and "all-positive" in rep.not_applicable["precision"],
+          str(rep.not_applicable))
+    check("no precision or F1 is reported at all",
+          not any("precision" in k or "f1" in k for k in rep.scores), str(rep.scores))
+    check("the published figure is kept out of published_baseline",
+          rep.published_baseline == {}, str(rep.published_baseline))
+
+    # A fact missed on one part only must not count as recalled.
+    wrong_year = Prediction(doc_id=doc.doc_id, items=(
+        {"person": "Charles de Gaulle", "place": "Paris",
+         "interval": ("1950-01-01", "1950-12-31"), "source": "event", "id": "e9"},))
+    rep2 = w.ADAPTER.score([(doc, wrong_year)])
+    check("right person and place but wrong time is not a recall",
+          rep2.scores["gold_recalled"] == 0, str(rep2.scores))
+    check("and the near miss is reported by which part failed",
+          any("matched person and place but not time" in n for n in rep2.notes),
+          str(rep2.notes))
+
+
 def test_grounding_parses_the_shipped_checker():
     """The check is never reimplemented, so the parser is the part that can break."""
     from .harness.runner import parse_grounding
@@ -1346,6 +1515,9 @@ def main() -> int:
                test_biographical_parses_prose_dates, test_biographical_scoring,
                test_bioevents_tags_and_offsets, test_bioevents_anchoring,
                test_bioevents_state_and_precision, test_bioevents_roles_and_header,
+               test_wikilife_time_parsing, test_wikilife_name_matching,
+               test_wikilife_projection_needs_all_three_parts,
+               test_wikilife_scoring_is_recall_only,
                test_bioevents_span_csv, test_bioevents_span_csv_refuses_and_drops,
                test_bioevents_one_row_is_one_annotation_not_one_sentence,
                test_bioevents_spans_respect_word_boundaries,

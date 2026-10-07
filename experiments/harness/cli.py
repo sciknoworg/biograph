@@ -45,11 +45,14 @@ def get_adapter(name: str, args):
     if name == "grounding":
         from ..benchmarks.grounding.adapter import GroundingAdapter
         return GroundingAdapter()
+    if name == "wikilife":
+        from ..benchmarks.wikilife.adapter import WikiLifeAdapter
+        return WikiLifeAdapter()
     if name == "bioevents":
         from ..benchmarks.bioevents.adapter import BioEventsAdapter
         return BioEventsAdapter(min_triggers=args.min_triggers, order=args.order)
     raise SystemExit(f"no adapter named {name!r} yet "
-                     f"(built so far: pmoa_tts, biographical, bioevents, grounding)")
+                     f"(built so far: pmoa_tts, biographical, bioevents, wikilife, grounding)")
 
 
 def main(argv=None) -> int:
