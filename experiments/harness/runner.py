@@ -235,6 +235,22 @@ class Runner:
                         stdout=out, stderr=err, timed_out=timed_out)
         if self.verbose:
             self._log(doc, ex)
+        # A technical failure is not a result and must not be cached. Caching it freezes
+        # it: the next run serves it straight back as a cache hit and reports the same
+        # numbers, so a dropped connection or a timeout becomes permanent. One run lost
+        # five documents to a 401 when the network went down mid-run and one to a timeout;
+        # re-running would have returned all six unchanged.
+        #
+        # A non-zero exit WITH output is different and does stay cached. That is
+        # build_site.py writing the extraction and then failing to validate it, which is a
+        # real finding about the draft -- not a failure to obtain one.
+        wrote_nothing = not (ex.entities or ex.events or ex.relations)
+        if timed_out or (returncode and wrote_nothing):
+            if self.verbose:
+                why = "timed out" if timed_out else "exit %s with no output" % returncode
+                print("  (not cached: %s -- a technical failure is not a result, so a "
+                      "re-run will retry it)" % why)
+            return ex
         self._save_cached(key, ex)
         return ex
 

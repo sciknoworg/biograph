@@ -964,6 +964,34 @@ def inspect_source(fn):
     return inspect.getsource(fn)
 
 
+def test_a_technical_failure_is_not_cached():
+    """A 401 or a timeout must not be frozen into the cache as if it were a result.
+
+    One run lost five documents to a 401 when the network dropped mid-run, and one to a
+    timeout. Every one of them was cached, so a re-run would have served all six straight
+    back as cache hits and produced an identical report -- the failures made permanent by
+    the mechanism meant to save work. Seven entries had to be deleted by hand.
+
+    The exception is a non-zero exit that still wrote output: that is build_site.py
+    producing a draft and then failing to validate it, which is a finding about the draft
+    rather than a failure to obtain one.
+    """
+    import inspect
+
+    from .harness import runner as rn
+
+    src = inspect.getsource(rn.Runner.extract)
+    check("extract() guards the cache write", "wrote_nothing" in src,
+          "a failure would be cached and replayed")
+    check("a timeout is never cached", "if timed_out or" in src, src[-400:])
+    check("a non-zero exit WITH output is still cached",
+          "returncode and wrote_nothing" in src,
+          "a draft that failed validation is a result and must survive")
+    # The guard must sit before the write, or it guards nothing.
+    check("the guard precedes the save",
+          src.index("wrote_nothing") < src.rindex("_save_cached"), "guard is after the save")
+
+
 def test_adapters_survive_a_non_string_entity_reference():
     """An adapter reads untrusted model output and must not crash on it.
 
@@ -1524,6 +1552,7 @@ def main() -> int:
                test_bioevents_orders_extractable_documents_first,
                test_bioevents_richness_ordering_stays_inside_the_dated_block,
                test_adapters_survive_a_non_string_entity_reference,
+               test_a_technical_failure_is_not_cached,
                test_a_timeout_fails_one_document_not_the_run,
                test_every_adapter_scores_the_way_the_cli_calls_it,
                test_grounding_parses_the_shipped_checker, test_grounding_aggregate,
