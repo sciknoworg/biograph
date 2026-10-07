@@ -258,6 +258,20 @@ class Runner:
                           if ln.strip() and "Warning" not in ln and "warn" not in ln]
                 for line in detail[:3]:
                     print("     %s" % line.strip()[:160])
+                # On an auth failure, say WHICH key was sent. A 401 has three causes --
+                # wrong key, expired key, and a stale environment holding an old one --
+                # and only the third is invisible from inside the process. setx writes
+                # the registry for future shells, so a terminal opened beforehand keeps
+                # sending the old key and every retry fails identically. That cost four
+                # runs to diagnose. A fingerprint makes it one: compare it against the
+                # key you believe you set. Never the key itself, which must not be
+                # printed, logged, or put on a command line.
+                if "401" in (err or "") or "Unauthorized" in (err or ""):
+                    key = self.cfg.api_key or ""
+                    print("     [harness] key sent: %d chars, sha256 %s%s"
+                          % (len(key),
+                             hashlib.sha256(key.encode()).hexdigest()[:12] if key else "-",
+                             "" if key else " (NO KEY IN THE ENVIRONMENT)"))
             return ex
         self._save_cached(key, ex)
         return ex

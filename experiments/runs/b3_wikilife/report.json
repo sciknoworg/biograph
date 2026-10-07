@@ -1,6 +1,6 @@
 {
   "run_id": "b3_wikilife",
-  "finished": "2026-10-07T15:44:25",
+  "finished": "2026-10-07T15:52:27",
   "adapter": {
     "name": "wikilife",
     "citation": "Zhang, Li, Liu and Zhang, 'Paths of A Million People: Extracting Life Trajectories from Wikipedia', ICWSM 2025 (arXiv:2406.00032); repo ZhangDataLab/COSMOS",
@@ -9,7 +9,7 @@
   },
   "core": {
     "run_id": "b3_wikilife",
-    "commit": "df39d445728049b53d4d8e3f5c89ea0ef779cd6e",
+    "commit": "9bbf2b97c6286bd3c1b2be7b1bcf5fbf5002e2c7",
     "core_files_uncommitted": [],
     "sha256": {
       "scripts/build_site.py": "e9b27c63be3e998f22137b8fb4280c973e6374733b26cb68baaa1b119a6da153",
