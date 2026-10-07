@@ -61,6 +61,11 @@ def main(argv=None) -> int:
     ap.add_argument("--data-root", help="local copy of the benchmark corpus; never "
                                         "downloaded or committed by this harness")
     ap.add_argument("--limit", type=int)
+    ap.add_argument("--timeout", type=int, default=1800,
+                    help="seconds a single extraction may take before the harness kills "
+                         "it and records timed_out. The default suits short benchmark "
+                         "documents; a full-length biography needs more. A timeout costs "
+                         "one document, not the run")
     ap.add_argument("--repeats", type=int, default=1,
                     help="extraction samples at temperature 0.2, so a single run is a "
                          "draw, not a score. Repeats are scored separately and reported "
@@ -178,7 +183,7 @@ def main(argv=None) -> int:
 
     runner = Runner(sb, cfg, adapter.name, verbose=True,
                     cache_dir=None if args.no_cache else os.path.join(out_dir, "cache"),
-                    ignore_scope=args.gate_off)
+                    ignore_scope=args.gate_off, timeout=args.timeout)
 
     reports = []
     for rep in range(args.repeats):
