@@ -6,13 +6,13 @@ the pipeline is invoked is decided here, once:
   --text <path>          the documented text entry point; no PDF parsing in the loop
   --domain benchmark_*   output lands in subjects/benchmark_<adapter>/, never beside a
                          real person (and the sandbox is thrown away anyway)
-  --keep-rejected        REQUIRED. Without it, a document the scope gate refuses has
+  --keep-rejected        REQUIRED. Without it, a document the inclusion criteria exclude has
                          its source file deleted by extract(): os.remove(pdf_path).
                          Benchmark inputs are generated, so losing one is recoverable,
                          but a harness that silently eats its own corpus on rejection is
                          not a harness. This flag is not optional and not configurable.
   --scope-out <path>     the scope verdict for every document, written on rejection too.
-                         Scope-gate attrition is a reported column in every results
+                         Inclusion attrition is a reported column in every results
                          table, because SCOPE_DEFINITION is in the prompt whether or not
                          --strict-scope is passed and three of the five benchmarks are
                          nowhere near the biographical-essay genre it describes.
@@ -83,7 +83,7 @@ def python_exe() -> str:
 
 def cache_key(doc: BenchmarkDoc, cfg: ModelConfig, core_hash: str, repeat: int,
               condition: str = "gate_on") -> str:
-    """`condition` is part of the key because the gate-on and gate-off runs of the same
+    """`condition` is part of the key because the enforced and relaxed runs of the same
     document under the same core hash are different experiments with the same inputs.
     Omitting it would let an ablation run silently serve the baseline's cached result."""
     h = hashlib.sha256()
@@ -146,9 +146,9 @@ class Runner:
         self.timeout = timeout
         self.verbose = verbose
         #: The ablation condition. The scope verdict is still produced and still recorded --
-        #: only its power to stop the run is removed -- so a gate-off run yields paired data:
-        #: what the gate WOULD have said, and what the extractor produced anyway. Reported as
-        #: a distinct condition, never merged with gate-on results.
+        #: only its power to stop the run is removed -- so a relaxed run yields paired data:
+        #: what the criteria WOULD have said, and what the extractor produced anyway, reported
+        #: as a distinct condition and never merged with an enforced run.
         self.ignore_scope = ignore_scope
         if cache_dir:
             os.makedirs(cache_dir, exist_ok=True)
@@ -160,6 +160,10 @@ class Runner:
             raise ValueError(f"slug {doc.slug!r} will be rejected by build_site.py "
                              f"(needs ^[a-z][a-z0-9_]*$)")
         key = cache_key(doc, self.cfg, self.sb.hashes["scripts/build_site.py"], repeat,
+                        # These two literals are CACHE KEY MATERIAL, not prose. Renaming
+                        # them to match the inclusion-criteria vocabulary would change
+                        # every key and discard every cached extraction, so they stay as
+                        # they are and the vocabulary is corrected everywhere it is read.
                         condition="gate_off" if self.ignore_scope else "gate_on")
         cached = self._load_cached(doc, key)
         if cached is not None:

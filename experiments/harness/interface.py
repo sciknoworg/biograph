@@ -143,7 +143,7 @@ class ScoreReport:
     #: label -> why it cannot be scored. Excluded from every macro-average below.
     not_applicable: dict[str, str] = field(default_factory=dict)
     per_label: dict[str, dict[str, float]] = field(default_factory=dict)
-    #: documents the scope gate refused, documents that produced nothing, etc.
+    #: documents the inclusion criteria excluded, documents that produced nothing, etc.
     attrition: dict[str, int] = field(default_factory=dict)
     n_docs: int = 0
     notes: list[str] = field(default_factory=list)
@@ -188,7 +188,7 @@ class BenchmarkAdapter(Protocol):
         `unexpected keyword argument 'extractions'`. Unit tests called score(pairs)
         directly and never caught it. It is in the Protocol so that cannot recur.
 
-        Use it for attrition: how many documents the gate refused, produced nothing, or
+        Use it for attrition: how many documents the criteria excluded, produced nothing, or
         failed to validate. A recall figure with no attrition beside it cannot be read --
         low recall because the extractor missed triggers and low recall because half the
         documents came back empty are different findings."""

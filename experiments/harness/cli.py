@@ -25,6 +25,14 @@ import time
 from . import sandbox
 from .runner import ModelConfig, Runner
 
+# Windows' console codepage (cp1252) cannot encode most of what these corpora contain, and
+# a print() that raises takes the run with it. A dry run on WikiLifeTrajectory died on the
+# l-stroke in "Bielanska"; the biographies here are Polish, Chinese, Arabic and Kikuyu.
+# build_site.py guards its own streams the same way -- the harness had not.
+for _stream in (sys.stdout, sys.stderr):
+    if hasattr(_stream, "reconfigure"):
+        _stream.reconfigure(encoding="utf-8", errors="replace")
+
 REPO_ROOT = sandbox.REPO_ROOT
 RUNS_DIR = os.path.join(REPO_ROOT, "experiments", "runs")
 
@@ -74,12 +82,19 @@ def main(argv=None) -> int:
     ap.add_argument("--run-id")
     ap.add_argument("--no-cache", action="store_true")
     ap.add_argument("--keep-sandbox", action="store_true")
-    ap.add_argument("--gate-off", action="store_true",
-                    help="pass build_site.py --ignore-scope: the scope verdict is recorded "
-                         "but not enforced. Required for any general-biography corpus, "
-                         "whose population the gate refuses (0/5 for literature, art, "
-                         "sport, music and politics -- see docs/scope-gate-boundary.md). "
-                         "Reported as its own condition, never merged with a gate-on run")
+    # "--gate-off" is kept as a deprecated alias so commands already written keep working.
+    # The preferred spelling is --relax-inclusion: "gate" is wrong twice over here, since
+    # gating means mixture-of-experts routing -- which the extraction model actually does,
+    # and which this project separately discusses -- and since a gate names a mechanism
+    # where "criterion" names the standard being applied.
+    ap.add_argument("--relax-inclusion", "--gate-off", dest="relax_inclusion",
+                    action="store_true",
+                    help="record the inclusion verdict without enforcing it (passes "
+                         "build_site.py --ignore-scope). Required for any general-biography "
+                         "corpus, whose population the criteria exclude (0/5 for "
+                         "literature, art, sport, music and politics -- see "
+                         "docs/scope-gate-boundary.md). Reported as its own condition, "
+                         "never merged with a run where the criteria were enforced")
     # biographical options
     ap.add_argument("--min-facts", type=int, default=1,
                     help="skip people with fewer than this many scorable gold facts; each "
@@ -183,7 +198,7 @@ def main(argv=None) -> int:
 
     runner = Runner(sb, cfg, adapter.name, verbose=True,
                     cache_dir=None if args.no_cache else os.path.join(out_dir, "cache"),
-                    ignore_scope=args.gate_off, timeout=args.timeout)
+                    ignore_scope=args.relax_inclusion, timeout=args.timeout)
 
     reports = []
     for rep in range(args.repeats):
