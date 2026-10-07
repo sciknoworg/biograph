@@ -250,6 +250,14 @@ class Runner:
                 why = "timed out" if timed_out else "exit %s with no output" % returncode
                 print("  (not cached: %s -- a technical failure is not a result, so a "
                       "re-run will retry it)" % why)
+                # Say WHY it failed, here and now. Not caching the failure means its
+                # stderr is the only record of the cause and it is about to be discarded:
+                # seven documents failed in three seconds each and the reason could not be
+                # recovered afterwards, because the sandbox is torn down with the run.
+                detail = [ln for ln in (err or "").splitlines()
+                          if ln.strip() and "Warning" not in ln and "warn" not in ln]
+                for line in detail[:3]:
+                    print("     %s" % line.strip()[:160])
             return ex
         self._save_cached(key, ex)
         return ex
