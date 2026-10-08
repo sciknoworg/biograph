@@ -53,6 +53,9 @@ def get_adapter(name: str, args):
     if name == "grounding":
         from ..benchmarks.grounding.adapter import GroundingAdapter
         return GroundingAdapter()
+    if name == "wikibio":
+        from ..benchmarks.wikibio.adapter import WikiBioAdapter
+        return WikiBioAdapter(min_events=args.min_events)
     if name == "wikilife":
         from ..benchmarks.wikilife.adapter import WikiLifeAdapter
         return WikiLifeAdapter()
@@ -60,7 +63,7 @@ def get_adapter(name: str, args):
         from ..benchmarks.bioevents.adapter import BioEventsAdapter
         return BioEventsAdapter(min_triggers=args.min_triggers, order=args.order)
     raise SystemExit(f"no adapter named {name!r} yet "
-                     f"(built so far: pmoa_tts, biographical, bioevents, wikilife, grounding)")
+                     f"(built so far: pmoa_tts, biographical, bioevents, wikilife, wikibio, grounding)")
 
 
 def main(argv=None) -> int:
@@ -114,6 +117,9 @@ def main(argv=None) -> int:
                          "reaching a given number of EVENTs in roughly half the calls "
                          "but giving a prefix twice as dense as the corpus, whose "
                          "recall is not a corpus estimate and must be reported as such")
+    ap.add_argument("--min-events", type=int, default=1,
+                    help="wikibio: skip biographies with fewer than this many gold "
+                         "event triggers")
     # pmoa_tts options
     ap.add_argument("--framing", default="minimal", choices=("none", "minimal", "biographical"))
     ap.add_argument("--no-anchor", action="store_true")

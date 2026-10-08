@@ -1369,6 +1369,130 @@ def test_wikilife_scoring_is_recall_only():
           str(rep2.notes))
 
 
+# ------------------------------------------------------------ benchmarks/wikibio
+
+def test_wikibio_detokenisation_and_offsets():
+    """Tokens become prose, and every gold offset lands on the token it names.
+
+    The release is one row per token. Space-joining them yields `anti - apartheid`,
+    `( 15 December 1933 )` and `activist .` -- prose no biography ever contained, handed to
+    a model asked to read a biography. Spacing is reconstructed, and because a gold
+    annotation names a token, the offsets must be computed against the text actually
+    produced rather than reconstructed afterwards.
+    """
+    from .benchmarks.wikibio import adapter as wb
+
+    toks = ["Donald", "Woods", "(", "15", "December", "1933", "–", "19", "August",
+            "2001", ")", ",", "was", "an", "anti", "-", "apartheid", "activist", "."]
+    text, spans = wb.detokenise(toks)
+    check("no space before closing punctuation", "activist." in text, text)
+    check("no space after an opening bracket", "(15 December" in text, text)
+    check("a hyphen between words joins them", "anti-apartheid" in text, text)
+    # A dash between two DATES separates them and must keep its spaces; joining on
+    # alphanumerics collapsed this to `1933-19`.
+    check("a dash between dates keeps its spaces", "1933 – 19 August" in text, text)
+    check("every token's offsets reproduce it",
+          all(text[a:b] == t for t, (a, b) in zip(toks, spans)),
+          str([(t, text[a:b]) for t, (a, b) in zip(toks, spans) if text[a:b] != t]))
+
+
+def test_wikibio_reads_the_release():
+    """Multi-token spans group by annotation id, and the subject is not the _id column."""
+    from .benchmarks.wikibio import adapter as wb
+
+    tmp = tempfile.mkdtemp(prefix="wb-")
+    try:
+        rows = ["_id,label,id,token,sentence",
+                # one four-token ENTITY sharing one annotation id
+                "Q560307_1,ENTITY,AAA,Ada,0",
+                "Q560307_2,ENTITY,AAA,Aharoni,0",
+                ",,,was,0",
+                "Q560307_3,EVENT,BBB,born,0",
+                ",,,in,0",
+                ",,,Cairo,0",
+                ",,,.,0",
+                "Q560307_4,EVENT-GR,CCC,was,1",
+                "Q560307_5,EVENT,DDD,wrote,1"]
+        with open(os.path.join(tmp, "9001.csv"), "w", encoding="utf-8", newline="") as fh:
+            fh.write("\n".join(rows) + "\n")
+        doc = next(iter(wb.WikiBioAdapter().load(tmp)))
+
+        check("the subject comes from the first ENTITY span, not the _id column",
+              doc.name == "Ada Aharoni", doc.name)
+        check("a four-token span becomes one annotation",
+              len(doc.gold["subject_mentions"]) == 1, str(doc.gold["subject_mentions"]))
+        check("only EVENT is scored",
+              [g["surface"] for g in doc.gold["triggers"]] == ["born", "wrote"],
+              str(doc.gold["triggers"]))
+        check("EVENT-GR is read but kept out of the scored set",
+              [g["surface"] for g in doc.gold["context_events"]] == ["was"],
+              str(doc.gold["context_events"]))
+        check("gold offsets land on their own surface",
+              all(doc.text[g["start"]:g["end"]] == g["surface"]
+                  for g in doc.gold["triggers"] + doc.gold["subject_mentions"]), doc.text)
+        check("the transformations are disclosed",
+              doc.transform == ("detokenised", "whole_biography"), str(doc.transform))
+
+        with open(os.path.join(tmp, "bad.csv"), "w", encoding="utf-8", newline="") as fh:
+            fh.write("col1,col2\nx,y\n")
+        try:
+            list(wb.WikiBioAdapter().load(tmp))
+            check("a file with no recognisable columns is refused", False, "no SystemExit")
+        except SystemExit as e:
+            check("a file with no recognisable columns is refused",
+                  "missing column" in str(e), str(e)[:80])
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+def test_wikibio_scoring_is_trigger_anchored():
+    """Recall over untyped triggers, two anchor tiers, and no type ever compared."""
+    from .benchmarks.wikibio import adapter as wb
+
+    text = "Ada Aharoni was born in Cairo. She wrote poetry there."
+    doc = BenchmarkDoc(
+        doc_id="9001", slug="ada", name="Ada Aharoni", text=text,
+        gold={"triggers": [{"id": "B", "label": "EVENT", "start": 16, "end": 20,
+                            "surface": "born"},
+                           {"id": "D", "label": "EVENT", "start": 35, "end": 40,
+                            "surface": "wrote"}],
+              "context_events": [], "subject_mentions": []},
+        meta={"subject": "Ada Aharoni"})
+
+    ex = Extraction(
+        doc_id="9001", slug="ada", subject=None, entities=(), relations=(), sources=(),
+        events=({"id": "e1", "event_type": "birth", "label": "Born in Cairo",
+                 "sources": ({"quote": "Ada Aharoni was born in Cairo."},)},
+                {"id": "e2", "event_type": "publication", "label": "Poetry",
+                 "sources": ({"quote": "She wrote poetry there."},)}))
+    pred = wb.ADAPTER.project(doc, ex)
+    check("each event with a locatable quote becomes a candidate",
+          len(pred.items) == 2, str(pred.items))
+    check("every event is recorded as lossy, because the gold is untyped",
+          len(pred.lossy) == 2, str(pred.lossy))
+
+    rep = wb.ADAPTER.score([(doc, pred)], extractions={"9001": ex})
+    check("both triggers are recalled", rep.scores["gold_recalled"] == 2, str(rep.scores))
+    check("the label-supported match is the strong tier",
+          rep.scores["anchored_by_label_and_quote"] >= 1, str(rep.scores))
+    check("event_type is named not-applicable",
+          "event_type" in rep.not_applicable, str(rep.not_applicable))
+    check("dates are named not-applicable, since the gold has none",
+          "dates" in rep.not_applicable, str(rep.not_applicable))
+    check("the published figure stays out of published_baseline",
+          rep.published_baseline == {}, str(rep.published_baseline))
+
+    # An event whose quote is not in the document cannot be anchored, and says so.
+    ghost = Extraction(doc_id="9001", slug="ada", subject=None, entities=(), relations=(),
+                       sources=(),
+                       events=({"id": "e9", "event_type": "award", "label": "Prize",
+                                "sources": ({"quote": "no such sentence"},)},))
+    p2 = wb.ADAPTER.project(doc, ghost)
+    check("an unlocatable quote is unmapped with its reason",
+          not p2.items and p2.unmapped and "anchored" in p2.unmapped[0][3],
+          str(p2.unmapped))
+
+
 def test_grounding_parses_the_shipped_checker():
     """The check is never reimplemented, so the parser is the part that can break."""
     from .harness.runner import parse_grounding
@@ -1543,6 +1667,8 @@ def main() -> int:
                test_biographical_parses_prose_dates, test_biographical_scoring,
                test_bioevents_tags_and_offsets, test_bioevents_anchoring,
                test_bioevents_state_and_precision, test_bioevents_roles_and_header,
+               test_wikibio_detokenisation_and_offsets, test_wikibio_reads_the_release,
+               test_wikibio_scoring_is_trigger_anchored,
                test_wikilife_time_parsing, test_wikilife_name_matching,
                test_wikilife_projection_needs_all_three_parts,
                test_wikilife_scoring_is_recall_only,
