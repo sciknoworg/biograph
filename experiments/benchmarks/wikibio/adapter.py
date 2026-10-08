@@ -306,12 +306,32 @@ class WikiBioAdapter:
         gold_total = 0
         matched_events = 0
         total_events = 0
+        subject_events = 0      # extracted events that ARE about the target person
+        unscorable_subject = 0  # about someone else: correct extraction, no gold to match
         per_doc = {}
 
         for doc, pred in pairs:
             gold = (doc.gold or {}).get("triggers", [])
+            mentions = (doc.gold or {}).get("subject_mentions", [])
             events = list(pred.items)
             total_events += len(events)
+
+            # Precision is scoped to events about the TARGET PERSON, and this is the step
+            # that makes it computable at all. The annotation is exhaustive for that person
+            # and silent about everyone else, so an unmatched event about a colleague is
+            # correct extraction with no gold -- counting it against precision would punish
+            # the extractor for reading the parts of the document the annotators ignored.
+            # An event is the subject's when one of its quote spans covers a gold ENTITY
+            # mention, which is the only evidence the corpus offers on the question.
+            for e in events:
+                about_subject = any(
+                    s <= m["start"] and m["end"] <= en
+                    for s, en in e["spans"] for m in mentions)
+                e["about_subject"] = about_subject
+                if about_subject:
+                    subject_events += 1
+                else:
+                    unscorable_subject += 1
             used: set[int] = set()
             hit = 0
             for trig in gold:
@@ -347,11 +367,14 @@ class WikiBioAdapter:
                                    "events": len(events), "subject": doc.meta.get("subject")}
 
         recall = recalled / gold_total if gold_total else 0.0
-        precision = matched_events / total_events if total_events else 0.0
+        # Over subject events only. See the scoping above.
+        precision = matched_events / subject_events if subject_events else 0.0
 
         attrition = {"documents": len(pairs), "gold_triggers": gold_total,
                      "extracted_events": total_events,
-                     "events_matching_no_trigger": total_events - matched_events,
+                     "events_about_the_subject": subject_events,
+                     "events_about_others_unscorable": unscorable_subject,
+                     "subject_events_matching_no_trigger": subject_events - matched_events,
                      "empty_extraction": 0, "out_of_scope": 0, "did_not_validate": 0}
         for ex in extractions.values():
             if not getattr(ex, "events", ()):
@@ -368,10 +391,11 @@ class WikiBioAdapter:
             "%d of %d matches rest on the weak anchor -- the trigger falls inside a quoted "
             "span with no support from the event's own label -- and the rest had both."
             % (tier_weak, recalled),
-            "Precision here is NOT comparable to a sentence-level figure. The annotation "
-            "covers events associated with the biography's TARGET PERSON; an event about "
-            "anyone else in the document is correct extraction with no gold to match, and "
-            "%d extracted events matched no trigger." % (total_events - matched_events),
+            "Precision is scoped to events about the TARGET PERSON, %d of %d extracted. "
+            "The annotation is exhaustive for that person and silent about everyone else, "
+            "so the other %d are correct extraction with no gold to match and are excluded "
+            "rather than counted as errors. It is still not comparable to the paper's "
+            "sentence-level figure." % (subject_events, total_events, unscorable_subject),
             "The gold carries no dates, so nothing here tests the schema's requirement that "
             "every event have one. That is deliberate: BiographicalEvents lost 46%% of its "
             "corpus to that requirement, and removing the confound is why this benchmark "
@@ -382,7 +406,7 @@ class WikiBioAdapter:
         return ScoreReport(
             benchmark=self.name, metric=self.metric,
             scores={"trigger_recall": round(recall, 4),
-                    "trigger_precision_vs_target_events": round(precision, 4),
+                    "trigger_precision_over_subject_events": round(precision, 4),
                     "gold_recalled": recalled, "gold_triggers": gold_total,
                     "anchored_by_label_and_quote": tier_strong,
                     "anchored_by_quote_only": tier_weak},

@@ -1482,6 +1482,33 @@ def test_wikibio_scoring_is_trigger_anchored():
     check("the published figure stays out of published_baseline",
           rep.published_baseline == {}, str(rep.published_baseline))
 
+    # Precision is scoped to events about the TARGET PERSON. The annotation is exhaustive
+    # for that person and silent about everyone else, so an event about a colleague is
+    # correct extraction with no gold -- excluding it is what makes precision computable
+    # here at all, where WikiLifeTrajectory's all-positive gold makes it impossible.
+    doc2 = BenchmarkDoc(
+        doc_id="9002", slug="ada", name="Ada Aharoni", text=text,
+        gold={"triggers": [{"id": "B", "label": "EVENT", "start": 16, "end": 20,
+                            "surface": "born"}],
+              "context_events": [],
+              "subject_mentions": [{"id": "A", "label": "ENTITY", "start": 0, "end": 11,
+                                    "surface": "Ada Aharoni"}]},
+        meta={"subject": "Ada Aharoni"})
+    ex2 = Extraction(
+        doc_id="9002", slug="ada", subject=None, entities=(), relations=(), sources=(),
+        events=({"id": "e1", "event_type": "birth", "label": "Born in Cairo",
+                 "sources": ({"quote": "Ada Aharoni was born in Cairo."},)},
+                # about someone else: its quote covers no subject mention
+                {"id": "e2", "event_type": "publication", "label": "Poetry",
+                 "sources": ({"quote": "She wrote poetry there."},)}))
+    rep2 = wb.ADAPTER.score([(doc2, wb.ADAPTER.project(doc2, ex2))])
+    check("an event whose quote covers a subject mention is scored",
+          rep2.attrition["events_about_the_subject"] == 1, str(rep2.attrition))
+    check("an event about anyone else is excluded, not counted against precision",
+          rep2.attrition["events_about_others_unscorable"] == 1, str(rep2.attrition))
+    check("precision is over subject events only, so one hit of one is 1.0",
+          rep2.scores["trigger_precision_over_subject_events"] == 1.0, str(rep2.scores))
+
     # An event whose quote is not in the document cannot be anchored, and says so.
     ghost = Extraction(doc_id="9001", slug="ada", subject=None, entities=(), relations=(),
                        sources=(),

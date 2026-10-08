@@ -103,9 +103,13 @@ is purely whether the extractor noticed the life episode.
 unmeasurable in either direction and every projected event is recorded in `lossy` for that
 reason.
 
-**Precision is not comparable to a sentence-level figure.** The annotation covers events
-associated with the biography's *target person*; an event about anyone else in the document
-is correct extraction with no gold to match.
+**Precision is computable here, unlike in WikiLifeTrajectory, and the difference is
+exhaustiveness.** This gold marks *every* event associated with the target person, so an
+unmatched extraction about that person is a genuine false positive. An event about anyone
+else is correct extraction with no gold to match, and is excluded rather than counted as an
+error -- the 2,231 `ENTITY` spans are what separate the two cases. Precision is therefore
+reported over subject events only, and is still not comparable to the paper's sentence-level
+figure.
 
 ## There is a published figure, and it is a different split
 
