@@ -259,6 +259,25 @@ def main(argv=None) -> int:
     result = {
         "run_id": run_id,
         "finished": dt.datetime.now().isoformat(timespec="seconds"),
+        # What produced this run. Recovering B1's and B2's sampling after the fact meant
+        # matching cached document ids against each ordering in turn -- the report said
+        # only "400 documents", and 400 of 1,800 under `balanced` is a different sample
+        # from 400 under `id`. Anything that changes which documents were chosen, or what
+        # the model was allowed to produce, belongs here.
+        "invocation": {
+            "limit": args.limit,
+            "only": args.only,
+            "order": getattr(args, "order", None),
+            "b1_order": getattr(args, "b1_order", None),
+            "min_facts": getattr(args, "min_facts", None),
+            "min_triggers": getattr(args, "min_triggers", None),
+            "min_events": getattr(args, "min_events", None),
+            "max_tokens": args.max_tokens,
+            "timeout": args.timeout,
+            "relax_inclusion": args.relax_inclusion,
+            "repeats": args.repeats,
+            "argv": sys.argv[1:],
+        },
         "adapter": {"name": adapter.name, "citation": adapter.citation,
                     "license": adapter.license, "metric": adapter.metric},
         "core": sb.manifest(),
