@@ -430,6 +430,45 @@ READ_TIMEOUT = 360  # seconds of silence (no new chunk) before a streaming reque
                      # an observed real hang of 800s+ with zero bytes and no error).
 
 
+#: The collections a graph reply carries at its top level. Membership is not enough to
+#: identify one: `sources` appears inside every event and relation, and `subject` holds an
+#: object whose own keys are `name` and `slug`, so a nested fragment can carry a key from
+#: this set. What distinguishes a reply from a fragment of one is that the collection is
+#: PRESENT AND IS A LIST -- see _is_graph_reply().
+GRAPH_COLLECTIONS = ("entities", "events", "relations")
+
+#: Where call_llm keeps a raw reply it could not parse cleanly. Set by extract(); None
+#: disables the dump, which is the default so no other caller starts writing files.
+RAW_REPLY_DIR = None
+
+#: Kept for callers and tests that ask what the top level looks like. Not used as a test of
+#: whether an object is a reply; the first version of this fix did exactly that and let a
+#: nested fragment through, because a key can be shared between levels.
+TOP_LEVEL_KEYS = frozenset({"subject", "sources", *GRAPH_COLLECTIONS})
+
+
+def _is_graph_reply(obj):
+    """Is `obj` a graph reply, rather than a fragment of one dug out of a broken one?
+
+    A list is the discriminator. A model that found nothing still answers with
+    `"events": []`, so an empty list is a legitimate answer and stays one. A nested entity
+    or event object has no `entities`/`events`/`relations` key at all -- and crucially, if
+    one of those names appears with a non-list value, that is not an answer either.
+    """
+    return isinstance(obj, dict) and any(
+        isinstance(obj.get(k), list) for k in GRAPH_COLLECTIONS)
+
+
+def _is_scope_reply(obj):
+    """Is `obj` a scope verdict? Delegated to parse_scope so the two can never disagree.
+
+    A check of its own would reject verdicts parse_scope reads perfectly well: the verdict
+    is requested as {"scope": {...}} and smaller models return it unwrapped or under a
+    synonym, all of which parse_scope accepts.
+    """
+    return parse_scope(obj) is not None
+
+
 def _extract_json_object(text):
     """The first complete top-level JSON object in `text`, or None.
 
@@ -661,6 +700,25 @@ def call_llm(system, user, model, base_url, api_key, max_tokens, max_continuatio
                                      "no markdown fences, no commentary."}]
         return full
 
+    def keep(raw, why):
+        """Write the raw reply beside the output when parsing it went wrong.
+
+        Nothing recorded the model's actual words, so an empty graph was indistinguishable
+        from a truncated one and both had to be guessed at from the parsed remains. A
+        salvage or an empty result is exactly when the text is needed.
+        """
+        if not RAW_REPLY_DIR:
+            return
+        try:
+            os.makedirs(RAW_REPLY_DIR, exist_ok=True)
+            path = os.path.join(RAW_REPLY_DIR,
+                                f"reply_{time.strftime('%Y%m%dT%H%M%S')}_{why}.txt")
+            with open(path, "w", encoding="utf-8") as fh:
+                fh.write(raw)
+            print(f"  (raw reply kept at {path} -- {why})")
+        except OSError as e:
+            print(f"  (could not keep the raw reply: {e})")
+
     for attempt in range(1, max_json_retries + 1):
         try:
             full = one_attempt()
@@ -686,17 +744,36 @@ def call_llm(system, user, model, base_url, api_key, max_tokens, max_continuatio
             # Instructing the model not to editorialise helps but never fully holds, so the
             # object is dug out of the surrounding prose instead of the reply being discarded.
             salvaged = _extract_json_object(content)
+            # A TRUNCATED reply is the dangerous case, and it looks like a success. When the
+            # top-level object never closes -- the reply hit the token limit mid-graph --
+            # _extract_json_object returns the first object that DOES close, which is the
+            # first nested one: a single entity, `{"id": ..., "entity_type": "person", ...}`.
+            # That is a valid dict, so it was accepted, and the key coercion below then turned
+            # it into a clean empty graph. Six documents across three benchmarks were recorded
+            # that way -- 0 entities, 0 events, 0 relations, exit code 0, cached as results --
+            # and the extractions behind them were 28k to 94k characters of real output.
+            # A fragment carrying none of the keys this schema uses is a parse failure.
+            if salvaged is not None and not (_is_graph_reply(salvaged)
+                                              or _is_scope_reply(salvaged)):
+                print(f"  (salvaged an object that is neither a graph nor a scope verdict "
+                      f"-- keys {sorted(map(str, salvaged))[:8]}. The reply was truncated "
+                      f"mid-graph, not merely padded)")
+                salvaged = None
             if salvaged is None:
-                raise
+                if attempt < max_json_retries:
+                    print(f"  (attempt {attempt}/{max_json_retries}: reply wasn't valid JSON "
+                          f"and no usable object could be recovered -- retrying with a fresh "
+                          f"sample)")
+                    continue
+                sys.exit(f"Model's reply still wasn't valid JSON after {max_json_retries} "
+                         f"attempt(s), and no object carrying "
+                         f"{'/'.join(GRAPH_COLLECTIONS)} as a list could be recovered. "
+                         f"If the reply was truncated, the document is too large for "
+                         f"--max-tokens: lower --max-chars or raise --max-tokens.\n"
+                         f"First 500 chars of the last attempt:\n{content[:500]}")
             print("  (reply had prose around the JSON -- extracted the object from it)")
+            keep(full, "salvaged")
             data = salvaged
-        except json.JSONDecodeError as e:
-            if attempt < max_json_retries:
-                print(f"  (attempt {attempt}/{max_json_retries}: reply wasn't valid JSON ({e}) -- "
-                      f"retrying with a fresh sample)")
-                continue
-            sys.exit(f"Model's reply still wasn't valid JSON after {max_json_retries} attempt(s) "
-                      f"({e}). First 500 chars of the last attempt:\n{content[:500]}")
         if isinstance(data, str):  # some models double-encode: a JSON string containing JSON
             try:
                 data = json.loads(data)
@@ -711,11 +788,26 @@ def call_llm(system, user, model, base_url, api_key, max_tokens, max_continuatio
                       f"after {max_json_retries} attempt(s).")
         break  # valid object -- done retrying
 
+    # An object with NONE of the expected keys is not an empty graph, it is the wrong
+    # object. Coercing it was what made a truncated reply indistinguishable from a
+    # biography the model found nothing in: both arrived here as 0/0/0 and both were
+    # reported as a successful extraction.
+    if not (_is_graph_reply(data) or _is_scope_reply(data)):
+        sys.exit("Model's JSON was an object, but carries no "
+                 f"{'/'.join(GRAPH_COLLECTIONS)} list, so it is not a graph. Keys found: "
+                 f"{', '.join(sorted(map(str, data))[:10]) or '(none)'}. This is what a "
+                 "reply truncated mid-graph looks like once the enclosing object is lost.")
     if not isinstance(data.get("subject"), dict):
         data["subject"] = {}
     for key in ("entities", "events", "relations", "sources"):
         if not isinstance(data.get(key), list):
             data[key] = []
+    if not (data["entities"] or data["events"] or data["relations"]):
+        # A graph-shaped reply with nothing in it. Legitimate in principle -- the model is
+        # entitled to find nothing -- but it is also what three 23k-to-30k-character
+        # biographies produced after hitting the token limit, and no record of the reply
+        # survived to say which had happened.
+        keep(full, "empty_graph")
     return data
 
 
@@ -1517,6 +1609,11 @@ def extract(pdf_path, slug, name, model, base_url, api_key, max_chars, max_token
         print("  !! --ignore-scope: the scope verdict will be recorded but NOT enforced.")
     print(f"Asking {model} to draft the graph ({len(text):,} chars of source text)...")
     start = time.perf_counter()
+    # A reply that had to be salvaged, or that came back carrying nothing, is kept beside
+    # the subject it belongs to. Diagnosing three empty biographies without it cost two
+    # runs and produced one wrong diagnosis.
+    global RAW_REPLY_DIR
+    RAW_REPLY_DIR = os.path.join(SUBJECTS_DIR, slug, "_raw")
     data = call_llm(system, user, model, base_url, api_key, max_tokens,
                     temperature=temperature)
     print(f"  ({time.perf_counter() - start:.1f}s)")

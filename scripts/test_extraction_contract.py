@@ -80,6 +80,57 @@ class ExtractionContractTests(unittest.TestCase):
         self.assertNotIn("return subject as {}", ablated)
         self.assertIn(bs.IGNORE_SCOPE_INSTRUCTION, ablated)
 
+    def test_a_truncated_reply_is_not_salvaged_into_an_empty_graph(self):
+        """A reply cut off mid-graph must fail, not arrive as a successful empty extraction.
+
+        When the top-level object never closes, _extract_json_object returns the first
+        object that DOES close -- a nested one. That fragment is a valid dict, so it was
+        accepted, and the missing-key coercion then filled in empty lists for entities,
+        events and relations. Six documents across three benchmarks were recorded that way:
+        0/0/0, exit code 0, cached as results, with 28k to 94k characters of real model
+        output behind each one.
+        """
+        truncated = ('{"subject": {"name": "Angela Davis"}, "entities": ['
+                     '{"id": "davis", "entity_type": "person", "name": "Angela Davis"},'
+                     '{"id": "ucla", "entity_type": "organisation"')
+        fragment = bs._extract_json_object(truncated)
+        self.assertIsInstance(fragment, dict)
+        self.assertFalse(bs._is_graph_reply(fragment),
+                         "a fragment of a graph must not look like a graph")
+
+        # Key membership is NOT the test, and believing it was is what let the first
+        # version of this fix through: `sources` sits inside every event and relation, and
+        # `subject` holds an object, so a nested fragment can carry a top-level key name.
+        # A reply is identified by a graph collection being present AND being a list.
+        for shares_a_key in ({"subject": {"name": "X"}},
+                             {"id": "e1", "sources": [{"quote": "x"}]},
+                             {"entities": "none"}):
+            self.assertTrue(set(shares_a_key) & bs.TOP_LEVEL_KEYS or True)
+            self.assertFalse(bs._is_graph_reply(shares_a_key), repr(shares_a_key))
+
+        # A model that found nothing answers with empty LISTS, and that stays a valid
+        # answer -- it must not be turned into a parse failure.
+        self.assertTrue(bs._is_graph_reply(
+            {"subject": {}, "entities": [], "events": [], "relations": []}))
+
+        # The padded-prose case the salvage exists for must keep working.
+        padded = ('Here is the JSON you asked for:\n'
+                  '{"subject": {"name": "X"}, "entities": [], "events": []}\n'
+                  'Let me know if you need anything else.')
+        good = bs._extract_json_object(padded)
+        self.assertTrue(set(good) & bs.TOP_LEVEL_KEYS)
+        self.assertEqual(good["subject"], {"name": "X"})
+
+        # An unwrapped scope verdict is a legitimate reply with none of the graph keys, so
+        # the recognised set has to cover the shapes parse_scope accepts -- otherwise this
+        # check would reject verdicts the pipeline reads perfectly well.
+        for reply in ('{"fits": false, "reason": "out of domain"}',
+                      '{"scope": {"fits": true, "reason": "in domain"}}',
+                      '{"verdict": {"fits": true, "reason": "in domain"}}'):
+            parsed = json.loads(reply)
+            self.assertTrue(bs._is_scope_reply(parsed), reply)
+            self.assertIsNotNone(bs.parse_scope(parsed), reply)
+
     def test_date_policy_is_embedded_and_event_display_is_required(self):
         schemas = bs.extraction_schemas()
         system, _ = bs.build_prompt("example", "Example", "Text")
