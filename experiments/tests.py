@@ -1683,6 +1683,348 @@ def test_grounding_diagnostic_only_reduces():
           <= rep.scores["quote_fabrication_rate"] or True, str(rep.scores))
 
 
+
+
+# ------------------------------------------------------------ benchmarks/eventkg
+
+def test_eventkg_reads_the_release_not_the_documentation():
+    """The shipped header, the float labels, and the `-` placeholder.
+
+    The project page documents the score columns as `bio_score` and `wiki_score`; the
+    file ships `biography_score` and `wikipedia_score`, with values `0.0`/`1.0`. An
+    adapter written from the documentation would have loaded no gold at all and reported
+    zero recall, which is why the header is checked rather than assumed.
+    """
+    from .benchmarks.eventkg import adapter as ek
+
+    tmp = tempfile.mkdtemp(prefix="ekg-")
+    try:
+        rows = ["\t".join(ek.COLUMNS),
+                # one fact arriving three times, once per source knowledge graph
+                "Rachel_Weisz\tentity_817926\thttp://yago-knowledge.org/resource/actedIn\t"
+                "Enemy_at_the_Gates\tentity_4699125\t2001-03-16\t-\t0.0\t1.0",
+                "Rachel_Weisz\tentity_817926\thttp://dbpedia.org/ontology/starring\t"
+                "Enemy_at_the_Gates\tentity_4699125\t2001-03-16\t-\t0.0\t1.0",
+                "Rachel_Weisz\tentity_817926\thttp://www.wikidata.org/entity/P161\t"
+                "Enemy_at_the_Gates\tentity_4699125\t2001-03-16\t-\t0.0\t1.0",
+                # an unlabelled positive -- this is how her birth date arrives
+                "Rachel_Weisz\tentity_817926\thttp://dbpedia.org/ontology/performer\t"
+                "-\tentity_4660024\t1970-03-07\t-\t1.0\t1.0",
+                # a distractor: in EventKG, not in the abstract
+                "Rachel_Weisz\tentity_817926\twikipedia:link\tGlastonbury_Festival\t"
+                "entity_55\t1970-09-19\t1970-09-20\t0.0\t0.0",
+                # positive only in the unreachable biography half
+                "Rachel_Weisz\tentity_817926\thttp://www.wikidata.org/entity/P26\t"
+                "Daniel_Craig\tentity_3550669\t2011-06-22\t-\t1.0\t0.0"]
+        os.makedirs(os.path.join(tmp, "abstracts"))
+        with open(os.path.join(tmp, "benchmark.tsv"), "w", encoding="utf-8",
+                  newline="") as fh:
+            fh.write("\n".join(rows) + "\n")
+        with open(os.path.join(tmp, "abstracts", "Rachel_Weisz.txt"), "w",
+                  encoding="utf-8") as fh:
+            fh.write("Rachel Weisz is an English actress. She appeared in Enemy at the "
+                     "Gates in 2001.\n")
+
+        docs = list(ek.EventKgAdapter().load(tmp))
+        check("one person becomes one document", len(docs) == 1, str(len(docs)))
+        doc = docs[0]
+        check("the slug is acceptable to build_site.py",
+              re.match(r"^[a-z][a-z0-9_]*$", doc.slug), doc.slug)
+        facts = doc.gold["facts"]
+        check("three source graphs' rows for one fact become one gold fact",
+              len([f for f in facts if f.label == "Enemy_at_the_Gates"]) == 1,
+              str([f.as_dict() for f in facts]))
+        one = [f for f in facts if f.label == "Enemy_at_the_Gates"][0]
+        check("the deduplicated fact keeps every property it arrived under",
+              len(one.properties) == 3, str(sorted(one.properties)))
+        check("a positive in the biography half only is not gold here",
+              all(f.label != "Daniel_Craig" for f in facts),
+              str([f.label for f in facts]))
+        check("the unreachable half is still counted",
+              doc.meta["biography_positive_rows"] == 2,
+              str(doc.meta))
+        check("an unlabelled positive is loaded but is not matchable",
+              any(not f.labelled for f in facts), str([f.as_dict() for f in facts]))
+        check("distractors are kept separately from gold",
+              sorted(f.label for f in doc.gold["distractors"])
+              == ["Daniel_Craig", "Glastonbury_Festival"],
+              str([f.label for f in doc.gold["distractors"]]))
+        check("a biography-half positive is a distractor here, not gold",
+              any(f.label == "Daniel_Craig" for f in doc.gold["distractors"]),
+              "wikipedia_score 0.0 is what decides membership")
+        check("the revision pinning is disclosed",
+              "revision_pinned" in doc.transform, str(doc.transform))
+
+        # A person with no abstract is skipped rather than scored as a total miss.
+        rows.append("Alan_Cumming\tentity_9293836\thttp://www.wikidata.org/entity/P161\t"
+                    "The_Good_Wife\tentity_12298563\t2009-09-22\t2016-05-08\t0.0\t1.0")
+        with open(os.path.join(tmp, "benchmark.tsv"), "w", encoding="utf-8",
+                  newline="") as fh:
+            fh.write("\n".join(rows) + "\n")
+        check("a person whose abstract was not fetched is skipped, not failed",
+              [d.doc_id for d in ek.EventKgAdapter().load(tmp)] == ["Rachel_Weisz"],
+              str([d.doc_id for d in ek.EventKgAdapter().load(tmp)]))
+
+        # The documentation's column names must be refused, loudly.
+        with open(os.path.join(tmp, "benchmark.tsv"), "w", encoding="utf-8",
+                  newline="") as fh:
+            fh.write("entity_label\tentity_id\tproperty\tconnected_entity_label\t"
+                     "connected_entity_id\tstart_date\tend_date\tbio_score\twiki_score\n")
+        try:
+            list(ek.EventKgAdapter().load(tmp))
+            check("the documented-but-wrong header is refused", False, "no SystemExit")
+        except SystemExit as e:
+            check("the documented-but-wrong header is refused",
+                  "released format" in str(e), str(e)[:90])
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+def test_eventkg_date_conventions():
+    """An absent end date is a point; a bare year stored as 1 January is a whole year."""
+    from .benchmarks.eventkg import adapter as ek
+
+    check("an absent end date means a point in time",
+          ek.gold_interval("2001-03-16", "-") == ("2001-03-16", "2001-03-16"),
+          str(ek.gold_interval("2001-03-16", "-")))
+    # Year precision is stored as YYYY-01-01 with no end. Left as a point, an extractor
+    # that correctly read "June 1830" would be scored wrong for not saying 1 January.
+    check("a year-precision date with no end widens to the year",
+          ek.gold_interval("1830-01-01", "-") == ("1830-01-01", "1830-12-31"),
+          str(ek.gold_interval("1830-01-01", "-")))
+    check("a real interval is kept",
+          ek.gold_interval("2009-09-22", "2016-05-08")
+          == ("2009-09-22", "2016-05-08"), str(ek.gold_interval("2009-09-22", "2016-05-08")))
+    check("a reversed interval is put back in order",
+          ek.gold_interval("2016-05-08", "2009-09-22")[0] == "2009-09-22",
+          str(ek.gold_interval("2016-05-08", "2009-09-22")))
+    check("no start date means no interval", ek.gold_interval("-", "-") is None)
+    check("a date that is not ISO is not guessed at",
+          ek.gold_interval("circa 1830", "-") is None,
+          str(ek.gold_interval("circa 1830", "-")))
+    check("intervals of different precision overlap rather than contain",
+          ek._overlaps(("1830-01-01", "1830-12-31"), ("1830-06-01", "1830-06-30")),
+          "year-precision gold against a month-precision extraction")
+
+    # A date is only comparable when the interval is the relation's own validity.
+    event_row = ek.GoldFact("event_626940", "World_War_II", ("1939-09-01", "1945-09-02"),
+                            {"wikipedia:link"}, is_event=True)
+    person_row = ek.GoldFact("entity_4715701", "Vincent_van_Gogh",
+                             ("1853-03-30", "1890-07-29"), {"wikipedia:link"},
+                             is_event=False)
+    dated_row = ek.GoldFact("entity_3550669", "Daniel_Craig", ("2011-06-22", "2011-06-22"),
+                            {"http://www.wikidata.org/entity/P26"}, is_event=False)
+    check("an interval on an EventKG event is the relation's own", event_row.date_usable)
+    check("a validity-bearing property's interval is the relation's own",
+          dated_row.date_usable)
+    check("a linked person's lifespan is not a date for this relation",
+          not person_row.date_usable,
+          "van Gogh's 1853-1890 is his life, not an episode in Delacroix's")
+
+
+def test_eventkg_label_matching_resists_common_words():
+    """Disambiguators are stripped and one-common-word labels cannot earn recall."""
+    from .benchmarks.eventkg import adapter as ek
+
+    check("a Wikipedia disambiguator is not part of the name",
+          ek.label_tokens("Youth_(2015_film)") == {"youth"},
+          str(ek.label_tokens("Youth_(2015_film)")))
+    check("underscores are word separators",
+          ek.label_tokens("Enemy_at_the_Gates") == {"enemy", "gates"},
+          str(ek.label_tokens("Enemy_at_the_Gates")))
+    # `Academy_Award_for_Best_Supporting_Actress` must keep something distinctive after
+    # the stop list has taken `award` and `best`.
+    toks = ek.label_tokens("Academy_Award_for_Best_Supporting_Actress")
+    check("an award title keeps its distinctive words",
+          "academy" in toks and "actress" in toks, str(toks))
+    check("a label the stop list empties cannot be matched",
+          not ek.label_tokens("The_Best_Film"), str(ek.label_tokens("The_Best_Film")))
+    check("every distinctive token must be present to match",
+          ek._name_match(ek.label_tokens("Enemy_at_the_Gates"),
+                         "Appeared in Enemy at the Gates")
+          and not ek._name_match(ek.label_tokens("Enemy_at_the_Gates"),
+                                 "Guarded the gates"),
+          "partial token overlap must not count")
+    check("the match ignores accents and case",
+          ek._name_match(ek.label_tokens("Ngũgĩ_wa_Thiong'o"),
+                         "ngugi wa thiongo"), "accent folding")
+
+
+def test_eventkg_scoring_is_two_tier_recall():
+    """Name-anchored and date-anchored recall, distractors counted, nothing called wrong."""
+    from .benchmarks.eventkg import adapter as ek
+
+    film = ek.GoldFact("entity_4699125", "Enemy_at_the_Gates",
+                       ("2001-03-16", "2001-03-16"),
+                       {"http://www.wikidata.org/entity/P161"}, is_event=False)
+    award = ek.GoldFact("entity_5589621", "Academy_Award_for_Best_Supporting_Actress",
+                        ("2005-01-01", "2005-12-31"),
+                        {"http://www.wikidata.org/entity/P1346"}, is_event=False)
+    # A bare link to another person: the interval is HIS lifespan, not the date of
+    # anything that happened to her. This is the van Gogh/Delacroix pattern.
+    craig = ek.GoldFact("entity_3550669", "Daniel_Craig", ("1968-03-02", "2026-01-01"),
+                        {"wikipedia:link"}, is_event=False)
+    nameless = ek.GoldFact("entity_4660024", "-", ("1970-03-07", "1970-03-07"),
+                           {"http://dbpedia.org/ontology/performer"}, is_event=False)
+    missed = ek.GoldFact("entity_1164770", "My_Cousin_Rachel", ("2017-09-07", "2017-09-07"),
+                         {"http://dbpedia.org/ontology/starring"}, is_event=False)
+    decoy = ek.GoldFact("entity_55", "Glastonbury_Festival", ("1970-09-19", "1970-09-20"),
+                        {"wikipedia:link"}, is_event=True)
+
+    doc = BenchmarkDoc(
+        doc_id="Rachel_Weisz", slug="rachel_weisz", name="Rachel Weisz",
+        text="Rachel Weisz appeared in Enemy at the Gates in 2001.",
+        gold={"facts": [film, award, craig, nameless, missed],
+              "distractors": [decoy]},
+        meta={"biography_positive_rows": 2})
+
+    ex = Extraction(
+        doc_id="Rachel_Weisz", slug="rachel_weisz", subject=None,
+        entities=({"id": "weisz", "entity_type": "person", "name": "Rachel Weisz",
+                   "aliases": [], "summary": "English actress."},
+                  {"id": "glastonbury", "entity_type": "place",
+                   "name": "Glastonbury Festival", "aliases": [], "summary": ""}),
+        events=({"id": "e1", "event_type": "other", "label": "Enemy at the Gates",
+                 "description": "Appeared in Enemy at the Gates.",
+                 "date": {"display": "2001", "precision": "year",
+                          "sort_start": "2001-01-01", "sort_end": "2001-12-31"},
+                 "sources": ({"quote": "appeared in Enemy at the Gates in 2001"},)},
+                # named, dated, but the date disagrees
+                {"id": "e2", "event_type": "award",
+                 "label": "Academy Award for Best Supporting Actress",
+                 "description": "Won the Academy Award for Best Supporting Actress.",
+                 "date": {"display": "1999", "precision": "year",
+                          "sort_start": "1999-01-01", "sort_end": "1999-12-31"},
+                 "sources": ()},
+                # named and dated, but the gold interval is the linked man's lifespan,
+                # so there is nothing here the date can legitimately be compared with
+                {"id": "e3", "event_type": "other", "label": "Married Daniel Craig",
+                 "description": "She married Daniel Craig in 2011.",
+                 "date": {"display": "2011", "precision": "year",
+                          "sort_start": "2011-01-01", "sort_end": "2011-12-31"},
+                 "sources": ()},
+                # an event with no interval at all, which cannot be date-anchored
+                {"id": "e4", "event_type": "other", "label": "Early life",
+                 "description": "Her family fled Europe.",
+                 "date": {"display": "unknown", "precision": "unknown",
+                          "sort_start": "", "sort_end": ""},
+                 "sources": ()}),
+        relations=(), sources=())
+
+    pred = ek.ADAPTER.project(doc, ex)
+    check("an event with no sort interval is recorded as unmapped",
+          [u[1] for u in pred.unmapped] == ["e4"], str(pred.unmapped))
+    check("every event is lossy, because no gold row carries a type",
+          sum(1 for l in pred.lossy if l[0] == "event") == 4, str(pred.lossy))
+
+    rep = ek.ADAPTER.score([(doc, pred)], extractions={"Rachel_Weisz": ex})
+    s = rep.scores
+    check("the unlabelled fact is out of the matchable denominator",
+          s["gold_facts_matchable"] == 4.0, str(s))
+    check("the unlabelled fact is reported, not dropped",
+          rep.attrition["unlabelled_gold"] == 1, str(rep.attrition))
+    # film, award and war are all named; My_Cousin_Rachel is not.
+    check("name-anchored recall counts every named fact",
+          abs(s["recall_name_anchored"] - 0.75) < 1e-9, str(s))
+    # Only the film agrees on date: the award's year is wrong, and the war's interval
+    # belongs to the war rather than to anything in her life.
+    check("date-anchored recall counts only agreement on a usable interval",
+          abs(s["recall_date_anchored"] - 0.25) < 1e-9, str(s))
+    check("a date belonging to the connected entity is excluded, not failed",
+          rep.attrition["date_semantics_unusable"] == 1, str(rep.attrition))
+    check("an extraction landing on a distractor is a diagnostic, not an error",
+          s["distractor_hit_rate"] == 1.0 and "precision" in rep.not_applicable,
+          str(s) + str(sorted(rep.not_applicable)))
+    check("the unreachable biography half is reported",
+          rep.attrition["biography_half_rows_unreachable"] == 2
+          and "biography_half" in rep.not_applicable, str(rep.attrition))
+    check("relation type is named not-applicable",
+          "relation_type" in rep.not_applicable, str(sorted(rep.not_applicable)))
+    check("their published figures are kept out of published_baseline",
+          rep.published_baseline == {}, str(rep.published_baseline))
+    check("every type is untyped in the coverage column",
+          set(v[0] for v in ek.ADAPTER.coverage().values()) == {"untyped"},
+          str(set(v[0] for v in ek.ADAPTER.coverage().values())))
+
+
+def test_eventkg_relations_cannot_reach_the_dated_tier():
+    """A relation match is weak by construction, because relations carry no date.
+
+    This is a property of biograph's schema, not of the benchmark, and it is the reason
+    the two tiers are reported separately rather than added together.
+    """
+    from .benchmarks.eventkg import adapter as ek
+
+    fact = ek.GoldFact("entity_3550669", "Daniel_Craig", ("2011-06-22", "2011-06-22"),
+                       {"http://www.wikidata.org/entity/P26"}, is_event=False)
+    doc = BenchmarkDoc(doc_id="w", slug="w", name="W", text="x",
+                       gold={"facts": [fact], "distractors": []}, meta={})
+    ex = Extraction(
+        doc_id="w", slug="w", subject=None,
+        entities=({"id": "craig", "entity_type": "person", "name": "Daniel Craig",
+                   "aliases": [], "summary": ""},),
+        events=(), relations=({"id": "r1", "source": "weisz", "type": "family_of",
+                               "target": "craig", "sources": ()},), sources=())
+    rep = ek.ADAPTER.score([(doc, ek.ADAPTER.project(doc, ex))], extractions={"w": ex})
+    check("the relation earns the name-anchored tier",
+          rep.scores["recall_name_anchored"] == 1.0, str(rep.scores))
+    check("the relation cannot earn the date-anchored tier",
+          rep.scores["recall_date_anchored"] == 0.0, str(rep.scores))
+    check("the reason is recorded as lossy, not as a miss",
+          any("carry no date" in l[3] for l in ek.ADAPTER.project(doc, ex).lossy),
+          str(ek.ADAPTER.project(doc, ex).lossy))
+
+
+def test_wikibio_precision_cannot_exceed_one():
+    """Precision's numerator and denominator must both be subject events.
+
+    Recall deliberately lets ANY extracted event anchor a gold trigger, including one
+    whose quote does not cover a gold ENTITY mention. Counting those in precision's
+    numerator while scoping its denominator to subject events put 532 matches over 526
+    subject events in the first full run, reporting a precision of 1.0114 and a residual
+    count of -6.
+    """
+    from .benchmarks.wikibio import adapter as wb
+
+    text = ("Ada Aharoni was born in Cairo. Her teacher Dov Noy edited the anthology. "
+            "She wrote poetry.")
+    doc = BenchmarkDoc(
+        doc_id="9001", slug="ada", name="Ada Aharoni", text=text,
+        gold={"triggers": [{"id": "A", "label": "EVENT", "start": 16, "end": 20,
+                            "surface": "born"},
+                           {"id": "B", "label": "EVENT", "start": 44, "end": 50,
+                            "surface": "edited"}],
+              "context_events": [],
+              # the subject is named only in the first sentence
+              "subject_mentions": [{"id": "M", "label": "ENTITY", "start": 0, "end": 11,
+                                    "surface": "Ada Aharoni"}]},
+        meta={"subject": "Ada Aharoni"})
+    ex = Extraction(
+        doc_id="9001", slug="ada", subject=None, entities=(), relations=(), sources=(),
+        events=({"id": "e1", "event_type": "birth", "label": "Born in Cairo",
+                 "sources": ({"quote": "Ada Aharoni was born in Cairo."},)},
+                # about someone else: its quote covers no subject mention, yet it does
+                # anchor a gold trigger
+                {"id": "e2", "event_type": "publication", "label": "Edited the anthology",
+                 "sources": ({"quote": "Her teacher Dov Noy edited the anthology."},)}))
+    pred = wb.ADAPTER.project(doc, ex)
+    rep = wb.ADAPTER.score([(doc, pred)], extractions={"9001": ex})
+    check("both gold triggers are recalled",
+          rep.scores["gold_recalled"] == 2, str(rep.scores))
+    check("an event about someone else is not in precision's denominator",
+          rep.attrition["events_about_the_subject"] == 1, str(rep.attrition))
+    check("precision never exceeds one",
+          0.0 <= rep.scores["trigger_precision_over_subject_events"] <= 1.0,
+          str(rep.scores["trigger_precision_over_subject_events"]))
+    check("the residual is never negative",
+          rep.attrition["subject_events_matching_no_trigger"] >= 0,
+          str(rep.attrition))
+    check("a non-subject event that anchored a trigger is counted on its own",
+          rep.attrition["non_subject_events_anchoring_a_trigger"] == 1,
+          str(rep.attrition))
+
+
+
 def main() -> int:
     for fn in (test_parse_timeline, test_matching, test_concordance, test_aultc,
                test_score_document, test_projection, test_input_adapter,
@@ -1711,7 +2053,13 @@ def main() -> int:
                test_grounding_parses_the_shipped_checker, test_grounding_aggregate,
                test_grounding_protocol_shape,
                test_grounding_excludes_overwritten_sources,
-               test_grounding_diagnostic_only_reduces):
+               test_grounding_diagnostic_only_reduces,
+               test_eventkg_reads_the_release_not_the_documentation,
+               test_eventkg_date_conventions,
+               test_eventkg_label_matching_resists_common_words,
+               test_eventkg_scoring_is_two_tier_recall,
+               test_eventkg_relations_cannot_reach_the_dated_tier,
+               test_wikibio_precision_cannot_exceed_one):
         print(f"\n{fn.__name__}")
         fn()
     print()

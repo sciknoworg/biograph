@@ -56,6 +56,9 @@ def get_adapter(name: str, args):
     if name == "wikibio":
         from ..benchmarks.wikibio.adapter import WikiBioAdapter
         return WikiBioAdapter(min_events=args.min_events)
+    if name == "eventkg":
+        from ..benchmarks.eventkg.adapter import EventKgAdapter
+        return EventKgAdapter(min_facts=args.min_facts, cutoff=args.ekg_cutoff)
     if name == "wikilife":
         from ..benchmarks.wikilife.adapter import WikiLifeAdapter
         return WikiLifeAdapter()
@@ -63,7 +66,8 @@ def get_adapter(name: str, args):
         from ..benchmarks.bioevents.adapter import BioEventsAdapter
         return BioEventsAdapter(min_triggers=args.min_triggers, order=args.order)
     raise SystemExit(f"no adapter named {name!r} yet "
-                     f"(built so far: pmoa_tts, biographical, bioevents, wikilife, wikibio, grounding)")
+                     f"(built so far: pmoa_tts, biographical, bioevents, wikilife, wikibio, "
+                     f"eventkg, grounding)")
 
 
 def main(argv=None) -> int:
@@ -72,11 +76,22 @@ def main(argv=None) -> int:
     ap.add_argument("--data-root", help="local copy of the benchmark corpus; never "
                                         "downloaded or committed by this harness")
     ap.add_argument("--limit", type=int)
+    ap.add_argument("--only", action="append", metavar="DOC_ID",
+                    help="extract only these documents, by the benchmark's own doc_id. "
+                         "Repeatable. Applied after load() and before --limit, so the "
+                         "document order and every gold figure stay as the adapter built "
+                         "them. Scores from a filtered run are over the filtered set only "
+                         "and must never be merged with a full run's")
     ap.add_argument("--timeout", type=int, default=1800,
                     help="seconds a single extraction may take before the harness kills "
                          "it and records timed_out. The default suits short benchmark "
                          "documents; a full-length biography needs more. A timeout costs "
                          "one document, not the run")
+    ap.add_argument("--max-tokens", type=int,
+                    help="reply budget per request. Unset leaves build_site.py's default "
+                         "of 32,000, which every run so far used. A whole biography can "
+                         "exceed it and fall into the continuation path; raising it is the "
+                         "way to test whether that path is what empties a document")
     ap.add_argument("--repeats", type=int, default=1,
                     help="extraction samples at temperature 0.2, so a single run is a "
                          "draw, not a score. Repeats are scored separately and reported "
@@ -117,6 +132,10 @@ def main(argv=None) -> int:
                          "reaching a given number of EVENTs in roughly half the calls "
                          "but giving a prefix twice as dense as the corpus, whose "
                          "recall is not a corpus estimate and must be reported as such")
+    # eventkg options
+    ap.add_argument("--ekg-cutoff", default="2019-05-21",
+                    help="eventkg: the revision cutoff the abstracts were fetched at. "
+                         "Recorded in the report; must match what fetch_abstracts.py used")
     ap.add_argument("--min-events", type=int, default=1,
                     help="wikibio: skip biographies with fewer than this many gold "
                          "event triggers")
@@ -168,7 +187,17 @@ def main(argv=None) -> int:
     if not os.path.isdir(args.data_root):
         raise SystemExit(f"--data-root not found: {args.data_root}")
 
-    docs = list(adapter.load(args.data_root, limit=args.limit))
+    docs = list(adapter.load(args.data_root, limit=None if args.only else args.limit))
+    if args.only:
+        wanted = list(args.only)
+        docs = [d for d in docs if d.doc_id in set(wanted)]
+        found = {d.doc_id for d in docs}
+        missing = [w for w in wanted if w not in found]
+        if missing:
+            raise SystemExit("--only named %d document(s) this adapter did not load: %s"
+                             % (len(missing), ", ".join(repr(m) for m in missing)))
+        if args.limit:
+            docs = docs[:args.limit]
     if not docs:
         raise SystemExit(f"no documents loaded from {args.data_root} -- check the Layout "
                          f"in experiments/benchmarks/{adapter.name}/adapter.py against "
@@ -204,7 +233,8 @@ def main(argv=None) -> int:
 
     runner = Runner(sb, cfg, adapter.name, verbose=True,
                     cache_dir=None if args.no_cache else os.path.join(out_dir, "cache"),
-                    ignore_scope=args.relax_inclusion, timeout=args.timeout)
+                    ignore_scope=args.relax_inclusion, timeout=args.timeout,
+                    max_tokens=args.max_tokens)
 
     reports = []
     for rep in range(args.repeats):

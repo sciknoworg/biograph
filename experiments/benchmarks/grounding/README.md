@@ -1,4 +1,4 @@
-# Benchmark 5 — Grounding
+# Benchmark 6 — Grounding
 
 Does the extractor cite text that is actually there?
 

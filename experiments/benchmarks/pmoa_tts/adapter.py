@@ -1,4 +1,6 @@
-"""Benchmark 3: PMOA-TTS (arXiv 2505.20323) and the relative-timeline framework it
+"""PMOA-TTS (arXiv 2505.20323) -- NOT RUN, and no longer numbered.
+
+Kept for the relative-timeline framework it
 evaluates (arXiv 2504.12350).
 
 Built first, deliberately. Its metric matches events by embedding distance and never

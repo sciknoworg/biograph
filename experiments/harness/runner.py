@@ -82,12 +82,19 @@ def python_exe() -> str:
 
 
 def cache_key(doc: BenchmarkDoc, cfg: ModelConfig, core_hash: str, repeat: int,
-              condition: str = "gate_on") -> str:
+              condition: str = "gate_on", max_tokens: int | None = None) -> str:
     """`condition` is part of the key because the enforced and relaxed runs of the same
     document under the same core hash are different experiments with the same inputs.
-    Omitting it would let an ablation run silently serve the baseline's cached result."""
+    Omitting it would let an ablation run silently serve the baseline's cached result.
+
+    `max_tokens` is part of it for the same reason. A document extracted under a 32,000
+    token budget and the same document under 64,000 are different experiments: the first
+    may have been forced through the continuation path and the second not. Absent, it
+    contributes the word `default`, so every key written before the budget was exposed
+    stays valid -- those runs all used build_site.py's own default."""
     h = hashlib.sha256()
-    for part in (doc.text, cfg.fingerprint(), core_hash, str(repeat), condition):
+    for part in (doc.text, cfg.fingerprint(), core_hash, str(repeat), condition,
+                 "default" if max_tokens is None else str(max_tokens)):
         h.update(part.encode("utf-8"))
         h.update(b"\x00")
     return h.hexdigest()[:24]
@@ -138,7 +145,7 @@ def parse_grounding(stdout: str) -> GroundingReport | None:
 class Runner:
     def __init__(self, sandbox: Sandbox, cfg: ModelConfig, adapter_name: str,
                  cache_dir: str | None = None, timeout: int = 1800, verbose: bool = True,
-                 ignore_scope: bool = False):
+                 ignore_scope: bool = False, max_tokens: int | None = None):
         self.sb = sandbox
         self.cfg = cfg
         self.domain = f"{DOMAIN_PREFIX}_{adapter_name}"
@@ -150,6 +157,13 @@ class Runner:
         #: what the criteria WOULD have said, and what the extractor produced anyway, reported
         #: as a distinct condition and never merged with an enforced run.
         self.ignore_scope = ignore_scope
+        #: Reply budget per request. None leaves build_site.py's own default (32,000),
+        #: which is what every run so far used -- the harness had no way to pass one. Three
+        #: biographies of 23k-30k characters exceeded it, fell into the continuation path,
+        #: and came back empty, so the budget is now a variable rather than a hidden
+        #: constant. It is cache key material, because a run at a different budget is a
+        #: different condition.
+        self.max_tokens = max_tokens
         if cache_dir:
             os.makedirs(cache_dir, exist_ok=True)
 
@@ -164,7 +178,8 @@ class Runner:
                         # them to match the inclusion-criteria vocabulary would change
                         # every key and discard every cached extraction, so they stay as
                         # they are and the vocabulary is corrected everywhere it is read.
-                        condition="gate_off" if self.ignore_scope else "gate_on")
+                        condition="gate_off" if self.ignore_scope else "gate_on",
+                        max_tokens=self.max_tokens)
         cached = self._load_cached(doc, key)
         if cached is not None:
             return cached
@@ -190,6 +205,8 @@ class Runner:
                "--base-url", self.cfg.base_url]
         if self.ignore_scope:
             cmd.append("--ignore-scope")
+        if self.max_tokens:
+            cmd += ["--max-tokens", str(self.max_tokens)]
         env = dict(os.environ, BIOGRAPH_API_KEY=self.cfg.api_key)
 
         # A timeout is one document failing, not the run failing. subprocess.run raises

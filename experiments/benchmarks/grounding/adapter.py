@@ -1,4 +1,4 @@
-"""Benchmark 5: Grounding -- does the extractor cite text that is actually there?
+"""Benchmark 6: Grounding -- does the extractor cite text that is actually there?
 
 Not an external dataset, and the only one of the five with no licence question and no
 model call. The gold is the source document itself, and the check is a string search:
@@ -450,7 +450,7 @@ class GroundingAdapter:
     # -------------------------------------------------------------- coverage
 
     def coverage(self) -> dict[str, tuple[str, str]]:
-        """B5's column is measured from the corpus, not declared."""
+        """B6's column is measured from the corpus, not declared."""
         cells = {}
         for row, (quoted, total) in coverage_mod.measure_quote_coverage(
                 self.subjects_root).items():

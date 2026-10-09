@@ -305,6 +305,7 @@ class WikiBioAdapter:
         recalled = tier_strong = tier_weak = 0
         gold_total = 0
         matched_events = 0
+        matched_subject_events = 0
         total_events = 0
         subject_events = 0      # extracted events that ARE about the target person
         unscorable_subject = 0  # about someone else: correct extraction, no gold to match
@@ -359,6 +360,14 @@ class WikiBioAdapter:
                     recalled += 1
                     hit += 1
                     matched_events += 1
+                    # Precision's denominator is subject events only, so its numerator
+                    # must be too. Recall deliberately lets ANY event anchor a trigger --
+                    # an event whose quote happens not to cover a gold ENTITY mention can
+                    # still be the one that read the episode -- and counting those in the
+                    # numerator put 532 matches over 526 subject events, reporting a
+                    # precision of 1.0114 and a residual of -6.
+                    if events[best[0]]["about_subject"]:
+                        matched_subject_events += 1
                     if best[1] == "label+quote":
                         tier_strong += 1
                     else:
@@ -367,14 +376,17 @@ class WikiBioAdapter:
                                    "events": len(events), "subject": doc.meta.get("subject")}
 
         recall = recalled / gold_total if gold_total else 0.0
-        # Over subject events only. See the scoping above.
-        precision = matched_events / subject_events if subject_events else 0.0
+        # Over subject events only, on both sides of the division. See the scoping above.
+        precision = (matched_subject_events / subject_events) if subject_events else 0.0
 
         attrition = {"documents": len(pairs), "gold_triggers": gold_total,
                      "extracted_events": total_events,
                      "events_about_the_subject": subject_events,
                      "events_about_others_unscorable": unscorable_subject,
-                     "subject_events_matching_no_trigger": subject_events - matched_events,
+                     "subject_events_matching_no_trigger":
+                         subject_events - matched_subject_events,
+                     "non_subject_events_anchoring_a_trigger":
+                         matched_events - matched_subject_events,
                      "empty_extraction": 0, "out_of_scope": 0, "did_not_validate": 0}
         for ex in extractions.values():
             if not getattr(ex, "events", ()):
