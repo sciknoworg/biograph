@@ -152,6 +152,24 @@ _ISO = re.compile(r"^(\d{4})-(\d{2})-(\d{2})$")
 
 DEFAULT_MAX_CHARS = 180_000
 
+#: Document order, which decides what a stopped run leaves behind.
+#:
+#: `richness` yields the people with the most scored gold facts first, so a run halted at
+#: any point has finished the documents that carry the most measurement. At 1,531 people
+#: and roughly two minutes each, a complete run is days long, and being able to stop it
+#: without wasting the time already spent is worth more than a representative prefix.
+#:
+#: THE COST IS THAT A PREFIX IS NOT A SAMPLE. Recall over the N most-documented people is
+#: not recall over the benchmark: those people have longer abstracts, more Wikipedia
+#: links, and gold built from more of them. A partial run must be reported as "the N
+#: people with the most attested relations", never as a corpus estimate -- the same
+#: caveat BiographicalEvents carries for its own richness ordering.
+#:
+#: `file` is the release's own order, which is effectively arbitrary (unsorted, and the
+#: first 50 average 14.2 attested relations against 12.8 for the remaining 2,534). A
+#: prefix of it is closer to a sample, and is the right choice for a run that will finish.
+ORDERS = ("richness", "file")
+
 
 #: Apostrophes are removed rather than treated as separators. `Thiong'o` split into
 #: `thiong` + `o` while a biography spelling it `Thiongo` gave one token, so the two could
@@ -325,10 +343,13 @@ class EventKgAdapter:
                                "input is the graph, not the biography")
 
     def __init__(self, max_chars: int = DEFAULT_MAX_CHARS, min_facts: int = 1,
-                 cutoff: str = "2019-05-21") -> None:
+                 cutoff: str = "2019-05-21", order: str = "richness") -> None:
+        if order not in ORDERS:
+            raise ValueError(f"order must be one of {ORDERS}, not {order!r}")
         self.max_chars = max_chars
         self.min_facts = min_facts
         self.cutoff = cutoff
+        self.order = order
 
     # ---------------------------------------------------------------- load
 
@@ -361,21 +382,39 @@ class EventKgAdapter:
 
         available = {os.path.splitext(f)[0]: os.path.join(abstracts, f)
                      for f in sorted(os.listdir(abstracts)) if f.endswith(".txt")}
-        emitted = 0
-        for label in sorted(by_person):
-            path = available.get(label)
-            if path is None:
+
+        # Two passes, because ordering by richness needs every person's fact count before
+        # the first document can be emitted. The gold is deduplicated here and carried
+        # forward, so no person's rows are merged twice.
+        prepared: list[tuple[int, int, str, list, list]] = []
+        for position, label in enumerate(by_person):
+            if label not in available:
                 continue
             rows = by_person[label]
             positives = [r for r in rows if r["wikipedia_score"].strip() in ("1", "1.0")]
             facts = _dedupe(positives)
-            if len([f for f in facts if f.labelled]) < self.min_facts:
+            scored = len([f for f in facts if f.labelled])
+            if scored < self.min_facts:
                 continue
+            prepared.append((scored, position, label, facts, rows))
+
+        if self.order == "richness":
+            # Most scored facts first; file position breaks ties so the order is stable.
+            prepared.sort(key=lambda p: (-p[0], p[1]))
+        else:
+            prepared.sort(key=lambda p: p[1])
+
+        emitted = 0
+        for scored, _position, label, facts, rows in prepared:
+            path = available[label]
+            positives = [r for r in rows if r["wikipedia_score"].strip() in ("1", "1.0")]
             with open(path, encoding="utf-8") as fh:
                 text = fh.read().strip()
             if not text:
                 continue
             transform: list[str] = ["revision_pinned", "wikipedia_abstract"]
+            if self.order == "richness":
+                transform.append("richness_ordered")
             if len(text) > self.max_chars:
                 text = text[:self.max_chars]
                 transform.append("truncated")
@@ -394,6 +433,7 @@ class EventKgAdapter:
                 meta={"entity_id": rows[0]["entity_id"],
                       "candidate_rows": len(rows),
                       "wikipedia_positive_rows": len(positives),
+                      "scored_gold_facts": scored,
                       "biography_positive_rows": bio_positives,
                       "chars": len(text)})
             emitted += 1
@@ -563,6 +603,13 @@ class EventKgAdapter:
             "row carries a birth date." % unlabelled,
             "Abstracts are pinned to the last revision before %s, so the text is the text "
             "the judgements were made against." % self.cutoff,
+            ("Documents were ordered by scored gold fact count, most first. A run that "
+             "did not reach the end therefore covers the most-documented people, and its "
+             "recall is NOT a corpus estimate: report it as recall over the N people with "
+             "the most attested relations."
+             if self.order == "richness" else
+             "Documents were taken in the release's own order, which is unsorted and "
+             "effectively arbitrary; a prefix approximates a sample."),
             "The published SVM figures measure relation selection over graph features, "
             "with the graph as input and no biography read. They are not a baseline for "
             "this task and are omitted from published_baseline.",

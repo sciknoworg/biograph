@@ -1779,6 +1779,78 @@ def test_wikibio_precision_cannot_exceed_one():
 
 
 
+def test_eventkg_richness_ordering_puts_the_most_documented_first():
+    """A run of 1,531 people takes days, so a stopped run must leave the best part done.
+
+    `richness` orders by scored gold fact count so whatever a halted run did finish is
+    the part carrying the most measurement. The cost is that the prefix is not a sample:
+    the most-documented people have longer abstracts and gold built from more links, so a
+    partial run's recall is not a corpus estimate. The ordering is disclosed in
+    `transform` for exactly that reason, and the report note says it in words.
+    """
+    from .benchmarks.eventkg import adapter as ek
+
+    tmp = tempfile.mkdtemp(prefix="ekg-order-")
+    try:
+        rows = ["\t".join(ek.COLUMNS)]
+        plan = {"Thin": 1, "Rich": 3, "Mid": 2}       # file order: Thin, Rich, Mid
+        for who, n in plan.items():
+            for i in range(n):
+                rows.append(f"{who}\tentity_1\thttp://www.wikidata.org/entity/P26\t"
+                            f"Target_{who}_{i}\tentity_{who}{i}\t2001-03-16\t-\t0.0\t1.0")
+        os.makedirs(os.path.join(tmp, "abstracts"))
+        with open(os.path.join(tmp, "benchmark.tsv"), "w", encoding="utf-8",
+                  newline="") as fh:
+            fh.write("\n".join(rows) + "\n")
+        for who in plan:
+            with open(os.path.join(tmp, "abstracts", who + ".txt"), "w",
+                      encoding="utf-8") as fh:
+                fh.write(f"{who} was a person who did notable things in 2001.\n")
+
+        check("richness yields the most-documented person first",
+              [d.doc_id for d in ek.EventKgAdapter(order="richness").load(tmp)]
+              == ["Rich", "Mid", "Thin"],
+              str([d.doc_id for d in ek.EventKgAdapter(order="richness").load(tmp)]))
+        check("file order is the release's own, unsorted",
+              [d.doc_id for d in ek.EventKgAdapter(order="file").load(tmp)]
+              == ["Thin", "Rich", "Mid"],
+              str([d.doc_id for d in ek.EventKgAdapter(order="file").load(tmp)]))
+        check("--limit under richness buys the richest documents",
+              [d.doc_id for d in ek.EventKgAdapter(order="richness").load(tmp, limit=2)]
+              == ["Rich", "Mid"], "a stopped run must leave the best part done")
+
+        first = next(iter(ek.EventKgAdapter(order="richness").load(tmp)))
+        check("the ordering is disclosed in transform",
+              "richness_ordered" in first.transform, str(first.transform))
+        check("the scored fact count travels with the document",
+              first.meta.get("scored_gold_facts") == 3, str(first.meta))
+        check("file order does not claim to be richness-ordered",
+              "richness_ordered" not in
+              next(iter(ek.EventKgAdapter(order="file").load(tmp))).transform)
+        check("a minimum excludes the thinly-documented",
+              [d.doc_id for d in
+               ek.EventKgAdapter(order="richness", min_facts=2).load(tmp)]
+              == ["Rich", "Mid"], "min_facts must still apply under either order")
+
+        # The report has to say in words that a prefix is not a corpus estimate.
+        doc = next(iter(ek.EventKgAdapter(order="richness").load(tmp)))
+        ex = Extraction(doc_id=doc.doc_id, slug=doc.slug, subject=None, entities=(),
+                        events=(), relations=(), sources=())
+        rep = ek.EventKgAdapter(order="richness").score(
+            [(doc, ek.ADAPTER.project(doc, ex))], extractions={doc.doc_id: ex})
+        check("the report warns that a richness prefix is not a corpus estimate",
+              any("NOT a corpus estimate" in n for n in rep.notes),
+              str(rep.notes[-1])[:120])
+
+        try:
+            ek.EventKgAdapter(order="nonsense")
+            check("an unknown order is refused", False, "no ValueError")
+        except ValueError as e:
+            check("an unknown order is refused", "order must be one of" in str(e), str(e))
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
 def main() -> int:
     for fn in (test_vocab_and_matrix, test_sandbox,
                test_biographical_projection, test_biographical_family_and_dates,
@@ -1810,6 +1882,7 @@ def main() -> int:
                test_eventkg_label_matching_resists_common_words,
                test_eventkg_scoring_is_two_tier_recall,
                test_eventkg_relations_cannot_reach_the_dated_tier,
+               test_eventkg_richness_ordering_puts_the_most_documented_first,
                test_wikibio_precision_cannot_exceed_one):
         print(f"\n{fn.__name__}")
         fn()

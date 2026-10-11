@@ -198,13 +198,63 @@ def lead_text(oldid: str) -> str:
     return _BLANK.sub("\n\n", text).strip()
 
 
-def titles_from_benchmark(tsv: str) -> list[str]:
-    """Every distinct entity_label that has at least one wikipedia_score of 1.0.
+def select(titles: list[str], limit: int | None, how: str, seed: int) -> list[str]:
+    """Choose which people to fetch, by a STATED rule.
+
+    This existed as `titles[:limit]` -- the first N the file happened to list, with no
+    rationale. It turned out not to be biased (the first 50 average 14.2 relevant
+    relations against 12.8 for the remaining 2,534), but an incidental sample is not a
+    defensible one, and B1 and B2 both state their ordering. `random` with a fixed seed is
+    reproducible and is the default; `file` keeps the old prefix for comparison.
+    """
+    if how == "file":
+        return titles[:limit] if limit else titles
+    if how == "richness":
+        # Fetch in the same order the extraction will run in, so a stopped fetch leaves
+        # the abstracts the run wants first.
+        return titles
+    if not limit or limit >= len(titles):
+        return titles
+    rng = random.Random(seed)
+    chosen = rng.sample(titles, limit)
+    # Fetch in file order regardless of which were chosen, so a partial fetch is still a
+    # prefix of a reproducible set rather than an arbitrary subset of one.
+    index = {t: i for i, t in enumerate(titles)}
+    return sorted(chosen, key=index.__getitem__)
+
+
+def fact_counts(tsv: str) -> dict[str, int]:
+    """entity_label -> number of raw wikipedia_score=1.0 rows. Used to order the fetch."""
+    counts: dict[str, int] = {}
+    with open(tsv, encoding="utf-8", newline="") as fh:
+        reader = csv.reader(fh, delimiter="\t")
+        header = next(reader, None) or []
+        try:
+            i_label, i_score = header.index("entity_label"), header.index("wikipedia_score")
+        except ValueError:
+            return {}
+        for parts in reader:
+            if len(parts) > max(i_label, i_score) and parts[i_score].strip() in ("1", "1.0"):
+                counts[parts[i_label]] = counts.get(parts[i_label], 0) + 1
+    return counts
+
+
+def titles_from_benchmark(tsv: str, min_facts: int = 1) -> list[str]:
+    """Every distinct entity_label with at least `min_facts` wikipedia_score of 1.0.
 
     A person with no positive judgement has nothing for this benchmark to score, so
     fetching their abstract would spend a request and a model call for no measurement.
+    The same argument applies with less force to a person who has one: the median person
+    here has 6 attested relations and the minimum is 1, so a call spent on a 1-fact
+    person measures a single fact. `min_facts` sets where that trade is drawn, and it
+    changes what the resulting recall estimates -- over people with at least this many
+    attested relations, not over the whole benchmark. Disclose it.
+
+    Counts are of RAW rows. The adapter later merges the same fact arriving under
+    several knowledge-graph properties (~2.7 rows per fact), so a person admitted with 5
+    raw rows may contribute fewer scored facts than that.
     """
-    wanted: dict[str, None] = {}
+    wanted: dict[str, int] = {}
     with open(tsv, encoding="utf-8", newline="") as fh:
         reader = csv.reader(fh, delimiter="\t")
         header = next(reader, None)
@@ -220,8 +270,9 @@ def titles_from_benchmark(tsv: str) -> list[str]:
             if len(parts) <= max(i_label, i_score):
                 continue
             if parts[i_score].strip() in ("1", "1.0"):
-                wanted.setdefault(parts[i_label], None)
-    return list(wanted)
+                wanted[parts[i_label]] = wanted.get(parts[i_label], 0) + 1
+    # File order is preserved: dict keeps insertion order, and select() relies on it.
+    return [t for t, n in wanted.items() if n >= min_facts]
 
 
 def main(argv=None) -> int:
@@ -233,6 +284,20 @@ def main(argv=None) -> int:
     ap.add_argument("--limit", type=int,
                     help="fetch only this many people; the benchmark has 2,760 and a "
                          "full run against all of them is not the intended use")
+    ap.add_argument("--min-facts", type=int, default=1,
+                    help="skip people with fewer than this many attested relations. Each "
+                         "person costs one model call at run time regardless, so a "
+                         "1-fact person buys one measurement; the median here is 6. "
+                         "Counts raw rows, which the adapter later merges ~2.7:1. "
+                         "CHANGES WHAT THE RECALL ESTIMATES -- report the value used")
+    ap.add_argument("--sample", default="random", choices=("random", "file", "richness"),
+                    help="how to choose which people to fetch when --limit is set. "
+                         "'random' is a seeded sample of all 2,584 and is the default, "
+                         "because it is a rule the paper can state; 'file' takes the "
+                         "first N in file order, which is what this script used to do "
+                         "with no rationale")
+    ap.add_argument("--seed", type=int, default=0,
+                    help="seed for --sample random, so the selection is reproducible")
     ap.add_argument("--sleep", type=float, default=1.5,
                     help="seconds between PEOPLE. Each person costs two requests, so this "
                          "is half the real inter-request interval. The default is set "
@@ -250,11 +315,14 @@ def main(argv=None) -> int:
     out_dir = os.path.join(args.data_root, "abstracts")
     os.makedirs(out_dir, exist_ok=True)
 
-    titles = titles_from_benchmark(tsv)
-    print("%d people carry at least one Wikipedia-attested relation" % len(titles))
+    titles = titles_from_benchmark(tsv, min_facts=args.min_facts)
+    print("%d people carry at least %d Wikipedia-attested relation(s)"
+          % (len(titles), args.min_facts))
     if args.limit:
-        titles = titles[:args.limit]
-        print("fetching %d" % len(titles))
+        titles = select(titles, args.limit, args.sample, args.seed)
+        print("fetching %d, selected by %s%s"
+              % (len(titles), args.sample,
+                 "" if args.sample == "file" else " with seed %d" % args.seed))
 
     written = skipped = missing = failed = 0
     index_path = os.path.join(out_dir, "revisions.tsv")

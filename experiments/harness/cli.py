@@ -49,7 +49,8 @@ def get_adapter(name: str, args):
         return WikiBioAdapter(min_events=args.min_events)
     if name == "eventkg":
         from ..benchmarks.eventkg.adapter import EventKgAdapter
-        return EventKgAdapter(min_facts=args.min_facts, cutoff=args.ekg_cutoff)
+        return EventKgAdapter(min_facts=args.min_facts, cutoff=args.ekg_cutoff,
+                              order=args.ekg_order)
     if name == "wikilife":
         from ..benchmarks.wikilife.adapter import WikiLifeAdapter
         return WikiLifeAdapter()
@@ -124,6 +125,13 @@ def main(argv=None) -> int:
                          "but giving a prefix twice as dense as the corpus, whose "
                          "recall is not a corpus estimate and must be reported as such")
     # eventkg options
+    ap.add_argument("--ekg-order", default="richness", choices=("richness", "file"),
+                    help="eventkg document order. 'richness' puts the people with the "
+                         "most scored gold facts first, so a run stopped early has "
+                         "finished the documents carrying the most measurement -- but a "
+                         "prefix of it is NOT a sample, and its recall must be reported "
+                         "as covering the most-documented people. 'file' is the release's "
+                         "own arbitrary order, which a prefix approximates a sample of")
     ap.add_argument("--ekg-cutoff", default="2019-05-21",
                     help="eventkg: the revision cutoff the abstracts were fetched at. "
                          "Recorded in the report; must match what fetch_abstracts.py used")
