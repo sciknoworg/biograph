@@ -30,8 +30,10 @@ from __future__ import annotations
 import argparse
 import csv
 import html
+import html.parser
 import json
 import os
+import random
 import re
 import sys
 import time
@@ -47,9 +49,93 @@ _DROP = re.compile(
 _TAG = re.compile(r"<[^>]+>")
 _BLANK = re.compile(r"\n{3,}")
 
+#: Element classes that are Wikipedia's furniture rather than the article's prose. The
+#: hatnotes matter most: Conrad Hilton's lead opens "This article is about Conrad Hilton
+#: Sr. For his son, see Conrad Hilton Jr. For the brother of Paris Hilton, see Paris
+#: Hilton", which names three people who are not the subject. Left in, that text seeds
+#: entities for all of them and pollutes the distractor measurement this benchmark exists
+#: to provide.
+DROP_CLASSES = ("hatnote", "dablink", "rellink", "shortdescription", "navbox",
+                "infobox", "metadata", "mw-empty-elt", "reference", "mbox-text",
+                "ambox", "thumb", "gallery", "toc", "sidebar", "noprint")
 
-def _get(params: dict[str, str], retries: int = 3) -> dict:
-    """One API call, with a courteous retry. Returns parsed JSON."""
+
+class _Lead(html.parser.HTMLParser):
+    """Parsed lead-section HTML -> prose, dropping furniture by element class.
+
+    A regex cannot do this: the furniture is nested, and `<div class="hatnote">...</div>`
+    has to take its children with it. The parser keeps a depth counter so an entire
+    subtree is skipped once its root matches.
+    """
+
+    SKIP_TAGS = {"script", "style", "sup", "table", "sub"}
+    BLOCK = {"p", "div", "li", "br", "h1", "h2", "h3", "h4", "tr"}
+
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.out: list[str] = []
+        self._skip_depth = 0
+        self._skip_tag: str | None = None
+
+    def handle_starttag(self, tag, attrs):
+        if self._skip_depth:
+            if tag == self._skip_tag:
+                self._skip_depth += 1
+            return
+        classes = ""
+        for k, v in attrs:
+            if k in ("class", "id", "role"):
+                classes += " " + (v or "")
+        classes = classes.lower()
+        if tag in self.SKIP_TAGS or any(c in classes for c in DROP_CLASSES):
+            self._skip_depth, self._skip_tag = 1, tag
+            return
+        if tag in self.BLOCK:
+            self.out.append("\n")
+
+    def handle_endtag(self, tag):
+        if self._skip_depth and tag == self._skip_tag:
+            self._skip_depth -= 1
+            if not self._skip_depth:
+                self._skip_tag = None
+            return
+        if not self._skip_depth and tag in self.BLOCK:
+            self.out.append("\n")
+
+    def handle_data(self, data):
+        if not self._skip_depth:
+            # Source newlines inside a paragraph are HTML formatting, not sentence breaks.
+            # Left alone they split a sentence across lines, which is not how the article
+            # reads and not how a quote drawn from it will look.
+            self.out.append(re.sub(r"\s+", " ", data) if data.strip() else data)
+
+    def text(self) -> str:
+        joined = "".join(self.out)
+        lines = [" ".join(line.split()) for line in joined.splitlines()]
+        return _BLANK.sub("\n\n", "\n".join(l for l in lines if l)).strip()
+
+
+#: A stored abstract shorter than this is not a biography. `Kim_Jong-un` arrived as the
+#: 23-character string "Redirect to:Kim Jong-un" -- a revision from before the page was
+#: moved -- and would have been scored as four straight misses on gold it never had a
+#: chance to support.
+MIN_ABSTRACT_CHARS = 200
+
+_REDIRECT = re.compile(r"^\s*(redirect\s*to\s*:|#redirect)", re.I)
+
+
+def _get(params: dict[str, str], retries: int = 6) -> dict:
+    """One API call, with a retry that actually respects a rate limiter.
+
+    The first version slept 2s, 4s, 6s and treated every failure alike. Against HTTP 429
+    that is hopeless: 18 of 50 people were lost in one run, in bursts, because a backoff
+    measured in seconds does not outlast a rate-limit window. A 429 now waits as long as
+    the server's `Retry-After` header asks, or exponentially with jitter when it does not
+    say, and gets more attempts than a transport error does.
+
+    Note that each person costs TWO requests -- one to resolve the revision, one to fetch
+    it -- so the caller's --sleep is half the real inter-request interval.
+    """
     url = API + "?" + urllib.parse.urlencode({**params, "format": "json"})
     last: Exception | None = None
     for attempt in range(retries):
@@ -57,9 +143,30 @@ def _get(params: dict[str, str], retries: int = 3) -> dict:
             req = urllib.request.Request(url, headers={"User-Agent": UA})
             with urllib.request.urlopen(req, timeout=60) as fh:
                 return json.loads(fh.read().decode("utf-8"))
+        except urllib.error.HTTPError as exc:
+            last = exc
+            if exc.code == 429:
+                after = exc.headers.get("Retry-After") if exc.headers else None
+                try:
+                    wait = float(after) if after else 0.0
+                except ValueError:
+                    wait = 0.0
+                # No header, or an unparseable one: back off hard. The window that
+                # produced these 429s was long enough to swallow four people in a row.
+                wait = wait or min(120.0, 5.0 * (2 ** attempt))
+                wait += random.uniform(0, 2)       # jitter, so retries do not resynchronise
+                print("    rate limited, waiting %.0fs (attempt %d/%d)"
+                      % (wait, attempt + 1, retries))
+                time.sleep(wait)
+                continue
+            if 500 <= exc.code < 600:
+                time.sleep(min(30.0, 2.0 * (attempt + 1)))
+                continue
+            raise RuntimeError("giving up on %s: %s"
+                               % (params.get("titles") or params.get("oldid"), exc))
         except Exception as exc:                       # noqa: BLE001 - reported, not raised
             last = exc
-            time.sleep(2 * (attempt + 1))
+            time.sleep(min(30.0, 2.0 * (attempt + 1)))
     raise RuntimeError("giving up on %s: %s" % (params.get("titles") or
                                                 params.get("oldid"), last))
 
@@ -126,8 +233,11 @@ def main(argv=None) -> int:
     ap.add_argument("--limit", type=int,
                     help="fetch only this many people; the benchmark has 2,760 and a "
                          "full run against all of them is not the intended use")
-    ap.add_argument("--sleep", type=float, default=0.5,
-                    help="seconds between requests, to stay polite to the API")
+    ap.add_argument("--sleep", type=float, default=1.5,
+                    help="seconds between PEOPLE. Each person costs two requests, so this "
+                         "is half the real inter-request interval. The default is set "
+                         "where a 50-person fetch does not trip Wikipedia's rate limiter; "
+                         "0.5 lost 18 of 50 to HTTP 429")
     args = ap.parse_args(argv)
 
     for stream in (sys.stdout, sys.stderr):
@@ -172,6 +282,19 @@ def main(argv=None) -> int:
             if not text:
                 missing += 1
                 print("  [%d/%d] EMPTY   %s (rev %s)" % (n, len(titles), title, oldid))
+                continue
+            if _REDIRECT.match(text):
+                # The revision at the cutoff predates a page move, so the title pointed at
+                # a redirect. Storing it would score the person's gold against 23
+                # characters of Wikipedia plumbing.
+                missing += 1
+                print("  [%d/%d] REDIRECT %s (rev %s) -- revision predates a page move"
+                      % (n, len(titles), title, oldid))
+                continue
+            if len(text) < MIN_ABSTRACT_CHARS:
+                missing += 1
+                print("  [%d/%d] TOO SHORT %s (rev %s, %d chars < %d)"
+                      % (n, len(titles), title, oldid, len(text), MIN_ABSTRACT_CHARS))
                 continue
             with open(dest, "w", encoding="utf-8") as fh:
                 fh.write(text + "\n")

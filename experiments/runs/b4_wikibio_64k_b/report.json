@@ -1,0 +1,107 @@
+{
+  "run_id": "b4_wikibio_64k_b",
+  "finished": "2026-10-11T13:30:55",
+  "invocation": {
+    "limit": null,
+    "only": null,
+    "order": "extractable",
+    "b1_order": "balanced",
+    "min_facts": 1,
+    "min_triggers": 1,
+    "min_events": 1,
+    "max_tokens": 64000,
+    "timeout": 3600,
+    "relax_inclusion": true,
+    "repeats": 1,
+    "argv": [
+      "--benchmark",
+      "wikibio",
+      "--data-root",
+      "experiments/corpora/wikibio",
+      "--relax-inclusion",
+      "--max-tokens",
+      "64000",
+      "--timeout",
+      "3600",
+      "--keep-sandbox",
+      "--run-id",
+      "b4_wikibio_64k_b"
+    ]
+  },
+  "adapter": {
+    "name": "wikibio",
+    "citation": "Stranisci, Damiano, Mensa, Patti, Radicioni and Caselli, 'WikiBio: a Semantic Resource for the Intersectional Analysis of Biographical Events', ACL 2023, pp. 12370-12384; repo marcostranisci/WikiBio",
+    "license": "UNRESOLVED for the data. The ACL paper is CC BY 4.0, which does not cover a separately released annotation set, and the repository states no licence and has no LICENSE file. Wikipedia-derived, so CC BY-SA 4.0 upstream. Not redistributed here: nothing is fetched by this adapter, which reads a local copy via --data-root, and experiments/corpora/wikibio/ carries the provenance note.",
+    "metric": "trigger-anchored recall of target-person events over complete biographies; type is never compared, because the gold EVENT class is untyped"
+  },
+  "core": {
+    "run_id": "b4_wikibio_64k_b",
+    "commit": "66aa494a495e758ab4667ebb3647ff864a3ad2d3",
+    "core_files_uncommitted": [],
+    "sha256": {
+      "scripts/build_site.py": "1bc7327b3bbe7e6842eb7f2e389e823372c85c85ca9400d9f5451c94da27224e",
+      "schema/date.schema.json": "8073e8da8bb20ae4330aaa3f798af30f06bfe0c5361303ae910b58bccda41019",
+      "schema/entity.schema.json": "ed2220532d11a96ea0bf0ad184c97de8abe45c8b8feed9f4aca0fa86f1319df0",
+      "schema/event.schema.json": "f5878f1804891e13ee9b697126a52cbb76be58fba799ebca78cea3d3adb46247",
+      "schema/relation.schema.json": "2c8941751ae907bc865f4869c6f9de8ec245c9950261c992a97c86319397d127",
+      "schema/source.schema.json": "761b2cdd818deea6eb9450e90db46a1880c1c63f7291bbf956de4a68262f51b2",
+      "frontend/template.html": "dc79416f6fdc1ca99c786b289b52a951731321c9bb59235558cd61f5e0ac257a",
+      "frontend/world-countries.geo.json": "02caedf9a1e0255deedc985942ccb0b8df102f21c9c551c332e8eda0a18fbcd9"
+    },
+    "extraction_core_modified": false
+  },
+  "extraction_core_divergences": [],
+  "model": {
+    "model": "qwen3.5-397b-a17b",
+    "base_url": "https://chat-ai.academiccloud.de/v1"
+  },
+  "n_documents": 20,
+  "repeats": [
+    {
+      "benchmark": "wikibio",
+      "metric": "trigger-anchored recall of target-person events over complete biographies; type is never compared, because the gold EVENT class is untyped",
+      "n_docs": 20,
+      "scores": {
+        "trigger_recall": 0.191,
+        "trigger_precision_over_subject_events": 0.9437,
+        "gold_recalled": 627,
+        "gold_triggers": 3282,
+        "anchored_by_label_and_quote": 391,
+        "anchored_by_quote_only": 236,
+        "grounding_quote_rate": 0.9473197334242573
+      },
+      "published_baseline": {},
+      "not_applicable": {
+        "event_type": "The gold EVENT class is untyped -- the corpus annotates that an event occurred, not which kind -- so no type can be compared in either direction.",
+        "dates": "The gold annotates no dates, so the schema's date requirement is neither tested nor penalised here.",
+        "EVENT-GR / EVENT-MOD": "Light verbs and modality annotate how an event is expressed rather than that one occurred. Read and counted, not scored."
+      },
+      "per_label": {
+        "EVENT": {
+          "recall": 0.191,
+          "support": 3282,
+          "recalled": 627
+        }
+      },
+      "attrition": {
+        "documents": 20,
+        "gold_triggers": 3282,
+        "extracted_events": 808,
+        "events_about_the_subject": 622,
+        "events_about_others_unscorable": 186,
+        "subject_events_matching_no_trigger": 35,
+        "non_subject_events_anchoring_a_trigger": 40,
+        "empty_extraction": 0,
+        "out_of_scope": 20,
+        "did_not_validate": 0
+      },
+      "notes": [
+        "Type is never compared. The gold EVENT class is untyped, so all 22 biograph event types collapse onto it and matching is trigger-anchored; every event is recorded in `lossy` for that reason.",
+        "236 of 627 matches rest on the weak anchor -- the trigger falls inside a quoted span with no support from the event's own label -- and the rest had both.",
+        "Precision is scoped to events about the TARGET PERSON, 622 of 808 extracted. The annotation is exhaustive for that person and silent about everyone else, so the other 186 are correct extraction with no gold to match and are excluded rather than counted as errors. It is still not comparable to the paper's sentence-level figure.",
+        "The gold carries no dates, so nothing here tests the schema's requirement that every event have one. That is deliberate: BiographicalEvents lost 46%% of its corpus to that requirement, and removing the confound is why this benchmark is worth running beside it.",
+        "empty, and the reason is a split mismatch rather than an absent number. The paper reports DistilBERT event detection at about 0.859 F1, but over the 1,691 event-bearing TARGET SENTENCES, divided 564/563/564 -- a sentence-level split of a document-level corpus. Target-entity detection is separately reported at about 0.808 F1 over a document split of 5 train / 5 dev / 10 test biographies. This pipeline receives a whole 17,000-character biography and is scored over every gold event in it, so neither figure is the bar it clears or misses."
+      ]
+    }
+  ]
+}

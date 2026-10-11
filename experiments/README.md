@@ -32,7 +32,6 @@ experiments/
     coverage.py    the vocabulary coverage matrix, generated
     cli.py         run one benchmark end to end
   benchmarks/
-    pmoa_tts/      adapter.py (input + output), score.py (their metric), README.md
     biographical/  adapter.py (all four methods), README.md
     bioevents/     adapter.py (trigger anchoring + SemAF roles), README.md
     grounding/     adapter.py (audits subjects/ via --check-grounding), README.md
@@ -154,7 +153,7 @@ Every adapter reads a local copy via `--data-root`. Status as found:
 ```bash
 python -m experiments.tests
 python -m experiments.harness.coverage --out experiments/docs/coverage-matrix.md
-python -m experiments.harness.cli --benchmark pmoa_tts --data-root <dir> --dry-run
+python -m experiments.harness.cli --benchmark wikibio --data-root <dir> --dry-run
 ```
 
 `--dry-run` loads the corpus, builds the input text and prints what *would* be sent,

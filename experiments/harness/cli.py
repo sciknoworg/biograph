@@ -1,8 +1,8 @@
 """Run one benchmark end to end.
 
-    python -m experiments.harness.cli --benchmark pmoa_tts --data-root <dir> --dry-run
-    python -m experiments.harness.cli --benchmark pmoa_tts --data-root <dir> --limit 25
-    python -m experiments.harness.cli --benchmark pmoa_tts --data-root <dir> --repeats 3
+    python -m experiments.harness.cli --benchmark wikibio --data-root <dir> --dry-run
+    python -m experiments.harness.cli --benchmark biographical --data-root <dir> --limit 25
+    python -m experiments.harness.cli --benchmark wikilife --data-root <dir> --repeats 3
 
 --dry-run does everything except call the model: it loads the corpus, builds the input
 text, prints what would be sent, and stops. It costs nothing, and it is how you check
@@ -38,15 +38,6 @@ RUNS_DIR = os.path.join(REPO_ROOT, "experiments", "runs")
 
 
 def get_adapter(name: str, args):
-    if name == "pmoa_tts":
-        from ..benchmarks.pmoa_tts.adapter import ANCHOR, PmoaTtsAdapter
-        return PmoaTtsAdapter(
-            framing=args.framing,
-            anchor=None if args.no_anchor else ANCHOR,
-            split=args.split,
-            matcher=args.matcher,
-            threshold=args.threshold,
-        )
     if name == "biographical":
         from ..benchmarks.biographical.adapter import BiographicalAdapter
         return BiographicalAdapter(min_facts=args.min_facts, order=args.b1_order)
@@ -66,7 +57,7 @@ def get_adapter(name: str, args):
         from ..benchmarks.bioevents.adapter import BioEventsAdapter
         return BioEventsAdapter(min_triggers=args.min_triggers, order=args.order)
     raise SystemExit(f"no adapter named {name!r} yet "
-                     f"(built so far: pmoa_tts, biographical, bioevents, wikilife, wikibio, "
+                     f"(built so far: biographical, bioevents, wikilife, wikibio, "
                      f"eventkg, grounding)")
 
 
@@ -139,19 +130,6 @@ def main(argv=None) -> int:
     ap.add_argument("--min-events", type=int, default=1,
                     help="wikibio: skip biographies with fewer than this many gold "
                          "event triggers")
-    # pmoa_tts options
-    ap.add_argument("--framing", default="minimal", choices=("none", "minimal", "biographical"))
-    ap.add_argument("--no-anchor", action="store_true")
-    ap.add_argument("--split", default="case_study_100",
-                    help="which released annotation to score against")
-    ap.add_argument("--matcher", default="embedding", choices=("embedding", "lev"))
-    ap.add_argument("--threshold", type=float)
-    ap.add_argument("--ceiling", action="store_true",
-                    help="score the two released LLM annotators against each other and "
-                         "stop. No model call, no text fetch -- this is the reference "
-                         "band biograph's score should be read against, since the "
-                         "clinician set behind the published numbers is not distributed")
-    ap.add_argument("--ceiling-n", type=int, default=200)
     args = ap.parse_args(argv)
 
     adapter = get_adapter(args.benchmark, args)
@@ -172,15 +150,6 @@ def main(argv=None) -> int:
         print(f"\nreport -> {os.path.relpath(out_dir, REPO_ROOT)}/report.json")
         return 0
 
-    if args.ceiling:
-        if not hasattr(adapter, "agreement_ceiling"):
-            raise SystemExit(f"{adapter.name} has no agreement ceiling to compute")
-        if not args.data_root:
-            raise SystemExit("--ceiling needs --data-root")
-        report = adapter.agreement_ceiling(args.data_root, n=args.ceiling_n,
-                                           matcher=args.matcher, threshold=args.threshold)
-        print(json.dumps(report.as_dict(), indent=2))
-        return 0
     if not args.data_root:
         raise SystemExit("--data-root is required: the corpora are not vendored here. "
                          f"{adapter.name} licence: {adapter.license}")

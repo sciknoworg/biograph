@@ -38,7 +38,7 @@ class BenchmarkDoc:
 
     `text` is exactly what build_site.py --text will read and what --check-grounding
     will later verify quotes against, so any framing or anchoring the input adapter
-    adds (see pmoa_tts for both) is part of it and is disclosed in `transform`.
+    adds is part of it and is disclosed in `transform`.
     """
 
     doc_id: str                 # the benchmark's own id, kept verbatim for joins
@@ -164,7 +164,7 @@ class ScoreReport:
 class BenchmarkAdapter(Protocol):
     """Four methods and a citation block. Nothing here may import build_site."""
 
-    name: str                       # "pmoa_tts"
+    name: str                       # "wikibio"
     citation: str                   # arXiv id / ACL anthology id
     license: str                    # as published, or "UNRESOLVED -- see README"
     label_space: tuple[str, ...]    # the benchmark's own labels, ("<untyped>",) if none

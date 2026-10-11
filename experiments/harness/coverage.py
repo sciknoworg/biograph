@@ -151,22 +151,6 @@ BIOEVENTS = {
 }
 
 
-# --------------------------------------------------------------------------
-# 3. PMOA-TTS (arXiv 2505.20323) + the relative-timeline framework (arXiv 2504.12350).
-#    (event, time) tuples, event text free-form, time in hours from presentation.
-#    The published metric matches events by cosine distance between S-PubMedBert
-#    embeddings and never compares categories, so every biograph type participates
-#    untyped. This is why it is the first adapter built: it exercises the whole
-#    input/output path with no taxonomy mapping to debug at the same time.
-
-PMOA_TTS = {
-    "column": "B3 PMOA-TTS",
-    "default": "untyped",
-    "default_note": "event text matched by embedding distance; type never compared",
-    "cells": {},
-    "relation_default": ("none", "the corpus is (event, time) tuples; relations.json has "
-                                 "no counterpart and is not projected"),
-}
 
 
 
@@ -262,9 +246,6 @@ GROUNDING = {
 #: and build() says so rather than filling the column with defaults.
 COLUMNS = [BIOGRAPHICAL, BIOEVENTS, WIKILIFE, WIKIBIO, EVENTKG, GROUNDING]
 
-#: Dropped from the suite, kept defined because experiments/benchmarks/pmoa_tts still
-#: reads PMOA_TTS["column"]. Not a column: it contributes nothing to the table.
-DROPPED_COLUMNS = [PMOA_TTS]
 
 
 # --------------------------------------------------------------------------- measured

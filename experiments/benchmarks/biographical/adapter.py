@@ -49,7 +49,7 @@ rather than smoothed over.
 No published baseline is recorded here. The paper's numbers are measured on the released
 splits under a setting this adapter does not reproduce (sentence-level, grouped here),
 and quoting them as a bar cleared would repeat exactly the mistake PMOA-TTS's release
-invites -- see experiments/benchmarks/pmoa_tts/README.md. Fill published_baseline in only
+invites. Fill published_baseline in only
 after the licence is resolved, the release is in hand, and the setting is confirmed to
 match.
 """
