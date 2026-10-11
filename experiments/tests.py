@@ -1851,6 +1851,62 @@ def test_eventkg_richness_ordering_puts_the_most_documented_first():
         shutil.rmtree(tmp, ignore_errors=True)
 
 
+def test_eventkg_abstracts_lose_wikipedia_furniture():
+    """Navigation notes and reference lists must not reach the extractor.
+
+    Both were found in already-fetched abstracts, and both matter more here than
+    cosmetically. A navigation note NAMES OTHER PEOPLE -- "This article is about the
+    biologist. For other people named Alexander Fleming, see ..." -- and this is the one
+    benchmark that measures how often the pipeline reports something the text did not say
+    about the subject. A reference list is worse by volume: Fleming's stored abstract was
+    1,937 characters of which 1,000 were bibliography, dense with personal names,
+    publication titles and years, none of it about his life.
+
+    The short description Wikipedia stores above the lead is deliberately KEPT, because it
+    describes the subject rather than pointing at someone else.
+    """
+    from .benchmarks.eventkg import fetch_abstracts as fa
+
+    def clean(text):
+        return fa.drop_citation_lines(fa.strip_navigation(text))
+
+    nav = ("This article is about the biologist. For other people named Alexander "
+           "Fleming, see Alexander Fleming (disambiguation)." + "\n\n"
+           + "Sir Alexander Fleming was born in 1881.")
+    check("a navigation note naming other people is removed",
+          clean(nav) == "Sir Alexander Fleming was born in 1881.", clean(nav))
+
+    for note in ("For the 1998 film, see Aaliyah (album).",
+                 "Kim Jong-un redirects here.",
+                 "Not to be confused with Alia.",
+                 "For other uses, see Aaliyah."):
+        got = clean(note + "\n\n" + "Aaliyah was a singer.")
+        check("removed: " + note[:34], got == "Aaliyah was a singer.", got)
+
+    refs = ("He was born in 1881." + "\n"
+            + "^ Colebrook, L. (1956). Alexander Fleming. Biographical Memoirs.")
+    check("a reference list is removed", clean(refs) == "He was born in 1881.", clean(refs))
+
+    desc = "American singer, actress, and model" + "\n\n" + "Aaliyah was born in 1979."
+    check("the short description is kept, because it describes the subject",
+          clean(desc) == desc, clean(desc))
+
+    # Three things that must survive untouched.
+    real = ("Charles de Gaulle was a general. For the duration of the war he led the "
+            "Free French.")
+    check("prose phrased like a navigation note survives", clean(real) == real, clean(real))
+    caret = "Chris O^Brien was born in 1943."
+    check("a caret inside a word survives", clean(caret) == caret, clean(caret))
+    deep = "He was born." + "\n\n" + "A paragraph." + "\n\n" + "For other uses, see X."
+    check("a note is only stripped at the top of the document",
+          "For other uses" in clean(deep),
+          "NAV_SCAN_LINES must bound the scan so biography is never cut from the middle")
+
+    # The repair must be idempotent: --reclean may be run more than once.
+    once, twice = clean(nav), clean(clean(nav))
+    check("cleaning twice changes nothing the second time", once == twice, repr(twice))
+
+
 def main() -> int:
     for fn in (test_vocab_and_matrix, test_sandbox,
                test_biographical_projection, test_biographical_family_and_dates,
@@ -1883,6 +1939,7 @@ def main() -> int:
                test_eventkg_scoring_is_two_tier_recall,
                test_eventkg_relations_cannot_reach_the_dated_tier,
                test_eventkg_richness_ordering_puts_the_most_documented_first,
+               test_eventkg_abstracts_lose_wikipedia_furniture,
                test_wikibio_precision_cannot_exceed_one):
         print(f"\n{fn.__name__}")
         fn()

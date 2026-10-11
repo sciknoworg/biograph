@@ -29,8 +29,10 @@ from __future__ import annotations
 
 import argparse
 import csv
+import glob
 import html
 import html.parser
+import io
 import json
 import os
 import random
@@ -115,6 +117,89 @@ class _Lead(html.parser.HTMLParser):
         return _BLANK.sub("\n\n", "\n".join(l for l in lines if l)).strip()
 
 
+#: Wikipedia's navigation notes, which sit above the article and point the reader
+#: elsewhere: "This article is about the biologist. For other people named Alexander
+#: Fleming, see ...". Blocking them by element class did not work -- the 2019 revisions
+#: these abstracts come from wrap them in markup this parser does not recognise, and 200
+#: of 752 files still carried one. They are matched by text instead, which is reliable
+#: because the wording is stereotyped and they only ever appear at the very top.
+#:
+#: They matter more here than they would in most corpora. A hatnote NAMES OTHER PEOPLE,
+#: so the extractor builds entities for them -- and the one thing this benchmark uniquely
+#: measures is how often the pipeline reports something the text did not say about the
+#: subject. Leaving them in would corrupt exactly that measurement.
+NAV_PATTERNS = (
+    "this article is about",
+    "for other uses",
+    "for other people named",
+    "for other persons named",
+    "not to be confused with",
+    "redirects here",
+    "is redirected here",
+    "for a list of",
+    "this is a list of",
+    "see also:",
+    "(disambiguation)",
+)
+
+#: A navigation note is at the top or it is not one. Checking only the first few lines
+#: keeps the pattern "for the ... , see ..." from deleting a sentence of biography that
+#: happens to be phrased that way further down.
+NAV_SCAN_LINES = 4
+
+
+def _is_navigation(line: str) -> bool:
+    low = line.strip().lower()
+    if not low:
+        return False
+    if any(p in low for p in NAV_PATTERNS):
+        return True
+    # "For the 1998 film, see ..." -- the construction, rather than a fixed phrase.
+    return low.startswith("for the ") and ", see " in low
+
+
+def drop_citation_lines(text: str) -> str:
+    """Remove the reference list, whose entries each begin with a caret.
+
+    `_Lead` drops these by element class, but abstracts fetched before it was wired in
+    kept them, and they are not leading lines so strip_navigation cannot reach them. They
+    are not a cosmetic problem: Alexander Fleming's stored abstract was 1,937 characters
+    of which 1,000 were bibliography, and a reference list is dense with personal names,
+    publication titles and years -- precisely the material an extractor mines for entities
+    and dated events, none of it about the subject's life.
+
+    Dropping lines that begin with a caret recovers the parser's output almost exactly:
+    against a fresh fetch of the same revision, Rachel Weisz comes out identical and
+    Alexander Fleming at 0.983 word overlap, the remainder being the short description
+    this function deliberately keeps. A line of biography never starts with `^`.
+    """
+    kept = [line for line in text.splitlines() if not line.lstrip().startswith("^")]
+    out = "\n".join(kept).strip()
+    return out or text.strip()
+
+
+def strip_navigation(text: str) -> str:
+    """Drop the leading navigation lines, keeping everything from the article onward.
+
+    Only LEADING lines are removed, and only within the first few, so a biography is
+    never truncated from the middle. The short description Wikipedia stores above the
+    lead -- "American singer, actress, and model" -- is deliberately kept: it describes
+    the subject rather than pointing at someone else, so it is a harmless artifact where
+    a hatnote is an actively misleading one.
+    """
+    lines = text.splitlines()
+    cut = 0
+    for i, line in enumerate(lines[:NAV_SCAN_LINES]):
+        if not line.strip():
+            continue
+        if _is_navigation(line):
+            cut = i + 1
+        else:
+            break
+    out = "\n".join(lines[cut:]).strip()
+    return out or text.strip()
+
+
 #: A stored abstract shorter than this is not a biography. `Kim_Jong-un` arrived as the
 #: 23-character string "Redirect to:Kim Jong-un" -- a revision from before the page was
 #: moved -- and would have been scored as four straight misses on gold it never had a
@@ -192,10 +277,20 @@ def lead_text(oldid: str) -> str:
                  "section": "0", "disablelimitreport": "1",
                  "disableeditsection": "1", "redirects": "1"})
     raw = ((data.get("parse") or {}).get("text") or {}).get("*") or ""
-    text = _TAG.sub("", _DROP.sub(" ", raw))
-    text = html.unescape(text)
-    text = "\n".join(line.strip() for line in text.splitlines())
-    return _BLANK.sub("\n\n", text).strip()
+    if not raw:
+        return ""
+    # _Lead drops Wikipedia's furniture by element class, which a regex cannot do: the
+    # furniture is nested and a <div class="hatnote"> has to take its children with it.
+    # strip_navigation then catches what the classes miss, by text.
+    parser = _Lead()
+    try:
+        parser.feed(_DROP.sub(" ", raw))
+        parser.close()
+        return drop_citation_lines(strip_navigation(parser.text()))
+    except Exception:                  # noqa: BLE001 - fall back, never lose the page
+        text = html.unescape(_TAG.sub("", _DROP.sub(" ", raw)))
+        flat = _BLANK.sub("\n\n", "\n".join(l.strip() for l in text.splitlines())).strip()
+        return drop_citation_lines(strip_navigation(flat))
 
 
 def select(titles: list[str], limit: int | None, how: str, seed: int) -> list[str]:
@@ -284,6 +379,10 @@ def main(argv=None) -> int:
     ap.add_argument("--limit", type=int,
                     help="fetch only this many people; the benchmark has 2,760 and a "
                          "full run against all of them is not the intended use")
+    ap.add_argument("--reclean", action="store_true",
+                    help="re-apply the text cleanup to abstracts already on disk and "
+                         "exit. No network and no model calls; use it when the cleanup "
+                         "changed after a fetch had already written files")
     ap.add_argument("--min-facts", type=int, default=1,
                     help="skip people with fewer than this many attested relations. Each "
                          "person costs one model call at run time regardless, so a "
@@ -310,9 +409,30 @@ def main(argv=None) -> int:
             stream.reconfigure(encoding="utf-8", errors="replace")
 
     tsv = os.path.join(args.data_root, "benchmark.tsv")
+    out_dir = os.path.join(args.data_root, "abstracts")
+
+    if args.reclean:
+        # Re-apply the text cleanup to abstracts already on disk. No network, no model.
+        # Needed because the navigation strip arrived after a fetch was already running.
+        changed = removed = 0
+        for path in sorted(glob.glob(os.path.join(out_dir, "*.txt"))):
+            before = io.open(path, encoding="utf-8").read()
+            after = drop_citation_lines(strip_navigation(before))
+            if _REDIRECT.match(after) or len(after) < MIN_ABSTRACT_CHARS:
+                os.remove(path)
+                removed += 1
+                print("  removed %s (%d chars after cleaning)"
+                      % (os.path.basename(path), len(after)))
+                continue
+            if after != before:
+                io.open(path, "w", encoding="utf-8").write(after + "\n")
+                changed += 1
+        print("recleaned: %d rewritten, %d removed as too short or a redirect"
+              % (changed, removed))
+        return 0
+
     if not os.path.isfile(tsv):
         raise SystemExit("benchmark.tsv not found at " + tsv)
-    out_dir = os.path.join(args.data_root, "abstracts")
     os.makedirs(out_dir, exist_ok=True)
 
     titles = titles_from_benchmark(tsv, min_facts=args.min_facts)
