@@ -1,5 +1,5 @@
 """The vocabulary coverage matrix: biograph's 22 event types and 27 relation types
-against the five benchmarks' label spaces.
+against the suite's label spaces.
 
 This is a design document that happens to be executable. It is generated, not written by
 hand, for two reasons: the row labels come from schema/ so the table can never drift from
@@ -28,7 +28,7 @@ Cell vocabulary -- five values, not three, because "partial" was carrying too mu
               them, and generalization is tested by the three that never touch it.
 
 The asymmetric half of the matrix -- benchmark labels with no biograph home -- is in
-UNMAPPED_BENCHMARK_LABELS below and printed underneath the table. A coverage matrix that
+each column's `unmapped_labels` and printed underneath the table. A coverage matrix that
 only shows what biograph can express would hide exactly the gap this project needs to
 report (Biographical's `occupation`).
 """
@@ -37,6 +37,7 @@ from __future__ import annotations
 import argparse
 import collections
 import glob
+import importlib
 import json
 import os
 import sys
@@ -168,25 +169,6 @@ PMOA_TTS = {
 }
 
 
-# --------------------------------------------------------------------------
-# 4. TLEX (arXiv 2406.05265). Consumes a TimeML temporal graph and returns exact
-#    timelines. biograph has no TLINKs, so the adapter derives interval relations from
-#    sort_start/sort_end -- which means the graph is consistent by construction and
-#    TLEX's consistency check is trivially satisfied. The informative output is
-#    indeterminacy: how much of a timeline is genuinely unordered because the source
-#    only gave a year. That is a property of date PRECISION, not of event type, so the
-#    per-type column is uniform and the real table is the precision one below.
-
-TLEX = {
-    "column": "B4 TLEX",
-    "default": "untyped",
-    "default_note": "ordering only; type never compared",
-    "cells": {},
-    "relation_default": ("none", "TLEX consumes the timeline, which build() renders from "
-                                 "events.json alone. Relation start/end dates are "
-                                 "populated for at most 21.5% of any relation type "
-                                 "(worked_at) and are not part of the timeline"),
-}
 
 
 # --------------------------------------------------------------------------
@@ -196,16 +178,93 @@ TLEX = {
 #    from the corpus: a type whose citations rarely carry a quote is a type this check
 #    cannot speak for, and that varies by type from 18% to 100%.
 
+# --------------------------------------------------------------------------------
+# 3. WikiLifeTrajectory (Zhang et al., ICWSM 2025). Gold is a (person, time,
+#    location) triplet over a complete biography. The cells live in the adapter,
+#    which owns them; this entry says only where to find them and what to assume
+#    for a row the adapter does not mention.
+
+WIKILIFE = {
+    "cells": {},
+    "column": "B3 WikiLifeTrajectory",
+    "adapter": ("wikilife", "WikiLifeAdapter"),
+    "default": "untyped",
+    "default_note": "the gold carries no event type; matching is by person, time and place",
+    "relation_default": ("none", "the gold unit is a (person, time, location) triplet, "
+                                 "so a relation that carries neither a place nor a date "
+                                 "cannot form one"),
+    "unmapped_labels": {},
+}
+
+# --------------------------------------------------------------------------------
+# 4. WikiBio (Stranisci et al., ACL 2023). One untyped EVENT class over complete
+#    biographies, no dates. Every event type collapses onto it, so the whole event
+#    half of the column is `partial` and nothing can be type-matched.
+
+WIKIBIO = {
+    "cells": {},
+    "column": "B4 WikiBio",
+    "adapter": ("wikibio", "WikiBioAdapter"),
+    "default": "partial",
+    "default_note": "collapses onto the single untyped gold EVENT class; the type itself "
+                    "is never compared",
+    "relation_default": ("none", "the corpus annotates event triggers and target-person "
+                                 "mentions only; no relation is annotated"),
+    "unmapped_labels": {
+        "EVENT-GR": "Light and grammatical verbs -- annotate HOW an event is expressed "
+                    "rather than that one occurred. Read and counted, never scored.",
+        "EVENT-MOD": "Modality. As EVENT-GR.",
+    },
+}
+
+# --------------------------------------------------------------------------------
+# 5. EventKG (Gottschalk & Demidova, Semantic Web 2019). Binary relevance over a
+#    person's temporal relations. Every type is untyped: a large share of gold rows
+#    are `wikipedia:link`, which carries no relation type at all, and the typed rows
+#    span four knowledge graphs.
+
+EVENTKG = {
+    "cells": {},
+    "column": "B5 EventKG",
+    "adapter": ("eventkg", "EventKgAdapter"),
+    "default": "untyped",
+    "default_note": "recall is name- and date-anchored; no gold row carries a biograph type",
+    "unmapped_labels": {
+        "wikipedia:link": "Two entities are linked and co-temporal, with no relation type "
+                          "asserted. A large share of the gold. Has no target in any "
+                          "typed vocabulary, biograph's included.",
+        "P170 / P127 / P136": "Wikidata creator, owned-by and genre. Properties of works "
+                              "and objects rather than of a life; no biograph relation "
+                              "describes them.",
+    },
+}
+
 GROUNDING = {
-    "column": "B5 Grounding",
+    "column": "B6 Grounding",
     "default": "untyped",
     "default_note": "verified per citation, not per type",
-    "cells": {},          # filled by measure_quote_coverage()
+    "cells": {},          # filled by _grounding_cells() at build time
     "quote_threshold": 0.95,
 }
 
 
-COLUMNS = [BIOGRAPHICAL, BIOEVENTS, PMOA_TTS, TLEX, GROUNDING]
+#: The suite, in order. THIS LIST WAS THE DRIFT. It read
+#: [BIOGRAPHICAL, BIOEVENTS, PMOA_TTS, TLEX, GROUNDING] long after PMOA-TTS was dropped
+#: and TLEX was abandoned, and long after WikiLifeTrajectory, WikiBio and EventKG were
+#: built -- so the published table carried two columns for benchmarks that are not in the
+#: suite and none for three that are. Adding a benchmark means adding one entry here.
+#:
+#: Cells come from one of two places, and the difference is deliberate. B1 and B2 keep
+#: theirs inline below, because their adapters are thin accessors that read these very
+#: dicts -- taking them from the adapter would be circular. B3, B4, B5 and B6 declare an
+#: `adapter`, and their cells are read from it at build time, because those adapters own
+#: the mapping (B6 measures it from the corpus). A column that declares neither is a bug
+#: and build() says so rather than filling the column with defaults.
+COLUMNS = [BIOGRAPHICAL, BIOEVENTS, WIKILIFE, WIKIBIO, EVENTKG, GROUNDING]
+
+#: Dropped from the suite, kept defined because experiments/benchmarks/pmoa_tts still
+#: reads PMOA_TTS["column"]. Not a column: it contributes nothing to the table.
+DROPPED_COLUMNS = [PMOA_TTS]
 
 
 # --------------------------------------------------------------------------- measured
@@ -256,16 +315,43 @@ def _grounding_cells() -> dict[str, tuple[str, str]]:
 
 # --------------------------------------------------------------------------- build
 
+def _adapter_cells(col: dict) -> tuple[dict, str | None]:
+    """A column's cells, read from the adapter that owns them.
+
+    Imported lazily and per call: at module scope this would be a cycle, since the B1 and
+    B2 adapters import this module to read their own cells from it.
+    """
+    mod, cls = col["adapter"]
+    try:
+        module = importlib.import_module(f"..benchmarks.{mod}.adapter", __package__)
+        return getattr(module, cls)().coverage(), None
+    except Exception as exc:                  # noqa: BLE001 - reported as a problem
+        return {}, f"{col['column']}: could not read cells from {mod}.{cls}: {exc}"
+
+
 def build() -> tuple[list[str], list[dict], list[str]]:
     rows = list(vocab.all_types())
     GROUNDING["cells"] = _grounding_cells()
 
     table = []
     problems = []
+    for col in COLUMNS:
+        if "adapter" in col:
+            cells, problem = _adapter_cells(col)
+            if problem:
+                problems.append(problem)
+            elif not cells:
+                problems.append(f"{col['column']}: its adapter returned no cells at all, "
+                                f"so the column would be entirely defaults")
+            else:
+                col["cells"] = cells
+        elif not col.get("cells"):
+            problems.append(f"{col['column']}: declares neither inline cells nor an "
+                            f"adapter to read them from")
     for row in rows:
         entry = {"type": row}
         for col in COLUMNS:
-            if row in col["cells"]:
+            if row in (col.get("cells") or {}):
                 cell, note = col["cells"][row]
             elif row.startswith(R) and col.get("relation_default"):
                 cell, note = col["relation_default"]
@@ -278,7 +364,7 @@ def build() -> tuple[list[str], list[dict], list[str]]:
 
     known = set(rows)
     for col in COLUMNS:
-        for row in col["cells"]:
+        for row in (col.get("cells") or {}):
             if row not in known:
                 problems.append(f"{col['column']} maps {row!r}, which is not in schema/ "
                                 f"-- the matrix has drifted from the data model")
@@ -293,7 +379,7 @@ def to_markdown() -> str:
     out = ["# Vocabulary coverage matrix", "",
            f"biograph's {len(vocab.event_types())} event types and "
            f"{len(vocab.relation_types())} relation types, read from `schema/`, against "
-           f"the five benchmarks' label spaces.", "",
+           f"the suite's {len(COLUMNS)} label spaces.", "",
            "| cell | meaning |", "|---|---|"]
     out += [f"| `{sym}` {name} | {desc} |" for name, (sym, desc) in CELLS.items()]
     out += ["", "| biograph type | " + " | ".join(heads) + " |",

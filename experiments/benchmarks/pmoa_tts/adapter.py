@@ -58,7 +58,7 @@ import os
 import re
 from typing import Any, Iterable
 
-from ...harness import coverage
+from ...harness import coverage, vocab
 from ...harness.interface import (BenchmarkDoc, Extraction, Prediction, ScoreReport)
 from . import score as scoring
 
@@ -475,6 +475,14 @@ class PmoaTtsAdapter:
     # ------------------------------------------------------------ matrix column
 
     def coverage(self) -> dict[str, tuple[str, str]]:
-        _, table, _ = coverage.build()
-        col = coverage.PMOA_TTS["column"]
-        return {row["type"]: row[col] for row in table}
+        """This benchmark's column, built here rather than read from the published table.
+
+        It used to call coverage.build() and index the result by PMOA_TTS["column"] --
+        which broke the moment PMOA-TTS was dropped from COLUMNS, because the column it
+        asked for no longer existed. An adapter's own coverage must not depend on being
+        in the published table; the dependency only ran that way because every adapter
+        was in it at the time.
+        """
+        cells = dict(coverage.PMOA_TTS.get("cells") or {})
+        default = (coverage.PMOA_TTS["default"], coverage.PMOA_TTS["default_note"])
+        return {row: cells.get(row, default) for row in vocab.all_types()}
