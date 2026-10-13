@@ -36,10 +36,12 @@ Two behaviours of the CLI the caller must not be surprised by:
 from __future__ import annotations
 
 import hashlib
+import io
 import json
 import os
 import re
 import shutil
+import signal
 import subprocess
 import sys
 import time
@@ -79,6 +81,68 @@ def python_exe() -> str:
     """The interpreter running the harness. `python3` is not on PATH on Windows, where
     this repository is developed; sys.executable always is."""
     return sys.executable
+
+
+def _kill_tree(proc) -> None:
+    """Kill `proc` AND anything it started, without blocking.
+
+    Popen.kill() on Windows is TerminateProcess, which ends one process and orphans its
+    children. An orphan that still holds the write end of the parent's stdout pipe keeps
+    that pipe open, and anything waiting for EOF on it waits forever. taskkill /T walks
+    the tree.
+    """
+    if proc.poll() is not None:
+        return
+    if os.name == "nt":
+        subprocess.run(["taskkill", "/PID", str(proc.pid), "/T", "/F"],
+                       capture_output=True, timeout=30)
+    else:
+        try:
+            os.killpg(os.getpgid(proc.pid), signal.SIGKILL)
+        except (ProcessLookupError, PermissionError):
+            proc.kill()
+    try:
+        proc.wait(timeout=30)
+    except subprocess.TimeoutExpired:
+        # Unkillable. Say so rather than waiting on it; the document is already lost.
+        pass
+
+
+def _run_bounded(cmd, env, cwd, timeout, log_dir, slug):
+    """Run `cmd` with a wall-clock bound that cannot hang. -> (returncode, out, err, timed_out)
+
+    The child's output goes to FILES, not pipes. That is the whole point. With pipes,
+    subprocess.run's timeout path on Windows calls communicate() a second time WITH NO
+    TIMEOUT after killing the child, so a surviving grandchild holding the pipe blocks the
+    harness indefinitely -- measured once at four hours on one stalled document, while 1,293
+    others waited. Files have no reader to block, so a timeout costs exactly one document.
+    """
+    os.makedirs(log_dir, exist_ok=True)
+    op = os.path.join(log_dir, f"_out_{slug}.log")
+    ep = os.path.join(log_dir, f"_err_{slug}.log")
+    timed_out = False
+    kwargs = {}
+    if os.name != "nt":
+        kwargs["start_new_session"] = True      # so killpg reaches the whole group
+    with open(op, "w", encoding="utf-8") as oh, open(ep, "w", encoding="utf-8") as eh:
+        proc = subprocess.Popen(cmd, stdout=oh, stderr=eh, env=env, cwd=cwd, **kwargs)
+        try:
+            returncode = proc.wait(timeout=timeout)
+        except subprocess.TimeoutExpired:
+            timed_out = True
+            returncode = 124        # conventional shell exit code for a timeout
+            _kill_tree(proc)
+    read = lambda p: (io.open(p, encoding="utf-8", errors="replace").read()
+                      if os.path.isfile(p) else "")
+    out, err = read(op), read(ep)
+    for p in (op, ep):
+        try:
+            os.remove(p)
+        except OSError:
+            pass
+    if timed_out:
+        err += "\n[harness] timed out after %ds and the process tree was killed" % timeout
+    return returncode, out, err, timed_out
 
 
 def cache_key(doc: BenchmarkDoc, cfg: ModelConfig, core_hash: str, repeat: int,
@@ -209,8 +273,8 @@ class Runner:
             cmd += ["--max-tokens", str(self.max_tokens)]
         env = dict(os.environ, BIOGRAPH_API_KEY=self.cfg.api_key)
 
-        # A timeout is one document failing, not the run failing. subprocess.run raises
-        # TimeoutExpired, and letting it propagate ended a 400-document run at document 370
+        # A timeout is one document failing, not the run failing. An uncaught
+        # TimeoutExpired once ended a 400-document run at document 370
         # -- every completed extraction was cached and recoverable, but the run stopped and
         # needed a human to notice and restart it. On an endpoint whose per-document wall
         # time spans 18s to 1618s, a timeout is an expected event, not an exceptional one.
@@ -220,20 +284,8 @@ class Runner:
         # completed run's would be, and the record carries timed_out so nothing downstream
         # mistakes a truncated extraction for a complete one.
         start = time.perf_counter()
-        timed_out = False
-        try:
-            proc = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8",
-                                  errors="replace", env=env, timeout=self.timeout,
-                                  cwd=self.sb.root)
-            returncode, out, err = proc.returncode, proc.stdout, proc.stderr
-        except subprocess.TimeoutExpired as e:
-            timed_out = True
-            returncode = 124  # conventional shell exit code for a timeout
-            out = e.stdout if isinstance(e.stdout, str) else (e.stdout or b"").decode(
-                "utf-8", "replace")
-            err = e.stderr if isinstance(e.stderr, str) else (e.stderr or b"").decode(
-                "utf-8", "replace")
-            err += "\n[harness] timed out after %ds" % self.timeout
+        returncode, out, err, timed_out = _run_bounded(
+            cmd, env, self.sb.root, self.timeout, self.sb.root, doc.slug)
         wall = time.perf_counter() - start
 
         scope = _read_json(scope_path, None)
@@ -245,7 +297,12 @@ class Runner:
                        for k in DATA_FILES}
             subject = _read_json(os.path.join(os.path.dirname(doc_dir), "subject.json"), None)
 
+        # build_site.py prints one line per abandoned request; the count is the only
+        # record that the endpoint went quiet, and grepping stdout afterwards was how it
+        # had to be found before this.
+        stalls = out.count("stream stalled")
         ex = Extraction(doc_id=doc.doc_id, slug=doc.slug, subject=subject,
+                        stalled_requests=stalls,
                         entities=payload["entities"], events=payload["events"],
                         relations=payload["relations"], sources=payload["sources"],
                         scope=scope, exit_code=returncode, wall_seconds=wall,

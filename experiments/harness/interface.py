@@ -100,6 +100,13 @@ class Extraction:
     #: timed-out run may still have written partial output, which is kept and read, so
     #: nothing downstream can mistake a truncated extraction for a complete one.
     timed_out: bool = False
+    #: How many times the model's stream went silent long enough for build_site.py's
+    #: watchdog to abandon the request and retry it. Counted because it is a standing
+    #: property of the endpoint rather than an occasional glitch -- 9.4% of 1,585
+    #: extractions across every run in this project -- and because a recall figure should
+    #: be read next to the conditions that produced it. A stall costs wall time, not
+    #: output: the retry usually succeeds.
+    stalled_requests: int = 0
 
     @property
     def in_scope(self) -> bool:

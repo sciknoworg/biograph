@@ -680,14 +680,27 @@ def test_bioevents_orders_extractable_documents_first():
 
 
 def test_a_timeout_fails_one_document_not_the_run():
-    """subprocess.TimeoutExpired must be caught and recorded, never propagated.
+    """A stalled document must cost one document, measured, not the run.
 
-    Letting it escape ended a 400-document run at document 370. Nothing was lost -- every
-    completed extraction was cached -- but the run stopped and waited for a human. On an
-    endpoint whose per-document wall time spans 18s to 1618s against a 1800s limit, a
-    timeout is an expected event, not an exceptional one.
+    Two failures drove this. An uncaught TimeoutExpired once ended a 400-document run at
+    document 370. Then the catch was added and the limit still did not hold: on one
+    stalled EventKG document the harness sat for FOUR HOURS past a one-hour limit while
+    1,293 documents waited.
+
+    The second failure was in CPython, not in this file. subprocess.run's timeout path
+    kills the child and then, on Windows, calls communicate() A SECOND TIME WITH NO
+    TIMEOUT to drain the pipes. Popen.kill() there is TerminateProcess, which ends one
+    process and orphans its children, and an orphan holding the write end of stdout keeps
+    that pipe open -- so the drain never returns. The fix gives the child FILES instead of
+    pipes, so there is no reader to block, and kills the process TREE.
+
+    This test runs a real child that ignores the limit, which is the only way to catch a
+    regression here: every source-level assertion about the old mechanism passed while the
+    harness hung.
     """
     import subprocess as sp
+    import tempfile
+    import time as _t
 
     from .harness import runner as rn
     from .harness.interface import Extraction
@@ -695,22 +708,55 @@ def test_a_timeout_fails_one_document_not_the_run():
     check("Extraction can record a timeout",
           "timed_out" in Extraction.__dataclass_fields__)
     check("and it defaults to false", Extraction(doc_id="d", slug="d").timed_out is False)
-
     src = inspect_source(rn.Runner.extract)
-    check("extract() catches TimeoutExpired", "except subprocess.TimeoutExpired" in src,
-          "not caught -- a slow document would end the run")
+    check("extract() routes through the bounded runner", "_run_bounded(" in src, src[:200])
     check("the timeout is recorded on the extraction", "timed_out=timed_out" in src)
-    check("partial output is kept rather than discarded",
-          "e.stdout" in src and "e.stderr" in src,
-          "a killed run may already have written files; they are read either way")
 
-    # The exception carries bytes or str depending on how the child was opened; both must
-    # survive, since the stderr is the only record of what the document was doing.
-    for payload in (b"partial bytes", "partial text", None):
-        e = sp.TimeoutExpired(["cmd"], 1800, output=payload, stderr=payload)
-        got = e.stdout if isinstance(e.stdout, str) else (e.stdout or b"").decode(
-            "utf-8", "replace")
-        check("a %s payload decodes to str" % type(payload).__name__, isinstance(got, str))
+    tmp = tempfile.mkdtemp(prefix="timeout-")
+    try:
+        # A child that prints, flushes, then ignores the limit entirely.
+        hang = (sys.executable, "-c",
+                "import sys,time; sys.stdout.write('before the hang\\n'); "
+                "sys.stdout.flush(); time.sleep(120)")
+        began = _t.perf_counter()
+        rc, out, err, timed_out = rn._run_bounded(
+            list(hang), dict(os.environ), tmp, 3, tmp, "hanging_doc")
+        took = _t.perf_counter() - began
+
+        check("the child is killed at the limit, not left running", timed_out, str(timed_out))
+        check("it returns within seconds of the limit, not minutes", took < 45,
+              "took %.0fs against a 3s limit -- this is the four-hour bug" % took)
+        check("the timeout exit code is recorded", rc == 124, str(rc))
+        check("output written BEFORE the hang survives", "before the hang" in out, repr(out))
+        check("the reason is in stderr", "timed out after 3s" in err, repr(err[-80:]))
+        check("the log files are cleaned up",
+              not [f for f in os.listdir(tmp) if f.startswith(("_out_", "_err_"))],
+              str(os.listdir(tmp)))
+
+        # And the ordinary path still behaves: a child that exits normally.
+        quick = (sys.executable, "-c",
+                 "import sys; sys.stdout.write('done\\n'); sys.stderr.write('warn\\n')")
+        rc, out, err, timed_out = rn._run_bounded(
+            list(quick), dict(os.environ), tmp, 60, tmp, "quick_doc")
+        check("a normal child is not reported as timed out", not timed_out)
+        check("its exit code comes through", rc == 0, str(rc))
+        check("its stdout comes through", out.strip() == "done", repr(out))
+        check("its stderr comes through", err.strip() == "warn", repr(err))
+
+        # A non-zero exit is a result, not an exception.
+        bad = (sys.executable, "-c", "import sys; sys.exit(3)")
+        rc, _o, _e, timed_out = rn._run_bounded(
+            list(bad), dict(os.environ), tmp, 60, tmp, "failing_doc")
+        check("a non-zero exit is returned rather than raised",
+              rc == 3 and not timed_out, str((rc, timed_out)))
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+    # The exception payload handling that the old path needed is gone, but a timeout must
+    # still leave the partial output readable, which the file-based capture guarantees.
+    check("output capture does not depend on the exception carrying it",
+          "e.stdout" not in src and "e.stderr" not in src,
+          "extract() should no longer read output off TimeoutExpired")
 
 
 def inspect_source(fn):
@@ -1897,10 +1943,16 @@ def test_eventkg_abstracts_lose_wikipedia_furniture():
     check("prose phrased like a navigation note survives", clean(real) == real, clean(real))
     caret = "Chris O^Brien was born in 1943."
     check("a caret inside a word survives", clean(caret) == caret, clean(caret))
-    deep = "He was born." + "\n\n" + "A paragraph." + "\n\n" + "For other uses, see X."
-    check("a note is only stripped at the top of the document",
+    # The scan must be BOUNDED, whatever the bound is: a note-lookalike well into the
+    # document has to survive, or a biography could be cut from the middle.
+    body = ["He was born in 1881.", "", "He studied medicine.", "", "He served in a war.",
+            "", "He returned to London.", "", "For other uses, see X."]
+    deep = chr(10).join(body)
+    check("a note-lookalike beyond the scan window survives",
           "For other uses" in clean(deep),
-          "NAV_SCAN_LINES must bound the scan so biography is never cut from the middle")
+          "the window must not reach line %d" % (len(body) - 1))
+    check("the window is smaller than the document it scans",
+          fa.NAV_SCAN_LINES < len(body), str(fa.NAV_SCAN_LINES))
 
     # The repair must be idempotent: --reclean may be run more than once.
     once, twice = clean(nav), clean(clean(nav))

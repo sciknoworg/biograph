@@ -225,6 +225,18 @@ def main(argv=None) -> int:
             extractions[doc.doc_id] = ex
             pairs.append((doc, adapter.project(doc, ex)))
         report = adapter.score(pairs, extractions=extractions)
+        # Endpoint conditions, recorded beside the scores. 9.4% of 1,585 extractions
+        # across this project saw the model's stream go silent for over six minutes --
+        # a standing property of the endpoint, not an occasional glitch. A recall figure
+        # should be readable next to the conditions that produced it, and until now this
+        # could only be recovered by grepping stdout out of the cache.
+        stalled = [e.stalled_requests for e in extractions.values()]
+        report.scores["documents_with_a_stalled_request"] = float(
+            sum(1 for n in stalled if n))
+        report.scores["stalled_requests_total"] = float(sum(stalled))
+        timed = sum(1 for e in extractions.values() if e.timed_out)
+        if timed:
+            report.scores["documents_timed_out"] = float(timed)
         grounded = [e.grounding.quote_rate for e in extractions.values()
                     if e.grounding and e.grounding.quote_rate is not None]
         if grounded:
