@@ -1,0 +1,103 @@
+{
+  "run_id": "b5_eventkg_full",
+  "finished": "2026-10-12T20:59:31",
+  "invocation": {
+    "limit": null,
+    "only": null,
+    "order": "extractable",
+    "b1_order": "balanced",
+    "min_facts": 10,
+    "min_triggers": 1,
+    "min_events": 1,
+    "max_tokens": 64000,
+    "timeout": 3600,
+    "relax_inclusion": true,
+    "repeats": 1,
+    "argv": [
+      "--benchmark",
+      "eventkg",
+      "--data-root",
+      "experiments/corpora/eventkg",
+      "--relax-inclusion",
+      "--min-facts",
+      "10",
+      "--max-tokens",
+      "64000",
+      "--timeout",
+      "3600",
+      "--keep-sandbox",
+      "--run-id",
+      "b5_eventkg_full"
+    ]
+  },
+  "adapter": {
+    "name": "eventkg",
+    "citation": "Gottschalk & Demidova, Semantic Web 10(6), 2019",
+    "license": "UNRESOLVED for the biography half -- see experiments/corpora/eventkg/README.md; Wikipedia abstracts are CC BY-SA 4.0",
+    "metric": "recall of Wikipedia-attested temporal relations per person, name-anchored (weak) and date-anchored (strong); no precision -- see module docstring"
+  },
+  "core": {
+    "run_id": "b5_eventkg_full",
+    "commit": "54034ef56b2397fd365d5a40f70bc54432f7d323",
+    "core_files_uncommitted": [],
+    "sha256": {
+      "scripts/build_site.py": "1bc7327b3bbe7e6842eb7f2e389e823372c85c85ca9400d9f5451c94da27224e",
+      "schema/date.schema.json": "8073e8da8bb20ae4330aaa3f798af30f06bfe0c5361303ae910b58bccda41019",
+      "schema/entity.schema.json": "ed2220532d11a96ea0bf0ad184c97de8abe45c8b8feed9f4aca0fa86f1319df0",
+      "schema/event.schema.json": "f5878f1804891e13ee9b697126a52cbb76be58fba799ebca78cea3d3adb46247",
+      "schema/relation.schema.json": "2c8941751ae907bc865f4869c6f9de8ec245c9950261c992a97c86319397d127",
+      "schema/source.schema.json": "761b2cdd818deea6eb9450e90db46a1880c1c63f7291bbf956de4a68262f51b2",
+      "frontend/template.html": "dc79416f6fdc1ca99c786b289b52a951731321c9bb59235558cd61f5e0ac257a",
+      "frontend/world-countries.geo.json": "02caedf9a1e0255deedc985942ccb0b8df102f21c9c551c332e8eda0a18fbcd9"
+    },
+    "extraction_core_modified": false
+  },
+  "extraction_core_divergences": [],
+  "model": {
+    "model": "qwen3.5-397b-a17b",
+    "base_url": "https://chat-ai.academiccloud.de/v1"
+  },
+  "n_documents": 322,
+  "repeats": [
+    {
+      "benchmark": "eventkg",
+      "metric": "recall of Wikipedia-attested temporal relations per person, name-anchored (weak) and date-anchored (strong); no precision -- see module docstring",
+      "n_docs": 322,
+      "scores": {
+        "gold_facts_deduplicated": 4754.0,
+        "gold_facts_matchable": 4744.0,
+        "recall_name_anchored": 0.6684232715008431,
+        "recall_date_anchored": 0.4024030354131535,
+        "date_agreement_given_name_match": 0.7875412541254125,
+        "distractor_hit_rate": 0.06861004825582159,
+        "grounding_quote_rate": 1.0
+      },
+      "published_baseline": {},
+      "not_applicable": {
+        "relation_type": "gold properties span Wikidata, DBpedia and YAGO, and a large share of rows are `wikipedia:link`, which carries no relation type at all",
+        "event_type": "no gold row carries an event type",
+        "precision": "the 0.0 rows are relations EventKG holds but the abstract does not state; an extraction matching one is not demonstrably wrong. Reported as distractor_hit_rate instead",
+        "biography_half": "`biography_score` was derived from Thefamouspeople.com and Biography.com texts, which the benchmark does not redistribute; those documents cannot be scored"
+      },
+      "per_label": {},
+      "attrition": {
+        "unlabelled_gold": 10,
+        "date_semantics_unusable": 747,
+        "distractor_facts": 76053,
+        "biography_half_rows_unreachable": 9073,
+        "documents_empty": 0,
+        "documents_out_of_scope": 319,
+        "documents_timed_out": 0
+      },
+      "notes": [
+        "Recall only. The gold's 0.0 rows are unstated-in-abstract, not false, so no precision is computable; distractor_hit_rate reports the rate at which extractions land on them.",
+        "Gold is deduplicated on (connected entity, interval): the release labels `actedIn`, `starring` and `P161` separately for one fact.",
+        "Date agreement is computed only where the interval is the relation's own validity. 747 name-matched facts carried an interval belonging to the connected entity instead and were excluded from it.",
+        "10 gold facts have no English label and cannot be matched by name; one such row carries a birth date.",
+        "Abstracts are pinned to the last revision before 2019-05-21, so the text is the text the judgements were made against.",
+        "Documents were ordered by scored gold fact count, most first. A run that did not reach the end therefore covers the most-documented people, and its recall is NOT a corpus estimate: report it as recall over the N people with the most attested relations.",
+        "The published SVM figures measure relation selection over graph features, with the graph as input and no biography read. They are not a baseline for this task and are omitted from published_baseline."
+      ]
+    }
+  ]
+}

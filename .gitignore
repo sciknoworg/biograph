@@ -93,6 +93,19 @@ agriculture_state.json
 # this project. They stay on disk (they are what gets attached to the paper chat)
 # and are rebuildable from the code and the run artifacts, which are tracked.
 # Earlier versions are already in history; this only stops new ones going up.
+# Writing artifacts for the paper, not repository content. The briefs are condensed
+# evidence written for a drafting session; the .bib is the paper's bibliography. They
+# change with the prose rather than with the software, and a reader of this repository
+# needs the code and the run reports, not the drafting notes. Kept on disk, never
+# committed. (paper_evidence/ otherwise IS repository content -- it holds the
+# model-comparison evidence, which is experimental data.)
 paper_evidence/*-brief.md
 paper_evidence/corrections-to-apply.md
+paper_evidence/*.bib
+
+# Hand-written reports to service providers and probe write-ups: working notes about
+# somebody else's infrastructure, superseded whenever it changes. The probe SCRIPTS are
+# kept, since a claim about an endpoint has to be re-runnable.
+kisski_*report*.md
+core_api_probe_report.md
 kisski_report_for_dev_team.md

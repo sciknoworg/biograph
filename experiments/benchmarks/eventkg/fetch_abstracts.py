@@ -145,7 +145,7 @@ NAV_PATTERNS = (
 #: A navigation note is at the top or it is not one. Checking only the first few lines
 #: keeps the pattern "for the ... , see ..." from deleting a sentence of biography that
 #: happens to be phrased that way further down.
-NAV_SCAN_LINES = 4
+NAV_SCAN_LINES = 6
 
 
 def _is_navigation(line: str) -> bool:
@@ -188,15 +188,12 @@ def strip_navigation(text: str) -> str:
     a hatnote is an actively misleading one.
     """
     lines = text.splitlines()
-    cut = 0
-    for i, line in enumerate(lines[:NAV_SCAN_LINES]):
-        if not line.strip():
-            continue
-        if _is_navigation(line):
-            cut = i + 1
-        else:
-            break
-    out = "\n".join(lines[cut:]).strip()
+    # FILTER the window, do not truncate a leading block. The first version stopped at the
+    # first line that was not a note, which meant that whenever Wikipedia's short
+    # description came first -- "American singer-songwriter", then "Not to be confused with
+    # Adam DeVine." -- the notes below it survived. That was 226 of 1,508 abstracts.
+    head = [line for line in lines[:NAV_SCAN_LINES] if not _is_navigation(line)]
+    out = "\n".join(head + lines[NAV_SCAN_LINES:]).strip()
     return out or text.strip()
 
 
