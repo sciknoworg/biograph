@@ -39,6 +39,7 @@ import hashlib
 import io
 import json
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -53,20 +54,74 @@ from experiments.harness.runner import parse_grounding       # noqa: E402
 
 #: The two documents the 2026-09-04 comparison used. Same documents, so a future recovery of
 #: that mapping makes the two studies comparable.
+#: Ten documents: a short and a long one in each of the five domains with the most
+#: subjects. The length contrast is the axis worth paying for -- WikiBio showed output
+#: volume is least stable on the longest documents, and this measures that directly with a
+#: repeat design instead of inferring it.
+#:
+#: The long end is capped near 88,000 characters, which is the longest document this
+#: project has DEMONSTRATED fits a 64,000-token reply (Charles de Gaulle, 88,469, in
+#: benchmark 3). The corpus holds documents to 200,000, and they were deliberately not
+#: chosen: at twice a proven length, a failure costs the whole run and tells you nothing
+#: about variability.
+#:
+#: Sources are `text` where the corpus holds extracted text, which is all but two. Suntola
+#: and Aleskovskii exist only as PDFs -- they are the project's two founding documents,
+#: hand-extracted before the automated path existed -- so they carry `pdf` instead, and
+#: are selectable with --document but are NOT in the default set, which would otherwise
+#: give materials science three documents.
 DOCUMENTS = {
+    # physics
+    "dalembert": {"text": "data/dalembert.txt", "name": "Jean d'Alembert",
+                  "domain": "physics", "length": "short"},
+    "helmert":   {"text": "data/helmert.txt", "name": "Friedrich Robert Helmert",
+                  "domain": "physics", "length": "long"},
+    # life sciences and medicine
+    "pacini":    {"text": "data/pacini.txt", "name": "Filippo Pacini",
+                  "domain": "life_sciences_and_medicine", "length": "short"},
+    "g_borelli": {"text": "data/g_borelli.txt", "name": "Giovanni Alfonso Borelli",
+                  "domain": "life_sciences_and_medicine", "length": "long"},
+    # chemistry
+    "vigneaud":  {"text": "data/vigneaud.txt", "name": "Vincent du Vigneaud",
+                  "domain": "chemistry", "length": "short"},
+    "djerassi":  {"text": "data/djerassi.txt", "name": "Carl Djerassi",
+                  "domain": "chemistry", "length": "long"},
+    # materials science
+    "ito_2":     {"text": "data/ito_2.txt", "name": "Ito",
+                  "domain": "materials_science", "length": "short"},
+    "hooke":     {"text": "data/hooke.txt", "name": "Robert Hooke",
+                  "domain": "materials_science", "length": "long"},
+    # mathematics and computation
+    "bellman":   {"text": "data/bellman.txt", "name": "Richard Bellman",
+                  "domain": "mathematics_and_computation", "length": "short"},
+    "galton":    {"text": "data/galton.txt", "name": "Francis Galton",
+                  "domain": "mathematics_and_computation", "length": "long"},
+
+    # Not in the default set; --document suntola selects it.
     "suntola": {
-        "pdf": os.path.join("data", "Puurunen2014 - Tuomo Suntola.pdf"),
+        "pdf": "data/Puurunen2014 - Tuomo Suntola.pdf",
         "name": "Tuomo Suntola",
+        "domain": "materials_science", "length": "medium",
         "citation": "Puurunen 2014, A Short History of Atomic Layer Deposition: "
                     "Tuomo Suntola's Atomic Layer Epitaxy (doi:10.1002/cvde.201402012)",
     },
     "aleskovskii": {
-        "pdf": os.path.join("data", "Malygin2015 - V B Aleskovskii.pdf"),
+        "pdf": "data/Malygin2015 - V B Aleskovskii.pdf",
         "name": "Valentin Aleskovskii",
+        "domain": "materials_science", "length": "medium",
         "citation": "Malygin 2015, From V. B. Aleskovskii's \"Framework\" Hypothesis "
                     "to the Method of Molecular Layering",
     },
 }
+
+#: The ten run by default. The two founding PDFs are excluded so that every domain
+#: contributes exactly two documents and the design stays balanced.
+DEFAULT_DOCUMENTS = [k for k, v in DOCUMENTS.items() if "text" in v]
+
+
+def source_of(spec):
+    """(flag, path) for a document -- build_site takes --text or --pdf, not both."""
+    return ("--text", spec["text"]) if "text" in spec else ("--pdf", spec["pdf"])
 
 DATA_FILES = ("entities", "events", "relations", "sources")
 MANIFEST = os.path.join(HERE, "manifest.json")
@@ -182,6 +237,23 @@ def _save_manifest_locked(m: dict) -> None:
     m["runs"] = out["runs"]
 
 
+def model_slug(model: str) -> str:
+    """A model name as a directory component. `anthropic/claude-fable-5.1` has a slash."""
+    return re.sub(r"[^A-Za-z0-9._-]+", "_", (model or "unknown_model")).strip("_")
+
+
+def run_dir(model: str, temperature: float, doc_key: str) -> str:
+    """Where one condition's runs live: <model>/t<temp>/<document>/.
+
+    The manifest remains the record -- it always did, and a folder name is not one. But a
+    study that will be repeated with other models needs its results separable by eye as
+    well as by query, and nesting the model and temperature makes `ls` answer the question
+    that otherwise needs a script.
+    """
+    return os.path.join(HERE, "runs", model_slug(model),
+                        "t%g" % temperature, doc_key)
+
+
 def next_index(manifest: dict, doc_key: str, outdir: str) -> int:
     """Continue numbering per document, across conditions.
 
@@ -249,14 +321,26 @@ def main(argv=None) -> int:
                          "(default BIOGRAPH_API_KEY) -- e.g. OPENROUTER_API_KEY. The name, "
                          "never the key: a key on a command line lands in shell history and in "
                          "every log line that echoes the command")
-    ap.add_argument("--temperature", type=float, default=0.2,
+    ap.add_argument("--max-tokens", type=int, default=64_000,
+                    help="reply budget per request. build_site.py's own default is 32,000, "
+                         "under which a long document's reply was truncated and arrived as "
+                         "an empty graph reporting success; the long documents here are "
+                         "~88,000 characters and need the larger budget")
+    ap.add_argument("--temperature", type=float, action="append", default=None,
                     help="passed to build_site.py --temperature and recorded per run. The "
                          "manifest is the only record of which condition a run belongs to; "
                          "the folder name deliberately does not encode it")
     ap.add_argument("--timeout", type=int, default=2400)
     args = ap.parse_args(argv)
 
-    keys = args.document or sorted(DOCUMENTS)
+    keys = args.document or list(DEFAULT_DOCUMENTS)
+    # --temperature is repeatable; the default pair brackets the sampling question. 0.0 is
+    # greedy decoding, which is NOT determinism here -- the served model is a
+    # mixture-of-experts whose routing depends on request batching -- and 0.5 is well above
+    # the pipeline's own 0.2, so the two bound the range rather than sampling near one
+    # point. Each is its own condition; summarise.py keys on temperature and never pools
+    # them.
+    temps = sorted(set(args.temperature if args.temperature else [0.0, 0.5]))
     # --api-key-env takes the NAME of a variable. Someone passing the key itself would
     # otherwise see it echoed back in the "not set" error -- printed to the terminal and
     # already in the shell history -- turning a typo into a leak. Refuse without ever
@@ -277,21 +361,26 @@ def main(argv=None) -> int:
     api_key = os.environ.get(args.api_key_env)
 
     for k in keys:
-        pdf = os.path.join(REPO_ROOT, DOCUMENTS[k]["pdf"])
-        if not os.path.isfile(pdf):
-            raise SystemExit("source document missing: %s" % DOCUMENTS[k]["pdf"])
+        _flag, rel = source_of(DOCUMENTS[k])
+        if not os.path.isfile(os.path.join(REPO_ROOT, rel)):
+            raise SystemExit("source document missing: %s" % rel)
 
     manifest = load_manifest()
     print("model    : %s" % (model or "(BIOGRAPH_MODEL not set)"))
     print("provider : %s" % ((base_url or "").split("//")[-1].split("/")[0] or "(unset)"))
     print("documents: %s" % ", ".join(keys))
-    print("runs each: %d" % args.runs)
-    print("temp     : %g" % args.temperature)
+    print("runs each: %d per temperature" % args.runs)
+    print("temps    : %s" % ", ".join("%g" % t for t in temps))
+    print("budget   : --max-tokens %d" % args.max_tokens)
+    print("total    : %d runs (%d documents x %d temperatures x %d runs)"
+          % (len(keys) * len(temps) * args.runs, len(keys), len(temps), args.runs))
     for k in keys:
+        spec = DOCUMENTS[k]
+        _flag, rel = source_of(spec)
+        size = os.path.getsize(os.path.join(REPO_ROOT, rel))
         have = sum(1 for r in manifest["runs"] if r["document"] == k)
-        first = next_index(manifest, k, os.path.join(HERE, k))
-        print("  %-12s %d already recorded -> will add runs %d-%d"
-              % (k, have, first, first + args.runs - 1))
+        print("  %-12s %-28s %-6s %7d chars  (%d already recorded)"
+              % (k, spec.get("domain", "?"), spec.get("length", "?"), size, have))
     if args.dry_run:
         print("\n(dry run -- no model called)")
         return 0
@@ -312,136 +401,142 @@ def main(argv=None) -> int:
         print("  WARNING: uncommitted changes in core files: %s" % ", ".join(sb.dirty))
 
     try:
-        for k in keys:
-            spec = DOCUMENTS[k]
-            outdir = os.path.join(HERE, k)
-            os.makedirs(outdir, exist_ok=True)
-            consecutive_timeouts = 0
-            for _ in range(args.runs):
-                idx, dest = claim_run(manifest, k, outdir)
-                slug = "%s_var_%02d" % (k, idx)
-                cmd = [sys.executable, sb.build_site, slug,
-                       "--pdf", os.path.join(REPO_ROOT, spec["pdf"]),
-                       "--name", spec["name"],
-                       "--keep-rejected",              # never delete the source PDF
-                       "--temperature", str(args.temperature),
-                       "--model", model, "--base-url", base_url]
-                env = dict(os.environ, BIOGRAPH_API_KEY=api_key)
-                # A model too slow to finish inside --timeout is a RESULT about that model,
-                # not a reason to abandon the other four. qwen3.8-27b hit 2400s on its first
-                # draw and the unhandled TimeoutExpired killed the whole study, losing the
-                # claimed run folder and leaving its sandbox behind.
-                start = time.perf_counter()
-                timed_out = False
-                try:
-                    proc = subprocess.run(cmd, capture_output=True, text=True,
-                                          encoding="utf-8", errors="replace", env=env,
-                                          cwd=sb.root, timeout=args.timeout)
-                except subprocess.TimeoutExpired as exc:
-                    # Keep what the child printed before it was killed. TimeoutExpired carries
-                    # it, and discarding it threw away the only evidence of WHY a run timed
-                    # out -- whether the model was streaming steadily and simply had more to
-                    # say, or produced nothing at all for the whole timeout. Those are
-                    # different failures and the log is the only thing that tells them apart.
-                    timed_out = True
-                    partial = exc.stdout or exc.output or ""
-                    if isinstance(partial, bytes):
-                        partial = partial.decode("utf-8", "replace")
-                    err = exc.stderr or b""
-                    if isinstance(err, bytes):
-                        err = err.decode("utf-8", "replace")
-                    proc = subprocess.CompletedProcess(
-                        cmd, -1, partial,
-                        (err + "\n" if err else "") + "timed out after %ds" % args.timeout)
-                wall = time.perf_counter() - start
+        for temperature in temps:
+          for k in keys:
+              spec = DOCUMENTS[k]
+              source_flag, source_rel = source_of(spec)
+              outdir = run_dir(model, temperature, k)
+              os.makedirs(outdir, exist_ok=True)
+              consecutive_timeouts = 0
+              for _ in range(args.runs):
+                  idx, dest = claim_run(manifest, k, outdir)
+                  slug = "%s_var_%02d" % (k, idx)
+                  cmd = [sys.executable, sb.build_site, slug,
+                         source_flag, os.path.join(REPO_ROOT, source_rel),
+                         "--name", spec["name"],
+                         "--keep-rejected",              # never delete the source PDF
+                         "--temperature", str(temperature),
+                       "--max-tokens", str(args.max_tokens),
+                         "--model", model, "--base-url", base_url]
+                  env = dict(os.environ, BIOGRAPH_API_KEY=api_key)
+                  # A model too slow to finish inside --timeout is a RESULT about that model,
+                  # not a reason to abandon the other four. qwen3.8-27b hit 2400s on its first
+                  # draw and the unhandled TimeoutExpired killed the whole study, losing the
+                  # claimed run folder and leaving its sandbox behind.
+                  start = time.perf_counter()
+                  timed_out = False
+                  try:
+                      proc = subprocess.run(cmd, capture_output=True, text=True,
+                                            encoding="utf-8", errors="replace", env=env,
+                                            cwd=sb.root, timeout=args.timeout)
+                  except subprocess.TimeoutExpired as exc:
+                      # Keep what the child printed before it was killed. TimeoutExpired carries
+                      # it, and discarding it threw away the only evidence of WHY a run timed
+                      # out -- whether the model was streaming steadily and simply had more to
+                      # say, or produced nothing at all for the whole timeout. Those are
+                      # different failures and the log is the only thing that tells them apart.
+                      timed_out = True
+                      partial = exc.stdout or exc.output or ""
+                      if isinstance(partial, bytes):
+                          partial = partial.decode("utf-8", "replace")
+                      err = exc.stderr or b""
+                      if isinstance(err, bytes):
+                          err = err.decode("utf-8", "replace")
+                      proc = subprocess.CompletedProcess(
+                          cmd, -1, partial,
+                          (err + "\n" if err else "") + "timed out after %ds" % args.timeout)
+                  wall = time.perf_counter() - start
 
-                ddir = find_doc_dir(sb, slug)
-                counts = {}
-                if ddir:
-                    if os.path.isdir(dest):
-                        shutil.rmtree(dest)
-                    shutil.copytree(ddir, dest)
-                    sj = os.path.join(os.path.dirname(ddir), "subject.json")
-                    if os.path.isfile(sj):
-                        shutil.copyfile(sj, os.path.join(dest, "subject.json"))
-                    for nm in DATA_FILES:
-                        p = os.path.join(dest, nm + ".json")
-                        try:
-                            with io.open(p, encoding="utf-8") as f:
-                                counts[nm] = len(json.load(f))
-                        except (OSError, ValueError):
-                            counts[nm] = None
+                  ddir = find_doc_dir(sb, slug)
+                  counts = {}
+                  if ddir:
+                      if os.path.isdir(dest):
+                          shutil.rmtree(dest)
+                      shutil.copytree(ddir, dest)
+                      sj = os.path.join(os.path.dirname(ddir), "subject.json")
+                      if os.path.isfile(sj):
+                          shutil.copyfile(sj, os.path.join(dest, "subject.json"))
+                      for nm in DATA_FILES:
+                          p = os.path.join(dest, nm + ".json")
+                          try:
+                              with io.open(p, encoding="utf-8") as f:
+                                  counts[nm] = len(json.load(f))
+                          except (OSError, ValueError):
+                              counts[nm] = None
 
-                g = parse_grounding(proc.stdout)
-                record = {
-                    "run": idx,
-                    "document": k,
-                    "slug": slug,
-                    # The whole point of this file: the mapping, written before the next run.
-                    "model": model,
-                    "base_url": base_url,
-                    "api_key_env": args.api_key_env,
-                    "temperature": args.temperature,
-                    "strict_scope": False,
-                    "commit": sb.commit,
-                    "rules_sha": prompt_sha,
-                    "core_sha256": sb.hashes,
-                    "started_at": time.strftime("%Y-%m-%dT%H:%M:%S"),
-                    "wall_seconds": round(wall, 1),
-                    "exit_code": proc.returncode,
-                    "timed_out": timed_out,
-                    # An empty extraction satisfies every schema constraint trivially: zero
-                    # events have zero missing dates. mistral-medium-3.5-128b returned [] for
-                    # all four files twice and was recorded as validated, which is true and
-                    # useless. Schema validity is not evidence that anything was extracted.
-                    "empty": not any(counts.get(k) for k in DATA_FILES),
-                    "validated": (proc.returncode == 0 and not timed_out
-                                  and any(counts.get(k) for k in DATA_FILES)),
-                    "counts": counts,
-                    "grounding": ({"quotes_verbatim": g.quotes_verbatim,
-                                   "quotes_checked": g.quotes_checked,
-                                   "entities_present": g.entities_present,
-                                   "entities_checked": g.entities_checked} if g else None),
-                    "output": os.path.relpath(dest, REPO_ROOT).replace(os.sep, "/")
-                              if ddir else None,
-                }
-                # The driver discards stdout, which is fine for a run that worked and fatal
-                # for one that did not: the scope verdict, the JSON-retry notes and the
-                # validation errors are all in there, and the sandbox is about to be deleted.
-                if not any(counts.get(x) for x in DATA_FILES) or proc.returncode != 0:
-                    try:
-                        with io.open(os.path.join(dest, "_stdout.log"), "w",
-                                     encoding="utf-8") as fh:
-                            fh.write((proc.stdout or "") + (proc.stderr or ""))
-                    except OSError:
-                        pass
+                  g = parse_grounding(proc.stdout)
+                  record = {
+                      "run": idx,
+                      "document": k,
+                      "slug": slug,
+                      # The whole point of this file: the mapping, written before the next run.
+                      "model": model,
+                      "base_url": base_url,
+                      "api_key_env": args.api_key_env,
+                      "temperature": temperature,
+                    "max_tokens": args.max_tokens,
+                    "domain": spec.get("domain"),
+                    "length_class": spec.get("length"),
+                      "strict_scope": False,
+                      "commit": sb.commit,
+                      "rules_sha": prompt_sha,
+                      "core_sha256": sb.hashes,
+                      "started_at": time.strftime("%Y-%m-%dT%H:%M:%S"),
+                      "wall_seconds": round(wall, 1),
+                      "exit_code": proc.returncode,
+                      "timed_out": timed_out,
+                      # An empty extraction satisfies every schema constraint trivially: zero
+                      # events have zero missing dates. mistral-medium-3.5-128b returned [] for
+                      # all four files twice and was recorded as validated, which is true and
+                      # useless. Schema validity is not evidence that anything was extracted.
+                      "empty": not any(counts.get(k) for k in DATA_FILES),
+                      "validated": (proc.returncode == 0 and not timed_out
+                                    and any(counts.get(k) for k in DATA_FILES)),
+                      "counts": counts,
+                      "grounding": ({"quotes_verbatim": g.quotes_verbatim,
+                                     "quotes_checked": g.quotes_checked,
+                                     "entities_present": g.entities_present,
+                                     "entities_checked": g.entities_checked} if g else None),
+                      "output": os.path.relpath(dest, REPO_ROOT).replace(os.sep, "/")
+                                if ddir else None,
+                  }
+                  # The driver discards stdout, which is fine for a run that worked and fatal
+                  # for one that did not: the scope verdict, the JSON-retry notes and the
+                  # validation errors are all in there, and the sandbox is about to be deleted.
+                  if not any(counts.get(x) for x in DATA_FILES) or proc.returncode != 0:
+                      try:
+                          with io.open(os.path.join(dest, "_stdout.log"), "w",
+                                       encoding="utf-8") as fh:
+                              fh.write((proc.stdout or "") + (proc.stderr or ""))
+                      except OSError:
+                          pass
 
-                manifest["runs"].append(record)
-                save_manifest(manifest)          # after every run, not at the end
+                  manifest["runs"].append(record)
+                  save_manifest(manifest)          # after every run, not at the end
 
-                q = ("%d/%d" % (g.quotes_verbatim, g.quotes_checked)) if g else "n/a"
-                print("  %-16s run %02d  %4.0fs  exit %-3d %s  quotes %s"
-                      % (k, idx, wall, proc.returncode,
-                         "TIMED OUT" if timed_out else ("EMPTY" if not any(counts.get(x) for x in DATA_FILES) else ("ok " if ddir else "NO OUTPUT")),
-                         q))
+                  q = ("%d/%d" % (g.quotes_verbatim, g.quotes_checked)) if g else "n/a"
+                  print("  %-16s run %02d  %4.0fs  exit %-3d %s  quotes %s"
+                        % ("%s t%g" % (k, temperature), idx, wall, proc.returncode,
+                           "TIMED OUT" if timed_out else ("EMPTY" if not any(counts.get(x) for x in DATA_FILES) else ("ok " if ddir else "NO OUTPUT")),
+                           q))
 
-                # Each run must be independent: load_subject_documents() merges every
-                # document folder under a subject, so a leftover would union two draws.
-                sdir = os.path.dirname(ddir) if ddir else None
-                if sdir and os.path.isdir(sdir):
-                    shutil.rmtree(sdir, ignore_errors=True)
+                  # Each run must be independent: load_subject_documents() merges every
+                  # document folder under a subject, so a leftover would union two draws.
+                  sdir = os.path.dirname(ddir) if ddir else None
+                  if sdir and os.path.isdir(sdir):
+                      shutil.rmtree(sdir, ignore_errors=True)
 
-                # Two timeouts in a row is a model that cannot do this within --timeout.
-                # Spending the remaining draws to learn it again wastes hours of budget.
-                if timed_out:
-                    consecutive_timeouts += 1
-                    if consecutive_timeouts >= 2:
-                        print("  %s: two consecutive timeouts at %ds -- stopping this "
-                              "document. Raise --timeout to give it longer."
-                              % (model, args.timeout))
-                        break
-                else:
-                    consecutive_timeouts = 0
+                  # Two timeouts in a row is a model that cannot do this within --timeout.
+                  # Spending the remaining draws to learn it again wastes hours of budget.
+                  if timed_out:
+                      consecutive_timeouts += 1
+                      if consecutive_timeouts >= 2:
+                          print("  %s: two consecutive timeouts at %ds -- stopping this "
+                                "document. Raise --timeout to give it longer."
+                                % (model, args.timeout))
+                          break
+                  else:
+                      consecutive_timeouts = 0
 
         divergences = sb.verify()
         manifest["core_verified"] = not divergences
