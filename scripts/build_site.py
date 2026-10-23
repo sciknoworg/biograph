@@ -528,7 +528,7 @@ def _is_permanent_llm_error(e):
 
 
 def call_llm(system, user, model, base_url, api_key, max_tokens, max_continuations=8,
-             max_json_retries=5, temperature=DEFAULT_TEMPERATURE):
+             max_json_retries=5, temperature=DEFAULT_TEMPERATURE, extra_body=None):
     """One full reply from the model, as a parsed JSON object. Three independent retry mechanisms
     here, for three independent failure modes:
 
@@ -585,6 +585,20 @@ def call_llm(system, user, model, base_url, api_key, max_tokens, max_continuatio
                       messages=messages)
         if json_mode:
             kwargs["response_format"] = {"type": "json_object"}
+        # Provider-specific request fields, supplied verbatim by the caller. A generic
+        # merge rather than a named option per feature, because the field that controls
+        # reasoning depth is named differently by every provider -- `output_config.effort`
+        # on Anthropic's own API, something else through a gateway -- and hard-coding one
+        # vendor's spelling into the extraction core would date it.
+        #
+        # `"temperature": null` REMOVES temperature instead of sending null. Every
+        # Anthropic model rejects the parameter outright as of 2026-10-21, so a study that
+        # wants to reach one has to omit it, not set it to something.
+        for key, value in (extra_body or {}).items():
+            if value is None:
+                kwargs.pop(key, None)
+            else:
+                kwargs[key] = value
 
         if not stream:
             # No stall-watchdog here -- that's the whole reason streaming is preferred. Used only
@@ -1609,7 +1623,7 @@ def choose_model():
 def extract(pdf_path, slug, name, model, base_url, api_key, max_chars, max_tokens,
             delete_out_of_scope=True, related_fields_out=None, keep_source_pdf=False,
             strict_scope=False, scope_out=None, scope_domain=None, domain=None,
-            ignore_scope=False, temperature=DEFAULT_TEMPERATURE):
+            ignore_scope=False, temperature=DEFAULT_TEMPERATURE, extra_body=None):
     print(f"Reading {pdf_path}...")
     text = source_text(pdf_path, max_chars)
     system, user = build_prompt(slug, name, text,
@@ -1625,7 +1639,7 @@ def extract(pdf_path, slug, name, model, base_url, api_key, max_chars, max_token
     global RAW_REPLY_DIR
     RAW_REPLY_DIR = os.path.join(SUBJECTS_DIR, slug, "_raw")
     data = call_llm(system, user, model, base_url, api_key, max_tokens,
-                    temperature=temperature)
+                    temperature=temperature, extra_body=extra_body)
     print(f"  ({time.perf_counter() - start:.1f}s)")
 
     scope = parse_scope(data)
@@ -1748,6 +1762,7 @@ def extract(pdf_path, slug, name, model, base_url, api_key, max_chars, max_token
         # The inclusion verdict was recorded but not enforced, so the graph exists despite
         # it. A reader comparing subjects needs to know which condition produced one.
         "inclusion_enforced": bool(strict_scope) and not ignore_scope,
+        "extra_body": extra_body or None,
     }
     with open(os.path.join(sdir, "subject.json"), "w", encoding="utf-8") as f:
         json.dump(data["subject"], f, indent=2, ensure_ascii=False)
@@ -2201,6 +2216,12 @@ def main():
     ap.add_argument("--api-key", default=os.environ.get("BIOGRAPH_API_KEY"))
     ap.add_argument("--max-chars", type=int, default=180_000, help="for --pdf: truncate source text beyond this")
     ap.add_argument("--max-tokens", type=int, default=32_000, help="for --pdf: reply budget per request")
+    ap.add_argument("--extra-body", default=None,
+                     help="JSON merged into the model request, for fields this "
+                          "script does not name itself -- e.g. a provider's "
+                          "reasoning-effort setting. A key set to null REMOVES "
+                          "that field: '{\"temperature\": null}' omits temperature, "
+                          "which every Anthropic model now requires")
     ap.add_argument("--temperature", type=float, default=DEFAULT_TEMPERATURE,
                      help="sampling temperature for the extraction call (default %.1f). "
                           "0 is greedy decoding, which narrows run-to-run spread but is "
@@ -2274,13 +2295,23 @@ def main():
         api_key = args.api_key or getpass.getpass(f"API key for {base_url}: ")
         name = args.name or args.slug.replace("_", " ").title()
         try:
+            # Parsed here rather than inside extract(), so a malformed value fails before
+            # a paid call rather than after one.
+            try:
+                extra_body = json.loads(args.extra_body) if args.extra_body else None
+            except ValueError as e:
+                sys.exit("--extra-body is not valid JSON (%s): %s" % (e, args.extra_body))
+            if extra_body is not None and not isinstance(extra_body, dict):
+                sys.exit("--extra-body must be a JSON object, got %s"
+                         % type(extra_body).__name__)
             extract(source, args.slug, name, model, base_url, api_key, args.max_chars, args.max_tokens,
                     delete_out_of_scope=not args.keep_rejected,
                     related_fields_out=args.related_fields_out,
                     keep_source_pdf=args.keep_source_pdf,
                     strict_scope=args.strict_scope, scope_out=args.scope_out,
                     scope_domain=args.scope_domain, domain=args.domain,
-                    ignore_scope=args.ignore_scope, temperature=args.temperature)
+                    ignore_scope=args.ignore_scope, temperature=args.temperature,
+                    extra_body=extra_body)
         except Exception as e:  # anything not already a deliberate sys.exit() inside extract()
             sys.exit(f"Extraction failed unexpectedly ({type(e).__name__}: {e}) -- the source "
                       f"document may be corrupt, unreadable, or empty.")

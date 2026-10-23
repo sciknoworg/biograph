@@ -35,6 +35,7 @@ Credentials come from the environment and are never put on a command line.
 from __future__ import annotations
 
 import argparse
+import getpass
 import hashlib
 import io
 import json
@@ -122,6 +123,37 @@ DEFAULT_DOCUMENTS = [k for k, v in DOCUMENTS.items() if "text" in v]
 def source_of(spec):
     """(flag, path) for a document -- build_site takes --text or --pdf, not both."""
     return ("--text", spec["text"]) if "text" in spec else ("--pdf", spec["pdf"])
+
+#: Providers this study has been run against, so a repeat names one word instead of
+#: remembering a model id and a URL. --model and --base-url still override.
+#:
+#: The key is never a command-line argument. --api-key-env names an ENVIRONMENT VARIABLE,
+#: and if that variable is unset the runner asks for the key on the terminal through
+#: getpass, which is how build_site.py has always taken it. A key passed as an argument
+#: would sit in the shell history and in any process listing.
+PROVIDERS = {
+    "kisski": {
+        "model": "qwen3.5-397b-a17b",
+        "base_url": "https://chat-ai.academiccloud.de/v1",
+        "api_key_env": "BIOGRAPH_API_KEY",
+        # Qwen accepts a sampling temperature, so the temperature axis is real here.
+        "axis": "temperature",
+    },
+    "openrouter": {
+        "model": "anthropic/claude-sonnet-5-5",
+        "base_url": "https://openrouter.ai/api/v1",
+        "api_key_env": "OPENROUTER_API_KEY",
+        # Anthropic models reject `temperature` outright -- as of 2026-10-21 a Messages
+        # request carrying temperature, top_p or top_k returns 400 on EVERY Anthropic
+        # model, and Sonnet 5 and 5.5 rejected non-default values before that. OpenRouter
+        # proxies to Anthropic, so whether the rejection surfaces or the proxy silently
+        # drops the parameter has to be MEASURED, not assumed -- run one document first.
+        #
+        # The equivalent axis on these models is reasoning effort, which is what actually
+        # governs how much thinking happens and therefore most of the cost.
+        "axis": "effort",
+    },
+}
 
 DATA_FILES = ("entities", "events", "relations", "sources")
 MANIFEST = os.path.join(HERE, "manifest.json")
@@ -250,7 +282,7 @@ def model_slug(model: str) -> str:
     return re.sub(r"[^A-Za-z0-9._-]+", "_", (model or "unknown_model")).strip("_")
 
 
-def run_dir(model: str, temperature: float, doc_key: str) -> str:
+def run_dir(model: str, condition: str, doc_key: str) -> str:
     """Where one condition's runs live: <model>/t<temp>/<document>/.
 
     The manifest remains the record -- it always did, and a folder name is not one. But a
@@ -258,8 +290,7 @@ def run_dir(model: str, temperature: float, doc_key: str) -> str:
     well as by query, and nesting the model and temperature makes `ls` answer the question
     that otherwise needs a script.
     """
-    return os.path.join(HERE, "runs", model_slug(model),
-                        "t%g" % temperature, doc_key)
+    return os.path.join(HERE, "runs", model_slug(model), condition, doc_key)
 
 
 def next_index(manifest: dict, doc_key: str, outdir: str) -> int:
@@ -316,19 +347,33 @@ def main(argv=None) -> int:
                     help="limit to one document; repeatable. Default: both")
     ap.add_argument("--dry-run", action="store_true",
                     help="print what would run, call no model")
-    ap.add_argument("--model", default=os.environ.get("BIOGRAPH_MODEL"),
+    ap.add_argument("--model", default=None,
                     help="extraction model, exactly as the provider names it. Defaults to "
                          "BIOGRAPH_MODEL. Recorded per run in the manifest -- which is the "
                          "whole point: the 2026-09-04 comparison is uncitable because nothing "
                          "on disk says which model produced which output")
-    ap.add_argument("--base-url", default=os.environ.get("BIOGRAPH_BASE_URL"),
+    ap.add_argument("--base-url", default=None,
                     help="OpenAI-compatible endpoint, e.g. https://openrouter.ai/api/v1 or a "
                          "KISSKI URL. Defaults to BIOGRAPH_BASE_URL")
-    ap.add_argument("--api-key-env", default="BIOGRAPH_API_KEY",
+    ap.add_argument("--api-key-env", default=None,
                     help="NAME of the environment variable holding the key for this provider "
                          "(default BIOGRAPH_API_KEY) -- e.g. OPENROUTER_API_KEY. The name, "
                          "never the key: a key on a command line lands in shell history and in "
                          "every log line that echoes the command")
+    ap.add_argument("--provider", choices=sorted(PROVIDERS),
+                    help="a known provider preset: its model, base URL and key variable. "
+                         "--model and --base-url override it. Without one, those come from "
+                         "BIOGRAPH_MODEL and BIOGRAPH_BASE_URL as before")
+    ap.add_argument("--effort", action="append", default=None,
+                    choices=("low", "medium", "high", "xhigh", "max"),
+                    help="reasoning effort, repeatable -- the axis for models that reject "
+                         "a sampling temperature, which is every Anthropic model since "
+                         "2026-10-21. Mutually exclusive with --temperature")
+    ap.add_argument("--effort-field", default="reasoning",
+                    help="the request field carrying reasoning effort, sent as "
+                         "{<field>: {\"effort\": <level>}}. Defaults to the shape "
+                         "OpenRouter documents; Anthropic's own API names it "
+                         "output_config. Confirm with one run before trusting 100")
     ap.add_argument("--max-tokens", type=int, default=64_000,
                     help="reply budget per request. build_site.py's own default is 32,000, "
                          "under which a long document's reply was truncated and arrived as "
@@ -352,6 +397,29 @@ def main(argv=None) -> int:
     #
     # Each temperature is its own condition; summarise.py keys on it and never pools them.
     temps = sorted(set(args.temperature if args.temperature else [0.0, 0.2]))
+    # Reasoning effort is the condition axis for models that reject a sampling
+    # temperature, which is every Anthropic model since 2026-10-21. When --effort is
+    # given, each level is one condition and temperature is dropped from the request
+    # entirely -- sending it would be a 400, and sending it as null is not the same as
+    # omitting it.
+    #
+    # The request field is NOT named here. Anthropic's own API calls it
+    # output_config.effort; a gateway may call it something else, and the extraction core
+    # should not carry one vendor's spelling. --effort-field says which, defaulting to the
+    # shape OpenRouter documents, and one probe confirms it before 100 runs rely on it.
+    efforts = list(dict.fromkeys(args.effort)) if args.effort else []
+    if efforts and args.temperature:
+        raise SystemExit("--effort and --temperature are different condition axes; "
+                         "pass one or the other, not both")
+
+    # One entry per condition: (temperature, extra_body, label). The label is what the
+    # output directory and the manifest use, so two conditions can never share a folder.
+    if efforts:
+        field = args.effort_field
+        conditions = [(None, {"temperature": None, field: {"effort": e}}, "e" + e)
+                      for e in efforts]
+    else:
+        conditions = [(t, None, "t%g" % t) for t in temps]
     # --api-key-env takes the NAME of a variable. Someone passing the key itself would
     # otherwise see it echoed back in the "not set" error -- printed to the terminal and
     # already in the shell history -- turning a typo into a leak. Refuse without ever
@@ -367,9 +435,24 @@ def main(argv=None) -> int:
             "The value passed looks like a credential and has NOT been echoed here. If it "
             "was a real key, treat it as compromised -- it is in your shell history.")
 
-    model = args.model
-    base_url = args.base_url
-    api_key = os.environ.get(args.api_key_env)
+    preset = PROVIDERS.get(args.provider) if args.provider else {}
+    if args.provider and not preset:
+        raise SystemExit("unknown --provider %r; known: %s"
+                         % (args.provider, ", ".join(sorted(PROVIDERS))))
+    # Precedence, most specific first: an explicit flag, then the --provider preset, then
+    # the environment. The environment came last by necessity -- BIOGRAPH_MODEL is set in
+    # the shell that runs the Qwen study, and reading it before the preset made
+    # `--provider openrouter` silently run Qwen against OpenRouter's URL.
+    model = args.model or preset.get("model") or os.environ.get("BIOGRAPH_MODEL")
+    base_url = args.base_url or preset.get("base_url") or os.environ.get("BIOGRAPH_BASE_URL")
+    key_env = args.api_key_env or preset.get("api_key_env") or "BIOGRAPH_API_KEY"
+    api_key = os.environ.get(key_env)
+    if not api_key and not args.dry_run:
+        # Asked for on the terminal, never taken as an argument: an argument lands in the
+        # shell history and in every process listing on the machine. getpass does not echo.
+        api_key = getpass.getpass("API key for %s (not echoed): " % (base_url or "?"))
+        if not api_key.strip():
+            raise SystemExit("no key given -- set $%s or type it when asked" % key_env)
 
     for k in keys:
         _flag, rel = source_of(DOCUMENTS[k])
@@ -380,11 +463,15 @@ def main(argv=None) -> int:
     print("model    : %s" % (model or "(BIOGRAPH_MODEL not set)"))
     print("provider : %s" % ((base_url or "").split("//")[-1].split("/")[0] or "(unset)"))
     print("documents: %s" % ", ".join(keys))
-    print("runs each: %d per temperature" % args.runs)
-    print("temps    : %s" % ", ".join("%g" % t for t in temps))
+    print("runs each: %d per condition" % args.runs)
+    print("axis     : %s" % ("effort " + ", ".join(efforts) if efforts
+                             else "temperature " + ", ".join("%g" % t for t in temps)))
+    if efforts:
+        print("         : sent as %s, temperature omitted" % args.effort_field)
     print("budget   : --max-tokens %d" % args.max_tokens)
-    print("total    : %d runs (%d documents x %d temperatures x %d runs)"
-          % (len(keys) * len(temps) * args.runs, len(keys), len(temps), args.runs))
+    print("total    : %d runs (%d documents x %d conditions x %d runs)"
+          % (len(keys) * len(conditions) * args.runs, len(keys),
+             len(conditions), args.runs))
     for k in keys:
         spec = DOCUMENTS[k]
         _flag, rel = source_of(spec)
@@ -397,7 +484,7 @@ def main(argv=None) -> int:
         return 0
     if not (model and base_url and api_key):
         missing = [n for n, v in (("--model", model), ("--base-url", base_url),
-                                  ("a key in $" + args.api_key_env, api_key)) if not v]
+                                  ("a key in $" + key_env, api_key)) if not v]
         raise SystemExit("missing: " + ", ".join(missing))
 
     # The pid is in the name because two invocations are meant to run at once -- one per
@@ -412,11 +499,12 @@ def main(argv=None) -> int:
         print("  WARNING: uncommitted changes in core files: %s" % ", ".join(sb.dirty))
 
     try:
-        for temperature in temps:
+        for condition in conditions:
           for k in keys:
+              temperature, extra_body, cond_label = condition
               spec = DOCUMENTS[k]
               source_flag, source_rel = source_of(spec)
-              outdir = run_dir(model, temperature, k)
+              outdir = run_dir(model, cond_label, k)
               os.makedirs(outdir, exist_ok=True)
               consecutive_timeouts = 0
               for _ in range(args.runs):
@@ -438,6 +526,10 @@ def main(argv=None) -> int:
                          "--temperature", str(temperature),
                        "--max-tokens", str(args.max_tokens),
                          "--model", model, "--base-url", base_url]
+                  if temperature is not None:
+                      cmd += ["--temperature", str(temperature)]
+                  if extra_body:
+                      cmd += ["--extra-body", json.dumps(extra_body, sort_keys=True)]
                   env = dict(os.environ, BIOGRAPH_API_KEY=api_key)
                   # A model too slow to finish inside --timeout is a RESULT about that model,
                   # not a reason to abandon the other four. qwen3.8-27b hit 2400s on its first
@@ -492,8 +584,10 @@ def main(argv=None) -> int:
                       # The whole point of this file: the mapping, written before the next run.
                       "model": model,
                       "base_url": base_url,
-                      "api_key_env": args.api_key_env,
+                      "api_key_env": key_env,
                       "temperature": temperature,
+                      "condition": cond_label,
+                      "extra_body": extra_body,
                     "max_tokens": args.max_tokens,
                     "domain": spec.get("domain"),
                     "length_class": spec.get("length"),
