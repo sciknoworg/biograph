@@ -2,13 +2,25 @@ manifest.json.lock
 
 # Per-run extraction output stays on disk and out of the repository. manifest.json
 # beside this file is the durable evidence: it carries each run's model, temperature,
-# rules fingerprint, counts and grounding stats, which is where every figure the paper
-# cites came from.
+# rules fingerprint, token budget, domain, length class, counts and grounding stats,
+# which is where every figure the paper cites came from.
 #
 # The tradeoff, stated so nobody discovers it later: summarise.py also opens the run
-# folders, for the cross-draw entity-overlap figure ("found by all five", load_run at
-# line 138). That part of the summary works on a machine that has the folders and not
-# on a fresh clone -- re-run run_variability.py to regenerate them. Everything derived
-# from the manifest alone, which is the headline governance and variance result, needs
-# nothing but this directory.
+# folders, for the cross-run entity-overlap figure ("found in all five", load_run).
+# That part of the summary works on a machine that has the folders and not on a fresh
+# clone -- re-run run_variability.py to regenerate them. Everything derived from the
+# manifest alone, which is the headline governance and variance result, needs nothing
+# but this directory.
+#
+# Two patterns, because the layout changed. Output now nests by model and temperature
+# (runs/<model>/t<temp>/<document>/run_NN) so a study repeated with another model stays
+# separable by eye; the old flat layout was <document>/run_NN. The old pattern alone
+# did not match the new depth, which would have put 100 extraction folders into a
+# commit.
+runs/**/run_*/
 */run_*/
+
+# The archived study moved its run folders one level deeper, so they need the same
+# treatment: 2.1 MB of per-run extraction output that was never in a commit and must
+# not enter one now. The archived manifest IS tracked -- it is the record.
+archive-*/**/run_*/

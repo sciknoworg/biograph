@@ -154,8 +154,16 @@ def load_manifest() -> dict:
     if os.path.isfile(MANIFEST):
         with io.open(MANIFEST, encoding="utf-8") as f:
             return json.load(f)
-    return {"study": "run-to-run variability of one extraction model",
-            "documents": {k: v["citation"] for k, v in DOCUMENTS.items()},
+    # A fresh manifest. `citation` is present only on the two founding PDFs, so it is read
+    # with .get() -- the ten corpus documents are identified by domain and length class
+    # instead, which is what this design varies and what the summary groups on.
+    return {"study": "run-to-run convergence of one extraction model, held constant",
+            "documents": {k: {"name": v.get("name"),
+                              "domain": v.get("domain"),
+                              "length": v.get("length"),
+                              "source": v.get("text") or v.get("pdf"),
+                              "citation": v.get("citation")}
+                          for k, v in DOCUMENTS.items()},
             "runs": []}
 
 
