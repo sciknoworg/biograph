@@ -334,13 +334,16 @@ def main(argv=None) -> int:
     args = ap.parse_args(argv)
 
     keys = args.document or list(DEFAULT_DOCUMENTS)
-    # --temperature is repeatable; the default pair brackets the sampling question. 0.0 is
-    # greedy decoding, which is NOT determinism here -- the served model is a
-    # mixture-of-experts whose routing depends on request batching -- and 0.5 is well above
-    # the pipeline's own 0.2, so the two bound the range rather than sampling near one
-    # point. Each is its own condition; summarise.py keys on temperature and never pools
-    # them.
-    temps = sorted(set(args.temperature if args.temperature else [0.0, 0.5]))
+    # --temperature is repeatable. The default pair is 0.0 and 0.2: greedy decoding against
+    # the setting the pipeline actually ships with, so the comparison answers a question
+    # about this system rather than about a temperature sweep.
+    #
+    # 0.0 is NOT determinism here. The served model is a mixture-of-experts whose routing
+    # depends on request batching, so greedy decoding still varies between runs -- which is
+    # the point of running it five times rather than once.
+    #
+    # Each temperature is its own condition; summarise.py keys on it and never pools them.
+    temps = sorted(set(args.temperature if args.temperature else [0.0, 0.2]))
     # --api-key-env takes the NAME of a variable. Someone passing the key itself would
     # otherwise see it echoed back in the "not set" error -- printed to the terminal and
     # already in the shell history -- turning a typo into a leak. Refuse without ever
