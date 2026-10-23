@@ -519,12 +519,31 @@ def _is_permanent_llm_error(e):
     than giving up on a paper over what might just be a momentary server hiccup. Recognizing
     specific openai SDK exception types is best-effort -- an SDK version where these names don't
     exist just means everything is treated as retryable, which is the safer failure mode anyway."""
+    # A TypeError never comes from the network. It means this code called the client
+    # wrongly -- most often an unrecognised keyword argument, raised before any request is
+    # made. Nine retries over 392 seconds were spent on exactly that
+    # (`Completions.create() got an unexpected keyword argument 'reasoning'`) while the
+    # answer could not change. Programming errors fail once.
+    if isinstance(e, TypeError):
+        return True
     try:
         import openai
         return isinstance(e, (openai.AuthenticationError, openai.PermissionDeniedError,
                                openai.NotFoundError, openai.BadRequestError))
     except (ImportError, AttributeError):
         return False
+
+
+#: Fields the OpenAI chat-completions client accepts as keyword arguments. Anything else
+#: a caller supplies through --extra-body is forwarded inside the client's own
+#: `extra_body`, which reaches the provider verbatim. Passing an unrecognised name as a
+#: keyword argument raises TypeError before the request leaves the process.
+OPENAI_NATIVE_FIELDS = frozenset({
+    "model", "messages", "temperature", "top_p", "max_tokens", "max_completion_tokens",
+    "n", "stop", "seed", "stream", "response_format", "frequency_penalty",
+    "presence_penalty", "logprobs", "top_logprobs", "logit_bias", "user", "tools",
+    "tool_choice", "parallel_tool_calls", "extra_body", "extra_headers",
+})
 
 
 def call_llm(system, user, model, base_url, api_key, max_tokens, max_continuations=8,
@@ -588,8 +607,15 @@ def call_llm(system, user, model, base_url, api_key, max_tokens, max_continuatio
         # Provider-specific request fields, supplied verbatim by the caller. A generic
         # merge rather than a named option per feature, because the field that controls
         # reasoning depth is named differently by every provider -- `output_config.effort`
-        # on Anthropic's own API, something else through a gateway -- and hard-coding one
+        # on Anthropic's own API, `reasoning` through OpenRouter -- and hard-coding one
         # vendor's spelling into the extraction core would date it.
+        #
+        # The split matters. A field the OpenAI client knows is a keyword argument; one it
+        # does not must go inside its `extra_body`, which it forwards to the provider
+        # untouched. Passing an unknown field as a keyword argument raises TypeError
+        # BEFORE any request is made -- `Completions.create() got an unexpected keyword
+        # argument 'reasoning'` -- which is a client-side mistake that looks exactly like a
+        # provider rejecting the field.
         #
         # `"temperature": null` REMOVES temperature instead of sending null. Every
         # Anthropic model rejects the parameter outright as of 2026-10-21, so a study that
@@ -597,8 +623,12 @@ def call_llm(system, user, model, base_url, api_key, max_tokens, max_continuatio
         for key, value in (extra_body or {}).items():
             if value is None:
                 kwargs.pop(key, None)
-            else:
+                if isinstance(kwargs.get("extra_body"), dict):
+                    kwargs["extra_body"].pop(key, None)
+            elif key in OPENAI_NATIVE_FIELDS:
                 kwargs[key] = value
+            else:
+                kwargs.setdefault("extra_body", {})[key] = value
 
         if not stream:
             # No stall-watchdog here -- that's the whole reason streaming is preferred. Used only
