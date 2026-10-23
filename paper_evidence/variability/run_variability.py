@@ -140,7 +140,9 @@ PROVIDERS = {
         "axis": "temperature",
     },
     "openrouter": {
-        "model": "anthropic/claude-sonnet-5-5",
+        # OpenRouter uses its OWN model naming, with a dot: anthropic/claude-fable-5.1,
+        # not Anthropic's own claude-fable-5-1. A dashed id 404s here.
+        "model": "anthropic/claude-sonnet-5.5",
         "base_url": "https://openrouter.ai/api/v1",
         "api_key_env": "OPENROUTER_API_KEY",
         # Anthropic models reject `temperature` outright -- as of 2026-10-21 a Messages
