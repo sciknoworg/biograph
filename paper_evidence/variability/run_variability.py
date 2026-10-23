@@ -426,6 +426,15 @@ def main(argv=None) -> int:
                          source_flag, os.path.join(REPO_ROOT, source_rel),
                          "--name", spec["name"],
                          "--keep-rejected",              # never delete the source PDF
+                         # The inclusion verdict is RECORDED BUT NOT ENFORCED, as in every
+                         # benchmark run. Without this, a refusal produces no graph at all
+                         # -- and the verdict is not stable: on d'Alembert's 3,566-character
+                         # abstract it refused 3 of the first 5 runs on identical input, so
+                         # 60% of that document's runs measured admission rather than
+                         # extraction. Convergence cannot be measured through a gate that
+                         # opens intermittently. The verdict still lands in the run's
+                         # output, and how often it flips is a result in its own right.
+                         "--ignore-scope",
                          "--temperature", str(temperature),
                        "--max-tokens", str(args.max_tokens),
                          "--model", model, "--base-url", base_url]
@@ -489,6 +498,7 @@ def main(argv=None) -> int:
                     "domain": spec.get("domain"),
                     "length_class": spec.get("length"),
                       "strict_scope": False,
+                      "inclusion_enforced": False,
                       "commit": sb.commit,
                       "rules_sha": prompt_sha,
                       "core_sha256": sb.hashes,
