@@ -523,8 +523,7 @@ def main(argv=None) -> int:
                          # opens intermittently. The verdict still lands in the run's
                          # output, and how often it flips is a result in its own right.
                          "--ignore-scope",
-                         "--temperature", str(temperature),
-                       "--max-tokens", str(args.max_tokens),
+                         "--max-tokens", str(args.max_tokens),
                          "--model", model, "--base-url", base_url]
                   if temperature is not None:
                       cmd += ["--temperature", str(temperature)]
@@ -631,7 +630,7 @@ def main(argv=None) -> int:
 
                   q = ("%d/%d" % (g.quotes_verbatim, g.quotes_checked)) if g else "n/a"
                   print("  %-16s run %02d  %4.0fs  exit %-3d %s  quotes %s"
-                        % ("%s t%g" % (k, temperature), idx, wall, proc.returncode,
+                        % ("%s %s" % (k, cond_label), idx, wall, proc.returncode,
                            "TIMED OUT" if timed_out else ("EMPTY" if not any(counts.get(x) for x in DATA_FILES) else ("ok " if ddir else "NO OUTPUT")),
                            q))
 
