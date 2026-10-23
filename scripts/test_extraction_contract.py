@@ -1,7 +1,9 @@
 """Offline regression checks: python -B -m unittest scripts.test_extraction_contract."""
 import copy
+import inspect
 import io
 import json
+import shutil
 import unittest
 from contextlib import redirect_stdout
 from pathlib import Path
@@ -130,6 +132,67 @@ class ExtractionContractTests(unittest.TestCase):
             parsed = json.loads(reply)
             self.assertTrue(bs._is_scope_reply(parsed), reply)
             self.assertIsNotNone(bs.parse_scope(parsed), reply)
+
+    def test_subject_json_records_what_produced_it(self):
+        """The extraction model is stamped into subject.json, and survives a rebuild.
+
+        For a corpus of 233 subjects the only evidence of the extraction model was that an
+        environment variable had been set to the same value throughout -- corroborated by
+        run reports and probe logs, proved by no per-subject record. Two of those subjects
+        were not produced by a model at all: they predate the automated path, and nothing
+        in their files says so either.
+
+        Two behaviours are load-bearing and neither is obvious from reading extract():
+
+        1. A later domain update rewrites subject.json. It must not drop the stamp -- it
+           loads the record and writes it back, so unknown keys have to survive.
+        2. A rebuild from the data files CANNOT know the model, and must say so. An absent
+           key would be indistinguishable from a subject extracted before the stamp
+           existed.
+        """
+        import tempfile
+
+        src = inspect.getsource(bs.extract)
+        self.assertIn('data["subject"]["extraction"]', src,
+                      "extract() must stamp the model into subject.json")
+        for field in ("model", "base_url", "extracted_at", "inclusion_enforced"):
+            self.assertIn('"%s"' % field, src, "the stamp should record %s" % field)
+        # subject.json is NOT schema-validated, so the addition cannot fail validation.
+        # If a subject schema is ever added, this test should start failing loudly.
+        self.assertFalse(
+            (Path(bs.SCHEMA_DIR) / "subject.schema.json").exists(),
+            "a subject schema now exists -- check that `extraction` does not violate it")
+
+        tmp = tempfile.mkdtemp(prefix="stamp-")
+        try:
+            # (1) an unknown key survives the domain-update rewrite
+            sub = Path(tmp) / "subject.json"
+            stamp = {"model": "qwen3.5-397b-a17b", "base_url": "https://example/v1"}
+            sub.write_text(json.dumps(
+                {"slug": "x", "name": "X", "domains": ["physics"], "extraction": stamp}),
+                encoding="utf-8")
+            with patch.object(bs, "subject_dir_for", return_value=tmp):
+                got = bs.ensure_subject_json(
+                    "x", lambda p: json.loads(Path(p).read_text(encoding="utf-8")),
+                    domain="chemistry")
+            self.assertEqual(got["extraction"], stamp,
+                             "a domain update must not drop the extraction stamp")
+            self.assertIn("chemistry", got["domains"])
+            on_disk = json.loads(sub.read_text(encoding="utf-8"))
+            self.assertEqual(on_disk["extraction"], stamp,
+                             "and the stamp must survive on disk, not just in memory")
+        finally:
+            shutil.rmtree(tmp, ignore_errors=True)
+
+    def test_a_rebuilt_subject_says_its_model_is_unknown(self):
+        """Rebuilding from the data files records that the model cannot be recovered."""
+        src = inspect.getsource(bs.ensure_subject_json)
+        self.assertIn('subject["extraction"]', src,
+                      "a rebuilt subject.json must carry an extraction block")
+        self.assertIn("cannot be recovered", src,
+                      "and it must say the model is unrecoverable, not just omit it")
+        self.assertIn('"model": None', src,
+                      "model should be explicitly null rather than absent")
 
     def test_date_policy_is_embedded_and_event_display_is_required(self):
         schemas = bs.extraction_schemas()

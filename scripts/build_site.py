@@ -925,6 +925,16 @@ def ensure_subject_json(slug, load, domain=None, domains=None):
     chosen = subject_entity(slug, entities, events, relations)
     os.makedirs(os.path.dirname(path), exist_ok=True)
     subject = {"slug": slug, "name": chosen.get("name") or slug.replace("_", " ").title()}
+    # Rebuilt from the data files, which carry no record of what produced them. Say that
+    # outright: an absent `extraction` key would be indistinguishable from a subject
+    # extracted before the stamp existed, and a reader comparing provenance across the
+    # corpus needs those two cases apart.
+    subject["extraction"] = {
+        "model": None,
+        "note": "subject.json was missing and was rebuilt from the data files; the model "
+                "that produced them is not recorded anywhere and cannot be recovered here",
+        "rebuilt_at": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
+    }
     tag = domain_dir_name(domain) if domain else None
     if tag:
         subject["domains"] = [tag]
@@ -1715,6 +1725,30 @@ def extract(pdf_path, slug, name, model, base_url, api_key, max_chars, max_token
         if tag not in listed:
             listed.append(tag)
         data["subject"]["domains"] = listed
+    # Which model produced this, recorded with it. Nothing did before, and the gap had
+    # teeth: for a corpus of 233 subjects the only evidence of the extraction model was
+    # that an environment variable had been set to the same value throughout, corroborated
+    # by run reports and probe logs but proved by no per-subject record. The two founding
+    # subjects were not produced by a model at all -- they predate the automated path --
+    # and nothing in their files says so either.
+    #
+    # `extraction` describes how the file was made, not who the person is, so it is kept
+    # under its own key rather than mixed in beside `name` and `summary`. subject.json is
+    # not schema-validated (only the four data files are), so the addition cannot fail
+    # validation, and readers that ignore unknown keys are unaffected.
+    #
+    # Re-extracting a subject OVERWRITES this, which is correct: it describes the output
+    # that is actually on disk. The previous value is in git history.
+    data["subject"]["extraction"] = {
+        "model": model,
+        "base_url": base_url,
+        "extracted_at": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
+        "max_tokens": max_tokens,
+        "temperature": temperature,
+        # The inclusion verdict was recorded but not enforced, so the graph exists despite
+        # it. A reader comparing subjects needs to know which condition produced one.
+        "inclusion_enforced": bool(strict_scope) and not ignore_scope,
+    }
     with open(os.path.join(sdir, "subject.json"), "w", encoding="utf-8") as f:
         json.dump(data["subject"], f, indent=2, ensure_ascii=False)
         f.write("\n")
