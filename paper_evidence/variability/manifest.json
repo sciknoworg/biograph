@@ -3636,6 +3636,58 @@
       "output": null
     },
     {
+      "run": 13,
+      "document": "helmert",
+      "slug": "helmert_var_13",
+      "model": "anthropic/claude-fable-5.1",
+      "base_url": "https://openrouter.ai/api/v1",
+      "api_key_env": "OPENROUTER_API_KEY",
+      "temperature": null,
+      "condition": "ehigh",
+      "extra_body": {
+        "temperature": null,
+        "reasoning": {
+          "effort": "high"
+        }
+      },
+      "max_tokens": 128000,
+      "domain": "physics",
+      "length_class": "long",
+      "strict_scope": false,
+      "inclusion_enforced": false,
+      "commit": "65a396a4aa012613055dcf74ecd271e356c148ff",
+      "rules_sha": "ff1fdedd24",
+      "core_sha256": {
+        "scripts/build_site.py": "19d20b021cb1def88aa9f7bd4bb2a50829f189b95deda6ae2676991e32171f63",
+        "schema/date.schema.json": "8073e8da8bb20ae4330aaa3f798af30f06bfe0c5361303ae910b58bccda41019",
+        "schema/entity.schema.json": "ed2220532d11a96ea0bf0ad184c97de8abe45c8b8feed9f4aca0fa86f1319df0",
+        "schema/event.schema.json": "f5878f1804891e13ee9b697126a52cbb76be58fba799ebca78cea3d3adb46247",
+        "schema/relation.schema.json": "2c8941751ae907bc865f4869c6f9de8ec245c9950261c992a97c86319397d127",
+        "schema/source.schema.json": "761b2cdd818deea6eb9450e90db46a1880c1c63f7291bbf956de4a68262f51b2",
+        "frontend/template.html": "f57afe3420709db9e4bb2e13bbd2c20980c23f0834016307e7e25edd95955681",
+        "frontend/world-countries.geo.json": "02caedf9a1e0255deedc985942ccb0b8df102f21c9c551c332e8eda0a18fbcd9"
+      },
+      "started_at": "2026-10-24T19:00:43",
+      "wall_seconds": 3353.9,
+      "exit_code": 0,
+      "timed_out": false,
+      "empty": false,
+      "validated": true,
+      "counts": {
+        "entities": 186,
+        "events": 122,
+        "relations": 105,
+        "sources": 1
+      },
+      "grounding": {
+        "quotes_verbatim": 273,
+        "quotes_checked": 279,
+        "entities_present": 186,
+        "entities_checked": 186
+      },
+      "output": "paper_evidence/variability/runs/anthropic_claude-fable-5.1/ehigh/helmert/run_13"
+    },
+    {
       "run": 1,
       "document": "hooke",
       "slug": "hooke_var_01",
