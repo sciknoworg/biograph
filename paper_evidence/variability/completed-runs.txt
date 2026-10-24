@@ -1,0 +1,161 @@
+Variability study -- all runs, generated 2026-10-24T18:03:33 from manifest.json
+empty = OpenRouter 403 (member budget ceiling, 2026-10-23/24) or an empty graph; timeout = wall-clock bound hit.
+
+model  cond  document     run  exit    wall   maxtok   ents  evts  rels quotes
+fable  ehigh bellman        4     1      3s    64000      0     0     0  EMPTY
+fable  ehigh bellman        5     1      3s    64000      0     0     0  EMPTY
+fable  ehigh bellman        6     1      3s    64000      0     0     0  EMPTY
+fable  ehigh bellman       10     0    169s    64000     40    27    25 52/57 
+fable  ehigh bellman       11     0    199s    64000     40    26    26 106/106 
+fable  ehigh bellman       12     0    189s    64000     40    26    27 64/64 
+fable  ehigh dalembert      9     1      2s    64000      0     0     0  EMPTY
+fable  ehigh dalembert     10     1      2s    64000      0     0     0  EMPTY
+fable  ehigh dalembert     11     1      2s    64000      0     0     0  EMPTY
+fable  ehigh dalembert     15     0    100s    64000     14    11     5 21/21 
+fable  ehigh dalembert     16     0    106s    64000     12    11     6 26/26 
+fable  ehigh dalembert     17     0     88s    64000     13    11     5 18/18 
+fable  ehigh djerassi       4     0    387s    64000     92    24    62 99/99 
+fable  ehigh djerassi       5     1      3s    64000      0     0     0  EMPTY
+fable  ehigh djerassi       6     1      3s    64000      0     0     0  EMPTY
+fable  ehigh djerassi      10     0    559s   128000    122    34    62 119/148 
+fable  ehigh djerassi      11     0    463s   128000    113    29    69 113/113 
+fable  ehigh g_borelli      4     1    616s    64000      0     0     0  EMPTY
+fable  ehigh g_borelli      5     1      3s    64000      0     0     0  EMPTY
+fable  ehigh g_borelli      6     1      3s    64000      0     0     0  EMPTY
+fable  ehigh g_borelli     10     0   2278s   128000    107    68    78 181/194 
+fable  ehigh g_borelli     11     0    645s   128000    105    68    72 174/188 
+fable  ehigh g_borelli     12     0    711s   128000    108   116    71 189/243 
+fable  ehigh galton         3     0    465s    64000     73    38    41 107/110 
+fable  ehigh galton         4     1      3s    64000      0     0     0  EMPTY
+fable  ehigh galton         5     1      3s    64000      0     0     0  EMPTY
+fable  ehigh galton        10     0    449s   128000     76    37    53 111/112 
+fable  ehigh galton        11     0    582s   128000     88    46    50 175/177 
+fable  ehigh helmert        9     0   1252s   128000    152   118    83 288/288 
+fable  ehigh helmert       10     0   3387s   128000    192   130    97 355/356 
+fable  ehigh helmert       11    -1   5400s   128000      0     0     0  TIMEOUT
+fable  ehigh helmert       12    -1  10800s   128000      0     0     0  TIMEOUT
+fable  ehigh hooke          2     1    624s    64000      0     0     0  EMPTY
+fable  ehigh hooke          4     1      3s    64000      0     0     0  EMPTY
+fable  ehigh hooke          5     1      3s    64000      0     0     0  EMPTY
+fable  ehigh hooke         11     0    706s   128000    110    67    68 166/172 
+fable  ehigh hooke         12     0    612s   128000    105    67    59 151/159 
+fable  ehigh hooke         13     0    587s   128000     93    64    53 144/144 
+fable  ehigh ito_2          1     0    125s    64000     23     6    19 52/52 
+fable  ehigh ito_2          2     0    112s    64000     26     6    19 49/49 
+fable  ehigh ito_2          3     0    130s    64000     28     6    21 50/50 
+fable  ehigh pacini         4     1      3s    64000      0     0     0  EMPTY
+fable  ehigh pacini         5     1      2s    64000      0     0     0  EMPTY
+fable  ehigh pacini         6     1      3s    64000      0     0     0  EMPTY
+fable  ehigh pacini         7     0     94s    64000     15    10    10 23/23 
+fable  ehigh pacini         8     0     95s    64000     18    10    10 17/22 
+fable  ehigh pacini         9     0    116s    64000     18    10    11 22/22 
+fable  ehigh vigneaud       4     1      2s    64000      0     0     0  EMPTY
+fable  ehigh vigneaud       5     1      2s    64000      0     0     0  EMPTY
+fable  ehigh vigneaud       6     1      2s    64000      0     0     0  EMPTY
+fable  ehigh vigneaud       7     0    238s    64000     33    19    28 84/84 
+fable  ehigh vigneaud       8     0    198s    64000     34    22    28 70/70 
+fable  ehigh vigneaud       9     0    209s    64000     34    19    30 82/82 
+fable  elow  bellman        1     1      3s    64000      0     0     0  EMPTY
+fable  elow  bellman        2     1      3s    64000      0     0     0  EMPTY
+fable  elow  bellman        3     1      3s    64000      0     0     0  EMPTY
+fable  elow  bellman        7     0    132s    64000     39    22    24 70/70 
+fable  elow  bellman        8     0    128s    64000     39    25    25 53/53 
+fable  elow  bellman        9     0    141s    64000     36    25    24 56/56 
+fable  elow  dalembert      6     0     59s    64000     13    11     4 15/15 
+fable  elow  dalembert      7     1      3s    64000      0     0     0  EMPTY
+fable  elow  dalembert      8     1      3s    64000      0     0     0  EMPTY
+fable  elow  dalembert     13     0     58s    64000     12    10     5 15/15 
+fable  elow  dalembert     14     0     55s    64000     14    11     4 15/15 
+fable  elow  djerassi       1     0    140s    64000     41     8    29 42/42 
+fable  elow  djerassi       2     0    180s    64000     55    12    34 53/56 
+fable  elow  djerassi       3     0    107s    64000     36     5    24 48/55 
+fable  elow  g_borelli      1     0    359s    64000     61    62    48 137/137 
+fable  elow  g_borelli      2     0    348s    64000    101    52    51 134/157 
+fable  elow  g_borelli      3     0    392s    64000     72    62    57 170/170 
+fable  elow  galton         1     0    290s    64000     62    36    38 119/121 
+fable  elow  galton         2     0    312s    64000     78    38    40 86/87 
+fable  elow  galton         6     0    315s    64000     80    40    46 100/100 
+fable  elow  helmert        2     0    711s    64000    141   102    79 307/309 
+fable  elow  helmert        3     0    526s    64000    147    92    76 189/191 
+fable  elow  helmert        4     1    583s    64000      0     0     0  EMPTY
+fable  elow  helmert        5     0    634s    64000    157   124    81 260/345 
+fable  elow  hooke          1     0    296s    64000     60    45    40 117/118 
+fable  elow  hooke          3     0    300s    64000     67    48    44 117/119 
+fable  elow  hooke          6     0    246s    64000     65    50    37 98/100 
+fable  elow  ito_2          4     1      2s    64000      0     0     0  EMPTY
+fable  elow  ito_2          5     1      2s    64000      0     0     0  EMPTY
+fable  elow  ito_2          6     1      2s    64000      0     0     0  EMPTY
+fable  elow  ito_2          7     0     77s    64000     21     6    18 39/39 
+fable  elow  ito_2          8     0     80s    64000     22     6    20 47/47 
+fable  elow  ito_2          9     0     82s    64000     22     6    17 40/40 
+fable  elow  pacini         1     0     72s    64000     15    10     9 15/20 
+fable  elow  pacini         2     0     80s    64000     16    10    12 19/24 
+fable  elow  pacini         3     0     82s    64000     15    10    10 22/27 
+fable  elow  vigneaud       1     0    144s    64000     33    19    28 68/68 
+fable  elow  vigneaud       2     0    138s    64000     31    18    26 59/59 
+fable  elow  vigneaud       3     0    121s    64000     32    17    26 46/46 
+qwen   t0    bellman       13     0    125s    64000     36    24    23 42/47 
+qwen   t0    bellman       14     0    881s    64000     36    24    22 42/46 
+qwen   t0    bellman       15     0    514s    64000     37    23    21 39/44 
+qwen   t0    dalembert      2     0   1216s    64000     11     8     8 16/16 
+qwen   t0    dalembert      3     0   2352s    64000      9     8     8 16/16 
+qwen   t0    dalembert     12     0   1196s    64000     10     8     9 17/17 
+qwen   t0    djerassi       7     0   1194s    64000     29     9    19 29/29 
+qwen   t0    djerassi       8     0    103s    64000     23     5    17 23/23 
+qwen   t0    djerassi       9     0   1345s    64000     34     5    27 32/32 
+qwen   t0    g_borelli      7     0   1967s    64000     98    25    75 37/100 
+qwen   t0    g_borelli      8     0    514s    64000     39    14    16 26/33 
+qwen   t0    g_borelli      9     0   1423s    64000     44    16    15 21/31 
+qwen   t0    galton         7     0   5387s    64000     53    22    14 36/36 
+qwen   t0    galton         8     0   1302s    64000     61    23    14 37/37 
+qwen   t0    galton         9     0    141s    64000     63    20    11 31/31 
+qwen   t0    helmert        6     0    130s    64000     31    20    16 35/36 
+qwen   t0    helmert        7     0    179s    64000     42    19    18 37/38 
+qwen   t0    helmert        8     0    165s    64000     79    22    18 39/40 
+qwen   t0    hooke          7     0   2869s    64000     45    24    13 36/40 
+qwen   t0    hooke          8     0   5340s    64000      0     0     0  EMPTY
+qwen   t0    hooke          9     0    111s    64000     21    13     8 20/21 
+qwen   t0    hooke         10     0    984s    64000     34    20    17 34/37 
+qwen   t0    ito_2         10     0     96s    64000     21     5    18 23/23 
+qwen   t0    ito_2         11     0    852s    64000     23     5    20 1/25 
+qwen   t0    ito_2         12     0   3179s    64000     23     6    18 1/25 
+qwen   t0    pacini        10     0    956s    64000     21    13    13 26/26 
+qwen   t0    pacini        11     0   1696s    64000     16    13    10 23/23 
+qwen   t0    pacini        12     0    117s    64000     21    14    11 25/25 
+qwen   t0    vigneaud      10     0   1244s    64000     38    21    22 41/43 
+qwen   t0    vigneaud      11     0   4001s    64000     39    22    20 40/42 
+qwen   t0    vigneaud      12     0    134s    64000     36    20    24 42/44 
+
+rows 123 | completed 89 | empty 34 | timed out 2
+
+completed runs per cell (design target 3):
+  fable  ehigh bellman     3
+  fable  ehigh dalembert   3
+  fable  ehigh djerassi    3
+  fable  ehigh g_borelli   3
+  fable  ehigh galton      3
+  fable  ehigh helmert     2
+  fable  ehigh hooke       3
+  fable  ehigh ito_2       3
+  fable  ehigh pacini      3
+  fable  ehigh vigneaud    3
+  fable  elow  bellman     3
+  fable  elow  dalembert   3
+  fable  elow  djerassi    3
+  fable  elow  g_borelli   3
+  fable  elow  galton      3
+  fable  elow  helmert     3
+  fable  elow  hooke       3
+  fable  elow  ito_2       3
+  fable  elow  pacini      3
+  fable  elow  vigneaud    3
+  qwen   t0    bellman     3
+  qwen   t0    dalembert   3
+  qwen   t0    djerassi    3
+  qwen   t0    g_borelli   3
+  qwen   t0    galton      3
+  qwen   t0    helmert     3
+  qwen   t0    hooke       3
+  qwen   t0    ito_2       3
+  qwen   t0    pacini      3
+  qwen   t0    vigneaud    3
