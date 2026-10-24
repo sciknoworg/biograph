@@ -279,7 +279,7 @@
     const deg = degree.get(e.id) || 0;
     const hasPortrait = !!e.portrait;
     const r = hasPortrait ? 19 : 7 + Math.min(14, deg*1.6);
-    return Object.assign({}, e, {r, deg, hasPortrait, hub: deg >= 2 || hasPortrait});
+    return Object.assign({}, e, {r, deg, hasPortrait, hub: deg >= 2 || hasPortrait || entities.length <= 60});
   });
   const nodeById = new Map(nodes.map(n => [n.id, n]));
 
