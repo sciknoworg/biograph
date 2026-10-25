@@ -35,6 +35,7 @@ import itertools
 import json
 import os
 import statistics
+import collections
 from collections import Counter
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -261,6 +262,46 @@ def integrity(manifest) -> list[str]:
                "below -- their grounding and wall time were never recorded)" % len(orphans))
     for m_, c, d, i in orphans:
         out.append("  !! %s %s run_%02d has entities.json but no row" % (c, d, i))
+
+    # 4. a condition must be ONE setting. The whole point of a condition is that its draws
+    # differ only by sampling, so any request field that varies inside one is a confound
+    # dressed as a result -- and this study has one: 2 of the 30 high-effort runs were made
+    # at max_tokens 64000 and the other 28 at 128000, because the cap was raised mid-study
+    # once the long documents were seen to be hitting it. On a short document the two are
+    # indistinguishable (nothing it can produce approaches either cap), so the confound is
+    # confined to the long documents, where the cap decides whether the reply is truncated
+    # and continued. Reported here rather than silently averaged over.
+    SETTING = ("model", "base_url", "max_tokens", "temperature", "rules_sha",
+               "strict_scope", "inclusion_enforced")
+    out.append("")
+    for cond in sorted({r["condition"] for r in manifest["runs"] if r.get("validated")}):
+        runs = [r for r in manifest["runs"] if r.get("validated") and r["condition"] == cond]
+        for field in SETTING + ("effort",):
+            if field == "effort":
+                vals = [((r.get("extra_body") or {}).get("reasoning") or {}).get("effort")
+                        for r in runs]
+            else:
+                vals = [r.get(field) for r in runs]
+            spread = {}
+            for v, r in zip(vals, runs):
+                spread.setdefault(json.dumps(v, sort_keys=True), []).append(r)
+            if len(spread) > 1:
+                out.append("  !! condition %s is not one setting: %s varies" % (cond, field))
+                for v, rs in sorted(spread.items(), key=lambda kv: -len(kv[1])):
+                    byl = collections.Counter(r["length_class"] for r in rs)
+                    out.append("       %s = %s on %d run(s) (%s)%s"
+                               % (field, v, len(rs),
+                                  ", ".join("%d %s" % (n, l) for l, n in sorted(byl.items())),
+                                  "" if len(rs) > 3 else ": " + ", ".join(
+                                      "%s run_%02d" % (r["document"], r["run"]) for r in rs)))
+    # Also state the settings that DID hold across every run, since that is the claim.
+    core = {json.dumps(r["core_sha256"], sort_keys=True)
+            for r in manifest["runs"] if r.get("validated")}
+    out.append("  extraction core hashes across every validated run: %d distinct%s"
+               % (len(core), " (identical code throughout)" if len(core) == 1 else
+                  " -- RUNS WERE NOT MADE BY THE SAME CODE"))
+    out.append("  manifest core_verified=%s, divergences=%s"
+               % (manifest.get("core_verified"), manifest.get("divergences")))
     return out
 
 
@@ -416,8 +457,10 @@ def main(argv=None) -> int:
         manifest = json.load(f)
     print("PROVENANCE CHECK" if not args.markdown else "## Provenance check\n")
     for line in integrity(manifest):
-        print(("    " if line.startswith("  !!") else "  ") + line.strip()
-              if not args.markdown else "- " + line.strip())
+        # Indentation is the structure here -- a nested detail belongs under its finding --
+        # so the line is printed as built rather than stripped and re-indented.
+        print(("  " + line) if not args.markdown else
+              ("" if not line.strip() else "- " + line.strip()))
     cells = build(manifest)
     if not cells:
         raise SystemExit("no validated runs in the manifest")
