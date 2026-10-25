@@ -98,15 +98,24 @@ def main(argv=None) -> int:
     # for the same reason -- a five-model comparison pooled into one block describes no model.
     # The prompt is identified by rules_sha where a run recorded one, because a commit that
     # touches nothing in the prompt should not split a condition in two.
+    # CONDITION is in the key, not just temperature. The axis is not always temperature:
+    # every Anthropic model rejects one, so those runs vary reasoning effort instead and
+    # carry temperature None in every condition. Grouping on temperature alone therefore
+    # pooled the low-effort and high-effort halves of the 2026-10 study into single n=6
+    # blocks that described neither -- the precise failure the paragraph above warns about,
+    # reintroduced through a different column.
     by_doc: dict[tuple, list] = {}
     for r in manifest["runs"]:
-        by_doc.setdefault((r["document"], r.get("model"), r.get("temperature"),
+        by_doc.setdefault((r["document"], r.get("model"), r.get("condition"),
+                           r.get("temperature"),
                            r.get("rules_sha") or r["commit"][:7]), []).append(r)
 
-    for (doc, model, temp, prompt), runs in sorted(
-            by_doc.items(), key=lambda kv: (kv[0][0], str(kv[0][1]), kv[0][2] or 0, kv[0][3])):
-        doc = "%s  (%s, temperature %g, prompt %s)" % (
-            doc, model or "model?", temp if temp is not None else -1, prompt)
+    for (doc, model, cond, temp, prompt), runs in sorted(
+            by_doc.items(), key=lambda kv: (kv[0][0], str(kv[0][1]), str(kv[0][2]),
+                                            kv[0][3] or 0, kv[0][4])):
+        doc = "%s  (%s, condition %s, temperature %s, prompt %s)" % (
+            doc, model or "model?", cond or "?",
+            "n/a" if temp is None else ("%g" % temp), prompt)
         runs.sort(key=lambda r: r["run"])
         print("\n" + "=" * 78)
         print("%s -- %d run(s) of %s" % (doc, len(runs), runs[0]["model"]))

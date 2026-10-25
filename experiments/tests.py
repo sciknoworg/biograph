@@ -834,6 +834,72 @@ def test_the_variability_runner_bounds_its_children_and_keeps_its_evidence():
           "`output` is None on exactly the runs worth diagnosing, so it cannot carry this")
 
 
+def test_the_variability_aggregate_statistics():
+    """aggregate.py rolls 30 cells up into the figures a paper states, so its two
+    non-obvious pieces are checked against values that can be worked out by hand.
+
+    The exact Wilcoxon signed-rank test is enumerated over all 2^n sign assignments
+    rather than taken from a table or a normal approximation, because n is 10 documents.
+    For n all-positive differences only two assignments are at least as extreme as the
+    observed one, so the two-sided p is 2/2^n exactly -- 0.001953 at n=10. A perfectly
+    symmetric set of differences must give p=1. Zeros are dropped, Wilcoxon's own
+    convention, which costs power and not validity.
+
+    The agreement split is the study's actual claim, so core must mean "in every draw"
+    and not "in most", and both shares are fractions of the union rather than of any one
+    draw's size.
+    """
+    import importlib.util
+
+    path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                        "paper_evidence", "variability", "aggregate.py")
+    spec = importlib.util.spec_from_file_location("_aggregate", path)
+    ag = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(ag)
+
+    p, pos, neg = ag.wilcoxon_exact([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+    check("n=10 all positive gives the exact two-sided p", abs(p - 2 / 1024) < 1e-12,
+          "%.8f against 2/2^10" % p)
+    check("and counts every document as a win", (pos, neg) == (10, 0), str((pos, neg)))
+    p, _, _ = ag.wilcoxon_exact([-x for x in range(1, 11)])
+    check("the test is two-sided, so the sign does not change p",
+          abs(p - 2 / 1024) < 1e-12, "%.8f" % p)
+    p, _, _ = ag.wilcoxon_exact([1, -1, 2, -2, 3, -3])
+    check("symmetric differences give p=1", abs(p - 1.0) < 1e-12, "%.8f" % p)
+    p, pos, neg = ag.wilcoxon_exact([0, 0, 1, 2, 3])
+    check("zero differences are dropped, not counted as ties for either side",
+          (pos, neg) == (3, 0) and abs(p - 2 / 8) < 1e-12, str((p, pos, neg)))
+    check("no differences at all is reported rather than divided by zero",
+          ag.wilcoxon_exact([0, 0]) == (None, 0, 0))
+
+    # Agreement over three draws worked out by hand: union {a,b,c,d}, a in all three,
+    # b in two, c and d in one each.
+    a = ag.agreement([{"a", "b", "c"}, {"a", "b"}, {"a", "d"}])
+    check("the union is every item any draw found", a["union"] == 4, str(a))
+    check("core counts only what EVERY draw found", abs(a["core"] - 1 / 4) < 1e-12, str(a))
+    check("volatile counts what exactly one draw found",
+          abs(a["singleton"] - 2 / 4) < 1e-12, str(a))
+    # pairwise: |AB|/|AuB| = 2/3, |AC|/|AuC| = 1/4, |BC|/|BuC| = 1/3
+    check("Jaccard is the mean over all pairs, not over draws",
+          abs(a["jaccard"] - (2 / 3 + 1 / 4 + 1 / 3) / 3) < 1e-12, str(a["jaccard"]))
+    ident = ag.agreement([{"a", "b"}, {"a", "b"}, {"a", "b"}])
+    check("three identical draws are all core and no volatile",
+          ident["core"] == 1.0 and ident["singleton"] == 0.0 and ident["jaccard"] == 1.0,
+          str(ident))
+    disj = ag.agreement([{"a"}, {"b"}, {"c"}])
+    check("three disjoint draws have no core at all",
+          disj["core"] == 0.0 and disj["singleton"] == 1.0 and disj["jaccard"] == 0.0,
+          str(disj))
+    check("an empty cell does not divide by zero",
+          ag.agreement([set(), set()])["core"] is None)
+
+    cvv = ag.cv([10, 10, 10])
+    check("identical counts have no spread", cvv == 0.0, str(cvv))
+    check("one draw cannot have a spread", ag.cv([7]) is None)
+    check("CV is sd over mean", abs(ag.cv([8, 10, 12]) - (2.0 / 10)) < 1e-12,
+          str(ag.cv([8, 10, 12])))
+
+
 def inspect_source(fn):
     import inspect
     return inspect.getsource(fn)
@@ -2056,6 +2122,7 @@ def main() -> int:
                test_a_technical_failure_is_not_cached,
                test_a_timeout_fails_one_document_not_the_run,
                test_the_variability_runner_bounds_its_children_and_keeps_its_evidence,
+               test_the_variability_aggregate_statistics,
                test_every_adapter_scores_the_way_the_cli_calls_it,
                test_grounding_parses_the_shipped_checker, test_grounding_aggregate,
                test_grounding_protocol_shape,
