@@ -51,7 +51,7 @@ REPO_ROOT = os.path.dirname(os.path.dirname(HERE))
 sys.path.insert(0, REPO_ROOT)
 
 from experiments.harness import sandbox                      # noqa: E402
-from experiments.harness.runner import parse_grounding       # noqa: E402
+from experiments.harness.runner import _run_bounded, parse_grounding  # noqa: E402
 
 #: The two documents the 2026-09-04 comparison used. Same documents, so a future recovery of
 #: that mapping makes the two studies comparable.
@@ -333,6 +333,33 @@ def claim_run(manifest: dict, doc_key: str, outdir: str):
             continue
 
 
+def keep_raw_replies(subjects_dir: str, slug: str, dest: str) -> str | None:
+    """Copy a run's unparseable raw replies out of the sandbox. -> the folder, or None.
+
+    extract() writes a reply it could not parse cleanly to subjects/<slug>/_raw, but
+    build_site.py derives that path from its own __file__, so under this runner it lands
+    INSIDE THE SANDBOX -- which is deleted when the run ends. The one artefact that
+    explains an empty or salvaged extraction was being thrown away with it: a Qwen draw
+    on hooke came back empty after 5,340 seconds and exit 0, and nothing survived to say
+    whether the reply had been truncated or the model had genuinely found nothing.
+
+    The path is rebuilt from the slug rather than from the document folder on purpose. An
+    empty extraction can leave no document folder at all, and that is exactly the case the
+    raw reply is needed for.
+    """
+    src = os.path.join(subjects_dir, slug, "_raw")
+    if not os.path.isdir(src):
+        return None
+    out = os.path.join(dest, "_raw")
+    try:
+        # dirs_exist_ok, because the run folder was claimed by mkdir before the run started.
+        shutil.copytree(src, out, dirs_exist_ok=True)
+    except OSError as e:
+        print("  (could not keep the raw replies: %s)" % e)
+        return None
+    return out
+
+
 def find_doc_dir(sb, slug: str) -> str | None:
     for dirpath, _dirnames, filenames in os.walk(sb.subjects_dir):
         if os.path.basename(os.path.dirname(dirpath)) == slug and "events.json" in filenames:
@@ -536,29 +563,32 @@ def main(argv=None) -> int:
                   # not a reason to abandon the other four. qwen3.8-27b hit 2400s on its first
                   # draw and the unhandled TimeoutExpired killed the whole study, losing the
                   # claimed run folder and leaving its sandbox behind.
+                  #
+                  # The bound is enforced by the harness's file-based runner rather than by
+                  # subprocess.run(timeout=). With pipes, subprocess.run's timeout path kills
+                  # the child and then calls communicate() a SECOND time with no timeout, so a
+                  # grandchild that survives holding the write end of the pipe leaves this
+                  # waiting for an EOF that never comes -- and a bound that can be waited past
+                  # is not a bound. _run_bounded hands the child files instead, which have no
+                  # reader to block, and kills the whole process tree (taskkill /T on Windows,
+                  # killpg elsewhere) rather than one process. It is imported, not copied, so
+                  # there is one implementation of the bound; parse_grounding already comes
+                  # from that module.
+                  #
+                  # What the child printed before it was killed is kept either way. Discarding
+                  # it threw away the only evidence of WHY a run timed out -- whether the model
+                  # was streaming steadily and simply had more to say, or produced nothing at
+                  # all for the whole timeout. Those are different failures and the log is the
+                  # only thing that tells them apart.
                   start = time.perf_counter()
-                  timed_out = False
-                  try:
-                      proc = subprocess.run(cmd, capture_output=True, text=True,
-                                            encoding="utf-8", errors="replace", env=env,
-                                            cwd=sb.root, timeout=args.timeout)
-                  except subprocess.TimeoutExpired as exc:
-                      # Keep what the child printed before it was killed. TimeoutExpired carries
-                      # it, and discarding it threw away the only evidence of WHY a run timed
-                      # out -- whether the model was streaming steadily and simply had more to
-                      # say, or produced nothing at all for the whole timeout. Those are
-                      # different failures and the log is the only thing that tells them apart.
-                      timed_out = True
-                      partial = exc.stdout or exc.output or ""
-                      if isinstance(partial, bytes):
-                          partial = partial.decode("utf-8", "replace")
-                      err = exc.stderr or b""
-                      if isinstance(err, bytes):
-                          err = err.decode("utf-8", "replace")
-                      proc = subprocess.CompletedProcess(
-                          cmd, -1, partial,
-                          (err + "\n" if err else "") + "timed out after %ds" % args.timeout)
+                  returncode, out, err, timed_out = _run_bounded(
+                      cmd, env, sb.root, args.timeout, sb.root, slug)
                   wall = time.perf_counter() - start
+                  # A run that hits the bound now reports 124, the conventional shell exit code
+                  # for a timeout, where the pipe-based path reported -1. Nothing should key on
+                  # either: `timed_out` is the manifest field that says a run hit the bound, and
+                  # the two timed-out rows recorded before this change still carry -1.
+                  proc = subprocess.CompletedProcess(cmd, returncode, out, err)
 
                   ddir = find_doc_dir(sb, slug)
                   counts = {}
@@ -576,6 +606,12 @@ def main(argv=None) -> int:
                                   counts[nm] = len(json.load(f))
                           except (OSError, ValueError):
                               counts[nm] = None
+
+                  # Before the sandbox goes: the raw replies are the only record of why an
+                  # empty or salvaged extraction came out the way it did.
+                  raw_dest = keep_raw_replies(sb.subjects_dir, slug, dest)
+                  raw_rel = (os.path.relpath(raw_dest, REPO_ROOT).replace(os.sep, "/")
+                             if raw_dest else None)
 
                   g = parse_grounding(proc.stdout)
                   record = {
@@ -615,6 +651,11 @@ def main(argv=None) -> int:
                                      "entities_checked": g.entities_checked} if g else None),
                       "output": os.path.relpath(dest, REPO_ROOT).replace(os.sep, "/")
                                 if ddir else None,
+                      # `output` stays None when the extraction produced no document folder,
+                      # so on exactly the runs worth diagnosing it pointed nowhere. This says
+                      # where the evidence for such a run is. Absent on rows written before
+                      # the replies were kept.
+                      "raw_replies": raw_rel,
                   }
                   # The driver discards stdout, which is fine for a run that worked and fatal
                   # for one that did not: the scope verdict, the JSON-retry notes and the

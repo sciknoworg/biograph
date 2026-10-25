@@ -759,6 +759,81 @@ def test_a_timeout_fails_one_document_not_the_run():
           "extract() should no longer read output off TimeoutExpired")
 
 
+def test_the_variability_runner_bounds_its_children_and_keeps_its_evidence():
+    """paper_evidence/variability/run_variability.py drives the same CLI this harness does,
+    and it reached the same two conclusions the hard way.
+
+    It spent the whole 2026-10 study on subprocess.run(timeout=) over pipes. That timeout
+    is not a bound: on a hit, subprocess.run kills the child and then calls communicate()
+    a SECOND time with no timeout, so a surviving grandchild holding the write end of the
+    pipe leaves the parent waiting on an EOF that never arrives. _run_bounded exists
+    because this cost four hours on one stalled document here; the variability runner now
+    uses it rather than carrying a second, weaker copy of the idea.
+
+    Separately, build_site.py keeps an unparseable reply at subjects/<slug>/_raw, deriving
+    that path from its own __file__ -- so under a sandboxed runner the replies are written
+    into the sandbox and deleted with it. One Qwen draw came back empty after 5,340 seconds
+    with exit 0 and could not be diagnosed at all, because the reply was gone.
+    """
+    import importlib.util
+    import io
+    import tempfile
+
+    rv_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                           "paper_evidence", "variability", "run_variability.py")
+    spec = importlib.util.spec_from_file_location("run_variability", rv_path)
+    rv = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(rv)
+
+    src = io.open(rv_path, encoding="utf-8").read()
+    check("the variability runner routes through the bounded runner",
+          "_run_bounded(" in src)
+    # Comments are skipped, because the comment explaining the fix names the call it
+    # replaced, and a bare substring search cannot tell the two apart.
+    code = [ln for ln in src.splitlines() if not ln.lstrip().startswith("#")]
+    check("and no longer bounds a child with subprocess.run's own timeout",
+          not any("subprocess.run(" in ln for ln in code),
+          "a pipe-based timeout is not a bound")
+    check("it shares the harness's implementation rather than copying it",
+          "from experiments.harness.runner import _run_bounded" in src)
+
+    # The raw replies, for real, on disk.
+    tmp = tempfile.mkdtemp(prefix="rawkeep-")
+    try:
+        subjects = os.path.join(tmp, "subjects")
+        raw = os.path.join(subjects, "hooke_var_08", "_raw")
+        os.makedirs(raw)
+        io.open(os.path.join(raw, "reply_20261024T010203_empty_graph.txt"),
+                "w", encoding="utf-8").write("{truncated mid-graph")
+        dest = os.path.join(tmp, "run_08")
+        os.mkdir(dest)                      # claim_run() makes it before the run starts
+
+        out = rv.keep_raw_replies(subjects, "hooke_var_08", dest)
+        check("the raw reply is copied out of the sandbox",
+              out and os.path.isfile(os.path.join(out, "reply_20261024T010203_empty_graph.txt")),
+              str(out))
+        check("and its contents survive the move",
+              io.open(os.path.join(out, "reply_20261024T010203_empty_graph.txt"),
+                      encoding="utf-8").read() == "{truncated mid-graph")
+        check("it lands inside the claimed run folder",
+              out == os.path.join(dest, "_raw"), str(out))
+
+        # Called twice, as a re-run of the same index would: must not raise on an
+        # existing folder, which is why dirs_exist_ok is passed.
+        check("copying into an already-claimed folder does not raise",
+              rv.keep_raw_replies(subjects, "hooke_var_08", dest) is not None)
+
+        # A run whose reply parsed cleanly writes no _raw at all, and that is not a failure.
+        check("a run with nothing to keep reports nothing",
+              rv.keep_raw_replies(subjects, "galton_var_01", dest) is None)
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+    check("the manifest records where the replies went",
+          '"raw_replies": raw_rel' in src,
+          "`output` is None on exactly the runs worth diagnosing, so it cannot carry this")
+
+
 def inspect_source(fn):
     import inspect
     return inspect.getsource(fn)
@@ -1980,6 +2055,7 @@ def main() -> int:
                test_adapters_survive_a_non_string_entity_reference,
                test_a_technical_failure_is_not_cached,
                test_a_timeout_fails_one_document_not_the_run,
+               test_the_variability_runner_bounds_its_children_and_keeps_its_evidence,
                test_every_adapter_scores_the_way_the_cli_calls_it,
                test_grounding_parses_the_shipped_checker, test_grounding_aggregate,
                test_grounding_protocol_shape,
